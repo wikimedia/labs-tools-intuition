@@ -1,6 +1,6 @@
 <?php
 /**
- * Interface messages for Jarry's general interface for all tools
+ * Interface messages for Jarry's general tool interface.
  *
  * @toolowner jarry
  */

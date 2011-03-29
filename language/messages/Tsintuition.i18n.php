@@ -1,6 +1,6 @@
 <?php
 /**
- * Interface messages for TsIntuition
+ * Interface messages for TsIntuition.
  *
  * @toolowner krinkle
  */
@@ -13,15 +13,16 @@
 $messages['en'] = array(
 	'title' =>	'TsIntuition', // Do not translate
 	'fullname' => 'Internationalization for Toolserver\'s User Interface',
+	'current-settings' => 'Current settings',
 	'current-language' => 'Currently selected language',
 	'settings-legend' => 'Settings',
 	'choose-language' => 'Choose a language',
+	'clear-memory' => 'Clear cookies',
+	'cookie-expiration' => 'Cookie expiration',
 );
 
 /**
  * Documentation
- *
- * @author Krinkle
  */
 $messages['qqq'] = array(
 );
@@ -33,13 +34,16 @@ $messages['qqq'] = array(
  */
 $messages['nl'] = array(
 	'fullname' => 'Vertaling voor Toolserver\'s gebruikersinterface',
+	'current-settings' => 'Huidige instellingen',
 	'current-language' => 'Huidige taal',
 	'settings-legend' => 'Instellingen',
 	'choose-language' => 'Kies een taal',
+	'clear-memory' => 'Cookies wissen',
+	'cookie-expiration' => 'Cookie verlooptijd',
 );
 
 /**
- * Nederlands
+ * Deutsch
  *
  * @author Krinkle
  */

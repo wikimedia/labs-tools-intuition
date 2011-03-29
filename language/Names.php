@@ -1,5 +1,5 @@
 <?php
-// Source: http://svn.wikimedia.org/svnroot/mediawiki/trunk/phase3/languages/Names.php?revision=84464
+// From: http://svn.wikimedia.org/svnroot/mediawiki/trunk/phase3/languages/Names.php?revision=84464
 /**
   * These determine things like interwikis, language selectors, and so on.
   * Safe to change without running scripts on the respective sites.

@@ -1,0 +1,66 @@
+.cookie-health.perfect {
+	background: rgb(0, 215, 0);
+}
+.cookie-health.good {
+	background: rgb(255, 215, 0);
+}
+.cookie-health.bad {
+	background: rgb(255, 165, 0);
+}
+.cookie-health.worst {
+	background: rgb(255, 0, 0);
+}
+
+
+/* Clean forms */
+form.cleanform {
+	width: 100%
+}
+form.cleanform fieldset {
+	border: 1px solid threedface;
+	padding: 10px }
+form.cleanform fieldset legend {
+	font-size: 1.1em;
+	padding: 0px 5px }
+form.cleanform label {
+	display: block;
+	float: left;
+	margin: 5px 0px 0px;
+	padding: 0px;
+	text-align: right;
+	width: 210px;
+}
+form.cleanform input {
+	padding: 5px 8px;
+	display: inline-block;
+}
+form.cleanform input,
+form.cleanform select,
+form.cleanform textarea,
+form.cleanform span {
+	margin: 5px 0px 3px 10px;
+	width: auto;
+	padding: 5px 8px;
+}
+form.cleanform input[type=text],
+form.cleanform input[type=password] {
+	border: 1px solid #CCC;
+	width: 240px;
+	font-size: 1.1em;
+}
+form.cleanform select {
+	position: relative !important;
+}
+form.cleanform br,
+form.cleanform span {
+	clear: both;
+}
+form.cleanform span {
+	display: block;
+	margin: -3px 0px 3px 160px;
+	padding: 0;
+	text-align: left;
+	font-style: italic;
+	font-size: smaller;
+	clear: left;
+}
