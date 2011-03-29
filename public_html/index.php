@@ -36,12 +36,13 @@ $I18N = new TsIntuition( $opts );
  */
 require_once( '/home/krinkle/common/InitTool.php' );
 
+$svninfo = kfCwdSvnInfo();
 $toolConfig = array(
 	'displayTitle'	=> _( 'fullname' ),
 	'krinklePrefix'	=> false,
 	'simplePath'	=> '/TsIntuition/',
-	'revisionId'	=> '0.1.0',
-	'revisionDate'	=> $I18N->dateFormatted( '2011-03-15' ),
+	'revisionId'	=> "0.1.0 (<a target=\"blank\" href=\"{$svninfo['cwd_last_rev_link']}\">r{$svninfo['cwd_last_rev']}</a>)",
+	'revisionDate'	=> $I18N->dateFormatted( $svninfo['cwd_last_date'] ),
 	'styles'		=> array( 'main.css' ),
 );
 

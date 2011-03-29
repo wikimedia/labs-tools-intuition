@@ -17,7 +17,7 @@ $messages['en'] = array(
 	'current-language' => 'Currently selected language',
 	'settings-legend' => 'Settings',
 	'choose-language' => 'Choose a language',
-	'clear-memory' => 'Clear cookies',
+	'clear-memory' => 'clear cookies',
 	'cookie-expiration' => 'Cookie expiration',
 );
 
@@ -38,7 +38,7 @@ $messages['nl'] = array(
 	'current-language' => 'Huidige taal',
 	'settings-legend' => 'Instellingen',
 	'choose-language' => 'Kies een taal',
-	'clear-memory' => 'Cookies wissen',
+	'clear-memory' => 'cookies wissen',
 	'cookie-expiration' => 'Cookie verlooptijd',
 );
 
