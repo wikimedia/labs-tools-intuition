@@ -1,10 +1,10 @@
-[General]
+General
 
-[Getwikiapi]
+Getwikiapi
 ignored = title
 
-[Svgtranslate]
+Svgtranslate
 optional = format-filename-example, format-fullurl-example
 
-[Tsintuition]
+Tsintuition
 ignored = title
