@@ -17,14 +17,19 @@ $messages['en'] = array(
 	'current-language' => 'Currently selected language',
 	'settings-legend' => 'Settings',
 	'choose-language' => 'Choose a language',
-	'clear-memory' => 'clear cookies',
+	'clear-cookies' => 'clear cookies',
+	'renew-cookies' => 'renew cookies',
 	'cookie-expiration' => 'Cookie expiration',
+	'clearcookies-success' => 'Succesfully cleared cookies.',
+	'renewcookies-success' => 'Cookies renewed! You\'re all set for the next $1.',
 );
 
 /**
  * Documentation
  */
 $messages['qqq'] = array(
+	'clearcookies-success' => 'Message displayed after cookies are cleared.',
+	'renewcookies-success' => 'This message is shown after the cookies are renewed. The $1 variable contains the period of time until the cookies will expire (eg. "30 days")..',
 );
 
 /**
@@ -38,8 +43,10 @@ $messages['nl'] = array(
 	'current-language' => 'Huidige taal',
 	'settings-legend' => 'Instellingen',
 	'choose-language' => 'Kies een taal',
-	'clear-memory' => 'cookies wissen',
+	'clear-cookies' => 'cookies wissen',
 	'cookie-expiration' => 'Cookie verlooptijd',
+	'clearcookies-success' => 'Cookies gewist.',
+	'renewcookies-success' => 'Cookies vernieuwd! Je bent weer helemaal gereed voor de komende $1.',
 );
 
 /**

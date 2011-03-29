@@ -28,6 +28,7 @@ class TsIntuition {
 	 * ------------------------------------------------- */
 
 	private $localBaseDir = '/home/krinkle/TsIntuition'; // to be moved to p_i18n
+	private $iniFilePath = '/toolserver-defines.txt';
 
 	private $suppresserrors = false;
 	private $suppressnotices = true;
@@ -37,6 +38,10 @@ class TsIntuition {
 	private $useRequestParam = true;
 
 	private $currentLanguage = 'en';
+
+	// Not loaded/needed by default.
+	// This variable is used as cache for the ini file once loaded through loadIni()
+	private $iniCache = null;
 
 	// Changing this will invalidate all cookies
 	private $cookieNames = array( 'userlang' => 'TsIntuition_userlang', 'track-expire' => 'TsIntuition_expiry' );
@@ -86,6 +91,7 @@ class TsIntuition {
 	 * - param
 	 */
 	function __construct( $options = array() ) {
+
 		if ( is_string( $options) ) {
 			$options = array( 'domain' => $options );
 		}
@@ -483,6 +489,15 @@ class TsIntuition {
 		return is_array( $this->langNames ) ? $this->langNames : array();
 	}
 
+	public function getAvailableLangs() {
+		$return = array();
+		foreach( array_keys( $this->availableLanguages ) as $lang ) {
+			$return[$lang] = $this->getLangName( $lang );
+		}
+		ksort( $return );
+		return $return;
+	}
+
 
 	/* Textdomain functions
 	 * ------------------------------------------------- */
@@ -540,6 +555,7 @@ class TsIntuition {
 		if ( !isset( $data['messages'] ) || !is_array( $data['messages'] ) ) {
 			$this->errTrigger( 'No $messages array found', __METHOD__ , E_ERROR, $filePath );
 		}
+		unset( $data['messages']['qqq'] ); // Workaround
 		// Load the message into the blob
 		// overwrites the existing array of messages if it already existed
 		// If you need to add or overwrite some messages temporarily, use Itui::setMsg() or Itui::setMsgs() instead
@@ -587,7 +603,8 @@ class TsIntuition {
 	}
 
 	/**
-	 * @DOCME
+	 * Browsers don't send the expiration date of cookies with the request
+	 * In order to keep track of the expiration date, we set an additional cookie.
 	 */
 	private function setExpiryTrackerCookie( $lifetime ) {
 		$expire = time() + intval( $lifetime );
@@ -602,7 +619,7 @@ class TsIntuition {
 		foreach( $this->getCookieNames() as $name ) {
 			$this->setCookie( $name, $_COOKIE[$name], $lifetime, false );
 		}
-		$this-setExpiryTrackerCookie();
+		$this->setExpiryTrackerCookie( $lifetime );
 		return true;
 	}
 
@@ -640,6 +657,87 @@ class TsIntuition {
 		// If already expired (-xxx), return 0
 		return $lifetime < 0 ? 0 : $lifetime;
 	}
+
+
+	/* Load functions
+	 * ------------------------------------------------- */
+
+
+	/**
+	 * Load fallbacks
+	 *
+	 * @private
+	 *
+	 * @return true
+	 */
+	private function loadFallbacks(){
+
+		// Don't load twice
+		if ( is_array( $this->langFallbacks ) ) {
+			return false;
+		}
+
+		$path = $this->localBaseDir . '/language/Fallbacks.php';
+		if ( !file_exists( $path ) ) {
+			$this->errTrigger( 'Fallbacks.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			return false;
+		}
+
+		// Load it
+		$fallbacks = array();
+		include( $path );
+		$this->langFallbacks = $fallbacks;
+
+		return true;
+	}
+
+	/**
+	 * Load names
+	 *
+	 * @private
+	 *
+	 * @return true
+	 */
+	private function loadNames(){
+
+		// Don't load twice
+		if ( is_array( $this->langNames ) ) {
+			return false;
+		}
+
+		$path = $this->localBaseDir . '/language/Names.php';
+		if ( !file_exists( $path ) ) {
+			$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			return false;
+		}
+
+		// Load it
+		$wgLanguageNames = array();
+		include( $path );
+		$this->langNames = $wgLanguageNames;
+
+		return true;
+	}
+
+	/**
+	 * Load ini
+	 *
+	 * @private
+	 *
+	 * @return true
+	 */
+	public function loadIni(){
+
+		// Don't load twice
+		if ( !is_null( $this->iniCache ) ) {
+			return false;
+		}
+
+		// Load it
+		$this->iniCache = parse_ini_file( $this->localBaseDir . $this->iniFilePath, true, INI_SCANNER_RAW );
+		return true;
+	}
+	
 
 
 	/* Other functions
@@ -713,62 +811,6 @@ class TsIntuition {
 
 		return $return;
 
-	}
-
-	/**
-	 * Load fallbacks
-	 *
-	 * @private
-	 *
-	 * @return true
-	 */
-	private function loadFallbacks(){
-
-		// Don't load twice
-		if ( is_array( $this->langFallbacks ) ) {
-			return false;
-		}
-
-		$path = $this->localBaseDir . '/language/Fallbacks.php';
-		if ( !file_exists( $path ) ) {
-			$this->errTrigger( 'Fallbacks.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-
-		// Load it
-		$fallbacks = array();
-		include( $path );
-		$this->langFallbacks = $fallbacks;
-
-		return true;
-	}
-
-	/**
-	 * Load names
-	 *
-	 * @private
-	 *
-	 * @return true
-	 */
-	private function loadNames(){
-
-		// Don't load twice
-		if ( is_array( $this->langNames ) ) {
-			return false;
-		}
-
-		$path = $this->localBaseDir . '/language/Names.php';
-		if ( !file_exists( $path ) ) {
-			$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-
-		// Load it
-		$wgLanguageNames = array();
-		include( $path );
-		$this->langNames = $wgLanguageNames;
-
-		return true;
 	}
 
 	/**

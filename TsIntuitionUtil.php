@@ -54,7 +54,7 @@ class TsIntuitionUtil {
 	}
 
 	/**
-	 * Pass one or more arguments which will be checked untill one fails
+	 * Pass one or more arguments which will be checked until one fails
 	 * If atleast one argument is not a non-empty string, or if no arguments / NULL passed
 	 * it will return false, otherwise true;
 	 */
