@@ -358,6 +358,7 @@ class TsIntuition {
 		// Just in case, one last check:
 		$rawMsg = $this->rawMsg( $domain, $lang, $key );
 		if ( is_null( $rawMsg ) ) {
+			$this->errTrigger( "Message \"$key\" in \"$domain\" undefined", __METHOD__, E_NOTICE );
 			// Fall back to a simple [keyname]
 			return $this->bracketMsg( $key );
 		}
