@@ -207,8 +207,20 @@ class TsIntuition {
 		return array_values( array_unique( $return ) );
 	}
 
+	/**
+	 * DOCME
+	 * @return string
+	 */
 	public function getDomain(){
 		return $this->currentTextdomain;
+	}
+
+	/**
+	 * DOCME
+	 * @return array
+	 */
+	public function getAllRegisteredDomain(){
+		return $this->registeredTextdomains;
 	}
 
 	/**
