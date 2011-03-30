@@ -27,8 +27,15 @@ class TsIntuition {
 	/* Variables
 	 * ------------------------------------------------- */
 
-	private $localBaseDir = '/home/krinkle/TsIntuition'; // to be moved to p_i18n
-	private $iniFilePath = '/toolserver-defines.txt';
+	private $localBaseDir = __DIR__; // to be moved to p_i18n
+
+	private static $registeredTextdomains = array(
+		'General'		=> 'General.i18n.php',
+		'Getwikiapi'	=> 'Getwikiapi.i18n.php',
+		'Jarry'			=> 'Jarry.i18n.php',
+		'Svgtranslate'	=> 'Svgtranslate.i18n.php',
+		'Tsintuition'	=> 'Tsintuition.i18n.php',
+	);
 
 	private $suppresserrors = false;
 	private $suppressnotices = true;
@@ -38,10 +45,6 @@ class TsIntuition {
 	private $useRequestParam = true;
 
 	private $currentLanguage = 'en';
-
-	// Not loaded/needed by default.
-	// This variable is used as cache for the ini file once loaded through loadIni()
-	private $iniCache = null;
 
 	// Changing this will invalidate all cookies
 	private $cookieNames = array( 'userlang' => 'TsIntuition_userlang', 'track-expire' => 'TsIntuition_expiry' );
@@ -716,25 +719,6 @@ class TsIntuition {
 		include( $path );
 		$this->langNames = $wgLanguageNames;
 
-		return true;
-	}
-
-	/**
-	 * Load ini
-	 *
-	 * @private
-	 *
-	 * @return true
-	 */
-	public function loadIni(){
-
-		// Don't load twice
-		if ( !is_null( $this->iniCache ) ) {
-			return false;
-		}
-
-		// Load it
-		$this->iniCache = parse_ini_file( $this->localBaseDir . $this->iniFilePath, true, INI_SCANNER_RAW );
 		return true;
 	}
 	
