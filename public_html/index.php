@@ -30,6 +30,12 @@ $opts = array(
 );
 $I18N = new TsIntuition( $opts );
 
+// Load all domains so can get some statistics later on and
+// make sure "getAvailableLangs" is compelte
+foreach ( $I18N->getAllRegisteredDomains() as $domain => $file ) {
+	$I18N->loadTextdomain( $domain );
+}
+
 /**
  * Configuration
  * -------------------------------------------------

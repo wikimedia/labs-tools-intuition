@@ -30,7 +30,7 @@ class TsIntuition {
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
 	private static $registeredTextdomains = array(
-		'General'		=> 'General.i18n.php',
+		'general'		=> 'General.i18n.php',
 		'Getwikiapi'	=> 'Getwikiapi.i18n.php',
 		'Jarry'			=> 'Jarry.i18n.php',
 		'Svgtranslate'	=> 'Svgtranslate.i18n.php',
@@ -53,7 +53,7 @@ class TsIntuition {
 	private $paramNames = array( 'userlang' => 'userlang' );
 
 	// Here everything will be stored as arrays in arrays
-	// Such as: $messageBlob['textdomain']['messagename']['langcode'] = 'Message string';
+	// Such as: $messageBlob['Textdomain']['messagename']['langcode'] = 'Message string';
 	private $messageBlob = array();
 
 	// $loadedTextdomains[0] = 'general';
@@ -131,7 +131,7 @@ class TsIntuition {
 		// Otherwise defaults to 'general'. See also documentation of msg()
 		// First character is case-insensitive
 		if ( isset( $options['domain'] ) ) {
-			$this->setDomain( trim( lcfirst( $options['domain'] ) ) );
+			$this->setDomain( $options['domain'] );
 		}
 
 		// TsIntuition will choose the language based on a cookie. However it
@@ -208,7 +208,7 @@ class TsIntuition {
 	}
 
 	/**
-	 * DOCME
+	 * Return the currently selected text domain.
 	 * @return string
 	 */
 	public function getDomain(){
@@ -216,11 +216,11 @@ class TsIntuition {
 	}
 
 	/**
-	 * DOCME
+	 * Get an array of all registered textd domains.
 	 * @return array
 	 */
-	public function getAllRegisteredDomain(){
-		return $this->registeredTextdomains;
+	public function getAllRegisteredDomains(){
+		return self::$registeredTextdomains;
 	}
 
 	/**
@@ -228,7 +228,7 @@ class TsIntuition {
 	 * @return true
 	 */
 	public function setDomain( $domain ) {
-		$this->currentTextdomain = $domain;
+		$this->currentTextdomain = ucfirst( strtolower( $domain ) );
 		return true;
 	}
 
@@ -341,29 +341,29 @@ class TsIntuition {
 		}
 
 		// First character of the message-key is case-insensitive.
-		$key = trim( lcfirst( $key ) );
+		$key = lcfirst( $key );
+		$domain = ucfirst( strtolower( $options['domain'] ) );
 
 		// Load if not already loaded
-		$this->loadTextdomain( $options['domain'] );
+		$this->loadTextdomain( $domain );
 
-		// In case the domainname was invalid or inexistant
-		if ( !isset( $this->messageBlob[$options['domain']] ) ) {
+		// In case the domain name was invalid or inexistant
+		if ( !isset( $this->messageBlob[$domain] ) ) {
 			return $this->bracketMsg( $key );
 		}
 
 		// Use fallback if this message doesn't exist in the current language
-		$lang = $this->getLangForTextdomain( $options['lang'], $options['domain'], $key );
+		$lang = $this->getLangForTextdomain( $options['lang'], $domain, $key );
 
 		// Just in case, one last check:
-		if ( isset( $this->messageBlob[$options['domain']][$lang][$key] ) ) {
-			// We're ok, let's grab it
-			$msg = $this->messageBlob[$options['domain']][$lang][$key];
-		} else {
+		$rawMsg = $this->rawMsg( $domain, $lang, $key );
+		if ( is_null( $rawMsg ) ) {
 			// Fall back to a simple [keyname]
 			return $this->bracketMsg( $key );
 		}
 
 		/* Now that we've got the message, do post-processing. */
+		$msg = $rawMsg;
 
 		$escapeDone = false;
 
@@ -391,6 +391,21 @@ class TsIntuition {
 	}
 
 	/**
+	 * Access MessageBlob
+	 * @param $domain
+	 * @param $lang
+	 * @param $key
+	 * @return string value or null.
+	 */
+	private function rawMsg( $domain, $lang, $key ) {
+		if ( isset( $this->messageBlob[$domain][$lang][$key] ) ) {
+			return $this->messageBlob[$domain][$lang][$key];
+		} else {
+			return null;
+		}
+	} 
+
+	/**
 	 * Don't show [brackets] when suppressing errors.
 	 * In that case there could be message files missing and invalid language codes chosen.
 	 * Just return a somewhat readable string.
@@ -416,6 +431,8 @@ class TsIntuition {
 
 		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) ) {
 			$domain = $this->getDomain();
+		} else {
+			$domain = ucfirst( strtolower( $domain ) );
 		}
 		if ( !TsIntuitionUtil::nonEmptyStr( $lang ) ) {
 			$lang = $this->getLang();
@@ -444,8 +461,8 @@ class TsIntuition {
 	 * passed right away, otherwise it looks for a suitable falback
 	 *
 	 * @param $lang string Preferred language
-	 * @param $domain string Domain to search within (the existance of this domain should be checked
-	 *  before calling this function).
+	 * @param $domain string Domain to search within (the existence of this domain should be checked
+	 *  before calling this function). Note that the domainname should've been sanatized by now.
 	 * @param $key string Key of the wanted message
 	 * @return string Language code
 	 */
@@ -517,24 +534,28 @@ class TsIntuition {
 	/* Textdomain functions
 	 * ------------------------------------------------- */
 
+	/**
+	 * Load a textdomain (if not loaded already).
+	 *
+	 * @param $domain string Name of the textdomain (case-insensitive)
+	 */
 	public function loadTextdomain( $domain ) {
 
 		// Generally validate input and protect against path traversal
-		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) || $domain !== trim( strtolower( $domain ) ) || strcspn( $domain, ":/\\\000" ) !== strlen( $domain ) ) {
+		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) || strcspn( $domain, ":/\\\000" ) !== strlen( $domain ) ) {
 			$this->errTrigger( "Invalid textdomain \"$domain\"", __METHOD__, E_NOTICE );
 			return false;
 		}
+		// Sanatize domainnames (case-insensitive)
+		$domain = ucfirst( strtolower( $domain ) );
 
 		// Already loaded ?
 		if ( in_array( $domain, $this->loadedTextdomains ) ) {
 			return false;
 		}
 
-		$this->loadedTextdomains[] = $domain;
-
 		// File exists ?
-		$displayname = ucfirst( strtolower( $domain ) );
-		$path = $this->localBaseDir . "/language/messages/$displayname.i18n.php";
+		$path = $this->localBaseDir . "/language/messages/$domain.i18n.php";
 		if ( !file_exists( $path ) ) {
 			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring", __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
@@ -576,8 +597,10 @@ class TsIntuition {
 		// If you need to add or overwrite some messages temporarily, use Itui::setMsg() or Itui::setMsgs() instead
 		foreach ( $data['messages'] as $langcode => $messages ) {
 			$this->availableLanguages[$langcode] = true;
-			$this->messageBlob[$domain][$langcode] = (array)$messages;
+			$this->setMsgs( (array)$messages, $domain, $langcode );
 		}
+
+		$this->loadedTextdomains[] = $domain;
 
 
 		return true;
@@ -733,7 +756,7 @@ class TsIntuition {
 
 		return true;
 	}
-	
+
 
 
 	/* Other functions
