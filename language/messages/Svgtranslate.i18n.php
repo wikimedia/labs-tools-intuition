@@ -27,7 +27,7 @@ $messages['en'] = array(
 	'format-filename-example' => 'File:Planetary transit.svg', // Do not translate
 	'format-fullurl-example' => 'http://upload.wikimedia.org/wikipedia/commons/8/8a/Planetary_transit.svg', // Do not translate
 	'svginput-label' => 'SVG File',
-	'stats-footer' => 'This tool has been used to translate approximately $1 files since $2',
+	'stats-footer' => 'This tool has been used to translate approximately $1 files since $2.',
 );
 
 /**
@@ -47,7 +47,7 @@ $messages['qqq'] = array(
 	'translate-instructions' => 'Intro paragraph in the translation process.',
 	'format-filename-example' => '{{Notranslate}}',
 	'format-fullurl-example' => '{{Notranslate}}',
-	'svginput-label' => 'The label for main SVG filename input',
+	'svginput-label' => 'The label for main SVG filename input.',
 );
 
 /**
