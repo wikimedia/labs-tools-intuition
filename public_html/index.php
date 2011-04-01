@@ -47,7 +47,7 @@ $toolConfig = array(
 	'displayTitle'	=> _( 'fullname' ),
 	'krinklePrefix'	=> false,
 	'simplePath'	=> '/TsIntuition/',
-	'revisionId'	=> "0.1.0 (<a target=\"blank\" href=\"{$svninfo['codereview-rev']}\">r{$svninfo['checkout-rev']}</a>)",
+	'revisionId'	=> "0.1.0 (<a target=\"blank\" href=\"{$svninfo['directory-cr-rev']}\">r{$svninfo['directory-rev']}</a>)",
 	'revisionDate'	=> $I18N->dateFormatted( $svninfo['directory-up-date'] ),
 	'styles'		=> array( 'main.css' ),
 );
