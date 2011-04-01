@@ -43,11 +43,12 @@ foreach ( $I18N->getAllRegisteredDomains() as $domain => $file ) {
 require_once( '/home/krinkle/common/InitTool.php' );
 
 $svninfo = kfGetSvnInfo( '/home/krinkle/TsIntuition/' ); // parses .svn/entries
+$revUrlQuery = array( 'path' => $svninfo['directory-path'] );
 $toolConfig = array(
 	'displayTitle'	=> _( 'fullname' ),
 	'krinklePrefix'	=> false,
 	'simplePath'	=> '/TsIntuition/',
-	'revisionId'	=> "0.1.0 (<a target=\"blank\" href=\"{$svninfo['directory-cr-rev']}\">r{$svninfo['directory-rev']}</a>)",
+	'revisionId'	=> "0.1.0 (<a target=\"blank\" href=\"{$svninfo['directory-cr-rev']}?" . http_build_query($revUrlQuery) . "\">r{$svninfo['directory-rev']}</a>)",
 	'revisionDate'	=> $I18N->dateFormatted( $svninfo['directory-up-date'] ),
 	'styles'		=> array( 'main.css' ),
 );
