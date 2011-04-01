@@ -1,6 +1,6 @@
 <?php
 /**
- * Interface messages for tool "getWikiAPI".
+ * Interface messages for tool "OrphanTalk2".
  *
  * @toolowner krinkle
  */
