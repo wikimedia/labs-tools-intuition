@@ -17,21 +17,9 @@ $messages['en'] = array(
 	'colon-separator' => ':',
 	'form-submit' => 'Go',
 	'form-reset' => 'Reset',
-	'year' => 'year',
 	'years' => 'years',
-	'month' => 'month',
-	'months' => 'months',
-	'week' => 'week',
 	'weeks' => 'weeks',
-	'day' => 'day',
-	'days' => 'days',
-	'hour' => 'hour',
 	'hours' => 'hours',
-	'minute' => 'minute',
-	'minutes' => 'minutes',
-	'second' => 'second',
-	'seconds' => 'seconds',
-	
 );
 
 /**
@@ -64,20 +52,9 @@ $messages['nl'] = array(
 	'etc' => 'enz.',
 	'form-submit' => 'OK',
 	'form-reset' => 'Stel opnieuw in',
-	'year' => 'jaar',
 	'years' => 'jaren',
-	'month' => 'maand',
-	'months' => 'maanden',
-	'week' => 'week',
 	'weeks' => 'weken',
-	'day' => 'dag',
-	'days' => 'dagen',
-	'hour' => 'uur',
 	'hours' => 'uren',
-	'minute' => 'minuut',
-	'minutes' => 'minuten',
-	'second' => 'seconde',
-	'seconds' => 'seconden',
 );
 
 /**
