@@ -30,12 +30,13 @@ class TsIntuition {
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
 	private static $registeredTextdomains = array(
-		'general'		=> 'General.i18n.php',
-		'Getwikiapi'	=> 'Getwikiapi.i18n.php',
-		'Jarry'			=> 'Jarry.i18n.php',
-		'Orphantalk2'	=> 'Orphantalk2.i18n.php',
-		'Svgtranslate'	=> 'Svgtranslate.i18n.php',
-		'Tsintuition'	=> 'Tsintuition.i18n.php',
+		'general'			=> 'General.i18n.php',
+		'Getwikiapi'		=> 'Getwikiapi.i18n.php',
+		'Jarry'				=> 'Jarry.i18n.php',
+		'Monumentsearch'	=> 'Monumentsearch.i18n.php',
+		'Orphantalk2'		=> 'Orphantalk2.i18n.php',
+		'Svgtranslate'		=> 'Svgtranslate.i18n.php',
+		'Tsintuition'		=> 'Tsintuition.i18n.php',
 	);
 
 	private $suppresserrors = false;
