@@ -703,6 +703,24 @@ class TsIntuition {
 	}
 
 
+	/* Magic words
+	 * ------------------------------------------------- */
+
+	/**
+	 * @TODO:
+	 */
+	public function gender( $male, $female, $neutral ) {
+		// Depends on getGender() which doesn't exist yet
+	}
+
+	/**
+	 * @TODO:
+	 */
+	public function plural( $count, $forms ) {
+		// Todo
+	}
+
+
 	/* Load functions
 	 * ------------------------------------------------- */
 
