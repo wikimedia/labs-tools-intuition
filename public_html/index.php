@@ -99,6 +99,29 @@ if ( isset( $_GET['action'] ) ) {
 }
 
 /**
+ * Custom return to
+ * -------------------------------------------------
+ */
+// Tools can pass returnto and returntoquery parameters
+// to redirect visitors back to them after setting, changing
+// or doing something (eg. clearcookies, renewcookies or prefset)
+if ( $I18N->isRedirecting() ) {
+	$returnTo = $kgReq->getVal( 'returnto' );
+	$returnToQuery = $kgReq->getVal( 'returntoquery' );
+	if ( TsIntuitionUtil::nonEmptyStr( $returnTo ) ) {
+		if ( !TsIntuitionUtil::nonEmptyStr( $returnToQuery ) ) {
+			$returnToQuery = '?' . urldecode( $returnToQuery );
+		} else {
+			$returnToQuery = '';
+		}
+		$I18N->redirectTo( "http://{$_SERVER['SERVER_NAME']}$returnTo$returnToQuery", 302 );
+	}
+}
+
+
+$I18N->doRedirect();
+
+/**
  * Body (Just a quick hack for proof-of-concept)
  * -------------------------------------------------
  */
@@ -193,6 +216,8 @@ $form = '<div id="tsint-settingsform"><form action="' . $Tool->remoteBasePath . 
 	<br />
 	
 	<input type="hidden" name="action" value="prefset" />
+	<input type="hidden" name="returnto" value="' . htmlspecialchars( $kgReq->getVal( 'returnto' ) ) . '" />
+	<input type="hidden" name="returntoquery" value="' . htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '" />
 	<label></label>
 	<input type="submit" nof value="' . _html( 'form-submit', 'general' ) . '" />
 	<br />

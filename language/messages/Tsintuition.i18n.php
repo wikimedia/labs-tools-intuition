@@ -24,6 +24,10 @@ $messages['en'] = array(
 	'renewcookies-success' => 'Cookies renewed! You\'re all set for the next $1.',
 	'tab-overview' => 'Overview',
 	'tab-settings' => 'Settings',
+	'bl-mysettings' => 'My translation settings',
+	'bl-mysettings-new' => 'Change language!',
+	'bl-promo' => 'Translation is powered by $1 and $2.',
+	'bl-changelanguage' => 'Click here to change the interface language of this tool.',
 );
 
 /**
@@ -34,6 +38,10 @@ $messages['qqq'] = array(
 	'renewcookies-success' => 'This message is shown after the cookies are renewed. The $1 variable contains the period of time until the cookies will expire (eg. "30 days")..',
 	'tab-overview' => 'Dashboard tab for "Overview" which shows the current settings.',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.',
+	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.',
+	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition!',
+	'bl-promo' => 'Sentence displayed at the bottom of other tools promoting TranslateWiki and Toolserver Intuition. $1 is a link to TranslateWiki\'s main page , $2 the link to TsIntuition\'s about page.',
+	'bl-changelanguage' => 'Clickable link displayed at the bottom of other tools to the dashboard .',
 );
 
 /**
@@ -53,7 +61,7 @@ $messages['nl'] = array(
 	'clearcookies-success' => 'Cookies gewist.',
 	'renewcookies-success' => 'Cookies vernieuwd! Je bent weer helemaal gereed voor de komende $1.',
 	'tab-overview' => 'Overzicht',
-	'tab-settings' => 'Instellingen',
+	'tab-settings' => 'Verander instellingen',
 );
 
 /**

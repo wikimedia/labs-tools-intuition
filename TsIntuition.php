@@ -78,6 +78,12 @@ class TsIntuition {
 	// These variable names will be extracted from the message files
 	private $includeVariables = array( 'messages' );
 
+	// Address to the dashboard home. Should end with a slash or .extension
+	private $dashboardHome = 'http://toolserver.org/~krinkle/TsIntuition/';
+
+	// Redirect address and status
+	private $redirectTo = null; 
+
 	/* Init
 	 * ------------------------------------------------- */
 
@@ -784,21 +790,80 @@ class TsIntuition {
 
 
 
+	/* Output promo and dashboard backlinks
+	 * ------------------------------------------------- */
+	/**
+	 * Show a link that explains that this tool has been 
+	 * localized via Toolserver Intuition and that they
+	 * can change the language by setting their preference
+	 * in the dashboard. Or (if they've done so already)
+	 * that they can manage their settings there
+	 */
+	public function dashboardBacklink() {
+	
+		if ( $this->hasCookies() ) {
+			$text = $this->msg( 'bl-mysettings', 'tsintuition' );
+		} else {
+			$text = $this->msg( 'bl-mysettings-new', 'tsintuition' );
+		}
+		$p = array(
+			'returnto' => $_SERVER['SCRIPT_NAME'],
+			'returntoquery' => http_build_query( $_GET ),
+		);
+		$p = http_build_query( $p );
+		return kfTag(
+			$text,
+			'a',
+			array(
+				'href' => "{$this->dashboardHome}?$p",
+				'title' => $this->msg( 'bl-changelanguage', 'tsintuition' ),
+			)
+		);
+	}
+
+	public function showPromo(){
+		// http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Wikimedia_Community_Logo-Toolserver.svg/21px-Wikimedia_Community_Logo-Toolserver.svg.png
+
+		// bl-promo
+		// bl-changelanguage
+		return '';
+	}
+
+
 	/* Other functions
 	 * ------------------------------------------------- */
 
 	/**
-	 * Redirect or refrsh to url.
+	 * Redirect or refresh to url. Pass null to undo redirection.
+	 *
+	 * @param $url string
+	 * @param $code integer (optional)
 	 *
 	 * @return false on failure.
 	 */
 	public function redirectTo( $url = 0, $code = 302 ) {
+		if ( is_null( $url ) ) {
+			$this->redirectTo = null;
+			return true;
+		}
 		if ( !is_string( $url ) || !is_int( $code ) ) {
 			return false;
 		}
-		header( 'Content-Type: text/html; charset=utf-8' );
-		header( "Location: $url", true, $code );
-		exit;
+		$this->redirectTo = array( $url, $code );
+	}
+
+	public function doRedirect(){
+		if ( is_array( $this->redirectTo ) ) {
+			header( 'Content-Type: text/html; charset=utf-8' );
+			header( 'Location: ' . $this->redirectTo[0], true, $this->redirectTo[1] );
+			exit;
+		} else {
+			return false;
+		}
+	}
+
+	public function isRedirecting(){
+		return is_array( $this->redirectTo );
 	}
 
 	/**
