@@ -30,9 +30,10 @@ class TsIntuition {
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
 	private static $registeredTextdomains = array(
-		'general'			=> array( 'file' => 'General.i18n.php' ),
+		'General'			=> array( 'file' => 'General.i18n.php' ),
 		'Getwikiapi'		=> array( 'file' => 'Getwikiapi.i18n.php' ),
 		'Jarry'				=> array( 'file' => 'Jarry.i18n.php' ),
+		'Monumentsapi'		=> array( 'file' => 'Monumentsapi.i18n.php' ),
 		'Orphantalk2'		=> array( 'file' => 'Orphantalk2.i18n.php' ),
 		'Svgtranslate'		=> array( 'file' => 'Svgtranslate.i18n.php' ),
 		'Tsintuition'		=> array( 'file' => 'Tsintuition.i18n.php' ),
@@ -558,12 +559,12 @@ class TsIntuition {
 		$domain = ucfirst( strtolower( $domain ) );
 
 		// Already loaded ?
-		if ( in_array( $domain, $this->loadedTextdomains ) ) {
+		if ( in_array( $domain, $this->loadedTextdomains ) || !isset( self::$registeredTextdomains[$domain] ) ) {
 			return false;
 		}
 
 		// File exists ?
-		$path = $this->localBaseDir . "/language/messages/" . $this->registeredTextdomains[$domain]['file'];
+		$path = $this->localBaseDir . "/language/messages/" . self::$registeredTextdomains[$domain]['file'];
 		if ( !file_exists( $path ) ) {
 			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring", __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
@@ -788,9 +789,9 @@ class TsIntuition {
 	}
 
 
-
 	/* Output promo and dashboard backlinks
 	 * ------------------------------------------------- */
+
 	/**
 	 * Show a link that explains that this tool has been 
 	 * localized via Toolserver Intuition and that they
@@ -805,27 +806,57 @@ class TsIntuition {
 		} else {
 			$text = $this->msg( 'bl-mysettings-new', 'tsintuition' );
 		}
-		$p = array(
-			'returnto' => $_SERVER['SCRIPT_NAME'],
-			'returntoquery' => http_build_query( $_GET ),
-		);
-		$p = http_build_query( $p );
-		return kfTag(
+		return '<span class="tsint-dashboardbacklink">' . TsIntuitionUtil::tag(
 			$text,
 			'a',
 			array(
-				'href' => "{$this->dashboardHome}?$p",
+				'href' => $this->getDashboardReturnToUrl(),
 				'title' => $this->msg( 'bl-changelanguage', 'tsintuition' ),
 			)
-		);
+		) . '</span>';
 	}
 
-	public function showPromo(){
-		// http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Wikimedia_Community_Logo-Toolserver.svg/21px-Wikimedia_Community_Logo-Toolserver.svg.png
+	/**
+	 * Show a promobox on the bottom of your tool.
+	 *
+	 * @param $imgSize integer (optional) Defaults to 28px.
+	 * If 0 or a non-integer the image will be hidden.
+	 * @return The HTML for the promo box.
+	 */
+	public function getPromoBox( $imgSize = 28 ) {
+		if ( is_int( $imgSize ) && $imgSize > 0 ) {
+			$src = 'http://upload.wikimedia.org/wikipedia/commons/thumb/b/be'
+				. '/Wikimedia_Community_Logo-Toolserver.svg'
+				. "/{$imgSize}px-Wikimedia_Community_Logo-Toolserver.svg.png";
+			$img = TsIntuitionUtil::tag( '', 'img', array(
+				'src' => $src,
+				'width' => $imgSize,
+				'height' => $imgSize,
+				'alt' => '',
+				'title' => '',
+				'class' => 'tsint-logo',
+			) );
+		} else {
+			$img = '';
+		}
+		$promoMsgOpts = array(
+			'domain' => 'tsintuition',
+			'escape' => 'html',
+			'raw-variables' => true,
+			'variables' => array(
+				'<a href="http://translatewiki.net/">TranslateWiki</a>',
+				'<a href="http://toolserver.org/~krinkle/TsIntuition/">Toolserver Intuition</a>'
+			),
+		);
+		$powered = $this->msg( 'bl-promo', $promoMsgOpts );
+		$change = $this->msg( 'bl-changelanguage', 'tsintuition' );
+		return "<div id=\"tsint-promobox\"><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a><p>$powered <a href=\"{$this->dashboardHome}\">$change</a></p></div>";
 
-		// bl-promo
-		// bl-changelanguage
-		return '';
+		// bl-promo, bl-changelanguage
+	}
+
+	public function getFooterLine(){
+		return $this->getPromoBox( 'no-image' );
 	}
 
 
@@ -863,6 +894,26 @@ class TsIntuition {
 
 	public function isRedirecting(){
 		return is_array( $this->redirectTo );
+	}
+
+	/**
+	 * Build a permalink to the dashboard with a returnto query
+	 * to return to the current page. To be used in other tools.
+	 *
+	 * @example:
+	 *  Location: http://toolserver.org/~foo/JohnDoe.php?wiki=loremwiki_p
+	 *  HTML:
+	 *  '<p>Change the settings <a href="' . $I18N->getDashboardReturnToUrl() . '">here</a>';
+	 *
+	 *
+	 */
+	public function getDashboardReturnToUrl() {
+		$p = array(
+			'returnto' => $_SERVER['SCRIPT_NAME'],
+			'returntoquery' => http_build_query( $_GET ),
+		);
+		$p = http_build_query( $p );
+		return "{$this->dashboardHome}?$p";
 	}
 
 	/**

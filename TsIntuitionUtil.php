@@ -90,4 +90,36 @@ class TsIntuitionUtil {
 		return $dump;
 	}
 
+
+	/* Primitive html building */
+	/* Based on kfTag from the BaseTool class */
+	function tag( $str, $wrapTag = 0, $attributes = array() ) {
+		$selfclose = array( 'link', 'input', 'br', 'img' );
+
+		if ( is_string( $str ) ) {
+			if ( is_string( $wrapTag ) ) {
+				$wrapTag = trim( strtolower( $wrapTag ) );
+				$attrString = '';
+				if ( is_array ( $attributes ) ) {
+					foreach ( $attributes as $attrKey => $attrVal ) {
+						$attrKey = htmlspecialchars( trim( strtolower( $attrKey ) ), ENT_QUOTES);
+						$attrVal = htmlspecialchars( trim( $attrVal ), ENT_QUOTES);
+						$attrString .= " $attrKey=\"$attrVal\"";
+					}
+				}
+				$return = "<$wrapTag$attrString";
+				if ( in_array( $wrapTag, $selfclose ) ) {
+					$return .= '/>';
+				} else {
+					$return .= ">" . htmlspecialchars( $str ) ."</$wrapTag>";
+				}
+			} else {
+				$return = $str;
+			}
+			return $return;
+		} else {
+			return '';
+		}
+	}
+
 }

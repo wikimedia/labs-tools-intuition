@@ -109,7 +109,7 @@ if ( $I18N->isRedirecting() ) {
 	$returnTo = $kgReq->getVal( 'returnto' );
 	$returnToQuery = $kgReq->getVal( 'returntoquery' );
 	if ( TsIntuitionUtil::nonEmptyStr( $returnTo ) ) {
-		if ( !TsIntuitionUtil::nonEmptyStr( $returnToQuery ) ) {
+		if ( TsIntuitionUtil::nonEmptyStr( $returnToQuery ) ) {
 			$returnToQuery = '?' . urldecode( $returnToQuery );
 		} else {
 			$returnToQuery = '';

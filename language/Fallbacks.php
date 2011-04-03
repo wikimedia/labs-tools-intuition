@@ -20,4 +20,6 @@ $fallbacks = array(
 	'fy'	=> 'nl',
 
 	'nds'	=> 'de',
+	
+	'os'	=> 'ru',
 );

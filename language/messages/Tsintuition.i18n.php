@@ -64,6 +64,7 @@ $messages['nl'] = array(
 	'renewcookies-success' => 'Cookies vernieuwd! Je bent weer helemaal gereed voor de komende $1.',
 	'tab-overview' => 'Overzicht',
 	'tab-settings' => 'Verander instellingen',
+	'bl-mysettings' => 'Mijn taalinstellingen',
 );
 
 /**
