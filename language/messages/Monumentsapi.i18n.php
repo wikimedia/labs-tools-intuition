@@ -29,6 +29,7 @@ $messages['qqq'] = array(
 	'search-table-th-field' => 'Table header for the Field-column in the search table. {{Identical|Field}}',
 	'search-table-th-filter' => '{{Identical|Filter}}',
 	'search-table-th-search' => '{{Identical|Search}}',
+);
 
 /**
  * Nederlands
