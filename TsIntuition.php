@@ -509,8 +509,8 @@ class TsIntuition {
 	 * @param $lang string Language code
 	 * @return string
 	 */
-	public function getLangName( $lang ) {
-
+	public function getLangName( $lang = false ) {
+		$lang = $lang ? $lang : $this->getLang();
 		return isset( $this->langNames[$lang] ) ? $this->langNames[$lang] : '';
 	}
 
@@ -696,6 +696,10 @@ class TsIntuition {
 		$lifetime = $expire - time();
 		// If already expired (-xxx), return 0
 		return $lifetime < 0 ? 0 : $lifetime;
+	}
+
+	public function hasCookies(){
+		return isset( $_COOKIE[ $this->getCookieName( 'userlang' ) ] );
 	}
 
 

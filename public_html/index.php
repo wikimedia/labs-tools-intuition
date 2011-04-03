@@ -55,6 +55,11 @@ $toolConfig = array(
 
 $Tool = BaseTool::newFromArray( $toolConfig );
 
+// jQuery UI
+$jqueryui = $kgConf->getJQueryUI();
+$Tool->addScripts( $jqueryui['scripts'] );
+$Tool->addStyles( $jqueryui['styles'] );
+
 $Tool->doHtmlHead();
 $Tool->doStartBodyWrapper();
 
@@ -119,8 +124,10 @@ if ( isset( $_GET['msg'] ) ) {
 	}
 }
 
+$Tool->addOut( '<div id="tsint-dashboard">' );
+
 // Cookie has already been set, show "current-settings" box
-if ( isset( $_COOKIE[ $I18N->getCookieName( 'userlang' ) ] ) ) {
+if ( $I18N->hasCookies() ) {
 
 	$lifetime = $I18N->getCookieLifetime();
 	$after = '';
@@ -150,10 +157,11 @@ if ( isset( $_COOKIE[ $I18N->getCookieName( 'userlang' ) ] ) ) {
 	}
 
 	$Tool->addOut(
-		'<form class="cleanform"><fieldset>'
+		'<div id="tsint-currentsettings"><form class="cleanform"><fieldset>'
 	.	kfTag( _( 'current-settings' ) . _g( 'colon-separator' ) . ' ', 'legend' )
+	.	'<div class="inner">'
 	.	kfTag( _( 'current-language' ) . _g( 'colon-separator' ) . ' ', 'label' )
-	.	kfTag( '', 'input', array( 'value' => $I18N->getLang(), 'readonly' => 'readonly' ) )
+	.	kfTag( '', 'input', array( 'value' => $I18N->getLangName(), 'readonly' => 'readonly' ) )
 	.	' ('
 	.	kfTag( _( 'clear-cookies'), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) ) ) )
 	.	')<br />'
@@ -162,7 +170,7 @@ if ( isset( $_COOKIE[ $I18N->getCookieName( 'userlang' ) ] ) ) {
 	.	kfTag( _( 'renew-cookies'), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
 	.	')<br />'
 	.	$after
-	.	'</form>'
+	.	'</div></fieldset></form></div><!-- #tsint-currentsettings -->'
 	);
 
 
@@ -177,8 +185,8 @@ foreach ( $I18N->getAvailableLangs() as $langCode => $langName ) {
 }
 $dropdown .= '</select>';
 
-$form = '<form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform"><fieldset>
-	<legend>' . _( 'settings-legend' ) . '</legend>
+$form = '<div id="tsint-settingsform"><form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform"><fieldset>
+	<legend>' . _( 'settings-legend' ) . '</legend><div class="inner">
 	
 	<label>' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
 	' . $dropdown . '
@@ -189,9 +197,23 @@ $form = '<form action="' . $Tool->remoteBasePath . '" method="post" class="clean
 	<input type="submit" nof value="' . _html( 'form-submit', 'general' ) . '" />
 	<br />
 
-</fieldset></form>';
+</div></fieldset></form></div>';
 
 $Tool->addOut( $form );
+$Tool->addOut( '</div><!-- #tsint-dashboard -->' );
+
+/* JavaScript init */
+$script[] = '$(document).ready(function(){';
+$script[] = '$("#tsint-dashboard").prepend(\'<ul>';
+if ( $I18N->hasCookies() ) {
+	$script[] = '<li><a href="#tsint-currentsettings">' . _('tab-overview') . '</a></li>';
+}
+$script[] = '<li><a href="#tsint-settingsform">' ._('tab-settings') . '</a></li></ul>\');';
+$script[] = '$("#tsint-dashboard").tabs();';
+$script[] = '});';
+
+$Tool->addOut( '<script>' . implode( '', $script ) . '</script>' );
+
 
 /**
  * Close up

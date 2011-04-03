@@ -22,6 +22,8 @@ $messages['en'] = array(
 	'cookie-expiration' => 'Cookie expiration',
 	'clearcookies-success' => 'Succesfully cleared cookies.',
 	'renewcookies-success' => 'Cookies renewed! You\'re all set for the next $1.',
+	'tab-overview' => 'Overview',
+	'tab-settings' => 'Settings',
 );
 
 /**
@@ -30,6 +32,8 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'clearcookies-success' => 'Message displayed after cookies are cleared.',
 	'renewcookies-success' => 'This message is shown after the cookies are renewed. The $1 variable contains the period of time until the cookies will expire (eg. "30 days")..',
+	'tab-overview' => 'Dashboard tab for "Overview" which shows the current settings.',
+	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.',
 );
 
 /**
@@ -48,6 +52,8 @@ $messages['nl'] = array(
 	'cookie-expiration' => 'Cookie verlooptijd',
 	'clearcookies-success' => 'Cookies gewist.',
 	'renewcookies-success' => 'Cookies vernieuwd! Je bent weer helemaal gereed voor de komende $1.',
+	'tab-overview' => 'Overzicht',
+	'tab-settings' => 'Instellingen',
 );
 
 /**
