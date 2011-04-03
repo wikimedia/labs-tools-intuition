@@ -30,13 +30,13 @@ class TsIntuition {
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
 	private static $registeredTextdomains = array(
-		'General'			=> array( 'file' => 'General.i18n.php' ),
-		'Getwikiapi'		=> array( 'file' => 'Getwikiapi.i18n.php' ),
-		'Jarry'				=> array( 'file' => 'Jarry.i18n.php' ),
-		'Monumentsapi'		=> array( 'file' => 'Monumentsapi.i18n.php' ),
-		'Orphantalk2'		=> array( 'file' => 'Orphantalk2.i18n.php' ),
-		'Svgtranslate'		=> array( 'file' => 'Svgtranslate.i18n.php' ),
-		'Tsintuition'		=> array( 'file' => 'Tsintuition.i18n.php' ),
+		'General'			=> 'General.i18n.php',
+		'Getwikiapi'		=> 'Getwikiapi.i18n.php',
+		'Jarry'				=> 'Jarry.i18n.php',
+		'Monumentsapi'		=> 'Monumentsapi.i18n.php',
+		'Orphantalk2'		=> 'Orphantalk2.i18n.php',
+		'Svgtranslate'		=> 'Svgtranslate.i18n.php',
+		'Tsintuition'		=> 'Tsintuition.i18n.php',
 	);
 
 	private $suppresserrors = false;
@@ -49,7 +49,10 @@ class TsIntuition {
 	private $currentLanguage = 'en';
 
 	// Changing this will invalidate all cookies
-	private $cookieNames = array( 'userlang' => 'TsIntuition_userlang', 'track-expire' => 'TsIntuition_expiry' );
+	private $cookieNames = array(
+		'userlang' => 'TsIntuition_userlang',
+		'track-expire' => 'TsIntuition_expiry'
+	);
 
 	// Changing this will break existing permalinks
 	private $paramNames = array( 'userlang' => 'userlang' );
@@ -58,7 +61,8 @@ class TsIntuition {
 	// Such as: $messageBlob['Textdomain']['messagename']['langcode'] = 'Message string';
 	private $messageBlob = array();
 
-	// $loadedTextdomains[0] = 'general';
+	// All loaded text domains and (if available) their information (such as url) in an array
+	// $loadedTextdomains['general'] = array( ... );
 	private $loadedTextdomains = array();
 
 	// Fallbacks are stored as an array of language codes
@@ -224,7 +228,7 @@ class TsIntuition {
 	}
 
 	/**
-	 * Get an array of all registered textd domains.
+	 * Get an array of all registered text domains.
 	 * @return array
 	 */
 	public function getAllRegisteredDomains(){
@@ -320,11 +324,11 @@ class TsIntuition {
 	 *  - * 'htmlentities' (foreign/UTF-8 chars converted as well)
 	 *
 	 */
-	public function msg( $key = 0, $options = array() ) {
+	public function msg( $key = 0, $options = array(), $fail = null ) {
 
 		// Make sure a proper key was passed.
 		if ( !TsIntuitionUtil::nonEmptyStr( $key ) ) {
-			return $this->bracketMsg( $key );
+			return $this->bracketMsg( $key, $fail );
 		}
 
 		$defaultOptions = array(
@@ -357,7 +361,7 @@ class TsIntuition {
 
 		// In case the domain name was invalid or inexistant
 		if ( !isset( $this->messageBlob[$domain] ) ) {
-			return $this->bracketMsg( $key );
+			return $this->bracketMsg( $key, $fail );
 		}
 
 		// Use fallback if this message doesn't exist in the current language
@@ -368,7 +372,7 @@ class TsIntuition {
 		if ( is_null( $rawMsg ) ) {
 			$this->errTrigger( "Message \"$key\" in \"$domain\" undefined", __METHOD__, E_NOTICE );
 			// Fall back to a simple [keyname]
-			return $this->bracketMsg( $key );
+			return $this->bracketMsg( $key, $fail );
 		}
 
 		/* Now that we've got the message, do post-processing. */
@@ -420,12 +424,33 @@ class TsIntuition {
 	 * Just return a somewhat readable string.
 	 * We use square brackets for simplicity sake, using inequality brackets (< >) may cause
 	 * conflicts with HTML when used wrong.
+	 *
+	 * @param $key Name of the key to be used
+	 * @param $fail (optional) Custom failure return
 	 */
-	public function bracketMsg( $key ) {
+	public function bracketMsg( $key, $fail = null ) {
+		if ( !is_null( $fail ) ) {
+			return $fail;
+		}
 		if ( $this->suppresserrors ) {
 			return ucfirst( $key ); // Keyname
 		}
 		return "[$key]"; // [keyname]
+	}
+
+	/**
+	 * Check is a message exists at all.
+	 * If this returns false it means msg() would return "[message-key]"
+	 * Parameters the same as msg(), except $fail which is overwritten.
+	 *
+	 * @return boolean
+	 */
+	public function msgExists( $key = 0, $options = array() ) {
+		// Use the $fail option of msg()
+		if ( $this->msg( $key, $options, /* $fail = */ false ) === false ) {
+			return false;
+		}
+		return true;
 	}
 
 	/**
@@ -558,15 +583,16 @@ class TsIntuition {
 		// Sanatize domainnames (case-insensitive)
 		$domain = ucfirst( strtolower( $domain ) );
 
-		// Already loaded ?
-		if ( in_array( $domain, $this->loadedTextdomains ) || !isset( self::$registeredTextdomains[$domain] ) ) {
+		// Don't load if already loaded or unregistered
+		if ( isset( $this->loadedTextdomains[$domain] ) || !isset( self::$registeredTextdomains[$domain] ) ) {
 			return false;
 		}
 
 		// File exists ?
-		$path = $this->localBaseDir . "/language/messages/" . self::$registeredTextdomains[$domain]['file'];
+		$path = $this->localBaseDir . "/language/messages/" . self::$registeredTextdomains[$domain];
 		if ( !file_exists( $path ) ) {
-			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring", __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring",
+				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
 		}
 
@@ -577,6 +603,9 @@ class TsIntuition {
 
 	}
 
+	/**
+	 * @DOCME:
+	 */
 	public function loadTextdomainFromFile( $filePath = '', $domain = '' ) {
 		if ( !TsIntuitionUtil::nonEmptyStrs( $filePath, $domain ) ) {
 			$this->errTrigger( 'One or more arguments are missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
@@ -592,27 +621,60 @@ class TsIntuition {
 		return true;
 	}
 
+	/**
+	 * @DOCME:
+	 */
 	private function parseTextdomain( $data, $domain, $filePath ) {
 		if ( !is_array( $data ) ) {
-			$this->errTrigger( 'Invalid $data passed to ' . __FUNCTION__, __METHOD__, E_ERROR, __FILE__, __LINE__ );
+			$this->errTrigger( 'Invalid $data passed to ' . __FUNCTION__,
+				__METHOD__, E_ERROR, __FILE__, __LINE__ );
 		}
+
 		// Were there any message defined in the textdomain file ?
 		if ( !isset( $data['messages'] ) || !is_array( $data['messages'] ) ) {
 			$this->errTrigger( 'No $messages array found', __METHOD__ , E_ERROR, $filePath );
 		}
 		unset( $data['messages']['qqq'] ); // Workaround
+
 		// Load the message into the blob
 		// overwrites the existing array of messages if it already existed
-		// If you need to add or overwrite some messages temporarily, use Itui::setMsg() or Itui::setMsgs() instead
+		// If you need to add or overwrite some messages temporarily,
+		// use Itui::setMsg() or Itui::setMsgs() instead
 		foreach ( $data['messages'] as $langcode => $messages ) {
 			$this->availableLanguages[$langcode] = true;
 			$this->setMsgs( (array)$messages, $domain, $langcode );
 		}
 
-		$this->loadedTextdomains[] = $domain;
+		// Was there a url defined in the textdomain file ?
+		if ( !isset( $data['url'] ) ) {
+			$url = null;
+		} else {
+			$url = "http://toolserver.org/{$data['url']}";
+		}
+
+		$this->loadedTextdomains[$domain] = array( 'url' => $url );
 
 
 		return true;
+	}
+
+	/**
+	 * Get information about a text domain.
+	 *
+	 * @param $domain string
+	 * @return array
+	 */
+	public function getDomainInfo( $domain ) {
+		$domain = ucfirst( strtolower( $domain ) );
+
+		// Load if registered but not already loaded 
+		$this->loadTextdomain( $domain );
+
+		if ( isset( $this->loadedTextdomains[$domain] ) && is_array( $this->loadedTextdomains[$domain] ) ) {
+			return $this->loadedTextdomains[$domain];
+		} else {
+			return array();
+		}
 	}
 
 
@@ -850,11 +912,14 @@ class TsIntuition {
 		);
 		$powered = $this->msg( 'bl-promo', $promoMsgOpts );
 		$change = $this->msg( 'bl-changelanguage', 'tsintuition' );
-		return "<div id=\"tsint-promobox\"><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a><p>$powered <a href=\"{$this->dashboardHome}\">$change</a></p></div>";
-
-		// bl-promo, bl-changelanguage
+		return "<div id=\"tsint-promobox\"><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a>"
+			. "<p>$powered <a href=\"{$this->dashboardHome}\">$change</a></p></div>";
 	}
 
+	/**
+	 * Show a typical "powered by .." footer line.
+	 * Same as getPromoBox() but without the image.
+	 */
 	public function getFooterLine(){
 		return $this->getPromoBox( 'no-image' );
 	}

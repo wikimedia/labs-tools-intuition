@@ -26,13 +26,13 @@
 require_once( '/home/krinkle/TsIntuition/ToolStart.php' ); // to be moved to p_i18n
 $opts = array(
 	'domain' => 'tsintuition',
-	'suppressnotices' => false, // DEBUG
+	'suppressnotices' => true, // DEBUG
 );
 $I18N = new TsIntuition( $opts );
 
 // Load all domains so can get some statistics later on and
 // make sure "getAvailableLangs" is compelte
-foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domain ) {
+foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 	$I18N->loadTextdomain( $domainKey );
 }
 
@@ -54,6 +54,10 @@ $toolConfig = array(
 );
 
 $Tool = BaseTool::newFromArray( $toolConfig );
+
+$toolSettings = array(
+	'tabs' => array(),
+);
 
 // jQuery UI
 $jqueryui = $kgConf->getJQueryUI();
@@ -180,7 +184,7 @@ if ( $I18N->hasCookies() ) {
 	}
 
 	$Tool->addOut(
-		'<div id="tsint-currentsettings"><form class="cleanform"><fieldset>'
+		'<div id="tab-currentsettings"><form class="cleanform"><fieldset>'
 	.	kfTag( _( 'current-settings' ) . _g( 'colon-separator' ) . ' ', 'legend' )
 	.	'<div class="inner">'
 	.	kfTag( _( 'current-language' ) . _g( 'colon-separator' ) . ' ', 'label' )
@@ -193,12 +197,14 @@ if ( $I18N->hasCookies() ) {
 	.	kfTag( _( 'renew-cookies'), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
 	.	')<br />'
 	.	$after
-	.	'</div></fieldset></form></div><!-- #tsint-currentsettings -->'
+	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
 	);
+	$toolSettings['tabs']['tab-currentsettings'] = _('tab-overview');
 
 
 }
 
+// Settings form
 // XXX: Quick way to build the form
 $dropdown = '<select name="fpLang">';
 $selected = ' selected="selected"';
@@ -208,7 +214,7 @@ foreach ( $I18N->getAvailableLangs() as $langCode => $langName ) {
 }
 $dropdown .= '</select>';
 
-$form = '<div id="tsint-settingsform"><form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform"><fieldset>
+$form = '<div id="tab-settingsform"><form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform"><fieldset>
 	<legend>' . _( 'settings-legend' ) . '</legend><div class="inner">
 	
 	<label>' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
@@ -225,15 +231,42 @@ $form = '<div id="tsint-settingsform"><form action="' . $Tool->remoteBasePath . 
 </div></fieldset></form></div>';
 
 $Tool->addOut( $form );
+$toolSettings['tabs']['tab-settingsform'] = _('tab-settings');
+
+
+// About tab
+$about = '<div id="tab-about">'
+	. 'Technical documentation: <a href="https://wiki.toolserver.org/view/Toolserver_Intuition">https://wiki.toolserver.org/view/Toolserver_Intuition</a>'
+	. '<div class="tab-paragraph-head">' . _( 'usage' ) . '</div><ul>';
+
+foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
+	$domainInfo = $I18N->getDomainInfo( $domainKey );
+	$title = $I18N->msg( 'title', $domainKey, /* fallback = */ $domainKey );
+	if ( isset( $domainInfo['url'] ) ) {
+		$link = TsIntuitionUtil::tag( $title, 'a', array( 'href' => $domainInfo['url'] ) );
+		$about .= "<li>$link</li>";
+	} else {
+		$about .= TsIntuitionUtil::tag( $title, 'li' );
+	}
+}
+$about .= '</ul></div><!-- #tab-about -->';
+
+$Tool->addOut( $about );
+$toolSettings['tabs']['tab-about'] = _('tab-about');
+
+
 $Tool->addOut( '</div><!-- #tsint-dashboard -->' );
 
-/* JavaScript init */
+/**
+ * JavaScript init
+ * -------------------------------------------------
+ */
 $script[] = '$(document).ready(function(){';
 $script[] = '$("#tsint-dashboard").prepend(\'<ul>';
-if ( $I18N->hasCookies() ) {
-	$script[] = '<li><a href="#tsint-currentsettings">' . _('tab-overview') . '</a></li>';
+foreach ( $toolSettings['tabs'] as $tabID => $tabName ) {
+	$script[] = "<li><a href=\"#$tabID\">$tabName</a></li>";
 }
-$script[] = '<li><a href="#tsint-settingsform">' ._('tab-settings') . '</a></li></ul>\');';
+$script[] = '</ul>\');';
 $script[] = '$("#tsint-dashboard").tabs();';
 $script[] = '});';
 

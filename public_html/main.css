@@ -11,6 +11,13 @@
 	background: rgb(255, 0, 0);
 }
 
+.tab-paragraph-head {
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
 
 /* Clean forms */
 form.cleanform {

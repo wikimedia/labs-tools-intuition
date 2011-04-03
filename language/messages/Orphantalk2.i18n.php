@@ -13,6 +13,7 @@ $url = '~krinkle/OrphanTalk2/';
  * @author Krinkle
  */
 $messages['en'] = array(
+	'title' => 'OrphanTalk2', // ignore
 	'settings-legend' => 'Settings',
 	'label-wiki' => 'Wiki', // optional
 	'select-wiki-first' => '(select a wiki first)',
