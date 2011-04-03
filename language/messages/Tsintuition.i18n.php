@@ -44,6 +44,7 @@ $messages['nl'] = array(
 	'settings-legend' => 'Instellingen',
 	'choose-language' => 'Kies een taal',
 	'clear-cookies' => 'cookies wissen',
+	'renew-cookies' => 'verleng cookies',
 	'cookie-expiration' => 'Cookie verlooptijd',
 	'clearcookies-success' => 'Cookies gewist.',
 	'renewcookies-success' => 'Cookies vernieuwd! Je bent weer helemaal gereed voor de komende $1.',

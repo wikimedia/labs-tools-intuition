@@ -48,7 +48,7 @@ $toolConfig = array(
 	'displayTitle'	=> _( 'fullname' ),
 	'krinklePrefix'	=> false,
 	'simplePath'	=> '/TsIntuition/',
-	'revisionId'	=> "0.1.0 (<a target=\"blank\" href=\"{$svninfo['directory-cr-rev']}?" . http_build_query($revUrlQuery) . "\">r{$svninfo['directory-rev']}</a>)",
+	'revisionId'	=> "0.1.1 (<a target=\"blank\" href=\"{$svninfo['directory-cr-rev']}?" . http_build_query($revUrlQuery) . "\">r{$svninfo['directory-rev']}</a>)",
 	'revisionDate'	=> $I18N->dateFormatted( $svninfo['directory-up-date'] ),
 	'styles'		=> array( 'main.css' ),
 );
@@ -158,6 +158,9 @@ if ( isset( $_COOKIE[ $I18N->getCookieName( 'userlang' ) ] ) ) {
 	.	kfTag( _( 'clear-cookies'), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) ) ) )
 	.	')<br />'
 	.	kfTag( _( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' ) . kfTag( '', 'input', array( 'value' => $time, 'class' => "cookie-health $class", 'readonly' => 'readonly' ) )
+	.	' ('
+	.	kfTag( _( 'renew-cookies'), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
+	.	')<br />'
 	.	$after
 	.	'</form>'
 	);
