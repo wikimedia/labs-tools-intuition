@@ -1,0 +1,23 @@
+= 0.1.1 =
+: April 3, 2011
+
+== New features ==
+* Added a clear-cookies and renew-cookies action (r84981, r85246)
+* Confirmation messages after clearing or renewing cookies (r84981)
+* PremadeToolserverTextdomains class has been written for TransateWiki
+
+== Text domains ==
+* Added: OrphanTalk2 <http://toolserver.org/~krinkle/OrphanTalk2/>
+
+== Changes ==
+* SVN revision id is now visible in the header (r84942)
+* PremadeToolserverTextdomains moved to /exensions/Translate per convention (r85117)
+* Requesting an undefined message triggers a TsIntution error on E_NOTICE level (r85052)
+
+= 0.1.0 =
+: March 28, 2011
+First version in Wikimedia SVN.
+
+= 0.0.1 =
+: March 23, 2011
+Initial version on toolserver only.
