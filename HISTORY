@@ -1,5 +1,16 @@
 = 0.1.2 (svn) =
 : In development
+
+== New features ==
+* Textdomains may now also define the $url in the definition file. (r85286)
+* Added an About-area on the index page of the tool which shows all textdomains and (where
+  possible) linked to the tool.
+* Implemented TsIntuition::msgExists() and TsIntuition:getDomainInfo()
+
+== Text domains ==
+* Added: MonumentsAPI <http://toolserver.org/~erfgoed/api//>
+
+== Changes ==
 * Dashboard sections converted to Tabs with jQuery UI (r85260)
 
 = 0.1.1 =
