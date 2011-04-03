@@ -20,6 +20,7 @@ $messages['en'] = array(
 	'form-reset' => 'Reset',
 	'years' => 'years',
 	'weeks' => 'weeks',
+	'days' => 'days',
 	'hours' => 'hours',
 );
 
@@ -57,6 +58,7 @@ $messages['nl'] = array(
 	'form-reset' => 'Stel opnieuw in',
 	'years' => 'jaren',
 	'weeks' => 'weken',
+	'days' => 'dagen',
 	'hours' => 'uren',
 );
 

@@ -26,6 +26,7 @@ $messages['en'] = array(
 	'tools-subject' => 'subject',
 	'tools-hist' => 'hist',
 	'tools-curr' => 'curr', 
+	'tools-globalusage' => 'globalusage', 
 );
 
 /**
@@ -43,6 +44,7 @@ $messages['qqq'] = array(
 	'tools-subject' => 'Goes to the subject page (which never existed or has been deleted) of the orphaned page. Part of the tool-links in the left column.',
 	'tools-hist' => 'Goes to the history view of the orphaned page. Part of the tool-links in the left column.',
 	'tools-curr' => 'Shows the latest/current edit to this orphaned page. Part of the tool-links in the left column.', 
+	'tools-globalusage' => 'If the orphan is a Commons file talk page, this link will link to the Specila:GlobalUsage for the File page.',
 );
 
 /**
@@ -59,6 +61,7 @@ $messages['nl'] = array(
 	'tools-subject' => 'artikel',
 	'tools-hist' => 'gesch',
 	'tools-curr' => 'huidige', 
+	'tools-globalusage' => 'globaalgebruik', 
 );
 
 /**
