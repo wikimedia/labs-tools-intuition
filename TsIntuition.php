@@ -30,13 +30,12 @@ class TsIntuition {
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
 	private static $registeredTextdomains = array(
-		'general'			=> 'General.i18n.php',
-		'Getwikiapi'		=> 'Getwikiapi.i18n.php',
-		'Jarry'				=> 'Jarry.i18n.php',
-		'Monumentsearch'	=> 'Monumentsearch.i18n.php',
-		'Orphantalk2'		=> 'Orphantalk2.i18n.php',
-		'Svgtranslate'		=> 'Svgtranslate.i18n.php',
-		'Tsintuition'		=> 'Tsintuition.i18n.php',
+		'general'			=> array( 'file' => 'General.i18n.php' ),
+		'Getwikiapi'		=> array( 'file' => 'Getwikiapi.i18n.php' ),
+		'Jarry'				=> array( 'file' => 'Jarry.i18n.php' ),
+		'Orphantalk2'		=> array( 'file' => 'Orphantalk2.i18n.php' ),
+		'Svgtranslate'		=> array( 'file' => 'Svgtranslate.i18n.php' ),
+		'Tsintuition'		=> array( 'file' => 'Tsintuition.i18n.php' ),
 	);
 
 	private $suppresserrors = false;
@@ -76,7 +75,7 @@ class TsIntuition {
 	private $availableLanguages = array();
 
 	// These variable names will be extracted from the message files
-	private $includeVariables = array( 'messages' );
+	private $includeVariables = array( 'messages', 'url' );
 
 	// Address to the dashboard home. Should end with a slash or .extension
 	private $dashboardHome = 'http://toolserver.org/~krinkle/TsIntuition/';
@@ -564,7 +563,7 @@ class TsIntuition {
 		}
 
 		// File exists ?
-		$path = $this->localBaseDir . "/language/messages/$domain.i18n.php";
+		$path = $this->localBaseDir . "/language/messages/" . $this->registeredTextdomains[$domain]['file'];
 		if ( !file_exists( $path ) ) {
 			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring", __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;

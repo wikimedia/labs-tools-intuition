@@ -5,6 +5,8 @@
  * @toolowner jarry
  */
 
+$url = '~jarry/';
+
 /**
  * English
  *

@@ -5,6 +5,8 @@
  * @toolowner krinkle
  */
 
+$url = '~krinkle/TsIntuition/';
+
 /**
  * English
  *

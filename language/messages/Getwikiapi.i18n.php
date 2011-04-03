@@ -5,6 +5,8 @@
  * @toolowner krinkle
  */
 
+$url = '~krinkle/getWikiAPI.php';
+
 /**
  * English
  *
