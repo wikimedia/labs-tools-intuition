@@ -13,7 +13,7 @@ $url = '~jarry/svgtranslate/';
  * @author Jarry
  */
 $messages['en'] = array(
-	'title' => 'SVG Translate', // Do not translate
+	'title' => 'SVG Translate', // Optional
 	'error-tryagain' => '$1 Hit your browser\'s back button to retry.',
 	'error-nothing' => 'Nothing to translate.',
 	'error-notsvg' => 'Not an SVG file.',
@@ -39,7 +39,7 @@ $messages['en'] = array(
  * @author Jarry
  */
 $messages['qqq'] = array(
-	'title' => "{{Notranslate}}\n\nThe title of the tool.",
+	'title' => "The title of the tool.",
 	'begin-translation' => 'This is the opening heading on the home page of the tool.',
 	'th-original' => 'Heading of the "Original"-column.',
 	'th-translation' => 'Heading of the "Translation"-column.',
@@ -59,6 +59,7 @@ $messages['qqq'] = array(
  * @author Gerard Meijssen
  */
 $messages['nl'] = array(
+	'title' => 'SVG Vertaling',
 	'begin-translation' => 'Start de vertaling',
 	'th-original' => 'Origineel',
 	'th-translation' => 'Vertaling',

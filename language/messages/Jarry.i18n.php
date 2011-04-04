@@ -13,7 +13,7 @@ $url = '~jarry/';
  * @author Jarry
  */
 $messages['en'] = array(
-	'title' =>	'JARRY1250\'S TOOLSERVER TOOLS', // Do not translate
+	'title' =>	'Jarry1250\'s Toolserver Tools', // Ignore, do not translate
 );
 
 /**
@@ -22,13 +22,5 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'title' =>	'The title. This message should not be translated in other languages.',
-);
-
-/**
- * Nederlands
- *
- * @author Krinkle
- */
-$messages['nl'] = array(
+	'title' =>	'The head line of Jarry tools. {{Notranslate}}',
 );

@@ -11,7 +11,7 @@
  */
 
 // This is a valid entry, define true
-define( 'TS_INTUITION', true );
+define( 'TS_INTUITION', __DIR__ );
 
 // Files
 require_once( __DIR__ . '/TsIntuitionUtil.php' );

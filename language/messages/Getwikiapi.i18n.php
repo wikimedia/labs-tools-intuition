@@ -1,6 +1,6 @@
 <?php
 /**
- * Interface messages for tool "getWikiAPI".
+ * Interface messages for tool "Get Wiki API".
  *
  * @toolowner krinkle
  */
@@ -13,7 +13,7 @@ $url = '~krinkle/getWikiAPI.php';
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' =>	'getWikiAPI', // Do not translate
+	'title' =>	'Get Wiki API', // Ignore, do not translate
 	'formats-heading' => 'Output formats',
 	'input' => 'Input',
 	'label-wikiids' => 'Wiki identifiers',

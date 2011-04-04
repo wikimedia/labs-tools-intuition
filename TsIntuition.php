@@ -29,15 +29,7 @@ class TsIntuition {
 
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
-	private static $registeredTextdomains = array(
-		'General'			=> 'General.i18n.php',
-		'Getwikiapi'		=> 'Getwikiapi.i18n.php',
-		'Jarry'				=> 'Jarry.i18n.php',
-		'Monumentsapi'		=> 'Monumentsapi.i18n.php',
-		'Orphantalk2'		=> 'Orphantalk2.i18n.php',
-		'Svgtranslate'		=> 'Svgtranslate.i18n.php',
-		'Tsintuition'		=> 'Tsintuition.i18n.php',
-	);
+	private $registeredTextdomains = null;
 
 	private $suppresserrors = false;
 	private $suppressnotices = true;
@@ -110,6 +102,8 @@ class TsIntuition {
 		if ( is_string( $options) ) {
 			$options = array( 'domain' => $options );
 		}
+		
+		$this->loadDomains();
 
 		// Allow a tool to suppress errors, which will prevent TsIntuition from showing fatal errors
 		if ( isset( $options['suppresserrors'] ) && $options['suppresserrors'] == true ) {
@@ -232,7 +226,7 @@ class TsIntuition {
 	 * @return array
 	 */
 	public function getAllRegisteredDomains(){
-		return self::$registeredTextdomains;
+		return $this->registeredTextdomains;
 	}
 
 	/**
@@ -584,12 +578,12 @@ class TsIntuition {
 		$domain = ucfirst( strtolower( $domain ) );
 
 		// Don't load if already loaded or unregistered
-		if ( isset( $this->loadedTextdomains[$domain] ) || !isset( self::$registeredTextdomains[$domain] ) ) {
+		if ( isset( $this->loadedTextdomains[$domain] ) || !isset( $this->registeredTextdomains[$domain] ) ) {
 			return false;
 		}
 
 		// File exists ?
-		$path = $this->localBaseDir . "/language/messages/" . self::$registeredTextdomains[$domain];
+		$path = $this->localBaseDir . "/language/messages/" . $this->registeredTextdomains[$domain];
 		if ( !file_exists( $path ) ) {
 			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring",
 				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
@@ -792,6 +786,35 @@ class TsIntuition {
 
 	/* Load functions
 	 * ------------------------------------------------- */
+
+
+	/**
+	 * Load domains
+	 *
+	 * @private
+	 *
+	 * @return true
+	 */
+	private function loadDomains(){
+
+		// Don't load twice
+		if ( is_array( $this->registeredTextdomains ) ) {
+			return false;
+		}
+
+		$path = $this->localBaseDir . '/language/Domains.php';
+		if ( !file_exists( $path ) ) {
+			$this->errTrigger( 'Domains.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			return false;
+		}
+
+		// Load it
+		$domains = array();
+		include( $path );
+		$this->registeredTextdomains = $domains;
+
+		return true;
+	}
 
 
 	/**

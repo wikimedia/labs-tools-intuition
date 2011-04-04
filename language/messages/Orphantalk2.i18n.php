@@ -13,7 +13,7 @@ $url = '~krinkle/OrphanTalk2/';
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' => 'OrphanTalk2', // ignore
+	'title' => 'OrphanTalk2', // optional
 	'settings-legend' => 'Settings',
 	'label-wiki' => 'Wiki', // optional
 	'select-wiki-first' => '(select a wiki first)',
@@ -38,6 +38,7 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
+	'title' => 'The title of the tool. Note that this is a sequel of an old tool by the same name. "2" is part of the name.',
 	'settings-legend' => 'This is the title for the settings box in the input form.',
 	'label-wiki' => 'Label in the input form indicating which wiki searched.',
 	'update' => 'Clicking this button will update the form to adapt to the new settings. {{Identical|Update}}',
@@ -56,6 +57,7 @@ $messages['qqq'] = array(
  * @author Krinkle
  */
 $messages['nl'] = array(
+	'title' => 'WeesOverleg2',
 	'settings-legend' => 'Instellingen',
 	'output' => 'Uitvoer',
 	'update' => 'Bijwerken',
