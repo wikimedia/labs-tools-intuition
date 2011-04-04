@@ -8,10 +8,13 @@
 * Implemented TsIntuition::msgExists() and TsIntuition:getDomainInfo()
 
 == Text domains ==
-* Added: MonumentsAPI <http://toolserver.org/~erfgoed/api//>
+* Added: MonumentsAPI <http://toolserver.org/~erfgoed/api/>
+* Added: Recent Anonymous Activity <http://toolserver.org/~krinkle/recentAnonymousActivity/>
 
 == Changes ==
 * Dashboard sections converted to Tabs with jQuery UI (r85260)
+* Domains are now registered in Domains.php instead of a static array in the class (r85396)
+
 
 = 0.1.1 =
 : April 3, 2011
