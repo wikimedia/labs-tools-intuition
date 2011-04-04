@@ -13,21 +13,23 @@
  */
 
 /**
- * This file outputs the interface to set settings for TsIntuition
- * @TODO: Make this nicer, for now just a quick hack to make
- * setting cookies work.
+ * This file outputs the interface to set settings for TsIntuition.
  */
 
 
 /**
- * Localization
+ * Configuration
  * -------------------------------------------------
  */
-require_once( '/home/krinkle/TsIntuition/ToolStart.php' ); // to be moved to p_i18n
+require_once( '/home/krinkle/common/InitTool.php' ); // BaseTool
+require_once( '/home/krinkle/TsIntuition/ToolStart.php' ); // TsIntuition
+
+/* Initialize TsIntuition */
 $opts = array(
-	'domain' => 'tsintuition',
-	'suppressnotices' => true, // DEBUG
+	'domain' => 'TsIntuition',
+	//'suppressnotices' => false, // DEBUG
 );
+
 $I18N = new TsIntuition( $opts );
 
 // Load all domains so can get some statistics later on and
@@ -36,36 +38,42 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 	$I18N->loadTextdomain( $domainKey );
 }
 
-/**
- * Configuration
- * -------------------------------------------------
- */
-require_once( '/home/krinkle/common/InitTool.php' );
-
-$svninfo = kfGetSvnInfo( '/home/krinkle/TsIntuition/' ); // parses .svn/entries
+$svninfo = kfGetSvnInfo( TS_INTUITION ); // parses .svn/entries
 $revUrlQuery = array( 'path' => $svninfo['directory-path'] );
-$toolConfig = array(
+$revUrl = $svninfo['directory-cr-rev'] . '?' . http_build_query( $revUrlQuery );
+
+
+/* Initialize BaseTool */
+$opts = array(
 	'displayTitle'	=> _( 'fullname' ),
 	'krinklePrefix'	=> false,
 	'simplePath'	=> '/TsIntuition/',
-	'revisionId'	=> "0.1.1 (<a target=\"blank\" href=\"{$svninfo['directory-cr-rev']}?" . http_build_query($revUrlQuery) . "\">r{$svninfo['directory-rev']}</a>)",
+	'revisionId'	=> "0.1.1 (<a target=\"blank\" href=\"$revUrl\">r{$svninfo['directory-rev']}</a>)",
 	'revisionDate'	=> $I18N->dateFormatted( $svninfo['directory-up-date'] ),
 	'styles'		=> array( 'main.css' ),
 );
 
-$Tool = BaseTool::newFromArray( $toolConfig );
+$Tool = BaseTool::newFromArray( $opts );
 
-$toolSettings = array(
-	'tabs' => array(),
-);
+/* Load Scripts & Styles */
 
 // jQuery UI
 $jqueryui = $kgConf->getJQueryUI();
 $Tool->addScripts( $jqueryui['scripts'] );
 $Tool->addStyles( $jqueryui['styles'] );
 
+/* Add initial stuff to <head> and <body> */
 $Tool->doHtmlHead();
 $Tool->doStartBodyWrapper();
+
+
+/**
+ * Tool settings
+ * -------------------------------------------------
+ */
+$toolSettings = array(
+	'tabs' => array(),
+);
 
 
 /**
@@ -126,7 +134,7 @@ if ( $I18N->isRedirecting() ) {
 $I18N->doRedirect();
 
 /**
- * Body (Just a quick hack for proof-of-concept)
+ * Main content output
  * -------------------------------------------------
  */
 $Tool->addOut( _g( 'welcome' ), 'h2' );
@@ -256,6 +264,7 @@ $toolSettings['tabs']['tab-about'] = _('tab-about');
 
 
 $Tool->addOut( '</div><!-- #tsint-dashboard -->' );
+
 
 /**
  * JavaScript init
