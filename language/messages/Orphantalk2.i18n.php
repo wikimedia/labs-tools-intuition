@@ -31,7 +31,9 @@ $messages['en'] = array(
 	'tools-subject' => 'subject',
 	'tools-hist' => 'hist',
 	'tools-curr' => 'curr', 
-	'tools-globalusage' => 'globalusage', 
+	'tools-globalusage' => 'globalusage',
+	'deletesummary' => 'Cleaning orphaned talk pages via $1',
+	'noresults' => 'No orphaned talk pages on this wiki in this namespace matched your settings.',
 );
 
 /** Message documentation (Message documentation)
@@ -49,6 +51,8 @@ $messages['qqq'] = array(
 	'tools-hist' => 'Goes to the history view of the orphaned page. Part of the tool-links in the left column.',
 	'tools-curr' => 'Shows the latest/current edit to this orphaned page. Part of the tool-links in the left column.',
 	'tools-globalusage' => 'If the orphan is a Commons file talk page, this link will link to the Specila:GlobalUsage for the File page.',
+	'deletesummary' => 'Deletion summary for the "delete"-toollink. $1 is an interwiki link to more info, also a way to promote this tool to others.',
+	'noresults' => 'Message displayed if there are no orphaned talk pages found with the current settings.',
 );
 
 /** German (Deutsch)
