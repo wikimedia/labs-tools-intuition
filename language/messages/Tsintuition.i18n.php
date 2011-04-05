@@ -34,10 +34,15 @@ $messages['en'] = array(
 	'bl-promo' => 'Translation is powered by $1 and $2.',
 	'bl-changelanguage' => 'Click here to change the interface language of this tool.',
 	'usage' => 'Tools translated by Toolserver Intuition.',
+	'help-translate-tool' => 'Help translate this tool!',
+	'help-translate-all' => 'Help translate Toolserver!',
+	'help-translate-tooltip' => 'Help others by translating interface messages into your language.',
 );
 
 /**
  * Documentation
+ *
+ * @author Krinkle
  */
 $messages['qqq'] = array(
 	'clearcookies-success' => 'Message displayed after cookies are cleared.',
@@ -48,7 +53,10 @@ $messages['qqq'] = array(
 	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.',
 	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition!',
 	'bl-promo' => 'Sentence displayed at the bottom of other tools promoting TranslateWiki and Toolserver Intuition. $1 is a link to TranslateWiki\'s main page , $2 the link to TsIntuition\'s about page.',
-	'bl-changelanguage' => 'Clickable link displayed at the bottom of other tools to the dashboard .',
+	'bl-changelanguage' => 'Clickable link displayed at the bottom of other tools to the dashboard.',
+	'help-translate-tool' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for that tool.',
+	'help-translate-all' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for all tools.',
+	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
 );
 
 /**
