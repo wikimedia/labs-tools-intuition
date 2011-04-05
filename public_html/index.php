@@ -247,9 +247,9 @@ $about = '<div id="tab-about">'
 	. 'Technical documentation: <a href="https://wiki.toolserver.org/view/Toolserver_Intuition">https://wiki.toolserver.org/view/Toolserver_Intuition</a>'
 	. '<div class="tab-paragraph-head">' . _( 'usage' ) . '</div>';
 	
-$about .= '<div class="aligncenter"><a href="http://translatewiki.net/wiki/Translating:Toolserver">'
+$about .= '<div><a href="http://translatewiki.net/wiki/Translating:Toolserver">'
 	.	'<img src="http://translatewiki.net/w/i.php?title=Special:TranslationStats&'
-	.	'graphit=1&width=600&height=400&group=tsint-0-all" width="600" height="400" alt="" />'
+	.	'graphit=1&width=600&height=400&group=tsint-0-all" width="600" height="400" alt="" class="aligncenter" />'
 	.	'</a></div>';
 $about .= '<ul>';
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {

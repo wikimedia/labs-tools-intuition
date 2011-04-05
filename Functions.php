@@ -27,12 +27,15 @@ if( !defined( 'TS_INTUITION' ) ) {
  */
 
 // Return a message
+if ( !function_exists( '_' ) ) {
 function _( $key, $options = array() ) {
 	global $I18N;
 	return $I18N->msg( $key, $options );
 }
+}
 
 // Return a message from the 'general' domain
+if ( !function_exists( '_g' ) ) {
 function _g( $key, $options = array() ) {
 	if ( is_string( $options ) ) {
 		$options = array( 'domain' => $options );
@@ -40,8 +43,10 @@ function _g( $key, $options = array() ) {
 	$options = array_merge( $options, array( 'domain' => 'general' ) );
 	return _( $key, $options );
 }
+}
 
 // Return a message escaped as html
+if ( !function_exists( '_html' ) ) {
 function _html( $key, $options = array() ) {
 	if ( is_string( $options ) ) {
 		$options = array( 'domain' => $options );
@@ -49,8 +54,11 @@ function _html( $key, $options = array() ) {
 	$options = array_merge( $options, array( 'parse' => 'html' ) );
 	return _( $key, $options );
 }
+}
 
 // Echo a message
+if ( !function_exists( '_e' ) ) {
 function _e( $key, $options = array() ) {
 	echo _( $key, $options );
+}
 }

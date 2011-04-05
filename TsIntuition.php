@@ -979,12 +979,12 @@ class TsIntuition {
 				'group' => "tsint-$helpTranslateDomain",
 			);
 			$twParams = http_build_query( $twParams );
-			$helpTranslateLink = TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "https://translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) );
+			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "https://translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) ) . ')</small>';
 		}
 
 		// Build output
 		return
-			"<div id=\"tsint-promobox\"><p><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a> "
+			"<div class=\"tsint-promobox\"><p><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a> "
 			. "$powered {$this->dashboardBacklink()} $helpTranslateLink</p></div>";
 	}
 

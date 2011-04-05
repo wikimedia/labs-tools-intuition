@@ -53,7 +53,7 @@ $startHTML = <<<HTML
 		margin: 0px 2px;
 	}
 	/* Example */
-	#tsint-promobox { background: #F9F9F9; padding: 5px 8px; margin: 10px; }
+	.tsint-promobox { background: #F9F9F9; padding: 5px 8px; margin: 10px; font-size: 85% }
 	</style>
 </head>
 <body>

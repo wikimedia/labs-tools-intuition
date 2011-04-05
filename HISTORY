@@ -6,6 +6,7 @@
 * Added an About-area on the index page of the tool which shows all textdomains and (where
   possible) linked to the tool.
 * Implemented TsIntuition::msgExists() and TsIntuition:getDomainInfo()
+* Added demonstration sandboxes in /public_html/demo/ (r85471)
 
 == Text domains ==
 * Added: MonumentsAPI <http://toolserver.org/~erfgoed/api/>
@@ -14,6 +15,9 @@
 == Changes ==
 * Dashboard sections converted to Tabs with jQuery UI (r85260)
 * Domains are now registered in Domains.php instead of a static array in the class (r85396)
+* TranslationStats-graph in the about-tab (r85471)
+* Introduced new 'suppressfatal' option (r85471)
+* Introduced new 'suppressbrackets' option (r85471)
 
 
 = 0.1.1 =
