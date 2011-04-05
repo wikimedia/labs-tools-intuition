@@ -24,13 +24,10 @@ $messages['en'] = array(
 	'settings-legend' => 'Settings',
 );
 
-/**
- * Documentation
- *
+/** Message documentation (Message documentation)
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'title' =>	"{{Notranslate}}\n\nThe title of the tool.",
 	'formats-heading' => 'This is the heading above the list of available formats to export/output to.',
 	'input' => 'This is the heading above the input form.',
 	'label-wikiids' => 'This form label is for the input field for the wiki identifiers. Users may type one or more identifiers here.',
@@ -39,17 +36,47 @@ $messages['qqq'] = array(
 	'settings-legend' => 'This is the title for the settings box in the input form.',
 );
 
-/**
- * Nederlands
- *
+/** German (Deutsch)
+ * @author Kghbln
+ */
+$messages['de'] = array(
+	'formats-heading' => 'Ausgabeformate',
+	'input' => 'Angaben',
+	'label-wikiids' => 'Wiki-Kennungen',
+	'no-matches' => 'Kein Ergebnis für „$1“',
+	'output' => 'Ausgabe für „$1“',
+	'settings-legend' => 'Einstellungen',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'formats-heading' => 'Formatos de output',
+	'input' => 'Entrata',
+	'label-wikiids' => 'Indentificatores de wiki',
+	'no-matches' => 'Nihil corresponde a "$1"',
+	'output' => 'Resultatos pro "$1"',
+	'settings-legend' => 'Configurationes',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'settings-legend' => 'Astellungen',
+);
+
+/** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand
  */
 $messages['nl'] = array(
+	'formats-heading' => 'Uitvoeropmaak',
 	'input' => 'Invoer',
-	'formats-heading' => 'Uitvoerkeuzes',
-	'label-wikiids' => 'Wiki ID\'s',
+	'label-wikiids' => "Wiki-ID's",
 	'no-matches' => 'Geen resultaten voor "$1"',
 	'output' => 'Uitvoer voor "$1"',
 	'settings-legend' => 'Instellingen',
 );
+

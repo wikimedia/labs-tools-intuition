@@ -26,9 +26,7 @@ $messages['en'] = array(
 	'hours' => 'hours',
 );
 
-/**
- * Documentation
- *
+/** Message documentation (Message documentation)
  * @author Krinkle
  */
 $messages['qqq'] = array(
@@ -37,44 +35,77 @@ $messages['qqq'] = array(
 	'welcome' => 'A friendly welcome.',
 	'toolversionstamp' => 'Short sentence about what the last version of this tool is and when this version was uploaded. <code>$1</code> is the version (eg. "1.5.5beta") and <code>$2</code> is the date.',
 	'etc' => 'Abbreviated form of "et cetera"',
-	'namespace' => '{{Identical|Namespace}}',
 	'colon-separator' => 'Optional message. Change it only if your language uses another character for ":" or it needs an extra space before the colon.',
+	'namespace' => '{{Identical|Namespace}}',
 	'form-submit' => 'A general label for a form submission button. Not per se a search form!',
 	'form-reset' => 'A general label for a form reset button. Not per se a search form!',
 );
 
-/**
- * Nederlands
- *
+/** German (Deutsch)
+ * @author Kghbln
  * @author Krinkle
+ */
+$messages['de'] = array(
+	'dateformat' => '%d %B %Y',
+	'hello' => 'Hallo',
+	'welcome' => 'Willkommen',
+	'toolversionstamp' => 'Version $1 wie zu $2 hochgeladen',
+	'etc' => 'usw.',
+	'namespace' => 'Namensraum',
+	'form-submit' => 'Ausführen',
+	'form-reset' => 'Zurücksetzen',
+	'years' => 'Jahre',
+	'weeks' => 'Wochen',
+	'days' => 'Tage',
+	'hours' => 'Stunden',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'hello' => 'Salute',
+	'welcome' => 'Benvenite',
+	'toolversionstamp' => 'Version $1 como incargate le $2',
+	'etc' => 'etc.',
+	'namespace' => 'Spatio de nomines',
+	'form-submit' => 'Ir',
+	'form-reset' => 'Reinitialisar',
+	'years' => 'annos',
+	'weeks' => 'septimanas',
+	'days' => 'dies',
+	'hours' => 'horas',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'hello' => 'Salut',
+	'namespace' => 'Nummraum',
+	'form-submit' => 'Lass',
+	'weeks' => 'Wochen',
+	'days' => 'Deeg',
+	'hours' => 'Stonnen',
+);
+
+/** Dutch (Nederlands)
  * @author GerardM
+ * @author Krinkle
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'dateformat' => '%d %B %Y',
 	'hello' => 'Hallo',
 	'welcome' => 'Welkom',
-	'toolversionstamp' => 'Versie $1 geupload op $2',
+	'toolversionstamp' => 'Versie $1 geüpload op $2',
 	'etc' => 'enzovoort',
 	'namespace' => 'Naamruimte',
 	'form-submit' => 'OK',
 	'form-reset' => 'Opnieuw instellen',
-	'years' => 'jaren',
+	'years' => 'jaar',
 	'weeks' => 'weken',
 	'days' => 'dagen',
-	'hours' => 'uren',
+	'hours' => 'uur',
 );
 
-/**
- * Deutsch
- *
- * @author Krinkle
- */
-$messages['de'] = array(
-	'dateformat' => '%d %B %Y',
-	'hello' => 'Hallo',
-	'welcome' => 'Wilkommen',
-	'toolversionstamp' => 'Version $1 hochgeladen auf $2',
-	'etc' => 'usw.',
-	'form-submit' => 'Ausführen',
-);
