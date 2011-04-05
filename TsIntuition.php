@@ -1050,7 +1050,7 @@ class TsIntuition {
 			'returntoquery' => http_build_query( $_GET ),
 		);
 		$p = http_build_query( $p );
-		return "{$this->dashboardHome}?$p";
+		return "{$this->dashboardHome}?$p#tab-settingsform";
 	}
 
 	/**

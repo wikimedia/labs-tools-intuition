@@ -255,10 +255,12 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 	$domainInfo = $I18N->getDomainInfo( $domainKey );
 	$title = $I18N->msg( 'title', $domainKey, /* fallback = */ $domainKey );
 	if ( isset( $domainInfo['url'] ) ) {
-		$link = TsIntuitionUtil::tag( $title, 'a', array( 'href' => $domainInfo['url'] ) );
-		$about .= "<li>$link</li>";
+		$item = TsIntuitionUtil::tag( "$title <{$domainInfo['url']}>", 'a', array( 'href' => $domainInfo['url'] ) );
+		$about .= "<li>$item</li>";
 	} else {
-		$about .= TsIntuitionUtil::tag( $title, 'li' );
+		// Don't show tools without a url
+		//$item = TsIntuitionUtil::tag( $title, 'em' );
+		//$about .= "<li>$item</li>";
 	}
 }
 $about .= '</ul><div style="clear:both"></div></div><!-- #tab-about -->';
