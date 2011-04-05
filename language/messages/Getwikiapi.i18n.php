@@ -7,6 +7,8 @@
 
 $url = '~krinkle/getWikiAPI.php';
 
+$messages = array();
+
 /**
  * English
  *

@@ -7,6 +7,8 @@
 
 $url = '~jarry/svgtranslate/';
 
+$messages = array();
+
 /**
  * English
  *

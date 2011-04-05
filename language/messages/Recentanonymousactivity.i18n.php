@@ -7,6 +7,8 @@
 
 $url = '~krinkle/recentAnonymousActivity/';
 
+$messages = array();
+
 /**
  * English
  *

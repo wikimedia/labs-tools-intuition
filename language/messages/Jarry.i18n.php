@@ -7,6 +7,8 @@
 
 $url = '~jarry/';
 
+$messages = array();
+
 /**
  * English
  *

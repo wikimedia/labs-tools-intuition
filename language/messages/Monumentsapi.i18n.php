@@ -7,6 +7,8 @@
 
 $url = '~erfgoed/api/';
 
+$messages = array();
+
 /**
  * English
  *

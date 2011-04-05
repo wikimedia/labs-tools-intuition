@@ -7,6 +7,8 @@
 
 $url = '~krinkle/OrphanTalk2/';
 
+$messages = array();
+
 /**
  * English
  *

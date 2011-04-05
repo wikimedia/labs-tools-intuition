@@ -3,6 +3,8 @@
  * General purpose messages.
  */
 
+$messages = array();
+
 /**
  * English
  *

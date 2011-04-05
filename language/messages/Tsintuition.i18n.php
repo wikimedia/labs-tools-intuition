@@ -7,6 +7,8 @@
 
 $url = '~krinkle/TsIntuition/';
 
+$messages = array();
+
 /**
  * English
  *
