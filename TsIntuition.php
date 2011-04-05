@@ -29,16 +29,16 @@ class TsIntuition {
 
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
-	private $registeredTextdomains = null;
+	private $registeredTextdomains;
 
-	private $suppresserrors = false;
-	private $suppressnotices = true;
-	private $stayalive = false;
-	private $constructLang = false;
-	private $currentTextdomain = 'general';
-	private $useRequestParam = true;
-
-	private $currentLanguage = 'en';
+	// Construct options
+	private $currentTextdomain;
+	private $currentLanguage;
+	private $suppressfatal;
+	private $suppressnotice;
+	private $suppressbrackets;
+	private $stayalive;
+	private $useRequestParam;
 
 	// Changing this will invalidate all cookies
 	private $cookieNames = array(
@@ -89,12 +89,13 @@ class TsIntuition {
 	 * Pass a string (domain) or array (options)
 	 *
 	 * Options:
-	 * - suppresserrors
-	 * - suppressnotices
-	 * - stayalive
-	 * - globalfunctions
 	 * - lang
 	 * - domain
+	 * - globalfunctions
+	 * - suppressfatal
+	 * - suppressnotice
+	 * - suppressbrackets
+	 * - stayalive
 	 * - param
 	 */
 	function __construct( $options = array() ) {
@@ -103,35 +104,19 @@ class TsIntuition {
 			$options = array( 'domain' => $options );
 		}
 		
-		$this->loadDomains();
-
-		// Allow a tool to suppress errors, which will prevent TsIntuition from showing fatal errors
-		if ( isset( $options['suppresserrors'] ) && $options['suppresserrors'] == true ) {
-			$this->suppresserrors = true;
-			$this->suppressnotices = true;
-		}
-
-		// Allow a tool to suppress errors, which will prevent TsIntuition from showing notices
-		if ( isset( $options['suppressnotices'] ) && $options['suppressnotices'] == false ) {
-			$this->suppressnotices = false;
-		}
-
-		// Allow a tool to prevent TsIntuition for exiting/dieing on fatal errors
-		if ( isset( $options['stayalive'] ) && $options['stayalive'] == true ) {
-			$this->stayalive = true;
-		}
-
-		// Allow a tool to disable the loading of global functions in case they have a _() and/or _e() already
-		if ( !isset( $options['globalfunctions'] ) || $options['globalfunctions'] == true ) {
-			require_once( $this->localBaseDir . '/Functions.php' );
-		}
-
-		// If the tool doesn't want to use the cookie and parameter or would like to test something
-		// The user language can be overridden here. Note you can also override it for individual
-		// messages by passing the language code as third argument to msg().
-		if ( isset( $options['lang'] ) ) {
-			$this->constructLang = $options['lang'];
-		}
+		$defaultOptions = array(
+			'domain' => 'general',
+			'lang' => null,
+			'globalfunctions' => true,
+			'suppressfatal' => false,
+			'suppressnotice' => true,
+			'suppressbrackets' => false,
+			'stayalive' => false,
+			'param' => true,
+		);
+		$options = array_merge( $defaultOptions, $options );
+		
+		$this->loadDomainRegistry();
 
 		// The textdomain of your tool can be set here.
 		// Otherwise defaults to 'general'. See also documentation of msg()
@@ -140,14 +125,31 @@ class TsIntuition {
 			$this->setDomain( $options['domain'] );
 		}
 
+		// Allow a tool to disable the loading of global functions,
+		// in case they have a _() and/or _e() already.
+		if ( $options['globalfunctions'] === true ) {
+			//require_once( $this->localBaseDir . '/Functions.php' );
+		}
+
+		// Allow a tool to suppress fatals, which will prevent TsIntuition from showing fatal errors.
+		$this->suppressfatal = $options['suppressfatal'];
+
+		// Allow a tool to suppress notices, which will prevent TsIntuition from showing notices.
+		$this->suppressnotice = $options['suppressnotice'];
+
+		// Allow a tool to suppress brackets, msg() will return "Messagekey" instead of "[messagekey]"
+		// if this is true.
+		$this->suppressbrackets = $options['suppressbrackets'];
+
+		// Allow a tool to prevent TsIntuition for exiting/dieing on fatal errors.
+		$this->stayalive = $options['stayalive'];
+
 		// TsIntuition will choose the language based on a cookie. However it
 		// can be manually overriden for permalinks through a request parameter.
 		// By default this is 'userlang'. If you need this parameter for something else
 		// you can disable this system here. To avoid inconsistencies between tools
 		// a custom parameter name will not be supported. It's either on or off.
-		if ( isset( $options['param'] ) ) {
-			$this->setUseRequestParam( false );
-		}
+		$this->setUseRequestParam( $options['param'] );
 
 		// Load the initial text domain
 		$this->loadTextdomain( $this->getDomain() );
@@ -158,8 +160,14 @@ class TsIntuition {
 		// Load names
 		$this->loadNames();
 
+		// A tool may override the automatic initiation with cookies and paramters
+		// (ie. during development). Note you can also override it for individual msg calls,
+		// by passing the language code as third argument to msg().
+		// If options['lang'] is a non-empty string, initLangSelect will use it,
+		// instead of it's own routine.
+
 		// Initialize language choise
-		$this->initLangSelect();
+		$this->initLangSelect( $options['lang'] );
 
 	}
 
@@ -173,11 +181,17 @@ class TsIntuition {
 
 	/**
 	 * Set the current language which will be used when requesting messages etc.
-	 * @return true
+	 *
+	 * @param $lang String of language code (lowercase). If not a valid string
+	 *  setting will stay the same and false is returned.
+	 * @return boolean
 	 */
 	public function setLang( $lang ) {
-		$this->currentLanguage = $lang;
-		return true;
+		if ( TsIntuitionUtil::nonEmptyStr( $lang ) ) {
+			$this->currentLanguage = $lang;
+			return true;
+		}
+		return false;
 	}
 
 	/**
@@ -426,7 +440,7 @@ class TsIntuition {
 		if ( !is_null( $fail ) ) {
 			return $fail;
 		}
-		if ( $this->suppresserrors ) {
+		if ( $this->suppressbrackets ) {
 			return ucfirst( $key ); // Keyname
 		}
 		return "[$key]"; // [keyname]
@@ -450,7 +464,7 @@ class TsIntuition {
 	/**
 	 * Adds or overwrites a message in the blob.
 	 * This function is public so tools can use it while testing their tools
-	 * and don't need a message to exist in TranslateWiki yet, but don't want to see [msgkey] either.
+	 * and don't need a message to exist in translatewiki.net yet, but don't want to see [msgkey] either.
 	 * See also addMsgs() for registering multiple messages.
 	 *
 	 * First two parameters are required. Others (domain, language) default to current environment.
@@ -795,7 +809,7 @@ class TsIntuition {
 	 *
 	 * @return true
 	 */
-	private function loadDomains(){
+	private function loadDomainRegistry(){
 
 		// Don't load twice
 		if ( is_array( $this->registeredTextdomains ) ) {
@@ -906,9 +920,16 @@ class TsIntuition {
 	 *
 	 * @param $imgSize integer (optional) Defaults to 28px.
 	 * If 0 or a non-integer the image will be hidden.
+	 * @param $helpTranslateDomain mixed (optional)
+	 * - null (or nothing, default): Current domain
+	 * - true: All domains
+	 * - string: Custom domain
+	 * - false: Disable this message all together.
 	 * @return The HTML for the promo box.
 	 */
-	public function getPromoBox( $imgSize = 28 ) {
+	public function getPromoBox( $imgSize = 28, $helpTranslateDomain = null ) {
+
+		// Logo
 		if ( is_int( $imgSize ) && $imgSize > 0 ) {
 			$src = 'http://upload.wikimedia.org/wikipedia/commons/thumb/b/be'
 				. '/Wikimedia_Community_Logo-Toolserver.svg'
@@ -924,27 +945,55 @@ class TsIntuition {
 		} else {
 			$img = '';
 		}
+
+		// Promo message
 		$promoMsgOpts = array(
 			'domain' => 'tsintuition',
 			'escape' => 'html',
 			'raw-variables' => true,
 			'variables' => array(
-				'<a href="http://translatewiki.net/">TranslateWiki</a>',
+				'<a href="http://translatewiki.net/">translatewiki.net</a>',
 				'<a href="http://toolserver.org/~krinkle/TsIntuition/">Toolserver Intuition</a>'
 			),
 		);
 		$powered = $this->msg( 'bl-promo', $promoMsgOpts );
 		$change = $this->msg( 'bl-changelanguage', 'tsintuition' );
-		return "<div id=\"tsint-promobox\"><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a>"
-			. "<p>$powered <a href=\"{$this->dashboardHome}\">$change</a></p></div>";
+
+		// Help translation
+		if ( $helpTranslateDomain === true ) {
+			$helpTranslateDomain = '0-all';
+			$twLinkText = $this->msg( 'help-translate-all', 'tsintuition' );
+		} elseif ( is_null( $helpTranslateDomain ) ) {
+			$helpTranslateDomain = $this->getDomain();
+			$twLinkText = $this->msg( 'help-translate-tool', 'tsintuition' );
+		} else {
+			$twLinkText = $this->msg( 'help-translate-tool', 'tsintuition' );
+		}
+		$helpTranslateLink = '';
+		if ( is_string( $helpTranslateDomain ) ) {
+			$helpTranslateDomain = strtolower( $helpTranslateDomain );
+			// https://translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
+			$twParams = array(
+				'title' => 'Special:Translate',
+				'language' => $this->getLang(),
+				'group' => "tsint-$helpTranslateDomain",
+			);
+			$twParams = http_build_query( $twParams );
+			$helpTranslateLink = TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "https://translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) );
+		}
+
+		// Build output
+		return
+			"<div id=\"tsint-promobox\"><p><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a> "
+			. "$powered {$this->dashboardBacklink()} $helpTranslateLink</p></div>";
 	}
 
 	/**
 	 * Show a typical "powered by .." footer line.
 	 * Same as getPromoBox() but without the image.
 	 */
-	public function getFooterLine(){
-		return $this->getPromoBox( 'no-image' );
+	public function getFooterLine( $helpTranslateDomain = null ){
+		return $this->getPromoBox( 'no-image', $helpTranslateDomain );
 	}
 
 
@@ -1071,16 +1120,19 @@ class TsIntuition {
 	 *
 	 * @return true
 	 */
-	private function initLangSelect() {
+	private function initLangSelect( $option ) {
 		$set = false;
-		if ( $this->constructLang ) {
-			$set = $this->setLang( $this->constructLang );
+		if ( isset( $option ) && !empty( $option ) ) {
+			$set = $this->setLang( $option );
 		}
 		if ( !$set && $this->getUseRequestParam() === true && isset( $_GET[ $this->paramNames['userlang'] ] ) ) {
 			$set = $this->setLang( $_GET[ $this->paramNames['userlang'] ] );
 		}
 		if ( !$set && isset( $_COOKIE[ $this->cookieNames['userlang'] ] ) ) {
 			$set = $this->setLang( $_COOKIE[ $this->cookieNames['userlang'] ] );
+		}
+		if ( !$set ) {
+			$set = $this->setLang( 'en' );
 		}
 		return $set;
 	}
@@ -1137,10 +1189,10 @@ class TsIntuition {
 				$code = 'Unknown error: ';
 		}
 
-		if ( $error && $this->suppresserrors ) {
+		if ( $error && $this->suppressfatal ) {
 			return;
 		}
-		if ( $notice && $this->suppressnotices ) {
+		if ( $notice && $this->suppressnotice ) {
 			return;
 		}
 

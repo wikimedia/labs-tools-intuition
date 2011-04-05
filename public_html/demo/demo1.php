@@ -1,7 +1,6 @@
 <?php
 /* Config */
-require_once( 'sandbox.php' );
-
+require_once( 'demoBase.php' );
 
 /* Demonstration */
 // 1) Init $I18N
@@ -13,3 +12,4 @@ echo $I18N->msg( 'welcome' );
 
 /* View source */
 view_source( __FILE__ );
+close_demo();

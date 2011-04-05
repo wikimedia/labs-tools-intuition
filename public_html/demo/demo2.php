@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'sandbox.php' );
+require_once( 'demoBase.php' );
 
 
 /* Demonstration */
@@ -8,17 +8,15 @@ require_once( 'sandbox.php' );
 // 1) Init TsIntuition
 $options = array(
 	'domain' => 'tsintuition',
-
-	// Show notices
-	'suppressnotices' => false,
 );
 $I18N = new TsIntuition( $options );
 
 // 2) Request an undefined message
-// Because 'suppressnotices' is false,
-// this will trigger a Notice: 'r4nd0mstr1n9' undefined 
+// Because 'suppressnotices' is true (default),
+// this won't trigger a Notice, and show a bracket msg: '[r4nd0mstr1n9]' 
 echo $I18N->msg( 'r4nd0mstr1n9' );
 
 
 /* View source */
 view_source( __FILE__ );
+close_demo();

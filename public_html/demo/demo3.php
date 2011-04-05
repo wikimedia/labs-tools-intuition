@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'sandbox.php' );
+require_once( 'demoBase.php' );
 
 
 /* Demonstration */
@@ -9,16 +9,17 @@ require_once( 'sandbox.php' );
 $options = array(
 	'domain' => 'tsintuition',
 
-	// Hide any kind of warning sign, errors, fatals and never call die
-	'suppresserrors' => true,
+	// Show notices
+	'suppressnotice' => false,
 );
 $I18N = new TsIntuition( $options );
 
 // 2) Request an undefined message
-// Because 'suppresserrors' is true,
-// this will display "R4nd0mstr1n9" instead of [r4nd0mstr1n9]
+// Because 'suppressnotices' is false,
+// this will trigger a Notice: 'r4nd0mstr1n9' undefined 
 echo $I18N->msg( 'r4nd0mstr1n9' );
 
 
 /* View source */
 view_source( __FILE__ );
+close_demo();

@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'sandbox.php' );
+require_once( 'demoBase.php' );
 $I18N = new TsIntuition( 'general' );
 
 
@@ -8,7 +8,9 @@ $I18N = new TsIntuition( 'general' );
 echo $I18N->dashboardBacklink();
 echo $I18N->getPromoBox();
 echo $I18N->getFooterLine();
-
+echo $I18N->getFooterLine( false );
+echo $I18N->getFooterLine( true );
 
 /* View source */
 view_source( __FILE__ );
+close_demo();
