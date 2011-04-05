@@ -128,7 +128,7 @@ class TsIntuition {
 		// Allow a tool to disable the loading of global functions,
 		// in case they have a _() and/or _e() already.
 		if ( $options['globalfunctions'] === true ) {
-			//require_once( $this->localBaseDir . '/Functions.php' );
+			require_once( $this->localBaseDir . '/Functions.php' );
 		}
 
 		// Allow a tool to suppress fatals, which will prevent TsIntuition from showing fatal errors.
