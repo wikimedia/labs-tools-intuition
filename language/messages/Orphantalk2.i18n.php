@@ -34,6 +34,7 @@ $messages['en'] = array(
 	'tools-globalusage' => 'globalusage',
 	'deletesummary' => 'Cleaning orphaned talk pages via $1',
 	'noresults' => 'No orphaned talk pages on this wiki in this namespace matched your settings.',
+	'resultslimited' => 'Results were limited to $1 pages.',
 );
 
 /** Message documentation (Message documentation)
@@ -53,6 +54,7 @@ $messages['qqq'] = array(
 	'tools-globalusage' => 'If the orphan is a Commons file talk page, this link will link to the Specila:GlobalUsage for the File page.',
 	'deletesummary' => 'Deletion summary for the "delete"-toollink. $1 is an interwiki link to more info, also a way to promote this tool to others.',
 	'noresults' => 'Message displayed if there are no orphaned talk pages found with the current settings.',
+	'resultslimited' => 'If results were limited by the set\' limit, this message is displayed at the bottom of the search results.',
 );
 
 /** German (Deutsch)
