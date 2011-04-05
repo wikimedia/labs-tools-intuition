@@ -57,15 +57,16 @@ $messages['qqq'] = array(
  *
  * @author Krinkle
  * @author Gerard Meijssen
+ * @author Siebrand
  */
 $messages['nl'] = array(
-	'title' => 'SVG Vertaling',
-	'begin-translation' => 'Start de vertaling',
+	'title' => 'SVG-vertaling',
+	'begin-translation' => 'Vertalen',
 	'th-original' => 'Origineel',
 	'th-translation' => 'Vertaling',
 	'th-language' => 'Taal',
 	'preview' => 'Voorvertoning',
 	'translate' => 'Vertaal',
-	'translate-instructions' => 'Bestandsnamen (bijv. "$1") of volledige URL (bijv. "$2") invoeren. In het eerste geval wordt Wikimedia Commons als bron aangenomen. Om een SVG van een andere site te vertalen, gebruik dan het tweede formaaat.',
-	'svginput-label' => 'SVG Bestand',
+	'translate-instructions' => 'Bestandsnamen (bijvoorbeeld "$1") of volledige URL (bijvoorbeeld "$2") invoeren. In het eerste geval wordt Wikimedia Commons als bron gebruikt. Gebruik het tweede formaat om een SVG-bestand van een andere site te vertalen.',
+	'svginput-label' => 'SVG-bestand',
 );

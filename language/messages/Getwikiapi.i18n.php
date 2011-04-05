@@ -41,11 +41,12 @@ $messages['qqq'] = array(
  * Nederlands
  *
  * @author Krinkle
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'input' => 'Invoer',
-	'formats-heading' => 'Uitvoer keuzes',
-	'label-wikiids' => 'Wiki ids',
+	'formats-heading' => 'Uitvoerkeuzes',
+	'label-wikiids' => 'Wiki ID\'s',
 	'no-matches' => 'Geen resultaten voor "$1"',
 	'output' => 'Uitvoer voor "$1"',
 	'settings-legend' => 'Instellingen',

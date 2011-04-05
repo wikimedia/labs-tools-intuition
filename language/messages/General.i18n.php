@@ -46,16 +46,17 @@ $messages['qqq'] = array(
  *
  * @author Krinkle
  * @author GerardM
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'dateformat' => '%d %B %Y',
 	'hello' => 'Hallo',
 	'welcome' => 'Welkom',
 	'toolversionstamp' => 'Versie $1 geupload op $2',
-	'etc' => 'enz.',
+	'etc' => 'enzovoort',
 	'namespace' => 'Naamruimte',
 	'form-submit' => 'OK',
-	'form-reset' => 'Stel opnieuw in',
+	'form-reset' => 'Opnieuw instellen',
 	'years' => 'jaren',
 	'weeks' => 'weken',
 	'days' => 'dagen',

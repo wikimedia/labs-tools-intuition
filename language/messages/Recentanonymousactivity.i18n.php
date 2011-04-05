@@ -22,14 +22,15 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'title' => 'This is the title of the tool.',
+	'title' => 'This is the name of the tool.',
 );
 
 /**
  * Nederlands
  *
  * @author Krinkle
+ * @author Siebrand
  */
 $messages['nl'] = array(
-	'title' => 'Recente activiteit van anonieme gebruikers',
+	'title' => 'Recente activiteiten van anonieme gebruikers',
 );

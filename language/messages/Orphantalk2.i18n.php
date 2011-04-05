@@ -55,18 +55,19 @@ $messages['qqq'] = array(
  * Nederlands
  *
  * @author Krinkle
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'title' => 'WeesOverleg2',
 	'settings-legend' => 'Instellingen',
 	'output' => 'Uitvoer',
 	'update' => 'Bijwerken',
-	'tools-delete' => 'verwijder',
-	'tools-links' => 'links',
-	'tools-subject' => 'artikel',
-	'tools-hist' => 'gesch',
+	'tools-delete' => 'verwijderen',
+	'tools-links' => 'verwijzingen',
+	'tools-subject' => 'pagina',
+	'tools-hist' => 'gesch.',
 	'tools-curr' => 'huidige', 
-	'tools-globalusage' => 'globaalgebruik', 
+	'tools-globalusage' => 'globaal gebruik', 
 );
 
 /**
