@@ -27,10 +27,10 @@ $messages['en'] = array(
 	'th-language' => 'Language',
 	'preview' => 'Preview',
 	'translate' => 'Translate',
-	'translate-instructions' => 'Inputs are accepted as either Filenames (eg. "$1") or full-url (eg. "$2"). If the first option is used, Wikimedia Commons will be assumed as source. To translate an SVG from another site or wiki, you must use the full-url format.',
+	'translate-instructions' => 'Inputs are accepted as either file names (eg. "$1") or full URL (eg. "$2"). If the first option is used, Wikimedia Commons will be assumed as source. To translate an SVG from another site or wiki, you must use the full-url format.',
 	'format-filename-example' => 'File:Planetary transit.svg', // Do not translate
 	'format-fullurl-example' => 'http://upload.wikimedia.org/wikipedia/commons/8/8a/Planetary_transit.svg', // Do not translate
-	'svginput-label' => 'SVG File',
+	'svginput-label' => 'SVG file',
 	'stats-footer' => 'This tool has been used to translate approximately $1 files since $2.',
 );
 
