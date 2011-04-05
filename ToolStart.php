@@ -13,6 +13,12 @@
 // This is a valid entry, define true
 define( 'TS_INTUITION', __DIR__ );
 
+// Local override
+if ( file_exists( __DIR__ . '/LocalConfig.php' ) ) {
+	include_once( __DIR__ . '/LocalConfig.php' );
+}
+
+
 // Files
 require_once( __DIR__ . '/TsIntuitionUtil.php' );
 require_once( __DIR__ . '/TsIntuition.php' );

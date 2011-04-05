@@ -29,7 +29,10 @@ class TsIntuition {
 
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
-	private $registeredTextdomains;
+	public $registeredTextdomains;
+
+	// Address to the dashboard home. Should end with a slash or .extension
+	public $dashboardHome = 'http://toolserver.org/~krinkle/TsIntuition/';
 
 	// Construct options
 	private $currentTextdomain;
@@ -73,9 +76,6 @@ class TsIntuition {
 
 	// These variable names will be extracted from the message files
 	private $includeVariables = array( 'messages', 'url' );
-
-	// Address to the dashboard home. Should end with a slash or .extension
-	private $dashboardHome = 'http://toolserver.org/~krinkle/TsIntuition/';
 
 	// Redirect address and status
 	private $redirectTo = null; 
@@ -168,6 +168,10 @@ class TsIntuition {
 
 		// Initialize language choise
 		$this->initLangSelect( $options['lang'] );
+
+		if ( function_exists( 'TsIntuition_inithook' ) ) {
+			TsIntuition_inithook( $this );
+		}
 
 	}
 
