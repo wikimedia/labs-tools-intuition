@@ -243,15 +243,14 @@ $toolSettings['tabs']['tab-settingsform'] = _('tab-settings');
 
 
 // About tab
-$about = '<div id="tab-about">'
-	. 'Technical documentation: <a href="https://wiki.toolserver.org/view/Toolserver_Intuition">https://wiki.toolserver.org/view/Toolserver_Intuition</a>'
-	. '<div class="tab-paragraph-head">' . _( 'usage' ) . '</div>';
+$about = '<div id="tab-about">';
 	
-$about .= '<div><a href="http://translatewiki.net/wiki/Translating:Toolserver">'
+$about .= '<a href="http://translatewiki.net/wiki/Translating:Toolserver">'
 	.	'<img src="http://translatewiki.net/w/i.php?title=Special:TranslationStats&'
-	.	'graphit=1&width=600&height=400&group=tsint-0-all" width="600" height="400" alt="" class="aligncenter" />'
-	.	'</a></div>';
-$about .= '<ul>';
+	.	'graphit=1&width=520&height=400&group=tsint-0-all" width="520" height="400" alt="" class="floatRight" />'
+	.	'</a>';
+$about .= 'Technical documentation: <a href="https://wiki.toolserver.org/view/Toolserver_Intuition">https://wiki.toolserver.org/view/Toolserver_Intuition</a>'
+	. '<div class="tab-paragraph-head">' . _( 'usage' ) . '</div><ul>';
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 	$domainInfo = $I18N->getDomainInfo( $domainKey );
 	$title = $I18N->msg( 'title', $domainKey, /* fallback = */ $domainKey );
@@ -262,7 +261,7 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 		$about .= TsIntuitionUtil::tag( $title, 'li' );
 	}
 }
-$about .= '</ul></div><!-- #tab-about -->';
+$about .= '</ul><div style="clear:both"></div></div><!-- #tab-about -->';
 
 $Tool->addOut( $about );
 $toolSettings['tabs']['tab-about'] = _('tab-about');

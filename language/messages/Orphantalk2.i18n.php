@@ -15,7 +15,7 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' => 'OrphanTalk2', // optional
+	'title' => 'OrphanTalk2',
 	'settings-legend' => 'Settings',
 	'label-wiki' => 'Wiki', // optional
 	'select-wiki-first' => '(select a wiki first)',
