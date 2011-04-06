@@ -251,8 +251,12 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 	$domainInfo = $I18N->getDomainInfo( $domainKey );
 	$title = $I18N->msg( 'title', $domainKey, /* fallback = */ $domainKey );
 	if ( isset( $domainInfo['url'] ) ) {
-		$item = TsIntuitionUtil::tag( "$title <{$domainInfo['url']}>", 'a', array( 'href' => $domainInfo['url'] ) );
-		$about .= "<li>$item</li>";
+		$about .= '<li><a href="'
+			. htmlspecialchars( $domainInfo['url'] )
+			. '"><strong>' . htmlspecialchars( $title )
+			. '</strong><br />'
+			. htmlspecialchars( $domainInfo['path'] )
+			. '</a></li>';
 	} else {
 		// Don't show tools without a url
 		//$item = TsIntuitionUtil::tag( $title, 'em' );

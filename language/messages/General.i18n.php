@@ -24,6 +24,8 @@ $messages['en'] = array(
 	'weeks' => 'weeks',
 	'days' => 'days',
 	'hours' => 'hours',
+	'last-modified-date' => 'Last modified: $1',
+	'view-source' => 'View source',
 );
 
 /** Message documentation (Message documentation)
@@ -39,6 +41,8 @@ $messages['qqq'] = array(
 	'namespace' => '{{Identical|Namespace}}',
 	'form-submit' => 'A general label for a form submission button. Not per se a search form!',
 	'form-reset' => 'A general label for a form reset button. Not per se a search form!',
+	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
+	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
 );
 
 /** Bengali (বাংলা)
