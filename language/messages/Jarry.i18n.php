@@ -15,7 +15,8 @@ $messages = array();
  * @author Jarry
  */
 $messages['en'] = array(
-	'title' =>	'Jarry1250\'s Toolserver Tools', // Ignore, do not translate
+	'title' => 'Jarry1250\'s Toolserver Tools', // Ignore, do not translate
+	'moretools' => 'more tools from the same author',
 );
 
 /**
@@ -24,5 +25,6 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'title' =>	'The head line of Jarry tools. {{Notranslate}}',
+	'title' => 'The head line of Jarry tools. {{Notranslate}}',
+	'moretools' => 'This is a link to the index of all tools by Jarry1250.',
 );
