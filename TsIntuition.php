@@ -976,14 +976,14 @@ class TsIntuition {
 		$helpTranslateLink = '';
 		if ( is_string( $helpTranslateDomain ) ) {
 			$helpTranslateDomain = strtolower( $helpTranslateDomain );
-			// https://translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
+			// http://translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
 			$twParams = array(
 				'title' => 'Special:Translate',
 				'language' => $this->getLang(),
 				'group' => "tsint-$helpTranslateDomain",
 			);
 			$twParams = http_build_query( $twParams );
-			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "https://translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) ) . ')</small>';
+			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "http://translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) ) . ')</small>';
 		}
 
 		// Build output
