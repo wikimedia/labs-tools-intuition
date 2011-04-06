@@ -658,13 +658,10 @@ class TsIntuition {
 		}
 
 		// Was there a url defined in the textdomain file ?
-		if ( !isset( $data['url'] ) ) {
-			$url = null;
-		} else {
-			$url = "http://toolserver.org/{$data['url']}";
-		}
+		$fullurl = isset( $data['url'] ) ? "http://toolserver.org/{$data['url']}" : null;
+		$path = isset( $data['url'] ) ? $data['url'] : null;
 
-		$this->loadedTextdomains[$domain] = array( 'url' => $url );
+		$this->loadedTextdomains[$domain] = array( 'url' => $fullurl, 'path' => $path );
 
 
 		return true;
