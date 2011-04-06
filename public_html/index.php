@@ -46,6 +46,7 @@ $opts = array(
 	'revisionId'	=> $I18N->version,
 	'revisionDate'	=> $I18N->dateFormatted( $I18N->versionDate ),
 	'styles'		=> array( 'main.css' ),
+	'mode'			=> 'dashboard',
 );
 
 $Tool = BaseTool::newFromArray( $opts );

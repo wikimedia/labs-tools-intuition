@@ -33,6 +33,7 @@ class TsIntuition {
 	public $version = '0.1.2-svn';
 	public $versionDate;
 	public $publicHtmlPath = '/TsIntuition/';
+	public $mode = null; // 'in-tool', 'dashboard'
 
 	// Address to the dashboard home. Should end with a slash or .extension
 	public $dashboardHome = 'http://toolserver.org/~krinkle/TsIntuition/';
@@ -116,6 +117,7 @@ class TsIntuition {
 			'suppressbrackets' => false,
 			'stayalive' => false,
 			'param' => true,
+			'mode' => 'in-tool',
 		);
 		$options = array_merge( $defaultOptions, $options );
 		
