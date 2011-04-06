@@ -36,6 +36,16 @@ $messages['qqq'] = array(
 	'settings-legend' => 'This is the title for the settings box in the input form.',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'formats-heading' => 'আউটপুটের কাঠামো',
+	'input' => 'ইনপুট',
+	'output' => '"$1"-এর জন্য আউটপুট',
+	'settings-legend' => 'সেটিং',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -67,6 +77,18 @@ $messages['lb'] = array(
 	'settings-legend' => 'Astellungen',
 );
 
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'formats-heading' => 'Формати на изводот',
+	'input' => 'Внос',
+	'label-wikiids' => 'Идентификатори за вики',
+	'no-matches' => 'Ништо не одговара на „$1“',
+	'output' => 'Извод за „$1“',
+	'settings-legend' => 'Поставки',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand
@@ -78,5 +100,38 @@ $messages['nl'] = array(
 	'no-matches' => 'Geen resultaten voor "$1"',
 	'output' => 'Uitvoer voor "$1"',
 	'settings-legend' => 'Instellingen',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'formats-heading' => 'Излазни формати',
+	'input' => 'Улаз',
+	'label-wikiids' => 'Одређивачи',
+	'no-matches' => 'Ништа се не поклапа са „$1“',
+	'output' => 'Излаз за „$1“',
+	'settings-legend' => 'Поставке',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'formats-heading' => 'Mga anyo ng inilalabas',
+	'input' => 'Ipinapasok',
+	'label-wikiids' => 'Mga tagapagkilala ng Wiki',
+	'no-matches' => 'Walang tumugma sa "$1"',
+	'output' => 'Inilabas para sa "$1"',
+	'settings-legend' => 'Mga pagtatakda',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'formats-heading' => '输出格式',
+	'input' => '输入',
+	'settings-legend' => '设置',
 );
 

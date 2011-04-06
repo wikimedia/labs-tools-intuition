@@ -57,6 +57,42 @@ $messages['qqq'] = array(
 	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'fullname' => 'Інтэрналіцыяналізацыя інтэрфэйсу карыстальніка Toolserver',
+	'current-settings' => 'Цяперашнія налады',
+	'current-language' => 'Цяперашняя выбраная мова',
+	'settings-legend' => 'Налады',
+	'choose-language' => 'Выберыце мову',
+);
+
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'fullname' => 'টুলসার্ভারের ব্যবহারকারী ইন্টারফেসের আন্তর্জাতিকীকরণ',
+	'current-settings' => 'বর্তমান সেটিংস',
+	'current-language' => 'বর্তমানে নির্ধারিত ভাষাসমূহ',
+	'settings-legend' => 'সেটিংস',
+	'choose-language' => 'একটি ভাষা নির্বাচন করুন',
+	'clear-cookies' => 'কুকি পরিস্কার',
+	'renew-cookies' => 'কুকি নবায়ন',
+	'cookie-expiration' => 'কুকি উত্তীর্ণের মেয়াদ',
+	'clearcookies-success' => 'সফলভাবে কুকি পরিস্কার সম্পন্ন হয়েছে।',
+	'renewcookies-success' => 'কুকি নবায়নকৃত হয়েছে! আপনারা সবাই $1 পর্যন্ত নিশ্চিত।',
+	'tab-overview' => 'ভূমিকা',
+	'tab-settings' => 'সেটিং',
+	'tab-about' => 'বৃত্তান্ত',
+	'bl-mysettings' => 'আমার ভাষা সেটিং',
+	'bl-mysettings-new' => 'ভাষা পরিবর্তন!',
+	'bl-changelanguage' => 'এই সরঞ্জামটির ইন্টারফেস ভাষা পরিবর্তন করতে এখানে ক্লিক করুন।',
+	'help-translate-tool' => 'এই টুলটি অনুবাদে সাহায্য করুন!',
+	'help-translate-all' => 'টুলসার্ভার অনুবাদ করতে সাহায্য করুন!',
+	'help-translate-tooltip' => 'ইন্টারফেস বার্তাগুলো আপনার ভাষায় অনুবাদ করে অন্যদের সাহায্য করুন।',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Krinkle
@@ -75,7 +111,7 @@ $messages['de'] = array(
 	'tab-overview' => 'Übersicht',
 	'tab-settings' => 'Einstellungen',
 	'tab-about' => 'Über',
-	'bl-mysettings' => 'Meine Übersetzungseinstellungen',
+	'bl-mysettings' => 'Meine Spracheinstellungen',
 	'bl-mysettings-new' => 'Sprache wechseln',
 	'bl-promo' => 'Die Übersetzungen werden von $1 und $2 möglich gemacht.',
 	'bl-changelanguage' => 'Hier klicken, um die Sprache der Benutzeroberfläche dieses Hilfsprogramms zu ändern.',
@@ -83,6 +119,23 @@ $messages['de'] = array(
 	'help-translate-tool' => 'Hilf bitte dieses Hilfsprogramm zu übersetzen.',
 	'help-translate-all' => 'Hilf bitte den Toolserver zu übersetzten.',
 	'help-translate-tooltip' => 'Hilf anderen indem du die Nachrichten der Benutzeroberfläche in deine Sprache übersetzt.',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'tab-overview' => 'סקירה',
+	'tab-settings' => 'הגדרות',
+	'tab-about' => 'אודות',
+	'bl-mysettings' => 'הגדרות השפה שלי',
+	'bl-mysettings-new' => 'לשנות שפה!',
+	'bl-promo' => 'ההגדרות בזכות $1 ו־$2',
+	'bl-changelanguage' => 'לחצו כאן לשינוי שפת הממשק של הכלי הזה.',
+	'usage' => 'כלים שמתורגמים באמצעות Toolserver Intuition.',
+	'help-translate-tool' => 'בואו לעזור את הכלי הזה!',
+	'help-translate-all' => 'עזרו לתרגום את שרת הכלים!',
+	'help-translate-tooltip' => 'עזרו לאחרים לתרגם את הודעות הממשק לשפתכם.',
 );
 
 /** Interlingua (Interlingua)
@@ -102,7 +155,7 @@ $messages['ia'] = array(
 	'tab-overview' => 'Vista general',
 	'tab-settings' => 'Configurationes',
 	'tab-about' => 'A proposito',
-	'bl-mysettings' => 'Mi configurationes de traduction',
+	'bl-mysettings' => 'Mi configurationes de lingua',
 	'bl-mysettings-new' => 'Cambiar de lingua!',
 	'bl-promo' => 'Le traduction es actionate per $1 e $2.',
 	'bl-changelanguage' => 'Clicca hic pro cambiar le lingua del interfacie de iste instrumento.',
@@ -118,6 +171,7 @@ $messages['ia'] = array(
 $messages['lb'] = array(
 	'current-settings' => 'Aktuell Astellungen',
 	'settings-legend' => 'Astellungen',
+	'choose-language' => 'Sicht eng Sprooch eraus',
 	'bl-mysettings-new' => 'Sprooch wiesselen!',
 );
 
@@ -126,6 +180,26 @@ $messages['lb'] = array(
  */
 $messages['mk'] = array(
 	'fullname' => 'Преводи на корисничкиот посредник на Toolserver',
+	'current-settings' => 'Тековни поставки',
+	'current-language' => 'Тековен избран јазик',
+	'settings-legend' => 'Поставки',
+	'choose-language' => 'Изберете јазик',
+	'clear-cookies' => 'исчисти колачиња',
+	'renew-cookies' => 'обнови колачиња',
+	'cookie-expiration' => 'Истек на колачињата',
+	'clearcookies-success' => 'Колачињата се успешно исчистени.',
+	'renewcookies-success' => 'Колачињата се обновени! Сега сте обезбедени за следните $1.',
+	'tab-overview' => 'Преглед',
+	'tab-settings' => 'Поставки',
+	'tab-about' => 'За алатката',
+	'bl-mysettings' => 'Мои јазични поставки',
+	'bl-mysettings-new' => 'Сменете јазик!',
+	'bl-promo' => 'Преводот е овозможен од $1 и $2.',
+	'bl-changelanguage' => 'Стиснете тука за да го смените јазикот на посредникот за алаткава.',
+	'usage' => 'Алатки што се преведуваат со Toolserver Intuition.',
+	'help-translate-tool' => 'Помогнете ни со преводот на алаткава!',
+	'help-translate-all' => 'Помогнете ни со преводот на Toolserver!',
+	'help-translate-tooltip' => 'Помогнете им на другите со преведување на посреднички пораки на вашиот јазик.',
 );
 
 /** Dutch (Nederlands)
@@ -146,7 +220,7 @@ $messages['nl'] = array(
 	'tab-overview' => 'Overzicht',
 	'tab-settings' => 'Instellingen',
 	'tab-about' => 'Over',
-	'bl-mysettings' => 'Mijn vertaalinstellingen',
+	'bl-mysettings' => 'Mijn taalinstellingen',
 	'bl-mysettings-new' => 'Taal wijzigen',
 	'bl-promo' => 'De vertaling is mogelijk gemaakt door $1 en $2.',
 	'bl-changelanguage' => 'Klik hier om de interfacetaal van dit programma te wijzigen.',
@@ -162,5 +236,71 @@ $messages['nl'] = array(
 $messages['sr-ec'] = array(
 	'fullname' => 'Превод корисничког сучеља Тулсервера',
 	'current-settings' => 'Текуће поставке',
+	'current-language' => 'Изабрани језик',
+	'settings-legend' => 'Поставке',
+	'choose-language' => 'Изаберите језик',
+	'clear-cookies' => 'очисти колачиће',
+	'renew-cookies' => 'обнови колачиће',
+	'cookie-expiration' => 'Истек колачића',
+	'clearcookies-success' => 'Колачићи су очишћени.',
+	'renewcookies-success' => 'Колачићи су обновљени. Они ће истећи за $1.',
+	'tab-overview' => 'Преглед',
+	'tab-settings' => 'Поставке',
+	'tab-about' => 'О проширењу',
+	'bl-mysettings' => 'Језичке поставке',
+	'bl-mysettings-new' => 'Промените језик.',
+	'bl-promo' => 'За преводе су заслужни $1 и $2.',
+	'bl-changelanguage' => 'Кликните овде да промените језик проширења.',
+	'usage' => 'Алатке преведене од стране Тулсервер интуишон.',
+	'help-translate-tool' => 'Помозите нам да преведемо овај алат!',
+	'help-translate-all' => 'Помозите нам да преведемо Тулсервер!',
+	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик.',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'fullname' => 'Pagsasandaigdigan para sa Ugnayang-Mukha ng Toolserver',
+	'current-settings' => 'Pangkasalukuyang mga katakdaan',
+	'current-language' => 'Pangkasalukuyang napiling wika',
+	'settings-legend' => 'Mga pagtatakda',
+	'choose-language' => 'Pumili ng isang wika',
+	'clear-cookies' => 'hawiin ang mga otap',
+	'renew-cookies' => 'baguhing muli ang mga otap',
+	'cookie-expiration' => 'Katapusan ng otap',
+	'clearcookies-success' => 'Matagumpay na nahawi ang mga otap.',
+	'renewcookies-success' => 'Muli nang nabago ang mga otap!  Nakahanda ka na para sa susunod na $1.',
+	'tab-overview' => 'Pagtalakay na naglalarawan',
+	'tab-settings' => 'Mga katakdaan',
+	'tab-about' => 'Patungkol',
+	'bl-mysettings' => 'Mga pagtatakda ko sa wika',
+	'bl-mysettings-new' => 'Palitan ang wika!',
+	'bl-promo' => 'Ang mga salinwika ay binibigyang lakas ng $1 at $2.',
+	'bl-changelanguage' => 'Pindutin dito upang baguhin anng wika ng ugnayang-mukha ng kasangkapang ito.',
+	'usage' => 'Ang mga kasangkapan ay isinalinwika ng Kutob ng Toolserver.',
+	'help-translate-tool' => 'Tumulong sa pagsasalinwika ng kasangkapang ito!',
+	'help-translate-all' => 'Tumulong sa pagsasalinwika ng Toolserver!',
+	'help-translate-tooltip' => 'Tulungan ang iba sa pamamagitan ng pagsasalinwika ng mga mensahe ng ugnayang-mukha papunta sa wika mo.',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'current-settings' => '当前的设置',
+	'current-language' => '当前所选的语言',
+	'settings-legend' => '设置',
+	'choose-language' => '选择一种语言',
+	'clear-cookies' => ' 清除 cookie',
+	'tab-overview' => '概述',
+	'tab-settings' => '设置',
+	'tab-about' => '关于',
+	'bl-mysettings' => '我的语言设置',
+	'bl-mysettings-new' => '更改语言！',
+	'bl-promo' => '翻译采用 $1 和 $2。',
+	'bl-changelanguage' => '若要更改此工具界面语言，请单击此处。',
+	'help-translate-tool' => '帮助翻译此工具！',
+	'help-translate-tooltip' => '帮助别人翻译成您的语言的接口的消息。',
 );
 

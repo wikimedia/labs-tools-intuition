@@ -41,6 +41,23 @@ $messages['qqq'] = array(
 	'form-reset' => 'A general label for a form reset button. Not per se a search form!',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'hello' => 'হ্যালো',
+	'welcome' => 'স্বাগতম',
+	'toolversionstamp' => '$1 সংস্করণটি $2-এ আপলোড করা হয়েছে',
+	'etc' => 'ইত্যাদি।',
+	'namespace' => 'নামস্থান',
+	'form-submit' => 'চলো',
+	'form-reset' => 'আদি অবস্থায় ফেরত',
+	'years' => 'বছর',
+	'weeks' => 'সপ্তাহ',
+	'days' => 'দিন',
+	'hours' => 'ঘণ্টা',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Krinkle
@@ -84,9 +101,28 @@ $messages['lb'] = array(
 	'hello' => 'Salut',
 	'namespace' => 'Nummraum',
 	'form-submit' => 'Lass',
+	'years' => 'Joer',
 	'weeks' => 'Wochen',
 	'days' => 'Deeg',
 	'hours' => 'Stonnen',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'dateformat' => '%d %B %Y',
+	'hello' => 'Здраво',
+	'welcome' => 'Добредојдовте',
+	'toolversionstamp' => 'Верзија $1 (подигната на $2)',
+	'etc' => 'и тн.',
+	'namespace' => 'Именски простор',
+	'form-submit' => 'Оди',
+	'form-reset' => 'Одново',
+	'years' => 'години',
+	'weeks' => 'недели',
+	'days' => 'дена',
+	'hours' => 'часа',
 );
 
 /** Dutch (Nederlands)
@@ -107,5 +143,55 @@ $messages['nl'] = array(
 	'weeks' => 'weken',
 	'days' => 'dagen',
 	'hours' => 'uur',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'hello' => 'Здраво,',
+	'welcome' => 'Добро дошли',
+	'toolversionstamp' => 'Издање $1 отпремљено $2',
+	'etc' => 'итд.',
+	'namespace' => 'Именски простор',
+	'form-submit' => 'Иди',
+	'form-reset' => 'Поништи',
+	'years' => 'године',
+	'weeks' => 'недеље/а',
+	'days' => 'дана',
+	'hours' => 'сата/и',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'hello' => 'Kumusta',
+	'welcome' => 'Maligayang pagdating',
+	'toolversionstamp' => 'Bersyong $1 na naikarga sa $2',
+	'etc' => 'at iba pa',
+	'namespace' => 'Puwang ng pangalan',
+	'form-submit' => 'Pumunta',
+	'form-reset' => 'Muling itakda',
+	'years' => 'mga taon',
+	'weeks' => 'mga linggo',
+	'days' => 'mga araw',
+	'hours' => 'mga oras',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'hello' => '你好',
+	'welcome' => '欢迎',
+	'etc' => '等。',
+	'namespace' => '名字空间',
+	'form-submit' => '转到',
+	'form-reset' => '重置',
+	'years' => '年',
+	'weeks' => '周',
+	'days' => '天',
+	'hours' => '小时',
 );
 

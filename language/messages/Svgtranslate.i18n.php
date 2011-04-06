@@ -52,6 +52,32 @@ $messages['qqq'] = array(
 	'svginput-label' => 'The label for main SVG filename input.',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'th-language' => 'Език',
+	'translate' => 'Превеждане',
+);
+
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'title' => 'এসভিজি অনুবাদ',
+	'error-tryagain' => '$1 পুনরায় চেষ্টা করতে আপনার ব্রাউজারের ব্যাক বাটনে ক্লিক করুন।',
+	'error-nothing' => 'অনুবাদ করার মতো কিছু নেই।',
+	'error-notsvg' => 'এটি কোনো এসভিজি ফাইল নয়।',
+	'error-unexpected' => 'একটি অনাকাঙ্ক্ষিত ত্রুটি দেখা দিয়েছে।',
+	'begin-translation' => 'অনুবাদ শুরু করুন',
+	'th-original' => 'মূল',
+	'th-translation' => 'অনুবাদ',
+	'th-language' => 'ভাষা',
+	'preview' => 'প্রাকদর্শন',
+	'translate' => 'অনুবাদ',
+	'svginput-label' => 'এসভিজি ফাইল',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -120,9 +146,31 @@ $messages['ia'] = array(
  */
 $messages['lb'] = array(
 	'error-nothing' => "Näischt fir z'iwwersetzen.",
+	'th-original' => 'Original',
 	'th-translation' => 'Iwwersetzung',
 	'th-language' => 'Sprooch',
 	'translate' => 'Iwwersetzen',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'title' => 'SVG Превод',
+	'error-tryagain' => '$1 Обидете се повторно со копчето „Назад“ на  вашиот прелистувач.',
+	'error-nothing' => 'Нема ништо за преведување.',
+	'error-notsvg' => 'Не е SVG-податотека.',
+	'error-unexpected' => 'Се појави неочекувана грешка.',
+	'error-notfound' => 'Не можев да ја преземам SVG-податотеката од наведената URL-адреса.',
+	'begin-translation' => 'Почнете со преведување',
+	'th-original' => 'Изворно',
+	'th-translation' => 'Превод',
+	'th-language' => 'Јазик',
+	'preview' => 'Преглед',
+	'translate' => 'Преведи',
+	'translate-instructions' => 'Допуштено е да се внесуваат податотечни имиња (на пр. „$1“) или полни URL-адреси (на пр. „$2“). Ако го користите првото, за извор ќе се смета Заедничката Ризница. Ако сакате да преведете SVG од друго мрежно место или вики, ќе мора да ја наведете полната URL-адреса.',
+	'svginput-label' => 'SVG-податотека',
+	'stats-footer' => 'Со оваа алатка досега се преведени околу $1 податотеки од (започнувајќи од $2).',
 );
 
 /** Dutch (Nederlands)
@@ -146,5 +194,65 @@ $messages['nl'] = array(
 	'translate-instructions' => 'U kunt bestandsnamen (bijvoorbeeld "$1") of volledige URL\'s (bijvoorbeeld "$2") invoeren. In het eerste geval wordt Wikimedia Commons als bron gebruikt. Gebruik het tweede formaat om een SVG-bestand van een andere site te vertalen.',
 	'svginput-label' => 'SVG-bestand',
 	'stats-footer' => 'Via dit programma zijn sinds $2 ongeveer $1 bestanden vertaald.',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'title' => 'SVG преводилац',
+	'error-tryagain' => '$1 Кликните на дугме „Назад“ свог прегледача',
+	'error-nothing' => 'Нема ништа за превођење.',
+	'error-notsvg' => 'Није SVG датотека.',
+	'error-unexpected' => 'Дошло је до неочекиване грешке.',
+	'error-notfound' => 'SVG датотека није добављена из наведене адресе.',
+	'begin-translation' => 'Превођење',
+	'th-original' => 'Изворно',
+	'th-translation' => 'Превод',
+	'th-language' => 'Језик',
+	'preview' => 'Прегледај',
+	'translate' => 'Преведи',
+	'translate-instructions' => 'Уноси се прихватају као називи датотека („$1“) или као цела адреса („$2“). Ако се користи прва могућност, Викимедијино складиште ће бити изабрано као извор. Да бисте превели SVG датотеку с другог сајта или викија, користите целу адресу.',
+	'svginput-label' => 'SVG датотека',
+	'stats-footer' => 'Ова алатка се користи за превођење приближно $1 датотека од $2.',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'title' => 'Pagsasalinwika na SVG',
+	'error-tryagain' => '$1 Patamaan ang pindutang pampabalik ng pantingin-tingin mo upang subukang muli.',
+	'error-nothing' => 'Walang isasalinwika.',
+	'error-notsvg' => 'Hindi isang talaksang SVG.',
+	'error-unexpected' => 'Naganap ang isang hindi inaasahang kamalian.',
+	'error-notfound' => 'Hindi makuhang muli ang talaksang SVG magmula sa ibinigay na URL.',
+	'begin-translation' => 'Simulan ang pagsasalinwika',
+	'th-original' => 'Orihinal',
+	'th-translation' => 'Salinwika',
+	'th-language' => 'Wika',
+	'preview' => 'Paunang pagtingin',
+	'translate' => 'Isalinwika',
+	'translate-instructions' => 'Ang mga ipinapasok ay tinatanggap bilang mga pangalan ng talaksan (iyon ay "$1") o buong URL (iyon ay "$2").  Kung ang unang pagpipilian ang ginamit, ipapalagay na ang Wikimedia Commons ang pinagmulan.  Upang maisalinwika ang isang SVG mula sa ibang lugar o wiki, dapat mong gamitin ang anyo ng buong URL.',
+	'svginput-label' => 'Talaksang SVG',
+	'stats-footer' => 'Ginamit ang kasangkapang ito upang isalinwika ang tinatayang $1 mga talaksan magmula noong $2.',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'title' => 'SVG 翻译',
+	'error-nothing' => '没有要翻译的内容。',
+	'error-notsvg' => '不是 SVG 文件。',
+	'error-unexpected' => '发生意外的错误。',
+	'error-notfound' => '不能从提供的 URL 中检索的 SVG 文件。',
+	'begin-translation' => '开始翻译',
+	'th-original' => '源语言',
+	'th-translation' => '翻译',
+	'th-language' => '语言',
+	'preview' => '预览',
+	'translate' => '翻译',
+	'svginput-label' => 'SVG 文件',
 );
 
