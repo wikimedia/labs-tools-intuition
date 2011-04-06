@@ -38,18 +38,13 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 	$I18N->loadTextdomain( $domainKey );
 }
 
-$svninfo = kfGetSvnInfo( TS_INTUITION ); // parses .svn/entries
-$revUrlQuery = array( 'path' => $svninfo['directory-path'] );
-$revUrl = $svninfo['directory-cr-rev'] . '?' . http_build_query( $revUrlQuery );
-
-
 /* Initialize BaseTool */
 $opts = array(
 	'displayTitle'	=> _( 'fullname' ),
 	'krinklePrefix'	=> false,
-	'simplePath'	=> '/TsIntuition/',
-	'revisionId'	=> "0.1.1 (<a target=\"blank\" href=\"$revUrl\">r{$svninfo['directory-rev']}</a>)",
-	'revisionDate'	=> $I18N->dateFormatted( $svninfo['directory-up-date'] ),
+	'simplePath'	=> $I18N->publicHtmlPath,
+	'revisionId'	=> $I18N->version,
+	'revisionDate'	=> $I18N->dateFormatted( $I18N->versionDate ),
 	'styles'		=> array( 'main.css' ),
 );
 

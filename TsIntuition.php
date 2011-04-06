@@ -30,6 +30,9 @@ class TsIntuition {
 	private $localBaseDir = __DIR__; // to be moved to p_i18n
 
 	public $registeredTextdomains;
+	public $version = '0.1.2-svn';
+	public $versionDate;
+	public $publicHtmlPath = '/TsIntuition/';
 
 	// Address to the dashboard home. Should end with a slash or .extension
 	public $dashboardHome = 'http://toolserver.org/~krinkle/TsIntuition/';
@@ -169,10 +172,19 @@ class TsIntuition {
 		// Initialize language choise
 		$this->initLangSelect( $options['lang'] );
 
-		if ( function_exists( 'TsIntuition_inithook' ) ) {
-			TsIntuition_inithook( $this );
-		}
+		$this->initHook( $this );
 
+	}
+
+	public function initHook( $TsIntuition ) {
+
+		// Version date (default to this file modification time)
+		// Can be overwritten in LocalConfig (ie. from svn info)
+		$TsIntuition->versionDate = getlastmod();
+		if ( function_exists( 'TsIntuition_inithook' ) ) {
+			TsIntuition_inithook( $TsIntuition );
+		}
+	
 	}
 
 
@@ -997,8 +1009,28 @@ class TsIntuition {
 		return $this->getPromoBox( 'no-image', $helpTranslateDomain );
 	}
 
+	/**
+	 * Build a permalink to the dashboard with a returnto query
+	 * to return to the current page. To be used in other tools.
+	 *
+	 * @example:
+	 *  Location: http://toolserver.org/~foo/JohnDoe.php?wiki=loremwiki_p
+	 *  HTML:
+	 *  '<p>Change the settings <a href="' . $I18N->getDashboardReturnToUrl() . '">here</a>';
+	 *
+	 *
+	 */
+	public function getDashboardReturnToUrl() {
+		$p = array(
+			'returnto' => $_SERVER['SCRIPT_NAME'],
+			'returntoquery' => http_build_query( $_GET ),
+		);
+		$p = http_build_query( $p );
+		return "{$this->dashboardHome}?$p#tab-settingsform";
+	}
 
-	/* Other functions
+
+	/* Redirect functions
 	 * ------------------------------------------------- */
 
 	/**
@@ -1034,25 +1066,9 @@ class TsIntuition {
 		return is_array( $this->redirectTo );
 	}
 
-	/**
-	 * Build a permalink to the dashboard with a returnto query
-	 * to return to the current page. To be used in other tools.
-	 *
-	 * @example:
-	 *  Location: http://toolserver.org/~foo/JohnDoe.php?wiki=loremwiki_p
-	 *  HTML:
-	 *  '<p>Change the settings <a href="' . $I18N->getDashboardReturnToUrl() . '">here</a>';
-	 *
-	 *
-	 */
-	public function getDashboardReturnToUrl() {
-		$p = array(
-			'returnto' => $_SERVER['SCRIPT_NAME'],
-			'returntoquery' => http_build_query( $_GET ),
-		);
-		$p = http_build_query( $p );
-		return "{$this->dashboardHome}?$p#tab-settingsform";
-	}
+
+	/* Other functions
+	 * ------------------------------------------------- */
 
 	/**
 	 * Get a localized date. Pass a format, time or both.
