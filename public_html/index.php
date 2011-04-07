@@ -204,7 +204,7 @@ if ( $I18N->hasCookies() ) {
 	.	$after
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
 	);
-	$toolSettings['tabs']['tab-currentsettings'] = _('tab-overview');
+	$toolSettings['tabs']['#tab-currentsettings'] = _('tab-overview');
 
 
 }
@@ -236,7 +236,7 @@ $form = '<div id="tab-settingsform"><form action="' . $Tool->remoteBasePath . '"
 </div></fieldset></form></div>';
 
 $Tool->addOut( $form );
-$toolSettings['tabs']['tab-settingsform'] = _('tab-settings');
+$toolSettings['tabs']['#tab-settingsform'] = _('tab-settings');
 
 
 // About tab
@@ -267,7 +267,8 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 $about .= '</ul><div style="clear:both"></div></div><!-- #tab-about -->';
 
 $Tool->addOut( $about );
-$toolSettings['tabs']['tab-about'] = _('tab-about');
+$toolSettings['tabs']['#tab-about'] = _('tab-about');
+$toolSettings['tabs']['demo/demo1.php'] = _('tab-demo');
 
 
 $Tool->addOut( '</div><!-- #tsint-dashboard -->' );
@@ -280,10 +281,19 @@ $Tool->addOut( '</div><!-- #tsint-dashboard -->' );
 $script[] = '$(document).ready(function(){';
 $script[] = '$("#tsint-dashboard").prepend(\'<ul>';
 foreach ( $toolSettings['tabs'] as $tabID => $tabName ) {
-	$script[] = "<li><a href=\"#$tabID\">$tabName</a></li>";
+	$script[] = "<li><a href=\"$tabID\">$tabName</a></li>";
 }
 $script[] = '</ul>\');';
-$script[] = '$("#tsint-dashboard").tabs();';
+$script[] = '$("#tsint-dashboard").tabs({
+	select: function(event, ui) {
+		var url = $.data(ui.tab, "load.tabs");
+		if( url ) {
+			window.open(url);
+			return false;
+		}
+		return true;
+	}
+});';
 $script[] = '});';
 
 $Tool->addOut( '<script>' . implode( '', $script ) . '</script>' );

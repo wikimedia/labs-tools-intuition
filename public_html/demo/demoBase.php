@@ -63,10 +63,10 @@ $outputHead = '<h3>Output</h3>';
 
 // Start output
 header( 'Content-Type: text/html; charset=utf-8' );
-echo $startHTML . '<ul>';
+echo $startHTML . "<p><em>&larr; <a href=\"../\">Return to Dashboard</a></em></p><ul>";
 foreach ( $demoRegistry as $demoFilename => $descr ) {
 	$descr = htmlspecialchars( $descr );
-	echo "<li><a href=\"$demoFilename.php\" title=\"$descr\">$demoFilename</a><br /><small>$descr</small></a></li>";
+	echo "<li><a href=\"$demoFilename.php\" title=\"$descr\">$demoFilename</a><br /><small>$descr</small></li>";
 }
 echo "</ul>$outputHead";
 

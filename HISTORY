@@ -18,7 +18,7 @@
 * TranslationStats-graph in the about-tab (r85471)
 * Introduced new 'suppressfatal' option (r85471)
 * Introduced new 'suppressbrackets' option (r85471)
-
+* Dashboard moved to http://toolserver.org/~intuition/
 
 = 0.1.1 =
 : April 3, 2011
