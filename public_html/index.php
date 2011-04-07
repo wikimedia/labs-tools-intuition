@@ -22,7 +22,7 @@
  * -------------------------------------------------
  */
 require_once( '/home/krinkle/common/InitTool.php' ); // BaseTool
-require_once( '/home/krinkle/TsIntuition/ToolStart.php' ); // TsIntuition
+require_once( '/home/project/i/n/t/intuition/ToolserverI18N/ToolStart.php' ); // TsIntuition
 
 /* Initialize TsIntuition */
 $opts = array(
@@ -42,7 +42,8 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 $opts = array(
 	'displayTitle'	=> _( 'fullname' ),
 	'krinklePrefix'	=> false,
-	'simplePath'	=> $I18N->publicHtmlPath,
+	'remoteBasePath'=> $I18N->dashboardHome,
+	'localBasePath'	=> $I18N->localBaseDir,
 	'revisionId'	=> $I18N->version,
 	'revisionDate'	=> $I18N->dateFormatted( $I18N->versionDate ),
 	'styles'		=> array( 'main.css' ),

@@ -27,16 +27,15 @@ class TsIntuition {
 	/* Variables
 	 * ------------------------------------------------- */
 
-	private $localBaseDir = __DIR__; // to be moved to p_i18n
+	public $localBaseDir = __DIR__;
 
 	public $registeredTextdomains;
 	public $version = '0.1.2-svn';
 	public $versionDate;
-	public $publicHtmlPath = '/TsIntuition/';
 	public $mode = null; // 'in-tool', 'dashboard'
 
 	// Address to the dashboard home. Should end with a slash or .extension
-	public $dashboardHome = 'http://toolserver.org/~krinkle/TsIntuition/';
+	public $dashboardHome = 'http://toolserver.org/~intuition/';
 
 	// Construct options
 	private $currentTextdomain;
@@ -968,7 +967,7 @@ class TsIntuition {
 			'raw-variables' => true,
 			'variables' => array(
 				'<a href="http://translatewiki.net/">translatewiki.net</a>',
-				'<a href="http://toolserver.org/~krinkle/TsIntuition/">Toolserver Intuition</a>'
+				'<a href="' . $this->dashboardHome . '">Toolserver Intuition</a>'
 			),
 		);
 		$powered = $this->msg( 'bl-promo', $promoMsgOpts );

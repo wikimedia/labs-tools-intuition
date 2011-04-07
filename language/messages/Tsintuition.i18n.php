@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '~krinkle/TsIntuition/';
+$url = '~intuition/';
 
 $messages = array();
 
