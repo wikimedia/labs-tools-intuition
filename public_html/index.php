@@ -28,6 +28,7 @@ require_once( '/home/project/i/n/t/intuition/ToolserverI18N/ToolStart.php' ); //
 $opts = array(
 	'domain' => 'TsIntuition',
 	//'suppressnotices' => false, // DEBUG
+	'mode'			=> 'dashboard',
 );
 
 $I18N = new TsIntuition( $opts );
@@ -47,7 +48,6 @@ $opts = array(
 	'revisionId'	=> $I18N->version,
 	'revisionDate'	=> $I18N->dateFormatted( $I18N->versionDate ),
 	'styles'		=> array( 'main.css' ),
-	'mode'			=> 'dashboard',
 );
 
 $Tool = BaseTool::newFromArray( $opts );

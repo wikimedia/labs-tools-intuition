@@ -119,6 +119,8 @@ class TsIntuition {
 			'mode' => 'in-tool',
 		);
 		$options = array_merge( $defaultOptions, $options );
+
+		$this->mode = $options['mode'];
 		
 		$this->loadDomainRegistry();
 
