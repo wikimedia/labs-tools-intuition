@@ -2,10 +2,10 @@
 	background: rgb(0, 215, 0);
 }
 .cookie-health.good {
-	background: rgb(255, 215, 0);
+	background: #00D700;
 }
 .cookie-health.bad {
-	background: rgb(255, 165, 0);
+	background: rgb(255, 215, 0);
 }
 .cookie-health.worst {
 	background: rgb(255, 0, 0);

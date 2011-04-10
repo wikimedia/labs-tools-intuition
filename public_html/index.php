@@ -243,10 +243,12 @@ $toolSettings['tabs']['#tab-settingsform'] = _('tab-settings');
 $about = '<div id="tab-about">';
 	
 $about .= '<a href="http://translatewiki.net/wiki/Translating:Toolserver">'
-	.	'<img src="http://translatewiki.net/w/i.php?title=Special:TranslationStats&'
-	.	'graphit=1&width=520&height=400&group=tsint-0-all" width="520" height="400" alt="" class="floatRight" />'
+	.	'<img src="http://translatewiki.net/w/i.php?title=Special:TranslationStats'
+		.	'&graphit=1&preview=&count=edits&scale=weeks&days=30&width=600&height=400&group=tsint-0-all'
+	.	'" width="520" height="400" alt="" class="floatRight" />'
 	.	'</a>';
-$about .= 'Technical documentation: <a href="https://wiki.toolserver.org/view/Toolserver_Intuition">https://wiki.toolserver.org/view/Toolserver_Intuition</a>'
+$about .= 'Technical documentation: <a href="https://wiki.toolserver.org/view/Toolserver_Intuition">'
+	. 'https://wiki.toolserver.org/view/Toolserver_Intuition</a>'
 	. '<div class="tab-paragraph-head">' . _( 'usage' ) . '</div><ul>';
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 	$domainInfo = $I18N->getDomainInfo( $domainKey );
