@@ -41,26 +41,43 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author EugeneZelenko
  * @author Krinkle
+ * @author Purodha
  */
 $messages['qqq'] = array(
+	'fullname' => "The full name of the Toolserver Intution. Intution (INTUI-tion) stands for \"'' '''In'''ternationalization for '''T'''oolserver's '''U'''ser '''I'''nterface''\".",
+	'current-settings' => 'Form legend in the language settings dashboard around the box that displays the current settings and their properties (such as expiry time).',
+	'current-language' => 'Label in front of the currently selected language name in the "Current settings"-box',
+	'settings-legend' => 'The legend around the form under the "Change settings" tab
+{{Identical|Settings}}',
+	'choose-language' => 'Label for the language dropdown menu in the Dashboard.',
+	'clear-cookies' => 'Link in the dashboard that will remove all memory (cookies) of the visitors language choise.',
+	'renew-cookies' => "Link in the dashboard that will renew all memory (cookies) of the visitors language choise. This resets the expiry, so that they won't expire soon.",
+	'cookie-expiration' => 'Label in the dashboard\'s "current settings"-tab. This is the time until the language memory (cookies) will expire.',
 	'clearcookies-success' => 'Message displayed after cookies are cleared.',
 	'renewcookies-success' => 'This message is shown after the cookies are renewed. The $1 variable contains the period of time until the cookies will expire (eg. "30 days")..',
 	'tab-overview' => 'Dashboard tab for "Overview" which shows the current settings.',
-	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.',
-	'tab-about' => 'Dashboard tab for "About" which shows general information about this tool.',
+	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
+{{Identical|Settings}}',
+	'tab-about' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
 	'tab-demo' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
 	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.',
 	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition.',
-	'bl-promo' => "Sentence displayed at the bottom of other tools promoting translatewiki.net and Toolserver Intuition. $1 is a link to translatewiki.net, $2 is the link to Toolserver Intuition's about page.",
+	'bl-promo' => "Sentence displayed at the bottom of other tools promoting translatewiki.net and Toolserver Intuition.
+* $1 is a link to translatewiki.net
+* $2 is the link to Toolserver Intuition's about page",
 	'bl-changelanguage' => 'Clickable link displayed at the bottom of other tools to the dashboard.',
+	'usage' => 'Heading on the About-page of the Toolserver Intuition dashboard. A list of tools and textdomains is listed below.',
 	'help-translate-tool' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for that tool.',
 	'help-translate-all' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for all tools.',
 	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
  * @author Jim-by
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'fullname' => 'Інтэрналіцыяналізацыя інтэрфэйсу карыстальніка Toolserver',
@@ -68,9 +85,36 @@ $messages['be-tarask'] = array(
 	'current-language' => 'Цяперашняя выбраная мова',
 	'settings-legend' => 'Налады',
 	'choose-language' => 'Выберыце мову',
+	'clear-cookies' => 'ачысьціць закладкі (cookies)',
+	'renew-cookies' => 'аднавіць закладкі (cookies)',
+	'cookie-expiration' => 'Тэрмін дзеяньня закладак (cookies)',
+	'clearcookies-success' => 'Закладкі (cookies) ачышчаныя пасьпяхова.',
+	'renewcookies-success' => 'Закладкі (cookies) адноўленыя! Яны будуць дзейнічаць наступныя $1.',
+	'tab-overview' => 'Агляд',
+	'tab-settings' => 'Налады',
+	'tab-about' => 'Пра',
+	'tab-demo' => 'Дэманстрацыя',
+	'bl-mysettings' => 'Мае моўныя налады',
+	'bl-mysettings-new' => 'Выберыце мову',
+	'bl-promo' => 'Пераклады зробленыя пры падтрымцы $1 і $2.',
+	'bl-changelanguage' => 'Націсьніце, каб зьмяніць мову інтэрфэйсу гэтага інструмэнта.',
+	'usage' => 'Інструмэнты перакладзеныя ў межах Toolserver Intuition.',
+	'help-translate-tool' => 'Дапамажыце перакласьці гэты інструмэнт!',
+	'help-translate-all' => 'Дапамажыце перакласьці сэрвэр інструмэнтаў!',
+	'help-translate-tooltip' => 'Дапамажыце іншым з перакладам інтэрфэйса на Вашую мову.',
+);
+
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'settings-legend' => 'Настройки',
+	'choose-language' => 'Избиране на език',
+	'tab-settings' => 'Настройки',
 );
 
 /** Bengali (বাংলা)
+ * @author Bellayet
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -87,17 +131,155 @@ $messages['bn'] = array(
 	'tab-overview' => 'ভূমিকা',
 	'tab-settings' => 'সেটিং',
 	'tab-about' => 'বৃত্তান্ত',
+	'tab-demo' => 'ডেমো',
 	'bl-mysettings' => 'আমার ভাষা সেটিং',
 	'bl-mysettings-new' => 'ভাষা পরিবর্তন!',
+	'bl-promo' => 'অনুবাদসমূহ $1 ও $2-এর সহায়তায় অনূদিত হয়েছে।',
 	'bl-changelanguage' => 'এই সরঞ্জামটির ইন্টারফেস ভাষা পরিবর্তন করতে এখানে ক্লিক করুন।',
+	'usage' => 'সরঞ্জামগুলো টুলসার্ভার ইনট্যুইশনের সহায়তায় অনূদিত হয়েছে।',
 	'help-translate-tool' => 'এই টুলটি অনুবাদে সাহায্য করুন!',
 	'help-translate-all' => 'টুলসার্ভার অনুবাদ করতে সাহায্য করুন!',
 	'help-translate-tooltip' => 'ইন্টারফেস বার্তাগুলো আপনার ভাষায় অনুবাদ করে অন্যদের সাহায্য করুন।',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'fullname' => 'Etrebroadeladur evit etrefas implijer an Toolserver',
+	'current-settings' => 'Arventennoù red',
+	'current-language' => 'Yezh dibabet evit poent',
+	'settings-legend' => 'Arventennoù',
+	'choose-language' => 'Dibab ar yezh',
+	'clear-cookies' => 'riñsañ an toupinoù',
+	'renew-cookies' => 'reneveziñ an toupinoù',
+	'cookie-expiration' => 'Termen an toupin',
+	'clearcookies-success' => 'Diverket eo bet an toupinoù ervat.',
+	'renewcookies-success' => "Nevesaet eo bet an toupinoù. Barrek oc'h evit ur prantad a $1.",
+	'tab-overview' => 'Brassell',
+	'tab-settings' => 'Arventennoù',
+	'tab-about' => 'Diwar-benn',
+	'tab-demo' => 'Amprouadenn',
+	'bl-mysettings' => 'Ma arventennoù yezh',
+	'bl-mysettings-new' => 'Cheñch yezh !',
+	'bl-promo' => 'Pourchaset eo an troidigezhioù gant $1 ha $2',
+	'bl-changelanguage' => 'Klikañ amañ evit cheñch yezh etrefas an ostilh-mañ.',
+	'usage' => 'Ostilhoù troet gant Toolserver Intuition.',
+	'help-translate-tool' => 'Hor skoazellit da dreiñ an ostilh-mañ !',
+	'help-translate-all' => 'Hor skoazellit da dreiñ an Toolserver !',
+	'help-translate-tooltip' => 'Skoazellit ar re all en ur reiñ dorn da dreiñ kemennadennoù an etrefas en ho yezh.',
+);
+
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'fullname' => 'Prijevod za korisnički interfejs Toolservera',
+	'current-settings' => 'Trenutne postavke',
+	'current-language' => 'Trenutno odabrani jezik',
+	'settings-legend' => 'Postavke',
+	'choose-language' => 'Odaberi jezik',
+	'clear-cookies' => 'obriši kolačiće',
+	'renew-cookies' => 'obnovi kolačiće',
+	'cookie-expiration' => 'Isticanje kolačića',
+	'clearcookies-success' => 'Uspješno obrisani kolačići.',
+	'renewcookies-success' => 'Kolačići obnovljeni! Sve ste pripremili za slijedećih $1.',
+	'tab-overview' => 'Pregled',
+	'tab-settings' => 'Postavke',
+	'tab-about' => 'O',
+	'bl-mysettings' => 'Moje jezičke postavke',
+	'bl-mysettings-new' => 'Promijeni jezik!',
+	'bl-promo' => 'Prevod su vam omogućili $1 i $2.',
+	'bl-changelanguage' => 'Kliknite ovdje za promjenu jezika interfejsa za ovaj alat.',
+);
+
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'fullname' => "Internacionalització i traducció de la interfície d'usuari del Toolserver",
+	'current-settings' => 'Configuració actual',
+	'current-language' => 'Idioma seleccionat actualment',
+	'settings-legend' => 'Paràmetres',
+	'choose-language' => 'Trieu un idioma',
+	'clear-cookies' => 'neteja les galetes',
+	'renew-cookies' => 'renova les galetes',
+	'cookie-expiration' => 'Caducitat de les galetes',
+	'clearcookies-success' => "S'han esborrat les galetes correctament.",
+	'renewcookies-success' => 'Galetes renovades! Estaran disponibles durant els propers $1.',
+	'tab-overview' => 'Vista general',
+	'tab-settings' => 'Paràmetres',
+	'tab-about' => 'Quant a',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => "Configuració d'idioma",
+	'bl-mysettings-new' => "Canvia l'idioma!",
+	'bl-promo' => 'Les traduccions són gentilesa de $1 i $2.',
+	'bl-changelanguage' => "Feu clic ací per canviar l'idioma de la interfície d'aquesta eina.",
+	'usage' => 'Eines traduïdes per Toolserver Intuition.',
+	'help-translate-tool' => 'Ajudeu-nos a traduir aquesta eina!',
+	'help-translate-all' => 'Ajudeu-nos a traduir el Toolserver!',
+	'help-translate-tooltip' => 'Ajudeu els altres fent les traduccions al vostre idioma dels missatges de la interfície.',
+);
+
+/** Czech (Česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'fullname' => 'Překlady uživatelského rozhraní Toolserveru',
+	'current-settings' => 'Aktuální nastavení',
+	'current-language' => 'Aktuálně vybraný jazyk',
+	'settings-legend' => 'Nastavení',
+	'choose-language' => 'Vyberte jazyk',
+	'clear-cookies' => 'smazat cookies',
+	'renew-cookies' => 'obnovit cookies',
+	'cookie-expiration' => 'Konec platnosti cookie',
+	'clearcookies-success' => 'Cookies úspěšně smazány.',
+	'renewcookies-success' => 'Cookies obnoveny! Vše nastaveno na dalších $1.',
+	'tab-overview' => 'Přehled',
+	'tab-settings' => 'Nastavení',
+	'tab-about' => 'O nástroji',
+	'tab-demo' => 'Ukázka',
+	'bl-mysettings' => 'Mé jazykové nastavení',
+	'bl-mysettings-new' => 'Změnit jazyk!',
+	'bl-promo' => 'Překlady fungují prostřednictvím $1 a $2.',
+	'bl-changelanguage' => 'Kliknutím zde změníte jazyk rozhraní tohoto nástroje.',
+	'usage' => 'Nástroje přeložené pomocí Toolserver Intuition.',
+	'help-translate-tool' => 'Pomozte přeložit tento nástroj!',
+	'help-translate-all' => 'Pomozte přeložit Toolserver!',
+	'help-translate-tooltip' => 'Pomozte ostatním tím, že přeložíte zprávy rozhraní do svého jazyka.',
+);
+
+/** Danish (Dansk)
+ * @author Sarrus
+ */
+$messages['da'] = array(
+	'fullname' => 'Internationalisering til Toolservers brugergrænseflade',
+	'current-settings' => 'Aktuelle indstillinger',
+	'current-language' => 'Aktuelt valgte sprog',
+	'settings-legend' => 'Indstillinger',
+	'choose-language' => 'Vælg et sprog',
+	'clear-cookies' => 'Fjern cookies',
+	'renew-cookies' => 'Forny cookies',
+	'cookie-expiration' => 'Cookieudløb',
+	'clearcookies-success' => 'Det lykkedes at slette cookies',
+	'tab-overview' => 'Oversigt',
+	'tab-settings' => 'Indstillinger',
+	'tab-about' => 'Om',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Mine sprogindstillinger',
+	'bl-mysettings-new' => 'Skift sprog!',
+	'bl-promo' => 'Oversættelser er drevet af $1 og $2 .',
+	'bl-changelanguage' => 'Klik her for at ændre sproget i brugergrænsefladen for ​​dette værktøj.',
+	'usage' => 'Værktøjer oversat af Toolserver Intuition.',
+	'help-translate-tool' => 'Hjælpe med at oversætte dette værktøj!',
+	'help-translate-all' => 'Hjælp med at oversætte Toolserver!',
+	'help-translate-tooltip' => 'Hjælp andre ved at omsætte brugergrænsefladebeskeder til dit sprog.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Krinkle
+ * @author UV
  */
 $messages['de'] = array(
 	'fullname' => 'Übersetzungen für die Benutzeroberfläche des Toolservers',
@@ -113,14 +295,73 @@ $messages['de'] = array(
 	'tab-overview' => 'Übersicht',
 	'tab-settings' => 'Einstellungen',
 	'tab-about' => 'Über',
+	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Meine Spracheinstellungen',
 	'bl-mysettings-new' => 'Sprache wechseln',
 	'bl-promo' => 'Die Übersetzungen werden von $1 und $2 möglich gemacht.',
 	'bl-changelanguage' => 'Hier klicken, um die Sprache der Benutzeroberfläche dieses Hilfsprogramms zu ändern.',
 	'usage' => 'Die Hilfsprogramme wurden von Toolserver Intuition übersetzt.',
 	'help-translate-tool' => 'Hilf bitte dieses Hilfsprogramm zu übersetzen.',
-	'help-translate-all' => 'Hilf bitte den Toolserver zu übersetzten.',
+	'help-translate-all' => 'Hilf bitte den Toolserver zu übersetzen.',
 	'help-translate-tooltip' => 'Hilf anderen indem du die Nachrichten der Benutzeroberfläche in deine Sprache übersetzt.',
+);
+
+/** Persian (فارسی)
+ * @author Ebraminio
+ * @author Wayiran
+ */
+$messages['fa'] = array(
+	'fullname' => 'بین‌المللی سازی برای رابط کاربری تول‌سرور',
+	'current-settings' => 'تنظیمات کنونی',
+	'current-language' => 'زبان انتخاب شدهٔ فعلی',
+	'settings-legend' => 'تنظیمات',
+	'choose-language' => 'یک زبان را انتخاب کنید',
+	'clear-cookies' => 'پاک‌کردن کوکی‌ها',
+	'renew-cookies' => 'تجدید کوکی‌ها',
+	'cookie-expiration' => 'انقضای کوکی',
+	'clearcookies-success' => 'کوکی‌ها با موفقیت پاک شدند.',
+	'renewcookies-success' => 'کوکی‌ها تازه شدند! شما برای $1 بعدی کاملاً آماده هستید.',
+	'tab-overview' => 'چشم‌انداز',
+	'tab-settings' => 'تنظیمات',
+	'tab-about' => 'درباره',
+	'tab-demo' => 'نسخهٔ نمایشی',
+	'bl-mysettings' => 'تنظیمات زبان من',
+	'bl-mysettings-new' => 'تغییر زبان!',
+	'bl-promo' => 'ترجمه شده توسط $1 و $2 تهیه شده‌اند.',
+	'bl-changelanguage' => 'برای تغییر زبان رابط این ابزار اینجا را کلیک کنید.',
+	'usage' => 'ابزار ترجمه‌شده توسط درک تولسرور.',
+	'help-translate-tool' => 'در ترجمه این ابزار کمک کنید!',
+	'help-translate-all' => 'در ترجمهٔ تول‌سرور کمک کنید!',
+	'help-translate-tooltip' => 'دیگران را با ترجمهٔ پیام‌های رابط به زبان‌تان کمک کنید!',
+);
+
+/** French (Français)
+ * @author Crochet.david
+ * @author Jean-Frédéric
+ */
+$messages['fr'] = array(
+	'fullname' => 'Internationalisation de l’interface utilisateur du Toolserver',
+	'current-settings' => 'Paramètres actuels',
+	'current-language' => 'Langue actuellement sélectionnée',
+	'settings-legend' => 'Paramètres',
+	'choose-language' => 'Choisissez une langue',
+	'clear-cookies' => 'effacer les cookies',
+	'renew-cookies' => 'renouveler les cookies',
+	'cookie-expiration' => 'Expiration du cookie',
+	'clearcookies-success' => 'Les cookies ont bien été effacés',
+	'renewcookies-success' => 'Cookies renouvelée! Vous êtes prêts pour une durée de $1 .',
+	'tab-overview' => 'Vue d’ensemble',
+	'tab-settings' => 'Paramètres',
+	'tab-about' => 'À propos',
+	'tab-demo' => 'Démo',
+	'bl-mysettings' => 'Mes paramètres de langue',
+	'bl-mysettings-new' => 'Changer la langue !',
+	'bl-promo' => 'Les traductions sont propulsées par $1 et $2 .',
+	'bl-changelanguage' => 'Cliquez ici pour changer la langue de l’interface de cet outil.',
+	'usage' => 'Outils traduits par Toolserver Intuition.',
+	'help-translate-tool' => 'Aidez à traduire cet outil !',
+	'help-translate-all' => 'Aidez à traduire le Toolserver !',
+	'help-translate-tooltip' => 'Aidez les autres en traduisant dans votre langue les messages de l’interface .',
 );
 
 /** Hebrew (עברית)
@@ -130,6 +371,7 @@ $messages['he'] = array(
 	'tab-overview' => 'סקירה',
 	'tab-settings' => 'הגדרות',
 	'tab-about' => 'אודות',
+	'tab-demo' => 'הדגמה',
 	'bl-mysettings' => 'הגדרות השפה שלי',
 	'bl-mysettings-new' => 'לשנות שפה!',
 	'bl-promo' => 'ההגדרות בזכות $1 ו־$2',
@@ -157,6 +399,7 @@ $messages['ia'] = array(
 	'tab-overview' => 'Vista general',
 	'tab-settings' => 'Configurationes',
 	'tab-about' => 'A proposito',
+	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Mi configurationes de lingua',
 	'bl-mysettings-new' => 'Cambiar de lingua!',
 	'bl-promo' => 'Le traduction es actionate per $1 e $2.',
@@ -167,13 +410,61 @@ $messages['ia'] = array(
 	'help-translate-tooltip' => 'Adjuta alteres per traducer le messages de interfacie in tu lingua.',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'current-settings' => 'Impostazioni attuali',
+	'current-language' => 'Lingua attualmente selezionata',
+	'settings-legend' => 'Impostazioni',
+	'choose-language' => 'Scegli la lingua',
+	'tab-settings' => 'Impostazioni',
+	'bl-mysettings' => 'Le mie impostazioni per la lingua',
+	'bl-mysettings-new' => 'Cambia lingua!',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'fullname' => 'De Bedeenovverfläsh vum Tuulẞööver en alle Shprooche',
+	'current-settings' => 'De aktoälle Enshtällonge',
+	'current-language' => 'De ußjesöhk Shprooch',
+	'settings-legend' => 'Enshtällonge',
+	'choose-language' => 'Donn en Shprooch ußwähle',
+	'clear-cookies' => 'Donn de <i lang="en">Cookies</i> fottschmiiße',
+	'renew-cookies' => 'Donn de <i lang="en">Cookies</i> neu säze',
+	'cookie-expiration' => 'Dä <i lang="en">Cookies</i> iehr Lävenszigg.',
+	'clearcookies-success' => 'De <i lang="en">Cookies</i> sin fott.',
+	'renewcookies-success' => 'De <i lang="en">Cookies</i> sin neu jesaz un se sullte för de näkßde $1 hallde.',
+	'tab-overview' => 'Övverseesch',
+	'tab-settings' => 'Enshtällonge',
+	'tab-about' => 'Övver dat Projramm heh',
+	'tab-demo' => 'Vörföhrung',
+	'bl-mysettings' => 'Ming Shproochenshtällonge',
+	'bl-mysettings-new' => 'De Shprooch wääßele',
+	'bl-promo' => 'De Övversäzonge kumme vum $1 un vum $2.',
+	'usage' => 'Projramme, di övver dem Tuulẞööver sing Süßteem „<i lang="en">Intuition</i>“
+övversaz woode sin',
+	'help-translate-tool' => 'Donn beim Övversäze för heh dat Projramm hellfe!',
+	'help-translate-all' => 'Donn beim Övversäze för der Tuulẞööver hellfe!',
+	'help-translate-tooltip' => 'Donn der Andere jet Joods un donn de Täxte un Nohreeschte vun de Projramme en Ding Shprooch övversäze.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
 	'current-settings' => 'Aktuell Astellungen',
+	'current-language' => 'Aktuell erausgesichte Sprooch',
 	'settings-legend' => 'Astellungen',
 	'choose-language' => 'Sicht eng Sprooch eraus',
+	'clear-cookies' => 'Cookie läschen',
+	'tab-overview' => 'Iwwersiicht',
+	'tab-settings' => 'Astellungen',
+	'tab-about' => 'Iwwer',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Meng Sproochastellungen',
 	'bl-mysettings-new' => 'Sprooch wiesselen!',
 );
 
@@ -194,6 +485,7 @@ $messages['mk'] = array(
 	'tab-overview' => 'Преглед',
 	'tab-settings' => 'Поставки',
 	'tab-about' => 'За алатката',
+	'tab-demo' => 'Демо',
 	'bl-mysettings' => 'Мои јазични поставки',
 	'bl-mysettings-new' => 'Сменете јазик!',
 	'bl-promo' => 'Преводот е овозможен од $1 и $2.',
@@ -204,8 +496,20 @@ $messages['mk'] = array(
 	'help-translate-tooltip' => 'Помогнете им на другите со преведување на посреднички пораки на вашиот јазик.',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'choose-language' => 'Agħżel lingwa',
+	'clear-cookies' => 'ħassar il-cookies',
+	'renew-cookies' => 'ġedded il-cookies',
+	'cookie-expiration' => 'Skadenza tal-cookie',
+	'clearcookies-success' => "Il-cookies ġew imneħħija b'suċċess.",
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -222,6 +526,7 @@ $messages['nl'] = array(
 	'tab-overview' => 'Overzicht',
 	'tab-settings' => 'Instellingen',
 	'tab-about' => 'Over',
+	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Mijn taalinstellingen',
 	'bl-mysettings-new' => 'Taal wijzigen',
 	'bl-promo' => 'De vertaling is mogelijk gemaakt door $1 en $2.',
@@ -232,6 +537,204 @@ $messages['nl'] = array(
 	'help-translate-tooltip' => 'Help anderen door interfaceberichten te vertalen in uw taal.',
 );
 
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
+ */
+$messages['nn'] = array(
+	'current-settings' => 'Innstillingane no',
+	'current-language' => 'Valt språk',
+	'settings-legend' => 'Innstillingar',
+	'choose-language' => 'Vel eit språk',
+	'clear-cookies' => 'slett informasjonskapslane',
+	'renew-cookies' => 'forny informasjonskapslane',
+	'cookie-expiration' => 'Informasjonskapslane endar',
+	'clearcookies-success' => 'Informasjonskapslane vart sletta.',
+	'renewcookies-success' => 'Informasjonskapslane vart bytte ut! Du er klar for dei neste $1.',
+	'tab-overview' => 'Oversyn',
+	'tab-settings' => 'Innstillingar',
+	'tab-about' => 'Om',
+	'bl-mysettings' => 'Språkinnstillingane mine',
+	'bl-mysettings-new' => 'Byt språk',
+	'bl-promo' => 'Omsetjingane er drivne av $1 og $2.',
+	'bl-changelanguage' => 'Trykk her for å byta språket i brukarflata til verktyet.',
+	'usage' => 'Verkty sette om av Toolserver Intuition.',
+	'help-translate-tool' => 'Hjelp til med å setja om dette verktyet!',
+	'help-translate-all' => 'Hjelp til med å setja om Toolserver!',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'fullname' => 'Internasjonalisering for Toolservers brukergrensesnitt',
+	'current-settings' => 'Gjeldende innstillinger',
+	'current-language' => 'Valgt språk',
+	'settings-legend' => 'Innstillinger',
+	'choose-language' => 'Velg et språk',
+	'clear-cookies' => 'slett informasjonskapsler',
+	'renew-cookies' => 'forny informasjonskapsler',
+	'cookie-expiration' => 'Utløpsdato for informasjonskapsler',
+	'clearcookies-success' => 'Informasjonskapslene ble tømt.',
+	'renewcookies-success' => 'Informasjonskapslene ble oppdatert! Du er klarert for de neste $1.',
+	'tab-overview' => 'Oversikt',
+	'tab-settings' => 'Innstillinger',
+	'tab-about' => 'Om',
+	'bl-mysettings' => 'Mine språkinnstillinger',
+	'bl-mysettings-new' => 'Endre språk',
+	'bl-promo' => 'Oversettelser drives av $1 og $2.',
+	'bl-changelanguage' => 'Klikk her for å endre grensesnittspråket for dette verktøyet.',
+	'usage' => 'Verktøy oversatt med Toolserver Intuition.',
+	'help-translate-tool' => 'Hjelp med oversettelsen av dette verktøyet!',
+	'help-translate-all' => 'Hjelp med oversettelsen av Toolserver!',
+	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
+);
+
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'settings-legend' => 'Uffstellinge',
+	'tab-settings' => 'Uffstellinge',
+	'bl-mysettings-new' => 'Schprooch ennere',
+);
+
+/** Polish (Polski)
+ * @author Marcin Łukasz Kiejzik
+ * @author Odder
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'fullname' => 'Ustawienia międzynarodowe interfejsu użytkownika Toolservera',
+	'current-settings' => 'Bieżące ustawienia',
+	'current-language' => 'Obecnie wybrany język',
+	'settings-legend' => 'Ustawienia',
+	'choose-language' => 'Wybierz język',
+	'clear-cookies' => 'usuń ciasteczka',
+	'renew-cookies' => 'odnów ciasteczka',
+	'cookie-expiration' => 'Wygaśnięcie ciasteczek',
+	'clearcookies-success' => 'Pomyślnie usunięto ciasteczka.',
+	'renewcookies-success' => 'Ciasteczka odnowione! Ponownie wygasną za $1.',
+	'tab-overview' => 'Przegląd',
+	'tab-settings' => 'Ustawienia',
+	'tab-about' => 'O narzędziu',
+	'tab-demo' => 'Podgląd',
+	'bl-mysettings' => 'Moje ustawienia języka',
+	'bl-mysettings-new' => 'Zmień język!',
+	'bl-promo' => 'W tłumaczeniach interfejsu pomagają $1 i $2.',
+	'bl-changelanguage' => 'Kliknij tutaj, aby zmienić język interfejsu tego narzędzia.',
+	'usage' => 'Narzędzia przetłumaczone w ramach inicjatywy Toolserver Intuition.',
+	'help-translate-tool' => 'Pomóż przetłumaczyć to narzędzie!',
+	'help-translate-all' => 'Pomóż przetłumaczyć Toolserver!',
+	'help-translate-tooltip' => 'Pomóż innym tłumacząc komunikaty interfejsu na swój język.',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'current-settings' => 'اوسنۍ امستنې',
+	'current-language' => 'د دم مهال ټاکلې ژبه',
+	'settings-legend' => 'امستنې',
+	'choose-language' => 'يوه ژبه وټاکۍ',
+	'tab-settings' => 'امستنې',
+	'tab-about' => 'په اړه',
+	'bl-mysettings' => 'زما د ژبې امستنې',
+	'bl-mysettings-new' => 'ژبه ټاکل!',
+);
+
+/** Portuguese (Português)
+ * @author GoEThe
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'fullname' => 'Internacionalização para a Interface de Utilizador do Toolserver',
+	'current-settings' => 'Definições actuais',
+	'current-language' => 'Língua presentemente seleccionada',
+	'settings-legend' => 'Definições',
+	'choose-language' => 'Escolha uma língua',
+	'clear-cookies' => 'limpar cookies',
+	'renew-cookies' => 'renovar cookies',
+	'cookie-expiration' => 'Prazo de expiração dos cookies',
+	'clearcookies-success' => 'Os cookies foram removidos.',
+	'renewcookies-success' => 'Cookies renovados! Está preparado para os próximos $1.',
+	'tab-overview' => 'Visão geral',
+	'tab-settings' => 'Definições',
+	'tab-about' => 'Sobre',
+	'tab-demo' => 'Exemplo',
+	'bl-mysettings' => 'Definições de língua',
+	'bl-mysettings-new' => 'Alterar língua!',
+	'bl-promo' => 'Traduções possíveis graças à $1 e ao $2.',
+	'bl-changelanguage' => 'Carregue aqui para mudar a língua da interface desta ferramenta.',
+	'usage' => 'Ferramentas traduzidas pelo Toolserver Intuition.',
+	'help-translate-tool' => 'Ajude a traduzir esta ferramenta!',
+	'help-translate-all' => 'Ajude a traduzir o Toolserver!',
+	'help-translate-tooltip' => 'Ajude outros utilizadores traduzindo as mensagens da interface para a sua língua.',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Hamilton Abreu
+ */
+$messages['pt-br'] = array(
+	'fullname' => 'Internacionalização para o Interface de Usuário do Toolserver',
+);
+
+/** Romanian (Română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'fullname' => 'Internaționalizare pentru interfața proiectului Toolserver',
+	'current-settings' => 'Setări curente',
+	'current-language' => 'Limba curentă',
+	'settings-legend' => 'Setări',
+	'choose-language' => 'Alegeți o limbă',
+	'clear-cookies' => 'șterge modulele cookie',
+	'renew-cookies' => 'reînnoiește modulele cookie',
+	'cookie-expiration' => 'Modulele cookie vor expira după:',
+	'clearcookies-success' => 'Modulele cookie au fost șterse cu succes.',
+	'renewcookies-success' => 'Modulele cookie au fost reînnoite! Timp de $1 acestea vor fi active.',
+	'tab-overview' => 'Informații generale',
+	'tab-settings' => 'Setări',
+	'tab-about' => 'Despre',
+	'tab-demo' => 'Demonstrație',
+	'bl-mysettings' => 'Setările mele de limbă',
+	'bl-mysettings-new' => 'Schimbă limba!',
+	'bl-promo' => 'Traducerile sunt susținute și efectuate de $1 și $2.',
+	'bl-changelanguage' => 'Apăsați aici pentru schimbarea limbii interfeței acestei unelte.',
+	'usage' => 'Unelte traduse de Toolserver Intuition.',
+	'help-translate-tool' => 'Ajutați-ne să traducem această unealtă!',
+	'help-translate-all' => 'Ajutați-ne să traducem Toolserver!',
+	'help-translate-tooltip' => 'Ajutați-i pe alții traducând mesajele de interfață în limba dumneavoastră.',
+);
+
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'fullname' => 'Internacionalizacija uporabniškega vmesnika Toolserverja',
+	'current-settings' => 'Trenutne nastavitve',
+	'current-language' => 'Trenutno izbran jezik',
+	'settings-legend' => 'Nastavitve',
+	'choose-language' => 'Izberite jezik',
+	'clear-cookies' => 'počisti piškotke',
+	'renew-cookies' => 'obnovi piškotke',
+	'cookie-expiration' => 'Potek piškotkov',
+	'clearcookies-success' => 'Piškotki so uspešno počiščeni.',
+	'renewcookies-success' => 'Piškotki so obnovljeni! Pripravljeni ste za naslednjih $1.',
+	'tab-overview' => 'Pregled',
+	'tab-settings' => 'Nastavitve',
+	'tab-about' => 'O orodju',
+	'tab-demo' => 'Predstavitev',
+	'bl-mysettings' => 'Moje jezikovne nastavitve',
+	'bl-mysettings-new' => 'Spremeni jezik!',
+	'bl-promo' => 'Prevode zagotavljata $1 in $2.',
+	'bl-changelanguage' => 'Kliknite tukaj za spremembo jezika vmesnika tega orodja.',
+	'usage' => 'Orodja, ki so prevedena s Toolserverjevo Intuicijo.',
+	'help-translate-tool' => 'Pomagajte prevesti to orodje!',
+	'help-translate-all' => 'Pomagajte prevesti Toolserver!',
+	'help-translate-tooltip' => 'Pomagajte drugim s prevajanjem sporočil vmesnika v svoj jezik.',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  */
@@ -240,7 +743,7 @@ $messages['sr-ec'] = array(
 	'current-settings' => 'Текуће поставке',
 	'current-language' => 'Изабрани језик',
 	'settings-legend' => 'Поставке',
-	'choose-language' => 'Изаберите језик',
+	'choose-language' => 'Избор језика',
 	'clear-cookies' => 'очисти колачиће',
 	'renew-cookies' => 'обнови колачиће',
 	'cookie-expiration' => 'Истек колачића',
@@ -248,15 +751,67 @@ $messages['sr-ec'] = array(
 	'renewcookies-success' => 'Колачићи су обновљени. Они ће истећи за $1.',
 	'tab-overview' => 'Преглед',
 	'tab-settings' => 'Поставке',
-	'tab-about' => 'О проширењу',
+	'tab-about' => 'О алатки',
+	'tab-demo' => 'Демо',
 	'bl-mysettings' => 'Језичке поставке',
 	'bl-mysettings-new' => 'Промените језик.',
 	'bl-promo' => 'За преводе су заслужни $1 и $2.',
-	'bl-changelanguage' => 'Кликните овде да промените језик проширења.',
-	'usage' => 'Алатке преведене од стране Тулсервер интуишон.',
-	'help-translate-tool' => 'Помозите нам да преведемо овај алат!',
-	'help-translate-all' => 'Помозите нам да преведемо Тулсервер!',
-	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик.',
+	'bl-changelanguage' => 'Кликните овде да промените језик алатке',
+	'usage' => 'Алатке које је превео Тулсервер интуишон:',
+	'help-translate-tool' => 'помозите нам да преведемо ову алатку',
+	'help-translate-all' => 'Помозите нам да преведемо Тулсервер.',
+	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'fullname' => 'Prevod korisničkog sučelja Tulservera',
+	'current-settings' => 'Tekuće postavke',
+	'current-language' => 'Izabrani jezik',
+	'settings-legend' => 'Postavke',
+	'choose-language' => 'Izbor jezika',
+	'clear-cookies' => 'očisti kolačiće',
+	'renew-cookies' => 'obnovi kolačiće',
+	'cookie-expiration' => 'Istek kolačića',
+	'clearcookies-success' => 'Kolačići su očišćeni.',
+	'renewcookies-success' => 'Kolačići su obnovljeni. Oni će isteći za $1.',
+	'tab-overview' => 'Pregled',
+	'tab-settings' => 'Postavke',
+	'tab-about' => 'O alatki',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Jezičke postavke',
+	'bl-mysettings-new' => 'Promenite jezik.',
+	'bl-promo' => 'Za prevode su zaslužni $1 i $2.',
+	'bl-changelanguage' => 'Kliknite ovde da promenite jezik alatke',
+	'usage' => 'Alatke koje je preveo Tulserver intuišon:',
+	'help-translate-tool' => 'pomozite nam da prevedemo ovu alatku',
+	'help-translate-all' => 'Pomozite nam da prevedemo Tulserver.',
+	'help-translate-tooltip' => 'Pomozite drugima prevodivši poruke sučelja na svoj jezik',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'fullname' => 'టూల్&zwnj;సర్వర్ పనిముట్ల అంతర్జాతీయీకరణ',
+	'current-settings' => 'ప్రస్తుత అమరికలు',
+	'current-language' => 'ప్రస్తుతం ఎంచుకున్న భాష',
+	'settings-legend' => 'అమరికలు',
+	'choose-language' => 'భాషని ఎంచుకోండి',
+	'clear-cookies' => 'కుకీలను శుభ్రపరచు',
+	'tab-overview' => 'సంగ్రహం',
+	'tab-settings' => 'అమరికలు',
+	'tab-about' => 'గురించి',
+	'bl-mysettings' => 'నా భాషా అమరికలు',
+	'bl-mysettings-new' => 'భాషని మార్చు!',
+	'bl-promo' => 'అనువాదాల సౌజన్యం $1 మరియు $2.',
+	'bl-changelanguage' => 'ఈ పనిముట్టు ముఖాంతరపు భాషను మార్చడానికి ఇక్కడ నొక్కండి.',
+	'usage' => 'టూల్&zwnj;సర్వర్ ఇన్&zwnj;ట్యూషన్ ద్వారా అనువాదమైన పనిముట్లు',
+	'help-translate-tool' => 'ఈ పనిముట్టుని అనువదించడానికి సహాయపడండి!',
+	'help-translate-all' => 'టూల్&zwnj;సర్వర్&zwnj;ను అనువదించడానికి తోడ్పడండి!',
+	'help-translate-tooltip' => 'ముఖాంతరం యొక్క సందేశాలను మీ భాష లోనికి అనువదించడం ద్వారా ఇతరులకి తోడ్పడండి.',
 );
 
 /** Tagalog (Tagalog)
@@ -276,6 +831,7 @@ $messages['tl'] = array(
 	'tab-overview' => 'Pagtalakay na naglalarawan',
 	'tab-settings' => 'Mga katakdaan',
 	'tab-about' => 'Patungkol',
+	'tab-demo' => 'Pagpapamalas',
 	'bl-mysettings' => 'Mga pagtatakda ko sa wika',
 	'bl-mysettings-new' => 'Palitan ang wika!',
 	'bl-promo' => 'Ang mga salinwika ay binibigyang lakas ng $1 at $2.',
@@ -284,6 +840,63 @@ $messages['tl'] = array(
 	'help-translate-tool' => 'Tumulong sa pagsasalinwika ng kasangkapang ito!',
 	'help-translate-all' => 'Tumulong sa pagsasalinwika ng Toolserver!',
 	'help-translate-tooltip' => 'Tulungan ang iba sa pamamagitan ng pagsasalinwika ng mga mensahe ng ugnayang-mukha papunta sa wika mo.',
+);
+
+/** Turkish (Türkçe)
+ * @author Emperyan
+ * @author Vito Genovese
+ */
+$messages['tr'] = array(
+	'fullname' => "Toolserver'ın Kullanıcı Arayüzü için Uluslararasılaştırma",
+	'current-settings' => 'Güncel ayarlar',
+	'current-language' => 'Halihazırda seçilmiş dil',
+	'settings-legend' => 'Ayarlar',
+	'choose-language' => 'Bir dil seçin',
+	'clear-cookies' => 'çerezleri temizle',
+	'renew-cookies' => 'çerezleri yenile',
+	'cookie-expiration' => 'Çerez süresinin dolumu',
+	'clearcookies-success' => 'Çerezler başarıyla temizlendi.',
+	'renewcookies-success' => 'Çerezler temizlendi! Sonraki $1 için hazırsınız.',
+	'tab-overview' => 'Genel görünüm',
+	'tab-settings' => 'Ayarlar',
+	'tab-about' => 'Hakkında',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Dil ayarlarım',
+	'bl-mysettings-new' => 'Dili değiştir!',
+	'bl-promo' => 'Çeviriler, $1 ve $2 tarafından sağlanmaktadır.',
+	'bl-changelanguage' => 'Bu aracın arayüz dilini değiştirmek için buraya tıklayın.',
+	'usage' => 'Toolserver Intuition tarafından çevrilen araçlar.',
+	'help-translate-tool' => 'Bu aracın çevrilmesine yardımcı olun!',
+	'help-translate-all' => "Toolserver'ın çevrilmesine yardımcı olun!",
+	'help-translate-tooltip' => 'Arayüz iletilerini dilinize çevirerek başkalarına yardımcı olun.',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'fullname' => 'Quốc tế hóa giao diện người dùng của Toolserver',
+	'current-settings' => 'Các tùy chọn hiện hành',
+	'current-language' => 'Ngôn ngữ được chọn',
+	'settings-legend' => 'Tùy chọn',
+	'choose-language' => 'Chọn ngôn ngữ',
+	'clear-cookies' => 'xóa cookie',
+	'renew-cookies' => 'phục hồi cookie',
+	'cookie-expiration' => 'Thời hạn cookie',
+	'clearcookies-success' => 'Đã xóa cookie thành công',
+	'renewcookies-success' => 'Đã phục hồi cookie cho $1 sau.',
+	'tab-overview' => 'Tổng quan',
+	'tab-settings' => 'Tùy chọn',
+	'tab-about' => 'Giới thiệu',
+	'tab-demo' => 'Ví dụ',
+	'bl-mysettings' => 'Tùy chọn ngôn ngữ',
+	'bl-mysettings-new' => 'Thay đổi ngôn ngữ!',
+	'bl-promo' => 'Bản dịch do $1 và $2.',
+	'bl-changelanguage' => 'Thay đổi ngôn ngữ giao diện của công cụ này.',
+	'usage' => 'Các công cụ do Toolserver Intuition dịch',
+	'help-translate-tool' => 'Giúp dịch công cụ này!',
+	'help-translate-all' => 'Giúp dịch Toolserver!',
+	'help-translate-tooltip' => 'Giúp người ta sử dụng công cụ bằng cách dịch thông điệp giao diện qua ngôn ngữ của bạn.',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)

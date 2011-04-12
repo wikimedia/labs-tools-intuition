@@ -38,29 +38,70 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Dbc334
+ * @author EugeneZelenko
  * @author Krinkle
  */
 $messages['qqq'] = array(
 	'title' => 'The title of the tool. Note that this is a sequel of an old tool by the same name. "2" is part of the name.',
-	'settings-legend' => 'This is the title for the settings box in the input form.',
+	'settings-legend' => 'This is the title for the settings box in the input form.
+{{Identical|Settings}}',
 	'label-wiki' => 'Label in the input form indicating which wiki searched.',
+	'select-wiki-first' => "This message is displayed in the dropdown menu for the namespace selector if the user didn't choose a wiki yet. Include the parenthesis.",
+	'hideredirects' => 'Label for a checkbox in the input form indicating whether redirect pages should be included in the results.',
+	'hidesubpages' => 'Label for a checkbox in the input form indicating whether subpages should be included in the results.',
 	'limit' => 'The maximum number of results to display. {{Identical|Limit}}',
+	'page' => 'Table heading for the "Page"-column in the results.
+{{Identical|Page}}',
+	'redirect' => 'Table heading for the "Is redirect"-column in the results. This column is "0" (not a redirect) or "1" (is redirect).',
+	'output' => 'Heading above the results output of the search query.
+{{Identical|Output}}',
 	'update' => 'Clicking this button will update the form to adapt to the new settings. {{Identical|Update}}',
-	'tools-delete' => 'This link goes directly to action=delete to delete this orphaned talk page. Part of the tool-links in the left column.',
-	'tools-links' => 'Goes to Special:WhatLinksHere for the orphaned page. Part of the tool-links in the left column.',
+	'tools-delete' => 'This link goes directly to action=delete to delete this orphaned talk page. Part of the tool-links in the left column.
+{{Identical|Delete}}',
+	'tools-links' => 'Goes to Special:WhatLinksHere for the orphaned page. Part of the tool-links in the left column.
+{{Identical|Link}}',
 	'tools-subject' => 'Goes to the subject page (which never existed or has been deleted) of the orphaned page. Part of the tool-links in the left column.',
 	'tools-hist' => 'Goes to the history view of the orphaned page. Part of the tool-links in the left column.',
 	'tools-curr' => 'Shows the latest/current edit to this orphaned page. Part of the tool-links in the left column.',
-	'tools-globalusage' => 'If the orphan is a Commons file talk page, this link will link to the Specila:GlobalUsage for the File page.',
+	'tools-globalusage' => 'If the orphan is a Commons file talk page, this link will link to the Special:GlobalUsage for the File page.',
 	'deletesummary' => 'Deletion summary for the "delete"-toollink. $1 is an interwiki link to more info, also a way to promote this tool to others.',
 	'noresults' => 'Message displayed if there are no orphaned talk pages found with the current settings.',
 	'resultslimited' => "If results were limited by the set' limit, this message is displayed at the bottom of the search results.",
+);
+
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ * @author Jim-by
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Налады',
+	'select-wiki-first' => '(сьпярша выберыце вікі)',
+	'hideredirects' => 'Схаваць перанакіраваньні',
+	'hidesubpages' => 'Схаваць падстаронкі',
+	'limit' => 'Абмежаваньне',
+	'page' => 'Старонка',
+	'redirect' => 'Зьяўляецца перанакіраваньнем?',
+	'output' => 'Вывад',
+	'update' => 'Абнавіць',
+	'tools-delete' => 'выдаліць',
+	'tools-links' => 'спасылкі',
+	'tools-subject' => 'прадмет',
+	'tools-hist' => 'гіст',
+	'tools-curr' => 'цяп',
+	'tools-globalusage' => 'глябальнае выкарыстаньне',
+	'deletesummary' => 'Выдаленьне абмеркаваньняў-сірацін праз $1',
+	'noresults' => 'У гэтай вікі і ў гэтай прасторы назваў абмеркаваньняў-сірацін няма.',
+	'resultslimited' => 'Вынік абмежаваны да $1 старонак.',
 );
 
 /** Bulgarian (Български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'settings-legend' => 'Настройки',
 	'tools-delete' => 'изтриване',
 );
 
@@ -84,6 +125,86 @@ $messages['bn'] = array(
 	'tools-hist' => 'ইতিহাস',
 	'tools-curr' => 'বর্তমান',
 	'tools-globalusage' => 'গ্লোবাল ব্যবহার',
+	'deletesummary' => '$1-এর মাধ্যমে পিতৃহীন আলাপ পাতা পরিস্কার করা হচ্ছে',
+	'noresults' => 'এই উইকির এই নামস্থানের কোনো পিতৃহীন আলাপ পাতার সাথে আপনার সেটিং মেলেনি।',
+	'resultslimited' => 'ফলাফলগুলো $1টি পাতার মধ্যে সীমাবদ্ধ ছিলো।',
+);
+
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Arventennoù',
+	'select-wiki-first' => '(diuzit ur wiki da gentañ)',
+	'hideredirects' => 'Kuzhat an adkasoù',
+	'hidesubpages' => 'Kuzhat an ispajennoù',
+	'limit' => 'Bevenn',
+	'page' => 'Pajenn',
+	'redirect' => 'Un adkas eo ?',
+	'output' => 'Ezvont',
+	'update' => 'Hizivaat',
+	'tools-delete' => 'diverkañ',
+	'tools-links' => 'liammoù',
+	'tools-subject' => 'danvez',
+	'tools-hist' => 'istor',
+	'tools-curr' => 'red',
+	'tools-globalusage' => 'Implij hollek',
+	'deletesummary' => 'O naetaat ar pajennoù kaozeal dre $1',
+	'noresults' => "N'eus bet kavet pajenn gaozeal dall ebet er wiki, en esaouenn anv a glot gant ho kefluniadur.",
+	'resultslimited' => "Krennet eo bet an disoc'hoù da $1 pajenn.",
+);
+
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'settings-legend' => 'Postavke',
+	'limit' => 'Ograničenje',
+	'page' => 'Stranica',
+	'update' => 'Ažuriraj',
+	'tools-delete' => 'obriši',
+	'tools-subject' => 'tema',
+);
+
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Paràmetres',
+	'select-wiki-first' => '(primer seleccioneu un wiki)',
+	'hideredirects' => 'Amaga redireccions',
+	'hidesubpages' => 'Amaga subpàgines',
+	'limit' => 'Límit',
+	'page' => 'Pàgina',
+	'redirect' => 'És una redirecció?',
+	'output' => 'Resultats',
+	'update' => 'Actualitza',
+	'tools-delete' => 'elimina',
+	'tools-links' => 'enllaços',
+	'tools-subject' => 'pàgina',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'act',
+	'tools-globalusage' => 'ús global',
+	'deletesummary' => 'Neteja de pàgines de discussió òrfenes via $1',
+	'noresults' => "No s'ha trobat en aquest wiki cap pàgina de discussió òrfena en aquest espai de noms que correspongui amb la vostra configuració.",
+	'resultslimited' => 'Els resultats es limiten a $1 pàgines.',
+);
+
+/** Danish (Dansk)
+ * @author Sarrus
+ */
+$messages['da'] = array(
+	'settings-legend' => 'Indstillinger',
+	'select-wiki-first' => '(vælg en wiki først)',
+	'hideredirects' => 'Skjul omdirigeringer',
+	'hidesubpages' => 'Skjul undersider',
+	'page' => 'Side',
+	'output' => 'Output',
+	'tools-delete' => 'slet',
+	'tools-subject' => 'emne',
+	'resultslimited' => 'Resultaterne var begrænsede til $1 sider.',
 );
 
 /** German (Deutsch)
@@ -107,6 +228,61 @@ $messages['de'] = array(
 	'tools-hist' => 'Versionsgeschichte',
 	'tools-curr' => 'Aktuelle Version',
 	'tools-globalusage' => 'Globale Nutzung',
+	'deletesummary' => 'Löschung der verwaisten Diskussionsseite mit $1',
+	'noresults' => 'Es konnten auf  diesem Wiki keine den Einstellungen entsprechenden verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.',
+	'resultslimited' => 'Die Ergebnisse wurden auf $1 Seiten beschränkt.',
+);
+
+/** Persian (فارسی)
+ * @author Ebraminio
+ * @author Wayiran
+ */
+$messages['fa'] = array(
+	'title' => 'بحث‌یتیم۲',
+	'settings-legend' => 'تنظیمات',
+	'select-wiki-first' => '(ابتدا یک ویکی را انتخاب کنید)',
+	'hideredirects' => 'پنهان‌کردن تغییر مسیرها',
+	'hidesubpages' => 'پنهان‌کردن زیرصفحه‌ها',
+	'limit' => 'تعداد',
+	'page' => 'صفحه',
+	'redirect' => 'تغییر مسیر است؟',
+	'output' => 'خروجی',
+	'update' => 'به روز رسانی',
+	'tools-delete' => 'حذف',
+	'tools-links' => 'پیوندها',
+	'tools-subject' => 'عنوان',
+	'tools-hist' => 'تاریخچه',
+	'tools-curr' => 'فعلی',
+	'tools-globalusage' => 'استفادهٔ سراسری',
+	'deletesummary' => 'تمیزکردن صفحات بحث یتیم از طریق $1',
+	'noresults' => 'هیچ صفحهٔ بحث یتیمی در این ویکی و در این فضای نام، مطابق با تنظیمات شما وجود ندارد.',
+	'resultslimited' => 'نتایج به $1 صفحه محدود بود.',
+);
+
+/** French (Français)
+ * @author Crochet.david
+ * @author Jean-Frédéric
+ */
+$messages['fr'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Paramètres',
+	'select-wiki-first' => '(sélectionnez d’abord un wiki)',
+	'hideredirects' => 'Masquer les redirections',
+	'hidesubpages' => 'Masquer les sous-pages',
+	'limit' => 'Limite',
+	'page' => 'Page',
+	'redirect' => 'Est une redirection ?',
+	'output' => 'Sortie',
+	'update' => 'Mettre à jour',
+	'tools-delete' => 'supprimer',
+	'tools-links' => 'liens',
+	'tools-subject' => 'Sujet',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'actu',
+	'tools-globalusage' => 'globalusage',
+	'deletesummary' => 'Nettoyage des pages de discussion orphelines par $1',
+	'noresults' => 'Aucune page de discussion orpheline dans ce wiki dans cet espace de nommage correspondant à votre configuration.',
+	'resultslimited' => 'Les résultats ont été limités à $1 pages.',
 );
 
 /** Interlingua (Interlingua)
@@ -129,6 +305,48 @@ $messages['ia'] = array(
 	'tools-hist' => 'hist',
 	'tools-curr' => 'actu',
 	'tools-globalusage' => 'uso global',
+	'deletesummary' => 'Radimento de paginas de discussion orphane via $1',
+	'noresults' => 'Nulle pagina de discussion orphane in iste wiki e in iste spatio de nomines correspondeva a tu configurationes.',
+	'resultslimited' => 'Le resultatos ha essite limitate a $1 paginas.',
+);
+
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'settings-legend' => 'Impostazioni',
+	'limit' => 'Limite',
+	'page' => 'Pagina',
+	'update' => 'Aggiorna',
+	'tools-delete' => 'cancella',
+	'tools-links' => 'collegamenti',
+	'tools-hist' => 'cron',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'title' => 'Alleinjeblevve Klaafsigge 2',
+	'settings-legend' => 'Enshtällonge',
+	'label-wiki' => 'Et Wiki',
+	'select-wiki-first' => '(donn et eez e Wiki ußsöhke)',
+	'hideredirects' => 'Ömleidunge fott lohße',
+	'hidesubpages' => 'Ongersigge fott lohße',
+	'limit' => 'Donn de Aanzahl Siggge en dä Leß bejränze op',
+	'page' => 'Klaafsigg',
+	'redirect' => 'Ömleidong?',
+	'output' => 'Dat kohm eruß:',
+	'update' => 'Op der neuste Shtand bränge',
+	'tools-delete' => 'schmiiß fott!',
+	'tools-links' => 'Lengks',
+	'tools-subject' => 'Sigg',
+	'tools-hist' => 'Versione',
+	'tools-curr' => 'läz Änderong',
+	'tools-globalusage' => 'En alle Wikis',
+	'deletesummary' => 'Alleinjeblevve Klaafsigg fott jeschmeße met „$1“.',
+	'noresults' => 'Kein alleinjeblevve Klaafsigge en däm Wiki en däm Appachtemang paße zoh Dinge Enshtällonge.',
+	'resultslimited' => 'Heh di Leß es bejränz op $1 Sigg(e)',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -137,8 +355,13 @@ $messages['ia'] = array(
 $messages['lb'] = array(
 	'settings-legend' => 'Astellungen',
 	'select-wiki-first' => "(sicht d'éischt eng Wiki eraus)",
+	'hideredirects' => 'Viruleedunge verstoppen',
+	'hidesubpages' => 'Ënnersäite verstoppen',
 	'page' => 'Säit',
+	'update' => 'Aktualiséieren',
 	'tools-delete' => 'läschen',
+	'tools-links' => 'Linken',
+	'tools-subject' => 'Sujet',
 );
 
 /** Macedonian (Македонски)
@@ -162,6 +385,36 @@ $messages['mk'] = array(
 	'tools-hist' => 'истор',
 	'tools-curr' => 'тек',
 	'tools-globalusage' => 'глобална упот.',
+	'deletesummary' => 'Бришење на осамени страници за разговор преку $1',
+	'noresults' => 'На ова вики нема осамени страници за разговор во овој именски простор што соодветствуваат на вашите поставки.',
+	'resultslimited' => 'Резултатите беа ограничени на $1 страници',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'tools-delete' => 'hapuskan',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'hideredirects' => 'Aħbi rindirizzi',
+	'hidesubpages' => 'Aħbi sottopaġni',
+	'limit' => 'Limitu',
+	'page' => 'Paġna',
+	'redirect' => 'Huwa rindirizz?',
+	'output' => 'Riżultat',
+	'update' => 'Aġġorna',
+	'tools-delete' => 'ħassar',
+	'tools-links' => 'ħoloq',
+	'tools-subject' => 'suġġett',
+	'tools-hist' => 'kron',
+	'tools-curr' => 'kurr',
+	'tools-globalusage' => 'użuglobali',
+	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
 /** Dutch (Nederlands)
@@ -190,6 +443,156 @@ $messages['nl'] = array(
 	'resultslimited' => "Er worden maximaal $1 pagina's weergegeven.",
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['no'] = array(
+	'title' => 'Foreldreløse diskusjonssider 2',
+	'settings-legend' => 'Innstillinger',
+	'select-wiki-first' => '(velg en wiki først)',
+	'hideredirects' => 'Skjul omdirigeringer',
+	'hidesubpages' => 'Skjul undersider',
+	'limit' => 'Grense',
+	'page' => 'Side',
+	'redirect' => 'Er omdirigering?',
+	'output' => 'Utdata',
+	'update' => 'Oppdater',
+	'tools-delete' => 'slett',
+	'tools-links' => 'lenker',
+	'tools-subject' => 'subjekt',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'nå',
+	'tools-globalusage' => 'global bruk',
+	'deletesummary' => 'Renser opp i foreldreløse diskusjonssider via $1',
+	'noresults' => 'Det var ingen foreldreløse diskusjonssider på denne wikien som passet med de valgte innstillingene.',
+	'resultslimited' => 'Resultatene ble begrenset til $1 sider.',
+);
+
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'settings-legend' => 'Uffstellinge',
+	'page' => 'Blatt',
+	'tools-links' => 'Gleecher',
+);
+
+/** Polish (Polski)
+ * @author Odder
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Ustawienia',
+	'select-wiki-first' => '(najpierw wybierz odpowiednią wiki)',
+	'hideredirects' => 'Ukryj przekierowania',
+	'hidesubpages' => 'Ukryj podstrony',
+	'limit' => 'Ograniczenie',
+	'page' => 'Strona',
+	'redirect' => 'Przekierowanie?',
+	'output' => 'Wynik',
+	'update' => 'Aktualizuj',
+	'tools-delete' => 'usuń',
+	'tools-links' => 'linki',
+	'tools-subject' => 'temat',
+	'tools-hist' => 'hist.',
+	'tools-curr' => 'bież.',
+	'tools-globalusage' => 'globalne wykorzystanie pliku',
+	'deletesummary' => 'Usuwanie osieroconych stron dyskusji przy użyciu $1',
+	'noresults' => 'Nie odnaleziono osieroconych stron dyskusji odpowiadających wybranemu zapytaniu dla tej przestrzeni nazw.',
+	'resultslimited' => 'Wyniki zostały ograniczone do $1 stron.',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'settings-legend' => 'امستنې',
+	'page' => 'مخ',
+	'update' => 'اوسمهالول',
+	'tools-delete' => 'ړنګول',
+	'tools-links' => 'تړنې',
+	'tools-hist' => 'پېښليک',
+	'tools-curr' => 'اوسنی',
+	'tools-globalusage' => 'نړېواله کارېدنه',
+);
+
+/** Portuguese (Português)
+ * @author GoEThe
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'title' => 'DiscussõesOrfãs2',
+	'settings-legend' => 'Definições',
+	'select-wiki-first' => '(primeiro seleccione uma wiki)',
+	'hideredirects' => 'Excluir redireccionamentos',
+	'hidesubpages' => 'Excluir subpáginas',
+	'limit' => 'Limite',
+	'page' => 'Página',
+	'redirect' => 'Redireccionamento?',
+	'output' => 'Resultados',
+	'update' => 'Actualizar',
+	'tools-delete' => 'eliminar',
+	'tools-links' => 'links',
+	'tools-subject' => 'Página',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'act',
+	'tools-globalusage' => 'uso global',
+	'deletesummary' => 'Limpeza de páginas de discussão orfãs, usando o $1',
+	'noresults' => 'Não foram encontradas páginas de discussão orfãs neste espaço nominal desta wiki, que correspondam às suas especificações.',
+	'resultslimited' => 'Os resultados foram limitados a $1 páginas.',
+);
+
+/** Romanian (Română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Setări',
+	'select-wiki-first' => '(alegeți un wiki mai întâi)',
+	'hideredirects' => 'Ascunde redirecționările',
+	'hidesubpages' => 'Ascunde subpaginile',
+	'limit' => 'Limită',
+	'page' => 'Pagină',
+	'redirect' => 'O redirecționare?',
+	'output' => 'Date de ieșire',
+	'update' => 'Actualizează',
+	'tools-delete' => 'ștergere',
+	'tools-links' => 'legături',
+	'tools-subject' => 'subiect',
+	'tools-hist' => 'istoric',
+	'tools-curr' => 'actuală',
+	'tools-globalusage' => 'utilizare globală',
+	'deletesummary' => 'Ștergerea paginilor de discuții orfane folosind $1',
+	'noresults' => 'Nicio pagină de discuții orfană aflată în acest spațiu de nume, pe acest wiki, nu se potrivește criteriilor dumneavoastră.',
+	'resultslimited' => 'Rezultatele au fost limitate la $1 pagini.',
+);
+
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'title' => 'OsiroteliPogovori2',
+	'settings-legend' => 'Nastavitve',
+	'select-wiki-first' => '(najprej izberite wiki)',
+	'hideredirects' => 'Skrij preusmeritve',
+	'hidesubpages' => 'Skrij podstrani',
+	'limit' => 'Omejitev',
+	'page' => 'Stran',
+	'redirect' => 'Je preusmeritev?',
+	'output' => 'Izhod',
+	'update' => 'Posodobi',
+	'tools-delete' => 'izbriši',
+	'tools-links' => 'povezave',
+	'tools-subject' => 'zadeva',
+	'tools-hist' => 'zgod',
+	'tools-curr' => 'tren',
+	'tools-globalusage' => 'globalnauporaba',
+	'deletesummary' => 'Čiščenje osirotelih pogovornih strani preko $1',
+	'noresults' => 'Nobena osirotela pogovorna stran na tem wikiju v tem imenskem prostoru ne ustreza vašim nastavitvam.',
+	'resultslimited' => 'Rezultati so bili omejeni na $1 stran.',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  */
@@ -201,8 +604,8 @@ $messages['sr-ec'] = array(
 	'hidesubpages' => 'Сакриј подстранице',
 	'limit' => 'Ограничење',
 	'page' => 'Страница',
-	'redirect' => 'Јесте ограничење?',
-	'output' => 'Излаз',
+	'redirect' => 'Преусмерење',
+	'output' => 'Одредиште',
 	'update' => 'Ажурирај',
 	'tools-delete' => 'обриши',
 	'tools-links' => 'везе',
@@ -210,6 +613,55 @@ $messages['sr-ec'] = array(
 	'tools-hist' => 'ист',
 	'tools-curr' => 'трен',
 	'tools-globalusage' => 'употреба',
+	'deletesummary' => 'Чишћење тајних страница за разговор преко $1',
+	'noresults' => 'Ниједна тајна страница за разговор се не поклапа с поставкама у овом именском простору.',
+	'resultslimited' => 'Резултати су ограничени на $1 страница.',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'title' => 'Orfantok2',
+	'settings-legend' => 'Postavke',
+	'select-wiki-first' => '(prvo izaberite vikiju)',
+	'hideredirects' => 'Sakrij preusmerenja',
+	'hidesubpages' => 'Sakrij podstranice',
+	'limit' => 'Ograničenje',
+	'page' => 'Stranica',
+	'redirect' => 'Preusmerenje',
+	'output' => 'Odredište',
+	'update' => 'Ažuriraj',
+	'tools-delete' => 'Obriši',
+	'tools-links' => 'veze',
+	'tools-subject' => 'naslov',
+	'tools-hist' => 'ist',
+	'tools-curr' => 'tren',
+	'tools-globalusage' => 'upotreba',
+	'deletesummary' => 'Čišćenje tajnih stranica za razgovor preko $1',
+	'noresults' => 'Nijedna tajna stranica za razgovor se ne poklapa s postavkama u ovom imenskom prostoru.',
+	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'settings-legend' => 'అమరికలు',
+	'select-wiki-first' => '(ముందుగా ఒక వికీని ఎంచుకోండి)',
+	'hideredirects' => 'దారిమార్పులను దాచు',
+	'hidesubpages' => 'ఉపపుటలను దాచు',
+	'limit' => 'పరిమితి',
+	'page' => 'పుట',
+	'redirect' => 'దారిమార్పా?',
+	'update' => 'తాజాకరించు',
+	'tools-delete' => 'తొలగించండి',
+	'tools-links' => 'లంకెలు',
+	'tools-subject' => 'విషయం',
+	'tools-hist' => 'చరిత్ర',
+	'tools-curr' => 'ప్రస్తుత',
+	'tools-globalusage' => 'సార్వత్రికవాడుక',
+	'resultslimited' => 'ఫలితాలు $1 పుటలకు పరిమితం చేయబడ్డాయి.',
 );
 
 /** Tagalog (Tagalog)
@@ -232,6 +684,60 @@ $messages['tl'] = array(
 	'tools-hist' => 'kasaysayan',
 	'tools-curr' => 'kasalukuyan',
 	'tools-globalusage' => 'pandaigdigang paggamit',
+	'deletesummary' => 'Nililini ang naulilang mga pahina ng usapan sa pamamagitan ng $1',
+	'noresults' => 'Walang naulilang mga pahina ng usapan na tumugma sa mga pagtatakda mo sa wiking ito na nasa loob ng puwang ng pangalan na ito.',
+	'resultslimited' => 'Ang mga kinalabasan ay nakahangga sa $1 mga pahina.',
+);
+
+/** Turkish (Türkçe)
+ * @author Emperyan
+ * @author Vito Genovese
+ */
+$messages['tr'] = array(
+	'title' => 'YalnızTartışma2',
+	'settings-legend' => 'Ayarlar',
+	'select-wiki-first' => '(ilk olarak bir viki seçin)',
+	'hideredirects' => 'Yönlendirmeleri gizle',
+	'hidesubpages' => 'Alt sayfaları gizle',
+	'limit' => 'Sınır',
+	'page' => 'Sayfa',
+	'redirect' => 'Yönlendirme mi?',
+	'output' => 'Çıkış',
+	'update' => 'Güncelle',
+	'tools-delete' => 'sil',
+	'tools-links' => 'bağlantılar',
+	'tools-subject' => 'konu',
+	'tools-hist' => 'geçmiş',
+	'tools-curr' => 'günc',
+	'tools-globalusage' => 'küresel kullanım',
+	'deletesummary' => '$1 aracılığıyla sayfası silinmiş tartışma sayfaları temizleniyor',
+	'noresults' => 'Bu vikinin bu ad alanındaki sayfası silinmiş hiçbir tartışma sayfası ayarlarınız ile eşleşmedi.',
+	'resultslimited' => 'Sonuçlar, $1 sayfa ile sınırlandırıldı.',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Truy vấn',
+	'select-wiki-first' => '(trước tiên hãy chọn wiki)',
+	'hideredirects' => 'Ẩn trang đổi hướng',
+	'hidesubpages' => 'Ẩn trang phụ',
+	'limit' => 'Tối đa',
+	'page' => 'Trang',
+	'redirect' => 'Có đổi hướng',
+	'output' => 'Kết quả',
+	'update' => 'Cập nhật',
+	'tools-delete' => 'xóa',
+	'tools-links' => 'liên kết',
+	'tools-subject' => 'nội dung',
+	'tools-hist' => 'sử',
+	'tools-curr' => 'hiện',
+	'tools-globalusage' => 'sử dụng toàn cầu',
+	'deletesummary' => 'Dọn sạch các trang thảo luận mồ coi dùng $1',
+	'noresults' => 'Không có trang thảo luận mồ coi nằm trong không gian tên này mà trùng với truy vấn của bạn.',
+	'resultslimited' => 'Chỉ hiển thị $1 kết quả.',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
