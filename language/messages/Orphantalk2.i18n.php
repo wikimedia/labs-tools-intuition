@@ -742,21 +742,27 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Shizhao
  */
 $messages['zh-hans'] = array(
+	'title' => '孤立对话页2',
 	'settings-legend' => '设置',
-	'select-wiki-first' => '（先选择一个维基）',
-	'hideredirects' => '隐藏的重定向',
+	'select-wiki-first' => '（先选择一个wiki）',
+	'hideredirects' => '隐藏重定向页',
 	'hidesubpages' => '隐藏子页面',
 	'limit' => '限制',
-	'page' => '页',
-	'redirect' => '重定向？',
+	'page' => '页面',
+	'redirect' => '是重定向吗？',
 	'output' => '输出',
 	'update' => '更新',
 	'tools-delete' => '删除',
-	'tools-links' => '链接',
-	'tools-subject' => '主题',
+	'tools-links' => '链入',
+	'tools-subject' => '主页面',
 	'tools-hist' => '历史',
-	'tools-curr' => '值的平均数',
+	'tools-curr' => '最新修订',
+	'tools-globalusage' => '全域使用',
+	'deletesummary' => '使用$1清理孤立的对话页',
+	'noresults' => '在该wiki上没有找到你设置的名字空间中的孤立对话页。',
+	'resultslimited' => '结果只显示$1页面。',
 );
 

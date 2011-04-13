@@ -61,11 +61,17 @@ $messages['qqq'] = array(
 	'error-notsvg' => 'An error that occurs when the file provided is not in the required SVG file format.',
 	'error-unexpected' => 'A general error category, for errors which are "unexpected": they should never be encountered by the average user / at all.',
 	'error-notfound' => 'An error that occurs when the URL provided does not point to an SVG file or a file description page.',
+	'error-upload' => 'General error message for when the tool\'s "direct upload" feature fails.',
 	'begin-translation' => 'This is the opening heading on the home page of the tool.',
 	'th-original' => 'Heading of the "Original"-column.',
 	'th-translation' => 'Heading of the "Translation"-column.
 {{Identical|Translation}}',
 	'th-language' => 'Label for the language selection dropdown box. {{Identical|Language}}',
+	'th-username' => '{{Identical|Username}}',
+	'th-password' => '{{Identical|Password}}',
+	'th-method' => 'The label introducing a choice between two ways of proceeding/ways of uploading the file.',
+	'option-tusc' => 'The option for an automated upload using the "TUSC" mechanism.',
+	'option-manual' => 'The option for uploading a file manually.',
 	'preview' => '{{Identical|Preview}}',
 	'translate' => '{{Identical|Translate}}',
 	'translate-instructions' => 'Intro paragraph in the translation process.
@@ -77,6 +83,13 @@ Parameters:
 	'format-fullurl-example' => '{{Notranslate}}',
 	'svginput-label' => 'The label for main SVG filename input.',
 	'stats-footer' => 'This message is displayed at the bottom of the welcome page displaying some statistics. $1 is the number of files, $2 is the date the first known translation took place.',
+	'uploading' => 'A heading expressing that an upload is in progress.',
+	'upload-complete' => 'The message given on the successful conclusion of an upload, where $1 is a URL to the file in question.',
+	'editdescriptionpage' => 'An additional invitation, once a file has been uploaded automatically, to edit the new description page to tidy it.',
+	'disclaimer' => 'Supplementary footer text explaining that the tool may collect certain pieces of data from the user.',
+	'author-complete' => 'An instruction to the user to manually add in author information from the file because the tool could not generate it automatically.',
+	'preview-hide' => 'The text for a button which hides the preview that the user has just asked for.',
+	'preview-refresh' => 'The text for a button which refreshes the preview that the user has just asked for.',
 );
 
 /** Arabic (العربية)
@@ -93,6 +106,7 @@ $messages['ar'] = array(
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
+ * @author Jim-by
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -102,15 +116,27 @@ $messages['be-tarask'] = array(
 	'error-notsvg' => 'Гэта не SVG-файл.',
 	'error-unexpected' => 'Адбылася нечаканая памылка.',
 	'error-notfound' => 'Немагчыма атрымаць SVG-файл з пададзенага URL-адрасу.',
+	'error-upload' => 'Немагчыма загрузіць.',
 	'begin-translation' => 'Пачаць пераклад',
 	'th-original' => 'Арыгінал',
 	'th-translation' => 'Пераклад',
 	'th-language' => 'Мова',
+	'th-username' => 'Імя карыстальніка',
+	'th-password' => 'Пароль',
+	'th-method' => 'Мэтад',
+	'option-tusc' => 'TUSC (аўтаматычная загрузка)',
+	'option-manual' => 'Ручная загрузка',
 	'preview' => 'Папярэдні прагляд',
 	'translate' => 'Перакласьці',
 	'translate-instructions' => 'Уведзеныя зьвесткі трактуюцца як назва файла (напрыклад, «$1»), ці як поўны URL-адрас (напрыклад, «$2»). Калі гэта файл, пад крыніцай файлу будзе меркавацца ВікіСховішча. Для перакладу SVG-файла зь іншага сайта ці вікі трэба ўвесьці поўны URL-адрас.',
 	'svginput-label' => 'SVG-файл',
 	'stats-footer' => 'З $2 перакладзена каля $1 файлаў з дапамогай гэтага інструмэнту.',
+	'uploading' => 'Ідзе загрузка',
+	'upload-complete' => 'Загрузка завершаная пасьпяхова. Выява мусіць быць даступная па адрасе $1',
+	'editdescriptionpage' => 'Рэдагаваць старонку апісаньня',
+	'author-complete' => 'Запоўніце зьвесткі пра аўтарства!',
+	'preview-hide' => 'Схаваць папярэдні прагляд',
+	'preview-refresh' => 'Абнавіць папярэдні прагляд',
 );
 
 /** Bulgarian (Български)
@@ -185,6 +211,7 @@ $messages['br'] = array(
 	'uploading' => "Oc'h enporzhiañ",
 	'upload-complete' => "Enporzhiet eo bet ar skeudenn ervat. Bez' e tlefe bezañ war $1 bremañ",
 	'editdescriptionpage' => 'Embann deskrivadur nevez ar bajenn',
+	'disclaimer' => "Roadennoù dianv zo a vo dastumet evit sevel stadegoù a chomo prevez. Ma vez resisaet an anvioù implijer evit TUSC e vint notennet ivez gant ar pal stourm a-enep d'ar vandalerezh. Ne vez ket enrollet ar gerioù-tremen gwezh ebet.",
 	'author-complete' => 'Klokaat an titouroù diwar-benn an aozer !',
 	'preview-hide' => 'Kuzhat ar rakweled',
 	'preview-refresh' => 'Freskaat ar rakweled',
@@ -298,6 +325,7 @@ $messages['fa'] = array(
 /** French (Français)
  * @author Crochet.david
  * @author Jean-Frédéric
+ * @author Sherbrooke
  */
 $messages['fr'] = array(
 	'title' => 'SVG Traduction',
@@ -306,15 +334,28 @@ $messages['fr'] = array(
 	'error-notsvg' => 'Pas un fichier SVG.',
 	'error-unexpected' => "Une erreur inattendue s'est produite.",
 	'error-notfound' => "Le fichier SVG n'a pas pu être récupéré depuis l'URL fournie.",
+	'error-upload' => 'Il y a eu une erreur de téléchargement.',
 	'begin-translation' => 'Commencer la traduction',
 	'th-original' => 'Original',
 	'th-translation' => 'Traduction',
 	'th-language' => 'Langue',
+	'th-username' => "Nom d'utilisateur",
+	'th-password' => 'Mot de passe',
+	'th-method' => 'Méthode',
+	'option-tusc' => 'TUSC (téléchargement automatique)',
+	'option-manual' => 'Téléchargement manuel',
 	'preview' => 'Prévisualiser',
 	'translate' => 'Traduire',
 	'translate-instructions' => 'Les entrées sont acceptées comme étant soit des noms de fichiers (par exemple : « $1 ») ou une URL complète (par exemple : « $2» ). Si la première option est utilisée, Wikimedia Commons sera assumée en tant que source. Pour traduire un SVG d’un autre site ou un wiki, vous devez utiliser le format URL complète.',
 	'svginput-label' => 'Fichier SVG',
 	'stats-footer' => 'Cet outil a été utilisé pour traduire environ {{PLURAL:$1|un fichier|$1 fichiers}} depuis $2.',
+	'uploading' => 'Téléchargement',
+	'upload-complete' => "Le téléchargement s'est terminé avec succès. L'image devrait maintenant se trouver à l'adresse $1.",
+	'editdescriptionpage' => 'Modifier la nouvelle page de description',
+	'disclaimer' => "Certaines données anonymes seront recueillies de façon privée à des fins statistiques. Si fournis, les noms d'usagers TUSC seront aussi notés dans le but d'aider à combattre le vandalisme. Les mots de passe ne sont jamais enregistrés.",
+	'author-complete' => "Remplissez les informations sur l'auteur !",
+	'preview-hide' => "Masquer l'aperçu",
+	'preview-refresh' => 'Actualiser la prévisualisation',
 );
 
 /** Hebrew (עברית)
@@ -348,15 +389,28 @@ $messages['ia'] = array(
 	'error-notsvg' => 'Non es un file SVG.',
 	'error-unexpected' => 'Un error inexpectate ha occurrite.',
 	'error-notfound' => 'Le file SVG non poteva esser cargate del URL fornite.',
+	'error-upload' => 'Un error occurreva durante le incargamento.',
 	'begin-translation' => 'Comenciar traduction',
 	'th-original' => 'Original',
 	'th-translation' => 'Traduction',
 	'th-language' => 'Lingua',
+	'th-username' => 'Nomine de usator',
+	'th-password' => 'Contrasigno',
+	'th-method' => 'Methodo',
+	'option-tusc' => 'TUSC (incargamento automatic)',
+	'option-manual' => 'Incargamento manual',
 	'preview' => 'Previsualisation',
 	'translate' => 'Traducer',
 	'translate-instructions' => 'Es possibile entrar un nomine de file (p.ex. "$1") o un URL complete (p.ex. "$2"). Si le prime option es usate, Wikimedia Commons es assumite como fonte. Pro traducer un file SVG de un altere sito o wiki, tu debe usar le URL complete.',
 	'svginput-label' => 'File SVG',
 	'stats-footer' => 'Iste instrumento ha essite usate pro traducer circa $1 files depost $2.',
+	'uploading' => 'Incargamento in curso',
+	'upload-complete' => 'Le incargamento ha succedite. Le imagine debe ora esser presente a $1',
+	'editdescriptionpage' => 'Modificar le nove pagina de description',
+	'disclaimer' => 'Certe datos anonyme essera colligite in private pro alimentar nostre statisticas. Si fornite, le nomines de usator de TUSC etiam essera registrate pro assister in caso de vandalismo. Le contrasignos nunquam essera registrate.',
+	'author-complete' => 'Per favor completa le informationes del autor.',
+	'preview-hide' => 'Celar previsualisation',
+	'preview-refresh' => 'Refrescar previsualisation',
 );
 
 /** Italian (Italiano)
@@ -681,10 +735,12 @@ $messages['te'] = array(
 	'th-language' => 'భాష',
 	'th-username' => 'వాడుకరిపేరు',
 	'th-password' => 'సంకేతపదం',
+	'th-method' => 'పద్ధతి',
 	'preview' => 'మునుజూపు',
 	'translate' => 'అనువదించు',
 	'svginput-label' => 'SVG దస్త్రం',
 	'stats-footer' => '$2 నుండి దాదాపు $1 దస్త్రాలను అనువదించడానికి ఈ పనిముట్టుని ఉపయోగించారు.',
+	'author-complete' => 'దయచేసి రచయిత సమాచారాన్ని పూరించండి!',
 	'preview-hide' => 'మునుజూపును దాచు',
 );
 
@@ -698,15 +754,28 @@ $messages['tl'] = array(
 	'error-notsvg' => 'Hindi isang talaksang SVG.',
 	'error-unexpected' => 'Naganap ang isang hindi inaasahang kamalian.',
 	'error-notfound' => 'Hindi makuhang muli ang talaksang SVG magmula sa ibinigay na URL.',
+	'error-upload' => 'May isang suliranin sa pagkakargang papaitaas.',
 	'begin-translation' => 'Simulan ang pagsasalinwika',
 	'th-original' => 'Orihinal',
 	'th-translation' => 'Salinwika',
 	'th-language' => 'Wika',
+	'th-username' => 'Pangalan ng tagagamit',
+	'th-password' => 'Hudyat',
+	'th-method' => 'Pamamaraan',
+	'option-tusc' => 'TUSC (kusang pagkakarga na paitaas)',
+	'option-manual' => 'Kinakamay na pagkakargang papaitaas',
 	'preview' => 'Paunang pagtingin',
 	'translate' => 'Isalinwika',
 	'translate-instructions' => 'Ang mga ipinapasok ay tinatanggap bilang mga pangalan ng talaksan (iyon ay "$1") o buong URL (iyon ay "$2").  Kung ang unang pagpipilian ang ginamit, ipapalagay na ang Wikimedia Commons ang pinagmulan.  Upang maisalinwika ang isang SVG mula sa ibang lugar o wiki, dapat mong gamitin ang anyo ng buong URL.',
 	'svginput-label' => 'Talaksang SVG',
 	'stats-footer' => 'Ginamit ang kasangkapang ito upang isalinwika ang tinatayang $1 mga talaksan magmula noong $2.',
+	'uploading' => 'Ikinakarga',
+	'upload-complete' => 'Matagumpay na nabuo ang pagkakarga. Ang larawan ay dapat na nasa $1 na ngayon',
+	'editdescriptionpage' => 'Baguhin ang bagong pahina ng paglalarawan',
+	'disclaimer' => 'Ilang datong hindi nakikilala ang pribadong lilikumin para sa mga layuning pang-estadistika.  Kapag ibinigay, ang mga pangalan ng tagagamit ng TUSC ay maitatala rin upang makatulong kapag may naganap na pambababoy. Hindi kailanman maitalala ang mga hudyat.',
+	'author-complete' => 'Mangyaring buuin ang kabatiran sa may-akda!',
+	'preview-hide' => 'Itago ang paunang tanaw',
+	'preview-refresh' => 'Sariwain ang paunang tanaw',
 );
 
 /** Turkish (Türkçe)
@@ -759,7 +828,7 @@ $messages['vi'] = array(
 	'uploading' => 'Đang tải lên',
 	'upload-complete' => 'Hoàn tất tải lên tập tin. Hình có sẵn tại $1.',
 	'editdescriptionpage' => 'Sửa đổi trang miêu tả mới',
-	'disclaimer' => 'Một số dữ liệu vô danh sẽ được gửi một cách bí mật cho mục đích thống kê. Nếu được cung cấp, các tên người dùng TUSC cũng được ghi lại để giúp tránh phá hoại. Các mật khẩu không bao giờ được ghi lại.',
+	'disclaimer' => 'Một số dữ liệu vô danh sẽ được gửi một cách bảo mật cho mục đích thống kê. Nếu được cung cấp, các tên người dùng TUSC cũng được ghi lại để giúp tránh phá hoại. Các mật khẩu không bao giờ được ghi lại.',
 	'author-complete' => 'Xin vui lòng điền thông tin tác giả!',
 	'preview-hide' => 'Ẩn phần xem trước',
 	'preview-refresh' => 'Làm mới phần xem trước',
@@ -767,19 +836,36 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Shizhao
  */
 $messages['zh-hans'] = array(
 	'title' => 'SVG 翻译',
+	'error-tryagain' => '$1点击你的浏览器会退按钮重试。',
 	'error-nothing' => '没有要翻译的内容。',
 	'error-notsvg' => '不是 SVG 文件。',
-	'error-unexpected' => '发生意外的错误。',
-	'error-notfound' => '不能从提供的 URL 中检索的 SVG 文件。',
+	'error-unexpected' => '发生意外错误。',
+	'error-notfound' => '不能从提供的 URL 中获取SVG 文件。',
+	'error-upload' => '上传时发生错误。',
 	'begin-translation' => '开始翻译',
 	'th-original' => '源语言',
 	'th-translation' => '翻译',
 	'th-language' => '语言',
+	'th-username' => '用户名',
+	'th-password' => '密码',
+	'th-method' => '方法',
+	'option-tusc' => 'TUSC (自动上传)',
+	'option-manual' => '手工上传',
 	'preview' => '预览',
 	'translate' => '翻译',
+	'translate-instructions' => '可以输入文件名（例如“$1”）或完整的URL(例如 "$2")。如果选择第一个选项，维基共享资源会被作为来源。如果是从其他网站或wiki翻译SVG文件，你必须使用完整的url。',
 	'svginput-label' => 'SVG 文件',
+	'stats-footer' => '自$2起，本工具已翻译约$1个文件。',
+	'uploading' => '上传中',
+	'upload-complete' => '上传顺利完成。该图像现在应该位于$1',
+	'editdescriptionpage' => '编辑新的描述页',
+	'disclaimer' => '某些匿名数据将会被私人收集用于统计目的。如果使用TUSC用户名，它也将会被记录下来以用于协助应付破坏行为。密码永远不会被记录。',
+	'author-complete' => '请填写作者信息！',
+	'preview-hide' => '隐藏预览',
+	'preview-refresh' => '刷新预览',
 );
 

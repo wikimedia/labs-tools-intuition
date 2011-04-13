@@ -612,10 +612,12 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Shizhao
  */
 $messages['zh-hans'] = array(
 	'hello' => '你好',
 	'welcome' => '欢迎',
+	'toolversionstamp' => '版本 $1 ($2)',
 	'etc' => '等。',
 	'namespace' => '名字空间',
 	'form-submit' => '转到',
@@ -624,5 +626,7 @@ $messages['zh-hans'] = array(
 	'weeks' => '周',
 	'days' => '天',
 	'hours' => '小时',
+	'last-modified-date' => '最近修改: $1',
+	'view-source' => '查看源代码',
 );
 

@@ -423,6 +423,24 @@ $messages['it'] = array(
 	'bl-mysettings-new' => 'Cambia lingua!',
 );
 
+/** Japanese (日本語)
+ * @author Whym
+ */
+$messages['ja'] = array(
+	'fullname' => 'Toolserverのユーザーインターフェイスの国際化',
+	'current-settings' => '現在の設定',
+	'current-language' => '現在選択されている言語',
+	'settings-legend' => '設定',
+	'choose-language' => '言語を選択してください',
+	'clear-cookies' => 'クッキーを消去',
+	'renew-cookies' => 'クッキーを更新',
+	'cookie-expiration' => 'クッキーの有効期限',
+	'clearcookies-success' => 'クッキーの削除に成功しました。',
+	'renewcookies-success' => 'クッキーを更新しました。以降$1のあいだ有効です。',
+	'tab-overview' => '概要',
+	'tab-settings' => '設定',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -795,7 +813,7 @@ $messages['sr-el'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'fullname' => 'టూల్&zwnj;సర్వర్ పనిముట్ల అంతర్జాతీయీకరణ',
+	'fullname' => 'టూల్‌సర్వర్ పనిముట్ల అంతర్జాతీయీకరణ',
 	'current-settings' => 'ప్రస్తుత అమరికలు',
 	'current-language' => 'ప్రస్తుతం ఎంచుకున్న భాష',
 	'settings-legend' => 'అమరికలు',
@@ -808,9 +826,9 @@ $messages['te'] = array(
 	'bl-mysettings-new' => 'భాషని మార్చు!',
 	'bl-promo' => 'అనువాదాల సౌజన్యం $1 మరియు $2.',
 	'bl-changelanguage' => 'ఈ పనిముట్టు ముఖాంతరపు భాషను మార్చడానికి ఇక్కడ నొక్కండి.',
-	'usage' => 'టూల్&zwnj;సర్వర్ ఇన్&zwnj;ట్యూషన్ ద్వారా అనువాదమైన పనిముట్లు',
+	'usage' => 'టూల్‌సర్వర్ ఇన్‌ట్యూషన్ ద్వారా అనువాదమైన పనిముట్లు.',
 	'help-translate-tool' => 'ఈ పనిముట్టుని అనువదించడానికి సహాయపడండి!',
-	'help-translate-all' => 'టూల్&zwnj;సర్వర్&zwnj;ను అనువదించడానికి తోడ్పడండి!',
+	'help-translate-all' => 'టూల్‌సర్వర్‌ను అనువదించడానికి తోడ్పడండి!',
 	'help-translate-tooltip' => 'ముఖాంతరం యొక్క సందేశాలను మీ భాష లోనికి అనువదించడం ద్వారా ఇతరులకి తోడ్పడండి.',
 );
 
@@ -901,21 +919,30 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Shizhao
  */
 $messages['zh-hans'] = array(
+	'fullname' => '国际化Toolserver用户界面',
 	'current-settings' => '当前的设置',
 	'current-language' => '当前所选的语言',
 	'settings-legend' => '设置',
 	'choose-language' => '选择一种语言',
-	'clear-cookies' => ' 清除 cookie',
+	'clear-cookies' => '清除 cookie',
+	'renew-cookies' => '重设cookies',
+	'cookie-expiration' => 'Cookie期限',
+	'clearcookies-success' => '顺利清理cookies。',
+	'renewcookies-success' => 'Cookies已经重设！你全部的设置将保留$1。',
 	'tab-overview' => '概述',
 	'tab-settings' => '设置',
 	'tab-about' => '关于',
+	'tab-demo' => '演示',
 	'bl-mysettings' => '我的语言设置',
 	'bl-mysettings-new' => '更改语言！',
 	'bl-promo' => '翻译采用 $1 和 $2。',
 	'bl-changelanguage' => '若要更改此工具界面语言，请单击此处。',
+	'usage' => '由Toolserver Intuition翻译的工具。',
 	'help-translate-tool' => '帮助翻译此工具！',
-	'help-translate-tooltip' => '帮助别人翻译成您的语言的接口的消息。',
+	'help-translate-all' => '帮助翻译Toolserver！',
+	'help-translate-tooltip' => '帮助其他人把界面翻译成您的语言。',
 );
 
