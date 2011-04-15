@@ -306,6 +306,31 @@ $messages['de'] = array(
 	'help-translate-tooltip' => 'Hilf anderen indem du die Nachrichten der Benutzeroberfläche in deine Sprache übersetzt.',
 );
 
+/** Greek (Ελληνικά)
+ * @author Evropi
+ */
+$messages['el'] = array(
+	'current-settings' => 'Τρέχουσες ρυθμίσεις',
+	'current-language' => 'Τρέχουσα επιλεγμένη γλώσσα',
+	'settings-legend' => 'Ρυθμίσεις',
+	'choose-language' => 'Επιλογή γλώσσας',
+	'clear-cookies' => 'εκκαθάριση cookies',
+	'renew-cookies' => 'ανανέωση των cookies',
+	'cookie-expiration' => 'Λήξη cookie',
+	'clearcookies-success' => 'Επιτυχής εκκαθάριση των cookie.',
+	'renewcookies-success' => 'Τα cookies ανανεώθηκαν Είστε έτοιμοι για τις επόμενες $1 .',
+	'tab-overview' => 'Επισκόπηση',
+	'tab-settings' => 'Ρυθμίσεις',
+	'tab-about' => 'Σχετικά',
+	'bl-mysettings' => 'Ρυθμίσεις γλώσσας',
+	'bl-mysettings-new' => 'Αλλαγή γλώσσας!',
+	'bl-promo' => 'Οι μεταφράσεις τροφοδοτούνται από το $1 και το $2.',
+	'bl-changelanguage' => 'Κάντε κλικ εδώ για να αλλάξετε την γλώσσα αυτού του εργαλείου.',
+	'usage' => 'Εργαλεία μεταφρασμένα με το Toolserver Intuition.',
+	'help-translate-tool' => 'Βοηθήστε μας να μεταφράσουμε αυτό το εργαλείο!',
+	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Wayiran
@@ -484,6 +509,8 @@ $messages['lb'] = array(
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Meng Sproochastellungen',
 	'bl-mysettings-new' => 'Sprooch wiesselen!',
+	'help-translate-tool' => "Hëlleft dësen Tool z'iwwersetzen!",
+	'help-translate-all' => "Hëlleft den Toolserver z'iwwersetzen!",
 );
 
 /** Macedonian (Македонски)

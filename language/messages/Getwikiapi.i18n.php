@@ -126,6 +126,14 @@ $messages['de'] = array(
 	'settings-legend' => 'Einstellungen',
 );
 
+/** Greek (Ελληνικά)
+ * @author Evropi
+ */
+$messages['el'] = array(
+	'no-matches' => 'Τίποτα δεν βρέθηκε για το "$1"',
+	'settings-legend' => 'Ρυθμίσεις',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */

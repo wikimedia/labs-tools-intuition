@@ -207,6 +207,24 @@ $messages['de'] = array(
 	'view-source' => 'Quelltext anzeigen',
 );
 
+/** Greek (Ελληνικά)
+ * @author Evropi
+ */
+$messages['el'] = array(
+	'hello' => 'Γεια σας',
+	'welcome' => 'Καλώς ορίσατε',
+	'toolversionstamp' => 'Έκδοση $1 ($2)',
+	'etc' => 'κλπ.',
+	'form-submit' => 'Μετάβαση',
+	'form-reset' => 'Επαναφορά',
+	'years' => 'χρόνια',
+	'weeks' => 'εβδομάδες',
+	'days' => 'ημέρες',
+	'hours' => 'ώρες',
+	'last-modified-date' => 'Τελευταία επεξεργασία: $1',
+	'view-source' => 'Εμφάνιση κώδικα',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */

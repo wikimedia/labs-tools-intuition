@@ -233,6 +233,25 @@ $messages['de'] = array(
 	'resultslimited' => 'Die Ergebnisse wurden auf $1 Seiten beschränkt.',
 );
 
+/** Greek (Ελληνικά)
+ * @author Evropi
+ */
+$messages['el'] = array(
+	'settings-legend' => 'Ρυθμίσεις',
+	'select-wiki-first' => '(επιλέξτε πρώτα ένα βίκι)',
+	'hideredirects' => 'Απόκρυψη ανακατευθύνσεων',
+	'hidesubpages' => 'Απόκρυψη υποσελιδών',
+	'limit' => 'Όριο',
+	'page' => 'Άρθρο',
+	'redirect' => 'Είναι ανακατεύθυνση;',
+	'update' => 'Ενημέρωση',
+	'tools-delete' => 'διαγραφή',
+	'tools-links' => 'σύνδεσμοι',
+	'tools-subject' => 'θέμα',
+	'tools-hist' => 'ιστορικό',
+	'tools-curr' => 'τρέχουσα',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Wayiran
@@ -357,11 +376,13 @@ $messages['lb'] = array(
 	'select-wiki-first' => "(sicht d'éischt eng Wiki eraus)",
 	'hideredirects' => 'Viruleedunge verstoppen',
 	'hidesubpages' => 'Ënnersäite verstoppen',
+	'limit' => 'Limit',
 	'page' => 'Säit',
 	'update' => 'Aktualiséieren',
 	'tools-delete' => 'läschen',
 	'tools-links' => 'Linken',
 	'tools-subject' => 'Sujet',
+	'tools-curr' => 'aktuell',
 );
 
 /** Macedonian (Македонски)
