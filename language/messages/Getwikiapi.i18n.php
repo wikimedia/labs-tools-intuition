@@ -38,6 +38,18 @@ $messages['qqq'] = array(
 {{Identical|Settings}}',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'formats-heading' => 'Formatos de salida',
+	'input' => 'Entrada',
+	'label-wikiids' => 'Identificadores na Wiki',
+	'no-matches' => 'Res nun casa con "$1"',
+	'output' => 'Salida pa "$1"',
+	'settings-legend' => 'Configuración',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Wizardist
  */

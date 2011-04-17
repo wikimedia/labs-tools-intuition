@@ -70,6 +70,31 @@ $messages['qqq'] = array(
 	'resultslimited' => "If results were limited by the set' limit, this message is displayed at the bottom of the search results.",
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Configuración',
+	'select-wiki-first' => '(primero seleiciona una wiki)',
+	'hideredirects' => 'Anubrir redireiciones',
+	'hidesubpages' => 'Anubrir subpáxines',
+	'limit' => 'Llímite',
+	'page' => 'Páxina',
+	'redirect' => '¿Ye redireición?',
+	'output' => 'Salida',
+	'update' => 'Anovar',
+	'tools-delete' => 'desaniciar',
+	'tools-links' => 'enllaces',
+	'tools-subject' => 'asuntu',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'act',
+	'tools-globalusage' => 'usuglobal',
+	'deletesummary' => "Llimpiando páxines d'alderique güérfanes con $1",
+	'noresults' => "Denguna páxina d'alderique d'esta wiki nesti espaciu de nomes concasa coles tos preferencies.",
+	'resultslimited' => 'Los resultaos tan llendaos a $1 páxines.',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -378,11 +403,14 @@ $messages['lb'] = array(
 	'hidesubpages' => 'Ënnersäite verstoppen',
 	'limit' => 'Limit',
 	'page' => 'Säit',
+	'redirect' => 'Ass et eng Viruleedung?',
 	'update' => 'Aktualiséieren',
 	'tools-delete' => 'läschen',
 	'tools-links' => 'Linken',
 	'tools-subject' => 'Sujet',
+	'tools-hist' => 'Versiounen',
 	'tools-curr' => 'aktuell',
+	'resultslimited' => "D'Resultater goufen op $1 Säite limitéiert.",
 );
 
 /** Macedonian (Македонски)

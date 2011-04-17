@@ -48,6 +48,25 @@ $messages['qqq'] = array(
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'hello' => 'Bones',
+	'welcome' => 'Bienveníos',
+	'toolversionstamp' => 'Versión $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => 'Espaciu de nomes',
+	'form-submit' => 'Dir',
+	'form-reset' => 'Reaniciar',
+	'years' => 'años',
+	'weeks' => 'selmanes',
+	'days' => 'díes',
+	'hours' => 'hores',
+	'last-modified-date' => 'Caberu cambéu: $1',
+	'view-source' => 'Ver códigu fonte',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Jim-by
  * @author Wizardist

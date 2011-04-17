@@ -104,6 +104,40 @@ $messages['ar'] = array(
 	'svginput-label' => 'ملف SVG',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'title' => 'SVG Translate',
+	'error-tryagain' => '$1 Calca nel botón atrás del restolador pa volver a tentalo.',
+	'error-nothing' => 'Nun hai res que traducir.',
+	'error-notsvg' => 'Nun ye un ficheru SVG.',
+	'error-unexpected' => 'Hebo un fallu inesperáu.',
+	'error-notfound' => 'El ficheru SVG nun se pudo baxar de la URL conseñada.',
+	'error-upload' => 'Hebo un fallu al xubir.',
+	'begin-translation' => 'Entamar traducción',
+	'th-original' => 'Orixinal',
+	'th-translation' => 'Traducción',
+	'th-language' => 'Llingua',
+	'th-username' => "Nome d'usuariu",
+	'th-password' => 'Contraseña',
+	'th-method' => 'Métodu',
+	'option-tusc' => 'TUSC (xuba automática)',
+	'option-manual' => 'Xuba manual',
+	'preview' => 'Entever',
+	'translate' => 'Traducir',
+	'translate-instructions' => 'S\'aceuten entraes como nomes de ficheru (p.ex. "$1") o  como URL completes (p.ex. "$2"). Si s\'usa la primera opción, se tomará como orixe Wikimedia Commons. Pa traducir un SVG d\'otru sitiu o wiki, tienes d\'usar el formatu d\'url completa.',
+	'svginput-label' => 'Ficheru SVG',
+	'stats-footer' => "Esta ferramienta s'usó pa traducir alredor de $1 ficheros dende $2.",
+	'uploading' => 'Xubiendo',
+	'upload-complete' => 'La xuba se completó correutamente. La imaxe habría tar anguaño en $1',
+	'editdescriptionpage' => 'Editar la páxina de descripción nueva',
+	'disclaimer' => "Van recoyese dellos datos anónimos con propósitu estadísticu. Si se dan, los nomes d'usuariu TUSC tamién van grabase como ayuda'n casu de vandalismu. Les contraseñes enxamás se grabarán.",
+	'author-complete' => '¡Por favor, completa la información del autor!',
+	'preview-hide' => 'Anubrir entever',
+	'preview-refresh' => 'Refrescar entever',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -479,15 +513,28 @@ $messages['ksh'] = array(
 	'error-notsvg' => 'Dat es jaa kein <i lang="en">SVG</i>-Dattei.',
 	'error-unexpected' => 'Ene Fähler es opjetrodde, woh mer nit met jerääschnet hatte.',
 	'error-notfound' => 'Onger däm aanjejovve <i lang="en">URL</i> ham_mer kein <i lang="en">SVG</i>-Dattei jefonge.',
+	'error-upload' => 'Beim Huhlaade es ene Fähler opjetrodde.',
 	'begin-translation' => 'Mem Övversäze aanfange',
 	'th-original' => 'Ojinahl',
 	'th-translation' => 'Övversäzong',
 	'th-language' => 'Shprooch',
+	'th-username' => 'Metmaacher Name',
+	'th-password' => 'Paßwoot',
+	'th-method' => 'Metood',
+	'option-tusc' => '<i lang="en">TUSC</i> (automattesch Huhlaade)',
+	'option-manual' => 'vun Hand huhlaade',
 	'preview' => 'Vör-Aansich zeije',
 	'translate' => 'Övversäze',
 	'translate-instructions' => 'Enjangsdateije kam_mer met dänne iehr Name aanjävve (för e Beishpell „<code lang="en">$1</code>“) udder med enem kumplätte <i lang="en">URL</i> (för e Beishpell „<code lang="en">$2</code>“). Em eezde Fall looere mer op <i lang="en">Wikimedia Commons</i> donoh. Em zweite Fall kam_mer en <i lang="en">SVG</i>-Dattei fun ene ander ẞait udder uss_enem andere Wiki övversäze.',
 	'svginput-label' => 'De <i lang="en">SVG</i>-Dattei',
 	'stats-footer' => 'Heh dat Projramm es zick $2 jebruch woode, öm ätwa $1 Datteije ze övversäze.',
+	'uploading' => 'Aam Huhlaade',
+	'upload-complete' => 'Dat Huhlaade hät jeflupp, un dat Beld sullt jäz onger „$1“ shtonn.',
+	'editdescriptionpage' => 'Donn di Sigg övver dat Beld op der neue Shtand bränge!',
+	'disclaimer' => 'E paa Daate wääde för de Shtatistik faßjehallde, ävver nit öffentlesch jemaat, un se donn sesch och ob keine beschtemmpte Metmaacher beträcke. Wann se aanjejovve sin, wääde em <i lang="en">TUSC</i> sing Metmaachername faßjehallde, öm ze hällefe, falls ens Eine jät kapott jemaat hät. Paßwööter wääde nimohls faßjehallde.',
+	'author-complete' => 'Bes esu joot, un donn de Aanjabe övver der Maacher vum Beld kumplätt maaache!',
+	'preview-hide' => 'Vör-Aansesch verschteische',
+	'preview-refresh' => 'Donn de Vör-Aansesch op der neue Shtand bränge!',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -505,8 +552,14 @@ $messages['lb'] = array(
 	'th-language' => 'Sprooch',
 	'th-username' => 'Benotzernumm',
 	'th-password' => 'Passwuert',
+	'th-method' => 'Method',
+	'option-tusc' => 'TUSC (automatesch Eroplueden)',
+	'option-manual' => 'Manuell Eroplueden',
 	'translate' => 'Iwwersetzen',
 	'svginput-label' => 'SVG-Fichier',
+	'stats-footer' => "Dësen Tool gouf zënter dem $2 benotzt fir ongeféier $1 Fichieren z'iwwersetzen.",
+	'uploading' => 'Eroplueden',
+	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
 );
 
 /** Macedonian (Македонски)
@@ -684,15 +737,28 @@ $messages['ro'] = array(
 	'error-notsvg' => 'Nu este un fișier SVG.',
 	'error-unexpected' => 'O eroare neașteptată a apărut.',
 	'error-notfound' => 'Fișierul SVG nu a putut fi preluat de la URL-ul furnizat.',
+	'error-upload' => 'A apărut o eroare în timpul încărcării.',
 	'begin-translation' => 'Începeți traducerea',
 	'th-original' => 'Original',
 	'th-translation' => 'Traducere',
 	'th-language' => 'Limbă',
+	'th-username' => 'Nume de utilizator',
+	'th-password' => 'Parolă',
+	'th-method' => 'Metodă',
+	'option-tusc' => 'TUSC (încărcare automată)',
+	'option-manual' => 'Încărcare manuală',
 	'preview' => 'Previzualizare',
 	'translate' => 'Traducere',
 	'translate-instructions' => 'Datele de intrare pot reprezenta fie nume de fișiere (ex.: „$1”), fie adrese URL complete (ex.: „$2”). Dacă se recurge la prima variantă, sursa asumată a fișierelor va fi Wikimedia Commons. Pentru a traduce un fișier SVG aflat pe alt site sau wiki, trebuie să introduceți adresa URL completă.',
 	'svginput-label' => 'fișier SVG',
 	'stats-footer' => 'Această unealtă a fost folosită la traducerea a aproximativ $1 fișiere, încă din $2.',
+	'uploading' => 'Se încarcă',
+	'upload-complete' => 'Încărcarea s-a finalizat cu succes. Imaginea ar trebui să se găsească la $1',
+	'editdescriptionpage' => 'Modificați noua pagină descriptivă',
+	'disclaimer' => 'Câteva informații anonime vor fi colectate în mod privat pentru statistici. Dacă sunt furnizate, numele de utilizator TUSC vor fi de asemenea contabilizate pentru ajutor în caz de vandalism. Parolele nu vor fi niciodată reținute.',
+	'author-complete' => 'Vă rugăm să completați informațiile despre autor!',
+	'preview-hide' => 'Ascunde previzualizarea',
+	'preview-refresh' => 'Reîncarcă previzualizarea',
 );
 
 /** Slovenian (Slovenščina)

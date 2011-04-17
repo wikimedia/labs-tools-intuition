@@ -74,6 +74,34 @@ $messages['qqq'] = array(
 	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'fullname' => "Internacionalización pa la interfaz d'usuariu de Toolserver",
+	'current-settings' => 'Configuración actual',
+	'current-language' => 'Llingua seleicionada anguaño',
+	'settings-legend' => 'Configuración',
+	'choose-language' => 'Escueyi una llingua',
+	'clear-cookies' => 'desaniciar cookies',
+	'renew-cookies' => 'anovar cookies',
+	'cookie-expiration' => 'Espiración de la cookie',
+	'clearcookies-success' => 'Les cookies se desaniciaron correutamente.',
+	'renewcookies-success' => "¡S'anovaron les cookies! Tas preparáu pa los siguientes $1.",
+	'tab-overview' => 'Resume',
+	'tab-settings' => 'Configuración',
+	'tab-about' => 'Tocante a',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Les mios preferencies de llingua',
+	'bl-mysettings-new' => '¡Camudar llingua!',
+	'bl-promo' => 'Traducciones feches con $1 y $2.',
+	'bl-changelanguage' => "Calca equí pa camudar la llingua de la interfaz d'esta ferramienta.",
+	'usage' => 'Ferramientes traducíes por Toolserver Intuition.',
+	'help-translate-tool' => '¡Ayuda a traducir esta ferramienta!',
+	'help-translate-all' => '¡Ayuda a traducir Toolserver!',
+	'help-translate-tooltip' => 'Ayuda a otres persones traduciendo los mensaxes de la interfaz a la to llingua.',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -486,7 +514,8 @@ $messages['ksh'] = array(
 	'tab-demo' => 'Vörföhrung',
 	'bl-mysettings' => 'Ming Shproochenshtällonge',
 	'bl-mysettings-new' => 'De Shprooch wääßele',
-	'bl-promo' => 'De Övversäzonge kumme vum $1 un vum $2.',
+	'bl-promo' => 'De Övversäzonge kumme vum $1 un övver $2 noh heh.',
+	'bl-changelanguage' => 'Donn di Shprooch ändere, di heh dat Projramm met Der kallt.',
 	'usage' => 'Projramme, di övver dem Tuulẞööver sing Süßteem „<i lang="en">Intuition</i>“
 övversaz woode sin',
 	'help-translate-tool' => 'Donn beim Övversäze för heh dat Projramm hellfe!',
@@ -503,14 +532,20 @@ $messages['lb'] = array(
 	'settings-legend' => 'Astellungen',
 	'choose-language' => 'Sicht eng Sprooch eraus',
 	'clear-cookies' => 'Cookie läschen',
+	'renew-cookies' => 'Cookieën erneieren',
+	'clearcookies-success' => "D'Cookie goufe geläscht.",
 	'tab-overview' => 'Iwwersiicht',
 	'tab-settings' => 'Astellungen',
 	'tab-about' => 'Iwwer',
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Meng Sproochastellungen',
 	'bl-mysettings-new' => 'Sprooch wiesselen!',
+	'bl-promo' => "D'Iwwersetzunge ginn duerch $1 an $2 erméiglecht.",
+	'bl-changelanguage' => "Klickt hei fir d'Sprooch vum Interface vun dësem Tool z'änneren.",
+	'usage' => "D'Toole goufe vum 'Toolserver Intuition' iwwersat.",
 	'help-translate-tool' => "Hëlleft dësen Tool z'iwwersetzen!",
 	'help-translate-all' => "Hëlleft den Toolserver z'iwwersetzen!",
+	'help-translate-tooltip' => "Hëlleft Aneren domat datt Dir d'Message vum Interface an Är Sprooch iwwersetzt.",
 );
 
 /** Macedonian (Македонски)
