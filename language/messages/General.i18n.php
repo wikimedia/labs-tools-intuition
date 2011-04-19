@@ -368,6 +368,25 @@ $messages['lb'] = array(
 	'view-source' => 'Quellcode weisen',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Matasg
+ */
+$messages['lt'] = array(
+	'hello' => 'Sveiki',
+	'welcome' => 'Sveiki atvykę',
+	'toolversionstamp' => 'Versija $1 ($2)',
+	'etc' => 'ir t. t.',
+	'namespace' => 'Vardų sritis',
+	'form-submit' => 'Eiti',
+	'form-reset' => 'Atstatyti',
+	'years' => 'metų',
+	'weeks' => 'savaičių',
+	'days' => 'dienų',
+	'hours' => 'valandų',
+	'last-modified-date' => 'Paskutinį kartą atnaujinta: $1',
+	'view-source' => 'Peržiūrėti šaltinį',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */

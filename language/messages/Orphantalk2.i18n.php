@@ -413,6 +413,31 @@ $messages['lb'] = array(
 	'resultslimited' => "D'Resultater goufen op $1 Säite limitéiert.",
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Matasg
+ */
+$messages['lt'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Nustatymai',
+	'select-wiki-first' => '(pirma pasirinkite wiki)',
+	'hideredirects' => 'Slėpti peradresavimus',
+	'hidesubpages' => 'Slėpti antrinius puslapius',
+	'limit' => 'Limitas',
+	'page' => 'Puslapis',
+	'redirect' => 'Nukreipiantysis?',
+	'output' => 'Išvestis',
+	'update' => 'Atnaujinti',
+	'tools-delete' => 'ištrinti',
+	'tools-links' => 'nuorodos',
+	'tools-subject' => 'tema',
+	'tools-hist' => 'ist',
+	'tools-curr' => 'esamas',
+	'tools-globalusage' => 'globalusage',
+	'deletesummary' => 'Valomi nereikalingi aptarimo puslapiai, naudojant $1',
+	'noresults' => 'Nerasta nenaudojamų aptarimų puslapių šioje wiki vardų srityje pagal jūsų nustatymus.',
+	'resultslimited' => 'Rezultatų limitas buvo $1 puslapių.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */

@@ -548,6 +548,34 @@ $messages['lb'] = array(
 	'help-translate-tooltip' => "Hëlleft Aneren domat datt Dir d'Message vum Interface an Är Sprooch iwwersetzt.",
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Matasg
+ */
+$messages['lt'] = array(
+	'fullname' => 'Toolserver vartotojo sąsajos internacionalizacija',
+	'current-settings' => 'Esami nustatymai',
+	'current-language' => 'Šiuo metu pasirinkta kalba',
+	'settings-legend' => 'Nustatymai',
+	'choose-language' => 'Pasirinkite kalbą',
+	'clear-cookies' => 'valyti slapukus',
+	'renew-cookies' => 'atnaujinti slapukus',
+	'cookie-expiration' => 'Slapukų galiojimas',
+	'clearcookies-success' => 'Slapukai sėkmingai išvalyti.',
+	'renewcookies-success' => 'Slapukai atnaujinti! Juos nustatėte šiam periodui: $1.',
+	'tab-overview' => 'Apžvalga',
+	'tab-settings' => 'Nustatymai',
+	'tab-about' => 'Apie',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Mano kalbos nustatymai',
+	'bl-mysettings-new' => 'Keisti kalbą!',
+	'bl-promo' => 'Vertimus teikia $1 bei $2.',
+	'bl-changelanguage' => 'Spauskite čia, norėdami pakeisti šios priemonės kalbą.',
+	'usage' => 'Įrankis išverstas Toolserver Intuition.',
+	'help-translate-tool' => 'Padėkite išversti šį įrankį!',
+	'help-translate-all' => 'Padėkite išversti Toolserver!',
+	'help-translate-tooltip' => 'Padėkite kitiems versti sąsajos pranešimus į jūsų kalbą.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */

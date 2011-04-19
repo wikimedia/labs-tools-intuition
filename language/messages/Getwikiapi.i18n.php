@@ -208,6 +208,18 @@ $messages['lb'] = array(
 	'settings-legend' => 'Astellungen',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Matasg
+ */
+$messages['lt'] = array(
+	'formats-heading' => 'Išvesties formatai',
+	'input' => 'Įvestis',
+	'label-wikiids' => 'Wiki identifikatorius',
+	'no-matches' => 'Niekas neatitiko "$1"',
+	'output' => 'Išvestis "$1"',
+	'settings-legend' => 'Nustatymai',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
