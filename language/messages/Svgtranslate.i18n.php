@@ -33,7 +33,7 @@ $messages['en'] = array(
 	'option-manual' => 'Manual upload',
 	'preview' => 'Preview',
 	'translate' => 'Translate',
-	'translate-instructions' => 'Inputs are accepted as either file names (eg. "$1") or full URL (eg. "$2"). If the first option is used, Wikimedia Commons will be assumed as source. To translate an SVG from another site or wiki, you must use the full-url format.',
+	'translate-instructions' => 'Inputs are accepted as either file names (e.g. "$1") or full URL (e.g. "$2"). If the first option is used, Wikimedia Commons will be assumed as source. To translate an SVG from another site or wiki, you must use the full-url format.',
 	'format-filename-example' => 'File:Planetary transit.svg', // Ignore
 	'format-fullurl-example' => 'http://upload.wikimedia.org/wikipedia/commons/8/8a/Planetary_transit.svg', // Ignore
 	'svginput-label' => 'SVG file',
@@ -46,10 +46,9 @@ $messages['en'] = array(
 	'preview-hide' => 'Hide preview',
 	'preview-refresh' => 'Refresh preview',
 	'error-must-accept' => 'To continue with a direct upload you must accept the terms of use provided.',
-    'error-tusc-failed' => 'TUSC validation failed: username or password incorrect.',
-    'description-license' => 'Select description and license',
-    'finalise' => 'Finalise details',
-
+	'error-tusc-failed' => 'TUSC validation failed: username or password incorrect.',
+	'description-license' => 'Select description and license',
+	'finalise' => 'Finalise details',
 );
 
 /** Message documentation (Message documentation)

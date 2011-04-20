@@ -36,9 +36,8 @@ $messages['qqq'] = array(
  *
  * @author Krinkle
  */
-$messages['en'] = array(
+$messages['nl'] = array(
 	'alws-selectwiki' => '(selecteer een wiki)',
-	'alws-group-mustused' => 'Meeste gebruikte wikis',
+	'alws-group-mustused' => 'Meeste gebruikte wiki\'s',
 	'alws-group-allaz' => 'Alle wikis op alfabetische volgorde',
 );
-

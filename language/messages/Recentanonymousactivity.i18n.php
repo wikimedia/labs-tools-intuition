@@ -15,7 +15,7 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' => 'Recent Anonymous Activity',
+	'title' => 'Recent anonymous activity',
 );
 
 /**
@@ -34,5 +34,5 @@ $messages['qqq'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'title' => 'Recente activiteiten van anonieme gebruikers',
+	'title' => 'Recente activiteit van anonieme gebruikers',
 );
