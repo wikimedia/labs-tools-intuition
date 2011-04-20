@@ -146,6 +146,18 @@ $messages['el'] = array(
 	'settings-legend' => 'Ρυθμίσεις',
 );
 
+/** Spanish (Español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'formats-heading' => 'Formatos de salida',
+	'input' => 'Entrada',
+	'label-wikiids' => 'Identificadores de wiki',
+	'no-matches' => 'No hay coincidencias para «$1»',
+	'output' => 'Salida para «$1»',
+	'settings-legend' => 'Configuración',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */

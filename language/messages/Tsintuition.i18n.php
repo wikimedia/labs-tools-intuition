@@ -359,6 +359,34 @@ $messages['el'] = array(
 	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!',
 );
 
+/** Spanish (Español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'fullname' => 'Internacionalización de la interfaz de usuario de Toolserver',
+	'current-settings' => 'Configuración actual',
+	'current-language' => 'Idioma actualmente seleccionado',
+	'settings-legend' => 'Configuración',
+	'choose-language' => 'Elige un idioma',
+	'clear-cookies' => 'eliminar cookies',
+	'renew-cookies' => 'renovar cookies',
+	'cookie-expiration' => 'Expiración de las cookies',
+	'clearcookies-success' => 'Cookies eliminadas con éxito.',
+	'renewcookies-success' => '¡Cookies renovadas! Ya está todo listo por los siguientes $1.',
+	'tab-overview' => 'Visión general',
+	'tab-settings' => 'Configuración',
+	'tab-about' => 'Acerca de',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Mi configuración de idioma',
+	'bl-mysettings-new' => '¡Cambiar idioma!',
+	'bl-promo' => 'Las traducciones son impulsadas por $1 y $2.',
+	'bl-changelanguage' => 'Haz clic aquí para cambiar el idioma de la interfaz de esta herramienta.',
+	'usage' => 'Herramientas traducidas por Toolserver Intuition.',
+	'help-translate-tool' => '¡Ayuda en la traducción de esta herramienta!',
+	'help-translate-all' => '¡Ayuda a traducir Toolserver!',
+	'help-translate-tooltip' => 'Ayuda a otros al traducir los mensajes de la interfaz en tu idioma.',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Wayiran

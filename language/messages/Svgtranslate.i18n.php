@@ -255,6 +255,10 @@ $messages['br'] = array(
 	'author-complete' => 'Klokaat an titouroù diwar-benn an aozer !',
 	'preview-hide' => 'Kuzhat ar rakweled',
 	'preview-refresh' => 'Freskaat ar rakweled',
+	'error-must-accept' => "Evit gallout kenderc'hel gant un enporzhiadenn war-eeun eo ret deoc'h bezañ asantet d'an termenoù implijout pourchaset.",
+	'error-tusc-failed' => "C'hwitet eo bet gwiriekadenn TUSC : direizh eo an anv implijer pe ar ger-tremen.",
+	'description-license' => 'Dibab an deskrivadur hag an aotre-implijout',
+	'finalise' => 'Peurlipat ar munudoù',
 );
 
 /** Bosnian (Bosanski)
@@ -308,6 +312,7 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Giftpflanze
  * @author Kghbln
  */
 $messages['de'] = array(
@@ -339,6 +344,10 @@ $messages['de'] = array(
 	'author-complete' => 'Bitte die Angaben zum Autor vervollständigen.',
 	'preview-hide' => 'Vorschau ausblenden',
 	'preview-refresh' => 'Vorschau aktualisieren',
+	'error-must-accept' => 'Um mit einem direkten Upload fortzufahren, musst du die angegebenen Nutzungsbedingungen annehmen.',
+	'error-tusc-failed' => 'TUSC-Prüfung fehlgeschlagen: Benutzername oder Passwort fehlerhaft',
+	'description-license' => 'Bitte Beschreibung und Lizenz auswählen',
+	'finalise' => 'Angaben vervollständigen',
 );
 
 /** Greek (Ελληνικά)
@@ -371,6 +380,38 @@ $messages['el'] = array(
 	'author-complete' => 'Παρακαλούμε συμπληρώστε τις πληροφορίες σχετικά με το συντάκτη!',
 	'preview-hide' => 'Απόκρυψη προεπισκόπησης',
 	'preview-refresh' => 'Ανανέωση προεπισκόπησης',
+);
+
+/** Spanish (Español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'title' => 'SVG Translate',
+	'error-tryagain' => '$1 Pulsa el botón Atrás de tu navegador para volver a intentarlo.',
+	'error-nothing' => 'No hay nada que traducir.',
+	'error-notsvg' => 'No es un archivo SVG.',
+	'error-unexpected' => 'Ocurrió un error inesperado.',
+	'error-notfound' => 'No se pudo recuperar el archivo SVG desde la dirección URL proporcionada.',
+	'error-upload' => 'Se ha producido un error de carga.',
+	'begin-translation' => 'Comenzar traducción',
+	'th-original' => 'Original',
+	'th-translation' => 'Traducción',
+	'th-language' => 'Idioma',
+	'th-username' => 'Nombre de usuario',
+	'th-password' => 'Contraseña',
+	'th-method' => 'Método',
+	'option-tusc' => 'TUSC (carga automática)',
+	'option-manual' => 'Carga manual',
+	'preview' => 'Previsualización',
+	'translate' => 'Traducir',
+	'svginput-label' => 'Archivo SVG',
+	'stats-footer' => 'Esta herramienta se ha utilizado para traducir aproximadamente $1 archivos desde $2 .',
+	'uploading' => 'Subiendo',
+	'upload-complete' => 'La carga ha finalizado correctamente. La imagen debe estar ahora en $1',
+	'editdescriptionpage' => 'Editar la nueva página de descripción',
+	'author-complete' => '¡Por favor, completa la información del autor!',
+	'preview-hide' => 'Ocultar previsualización',
+	'preview-refresh' => 'Actualizar previsualización',
 );
 
 /** Persian (فارسی)
@@ -410,6 +451,7 @@ $messages['fa'] = array(
 
 /** French (Français)
  * @author Crochet.david
+ * @author IAlex
  * @author Jean-Frédéric
  * @author Sherbrooke
  */
@@ -442,6 +484,10 @@ $messages['fr'] = array(
 	'author-complete' => "Remplissez les informations sur l'auteur !",
 	'preview-hide' => "Masquer l'aperçu",
 	'preview-refresh' => 'Actualiser la prévisualisation',
+	'error-must-accept' => "Pour continuer avec un télévsersement direct, vous devez accepter les conditions d'utilisation prévues.",
+	'error-tusc-failed' => "La validation TUSC a échoué : nom d'utilisateur ou mot de passe incorrect.",
+	'description-license' => 'Sélectionnez la description et la licence',
+	'finalise' => 'Finaliser les détails',
 );
 
 /** Hebrew (עברית)
@@ -697,6 +743,10 @@ $messages['nl'] = array(
 	'author-complete' => 'Voer de volledige auteursgegevens in!',
 	'preview-hide' => 'Voorvertoning verbergen',
 	'preview-refresh' => 'Voorvertoning verversen',
+	'error-must-accept' => 'Om door te gaan met een directe upload, moet u akkoord gaan met de voorwaarden voor gebruik.',
+	'error-tusc-failed' => 'De TUSC-validatie is mislukt. De gebruikersnaam of het wachtwoord is onjuist.',
+	'description-license' => 'Selecteer beschrijving en licentie',
+	'finalise' => 'Rond de details af',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)

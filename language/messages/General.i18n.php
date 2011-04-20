@@ -248,6 +248,25 @@ $messages['el'] = array(
 	'view-source' => 'Εμφάνιση κώδικα',
 );
 
+/** Spanish (Español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'hello' => 'Hola',
+	'welcome' => 'Bienvenido',
+	'toolversionstamp' => 'Versión $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => 'Espacio de nombres',
+	'form-submit' => 'Ir',
+	'form-reset' => 'Restablecer',
+	'years' => 'años',
+	'weeks' => 'semanas',
+	'days' => 'días',
+	'hours' => 'horas',
+	'last-modified-date' => 'Última modificación: $1',
+	'view-source' => 'Ver fuente',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */
@@ -689,3 +708,4 @@ $messages['zh-hans'] = array(
 	'last-modified-date' => '最近修改: $1',
 	'view-source' => '查看源代码',
 );
+

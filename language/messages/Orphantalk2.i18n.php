@@ -277,6 +277,31 @@ $messages['el'] = array(
 	'tools-curr' => 'τρέχουσα',
 );
 
+/** Spanish (Español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Configuración',
+	'select-wiki-first' => '(selecciona primero un wiki)',
+	'hideredirects' => 'Ocultar redirecciones',
+	'hidesubpages' => 'Ocultar subpáginas',
+	'limit' => 'Límite',
+	'page' => 'Página',
+	'redirect' => '¿Es redirección?',
+	'output' => 'Salida',
+	'update' => 'Actualizar',
+	'tools-delete' => 'eliminar',
+	'tools-links' => 'enlaces',
+	'tools-subject' => 'asunto',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'act',
+	'tools-globalusage' => 'uso global',
+	'deletesummary' => 'Limpieza de páginas de discusión huérfanas con $1',
+	'noresults' => 'Ninguna página de discusión huérfana en este wiki, en este espacio de nombres coinciden con tu configuración.',
+	'resultslimited' => 'Los resultados se limitan a $1 páginas.',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Wayiran
