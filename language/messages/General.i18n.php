@@ -44,9 +44,9 @@ $messages['qqq'] = array(
 {{Identical|Go}}',
 	'form-reset' => 'A general label for a form reset button. Not per se a search form!
 {{Identical|Reset}}',
-	'years' => 'Notation of time duration for multiple years (eg. "Duration: x years" ). No support for advenced plural yet.',
-	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ). No support for advenced plural yet.',
-	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ). No support for advenced plural yet.',
+	'years' => 'Notation of time duration for multiple years (eg. "Duration: x years" ). No support for advanced plural yet.',
+	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ). No support for advanced plural yet.',
+	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ). No support for advanced plural yet.',
 	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ). No support for advenced plural yet.',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
