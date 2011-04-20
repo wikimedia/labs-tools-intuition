@@ -16,9 +16,9 @@ $messages = array();
  */
 $messages['en'] = array(
 	'attention' => 'Attention',
-	'commonshelper2' => 'CommonsHelper 2',
+	'commonshelper2' => 'CommonsHelper 2', // Optional
 	'description' => 'A tool to transfer files from Wikimedia projects to Wikimedia Commons',
-	'change_meta' => 'Change the $1category and template settings$2 for $3', // $1 and $2 are for the link tag (<a href=...> and </a>), $3 for target wiki name
+	'change_meta' => 'Change the $1category and template settings$2 for $3',
 	'jira_link' => 'Report a bug or suggest a feature',
 	
 	// Main form
@@ -32,8 +32,8 @@ $messages['en'] = array(
 	'categories' => 'Categories',
 	'remove_cats' => 'Remove existing categories',
 	'checkusage' => 'CheckUsage',
-	'use_checkusage' => 'Use $1CommonSense$2 to suggest new categories', // $1 and $2 are for the link tag (<a href=...> and </a>)
-	'tusc' => 'TUSC',
+	'use_checkusage' => 'Use $1CommonSense$2 to suggest new categories',
+	'tusc' => 'TUSC', // Ignore
 	'use_tusc' => 'Use $1TUSC$2 to transfer the file directly', // $1 and $2 are for the link tag (<a href=...> and </a>)
 	'tusc_user' => 'TUSC user name',
 	'tusc_pass' => 'TUSC password',
@@ -59,8 +59,8 @@ $messages['en'] = array(
 	'target_wiki' => 'the target wiki',
 	
 	// Standard values in Latin chars (for Maindesk and Metadata-Links)
-	'standard_language' => 'en',
-	'standard_project' => 'wikipedia',
+	'standard_language' => 'en', // Ignore
+	'standard_project' => 'wikipedia', // Ignore
 	
 	//Upload
 	'error_bot_blocked' => 'Upload bot is blocked on Commons.',
@@ -71,6 +71,24 @@ $messages['en'] = array(
 	'error_commons_user' => 'To identify the transfer user, your Commons-Username have to be in the description!',
 	'error_upload_users' => 'The upload function is only to some users during the test time!',
 	'error_upload_file' => 'The orginal file cannot downloaded.'
+);
+
+/**
+ * Documentation (qqq)
+ *
+ * @author Krinkle
+ */
+$messages['en'] = array(
+	'commonshelper2' => '{{Optional}}',
+	'change_meta' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
+	
+$3 is target wiki name.',
+	'use_checkusage' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
+
+$3 is target wiki name.',
+	'tusc' => '{{Ignore}}',
+	'standard_language' => '{{Ignore}}',
+	'standard_project' => '{{Ignore}}',
 );
 
 /** German (Deutsch)
