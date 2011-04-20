@@ -26,6 +26,10 @@ $messages['en'] = array(
 	'hours' => 'hours',
 	'last-modified-date' => 'Last modified: $1',
 	'view-source' => 'View source',
+	'options' => 'Options',
+    'error' => 'Error',
+    'warning' => 'Warning',
+
 );
 
 /** Message documentation (Message documentation)

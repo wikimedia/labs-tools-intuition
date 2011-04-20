@@ -17,6 +17,10 @@ $messages = array();
 $messages['en'] = array(
 	'title' => 'Jarry1250\'s Toolserver Tools', // Ignore, do not translate
 	'moretools' => 'more tools from the same author',
+	'bugs' => 'bug reports and feature requests',
+    'comments' => 'comments and queries',
+    'error-form-empty' => 'One or more required fields have been left blank. You should complete them before continuing.',
+
 );
 
 /**
