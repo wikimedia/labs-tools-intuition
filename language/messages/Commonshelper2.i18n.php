@@ -34,7 +34,7 @@ $messages['en'] = array(
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => 'Use $1CommonSense$2 to suggest new categories',
 	'tusc' => 'TUSC', // Ignore
-	'use_tusc' => 'Use $1TUSC$2 to transfer the file directly', // $1 and $2 are for the link tag (<a href=...> and </a>)
+	'use_tusc' => 'Use $1TUSC$2 to transfer the file directly',
 	'tusc_user' => 'TUSC username',
 	'tusc_pass' => 'TUSC password',
 	'do_it' => 'Do it',
@@ -42,25 +42,25 @@ $messages['en'] = array(
 	// Error
 	'error_transfer_usr' => 'You have not set a Wikimedia Commons username',
 	'error_not_exists' => 'Source file does not exist!',
-	'error_file_exists' => 'File already exists on $3 as "$1$4$2"!', // $1 and $2 are for the link tag (<a href=...> and </a>), $3 'Commons' or message 'target_wiki', $4 is the name of the file
+	'error_file_exists' => 'File already exists on $3 as "$1$4$2"!',
 	'error_diff_exists' => 'Different target file exists on the target wiki under the same name!',
-	'error_no_meta' => 'No metadata found for the source wiki! $1Link$2',	// $1 and $2 are for the link tag (<a href=...> and </a>)
-	'error_meta_no_good' => 'Metadata: No good templates found! $1Link$2',	// $1 and $2 are for the link tag (<a href=...> and </a>)
-	'error_meta_bad' => 'Metadata: Bad template found! $1Link$2',	// $1 and $2 are for the link tag (<a href=...> and </a>)
+	'error_no_meta' => 'No metadata found for the source wiki! $1Link$2',	
+	'error_meta_no_good' => 'Metadata: No good templates found! $1Link$2',	
+	'error_meta_bad' => 'Metadata: Bad template found! $1Link$2',	
 
 	// Output
 	'original_wikitext' => 'Original wiki text',
 	'new_wikitext' => 'New wiki text',
 	'new_filename' => 'New filename:',
-	'output_information' => 'For manual upload, edit the above text (if necessary), save $1the file$2 on your computer, then', // $1 and $2 are for the link tag (<a href=...> and </a>)
+	'output_information' => 'For manual upload, edit the above text (if necessary), save $1the file$2 on your computer, then', 
 	'upload_it' => 'upload it',
 
 	// Misc
 	'target_wiki' => 'the target wiki',
 
 	// Standard values in Latin chars (for Maindesk and Metadata-Links)
-	'standard_language' => 'en', // Ignore
-	'standard_project' => 'wikipedia', // Ignore
+	'standard_language' => 'en', 
+	'standard_project' => 'wikipedia', // Optional
 
 	//Upload
 	'error_bot_blocked' => 'Upload bot is blocked on Wikimedia Commons.',
@@ -77,18 +77,27 @@ $messages['en'] = array(
  * Documentation (qqq)
  *
  * @author Krinkle
+ * @author Jan Luca
  */
 $messages['qqq'] = array(
 	'commonshelper2' => '{{Optional}}',
 	'change_meta' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
 
 $3 is target wiki name.',
-	'use_checkusage' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
-
-$3 is target wiki name.',
+	'use_checkusage' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
 	'tusc' => '{{Ignore}}',
-	'standard_language' => '{{Ignore}}',
-	'standard_project' => '{{Ignore}}',
+	'use_tusc' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'error_file_exists' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
+
+$3 is target wiki name.
+
+$4 is the name of the file',
+	'error_no_meta' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'error_meta_no_good' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'error_meta_bad' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'output_information' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'standard_language' => 'The language code (e.g. "en") of the language. Used for standard values in maindesk and metadata-links.',
+	'standard_project' => '{{Optional}} The biggest project (e.g. "wikipedia") in this language. Used for standard values in maindesk and metadata-links.',
 );
 
 /** German (Deutsch)
@@ -106,7 +115,6 @@ $messages['de'] = array(
 $messages['he'] = array(
 	// Title
 	'attention' => 'לתשומת לבך',
-	'commonshelper2' => 'CommonsHelper 2',
 	'description' => 'כלי להעברת קבצים ממיזמים של קרן ויקימדיה לוויקישיתוף',
 	'change_meta' => 'לשנות את $1הגדרות הקטגוריות והתבניות$2 עבור $3', // $1 and $2 are for the link tag (<a href=...> and </a>), $3 for target wiki name
 	'jira_link' => 'דיווח באג או הצעת שיפור',
@@ -123,7 +131,6 @@ $messages['he'] = array(
 	'remove_cats' => 'מחיקת קטגוריות קיימות',
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => 'להשתמש ב־$1CheckUsage$2 כדי לאתר קטגוריות', // $1 and $2 are for the link tag (<a href=...> and </a>)
-	'tusc' => 'TUSC',
 	'use_tusc' => 'להשתמש ב־$1TUSC$2 כדי להעביר את הקובץ ישירות', // $1 and $2 are for the link tag (<a href=...> and </a>)
 	'tusc_user' => 'שם משתמש ב־TUSC',
 	'tusc_pass' => 'סיסמה ב־TUSC',
