@@ -419,6 +419,7 @@ $messages['fa'] = array(
 /** French (Français)
  * @author Crochet.david
  * @author Jean-Frédéric
+ * @author Od1n
  */
 $messages['fr'] = array(
 	'fullname' => 'Internationalisation de l’interface utilisateur du Toolserver',
@@ -430,7 +431,7 @@ $messages['fr'] = array(
 	'renew-cookies' => 'renouveler les cookies',
 	'cookie-expiration' => 'Expiration du cookie',
 	'clearcookies-success' => 'Les cookies ont bien été effacés',
-	'renewcookies-success' => 'Cookies renouvelée! Vous êtes prêts pour une durée de $1 .',
+	'renewcookies-success' => 'Cookies renouvelés ! Vous êtes prêt pour une durée de $1.',
 	'tab-overview' => 'Vue d’ensemble',
 	'tab-settings' => 'Paramètres',
 	'tab-about' => 'À propos',
@@ -442,7 +443,7 @@ $messages['fr'] = array(
 	'usage' => 'Outils traduits par Toolserver Intuition.',
 	'help-translate-tool' => 'Aidez à traduire cet outil !',
 	'help-translate-all' => 'Aidez à traduire le Toolserver !',
-	'help-translate-tooltip' => 'Aidez les autres en traduisant dans votre langue les messages de l’interface .',
+	'help-translate-tooltip' => 'Aidez les autres en traduisant dans votre langue les messages de l’interface.',
 );
 
 /** Hebrew (עברית)
@@ -826,7 +827,7 @@ $messages['ro'] = array(
 	'choose-language' => 'Alegeți o limbă',
 	'clear-cookies' => 'șterge modulele cookie',
 	'renew-cookies' => 'reînnoiește modulele cookie',
-	'cookie-expiration' => 'Modulele cookie vor expira după:',
+	'cookie-expiration' => 'Modulele cookie vor expira după',
 	'clearcookies-success' => 'Modulele cookie au fost șterse cu succes.',
 	'renewcookies-success' => 'Modulele cookie au fost reînnoite! Timp de $1 acestea vor fi active.',
 	'tab-overview' => 'Informații generale',
@@ -836,7 +837,7 @@ $messages['ro'] = array(
 	'bl-mysettings' => 'Setările mele de limbă',
 	'bl-mysettings-new' => 'Schimbă limba!',
 	'bl-promo' => 'Traducerile sunt susținute și efectuate de $1 și $2.',
-	'bl-changelanguage' => 'Apăsați aici pentru schimbarea limbii interfeței acestei unelte.',
+	'bl-changelanguage' => 'Apăsați aici pentru a schimba limba interfeței acestei unelte.',
 	'usage' => 'Unelte traduse de Toolserver Intuition.',
 	'help-translate-tool' => 'Ajutați-ne să traducem această unealtă!',
 	'help-translate-all' => 'Ajutați-ne să traducem Toolserver!',

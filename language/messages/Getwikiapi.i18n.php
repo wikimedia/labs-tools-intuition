@@ -307,7 +307,7 @@ $messages['pt'] = array(
  */
 $messages['ro'] = array(
 	'formats-heading' => 'Formate de ieșire',
-	'input' => 'Date de intare',
+	'input' => 'Date de intrare',
 	'label-wikiids' => 'Identificatori de wikiuri',
 	'no-matches' => 'Nimic nu se potrivește cu „$1”',
 	'output' => 'Datele de ieșire pentru „$1”',

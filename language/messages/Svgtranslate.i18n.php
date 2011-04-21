@@ -140,6 +140,10 @@ $messages['ast'] = array(
 	'author-complete' => '¡Por favor, completa la información del autor!',
 	'preview-hide' => 'Anubrir entever',
 	'preview-refresh' => 'Refrescar entever',
+	'error-must-accept' => "Pa siguir cola xubía direuta tienes d'aceutar los términos d'usu que s'ufren.",
+	'error-tusc-failed' => 'Fallu na validación TUSC: usuariu o contraseña incorreutos.',
+	'description-license' => 'Escoyer descripción y llicencia',
+	'finalise' => 'Finar detalles',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -411,6 +415,9 @@ $messages['es'] = array(
 	'author-complete' => '¡Por favor, completa la información del autor!',
 	'preview-hide' => 'Ocultar previsualización',
 	'preview-refresh' => 'Actualizar previsualización',
+	'error-must-accept' => 'Para continuar con una carga directa debes aceptar los términos de uso provistos.',
+	'description-license' => 'Selecciona la descripción y licencia',
+	'finalise' => 'Finalizar detalles',
 );
 
 /** Persian (فارسی)
@@ -585,6 +592,10 @@ $messages['ksh'] = array(
 	'author-complete' => 'Bes esu joot, un donn de Aanjabe övver der Maacher vum Beld kumplätt maaache!',
 	'preview-hide' => 'Vör-Aansesch verschteische',
 	'preview-refresh' => 'Donn de Vör-Aansesch op der neue Shtand bränge!',
+	'error-must-accept' => 'Öm med em tiräk Huhlaade wiggger ze maache. moß De dä Bedengonge för der Jebruch zohshtemme.',
+	'error-tusc-failed' => 'Dem <i lang="en">TUSC</i> sing Övverprööfung es donävve jejange: Dä Name als Metmaacher udder et Paßwoot hät nit jeshtemmp.',
+	'description-license' => 'Donn  en Lizänz ußwähle',
+	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -678,6 +689,10 @@ $messages['mk'] = array(
 	'author-complete' => 'Пополнете го податокот за авторот!',
 	'preview-hide' => 'Скриј преглед',
 	'preview-refresh' => 'Превчитај приказ',
+	'error-must-accept' => 'За да продолжите со непосредното подигање, ќе мора најпрвин да ги прифатите наведените услови на користење.',
+	'error-tusc-failed' => 'Заверката на TUSC не успеа: погрешно корисничко име или лозинка.',
+	'description-license' => 'Изберете опис и лиценца',
+	'finalise' => 'Довршете ги податоците',
 );
 
 /** Maltese (Malti)
@@ -847,6 +862,10 @@ $messages['ro'] = array(
 	'author-complete' => 'Vă rugăm să completați informațiile despre autor!',
 	'preview-hide' => 'Ascunde previzualizarea',
 	'preview-refresh' => 'Reîncarcă previzualizarea',
+	'error-must-accept' => 'Pentru a continua cu încărcarea directă, trebuie să fiți de acord cu termenii de utilizare furnizați.',
+	'error-tusc-failed' => 'Validarea TUSC a eșuat: nume de utilizator sau parolă incorecte.',
+	'description-license' => 'Selectați descrierea și licența',
+	'finalise' => 'Finalizează detaliile',
 );
 
 /** Slovenian (Slovenščina)
@@ -881,6 +900,10 @@ $messages['sl'] = array(
 	'author-complete' => 'Prosimo, dopolnite informacije o avtorju!',
 	'preview-hide' => 'Skrij predogled',
 	'preview-refresh' => 'Osveži predogled',
+	'error-must-accept' => 'Če želite nadaljevati z neposrednim nalaganjem, morate sprejeti navedene pogoje uporabe.',
+	'error-tusc-failed' => 'Preverjanje TUSC ni uspelo: uporabniško ime ali geslo je napačno.',
+	'description-license' => 'Izberite opis in dovoljenje',
+	'finalise' => 'Dokončajte podrobnosti',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
@@ -1006,6 +1029,10 @@ $messages['tl'] = array(
 	'author-complete' => 'Mangyaring buuin ang kabatiran sa may-akda!',
 	'preview-hide' => 'Itago ang paunang tanaw',
 	'preview-refresh' => 'Sariwain ang paunang tanaw',
+	'error-must-accept' => 'Upang magpatuloy sa isang tuwirang pagkakargang papaitaas dapat mong tanggapin ang ibinigay na mga tuntunin sa paggamit.',
+	'error-tusc-failed' => 'Nabigo ang pagpapatunay ng TUSC: hindi tama ang pangalan ng tagagamit o hudyat.',
+	'description-license' => 'Piliin ang paglalarawan at lisensiya',
+	'finalise' => 'Buuin na ang mga detalye',
 );
 
 /** Turkish (Türkçe)
