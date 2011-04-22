@@ -38,6 +38,15 @@ $messages['ast'] = array(
 	'alws-group-allaz' => 'Toles wikis alfabéticamente',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'alws-selectwiki' => '(выбраць вікі)',
+	'alws-group-mustused' => 'Найбольш часта выкарыстоўваюцца',
+	'alws-group-allaz' => 'Усе вікі па алфавіце',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -65,6 +74,24 @@ $messages['fr'] = array(
 	'alws-group-allaz' => 'Tous les wikis par ordre alphabétique',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'alws-selectwiki' => '(selige un wiki)',
+	'alws-group-mustused' => 'Wikis le plus usate',
+	'alws-group-allaz' => 'Tote le wikis in ordine alphabetic',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'alws-selectwiki' => '(e Wiki ußwähle)',
+	'alws-group-mustused' => 'De miehts jebruchte Wikis',
+	'alws-group-allaz' => 'All de Wikis noh_m Alfabeet',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -72,6 +99,15 @@ $messages['mk'] = array(
 	'alws-selectwiki' => '(одберете вики)',
 	'alws-group-mustused' => 'Најкористени викија',
 	'alws-group-allaz' => 'Сите викија по азбучен ред',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'alws-selectwiki' => '(pilih wiki)',
+	'alws-group-mustused' => 'Wiki yang paling kerap digunakan',
+	'alws-group-allaz' => 'Semua wiki mengikut turutan abjad',
 );
 
 /** Dutch (Nederlands)
@@ -99,5 +135,14 @@ $messages['tl'] = array(
 	'alws-selectwiki' => '(piliin ang wiki)',
 	'alws-group-mustused' => 'Pinaka ginagamit na mga wiki',
 	'alws-group-allaz' => 'Lahat ng mga wiki ayon sa abakada',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'alws-selectwiki' => '（选择维基）',
+	'alws-group-mustused' => '使用最多的维基',
+	'alws-group-allaz' => '所有的维基按字母顺序',
 );
 

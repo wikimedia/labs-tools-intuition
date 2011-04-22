@@ -50,6 +50,18 @@ $messages['ast'] = array(
 	'settings-legend' => 'Configuración',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'formats-heading' => 'Выхадныя фарматы',
+	'input' => 'Увод',
+	'label-wikiids' => 'Вікі-ідэнтыфікатары',
+	'no-matches' => 'Нічога не адпавядае "$1"',
+	'output' => 'Вывад для "$1"',
+	'settings-legend' => 'Наладкі',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
@@ -198,6 +210,7 @@ $messages['ia'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'formats-heading' => 'Formati di output',
 	'settings-legend' => 'Impostazioni',
 );
 
@@ -242,6 +255,18 @@ $messages['mk'] = array(
 	'no-matches' => 'Ништо не одговара на „$1“',
 	'output' => 'Извод за „$1“',
 	'settings-legend' => 'Поставки',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'formats-heading' => 'Format output',
+	'input' => 'Input',
+	'label-wikiids' => 'Pengenal wiki',
+	'no-matches' => 'Tiada yang sepadan dengan "$1"',
+	'output' => 'Output untuk "$1"',
+	'settings-legend' => 'Tetapan',
 );
 
 /** Dutch (Nederlands)

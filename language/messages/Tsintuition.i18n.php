@@ -102,6 +102,34 @@ $messages['ast'] = array(
 	'help-translate-tooltip' => 'Ayuda a otres persones traduciendo los mensaxes de la interfaz a la to llingua.',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'fullname' => 'Інтэрналіцыяналізацыя інтэрфейсу карыстальніка Toolserver',
+	'current-settings' => 'Цяперашнія наладкі',
+	'current-language' => 'Цяперашняя выбраная мова',
+	'settings-legend' => 'Наладкі',
+	'choose-language' => 'Абярыце мову',
+	'clear-cookies' => 'Ачысціць квіткі (кукі)',
+	'renew-cookies' => 'абнавіць квіткі (кукі)',
+	'cookie-expiration' => 'Квіткі (кукі) пратэрмінаваныя',
+	'clearcookies-success' => 'Квіткі (кукі) паспяхова выдаленыя.',
+	'renewcookies-success' => 'Квіткі (кукі) абноўленыя. Усё гатова на тэрмін у $1',
+	'tab-overview' => 'Агляд',
+	'tab-settings' => 'Наладкі',
+	'tab-about' => 'Што гэта?',
+	'tab-demo' => 'Дэманстрацыя',
+	'bl-mysettings' => 'Мае моўныя наладкі',
+	'bl-mysettings-new' => 'Змяніце мову!',
+	'bl-promo' => 'Пераклады зробленыя на сайтах $1 і $2',
+	'bl-changelanguage' => 'Націсніце тут для змены мовы для гэтай прылады',
+	'usage' => 'Прылады перакладзеныя на Toolserver Intuition.',
+	'help-translate-tool' => 'Дапамажыце з перакладамі для гэтай прылады',
+	'help-translate-all' => 'Дапамажыце перакласці Toolserver!',
+	'help-translate-tooltip' => 'Дапамажыце карыстальнікам - перакладайце паведамленні інтэрфейсу на вашую мову.',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -500,7 +528,9 @@ $messages['it'] = array(
 	'current-language' => 'Lingua attualmente selezionata',
 	'settings-legend' => 'Impostazioni',
 	'choose-language' => 'Scegli la lingua',
+	'tab-overview' => "Vista d'insieme",
 	'tab-settings' => 'Impostazioni',
+	'tab-about' => 'Informazioni',
 	'bl-mysettings' => 'Le mie impostazioni per la lingua',
 	'bl-mysettings-new' => 'Cambia lingua!',
 );
@@ -631,6 +661,34 @@ $messages['mk'] = array(
 	'help-translate-tool' => 'Помогнете ни со преводот на алаткава!',
 	'help-translate-all' => 'Помогнете ни со преводот на Toolserver!',
 	'help-translate-tooltip' => 'Помогнете им на другите со преведување на посреднички пораки на вашиот јазик.',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'fullname' => 'Pengantarabangsaan untuk Antara Muka Pengguna Toolserver (Intuition)',
+	'current-settings' => 'Tetapan semasa',
+	'current-language' => 'Bahasa yang dipilih sekarang',
+	'settings-legend' => 'Tetapan',
+	'choose-language' => 'Pilih bahasa',
+	'clear-cookies' => 'padamkan cecikut (cookies)',
+	'renew-cookies' => 'pulihkan cecikut (cookies)',
+	'cookie-expiration' => 'Masa luput cecikut (cookies)',
+	'clearcookies-success' => 'Cecikut berjaya dipadamkan.',
+	'renewcookies-success' => 'Cecikut dipulihkan! Anda bersedia untuk $1 akan datang.',
+	'tab-overview' => 'Gambaran keseluruhan',
+	'tab-settings' => 'Tetapan',
+	'tab-about' => 'Perihal',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Tetapan bahasa saya',
+	'bl-mysettings-new' => 'Tukar bahasa!',
+	'bl-promo' => 'Penterjemahahn dijana oleh $1 dan $2.',
+	'bl-changelanguage' => 'Klik di sini untuk menukar bahasa antara muka alat ini.',
+	'usage' => 'Alat-alat yang diterjemah oleh Toolserver Intuition.',
+	'help-translate-tool' => 'Bantu kami menterjemah alat ini!',
+	'help-translate-all' => 'Bantu kami menterjemahkan Toolserver!',
+	'help-translate-tooltip' => 'Bantu orang lain dengan menterjemah mesej-mesej antara muka kepada bahasa anda.',
 );
 
 /** Maltese (Malti)

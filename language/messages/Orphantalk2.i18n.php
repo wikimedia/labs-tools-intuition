@@ -95,6 +95,31 @@ $messages['ast'] = array(
 	'resultslimited' => 'Los resultaos tan llendaos a $1 páxines.',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Наладкі',
+	'select-wiki-first' => '(спачатку выберыце вікі)',
+	'hideredirects' => 'Схаваць перанакіраванні',
+	'hidesubpages' => 'Схаваць падстаронкі',
+	'limit' => 'Ліміт',
+	'page' => 'Старонка',
+	'redirect' => 'Гэта перанакіраванне?',
+	'output' => 'Вывад',
+	'update' => 'Абнавіць',
+	'tools-delete' => 'выдаліць',
+	'tools-links' => 'спасылкі',
+	'tools-subject' => 'тэма',
+	'tools-hist' => 'гіст.',
+	'tools-curr' => 'з актуальн',
+	'tools-globalusage' => 'глабальн.',
+	'deletesummary' => 'Выдаленне абмеркаванняў-сірот праз $1',
+	'noresults' => 'У гэтай вікі і ў гэтай прасторы назваў абмеркаванняў-сірот няма.',
+	'resultslimited' => 'Вынік абмежаваны да $1 старонак.',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -493,6 +518,15 @@ $messages['mk'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Tetapan',
+	'select-wiki-first' => '(pilih wiki dahulu)',
+	'hideredirects' => 'Sorokkan lencongan',
+	'hidesubpages' => 'Sorokkan sublaman',
+	'limit' => 'Had',
+	'page' => 'Halaman',
+	'redirect' => 'Lencongan?',
+	'output' => 'Output',
 	'tools-delete' => 'hapuskan',
 );
 

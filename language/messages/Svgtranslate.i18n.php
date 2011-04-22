@@ -146,6 +146,44 @@ $messages['ast'] = array(
 	'finalise' => 'Finar detalles',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'title' => 'Перакласці SVG',
+	'error-tryagain' => '$1 Націсніце «Вярнуцца» ў браўзеры і паспрабуйце зноў.',
+	'error-nothing' => 'Няма чаго перакладаць.',
+	'error-notsvg' => 'Не SVG-файл',
+	'error-unexpected' => 'Адбылася нечаканая памылка.',
+	'error-notfound' => 'Немагчыма атрымаць SVG-файл з пададзенага URL-адрасу.',
+	'error-upload' => 'Немагчыма загрузіць.',
+	'begin-translation' => 'Распачаць пераклад',
+	'th-original' => 'Арыгінал',
+	'th-translation' => 'Пераклад',
+	'th-language' => 'Мова',
+	'th-username' => 'Імя ўдзельніка',
+	'th-password' => 'Пароль',
+	'th-method' => 'Метад',
+	'option-tusc' => 'TUSC (аўтаматычная загрузка)',
+	'option-manual' => 'Загрузка ўручную',
+	'preview' => 'Папярэдні прагляд',
+	'translate' => 'Перакласці',
+	'translate-instructions' => 'Уведзеныя звесткі трактуюцца як назва файла (напрыклад, «$1»), ці як поўны URL-адрас (напрыклад, «$2»). Калі гэта файл, пад крыніцай файлу будзе меркавацца Wikimedia Commons. Для перакладу SVG-файла з іншага сайта ці вікі трэба ўвесці поўны URL-адрас.',
+	'svginput-label' => 'SVG-файл',
+	'stats-footer' => 'З $2 перакладзена каля $1 файлаў з дапамогай гэтай прылады.',
+	'uploading' => 'Загрузка...',
+	'upload-complete' => 'Загрузка завершаная паспяхова. Выява мусіць быць даступная па адрасе $1',
+	'editdescriptionpage' => 'Змяніць новую старонку апісання',
+	'disclaimer' => 'Некаторыя ананімныя звесткі будуць збірацца для статыстычных мэтаў. Калі будуць пададзеныя, імёны ўдзельнікаў TUSC будуць таксама запісаныя ў мэтах абароны ад вандалізму. Паролі ніколі не будуць запісвацца.',
+	'author-complete' => 'Калі ласка, запоўніце інфармацыю пра аўтара!',
+	'preview-hide' => 'Схаваць папярэдні прагляд',
+	'preview-refresh' => 'Абнавіць папярэдні прагляд',
+	'error-must-accept' => 'Каб працягнуць непасрэдную загрузку, Вы мусіце пагадзіцца з умовамі карыстання',
+	'error-tusc-failed' => 'Праверка TUSC не атрымалася: няслушны пароль або імя ўдзельніка.',
+	'description-license' => 'Абярыце апісанне і ліцэнзію',
+	'finalise' => 'Завяршыце апісанне падрабязнасцяў',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -549,6 +587,10 @@ $messages['ia'] = array(
 	'author-complete' => 'Per favor completa le informationes del autor.',
 	'preview-hide' => 'Celar previsualisation',
 	'preview-refresh' => 'Refrescar previsualisation',
+	'error-must-accept' => 'Pro continuar con un incargamento directe, es necessari acceptar le conditiones de uso pertinente.',
+	'error-tusc-failed' => 'Validation TUSC fallite: nomine de usator o contrasigno incorrecte.',
+	'description-license' => 'Selige description e licentia',
+	'finalise' => 'Finalisar detalios',
 );
 
 /** Italian (Italiano)
@@ -557,6 +599,8 @@ $messages['ia'] = array(
 $messages['it'] = array(
 	'th-original' => 'Originale',
 	'th-language' => 'Lingua',
+	'th-username' => 'Nome utente',
+	'th-password' => 'Password',
 	'preview' => 'Anteprima',
 );
 
@@ -693,6 +737,21 @@ $messages['mk'] = array(
 	'error-tusc-failed' => 'Заверката на TUSC не успеа: погрешно корисничко име или лозинка.',
 	'description-license' => 'Изберете опис и лиценца',
 	'finalise' => 'Довршете ги податоците',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'th-original' => 'Asal',
+	'th-translation' => 'Terjemahan',
+	'th-language' => 'Bahasa',
+	'preview' => 'Pralihat',
+	'svginput-label' => 'Fail SVG',
+	'editdescriptionpage' => 'Sunting laman penerangan baru',
+	'author-complete' => 'Tolong lengkapkan maklumat pengarang!',
+	'preview-hide' => 'Sorokkan pralihat',
+	'preview-refresh' => 'Muat semula pralihat',
 );
 
 /** Maltese (Malti)
@@ -1124,5 +1183,8 @@ $messages['zh-hans'] = array(
 	'author-complete' => '请填写作者信息！',
 	'preview-hide' => '隐藏预览',
 	'preview-refresh' => '刷新预览',
+	'error-must-accept' => '若要继续直接上载，您必须接受提供的使用条款。',
+	'description-license' => '选择描述和许可证',
+	'finalise' => '敲定细节',
 );
 

@@ -42,6 +42,17 @@ $messages['ast'] = array(
 	'error-form-empty' => 'Un campu necesariu o más quedaron baleros. Tienes de completalos enantes de siguir.',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'title' => 'Прылады Jarry1250 для Toolserver',
+	'moretools' => 'іншыя прылады ад гэтага аўтара',
+	'bugs' => 'паведамленні пра памылкі і пажаданні',
+	'comments' => 'каментары і запыты',
+	'error-form-empty' => 'Адно або некалькі абавязковых палёў пакінутыя пустымі. Вы мусіце запоўніць іх, перш чым працягваць',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -75,6 +86,29 @@ $messages['fr'] = array(
 	'error-form-empty' => 'Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer.',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'title' => "Jarry1250's Toolserver Tools",
+	'moretools' => 'plus instrumentos del mesme autor',
+	'bugs' => 'reportos de defectos e requestas de functionalitate',
+	'comments' => 'commentos e questiones',
+	'error-form-empty' => 'Un o plus campos obligatori ha essite lassate vacue. Es necessari completar los ante de continuar.',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'title' => 'Em Jarry1250 sing Projramme om Tuulẞööver',
+	'moretools' => 'ander Projramme vum sellve Schriever',
+	'bugs' => 'Fählermäldonge un Wönsche för Verbäßeronge',
+	'comments' => 'Aanmerkunge un Froore',
+	'error-form-empty' => 'Vun dä nüüdeje Enjaabe sin nit alle jemaat.
+Donn se enfölle, ih dat de wigger määß.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -84,6 +118,17 @@ $messages['mk'] = array(
 	'bugs' => 'пријавување грешки и барања за функции',
 	'comments' => 'коментари и прашања',
 	'error-form-empty' => 'Испуштивте едно или повеќе задолжителни полиња. Ќе мора да ги пополните пред да продолжите.',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'title' => "Jarry1250's Toolserver Tools",
+	'moretools' => 'banyak lagi alatan daripada pengarang ini',
+	'bugs' => 'laporan pepijat dan permohonan ciri-ciri',
+	'comments' => 'komen dan pertanyaan',
+	'error-form-empty' => 'Ada ruangan wajib yang dibiarkan kosong. Anda mesti mengisinya sebelum bersambung.',
 );
 
 /** Dutch (Nederlands)
@@ -117,5 +162,13 @@ $messages['tl'] = array(
 	'bugs' => 'mga ulat ng sira at mga paghiling ng tampok',
 	'comments' => 'mga puna at mga pagtatanong',
 	'error-form-empty' => 'Isa o mahigit pang kinakailangang mga kahanayan ang naiwanang walang laman. Dapat mong punuin ang mga ito bago magpatuloy.',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'moretools' => '从同一作者更多工具',
+	'comments' => '意见及查询',
 );
 

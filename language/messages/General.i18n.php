@@ -71,6 +71,25 @@ $messages['ast'] = array(
 	'view-source' => 'Ver códigu fonte',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'hello' => 'Прывітанне',
+	'welcome' => 'Сардэчна запрашаем',
+	'toolversionstamp' => 'Версія $1 ( $2 )',
+	'etc' => 'і г.д.',
+	'namespace' => 'Прастора назваў',
+	'form-submit' => 'Перайсці',
+	'form-reset' => 'Скінуць',
+	'years' => 'гадоў',
+	'weeks' => 'тыдняў',
+	'days' => 'дзён',
+	'hours' => 'гадзін',
+	'last-modified-date' => 'Апошнія змены: $1',
+	'view-source' => 'Паказаць крынічны тэкст',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Jim-by
  * @author Wizardist
@@ -343,7 +362,11 @@ $messages['ia'] = array(
  */
 $messages['it'] = array(
 	'hello' => 'Ciao',
+	'welcome' => 'Benvenuto(a)',
 	'toolversionstamp' => 'Versione $1 ($2)',
+	'namespace' => 'Namespace',
+	'form-submit' => 'Vai',
+	'form-reset' => 'Reimposta',
 	'years' => 'anni',
 	'weeks' => 'settimane',
 	'days' => 'giorni',
@@ -428,6 +451,25 @@ $messages['mk'] = array(
 	'hours' => 'часа',
 	'last-modified-date' => 'Последена измена: $1',
 	'view-source' => 'Извор',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'hello' => 'Apa khabar',
+	'welcome' => 'Selamat datang',
+	'toolversionstamp' => 'Versi $1 ($2)',
+	'etc' => 'dsb.',
+	'namespace' => 'Ruang nama',
+	'form-submit' => 'Pergi',
+	'form-reset' => 'Set semula',
+	'years' => 'tahun',
+	'weeks' => 'minggu',
+	'days' => 'hari',
+	'hours' => 'jam',
+	'last-modified-date' => 'Kali terakhir diubah: $1',
+	'view-source' => 'Lihat sumber',
 );
 
 /** Dutch (Nederlands)

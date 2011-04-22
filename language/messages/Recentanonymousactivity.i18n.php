@@ -32,6 +32,20 @@ $messages['ast'] = array(
 	'title' => 'Actividá anónima reciente',
 );
 
+/** Belarusian (Беларуская)
+ * @author LexArt
+ */
+$messages['be'] = array(
+	'title' => 'Бягучая ананімная актыўнасць',
+);
+
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'title' => 'Obererezh dianv er mareoù-mañ',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -51,6 +65,20 @@ $messages['es'] = array(
  */
 $messages['fr'] = array(
 	'title' => 'Activité anonyme récente',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'title' => 'Activitate anonyme recente',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'title' => 'Neue Änderonge vun namelose Metmaacher',
 );
 
 /** Macedonian (Македонски)
@@ -80,5 +108,12 @@ $messages['ro'] = array(
  */
 $messages['tl'] = array(
 	'title' => 'Kamakailang gawain ng hindi nagpapakilala',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'title' => '最近的匿名活动',
 );
 
