@@ -96,6 +96,8 @@ $4 is the name of the file',
 	'error_meta_no_good' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
 	'error_meta_bad' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
 	'output_information' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'standard_language' => 'The language code (e.g. "en") of the language. Used for standard values in maindesk and metadata-links.',
+	'standard_project' => '{{Optional}} The biggest project (e.g. "wikipedia") in this language. Used for standard values in maindesk and metadata-links.',
 );
 
 /** Asturian (Asturianu)
