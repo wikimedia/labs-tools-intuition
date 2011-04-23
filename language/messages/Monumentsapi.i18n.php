@@ -33,6 +33,15 @@ The title of the tool.',
 	'search-table-th-search' => '{{Identical|Search}}',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'search-table-th-field' => 'Veld',
+	'search-table-th-filter' => 'Filtreer',
+	'search-table-th-search' => 'Soek',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -51,6 +60,23 @@ $messages['be'] = array(
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Фільтр',
 	'search-table-th-search' => 'Знайсці',
+);
+
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'search-table-th-field' => 'Maezienn',
+	'search-table-th-filter' => 'Sil',
+	'search-table-th-search' => 'Klask',
+);
+
+/** Danish (Dansk)
+ * @author Peter Alberti
+ */
+$messages['da'] = array(
+	'search-table-th-field' => 'Felt',
+	'search-table-th-search' => 'Søg',
 );
 
 /** German (Deutsch)
@@ -73,6 +99,15 @@ $messages['es'] = array(
 	'search-table-th-search' => 'Buscar',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'search-table-th-field' => 'زمینه',
+	'search-table-th-filter' => 'پالایه',
+	'search-table-th-search' => 'جستجو',
+);
+
 /** French (Français)
  * @author Peter17
  */
@@ -81,6 +116,16 @@ $messages['fr'] = array(
 	'search-table-th-field' => 'Champ',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Rechercher',
+);
+
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Mező',
+	'search-table-th-filter' => 'Szűrő',
+	'search-table-th-search' => 'Keresés',
 );
 
 /** Interlingua (Interlingua)
@@ -101,6 +146,14 @@ $messages['ksh'] = array(
 	'search-table-th-field' => 'Fäld',
 	'search-table-th-filter' => 'Ußwähle',
 	'search-table-th-search' => 'Söhke',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Sichen',
 );
 
 /** Macedonian (Македонски)
@@ -134,6 +187,14 @@ $messages['nl'] = array(
 	'search-table-th-search' => 'Zoeken',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'search-table-th-filter' => 'چاڼګر',
+	'search-table-th-search' => 'پلټل',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */
@@ -142,6 +203,26 @@ $messages['ro'] = array(
 	'search-table-th-field' => 'Câmp',
 	'search-table-th-filter' => 'Filtru',
 	'search-table-th-search' => 'Caută',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Поље',
+	'search-table-th-filter' => 'Филтер',
+	'search-table-th-search' => 'Претрага',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Polje',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Pretraga',
 );
 
 /** Tagalog (Tagalog)

@@ -52,6 +52,25 @@ $messages['qqq'] = array(
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'hello' => 'Hallo',
+	'welcome' => 'Welkom',
+	'toolversionstamp' => 'Weergawe $1 ($2)',
+	'etc' => 'ensovoorts',
+	'namespace' => 'Naamruimte',
+	'form-submit' => 'OK',
+	'form-reset' => 'Herstel',
+	'years' => 'jaar',
+	'weeks' => 'weke',
+	'days' => 'dae',
+	'hours' => 'ure',
+	'last-modified-date' => 'Laaste wysiging op: $1',
+	'view-source' => 'Wys bronteks',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -338,6 +357,25 @@ $messages['he'] = array(
 	'days' => 'ימים',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'hello' => 'Szia',
+	'welcome' => 'Üdvözlet',
+	'toolversionstamp' => 'Verzió: $1 ($2)',
+	'etc' => 'stb.',
+	'namespace' => 'Névtér',
+	'form-submit' => 'Gyerünk',
+	'form-reset' => 'Alaphelyzet',
+	'years' => 'év',
+	'weeks' => 'hét',
+	'days' => 'nap',
+	'hours' => 'óra',
+	'last-modified-date' => 'Utolsó módosítás ideje: $1',
+	'view-source' => 'Forrás megtekintése',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -373,6 +411,25 @@ $messages['it'] = array(
 	'hours' => 'ore',
 	'last-modified-date' => 'Ultima modifica: $1',
 	'view-source' => 'Visualizza sorgente',
+);
+
+/** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
+ */
+$messages['km'] = array(
+	'hello' => 'សួស្ដី',
+	'welcome' => 'សូមស្វាគមន៍',
+	'toolversionstamp' => 'ច្បាប់ទី $1 ($2)',
+	'etc' => '-ល-',
+	'namespace' => 'ប្រភេទ',
+	'form-submit' => 'ទៅ',
+	'form-reset' => 'ធ្វើឱ្យដូចដើមវិញ',
+	'years' => 'ឆ្នាំ​',
+	'weeks' => 'សប្តាហ៍',
+	'days' => 'ថ្ងៃ​',
+	'hours' => 'ម៉ោង​',
+	'last-modified-date' => 'ត្រូវបានកែប្រែលើកចុងក្រោយ៖ $1',
+	'view-source' => 'មើល​កូដ',
 );
 
 /** Colognian (Ripoarisch)

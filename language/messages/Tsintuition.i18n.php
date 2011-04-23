@@ -74,6 +74,24 @@ $messages['qqq'] = array(
 	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'current-settings' => 'Huidige instellings',
+	'current-language' => 'Huidig gekose taal',
+	'settings-legend' => 'Instellings',
+	'tab-overview' => 'Oorsig',
+	'tab-settings' => 'Instellings',
+	'tab-about' => 'Aangaande',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'My taalinstellings',
+	'bl-mysettings-new' => 'Verander taal!',
+	'help-translate-tool' => 'Help om hierdie program te vertaal!',
+	'help-translate-all' => 'Help om Toolserver te vertaal!',
+	'help-translate-tooltip' => 'Help ander deur koppelvlak-boodskappe na u taal te vertaal.',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -306,6 +324,7 @@ $messages['cs'] = array(
 );
 
 /** Danish (Dansk)
+ * @author Peter Alberti
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -318,6 +337,7 @@ $messages['da'] = array(
 	'renew-cookies' => 'Forny cookies',
 	'cookie-expiration' => 'Cookieudløb',
 	'clearcookies-success' => 'Det lykkedes at slette cookies',
+	'renewcookies-success' => 'Cookies fornyet! Du er klar til næste $1.',
 	'tab-overview' => 'Oversigt',
 	'tab-settings' => 'Indstillinger',
 	'tab-about' => 'Om',
@@ -492,6 +512,34 @@ $messages['he'] = array(
 	'help-translate-tooltip' => 'עזרו לאחרים לתרגם את הודעות הממשק לשפתכם.',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'fullname' => 'A Toolserver felhasználói felületének internacionalizációja',
+	'current-settings' => 'Jelenlegi beállítások',
+	'current-language' => 'Jelenleg kiválasztott nyelv',
+	'settings-legend' => 'Beállítások',
+	'choose-language' => 'Válassz nyelvet',
+	'clear-cookies' => 'sütik törlése',
+	'renew-cookies' => 'sütik megújítása',
+	'cookie-expiration' => 'Süti lejárata',
+	'clearcookies-success' => 'Sütik sikeresen törölve.',
+	'renewcookies-success' => 'Sütik megújítva! Rendben vagy a következő időszakra: $1.',
+	'tab-overview' => 'Áttekintés',
+	'tab-settings' => 'Beállítások',
+	'tab-about' => 'Rólunk',
+	'tab-demo' => 'Demó',
+	'bl-mysettings' => 'Nyelvi beállítások',
+	'bl-mysettings-new' => 'Nyelv módosítása',
+	'bl-promo' => 'A lokalizációt a $1 és a $2 teszi lehetővé.',
+	'bl-changelanguage' => 'Kattints ide az eszköz felhasználói felülete nyelvének módosításához.',
+	'usage' => 'Az eszköz fordítása a Toolserver Intuitionnel készült.',
+	'help-translate-tool' => 'Segíts az eszköz fordításában!',
+	'help-translate-all' => 'Segíts a Toolserver fordításában!',
+	'help-translate-tooltip' => 'Segíts másokon a felület szövegének saját nyelvedre fordításával!',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -586,6 +634,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'fullname' => 'Iwwersetzunge fir den Toolserver Benotzer-Interface',
 	'current-settings' => 'Aktuell Astellungen',
 	'current-language' => 'Aktuell erausgesichte Sprooch',
 	'settings-legend' => 'Astellungen',

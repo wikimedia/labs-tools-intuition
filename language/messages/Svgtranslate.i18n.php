@@ -96,6 +96,27 @@ Parameters:
 	'preview-refresh' => 'The text for a button which refreshes the preview that the user has just asked for.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'error-nothing' => 'Niks om te vertaal nie.',
+	'error-notsvg' => "Dis nie 'n SVG-lêer nie.",
+	'begin-translation' => 'Begin vertaal',
+	'th-original' => 'Oorspronklike',
+	'th-translation' => 'Vertaling',
+	'th-language' => 'Taal',
+	'th-username' => 'Gebruikersnaam',
+	'th-password' => 'Wagwoord',
+	'th-method' => 'Metode',
+	'preview' => 'Voorskou',
+	'translate' => 'Vertaal',
+	'svginput-label' => 'SVG-lêer',
+	'preview-hide' => 'Versteek voorskou',
+	'preview-refresh' => 'verfris voorskou',
+	'finalise' => 'Finaliseer besonderhede',
+);
+
 /** Arabic (العربية)
  * @author ترجمان05
  */
@@ -334,22 +355,42 @@ $messages['ca'] = array(
 );
 
 /** Danish (Dansk)
+ * @author Peter Alberti
  * @author Sarrus
  */
 $messages['da'] = array(
+	'title' => 'SVG-oversættelse',
 	'error-tryagain' => '$1 Tryk på din browsers tilbageknap for at prøve igen.',
 	'error-nothing' => 'Intet at oversætte.',
 	'error-notsvg' => 'Ikke en SVG-fil.',
 	'error-unexpected' => 'En uventet fejl opstod.',
 	'error-notfound' => 'SVG-filen kunne ikke hentes fra den angivne URL-adresse.',
+	'error-upload' => 'Der opstod en fejl under upload.',
 	'begin-translation' => 'Begynd oversættelse',
 	'th-original' => 'Original',
 	'th-translation' => 'Oversættelse',
 	'th-language' => 'Sprog',
+	'th-username' => 'Brugernavn',
+	'th-password' => 'Adgangskode',
+	'th-method' => 'Metode',
+	'option-tusc' => 'TUSC (automatisk upload)',
+	'option-manual' => 'Manuel upload',
+	'preview' => 'Forhåndsvisning',
 	'translate' => 'Oversæt',
 	'translate-instructions' => 'Input accepteres som enten filnavne (f.eks " $1 ") eller fuld URL (f.eks" $2 "). Hvis den første mulighed benyttes, antages det, at Wikimedia Commons er kilden. For at oversætte en SVG fra et andet websted eller wiki, skal du skrive den fulde URL.adresse',
 	'svginput-label' => 'SVG-fil',
 	'stats-footer' => 'Dette værktøj er blevet brugt til at oversætte ca. $1 filer siden $2.',
+	'uploading' => 'Uploader',
+	'upload-complete' => 'Upload fuldendt. Billedet burde nu være at finde på $1',
+	'editdescriptionpage' => 'Rediger den nye beskrivelsesside',
+	'disclaimer' => 'Nogle anonyme data vil blive indsamlet privat for at kunne føre statistik. Hvis det oplyses, vil TUSC-brugernavne også blive registreret til hjælp i tilfælde af hærværk. Adgangskoder vil aldrig blive registreret.',
+	'author-complete' => 'Udfyld venligst oplysninger om forfattere!',
+	'preview-hide' => 'Skjul forhåndsvisning',
+	'preview-refresh' => 'Genopfrisk forhåndsvisning',
+	'error-must-accept' => 'For at kunne fortsætte med direkte upload, skal du acceptere brugsvilkårene.',
+	'error-tusc-failed' => 'TUSC-godkendelse lykkedes ikke: forkert brugernavn eller adgangskode.',
+	'description-license' => 'Vælg beskrivelse og licens',
+	'finalise' => 'Færdiggør detaljer',
 );
 
 /** German (Deutsch)
@@ -493,6 +534,45 @@ $messages['fa'] = array(
 	'preview-refresh' => 'تازه‌کردن پیش‌نمایش',
 );
 
+/** Finnish (Suomi)
+ * @author Nike
+ * @author Olli
+ */
+$messages['fi'] = array(
+	'title' => 'SVG-käännin',
+	'error-tryagain' => '$1 Yritä uudelleen napsauttamalla selaimen takaisin-painiketta.',
+	'error-nothing' => 'Ei käännettävää.',
+	'error-notsvg' => 'Tiedosto ei ole SVG-tiedosto.',
+	'error-unexpected' => 'Tuntematon virhe tapahtui.',
+	'error-notfound' => 'SVG-tiedostoa ei voitu hakea annetusta osoitteesta.',
+	'error-upload' => 'Tallennuksessa tapahtui virhe.',
+	'begin-translation' => 'Aloita kääntäminen',
+	'th-original' => 'Alkuperäinen',
+	'th-translation' => 'Käännös',
+	'th-language' => 'Kieli',
+	'th-username' => 'Käyttäjätunnus',
+	'th-password' => 'Salasana',
+	'th-method' => 'Tapa',
+	'option-tusc' => 'TUSC (automaattinen tallennus)',
+	'option-manual' => 'Manuaalinen tallennus',
+	'preview' => 'Esikatsele',
+	'translate' => 'Käännä',
+	'translate-instructions' => 'Voit syöttää joko tiedostonimen (esim. "$1") tai koko osoitteen (esim. "$2"). Jos käytät ensimmäistä vaihtoehtoa, oletetaan, että Wikimedia Commons on lähde. Jos haluat kääntää SVG-tiedoston toiselta sivustolta tai wikistä, sinun täytyy käyttää täydellistä osoitetta.',
+	'svginput-label' => 'SVG-tiedosto',
+	'stats-footer' => 'Tällä työkalulla on käännetty noin $1 tiedostoa $2 alkaen.',
+	'uploading' => 'Tallennetaan',
+	'upload-complete' => 'Lataus onnistui. Tiedoston pitäisi löytyä nyt osoitteesta $1',
+	'editdescriptionpage' => 'Muokkaa uutta kuvaussivua',
+	'disclaimer' => 'Joitakin nimettömiä tietoja kerätään tilastokäyttöön. Annetut TUSC-käyttäjätunnukset tallennetaan häiriköinnin tutkintaa varten. Salasanoja ei koskaan tallenneta.',
+	'author-complete' => 'Täytä tekijän tiedot!',
+	'preview-hide' => 'Piilota esikatselu',
+	'preview-refresh' => 'Päivitä esikatselu',
+	'error-must-accept' => 'Jatkaaksesi suoraa latausta sinun täytyy hyväksyä käyttöehdot.',
+	'error-tusc-failed' => 'TUSC-tarkistus epäonnistui: käyttäjä tai salasana väärin.',
+	'description-license' => 'Valitse kuvaus ja lisenssi',
+	'finalise' => 'Viimeistele tiedot',
+);
+
 /** French (Français)
  * @author Crochet.david
  * @author IAlex
@@ -555,6 +635,44 @@ $messages['he'] = array(
 	'stats-footer' => 'הכלי הזה שימש לתרגום של כ־$1 קבצים מאז $2.',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'title' => 'SVG-fordítás',
+	'error-tryagain' => '$1 Kattints a böngésződ vissza gombjára az újrapróbálkozáshoz.',
+	'error-nothing' => 'Nincs lefordítandó szöveg.',
+	'error-notsvg' => 'Nem SVG-fájl.',
+	'error-unexpected' => 'Váratlan hiba történt.',
+	'error-notfound' => 'Az SVG-fájlt nem sikerült letölteni megadott URL-címről.',
+	'error-upload' => 'Hiba történt a feltöltés közben.',
+	'begin-translation' => 'Fordítás indítása',
+	'th-original' => 'Eredeti',
+	'th-translation' => 'Fordítás',
+	'th-language' => 'Nyelv',
+	'th-username' => 'Felhasználónév',
+	'th-password' => 'Jelszó',
+	'th-method' => 'Módszer',
+	'option-tusc' => 'TUSC (automatikus feltöltés)',
+	'option-manual' => 'Feltöltés kézzel',
+	'preview' => 'Előnézet',
+	'translate' => 'Fordítás',
+	'translate-instructions' => 'A bemenet vagy fájlnév (pl. „$1”) vagy teljes URL (pl. „$2”) legyen. Ha az első formát használod, akkor a Wikimedia Commons lesz a kép forrása. Ha más wikikről szeretnél képeket fordítani, akkor a teljes URL-es formátumot kell használnod.',
+	'svginput-label' => 'SVG-fájl',
+	'stats-footer' => 'Ezzel az eszközzel körülbelül $1 fájlt vittek át $2 óta.',
+	'uploading' => 'Feltöltés',
+	'upload-complete' => 'A feltöltés sikeresen befejeződött. A kép a következő címen érhető el: $1',
+	'editdescriptionpage' => 'Az új leírólap szerkesztése',
+	'disclaimer' => 'Néhány névtelen adat rögzítve lesz statisztikai célok miatt. Ha meg van adva, a TUSC felhasználónév is el lesz tárolva, arra az esetre, ha később vandalizmus merülne fel. A jelszavakat viszont soha nem mentjük el.',
+	'author-complete' => 'Kérlek, add meg a szerzővel kapcsolatos információkat!',
+	'preview-hide' => 'Előnézet elrejtése',
+	'preview-refresh' => 'Előnézet frissítése',
+	'error-must-accept' => 'A közvetlen feltöltés folytatásához el kell fogadnod a megadott használati feltételeket.',
+	'error-tusc-failed' => 'TUSC érvényesítés nem sikerült: a felhasználónév vagy a jelszó helytelen.',
+	'description-license' => 'Leírás és licenc kiválasztása',
+	'finalise' => 'Részletek véglegesítése',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -602,6 +720,43 @@ $messages['it'] = array(
 	'th-username' => 'Nome utente',
 	'th-password' => 'Password',
 	'preview' => 'Anteprima',
+);
+
+/** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
+ */
+$messages['km'] = array(
+	'title' => 'SVG បកប្រែ',
+	'error-tryagain' => '$1 ចុចប៊ូតុងត្រលប់ក្រោយរបស់ឧបករណ៍រាវរករបស់អ្នក ដើម្បីព្យាយាមម្ដងទៀត។',
+	'error-nothing' => 'គ្មានអ្វីត្រូវបកប្រែ។',
+	'error-notsvg' => 'មិនមែនជាឯកសារប្រភេទ SVG។',
+	'error-unexpected' => 'មានបញ្ហាមិនបានព្រាងទុកមួយកើតឡើង។',
+	'error-notfound' => 'ឯកសារSVGនេះមិនអាចទាញយកបានពីURLដែលបានផ្ដល់អោយទេ។',
+	'error-upload' => 'មានបញ្ហាក្នុងការផ្ទុកឡើង។',
+	'begin-translation' => 'ចាប់ផ្ដើមបកប្រែ',
+	'th-original' => 'ដើម',
+	'th-translation' => 'ការបកប្រែ',
+	'th-language' => 'ភាសា',
+	'th-username' => 'អត្តនាម',
+	'th-password' => 'ពាក្យសំងាត់',
+	'th-method' => 'វិធី',
+	'option-tusc' => 'TUSC (ផ្ទុកឡើងដោយស្វ័យប្រវត្តិ)',
+	'option-manual' => 'ផ្ទុកឡើងដោយដៃ',
+	'preview' => 'ការមើលមុន',
+	'translate' => 'បកប្រែ',
+	'svginput-label' => 'ឯកសារSVG',
+	'stats-footer' => 'ឧបករណ៍នេះត្រូវបានប្រើសំរាប់បកប្រែឯកសារចំនួនប្រហែល $1 ​តាំងពី $2។',
+	'uploading' => 'កំពុង​ផ្ទុកឡើង​',
+	'upload-complete' => 'ការផ្ទុកឡើងសំរេចជាស្ថាពរ។ ពេលនេះ រូបភាពនេះគួរតែមាននៅ$1',
+	'editdescriptionpage' => 'កែប្រែទំព័រពណ៌នាថ្មី',
+	'disclaimer' => 'ទិន្នន័យខ្លះនឹងត្រូវបានប្រមូលទុកសំរាប់គោលបំណងខាងស្ថិតិ។ បើត្រូវបានផ្ដល់អោយ នោះអត្តនាម TUSC នឹងត្រូវបានកត់ត្រាទុកសំរាប់ការពារអំពើបំផ្លិចបំផ្លាញ​ជាសាធារណៈណាមួយ។ ពាក្យសំងាត់នឹងមិនត្រូវបានកត់ត្រាទុកជាដាច់ខាត។',
+	'author-complete' => 'សូមបំពេញព័ត៌មានអ្នកនិពន្ធ!',
+	'preview-hide' => 'លាក់ការមើលមុន',
+	'preview-refresh' => 'ផ្ទុកការមើលមុនឡើងវិញ',
+	'error-must-accept' => 'ដើម្បីបន្តដោយការផ្ទុកឡើងដោយផ្ទាល់ អ្នកត្រូវតែយល់ព្រមជាមួយនឹងល័ក្ខខ័ណ្ឌនៃការប្រើប្រាស់​ដែលបានផ្ដល់អោយ។',
+	'error-tusc-failed' => 'សុពលកម្ម TUSC បរាជ័យ៖ អត្តនាមឬពាក្យសំងាត់មិនត្រឹមត្រូវ។',
+	'description-license' => 'ជ្រើសរើសការពណ៌នានិងនិងអាជ្ញាបណ្ឌ។',
+	'finalise' => 'ព័ត៌មានលំអិតចុងក្រោយ',
 );
 
 /** Colognian (Ripoarisch)
@@ -743,15 +898,40 @@ $messages['mk'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'title' => 'Penterjemahan SVG',
+	'error-tryagain' => '$1 Tekan butang "←" (back) pelayar anda untuk mencuba semula.',
+	'error-nothing' => 'Tiada apa untuk diterjemahkan.',
+	'error-notsvg' => 'Bukan fail SVG.',
+	'error-unexpected' => 'Berlakunya ralat luar jangkaan.',
+	'error-notfound' => 'Fail SVG tidak dapat diambil daripada URL yang diberikan.',
+	'error-upload' => 'Ralat dialami ketika memuat naik.',
+	'begin-translation' => 'Mulakan penterjemahan',
 	'th-original' => 'Asal',
 	'th-translation' => 'Terjemahan',
 	'th-language' => 'Bahasa',
+	'th-username' => 'Nama pengguna',
+	'th-password' => 'Kata laluan',
+	'th-method' => 'Kaedah',
+	'option-tusc' => 'TUSC (muat naik automatik)',
+	'option-manual' => 'Muat naik manual',
 	'preview' => 'Pralihat',
+	'translate' => 'Terjemah',
+	'translate-instructions' => 'Input diterima dalam bentuk nama fail (cth. "$1") atau URL penuh (cth. "$2"). Jika pilihan pertama digunakan, Wikimedia Commons akan dianggap sebagai sumbernya. Untuk menterjemahkan SVG dari tapak web atau wiki yang lain, anda mesti menggunakan format URL penuh.',
+	'format-filename-example' => 'File:Planetary transit.svg',
+	'format-fullurl-example' => 'http://upload.wikimedia.org/wikipedia/commons/8/8a/Planetary_transit.svg',
 	'svginput-label' => 'Fail SVG',
+	'stats-footer' => 'Alat ini telah digunakan untuk menterjemah kira-kira $1 fail sejak $2.',
+	'uploading' => 'Sedang memuat naik',
+	'upload-complete' => 'Muat naik berjaya disiapkan. Imej anda sepatutnya berada di $1',
 	'editdescriptionpage' => 'Sunting laman penerangan baru',
+	'disclaimer' => 'Sesetengah data tanpa nama akan dihimpunkan secara peribadi untuk tujuan statistik. Jika disediakan, nama pengguna TUSC juga akan dicatatkan sebagai bantuan sekiranya terjadi laku musnah. Kata laluan tidak akan dicatatkan sekali pun.',
 	'author-complete' => 'Tolong lengkapkan maklumat pengarang!',
 	'preview-hide' => 'Sorokkan pralihat',
 	'preview-refresh' => 'Muat semula pralihat',
+	'error-must-accept' => 'Untuk meneruskan muat naik terus, anda mesti menerima terma-terma penggunaan yang dinyatakan.',
+	'error-tusc-failed' => 'Pengesahan TUSC gagal: nama pengguna atau kata laluan tidak betul.',
+	'description-license' => 'Pilih keterangan dan lesen',
+	'finalise' => 'Muktamadkan butiran',
 );
 
 /** Maltese (Malti)
@@ -885,8 +1065,13 @@ $messages['ps'] = array(
 	'th-original' => 'آرنی',
 	'th-translation' => 'ژباړه',
 	'th-language' => 'ژبه',
+	'th-username' => 'کارن-نوم',
+	'th-password' => 'پټنوم',
 	'preview' => 'مخليدنه',
 	'translate' => 'ژباړل',
+	'svginput-label' => 'د SVG دوتنه',
+	'uploading' => 'د برسېرېدلو په حال کې...',
+	'preview-hide' => 'مخليدنه پټول',
 );
 
 /** Romanian (Română)
@@ -997,6 +1182,10 @@ $messages['sr-ec'] = array(
 	'author-complete' => 'Попуните све податке о аутору.',
 	'preview-hide' => 'Сакриј преглед',
 	'preview-refresh' => 'Освежи преглед',
+	'error-must-accept' => 'Да бисте наставили с изравним отпремањем, морате прихватити услове коришћења.',
+	'error-tusc-failed' => 'TUSC провера није успела: корисничко име или лозинка су неисправни.',
+	'description-license' => 'Изаберите опис и лиценцу',
+	'finalise' => 'Доврши детаље',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
@@ -1031,6 +1220,10 @@ $messages['sr-el'] = array(
 	'author-complete' => 'Popunite sve podatke o autoru.',
 	'preview-hide' => 'Sakrij pregled',
 	'preview-refresh' => 'Osveži pregled',
+	'error-must-accept' => 'Da biste nastavili s izravnim otpremanjem, morate prihvatiti uslove korišćenja.',
+	'error-tusc-failed' => 'TUSC provera nije uspela: korisničko ime ili lozinka su neispravni.',
+	'description-license' => 'Izaberite opis i licencu',
+	'finalise' => 'Dovrši detalje',
 );
 
 /** Telugu (తెలుగు)
@@ -1148,6 +1341,10 @@ $messages['vi'] = array(
 	'author-complete' => 'Xin vui lòng điền thông tin tác giả!',
 	'preview-hide' => 'Ẩn phần xem trước',
 	'preview-refresh' => 'Làm mới phần xem trước',
+	'error-must-accept' => 'Để tiếp tục tải lên trực tiếp, trước tiên bạn phải cấp nhận các điều khoản sử dụng được trình bày.',
+	'error-tusc-failed' => 'Thất bại việc xác minh TUSC: tên người dùng hoặc mật khẩu không chính xác.',
+	'description-license' => 'Chọn miêu tả và giấy phép',
+	'finalise' => 'Hoàn tất các chi tiết',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)

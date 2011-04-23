@@ -38,6 +38,18 @@ $messages['qqq'] = array(
 {{Identical|Settings}}',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'formats-heading' => 'Afvoer-formate',
+	'input' => 'Invoer',
+	'label-wikiids' => "Wiki-ID's",
+	'no-matches' => 'Geen resultate vir "$1"',
+	'output' => 'Afvoer vir "$1"',
+	'settings-legend' => 'Instellings',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -194,6 +206,18 @@ $messages['fr'] = array(
 	'settings-legend' => 'Paramètres',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'formats-heading' => 'Kimeneti formátumok',
+	'input' => 'Bemenet',
+	'label-wikiids' => 'Wikiazonosítók',
+	'no-matches' => 'Nincs találtat a következőre: „$1”',
+	'output' => 'Eredmény: „$1”',
+	'settings-legend' => 'Beállítások',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -230,6 +254,8 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'no-matches' => 'Et passt näischt op "$1"',
+	'output' => 'Resultat fir "$1"',
 	'settings-legend' => 'Astellungen',
 );
 

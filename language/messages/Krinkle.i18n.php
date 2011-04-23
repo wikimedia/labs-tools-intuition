@@ -29,6 +29,15 @@ $messages['qqq'] = array(
 	'alws-group-allaz' => 'This is the group label for the group containg all wikis listed alphabetically. In a dropdown menu with all wikis.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'alws-selectwiki' => '(kies wiki)',
+	'alws-group-mustused' => "Mees gebruikte wiki's",
+	'alws-group-allaz' => "Alle wiki's volgens alfabetiese volgorde",
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -45,6 +54,15 @@ $messages['be'] = array(
 	'alws-selectwiki' => '(выбраць вікі)',
 	'alws-group-mustused' => 'Найбольш часта выкарыстоўваюцца',
 	'alws-group-allaz' => 'Усе вікі па алфавіце',
+);
+
+/** Danish (Dansk)
+ * @author Peter Alberti
+ */
+$messages['da'] = array(
+	'alws-selectwiki' => '(vælg wiki)',
+	'alws-group-mustused' => "De mest brugte wiki'er",
+	'alws-group-allaz' => "Alle wiki'er alfabetisk",
 );
 
 /** German (Deutsch)
@@ -74,6 +92,15 @@ $messages['fr'] = array(
 	'alws-group-allaz' => 'Tous les wikis par ordre alphabétique',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'alws-selectwiki' => '(válassz wikit)',
+	'alws-group-mustused' => 'Leggyakrabban használt wikik',
+	'alws-group-allaz' => 'Minden wiki, betűrendben',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -90,6 +117,15 @@ $messages['ksh'] = array(
 	'alws-selectwiki' => '(e Wiki ußwähle)',
 	'alws-group-mustused' => 'De miehts jebruchte Wikis',
 	'alws-group-allaz' => 'All de Wikis noh_m Alfabeet',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'alws-selectwiki' => '(Wiki eraussichen)',
+	'alws-group-mustused' => 'Meescht benotzte Wikien',
+	'alws-group-allaz' => 'All Wikien (alphabetesch)',
 );
 
 /** Macedonian (Македонски)
@@ -119,6 +155,13 @@ $messages['nl'] = array(
 	'alws-group-allaz' => 'Alle wikis op alfabetische volgorde',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'alws-selectwiki' => '(ويکي وټاکۍ)',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */
@@ -126,6 +169,24 @@ $messages['ro'] = array(
 	'alws-selectwiki' => '(selectați un wiki)',
 	'alws-group-mustused' => 'Cele mai utilizate wikiuri',
 	'alws-group-allaz' => 'Toate wikiurile ordonate alfabetic',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'alws-selectwiki' => '(избор викија)',
+	'alws-group-mustused' => 'Највише коришћене викије',
+	'alws-group-allaz' => 'Све викије азбучним редом',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'alws-selectwiki' => '(izbor vikija)',
+	'alws-group-mustused' => 'Najviše korišćene vikije',
+	'alws-group-allaz' => 'Sve vikije abecednim redom',
 );
 
 /** Tagalog (Tagalog)

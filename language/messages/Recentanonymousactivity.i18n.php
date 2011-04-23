@@ -25,6 +25,13 @@ $messages['qqq'] = array(
 	'title' => 'This is the name of the tool.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'title' => 'Onlangse anonieme aktiwiteit',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -46,6 +53,13 @@ $messages['br'] = array(
 	'title' => 'Obererezh dianv er mareoù-mañ',
 );
 
+/** Danish (Dansk)
+ * @author Peter Alberti
+ */
+$messages['da'] = array(
+	'title' => 'Seneste anonyme aktivitet',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -60,11 +74,25 @@ $messages['es'] = array(
 	'title' => 'Actividad anónima reciente',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'title' => 'فعالیت‌های ناشناس اخیر',
+);
+
 /** French (Français)
  * @author Peter17
  */
 $messages['fr'] = array(
 	'title' => 'Activité anonyme récente',
+);
+
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'title' => 'Legutóbbi anonim tevékenységek',
 );
 
 /** Interlingua (Interlingua)
@@ -81,11 +109,25 @@ $messages['ksh'] = array(
 	'title' => 'Neue Änderonge vun namelose Metmaacher',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'title' => 'Rezent Aktivitéit vun anonyme Benotzer',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
 	'title' => 'Скорешни анонимни активности',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'title' => 'Kegiatan terbaru oleh pengguna tanpa nama',
 );
 
 /** Dutch (Nederlands)
@@ -101,6 +143,20 @@ $messages['nl'] = array(
  */
 $messages['ro'] = array(
 	'title' => 'Recent anonymous activity',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'title' => 'Скорашња активност анонимних корисника',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'title' => 'Skorašnja aktivnost anonimnih korisnika',
 );
 
 /** Tagalog (Tagalog)

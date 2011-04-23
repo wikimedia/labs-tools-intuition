@@ -88,10 +88,9 @@ $messages['qqq'] = array(
 $3 is target wiki name.',
 	'language' => '{{Identical|Language}}',
 	'project' => '{{Identical|Project}}',
+	'categories' => '{{Identical|Categories}}',
+	'checkusage' => '{{Optional}}',
 	'use_checkusage' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
-	'tusc' => '{{Ignore}}
-
-{{hint-TUSC}}',
 	'use_tusc' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
 
 {{hint-TUSC}}',
@@ -110,6 +109,25 @@ $4 is the name of the file',
 	'output_information' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
+);
+
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'attention' => 'Let op',
+	'language' => 'Taal',
+	'project' => 'Project',
+	'source_file' => 'Bronlêer',
+	'target_file' => 'Doellêer',
+	'categories' => 'Kategorieë',
+	'tusc_user' => 'TUSC-gebruikersnaam',
+	'tusc_pass' => 'TUSC-wagwoord',
+	'do_it' => 'Doen dit',
+	'original_wikitext' => 'Oorspronklike wikiteks',
+	'new_wikitext' => 'Nuwe wikiteks',
+	'new_filename' => 'Nuwe lêernaam:',
+	'upload_it' => 'laai dit',
 );
 
 /** Asturian (Asturianu)
@@ -131,7 +149,6 @@ $messages['ast'] = array(
 	'remove_cats' => 'Desaniciar categoríes esistentes',
 	'checkusage' => 'ComprobarUsu',
 	'use_checkusage' => 'Usa $1CommonSense$2 pa suxerir categoríes nueves',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'Usa $1TUSC$2 pa tresferir el ficheru direutamente',
 	'tusc_user' => "Nome d'usuariu TUSC",
 	'tusc_pass' => 'Contraseña TUSC',
@@ -167,7 +184,6 @@ $messages['be'] = array(
 	'remove_cats' => 'Выдаліць існуючыя катэгорыя',
 	'checkusage' => 'Праверка (CheckUsage)',
 	'use_checkusage' => 'Выкарыстоўваць $1CommonSense$2, каб прапанаваць новыя катэгорыі',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'Выкарыстоўвайце $1 TUSC $2 для непасрэднай перадачы файлаў',
 	'tusc_user' => 'Імя карыстальніка TUSC',
 	'tusc_pass' => 'Пароль TUSC',
@@ -212,6 +228,63 @@ $messages['be-tarask'] = array(
 	'commons_to_project' => 'Wikimedia Commons у праект',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'attention' => 'Diwallit',
+	'language' => 'Yezh',
+	'project' => 'Raktres',
+	'source_file' => 'Restr orin',
+	'categories' => 'Rummadoù',
+	'do_it' => "Bec'h de'i",
+);
+
+/** Danish (Dansk)
+ * @author Peter Alberti
+ */
+$messages['da'] = array(
+	'attention' => 'Bemærk',
+	'description' => 'Et værktøj til at overføre filer fra Wikimedia projekter til Wikimedia Commons',
+	'change_meta' => 'Ændr $1kategori og skabelonindstillinger$2 for $3',
+	'jira_link' => 'Rapporter en fejl eller foreslå en funktion',
+	'language' => 'Sprog',
+	'project' => 'Projekt',
+	'source_file' => 'Kildefil',
+	'target_file' => 'Destinationsfil',
+	'commons_username' => 'Brugernavn på Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons til projekt',
+	'move_file_from_com' => 'Flyt fil fra Wikimedia Commons til projekt',
+	'categories' => 'Kategorier',
+	'remove_cats' => 'Fjern eksisterende kategorier',
+	'use_checkusage' => 'Brug $1CommonSense$2 til at foreslå nye kategorier',
+	'use_tusc' => 'Brug $1TUSC$2 til at overføre filen direkte',
+	'tusc_user' => 'TUSC brugernavn',
+	'tusc_pass' => 'TUSC adgangskode',
+	'do_it' => 'Gør det',
+	'error_transfer_usr' => 'Du har ikke angivet et Wikimedia Commons brugernavn',
+	'error_not_exists' => 'Kildefilen findes ikke!',
+	'error_file_exists' => 'Filen findes allerede på $3 som "$1$4$2"!',
+	'error_diff_exists' => "En anden fil med samme navn findes allerede på destinationswiki'en!",
+	'error_no_meta' => "Ingen metadata fundet for kilde-wiki'en! $1Link$2",
+	'error_meta_no_good' => 'Metadata: Ingen gode skabeloner fundet! $1Link$2',
+	'error_meta_bad' => 'Metadata: Problematisk skabelon fundet! $1Link$2',
+	'original_wikitext' => 'Oprindelig wiki tekst',
+	'new_wikitext' => 'Ny wiki tekst',
+	'new_filename' => 'Nyt filnavn:',
+	'output_information' => 'For at uploade filen manuelt, rediger teksten ovenfor (om nødvendigt), gem $1filen$2 på din computer, og',
+	'upload_it' => 'overfør den',
+	'target_wiki' => 'Destinationswiki',
+	'error_bot_blocked' => 'Upload-botten er blokeret på Wikimedia Commons.',
+	'error_upload_meta' => 'Kan ikke overføre direkte, fordi der er problemer med metadata (se ovenfor)!',
+	'error_tusc_failed' => 'TUSC verifikation mislykkedes!',
+	'error_only_commons' => 'Direkte upload fungerer kun på Wikimedia Commons!',
+	'upload_control_text' => 'Tjek venligst den nye wiki teksten og klik på "Upload!" hvis alt er OK!',
+	'error_upload_users' => 'Uploadfunktionen er kun tilgængelig for nogle brugere i forsøgsperioden!',
+	'error_upload_file' => 'Den originale fil kan ikke hentes.',
+);
+
 /** German (Deutsch)
  * @author Jan Luca
  * @author Kghbln
@@ -233,7 +306,6 @@ $messages['de'] = array(
 	'remove_cats' => 'Die vorhandenen Kategorien entfernen',
 	'checkusage' => 'Dateiverwendung prüfen',
 	'use_checkusage' => '$1CommonSense$2 nutzen, um neue Kategorien vorgeschlagen zu bekommen',
-	'tusc' => 'TUSC',
 	'use_tusc' => '$1TUSC$2 nutzen, um die Datei direkt zu übertragen',
 	'tusc_user' => 'Benutzername bei TUSC',
 	'tusc_pass' => 'Passwort bei TUSC',
@@ -279,7 +351,6 @@ $messages['es'] = array(
 	'remove_cats' => 'Quitar categorías existentes',
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => 'Usa $1CommonSense$2 para sugerir nuevas categorías',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'Usa $1TUSC$2 para transferir el archivo directamente',
 	'tusc_user' => 'Nombre de usuario TUSC',
 	'tusc_pass' => 'Contraseña TUSC',
@@ -305,6 +376,29 @@ $messages['es'] = array(
 	'error_commons_user' => 'Para identificar al usuario de transferencia, tu nombre de usuario de Wikimedia Commons tiene que estar en la descripción.',
 	'error_upload_users' => 'La función de carga solo está disponible para algunos usuarios durante el período de prueba.',
 	'error_upload_file' => 'No se puede descargar el archivo original.',
+);
+
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'attention' => 'توجه',
+);
+
+/** Finnish (Suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'attention' => 'Huomio',
+	'description' => 'Työkalu tiedostojen siirtoon Wikimedian projekteista Wikimedia Commonsiin',
+	'jira_link' => 'Ilmoita virheestä tai ehdota uutta ominaisuutta',
+	'language' => 'Kieli',
+	'project' => 'Projekti',
+	'source_file' => 'Lähdetiedosto',
+	'target_file' => 'Kohdetiedosto',
+	'commons_username' => 'Tunnus Wikimdia Commonsissa',
+	'categories' => 'Luokat',
+	'remove_cats' => 'Poista nykyiset luokat',
 );
 
 /** French (Français)
@@ -336,7 +430,6 @@ $messages['he'] = array(
 	'remove_cats' => 'מחיקת קטגוריות קיימות',
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => 'להשתמש ב־$1CheckUsage$2 כדי לאתר קטגוריות',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'להשתמש ב־$1TUSC$2 כדי להעביר את הקובץ ישירות',
 	'tusc_user' => 'שם משתמש ב־TUSC',
 	'tusc_pass' => 'סיסמה ב־TUSC',
@@ -354,6 +447,51 @@ $messages['he'] = array(
 	'output_information' => 'לשם העלאה ידנית יש לערוך את הטקסט למעלה (אם זה נחוץ), לשמור את $1הקובץ$2 במחשב שלך ואז',
 	'upload_it' => 'להעלות אותו',
 	'target_wiki' => 'ויקי היעד',
+);
+
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'attention' => 'Figyelem',
+	'description' => 'Eszköz fájlok Wikimedia-projektekből a Wikimedia Commonsba másolásához',
+	'change_meta' => '$3 $1kategória- és sablonbeállításainak$2 módosítása',
+	'jira_link' => 'Hiba vagy fejlesztési ötlet jelentése',
+	'language' => 'Nyelv',
+	'project' => 'Projekt',
+	'source_file' => 'Forrásfájl',
+	'target_file' => 'Célfájl',
+	'commons_username' => 'Wikimedia Commons felhasználünév',
+	'commons_to_project' => 'Wikimedia Commonsból egy projektbe',
+	'move_file_from_com' => 'Fájl áthelyezése a Wikimedia Commonsból egy projektbe',
+	'categories' => 'Kategóriák',
+	'remove_cats' => 'Létező kategóriák eltávolítása',
+	'use_checkusage' => '$1CommonSense$2 használata kategóriajavaslatokhoz',
+	'use_tusc' => 'A fájl átvitele közvetlenül a $1TUSC$2 használatával',
+	'tusc_user' => 'TUSC felhasználónév',
+	'tusc_pass' => 'TUSC jelszó',
+	'do_it' => 'Csináld',
+	'error_transfer_usr' => 'Nem adtad meg a Wikimedia Commons felhasználónevet',
+	'error_not_exists' => 'A forrásfájl nem létezik!',
+	'error_file_exists' => 'A fájl már létezik a(z) $3 oldalon, „$1$4$2” néven!',
+	'error_diff_exists' => 'A célwikin már létezik egy másik fájl ugyanezen a néven!',
+	'error_no_meta' => 'Nem található metaadat a forráswikin! $1Hivatkozás$2',
+	'error_meta_no_good' => 'Metaadat: Nem található egyetlen sablon sem! $1Hivatkozás$2',
+	'error_meta_bad' => 'Metaadat: Hibás sablont találtam! $1Hivatkozás$2',
+	'original_wikitext' => 'Eredeti wikiszöveg',
+	'new_wikitext' => 'Új wikiszöveg',
+	'new_filename' => 'Új fájlnév:',
+	'output_information' => 'Kézi feltöltés esetén szerkeszd a fenti szöveget (amennyiben szükséges), mentsd el $1a fájlt$2 a számítógépedre, majd',
+	'upload_it' => 'töltsd fel',
+	'target_wiki' => 'a célwikire',
+	'error_bot_blocked' => 'A feltöltőbot blokkolva van a WIkimedia Commonson.',
+	'error_upload_meta' => 'Nem lehet közvetlenül feltölteni, mert problémák vannak a metaadatokkal (lásd fentebb)!',
+	'error_tusc_failed' => 'A TUSC ellenőrzés nem sikerült!',
+	'error_only_commons' => 'A közvetlen feltöltés csak a Wikimedia Commons esetén működik!',
+	'upload_control_text' => 'Ellenőrizd az új wikiszöveget, majd kattints a „Feltöltés!” gombra, ha minden rendben van!',
+	'error_commons_user' => 'Az átvitelt végző szerkesztő azonosítása miatt a Wikimedia Commons-felhasználónevednek szerepelnie kell a leírásban!',
+	'error_upload_users' => 'A tesztidőszak alatt a feltöltés funkció csak néhány felhasználó számára érhető el!',
+	'error_upload_file' => 'Nem sikerült letölteni az eredeti fájlt.',
 );
 
 /** Interlingua (Interlingua)
@@ -375,7 +513,6 @@ $messages['ia'] = array(
 	'remove_cats' => 'Remover categorias existente',
 	'checkusage' => 'VerificarUsage',
 	'use_checkusage' => 'Usar $1CommonSense$2 pro suggerer nove categorias',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'Usar $1TUSC$2 pro transferer le file directemente',
 	'tusc_user' => 'Nomine de usator de TUSC',
 	'tusc_pass' => 'Contrasigno de TUSC',
@@ -435,7 +572,6 @@ $messages['ksh'] = array(
 	'remove_cats' => 'Donn de Saachjroppe fottnämme, di ald doh sin.',
 	'checkusage' => 'Donn eruß fenge, woh di Dattei all en Jebruch es.',
 	'use_checkusage' => 'Lohß <i lang="en">$1CommonSense$2</i> neu Saachjroppe för die Dattei vörschlonn',
-	'tusc' => '<i lang="en">TUSC</i>',
 	'tusc_user' => 'Dä Metmaacher_Name beim <i lang="en">TUSC</i>',
 	'tusc_pass' => 'Et Paßwoot för et <i lang="en">TUSC</i>',
 	'do_it' => 'Lohß jonn!',
@@ -459,6 +595,34 @@ $messages['ksh'] = array(
 	'error_upload_file' => 'De Ojinaal Dattei kam_mer nit eronger laade.',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'attention' => 'Opgepasst',
+	'description' => 'En Tool fir Fichieren vu Wikimedia-Projeten op Wikimedia Commons ze transferéieren',
+	'language' => 'Sprooch',
+	'project' => 'Projet',
+	'source_file' => 'Quell-Fichier',
+	'target_file' => 'Zil-Fichier',
+	'commons_username' => 'Benotzernumm op Wikimedia Commons',
+	'categories' => 'Kategorien',
+	'remove_cats' => 'Déi Kategorien déi et gëtt ewechhuelen',
+	'checkusage' => 'CheckUsage',
+	'use_checkusage' => 'Benotzt $1ÄreVerstand$2 fir nei Kategorie virzeschloen',
+	'tusc_user' => 'TUSC-Benotzernumm',
+	'tusc_pass' => 'TUSC-Passwuert',
+	'do_it' => 'Maacht et',
+	'error_not_exists' => 'Quell-Fichier gëtt et net!',
+	'error_file_exists' => 'Et gëtt de Fichier schonn op $3 als "$1$4$2"!',
+	'original_wikitext' => 'Originale Wiki-Text',
+	'new_wikitext' => 'Neie Wiki-Text',
+	'new_filename' => 'Neien Numm vum Fichier:',
+	'upload_it' => 'eroplueden',
+	'error_bot_blocked' => 'De bot fir erofzelueden ass op Wikimedia Commons gespaart.',
+	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -478,7 +642,6 @@ $messages['mk'] = array(
 	'remove_cats' => 'Отстрани постоечки категории',
 	'checkusage' => 'ПровериУпотреба',
 	'use_checkusage' => 'Користете го $1CommonSense$2 за да предложите нови категории',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'Користете го $1TUSC$2 за непосредно да ја префрлите податотеката',
 	'tusc_user' => 'Корисничко име на TUSC',
 	'tusc_pass' => 'Лозинка на TUSC',
@@ -525,7 +688,6 @@ $messages['ms'] = array(
 	'remove_cats' => 'Gugurkan kategori sedia ada',
 	'checkusage' => 'Semak Penggunaan',
 	'use_checkusage' => 'Gunakan $1Akal Budi$2 untuk menyarankan kategori baru',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'Gunakan $1TUSC$2 untuk memindahkan fail secara terus',
 	'tusc_user' => 'Nama pengguna TUSC',
 	'tusc_pass' => 'Kata laluan TUSC',
@@ -572,7 +734,6 @@ $messages['nl'] = array(
 	'remove_cats' => 'Bestaande categorieën verwijderen',
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => '$1CommonSense$2 gebruiken om suggesties voor nieuwe categorieën te maken',
-	'tusc' => 'TUSC',
 	'use_tusc' => '$1TUSC$2 gebruiken om het bestand direct over te brengen',
 	'tusc_user' => 'TUSC-gebruikersnaam',
 	'tusc_pass' => 'TUSC-wachtwoord',
@@ -600,6 +761,24 @@ $messages['nl'] = array(
 	'error_upload_file' => 'Het oorspronkelijke bestand kan niet gedownload worden.',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'language' => 'ژبه',
+	'project' => 'پروژه',
+	'do_it' => 'ترسره يې کړه',
+	'new_filename' => 'د نوې دوتنې نوم:',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author 555
+ */
+$messages['pt-br'] = array(
+	'attention' => 'Atenção',
+	'description' => 'Uma ferramenta para transferir arquivos de projetos da Wikimedia para o Wikimedia Commons',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */
@@ -624,6 +803,98 @@ $messages['ro'] = array(
 	'error_upload_file' => 'Fișierul original nu poate fi descărcat.',
 );
 
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'attention' => 'Пажња',
+	'description' => 'Алатка за пренос датотека из Викимедијиних пројеката у Викимедијину оставу',
+	'change_meta' => 'Промените поставке $1категорија и шаблона$2 за викију $3',
+	'jira_link' => 'Пријавите грешку или предложите нову могућност',
+	'language' => 'Језик',
+	'project' => 'Пројекат',
+	'source_file' => 'Изворна датотека',
+	'target_file' => 'Одредишна датотека',
+	'commons_username' => 'Корисничко име на Викимедијиној остави',
+	'commons_to_project' => 'Из Викимедијине оставе у пројекат',
+	'move_file_from_com' => 'Преместите датотеку из Викимедијине оставе у пројекат',
+	'categories' => 'Категорије',
+	'remove_cats' => 'Уклони постојеће категорије',
+	'checkusage' => 'Употреба',
+	'use_checkusage' => 'Користите $1Комон сенс$2 да предложите нове категорије',
+	'use_tusc' => 'Користите $1TUSC$2 за пренос датотека',
+	'tusc_user' => 'Корисничко име за TUSC',
+	'tusc_pass' => 'Лозинка за TUSC',
+	'do_it' => 'Уради',
+	'error_transfer_usr' => 'Нисте поставили корисничко име Викимедијине оставе',
+	'error_not_exists' => 'Изворна датотека не постоји.',
+	'error_file_exists' => 'Датотека већ постоји на викију $3 као „$1$4$2“.',
+	'error_diff_exists' => 'Другачија одредишна датотека постоји на наведеном викију под истим именом.',
+	'error_no_meta' => 'Метаподаци нису пронађени на изворном викију. $1Веза$2',
+	'error_meta_no_good' => 'Метаподаци: нису пронађени добри шаблони. $1Веза$2',
+	'error_meta_bad' => 'Метаподаци: пронађен је лош шаблон. $1Веза$2',
+	'original_wikitext' => 'Изворни текст викија',
+	'new_wikitext' => 'Нови текст викија',
+	'new_filename' => 'Нови назив датотеке:',
+	'output_information' => 'Да бисте отпремали ручно, уредите текст изнад (ако је потребно), сачувајте $1датотеку$2 на рачунар и',
+	'upload_it' => 'пошаљите је',
+	'target_wiki' => 'одредишна викија',
+	'error_bot_blocked' => 'Бот за отпремање је блокиран на Викимедијиној остави.',
+	'error_upload_meta' => 'Изравно отпремање није могуће јер је дошло до проблема с метаподацима (погледајте изнад).',
+	'error_tusc_failed' => 'TUSC провера није успела.',
+	'error_only_commons' => 'Изравно слање ради само на Викимедијиној остави.',
+	'upload_control_text' => 'Изаберите нови текст викија и кликните на „Пошаљи“ ако је све у реду.',
+	'error_commons_user' => 'Да бисмо препознали корисника који преноси датотеке, ваше корисничко име на Викимедијиној остави мора бити у опису.',
+	'error_upload_users' => 'Могућност отпремања је доступна само неким корисницима током пробног периода.',
+	'error_upload_file' => 'Изворна датотека не може бити преузета.',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'attention' => 'Pažnja',
+	'description' => 'Alatka za prenos datoteka iz Vikimedijinih projekata u Vikimedijinu ostavu',
+	'change_meta' => 'Promenite postavke $1kategorija i šablona$2 za vikiju $3',
+	'jira_link' => 'Prijavite grešku ili predložite novu mogućnost',
+	'language' => 'Jezik',
+	'project' => 'Projekat',
+	'source_file' => 'Izvorna datoteka',
+	'target_file' => 'Odredišna datoteka',
+	'commons_username' => 'Korisničko ime na Vikimedijinoj ostavi',
+	'commons_to_project' => 'Iz Vikimedijine ostave u projekat',
+	'move_file_from_com' => 'Premestite datoteku iz Vikimedijine ostave u projekat',
+	'categories' => 'Kategorije',
+	'remove_cats' => 'Ukloni postojeće kategorije',
+	'checkusage' => 'Upotreba',
+	'use_checkusage' => 'Koristite $1Komon sens$2 da predložite nove kategorije',
+	'use_tusc' => 'Koristite $1TUSC$2 za prenos datoteka',
+	'tusc_user' => 'Korisničko ime za TUSC',
+	'tusc_pass' => 'Lozinka za TUSC',
+	'do_it' => 'Uradi',
+	'error_transfer_usr' => 'Niste postavili korisničko ime Vikimedijine ostave',
+	'error_not_exists' => 'Izvorna datoteka ne postoji.',
+	'error_file_exists' => 'Datoteka već postoji na vikiju $3 kao „$1$4$2“.',
+	'error_diff_exists' => 'Drugačija odredišna datoteka postoji na navedenom vikiju pod istim imenom.',
+	'error_no_meta' => 'Metapodaci nisu pronađeni na izvornom vikiju. $1Veza$2',
+	'error_meta_no_good' => 'Metapodaci: nisu pronađeni dobri šabloni. $1Veza$2',
+	'error_meta_bad' => 'Metapodaci: pronađen je loš šablon. $1Veza$2',
+	'original_wikitext' => 'Izvorni tekst vikija',
+	'new_wikitext' => 'Novi tekst vikija',
+	'new_filename' => 'Novi naziv datoteke:',
+	'output_information' => 'Za ručno otpremanje, uredite tekst iznad (ako je potrebno), sačuvajte $1datoteku$2 na računar i',
+	'upload_it' => 'pošaljite je',
+	'target_wiki' => 'odredišna vikija',
+	'error_bot_blocked' => 'Bot za otpremanje je blokiran na Vikimedijinoj ostavi.',
+	'error_upload_meta' => 'Izravno otpremanje nije moguće jer je došlo do problema s metapodacima (pogledajte iznad).',
+	'error_tusc_failed' => 'TUSC provera nije uspela.',
+	'error_only_commons' => 'Izravno otpremanje radi samo na Vikimedijinoj ostavi.',
+	'upload_control_text' => 'Izaberite novi tekst vikija i kliknite na „Pošalji“ ako je sve u redu.',
+	'error_commons_user' => 'Da bismo prepoznali korisnika koji prenosi datoteke, vaše korisničko ime na Vikimedijinoj ostavi mora biti u opisu.',
+	'error_upload_users' => 'Mogućnost otpremanja je dostupna samo nekim korisnicima tokom probnog perioda.',
+	'error_upload_file' => 'Izvorna datoteka ne može biti preuzeta.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
@@ -643,7 +914,6 @@ $messages['tl'] = array(
 	'remove_cats' => 'Alisin ang umiiral na mga kategorya',
 	'checkusage' => 'Suriin ang Paggamit',
 	'use_checkusage' => 'Gamitin ang $1CommonSense$2 upang magmungkahi ng bagong mga kategorya',
-	'tusc' => 'TUSC',
 	'use_tusc' => 'Gamitin ang $1TUSC$2 upang tuwirang mailipat ng isang talaksan',
 	'tusc_user' => 'Pangalan ng tagagamit ng TUSC',
 	'tusc_pass' => 'Hudyat sa TUSC',
@@ -669,6 +939,37 @@ $messages['tl'] = array(
 	'error_commons_user' => 'Upang makilala ang tagagamit ng paglilipat, ang iyong pangalan ng tagagamit sa Wikimedia Commons ay dapat na nasa loob ng paglalarawan!',
 	'error_upload_users' => 'Ang tungkulin ng pagkakargang papaitaas ay makukuha lamang ng ilang mga tagagamit habang nasa panahon ng pagsusubok!',
 	'error_upload_file' => 'Hindi maikakargang paibaba ang orihinal talaksan.',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'attention' => 'Chú ý',
+	'description' => 'Công cụ chuyển tập tin từ các dự án Wikimedia đến Wikimedia Commons',
+	'change_meta' => 'Thay đổi $1cấu hình thể loại và bản mẫu$2 của $3',
+	'jira_link' => 'Báo cáo lỗi hoặc đề nghị một tính năng',
+	'language' => 'Ngôn ngữ',
+	'project' => 'Dự án',
+	'source_file' => 'Tập tin gốc',
+	'target_file' => 'Tập tin đích',
+	'commons_username' => 'Tên người dùng tại Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons sang dự án',
+	'move_file_from_com' => 'Chuyển tập tin từ Wikimedia Commons sang một dự án',
+	'categories' => 'Thể loại',
+	'remove_cats' => 'Gỡ thể loại hiện có',
+	'use_checkusage' => 'Sử dụng $1CommonsSense$2 để gợi ý thêm thể loại',
+	'use_tusc' => 'Sử dụng $1TUSC$2 để chuyển tập tin thẳng',
+	'tusc_user' => 'Tên người dùng TUSC',
+	'tusc_pass' => 'Mật khẩu TUSC',
+	'do_it' => 'Chuyển',
+	'error_transfer_usr' => 'Bạn chưa định rõ tên người dùng Wikimedia Commons',
+	'error_not_exists' => 'Tập tin gốc không tồn tại!',
+	'error_file_exists' => 'Tập tin đã tồn tại trên $3 dưới tên “$1$4$2”!',
+	'error_diff_exists' => 'Một tập tin khác cùng tên đã tồn tại trên wiki đích!',
+	'error_no_meta' => 'Không tìm thấy siêu dữ liệu về wiki nguồn! $1Liên kết$2',
+	'error_meta_no_good' => 'Siêu dữ liệu: Không tìm thấy bản mẫu hợp! $1Liên kết$2',
+	'error_meta_bad' => 'Siêu dữ liệu: Tìm thấy bản mẫu không phù hợp! $1Liên kết$2',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)

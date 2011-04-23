@@ -50,7 +50,7 @@ $messages['qqq'] = array(
 	'select-wiki-first' => "This message is displayed in the dropdown menu for the namespace selector if the user didn't choose a wiki yet. Include the parenthesis.",
 	'hideredirects' => 'Label for a checkbox in the input form indicating whether redirect pages should be included in the results.',
 	'hidesubpages' => 'Label for a checkbox in the input form indicating whether subpages should be included in the results.',
-	'limit' => 'The maximum number of results to display. {{Identical|Limit}}',
+	'limit' => 'Label in front of a dropdown menu. Affects the maximum number of results to display. {{Identical|Limit}}',
 	'page' => 'Table heading for the "Page"-column in the results.
 {{Identical|Page}}',
 	'redirect' => 'Table heading for the "Is redirect"-column in the results. This column is "0" (not a redirect) or "1" (is redirect).',
@@ -68,6 +68,27 @@ $messages['qqq'] = array(
 	'deletesummary' => 'Deletion summary for the "delete"-toollink. $1 is an interwiki link to more info, also a way to promote this tool to others.',
 	'noresults' => 'Message displayed if there are no orphaned talk pages found with the current settings.',
 	'resultslimited' => "If results were limited by the set' limit, this message is displayed at the bottom of the search results.",
+);
+
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'settings-legend' => 'Instellings',
+	'select-wiki-first' => "(kies eers 'n wiki)",
+	'hideredirects' => 'Versteek aansture',
+	'hidesubpages' => 'Versteek subbladsye',
+	'limit' => 'Limiet',
+	'page' => 'Bladsy',
+	'redirect' => 'Is aanstuur?',
+	'output' => 'Afvoer',
+	'update' => 'Opdateer',
+	'tools-delete' => 'skrap',
+	'tools-links' => 'skakels',
+	'tools-subject' => 'onderwerp',
+	'tools-hist' => 'gesk.',
+	'tools-curr' => 'huidige',
+	'resultslimited' => 'Resultate is beperk tot $1 bladsye.',
 );
 
 /** Asturian (Asturianu)
@@ -379,6 +400,31 @@ $messages['fr'] = array(
 	'resultslimited' => 'Les résultats ont été limités à $1 pages.',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Beállítások',
+	'select-wiki-first' => '(előbb válassz egy wikit)',
+	'hideredirects' => 'Átirányítások elrejtése',
+	'hidesubpages' => 'Allapok elrejtése',
+	'limit' => 'Korlát',
+	'page' => 'Lap',
+	'redirect' => 'Átirányítás?',
+	'output' => 'Kimenet',
+	'update' => 'Frissítés',
+	'tools-delete' => 'törlés',
+	'tools-links' => 'hivatkozások',
+	'tools-subject' => 'megtekintés',
+	'tools-hist' => 'laptörténet',
+	'tools-curr' => 'akt',
+	'tools-globalusage' => 'globális használat',
+	'deletesummary' => 'Árva vitalapok törlése az $1 segítségével',
+	'noresults' => 'Ebben a névtérben egyetlen vitalap sem felel meg a megadott beállításoknak.',
+	'resultslimited' => 'Az eredmények száma $1 db lapra lett korlátozva.',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -415,6 +461,29 @@ $messages['it'] = array(
 	'tools-delete' => 'cancella',
 	'tools-links' => 'collegamenti',
 	'tools-hist' => 'cron',
+);
+
+/** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
+ */
+$messages['km'] = array(
+	'settings-legend' => 'ការកំណត់​នានា',
+	'select-wiki-first' => '(ជ្រើសរើសវិគីមួយសិន)',
+	'hideredirects' => 'លាក់ការបញ្ជូនបន្ត',
+	'hidesubpages' => 'លាក់ទំព័ររង',
+	'limit' => 'កំហិត',
+	'page' => 'ទំព័រ',
+	'redirect' => 'ជាការបញ្ជូនបន្ត?',
+	'update' => 'បន្ទាន់សម័យ',
+	'tools-delete' => 'លុបចោល',
+	'tools-links' => 'តំណ​ភ្ជាប់',
+	'tools-subject' => 'ប្រធានបទ​',
+	'tools-hist' => 'ប្រវត្តិ',
+	'tools-curr' => 'បច្ចុប្បន្ន',
+	'tools-globalusage' => 'បំរើបំរាស់សាកល',
+	'deletesummary' => 'សំអាតទំព័រពិភាក្សាដែលកំព្រាតាមរយៈ $1',
+	'noresults' => 'គ្មានទំព័រពិភាក្សាកំព្រានៅលើវិគីនេះ ក្នុងប្រភេទបែបនេះ ដែលត្រូវគ្នានឹងការកំណត់របស់អ្នកទេ។',
+	'resultslimited' => 'លទ្ធផលត្រូវបានដាក់កំហិតត្រឹម $1 ទំព័រ។',
 );
 
 /** Colognian (Ripoarisch)
@@ -527,7 +596,16 @@ $messages['ms'] = array(
 	'page' => 'Halaman',
 	'redirect' => 'Lencongan?',
 	'output' => 'Output',
+	'update' => 'Kemas kini',
 	'tools-delete' => 'hapuskan',
+	'tools-links' => 'pautan',
+	'tools-subject' => 'subjek',
+	'tools-hist' => 'sej',
+	'tools-curr' => 'kini',
+	'tools-globalusage' => 'kegunaan global',
+	'deletesummary' => 'Membersihkan laman perbincangan yatim melalui $1',
+	'noresults' => 'Tiada laman perbincangan yatim di wiki ini dalam ruang nama ini yang sepadan dengan tetapan anda.',
+	'resultslimited' => 'Hasil carian terhad kepada $1 laman.',
 );
 
 /** Maltese (Malti)

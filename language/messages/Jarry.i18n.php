@@ -53,6 +53,14 @@ $messages['be'] = array(
 	'error-form-empty' => 'Адно або некалькі абавязковых палёў пакінутыя пустымі. Вы мусіце запоўніць іх, перш чым працягваць',
 );
 
+/** Danish (Dansk)
+ * @author Peter Alberti
+ */
+$messages['da'] = array(
+	'moretools' => 'flere værktøjer fra samme forfatter',
+	'comments' => 'kommentarer og spørgsmål',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -86,6 +94,17 @@ $messages['fr'] = array(
 	'error-form-empty' => 'Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer.',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'title' => "Jarry1250's Toolserver Tools",
+	'moretools' => 'további eszközök ettől a szerzőtől',
+	'bugs' => 'hibajelentések és fejlesztési ötletek',
+	'comments' => 'hozzászólások és kérések',
+	'error-form-empty' => 'A szükséges mezők közól egy vagy több üresen maradt. Töltsd ki őket a folytatás előtt.',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -107,6 +126,14 @@ $messages['ksh'] = array(
 	'comments' => 'Aanmerkunge un Froore',
 	'error-form-empty' => 'Vun dä nüüdeje Enjaabe sin nit alle jemaat.
 Donn se enfölle, ih dat de wigger määß.',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'moretools' => 'méi Toole vum selwechten Auteur',
+	'comments' => 'Bemierkungen an Ufroen',
 );
 
 /** Macedonian (Македонски)
@@ -151,6 +178,28 @@ $messages['ro'] = array(
 	'bugs' => 'rapoarte de erori și cereri de îmbunătățiri',
 	'comments' => 'comentarii și întrebări',
 	'error-form-empty' => 'Unul sau mai multe câmpuri obligatorii nu sunt completate. Ar trebui să le completați înainte de a continua.',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'title' => 'Алатке корисника Jarry1250',
+	'moretools' => 'више алатки од истог аутора',
+	'bugs' => 'пријава грешки и захтеви за нове могућности',
+	'comments' => 'коментари и упити',
+	'error-form-empty' => 'Нисте попунили сва обавезна поља. Урадите то пре него што наставите.',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'title' => 'Alatke korisnika Jarry1250',
+	'moretools' => 'više alatki od istog autora',
+	'bugs' => 'prijava greški i zahtevi za nove mogućnosti',
+	'comments' => 'komentari i upiti',
+	'error-form-empty' => 'Niste popunili sva obavezna polja. Uradite to pre nego što nastavite.',
 );
 
 /** Tagalog (Tagalog)
