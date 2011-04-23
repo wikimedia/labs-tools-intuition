@@ -15,6 +15,8 @@ $messages = array();
  * @author Jan Luca
  */
 $messages['en'] = array(
+	'title' => 'CommonsHelper 2', // Ignore
+
 	'attention' => 'Attention',
 	'commonshelper2' => 'CommonsHelper 2', // Optional
 	'description' => 'A tool to transfer files from Wikimedia projects to Wikimedia Commons',
