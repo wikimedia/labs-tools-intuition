@@ -215,7 +215,7 @@ $dropdown = '<select name="fpLang">';
 $selected = ' selected="selected"';
 foreach ( $I18N->getAvailableLangs() as $langCode => $langName ) {
 	$attr = $langCode == $I18N->getLang() ? $selected : '';
-	$dropdown .= '<option value="' . $langCode . '"' . $attr . '>' . $langName . '</option>';
+	$dropdown .= '<option value="' . $langCode . '"' . $attr . '>' . "$langCode - $langName" . '</option>';
 }
 $dropdown .= '</select>';
 
