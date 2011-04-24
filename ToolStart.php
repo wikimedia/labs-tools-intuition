@@ -10,7 +10,7 @@
  * This file loads everything the individual tools need.
  */
 
-// This is a valid entry, define true
+// This is a valid entry, define
 define( 'TS_INTUITION', __DIR__ );
 
 // Local override

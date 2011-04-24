@@ -56,7 +56,7 @@ class TsIntuition {
 	private $paramNames = array( 'userlang' => 'userlang' );
 
 	// Here everything will be stored as arrays in arrays
-	// Such as: $messageBlob['Textdomain']['messagename']['langcode'] = 'Message string';
+	// Such as: $messageBlob['Textdomain']['langcode']['messagename'] = 'Message string';
 	private $messageBlob = array();
 
 	// All loaded text domains and (if available) their information (such as url) in an array
@@ -512,6 +512,10 @@ class TsIntuition {
 		}
 	}
 
+	public function listMsgs( $domain ) {
+		return array_keys( $this->messageBlob[$domain]['en'] );
+	}
+
 
 	/* Lang functions
 	 * ------------------------------------------------- */
@@ -599,6 +603,7 @@ class TsIntuition {
 	 * Load a textdomain (if not loaded already).
 	 *
 	 * @param $domain string Name of the textdomain (case-insensitive)
+	 * @return False on error, (normalized) domainname if success.
 	 */
 	public function loadTextdomain( $domain ) {
 
@@ -610,8 +615,13 @@ class TsIntuition {
 		// Sanatize domainnames (case-insensitive)
 		$domain = ucfirst( strtolower( $domain ) );
 
-		// Don't load if already loaded or unregistered
-		if ( isset( $this->loadedTextdomains[$domain] ) || !isset( $this->registeredTextdomains[$domain] ) ) {
+		// Don't load if already loaded
+		if ( isset( $this->loadedTextdomains[$domain] ) ) {
+			return $domain;
+		}
+
+		// Error out if unregistered
+		if  ( !isset( $this->registeredTextdomains[$domain] ) ) {
 			return false;
 		}
 
@@ -626,7 +636,8 @@ class TsIntuition {
 		// Load it
 		$load = $this->loadTextdomainFromFile( $path, $domain );
 
-		return !!$load;
+		// Return (normalized) domainname or false
+		return !!$load ? $domain : false;
 
 	}
 
