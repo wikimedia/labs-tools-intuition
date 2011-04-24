@@ -166,6 +166,13 @@ $messages['tl'] = array(
 	'title' => 'Kamakailang gawain ng hindi nagpapakilala',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'title' => 'Hoạt động vô danh gần đây',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  */

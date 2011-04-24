@@ -213,6 +213,17 @@ $messages['tl'] = array(
 	'error-form-empty' => 'Isa o mahigit pang kinakailangang mga kahanayan ang naiwanang walang laman. Dapat mong punuin ang mga ito bago magpatuloy.',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'title' => "Jarry1250's Toolserver Tools",
+	'moretools' => 'thêm công cụ từ cùng tác giả',
+	'bugs' => 'báo cáo lỗi và yêu cầu tính năng',
+	'comments' => 'ý kiến và truy vấn',
+	'error-form-empty' => 'Ít nhất một trường bắt buộc đã được bỏ trống. Xin điền nó trước khi tiếc tục.',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  */

@@ -235,6 +235,16 @@ $messages['tl'] = array(
 	'search-table-th-search' => 'Hanapin',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Trường',
+	'search-table-th-filter' => 'Bộ lọc',
+	'search-table-th-search' => 'Tìm kiếm',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  */

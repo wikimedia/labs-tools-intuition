@@ -228,6 +228,19 @@ $messages['be-tarask'] = array(
 	'commons_to_project' => 'Wikimedia Commons у праект',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'attention' => 'Внимание',
+	'description' => 'Инструмент за прехвърляне на файлове от проектите на Уикимедия в Общомедия',
+	'language' => 'Език',
+	'source_file' => 'Изходен файл',
+	'target_file' => 'Целеви файл',
+	'categories' => 'Категории',
+	'remove_cats' => 'Премахване на съществуващите категории',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  * @author Y-M D
@@ -281,6 +294,7 @@ $messages['da'] = array(
 	'error_tusc_failed' => 'TUSC verifikation mislykkedes!',
 	'error_only_commons' => 'Direkte upload fungerer kun på Wikimedia Commons!',
 	'upload_control_text' => 'Tjek venligst den nye wiki teksten og klik på "Upload!" hvis alt er OK!',
+	'error_commons_user' => 'Dit Wikimedia Commons brugernavn skal være i beskrivelsen, så brugeren, der udførte overførslen, kan identificeres!',
 	'error_upload_users' => 'Uploadfunktionen er kun tilgængelig for nogle brugere i forsøgsperioden!',
 	'error_upload_file' => 'Den originale fil kan ikke hentes.',
 );
@@ -387,18 +401,48 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Nike
+ * @author Olli
  */
 $messages['fi'] = array(
 	'attention' => 'Huomio',
 	'description' => 'Työkalu tiedostojen siirtoon Wikimedian projekteista Wikimedia Commonsiin',
+	'change_meta' => 'Vaihda wikin $3 $1luokka- ja mallineasetuksia$2',
 	'jira_link' => 'Ilmoita virheestä tai ehdota uutta ominaisuutta',
 	'language' => 'Kieli',
 	'project' => 'Projekti',
 	'source_file' => 'Lähdetiedosto',
 	'target_file' => 'Kohdetiedosto',
 	'commons_username' => 'Tunnus Wikimdia Commonsissa',
+	'commons_to_project' => 'Wikimedia Commonsista projektiin',
+	'move_file_from_com' => 'Siirrä tiedosto Wikimedia Commonsista toiseen projektiin',
 	'categories' => 'Luokat',
 	'remove_cats' => 'Poista nykyiset luokat',
+	'use_checkusage' => 'Käytä $1CommonSenseä$2 ehdottamaan uusia luokkia',
+	'use_tusc' => 'Käytä $1TUSC:ia$2 tiedoston siirtämiseen suoraan',
+	'tusc_user' => 'TUSC-käyttäjätunnus',
+	'tusc_pass' => 'TUSC-salasana',
+	'do_it' => 'Aloita',
+	'error_transfer_usr' => 'Et ole asettanut Wikimedia Commonsin käyttäjätunnusta',
+	'error_not_exists' => 'Lähdetiedostoa ei löydy!',
+	'error_file_exists' => 'Tiedosto löytyy jo wikistä $3 nimellä "$1$4$2"!',
+	'error_diff_exists' => 'Eri kohdetiedosto löytyy kohdewikistä samalla nimellä!',
+	'error_no_meta' => 'Lähdewikille ei löytynyt meta-tietoja! $1Linkki$2',
+	'error_meta_no_good' => 'Metatiedot: Hyviä mallineita ei löytynyt! $1Linkki$2',
+	'error_meta_bad' => 'Metatiedot: Kelpaamaton malline löytyi! $1Linkki$2',
+	'original_wikitext' => 'Alkuperäinen wikiteksti',
+	'new_wikitext' => 'Uusi wikiteksti',
+	'new_filename' => 'Uusi tiedostonimi:',
+	'output_information' => 'Tallentaaksesi tiedoston itse, muokkaa yllä olevaa tekstiä (jos tarpeen), tallenna $1tiedosto$2 tietokoneellesi ja sitten',
+	'upload_it' => 'tallenna se.',
+	'target_wiki' => 'kohdewiki',
+	'error_bot_blocked' => 'Latausbotti on estetty Wikimedia Commonsissa.',
+	'error_upload_meta' => 'Suora lataus epäonnistui, koska metatietojen kanssa oli ongelmia (katso yllä)!',
+	'error_tusc_failed' => 'TUSC-vahvistus epäonnistui!',
+	'error_only_commons' => 'Suora lataus toimii vain Wikimedia Commonsissa!',
+	'upload_control_text' => 'Tarkista uusi wikiteksti ja napsauta "Lataa!" jos kaikki on ok!',
+	'error_commons_user' => 'Jotta siirtänyt käyttäjä voidaan tunnistaa, Wikimedia Commons -käyttäjätunnuksesi täytyy olla kuvauksessa!',
+	'error_upload_users' => 'Lataustoiminto on saatavilla vain joillekin käyttäjille testijakson aikana!',
+	'error_upload_file' => 'Alkuperäistä tiedostoa ei voida ladata.',
 );
 
 /** French (Français)
@@ -785,20 +829,41 @@ $messages['pt-br'] = array(
 $messages['ro'] = array(
 	'attention' => 'Atenție',
 	'description' => 'Un instrument pentru transferul fișierelor de la proiectele Wikimediei la Wikimedia Commons',
+	'change_meta' => 'Schimbați $1categoria și setările formatului$2 pentru $3',
 	'jira_link' => 'Raportați o eroare sau sugerați îmbunătățiri',
 	'language' => 'Limbă',
 	'project' => 'Proiect',
 	'source_file' => 'Fișier sursă',
 	'target_file' => 'Fișier țintă',
 	'commons_username' => 'Numele de utilizator de la Wikimedia Commons',
-	'commons_to_project' => 'Wikimedia Commons la proiect',
-	'move_file_from_com' => 'Mută fișierul de la Wikimedia Commons la alt proiect',
+	'commons_to_project' => 'De la Wikimedia Commons la proiect',
+	'move_file_from_com' => 'Mută fișierul de la Wikimedia Commons la proiectul indicat',
 	'categories' => 'Categorii',
 	'remove_cats' => 'Elimină categoriile existente',
+	'use_checkusage' => 'Utilizează $1CommonSense$2 pentru sugestii de noi categorii',
+	'use_tusc' => 'Utilizează $1TUSC$2 pentru a transfera fișierul direct',
+	'tusc_user' => 'Numele de utilizator TUSC',
+	'tusc_pass' => 'Parola TUSC',
+	'do_it' => 'Execută',
 	'error_transfer_usr' => 'Nu ați setat un nume de utilizator pentru Wikimedia Commons',
 	'error_not_exists' => 'Fișierul sursă nu există!',
 	'error_file_exists' => 'Fișierul există deja la $3 cu numele „$1$4$2”!',
 	'error_diff_exists' => 'Alt fișier țintă există deja pe wikiul țintă sub același nume!',
+	'error_no_meta' => 'Nu s-au găsit metadate pentru wikiul sursă! $1Legătură$2',
+	'error_meta_no_good' => 'Metadate: nu s-a găsit niciun format bun! $1Legătură$2',
+	'error_meta_bad' => 'Metadate: s-a găsit un format nepotrivit! $1Legătură$2',
+	'original_wikitext' => 'Text wiki original',
+	'new_wikitext' => 'Text wiki nou',
+	'new_filename' => 'Noul nume al fișierului:',
+	'output_information' => 'Pentru încărcare manuală, modificați textul de mai sus (dacă este necesar), salvați $1fișierul$2 pe calculatorul dumneavoastră, și mai apoi',
+	'upload_it' => 'încărcați-l',
+	'target_wiki' => 'wikiul țintă',
+	'error_bot_blocked' => 'Robotul care efectuează încărcarea este blocat pe Wikimedia Commons.',
+	'error_upload_meta' => 'Nu se poate încărca direct, deoarece există probleme cu metadatele (vedeți mai sus)!',
+	'error_tusc_failed' => 'Verificarea TUSC nu a reușit!',
+	'error_only_commons' => 'Încărcarea directă funcționează numai la Wikimedia Commons!',
+	'upload_control_text' => 'Vă rugăm să verificați noul text wiki și să apăsați pe „Încarcă!” dacă totul este în regulă!',
+	'error_commons_user' => 'Pentru a identifica utilizatorul care a efectuat transferul, numele dumneavoastră de utilizator de la Wikimedia Commons trebuie să se afle în descriere!',
 	'error_upload_users' => 'Funcția de încărcare este disponibilă doar pentru unii utilizatori în timpul perioadei de testare!',
 	'error_upload_file' => 'Fișierul original nu poate fi descărcat.',
 );
@@ -959,7 +1024,7 @@ $messages['vi'] = array(
 	'categories' => 'Thể loại',
 	'remove_cats' => 'Gỡ thể loại hiện có',
 	'use_checkusage' => 'Sử dụng $1CommonsSense$2 để gợi ý thêm thể loại',
-	'use_tusc' => 'Sử dụng $1TUSC$2 để chuyển tập tin thẳng',
+	'use_tusc' => 'Sử dụng $1TUSC$2 để chuyển tập tin trực tiếp',
 	'tusc_user' => 'Tên người dùng TUSC',
 	'tusc_pass' => 'Mật khẩu TUSC',
 	'do_it' => 'Chuyển',
@@ -970,6 +1035,20 @@ $messages['vi'] = array(
 	'error_no_meta' => 'Không tìm thấy siêu dữ liệu về wiki nguồn! $1Liên kết$2',
 	'error_meta_no_good' => 'Siêu dữ liệu: Không tìm thấy bản mẫu hợp! $1Liên kết$2',
 	'error_meta_bad' => 'Siêu dữ liệu: Tìm thấy bản mẫu không phù hợp! $1Liên kết$2',
+	'original_wikitext' => 'Mã wiki gốc',
+	'new_wikitext' => 'Mã wiki mới',
+	'new_filename' => 'Tên tập tin mới:',
+	'output_information' => 'Để tải lên thủ công, sửa đổi văn bản ở trên (nếu cần), lưu giữ $1tập tin này$2 vào máy cu/a bạn, rồi',
+	'upload_it' => 'tải nó lên',
+	'target_wiki' => 'wiki đích',
+	'error_bot_blocked' => 'Bot tải lên đã bị cấm tại Wikimedia Commons.',
+	'error_upload_meta' => 'Không thể tải lên trực tiếp vì lỗi trong siêu dữ liệu (xem bên trên)!',
+	'error_tusc_failed' => 'TUSC thất bại xác minh!',
+	'error_only_commons' => 'Chỉ có thể tải trực tiếp lên Wikimedia Commons!',
+	'upload_control_text' => 'Xin hãy kiểm tra mã wiki mới và bấm nút “Tải lên!” nếu đâu vào đấy!',
+	'error_commons_user' => 'Miêu tả cần phải có tên người dùng Wikimedia Commons của bạn để xác định được người chuyển!',
+	'error_upload_users' => 'Chức năng tải lên chỉ có sẵn cho một số người trong thời gian thử nghiệm!',
+	'error_upload_file' => 'Không thể tải xuống tập tin gốc.',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)

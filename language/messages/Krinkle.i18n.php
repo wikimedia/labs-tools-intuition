@@ -198,6 +198,15 @@ $messages['tl'] = array(
 	'alws-group-allaz' => 'Lahat ng mga wiki ayon sa abakada',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'alws-selectwiki' => '(chọn wiki)',
+	'alws-group-mustused' => 'Các wiki được sử dụng nhiều nhất',
+	'alws-group-allaz' => 'Tất cả các wiki theo thứ tự chữ cái',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  */
