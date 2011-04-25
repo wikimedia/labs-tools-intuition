@@ -159,6 +159,13 @@ $messages['sr-el'] = array(
 	'title' => 'Skorašnja aktivnost anonimnih korisnika',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'title' => 'అజ్ఞాతల ఇటీవరి కార్యకలాపం',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */

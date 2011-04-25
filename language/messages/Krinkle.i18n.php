@@ -189,6 +189,15 @@ $messages['sr-el'] = array(
 	'alws-group-allaz' => 'Sve vikije abecednim redom',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'alws-selectwiki' => '(వికీని ఎంచుకోండి)',
+	'alws-group-mustused' => 'ఎక్కువగా ఉపయోగించే వికీలు',
+	'alws-group-allaz' => 'అక్షరక్రమంలో అన్ని వికీలు',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */

@@ -71,6 +71,14 @@ $messages['af'] = array(
 	'view-source' => 'Wys bronteks',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'welcome' => 'مرحبا',
+	'form-submit' => 'اذهب',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

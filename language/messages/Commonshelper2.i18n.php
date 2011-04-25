@@ -130,6 +130,14 @@ $messages['af'] = array(
 	'upload_it' => 'laai dit',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'language' => 'اللغة',
+	'project' => 'المشروع',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -226,6 +234,11 @@ $messages['be-tarask'] = array(
 	'target_file' => 'Мэтавы файл',
 	'commons_username' => 'Імя ўдзельніка Wikimedia Commons',
 	'commons_to_project' => 'Wikimedia Commons у праект',
+	'move_file_from_com' => 'Перанесьці файл з Wikimedia Commons у праект',
+	'categories' => 'Катэгорыі',
+	'remove_cats' => 'Выдаліць існуючыя катэгорыі',
+	'use_checkusage' => 'Выкарыстоўваць $1CommonSense$2, каб прапанаваць новыя катэгорыі',
+	'use_tusc' => 'Выкарыстоўвайце $1 TUSC $2 для непасрэднай перадачы файлаў',
 );
 
 /** Bulgarian (Български)
@@ -616,17 +629,25 @@ $messages['ksh'] = array(
 	'remove_cats' => 'Donn de Saachjroppe fottnämme, di ald doh sin.',
 	'checkusage' => 'Donn eruß fenge, woh di Dattei all en Jebruch es.',
 	'use_checkusage' => 'Lohß <i lang="en">$1CommonSense$2</i> neu Saachjroppe för die Dattei vörschlonn',
+	'use_tusc' => 'Nämm <i lang="en">TUSC</i> för die Dattei tiräk huhzelaade.
+',
 	'tusc_user' => 'Dä Metmaacher_Name beim <i lang="en">TUSC</i>',
 	'tusc_pass' => 'Et Paßwoot för et <i lang="en">TUSC</i>',
 	'do_it' => 'Lohß jonn!',
 	'error_transfer_usr' => 'Et es keine Metmaacher_Name för de <i lang="en">Wikimedia Commons</i> aanjejovve.',
 	'error_not_exists' => 'Esu en Ursprungs_Dattei jidd_et nit.',
+	'error_file_exists' => 'Di Dattei jidd_et ald op {{GRAMMAR:Dativ|$3}} onger däm Naame "$1$4$2"!
+',
+	'error_diff_exists' => 'Ongerscheidlijje Datteije med_enem ejaale Name sen ald em Wiki!',
+	'error_no_meta' => 'Kein joode $Mettadaate$2 em Wiki jefonge.
+',
 	'error_meta_no_good' => 'Mettadaate: Kein joode $1Schabloon$2 jefonge.
 ',
 	'error_meta_bad' => 'Mettadaate: De $1Schabloon$2 es esu nit ze bruche.',
 	'original_wikitext' => 'Dä Ojinaal_Wiki_Täx doh drövver:',
 	'new_wikitext' => 'Dä neue Wiki_Täx drövver:',
 	'new_filename' => 'Dä neue Name fö di Dattei:',
+	'output_information' => 'För et Huhlaade vun Hand, donn bovve dä Täx aanpaße, wann nüüdesh, donn di $1Dattei$2 op Dingem Rääschner aflääje, un dann',
 	'upload_it' => 'Lohß jonn!',
 	'target_wiki' => 'Et Ziel_Wiki',
 	'error_bot_blocked' => 'Däm Bot singe Zohjang op <i lang="en">Wikimedia Commons</i> es jraad jeshperrt.',
@@ -650,6 +671,8 @@ $messages['lb'] = array(
 	'source_file' => 'Quell-Fichier',
 	'target_file' => 'Zil-Fichier',
 	'commons_username' => 'Benotzernumm op Wikimedia Commons',
+	'commons_to_project' => 'Vu Wikimedia Commons op de Projet',
+	'move_file_from_com' => 'De Fichier vu Wikimedia Commons op de Projet réckelen',
 	'categories' => 'Kategorien',
 	'remove_cats' => 'Déi Kategorien déi et gëtt ewechhuelen',
 	'checkusage' => 'CheckUsage',
@@ -958,6 +981,18 @@ $messages['sr-el'] = array(
 	'error_commons_user' => 'Da bismo prepoznali korisnika koji prenosi datoteke, vaše korisničko ime na Vikimedijinoj ostavi mora biti u opisu.',
 	'error_upload_users' => 'Mogućnost otpremanja je dostupna samo nekim korisnicima tokom probnog perioda.',
 	'error_upload_file' => 'Izvorna datoteka ne može biti preuzeta.',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'language' => 'భాష',
+	'categories' => 'వర్గాలు',
+	'tusc_user' => 'TUSC వాడుకరిపేరు',
+	'tusc_pass' => 'TUSC సంకేతపదం',
+	'original_wikitext' => 'అసలు వికీ పాఠ్యం',
+	'new_wikitext' => 'కొత్త వికీ పాఠ్యం',
 );
 
 /** Tagalog (Tagalog)

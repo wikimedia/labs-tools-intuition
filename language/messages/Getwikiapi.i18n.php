@@ -50,6 +50,13 @@ $messages['af'] = array(
 	'settings-legend' => 'Instellings',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'settings-legend' => 'إعدادات',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

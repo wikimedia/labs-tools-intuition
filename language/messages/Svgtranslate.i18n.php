@@ -118,15 +118,22 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author OsamaK
  * @author ترجمان05
  */
 $messages['ar'] = array(
 	'error-nothing' => 'لا شيء للترجمة.',
 	'th-translation' => 'الترجمة',
 	'th-language' => 'اللغة',
+	'th-username' => 'اسم المستخدم',
+	'th-password' => 'كلمة السر',
 	'preview' => 'معاينة',
 	'translate' => 'ترجم',
 	'svginput-label' => 'ملف SVG',
+	'uploading' => 'يرفع',
+	'preview-hide' => 'أخفِ المعاينة',
+	'preview-refresh' => 'أنعش المعاينة',
+	'description-license' => 'اختر وصفا ورخصة',
 );
 
 /** Asturian (Asturianu)
@@ -820,6 +827,7 @@ $messages['lb'] = array(
 	'stats-footer' => "Dësen Tool gouf zënter dem $2 benotzt fir ongeféier $1 Fichieren z'iwwersetzen.",
 	'uploading' => 'Eroplueden',
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
+	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 );
 
 /** Lithuanian (Lietuvių)

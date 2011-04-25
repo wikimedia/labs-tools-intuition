@@ -132,6 +132,7 @@ Donn se enfölle, ih dat de wigger määß.',
  * @author Robby
  */
 $messages['lb'] = array(
+	'title' => 'Jarry1250 Toolserver Toolen',
 	'moretools' => 'méi Toole vum selwechten Auteur',
 	'comments' => 'Bemierkungen an Ufroen',
 );

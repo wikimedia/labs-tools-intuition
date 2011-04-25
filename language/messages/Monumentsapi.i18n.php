@@ -42,6 +42,13 @@ $messages['af'] = array(
 	'search-table-th-search' => 'Soek',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'search-table-th-search' => 'ابحث',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -152,6 +159,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'title' => 'Monuments API',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sichen',
 );
@@ -223,6 +231,13 @@ $messages['sr-el'] = array(
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Pretraga',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'search-table-th-search' => 'వెతుకు',
 );
 
 /** Tagalog (Tagalog)
