@@ -72,11 +72,20 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Mutarjem horr
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'hello' => 'أهلاّ بك',
 	'welcome' => 'مرحبا',
-	'form-submit' => 'اذهب',
+	'toolversionstamp' => 'الإصدار $1 ($2)',
+	'etc' => 'و إلى آخره',
+	'form-submit' => 'إنطلق',
+	'weeks' => 'أسابيع',
+	'days' => 'أيام',
+	'hours' => 'ساعات',
+	'last-modified-date' => 'آخر تغيير: $1',
+	'view-source' => 'شاهد المصدر',
 );
 
 /** Asturian (Asturianu)
@@ -96,6 +105,18 @@ $messages['ast'] = array(
 	'hours' => 'hores',
 	'last-modified-date' => 'Caberu cambéu: $1',
 	'view-source' => 'Ver códigu fonte',
+);
+
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'hello' => 'Salam',
+	'form-reset' => 'Qur',
+	'years' => 'illər',
+	'weeks' => 'həftələr',
+	'days' => 'günlər',
+	'hours' => 'saatlar',
 );
 
 /** Belarusian (Беларуская)

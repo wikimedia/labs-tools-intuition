@@ -53,6 +53,17 @@ $messages['be'] = array(
 	'error-form-empty' => 'Адно або некалькі абавязковых палёў пакінутыя пустымі. Вы мусіце запоўніць іх, перш чым працягваць',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'title' => 'Ostilhoù ar servijer ostilhoù Jarry1250',
+	'moretools' => 'Ostilhoù ouzhpenn digant an hevelep aozer',
+	'bugs' => "Kemennoù drein ha goulennou arc'hwelioù",
+	'comments' => 'Evezhiadennoù ha goulennoù',
+	'error-form-empty' => "Lezet ez eus bet goullo ur vaezienn ret pe meur a hini. Ret eo deoc'h leuniañ anezho evit gallout kenderc'hel.",
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */

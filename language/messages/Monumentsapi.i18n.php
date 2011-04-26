@@ -59,6 +59,14 @@ $messages['ast'] = array(
 	'search-table-th-search' => 'Guetar',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'search-table-th-filter' => 'Filtrlər',
+	'search-table-th-search' => 'Axtar',
+);
+
 /** Belarusian (Беларуская)
  * @author LexArt
  */
@@ -73,6 +81,7 @@ $messages['be'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
+	'title' => 'Savadurioù API',
 	'search-table-th-field' => 'Maezienn',
 	'search-table-th-filter' => 'Sil',
 	'search-table-th-search' => 'Klask',

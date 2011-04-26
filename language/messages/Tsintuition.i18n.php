@@ -120,6 +120,13 @@ $messages['ast'] = array(
 	'help-translate-tooltip' => 'Ayuda a otres persones traduciendo los mensaxes de la interfaz a la to llingua.',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'tab-about' => 'İzah',
+);
+
 /** Belarusian (Беларуская)
  * @author LexArt
  */

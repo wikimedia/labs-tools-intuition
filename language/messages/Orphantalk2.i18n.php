@@ -116,6 +116,16 @@ $messages['ast'] = array(
 	'resultslimited' => 'Los resultaos tan llendaos a $1 páxines.',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'limit' => 'Limit',
+	'page' => 'Səhifə',
+	'tools-delete' => 'sil',
+	'tools-links' => 'keçidlər',
+);
+
 /** Belarusian (Беларуская)
  * @author LexArt
  */

@@ -56,6 +56,15 @@ $messages['be'] = array(
 	'alws-group-allaz' => 'Усе вікі па алфавіце',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'alws-selectwiki' => '(dibab ar wiki)',
+	'alws-group-mustused' => 'Wikioù implijet ar muiañ',
+	'alws-group-allaz' => 'An holl wikioù en urzh al lizherenneg',
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */

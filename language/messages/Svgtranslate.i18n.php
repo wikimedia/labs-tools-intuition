@@ -174,6 +174,19 @@ $messages['ast'] = array(
 	'finalise' => 'Finar detalles',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'th-original' => 'Orijinal',
+	'th-translation' => 'Tərcümə',
+	'th-language' => 'Dil',
+	'th-username' => 'İstifadəçi adı',
+	'th-password' => 'Parol',
+	'th-method' => 'Üsul',
+	'translate' => 'Tərcümə et',
+);
+
 /** Belarusian (Беларуская)
  * @author LexArt
  */
@@ -1357,6 +1370,7 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Liangent
  * @author Shizhao
  */
 $messages['zh-hans'] = array(
@@ -1389,6 +1403,7 @@ $messages['zh-hans'] = array(
 	'preview-hide' => '隐藏预览',
 	'preview-refresh' => '刷新预览',
 	'error-must-accept' => '若要继续直接上载，您必须接受提供的使用条款。',
+	'error-tusc-failed' => 'TUSC验证失败：用户名或密码不正确。',
 	'description-license' => '选择描述和许可证',
 	'finalise' => '敲定细节',
 );

@@ -173,6 +173,15 @@ $messages['ast'] = array(
 	'new_filename' => 'Nuevu nome de ficheru:',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'attention' => 'Diqqət',
+	'language' => 'Dil',
+	'project' => 'Layihə',
+);
+
 /** Belarusian (Беларуская)
  * @author LexArt
  */
@@ -239,6 +248,11 @@ $messages['be-tarask'] = array(
 	'remove_cats' => 'Выдаліць існуючыя катэгорыі',
 	'use_checkusage' => 'Выкарыстоўваць $1CommonSense$2, каб прапанаваць новыя катэгорыі',
 	'use_tusc' => 'Выкарыстоўвайце $1 TUSC $2 для непасрэднай перадачы файлаў',
+	'tusc_user' => 'Імя карыстальніка TUSC',
+	'tusc_pass' => 'Пароль TUSC',
+	'do_it' => 'Зрабіць гэта',
+	'error_transfer_usr' => 'Вы не ўстанавілі імя ўдзельніка Wikimedia Commons',
+	'error_not_exists' => 'Крынічны файл не існуе!',
 );
 
 /** Bulgarian (Български)
@@ -260,11 +274,44 @@ $messages['bg'] = array(
  */
 $messages['br'] = array(
 	'attention' => 'Diwallit',
+	'description' => 'Un ostilh da dreuzkas restroù eus raktresoù Wikimedia war-du Wikimedia Commons',
+	'change_meta' => 'Kemmañ $1ar rummad hag arventennoù ar patrom$2 evit $3',
+	'jira_link' => "Kas keloù eus un draen pe kinnig un arc'hwel",
 	'language' => 'Yezh',
 	'project' => 'Raktres',
 	'source_file' => 'Restr orin',
+	'target_file' => 'Restr da vukañ',
+	'commons_username' => 'Anv implijer evit Wikimedia Commons',
+	'commons_to_project' => "Wikimedia Commons d'ar raktres",
+	'move_file_from_com' => "Treuzkas a ra ar restr eus Wikimedia Commons d'ar raktres",
 	'categories' => 'Rummadoù',
+	'remove_cats' => 'Diverkañ a ra ar rummadoù zo anezho',
+	'use_checkusage' => 'Implijout $1CommonSense$2 da ginnig rummadoù nevez',
+	'use_tusc' => 'Implijout $1TUSC$2 da dreuzkas ar restr war-eeun',
+	'tusc_user' => 'Anv implijer TUSC',
+	'tusc_pass' => 'Ger-tremen TUSC',
 	'do_it' => "Bec'h de'i",
+	'error_transfer_usr' => "N'hoc'h eus ket termenet a anv implijer evit Wikimedia Commons",
+	'error_not_exists' => "N'eus ket eus ar restr orin !",
+	'error_file_exists' => 'Bez\' ez eus c\'hoazh eus ar restr war $3 evel "$1$4$2" !',
+	'error_diff_exists' => "Bez'ez eus c'hoazh eus ur restr da vukañ disheñvel war ar wiki da vukañ gant an hevelep anv !",
+	'error_no_meta' => "N'eus ket bet kavet a vetaroadennoù evit ar wiki orin ! $1Liamm$2",
+	'error_meta_no_good' => "Metaroadennoù : n'eus ket bet kavet a batrom mat ! $1Liamm$2",
+	'error_meta_bad' => 'Metaroadennoù : patrom fall kavet ! $1Liamm$2',
+	'original_wikitext' => 'Wikitestenn orin',
+	'new_wikitext' => 'Wikitestenn nevez',
+	'new_filename' => 'Anv restr nevez :',
+	'output_information' => 'Evit an enporzhiañ dre zorn, cheñchit an destenn a-us (mar bez ret), enrollit $1ar restr$2 war ho urzhiataer hag',
+	'upload_it' => 'enporzhiit anezhi',
+	'target_wiki' => 'ar wiki buket',
+	'error_bot_blocked' => 'Stanket eo ar robot enporzhiañ war Wikimedia Commons.',
+	'error_upload_meta' => "N'eus ket bet gallet enporzhiañ war-eeun abalamour d'ur gudenn gant ar metaroadennoù (sellit a-us) !",
+	'error_tusc_failed' => 'Fazi gwiriañ TUSC !',
+	'error_only_commons' => "Ne'z a an enporzhiañ eeun en-dro nemet war Wikimedia Commons !",
+	'upload_control_text' => 'Gwiriit ar wikitestenn nevez ha klikit war "Enporzhiañ" mard eo mat pep tra !',
+	'error_commons_user' => "Evit anaout an implijer a gas an treuzkas da benn e rank hoc'h anv implijer evit Wikimedia Commons bezañ merket en deskrivadenn !",
+	'error_upload_users' => "N'eo hegerz an arc'hwel enporzhiañ nemet evit implijerien zo e-pad ar prantad esae !",
+	'error_upload_file' => "N'eus ket bet gallet pellgagañ ar restr orin.",
 );
 
 /** Danish (Dansk)
@@ -459,12 +506,49 @@ $messages['fi'] = array(
 );
 
 /** French (Français)
+ * @author IAlex
  * @author Od1n
  */
 $messages['fr'] = array(
+	'attention' => 'Attention',
+	'description' => 'Un outil pour transférer des fichiers des projets Wikimedia vers Wikimedia Commons',
+	'change_meta' => 'Modifie la $1catégorie et les paramètres du modèle$2 pour $3',
 	'jira_link' => 'Signaler un bug ou suggérer une fonctionnalité',
 	'language' => 'Langue',
 	'project' => 'Projet',
+	'source_file' => 'Fichier source',
+	'target_file' => 'Fichier cible',
+	'commons_username' => "Nom d'utilisateur Wikimedia Commons",
+	'commons_to_project' => 'Wikimedia Commons au projet',
+	'move_file_from_com' => 'Déplace le fichier de Wikimedia Commons vers le projet',
+	'categories' => 'Catégories',
+	'remove_cats' => 'Supprime les catégories existantes',
+	'use_checkusage' => 'Utiliser $1CommonSense$2 pour suggérer les nouvelles catégories',
+	'use_tusc' => 'Utiliser $1TUSC$2 pour transférer le fichier directement',
+	'tusc_user' => "Nom d'utilisateur TUSC",
+	'tusc_pass' => 'Mot de passe TUSC',
+	'do_it' => 'Le faire',
+	'error_transfer_usr' => "Vous n'avez pas défini un nom d'utilisateur Wikimedia Commons",
+	'error_not_exists' => "Le fichier source n'existe pas !",
+	'error_file_exists' => 'Le fichier existe déjà sur $3 en tant que « $1$4$2 » !',
+	'error_diff_exists' => 'Un fichier cible différent existe sur le wiki cible avec le même nom !',
+	'error_no_meta' => "Aucune métadonnée trouvée pour le wiki d'origine ! $1Liens$2",
+	'error_meta_no_good' => 'Métadonnées : pas de bon modèle trouvé ! $1Lien$2',
+	'error_meta_bad' => 'Métadonnées : mauvais modèle trouvé ! $1Lien$2',
+	'original_wikitext' => 'Wikitexte original',
+	'new_wikitext' => 'Nouveau wikitexte',
+	'new_filename' => 'Nouveau nom de fichier :',
+	'output_information' => 'Pour le téléversement manuel, modifier le texte ci-dessus (si nécessaire), enregistrez $1le fichier$2 sur votre ordinateur, puis',
+	'upload_it' => 'le téléverser',
+	'target_wiki' => 'le wiki cible',
+	'error_bot_blocked' => 'Le robot de téléversement est bloqué sur Wikimedia Commons.',
+	'error_upload_meta' => "Impossible de téléverser directement parce qu'il y a problème avec les métadonnées (voir ci-dessus) !",
+	'error_tusc_failed' => 'La vérification TUSC a échoué !',
+	'error_only_commons' => 'Le téléversement direct ne fonctionne que sur Wikimedia Commons !',
+	'upload_control_text' => 'Veuillez vérifier le nouveau wikitexte et cliquer sur « Téléverser ! » si tout est OK !',
+	'error_commons_user' => "Pour identifier l'utilisateur qui effectue le transfert, votre nom d'utilisateur de Wikimedia Commons doit figurer dans la description !",
+	'error_upload_users' => "La fonction de téléversement est uniquement disponible pour certains utilisateurs durant la période d'essai !",
+	'error_upload_file' => 'Le fichier original ne peut être pas être téléchargé.',
 );
 
 /** Hebrew (עברית)
@@ -889,6 +973,15 @@ $messages['ro'] = array(
 	'error_commons_user' => 'Pentru a identifica utilizatorul care a efectuat transferul, numele dumneavoastră de utilizator de la Wikimedia Commons trebuie să se afle în descriere!',
 	'error_upload_users' => 'Funcția de încărcare este disponibilă doar pentru unii utilizatori în timpul perioadei de testare!',
 	'error_upload_file' => 'Fișierul original nu poate fi descărcat.',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'attention' => 'Attenzione',
+	'language' => 'Lènghe',
+	'project' => 'Proggette',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
