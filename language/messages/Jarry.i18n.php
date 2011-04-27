@@ -105,6 +105,17 @@ $messages['fr'] = array(
 	'error-form-empty' => 'Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer.',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'title' => 'Toolserver alati Jarry1250',
+	'moretools' => 'više alata od istog autora',
+	'bugs' => 'prijava grešaka i zahtijevi za nove mogućnosti',
+	'comments' => 'primjedbe i upiti',
+	'error-form-empty' => 'Jedno ili više obaveznih polja su prazna. Trebali bi ih dovršiti prije nastavka.',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -146,6 +157,13 @@ $messages['lb'] = array(
 	'title' => 'Jarry1250 Toolserver Toolen',
 	'moretools' => 'méi Toole vum selwechten Auteur',
 	'comments' => 'Bemierkungen an Ufroen',
+);
+
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'title' => 'Jarry1250 Toolserver rīki',
 );
 
 /** Macedonian (Македонски)
@@ -192,6 +210,17 @@ $messages['ro'] = array(
 	'error-form-empty' => 'Unul sau mai multe câmpuri obligatorii nu sunt completate. Ar trebui să le completați înainte de a continua.',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'title' => "Jarry1250's Toolserver Tools",
+	'moretools' => 'več orodij istega avtorja',
+	'bugs' => 'poročila o hroščih in predlogi funkcij',
+	'comments' => 'pripombe in poizvedbe',
+	'error-form-empty' => 'Eno ali več obveznih polj ni bilo izpolnjenih. Pred nadaljevanjem jih morate izpolniti.',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  */
@@ -212,6 +241,17 @@ $messages['sr-el'] = array(
 	'bugs' => 'prijava greški i zahtevi za nove mogućnosti',
 	'comments' => 'komentari i upiti',
 	'error-form-empty' => 'Niste popunili sva obavezna polja. Uradite to pre nego što nastavite.',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ */
+$messages['sv'] = array(
+	'title' => "Jarry1250's Toolserver Tools",
+	'moretools' => 'fler verktyg från samma författare',
+	'bugs' => 'felrapporter och önskemål om utökad funktionalitet',
+	'comments' => 'kommentarer och frågor',
+	'error-form-empty' => 'Ett eller flera obligatoriska fält har lämnats tomt. Du bör fylla i dem innan du fortsätter.',
 );
 
 /** Tagalog (Tagalog)

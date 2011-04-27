@@ -134,6 +134,16 @@ $messages['fr'] = array(
 	'search-table-th-search' => 'Rechercher',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Polje',
+	'search-table-th-filter' => 'Filtar',
+	'search-table-th-search' => 'Traži',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -222,6 +232,16 @@ $messages['ro'] = array(
 	'search-table-th-search' => 'Caută',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Polje',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Iskanje',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  */
@@ -240,6 +260,16 @@ $messages['sr-el'] = array(
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Pretraga',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ */
+$messages['sv'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Fält',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Sök',
 );
 
 /** Telugu (తెలుగు)

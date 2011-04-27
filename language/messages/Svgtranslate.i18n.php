@@ -655,6 +655,44 @@ $messages['he'] = array(
 	'stats-footer' => 'הכלי הזה שימש לתרגום של כ־$1 קבצים מאז $2.',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'title' => 'SVG Prevoditelj',
+	'error-tryagain' => '$1 Kliknite na gumb „Nazad“ svog preglednika za ponovni postupak.',
+	'error-nothing' => 'Ništa za prevođenje.',
+	'error-notsvg' => 'Nije SVG datoteka.',
+	'error-unexpected' => 'Pojavila se neočekivana pogreška.',
+	'error-notfound' => 'SVG datoteku nije moguće dohvatiti iz URL-a.',
+	'error-upload' => 'Došlo je do pogreške pri učitavanju.',
+	'begin-translation' => 'Započnite prijevod',
+	'th-original' => 'Izvorno',
+	'th-translation' => 'Prijevod',
+	'th-language' => 'Jezik',
+	'th-username' => 'Suradničko ime',
+	'th-password' => 'Lozinka',
+	'th-method' => 'Način',
+	'option-tusc' => 'TUSC (automatsko postavljanje)',
+	'option-manual' => 'Ručno postavljanje',
+	'preview' => 'Pregled',
+	'translate' => 'Prevedi',
+	'translate-instructions' => 'Unosi su prihvaćeni kao nazivi datoteka (npr. "$1") ili puni URL (npr."$2"). Ako se rabi prva mogućnost, Zajednički poslužitelj će se pretpostaviti kao izvor. Da biste preveli SVG s druge stranice ili wiki, morate koristiti puni oblik URL-a.',
+	'svginput-label' => 'SVG datoteka',
+	'stats-footer' => 'Ova alat se rabi za prevođenje približno $1 datoteka od $2.',
+	'uploading' => 'Postavljanje',
+	'upload-complete' => 'Postavljanje uspješno završeno. Slika bi trebala sada biti na $1',
+	'editdescriptionpage' => 'Uredi novu stranicu s opisom',
+	'disclaimer' => 'Neki anonimni podaci će se prikupljati u statističke svrhe. Ako je navedeno, TUSC suradnička imena također će biti zapisana kao pomoć u slučaju vandalizma. Lozinke nikada neće biti snimljene.',
+	'author-complete' => 'Molimo Vas da popunite informacije o autoru!',
+	'preview-hide' => 'Sakrij pregled',
+	'preview-refresh' => 'Osvježi pregled',
+	'error-must-accept' => 'Da biste nastavili s izravnim postavljanjem morate prihvatiti uvjete uporabe kako su navedeni.',
+	'error-tusc-failed' => 'TUSC provijera nije uspijela: suradničko ime ili lozinka su neispravni.',
+	'description-license' => 'Odaberite opis i licenciju',
+	'finalise' => 'Dovrši detalje',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -877,6 +915,17 @@ $messages['lt'] = array(
 	'preview-refresh' => 'Atnaujinti peržiūrą',
 );
 
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'th-username' => 'Lietotājvārds',
+	'th-password' => 'Parole',
+	'th-method' => 'Metode',
+	'svginput-label' => 'SVG fails',
+	'uploading' => 'Augšupielādē',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -975,12 +1024,35 @@ $messages['mt'] = array(
  */
 $messages['ne'] = array(
 	'title' => 'एस भी जी अनुवाद गर्ने',
+	'error-tryagain' => '$1 पुनः प्रयास गर्न ब्राउजरको  back बटनमा थिच्नुहोस्।',
 	'error-nothing' => 'अनुवाद गर्नु पर्ने केहि छैन।',
 	'error-notsvg' => 'यो एस भी जी फाइल होइन।',
 	'error-unexpected' => 'एउटा अप्रत्यसित त्रुटि भएको छ।',
+	'error-notfound' => 'दिइएको URLबाट SVG फाइल पाइएन।',
+	'error-upload' => 'उर्ध्वभरण(uploading)मा त्रुटि भयो।',
 	'begin-translation' => 'अनुवाद सुरु गर्ने',
+	'th-original' => 'मूल',
 	'th-translation' => 'अनुवाद',
 	'th-language' => 'भाषा',
+	'th-username' => 'प्रयोगकर्ता-नाम',
+	'th-password' => 'पासवर्ड',
+	'th-method' => 'विधि',
+	'option-tusc' => 'TUSC (स्वतः उर्ध्वभरण)',
+	'option-manual' => 'हातद्वारा उर्ध्वभरण',
+	'preview' => 'पूर्वावलोकन',
+	'translate' => 'अनुवाद गर्ने',
+	'svginput-label' => 'SVG फाइल',
+	'stats-footer' => '$2देखि लगभग $1 फाइलहरुको अनुवादमा यस औजारको प्रयोग गरियो।',
+	'uploading' => 'उर्ध्वभरण गरिँदै',
+	'upload-complete' => 'उर्ध्वभरण सफलता पूर्वक सम्पन्न भयो। चित्र अहिले  $1मा हुनुपर्छ।',
+	'editdescriptionpage' => 'नयाँ विवरण पृष्ठ सम्पादन गर्ने',
+	'author-complete' => 'कृपया रचयिता जानकारी पूरा गर्नुहोस्!',
+	'preview-hide' => 'पूर्वावलोकन लुकाउने',
+	'preview-refresh' => 'पूर्वावलोकन ताजा पार्ने',
+	'error-must-accept' => 'प्रत्यक्ष उर्ध्वभरण अघि बढाउन तपाईंले दिइएका प्रयोग शर्तहरु स्वीकार गर्नुपर्छ।',
+	'error-tusc-failed' => 'TUSC सत्यापन असफल: प्रयोगकर्ता नाम अथवा पासवर्डमा त्रुटि।',
+	'description-license' => 'विवरण र लाइसेन्स चुन्ने',
+	'finalise' => 'विवरणहरुलाई अन्तिम रुप दिने',
 );
 
 /** Dutch (Nederlands)
@@ -1245,6 +1317,45 @@ $messages['sr-el'] = array(
 	'error-tusc-failed' => 'TUSC provera nije uspela: korisničko ime ili lozinka su neispravni.',
 	'description-license' => 'Izaberite opis i licencu',
 	'finalise' => 'Dovrši detalje',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'title' => 'SVG-översättning',
+	'error-tryagain' => '$1 Tryck på webbläsarens tillbaka-knapp för att försöka igen.',
+	'error-nothing' => 'Inget att översätta.',
+	'error-notsvg' => 'Inte en SVG-fil.',
+	'error-unexpected' => 'Ett oväntat fel uppstod.',
+	'error-notfound' => 'SVG-filen kunde inte hämtas från den angivna adressen.',
+	'error-upload' => 'Ett fel uppstod under uppladdningen.',
+	'begin-translation' => 'Börja översättning',
+	'th-original' => 'Original',
+	'th-translation' => 'Översättning',
+	'th-language' => 'Språk',
+	'th-username' => 'Användarnamn',
+	'th-password' => 'Lösenord',
+	'th-method' => 'Metod',
+	'option-tusc' => 'TUSC (automatisk uppladdning)',
+	'option-manual' => 'Manuell uppladdning',
+	'preview' => 'Förhandsgranska',
+	'translate' => 'Översätt',
+	'translate-instructions' => 'Indata accepteras som antingen filnamn (t.ex. "$1") eller fullständig URL-adress (t.ex. "$2"). Om det första alternativet används kommer Wikimedia Commons antas som källa. För att översätta en SVG-fil från en annan webbplats eller wiki, måste du använda det fullständiga URL-adressen.',
+	'svginput-label' => 'SVG-fil',
+	'stats-footer' => 'Detta verktyg har använts för att översätta cirka $1 filer sedan $2 .',
+	'uploading' => 'Laddar upp',
+	'upload-complete' => 'Uppladdningen har slutförts. Bilden bör nu finnas på $1',
+	'editdescriptionpage' => 'Redigera den nya beskrivningssidan',
+	'disclaimer' => 'Viss anonym data kommer att privat samlas in för statistiska ändamål. Om angivet, kommer TUSC-användarnamn också registreras för att hjälpa vid händelse av vandalism. Lösenord kommer aldrig registreras.',
+	'author-complete' => 'Vänligen fyll i författarinformationen!',
+	'preview-hide' => 'Göm förhandsgranskning',
+	'preview-refresh' => 'Uppdatera förhandsvisningen',
+	'error-must-accept' => 'För att fortsätta med en direkt uppladdning måste du acceptera användningsvilkoren.',
+	'error-tusc-failed' => 'TUSC-valideringen misslyckades: användarnamn eller lösenordet är felaktigt.',
+	'description-license' => 'Välj beskrivning och licens',
+	'finalise' => 'Färdigställ detaljer',
 );
 
 /** Telugu (తెలుగు)

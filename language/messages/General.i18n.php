@@ -386,6 +386,25 @@ $messages['he'] = array(
 	'days' => 'ימים',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'hello' => 'Pozdrav',
+	'welcome' => 'Dobrodošli',
+	'toolversionstamp' => 'Inačica $1 ($2)',
+	'etc' => 'itd.',
+	'namespace' => 'Imenski prostor',
+	'form-submit' => 'Idi',
+	'form-reset' => 'Poništi',
+	'years' => 'godine',
+	'weeks' => 'tjedana',
+	'days' => 'dana',
+	'hours' => 'sati',
+	'last-modified-date' => 'Zadnja izmjena: $1',
+	'view-source' => 'Prikaži izvor',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -422,6 +441,25 @@ $messages['ia'] = array(
 	'hours' => 'horas',
 	'last-modified-date' => 'Ultime modification: $1',
 	'view-source' => 'Vider texto fonte',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
+ */
+$messages['id'] = array(
+	'hello' => 'Halo',
+	'welcome' => 'Selamat datang',
+	'toolversionstamp' => 'Versi $1 ($2)',
+	'etc' => 'dll.',
+	'namespace' => 'Ruang nama',
+	'form-submit' => 'Kirim',
+	'form-reset' => 'Reset',
+	'years' => 'tahun',
+	'weeks' => 'minggu',
+	'days' => 'hari',
+	'hours' => 'jam',
+	'last-modified-date' => 'Terakhir diubah: $1',
+	'view-source' => 'Lihat sumber',
 );
 
 /** Italian (Italiano)
@@ -519,6 +557,16 @@ $messages['lt'] = array(
 	'view-source' => 'Peržiūrėti šaltinį',
 );
 
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'years' => 'gadi',
+	'weeks' => 'nedēļas',
+	'days' => 'dienas',
+	'hours' => 'stundas',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -556,6 +604,17 @@ $messages['ms'] = array(
 	'hours' => 'jam',
 	'last-modified-date' => 'Kali terakhir diubah: $1',
 	'view-source' => 'Lihat sumber',
+);
+
+/** Burmese (မြန်မာဘာသာ)
+ * @author Erikoo
+ */
+$messages['my'] = array(
+	'welcome' => 'ကြိုဆိုပါသည်',
+	'namespace' => 'အမည်ညွှန်းများ',
+	'form-submit' => 'သွား​ပါ​',
+	'form-reset' => 'Reset ချရန်',
+	'view-source' => 'ရင်းမြစ်ကို ကြည့်ရန်',
 );
 
 /** Dutch (Nederlands)
@@ -740,6 +799,25 @@ $messages['sr-el'] = array(
 	'hours' => 'sata',
 	'last-modified-date' => 'Poslednja izmena: $1',
 	'view-source' => 'Izvor',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ */
+$messages['sv'] = array(
+	'hello' => 'Hej',
+	'welcome' => 'Välkommen',
+	'toolversionstamp' => ' Version $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => 'Namnrymd',
+	'form-submit' => 'Gå',
+	'form-reset' => 'Nollställ',
+	'years' => 'år',
+	'weeks' => 'veckor',
+	'days' => 'dagar',
+	'hours' => 'timmar',
+	'last-modified-date' => 'Senast uppdaterad: $1',
+	'view-source' => 'Visa källkod',
 );
 
 /** Telugu (తెలుగు)

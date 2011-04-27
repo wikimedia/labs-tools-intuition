@@ -519,6 +519,34 @@ $messages['he'] = array(
 	'help-translate-tooltip' => 'עזרו לאחרים לתרגם את הודעות הממשק לשפתכם.',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'fullname' => 'Prijevod za suradničko sučelje Toolservera',
+	'current-settings' => 'Trenutne postavke',
+	'current-language' => 'Trenutačno odabrani jezik',
+	'settings-legend' => 'Postavke',
+	'choose-language' => 'Odaberite jezik',
+	'clear-cookies' => 'obrišite kolačiće',
+	'renew-cookies' => 'obnovite kolačiće',
+	'cookie-expiration' => 'Istjecanje kolačića',
+	'clearcookies-success' => 'Uspješno očišćeni kolačići.',
+	'renewcookies-success' => 'Kolačići su obnovljeni. Svi su postavljeni za sljedećih $1.',
+	'tab-overview' => 'Pregled',
+	'tab-settings' => 'Postavke',
+	'tab-about' => 'O',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Moje postavke jezika',
+	'bl-mysettings-new' => 'Promjena jezika!',
+	'bl-promo' => 'Za prijevode su zaslužni $1 i $2.',
+	'bl-changelanguage' => 'Kliknite ovdje za promjenu jezika sučelja za ovaj alat.',
+	'usage' => 'Alati koje je preveo Toolserver Intuition.',
+	'help-translate-tool' => 'Pomozite nam prevesti ovaj alat!',
+	'help-translate-all' => 'Pomozite nam da prevedemo Toolserver!',
+	'help-translate-tooltip' => 'Pomozite drugima prijevodom poruka sučelja na svoj jezik.',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -573,6 +601,34 @@ $messages['ia'] = array(
 	'help-translate-tool' => 'Adjuta a traducer iste instrumento!',
 	'help-translate-all' => 'Adjuta a traducer Toolserver!',
 	'help-translate-tooltip' => 'Adjuta alteres per traducer le messages de interfacie in tu lingua.',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
+ */
+$messages['id'] = array(
+	'fullname' => 'Internasionalisasi Antarmuka Pengguna Toolserver',
+	'current-settings' => 'Setelan sekarang',
+	'current-language' => 'Bahasa terpilih sekarang',
+	'settings-legend' => 'Setelan',
+	'choose-language' => 'Pilih bahasa',
+	'clear-cookies' => 'hapus kuki',
+	'renew-cookies' => 'perbarui kuki',
+	'cookie-expiration' => 'Kedaluwarsa kuki',
+	'clearcookies-success' => 'Kuki berhasil dihapus.',
+	'renewcookies-success' => 'Kuki diperbarui! Anda siap untuk $1 berikutnya.',
+	'tab-overview' => 'Gambaran',
+	'tab-settings' => 'Setelan',
+	'tab-about' => 'Perihal',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Setelan bahasa saya',
+	'bl-mysettings-new' => 'Ganti bahasa!',
+	'bl-promo' => 'Terjemahan didukung oleh $1 dan $2.',
+	'bl-changelanguage' => 'Klik di sini untuk mengganti bahasa antarmuka alat ini.',
+	'usage' => 'Alat yang diterjemahkan oleh Toolserver Intuition.',
+	'help-translate-tool' => 'Bantu menerjemahkan alat ini!',
+	'help-translate-all' => 'Bantu menerjemahkan Toolserver!',
+	'help-translate-tooltip' => 'Bantu orang lain dengan menerjemahkan pesan antarmuka ke dalam bahasa Anda.',
 );
 
 /** Italian (Italiano)
@@ -691,6 +747,13 @@ $messages['lt'] = array(
 	'help-translate-tooltip' => 'Padėkite kitiems versti sąsajos pranešimus į jūsų kalbą.',
 );
 
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'tab-about' => 'Par',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -756,6 +819,15 @@ $messages['mt'] = array(
 	'renew-cookies' => 'ġedded il-cookies',
 	'cookie-expiration' => 'Skadenza tal-cookie',
 	'clearcookies-success' => "Il-cookies ġew imneħħija b'suċċess.",
+);
+
+/** Burmese (မြန်မာဘာသာ)
+ * @author Erikoo
+ */
+$messages['my'] = array(
+	'choose-language' => 'ဘာသာစကား ရွေးချယ်ပါ',
+	'tab-about' => 'အကြောင်း',
+	'bl-mysettings-new' => 'ဘာသာစကား ရွေးချယ်ပါ!',
 );
 
 /** Dutch (Nederlands)
@@ -1040,6 +1112,35 @@ $messages['sr-el'] = array(
 	'help-translate-tool' => 'pomozite nam da prevedemo ovu alatku',
 	'help-translate-all' => 'Pomozite nam da prevedemo Tulserver.',
 	'help-translate-tooltip' => 'Pomozite drugima prevodivši poruke sučelja na svoj jezik',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'fullname' => 'Internationalisering för Toolservers användargränssnitt',
+	'current-settings' => 'Aktuella inställningar',
+	'current-language' => 'Valt språk',
+	'settings-legend' => 'Inställningar',
+	'choose-language' => 'Välj ett språk',
+	'clear-cookies' => 'rensa kakor',
+	'renew-cookies' => 'förnya kakor',
+	'cookie-expiration' => 'Kakors förfallodatum',
+	'clearcookies-success' => 'Lyckades rensa kakor.',
+	'renewcookies-success' => 'Cookies förnyade! Du är klar för de nästa $1.',
+	'tab-overview' => 'Översikt',
+	'tab-settings' => 'Inställningar',
+	'tab-about' => 'Om',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Mina språkinställningar',
+	'bl-mysettings-new' => 'Byt språk!',
+	'bl-promo' => 'Översättningar drivs av $1 och $2.',
+	'bl-changelanguage' => 'Klicka här för att ändra gränssnittsspråket för detta verktyg.',
+	'usage' => 'Verktyget översatt av Toolserver Intuition.',
+	'help-translate-tool' => 'Hjälp till att översätta detta verktyg!',
+	'help-translate-all' => 'Hjälpa till att översätta Toolserver!',
+	'help-translate-tooltip' => 'Hjälp andra genom att översätta gränssnittsmeddelanden till ditt språk.',
 );
 
 /** Telugu (తెలుగు)

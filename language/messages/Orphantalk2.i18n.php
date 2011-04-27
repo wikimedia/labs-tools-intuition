@@ -410,6 +410,31 @@ $messages['fr'] = array(
 	'resultslimited' => 'Les résultats ont été limités à $1 pages.',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Postavke',
+	'select-wiki-first' => '(prvo izaberite wiki)',
+	'hideredirects' => 'Sakrij preusmjeravanja',
+	'hidesubpages' => 'Sakrij podstranice',
+	'limit' => 'Ograničenje',
+	'page' => 'Stranica',
+	'redirect' => 'Je li preusmjerena?',
+	'output' => 'Odredište',
+	'update' => 'Osvježi',
+	'tools-delete' => 'izbriši',
+	'tools-links' => 'poveznice',
+	'tools-subject' => 'naslov',
+	'tools-hist' => 'pov',
+	'tools-curr' => 'sad',
+	'tools-globalusage' => 'globalna uporaba',
+	'deletesummary' => 'Čišćenje stranica za razgovor siročad preko $1',
+	'noresults' => 'Niti jedna stranica za razgovor siročad na ovom wikiju u ovom imenskom prostoru ne odgovara vašim postavkama.',
+	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -565,6 +590,13 @@ $messages['lt'] = array(
 	'deletesummary' => 'Valomi nereikalingi aptarimo puslapiai, naudojant $1',
 	'noresults' => 'Nerasta nenaudojamų aptarimų puslapių šioje wiki vardų srityje pagal jūsų nustatymus.',
 	'resultslimited' => 'Rezultatų limitas buvo $1 puslapių.',
+);
+
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'page' => 'Lapa',
 );
 
 /** Macedonian (Македонски)
@@ -862,6 +894,32 @@ $messages['sr-el'] = array(
 	'deletesummary' => 'Čišćenje tajnih stranica za razgovor preko $1',
 	'noresults' => 'Nijedna tajna stranica za razgovor se ne poklapa s postavkama u ovom imenskom prostoru.',
 	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'title' => 'OrphanTalk2',
+	'settings-legend' => 'Inställningar',
+	'select-wiki-first' => '(Välj en wiki först)',
+	'hideredirects' => 'Göm omdirigeringar',
+	'hidesubpages' => 'Dölj undersidor',
+	'limit' => 'Begränsning',
+	'page' => 'Sida',
+	'redirect' => 'Är omdirigering?',
+	'output' => 'Utdata',
+	'update' => 'Uppdatera',
+	'tools-delete' => 'radera',
+	'tools-links' => 'länkar',
+	'tools-subject' => 'ämne',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'nu',
+	'tools-globalusage' => 'global användning',
+	'deletesummary' => 'Rensar upp bland föräldralösa diskussionssidor via $1',
+	'noresults' => 'Inga föräldralösa diskussionssidor på denna wikin i denna namnrymden matchade dina inställningar.',
+	'resultslimited' => 'Resultaten var begränsade till $1 sidor.',
 );
 
 /** Telugu (తెలుగు)

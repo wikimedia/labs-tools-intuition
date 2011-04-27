@@ -213,6 +213,18 @@ $messages['fr'] = array(
 	'settings-legend' => 'Paramètres',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'formats-heading' => 'Izlazni formati',
+	'input' => 'Unos',
+	'label-wikiids' => 'Wiki identifikatori',
+	'no-matches' => 'Ništa ne odgovara "$1"',
+	'output' => 'Izlaz za "$1"',
+	'settings-legend' => 'Postavke',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -406,6 +418,18 @@ $messages['sr-el'] = array(
 	'no-matches' => 'Ništa se ne poklapa sa „$1“',
 	'output' => 'Izlaz za „$1“',
 	'settings-legend' => 'Postavke',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ */
+$messages['sv'] = array(
+	'formats-heading' => 'Utdataformat',
+	'input' => 'Indata',
+	'label-wikiids' => 'Wiki-identifierare',
+	'no-matches' => 'Ingenting matchade "$1"',
+	'output' => 'Utdata för "$1"',
+	'settings-legend' => 'Inställningar',
 );
 
 /** Telugu (తెలుగు)

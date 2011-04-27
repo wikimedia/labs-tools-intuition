@@ -53,6 +53,13 @@ $messages['br'] = array(
 	'title' => 'Obererezh dianv er mareoù-mañ',
 );
 
+/** Catalan (Català)
+ * @author Solde
+ */
+$messages['ca'] = array(
+	'title' => 'Activitat anònima recent',
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */
@@ -86,6 +93,13 @@ $messages['fa'] = array(
  */
 $messages['fr'] = array(
 	'title' => 'Activité anonyme récente',
+);
+
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'title' => 'Nedavna aktivnost anonimnih suradnika',
 );
 
 /** Hungarian (Magyar)
@@ -145,6 +159,13 @@ $messages['ro'] = array(
 	'title' => 'Recent anonymous activity',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'title' => 'Nedavna brezimna dejavnost',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  */
@@ -157,6 +178,13 @@ $messages['sr-ec'] = array(
  */
 $messages['sr-el'] = array(
 	'title' => 'Skorašnja aktivnost anonimnih korisnika',
+);
+
+/** Swedish (Svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'title' => 'Senaste anonyma aktivitet',
 );
 
 /** Telugu (తెలుగు)

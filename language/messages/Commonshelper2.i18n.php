@@ -253,6 +253,11 @@ $messages['be-tarask'] = array(
 	'do_it' => 'Зрабіць гэта',
 	'error_transfer_usr' => 'Вы не ўстанавілі імя ўдзельніка Wikimedia Commons',
 	'error_not_exists' => 'Крынічны файл не існуе!',
+	'error_file_exists' => 'Файл ужо існуе ў $3 як «$1$4$2»!',
+	'error_diff_exists' => 'Іншы файл існуе ў мэтавай Вікі з такой жа назвай!',
+	'error_no_meta' => 'Мэта-зьвесткі не знойдзеныя ў крынічнай Вікі! $1Спасылка$2',
+	'error_meta_no_good' => 'Мэта-зьвесткі: слушныя шаблёны не знойдзеныя! $1Спасылка$2',
+	'error_meta_bad' => 'Мэта-зьвесткі: знойдзены няслушны шаблён! $1Спасылка$2',
 );
 
 /** Bulgarian (Български)
@@ -590,6 +595,51 @@ $messages['he'] = array(
 	'target_wiki' => 'ויקי היעד',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'attention' => 'Pažnja',
+	'description' => 'Alat za prijenos datoteka s projekata Wikimedije na Zajednički poslužitelj',
+	'change_meta' => 'Promijenite postavke $1kategorija i predložaka$2 za  $3',
+	'jira_link' => 'Prijavite grešku ili predložite novu mogućnost',
+	'language' => 'Jezik',
+	'project' => 'Projekt',
+	'source_file' => 'Izvorna datoteka',
+	'target_file' => 'Odredišna datoteka',
+	'commons_username' => 'Suradničko ime na Zajedničkom poslužitelju',
+	'commons_to_project' => 'Sa Zajedničkog poslužitelja na projekt',
+	'move_file_from_com' => 'Premjestite datoteku sa Zajedničkog poslužitelja na projekt',
+	'categories' => 'Kategorije',
+	'remove_cats' => 'Ukloni postojeće kategorije',
+	'use_checkusage' => 'rabite $1CommonSense$2 za prijedlog novih kategorija',
+	'use_tusc' => 'Rabite $1TUSC$2 za izravan prijenos datoteka',
+	'tusc_user' => 'TUSC suradničko ime',
+	'tusc_pass' => 'Lozinka za TUSC',
+	'do_it' => 'Učini',
+	'error_transfer_usr' => 'Niste postavili suradničko ime sa Zajedničkog poslužitelja',
+	'error_not_exists' => 'Izvorna datoteka ne postoji!',
+	'error_file_exists' => 'Datoteka već postoji na $3 kao "$1$4$2"!',
+	'error_diff_exists' => 'Drugačija odredišna datoteka postoji na navedenom wikiju pod istim imenom!',
+	'error_no_meta' => 'Metapodaci nisu pronađeni na izvornom wikiju. $1Poveznica$2',
+	'error_meta_no_good' => 'Metapodaci: nisu pronađeni dobri predlošci! $1Poveznica$2',
+	'error_meta_bad' => 'Metapodaci: pronađen loš predložak! $1Poveznica$2',
+	'original_wikitext' => 'Izvorni wiki tekst',
+	'new_wikitext' => 'Novi wiki tekst',
+	'new_filename' => 'Novi naziv datoteke:',
+	'output_information' => 'Za ručno postavljanje, uredite gornji tekst (ukoliko je potrebno), spremite $1datoteka$2 na svoje računalo, zatim',
+	'upload_it' => 'postavite ju',
+	'target_wiki' => 'odredišni wiki',
+	'error_bot_blocked' => 'Bot za postavljanje je blokiran na Zajedničkom poslužitelju.',
+	'error_upload_meta' => 'Izravno postavljanje nije moguće jer je došlo do problema s metapodacima (pogledajte iznad)!',
+	'error_tusc_failed' => 'TUSC provjera nije uspjela!',
+	'error_only_commons' => 'Izravno postavljanje radi samo na Zajedničkom poslužitelju!',
+	'upload_control_text' => 'Molimo vas da provjerite novi wiki tekst i kliknite na "Postavi!" ako je sve u redu!',
+	'error_commons_user' => 'Za identifikaciju suradnika koji prenosi datoteke, Vaše suradničko ime na Zajedničkom poslužitelju mora biti u opisu!',
+	'error_upload_users' => 'Mogućnost postavljanja je dostupna samo nekim suradnicima tijekom testnog razdoblja.',
+	'error_upload_file' => 'Izvorna datoteka ne može biti preuzeta.',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -774,6 +824,16 @@ $messages['lb'] = array(
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
 );
 
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'attention' => 'Uzmanību',
+	'language' => 'Valoda',
+	'project' => 'Projekts',
+	'categories' => 'Kategorijas',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -864,6 +924,17 @@ $messages['ms'] = array(
 	'error_commons_user' => 'Untuk mengenal pasti pengguna yang membuat pemindahan itu, nama pengguna Wikimedia Commons anda haruslah ada dalam keterangan!',
 	'error_upload_users' => 'Fungsi muat naik hanya boleh digunakan oleh beberapa pengguna ketika tempoh ujian!',
 	'error_upload_file' => 'Fail asal tidak boleh dimuat turun.',
+);
+
+/** Burmese (မြန်မာဘာသာ)
+ * @author Erikoo
+ */
+$messages['my'] = array(
+	'language' => 'ဘာသာ',
+	'project' => 'Project',
+	'source_file' => 'ရင်းမြစ်ဖိုင်',
+	'categories' => 'အမျိုးအစားများ',
+	'error_not_exists' => 'ရင်းမြစ်စာမျက်နှာ မတည်ရှိပါ။',
 );
 
 /** Dutch (Nederlands)
@@ -984,6 +1055,51 @@ $messages['roa-tara'] = array(
 	'project' => 'Proggette',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'attention' => 'Pozor',
+	'description' => 'Orodje za prenos datotek iz projektov Wikimedie v Wikimediino Zbirko',
+	'change_meta' => 'Spremeni $1nastavitve kategorije in predloge$2 za $3',
+	'jira_link' => 'Prijavite hrošča ali predlagajte funkcijo',
+	'language' => 'Jezik',
+	'project' => 'Projekt',
+	'source_file' => 'Izvorna datoteka',
+	'target_file' => 'Ciljna datoteka',
+	'commons_username' => 'Uporabniško ime Wikimediine Zbirke',
+	'commons_to_project' => 'Iz Zbirke Wikimedia v projekt',
+	'move_file_from_com' => 'Prestavi datoteko iz Zbirke Wikimedia v projekt',
+	'categories' => 'Kategorije',
+	'remove_cats' => 'Odstrani obstoječe kategorije',
+	'use_checkusage' => 'Uporabi $1CommonSense$2 za predlaganje novih kategorij',
+	'use_tusc' => 'Uporabi $1TUSC$2 za neposredni prenos datoteke',
+	'tusc_user' => 'Uporabniško ime TUSC',
+	'tusc_pass' => 'Geslo TUSC',
+	'do_it' => 'Izvedi',
+	'error_transfer_usr' => 'Niste določili uporabniškega imena Wikimediine Zbirke',
+	'error_not_exists' => 'Izvorna datoteka ne obstaja!',
+	'error_file_exists' => 'Datoteka že obstaja na $3 kot »$1$4$2«!',
+	'error_diff_exists' => 'Različna ciljna datoteka obstaja na ciljnem wikiju pod enakim imenom!',
+	'error_no_meta' => 'Za izvorni wiki ni bilo najdenih metapodatkov! $1Povezana$2',
+	'error_meta_no_good' => 'Metapodatki: Najdena ni bila nobena dobra predloga! $1Povezava$2',
+	'error_meta_bad' => 'Metapodatki: Najdena je bila slaba predloga! $1Povezava$2',
+	'original_wikitext' => 'Izvirno wikibesedilo',
+	'new_wikitext' => 'Novo wikibesedilo',
+	'new_filename' => 'Novo ime datoteke:',
+	'output_information' => 'Za ročno nalaganje uredite zgornje besedilo (če je potrebno), shranite $1datoteko$2 na vaš računalnik, nakar',
+	'upload_it' => 'naložite',
+	'target_wiki' => 'ciljni wiki',
+	'error_bot_blocked' => 'Nalagalni robot je na Wikimediini Zbirki blokiran.',
+	'error_upload_meta' => 'Ne morem naložiti neposredno, ker so težave z metapodatki (glej zgoraj)!',
+	'error_tusc_failed' => 'Preverjanje TUSC ni uspelo!',
+	'error_only_commons' => 'Neposredno nalaganje deluje samo na Wikimediini Zbirki!',
+	'upload_control_text' => 'Prosimo, preverite novo wikibesedilo in kliknite »Naloži!«, če je vse v redu.',
+	'error_commons_user' => 'Za ugotavljanje uporabnika, ki je izvedel prenos, mora biti vaše uporabniško ime na Wikimediini Zbirki navedeno v opisu.',
+	'error_upload_users' => 'Zmnožnost nalaganja je med preizkusnim obdobjem na voljo samo nekaterim uporabnikom.',
+	'error_upload_file' => 'Izvorne datoteke ni mogoče prenesti.',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  */
@@ -1074,6 +1190,52 @@ $messages['sr-el'] = array(
 	'error_commons_user' => 'Da bismo prepoznali korisnika koji prenosi datoteke, vaše korisničko ime na Vikimedijinoj ostavi mora biti u opisu.',
 	'error_upload_users' => 'Mogućnost otpremanja je dostupna samo nekim korisnicima tokom probnog perioda.',
 	'error_upload_file' => 'Izvorna datoteka ne može biti preuzeta.',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'attention' => 'Uppmärksamhet',
+	'description' => 'Ett verktyg för att överföra filer från Wikimedia-projekten till Wikimedia Commons',
+	'change_meta' => 'Ändra $1kategori och mallinställningar$2 för $3',
+	'jira_link' => 'Rapportera fel eller föreslå en funktion',
+	'language' => 'Språk',
+	'project' => 'Projekt',
+	'source_file' => 'Källfil',
+	'target_file' => 'Målfil',
+	'commons_username' => 'Wikimedia Commons användarnamn',
+	'commons_to_project' => 'Wikimedia Commons till projektet',
+	'move_file_from_com' => 'Flytta fil från Wikimedia Commons till projekt',
+	'categories' => 'Kategorier',
+	'remove_cats' => 'Ta bort befintliga kategorier',
+	'use_checkusage' => 'Använd $1CommonSense$2 för att föreslå nya kategorier',
+	'use_tusc' => 'Använd $1TUSC$2 för att överföra filen direkt',
+	'tusc_user' => 'TUSC användarnamn',
+	'tusc_pass' => 'TUSC lösenord',
+	'do_it' => 'Gör det',
+	'error_transfer_usr' => 'Du har inte angett ett Wikimedia Commons användarnamn',
+	'error_not_exists' => 'Källfilen finns inte!',
+	'error_file_exists' => 'Filen finns redan på $3 som "$1$4$2"!',
+	'error_diff_exists' => 'En annan målfil finns på målwiki under samma namn!',
+	'error_no_meta' => 'Ingen metadata hittades för ursprungs-wikin! $1Link$2',
+	'error_meta_no_good' => 'Metadata: Ingen bra mallar hittades! $1 Länk $2',
+	'error_meta_bad' => 'Metadata: Dålig mall hittades! $1Länk$2',
+	'original_wikitext' => 'Ursprunglig wikitext',
+	'new_wikitext' => 'Ny wikitext',
+	'new_filename' => 'Nytt filnamn:',
+	'output_information' => 'För att ladda upp filen manuellt, redigera texten ovan (om nödvändigt), spara $1filen$2 på din dator, och',
+	'upload_it' => 'ladda upp den',
+	'target_wiki' => 'målwikin',
+	'error_bot_blocked' => 'Upload-botten är blokerad på Wikimedia Commons.',
+	'error_upload_meta' => 'Kan inte ladda upp direkt eftersom det finns problem med metadata (se ovan)!',
+	'error_tusc_failed' => 'TUSC-verifiering misslyckades!',
+	'error_only_commons' => 'Direktuppladdning fungerar bara på Wikimedia Commons!',
+	'upload_control_text' => 'Vänligen kontrollera den nya wiki texten och klicka på "Upload!" om allt är OK!',
+	'error_commons_user' => 'Ditt användarnamn på  Wikimedia Commons ska anges i beskrivningen, så att användaren, som utfört överföringen, kan identifieras!',
+	'error_upload_users' => 'Uppladdningsfunktionen är endast tillgänglig för vissa användare under testperioden!',
+	'error_upload_file' => 'Den ursprungliga filen kan inte laddas ner.',
 );
 
 /** Telugu (తెలుగు)

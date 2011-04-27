@@ -101,6 +101,15 @@ $messages['fr'] = array(
 	'alws-group-allaz' => 'Tous les wikis par ordre alphabétique',
 );
 
+/** Croatian (Hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'alws-selectwiki' => '(odaberite wiki)',
+	'alws-group-mustused' => 'Najviše rabljeni wikiji',
+	'alws-group-allaz' => 'Svi wikiji abecednim redom',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -180,6 +189,15 @@ $messages['ro'] = array(
 	'alws-group-allaz' => 'Toate wikiurile ordonate alfabetic',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'alws-selectwiki' => '(izberite wiki)',
+	'alws-group-mustused' => 'Najpogosteje uporabljani wikiji',
+	'alws-group-allaz' => 'Vsi wikiji po abecedi',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  */
@@ -196,6 +214,15 @@ $messages['sr-el'] = array(
 	'alws-selectwiki' => '(izbor vikija)',
 	'alws-group-mustused' => 'Najviše korišćene vikije',
 	'alws-group-allaz' => 'Sve vikije abecednim redom',
+);
+
+/** Swedish (Svenska)
+ * @author Liftarn
+ */
+$messages['sv'] = array(
+	'alws-selectwiki' => '(Välj wiki)',
+	'alws-group-mustused' => 'Mest använda wikis',
+	'alws-group-allaz' => 'Alla wikis i alfabetisk ordning',
 );
 
 /** Telugu (తెలుగు)
