@@ -596,6 +596,7 @@ $messages['lt'] = array(
  * @author Papuass
  */
 $messages['lv'] = array(
+	'hidesubpages' => 'Paslēpt apakšlapas',
 	'page' => 'Lapa',
 );
 
@@ -819,6 +820,17 @@ $messages['ro'] = array(
 	'deletesummary' => 'Ștergerea paginilor de discuții orfane folosind $1',
 	'noresults' => 'Nicio pagină de discuții orfană aflată în acest spațiu de nume, pe acest wiki, nu se potrivește criteriilor dumneavoastră.',
 	'resultslimited' => 'Rezultatele au fost limitate la $1 pagini.',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'settings-legend' => "'Mbostaziune",
+	'limit' => 'Limite',
+	'page' => 'Pàgene',
+	'tools-delete' => 'scangelle',
+	'tools-subject' => 'suggette',
 );
 
 /** Slovenian (Slovenščina)

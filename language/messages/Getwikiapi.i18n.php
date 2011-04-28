@@ -384,6 +384,14 @@ $messages['ro'] = array(
 	'settings-legend' => 'Setări',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'output' => 'Resultate pe "$1"',
+	'settings-legend' => "'Mbostaziune",
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

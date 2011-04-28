@@ -751,7 +751,11 @@ $messages['lt'] = array(
  * @author Papuass
  */
 $messages['lv'] = array(
+	'tab-overview' => 'Pārskats',
+	'tab-settings' => 'Uzstādījumi',
 	'tab-about' => 'Par',
+	'help-translate-tool' => 'Palīdzi iztulkot šo rīku!',
+	'help-translate-all' => 'Palīdzi tulkot Toolserver!',
 );
 
 /** Macedonian (Македонски)
@@ -1028,6 +1032,21 @@ $messages['ro'] = array(
 	'help-translate-tool' => 'Ajutați-ne să traducem această unealtă!',
 	'help-translate-all' => 'Ajutați-ne să traducem Toolserver!',
 	'help-translate-tooltip' => 'Ajutați-i pe alții traducând mesajele de interfață în limba dumneavoastră.',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'current-settings' => "'Mbostaziune corrende",
+	'settings-legend' => "'Mbostaziune",
+	'clear-cookies' => 'pulizze le cookie',
+	'cookie-expiration' => 'Scadenze de le cookie',
+	'tab-overview' => 'Panorameche',
+	'tab-settings' => "'Mbostaziune",
+	'tab-about' => 'Sus a',
+	'tab-demo' => 'Demo',
+	'bl-mysettings-new' => "Cange 'a lènghe!",
 );
 
 /** Slovenian (Slovenščina)

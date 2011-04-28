@@ -1205,6 +1205,23 @@ $messages['ro'] = array(
 	'finalise' => 'Finalizează detaliile',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'title' => "Traduzione de l'SVG",
+	'th-original' => 'Origgenale',
+	'th-translation' => 'Traduzione',
+	'th-language' => 'Lènghe',
+	'th-username' => 'Nome utende',
+	'th-password' => 'Passuord',
+	'th-method' => 'Metode',
+	'preview' => 'Andeprime',
+	'translate' => 'Traduce',
+	'svginput-label' => 'File SVG',
+	'preview-hide' => "Scunne l'andeprime",
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

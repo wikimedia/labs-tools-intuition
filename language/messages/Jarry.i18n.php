@@ -210,6 +210,13 @@ $messages['ro'] = array(
 	'error-form-empty' => 'Unul sau mai multe câmpuri obligatorii nu sunt completate. Ar trebui să le completați înainte de a continua.',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'comments' => 'commende e inderrogaziune',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

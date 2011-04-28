@@ -258,6 +258,11 @@ $messages['be-tarask'] = array(
 	'error_no_meta' => 'Мэта-зьвесткі не знойдзеныя ў крынічнай Вікі! $1Спасылка$2',
 	'error_meta_no_good' => 'Мэта-зьвесткі: слушныя шаблёны не знойдзеныя! $1Спасылка$2',
 	'error_meta_bad' => 'Мэта-зьвесткі: знойдзены няслушны шаблён! $1Спасылка$2',
+	'original_wikitext' => 'Арыгінальны вікі-тэкст',
+	'new_wikitext' => 'Новы вікі-тэкст',
+	'new_filename' => 'Новая назва файла:',
+	'output_information' => 'Для ручной загрузкі, адрэдагуйце тэкст пададзены ніжэй (калі трэба), захавайце $1файл$2 на Вашым кампутары, потым',
+	'upload_it' => 'яго загрузіце',
 );
 
 /** Bulgarian (Български)
@@ -880,6 +885,17 @@ $messages['mk'] = array(
 	'error_upload_file' => 'Изворната податотека не може да се преземе.',
 );
 
+/** Marathi (मराठी)
+ * @author Htt
+ */
+$messages['mr'] = array(
+	'attention' => 'लक्ष',
+	'description' => 'विकीमीडिया प्रकल्पांतून संचिका विकीमीडिया कॉमन्स येथे स्थानांतरित करण्याचे एक साधन',
+	'language' => 'भाषा',
+	'project' => 'प्रकल्प',
+	'source_file' => 'स्रोत संचिका',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -1053,6 +1069,12 @@ $messages['roa-tara'] = array(
 	'attention' => 'Attenzione',
 	'language' => 'Lènghe',
 	'project' => 'Proggette',
+	'source_file' => 'File sorgende',
+	'target_file' => 'File de destinazione',
+	'categories' => 'Categorije',
+	'do_it' => 'Falle',
+	'new_filename' => "Nome d'u file nuève:",
+	'upload_it' => 'carecale',
 );
 
 /** Slovenian (Slovenščina)

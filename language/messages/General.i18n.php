@@ -744,6 +744,24 @@ $messages['ro'] = array(
 	'view-source' => 'Sursă pagină',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'hello' => 'Cià',
+	'welcome' => 'Bovègne',
+	'etc' => 'ecc.',
+	'namespace' => 'Namespace',
+	'form-submit' => 'Veje',
+	'form-reset' => 'Azzere',
+	'years' => 'anne',
+	'weeks' => 'sumàne',
+	'days' => 'sciurne',
+	'hours' => 'ore',
+	'last-modified-date' => 'Urteme cangiamende: $1',
+	'view-source' => "Vide 'u sorgende",
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

@@ -183,6 +183,14 @@ $messages['lb'] = array(
 	'search-table-th-search' => 'Sichen',
 );
 
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'search-table-th-field' => 'Lauks',
+	'search-table-th-filter' => 'Filtrs',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -230,6 +238,14 @@ $messages['ro'] = array(
 	'search-table-th-field' => 'Câmp',
 	'search-table-th-filter' => 'Filtru',
 	'search-table-th-search' => 'Caută',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'search-table-th-field' => 'Cambe',
+	'search-table-th-filter' => 'Filtre',
 );
 
 /** Slovenian (Slovenščina)
