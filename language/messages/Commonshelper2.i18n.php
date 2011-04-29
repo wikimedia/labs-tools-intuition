@@ -263,6 +263,11 @@ $messages['be-tarask'] = array(
 	'new_filename' => 'Новая назва файла:',
 	'output_information' => 'Для ручной загрузкі, адрэдагуйце тэкст пададзены ніжэй (калі трэба), захавайце $1файл$2 на Вашым кампутары, потым',
 	'upload_it' => 'яго загрузіце',
+	'target_wiki' => 'мэтавая вікі',
+	'error_bot_blocked' => 'Робат загрузкі заблякаваны ў Wikimedia Commons.',
+	'error_upload_meta' => 'Немагчыма загрузіць непасрэдна з-за праблемы з мета-зьвесткамі (глядзіце вышэй)!',
+	'error_tusc_failed' => 'Памылка вэрыфікацыі TUSC!',
+	'error_only_commons' => 'Непасрэдная загрузка працуе толькі ў Wikimedia Commons!',
 );
 
 /** Bulgarian (Български)

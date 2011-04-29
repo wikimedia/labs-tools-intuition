@@ -561,6 +561,7 @@ $messages['lt'] = array(
  * @author Papuass
  */
 $messages['lv'] = array(
+	'form-submit' => 'Aiziet',
 	'years' => 'gadi',
 	'weeks' => 'nedēļas',
 	'days' => 'dienas',
