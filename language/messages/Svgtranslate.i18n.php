@@ -327,7 +327,7 @@ $messages['br'] = array(
 	'option-manual' => 'Enporzh dre zorn',
 	'preview' => 'Rakwelet',
 	'translate' => 'Treiñ',
-	'translate-instructions' => 'Degemeret e vez an an enmontoù ma vez evel anvioù restroù (da sk. "$1") pe URLoù klok (da sk. "$2"). Ma vez graet gant an dibarzh kentañ e vo sellet outañ evel ouzh ur restr eus Wikimedia Commons. Evit treiñ un SVG adalek ul lec\'hienn pe ur wiki all eo ret ober gant ar furmad URL klok.',
+	'translate-instructions' => 'Degemeret e vez an enmontoù evel pa vefent anvioù restroù (da sk. "$1") pe URLoù klok (da sk. "$2"). Ma vez graet gant an dibarzh kentañ e vo sellet outañ evel pa vefe ur restr o tont eus Wikimedia Commons. Evit treiñ un SVG adalek ul lec\'hienn pe ur wiki all eo ret ober gant ar furmad URL klok.',
 	'svginput-label' => 'Restr SVG',
 	'stats-footer' => 'Graet ez eus bet gant an ostilh-mañ evit treiñ $1 restr well-wazh abaoe $2.',
 	'uploading' => "Oc'h enporzhiañ",
@@ -1434,6 +1434,16 @@ $messages['te'] = array(
 	'stats-footer' => '$2 నుండి దాదాపు $1 దస్త్రాలను అనువదించడానికి ఈ పనిముట్టుని ఉపయోగించారు.',
 	'author-complete' => 'దయచేసి రచయిత సమాచారాన్ని పూరించండి!',
 	'preview-hide' => 'మునుజూపును దాచు',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'th-original' => 'Orijinál',
+	'th-translation' => 'Tradusaun',
+	'th-language' => 'Lian',
+	'th-username' => "Naran uza-na'in",
 );
 
 /** Tagalog (Tagalog)

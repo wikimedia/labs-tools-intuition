@@ -175,11 +175,20 @@ $messages['ast'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Vago
  */
 $messages['az'] = array(
 	'attention' => 'Diqqət',
 	'language' => 'Dil',
 	'project' => 'Layihə',
+	'categories' => 'Kateqoriyalar',
+	'tusc_user' => 'TUSC istifadəçi adı',
+	'tusc_pass' => 'TUSC parolu',
+	'do_it' => 'Bunu et',
+	'original_wikitext' => 'Orijinal viki mətn',
+	'new_wikitext' => 'Yeni viki mətn',
+	'new_filename' => 'Yeni fayl adı:',
+	'upload_it' => 'yüklə',
 );
 
 /** Belarusian (Беларуская)
@@ -291,7 +300,7 @@ $messages['br'] = array(
 	'attention' => 'Diwallit',
 	'description' => 'Un ostilh da dreuzkas restroù eus raktresoù Wikimedia war-du Wikimedia Commons',
 	'change_meta' => 'Kemmañ $1ar rummad hag arventennoù ar patrom$2 evit $3',
-	'jira_link' => "Kas keloù eus un draen pe kinnig un arc'hwel",
+	'jira_link' => 'Kas keloù eus un draen pe kinnig ur perzh heverk',
 	'language' => 'Yezh',
 	'project' => 'Raktres',
 	'source_file' => 'Restr orin',
@@ -849,6 +858,7 @@ $messages['lv'] = array(
  */
 $messages['mk'] = array(
 	'attention' => 'Внимание',
+	'commonshelper2' => 'Помошник со Ризницата 2',
 	'description' => 'Алатка за пренос на податотеки од проектите на Викимедија во Заедничката Ризница',
 	'change_meta' => 'Смени $1категориски и шаблонски нагодувања$2 за $3',
 	'jira_link' => 'Пријави грешка или предложи функција',
@@ -1275,6 +1285,17 @@ $messages['te'] = array(
 	'tusc_pass' => 'TUSC సంకేతపదం',
 	'original_wikitext' => 'అసలు వికీ పాఠ్యం',
 	'new_wikitext' => 'కొత్త వికీ పాఠ్యం',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'language' => 'Lian',
+	'commons_username' => "Naran uza-na'in iha Wikimedia Commons",
+	'commons_to_project' => 'Husi Wikimedia Commons ba projetu',
+	'tusc_user' => "Naran uza-na'in iha TUSC",
+	'do_it' => 'Halo',
 );
 
 /** Tagalog (Tagalog)

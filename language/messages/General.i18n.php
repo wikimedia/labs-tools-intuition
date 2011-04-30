@@ -197,10 +197,10 @@ $messages['br'] = array(
 	'namespace' => 'Esaouenn anv',
 	'form-submit' => 'Mont',
 	'form-reset' => 'Adderaouekaat',
-	'years' => 'bloavezhioù',
-	'weeks' => 'sizhunvezhioù',
-	'days' => 'deizioù',
-	'hours' => 'eurvezhioù',
+	'years' => 'bloavezh',
+	'weeks' => 'sizhunvezh',
+	'days' => 'devezh',
+	'hours' => 'eurvezh',
 	'last-modified-date' => 'Kemmet da ziwezhañ : $1',
 	'view-source' => 'Sellet ouzh tarzh an destenn',
 );
@@ -351,6 +351,25 @@ $messages['fa'] = array(
 	'hours' => 'ساعت‌ها',
 	'last-modified-date' => 'آخرین تغییر: $1',
 	'view-source' => 'نمایش مبدأ',
+);
+
+/** Finnish (Suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'hello' => 'Moikka',
+	'welcome' => 'Tervetuloa',
+	'toolversionstamp' => 'Versio $1 ($2)',
+	'etc' => 'jne.',
+	'namespace' => 'Nimiavaruus',
+	'form-submit' => 'Mene',
+	'form-reset' => 'Tyhjennä',
+	'years' => 'vuotta',
+	'weeks' => 'viikkoa',
+	'days' => 'päivää',
+	'hours' => 'tuntia',
+	'last-modified-date' => 'Viimeksi muokattu $1',
+	'view-source' => 'näytä lähdekoodi',
 );
 
 /** French (Français)
@@ -855,6 +874,21 @@ $messages['te'] = array(
 	'hours' => 'గంటలు',
 	'last-modified-date' => 'చివరి మార్పు: $1',
 	'view-source' => 'మూలాన్ని చూడండి',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'hello' => 'Olá',
+	'toolversionstamp' => 'Versaun $1 ($2)',
+	'etc' => 'sst.',
+	'form-submit' => 'OK',
+	'years' => 'tinan',
+	'weeks' => 'semana',
+	'days' => 'loron',
+	'hours' => 'oras',
+	'last-modified-date' => 'Mudansa ba dala ikus: $1',
 );
 
 /** Tagalog (Tagalog)

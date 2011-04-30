@@ -201,6 +201,18 @@ $messages['fa'] = array(
 	'settings-legend' => 'تنظیمات',
 );
 
+/** Finnish (Suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'formats-heading' => 'Tulosmuodot',
+	'input' => 'Syöte',
+	'label-wikiids' => 'Wikitunnisteet',
+	'no-matches' => 'Mikään ei vastannu tunnusta $1.',
+	'output' => 'Tulokset haulle ”$1”',
+	'settings-legend' => 'Asetukset',
+);
+
 /** French (Français)
  * @author Jean-Frédéric
  */

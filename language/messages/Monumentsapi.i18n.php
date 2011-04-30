@@ -124,6 +124,15 @@ $messages['fa'] = array(
 	'search-table-th-search' => 'جستجو',
 );
 
+/** Finnish (Suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'search-table-th-field' => 'Kenttä',
+	'search-table-th-filter' => 'Suodin',
+	'search-table-th-search' => 'Haku',
+);
+
 /** French (Français)
  * @author Peter17
  */
@@ -293,6 +302,13 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'search-table-th-search' => 'వెతుకు',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'search-table-th-search' => 'Buka',
 );
 
 /** Tagalog (Tagalog)

@@ -955,6 +955,13 @@ $messages['te'] = array(
 	'resultslimited' => 'ఫలితాలు $1 పుటలకు పరిమితం చేయబడ్డాయి.',
 );
 
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'limit' => 'Limite',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */

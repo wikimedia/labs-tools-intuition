@@ -94,6 +94,17 @@ $messages['es'] = array(
 	'error-form-empty' => 'Uno o más campos obligatorios se han dejado en blanco. Complétalos antes de continuar.',
 );
 
+/** Finnish (Suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'title' => 'Jarry1250:n Toolserver-työkalut',
+	'moretools' => 'lisää työkaluja samalta tekijältä',
+	'bugs' => 'ilmoitukset virheistä ja parannusehdotukset',
+	'comments' => 'kommentit ja kyselyt',
+	'error-form-empty' => 'Yksi tai useampia pakollisia kenttiä on täyttämättä. Täytä ne ennen jatkamista.',
+);
+
 /** French (Français)
  * @author Peter17
  */

@@ -122,8 +122,11 @@ $messages['ast'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Vago
  */
 $messages['az'] = array(
+	'clear-cookies' => 'kökələri təmizlə',
+	'cookie-expiration' => 'kökənin bitmə vaxtı',
 	'tab-about' => 'İzah',
 );
 
@@ -469,6 +472,34 @@ $messages['fa'] = array(
 	'help-translate-tool' => 'در ترجمه این ابزار کمک کنید!',
 	'help-translate-all' => 'در ترجمهٔ تول‌سرور کمک کنید!',
 	'help-translate-tooltip' => 'دیگران را با ترجمهٔ پیام‌های رابط به زبان‌تان کمک کنید!',
+);
+
+/** Finnish (Suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'fullname' => 'Toolserverin työkalujen kansainvälistäminen',
+	'current-settings' => 'Nykyiset asetukset',
+	'current-language' => 'Tällä hetkellä valittu kieli',
+	'settings-legend' => 'Asetukset',
+	'choose-language' => 'Valitse kieli',
+	'clear-cookies' => 'poista evästeet',
+	'renew-cookies' => 'uudista evästeet',
+	'cookie-expiration' => 'Evästeiden vanheneminen',
+	'clearcookies-success' => 'Evästeet poistettu.',
+	'renewcookies-success' => 'Evästeet uusittu. Kaikki on kunnossa seuraavat $1.',
+	'tab-overview' => 'Yleiskatsaus',
+	'tab-settings' => 'Asetukset',
+	'tab-about' => 'Tietoja',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Oma kieliasetus',
+	'bl-mysettings-new' => 'Vaihda kieltä!',
+	'bl-promo' => 'Käännökset mahdollistaa $1 ja $2.',
+	'bl-changelanguage' => 'Vaihda käyttöliittymän kieltä napsauttamalla tästä.',
+	'usage' => 'Toolserver Intuitionia käyttävät työkalut.',
+	'help-translate-tool' => 'Auta tämän työkalun kääntämisessä!',
+	'help-translate-all' => 'Auta Toolserverin kääntämisessä!',
+	'help-translate-tooltip' => 'Auta toisia kääntämällä käyttöliittymäviestejä kielellesi.',
 );
 
 /** French (Français)
@@ -1183,6 +1214,18 @@ $messages['te'] = array(
 	'help-translate-tool' => 'ఈ పనిముట్టుని అనువదించడానికి సహాయపడండి!',
 	'help-translate-all' => 'టూల్‌సర్వర్‌ను అనువదించడానికి తోడ్పడండి!',
 	'help-translate-tooltip' => 'ముఖాంతరం యొక్క సందేశాలను మీ భాష లోనికి అనువదించడం ద్వారా ఇతరులకి తోడ్పడండి.',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'settings-legend' => 'Preferénsia',
+	'choose-language' => 'Hili lian',
+	'tab-about' => 'Kona-ba',
+	'bl-mysettings-new' => 'Lian seluk',
+	'help-translate-tool' => "Favór ida, tulun tradús ne'e!",
+	'help-translate-all' => 'Favór ida, tulun tradús Toolserver!',
 );
 
 /** Tagalog (Tagalog)

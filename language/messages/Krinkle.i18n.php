@@ -92,6 +92,15 @@ $messages['es'] = array(
 	'alws-group-allaz' => 'Todos los wikis alfabéticamente',
 );
 
+/** Finnish (Suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'alws-selectwiki' => '(valitse wiki)',
+	'alws-group-mustused' => 'Käytetyimmät wikit',
+	'alws-group-allaz' => 'Kaikki wikit aakkosjärjestyksessä',
+);
+
 /** French (Français)
  * @author Peter17
  */
