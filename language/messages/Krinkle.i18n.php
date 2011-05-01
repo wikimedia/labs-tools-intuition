@@ -15,6 +15,7 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
+	'alws-label' => 'Wiki', // optional
 	'alws-selectwiki' => '(select wiki)',
 	'alws-group-mustused' => 'Most used wikis',
 	'alws-group-allaz' => 'All wikis alphabetically',
@@ -25,6 +26,7 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
+	'alws-label' => 'Label in the input form for the dropdown menu with all wikis, of which one must be choosen.',
 	'alws-selectwiki' => 'This is the initial value for the dropdown menu with all wikis, of which one must be choosen.',
 	'alws-group-mustused' => 'This is the group label for group containing the most used wikis. In a dropdown menu with all wikis.',
 	'alws-group-allaz' => 'This is the group label for the group containg all wikis listed alphabetically. In a dropdown menu with all wikis.',
