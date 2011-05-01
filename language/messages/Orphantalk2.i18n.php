@@ -69,7 +69,6 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
-	'settings-legend' => 'Instellings',
 	'select-wiki-first' => "(kies eers 'n wiki)",
 	'hideredirects' => 'Versteek aansture',
 	'hidesubpages' => 'Versteek subbladsye',
@@ -91,7 +90,6 @@ $messages['af'] = array(
  */
 $messages['ast'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Configuración',
 	'select-wiki-first' => '(primero seleiciona una wiki)',
 	'hideredirects' => 'Anubrir redireiciones',
 	'hidesubpages' => 'Anubrir subpáxines',
@@ -126,7 +124,6 @@ $messages['az'] = array(
  */
 $messages['be'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Наладкі',
 	'select-wiki-first' => '(спачатку выберыце вікі)',
 	'hideredirects' => 'Схаваць перанакіраванні',
 	'hidesubpages' => 'Схаваць падстаронкі',
@@ -153,7 +150,6 @@ $messages['be'] = array(
  */
 $messages['be-tarask'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Налады',
 	'select-wiki-first' => '(сьпярша выберыце вікі)',
 	'hideredirects' => 'Схаваць перанакіраваньні',
 	'hidesubpages' => 'Схаваць падстаронкі',
@@ -177,7 +173,6 @@ $messages['be-tarask'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
-	'settings-legend' => 'Настройки',
 	'tools-delete' => 'изтриване',
 );
 
@@ -186,7 +181,6 @@ $messages['bg'] = array(
  */
 $messages['bn'] = array(
 	'title' => 'পিতৃহীন পাতা আলোচনা ২',
-	'settings-legend' => 'সেটিং',
 	'select-wiki-first' => '(প্রথমে একটি উইকি নির্বাচন করুন)',
 	'hideredirects' => 'পুনর্নির্দেশনাগুলো লুকাও',
 	'hidesubpages' => 'উপপাতাগুলো লুকাও',
@@ -211,7 +205,6 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Arventennoù',
 	'select-wiki-first' => '(diuzit ur wiki da gentañ)',
 	'hideredirects' => 'Kuzhat an adkasoù',
 	'hidesubpages' => 'Kuzhat an ispajennoù',
@@ -235,7 +228,6 @@ $messages['br'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
-	'settings-legend' => 'Postavke',
 	'limit' => 'Ograničenje',
 	'page' => 'Stranica',
 	'update' => 'Ažuriraj',
@@ -248,7 +240,6 @@ $messages['bs'] = array(
  */
 $messages['ca'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Paràmetres',
 	'select-wiki-first' => '(primer seleccioneu un wiki)',
 	'hideredirects' => 'Amaga redireccions',
 	'hidesubpages' => 'Amaga subpàgines',
@@ -272,7 +263,6 @@ $messages['ca'] = array(
  * @author Sarrus
  */
 $messages['da'] = array(
-	'settings-legend' => 'Indstillinger',
 	'select-wiki-first' => '(vælg en wiki først)',
 	'hideredirects' => 'Skjul omdirigeringer',
 	'hidesubpages' => 'Skjul undersider',
@@ -289,7 +279,6 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Einstellungen',
 	'select-wiki-first' => '(wähle zuerst ein Wiki)',
 	'hideredirects' => 'Weiterleitungen ausblenden',
 	'hidesubpages' => 'Unterseiten ausblenden',
@@ -313,7 +302,6 @@ $messages['de'] = array(
  * @author Evropi
  */
 $messages['el'] = array(
-	'settings-legend' => 'Ρυθμίσεις',
 	'select-wiki-first' => '(επιλέξτε πρώτα ένα βίκι)',
 	'hideredirects' => 'Απόκρυψη ανακατευθύνσεων',
 	'hidesubpages' => 'Απόκρυψη υποσελιδών',
@@ -333,7 +321,6 @@ $messages['el'] = array(
  */
 $messages['es'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Configuración',
 	'select-wiki-first' => '(selecciona primero un wiki)',
 	'hideredirects' => 'Ocultar redirecciones',
 	'hidesubpages' => 'Ocultar subpáginas',
@@ -359,7 +346,6 @@ $messages['es'] = array(
  */
 $messages['fa'] = array(
 	'title' => 'بحث‌یتیم۲',
-	'settings-legend' => 'تنظیمات',
 	'select-wiki-first' => '(ابتدا یک ویکی را انتخاب کنید)',
 	'hideredirects' => 'پنهان‌کردن تغییر مسیرها',
 	'hidesubpages' => 'پنهان‌کردن زیرصفحه‌ها',
@@ -385,7 +371,6 @@ $messages['fa'] = array(
  */
 $messages['fr'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Paramètres',
 	'select-wiki-first' => '(sélectionnez d’abord un wiki)',
 	'hideredirects' => 'Masquer les redirections',
 	'hidesubpages' => 'Masquer les sous-pages',
@@ -410,7 +395,6 @@ $messages['fr'] = array(
  */
 $messages['hr'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Postavke',
 	'select-wiki-first' => '(prvo izaberite wiki)',
 	'hideredirects' => 'Sakrij preusmjeravanja',
 	'hidesubpages' => 'Sakrij podstranice',
@@ -435,7 +419,6 @@ $messages['hr'] = array(
  */
 $messages['hu'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Beállítások',
 	'select-wiki-first' => '(előbb válassz egy wikit)',
 	'hideredirects' => 'Átirányítások elrejtése',
 	'hidesubpages' => 'Allapok elrejtése',
@@ -460,7 +443,6 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Configurationes',
 	'select-wiki-first' => '(selige primo un wiki)',
 	'hideredirects' => 'Celar redirectiones',
 	'hidesubpages' => 'Celar subpaginas',
@@ -484,7 +466,6 @@ $messages['ia'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
-	'settings-legend' => 'Impostazioni',
 	'limit' => 'Limite',
 	'page' => 'Pagina',
 	'update' => 'Aggiorna',
@@ -497,7 +478,6 @@ $messages['it'] = array(
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'settings-legend' => 'ការកំណត់​នានា',
 	'select-wiki-first' => '(ជ្រើសរើសវិគីមួយសិន)',
 	'hideredirects' => 'លាក់ការបញ្ជូនបន្ត',
 	'hidesubpages' => 'លាក់ទំព័ររង',
@@ -521,8 +501,6 @@ $messages['km'] = array(
  */
 $messages['ksh'] = array(
 	'title' => 'Alleinjeblevve Klaafsigge 2',
-	'settings-legend' => 'Enshtällonge',
-	'label-wiki' => 'Et Wiki',
 	'select-wiki-first' => '(donn et eez e Wiki ußsöhke)',
 	'hideredirects' => 'Ömleidunge fott lohße',
 	'hidesubpages' => 'Ongersigge fott lohße',
@@ -546,7 +524,6 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'settings-legend' => 'Astellungen',
 	'select-wiki-first' => "(sicht d'éischt eng Wiki eraus)",
 	'hideredirects' => 'Viruleedunge verstoppen',
 	'hidesubpages' => 'Ënnersäite verstoppen',
@@ -567,7 +544,6 @@ $messages['lb'] = array(
  */
 $messages['lt'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Nustatymai',
 	'select-wiki-first' => '(pirma pasirinkite wiki)',
 	'hideredirects' => 'Slėpti peradresavimus',
 	'hidesubpages' => 'Slėpti antrinius puslapius',
@@ -600,8 +576,6 @@ $messages['lv'] = array(
  */
 $messages['mk'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Поставки',
-	'label-wiki' => 'Вики',
 	'select-wiki-first' => '(најпрвин изберете вики)',
 	'hideredirects' => 'Скриј пренасочувања',
 	'hidesubpages' => 'Скриј потстраници',
@@ -626,7 +600,6 @@ $messages['mk'] = array(
  */
 $messages['ms'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Tetapan',
 	'select-wiki-first' => '(pilih wiki dahulu)',
 	'hideredirects' => 'Sorokkan lencongan',
 	'hidesubpages' => 'Sorokkan sublaman',
@@ -672,7 +645,6 @@ $messages['mt'] = array(
  */
 $messages['nl'] = array(
 	'title' => 'WeesOverleg2',
-	'settings-legend' => 'Instellingen',
 	'select-wiki-first' => '(selecteer eerst een wiki)',
 	'hideredirects' => 'Doorverwijzingen verbergen',
 	'hidesubpages' => "Subpagina's verbergen",
@@ -697,7 +669,6 @@ $messages['nl'] = array(
  */
 $messages['no'] = array(
 	'title' => 'Foreldreløse diskusjonssider 2',
-	'settings-legend' => 'Innstillinger',
 	'select-wiki-first' => '(velg en wiki først)',
 	'hideredirects' => 'Skjul omdirigeringer',
 	'hidesubpages' => 'Skjul undersider',
@@ -721,7 +692,6 @@ $messages['no'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
-	'settings-legend' => 'Uffstellinge',
 	'page' => 'Blatt',
 	'tools-links' => 'Gleecher',
 );
@@ -732,7 +702,6 @@ $messages['pdc'] = array(
  */
 $messages['pl'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Ustawienia',
 	'select-wiki-first' => '(najpierw wybierz odpowiednią wiki)',
 	'hideredirects' => 'Ukryj przekierowania',
 	'hidesubpages' => 'Ukryj podstrony',
@@ -756,7 +725,6 @@ $messages['pl'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'settings-legend' => 'امستنې',
 	'page' => 'مخ',
 	'update' => 'اوسمهالول',
 	'tools-delete' => 'ړنګول',
@@ -772,7 +740,6 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'title' => 'DiscussõesOrfãs2',
-	'settings-legend' => 'Definições',
 	'select-wiki-first' => '(primeiro seleccione uma wiki)',
 	'hideredirects' => 'Excluir redireccionamentos',
 	'hidesubpages' => 'Excluir subpáginas',
@@ -797,7 +764,6 @@ $messages['pt'] = array(
  */
 $messages['ro'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Setări',
 	'select-wiki-first' => '(alegeți un wiki mai întâi)',
 	'hideredirects' => 'Ascunde redirecționările',
 	'hidesubpages' => 'Ascunde subpaginile',
@@ -821,7 +787,6 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'settings-legend' => "'Mbostaziune",
 	'limit' => 'Limite',
 	'page' => 'Pàgene',
 	'tools-delete' => 'scangelle',
@@ -833,7 +798,6 @@ $messages['roa-tara'] = array(
  */
 $messages['sl'] = array(
 	'title' => 'OsiroteliPogovori2',
-	'settings-legend' => 'Nastavitve',
 	'select-wiki-first' => '(najprej izberite wiki)',
 	'hideredirects' => 'Skrij preusmeritve',
 	'hidesubpages' => 'Skrij podstrani',
@@ -858,7 +822,6 @@ $messages['sl'] = array(
  */
 $messages['sr-ec'] = array(
 	'title' => 'Орфанток2',
-	'settings-legend' => 'Поставке',
 	'select-wiki-first' => '(прво изаберите викију)',
 	'hideredirects' => 'Сакриј преусмерења',
 	'hidesubpages' => 'Сакриј подстранице',
@@ -883,7 +846,6 @@ $messages['sr-ec'] = array(
  */
 $messages['sr-el'] = array(
 	'title' => 'Orfantok2',
-	'settings-legend' => 'Postavke',
 	'select-wiki-first' => '(prvo izaberite vikiju)',
 	'hideredirects' => 'Sakrij preusmerenja',
 	'hidesubpages' => 'Sakrij podstranice',
@@ -909,7 +871,6 @@ $messages['sr-el'] = array(
  */
 $messages['sv'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Inställningar',
 	'select-wiki-first' => '(Välj en wiki först)',
 	'hideredirects' => 'Göm omdirigeringar',
 	'hidesubpages' => 'Dölj undersidor',
@@ -933,7 +894,6 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'settings-legend' => 'అమరికలు',
 	'select-wiki-first' => '(ముందుగా ఒక వికీని ఎంచుకోండి)',
 	'hideredirects' => 'దారిమార్పులను దాచు',
 	'hidesubpages' => 'ఉపపుటలను దాచు',
@@ -962,7 +922,6 @@ $messages['tet'] = array(
  */
 $messages['tl'] = array(
 	'title' => 'Usapang Ulila 2',
-	'settings-legend' => 'Mga katakdaan',
 	'select-wiki-first' => '(pumili muna ng isang wiki)',
 	'hideredirects' => 'Itago ang mga pagpapapunta sa iba',
 	'hidesubpages' => 'Itago ang kabahaging mga pahina',
@@ -988,7 +947,6 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'title' => 'YalnızTartışma2',
-	'settings-legend' => 'Ayarlar',
 	'select-wiki-first' => '(ilk olarak bir viki seçin)',
 	'hideredirects' => 'Yönlendirmeleri gizle',
 	'hidesubpages' => 'Alt sayfaları gizle',
@@ -1013,7 +971,6 @@ $messages['tr'] = array(
  */
 $messages['vi'] = array(
 	'title' => 'OrphanTalk2',
-	'settings-legend' => 'Truy vấn',
 	'select-wiki-first' => '(trước tiên hãy chọn wiki)',
 	'hideredirects' => 'Ẩn trang đổi hướng',
 	'hidesubpages' => 'Ẩn trang phụ',
@@ -1039,7 +996,6 @@ $messages['vi'] = array(
  */
 $messages['zh-hans'] = array(
 	'title' => '孤立对话页2',
-	'settings-legend' => '设置',
 	'select-wiki-first' => '（先选择一个wiki）',
 	'hideredirects' => '隐藏重定向页',
 	'hidesubpages' => '隐藏子页面',

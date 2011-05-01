@@ -557,6 +557,14 @@ $messages['lb'] = array(
 	'view-source' => 'Quellcode weisen',
 );
 
+/** Lezghian (Лезги)
+ * @author Namik
+ */
+$messages['lez'] = array(
+	'welcome' => 'Ша башуьсте',
+	'days' => 'югъ',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Matasg
  */

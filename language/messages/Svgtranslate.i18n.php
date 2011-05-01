@@ -303,6 +303,8 @@ $messages['bn'] = array(
 	'author-complete' => 'অনুগ্রহ করে লেখকের তথ্য সম্পূর্ণ করুন!',
 	'preview-hide' => 'প্রাকদর্শন আড়ালে রাখো',
 	'preview-refresh' => 'পুনরায় প্রাকদর্শন দেখাও',
+	'description-license' => 'বিবরণ এবং লাইসেন্স নির্বাচন',
+	'finalise' => 'বিস্তারিত চূড়ান্ত',
 );
 
 /** Breton (Brezhoneg)
@@ -873,12 +875,21 @@ $messages['lb'] = array(
 	'th-method' => 'Method',
 	'option-tusc' => 'TUSC (automatesch Eroplueden)',
 	'option-manual' => 'Manuell Eroplueden',
+	'preview' => 'Weisen ouni ze späicheren',
 	'translate' => 'Iwwersetzen',
 	'svginput-label' => 'SVG-Fichier',
 	'stats-footer' => "Dësen Tool gouf zënter dem $2 benotzt fir ongeféier $1 Fichieren z'iwwersetzen.",
 	'uploading' => 'Eroplueden',
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
+);
+
+/** Lezghian (Лезги)
+ * @author Namik
+ */
+$messages['lez'] = array(
+	'th-language' => 'Чlалар',
+	'th-password' => 'Куьлег',
 );
 
 /** Lithuanian (Lietuvių)

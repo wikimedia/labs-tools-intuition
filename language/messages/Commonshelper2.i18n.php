@@ -292,6 +292,25 @@ $messages['bg'] = array(
 	'remove_cats' => 'Премахване на съществуващите категории',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'jira_link' => 'কোন বৈশিষ্ট্য সম্পর্কে পরামর্শ দিতে বাগ রিপোর্ট করুন',
+	'language' => 'ভাষা',
+	'project' => 'প্রকল্প',
+	'source_file' => 'উৎস ফাইল',
+	'target_file' => 'লক্ষ্য ফাইল',
+	'commons_username' => 'উইকিমিডিয়া কমন্স ব্যবহারকারীনাম',
+	'categories' => 'বিষয়শ্রেণীসমূহ',
+	'remove_cats' => 'বর্তমান বিষয়শ্রেণীসমূহ অপসারণ',
+	'tusc_user' => 'TUSC ব্যবহারকারীনাম',
+	'tusc_pass' => 'TUSC শব্দচাবি',
+	'do_it' => 'সম্পন্ন করো',
+	'new_filename' => 'নতুন ফাইলনাম:',
+	'upload_it' => 'আপলোড',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  * @author Y-M D
@@ -830,17 +849,28 @@ $messages['lb'] = array(
 	'remove_cats' => 'Déi Kategorien déi et gëtt ewechhuelen',
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => 'Benotzt $1ÄreVerstand$2 fir nei Kategorie virzeschloen',
+	'use_tusc' => 'Benotzt $1TUSC$2 fir de Fichier direkt ze transferéieren',
 	'tusc_user' => 'TUSC-Benotzernumm',
 	'tusc_pass' => 'TUSC-Passwuert',
 	'do_it' => 'Maacht et',
+	'error_transfer_usr' => 'Dir hutt kee Wikimedia Commons Benotzernumm festgeluecht',
 	'error_not_exists' => 'Quell-Fichier gëtt et net!',
 	'error_file_exists' => 'Et gëtt de Fichier schonn op $3 als "$1$4$2"!',
 	'original_wikitext' => 'Originale Wiki-Text',
 	'new_wikitext' => 'Neie Wiki-Text',
 	'new_filename' => 'Neien Numm vum Fichier:',
 	'upload_it' => 'eroplueden',
+	'target_wiki' => "d'Zilwiki",
 	'error_bot_blocked' => 'De bot fir erofzelueden ass op Wikimedia Commons gespaart.',
+	'error_only_commons' => 'Direkt Eropluede fonctionnéiert nëmme bäi Wikimedia Commons',
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
+);
+
+/** Lezghian (Лезги)
+ * @author Namik
+ */
+$messages['lez'] = array(
+	'new_wikitext' => 'Цlийи вики кхьин',
 );
 
 /** Latvian (Latviešu)

@@ -44,14 +44,6 @@ $messages['af'] = array(
 	'label-wikiids' => "Wiki-ID's",
 	'no-matches' => 'Geen resultate vir "$1"',
 	'output' => 'Afvoer vir "$1"',
-	'settings-legend' => 'Instellings',
-);
-
-/** Arabic (العربية)
- * @author OsamaK
- */
-$messages['ar'] = array(
-	'settings-legend' => 'إعدادات',
 );
 
 /** Asturian (Asturianu)
@@ -63,7 +55,6 @@ $messages['ast'] = array(
 	'label-wikiids' => 'Identificadores na Wiki',
 	'no-matches' => 'Res nun casa con "$1"',
 	'output' => 'Salida pa "$1"',
-	'settings-legend' => 'Configuración',
 );
 
 /** Belarusian (Беларуская)
@@ -75,7 +66,6 @@ $messages['be'] = array(
 	'label-wikiids' => 'Вікі-ідэнтыфікатары',
 	'no-matches' => 'Нічога не адпавядае "$1"',
 	'output' => 'Вывад для "$1"',
-	'settings-legend' => 'Наладкі',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -87,14 +77,6 @@ $messages['be-tarask'] = array(
 	'label-wikiids' => 'Ідэнтыфікатары вікі',
 	'no-matches' => 'Па запыце «$1» нічога ня знойдзена',
 	'output' => 'Вывад для «$1»',
-	'settings-legend' => 'Налады',
-);
-
-/** Bulgarian (Български)
- * @author DCLXVI
- */
-$messages['bg'] = array(
-	'settings-legend' => 'Настройки',
 );
 
 /** Bengali (বাংলা)
@@ -106,7 +88,6 @@ $messages['bn'] = array(
 	'label-wikiids' => 'উইকি নির্ধারণী',
 	'no-matches' => '"$1"-এর সাথে কোনো কিছু মেলেনি',
 	'output' => '"$1"-এর জন্য আউটপুট',
-	'settings-legend' => 'সেটিং',
 );
 
 /** Breton (Brezhoneg)
@@ -118,7 +99,6 @@ $messages['br'] = array(
 	'label-wikiids' => 'Anaouderioù wiki',
 	'no-matches' => 'N\'eus netra o klotañ gant "$1"',
 	'output' => 'Ezvont evit "$1"',
-	'settings-legend' => 'Arventennoù',
 );
 
 /** Bosnian (Bosanski)
@@ -127,7 +107,6 @@ $messages['br'] = array(
 $messages['bs'] = array(
 	'input' => 'Unos',
 	'output' => 'Izlaz za "$1"',
-	'settings-legend' => 'Postavke',
 );
 
 /** Catalan (Català)
@@ -139,7 +118,6 @@ $messages['ca'] = array(
 	'label-wikiids' => 'Identificadors wiki',
 	'no-matches' => 'Cap correspondència per «$1»',
 	'output' => 'Sortida per «$1»',
-	'settings-legend' => 'Paràmetres',
 );
 
 /** Danish (Dansk)
@@ -151,7 +129,6 @@ $messages['da'] = array(
 	'label-wikiids' => 'Wiki-identifikatorer',
 	'no-matches' => 'Intet matcher " $1 "',
 	'output' => 'Output til "$1"',
-	'settings-legend' => 'Indstillinger',
 );
 
 /** German (Deutsch)
@@ -163,7 +140,6 @@ $messages['de'] = array(
 	'label-wikiids' => 'Wiki-Kennungen',
 	'no-matches' => 'Kein Ergebnis für „$1“',
 	'output' => 'Ausgabe für „$1“',
-	'settings-legend' => 'Einstellungen',
 );
 
 /** Greek (Ελληνικά)
@@ -171,7 +147,6 @@ $messages['de'] = array(
  */
 $messages['el'] = array(
 	'no-matches' => 'Τίποτα δεν βρέθηκε για το "$1"',
-	'settings-legend' => 'Ρυθμίσεις',
 );
 
 /** Spanish (Español)
@@ -183,7 +158,6 @@ $messages['es'] = array(
 	'label-wikiids' => 'Identificadores de wiki',
 	'no-matches' => 'No hay coincidencias para «$1»',
 	'output' => 'Salida para «$1»',
-	'settings-legend' => 'Configuración',
 );
 
 /** Persian (فارسی)
@@ -195,7 +169,6 @@ $messages['fa'] = array(
 	'label-wikiids' => 'شناسهٔ ویکی',
 	'no-matches' => 'هیچ‌چیز با «$1» همسان نبود',
 	'output' => 'خروجی برای «$1»',
-	'settings-legend' => 'تنظیمات',
 );
 
 /** Finnish (Suomi)
@@ -207,7 +180,6 @@ $messages['fi'] = array(
 	'label-wikiids' => 'Wikitunnisteet',
 	'no-matches' => 'Mikään ei vastannu tunnusta $1.',
 	'output' => 'Tulokset haulle ”$1”',
-	'settings-legend' => 'Asetukset',
 );
 
 /** French (Français)
@@ -219,7 +191,6 @@ $messages['fr'] = array(
 	'label-wikiids' => 'Identifiants Wiki',
 	'no-matches' => 'Aucune correspondance pour « $1 »',
 	'output' => 'Sortie pour « $1 »',
-	'settings-legend' => 'Paramètres',
 );
 
 /** Croatian (Hrvatski)
@@ -231,7 +202,6 @@ $messages['hr'] = array(
 	'label-wikiids' => 'Wiki identifikatori',
 	'no-matches' => 'Ništa ne odgovara "$1"',
 	'output' => 'Izlaz za "$1"',
-	'settings-legend' => 'Postavke',
 );
 
 /** Hungarian (Magyar)
@@ -243,7 +213,6 @@ $messages['hu'] = array(
 	'label-wikiids' => 'Wikiazonosítók',
 	'no-matches' => 'Nincs találtat a következőre: „$1”',
 	'output' => 'Eredmény: „$1”',
-	'settings-legend' => 'Beállítások',
 );
 
 /** Interlingua (Interlingua)
@@ -255,7 +224,6 @@ $messages['ia'] = array(
 	'label-wikiids' => 'Indentificatores de wiki',
 	'no-matches' => 'Nihil corresponde a "$1"',
 	'output' => 'Resultatos pro "$1"',
-	'settings-legend' => 'Configurationes',
 );
 
 /** Italian (Italiano)
@@ -263,7 +231,6 @@ $messages['ia'] = array(
  */
 $messages['it'] = array(
 	'formats-heading' => 'Formati di output',
-	'settings-legend' => 'Impostazioni',
 );
 
 /** Colognian (Ripoarisch)
@@ -275,7 +242,6 @@ $messages['ksh'] = array(
 	'label-wikiids' => 'Kännonge för de Wikis',
 	'no-matches' => 'Nix jefonge för „$1“',
 	'output' => 'Ußjabe för „$1“',
-	'settings-legend' => 'Enshtällonge',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -284,7 +250,6 @@ $messages['ksh'] = array(
 $messages['lb'] = array(
 	'no-matches' => 'Et passt näischt op "$1"',
 	'output' => 'Resultat fir "$1"',
-	'settings-legend' => 'Astellungen',
 );
 
 /** Lithuanian (Lietuvių)
@@ -296,7 +261,6 @@ $messages['lt'] = array(
 	'label-wikiids' => 'Wiki identifikatorius',
 	'no-matches' => 'Niekas neatitiko "$1"',
 	'output' => 'Išvestis "$1"',
-	'settings-legend' => 'Nustatymai',
 );
 
 /** Macedonian (Македонски)
@@ -308,7 +272,6 @@ $messages['mk'] = array(
 	'label-wikiids' => 'Идентификатори за вики',
 	'no-matches' => 'Ништо не одговара на „$1“',
 	'output' => 'Извод за „$1“',
-	'settings-legend' => 'Поставки',
 );
 
 /** Malay (Bahasa Melayu)
@@ -320,7 +283,6 @@ $messages['ms'] = array(
 	'label-wikiids' => 'Pengenal wiki',
 	'no-matches' => 'Tiada yang sepadan dengan "$1"',
 	'output' => 'Output untuk "$1"',
-	'settings-legend' => 'Tetapan',
 );
 
 /** Dutch (Nederlands)
@@ -333,7 +295,6 @@ $messages['nl'] = array(
 	'label-wikiids' => "Wiki-ID's",
 	'no-matches' => 'Geen resultaten voor "$1"',
 	'output' => 'Uitvoer voor "$1"',
-	'settings-legend' => 'Instellingen',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -345,7 +306,6 @@ $messages['no'] = array(
 	'label-wikiids' => 'Wiki-identifikatorer',
 	'no-matches' => 'Ingenting passet med «$1»',
 	'output' => 'Utdata for «$1»',
-	'settings-legend' => 'Innstillinger',
 );
 
 /** Polish (Polski)
@@ -358,14 +318,6 @@ $messages['pl'] = array(
 	'label-wikiids' => 'Wybierz swoją wiki',
 	'no-matches' => 'Brak wyników odpowiadających zapytaniu „$1”',
 	'output' => 'Wynik dla „$1”',
-	'settings-legend' => 'Ustawienia',
-);
-
-/** Pashto (پښتو)
- * @author Ahmed-Najib-Biabani-Ibrahimkhel
- */
-$messages['ps'] = array(
-	'settings-legend' => 'امستنې',
 );
 
 /** Portuguese (Português)
@@ -378,7 +330,6 @@ $messages['pt'] = array(
 	'label-wikiids' => 'Identificadores wiki',
 	'no-matches' => '"$1" não teve correspondências',
 	'output' => 'Resultados para "$1"',
-	'settings-legend' => 'Definições',
 );
 
 /** Romanian (Română)
@@ -390,7 +341,6 @@ $messages['ro'] = array(
 	'label-wikiids' => 'Identificatori de wikiuri',
 	'no-matches' => 'Nimic nu se potrivește cu „$1”',
 	'output' => 'Datele de ieșire pentru „$1”',
-	'settings-legend' => 'Setări',
 );
 
 /** Tarandíne (Tarandíne)
@@ -398,7 +348,6 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'output' => 'Resultate pe "$1"',
-	'settings-legend' => "'Mbostaziune",
 );
 
 /** Slovenian (Slovenščina)
@@ -410,7 +359,6 @@ $messages['sl'] = array(
 	'label-wikiids' => 'Wikiidentifikatorji',
 	'no-matches' => 'Nič se ne ujema z »$1«',
 	'output' => 'Izhod za »$1«',
-	'settings-legend' => 'Nastavitve',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
@@ -422,7 +370,6 @@ $messages['sr-ec'] = array(
 	'label-wikiids' => 'Одређивачи',
 	'no-matches' => 'Ништа се не поклапа са „$1“',
 	'output' => 'Излаз за „$1“',
-	'settings-legend' => 'Поставке',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
@@ -434,7 +381,6 @@ $messages['sr-el'] = array(
 	'label-wikiids' => 'Određivači',
 	'no-matches' => 'Ništa se ne poklapa sa „$1“',
 	'output' => 'Izlaz za „$1“',
-	'settings-legend' => 'Postavke',
 );
 
 /** Swedish (Svenska)
@@ -446,7 +392,6 @@ $messages['sv'] = array(
 	'label-wikiids' => 'Wiki-identifierare',
 	'no-matches' => 'Ingenting matchade "$1"',
 	'output' => 'Utdata för "$1"',
-	'settings-legend' => 'Inställningar',
 );
 
 /** Telugu (తెలుగు)
@@ -454,7 +399,6 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'no-matches' => '"$1"కి ఏమీ సరిపోలేదు.',
-	'settings-legend' => 'అమరికలు',
 );
 
 /** Tagalog (Tagalog)
@@ -466,7 +410,6 @@ $messages['tl'] = array(
 	'label-wikiids' => 'Mga tagapagkilala ng Wiki',
 	'no-matches' => 'Walang tumugma sa "$1"',
 	'output' => 'Inilabas para sa "$1"',
-	'settings-legend' => 'Mga pagtatakda',
 );
 
 /** Turkish (Türkçe)
@@ -478,7 +421,6 @@ $messages['tr'] = array(
 	'label-wikiids' => 'Viki tanıtıcıları',
 	'no-matches' => '"$1" ile eşleşme yok',
 	'output' => '"$1" için çıkış',
-	'settings-legend' => 'Ayarlar',
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -490,7 +432,6 @@ $messages['vi'] = array(
 	'label-wikiids' => 'ID của các wiki',
 	'no-matches' => 'Không có wiki với ID “$1”',
 	'output' => 'Kết quả “$1”',
-	'settings-legend' => 'Tùy chọn',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
@@ -499,6 +440,5 @@ $messages['vi'] = array(
 $messages['zh-hans'] = array(
 	'formats-heading' => '输出格式',
 	'input' => '输入',
-	'settings-legend' => '设置',
 );
 
