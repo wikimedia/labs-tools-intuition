@@ -21,7 +21,6 @@ $messages['en'] = array(
 	'label-wikiids' => 'Wiki identifiers',
 	'no-matches' => 'Nothing matched "$1"',
 	'output' => 'Output for "$1"',
-	'settings-legend' => 'Settings',
 );
 
 /** Message documentation (Message documentation)
@@ -34,8 +33,6 @@ $messages['qqq'] = array(
 	'label-wikiids' => 'This form label is for the input field for the wiki identifiers. Users may type one or more identifiers here.',
 	'no-matches' => 'Message to be displayed if nothing was found for the given id. $1 represents the user input.',
 	'output' => 'For each of the search results this heading is placed. $1 represents the user input.',
-	'settings-legend' => 'This is the title for the settings box in the input form.
-{{Identical|Settings}}',
 );
 
 /** Afrikaans (Afrikaans)
