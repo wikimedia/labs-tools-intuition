@@ -18,6 +18,7 @@ $messages['en'] = array(
 	'alws-selectwiki' => '(select wiki)',
 	'alws-group-mustused' => 'Most used wikis',
 	'alws-group-allaz' => 'All wikis alphabetically',
+	'form-legend-settings' => 'Settings',
 );
 
 /** Message documentation (Message documentation)
@@ -27,6 +28,8 @@ $messages['qqq'] = array(
 	'alws-selectwiki' => 'This is the initial value for the dropdown menu with all wikis, of which one must be choosen.',
 	'alws-group-mustused' => 'This is the group label for group containing the most used wikis. In a dropdown menu with all wikis.',
 	'alws-group-allaz' => 'This is the group label for the group containg all wikis listed alphabetically. In a dropdown menu with all wikis.',
+	'form-legend-settings' => 'This is the title for the settings box in the form at the top of a tool.
+{{Identical|Settings}}',
 );
 
 /** Afrikaans (Afrikaans)
