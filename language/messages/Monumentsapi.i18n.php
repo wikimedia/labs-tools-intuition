@@ -188,6 +188,7 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'title' => 'Monuments API',
+	'search-table-th-field' => 'Feld',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sichen',
 );
@@ -237,6 +238,16 @@ $messages['nl'] = array(
 $messages['ps'] = array(
 	'search-table-th-filter' => 'چاڼګر',
 	'search-table-th-search' => 'پلټل',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Giro720
+ */
+$messages['pt-br'] = array(
+	'title' => 'Monumentos API',
+	'search-table-th-field' => 'Campo',
+	'search-table-th-filter' => 'Filtro',
+	'search-table-th-search' => 'Pesquisar',
 );
 
 /** Romanian (Română)

@@ -759,6 +759,15 @@ $messages['pt'] = array(
 	'resultslimited' => 'Os resultados foram limitados a $1 páginas.',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Giro720
+ */
+$messages['pt-br'] = array(
+	'title' => 'DiscussõesOrfãs2',
+	'select-wiki-first' => '(primeiro selecione uma wiki)',
+	'hideredirects' => 'Excluir redirecionamentos',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */

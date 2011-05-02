@@ -838,6 +838,7 @@ $messages['ksh'] = array(
 $messages['lb'] = array(
 	'attention' => 'Opgepasst',
 	'description' => 'En Tool fir Fichieren vu Wikimedia-Projeten op Wikimedia Commons ze transferéieren',
+	'change_meta' => "D' $1Kategorien- a Schablounenastellungen$2 fir $3 änneren",
 	'language' => 'Sprooch',
 	'project' => 'Projet',
 	'source_file' => 'Quell-Fichier',
@@ -870,6 +871,7 @@ $messages['lb'] = array(
  * @author Namik
  */
 $messages['lez'] = array(
+	'project' => 'Хакъидай',
 	'new_wikitext' => 'Цlийи вики кхьин',
 );
 

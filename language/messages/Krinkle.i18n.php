@@ -83,6 +83,7 @@ $messages['bn'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(dibab ar wiki)',
 	'alws-group-mustused' => 'Wikioù implijet ar muiañ',
 	'alws-group-allaz' => 'An holl wikioù en urzh al lizherenneg',
@@ -113,6 +114,7 @@ $messages['da'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(Wiki auswählen)',
 	'alws-group-mustused' => 'Die meistgenutzten Wikis',
 	'alws-group-allaz' => 'Alle Wikis in alphabetischer Reihenfolge',
@@ -182,6 +184,7 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(selige un wiki)',
 	'alws-group-mustused' => 'Wikis le plus usate',
 	'alws-group-allaz' => 'Tote le wikis in ordine alphabetic',
@@ -213,6 +216,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(Wiki eraussichen)',
 	'alws-group-mustused' => 'Meescht benotzte Wikien',
 	'alws-group-allaz' => 'All Wikien (alphabetesch)',
@@ -239,6 +243,7 @@ $messages['mk'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(pilih wiki)',
 	'alws-group-mustused' => 'Wiki yang paling kerap digunakan',
 	'alws-group-allaz' => 'Semua wiki mengikut turutan abjad',
@@ -247,8 +252,10 @@ $messages['ms'] = array(
 
 /** Dutch (Nederlands)
  * @author Krinkle
+ * @author Siebrand
  */
 $messages['nl'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(selecteer een wiki)',
 	'alws-group-mustused' => "Meeste gebruikte wiki's",
 	'alws-group-allaz' => 'Alle wikis op alfabetische volgorde',
@@ -287,6 +294,7 @@ $messages['pt'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(selectați un wiki)',
 	'alws-group-mustused' => 'Cele mai utilizate wikiuri',
 	'alws-group-allaz' => 'Toate wikiurile ordonate alfabetic',
@@ -302,6 +310,7 @@ $messages['roa-tara'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(izberite wiki)',
 	'alws-group-mustused' => 'Najpogosteje uporabljani wikiji',
 	'alws-group-allaz' => 'Vsi wikiji po abecedi',
@@ -330,8 +339,10 @@ $messages['sr-el'] = array(
 
 /** Swedish (Svenska)
  * @author Liftarn
+ * @author Lokal Profil
  */
 $messages['sv'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(Välj wiki)',
 	'alws-group-mustused' => 'Mest använda wikis',
 	'alws-group-allaz' => 'Alla wikis i alfabetisk ordning',
@@ -367,6 +378,7 @@ $messages['tr'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(chọn wiki)',
 	'alws-group-mustused' => 'Các wiki được sử dụng nhiều nhất',
 	'alws-group-allaz' => 'Tất cả các wiki theo thứ tự chữ cái',

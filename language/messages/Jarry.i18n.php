@@ -24,11 +24,15 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Jarry1250
  * @author Krinkle
  */
 $messages['qqq'] = array(
 	'title' => 'The head line of Jarry tools. {{Notranslate}}',
 	'moretools' => 'This is a link to the index of all tools by Jarry1250.',
+	'bugs' => 'The text for a footer link to a website where users can submit details of errors they encounter and suggestions for new features',
+	'comments' => 'The text for a footer link to a website where users can leave comments and queries about the tool',
+	'error-form-empty' => 'A general error that field that results when users leave required fields empty (blank)',
 );
 
 /** Asturian (Asturianu)

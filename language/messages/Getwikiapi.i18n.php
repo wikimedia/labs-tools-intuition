@@ -332,6 +332,17 @@ $messages['pt'] = array(
 	'output' => 'Resultados para "$1"',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Giro720
+ */
+$messages['pt-br'] = array(
+	'formats-heading' => 'Formatos de saída',
+	'input' => 'Entrada',
+	'label-wikiids' => 'Identificadores wiki',
+	'no-matches' => '"$1" não teve correspondências',
+	'output' => 'Resultados para "$1"',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */

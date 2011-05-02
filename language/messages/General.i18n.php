@@ -562,7 +562,10 @@ $messages['lb'] = array(
  */
 $messages['lez'] = array(
 	'welcome' => 'Ша башуьсте',
+	'years' => 'йис',
+	'weeks' => 'афте',
 	'days' => 'югъ',
+	'hours' => 'сятер',
 );
 
 /** Lithuanian (Lietuvių)

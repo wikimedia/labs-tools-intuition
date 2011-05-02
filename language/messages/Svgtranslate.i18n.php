@@ -94,6 +94,9 @@ Parameters:
 	'author-complete' => 'An instruction to the user to manually add in author information from the file because the tool could not generate it automatically.',
 	'preview-hide' => 'The text for a button which hides the preview that the user has just asked for.',
 	'preview-refresh' => 'The text for a button which refreshes the preview that the user has just asked for.',
+	'error-must-accept' => 'An error message encountered when users do not tick the box that indicates they accept the terms of use of the tool.',
+	'error-tusc-failed' => 'An error encountered when a TUSC user with that username/password combination is not found e.g. because the wrong password have been supplied.',
+	'description-license' => 'A header for a form where description and copyright license are selected.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -880,6 +883,7 @@ $messages['lb'] = array(
 	'svginput-label' => 'SVG-Fichier',
 	'stats-footer' => "Dësen Tool gouf zënter dem $2 benotzt fir ongeféier $1 Fichieren z'iwwersetzen.",
 	'uploading' => 'Eroplueden',
+	'upload-complete' => "D'Eroplueden huet fonctionnéiert. D'Bild misst elo op $1 sinn",
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 );
@@ -1214,6 +1218,28 @@ $messages['ps'] = array(
 	'svginput-label' => 'د SVG دوتنه',
 	'uploading' => 'د برسېرېدلو په حال کې...',
 	'preview-hide' => 'مخليدنه پټول',
+);
+
+/** Portuguese (Português)
+ * @author Giro720
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'error-notsvg' => 'Não é um ficheiro SVG.',
+	'error-unexpected' => 'Ocorreu um erro inesperado.',
+	'error-notfound' => 'Não foi possível obter o ficheiro SVG na URL fornecida.',
+	'begin-translation' => 'Começar a tradução',
+	'th-original' => 'Original',
+	'th-translation' => 'Tradução',
+	'th-language' => 'Língua',
+	'th-username' => 'Nome de utilizador',
+	'th-method' => 'Método',
+	'option-tusc' => 'TUSC (upload automático)',
+	'option-manual' => 'Upload manual',
+	'preview' => 'Antevisão',
+	'translate' => 'Traduzir',
+	'svginput-label' => 'Ficheiro SVG',
+	'stats-footer' => 'Esta ferramenta foi usada para traduzir aproximadamente {{PLURAL:$1|um ficheiro|$1 ficheiros}} desde $2.',
 );
 
 /** Romanian (Română)

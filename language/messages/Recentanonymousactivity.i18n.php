@@ -60,6 +60,13 @@ $messages['ca'] = array(
 	'title' => 'Activitat anònima recent',
 );
 
+/** Czech (Česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'title' => 'Nedávná aktivita anonymů',
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */
