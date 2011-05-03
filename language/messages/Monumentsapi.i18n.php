@@ -143,6 +143,15 @@ $messages['fr'] = array(
 	'search-table-th-search' => 'Rechercher',
 );
 
+/** Galician (Galego)
+ * @author Elisardojm
+ */
+$messages['gl'] = array(
+	'search-table-th-field' => 'Campo',
+	'search-table-th-filter' => 'Filtro',
+	'search-table-th-search' => 'Procura',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */
@@ -330,6 +339,14 @@ $messages['tl'] = array(
 	'search-table-th-field' => 'Kahanayan',
 	'search-table-th-filter' => 'Pansala',
 	'search-table-th-search' => 'Hanapin',
+);
+
+/** Ukrainian (Українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'search-table-th-field' => 'Поле',
+	'search-table-th-filter' => 'Фільтр',
 );
 
 /** Vietnamese (Tiếng Việt)

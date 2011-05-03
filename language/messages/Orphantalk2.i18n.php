@@ -975,6 +975,14 @@ $messages['tr'] = array(
 	'resultslimited' => 'Sonuçlar, $1 sayfa ile sınırlandırıldı.',
 );
 
+/** Ukrainian (Українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'hidesubpages' => 'Приховати підсторінки',
+	'page' => 'Сторінка',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

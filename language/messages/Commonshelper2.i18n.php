@@ -1307,6 +1307,15 @@ $messages['sv'] = array(
 	'error_upload_file' => 'Den ursprungliga filen kan inte laddas ner.',
 );
 
+/** Tamil (தமிழ்)
+ * @author Fahimrazick
+ */
+$messages['ta'] = array(
+	'attention' => 'கவனிக்க',
+	'description' => 'விக்கிமீடியா திட்டங்களிலிருந்து விக்கிமீடியா பொதுவிற்கு கோப்புக்களைப் பரிமாற்றுவதற்கான ஒரு கருவி',
+	'change_meta' => '$1பகுப்பு மற்றும் வார்ப்புரு நிருணயங்களை$2 பின்வருமாறு மாற்று$3',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -1374,6 +1383,16 @@ $messages['tl'] = array(
 	'error_commons_user' => 'Upang makilala ang tagagamit ng paglilipat, ang iyong pangalan ng tagagamit sa Wikimedia Commons ay dapat na nasa loob ng paglalarawan!',
 	'error_upload_users' => 'Ang tungkulin ng pagkakargang papaitaas ay makukuha lamang ng ilang mga tagagamit habang nasa panahon ng pagsusubok!',
 	'error_upload_file' => 'Hindi maikakargang paibaba ang orihinal talaksan.',
+);
+
+/** Ukrainian (Українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'attention' => 'Увага',
+	'language' => 'Мова',
+	'project' => 'Проект',
+	'categories' => 'Категорії',
 );
 
 /** Vietnamese (Tiếng Việt)

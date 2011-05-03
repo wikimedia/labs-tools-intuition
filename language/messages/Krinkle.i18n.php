@@ -363,6 +363,7 @@ $messages['te'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(piliin ang wiki)',
 	'alws-group-mustused' => 'Pinaka ginagamit na mga wiki',
 	'alws-group-allaz' => 'Lahat ng mga wiki ayon sa abakada',

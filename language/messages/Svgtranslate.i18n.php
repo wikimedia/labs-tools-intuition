@@ -1543,6 +1543,15 @@ $messages['tr'] = array(
 	'stats-footer' => 'Bu araç, $2 tarihinden bu yana yaklaşık olarak $1 dosyanın çevrilmesi için kullanıldı.',
 );
 
+/** Ukrainian (Українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'th-language' => 'Мова',
+	'th-password' => 'Пароль',
+	'preview' => 'Попередній перегляд',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

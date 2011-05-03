@@ -940,6 +940,19 @@ $messages['tr'] = array(
 	'view-source' => 'Kaynağı gör',
 );
 
+/** Ukrainian (Українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'hello' => 'Вітаю',
+	'namespace' => 'Простір назв',
+	'years' => 'років',
+	'weeks' => 'тижнів',
+	'days' => 'днів',
+	'hours' => 'годин',
+	'last-modified-date' => 'Остання зміна: $1',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
