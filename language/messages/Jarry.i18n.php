@@ -57,6 +57,13 @@ $messages['be'] = array(
 	'error-form-empty' => 'Адно або некалькі абавязковых палёў пакінутыя пустымі. Вы мусіце запоўніць іх, перш чым працягваць',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'title' => 'Інструмэнты Jarry1250',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
@@ -118,6 +125,16 @@ $messages['fr'] = array(
 	'bugs' => 'rapports de bogues et de demandes de fonctionnalités',
 	'comments' => 'commentaires et requêtes',
 	'error-form-empty' => 'Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer.',
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'title' => 'Ferramentas do servidor de Jarry1250',
+	'moretools' => 'máis ferramentas do mesmo autor',
+	'bugs' => 'informes de erros e solicitudes de funcionalidades',
+	'comments' => 'comentarios e preguntas',
 );
 
 /** Croatian (Hrvatski)
@@ -212,6 +229,17 @@ $messages['nl'] = array(
 	'bugs' => 'bugmeldingen en functionaliteitsverzoeken',
 	'comments' => 'vragen en opmerkingen',
 	'error-form-empty' => 'Een of meer verplichte velden zijn leeg gelaten. U moet deze invullen voordat u verdergaat.',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'title' => 'Jarry1250s Toolserver-verktøy',
+	'moretools' => 'flere verktøy fra den samme forfatteren',
+	'bugs' => 'feilrapporter og funksjonsforespørsler',
+	'comments' => 'kommentarer og spørringer',
+	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
 );
 
 /** Romanian (Română)

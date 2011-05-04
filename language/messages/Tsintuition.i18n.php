@@ -532,6 +532,30 @@ $messages['fr'] = array(
 	'help-translate-tooltip' => 'Aidez les autres en traduisant dans votre langue les messages de l’interface.',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'current-settings' => 'Configuración actual',
+	'current-language' => 'Lingua actual',
+	'settings-legend' => 'Configuracións',
+	'choose-language' => 'Escolla a lingua',
+	'clear-cookies' => 'borrar as cookies',
+	'renew-cookies' => 'renovar as cookies',
+	'cookie-expiration' => 'Caducidade das cookies',
+	'clearcookies-success' => 'As cookies borráronse correctamente.',
+	'tab-overview' => 'Vista xeral',
+	'tab-settings' => 'Configuracións',
+	'tab-about' => 'Acerca de',
+	'tab-demo' => 'Demostración',
+	'bl-mysettings' => 'As miñas opcións de lingua',
+	'bl-mysettings-new' => 'Cambiar a lingua!',
+	'bl-promo' => 'As traducións son posibles grazas a $1 e $2.',
+	'usage' => 'Ferramentas traducidas por Toolserver Intuition.',
+	'help-translate-tool' => 'Axude a traducir esta ferramenta!',
+	'help-translate-all' => 'Axude a traducir Toolserver!',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -938,6 +962,7 @@ $messages['no'] = array(
 	'tab-overview' => 'Oversikt',
 	'tab-settings' => 'Innstillinger',
 	'tab-about' => 'Om',
+	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Mine språkinnstillinger',
 	'bl-mysettings-new' => 'Endre språk',
 	'bl-promo' => 'Oversettelser drives av $1 og $2.',

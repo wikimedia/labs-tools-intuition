@@ -193,6 +193,17 @@ $messages['fr'] = array(
 	'output' => 'Sortie pour « $1 »',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'formats-heading' => 'Formatos de saída',
+	'input' => 'Entrada',
+	'label-wikiids' => 'Identificadores wiki',
+	'no-matches' => 'Nada coincidiu con "$1"',
+	'output' => 'Saída para "$1"',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

@@ -159,6 +159,13 @@ $messages['nl'] = array(
 	'title' => 'Recente activiteit van anonieme gebruikers',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'title' => 'Siste anonyme aktivitet',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */

@@ -160,6 +160,17 @@ $messages['fr'] = array(
 	'form-legend-settings' => 'Paramètres',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'alws-label' => 'Wiki',
+	'alws-selectwiki' => '(seleccionar o wiki)',
+	'alws-group-mustused' => 'Wikis máis empregados',
+	'alws-group-allaz' => 'Todos os wikis en orde alfabética',
+	'form-legend-settings' => 'Configuracións',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */
@@ -262,8 +273,14 @@ $messages['nl'] = array(
 	'form-legend-settings' => 'Instellingen',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
 $messages['no'] = array(
+	'alws-label' => 'Wiki',
+	'alws-selectwiki' => '(velg wiki)',
+	'alws-group-mustused' => 'Mest brukte wikier',
+	'alws-group-allaz' => 'Alle wikier i alfabetisk orden',
 	'form-legend-settings' => 'Innstillinger',
 );
 

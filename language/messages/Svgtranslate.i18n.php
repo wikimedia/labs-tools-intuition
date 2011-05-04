@@ -639,6 +639,34 @@ $messages['fr'] = array(
 	'finalise' => 'Finaliser les détails',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'title' => 'Tradución SVG',
+	'error-nothing' => 'Non hai nada que traducir.',
+	'error-notsvg' => 'Non é un ficheiro SVG.',
+	'error-unexpected' => 'Houbo un erro inesperado.',
+	'begin-translation' => 'Comezar a tradución',
+	'th-original' => 'Orixinal',
+	'th-translation' => 'Tradución',
+	'th-language' => 'Lingua',
+	'th-username' => 'Nome de usuario',
+	'th-password' => 'Contrasinal',
+	'th-method' => 'Método',
+	'option-tusc' => 'TUSC (carga automática)',
+	'option-manual' => 'Carga manual',
+	'preview' => 'Vista previa',
+	'translate' => 'Traducir',
+	'svginput-label' => 'Ficheiro SVG',
+	'uploading' => 'Cargando',
+	'author-complete' => 'Complete a información do autor!',
+	'preview-hide' => 'Agochar a vista previa',
+	'preview-refresh' => 'Actualizar a vista previa',
+	'description-license' => 'Seleccione a descrición e a licenza',
+	'finalise' => 'Finalizar os detalles',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -885,6 +913,7 @@ $messages['lb'] = array(
 	'uploading' => 'Eroplueden',
 	'upload-complete' => "D'Eroplueden huet fonctionnéiert. D'Bild misst elo op $1 sinn",
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
+	'author-complete' => "Kompletéiert w.e.g. d'Informatiounen iwwer den Auteur!",
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 );
 
@@ -1073,6 +1102,7 @@ $messages['mt'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  */
 $messages['ne'] = array(
@@ -1159,15 +1189,32 @@ $messages['no'] = array(
 	'error-notsvg' => 'Ikke en SVG-fil.',
 	'error-unexpected' => 'En uventet feil oppsto.',
 	'error-notfound' => 'SVG-filen kunne ikke hentes fra den angitte adressen.',
+	'error-upload' => 'Det oppsto en feil under opplasting.',
 	'begin-translation' => 'Begynn oversettelsen',
 	'th-original' => 'Original',
 	'th-translation' => 'Oversettelse',
 	'th-language' => 'Språk',
+	'th-username' => 'Brukernavn',
+	'th-password' => 'Passord',
+	'th-method' => 'Metode',
+	'option-tusc' => 'TUSC (automatisk opplasting)',
+	'option-manual' => 'Manuell opplasting',
 	'preview' => 'Forhåndsvisning',
 	'translate' => 'Oversett',
 	'translate-instructions' => 'Innputt godtas enten som filnavn (f.eks. «$1») eller fullstendige adresser (f.eks. «$2»). Om den første muligheten brukes vil Wikimedia Commons antas som kilde. For å oversette en SVG-fil fra et annet nettsted eller en annen wiki må du bruke den fullstendige adressen.',
 	'svginput-label' => 'SVG-fil',
 	'stats-footer' => 'Dette verktøyet har blitt brukt for å oversette omtrent $1 filer siden $2.',
+	'uploading' => 'Opplasting',
+	'upload-complete' => 'Opplastingen er fullført. Bildet bør nå være på $1',
+	'editdescriptionpage' => 'Endre den nye beskrivelsessiden',
+	'disclaimer' => 'Enkelte anonyme data vil samles inn privat for statistiske formål. Hvis oppgitt vil også TUSC-brukernavn bli registrert for å bistå i tilfelle hærverk. Passord vil aldri bli registrert.',
+	'author-complete' => 'Fyll ut forfatterinformasjonen!',
+	'preview-hide' => 'Skjul forhåndsvisning',
+	'preview-refresh' => 'Oppdater forhåndsvisning',
+	'error-must-accept' => 'For å fortsette med en direkte opplasting må du godta de oppgitte bruksvilkårene.',
+	'error-tusc-failed' => 'TUSC-validering feilet: feil brukernavn eller passord.',
+	'description-license' => 'Velg beskrivelse og lisens',
+	'finalise' => 'Ferdigstill detaljer',
 );
 
 /** Deitsch (Deitsch)

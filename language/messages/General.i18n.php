@@ -392,6 +392,25 @@ $messages['fr'] = array(
 	'view-source' => 'Voir la source',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'hello' => 'Ola',
+	'welcome' => 'Benvido',
+	'toolversionstamp' => 'Versión $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => 'Espazo de nomes',
+	'form-submit' => 'Ir',
+	'form-reset' => 'Restablecer',
+	'years' => 'anos',
+	'weeks' => 'semanas',
+	'days' => 'días',
+	'hours' => 'horas',
+	'last-modified-date' => 'Última modificación: $1',
+	'view-source' => 'Ver o código fonte',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -673,11 +692,12 @@ $messages['nl'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'hello' => 'Hallo',
 	'welcome' => 'Velkommen',
-	'toolversionstamp' => 'Versjon $1 som lastet opp $2',
+	'toolversionstamp' => 'Versjon $1 ($2)',
 	'etc' => 'osv.',
 	'namespace' => 'Navnerom',
 	'form-submit' => 'Gå',
@@ -686,6 +706,8 @@ $messages['no'] = array(
 	'weeks' => 'uker',
 	'days' => 'dager',
 	'hours' => 'timer',
+	'last-modified-date' => 'Sist endret: $1',
+	'view-source' => 'Vis kilde',
 );
 
 /** Deitsch (Deitsch)

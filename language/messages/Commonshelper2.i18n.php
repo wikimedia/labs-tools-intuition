@@ -277,6 +277,10 @@ $messages['be-tarask'] = array(
 	'error_upload_meta' => 'Немагчыма загрузіць непасрэдна з-за праблемы з мета-зьвесткамі (глядзіце вышэй)!',
 	'error_tusc_failed' => 'Памылка вэрыфікацыі TUSC!',
 	'error_only_commons' => 'Непасрэдная загрузка працуе толькі ў Wikimedia Commons!',
+	'upload_control_text' => 'Калі ласка, праверце новы вікі-тэкст і націсьніце «Загрузіць», калі ўсё добра!',
+	'error_commons_user' => 'Для вызначэньня карыстальніка, які перадае файлы, Вашае імя ўдзельніка ў Wikimedia Commons павінна быць у апісаньні!',
+	'error_upload_users' => 'Функцыя загрузкі даступная некаторым удзельнікам падчас тэставага пэрыяду!',
+	'error_upload_file' => 'Арыгінальны файл не можа быць загружаны.',
 );
 
 /** Bulgarian (Български)
@@ -592,6 +596,31 @@ $messages['fr'] = array(
 	'error_commons_user' => "Pour identifier l'utilisateur qui effectue le transfert, votre nom d'utilisateur de Wikimedia Commons doit figurer dans la description !",
 	'error_upload_users' => "La fonction de téléversement est uniquement disponible pour certains utilisateurs durant la période d'essai !",
 	'error_upload_file' => 'Le fichier original ne peut être pas être téléchargé.',
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'attention' => 'Atención',
+	'language' => 'Lingua',
+	'project' => 'Proxecto',
+	'source_file' => 'Ficheiro de orixe',
+	'target_file' => 'Ficheiro de destino',
+	'commons_username' => 'Nome de usuario na Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons ao proxecto',
+	'move_file_from_com' => 'Mover o ficheiro da Wikimedia Commons ao proxecto',
+	'categories' => 'Categorías',
+	'remove_cats' => 'Eliminar as categorías existentes',
+	'tusc_user' => 'Nome de usuario TUSC',
+	'tusc_pass' => 'Contrasinal TUSC',
+	'do_it' => 'Facelo',
+	'error_not_exists' => 'O ficheiro de orixe non existe!',
+	'original_wikitext' => 'Texto wiki orixinal',
+	'new_wikitext' => 'Novo texto wiki',
+	'new_filename' => 'Novo nome de ficheiro:',
+	'upload_it' => 'cargalo',
+	'target_wiki' => 'o wiki de destino',
 );
 
 /** Hebrew (עברית)
@@ -1044,6 +1073,51 @@ $messages['nl'] = array(
 	'error_commons_user' => 'Om de gebruiker die het bestand overdraagt te kunnen identificeren, moet uw gebruikersnaam bij Wikimedia Commons in de beschrijving voorkomen.',
 	'error_upload_users' => 'Tijdens de testperiode is de uploadfunctionaliteit is alleen beschikbaar voor een selecte groep gebruikers.',
 	'error_upload_file' => 'Het oorspronkelijke bestand kan niet gedownload worden.',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'attention' => 'Bemerk',
+	'description' => 'Et verktøy for å overføre filer fra Wikimedia-prosjekter til Wikimedia Commons',
+	'change_meta' => 'Endre $1kategori- og malinnstillinger$2 for $3',
+	'jira_link' => 'Rapporter en feil eller foreslå en funksjon',
+	'language' => 'Språk',
+	'project' => 'Prosjekt',
+	'source_file' => 'Kildefil',
+	'target_file' => 'Målfil',
+	'commons_username' => 'Wikimedia Commons-brukernavn',
+	'commons_to_project' => 'Wikimedia Commons til prosjekt',
+	'move_file_from_com' => 'Flytt fil fra Wikimedia Commons til prosjekt',
+	'categories' => 'Kategorier',
+	'remove_cats' => 'Fjern eksisterende kategorier',
+	'use_checkusage' => 'Bruk $1CommonSense$2 til å foreslå nye kategorier',
+	'use_tusc' => 'Bruk $1TUSC$2 til å overføre filen direkte',
+	'tusc_user' => 'TUSC-brukernavn',
+	'tusc_pass' => 'TUSC-passord',
+	'do_it' => 'Gjør det',
+	'error_transfer_usr' => 'Du har ikke satt et Wikimedia Commons-brukernavn',
+	'error_not_exists' => 'Kildefil finnes ikke!',
+	'error_file_exists' => 'Filen finnes allerede på $3 som «$1$4$2»!',
+	'error_diff_exists' => 'En annen målfil finnes allerede på målwikien under samme navn!',
+	'error_no_meta' => 'Ingen metadata funnet for kildewikien! $1Link$2',
+	'error_meta_no_good' => 'Metadata: Ingen gode maler funnet! $1Link$2',
+	'error_meta_bad' => 'Metadata: Dårlig mal funnet! $1Link$2',
+	'original_wikitext' => 'Opprinnelig wikitekst',
+	'new_wikitext' => 'Ny wikitekst',
+	'new_filename' => 'Nytt filnavn:',
+	'output_information' => 'For manuell opplasting, endre teksten ovenfor (om nødvendig), lagre $1filen$2 på din datamaskin, og deretter',
+	'upload_it' => 'last den opp',
+	'target_wiki' => 'målwikien',
+	'error_bot_blocked' => 'Opplastingsbotten er blokkert på Wikimedia Commons.',
+	'error_upload_meta' => 'Kan ikke laste opp direkte fordi det er problemer med metadataene (se ovenfor)!',
+	'error_tusc_failed' => 'TUSC-verifisering mislyktes!',
+	'error_only_commons' => 'Direkte opplasting virker kun på Wikimedia Commons!',
+	'upload_control_text' => 'Sjekk den nye wikiteksten og klikk på «Last opp!» hvis alt er OK!',
+	'error_commons_user' => 'Brukernavnet ditt på Wikimedia Commons må være i beskrivelsen for at brukeren som gjør overføringen skal kunne identifiseres!',
+	'error_upload_users' => 'Opplastingsfunksjonen er kun tilgjengelig for enkelte brukere under testperioden!',
+	'error_upload_file' => 'Den opprinnelige filen kan ikke lastes ned.',
 );
 
 /** Pashto (پښتو)

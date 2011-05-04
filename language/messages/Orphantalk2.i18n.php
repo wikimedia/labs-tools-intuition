@@ -390,6 +390,27 @@ $messages['fr'] = array(
 	'resultslimited' => 'Les résultats ont été limités à $1 pages.',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(seleccione primeiro un wiki)',
+	'hideredirects' => 'Agochar as redireccións',
+	'hidesubpages' => 'Agochar as subpáxinas',
+	'limit' => 'Límite',
+	'page' => 'Páxina',
+	'redirect' => 'É unha redirección?',
+	'output' => 'Saída',
+	'update' => 'Actualizar',
+	'tools-delete' => 'borrar',
+	'tools-links' => 'ligazóns',
+	'tools-subject' => 'asunto',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'actual',
+	'tools-globalusage' => 'uso global',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

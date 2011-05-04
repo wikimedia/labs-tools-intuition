@@ -145,11 +145,13 @@ $messages['fr'] = array(
 
 /** Galician (Galego)
  * @author Elisardojm
+ * @author Toliño
  */
 $messages['gl'] = array(
+	'title' => 'Monuments API',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
-	'search-table-th-search' => 'Procura',
+	'search-table-th-search' => 'Procurar',
 );
 
 /** Croatian (Hrvatski)
@@ -239,6 +241,16 @@ $messages['nl'] = array(
 	'search-table-th-field' => 'Veld',
 	'search-table-th-filter' => 'Filteren',
 	'search-table-th-search' => 'Zoeken',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Felt',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Søk',
 );
 
 /** Pashto (پښتو)
