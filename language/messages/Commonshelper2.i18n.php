@@ -54,8 +54,8 @@ $messages['en'] = array(
 	'original_wikitext' => 'Original wiki text',
 	'new_wikitext' => 'New wiki text',
 	'new_filename' => 'New filename:',
-	'output_information' => 'For manual upload, edit the above text (if necessary), save $1the file$2 on your computer, then', 
-	'upload_it' => 'upload it',
+	'output_information' => 'For manual upload, edit the above text (if necessary), save $1the file$2 on your computer, then $3upload it$4.',
+	'upload_submit' => 'Upload!',
 
 	// Misc
 	'target_wiki' => 'the target wiki',
@@ -106,9 +106,12 @@ $4 is the name of the file',
 	'error_no_meta' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of http://meta.wikimedia.org/wiki/CommonsHelper2.',
 	'error_meta_no_good' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of http://meta.wikimedia.org/wiki/CommonsHelper2.',
 	'error_meta_bad' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of http://meta.wikimedia.org/wiki/CommonsHelper2.',
-	'output_information' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'output_information' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
+	
+$3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of the link).',
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
+	'upload_control_text' => '"Upload!" should be the same as in the message [[Toolserver:CommonsHelper2-upload_submit]]',
 );
 
 /** Afrikaans (Afrikaans)
