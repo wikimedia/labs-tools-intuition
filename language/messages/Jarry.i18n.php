@@ -59,9 +59,14 @@ $messages['be'] = array(
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
+ * @author Jim-by
  */
 $messages['be-tarask'] = array(
 	'title' => 'Інструмэнты Jarry1250',
+	'moretools' => 'іншыя інструмэнты ад гэтага аўтара',
+	'bugs' => 'паведамленьні пра памылкі і запыты на паляпшэньне',
+	'comments' => 'камэнтары і запыты',
+	'error-form-empty' => 'Адно ці некалькі абавязковых палёў пакінутыя пустымі. Вам неабходна запоўніць іх, перад тым як працягваць.',
 );
 
 /** Breton (Brezhoneg)

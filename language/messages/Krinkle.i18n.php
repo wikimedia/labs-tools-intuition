@@ -64,8 +64,11 @@ $messages['be'] = array(
 	'form-legend-settings' => 'Наладкі',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬) */
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Jim-by
+ */
 $messages['be-tarask'] = array(
+	'alws-label' => 'Вікі',
 	'form-legend-settings' => 'Налады',
 );
 
