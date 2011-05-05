@@ -72,7 +72,7 @@ $messages['en'] = array(
 	'upload_control_text'=> 'Please check the new wiki text and click "$1" if all is OK!',
 	'error_commons_user' => 'To identify the transfer user, your Wikimedia Commons username has to be in the description!',
 	'error_upload_users' => 'The upload function is only available to some users during the test period!',
-	'error_upload_file' => 'The orginal file cannot be downloaded.'
+	'error_upload_file' => 'The original file cannot be downloaded.'
 );
 
 /** Message documentation (Message documentation)
