@@ -69,7 +69,7 @@ $messages['en'] = array(
 	'error_upload_meta' => 'Cannot upload directly because there are problem with the meta data (see above)!',
 	'error_tusc_failed' => 'TUSC verification failed!',
 	'error_only_commons' => 'Direct upload works only at Wikimedia Commons!',
-	'upload_control_text'=> 'Please check the new wiki text and click "Upload!" if all is OK!',
+	'upload_control_text'=> 'Please check the new wiki text and click "$1" if all is OK!',
 	'error_commons_user' => 'To identify the transfer user, your Wikimedia Commons username has to be in the description!',
 	'error_upload_users' => 'The upload function is only available to some users during the test period!',
 	'error_upload_file' => 'The orginal file cannot be downloaded.'
@@ -111,7 +111,8 @@ $4 is the name of the file',
 $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of the link).',
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
-	'upload_control_text' => '"Upload!" should be the same as in the message [[Toolserver:CommonsHelper2-upload_submit]]',
+	'upload_control_text' => '$1 is be the same as in the message {{msg-toolserver|CommonsHelper2-upload_submit}}',
+	'upload_submit' => 'Please see {{msg-toolserver|Commonshelper2-upload_control_text}} for context'
 );
 
 /** Afrikaans (Afrikaans)
