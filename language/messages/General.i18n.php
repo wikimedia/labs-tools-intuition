@@ -26,7 +26,7 @@ $messages['en'] = array(
 	'hours' => 'hours',
 	'last-modified-date' => 'Last modified: $1',
 	'view-source' => 'View source',
-	'parenthesis' => '($1)', // optional
+	'parentheses' => '($1)', // optional
 );
 
 /** Message documentation (Message documentation)

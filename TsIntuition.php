@@ -1084,7 +1084,7 @@ class TsIntuition {
 	/* Other functions
 	 * ------------------------------------------------- */
 
-	public static function parentheses( /* $this->msg( [arguments] ) */ ) {
+	public function parentheses( /* $this->msg( [arguments] ) */ ) {
 		$msg = call_user_func_array(
 			array( $this, 'msg' ),
 			func_get_args()
