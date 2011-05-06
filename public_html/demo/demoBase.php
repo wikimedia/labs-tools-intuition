@@ -11,6 +11,7 @@ $demoRegistry = array(
 	'demo3' => 'Undefined message (notice)',
 	'demo4' => 'Undefined message (no brackets)',
 	'demo5' => 'Dashboard backlink and footer line',
+	'demo6' => 'Utility examples',
 );
 
 $thisFile = basename( $_SERVER['SCRIPT_NAME'], '.php' );
