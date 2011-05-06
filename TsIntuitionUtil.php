@@ -72,6 +72,7 @@ class TsIntuitionUtil {
 		return true;
 	}
 
+
 	/**
 	 * A return version of var_dump().
 	 * Optionally html-escaped and wrapped in a <pre>-tag.

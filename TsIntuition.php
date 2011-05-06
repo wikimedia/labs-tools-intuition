@@ -1084,6 +1084,21 @@ class TsIntuition {
 	/* Other functions
 	 * ------------------------------------------------- */
 
+	public static function parentheses( /* $this->msg( [arguments] ) */ ) {
+		$msg = call_user_func_array(
+			array( $this, 'msg' ),
+			func_get_args()
+		);
+		return $this->msg(
+			'parentheses',
+			array(
+				'domain' => 'general',
+				'variables' => array( $msg ),
+				'raw-variables' => true,
+			)
+		);
+	}
+
 	/**
 	 * Get a localized date. Pass a format, time or both.
 	 * Defaults to the current timestamp in the language's default date format.
