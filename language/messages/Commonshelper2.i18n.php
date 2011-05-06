@@ -36,7 +36,7 @@ $messages['en'] = array(
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => 'Use $1CommonSense$2 to suggest new categories',
 	'tusc' => 'TUSC', // Ignore
-	'use_tusc' => 'Use $1TUSC$2 to transfer the file directly',
+	'use_tusc' => 'Use authenticate $1TUSC$2 to transfer the file directly',
 	'tusc_user' => 'TUSC username',
 	'tusc_pass' => 'TUSC password',
 	'do_it' => 'Do it',
@@ -46,7 +46,7 @@ $messages['en'] = array(
 	'error_not_exists' => 'Source file does not exist!',
 	'error_file_exists' => 'File already exists on $3 as "$1$4$2"!',
 	'error_diff_exists' => 'Different target file exists on the target wiki under the same name!',
-	'error_no_meta' => 'No metadata found for the source wiki! $1Link$2',	
+	'error_no_meta' => 'No metadata found about the source wiki! $1Link$2',	
 	'error_meta_no_good' => 'Metadata: No good templates found! $1Link$2',	
 	'error_meta_bad' => 'Metadata: Bad template found! $1Link$2',	
 
