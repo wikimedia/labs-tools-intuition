@@ -536,6 +536,7 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
+	'fullname' => 'Internacionalización para a interface de usuario do Toolserver',
 	'current-settings' => 'Configuración actual',
 	'current-language' => 'Lingua actual',
 	'settings-legend' => 'Configuracións',
@@ -551,6 +552,7 @@ $messages['gl'] = array(
 	'bl-mysettings' => 'As miñas opcións de lingua',
 	'bl-mysettings-new' => 'Cambiar a lingua!',
 	'bl-promo' => 'As traducións son posibles grazas a $1 e $2.',
+	'bl-changelanguage' => 'Prema aquí para cambiar a lingua da interface da ferramenta.',
 	'usage' => 'Ferramentas traducidas por Toolserver Intuition.',
 	'help-translate-tool' => 'Axude a traducir esta ferramenta!',
 	'help-translate-all' => 'Axude a traducir Toolserver!',

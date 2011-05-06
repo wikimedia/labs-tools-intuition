@@ -77,6 +77,16 @@ $messages['be'] = array(
 	'search-table-th-search' => 'Знайсці',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'title' => 'Monuments API',
+	'search-table-th-field' => 'Поле',
+	'search-table-th-filter' => 'Фільтар',
+	'search-table-th-search' => 'Шукаць',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */

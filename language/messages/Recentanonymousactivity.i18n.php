@@ -102,6 +102,13 @@ $messages['fr'] = array(
 	'title' => 'Activité anonyme récente',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'title' => 'Actividade anónima recente',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

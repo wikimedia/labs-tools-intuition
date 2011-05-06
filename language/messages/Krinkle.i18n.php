@@ -69,6 +69,9 @@ $messages['be'] = array(
  */
 $messages['be-tarask'] = array(
 	'alws-label' => 'Вікі',
+	'alws-selectwiki' => '(выбраць вікі)',
+	'alws-group-mustused' => 'Самыя выкарыстоўваемыя вікі',
+	'alws-group-allaz' => 'Усе вікі па альфабэце',
 	'form-legend-settings' => 'Налады',
 );
 

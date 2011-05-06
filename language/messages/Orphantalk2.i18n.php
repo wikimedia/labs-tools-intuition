@@ -409,6 +409,7 @@ $messages['gl'] = array(
 	'tools-hist' => 'hist',
 	'tools-curr' => 'actual',
 	'tools-globalusage' => 'uso global',
+	'resultslimited' => 'Os resultados limítanse a $1 páxinas.',
 );
 
 /** Croatian (Hrvatski)
