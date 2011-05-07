@@ -804,6 +804,7 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'hello' => 'Cià',
 	'welcome' => 'Bovègne',
+	'toolversionstamp' => 'Versione $1 ($2)',
 	'etc' => 'ecc.',
 	'namespace' => 'Namespace',
 	'form-submit' => 'Veje',

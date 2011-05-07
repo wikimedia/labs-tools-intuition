@@ -297,6 +297,7 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'search-table-th-field' => 'Cambe',
 	'search-table-th-filter' => 'Filtre',
+	'search-table-th-search' => 'Cirche',
 );
 
 /** Slovenian (Slovenščina)

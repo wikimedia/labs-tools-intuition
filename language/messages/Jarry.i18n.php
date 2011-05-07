@@ -194,6 +194,7 @@ $messages['lb'] = array(
 	'title' => 'Jarry1250 Toolserver Toolen',
 	'moretools' => 'méi Toole vum selwechten Auteur',
 	'comments' => 'Bemierkungen an Ufroen',
+	'error-form-empty' => 'Eent oder méi obligatoresch Felder goufen eidel gelooss. Dir musst déi ausfëllen ier Dir virufuere kënnt.',
 );
 
 /** Latvian (Latviešu)

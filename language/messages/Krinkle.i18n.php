@@ -324,8 +324,11 @@ $messages['ro'] = array(
 	'form-legend-settings' => 'Setări',
 );
 
-/** Tarandíne (Tarandíne) */
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
 $messages['roa-tara'] = array(
+	'alws-label' => 'Uicchi',
 	'form-legend-settings' => "'Mbostaziune",
 );
 

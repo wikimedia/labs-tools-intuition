@@ -46,6 +46,13 @@ $messages['be'] = array(
 	'title' => 'Бягучая ананімная актыўнасць',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'title' => 'Апошнія дзеяньні ананімаў',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
