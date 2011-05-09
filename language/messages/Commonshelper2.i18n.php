@@ -114,6 +114,8 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
 	'upload_control_text' => '$1 is be the same as in the message {{msg-toolserver|CommonsHelper2-upload_submit}}',
+	'standard_language' => 'The language code (e.g. "en") of the language. Used for standard values in maindesk and metadata-links.',
+	'standard_project' => '{{Optional}} The biggest project (e.g. "wikipedia") in this language. Used for standard values in maindesk and metadata-links.',
 );
 
 /** Afrikaans (Afrikaans)
