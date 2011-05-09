@@ -48,6 +48,7 @@ $messages['af'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(seleiciona wiki)',
 	'alws-group-mustused' => 'Wikis más usaes',
 	'alws-group-allaz' => 'Toles wikis alfabéticamente',
