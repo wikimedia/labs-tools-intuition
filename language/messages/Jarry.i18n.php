@@ -248,6 +248,17 @@ $messages['no'] = array(
 	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
 );
 
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'title' => 'Narzędzia Jarry1250 na toolserwerze',
+	'moretools' => 'więcej narzędzi tego samego autora',
+	'bugs' => 'raporty o błędach i propozycje zmian',
+	'comments' => 'uwagi i pytania',
+	'error-form-empty' => 'Jedno lub więcej wymaganych pól pozostało pustych. Musisz je wypełnić, aby móc kontynuować.',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */

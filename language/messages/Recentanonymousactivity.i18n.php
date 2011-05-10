@@ -180,6 +180,13 @@ $messages['no'] = array(
 	'title' => 'Siste anonyme aktivitet',
 );
 
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'title' => 'Ostatnia anonimowa aktywność',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */

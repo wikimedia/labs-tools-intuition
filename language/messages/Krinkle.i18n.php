@@ -59,6 +59,7 @@ $messages['ast'] = array(
  * @author LexArt
  */
 $messages['be'] = array(
+	'alws-label' => 'Вікі',
 	'alws-selectwiki' => '(выбраць вікі)',
 	'alws-group-mustused' => 'Найбольш часта выкарыстоўваюцца',
 	'alws-group-allaz' => 'Усе вікі па алфавіце',
@@ -296,8 +297,14 @@ $messages['pdc'] = array(
 	'form-legend-settings' => 'Uffstellinge',
 );
 
-/** Polish (Polski) */
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
 $messages['pl'] = array(
+	'alws-label' => 'Wiki',
+	'alws-selectwiki' => '(wybierz wiki)',
+	'alws-group-mustused' => 'Najczęściej używane wiki',
+	'alws-group-allaz' => 'Wszystkie wiki alfabetycznie',
 	'form-legend-settings' => 'Ustawienia',
 );
 

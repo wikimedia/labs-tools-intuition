@@ -263,6 +263,16 @@ $messages['no'] = array(
 	'search-table-th-search' => 'Søk',
 );
 
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'title' => 'Zabytki API',
+	'search-table-th-field' => 'Pole',
+	'search-table-th-filter' => 'Filtr',
+	'search-table-th-search' => 'Szukaj',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
