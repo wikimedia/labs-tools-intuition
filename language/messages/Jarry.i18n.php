@@ -175,6 +175,17 @@ $messages['ia'] = array(
 	'error-form-empty' => 'Un o plus campos obligatori ha essite lassate vacue. Es necessari completar los ante de continuar.',
 );
 
+/** Italian (Italiano)
+ * @author Rippitippi
+ */
+$messages['it'] = array(
+	'title' => 'Strumenti di Jarry1250 sul Toolserver',
+	'moretools' => 'più strumenti dello stesso autore',
+	'bugs' => 'segnalazione errori e richieste di nuove funzioni',
+	'comments' => 'commenti e richieste',
+	'error-form-empty' => 'Uno o più campi obbligatori sono stati lasciati vuoti. È necessario completarli prima di continuare.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

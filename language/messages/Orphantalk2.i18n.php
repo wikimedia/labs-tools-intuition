@@ -558,6 +558,7 @@ $messages['lb'] = array(
 	'tools-subject' => 'Sujet',
 	'tools-hist' => 'Versiounen',
 	'tools-curr' => 'aktuell',
+	'tools-globalusage' => 'Globale Gebrauch',
 	'resultslimited' => "D'Resultater goufen op $1 Säite limitéiert.",
 );
 
@@ -714,7 +715,9 @@ $messages['no'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'limit' => 'Limit',
 	'page' => 'Blatt',
+	'tools-delete' => 'lesche',
 	'tools-links' => 'Gleecher',
 );
 

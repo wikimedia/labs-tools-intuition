@@ -1230,8 +1230,11 @@ $messages['no'] = array(
 $messages['pdc'] = array(
 	'th-translation' => 'Iwwersetzing',
 	'th-language' => 'Schprooch',
+	'th-username' => 'Yuuser-Naame',
+	'th-password' => 'Paesswatt',
 	'preview' => 'Aasicht',
 	'svginput-label' => 'SVG-Feil',
+	'uploading' => 'Am ufflaade…',
 );
 
 /** Polish (Polski)

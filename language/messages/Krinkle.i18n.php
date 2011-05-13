@@ -159,9 +159,11 @@ $messages['fi'] = array(
 );
 
 /** French (Français)
+ * @author Crochet.david
  * @author Peter17
  */
 $messages['fr'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(sélectionner le wiki)',
 	'alws-group-mustused' => 'Wikis les plus utilisés',
 	'alws-group-allaz' => 'Tous les wikis par ordre alphabétique',
@@ -210,8 +212,13 @@ $messages['ia'] = array(
 	'form-legend-settings' => 'Configurationes',
 );
 
-/** Italian (Italiano) */
+/** Italian (Italiano)
+ * @author Rippitippi
+ */
 $messages['it'] = array(
+	'alws-selectwiki' => '(selezionare la wiki)',
+	'alws-group-mustused' => 'Le wiki più usate',
+	'alws-group-allaz' => 'Tutte le wiki in ordine alfabetico',
 	'form-legend-settings' => 'Impostazioni',
 );
 
@@ -292,8 +299,11 @@ $messages['no'] = array(
 	'form-legend-settings' => 'Innstillinger',
 );
 
-/** Deitsch (Deitsch) */
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
 $messages['pdc'] = array(
+	'alws-label' => 'Wiki',
 	'form-legend-settings' => 'Uffstellinge',
 );
 

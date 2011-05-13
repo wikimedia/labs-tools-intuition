@@ -717,6 +717,7 @@ $messages['no'] = array(
 $messages['pdc'] = array(
 	'hello' => 'Heiya',
 	'welcome' => 'Wilkum',
+	'namespace' => 'Blatznaame',
 	'years' => 'Yaahre',
 	'weeks' => 'Woche',
 	'days' => 'Daage',

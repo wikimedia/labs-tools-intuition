@@ -60,7 +60,8 @@ $messages['qqq'] = array(
 	'tab-overview' => 'Dashboard tab for "Overview" which shows the current settings.',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
 {{Identical|Settings}}',
-	'tab-about' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
+	'tab-about' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.
+{{Identical|About}}',
 	'tab-demo' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
 	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.',
 	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition.',
@@ -981,6 +982,8 @@ $messages['no'] = array(
 $messages['pdc'] = array(
 	'settings-legend' => 'Uffstellinge',
 	'tab-settings' => 'Uffstellinge',
+	'tab-about' => 'Iwwer',
+	'bl-mysettings' => "Mei Uffstelling fer d'Schprooch",
 	'bl-mysettings-new' => 'Schprooch ennere',
 );
 
