@@ -546,6 +546,7 @@ $messages['gl'] = array(
 	'renew-cookies' => 'renovar as cookies',
 	'cookie-expiration' => 'Caducidade das cookies',
 	'clearcookies-success' => 'As cookies borráronse correctamente.',
+	'renewcookies-success' => 'Cookies renovadas! Está listo para os vindeiros $1.',
 	'tab-overview' => 'Vista xeral',
 	'tab-settings' => 'Configuracións',
 	'tab-about' => 'Acerca de',
@@ -557,6 +558,7 @@ $messages['gl'] = array(
 	'usage' => 'Ferramentas traducidas por Toolserver Intuition.',
 	'help-translate-tool' => 'Axude a traducir esta ferramenta!',
 	'help-translate-all' => 'Axude a traducir Toolserver!',
+	'help-translate-tooltip' => 'Axude aos outros traducindo á súa lingua as mensaxes da interface.',
 );
 
 /** Hebrew (עברית)
@@ -691,17 +693,29 @@ $messages['id'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Rippitippi
  */
 $messages['it'] = array(
 	'current-settings' => 'Impostazioni attuali',
 	'current-language' => 'Lingua attualmente selezionata',
 	'settings-legend' => 'Impostazioni',
 	'choose-language' => 'Scegli la lingua',
+	'clear-cookies' => 'cancellare i cookie',
+	'renew-cookies' => 'rinnovare i cookies',
+	'cookie-expiration' => 'Scadenza del cookie',
+	'clearcookies-success' => 'Cookie cancellati con successo',
 	'tab-overview' => "Vista d'insieme",
 	'tab-settings' => 'Impostazioni',
 	'tab-about' => 'Informazioni',
+	'tab-demo' => 'Esempio',
 	'bl-mysettings' => 'Le mie impostazioni per la lingua',
 	'bl-mysettings-new' => 'Cambia lingua!',
+	'bl-promo' => 'Le traduzioni sono curate da $1 e $2.',
+	'bl-changelanguage' => "Clicca qui per modificare la lingua dell'interfaccia di questo strumento.",
+	'usage' => 'Strumenti tradotti da Toolserver Intuition.',
+	'help-translate-tool' => 'Aiutaci a tradurre questo strumento!',
+	'help-translate-all' => 'Aiutaci a tradurre i testi del Toolserver!',
+	'help-translate-tooltip' => "Aiuta gli altri, traducendo i messaggi dell'interfaccia nella tua lingua.",
 );
 
 /** Japanese (日本語)

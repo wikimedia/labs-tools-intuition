@@ -195,6 +195,7 @@ $messages['hr'] = array(
  * @author Dani
  */
 $messages['hu'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(válassz wikit)',
 	'alws-group-mustused' => 'Leggyakrabban használt wikik',
 	'alws-group-allaz' => 'Minden wiki, betűrendben',

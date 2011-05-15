@@ -140,6 +140,7 @@ $messages['gl'] = array(
 	'moretools' => 'máis ferramentas do mesmo autor',
 	'bugs' => 'informes de erros e solicitudes de funcionalidades',
 	'comments' => 'comentarios e preguntas',
+	'error-form-empty' => 'Algún dos campos obrigatorios quedou baleiro. Cómpre completalos antes de continuar.',
 );
 
 /** Croatian (Hrvatski)

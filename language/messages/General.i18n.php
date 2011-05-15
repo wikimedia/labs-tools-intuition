@@ -503,11 +503,13 @@ $messages['id'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Rippitippi
  */
 $messages['it'] = array(
 	'hello' => 'Ciao',
 	'welcome' => 'Benvenuto(a)',
 	'toolversionstamp' => 'Versione $1 ($2)',
+	'etc' => 'ecc.',
 	'namespace' => 'Namespace',
 	'form-submit' => 'Vai',
 	'form-reset' => 'Reimposta',

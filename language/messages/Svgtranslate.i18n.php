@@ -899,6 +899,7 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'title' => 'SVG Iwwersetzen',
+	'error-tryagain' => "$1 Klickt op den 'Zréck'-Knäppche vun Ärem Browser fir nach emol ze probéieren.",
 	'error-nothing' => "Näischt fir z'iwwersetzen.",
 	'error-notsvg' => 'Keen SVG-Fichier.',
 	'error-unexpected' => 'En onerwaarte Feeler ass geschitt.',
@@ -920,6 +921,8 @@ $messages['lb'] = array(
 	'upload-complete' => "D'Eroplueden huet fonctionnéiert. D'Bild misst elo op $1 sinn",
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
 	'author-complete' => "Kompletéiert w.e.g. d'Informatiounen iwwer den Auteur!",
+	'preview-hide' => 'Preview verstoppen',
+	'preview-refresh' => 'Preview aktualiséieren',
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 	'finalise' => 'Detailer kompletéieren',
 );
