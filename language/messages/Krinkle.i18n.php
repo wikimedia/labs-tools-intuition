@@ -26,7 +26,9 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'alws-label' => 'Label in the input form for the dropdown menu with all wikis, of which one must be choosen.',
+	'alws-label' => 'Label in the input form for the dropdown menu with all wikis, of which one must be choosen.
+
+{{Optional}}',
 	'alws-selectwiki' => 'This is the initial value for the dropdown menu with all wikis, of which one must be choosen.',
 	'alws-group-mustused' => 'This is the group label for group containing the most used wikis. In a dropdown menu with all wikis.',
 	'alws-group-allaz' => 'This is the group label for the group containg all wikis listed alphabetically. In a dropdown menu with all wikis.',
@@ -77,8 +79,12 @@ $messages['be-tarask'] = array(
 	'form-legend-settings' => 'Налады',
 );
 
-/** Bulgarian (Български) */
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
 $messages['bg'] = array(
+	'alws-label' => 'Уики',
+	'alws-selectwiki' => '(избиране на уики)',
 	'form-legend-settings' => 'Настройки',
 );
 

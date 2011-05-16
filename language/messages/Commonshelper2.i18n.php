@@ -310,10 +310,12 @@ $messages['bg'] = array(
 	'attention' => 'Внимание',
 	'description' => 'Инструмент за прехвърляне на файлове от проектите на Уикимедия в Общомедия',
 	'language' => 'Език',
+	'project' => 'Проект',
 	'source_file' => 'Изходен файл',
 	'target_file' => 'Целеви файл',
 	'categories' => 'Категории',
 	'remove_cats' => 'Премахване на съществуващите категории',
+	'standard_language' => 'bg',
 );
 
 /** Bengali (বাংলা)
@@ -1451,6 +1453,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Ainali
  * @author Liftarn
  * @author Lokal Profil
  */
@@ -1477,15 +1480,16 @@ $messages['sv'] = array(
 	'error_not_exists' => 'Källfilen finns inte!',
 	'error_file_exists' => 'Filen finns redan på $3 som "$1$4$2"!',
 	'error_diff_exists' => 'En annan målfil finns på målwiki under samma namn!',
-	'error_no_meta' => 'Ingen metadata hittades för ursprungs-wikin! $1Link$2',
-	'error_meta_no_good' => 'Metadata: Ingen bra mallar hittades! $1 Länk $2',
-	'error_meta_bad' => 'Metadata: Dålig mall hittades! $1Länk$2',
+	'error_no_meta' => 'Ingen metadata hittades om ursprungs-wikin! $1Vänligen lägg till/uppdatera metadata för projektet$2',
+	'error_meta_no_good' => 'Metadata: Inga bra mallar hittades! $1Var vänlig lägg till/uppdatera metadata för projektet$2',
+	'error_meta_bad' => 'Metadata: Dålig mall hittades! $1Var vänlig lägg till/uppdatera metadata för projektet$2',
 	'original_wikitext' => 'Ursprunglig wikitext',
 	'new_wikitext' => 'Ny wikitext',
 	'new_filename' => 'Nytt filnamn:',
 	'output_information' => 'För att ladda upp filen manuellt, redigera texten ovan (om nödvändigt), spara $1filen$2 på din dator, och $3ladda sedan upp$4 den.',
 	'upload_submit' => 'Ladda upp!',
 	'target_wiki' => 'målwikin',
+	'standard_language' => 'en',
 	'error_bot_blocked' => 'Upload-botten är blokerad på Wikimedia Commons.',
 	'error_upload_meta' => 'Kan inte ladda upp direkt eftersom det finns problem med metadata (se ovan)!',
 	'error_tusc_failed' => 'TUSC-verifiering misslyckades!',

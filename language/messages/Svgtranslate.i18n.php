@@ -272,10 +272,17 @@ $messages['be-tarask'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'error-nothing' => 'Няма нищо за превеждане.',
+	'error-notsvg' => 'Не е SVG файл.',
+	'error-unexpected' => 'Възникна неочаквана грешка.',
+	'th-original' => 'Оригинал',
+	'th-translation' => 'Превод',
 	'th-language' => 'Език',
 	'th-username' => 'Потребителско име',
 	'th-password' => 'Парола',
+	'th-method' => 'Метод',
 	'translate' => 'Превеждане',
+	'uploading' => 'Качване',
 );
 
 /** Bengali (বাংলা)
