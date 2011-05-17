@@ -121,22 +121,30 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author OsamaK
  * @author ترجمان05
  */
 $messages['ar'] = array(
 	'error-nothing' => 'لا شيء للترجمة.',
+	'error-unexpected' => 'خطأ غير متوقع حدث.',
+	'begin-translation' => 'ابدأ الترجمة',
+	'th-original' => 'أصلي',
 	'th-translation' => 'الترجمة',
 	'th-language' => 'اللغة',
 	'th-username' => 'اسم المستخدم',
 	'th-password' => 'كلمة السر',
+	'th-method' => 'وسيلة',
+	'option-manual' => 'رفع يدوي',
 	'preview' => 'معاينة',
 	'translate' => 'ترجم',
 	'svginput-label' => 'ملف SVG',
 	'uploading' => 'يرفع',
+	'editdescriptionpage' => 'عدل صفحة الوصف الجديدة',
 	'preview-hide' => 'أخفِ المعاينة',
 	'preview-refresh' => 'أنعش المعاينة',
 	'description-license' => 'اختر وصفا ورخصة',
+	'finalise' => 'إنهاء التفاصيل',
 );
 
 /** Asturian (Asturianu)
@@ -1379,6 +1387,44 @@ $messages['roa-tara'] = array(
 	'translate' => 'Traduce',
 	'svginput-label' => 'File SVG',
 	'preview-hide' => "Scunne l'andeprime",
+);
+
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'title' => 'Перевод SVG',
+	'error-tryagain' => '$1 Нажмите в вашем браузере «Назад» для повторения.',
+	'error-nothing' => 'Нечего переводить.',
+	'error-notsvg' => 'Это не SVG-файл.',
+	'error-unexpected' => 'Произошла непредвиденная ошибка.',
+	'error-notfound' => 'Не удалось получить SVG-файл по указанному адресу.',
+	'error-upload' => 'Произошла ошибка при загрузке.',
+	'begin-translation' => 'Начало перевода',
+	'th-original' => 'Исходный текст',
+	'th-translation' => 'Перевод',
+	'th-language' => 'Язык',
+	'th-username' => 'Имя участника',
+	'th-password' => 'Пароль',
+	'th-method' => 'Способ',
+	'option-tusc' => 'TUSC (автоматическая загрузка)',
+	'option-manual' => 'Ручная загрузка',
+	'preview' => 'Предпросмотр',
+	'translate' => 'Перевести',
+	'translate-instructions' => 'Укажите имя файла (например,«$1») или полный URL-адрес (например, «$2»). Если используется первый вариант, источником будет считаться Викисклад. Чтобы перевести SVG с другого сайта или вики, следует использовать полный URL-адрес.',
+	'svginput-label' => 'SVG-файл',
+	'stats-footer' => 'Этот инструмент был использован для перевода примерно $1 файлов с $2 .',
+	'uploading' => 'Загрузка',
+	'upload-complete' => 'Загрузка завершена успешно. Изображение быть доступно по адресу $1',
+	'editdescriptionpage' => 'Изменить новую страницу описания',
+	'disclaimer' => 'Некоторые анонимные данные будут записываться для статистических целей. Если было указано TUSC-имя, то оно также будет записано, для оказания помощи в случае вандализма. Пароли никогда не записываются.',
+	'author-complete' => 'Пожалуйста, заполните информацию об авторе!',
+	'preview-hide' => 'Скрыть предпросмотр',
+	'preview-refresh' => 'Обновить предпросмотр',
+	'error-must-accept' => 'Чтобы продолжить прямую загрузку, следует принять Условия использования.',
+	'error-tusc-failed' => 'Сбой проверки TUSC. Неправильное имя участникавателя или пароль.',
+	'description-license' => 'Выберите описание и лицензию',
+	'finalise' => 'Заключительные подробности',
 );
 
 /** Slovenian (Slovenščina)

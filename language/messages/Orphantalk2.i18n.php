@@ -85,6 +85,26 @@ $messages['af'] = array(
 	'resultslimited' => 'Resultate is beperk tot $1 bladsye.',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'select-wiki-first' => '(اختر ويكي أولا)',
+	'hideredirects' => 'إخفاء التحويلات',
+	'hidesubpages' => 'إخفاء الصفحات الفرعية',
+	'limit' => 'حد',
+	'page' => 'الصفحة',
+	'redirect' => 'هل تحويلة؟',
+	'output' => 'مخرج',
+	'update' => 'تحديث',
+	'tools-delete' => 'حذف',
+	'tools-links' => 'وصلات',
+	'tools-subject' => 'موضوع',
+	'tools-hist' => 'تاريخ',
+	'tools-curr' => 'حالي',
+	'tools-globalusage' => 'استخدام عام',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

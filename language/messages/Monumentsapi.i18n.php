@@ -43,9 +43,12 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'search-table-th-field' => 'الحقل',
+	'search-table-th-filter' => 'المرشح',
 	'search-table-th-search' => 'ابحث',
 );
 
@@ -202,6 +205,13 @@ $messages['ksh'] = array(
 	'search-table-th-field' => 'Fäld',
 	'search-table-th-filter' => 'Ußwähle',
 	'search-table-th-search' => 'Söhke',
+);
+
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'search-table-th-filter' => 'Fîltre',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

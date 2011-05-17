@@ -32,6 +32,13 @@ $messages['af'] = array(
 	'title' => 'Onlangse anonieme aktiwiteit',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'title' => 'النشاط المجهول الحديث',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -192,6 +199,13 @@ $messages['pl'] = array(
  */
 $messages['ro'] = array(
 	'title' => 'Recent anonymous activity',
+);
+
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'title' => 'Недавняя анонимная деятельность',
 );
 
 /** Slovenian (Slovenščina)

@@ -46,6 +46,17 @@ $messages['af'] = array(
 	'form-legend-settings' => 'Instellings',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'alws-label' => 'ويكي',
+	'alws-selectwiki' => '(اختر ويكي)',
+	'alws-group-mustused' => 'أكثر الويكيات استخداما',
+	'alws-group-allaz' => 'كل الويكيات أبجديا',
+	'form-legend-settings' => 'الإعدادات',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

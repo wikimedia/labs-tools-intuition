@@ -46,6 +46,15 @@ $messages['af'] = array(
 	'output' => 'Afvoer vir "$1"',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'formats-heading' => 'صيغ المخرجات',
+	'input' => 'مدخل',
+	'label-wikiids' => 'معرفات الويكي',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

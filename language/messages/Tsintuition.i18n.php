@@ -93,6 +93,27 @@ $messages['af'] = array(
 	'help-translate-tooltip' => 'Help ander deur koppelvlak-boodskappe na u taal te vertaal.',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'current-settings' => 'الإعدادات الحالية',
+	'current-language' => 'اللغة المختارة حاليا',
+	'settings-legend' => 'الإعدادات',
+	'choose-language' => 'اختر لغة',
+	'clear-cookies' => 'امسح الكوكيز',
+	'renew-cookies' => 'جدد الكوكيز',
+	'cookie-expiration' => 'تاريخ انتهاء الكوكيز',
+	'tab-overview' => 'نظرة عامة',
+	'tab-settings' => 'الإعدادات',
+	'tab-about' => 'حول',
+	'tab-demo' => 'تجربة',
+	'bl-mysettings' => 'إعدادات لغتي',
+	'bl-mysettings-new' => 'غير اللغة!',
+	'help-translate-tool' => 'ساعد في ترجمة هذه الأداة!',
+	'help-translate-all' => 'ساعد في ترجمة التول سيرفر!',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -763,6 +784,14 @@ $messages['ksh'] = array(
 	'help-translate-tool' => 'Donn beim Övversäze för heh dat Projramm hellfe!',
 	'help-translate-all' => 'Donn beim Övversäze för der Tuulẞööver hellfe!',
 	'help-translate-tooltip' => 'Donn der Andere jet Joods un donn de Täxte un Nohreeschte vun de Projramme en Ding Shprooch övversäze.',
+);
+
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'tab-about' => 'Der barê',
+	'bl-mysettings-new' => 'Zimanê biguherîne!',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

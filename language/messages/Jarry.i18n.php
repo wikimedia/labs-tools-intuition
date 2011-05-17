@@ -35,6 +35,13 @@ $messages['qqq'] = array(
 	'error-form-empty' => 'A general error that field that results when users leave required fields empty (blank)',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'comments' => 'تعليقات واستعلامات',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

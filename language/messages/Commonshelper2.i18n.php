@@ -137,11 +137,33 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'attention' => 'انتباه',
+	'jira_link' => 'بلغ عن علة أو اقترح خاصية',
 	'language' => 'اللغة',
 	'project' => 'المشروع',
+	'source_file' => 'الملف المصدر',
+	'target_file' => 'الملف الهدف',
+	'commons_username' => 'اسم مستخدم ويكيميديا كومنز',
+	'commons_to_project' => 'ويكيميديا كومنز للمشروع',
+	'move_file_from_com' => 'انقل الملف من ويكيميديا كومنز للمشروع',
+	'categories' => 'تصنيفات',
+	'remove_cats' => 'أزل التصنيفات الموجودة',
+	'tusc_user' => 'اسم مستخدم TUSC',
+	'tusc_pass' => 'كلمة سر TUSC',
+	'do_it' => 'افعلها',
+	'error_transfer_usr' => 'أنت لم تضبط اسم مستخدم ويكيميديا كومنز',
+	'error_not_exists' => 'الملف المصدر غير موجود!',
+	'original_wikitext' => 'نص الويكي الأصلي',
+	'new_wikitext' => 'نص الويكي الجديد',
+	'new_filename' => 'اسم الملف الجديد:',
+	'upload_submit' => 'رفع!',
+	'target_wiki' => 'الويكي الهدف',
+	'error_bot_blocked' => 'بوت الرفع ممنوع في ويكيميديا كومنز.',
+	'error_upload_file' => 'الملف الأصلي لم يمكن تنزيله.',
 );
 
 /** Asturian (Asturianu)
@@ -528,6 +550,24 @@ $messages['es'] = array(
  */
 $messages['fa'] = array(
 	'attention' => 'توجه',
+	'description' => 'یک ابزار برای انتقال پرونده‌ها از پروژه‌های ویکی‌مدیا به ویکی‌انبار',
+	'change_meta' => 'تغییر $1category و تنظیمات الگوی$2 برای $3',
+	'jira_link' => 'گزارش یک اشکال یا پیشنهاد یک ویژگی',
+	'language' => 'زبان',
+	'project' => 'پروژه',
+	'source_file' => 'پرونده منبع',
+	'target_file' => 'پرونده مقصد',
+	'commons_username' => 'نام کاربری ویکی‌انبار',
+	'commons_to_project' => 'ویکی‌انبار به پروژه',
+	'move_file_from_com' => 'انتقال پرونده از ویکی‌انبار به پروژه',
+	'categories' => 'رده‌ها',
+	'remove_cats' => 'حذف رده‌های موجود',
+	'use_checkusage' => 'استفاده از $1CommonSense$2 برای پیشنهاد رده‌های جدید',
+	'use_tusc' => 'استفاده از $1TUSC$2 برای تأیید و انتقال مستقیم پرونده',
+	'tusc_user' => 'نام کاربری TUSC',
+	'tusc_pass' => 'گذرواژه TUSC',
+	'do_it' => 'انجامش بده',
+	'error_transfer_usr' => 'شما نام کاربری ویکی‌انبار را تنظیم نکرده‌اید',
 );
 
 /** Finnish (Suomi)
@@ -910,6 +950,14 @@ $messages['ksh'] = array(
 	'error_commons_user' => 'Öm kloh ze maache, wä di Dattei övvverdraare hät, donn Dinge Metmaacher-Name op Wikimedia Commons em Täx övver di Dattei ongerbränge.',
 	'error_upload_users' => 'Huh laade künne bloß e paa Metmacher en der Prööf_Zigg!',
 	'error_upload_file' => 'De Ojinaal Dattei kam_mer nit eronger laade.',
+);
+
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'language' => 'Ziman',
+	'project' => 'Proje',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
