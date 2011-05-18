@@ -835,6 +835,19 @@ $messages['roa-tara'] = array(
 	'view-source' => "Vide 'u sorgende",
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'welcome' => 'ආයුබෝවන්',
+	'form-submit' => 'යන්න',
+	'form-reset' => 'ප්‍රත්‍යාරම්භ කරන්න',
+	'years' => 'වර්ෂ',
+	'days' => 'දින',
+	'hours' => 'පැය',
+	'view-source' => 'මූලාශ්‍රය නරඹන්න',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

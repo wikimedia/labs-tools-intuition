@@ -847,6 +847,13 @@ $messages['roa-tara'] = array(
 	'tools-subject' => 'suggette',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'tools-subject' => 'විෂය',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

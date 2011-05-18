@@ -1364,6 +1364,16 @@ $messages['roa-tara'] = array(
 	'upload_submit' => 'Careche!',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'attention' => 'අවධානය',
+	'project' => 'ව්‍යාපෘතිය',
+	'categories' => 'ප්‍රවර්ගයන්',
+	'do_it' => 'එය කරන්න',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
