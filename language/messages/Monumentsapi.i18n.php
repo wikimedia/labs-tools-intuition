@@ -132,6 +132,7 @@ $messages['es'] = array(
  * @author Ebraminio
  */
 $messages['fa'] = array(
+	'title' => 'بناهای API',
 	'search-table-th-field' => 'زمینه',
 	'search-table-th-filter' => 'پالایه',
 	'search-table-th-search' => 'جستجو',

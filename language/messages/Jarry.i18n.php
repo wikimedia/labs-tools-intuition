@@ -117,6 +117,17 @@ $messages['es'] = array(
 	'error-form-empty' => 'Uno o más campos obligatorios se han dejado en blanco. Complétalos antes de continuar.',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'title' => 'ابزارهای تول‌سرور Jarry1250',
+	'moretools' => 'ابزارهای بیشتر از همان نویسنده',
+	'bugs' => 'گزارش مشکلات و درخواست قابلیت',
+	'comments' => 'نظرها و درخواست‌ها',
+	'error-form-empty' => 'یک یا چند فیلد خالی نگه داشته شده‌اند. شما می‌بایست آن‌ها را قبل از ادامه دادن کامل کنید.',
+);
+
 /** Finnish (Suomi)
  * @author Nike
  */

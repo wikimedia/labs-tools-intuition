@@ -161,8 +161,14 @@ $messages['es'] = array(
 	'form-legend-settings' => 'Configuración',
 );
 
-/** Persian (فارسی) */
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
 $messages['fa'] = array(
+	'alws-label' => 'ویکی',
+	'alws-selectwiki' => '(انتخاب ویکی)',
+	'alws-group-mustused' => 'بیشترین ویکی‌های استفاده شده',
+	'alws-group-allaz' => 'همهٔ ویکی‌ها به حروف الفبا',
 	'form-legend-settings' => 'تنظیمات',
 );
 
