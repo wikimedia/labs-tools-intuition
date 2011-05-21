@@ -579,6 +579,7 @@ $messages['lb'] = array(
 	'tools-hist' => 'Versiounen',
 	'tools-curr' => 'aktuell',
 	'tools-globalusage' => 'Globale Gebrauch',
+	'deletesummary' => 'Botze vu verweesten Diskussiouns-Säite mat $1',
 	'resultslimited' => "D'Resultater goufen op $1 Säite limitéiert.",
 );
 
