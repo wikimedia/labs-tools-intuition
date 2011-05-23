@@ -717,6 +717,7 @@ $messages['id'] = array(
  * @author Rippitippi
  */
 $messages['it'] = array(
+	'fullname' => "Internazionalizzazione per l'interfaccia utente di Toolserver",
 	'current-settings' => 'Impostazioni attuali',
 	'current-language' => 'Lingua attualmente selezionata',
 	'settings-legend' => 'Impostazioni',
@@ -725,6 +726,7 @@ $messages['it'] = array(
 	'renew-cookies' => 'rinnovare i cookies',
 	'cookie-expiration' => 'Scadenza del cookie',
 	'clearcookies-success' => 'Cookie cancellati con successo',
+	'renewcookies-success' => 'Cookies rinnovati! Saranno validi per i prossimi  $1.',
 	'tab-overview' => "Vista d'insieme",
 	'tab-settings' => 'Impostazioni',
 	'tab-about' => 'Informazioni',

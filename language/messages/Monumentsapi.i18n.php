@@ -316,6 +316,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'title' => "API de ''Monument''",
 	'search-table-th-field' => 'Cambe',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Cirche',
