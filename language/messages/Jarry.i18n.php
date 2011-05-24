@@ -307,6 +307,17 @@ $messages['roa-tara'] = array(
 	'comments' => 'commende e inderrogaziune',
 );
 
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'title' => 'Инструменты Jarry1250 на тулсервере',
+	'moretools' => 'другие инструменты этого автора',
+	'bugs' => 'сообщения об ошибках и пожеланиях',
+	'comments' => 'вопросы и комментарии',
+	'error-form-empty' => 'Одно или несколько обязательных полей были оставлены пустыми. Вы должны заполнить их, прежде чем продолжить.',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

@@ -381,6 +381,17 @@ $messages['roa-tara'] = array(
 	'output' => 'Resultate pe "$1"',
 );
 
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'formats-heading' => 'Выходные форматы',
+	'input' => 'Вход',
+	'label-wikiids' => 'Вики-идентификаторы',
+	'no-matches' => 'Нет соответствий «$1»',
+	'output' => 'Выход для «$1»',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

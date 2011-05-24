@@ -626,6 +626,7 @@ $messages['fi'] = array(
  * @author IAlex
  * @author Jean-Frédéric
  * @author Sherbrooke
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'title' => 'SVG Traduction',
@@ -639,7 +640,7 @@ $messages['fr'] = array(
 	'th-original' => 'Original',
 	'th-translation' => 'Traduction',
 	'th-language' => 'Langue',
-	'th-username' => "Nom d'utilisateur",
+	'th-username' => 'Nom d’utilisateur',
 	'th-password' => 'Mot de passe',
 	'th-method' => 'Méthode',
 	'option-tusc' => 'TUSC (téléchargement automatique)',
