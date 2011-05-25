@@ -836,6 +836,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
@@ -845,7 +846,7 @@ $messages['si'] = array(
 	'years' => 'වර්ෂ',
 	'days' => 'දින',
 	'hours' => 'පැය',
-	'view-source' => 'මූලාශ්‍රය නරඹන්න',
+	'view-source' => 'මූලාශ්‍රය බලන්න',
 );
 
 /** Slovenian (Slovenščina)

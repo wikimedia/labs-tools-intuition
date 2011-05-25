@@ -273,8 +273,12 @@ $messages['lb'] = array(
 	'form-legend-settings' => 'Astellungen',
 );
 
-/** Lithuanian (Lietuvių) */
+/** Lithuanian (Lietuvių)
+ * @author Eitvys200
+ */
 $messages['lt'] = array(
+	'alws-label' => 'Wiki',
+	'alws-selectwiki' => '(pasirinkite wiki)',
 	'form-legend-settings' => 'Nustatymai',
 );
 

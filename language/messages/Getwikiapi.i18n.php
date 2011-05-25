@@ -253,6 +253,14 @@ $messages['it'] = array(
 	'formats-heading' => 'Formati di output',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author T-Rithy
+ */
+$messages['km'] = array(
+	'no-matches' => 'មិនមាន"$1"ទេ',
+	'output' => 'លទ្ឋផលចំពោះ"$1"',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

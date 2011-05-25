@@ -225,6 +225,14 @@ $messages['lb'] = array(
 	'search-table-th-search' => 'Sichen',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'search-table-th-filter' => 'Filtras',
+	'search-table-th-search' => 'Paieška',
+);
+
 /** Latvian (Latviešu)
  * @author Papuass
  */

@@ -1043,6 +1043,25 @@ $messages['lez'] = array(
 	'new_wikitext' => 'Цlийи вики кхьин',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'attention' => 'Dėmesio',
+	'jira_link' => 'Pranešk apie klaidą arba pasiūlyti funkcija',
+	'language' => 'Kalba',
+	'project' => 'Projektas',
+	'categories' => 'Kategorijos',
+	'tusc_user' => 'TUSC vartotojo vardas',
+	'tusc_pass' => 'TUSC slaptažodis',
+	'do_it' => 'padaryk tai',
+	'error_file_exists' => 'Failas jau egzistuoja $3 kaip " $1 $4 $2 "!',
+	'original_wikitext' => 'Originalus Wiki tekstas',
+	'new_wikitext' => 'Naujas wiki tekstas',
+	'new_filename' => 'Naujas pavadinimas:',
+	'upload_submit' => 'Įkelti!',
+);
+
 /** Latvian (Latviešu)
  * @author Papuass
  */
