@@ -543,6 +543,44 @@ $messages['es'] = array(
 	'finalise' => 'Finalizar detalles',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'title' => 'SVG Itzulpena',
+	'error-tryagain' => '$1 Sakatu zure nabigatzaileko atzera botoia berriz saiatzeko.',
+	'error-nothing' => 'Ez dago itzultzeko ezer.',
+	'error-notsvg' => 'Ez da SVG fitxategia.',
+	'error-unexpected' => 'Ustekabeko errore bat gertatu da.',
+	'error-notfound' => 'Ezin izan da SVG fitxategia lortu emandako URL-tik.',
+	'error-upload' => 'Igotzerakoan errore bat egon da.',
+	'begin-translation' => 'Itzulpena hasi',
+	'th-original' => 'Jatorrizkoa',
+	'th-translation' => 'Itzulpena',
+	'th-language' => 'Hizkuntza',
+	'th-username' => 'Erabiltzaile izena',
+	'th-password' => 'Pasahitza',
+	'th-method' => 'Metodoa',
+	'option-tusc' => 'TUSC (igoera automatikoa)',
+	'option-manual' => 'Eskuz igo',
+	'preview' => 'Aurrebista',
+	'translate' => 'Itzuli',
+	'translate-instructions' => 'Sarrerak fitxategiaren izen (adib. "$1") edo URL oso (adib. "$2") bezala onartzen dira. Lehen aukera erabiltzen bada, Wikimedia Commonsek jatorri bezala onartuko du. SVG bat itzultzeko beste web edo wiki batetik, url formatu osoa erabili behar duzu.',
+	'svginput-label' => 'SVG fitxategia',
+	'stats-footer' => 'Tresna honekin gutxi gorabehera $1 fitxategi itzuli dira $2-(e)tik',
+	'uploading' => 'Igotzen',
+	'upload-complete' => 'Igoera arrakastatsua izan da. Irudiak $1-en egon beharko luke',
+	'editdescriptionpage' => 'Deskribapen orri berria aldatu',
+	'disclaimer' => 'Datu anonimo batzuk jasoko dira hainbat estatistika egiteko. TUSC erabiltzaile izenak ere gordeak izango dira bandalismo ekintzak ekiditeko. Pasahitzak ez dira inoiz gordeko.',
+	'author-complete' => 'Mesedez egilearen informazioa bete!',
+	'preview-hide' => 'Aurrebista ezkutatu',
+	'preview-refresh' => 'Aurrebista eguneratu',
+	'error-must-accept' => 'Zuzeneko igoerarekin jarraitzeko erabilera-baldintzak onartu behar dituzu.',
+	'error-tusc-failed' => 'TUSC baieztapenak huts egin du: erabiltzaile izena edo pasahitza ez dira zuzenak.',
+	'description-license' => 'Aukeratu deskribapena eta lizentzia',
+	'finalise' => 'Xehetasunak amaitu',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Wayiran
