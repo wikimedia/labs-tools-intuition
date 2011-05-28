@@ -504,6 +504,15 @@ $messages['ia'] = array(
 	'resultslimited' => 'Le resultatos ha essite limitate a $1 paginas.',
 );
 
+/** Ingush (ГІалгІай Ğalğaj)
+ * @author Sapral Mikail
+ */
+$messages['inh'] = array(
+	'page' => 'ОагIув',
+	'tools-delete' => 'дIадаккха',
+	'tools-links' => 'Iинкаш',
+);
+
 /** Italian (Italiano)
  * @author Beta16
  */

@@ -866,6 +866,17 @@ $messages['ia'] = array(
 	'finalise' => 'Finalisar detalios',
 );
 
+/** Ingush (ГІалгІай Ğalğaj)
+ * @author Sapral Mikail
+ */
+$messages['inh'] = array(
+	'th-translation' => 'Торжам',
+	'th-language' => 'Мотт',
+	'th-username' => 'Дакъалаьцархочунна цIи',
+	'th-password' => 'КъайладоагIа',
+	'translate' => 'торжам де',
+);
+
 /** Italian (Italiano)
  * @author Beta16
  */

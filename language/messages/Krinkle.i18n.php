@@ -393,6 +393,7 @@ $messages['sl'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
+	'alws-label' => 'Вики',
 	'alws-selectwiki' => '(избор викија)',
 	'alws-group-mustused' => 'Највише коришћене викије',
 	'alws-group-allaz' => 'Све викије азбучним редом',

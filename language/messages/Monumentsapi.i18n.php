@@ -198,6 +198,13 @@ $messages['ia'] = array(
 	'search-table-th-search' => 'Recerca',
 );
 
+/** Ingush (ГІалгІай Ğalğaj)
+ * @author Sapral Mikail
+ */
+$messages['inh'] = array(
+	'search-table-th-search' => 'Лаха',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

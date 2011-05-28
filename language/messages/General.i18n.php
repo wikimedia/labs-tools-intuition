@@ -505,6 +505,21 @@ $messages['id'] = array(
 	'view-source' => 'Lihat sumber',
 );
 
+/** Ingush (ГІалгІай Ğalğaj)
+ * @author Sapral Mikail
+ */
+$messages['inh'] = array(
+	'hello' => 'Салам',
+	'welcome' => 'Маьрша доагIалда',
+	'namespace' => 'ЦIерий аренаш',
+	'form-submit' => 'Кхоачашде',
+	'form-reset' => 'Юхаоттар',
+	'years' => 'шераш',
+	'weeks' => 'кIиранденош',
+	'days' => 'денош',
+	'hours' => 'сахьаташ',
+);
+
 /** Italian (Italiano)
  * @author Beta16
  * @author Rippitippi
@@ -786,8 +801,8 @@ $messages['pt'] = array(
 	'welcome' => 'Bem-vindo',
 	'toolversionstamp' => 'Versão $1 ($2)',
 	'etc' => 'etc.',
-	'namespace' => 'Domínio',
-	'form-submit' => 'Ir',
+	'namespace' => 'Espaço nominal',
+	'form-submit' => 'Enviar',
 	'form-reset' => 'Repor',
 	'years' => 'anos',
 	'weeks' => 'semanas',
