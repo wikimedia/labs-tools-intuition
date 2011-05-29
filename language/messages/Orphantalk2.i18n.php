@@ -581,6 +581,7 @@ $messages['lb'] = array(
 	'limit' => 'Limit',
 	'page' => 'Säit',
 	'redirect' => 'Ass et eng Viruleedung?',
+	'output' => 'Resultat',
 	'update' => 'Aktualiséieren',
 	'tools-delete' => 'läschen',
 	'tools-links' => 'Linken',
