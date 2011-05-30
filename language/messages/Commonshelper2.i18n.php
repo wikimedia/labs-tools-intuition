@@ -546,6 +546,29 @@ $messages['es'] = array(
 	'error_upload_file' => 'No se puede descargar el archivo original.',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'attention' => 'Erne',
+	'language' => 'Hizkuntza',
+	'project' => 'Proiektua',
+	'source_file' => 'Jatorrizko fitxategia',
+	'target_file' => 'Helburu fitxategia',
+	'commons_username' => 'Wikimedia Commonseko erabiltzaile izena',
+	'categories' => 'Kategoriak',
+	'tusc_user' => 'TUSC erabiltzaile izena',
+	'tusc_pass' => 'TUSC pasahitza',
+	'do_it' => 'Egin',
+	'error_not_exists' => 'Jatorrizko fitxategia ez da existitzen!',
+	'original_wikitext' => 'Jatorrizko wiki testua',
+	'new_wikitext' => 'Wiki testu berria',
+	'new_filename' => 'Fitxategiaren izen berria:',
+	'upload_submit' => 'Igo!',
+	'standard_language' => 'en',
+	'error_tusc_failed' => 'TUSC baieztapenak huts egin du!',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */

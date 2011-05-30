@@ -339,6 +339,24 @@ $messages['es'] = array(
 	'view-source' => 'Ver fuente',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'hello' => 'Kaixo',
+	'welcome' => 'Ongi etorri',
+	'toolversionstamp' => 'Bertsioa $1 ($2)',
+	'etc' => 'etab.',
+	'namespace' => 'Izen-tartea',
+	'form-submit' => 'Joan',
+	'years' => 'urte',
+	'weeks' => 'aste',
+	'days' => 'egun',
+	'hours' => 'ordu',
+	'last-modified-date' => 'Azken aldaketa: $1',
+	'view-source' => 'Iturria ikusi',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */

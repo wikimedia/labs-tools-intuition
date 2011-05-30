@@ -161,6 +161,16 @@ $messages['es'] = array(
 	'form-legend-settings' => 'Configuración',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'alws-label' => 'Wiki',
+	'alws-group-mustused' => 'Gehien erabilitako wikiak',
+	'alws-group-allaz' => 'Wiki guztiak alfabetikoki',
+	'form-legend-settings' => 'Hobespenak',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */

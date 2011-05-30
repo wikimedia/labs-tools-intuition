@@ -467,6 +467,21 @@ $messages['es'] = array(
 	'help-translate-tooltip' => 'Ayuda a otros al traducir los mensajes de la interfaz en tu idioma.',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'settings-legend' => 'Hobespenak',
+	'choose-language' => 'Hizkuntza aukeratu',
+	'tab-overview' => 'Ikuspegi orokorra',
+	'tab-settings' => 'Hobespenak',
+	'tab-about' => 'Honi buruz',
+	'bl-mysettings' => 'Nire hizkuntzaren hobespenak',
+	'bl-mysettings-new' => 'Hizkuntza aldatu!',
+	'help-translate-tool' => 'Tresna hau itzultzen lagundu!',
+	'help-translate-all' => 'Toolserver itzultzen lagundu!',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Wayiran

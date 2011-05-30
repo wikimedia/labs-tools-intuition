@@ -360,6 +360,24 @@ $messages['es'] = array(
 	'resultslimited' => 'Los resultados se limitan a $1 páginas.',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'title' => 'OrphanTalk2',
+	'hideredirects' => 'Birzuzenketak ezkutatu',
+	'hidesubpages' => 'Azpiorrialdeak ezkutatu',
+	'limit' => 'Muga',
+	'page' => 'Orrialdea',
+	'redirect' => 'Birzuzenketak da?',
+	'update' => 'Eguneratu',
+	'tools-delete' => 'ezabatu',
+	'tools-links' => 'loturak',
+	'tools-subject' => 'gaia',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'orain',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Wayiran

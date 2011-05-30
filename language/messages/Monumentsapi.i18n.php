@@ -128,6 +128,15 @@ $messages['es'] = array(
 	'search-table-th-search' => 'Buscar',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'search-table-th-field' => 'Eremua',
+	'search-table-th-filter' => 'Iragazkia',
+	'search-table-th-search' => 'Bilatu',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */
