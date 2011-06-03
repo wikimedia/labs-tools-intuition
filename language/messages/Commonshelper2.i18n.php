@@ -922,6 +922,52 @@ $messages['ia'] = array(
 	'error_upload_file' => 'Le file original non pote esser discargate.',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Kenrick95
+ */
+$messages['id'] = array(
+	'attention' => 'Perhatian',
+	'description' => 'Alat untuk mentransfer berkas dari proyek-proyek Wikimedia ke Wikimedia Commons',
+	'change_meta' => 'Ubah $1pengaturan kategori dan templat$2 untuk $3',
+	'jira_link' => 'Laporkan kutu (bug) atau sarankan fitur',
+	'language' => 'Bahasa',
+	'project' => 'Proyek',
+	'source_file' => 'Berkas sumber',
+	'target_file' => 'Berkas tujuan',
+	'commons_username' => 'Nama pengguna Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons ke proyek',
+	'move_file_from_com' => 'Pindahkan berkas dari Wikimedia Commons ke proyek',
+	'categories' => 'Kategori',
+	'remove_cats' => 'Hapus kategori yang ada',
+	'use_checkusage' => 'Gunakan $1CommonSense$2 untuk menyarankan kategori baru',
+	'use_tusc' => 'Gunakan $1TUSC$2 untuk langsung mengotentikasi dan mentransfer berkas',
+	'tusc_user' => 'Nama pengguna TUSC',
+	'tusc_pass' => 'Kata sandi TUSC',
+	'do_it' => 'Lakukan',
+	'error_transfer_usr' => 'Anda belum menetapkan nama pengguna Wikimedia Commons',
+	'error_not_exists' => 'Berkas sumber tidak ada.',
+	'error_file_exists' => 'Berkas telah ada di $3 dengan nama "$1$4$2"!',
+	'error_diff_exists' => 'Sebuah berkas target yang berbeda telah ada di wiki target dengan nama yang sama!',
+	'error_no_meta' => 'Tidak ada metadata yang ditemukan tentang wiki sumber! $1Silakan tambahkan/perbarui metadata untuk proyek ini$2',
+	'error_meta_no_good' => 'Metadata: Tidak ada templat yang baik ditemukan! $1Silakan tambah/perbarui metadata untuk proyek tersebut$2',
+	'error_meta_bad' => 'Metadata: Templat yang buruk ditemukan! $1Silakan tambah/perbarui metadata untuk proyek tersebut$2',
+	'original_wikitext' => 'Teks wiki asli',
+	'new_wikitext' => 'Teks wiki baru',
+	'new_filename' => 'Nama berkas baru:',
+	'output_information' => 'Untuk pengunggahan secara manual, sunting teks di atas (jika diperlukan), simpan $1berkas$2 di komputer Anda, lalu $3unggah berkas tersebut$4.',
+	'upload_submit' => 'Unggah!',
+	'target_wiki' => 'wiki target',
+	'standard_language' => 'en',
+	'error_bot_blocked' => 'Bot pengunggah diblokir di Wikimedia Commons.',
+	'error_upload_meta' => 'Tidak bisa langsung mengunggah karena ada masalah dengan meta data (lihat di atas)!',
+	'error_tusc_failed' => 'Verifikasi TUSC gagal!',
+	'error_only_commons' => 'Unggah karya secara langsung hanya di Wikimedia Commons!',
+	'upload_control_text' => 'Silakan cek teks wiki baru dan klik "$1" jika semua sudah OK!',
+	'error_commons_user' => 'Untuk mengidentifikasi pengguna yang mentransfer, nama pengguna Wikimedia Commons Anda harus ada dalam deskripsi!',
+	'error_upload_users' => 'Fungsi pengunggahan ini hanya tersedia bagi beberapa pengguna ketika periode pengujian!',
+	'error_upload_file' => 'Berkas asli tidak dapat diunduh.',
+);
+
 /** Ingush (ГІалгІай Ğalğaj)
  * @author Sapral Mikail
  */

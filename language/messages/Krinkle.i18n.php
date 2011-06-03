@@ -184,11 +184,13 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Nike
+ * @author Silvonen
  */
 $messages['fi'] = array(
 	'alws-selectwiki' => '(valitse wiki)',
 	'alws-group-mustused' => 'Käytetyimmät wikit',
 	'alws-group-allaz' => 'Kaikki wikit aakkosjärjestyksessä',
+	'form-legend-settings' => 'Asetukset',
 );
 
 /** French (Français)

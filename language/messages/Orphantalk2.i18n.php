@@ -403,6 +403,16 @@ $messages['fa'] = array(
 	'resultslimited' => 'نتایج به $1 صفحه محدود بود.',
 );
 
+/** Finnish (Suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'select-wiki-first' => '(valitse ensin wiki)',
+	'page' => 'Sivu',
+	'update' => 'Päivitä',
+	'tools-delete' => 'poista',
+);
+
 /** French (Français)
  * @author Crochet.david
  * @author Jean-Frédéric
