@@ -10,4 +10,5 @@ $domains = array(
 	'Recentanonymousactivity' => 'Recentanonymousactivity.i18n.php',
 	'Svgtranslate' => 'Svgtranslate.i18n.php',
 	'Tsintuition' => 'Tsintuition.i18n.php',
+	'Templatecount' => 'Templatecount.i18n.php',
 );
