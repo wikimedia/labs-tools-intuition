@@ -24,6 +24,8 @@ $messages['en'] = array(
 	'weeks' => 'weeks',
 	'days' => 'days',
 	'hours' => 'hours',
+	'minutes' => 'minutes',
+	'seconds' => 'seconds',
 	'last-modified-date' => 'Last modified: $1',
 	'view-source' => 'View source',
 	'parentheses' => '($1)', // optional
@@ -49,6 +51,8 @@ $messages['qqq'] = array(
 	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ). No support for advanced plural yet.',
 	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ). No support for advanced plural yet.',
 	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ). No support for advenced plural yet.',
+	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advenced plural yet.',
+	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
 );
