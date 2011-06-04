@@ -59,7 +59,8 @@ $messages['en'] = array(
  * @author Purodha
  */
 $messages['qqq'] = array(
-	'title' => 'The title of the tool.',
+	'title' => 'The title of the tool.
+{{Optional}}',
 	'error-tryagain' => 'A general error message appended to another error message ($1) suggesting the user hits their "Back" button and tries again.',
 	'error-nothing' => 'An error received when the tool finds no translatable items of text in the SVG.',
 	'error-notsvg' => 'An error that occurs when the file provided is not in the required SVG file format.',

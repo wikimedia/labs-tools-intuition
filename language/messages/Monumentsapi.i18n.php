@@ -15,7 +15,7 @@ $messages = array();
  * @author Multichill
  */
 $messages['en'] = array(
-	'title' => 'Monuments API', // Do not translate
+	'title' => 'Monuments API', // Ignore
 	'search-table-th-field' => 'Field',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Search',

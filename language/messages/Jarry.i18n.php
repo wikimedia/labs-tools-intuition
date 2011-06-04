@@ -15,7 +15,7 @@ $messages = array();
  * @author Jarry
  */
 $messages['en'] = array(
-	'title' => 'Jarry1250\'s Toolserver Tools', // Ignore, do not translate
+	'title' => 'Jarry1250\'s Toolserver Tools', // Ignore
 	'moretools' => 'more tools from the same author',
 	'bugs' => 'bug reports and feature requests',
 	'comments' => 'comments and queries',

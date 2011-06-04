@@ -11,12 +11,12 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'dateformat' => '%B %d %Y',
+	'dateformat' => '%B %d %Y', // Optional
 	'hello' =>	'Hello',
 	'welcome' => 'Welcome',
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'etc.',
-	'colon-separator' => ':',
+	'colon-separator' => ':', // Optional
 	'namespace' => 'Namespace',
 	'form-submit' => 'Go',
 	'form-reset' => 'Reset',
@@ -28,7 +28,7 @@ $messages['en'] = array(
 	'seconds' => 'seconds',
 	'last-modified-date' => 'Last modified: $1',
 	'view-source' => 'View source',
-	'parentheses' => '($1)', // optional
+	'parentheses' => '($1)', // Optional
 );
 
 /** Message documentation (Message documentation)
@@ -36,12 +36,12 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'dateformat' => 'Dateformat in this language. See documentation about [http://www.php.net/manual/en/function.strftime.php strftime() at php.net] for the syntax.',
+	'dateformat' => '{{Optional}} Dateformat in this language. See documentation about [http://www.php.net/manual/en/function.strftime.php strftime() at php.net] for the syntax.',
 	'hello' => 'A friendly greet.',
 	'welcome' => 'A friendly welcome.',
 	'toolversionstamp' => 'Short sentence about what the last version of this tool is and when the last update was. <code>$1</code> is the version (eg. "1.5.5beta") and <code>$2</code> is the date (without time).',
 	'etc' => 'Abbreviated form of "et cetera"',
-	'colon-separator' => 'Optional message. Change it only if your language uses another character for ":" or it needs an extra space before the colon.',
+	'colon-separator' => '{{Optional}} Change it only if your language uses another character for ":" or it needs an extra space before the colon.',
 	'namespace' => '{{Identical|Namespace}}',
 	'form-submit' => 'A general label for a form submission button. Not per se a search form!
 {{Identical|Go}}',
@@ -55,6 +55,7 @@ $messages['qqq'] = array(
 	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
+	'parentheses' => '{{Optional}}',
 );
 
 /** Afrikaans (Afrikaans)

@@ -15,7 +15,7 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' =>	'Get Wiki API', // Ignore, do not translate
+	'title' =>	'Get Wiki API', // Ignore
 	'formats-heading' => 'Output formats',
 	'input' => 'Input',
 	'label-wikiids' => 'Wiki identifiers',

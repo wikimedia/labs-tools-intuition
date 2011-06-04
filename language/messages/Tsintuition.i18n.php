@@ -15,7 +15,7 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' =>	'Toolserver Intuition', // Ignore, do not translate
+	'title' =>	'Toolserver Intuition', // Ignore
 	'fullname' => 'Internationalization for Toolserver\'s User Interface',
 	'current-settings' => 'Current settings',
 	'current-language' => 'Currently selected language',

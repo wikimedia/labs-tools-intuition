@@ -15,7 +15,7 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'alws-label' => 'Wiki', // optional
+	'alws-label' => 'Wiki', // Optional
 	'alws-selectwiki' => '(select wiki)',
 	'alws-group-mustused' => 'Most used wikis',
 	'alws-group-allaz' => 'All wikis alphabetically',
