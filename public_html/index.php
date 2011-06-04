@@ -22,7 +22,7 @@
  * -------------------------------------------------
  */
 require_once( '/home/krinkle/common/InitTool.php' ); // BaseTool
-require_once( '/home/project/i/n/t/intuition/ToolserverI18N/ToolStart.php' ); // TsIntuition
+require_once( dirname( __DIR__ ) . '/ToolStart.php' );
 
 /* Initialize TsIntuition */
 $opts = array(
