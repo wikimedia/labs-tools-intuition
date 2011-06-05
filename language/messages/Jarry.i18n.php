@@ -28,7 +28,6 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'title' => 'The head line of Jarry tools. {{Notranslate}}',
 	'moretools' => 'This is a link to the index of all tools by Jarry1250.',
 	'bugs' => 'The text for a footer link to a website where users can submit details of errors they encounter and suggestions for new features',
 	'comments' => 'The text for a footer link to a website where users can leave comments and queries about the tool',
@@ -46,7 +45,6 @@ $messages['ar'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'más ferramientes del mesmu autor',
 	'bugs' => 'informar de fallos y pidir carauterístiques',
 	'comments' => 'comentarios y consultes',
@@ -57,7 +55,6 @@ $messages['ast'] = array(
  * @author LexArt
  */
 $messages['be'] = array(
-	'title' => 'Прылады Jarry1250 для Toolserver',
 	'moretools' => 'іншыя прылады ад гэтага аўтара',
 	'bugs' => 'паведамленні пра памылкі і пажаданні',
 	'comments' => 'каментары і запыты',
@@ -69,7 +66,6 @@ $messages['be'] = array(
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'title' => 'Інструмэнты Jarry1250',
 	'moretools' => 'іншыя інструмэнты ад гэтага аўтара',
 	'bugs' => 'паведамленьні пра памылкі і запыты на паляпшэньне',
 	'comments' => 'камэнтары і запыты',
@@ -80,7 +76,6 @@ $messages['be-tarask'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
-	'title' => 'Ostilhoù ar servijer ostilhoù Jarry1250',
 	'moretools' => 'Ostilhoù ouzhpenn digant an hevelep aozer',
 	'bugs' => "Kemennoù drein ha goulennou arc'hwelioù",
 	'comments' => 'Evezhiadennoù ha goulennoù',
@@ -99,7 +94,6 @@ $messages['da'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'Weitere Hilfsprogramme desselben Autors',
 	'bugs' => 'Fehlermeldungen und Funktionswünsche',
 	'comments' => 'Anmerkungen und Abfragen',
@@ -110,7 +104,6 @@ $messages['de'] = array(
  * @author Fitoschido
  */
 $messages['es'] = array(
-	'title' => 'Herramientas de Toolserver de Jarry1250',
 	'moretools' => 'más herramientas del mismo autor',
 	'bugs' => 'informes de errores y solicitudes',
 	'comments' => 'comentarios y consultas',
@@ -121,7 +114,6 @@ $messages['es'] = array(
  * @author Ebraminio
  */
 $messages['fa'] = array(
-	'title' => 'ابزارهای تول‌سرور Jarry1250',
 	'moretools' => 'ابزارهای بیشتر از همان نویسنده',
 	'bugs' => 'گزارش مشکلات و درخواست قابلیت',
 	'comments' => 'نظرها و درخواست‌ها',
@@ -132,7 +124,6 @@ $messages['fa'] = array(
  * @author Nike
  */
 $messages['fi'] = array(
-	'title' => 'Jarry1250:n Toolserver-työkalut',
 	'moretools' => 'lisää työkaluja samalta tekijältä',
 	'bugs' => 'ilmoitukset virheistä ja parannusehdotukset',
 	'comments' => 'kommentit ja kyselyt',
@@ -143,7 +134,6 @@ $messages['fi'] = array(
  * @author Peter17
  */
 $messages['fr'] = array(
-	'title' => 'Outils du serveur d’outils de Jarry1250',
 	'moretools' => 'plus d’outils du même auteur',
 	'bugs' => 'rapports de bogues et de demandes de fonctionnalités',
 	'comments' => 'commentaires et requêtes',
@@ -154,7 +144,6 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'title' => 'Ferramentas do servidor de Jarry1250',
 	'moretools' => 'máis ferramentas do mesmo autor',
 	'bugs' => 'informes de erros e solicitudes de funcionalidades',
 	'comments' => 'comentarios e preguntas',
@@ -165,7 +154,6 @@ $messages['gl'] = array(
  * @author Ex13
  */
 $messages['hr'] = array(
-	'title' => 'Toolserver alati Jarry1250',
 	'moretools' => 'više alata od istog autora',
 	'bugs' => 'prijava grešaka i zahtijevi za nove mogućnosti',
 	'comments' => 'primjedbe i upiti',
@@ -176,7 +164,6 @@ $messages['hr'] = array(
  * @author Dani
  */
 $messages['hu'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'további eszközök ettől a szerzőtől',
 	'bugs' => 'hibajelentések és fejlesztési ötletek',
 	'comments' => 'hozzászólások és kérések',
@@ -187,7 +174,6 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'plus instrumentos del mesme autor',
 	'bugs' => 'reportos de defectos e requestas de functionalitate',
 	'comments' => 'commentos e questiones',
@@ -198,7 +184,6 @@ $messages['ia'] = array(
  * @author Rippitippi
  */
 $messages['it'] = array(
-	'title' => 'Strumenti di Jarry1250 sul Toolserver',
 	'moretools' => 'più strumenti dello stesso autore',
 	'bugs' => 'segnalazione errori e richieste di nuove funzioni',
 	'comments' => 'commenti e richieste',
@@ -209,7 +194,6 @@ $messages['it'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'title' => 'Em Jarry1250 sing Projramme om Tuulẞööver',
 	'moretools' => 'ander Projramme vum sellve Schriever',
 	'bugs' => 'Fählermäldonge un Wönsche för Verbäßeronge',
 	'comments' => 'Aanmerkunge un Froore',
@@ -221,24 +205,15 @@ Donn se enfölle, ih dat de wigger määß.',
  * @author Robby
  */
 $messages['lb'] = array(
-	'title' => 'Jarry1250 Toolserver Toolen',
 	'moretools' => 'méi Toole vum selwechten Auteur',
 	'comments' => 'Bemierkungen an Ufroen',
 	'error-form-empty' => 'Eent oder méi obligatoresch Felder goufen eidel gelooss. Dir musst déi ausfëllen ier Dir virufuere kënnt.',
-);
-
-/** Latvian (Latviešu)
- * @author Papuass
- */
-$messages['lv'] = array(
-	'title' => 'Jarry1250 Toolserver rīki',
 );
 
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'title' => 'Алатки на Toolserver од Jarry1250',
 	'moretools' => 'уште алатки од истиот автор',
 	'bugs' => 'пријавување грешки и барања за функции',
 	'comments' => 'коментари и прашања',
@@ -249,7 +224,6 @@ $messages['mk'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'banyak lagi alatan daripada pengarang ini',
 	'bugs' => 'laporan pepijat dan permohonan ciri-ciri',
 	'comments' => 'komen dan pertanyaan',
@@ -260,7 +234,6 @@ $messages['ms'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'title' => "Toolserverhulpprogramma's van Jarry1250",
 	'moretools' => "meer hulpprogramma's van dezelfde auteur",
 	'bugs' => 'bugmeldingen en functionaliteitsverzoeken',
 	'comments' => 'vragen en opmerkingen',
@@ -271,7 +244,6 @@ $messages['nl'] = array(
  * @author Nghtwlkr
  */
 $messages['no'] = array(
-	'title' => 'Jarry1250s Toolserver-verktøy',
 	'moretools' => 'flere verktøy fra den samme forfatteren',
 	'bugs' => 'feilrapporter og funksjonsforespørsler',
 	'comments' => 'kommentarer og spørringer',
@@ -282,7 +254,6 @@ $messages['no'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'title' => 'Narzędzia Jarry1250 na toolserwerze',
 	'moretools' => 'więcej narzędzi tego samego autora',
 	'bugs' => 'raporty o błędach i propozycje zmian',
 	'comments' => 'uwagi i pytania',
@@ -293,7 +264,6 @@ $messages['pl'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'mai multe unelte de la același autor',
 	'bugs' => 'rapoarte de erori și cereri de îmbunătățiri',
 	'comments' => 'comentarii și întrebări',
@@ -311,7 +281,6 @@ $messages['roa-tara'] = array(
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
-	'title' => 'Инструменты Jarry1250 на тулсервере',
 	'moretools' => 'другие инструменты этого автора',
 	'bugs' => 'сообщения об ошибках и пожеланиях',
 	'comments' => 'вопросы и комментарии',
@@ -322,7 +291,6 @@ $messages['ru'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'več orodij istega avtorja',
 	'bugs' => 'poročila o hroščih in predlogi funkcij',
 	'comments' => 'pripombe in poizvedbe',
@@ -333,7 +301,6 @@ $messages['sl'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'title' => 'Алатке корисника Jarry1250',
 	'moretools' => 'више алатки од истог аутора',
 	'bugs' => 'пријава грешки и захтеви за нове могућности',
 	'comments' => 'коментари и упити',
@@ -344,7 +311,6 @@ $messages['sr-ec'] = array(
  * @author Rancher
  */
 $messages['sr-el'] = array(
-	'title' => 'Alatke korisnika Jarry1250',
 	'moretools' => 'više alatki od istog autora',
 	'bugs' => 'prijava greški i zahtevi za nove mogućnosti',
 	'comments' => 'komentari i upiti',
@@ -355,7 +321,6 @@ $messages['sr-el'] = array(
  * @author Liftarn
  */
 $messages['sv'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'fler verktyg från samma författare',
 	'bugs' => 'felrapporter och önskemål om utökad funktionalitet',
 	'comments' => 'kommentarer och frågor',
@@ -366,7 +331,6 @@ $messages['sv'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'title' => 'Mga Kasangkapan ng Tagapaghain ng Kasangkapan ni Jarry1250',
 	'moretools' => 'marami pang mga kasangkapan mula sa may-akda ring iyon',
 	'bugs' => 'mga ulat ng sira at mga paghiling ng tampok',
 	'comments' => 'mga puna at mga pagtatanong',
@@ -377,7 +341,6 @@ $messages['tl'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'title' => "Jarry1250's Toolserver Tools",
 	'moretools' => 'thêm công cụ từ cùng tác giả',
 	'bugs' => 'báo cáo lỗi và yêu cầu tính năng',
 	'comments' => 'ý kiến và truy vấn',

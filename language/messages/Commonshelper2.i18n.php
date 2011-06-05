@@ -79,6 +79,7 @@ $messages['en'] = array(
  * @author EugeneZelenko
  * @author Jan Luca
  * @author Krinkle
+ * @author Kwj2772
  * @author Purodha
  */
 $messages['qqq'] = array(
@@ -115,7 +116,7 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 	'standard_project' => '{{Optional}} The biggest project (e.g. "wikipedia") in this language. Used for standard values in maindesk and metadata-links.',
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
-	'upload_control_text' => '$1 is be the same as in the message {{msg-toolserver|CommonsHelper2-upload_submit}}',
+	'upload_control_text' => '$1 is be the same as in the message {{msg-toolserver|Commonshelper2-upload_submit}}',
 );
 
 /** Afrikaans (Afrikaans)
@@ -338,6 +339,7 @@ $messages['bg'] = array(
 	'categories' => 'Категории',
 	'remove_cats' => 'Премахване на съществуващите категории',
 	'standard_language' => 'bg',
+	'error_only_commons' => 'Директното качване работи само в Общомедия!',
 );
 
 /** Bengali (বাংলা)
@@ -1016,6 +1018,52 @@ $messages['it'] = array(
 	'error_commons_user' => 'Per identificare chi ha trasferito il documento, il tuo nome utente su Wikimedia Commons deve essere inserito nella descrizione!',
 	'error_upload_users' => 'La funzione di caricamento documenti è disponibile solo per alcuni utenti durante il periodo di prova!',
 	'error_upload_file' => 'Il file originale non può essere scaricato.',
+);
+
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'attention' => '주의',
+	'description' => '위키미디어 프로젝트의 파일을 위키미디어 공용에 올리는 도구',
+	'change_meta' => '$3 위키에 대한 $1분류와 틀에 관한 설정$2 바꾸기',
+	'jira_link' => '버그 신고 및 기능 제안하기',
+	'language' => '언어',
+	'project' => '프로젝트',
+	'source_file' => '원본 파일',
+	'target_file' => '올릴 파일의 이름',
+	'commons_username' => '위키미디어 공용 계정 이름',
+	'commons_to_project' => '공용에서 다른 프로젝트로 보내기',
+	'move_file_from_com' => '공용에서 다른 프로젝트로 보내기',
+	'categories' => '분류',
+	'remove_cats' => '기존 분류를 제거',
+	'use_checkusage' => '새 분류 제안을 위해 $1커먼센스$2 이용',
+	'use_tusc' => '$1TUSC$2 인증을 하고 즉시 파일을 올리기',
+	'tusc_user' => 'TUSC 계정 이름',
+	'tusc_pass' => 'TUSC 비밀번호',
+	'do_it' => '시작',
+	'error_transfer_usr' => '위키미디어 공용의 계정 이름을 입력하지 않았습니다.',
+	'error_not_exists' => '원본 파일이 없습니다!',
+	'error_file_exists' => '$3에 "$1$4$2"로 파일이 이미 올라와 있습니다!',
+	'error_diff_exists' => '파일을 올릴 위키에 똑같은 이름의 다른 파일이 있습니다!',
+	'error_no_meta' => '원본 위키에 대한 메타데이터를 찾지 못했습니다! $1해당 프로젝트에 대한 메타데이터를 추가/업데이트해주세요.$2',
+	'error_meta_no_good' => '메타데이터: 허용되는 틀이 없습니다! $1해당 프로젝트에 대한 메타데이터를 추가/업데이트해주세요.$2',
+	'error_meta_bad' => '메타데이터: 허용되지 않는 틀이 붙어 있습니다! $1해당 프로젝트에 대한 메타데이터를 추가/업데이트해주세요.$2',
+	'original_wikitext' => '원문',
+	'new_wikitext' => '새로 쓸 위키텍스트',
+	'new_filename' => '새 파일 이름:',
+	'output_information' => '수동 올리기의 경우, (필요하다면) 위의 글을 편집하고, 당신의 컴퓨터에 $1파일을 저장$2해 두었다가 $3파일을 올리십시오$4.',
+	'upload_submit' => '올리기!',
+	'target_wiki' => '올릴 위키',
+	'standard_language' => 'ko',
+	'error_bot_blocked' => '올리기 봇이 위키미디어 공용에서 차단되어 있습니다.',
+	'error_upload_meta' => '메타데이터에 문제가 있어 파일을 즉시 올릴 수 없습니다! (위를 참고하세요)',
+	'error_tusc_failed' => 'TUSC 인증 실패!',
+	'error_only_commons' => '즉시 파일 올리기는 위키미디어 공용에서만 가능합니다!',
+	'upload_control_text' => '새 위키텍스트를 확인한 후 이상이 없다면 "$1"을 클릭하세요!',
+	'error_commons_user' => '파일을 옮긴 사용자를 판별하기 위해 당신의 공용 계정 이름이 설명에 들어있어야 합니다!',
+	'error_upload_users' => '테스트 기간 중 올리기 기능은 일부 사용자만이 사용할 수 있습니다!',
+	'error_upload_file' => '원본 파일을 다운로드할 수 없습니다.',
 );
 
 /** Colognian (Ripoarisch)

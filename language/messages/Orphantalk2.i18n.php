@@ -194,6 +194,8 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'tools-delete' => 'изтриване',
+	'tools-hist' => 'ист',
+	'tools-curr' => 'тек',
 );
 
 /** Bengali (বাংলা)
@@ -543,14 +545,22 @@ $messages['inh'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Valepert
  */
 $messages['it'] = array(
+	'title' => 'OrphanTalk2',
+	'hideredirects' => 'Nascondi redirect',
+	'hidesubpages' => 'Nascondi le sottopagine',
 	'limit' => 'Limite',
 	'page' => 'Pagina',
+	'redirect' => 'È redirect?',
+	'output' => 'Risultato',
 	'update' => 'Aggiorna',
 	'tools-delete' => 'cancella',
 	'tools-links' => 'collegamenti',
 	'tools-hist' => 'cron',
+	'tools-curr' => 'corr',
+	'resultslimited' => 'I risultati sono stati limitati a $1 pagine.',
 );
 
 /** Khmer (ភាសាខ្មែរ)

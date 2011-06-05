@@ -84,8 +84,6 @@ $messages['qqq'] = array(
 Parameters:
 * $1 is the string {{msg-toolserver|svgtranslate-format-filename-example}}
 * $2 is the string {{msg-toolserver|svgtranslate-format-fullurl-example}}',
-	'format-filename-example' => '{{Notranslate}}',
-	'format-fullurl-example' => '{{Notranslate}}',
 	'svginput-label' => 'The label for main SVG filename input.',
 	'stats-footer' => 'This message is displayed at the bottom of the welcome page displaying some statistics. $1 is the number of files, $2 is the date the first known translation took place.',
 	'uploading' => 'A heading expressing that an upload is in progress.',
@@ -291,7 +289,9 @@ $messages['bg'] = array(
 	'th-password' => 'Парола',
 	'th-method' => 'Метод',
 	'translate' => 'Превеждане',
+	'svginput-label' => 'SVG файл',
 	'uploading' => 'Качване',
+	'description-license' => 'Изберане на описание и лиценз',
 );
 
 /** Bengali (বাংলা)
@@ -1149,8 +1149,6 @@ $messages['ms'] = array(
 	'preview' => 'Pralihat',
 	'translate' => 'Terjemah',
 	'translate-instructions' => 'Input diterima dalam bentuk nama fail (cth. "$1") atau URL penuh (cth. "$2"). Jika pilihan pertama digunakan, Wikimedia Commons akan dianggap sebagai sumbernya. Untuk menterjemahkan SVG dari tapak web atau wiki yang lain, anda mesti menggunakan format URL penuh.',
-	'format-filename-example' => 'File:Planetary transit.svg',
-	'format-fullurl-example' => 'http://upload.wikimedia.org/wikipedia/commons/8/8a/Planetary_transit.svg',
 	'svginput-label' => 'Fail SVG',
 	'stats-footer' => 'Alat ini telah digunakan untuk menterjemah kira-kira $1 fail sejak $2.',
 	'uploading' => 'Sedang memuat naik',

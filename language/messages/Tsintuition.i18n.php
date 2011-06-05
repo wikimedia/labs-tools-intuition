@@ -217,6 +217,10 @@ $messages['bg'] = array(
 	'settings-legend' => 'Настройки',
 	'choose-language' => 'Избиране на език',
 	'tab-settings' => 'Настройки',
+	'tab-about' => 'Относно',
+	'tab-demo' => 'Демонстрация',
+	'bl-mysettings-new' => 'Промяна на езика!',
+	'help-translate-tool' => 'Помогнете за превода на този инструмент!',
 );
 
 /** Bengali (বাংলা)
@@ -772,6 +776,16 @@ $messages['ja'] = array(
 	'renewcookies-success' => 'クッキーを更新しました。以降$1のあいだ有効です。',
 	'tab-overview' => '概要',
 	'tab-settings' => '設定',
+);
+
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'fullname' => 'Toolserver 사용자 인터페이스 국제화',
+	'current-settings' => '현재 설정',
+	'choose-language' => '언어 선택하기',
+	'tab-settings' => '설정',
 );
 
 /** Colognian (Ripoarisch)

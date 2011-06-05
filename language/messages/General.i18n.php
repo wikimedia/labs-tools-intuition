@@ -174,6 +174,11 @@ $messages['be-tarask'] = array(
 $messages['bg'] = array(
 	'toolversionstamp' => 'Версия $1 ($2)',
 	'namespace' => 'Именно пространство',
+	'years' => 'години',
+	'weeks' => 'седмици',
+	'days' => 'дни',
+	'minutes' => 'минути',
+	'seconds' => 'секунди',
 );
 
 /** Bengali (বাংলা)
@@ -269,6 +274,7 @@ $messages['cs'] = array(
 );
 
 /** Danish (Dansk)
+ * @author Peter Alberti
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -277,6 +283,7 @@ $messages['da'] = array(
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'osv.',
 	'namespace' => 'Navnerum',
+	'form-submit' => 'Gå',
 	'form-reset' => 'Nulstil',
 	'years' => 'år',
 	'weeks' => 'uger',
@@ -303,6 +310,8 @@ $messages['de'] = array(
 	'weeks' => 'Wochen',
 	'days' => 'Tage',
 	'hours' => 'Stunden',
+	'minutes' => 'Minuten',
+	'seconds' => 'Sekunden',
 	'last-modified-date' => 'Zuletzt geändert: $1',
 	'view-source' => 'Quelltext anzeigen',
 );
@@ -416,6 +425,8 @@ $messages['fr'] = array(
 	'weeks' => 'semaines',
 	'days' => 'jours',
 	'hours' => 'heures',
+	'minutes' => 'minutes',
+	'seconds' => 'secondes',
 	'last-modified-date' => 'Dernière modification : $1',
 	'view-source' => 'Voir la source',
 );
@@ -435,6 +446,8 @@ $messages['gl'] = array(
 	'weeks' => 'semanas',
 	'days' => 'días',
 	'hours' => 'horas',
+	'minutes' => 'minutos',
+	'seconds' => 'segundos',
 	'last-modified-date' => 'Última modificación: $1',
 	'view-source' => 'Ver o código fonte',
 );
@@ -582,6 +595,15 @@ $messages['km'] = array(
 	'view-source' => 'មើល​កូដ',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'hello' => '안녕하세요',
+	'welcome' => '환영합니다',
+	'toolversionstamp' => '버전 $1 ($2)',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -689,6 +711,8 @@ $messages['mk'] = array(
 	'weeks' => 'недели',
 	'days' => 'дена',
 	'hours' => 'часа',
+	'minutes' => 'минути',
+	'seconds' => 'секунди',
 	'last-modified-date' => 'Последена измена: $1',
 	'view-source' => 'Извор',
 );
@@ -742,6 +766,8 @@ $messages['nl'] = array(
 	'weeks' => 'weken',
 	'days' => 'dagen',
 	'hours' => 'uur',
+	'minutes' => 'minuten',
+	'seconds' => 'seconden',
 	'last-modified-date' => 'Laatste wijziging op: $1',
 	'view-source' => 'Brontekst bekijken',
 );

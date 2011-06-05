@@ -25,9 +25,6 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'title' => '{{Notranslate}}
-
-The title of the tool.',
 	'search-table-th-field' => 'Table header for the Field-column in the search table. {{Identical|Field}}',
 	'search-table-th-filter' => '{{Identical|Filter}}',
 	'search-table-th-search' => '{{Identical|Search}}',
@@ -56,7 +53,6 @@ $messages['ar'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Campu',
 	'search-table-th-filter' => 'Peñera',
 	'search-table-th-search' => 'Guetar',
@@ -74,7 +70,6 @@ $messages['az'] = array(
  * @author LexArt
  */
 $messages['be'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Фільтр',
 	'search-table-th-search' => 'Знайсці',
@@ -84,7 +79,6 @@ $messages['be'] = array(
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Фільтар',
 	'search-table-th-search' => 'Шукаць',
@@ -94,7 +88,6 @@ $messages['be-tarask'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
-	'title' => 'Savadurioù API',
 	'search-table-th-field' => 'Maezienn',
 	'search-table-th-filter' => 'Sil',
 	'search-table-th-search' => 'Klask',
@@ -112,7 +105,6 @@ $messages['da'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Feld',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Suchen',
@@ -122,7 +114,6 @@ $messages['de'] = array(
  * @author Fitoschido
  */
 $messages['es'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Buscar',
@@ -141,7 +132,6 @@ $messages['eu'] = array(
  * @author Ebraminio
  */
 $messages['fa'] = array(
-	'title' => 'بناهای API',
 	'search-table-th-field' => 'زمینه',
 	'search-table-th-filter' => 'پالایه',
 	'search-table-th-search' => 'جستجو',
@@ -160,7 +150,6 @@ $messages['fi'] = array(
  * @author Peter17
  */
 $messages['fr'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Champ',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Rechercher',
@@ -171,7 +160,6 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Procurar',
@@ -181,7 +169,6 @@ $messages['gl'] = array(
  * @author Ex13
  */
 $messages['hr'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filtar',
 	'search-table-th-search' => 'Traži',
@@ -191,7 +178,6 @@ $messages['hr'] = array(
  * @author Dani
  */
 $messages['hu'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Mező',
 	'search-table-th-filter' => 'Szűrő',
 	'search-table-th-search' => 'Keresés',
@@ -201,7 +187,6 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Recerca',
@@ -218,7 +203,6 @@ $messages['inh'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'title' => 'Monnumänte-<i lang="en">API</i>',
 	'search-table-th-field' => 'Fäld',
 	'search-table-th-filter' => 'Ußwähle',
 	'search-table-th-search' => 'Söhke',
@@ -235,7 +219,6 @@ $messages['ku-latn'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Feld',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sichen',
@@ -261,7 +244,6 @@ $messages['lv'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Филтер',
 	'search-table-th-search' => 'Пребарување',
@@ -271,7 +253,6 @@ $messages['mk'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Medan',
 	'search-table-th-filter' => 'Penapis',
 	'search-table-th-search' => 'Cari',
@@ -282,7 +263,6 @@ $messages['ms'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'title' => 'Monumenten-API',
 	'search-table-th-field' => 'Veld',
 	'search-table-th-filter' => 'Filteren',
 	'search-table-th-search' => 'Zoeken',
@@ -292,7 +272,6 @@ $messages['nl'] = array(
  * @author Nghtwlkr
  */
 $messages['no'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Felt',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Søk',
@@ -302,7 +281,6 @@ $messages['no'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'title' => 'Zabytki API',
 	'search-table-th-field' => 'Pole',
 	'search-table-th-filter' => 'Filtr',
 	'search-table-th-search' => 'Szukaj',
@@ -320,7 +298,6 @@ $messages['ps'] = array(
  * @author Giro720
  */
 $messages['pt-br'] = array(
-	'title' => 'Monumentos API',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Pesquisar',
@@ -330,7 +307,6 @@ $messages['pt-br'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Câmp',
 	'search-table-th-filter' => 'Filtru',
 	'search-table-th-search' => 'Caută',
@@ -340,7 +316,6 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'title' => "API de ''Monument''",
 	'search-table-th-field' => 'Cambe',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Cirche',
@@ -350,7 +325,6 @@ $messages['roa-tara'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Iskanje',
@@ -360,7 +334,6 @@ $messages['sl'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Поље',
 	'search-table-th-filter' => 'Филтер',
 	'search-table-th-search' => 'Претрага',
@@ -370,7 +343,6 @@ $messages['sr-ec'] = array(
  * @author Rancher
  */
 $messages['sr-el'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Pretraga',
@@ -380,7 +352,6 @@ $messages['sr-el'] = array(
  * @author Liftarn
  */
 $messages['sv'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Fält',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sök',
@@ -404,7 +375,6 @@ $messages['tet'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'title' => 'API ng mga bantayog',
 	'search-table-th-field' => 'Kahanayan',
 	'search-table-th-filter' => 'Pansala',
 	'search-table-th-search' => 'Hanapin',
@@ -422,7 +392,6 @@ $messages['uk'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'title' => 'Monuments API',
 	'search-table-th-field' => 'Trường',
 	'search-table-th-filter' => 'Bộ lọc',
 	'search-table-th-search' => 'Tìm kiếm',
@@ -432,7 +401,6 @@ $messages['vi'] = array(
  * @author Hydra
  */
 $messages['zh-hans'] = array(
-	'title' => '古迹 API',
 	'search-table-th-field' => '字段',
 	'search-table-th-filter' => '筛选器',
 	'search-table-th-search' => '搜索',
