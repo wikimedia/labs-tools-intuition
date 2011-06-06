@@ -119,6 +119,15 @@ $messages['es'] = array(
 	'search-table-th-search' => 'Buscar',
 );
 
+/** Estonian (Eesti)
+ * @author WikedKentaur
+ */
+$messages['et'] = array(
+	'search-table-th-field' => 'Väli',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Otsitekst',
+);
+
 /** Basque (Euskara)
  * @author An13sa
  */

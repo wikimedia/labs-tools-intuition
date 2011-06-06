@@ -216,6 +216,8 @@ $messages['br'] = array(
 	'weeks' => 'sizhunvezh',
 	'days' => 'devezh',
 	'hours' => 'eurvezh',
+	'minutes' => 'munutenn',
+	'seconds' => 'eilenn',
 	'last-modified-date' => 'Kemmet da ziwezhañ : $1',
 	'view-source' => 'Sellet ouzh tarzh an destenn',
 );
@@ -289,6 +291,8 @@ $messages['da'] = array(
 	'weeks' => 'uger',
 	'days' => 'dage',
 	'hours' => 'timer',
+	'minutes' => 'minutter',
+	'seconds' => 'sekunder',
 	'last-modified-date' => 'Senest ændret: $1',
 	'view-source' => 'Vis kildekode',
 );
@@ -351,6 +355,21 @@ $messages['es'] = array(
 	'hours' => 'horas',
 	'last-modified-date' => 'Última modificación: $1',
 	'view-source' => 'Ver fuente',
+);
+
+/** Estonian (Eesti)
+ * @author WikedKentaur
+ */
+$messages['et'] = array(
+	'namespace' => 'Nimeruum',
+	'years' => 'aastat',
+	'weeks' => 'nädalat',
+	'days' => 'päeva',
+	'hours' => 'tundi',
+	'minutes' => 'minutit',
+	'seconds' => 'sekundit',
+	'last-modified-date' => 'Viimati muudetud: $1',
+	'view-source' => 'Vaata lähteteksti',
 );
 
 /** Basque (Euskara)
@@ -518,6 +537,8 @@ $messages['ia'] = array(
 	'weeks' => 'septimanas',
 	'days' => 'dies',
 	'hours' => 'horas',
+	'minutes' => 'minutas',
+	'seconds' => 'secundas',
 	'last-modified-date' => 'Ultime modification: $1',
 	'view-source' => 'Vider texto fonte',
 );
@@ -732,6 +753,8 @@ $messages['ms'] = array(
 	'weeks' => 'minggu',
 	'days' => 'hari',
 	'hours' => 'jam',
+	'minutes' => 'minit',
+	'seconds' => 'saat',
 	'last-modified-date' => 'Kali terakhir diubah: $1',
 	'view-source' => 'Lihat sumber',
 );
@@ -788,6 +811,8 @@ $messages['no'] = array(
 	'weeks' => 'uker',
 	'days' => 'dager',
 	'hours' => 'timer',
+	'minutes' => 'minutter',
+	'seconds' => 'sekunder',
 	'last-modified-date' => 'Sist endret: $1',
 	'view-source' => 'Vis kilde',
 );
@@ -928,6 +953,8 @@ $messages['sl'] = array(
 	'weeks' => 'tednov',
 	'days' => 'dni',
 	'hours' => 'ur',
+	'minutes' => 'minut',
+	'seconds' => 'sekund',
 	'last-modified-date' => 'Zadnja sprememba: $1',
 	'view-source' => 'Izvorna koda',
 );
@@ -1088,6 +1115,8 @@ $messages['vi'] = array(
 	'weeks' => 'tuần',
 	'days' => 'ngày',
 	'hours' => 'giờ',
+	'minutes' => 'phút',
+	'seconds' => 'giây',
 	'last-modified-date' => 'Sửa đổi lần cuối: $1',
 	'view-source' => 'Xem mã nguồn',
 );
@@ -1108,6 +1137,8 @@ $messages['zh-hans'] = array(
 	'weeks' => '周',
 	'days' => '天',
 	'hours' => '小时',
+	'minutes' => '分钟',
+	'seconds' => '秒',
 	'last-modified-date' => '最近修改: $1',
 	'view-source' => '查看源代码',
 );

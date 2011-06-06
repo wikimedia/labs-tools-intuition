@@ -352,6 +352,8 @@ $messages['vi'] = array(
  */
 $messages['zh-hans'] = array(
 	'moretools' => '从同一作者更多工具',
+	'bugs' => '问题报告和功能请求',
 	'comments' => '意见及查询',
+	'error-form-empty' => '有了一个或多个必填的字段留空。在继续之前，您应该完成它们。',
 );
 

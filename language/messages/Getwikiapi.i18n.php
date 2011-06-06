@@ -490,5 +490,7 @@ $messages['vi'] = array(
 $messages['zh-hans'] = array(
 	'formats-heading' => '输出格式',
 	'input' => '输入',
+	'no-matches' => '没有匹配 "$1"',
+	'output' => '输出的 "$1"',
 );
 

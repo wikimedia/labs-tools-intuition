@@ -540,6 +540,7 @@ $messages['es'] = array(
 	'preview-hide' => 'Ocultar previsualización',
 	'preview-refresh' => 'Actualizar previsualización',
 	'error-must-accept' => 'Para continuar con una carga directa debes aceptar los términos de uso provistos.',
+	'error-tusc-failed' => 'Error de validación de TUSC: nombre de usuario o contraseña incorrectos.',
 	'description-license' => 'Selecciona la descripción y licencia',
 	'finalise' => 'Finalizar detalles',
 );
