@@ -59,8 +59,10 @@ $messages['bg'] = array(
  */
 $messages['br'] = array(
 	'enter-details' => 'Merkañ an titouroù',
+	'introduction' => "Merkañ anv ur patrom (Wikipediaoù hepken evit ar mare, hon digarezit) ha pouezañ war Mont. Ken aes ha tra eo. Tammoù krubuilhadennoù zo (memoriñ an disoc'hoù) siwazh, met an dra-se n'emañ ket e dalc'h an ostilh-mañ nag e dalc'h ar perc'henn anezhañ.",
 	'language-label' => 'Yezh',
 	'namespace-label' => 'Esaouenn anv',
+	'pagename-label' => 'Anv ar bajenn (hep an esaouenn anv)',
 	'transclusion-count-label' => 'Niver a dreuzkluzadurioù',
 	'transclusion-count' => 'Kavez ez eus bet $1 treuzkluzadur.',
 	'error-suggestion' => "Marteze eo bet kammskrivet (pe faziet war ar pennlizherennoù) anv ar bajenn ganeoc'h ?",
@@ -139,6 +141,16 @@ $messages['ia'] = array(
 	'transclusion-count' => '$1 transclusion(es) trovate.',
 	'error-suggestion' => 'Forsan tu ha mal orthographiate le nomine del pagina (o usate majusculas/minusculas incorrecte)?',
 	'time-label' => 'Tempore prendite pro executar le commando',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'enter-details' => 'Detailer aginn',
+	'language-label' => 'Sprooch',
+	'namespace-label' => 'Nummraum',
+	'pagename-label' => 'Numm vun der Säit (ouni Nummraum)',
 );
 
 /** Macedonian (Македонски)

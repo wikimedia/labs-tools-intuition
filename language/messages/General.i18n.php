@@ -671,6 +671,8 @@ $messages['lb'] = array(
 	'weeks' => 'Wochen',
 	'days' => 'Deeg',
 	'hours' => 'Stonnen',
+	'minutes' => 'Minutten',
+	'seconds' => 'Sekonnen',
 	'last-modified-date' => 'Lescht Ännerung: $1',
 	'view-source' => 'Quellcode weisen',
 );

@@ -258,6 +258,13 @@ $messages['it'] = array(
 	'form-legend-settings' => 'Impostazioni',
 );
 
+/** Japanese (日本語)
+ * @author 青子守歌
+ */
+$messages['ja'] = array(
+	'alws-selectwiki' => '（ウィキを選択）',
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $messages['km'] = array(
 	'form-legend-settings' => 'ការកំណត់​នានា',
