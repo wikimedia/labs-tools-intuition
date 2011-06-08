@@ -1136,9 +1136,31 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Hamilton Abreu
+ * @author Helder.wiki
  */
 $messages['pt-br'] = array(
 	'fullname' => 'Internacionalização para o Interface de Usuário do Toolserver',
+	'current-settings' => 'Configurações atuais',
+	'current-language' => 'Idioma selecionado atualmente',
+	'settings-legend' => 'Configurações',
+	'choose-language' => 'Escolha um idioma',
+	'clear-cookies' => 'limpar cookies',
+	'renew-cookies' => 'renovar cookies',
+	'cookie-expiration' => 'Prazo de expiração dos cookies',
+	'clearcookies-success' => 'Os cookies foram removidos com sucesso.',
+	'renewcookies-success' => 'Cookies renovados! Você está preparado para os próximos $1.',
+	'tab-overview' => 'Visão geral',
+	'tab-settings' => 'Configurações',
+	'tab-about' => 'Sobre',
+	'tab-demo' => 'Exemplo',
+	'bl-mysettings' => 'Minhas configurações de idioma',
+	'bl-mysettings-new' => 'Alterar o idioma!',
+	'bl-promo' => 'Traduções possíveis graças à $1 e ao $2.',
+	'bl-changelanguage' => 'Clique aqui para alterar o idioma da interface desta ferramenta.',
+	'usage' => 'Ferramentas traduzidas pelo Toolserver Intuition.',
+	'help-translate-tool' => 'Ajude a traduzir esta ferramenta!',
+	'help-translate-all' => 'Ajude a traduzir o Toolserver!',
+	'help-translate-tooltip' => 'Ajuda os outros, traduzindo as mensagens de interface para o seu idioma.',
 );
 
 /** Romanian (Română)
