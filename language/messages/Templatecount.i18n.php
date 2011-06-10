@@ -45,6 +45,21 @@ The label for a textbox where users enter the namespace they wish to work with.'
 	'time-label' => 'The label for the duration representing the time their query took to perform.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'enter-details' => 'Verskaf besonderhede',
+	'introduction' => 'Verskaf die naam van \'n sjabloon (slegs vir Wikipedia\'s op die oomblik) en kliek op "OK". Dit is so eenvoudig. Daar word van kasgeheue gebruik gemaak (onthou vorige resultate), maar dit is buite die program en sy eienaar se beheer.',
+	'language-label' => 'Taal',
+	'namespace-label' => 'Naamruimte',
+	'pagename-label' => 'Bladsynaam (sonder die naamruimte)',
+	'transclusion-count-label' => 'Aantal sjablone',
+	'transclusion-count' => '$1 sjablo(o)n(e) gevind.',
+	'error-suggestion' => 'Miskien het u die bladsynaam verkeerd ingevoer (dink aan hoofletters en dergelike)?',
+	'time-label' => 'Tyd geneem om opdrag uit te voer',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -212,6 +227,13 @@ $messages['no'] = array(
 	'transclusion-count' => '$1 transklusjon(er) funnet.',
 	'error-suggestion' => 'Kanskje du stavet navnet på siden feil (eller bommet på små og store bokstaver)?',
 	'time-label' => 'Tiden det tar å utføre kommandoen',
+);
+
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'language-label' => 'Æвзаг',
 );
 
 /** Slovenian (Slovenščina)

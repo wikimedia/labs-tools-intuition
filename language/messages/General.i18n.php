@@ -933,9 +933,9 @@ $messages['roa-tara'] = array(
 $messages['si'] = array(
 	'welcome' => 'ආයුබෝවන්',
 	'form-submit' => 'යන්න',
-	'form-reset' => 'ප්‍රත්‍යාරම්භ කරන්න',
-	'years' => 'වර්ෂ',
-	'days' => 'දින',
+	'form-reset' => 'නැවත සකසන්න',
+	'years' => 'අවුරුදු',
+	'days' => 'දවස්',
 	'hours' => 'පැය',
 	'view-source' => 'මූලාශ්‍රය බලන්න',
 );

@@ -897,10 +897,11 @@ $messages['roa-tara'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
-	'tools-subject' => 'විෂය',
+	'tools-subject' => 'විෂයය',
 );
 
 /** Slovenian (Slovenščina)
