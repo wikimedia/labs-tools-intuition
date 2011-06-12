@@ -158,6 +158,13 @@ $messages['ia'] = array(
 	'time-label' => 'Tempore prendite pro executar le commando',
 );
 
+/** Latin (Latina)
+ * @author MissPetticoats
+ */
+$messages['la'] = array(
+	'language-label' => 'Lingua',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -166,6 +173,7 @@ $messages['lb'] = array(
 	'language-label' => 'Sprooch',
 	'namespace-label' => 'Nummraum',
 	'pagename-label' => 'Numm vun der Säit (ouni Nummraum)',
+	'transclusion-count-label' => 'Zuel vun den agebonnene Schablounen',
 );
 
 /** Macedonian (Македонски)

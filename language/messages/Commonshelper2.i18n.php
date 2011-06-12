@@ -1124,6 +1124,14 @@ $messages['ku-latn'] = array(
 	'project' => 'Proje',
 );
 
+/** Latin (Latina)
+ * @author MissPetticoats
+ */
+$messages['la'] = array(
+	'language' => 'Lingua',
+	'standard_language' => 'la',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */

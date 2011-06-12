@@ -965,6 +965,14 @@ $messages['ksh'] = array(
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
+/** Latin (Latina)
+ * @author MissPetticoats
+ */
+$messages['la'] = array(
+	'th-language' => 'Lingua',
+	'translate' => 'Transducere',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */

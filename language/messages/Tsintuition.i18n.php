@@ -825,6 +825,13 @@ $messages['ku-latn'] = array(
 	'bl-mysettings-new' => 'Zimanê biguherîne!',
 );
 
+/** Latin (Latina)
+ * @author MissPetticoats
+ */
+$messages['la'] = array(
+	'bl-mysettings-new' => 'Mutare linguam!',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */

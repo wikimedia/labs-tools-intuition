@@ -656,6 +656,14 @@ $messages['ku-latn'] = array(
 	'view-source' => 'Çavkanîyê bibîne',
 );
 
+/** Latin (Latina)
+ * @author MissPetticoats
+ */
+$messages['la'] = array(
+	'hello' => 'Salve',
+	'form-submit' => 'Ire',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */

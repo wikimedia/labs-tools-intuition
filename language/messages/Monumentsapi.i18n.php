@@ -224,6 +224,13 @@ $messages['ku-latn'] = array(
 	'search-table-th-filter' => 'Fîltre',
 );
 
+/** Latin (Latina)
+ * @author MissPetticoats
+ */
+$messages['la'] = array(
+	'search-table-th-search' => 'Quarere',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */

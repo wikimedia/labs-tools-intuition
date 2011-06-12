@@ -609,6 +609,13 @@ $messages['ksh'] = array(
 	'resultslimited' => 'Heh di Leß es bejränz op $1 Sigg(e)',
 );
 
+/** Latin (Latina)
+ * @author MissPetticoats
+ */
+$messages['la'] = array(
+	'page' => 'Pagina',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
