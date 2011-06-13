@@ -136,11 +136,15 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
+	'enter-details' => 'Insira os detalles',
+	'introduction' => 'Escriba o nome dun modelo (sentímolo, nestes intres só para wikipedias) e prema no botón para continuar. É así de sinxelo. Hai problemas de memoria caché (que lembra os resultados), pero desgraciadamente isto está fóra do control da ferramenta e mais do seu dono.',
 	'language-label' => 'Lingua',
 	'namespace-label' => 'Espazo de nomes',
 	'pagename-label' => 'Nome da páxina (sen o espazo de nomes)',
 	'transclusion-count-label' => 'Número de transclusións',
 	'transclusion-count' => 'Atopáronse $1 transclusións.',
+	'error-suggestion' => 'Poida que escribise mal o nome da páxina.',
+	'time-label' => 'Tempo necesario para executar o comando',
 );
 
 /** Interlingua (Interlingua)
@@ -244,6 +248,21 @@ $messages['os'] = array(
 	'language-label' => 'Æвзаг',
 );
 
+/** Romanian (Română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'enter-details' => 'Introduceți detalii',
+	'introduction' => 'Introduceți numele unui format (pentru moment funcționează doar pentru Wikipedia, ne pare rău) și apăsați Du-te. Atât de simplu. Trebuie spus că se rețin și informații în memoria cache (date care țin de rezultate), dar, din păcate, acest lucru nu poate fi controlat de către această unealtă sau de către deținătorul ei.',
+	'language-label' => 'Limbă',
+	'namespace-label' => 'Spațiu de nume',
+	'pagename-label' => 'Numele paginii (fără spațiul de nume)',
+	'transclusion-count-label' => 'Număr de transcluderi',
+	'transclusion-count' => '$1 transcluderi(e) găsite(ă).',
+	'error-suggestion' => 'Poate că ați ortografiat greșit numele paginii (sau ați folosit în mod eronat majuscula/minuscula inițială)?',
+	'time-label' => 'Timpul necesar executării comenzii',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
@@ -257,6 +276,36 @@ $messages['sl'] = array(
 	'transclusion-count' => 'Najdeno $1 preusmeritev.',
 	'error-suggestion' => 'Morda ste narobe črkovali (ali uporabili napačne začetnice) naslov strani?',
 	'time-label' => 'Čas, porabljen za izvršitev ukaza',
+);
+
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'enter-details' => 'Унос података',
+	'introduction' => 'Унесите назив шаблона и кликните на дугме „Иди“. Има и мало привременог меморисања, али то је ван досега ове алатке и његовог власника.',
+	'language-label' => 'Језик',
+	'namespace-label' => 'Именски простор',
+	'pagename-label' => 'Назив странице (без именског простора)',
+	'transclusion-count-label' => 'Број трансклузија',
+	'transclusion-count' => 'Пронађено трансклузија: $1.',
+	'error-suggestion' => 'Можда сте погрешно унели назив странице.',
+	'time-label' => 'Време за извршавање наредбе',
+);
+
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'enter-details' => 'Unos podataka',
+	'introduction' => 'Unesite naziv šablona i kliknite na dugme „Idi“. Ima i malo privremenog memorisanja, ali to je van dosega ove alatke i njegovog vlasnika.',
+	'language-label' => 'Jezik',
+	'namespace-label' => 'Imenski prostor',
+	'pagename-label' => 'Naziv stranice (bez imenskog prostora)',
+	'transclusion-count-label' => 'Broj transkluzija',
+	'transclusion-count' => 'Pronađeno transkluzija: $1.',
+	'error-suggestion' => 'Možda ste pogrešno uneli naziv stranice.',
+	'time-label' => 'Vreme za izvršavanje naredbe',
 );
 
 /** Telugu (తెలుగు)

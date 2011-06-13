@@ -911,6 +911,8 @@ $messages['ro'] = array(
 	'weeks' => 'săptămâni',
 	'days' => 'zile',
 	'hours' => 'ore',
+	'minutes' => 'minute',
+	'seconds' => 'secunde',
 	'last-modified-date' => 'Ultima modificare: $1',
 	'view-source' => 'Sursă pagină',
 );
@@ -984,6 +986,8 @@ $messages['sr-ec'] = array(
 	'weeks' => 'недеље',
 	'days' => 'дана',
 	'hours' => 'сата',
+	'minutes' => 'мин.',
+	'seconds' => 'сек.',
 	'last-modified-date' => 'Последња измена: $1',
 	'view-source' => 'Изворник',
 );
@@ -1003,6 +1007,8 @@ $messages['sr-el'] = array(
 	'weeks' => 'nedelje',
 	'days' => 'dana',
 	'hours' => 'sata',
+	'minutes' => 'min.',
+	'seconds' => 'sek.',
 	'last-modified-date' => 'Poslednja izmena: $1',
 	'view-source' => 'Izvor',
 );

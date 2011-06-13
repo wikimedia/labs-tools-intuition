@@ -459,6 +459,8 @@ $messages['gl'] = array(
 	'tools-hist' => 'hist',
 	'tools-curr' => 'actual',
 	'tools-globalusage' => 'uso global',
+	'deletesummary' => 'Limpando as páxinas de conversa orfas mediante $1',
+	'noresults' => 'Non hai páxina de conversa orfas neste espazo de nomes que coincidisen coa configuración.',
 	'resultslimited' => 'Os resultados limítanse a $1 páxinas.',
 );
 
