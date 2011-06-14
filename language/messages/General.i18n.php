@@ -164,6 +164,8 @@ $messages['be-tarask'] = array(
 	'weeks' => 'тыдняў',
 	'days' => 'дзён',
 	'hours' => 'гадзінаў',
+	'minutes' => 'хвілінаў',
+	'seconds' => 'сэкунд',
 	'last-modified-date' => 'Апошняя зьмена: $1',
 	'view-source' => 'Паказаць код',
 );

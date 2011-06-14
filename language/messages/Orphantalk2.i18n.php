@@ -611,6 +611,20 @@ $messages['ksh'] = array(
 	'resultslimited' => 'Heh di Leß es bejränz op $1 Sigg(e)',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'hideredirects' => 'Ragihandinan veşêre',
+	'hidesubpages' => 'Binrûpelan veşêre',
+	'limit' => 'Sînor',
+	'page' => 'Rûpel',
+	'redirect' => 'Ragihandin e?',
+	'tools-delete' => 'jê bibe',
+	'tools-links' => 'lînk',
+	'tools-hist' => 'dîro',
+);
+
 /** Latin (Latina)
  * @author MissPetticoats
  */

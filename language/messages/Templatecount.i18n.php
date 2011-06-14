@@ -60,6 +60,15 @@ $messages['af'] = array(
 	'time-label' => 'Tyd geneem om opdrag uit te voer',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'enter-details' => 'Увесьці падрабязнасьці',
+	'language-label' => 'Мова',
+	'namespace-label' => 'Прасторы назваў',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -160,6 +169,13 @@ $messages['ia'] = array(
 	'transclusion-count' => '$1 transclusion(es) trovate.',
 	'error-suggestion' => 'Forsan tu ha mal orthographiate le nomine del pagina (o usate majusculas/minusculas incorrecte)?',
 	'time-label' => 'Tempore prendite pro executar le commando',
+);
+
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'language-label' => 'Ziman',
 );
 
 /** Latin (Latina)

@@ -973,6 +973,17 @@ $messages['ksh'] = array(
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'th-translation' => 'Wergerr',
+	'th-language' => 'Ziman',
+	'th-username' => 'Navê bikarhêner',
+	'th-password' => 'Şîfre',
+	'preview' => 'Pêşdîtin',
+);
+
 /** Latin (Latina)
  * @author MissPetticoats
  */
