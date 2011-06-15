@@ -61,12 +61,18 @@ $messages['af'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
 	'enter-details' => 'Увесьці падрабязнасьці',
 	'language-label' => 'Мова',
 	'namespace-label' => 'Прасторы назваў',
+	'pagename-label' => 'Назва старонкі (без прасторы назваў)',
+	'transclusion-count-label' => 'Колькасьць трансклюзіяў',
+	'transclusion-count' => 'Колькасьць знойдзеных трансклюзіяў: $1.',
+	'error-suggestion' => 'Верагодна Вы зрабілі артаграфічную памылку ці не супадае рэгістар літар у назьве старонкі?',
+	'time-label' => 'Час, які спатрэбіўся на выкананьня каманды',
 );
 
 /** Bulgarian (Български)
@@ -129,6 +135,20 @@ $messages['es'] = array(
 	'time-label' => 'Tiempo necesario para ejecutar la orden',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'enter-details' => 'واردکردن مشخصات',
+	'language-label' => 'زبان',
+	'namespace-label' => 'فضای نام',
+	'pagename-label' => 'نام صفحه (به استثنای فضای نام)',
+	'transclusion-count-label' => 'تعداد تراگنجانش‌ها',
+	'transclusion-count' => '$1 تراگنجانش یافت شد',
+	'error-suggestion' => 'شاید شما نام صفحه را از نظر املائی (یا در حروف بزرگ و کوچک) اشتباه کرده‌اید؟',
+	'time-label' => 'زمان طول کشیده برای اجرای دستور',
+);
+
 /** French (Français)
  * @author Jean-Frédéric
  */
@@ -154,6 +174,21 @@ $messages['gl'] = array(
 	'transclusion-count' => 'Atopáronse $1 transclusións.',
 	'error-suggestion' => 'Poida que escribise mal o nome da páxina.',
 	'time-label' => 'Tempo necesario para executar o comando',
+);
+
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'enter-details' => 'Részletek megadása',
+	'introduction' => 'Add meg a sablon nevét (bocsi, egyelőre csak Wikipédiák esetén működik), majd kattints a Menj gombra. Ilyen egyszerű. Van némi gyorsítótárazás (az eredmények eltárolása), de ez sajnos az eszköz és az eszköz készítőjének hatáskörén kívülre esik.',
+	'language-label' => 'Nyelv',
+	'namespace-label' => 'Névtér',
+	'pagename-label' => 'Lap neve (névtér nélkül)',
+	'transclusion-count-label' => 'Beillesztések száma',
+	'transclusion-count' => '$1 beillesztés található.',
+	'error-suggestion' => 'Talán elgépelted a lap nevét, vagy rossz helyen használtál kis- és nagybetűket?',
+	'time-label' => 'A parancs végrehajtásához szükséges idő',
 );
 
 /** Interlingua (Interlingua)

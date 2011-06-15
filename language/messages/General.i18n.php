@@ -407,6 +407,8 @@ $messages['fa'] = array(
 	'weeks' => 'هفته‌ها',
 	'days' => 'روزها',
 	'hours' => 'ساعت‌ها',
+	'minutes' => 'دقایق',
+	'seconds' => 'ثانیه‌ها',
 	'last-modified-date' => 'آخرین تغییر: $1',
 	'view-source' => 'نمایش مبدأ',
 );
@@ -520,6 +522,8 @@ $messages['hu'] = array(
 	'weeks' => 'hét',
 	'days' => 'nap',
 	'hours' => 'óra',
+	'minutes' => 'perc',
+	'seconds' => 'másodperc',
 	'last-modified-date' => 'Utolsó módosítás ideje: $1',
 	'view-source' => 'Forrás megtekintése',
 );
