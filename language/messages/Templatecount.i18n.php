@@ -66,6 +66,7 @@ $messages['af'] = array(
  */
 $messages['be-tarask'] = array(
 	'enter-details' => 'Увесьці падрабязнасьці',
+	'introduction' => 'Увядзіце назву шаблёну (прабачце, у цяперашні момант даступны толькі Вікіпэдыі) і націсьніце «Далей». Гэта нескладана. Існуе кэшаваньне (запамінаньне вынікаў), але гэта, на жаль, па за кантролем гэтага інструмэнту і яго ўладальніка.',
 	'language-label' => 'Мова',
 	'namespace-label' => 'Прасторы назваў',
 	'pagename-label' => 'Назва старонкі (без прасторы назваў)',
@@ -126,6 +127,7 @@ $messages['de-formal'] = array(
  */
 $messages['es'] = array(
 	'enter-details' => 'Introduce los datos',
+	'introduction' => 'Escribe el nombre de una plantilla (solo Wikipedias por el momento, lo siento) y pulsa Ir. Es tan simple como eso. Hay algo de caché (recordar los resultados), pero eso lamentablemente está fuera del control de esta herramienta y de su propietario.',
 	'language-label' => 'Idioma',
 	'namespace-label' => 'Espacio de nombres',
 	'pagename-label' => 'Nombre de la página (sin el espacio de nombres)',
@@ -292,7 +294,7 @@ $messages['no'] = array(
 	'time-label' => 'Tiden det tar å utføre kommandoen',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -366,6 +368,21 @@ $messages['te'] = array(
 	'language-label' => 'భాష',
 	'namespace-label' => 'పేరుబరి',
 	'pagename-label' => 'పుట పేరు (పేరుబరి లేకుండా)',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'enter-details' => 'Ipasok ang mga detalye',
+	'introduction' => 'Makinilyahing papasok ang pangalan ng isang suleras (Mga wikipedia lamang sa ngayon, paumanhin) at pindutin ang gawin. Ganyang lang kapayak ito. May ilang mga pagtatanda (pag-alala ng mga resulta), subalit sa kasamaang palad ay nasa labas ng pagtaban ng kasangkapang ito at ng may-ari nito.',
+	'language-label' => 'Wika',
+	'namespace-label' => 'Puwang ng pangalan',
+	'pagename-label' => 'Pangalan ng pahina (hindi kasama ang puwang ng pangalan)',
+	'transclusion-count-label' => 'Bilang ng mga paglilipat at pagsasama',
+	'transclusion-count' => '$1 natagpuang (mga) transklusyon.',
+	'error-suggestion' => 'Marahil ay mali ang pagbabaybay mo (o hindi sinasadyang napalaki ang titik) ng pangalan ng pahina?',
+	'time-label' => 'Panahong nagamit upang maisagawa ang utos',
 );
 
 /** Vietnamese (Tiếng Việt)

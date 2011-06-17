@@ -214,11 +214,14 @@ $messages['be-tarask'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'current-settings' => 'Текущи настройки',
+	'current-language' => 'Текущо избран език',
 	'settings-legend' => 'Настройки',
 	'choose-language' => 'Избиране на език',
 	'tab-settings' => 'Настройки',
 	'tab-about' => 'Относно',
 	'tab-demo' => 'Демонстрация',
+	'bl-mysettings' => 'Моите езикови настройки',
 	'bl-mysettings-new' => 'Промяна на езика!',
 	'help-translate-tool' => 'Помогнете за превода на този инструмент!',
 );

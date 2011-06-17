@@ -84,6 +84,13 @@ $messages['be-tarask'] = array(
 	'search-table-th-search' => 'Шукаць',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'search-table-th-search' => 'Търсене',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */

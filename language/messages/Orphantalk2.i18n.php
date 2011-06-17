@@ -193,6 +193,7 @@ $messages['be-tarask'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'update' => 'Обновяване',
 	'tools-delete' => 'изтриване',
 	'tools-hist' => 'ист',
 	'tools-curr' => 'тек',

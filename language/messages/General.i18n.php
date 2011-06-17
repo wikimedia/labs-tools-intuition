@@ -1086,6 +1086,8 @@ $messages['tl'] = array(
 	'weeks' => 'mga linggo',
 	'days' => 'mga araw',
 	'hours' => 'mga oras',
+	'minutes' => 'mga minuto',
+	'seconds' => 'mga segundo',
 	'last-modified-date' => 'Huling nabago noong: $1',
 	'view-source' => 'Tingnan ang pinagmulan',
 );
