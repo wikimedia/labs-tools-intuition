@@ -103,7 +103,7 @@ class TsIntuition {
 	 */
 	function __construct( $options = array() ) {
 
-		if ( is_string( $options) ) {
+		if ( is_string( $options ) ) {
 			$options = array( 'domain' => $options );
 		}
 		
@@ -194,7 +194,7 @@ class TsIntuition {
 	/* Get/Set variables
 	 * ------------------------------------------------- */
 
-	public function getLang(){
+	public function getLang() {
 		return $this->currentLanguage;
 	}
 
@@ -250,7 +250,7 @@ class TsIntuition {
 	 * Return the currently selected text domain.
 	 * @return string
 	 */
-	public function getDomain(){
+	public function getDomain() {
 		return $this->currentTextdomain;
 	}
 
@@ -258,7 +258,7 @@ class TsIntuition {
 	 * Get an array of all registered text domains.
 	 * @return array
 	 */
-	public function getAllRegisteredDomains(){
+	public function getAllRegisteredDomains() {
 		return $this->registeredTextdomains;
 	}
 
@@ -278,7 +278,7 @@ class TsIntuition {
 	 *
 	 * @return array An array of aliases as keys and actual cookienames as values
 	 */
-	public function getCookieNames(){
+	public function getCookieNames() {
 		return $this->cookieNames;
 	}
 
@@ -293,7 +293,7 @@ class TsIntuition {
 	 *
 	 * @return array An array of aliases as keys and actual parameter names as values.
 	 */
-	public function getParamNames(){
+	public function getParamNames() {
 		return $this->paramNames;
 	}
 
@@ -307,7 +307,7 @@ class TsIntuition {
 	 *
 	 * @return boolean
 	 */
-	public function getUseRequestParam(){
+	public function getUseRequestParam() {
 		return $this->useRequestParam;
 	}
 
@@ -508,7 +508,7 @@ class TsIntuition {
 	 */
 	public function setMsgs( $messagesByKeys, $domain = 0, $lang = 0 ) {
 		foreach ( $messagesByKeys as $key => $message ) {
-			$this->setMsg( $key, $message, $domain, $lang);
+			$this->setMsg( $key, $message, $domain, $lang );
 		}
 	}
 
@@ -772,8 +772,8 @@ class TsIntuition {
 	 * It's recommended to redirectTo() directly after this.
 	 * @return boolean
 	 */
-	public function wipeCookies(){
-		$week = 7*24*3600;
+	public function wipeCookies() {
+		$week = 7 * 24 * 3600;
 		foreach( $this->getCookieNames() as $name ) {
 			setcookie( $name, '', time()-$week, '/', '.toolserver.org' );
 			unset( $_COOKIE[$name] );
@@ -785,7 +785,7 @@ class TsIntuition {
 	 * Get expiration timestamp.
 	 * @return integer Unix timestamp of expiration date or 0 if not available.
 	 */
-	public function getCookieExpiration(){
+	public function getCookieExpiration() {
 		$name = $this->getCookieName( 'track-expire' );
 		$expire = isset( $_COOKIE[$name] ) ? intval( $_COOKIE[$name] ) : 0;
 		return $expire;
@@ -795,14 +795,14 @@ class TsIntuition {
 	 * Get expected lifetime left in seconds.
 	 * Returns 0 if expired or unavailable. 
 	 */
-	public function getCookieLifetime(){
+	public function getCookieLifetime() {
 		$expire = $this->getCookieExpiration();
 		$lifetime = $expire - time();
 		// If already expired (-xxx), return 0
 		return $lifetime < 0 ? 0 : $lifetime;
 	}
 
-	public function hasCookies(){
+	public function hasCookies() {
 		return isset( $_COOKIE[ $this->getCookieName( 'userlang' ) ] );
 	}
 
@@ -836,7 +836,7 @@ class TsIntuition {
 	 *
 	 * @return true
 	 */
-	private function loadDomainRegistry(){
+	private function loadDomainRegistry() {
 
 		// Don't load twice
 		if ( is_array( $this->registeredTextdomains ) ) {
@@ -865,7 +865,7 @@ class TsIntuition {
 	 *
 	 * @return true
 	 */
-	private function loadFallbacks(){
+	private function loadFallbacks() {
 
 		// Don't load twice
 		if ( is_array( $this->langFallbacks ) ) {
@@ -893,7 +893,7 @@ class TsIntuition {
 	 *
 	 * @return true
 	 */
-	private function loadNames(){
+	private function loadNames() {
 
 		// Don't load twice
 		if ( is_array( $this->langNames ) ) {
@@ -1019,7 +1019,7 @@ class TsIntuition {
 	 * Show a typical "powered by .." footer line.
 	 * Same as getPromoBox() but without the image.
 	 */
-	public function getFooterLine( $helpTranslateDomain = null ){
+	public function getFooterLine( $helpTranslateDomain = null ) {
 		return $this->getPromoBox( 'no-image', $helpTranslateDomain );
 	}
 
@@ -1066,7 +1066,7 @@ class TsIntuition {
 		$this->redirectTo = array( $url, $code );
 	}
 
-	public function doRedirect(){
+	public function doRedirect() {
 		if ( is_array( $this->redirectTo ) ) {
 			header( 'Content-Type: text/html; charset=utf-8' );
 			header( 'Location: ' . $this->redirectTo[0], true, $this->redirectTo[1] );
@@ -1076,7 +1076,7 @@ class TsIntuition {
 		}
 	}
 
-	public function isRedirecting(){
+	public function isRedirecting() {
 		return is_array( $this->redirectTo );
 	}
 
@@ -1156,7 +1156,7 @@ class TsIntuition {
 	}
 
 	/**
-	 * Check language choise tree in the following order:
+	 * Check language choice tree in the following order:
 	 * - First: Construct override
 	 * - Second: Parameter override
 	 * - Third: Saved cookie
@@ -1189,7 +1189,7 @@ class TsIntuition {
 	 * for it to be applied
 	 * @return true
 	 */
-	public function refreshLang(){
+	public function refreshLang() {
 		$this->initLangSelect();
 		return true;
 	}
