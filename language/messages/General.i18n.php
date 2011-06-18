@@ -344,6 +344,7 @@ $messages['el'] = array(
  * @author Fitoschido
  */
 $messages['es'] = array(
+	'dateformat' => '%d de %B de %Y',
 	'hello' => 'Hola',
 	'welcome' => 'Bienvenido',
 	'toolversionstamp' => 'Versión $1 ($2)',
