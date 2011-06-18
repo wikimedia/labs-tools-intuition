@@ -317,6 +317,15 @@ $messages['ps'] = array(
 	'search-table-th-search' => 'پلټل',
 );
 
+/** Portuguese (Português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'search-table-th-field' => 'Campo',
+	'search-table-th-filter' => 'Filtro',
+	'search-table-th-search' => 'Pesquisar',
+);
+
 /** Brazilian Portuguese (Português do Brasil)
  * @author Giro720
  */

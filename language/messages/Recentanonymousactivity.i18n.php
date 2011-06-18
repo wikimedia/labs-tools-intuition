@@ -194,6 +194,13 @@ $messages['pl'] = array(
 	'title' => 'Ostatnia anonimowa aktywność',
 );
 
+/** Portuguese (Português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'title' => 'Actividade anónima recente',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */
