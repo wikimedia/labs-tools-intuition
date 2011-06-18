@@ -51,7 +51,7 @@ function _html( $key, $options = array() ) {
 	if ( is_string( $options ) ) {
 		$options = array( 'domain' => $options );
 	}
-	$options = array_merge( $options, array( 'parse' => 'html' ) );
+	$options = array_merge( $options, array( 'escape' => 'html' ) );
 	return _( $key, $options );
 }
 }
