@@ -79,7 +79,7 @@ class TsIntuitionUtil {
 	 *
 	 * @return string
 	 */
-	public function return_dump( $var, $html = true) {
+	public static function return_dump( $var, $html = true) {
 		$dump = NULL;
 		ob_start();
 		var_dump( $var );
@@ -94,7 +94,7 @@ class TsIntuitionUtil {
 
 	/* Primitive html building */
 	/* Based on kfTag from the BaseTool class */
-	function tag( $str, $wrapTag = 0, $attributes = array() ) {
+	public static function tag( $str, $wrapTag = 0, $attributes = array() ) {
 		$selfclose = array( 'link', 'input', 'br', 'img' );
 
 		if ( is_string( $str ) ) {
