@@ -651,8 +651,13 @@ class TsIntuition {
 		}
 
 		// Load it
-		include( $filePath );
-
+		$included = include( $filePath );
+		
+		if ( $included === false ) {
+			$this->errTrigger( "File $filePath could not be loaded ", __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			return false;
+		}
+				
 		// Parse it
 		$compact = compact( $this->includeVariables );
 		$this->parseTextdomain( $compact, $domain, $filePath );
