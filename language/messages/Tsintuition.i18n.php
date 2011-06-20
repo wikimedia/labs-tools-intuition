@@ -478,13 +478,17 @@ $messages['es'] = array(
  * @author An13sa
  */
 $messages['eu'] = array(
+	'current-settings' => 'Oraingo hobespenak',
+	'current-language' => 'Orain aukeratutako hizkuntza',
 	'settings-legend' => 'Hobespenak',
 	'choose-language' => 'Hizkuntza aukeratu',
 	'tab-overview' => 'Ikuspegi orokorra',
 	'tab-settings' => 'Hobespenak',
 	'tab-about' => 'Honi buruz',
+	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Nire hizkuntzaren hobespenak',
 	'bl-mysettings-new' => 'Hizkuntza aldatu!',
+	'usage' => 'Toolserver Intuitionek itzulitako tresnak.',
 	'help-translate-tool' => 'Tresna hau itzultzen lagundu!',
 	'help-translate-all' => 'Toolserver itzultzen lagundu!',
 );

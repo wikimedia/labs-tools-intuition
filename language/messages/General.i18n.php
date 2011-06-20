@@ -389,6 +389,8 @@ $messages['eu'] = array(
 	'weeks' => 'aste',
 	'days' => 'egun',
 	'hours' => 'ordu',
+	'minutes' => 'minutu',
+	'seconds' => 'segundu',
 	'last-modified-date' => 'Azken aldaketa: $1',
 	'view-source' => 'Iturria ikusi',
 );
@@ -880,6 +882,8 @@ $messages['ps'] = array(
 	'weeks' => 'اونۍ',
 	'days' => 'ورځې',
 	'hours' => 'ساعتونه',
+	'minutes' => 'دقيقې',
+	'seconds' => 'ثانيې',
 	'view-source' => 'سرچينه کتل',
 );
 

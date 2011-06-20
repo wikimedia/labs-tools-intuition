@@ -137,6 +137,15 @@ $messages['es'] = array(
 	'time-label' => 'Tiempo necesario para ejecutar la orden',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'enter-details' => 'Xehetasunak idatzi',
+	'language-label' => 'Hizkuntza',
+	'namespace-label' => 'Izen-tartea',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */
@@ -299,6 +308,14 @@ $messages['no'] = array(
  */
 $messages['os'] = array(
 	'language-label' => 'Æвзаг',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'language-label' => 'ژبه',
+	'namespace-label' => 'نوم-تشيال',
 );
 
 /** Romanian (Română)

@@ -876,6 +876,43 @@ $messages['ia'] = array(
 	'finalise' => 'Finalisar detalios',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Iwan Novirion
+ */
+$messages['id'] = array(
+	'error-tryagain' => '$1 Tekan tombol back browser Anda untuk mencoba lagi.',
+	'error-nothing' => 'Tak ada yang diterjemahkan',
+	'error-notsvg' => 'Bukan berkas SVG.',
+	'error-unexpected' => 'Terjadi kesalahan tak terduga.',
+	'error-notfound' => 'Berkas SVG tidak bisa diambil dari URL yang diberikan.',
+	'error-upload' => 'Ada kesalahan saat mengunggah.',
+	'begin-translation' => 'Mulai terjemahkan',
+	'th-original' => 'Asli',
+	'th-translation' => 'Terjemahan',
+	'th-language' => 'Bahasa',
+	'th-username' => 'Nama pengguna',
+	'th-password' => 'Kata sandi',
+	'th-method' => 'Metode',
+	'option-tusc' => 'TUSC (unggah otomatis)',
+	'option-manual' => 'Mengunggah manual',
+	'preview' => 'Pratayang',
+	'translate' => 'Terjemahkan',
+	'translate-instructions' => 'Masukan diterima sebagai salah satu nama file (misalnya "$1") atau URL lengkap (misalnya "$2"). Jika opsi pertama digunakan, Wikimedia Commons akan dianggap sebagai sumber. Untuk menerjemahkan SVG dari situs atau wiki lain, anda harus menggunakan format url lengkap.',
+	'svginput-label' => 'Berkas SVG',
+	'stats-footer' => 'Alat ini telah digunakan untuk menerjemahkan sekitar $1 files sejak $2 .',
+	'uploading' => 'Mengunggah',
+	'upload-complete' => 'Pengunggahan selesai dengan sukses. Gambar sekarang harusnya ada di $1',
+	'editdescriptionpage' => 'Sunting halaman deskripsi baru',
+	'disclaimer' => 'Beberapa data anonim akan secara pribadi dikumpulkan untuk tujuan statistik. Jika disediakan, TUSC nama pengguna juga akan dicatat untuk membantu dalam peristiwa vandalisme. Kata sandi tidak akan disimpan.',
+	'author-complete' => 'Mohon lengkapi informasi penulis!',
+	'preview-hide' => 'Sembunyikan pratayang',
+	'preview-refresh' => 'Perbarui pratayang',
+	'error-must-accept' => 'Untuk melanjutkan mengunggah secara langsung, anda harus menerima persyaratan penggunaan yang disediakan.',
+	'error-tusc-failed' => 'Validasi TUSC gagal: nama pengguna atau kata sandi salah.',
+	'description-license' => 'Pilih deskripsi dan lisensi',
+	'finalise' => 'Rincian akhir',
+);
+
 /** Ingush (ГІалгІай Ğalğaj)
  * @author Sapral Mikail
  */

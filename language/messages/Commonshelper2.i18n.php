@@ -557,12 +557,15 @@ $messages['es'] = array(
  */
 $messages['eu'] = array(
 	'attention' => 'Erne',
+	'description' => 'Wikimedia proiektuetatik Wikimedia Commonsera fitxategiak pasatzeko tresna',
+	'jira_link' => 'Akatsa jakinarazi edo ezaugarri bat iradoki',
 	'language' => 'Hizkuntza',
 	'project' => 'Proiektua',
 	'source_file' => 'Jatorrizko fitxategia',
 	'target_file' => 'Helburu fitxategia',
 	'commons_username' => 'Wikimedia Commonseko erabiltzaile izena',
 	'categories' => 'Kategoriak',
+	'remove_cats' => 'Kendu existitzen diren kategoriak',
 	'tusc_user' => 'TUSC erabiltzaile izena',
 	'tusc_pass' => 'TUSC pasahitza',
 	'do_it' => 'Egin',
@@ -1489,8 +1492,11 @@ $messages['pdc'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'attention' => 'پاملرنه',
 	'language' => 'ژبه',
 	'project' => 'پروژه',
+	'source_file' => 'سرچينيزه دوتنه',
+	'categories' => 'وېشنيزې',
 	'do_it' => 'ترسره يې کړه',
 	'new_filename' => 'د نوې دوتنې نوم:',
 );
