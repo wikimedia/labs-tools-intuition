@@ -100,6 +100,15 @@ $messages['br'] = array(
 	'search-table-th-search' => 'Klask',
 );
 
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'search-table-th-field' => 'Paràmetre',
+	'search-table-th-filter' => 'Filtre',
+	'search-table-th-search' => 'Cerca',
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */
