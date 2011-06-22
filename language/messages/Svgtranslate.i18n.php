@@ -1616,7 +1616,7 @@ $messages['sr-ec'] = array(
 	'preview-hide' => 'Сакриј преглед',
 	'preview-refresh' => 'Освежи преглед',
 	'error-must-accept' => 'Да бисте наставили с изравним отпремањем, морате прихватити услове коришћења.',
-	'error-tusc-failed' => 'TUSC провера није успела: корисничко име или лозинка су неисправни.',
+	'error-tusc-failed' => 'Не могу да извршим TUSC проверу: корисничко име или лозинка су неисправни.',
 	'description-license' => 'Изаберите опис и лиценцу',
 	'finalise' => 'Доврши детаље',
 );
@@ -1654,7 +1654,7 @@ $messages['sr-el'] = array(
 	'preview-hide' => 'Sakrij pregled',
 	'preview-refresh' => 'Osveži pregled',
 	'error-must-accept' => 'Da biste nastavili s izravnim otpremanjem, morate prihvatiti uslove korišćenja.',
-	'error-tusc-failed' => 'TUSC provera nije uspela: korisničko ime ili lozinka su neispravni.',
+	'error-tusc-failed' => 'Ne mogu da izvršim TUSC proveru: korisničko ime ili lozinka su neispravni.',
 	'description-license' => 'Izaberite opis i licencu',
 	'finalise' => 'Dovrši detalje',
 );
