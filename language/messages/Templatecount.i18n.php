@@ -378,6 +378,21 @@ $messages['sr-el'] = array(
 	'time-label' => 'Vreme za izvršavanje naredbe',
 );
 
+/** Swedish (Svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'enter-details' => 'Skriv in detaljer',
+	'introduction' => 'Skriv in namnet på en mall (Wikipedior endast just nu, tyvärr) och tryck på start. Det är så enkelt som det. Det finns viss cachelagring (minne av resultat), men det är tyvärr utanför verktygets och dess ägares kontroll.',
+	'language-label' => 'Språk',
+	'namespace-label' => 'Namnrymd',
+	'pagename-label' => 'Sidans namn (exklusive namnrymd)',
+	'transclusion-count-label' => 'Antal mallinkluderingar',
+	'transclusion-count' => '$1 mallinkludering(ar) hittades.',
+	'error-suggestion' => 'Kanske du felstavade (eller fel-versaliserade) namnet på sidan?',
+	'time-label' => 'Tid det tog att utföra kommandot',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */

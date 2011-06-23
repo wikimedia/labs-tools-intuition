@@ -1026,6 +1026,7 @@ $messages['sr-el'] = array(
 
 /** Swedish (Svenska)
  * @author Liftarn
+ * @author Lokal Profil
  */
 $messages['sv'] = array(
 	'hello' => 'Hej',
@@ -1039,6 +1040,8 @@ $messages['sv'] = array(
 	'weeks' => 'veckor',
 	'days' => 'dagar',
 	'hours' => 'timmar',
+	'minutes' => 'minuter',
+	'seconds' => 'sekunder',
 	'last-modified-date' => 'Senast uppdaterad: $1',
 	'view-source' => 'Visa källkod',
 );
