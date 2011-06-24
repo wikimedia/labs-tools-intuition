@@ -612,6 +612,16 @@ $messages['gl'] = array(
  * @author Amire80
  */
 $messages['he'] = array(
+	'fullname' => 'בִנאום עבור ממשק המשתמש של Toolserver',
+	'current-settings' => 'הגדרות נוכחיות',
+	'current-language' => 'השפה הנוכחית',
+	'settings-legend' => 'הגדרות',
+	'choose-language' => 'בחירת שפה',
+	'clear-cookies' => 'ניקוי עוגיות',
+	'renew-cookies' => 'חידוש עוגיות',
+	'cookie-expiration' => 'תפוגת עוגיות',
+	'clearcookies-success' => 'העוגיות נוקו בהצלחה.',
+	'renewcookies-success' => 'העוגיות חודשו! הכול יהיה בסדר אצלך למשל $1.',
 	'tab-overview' => 'סקירה',
 	'tab-settings' => 'הגדרות',
 	'tab-about' => 'אודות',

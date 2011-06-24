@@ -99,8 +99,13 @@ $messages['bg'] = array(
 	'form-legend-settings' => 'Настройки',
 );
 
-/** Bengali (বাংলা) */
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
 $messages['bn'] = array(
+	'alws-selectwiki' => '(উইকি নির্বাচন)',
+	'alws-group-mustused' => 'সর্বোচ্চ ব্যবহৃত উইকি',
+	'alws-group-allaz' => 'বর্ণানুক্রমে সমস্ত উইকি',
 	'form-legend-settings' => 'সেটিং',
 );
 

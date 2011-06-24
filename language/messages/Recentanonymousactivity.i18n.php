@@ -60,6 +60,13 @@ $messages['be-tarask'] = array(
 	'title' => 'Апошнія дзеяньні ананімаў',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'title' => 'সাম্প্রতিক বেনামী কর্মকাণ্ড',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
@@ -121,6 +128,13 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'title' => 'Actividade anónima recente',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'title' => 'פעילות אלמונית אחרונה',
 );
 
 /** Croatian (Hrvatski)

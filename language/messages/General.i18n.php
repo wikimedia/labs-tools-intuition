@@ -199,6 +199,8 @@ $messages['bn'] = array(
 	'weeks' => 'সপ্তাহ',
 	'days' => 'দিন',
 	'hours' => 'ঘণ্টা',
+	'minutes' => 'মিনিট',
+	'seconds' => 'সেকেন্ড',
 	'last-modified-date' => 'সর্বশেষ পরিবর্তন: $1',
 	'view-source' => 'সোর্স দেখাও',
 );
@@ -484,11 +486,19 @@ $messages['gl'] = array(
 $messages['he'] = array(
 	'hello' => 'שלום',
 	'welcome' => 'ברוכים הבאים',
+	'toolversionstamp' => 'גרסה $1 ($2)‏',
 	'etc' => 'וכו׳',
 	'namespace' => 'מרחב שם',
+	'form-submit' => 'מעבר',
+	'form-reset' => 'איפוס',
 	'years' => 'שנים',
 	'weeks' => 'שבועות',
 	'days' => 'ימים',
+	'hours' => 'שע׳',
+	'minutes' => 'דק׳',
+	'seconds' => 'שנ׳',
+	'last-modified-date' => 'שונה לאחרונה: $1',
+	'view-source' => 'הצגת מקור',
 );
 
 /** Croatian (Hrvatski)
