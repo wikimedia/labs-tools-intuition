@@ -221,6 +221,16 @@ $messages['gl'] = array(
 	'form-legend-settings' => 'Configuracións',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'alws-selectwiki' => '(בחירת אתר ויקי)',
+	'alws-group-mustused' => '(אתרי הוויקי הפעילים ביותר)',
+	'alws-group-allaz' => 'כל אתרי הוויקי לפי האלפבית',
+	'form-legend-settings' => 'הגדרות',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

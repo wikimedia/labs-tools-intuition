@@ -465,6 +465,30 @@ $messages['gl'] = array(
 	'resultslimited' => 'Os resultados limítanse a $1 páxinas.',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'title' => 'OrphanTalk2 – ניקוי דפי שיחה מיותמים',
+	'select-wiki-first' => '(יש לבחור אתר ויקי קודם)',
+	'hideredirects' => 'הסתרת הפניות',
+	'hidesubpages' => 'הסתרת דפי-משנה',
+	'limit' => 'מגבלה',
+	'page' => 'דף',
+	'redirect' => 'האם זו הפניה?',
+	'output' => 'פלט',
+	'update' => 'עדכון',
+	'tools-delete' => 'מחיקה',
+	'tools-links' => 'קישורים',
+	'tools-subject' => 'נושא',
+	'tools-hist' => 'היסטוריה',
+	'tools-curr' => 'נוכחי',
+	'tools-globalusage' => 'שימוש בכל המיזמים',
+	'deletesummary' => 'ניקוי דפי משתמש מיותמים באמצעות $1',
+	'noresults' => 'אין דפי שיחה מיותמים באתר הוויקי הזה במרחב השם הזה שמתאימים להגדרות שלך.',
+	'resultslimited' => 'התוצאות הוגבלו ל־$1 דפים.',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

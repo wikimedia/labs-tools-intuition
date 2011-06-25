@@ -860,6 +860,7 @@ $messages['lb'] = array(
 	'choose-language' => 'Sicht eng Sprooch eraus',
 	'clear-cookies' => 'Cookie läschen',
 	'renew-cookies' => 'Cookieën erneieren',
+	'cookie-expiration' => 'Gültegkeetsdauer vum Cookie',
 	'clearcookies-success' => "D'Cookie goufe geläscht.",
 	'tab-overview' => 'Iwwersiicht',
 	'tab-settings' => 'Astellungen',

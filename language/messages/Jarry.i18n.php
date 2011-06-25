@@ -150,6 +150,16 @@ $messages['gl'] = array(
 	'error-form-empty' => 'Algún dos campos obrigatorios quedou baleiro. Cómpre completalos antes de continuar.',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'moretools' => 'כלים נוספים של המפתח הזה',
+	'bugs' => 'דיווחי תקלות ובקשת תכונות חדשות',
+	'comments' => 'הערות ושאלות',
+	'error-form-empty' => 'יש שדה הכרחי שלא מולא. יש למלא את כל השדות ההכרחיים כדי להמשיך.',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

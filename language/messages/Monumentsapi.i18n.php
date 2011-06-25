@@ -190,6 +190,15 @@ $messages['gl'] = array(
 	'search-table-th-search' => 'Procurar',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'search-table-th-field' => 'שדה',
+	'search-table-th-filter' => 'מסנן',
+	'search-table-th-search' => 'חיפוש',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

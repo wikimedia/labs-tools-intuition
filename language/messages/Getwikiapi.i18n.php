@@ -213,6 +213,17 @@ $messages['gl'] = array(
 	'output' => 'Saída para "$1"',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'formats-heading' => 'תסדירי פלט',
+	'input' => 'קלט',
+	'label-wikiids' => 'מזהי ויקי',
+	'no-matches' => 'שום דבר לא התאים ל־"$1"',
+	'output' => 'פלט עבור "$1"',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

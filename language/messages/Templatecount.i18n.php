@@ -187,6 +187,21 @@ $messages['gl'] = array(
 	'time-label' => 'Tempo necesario para executar o comando',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'enter-details' => 'הזנת פרטים',
+	'introduction' => 'יש להזין את שם התבנית (כעת רק ויקיפדיה נתמכת, סליחה) וללחוץ "הפעלה". זה פשוט מאוד. יש קצת הטמנה (זכירת תוצאות), אבל זה מחוץ לשליטת הכלי הזה ושל מחברו.',
+	'language-label' => 'שפה',
+	'namespace-label' => 'מרחב שם',
+	'pagename-label' => 'שם הדף (ללא מרחב השם)',
+	'transclusion-count-label' => 'מספר ההכללות',
+	'transclusion-count' => 'מספר ההכללות שנמצאו: $1',
+	'error-suggestion' => 'אולי לא כתבת נכות את שם הדף? יש לכתוב במדויק אותיות קטנות ורישיות.',
+	'time-label' => 'כמה זמן לקח להריץ את הפקודה',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -240,6 +255,7 @@ $messages['lb'] = array(
 	'namespace-label' => 'Nummraum',
 	'pagename-label' => 'Numm vun der Säit (ouni Nummraum)',
 	'transclusion-count-label' => 'Zuel vun den agebonnene Schablounen',
+	'error-suggestion' => 'Vläicht hutt Dir den Numm vun der Säit falsch geschriwwen (oder just grouss a kleng Buschtawe verwiesselt).',
 );
 
 /** Macedonian (Македонски)
