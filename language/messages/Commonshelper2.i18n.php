@@ -44,6 +44,7 @@ $messages['en'] = array(
 	// Error
 	'error_transfer_usr' => 'You have not set a Wikimedia Commons username',
 	'error_not_exists' => 'Source file does not exist!',
+	'error_on_commons' => 'Source file already on $1!',
 	'error_file_exists' => 'File already exists on $3 as "$1$4$2"!',
 	'error_diff_exists' => 'A different target file exists on the target wiki under the same name!',
 	'error_no_meta' => 'No metadata found about the source wiki! $1Please add/update the metadata for the project$2',	
