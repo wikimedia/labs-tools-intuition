@@ -862,6 +862,7 @@ $messages['lb'] = array(
 	'renew-cookies' => 'Cookieën erneieren',
 	'cookie-expiration' => 'Gültegkeetsdauer vum Cookie',
 	'clearcookies-success' => "D'Cookie goufe geläscht.",
+	'renewcookies-success' => "D'Cookie sinn erneiert! Dir sidd elo nees prett fir déi nächst $1.",
 	'tab-overview' => 'Iwwersiicht',
 	'tab-settings' => 'Astellungen',
 	'tab-about' => 'Iwwer',
