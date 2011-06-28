@@ -992,6 +992,13 @@ $messages['my'] = array(
 	'bl-mysettings-new' => 'ဘာသာစကား ရွေးချယ်ပါ!',
 );
 
+/** Mazanderani (مازِرونی)
+ * @author محک
+ */
+$messages['mzn'] = array(
+	'tab-about' => 'درباره',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author SPQRobin
