@@ -996,6 +996,14 @@ $messages['my'] = array(
  * @author محک
  */
 $messages['mzn'] = array(
+	'fullname' => 'بین‌المللی ساجی رابط کاروری تول‌سرور وسّه',
+	'current-settings' => 'تنظیمات کنونی',
+	'current-language' => 'انتخاب بَیی زوون',
+	'settings-legend' => 'تنظیمات',
+	'choose-language' => 'اتا زوون ره بَیرین',
+	'clear-cookies' => 'پاک‌هاکردن کوکی‌ئون',
+	'renew-cookies' => 'تجدید کوکی‌ئون',
+	'cookie-expiration' => 'انقضای کوکی',
 	'tab-about' => 'درباره',
 );
 

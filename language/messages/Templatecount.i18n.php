@@ -288,6 +288,13 @@ $messages['ms'] = array(
 	'time-label' => 'Masa yang diambil untuk melaksanakan perintah',
 );
 
+/** Mazanderani (مازِرونی)
+ * @author محک
+ */
+$messages['mzn'] = array(
+	'language-label' => 'زوون',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand

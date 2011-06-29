@@ -1261,6 +1261,13 @@ $messages['mt'] = array(
 	'svginput-label' => 'Fajl SVG',
 );
 
+/** Mazanderani (مازِرونی)
+ * @author محک
+ */
+$messages['mzn'] = array(
+	'th-language' => 'زوون',
+);
+
 /** Nepali (नेपाली)
  * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
