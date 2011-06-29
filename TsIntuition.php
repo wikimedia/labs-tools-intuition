@@ -959,7 +959,7 @@ class TsIntuition {
 	 * - false: Disable this message all together.
 	 * @return The HTML for the promo box.
 	 */
-	public function getPromoBox( $imgSize = 28, $helpTranslateDomain = null ) {
+	public function getPromoBox( $imgSize = 28, $helpTranslateDomain = TSINT_HELP_CURRENT ) {
 
 		// Logo
 		if ( is_int( $imgSize ) && $imgSize > 0 ) {
@@ -992,18 +992,24 @@ class TsIntuition {
 		$change = $this->msg( 'bl-changelanguage', 'tsintuition' );
 
 		// Help translation
-		if ( $helpTranslateDomain === true ) {
+		if ( $helpTranslateDomain === TSINT_HELP_ALL ) {
 			$helpTranslateDomain = '0-all';
 			$twLinkText = $this->msg( 'help-translate-all', 'tsintuition' );
-		} elseif ( is_null( $helpTranslateDomain ) ) {
+
+		} elseif ( $helpTranslateDomain === TSINT_HELP_CURRENT ) {
 			$helpTranslateDomain = $this->getDomain();
 			$twLinkText = $this->msg( 'help-translate-tool', 'tsintuition' );
-		} else {
+
+		} else { // TSINT_HELP_NONE
 			$twLinkText = $this->msg( 'help-translate-tool', 'tsintuition' );
 		}
+
 		$helpTranslateLink = '';
+
 		if ( is_string( $helpTranslateDomain ) ) {
+
 			$helpTranslateDomain = strtolower( $helpTranslateDomain );
+
 			// http://translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
 			$twParams = array(
 				'title' => 'Special:Translate',
@@ -1024,7 +1030,7 @@ class TsIntuition {
 	 * Show a typical "powered by .." footer line.
 	 * Same as getPromoBox() but without the image.
 	 */
-	public function getFooterLine( $helpTranslateDomain = null ) {
+	public function getFooterLine( $helpTranslateDomain = TSINT_HELP_CURRENT ) {
 		return $this->getPromoBox( 'no-image', $helpTranslateDomain );
 	}
 

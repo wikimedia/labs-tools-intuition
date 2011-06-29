@@ -20,5 +20,6 @@ if ( file_exists( __DIR__ . '/LocalConfig.php' ) ) {
 
 
 // Files
+require_once( __DIR__ . '/Defines.php' )
 require_once( __DIR__ . '/TsIntuitionUtil.php' );
 require_once( __DIR__ . '/TsIntuition.php' );
