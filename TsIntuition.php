@@ -1270,7 +1270,7 @@ class TsIntuition {
 	 */
 	function isRTL( $code = null ) {
 		if ( !$code ) {
-			$code = $this->getCode();
+			$code = $this->getLang();
 		}
 		require __DIR__ . '/language/Rtl.php';
 		
