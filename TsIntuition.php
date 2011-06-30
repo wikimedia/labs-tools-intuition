@@ -1261,4 +1261,27 @@ class TsIntuition {
 			echo "<br />\n";
 		}
 	}
+	
+	/**
+	 * Returns true if a language is Right-to-left
+	 * @param $code String Language code to get the property from, 
+	 * current language if missing
+	 * @return Boolean
+	 */
+	function isRTL( $code = null ) {
+		if ( !$code ) {
+			$code = $this->getCode();
+		}
+		require __DIR__ . '/language/Rtl.php';
+		
+		return in_array( $code, $rtlLanguages );
+	}
+	
+	/**
+	 * Return the correct HTML 'dir' attribute value for this language.
+	 * @return String
+	 */
+	function getDir( $code = null ) {
+		return $this->isRTL( $code ) ? 'rtl' : 'ltr';
+	}
 }
