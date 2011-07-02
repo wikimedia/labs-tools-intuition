@@ -1855,6 +1855,7 @@ $messages['sr-el'] = array(
  * @author Ainali
  * @author Liftarn
  * @author Lokal Profil
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'attention' => 'Uppmärksamhet',
@@ -1877,6 +1878,7 @@ $messages['sv'] = array(
 	'do_it' => 'Gör det',
 	'error_transfer_usr' => 'Du har inte angett ett Wikimedia Commons användarnamn',
 	'error_not_exists' => 'Källfilen finns inte!',
+	'error_on_commons' => 'Källfilen är redan på $1!',
 	'error_file_exists' => 'Filen finns redan på $3 som "$1$4$2"!',
 	'error_diff_exists' => 'En annan målfil finns på målwiki under samma namn!',
 	'error_no_meta' => 'Ingen metadata hittades om ursprungs-wikin! $1Vänligen lägg till/uppdatera metadata för projektet$2',

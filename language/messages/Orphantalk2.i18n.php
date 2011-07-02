@@ -661,6 +661,7 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'title' => 'OrphanTalk2',
 	'select-wiki-first' => "(sicht d'éischt eng Wiki eraus)",
 	'hideredirects' => 'Viruleedunge verstoppen',
 	'hidesubpages' => 'Ënnersäite verstoppen',
