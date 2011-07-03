@@ -1268,11 +1268,11 @@ class TsIntuition {
 	 * current language if missing
 	 * @return Boolean
 	 */
-	function isRTL( $code = null ) {
+	public function isRTL( $code = null ) {
 		if ( !$code ) {
 			$code = $this->getLang();
 		}
-		require __DIR__ . '/language/Rtl.php';
+		require $this->localBaseDir . '/language/Rtl.php';
 		
 		return in_array( $code, $rtlLanguages );
 	}
@@ -1281,7 +1281,7 @@ class TsIntuition {
 	 * Return the correct HTML 'dir' attribute value for this language.
 	 * @return String
 	 */
-	function getDir( $code = null ) {
+	public function getDir( $code = null ) {
 		return $this->isRTL( $code ) ? 'rtl' : 'ltr';
 	}
 }
