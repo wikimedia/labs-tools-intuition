@@ -411,6 +411,8 @@ $messages['fa'] = array(
  */
 $messages['fi'] = array(
 	'select-wiki-first' => '(valitse ensin wiki)',
+	'hideredirects' => 'Piilota ohjaukset',
+	'hidesubpages' => 'Piilota alasivut',
 	'page' => 'Sivu',
 	'update' => 'Päivitä',
 	'tools-delete' => 'poista',

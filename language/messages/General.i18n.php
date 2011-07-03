@@ -113,6 +113,8 @@ $messages['ast'] = array(
 	'weeks' => 'selmanes',
 	'days' => 'díes',
 	'hours' => 'hores',
+	'minutes' => 'minutos',
+	'seconds' => 'segundos',
 	'last-modified-date' => 'Caberu cambéu: $1',
 	'view-source' => 'Ver códigu fonte',
 );
@@ -420,6 +422,7 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Nike
+ * @author Silvonen
  */
 $messages['fi'] = array(
 	'hello' => 'Moikka',
@@ -433,6 +436,8 @@ $messages['fi'] = array(
 	'weeks' => 'viikkoa',
 	'days' => 'päivää',
 	'hours' => 'tuntia',
+	'minutes' => 'minuuttia',
+	'seconds' => 'sekuntia',
 	'last-modified-date' => 'Viimeksi muokattu $1',
 	'view-source' => 'näytä lähdekoodi',
 );

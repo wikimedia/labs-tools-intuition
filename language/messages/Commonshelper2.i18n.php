@@ -193,6 +193,7 @@ $messages['ast'] = array(
 	'do_it' => 'Facelo',
 	'error_transfer_usr' => "Nun conseñasti un nome d'usuariu de Wikimedia Commons",
 	'error_not_exists' => "¡El ficheru d'orixe nun esiste!",
+	'error_on_commons' => "¡El ficheru d'orixe yá ta en $1!",
 	'error_file_exists' => '¡El ficheru yá esiste en $3 como "$1$4$2"!',
 	'error_diff_exists' => '¡Un ficheru destín diferente col mesmu nome yá esiste na wiki destín!',
 	'error_no_meta' => "¡Nun s'alcontraron metadatos pa la wiki d'orixe! $1Por favor, amiesta/anueva los metadatos del proyeutu$2",
@@ -505,7 +506,7 @@ $messages['de'] = array(
 	'tusc_user' => 'Benutzername bei TUSC',
 	'tusc_pass' => 'Passwort bei TUSC',
 	'do_it' => 'Ausführen',
-	'error_transfer_usr' => 'Es wurde keine Benutzername bei Wikimedia Commons festgelegt',
+	'error_transfer_usr' => 'Es wurde keine Benutzername für Wikimedia Commons festgelegt',
 	'error_not_exists' => 'Die Quelldatei ist nicht vorhanden.',
 	'error_on_commons' => 'Die Quelldatei ist bereits auf $1 vorhanden.',
 	'error_file_exists' => 'Die Datei ist bereits auf $3 als „$1$4$2“ vorhanden.',
@@ -525,9 +526,16 @@ $messages['de'] = array(
 	'error_tusc_failed' => 'Die TUSC-Prüfung ist fehlgeschlagen.',
 	'error_only_commons' => 'Das direkte Hochladen funktioniert nur bei Wikimedia Commons.',
 	'upload_control_text' => 'Bitte die neue Beschreibung prüfen und auf „$1“ klicken, sofern alles in Ordnung ist.',
-	'error_commons_user' => 'Um den Benutzer zu identifizieren, der die Übertragung vornimmt, muss der Beschreibung dein Benutzername auf Wikimedia Commons hinzugefügt werden.',
+	'error_commons_user' => 'Um den Benutzer identifizieren zu können, der die Übertragung vornimmt, muss der Beschreibung dein Benutzername auf Wikimedia Commons hinzugefügt werden.',
 	'error_upload_users' => 'Die Funktion zum Hochladen ist während der Testphase nur für bestimmte Benutzer verfügbar.',
 	'error_upload_file' => 'Die Quelldatei kann nicht heruntergeladen werden.',
+);
+
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
+ */
+$messages['de-formal'] = array(
+	'error_commons_user' => 'Um den Benutzer identifizieren zu können, der die Übertragung vornimmt, muss der Beschreibung Ihr Benutzername auf Wikimedia Commons hinzugefügt werden.',
 );
 
 /** Spanish (Español)
@@ -1782,6 +1790,7 @@ $messages['sr-ec'] = array(
 	'do_it' => 'Уради',
 	'error_transfer_usr' => 'Нисте поставили корисничко име Викимедијине оставе',
 	'error_not_exists' => 'Изворна датотека не постоји.',
+	'error_on_commons' => 'Изворна датотека је већ на $1.',
 	'error_file_exists' => 'Датотека већ постоји на викију $3 као „$1$4$2“.',
 	'error_diff_exists' => 'Другачија одредишна датотека постоји на наведеном викију под истим именом.',
 	'error_no_meta' => 'Метаподаци нису пронађени на изворном викију. $1Додајте их или их ажурирајте за пројекат$2',
@@ -1829,6 +1838,7 @@ $messages['sr-el'] = array(
 	'do_it' => 'Uradi',
 	'error_transfer_usr' => 'Niste postavili korisničko ime Vikimedijine ostave',
 	'error_not_exists' => 'Izvorna datoteka ne postoji.',
+	'error_on_commons' => 'Izvorna datoteka je već na $1.',
 	'error_file_exists' => 'Datoteka već postoji na vikiju $3 kao „$1$4$2“.',
 	'error_diff_exists' => 'Drugačija odredišna datoteka postoji na navedenom vikiju pod istim imenom.',
 	'error_no_meta' => 'Metapodaci nisu pronađeni na izvornom vikiju. $1Dodajte ih ili ih ažurirajte za projekat$2',

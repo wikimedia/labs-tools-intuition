@@ -160,6 +160,15 @@ $messages['fa'] = array(
 	'time-label' => 'زمان طول کشیده برای اجرای دستور',
 );
 
+/** Finnish (Suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'language-label' => 'Kieli',
+	'namespace-label' => 'Nimiavaruus',
+	'pagename-label' => 'Sivun nimi (ilman nimiavaruutta)',
+);
+
 /** French (Français)
  * @author Jean-Frédéric
  */
