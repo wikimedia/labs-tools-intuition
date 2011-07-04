@@ -343,6 +343,8 @@ $messages['bg'] = array(
 	'remove_cats' => 'Премахване на съществуващите категории',
 	'tusc_user' => 'TUSC потребителско име',
 	'tusc_pass' => 'TUSC парола',
+	'error_not_exists' => 'Изходният файл не съществува!',
+	'error_file_exists' => 'Файлът вече съществува в $3 като "$1$4$2"!',
 	'standard_language' => 'bg',
 	'error_only_commons' => 'Директното качване работи само в Общомедия!',
 );
@@ -1594,6 +1596,18 @@ $messages['ps'] = array(
 	'categories' => 'وېشنيزې',
 	'do_it' => 'ترسره يې کړه',
 	'new_filename' => 'د نوې دوتنې نوم:',
+);
+
+/** Portuguese (Português)
+ * @author Analuisa
+ */
+$messages['pt'] = array(
+	'attention' => 'Atenção',
+	'language' => 'Língua',
+	'project' => 'Projecto',
+	'upload_submit' => 'Upload!',
+	'target_wiki' => 'o wiki alvo',
+	'standard_language' => 'pt',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
