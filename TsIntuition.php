@@ -82,6 +82,9 @@ class TsIntuition {
 
 	// Redirect address and status
 	private $redirectTo = null; 
+	
+	// Object of MessagesFunctions
+	private $messagesFunctions = null;
 
 	/* Init
 	 * ------------------------------------------------- */
@@ -328,6 +331,20 @@ class TsIntuition {
 		return false;
 	}
 
+	/**
+	 * Get a instance of MessagesFunctions
+	 *
+	 * @return Object of MessagesFunction
+	 */
+	private function getMessagesFunctions() {
+		if ( $this->messagesFunctions == null ) {
+			require_once( $this->localBaseDir . '/language/MessagesFunctions.php' );
+			$this->messagesFunctions = MessagesFunctions::getInstance( $this->localBaseDir, $this );
+			return $this->messagesFunctions;
+		} else {
+			return $this->messagesFunctions;
+		}
+	}	
 
 	/* Message functions
 	 * ------------------------------------------------- */
@@ -342,6 +359,7 @@ class TsIntuition {
 	 *  - lang: overrides the currently selected language
 	 *  - variables: numerical array to do variable replacements ($1> var[0], $2> var[1], etc.)
 	 *  - raw-variables: boolean to determine whether the variables should be escaped as well
+	 *  - parse: boolean to determine whether the message sould be parsed (PLURAL, etc.)
 	 *  - escape: Optionally the return can be escaped. By default this takes place after variable
 	 *            replacement. Set 'raw-variables' to true if you just want the raw message
 	 *            to be escaped and have escaped the variables already.
@@ -364,6 +382,7 @@ class TsIntuition {
 			'variables' => array(),
 			'raw-variables' => false,
 			'escape' => 'plain',
+			'parse' => false,
 		);
 
 		// If $options was a domain string, convert it now.
@@ -417,6 +436,11 @@ class TsIntuition {
 		foreach ( $options['variables'] as $i => $val ) {
 			$n = $i + 1;
 			$msg = str_replace( "\$$n", $val, $msg );
+		}
+		
+		// Some parsing work
+		if ( $options['parse'] === true ) {
+			$msg = $this->getMessagesFunctions()->parse( $msg, $lang );
 		}
 
 		// If not already escaped, do it now
@@ -816,17 +840,25 @@ class TsIntuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * @TODO:
+	 * FIXME: Implement in language/MessagesFunctions.php.
+	 * 
+	 * @todo
 	 */
 	public function gender( $male, $female, $neutral ) {
 		// Depends on getGender() which doesn't exist yet
+		throw new BadMethodCallException("Not supported yet!");
 	}
 
 	/**
-	 * @TODO:
+	 * Can be founded in language/MessagesFunctions.php.
+	 * 
+	 * @see MessagesFunctions::parse
+	 * @see MessagesFunctions::plural
+	 * @deprecated
 	 */
 	public function plural( $count, $forms ) {
-		// Todo
+		throw new BadMethodCallException(
+			"Use msg() with \"parse\" option to support PLURAL!");
 	}
 
 
@@ -1210,7 +1242,7 @@ class TsIntuition {
 	}
 
 	// Custom version of trigger_error() that can be passed a custom filename and line number
-	private function errTrigger( $msg, $context, $level = E_WARNING, $file = '', $line = '' ) {
+	public function errTrigger( $msg, $context, $level = E_WARNING, $file = '', $line = '' ) {
 		$die = false;
 		$error = false;
 		$notice = false;
