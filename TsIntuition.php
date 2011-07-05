@@ -359,7 +359,8 @@ class TsIntuition {
 	 *  - lang: overrides the currently selected language
 	 *  - variables: numerical array to do variable replacements ($1> var[0], $2> var[1], etc.)
 	 *  - raw-variables: boolean to determine whether the variables should be escaped as well
-	 *  - parse: boolean to determine whether the message sould be parsed (PLURAL, etc.)
+	 *  - parsemag: boolean to determine whether the message sould be tranformed 
+	 *              using magic phrases (PLURAL, etc.)
 	 *  - escape: Optionally the return can be escaped. By default this takes place after variable
 	 *            replacement. Set 'raw-variables' to true if you just want the raw message
 	 *            to be escaped and have escaped the variables already.
@@ -382,7 +383,7 @@ class TsIntuition {
 			'variables' => array(),
 			'raw-variables' => false,
 			'escape' => 'plain',
-			'parse' => false,
+			'parsemag' => false,
 		);
 
 		// If $options was a domain string, convert it now.
@@ -439,7 +440,7 @@ class TsIntuition {
 		}
 		
 		// Some parsing work
-		if ( $options['parse'] === true ) {
+		if ( $options['parsemag'] === true ) {
 			$msg = $this->getMessagesFunctions()->parse( $msg, $lang );
 		}
 
