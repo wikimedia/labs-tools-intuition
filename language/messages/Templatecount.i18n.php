@@ -241,6 +241,21 @@ $messages['ia'] = array(
 	'time-label' => 'Tempore prendite pro executar le commando',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'enter-details' => 'Jiv de Ennzelheite en',
+	'introduction' => 'Jiv dä Name vun ene Schablohn aan — em Momang allein uß de Wikipedias — un scheck Ding Ennjaabe af. Et weed e beßje zweschejeschpeischert, wat heh dat Projramm fengk, ävver dat kann weeder heh dat Projramm noch singe Schriever ändere.',
+	'language-label' => 'Schprooch',
+	'namespace-label' => 'Appachtemang',
+	'pagename-label' => 'Name för di Sigg, der ohne Appachtemang',
+	'transclusion-count-label' => 'De Aanzahl enjebonge Schablohne es',
+	'transclusion-count' => '$1 jefonge.',
+	'error-suggestion' => 'Velleich häß De Desch vertipp udder jät verkeht jruß udder klein jeschrevve?',
+	'time-label' => 'De Zigg, di dat Projramm jebruch hät',
+);
+
 /** Kurdish (Latin) (Kurdî (Latin))
  * @author George Animal
  */

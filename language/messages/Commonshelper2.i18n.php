@@ -1152,6 +1152,7 @@ $messages['ksh'] = array(
 	'do_it' => 'Lohß jonn!',
 	'error_transfer_usr' => 'Et es keine Metmaacher_Name för de <i lang="en">Wikimedia Commons</i> aanjejovve.',
 	'error_not_exists' => 'Esu en Ursprungs_Dattei jidd_et nit.',
+	'error_on_commons' => 'Di Quälldattei es ald op $1 ze fenge.',
 	'error_file_exists' => 'Di Dattei jidd_et ald op {{GRAMMAR:Dativ|$3}} onger däm Naame "$1$4$2"!',
 	'error_diff_exists' => 'En ongerscheidlijje Dattei mem sellve Name es ald em Wiki!',
 	'error_no_meta' => 'Kein Mettadaate övver et Wiki jefonge. $1Donn di Mettadaate aanpaße udder eets ens dobei$2.',

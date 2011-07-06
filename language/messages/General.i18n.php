@@ -665,6 +665,8 @@ $messages['ksh'] = array(
 	'weeks' => 'Woch(e)',
 	'days' => 'Daach/Dääsch',
 	'hours' => 'Shtund(e)',
+	'minutes' => 'Menutte',
+	'seconds' => 'Sekonde',
 	'last-modified-date' => 'Et läz jeändert aam $1',
 	'view-source' => 'Der Quelltäx vum Projramm',
 );
@@ -1171,6 +1173,7 @@ $messages['vi'] = array(
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  * @author Shizhao
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'hello' => '你好',
@@ -1178,7 +1181,7 @@ $messages['zh-hans'] = array(
 	'toolversionstamp' => '版本 $1 ($2)',
 	'etc' => '等。',
 	'namespace' => '名字空间',
-	'form-submit' => '转到',
+	'form-submit' => '提交',
 	'form-reset' => '重置',
 	'years' => '年',
 	'weeks' => '周',
