@@ -83,7 +83,7 @@ class TsIntuition {
 	// Redirect address and status
 	private $redirectTo = null; 
 	
-	// Object of MessagesFunctions
+	// Instance of MessagesFunctions
 	private $messagesFunctions = null;
 
 	/* Init
@@ -332,9 +332,9 @@ class TsIntuition {
 	}
 
 	/**
-	 * Get a instance of MessagesFunctions
+	 * Get an instance of MessagesFunctions
 	 *
-	 * @return Object of MessagesFunction
+	 * @return object Instance of MessagesFunction
 	 */
 	private function getMessagesFunctions() {
 		if ( $this->messagesFunctions == null ) {
@@ -938,16 +938,16 @@ class TsIntuition {
 			return false;
 		}
 
-		$path = $this->localBaseDir . '/language/Names.php';
+		$path = $this->localBaseDir . '/language/mw-classes/Names.php';
 		if ( !file_exists( $path ) ) {
 			$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
 		}
 
 		// Load it
-		$wgLanguageNames = array();
+		$coreLanguageNames = array();
 		include( $path );
-		$this->langNames = $wgLanguageNames;
+		$this->langNames = $coreLanguageNames;
 
 		return true;
 	}

@@ -772,7 +772,7 @@ class Language {
 
 		$minDiff = 0;
 		if ( $data[0] == 'System' || $tz == '' ) {
-			# Â Global offset in minutes.
+			# Global offset in minutes
 			if ( isset( $wgLocalTZoffset ) ) {
 				$minDiff = $wgLocalTZoffset;
 			}
@@ -1192,7 +1192,7 @@ class Language {
 	 * Algorithm by Roozbeh Pournader and Mohammad Toossi to convert
 	 * Gregorian dates to Iranian dates. Originally written in C, it
 	 * is released under the terms of GNU Lesser General Public
-	 * License. Conversion to PHP was performed by Niklas LaxstrÃ¶m.
+	 * License. Conversion to PHP was performed by Niklas Laxström.
 	 *
 	 * Link: http://www.farsiweb.info/jalali/jalali.c
 	 *
@@ -1505,7 +1505,7 @@ class Language {
 			# Months and days are identical
 			$gy_offset = $gy - 1911;
 		} elseif ( !strcmp( $cName, 'tenno' ) ) {
-			# NengÅ� dates up to Meiji period
+			# Nengō dates up to Meiji period
 			# Deduct years from the Gregorian calendar
 			# depending on the nengo periods
 			# Months and days are identical
@@ -1514,9 +1514,9 @@ class Language {
 				$gy_gannen = $gy - 1868 + 1;
 				$gy_offset = $gy_gannen;
 				if ( $gy_gannen == 1 ) {
-					$gy_offset = 'å…ƒ';
+					$gy_offset = '元';
 				}
-				$gy_offset = 'æ˜Žæ²»' . $gy_offset;
+				$gy_offset = '明治' . $gy_offset;
 			} elseif (
 				( ( $gy == 1912 ) && ( $gm == 7 ) && ( $gd == 31 ) ) ||
 				( ( $gy == 1912 ) && ( $gm >= 8 ) ) ||
@@ -1525,34 +1525,34 @@ class Language {
 				( ( $gy == 1926 ) && ( $gm == 12 ) && ( $gd < 26 ) )
 			)
 			{
-				# TaishÅ� period
+				# Taishō period
 				$gy_gannen = $gy - 1912 + 1;
 				$gy_offset = $gy_gannen;
 				if ( $gy_gannen == 1 ) {
-					$gy_offset = 'å…ƒ';
+					$gy_offset = '元';
 				}
-				$gy_offset = 'å¤§æ­£' . $gy_offset;
+				$gy_offset = '大正' . $gy_offset;
 			} elseif (
 				( ( $gy == 1926 ) && ( $gm == 12 ) && ( $gd >= 26 ) ) ||
 				( ( $gy > 1926 ) && ( $gy < 1989 ) ) ||
 				( ( $gy == 1989 ) && ( $gm == 1 ) && ( $gd < 8 ) )
 			)
 			{
-				# ShÅ�wa period
+				# Shōwa period
 				$gy_gannen = $gy - 1926 + 1;
 				$gy_offset = $gy_gannen;
 				if ( $gy_gannen == 1 ) {
-					$gy_offset = 'å…ƒ';
+					$gy_offset = '元';
 				}
-				$gy_offset = 'æ˜­å’Œ' . $gy_offset;
+				$gy_offset = '昭和' . $gy_offset;
 			} else {
 				# Heisei period
 				$gy_gannen = $gy - 1989 + 1;
 				$gy_offset = $gy_gannen;
 				if ( $gy_gannen == 1 ) {
-					$gy_offset = 'å…ƒ';
+					$gy_offset = '元';
 				}
-				$gy_offset = 'å¹³æˆ�' . $gy_offset;
+				$gy_offset = '平成' . $gy_offset;
 			}
 		} else {
 			$gy_offset = $gy;
@@ -1600,10 +1600,10 @@ class Language {
 	 */
 	static function hebrewNumeral( $num ) {
 		static $table = array(
-			array( '', '×�', '×‘', '×’', '×“', '×”', '×•', '×–', '×—', '×˜', '×™' ),
-			array( '', '×™', '×›', '×œ', '×ž', '× ', '×¡', '×¢', '×¤', '×¦', '×§' ),
-			array( '', '×§', '×¨', '×©', '×ª', '×ª×§', '×ª×¨', '×ª×©', '×ª×ª', '×ª×ª×§', '×ª×ª×¨' ),
-			array( '', '×�', '×‘', '×’', '×“', '×”', '×•', '×–', '×—', '×˜', '×™' )
+			array( '', 'א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י' ),
+			array( '', 'י', 'כ', 'ל', 'מ', 'נ', 'ס', 'ע', 'פ', 'צ', 'ק' ),
+			array( '', 'ק', 'ר', 'ש', 'ת', 'תק', 'תר', 'תש', 'תת', 'תתק', 'תתר' ),
+			array( '', 'א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י' )
 		);
 
 		$num = intval( $num );
@@ -1635,23 +1635,23 @@ class Language {
 		$start = substr( $str, 0, strlen( $str ) - 2 );
 		$end = substr( $str, strlen( $str ) - 2 );
 		switch( $end ) {
-			case '×›':
-				$str = $start . '×š';
-				break;
-			case '×ž':
-				$str = $start . '×�';
-				break;
-			case '× ':
-				$str = $start . '×Ÿ';
-				break;
-			case '×¤':
-				$str = $start . '×£';
-				break;
-			case '×¦':
-				$str = $start . '×¥';
-				break;
-		}
-		return $str;
+			case 'כ':
+				$str = $start . 'ך';
+ 				break;
+			case 'מ':
+				$str = $start . 'ם';
+ 				break;
+			case 'נ':
+				$str = $start . 'ן';
+ 				break;
+			case 'פ':
+				$str = $start . 'ף';
+ 				break;
+			case 'צ':
+				$str = $start . 'ץ';
+ 				break;
+ 		}
+ 		return $str;
 	}
 
 	/**
@@ -2134,7 +2134,7 @@ class Language {
 		static $half = null;
 
 		if ( $full === null ) {
-			$fullWidth = "ï¼�ï¼‘ï¼’ï¼“ï¼”ï¼•ï¼–ï¼—ï¼˜ï¼™ï¼¡ï¼¢ï¼£ï¼¤ï¼¥ï¼¦ï¼§ï¼¨ï¼©ï¼ªï¼«ï¼¬ï¼­ï¼®ï¼¯ï¼°ï¼±ï¼²ï¼³ï¼´ï¼µï¼¶ï¼·ï¼¸ï¼¹ï¼ºï½�ï½‚ï½ƒï½„ï½…ï½†ï½‡ï½ˆï½‰ï½Šï½‹ï½Œï½�ï½Žï½�ï½�ï½‘ï½’ï½“ï½”ï½•ï½–ï½—ï½˜ï½™ï½š";
+			$fullWidth = "０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ";
 			$halfWidth = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 			$full = str_split( $fullWidth, 3 );
 			$half = str_split( $halfWidth );
@@ -2374,7 +2374,7 @@ class Language {
 	 * @return string
 	 */
 	function getArrow() {
-		return $this->isRTL() ? 'â†�' : 'â†’';
+		return $this->isRTL() ? '←' : '→';
 	}
 
 	/**
@@ -2484,7 +2484,7 @@ class Language {
 	  * Normally we output all numbers in plain en_US style, that is
 	  * 293,291.235 for twohundredninetythreethousand-twohundredninetyone
 	  * point twohundredthirtyfive. However this is not sutable for all
-	  * languages, some such as Pakaran want à©¨à©¯à©©,à©¨à©¯à©«.à©¨à©©à©« and others such as
+	  * languages, some such as Pakaran want ੨੯੩,੨੯੫.੨੩੫ and others such as
 	  * Icelandic just want to use commas instead of dots, and dots instead
 	  * of commas like "293.291,235".
 	  *

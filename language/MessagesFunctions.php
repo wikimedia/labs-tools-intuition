@@ -50,7 +50,7 @@ class MessagesFunctions {
 		$this->baseDir = $baseDir;
 		$this->I18N = $I18N;
 		
-		require_once( $this->baseDir."/language/classes/Language.php" );
+		require_once( $this->baseDir."/language/mw-classes/Language.php" );
 	}
 	
 	/**
@@ -68,8 +68,8 @@ class MessagesFunctions {
 		
 		$className = "Language".$language;
 		
-		if ( file_exists( $this->baseDir."/language/classes/".$className.".php" ) ) {
-			include_once( $this->baseDir."/language/classes/".$className.".php" );
+		if ( file_exists( $this->baseDir."/language/mw-classes/".$className.".php" ) ) {
+			include_once( $this->baseDir."/language/mw-classes/".$className.".php" );
 		}	
 		
 		$this->langIsLoaded[] = $language;

@@ -1,4 +1,5 @@
-This directory is a copy of the languages/classes directory of MediaWiki. The files are under the "GNU GENERAL PUBLIC LICENSE Version 2" (see below).
+This directory is a copy of the languages/classes directory of MediaWiki.
+The files are under the "GNU GENERAL PUBLIC LICENSE Version 2" (see below).
 
 
 == GNU GENERAL PUBLIC LICENSE ==
