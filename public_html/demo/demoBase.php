@@ -13,7 +13,7 @@ $demoRegistry = array(
 	'demo5' => 'Dashboard backlink and footer line',
 	'demo6' => 'Utility examples',
 	'demo7' => 'Language names',
-	'demo8' => 'Plural examples',
+	'demo8' => 'Rendering examples',
 );
 
 $thisFile = basename( $_SERVER['SCRIPT_NAME'], '.php' );
