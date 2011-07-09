@@ -882,6 +882,8 @@ $messages['pl'] = array(
 	'weeks' => 'tygodni',
 	'days' => 'dni',
 	'hours' => 'godzin',
+	'minutes' => 'minut',
+	'seconds' => 'sekund',
 	'last-modified-date' => 'Data ostatniej modyfikacji: $1',
 	'view-source' => 'Tekst źródłowy',
 );

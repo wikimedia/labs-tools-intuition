@@ -357,6 +357,20 @@ $messages['os'] = array(
 	'language-label' => 'Æвзаг',
 );
 
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'enter-details' => 'Podaj szczegóły',
+	'language-label' => 'Język',
+	'namespace-label' => 'Przestrzeń nazw',
+	'pagename-label' => 'Nazwa strony (bez przestrzeni nazw)',
+	'transclusion-count-label' => 'Liczba transclusion (zaciągnięć treści innej strony)',
+	'transclusion-count' => 'odnaleziono $1 zaciągnięć treści innej strony',
+	'error-suggestion' => 'Możliwe, że zrobiłeś literówkę w nazwie strony (sprawdź wielkość liter).',
+	'time-label' => 'Czas wykonywania polecenia',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */

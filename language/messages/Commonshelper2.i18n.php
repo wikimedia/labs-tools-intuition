@@ -636,6 +636,7 @@ $messages['fa'] = array(
 	'do_it' => 'انجامش بده',
 	'error_transfer_usr' => 'شما نام کاربری ویکی‌انبار را تنظیم نکرده‌اید',
 	'error_not_exists' => 'پرونده منبع وجود ندارد!',
+	'error_on_commons' => 'پرونده منبع در حال حاضر در $1!',
 	'error_file_exists' => 'پرونده در حال حاضر در $3 به عنوان «$1$4$2» وجود دارد!',
 	'error_diff_exists' => 'یک پروندهٔ مقصد متفاوت در ویکی مقصد تحت نام مشابه موجود است!',
 	'error_no_meta' => 'هیچ فراداده‌ای دربارهٔ ویکی منبع یافت نشده! $1لطفاً فراداده برای پروژه اضافه/به‌روزکنید$2',
@@ -1029,6 +1030,14 @@ $messages['id'] = array(
 	'error_commons_user' => 'Untuk mengidentifikasi pengguna yang mentransfer, nama pengguna Wikimedia Commons Anda harus ada dalam deskripsi!',
 	'error_upload_users' => 'Fungsi pengunggahan ini hanya tersedia bagi beberapa pengguna ketika periode pengujian!',
 	'error_upload_file' => 'Berkas asli tidak dapat diunduh.',
+);
+
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'attention' => 'Anyá gị!',
+	'language' => 'Asụsụ',
 );
 
 /** Ingush (ГІалгІай Ğalğaj)
@@ -1584,6 +1593,20 @@ $messages['pdc'] = array(
 	'categories' => 'Abdeelinge',
 	'upload_submit' => 'Ufflaade!',
 	'standard_language' => 'pdc',
+);
+
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'attention' => 'Uwaga',
+	'description' => 'Narzędzie do przesyłania plików z projektów Wikimedia do Wikimedia Commons',
+	'change_meta' => 'Zmiana $1kategorii i ustawień szablonu$2 dla $3',
+	'jira_link' => 'Zgłoś błąd lub zaproponuj nową funkcję',
+	'language' => 'Język',
+	'project' => 'Projekt',
+	'source_file' => 'Plik źródłowy',
+	'target_file' => 'Plik docelowy',
 );
 
 /** Pashto (پښتو)
