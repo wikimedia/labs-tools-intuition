@@ -87,7 +87,9 @@ $messages['br'] = array(
  */
 $messages['da'] = array(
 	'moretools' => 'flere værktøjer fra samme forfatter',
+	'bugs' => 'fejlrapporter og anmodninger om ny funktionalitet',
 	'comments' => 'kommentarer og spørgsmål',
+	'error-form-empty' => 'Et eller flere obligatoriske felter er efterladt tomt. Du bør udfylde dem, før du fortsætter.',
 );
 
 /** German (Deutsch)

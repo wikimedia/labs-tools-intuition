@@ -114,6 +114,7 @@ $messages['ca'] = array(
  */
 $messages['da'] = array(
 	'search-table-th-field' => 'Felt',
+	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Søg',
 );
 

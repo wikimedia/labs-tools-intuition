@@ -279,7 +279,9 @@ $messages['lb'] = array(
 	'namespace-label' => 'Nummraum',
 	'pagename-label' => 'Numm vun der Säit (ouni Nummraum)',
 	'transclusion-count-label' => 'Zuel vun den agebonnene Schablounen',
+	'transclusion-count' => '$1 agebonne Schabloune goufe fonnt',
 	'error-suggestion' => 'Vläicht hutt Dir den Numm vun der Säit falsch geschriwwen (oder just grouss a kleng Buschtawe verwiesselt).',
+	'time-label' => "Zäit déi gebraucht gouf fir d'Aufgab ze maachen",
 );
 
 /** Macedonian (Македонски)
