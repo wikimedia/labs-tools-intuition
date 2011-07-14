@@ -171,8 +171,10 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Jean-Frédéric
+ * @author Od1n
  */
 $messages['fr'] = array(
+	'enter-details' => 'Entrez les détails',
 	'introduction' => 'Entrez le nom d’un modèle (Wikipédias seulement pour l’instant, désolé), et appuyez sur go. C’est aussi simple que cela. Il y a quelques mise en cache (mémorisation de résultats), mais c’est malheureusement hors du contrôle de cet outil et de son propriétaire.',
 	'language-label' => 'Langue',
 	'namespace-label' => 'Espace de noms',

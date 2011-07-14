@@ -421,6 +421,7 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Crochet.david
  * @author Jean-Frédéric
+ * @author Od1n
  */
 $messages['fr'] = array(
 	'title' => 'OrphanTalk2',
@@ -434,7 +435,7 @@ $messages['fr'] = array(
 	'update' => 'Mettre à jour',
 	'tools-delete' => 'supprimer',
 	'tools-links' => 'liens',
-	'tools-subject' => 'Sujet',
+	'tools-subject' => 'sujet',
 	'tools-hist' => 'hist',
 	'tools-curr' => 'actu',
 	'tools-globalusage' => 'globalusage',

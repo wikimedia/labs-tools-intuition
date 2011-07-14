@@ -730,6 +730,7 @@ $messages['fr'] = array(
 	'do_it' => 'Le faire',
 	'error_transfer_usr' => "Vous n'avez pas défini un nom d'utilisateur Wikimedia Commons",
 	'error_not_exists' => "Le fichier source n'existe pas !",
+	'error_on_commons' => 'Fichier source déjà sur $1 !',
 	'error_file_exists' => 'Le fichier existe déjà sur $3 en tant que « $1$4$2 » !',
 	'error_diff_exists' => 'Un fichier cible différent existe sur le wiki cible avec le même nom !',
 	'error_no_meta' => "Aucune métadonnée trouvée pour le wiki d'origine ! $1Prière d'ajouter/mettre à jour la métadonnée pour le projet$2",
