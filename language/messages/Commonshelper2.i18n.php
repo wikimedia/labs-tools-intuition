@@ -1281,6 +1281,13 @@ $messages['lv'] = array(
 	'categories' => 'Kategorijas',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Rahmatdenas
+ */
+$messages['min'] = array(
+	'attention' => 'Pangumuaman',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
