@@ -172,6 +172,7 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Jean-Frédéric
  * @author Od1n
+ * @author Seb35
  */
 $messages['fr'] = array(
 	'enter-details' => 'Entrez les détails',
@@ -181,6 +182,8 @@ $messages['fr'] = array(
 	'pagename-label' => 'Nom de la page (sans l’espace de noms)',
 	'transclusion-count-label' => 'Nombre de tranclusions',
 	'transclusion-count' => '$1 transclusion(s) trouvées.',
+	'error-suggestion' => 'Peut-être avez-vous mal épelé (ou mal capitalisé) le nom de la page ?',
+	'time-label' => 'Temps pris pour exécuter la commande',
 );
 
 /** Galician (Galego)
