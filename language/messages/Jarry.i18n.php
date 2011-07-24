@@ -218,6 +218,7 @@ Donn se enfölle, ih dat de wigger määß.',
  */
 $messages['lb'] = array(
 	'moretools' => 'méi Toole vum selwechten Auteur',
+	'bugs' => 'Feelermeldungen an Ufroe fir Fonctiounen',
 	'comments' => 'Bemierkungen an Ufroen',
 	'error-form-empty' => 'Eent oder méi obligatoresch Felder goufen eidel gelooss. Dir musst déi ausfëllen ier Dir virufuere kënnt.',
 );
