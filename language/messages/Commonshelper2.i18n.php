@@ -136,6 +136,8 @@ $messages['af'] = array(
 	'original_wikitext' => 'Oorspronklike wikiteks',
 	'new_wikitext' => 'Nuwe wikiteks',
 	'new_filename' => 'Nuwe lêernaam:',
+	'upload_submit' => 'Laai op!',
+	'standard_language' => 'af',
 );
 
 /** Arabic (العربية)
