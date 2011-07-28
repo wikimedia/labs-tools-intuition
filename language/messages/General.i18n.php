@@ -32,6 +32,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Beta16
  * @author EugeneZelenko
  * @author Krinkle
  */
@@ -47,10 +48,10 @@ $messages['qqq'] = array(
 {{Identical|Go}}',
 	'form-reset' => 'A general label for a form reset button. Not per se a search form!
 {{Identical|Reset}}',
-	'years' => 'Notation of time duration for multiple years (eg. "Duration: x years" ). No support for advanced plural yet.',
-	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ). No support for advanced plural yet.',
-	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ). No support for advanced plural yet.',
-	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ). No support for advenced plural yet.',
+	'years' => 'Notation of time duration for multiple years (eg. "Duration: x years" ).',
+	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ).',
+	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ).',
+	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ).',
 	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advenced plural yet.',
 	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
@@ -453,6 +454,7 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Crochet.david
  * @author Jean-Frédéric
+ * @author Od1n
  */
 $messages['fr'] = array(
 	'hello' => 'Bonjour',
@@ -462,12 +464,12 @@ $messages['fr'] = array(
 	'namespace' => 'Espace de noms',
 	'form-submit' => 'Valider',
 	'form-reset' => 'Réinitialiser',
-	'years' => 'années',
-	'weeks' => 'semaines',
-	'days' => 'jours',
-	'hours' => 'heures',
-	'minutes' => 'minutes',
-	'seconds' => 'secondes',
+	'years' => '{{PLURAL: $1|année|années}}',
+	'weeks' => '{{PLURAL: $1|semaine|semaines}}',
+	'days' => '{{PLURAL: $1|jour|jours}}',
+	'hours' => '{{PLURAL: $1|heure|heures}}',
+	'minutes' => '{{PLURAL: $1|minute|minutes}}',
+	'seconds' => '{{PLURAL: $1|seconde|secondes}}',
 	'last-modified-date' => 'Dernière modification : $1',
 	'view-source' => 'Voir la source',
 );
@@ -621,10 +623,10 @@ $messages['it'] = array(
 	'namespace' => 'Namespace',
 	'form-submit' => 'Vai',
 	'form-reset' => 'Reimposta',
-	'years' => 'anni',
-	'weeks' => 'settimane',
-	'days' => 'giorni',
-	'hours' => 'ore',
+	'years' => '{{PLURAL: $1|anno|anni}}',
+	'weeks' => '{{PLURAL: $1|settimana|settimane}}',
+	'days' => '{{PLURAL: $1|giorno|giorni}}',
+	'hours' => '{{PLURAL: $1|ora|ore}}',
 	'last-modified-date' => 'Ultima modifica: $1',
 	'view-source' => 'Visualizza sorgente',
 );
@@ -793,12 +795,12 @@ $messages['ms'] = array(
 	'namespace' => 'Ruang nama',
 	'form-submit' => 'Pergi',
 	'form-reset' => 'Set semula',
-	'years' => 'tahun',
-	'weeks' => 'minggu',
-	'days' => 'hari',
-	'hours' => 'jam',
-	'minutes' => 'minit',
-	'seconds' => 'saat',
+	'years' => '{{PLURAL: $1|tahun|tahun}}',
+	'weeks' => '{{PLURAL: $1|minggu|minggu}}',
+	'days' => '{{PLURAL: $1|hari|hari}}',
+	'hours' => '{{PLURAL: $1|jam|jam}}',
+	'minutes' => '{{PLURAL: $1|minit|minit}}',
+	'seconds' => '{{PLURAL: $1|saat|saat}}',
 	'last-modified-date' => 'Kali terakhir diubah: $1',
 	'view-source' => 'Lihat sumber',
 );
@@ -829,12 +831,12 @@ $messages['nl'] = array(
 	'namespace' => 'Naamruimte',
 	'form-submit' => 'OK',
 	'form-reset' => 'Opnieuw instellen',
-	'years' => 'jaar',
-	'weeks' => 'weken',
-	'days' => 'dagen',
-	'hours' => 'uur',
-	'minutes' => 'minuten',
-	'seconds' => 'seconden',
+	'years' => '{{PLURAL: $1|jaar|jaren}}',
+	'weeks' => '{{PLURAL: $1|week|weken}}',
+	'days' => '{{PLURAL: $1|dag|dagen}}',
+	'hours' => '{{PLURAL: $1|uur|uur}}',
+	'minutes' => '{{PLURAL: $1|minuut|minuten}}',
+	'seconds' => '{{PLURAL: $1|seconde|seconden}}',
 	'last-modified-date' => 'Laatste wijziging op: $1',
 	'view-source' => 'Brontekst bekijken',
 );
@@ -945,12 +947,12 @@ $messages['ro'] = array(
 	'namespace' => 'Spațiu de nume',
 	'form-submit' => 'Du-te',
 	'form-reset' => 'Resetează',
-	'years' => 'ani',
-	'weeks' => 'săptămâni',
-	'days' => 'zile',
-	'hours' => 'ore',
-	'minutes' => 'minute',
-	'seconds' => 'secunde',
+	'years' => '{{PLURAL: $1|an|ani}}',
+	'weeks' => '{{PLURAL: $1|săptămână|săptămâni}}',
+	'days' => '{{PLURAL: $1|zi|zile}}',
+	'hours' => '{{PLURAL: $1|oră|ore}}',
+	'minutes' => '{{PLURAL: $1|minut|minute}}',
+	'seconds' => '{{PLURAL: $1|secundă|secunde}}',
 	'last-modified-date' => 'Ultima modificare: $1',
 	'view-source' => 'Sursă pagină',
 );
