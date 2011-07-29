@@ -1242,6 +1242,7 @@ $messages['lb'] = array(
 	'error_bot_blocked' => 'De bot fir erofzelueden ass op Wikimedia Commons gespaart.',
 	'error_only_commons' => 'Direkt Eropluede fonctionnéiert nëmme bäi Wikimedia Commons',
 	'upload_control_text' => 'Kuckt w.e.g. den neie Wiki-Text no a klickt "$1" wann alles an der Rei ass!',
+	'error_commons_user' => "Fir de Benotzer z'identifizéieren deen den Transfert mécht, muss de Benotzernumm vu Wikimedia Commons an der Beschreiwung dra sinn!",
 	'error_upload_users' => "D'Fonctioun vum Eroplueden ass während der Testphas nëmme fir e puer Benotzer disponibel!",
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
 );
