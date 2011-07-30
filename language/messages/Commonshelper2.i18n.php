@@ -141,11 +141,13 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Abanima
  * @author Meno25
  * @author OsamaK
  */
 $messages['ar'] = array(
 	'attention' => 'انتباه',
+	'description' => 'أداة لنقل الملفات من مشاريع ويكيميديا إلى ويكيميديا كومونز',
 	'jira_link' => 'بلغ عن علة أو اقترح خاصية',
 	'language' => 'اللغة',
 	'project' => 'المشروع',
@@ -161,6 +163,8 @@ $messages['ar'] = array(
 	'do_it' => 'افعلها',
 	'error_transfer_usr' => 'أنت لم تضبط اسم مستخدم ويكيميديا كومنز',
 	'error_not_exists' => 'الملف المصدر غير موجود!',
+	'error_file_exists' => 'الملف موجود حالياً في $3 باسم "$1$4$2"!',
+	'error_diff_exists' => 'يوجد ملف مستهدف مختلف على ويكي الهدف تحت نفس الاسم!',
 	'original_wikitext' => 'نص الويكي الأصلي',
 	'new_wikitext' => 'نص الويكي الجديد',
 	'new_filename' => 'اسم الملف الجديد:',
@@ -1235,6 +1239,7 @@ $messages['lb'] = array(
 	'original_wikitext' => 'Originale Wiki-Text',
 	'new_wikitext' => 'Neie Wiki-Text',
 	'new_filename' => 'Neien Numm vum Fichier:',
+	'output_information' => 'Fir manuell Eropzelueden, den Text uewendriwwer änneren (wann néideg), späichert $1de Fichier$2 op Ärem Computer, deen Dir dann $3eroplued$4.',
 	'upload_submit' => 'Eroplueden!',
 	'target_wiki' => "d'Zilwiki",
 	'standard_language' => 'lb',
@@ -1750,11 +1755,14 @@ $messages['roa-tara'] = array(
 	'target_file' => 'File de destinazione',
 	'commons_username' => "Nome de l'utende de Uicchimedia Commons",
 	'categories' => 'Categorije',
+	'tusc_user' => 'Nome utende TUSC',
+	'tusc_pass' => 'Passuord TUSC',
 	'do_it' => 'Falle',
 	'original_wikitext' => 'Teste de Uicchi origgenale',
 	'new_wikitext' => 'Teste de Uicchi nuève',
 	'new_filename' => "Nome d'u file nuève:",
 	'upload_submit' => 'Careche!',
+	'standard_language' => 'en',
 );
 
 /** Sinhala (සිංහල)

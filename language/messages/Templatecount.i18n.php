@@ -402,6 +402,13 @@ $messages['ro'] = array(
 	'time-label' => 'Timpul necesar executării comenzii',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'language-label' => 'Lènghe',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

@@ -222,6 +222,13 @@ $messages['ro'] = array(
 	'title' => 'Recent anonymous activity',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'title' => 'Attività anonime recende',
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */

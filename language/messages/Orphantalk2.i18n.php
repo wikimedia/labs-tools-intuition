@@ -943,9 +943,12 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'hidesubpages' => 'Scunne sottopàggene',
 	'limit' => 'Limite',
 	'page' => 'Pàgene',
+	'update' => 'Aggiorne',
 	'tools-delete' => 'scangelle',
+	'tools-links' => 'colleghe',
 	'tools-subject' => 'suggette',
 );
 

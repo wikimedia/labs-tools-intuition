@@ -1525,6 +1525,7 @@ $messages['roa-tara'] = array(
 	'th-username' => 'Nome utende',
 	'th-password' => 'Passuord',
 	'th-method' => 'Metode',
+	'option-tusc' => 'TUSC (carecamende automateche)',
 	'preview' => 'Andeprime',
 	'translate' => 'Traduce',
 	'svginput-label' => 'File SVG',

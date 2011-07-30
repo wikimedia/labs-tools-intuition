@@ -410,6 +410,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'alws-label' => 'Uicchi',
+	'alws-group-allaz' => 'Tutte le uicchi alfabbetecamende',
 	'form-legend-settings' => "'Mbostaziune",
 );
 
