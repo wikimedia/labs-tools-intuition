@@ -15,13 +15,13 @@ $messages = array();
 $messages['en'] = array(
 	'title' => 'Template transclusion count', // Optional
 	'enter-details' => 'Enter details',
-	'introduction' => "Type in the name of a template (Wikipedias only at the moment, sorry) and press go. It's as simple as that. There is some caching (remembering of results), but that is unfortunately outside of the control of this tool and its owner.",
+	'introduction' => "Type in the name of a template (Wikipedias only at the moment) and press go. It's as simple as that. There is some caching (remembering of results), but that is unfortunately outside of the control of this tool and its owner.",
 	'language-label' => 'Language',
 	'namespace-label' => 'Namespace',
 	'pagename-label' => 'Page name (excluding namespace)',
-	'transclusion-count-label' => 'Number of tranclusions',
+	'transclusion-count-label' => 'Number of transclusions',
 	'transclusion-count' => '$1 transclusion(s) found.',
-	'error-suggestion' => 'Perhaps you misspelt (or mis-capitalised) the name of the page?',
+	'error-suggestion' => 'Perhaps you misspelt (or incorrectly capitalised) the name of the page?',
 	'time-label' => 'Time taken to execute command',
 );
 
