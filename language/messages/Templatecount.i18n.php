@@ -406,7 +406,12 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'enter-details' => 'Mitte le dettaglie',
 	'language-label' => 'Lènghe',
+	'pagename-label' => "Nome d'a pàgene (escluse 'u namespace)",
+	'transclusion-count-label' => "Numere de 'nglusiune",
+	'transclusion-count' => "$1 'nglusiune acchiate.",
+	'time-label' => "Tiembe pigghiate pe eseguì 'u comande",
 );
 
 /** Slovenian (Slovenščina)

@@ -1237,14 +1237,23 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'current-settings' => "'Mbostaziune corrende",
+	'current-language' => 'Lènga scacchiate de mò',
 	'settings-legend' => "'Mbostaziune",
+	'choose-language' => "Scacchie 'na lènghe",
 	'clear-cookies' => 'pulizze le cookie',
+	'renew-cookies' => 'rennove le cookie',
 	'cookie-expiration' => 'Scadenze de le cookie',
+	'clearcookies-success' => "E' pulezzate tutte le cookie cu successe.",
 	'tab-overview' => 'Panorameche',
 	'tab-settings' => "'Mbostaziune",
 	'tab-about' => 'Sus a',
 	'tab-demo' => 'Demo',
+	'bl-mysettings' => "'Mbostaziune d'a lènga meje",
 	'bl-mysettings-new' => "Cange 'a lènghe!",
+	'bl-promo' => 'Le traduziune sonde sostenute da $1 e $2.',
+	'bl-changelanguage' => "Cazze aqquà pe cangià l'inderfacce d'a lènghe de stu strumende.",
+	'help-translate-tool' => "Danne 'na màne a traducere stu strumende!",
+	'help-translate-all' => "Danne 'na màne a traducere Toolserver!",
 );
 
 /** Slovenian (Slovenščina)

@@ -397,6 +397,10 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'formats-heading' => 'Formate de le resultate',
+	'input' => 'Ingresse',
+	'label-wikiids' => 'Idendificature de Uicchi',
+	'no-matches' => 'Nisciune soddisfe "$1"',
 	'output' => 'Resultate pe "$1"',
 );
 

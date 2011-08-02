@@ -410,6 +410,8 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'alws-label' => 'Uicchi',
+	'alws-selectwiki' => "(scacchie 'a uicchi)",
+	'alws-group-mustused' => 'Le uicchi cchiù ausate',
 	'alws-group-allaz' => 'Tutte le uicchi alfabbetecamende',
 	'form-legend-settings' => "'Mbostaziune",
 );

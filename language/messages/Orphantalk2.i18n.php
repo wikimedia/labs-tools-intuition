@@ -943,13 +943,22 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => "(scacchie 'na uicchi apprime)",
+	'hideredirects' => 'Scunne le redirezionaminde',
 	'hidesubpages' => 'Scunne sottopàggene',
 	'limit' => 'Limite',
 	'page' => 'Pàgene',
+	'redirect' => "Jè 'nu redirezionamende?",
+	'output' => 'Resultate',
 	'update' => 'Aggiorne',
 	'tools-delete' => 'scangelle',
 	'tools-links' => 'colleghe',
 	'tools-subject' => 'suggette',
+	'tools-hist' => 'cunde',
+	'tools-curr' => 'corr',
+	'tools-globalusage' => 'globalusage',
+	'resultslimited' => 'Resultate limitate a $1 pàggene.',
 );
 
 /** Sinhala (සිංහල)

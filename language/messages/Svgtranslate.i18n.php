@@ -1519,6 +1519,9 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'title' => "Traduzione de l'SVG",
+	'error-nothing' => 'Ninde da traducere.',
+	'error-notsvg' => "Non g'è 'nu file SVG.",
+	'begin-translation' => "Accuminze 'a traduzione",
 	'th-original' => 'Origgenale',
 	'th-translation' => 'Traduzione',
 	'th-language' => 'Lènghe',
@@ -1526,10 +1529,16 @@ $messages['roa-tara'] = array(
 	'th-password' => 'Passuord',
 	'th-method' => 'Metode',
 	'option-tusc' => 'TUSC (carecamende automateche)',
+	'option-manual' => 'Carecamende a màne',
 	'preview' => 'Andeprime',
 	'translate' => 'Traduce',
 	'svginput-label' => 'File SVG',
+	'uploading' => 'Stoche a careche',
+	'editdescriptionpage' => "Cange 'a pàgena nove d'a descrizione",
 	'preview-hide' => "Scunne l'andeprime",
+	'preview-refresh' => "Aggiorne l'andeprime",
+	'description-license' => 'Scacchie descrizione e licenze',
+	'finalise' => 'Finalizze le dettaglie',
 );
 
 /** Russian (Русский)

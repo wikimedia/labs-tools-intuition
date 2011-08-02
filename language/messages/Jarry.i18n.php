@@ -287,7 +287,10 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'moretools' => "cchiù struminde da 'u stesse autore",
+	'bugs' => 'comunicaziune de bug e richieste de funzionalità',
 	'comments' => 'commende e inderrogaziune',
+	'error-form-empty' => "Une o cchiù cambe obbligatorie onne state lassate vianghe. Tu l'avissa combletà apprime de condinuà.",
 );
 
 /** Russian (Русский)
