@@ -1236,6 +1236,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'fullname' => "'Ndernazzionalizzazzione de l'Interfacce Utende de Toolserver",
 	'current-settings' => "'Mbostaziune corrende",
 	'current-language' => 'Lènga scacchiate de mò',
 	'settings-legend' => "'Mbostaziune",
@@ -1244,6 +1245,7 @@ $messages['roa-tara'] = array(
 	'renew-cookies' => 'rennove le cookie',
 	'cookie-expiration' => 'Scadenze de le cookie',
 	'clearcookies-success' => "E' pulezzate tutte le cookie cu successe.",
+	'renewcookies-success' => "Cookie rennovate! Tu ste tutte 'mbostate pa prossime $1.",
 	'tab-overview' => 'Panorameche',
 	'tab-settings' => "'Mbostaziune",
 	'tab-about' => 'Sus a',
@@ -1252,8 +1254,10 @@ $messages['roa-tara'] = array(
 	'bl-mysettings-new' => "Cange 'a lènghe!",
 	'bl-promo' => 'Le traduziune sonde sostenute da $1 e $2.',
 	'bl-changelanguage' => "Cazze aqquà pe cangià l'inderfacce d'a lènghe de stu strumende.",
+	'usage' => 'Struminde tradotte da Toolserver Intuition.',
 	'help-translate-tool' => "Danne 'na màne a traducere stu strumende!",
 	'help-translate-all' => "Danne 'na màne a traducere Toolserver!",
+	'help-translate-tooltip' => "Dà 'na màne a l'otre pe traducere le messagge de interfacce jndr'à lènga toje.",
 );
 
 /** Slovenian (Slovenščina)

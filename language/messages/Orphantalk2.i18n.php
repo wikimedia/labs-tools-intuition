@@ -958,6 +958,8 @@ $messages['roa-tara'] = array(
 	'tools-hist' => 'cunde',
 	'tools-curr' => 'corr',
 	'tools-globalusage' => 'globalusage',
+	'deletesummary' => "Pulizze le pàggene de le 'ngazzaminde senze attane cu $1",
+	'noresults' => "Nisciuna pàgene de le 'ngazzaminde orfane sus a sta uicchi jndr'à stu namespace soddisfe le 'mbostaziune tune.",
 	'resultslimited' => 'Resultate limitate a $1 pàggene.',
 );
 

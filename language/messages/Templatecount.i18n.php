@@ -408,6 +408,7 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'enter-details' => 'Mitte le dettaglie',
 	'language-label' => 'Lènghe',
+	'namespace-label' => 'Namespace',
 	'pagename-label' => "Nome d'a pàgene (escluse 'u namespace)",
 	'transclusion-count-label' => "Numere de 'nglusiune",
 	'transclusion-count' => "$1 'nglusiune acchiate.",
@@ -515,12 +516,13 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Shizhao
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'enter-details' => '输入详细信息',
 	'language-label' => '语言',
-	'namespace-label' => '名称空间',
+	'namespace-label' => '名字空间',
 	'pagename-label' => '页面名称（不包括命名空间）',
 	'time-label' => '执行命令所需的时间',
 );

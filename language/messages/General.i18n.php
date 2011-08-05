@@ -354,6 +354,7 @@ $messages['el'] = array(
 );
 
 /** Spanish (Español)
+ * @author Crazymadlover
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -365,10 +366,10 @@ $messages['es'] = array(
 	'namespace' => 'Espacio de nombres',
 	'form-submit' => 'Ir',
 	'form-reset' => 'Restablecer',
-	'years' => 'años',
-	'weeks' => 'semanas',
-	'days' => 'días',
-	'hours' => 'horas',
+	'years' => '{{PLURAL: $1|año|años}}',
+	'weeks' => '{{PLURAL: $1|semana|semanas}}',
+	'days' => '{{PLURAL: $1|día|días}}',
+	'hours' => '{{PLURAL: $1|hora|horas}}',
 	'last-modified-date' => 'Última modificación: $1',
 	'view-source' => 'Ver fuente',
 );
@@ -853,12 +854,12 @@ $messages['no'] = array(
 	'namespace' => 'Navnerom',
 	'form-submit' => 'Gå',
 	'form-reset' => 'Nullstill',
-	'years' => 'år',
-	'weeks' => 'uker',
-	'days' => 'dager',
-	'hours' => 'timer',
-	'minutes' => 'minutter',
-	'seconds' => 'sekunder',
+	'years' => '{{PLURAL: $1|år|år}}',
+	'weeks' => '{{PLURAL: $1|uke|uker}}',
+	'days' => '{{PLURAL: $1|dag|dager}}',
+	'hours' => '{{PLURAL: $1|time|timer}}',
+	'minutes' => '{{PLURAL: $1|minutt|minutter}}',
+	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
 	'last-modified-date' => 'Sist endret: $1',
 	'view-source' => 'Vis kilde',
 );
@@ -1194,7 +1195,7 @@ $messages['zh-hans'] = array(
 	'welcome' => '欢迎',
 	'toolversionstamp' => '版本 $1 ($2)',
 	'etc' => '等。',
-	'namespace' => '名称空间',
+	'namespace' => '名字空间',
 	'form-submit' => '提交',
 	'form-reset' => '重置',
 	'years' => '年',
