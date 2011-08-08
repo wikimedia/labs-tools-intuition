@@ -212,6 +212,7 @@ $messages['bn'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'hello' => 'Demat',
@@ -221,12 +222,12 @@ $messages['br'] = array(
 	'namespace' => 'Esaouenn anv',
 	'form-submit' => 'Mont',
 	'form-reset' => 'Adderaouekaat',
-	'years' => 'bloavezh',
-	'weeks' => 'sizhunvezh',
-	'days' => 'devezh',
-	'hours' => 'eurvezh',
-	'minutes' => 'munutenn',
-	'seconds' => 'eilenn',
+	'years' => '{{PLURAL: $1|bloavezh|bloavezh}}',
+	'weeks' => '{{PLURAL: $1|sizhunvezh|sizhunvezh}}',
+	'days' => '{{PLURAL: $1|devezh|devezh}}',
+	'hours' => '{{PLURAL: $1|eurvezh|eurvezh}}',
+	'minutes' => '{{PLURAL: $1|munutenn|munutenn}}',
+	'seconds' => '{{PLURAL: $1|eilenn|eilenn}}',
 	'last-modified-date' => 'Kemmet da ziwezhañ : $1',
 	'view-source' => 'Sellet ouzh tarzh an destenn',
 );

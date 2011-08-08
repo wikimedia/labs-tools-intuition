@@ -2061,6 +2061,7 @@ $messages['tl'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author Dim Grits
  * @author Тест
  */
 $messages['uk'] = array(
@@ -2068,6 +2069,7 @@ $messages['uk'] = array(
 	'language' => 'Мова',
 	'project' => 'Проект',
 	'categories' => 'Категорії',
+	'new_filename' => 'Нова назва файлу:',
 );
 
 /** Vietnamese (Tiếng Việt)
