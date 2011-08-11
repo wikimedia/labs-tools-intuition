@@ -33,7 +33,7 @@ $opts = array(
 
 $I18N = new TsIntuition( $opts );
 
-// Load all domains so can get some statistics later on and
+// Load all domains so we can get some statistics later on and
 // make sure "getAvailableLangs" is compelte
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 	$I18N->loadTextdomain( $domainKey );
@@ -213,7 +213,7 @@ if ( $I18N->hasCookies() ) {
 // XXX: Quick way to build the form
 $dropdown = '<select name="fpLang">';
 $selected = ' selected="selected"';
-foreach ( $I18N->getAvailableLangs() as $langCode => $langName ) {
+foreach ( $I18N->getAvailableLangs( 'any' ) as $langCode => $langName ) {
 	$attr = $langCode == $I18N->getLang() ? $selected : '';
 	$dropdown .= '<option value="' . $langCode . '"' . $attr . '>' . "$langCode - $langName" . '</option>';
 }

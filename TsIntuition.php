@@ -612,9 +612,25 @@ class TsIntuition {
 		return is_array( $this->langNames ) ? $this->langNames : array();
 	}
 
-	public function getAvailableLangs() {
+	/**
+	 * Return all languages loaded in at least one domain
+	 * @param $domain 
+	 *  false - Show languages for which there is a translation in the current domain
+	 *  'any' - Show languages for which there is a translation in at least one domain
+	 *  domain name - Show languages for which there is a translation in the given domain
+	 */
+	public function getAvailableLangs($domain = 'any') {
+		if ( $domain == 'any' ) {
+			$from = $this->availableLanguages;
+		} else {
+			if ( $domain === false )
+				$domain = $this->getDomain();
+			
+			$from = $messageBlob[$domain];
+		}
+		
 		$return = array();
-		foreach( array_keys( $this->availableLanguages ) as $lang ) {
+		foreach( array_keys( $from ) as $lang ) {
 			$return[$lang] = $this->getLangName( $lang );
 		}
 		ksort( $return );
