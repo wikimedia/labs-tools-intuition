@@ -369,6 +369,7 @@ class TsIntuition {
 	 *  - * 'htmlspecialchars' (alias of 'html')
 	 *  - * 'htmlentities' (foreign/UTF-8 chars converted as well)
 	 *
+	 * @param $fail string Alternate value to return in case the message doesn't exist
 	 */
 	public function msg( $key = 0, $options = array(), $fail = null ) {
 
@@ -637,7 +638,7 @@ class TsIntuition {
 			$this->errTrigger( "Invalid textdomain \"$domain\"", __METHOD__, E_NOTICE );
 			return false;
 		}
-		// Sanatize domainnames (case-insensitive)
+		// Sanitize domainnames (case-insensitive)
 		$domain = ucfirst( strtolower( $domain ) );
 
 		// Don't load if already loaded
