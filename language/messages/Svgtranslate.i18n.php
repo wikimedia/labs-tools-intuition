@@ -1080,9 +1080,11 @@ $messages['lb'] = array(
 	'uploading' => 'Eroplueden',
 	'upload-complete' => "D'Eroplueden huet fonctionnéiert. D'Bild misst elo op $1 sinn",
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
+	'disclaimer' => "E puer anonym Donnéeë gi fir statistesch Zwecker gesammelt. Wann dir en TUSC Benotzernumm ugitt, gëtt deen och gespäichert fir am Fall vu Vandalismus d'Recherchen ze vereinfachen. Passwierder ginn ni gespäichert.",
 	'author-complete' => "Kompletéiert w.e.g. d'Informatiounen iwwer den Auteur!",
 	'preview-hide' => 'Preview verstoppen',
 	'preview-refresh' => 'Preview aktualiséieren',
+	'error-must-accept' => "Fir mam direkten Eropluede virunzefuere musst Dir d'Conditioune vum Benotzen akzeptéieren.",
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 	'finalise' => 'Detailer kompletéieren',
 );

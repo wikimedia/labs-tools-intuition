@@ -60,6 +60,21 @@ $messages['af'] = array(
 	'time-label' => 'Tyd geneem om opdrag uit te voer',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'enter-details' => 'Amiesta los datos',
+	'introduction' => "Escribi'l nome d'una plantía (namái Wikipedies de momentu) y calca Dir. Ye tan cenciello como eso. Hai dalgo de caché (recordar los resultaos), pero por desgracia eso ta fuera del control d'esta ferramienta y del so propietariu.",
+	'language-label' => 'Llingua',
+	'namespace-label' => 'Espaciu de nomes',
+	'pagename-label' => 'Nome de la páxina (ensin espaciu de nomes)',
+	'transclusion-count-label' => 'Númberu de tresclusiones',
+	'transclusion-count' => "S'atoparon $1 tresclusiones.",
+	'error-suggestion' => '¿Escribiríes mal (o coles mayúscules incorreutes) el nome de la páxina?',
+	'time-label' => 'Tiempu necesariu pa executar el comandu',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by

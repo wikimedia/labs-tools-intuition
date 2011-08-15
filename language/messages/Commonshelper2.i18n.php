@@ -1625,6 +1625,19 @@ $messages['pl'] = array(
 	'project' => 'Projekt',
 	'source_file' => 'Plik źródłowy',
 	'target_file' => 'Plik docelowy',
+	'commons_username' => 'Nazwa użytkownika w Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons do projektu',
+	'move_file_from_com' => 'Przenieś plik z Wikimedia Commons do projektu',
+	'categories' => 'Kategorie',
+	'remove_cats' => 'Usuń istniejące kategorie',
+	'use_checkusage' => 'Użyj $1CommonSense$2 sugerującego nowe kategorie',
+	'do_it' => 'Zrób to',
+	'error_transfer_usr' => 'Nie podałeś nazwy użytkownika na Wikimedia Commons',
+	'error_not_exists' => 'Brak pliku źródłowego!',
+	'error_on_commons' => 'Plik źródłowy już jest na $1!',
+	'error_file_exists' => 'Plik już istnieje na $3 pod nazwą „$1$4$2“!',
+	'error_diff_exists' => 'Na docelowej wiki istnieje już inny plik o tej samej nazwie!',
+	'error_no_meta' => 'Nie odnaleziono metadanych źródłowej wiki! $1Dodaj lub uaktualnij matadane projektu$2',
 );
 
 /** Pashto (پښتو)
