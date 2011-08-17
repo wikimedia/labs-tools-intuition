@@ -115,6 +115,14 @@ $messages['br'] = array(
 	'time-label' => 'Amzer lakaet evit seveniñ an urzh',
 );
 
+/** Danish (Dansk)
+ * @author Erisos
+ */
+$messages['da'] = array(
+	'enter-details' => 'Indtast detaljer',
+	'language-label' => 'Sprog',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -385,11 +393,12 @@ $messages['os'] = array(
  */
 $messages['pl'] = array(
 	'enter-details' => 'Podaj szczegóły',
+	'introduction' => 'Wpisz nazwę szablonu (w tej chwili wyłącznie z Wikipedii), a następnie kliknij dalej. To banalnie proste. Niektóre informacje mogą być buforowane (zapamiętane wyniki), ale niestety odbywa się to poza kontrolą tego narzędzia i jego autora.',
 	'language-label' => 'Język',
 	'namespace-label' => 'Przestrzeń nazw',
 	'pagename-label' => 'Nazwa strony (bez przestrzeni nazw)',
 	'transclusion-count-label' => 'Liczba transclusion (zaciągnięć treści innej strony)',
-	'transclusion-count' => 'odnaleziono $1 zaciągnięć treści innej strony',
+	'transclusion-count' => 'Odnaleziono $1 zaciągnięć treści innej strony.',
 	'error-suggestion' => 'Możliwe, że zrobiłeś literówkę w nazwie strony (sprawdź wielkość liter).',
 	'time-label' => 'Czas wykonywania polecenia',
 );

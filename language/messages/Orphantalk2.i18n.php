@@ -283,6 +283,7 @@ $messages['ca'] = array(
 );
 
 /** Danish (Dansk)
+ * @author Erisos
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -291,6 +292,7 @@ $messages['da'] = array(
 	'hidesubpages' => 'Skjul undersider',
 	'page' => 'Side',
 	'output' => 'Output',
+	'update' => 'Opdater',
 	'tools-delete' => 'slet',
 	'tools-subject' => 'emne',
 	'resultslimited' => 'Resultaterne var begrænsede til $1 sider.',

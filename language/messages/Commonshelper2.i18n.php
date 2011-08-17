@@ -1247,6 +1247,7 @@ $messages['lb'] = array(
 	'standard_project' => 'Wikipedia',
 	'error_bot_blocked' => 'De bot fir erofzelueden ass op Wikimedia Commons gespaart.',
 	'error_upload_meta' => 'Et kann net direkt eropgeluede ginn, well et Problemer mat de Metadonnéeë gëtt (kuckt uewen)!',
+	'error_tusc_failed' => 'TUSC Kontroll ass feelgeschloe!',
 	'error_only_commons' => 'Direkt Eropluede fonctionnéiert nëmme bäi Wikimedia Commons',
 	'upload_control_text' => 'Kuckt w.e.g. den neie Wiki-Text no a klickt "$1" wann alles an der Rei ass!',
 	'error_commons_user' => "Fir de Benotzer z'identifizéieren deen den Transfert mécht, muss de Benotzernumm vu Wikimedia Commons an der Beschreiwung dra sinn!",
@@ -1615,6 +1616,7 @@ $messages['pdc'] = array(
 
 /** Polish (Polski)
  * @author Sp5uhe
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'attention' => 'Uwaga',
@@ -1631,6 +1633,8 @@ $messages['pl'] = array(
 	'categories' => 'Kategorie',
 	'remove_cats' => 'Usuń istniejące kategorie',
 	'use_checkusage' => 'Użyj $1CommonSense$2 sugerującego nowe kategorie',
+	'tusc_user' => 'Nazwa użytkownika TUSC',
+	'tusc_pass' => 'Hasło TUSC',
 	'do_it' => 'Zrób to',
 	'error_transfer_usr' => 'Nie podałeś nazwy użytkownika na Wikimedia Commons',
 	'error_not_exists' => 'Brak pliku źródłowego!',
@@ -1638,6 +1642,13 @@ $messages['pl'] = array(
 	'error_file_exists' => 'Plik już istnieje na $3 pod nazwą „$1$4$2“!',
 	'error_diff_exists' => 'Na docelowej wiki istnieje już inny plik o tej samej nazwie!',
 	'error_no_meta' => 'Nie odnaleziono metadanych źródłowej wiki! $1Dodaj lub uaktualnij matadane projektu$2',
+	'original_wikitext' => 'Oryginalny tekst wiki',
+	'new_wikitext' => 'Nowy tekst wiki',
+	'new_filename' => 'Nowa nazwa pliku:',
+	'upload_submit' => 'Prześlij!',
+	'target_wiki' => 'docelowa wiki',
+	'standard_language' => 'pl',
+	'error_upload_file' => 'Oryginalny plik nie może zostać pobrany.',
 );
 
 /** Pashto (پښتو)
