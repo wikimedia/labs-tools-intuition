@@ -73,7 +73,13 @@ $messages['en'] = array(
 	'upload_control_text'=> 'Please check the new wiki text and click "$1" if all is OK!',
 	'error_commons_user' => 'To identify the transfer user, your Wikimedia Commons username has to be in the description!',
 	'error_upload_users' => 'The upload function is only available to some users during the test period!',
-	'error_upload_file' => 'The original file cannot be downloaded.'
+	'error_upload_file' => 'The original file cannot be downloaded.',
+	
+	//Help
+	'help_intro' => 'When you want to report a bug, suggest a feature or have a question, you can use one of the contact types below:',
+	'help_jira' => '$1JIRA (you need an account)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Send a mail to $1',
+	'help_commons' => '$1Add a post on Commons$2'
 );
 
 /** Message documentation (Message documentation)
@@ -118,6 +124,9 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
 	'upload_control_text' => '$1 is be the same as in the message {{msg-toolserver|Commonshelper2-upload_submit}}',
+	'help_jira' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is https://jira.toolserver.org/secure/CreateIssue!default.jspa.',
+	'help_mail' => '$1 is the mail address.',
+	'help_commons' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.'
 );
 
 /** Afrikaans (Afrikaans)
