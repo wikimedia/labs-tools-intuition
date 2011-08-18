@@ -126,7 +126,7 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 	'upload_control_text' => '$1 is be the same as in the message {{msg-toolserver|Commonshelper2-upload_submit}}',
 	'help_jira' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is https://jira.toolserver.org/secure/CreateIssue!default.jspa.',
 	'help_mail' => '$1 is the mail address.',
-	'help_commons' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.'
+	'help_commons' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.',
 );
 
 /** Afrikaans (Afrikaans)

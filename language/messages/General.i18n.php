@@ -1061,6 +1061,7 @@ $messages['sr-el'] = array(
 /** Swedish (Svenska)
  * @author Liftarn
  * @author Lokal Profil
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'hello' => 'Hej',
@@ -1070,12 +1071,12 @@ $messages['sv'] = array(
 	'namespace' => 'Namnrymd',
 	'form-submit' => 'Gå',
 	'form-reset' => 'Nollställ',
-	'years' => 'år',
-	'weeks' => 'veckor',
-	'days' => 'dagar',
-	'hours' => 'timmar',
-	'minutes' => 'minuter',
-	'seconds' => 'sekunder',
+	'years' => '{{PLURAL: $1|år|år}}',
+	'weeks' => '{{PLURAL: $1|vecka|veckor}}',
+	'days' => '{{PLURAL: $1|dag|dagar}}',
+	'hours' => '{{PLURAL: $1|timma|timmar}}',
+	'minutes' => '{{PLURAL: $1|minut|minuter}}',
+	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
 	'last-modified-date' => 'Senast uppdaterad: $1',
 	'view-source' => 'Visa källkod',
 );
