@@ -1107,10 +1107,10 @@ $messages['tet'] = array(
 	'toolversionstamp' => 'Versaun $1 ($2)',
 	'etc' => 'sst.',
 	'form-submit' => 'OK',
-	'years' => 'tinan',
-	'weeks' => 'semana',
-	'days' => 'loron',
-	'hours' => 'oras',
+	'years' => '{{PLURAL: $1|tinan|tinan}}',
+	'weeks' => '{{PLURAL: $1|semana|semana}}',
+	'days' => '{{PLURAL: $1|loron|loron}}',
+	'hours' => '{{PLURAL: $1|oras|oras}}',
 	'last-modified-date' => 'Mudansa ba dala ikus: $1',
 );
 

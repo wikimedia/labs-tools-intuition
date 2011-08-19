@@ -343,6 +343,7 @@ $messages['be-tarask'] = array(
 	'error_commons_user' => 'Для вызначэньня карыстальніка, які перадае файлы, Вашае імя ўдзельніка ў ВікіСховішчы павінна быць у апісаньні!',
 	'error_upload_users' => 'У час тэставага пэрыяду функцыя загрузкі даступная толькі некаторым удзельнікам!',
 	'error_upload_file' => 'Арыгінальны файл ня можа быць загружаны.',
+	'help_intro' => 'Калі Вы жадаеце паведаміць пра памылку, прапанаваць магчымасьць ці маеце пытаньне, Вы можаце скарыстацца адным са спосабаў сувязі пададзенымі ніжэй:',
 );
 
 /** Bulgarian (Български)
@@ -496,6 +497,10 @@ $messages['da'] = array(
 	'error_commons_user' => 'Dit Wikimedia Commons brugernavn skal være i beskrivelsen, så brugeren, der udførte overførslen, kan identificeres!',
 	'error_upload_users' => 'Uploadfunktionen er kun tilgængelig for nogle brugere i forsøgsperioden!',
 	'error_upload_file' => 'Den originale fil kan ikke hentes.',
+	'help_intro' => 'Hvis du vil melde en fejl, foreslå ny funktionalitet eller stille et spørgsmål, kan du bruge en af nedenstående metoder:',
+	'help_jira' => '$1JIRA (du skal bruge en konto)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'Send en mail til $1',
+	'help_commons' => '$1Tilføj et indlæg på Commons$2',
 );
 
 /** German (Deutsch)
@@ -547,6 +552,10 @@ $messages['de'] = array(
 	'error_commons_user' => 'Um den Benutzer identifizieren zu können, der die Übertragung vornimmt, muss der Beschreibung dein Benutzername auf Wikimedia Commons hinzugefügt werden.',
 	'error_upload_users' => 'Die Funktion zum Hochladen ist während der Testphase nur für bestimmte Benutzer verfügbar.',
 	'error_upload_file' => 'Die Quelldatei kann nicht heruntergeladen werden.',
+	'help_intro' => 'Sofern du einen Softwarefehler melden bzw. eine neue Funktion vorschlagen möchtest oder eine Frage hast, kannst du eine der nachfolgend angegebene Kontaktmöglichkeiten nutzen:',
+	'help_jira' => '$1JIRA (Du benötigst ein Konto)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'Eine E-Mail an $1 senden',
+	'help_commons' => '$1Eine Nachricht auf Commons hinterlassen$2',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -554,6 +563,8 @@ $messages['de'] = array(
  */
 $messages['de-formal'] = array(
 	'error_commons_user' => 'Um den Benutzer identifizieren zu können, der die Übertragung vornimmt, muss der Beschreibung Ihr Benutzername auf Wikimedia Commons hinzugefügt werden.',
+	'help_intro' => 'Sofern Sie einen Softwarefehler melden bzw. eine neue Funktion vorschlagen möchten oder eine Frage haben, können Sie eine der nachfolgend angegebene Kontaktmöglichkeiten nutzen:',
+	'help_jira' => '$1JIRA (Sie benötigen ein Konto)$2 (Projekt: Commonshelper2)',
 );
 
 /** Spanish (Español)
@@ -1001,6 +1012,10 @@ $messages['ia'] = array(
 	'error_commons_user' => 'Pro identificar le usator transferente, tu nomine de usator de Wikimedia Commons debe figurar in le description!',
 	'error_upload_users' => 'Le function de incargamento es solmente disponibile a certe usatores durante le periodo de test!',
 	'error_upload_file' => 'Le file original non pote esser discargate.',
+	'help_intro' => 'Pro reportar un error, suggerer functionalitate o poner un question, usa un del modos de contacto sequente:',
+	'help_jira' => '$1JIRA (es necessari haber un conto)$2 (Projecto: Commonshelper2)',
+	'help_mail' => 'Inviar un message electronic a $1',
+	'help_commons' => '$1Adder un message in Commons$2',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1356,6 +1371,10 @@ $messages['mk'] = array(
 	'error_commons_user' => 'За да се прикаже корисникот на префрлањето, вашето корисничко име на Ризницата мора да се содржи во описот!',
 	'error_upload_users' => 'Функцијата за подигање во пробниот период е достапна само за извесни корисници!',
 	'error_upload_file' => 'Изворната податотека не може да се преземе.',
+	'help_intro' => 'Кога сакате да пријавите бубачка, предложите функција или ако имате прашање, послужете се со една од долунаведените можнсоти за контакт:',
+	'help_jira' => '$1JIRA (ќе ви треба сметка)$2 (Проект: Commonshelper2)',
+	'help_mail' => 'Испрати е-пошта на $1',
+	'help_commons' => '$1Стави објава на Ризницата$2',
 );
 
 /** Malayalam (മലയാളം)
@@ -1460,6 +1479,10 @@ $messages['ms'] = array(
 	'error_commons_user' => 'Untuk mengenal pasti pengguna yang membuat pemindahan itu, nama pengguna Wikimedia Commons anda haruslah ada dalam keterangan!',
 	'error_upload_users' => 'Fungsi muat naik hanya boleh digunakan oleh beberapa pengguna ketika tempoh ujian!',
 	'error_upload_file' => 'Fail asal tidak boleh dimuat turun.',
+	'help_intro' => 'Apabila ingin melaporkan pepijat, mencadangkan ciri-ciri baru atau menanyakan soalan, anda boleh menggunakan salah satu kaedah berhubung yang berikut:',
+	'help_jira' => '$1JIRA (anda memerlukan akaun)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Hantar e-mel kepada $1',
+	'help_commons' => '$1Catatkan pesanan di Commons$2',
 );
 
 /** Burmese (မြန်မာဘာသာ)
@@ -1914,6 +1937,10 @@ $messages['sr-ec'] = array(
 	'error_commons_user' => 'Да бисмо препознали корисника који преноси датотеке, ваше корисничко име на Викимедијиној остави мора бити у опису.',
 	'error_upload_users' => 'Могућност отпремања је доступна само неким корисницима током пробног периода.',
 	'error_upload_file' => 'Изворна датотека не може бити преузета.',
+	'help_intro' => 'Када желите да пријавите грешку, предложите нову могућност или питате питање, користите један од начина контактирања испод:',
+	'help_jira' => '$1JIRA (треба вам налог)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Пошаљите поруку на $1',
+	'help_commons' => '$1Додајте поруку у оставу$2',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
@@ -1962,6 +1989,10 @@ $messages['sr-el'] = array(
 	'error_commons_user' => 'Da bismo prepoznali korisnika koji prenosi datoteke, vaše korisničko ime na Vikimedijinoj ostavi mora biti u opisu.',
 	'error_upload_users' => 'Mogućnost otpremanja je dostupna samo nekim korisnicima tokom probnog perioda.',
 	'error_upload_file' => 'Izvorna datoteka ne može biti preuzeta.',
+	'help_intro' => 'Kada želite da prijavite grešku, predložite novu mogućnost ili pitate pitanje, koristite jedan od načina kontaktiranja ispod:',
+	'help_jira' => '$1JIRA (treba vam nalog)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Pošaljite poruku na $1',
+	'help_commons' => '$1Dodajte poruku u ostavu$2',
 );
 
 /** Swedish (Svenska)
