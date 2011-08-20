@@ -735,6 +735,7 @@ $messages['fi'] = array(
  * @author IAlex
  * @author Od1n
  * @author Sherbrooke
+ * @author Wyz
  */
 $messages['fr'] = array(
 	'attention' => 'Attention',
@@ -778,6 +779,9 @@ $messages['fr'] = array(
 	'error_commons_user' => "Pour identifier l'utilisateur qui effectue le transfert, votre nom d'utilisateur de Wikimedia Commons doit figurer dans la description !",
 	'error_upload_users' => "La fonction de téléversement est uniquement disponible pour certains utilisateurs durant la période d'essai !",
 	'error_upload_file' => 'Le fichier original ne peut être pas être téléchargé.',
+	'help_jira' => '$1JIRA (vous devez avoir un compte)$2 (Projet : Commonshelper2)',
+	'help_mail' => 'Envoyer un courriel à $1',
+	'help_commons' => '$1Ajouter un message sur Commons$2',
 );
 
 /** Galician (Galego)
@@ -1634,6 +1638,10 @@ $messages['no'] = array(
 	'error_commons_user' => 'Brukernavnet ditt på Wikimedia Commons må være i beskrivelsen for at brukeren som gjør overføringen skal kunne identifiseres!',
 	'error_upload_users' => 'Opplastingsfunksjonen er kun tilgjengelig for enkelte brukere under testperioden!',
 	'error_upload_file' => 'Den opprinnelige filen kan ikke lastes ned.',
+	'help_intro' => 'Når du vil rapportere en feil, foreslå en funksjon eller har et spørsmål, kan du bruke en av kontaktmetodene nedenfor:',
+	'help_jira' => '$1JIRA (du trenger en konto)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Send en e-post til $1',
+	'help_commons' => '$1Legg til et innlegg på Commons$2',
 );
 
 /** Deitsch (Deitsch)
