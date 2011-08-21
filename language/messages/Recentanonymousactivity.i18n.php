@@ -158,6 +158,13 @@ $messages['ia'] = array(
 	'title' => 'Activitate anonyme recente',
 );
 
+/** Italian (Italiano)
+ * @author Mpitt
+ */
+$messages['it'] = array(
+	'title' => 'Attività anonima recente',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

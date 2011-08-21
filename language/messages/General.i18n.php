@@ -413,6 +413,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Mjbmr
  */
 $messages['fa'] = array(
 	'hello' => 'سلام',
@@ -422,12 +423,12 @@ $messages['fa'] = array(
 	'namespace' => 'فضای نام',
 	'form-submit' => 'برو',
 	'form-reset' => 'بازنشانی',
-	'years' => 'سال‌ها',
-	'weeks' => 'هفته‌ها',
-	'days' => 'روزها',
-	'hours' => 'ساعت‌ها',
-	'minutes' => 'دقایق',
-	'seconds' => 'ثانیه‌ها',
+	'years' => '{{PLURAL: $1|سال|سال}}',
+	'weeks' => '{{PLURAL: $1|هفته|هفته}}',
+	'days' => '{{PLURAL: $1|روز|روز}}',
+	'hours' => '{{PLURAL: $1|ساعت|ساعت}}',
+	'minutes' => '{{PLURAL: $1|دقیقه|دقیقه}}',
+	'seconds' => '{{PLURAL: $1|ثانیه|ثانیه}}',
 	'last-modified-date' => 'آخرین تغییر: $1',
 	'view-source' => 'نمایش مبدأ',
 );
@@ -707,6 +708,7 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'dateformat' => '%d %B %Y',
 	'hello' => 'Salut',
 	'welcome' => 'Wëllkomm',
 	'toolversionstamp' => 'Versioun $1 ($2)',
@@ -937,6 +939,24 @@ $messages['pt'] = array(
 	'hours' => 'horas',
 	'last-modified-date' => 'Última modificação: $1',
 	'view-source' => 'Ver código fonte',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Giro720
+ */
+$messages['pt-br'] = array(
+	'hello' => 'Olá',
+	'welcome' => 'Bem-vindo',
+	'toolversionstamp' => 'Versão $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => 'Espaço nominal',
+	'form-reset' => 'Restaurar',
+	'years' => '{{PLURAL: $1|ano|anos}}',
+	'weeks' => '{{PLURAL: $1|semana|semanas}}',
+	'days' => '{{PLURAL: $1|dia|dias}}',
+	'hours' => '{{PLURAL: $1|hora|horas}}',
+	'minutes' => '{{PLURAL: $1|minuto|minutos}}',
+	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 );
 
 /** Romanian (Română)

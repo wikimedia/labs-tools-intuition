@@ -88,6 +88,7 @@ $messages['en'] = array(
  * @author Krinkle
  * @author Kwj2772
  * @author Purodha
+ * @author Siebrand
  */
 $messages['qqq'] = array(
 	'commonshelper2' => '{{Optional}}',
@@ -124,9 +125,11 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
 	'upload_control_text' => '$1 is be the same as in the message {{msg-toolserver|Commonshelper2-upload_submit}}',
-	'help_jira' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is https://jira.toolserver.org/secure/CreateIssue!default.jspa.',
+	'help_jira' => 'Parameters:
+* $1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is https://jira.toolserver.org/secure/CreateIssue!default.jspa.',
 	'help_mail' => '$1 is the mail address.',
-	'help_commons' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.',
+	'help_commons' => 'Parameters:
+* $1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -230,6 +233,10 @@ $messages['ast'] = array(
 	'error_commons_user' => "Para identificar al usuariu de la tresferencia, el to nome d'usuariu de Wikimedia Commons tien de tar na descripción.",
 	'error_upload_users' => "La función de xuba solo ta disponible para dellos usuarios mentanto'l periodu de pruebes.",
 	'error_upload_file' => 'El ficheru orixinal nun se pue descargar.',
+	'help_intro' => "Cuando quieras informar d'un fallu, proponer una carauterística o tengas una entruga, puedes usar unu de los medios de contautu darréu:",
+	'help_jira' => '$1JIRA (necesites tener una cuenta)$2 (Proyeutu: Commonshelper2)',
+	'help_mail' => 'Unvia un corréu a $1',
+	'help_commons' => '$1Escribi un mensaxe en Commons$2',
 );
 
 /** Azerbaijani (Azərbaycanca)
@@ -641,6 +648,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Mjbmr
  */
 $messages['fa'] = array(
 	'attention' => 'توجه',
@@ -684,6 +692,7 @@ $messages['fa'] = array(
 	'error_commons_user' => 'برای شناسایی انتقال کاربر، نام کاربری ویکی‌انبار شما می‌بایست در توضیحات باشد!',
 	'error_upload_users' => 'عملکرد بارگذاری فقط برای بعضی از کاربران در طول مدت آزمایشی موجود است!',
 	'error_upload_file' => 'پروندهٔ اصلی نمی‌تواند بارگیری شود.',
+	'help_mail' => 'ارسال پست الکترونیکی به $1',
 );
 
 /** Finnish (Suomi)
@@ -878,6 +887,10 @@ $messages['he'] = array(
 	'error_commons_user' => 'כדי לזהות את המשתמש המעביר, שם המשתמש שלכם בוויקישיתוף צריך להיות בתיאור!',
 	'error_upload_users' => 'פעולת ההעלאה זמינה רק למשתמשים מסוימים בזמן הבדיקות!',
 	'error_upload_file' => 'לא ניתן להוריד את הקובץ המקורי.',
+	'help_intro' => 'אם אתם רוצים לדווח באג, להציע תכונה או לשאול שאלה, אפשר ליצור קשר בדרכים הבאות:',
+	'help_jira' => '$1JIRA (יש צורך בחשבון)$2 (Project: Commonshelper2)',
+	'help_mail' => 'שליחת דואר ל־$1',
+	'help_commons' => '$1הוספת רשומה בוויקישיתוף$2',
 );
 
 /** Croatian (Hrvatski)
@@ -1281,6 +1294,8 @@ $messages['lb'] = array(
 	'error_commons_user' => "Fir de Benotzer z'identifizéieren deen den Transfert mécht, muss de Benotzernumm vu Wikimedia Commons an der Beschreiwung dra sinn!",
 	'error_upload_users' => "D'Fonctioun vum Eroplueden ass während der Testphas nëmme fir e puer Benotzer disponibel!",
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
+	'help_jira' => '$1JIRA (Dir braucht e Benotzerkont)$2 (Projet: Commonshelper2)',
+	'help_mail' => 'Eng Mail op $1 schécken',
 );
 
 /** Lezghian (Лезги)
@@ -1591,6 +1606,10 @@ $messages['nl'] = array(
 	'error_commons_user' => 'Om de gebruiker die het bestand overdraagt te kunnen identificeren, moet uw gebruikersnaam bij Wikimedia Commons in de beschrijving voorkomen.',
 	'error_upload_users' => 'Tijdens de testperiode is de uploadfunctionaliteit is alleen beschikbaar voor een selecte groep gebruikers.',
 	'error_upload_file' => 'Het oorspronkelijke bestand kan niet gedownload worden.',
+	'help_intro' => 'Als u een probleem wilt rapporteren, een nieuwe functie wilt aanvragen of een vraag hebt, dan kunt u de onderstaande contacttypen gebruiken:',
+	'help_jira' => '$1JIRA (u hebt een gebruiker nodig)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Mail sturen aan $1',
+	'help_commons' => '$1Bericht toevoegen op Wikimedia Commons$2',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -1897,6 +1916,10 @@ $messages['sl'] = array(
 	'error_commons_user' => 'Za ugotavljanje uporabnika, ki je izvedel prenos, mora biti vaše uporabniško ime na Wikimediini Zbirki navedeno v opisu.',
 	'error_upload_users' => 'Zmnožnost nalaganja je med preizkusnim obdobjem na voljo samo nekaterim uporabnikom.',
 	'error_upload_file' => 'Izvorne datoteke ni mogoče prenesti.',
+	'help_intro' => 'Ko želite prijaviti hrošč, predlagati funkcijo ali imate vprašanje, lahko uporabite eno od spodnjih vrst stika z nami:',
+	'help_jira' => '$1JIRA (potrebujete račun)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'Pošljite sporočilo na $1',
+	'help_commons' => '$1Dodaj objavo na Zbirko$2',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
