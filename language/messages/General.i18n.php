@@ -125,14 +125,20 @@ $messages['ast'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Wertuose
  */
 $messages['az'] = array(
 	'hello' => 'Salam',
+	'namespace' => 'Adlar fəzası',
 	'form-reset' => 'Qur',
-	'years' => 'illər',
-	'weeks' => 'həftələr',
-	'days' => 'günlər',
-	'hours' => 'saatlar',
+	'years' => '{{PLURAL: $1|il|il}}',
+	'weeks' => '{{PLURAL: $1|həftə|həftə}}',
+	'days' => '{{PLURAL: $1|gün|gün}}',
+	'hours' => '{{PLURAL: $1|saat|saat}}',
+	'minutes' => '{{PLURAL: $1|dəqiqə|dəqiqə}}',
+	'seconds' => '{{PLURAL: $1|saniyə|saniyə}}',
+	'last-modified-date' => 'Sonuncu düzəliş: $1',
+	'view-source' => 'Mənbəyə bax',
 );
 
 /** Belarusian (Беларуская)

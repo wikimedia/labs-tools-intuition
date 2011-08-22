@@ -351,6 +351,9 @@ $messages['be-tarask'] = array(
 	'error_upload_users' => 'У час тэставага пэрыяду функцыя загрузкі даступная толькі некаторым удзельнікам!',
 	'error_upload_file' => 'Арыгінальны файл ня можа быць загружаны.',
 	'help_intro' => 'Калі Вы жадаеце паведаміць пра памылку, прапанаваць магчымасьць ці маеце пытаньне, Вы можаце скарыстацца адным са спосабаў сувязі пададзенымі ніжэй:',
+	'help_jira' => '$1JIRA (Вам неабходна мець рахунак)$2 (Праект: Commonshelper2)',
+	'help_mail' => 'Даслаць электронны ліст на адрас $1',
+	'help_commons' => '$1Дадаць паведамленьне на Commons$2',
 );
 
 /** Bulgarian (Български)
@@ -741,6 +744,7 @@ $messages['fi'] = array(
 );
 
 /** French (Français)
+ * @author Hashar
  * @author IAlex
  * @author Od1n
  * @author Sherbrooke
@@ -788,6 +792,7 @@ $messages['fr'] = array(
 	'error_commons_user' => "Pour identifier l'utilisateur qui effectue le transfert, votre nom d'utilisateur de Wikimedia Commons doit figurer dans la description !",
 	'error_upload_users' => "La fonction de téléversement est uniquement disponible pour certains utilisateurs durant la période d'essai !",
 	'error_upload_file' => 'Le fichier original ne peut être pas être téléchargé.',
+	'help_intro' => "Que vous souhaitiez nous communiquer un dysfonctionnement, une amélioration ou simplement poser une question, vous pouvez utiliser l'un des moyens suivant :",
 	'help_jira' => '$1JIRA (vous devez avoir un compte)$2 (Projet : Commonshelper2)',
 	'help_mail' => 'Envoyer un courriel à $1',
 	'help_commons' => '$1Ajouter un message sur Commons$2',

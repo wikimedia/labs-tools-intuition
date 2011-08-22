@@ -186,8 +186,11 @@ $messages['ast'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Wertuose
  */
 $messages['az'] = array(
+	'error-nothing' => 'Tərcümə etməli heç nə yoxdur.',
+	'error-notsvg' => 'Bu SVG faylı deyil.',
 	'th-original' => 'Orijinal',
 	'th-translation' => 'Tərcümə',
 	'th-language' => 'Dil',

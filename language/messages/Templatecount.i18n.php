@@ -75,6 +75,14 @@ $messages['ast'] = array(
 	'time-label' => 'Tiempu necesariu pa executar el comandu',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Wertuose
+ */
+$messages['az'] = array(
+	'language-label' => 'Dil',
+	'namespace-label' => 'Adlar fəzası',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
