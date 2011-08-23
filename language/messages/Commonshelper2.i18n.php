@@ -460,6 +460,10 @@ $messages['br'] = array(
 	'error_commons_user' => "Evit anaout an implijer a gas an treuzkas da benn e rank hoc'h anv implijer evit Wikimedia Commons bezañ merket en deskrivadenn !",
 	'error_upload_users' => "N'eo hegerz an arc'hwel enporzhiañ nemet evit implijerien zo e-pad ar prantad esae !",
 	'error_upload_file' => "N'eus ket bet gallet pellgagañ ar restr orin.",
+	'help_intro' => "Pa fell deoc'h kemenn deomp ur gudenn, ur welladenn pe sevel ur goulenn tra ken, e c'hellit implijout unan deus an doareoù da-heul :",
+	'help_jira' => '$1JIRA (ur gont a rankit kaout)$2 (Raktres : Commonshelper2)',
+	'help_mail' => 'Kas ur postel da $1',
+	'help_commons' => '$1Ouzhpennañ ur gemennadenn war Commons$2',
 );
 
 /** Danish (Dansk)
@@ -1832,6 +1836,10 @@ $messages['ro'] = array(
 	'error_commons_user' => 'Pentru a identifica utilizatorul care a efectuat transferul, numele dumneavoastră de utilizator de la Wikimedia Commons trebuie să se afle în descriere!',
 	'error_upload_users' => 'Funcția de încărcare este disponibilă doar pentru unii utilizatori în timpul perioadei de testare!',
 	'error_upload_file' => 'Fișierul original nu poate fi descărcat.',
+	'help_intro' => 'Dacă doriți să raportați o eroare, să sugerați o caracteristică sau să adresați o întrebare, puteți folosi una din metodele de contact de mai jos:',
+	'help_jira' => '$1JIRA (aveți nevoie de un cont)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Trimite un e-mail către $1',
+	'help_commons' => '$1Adaugă un comentariu la Commons$2',
 );
 
 /** Tarandíne (Tarandíne)
@@ -2079,6 +2087,10 @@ $messages['sv'] = array(
 	'error_commons_user' => 'Ditt användarnamn på  Wikimedia Commons ska anges i beskrivningen, så att användaren, som utfört överföringen, kan identifieras!',
 	'error_upload_users' => 'Uppladdningsfunktionen är endast tillgänglig för vissa användare under testperioden!',
 	'error_upload_file' => 'Den ursprungliga filen kan inte laddas ner.',
+	'help_intro' => 'När du vill rapportera ett fel, föreslå en funktion eller har en fråga kan du använda en av kontaktmetoderna nedan:',
+	'help_jira' => '$1JIRA (du behöver ett konto)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'Skicka en e-post till $1',
+	'help_commons' => '$1Lägg till ett inlägg på Commons$2',
 );
 
 /** Tamil (தமிழ்)
@@ -2217,6 +2229,10 @@ $messages['vi'] = array(
 	'error_commons_user' => 'Miêu tả cần phải có tên người dùng Wikimedia Commons của bạn để xác định được người chuyển!',
 	'error_upload_users' => 'Chức năng tải lên chỉ có sẵn cho một số người trong thời gian thử nghiệm!',
 	'error_upload_file' => 'Không thể tải xuống tập tin gốc.',
+	'help_intro' => 'Để báo cáo lỗi, gợi ý tính năng, hoặc đặt câu hỏi, liên lạc với chúng tôi dùng một trong những cách ở dưới:',
+	'help_jira' => '$1JIRA (cần tài khoản)$2 (Dự án: Commonshelper2)',
+	'help_mail' => 'Gửi thư điện tử cho $1',
+	'help_commons' => '$1Thảo luận tại Commons$2',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
