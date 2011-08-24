@@ -1559,6 +1559,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'title' => "Traduzione de l'SVG",
+	'error-tryagain' => "$1 Cazze 'u buttone d'u browser tune rrete pe pruvà 'n'otra vote.",
 	'error-nothing' => 'Ninde da traducere.',
 	'error-notsvg' => "Non g'è 'nu file SVG.",
 	'error-unexpected' => "'N'errore inaspettate s'a verificate.",
@@ -1583,6 +1584,7 @@ $messages['roa-tara'] = array(
 	'author-complete' => "Pe piacere comblete le 'mbormaziune de l'autore!",
 	'preview-hide' => "Scunne l'andeprime",
 	'preview-refresh' => "Aggiorne l'andeprime",
+	'error-must-accept' => "Pe condinuà cu 'nu carecamende dirette tu a accettà le termine de l'ause previste.",
 	'error-tusc-failed' => 'Validazione TUSC fallite: Nome utende o passuord non ge sonde corrette.',
 	'description-license' => 'Scacchie descrizione e licenze',
 	'finalise' => 'Finalizze le dettaglie',

@@ -1848,6 +1848,7 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'attention' => 'Attenzione',
 	'description' => "'Nu strumende pe trasferì le file da le proggette Wikimedia a Wikimedia Common",
+	'change_meta' => "Cange le 'mbostaziune $2 de le $1 categorije e template pe $3",
 	'jira_link' => "Comuneche 'nu bug o suggerisce 'na funzionalità",
 	'language' => 'Lènghe',
 	'project' => 'Proggette',
@@ -1871,7 +1872,11 @@ $messages['roa-tara'] = array(
 	'target_wiki' => "'a uicchi de destinazione",
 	'standard_language' => 'en',
 	'error_tusc_failed' => 'verifiche de TUSC fallite!',
+	'upload_control_text' => 'Pe piacere verifeche \'u teste nuève e cazze "$1" ce jè tutte apposte!',
 	'error_upload_file' => "'U file origgenale non ge pò essere scarecate.",
+	'help_jira' => "$1JIRA (tu è abbesogne de 'nu cunde utende)$2 (Project: Commonshelper2)",
+	'help_mail' => "Manne 'n'email a $1",
+	'help_commons' => "$1 Aggiunge 'nu messagge sus a Commons$2",
 );
 
 /** Sinhala (සිංහල)
