@@ -847,6 +847,10 @@ $messages['gl'] = array(
 	'error_commons_user' => 'Para identificar o usuario que efectúa a transferencia, cómpre que o seu nome de usuario da Wikimedia Commons estea presente na descrición!',
 	'error_upload_users' => 'A función de cargas só está dispoñible para algúns usuarios durante o período de probas!',
 	'error_upload_file' => 'O ficheiro orixinal non se pode descargar.',
+	'help_intro' => 'Se quere informar dun erro, facer unha suxestión ou resolver unha dúbida, pode empregar calquera dos medios de contacto que hai a continuación:',
+	'help_jira' => '$1JIRA (necesita unha conta)$2 (Proxecto: Commonshelper2)',
+	'help_mail' => 'Enviar un correo electrónico a $1',
+	'help_commons' => '$1Engadir un comentario en Commons$2',
 );
 
 /** Hebrew (עברית)
@@ -1305,6 +1309,7 @@ $messages['lb'] = array(
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
 	'help_jira' => '$1JIRA (Dir braucht e Benotzerkont)$2 (Projet: Commonshelper2)',
 	'help_mail' => 'Eng Mail op $1 schécken',
+	'help_commons' => '$1Eng Noriicht op Commons hannerloossen$2',
 );
 
 /** Lezghian (Лезги)
@@ -1712,7 +1717,7 @@ $messages['pl'] = array(
 	'error_no_meta' => 'Nie odnaleziono metadanych źródłowej wiki! $1Dodaj lub uaktualnij matadane projektu$2',
 	'original_wikitext' => 'Oryginalny tekst wiki',
 	'new_wikitext' => 'Nowy tekst wiki',
-	'new_filename' => 'Nowa nazwa pliku:',
+	'new_filename' => 'Nowa nazwa pliku',
 	'upload_submit' => 'Prześlij!',
 	'target_wiki' => 'docelowa wiki',
 	'standard_language' => 'pl',
@@ -2274,5 +2279,12 @@ $messages['zh-hans'] = array(
 	'error_only_commons' => '直接上载作品只在维基共享资源！',
 	'error_commons_user' => '要传输的用户的标识，您维基共享资源的用户名必须是描述中！',
 	'error_upload_file' => '原始文件不能进行下载。',
+);
+
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Lauhenry
+ */
+$messages['zh-hant'] = array(
+	'attention' => '注意',
 );
 

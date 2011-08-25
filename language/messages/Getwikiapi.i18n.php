@@ -509,3 +509,12 @@ $messages['zh-hans'] = array(
 	'output' => '输出的 "$1"',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Lauhenry
+ */
+$messages['zh-hant'] = array(
+	'formats-heading' => '輸出格式',
+	'input' => '輸入',
+	'no-matches' => '找不到 "$1"',
+);
+

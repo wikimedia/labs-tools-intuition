@@ -1237,3 +1237,22 @@ $messages['zh-hans'] = array(
 	'view-source' => '查看源代码',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Lauhenry
+ */
+$messages['zh-hant'] = array(
+	'hello' => '您好',
+	'welcome' => '歡迎',
+	'toolversionstamp' => '版本$1 ($2)',
+	'etc' => '等。',
+	'form-reset' => '重置',
+	'years' => '{{PLURAL: $1|年|年}}',
+	'weeks' => '{{PLURAL: $1|週|週}}',
+	'days' => '{{PLURAL: $1|天|天}}',
+	'hours' => '{{PLURAL: $1|小時|小時}}',
+	'minutes' => '{{PLURAL: $1|分鐘|分鐘}}',
+	'seconds' => '{{PLURAL: $1|秒|秒}}',
+	'last-modified-date' => '最近修改於: $1',
+	'view-source' => '查看原始碼',
+);
+
