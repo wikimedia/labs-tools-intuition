@@ -1721,7 +1721,12 @@ $messages['pl'] = array(
 	'upload_submit' => 'Prześlij!',
 	'target_wiki' => 'docelowa wiki',
 	'standard_language' => 'pl',
+	'error_tusc_failed' => 'Weryfikacja TUSC nie powiodła się!',
+	'error_only_commons' => 'Bezpośrednie przesyłanie działa tylko na Wikimedia Commons!',
 	'error_upload_file' => 'Oryginalny plik nie może zostać pobrany.',
+	'help_jira' => '$1JIRA (musisz posiadać konto)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'Wyślij e-mail do $1',
+	'help_commons' => '$1Dodaj wiadomość na Commons$2',
 );
 
 /** Pashto (پښتو)

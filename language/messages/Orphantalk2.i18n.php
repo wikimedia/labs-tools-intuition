@@ -87,6 +87,7 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'select-wiki-first' => '(اختر ويكي أولا)',
@@ -96,8 +97,8 @@ $messages['ar'] = array(
 	'page' => 'الصفحة',
 	'redirect' => 'هل تحويلة؟',
 	'output' => 'مخرج',
-	'update' => 'تحديث',
-	'tools-delete' => 'حذف',
+	'update' => 'حدّث',
+	'tools-delete' => 'احذف',
 	'tools-links' => 'وصلات',
 	'tools-subject' => 'موضوع',
 	'tools-hist' => 'تاريخ',
