@@ -287,6 +287,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'input' => 'Donnéeën',
 	'no-matches' => 'Et passt näischt op "$1"',
 	'output' => 'Resultat fir "$1"',
 );

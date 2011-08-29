@@ -582,6 +582,7 @@ $messages['de-formal'] = array(
 );
 
 /** Spanish (Español)
+ * @author Crazymadlover
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -609,14 +610,15 @@ $messages['es'] = array(
 	'error_file_exists' => 'El archivo ya existe en $3 como «$1$4$2»!',
 	'error_diff_exists' => '¡Un archivo de destino diferente existe en el wiki de destino con el mismo nombre!',
 	'error_no_meta' => 'No se encontraron metadatos del wiki de origen. $1Añade/actualiza los metadatos del proyecto$2',
-	'error_meta_no_good' => 'Metadatos: ¡No se hallaron plantillas buenas! $1Link$2',
-	'error_meta_bad' => 'Metadatos: ¡Plantilla mala encontrada! $1Link$2',
+	'error_meta_no_good' => 'Metadatos: ¡No se hallaron plantillas buenas! $1Por favor agregar/actualizar los metadatos para el proyecto$2',
+	'error_meta_bad' => 'Metadatos: ¡Plantilla mala encontrada! $1Por favor agregar/actualizar los metadatos para el proyecto$2',
 	'original_wikitext' => 'Texto original de wiki',
 	'new_wikitext' => 'Nuevo texto de wiki',
 	'new_filename' => 'Nuevo nombre de archivo:',
-	'output_information' => 'Para la carga manual, edita el texto anterior (si es necesario), guarda $1el archivo$2 en tu equipo, y',
+	'output_information' => 'Para la carga manual, edita el texto anterior (si es necesario), guarda $1el archivo$2 en tu equipo, luego $3cárgalo$4.',
 	'upload_submit' => '¡Subir!',
 	'target_wiki' => 'el wiki de destino',
+	'standard_language' => 'es',
 	'error_bot_blocked' => 'El bot de carga está bloqueado en Wikimedia Commons.',
 	'error_upload_meta' => 'No se puede cargar directamente porque hay un problema con los metadatos (véase más arriba).',
 	'error_tusc_failed' => 'Error de verificación de TUSC',

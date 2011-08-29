@@ -641,6 +641,13 @@ $messages['it'] = array(
 	'view-source' => 'Visualizza sorgente',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'form-reset' => '再設定',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
