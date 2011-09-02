@@ -94,10 +94,10 @@ $messages['ar'] = array(
 	'namespace' => 'النطاق',
 	'form-submit' => 'اذهب',
 	'form-reset' => 'إعادة ضبط',
-	'years' => 'سنين',
-	'weeks' => 'أسابيع',
-	'days' => 'أيام',
-	'hours' => 'ساعات',
+	'years' => '{{PLURAL: $1|سنة|سنة}}',
+	'weeks' => '{{PLURAL: $1|أسبوع|أسبوع}}',
+	'days' => '{{PLURAL: $1|يوم|يوم}}',
+	'hours' => '{{PLURAL: $1|ساعة|ساعة}}',
 	'last-modified-date' => 'آخر تغيير: $1',
 	'view-source' => 'شاهد المصدر',
 );
@@ -698,7 +698,7 @@ $messages['ksh'] = array(
 	'view-source' => 'Der Quelltäx vum Projramm',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1014,6 +1014,22 @@ $messages['roa-tara'] = array(
 	'view-source' => "Vide 'u sorgende",
 );
 
+/** Russian (Русский)
+ * @author Lvova
+ * @author Rave
+ */
+$messages['ru'] = array(
+	'hello' => 'Привет',
+	'welcome' => 'Добро пожаловать',
+	'toolversionstamp' => 'Версия $1 ($2)',
+	'etc' => 'и т.д.',
+	'namespace' => 'Пространство имён',
+	'form-submit' => 'Перейти',
+	'form-reset' => 'Очистить',
+	'last-modified-date' => 'Дата последнего изменения: $1',
+	'view-source' => 'Просмотр исходного кода',
+);
+
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author පසිඳු කාවින්ද
@@ -1049,7 +1065,7 @@ $messages['sl'] = array(
 	'view-source' => 'Izvorna koda',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1070,7 +1086,7 @@ $messages['sr-ec'] = array(
 	'view-source' => 'Изворник',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

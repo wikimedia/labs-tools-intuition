@@ -416,6 +416,16 @@ $messages['roa-tara'] = array(
 	'form-legend-settings' => "'Mbostaziune",
 );
 
+/** Russian (Русский)
+ * @author Rave
+ */
+$messages['ru'] = array(
+	'alws-selectwiki' => '(выберите вики-проект)',
+	'alws-group-mustused' => 'Наиболее используемые вики-проекты',
+	'alws-group-allaz' => 'Все вики-проекты по алфавиту',
+	'form-legend-settings' => 'Настройки',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
@@ -427,7 +437,7 @@ $messages['sl'] = array(
 	'form-legend-settings' => 'Nastavitve',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -438,7 +448,7 @@ $messages['sr-ec'] = array(
 	'form-legend-settings' => 'Поставке',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

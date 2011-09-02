@@ -1247,9 +1247,10 @@ $messages['ksh'] = array(
 	'error_commons_user' => 'Öm kloh ze maache, wä di Dattei övvverdraare hät, donn Dinge Metmaacher-Name op Wikimedia Commons em Täx övver di Dattei ongerbränge.',
 	'error_upload_users' => 'Huh laade künne bloß e paa Metmacher en der Prööf_Zigg!',
 	'error_upload_file' => 'De Ojinaal Dattei kam_mer nit eronger laade.',
+	'help_mail' => 'Schegg en <i lang="en">e-mail</i> aan &lt;$1>',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1891,6 +1892,46 @@ $messages['roa-tara'] = array(
 	'help_commons' => "$1 Aggiunge 'nu messagge sus a Commons$2",
 );
 
+/** Russian (Русский)
+ * @author Lvova
+ */
+$messages['ru'] = array(
+	'attention' => 'Внимание',
+	'description' => 'Инструмент для передачи файлов из проектов Викимедиа на Викисклад',
+	'jira_link' => 'Сообщить о проблеме или предложить улучшение',
+	'language' => 'Язык',
+	'project' => 'Проект',
+	'source_file' => 'Исходный файл',
+	'target_file' => 'Целевой файл',
+	'commons_username' => 'имя пользователя на Викискладе',
+	'commons_to_project' => 'из Викисклада в проект',
+	'move_file_from_com' => 'Переместить файл с Викисклада в проект',
+	'categories' => 'Категории',
+	'remove_cats' => 'Удалить существующие категории',
+	'tusc_user' => 'имя пользователя в TUSC',
+	'tusc_pass' => 'Пароль TUSC',
+	'do_it' => 'Сделать это',
+	'error_transfer_usr' => 'Не задано имя пользователя на Викискладе',
+	'error_not_exists' => 'Исходный файл не существует!',
+	'original_wikitext' => 'Оригинальный вики-текст',
+	'new_wikitext' => 'Новый вики-текст',
+	'new_filename' => 'Новое имя файла:',
+	'upload_submit' => 'Загрузить',
+	'target_wiki' => 'целевая вики',
+	'standard_language' => 'ru',
+	'error_bot_blocked' => 'Загружающий бот заблокирован на Викискладе',
+	'error_upload_meta' => 'Не могу загрузить напрямую, потому что есть проблема с метаданными (см. выше)!',
+	'error_tusc_failed' => 'Не удалось выполнить проверку TUSC!',
+	'error_only_commons' => 'Прямая загрузка работает только для Викисклада!',
+	'upload_control_text' => 'Проверьте новый вики-текст и нажмите кнопку "$1", если всё в порядке!',
+	'error_upload_users' => 'На время тестового периода функция загрузки доступна только для некоторых пользователей!',
+	'error_upload_file' => 'Не удается загрузить исходный файл.',
+	'help_intro' => 'Если вы хотите сообщить об ошибке, предложить функцию или задать вопрос, вы можете использовать один из следующих контактов:',
+	'help_jira' => '$1JIRA (требуется аккаунт)$2  (проект: Commonshelper2)',
+	'help_mail' => 'Отправить письмо на $1',
+	'help_commons' => '$1Добавить сообщение на Commons$2',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
@@ -1952,7 +1993,7 @@ $messages['sl'] = array(
 	'help_commons' => '$1Dodaj objavo na Zbirko$2',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2004,7 +2045,7 @@ $messages['sr-ec'] = array(
 	'help_commons' => '$1Додајте поруку у оставу$2',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

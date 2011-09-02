@@ -834,7 +834,7 @@ $messages['ksh'] = array(
 	'help-translate-tooltip' => 'Donn der Andere jet Joods un donn de Täxte un Nohreeschte vun de Projramme en Ding Shprooch övversäze.',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1260,6 +1260,31 @@ $messages['roa-tara'] = array(
 	'help-translate-tooltip' => "Dà 'na màne a l'otre pe traducere le messagge de interfacce jndr'à lènga toje.",
 );
 
+/** Russian (Русский)
+ * @author Lvova
+ */
+$messages['ru'] = array(
+	'fullname' => 'Интернационализация пользовательского интерфейса Тулсервера',
+	'current-settings' => 'Текущие настройки',
+	'current-language' => 'Текущие языковые настройки',
+	'settings-legend' => 'Настройки',
+	'choose-language' => 'Выберите язык',
+	'clear-cookies' => 'Удалить Cookies',
+	'renew-cookies' => 'Обновить Cookies',
+	'cookie-expiration' => 'Срок действия файла cookie',
+	'clearcookies-success' => 'Успешно очищены файлы Cookies.',
+	'tab-overview' => 'Обзор',
+	'tab-settings' => 'Настройки',
+	'tab-about' => 'Описание',
+	'tab-demo' => 'Демо',
+	'bl-mysettings' => 'Мои языковые настройки',
+	'bl-mysettings-new' => 'Изменить язык',
+	'bl-changelanguage' => 'Нажмите здесь, чтобы изменить язык интерфейса этого инструмента.',
+	'help-translate-tool' => 'Помогите перевести этот инструмент!',
+	'help-translate-all' => 'Помогите перевести Тулсервер!',
+	'help-translate-tooltip' => 'Помогите другим путём перевода интерфейса сообщений на ваш язык.',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
@@ -1288,7 +1313,7 @@ $messages['sl'] = array(
 	'help-translate-tooltip' => 'Pomagajte drugim s prevajanjem sporočil vmesnika v svoj jezik.',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1316,7 +1341,7 @@ $messages['sr-ec'] = array(
 	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

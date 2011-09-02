@@ -292,7 +292,7 @@ $messages['ksh'] = array(
 	'time-label' => 'De Zigg, di dat Projramm jebruch hät',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -449,6 +449,18 @@ $messages['roa-tara'] = array(
 	'time-label' => "Tiembe pigghiate pe eseguì 'u comande",
 );
 
+/** Russian (Русский)
+ * @author Lvova
+ */
+$messages['ru'] = array(
+	'enter-details' => 'Введите подробности',
+	'language-label' => 'Язык',
+	'namespace-label' => 'Пространство имён',
+	'pagename-label' => 'Имя страницы (без пространства имён)',
+	'transclusion-count-label' => 'Количество включений',
+	'error-suggestion' => 'Быть может, вы опечатались в названии страницы или использовали неверный регистр букв?',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
@@ -464,7 +476,7 @@ $messages['sl'] = array(
 	'time-label' => 'Čas, porabljen za izvršitev ukaza',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -479,7 +491,7 @@ $messages['sr-ec'] = array(
 	'time-label' => 'Време за извршавање наредбе',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

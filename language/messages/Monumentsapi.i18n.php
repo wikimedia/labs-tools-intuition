@@ -243,7 +243,7 @@ $messages['ksh'] = array(
 	'search-table-th-search' => 'Söhke',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -372,6 +372,15 @@ $messages['roa-tara'] = array(
 	'search-table-th-search' => 'Cirche',
 );
 
+/** Russian (Русский)
+ * @author Rave
+ */
+$messages['ru'] = array(
+	'search-table-th-field' => 'Поле',
+	'search-table-th-filter' => 'Фильтр',
+	'search-table-th-search' => 'Поиск',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
@@ -381,7 +390,7 @@ $messages['sl'] = array(
 	'search-table-th-search' => 'Iskanje',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -390,7 +399,7 @@ $messages['sr-ec'] = array(
 	'search-table-th-search' => 'Претрага',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

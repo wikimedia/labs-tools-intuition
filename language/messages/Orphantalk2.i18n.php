@@ -642,7 +642,7 @@ $messages['ksh'] = array(
 	'resultslimited' => 'Heh di Leß es bejränz op $1 Sigg(e)',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -966,6 +966,27 @@ $messages['roa-tara'] = array(
 	'resultslimited' => 'Resultate limitate a $1 pàggene.',
 );
 
+/** Russian (Русский)
+ * @author Lvova
+ */
+$messages['ru'] = array(
+	'select-wiki-first' => '(сначала выберите вики)',
+	'hideredirects' => 'Скрыть перенаправления',
+	'hidesubpages' => 'Скрыть подстраницы',
+	'limit' => 'Ограничение',
+	'page' => 'Страница',
+	'redirect' => 'Это перенаправление?',
+	'output' => 'Результат',
+	'update' => 'Обновить',
+	'tools-delete' => 'удалить',
+	'tools-links' => 'ссылки',
+	'tools-subject' => 'тема',
+	'tools-hist' => 'история',
+	'tools-curr' => 'текущ.',
+	'tools-globalusage' => 'глобальное использование',
+	'noresults' => 'В этой вики в заданных вами пространствах имён страниц обсуждения-сирот не найдено.',
+);
+
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author පසිඳු කාවින්ද
@@ -998,7 +1019,7 @@ $messages['sl'] = array(
 	'resultslimited' => 'Rezultati so bili omejeni na $1 stran.',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1022,7 +1043,7 @@ $messages['sr-ec'] = array(
 	'resultslimited' => 'Резултати су ограничени на $1 страница.',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
