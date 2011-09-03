@@ -234,6 +234,15 @@ $messages['inh'] = array(
 	'search-table-th-search' => 'Лаха',
 );
 
+/** Japanese (日本語)
+ * @author Schu
+ */
+$messages['ja'] = array(
+	'search-table-th-field' => 'フィールド',
+	'search-table-th-filter' => 'フィルター',
+	'search-table-th-search' => '検索',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

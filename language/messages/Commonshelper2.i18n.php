@@ -1074,6 +1074,7 @@ $messages['id'] = array(
 	'do_it' => 'Lakukan',
 	'error_transfer_usr' => 'Anda belum menetapkan nama pengguna Wikimedia Commons',
 	'error_not_exists' => 'Berkas sumber tidak ada.',
+	'error_on_commons' => 'Berkas sumber telah ada di $1!',
 	'error_file_exists' => 'Berkas telah ada di $3 dengan nama "$1$4$2"!',
 	'error_diff_exists' => 'Sebuah berkas target yang berbeda telah ada di wiki target dengan nama yang sama!',
 	'error_no_meta' => 'Tidak ada metadata yang ditemukan tentang wiki sumber! $1Silakan tambahkan/perbarui metadata untuk proyek ini$2',
@@ -1094,6 +1095,10 @@ $messages['id'] = array(
 	'error_commons_user' => 'Untuk mengidentifikasi pengguna yang mentransfer, nama pengguna Wikimedia Commons Anda harus ada dalam deskripsi!',
 	'error_upload_users' => 'Fungsi pengunggahan ini hanya tersedia bagi beberapa pengguna ketika periode pengujian!',
 	'error_upload_file' => 'Berkas asli tidak dapat diunduh.',
+	'help_intro' => 'Ketika Anda melaporkan bug, mengusulkan fitur, atau memiliki pertanyaan, Anda dapat menggunakan satu di antara jenis kontak berikut:',
+	'help_jira' => '$1JIRA (Anda perlu sebuah akun)$2 (Proyek: Commonshelper2)',
+	'help_mail' => 'Kirim surel ke $1',
+	'help_commons' => '$1Tambahkan post di Commons$2',
 );
 
 /** Igbo (Igbo)
@@ -1152,6 +1157,20 @@ $messages['it'] = array(
 	'error_commons_user' => 'Per identificare chi ha trasferito il documento, il tuo nome utente su Wikimedia Commons deve essere inserito nella descrizione!',
 	'error_upload_users' => 'La funzione di caricamento documenti è disponibile solo per alcuni utenti durante il periodo di prova!',
 	'error_upload_file' => 'Il file originale non può essere scaricato.',
+);
+
+/** Japanese (日本語)
+ * @author Schu
+ */
+$messages['ja'] = array(
+	'language' => '言語',
+	'project' => 'プロジェクト',
+	'source_file' => 'ソースファイル',
+	'target_file' => 'ターゲットファイル',
+	'commons_username' => 'ウィキメディアコモンズ利用者名',
+	'move_file_from_com' => 'ウィキ メディアコモンズからプロジェクトにファイルを移動',
+	'categories' => 'カテゴリー',
+	'remove_cats' => '既存のカテゴリを削除',
 );
 
 /** Korean (한국어)
@@ -1248,6 +1267,7 @@ $messages['ksh'] = array(
 	'error_upload_users' => 'Huh laade künne bloß e paa Metmacher en der Prööf_Zigg!',
 	'error_upload_file' => 'De Ojinaal Dattei kam_mer nit eronger laade.',
 	'help_mail' => 'Schegg en <i lang="en">e-mail</i> aan &lt;$1>',
+	'help_commons' => 'Donn en  $1Noheesch op Commons schrieve$2',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)

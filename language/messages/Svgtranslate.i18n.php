@@ -984,9 +984,24 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Schu
  */
 $messages['ja'] = array(
+	'th-original' => 'オリジナル',
+	'th-translation' => '翻訳',
+	'th-language' => '言語',
+	'th-password' => 'パスワード',
+	'th-method' => 'メソッド',
+	'option-tusc' => 'TUSC (自動アップロード)',
+	'option-manual' => '手動アップロード',
 	'preview' => 'プレビュー',
+	'translate' => '翻訳',
+	'svginput-label' => 'SVGファイル',
+	'uploading' => 'アップロード中',
+	'editdescriptionpage' => '新しい説明ページを編集',
+	'author-complete' => '著者についての情報を記入してください ！',
+	'preview-hide' => 'プレビューを隠す',
+	'preview-refresh' => 'プレビューを更新',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -1050,7 +1065,7 @@ $messages['ksh'] = array(
 	'translate' => 'Övversäze',
 	'translate-instructions' => 'Enjangsdateije kam_mer met dänne iehr Name aanjävve (för e Beishpell „<code lang="en">$1</code>“) udder med enem kumplätte <i lang="en">URL</i> (för e Beishpell „<code lang="en">$2</code>“). Em eezde Fall looere mer op <i lang="en">Wikimedia Commons</i> donoh. Em zweite Fall kam_mer en <i lang="en">SVG</i>-Dattei fun ene ander ẞait udder uss_enem andere Wiki övversäze.',
 	'svginput-label' => 'De <i lang="en">SVG</i>-Dattei',
-	'stats-footer' => 'Heh dat Projramm es zick $2 jebruch woode, öm ätwa $1 Datteije ze övversäze.',
+	'stats-footer' => 'Heh dat Projramm es jebruch woode, öm ätwa {{PLURAL:$1|ein Dattei|$1 Datteije|noll Datteije}} zick $2 ze övversäze.',
 	'uploading' => 'Aam Huhlaade',
 	'upload-complete' => 'Dat Huhlaade hät jeflupp, un dat Beld sullt jäz onger „$1“ shtonn.',
 	'editdescriptionpage' => 'Donn di Sigg övver dat Beld op der neue Shtand bränge!',
@@ -1064,7 +1079,7 @@ $messages['ksh'] = array(
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1666,7 +1681,7 @@ $messages['sl'] = array(
 	'finalise' => 'Dokončajte podrobnosti',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1704,7 +1719,7 @@ $messages['sr-ec'] = array(
 	'finalise' => 'Доврши детаље',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

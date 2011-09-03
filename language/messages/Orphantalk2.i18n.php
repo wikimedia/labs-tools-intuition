@@ -596,6 +596,20 @@ $messages['it'] = array(
 	'resultslimited' => 'I risultati sono stati limitati a $1 pagine.',
 );
 
+/** Japanese (日本語)
+ * @author Schu
+ */
+$messages['ja'] = array(
+	'hideredirects' => 'リダイレクトを隠す',
+	'hidesubpages' => 'サブページを隠す',
+	'limit' => '制限',
+	'page' => 'ページ',
+	'output' => '出力',
+	'tools-delete' => '削除',
+	'tools-links' => 'リンク',
+	'tools-subject' => '件名',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
@@ -626,7 +640,7 @@ $messages['ksh'] = array(
 	'select-wiki-first' => '(donn et eez e Wiki ußsöhke)',
 	'hideredirects' => 'Ömleidunge fott lohße',
 	'hidesubpages' => 'Ongersigge fott lohße',
-	'limit' => 'Donn de Aanzahl Siggge en dä Leß bejränze op',
+	'limit' => 'Donn de Aanzahl en dä Leß bejränze op',
 	'page' => 'Klaafsigg',
 	'redirect' => 'Ömleidong?',
 	'output' => 'Dat kohm eruß:',

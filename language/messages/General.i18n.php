@@ -643,8 +643,14 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Schu
  */
 $messages['ja'] = array(
+	'hello' => 'こんにちは',
+	'welcome' => 'ようこそ',
+	'toolversionstamp' => 'バージョン $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => '名前空間',
 	'form-reset' => '再設定',
 );
 
@@ -688,12 +694,12 @@ $messages['ksh'] = array(
 	'namespace' => 'Appachtemang',
 	'form-submit' => 'Lohß Jonn!',
 	'form-reset' => 'Et Enjävve neu Aanfange!',
-	'years' => 'Johr(e)',
-	'weeks' => 'Woch(e)',
-	'days' => 'Daach/Dääsch',
-	'hours' => 'Shtund(e)',
-	'minutes' => 'Menutte',
-	'seconds' => 'Sekonde',
+	'years' => '{{PLURAL: $1|Johr|Johre|Johre}}',
+	'weeks' => '{{PLURAL: $1|Woch|Woche|Woche}}',
+	'days' => '{{PLURAL:$1|Daach|Dääsch|Daach}}',
+	'hours' => '({{PLURAL:$1|Shtund|Shtunde|Shtunde}})',
+	'minutes' => '{{PLURAL:$1|Menutt|Menutte|Menutte}}',
+	'seconds' => '{{PLURAL:$1|Sekund|Sekunde|Sekund}}',
 	'last-modified-date' => 'Et läz jeändert aam $1',
 	'view-source' => 'Der Quelltäx vum Projramm',
 );

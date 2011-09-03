@@ -778,6 +778,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Schu
  * @author Whym
  */
 $messages['ja'] = array(
@@ -793,6 +794,7 @@ $messages['ja'] = array(
 	'renewcookies-success' => 'クッキーを更新しました。以降$1のあいだ有効です。',
 	'tab-overview' => '概要',
 	'tab-settings' => '設定',
+	'tab-demo' => 'デモ',
 );
 
 /** Korean (한국어)

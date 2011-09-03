@@ -274,10 +274,12 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Schu
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'alws-selectwiki' => '（ウィキを選択）',
+	'form-legend-settings' => '設定',
 );
 
 /** Khmer (ភាសាខ្មែរ) */

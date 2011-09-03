@@ -277,6 +277,16 @@ $messages['ia'] = array(
 	'time-label' => 'Tempore prendite pro executar le commando',
 );
 
+/** Japanese (日本語)
+ * @author Schu
+ */
+$messages['ja'] = array(
+	'enter-details' => '詳細を入力',
+	'language-label' => '言語',
+	'namespace-label' => '名前空間',
+	'pagename-label' => 'ページ名 (名前空間を除く)',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
