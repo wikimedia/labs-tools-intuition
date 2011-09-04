@@ -905,12 +905,12 @@ $messages['pdc'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'hello' => 'Hej',
+	'hello' => 'Witaj',
 	'welcome' => 'Witaj',
-	'toolversionstamp' => 'Wersja $1 ($2)',
+	'toolversionstamp' => 'Wersja $1 z $2',
 	'etc' => 'itp.',
 	'namespace' => 'Przestrzeń nazw',
-	'form-submit' => 'Przejdź',
+	'form-submit' => 'Dalej',
 	'form-reset' => 'Wyczyść',
 	'years' => '{{PLURAL:$1|rok|lata|lat}}',
 	'weeks' => '{{PLURAL:$1|tydzień|tygodnie|tygodni}}',
@@ -918,7 +918,7 @@ $messages['pl'] = array(
 	'hours' => '{{PLURAL:$1|godzina|godziny|godzin}}',
 	'minutes' => '{{PLURAL:$1|minuta|minuty|minut}}',
 	'seconds' => '{{PLURAL:$1|sekunda|sekundy|sekund}}',
-	'last-modified-date' => 'Data ostatniej modyfikacji: $1',
+	'last-modified-date' => 'Ostatnia modyfikacja $1',
 	'view-source' => 'Tekst źródłowy',
 );
 

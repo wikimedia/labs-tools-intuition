@@ -865,7 +865,7 @@ $messages['pdc'] = array(
  */
 $messages['pl'] = array(
 	'title' => 'OrphanTalk2',
-	'select-wiki-first' => '(najpierw wybierz odpowiednią wiki)',
+	'select-wiki-first' => '(najpierw wybierz wiki)',
 	'hideredirects' => 'Ukryj przekierowania',
 	'hidesubpages' => 'Ukryj podstrony',
 	'limit' => 'Ograniczenie',
@@ -880,7 +880,7 @@ $messages['pl'] = array(
 	'tools-curr' => 'bież.',
 	'tools-globalusage' => 'globalne wykorzystanie pliku',
 	'deletesummary' => 'Usuwanie osieroconych stron dyskusji przy użyciu $1',
-	'noresults' => 'Nie odnaleziono osieroconych stron dyskusji odpowiadających wybranemu zapytaniu dla tej przestrzeni nazw.',
+	'noresults' => 'Na tej wiki nie odnaleziono osieroconych stron dyskusji odpowiadających wybranemu zapytaniu dla tej przestrzeni nazw.',
 	'resultslimited' => 'Wyniki zostały ograniczone do $1 stron.',
 );
 

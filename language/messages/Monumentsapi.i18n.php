@@ -279,6 +279,7 @@ $messages['lb'] = array(
  * @author Eitvys200
  */
 $messages['lt'] = array(
+	'search-table-th-field' => 'Laukas',
 	'search-table-th-filter' => 'Filtras',
 	'search-table-th-search' => 'Paieška',
 );

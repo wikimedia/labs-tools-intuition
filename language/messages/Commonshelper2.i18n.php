@@ -1747,8 +1747,8 @@ $messages['pl'] = array(
 	'error_tusc_failed' => 'Weryfikacja TUSC nie powiodła się!',
 	'error_only_commons' => 'Bezpośrednie przesyłanie działa tylko na Wikimedia Commons!',
 	'error_upload_file' => 'Oryginalny plik nie może zostać pobrany.',
-	'help_jira' => '$1JIRA (musisz posiadać konto)$2 (Projekt: Commonshelper2)',
-	'help_mail' => 'Wyślij e-mail do $1',
+	'help_jira' => '$1JIRA (musisz posiadać konto)$2 (Projekt Commonshelper2)',
+	'help_mail' => 'Wyślij e‐mail do $1',
 	'help_commons' => '$1Dodaj wiadomość na Commons$2',
 );
 
@@ -1913,6 +1913,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author DarkSTALKER
  * @author Lvova
  */
 $messages['ru'] = array(
@@ -1928,6 +1929,7 @@ $messages['ru'] = array(
 	'move_file_from_com' => 'Переместить файл с Викисклада в проект',
 	'categories' => 'Категории',
 	'remove_cats' => 'Удалить существующие категории',
+	'use_checkusage' => 'Используйте $1CommonSense$2, чтобы предложить новые категории',
 	'tusc_user' => 'имя пользователя в TUSC',
 	'tusc_pass' => 'Пароль TUSC',
 	'do_it' => 'Сделать это',

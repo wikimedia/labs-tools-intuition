@@ -330,6 +330,13 @@ $messages['lb'] = array(
 	'time-label' => "Zäit déi gebraucht gouf fir d'Aufgab ze maachen",
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'enter-details' => 'Įveskite detales',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -460,6 +467,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author DarkSTALKER
  * @author Lvova
  */
 $messages['ru'] = array(
@@ -469,6 +477,7 @@ $messages['ru'] = array(
 	'pagename-label' => 'Имя страницы (без пространства имён)',
 	'transclusion-count-label' => 'Количество включений',
 	'error-suggestion' => 'Быть может, вы опечатались в названии страницы или использовали неверный регистр букв?',
+	'time-label' => 'Время, необходимое для выполнения команды',
 );
 
 /** Slovenian (Slovenščina)

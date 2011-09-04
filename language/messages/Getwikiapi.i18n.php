@@ -353,9 +353,9 @@ $messages['no'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'formats-heading' => 'Formaty wyjścia:',
+	'formats-heading' => 'Formaty wyjścia',
 	'input' => 'Dane wejściowe',
-	'label-wikiids' => 'Wybierz swoją wiki',
+	'label-wikiids' => 'Identyfikatory wiki',
 	'no-matches' => 'Brak wyników odpowiadających zapytaniu „$1”',
 	'output' => 'Wynik dla „$1”',
 );
@@ -427,7 +427,7 @@ $messages['sl'] = array(
 	'output' => 'Izhod za »$1«',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -438,7 +438,7 @@ $messages['sr-ec'] = array(
 	'output' => 'Излаз за „$1“',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(

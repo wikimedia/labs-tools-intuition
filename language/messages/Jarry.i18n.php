@@ -313,7 +313,7 @@ $messages['sl'] = array(
 	'error-form-empty' => 'Eno ali več obveznih polj ni bilo izpolnjenih. Pred nadaljevanjem jih morate izpolniti.',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -323,7 +323,7 @@ $messages['sr-ec'] = array(
 	'error-form-empty' => 'Нисте попунили сва обавезна поља. Урадите то пре него што наставите.',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
