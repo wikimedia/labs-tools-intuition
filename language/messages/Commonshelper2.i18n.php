@@ -1266,6 +1266,8 @@ $messages['ksh'] = array(
 	'error_commons_user' => 'Öm kloh ze maache, wä di Dattei övvverdraare hät, donn Dinge Metmaacher-Name op Wikimedia Commons em Täx övver di Dattei ongerbränge.',
 	'error_upload_users' => 'Huh laade künne bloß e paa Metmacher en der Prööf_Zigg!',
 	'error_upload_file' => 'De Ojinaal Dattei kam_mer nit eronger laade.',
+	'help_intro' => 'Wann De ene Fähler mälde wells, en Verbäßerong vörschlonn, udder en Frooch loßß wääde, häß De heh di Müjjeleschkeite:',
+	'help_jira' => '$1<i lang="en">JIRA</i> (Doh bruchs De ene Zohjang för)$2 (Projäk: <i lang="en">Commonshelper2</i>)',
 	'help_mail' => 'Schegg en <i lang="en">e-mail</i> aan &lt;$1>',
 	'help_commons' => 'Donn en  $1Noheesch op Commons schrieve$2',
 );

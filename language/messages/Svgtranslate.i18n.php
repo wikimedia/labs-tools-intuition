@@ -198,6 +198,7 @@ $messages['az'] = array(
 	'th-password' => 'Parol',
 	'th-method' => 'Üsul',
 	'translate' => 'Tərcümə et',
+	'svginput-label' => 'SVG fayl',
 );
 
 /** Belarusian (Беларуская)
@@ -1075,7 +1076,7 @@ $messages['ksh'] = array(
 	'preview-refresh' => 'Donn de Vör-Aansesch op der neue Shtand bränge!',
 	'error-must-accept' => 'Öm med em tiräk Huhlaade wiggger ze maache. moß De dä Bedengonge för der Jebruch zohshtemme.',
 	'error-tusc-failed' => 'Dem <i lang="en">TUSC</i> sing Övverprööfung es donävve jejange: Dä Name als Metmaacher udder et Paßwoot hät nit jeshtemmp.',
-	'description-license' => 'Donn  en Lizänz ußwähle',
+	'description-license' => 'Donn die Dattei koot beschrieve un en Lizänz ußwähle',
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
