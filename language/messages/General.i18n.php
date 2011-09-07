@@ -102,6 +102,16 @@ $messages['ar'] = array(
 	'view-source' => 'شاهد المصدر',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Rafy
+ */
+$messages['arc'] = array(
+	'years' => '{{PLURAL: $1|ܫܢܬܐ|ܫܢܬ̈ܐ}}',
+	'weeks' => '{{PLURAL: $1|ܫܒܘܥܐ|ܫܒܘܥ̈ܐ}}',
+	'days' => '{{PLURAL:$1|ܝܘܡܐ|ܝܘܡܬ̈ܐ}}',
+	'hours' => '{{PLURAL:$1|ܫܥܬܐ|ܫܥܬ̈ܐ}}',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

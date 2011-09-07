@@ -57,7 +57,8 @@ $messages['qqq'] = array(
 	'cookie-expiration' => 'Label in the dashboard\'s "current settings"-tab. This is the time until the language memory (cookies) will expire.',
 	'clearcookies-success' => 'Message displayed after cookies are cleared.',
 	'renewcookies-success' => 'This message is shown after the cookies are renewed. The $1 variable contains the period of time until the cookies will expire (eg. "30 days")..',
-	'tab-overview' => 'Dashboard tab for "Overview" which shows the current settings.',
+	'tab-overview' => 'Dashboard tab for "Overview" which shows the current settings.
+{{Identical|Overview}}',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
 {{Identical|Settings}}',
 	'tab-about' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.
