@@ -1906,6 +1906,7 @@ $messages['roa-tara'] = array(
 	'upload_submit' => 'Careche!',
 	'target_wiki' => "'a uicchi de destinazione",
 	'standard_language' => 'en',
+	'error_bot_blocked' => "'U bot de le carecaminde jè bloccate sus a Wikimedia Commons.",
 	'error_tusc_failed' => 'verifiche de TUSC fallite!',
 	'upload_control_text' => 'Pe piacere verifeche \'u teste nuève e cazze "$1" ce jè tutte apposte!',
 	'error_upload_file' => "'U file origgenale non ge pò essere scarecate.",

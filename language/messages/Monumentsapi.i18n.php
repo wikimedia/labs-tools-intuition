@@ -91,6 +91,13 @@ $messages['bg'] = array(
 	'search-table-th-search' => 'Търсене',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'search-table-th-search' => 'অনুসন্ধান',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */

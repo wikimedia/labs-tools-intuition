@@ -108,6 +108,14 @@ $messages['bg'] = array(
 	'pagename-label' => 'Име на страницата (без именно пространство)',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'language-label' => 'ভাষা',
+	'namespace-label' => 'নামস্থান',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
