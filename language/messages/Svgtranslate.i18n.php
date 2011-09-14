@@ -1131,6 +1131,7 @@ $messages['lb'] = array(
 	'preview-hide' => 'Preview verstoppen',
 	'preview-refresh' => 'Preview aktualiséieren',
 	'error-must-accept' => "Fir mam direkten Eropluede virunzefuere musst Dir d'Conditioune vum Benotzen akzeptéieren.",
+	'error-tusc-failed' => 'TUSC-Validatioun feelgeschlo: Benotzernumm oder Passwuert ass net richteg.',
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 	'finalise' => 'Detailer kompletéieren',
 );

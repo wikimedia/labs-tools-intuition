@@ -241,6 +241,15 @@ $messages['inh'] = array(
 	'search-table-th-search' => 'Лаха',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'search-table-th-field' => 'Campo',
+	'search-table-th-filter' => 'Filtro',
+	'search-table-th-search' => 'Cerca',
+);
+
 /** Japanese (日本語)
  * @author Schu
  */

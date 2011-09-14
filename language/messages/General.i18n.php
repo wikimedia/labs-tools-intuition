@@ -647,6 +647,8 @@ $messages['it'] = array(
 	'weeks' => '{{PLURAL: $1|settimana|settimane}}',
 	'days' => '{{PLURAL: $1|giorno|giorni}}',
 	'hours' => '{{PLURAL: $1|ora|ore}}',
+	'minutes' => '{{PLURAL:$1|minuto|minuti}}',
+	'seconds' => '{{PLURAL:$1|secondo|secondi}}',
 	'last-modified-date' => 'Ultima modifica: $1',
 	'view-source' => 'Visualizza sorgente',
 );

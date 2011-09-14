@@ -285,6 +285,16 @@ $messages['ia'] = array(
 	'time-label' => 'Tempore prendite pro executar le commando',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'language-label' => 'Lingua',
+	'namespace-label' => 'Namespace',
+	'transclusion-count-label' => 'Numero di inclusioni',
+	'transclusion-count' => '$1 inclusioni trovate.',
+);
+
 /** Japanese (日本語)
  * @author Schu
  */

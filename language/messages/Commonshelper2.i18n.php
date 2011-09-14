@@ -1653,10 +1653,11 @@ $messages['nl'] = array(
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
  * @author Nghtwlkr
  */
 $messages['no'] = array(
-	'attention' => 'Bemerk',
+	'attention' => 'Merk',
 	'description' => 'Et verktøy for å overføre filer fra Wikimedia-prosjekter til Wikimedia Commons',
 	'change_meta' => 'Endre $1kategori- og malinnstillinger$2 for $3',
 	'jira_link' => 'Rapporter en feil eller foreslå en funksjon',
