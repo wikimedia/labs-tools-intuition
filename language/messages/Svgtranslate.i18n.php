@@ -116,6 +116,7 @@ $messages['af'] = array(
 	'svginput-label' => 'SVG-lêer',
 	'preview-hide' => 'Versteek voorskou',
 	'preview-refresh' => 'verfris voorskou',
+	'description-license' => 'Kies beskrywing en lisensie',
 	'finalise' => 'Finaliseer besonderhede',
 );
 

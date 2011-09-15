@@ -83,6 +83,7 @@ $messages['af'] = array(
 	'current-settings' => 'Huidige instellings',
 	'current-language' => 'Huidig gekose taal',
 	'settings-legend' => 'Instellings',
+	'choose-language' => "Kies 'n taal",
 	'tab-overview' => 'Oorsig',
 	'tab-settings' => 'Instellings',
 	'tab-about' => 'Aangaande',

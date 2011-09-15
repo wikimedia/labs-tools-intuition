@@ -137,14 +137,18 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
  */
 $messages['af'] = array(
 	'attention' => 'Let op',
+	'jira_link' => "Rapporteer 'n fout of stel 'n verbetering voor",
 	'language' => 'Taal',
 	'project' => 'Project',
 	'source_file' => 'Bronlêer',
 	'target_file' => 'Doellêer',
 	'categories' => 'Kategorieë',
+	'remove_cats' => 'Verwyder bestaande kategorieë',
 	'tusc_user' => 'TUSC-gebruikersnaam',
 	'tusc_pass' => 'TUSC-wagwoord',
 	'do_it' => 'Doen dit',
+	'error_not_exists' => 'Die bronlêer bestaan ​​nie!',
+	'error_on_commons' => 'Die bronlêer is reeds op $1!',
 	'original_wikitext' => 'Oorspronklike wikiteks',
 	'new_wikitext' => 'Nuwe wikiteks',
 	'new_filename' => 'Nuwe lêernaam:',
