@@ -626,7 +626,7 @@ class TsIntuition {
 			if ( $domain === false )
 				$domain = $this->getDomain();
 			
-			$from = $this->messageBlob[$domain];
+			$from = isset( $this->messageBlob[$domain] ) ? $this->messageBlob[$domain] : array();
 		}
 		
 		$return = array();
