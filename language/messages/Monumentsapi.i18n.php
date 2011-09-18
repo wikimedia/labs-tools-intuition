@@ -16,6 +16,8 @@ $messages = array();
  */
 $messages['en'] = array(
 	'title' => 'Monuments API', // Ignore
+	'search-title' => 'Monuments search',
+	'search-monuments-database' => 'Search the monuments database',
 	'search-table-th-field' => 'Field',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Search',
@@ -136,8 +138,11 @@ $messages['de'] = array(
 
 /** Spanish (Español)
  * @author Fitoschido
+ * @author Platonides
  */
 $messages['es'] = array(
+	'search-title' => 'Búsqueda de monumentos',
+	'search-monuments-database' => 'Buscar la base de datos de monumentos',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Buscar',
