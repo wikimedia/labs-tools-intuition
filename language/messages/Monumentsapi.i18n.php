@@ -21,6 +21,8 @@ $messages['en'] = array(
 	'search-table-th-field' => 'Field',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Search',
+	'filter-all-countries' => 'All countries',
+	'filter-all-languages' => 'All languages',
 );
 
 /** Message documentation (Message documentation)
@@ -30,6 +32,8 @@ $messages['qqq'] = array(
 	'search-table-th-field' => 'Table header for the Field-column in the search table. {{Identical|Field}}',
 	'search-table-th-filter' => '{{Identical|Filter}}',
 	'search-table-th-search' => '{{Identical|Search}}',
+	'filter-all-countries' => 'Entry for the countries filter selecting all countries',
+	'filter-all-languages' => 'Entry for the language filter selecting all languages',
 );
 
 /** Afrikaans (Afrikaans)
