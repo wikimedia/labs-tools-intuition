@@ -29,7 +29,7 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'search-title' => 'Title (window caption) of http://wolfsbane.toolserver.org/~erfgoed/api/',
+	'search-title' => 'Title (window caption) of http://toolserver.org/~erfgoed/api/',
 	'search-monuments-database' => 'Title (h1) of the page',
 	'search-table-th-field' => 'Table header for the Field-column in the search table. {{Identical|Field}}',
 	'search-table-th-filter' => '{{Identical|Filter}}',
