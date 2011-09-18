@@ -108,11 +108,16 @@ $messages['bn'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
+	'search-title' => 'Klask monumantoù',
+	'search-monuments-database' => 'Klask e diaz roadennoù ar monumantoù',
 	'search-table-th-field' => 'Maezienn',
 	'search-table-th-filter' => 'Sil',
 	'search-table-th-search' => 'Klask',
+	'filter-all-countries' => 'An holl vroioù',
+	'filter-all-languages' => 'An holl yezhoù',
 );
 
 /** Catalan (Català)
@@ -137,9 +142,13 @@ $messages['da'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
+	'search-title' => 'Sehenswürdigkeitensuche',
+	'search-monuments-database' => 'Die Datenbank der Sehenswürdigkeiten durchsuchen',
 	'search-table-th-field' => 'Feld',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Suchen',
+	'filter-all-countries' => 'Alle Länder',
+	'filter-all-languages' => 'Alle Sprachen',
 );
 
 /** Spanish (Español)
@@ -240,9 +249,13 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
+	'search-title' => 'Recerca de monumentos',
+	'search-monuments-database' => 'Cercar in le base de datos de monumentos',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Recerca',
+	'filter-all-countries' => 'Tote le paises',
+	'filter-all-languages' => 'Tote le linguas',
 );
 
 /** Ingush (ГІалгІай Ğalğaj)
@@ -422,9 +435,13 @@ $messages['ru'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'search-title' => 'Iskanje spomenikov',
+	'search-monuments-database' => 'Preišči zbirko podatkov o spomenikih',
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Iskanje',
+	'filter-all-countries' => 'Vse države',
+	'filter-all-languages' => 'Vsi jeziki',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)

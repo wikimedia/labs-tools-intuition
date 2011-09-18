@@ -374,6 +374,7 @@ $messages['el'] = array(
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Fitoschido
+ * @author Platonides
  */
 $messages['es'] = array(
 	'dateformat' => '%d de %B de %Y',
@@ -388,6 +389,8 @@ $messages['es'] = array(
 	'weeks' => '{{PLURAL: $1|semana|semanas}}',
 	'days' => '{{PLURAL: $1|día|días}}',
 	'hours' => '{{PLURAL: $1|hora|horas}}',
+	'minutes' => '{{PLURAL: $1|minuto|minutos}}',
+	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 	'last-modified-date' => 'Última modificación: $1',
 	'view-source' => 'Ver fuente',
 );

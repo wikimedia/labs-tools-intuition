@@ -589,6 +589,7 @@ $messages['de-formal'] = array(
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Fitoschido
+ * @author Platonides
  */
 $messages['es'] = array(
 	'attention' => 'Atención',
@@ -612,6 +613,7 @@ $messages['es'] = array(
 	'do_it' => 'Hazlo',
 	'error_transfer_usr' => 'No ha definido un nombre de usuario de Wikimedia Commons',
 	'error_not_exists' => '¡El archivo de origen no existe!',
+	'error_on_commons' => '¡El fichero ya se encuentra en $1!',
 	'error_file_exists' => 'El archivo ya existe en $3 como «$1$4$2»!',
 	'error_diff_exists' => '¡Un archivo de destino diferente existe en el wiki de destino con el mismo nombre!',
 	'error_no_meta' => 'No se encontraron metadatos del wiki de origen. $1Añade/actualiza los metadatos del proyecto$2',
@@ -632,6 +634,10 @@ $messages['es'] = array(
 	'error_commons_user' => 'Para identificar al usuario de transferencia, tu nombre de usuario de Wikimedia Commons tiene que estar en la descripción.',
 	'error_upload_users' => 'La función de carga solo está disponible para algunos usuarios durante el período de prueba.',
 	'error_upload_file' => 'No se puede descargar el archivo original.',
+	'help_intro' => 'Si desea informar de un error, sugerir una nueva característica o realizar una pregunta, puedes usar una de las siguientes formas de contacto:',
+	'help_jira' => '$1A través de JIRA (necesita una cuenta)$2  (proyecto: Commonshelper2)',
+	'help_mail' => 'Enviando un e-mail a $1',
+	'help_commons' => '$1Dejando un mensaje en Commons$2',
 );
 
 /** Basque (Euskara)

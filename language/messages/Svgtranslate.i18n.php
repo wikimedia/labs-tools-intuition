@@ -516,6 +516,7 @@ $messages['el'] = array(
 
 /** Spanish (Español)
  * @author Fitoschido
+ * @author Platonides
  */
 $messages['es'] = array(
 	'title' => 'SVG Translate',
@@ -536,11 +537,13 @@ $messages['es'] = array(
 	'option-manual' => 'Carga manual',
 	'preview' => 'Previsualización',
 	'translate' => 'Traducir',
+	'translate-instructions' => 'La entrada puede proporcionarse tanto como un nombre de archivo (como "$1") como usando una URL completa (como "$2"). En el primer caso se tomará como origen Wikimedia Commons. Para traducir una imagen SVG de otro sitio o wiki, es preciso usar una url completa.',
 	'svginput-label' => 'Archivo SVG',
 	'stats-footer' => 'Esta herramienta se ha utilizado para traducir aproximadamente $1 archivos desde $2 .',
 	'uploading' => 'Subiendo',
 	'upload-complete' => 'La carga ha finalizado correctamente. La imagen debe estar ahora en $1',
 	'editdescriptionpage' => 'Editar la nueva página de descripción',
+	'disclaimer' => 'Se recogerán de forma privada algunos datos anónimos para propósitos estadísticos. En caso de proporcionarse, los nombres de usuario de TUSC también se almacenarán como asistencia en caso de vandalismo. Las contraseñas no se almacenan en ningún caso.',
 	'author-complete' => '¡Por favor, completa la información del autor!',
 	'preview-hide' => 'Ocultar previsualización',
 	'preview-refresh' => 'Actualizar previsualización',

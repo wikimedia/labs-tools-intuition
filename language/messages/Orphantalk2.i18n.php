@@ -653,7 +653,7 @@ $messages['ksh'] = array(
 	'tools-globalusage' => 'En alle Wikis',
 	'deletesummary' => 'Alleinjeblevve Klaafsigg fott jeschmeße met „$1“.',
 	'noresults' => 'Kein alleinjeblevve Klaafsigge en däm Wiki en däm Appachtemang paße zoh Dinge Enshtällonge.',
-	'resultslimited' => 'Heh di Leß es bejränz op $1 Sigg(e)',
+	'resultslimited' => 'Heh di Leß es bejränz op {{PLURAL:$1|ein Sigg|$1 Sigg|kein Sigge}}',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
