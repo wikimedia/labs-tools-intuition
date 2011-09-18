@@ -148,7 +148,7 @@ $messages['de'] = array(
  */
 $messages['es'] = array(
 	'search-title' => 'Búsqueda de monumentos',
-	'search-monuments-database' => 'Buscar la base de datos de monumentos',
+	'search-monuments-database' => 'Buscar en la base de datos de monumentos',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Buscar',
