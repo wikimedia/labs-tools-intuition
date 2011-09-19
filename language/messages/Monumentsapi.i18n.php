@@ -27,15 +27,16 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Krinkle
+ * @author Siebrand
  */
 $messages['qqq'] = array(
-	'search-title' => 'Title (window caption) of http://toolserver.org/~erfgoed/api/',
-	'search-monuments-database' => 'Title (h1) of the page',
+	'search-title' => 'Title (window caption) of http://toolserver.org/~erfgoed/api/.',
+	'search-monuments-database' => 'Title (h1) of the page.',
 	'search-table-th-field' => 'Table header for the Field-column in the search table. {{Identical|Field}}',
 	'search-table-th-filter' => '{{Identical|Filter}}',
 	'search-table-th-search' => '{{Identical|Search}}',
-	'filter-all-countries' => 'Entry for the countries filter selecting all countries',
-	'filter-all-languages' => 'Entry for the language filter selecting all languages',
+	'filter-all-countries' => 'Entry for the countries filter selecting all countries.',
+	'filter-all-languages' => 'Entry for the language filter selecting all languages.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -213,9 +214,13 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
+	'search-title' => 'Procura de monumentos',
+	'search-monuments-database' => 'Procurar na base de datos de monumentos',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Procurar',
+	'filter-all-countries' => 'Todos os países',
+	'filter-all-languages' => 'Todas as linguas',
 );
 
 /** Hebrew (עברית)
@@ -336,18 +341,26 @@ $messages['lv'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
+	'search-title' => 'Пребарување на споменици',
+	'search-monuments-database' => 'Пребарување на базата на споменици',
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Филтер',
 	'search-table-th-search' => 'Пребарување',
+	'filter-all-countries' => 'Сите земји',
+	'filter-all-languages' => 'Сите јазици',
 );
 
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'search-title' => 'Carian monumen',
+	'search-monuments-database' => 'Cari pangkalan data monumen',
 	'search-table-th-field' => 'Medan',
 	'search-table-th-filter' => 'Penapis',
 	'search-table-th-search' => 'Cari',
+	'filter-all-countries' => 'Semua negara',
+	'filter-all-languages' => 'Semua bahasa',
 );
 
 /** Dutch (Nederlands)
@@ -355,9 +368,13 @@ $messages['ms'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
+	'search-title' => 'Monumenten zoeken',
+	'search-monuments-database' => 'De database met monumenten doorzoeken',
 	'search-table-th-field' => 'Veld',
 	'search-table-th-filter' => 'Filteren',
 	'search-table-th-search' => 'Zoeken',
+	'filter-all-countries' => 'Alle landen',
+	'filter-all-languages' => 'Alle talen',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -506,9 +523,13 @@ $messages['uk'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
+	'search-title' => 'Tìm kiếm đài tưởng niệm',
+	'search-monuments-database' => 'Tìm kiếm cơ sở dữ liệu đài tưởng niệm',
 	'search-table-th-field' => 'Trường',
 	'search-table-th-filter' => 'Bộ lọc',
 	'search-table-th-search' => 'Tìm kiếm',
+	'filter-all-countries' => 'Tất cả các quốc gia',
+	'filter-all-languages' => 'Tất cả các ngôn ngữ',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
