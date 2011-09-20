@@ -12,4 +12,5 @@ $domains = array(
 	'Templatecount' => 'Templatecount.i18n.php',
 	'Toolserverstatus' => 'ToolserverStatus.i18n.php',
 	'Tsintuition' => 'Tsintuition.i18n.php',
+	'Wlm' => 'Wlm.i18n.php',
 );
