@@ -85,12 +85,18 @@ $messages['be'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ * @author Jim-by
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
+	'search-title' => 'Пошук славутасьцяў',
+	'search-monuments-database' => 'Пошук у базе зьвестак славутасьцяў',
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Фільтар',
 	'search-table-th-search' => 'Шукаць',
+	'filter-all-countries' => 'Усе краіны',
+	'filter-all-languages' => 'Усе мовы',
 );
 
 /** Bulgarian (Български)
@@ -201,12 +207,17 @@ $messages['fi'] = array(
 );
 
 /** French (Français)
+ * @author Hashar
  * @author Peter17
  */
 $messages['fr'] = array(
+	'search-title' => 'Recherche de monuments',
+	'search-monuments-database' => 'Rechercher parmi les monuments',
 	'search-table-th-field' => 'Champ',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Rechercher',
+	'filter-all-countries' => 'Tout pays',
+	'filter-all-languages' => 'Toute langue',
 );
 
 /** Galician (Galego)
@@ -390,9 +401,13 @@ $messages['no'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
+	'search-title' => 'Wyszukiwanie zabytków',
+	'search-monuments-database' => 'Przeszukiwanie bazy danych zabytków',
 	'search-table-th-field' => 'Pole',
 	'search-table-th-filter' => 'Filtr',
 	'search-table-th-search' => 'Szukaj',
+	'filter-all-countries' => 'Wszystkie kraje',
+	'filter-all-languages' => 'Wszystkie języki',
 );
 
 /** Pashto (پښتو)
