@@ -18,7 +18,7 @@ $messages['en'] = array(
 	'title' => 'WLM files',
 
 	/* uploads.php */
-	'file' => 'File',
+	'file' => 'Image',
 	'monument-type' => 'Monument type',
 	'monument-id' => 'Monument id',
 	'province' => 'Province',
