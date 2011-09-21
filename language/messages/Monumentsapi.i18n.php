@@ -326,9 +326,13 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'search-title' => 'Monumenter sichen',
+	'search-monuments-database' => 'An der Datebank vun de Monumenter sichen',
 	'search-table-th-field' => 'Feld',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sichen',
+	'filter-all-countries' => 'All Länner',
+	'filter-all-languages' => 'All Sproochen',
 );
 
 /** Lithuanian (Lietuvių)
@@ -480,18 +484,26 @@ $messages['sl'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
+	'search-title' => 'Претрага споменика',
+	'search-monuments-database' => 'Претрага базе података са споменицима',
 	'search-table-th-field' => 'Поље',
 	'search-table-th-filter' => 'Филтер',
 	'search-table-th-search' => 'Претрага',
+	'filter-all-countries' => 'све земље',
+	'filter-all-languages' => 'сви језици',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
+	'search-title' => 'Pretraga spomenika',
+	'search-monuments-database' => 'Pretraga baze podataka sa spomenicima',
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Pretraga',
+	'filter-all-countries' => 'sve zemlje',
+	'filter-all-languages' => 'svi jezici',
 );
 
 /** Swedish (Svenska)
