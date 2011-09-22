@@ -64,7 +64,8 @@ $messages['qqq'] = array(
 	'monument-id' => 'Header for the column showing the monument id',
 	'province' => 'Header for the column showing the monument province',
 	'competes' => 'Header for the column showing if the monument takes part in the competition',
-	'author' => 'Header for the column showing the author listed for that image',
+	'author' => 'Header for the column showing the author listed for that image.
+{{Identical|Author}}',
 	'upload-time' => 'Upload time in CEST',
 	'concursa' => 'Entry for the competes column if the monuments takes part in WLM (also see: no-concursa)',
 	'no-concursa' => 'Entry for the competes column if the monuments does not take part in WLM (also see: concursa)',
@@ -97,6 +98,11 @@ $messages['be-tarask'] = array(
 	'monument-type' => 'Тып славутасьці',
 	'monument-id' => 'Ідэнтыфікатар славутасьці',
 	'province' => 'Правінцыя/вобласьць',
+	'competes' => 'Спаборніцтвы',
+	'author' => 'Аўтар',
+	'upload-time' => 'Час загрузкі',
+	'concursa' => 'Прыняць удзел у «Вікі любіць славутасьці»',
+	'no-concursa' => 'Па-за спаборніцтвам «Вікі любіць славутасьці»',
 );
 
 /** German (Deutsch)
@@ -316,6 +322,29 @@ $messages['nl'] = array(
 	'bic-list' => 'Lijst',
 	'bic-gallery' => 'Galerij',
 	'gallery-header' => 'Afbeeldingen voor het monument met ID $1.',
+);
+
+/** Polish (Polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'file' => 'Zdjęcie',
+	'monument-type' => 'Typ zabytku',
+	'monument-id' => 'Id zabytku',
+	'province' => 'Województwo',
+	'author' => 'Autor',
+	'upload-time' => 'Czas przesłania',
+	'concursa' => 'Weź udział w WLM',
+	'not-available' => 'Niedostępne',
+	'date-unknown' => 'Nieznana',
+	'view-uncategorized-images' => 'Zobacz nieskategoryzowane zdjęcia',
+	'show-images-all' => 'Pokaż wszystkie zdjęcia',
+	'search-monuments' => 'Szukaj zabytków',
+	'id-none' => '(Brak)',
+	'monument-heading' => 'Zabytek',
+	'count-heading' => 'Fotografie',
+	'bic-list' => 'Lista',
+	'bic-gallery' => 'Galeria',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
