@@ -493,8 +493,12 @@ $messages['tl'] = array(
 	'form-legend-settings' => 'Mga katakdaan',
 );
 
-/** Turkish (Türkçe) */
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
 $messages['tr'] = array(
+	'alws-selectwiki' => '(viki seçiniz)',
+	'alws-group-mustused' => 'En çok kullanılan vikiler',
 	'form-legend-settings' => 'Ayarlar',
 );
 

@@ -353,6 +353,13 @@ $messages['tl'] = array(
 	'error-form-empty' => 'Isa o mahigit pang kinakailangang mga kahanayan ang naiwanang walang laman. Dapat mong punuin ang mga ito bago magpatuloy.',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'bugs' => 'hata raporları ve özellik istekleri',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

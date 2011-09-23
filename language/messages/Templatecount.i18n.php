@@ -582,6 +582,13 @@ $messages['tl'] = array(
 	'time-label' => 'Panahong nagamit upang maisagawa ang utos',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'language-label' => 'Dil',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

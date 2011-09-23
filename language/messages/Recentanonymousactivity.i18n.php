@@ -285,6 +285,13 @@ $messages['tl'] = array(
 	'title' => 'Kamakailang gawain ng hindi nagpapakilala',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'title' => 'Son anonim etkinliği',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

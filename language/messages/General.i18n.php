@@ -1206,6 +1206,7 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Emperyan
  * @author Vito Genovese
  */
 $messages['tr'] = array(
@@ -1216,10 +1217,12 @@ $messages['tr'] = array(
 	'namespace' => 'Ad alanı',
 	'form-submit' => 'Gönder',
 	'form-reset' => 'Sıfırla',
-	'years' => 'yıl',
-	'weeks' => 'hafta',
-	'days' => 'gün',
-	'hours' => 'saat',
+	'years' => '{{PLURAL: $1|yıl|yıl}}',
+	'weeks' => '{{PLURAL: $1|hafta|hafta}}',
+	'days' => '{{PLURAL: $1|gün|gün}}',
+	'hours' => '{{PLURAL: $1|saat|saat}}',
+	'minutes' => '{{PLURAL: $1|dakika|dakika}}',
+	'seconds' => '{{PLURAL: $1|saniye|saniye}}',
 	'last-modified-date' => 'Son değiştirme: $1',
 	'view-source' => 'Kaynağı gör',
 );

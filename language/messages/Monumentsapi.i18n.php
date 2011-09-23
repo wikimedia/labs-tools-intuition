@@ -62,9 +62,13 @@ $messages['ar'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
+	'search-title' => 'Gueta de monumentos',
+	'search-monuments-database' => 'Guetar na base de datos de monumentos',
 	'search-table-th-field' => 'Campu',
 	'search-table-th-filter' => 'Peñera',
 	'search-table-th-search' => 'Guetar',
+	'filter-all-countries' => 'Tolos países',
+	'filter-all-languages' => 'Toles llingües',
 );
 
 /** Azerbaijani (Azərbaycanca)
@@ -536,6 +540,16 @@ $messages['tl'] = array(
 	'search-table-th-field' => 'Kahanayan',
 	'search-table-th-filter' => 'Pansala',
 	'search-table-th-search' => 'Hanapin',
+);
+
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'search-table-th-filter' => 'Süzgeç',
+	'search-table-th-search' => 'Ara',
+	'filter-all-countries' => 'Bütün ülkeler',
+	'filter-all-languages' => 'Bütün diller',
 );
 
 /** Ukrainian (Українська)

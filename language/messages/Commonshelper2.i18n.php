@@ -2277,6 +2277,20 @@ $messages['tl'] = array(
 	'error_upload_file' => 'Hindi maikakargang paibaba ang orihinal talaksan.',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'attention' => 'Dikkat',
+	'language' => 'Dil',
+	'project' => 'Proje',
+	'source_file' => 'Kaynak dosya',
+	'target_file' => 'Hedef dosya',
+	'commons_username' => 'Wikimedia Commons kullanıcı adı',
+	'categories' => 'Kategoriler',
+	'help_mail' => '$1 adresine bir e-posta gönderin.',
+);
+
 /** Ukrainian (Українська)
  * @author Dim Grits
  * @author Тест

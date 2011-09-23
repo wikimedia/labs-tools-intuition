@@ -70,7 +70,8 @@ $messages['qqq'] = array(
 	'concursa' => 'Entry for the competes column if the monuments takes part in WLM (also see: no-concursa)',
 	'no-concursa' => 'Entry for the competes column if the monuments does not take part in WLM (also see: concursa)',
 	'not-available' => 'Shown for images not yet loaded',
-	'date-unknown' => 'Showed when the',
+	'date-unknown' => 'Showed when the
+{{Identical|Unknown}}',
 	'total-images' => 'A message with the total number of images listed above, provided in $1',
 	'view-uncategorized-images' => 'Caption for link to [[commons:Category:Cultural_heritage_monuments_in_Spain]]',
 	'provide-id' => 'Caption for ids.php',
@@ -88,6 +89,38 @@ $messages['qqq'] = array(
 	'gallery-header' => 'Text for the gallery pages. $1 is the selected monument id.',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'title' => 'Ficheros de WLM',
+	'file' => 'Imaxe',
+	'monument-type' => 'Triba de monumentu',
+	'monument-id' => 'Id. del monumentu',
+	'province' => 'Provincia',
+	'competes' => 'Competición',
+	'author' => 'Autor',
+	'upload-time' => 'Data de carga',
+	'concursa' => 'Participa en WLM',
+	'no-concursa' => 'Nun compite en WLM',
+	'not-available' => 'Non disponible',
+	'date-unknown' => 'Desconocíu',
+	'total-images' => "Total d'imaxes: $1",
+	'view-uncategorized-images' => 'Ver imaxes ensin categoría',
+	'provide-id' => "Da l'identificador d'un monumentu p'amosar los datos disponibles d'esi elementu",
+	'show-images-bad-only' => 'Amosar sólo les imaxes fuera de les llistes',
+	'show-images-all' => 'Amosar toles imaxes',
+	'search-monuments' => 'Guetar monumentos',
+	'view-frequency' => 'Monumentos populares',
+	'id-label' => 'Id. del monumentu:',
+	'id-none' => '(Nengún)',
+	'monument-heading' => 'Monumentu',
+	'count-heading' => 'Semeyes',
+	'bic-list' => 'Llista',
+	'bic-gallery' => 'Galería',
+	'gallery-header' => 'Imaxes del monumentu con identificador $1.',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -103,6 +136,43 @@ $messages['be-tarask'] = array(
 	'upload-time' => 'Час загрузкі',
 	'concursa' => 'Прыняць удзел у «Вікі любіць славутасьці»',
 	'no-concursa' => 'Па-за спаборніцтвам «Вікі любіць славутасьці»',
+	'not-available' => 'Не даступна',
+	'date-unknown' => 'Невядома',
+	'total-images' => 'Усяго выяваў: $1',
+	'view-uncategorized-images' => 'Паказаць некатэгорызаваныя выявы',
+	'provide-id' => 'Падаць ідэнтыфікатар славутасьці, каб паказаць даступныя зьвесткі',
+);
+
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'title' => 'Restroù Wiki Loves Monuments (WLM)',
+	'file' => 'Skeudenn',
+	'monument-type' => 'Seurt monumant',
+	'monument-id' => 'Kod ar Monumant',
+	'province' => 'Proviñs',
+	'competes' => 'Kenstrivañ',
+	'author' => 'Aozer',
+	'upload-time' => 'Deiziad enporzhiañ',
+	'concursa' => 'Kemerit perzh e WLM',
+	'no-concursa' => 'Er-maez kenstrivadeg WLM',
+	'not-available' => "N'eo ket hegerz",
+	'date-unknown' => 'Dianav',
+	'total-images' => 'Hollad ar skeudennoù : $1',
+	'view-uncategorized-images' => 'Gwelet ar skeudennoù dirumm',
+	'provide-id' => 'Pourchas anaouder ur monumant evit ma vo gallet diskouez ar roadennoù zo diwar e benn',
+	'show-images-bad-only' => "Diskouez hepken ar skeudennoù n'emaint ket er rolloù",
+	'show-images-all' => 'Diskouez an holl skeudennoù',
+	'search-monuments' => 'Klask monumantoù',
+	'view-frequency' => 'Monumantoù brudet',
+	'id-label' => 'Kod ar Monumant :',
+	'id-none' => '(Hini ebet)',
+	'monument-heading' => 'Monumant',
+	'count-heading' => "Luc'hskeudennoù",
+	'bic-list' => 'Roll',
+	'bic-gallery' => 'Skeudennaoueg',
+	'gallery-header' => "Skeudennoù eus ar monumant dezho ar c'hod $1.",
 );
 
 /** German (Deutsch)
@@ -200,6 +270,21 @@ $messages['gl'] = array(
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imaxes para o monumento co identificador $1.',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'title' => 'Files de WLM',
+	'file' => 'Imagine',
+	'monument-type' => 'Typo de monumento',
+	'monument-id' => 'ID del monumento',
+	'province' => 'Provincia',
+	'competes' => 'In competition',
+	'author' => 'Autor',
+	'upload-time' => 'Hora de incargamento',
+	'concursa' => 'Participa in WLM',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -409,6 +494,14 @@ $messages['sr-el'] = array(
 	'bic-list' => 'Spisak',
 	'bic-gallery' => 'Galerija',
 	'gallery-header' => 'Slike spomenika čiji je IB $1.',
+);
+
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'file' => 'Resim',
+	'author' => 'Üreten',
 );
 
 /** Vietnamese (Tiếng Việt)
