@@ -292,6 +292,13 @@ $messages['lb'] = array(
 	'output' => 'Resultat fir "$1"',
 );
 
+/** Lezghian (Лезги)
+ * @author Namik
+ */
+$messages['lez'] = array(
+	'input' => 'Экъечlун',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Matasg
  */

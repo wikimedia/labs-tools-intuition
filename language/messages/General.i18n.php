@@ -765,8 +765,8 @@ $messages['lb'] = array(
  */
 $messages['lez'] = array(
 	'welcome' => 'Ша башуьсте',
-	'years' => 'йис',
-	'weeks' => 'афте',
+	'years' => 'йисар',
+	'weeks' => '{{PLURAL: $1|афте|афтеяр}}',
 	'days' => 'югъ',
 	'hours' => 'сятер',
 );
