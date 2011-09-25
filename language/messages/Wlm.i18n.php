@@ -54,7 +54,7 @@ $messages['en'] = array(
 	/* wall-of-shame.php */
 	'wall-of-shame-text' => 'Authors by number of unidentified photographs',
 	'author-heading' => 'Author',
-	'bic-list-bad' => 'List',
+	'bic-list-bad' => 'Show',
 	'bic-list-all' => 'Full list',
 	'unregistered' => 'Unregistered',
 );
@@ -251,7 +251,7 @@ $messages['es'] = array(
 	'gallery-header' => 'Imágenes del monumento con el registro $1.',
 	'wall-of-shame-text' => 'Autores por número de fotografías sin identificar',
 	'author-heading' => 'Autor',
-	'bic-list-bad' => 'Lista',
+	'bic-list-bad' => 'Mostrar',
 	'bic-list-all' => 'Todas',
 	'unregistered' => 'Sin registrar',
 );
