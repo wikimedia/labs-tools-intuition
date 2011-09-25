@@ -50,6 +50,13 @@ $messages['en'] = array(
 
 	/* gallery.php */
 	'gallery-header' => 'Images for the monument with id $1.',
+
+	/* wall-of-shame.php */
+	'wall-of-shame-text' => 'Authors by number of unidentified photographs',
+	'author-heading' => 'Author',
+	'bic-list-bad' => 'List',
+	'bic-list-all' => 'Full list',
+	'unregistered' => 'Unregistered',
 );
 
 /** Message documentation (Message documentation)
@@ -87,6 +94,11 @@ $messages['qqq'] = array(
 	'bic-list' => 'Text of link which shows the list of monuments with the id of this row',
 	'bic-gallery' => 'Text of link which shows the gallery of monuments with the id of this row',
 	'gallery-header' => 'Text for the gallery pages. $1 is the selected monument id.',
+	'wall-of-shame-text' => 'Text for explaining the wall-of-shame page',
+	'author-heading' => 'Heading for the column with the list of authors',
+	'bic-list-bad' => 'Caption for the link to show the bad images by this user',
+	'bic-list-all' => 'Caption for the link to show all the images by this user',
+	'unregistered' => 'Text to show when grouping users not registered in commons (from flickr or panoramio)',
 );
 
 /** Asturian (Asturianu)
@@ -237,6 +249,11 @@ $messages['es'] = array(
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imágenes del monumento con el registro $1.',
+	'wall-of-shame-text' => 'Autores por número de fotografías sin identificar',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Lista',
+	'bic-list-all' => 'Todas',
+	'unregistered' => 'Sin registrar',
 );
 
 /** Galician (Galego)
