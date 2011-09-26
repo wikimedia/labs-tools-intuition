@@ -153,6 +153,11 @@ $messages['be-tarask'] = array(
 	'total-images' => 'Усяго выяваў: $1',
 	'view-uncategorized-images' => 'Паказаць некатэгорызаваныя выявы',
 	'provide-id' => 'Падаць ідэнтыфікатар славутасьці, каб паказаць даступныя зьвесткі',
+	'show-images-bad-only' => 'Паказаць толькі выявы па-за сьпісамі',
+	'show-images-all' => 'Паказаць усе выявы',
+	'search-monuments' => 'Пошук славутасьцяў',
+	'view-frequency' => 'Папулярныя славутасьці',
+	'id-label' => 'Ідэнтыфікатар славутасьці:',
 );
 
 /** Breton (Brezhoneg)
@@ -217,6 +222,11 @@ $messages['de'] = array(
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => 'Bilder des Denkmals mit der Kennung $1.',
+	'wall-of-shame-text' => 'Autoren nach der Anzahl nicht identifizierbarer Fotografien',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Anzeigen',
+	'bic-list-all' => 'Vollständige Liste',
+	'unregistered' => 'Nicht registriert',
 );
 
 /** Spanish (Español)
@@ -287,6 +297,11 @@ $messages['gl'] = array(
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imaxes para o monumento co identificador $1.',
+	'wall-of-shame-text' => 'Autores por número de fotos sen identificar',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Mostrar',
+	'bic-list-all' => 'Lista completa',
+	'unregistered' => 'Non rexistrado',
 );
 
 /** Interlingua (Interlingua)
@@ -322,6 +337,7 @@ $messages['lb'] = array(
 	'date-unknown' => 'Onbekannt',
 	'total-images' => 'Zuel vu Biller: $1',
 	'view-uncategorized-images' => 'Net kategoriséiert Biller weisen',
+	'provide-id' => "D'Id vun engem Monument ugi fir d'Donnéeën dovun ze gesinn",
 	'show-images-bad-only' => 'Nëmme Biller weisen déi op kenger Lëscht stinn',
 	'show-images-all' => 'All Biller weisen',
 	'search-monuments' => 'Monumenter sichen',
@@ -366,6 +382,11 @@ $messages['mk'] = array(
 	'bic-list' => 'Список',
 	'bic-gallery' => 'Галерија',
 	'gallery-header' => 'Слики на споменикот со назнака $1.',
+	'wall-of-shame-text' => 'Автори по број на непрепознаени фотографии',
+	'author-heading' => 'Автор',
+	'bic-list-bad' => 'Прикажи',
+	'bic-list-all' => 'Полн список',
+	'unregistered' => 'Нерегистрирани',
 );
 
 /** Malay (Bahasa Melayu)
@@ -431,6 +452,11 @@ $messages['nl'] = array(
 	'bic-list' => 'Lijst',
 	'bic-gallery' => 'Galerij',
 	'gallery-header' => 'Afbeeldingen voor het monument met ID $1.',
+	'wall-of-shame-text' => 'Auteurs op aantal ongeïdentificeerde afbeeldingen',
+	'author-heading' => 'Auteur',
+	'bic-list-bad' => 'Bekijken',
+	'bic-list-all' => 'Volledige lijst',
+	'unregistered' => 'Niet geregistreerd',
 );
 
 /** Polish (Polski)
@@ -486,6 +512,11 @@ $messages['sr-ec'] = array(
 	'bic-list' => 'Списак',
 	'bic-gallery' => 'Галерија',
 	'gallery-header' => 'Слике споменика чији је ИБ $1.',
+	'wall-of-shame-text' => 'Аутори по броју непрепознатих фотографија',
+	'author-heading' => 'Аутор',
+	'bic-list-bad' => 'Прикажи',
+	'bic-list-all' => 'Цео списак',
+	'unregistered' => 'Неуписани',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
@@ -518,6 +549,19 @@ $messages['sr-el'] = array(
 	'bic-list' => 'Spisak',
 	'bic-gallery' => 'Galerija',
 	'gallery-header' => 'Slike spomenika čiji je IB $1.',
+	'wall-of-shame-text' => 'Autori po broju neprepoznatih fotografija',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Prikaži',
+	'bic-list-all' => 'Ceo spisak',
+	'unregistered' => 'Neupisani',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'not-available' => 'అందుబాటులో లేదు',
+	'bic-list' => 'జాబితా',
 );
 
 /** Turkish (Türkçe)
@@ -558,5 +602,10 @@ $messages['vi'] = array(
 	'bic-list' => 'Danh sách',
 	'bic-gallery' => 'Album',
 	'gallery-header' => 'Hình ảnh của đài tưởng niệm với ID $1.',
+	'wall-of-shame-text' => 'Tác giả theo số hình chụp không được nhận diện',
+	'author-heading' => 'Tác giả',
+	'bic-list-bad' => 'Xem',
+	'bic-list-all' => 'Danh sách đầy đủ',
+	'unregistered' => 'Không đăng ký',
 );
 
