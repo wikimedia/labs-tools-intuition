@@ -61,6 +61,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
+ * @author McDutchie
  * @author Platonides
  */
 $messages['qqq'] = array(
@@ -74,8 +75,8 @@ $messages['qqq'] = array(
 	'author' => 'Header for the column showing the author listed for that image.
 {{Identical|Author}}',
 	'upload-time' => 'Upload time in CEST',
-	'concursa' => 'Entry for the competes column if the monuments takes part in WLM (also see: no-concursa)',
-	'no-concursa' => 'Entry for the competes column if the monuments does not take part in WLM (also see: concursa)',
+	'concursa' => 'Entry for the competes column if the monuments takes part in WLM (also see: {{msg-toolserver|Wlm-no-concursa}})',
+	'no-concursa' => 'Entry for the competes column if the monuments does not take part in WLM (also see: {{msg-toolserver|Wlm-concursa}})',
 	'not-available' => 'Shown for images not yet loaded',
 	'date-unknown' => 'Showed when the
 {{Identical|Unknown}}',
@@ -88,11 +89,14 @@ $messages['qqq'] = array(
 	'view-frequency' => 'Caption link for the tool to view monuments grouped by id',
 	'id-label' => 'Label for ids.php input',
 	'date-format' => 'Format in which to present the date in the upload-time column',
-	'id-none' => "Column to show where there's no id",
+	'id-none' => "Column to show where there's no id.
+{{Identical|None}}",
 	'monument-heading' => 'Heading for the identifier',
 	'count-heading' => 'Heading for the count of images with that id',
-	'bic-list' => 'Text of link which shows the list of monuments with the id of this row',
-	'bic-gallery' => 'Text of link which shows the gallery of monuments with the id of this row',
+	'bic-list' => 'Text of link which shows the list of monuments with the id of this row.
+{{Identical|List}}',
+	'bic-gallery' => 'Text of link which shows the gallery of monuments with the id of this row.
+{{Identical|Gallery}}',
 	'gallery-header' => 'Text for the gallery pages. $1 is the selected monument id.',
 	'wall-of-shame-text' => 'Text for explaining the wall-of-shame page',
 	'author-heading' => 'Heading for the column with the list of authors',
@@ -158,6 +162,11 @@ $messages['be-tarask'] = array(
 	'search-monuments' => 'Пошук славутасьцяў',
 	'view-frequency' => 'Папулярныя славутасьці',
 	'id-label' => 'Ідэнтыфікатар славутасьці:',
+	'id-none' => '(Няма)',
+	'monument-heading' => 'Славутасьць',
+	'count-heading' => 'Фатаграфіі',
+	'bic-list' => 'Сьпіс',
+	'bic-gallery' => 'Галерэя',
 );
 
 /** Breton (Brezhoneg)
@@ -230,6 +239,7 @@ $messages['de'] = array(
 );
 
 /** Spanish (Español)
+ * @author McDutchie
  * @author Platonides
  */
 $messages['es'] = array(
@@ -317,6 +327,65 @@ $messages['ia'] = array(
 	'author' => 'Autor',
 	'upload-time' => 'Hora de incargamento',
 	'concursa' => 'Participa in WLM',
+	'no-concursa' => 'Non participa in WLM',
+	'not-available' => 'Non disponibile',
+	'date-unknown' => 'Incognite',
+	'total-images' => 'Total de imagines: $1',
+	'view-uncategorized-images' => 'Vider imagines sin categoria',
+	'provide-id' => 'Specifica le identificator de un monumento pro monstrar le datos disponibile super illo',
+	'show-images-bad-only' => 'Monstrar solmente imagines foras del listas',
+	'show-images-all' => 'Monstrar tote le imagines',
+	'search-monuments' => 'Cercar monumentos',
+	'view-frequency' => 'Monumentos popular',
+	'id-label' => 'ID de monumento:',
+	'id-none' => '(Nulle)',
+	'monument-heading' => 'Monumento',
+	'count-heading' => 'Photographias',
+	'bic-list' => 'Lista',
+	'bic-gallery' => 'Galeria',
+	'gallery-header' => 'Imagines con le monumento con ID $1.',
+	'wall-of-shame-text' => 'Autores per numero de photographias sin identification',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Monstrar',
+	'bic-list-all' => 'Lista complete',
+	'unregistered' => 'Non registrate',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'title' => 'Dateije vum Projäk <abbr title="Wiki Loves Monuments - et Wiki hät de Dänkmöhler leev">WLM</abbr>',
+	'file' => 'Beld',
+	'monument-type' => 'De Zoot Dänkmohl',
+	'monument-id' => 'Dem Dänkmohl sing Kännong',
+	'province' => 'Provinz',
+	'competes' => 'Määt met',
+	'author' => 'Urhävver',
+	'upload-time' => 'Huhjelaade (<abbr title="ußjedröck en de Summerzick vun Meddel-Europa">MESZ</abbr>)',
+	'concursa' => 'Määt met bei <abbr title="Wiki Loves Monuments - et Wiki hät de Dänkmöhler leev">WLM</abbr>',
+	'no-concursa' => 'Määt nit bei <abbr title="Wiki Loves Monuments - et Wiki hät de Dänkmöhler leev">WLM</abbr> met',
+	'not-available' => 'Ham_mer nit',
+	'date-unknown' => 'Onbikannt',
+	'total-images' => '{{PLURAL:$1|Ei Beld|$1 Belder|kei Beld}} ensjesamp',
+	'view-uncategorized-images' => 'Donn de Belder der ohne Saachjroppe beloore',
+	'provide-id' => 'Jivv en Kännong för e Dänkmohl aan, öm Aanjabe övver dat Dänkmohl ze sinn ze krijje',
+	'show-images-bad-only' => 'Zeish bloß de Belder, ävver ußerhallef vun de Leßte',
+	'show-images-all' => 'Donn all de Belder aanzeije',
+	'search-monuments' => 'Dänkmöhler söhke',
+	'view-frequency' => 'Joot jelidde Dänkmöhler ',
+	'id-label' => 'Dem Dänkmohl sing Kännong:',
+	'id-none' => '(Kei)',
+	'monument-heading' => 'Däm Dänkmohl sing Kännong',
+	'count-heading' => 'Fottos',
+	'bic-list' => 'Leß',
+	'bic-gallery' => 'Belder_Jallerieh',
+	'gallery-header' => 'De Belder för dat Dänkmohl met dä Kännong: $1.',
+	'wall-of-shame-text' => 'Huhlaader zoteet noh de Aanzahl Belder, woh mer nit weiß, wat drobb es',
+	'author-heading' => 'Dä Fotojraf udder Maacher',
+	'bic-list-bad' => 'Zeisch aan!',
+	'bic-list-all' => 'De kumplätte Leß',
+	'unregistered' => 'Nit aanjemälldt',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -419,6 +488,11 @@ $messages['ms'] = array(
 	'bic-list' => 'Senarai',
 	'bic-gallery' => 'Galeri',
 	'gallery-header' => 'Imej untuk monumen id $1.',
+	'wall-of-shame-text' => 'Pengarang mengikut bilangan gambar yang tidak dikenal pasti',
+	'author-heading' => 'Pengarang',
+	'bic-list-bad' => 'Tunjukkan',
+	'bic-list-all' => 'Senarai penuh',
+	'unregistered' => 'Tidak berdaftar',
 );
 
 /** Dutch (Nederlands)
@@ -460,26 +534,32 @@ $messages['nl'] = array(
 );
 
 /** Polish (Polski)
+ * @author Grzechooo
+ * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
+	'title' => 'Pliki WLM',
 	'file' => 'Zdjęcie',
 	'monument-type' => 'Typ zabytku',
-	'monument-id' => 'Id zabytku',
-	'province' => 'Województwo',
+	'monument-id' => 'Identyfikator zabytku',
+	'province' => 'Prowincja',
 	'author' => 'Autor',
-	'upload-time' => 'Czas przesłania',
+	'upload-time' => 'Moment przesłania',
 	'concursa' => 'Weź udział w WLM',
 	'not-available' => 'Niedostępne',
 	'date-unknown' => 'Nieznana',
-	'view-uncategorized-images' => 'Zobacz nieskategoryzowane zdjęcia',
+	'view-uncategorized-images' => 'Zobacz zdjęcia bez kategorii',
 	'show-images-all' => 'Pokaż wszystkie zdjęcia',
 	'search-monuments' => 'Szukaj zabytków',
-	'id-none' => '(Brak)',
+	'id-none' => '(brak)',
 	'monument-heading' => 'Zabytek',
 	'count-heading' => 'Fotografie',
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galeria',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Pokaż',
+	'bic-list-all' => 'Pełna lista',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)

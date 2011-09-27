@@ -307,9 +307,13 @@ $messages['ja'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'search-title' => 'Noch Dänkmöhler söhke',
+	'search-monuments-database' => 'En dä Sammlong vun de Dänkmöhler söhke',
 	'search-table-th-field' => 'Fäld',
 	'search-table-th-filter' => 'Ußwähle',
 	'search-table-th-search' => 'Söhke',
+	'filter-all-countries' => 'All de Länder',
+	'filter-all-languages' => 'All Shprooche',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
