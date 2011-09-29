@@ -33,8 +33,10 @@ $messages['qqq'] = array(
 	'search-title' => 'Title (window caption) of http://toolserver.org/~erfgoed/api/.',
 	'search-monuments-database' => 'Title (h1) of the page.',
 	'search-table-th-field' => 'Table header for the Field-column in the search table. {{Identical|Field}}',
-	'search-table-th-filter' => '{{Identical|Filter}}',
-	'search-table-th-search' => '{{Identical|Search}}',
+	'search-table-th-filter' => 'Form: verb
+{{Identical|Filter}}',
+	'search-table-th-search' => 'Form: verb
+{{Identical|Search}}',
 	'filter-all-countries' => 'Entry for the countries filter selecting all countries.',
 	'filter-all-languages' => 'Entry for the language filter selecting all languages.',
 );

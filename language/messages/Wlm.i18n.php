@@ -99,8 +99,10 @@ $messages['qqq'] = array(
 {{Identical|Gallery}}',
 	'gallery-header' => 'Text for the gallery pages. $1 is the selected monument id.',
 	'wall-of-shame-text' => 'Text for explaining the wall-of-shame page',
-	'author-heading' => 'Heading for the column with the list of authors',
-	'bic-list-bad' => 'Caption for the link to show the bad images by this user',
+	'author-heading' => 'Heading for the column with the list of authors.
+{{Identical|Author}}',
+	'bic-list-bad' => 'Caption for the link to show the bad images by this user.
+{{Identical|Show}}',
 	'bic-list-all' => 'Caption for the link to show all the images by this user',
 	'unregistered' => 'Text to show when grouping users not registered in commons (from flickr or panoramio)',
 );
@@ -167,6 +169,12 @@ $messages['be-tarask'] = array(
 	'count-heading' => 'Фатаграфіі',
 	'bic-list' => 'Сьпіс',
 	'bic-gallery' => 'Галерэя',
+	'gallery-header' => 'Выявы для славутасьці з ідэнтыфікатарам $1.',
+	'wall-of-shame-text' => 'Аўтары па нумарах неіндэфікаваных фатаграфіяў',
+	'author-heading' => 'Аўтар',
+	'bic-list-bad' => 'Паказаць',
+	'bic-list-all' => 'Поўны сьпіс',
+	'unregistered' => 'Незарэгістраваныя',
 );
 
 /** Breton (Brezhoneg)
@@ -418,6 +426,10 @@ $messages['lb'] = array(
 	'bic-list' => 'Lëscht',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => "Biller fir d'Monument mat der Id $1.",
+	'author-heading' => 'Auteur',
+	'bic-list-bad' => 'Weisen',
+	'bic-list-all' => 'Komplett Lëscht',
+	'unregistered' => 'Net registréiert',
 );
 
 /** Macedonian (Македонски)
