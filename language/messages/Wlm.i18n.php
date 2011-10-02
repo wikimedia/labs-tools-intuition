@@ -36,6 +36,7 @@ $messages['en'] = array(
 	'show-images-all' => 'Show all images',
 	'search-monuments' => 'Search monuments',
 	'view-frequency' => 'Popular monuments',
+	'view-province' => 'View by province',
 
 	/* ids.php */
 	'id-label' => 'Monument id:',
@@ -90,6 +91,7 @@ $messages['qqq'] = array(
 	'show-images-all' => 'Text for the link for unfiltering the list to all images',
 	'search-monuments' => 'Caption link for the tool to search monuments',
 	'view-frequency' => 'Caption link for the tool to view monuments grouped by id',
+	'view-province' => 'Caption link for the tool to view monuments grouped by province',
 	'id-label' => 'Label for ids.php input',
 	'date-format' => 'Format in which to present the date in the upload-time column',
 	'id-none' => "Column to show where there's no id.
@@ -274,6 +276,7 @@ $messages['es'] = array(
 	'show-images-all' => 'Mostrar todas las imágenes',
 	'search-monuments' => 'Buscar monumentos',
 	'view-frequency' => 'Monumentos populares',
+	'view-province' => 'Ver imágenes por provincia',
 	'id-label' => 'BIC:',
 	'id-none' => '(Sin identificador)',
 	'monument-heading' => 'Monumento',
