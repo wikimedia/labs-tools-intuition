@@ -61,6 +61,7 @@ $messages['en'] = array(
 
 	/* province-heading */
 	'province-heading' => 'Province',
+	'province-none' => '(Unknown)',
 );
 
 /** Message documentation (Message documentation)
@@ -111,6 +112,7 @@ $messages['qqq'] = array(
 	'bic-list-all' => 'Caption for the link to show all the images by this user',
 	'unregistered' => 'Text to show when grouping users not registered in commons (from flickr or panoramio)',
 	'province-heading' => 'Header for the province column of http://toolserver.org/~platonides/wlm/provincias.php',
+	'province-none' => 'Marker to group images for which no province is registered in the db',
 );
 
 /** Asturian (Asturianu)
@@ -290,6 +292,7 @@ $messages['es'] = array(
 	'bic-list-all' => 'Todas',
 	'unregistered' => 'Sin registrar',
 	'province-heading' => 'Provincia',
+	'province-none' => '(Desconocida)',
 );
 
 /** Galician (Galego)
