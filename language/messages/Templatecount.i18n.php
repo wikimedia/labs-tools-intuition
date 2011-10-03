@@ -131,6 +131,21 @@ $messages['br'] = array(
 	'time-label' => 'Amzer lakaet evit seveniñ an urzh',
 );
 
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'enter-details' => 'Introduïu les dades',
+	'introduction' => "Senzillament, escriviu el nom de la plantilla (de moment només funciona per viquipèdies) i premeu el botó. Existeix una memòria cau que repeteix la llista de resultats, però per desgràcia això està fora del control d'aquesta eina i del seu propietari.",
+	'language-label' => 'Idioma',
+	'namespace-label' => 'Espai de noms',
+	'pagename-label' => "Nom de la pàgina (sense l'espai de noms)",
+	'transclusion-count-label' => 'Nombre de transclusions',
+	'transclusion-count' => "S'han trobat $1 inclusions.",
+	'error-suggestion' => 'Potser heu escrit malament (o amb majúscules no coincidents) el nom de la pàgina.',
+	'time-label' => 'Temps necessari per executar les ordres',
+);
+
 /** Danish (Dansk)
  * @author Erisos
  */

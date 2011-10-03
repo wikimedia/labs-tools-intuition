@@ -125,8 +125,13 @@ $messages['bs'] = array(
 	'form-legend-settings' => 'Postavke',
 );
 
-/** Catalan (Català) */
+/** Catalan (Català)
+ * @author SMP
+ */
 $messages['ca'] = array(
+	'alws-selectwiki' => '(Seleccioneu wiki)',
+	'alws-group-mustused' => 'Wikis més utilitzats',
+	'alws-group-allaz' => 'Tots els wikis en ordre alfabètic',
 	'form-legend-settings' => 'Paràmetres',
 );
 

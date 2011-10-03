@@ -137,9 +137,13 @@ $messages['br'] = array(
  * @author SMP
  */
 $messages['ca'] = array(
+	'search-title' => 'Cerca de monuments',
+	'search-monuments-database' => 'Cerca dins la base de dades de monuments',
 	'search-table-th-field' => 'Paràmetre',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Cerca',
+	'filter-all-countries' => 'Tots els països',
+	'filter-all-languages' => 'Tots els idiomes',
 );
 
 /** Danish (Dansk)

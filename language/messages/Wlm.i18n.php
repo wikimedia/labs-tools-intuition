@@ -112,7 +112,8 @@ $messages['qqq'] = array(
 	'bic-list-all' => 'Caption for the link to show all the images by this user',
 	'unregistered' => 'Text to show when grouping users not registered in commons (from flickr or panoramio)',
 	'province-heading' => 'Header for the province column of http://toolserver.org/~platonides/wlm/provincias.php',
-	'province-none' => 'Marker to group images for which no province is registered in the db',
+	'province-none' => 'Marker to group images for which no province is registered in the db.
+{{Identical|Unknown}}',
 );
 
 /** Asturian (Asturianu)
@@ -138,6 +139,7 @@ $messages['ast'] = array(
 	'show-images-all' => 'Amosar toles imaxes',
 	'search-monuments' => 'Guetar monumentos',
 	'view-frequency' => 'Monumentos populares',
+	'view-province' => 'Ver por provincies',
 	'id-label' => 'Id. del monumentu:',
 	'id-none' => '(Nengún)',
 	'monument-heading' => 'Monumentu',
@@ -145,6 +147,13 @@ $messages['ast'] = array(
 	'bic-list' => 'Llista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imaxes del monumentu con identificador $1.',
+	'wall-of-shame-text' => 'Autores por númberu de semeyes ensin identificar',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Amosar',
+	'bic-list-all' => 'Llista completa',
+	'unregistered' => 'Ensin rexistrar',
+	'province-heading' => 'Provincia',
+	'province-none' => '(Desconocíu)',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -171,6 +180,7 @@ $messages['be-tarask'] = array(
 	'show-images-all' => 'Паказаць усе выявы',
 	'search-monuments' => 'Пошук славутасьцяў',
 	'view-frequency' => 'Папулярныя славутасьці',
+	'view-province' => 'Паказаць па правінцыях (абласьцях)',
 	'id-label' => 'Ідэнтыфікатар славутасьці:',
 	'id-none' => '(Няма)',
 	'monument-heading' => 'Славутасьць',
@@ -183,6 +193,8 @@ $messages['be-tarask'] = array(
 	'bic-list-bad' => 'Паказаць',
 	'bic-list-all' => 'Поўны сьпіс',
 	'unregistered' => 'Незарэгістраваныя',
+	'province-heading' => 'Правінцыя/вобласьць',
+	'province-none' => '(Невядома)',
 );
 
 /** Breton (Brezhoneg)
@@ -208,6 +220,7 @@ $messages['br'] = array(
 	'show-images-all' => 'Diskouez an holl skeudennoù',
 	'search-monuments' => 'Klask monumantoù',
 	'view-frequency' => 'Monumantoù brudet',
+	'view-province' => 'Gwelet ar skeudennoù dre broviñsoù',
 	'id-label' => 'Kod ar Monumant :',
 	'id-none' => '(Hini ebet)',
 	'monument-heading' => 'Monumant',
@@ -215,6 +228,50 @@ $messages['br'] = array(
 	'bic-list' => 'Roll',
 	'bic-gallery' => 'Skeudennaoueg',
 	'gallery-header' => "Skeudennoù eus ar monumant dezho ar c'hod $1.",
+	'wall-of-shame-text' => "Aozerien dre niver a luc'hskeudennoù dianav",
+	'author-heading' => 'Aozer',
+	'bic-list-bad' => 'Diskouez',
+	'bic-list-all' => 'Roll klok',
+	'unregistered' => 'Dienroll',
+	'province-heading' => 'Proviñs',
+	'province-none' => '(Dianav)',
+);
+
+/** Catalan (Català)
+ * @author Toniher
+ */
+$messages['ca'] = array(
+	'title' => 'Fitxers del WLM',
+	'file' => 'Imatge',
+	'monument-type' => 'Tipus de monument',
+	'monument-id' => 'ID del monument',
+	'province' => 'Província',
+	'competes' => 'Competeix',
+	'author' => 'Autor',
+	'upload-time' => 'Temps de pujada',
+	'concursa' => 'Participa al WLM',
+	'no-concursa' => 'Fora de la competició del WLM',
+	'not-available' => 'No disponible',
+	'date-unknown' => 'Desconegut',
+	'total-images' => 'Imatges totals: $1',
+	'view-uncategorized-images' => 'Mostra les imatges sense categoria',
+	'provide-id' => "Proporciona un ID de monument per mostrar les dades disponibles de l'element",
+	'show-images-bad-only' => 'Mostra només les imatges fora de les llistes',
+	'show-images-all' => 'Mostra totes les imatges',
+	'search-monuments' => 'Cerca monuments',
+	'view-frequency' => 'Monuments populars',
+	'id-label' => 'ID del monument:',
+	'id-none' => '(cap)',
+	'monument-heading' => 'Monument',
+	'count-heading' => 'Fotografies',
+	'bic-list' => 'Llista',
+	'bic-gallery' => 'Galeria',
+	'gallery-header' => "Imatges del monument amb l'ID $1.",
+	'wall-of-shame-text' => 'Autors pel nombre de fotografies sense identificar',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Mostra',
+	'bic-list-all' => 'Llista completa',
+	'unregistered' => 'No registrat',
 );
 
 /** German (Deutsch)
@@ -240,6 +297,7 @@ $messages['de'] = array(
 	'show-images-all' => 'Alle Bilder anzeigen',
 	'search-monuments' => 'Denkmäler suchen',
 	'view-frequency' => 'Beliebte Denkmäler',
+	'view-province' => 'Nach Provinz ansehen',
 	'id-label' => 'Kennung des Denkmals:',
 	'id-none' => '(Keine)',
 	'monument-heading' => 'Denkmal',
@@ -252,6 +310,8 @@ $messages['de'] = array(
 	'bic-list-bad' => 'Anzeigen',
 	'bic-list-all' => 'Vollständige Liste',
 	'unregistered' => 'Nicht registriert',
+	'province-heading' => 'Provinz',
+	'province-none' => '(Unbekannt)',
 );
 
 /** Spanish (Español)
@@ -319,6 +379,7 @@ $messages['gl'] = array(
 	'show-images-all' => 'Mostrar todas as imaxes',
 	'search-monuments' => 'Buscar monumentos',
 	'view-frequency' => 'Monumentos populares',
+	'view-province' => 'Ver por provincia',
 	'id-label' => 'Identificador do monumento:',
 	'id-none' => '(Ningún)',
 	'monument-heading' => 'Monumento',
@@ -331,6 +392,8 @@ $messages['gl'] = array(
 	'bic-list-bad' => 'Mostrar',
 	'bic-list-all' => 'Lista completa',
 	'unregistered' => 'Non rexistrado',
+	'province-heading' => 'Provincia',
+	'province-none' => '(Descoñecida)',
 );
 
 /** Interlingua (Interlingua)
@@ -356,6 +419,7 @@ $messages['ia'] = array(
 	'show-images-all' => 'Monstrar tote le imagines',
 	'search-monuments' => 'Cercar monumentos',
 	'view-frequency' => 'Monumentos popular',
+	'view-province' => 'Gruppar per provincia',
 	'id-label' => 'ID de monumento:',
 	'id-none' => '(Nulle)',
 	'monument-heading' => 'Monumento',
@@ -368,6 +432,8 @@ $messages['ia'] = array(
 	'bic-list-bad' => 'Monstrar',
 	'bic-list-all' => 'Lista complete',
 	'unregistered' => 'Non registrate',
+	'province-heading' => 'Provincia',
+	'province-none' => '(Incognite)',
 );
 
 /** Colognian (Ripoarisch)
@@ -437,6 +503,7 @@ $messages['lb'] = array(
 	'bic-list' => 'Lëscht',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => "Biller fir d'Monument mat der Id $1.",
+	'wall-of-shame-text' => 'Auteuren no der Zuel vun den net identifizéierte Fotografen',
 	'author-heading' => 'Auteur',
 	'bic-list-bad' => 'Weisen',
 	'bic-list-all' => 'Komplett Lëscht',
@@ -466,6 +533,7 @@ $messages['mk'] = array(
 	'show-images-all' => 'Сите слики',
 	'search-monuments' => 'Пребарување на споменици',
 	'view-frequency' => 'Популарни споменици',
+	'view-province' => 'По покраина',
 	'id-label' => 'Назнака на споменикот:',
 	'date-format' => 'j F Y, H:i ч. и s сек.',
 	'id-none' => '(Нема)',
@@ -479,6 +547,8 @@ $messages['mk'] = array(
 	'bic-list-bad' => 'Прикажи',
 	'bic-list-all' => 'Полн список',
 	'unregistered' => 'Нерегистрирани',
+	'province-heading' => 'Покраина',
+	'province-none' => '(Непозната)',
 );
 
 /** Malay (Bahasa Melayu)

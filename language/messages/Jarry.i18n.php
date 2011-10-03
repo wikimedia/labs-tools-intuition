@@ -82,6 +82,16 @@ $messages['br'] = array(
 	'error-form-empty' => "Lezet ez eus bet goullo ur vaezienn ret pe meur a hini. Ret eo deoc'h leuniañ anezho evit gallout kenderc'hel.",
 );
 
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'moretools' => "més instruments d'aquest autor",
+	'bugs' => "informes d'error i característiques soŀlicitades",
+	'comments' => 'comentaris i consultes',
+	'error-form-empty' => 'Una o més caselles obligatòries han quedat en blanc. Heu de completar-les abans de continuar.',
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */
