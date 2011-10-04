@@ -459,9 +459,10 @@ $messages['sr-ec'] = array(
  * @author Rancher
  */
 $messages['sr-el'] = array(
+	'alws-label' => 'Viki',
 	'alws-selectwiki' => '(izbor vikija)',
 	'alws-group-mustused' => 'Najviše korišćene vikije',
-	'alws-group-allaz' => 'Sve vikije abecednim redom',
+	'alws-group-allaz' => 'Sve vikije azbučnim redom',
 	'form-legend-settings' => 'Postavke',
 );
 

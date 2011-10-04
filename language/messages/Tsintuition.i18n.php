@@ -1289,6 +1289,14 @@ $messages['ru'] = array(
 	'help-translate-tooltip' => 'Помогите другим путём перевода интерфейса сообщений на ваш язык.',
 );
 
+/** Sinhala (සිංහල)
+ * @author බිඟුවා
+ */
+$messages['si'] = array(
+	'settings-legend' => 'පරිස්ථිතීන්',
+	'tab-about' => 'පිළිබඳ',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
@@ -1325,7 +1333,7 @@ $messages['sr-ec'] = array(
 	'current-settings' => 'Текуће поставке',
 	'current-language' => 'Изабрани језик',
 	'settings-legend' => 'Поставке',
-	'choose-language' => 'Избор језика',
+	'choose-language' => 'Изаберите језик',
 	'clear-cookies' => 'очисти колачиће',
 	'renew-cookies' => 'обнови колачиће',
 	'cookie-expiration' => 'Истек колачића',
@@ -1353,7 +1361,7 @@ $messages['sr-el'] = array(
 	'current-settings' => 'Tekuće postavke',
 	'current-language' => 'Izabrani jezik',
 	'settings-legend' => 'Postavke',
-	'choose-language' => 'Izbor jezika',
+	'choose-language' => 'Izaberite jezik',
 	'clear-cookies' => 'očisti kolačiće',
 	'renew-cookies' => 'obnovi kolačiće',
 	'cookie-expiration' => 'Istek kolačića',

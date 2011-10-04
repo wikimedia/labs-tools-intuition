@@ -532,6 +532,7 @@ $messages['sl'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
+	'title' => 'Број трансклузија шаблона',
 	'enter-details' => 'Унос података',
 	'introduction' => 'Унесите назив шаблона и кликните на дугме „Иди“. Има и мало привременог меморисања, али то је ван досега ове алатке и његовог власника.',
 	'language-label' => 'Језик',
@@ -547,6 +548,7 @@ $messages['sr-ec'] = array(
  * @author Rancher
  */
 $messages['sr-el'] = array(
+	'title' => 'Broj transkluzija šablona',
 	'enter-details' => 'Unos podataka',
 	'introduction' => 'Unesite naziv šablona i kliknite na dugme „Idi“. Ima i malo privremenog memorisanja, ali to je van dosega ove alatke i njegovog vlasnika.',
 	'language-label' => 'Jezik',

@@ -1056,14 +1056,23 @@ $messages['ru'] = array(
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author පසිඳු කාවින්ද
+ * @author බිඟුවා
  */
 $messages['si'] = array(
+	'hello' => 'ආයුබෝවන්',
 	'welcome' => 'ආයුබෝවන්',
+	'toolversionstamp' => 'අනුවාදය $1 ($2)',
+	'etc' => 'යනාදිය.',
+	'namespace' => 'නාම අවකාශය',
 	'form-submit' => 'යන්න',
 	'form-reset' => 'නැවත සකසන්න',
-	'years' => 'අවුරුදු',
-	'days' => 'දවස්',
-	'hours' => 'පැය',
+	'years' => '{{PLURAL: $1|අවුරුද්ද|අවුරුදු}}',
+	'weeks' => '{{PLURAL: $1|සතිය|සති}}',
+	'days' => '{{PLURAL: $1|දවස|දවස්}}',
+	'hours' => '{{PLURAL: $1|පැය|පැය}}',
+	'minutes' => '{{PLURAL:$1|විනාඩිය|විනාඩි}}',
+	'seconds' => '{{PLURAL: $1|තත්පරය|තත්පර}}',
+	'last-modified-date' => 'අවසන්වරට සංස්කරණය කරන ලද්දේ: $1',
 	'view-source' => 'මූලාශ්‍රය බලන්න',
 );
 
@@ -1092,10 +1101,12 @@ $messages['sl'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
+	'dateformat' => '%d %B %Y',
 	'hello' => 'Здраво',
 	'welcome' => 'Добро дошли',
 	'toolversionstamp' => 'Издање $1 ($2)',
 	'etc' => 'итд.',
+	'colon-separator' => ':',
 	'namespace' => 'Именски простор',
 	'form-submit' => 'Иди',
 	'form-reset' => 'Поништи',
@@ -1107,16 +1118,19 @@ $messages['sr-ec'] = array(
 	'seconds' => '{{PLURAL: $1|секунд|секунде|секунди}}',
 	'last-modified-date' => 'Последња измена: $1',
 	'view-source' => 'Изворник',
+	'parentheses' => '($1)',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
+	'dateformat' => '%d %B %Y',
 	'hello' => 'Zdravo',
 	'welcome' => 'Dobro došli',
 	'toolversionstamp' => 'Izdanje $1 ($2)',
 	'etc' => 'itd.',
+	'colon-separator' => ':',
 	'namespace' => 'Imenski prostor',
 	'form-submit' => 'Idi',
 	'form-reset' => 'Poništi',
@@ -1127,7 +1141,8 @@ $messages['sr-el'] = array(
 	'minutes' => '{{PLURAL: $1|minut|minuta|minuta}}',
 	'seconds' => '{{PLURAL: $1|sekund|sekunde|sekundi}}',
 	'last-modified-date' => 'Poslednja izmena: $1',
-	'view-source' => 'Izvor',
+	'view-source' => 'Izvornik',
+	'parentheses' => '($1)',
 );
 
 /** Swedish (Svenska)

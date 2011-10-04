@@ -1004,8 +1004,10 @@ $messages['ru'] = array(
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author පසිඳු කාවින්ද
+ * @author බිඟුවා
  */
 $messages['si'] = array(
+	'tools-delete' => 'මකන්න',
 	'tools-subject' => 'විෂයය',
 );
 
@@ -1070,7 +1072,7 @@ $messages['sr-el'] = array(
 	'redirect' => 'Preusmerenje',
 	'output' => 'Odredište',
 	'update' => 'Ažuriraj',
-	'tools-delete' => 'Obriši',
+	'tools-delete' => 'obriši',
 	'tools-links' => 'veze',
 	'tools-subject' => 'naslov',
 	'tools-hist' => 'ist',

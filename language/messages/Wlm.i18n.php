@@ -496,6 +496,8 @@ $messages['lb'] = array(
 	'show-images-all' => 'All Biller weisen',
 	'search-monuments' => 'Monumenter sichen',
 	'view-frequency' => 'Beléifte Monumenter',
+	'view-province' => '
+Pro Provënz weisen',
 	'id-label' => 'ID vum Monument:',
 	'id-none' => '(Keng)',
 	'monument-heading' => 'Monument',
@@ -508,6 +510,8 @@ $messages['lb'] = array(
 	'bic-list-bad' => 'Weisen',
 	'bic-list-all' => 'Komplett Lëscht',
 	'unregistered' => 'Net registréiert',
+	'province-heading' => 'Provënz',
+	'province-none' => '(Onbekannt)',
 );
 
 /** Macedonian (Македонски)
@@ -574,6 +578,7 @@ $messages['ms'] = array(
 	'show-images-all' => 'Tunjukkan semua imej',
 	'search-monuments' => 'Cari monumen',
 	'view-frequency' => '(Tiada)',
+	'view-province' => 'Lihat mengikut wilayah',
 	'id-label' => 'Monumen',
 	'id-none' => '(Tiada)',
 	'monument-heading' => 'Monumen',
@@ -586,6 +591,8 @@ $messages['ms'] = array(
 	'bic-list-bad' => 'Tunjukkan',
 	'bic-list-all' => 'Senarai penuh',
 	'unregistered' => 'Tidak berdaftar',
+	'province-heading' => 'Wilayah',
+	'province-none' => '(Tidak diketahui)',
 );
 
 /** Dutch (Nederlands)
@@ -678,7 +685,9 @@ $messages['sr-ec'] = array(
 	'show-images-all' => 'Прикажи све слике',
 	'search-monuments' => 'Претрага споменика',
 	'view-frequency' => 'Популарни споменици',
+	'view-province' => 'По покрајини',
 	'id-label' => 'ИБ споменика:',
+	'date-format' => 'd-m-Y H:i:s',
 	'id-none' => '(нема)',
 	'monument-heading' => 'Споменик',
 	'count-heading' => 'Фотографије',
@@ -690,6 +699,8 @@ $messages['sr-ec'] = array(
 	'bic-list-bad' => 'Прикажи',
 	'bic-list-all' => 'Цео списак',
 	'unregistered' => 'Неуписани',
+	'province-heading' => 'Покрајина',
+	'province-none' => '(непозната)',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
@@ -715,7 +726,9 @@ $messages['sr-el'] = array(
 	'show-images-all' => 'Prikaži sve slike',
 	'search-monuments' => 'Pretraga spomenika',
 	'view-frequency' => 'Popularni spomenici',
+	'view-province' => 'Po pokrajini',
 	'id-label' => 'IB spomenika:',
+	'date-format' => 'd-m-Y H:i:s',
 	'id-none' => '(nema)',
 	'monument-heading' => 'Spomenik',
 	'count-heading' => 'Fotografije',
@@ -727,6 +740,8 @@ $messages['sr-el'] = array(
 	'bic-list-bad' => 'Prikaži',
 	'bic-list-all' => 'Ceo spisak',
 	'unregistered' => 'Neupisani',
+	'province-heading' => 'Pokrajina',
+	'province-none' => '(nepoznata)',
 );
 
 /** Telugu (తెలుగు)

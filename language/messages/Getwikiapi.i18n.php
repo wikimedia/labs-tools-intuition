@@ -440,7 +440,7 @@ $messages['sl'] = array(
 $messages['sr-ec'] = array(
 	'formats-heading' => 'Одредишни формати',
 	'input' => 'Унос',
-	'label-wikiids' => 'Одређивачи',
+	'label-wikiids' => 'Назнаке викија',
 	'no-matches' => 'Ништа се не поклапа са „$1“',
 	'output' => 'Излаз за „$1“',
 );
@@ -451,7 +451,7 @@ $messages['sr-ec'] = array(
 $messages['sr-el'] = array(
 	'formats-heading' => 'Odredišni formati',
 	'input' => 'Unos',
-	'label-wikiids' => 'Određivači',
+	'label-wikiids' => 'Naznake vikija',
 	'no-matches' => 'Ništa se ne poklapa sa „$1“',
 	'output' => 'Izlaz za „$1“',
 );

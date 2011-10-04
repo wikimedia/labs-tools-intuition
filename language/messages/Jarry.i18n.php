@@ -328,7 +328,7 @@ $messages['sl'] = array(
  */
 $messages['sr-ec'] = array(
 	'moretools' => 'више алатки од истог аутора',
-	'bugs' => 'пријава грешки и захтеви за нове могућности',
+	'bugs' => 'пријава грешака и захтеви за нове могућности',
 	'comments' => 'коментари и упити',
 	'error-form-empty' => 'Нисте попунили сва обавезна поља. Урадите то пре него што наставите.',
 );
@@ -338,7 +338,7 @@ $messages['sr-ec'] = array(
  */
 $messages['sr-el'] = array(
 	'moretools' => 'više alatki od istog autora',
-	'bugs' => 'prijava greški i zahtevi za nove mogućnosti',
+	'bugs' => 'prijava grešaka i zahtevi za nove mogućnosti',
 	'comments' => 'komentari i upiti',
 	'error-form-empty' => 'Niste popunili sva obavezna polja. Uradite to pre nego što nastavite.',
 );
