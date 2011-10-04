@@ -10,7 +10,7 @@ $domains = array(
 	'Recentanonymousactivity' => 'Recentanonymousactivity.i18n.php',
 	'Svgtranslate' => 'Svgtranslate.i18n.php',
 	'Templatecount' => 'Templatecount.i18n.php',
-	'Toolserverstatus' => 'ToolserverStatus.i18n.php',
+	'Toolserverstatus' => 'Toolserverstatus.i18n.php',
 	'Tsintuition' => 'Tsintuition.i18n.php',
 	'Wlm' => 'Wlm.i18n.php',
 );
