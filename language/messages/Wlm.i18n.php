@@ -355,6 +355,20 @@ $messages['es'] = array(
 	'province-none' => '(Desconocida)',
 );
 
+/** French (Français)
+ * @author Od1n
+ */
+$messages['fr'] = array(
+	'file' => 'Image',
+	'author' => 'Auteur',
+	'monument-heading' => 'Monument',
+	'count-heading' => 'Photographies',
+	'bic-list' => 'Liste',
+	'bic-gallery' => 'Galerie',
+	'author-heading' => 'Auteur',
+	'bic-list-all' => 'Liste complète',
+);
+
 /** Galician (Galego)
  * @author Elisardojm
  * @author Toliño
@@ -783,6 +797,7 @@ $messages['vi'] = array(
 	'show-images-all' => 'Hiện tất cả các hình ảnh',
 	'search-monuments' => 'Tìm kiếm đài tưởng niệm',
 	'view-frequency' => 'Đài tưởng niệm phổ biến',
+	'view-province' => 'Xem theo tỉnh',
 	'id-label' => 'ID của đài tưởng niệm',
 	'id-none' => '(Không có)',
 	'monument-heading' => 'Đài tưởng niệm',
@@ -795,5 +810,7 @@ $messages['vi'] = array(
 	'bic-list-bad' => 'Xem',
 	'bic-list-all' => 'Danh sách đầy đủ',
 	'unregistered' => 'Không đăng ký',
+	'province-heading' => 'Tỉnh',
+	'province-none' => '(Không rõ)',
 );
 

@@ -53,6 +53,17 @@ $messages['qqq'] = array(
 	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)",
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'toolserver-status-ok' => 'Няма ніякіх праблемаў у клястэры базы зьвестак $1 $2',
+	'toolserver-status-info' => 'Паведамленьне для карыстальнікаў клястэра $1: $2',
+	'toolserver-status-warn' => 'Папярэджаньне для карыстальнікаў клястэра $1: $2',
+	'toolserver-status-down' => 'Клястэр базы зьвестак $1 быў часовы адключаны. $2',
+	'toolserver-status-erro' => 'Клястэр базы зьвестак $1 ня дзейнічае. $2',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -71,6 +82,93 @@ $messages['de'] = array(
 	'toolserver-status-short-erro' => '$1: Ausgefallen',
 	'toolserver-status-short-unknown' => '$1: Unbekannt',
 	'toolserver-status-short-missing' => '$1: Nicht vorhanden',
+);
+
+/** French (Français)
+ * @author Od1n
+ */
+$messages['fr'] = array(
+	'toolserver-status-missing' => 'Le cluster $1 n’existe pas',
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'toolserver-status-ok' => 'Non hai ningún problema no clúster da base de datos $1 $2',
+	'toolserver-status-info' => 'Nota aos usuarios do clúster $1: $2',
+	'toolserver-status-warn' => 'Aviso aos usuarios do clúster $1: $2',
+	'toolserver-status-down' => 'O clúster $1 da base de datos está pechado temporalmente. $2',
+	'toolserver-status-erro' => 'O clúster $1 da base de datos está caído. $2',
+	'toolserver-status-unknown' => 'Descoñécese o estado do clúster $1',
+	'toolserver-status-missing' => 'O clúster "$1" non existe',
+	'toolserver-status-short-ok' => '$1: Ben',
+	'toolserver-status-short-info' => '$1: Información',
+	'toolserver-status-short-warn' => '$1: Aviso',
+	'toolserver-status-short-down' => '$1: Pechado',
+	'toolserver-status-short-erro' => '$1: Erro',
+	'toolserver-status-short-unknown' => '$1: Descoñecido',
+	'toolserver-status-short-missing' => '$1: Inexistente',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'toolserver-status-ok' => 'Mer han kein Probleeme em Daatebank-Knubbel $1 $2',
+	'toolserver-status-info' => 'Henwieß för der Jebruch vom Daatebank-Knubbel $1: $2',
+	'toolserver-status-warn' => 'Warnong för der Zohjreff op dä Daatebank-Knubbel $1: $2',
+	'toolserver-status-down' => 'Dä Daatebank-Knubbel $1 wood för en Zigg eronger jefahre. $2',
+	'toolserver-status-erro' => 'Dä Daatebank-Knubbel $1 es eronger jefahre, $2',
+	'toolserver-status-unknown' => 'Mer han kein Aanjaabe övver dä Daatebank-Knubbel $1',
+	'toolserver-status-missing' => 'Ene Daatebank-Knubbel $1 jidd_et nit.',
+	'toolserver-status-short-ok' => '$1: Alles joot.',
+	'toolserver-status-short-info' => '$1: Henwieß.',
+	'toolserver-status-short-warn' => '$1: Oppaße!',
+	'toolserver-status-short-down' => '$1: Läuf nit.',
+	'toolserver-status-short-erro' => '$1: Fähler.',
+	'toolserver-status-short-unknown' => '$1: Nit klohr.',
+	'toolserver-status-short-missing' => '$1: Ham_mer nit.',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'toolserver-status-ok' => 'Нема проблеми во гроздот $1 во базата $2',
+	'toolserver-status-info' => 'Напомена за корисниците на гроздот $1: $2',
+	'toolserver-status-warn' => 'Предупредување за корисниците на гроздот $1: $2',
+	'toolserver-status-down' => 'Гроздот $1 во базата привремено е исклучен. $2',
+	'toolserver-status-erro' => 'Гроздот $1 на базата падна. $2',
+	'toolserver-status-unknown' => 'Состојбата на гроздот $1 е непозната',
+	'toolserver-status-missing' => 'Гроздот $1 не постои',
+	'toolserver-status-short-ok' => '$1: Во ред',
+	'toolserver-status-short-info' => '$1: Инфо',
+	'toolserver-status-short-warn' => '$1: Предупредување',
+	'toolserver-status-short-down' => '$1: Паднат',
+	'toolserver-status-short-erro' => '$1: Грешка',
+	'toolserver-status-short-unknown' => '$1: Непознато',
+	'toolserver-status-short-missing' => '$1: Недостасува',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'toolserver-status-ok' => 'Tiada masalah dalam kelompok pangkalan data $1 $2',
+	'toolserver-status-info' => 'Pemberitahuan untuk pengguna kelompok $1 : $2',
+	'toolserver-status-warn' => 'Amaran untuk pengguna kelompok $1 : $2',
+	'toolserver-status-down' => 'Kelompok pangkalan data $1 telah ditutup buat sementara waktu. $2',
+	'toolserver-status-erro' => 'Kelompok pangkalan data $1 tergendala. $2',
+	'toolserver-status-unknown' => 'Status kelompok $1 tidak diketahui.',
+	'toolserver-status-missing' => 'Kelompok $1 tidak wujud',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Maklumat',
+	'toolserver-status-short-warn' => '$1: Amaran',
+	'toolserver-status-short-down' => '$1: Tergendala',
+	'toolserver-status-short-erro' => '$1: Ralat',
+	'toolserver-status-short-unknown' => '$1: Tidak diketahui',
+	'toolserver-status-short-missing' => '$1: Tiada',
 );
 
 /** Dutch (Nederlands)
@@ -148,5 +246,24 @@ $messages['sr-el'] = array(
 	'toolserver-status-short-erro' => '$1: Greška',
 	'toolserver-status-short-unknown' => '$1: Nepoznato',
 	'toolserver-status-short-missing' => '$1: Nedostaje',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'toolserver-status-ok' => 'Không có vấn đề trong cụm cơ sở dữ liệu $1 $2',
+	'toolserver-status-info' => 'Thông báo cho những người dùng cụm $1: $2',
+	'toolserver-status-down' => 'Cụm cơ sở dữ liệu $1 đã bị tắt tạm thời. $2',
+	'toolserver-status-erro' => 'Cụm cơ sở dữ liệu $1 đang tắt: $2',
+	'toolserver-status-unknown' => 'Trạng thái của cụm $1 không rõ',
+	'toolserver-status-missing' => 'Cụm $1 không tồn tại',
+	'toolserver-status-short-ok' => '$1: OK',
+	'toolserver-status-short-info' => '$1: Thông báo',
+	'toolserver-status-short-warn' => '$1: Cảnh báo',
+	'toolserver-status-short-down' => '$1: Tắt',
+	'toolserver-status-short-erro' => '$1: Lỗi',
+	'toolserver-status-short-unknown' => '$1: Không rõ',
+	'toolserver-status-short-missing' => '$1: Không có',
 );
 

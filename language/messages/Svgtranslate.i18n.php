@@ -690,12 +690,13 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author IAlex
  * @author Jean-Frédéric
+ * @author Od1n
  * @author Sherbrooke
  * @author Verdy p
  */
 $messages['fr'] = array(
 	'title' => 'SVG Traduction',
-	'error-tryagain' => '$1 Utilisez votre bouton Précédent du navigateur pour recommencer.',
+	'error-tryagain' => '$1 Utilisez le bouton Précédent de votre navigateur pour réessayer.',
 	'error-nothing' => 'Rien à traduire.',
 	'error-notsvg' => 'Pas un fichier SVG.',
 	'error-unexpected' => "Une erreur inattendue s'est produite.",
