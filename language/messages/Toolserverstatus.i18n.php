@@ -55,6 +55,7 @@ $messages['qqq'] = array(
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
+ * @author Jim-by
  */
 $messages['be-tarask'] = array(
 	'toolserver-status-ok' => 'Няма ніякіх праблемаў у клястэры базы зьвестак $1 $2',
@@ -62,6 +63,11 @@ $messages['be-tarask'] = array(
 	'toolserver-status-warn' => 'Папярэджаньне для карыстальнікаў клястэра $1: $2',
 	'toolserver-status-down' => 'Клястэр базы зьвестак $1 быў часовы адключаны. $2',
 	'toolserver-status-erro' => 'Клястэр базы зьвестак $1 ня дзейнічае. $2',
+	'toolserver-status-unknown' => 'Невядомы статус клястэру $1',
+	'toolserver-status-missing' => 'Клястэр $1 не існуе',
+	'toolserver-status-short-ok' => '$1: Добра',
+	'toolserver-status-short-info' => '$1: Інфармацыя',
+	'toolserver-status-short-warn' => '$1: Папярэджаньне',
 );
 
 /** German (Deutsch)

@@ -633,6 +633,7 @@ $messages['nl'] = array(
 	'show-images-all' => 'Alle afbeeldingen weergeven',
 	'search-monuments' => 'Monumenten zoeken',
 	'view-frequency' => 'Populaire monumenten',
+	'view-province' => 'Per provincie bekijken',
 	'id-label' => 'Monument-ID:',
 	'id-none' => '(Geen)',
 	'monument-heading' => 'Monument',
@@ -645,6 +646,8 @@ $messages['nl'] = array(
 	'bic-list-bad' => 'Bekijken',
 	'bic-list-all' => 'Volledige lijst',
 	'unregistered' => 'Niet geregistreerd',
+	'province-heading' => 'Provincie',
+	'province-none' => '(Onbekend)',
 );
 
 /** Polish (Polski)
