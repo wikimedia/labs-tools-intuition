@@ -68,6 +68,10 @@ $messages['be-tarask'] = array(
 	'toolserver-status-short-ok' => '$1: Добра',
 	'toolserver-status-short-info' => '$1: Інфармацыя',
 	'toolserver-status-short-warn' => '$1: Папярэджаньне',
+	'toolserver-status-short-down' => '$1: Ня дзейнічае',
+	'toolserver-status-short-erro' => '$1: Памылка',
+	'toolserver-status-short-unknown' => '$1: Невядомая',
+	'toolserver-status-short-missing' => '$1: Адсутнічае',
 );
 
 /** German (Deutsch)
@@ -260,6 +264,7 @@ $messages['sr-el'] = array(
 $messages['vi'] = array(
 	'toolserver-status-ok' => 'Không có vấn đề trong cụm cơ sở dữ liệu $1 $2',
 	'toolserver-status-info' => 'Thông báo cho những người dùng cụm $1: $2',
+	'toolserver-status-warn' => 'Cảnh báo cho những người dùng cụm $1: $2',
 	'toolserver-status-down' => 'Cụm cơ sở dữ liệu $1 đã bị tắt tạm thời. $2',
 	'toolserver-status-erro' => 'Cụm cơ sở dữ liệu $1 đang tắt: $2',
 	'toolserver-status-unknown' => 'Trạng thái của cụm $1 không rõ',
