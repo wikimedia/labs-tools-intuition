@@ -74,6 +74,23 @@ $messages['be-tarask'] = array(
 	'toolserver-status-short-missing' => '$1: Адсутнічае',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'toolserver-status-down' => 'Evit ar poent eo serret kluster $1 an diaz roadennoù. $2',
+	'toolserver-status-erro' => "Sac'het eo kluster $1 an diaz roadennoù. $2",
+	'toolserver-status-unknown' => "Dianav eo statud ar c'hluster $1",
+	'toolserver-status-missing' => "N'eus ket eus ar c'hluster $1.",
+	'toolserver-status-short-ok' => '$1 : Mat eo',
+	'toolserver-status-short-info' => '$1 : Keleier',
+	'toolserver-status-short-warn' => '$1 : Diwall',
+	'toolserver-status-short-down' => "$1 : Sac'het",
+	'toolserver-status-short-erro' => '$1 : Fazi',
+	'toolserver-status-short-unknown' => '$1 : Dianav',
+	'toolserver-status-short-missing' => '$1: Ezvezant',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -121,6 +138,26 @@ $messages['gl'] = array(
 	'toolserver-status-short-missing' => '$1: Inexistente',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'toolserver-status-ok' => 'Il non ha problemas in le gruppo de base de datos $1 $2',
+	'toolserver-status-info' => 'Nota pro usatores del gruppo $1: $2',
+	'toolserver-status-warn' => 'Advertimento pro usatores del gruppo $1: $2',
+	'toolserver-status-down' => 'Le gruppo de base de datos $1 ha essite temporarimente disactivate. $2',
+	'toolserver-status-erro' => 'Le gruppo de base de datos $1 es inactive. $2',
+	'toolserver-status-unknown' => 'Stato incognite del gruppo $1',
+	'toolserver-status-missing' => 'Le gruppo $1 non existe',
+	'toolserver-status-short-ok' => '$1: OK',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Aviso',
+	'toolserver-status-short-down' => '$1: Inactive',
+	'toolserver-status-short-erro' => '$1: Error',
+	'toolserver-status-short-unknown' => '$1: Incognite',
+	'toolserver-status-short-missing' => '$1: Mancante',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -139,6 +176,26 @@ $messages['ksh'] = array(
 	'toolserver-status-short-erro' => '$1: Fähler.',
 	'toolserver-status-short-unknown' => '$1: Nit klohr.',
 	'toolserver-status-short-missing' => '$1: Ham_mer nit.',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'toolserver-status-ok' => 'Et gëtt keng Problemer mam Datebankcluster $1 $2',
+	'toolserver-status-info' => "Informatioun fir d'Benotzer vum Datebankcluster $1: $2",
+	'toolserver-status-warn' => "Warnung fir d'Benotzer vum Datebankcluster $1: $2",
+	'toolserver-status-down' => 'Den Datebankcluster $1 gouf temporär ausgeschalt. $2',
+	'toolserver-status-erro' => 'Den Datebankcluster $1 ass down. $2',
+	'toolserver-status-unknown' => 'De Status vum Datebankcluster $1 ass onbekannt',
+	'toolserver-status-missing' => 'Den Datebankcluster $1 gëtt et net',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Informatioun',
+	'toolserver-status-short-warn' => '$1: Warnung',
+	'toolserver-status-short-down' => '$1: Down',
+	'toolserver-status-short-erro' => '$1: Feeler',
+	'toolserver-status-short-unknown' => '$1: Onbekannt',
+	'toolserver-status-short-missing' => '$1: Net do',
 );
 
 /** Macedonian (Македонски)
@@ -216,6 +273,41 @@ $messages['pl'] = array(
 	'toolserver-status-short-erro' => '$1: Błąd',
 	'toolserver-status-short-unknown' => '$1: Nieznany',
 	'toolserver-status-short-missing' => '$1: Brak',
+);
+
+/** Serbo-Croatian (Srpskohrvatski)
+ * @author OC Ripper
+ */
+$messages['sh'] = array(
+	'toolserver-status-ok' => 'Nema problema u klasteru baze podataka $1 $2',
+	'toolserver-status-info' => 'Napomena za korisnike klastera $1: $2',
+	'toolserver-status-warn' => 'Upozorenje za korisnike klastera $1: $2',
+	'toolserver-status-down' => 'Klaster baze podataka $1 je privremeno isključen. $2',
+	'toolserver-status-erro' => 'Klaster baze podataka $1 je iznenada pao. $2',
+	'toolserver-status-unknown' => 'Nepoznato stanje klastera $1',
+	'toolserver-status-missing' => 'Klaster $1 ne postoji',
+	'toolserver-status-short-ok' => '$1: U redu',
+	'toolserver-status-short-info' => '$1: Informacije',
+	'toolserver-status-short-warn' => '$1: Upozorenje',
+	'toolserver-status-short-down' => '$1: Pad',
+	'toolserver-status-short-erro' => '$1: Greška',
+	'toolserver-status-short-unknown' => '$1: Nepoznato',
+	'toolserver-status-short-missing' => '$1: Nedostaje',
+);
+
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'toolserver-status-unknown' => 'Neznano stanje gruče $1',
+	'toolserver-status-missing' => 'Gruča $1 ne obstaja',
+	'toolserver-status-short-ok' => '$1: V redu',
+	'toolserver-status-short-info' => '$1: Informacija',
+	'toolserver-status-short-warn' => '$1: Opozorilo',
+	'toolserver-status-short-down' => '$1: Ne deluje',
+	'toolserver-status-short-erro' => '$1: Napaka',
+	'toolserver-status-short-unknown' => '$1: Neznano',
+	'toolserver-status-short-missing' => '$1: Manjka',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)

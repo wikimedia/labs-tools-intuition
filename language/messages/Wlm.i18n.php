@@ -679,6 +679,46 @@ $messages['pl'] = array(
 	'bic-list-all' => 'Pełna lista',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'title' => 'Datoteke WLM',
+	'file' => 'Slika',
+	'monument-type' => 'Vrsta spomenika',
+	'monument-id' => 'Id spomenika',
+	'province' => 'Provinca',
+	'competes' => 'Tekmuje',
+	'author' => 'Avtor',
+	'upload-time' => 'Čas nalaganja',
+	'concursa' => 'Sodeluje v WLM',
+	'no-concursa' => 'Zunaj tekmovanja WLM',
+	'not-available' => 'Ni na voljo',
+	'date-unknown' => 'Neznano',
+	'total-images' => 'Skupno slik: $1',
+	'view-uncategorized-images' => 'Ogled nekategoriziranih slik',
+	'provide-id' => 'Za prikaz podatkov, ki so na voljo za spomenik, navedite njegov id',
+	'show-images-bad-only' => 'Prikaži samo slike izven seznamov',
+	'show-images-all' => 'Prikaži vse slike',
+	'search-monuments' => 'Iskanje spomenikov',
+	'view-frequency' => 'Priljubljeni spomeniki',
+	'view-province' => 'Ogled po provincah',
+	'id-label' => 'Id spomenika:',
+	'id-none' => '(Brez)',
+	'monument-heading' => 'Spomenik',
+	'count-heading' => 'Fotografije',
+	'bic-list' => 'Seznam',
+	'bic-gallery' => 'Galerija',
+	'gallery-header' => 'Slike spomenika z id $1.',
+	'wall-of-shame-text' => 'Avtorji po številu neprepoznanih fotografij',
+	'author-heading' => 'Avtor',
+	'bic-list-bad' => 'Prikaži',
+	'bic-list-all' => 'Polni seznam',
+	'unregistered' => 'Neregistriran',
+	'province-heading' => 'Provinca',
+	'province-none' => '(Neznano)',
+);
+
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
