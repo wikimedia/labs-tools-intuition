@@ -354,6 +354,7 @@ $messages['la'] = array(
  */
 $messages['lb'] = array(
 	'enter-details' => 'Detailer aginn',
+	'introduction' => "Gitt den Numm vun enger Schabloun an (elo nëmmen op Wikipedia) a klickt 'Lass'. Et ass esou einfach wéi dat. Et ka sinn datt Resultater aus dem Tëschespäicher gewise ginn, awer dat kann net vun dësem Tool oder sengem Besëtzer kontrolléiert ginn.",
 	'language-label' => 'Sprooch',
 	'namespace-label' => 'Nummraum',
 	'pagename-label' => 'Numm vun der Säit (ouni Nummraum)',

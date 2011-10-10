@@ -240,16 +240,20 @@ $messages['ms'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'toolserver-status-ok' => 'Er zijn geen problemen in de databasecluster $1 $2',
 	'toolserver-status-info' => 'Kennisgeving voor gebruikers van cluster $1: $2',
 	'toolserver-status-warn' => 'Waarschuwing voor gebruikers van cluster $1: $2',
+	'toolserver-status-down' => 'Het databasecluster  $1 is tijdelijk afgesloten. $2',
+	'toolserver-status-erro' => 'Het databasecluster $1 is niet beschikbaar. $2',
 	'toolserver-status-unknown' => 'Onbekend status van cluster $1',
 	'toolserver-status-missing' => 'Cluster $1 bestaat niet',
 	'toolserver-status-short-ok' => '$1: OK',
 	'toolserver-status-short-info' => '$1: Info',
 	'toolserver-status-short-warn' => '$1: Waarschuwing',
+	'toolserver-status-short-down' => '$1: niet beschikbaar',
 	'toolserver-status-short-erro' => '$1: Foutmelding',
 	'toolserver-status-short-unknown' => '$1: Onbekend',
 	'toolserver-status-short-missing' => '$1: Ontbrekend',
@@ -257,19 +261,20 @@ $messages['nl'] = array(
 
 /** Polish (Polski)
  * @author Grzechooo
+ * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'toolserver-status-ok' => 'Nie ma żadnych problemów w klastrze bazy danych $1 $2',
-	'toolserver-status-info' => 'Wiadomość dla użytkowników klastra $1: $2',
+	'toolserver-status-ok' => 'Brak jakichkolwiek problemów w klastrze bazy danych $1 $2',
+	'toolserver-status-info' => 'Informacja dla użytkowników klastra $1: $2',
 	'toolserver-status-warn' => 'Ostrzeżenie dla użytkowników klastra $1: $2',
 	'toolserver-status-down' => 'Klaster bazy danych $1 został tymczasowo wyłączony. $2',
-	'toolserver-status-erro' => 'Klaster bazy danych $1 nie działa. $2',
+	'toolserver-status-erro' => 'Klaster bazy danych $1 jest wyłączony. $2',
 	'toolserver-status-unknown' => 'Nieznany status klastra $1',
 	'toolserver-status-missing' => 'Klaster $1 nie istnieje',
 	'toolserver-status-short-ok' => '$1: OK',
 	'toolserver-status-short-info' => '$1: Informacje',
 	'toolserver-status-short-warn' => '$1: Ostrzeżenie',
-	'toolserver-status-short-down' => '$1: Nie działa',
+	'toolserver-status-short-down' => '$1: Wyłączony',
 	'toolserver-status-short-erro' => '$1: Błąd',
 	'toolserver-status-short-unknown' => '$1: Nieznany',
 	'toolserver-status-short-missing' => '$1: Brak',
@@ -295,10 +300,29 @@ $messages['sh'] = array(
 	'toolserver-status-short-missing' => '$1: Nedostaje',
 );
 
+/** Sinhala (සිංහල)
+ * @author බිඟුවා
+ */
+$messages['si'] = array(
+	'toolserver-status-ok' => 'ක්ලස්ටර් $1 $2 හි කිසිදු දෝෂයක් නොමැත',
+	'toolserver-status-short-ok' => '$1: හරි',
+	'toolserver-status-short-info' => '$1: තොරතුරු',
+	'toolserver-status-short-warn' => '$1: අනතුරු හඟවනවා',
+	'toolserver-status-short-down' => '$1: විරහිතයි',
+	'toolserver-status-short-erro' => '$1: දෝෂය',
+	'toolserver-status-short-unknown' => '$1: නොදත්',
+	'toolserver-status-short-missing' => '$1: දක්නට නොමැත',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'toolserver-status-ok' => 'V gruči zbirke podatkov $1 ni težav $2',
+	'toolserver-status-info' => 'Obvestilo za uporabnike gruče $1: $2',
+	'toolserver-status-warn' => 'Opozorilo za uporabnike gruče $1: $2',
+	'toolserver-status-down' => 'Gruča zbirke podatkov $1 je bila začasno zaustavljena. $2',
+	'toolserver-status-erro' => 'Gruča zbirke podatkov $1 ne deluje. $2',
 	'toolserver-status-unknown' => 'Neznano stanje gruče $1',
 	'toolserver-status-missing' => 'Gruča $1 ne obstaja',
 	'toolserver-status-short-ok' => '$1: V redu',

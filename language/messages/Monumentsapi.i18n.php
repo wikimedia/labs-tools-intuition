@@ -473,12 +473,17 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Askarmuk
  * @author Rave
  */
 $messages['ru'] = array(
+	'search-title' => 'Поиск сооружений',
+	'search-monuments-database' => 'Искать по базе сооружений',
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Фильтр',
 	'search-table-th-search' => 'Поиск',
+	'filter-all-countries' => 'Все страны',
+	'filter-all-languages' => 'Все языки',
 );
 
 /** Slovenian (Slovenščina)

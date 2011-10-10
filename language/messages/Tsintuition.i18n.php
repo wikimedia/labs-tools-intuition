@@ -1265,6 +1265,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Askarmuk
  * @author Lvova
  */
 $messages['ru'] = array(
@@ -1277,13 +1278,16 @@ $messages['ru'] = array(
 	'renew-cookies' => 'Обновить Cookies',
 	'cookie-expiration' => 'Срок действия файла cookie',
 	'clearcookies-success' => 'Успешно очищены файлы Cookies.',
+	'renewcookies-success' => 'Cookie обновлены! Срок установлен на $1',
 	'tab-overview' => 'Обзор',
 	'tab-settings' => 'Настройки',
 	'tab-about' => 'Описание',
 	'tab-demo' => 'Демо',
 	'bl-mysettings' => 'Мои языковые настройки',
 	'bl-mysettings-new' => 'Изменить язык',
+	'bl-promo' => 'Перевод сделан с помощью $1 и $2.',
 	'bl-changelanguage' => 'Нажмите здесь, чтобы изменить язык интерфейса этого инструмента.',
+	'usage' => 'Инструменты, переведенные с помощью Toolserver Intuition',
 	'help-translate-tool' => 'Помогите перевести этот инструмент!',
 	'help-translate-all' => 'Помогите перевести Тулсервер!',
 	'help-translate-tooltip' => 'Помогите другим путём перевода интерфейса сообщений на ваш язык.',

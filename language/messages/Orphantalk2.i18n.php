@@ -981,9 +981,11 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Askarmuk
  * @author Lvova
  */
 $messages['ru'] = array(
+	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(сначала выберите вики)',
 	'hideredirects' => 'Скрыть перенаправления',
 	'hidesubpages' => 'Скрыть подстраницы',
