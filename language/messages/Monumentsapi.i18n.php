@@ -434,6 +434,8 @@ $messages['pl'] = array(
 $messages['ps'] = array(
 	'search-table-th-filter' => 'چاڼګر',
 	'search-table-th-search' => 'پلټل',
+	'filter-all-countries' => 'ټول هېوادونه',
+	'filter-all-languages' => 'ټولې ژبې',
 );
 
 /** Portuguese (Português)

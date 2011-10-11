@@ -661,6 +661,7 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Schu
+ * @author Whym
  */
 $messages['ja'] = array(
 	'hello' => 'こんにちは',
@@ -669,6 +670,14 @@ $messages['ja'] = array(
 	'etc' => 'etc.',
 	'namespace' => '名前空間',
 	'form-reset' => '再設定',
+	'years' => '{{PLURAL: $1|年|年}}',
+	'weeks' => '{{PLURAL: $1|週間|週間}}',
+	'days' => '{{PLURAL: $1|日|日}}',
+	'hours' => '{{PLURAL: $1|時間|時間}}',
+	'minutes' => '{{PLURAL: $1|分|分}}',
+	'seconds' => '{{PLURAL: $1|秒|秒}}',
+	'last-modified-date' => '最終更新： $1',
+	'view-source' => 'ソースを表示',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -769,8 +778,8 @@ $messages['lez'] = array(
 	'welcome' => 'Ша башуьсте',
 	'years' => 'йисар',
 	'weeks' => '{{PLURAL: $1|афте|афтеяр}}',
-	'days' => 'югъ',
-	'hours' => 'сятер',
+	'days' => '{{PLURAL: $1|югъ|йикъар}}',
+	'hours' => '{{PLURAL: $1|сят|сятерал}}',
 );
 
 /** Lithuanian (Lietuvių)
