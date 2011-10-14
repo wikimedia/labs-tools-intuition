@@ -1414,6 +1414,13 @@ $messages['sv'] = array(
 	'help-translate-tooltip' => 'Hjälp andra genom att översätta gränssnittsmeddelanden till ditt språk.',
 );
 
+/** Tamil (தமிழ்)
+ * @author Logicwiki
+ */
+$messages['ta'] = array(
+	'choose-language' => 'மொழியை தேர்ந்தெடுக்கவும்',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */

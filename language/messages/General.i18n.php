@@ -603,6 +603,7 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
  * @author IvanLanin
  */
 $messages['id'] = array(
@@ -613,10 +614,12 @@ $messages['id'] = array(
 	'namespace' => 'Ruang nama',
 	'form-submit' => 'Kirim',
 	'form-reset' => 'Reset',
-	'years' => 'tahun',
-	'weeks' => 'minggu',
-	'days' => 'hari',
-	'hours' => 'jam',
+	'years' => '{{PLURAL: $1|Tahun|Tahun}}',
+	'weeks' => '{{PLURAL: $1|Minggu|minggu}}',
+	'days' => '{{PLURAL: $1|hari|hari}}',
+	'hours' => '{{PLURAL: $1|Jam|jam}}',
+	'minutes' => '{{PLURAL: $1|Menit|menit}}',
+	'seconds' => '{{PLURAL: $1|Detik|detik}}',
 	'last-modified-date' => 'Terakhir diubah: $1',
 	'view-source' => 'Lihat sumber',
 );
@@ -1175,6 +1178,17 @@ $messages['sv'] = array(
 	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
 	'last-modified-date' => 'Senast uppdaterad: $1',
 	'view-source' => 'Visa källkod',
+);
+
+/** Tamil (தமிழ்)
+ * @author Logicwiki
+ */
+$messages['ta'] = array(
+	'hello' => 'வணக்கம்',
+	'welcome' => 'வருக',
+	'etc' => 'இன்ன பிற',
+	'form-reset' => 'மீட்டமைக்க',
+	'view-source' => 'மூலத்தைப் பார்',
 );
 
 /** Telugu (తెలుగు)

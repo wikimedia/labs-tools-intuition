@@ -268,6 +268,16 @@ $messages['ia'] = array(
 	'form-legend-settings' => 'Configurationes',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
+ */
+$messages['id'] = array(
+	'alws-selectwiki' => '(pilih wiki)',
+	'alws-group-mustused' => 'Wiki yang paling banyak digunakan',
+	'alws-group-allaz' => 'Semua wiki berdasarkan abjad',
+	'form-legend-settings' => 'Pengaturan',
+);
+
 /** Italian (Italiano)
  * @author Rippitippi
  */

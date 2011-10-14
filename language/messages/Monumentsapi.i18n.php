@@ -536,6 +536,13 @@ $messages['sv'] = array(
 	'search-table-th-search' => 'Sök',
 );
 
+/** Tamil (தமிழ்)
+ * @author Logicwiki
+ */
+$messages['ta'] = array(
+	'search-table-th-search' => 'தேடுக',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */

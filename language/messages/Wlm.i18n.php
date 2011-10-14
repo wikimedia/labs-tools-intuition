@@ -238,6 +238,7 @@ $messages['br'] = array(
 );
 
 /** Catalan (Català)
+ * @author SMP
  * @author Toniher
  */
 $messages['ca'] = array(
@@ -260,6 +261,7 @@ $messages['ca'] = array(
 	'show-images-all' => 'Mostra totes les imatges',
 	'search-monuments' => 'Cerca monuments',
 	'view-frequency' => 'Monuments populars',
+	'view-province' => 'Vista per província',
 	'id-label' => 'ID del monument:',
 	'id-none' => '(cap)',
 	'monument-heading' => 'Monument',
@@ -272,6 +274,8 @@ $messages['ca'] = array(
 	'bic-list-bad' => 'Mostra',
 	'bic-list-all' => 'Llista completa',
 	'unregistered' => 'No registrat',
+	'province-heading' => 'Província',
+	'province-none' => '(Desconeguda)',
 );
 
 /** German (Deutsch)

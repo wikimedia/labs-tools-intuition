@@ -257,6 +257,17 @@ $messages['ia'] = array(
 	'output' => 'Resultatos pro "$1"',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
+ */
+$messages['id'] = array(
+	'formats-heading' => 'Format keluaran:',
+	'input' => 'Masukan',
+	'label-wikiids' => 'Pengidentifikasi wiki',
+	'no-matches' => 'Tidak ada yang cocok " $1 "',
+	'output' => 'Output untuk " $1 "',
+);
+
 /** Italian (Italiano)
  * @author Beta16
  */
@@ -465,6 +476,13 @@ $messages['sv'] = array(
 	'label-wikiids' => 'Wiki-identifierare',
 	'no-matches' => 'Ingenting matchade "$1"',
 	'output' => 'Utdata för "$1"',
+);
+
+/** Tamil (தமிழ்)
+ * @author Logicwiki
+ */
+$messages['ta'] = array(
+	'input' => 'உள்ளீடு',
 );
 
 /** Telugu (తెలుగు)

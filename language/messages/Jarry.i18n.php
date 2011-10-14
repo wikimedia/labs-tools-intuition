@@ -202,6 +202,16 @@ $messages['ia'] = array(
 	'error-form-empty' => 'Un o plus campos obligatori ha essite lassate vacue. Es necessari completar los ante de continuar.',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
+ */
+$messages['id'] = array(
+	'moretools' => 'alat alat yang lain dari penulis yang sama',
+	'bugs' => 'laporan bug dan permintaan fitur',
+	'comments' => 'Komentar dan pertanyaan',
+	'error-form-empty' => 'Satu bidang atau beberapa bidang telah ditinggalkan kosong. Anda harus menyelesaikannya sebelum melanjutkan.',
+);
+
 /** Italian (Italiano)
  * @author Rippitippi
  */
