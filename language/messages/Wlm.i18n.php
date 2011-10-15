@@ -414,6 +414,46 @@ $messages['gl'] = array(
 	'province-none' => '(Descoñecida)',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'title' => 'קובצי WLM',
+	'file' => 'תמונה',
+	'monument-type' => 'סוג האתר',
+	'monument-id' => 'מזהה האתר',
+	'province' => 'מחוז',
+	'competes' => 'מתחרה',
+	'author' => 'יוצר',
+	'upload-time' => 'זמן ההעלאה',
+	'concursa' => 'משתתף ב־WLM',
+	'no-concursa' => 'מחוץ לתחרות WLM',
+	'not-available' => 'אינו זמין',
+	'date-unknown' => 'אינו ידוע',
+	'total-images' => 'תמנוות בסך הכול: $1',
+	'view-uncategorized-images' => 'הצגת תמונות ללא קטגוריה',
+	'provide-id' => 'נא להזין מזהה אתר כדי להציג את הנתונים הזמינים לפריט הזה',
+	'show-images-bad-only' => 'להציג רק תמונות מחוץ לרשימות',
+	'show-images-all' => 'להציג את כל התמונות',
+	'search-monuments' => 'לחפש אתרים',
+	'view-frequency' => 'אתרים פופולריים',
+	'view-province' => 'להציג לפי מחוז',
+	'id-label' => 'מזהה אתר:',
+	'id-none' => '(אין)',
+	'monument-heading' => 'אתר',
+	'count-heading' => 'צילומים',
+	'bic-list' => 'רשימה',
+	'bic-gallery' => 'גלריה',
+	'gallery-header' => 'תמונות עבור האתר עם המזהה $1.',
+	'wall-of-shame-text' => 'יוצרים לפי מספר הצילומים הלא־מזוהים',
+	'author-heading' => 'יוצר',
+	'bic-list-bad' => 'הצגה',
+	'bic-list-all' => 'רשימה מלאה',
+	'unregistered' => 'לא רשום',
+	'province-heading' => 'מחוז',
+	'province-none' => '(אינו ידוע)',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -454,6 +494,30 @@ $messages['ia'] = array(
 	'province-none' => '(Incognite)',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
+ */
+$messages['id'] = array(
+	'title' => 'file WLM',
+	'file' => 'Gambar',
+	'monument-type' => 'Jenis monumen',
+	'province' => 'Provinsi',
+	'competes' => 'Bersaing',
+	'author' => 'Penulis',
+	'upload-time' => 'Waktu unggah',
+	'concursa' => 'Mengambil bagian dalam WLM',
+	'no-concursa' => 'Diluar kompetisi WLM',
+	'not-available' => 'Tidak tersedia',
+	'date-unknown' => 'Tidak diketahui',
+	'total-images' => 'Total gambar: $1',
+	'show-images-bad-only' => 'Hanya tunjukan gambar diluar daftar',
+	'count-heading' => 'foto',
+	'bic-gallery' => 'Galeri',
+	'wall-of-shame-text' => 'Pembuat dengan jumlah foto tak dikenal',
+	'author-heading' => 'Pembuat',
+	'province-heading' => 'Provinsi',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -477,6 +541,7 @@ $messages['ksh'] = array(
 	'show-images-all' => 'Donn all de Belder aanzeije',
 	'search-monuments' => 'Dänkmöhler söhke',
 	'view-frequency' => 'Joot jelidde Dänkmöhler ',
+	'view-province' => 'Noh Provinß zoteet',
 	'id-label' => 'Dem Dänkmohl sing Kännong:',
 	'id-none' => '(Kei)',
 	'monument-heading' => 'Däm Dänkmohl sing Kännong',
@@ -489,6 +554,8 @@ $messages['ksh'] = array(
 	'bic-list-bad' => 'Zeisch aan!',
 	'bic-list-all' => 'De kumplätte Leß',
 	'unregistered' => 'Nit aanjemälldt',
+	'province-heading' => 'Provinß',
+	'province-none' => '(Onbikannt)',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

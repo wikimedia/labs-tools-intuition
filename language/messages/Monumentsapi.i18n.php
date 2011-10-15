@@ -248,9 +248,13 @@ $messages['gl'] = array(
  * @author Amire80
  */
 $messages['he'] = array(
+	'search-title' => 'הצגת כל האתרים',
+	'search-monuments-database' => 'חיפוש במסד הנתונים של האתרים',
 	'search-table-th-field' => 'שדה',
 	'search-table-th-filter' => 'מסנן',
 	'search-table-th-search' => 'חיפוש',
+	'filter-all-countries' => 'כל הארצות',
+	'filter-all-languages' => 'כל השפות',
 );
 
 /** Croatian (Hrvatski)

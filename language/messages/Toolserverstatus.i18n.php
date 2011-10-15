@@ -78,6 +78,9 @@ $messages['be-tarask'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
+	'toolserver-status-ok' => "N'eus kudenn ebet gant kluster an diaz roadennoù $1 $2",
+	'toolserver-status-info' => "Notenn evit implijerien ar c'hluster $1: $2",
+	'toolserver-status-warn' => "Kemenn diwall evit implijerien ar c'hluster $1: $2",
 	'toolserver-status-down' => 'Evit ar poent eo serret kluster $1 an diaz roadennoù. $2',
 	'toolserver-status-erro' => "Sac'het eo kluster $1 an diaz roadennoù. $2",
 	'toolserver-status-unknown' => "Dianav eo statud ar c'hluster $1",
@@ -156,6 +159,26 @@ $messages['gl'] = array(
 	'toolserver-status-short-erro' => '$1: Erro',
 	'toolserver-status-short-unknown' => '$1: Descoñecido',
 	'toolserver-status-short-missing' => '$1: Inexistente',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'toolserver-status-ok' => 'אין בעיות בצביר מסד הנתונים $1 $2',
+	'toolserver-status-info' => 'הודעה למשתמשי הצביר $1: <span dir="auto">$2</span>',
+	'toolserver-status-warn' => 'אזהרה למשתמשי הצביר $1: <span dir="auto">$2</span>',
+	'toolserver-status-down' => 'צביר מסד הנתונים $1 הורד זמנית. <span dir="auto">$2</span>',
+	'toolserver-status-erro' => 'צביר מסד הנתונים $1 למטה. <span dir="auto">$2</span>',
+	'toolserver-status-unknown' => 'מצב הצביר $1 אינו ידוע',
+	'toolserver-status-missing' => 'צביר $1 אינו קיים',
+	'toolserver-status-short-ok' => '$1: בסדר',
+	'toolserver-status-short-info' => '$1: מידע',
+	'toolserver-status-short-warn' => '$1: אזהרה',
+	'toolserver-status-short-down' => '$1: למטה',
+	'toolserver-status-short-erro' => '$1: שגיאה',
+	'toolserver-status-short-unknown' => '$1: לא ידוע',
+	'toolserver-status-short-missing' => '$1: חסר',
 );
 
 /** Interlingua (Interlingua)

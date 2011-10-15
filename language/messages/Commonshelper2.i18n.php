@@ -132,6 +132,14 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 * $1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.',
 );
 
+/** Batak Toba (Batak Toba)
+ * @author Aldnonymous
+ */
+$messages['bbc-latn'] = array(
+	'attention' => 'Goit',
+	'description' => 'parhohas tu paorothon siboanon sian proyek Wikimedia tu Wikimedia Commons',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
