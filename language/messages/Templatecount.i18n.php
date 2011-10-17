@@ -300,6 +300,13 @@ $messages['ia'] = array(
 	'time-label' => 'Tempore prendite pro executar le commando',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
+ */
+$messages['id'] = array(
+	'enter-details' => 'Masukan detail',
+);
+
 /** Italian (Italiano)
  * @author Beta16
  */

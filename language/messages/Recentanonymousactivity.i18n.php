@@ -158,6 +158,13 @@ $messages['ia'] = array(
 	'title' => 'Activitate anonyme recente',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
+ */
+$messages['id'] = array(
+	'title' => 'Aktifitas tak terdaftar akhir akhir ini',
+);
+
 /** Italian (Italiano)
  * @author Mpitt
  */
