@@ -51,6 +51,7 @@ $messages['en'] = array(
 
 	/* gallery.php */
 	'gallery-header' => 'Images for the monument with id $1.',
+	'gallery-header-place' => 'Images for monuments from $1.',
 
 	/* wall-of-shame.php */
 	'wall-of-shame-text' => 'Authors by number of unidentified photographs',
@@ -59,9 +60,10 @@ $messages['en'] = array(
 	'bic-list-all' => 'Full list',
 	'unregistered' => 'Unregistered',
 
-	/* province-heading */
+	/* province.php, ccaa.php */
 	'province-heading' => 'Province',
 	'province-none' => '(Unknown)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Message documentation (Message documentation)
@@ -104,6 +106,7 @@ $messages['qqq'] = array(
 	'bic-gallery' => 'Text of link which shows the gallery of monuments with the id of this row.
 {{Identical|Gallery}}',
 	'gallery-header' => 'Text for the gallery pages. $1 is the selected monument id.',
+	'gallery-header-place' => 'Text for the gallery pages. $1 is the location for the monuments (province / autonomous community).',
 	'wall-of-shame-text' => 'Text for explaining the wall-of-shame page',
 	'author-heading' => 'Heading for the column with the list of authors.
 {{Identical|Author}}',
@@ -114,6 +117,7 @@ $messages['qqq'] = array(
 	'province-heading' => 'Header for the province column of http://toolserver.org/~platonides/wlm/provincias.php',
 	'province-none' => 'Marker to group images for which no province is registered in the db.
 {{Identical|Unknown}}',
+	'ccaa-heading' => 'Header for the autonomous communities column',
 );
 
 /** Asturian (Asturianu)
@@ -350,6 +354,7 @@ $messages['es'] = array(
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imágenes del monumento con el registro $1.',
+	'gallery-header-place' => 'Imágenes de monumentos de $1.',
 	'wall-of-shame-text' => 'Autores por número de fotografías sin identificar',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Mostrar',
@@ -357,6 +362,7 @@ $messages['es'] = array(
 	'unregistered' => 'Sin registrar',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** French (Français)
