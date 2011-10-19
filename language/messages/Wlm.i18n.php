@@ -190,6 +190,7 @@ $messages['be-tarask'] = array(
 	'show-images-all' => 'Паказаць усе выявы',
 	'search-monuments' => 'Пошук славутасьцяў',
 	'view-frequency' => 'Папулярныя славутасьці',
+	'view-ccaa' => 'Паказаць аўтаномную супольнасьць',
 	'view-province' => 'Паказаць па правінцыях (абласьцях)',
 	'id-label' => 'Ідэнтыфікатар славутасьці:',
 	'id-none' => '(Няма)',
@@ -198,6 +199,7 @@ $messages['be-tarask'] = array(
 	'bic-list' => 'Сьпіс',
 	'bic-gallery' => 'Галерэя',
 	'gallery-header' => 'Выявы для славутасьці з ідэнтыфікатарам $1.',
+	'gallery-header-place' => 'Выявы славутасьцяў з $1.',
 	'wall-of-shame-text' => 'Аўтары па нумарах неіндэфікаваных фатаграфіяў',
 	'author-heading' => 'Аўтар',
 	'bic-list-bad' => 'Паказаць',
@@ -205,6 +207,7 @@ $messages['be-tarask'] = array(
 	'unregistered' => 'Незарэгістраваныя',
 	'province-heading' => 'Правінцыя/вобласьць',
 	'province-none' => '(Невядома)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Breton (Brezhoneg)
@@ -297,6 +300,8 @@ $messages['de'] = array(
 	'monument-type' => 'Art des Denkmals',
 	'monument-id' => 'Kennung des Denkmals',
 	'province' => 'Provinz',
+	'comarque' => 'Comarque',
+	'province-comarque-joiner' => '$1 / $2',
 	'competes' => 'Nimmt teil',
 	'author' => 'Urheber',
 	'upload-time' => 'Hochladezeitpunkt',
@@ -311,6 +316,7 @@ $messages['de'] = array(
 	'show-images-all' => 'Alle Bilder anzeigen',
 	'search-monuments' => 'Denkmäler suchen',
 	'view-frequency' => 'Beliebte Denkmäler',
+	'view-ccaa' => 'Nach autonomer Gemeinschaft ansehen',
 	'view-province' => 'Nach Provinz ansehen',
 	'id-label' => 'Kennung des Denkmals:',
 	'id-none' => '(Keine)',
@@ -319,6 +325,7 @@ $messages['de'] = array(
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => 'Bilder des Denkmals mit der Kennung $1.',
+	'gallery-header-place' => 'Bilder zu Denkmälern aus $1.',
 	'wall-of-shame-text' => 'Autoren nach der Anzahl nicht identifizierbarer Fotografien',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Anzeigen',
@@ -326,6 +333,7 @@ $messages['de'] = array(
 	'unregistered' => 'Nicht registriert',
 	'province-heading' => 'Provinz',
 	'province-none' => '(Unbekannt)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Spanish (Español)
@@ -411,6 +419,7 @@ $messages['gl'] = array(
 	'show-images-all' => 'Mostrar todas as imaxes',
 	'search-monuments' => 'Buscar monumentos',
 	'view-frequency' => 'Monumentos populares',
+	'view-ccaa' => 'Ver por comunidade autónoma',
 	'view-province' => 'Ver por provincia',
 	'id-label' => 'Identificador do monumento:',
 	'id-none' => '(Ningún)',
@@ -419,6 +428,7 @@ $messages['gl'] = array(
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imaxes para o monumento co identificador $1.',
+	'gallery-header-place' => 'Imaxes dos monumentos de $1.',
 	'wall-of-shame-text' => 'Autores por número de fotos sen identificar',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Mostrar',
@@ -426,6 +436,7 @@ $messages['gl'] = array(
 	'unregistered' => 'Non rexistrado',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Descoñecida)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Hebrew (עברית)
@@ -491,6 +502,7 @@ $messages['ia'] = array(
 	'show-images-all' => 'Monstrar tote le imagines',
 	'search-monuments' => 'Cercar monumentos',
 	'view-frequency' => 'Monumentos popular',
+	'view-ccaa' => 'Gruppar per communitate autonome',
 	'view-province' => 'Gruppar per provincia',
 	'id-label' => 'ID de monumento:',
 	'id-none' => '(Nulle)',
@@ -499,6 +511,7 @@ $messages['ia'] = array(
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galeria',
 	'gallery-header' => 'Imagines con le monumento con ID $1.',
+	'gallery-header-place' => 'Imagines de monumentos ex $1.',
 	'wall-of-shame-text' => 'Autores per numero de photographias sin identification',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Monstrar',
@@ -506,6 +519,7 @@ $messages['ia'] = array(
 	'unregistered' => 'Non registrate',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Incognite)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -652,6 +666,7 @@ $messages['mk'] = array(
 	'show-images-all' => 'Сите слики',
 	'search-monuments' => 'Пребарување на споменици',
 	'view-frequency' => 'Популарни споменици',
+	'view-ccaa' => 'Прегл. по автономни заедници',
 	'view-province' => 'По покраина',
 	'id-label' => 'Назнака на споменикот:',
 	'date-format' => 'j F Y, H:i ч. и s сек.',
@@ -661,6 +676,7 @@ $messages['mk'] = array(
 	'bic-list' => 'Список',
 	'bic-gallery' => 'Галерија',
 	'gallery-header' => 'Слики на споменикот со назнака $1.',
+	'gallery-header-place' => 'Слики на знаменитости од $1.',
 	'wall-of-shame-text' => 'Автори по број на непрепознаени фотографии',
 	'author-heading' => 'Автор',
 	'bic-list-bad' => 'Прикажи',
@@ -668,6 +684,7 @@ $messages['mk'] = array(
 	'unregistered' => 'Нерегистрирани',
 	'province-heading' => 'Покраина',
 	'province-none' => '(Непозната)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Malay (Bahasa Melayu)
@@ -693,6 +710,7 @@ $messages['ms'] = array(
 	'show-images-all' => 'Tunjukkan semua imej',
 	'search-monuments' => 'Cari monumen',
 	'view-frequency' => '(Tiada)',
+	'view-ccaa' => 'Lihat mengikut komuniti autonomi',
 	'view-province' => 'Lihat mengikut wilayah',
 	'id-label' => 'Monumen',
 	'id-none' => '(Tiada)',
@@ -700,7 +718,8 @@ $messages['ms'] = array(
 	'count-heading' => 'Gambar',
 	'bic-list' => 'Senarai',
 	'bic-gallery' => 'Galeri',
-	'gallery-header' => 'Imej untuk monumen id $1.',
+	'gallery-header' => 'Imej monumen id $1.',
+	'gallery-header-place' => 'Imej untuk monumen dari $1.',
 	'wall-of-shame-text' => 'Pengarang mengikut bilangan gambar yang tidak dikenal pasti',
 	'author-heading' => 'Pengarang',
 	'bic-list-bad' => 'Tunjukkan',
@@ -708,6 +727,7 @@ $messages['ms'] = array(
 	'unregistered' => 'Tidak berdaftar',
 	'province-heading' => 'Wilayah',
 	'province-none' => '(Tidak diketahui)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Dutch (Nederlands)
@@ -829,6 +849,8 @@ $messages['sr-ec'] = array(
 	'monument-type' => 'Врста споменика',
 	'monument-id' => 'ИБ споменика',
 	'province' => 'Покрајина',
+	'comarque' => 'Округ',
+	'province-comarque-joiner' => '$1 / $2',
 	'competes' => 'Такмичи се',
 	'author' => 'Аутор',
 	'upload-time' => 'Време отпремања',
@@ -843,6 +865,7 @@ $messages['sr-ec'] = array(
 	'show-images-all' => 'Прикажи све слике',
 	'search-monuments' => 'Претрага споменика',
 	'view-frequency' => 'Популарни споменици',
+	'view-ccaa' => 'Погледај по самосталној заједници',
 	'view-province' => 'По покрајини',
 	'id-label' => 'ИБ споменика:',
 	'date-format' => 'd-m-Y H:i:s',
@@ -852,6 +875,7 @@ $messages['sr-ec'] = array(
 	'bic-list' => 'Списак',
 	'bic-gallery' => 'Галерија',
 	'gallery-header' => 'Слике споменика чији је ИБ $1.',
+	'gallery-header-place' => 'Слике споменика из $1.',
 	'wall-of-shame-text' => 'Аутори по броју непрепознатих фотографија',
 	'author-heading' => 'Аутор',
 	'bic-list-bad' => 'Прикажи',
@@ -859,6 +883,7 @@ $messages['sr-ec'] = array(
 	'unregistered' => 'Неуписани',
 	'province-heading' => 'Покрајина',
 	'province-none' => '(непозната)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
@@ -870,6 +895,8 @@ $messages['sr-el'] = array(
 	'monument-type' => 'Vrsta spomenika',
 	'monument-id' => 'IB spomenika',
 	'province' => 'Pokrajina',
+	'comarque' => 'Okrug',
+	'province-comarque-joiner' => '$1 / $2',
 	'competes' => 'Takmiči se',
 	'author' => 'Autor',
 	'upload-time' => 'Vreme otpremanja',
@@ -884,6 +911,7 @@ $messages['sr-el'] = array(
 	'show-images-all' => 'Prikaži sve slike',
 	'search-monuments' => 'Pretraga spomenika',
 	'view-frequency' => 'Popularni spomenici',
+	'view-ccaa' => 'Pogledaj po samostalnoj zajednici',
 	'view-province' => 'Po pokrajini',
 	'id-label' => 'IB spomenika:',
 	'date-format' => 'd-m-Y H:i:s',
@@ -893,6 +921,7 @@ $messages['sr-el'] = array(
 	'bic-list' => 'Spisak',
 	'bic-gallery' => 'Galerija',
 	'gallery-header' => 'Slike spomenika čiji je IB $1.',
+	'gallery-header-place' => 'Slike spomenika iz $1.',
 	'wall-of-shame-text' => 'Autori po broju neprepoznatih fotografija',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Prikaži',
@@ -900,6 +929,7 @@ $messages['sr-el'] = array(
 	'unregistered' => 'Neupisani',
 	'province-heading' => 'Pokrajina',
 	'province-none' => '(nepoznata)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Telugu (తెలుగు)
@@ -941,6 +971,7 @@ $messages['vi'] = array(
 	'show-images-all' => 'Hiện tất cả các hình ảnh',
 	'search-monuments' => 'Tìm kiếm đài tưởng niệm',
 	'view-frequency' => 'Đài tưởng niệm phổ biến',
+	'view-ccaa' => 'Xem theo cộng đồng tự trị',
 	'view-province' => 'Xem theo tỉnh',
 	'id-label' => 'ID của đài tưởng niệm',
 	'id-none' => '(Không có)',
@@ -949,6 +980,7 @@ $messages['vi'] = array(
 	'bic-list' => 'Danh sách',
 	'bic-gallery' => 'Album',
 	'gallery-header' => 'Hình ảnh của đài tưởng niệm với ID $1.',
+	'gallery-header-place' => 'Hình ảnh các đài kỷ niệm tại $1.',
 	'wall-of-shame-text' => 'Tác giả theo số hình chụp không được nhận diện',
 	'author-heading' => 'Tác giả',
 	'bic-list-bad' => 'Xem',
@@ -956,5 +988,6 @@ $messages['vi'] = array(
 	'unregistered' => 'Không đăng ký',
 	'province-heading' => 'Tỉnh',
 	'province-none' => '(Không rõ)',
+	'ccaa-heading' => 'CĐTT',
 );
 
