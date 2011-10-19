@@ -1290,14 +1290,14 @@ class TsIntuition {
 					 
 					 foreach ( $this->availableLanguages as $lang => $true ) {
 						 if (! isset( $acceptableLanguages[$lang] ) ) {
-							 $set = $lang;
+							 $set = $this->setLang( $lang );
 							 break;
 						 }
 					 }
 					 if ( $set )
 						break;
 				} elseif ( isset( $this->availableLanguages[$lang] ) ) {
-					$set = $lang;
+					$set = $this->setLang( $lang );
 					break;
 				}
 			}
