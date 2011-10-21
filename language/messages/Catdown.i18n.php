@@ -67,6 +67,7 @@ or some other GNU Mirror, see
 	'readme-filename' => 'README.txt', // Optional
 );
 
+/** Message documentation (Message documentation) */
 $messages['qqq'] = array(
 	'title' => 'Title for the tool',
 	'subtitle' => 'Subtitle for the tool',
@@ -77,31 +78,73 @@ $messages['qqq'] = array(
 	'max-height' => 'Label of the input to set the maximum height of the thumbnails.',
 	'invalid-width' => 'Shown when an invalid width is provided',
 	'invalid-height' => 'Shown when an invalid height is provided',
-	'no-such-project' => 'Error given for wrong project (eg. \'qwerty.wikipedia\')',
-	'no-images' => 'Shown when the category doesn\'t have any files',
+	'no-such-project' => "Error given for wrong project (eg. 'qwerty.wikipedia')",
+	'no-images' => "Shown when the category doesn't have any files",
 	'category-is-url' => 'Shown when a full url is given as category name',
 	'category-contains-namespace' => 'Shown when a category with namespace is given as category. $1: Given category name.',
 	'zip-failed' => 'Generic error for when the zip creation failed',
-	'image-area-too-big' => "Shown when an image cannot be thumbnailed. See http://www.mediawiki.org/wiki/Manual:\$wgMaxImageArea\nParameters: $1: Name of the image",
-
-	'download-info' => "Information shown previous to the download.\n$1: Number of images.\n$2: Estimated size of all the files in the system",
+	'image-area-too-big' => 'Shown when an image cannot be thumbnailed. See http://www.mediawiki.org/wiki/Manual:$wgMaxImageArea
+Parameters: $1: Name of the image',
+	'download-info' => 'Information shown previous to the download.
+$1: Number of images.
+$2: Estimated size of all the files in the system',
 	'download' => 'Big link to download the zip',
-
-	'readme-contents' => "Contents of the README file.\n* $1: Category name\n* $2: Category url\n* $3 Result of scaling restrictions (one of scaling-none, scaling-width, scaling-height, scaling-both messages)\n* $4: Filename of the list.\n* $5 Name of the .bat script to run (script-filename msg)\n* $6: Note if wget for Windows was not bundled (contents of non-bundled-wget message if \'Bundle wget\' was not checked)",
+	'readme-contents' => "Contents of the README file.
+* $1: Category name
+* $2: Category url
+* $3 Result of scaling restrictions (one of scaling-none, scaling-width, scaling-height, scaling-both messages)
+* $4: Filename of the list.
+* $5 Name of the .bat script to run (script-filename msg)
+* $6: Note if wget for Windows was not bundled (contents of non-bundled-wget message if \\'Bundle wget\\' was not checked)",
 	'non-bundled-wget' => "Message added to the readme noting that the script won't work in Windows without a wget.exe (it is usually installed in other OS)",
 	'wget-info' => 'Text appended to the readme explaining the rights you have on the wget binary.
 $1: Version of wget
 
 The content of the gpl-3.0 is appended below this text (untranslated, as it is required by the license).',
-
-	'scaling-none' => "Added to readme-contents as $6 if there's no scaling", 
-	'scaling-width' => "Added to readme-contents as $6 if the images are scaled to a maximum width.\n$1: Maximum width in pixels",
-	'scaling-height' => "Added to readme-contents as $6 if the images are scaled to a maximum height.\n$1: Maximum height in pixels",
-	'scaling-both' => "Added to readme-contents as $6 if the images are scaled to a maximum width and.\n$1: Maximum width in pixels\n$2: Maximum height in pixels",
-
-	'script-filename' => 'Name of the script which downloads the files.', // Optional
-	'readme-filename' => 'Name of the readme file', // Optional
+	'scaling-none' => "Added to readme-contents as $6 if there's no scaling",
+	'scaling-width' => 'Added to readme-contents as $6 if the images are scaled to a maximum width.
+$1: Maximum width in pixels',
+	'scaling-height' => 'Added to readme-contents as $6 if the images are scaled to a maximum height.
+$1: Maximum height in pixels',
+	'scaling-both' => 'Added to readme-contents as $6 if the images are scaled to a maximum width and.
+$1: Maximum width in pixels
+$2: Maximum height in pixels',
+	'script-filename' => 'Name of the script which downloads the files.',
+	'readme-filename' => 'Name of the readme file',
 );
 
+/** German (Deutsch)
+ * @author Kghbln
+ */
+$messages['de'] = array(
+	'title' => 'Bilder nach Kategorie herunterladen',
+	'subtitle' => 'Die einfache Möglichkeit die in einer Kategorie enthaltenen Bilder herunterzuladen',
+	'project' => 'Projekt:',
+	'category' => 'Kategorie:',
+	'thumbnailing' => 'Miniaturbilderstellung',
+	'max-width' => 'Maximale Breite:',
+	'max-height' => 'Maximale Höhe:',
+	'invalid-width' => 'Die Breite ist ungültig.',
+	'invalid-height' => 'Die Höhe ist ungültig.',
+	'no-such-project' => 'Das angegebene Projekt ist nicht vorhanden.',
+	'no-images' => 'In dieser Kategorie sind keine Bilder enthalten.',
+	'category-is-url' => 'Der angegebenen Kategorienamen scheint eine URL zu sein. Bitte den Kategorienamen und nicht dessen URL angeben.',
+	'category-contains-namespace' => 'Du scheinst neben dem Kategorienamen auch die Namensraumbezeichnung angegeben zu haben. Mit dem angegebene Namen würde die Seite als [[Category:$1]] verfügbar sein.',
+	'zip-failed' => 'ZIP-Erstellung fehlgeschlagen',
+	'image-area-too-big' => '$1 ist zu groß, um eine Miniaturansicht erstellen zu können. Daher wird die volle Bildgröße genutzt.',
+	'download-info' => 'Es sind $1 Bilder mit eine geschätzten Gesamtgröße von $2 vorhanden.',
+	'download' => 'Herunterladen',
+	'non-bundled-wget' => 'Hinweis: Diese Version enthält nicht Wget für Windows. Du musst die Bilder mit wget.exe in einem Ordner
+dekomprimieren oder Wget im Pfad bereitstellen.',
+	'scaling-width' => ', auf eine maximale Breite von $1 Pixel skaliert',
+	'scaling-height' => ', auf eine maximale Höhe von $1 Pixel skaliert',
+	'scaling-both' => ', auf eine maximale Größe von $1x$2 Pixel skaliert',
+);
 
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
+ */
+$messages['de-formal'] = array(
+	'category-contains-namespace' => 'Sie scheinen neben dem Kategorienamen auch die Namensraumbezeichnung angegeben zu haben. Mit dem angegebene Namen würde die Seite als [[Category:$1]] verfügbar sein.',
+);
 
