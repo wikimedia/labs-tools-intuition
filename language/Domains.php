@@ -1,5 +1,6 @@
 <?php
 $domains = array(
+	'Catdown' => 'Catdown.i18n.php',
 	'Commonshelper2' => 'Commonshelper2.i18n.php',
 	'General' => 'General.i18n.php',
 	'Getwikiapi' => 'Getwikiapi.i18n.php',
