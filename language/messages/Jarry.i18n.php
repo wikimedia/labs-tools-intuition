@@ -375,9 +375,13 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Khutuck
  */
 $messages['tr'] = array(
+	'moretools' => 'aynı yazardan daha fazla araçlar',
 	'bugs' => 'hata raporları ve özellik istekleri',
+	'comments' => 'yorum ve sorgular',
+	'error-form-empty' => 'Bir veya daha fazla gerekli alan boş bırakılmıştır. Devam etmeden önce bunları doldurmanız gerekir.',
 );
 
 /** Vietnamese (Tiếng Việt)

@@ -511,10 +511,12 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Khutuck
  */
 $messages['tr'] = array(
 	'alws-selectwiki' => '(viki seçiniz)',
 	'alws-group-mustused' => 'En çok kullanılan vikiler',
+	'alws-group-allaz' => 'Tüm Vikiler alfabetik olarak',
 	'form-legend-settings' => 'Ayarlar',
 );
 
