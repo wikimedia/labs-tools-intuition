@@ -24,7 +24,7 @@ $messages['en'] = array(
 	'invalid-height' => 'Invalid height',
 	'no-such-project' => "There's no such project",
 	'no-images' => 'There are no images in that category',
-	'category-is-url' => 'The given category name looks like a URL. You need to specify the category name, not its url.',
+	'category-is-url' => 'The given category name looks like a URL. You need to specify the category name, not its URL.',
 	'category-contains-namespace' => 'You seem to have included the namespace along the category name. With the given name, the page would be available as [[Category:$1]].',
 	'zip-failed' => 'Zip creation failed',
 	'image-area-too-big' => '$1 is too big to create a thumbnail. Using full size.',
@@ -80,7 +80,7 @@ $messages['qqq'] = array(
 	'invalid-height' => 'Shown when an invalid height is provided',
 	'no-such-project' => "Error given for wrong project (eg. 'qwerty.wikipedia')",
 	'no-images' => "Shown when the category doesn't have any files",
-	'category-is-url' => 'Shown when a full url is given as category name',
+	'category-is-url' => 'Shown when a full URL is given as category name',
 	'category-contains-namespace' => 'Shown when a category with namespace is given as category. $1: Given category name.',
 	'zip-failed' => 'Generic error for when the zip creation failed',
 	'image-area-too-big' => 'Shown when an image cannot be thumbnailed. See http://www.mediawiki.org/wiki/Manual:$wgMaxImageArea
@@ -91,7 +91,7 @@ $2: Estimated size of all the files in the system',
 	'download' => 'Big link to download the zip',
 	'readme-contents' => "Contents of the README file.
 * $1: Category name
-* $2: Category url
+* $2: Category URL
 * $3 Result of scaling restrictions (one of scaling-none, scaling-width, scaling-height, scaling-both messages)
 * $4: Filename of the list.
 * $5 Name of the .bat script to run (script-filename msg)
