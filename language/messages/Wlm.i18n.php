@@ -64,6 +64,10 @@ $messages['en'] = array(
 	'bic-list-bad' => 'Show',
 	'bic-list-all' => 'Full list',
 	'unregistered' => 'Unregistered',
+	
+	/* users.php */
+	'users-text' => 'This page shows the authors with the images they uploaded and to how many monuments',
+	'users-list' => 'View',
 
 	/* province.php, ccaa.php */
 	'province-heading' => 'Province',
@@ -124,6 +128,8 @@ $messages['qqq'] = array(
 {{Identical|Show}}',
 	'bic-list-all' => 'Caption for the link to show all the images by this user',
 	'unregistered' => 'Text to show when grouping users not registered in commons (from flickr or panoramio)',
+	'users-text' => 'introduction text for users.php',
+	'users-list' => 'Link to the photos of this author',
 	'province-heading' => 'Header for the province column of http://toolserver.org/~platonides/wlm/provincias.php',
 	'province-none' => 'Marker to group images for which no province is registered in the db.
 {{Identical|Unknown}}',
@@ -390,6 +396,8 @@ $messages['es'] = array(
 	'bic-list-bad' => 'Mostrar',
 	'bic-list-all' => 'Todas',
 	'unregistered' => 'Sin registrar',
+	'users-text' => 'Lista de autores con el número de fotos y de monumentos que presentaron al concurso.',
+	'users-list' => 'Mostrar',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
