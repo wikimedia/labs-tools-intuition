@@ -368,6 +368,7 @@ $messages['es'] = array(
 
 /** Basque (Euskara)
  * @author An13sa
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
 	'title' => 'OrphanTalk2',
@@ -375,7 +376,7 @@ $messages['eu'] = array(
 	'hidesubpages' => 'Azpiorrialdeak ezkutatu',
 	'limit' => 'Muga',
 	'page' => 'Orrialdea',
-	'redirect' => 'Birzuzenketak da?',
+	'redirect' => 'Birzuzenketa da?',
 	'update' => 'Eguneratu',
 	'tools-delete' => 'ezabatu',
 	'tools-links' => 'loturak',

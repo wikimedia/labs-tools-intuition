@@ -609,9 +609,14 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Khutuck
  */
 $messages['tr'] = array(
+	'enter-details' => 'Detayları girin',
 	'language-label' => 'Dil',
+	'namespace-label' => 'Alan adı',
+	'pagename-label' => 'Sayfa adı (alan adı hariç)',
+	'time-label' => 'Komutu yürütmek için geçen süre',
 );
 
 /** Vietnamese (Tiếng Việt)

@@ -572,8 +572,12 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Khutuck
  */
 $messages['tr'] = array(
+	'search-title' => 'Anıt arama',
+	'search-monuments-database' => 'Anıtlar veritabanında arama',
+	'search-table-th-field' => 'Alan',
 	'search-table-th-filter' => 'Süzgeç',
 	'search-table-th-search' => 'Ara',
 	'filter-all-countries' => 'Bütün ülkeler',

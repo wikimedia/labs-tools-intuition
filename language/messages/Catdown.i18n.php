@@ -67,12 +67,17 @@ or some other GNU Mirror, see
 	'readme-filename' => 'README.txt', // Optional
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ * @author EugeneZelenko
+ * @author Siebrand
+ */
 $messages['qqq'] = array(
 	'title' => 'Title for the tool',
 	'subtitle' => 'Subtitle for the tool',
-	'project' => 'Caption for choosing the project domain',
-	'category' => 'Label for the input to choose the category to dump. It is recommended to make it the same as the local NS_CATEGORY, with trailing :',
+	'project' => 'Caption for choosing the project domain.
+{{Identical|Project}}',
+	'category' => 'Label for the input to choose the category to dump. It is recommended to make it the same as the local NS_CATEGORY, with trailing :
+{{Identical|Category}}',
 	'thumbnailing' => 'Title for the inputs for max width and height',
 	'max-width' => 'Label of the input to set the maximum width of the thumbnails.',
 	'max-height' => 'Label of the input to set the maximum height of the thumbnails.',
@@ -81,13 +86,14 @@ $messages['qqq'] = array(
 	'no-such-project' => "Error given for wrong project (eg. 'qwerty.wikipedia')",
 	'no-images' => "Shown when the category doesn't have any files",
 	'category-is-url' => 'Shown when a full URL is given as category name',
-	'category-contains-namespace' => 'Shown when a category with namespace is given as category. $1: Given category name.',
+	'category-contains-namespace' => 'Shown when a category with namespace is given as category. Paramters:
+* $1: Given category name.',
 	'zip-failed' => 'Generic error for when the zip creation failed',
 	'image-area-too-big' => 'Shown when an image cannot be thumbnailed. See http://www.mediawiki.org/wiki/Manual:$wgMaxImageArea
 Parameters: $1: Name of the image',
-	'download-info' => 'Information shown previous to the download.
-$1: Number of images.
-$2: Estimated size of all the files in the system',
+	'download-info' => 'Information shown on the download page. Parameters:
+* $1: Number of images.
+* $2: Estimated size of all the files in the system (in which unit?)',
 	'download' => 'Big link to download the zip',
 	'readme-contents' => "Contents of the README file.
 * $1: Category name
@@ -111,6 +117,23 @@ $1: Maximum width in pixels
 $2: Maximum height in pixels',
 	'script-filename' => 'Name of the script which downloads the files.',
 	'readme-filename' => 'Name of the readme file',
+);
+
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'title' => 'Загрузка выяваў з катэгорыі',
+	'subtitle' => 'Просты шлях загрузкі выяваў ў катэгорыі',
+	'project' => 'Праект:',
+	'category' => 'Катэгорыя:',
+	'thumbnailing' => 'Мініятурызацыя',
+	'max-width' => 'Максымальная шырыня:',
+	'max-height' => 'Максымальная вышыня:',
+	'invalid-width' => 'Няслушная шырыня',
+	'invalid-height' => 'Няслушная вышыня',
+	'no-such-project' => 'Няма такога праекту',
 );
 
 /** Breton (Brezhoneg)
@@ -211,6 +234,101 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
  http://www.gnu.org/prep/ftp.html',
 );
 
+/** French (Français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'title' => "Téléchargement d'images par catégorie",
+	'subtitle' => 'La manière la plus simple pour télécharger les images dans une catégorie',
+	'project' => 'Projet :',
+	'category' => 'Catégorie:',
+	'thumbnailing' => 'Vignettage',
+	'max-width' => 'Largeur maximale:',
+	'max-height' => 'Hauteur maximale:',
+	'invalid-width' => 'Largeur non valide',
+	'invalid-height' => 'Hauteur non valide',
+	'no-such-project' => "Ce projet n'existe pas",
+	'no-images' => "Il n'y a pas d'images dans cette catégorie",
+	'category-is-url' => 'Le nom de catégorie fourni ressemble à une URL. Vous devez spécifier le nom de la catégorie, non pas son URL.',
+	'category-contains-namespace' => "Il semble que vous avez inclus l'espace de nom avec le nom de la catégorie. Avec le nom fourni, la page serait disponible à [[Category:$1]].",
+	'zip-failed' => 'Création du zip échouée',
+	'image-area-too-big' => '$1 est trop gros pour créer une vignette. Utilisez la taille réelle.',
+	'download-info' => 'Il y a $1 images avec une taille estimée de $2',
+	'download' => 'Télécharger',
+	'readme-contents' => 'Le fichier conteneur $4 liste les images de la catégorie $1 ( $2 )$3.
+
+== Instructions pour télécharger toutes les images listées ==
+Le temps de téléchargement peut varier de quelques minutes à plusieurs heures.
+
+Windows:
+ Extraire tous les fichier dans le même répertoire et lancez $5
+ $6
+Linux/Mac OS:
+ Extraire tous les fichiers et ouvrir un terminal dans ce répertoire. Lancez sh $5',
+	'non-bundled-wget' => 'Note: Cette version ne comprend pas wget pour Windows. Vous devez décompresser dans un répertoire avec wget.exe, ou avoir wget dans le PATH',
+	'wget-info' => 'Le fichier comprend une copie de wget $1 (pour plateformes Windows). Wget est un logiciel libre, sous licence de la GNU GENERAL PUBLIC LICENSE version 3.
+Vous trouverez une copie de cette licence ci-dessous, et elle est également disponible à http://www.gnu.org/licenses/gpl-3.0.txt
+
+Si vous êtes intéressés par le code source de ce programme, vous pouvez le télécharger depuis
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ou un autre miroir GNU, voyez
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ", mis à l'échelle avec une largeur maximale de $1 pixels",
+	'scaling-height' => ", mis à l'échelle avec une hauteur maximale de $1 pixels",
+	'scaling-both' => ", mis à l'échelle avec une taille maximale de $1x$2 pixels",
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'title' => 'Descarga de imaxes por categoría',
+	'subtitle' => 'Un xeito doado de descargar as imaxes presentes nunha categoría',
+	'project' => 'Proxecto:',
+	'category' => 'Categoría:',
+	'thumbnailing' => 'Miniatura',
+	'max-width' => 'Ancho máximo:',
+	'max-height' => 'Altura máxima:',
+	'invalid-width' => 'Ancho incorrecto',
+	'invalid-height' => 'Altura incorrecta',
+	'no-such-project' => 'Ese proxecto non existe',
+	'no-images' => 'Non hai imaxes na categoría',
+	'category-is-url' => 'O nome da categoría especificado semella un enderezo URL. Cómpre especificar o nome da categoría, non o seu URL.',
+	'category-contains-namespace' => 'Semella que incluíu o espazo de nomes xunto ao nome da categoría. Co nome dado, a páxina estaría dispoñible en [[Category:$1]].',
+	'zip-failed' => 'Erro na creación do ZIP',
+	'image-area-too-big' => '"$1" é grande de máis para crear unha miniatura. Emprégase o tamaño completo.',
+	'download-info' => 'Hai $1 imaxes cun tamaño estimado de $2',
+	'download' => 'Descargar',
+	'readme-contents' => 'O ficheiro "$4" incluído lista
+as imaxes na categoría "$1" ($2)$3.
+
+== Instrucións para descargar todas as imaxes ==
+O tempo de descarga pode variar duns minutos a varias horas.
+
+Windows:
+ Extraia todos os ficheiros no mesmo cartafol e execute $5
+ $6
+Linux/Mac OS
+ Extraia todos os ficheiros e abra un terminal nese cartafol. Execute sh $5',
+	'non-bundled-wget' => 'Nota: Esta versión non inclúe wget para Windows. Terá que descomprimir
+nun cartafol con wget.exe ou ter wget na RUTA',
+	'wget-info' => 'Este ficheiro contén unha copia de wget $1 (para a plataforma Windows). Wget é software libre,
+baixo os termos da LICENZA PÚBLICA XERAL DE GNU versión 3.
+A continuación hai unha copia da licenza e tamén está dispoñible en http://www.gnu.org/licenses/gpl-3.0.txt
+
+En caso de estar interesado en obter o código fonte deste programa, pode descargalo en
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ou nestoutro espello de GNU
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', escaladas a un ancho máximo de $1 píxeles',
+	'scaling-height' => ', escaladas a unha altura máxima de $1 píxeles',
+	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -221,9 +339,13 @@ $messages['lb'] = array(
 	'category' => 'Kategorie:',
 	'max-width' => 'Maximal Breet:',
 	'max-height' => 'Maximal Héicht:',
+	'invalid-width' => "D'Breet ass net valabel",
+	'invalid-height' => "D'Héicht ass net valabel",
 	'no-such-project' => 'Esou e Projet gëtt et net',
 	'no-images' => 'Et gëtt keng Biller an där Kategorie',
 	'category-is-url' => "D'Kategorie déi ugi gouf gesäit wéi eng komplett URL aus. Dir musst den Numm vun der Kategorie uginn, an net hir URL.",
+	'category-contains-namespace' => "Et schéngt wéi wann dir den Nummraum bäi den Numm vun der Kategorie derbäigesat hutt. Mam Numm den uginn ass wier d'Säit als [[Category:$1]] disponibel.",
+	'zip-failed' => 'De ZIP-Fichier konnt net gemaach ginn',
 	'image-area-too-big' => '$1 ass ze grouss fir e Miniatur-Bild ze generéieren. Déi komplett Gréisst gëtt benotzt.',
 	'download-info' => 'Et sinn $1 Biller mat enger geschater Gréisst vun $2 do',
 	'download' => 'Eroflueden',
@@ -333,12 +455,14 @@ atau mana-mana Cermin GNU yang lain, rujuk
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
-	'title' => 'Downloaden van afbeeldingen in een categorie',
+	'title' => 'Afbeeldingen in een categorie downloaden',
 	'subtitle' => 'De gemakkelijke manier om afbeeldingen in een bepaalde categorie te downloaden',
 	'project' => 'Project:',
 	'category' => 'Categorie:',
+	'thumbnailing' => 'Miniaruren',
 	'max-width' => 'Maximale breedte:',
 	'max-height' => 'Maximale hoogte:',
 	'invalid-width' => 'Ongeldige breedte',
@@ -346,10 +470,76 @@ $messages['nl'] = array(
 	'no-such-project' => 'Er bestaat geen project met die naam',
 	'no-images' => 'Er zijn geen afbeeldingen in die categorie',
 	'category-is-url' => 'De opgegeven categorienaam lijkt een URL te zijn. U moet de categorienaam opgeven, niet de URL.',
-	'zip-failed' => 'Het maken van een zip-bestand is mislukt',
+	'category-contains-namespace' => 'U hebt de naamruimte opgenomen in de categorienaam. Met de opgegeven naam, komt de pagina beschikbaar als [[Category:$1|Categorie $1]].',
+	'zip-failed' => 'Het maken van een zip-bestand is mislukt.',
 	'image-area-too-big' => '$1 is te groot om een miniatuur maken. De volledige grootte wordt gebruikt.',
 	'download-info' => 'Er zijn $1 afbeeldingen met een geschatte grootte van $2',
 	'download' => 'Downloaden',
+	'readme-contents' => 'In het bestand $4 staat een lijst met
+bestanden uit de categorie $1 ($2)$3.
+
+== Instructie voor het downloaden van alle bestanden uit de lijst ==
+De downloadtijd kan uiteen lopen van minuten tot uren.
+
+Windows:
+ Pak alle bestanden uit in dezelfde map en voer uit: $5
+ $6
+Linux/Mac OSX
+ Pak alle bestanden uit en open een terminalvenster in die map. Voer daarna uit: sh $5',
+	'non-bundled-wget' => 'Let op: in deze versie is wget voor Windows niet opgenomen. U moet uitpakken
+naar een map waarin wget.exe staat, of wget moet opgenomen zijn in de
+omgevingsvariabele PATH.',
+	'scaling-width' => ', geschaald naar een maximale breedte van $1 pixels',
+	'scaling-height' => ', geschaald naar een maximale hoogte van $1 pixels',
+	'scaling-both' => ', geschaald naar een maximale afmeting van $1 x $2 pixels',
+);
+
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'title' => 'Pobieranie grafik ze względu na kategorię',
+	'subtitle' => 'Prosta metoda na pobranie grafik znajdujących się w określonej kategorii',
+	'project' => 'Projekt',
+	'category' => 'Kategoria',
+	'thumbnailing' => 'Miniatura',
+	'max-width' => 'Maksymalna szerokość',
+	'max-height' => 'Maksymalna wysokość',
+	'invalid-width' => 'Nieprawidłowa szerokość',
+	'invalid-height' => 'Nieprawidłowa wysokość',
+	'no-such-project' => 'Brak takiego projektu',
+	'no-images' => 'W wybranej kategorii nie ma grafik',
+	'category-is-url' => 'Wybrana nazwa kategorii wygląda jak adres internetowy. Musisz podać nazwę kategorii, a nie jej adres w Internecie.',
+	'category-contains-namespace' => 'Wygląda na to, że w nazwie kategorii jest nazwa przestrzeni nazw. Z zadaną nazwą strona byłaby dostępna jako [[Category:$1]].',
+	'zip-failed' => 'Błąd utworzenia archiwum w formacie ZIP',
+	'image-area-too-big' => 'Grafika $1 jest zbyt duża, aby utworzyć miniaturkę. Zostanie użyta w pełnym rozmiarze.',
+	'download-info' => 'Jest $1 grafik o szacowanej wielkości $2',
+	'download' => 'Pobierz',
+	'readme-contents' => 'Załączony plik $4 zawiera listę
+grafik znajdujących się w kategorii $1 ( $2 )$3.
+the images at the $1 category ( $2 )$3.
+
+== Instrukcja pobrania wszystkich plików z listy ==
+Czas pobierania może się wahać od kilku minut do wielu godzin.
+
+Windows:
+ Rozpakuj wszystkie pliki w jednym folderze i uruchom $5
+ $6
+Linux lub Mac OS:
+ Rozpakuj wszystkie pliki, a następnie otwórz terminal w tym folderze. Uruchom sh $5',
+	'non-bundled-wget' => 'Uwaga – ta wersja nie zawiera wget dla systemu Windows. Będziesz musiał rozpakować archiwum do folderu z programem wget.exe lub musisz mieć ten program na ścieżce wpisanej w PATH.',
+	'wget-info' => 'W tym pliku znajduje się kopia programu wget $1 (dla platformy Windows). Wget jest  darmowym oprogramowaniem, dostępnym na zasadach licencji GNU GENERAL PUBLIC LICENSE w wersji 3.
+Kopia licencji dostępna jest poniżej oraz pod adresem http://www.gnu.org/licenses/gpl-3.0.txt
+
+Jeśli jesteś zainteresowany kodem źródłowym tego programu możesz pobrać go z 
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+lub niektórych innych mirrorów GNU, zobacz
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', przeskalowanych do szerokości maksymalnie $1 pikseli',
+	'scaling-height' => ', przeskalowanych do wysokości maksymalnie $1 pikseli',
+	'scaling-both' => ', przeskalowanych do maksymalnego rozmiaru $1x$2 pikseli',
 );
 
 /** Telugu (తెలుగు)
@@ -364,6 +554,17 @@ $messages['te'] = array(
 	'invalid-height' => 'చెల్లని ఎత్తు',
 	'no-such-project' => 'అటువంటి ప్రాజెక్టు లేదు',
 	'no-images' => 'ఆ వర్గంలో బొమ్మలు ఏమీ లేవు',
+);
+
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'project' => 'Proje:',
+	'category' => 'Kategori:',
+	'max-width' => 'En fazla genişlik:',
+	'max-height' => 'En fazla yükseklik:',
+	'download' => 'İndir',
 );
 
 /** Vietnamese (Tiếng Việt)

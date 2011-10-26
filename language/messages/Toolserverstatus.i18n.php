@@ -417,6 +417,13 @@ $messages['sr-el'] = array(
 	'toolserver-status-short-missing' => '$1: Nedostaje',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'toolserver-status-short-erro' => '$1: Hata',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
