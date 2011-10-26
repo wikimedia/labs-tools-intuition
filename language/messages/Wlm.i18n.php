@@ -68,6 +68,7 @@ $messages['en'] = array(
 	/* users.php */
 	'users-text' => 'This page shows the authors with the images they uploaded and to how many monuments',
 	'users-list' => 'View',
+	'distict-monuments' => 'Distinct monuments',
 
 	/* province.php, ccaa.php */
 	'province-heading' => 'Province',
@@ -130,6 +131,7 @@ $messages['qqq'] = array(
 	'unregistered' => 'Text to show when grouping users not registered in commons (from flickr or panoramio)',
 	'users-text' => 'introduction text for users.php',
 	'users-list' => 'Link to the photos of this author',
+	'distict-monuments' => 'Caption for the column for number of distinct monuments',
 	'province-heading' => 'Header for the province column of http://toolserver.org/~platonides/wlm/provincias.php',
 	'province-none' => 'Marker to group images for which no province is registered in the db.
 {{Identical|Unknown}}',
@@ -398,6 +400,7 @@ $messages['es'] = array(
 	'unregistered' => 'Sin registrar',
 	'users-text' => 'Lista de autores con el número de fotos y de monumentos que presentaron al concurso.',
 	'users-list' => 'Mostrar',
+	'distict-monuments' => 'Monumentos',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
