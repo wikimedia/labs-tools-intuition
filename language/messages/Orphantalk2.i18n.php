@@ -65,6 +65,18 @@ $messages['qqq'] = array(
 	'resultslimited' => "If results were limited by the set' limit, this message is displayed at the bottom of the search results.",
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'title' => 'OrphanTalk2',
+	'page' => 'Сәһифә',
+	'tools-delete' => 'рәдд кардеј',
+	'tools-subject' => 'мовзу',
+	'tools-hist' => 'тарых',
+	'tools-curr' => 'есәт.',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */

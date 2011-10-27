@@ -45,6 +45,15 @@ The label for a textbox where users enter the namespace they wish to work with.'
 	'time-label' => 'The label for the duration representing the time their query took to perform.',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'language-label' => 'Зывон',
+	'namespace-label' => 'Номон мәкон',
+	'pagename-label' => 'Сәһифә ном (бе номон мәкон)',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -268,6 +277,13 @@ $messages['he'] = array(
 	'transclusion-count' => 'מספר ההכללות שנמצאו: $1',
 	'error-suggestion' => 'אולי לא כתבת נכות את שם הדף? יש לכתוב במדויק אותיות קטנות ורישיות.',
 	'time-label' => 'כמה זמן לקח להריץ את הפקודה',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'language-label' => 'Rěč',
 );
 
 /** Hungarian (Magyar)

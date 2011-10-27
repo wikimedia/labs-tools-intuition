@@ -119,6 +119,15 @@ $2: Maximum height in pixels',
 	'readme-filename' => 'Name of the readme file',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'title' => 'Шикилон бо жәј бә категоријон',
+	'category' => 'Категоријә:',
+	'download' => 'Бо жәј',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -134,6 +143,11 @@ $messages['be-tarask'] = array(
 	'invalid-width' => 'Няслушная шырыня',
 	'invalid-height' => 'Няслушная вышыня',
 	'no-such-project' => 'Няма такога праекту',
+	'no-images' => 'У гэтай катэгорыі няма выяваў',
+	'category-is-url' => 'Пададзеная назва катэгорыі выглядае як URL-адрас. Вам неабходна пазначыць назву катэгорыі а не URL-адрас.',
+	'category-contains-namespace' => 'Выглядае, што назва катэгорыі зьмяшчае прастору назваў. З пададзенай назвай старонка будзе даступная як [[Category:$1]].',
+	'zip-failed' => 'Немагчыма стварыць архіў у фармаце ZIP',
+	'image-area-too-big' => '$1 занадта вялікая каб стварыць мініятуру. Будзе выкарыстоўвацца ў поўным памеры.',
 );
 
 /** Breton (Brezhoneg)
@@ -329,6 +343,40 @@ ou nestoutro espello de GNU
 	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'title' => 'Discargamento de imagines per categoria',
+	'subtitle' => 'Un maniera facile de discargar le imagines presente in un categoria',
+	'project' => 'Projecto:',
+	'category' => 'Categoria:',
+	'thumbnailing' => 'Miniaturisation',
+	'max-width' => 'Latitude maxime:',
+	'max-height' => 'Altitude maxime:',
+	'invalid-width' => 'Latitude invalide',
+	'invalid-height' => 'Altitude invalide',
+	'no-such-project' => 'Iste projecto non existe',
+	'no-images' => 'Il non ha imagines in iste categoria',
+	'category-is-url' => 'Le nomine de categoria specificate resimila un adresse URL. Es necessari specificar le nomine del categoria, non su URL.',
+	'category-contains-namespace' => 'Il sembla que tu ha includite le spatio de nomines con le nomine del categoria. Con le nomine specificate, le pagina esserea disponibile a [[Category:$1]].',
+	'zip-failed' => 'Creation del archivo ZIP fallite',
+	'image-area-too-big' => '$1 es troppo grande pro crear un miniatura. Le dimension complete es usate.',
+	'download-info' => 'Il ha $1 imagines con un dimension estimate de $2',
+	'download' => 'Discargar',
+	'readme-contents' => 'Le file $4 contine un lista 
+del imagines presente in le categoria $1 ( $2 )$3.
+
+== Instructiones pro discargar tote le imagines listate ==
+Le tempore de discargamento pote variar de qualque minutas a plure horas.
+
+Windows:
+ Extrahe tote le files in le mesme directoria e executa $5
+ $6
+Linux/Mac OS
+ Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -454,6 +502,7 @@ atau mana-mana Cermin GNU yang lain, rujuk
 );
 
 /** Dutch (Nederlands)
+ * @author McDutchie
  * @author SPQRobin
  * @author Siebrand
  */
@@ -462,7 +511,7 @@ $messages['nl'] = array(
 	'subtitle' => 'De gemakkelijke manier om afbeeldingen in een bepaalde categorie te downloaden',
 	'project' => 'Project:',
 	'category' => 'Categorie:',
-	'thumbnailing' => 'Miniaruren',
+	'thumbnailing' => 'Miniaturen',
 	'max-width' => 'Maximale breedte:',
 	'max-height' => 'Maximale hoogte:',
 	'invalid-width' => 'Ongeldige breedte',

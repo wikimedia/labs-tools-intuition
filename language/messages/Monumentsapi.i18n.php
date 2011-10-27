@@ -41,6 +41,15 @@ $messages['qqq'] = array(
 	'filter-all-languages' => 'Entry for the language filter selecting all languages.',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'search-table-th-filter' => 'Филтр',
+	'search-table-th-search' => 'Нәве',
+	'filter-all-languages' => 'Һәммәј зывонон',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */

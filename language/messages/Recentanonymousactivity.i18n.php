@@ -144,6 +144,13 @@ $messages['hr'] = array(
 	'title' => 'Nedavna aktivnost anonimnih suradnika',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'title' => 'Najnowša anonymna aktiwita',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */

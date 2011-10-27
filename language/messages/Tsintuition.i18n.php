@@ -76,6 +76,17 @@ $messages['qqq'] = array(
 	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'settings-legend' => 'Пеғәндон',
+	'tab-overview' => 'Чәшику дәвоније',
+	'tab-settings' => 'Пеғәндон',
+	'tab-about' => 'Тәсвир',
+	'bl-mysettings-new' => 'Зывони дәгиш кардеј!',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */

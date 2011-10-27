@@ -132,6 +132,24 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 * $1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'language' => 'Зывон',
+	'categories' => 'Категоријон',
+	'remove_cats' => 'Ијр быә категоријон рәдд кардеј',
+	'tusc_user' => 'TUSC иштирокәкә ном',
+	'tusc_pass' => 'Парол TUSC',
+	'do_it' => 'Ыми кардеј',
+	'error_file_exists' => 'Фајл һәни һесте бә $3 бәнә "$1$4$2"!',
+	'new_wikitext' => 'Тожә вики мәтн',
+	'new_filename' => 'Фајли тожә ном:',
+	'upload_submit' => 'Бо жәј!',
+	'standard_language' => 'tly',
+	'help_mail' => 'Номә вығәнде бә $1',
+);
+
 /** Batak Toba (Batak Toba)
  * @author Aldnonymous
  */
@@ -1020,6 +1038,13 @@ $messages['hr'] = array(
 	'error_commons_user' => 'Za identifikaciju suradnika koji prenosi datoteke, Vaše suradničko ime na Zajedničkom poslužitelju mora biti u opisu!',
 	'error_upload_users' => 'Mogućnost postavljanja je dostupna samo nekim suradnicima tijekom testnog razdoblja.',
 	'error_upload_file' => 'Izvorna datoteka ne može biti preuzeta.',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'language' => 'Rěč',
 );
 
 /** Hungarian (Magyar)

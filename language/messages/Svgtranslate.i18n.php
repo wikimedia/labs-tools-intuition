@@ -98,6 +98,22 @@ Parameters:
 	'description-license' => 'A header for a form where description and copyright license are selected.',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'error-notsvg' => 'Ым SVG фајл ни.',
+	'th-translation' => 'Пегордыније',
+	'th-language' => 'Зывон',
+	'th-username' => 'Иштирокәкә ном',
+	'th-password' => 'Парол',
+	'translate' => 'Пегордынијеј',
+	'svginput-label' => 'SVG фајл',
+	'uploading' => 'Бо карде',
+	'upload-complete' => 'Бо жәј чок дәварде. Шикил бәбе быбу бы унвонәдә $1',
+	'editdescriptionpage' => 'Тәсвири тожә сәһифә дәгиш кардеј',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -841,6 +857,13 @@ $messages['hr'] = array(
 	'error-tusc-failed' => 'TUSC provijera nije uspijela: suradničko ime ili lozinka su neispravni.',
 	'description-license' => 'Odaberite opis i licenciju',
 	'finalise' => 'Dovrši detalje',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'th-language' => 'Rěč',
 );
 
 /** Hungarian (Magyar)

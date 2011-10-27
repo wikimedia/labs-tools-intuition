@@ -138,6 +138,23 @@ $messages['qqq'] = array(
 	'ccaa-heading' => 'Header for the autonomous communities column',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'title' => 'WLM фајлон',
+	'file' => 'Шикил',
+	'upload-time' => 'Чы бо карде вахт',
+	'date-unknown' => 'Номәлум',
+	'view-uncategorized-images' => 'Дијә кардеј бә бекатегоријә шикилон',
+	'show-images-all' => 'Һәммәј шикилон нишо дој',
+	'id-none' => '(Ни)',
+	'bic-list-bad' => 'Нишо дој',
+	'bic-list-all' => 'Пурә сијоһи',
+	'users-list' => 'Тәмшо кардеј',
+	'province-none' => '(Номәлум)',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -465,6 +482,9 @@ $messages['gl'] = array(
 	'bic-list-bad' => 'Mostrar',
 	'bic-list-all' => 'Lista completa',
 	'unregistered' => 'Non rexistrado',
+	'users-text' => 'Esta páxina mostra os autores coas imaxes que cargaron e o número de monumentos',
+	'users-list' => 'Ver',
+	'distict-monuments' => 'Monumentos',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Descoñecida)',
 	'ccaa-heading' => 'CC.AA.',
@@ -722,6 +742,9 @@ $messages['mk'] = array(
 	'bic-list-bad' => 'Прикажи',
 	'bic-list-all' => 'Полн список',
 	'unregistered' => 'Нерегистрирани',
+	'users-text' => 'На оваа страница се прикажани авторите со сликите што ги подигнале и бројот на споменици што ги покриваат',
+	'users-list' => 'Преглед',
+	'distict-monuments' => 'Засебни споменици',
 	'province-heading' => 'Покраина',
 	'province-none' => '(Непозната)',
 	'ccaa-heading' => 'CC.AA.',
@@ -768,6 +791,9 @@ $messages['ms'] = array(
 	'bic-list-bad' => 'Tunjukkan',
 	'bic-list-all' => 'Senarai penuh',
 	'unregistered' => 'Tidak berdaftar',
+	'users-text' => 'Laman ini memaparkan para pengarang dengan imej-imej yang dimuat naik oleh mereka, dan untuk berapa monumen',
+	'users-list' => 'Lihat',
+	'distict-monuments' => 'Monumen berbeza-beza',
 	'province-heading' => 'Wilayah',
 	'province-none' => '(Tidak diketahui)',
 	'ccaa-heading' => 'CC.AA.',
@@ -1058,12 +1084,15 @@ $messages['vi'] = array(
 	'bic-list' => 'Danh sách',
 	'bic-gallery' => 'Album',
 	'gallery-header' => 'Hình ảnh của đài tưởng niệm với ID $1.',
-	'gallery-header-place' => 'Hình ảnh các đài kỷ niệm tại $1.',
+	'gallery-header-place' => 'Hình ảnh các đài tưởng niệm tại $1.',
 	'wall-of-shame-text' => 'Tác giả theo số hình chụp không được nhận diện',
 	'author-heading' => 'Tác giả',
 	'bic-list-bad' => 'Xem',
 	'bic-list-all' => 'Danh sách đầy đủ',
 	'unregistered' => 'Không đăng ký',
+	'users-text' => 'Trang này liệt kê các tác giả, các hình ảnh được họ tải lên, và các đài tưởng niệm được họ chụp hình',
+	'users-list' => 'Xem',
+	'distict-monuments' => 'Số đài tưởng niệm khác biệt',
 	'province-heading' => 'Tỉnh',
 	'province-none' => '(Không rõ)',
 	'ccaa-heading' => 'CĐTT',

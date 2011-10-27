@@ -60,6 +60,20 @@ $messages['qqq'] = array(
 	'parentheses' => '{{Optional}}',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'hello' => 'Сәлом',
+	'welcome' => 'Хәш омәјшон!',
+	'toolversionstamp' => 'Рәвојәт $1 ($2)',
+	'namespace' => 'Номон мәкон',
+	'form-submit' => 'Давардеј',
+	'years' => '{{PLURAL: $1|сор|сор}}',
+	'weeks' => '{{PLURAL: $1|һәфтә|һәфтә}}',
+	'days' => '{{PLURAL: $1|руж|руж}}',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
