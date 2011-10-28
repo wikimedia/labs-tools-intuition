@@ -94,7 +94,8 @@ Parameters: $1: Name of the image',
 	'download-info' => 'Information shown on the download page. Parameters:
 * $1: Number of images.
 * $2: Estimated size of all the files in the system (in which unit?)',
-	'download' => 'Big link to download the zip',
+	'download' => 'Big link to download the zip.
+{{Identical|Download}}',
 	'readme-contents' => "Contents of the README file.
 * $1: Category name
 * $2: Category URL
@@ -148,6 +149,19 @@ $messages['be-tarask'] = array(
 	'category-contains-namespace' => 'Выглядае, што назва катэгорыі зьмяшчае прастору назваў. З пададзенай назвай старонка будзе даступная як [[Category:$1]].',
 	'zip-failed' => 'Немагчыма стварыць архіў у фармаце ZIP',
 	'image-area-too-big' => '$1 занадта вялікая каб стварыць мініятуру. Будзе выкарыстоўвацца ў поўным памеры.',
+	'download-info' => 'Ёсьць $1 выяваў з меркаваным памерам $2',
+	'download' => 'Загрузіць',
+	'readme-contents' => 'Укладзены файл $4 утрымлівае сьпісы 
+выяваў, якія знаходзяцца ў катэгорыях $1 ( $2 )$3.
+
+== Інструкцыі па загрузцы ўсіх файлаў са сьпісу ==
+Час загрузкі можа вагацца ад некалькі хвілінаў да некалькіх гадзінаў.
+
+Windows:
+ Распакаваць усе файлы ў тую ж самую папку і запусьціць $5
+ $6
+Linux/Mac OS
+ Распакаваць усе файлы і адкройце тэрмінал у той жа дырэкторыі. Запусьціце sh $5',
 );
 
 /** Breton (Brezhoneg)
