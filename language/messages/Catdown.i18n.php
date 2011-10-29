@@ -181,6 +181,7 @@ $messages['br'] = array(
 	'no-images' => "N'eus skeudenn ebet er rummad-mañ",
 	'category-is-url' => "Tres un URL zo gant anv ar rummad zo bet lakaet. Ret eo deoc'h merkañ anv ar rummad ha neket an URL anezhañ.",
 	'category-contains-namespace' => "Evit doare eo bet lakaet ganeoc'h an esaouenn anv asambles gant anv ar rummad. Gant an anv roet e tlefe ar bajenn bezañ hegerz evel [[Category:$1]].",
+	'zip-failed' => "C'hwitet eo bet krouiñ ar ZIP",
 	'image-area-too-big' => 'Re vras eo $1 da grouiñ ur munud. Ober gant ar vent leun.',
 	'download-info' => '$1 skeudenn zo dezho ar vent a $2 pe war-dro',
 	'download' => 'Pellgargañ',
@@ -260,6 +261,16 @@ Sofern Sie daran interessiert sind den Quellcode dieses Programms zu bekommen, k
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 Es gibt auch andere GNU-Mirror. Siehe hierzu
  http://www.gnu.org/prep/ftp.html',
+);
+
+/** Persian (فارسی)
+ * @author Leyth
+ */
+$messages['fa'] = array(
+	'subtitle' => 'راهی آسان برای دانلود تصاویر در یک رده',
+	'project' => 'پروژه:',
+	'category' => 'رده:',
+	'no-such-project' => 'چنین پروژه‌ای وجود ندارد',
 );
 
 /** French (Français)
@@ -389,6 +400,8 @@ Windows:
  $6
 Linux/Mac OS
  Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5',
+	'non-bundled-wget' => 'Nota: Iste version non include le programma "wget" pro Windows. Es necessari, o decomprimer le files
+in un directorio que include wget.exe, o haber "wget" in le "PATH".',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -603,6 +616,14 @@ lub niektórych innych mirrorów GNU, zobacz
 	'scaling-width' => ', przeskalowanych do szerokości maksymalnie $1 pikseli',
 	'scaling-height' => ', przeskalowanych do wysokości maksymalnie $1 pikseli',
 	'scaling-both' => ', przeskalowanych do maksymalnego rozmiaru $1x$2 pikseli',
+);
+
+/** Russian (Русский)
+ * @author Eleferen
+ */
+$messages['ru'] = array(
+	'max-width' => 'Максимальная ширина:',
+	'max-height' => 'Максимальная высота:',
 );
 
 /** Telugu (తెలుగు)

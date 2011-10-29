@@ -209,11 +209,13 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Leyth
  */
 $messages['fa'] = array(
 	'search-table-th-field' => 'زمینه',
 	'search-table-th-filter' => 'پالایه',
 	'search-table-th-search' => 'جستجو',
+	'filter-all-countries' => 'تمام کشورها',
 );
 
 /** Finnish (Suomi)
@@ -541,12 +543,17 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Cybjit
  * @author Liftarn
  */
 $messages['sv'] = array(
+	'search-title' => 'Minnesmärkessökning',
+	'search-monuments-database' => 'Sök i minnesmärkesdatabasen',
 	'search-table-th-field' => 'Fält',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sök',
+	'filter-all-countries' => 'All länder',
+	'filter-all-languages' => 'All språk',
 );
 
 /** Tamil (தமிழ்)

@@ -249,6 +249,7 @@ $messages['br'] = array(
 	'monument-type' => 'Seurt monumant',
 	'monument-id' => 'Kod ar Monumant',
 	'province' => 'Proviñs',
+	'comarque' => 'Komarkoù',
 	'competes' => 'Kenstrivañ',
 	'author' => 'Aozer',
 	'upload-time' => 'Deiziad enporzhiañ',
@@ -280,6 +281,8 @@ $messages['br'] = array(
 	'bic-list-bad' => 'Diskouez',
 	'bic-list-all' => 'Roll klok',
 	'unregistered' => 'Dienroll',
+	'users-list' => 'Gwelet',
+	'distict-monuments' => 'Monumantoù disheñvel',
 	'province-heading' => 'Proviñs',
 	'province-none' => '(Dianav)',
 	'ccaa-heading' => 'KUM.EMREN',
@@ -424,6 +427,14 @@ $messages['es'] = array(
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
+);
+
+/** Persian (فارسی)
+ * @author Leyth
+ */
+$messages['fa'] = array(
+	'deleted' => 'حذف شده‌است ($1)',
+	'bic-list-bad' => 'نمایش',
 );
 
 /** French (Français)
@@ -696,6 +707,9 @@ Pro Provënz weisen',
 	'bic-list-bad' => 'Weisen',
 	'bic-list-all' => 'Komplett Lëscht',
 	'unregistered' => 'Net registréiert',
+	'users-text' => "Dës säit weist d'Auteure mat de Biller déi si eropgelueden hunn a fir wéi vill Monumenter",
+	'users-list' => 'Weisen',
+	'distict-monuments' => 'Ënnerschiddlech Monumenter',
 	'province-heading' => 'Provënz',
 	'province-none' => '(Onbekannt)',
 );
@@ -841,6 +855,9 @@ $messages['nl'] = array(
 	'bic-list-bad' => 'Bekijken',
 	'bic-list-all' => 'Volledige lijst',
 	'unregistered' => 'Niet geregistreerd',
+	'users-text' => 'Op deze pagina worden de auteurs met hun afbeeldingen weergegeven, en voor hoeveel monumenten ze afbeeldingen hebben toegevoegd.',
+	'users-list' => 'Bekijken',
+	'distict-monuments' => 'Unieke monumenten',
 	'province-heading' => 'Provincie',
 	'province-none' => '(Onbekend)',
 	'ccaa-heading' => 'CC.AA.',

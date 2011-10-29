@@ -1172,6 +1172,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Cybjit
  * @author Liftarn
  * @author Lokal Profil
  * @author WikiPhoenix
@@ -1179,7 +1180,7 @@ $messages['sr-el'] = array(
 $messages['sv'] = array(
 	'hello' => 'Hej',
 	'welcome' => 'Välkommen',
-	'toolversionstamp' => ' Version $1 ($2)',
+	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Namnrymd',
 	'form-submit' => 'Gå',
