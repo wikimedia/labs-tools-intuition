@@ -29,7 +29,7 @@ $messages['en'] = array(
 	'zip-failed' => 'Zip creation failed',
 	'image-area-too-big' => '$1 is too big to create a thumbnail. Using full size.',
 
-	'download-info' => "There are $1 images with an estimated size of $2",
+	'download-info' => "{{plural: $1|There is one image|There are $1 images}}, with an estimated size of $2",
 	'download' => 'Download',
 
 	'readme-contents' => 'The enclosing file $4 lists 
@@ -59,8 +59,8 @@ or some other GNU Mirror, see
 ',
 
 	'scaling-none' => '', // Optional
-	'scaling-width' => ', scaled to a maximum width of $1 pixels',
-	'scaling-height' => ', scaled to a maximum height of $1 pixels',
+	'scaling-width' => ', scaled to a maximum width of $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => ', scaled to a maximum height of $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', scaled to a maximum size of $1x$2 pixels',
 
 	'script-filename' => 'download.bat', // Optional
