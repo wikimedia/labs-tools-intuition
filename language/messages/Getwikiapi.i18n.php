@@ -298,7 +298,9 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'formats-heading' => 'Formater vum Resultat',
 	'input' => 'Donnéeën',
+	'label-wikiids' => 'Wiki-Identifikatioun',
 	'no-matches' => 'Et passt näischt op "$1"',
 	'output' => 'Resultat fir "$1"',
 );

@@ -438,17 +438,53 @@ $messages['fa'] = array(
 );
 
 /** French (Français)
+ * @author Jean-Frédéric
  * @author Od1n
  */
 $messages['fr'] = array(
+	'title' => 'Fichiers WLM',
 	'file' => 'Image',
+	'monument-type' => 'Type de monument',
+	'monument-id' => 'Identifiant du monument',
+	'province' => 'Province',
+	'comarque' => 'Comarque',
+	'competes' => 'Participant',
 	'author' => 'Auteur',
+	'upload-time' => 'Heure de téléversement',
+	'deleted' => 'Supprimé ($1)',
+	'concursa' => 'Participe à WLM',
+	'no-concursa' => 'Hors compétition WLM',
+	'not-available' => 'Non disponible',
+	'date-unknown' => 'Inconnu',
+	'total-images' => 'Total des images : $1',
+	'view-uncategorized-images' => 'Voir les images sans catégorie',
+	'provide-id' => 'Donner l’identifiant d’un monument pour afficher les données disponibles pour cet élément',
+	'show-images-bad-only' => 'Afficher uniquement les images hors des listes',
+	'show-images-all' => 'Afficher toutes les images',
+	'show-images-removed' => 'Afficher les images retirées de la compétition',
+	'search-monuments' => 'Rechercher',
+	'view-frequency' => 'Monuments populaires',
+	'view-ccaa' => 'Afficher par communauté autonome',
+	'view-province' => 'Afficher par province',
+	'id-label' => 'Identifiant du monument :',
+	'id-none' => '(aucun)',
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Photographies',
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galerie',
+	'gallery-header' => 'Images du monument avec l’identifiant $1 .',
+	'gallery-header-place' => 'Images de monuments de $1.',
+	'wall-of-shame-text' => 'Auteurs par nombre de photographies non identifiées',
 	'author-heading' => 'Auteur',
+	'bic-list-bad' => 'Afficher',
 	'bic-list-all' => 'Liste complète',
+	'unregistered' => 'Non inscrit',
+	'users-text' => 'Cette page montre les auteurs avec les images qu’ils ont versées et de combien de monuments',
+	'users-list' => 'Afficher',
+	'distict-monuments' => 'Monuments distincts',
+	'province-heading' => 'Province',
+	'province-none' => '(inconnu)',
+	'ccaa-heading' => 'CA',
 );
 
 /** Galician (Galego)

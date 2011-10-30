@@ -217,7 +217,7 @@ $messages['de'] = array(
 	'category-contains-namespace' => 'Du scheinst neben dem Kategorienamen auch die Namensraumbezeichnung angegeben zu haben. Mit dem angegebene Namen würde die Seite als [[Category:$1]] verfügbar sein.',
 	'zip-failed' => 'ZIP-Erstellung fehlgeschlagen',
 	'image-area-too-big' => '$1 ist zu groß, um eine Miniaturansicht erstellen zu können. Daher wird die volle Bildgröße genutzt.',
-	'download-info' => 'Es sind $1 Bilder mit eine geschätzten Gesamtgröße von $2 vorhanden.',
+	'download-info' => '{{PLURAL:$1|Es ist ein Bild|Es sind $1 Bilder}} mit eine geschätzten Gesamtgröße von $2 vorhanden.',
 	'download' => 'Herunterladen',
 	'readme-contents' => 'Die Datei $4 listet die Bilder in der Kategorie $1 auf ($2) $3.
 
@@ -241,8 +241,8 @@ Sofern du daran interessiert bist den Quellcode dieses Programms zu bekommen, ka
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 Es gibt auch andere GNU-Mirror. Siehe hierzu
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => ', auf eine maximale Breite von $1 Pixel skaliert',
-	'scaling-height' => ', auf eine maximale Höhe von $1 Pixel skaliert',
+	'scaling-width' => ', auf eine maximale Breite von {{PLURAL:$1|einem Pixel|$1 Pixel}} skaliert',
+	'scaling-height' => ', auf eine maximale Höhe von {{PLURAL:$1|einem Pixel|$1 Pixel}} skaliert',
 	'scaling-both' => ', auf eine maximale Größe von $1x$2 Pixel skaliert',
 );
 
@@ -412,6 +412,7 @@ $messages['lb'] = array(
 	'subtitle' => 'Déi einfach Manéier fir Biller aus enger Kategorie erofzelueden',
 	'project' => 'Projet:',
 	'category' => 'Kategorie:',
+	'thumbnailing' => 'Miniaturbild gëtt gemaach',
 	'max-width' => 'Maximal Breet:',
 	'max-height' => 'Maximal Héicht:',
 	'invalid-width' => "D'Breet ass net valabel",
