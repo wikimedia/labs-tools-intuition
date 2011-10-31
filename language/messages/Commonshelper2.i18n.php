@@ -1268,6 +1268,18 @@ $messages['ja'] = array(
 	'remove_cats' => '既存のカテゴリを削除',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'attention' => 'ყურადღება',
+	'language' => 'ენა',
+	'project' => 'პროექტი',
+	'categories' => 'კატეგორიები',
+	'do_it' => 'გააკეთე',
+	'standard_language' => 'ka',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */

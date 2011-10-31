@@ -149,7 +149,7 @@ $messages['be-tarask'] = array(
 	'category-contains-namespace' => 'Выглядае, што назва катэгорыі зьмяшчае прастору назваў. З пададзенай назвай старонка будзе даступная як [[Category:$1]].',
 	'zip-failed' => 'Немагчыма стварыць архіў у фармаце ZIP',
 	'image-area-too-big' => '$1 занадта вялікая каб стварыць мініятуру. Будзе выкарыстоўвацца ў поўным памеры.',
-	'download-info' => 'Ёсьць $1 выяваў з меркаваным памерам $2',
+	'download-info' => '{{plural: $1|Ёсьць $1 выява|Ёсьць $1 выявы|Ёсьць $1 выяваў}}, з меркаваным памерам $2',
 	'download' => 'Загрузіць',
 	'readme-contents' => 'Укладзены файл $4 утрымлівае сьпісы 
 выяваў, якія знаходзяцца ў катэгорыях $1 ( $2 )$3.
@@ -162,6 +162,16 @@ Windows:
  $6
 Linux/Mac OS
  Распакаваць усе файлы і адкройце тэрмінал у той жа дырэкторыі. Запусьціце sh $5',
+	'non-bundled-wget' => 'Заўвага: Гэтая вэрсія не ўтрымлівае wget для Windows. Вам трэба будзе распакаваць у папку з wget.exe ці трэба мець шлях да wget у PATH',
+	'wget-info' => 'Гэты файл утрымлівае копію wget $1 (для плятформы Windows). Wget — вольнае праграмнае забесьпячэньне, якое распаўсюджваецца на ўмовах ліцэнзіі GNU GENERAL PUBLIC вэрсіі 3.
+Копія ліцэнзіі знаходзіцца ніжэй, і таксама даступная на http://www.gnu.org/licenses/gpl-3.0.txt
+
+У выпадку, калі Вы жадаеце атрымаць крынічны код гэтай праграмы, Вы можаце загрузіць яго з
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ці з некаторых іншых люстэрках GNU, глядзіце
+ http://www.gnu.org/prep/ftp.html',
 );
 
 /** Breton (Brezhoneg)
@@ -183,7 +193,7 @@ $messages['br'] = array(
 	'category-contains-namespace' => "Evit doare eo bet lakaet ganeoc'h an esaouenn anv asambles gant anv ar rummad. Gant an anv roet e tlefe ar bajenn bezañ hegerz evel [[Category:$1]].",
 	'zip-failed' => "C'hwitet eo bet krouiñ ar ZIP",
 	'image-area-too-big' => 'Re vras eo $1 da grouiñ ur munud. Ober gant ar vent leun.',
-	'download-info' => '$1 skeudenn zo dezho ar vent a $2 pe war-dro',
+	'download-info' => '{{plural: $1|Ur skeudenn zo dezhi|$1 skeudenn zo dezho}} ar vent a $2 pe war-dro',
 	'download' => 'Pellgargañ',
 	'readme-contents' => "Renabliñ a ra ar restr $4 enframmet 
 ar skeudennoù zo er rummad $1 ( $2 )$3.
@@ -196,6 +206,21 @@ Windows :
  $6
 Linux/Mac OS
  Eztennañ an holl restroù ha digeriñ un dermenell er renkell-se. Lañsañ sh $5",
+	'non-bundled-wget' => "Notenn : N'eo ket skoret wget evit Windows er stumm-mañ. Ret e vo deoc'h diwaskañ 
+en ur c'havlec'h gant wget.exe pe neuze kaout wget er PATH",
+	'wget-info' => "Un eilskrid eus wget $1 (evit savennoù Windows) zo er restr. Ur meziant frank eo Wget, 
+dindan termenoù ar GNU GENERAL PUBLIC LICENSE stumm 3.
+Dindan ez eus un eilskrid eus an aotre-implijout a c'haller kavout ivez war http://www.gnu.org/licenses/gpl-3.0.txt
+
+Mard oc'h dedennet da dapout kod tarzh ar programm-mañ e c'hallit e bellgargañ diwar
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+pe melezourioù GNU all, sellit ouzh
+ http://www.gnu.org/prep/ftp.html",
+	'scaling-width' => ', skeuliaouet gant ul ledander brasañ a $1 {{plural:$1|piksel|piksel}}',
+	'scaling-height' => ', skeuliaouet gant un uhelder brasañ a $1 {{plural:$1|piksel|piksel}}',
+	'scaling-both' => ", skeuliaouet d'ur vent vrasañ a $1x$2 piksel",
 );
 
 /** German (Deutsch)
@@ -292,7 +317,7 @@ $messages['fr'] = array(
 	'category-contains-namespace' => "Il semble que vous avez inclus l'espace de nom avec le nom de la catégorie. Avec le nom fourni, la page serait disponible à [[Category:$1]].",
 	'zip-failed' => 'Création du zip échouée',
 	'image-area-too-big' => '$1 est trop gros pour créer une vignette. Utilisez la taille réelle.',
-	'download-info' => 'Il y a $1 images avec une taille estimée de $2',
+	'download-info' => '{{plural: $1|Il y a une image|Il y a $1 images}}, avec une taille estimée de $2',
 	'download' => 'Télécharger',
 	'readme-contents' => 'Le fichier conteneur $4 liste les images de la catégorie $1 ( $2 )$3.
 
@@ -314,8 +339,8 @@ Si vous êtes intéressés par le code source de ce programme, vous pouvez le t�
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 ou un autre miroir GNU, voyez
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => ", mis à l'échelle avec une largeur maximale de $1 pixels",
-	'scaling-height' => ", mis à l'échelle avec une hauteur maximale de $1 pixels",
+	'scaling-width' => ", mis à l'échelle avec une largeur maximale de $1 {{plural:$1|pixel|pixels}}",
+	'scaling-height' => ", mis à l'échelle avec une hauteur maximale de $1 {{plural:$1|pixel|pixels}}",
 	'scaling-both' => ", mis à l'échelle avec une taille maximale de $1x$2 pixels",
 );
 
@@ -338,7 +363,7 @@ $messages['gl'] = array(
 	'category-contains-namespace' => 'Semella que incluíu o espazo de nomes xunto ao nome da categoría. Co nome dado, a páxina estaría dispoñible en [[Category:$1]].',
 	'zip-failed' => 'Erro na creación do ZIP',
 	'image-area-too-big' => '"$1" é grande de máis para crear unha miniatura. Emprégase o tamaño completo.',
-	'download-info' => 'Hai $1 imaxes cun tamaño estimado de $2',
+	'download-info' => '{{plural: $1|Hai unha imaxe|Hai $1 imaxes}}, cun tamaño estimado de $2',
 	'download' => 'Descargar',
 	'readme-contents' => 'O ficheiro "$4" incluído lista
 as imaxes na categoría "$1" ($2)$3.
@@ -363,8 +388,8 @@ En caso de estar interesado en obter o código fonte deste programa, pode descar
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 ou nestoutro espello de GNU
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => ', escaladas a un ancho máximo de $1 píxeles',
-	'scaling-height' => ', escaladas a unha altura máxima de $1 píxeles',
+	'scaling-width' => ', escaladas a un ancho máximo de $1 {{plural:$1|píxel|píxeles}}',
+	'scaling-height' => ', escaladas a unha altura máxima de $1 {{plural:$1|píxel|píxeles}}',
 	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
 );
 
@@ -402,6 +427,21 @@ Linux/Mac OS
  Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5',
 	'non-bundled-wget' => 'Nota: Iste version non include le programma "wget" pro Windows. Es necessari, o decomprimer le files
 in un directorio que include wget.exe, o haber "wget" in le "PATH".',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'category' => 'კატეგორია:',
+	'download' => 'ჩამოტვირთვა',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'download-info' => 'Mer han {{PLURAL:$1|ei Beld|$1 Belder|kein Belder}} mem Jesampömfang vun $2',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -449,7 +489,7 @@ $messages['mk'] = array(
 	'category-contains-namespace' => 'Изгледа дека сте го навеле именскиот простор заедно со името на категоријата. Со зададеното име, страницата ќе биде достапна на [[Category:$1]].',
 	'zip-failed' => 'Не успеав да создадам ZIP',
 	'image-area-too-big' => 'Сликата $1 е преголема за да може да се минијатуризира. Ќе ја употребам полната големина.',
-	'download-info' => 'Има $1 слики со проценета вкупна големина од $2',
+	'download-info' => '{{plural: $1|Има една слика|Има $1 слики}}, со проценета големина од $2',
 	'download' => 'Преземи',
 	'readme-contents' => 'Во податотеката $4 се наведени 
 сликите во категоријата $1 ( $2 )$3.
@@ -474,8 +514,8 @@ Linux/Mac OS
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 или некое друго огледало на ГНУ, вид.
  http://www.gnu.org/prep/ftp.html",
-	'scaling-width' => ', со изменет размер до максимална ширина од $1 пиксели',
-	'scaling-height' => ', со изменет размер до висина ширина од $1 пиксели',
+	'scaling-width' => ', со изменет размер до максимална ширина од $1 {{plural:$1|пиксел|пиксели}}',
+	'scaling-height' => ', со изменет размер до максимална висина од $1 {{plural:$1|пиксел|пиксели}}',
 	'scaling-both' => ', со изменет размер до максимална големина од $1 x $2 пиксели',
 	'script-filename' => 'преземање.bat',
 	'readme-filename' => 'ДОКУМЕНТАЦИЈА.txt',
@@ -500,7 +540,7 @@ $messages['ms'] = array(
 	'category-contains-namespace' => 'Nampaknya anda telah menyertakan ruang nama dengan nama kategori. Dengan nama yang diberikan, laman itu tersedia sebagai [[Category:$1]].',
 	'zip-failed' => 'Zip gagal dibuat',
 	'image-area-too-big' => '$1 terlalu besar untuk membuat thumbnail. Saiz penuh digunakan.',
-	'download-info' => 'Terdapat $1 imej yang saiznya sekitar $2',
+	'download-info' => 'Terdapat {{plural: $1|satu|$1}} imej dengan saiz kira-kira $2',
 	'download' => 'Muat turun',
 	'readme-contents' => 'Fail pelampir $4 menyenaraikan
 imej-imej di kategori $1 ( $2 )$3.
@@ -550,7 +590,7 @@ $messages['nl'] = array(
 	'category-contains-namespace' => 'U hebt de naamruimte opgenomen in de categorienaam. Met de opgegeven naam, komt de pagina beschikbaar als [[Category:$1|Categorie $1]].',
 	'zip-failed' => 'Het maken van een zip-bestand is mislukt.',
 	'image-area-too-big' => '$1 is te groot om een miniatuur maken. De volledige grootte wordt gebruikt.',
-	'download-info' => 'Er zijn $1 afbeeldingen met een geschatte grootte van $2',
+	'download-info' => '{{plural: $1|Er is één afbeelding|Er zijn $1 afbeeldingen}}, met een geschatte grootte van $2',
 	'download' => 'Downloaden',
 	'readme-contents' => 'In het bestand $4 staat een lijst met
 bestanden uit de categorie $1 ($2)$3.
@@ -566,8 +606,18 @@ Linux/Mac OSX
 	'non-bundled-wget' => 'Let op: in deze versie is wget voor Windows niet opgenomen. U moet uitpakken
 naar een map waarin wget.exe staat, of wget moet opgenomen zijn in de
 omgevingsvariabele PATH.',
-	'scaling-width' => ', geschaald naar een maximale breedte van $1 pixels',
-	'scaling-height' => ', geschaald naar een maximale hoogte van $1 pixels',
+	'wget-info' => 'Dit bestand bundelt een kopie van wget $1 (voor het Windows-systeem). Wget is vrije software,
+onder de voorwaarden van de GNU GENERAL PUBLIC LICENSE versie 3.
+Er is een kopie van de licentie hieronder, en het is ook beschikbaar op http://www.gnu.org/licenses/gpl-3.0.txt
+
+In het geval dat u geïnteresseerd bent in de broncode van dit programma, kunt u deze downloaden vanop
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+of een andere GNU-mirror, zie
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', geschaald naar een maximale breedte van $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => ', geschaald naar een maximale hoogte van $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', geschaald naar een maximale afmeting van $1 x $2 pixels',
 );
 

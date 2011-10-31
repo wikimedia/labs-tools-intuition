@@ -810,6 +810,13 @@ $messages['ja'] = array(
 	'tab-demo' => 'デモ',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'bl-mysettings-new' => 'ენის შეცვლა!',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */

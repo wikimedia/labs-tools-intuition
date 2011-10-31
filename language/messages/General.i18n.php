@@ -697,6 +697,15 @@ $messages['ja'] = array(
 	'view-source' => 'ソースを表示',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'hello' => 'გამარჯობა',
+	'welcome' => 'კეთილი იყოს თქვენი მობრძანება',
+	'etc' => 'და ა.შ.',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
