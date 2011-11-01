@@ -94,7 +94,8 @@ $messages['qqq'] = array(
 	'author' => 'Header for the column showing the author listed for that image.
 {{Identical|Author}}',
 	'upload-time' => 'Upload time in CEST',
-	'deleted' => 'Text to show instead of the filename if the file was deleted (those files only appear with option=removed). $1: page_id',
+	'deleted' => 'Text to show instead of the filename if the file was deleted (those files only appear with option=removed). $1: page_id.
+{{Identical|Deleted}}',
 	'concursa' => 'Entry for the competes column if the monuments takes part in WLM (also see: {{msg-toolserver|Wlm-no-concursa}})',
 	'no-concursa' => 'Entry for the competes column if the monuments does not take part in WLM (also see: {{msg-toolserver|Wlm-concursa}})',
 	'not-available' => 'Shown for images not yet loaded',
@@ -209,6 +210,7 @@ $messages['be-tarask'] = array(
 	'competes' => 'Спаборніцтвы',
 	'author' => 'Аўтар',
 	'upload-time' => 'Час загрузкі',
+	'deleted' => 'Выдалены ($1)',
 	'concursa' => 'Прыняць удзел у «Вікі любіць славутасьці»',
 	'no-concursa' => 'Па-за спаборніцтвам «Вікі любіць славутасьці»',
 	'not-available' => 'Не даступна',
@@ -218,6 +220,7 @@ $messages['be-tarask'] = array(
 	'provide-id' => 'Падаць ідэнтыфікатар славутасьці, каб паказаць даступныя зьвесткі',
 	'show-images-bad-only' => 'Паказаць толькі выявы па-за сьпісамі',
 	'show-images-all' => 'Паказаць усе выявы',
+	'show-images-removed' => 'Паказаць выявы выдаленыя з конкурсу',
 	'search-monuments' => 'Пошук славутасьцяў',
 	'view-frequency' => 'Папулярныя славутасьці',
 	'view-ccaa' => 'Паказаць аўтаномную супольнасьць',

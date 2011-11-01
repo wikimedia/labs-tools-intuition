@@ -172,6 +172,9 @@ Linux/Mac OS
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 ці з некаторых іншых люстэрках GNU, глядзіце
  http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', маштабаваны да максымальнай шырыні ў $1 {{plural:$1|піксэль|піксэлі|піксэляў}}',
+	'scaling-height' => ', маштабаваны да максымальнай вышыні ў $1 {{plural:$1|піксэль|піксэлі|піксэляў}}',
+	'scaling-both' => ', маштабаваны да максымальнага памеру ў $1×$2 {{plural:$2|піксэль|піксэлі|піксэляў}}',
 );
 
 /** Breton (Brezhoneg)
@@ -463,10 +466,10 @@ $messages['lb'] = array(
 	'category-contains-namespace' => "Et schéngt wéi wann dir den Nummraum bäi den Numm vun der Kategorie derbäigesat hutt. Mam Numm den uginn ass wier d'Säit als [[Category:$1]] disponibel.",
 	'zip-failed' => 'De ZIP-Fichier konnt net gemaach ginn',
 	'image-area-too-big' => '$1 ass ze grouss fir e Miniatur-Bild ze generéieren. Déi komplett Gréisst gëtt benotzt.',
-	'download-info' => 'Et sinn $1 Biller mat enger geschater Gréisst vun $2 do',
+	'download-info' => 'Et {{plural: $1|ass 1 Bild|si(nn) $1 Biller}} mat enger geschater Gréisst vun $2 do',
 	'download' => 'Eroflueden',
-	'scaling-width' => ', op eng maximal Breet vu(n) $1 Pixel skaléiert',
-	'scaling-height' => ', op eng maximal Héicht vu(n) $1 Pixel skaléiert',
+	'scaling-width' => ', op eng maximal Breet vu(n) $1 {{plural:$1Pixel|Pixel}} skaléiert',
+	'scaling-height' => ', op eng maximal Héicht vu(n) {{plural:$1Pixel|Pixel}} skaléiert',
 	'scaling-both' => ', op eng maximal Gréisst vu(n) $1x$2 Pixel skaléiert',
 );
 
@@ -669,12 +672,28 @@ lub niektórych innych mirrorów GNU, zobacz
 	'scaling-both' => ', przeskalowanych do maksymalnego rozmiaru $1x$2 pikseli',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'project' => 'Pruggette:',
+	'category' => 'Categorije:',
+);
+
 /** Russian (Русский)
  * @author Eleferen
  */
 $messages['ru'] = array(
 	'max-width' => 'Максимальная ширина:',
 	'max-height' => 'Максимальная высота:',
+);
+
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'title' => 'Преузимање слика по категорији',
+	'subtitle' => 'Једноставан начин да преузмете слике у некој категорији',
 );
 
 /** Telugu (తెలుగు)
