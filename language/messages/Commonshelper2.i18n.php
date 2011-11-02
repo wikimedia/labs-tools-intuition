@@ -1423,6 +1423,7 @@ $messages['lb'] = array(
 	'error_on_commons' => 'Quellfichier schonn op $1!',
 	'error_file_exists' => 'Et gëtt de Fichier schonn op $3 als "$1$4$2"!',
 	'error_diff_exists' => 'Et gëtt schonn en anere Fichier mat deem selwechten Numm op der Zilwiki',
+	'error_no_meta' => "Keng Metadaten iwwer d'Quell-Wiki fonnt! $1D'Metadate fir de Projet w.e.g. aginn/aktualiséieren$2",
 	'original_wikitext' => 'Originale Wiki-Text',
 	'new_wikitext' => 'Neie Wiki-Text',
 	'new_filename' => 'Neien Numm vum Fichier:',

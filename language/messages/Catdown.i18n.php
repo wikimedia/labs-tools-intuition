@@ -700,6 +700,7 @@ $messages['sr-ec'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'title' => 'వర్గాల వారీగా చిత్రాలను దించుకోండి',
 	'project' => 'ప్రాజెక్టు:',
 	'category' => 'వర్గం:',
 	'max-width' => 'గరిష్ఠ వెడల్పు:',
