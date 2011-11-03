@@ -475,6 +475,7 @@ $messages['lb'] = array(
 
 /** Macedonian (Македонски)
  * @author Bjankuloski06
+ * @author Rancher
  */
 $messages['mk'] = array(
 	'title' => 'Преземање на слики по категории',
@@ -484,8 +485,8 @@ $messages['mk'] = array(
 	'thumbnailing' => 'Минијатуризација',
 	'max-width' => 'Макс. ширина:',
 	'max-height' => 'Макс. висина:',
-	'invalid-width' => 'Неважечка висина',
-	'invalid-height' => 'Неважечка ширина',
+	'invalid-width' => 'Неважечка ширина',
+	'invalid-height' => 'Неважечка висина',
 	'no-such-project' => 'Нема таков проект',
 	'no-images' => 'Во таа категорија нема слики',
 	'category-is-url' => 'Зададеното име личи на URL-адреса. Треба да го наведете името на категоријата, а не адресата.',
@@ -694,6 +695,23 @@ $messages['ru'] = array(
 $messages['sr-ec'] = array(
 	'title' => 'Преузимање слика по категорији',
 	'subtitle' => 'Једноставан начин да преузмете слике у некој категорији',
+	'project' => 'Пројекат:',
+	'category' => 'Категорија:',
+	'thumbnailing' => 'Минијатуризација',
+	'max-width' => 'Највећа ширина:',
+	'max-height' => 'Највећа висина:',
+	'invalid-width' => 'Неисправна ширина',
+	'invalid-height' => 'Неисправна висина',
+	'no-such-project' => 'Нема таквог пројекта',
+	'no-images' => 'У тој категорији нема слика',
+	'category-is-url' => 'Наведени назив личи на адресу. Треба да унесете назив категорије, а не његову адресу.',
+	'category-contains-namespace' => 'Изгледа да сте навели именски простор заједно с називом категорије. Са задатим називом, страница ће бити доступна као [[Category:$1]].',
+	'zip-failed' => 'Не могу да направим архиву',
+	'image-area-too-big' => 'Слика $1 је превелика да би могла да се минијатуризира. Користићу пуну величину.',
+	'download-info' => '{{plural: $1|Постоји једна слика|Постоје $1 слике|Постоји $1 слика}}, с просечном величином од $2',
+	'download' => 'Преузми',
+	'non-bundled-wget' => 'Напомена: ово издање не садржи wget за виндоус. Треба да отпакујете
+у фасциклу са wget.exe или да већ имате wget у путањи',
 );
 
 /** Telugu (తెలుగు)
@@ -741,7 +759,7 @@ $messages['vi'] = array(
 	'category-contains-namespace' => 'Hình như bạn đã bao gồm không gian tên cùng với tên thể loại. Với tên này, trang sẽ là [[Category:$1]].',
 	'zip-failed' => 'Thất bại khi tạo ZIP',
 	'image-area-too-big' => '$1 quá lớn để tạo ra hình thu nhỏ. Đang sử dụng kích cỡ gốc thay thế.',
-	'download-info' => 'Có $1 hình ảnh với kích thước ước lượng là $2',
+	'download-info' => 'Có {{PLURAL:$1|hình ảnh|$1 hình ảnh}} với kích thước ước lượng là $2',
 	'download' => 'Tải về',
 	'readme-contents' => 'Tập tin kèm theo $4 liệt kê
 các hình ảnh trong thể loại $1 ( $2 )$3.
