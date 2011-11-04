@@ -415,7 +415,7 @@ $messages['ia'] = array(
 	'category-contains-namespace' => 'Il sembla que tu ha includite le spatio de nomines con le nomine del categoria. Con le nomine specificate, le pagina esserea disponibile a [[Category:$1]].',
 	'zip-failed' => 'Creation del archivo ZIP fallite',
 	'image-area-too-big' => '$1 es troppo grande pro crear un miniatura. Le dimension complete es usate.',
-	'download-info' => 'Il ha $1 imagines con un dimension estimate de $2',
+	'download-info' => '{{plural: $1|Il ha un imagine|Il ha $1 imagines}}, con un dimension estimate de $2',
 	'download' => 'Discargar',
 	'readme-contents' => 'Le file $4 contine un lista 
 del imagines presente in le categoria $1 ( $2 )$3.
@@ -430,6 +430,19 @@ Linux/Mac OS
  Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5',
 	'non-bundled-wget' => 'Nota: Iste version non include le programma "wget" pro Windows. Es necessari, o decomprimer le files
 in un directorio que include wget.exe, o haber "wget" in le "PATH".',
+	'wget-info' => 'Iste file contine un copia de wget $1 (pro Windows). Wget es software libere,
+sub le terminos del LICENTIA PUBLIC GENERAL DE GNU version 3.
+Hic infra es un copia de iste licentia; illo es disponibile tamben a http://www.gnu.org/licenses/gpl-3.0.txt
+
+Si tu vole obtener le codice fonte de iste programma, tu pote discargar lo ab
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+o de un altere speculo de GNU, vide
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', scalate a un latitude maxime de $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => ', scalate a un altitude maxime de $1 {{plural:$1|pixel|pixels}}',
+	'scaling-both' => ', scalate a un dimension maxime de $1 × $2 pixels',
 );
 
 /** Georgian (ქართული)
@@ -444,7 +457,27 @@ $messages['ka'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'title' => 'Belder pä Saachjrobb eronger laade',
+	'subtitle' => 'Ene eijnfache Wääsch, de Belder en ene Saachjrobb eronger ze laade',
+	'project' => 'Projäk:',
+	'category' => 'Saachjropp:',
+	'thumbnailing' => 'Minni-Belldsche',
+	'max-width' => 'De jrüüßte Breide:',
+	'max-height' => 'De jrüüßte Hühde:',
+	'invalid-width' => 'Di Breide es nit jöltesch.',
+	'invalid-height' => 'Di Hühde es nit jöltesch.',
+	'no-such-project' => 'Esu e Projäk ham_mer nit.',
+	'no-images' => 'En dä Saachjropp sinn_er kein Bellder.',
+	'category-is-url' => 'Di aanjejovve Saachjropp süht wi ene URL uß, Donn dä Name vun dä Saachjropp aanjävve.',
+	'category-contains-namespace' => 'Do häs ene Name vun enenm Apachtemang met dä Saachjropp zosamme aanjejovve. Met dämm Naame däät di Sigg [[Category:$1]] heiße.',
+	'zip-failed' => 'Mer kunnte di ZIP-Dattei nit aanlääje.',
+	'image-area-too-big' => 'Di Dattei $1 es zoh jruuß förr e Minnnibeldhsce druß ze maache. Mer nämme di Dattei wi se es.',
 	'download-info' => 'Mer han {{PLURAL:$1|ei Beld|$1 Belder|kein Belder}} mem Jesampömfang vun $2',
+	'download' => 'Eronger laade',
+	'non-bundled-wget' => 'Opjepaß: En heh dä Version es <code lang="en">wget</code> fö <i lang="en">Windows</i> nit derbei. Do moß se met <code lang="en">wget.exe</code> en enem Verzischneß ußpacke udder <code lang="en">wget</code> moß övver der Paad zom Projramme Söhke jefonge wääde künne.',
+	'scaling-width' => ', obb ene jrüüßte Breide vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet',
+	'scaling-height' => ', obb ene jrüüßte Hühde vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet',
+	'scaling-both' => ', obb ene jrüüßte Ömfang vun $1x$2 Pixelle ömjeräschnet',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -644,7 +677,7 @@ $messages['pl'] = array(
 	'category-contains-namespace' => 'Wygląda na to, że w nazwie kategorii jest nazwa przestrzeni nazw. Z zadaną nazwą strona byłaby dostępna jako [[Category:$1]].',
 	'zip-failed' => 'Błąd utworzenia archiwum w formacie ZIP',
 	'image-area-too-big' => 'Grafika $1 jest zbyt duża, aby utworzyć miniaturkę. Zostanie użyta w pełnym rozmiarze.',
-	'download-info' => 'Jest $1 grafik o szacowanej wielkości $2',
+	'download-info' => '{{PLURAL:$1|Jest jedna grafika|Są $1 grafiki|Jest $1 grafik}} o szacowanej wielkości $2',
 	'download' => 'Pobierz',
 	'readme-contents' => 'Załączony plik $4 zawiera listę
 grafik znajdujących się w kategorii $1 ( $2 )$3.
@@ -668,8 +701,8 @@ Jeśli jesteś zainteresowany kodem źródłowym tego programu możesz pobrać g
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 lub niektórych innych mirrorów GNU, zobacz
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => ', przeskalowanych do szerokości maksymalnie $1 pikseli',
-	'scaling-height' => ', przeskalowanych do wysokości maksymalnie $1 pikseli',
+	'scaling-width' => ', przeskalowanych do szerokości maksymalnie $1 {{PLURAL:$1|piksela|pikseli}}',
+	'scaling-height' => ', przeskalowanych do wysokości maksymalnie $1 {{PLURAL:$1|piksela|pikseli}}',
 	'scaling-both' => ', przeskalowanych do maksymalnego rozmiaru $1x$2 pikseli',
 );
 
