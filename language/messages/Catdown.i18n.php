@@ -226,6 +226,62 @@ pe melezourioù GNU all, sellit ouzh
 	'scaling-both' => ", skeuliaouet d'ur vent vrasañ a $1x$2 piksel",
 );
 
+/** Catalan (Català)
+ * @author Gemmaa
+ */
+$messages['ca'] = array(
+	'title' => 'Descàrrega de les imatges per categoria',
+	'subtitle' => 'La manera fàcil de descarregar les imatges en una categoria',
+	'project' => 'Projecte:',
+	'category' => 'Categoria:',
+	'thumbnailing' => 'Miniatures',
+	'max-width' => 'Amplada màxima:',
+	'max-height' => 'Altura màxima:',
+	'invalid-width' => 'Amplada no és vàlida',
+	'invalid-height' => 'Alçada no és vàlid',
+	'no-such-project' => 'No hi ha cap tal projecte',
+	'no-images' => 'No hi ha cap imatge en aquella Categoria',
+	'category-is-url' => "El nom de la categoria determinada s'assembla a un URL. Heu d'especificar el nom de categoria, no l'URL.",
+	'category-contains-namespace' => "Sembla que han d'incloure l'espai de nom en el nom de la categoria. Amb el nom, la pàgina estaria disponible com [[Category:$1]].",
+	'zip-failed' => 'Creació de cremalleres ha fallat',
+	'image-area-too-big' => '$1és massa gran per crear una ungla. Ús de mida completa.',
+	'download-info' => '{{plural:  $1 |Hi ha un image|Hi ha  $1  imatges}}, amb una mida aproximada de$2',
+	'download' => 'Descarregar',
+	'readme-contents' => "L'arxiu de enclosing  $4  en les llistes de
+ les imatges a la  $1  Categoria (  $2  ) $3 .
+
+ = = instruccions per descarregar totes les imatges que figuren = =
+El temps de descàrrega pot variar des d'uns quants minuts a unes quantes hores.
+
+Windows:
+ Extreu tots els arxius a la mateixa carpeta i cursa  $5 
+ $6
+Linux/Mac OS
+ Extreu tots els arxius i obrir un terminal d'aquesta carpeta. Executar sh$5",
+	'non-bundled-wget' => 'Nota: Aquesta versió no inclou wget per a Windows. Vostè haurà de descomprimir
+ a una carpeta amb wget. exe o en cas contrari han wget en el camí',
+	'wget-info' => 'Aquest fitxer farcells una còpia de wget  $1  (per a plataforma de Windows). Wget és programari lliure
+ sota els termes de la GNU GENERAL PUBLIC LICENSE version 3.
+Hi ha una còpia de la llicència sota, i també està disponible a http://www.gnu.org/licenses/gpl-3.0.txt
+
+En cas que vostè està interessat en obtenir el codi font per a aquest programa, pot descarregar des de
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version= $1 
+ http://FTP.GNU.org/GNU/wget/wget- $1 . tar.xz
+ FTP://FTP.GNU.org/GNU/wget/wget- $1 . tar.xz
+ o alguns altres GNU mirall, veure
+ http://www.GNU.org/PReP/FTP.html',
+	'scaling-width' => ', reduït a una màxima amplada de  $1  {{plural: $1 |pixel|pixels}}',
+	'scaling-height' => ', reduït a una alçada màxima de  $1  {{plural: $1 |pixel|pixels}}',
+	'scaling-both' => ', reduït a una mida màxima de  $1 x $2  píxels',
+);
+
+/** Danish (Dansk)
+ * @author Tjernobyl
+ */
+$messages['da'] = array(
+	'title' => 'Download af billeder efter kategori',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */

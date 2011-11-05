@@ -297,6 +297,7 @@ $messages['br'] = array(
 );
 
 /** Catalan (Català)
+ * @author Gemmaa
  * @author SMP
  * @author Toniher
  */
@@ -306,9 +307,11 @@ $messages['ca'] = array(
 	'monument-type' => 'Tipus de monument',
 	'monument-id' => 'ID del monument',
 	'province' => 'Província',
+	'comarque' => 'Comarca',
 	'competes' => 'Competeix',
 	'author' => 'Autor',
 	'upload-time' => 'Temps de pujada',
+	'deleted' => 'Suprimit ( $1 )',
 	'concursa' => 'Participa al WLM',
 	'no-concursa' => 'Fora de la competició del WLM',
 	'not-available' => 'No disponible',
@@ -318,8 +321,10 @@ $messages['ca'] = array(
 	'provide-id' => "Proporciona un ID de monument per mostrar les dades disponibles de l'element",
 	'show-images-bad-only' => 'Mostra només les imatges fora de les llistes',
 	'show-images-all' => 'Mostra totes les imatges',
+	'show-images-removed' => 'Mostra imatges eliminats de la competició',
 	'search-monuments' => 'Cerca monuments',
 	'view-frequency' => 'Monuments populars',
+	'view-ccaa' => 'Veure per comunitats autònomes',
 	'view-province' => 'Vista per província',
 	'id-label' => 'ID del monument:',
 	'id-none' => '(cap)',
@@ -328,13 +333,18 @@ $messages['ca'] = array(
 	'bic-list' => 'Llista',
 	'bic-gallery' => 'Galeria',
 	'gallery-header' => "Imatges del monument amb l'ID $1.",
+	'gallery-header-place' => 'Imatges de monuments de  $1 .',
 	'wall-of-shame-text' => 'Autors pel nombre de fotografies sense identificar',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Mostra',
 	'bic-list-all' => 'Llista completa',
 	'unregistered' => 'No registrat',
+	'users-text' => 'Aquesta pàgina Mostra els autors amb les imatges que carregava i com molts monuments',
+	'users-list' => 'Vista',
+	'distict-monuments' => 'Diferents monuments',
 	'province-heading' => 'Província',
 	'province-none' => '(Desconeguda)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** German (Deutsch)
@@ -955,6 +965,9 @@ $messages['pl'] = array(
 	'bic-list-bad' => 'Pokaż',
 	'bic-list-all' => 'Pełna lista',
 	'unregistered' => 'Niezarejestrowany',
+	'users-text' => 'Na tej stronie można zobaczyć spis fotografów, zdjęcia które wgrali oraz jak wielu zabytków',
+	'users-list' => 'Podgląd',
+	'distict-monuments' => 'Liczba zabytków',
 	'province-heading' => 'Prowincja',
 	'province-none' => '(nieznana)',
 	'ccaa-heading' => 'CC.AA.',
