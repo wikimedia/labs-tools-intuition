@@ -195,11 +195,11 @@ if ( $I18N->hasCookies() ) {
 	.	kfTag( _( 'current-language' ) . _g( 'colon-separator' ) . ' ', 'label' )
 	.	kfTag( '', 'input', array( 'value' => $I18N->getLangName(), 'readonly' => 'readonly' ) )
 	.	' ('
-	.	kfTag( _( 'clear-cookies'), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) ) ) )
+	.	kfTag( _( 'clear-cookies' ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) ) ) )
 	.	')<br />'
 	.	kfTag( _( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' ) . kfTag( '', 'input', array( 'value' => $time, 'class' => "cookie-health $class", 'readonly' => 'readonly' ) )
 	.	' ('
-	.	kfTag( _( 'renew-cookies'), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
+	.	kfTag( _( 'renew-cookies', array( 'parsemag' => true ) ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
 	.	')<br />'
 	.	$after
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
