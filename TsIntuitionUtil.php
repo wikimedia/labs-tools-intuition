@@ -123,4 +123,57 @@ class TsIntuitionUtil {
 		}
 	}
 
+	/**
+	 * Return a list of acceptable languages from an Accept-Language header
+	 * @param $rawList String List of language tags, formatted like an
+	 * HTTP Accept-Language header (optional; defaults to $_SERVER['HTTP_ACCEPT_LANGUAGE'])
+	 * @return array keyed by language codes with q-values as values.
+	 */
+	public static function getAcceptableLanguages( $rawList = false ) {
+		if ( $rawList === false ) {
+			$rawList = @$_SERVER['HTTP_ACCEPT_LANGUAGE'];
+		}
+
+		$acceptableLanguages = array();
+
+		// Accept-Language: 1#( language-range [ ";" "q" "=" qvalue ] )
+		// Example: "nl-be,nl;q=0.7,en-us,en;q=0.3"
+		// The list of elements is separated by comma and optional LWS
+		$languages = explode( ',', $rawList );
+		foreach ( $languages as $language ) {
+			$language = trim( $language ); // Remove optional LWS
+
+			// Extract the language-range and, if present, the q-value
+			if ( !preg_match( '/^([A-Za-z]{1,8}(?:-[A-Za-z]{1,8})*|\*)(?:\s*;\s*q\s*=\s*([01](?:\.[0-9]{0,3})?))?$/', $language, $m )
+			) {
+				continue;
+			}
+
+			/**
+			 * $m is now an array with either two or three values:
+			 * - array( 'lang-code', 'lang-code' )
+			 * - array( 'lang-code;q=val', 'lang-code', 'val' )
+			 */
+
+			// We are not interested in the first value.
+			array_shift( $m );
+
+			// Default to 1 as q-val
+			// @FIXME: In case "nl-be,nl;q=0.7,en-us,en;q=0.3", "en" gets defaulted to '1',
+			// it should default to the next q-val (0.3 in this case)
+			if ( !isset( $m[1] ) ) {
+				$m[1] = '1';
+			}
+
+			list( $langCode, $qVal ) = $m;
+
+			$acceptableLanguages[$langCode] = $qVal;
+		}
+
+		// Sort by q value in descending order
+		arsort( $acceptableLanguages, SORT_NUMERIC );
+
+		return $acceptableLanguages;
+	}
+
 }

@@ -50,6 +50,22 @@ var_dump(
 
 );
 
+// GetAcceptableLanguages
+echo "<br />getAcceptableLanguages: (default: \$_SERVER['HTTP_ACCEPT_LANGUAGE']: {$_SERVER['HTTP_ACCEPT_LANGUAGE']}):<br />";
+var_dump(
+
+	TsIntuitionUtil::getAcceptableLanguages( @$_SERVER['HTTP_ACCEPT_LANGUAGE'] )
+
+);
+
+$acceptLang = 'nl-be,nl;q=0.7,en-us,en;q=0.3';
+echo "<br />getAcceptableLanguages: ( '{$acceptLang}' ):<br />";
+var_dump(
+
+	TsIntuitionUtil::getAcceptableLanguages( $acceptLang )
+
+);
+
 
 /* View source */
 view_source( __FILE__ );

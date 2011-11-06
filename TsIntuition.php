@@ -1217,42 +1217,6 @@ class TsIntuition {
 	}
 
 	/**
-	 * Return a list of acceptable languages from an Accept-Language header
-	 * @param $acceptLanguage String List of language tags, as given in 
-	 * http Accept-Language header (omit to fetch from $_SERVER['HTTP_ACCEPT_LANGUAGE'])
-	 * @return array sorted with the candidate languages as keys and q-values asvalues.
-	 */
-	static function acceptableLanguages($acceptLanguage = false) {
-		if ( $acceptLanguage === false ) {
-			$acceptLanguage = @$_SERVER['HTTP_ACCEPT_LANGUAGE'];
-		}
-		
-		$acceptableLanguages = array();
-		
-		//Accept-Language: 1#( language-range [ ";" "q" "=" qvalue ] )
-		//The list of elements is separated by comma and optional LWS
-		$languages = explode( ',', $acceptLanguage );
-		foreach ( $languages as $language ) {
-			$language = trim( $language ); // Remove optional LWS
-			
-			// Extract the language-range and q-value
-			if ( !preg_match( '/^([A-Za-z]{1,8}(?:-[A-Za-z]{1,8})*|\*)(?:\s*;\s*q\s*=\s*([01](?:\.[0-9]{0,3})?))?$/', $language, $m ) )
-				continue;
-				
-			// We are not interested in the total match.
-			array_shift( $m );
-			$m[] = 1; // Default q-value is 1
-			list( $languageRange, $qvalue ) = $m;
-				
-			$acceptableLanguages[$languageRange] = $qvalue;
-		}
-		
-		arsort( $acceptableLanguages, SORT_NUMERIC ); // This is not an stable sort, but it isn't needed
-		
-		return $acceptableLanguages;
-	}
-
-	/**
 	 * Check language choice tree in the following order:
 	 * - First: Construct override
 	 * - Second: Parameter override
@@ -1266,46 +1230,54 @@ class TsIntuition {
 	 */
 	private function initLangSelect( $option ) {
 		$set = false;
+
 		if ( isset( $option ) && !empty( $option ) ) {
 			$set = $this->setLang( $option );
 		}
+
 		if ( !$set && $this->getUseRequestParam() === true && isset( $_GET[ $this->paramNames['userlang'] ] ) ) {
 			$set = $this->setLang( $_GET[ $this->paramNames['userlang'] ] );
 		}
+
 		if ( !$set && isset( $_COOKIE[ $this->cookieNames['userlang'] ] ) ) {
 			$set = $this->setLang( $_COOKIE[ $this->cookieNames['userlang'] ] );
 		}
 
 		if ( !$set ) {
-			$acceptableLanguages = self::acceptableLanguages();
-			foreach ( $acceptableLanguages as $lang => $q ) {
-				
-				if ( $lang == '*' ) {
-					/*  We choose the first available language which is not in $acceptableLanguages
-					 * The special * range matches every tag not matched by any other range, languages 
-					 * present in $acceptableLanguages will either have a lower q-value, or be missing 
-					 * from availableLanguages.
-					 *  The order will be the one in the i18n file: en, af, ar...
+			$acceptableLanguages = TsIntuitionUtil::GetAcceptableLanguages();
+			foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
+
+				if ( $acceptLang == '*' ) {
+
+					/**
+					 * We pick the first available language which is not in $acceptableLanguages.
+					 * The special * range matches every tag not matched by any other range.
+					 * Other language codes in $acceptableLanguages will either have a lower q-value,
+					 * or be missing from availableLanguages.
+					 * The order will be the one in the i18n file: en, af, ar...
 					 */
-					 
-					 foreach ( $this->availableLanguages as $lang => $true ) {
-						 if (! isset( $acceptableLanguages[$lang] ) ) {
-							 $set = $this->setLang( $lang );
+
+					 foreach ( $this->availableLanguages as $availableLang => $true ) {
+						 if ( !isset( $acceptableLanguages[$availableLang] ) ) {
+							 $set = $this->setLang( $availableLangf );
 							 break;
 						 }
 					 }
-					 if ( $set )
+					 if ( $set ) {
 						break;
-				} elseif ( isset( $this->availableLanguages[$lang] ) ) {
-					$set = $this->setLang( $lang );
+					}
+
+				} elseif ( isset( $this->availableLanguages[$acceptLang] ) ) {
+					$set = $this->setLang( $acceptLang );
 					break;
 				}
 			}
 		}
-		
+
 		if ( !$set ) {
 			$set = $this->setLang( 'en' );
 		}
+
 		return $set;
 	}
 
