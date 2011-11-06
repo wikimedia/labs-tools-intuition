@@ -772,21 +772,22 @@ class TsIntuition {
 	 *
 	 * @return boolean
 	 */
-	public function setCookie( $name, $val, $lifetime = 2592000 /* 30 days */, $track = true ) {
+	public function setCookie( $key, $val, $lifetime = 2592000 /* 30 days */, $track = TSINT_COOKIE_TRACK ) {
 			// Validate cookie name
-			$name = $this->getCookieName( $name );
+			$name = $this->getCookieName( $key );
 			if ( !$name ) {
 				return false;
 			}
+
 			$val = strval( $val );
 			$lifetime = intval( $lifetime );
 			$expire = time() + $lifetime;
 
 			// Set a 30-day domain-wide cookie
-			setcookie( $name, $val, $expire, '/', '.toolserver.org' );
+			setcookie( $name, $val, $expire, '/' );
 
 			// In order to keep track of the expiration date, we set another cookie
-			if ( $track ) {
+			if ( $track === TSINT_COOKIE_TRACK ) {
 				$this->setExpiryTrackerCookie( $lifetime );
 			}
 
@@ -798,8 +799,8 @@ class TsIntuition {
 	 * In order to keep track of the expiration date, we set an additional cookie.
 	 */
 	private function setExpiryTrackerCookie( $lifetime ) {
-		$expire = time() + intval( $lifetime );
-		setcookie( $this->getCookieName( 'track-expire' ), $expire, $expire, '/', '.toolserver.org' );
+		$val = time() + $lifetime;
+		$this->setCookie( 'track-expire', $val, $lifetime, TSINT_COOKIE_NOTRACK );
 		return true;
 	}
 
@@ -807,8 +808,11 @@ class TsIntuition {
 	 * Renew all cookies
 	 */
 	public function renewCookies( $lifetime = 2592000 /* 30 days */ ) {
-		foreach( $this->getCookieNames() as $name ) {
-			$this->setCookie( $name, $_COOKIE[$name], $lifetime, false );
+		foreach( $this->getCookieNames() as $key => $name ) {
+			if ( $key === 'track-expire' ) {
+				continue;
+			}
+			$this->setCookie( $key, $_COOKIE[$name], $lifetime, TSINT_COOKIE_NOTRACK );
 		}
 		$this->setExpiryTrackerCookie( $lifetime );
 		return true;
@@ -821,8 +825,8 @@ class TsIntuition {
 	 */
 	public function wipeCookies() {
 		$week = 7 * 24 * 3600;
-		foreach( $this->getCookieNames() as $name ) {
-			setcookie( $name, '', time()-$week, '/', '.toolserver.org' );
+		foreach( $this->getCookieNames() as $key => $name ) {
+			$this->setCookie( $key, '', 0-$week, TSINT_COOKIE_NOTRACK );
 			unset( $_COOKIE[$name] );
 		}
 		return true;

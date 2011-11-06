@@ -148,7 +148,7 @@ if ( isset( $_GET['msg'] ) ) {
 			break;
 		case 3:
 			$Tool->addOut(
-				_( 'renewcookies-success', array( 'variables' => array( '30 ' . _g( 'days' ) ) ) ),
+				_( 'renewcookies-success', array( 'variables' => array( '30 ' . _g( 'days', array( 'parsemag' => true, 'variables' => array( 30 ) ) ) ) ) ),
 				'div',
 				array( 'class' => 'msg ns success' )
 			);
@@ -167,23 +167,27 @@ if ( $I18N->hasCookies() ) {
 	// 29+ days
 	if ( $lifetime > 29*24*3600 ) {
 		$class = 'perfect';
-		$time = floor( $lifetime/3600/24/7 ) . '+ ' . _g( 'weeks', array( 'parsemag' => true ) );
+		$number = floor( $lifetime/3600/24/7 );
+		$time = $number . '+ ' . _g( 'weeks', array( 'parsemag' => true, 'variables' => array( $number ) ) );
 
 	// 10+ days
 	} elseif ( $lifetime > 10*24*3600 ) {
 		$class = 'good';
-		$time = floor( $lifetime/3600/24 ) . '+ ' . _g( 'days', array( 'parsemag' => true ) );
+		$number = floor( $lifetime/3600/24 );
+		$time = $number . '+ ' . _g( 'days', array( 'parsemag' => true, 'variables' => array( $number ) ) );
 
 	// 1+ day
 	} elseif ( $lifetime > 24*3600 ) {
 		$class = 'bad';
-		$time = floor( $lifetime/3600/24 ) . '+ ' . _g( 'days', array( 'parsemag' => true ) );
+		$number = floor( $lifetime/3600/24 );
+		$time = $number . '+ ' . _g( 'days', array( 'parsemag' => true, 'variables' => array( $number ) ) );
 		$after = $renew;
 
 	// Less than a day
 	} else {
 		$class = 'worst';
-		$time = '<' . ceil( $lifetime/3600 ) . ' ' . _g( 'hours', array( 'parsemag' => true ) );
+		$number = ceil( $lifetime/3600 );
+		$time = '<' . $number . '+ ' . _g( 'hours', array( 'parsemag' => true, 'variables' => array( $number ) ) );
 		$after = $renew;
 
 	}
@@ -204,7 +208,7 @@ if ( $I18N->hasCookies() ) {
 	.	$after
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
 	);
-	$toolSettings['tabs']['#tab-currentsettings'] = _('tab-overview');
+	$toolSettings['tabs']['#tab-currentsettings'] = _( 'tab-overview' );
 
 
 }

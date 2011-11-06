@@ -13,3 +13,6 @@
 define( 'TSINT_HELP_ALL', true );
 define( 'TSINT_HELP_NONE', false );
 define( 'TSINT_HELP_CURRENT', null );
+
+define( 'TSINT_COOKIE_TRACK', true );
+define( 'TSINT_COOKIE_NOTRACK', true );
