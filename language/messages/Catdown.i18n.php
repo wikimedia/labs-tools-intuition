@@ -229,6 +229,7 @@ pe melezourioù GNU all, sellit ouzh
 /** Catalan (Català)
  * @author Gemmaa
  */
+/*
 $messages['ca'] = array(
 	'title' => 'Descàrrega de les imatges per categoria',
 	'subtitle' => 'La manera fàcil de descarregar les imatges en una categoria',
@@ -274,7 +275,7 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
 	'scaling-height' => ', reduït a una alçada màxima de  $1  {{plural: $1 |pixel|pixels}}',
 	'scaling-both' => ', reduït a una mida màxima de  $1 x $2  píxels',
 );
-
+*/
 /** Danish (Dansk)
  * @author Tjernobyl
  */
