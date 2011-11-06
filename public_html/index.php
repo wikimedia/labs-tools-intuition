@@ -167,23 +167,23 @@ if ( $I18N->hasCookies() ) {
 	// 29+ days
 	if ( $lifetime > 29*24*3600 ) {
 		$class = 'perfect';
-		$time = floor( $lifetime/3600/24/7 ) . '+ ' . _g('weeks');
+		$time = floor( $lifetime/3600/24/7 ) . '+ ' . _g( 'weeks', array( 'parsemag' => true ) );
 
 	// 10+ days
 	} elseif ( $lifetime > 10*24*3600 ) {
 		$class = 'good';
-		$time = floor( $lifetime/3600/24 ) . '+ ' . _g('days');
+		$time = floor( $lifetime/3600/24 ) . '+ ' . _g( 'days', array( 'parsemag' => true ) );
 
 	// 1+ day
 	} elseif ( $lifetime > 24*3600 ) {
 		$class = 'bad';
-		$time = floor( $lifetime/3600/24 ) . '+ ' . _g('days');
+		$time = floor( $lifetime/3600/24 ) . '+ ' . _g( 'days', array( 'parsemag' => true ) );
 		$after = $renew;
 
 	// Less than a day
 	} else {
 		$class = 'worst';
-		$time = '<' . ceil( $lifetime/3600 ) . ' ' . _g('hours');
+		$time = '<' . ceil( $lifetime/3600 ) . ' ' . _g( 'hours', array( 'parsemag' => true ) );
 		$after = $renew;
 
 	}
@@ -199,7 +199,7 @@ if ( $I18N->hasCookies() ) {
 	.	')<br />'
 	.	kfTag( _( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' ) . kfTag( '', 'input', array( 'value' => $time, 'class' => "cookie-health $class", 'readonly' => 'readonly' ) )
 	.	' ('
-	.	kfTag( _( 'renew-cookies', array( 'parsemag' => true ) ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
+	.	kfTag( _( 'renew-cookies' ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
 	.	')<br />'
 	.	$after
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
