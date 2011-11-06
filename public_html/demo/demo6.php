@@ -68,5 +68,4 @@ var_dump(
 
 
 /* View source */
-view_source( __FILE__ );
-close_demo();
+close_demo( __FILE__ );

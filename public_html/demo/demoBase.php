@@ -1,5 +1,5 @@
 <?php
-error_reporting(E_ALL); ini_set('display_errors', 1);
+error_reporting( E_ALL ); ini_set( 'display_errors', 1 ); date_default_timezone_set( 'UTC' );
 
 /* Load Toolserver Intuition from the main directory */
 require_once( dirname(dirname( __DIR__ )) . '/ToolStart.php' );
@@ -71,7 +71,9 @@ foreach ( $demoRegistry as $demoFilename => $descr ) {
 	$descr = htmlspecialchars( $descr );
 	echo "<li><a href=\"$demoFilename.php\" title=\"$descr\">$demoFilename</a><br /><small>$descr</small></li>";
 }
-echo "</ul>$outputHead";
+echo '</ul>';
+echo $outputHead;
+echo '<div style="white-space: pre;">';
 
 
 // Output source-heading and source code
@@ -83,11 +85,13 @@ function view_source( $file ) {
 }
 
 // End of track
-function close_demo(){
+function close_demo( $file ) {
+	echo '</div>';
+	view_source( $file );
 	echo '</body></html>';
 }
 
 // Make this file viewable as well
 if( $thisFile == 'demoBase' ){
-	view_source( __FILE__ );
+	close_demo( __FILE__ );
 }

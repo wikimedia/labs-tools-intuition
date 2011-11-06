@@ -37,5 +37,4 @@ echo '<br />' . $I18N->msg( 'basket', array( 'variables' => array( '7' ), 'parse
 
 
 /* View source */
-view_source( __FILE__ );
-close_demo();
+close_demo( __FILE__ );

@@ -18,5 +18,4 @@ echo $I18N->msg( 'r4nd0mstr1n9' );
 
 
 /* View source */
-view_source( __FILE__ );
-close_demo();
+close_demo( __FILE__ );

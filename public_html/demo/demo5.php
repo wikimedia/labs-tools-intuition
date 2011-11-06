@@ -13,5 +13,4 @@ echo $I18N->getFooterLine( TSINT_HELP_NONE );
 echo $I18N->getFooterLine( TSINT_HELP_ALL );
 
 /* View source */
-view_source( __FILE__ );
-close_demo();
+close_demo( __FILE__ );

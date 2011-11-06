@@ -18,5 +18,4 @@ echo '<br />' . $I18N->getLangName( 'fr' );
 
 
 /* View source */
-view_source( __FILE__ );
-close_demo();
+close_demo( __FILE__ );
