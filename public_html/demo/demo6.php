@@ -51,7 +51,7 @@ var_dump(
 );
 
 // GetAcceptableLanguages
-echo "<br />getAcceptableLanguages: (default: \$_SERVER['HTTP_ACCEPT_LANGUAGE']: {$_SERVER['HTTP_ACCEPT_LANGUAGE']}):<br />";
+echo "<br />getAcceptableLanguages: (default: \$_SERVER['HTTP_ACCEPT_LANGUAGE']: ", htmlspecialchars( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ), "):<br />";
 var_dump(
 
 	TsIntuitionUtil::getAcceptableLanguages( @$_SERVER['HTTP_ACCEPT_LANGUAGE'] )
