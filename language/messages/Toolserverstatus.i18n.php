@@ -53,6 +53,26 @@ $messages['qqq'] = array(
 	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)",
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'toolserver-status-ok' => 'Nun hai problema dalu nel piñu de la base de datos $1 $2',
+	'toolserver-status-info' => 'Nota pa los usuarios del piñu $1: $2',
+	'toolserver-status-warn' => 'Avisu pa los usuarios del piñu $1: $2',
+	'toolserver-status-down' => 'El piñu de la base de datos $1 ta apagáu temporalmente.  $2',
+	'toolserver-status-erro' => 'El piñu de la base de datos $1 ta caíu. $2',
+	'toolserver-status-unknown' => 'Estáu desconocíu del piñu $1',
+	'toolserver-status-missing' => 'El piñu "$1" nun esiste',
+	'toolserver-status-short-ok' => '$1: Correutu',
+	'toolserver-status-short-info' => '$1: Información',
+	'toolserver-status-short-warn' => '$1: Avisu',
+	'toolserver-status-short-down' => '$1: Apagáu',
+	'toolserver-status-short-erro' => '$1: Error',
+	'toolserver-status-short-unknown' => '$1: Desconocíu',
+	'toolserver-status-short-missing' => '$1: Inesistente',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by

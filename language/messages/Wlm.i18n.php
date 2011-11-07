@@ -166,9 +166,11 @@ $messages['ast'] = array(
 	'monument-type' => 'Triba de monumentu',
 	'monument-id' => 'Id. del monumentu',
 	'province' => 'Provincia',
+	'comarque' => 'Comarca',
 	'competes' => 'Competición',
 	'author' => 'Autor',
 	'upload-time' => 'Data de carga',
+	'deleted' => 'Desaniciada ($1)',
 	'concursa' => 'Participa en WLM',
 	'no-concursa' => 'Nun compite en WLM',
 	'not-available' => 'Non disponible',
@@ -178,8 +180,10 @@ $messages['ast'] = array(
 	'provide-id' => "Da l'identificador d'un monumentu p'amosar los datos disponibles d'esi elementu",
 	'show-images-bad-only' => 'Amosar sólo les imaxes fuera de les llistes',
 	'show-images-all' => 'Amosar toles imaxes',
+	'show-images-removed' => 'Amosar les imaxes retiraes de la competición',
 	'search-monuments' => 'Guetar monumentos',
 	'view-frequency' => 'Monumentos populares',
+	'view-ccaa' => 'Ver por comunidaes autónomes',
 	'view-province' => 'Ver por provincies',
 	'id-label' => 'Id. del monumentu:',
 	'id-none' => '(Nengún)',
@@ -188,13 +192,18 @@ $messages['ast'] = array(
 	'bic-list' => 'Llista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imaxes del monumentu con identificador $1.',
+	'gallery-header-place' => 'Imaxes de los monumentos de $1.',
 	'wall-of-shame-text' => 'Autores por númberu de semeyes ensin identificar',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Amosar',
 	'bic-list-all' => 'Llista completa',
 	'unregistered' => 'Ensin rexistrar',
+	'users-text' => 'Esta páxina amuesa los autores, coles imaxes que xubieron y de cuantos monumentos',
+	'users-list' => 'Ver',
+	'distict-monuments' => 'Monumentos distintos',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocíu)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -557,6 +566,7 @@ $messages['gl'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author YaronSh
  */
 $messages['he'] = array(
 	'title' => 'קובצי WLM',
@@ -576,8 +586,10 @@ $messages['he'] = array(
 	'provide-id' => 'נא להזין מזהה אתר כדי להציג את הנתונים הזמינים לפריט הזה',
 	'show-images-bad-only' => 'להציג רק תמונות מחוץ לרשימות',
 	'show-images-all' => 'להציג את כל התמונות',
+	'show-images-removed' => 'הצגת תמונות שהוסרו מהתחרות',
 	'search-monuments' => 'לחפש אתרים',
 	'view-frequency' => 'אתרים פופולריים',
+	'view-ccaa' => 'צפייה לפי קהילה אוטונומית',
 	'view-province' => 'להציג לפי מחוז',
 	'id-label' => 'מזהה אתר:',
 	'id-none' => '(אין)',
@@ -586,11 +598,15 @@ $messages['he'] = array(
 	'bic-list' => 'רשימה',
 	'bic-gallery' => 'גלריה',
 	'gallery-header' => 'תמונות עבור האתר עם המזהה $1.',
+	'gallery-header-place' => 'תמונות עבור אנדרטאות שצולמו על ידי $1.',
 	'wall-of-shame-text' => 'יוצרים לפי מספר הצילומים הלא־מזוהים',
 	'author-heading' => 'יוצר',
 	'bic-list-bad' => 'הצגה',
 	'bic-list-all' => 'רשימה מלאה',
 	'unregistered' => 'לא רשום',
+	'users-text' => 'דף זה מציג ליוצרי התמונות את התמונות שהעלו וכמה אנדרטאות',
+	'users-list' => 'הצגה',
+	'distict-monuments' => 'אנדרטאות ייחודיות',
 	'province-heading' => 'מחוז',
 	'province-none' => '(אינו ידוע)',
 );
@@ -971,6 +987,45 @@ $messages['pl'] = array(
 	'province-heading' => 'Prowincja',
 	'province-none' => '(nieznana)',
 	'ccaa-heading' => 'CC.AA.',
+);
+
+/** Romanian (Română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'title' => 'Fișiere WLM',
+	'file' => 'Imagine',
+	'monument-type' => 'Tip monument',
+	'monument-id' => 'ID monument',
+	'province' => 'Provincie',
+	'comarque' => 'Comarcă',
+	'author' => 'Autor',
+	'upload-time' => 'Ora încărcării',
+	'deleted' => 'Ștearsă ($1)',
+	'not-available' => 'Nu este disponibilă',
+	'date-unknown' => 'Necunoscut',
+	'total-images' => 'Total imagini: $1',
+	'view-uncategorized-images' => 'Vezi imaginile necategorizate',
+	'provide-id' => 'Furnizați un ID de monument pentru a vizualiza informațiile disponibile pentru acel element',
+	'show-images-bad-only' => 'Arată doar imaginile din afara listelor',
+	'show-images-all' => 'Arată toate imaginile',
+	'show-images-removed' => 'Arată imagini eliminate din concurs',
+	'search-monuments' => 'Căutare monumente',
+	'view-frequency' => 'Monumente populare',
+	'id-label' => 'ID monument:',
+	'id-none' => '(Niciunul)',
+	'monument-heading' => 'Monument',
+	'count-heading' => 'Fotografii',
+	'bic-list' => 'Listă',
+	'bic-gallery' => 'Galerie',
+	'gallery-header' => 'Imagini pentru monumentul cu ID-ul $1.',
+	'gallery-header-place' => 'Imagini pentru monumentele din $1.',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Arată',
+	'bic-list-all' => 'Lista completă',
+	'distict-monuments' => 'Monumente distincte',
+	'province-heading' => 'Provincie',
+	'province-none' => '(Necunoscută)',
 );
 
 /** Slovenian (Slovenščina)

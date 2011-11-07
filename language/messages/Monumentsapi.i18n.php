@@ -475,9 +475,13 @@ $messages['pt-br'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
+	'search-title' => 'Căutare monumente',
+	'search-monuments-database' => 'Căutare în baza de date a monumentelor',
 	'search-table-th-field' => 'Câmp',
 	'search-table-th-filter' => 'Filtru',
 	'search-table-th-search' => 'Caută',
+	'filter-all-countries' => 'Toate țările',
+	'filter-all-languages' => 'Toate limbile',
 );
 
 /** Tarandíne (Tarandíne)

@@ -69,6 +69,7 @@ or some other GNU Mirror, see
 
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
+ * @author Platonides
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -96,13 +97,13 @@ Parameters: $1: Name of the image',
 * $2: Estimated size of all the files in the system (in which unit?)',
 	'download' => 'Big link to download the zip.
 {{Identical|Download}}',
-	'readme-contents' => "Contents of the README file.
+	'readme-contents' => "Contents of the README file. The result will be shown to the user as plain text (there's no wikitext parsing).
 * $1: Category name
 * $2: Category URL
-* $3 Result of scaling restrictions (one of scaling-none, scaling-width, scaling-height, scaling-both messages)
+* $3: Result of scaling restrictions (one of scaling-none, scaling-width, scaling-height, scaling-both messages). To keep the sentence meaningful, you probably not want to place a space before this. Remember to translate scaling-width, scaling-height, scaling-both, or the users may face with half sentence in another language.
 * $4: Filename of the list.
 * $5 Name of the .bat script to run (script-filename msg)
-* $6: Note if wget for Windows was not bundled (contents of non-bundled-wget message if \\'Bundle wget\\' was not checked)",
+* $6: Note if wget for Windows was not bundled (contents of non-bundled-wget message if 'Bundle wget' was not checked)",
 	'non-bundled-wget' => "Message added to the readme noting that the script won't work in Windows without a wget.exe (it is usually installed in other OS)",
 	'wget-info' => 'Text appended to the readme explaining the rights you have on the wget binary.
 $1: Version of wget
@@ -127,6 +128,23 @@ $messages['tly'] = array(
 	'title' => 'Шикилон бо жәј бә категоријон',
 	'category' => 'Категоријә:',
 	'download' => 'Бо жәј',
+);
+
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'title' => "Descarga d'imaxes por categoría",
+	'subtitle' => "La manera fácil de descargar les imaxes d'una categoría",
+	'project' => 'Proyeutu:',
+	'category' => 'Categoría:',
+	'thumbnailing' => 'Miniatures',
+	'max-width' => 'Anchor máximu:',
+	'max-height' => 'Altor máximu:',
+	'invalid-width' => 'Anchor inválidu',
+	'invalid-height' => 'Altor inválidu',
+	'no-such-project' => 'Esi proyeutu nun esiste',
+	'no-images' => 'Nun hai imaxes nesa categoría',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -228,8 +246,8 @@ pe melezourioù GNU all, sellit ouzh
 
 /** Catalan (Català)
  * @author Gemmaa
+ * @author Tjernobyl
  */
-/*
 $messages['ca'] = array(
 	'title' => 'Descàrrega de les imatges per categoria',
 	'subtitle' => 'La manera fàcil de descarregar les imatges en una categoria',
@@ -275,7 +293,7 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
 	'scaling-height' => ', reduït a una alçada màxima de  $1  {{plural: $1 |pixel|pixels}}',
 	'scaling-both' => ', reduït a una mida màxima de  $1 x $2  píxels',
 );
-*/
+
 /** Danish (Dansk)
  * @author Tjernobyl
  */
@@ -356,6 +374,15 @@ $messages['fa'] = array(
 	'project' => 'پروژه:',
 	'category' => 'رده:',
 	'no-such-project' => 'چنین پروژه‌ای وجود ندارد',
+);
+
+/** Faroese (Føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'title' => 'Download av myndum eftir bólki',
+	'project' => 'Verkætlan:',
+	'category' => 'Bólkur:',
 );
 
 /** French (Français)
@@ -451,6 +478,54 @@ ou nestoutro espello de GNU
 	'scaling-width' => ', escaladas a un ancho máximo de $1 {{plural:$1|píxel|píxeles}}',
 	'scaling-height' => ', escaladas a unha altura máxima de $1 {{plural:$1|píxel|píxeles}}',
 	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
+);
+
+/** Hebrew (עברית)
+ * @author YaronSh
+ */
+$messages['he'] = array(
+	'title' => 'הורדת תמונות לפי קטגוריה',
+	'subtitle' => 'הדרך הקלה להוריד תמונות מקטגוריה מסוימת',
+	'project' => 'מיזם:',
+	'category' => 'קטגוריה:',
+	'thumbnailing' => 'מזעור תמונות',
+	'max-width' => 'הרוחב המרבי:',
+	'max-height' => 'הגובה המרבי:',
+	'invalid-width' => 'רוחב שגוי',
+	'invalid-height' => 'גובה שגוי',
+	'no-such-project' => 'אין מיזם כזה',
+	'no-images' => 'אין תמונות בקטגוריה זו',
+	'category-is-url' => 'הקטגוריה שצוינה נראית כמו כתובת. עליך לציין את שם הקטגוריה, לא את הכתובת שלה.',
+	'category-contains-namespace' => 'מסתבר כי הכללת את שם המרחב בשם הקטגוריה. עקב השם שציינת, הדף יהיה זמין כ־[[Category:$1]].',
+	'zip-failed' => 'יצירת קובץ ה־Zip נכשלה',
+	'image-area-too-big' => 'התמונה $1 גדולה מכדי ליצור עבורה תמונה ממוזערת. ייעשה שימוש בגודלה המלא.',
+	'download-info' => '{{plural: $1|יש תמונה אחת|יש $1 תמונות}}, בעלות נפח משוערך של $2',
+	'download' => 'הורדה',
+	'readme-contents' => 'קובץ הגימור $4 מציג
+את התמונות בקטגוריה $1 ( $2 )$3.
+
+== הנחיות להורדת כל התמונות המוצגות ==
+זמן ההורדה עלול לנוע בין דקות ספורות למספר שעות.
+
+Windows:
+ יש לחלץ את כל הקבצים לאותה התיקייה ולהריץ $5
+ $6
+לינוקס/Mac OS
+ יש לחלץ את כל הקבצים ולפתוח את המסוף באותה התיקייה. להריץ את הפקודה sh $5',
+	'non-bundled-wget' => 'הערה: גרסה זו אינה כוללת את wget לסביבת Windows. יהיה עליך לחלץ לתיקייה שיש בה כבר את wget.exe או שבמשתנה הסביבתי PATH שלך תהיה הכוונה למיקום של wget',
+	'wget-info' => 'קובץ זה מאגד בתוכו את wget $1 (לסביבת Windows).‏ Wget הנה תכנה חופשית, 
+תחת תנאי הרישיון הציבורי הכללי של GNU GENERAL PUBLIC LICENSE בגרסה 3.
+יש עותק של הרישיון להלן, והוא גם זמין בכתובת http://www.gnu.org/licenses/gpl-3.0.txt
+
+במקרה שחשקה נפשך בהורדת קוד המקור של תכנית זו, ניתן להוריד אותו מהכתובות הבאות
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+או מכל אתר מראה אחר של GNU, לרשימה ניתן לבקר בכתובת הבאה
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', בהגדלה לרוחב מרבי של {{plural:$1|פיקסל אחד|$1 פיקסלים}}',
+	'scaling-height' => ', בהגדלה לגובה מרבי של {{plural:$1|פיקסל אחד|$1 פיקסלים}}',
+	'scaling-both' => ', בהגדלה לגודל מרבי של $1x$2 פיקסלים',
 );
 
 /** Interlingua (Interlingua)
@@ -763,6 +838,27 @@ lub niektórych innych mirrorów GNU, zobacz
 	'scaling-both' => ', przeskalowanych do maksymalnego rozmiaru $1x$2 pikseli',
 );
 
+/** Romanian (Română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'title' => 'Descărcare de imagini după categorie',
+	'subtitle' => 'Calea ușoară de a descărca imaginile dintr-o categorie',
+	'project' => 'Proiect:',
+	'category' => 'Categorie:',
+	'max-width' => 'Lățime maximă:',
+	'max-height' => 'Înălțime maximă:',
+	'invalid-width' => 'Lățime incorectă',
+	'invalid-height' => 'Înălțime incorectă',
+	'no-such-project' => 'Nu există nici un astfel de proiect',
+	'no-images' => 'Nu există imagini în acea categorie',
+	'category-is-url' => 'Numele categoriei introduse arată ca un URL. Trebuie să specificați numele categoriei, nu adresa sa URL.',
+	'zip-failed' => 'Crearea arhivei a eșuat',
+	'image-area-too-big' => '$1 este prea mare pentru a i se crea o miniatură. Se va utiliza dimensiunea completă.',
+	'download-info' => '{{plural: $1|Există o imagine|Există $1 imagini||Există $1 de imagini}} cu o dimensiune estimată la $2',
+	'download' => 'Descărcare',
+);
+
 /** Tarandíne (Tarandíne)
  * @author Joetaras
  */
@@ -832,6 +928,7 @@ $messages['tr'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
+ * @author Platonides
  */
 $messages['vi'] = array(
 	'title' => 'Tải về hình ảnh theo thể loại',
@@ -858,10 +955,10 @@ các hình ảnh trong thể loại $1 ( $2 )$3.
 Có thể cần vài phút đến vào tiếng để tải về xong.
 
 Windows:
-:Giải nén tất cả các tập tin vào cùng thư mục và chạy <code>$5</code>
-:$6
+  Giải nén tất cả các tập tin vào cùng thư mục và chạy $5
+  $6
 Linux và Mac OS:
-:Giải nén tất cả các tập tin vào cùng thư mục và chỉ dòng lệnh đến thư mục đó. Chạy <code>sh $5</code>',
+  Giải nén tất cả các tập tin vào cùng thư mục và chỉ dòng lệnh đến thư mục đó. Chạy sh $5',
 	'non-bundled-wget' => 'Lưu ý: Phiên bản này không bao gồm wget cho Windows. Bạn sẽ cần phải giải nén các tập tin vào một thư mục có wget.exe hoặc có biến PATH chỉ đến wget.',
 	'wget-info' => 'Tập tin này kèm theo wget $1 (dành cho nền Windows). Wget là Phần mềm Tự do,
 theo các điều khoản của GIẤY PHÉP CÔNG CỘNG GNU phiên bản 3.
@@ -876,5 +973,40 @@ hoặc một Kho phần mềm GNU khác; xem
 	'scaling-width' => ', được chỉnh lại theo chiều rộng tối đa là $1 điểm ảnh',
 	'scaling-height' => ', được chỉnh lại theo chiều cao tối đa là $1 điểm ảnh',
 	'scaling-both' => ', được chỉnh lại theo kích cỡ tối đa là $1 × $2 điểm ảnh',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Mys 721tx
+ */
+$messages['zh-hans'] = array(
+	'title' => '按照分类下载图片',
+	'subtitle' => '从一个分类中下载图片的简单方式',
+	'project' => '项目',
+	'category' => '分类：',
+	'thumbnailing' => '缩小图片',
+	'max-width' => '最大宽度：',
+	'max-height' => '最大高度：',
+	'invalid-width' => '无效宽度',
+	'invalid-height' => '无效高度',
+	'no-such-project' => '此项目不存在',
+	'no-images' => '该分类中没有图片',
+	'category-is-url' => '所填写分类名称似乎是一个URL，您需要指明分类名称而不是其URL',
+	'category-contains-namespace' => '您似乎在分类名称中包含了名字空间。使用此名称时页面将会显示为[[Category:$1]]',
+	'zip-failed' => 'Zip创建失败',
+	'image-area-too-big' => '$1 对于缩略图过大，使用其实际大小。',
+	'download-info' => '此处有{{plural: $1|一张|$1张}}大小为$2的图片',
+	'download' => '下载',
+	'readme-contents' => '文件$4包括下列内容：
+分类$1<$2>$3中的图片。
+
+==下载所有列出图片指南 ==
+
+下载过程可能消耗几分钟至若干小时时间。
+
+Windows:
+将所有文件解压缩至相同文件夹，并运行$5
+ $6
+Linux/Mac OS
+解压所有文件，并在终端中运行 sh $5',
 );
 

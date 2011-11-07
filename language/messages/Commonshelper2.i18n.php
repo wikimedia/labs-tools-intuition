@@ -2475,6 +2475,7 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Mys 721tx
  */
 $messages['zh-hans'] = array(
 	'attention' => '关注',
@@ -2492,8 +2493,10 @@ $messages['zh-hans'] = array(
 	'tusc_user' => 'TUSC 用户名',
 	'tusc_pass' => 'TUSC 密码',
 	'do_it' => '做吧',
-	'error_transfer_usr' => '您没有设置一个维基共享资源的用户名',
-	'error_not_exists' => '源代码文件不存在！',
+	'error_transfer_usr' => '您未输入您的维基共享资源用户名',
+	'error_not_exists' => '源文件不存在！',
+	'error_on_commons' => '原文件已存在于 $1 ！',
+	'error_file_exists' => '文件已经在$3上存在，文件名为$1$4$2',
 	'error_diff_exists' => '根据同名的目标维基上存在不同的目标文件！',
 	'original_wikitext' => '原始维基文本',
 	'new_wikitext' => '新的维基文本',
@@ -2504,9 +2507,12 @@ $messages['zh-hans'] = array(
 	'error_bot_blocked' => '上传机器维基共享资源上被阻止。',
 	'error_upload_meta' => '不能直接上载，因为有的元数据的问题（见上文）！',
 	'error_tusc_failed' => 'TUSC 验证失败！',
-	'error_only_commons' => '直接上载作品只在维基共享资源！',
-	'error_commons_user' => '要传输的用户的标识，您维基共享资源的用户名必须是描述中！',
-	'error_upload_file' => '原始文件不能进行下载。',
+	'error_only_commons' => '只能在维基共享资源直接上传作品！',
+	'upload_control_text' => '请检查新的wiki代码，如无问题请点击 $1。',
+	'error_commons_user' => '为识别传输用户的身份，描述中必须包括您的维基共享资源用户名！',
+	'error_upload_users' => '测试期间仅有部分用户可以使用上传功能！',
+	'error_upload_file' => '无法下载原始文件。',
+	'help_intro' => '当您希望报告bug、提议增加新功能或咨询问题时，您可以使用下列联系方式中的一种。',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
