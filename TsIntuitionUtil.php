@@ -159,8 +159,6 @@ class TsIntuitionUtil {
 			array_shift( $m );
 
 			// Default to 1 as q-val
-			// @FIXME: In case "nl-be,nl;q=0.7,en-us,en;q=0.3", "en" gets defaulted to '1',
-			// it should default to the next q-val (0.3 in this case)
 			if ( !isset( $m[1] ) ) {
 				$m[1] = '1';
 			}
