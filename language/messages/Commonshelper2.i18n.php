@@ -2401,12 +2401,15 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'attention' => 'Dikkat',
+	'description' => "Wikimedia projelerinden Wikimedia Commons'a dosya taşımada kolaylık sağlayan bir araç",
 	'language' => 'Dil',
 	'project' => 'Proje',
 	'source_file' => 'Kaynak dosya',
 	'target_file' => 'Hedef dosya',
 	'commons_username' => 'Wikimedia Commons kullanıcı adı',
 	'categories' => 'Kategoriler',
+	'tusc_user' => 'TUSC kullanıcı adı',
+	'tusc_pass' => 'TUSC şifresi',
 	'help_mail' => '$1 adresine bir e-posta gönderin.',
 );
 
