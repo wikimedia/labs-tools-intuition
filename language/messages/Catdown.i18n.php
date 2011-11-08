@@ -246,7 +246,6 @@ pe melezourioù GNU all, sellit ouzh
 
 /** Catalan (Català)
  * @author Gemmaa
- * @author Tjernobyl
  */
 $messages['ca'] = array(
 	'title' => 'Descàrrega de les imatges per categoria',
