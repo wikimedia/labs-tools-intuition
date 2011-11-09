@@ -470,6 +470,14 @@ $messages['os'] = array(
 	'language-label' => 'Æвзаг',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'language-label' => 'Schprooch',
+	'namespace-label' => 'Blatznaame',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  */

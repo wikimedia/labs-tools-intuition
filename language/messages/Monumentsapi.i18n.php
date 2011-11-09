@@ -430,6 +430,13 @@ $messages['no'] = array(
 	'search-table-th-search' => 'Søk',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'filter-all-languages' => 'Alle Schprooche',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  */

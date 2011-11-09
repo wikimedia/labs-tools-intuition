@@ -946,10 +946,10 @@ $messages['pdc'] = array(
 	'hello' => 'Heiya',
 	'welcome' => 'Wilkum',
 	'namespace' => 'Blatznaame',
-	'years' => 'Yaahre',
-	'weeks' => 'Woche',
-	'days' => 'Daage',
-	'hours' => 'Schtunde',
+	'years' => '{{PLURAL: $1|Yaahr|Yaahre}}',
+	'weeks' => '{{PLURAL: $1|Woch|Woche}}',
+	'days' => '{{PLURAL: $1|Daag|Daag}}',
+	'hours' => '{{PLURAL:$1|Schtund|Schtund}}',
 );
 
 /** Polish (Polski)

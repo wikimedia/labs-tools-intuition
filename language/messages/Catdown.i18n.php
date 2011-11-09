@@ -789,6 +789,14 @@ of een andere GNU-mirror, zie
 	'scaling-both' => ', geschaald naar een maximale afmeting van $1 x $2 pixels',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'project' => 'Projekt:',
+	'category' => 'Abdeeling:',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  */
@@ -895,8 +903,79 @@ $messages['sr-ec'] = array(
 	'image-area-too-big' => 'Слика $1 је превелика да би могла да се минијатуризира. Користићу пуну величину.',
 	'download-info' => '{{plural: $1|Постоји једна слика|Постоје $1 слике|Постоји $1 слика}}, с просечном величином од $2',
 	'download' => 'Преузми',
+	'readme-contents' => 'У датотеци $4 налазе се слике из категорије $1 ($2) $3.
+
+== Упутства за преузимање свих наведених слика ==
+Преузимање може потрајати од неколико минута до неколико часова.
+
+Виндоус:
+ Отпакујте све датотеке у исту фасциклу и покрените $5
+ $6
+Линукс/Мак ОС
+Отпакујте све датотеке и отворите терминал у тој фасцикли. Покрените sh $5',
 	'non-bundled-wget' => 'Напомена: ово издање не садржи wget за виндоус. Треба да отпакујете
 у фасциклу са wget.exe или да већ имате wget у путањи',
+	'wget-info' => 'Датотека садржи примерак wget-а $1 (виндоус). Wget је слободан програм 
+који је објављен под условима ГНУ-ОВЕ ОПШТЕ ЈАВНЕ ЛИЦЕНЦЕ 3.
+Испод се налази примерак лиценце (доступан је и на http://www.gnu.org/licenses/gpl-3.0.txt)
+
+Ако сте заинтересовани за изворни код програма, преузмите га са
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+или користите друге резервне везе:
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', с изменом размере до највеће ширине од $1 {{plural:$1|пиксел|пиксела|пиксела}}',
+	'scaling-height' => ', с изменом размере до највеће висине од $1 {{plural:$1|пиксел|пиксела|пиксела}}',
+	'scaling-both' => ', с изменом размере до највеће величине од $1 × $2 пиксела',
+);
+
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'title' => 'Preuzimanje slika po kategoriji',
+	'subtitle' => 'Jednostavan način da preuzmete slike u nekoj kategoriji',
+	'project' => 'Projekat:',
+	'category' => 'Kategorija:',
+	'thumbnailing' => 'Minijaturizacija',
+	'max-width' => 'Najveća širina:',
+	'max-height' => 'Najveća visina:',
+	'invalid-width' => 'Neispravna širina',
+	'invalid-height' => 'Neispravna visina',
+	'no-such-project' => 'Nema takvog projekta',
+	'no-images' => 'U toj kategoriji nema slika',
+	'category-is-url' => 'Navedeni naziv liči na adresu. Treba da unesete naziv kategorije, a ne njegovu adresu.',
+	'category-contains-namespace' => 'Izgleda da ste naveli imenski prostor zajedno s nazivom kategorije. Sa zadatim nazivom, stranica će biti dostupna kao [[Category:$1]].',
+	'zip-failed' => 'Ne mogu da napravim arhivu',
+	'image-area-too-big' => 'Slika $1 je prevelika da bi mogla da se minijaturizira. Koristiću punu veličinu.',
+	'download-info' => '{{plural: $1|Postoji jedna slika|Postoje $1 slike|Postoji $1 slika}}, s prosečnom veličinom od $2',
+	'download' => 'Preuzmi',
+	'readme-contents' => 'U datoteci $4 nalaze se slike iz kategorije $1 ($2) $3.
+
+== Uputstva za preuzimanje svih navedenih slika ==
+Preuzimanje može potrajati od nekoliko minuta do nekoliko časova.
+
+Vindous:
+ Otpakujte sve datoteke u istu fasciklu i pokrenite $5
+ $6
+Linuks/Mak OS
+Otpakujte sve datoteke i otvorite terminal u toj fascikli. Pokrenite sh $5',
+	'non-bundled-wget' => 'Napomena: ovo izdanje ne sadrži wget za vindous. Treba da otpakujete
+u fasciklu sa wget.exe ili da već imate wget u putanji',
+	'wget-info' => 'Datoteka sadrži primerak wget-a $1 (vindous). Wget je slobodan program 
+koji je objavljen pod uslovima GNU-OVE OPŠTE JAVNE LICENCE 3.
+Ispod se nalazi primerak licence (dostupan je i na http://www.gnu.org/licenses/gpl-3.0.txt)
+
+Ako ste zainteresovani za izvorni kod programa, preuzmite ga sa
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ili koristite druge rezervne veze:
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', s izmenom razmere do najveće širine od $1 {{plural:$1|piksel|piksela|piksela}}',
+	'scaling-height' => ', s izmenom razmere do najveće visine od $1 {{plural:$1|piksel|piksela|piksela}}',
+	'scaling-both' => ', s izmenom razmere do najveće veličine od $1 × $2 piksela',
 );
 
 /** Telugu (తెలుగు)

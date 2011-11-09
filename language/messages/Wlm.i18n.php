@@ -938,6 +938,13 @@ $messages['nl'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'bic-list' => 'Lischt',
+);
+
 /** Polish (Polski)
  * @author Grzechooo
  * @author Sp5uhe
@@ -1120,6 +1127,7 @@ $messages['sr-ec'] = array(
 	'bic-list-bad' => 'Прикажи',
 	'bic-list-all' => 'Цео списак',
 	'unregistered' => 'Неуписани',
+	'users-text' => 'На овој страници су приказани аутори са сликама које су отпремили.',
 	'users-list' => 'Погледај',
 	'distict-monuments' => 'Засебни споменици',
 	'province-heading' => 'Покрајина',
@@ -1141,6 +1149,7 @@ $messages['sr-el'] = array(
 	'competes' => 'Takmiči se',
 	'author' => 'Autor',
 	'upload-time' => 'Vreme otpremanja',
+	'deleted' => 'Obrisana ($1)',
 	'concursa' => 'Učestvuje u WLM',
 	'no-concursa' => 'Van takmičenja WLM',
 	'not-available' => 'Nedostupno',
@@ -1150,6 +1159,7 @@ $messages['sr-el'] = array(
 	'provide-id' => 'Navedite IB spomenika da pogledate podatke o njemu',
 	'show-images-bad-only' => 'Prikaži samo slike van spiskova',
 	'show-images-all' => 'Prikaži sve slike',
+	'show-images-removed' => 'Prikaži obrisane slike sa konkursa',
 	'search-monuments' => 'Pretraga spomenika',
 	'view-frequency' => 'Popularni spomenici',
 	'view-ccaa' => 'Pogledaj po samostalnoj zajednici',
@@ -1168,6 +1178,9 @@ $messages['sr-el'] = array(
 	'bic-list-bad' => 'Prikaži',
 	'bic-list-all' => 'Ceo spisak',
 	'unregistered' => 'Neupisani',
+	'users-text' => 'Na ovoj stranici su prikazani autori sa slikama koje su otpremili.',
+	'users-list' => 'Pogledaj',
+	'distict-monuments' => 'Zasebni spomenici',
 	'province-heading' => 'Pokrajina',
 	'province-none' => '(nepoznata)',
 	'ccaa-heading' => 'CC.AA.',

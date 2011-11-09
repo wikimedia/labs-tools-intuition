@@ -1490,6 +1490,7 @@ $messages['no'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'begin-translation' => 'Mit Iwwersetze schterdte',
 	'th-translation' => 'Iwwersetzing',
 	'th-language' => 'Schprooch',
 	'th-username' => 'Yuuser-Naame',
