@@ -1052,6 +1052,7 @@ $messages['ja'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
+ * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
 	'title' => 'SVG បកប្រែ',
@@ -1072,7 +1073,7 @@ $messages['km'] = array(
 	'option-manual' => 'ផ្ទុកឡើងដោយដៃ',
 	'preview' => 'ការមើលមុន',
 	'translate' => 'បកប្រែ',
-	'svginput-label' => 'ឯកសារSVG',
+	'svginput-label' => 'ឯកសារ SVG',
 	'stats-footer' => 'ឧបករណ៍នេះត្រូវបានប្រើសំរាប់បកប្រែឯកសារចំនួនប្រហែល $1 ​តាំងពី $2។',
 	'uploading' => 'កំពុង​ផ្ទុកឡើង​',
 	'upload-complete' => 'ការផ្ទុកឡើងសំរេចជាស្ថាពរ។ ពេលនេះ រូបភាពនេះគួរតែមាននៅ$1',

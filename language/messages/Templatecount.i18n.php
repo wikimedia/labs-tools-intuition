@@ -343,6 +343,14 @@ $messages['ja'] = array(
 	'pagename-label' => 'ページ名 (名前空間を除く)',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'language-label' => 'ភាសា',
+	'namespace-label' => 'លំហឈ្មោះ',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
