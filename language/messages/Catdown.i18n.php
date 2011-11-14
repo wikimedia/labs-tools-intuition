@@ -150,6 +150,33 @@ $messages['ast'] = array(
 	'zip-failed' => 'Falló la creación del Zip',
 	'image-area-too-big' => '"$1" ye demasiao grande pa crear una miniatura. Usando\'l tamañu completu.',
 	'download-info' => '{{plural: $1|Hai una imaxe|Hai $1 imaxes}}, con un tamañu estimáu de $2',
+	'download' => 'Descargar',
+	'readme-contents' => 'El ficheru contenedor "$4" llista
+les imaxes de la categoría "$1" ($2)$3.
+
+== Instrucciones pa descargar toles imaxes ==
+El tiempu de descarga pue variar ente unos minutos y delles hores.
+
+Windows:
+ Estrái tolos ficheros nel mesmu direutoriu y executa $5
+ $6
+Linux/Mac OS
+ Estrái tolos ficheros y abri un terminal nesi direutoriu. Executa sh $5',
+	'non-bundled-wget' => "Nota: Esta versión nun inclúi wget pa Windows. Tendrás de descomprimir
+a un direutoriu con wget.exe o, d'otra miente, tener wget nel PATH",
+	'wget-info' => "Esti ficheru contién una copia de wget $1 (pa la plataforma Windows). Wget ye software llibre,
+baxo los términos de la LLICENCIA PÚBLICA XENERAL GNU versión 3.
+Mas abaxo hai una copia de la llicencia, que tamién ta disponible en http://www.gnu.org/licenses/gpl-3.0.txt
+
+En casu de que t'interese consiguir el códigu fonte d'esti programa, pues descargalu de
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+o en dalgún otru espeyu de GNU, visita
+ http://www.gnu.org/prep/ftp.html",
+	'scaling-width' => ', escalaes a un anchor máximu de $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => ', escalaes a un altor máximu de $1 {{plural:$1|pixel|pixels}}',
+	'scaling-both' => ', escalaes a un tamañu máximu de $1x$2 pixels',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -885,6 +912,31 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'max-width' => 'Максимальная ширина:',
 	'max-height' => 'Максимальная высота:',
+);
+
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'title' => 'Prenos slik po kategorijah',
+	'subtitle' => 'Preprost način za prenos slik v kategoriji',
+	'project' => 'Projekt:',
+	'category' => 'Kategorija:',
+	'thumbnailing' => 'Izdelava sličic',
+	'max-width' => 'Največja širina:',
+	'max-height' => 'Največja višina:',
+	'invalid-width' => 'Neveljavna širina',
+	'invalid-height' => 'Neveljavna višina',
+	'no-such-project' => 'Takšen projekt ne obstaja',
+	'no-images' => 'V tej kategoriji ni slik',
+	'category-is-url' => 'Podano ime kategorije izgleda kot URL. Navesti morate ime kategorije, ne njen URL.',
+	'zip-failed' => 'Ustvarjanje zipa je spodletelo',
+	'image-area-too-big' => '$1 je prevelika za ustvarjanje sličice. Uporabljena bo polna velikost.',
+	'download-info' => '{{PLURAL:$1|Obstaja $1 slika|Obstajata $1 sliki|Obstajajo $1 slike|Obstaja $1 slik}}, z velikostjo ocenjeno na $2',
+	'download' => 'Prenesi',
+	'scaling-width' => ', prilagojeno na širino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
+	'scaling-height' => ', prilagojeno na višino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
+	'scaling-both' => ', prilagojeno na velikost največ $1x$2 slikovnih pik',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)

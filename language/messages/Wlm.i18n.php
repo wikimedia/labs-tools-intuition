@@ -787,6 +787,7 @@ Pro Provënz weisen',
 	'distict-monuments' => 'Ënnerschiddlech Monumenter',
 	'province-heading' => 'Provënz',
 	'province-none' => '(Onbekannt)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Macedonian (Македонски)
@@ -942,6 +943,7 @@ $messages['nl'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'deleted' => 'Gelescht ($1)',
 	'bic-list' => 'Lischt',
 );
 
