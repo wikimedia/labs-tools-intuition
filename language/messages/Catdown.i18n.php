@@ -896,6 +896,9 @@ $messages['ro'] = array(
 	'image-area-too-big' => '$1 este prea mare pentru a i se crea o miniatură. Se va utiliza dimensiunea completă.',
 	'download-info' => '{{plural: $1|Există o imagine|Există $1 imagini||Există $1 de imagini}} cu o dimensiune estimată la $2',
 	'download' => 'Descărcare',
+	'scaling-width' => ', scalată la o lățime maximă de $1 {{plural:$1|pixel|pixeli|de pixeli}}',
+	'scaling-height' => ', scalată la o înălțime maximă de $1 {{plural:$1|pixel|pixeli|de pixeli}}',
+	'scaling-both' => ', scalată la o dimensiune maximă de $1 x $2 pixeli',
 );
 
 /** Tarandíne (Tarandíne)
@@ -930,13 +933,37 @@ $messages['sl'] = array(
 	'no-such-project' => 'Takšen projekt ne obstaja',
 	'no-images' => 'V tej kategoriji ni slik',
 	'category-is-url' => 'Podano ime kategorije izgleda kot URL. Navesti morate ime kategorije, ne njen URL.',
+	'category-contains-namespace' => 'Kot kaže, ste poleg imena kategorije vključili imenski prostor. Z navedenim imenom bo stran na voljo kot [[Category:$1]].',
 	'zip-failed' => 'Ustvarjanje zipa je spodletelo',
 	'image-area-too-big' => '$1 je prevelika za ustvarjanje sličice. Uporabljena bo polna velikost.',
 	'download-info' => '{{PLURAL:$1|Obstaja $1 slika|Obstajata $1 sliki|Obstajajo $1 slike|Obstaja $1 slik}}, z velikostjo ocenjeno na $2',
 	'download' => 'Prenesi',
-	'scaling-width' => ', prilagojeno na širino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
-	'scaling-height' => ', prilagojeno na višino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
-	'scaling-both' => ', prilagojeno na velikost največ $1x$2 slikovnih pik',
+	'readme-contents' => 'Vključena datoteka $4 navaja
+slike v kategoriji $1 ($2)$3.
+
+== Navodila za prenos vseh navedenih slik ==
+Čas prenašanja se lahko giblje od nekaj minut do več ur.
+
+Windows:
+ Razširite vse datoteke v isto mapo in zaženite $5
+ $6
+OS Linux/Mac
+ Razširite vse datoteke in odprite ukazno vrstico v tej mapi. Zaženite sh $5',
+	'non-bundled-wget' => 'Opozorilo: Ta različica ne vsebuje wget za Windows. Morali boste razširiti
+v mapo z wget.exe ali pa imeti wget v PATH',
+	'wget-info' => 'Datoteka vključuje kopijo wget $1 (za platformo Windows). Wget je prosto programje
+pod pogoji SPLOŠNEGA DOVOLJENJA GNU različice 3.
+Spodaj se nahaja kopija dovoljenja, prav tako pa je na voljo na http://www.gnu.org/licenses/gpl-3.0.txt
+
+Če želite pridobiti izvorno kodo programa, jo lahko prenesete z
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ali katerega drugega zrcala GNU; glej
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', prilagojene na širino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
+	'scaling-height' => ', prilagojene na višino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
+	'scaling-both' => ', prilagojene na velikost največ $1x$2 slikovnih pik',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)

@@ -1580,6 +1580,29 @@ $messages['pt'] = array(
 	'stats-footer' => 'Esta ferramenta foi usada para traduzir aproximadamente {{PLURAL:$1|um ficheiro|$1 ficheiros}} desde $2.',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Pedroca cerebral
+ */
+$messages['pt-br'] = array(
+	'error-tryagain' => '$1 Aperte o botão Voltar do seu navegador para tentar novamente.',
+	'error-nothing' => 'Não há nada para traduzir.',
+	'error-notsvg' => 'Não é um arquivo SVG.',
+	'error-unexpected' => 'Ocorreu um erro inesperado.',
+	'error-notfound' => 'Não foi possível obter o arquivo SVG na URL fornecida.',
+	'error-upload' => 'Ocorreu um erro ao carregar.',
+	'begin-translation' => 'Começar a tradução',
+	'th-original' => 'Original',
+	'th-translation' => 'Tradução',
+	'th-language' => 'Língua',
+	'th-username' => 'Nome de usuário',
+	'th-password' => 'Senha',
+	'th-method' => 'Método',
+	'option-tusc' => 'TUSC (upload automático)',
+	'option-manual' => 'Upload manual',
+	'preview' => 'Pré-visualização',
+	'translate' => 'Traduzir',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */

@@ -579,6 +579,8 @@ $messages['ta'] = array(
  */
 $messages['te'] = array(
 	'search-table-th-search' => 'వెతుకు',
+	'filter-all-countries' => 'అన్నీ',
+	'filter-all-languages' => 'అన్ని భాషలు',
 );
 
 /** Tetum (Tetun)

@@ -1232,6 +1232,8 @@ $messages['te'] = array(
 	'weeks' => '{{PLURAL: $1|వారం|వారాలు}}',
 	'days' => '{{PLURAL: $1|రోజు|రోజులు}}',
 	'hours' => '{{PLURAL:$1|గంట|గంటలు}}',
+	'minutes' => '{{PLURAL: $1|నిమిషం|నిమిషాలు}}',
+	'seconds' => '{{PLURAL: $1|క్షణం|క్షణాలు}}',
 	'last-modified-date' => 'చివరి మార్పు: $1',
 	'view-source' => 'మూలాన్ని చూడండి',
 );

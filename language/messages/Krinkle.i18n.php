@@ -411,6 +411,16 @@ $messages['pt'] = array(
 	'form-legend-settings' => 'Definições',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Pedroca cerebral
+ */
+$messages['pt-br'] = array(
+	'alws-selectwiki' => '(selecionar wiki)',
+	'alws-group-mustused' => 'Wikis mais usadas',
+	'alws-group-allaz' => 'Todas as wikis em ordem alfabética',
+	'form-legend-settings' => 'Configurações',
+);
+
 /** Romanian (Română)
  * @author Minisarm
  */

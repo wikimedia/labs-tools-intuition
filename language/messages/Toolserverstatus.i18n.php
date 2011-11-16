@@ -370,6 +370,17 @@ $messages['pl'] = array(
 	'toolserver-status-short-missing' => '$1: Brak',
 );
 
+/** Romanian (Română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Avertizare',
+	'toolserver-status-short-erro' => '$1: Eroare',
+	'toolserver-status-short-missing' => '$1: Lipsă',
+);
+
 /** Tarandíne (Tarandíne)
  * @author Joetaras
  */
