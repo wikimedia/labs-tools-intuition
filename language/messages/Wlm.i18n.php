@@ -1055,6 +1055,19 @@ $messages['ro'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'file' => 'Immaggine',
+	'id-none' => '(Ninde)',
+	'monument-heading' => 'Monumende',
+	'bic-list' => 'Elenghe',
+	'bic-gallery' => 'Gallerie',
+	'bic-list-all' => 'Elenghe comblete',
+	'province-none' => '(Scanusciute)',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

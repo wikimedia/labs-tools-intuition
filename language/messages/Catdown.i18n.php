@@ -907,6 +907,11 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'project' => 'Pruggette:',
 	'category' => 'Categorije:',
+	'thumbnailing' => 'Miniature',
+	'max-width' => 'Larghezza massime:',
+	'max-height' => 'Iertezza massime:',
+	'invalid-width' => 'Larghezza invalide',
+	'invalid-height' => 'Iertezze invalide',
 );
 
 /** Russian (Русский)

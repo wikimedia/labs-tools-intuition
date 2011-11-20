@@ -498,6 +498,8 @@ $messages['roa-tara'] = array(
 	'search-table-th-field' => 'Cambe',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Cirche',
+	'filter-all-countries' => 'Tutte le paise',
+	'filter-all-languages' => 'Tutte le lènghe',
 );
 
 /** Russian (Русский)
