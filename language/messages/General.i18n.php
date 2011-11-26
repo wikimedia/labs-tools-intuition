@@ -576,6 +576,7 @@ $messages['hr'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
 	'hello' => 'Szia',
@@ -585,12 +586,12 @@ $messages['hu'] = array(
 	'namespace' => 'Névtér',
 	'form-submit' => 'Gyerünk',
 	'form-reset' => 'Alaphelyzet',
-	'years' => 'év',
-	'weeks' => 'hét',
-	'days' => 'nap',
-	'hours' => 'óra',
-	'minutes' => 'perc',
-	'seconds' => 'másodperc',
+	'years' => '{{PLURAL: $1|év|év}}',
+	'weeks' => '{{PLURAL: $1|hét|hét}}',
+	'days' => '{{PLURAL: $1|nap|nap}}',
+	'hours' => '{{PLURAL: $1|óra|óra}}',
+	'minutes' => '{{PLURAL: $1|perc|perc}}',
+	'seconds' => '{{PLURAL: $1|másodperc|másodperc}}',
 	'last-modified-date' => 'Utolsó módosítás ideje: $1',
 	'view-source' => 'Forrás megtekintése',
 );
@@ -983,15 +984,18 @@ $messages['pl'] = array(
 $messages['ps'] = array(
 	'hello' => 'سلامونه',
 	'welcome' => 'ښه راغلاست',
+	'toolversionstamp' => 'نسخه $1 ($2)',
 	'etc' => 'او داسې نور',
 	'namespace' => 'نوم-تشيال',
 	'form-submit' => 'ورځه',
-	'years' => 'کالونه',
-	'weeks' => 'اونۍ',
-	'days' => 'ورځې',
-	'hours' => 'ساعتونه',
-	'minutes' => 'دقيقې',
-	'seconds' => 'ثانيې',
+	'form-reset' => 'بياايښودل',
+	'years' => '{{PLURAL: $1|کال|کالونه}}',
+	'weeks' => '{{PLURAL: $1|اونۍ|اونۍ}}',
+	'days' => '{{PLURAL: $1|ورځ|ورځې}}',
+	'hours' => '{{PLURAL:$1|ساعت|ساعتونه}}',
+	'minutes' => '{{PLURAL:$1|دقيقه|دقيقې}}',
+	'seconds' => '{{PLURAL:$1|ثانيه|ثانيې}}',
+	'last-modified-date' => 'وروستی بدلون: $1',
 	'view-source' => 'سرچينه کتل',
 );
 

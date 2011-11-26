@@ -612,6 +612,55 @@ $messages['he'] = array(
 	'province-none' => '(אינו ידוע)',
 );
 
+/** Hungarian (Magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'title' => 'WLM fájlok',
+	'file' => 'Kép',
+	'monument-type' => 'Műemlék típusa',
+	'monument-id' => 'Műemlék azonosító',
+	'province' => 'Megye',
+	'comarque' => 'Comarca',
+	'competes' => 'Versenyez',
+	'author' => 'Szerző',
+	'upload-time' => 'Feltöltési idő',
+	'deleted' => 'Törölt ( $1 )',
+	'concursa' => 'Részt van a WLM-ben',
+	'no-concursa' => 'WLM versenyen kívül',
+	'not-available' => 'Nem érhető el',
+	'date-unknown' => 'Ismeretlen',
+	'total-images' => 'Összes kép: $1',
+	'view-uncategorized-images' => 'Kategorizálatlan képen megjelenítése',
+	'provide-id' => 'Add meg a műemlék azonosítót, ha meg akarod jeleníteni a rendelkezésre álló adatokat',
+	'show-images-bad-only' => 'Csak a listán kívüli képek megjelenítése',
+	'show-images-all' => 'Összes kép megjelenítése',
+	'show-images-removed' => 'A versenyből eltávolított képek megjelenítése',
+	'search-monuments' => 'Műemlékek keresése',
+	'view-frequency' => 'Népszerű műemlékek',
+	'view-ccaa' => 'Megjelenítés autonóm közösségenként',
+	'view-province' => 'Megtekintés megyénként',
+	'id-label' => 'Műemlék azonosító:',
+	'id-none' => '(semmi)',
+	'monument-heading' => 'Műemlék',
+	'count-heading' => 'Fényképek',
+	'bic-list' => 'Lista',
+	'bic-gallery' => 'Galéria',
+	'gallery-header' => '$1 azonosítójú emlékmű képei.',
+	'gallery-header-place' => '$1 emlékműveiről készült képek.',
+	'wall-of-shame-text' => 'Szerzők azonosítatlan fotók száma szerint',
+	'author-heading' => 'Szerző',
+	'bic-list-bad' => 'Megjelenítés',
+	'bic-list-all' => 'Teljes lista',
+	'unregistered' => 'Nem regisztrált',
+	'users-text' => 'Ez a lap a szerzőket mutatja meg a feltöltött képek és műemlékek száma szerint',
+	'users-list' => 'Megtekintés',
+	'distict-monuments' => 'Különböző műemlékek',
+	'province-heading' => 'Megye',
+	'province-none' => '(Ismeretlen)',
+	'ccaa-heading' => 'Aut. köz.',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -701,6 +750,13 @@ $messages['id'] = array(
 	'province-none' => '(Tidak diketahui)',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'deleted' => '削除済み ($1)',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -730,6 +786,7 @@ $messages['ksh'] = array(
 	'view-ccaa' => 'Noh de  autonomous community zoteere',
 	'view-province' => 'Noh Provinß zoteet',
 	'id-label' => 'Dem Dänkmohl sing Kännong:',
+	'date-format' => 'Y-m-d H:i:s',
 	'id-none' => '(Kei)',
 	'monument-heading' => 'Däm Dänkmohl sing Kännong',
 	'count-heading' => 'Fottos',

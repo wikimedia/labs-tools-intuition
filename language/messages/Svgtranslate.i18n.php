@@ -152,7 +152,7 @@ $messages['ar'] = array(
 	'th-password' => 'كلمة السر',
 	'th-method' => 'وسيلة',
 	'option-manual' => 'رفع يدوي',
-	'preview' => 'معاينة',
+	'preview' => 'عاين',
 	'translate' => 'ترجم',
 	'svginput-label' => 'ملف SVG',
 	'uploading' => 'يرفع',
@@ -1033,6 +1033,8 @@ $messages['it'] = array(
  * @author Schu
  */
 $messages['ja'] = array(
+	'error-nothing' => '翻訳できるものがありません。',
+	'error-notsvg' => 'SVG ファイルではありません。',
 	'th-original' => 'オリジナル',
 	'th-translation' => '翻訳',
 	'th-language' => '言語',

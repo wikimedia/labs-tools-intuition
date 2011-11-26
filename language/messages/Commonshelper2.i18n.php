@@ -1049,6 +1049,7 @@ $messages['hsb'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
 	'attention' => 'Figyelem',
@@ -1071,6 +1072,7 @@ $messages['hu'] = array(
 	'do_it' => 'Csináld',
 	'error_transfer_usr' => 'Nem adtad meg a Wikimedia Commons felhasználónevet',
 	'error_not_exists' => 'A forrásfájl nem létezik!',
+	'error_on_commons' => 'A forrásfájl már a  $1 helyen van!',
 	'error_file_exists' => 'A fájl már létezik a(z) $3 oldalon, „$1$4$2” néven!',
 	'error_diff_exists' => 'A célwikin már létezik egy másik fájl ugyanezen a néven!',
 	'error_no_meta' => 'A forráswikiről nincs metaadat. $1Vedd fel/frissítsd a projekt metaadatait!$2',
@@ -1091,6 +1093,10 @@ $messages['hu'] = array(
 	'error_commons_user' => 'Az átvitelt végző szerkesztő azonosítása miatt a Wikimedia Commons-felhasználónevednek szerepelnie kell a leírásban!',
 	'error_upload_users' => 'A tesztidőszak alatt a feltöltés funkció csak néhány felhasználó számára érhető el!',
 	'error_upload_file' => 'Nem sikerült letölteni az eredeti fájlt.',
+	'help_intro' => 'Ha hibát akarsz bejelenteni, új szolgáltatást kérni vagy kérdésed van, használd az alábbi kapcsoltba lépési típusokat:',
+	'help_jira' => '$1JIRA (fiókra van szükséged)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'A levelek küldése $1 részére',
+	'help_commons' => '$1Üzenet küldése a Commons-ra$2',
 );
 
 /** Interlingua (Interlingua)
@@ -1255,6 +1261,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Schu
  */
 $messages['ja'] = array(
@@ -1266,6 +1273,7 @@ $messages['ja'] = array(
 	'move_file_from_com' => 'ウィキ メディアコモンズからプロジェクトにファイルを移動',
 	'categories' => 'カテゴリー',
 	'remove_cats' => '既存のカテゴリを削除',
+	'upload_submit' => 'アップロード',
 );
 
 /** Georgian (ქართული)

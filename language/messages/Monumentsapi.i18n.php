@@ -279,11 +279,16 @@ $messages['hr'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
+	'search-title' => 'Műemlékek keresés',
+	'search-monuments-database' => 'Műemlékek adatbázis keresése',
 	'search-table-th-field' => 'Mező',
 	'search-table-th-filter' => 'Szűrő',
 	'search-table-th-search' => 'Keresés',
+	'filter-all-countries' => 'Minden ország',
+	'filter-all-languages' => 'Minden nyelv',
 );
 
 /** Interlingua (Interlingua)

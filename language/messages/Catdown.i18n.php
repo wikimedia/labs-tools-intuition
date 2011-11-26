@@ -69,7 +69,9 @@ or some other GNU Mirror, see
 
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
+ * @author Fryed-peach
  * @author Platonides
+ * @author Purodha
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -100,23 +102,25 @@ Parameters: $1: Name of the image',
 	'readme-contents' => "Contents of the README file. The result will be shown to the user as plain text (there's no wikitext parsing).
 * $1: Category name
 * $2: Category URL
-* $3: Result of scaling restrictions (one of scaling-none, scaling-width, scaling-height, scaling-both messages). To keep the sentence meaningful, you probably not want to place a space before this. Remember to translate scaling-width, scaling-height, scaling-both, or the users may face with half sentence in another language.
+* $3: Result of scaling restrictions (one of {{msg-toolserver|Catdown-scaling-none|notext=1}}, {{msg-toolserver|Catdown-scaling-width|notext=1}}, {{msg-toolserver|Catdown-scaling-height|notext=1}}, {{msg-toolserver|Catdown-scaling-both|notext=1}} messages). To keep the sentence meaningful, you probably not want to place a space before this. Remember to translate scaling-width, scaling-height, scaling-both, or the users may face with half sentence in another language.
 * $4: Filename of the list.
 * $5 Name of the .bat script to run (script-filename msg)
 * $6: Note if wget for Windows was not bundled (contents of non-bundled-wget message if 'Bundle wget' was not checked)",
 	'non-bundled-wget' => "Message added to the readme noting that the script won't work in Windows without a wget.exe (it is usually installed in other OS)",
 	'wget-info' => 'Text appended to the readme explaining the rights you have on the wget binary.
-$1: Version of wget
+* $1: Version of wget
 
 The content of the gpl-3.0 is appended below this text (untranslated, as it is required by the license).',
-	'scaling-none' => "Added to readme-contents as $6 if there's no scaling",
+	'scaling-none' => "{{optional}}
+
+Added to readme-contents as $6 if there's no scaling",
 	'scaling-width' => 'Added to readme-contents as $6 if the images are scaled to a maximum width.
 $1: Maximum width in pixels',
 	'scaling-height' => 'Added to readme-contents as $6 if the images are scaled to a maximum height.
 $1: Maximum height in pixels',
 	'scaling-both' => 'Added to readme-contents as $6 if the images are scaled to a maximum width and.
-$1: Maximum width in pixels
-$2: Maximum height in pixels',
+* $1: Maximum width in pixels
+* $2: Maximum height in pixels',
 	'script-filename' => 'Name of the script which downloads the files.',
 	'readme-filename' => 'Name of the readme file',
 );
@@ -559,6 +563,52 @@ Windows:
 	'scaling-both' => ', בהגדלה לגודל מרבי של $1x$2 פיקסלים',
 );
 
+/** Hungarian (Magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'title' => 'Kategória képeinek letöltése',
+	'subtitle' => 'A kategóriában található képek letöltésének egy könnyű módja',
+	'project' => 'Projekt:',
+	'category' => 'Kategória:',
+	'thumbnailing' => 'Bélyegkép készítés',
+	'max-width' => 'Maximális szélesség:',
+	'max-height' => 'Maximális magasság:',
+	'invalid-width' => 'Érvénytelen szélesség',
+	'invalid-height' => 'Érvénytelen magasság',
+	'no-such-project' => 'Nincs ilyen projekt',
+	'no-images' => 'Nincs kép a kategóriában',
+	'category-is-url' => 'A megadott kategória név úgy néz ki, mint egy URL. Egy kategória nevet kell megadni, nem az URL-ét.',
+	'category-contains-namespace' => 'Úgy tűnik, hogy a névteret is hozzávetted a kategória névhez. Az adott névvel a lap [[Category:$1]] módon lesz elérhető',
+	'zip-failed' => 'Zip létrehozási hiba',
+	'image-area-too-big' => '$1 túl nagy a bélyegkép létrehozásához. A teljes kép lesz használva.',
+	'download-info' => '{{PLURAL:$1|Egy|$1}} kép, becsült összméret: $2',
+	'download' => 'Letöltés',
+	'readme-contents' => 'A mellékelt $4 fájl tartalmazz a 
+$1 kategória ( $2 )$3 képeinek listáját.
+
+== Útmutató a listázott képek letöltéséhez ==
+A letöltés ideje néhány perctől több óráig is tarthat.
+
+Windows:
+ Csomagold ki az összes fájlt ugyanabba a könyvtárba és futtasd le a $5 parancsfájlt!
+ $6
+Linux/Mac OS
+ Csomagold ki az összes fájlt, nyissál egy terminált ablakot ebbe a könyvtárban. Futtasd le az sh $5 parancsot!',
+	'non-bundled-wget' => 'Megjegyzés: Ez a verzió nem tartalmazza a wget Windows-os verzióját. Csomagold ki a wget.exe programot az adott könyvtárba, vagy legyen wget elérhető a PATH-ben.',
+	'wget-info' => 'Egy a csomag tartalmazza a wget $1 (Windows-os verzió). Wget egy ingyenes program, a GNU GENERAL PUBLIC LICENSE version 3 alatt. Alább megtalálható a licenc egy másolata, valamint hozzáférhető a http://www.gnu.org/licenses/gpl-3.0.txt címen.
+
+Ha érdekelne a program forráskódja, az alábbi helyekről töltheted le:
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+vagy valamelyik GNU Mirror oldalról, lásd
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', átméretezve a {{PLURAL:$1|egy|$1}} pixel maximális szélességre',
+	'scaling-height' => ', átméretezve a {{PLURAL:$1|egy|$1}} pixel maximális magasságra',
+	'scaling-both' => ', átméretezve a $1x$2 pixel maximális méretre',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -608,6 +658,55 @@ o de un altere speculo de GNU, vide
 	'scaling-both' => ', scalate a un dimension maxime de $1 × $2 pixels',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'title' => 'カテゴリー別に画像をダウンロード',
+	'subtitle' => 'カテゴリー内の画像をダウンロードする簡単な方法',
+	'project' => 'プロジェクト:',
+	'category' => 'カテゴリー:',
+	'thumbnailing' => 'サムネイル処理',
+	'max-width' => '幅の最大値:',
+	'max-height' => '高さの最大値:',
+	'invalid-width' => '幅が無効',
+	'invalid-height' => '高さが無効',
+	'no-such-project' => 'そのようなプロジェクトはありません',
+	'no-images' => 'そのカテゴリーには画像がありません',
+	'category-is-url' => '指定されたカテゴリー名は URL のようにみえます。URL ではなく、カテゴリー名を指定する必要があります。',
+	'category-contains-namespace' => 'カテゴリー名に名前空間が含まれているようです。指定の通りだと、[[Category:$1]] というページになります。',
+	'zip-failed' => 'ZIP の作成に失敗しました',
+	'image-area-too-big' => '$1 は大きすぎるためサムネイルを作成できません。元の大きさを利用します。',
+	'download-info' => '{{plural: $1|1個|$1個}}の画像があり、サイズの概算は$2です',
+	'download' => 'ダウンロード',
+	'readme-contents' => '同封したファイル $4 は
+カテゴリー「$1」( $2 ) 内の画像を$3記載したものです。
+
+== 記載した画像すべてをダウンロードする手順 ==
+ダウンロード時間は2、3分で終わることもありますし、数時間かかることもあります。
+
+Winsows:
+ 同じフォルダーにあるファイルをすべて展開し、$5 を実行してください
+ $6
+Linux/Mac OS
+ ファイルをすべて展開し、そのフォルダーで端末を開いてください。sh $5 を実行してください',
+	'non-bundled-wget' => '注: このバージョンは Windows 用の wget を含んでいません。
+wget.exe が存在するフォルダーに展開するか、wget を PATH が通ったところに置いておく必要があります。',
+	'wget-info' => 'このファイルには wget $1（Windows 用）が付属します。wget はフリーソフトウェアであり、
+GNU GENERAL PUBLIC LICENSE version 3 の条項の下にあります。
+そのライセンスのコピーを下部に示します。また、http://www.gnu.org/licenses/gpl-3.0.txt でも参照できます。
+
+このプログラムのソースコードを入手する際には、以下の場所からダウンロードできます。
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+もしくは、その他の GNU のミラーを利用できます。以下を参照してください。
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => '幅の最大値$1{{plural:$1|ピクセル}}に拡大縮小し、',
+	'scaling-height' => '高さの最大値$1{{plural:$1|ピクセル}}に拡大縮小し、',
+	'scaling-both' => 'サイズの最大値 $1x$2ピクセルに拡大縮小し、',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
@@ -637,6 +736,21 @@ $messages['ksh'] = array(
 	'image-area-too-big' => 'Di Dattei $1 es zoh jruuß förr e Minnnibeldhsce druß ze maache. Mer nämme di Dattei wi se es.',
 	'download-info' => 'Mer han {{PLURAL:$1|ei Beld|$1 Belder|kein Belder}} mem Jesampömfang vun $2',
 	'download' => 'Eronger laade',
+	'readme-contents' => 'En dä Dattei $4 heh sin de Belder uß dä Saachjropp $1 dren zosammejefaß$3.
+Di Saachjropp fengk mer onger däm URL:
+$2
+
+== Wie mer di Belder eronger laade kann ==
+Dat kann e paa Menutte, ävver och e paa Schtonde doore.
+
+Met <i lang="en">Windows</i>:
+Alle Dateije en et sällve Verzeichneß ußpacke un dann doh dren ußföhre:
+Doh dren ußföhre <code>$5</code>
+$6
+
+Met <i lang="en">Linux</i> udder <i lang="en">Mac OS</i>:
+Alle Dateije ußpacke un e <i lang="en">Terminal</i>-Finster op maache.
+Doh dren ußföhre <code>sh $5</code>',
 	'non-bundled-wget' => 'Opjepaß: En heh dä Version es <code lang="en">wget</code> fö <i lang="en">Windows</i> nit derbei. Do moß se met <code lang="en">wget.exe</code> en enem Verzischneß ußpacke udder <code lang="en">wget</code> moß övver der Paad zom Projramme Söhke jefonge wääde künne.',
 	'scaling-width' => ', obb ene jrüüßte Breide vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet',
 	'scaling-height' => ', obb ene jrüüßte Hühde vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet',
@@ -905,6 +1019,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'title' => 'Scarecamende de le immaggine pe categorije',
 	'project' => 'Pruggette:',
 	'category' => 'Categorije:',
 	'thumbnailing' => 'Miniature',
@@ -912,6 +1027,8 @@ $messages['roa-tara'] = array(
 	'max-height' => 'Iertezza massime:',
 	'invalid-width' => 'Larghezza invalide',
 	'invalid-height' => 'Iertezze invalide',
+	'no-such-project' => 'Non ge stonne pruggette',
+	'zip-failed' => "Ccrejazione d'u ZIP fallite",
 );
 
 /** Russian (Русский)

@@ -610,6 +610,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Schu
  */
 $messages['ja'] = array(
@@ -618,6 +619,7 @@ $messages['ja'] = array(
 	'limit' => '制限',
 	'page' => 'ページ',
 	'output' => '出力',
+	'update' => '更新',
 	'tools-delete' => '削除',
 	'tools-links' => 'リンク',
 	'tools-subject' => '件名',

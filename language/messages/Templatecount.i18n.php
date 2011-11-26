@@ -355,6 +355,7 @@ $messages['km'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'title' => 'Enjebonge Schabloone-Zahl',
 	'enter-details' => 'Jiv de Ennzelheite en',
 	'introduction' => 'Jiv dä Name vun ene Schablohn aan — em Momang allein uß de Wikipedias — un scheck Ding Ennjaabe af. Et weed e beßje zweschejeschpeischert, wat heh dat Projramm fengk, ävver dat kann weeder heh dat Projramm noch singe Schriever ändere.',
 	'language-label' => 'Schprooch',

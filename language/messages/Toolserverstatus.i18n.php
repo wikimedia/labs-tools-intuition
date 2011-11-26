@@ -215,6 +215,26 @@ $messages['he'] = array(
 	'toolserver-status-short-missing' => '$1: חסר',
 );
 
+/** Hungarian (Magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'toolserver-status-ok' => 'Minden rendben a $1 clusteren $2',
+	'toolserver-status-info' => 'Üzenet $1 cluster felhasználóinak: $2',
+	'toolserver-status-warn' => 'Figyelmeztetés $1 cluster felhasználóinak: $2',
+	'toolserver-status-down' => '$1 cluster ideiglenesen leállítva: $2',
+	'toolserver-status-erro' => '$1 cluster leállítva: $2',
+	'toolserver-status-unknown' => '$1 cluster állapota ismeretlen',
+	'toolserver-status-missing' => '$1 cluster nem létezik',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Figyelmeztetés',
+	'toolserver-status-short-down' => '$1: Leállítva',
+	'toolserver-status-short-erro' => '$1: Hiba',
+	'toolserver-status-short-unknown' => '$1: Ismeretlen',
+	'toolserver-status-short-missing' => '$1: Hiányzik',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -499,6 +519,9 @@ $messages['sr-el'] = array(
  * @author Emperyan
  */
 $messages['tr'] = array(
+	'toolserver-status-short-ok' => '$1: Tamam',
+	'toolserver-status-short-info' => '$1: Bilgi',
+	'toolserver-status-short-warn' => '$1: Uyar',
 	'toolserver-status-short-erro' => '$1: Hata',
 );
 
