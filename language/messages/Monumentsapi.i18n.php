@@ -210,12 +210,14 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Leyth
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'search-table-th-field' => 'زمینه',
 	'search-table-th-filter' => 'پالایه',
 	'search-table-th-search' => 'جستجو',
 	'filter-all-countries' => 'تمام کشورها',
+	'filter-all-languages' => 'همه زبان‌ها',
 );
 
 /** Finnish (Suomi)

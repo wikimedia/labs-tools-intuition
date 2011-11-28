@@ -459,8 +459,11 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Leyth
+ * @author Reza1615
  */
 $messages['fa'] = array(
+	'file' => 'تصویر',
+	'province' => 'استان',
 	'deleted' => 'حذف شده‌است ($1)',
 	'bic-list-bad' => 'نمایش',
 );
