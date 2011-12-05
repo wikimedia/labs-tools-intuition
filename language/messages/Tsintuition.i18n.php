@@ -791,6 +791,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Schu
  * @author Whym
  */
@@ -808,6 +809,8 @@ $messages['ja'] = array(
 	'tab-overview' => '概要',
 	'tab-settings' => '設定',
 	'tab-demo' => 'デモ',
+	'bl-mysettings' => '自分の言語設定',
+	'bl-mysettings-new' => '言語を変更',
 );
 
 /** Georgian (ქართული)

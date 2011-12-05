@@ -134,6 +134,13 @@ $messages['tly'] = array(
 	'download' => 'Бо жәј',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'category' => 'التصنيف:',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -403,12 +410,16 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
 
 /** Persian (فارسی)
  * @author Leyth
+ * @author Reza1615
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'subtitle' => 'راهی آسان برای دانلود تصاویر در یک رده',
 	'project' => 'پروژه:',
 	'category' => 'رده:',
+	'max-width' => 'حداکثر پهنا:',
 	'no-such-project' => 'چنین پروژه‌ای وجود ندارد',
+	'download' => 'بارگیری',
 );
 
 /** Faroese (Føroyskt)
@@ -741,17 +752,25 @@ Di Saachjropp fengk mer onger däm URL:
 $2
 
 == Wie mer di Belder eronger laade kann ==
-Dat kann e paa Menutte, ävver och e paa Schtonde doore.
+Dat Eronger Laade kann e paa Menutte, ävver och e paa Schtonde doore.
 
 Met <i lang="en">Windows</i>:
-Alle Dateije en et sällve Verzeichneß ußpacke un dann doh dren ußföhre:
-Doh dren ußföhre <code>$5</code>
-$6
-
+ Alle Dateije en et sällve Verzeichneß ußpacke un dann doh dren ußföhre:
+ Doh dren ußföhre: <code>$5</code>
+ $6
 Met <i lang="en">Linux</i> udder <i lang="en">Mac OS</i>:
-Alle Dateije ußpacke un e <i lang="en">Terminal</i>-Finster op maache.
-Doh dren ußföhre <code>sh $5</code>',
+ Alle Dateije ußpacke un e <i lang="en">Terminal</i>-Finster op maache.
+ Dabb ußföhre lohße: <code>sh $5</code>',
 	'non-bundled-wget' => 'Opjepaß: En heh dä Version es <code lang="en">wget</code> fö <i lang="en">Windows</i> nit derbei. Do moß se met <code lang="en">wget.exe</code> en enem Verzischneß ußpacke udder <code lang="en">wget</code> moß övver der Paad zom Projramme Söhke jefonge wääde künne.',
+	'wget-info' => 'En dä Dattei es <code lang="en">wget</code> $1 för <i lang="en">Windows</i> met enjebonge. Wget es e frei Projramm un et es ze han onger dä Version 3 vun GNU General Public License (dä alljemeine öffentlesche Lizänz vun dä GNU) 
+Wigger onge kütt die Lizänz ob heh dä Sigg, ävver mer kann se och beloore op: http://www.gnu.org/licenses/gpl-3.0.txt verfügbar.
+
+Wä däm Projramm singe Quällkood krijje well, kann dä eronger laade vun ongerscheidlijje Schtälle:
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+udder och vun ander Schpeejel-ẞööver. Luuer op:
+ http://www.gnu.org/prep/ftp.htmlt',
 	'scaling-width' => ', obb ene jrüüßte Breide vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet',
 	'scaling-height' => ', obb ene jrüüßte Hühde vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet',
 	'scaling-both' => ', obb ene jrüüßte Ömfang vun $1x$2 Pixelle ömjeräschnet',
@@ -843,7 +862,7 @@ $messages['ms'] = array(
 	'subtitle' => 'Cara yang mudah untuk memuat turun imej dalam satu kategori',
 	'project' => 'Projek:',
 	'category' => 'Kategori:',
-	'thumbnailing' => 'Thumbnail',
+	'thumbnailing' => 'Gambar kenit',
 	'max-width' => 'Lebar maksimum:',
 	'max-height' => 'Tinggi maksimum:',
 	'invalid-width' => 'Lebar tidak sah',
@@ -1037,6 +1056,13 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'max-width' => 'Максимальная ширина:',
 	'max-height' => 'Максимальная высота:',
+);
+
+/** Slovak (Slovenčina)
+ * @author Wizzard
+ */
+$messages['sk'] = array(
+	'download' => 'Stiahnuť',
 );
 
 /** Slovenian (Slovenščina)

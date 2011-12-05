@@ -275,6 +275,13 @@ $messages['it'] = array(
 	'formats-heading' => 'Formati di output',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'input' => '入力',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author T-Rithy
  */

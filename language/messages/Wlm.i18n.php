@@ -404,7 +404,7 @@ $messages['de'] = array(
 	'distict-monuments' => 'Unterschiedliche Denkmäler',
 	'province-heading' => 'Provinz',
 	'province-none' => '(Unbekannt)',
-	'ccaa-heading' => 'CC.AA.',
+	'ccaa-heading' => '!!FUZZYY!!CC.AA.',
 );
 
 /** Spanish (Español)
@@ -460,10 +460,12 @@ $messages['es'] = array(
 /** Persian (فارسی)
  * @author Leyth
  * @author Reza1615
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'file' => 'تصویر',
 	'province' => 'استان',
+	'author' => 'مؤلف',
 	'deleted' => 'حذف شده‌است ($1)',
 	'bic-list-bad' => 'نمایش',
 );
@@ -783,10 +785,11 @@ $messages['ksh'] = array(
 	'provide-id' => 'Jivv en Kännong för e Dänkmohl aan, öm Aanjabe övver dat Dänkmohl ze sinn ze krijje',
 	'show-images-bad-only' => 'Zeish bloß Belder, di en kein Leßte sin',
 	'show-images-all' => 'Donn all de Belder aanzeije',
-	'show-images-removed' => 'Zeich bloß de Belder, di uß em  eruß jenumme woodte',
+	'show-images-removed' => 'Zeich bloß de Belder, di uß em <abbr title="Wiki Loves Monuments - et Wiki hät de Dänkmöhler leev">WLM</abbr> eruß jenumme woode sin',
 	'search-monuments' => 'Dänkmöhler söhke',
-	'view-frequency' => 'Joot jelidde Dänkmöhler ',
-	'view-ccaa' => 'Noh de  autonomous community zoteere',
+	'view-frequency' => 'Dänkmöhler met vill Belder',
+	'view-ccaa' => 'Noh de eijenschtändeje Jemeinschaff zoteere
+',
 	'view-province' => 'Noh Provinß zoteet',
 	'id-label' => 'Dem Dänkmohl sing Kännong:',
 	'date-format' => 'Y-m-d H:i:s',
@@ -807,9 +810,11 @@ $messages['ksh'] = array(
 	'distict-monuments' => 'Ongerscheidlijje Dänkmöhler',
 	'province-heading' => 'Provinß',
 	'province-none' => '(Onbikannt)',
+	'ccaa-heading' => '!!FUZZYY!!Eijeschtändeje Jemeinschaff',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Purodha
  * @author Robby
  */
 $messages['lb'] = array(
@@ -856,7 +861,7 @@ Pro Provënz weisen',
 	'distict-monuments' => 'Ënnerschiddlech Monumenter',
 	'province-heading' => 'Provënz',
 	'province-none' => '(Onbekannt)',
-	'ccaa-heading' => 'CC.AA.',
+	'ccaa-heading' => '!!FUZZYY!!CC.AA.',
 );
 
 /** Macedonian (Македонски)

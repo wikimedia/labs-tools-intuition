@@ -67,6 +67,8 @@ $messages['ar'] = array(
 	'search-table-th-field' => 'الحقل',
 	'search-table-th-filter' => 'المرشح',
 	'search-table-th-search' => 'ابحث',
+	'filter-all-countries' => 'جميع البلدان',
+	'filter-all-languages' => 'جميع اللغات',
 );
 
 /** Asturian (Asturianu)

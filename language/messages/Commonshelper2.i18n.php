@@ -214,6 +214,7 @@ $messages['ar'] = array(
 	'new_filename' => 'اسم الملف الجديد:',
 	'upload_submit' => 'رفع!',
 	'target_wiki' => 'الويكي الهدف',
+	'standard_language' => 'ar',
 	'error_bot_blocked' => 'بوت الرفع ممنوع في ويكيميديا كومنز.',
 	'error_upload_file' => 'الملف الأصلي لم يمكن تنزيله.',
 );
@@ -1265,6 +1266,7 @@ $messages['it'] = array(
  * @author Schu
  */
 $messages['ja'] = array(
+	'attention' => '注意',
 	'language' => '言語',
 	'project' => 'プロジェクト',
 	'source_file' => 'ソースファイル',
@@ -1273,7 +1275,13 @@ $messages['ja'] = array(
 	'move_file_from_com' => 'ウィキ メディアコモンズからプロジェクトにファイルを移動',
 	'categories' => 'カテゴリー',
 	'remove_cats' => '既存のカテゴリを削除',
+	'original_wikitext' => '元のウィキテキスト',
+	'new_wikitext' => '新しいウィキテキスト',
+	'new_filename' => '新しいファイル名:',
 	'upload_submit' => 'アップロード',
+	'target_wiki' => '対象ウィキ',
+	'standard_language' => 'ja',
+	'help_mail' => '$1 へメールを送信',
 );
 
 /** Georgian (ქართული)

@@ -1038,6 +1038,7 @@ $messages['ja'] = array(
 	'th-original' => 'オリジナル',
 	'th-translation' => '翻訳',
 	'th-language' => '言語',
+	'th-username' => '利用者名',
 	'th-password' => 'パスワード',
 	'th-method' => 'メソッド',
 	'option-tusc' => 'TUSC (自動アップロード)',

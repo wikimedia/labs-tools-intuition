@@ -574,6 +574,27 @@ $messages['hr'] = array(
 	'view-source' => 'Prikaži izvor',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'hello' => 'Halo',
+	'welcome' => 'Witaj',
+	'toolversionstamp' => 'Wersija $1 ($2)',
+	'etc' => 'atd.',
+	'namespace' => 'Mjenowy rum',
+	'form-submit' => 'Wotpósłać',
+	'form-reset' => 'Wróćo stajić',
+	'years' => '{{PLURAL:$1|lěto|lěće|lěta|lět}}',
+	'weeks' => '{{PLURAL:$1|tydźeń|njedźeli|njedźele|njedźel}}',
+	'days' => '{{PLURAL:$1|dźeń|dnjej|dny|dnjow}}',
+	'hours' => '{{PLURAL:$1|hodźina|hodźinje|hodźiny|hodźin}}',
+	'minutes' => '{{PLURAL:$1|mjeńšina|mjeńšinje|mjeńšiny|mjeńšin}}',
+	'seconds' => '{{PLURAL:$1|sekunda|sekundźe|sekundy|sekundow}}',
+	'last-modified-date' => 'Posledni raz změnjeny: $1',
+	'view-source' => 'Žórłowy tekst pokazać',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  * @author Dj
@@ -687,6 +708,7 @@ $messages['ja'] = array(
 	'toolversionstamp' => 'バージョン $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => '名前空間',
+	'form-submit' => '実行',
 	'form-reset' => '再設定',
 	'years' => '{{PLURAL: $1|年|年}}',
 	'weeks' => '{{PLURAL: $1|週間|週間}}',
