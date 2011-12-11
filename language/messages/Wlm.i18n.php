@@ -256,6 +256,22 @@ $messages['be-tarask'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'file' => 'চিত্র',
+	'author' => 'লেখক',
+	'date-unknown' => 'অজানা',
+	'id-none' => '(কিছু নাই)',
+	'bic-list' => 'তালিকা',
+	'bic-gallery' => 'গ্যালারি',
+	'author-heading' => 'লেখক',
+	'bic-list-bad' => 'দেখাও',
+	'users-list' => 'দেখাও',
+	'province-none' => '(অজানা)',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
@@ -410,6 +426,7 @@ $messages['de'] = array(
 /** Spanish (Español)
  * @author McDutchie
  * @author Platonides
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'title' => 'Imágenes de Wiki Loves Monuments',
@@ -429,7 +446,7 @@ $messages['es'] = array(
 	'total-images' => 'Total de imágenes: $1',
 	'view-uncategorized-images' => 'Ver imágenes sin categorizar',
 	'provide-id' => 'Proporcione el identificador de un monumento para mostrar los datos disponibles sobre el mismo',
-	'show-images-bad-only' => 'Mostrar sólo las imágenes con códigos incorrectos',
+	'show-images-bad-only' => 'Mostrar sólo las imágenes fuera de las listas',
 	'show-images-all' => 'Mostrar todas las imágenes',
 	'show-images-removed' => 'Mostrar imágenes retiradas del concurso',
 	'search-monuments' => 'Buscar monumentos',
@@ -455,6 +472,42 @@ $messages['es'] = array(
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
+);
+
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'title' => 'WLM fitxategiak',
+	'file' => 'Irudia',
+	'monument-type' => 'Monumentu mota',
+	'monument-id' => 'Monumentuaren ID',
+	'province' => 'Probintzia',
+	'comarque' => 'Eskualdea',
+	'competes' => 'Bukatuta',
+	'author' => 'Egilea',
+	'upload-time' => 'Igoera ordua',
+	'deleted' => 'Ezabatua ($1)',
+	'date-unknown' => 'Ezezaguna',
+	'total-images' => 'Irudiak guztira: $1',
+	'show-images-all' => 'Irudi guztiak erakutsi',
+	'search-monuments' => 'Bilatu monumentuak',
+	'view-frequency' => 'Monumentu ezagunak',
+	'view-ccaa' => 'Autonomia erkidegoaren arabera ikusi',
+	'view-province' => 'Probintziaren arabera ikusi',
+	'id-label' => 'Monumentuaren ID:',
+	'monument-heading' => 'Monumentua',
+	'count-heading' => 'Argazkiak',
+	'bic-list' => 'Zerrenda',
+	'bic-gallery' => 'Galeria',
+	'gallery-header' => '$1 ID-a duen monumentuarentzako irudiak',
+	'author-heading' => 'Egilea',
+	'bic-list-bad' => 'Erakutsi',
+	'bic-list-all' => 'Zerrenda osoa',
+	'users-list' => 'Ikusi',
+	'province-heading' => 'Probintzia',
+	'province-none' => '(Ezezaguna)',
+	'ccaa-heading' => 'Autom. Erkideg.',
 );
 
 /** Persian (فارسی)
@@ -1125,12 +1178,16 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'file' => 'Immaggine',
+	'author' => 'Autore',
+	'date-unknown' => 'Scanusciute',
 	'id-none' => '(Ninde)',
 	'monument-heading' => 'Monumende',
 	'bic-list' => 'Elenghe',
 	'bic-gallery' => 'Gallerie',
 	'bic-list-all' => 'Elenghe comblete',
+	'province-heading' => 'Provinge',
 	'province-none' => '(Scanusciute)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Slovenian (Slovenščina)

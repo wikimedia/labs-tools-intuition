@@ -179,6 +179,7 @@ $messages['es'] = array(
  */
 $messages['eu'] = array(
 	'alws-label' => 'Wiki',
+	'alws-selectwiki' => '(wikia aukeratu)',
 	'alws-group-mustused' => 'Gehien erabilitako wikiak',
 	'alws-group-allaz' => 'Wiki guztiak alfabetikoki',
 	'form-legend-settings' => 'Hobespenak',

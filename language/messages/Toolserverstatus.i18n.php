@@ -154,6 +154,38 @@ $messages['de'] = array(
 	'toolserver-status-short-missing' => '$1: Nicht vorhanden',
 );
 
+/** Spanish (Español)
+ * @author Vivaelcelta
+ */
+$messages['es'] = array(
+	'toolserver-status-ok' => 'No hay problemas en el grupo da base de datos $1 $2',
+	'toolserver-status-info' => 'Aviso para los(as) usuarios(as) del grupo $1: $2',
+	'toolserver-status-warn' => 'Advertencia para los(as) usuarios(as) del grupo $1: $2',
+	'toolserver-status-down' => 'El grupo $1 de la base de datos está cerrado temporalmente. $2',
+	'toolserver-status-erro' => 'El grupo  $1 de la base de datos es está caído. $2',
+	'toolserver-status-unknown' => 'Se desconoce el estado del grupo $1',
+	'toolserver-status-missing' => 'El grupo "$1" no existe',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Información',
+	'toolserver-status-short-warn' => '$1: Advertencia',
+	'toolserver-status-short-down' => '$1: Cerrado',
+	'toolserver-status-short-erro' => '$1: Error',
+	'toolserver-status-short-unknown' => '$1: Desconocido',
+	'toolserver-status-short-missing' => '$1: Inexistente',
+);
+
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'toolserver-status-short-ok' => '$1: Ados',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Oharra',
+	'toolserver-status-short-erro' => '$1: Errorea',
+	'toolserver-status-short-unknown' => '$1: Ezezaguna',
+	'toolserver-status-short-missing' => '$1: Faltan',
+);
+
 /** French (Français)
  * @author Jean-Frédéric
  * @author Od1n

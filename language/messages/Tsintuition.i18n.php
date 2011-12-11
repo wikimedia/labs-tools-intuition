@@ -256,7 +256,7 @@ $messages['bn'] = array(
 	'renewcookies-success' => 'কুকি নবায়নকৃত হয়েছে! আপনারা সবাই $1 পর্যন্ত নিশ্চিত।',
 	'tab-overview' => 'ভূমিকা',
 	'tab-settings' => 'সেটিং',
-	'tab-about' => 'বৃত্তান্ত',
+	'tab-about' => 'পরিচিতি',
 	'tab-demo' => 'ডেমো',
 	'bl-mysettings' => 'আমার ভাষা সেটিং',
 	'bl-mysettings-new' => 'ভাষা পরিবর্তন!',
@@ -495,6 +495,8 @@ $messages['eu'] = array(
 	'current-language' => 'Orain aukeratutako hizkuntza',
 	'settings-legend' => 'Hobespenak',
 	'choose-language' => 'Hizkuntza aukeratu',
+	'clear-cookies' => 'cookie-ak garbitu',
+	'renew-cookies' => 'cookie-ak berritu',
 	'tab-overview' => 'Ikuspegi orokorra',
 	'tab-settings' => 'Hobespenak',
 	'tab-about' => 'Honi buruz',
@@ -808,7 +810,8 @@ $messages['ja'] = array(
 	'renewcookies-success' => 'クッキーを更新しました。以降$1のあいだ有効です。',
 	'tab-overview' => '概要',
 	'tab-settings' => '設定',
-	'tab-demo' => 'デモ',
+	'tab-about' => '解説',
+	'tab-demo' => '実演',
 	'bl-mysettings' => '自分の言語設定',
 	'bl-mysettings-new' => '言語を変更',
 );
@@ -1064,6 +1067,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'current-settings' => 'Innstillingane no',

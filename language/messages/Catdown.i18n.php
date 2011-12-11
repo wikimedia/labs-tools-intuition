@@ -238,6 +238,16 @@ Linux/Mac OS
 	'scaling-both' => ', маштабаваны да максымальнага памеру ў $1×$2 {{plural:$2|піксэль|піксэлі|піксэляў}}',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'title' => 'বিষয়শ্রেণীর ভিত্তিতে চিত্র ডাউনলোড',
+	'subtitle' => 'কোন বিষয়শ্রেণীর চিত্র ডাউনলোডের সহজ উপায়',
+	'category' => 'বিষয়শ্রেণী:',
+	'download' => 'ডাউনলোড',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
@@ -406,6 +416,67 @@ Sofern Sie daran interessiert sind den Quellcode dieses Programms zu bekommen, k
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 Es gibt auch andere GNU-Mirror. Siehe hierzu
  http://www.gnu.org/prep/ftp.html',
+);
+
+/** Spanish (Español)
+ * @author Vivaelcelta
+ */
+$messages['es'] = array(
+	'title' => 'Descarga de imágenes por categoría',
+	'subtitle' => 'La forma más fácil de descargar las imágenes en una categoría',
+	'project' => 'Proyecto:',
+	'category' => 'Categoría:',
+	'thumbnailing' => 'Miniatura',
+	'max-width' => 'Ancho máximo:',
+	'max-height' => 'Altura máxima:',
+	'invalid-width' => 'Ancho no válido',
+	'invalid-height' => 'Altura no válida',
+	'no-such-project' => 'No hay ningún proyecto de ese tipo',
+	'no-images' => 'No hay imágenes en esta categoría',
+	'category-is-url' => 'El nombre de la categoría dada es parecida a una dirección URL. Es necesario especificar el nombre de la categoría, no su dirección URL.',
+	'category-contains-namespace' => 'Al parecer ha incluido el espacio de nombres junto al nombre de la categoría. Con el nombre dado, la página estaría disponible como [[Category:$1]].',
+	'zip-failed' => 'Error en la creación del ZIP',
+	'image-area-too-big' => '"$1" es demasiado grande para crear una miniatura. Use el tamaño completo.',
+	'download-info' => '{{plural: $1|Hay un imagen|Hay $1 imágenes}}, con un tamaño estimado de $2',
+	'download' => 'Descargar',
+	'readme-contents' => 'El archivo "$4" incluido enumera
+las imágenes en la categoría "$1" ($2)$3.
+
+== Instrucciones para descargar todo la lista de imágenes ==
+El tiempo de descarga puede variar desde unos minutos a varias horas.
+
+Windows:
+ Extraiga todos los archivos en la misma carpeta y ejecute $5
+ $6
+Linux/Mac OS:
+ Extraiga todos los archivos y abra un  terminal en esa carpeta. Ejecute $5',
+	'non-bundled-wget' => 'Nota: Esta versión no incluye wget para Windows. Deberás descomprimir
+en una carpeta con wget.exe o de lo contrario tener wget en la RUTA',
+	'wget-info' => 'Este archivo contiene una copia de wget $1 (para la plataforma Windows). Wget es software libre,
+bajo los términos de la LICENCIA PÚBLICA GENERAL DE GNU versión 3.
+A continuación hay una copia de la licencia e también está disponible en http://www.gnu.org/licenses/gpl-3.0.txt
+
+En caso de estar interesado en el código fuente de este programa, puede descargarlo en
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+o en algún otro espejo de GNU, ver
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', escaladas a un ancho máximo de $1 {{plural:$1|píxel|píxeles}}',
+	'scaling-height' => ', escaladas a una altura máxima de $1 {{plural:$1|píxel|píxeles}}',
+	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
+);
+
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'project' => 'Proiektua:',
+	'category' => 'Kategoria:',
+	'max-width' => 'Zabalera maximoa:',
+	'max-height' => 'Altuera maximoa:',
+	'zip-failed' => 'Ezin izan da Zip-a sortu',
+	'download' => 'Jaitsi',
 );
 
 /** Persian (فارسی)

@@ -182,6 +182,7 @@ $messages['de'] = array(
 /** Spanish (Español)
  * @author Fitoschido
  * @author Platonides
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'search-title' => 'Búsqueda de monumentos',
@@ -189,6 +190,8 @@ $messages['es'] = array(
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Buscar',
+	'filter-all-countries' => 'Todos los países',
+	'filter-all-languages' => 'Todos los idiomas',
 );
 
 /** Estonian (Eesti)
@@ -204,9 +207,13 @@ $messages['et'] = array(
  * @author An13sa
  */
 $messages['eu'] = array(
+	'search-title' => 'Monumentuen bilaketa',
+	'search-monuments-database' => 'Bilatu monumentuen datu-basean',
 	'search-table-th-field' => 'Eremua',
 	'search-table-th-filter' => 'Iragazkia',
 	'search-table-th-search' => 'Bilatu',
+	'filter-all-countries' => 'Herrialde guztiak',
+	'filter-all-languages' => 'Hizkuntza guztiak',
 );
 
 /** Persian (فارسی)
@@ -434,9 +441,13 @@ $messages['nl'] = array(
  * @author Nghtwlkr
  */
 $messages['no'] = array(
+	'search-title' => 'Monumentsøk',
+	'search-monuments-database' => 'Søk i monumentdatabasen',
 	'search-table-th-field' => 'Felt',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Søk',
+	'filter-all-countries' => 'Alle land',
+	'filter-all-languages' => 'Alle språk',
 );
 
 /** Deitsch (Deitsch)
@@ -504,6 +515,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'search-title' => 'Ricerche de le monuminde',
 	'search-table-th-field' => 'Cambe',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Cirche',
