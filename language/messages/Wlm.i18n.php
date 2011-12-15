@@ -633,9 +633,11 @@ $messages['he'] = array(
 	'monument-type' => 'סוג האתר',
 	'monument-id' => 'מזהה האתר',
 	'province' => 'מחוז',
+	'comarque' => 'קומרקה',
 	'competes' => 'מתחרה',
 	'author' => 'יוצר',
 	'upload-time' => 'זמן ההעלאה',
+	'deleted' => 'נמחק ($1)',
 	'concursa' => 'משתתף ב־WLM',
 	'no-concursa' => 'מחוץ לתחרות WLM',
 	'not-available' => 'אינו זמין',
@@ -668,6 +670,7 @@ $messages['he'] = array(
 	'distict-monuments' => 'אנדרטאות ייחודיות',
 	'province-heading' => 'מחוז',
 	'province-none' => '(אינו ידוע)',
+	'ccaa-heading' => 'קהילות אוטונומיות',
 );
 
 /** Hungarian (Magyar)
