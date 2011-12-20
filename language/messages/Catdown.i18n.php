@@ -740,6 +740,22 @@ o de un altere speculo de GNU, vide
 	'scaling-both' => ', scalate a un dimension maxime de $1 × $2 pixels',
 );
 
+/** Italian (Italiano)
+ * @author ZioNicco
+ */
+$messages['it'] = array(
+	'title' => 'Scarica le immagini dalla categoria',
+	'project' => 'Progetto:',
+	'category' => 'Categoria:',
+	'max-width' => 'Larghezza massima:',
+	'max-height' => 'Altezza massima:',
+	'invalid-width' => 'Larghezza non valida',
+	'invalid-height' => 'Altezza non valida',
+	'no-such-project' => 'Progetto inesistente',
+	'no-images' => "Non c'è nessuna immagine nella categoria",
+	'zip-failed' => 'Creazione Zip fallita',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */

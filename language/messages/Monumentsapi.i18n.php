@@ -324,11 +324,14 @@ $messages['inh'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author ZioNicco
  */
 $messages['it'] = array(
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Cerca',
+	'filter-all-countries' => 'Tutti i paesi',
+	'filter-all-languages' => 'Tutte le lingue',
 );
 
 /** Japanese (日本語)

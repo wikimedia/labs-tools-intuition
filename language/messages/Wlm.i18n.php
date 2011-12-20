@@ -811,6 +811,14 @@ $messages['id'] = array(
 	'province-none' => '(Tidak diketahui)',
 );
 
+/** Italian (Italiano)
+ * @author ZioNicco
+ */
+$messages['it'] = array(
+	'author' => 'Autore',
+	'bic-gallery' => 'Galleria',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
@@ -827,7 +835,8 @@ $messages['ksh'] = array(
 	'monument-type' => 'De Zoot Dänkmohl',
 	'monument-id' => 'Dem Dänkmohl sing Kännong',
 	'province' => 'Provinz',
-	'comarque' => 'Comarca',
+	'comarque' => 'Comarca
+',
 	'competes' => 'Määt met',
 	'author' => 'Urhävver',
 	'upload-time' => 'Huhjelaade (<abbr title="ußjedröck en de Summerzick vun Meddel-Europa">MESZ</abbr>)',

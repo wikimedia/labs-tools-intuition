@@ -287,6 +287,14 @@ $messages['ia'] = array(
 	'toolserver-status-short-missing' => '$1: Mancante',
 );
 
+/** Italian (Italiano)
+ * @author ZioNicco
+ */
+$messages['it'] = array(
+	'toolserver-status-ok' => 'Non ci sono problemi nel cluster di database $1 $2',
+	'toolserver-status-missing' => 'Cluster $1 non esistente',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author វ័ណថារិទ្ធ
  */

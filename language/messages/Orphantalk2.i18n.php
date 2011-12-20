@@ -592,6 +592,7 @@ $messages['inh'] = array(
 /** Italian (Italiano)
  * @author Beta16
  * @author Valepert
+ * @author ZioNicco
  */
 $messages['it'] = array(
 	'title' => 'OrphanTalk2',
@@ -604,6 +605,7 @@ $messages['it'] = array(
 	'update' => 'Aggiorna',
 	'tools-delete' => 'cancella',
 	'tools-links' => 'collegamenti',
+	'tools-subject' => 'oggetto',
 	'tools-hist' => 'cron',
 	'tools-curr' => 'corr',
 	'resultslimited' => 'I risultati sono stati limitati a $1 pagine.',
