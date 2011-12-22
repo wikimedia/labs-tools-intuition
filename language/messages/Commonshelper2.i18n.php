@@ -67,7 +67,7 @@ $messages['en'] = array(
 
 	//Upload
 	'error_bot_blocked' => 'Upload bot is blocked on Wikimedia Commons.',
-	'error_upload_meta' => 'Cannot upload directly because there are problem with the meta data (see above)!',
+	'error_upload_meta' => 'Cannot upload directly because there is a problem with the meta data (see above)!',
 	'error_tusc_failed' => 'TUSC verification failed!',
 	'error_only_commons' => 'Direct upload works only at Wikimedia Commons!',
 	'upload_control_text'=> 'Please check the new wiki text and click "$1" if all is OK!',
