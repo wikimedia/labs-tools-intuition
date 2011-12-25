@@ -919,6 +919,27 @@ $messages['my'] = array(
 	'view-source' => 'ရင်းမြစ်ကို ကြည့်ရန်',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'hello' => 'Hallo',
+	'welcome' => 'Velkommen',
+	'toolversionstamp' => 'Versjon $1 ($2)',
+	'etc' => 'osv.',
+	'namespace' => 'Navnerom',
+	'form-submit' => 'Gå',
+	'form-reset' => 'Nullstill',
+	'years' => '{{PLURAL: $1|år|år}}',
+	'weeks' => '{{PLURAL: $1|uke|uker}}',
+	'days' => '{{PLURAL: $1|dag|dager}}',
+	'hours' => '{{PLURAL: $1|time|timer}}',
+	'minutes' => '{{PLURAL: $1|minutt|minutter}}',
+	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
+	'last-modified-date' => 'Sist endret: $1',
+	'view-source' => 'Vis kilde',
+);
+
 /** Dutch (Nederlands)
  * @author GerardM
  * @author Krinkle
@@ -1359,6 +1380,7 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Hzy980512
  * @author Shizhao
  * @author Xiaomingyan
  */
@@ -1370,12 +1392,12 @@ $messages['zh-hans'] = array(
 	'namespace' => '名字空间',
 	'form-submit' => '提交',
 	'form-reset' => '重置',
-	'years' => '年',
-	'weeks' => '周',
-	'days' => '天',
-	'hours' => '小时',
-	'minutes' => '分钟',
-	'seconds' => '秒',
+	'years' => '{{PLURAL: $1|年}}',
+	'weeks' => '{{PLURAL: $1|周}}',
+	'days' => '{{PLURAL: $1|天}}',
+	'hours' => '{{PLURAL: $1|小时}}',
+	'minutes' => '{{PLURAL: $1|分钟}}',
+	'seconds' => '{{PLURAL: $1|秒}}',
 	'last-modified-date' => '最近修改: $1',
 	'view-source' => '查看源代码',
 );

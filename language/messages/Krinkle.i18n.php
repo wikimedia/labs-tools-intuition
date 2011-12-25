@@ -369,6 +369,17 @@ $messages['ms'] = array(
 	'form-legend-settings' => 'Tetapan',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'alws-label' => 'Wiki',
+	'alws-selectwiki' => '(velg wiki)',
+	'alws-group-mustused' => 'Mest brukte wikier',
+	'alws-group-allaz' => 'Alle wikier i alfabetisk orden',
+	'form-legend-settings' => 'Innstillinger',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand

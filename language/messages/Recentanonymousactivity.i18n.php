@@ -207,6 +207,13 @@ $messages['ms'] = array(
 	'title' => 'Kegiatan terbaru oleh pengguna tanpa nama',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'title' => 'Siste anonyme aktivitet',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand

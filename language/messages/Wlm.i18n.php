@@ -1418,3 +1418,25 @@ $messages['vi'] = array(
 	'ccaa-heading' => 'CĐTT',
 );
 
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hzy980512
+ */
+$messages['zh-hans'] = array(
+	'file' => '图片',
+	'province' => '省份',
+	'author' => '作者',
+	'upload-time' => '上传时间',
+	'deleted' => '已删除($1)',
+	'not-available' => '不可用',
+	'date-unknown' => '未知',
+	'show-images-all' => '显示所有图片',
+	'id-none' => '（无）',
+	'count-heading' => '图片',
+	'bic-list' => '列表',
+	'author-heading' => '作者',
+	'bic-list-bad' => '显示',
+	'bic-list-all' => '完整列表',
+	'unregistered' => '未注册',
+	'users-list' => '查看',
+);
+

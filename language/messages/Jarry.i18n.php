@@ -263,6 +263,16 @@ $messages['ms'] = array(
 	'error-form-empty' => 'Ada ruangan wajib yang dibiarkan kosong. Anda mesti mengisinya sebelum bersambung.',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'moretools' => 'flere verktøy fra den samme forfatteren',
+	'bugs' => 'feilrapporter og funksjonsforespørsler',
+	'comments' => 'kommentarer og spørringer',
+	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */

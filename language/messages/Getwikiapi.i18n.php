@@ -352,6 +352,15 @@ $messages['ms'] = array(
 	'output' => 'Output untuk "$1"',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$messages['nb'] = array(
+	'formats-heading' => 'utdataformater',
+	'input' => 'Inndata',
+	'label-wikiids' => 'Wiki-identifikatorer',
+	'no-matches' => 'Ingenting passet med «$1»',
+	'output' => 'Utdata for «$1»',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand

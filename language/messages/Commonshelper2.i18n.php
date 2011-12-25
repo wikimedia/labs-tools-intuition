@@ -1751,6 +1751,57 @@ $messages['mzn'] = array(
 	'error_upload_file' => 'اصلی پرونده باربی‌یشته نوانه.',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'attention' => 'Merk',
+	'description' => 'Et verktøy for å overføre filer fra Wikimedia-prosjekter til Wikimedia Commons',
+	'change_meta' => 'Endre $1kategori- og malinnstillinger$2 for $3',
+	'jira_link' => 'Rapporter en feil eller foreslå en funksjon',
+	'language' => 'Språk',
+	'project' => 'Prosjekt',
+	'source_file' => 'Kildefil',
+	'target_file' => 'Målfil',
+	'commons_username' => 'Wikimedia Commons-brukernavn',
+	'commons_to_project' => 'Wikimedia Commons til prosjekt',
+	'move_file_from_com' => 'Flytt fil fra Wikimedia Commons til prosjekt',
+	'categories' => 'Kategorier',
+	'remove_cats' => 'Fjern eksisterende kategorier',
+	'use_checkusage' => 'Bruk $1CommonSense$2 til å foreslå nye kategorier',
+	'use_tusc' => 'Bruk $1TUSC$2 til å autentisere og overføre filen direkte',
+	'tusc_user' => 'TUSC-brukernavn',
+	'tusc_pass' => 'TUSC-passord',
+	'do_it' => 'Gjør det',
+	'error_transfer_usr' => 'Du har ikke satt et Wikimedia Commons-brukernavn',
+	'error_not_exists' => 'Kildefil finnes ikke!',
+	'error_on_commons' => 'Kildefil allerede på $1!',
+	'error_file_exists' => 'Filen finnes allerede på $3 som «$1$4$2»!',
+	'error_diff_exists' => 'En annen målfil finnes allerede på målwikien under samme navn!',
+	'error_no_meta' => 'Ingen metadata funnet om kildewikien! $1Legg til/oppdater metadataene for prosjektet$2',
+	'error_meta_no_good' => 'Metadata: Ingen gode maler funnet! $1Lenke til metadata$2',
+	'error_meta_bad' => 'Metadata: Dårlig mal funnet! $1Legg til/oppdater metadataene for prosjektet$2',
+	'original_wikitext' => 'Opprinnelig wikitekst',
+	'new_wikitext' => 'Ny wikitekst',
+	'new_filename' => 'Nytt filnavn:',
+	'output_information' => 'For manuell opplasting, endre teksten ovenfor (om nødvendig), lagre $1filen$2 på din datamaskin, og så $3last den opp$4.',
+	'upload_submit' => 'Last opp!',
+	'target_wiki' => 'målwikien',
+	'standard_language' => 'no',
+	'error_bot_blocked' => 'Opplastingsbotten er blokkert på Wikimedia Commons.',
+	'error_upload_meta' => 'Kan ikke laste opp direkte fordi det er problemer med metadataene (se ovenfor)!',
+	'error_tusc_failed' => 'TUSC-verifisering mislyktes!',
+	'error_only_commons' => 'Direkte opplasting virker kun på Wikimedia Commons!',
+	'upload_control_text' => 'Sjekk den nye wikiteksten og klikk på «$1» hvis alt er OK!',
+	'error_commons_user' => 'Brukernavnet ditt på Wikimedia Commons må være i beskrivelsen for at brukeren som gjør overføringen skal kunne identifiseres!',
+	'error_upload_users' => 'Opplastingsfunksjonen er kun tilgjengelig for enkelte brukere under testperioden!',
+	'error_upload_file' => 'Den opprinnelige filen kan ikke lastes ned.',
+	'help_intro' => 'Når du vil rapportere en feil, foreslå en funksjon eller har et spørsmål, kan du bruke en av kontaktmetodene nedenfor:',
+	'help_jira' => '$1JIRA (du trenger en konto)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Send en e-post til $1',
+	'help_commons' => '$1Legg til et innlegg på Commons$2',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  * @author Tjcool007
@@ -2523,6 +2574,7 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Hzy980512
  * @author Mys 721tx
  */
 $messages['zh-hans'] = array(
@@ -2561,6 +2613,7 @@ $messages['zh-hans'] = array(
 	'error_upload_users' => '测试期间仅有部分用户可以使用上传功能！',
 	'error_upload_file' => '无法下载原始文件。',
 	'help_intro' => '当您希望报告bug、提议增加新功能或咨询问题时，您可以使用下列联系方式中的一种。',
+	'help_mail' => '发送邮件给$1',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)

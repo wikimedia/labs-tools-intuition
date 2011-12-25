@@ -426,6 +426,19 @@ $messages['ms'] = array(
 	'filter-all-languages' => 'Semua bahasa',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'search-title' => 'Monumentsøk',
+	'search-monuments-database' => 'Søk i monumentdatabasen',
+	'search-table-th-field' => 'Felt',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Søk',
+	'filter-all-countries' => 'Alle land',
+	'filter-all-languages' => 'Alle språk',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand
@@ -662,10 +675,13 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Hzy980512
  */
 $messages['zh-hans'] = array(
 	'search-table-th-field' => '字段',
 	'search-table-th-filter' => '筛选器',
 	'search-table-th-search' => '搜索',
+	'filter-all-countries' => '所有分类',
+	'filter-all-languages' => '所有语言',
 );
 

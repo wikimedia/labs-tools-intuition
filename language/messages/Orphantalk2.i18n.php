@@ -817,6 +817,28 @@ $messages['mt'] = array(
 	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$messages['nb'] = array(
+	'title' => 'Foreldreløse diskusjonssider 2',
+	'select-wiki-first' => '(velg en wiki først)',
+	'hideredirects' => 'Skjul omdirigeringer',
+	'hidesubpages' => 'Skjul undersider',
+	'limit' => 'Grense',
+	'page' => 'Side',
+	'redirect' => 'Er omdirigering?',
+	'output' => 'Utdata',
+	'update' => 'Oppdater',
+	'tools-delete' => 'slett',
+	'tools-links' => 'lenker',
+	'tools-subject' => 'subjekt',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'nå',
+	'tools-globalusage' => 'global bruk',
+	'deletesummary' => 'Renser opp i foreldreløse diskusjonssider via $1',
+	'noresults' => 'Det var ingen foreldreløse diskusjonssider på denne wikien som passet med de valgte innstillingene.',
+	'resultslimited' => 'Resultatene ble begrenset til $1 sider.',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand

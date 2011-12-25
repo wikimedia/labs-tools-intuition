@@ -155,20 +155,21 @@ $messages['de'] = array(
 );
 
 /** Spanish (Español)
+ * @author Platonides
  * @author Vivaelcelta
  */
 $messages['es'] = array(
-	'toolserver-status-ok' => 'No hay problemas en el grupo da base de datos $1 $2',
-	'toolserver-status-info' => 'Aviso para los(as) usuarios(as) del grupo $1: $2',
-	'toolserver-status-warn' => 'Advertencia para los(as) usuarios(as) del grupo $1: $2',
-	'toolserver-status-down' => 'El grupo $1 de la base de datos está cerrado temporalmente. $2',
-	'toolserver-status-erro' => 'El grupo  $1 de la base de datos es está caído. $2',
-	'toolserver-status-unknown' => 'Se desconoce el estado del grupo $1',
-	'toolserver-status-missing' => 'El grupo "$1" no existe',
+	'toolserver-status-ok' => 'No hay problemas en el cluster $1 $2',
+	'toolserver-status-info' => 'Información para los usuarios del cluster $1: $2',
+	'toolserver-status-warn' => 'Advertencia para usuarios del cluster $1: $2',
+	'toolserver-status-down' => 'El cluster $1 no está disponible. $2',
+	'toolserver-status-erro' => 'El cluster $1 está caído. $2',
+	'toolserver-status-unknown' => 'Se desconoce el estado del cluster $1',
+	'toolserver-status-missing' => 'El cluster "$1" no existe',
 	'toolserver-status-short-ok' => '$1: Ok',
 	'toolserver-status-short-info' => '$1: Información',
 	'toolserver-status-short-warn' => '$1: Advertencia',
-	'toolserver-status-short-down' => '$1: Cerrado',
+	'toolserver-status-short-down' => '$1: Desconectado',
 	'toolserver-status-short-erro' => '$1: Error',
 	'toolserver-status-short-unknown' => '$1: Desconocido',
 	'toolserver-status-short-missing' => '$1: Inexistente',
@@ -583,5 +584,14 @@ $messages['vi'] = array(
 	'toolserver-status-short-erro' => '$1: Lỗi',
 	'toolserver-status-short-unknown' => '$1: Không rõ',
 	'toolserver-status-short-missing' => '$1: Không có',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hzy980512
+ */
+$messages['zh-hans'] = array(
+	'toolserver-status-short-ok' => '$1: 良好',
+	'toolserver-status-short-unknown' => '$1: 未知',
+	'toolserver-status-short-missing' => '$1: 丢失',
 );
 

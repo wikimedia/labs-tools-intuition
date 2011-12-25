@@ -441,6 +441,21 @@ $messages['mzn'] = array(
 	'language-label' => 'زوون',
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'enter-details' => 'Skriv inn detaljer',
+	'introduction' => 'Skriv inn navnet på en mal (kun fra Wikipedia i øyeblikket, beklager) og trykk start. Det er så enkelt som det. Det er noe hurtiglagring (husking av resultater), men det er beklageligvis utenfor vår og verktøyets kontroll.',
+	'language-label' => 'Språk',
+	'namespace-label' => 'Navnerom',
+	'pagename-label' => 'Sidenavn (ekskludert navnerom)',
+	'transclusion-count-label' => 'Antall transklusjoner',
+	'transclusion-count' => '$1 transklusjon(er) funnet.',
+	'error-suggestion' => 'Kanskje du stavet navnet på siden feil (eller bommet på små og store bokstaver)?',
+	'time-label' => 'Tiden det tar å utføre kommandoen',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
