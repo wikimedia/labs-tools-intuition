@@ -423,6 +423,14 @@ $messages['de'] = array(
 	'ccaa-heading' => '!!FUZZYY!!CC.AA.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'bic-gallery' => 'Galeri',
+	'bic-list-bad' => 'bımısnı',
+);
+
 /** Spanish (Español)
  * @author McDutchie
  * @author Platonides
@@ -521,6 +529,14 @@ $messages['fa'] = array(
 	'author' => 'مؤلف',
 	'deleted' => 'حذف شده‌است ($1)',
 	'bic-list-bad' => 'نمایش',
+);
+
+/** Finnish (Suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'view-uncategorized-images' => 'Näytä luokittelemattomat kuvat',
+	'show-images-all' => 'Näytä kaikki kuvat',
 );
 
 /** French (Français)

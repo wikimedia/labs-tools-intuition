@@ -336,6 +336,13 @@ $messages['de'] = array(
 	'resultslimited' => 'Die Ergebnisse wurden auf $1 Seiten beschränkt.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'limit' => 'Limit',
+);
+
 /** Greek (Ελληνικά)
  * @author Evropi
  */

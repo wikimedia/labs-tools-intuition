@@ -434,6 +434,13 @@ $messages['de'] = array(
 	'help-translate-tooltip' => 'Hilf anderen indem du die Nachrichten der Benutzeroberfläche in deine Sprache übersetzt.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'tab-demo' => 'Demo',
+);
+
 /** Greek (Ελληνικά)
  * @author Evropi
  */

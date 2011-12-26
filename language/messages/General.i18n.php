@@ -369,6 +369,13 @@ $messages['de'] = array(
 	'view-source' => 'Quelltext anzeigen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'hello' => 'Merheba',
+);
+
 /** Greek (Ελληνικά)
  * @author Evropi
  */
@@ -481,12 +488,12 @@ $messages['fi'] = array(
 	'namespace' => 'Nimiavaruus',
 	'form-submit' => 'Mene',
 	'form-reset' => 'Tyhjennä',
-	'years' => 'vuotta',
-	'weeks' => 'viikkoa',
+	'years' => '{{PLURAL: $1|vuosi|vuotta}}',
+	'weeks' => '{{PLURAL: $1|viikko|viikkoa}}',
 	'days' => 'päivää',
-	'hours' => 'tuntia',
-	'minutes' => 'minuuttia',
-	'seconds' => 'sekuntia',
+	'hours' => '{{PLURAL: $1|tunti|tuntia}}',
+	'minutes' => '{{PLURAL: $1|minuutti|minuuttia}}',
+	'seconds' => '{{PLURAL: $1|sekunti|sekuntia}}',
 	'last-modified-date' => 'Viimeksi muokattu $1',
 	'view-source' => 'näytä lähdekoodi',
 );

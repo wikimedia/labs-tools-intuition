@@ -418,6 +418,16 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
  http://www.gnu.org/prep/ftp.html',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'category' => 'Kategoriya',
+	'thumbnailing' => 'Resimo verdı',
+	'max-width' => 'En vesi herayey',
+	'max-height' => 'En vesi berzey',
+);
+
 /** Spanish (Español)
  * @author Vivaelcelta
  */
@@ -491,6 +501,14 @@ $messages['fa'] = array(
 	'max-width' => 'حداکثر پهنا:',
 	'no-such-project' => 'چنین پروژه‌ای وجود ندارد',
 	'download' => 'بارگیری',
+);
+
+/** Finnish (Suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'max-width' => 'Enimmäisleveys:',
+	'max-height' => 'Enimmäiskorkeus:',
 );
 
 /** Faroese (Føroyskt)

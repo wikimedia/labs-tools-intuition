@@ -664,6 +664,14 @@ $messages['de-formal'] = array(
 	'help_jira' => '$1JIRA (Sie benötigen ein Konto)$2 (Projekt: Commonshelper2)',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'tusc_user' => 'TUSC namey qarwani',
+	'standard_language' => 'diq',
+);
+
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Fitoschido
