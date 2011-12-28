@@ -598,16 +598,17 @@ $messages['inh'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Nemo bis
  * @author Valepert
  * @author ZioNicco
  */
 $messages['it'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'DiscussioneOrfana2',
 	'hideredirects' => 'Nascondi redirect',
 	'hidesubpages' => 'Nascondi le sottopagine',
 	'limit' => 'Limite',
 	'page' => 'Pagina',
-	'redirect' => 'È redirect?',
+	'redirect' => 'È un redirect?',
 	'output' => 'Risultato',
 	'update' => 'Aggiorna',
 	'tools-delete' => 'cancella',

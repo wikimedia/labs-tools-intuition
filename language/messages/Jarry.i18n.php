@@ -213,10 +213,11 @@ $messages['id'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Nemo bis
  * @author Rippitippi
  */
 $messages['it'] = array(
-	'moretools' => 'più strumenti dello stesso autore',
+	'moretools' => 'altri strumenti dello stesso autore',
 	'bugs' => 'segnalazione errori e richieste di nuove funzioni',
 	'comments' => 'commenti e richieste',
 	'error-form-empty' => 'Uno o più campi obbligatori sono stati lasciati vuoti. È necessario completarli prima di continuare.',

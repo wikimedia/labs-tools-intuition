@@ -772,6 +772,7 @@ $messages['id'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Nemo bis
  * @author Rippitippi
  */
 $messages['it'] = array(
@@ -796,7 +797,7 @@ $messages['it'] = array(
 	'usage' => 'Strumenti tradotti da Toolserver Intuition.',
 	'help-translate-tool' => 'Aiutaci a tradurre questo strumento!',
 	'help-translate-all' => 'Aiutaci a tradurre i testi del Toolserver!',
-	'help-translate-tooltip' => "Aiuta gli altri, traducendo i messaggi dell'interfaccia nella tua lingua.",
+	'help-translate-tooltip' => "Aiuta gli altri traducendo i messaggi dell'interfaccia nella tua lingua.",
 );
 
 /** Japanese (日本語)

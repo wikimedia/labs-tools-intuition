@@ -270,9 +270,10 @@ $messages['id'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Nemo bis
  */
 $messages['it'] = array(
-	'formats-heading' => 'Formati di output',
+	'formats-heading' => 'Formati in uscita',
 );
 
 /** Japanese (日本語)
