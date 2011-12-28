@@ -36,7 +36,7 @@ $I18N = new TsIntuition( $opts );
 // Load all domains so we can get some statistics later on and
 // make sure "getAvailableLangs" is compelte
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
-	$I18N->loadTextdomain( $domainKey );
+	$I18N->loadTextdomain( $domainKey, 'ignore' );
 }
 
 /* Initialize BaseTool */
