@@ -34,7 +34,7 @@ $opts = array(
 $I18N = new TsIntuition( $opts );
 
 // Load all domains so we can get some statistics later on and
-// make sure "getAvailableLangs" is compelte
+// make sure "getAvailableLangs" is complete
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 	$I18N->loadTextdomain( $domainKey, 'ignore' );
 }
