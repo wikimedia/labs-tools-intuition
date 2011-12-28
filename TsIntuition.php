@@ -645,11 +645,9 @@ class TsIntuition {
 	 * Load a textdomain (if not loaded already).
 	 *
 	 * @param $domain string Name of the textdomain (case-insensitive)
-	 * @param $msgAction string What to do with the messages from the text domain
-	 * one of 'register', 'ignore'.
 	 * @return False on error, (normalized) domainname if success.
 	 */
-	public function loadTextdomain( $domain, $msgAction = 'register' ) {
+	public function loadTextdomain( $domain ) {
 
 		// Generally validate input and protect against path traversal
 		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) || strcspn( $domain, ":/\\\000" ) !== strlen( $domain ) ) {
@@ -678,7 +676,7 @@ class TsIntuition {
 		}
 
 		// Load it
-		$load = $this->loadTextdomainFromFile( $path, $domain, $msgAction );
+		$load = $this->loadTextdomainFromFile( $path, $domain );
 
 		// Return (normalized) domainname or false
 		return !!$load ? $domain : false;
@@ -688,7 +686,7 @@ class TsIntuition {
 	/**
 	 * @DOCME:
 	 */
-	public function loadTextdomainFromFile( $filePath = '', $domain = '', $msgAction = 'register' ) {
+	public function loadTextdomainFromFile( $filePath = '', $domain = '' ) {
 		if ( !TsIntuitionUtil::nonEmptyStrs( $filePath, $domain ) ) {
 			$this->errTrigger( 'One or more arguments are missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
@@ -704,14 +702,14 @@ class TsIntuition {
 				
 		// Parse it
 		$compact = compact( $this->includeVariables );
-		$this->parseTextdomain( $compact, $domain, $filePath, $msgAction );
+		$this->parseTextdomain( $compact, $domain, $filePath );
 		return true;
 	}
 
 	/**
 	 * @DOCME:
 	 */
-	private function parseTextdomain( $data, $domain, $filePath, $msgAction ) {
+	private function parseTextdomain( $data, $domain, $filePath ) {
 		if ( !is_array( $data ) ) {
 			$this->errTrigger( 'Invalid $data passed to ' . __FUNCTION__,
 				__METHOD__, E_ERROR, __FILE__, __LINE__ );
@@ -723,19 +721,13 @@ class TsIntuition {
 		}
 		unset( $data['messages']['qqq'] ); // Workaround
 
-		if ( $msgAction === 'register' ) {
-			// Load the message into the blob
-			// overwrites the existing array of messages if it already existed
-			// If you need to add or overwrite some messages temporarily,
-			// use Itui::setMsg() or Itui::setMsgs() instead
-			foreach ( $data['messages'] as $langCode => $messages ) {
-				$this->availableLanguages[$langCode] = true;
-				$this->setMsgs( (array)$messages, $domain, $langCode );
-			}
-		} else {
-			foreach ( array_keys( $data['messages'] ) as $langCode ) {
-				$this->availableLanguages[$langCode] = true;
-			}
+		// Load the message into the blob
+		// overwrites the existing array of messages if it already existed
+		// If you need to add or overwrite some messages temporarily,
+		// use Itui::setMsg() or Itui::setMsgs() instead
+		foreach ( $data['messages'] as $langcode => $messages ) {
+			$this->availableLanguages[$langcode] = true;
+			$this->setMsgs( (array)$messages, $domain, $langcode );
 		}
 
 		// Was there a url defined in the textdomain file ?
