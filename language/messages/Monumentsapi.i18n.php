@@ -532,6 +532,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'search-title' => 'Ricerche de le monuminde',
+	'search-monuments-database' => 'Cirche le archivije de le monuminde',
 	'search-table-th-field' => 'Cambe',
 	'search-table-th-filter' => 'Filtre',
 	'search-table-th-search' => 'Cirche',
