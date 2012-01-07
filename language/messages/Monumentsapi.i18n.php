@@ -128,6 +128,8 @@ $messages['bg'] = array(
  */
 $messages['bn'] = array(
 	'search-table-th-search' => 'অনুসন্ধান',
+	'filter-all-countries' => 'সকল দেশ',
+	'filter-all-languages' => 'সকল ভাষা',
 );
 
 /** Breton (Brezhoneg)

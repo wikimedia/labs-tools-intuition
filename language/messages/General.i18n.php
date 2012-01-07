@@ -1114,10 +1114,12 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'dateformat' => '%B %d %Y',
 	'hello' => 'Cià',
 	'welcome' => 'Bovègne',
 	'toolversionstamp' => 'Versione $1 ($2)',
 	'etc' => 'ecc.',
+	'colon-separator' => ':',
 	'namespace' => 'Namespace',
 	'form-submit' => 'Veje',
 	'form-reset' => 'Azzere',
@@ -1129,6 +1131,7 @@ $messages['roa-tara'] = array(
 	'seconds' => '{{PLURAL:$1|seconde|seconde}}',
 	'last-modified-date' => 'Urteme cangiamende: $1',
 	'view-source' => "Vide 'u sorgende",
+	'parentheses' => '($1)',
 );
 
 /** Russian (Русский)

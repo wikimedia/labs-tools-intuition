@@ -244,6 +244,7 @@ Linux/Mac OS
 $messages['bn'] = array(
 	'title' => 'বিষয়শ্রেণীর ভিত্তিতে চিত্র ডাউনলোড',
 	'subtitle' => 'কোন বিষয়শ্রেণীর চিত্র ডাউনলোডের সহজ উপায়',
+	'project' => 'প্রকল্প:',
 	'category' => 'বিষয়শ্রেণী:',
 	'download' => 'ডাউনলোড',
 );
@@ -1144,6 +1145,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'title' => 'Scarecamende de le immaggine pe categorije',
+	'subtitle' => "'U mode cchiù facile de scarecà le immaggine jndr'à 'na categorije",
 	'project' => 'Pruggette:',
 	'category' => 'Categorije:',
 	'thumbnailing' => 'Miniature',
@@ -1152,7 +1154,10 @@ $messages['roa-tara'] = array(
 	'invalid-width' => 'Larghezza invalide',
 	'invalid-height' => 'Iertezze invalide',
 	'no-such-project' => 'Non ge stonne pruggette',
+	'no-images' => "Non ge stonne immaggine jndr'à quedda categorije",
 	'zip-failed' => "Ccrejazione d'u ZIP fallite",
+	'script-filename' => 'download.bat',
+	'readme-filename' => 'README.txt',
 );
 
 /** Russian (Русский)
