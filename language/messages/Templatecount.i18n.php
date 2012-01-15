@@ -238,6 +238,7 @@ $messages['fi'] = array(
  * @author Seb35
  */
 $messages['fr'] = array(
+	'title' => 'Compteur de transclusions de modèles',
 	'enter-details' => 'Entrez les détails',
 	'introduction' => 'Entrez le nom d’un modèle (Wikipédias seulement pour l’instant, désolé), et appuyez sur go. C’est aussi simple que cela. Il y a quelques mise en cache (mémorisation de résultats), mais c’est malheureusement hors du contrôle de cet outil et de son propriétaire.',
 	'language-label' => 'Langue',
@@ -446,7 +447,7 @@ $messages['mzn'] = array(
  */
 $messages['nb'] = array(
 	'enter-details' => 'Skriv inn detaljer',
-	'introduction' => 'Skriv inn navnet på en mal (kun fra Wikipedia i øyeblikket, beklager) og trykk start. Det er så enkelt som det. Det er noe hurtiglagring (husking av resultater), men det er beklageligvis utenfor vår og verktøyets kontroll.',
+	'introduction' => 'Skriv inn navnet på en mal (kun fra Wikipedia for øyeblikket, beklager) og trykk start. Det er så enkelt som det. Det er noe hurtiglagring (husking av resultater), men det er beklageligvis utenfor vår og verktøyets kontroll.',
 	'language-label' => 'Språk',
 	'namespace-label' => 'Navnerom',
 	'pagename-label' => 'Sidenavn (ekskludert navnerom)',

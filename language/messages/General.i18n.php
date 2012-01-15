@@ -1267,13 +1267,16 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Aswn
  * @author Logicwiki
  */
 $messages['ta'] = array(
 	'hello' => 'வணக்கம்',
 	'welcome' => 'வருக',
 	'etc' => 'இன்ன பிற',
+	'form-submit' => 'செல்',
 	'form-reset' => 'மீட்டமைக்க',
+	'last-modified-date' => 'கடைசியாகத் திருத்தப்பட்டது: $1',
 	'view-source' => 'மூலத்தைப் பார்',
 );
 

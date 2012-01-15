@@ -1156,6 +1156,7 @@ $messages['roa-tara'] = array(
 	'no-such-project' => 'Non ge stonne pruggette',
 	'no-images' => "Non ge stonne immaggine jndr'à quedda categorije",
 	'zip-failed' => "Ccrejazione d'u ZIP fallite",
+	'download' => 'Scareche',
 	'script-filename' => 'download.bat',
 	'readme-filename' => 'README.txt',
 );
@@ -1318,6 +1319,17 @@ ili koristite druge rezervne veze:
 	'scaling-width' => ', s izmenom razmere do najveće širine od $1 {{plural:$1|piksel|piksela|piksela}}',
 	'scaling-height' => ', s izmenom razmere do najveće visine od $1 {{plural:$1|piksel|piksela|piksela}}',
 	'scaling-both' => ', s izmenom razmere do najveće veličine od $1 × $2 piksela',
+);
+
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'project' => 'திட்டம்:',
+	'category' => 'பகுப்பு:',
+	'max-width' => 'அதிகபட்ச அகலம்:',
+	'max-height' => 'அதிகபட்ச உயரம்:',
+	'no-such-project' => 'அப்படிப்பட்ட திட்டம் ஒன்றுமில்லை',
 );
 
 /** Telugu (తెలుగు)

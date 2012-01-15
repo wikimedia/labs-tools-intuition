@@ -2424,6 +2424,7 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Aswn
  * @author Fahimrazick
  * @author Logicwiki
  */
@@ -2431,6 +2432,9 @@ $messages['ta'] = array(
 	'attention' => 'கவனிக்க',
 	'description' => 'விக்கிமீடியா திட்டங்களிலிருந்து விக்கிமீடியா பொதுவிற்கு கோப்புக்களைப் பரிமாற்றுவதற்கான ஒரு கருவி',
 	'change_meta' => '$1பகுப்பு மற்றும் வார்ப்புரு நிருணயங்களை$2 பின்வருமாறு மாற்று$3',
+	'language' => 'மொழி',
+	'project' => 'திட்டம்',
+	'categories' => 'பகுப்புகள்',
 	'do_it' => 'செய்க',
 );
 

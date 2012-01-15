@@ -1476,10 +1476,12 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Aswn
  * @author Logicwiki
  */
 $messages['ta'] = array(
 	'choose-language' => 'மொழியை தேர்ந்தெடுக்கவும்',
+	'bl-mysettings-new' => 'மொழியை மாற்று!',
 );
 
 /** Telugu (తెలుగు)
