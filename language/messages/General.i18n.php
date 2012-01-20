@@ -1392,6 +1392,13 @@ $messages['vi'] = array(
 	'view-source' => 'Xem mã nguồn',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'form-reset' => 'צוריקשטעלן',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  * @author Hzy980512

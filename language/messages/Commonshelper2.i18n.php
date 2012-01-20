@@ -2302,7 +2302,7 @@ $messages['sr-ec'] = array(
 	'standard_language' => 'sr-ec',
 	'standard_project' => 'Википедија',
 	'error_bot_blocked' => 'Бот за отпремање је блокиран на Викимедијиној остави.',
-	'error_upload_meta' => 'Изравно отпремање није могуће јер је дошло до проблема с метаподацима (погледајте изнад).',
+	'error_upload_meta' => 'Не могу да отпремим непосредно јер је дошло до проблема с метаподацима (погледајте изнад).',
 	'error_tusc_failed' => 'Не могу да извршим TUSC проверу.',
 	'error_only_commons' => 'Изравно отпремање ради само на Викимедијиној остави.',
 	'upload_control_text' => 'Изаберите нови текст викија и кликните на „$1“ ако је све у реду.',
@@ -2522,6 +2522,9 @@ $messages['tr'] = array(
 	'categories' => 'Kategoriler',
 	'tusc_user' => 'TUSC kullanıcı adı',
 	'tusc_pass' => 'TUSC şifresi',
+	'upload_submit' => 'Yükle!',
+	'target_wiki' => 'hedef viki',
+	'standard_language' => 'tr',
 	'help_mail' => '$1 adresine bir e-posta gönderin.',
 );
 
