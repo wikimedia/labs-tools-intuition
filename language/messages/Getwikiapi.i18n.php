@@ -145,8 +145,8 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'formats-heading' => 'Ausgabeformate',
-	'input' => 'Angaben',
-	'label-wikiids' => 'Wiki-Kennungen',
+	'input' => 'Eingabe',
+	'label-wikiids' => 'Wikikennungen',
 	'no-matches' => 'Kein Ergebnis für „$1“',
 	'output' => 'Ausgabe für „$1“',
 );
@@ -443,6 +443,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Eleferen
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(

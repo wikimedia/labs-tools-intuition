@@ -167,8 +167,8 @@ $messages['da'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'enter-details' => 'Details eingeben',
-	'introduction' => 'Gib den Namen einer Vorlage an (aktuell nur die Wikipedias) und klicke „Los“ – so einfach ist das. Es kann sein, dass gecachte Ergebnisse (ältere Vorlagenversionen) ausgegeben werden. Dies liegt leider außerhalb des Einflussbereichs dieses Hilfsprogramms.',
+	'enter-details' => 'Einzelheiten eingeben',
+	'introduction' => 'Gib den Namen einer Vorlage an (aktuell nur die Wikipedias) und klicke auf „Los“ – so einfach ist das. Es kann sein, dass Ergebnisse aus dem Cache (ältere Vorlagenversionen) ausgegeben werden. Dies kann leider nicht mit diesem Hilfsprogramm beeinflusst werden.',
 	'language-label' => 'Sprache',
 	'namespace-label' => 'Namensraum',
 	'pagename-label' => 'Seitenname (ohne Namensraum)',
@@ -558,6 +558,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author DarkSTALKER
+ * @author Eleferen
  * @author Lvova
  */
 $messages['ru'] = array(
@@ -566,6 +567,7 @@ $messages['ru'] = array(
 	'namespace-label' => 'Пространство имён',
 	'pagename-label' => 'Имя страницы (без пространства имён)',
 	'transclusion-count-label' => 'Количество включений',
+	'transclusion-count' => 'Найдено $1 включение(я).',
 	'error-suggestion' => 'Быть может, вы опечатались в названии страницы или использовали неверный регистр букв?',
 	'time-label' => 'Время, необходимое для выполнения команды',
 );

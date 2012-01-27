@@ -359,7 +359,7 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'title' => 'Bilder nach Kategorie herunterladen',
-	'subtitle' => 'Die einfache Möglichkeit die in einer Kategorie enthaltenen Bilder herunterzuladen',
+	'subtitle' => 'Die einfache Möglichkeit, die in einer Kategorie enthaltenen Bilder herunterzuladen',
 	'project' => 'Projekt:',
 	'category' => 'Kategorie:',
 	'thumbnailing' => 'Miniaturbilderstellung',
@@ -1167,6 +1167,10 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'max-width' => 'Максимальная ширина:',
 	'max-height' => 'Максимальная высота:',
+	'invalid-width' => 'Недопустимая ширина',
+	'invalid-height' => 'Недопустимая высота',
+	'no-images' => 'В этой категории нет изображений',
+	'category-is-url' => 'Имя данной категории выглядит как URL-адрес. Необходимо указать название категории, а не его URL-адрес.',
 );
 
 /** Slovak (Slovenčina)

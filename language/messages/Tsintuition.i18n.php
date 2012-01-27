@@ -1327,6 +1327,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Askarmuk
+ * @author Eleferen
  * @author Lvova
  */
 $messages['ru'] = array(

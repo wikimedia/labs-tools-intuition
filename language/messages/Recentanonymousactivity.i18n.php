@@ -247,7 +247,7 @@ $messages['pt'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'title' => 'Recent anonymous activity',
+	'title' => 'Activitatea recentă a anonimilor',
 );
 
 /** Tarandíne (Tarandíne)
@@ -258,6 +258,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Eleferen
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(

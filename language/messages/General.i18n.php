@@ -1135,6 +1135,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Eleferen
  * @author Lvova
  * @author Rave
  */
@@ -1146,6 +1147,12 @@ $messages['ru'] = array(
 	'namespace' => 'Пространство имён',
 	'form-submit' => 'Перейти',
 	'form-reset' => 'Очистить',
+	'years' => '{{PLURAL: $1|год|года|лет}}',
+	'weeks' => '{{PLURAL: $1|неделя|недели|недель}}',
+	'days' => '{{PLURAL: $1|день|дня|дней}}',
+	'hours' => '{{PLURAL: $1|час|часа|часов}}',
+	'minutes' => '{{PLURAL: $1|минута|минуты|минут}}',
+	'seconds' => '{{PLURAL: $1|секунда|секунды|секунд}}',
 	'last-modified-date' => 'Дата последнего изменения: $1',
 	'view-source' => 'Просмотр исходного кода',
 );

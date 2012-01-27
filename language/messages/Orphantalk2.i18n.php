@@ -332,8 +332,8 @@ $messages['de'] = array(
 	'tools-curr' => 'Aktuelle Version',
 	'tools-globalusage' => 'Globale Nutzung',
 	'deletesummary' => 'Löschung der verwaisten Diskussionsseite mit $1',
-	'noresults' => 'Es konnten auf  diesem Wiki keine den Einstellungen entsprechenden verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.',
-	'resultslimited' => 'Die Ergebnisse wurden auf $1 Seiten beschränkt.',
+	'noresults' => 'Es konnten auf  diesem Wiki keine, den Einstellungen entsprechenden, verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.',
+	'resultslimited' => 'Die Ausgabe der Ergebnisse wurde auf $1 Seiten beschränkt.',
 );
 
 /** Zazaki (Zazaki)
@@ -1029,6 +1029,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Askarmuk
+ * @author Eleferen
  * @author Lvova
  */
 $messages['ru'] = array(
@@ -1047,7 +1048,9 @@ $messages['ru'] = array(
 	'tools-hist' => 'история',
 	'tools-curr' => 'текущ.',
 	'tools-globalusage' => 'глобальное использование',
+	'deletesummary' => 'Очистка обсуждения страниц-сирот через $1',
 	'noresults' => 'В этой вики в заданных вами пространствах имён страниц обсуждения-сирот не найдено.',
+	'resultslimited' => 'Результаты были ограничены $1 страницами.',
 );
 
 /** Sinhala (සිංහල)

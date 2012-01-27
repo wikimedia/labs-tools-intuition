@@ -148,8 +148,8 @@ $messages['de'] = array(
 	'toolserver-status-short-ok' => '$1: In Ordnung',
 	'toolserver-status-short-info' => '$1: Information',
 	'toolserver-status-short-warn' => '$1: Warnung',
-	'toolserver-status-short-down' => '$1: Heruntergefahren',
-	'toolserver-status-short-erro' => '$1: Ausgefallen',
+	'toolserver-status-short-down' => '$1: Ausgefallen',
+	'toolserver-status-short-erro' => '$1: Fehler',
 	'toolserver-status-short-unknown' => '$1: Unbekannt',
 	'toolserver-status-short-missing' => '$1: Nicht vorhanden',
 );
@@ -439,6 +439,7 @@ $messages['ro'] = array(
 	'toolserver-status-short-info' => '$1: Info',
 	'toolserver-status-short-warn' => '$1: Avertizare',
 	'toolserver-status-short-erro' => '$1: Eroare',
+	'toolserver-status-short-unknown' => '$1: Necunoscut',
 	'toolserver-status-short-missing' => '$1: Lipsă',
 );
 
@@ -460,6 +461,23 @@ $messages['roa-tara'] = array(
 	'toolserver-status-short-erro' => '$1: Errore',
 	'toolserver-status-short-unknown' => '$1: Scanusciute',
 	'toolserver-status-short-missing' => '$1: Perse',
+);
+
+/** Russian (Русский)
+ * @author Eleferen
+ */
+$messages['ru'] = array(
+	'toolserver-status-down' => 'База данных кластера $1 временно выключена. $2',
+	'toolserver-status-erro' => 'База данных кластера $1 недоступна. $2',
+	'toolserver-status-unknown' => 'Неизвестное состояние кластера $1',
+	'toolserver-status-missing' => 'Кластер $1 не существует',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Информация',
+	'toolserver-status-short-warn' => '$1: Предупреждение',
+	'toolserver-status-short-down' => '$1: Недоступен',
+	'toolserver-status-short-erro' => '$1: Ошибка',
+	'toolserver-status-short-unknown' => '$1: Неизвестно',
+	'toolserver-status-short-missing' => '$1: Отсутствует',
 );
 
 /** Serbo-Croatian (Srpskohrvatski)
