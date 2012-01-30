@@ -32,7 +32,7 @@ $messages['en'] = array(
 	'download-info' => "{{plural: $1|There is one image|There are $1 images}}, with an estimated size of $2",
 	'download' => 'Download',
 
-	'readme-contents' => 'The enclosing file $4 lists 
+	'readme-contents' => 'The enclosing file $4 lists
 the images at the $1 category ( $2 )$3.
 
 == Instructions for downloading all the listed images ==
@@ -42,11 +42,10 @@ Windows:
  Extract all the files in the same folder and run $5
  $6
 Linux/Mac OS
- Extract all the files and open a terminal in that folder. Run sh $5
-',
-	'non-bundled-wget' => "Note: This version doesn't include wget for Windows. You will need to decompress 
+ Extract all the files and open a terminal in that folder. Run sh $5',
+	'non-bundled-wget' => "Note: This version doesn't include wget for Windows. You will need to decompress
 to a folder with wget.exe or otherwise have wget in the PATH",
-	'wget-info' => 'This file bundles a copy of wget $1 (for Windows platform). Wget is Free Software, 
+	'wget-info' => 'This file bundles a copy of wget $1 (for Windows platform). Wget is Free Software,
 under the terms of the GNU GENERAL PUBLIC LICENSE version 3.
 There is a copy of the license below, and it is also available at http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -55,8 +54,7 @@ In case you are interested in getting the source code for this program, you can 
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 or some other GNU Mirror, see
- http://www.gnu.org/prep/ftp.html
-',
+ http://www.gnu.org/prep/ftp.html',
 
 	'scaling-none' => '', // Optional
 	'scaling-width' => ', scaled to a maximum width of $1 {{plural:$1|pixel|pixels}}',
