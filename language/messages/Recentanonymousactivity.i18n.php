@@ -247,7 +247,7 @@ $messages['pt'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'title' => 'Activitatea recentă a anonimilor',
+	'title' => 'Recent anonymous activity',
 );
 
 /** Tarandíne (Tarandíne)

@@ -108,6 +108,7 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'current-settings' => 'الإعدادات الحالية',
@@ -119,7 +120,7 @@ $messages['ar'] = array(
 	'cookie-expiration' => 'تاريخ انتهاء الكوكيز',
 	'tab-overview' => 'نظرة عامة',
 	'tab-settings' => 'الإعدادات',
-	'tab-about' => 'حول',
+	'tab-about' => 'عن',
 	'tab-demo' => 'تجربة',
 	'bl-mysettings' => 'إعدادات لغتي',
 	'bl-mysettings-new' => 'غير اللغة!',
@@ -1481,7 +1482,9 @@ $messages['sv'] = array(
  * @author Logicwiki
  */
 $messages['ta'] = array(
+	'settings-legend' => 'அமைப்புகள்',
 	'choose-language' => 'மொழியை தேர்ந்தெடுக்கவும்',
+	'bl-mysettings' => 'எனது மொழி அமைப்புகள்',
 	'bl-mysettings-new' => 'மொழியை மாற்று!',
 );
 

@@ -523,6 +523,13 @@ $messages['sv'] = array(
 	'form-legend-settings' => 'Inställningar',
 );
 
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'form-legend-settings' => 'அமைப்புகள்',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */

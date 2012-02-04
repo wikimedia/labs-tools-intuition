@@ -145,8 +145,8 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'formats-heading' => 'Ausgabeformate',
-	'input' => 'Eingabe',
-	'label-wikiids' => 'Wikikennungen',
+	'input' => 'Angaben',
+	'label-wikiids' => 'Wiki-Kennungen',
 	'no-matches' => 'Kein Ergebnis für „$1“',
 	'output' => 'Ausgabe für „$1“',
 );

@@ -167,8 +167,8 @@ $messages['da'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'enter-details' => 'Einzelheiten eingeben',
-	'introduction' => 'Gib den Namen einer Vorlage an (aktuell nur die Wikipedias) und klicke auf „Los“ – so einfach ist das. Es kann sein, dass Ergebnisse aus dem Cache (ältere Vorlagenversionen) ausgegeben werden. Dies kann leider nicht mit diesem Hilfsprogramm beeinflusst werden.',
+	'enter-details' => 'Details eingeben',
+	'introduction' => 'Gib den Namen einer Vorlage an (aktuell nur die Wikipedias) und klicke „Los“ – so einfach ist das. Es kann sein, dass gecachte Ergebnisse (ältere Vorlagenversionen) ausgegeben werden. Dies liegt leider außerhalb des Einflussbereichs dieses Hilfsprogramms.',
 	'language-label' => 'Sprache',
 	'namespace-label' => 'Namensraum',
 	'pagename-label' => 'Seitenname (ohne Namensraum)',
@@ -259,8 +259,8 @@ $messages['gl'] = array(
 	'language-label' => 'Lingua',
 	'namespace-label' => 'Espazo de nomes',
 	'pagename-label' => 'Nome da páxina (sen o espazo de nomes)',
-	'transclusion-count-label' => 'Número de transclusións',
-	'transclusion-count' => 'Atopáronse $1 transclusións.',
+	'transclusion-count-label' => 'Número de inclusións',
+	'transclusion-count' => 'Atopáronse $1 inclusións.',
 	'error-suggestion' => 'Poida que escribise mal o nome da páxina.',
 	'time-label' => 'Tempo necesario para executar o comando',
 );
@@ -563,6 +563,7 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'enter-details' => 'Введите подробности',
+	'introduction' => 'Введите имя шаблона (на данный момент доступно только для Википедии) и нажмите кнопку перехода. Это так просто. Так же существует кэширование (хранение результатов поиска), но, к сожалению, оно не контролируется данным инструментом и его владельцем.',
 	'language-label' => 'Язык',
 	'namespace-label' => 'Пространство имён',
 	'pagename-label' => 'Имя страницы (без пространства имён)',
@@ -591,14 +592,14 @@ $messages['sl'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'title' => 'Број трансклузија шаблона',
+	'title' => 'Број укључивања шаблона',
 	'enter-details' => 'Унос података',
 	'introduction' => 'Унесите назив шаблона и кликните на дугме „Иди“. Има и мало привременог меморисања, али то је ван досега ове алатке и његовог власника.',
 	'language-label' => 'Језик',
 	'namespace-label' => 'Именски простор',
 	'pagename-label' => 'Назив странице (без именског простора)',
-	'transclusion-count-label' => 'Број трансклузија',
-	'transclusion-count' => 'Пронађено трансклузија: $1.',
+	'transclusion-count-label' => 'Број укључивања',
+	'transclusion-count' => 'Пронађено укључивања: $1.',
 	'error-suggestion' => 'Можда сте погрешно унели назив странице.',
 	'time-label' => 'Време за извршавање наредбе',
 );
@@ -674,6 +675,7 @@ $messages['tr'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
+	'title' => 'Số lần nhúng bản mẫu',
 	'enter-details' => 'Nhập chi tiết',
 	'introduction' => 'Nhập tên của một bản mẫu (rất tiếc, lúc này chỉ hỗ trợ Wikipedia) và nhấn Xem. Chỉ có vậy thôi. Kết quả sẽ được ghi vào bộ nhớ đệm, nhưng bộ nhớ đệm nằm bên ngoài sự kiểm soát của công cụ này và người chủ của nó.',
 	'language-label' => 'Ngôn ngữ',

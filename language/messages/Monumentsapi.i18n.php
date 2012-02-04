@@ -441,6 +441,13 @@ $messages['nb'] = array(
 	'filter-all-languages' => 'Alle språk',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'search-table-th-search' => 'खोज',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand
@@ -610,10 +617,13 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Aswn
  * @author Logicwiki
  */
 $messages['ta'] = array(
 	'search-table-th-search' => 'தேடுக',
+	'filter-all-countries' => 'அனைத்து நாடுகள்',
+	'filter-all-languages' => 'அனைத்து மொழிகள்',
 );
 
 /** Telugu (తెలుగు)

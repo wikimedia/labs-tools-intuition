@@ -1283,6 +1283,11 @@ $messages['ta'] = array(
 	'etc' => 'இன்ன பிற',
 	'form-submit' => 'செல்',
 	'form-reset' => 'மீட்டமைக்க',
+	'years' => '{{PLURAL: $1|வருடம்|வருடங்கள்}}',
+	'weeks' => '{{PLURAL: $1|வாரம்|வாரங்கள்}}',
+	'days' => '{{PLURAL: $1|நாள்|நாட்கள்}}',
+	'minutes' => '{{PLURAL: $1|நிமிடம்|நிமிடங்கள்}}',
+	'seconds' => '{{PLURAL: $1|வினாடி|வினாடிகள்}}',
 	'last-modified-date' => 'கடைசியாகத் திருத்தப்பட்டது: $1',
 	'view-source' => 'மூலத்தைப் பார்',
 );
@@ -1320,6 +1325,14 @@ $messages['tet'] = array(
 	'days' => '{{PLURAL: $1|loron|loron}}',
 	'hours' => '{{PLURAL: $1|oras|oras}}',
 	'last-modified-date' => 'Mudansa ba dala ikus: $1',
+);
+
+/** Tigrinya (ትግርኛ)
+ * @author Tigrigna1
+ */
+$messages['ti'] = array(
+	'years' => 'ዓመት| ዓመታት',
+	'days' => 'መዓልቲ|መዓልታት',
 );
 
 /** Tagalog (Tagalog)
@@ -1382,6 +1395,7 @@ $messages['uk'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
+	'dateformat' => '%d tháng %m năm %Y',
 	'hello' => 'Xin chào',
 	'welcome' => 'Hoan nghênh',
 	'toolversionstamp' => 'Phiên bản $1 ($2)',

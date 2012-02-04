@@ -381,7 +381,7 @@ $messages['ca'] = array(
  */
 $messages['de'] = array(
 	'title' => 'WLM-Dateien',
-	'file' => 'Bild',
+	'file' => 'Datei',
 	'monument-type' => 'Art des Denkmals',
 	'monument-id' => 'Kennung des Denkmals',
 	'province' => 'Provinz',
@@ -397,14 +397,14 @@ $messages['de'] = array(
 	'date-unknown' => 'Unbekannt',
 	'total-images' => 'Gesamtzahl an Bildern: $1',
 	'view-uncategorized-images' => 'Nicht kategorisierte Bilder ansehen',
-	'provide-id' => 'Die Kennung eines Denkmals angeben, um dessen verfügbare Daten anzuzeigen',
+	'provide-id' => 'Die Kennung eines Denkmals angeben, um die für es verfügbaren Daten anzuzeigen',
 	'show-images-bad-only' => 'Nur Bilder außerhalb der Listen anzeigen',
 	'show-images-all' => 'Alle Bilder anzeigen',
-	'show-images-removed' => 'Nur Bilder anzeigen, die vom Wettbewerb zurückgezogen wurden',
+	'show-images-removed' => 'Nur Bilder anzeigen, die aus dem Wettbewerb zurückgezogen wurden',
 	'search-monuments' => 'Denkmäler suchen',
 	'view-frequency' => 'Beliebte Denkmäler',
-	'view-ccaa' => 'Nach autonomer Gemeinschaft sortiert ansehen',
-	'view-province' => 'Nach Provinz sortiert ansehen',
+	'view-ccaa' => 'Nach autonomer Gemeinschaft ansehen',
+	'view-province' => 'Nach Provinz ansehen',
 	'id-label' => 'Kennung des Denkmals:',
 	'id-none' => '(Keine)',
 	'monument-heading' => 'Denkmal',
@@ -414,16 +414,16 @@ $messages['de'] = array(
 	'gallery-header' => 'Bilder des Denkmals mit der Kennung $1.',
 	'gallery-header-place' => 'Bilder zu Denkmälern aus $1.',
 	'wall-of-shame-text' => 'Autoren nach der Anzahl nicht identifizierbarer Fotografien',
-	'author-heading' => 'Urheber',
+	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Anzeigen',
 	'bic-list-all' => 'Vollständige Liste',
 	'unregistered' => 'Nicht registriert',
-	'users-text' => 'Diese Seite zeigt die Urheber, mitsamt den von ihnen hochgeladenen Bildern, sowie die entsprechende Anzahl der unterschiedlichen Denkmäler, an',
+	'users-text' => 'Diese Seite zeigt die Autoren, mitsamt den von ihnen hochgeladenen Bildern, sowie die entsprechende Anzahl der unterschiedlichen Denkmäler, an',
 	'users-list' => 'Ansehen',
 	'distict-monuments' => 'Unterschiedliche Denkmäler',
 	'province-heading' => 'Provinz',
 	'province-none' => '(Unbekannt)',
-	'ccaa-heading' => 'CC.AA.',
+	'ccaa-heading' => '!!FUZZYY!!CC.AA.',
 );
 
 /** Zazaki (Zazaki)
@@ -1244,9 +1244,14 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Eleferen
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
+	'title' => 'Изображения для WLM',
+	'file' => 'Изображение',
+	'monument-type' => 'Тип памятника',
+	'monument-id' => 'Идентификатор памятника',
 	'province' => 'Область',
 	'comarque' => 'Район',
 	'competes' => 'Участник конкурса',
@@ -1274,6 +1279,12 @@ $messages['ru'] = array(
 	'bic-list' => 'Список',
 	'bic-gallery' => 'Галерея',
 	'gallery-header' => 'Изображения для памятника с идентификатором  $1.',
+	'gallery-header-place' => 'Изображения памятников в $1.',
+	'author-heading' => 'Автор',
+	'bic-list-bad' => 'Показать',
+	'bic-list-all' => 'Полный список',
+	'province-none' => '(Неизвестно)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Slovenian (Slovenščina)
@@ -1427,6 +1438,18 @@ $messages['sr-el'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'total-images' => 'மொத்த படங்கள்: $1',
+	'show-images-all' => 'அனைத்து படங்களையும் காட்டு',
+	'bic-list' => 'பட்டியல்',
+	'bic-list-bad' => 'காட்டு',
+	'bic-list-all' => 'முழு பட்டியல்',
+	'users-list' => 'பார்வையிடு',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -1473,6 +1496,7 @@ $messages['vi'] = array(
 	'view-ccaa' => 'Xem theo cộng đồng tự trị',
 	'view-province' => 'Xem theo tỉnh',
 	'id-label' => 'ID của đài tưởng niệm',
+	'date-format' => 'd/m/Y H:i:s',
 	'id-none' => '(Không có)',
 	'monument-heading' => 'Đài tưởng niệm',
 	'count-heading' => 'Hình chụp',

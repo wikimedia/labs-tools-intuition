@@ -357,7 +357,7 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'title' => 'Bilder nach Kategorie herunterladen',
-	'subtitle' => 'Die einfache Möglichkeit, die in einer Kategorie enthaltenen Bilder herunterzuladen',
+	'subtitle' => 'Die einfache Möglichkeit die in einer Kategorie enthaltenen Bilder herunterzuladen',
 	'project' => 'Projekt:',
 	'category' => 'Kategorie:',
 	'thumbnailing' => 'Miniaturbilderstellung',
@@ -1167,8 +1167,10 @@ $messages['ru'] = array(
 	'max-height' => 'Максимальная высота:',
 	'invalid-width' => 'Недопустимая ширина',
 	'invalid-height' => 'Недопустимая высота',
+	'no-such-project' => 'Такого проекта не существует',
 	'no-images' => 'В этой категории нет изображений',
 	'category-is-url' => 'Имя данной категории выглядит как URL-адрес. Необходимо указать название категории, а не его URL-адрес.',
+	'download-info' => '{{plural: $1|Есть одно изображение|Есть $1 изображения|Есть $1 изображений}}, с примерным размером $2',
 );
 
 /** Slovak (Slovenčina)
@@ -1323,15 +1325,26 @@ ili koristite druge rezervne veze:
 	'scaling-both' => ', s izmenom razmere do najveće veličine od $1 × $2 piksela',
 );
 
+/** Swedish (Svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'project' => 'Projekt:',
+	'category' => 'Kategori:',
+	'download' => 'Ladda ned',
+);
+
 /** Tamil (தமிழ்)
  * @author Aswn
  */
 $messages['ta'] = array(
+	'title' => 'வகைப்படி படங்களை பதிவிறக்கு',
 	'project' => 'திட்டம்:',
 	'category' => 'பகுப்பு:',
 	'max-width' => 'அதிகபட்ச அகலம்:',
 	'max-height' => 'அதிகபட்ச உயரம்:',
 	'no-such-project' => 'அப்படிப்பட்ட திட்டம் ஒன்றுமில்லை',
+	'download' => 'பதிவிறக்கு',
 );
 
 /** Telugu (తెలుగు)
@@ -1347,6 +1360,19 @@ $messages['te'] = array(
 	'invalid-height' => 'చెల్లని ఎత్తు',
 	'no-such-project' => 'అటువంటి ప్రాజెక్టు లేదు',
 	'no-images' => 'ఆ వర్గంలో బొమ్మలు ఏమీ లేవు',
+);
+
+/** Tigrinya (ትግርኛ)
+ * @author Tigrigna1
+ */
+$messages['ti'] = array(
+	'max-width' => 'ዝሰፍሐ ጎኒ',
+	'max-height' => 'ዝነውሐ ቁመት',
+	'invalid-width' => 'ጌጋ ጎኒ',
+	'invalid-height' => 'ጌጋ ቁመት',
+	'no-such-project' => 'ዝመሳሰል ዕዮ ኣይተረኽበን',
+	'no-images' => 'ኣብዚ ክፍሊ ዝኾነ ስእሊ ኣይተረኽበን',
+	'download' => 'ጽዓን',
 );
 
 /** Turkish (Türkçe)

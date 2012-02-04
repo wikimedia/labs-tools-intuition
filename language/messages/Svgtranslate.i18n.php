@@ -179,7 +179,7 @@ $messages['ast'] = array(
 	'th-translation' => 'Traducción',
 	'th-language' => 'Llingua',
 	'th-username' => "Nome d'usuariu",
-	'th-password' => 'Contraseña',
+	'th-password' => 'Conseña',
 	'th-method' => 'Métodu',
 	'option-tusc' => 'TUSC (xuba automática)',
 	'option-manual' => 'Xuba manual',
@@ -196,7 +196,7 @@ $messages['ast'] = array(
 	'preview-hide' => 'Anubrir entever',
 	'preview-refresh' => 'Refrescar entever',
 	'error-must-accept' => "Pa siguir cola xubía direuta tienes d'aceutar los términos d'usu que s'ufren.",
-	'error-tusc-failed' => 'Fallu na validación TUSC: usuariu o contraseña incorreutos.',
+	'error-tusc-failed' => 'Fallu na validación TUSC: usuariu o conseña incorreutos.',
 	'description-license' => 'Escoyer descripción y llicencia',
 	'finalise' => 'Finar detalles',
 );
@@ -1907,6 +1907,16 @@ $messages['sv'] = array(
 	'error-tusc-failed' => 'TUSC-valideringen misslyckades: användarnamn eller lösenordet är felaktigt.',
 	'description-license' => 'Välj beskrivning och licens',
 	'finalise' => 'Färdigställ detaljer',
+);
+
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'th-language' => 'மொழி',
+	'th-username' => 'பயனர் பெயர்',
+	'th-password' => 'கடவுச்சொல்',
+	'translate' => 'மொழிமாற்று',
 );
 
 /** Telugu (తెలుగు)

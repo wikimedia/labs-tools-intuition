@@ -332,8 +332,8 @@ $messages['de'] = array(
 	'tools-curr' => 'Aktuelle Version',
 	'tools-globalusage' => 'Globale Nutzung',
 	'deletesummary' => 'Löschung der verwaisten Diskussionsseite mit $1',
-	'noresults' => 'Es konnten auf  diesem Wiki keine, den Einstellungen entsprechenden, verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.',
-	'resultslimited' => 'Die Ausgabe der Ergebnisse wurde auf $1 Seiten beschränkt.',
+	'noresults' => 'Es konnten auf  diesem Wiki keine den Einstellungen entsprechenden verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.',
+	'resultslimited' => 'Die Ergebnisse wurden auf $1 Seiten beschränkt.',
 );
 
 /** Zazaki (Zazaki)
@@ -1158,6 +1158,15 @@ $messages['sv'] = array(
 	'deletesummary' => 'Rensar upp bland föräldralösa diskussionssidor via $1',
 	'noresults' => 'Inga föräldralösa diskussionssidor på denna wikin i denna namnrymden matchade dina inställningar.',
 	'resultslimited' => 'Resultaten var begränsade till $1 sidor.',
+);
+
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'page' => 'பக்கம்',
+	'tools-delete' => 'நீக்கு',
+	'tools-links' => 'இணைப்புகள்',
 );
 
 /** Telugu (తెలుగు)

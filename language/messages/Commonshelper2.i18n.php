@@ -240,7 +240,7 @@ $messages['ast'] = array(
 	'use_checkusage' => 'Usa $1CommonSense$2 pa suxerir categoríes nueves',
 	'use_tusc' => "Usa $1TUSC$2 p'autenticate y tresferir el ficheru direutamente",
 	'tusc_user' => "Nome d'usuariu TUSC",
-	'tusc_pass' => 'Contraseña TUSC',
+	'tusc_pass' => 'Conseña TUSC',
 	'do_it' => 'Facelo',
 	'error_transfer_usr' => "Nun conseñasti un nome d'usuariu de Wikimedia Commons",
 	'error_not_exists' => "¡El ficheru d'orixe nun esiste!",
@@ -1494,6 +1494,7 @@ $messages['lb'] = array(
 	'error_commons_user' => "Fir de Benotzer z'identifizéieren deen den Transfert mécht, muss de Benotzernumm vu Wikimedia Commons an der Beschreiwung dra sinn!",
 	'error_upload_users' => "D'Fonctioun vum Eroplueden ass während der Testphas nëmme fir e puer Benotzer disponibel!",
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
+	'help_intro' => "Wann Dir e Software-Feeler melle wëllt, eng Fonctioun virschloe wëllt oder eng Fro hutt, da kënnt Dir d'Kontaktmethoden hei drënner benotzen:",
 	'help_jira' => '$1JIRA (Dir braucht e Benotzerkont)$2 (Projet: Commonshelper2)',
 	'help_mail' => 'Eng Mail op $1 schécken',
 	'help_commons' => '$1Eng Noriicht op Commons hannerloossen$2',
@@ -2435,7 +2436,13 @@ $messages['ta'] = array(
 	'language' => 'மொழி',
 	'project' => 'திட்டம்',
 	'categories' => 'பகுப்புகள்',
+	'remove_cats' => 'இருக்கும் பகுப்புகளை நீக்கு',
+	'tusc_user' => 'TUSC பயனர் பெயர்',
+	'tusc_pass' => 'TUSC கடவுச்சொல்',
 	'do_it' => 'செய்க',
+	'new_filename' => 'புதிய கோப்பு-பெயர்:',
+	'upload_submit' => 'தரவேற்று!',
+	'standard_language' => 'en',
 );
 
 /** Telugu (తెలుగు)
@@ -2459,6 +2466,21 @@ $messages['tet'] = array(
 	'commons_to_project' => 'Husi Wikimedia Commons ba projetu',
 	'tusc_user' => "Naran uza-na'in iha TUSC",
 	'do_it' => 'Halo',
+);
+
+/** Tigrinya (ትግርኛ)
+ * @author Tigrigna1
+ */
+$messages['ti'] = array(
+	'attention' => 'ኣስተውዕል',
+	'jira_link' => 'ጸገም ሓብር ወይ  ዝሓሸ ምርጫ ሓብር',
+	'language' => 'ቋንቋ',
+	'project' => 'ወፍሪ\\ ዕዮ',
+	'source_file' => 'ምንጪ ፋይል',
+	'target_file' => 'ዕላማ፣ፋይል',
+	'move_file_from_com' => 'ፋይል ካብ ዊኪመድያ ኮሞንስ ናብ ወፍሪ/ዕዮ/ፕሮጀክት የሕላፍ',
+	'categories' => 'ክፋላት/ምቃላት',
+	'remove_cats' => 'ዝጸንሑ ክፍልታት/ክፋላት ኣልግሶም',
 );
 
 /** Tagalog (Tagalog)
@@ -2577,6 +2599,7 @@ $messages['vi'] = array(
 	'upload_submit' => 'Tải lên!',
 	'target_wiki' => 'wiki đích',
 	'standard_language' => 'vi',
+	'standard_project' => 'wikipedia',
 	'error_bot_blocked' => 'Bot tải lên đã bị cấm tại Wikimedia Commons.',
 	'error_upload_meta' => 'Không thể tải lên trực tiếp vì lỗi trong siêu dữ liệu (xem bên trên)!',
 	'error_tusc_failed' => 'TUSC thất bại xác minh!',

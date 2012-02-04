@@ -148,8 +148,8 @@ $messages['de'] = array(
 	'toolserver-status-short-ok' => '$1: In Ordnung',
 	'toolserver-status-short-info' => '$1: Information',
 	'toolserver-status-short-warn' => '$1: Warnung',
-	'toolserver-status-short-down' => '$1: Ausgefallen',
-	'toolserver-status-short-erro' => '$1: Fehler',
+	'toolserver-status-short-down' => '$1: Heruntergefahren',
+	'toolserver-status-short-erro' => '$1: Ausgefallen',
 	'toolserver-status-short-unknown' => '$1: Unbekannt',
 	'toolserver-status-short-missing' => '$1: Nicht vorhanden',
 );
@@ -467,6 +467,9 @@ $messages['roa-tara'] = array(
  * @author Eleferen
  */
 $messages['ru'] = array(
+	'toolserver-status-ok' => 'Нет никаких проблем в базе данных кластера $1 $2',
+	'toolserver-status-info' => 'Уведомление для пользователей кластера $1: $2',
+	'toolserver-status-warn' => 'Предупреждение для пользователей кластера $1: $2',
 	'toolserver-status-down' => 'База данных кластера $1 временно выключена. $2',
 	'toolserver-status-erro' => 'База данных кластера $1 недоступна. $2',
 	'toolserver-status-unknown' => 'Неизвестное состояние кластера $1',
