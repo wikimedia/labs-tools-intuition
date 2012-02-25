@@ -423,7 +423,7 @@ $messages['de'] = array(
 	'distict-monuments' => 'Unterschiedliche Denkmäler',
 	'province-heading' => 'Provinz',
 	'province-none' => '(Unbekannt)',
-	'ccaa-heading' => '!!FUZZYY!!CC.AA.',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Zazaki (Zazaki)
