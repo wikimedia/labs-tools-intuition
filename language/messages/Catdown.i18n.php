@@ -427,7 +427,57 @@ $messages['diq'] = array(
 	'max-height' => 'En vesi berzey',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'title' => 'Wobraze pó kategoriji ześěgnuś',
+	'subtitle' => 'Jadnora móžnosć, aby wobraze w kategoriji ześěgnuło',
+	'project' => 'Projekt:',
+	'category' => 'Kategorija:',
+	'thumbnailing' => 'Napóranje miniaturnego wobraza',
+	'max-width' => 'Maksimalna šyrokosć:',
+	'max-height' => 'Maksimalna wusokosć:',
+	'invalid-width' => 'Njepłaśiwa šyrokosć',
+	'invalid-height' => 'Njepłaśiwa wusokosć',
+	'no-such-project' => 'Projekt njeeksistěrujo',
+	'no-images' => 'W tej kategoriji wobraze njejsu',
+	'category-is-url' => 'Pódanaa kategorija wuglěda kaž URL. Musyš mě kategorije pódaś, nic jeje URL.',
+	'category-contains-namespace' => 'Zda se, až mjenjowy rum z mjenim kategorije zapśimjeł. Z pódanym mjenim by bok ako [[Category:$1]] k dispoziciji stał.',
+	'zip-failed' => 'Zip-napóranje jo se njeraźiło',
+	'image-area-too-big' => '$1 jo pśewjeliki, aby miniaturny wobraz napórał. Togodla se połna wjelilkosć wužywa.',
+	'download-info' => '{{plural: $1|Jo jaden wobraz|Stej $1 wobraza|Su $1 wobraze|Jo $1 wobrazow}}, z pówobliconeju wjelilkosću $2',
+	'download' => 'Ześěgnuś',
+	'readme-contents' => 'Pśipołožona dataja $4 nalicy
+wobraze w kategoriji $1 ( $2 )$3.
+
+== Instrukcije za ześěgowanje wšych naliconych wobrazow ==
+Ześěgowański cas móžo mjazy mało minutami  a někotarymi góźinami wariěrowaś.
+
+Windows:
+Zrozpakuj wšykne dataje do togo samego zarědnika a startuj $5
+$6
+
+Linux/Mac OS:
+Zrozpakuj wšykne dataje a wócyń terminal w tom zarědniku. Startuj sh $5',
+	'non-bundled-wget' => 'Glědaj: Toś ta wersija njewopśimujo wget za Windows. Musyš wobraze z wget.exe do zarědnika dekompriměrowaś abo wget hynac w SĆAŽCE k dispoziciji stajiś',
+	'wget-info' => 'Toś ta dataja wopśimujo kopiju wót wget $1 (za Windows). Wget jo licha softwara pó licency „GNU GENERAL PUBLIC LICENSE“ we wersiji 3.
+Kopija licency jo dołojce, stoj pak teke pód URL http://www.gnu.org/licenses/gpl-3.0.txt k dispoziciji.
+
+Jolic sy na žrědłowem coźe toś togo programa zajmowany, móžoš jen wót slědujucych městnow ześěgnuś:
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+
+Su teke druge glědałkowe GNU-serwery, glědaj
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', na maksimalnu šyrokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane',
+	'scaling-height' => ', na maksimalnu wusokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane',
+	'scaling-both' => ', na maksimalnu wjelilkosć $1x$2 pikselow skalěrowane',
+);
+
 /** Spanish (Español)
+ * @author Fitoschido
  * @author Vivaelcelta
  */
 $messages['es'] = array(
@@ -445,7 +495,7 @@ $messages['es'] = array(
 	'category-is-url' => 'El nombre de la categoría dada es parecida a una dirección URL. Es necesario especificar el nombre de la categoría, no su dirección URL.',
 	'category-contains-namespace' => 'Al parecer ha incluido el espacio de nombres junto al nombre de la categoría. Con el nombre dado, la página estaría disponible como [[Category:$1]].',
 	'zip-failed' => 'Error en la creación del ZIP',
-	'image-area-too-big' => '"$1" es demasiado grande para crear una miniatura. Use el tamaño completo.',
+	'image-area-too-big' => '«$1» es demasiado grande para crear una miniatura. Usando el tamaño completo.',
 	'download-info' => '{{plural: $1|Hay un imagen|Hay $1 imágenes}}, con un tamaño estimado de $2',
 	'download' => 'Descargar',
 	'readme-contents' => 'El archivo "$4" incluido enumera
@@ -662,6 +712,55 @@ Windows:
 	'scaling-both' => ', בהגדלה לגודל מרבי של $1x$2 פיקסלים',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'title' => 'Wobrazy po kategoriji sćahnyć',
+	'subtitle' => 'Jednora móžnosć, zo by wobrazy w kategoriji sćahnyło',
+	'project' => 'Projekt:',
+	'category' => 'Kategorija:',
+	'thumbnailing' => 'Wutworjenje miniaturneho wobraza',
+	'max-width' => 'Maksimalna šěrokosć:',
+	'max-height' => 'Maksimalna wysokosć:',
+	'invalid-width' => 'Njepłaćiwa šěrokosć',
+	'invalid-height' => 'Njepłaćiwa wysokosć',
+	'no-such-project' => 'Projekt njeeksistuje',
+	'no-images' => 'W tej kategoriji wobrazy njejsu',
+	'category-is-url' => 'Podata kategorija wupada kaž URL. Dyrbiš mjeno kategorije podać, nic jeje URL.',
+	'category-contains-namespace' => 'Zda so, zo mjenowy rum z mjenom kategorije zapřijał. Z podatym mjenom by strona jako [[Category:$1]] k dispoziciji stała.',
+	'zip-failed' => 'Zip-wutworjenje je so njeporadźiło',
+	'image-area-too-big' => '$1 je přewulki, zo by minaturny wobraz wutworił. Tohodla so połna wulkosć wužiwa.',
+	'download-info' => '{{plural: $1|Je jedyn wobraz|Stej $1 wobrazaj|Su $1 wobrazy|Je $1 wobrazow}}, z powobličenej wulkosću $2',
+	'download' => 'Sćahnyć',
+	'readme-contents' => 'Připołožena dataja $4 nalistuje
+wobrazy w kategoriji $1 ( $2 )$3.
+
+== Instrukcije za sćahowanje wšěch nalistowanych wobrazow ==
+Sćahowanski čas móže mjez mało mjeńšinami  a wjacorymi hodźinami wariěrować.
+
+Windows:
+Wotpakuj wšě dataje do samsneho rjadowaka a startuj $5
+$6
+
+Linux/Mac OS:
+Wotpakuj wšě dataje a wočiń terminal w tym rjadowaku. Startuj sh $5',
+	'non-bundled-wget' => 'Kedźbu: Tuta wersija wget za Windows njewobsahuje. Dyrbiš wobrazy z wget.exe do rjadowaka dekomprimować abo wget hinak w ŠĆEŽCE k dispoziciji stajić',
+	'wget-info' => 'Tuta dataja wobsahuje kopiju wot wget $1 (za Windows). Wget je swobodna softwara po licency „GNU GENERAL PUBLIC LICENSE“ we wersiji 3.
+Kopija licency je deleka, steji pak tež pod URL http://www.gnu.org/licenses/gpl-3.0.txt k dispoziciji.
+
+Jeli sy na žórłowym kodźe tutoho programa zajimowany, móžeš jón wot slědowacych městnow sćahnyć:
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+
+Su tež druhe špihelowe GNU-serwery, hlej
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', na maksimalnu šěrokosć $1 {{plural:$1|piksela|pikselow|pikselow|pikselow}} skalowane',
+	'scaling-height' => ', na maksimalnu wysokosć $1 {{plural:$1|piksela|pikselow|pikselow|pikselow}} skalowane',
+	'scaling-both' => ', na maksimalnu wulkosć $1x$2 pikselow skalowane',
+);
+
 /** Hungarian (Magyar)
  * @author Dj
  */
@@ -758,19 +857,53 @@ o de un altere speculo de GNU, vide
 );
 
 /** Italian (Italiano)
+ * @author Gianfranco
  * @author ZioNicco
  */
 $messages['it'] = array(
 	'title' => 'Scarica le immagini dalla categoria',
+	'subtitle' => 'Il modo più semplice per scaricare le immagini in una categoria',
 	'project' => 'Progetto:',
 	'category' => 'Categoria:',
+	'thumbnailing' => 'Miniaturizzazione',
 	'max-width' => 'Larghezza massima:',
 	'max-height' => 'Altezza massima:',
 	'invalid-width' => 'Larghezza non valida',
 	'invalid-height' => 'Altezza non valida',
 	'no-such-project' => 'Progetto inesistente',
 	'no-images' => "Non c'è nessuna immagine nella categoria",
+	'category-is-url' => 'Il nome proposto per la categoria somiglia a un URL. Devi specificare il nome della categoria, non il suo URL.',
+	'category-contains-namespace' => 'Sembra che tu abbia incluso il namespace nel nome della categoria. Con il nome che hai proposto, la pagina sarebbe disponibile come [[Category:$1]].',
 	'zip-failed' => 'Creazione Zip fallita',
+	'image-area-too-big' => '$1 è troppo grande per crearne una miniatura. Verrà usata la dimensione reale.',
+	'download-info' => "{{plural: $1|C'è un'immagine|Ci sono $1 immagini}}, per una dimensione stimata di $2",
+	'download' => 'Download',
+	'readme-contents' => 'Il file di inclusione $4 elenca
+le immagini nella categoria $1 ( $2 )$3.
+
+== Istruzioni per il download di tutte le immagini elencate ==
+Il tempo di download può variare da pochi minuti a diverse ore.
+
+Windows:
+ Estrai tutti i file nella stessa directory ed esegui $5 
+ $6
+Sistemi operativi Linux/Mac
+ Estrai tutti i file ed apri una finestra di terminale in quella directory. Esegui sh $5',
+	'non-bundled-wget' => 'Nota: Questa versione non comprende wget per Windows. Dovrai decomprimere
+in una directory con wget.exe o altrimenti avere wget nel PATH',
+	'wget-info' => "Questo file include una copia di wget $1 (per piattaforma Windows). Wget è Software Libero, nei
+termini di cui alla GNU GENERAL PUBLIC LICENSE versione 3.
+C'è una copia della licenza più sotto, ed è anche disponibile a http://www.gnu.org/licenses/gpl-3.0.txt
+
+Nel caso siate interessati ad ottenere il codice sorgente per questo programma, potete scaricarlo da
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+o da altri Mirror GNU, vedi
+ http://www.GNU.org/Prep/FTP.html",
+	'scaling-width' => ', scalata ad una larghezza massima di $1 {{plural:$1|pixel|pixel}}',
+	'scaling-height' => ', scalata ad una altezza massima di $1 {{plural:$1|pixel|pixel}}',
+	'scaling-both' => ', scalata ad una dimensione massima di $1x$2 pixel',
 );
 
 /** Japanese (日本語)
@@ -1058,12 +1191,32 @@ of een andere GNU-mirror, zie
 	'scaling-both' => ', geschaald naar een maximale afmeting van $1 x $2 pixels',
 );
 
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Aalam
+ */
+$messages['pa'] = array(
+	'title' => 'ਵਰਗ ਰਾਹੀਂ ਚਿੱਤਰ ਡਾਊਨਲੋਡ',
+	'subtitle' => 'ਇੱਕ ਵਰਗ ਵਿੱਚ ਚਿੱਤਰ ਡਾਊਨਲੋਡ ਕਰਨ ਦਾ ਸੌਖਾ ਢੰਗ',
+	'project' => 'ਪਰੋਜੈਕਟ:',
+	'category' => 'ਕੈਟਾਗਰੀ:',
+	'thumbnailing' => 'ਥੰਮਨੇਲਿੰਗ',
+	'max-width' => 'ਵੱਧ ਤੋਂ ਵੱਧ ਚੌੜਾਈ:',
+	'max-height' => 'ਵੱਧ ਤੋਂ ਵੱਧ ਉਚਾਈ:',
+	'invalid-width' => 'ਗਲਤ ਚੌੜਾਈ',
+	'invalid-height' => 'ਗਲਤ ਉਚਾਈ',
+	'no-such-project' => 'ਇੰਝ ਦਾ ਕੋਈ ਪਰੋਜੈਕਟ ਨਹੀਂ ਹੈ',
+	'no-images' => 'ਉਸ ਕੈਟਾਗਰੀ ਵਿੱਚ ਕੋਈ ਚਿੱਤਰ ਨਹੀਂ ਹਨ',
+	'zip-failed' => 'ਜ਼ਿੱਪ ਬਣਾਉਣ ਲਈ ਫੇਲ੍ਹ',
+	'download' => 'ਡਾਊਨਲੋਡ',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
 	'project' => 'Projekt:',
 	'category' => 'Abdeeling:',
+	'download' => 'Runnerdraage',
 );
 
 /** Polish (Polski)
@@ -1336,14 +1489,18 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Shanmugamp7
  */
 $messages['ta'] = array(
-	'title' => 'வகைப்படி படங்களை பதிவிறக்கு',
+	'title' => 'பகுப்புப்படி படங்களை பதிவிறக்கு',
 	'project' => 'திட்டம்:',
 	'category' => 'பகுப்பு:',
 	'max-width' => 'அதிகபட்ச அகலம்:',
 	'max-height' => 'அதிகபட்ச உயரம்:',
+	'invalid-width' => 'செல்லாத அகலம்',
+	'invalid-height' => 'செல்லாத உயரம்',
 	'no-such-project' => 'அப்படிப்பட்ட திட்டம் ஒன்றுமில்லை',
+	'no-images' => 'அந்த பகுப்பில் எந்த படமும் இல்லை',
 	'download' => 'பதிவிறக்கு',
 );
 
@@ -1436,6 +1593,7 @@ hoặc một Kho phần mềm GNU khác; xem
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Linforest
  * @author Mys 721tx
  */
 $messages['zh-hans'] = array(
@@ -1468,5 +1626,8 @@ Windows:
  $6
 Linux/Mac OS
 解压所有文件，并在终端中运行 sh $5',
+	'scaling-width' => '缩放到最大宽度 $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => '缩放到最大高度 $1 {{plural:$1|pixel|pixels}}',
+	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',
 );
 

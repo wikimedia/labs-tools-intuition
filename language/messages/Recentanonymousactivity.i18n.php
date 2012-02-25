@@ -102,6 +102,13 @@ $messages['de'] = array(
 	'title' => 'Aktuelle Bearbeitungen von IP-Adressen',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'title' => 'Nejnowša anonymna aktiwita',
+);
+
 /** Spanish (Español)
  * @author Fitoschido
  */

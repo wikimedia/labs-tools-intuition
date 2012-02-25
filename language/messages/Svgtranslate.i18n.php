@@ -183,7 +183,7 @@ $messages['ast'] = array(
 	'th-method' => 'Métodu',
 	'option-tusc' => 'TUSC (xuba automática)',
 	'option-manual' => 'Xuba manual',
-	'preview' => 'Entever',
+	'preview' => 'Vista previa',
 	'translate' => 'Traducir',
 	'translate-instructions' => 'S\'aceuten entraes como nomes de ficheru (p.ex. "$1") o  como URL completes (p.ex. "$2"). Si s\'usa la primera opción, se tomará como orixe Wikimedia Commons. Pa traducir un SVG d\'otru sitiu o wiki, tienes d\'usar el formatu d\'url completa.',
 	'svginput-label' => 'Ficheru SVG',
@@ -515,6 +515,43 @@ $messages['de'] = array(
 	'finalise' => 'Angaben vervollständigen',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'error-tryagain' => '$1 Klikni na tłocašk "Slědk" swójogo wobglědowaka, aby hyšći raz wopytał.',
+	'error-nothing' => 'Njejo nic za pśełožowanje.',
+	'error-notsvg' => 'To njejo SVG-dataja.',
+	'error-unexpected' => 'Njewócakowana zmólka jo nastała.',
+	'error-notfound' => 'SVG-dataja njedajo se wót pódanego URL wótwołaś.',
+	'error-upload' => 'Pśi nagrawanju jo zmólka nastała.',
+	'begin-translation' => 'Pśełožowanje zachopiś',
+	'th-original' => 'Original',
+	'th-translation' => 'Pśełožk',
+	'th-language' => 'Rěc',
+	'th-username' => 'Wužywarske mě',
+	'th-password' => 'Gronidło',
+	'th-method' => 'Metoda',
+	'option-tusc' => 'TUSC (awtomatiske nagraśe)',
+	'option-manual' => 'Manuelne nagraśe',
+	'preview' => 'Pśeglěd',
+	'translate' => 'Pśełožyś',
+	'translate-instructions' => 'Zapódaśa akceptěruju se pak ako datajowe mjenja (na pś. "$1")  pak ako dopołny URL (na pś. "$2"). Jolic se prědna opcija wužywa, buźo se Wikimedia Commons ako žrědło pśedpokładowaś.  Aby SVG z drugego sedła abo wikija pśełožył, musyš format z dopołnym URL wužywaś.',
+	'svginput-label' => 'SVG-dataja',
+	'stats-footer' => 'Toś ten rěd jo se wužył, aby se wokoło $1 datajow wót $2 pśełožyło.',
+	'uploading' => 'Nagrawa se...',
+	'upload-complete' => 'Nagraśe jo wuspěšnje dokóńcone. Wobraz by dejał něnto pód $1 k dispoziciji staś.',
+	'editdescriptionpage' => 'Nowy wopisański bok wobźěłaś',
+	'disclaimer' => 'Někotare anonymne daty zběraju se za statistiske zaměry. Jolic k dispoziciji, wužywarske mjenja TUSC so teke zapśimuju, ako pomocny srědk pśeśiwo wandalizmoju. Gronidła se nigda njezapśimuju.',
+	'author-complete' => 'Pšosym wudopołni informacije wó awtorje!',
+	'preview-hide' => 'Pśeglěd schowaś',
+	'preview-refresh' => 'Pśeglěd aktualizěrowaś',
+	'error-must-accept' => 'Aby z direktnym nagraśim pókšacował, musyš slědujuce wužywańske wuměnjenja akceptěrowaś.',
+	'error-tusc-failed' => 'TUSC-pśeglědanje jo se njeraźiło: Wužywarske mě abo gronidło jo wopak.',
+	'description-license' => 'Wopisanje a licencu wubraś',
+	'finalise' => 'Drobnostki wudopołniś',
+);
+
 /** Greek (Ελληνικά)
  * @author Evropi
  */
@@ -783,6 +820,13 @@ $messages['gl'] = array(
 	'finalise' => 'Finalizar os detalles',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
+ */
+$messages['grc'] = array(
+	'th-language' => 'Γλῶττα',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -863,7 +907,37 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'error-tryagain' => '$1 Klikń na tłóčatko "Wróćo" swojeho wobhladowaka, zo by hišće raz spytał.',
+	'error-nothing' => 'Njeje ničo za přełožowanje.',
+	'error-notsvg' => 'To SVG-dataja njeje.',
+	'error-unexpected' => 'Njewočakowany zmylk je wustupił.',
+	'error-notfound' => 'SVG-dataja njeda so wot podateho URL wotwołać.',
+	'error-upload' => 'Při nahrawanju je zmylk wustupił.',
+	'begin-translation' => 'Přełožowanje započeć',
+	'th-original' => 'Original',
+	'th-translation' => 'Přełožk',
 	'th-language' => 'Rěč',
+	'th-username' => 'Wužiwarske mjeno',
+	'th-password' => 'Hesło',
+	'th-method' => 'Metoda',
+	'option-tusc' => 'TUSC (awtomatiske nahraće)',
+	'option-manual' => 'Manuelne nahraće',
+	'preview' => 'Přehlad',
+	'translate' => 'Přełožić',
+	'translate-instructions' => 'Zapodaća akceptuja so pak jako datajowe mjena (na př. "$1")  pak jako dospołny URL (na př. "$2"). Jeli so prěnja opcija wužiwa, budźe so Wikimedia Commons jako žórło předpokładować. Zo by SVG z druheho sydła abo wikija přełožił, dyrbiš format z dospołnym URL wužiwać.',
+	'svginput-label' => 'SVG-dataja',
+	'stats-footer' => 'Tutón nastroj je so wužił, zo by so na wšě $1 datajow wot $2 přełožiło.',
+	'uploading' => 'Nahrawa so...',
+	'upload-complete' => 'Nahraće je wuspěšnje zakónčene. Wobraz dyrbjał nětko pod $1 k dispoziciji stać.',
+	'editdescriptionpage' => 'Nowu wopisansku stronu wobdźěłać',
+	'disclaimer' => 'Někotre anonymne daty so za statistiske zaměry zběraja. Jeli k dispoziciji, wužiwarske mjena TUSC so tež zapřijimaja, jako pomocny srědk přećiwo wandalizmej. Hesła so ženje njezapřijimaja.',
+	'author-complete' => 'Prošu wudospołń informacije wo awtorje!',
+	'preview-hide' => 'Přehlad schować',
+	'preview-refresh' => 'Přehlad aktualizować',
+	'error-must-accept' => 'Zo by z direktnym nahraćom pokročował, dyrbiš slědowace wužiwanske wuměnjenja akceptować.',
+	'error-tusc-failed' => 'TUSC-přepruwowanje je so njeporadźiło: Wužiwarske mjeno abo hesło je wopak.',
+	'description-license' => 'Wopisanje a licencu wubrać',
+	'finalise' => 'Podrobnosće wudospołnić',
 );
 
 /** Hungarian (Magyar)
@@ -1538,6 +1612,7 @@ $messages['pdc'] = array(
 	'th-username' => 'Yuuser-Naame',
 	'th-password' => 'Paesswatt',
 	'preview' => 'Aasicht',
+	'translate' => 'Iwwersetze',
 	'svginput-label' => 'SVG-Feil',
 	'uploading' => 'Am ufflaade…',
 );

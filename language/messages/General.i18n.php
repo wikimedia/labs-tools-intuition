@@ -376,6 +376,27 @@ $messages['diq'] = array(
 	'hello' => 'Merheba',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'hello' => 'Halo',
+	'welcome' => 'Witaj',
+	'toolversionstamp' => 'Wersija $1 ($2)',
+	'etc' => 'atd.',
+	'namespace' => 'Mjenjowy rum',
+	'form-submit' => 'Wótpósłaś',
+	'form-reset' => 'Slědk stajiś',
+	'years' => '{{PLURAL: $1|lěto|lěśe|lěta|lět}}',
+	'weeks' => '{{PLURAL: $1|tyźeń|tyźenja|tyźenje|tyźenjow}}',
+	'days' => '{{PLURAL: $1|źeń|dnja|dny|dnjow}}',
+	'hours' => '{{PLURAL: $1|góźina|góźinje|góźiny|góźinow}}',
+	'minutes' => '{{PLURAL: $1|minuta|minuśe|minuty|minutow}}',
+	'seconds' => '{{PLURAL: $1|sekunda|sekunźe|sekundy|sekundow}}',
+	'last-modified-date' => 'Slědny raz změnjony: $1',
+	'view-source' => 'Žrědło se woglědaś',
+);
+
 /** Greek (Ελληνικά)
  * @author Evropi
  */
@@ -593,11 +614,11 @@ $messages['hsb'] = array(
 	'namespace' => 'Mjenowy rum',
 	'form-submit' => 'Wotpósłać',
 	'form-reset' => 'Wróćo stajić',
-	'years' => '{{PLURAL:$1|lěto|lěće|lěta|lět}}',
-	'weeks' => '{{PLURAL:$1|tydźeń|njedźeli|njedźele|njedźel}}',
-	'days' => '{{PLURAL:$1|dźeń|dnjej|dny|dnjow}}',
+	'years' => '{{PLURAL: $1|lěto|lěće|lěta|lět}}',
+	'weeks' => '{{PLURAL: $1|tydźeń|njedźeli|njedźele|njedźel}}',
+	'days' => '{{PLURAL: $1|dźeń|dnjej|dny|dnjow}}',
 	'hours' => '{{PLURAL:$1|hodźina|hodźinje|hodźiny|hodźin}}',
-	'minutes' => '{{PLURAL:$1|mjeńšina|mjeńšinje|mjeńšiny|mjeńšin}}',
+	'minutes' => '{{PLURAL: $1|mjeńšina|mjeńšinje|mjeńšiny|mjeńšin}}',
 	'seconds' => '{{PLURAL:$1|sekunda|sekundźe|sekundy|sekundow}}',
 	'last-modified-date' => 'Posledni raz změnjeny: $1',
 	'view-source' => 'Žórłowy tekst pokazać',
@@ -634,7 +655,7 @@ $messages['ia'] = array(
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Spatio de nomines',
-	'form-submit' => 'Ir',
+	'form-submit' => 'Va',
 	'form-reset' => 'Reinitialisar',
 	'years' => '{{PLURAL: $1|anno|annos}}',
 	'weeks' => '{{PLURAL: $1|septimana|septimanas}}',

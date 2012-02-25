@@ -332,7 +332,7 @@ $messages['de'] = array(
 	'tools-curr' => 'Aktuelle Version',
 	'tools-globalusage' => 'Globale Nutzung',
 	'deletesummary' => 'Löschung der verwaisten Diskussionsseite mit $1',
-	'noresults' => 'Es konnten auf  diesem Wiki keine den Einstellungen entsprechenden verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.',
+	'noresults' => 'Es konnten auf diesem Wiki keine den Einstellungen entsprechenden verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.',
 	'resultslimited' => 'Die Ergebnisse wurden auf $1 Seiten beschränkt.',
 );
 
@@ -341,6 +341,30 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'limit' => 'Limit',
+);
+
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(wubjeŕ nejpjerwjej wiki)',
+	'hideredirects' => 'Dalejpósrědnjenja schowaś',
+	'hidesubpages' => 'Pódboki schowaś',
+	'limit' => 'Limit',
+	'page' => 'Bok',
+	'redirect' => 'Jo dalejpósrědnjenje?',
+	'output' => 'Wudaśe',
+	'update' => 'Aktualizěrowaś',
+	'tools-delete' => 'wulašowaś',
+	'tools-links' => 'wótkaze',
+	'tools-subject' => 'tema',
+	'tools-hist' => 'historija',
+	'tools-curr' => 'aktualna wersija',
+	'tools-globalusage' => 'globalne wužywanje',
+	'deletesummary' => 'Lašowanje wósyrośonych diskusijnych bokow pśez $1',
+	'noresults' => 'Žedne wósyrośone diskusijne boki na toś tom wikiju w toś tom mjenjowem rumje njejsu wašym nastajenjam wótpowědowali.',
+	'resultslimited' => 'Wuslědki su se na $1 bokow wobgranicowali.',
 );
 
 /** Greek (Ελληνικά)
@@ -539,6 +563,30 @@ $messages['hr'] = array(
 	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(wubjer najprjedy wiki)',
+	'hideredirects' => 'Daleposrědkowanja schować',
+	'hidesubpages' => 'Podstrony schować',
+	'limit' => 'Limit',
+	'page' => 'Strona',
+	'redirect' => 'Je dalesposrědkowanje?',
+	'output' => 'Wudaće',
+	'update' => 'Aktualizować',
+	'tools-delete' => 'zhašeć',
+	'tools-links' => 'wotkazy',
+	'tools-subject' => 'tema',
+	'tools-hist' => 'wersije',
+	'tools-curr' => 'aktualna wersija',
+	'tools-globalusage' => 'globalne wužiwanje',
+	'deletesummary' => 'Wuprózdnjenje wosyroćenych diskusijnych stronow přez $1',
+	'noresults' => 'Žane wosyroćene diskusijne strony na tutym wikiju w tutym mjenowym rumje njejsu wašim nastajenjam wotpowědowali.',
+	'resultslimited' => 'Wuslědki buchu na $1 stronow wobmjezowane.',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -598,12 +646,14 @@ $messages['inh'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Gianfranco
  * @author Nemo bis
  * @author Valepert
  * @author ZioNicco
  */
 $messages['it'] = array(
 	'title' => 'DiscussioneOrfana2',
+	'select-wiki-first' => '(prima scegli un wiki)',
 	'hideredirects' => 'Nascondi redirect',
 	'hidesubpages' => 'Nascondi le sottopagine',
 	'limit' => 'Limite',
@@ -616,6 +666,9 @@ $messages['it'] = array(
 	'tools-subject' => 'oggetto',
 	'tools-hist' => 'cron',
 	'tools-curr' => 'corr',
+	'tools-globalusage' => 'globalusage',
+	'deletesummary' => 'Pulizia pagine di discussione orfane con $1',
+	'noresults' => 'Nessuna corrispondenza di pagine orfane in questo wiki, e per questo namespace, con i criteri indicati.',
 	'resultslimited' => 'I risultati sono stati limitati a $1 pagine.',
 );
 
@@ -902,7 +955,8 @@ $messages['no'] = array(
 $messages['pdc'] = array(
 	'limit' => 'Limit',
 	'page' => 'Blatt',
-	'tools-delete' => 'lesche',
+	'update' => 'Druffschridde',
+	'tools-delete' => 'verwische',
 	'tools-links' => 'Gleecher',
 );
 

@@ -442,6 +442,34 @@ $messages['diq'] = array(
 	'tab-demo' => 'Demo',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'fullname' => 'Pśełožki za wužywarski powjerch Toolserver',
+	'current-settings' => 'Aktualne nstajenja',
+	'current-language' => 'Tuchylu wubrana rěc',
+	'settings-legend' => 'Nastajenja',
+	'choose-language' => 'Rěc wubraś',
+	'clear-cookies' => 'cookieje wulašowaś',
+	'renew-cookies' => 'cookieje wótnowiś',
+	'cookie-expiration' => 'Spadnjenje cookieja',
+	'clearcookies-success' => 'Cookieje su se wuspěšnje wulašowali.',
+	'renewcookies-success' => 'Cookieje su se wótnowili! Su na pśiduce $1 płaśiwe.',
+	'tab-overview' => 'Pśeglěd',
+	'tab-settings' => 'Nastajenja',
+	'tab-about' => 'Wó',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Móje rěcne nastajenja',
+	'bl-mysettings-new' => 'Rěc změniś!',
+	'bl-promo' => 'Pśełožki zmóžnjaju se wót $1 a $2.',
+	'bl-changelanguage' => 'Klikni how, aby rěc wužywarskego powjercha toś togo rěda změnił.',
+	'usage' => 'Rědy su se wót Toolserver Intuition pśełožyli.',
+	'help-translate-tool' => 'Pomóž toś ten rěd pśełožyś!',
+	'help-translate-all' => 'Pomóž Toolserver pśełožyś!',
+	'help-translate-tooltip' => 'Pomóž drugim luźim, za tym až pśełožujo powěźeńki wužywarskego powjercha do swójeje rěcy.',
+);
+
 /** Greek (Ελληνικά)
  * @author Evropi
  */
@@ -685,6 +713,34 @@ $messages['hr'] = array(
 	'help-translate-tool' => 'Pomozite nam prevesti ovaj alat!',
 	'help-translate-all' => 'Pomozite nam da prevedemo Toolserver!',
 	'help-translate-tooltip' => 'Pomozite drugima prijevodom poruka sučelja na svoj jezik.',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'fullname' => 'Přełožki za wužiwarski powjerch Toolserver',
+	'current-settings' => 'Aktualne nstajenja',
+	'current-language' => 'Tuchwilu wubrana rěč',
+	'settings-legend' => 'Nastajenja',
+	'choose-language' => 'Rěč wubrać',
+	'clear-cookies' => 'placki wotstronić',
+	'renew-cookies' => 'placki wobnowić',
+	'cookie-expiration' => 'spadnjenje placka',
+	'clearcookies-success' => 'Placki su so wuspěšnje wotstronili.',
+	'renewcookies-success' => 'Placki su so wobnowili! Su na přichodnych $1 płaćiwe.',
+	'tab-overview' => 'Přehlad',
+	'tab-settings' => 'Nastajenja',
+	'tab-about' => 'Wo',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Moje rěčne nastajenja',
+	'bl-mysettings-new' => 'Změń rěč!',
+	'bl-promo' => 'Přełožki so wot $1 a $2 zmóžnjeja.',
+	'bl-changelanguage' => 'Klikń tu, zo by rěč wužiwarskeho powjercha tutoho nastroja změnił.',
+	'usage' => 'Nastroje su so wot Toolserver Intuition přełožili.',
+	'help-translate-tool' => 'Pomhaj tutón nastroj přełožić!',
+	'help-translate-all' => 'Pomhaj Toolserver přełožić!',
+	'help-translate-tooltip' => 'Pomhaj druhim ludźom přełožujo zdźělenki wužiwarskeho powjercha do swojeje rěče.',
 );
 
 /** Hungarian (Magyar)
@@ -1164,8 +1220,11 @@ $messages['pdc'] = array(
 	'settings-legend' => 'Uffstellinge',
 	'tab-settings' => 'Uffstellinge',
 	'tab-about' => 'Iwwer',
+	'tab-demo' => 'Demo',
 	'bl-mysettings' => "Mei Uffstelling fer d'Schprooch",
 	'bl-mysettings-new' => 'Schprooch ennere',
+	'help-translate-tool' => 'Bitte hilf des Gscharr zu iwwersetze!',
+	'help-translate-all' => 'Hilf bitte daen Waerkzeichheit-Rechlinger zu iwwersetze!',
 );
 
 /** Polish (Polski)

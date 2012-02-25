@@ -434,6 +434,55 @@ $messages['diq'] = array(
 	'bic-list-bad' => 'bımısnı',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'title' => 'WLM-dataje',
+	'file' => 'Wobraz',
+	'monument-type' => 'Typ zajmnostki',
+	'monument-id' => 'ID zajmnostki',
+	'province' => 'Prowinca',
+	'comarque' => 'Comarca',
+	'competes' => 'Wobźěłujo se',
+	'author' => 'Awtor',
+	'upload-time' => 'Nagrawański cas',
+	'deleted' => 'Wulašowany ($1)',
+	'concursa' => 'Wobźěłujo se na WLM',
+	'no-concursa' => 'Njewobźěłujo se na WLM',
+	'not-available' => 'Njejo k dispoziciji',
+	'date-unknown' => 'Njeznaty',
+	'total-images' => 'Wobraze dogromady: $1',
+	'view-uncategorized-images' => 'Njekategorizěrowane wobraze pokazaś',
+	'provide-id' => 'Pódaj ID zajmnostki, aby daty pokazał, kótarež stoje za nju k dispoziciji',
+	'show-images-bad-only' => 'Jano wobraze zwenka lisćinow pokazaś',
+	'show-images-all' => 'Wšykne wobraze pokazaś',
+	'show-images-removed' => 'Wobraze pokazaś, kótarež su se z wuběźowanja wótpórali',
+	'search-monuments' => 'Zajmnostki pśepytaś',
+	'view-frequency' => 'Woblubowane zajmnostki',
+	'view-ccaa' => 'Pó awtonomnem zgromaźeństwje pokazaś',
+	'view-province' => 'Pó prowincy pokazaś',
+	'id-label' => 'ID zajmnostki:',
+	'id-none' => '(Žeden)',
+	'monument-heading' => 'Zajmnostka',
+	'count-heading' => 'Fotografije',
+	'bic-list' => 'Lisćina',
+	'bic-gallery' => 'Galerija',
+	'gallery-header' => 'Wobraze za zajmnostku z ID $1.',
+	'gallery-header-place' => 'Wobraze za zajmnostki z $1.',
+	'wall-of-shame-text' => 'Awtory pó licbje njeidentificěrowanych fotografijow',
+	'author-heading' => 'Awtor',
+	'bic-list-bad' => 'Pokazaś',
+	'bic-list-all' => 'Dopołna lisćina',
+	'unregistered' => 'Njeregistrěrowany',
+	'users-text' => 'Toś ten bok pokazujo awtorow z wobrazami, kótarež a za kak wjele zajmnostkow woni su nagrali',
+	'users-list' => 'Woglědaś se',
+	'distict-monuments' => 'Rozdźělne zajmnostki',
+	'province-heading' => 'Prowinca',
+	'province-none' => '(Njeznaty)',
+	'ccaa-heading' => 'CC.AA.',
+);
+
 /** Spanish (Español)
  * @author McDutchie
  * @author Platonides
@@ -692,6 +741,55 @@ $messages['he'] = array(
 	'ccaa-heading' => 'קהילות אוטונומיות',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'title' => 'WLM-dataje',
+	'file' => 'Wobraz',
+	'monument-type' => 'Typ zajimawosće',
+	'monument-id' => 'ID zajimawosće',
+	'province' => 'Prowinca',
+	'comarque' => 'Comarca',
+	'competes' => 'Wobdźěłuje so',
+	'author' => 'Awtor',
+	'upload-time' => 'Nahrawanski čas',
+	'deleted' => 'Zhašany ($1)',
+	'concursa' => 'Wobdźěłuje so na WLM',
+	'no-concursa' => 'Njewobdźěłuje so na WLM',
+	'not-available' => 'Njesteji k dispoziciji',
+	'date-unknown' => 'Njeznaty',
+	'total-images' => 'Wobrazy dohromady: $1',
+	'view-uncategorized-images' => 'Njekategorizowane wobrazy pokazać',
+	'provide-id' => 'Podaj ID zajimawosće, zo by daty pokazał, kotrež za nju k dispoziciji steja',
+	'show-images-bad-only' => 'Jenož wobrazy zwonka lisćinow pokazać',
+	'show-images-all' => 'Wšě wobrazy pokazać',
+	'show-images-removed' => 'Wobrazy pokazać, kotrež su so z wubědźowanja wotstronili',
+	'search-monuments' => 'Zajimawosće pytać',
+	'view-frequency' => 'Woblubowane zajimawosće',
+	'view-ccaa' => 'Po awtonomnym zhromadźenstwje pokazać',
+	'view-province' => 'Po prowincy pokazać',
+	'id-label' => 'ID zajimawosće:',
+	'id-none' => '(Žadyn)',
+	'monument-heading' => 'Zajimawosć',
+	'count-heading' => 'Fotografije',
+	'bic-list' => 'Lisćina',
+	'bic-gallery' => 'Galerija',
+	'gallery-header' => 'Wobrazy za zajimawosć z ID $1.',
+	'gallery-header-place' => 'Wobrazy za zajimawosće z $1.',
+	'wall-of-shame-text' => 'Awtorojo po ličbje njeidentifikowanych fotografijow',
+	'author-heading' => 'Awtor',
+	'bic-list-bad' => 'Pokazać',
+	'bic-list-all' => 'Dospołna lisćina',
+	'unregistered' => 'Njeregistrowany',
+	'users-text' => 'Tuta strona pokazuje awtorow z wobrazami, kotrež a za kelko zajimawosćow woni su nahrali',
+	'users-list' => 'Wobhladać',
+	'distict-monuments' => 'Rozdźělne zajimawosće',
+	'province-heading' => 'Prowinca',
+	'province-none' => '(Njeznaty)',
+	'ccaa-heading' => 'CC.AA.',
+);
+
 /** Hungarian (Magyar)
  * @author Dj
  */
@@ -831,11 +929,53 @@ $messages['id'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Gianfranco
  * @author ZioNicco
  */
 $messages['it'] = array(
+	'title' => 'File WLM',
+	'file' => 'Immagine',
+	'monument-type' => 'Tipo di monumento',
+	'monument-id' => 'Identificativo del monumento',
+	'province' => 'Provincia',
+	'comarque' => 'Regione',
+	'competes' => 'In competizione',
 	'author' => 'Autore',
+	'upload-time' => 'Momento di caricamento',
+	'deleted' => 'Cancellato ($1)',
+	'concursa' => 'Prende parte a WLM',
+	'no-concursa' => 'Fuori concorso WLM',
+	'not-available' => 'Non disponibile',
+	'date-unknown' => 'Non noto',
+	'total-images' => 'Totale immagini: $1',
+	'view-uncategorized-images' => 'Vedi le immagini non categorizzate',
+	'provide-id' => "Fornisci un id di monumento per mostrare i dati disponibili per quell'elemento",
+	'show-images-bad-only' => 'Visualizza solo le immagini non comprese nelle liste',
+	'show-images-all' => 'Visualizza tutte le immagini',
+	'show-images-removed' => 'Mostra immagini rimosse dalla competizione',
+	'search-monuments' => 'Ricerca monumenti',
+	'view-frequency' => 'Monumenti popolari',
+	'view-ccaa' => 'Sfoglia per comunità autonoma',
+	'view-province' => 'Sfoglia per provincia',
+	'id-label' => 'Identificativo del monumento:',
+	'id-none' => '(Nessuno)',
+	'monument-heading' => 'Monumento',
+	'count-heading' => 'Fotografie',
+	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galleria',
+	'gallery-header' => 'Immagini per il monumento con id $1.',
+	'gallery-header-place' => 'Immagini per i monumenti di $1.',
+	'wall-of-shame-text' => 'Autori per numero di fotografie non identificate',
+	'author-heading' => 'Autore',
+	'bic-list-bad' => 'Mostra',
+	'bic-list-all' => 'Elenco completo',
+	'unregistered' => 'Non registrato',
+	'users-text' => 'Questa pagina mostra gli autori con le immagini che hanno caricato e di quanti monumenti',
+	'users-list' => 'Mostra',
+	'distict-monuments' => 'Monumenti distinti',
+	'province-heading' => 'Provincia',
+	'province-none' => '(Sconosciuto)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Japanese (日本語)
@@ -1100,8 +1240,14 @@ $messages['nl'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
-	'deleted' => 'Gelescht ($1)',
+	'file' => 'Feil',
+	'author' => 'Schreiwer',
+	'deleted' => 'Verwischt ($1)',
+	'date-unknown' => 'Net bekannt',
+	'id-none' => '(Ken)',
 	'bic-list' => 'Lischt',
+	'author-heading' => 'Schreiwer',
+	'province-none' => '(Net bekannt)',
 );
 
 /** Polish (Polski)

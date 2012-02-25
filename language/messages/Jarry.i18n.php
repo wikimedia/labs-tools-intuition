@@ -112,6 +112,16 @@ $messages['de'] = array(
 	'error-form-empty' => 'Eines oder mehrere der Pflichtfelder wurden nicht ausgefüllt. Bitte vor dem Fortfahren ausfüllen.',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'moretools' => 'dalšne rědy wót togo samego awtora',
+	'bugs' => 'zmólkowe powěźeńki a žycenja za funkcijami',
+	'comments' => 'komentary a napšašowanja',
+	'error-form-empty' => 'Jadne trěbne pólo njejo se wupolniło abo někotare trěbne póla  njejsu se wupołnili. Pšosym  wupołni je, nježli až pókšacujoš.',
+);
+
 /** Spanish (Español)
  * @author Fitoschido
  */
@@ -180,6 +190,16 @@ $messages['hr'] = array(
 	'bugs' => 'prijava grešaka i zahtijevi za nove mogućnosti',
 	'comments' => 'primjedbe i upiti',
 	'error-form-empty' => 'Jedno ili više obaveznih polja su prazna. Trebali bi ih dovršiti prije nastavka.',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'moretools' => 'dalše nastroje wot samsneheo awtora',
+	'bugs' => 'zmylkowe zdźělenki a přeća wo funkcije',
+	'comments' => 'komentary  a naprašowanja',
+	'error-form-empty' => 'Jedne trěbne polo njeje so wupjelniło abo wjacore trěbne pola  njejsu so wupjelnili. Prošu wupjelń je, prjedy hač pokročuješ.',
 );
 
 /** Hungarian (Magyar)

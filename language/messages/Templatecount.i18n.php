@@ -185,6 +185,21 @@ $messages['de-formal'] = array(
 	'introduction' => 'Geben Sie den Namen einer Vorlage an (aktuell nur die Wikipedias) und klicken Sie „Los“ – so einfach ist das. Es kann sein, dass gecachte Ergebnisse (ältere Vorlagenversionen) ausgegeben werden. Dies liegt leider außerhalb des Einflussbereichs dieses Hilfsprogramms.',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'enter-details' => 'Drobnostki zapódaś',
+	'introduction' => 'Zapiš mě pśedłogi (tuchylu jano Wikipedije) a klikni na "Pytaś", Tak jadnore to jo.  Su pufrowane wuslědki, ale to njepódlažy bóžko pód wliwom rěda a jogo wobsejźerja.',
+	'language-label' => 'Rěc',
+	'namespace-label' => 'Mjenjowy rum',
+	'pagename-label' => 'Mě boka (bźez mjenjowego ruma)',
+	'transclusion-count-label' => 'Licba transkluzijow',
+	'transclusion-count' => '{{PLURAL:$1|1 transkluzija jo se namakała|$1 transkluziji stej se namakałej|$1 transkluzije su se namakali|$1 transkluzijow jo se namakało}}.',
+	'error-suggestion' => 'Snaź sy mě boka wopak (abo z wopacnym wjelikopisanim) napisał?',
+	'time-label' => 'Trěbny cas za wuwjeźenje pśikaza',
+);
+
 /** Spanish (Español)
  * @author Fitoschido
  */
@@ -265,6 +280,13 @@ $messages['gl'] = array(
 	'time-label' => 'Tempo necesario para executar o comando',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
+ */
+$messages['grc'] = array(
+	'language-label' => 'Γλῶττα',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -284,7 +306,15 @@ $messages['he'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'enter-details' => 'Podrobnosće zapodać',
+	'introduction' => 'Zapisaj mjeno předłohi (tuchwilu jenož Wikipedije) a klikń na "Pytać", Tak jednore to je.  Su pufrowane wuslědki, ale to bohužel pod wliwom nastroja a jeho wobsedźerja njepodleži.',
 	'language-label' => 'Rěč',
+	'namespace-label' => 'Mjenowy rum',
+	'pagename-label' => 'Mjeno strony (bjez mjenoweho ruma)',
+	'transclusion-count-label' => 'Ličba transkluzijow',
+	'transclusion-count' => '{{PLURAL:$1|1 transkluzija je so namakała|$1 transkluziji stej so namakałoj|$1 transkluzije su so namakali|$1 transkluzijow je so namakało}}.',
+	'error-suggestion' => 'Snano sy mjeno strony wopak (abo z wopačnym wulkopisanjom) napisał?',
+	'time-label' => 'Trěbny čas za wuwjedźenje přikaza',
 );
 
 /** Hungarian (Magyar)
@@ -326,12 +356,19 @@ $messages['id'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Gianfranco
  */
 $messages['it'] = array(
+	'title' => 'Conteggio delle transclusioni dei template',
+	'enter-details' => 'Precisa i dettagli',
+	'introduction' => "Scrivi il nome di un template (solo versioni di Wikipedia, al momento) e premi su vai. È davvero semplice, proprio così. C'è qualche memorizzazione nella cache (memoria di precedenti risultati), ma questo purtroppo va oltre la capacità di controllo di questo tool e del suo gestore.",
 	'language-label' => 'Lingua',
 	'namespace-label' => 'Namespace',
+	'pagename-label' => 'Nome della pagina (escluso il namespace)',
 	'transclusion-count-label' => 'Numero di inclusioni',
 	'transclusion-count' => '$1 inclusioni trovate.',
+	'error-suggestion' => 'Per caso hai sbagliato a scrivere il nome della pagina (o le maiuscole)?',
+	'time-label' => "Tempo impiegato per eseguire l'operazione",
 );
 
 /** Japanese (日本語)

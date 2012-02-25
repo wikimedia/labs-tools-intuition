@@ -151,6 +151,17 @@ $messages['de'] = array(
 	'output' => 'Ausgabe für „$1“',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'formats-heading' => 'Wudawańske formaty',
+	'input' => 'Zapódaśe',
+	'label-wikiids' => 'Wikiidentifikatory',
+	'no-matches' => 'Žedne wótpowědniki za "$1"',
+	'output' => 'Wudaśe za "$1"',
+);
+
 /** Greek (Ελληνικά)
  * @author Evropi
  */
@@ -235,6 +246,17 @@ $messages['hr'] = array(
 	'output' => 'Izlaz za "$1"',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'formats-heading' => 'Wudawanske formaty',
+	'input' => 'Zapodaće',
+	'label-wikiids' => 'Wikiidentifikatory',
+	'no-matches' => 'Žane wotpowědniki za "$1"',
+	'output' => 'Wudaće za "$1"',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
@@ -270,10 +292,15 @@ $messages['id'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Gianfranco
  * @author Nemo bis
  */
 $messages['it'] = array(
 	'formats-heading' => 'Formati in uscita',
+	'input' => 'Input',
+	'label-wikiids' => 'Identificativi wiki',
+	'no-matches' => 'Nessuna corrispondenza per "$1"',
+	'output' => 'Risultati per "$1"',
 );
 
 /** Japanese (日本語)

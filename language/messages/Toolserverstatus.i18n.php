@@ -154,6 +154,26 @@ $messages['de'] = array(
 	'toolserver-status-short-missing' => '$1: Nicht vorhanden',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'toolserver-status-ok' => 'Problemy w clusterje $1 datoweje banki njejsu $2',
+	'toolserver-status-info' => 'Powěźeńka za wužywarjow clustera $1: $2',
+	'toolserver-status-warn' => 'Warnowanje za wužywarjow clustera $1: $2',
+	'toolserver-status-down' => 'Cluster $1 datoweje banki jo se nachylu wušaltował. $2',
+	'toolserver-status-erro' => 'Cluster $1 datoweje banki jo wupadnuł. $2',
+	'toolserver-status-unknown' => 'Unknown status of cluster $1',
+	'toolserver-status-missing' => 'Cluster $1 njeeksistěrujo',
+	'toolserver-status-short-ok' => '$1: W pórěźe',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Warnowaś',
+	'toolserver-status-short-down' => '$1: Wupadnjony',
+	'toolserver-status-short-erro' => '$1: Zmólka',
+	'toolserver-status-short-unknown' => '$1: Njeznaty',
+	'toolserver-status-short-missing' => '$1: Felujo',
+);
+
 /** Spanish (Español)
  * @author Platonides
  * @author Vivaelcelta
@@ -248,6 +268,26 @@ $messages['he'] = array(
 	'toolserver-status-short-missing' => '$1: חסר',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'toolserver-status-ok' => 'Problemy w clusterje $1 datoweje banki njejsu $2',
+	'toolserver-status-info' => 'Zdźělenka za wužiwarjow clustera $1: $2',
+	'toolserver-status-warn' => 'Warnowanje za wužiwarjow clustera $1: $2',
+	'toolserver-status-down' => 'Cluster $1 datoweje banki je so nachwilu wupinył. $2',
+	'toolserver-status-erro' => 'Cluster $1 datoweje banki je wupadnył. $2',
+	'toolserver-status-unknown' => 'Njeznaty status clustera $1',
+	'toolserver-status-missing' => 'Cluster $1 njeeksistuje',
+	'toolserver-status-short-ok' => '$1: W porjadku',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Warnować',
+	'toolserver-status-short-down' => '$1: Wupadnjeny',
+	'toolserver-status-short-erro' => '$1: Zmylk',
+	'toolserver-status-short-unknown' => '$1: Njeznaty',
+	'toolserver-status-short-missing' => '$1: Faluje',
+);
+
 /** Hungarian (Magyar)
  * @author Dj
  */
@@ -289,11 +329,24 @@ $messages['ia'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Gianfranco
  * @author ZioNicco
  */
 $messages['it'] = array(
 	'toolserver-status-ok' => 'Non ci sono problemi nel cluster di database $1 $2',
+	'toolserver-status-info' => 'Avviso per gli utenti del cluster $1: $2',
+	'toolserver-status-warn' => 'Avvertenza per gli utenti del cluster $1: $2',
+	'toolserver-status-down' => 'Il cluster $1 del database è stato temporaneamente arrestato. $2',
+	'toolserver-status-erro' => 'Il cluster $1 del database è giù. $2',
+	'toolserver-status-unknown' => 'Stato del cluster $1 non noto',
 	'toolserver-status-missing' => 'Cluster $1 non esistente',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Avvisi',
+	'toolserver-status-short-down' => '$1: Fermo',
+	'toolserver-status-short-erro' => '$1: Errori',
+	'toolserver-status-short-unknown' => '$1: Non noto',
+	'toolserver-status-short-missing' => '$1: Mancante',
 );
 
 /** Khmer (ភាសាខ្មែរ)

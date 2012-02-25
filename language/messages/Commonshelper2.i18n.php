@@ -672,6 +672,57 @@ $messages['diq'] = array(
 	'standard_language' => 'diq',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'attention' => 'Glědaj',
+	'description' => 'Rěd za pśenošowanje datajow z Wikimedijowych projektow do Wikipedia Commons',
+	'change_meta' => '$1Nastajenja za kategorije a pśedłogi$2 za $3 změniś',
+	'jira_link' => 'Zmólku k wěsći daś abo funkciju žycyś',
+	'language' => 'Rěc',
+	'project' => 'Projekt',
+	'source_file' => 'Žrědłowa dataja',
+	'target_file' => 'Celowa dataja',
+	'commons_username' => 'Wužywarske mě na Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons k projektoju',
+	'move_file_from_com' => 'Dataju z Wikimedia Commons do projekta pśesunuś',
+	'categories' => 'Kategorije',
+	'remove_cats' => 'Eksistěrujuce kategorije wótpóraś',
+	'use_checkusage' => 'Wužyj $1CommonSense$2, aby nowe kategorije naraźił',
+	'use_tusc' => 'Wužyj $1TUSC$2, aby dataju direktnje awtentificěrował a pśenošował',
+	'tusc_user' => 'TUSC - wužywarske mě',
+	'tusc_pass' => 'TUSC-gronidło',
+	'do_it' => 'Wuwjasć',
+	'error_transfer_usr' => 'Njejsy žedno wužywarske mě za Wikimedia Commons póstajił',
+	'error_not_exists' => 'Žrědłowa dataja njeeksistěrujo!',
+	'error_on_commons' => 'Žrědłowa dataja eksistěrujo južo na $1!',
+	'error_file_exists' => 'Dataja eksistěrujo južo na $3 ako "$1$4$2"!',
+	'error_diff_exists' => 'Na celowem wikiju rozdźělna celowa dataja eksistěrujo pód tym samym mjenim!',
+	'error_no_meta' => 'Žedne metadaty wó žrědłowem wikiju njenamakane! $1Pšosym pśidaj/zaktualizěruj metadaty za projekt$2',
+	'error_meta_no_good' => 'Metadaty: Žedne dobre pśedłogi njenamakane! $1Pšosym pśidaj/zaktualizěruj metadaty za projekt$2',
+	'error_meta_bad' => 'Metadaty: Špatna pśedłoga njenamakana! $1Pšosym pśidaj/zaktualizěruj metadaty za projekt$2',
+	'original_wikitext' => 'Spócetny wikitekst',
+	'new_wikitext' => 'Nowy wikitekst',
+	'new_filename' => 'Nowe datajowe mě:',
+	'output_information' => 'Za manuelne nagraśe, wobźěłaj tekst górjejce (jolic to jo trěbne), składuj $1dataju$2 na swójom licadle a $3nagraj ju$4 pótom.',
+	'upload_submit' => 'Nagraś!',
+	'target_wiki' => 'celowy wiki',
+	'standard_language' => 'dsb',
+	'error_bot_blocked' => 'Nagrawański bot jo na Wikimedia Commons zablokěrowany.',
+	'error_upload_meta' => 'Direktne nagraśe njejo móžno, dokulaž jo problem z metadatami (glědaj górjejce)!',
+	'error_tusc_failed' => 'TUSC-pśeglědanje jo se njeraźiło!',
+	'error_only_commons' => 'Direktne nagraśe funkcioněrujo jano na Wikimedia Commons!',
+	'upload_control_text' => 'Pśosym pśeglědaj nowy wikitekst a klikni na "$1", joli wšykno jo w pórěźe!',
+	'error_commons_user' => 'Aby pśenošowańskego wužywarja identificěrował, musy twójo wužywarske mě za Wikimedia Commons we wopisanju byś!',
+	'error_upload_users' => 'Nagrawańska funkcija stoj jano někotarym wužywarjam za testowu periodu k dispoziciji!',
+	'error_upload_file' => 'Originalna dataja njedajo se ześěgnuś.',
+	'help_intro' => 'Jolic coš zmólku k wěsći daś, funkciju naraźiś abo jolic maš pšašanje, móžoš jaden ze slědujucych kontaktowych typow wužywaś:',
+	'help_jira' => '$1JIRA (trjebaš konto)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'E-mail na $1 pósłaś',
+	'help_commons' => '$1Powěsć na Commons zawóstajiś$2',
+);
+
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Fitoschido
@@ -952,6 +1003,13 @@ $messages['gl'] = array(
 	'help_commons' => '$1Engadir un comentario en Commons$2',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
+ */
+$messages['grc'] = array(
+	'language' => 'Γλῶττα',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -1053,7 +1111,51 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'attention' => 'Kedźbu',
+	'description' => 'Nastroj za přenošowanje datajow z Wikimedijowych projektow do Wikipedia Commons',
+	'change_meta' => '$1Nastajenja za kategorije a předłohi$2 za $3 změnić',
+	'jira_link' => 'Zmylk zdźělić abo funkciju sej přeć',
 	'language' => 'Rěč',
+	'project' => 'Projekt',
+	'source_file' => 'Žórłowa dataja',
+	'target_file' => 'Cilowa dataja',
+	'commons_username' => 'Wužiwarske mjeno na Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons k projektej',
+	'move_file_from_com' => 'Dataju z Wikimedia Commons do projekta přesunyć',
+	'categories' => 'Kategorije',
+	'remove_cats' => 'Eksistowace kategorije wotstronić',
+	'use_checkusage' => 'Wužij $1CommonSense$2, zo by nowe kategorije namjetował',
+	'use_tusc' => 'Wužij $1TUSC$2, zo by dataju direktnje awtentifikował a přenošował',
+	'tusc_user' => 'TUSC - wužiwarske mjeno',
+	'tusc_pass' => 'TUSC-hesło',
+	'do_it' => 'Wuwjesć',
+	'error_transfer_usr' => 'Njejsy žane wužiwarske mjeno za Wikimedia Commons postajił',
+	'error_not_exists' => 'Žórłowa dataja njeeksistuje!',
+	'error_on_commons' => 'Žórłowa dataja hižo na $1 eksistuje!',
+	'error_file_exists' => 'Dataja hižo na $3 jako "$1$4$2" eksistuje!',
+	'error_diff_exists' => 'Na cilowym wikiju rozdźělna cilowa dataja pod samsnym mjenom eksistuje!',
+	'error_no_meta' => 'Žane metadaty wo žórłowym wikiju njenamakane! $1Prošu přidaj/zaktualizuj metadaty za projekt$2',
+	'error_meta_no_good' => 'Metadaty: Žane dobre předłohi njenamakane! $1Prošu přidaj/zaktualizuj metadaty za projekt$2',
+	'error_meta_bad' => 'Metadaty: Špatna předłoha njenamakana! $1Prošu přidaj/zaktualizuj metadaty za projekt$2',
+	'original_wikitext' => 'Prěnjotny wikitekst',
+	'new_wikitext' => 'Nowy wikitekst',
+	'new_filename' => 'Nowe datajowe mjeno:',
+	'output_information' => 'Za manuelne nahraće, wobdźěłaj tekst horjeka (jeli to je trěbne), składuj $1dataju$2 na swojim ličaku a $3nahraj ju$4 potom.',
+	'upload_submit' => 'Nahrać!',
+	'target_wiki' => 'cilowy wiki',
+	'standard_language' => 'hsb',
+	'error_bot_blocked' => 'Nahrawanski bot je na Wikimedia Commons zablokowany.',
+	'error_upload_meta' => 'Direktne nahraće njeje móžno, dokelž je problem z metadatami (hlej horjeka)!',
+	'error_tusc_failed' => 'TUSC-přepruwowanje je so njeporadźiło!',
+	'error_only_commons' => 'Direktne nahraće jenož na Wikimedia Commons funguje!',
+	'upload_control_text' => 'Prošu přepruwuj nowy wikitekst a klikń na "$1", jeli wšitko je  w porjadku!',
+	'error_commons_user' => 'Zo by přenošowanskeho wužiwarja identifikował, dyrbi twoje wužiwarske mjeno za Wikimedia Commons we wopisanju być!',
+	'error_upload_users' => 'Nahrawanska funkcija jenož někotrym wužiwarjam za testowu periodu k dispoziciji steji!',
+	'error_upload_file' => 'Originalna dataja njeda so sćahnyć.',
+	'help_intro' => 'Jeli chceš zmylk zdźělić, funkciju namjetować abo jeli maš prašenje, móžeš jedyn ze slědowacych kontaktowych typow wužiwać:',
+	'help_jira' => '$1JIRA (trjebaš konto)$2 (Projekt: Commonshelper2)',
+	'help_mail' => 'E-mejl na $1 pósłać',
+	'help_commons' => '$1Powěsć na Commons zawostajić$2',
 );
 
 /** Hungarian (Magyar)
@@ -1231,12 +1333,14 @@ $messages['inh'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Gianfranco
  * @author Nemo bis
  * @author Rippitippi
  */
 $messages['it'] = array(
 	'attention' => 'Attenzione',
 	'description' => 'Strumento per trasferire file da progetti Wikimedia a Wikimedia Commons',
+	'change_meta' => 'Cambia le $1impostazioni di categoria e template$2 per $3',
 	'jira_link' => 'Segnala un errore o suggerisci una modifica',
 	'language' => 'Lingua',
 	'project' => 'Progetto',
@@ -1254,8 +1358,12 @@ $messages['it'] = array(
 	'do_it' => 'Invia',
 	'error_transfer_usr' => 'Non hai impostato il tuo nome utente di Wikimedia Commons',
 	'error_not_exists' => 'Il file di origine non esiste!',
+	'error_on_commons' => 'File di origine già in $1!',
 	'error_file_exists' => 'Il file esiste già su $3 con il nome "$1$4$2"!',
 	'error_diff_exists' => 'Sulla wiki di destinazione esiste già un file con lo stesso nome!',
+	'error_no_meta' => 'Nessun metadato trovato circa il wiki di origine! $1Per favore aggiungi o aggiorna i metadati per il progetto$2',
+	'error_meta_no_good' => 'Metadati: Nessun template idoneo trovato! $1Per favore aggiungi o aggiorna i metadati per il progetto$2',
+	'error_meta_bad' => 'Metadati: Trovato un template non idoneo! $1Per favore aggiungi o aggiorna i metadati per il progetto$2',
 	'original_wikitext' => 'Wikitesto originale',
 	'new_wikitext' => 'Nuovo wikitesto',
 	'new_filename' => 'Nuovo nome del file:',
@@ -1263,11 +1371,18 @@ $messages['it'] = array(
 	'upload_submit' => 'Carica!',
 	'target_wiki' => 'wiki di destinazione',
 	'standard_language' => 'it',
+	'error_bot_blocked' => 'Il bot di caricamento è bloccato su Wikimedia Commons.',
+	'error_upload_meta' => "Non è possibile caricare direttamente perché c'è un problema con i metadati (vedi sopra)!",
 	'error_tusc_failed' => 'Autenticazione TUSC fallita!',
 	'error_only_commons' => 'Il trasferimento diretto funziona solo per  Wikimedia Commons!',
+	'upload_control_text' => 'Per favore controlla il nuovo wikitesto e clicca "$1" se è tutto a posto!',
 	'error_commons_user' => 'Per identificare chi ha trasferito il file, il tuo nome utente su Wikimedia Commons deve essere inserito nella descrizione!',
 	'error_upload_users' => 'La funzione di caricamento file è disponibile solo per alcuni utenti durante il periodo di prova!',
 	'error_upload_file' => 'Il file originale non può essere scaricato.',
+	'help_intro' => 'Per segnalare un bug, suggerire una modifica o porre una domanda, puoi utilizzare uno dei seguenti modi di contatto:',
+	'help_jira' => '$1JIRA (devi avere attivato un account)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Manda una mail a $1',
+	'help_commons' => '$1Aggiungi un messaggio su Commons$2',
 );
 
 /** Japanese (日本語)
@@ -1915,6 +2030,20 @@ $messages['no'] = array(
 	'help_jira' => '$1JIRA (du trenger en konto)$2 (Project: Commonshelper2)',
 	'help_mail' => 'Send en e-post til $1',
 	'help_commons' => '$1Legg til et innlegg på Commons$2',
+);
+
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Aalam
+ */
+$messages['pa'] = array(
+	'attention' => 'ਧਿਆਨ ਦਿਓ',
+	'language' => 'ਭਾਸ਼ਾ',
+	'project' => 'ਪਰੋਜੈਕਟ',
+	'source_file' => 'ਸਰੋਤ ਫਾਇਲ',
+	'target_file' => 'ਟਾਰਗੇਟ ਫਾਇਲ',
+	'commons_username' => 'ਵਿਕਿਮੀਡਿਆ ਕਾਮਨਜ਼ ਯੂਜ਼ਰ-ਨਾਂ',
+	'categories' => 'ਕੈਟਾਗਰੀਆਂ',
+	'remove_cats' => 'ਮੌਜੂਦਾ ਕੈਟਾਗਰੀਆਂ ਹਟਾਓ',
 );
 
 /** Deitsch (Deitsch)
@@ -2617,11 +2746,13 @@ $messages['vi'] = array(
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  * @author Hzy980512
+ * @author Linforest
  * @author Mys 721tx
  */
 $messages['zh-hans'] = array(
 	'attention' => '关注',
 	'description' => '一种工具将文件从维基媒体项目转移到维基共享资源',
+	'change_meta' => '更改$3的$1类别和模板设置$2',
 	'jira_link' => '报告问题或建议一项功能',
 	'language' => '语言',
 	'project' => '项目',
@@ -2632,6 +2763,7 @@ $messages['zh-hans'] = array(
 	'move_file_from_com' => '将文件从维基共享资源移至项目',
 	'categories' => '类别',
 	'remove_cats' => '删除现有的类别',
+	'use_tusc' => '使用 $1TUSC$2 来直接验证和传输该文件',
 	'tusc_user' => 'TUSC 用户名',
 	'tusc_pass' => 'TUSC 密码',
 	'do_it' => '做吧',
@@ -2640,6 +2772,7 @@ $messages['zh-hans'] = array(
 	'error_on_commons' => '原文件已存在于 $1 ！',
 	'error_file_exists' => '文件已经在$3上存在，文件名为$1$4$2',
 	'error_diff_exists' => '根据同名的目标维基上存在不同的目标文件！',
+	'error_no_meta' => '未找到关于该来源维基的元数据！$1请为该项目添加/更新元数据$2',
 	'original_wikitext' => '原始维基文本',
 	'new_wikitext' => '新的维基文本',
 	'new_filename' => '新的文件名：',

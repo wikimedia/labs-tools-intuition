@@ -156,6 +156,16 @@ $messages['de'] = array(
 	'form-legend-settings' => 'Einstellungen',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'alws-selectwiki' => '(wiki wubraś)',
+	'alws-group-mustused' => 'Nejcesćej wužyte wikije',
+	'alws-group-allaz' => 'Wšykne wikije alfabetiski',
+	'form-legend-settings' => 'Nastajenja',
+);
+
 /** Greek (Ελληνικά)
  * @author Geraki
  */
@@ -495,8 +505,8 @@ $messages['sl'] = array(
 $messages['sr-ec'] = array(
 	'alws-label' => 'Вики',
 	'alws-selectwiki' => '(избор викија)',
-	'alws-group-mustused' => 'Највише коришћене викије',
-	'alws-group-allaz' => 'Све викије азбучним редом',
+	'alws-group-mustused' => 'Највише коришћени викији',
+	'alws-group-allaz' => 'Сви викији азбучним редом',
 	'form-legend-settings' => 'Поставке',
 );
 

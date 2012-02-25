@@ -181,6 +181,19 @@ $messages['de'] = array(
 	'filter-all-languages' => 'Alle Sprachen',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'search-title' => 'Pytanje za zajmnostkami',
+	'search-monuments-database' => 'Datowu banku zajmnostkow pśepytaś',
+	'search-table-th-field' => 'Pólo',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Pytaś',
+	'filter-all-countries' => 'Wšykne kraje',
+	'filter-all-languages' => 'Wšykne rěcy',
+);
+
 /** Spanish (Español)
  * @author Fitoschido
  * @author Platonides
@@ -220,6 +233,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Huji
  * @author Leyth
  * @author Reza1615
  */
@@ -228,7 +242,7 @@ $messages['fa'] = array(
 	'search-table-th-filter' => 'پالایه',
 	'search-table-th-search' => 'جستجو',
 	'filter-all-countries' => 'تمام کشورها',
-	'filter-all-languages' => 'همه زبان‌ها',
+	'filter-all-languages' => 'همۀ زبان‌ها',
 );
 
 /** Finnish (Suomi)
@@ -290,6 +304,19 @@ $messages['hr'] = array(
 	'search-table-th-search' => 'Traži',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'search-title' => 'Pytanje za zajimawosćemi',
+	'search-monuments-database' => 'Datowu banku zajimawosćow přepytać',
+	'search-table-th-field' => 'Polo',
+	'search-table-th-filter' => 'Filter',
+	'search-table-th-search' => 'Pytać',
+	'filter-all-countries' => 'Wšě kraje',
+	'filter-all-languages' => 'Wšě rěče',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  * @author Dj
@@ -326,9 +353,12 @@ $messages['inh'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Gianfranco
  * @author ZioNicco
  */
 $messages['it'] = array(
+	'search-title' => 'Ricerca monumenti',
+	'search-monuments-database' => "Cerca nell'archivio dei monumenti",
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Cerca',
@@ -479,6 +509,8 @@ $messages['no'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'search-table-th-search' => 'Uffgucke',
+	'filter-all-countries' => 'Alle Lenner',
 	'filter-all-languages' => 'Alle Schprooche',
 );
 
