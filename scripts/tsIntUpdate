@@ -1,0 +1,46 @@
+#!/bin/bash
+## Update svn checkout of ToolserverI18N to HEAD
+## Quick ugly script to check working copy, update and log
+
+TSINT_DIR="$HOME/ToolserverI18N"
+TSINT_UPLOG="$HOME/tsint-update.log"
+TSINT_UPSTATE="failed"
+
+echo "
+== ToolserverI18N svn update script ==
+"
+
+TSINT_REV=`svnversion $TSINT_DIR`
+
+echo "-- Current check out: $TSINT_DIR"
+echo "-- Current $TSINT_REV"
+
+echo "-- Checking working copy for local changes..."
+TSINT_DIFF=`svn diff $TSINT_DIR`
+TSINT_DIFFLEN=${#TSINT_DIFF}
+
+if [[ "$TSINT_DIFFLEN" -lt 2 ]]; then
+	echo "-- All OK. No local changes!"
+	echo "-- Continueing update..."
+	svn up $TSINT_DIR
+	echo "-- Update completed"
+	TSINT_UPSTATE="successful"
+	echo ""
+   	echo "-- Logging:"
+
+else
+	echo "-- UPDATE ABORTED: Local changes found!"
+	echo "   Please commit them from your account and/or revert"
+	echo "   working copy with 'svn revert $TSINT_DIR --recursive'"
+	echo ""
+   	echo "svn diff:"
+   	echo "$TSINT_DIFF"
+   	echo ""
+   	echo "-- Logging:"
+fi;
+
+TSINT_DATE=`date +%Y-%m-%d\ %H:%M:%S`
+TSINT_LOGMSG="$TSINT_DATE (UTC): $SUDO_USER ran a $TSINT_UPSTATE update from $TSINT_REV to `svnversion $TSINT_DIR`"
+echo "$TSINT_LOGMSG" >> $TSINT_UPLOG
+echo "$TSINT_LOGMSG
+"
