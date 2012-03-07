@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#
+# SVN
+#
+cd $HOME
+mkdir SVN; cd SVN
+
+## SVN/ToolserverI18N
+svn co http://svn.wikimedia.org/svnroot/mediawiki/trunk/tools/ToolserverI18N
+
+## SVN/p_intuition
+svn co https://svn.toolserver.org/svnroot/p_intuition
+
+#
+# Symlinks
+#
+cd $HOME
+
+## public_html
+### Uncomment only if you're absolutely sure
+### that there is nothing of importance in your public_html !
+#rm -rf public_html
+#ln -s SVN/p_intuition/public_html public_html
+
+# Backwards compatibility for require_once calls
+# pointing to /home/project/i/n/t/intuition/ToolserverI18N/ToolStart.php
+ln -s SVN/p_intuition ToolserverI18N
+
+#
+# Misc
+#
+cd $HOME
+
+mkdir logs

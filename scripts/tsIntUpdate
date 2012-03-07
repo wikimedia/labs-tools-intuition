@@ -2,8 +2,8 @@
 ## Update svn checkout of ToolserverI18N to HEAD
 ## Quick ugly script to check working copy, update and log
 
-TSINT_DIR="$HOME/ToolserverI18N"
-TSINT_UPLOG="$HOME/tsint-update.log"
+TSINT_DIR="$HOME/SVN/ToolserverI18N"
+TSINT_UPLOG="$HOME/logs/tsint-update.log"
 TSINT_UPSTATE="failed"
 
 echo "
