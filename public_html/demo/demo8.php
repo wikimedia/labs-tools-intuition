@@ -18,21 +18,21 @@ $I18N->setMsgs( array(
 // - Raw echo
 echo $I18N->msg( 'apple-stats' );
 
-echo '<br />';
+echo '<br/>';
 
 // - Pass variables
-echo '<br />' . $I18N->msg( 'welcomeback', array( 'variables' => array( 'John', 'coffee' ) ) );
+echo '<br/>' . $I18N->msg( 'welcomeback', array( 'variables' => array( 'John', 'coffee' ) ) );
 
 // - Pass variables
-echo '<br />' . $I18N->msg( 'welcomeback', array( 'variables' => array( 'George', 'tea' ) ) );
+echo '<br/>' . $I18N->msg( 'welcomeback', array( 'variables' => array( 'George', 'tea' ) ) );
 
-echo '<br />';
+echo '<br/>';
 
 // - Trigger parser magic, setting $1 to '1'
-echo '<br />' . $I18N->msg( 'basket', array( 'variables' => array( '1' ), 'parsemag' => true ) );
+echo '<br/>' . $I18N->msg( 'basket', array( 'variables' => array( '1' ), 'parsemag' => true ) );
 
 // - Trigger parser magic, setting $1 to '7'
-echo '<br />' . $I18N->msg( 'basket', array( 'variables' => array( '7' ), 'parsemag' => true ) );
+echo '<br/>' . $I18N->msg( 'basket', array( 'variables' => array( '7' ), 'parsemag' => true ) );
 
 
 

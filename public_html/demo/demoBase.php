@@ -31,7 +31,7 @@ $startHTML = <<<HTML
 	body {
 		font-family: sans-serif;
 	}
-	img { 
+	img {
 		vertical-align: middle;
 	}
 	h3 {
@@ -69,7 +69,7 @@ header( 'Content-Type: text/html; charset=utf-8' );
 echo $startHTML . "<p><em>&larr; <a href=\"../\">Return to Dashboard</a></em></p><ul>";
 foreach ( $demoRegistry as $demoFilename => $descr ) {
 	$descr = htmlspecialchars( $descr );
-	echo "<li><a href=\"$demoFilename.php\" title=\"$descr\">$demoFilename</a><br /><small>$descr</small></li>";
+	echo "<li><a href=\"$demoFilename.php\" title=\"$descr\">$demoFilename</a><br/><small>$descr</small></li>";
 }
 echo '</ul>';
 echo $outputHead;

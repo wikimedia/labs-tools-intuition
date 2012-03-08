@@ -7,7 +7,7 @@
  *
  * This file is licensed under
  * the Creative Commons Attribution 3.0 Unported License
- * <http://creativecommons.org/licenses/by/3.0/>
+ * creativecommons.org/licenses/by/3.0/
  *
  * @package TsIntuition
  */
@@ -35,7 +35,7 @@ class TsIntuition {
 	public $mode = null; // 'in-tool', 'dashboard'
 
 	// Address to the dashboard home. Should end with a slash or .extension
-	public $dashboardHome = 'http://toolserver.org/~intuition/';
+	public $dashboardHome = '//toolserver.org/~intuition/';
 
 	// Construct options
 	private $currentTextdomain;
@@ -81,8 +81,8 @@ class TsIntuition {
 	private $includeVariables = array( 'messages', 'url' );
 
 	// Redirect address and status
-	private $redirectTo = null; 
-	
+	private $redirectTo = null;
+
 	// Instance of MessagesFunctions
 	private $messagesFunctions = null;
 
@@ -109,7 +109,7 @@ class TsIntuition {
 		if ( is_string( $options ) ) {
 			$options = array( 'domain' => $options );
 		}
-		
+
 		$defaultOptions = array(
 			'domain' => 'general',
 			'lang' => null,
@@ -124,7 +124,7 @@ class TsIntuition {
 		$options = array_merge( $defaultOptions, $options );
 
 		$this->mode = $options['mode'];
-		
+
 		$this->loadDomainRegistry();
 
 		// The textdomain of your tool can be set here.
@@ -190,7 +190,7 @@ class TsIntuition {
 		if ( function_exists( 'TsIntuition_inithook' ) ) {
 			TsIntuition_inithook( $TsIntuition );
 		}
-	
+
 	}
 
 
@@ -344,7 +344,7 @@ class TsIntuition {
 		} else {
 			return $this->messagesFunctions;
 		}
-	}	
+	}
 
 	/* Message functions
 	 * ------------------------------------------------- */
@@ -359,7 +359,7 @@ class TsIntuition {
 	 *  - lang: overrides the currently selected language
 	 *  - variables: numerical array to do variable replacements ($1> var[0], $2> var[1], etc.)
 	 *  - raw-variables: boolean to determine whether the variables should be escaped as well
-	 *  - parsemag: boolean to determine whether the message sould be tranformed 
+	 *  - parsemag: boolean to determine whether the message sould be tranformed
 	 *              using magic phrases (PLURAL, etc.)
 	 *  - escape: Optionally the return can be escaped. By default this takes place after variable
 	 *            replacement. Set 'raw-variables' to true if you just want the raw message
@@ -439,7 +439,7 @@ class TsIntuition {
 			$n = $i + 1;
 			$msg = str_replace( "\$$n", $val, $msg );
 		}
-		
+
 		// Some parsing work
 		if ( $options['parsemag'] === true ) {
 			$msg = $this->getMessagesFunctions()->parse( $msg, $lang );
@@ -469,7 +469,7 @@ class TsIntuition {
 		} else {
 			return null;
 		}
-	} 
+	}
 
 	/**
 	 * Don't show [brackets] when suppressing errors.
@@ -614,7 +614,7 @@ class TsIntuition {
 
 	/**
 	 * Return all languages loaded in at least one domain
-	 * @param $domain 
+	 * @param $domain
 	 *  false - Show languages for which there is a translation in the current domain
 	 *  'any' - Show languages for which there is a translation in at least one domain
 	 *  domain name - Show languages for which there is a translation in the given domain
@@ -625,10 +625,10 @@ class TsIntuition {
 		} else {
 			if ( $domain === false )
 				$domain = $this->getDomain();
-			
+
 			$from = isset( $this->messageBlob[$domain] ) ? $this->messageBlob[$domain] : array();
 		}
-		
+
 		$return = array();
 		foreach( array_keys( $from ) as $lang ) {
 			$return[$lang] = $this->getLangName( $lang );
@@ -694,12 +694,12 @@ class TsIntuition {
 
 		// Load it
 		$included = include( $filePath );
-		
+
 		if ( $included === false ) {
 			$this->errTrigger( "File $filePath could not be loaded ", __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
 		}
-				
+
 		// Parse it
 		$compact = compact( $this->includeVariables );
 		$this->parseTextdomain( $compact, $domain, $filePath );
@@ -731,7 +731,7 @@ class TsIntuition {
 		}
 
 		// Was there a url defined in the textdomain file ?
-		$fullurl = isset( $data['url'] ) ? "http://toolserver.org/{$data['url']}" : null;
+		$fullurl = isset( $data['url'] ) ? "//toolserver.org/{$data['url']}" : null;
 		$path = isset( $data['url'] ) ? $data['url'] : null;
 
 		$this->loadedTextdomains[$domain] = array( 'url' => $fullurl, 'path' => $path );
@@ -749,7 +749,7 @@ class TsIntuition {
 	public function getDomainInfo( $domain ) {
 		$domain = ucfirst( strtolower( $domain ) );
 
-		// Load if registered but not already loaded 
+		// Load if registered but not already loaded
 		$this->loadTextdomain( $domain );
 
 		if ( isset( $this->loadedTextdomains[$domain] ) && is_array( $this->loadedTextdomains[$domain] ) ) {
@@ -844,7 +844,7 @@ class TsIntuition {
 
 	/**
 	 * Get expected lifetime left in seconds.
-	 * Returns 0 if expired or unavailable. 
+	 * Returns 0 if expired or unavailable.
 	 */
 	public function getCookieLifetime() {
 		$expire = $this->getCookieExpiration();
@@ -863,7 +863,7 @@ class TsIntuition {
 
 	/**
 	 * FIXME: Implement in language/MessagesFunctions.php.
-	 * 
+	 *
 	 * @todo
 	 */
 	public function gender( $male, $female, $neutral ) {
@@ -873,7 +873,7 @@ class TsIntuition {
 
 	/**
 	 * Can be founded in language/MessagesFunctions.php.
-	 * 
+	 *
 	 * @see MessagesFunctions::parse
 	 * @see MessagesFunctions::plural
 	 * @deprecated
@@ -978,14 +978,14 @@ class TsIntuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * Show a link that explains that this tool has been 
+	 * Show a link that explains that this tool has been
 	 * localized via Toolserver Intuition and that they
 	 * can change the language by setting their preference
 	 * in the dashboard. Or (if they've done so already)
 	 * that they can manage their settings there
 	 */
 	public function dashboardBacklink() {
-	
+
 		if ( $this->hasCookies() ) {
 			$text = $this->msg( 'bl-mysettings', 'tsintuition' );
 		} else {
@@ -1017,7 +1017,7 @@ class TsIntuition {
 
 		// Logo
 		if ( is_int( $imgSize ) && $imgSize > 0 ) {
-			$src = 'http://upload.wikimedia.org/wikipedia/commons/thumb/b/be'
+			$src = '//upload.wikimedia.org/wikipedia/commons/thumb/b/be'
 				. '/Wikimedia_Community_Logo-Toolserver.svg'
 				. "/{$imgSize}px-Wikimedia_Community_Logo-Toolserver.svg.png";
 			$img = TsIntuitionUtil::tag( '', 'img', array(
@@ -1064,7 +1064,7 @@ class TsIntuition {
 
 			$helpTranslateDomain = strtolower( $helpTranslateDomain );
 
-			// http://translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
+			// translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
 			$twParams = array(
 				'title' => 'Special:Translate',
 				'language' => $this->getLang(),
@@ -1093,7 +1093,7 @@ class TsIntuition {
 	 * to return to the current page. To be used in other tools.
 	 *
 	 * @example:
-	 *  Location: http://toolserver.org/~foo/JohnDoe.php?wiki=loremwiki_p
+	 *  Location: //toolserver.org/~foo/JohnDoe.php?wiki=loremwiki_p
 	 *  HTML:
 	 *  '<p>Change the settings <a href="' . $I18N->getDashboardReturnToUrl() . '">here</a>';
 	 *
@@ -1349,13 +1349,13 @@ class TsIntuition {
 		if ( $die && !$this->stayalive ) {
 			die;
 		} else {
-			echo "<br />\n";
+			echo "<br/>\n";
 		}
 	}
-	
+
 	/**
 	 * Returns true if a language is Right-to-left
-	 * @param $code String Language code to get the property from, 
+	 * @param $code String Language code to get the property from,
 	 * current language if missing
 	 * @return Boolean
 	 */
@@ -1364,10 +1364,10 @@ class TsIntuition {
 			$code = $this->getLang();
 		}
 		require $this->localBaseDir . '/language/Rtl.php';
-		
+
 		return in_array( $code, $rtlLanguages );
 	}
-	
+
 	/**
 	 * Return the correct HTML 'dir' attribute value for this language.
 	 * @return String

@@ -7,7 +7,7 @@
  *
  * This file is licensed under
  * the Creative Commons Attribution 3.0 Unported License
- * <http://creativecommons.org/licenses/by/3.0/>
+ * creativecommons.org/licenses/by/3.0/
  *
  * @package TsIntuition
  */
@@ -123,7 +123,7 @@ if ( $I18N->isRedirecting() ) {
 		} else {
 			$returnToQuery = '';
 		}
-		$I18N->redirectTo( "http://{$_SERVER['SERVER_NAME']}$returnTo$returnToQuery", 302 );
+		$I18N->redirectTo( "//{$_SERVER['SERVER_NAME']}$returnTo$returnToQuery", 302 );
 	}
 }
 
@@ -200,11 +200,11 @@ if ( $I18N->hasCookies() ) {
 	.	kfTag( '', 'input', array( 'value' => $I18N->getLangName(), 'readonly' => 'readonly' ) )
 	.	' ('
 	.	kfTag( _( 'clear-cookies' ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) ) ) )
-	.	')<br />'
+	.	')<br/>'
 	.	kfTag( _( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' ) . kfTag( '', 'input', array( 'value' => $time, 'class' => "cookie-health $class", 'readonly' => 'readonly' ) )
 	.	' ('
 	.	kfTag( _( 'renew-cookies' ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
-	.	')<br />'
+	.	')<br/>'
 	.	$after
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
 	);
@@ -225,17 +225,17 @@ $dropdown .= '</select>';
 
 $form = '<div id="tab-settingsform"><form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform"><fieldset>
 	<legend>' . _( 'settings-legend' ) . '</legend><div class="inner">
-	
+
 	<label>' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
 	' . $dropdown . '
-	<br />
-	
-	<input type="hidden" name="action" value="prefset" />
-	<input type="hidden" name="returnto" value="' . htmlspecialchars( $kgReq->getVal( 'returnto' ) ) . '" />
-	<input type="hidden" name="returntoquery" value="' . htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '" />
+	<br/>
+
+	<input type="hidden" name="action" value="prefset"/>
+	<input type="hidden" name="returnto" value="' . htmlspecialchars( $kgReq->getVal( 'returnto' ) ) . '"/>
+	<input type="hidden" name="returntoquery" value="' . htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '"/>
 	<label></label>
-	<input type="submit" nof value="' . _html( 'form-submit', 'general' ) . '" />
-	<br />
+	<input type="submit" nof value="' . _html( 'form-submit', 'general' ) . '"/>
+	<br/>
 
 </div></fieldset></form></div>';
 
@@ -245,7 +245,7 @@ $toolSettings['tabs']['#tab-settingsform'] = _('tab-settings');
 
 // About tab
 $about = '<div id="tab-about">';
-	
+
 $about .= '<a href="http://translatewiki.net/wiki/Translating:Toolserver">'
 	.	Html::element( 'img', array(
 		'src' => 'http://translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&count=edits&scale=weeks&days=30&width=520&height=400&group=tsint-0-all',
@@ -265,7 +265,7 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 		$about .= '<li><a href="'
 			. htmlspecialchars( $domainInfo['url'] )
 			. '"><strong>' . htmlspecialchars( $title )
-			. '</strong><br />'
+			. '</strong><br/>'
 			. htmlspecialchars( $domainInfo['path'] )
 			. '</a></li>';
 	} else {
