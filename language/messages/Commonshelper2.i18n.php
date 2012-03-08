@@ -219,6 +219,18 @@ $messages['ar'] = array(
 	'error_upload_file' => 'الملف الأصلي لم يمكن تنزيله.',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'language' => 'ভাষা',
+	'project' => 'প্ৰকল্প',
+	'tusc_user' => 'TUSC সদস্যনাম',
+	'tusc_pass' => 'TUSC গুপ্তশব্দ',
+	'new_filename' => 'নতুন ফাইলনাম:',
+	'standard_language' => 'as',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -2661,6 +2673,7 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Suelnur
  */
 $messages['tr'] = array(
 	'attention' => 'Dikkat',
@@ -2673,6 +2686,9 @@ $messages['tr'] = array(
 	'categories' => 'Kategoriler',
 	'tusc_user' => 'TUSC kullanıcı adı',
 	'tusc_pass' => 'TUSC şifresi',
+	'original_wikitext' => 'Özgün viki metni',
+	'new_wikitext' => 'Yeni wiki metni',
+	'new_filename' => 'Yeni dosya adı:',
 	'upload_submit' => 'Yükle!',
 	'target_wiki' => 'hedef viki',
 	'standard_language' => 'tr',

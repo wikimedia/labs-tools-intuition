@@ -69,6 +69,14 @@ $messages['af'] = array(
 	'time-label' => 'Tyd geneem om opdrag uit te voer',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'language-label' => 'ভাষা',
+	'namespace-label' => 'নামস্থান',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -200,6 +208,21 @@ $messages['dsb'] = array(
 	'time-label' => 'Trěbny cas za wuwjeźenje pśikaza',
 );
 
+/** Greek (Ελληνικά)
+ * @author Geraki
+ */
+$messages['el'] = array(
+	'enter-details' => 'Καταχωρήστε λεπτομέρειες',
+	'introduction' => 'Γράψτε το όνομα του πρότυπο (Βικιπείδειες προς το παρόν) και πατήστε ΟΚ. Είναι τόσο απλό. Υπάρχει κάποια λανθάνουσα μνήμη (αποθήκευση των αποτελεσμάτων), αλλά αυτό δυστυχώς είναι εκτός του ελέγχου αυτού του εργαλείου και του ιδιοκτήτη του.',
+	'language-label' => 'Γλώσσα',
+	'namespace-label' => 'Ομάδα σελίδων',
+	'pagename-label' => 'Τίτλος σελίδα (εκτός της ομάδας σελίδων)',
+	'transclusion-count-label' => 'Αριθμός ενσωματώσεων',
+	'transclusion-count' => '$1 ενσωματώσεις βρέθηκαν.',
+	'error-suggestion' => 'Ίσως γράψατε λάθος (ή λάθος πεζά-κεφαλαία) τον τίτλο της σελίδας;',
+	'time-label' => 'Χρόνος που πέρασε για την εκτέλεση της εντολής',
+);
+
 /** Spanish (Español)
  * @author Fitoschido
  */
@@ -300,6 +323,21 @@ $messages['he'] = array(
 	'transclusion-count' => 'מספר ההכללות שנמצאו: $1',
 	'error-suggestion' => 'אולי לא כתבת נכות את שם הדף? יש לכתוב במדויק אותיות קטנות ורישיות.',
 	'time-label' => 'כמה זמן לקח להריץ את הפקודה',
+);
+
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'enter-details' => 'विवरण दें',
+	'introduction' => 'एक साँचे का नाम लिखें (इस समय केवल विकिपीडियाओं पर साँचों का) और go दबाएँ। बस इतना ही करना है। परिणाम कुछ हद तक याद रखे जाते हैं (कैश मेमोरी में), परंतु वह इस उपकरण और इसके मालिक के नियंत्रण से बाहर है।',
+	'language-label' => 'भाषा',
+	'namespace-label' => 'नामस्थान',
+	'pagename-label' => 'पृष्ठ का नाम (नामस्थान के बिना)',
+	'transclusion-count-label' => 'ट्रांस्क्लूज़न संख्या',
+	'transclusion-count' => '$1 ट्रांस्क्लूज़न मिले',
+	'error-suggestion' => 'शायद आपने पृष्ठ के नाम की वर्तनी गलत लिखी (या गलत केस में लिखी)?',
+	'time-label' => 'कार्य करने में लगा समय',
 );
 
 /** Upper Sorbian (Hornjoserbsce)

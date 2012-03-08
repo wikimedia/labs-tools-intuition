@@ -128,6 +128,14 @@ $messages['ar'] = array(
 	'help-translate-all' => 'ساعد في ترجمة التول سيرفر!',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'choose-language' => 'ভাষা নির্বাচন কৰক',
+	'bl-mysettings-new' => 'ভাষা পৰিবৰ্তন কৰক!',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -605,12 +613,13 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author Jean-Frédéric
  * @author Od1n
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'fullname' => 'Internationalisation de l’interface utilisateur du Toolserver',
 	'current-settings' => 'Paramètres actuels',
 	'current-language' => 'Langue actuellement sélectionnée',
-	'settings-legend' => 'Paramètres',
+	'settings-legend' => 'Configuration',
 	'choose-language' => 'Choisissez une langue',
 	'clear-cookies' => 'effacer les cookies',
 	'renew-cookies' => 'renouveler les cookies',
@@ -618,7 +627,7 @@ $messages['fr'] = array(
 	'clearcookies-success' => 'Les cookies ont bien été effacés',
 	'renewcookies-success' => 'Cookies renouvelés ! Vous êtes prêt pour une durée de $1.',
 	'tab-overview' => 'Vue d’ensemble',
-	'tab-settings' => 'Paramètres',
+	'tab-settings' => 'Configuration',
 	'tab-about' => 'À propos',
 	'tab-demo' => 'Démo',
 	'bl-mysettings' => 'Mes paramètres de langue',
@@ -639,7 +648,7 @@ $messages['gl'] = array(
 	'current-settings' => 'Configuración actual',
 	'current-language' => 'Lingua actual',
 	'settings-legend' => 'Configuracións',
-	'choose-language' => 'Escolla a lingua',
+	'choose-language' => 'Escolla unha lingua',
 	'clear-cookies' => 'borrar as cookies',
 	'renew-cookies' => 'renovar as cookies',
 	'cookie-expiration' => 'Caducidade das cookies',
@@ -1538,11 +1547,16 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
  * @author Logicwiki
+ * @author Shanmugamp7
  */
 $messages['ta'] = array(
+	'current-settings' => 'தற்போதைய அமைப்புகள்',
 	'settings-legend' => 'அமைப்புகள்',
-	'choose-language' => 'மொழியை தேர்ந்தெடுக்கவும்',
+	'choose-language' => 'மொழியைத் தேர்ந்தெடுக்கவும்',
+	'tab-overview' => 'மேல்நோட்டம்',
+	'tab-settings' => 'அமைப்புகள்',
 	'bl-mysettings' => 'எனது மொழி அமைப்புகள்',
 	'bl-mysettings-new' => 'மொழியை மாற்று!',
 );

@@ -157,6 +157,32 @@ $messages['tly'] = array(
 	'province-none' => '(Номәлум)',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'file' => 'চিত্ৰ',
+	'monument-type' => 'স্মৃতিস্তম্ভ প্ৰকাৰ',
+	'monument-id' => 'স্মৃতিস্তম্ভ নম্বৰ',
+	'author' => 'স্ৰষ্টা',
+	'upload-time' => 'আপল’ড সময়',
+	'not-available' => 'উপলব্ধ নহয়',
+	'date-unknown' => 'অজ্ঞাত',
+	'total-images' => 'মুঠ চিত্ৰৰ সংখ্যা: $1',
+	'search-monuments' => 'স্মৃতিস্তম্ভ অনুসন্ধান কৰক',
+	'view-frequency' => 'জনপ্ৰিয় স্মৃতিস্তম্ভ',
+	'id-label' => 'স্মৃতিস্তম্ভ নং:',
+	'monument-heading' => 'স্মৃতিস্তম্ভ',
+	'count-heading' => 'স্থিৰচিত্ৰ',
+	'bic-list' => 'তালিকা',
+	'bic-gallery' => 'গেলাৰী',
+	'author-heading' => 'স্ৰষ্টা',
+	'bic-list-bad' => 'দেখুৱাওক',
+	'bic-list-all' => 'সম্পূৰ্ণ তালিকা',
+	'users-list' => 'দেখুৱাওক',
+	'province-none' => '(অজ্ঞাত)',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -579,8 +605,21 @@ $messages['fa'] = array(
 	'file' => 'تصویر',
 	'province' => 'استان',
 	'author' => 'مؤلف',
+	'upload-time' => 'زمان بارگذاری',
 	'deleted' => 'حذف شده‌است ($1)',
+	'not-available' => 'در دسترس نیست',
+	'date-unknown' => 'نامعلوم',
+	'total-images' => 'کل تصاویر: $1',
+	'view-uncategorized-images' => 'نمایش تصاویر رده‌بندی‌نشده',
+	'show-images-all' => 'نمایش همهٔ تصاویر',
+	'id-none' => '(هیچ)',
+	'author-heading' => 'پدیدآور',
 	'bic-list-bad' => 'نمایش',
+	'bic-list-all' => 'فهرست کامل',
+	'unregistered' => 'ثبت‌نشده',
+	'users-list' => 'نمایش',
+	'province-heading' => 'استان',
+	'province-none' => '(نامعلوم)',
 );
 
 /** Finnish (Suomi)
@@ -980,9 +1019,15 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Hmiyazaki
  */
 $messages['ja'] = array(
 	'deleted' => '削除済み ($1)',
+	'not-available' => '利用できない状態です。',
+	'view-uncategorized-images' => '未分類の画像を表示',
+	'show-images-all' => 'すべての画像を表示',
+	'bic-list' => '一覧',
+	'bic-list-all' => '全リスト',
 );
 
 /** Colognian (Ripoarisch)
@@ -1391,6 +1436,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Eleferen
+ * @author Express2000
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1426,9 +1472,14 @@ $messages['ru'] = array(
 	'bic-gallery' => 'Галерея',
 	'gallery-header' => 'Изображения для памятника с идентификатором  $1.',
 	'gallery-header-place' => 'Изображения памятников в $1.',
+	'wall-of-shame-text' => 'Авторы по числу неопознанных фотографий',
 	'author-heading' => 'Автор',
 	'bic-list-bad' => 'Показать',
 	'bic-list-all' => 'Полный список',
+	'unregistered' => 'Незарегистрирован',
+	'users-list' => 'Просмотр',
+	'distict-monuments' => 'Определить памятники',
+	'province-heading' => 'Область',
 	'province-none' => '(Неизвестно)',
 	'ccaa-heading' => 'CC.AA.',
 );
@@ -1602,15 +1653,68 @@ $messages['ta'] = array(
 $messages['te'] = array(
 	'not-available' => 'అందుబాటులో లేదు',
 	'bic-list' => 'జాబితా',
+	'bic-list-bad' => 'చూపించు',
+	'bic-list-all' => 'పూర్తి జాబితా',
 );
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Suelnur
  */
 $messages['tr'] = array(
 	'file' => 'Resim',
 	'author' => 'Üreten',
+	'upload-time' => 'Yükleme zamanı',
 	'date-unknown' => 'Bilinmiyor',
+	'count-heading' => 'Fotoğraflar',
+);
+
+/** Ukrainian (Українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'title' => 'Файли конкурсу "Вікі любить пам\'ятки"',
+	'file' => 'Зображення',
+	'monument-type' => "Тип пам'ятки",
+	'monument-id' => "Ідентифікатор пам'ятки",
+	'province' => 'Область',
+	'comarque' => 'Район',
+	'competes' => 'Учасник конкурсу',
+	'author' => 'Автор',
+	'upload-time' => 'Час завантаження',
+	'deleted' => 'Вилучено ( $1 )',
+	'concursa' => 'Бере участь у WLM',
+	'no-concursa' => 'Поза конкурсом WLM',
+	'not-available' => 'Не доступно',
+	'date-unknown' => 'Невідомо',
+	'total-images' => 'Всього зображень:$1',
+	'view-uncategorized-images' => 'Некатегоризовані зображення',
+	'provide-id' => "Вкажіть ідентифікатор пам'ятки, щоб оглянути інформацію про неї",
+	'show-images-bad-only' => 'Показати лише зображення поза списком',
+	'show-images-all' => 'Показати всі зображення',
+	'show-images-removed' => 'Показати зображення виключені з конкурсу',
+	'search-monuments' => "Пошук пам'яток",
+	'view-frequency' => "Популярні пам'ятки",
+	'view-ccaa' => 'Перегляд за автономними спільнотами',
+	'view-province' => 'Перегляд по областях',
+	'id-label' => "Ідентифікатор пам'ятки",
+	'id-none' => '(Немає)',
+	'monument-heading' => "Пам'ятка",
+	'count-heading' => 'Фотографії',
+	'bic-list' => 'Список',
+	'bic-gallery' => 'Галерея',
+	'gallery-header' => "Зображення пам'ятки з ідентифікатором  $1 .",
+	'gallery-header-place' => "Зображення пам'ятки з  $1 .",
+	'wall-of-shame-text' => 'Автори за кількістю неідентифікованих фотографій',
+	'author-heading' => 'Автор',
+	'bic-list-bad' => 'Показати',
+	'bic-list-all' => 'Повний список',
+	'unregistered' => 'Незареєстровані',
+	'users-text' => "На цій сторінці відображаються автори, їх фотографії, і кількість сфотографованих ними пам'яток",
+	'users-list' => 'Перегляд',
+	'distict-monuments' => "Різні пам'ятники",
+	'province-heading' => 'Область',
+	'province-none' => '(Невідомий)',
 );
 
 /** Vietnamese (Tiếng Việt)

@@ -139,6 +139,15 @@ $messages['ar'] = array(
 	'category' => 'التصنيف:',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'project' => 'প্ৰকল্প:',
+	'category' => 'শ্ৰেণী:',
+	'download' => 'ডাউনল’ড',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -544,11 +553,22 @@ $messages['eu'] = array(
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'title' => 'دریافت تصاویر بر اساس رده',
 	'subtitle' => 'راهی آسان برای دانلود تصاویر در یک رده',
 	'project' => 'پروژه:',
 	'category' => 'رده:',
+	'thumbnailing' => 'کوچک‌سازی',
 	'max-width' => 'حداکثر پهنا:',
+	'max-height' => 'حداکثر ارتفاع:',
+	'invalid-width' => 'عرض نامعتبر',
+	'invalid-height' => 'ارتفاع نامعتبر',
 	'no-such-project' => 'چنین پروژه‌ای وجود ندارد',
+	'no-images' => 'هیچ تصویری در این رده وجود ندارد',
+	'category-is-url' => 'نام ردهٔ داده‌شده به نظر نشانی اینترنتی است. باید نام رده را مشخص کنید نه نشانی اینترنتی‌اش را.',
+	'category-contains-namespace' => 'به نظر فضای‌نام را نیز پیش از نام رده قرار داده‌اید. با در نظرگیری این نام صفحهٔ مورد نظر [[رده:$1]] خواهد بود.',
+	'zip-failed' => 'زیپ ایجاد نشد',
+	'image-area-too-big' => '$1 برای ایجاد تصویر بندانگشتی بیش از حد بزرگ است. استفاده از اندازهٔ کامل.',
+	'download-info' => '{{plural: $1|یک تصویر وجود دارد|$1 تصویر وجود دارد}}، با اندازهٔ تخمینی $2',
 	'download' => 'بارگیری',
 );
 
@@ -1489,12 +1509,14 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
  * @author Shanmugamp7
  */
 $messages['ta'] = array(
 	'title' => 'பகுப்புப்படி படங்களை பதிவிறக்கு',
 	'project' => 'திட்டம்:',
 	'category' => 'பகுப்பு:',
+	'thumbnailing' => 'வில்லைபடமாக்கல்',
 	'max-width' => 'அதிகபட்ச அகலம்:',
 	'max-height' => 'அதிகபட்ச உயரம்:',
 	'invalid-width' => 'செல்லாத அகலம்',

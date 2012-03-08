@@ -118,6 +118,19 @@ $messages['ar'] = array(
 	'tools-globalusage' => 'استخدام عام',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'limit' => 'সীমা',
+	'page' => 'পৃষ্ঠা',
+	'output' => 'আউটপুট',
+	'update' => 'আপডেট',
+	'tools-delete' => 'বিলোপন (ডিলিট)',
+	'tools-links' => 'সংযোগ (লিঙ্ক)',
+	'tools-subject' => 'বিষয়',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -537,6 +550,30 @@ $messages['he'] = array(
 	'deletesummary' => 'ניקוי דפי משתמש מיותמים באמצעות $1',
 	'noresults' => 'אין דפי שיחה מיותמים באתר הוויקי הזה במרחב השם הזה שמתאימים להגדרות שלך.',
 	'resultslimited' => 'התוצאות הוגבלו ל־$1 דפים.',
+);
+
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'title' => 'एकाकी-वार्ता 2',
+	'select-wiki-first' => '(पहले एक विकी चुनें)',
+	'hideredirects' => 'पुनर्निर्देश छुपाएँ',
+	'hidesubpages' => 'उपपृष्ठ छुपाएँ',
+	'limit' => 'सीमा',
+	'page' => 'पृष्ठ',
+	'redirect' => 'पुनर्निर्देश है?',
+	'output' => 'आउटपुट',
+	'update' => 'अद्यतन',
+	'tools-delete' => 'हटाएँ',
+	'tools-links' => 'कड़ियाँ',
+	'tools-subject' => 'सामग्री पृष्ठ',
+	'tools-hist' => 'इतिहास',
+	'tools-curr' => 'चालू',
+	'tools-globalusage' => 'वैश्विक प्रयोग',
+	'deletesummary' => '$1 द्वारा एकाकी वार्ता पृष्ठ हटाया जा रहा है',
+	'noresults' => 'इस विकी पर इस नामस्थान में आपकी दी सेटिंग्स से मेल खाते कोई एकाकी वार्ता पृष्ठ नहीं हैं।',
+	'resultslimited' => 'परिणाम $1 की सीमा के अंदर रखे गए हैं',
 );
 
 /** Croatian (Hrvatski)
@@ -1216,11 +1253,18 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
+ * @author செல்வா
  */
 $messages['ta'] = array(
+	'limit' => 'வரம்பு',
 	'page' => 'பக்கம்',
+	'update' => 'புதுப்பி',
 	'tools-delete' => 'நீக்கு',
 	'tools-links' => 'இணைப்புகள்',
+	'tools-hist' => 'வரலாறு',
+	'tools-curr' => 'தற்போது',
+	'tools-globalusage' => 'உலகளாவியப் பயண்பாடு',
 );
 
 /** Telugu (తెలుగు)

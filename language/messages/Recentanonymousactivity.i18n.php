@@ -109,6 +109,13 @@ $messages['dsb'] = array(
 	'title' => 'Nejnowša anonymna aktiwita',
 );
 
+/** Greek (Ελληνικά)
+ * @author Geraki
+ */
+$messages['el'] = array(
+	'title' => 'Πρόσφατη ανώνυμη δραστηριότητα',
+);
+
 /** Spanish (Español)
  * @author Fitoschido
  */

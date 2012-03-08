@@ -163,6 +163,24 @@ $messages['ar'] = array(
 	'finalise' => 'إنهاء التفاصيل',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'begin-translation' => 'অনুবাদ আৰম্ভ কৰক',
+	'th-original' => 'মূল',
+	'th-translation' => 'অনুবাদ',
+	'th-language' => 'ভাষা',
+	'th-username' => 'সদস্যনাম',
+	'th-password' => 'গুপ্তশব্দ',
+	'th-method' => 'পদ্ধতি',
+	'option-manual' => 'মেনুৱেল আপল’ড',
+	'preview' => 'খচৰা',
+	'translate' => 'অনুবাদ কৰক',
+	'svginput-label' => 'SVG ফাইল',
+	'uploading' => 'আপল’ড কৰি থকা হৈছে',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -1104,11 +1122,13 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Hmiyazaki
  * @author Schu
  */
 $messages['ja'] = array(
 	'error-nothing' => '翻訳できるものがありません。',
 	'error-notsvg' => 'SVG ファイルではありません。',
+	'error-unexpected' => '予期しないエラーが発生しました。',
 	'th-original' => 'オリジナル',
 	'th-translation' => '翻訳',
 	'th-language' => '言語',
@@ -1986,8 +2006,10 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author செல்வா
  */
 $messages['ta'] = array(
+	'error-nothing' => 'மொழிபெயர்க்க எதுவும் இல்லை',
 	'th-language' => 'மொழி',
 	'th-username' => 'பயனர் பெயர்',
 	'th-password' => 'கடவுச்சொல்',

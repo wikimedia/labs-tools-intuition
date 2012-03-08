@@ -53,6 +53,18 @@ $messages['qqq'] = array(
 	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)",
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'toolserver-status-short-ok' => '$1: ঠিক',
+	'toolserver-status-short-info' => '$1: তথ্য',
+	'toolserver-status-short-warn' => '$1: সতৰ্কবাণী',
+	'toolserver-status-short-down' => '$1: তললৈ',
+	'toolserver-status-short-erro' => '$1: ভুল',
+	'toolserver-status-short-unknown' => '$1: অজ্ঞাত',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -174,6 +186,26 @@ $messages['dsb'] = array(
 	'toolserver-status-short-missing' => '$1: Felujo',
 );
 
+/** Greek (Ελληνικά)
+ * @author Geraki
+ */
+$messages['el'] = array(
+	'toolserver-status-ok' => 'Δεν υπάρχουν προβλήματα στην συστοιχία βάσεων $1 $2',
+	'toolserver-status-info' => 'Μήνυμα για χρήστες της συστοιχίας $1: $2',
+	'toolserver-status-warn' => 'Προειδοποίηση για χρήστες της συστοιχίας $1: $2',
+	'toolserver-status-down' => 'Στη συστοιχία βάσεων $1 έχει προσωρινά διακοπεί η λειτουργία. $2',
+	'toolserver-status-erro' => 'Η συστοιχία βάσεων $1 είναι εκτός λειτουργίας. $2',
+	'toolserver-status-unknown' => 'Άγνωστη κατάσταση της συστοιχίας $1',
+	'toolserver-status-missing' => 'Η συστοιχία $1 δεν υπάρχει',
+	'toolserver-status-short-ok' => '$1: Εντάξει',
+	'toolserver-status-short-info' => '$1: Πληροφορίες',
+	'toolserver-status-short-warn' => '$1: Προειδοποίηση',
+	'toolserver-status-short-down' => '$1: Εκτός λειτουργίας',
+	'toolserver-status-short-erro' => '$1: Σφάλμα',
+	'toolserver-status-short-unknown' => '$1: Άγνωστο',
+	'toolserver-status-short-missing' => '$1: Λείπει',
+);
+
 /** Spanish (Español)
  * @author Platonides
  * @author Vivaelcelta
@@ -205,6 +237,13 @@ $messages['eu'] = array(
 	'toolserver-status-short-erro' => '$1: Errorea',
 	'toolserver-status-short-unknown' => '$1: Ezezaguna',
 	'toolserver-status-short-missing' => '$1: Faltan',
+);
+
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'toolserver-status-short-info' => '$1: اطلاعات',
 );
 
 /** French (Français)
@@ -638,6 +677,18 @@ $messages['tr'] = array(
 	'toolserver-status-short-info' => '$1: Bilgi',
 	'toolserver-status-short-warn' => '$1: Uyar',
 	'toolserver-status-short-erro' => '$1: Hata',
+);
+
+/** Ukrainian (Українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'toolserver-status-short-info' => '$1: Інформація',
+	'toolserver-status-short-warn' => '$1: Попередження',
+	'toolserver-status-short-down' => '$1: Вниз',
+	'toolserver-status-short-erro' => '$1: Помилка',
+	'toolserver-status-short-unknown' => '$1: Невідомо',
+	'toolserver-status-short-missing' => '$1: Відсутній',
 );
 
 /** Vietnamese (Tiếng Việt)

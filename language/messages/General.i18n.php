@@ -126,6 +126,20 @@ $messages['arc'] = array(
 	'hours' => '{{PLURAL:$1|ܫܥܬܐ|ܫܥܬ̈ܐ}}',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'hello' => 'নমস্কাৰ',
+	'welcome' => 'স্বাগতম',
+	'toolversionstamp' => 'সংস্কৰণ $1 ($2)',
+	'etc' => 'ইত্যাদি।',
+	'namespace' => 'নামস্থান',
+	'form-reset' => 'পূৰ্বৰ অৱস্থালৈ লৈ যাওক',
+	'last-modified-date' => 'শেষ পৰিবৰ্তন: $1',
+	'view-source' => 'উৎস চাওক',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */

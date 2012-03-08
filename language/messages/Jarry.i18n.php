@@ -182,6 +182,16 @@ $messages['he'] = array(
 	'error-form-empty' => 'יש שדה הכרחי שלא מולא. יש למלא את כל השדות ההכרחיים כדי להמשיך.',
 );
 
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'moretools' => 'इसी लेखक के बनाए अन्य उपकरण',
+	'bugs' => 'बग सूचनाएँ और फीचर अनुरोध',
+	'comments' => 'टिप्पणियाँ एवं प्रश्न',
+	'error-form-empty' => 'एक या अधिक आवश्यक खाने खाली छोड़े गए हैं। आगे बढ़ने से पहले आपको उन्हें पूरा करना चाहिये।',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

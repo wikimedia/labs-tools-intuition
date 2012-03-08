@@ -57,6 +57,13 @@ $messages['ar'] = array(
 	'form-legend-settings' => 'الإعدادات',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'form-legend-settings' => 'ছেটিং',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -171,6 +178,8 @@ $messages['dsb'] = array(
  */
 $messages['el'] = array(
 	'alws-selectwiki' => '(επιλέξτε wiki)',
+	'alws-group-mustused' => 'Περισσότερο χρησιμοποιούμενα wiki',
+	'alws-group-allaz' => 'Όλα τα wiki αλφαβητικά',
 	'form-legend-settings' => 'Ρυθμίσεις',
 );
 
@@ -220,13 +229,14 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Crochet.david
  * @author Peter17
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(sélectionner le wiki)',
 	'alws-group-mustused' => 'Wikis les plus utilisés',
 	'alws-group-allaz' => 'Tous les wikis par ordre alphabétique',
-	'form-legend-settings' => 'Paramètres',
+	'form-legend-settings' => 'Configuration',
 );
 
 /** Galician (Galego)
@@ -248,6 +258,16 @@ $messages['he'] = array(
 	'alws-group-mustused' => '(אתרי הוויקי הפעילים ביותר)',
 	'alws-group-allaz' => 'כל אתרי הוויקי לפי האלפבית',
 	'form-legend-settings' => 'הגדרות',
+);
+
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'alws-selectwiki' => '(विकी चुनें)',
+	'alws-group-mustused' => 'सर्वाधिक प्रयुक्त विकी',
+	'alws-group-allaz' => 'सभी विकी वर्णक्रम-अनुसार',
+	'form-legend-settings' => 'सेटिंग्स',
 );
 
 /** Croatian (Hrvatski)
@@ -535,8 +555,10 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
  */
 $messages['ta'] = array(
+	'alws-group-mustused' => 'மிகவும் பயண்படுத்தபட்ட விக்கி',
 	'form-legend-settings' => 'அமைப்புகள்',
 );
 

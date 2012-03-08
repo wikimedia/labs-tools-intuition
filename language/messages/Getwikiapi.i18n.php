@@ -55,6 +55,13 @@ $messages['ar'] = array(
 	'label-wikiids' => 'معرفات الويكي',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'input' => 'ইনপুট',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -559,6 +566,17 @@ $messages['tr'] = array(
 	'label-wikiids' => 'Viki tanıtıcıları',
 	'no-matches' => '"$1" ile eşleşme yok',
 	'output' => '"$1" için çıkış',
+);
+
+/** Ukrainian (Українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'formats-heading' => 'Вихідні формати',
+	'input' => 'Вхід',
+	'label-wikiids' => 'Ідентифікатори Wiki',
+	'no-matches' => 'Немає відповідностей «$1»',
+	'output' => 'Вихід для " $1 "',
 );
 
 /** Vietnamese (Tiếng Việt)

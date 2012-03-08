@@ -71,6 +71,16 @@ $messages['ar'] = array(
 	'filter-all-languages' => 'جميع اللغات',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Simbu123
+ */
+$messages['as'] = array(
+	'search-table-th-filter' => 'ছেকনী',
+	'search-table-th-search' => 'অনুসন্ধান',
+	'filter-all-countries' => 'সকলো দেশ',
+	'filter-all-languages' => 'সকলো ভাষা',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -192,6 +202,19 @@ $messages['dsb'] = array(
 	'search-table-th-search' => 'Pytaś',
 	'filter-all-countries' => 'Wšykne kraje',
 	'filter-all-languages' => 'Wšykne rěcy',
+);
+
+/** Greek (Ελληνικά)
+ * @author Geraki
+ */
+$messages['el'] = array(
+	'search-title' => 'Αναζήτηση μνημείων',
+	'search-monuments-database' => 'Αναζήτηση στην βάση δεδομένων μνημείων',
+	'search-table-th-field' => 'Πεδίο',
+	'search-table-th-filter' => 'Φίλτρο',
+	'search-table-th-search' => 'Αναζήτηση',
+	'filter-all-countries' => 'Όλες οι χώρες',
+	'filter-all-languages' => 'Όλες οι γλώσσες',
 );
 
 /** Spanish (Español)
@@ -367,12 +390,15 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Hmiyazaki
  * @author Schu
  */
 $messages['ja'] = array(
 	'search-table-th-field' => 'フィールド',
 	'search-table-th-filter' => 'フィルター',
 	'search-table-th-search' => '検索',
+	'filter-all-countries' => 'すべての国々',
+	'filter-all-languages' => '全ての言語',
 );
 
 /** Colognian (Ripoarisch)
@@ -650,9 +676,11 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
  * @author Logicwiki
  */
 $messages['ta'] = array(
+	'search-table-th-filter' => 'வடிகட்டி',
 	'search-table-th-search' => 'தேடுக',
 	'filter-all-countries' => 'அனைத்து நாடுகள்',
 	'filter-all-languages' => 'அனைத்து மொழிகள்',
@@ -698,11 +726,17 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author A1
  * @author Тест
  */
 $messages['uk'] = array(
+	'search-title' => "Пошук пам'яток",
+	'search-monuments-database' => "Шукати в базі даних пам'яток",
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Фільтр',
+	'search-table-th-search' => 'Пошук',
+	'filter-all-countries' => 'Всі країни',
+	'filter-all-languages' => 'Всі мови',
 );
 
 /** Vietnamese (Tiếng Việt)
