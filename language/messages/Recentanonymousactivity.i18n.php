@@ -151,6 +151,13 @@ $messages['he'] = array(
 	'title' => 'פעילות אלמונית אחרונה',
 );
 
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'title' => 'हाल में हुई बेनामी गतिविधि',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

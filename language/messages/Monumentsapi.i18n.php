@@ -318,6 +318,19 @@ $messages['he'] = array(
 	'filter-all-languages' => 'כל השפות',
 );
 
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'search-title' => 'स्मारक खोज',
+	'search-monuments-database' => 'स्मारक डाटाबेस में खोजें',
+	'search-table-th-field' => 'फ़ील्ड',
+	'search-table-th-filter' => 'फ़िल्टर',
+	'search-table-th-search' => 'खोजें',
+	'filter-all-countries' => 'सभी देश',
+	'filter-all-languages' => 'सभी भाषाएँ',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */

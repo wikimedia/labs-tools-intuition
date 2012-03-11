@@ -598,6 +598,26 @@ $messages['he'] = array(
 	'view-source' => 'הצגת מקור',
 );
 
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'hello' => 'नमस्कार',
+	'welcome' => 'सुस्वागतम्‌!',
+	'toolversionstamp' => 'वर्ज़न $1 ($2)',
+	'etc' => 'आदि',
+	'namespace' => 'नामस्थान',
+	'form-reset' => 'रीसेट करें',
+	'years' => '{{PLURAL: $1|वर्ष}}',
+	'weeks' => '{{PLURAL: $1|सप्ताह}}',
+	'days' => '{{PLURAL: $1|दिन}}',
+	'hours' => '{{PLURAL:$1|घंटा|घंटे}}',
+	'minutes' => '{{PLURAL: $1|मिनट}}',
+	'seconds' => '{{PLURAL: $1|सॅकेंड}}',
+	'last-modified-date' => 'अंतिम परिवर्तन: $1',
+	'view-source' => 'स्रोत देखें',
+);
+
 /** Croatian (Hrvatski)
  * @author Ex13
  */
@@ -1316,11 +1336,13 @@ $messages['ta'] = array(
 	'hello' => 'வணக்கம்',
 	'welcome' => 'வருக',
 	'etc' => 'இன்ன பிற',
+	'namespace' => 'பெயர்வெளி',
 	'form-submit' => 'செல்',
 	'form-reset' => 'மீட்டமைக்க',
 	'years' => '{{PLURAL: $1|வருடம்|வருடங்கள்}}',
 	'weeks' => '{{PLURAL: $1|வாரம்|வாரங்கள்}}',
 	'days' => '{{PLURAL: $1|நாள்|நாட்கள்}}',
+	'hours' => '{{PLURAL: $1|மணி|மணிகள்}}',
 	'minutes' => '{{PLURAL: $1|நிமிடம்|நிமிடங்கள்}}',
 	'seconds' => '{{PLURAL: $1|வினாடி|வினாடிகள்}}',
 	'last-modified-date' => 'கடைசியாகத் திருத்தப்பட்டது: $1',

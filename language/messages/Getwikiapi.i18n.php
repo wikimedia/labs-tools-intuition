@@ -30,7 +30,9 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'formats-heading' => 'This is the heading above the list of available formats to export/output to.',
 	'input' => 'This is the heading above the input form.',
-	'label-wikiids' => 'This form label is for the input field for the wiki identifiers. Users may type one or more identifiers here.',
+	'label-wikiids' => 'This form label is for the input field for the wiki identifiers. Users may type one or more identifiers here.
+
+Identifiers can be a language code (e.g. \'de\' will assume the German Wikipedia), or a database code (enwiki_p for English Wikipedia), hostname (fr.wiktionary, optionally including ".org") and some others as well. Almost any form of identification or guessing is accepted.',
 	'no-matches' => 'Message to be displayed if nothing was found for the given id. $1 represents the user input.',
 	'output' => 'For each of the search results this heading is placed. $1 represents the user input.',
 );
@@ -240,6 +242,17 @@ $messages['he'] = array(
 	'label-wikiids' => 'מזהי ויקי',
 	'no-matches' => 'שום דבר לא התאים ל־"$1"',
 	'output' => 'פלט עבור "$1"',
+);
+
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'formats-heading' => 'आउटपुट फ़ॉर्मैट',
+	'input' => 'इनपुट',
+	'label-wikiids' => 'विकी पहचान-चिन्ह',
+	'no-matches' => '"$1" से कुछ भी मेल नहीं खाया',
+	'output' => '"$1" के लिये आउटपुट',
 );
 
 /** Croatian (Hrvatski)

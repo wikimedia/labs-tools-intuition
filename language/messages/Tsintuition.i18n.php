@@ -43,6 +43,7 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Krinkle
+ * @author Lloffiwr
  * @author Purodha
  */
 $messages['qqq'] = array(
@@ -61,7 +62,7 @@ $messages['qqq'] = array(
 {{Identical|Overview}}',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
 {{Identical|Settings}}',
-	'tab-about' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.
+	'tab-about' => 'Dashboard tab for "Demo" which opens a window with a demonstration page. See [http://toolserver.org/~intuition/ toolserver].
 {{Identical|About}}',
 	'tab-demo' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
 	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.',
@@ -694,6 +695,30 @@ $messages['he'] = array(
 	'help-translate-tool' => 'בואו לעזור את הכלי הזה!',
 	'help-translate-all' => 'עזרו לתרגום את שרת הכלים!',
 	'help-translate-tooltip' => 'עזרו לאחרים לתרגם את הודעות הממשק לשפתכם.',
+);
+
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'fullname' => 'टूलसर्वर के उपयोग अंतरफल के लिये अंतर्राष्ट्रीयकरण',
+	'current-settings' => 'वर्तमान सेटिंग्स',
+	'current-language' => 'वर्तमान चयनित भाषा',
+	'settings-legend' => 'सेटिंग्स',
+	'choose-language' => 'भाषा चुनें',
+	'clear-cookies' => 'कुकीज़ साफ़ करें',
+	'clearcookies-success' => 'कुकीज़ साफ़ कर दी गई हैं।',
+	'tab-settings' => 'सेटिंग्स',
+	'tab-about' => 'विवरण',
+	'tab-demo' => 'डॅमो',
+	'bl-mysettings' => 'मेरी भाषा सेटिंग्स',
+	'bl-mysettings-new' => 'भाषा बदलें!',
+	'bl-promo' => 'अनुवाद $1 और $2 द्वारा किये गए हैं।',
+	'bl-changelanguage' => 'इस टूल की अंतरफल भाषा बदलने के लिये यहाँ क्लिक करें।',
+	'usage' => 'टूलसर्वर इंट्यूशन द्वारा अनूदित टूल',
+	'help-translate-tool' => 'इस टूल का अनुवाद करने में मदद करें!',
+	'help-translate-all' => 'टूलसर्वर का अनुवाद करने में मदद करें!',
+	'help-translate-tooltip' => 'अपनी भाषा में अंतरफल संदेशों का अनुवाद कर के औरों की मदद करें।',
 );
 
 /** Croatian (Hrvatski)

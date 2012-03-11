@@ -710,6 +710,16 @@ $messages['sv'] = array(
 	'time-label' => 'Tid det tog att utföra kommandot',
 );
 
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'enter-details' => 'தகவல்களை உள்ளிடு',
+	'language-label' => 'மொழி',
+	'namespace-label' => 'பெயர்வெளி',
+	'pagename-label' => 'பக்கத்தின் பெயர் (பெயர்வெளிகளைத் தவிர்த்து)',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */

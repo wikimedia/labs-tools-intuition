@@ -307,6 +307,25 @@ $messages['he'] = array(
 	'toolserver-status-short-missing' => '$1: חסר',
 );
 
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'toolserver-status-ok' => 'डाटाबेस क्लस्टर $1 में कोई समस्या नहीं हैं $2',
+	'toolserver-status-info' => 'क्लस्टर $1 के प्रयोक्ताओं के लिये सूचना: $2',
+	'toolserver-status-warn' => 'क्लस्टर $1 के प्रयोक्ताओं के लिये चेतावनी: $2',
+	'toolserver-status-down' => 'डाटाबेस क्लस्टर $1 को अस्थायी रूप से बंद कर दिया गया है। $2',
+	'toolserver-status-erro' => 'डाटाबेस क्लस्टर $1 बंद है। $2',
+	'toolserver-status-unknown' => 'क्लस्टर $1 की स्थिति अज्ञात है',
+	'toolserver-status-missing' => 'क्लस्टर $1 मौजूद नहीं है',
+	'toolserver-status-short-info' => '$1: सूचना',
+	'toolserver-status-short-warn' => '$1: चेतावनी',
+	'toolserver-status-short-down' => '$1: बंद',
+	'toolserver-status-short-erro' => '$1: त्रुटि',
+	'toolserver-status-short-unknown' => '$1: अज्ञात',
+	'toolserver-status-short-missing' => '$1: गायब',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -667,6 +686,16 @@ $messages['sr-el'] = array(
 	'toolserver-status-short-erro' => '$1: Greška',
 	'toolserver-status-short-unknown' => '$1: Nepoznato',
 	'toolserver-status-short-missing' => '$1: Nedostaje',
+);
+
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'toolserver-status-short-ok' => '$1: சரி',
+	'toolserver-status-short-info' => '$1: தகவல்',
+	'toolserver-status-short-warn' => '$1: எச்சரி',
+	'toolserver-status-short-erro' => '$1: பிழை',
 );
 
 /** Turkish (Türkçe)
