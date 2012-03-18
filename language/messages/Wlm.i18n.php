@@ -1129,7 +1129,7 @@ Pro Provënz weisen',
 	'distict-monuments' => 'Ënnerschiddlech Monumenter',
 	'province-heading' => 'Provënz',
 	'province-none' => '(Onbekannt)',
-	'ccaa-heading' => '!!FUZZYY!!CC.AA.',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Macedonian (Македонски)

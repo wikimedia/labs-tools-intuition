@@ -40,8 +40,9 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Krinkle
- * @author Siebrand
+ * @author McDutchie
  * @author Multichill
+ * @author Siebrand
  */
 $messages['qqq'] = array(
 	'search-title' => 'Title (window caption) of http://toolserver.org/~erfgoed/api/.',
@@ -62,10 +63,14 @@ $messages['qqq'] = array(
 	'db-field-lat' => 'Translation of the field "latitude" in the monuments database.',
 	'db-field-lon' => 'Translation of the field "longitude" in the monuments database.',
 	'db-field-image' => 'Translation of the field "image" in the monuments database.',
-	'db-field-changed' => 'Translation of the field "changed" in the monuments database.',
-	'db-field-source' => 'Translation of the field "source" in the monuments database.',
-	'db-field-monument_article' => 'Translation of the field "monument_article" in the monuments database.',
-	'db-field-registrant_url' => 'Translation of the field "registrant_url" in the monuments database.',
+	'db-field-changed' => 'Translation of the field "changed" in the monuments database. This field contains the time when the record was last imported in the database.',
+	'db-field-source' => 'Translation of the field "source" in the monuments database. The source field contains a link to the Wikipedia list from which the data was imported.',
+	'db-field-monument_article' => 'Translation of the field "monument_article" in the monuments database. This is the title of a wiki article about the monument.',
+	'db-field-registrant_url' => 'Translation of the field "registrant_url" in the monuments database.
+
+Examples of registrant URLs:
+* http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=PA00088517
+* http://register.muinas.ee/?menuID=monument&action=view&id=20875',
 );
 
 /** толышә зывон (толышә зывон)
@@ -151,6 +156,19 @@ $messages['be-tarask'] = array(
 	'search-table-th-search' => 'Шукаць',
 	'filter-all-countries' => 'Усе краіны',
 	'filter-all-languages' => 'Усе мовы',
+	'db-field-country' => 'Краіна',
+	'db-field-lang' => 'Мова',
+	'db-field-id' => 'Ідэнтыфікатар',
+	'db-field-name' => 'Назва',
+	'db-field-address' => 'Адрас',
+	'db-field-municipality' => 'Раён',
+	'db-field-lat' => 'Шырата',
+	'db-field-lon' => 'Даўгата',
+	'db-field-image' => 'Выява',
+	'db-field-changed' => 'Дата абнаўленьня',
+	'db-field-source' => 'Крыніца',
+	'db-field-monument_article' => 'Артыкул',
+	'db-field-registrant_url' => 'Запіс у рэестры',
 );
 
 /** Bulgarian (Български)
@@ -197,12 +215,30 @@ $messages['ca'] = array(
 );
 
 /** Danish (Dansk)
+ * @author MGA73
  * @author Peter Alberti
  */
 $messages['da'] = array(
+	'search-title' => 'Monument-søgning',
+	'search-monuments-database' => 'Søg i monument-databasen',
 	'search-table-th-field' => 'Felt',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Søg',
+	'filter-all-countries' => 'Alle lande',
+	'filter-all-languages' => 'Alle sprog',
+	'db-field-country' => 'Land',
+	'db-field-lang' => 'Sprog',
+	'db-field-id' => 'Id',
+	'db-field-name' => 'Navn',
+	'db-field-address' => 'Adresse',
+	'db-field-municipality' => 'Kommune',
+	'db-field-lat' => 'Breddegrad',
+	'db-field-lon' => 'Længdegrad',
+	'db-field-image' => 'Billede',
+	'db-field-changed' => 'Ændret',
+	'db-field-source' => 'Kilde',
+	'db-field-monument_article' => 'Monument-artikel',
+	'db-field-registrant_url' => 'Registrant url',
 );
 
 /** German (Deutsch)
@@ -216,6 +252,19 @@ $messages['de'] = array(
 	'search-table-th-search' => 'Suchen',
 	'filter-all-countries' => 'Alle Länder',
 	'filter-all-languages' => 'Alle Sprachen',
+	'db-field-country' => 'Staat',
+	'db-field-lang' => 'Sprache',
+	'db-field-id' => 'Kennung',
+	'db-field-name' => 'Name',
+	'db-field-address' => 'Anschrift',
+	'db-field-municipality' => 'Gemeinde',
+	'db-field-lat' => 'Breitengrad',
+	'db-field-lon' => 'Längengrad',
+	'db-field-image' => 'Bild',
+	'db-field-changed' => 'Geändert',
+	'db-field-source' => 'Quelle',
+	'db-field-monument_article' => 'Artikel zum Denkmal',
+	'db-field-registrant_url' => 'Register-URL',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -245,6 +294,7 @@ $messages['el'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Fitoschido
  * @author Platonides
  * @author Vivaelcelta
@@ -257,6 +307,19 @@ $messages['es'] = array(
 	'search-table-th-search' => 'Buscar',
 	'filter-all-countries' => 'Todos los países',
 	'filter-all-languages' => 'Todos los idiomas',
+	'db-field-country' => 'País',
+	'db-field-lang' => 'Idioma',
+	'db-field-id' => 'Identificador',
+	'db-field-name' => 'Nombre',
+	'db-field-address' => 'Dirección',
+	'db-field-municipality' => 'Municipio',
+	'db-field-lat' => 'Latitud',
+	'db-field-lon' => 'Longitud',
+	'db-field-image' => 'Imagen',
+	'db-field-changed' => 'Modificado',
+	'db-field-source' => 'Fuente',
+	'db-field-monument_article' => 'Artículo de monumento',
+	'db-field-registrant_url' => 'URL del titular',
 );
 
 /** Estonian (Eesti)
@@ -306,6 +369,7 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Hashar
+ * @author Otourly
  * @author Peter17
  */
 $messages['fr'] = array(
@@ -316,6 +380,19 @@ $messages['fr'] = array(
 	'search-table-th-search' => 'Rechercher',
 	'filter-all-countries' => 'Tout pays',
 	'filter-all-languages' => 'Toute langue',
+	'db-field-country' => 'Pays',
+	'db-field-lang' => 'Langue',
+	'db-field-id' => 'Identifiant',
+	'db-field-name' => 'Nom',
+	'db-field-address' => 'Adresse',
+	'db-field-municipality' => 'Municipalité',
+	'db-field-lat' => 'Latitude',
+	'db-field-lon' => 'Longitude',
+	'db-field-image' => 'Image',
+	'db-field-changed' => 'Modifié',
+	'db-field-source' => 'Source',
+	'db-field-monument_article' => 'Article du monument',
+	'db-field-registrant_url' => 'URL de la base de donnée',
 );
 
 /** Galician (Galego)
@@ -330,6 +407,19 @@ $messages['gl'] = array(
 	'search-table-th-search' => 'Procurar',
 	'filter-all-countries' => 'Todos os países',
 	'filter-all-languages' => 'Todas as linguas',
+	'db-field-country' => 'País',
+	'db-field-lang' => 'Lingua',
+	'db-field-id' => 'Identificador',
+	'db-field-name' => 'Nome',
+	'db-field-address' => 'Enderezo',
+	'db-field-municipality' => 'Municipio',
+	'db-field-lat' => 'Latitude',
+	'db-field-lon' => 'Lonxitude',
+	'db-field-image' => 'Imaxe',
+	'db-field-changed' => 'Cambiado',
+	'db-field-source' => 'Orixe',
+	'db-field-monument_article' => 'Artigo do monumento',
+	'db-field-registrant_url' => 'URL do titular',
 );
 
 /** Hebrew (עברית)
@@ -405,6 +495,19 @@ $messages['ia'] = array(
 	'search-table-th-search' => 'Recerca',
 	'filter-all-countries' => 'Tote le paises',
 	'filter-all-languages' => 'Tote le linguas',
+	'db-field-country' => 'Pais',
+	'db-field-lang' => 'Lingua',
+	'db-field-id' => 'Identificator',
+	'db-field-name' => 'Nomine',
+	'db-field-address' => 'Adresse',
+	'db-field-municipality' => 'Municipalitate',
+	'db-field-lat' => 'Latitude',
+	'db-field-lon' => 'Longitude',
+	'db-field-image' => 'Imagine',
+	'db-field-changed' => 'Cambiate',
+	'db-field-source' => 'Origine',
+	'db-field-monument_article' => 'Articulo sur le monumento',
+	'db-field-registrant_url' => 'URL de registration',
 );
 
 /** Ingush (ГІалгІай Ğalğaj)
@@ -417,6 +520,7 @@ $messages['inh'] = array(
 /** Italian (Italiano)
  * @author Beta16
  * @author Gianfranco
+ * @author Otourly
  * @author ZioNicco
  */
 $messages['it'] = array(
@@ -427,6 +531,16 @@ $messages['it'] = array(
 	'search-table-th-search' => 'Cerca',
 	'filter-all-countries' => 'Tutti i paesi',
 	'filter-all-languages' => 'Tutte le lingue',
+	'db-field-country' => 'Nazione',
+	'db-field-lang' => 'Lingua',
+	'db-field-name' => 'Nome',
+	'db-field-address' => 'Indirizzo',
+	'db-field-municipality' => 'Comune',
+	'db-field-lat' => 'Latitudine',
+	'db-field-lon' => 'Longitudine',
+	'db-field-image' => 'Immagine',
+	'db-field-changed' => 'Modificato',
+	'db-field-source' => 'Fonte',
 );
 
 /** Japanese (日本語)
@@ -545,7 +659,9 @@ $messages['ne'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Akoopal
  * @author Krinkle
+ * @author Multichill
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -556,6 +672,18 @@ $messages['nl'] = array(
 	'search-table-th-search' => 'Zoeken',
 	'filter-all-countries' => 'Alle landen',
 	'filter-all-languages' => 'Alle talen',
+	'db-field-country' => 'Land',
+	'db-field-lang' => 'Taal',
+	'db-field-name' => 'Naam',
+	'db-field-address' => 'Adres',
+	'db-field-municipality' => 'Gemeente',
+	'db-field-lat' => 'Breedtegraad',
+	'db-field-lon' => 'Lengtegraad',
+	'db-field-image' => 'Afbeelding',
+	'db-field-changed' => 'Gewijzigd',
+	'db-field-source' => 'Bron',
+	'db-field-monument_article' => 'Monument artikel',
+	'db-field-registrant_url' => 'Url naar register',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -581,6 +709,7 @@ $messages['pdc'] = array(
 );
 
 /** Polish (Polski)
+ * @author Odder
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -591,6 +720,19 @@ $messages['pl'] = array(
 	'search-table-th-search' => 'Szukaj',
 	'filter-all-countries' => 'Wszystkie kraje',
 	'filter-all-languages' => 'Wszystkie języki',
+	'db-field-country' => 'Państwo',
+	'db-field-lang' => 'Język',
+	'db-field-id' => 'Identyfikator',
+	'db-field-name' => 'Nazwa',
+	'db-field-address' => 'Adres',
+	'db-field-municipality' => 'Gmina',
+	'db-field-lat' => 'Szerokość geograficzna',
+	'db-field-lon' => 'Długość geograficzna',
+	'db-field-image' => 'Grafika',
+	'db-field-changed' => 'Zaktualizowano',
+	'db-field-source' => 'Źródło',
+	'db-field-monument_article' => 'Artykuł',
+	'db-field-registrant_url' => 'Odnośnik do rejestru',
 );
 
 /** Pashto (پښتو)
@@ -604,12 +746,30 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Beria
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
+	'search-title' => 'Pesquisa de monumentos',
+	'search-monuments-database' => 'Procurar na base de dados de monumentos',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Pesquisar',
+	'filter-all-countries' => 'Todos os países',
+	'filter-all-languages' => 'Todos os idiomas',
+	'db-field-country' => 'País',
+	'db-field-lang' => 'Idioma',
+	'db-field-id' => 'Identificador',
+	'db-field-name' => 'Nome',
+	'db-field-address' => 'Morada',
+	'db-field-municipality' => 'Cidade',
+	'db-field-lat' => 'Latitude',
+	'db-field-lon' => 'Longitude',
+	'db-field-image' => 'Imagem',
+	'db-field-changed' => 'Alterado',
+	'db-field-source' => 'Fonte',
+	'db-field-monument_article' => 'Artigo do monumento',
+	'db-field-registrant_url' => 'URL de registo',
 );
 
 /** Brazilian Portuguese (Português do Brasil)

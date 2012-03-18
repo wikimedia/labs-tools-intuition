@@ -62,8 +62,11 @@ $messages['qqq'] = array(
 {{Identical|Overview}}',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
 {{Identical|Settings}}',
-	'tab-about' => 'Dashboard tab for "Demo" which opens a window with a demonstration page. See [http://toolserver.org/~intuition/ toolserver].
-{{Identical|About}}',
+	'tab-about' => "Dashboard tab for \"Demo\" which opens a window with a demonstration page. See [http://toolserver.org/~intuition/ toolserver].
+
+If 'About' doesn't work in your language, possible equivalents may be 'Details', 'About us', 'About this', 'Information' or 'Data'.
+
+{{Identical|About}}",
 	'tab-demo' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
 	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.',
 	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition.',
