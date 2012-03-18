@@ -23,11 +23,25 @@ $messages['en'] = array(
 	'search-table-th-search' => 'Search',
 	'filter-all-countries' => 'All countries',
 	'filter-all-languages' => 'All languages',
+	'db-field-country' => 'country',
+	'db-field-lang' => 'language',
+	'db-field-id' => 'identifier',
+	'db-field-name' => 'name',
+	'db-field-address' => 'address',
+	'db-field-municipality' => 'municipality',
+	'db-field-lat' => 'latitude',
+	'db-field-lon' => 'longitude',
+	'db-field-image' => 'image',
+	'db-field-changed' => 'changed',
+	'db-field-source' => 'source',
+	'db-field-monument_article' => 'monument article',
+	'db-field-registrant_url' => 'registrant url',
 );
 
 /** Message documentation (Message documentation)
  * @author Krinkle
  * @author Siebrand
+ * @author Multichill
  */
 $messages['qqq'] = array(
 	'search-title' => 'Title (window caption) of http://toolserver.org/~erfgoed/api/.',
@@ -39,6 +53,19 @@ $messages['qqq'] = array(
 {{Identical|Search}}',
 	'filter-all-countries' => 'Entry for the countries filter selecting all countries.',
 	'filter-all-languages' => 'Entry for the language filter selecting all languages.',
+	'db-field-country' => 'Translation of the field "country" in the monuments database.',
+	'db-field-lang' => 'Translation of the field "language" in the monuments database.',
+	'db-field-id' => 'Translation of the field "identifier" in the monuments database.',
+	'db-field-name' => 'Translation of the field "name" in the monuments database.',
+	'db-field-address' => 'Translation of the field "address" in the monuments database.',
+	'db-field-municipality' => 'Translation of the field "municipality" in the monuments database.',
+	'db-field-lat' => 'Translation of the field "latitude" in the monuments database.',
+	'db-field-lon' => 'Translation of the field "longitude" in the monuments database.',
+	'db-field-image' => 'Translation of the field "image" in the monuments database.',
+	'db-field-changed' => 'Translation of the field "changed" in the monuments database.',
+	'db-field-source' => 'Translation of the field "source" in the monuments database.',
+	'db-field-monument_article' => 'Translation of the field "monument_article" in the monuments database.',
+	'db-field-registrant_url' => 'Translation of the field "registrant_url" in the monuments database.',
 );
 
 /** толышә зывон (толышә зывон)
