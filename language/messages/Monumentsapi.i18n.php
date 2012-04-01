@@ -36,6 +36,15 @@ $messages['en'] = array(
 	'db-field-source' => 'Source',
 	'db-field-monument_article' => 'Monument article',
 	'db-field-registrant_url' => 'Registrant url',
+	'toolbox-label-searchtipps' => 'use %term or term% or %term% for fuzzy search',
+	'toolbox-meta-title' => 'Wiki Loves Monuments Toolbox',
+	'toolbox-main-title' => 'WLM Toolbox',
+	'toolbox-main-description' => 'A set of tools related to',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Homepage',
+	'toolbox-nav-statistics' => 'Statistics',
+	'toolbox-nav-search' => 'Search',
+	'toolbox-title-searchmonuments' => 'Search monuments',
 );
 
 /** Message documentation (Message documentation)
