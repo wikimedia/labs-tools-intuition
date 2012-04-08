@@ -132,24 +132,6 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 * $1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'language' => 'Зывон',
-	'categories' => 'Категоријон',
-	'remove_cats' => 'Ијр быә категоријон рәдд кардеј',
-	'tusc_user' => 'TUSC иштирокәкә ном',
-	'tusc_pass' => 'Парол TUSC',
-	'do_it' => 'Ыми кардеј',
-	'error_file_exists' => 'Фајл һәни һесте бә $3 бәнә "$1$4$2"!',
-	'new_wikitext' => 'Тожә вики мәтн',
-	'new_filename' => 'Фајли тожә ном:',
-	'upload_submit' => 'Бо жәј!',
-	'standard_language' => 'tly',
-	'help_mail' => 'Номә вығәнде бә $1',
-);
-
 /** Batak Toba (Batak Toba)
  * @author Aldnonymous
  */
@@ -559,6 +541,24 @@ $messages['ca'] = array(
 	'help_jira' => '$1JIRA (es necessita un compte)$2 al projecte Commonshelper2',
 	'help_mail' => 'Envia un missatge de correu a $1',
 	'help_commons' => '$1Afegeix un missatge a Commons$2',
+);
+
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'attention' => 'Upozornění',
+	'jira_link' => 'Nahlásit chybu nebo navrhnout funkce',
+	'language' => 'Jazyk',
+	'project' => 'Projekt',
+	'source_file' => 'Zdrojový soubor',
+	'target_file' => 'Cílový soubor',
+	'categories' => 'Kategorie',
+	'error_not_exists' => 'Zdrojový soubor neexistuje!',
+	'original_wikitext' => 'Původní text wiki',
+	'new_wikitext' => 'Nový text wiki',
+	'new_filename' => 'Nový název souboru:',
+	'target_wiki' => 'cílová wiki',
 );
 
 /** Danish (Dansk)
@@ -1333,7 +1333,7 @@ $messages['ig'] = array(
 	'language' => 'Asụsụ',
 );
 
-/** Ingush (ГІалгІай Ğalğaj)
+/** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
 $messages['inh'] = array(
@@ -1605,6 +1605,7 @@ $messages['lb'] = array(
 	'error_file_exists' => 'Et gëtt de Fichier schonn op $3 als "$1$4$2"!',
 	'error_diff_exists' => 'Et gëtt schonn en anere Fichier mat deem selwechten Numm op der Zilwiki',
 	'error_no_meta' => "Keng Metadaten iwwer d'Quell-Wiki fonnt! $1D'Metadate fir de Projet w.e.g. aginn/aktualiséieren$2",
+	'error_meta_bad' => 'Metadonnéeën: Et gouf eng falsch Schabloun fonnt! $1Et musse Metadonnéeë fir de Projet derbäigesat respektiv aktualiséiert ginn$2',
 	'original_wikitext' => 'Originale Wiki-Text',
 	'new_wikitext' => 'Neie Wiki-Text',
 	'new_filename' => 'Neien Numm vum Fichier:',
@@ -2576,6 +2577,7 @@ $messages['ta'] = array(
 	'change_meta' => '$1பகுப்பு மற்றும் வார்ப்புரு நிருணயங்களை$2 பின்வருமாறு மாற்று$3',
 	'language' => 'மொழி',
 	'project' => 'திட்டம்',
+	'source_file' => 'மூலக்கோப்பு',
 	'categories' => 'பகுப்புகள்',
 	'remove_cats' => 'இருக்கும் பகுப்புகளை நீக்கு',
 	'tusc_user' => 'TUSC பயனர் பெயர்',
@@ -2669,6 +2671,24 @@ $messages['tl'] = array(
 	'error_commons_user' => 'Upang makilala ang tagagamit ng paglilipat, ang iyong pangalan ng tagagamit sa Wikimedia Commons ay dapat na nasa loob ng paglalarawan!',
 	'error_upload_users' => 'Ang tungkulin ng pagkakargang papaitaas ay makukuha lamang ng ilang mga tagagamit habang nasa panahon ng pagsusubok!',
 	'error_upload_file' => 'Hindi maikakargang paibaba ang orihinal talaksan.',
+);
+
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'language' => 'Зывон',
+	'categories' => 'Категоријон',
+	'remove_cats' => 'Ијр быә категоријон рәдд кардеј',
+	'tusc_user' => 'TUSC иштирокәкә ном',
+	'tusc_pass' => 'Парол TUSC',
+	'do_it' => 'Ыми кардеј',
+	'error_file_exists' => 'Фајл һәни һесте бә $3 бәнә "$1$4$2"!',
+	'new_wikitext' => 'Тожә вики мәтн',
+	'new_filename' => 'Фајли тожә ном:',
+	'upload_submit' => 'Бо жәј!',
+	'standard_language' => 'tly',
+	'help_mail' => 'Номә вығәнде бә $1',
 );
 
 /** Turkish (Türkçe)

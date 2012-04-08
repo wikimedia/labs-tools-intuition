@@ -92,6 +92,13 @@ $messages['ca'] = array(
 	'error-form-empty' => 'Una o més caselles obligatòries han quedat en blanc. Heu de completar-les abans de continuar.',
 );
 
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'comments' => 'komentáře a dotazy',
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */

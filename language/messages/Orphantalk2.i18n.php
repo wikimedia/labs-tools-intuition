@@ -65,18 +65,6 @@ $messages['qqq'] = array(
 	'resultslimited' => "If results were limited by the set' limit, this message is displayed at the bottom of the search results.",
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'title' => 'OrphanTalk2',
-	'page' => 'Сәһифә',
-	'tools-delete' => 'рәдд кардеј',
-	'tools-subject' => 'мовзу',
-	'tools-hist' => 'тарых',
-	'tools-curr' => 'есәт.',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -306,6 +294,16 @@ $messages['ca'] = array(
 	'deletesummary' => 'Neteja de pàgines de discussió òrfenes via $1',
 	'noresults' => "No s'ha trobat en aquest wiki cap pàgina de discussió òrfena en aquest espai de noms que correspongui amb la vostra configuració.",
 	'resultslimited' => 'Els resultats es limiten a $1 pàgines.',
+);
+
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'page' => 'Stránka',
+	'output' => 'Výstup',
+	'tools-links' => 'odkazy',
+	'resultslimited' => 'Výsledky byly omezeny na  $1  stránek.',
 );
 
 /** Danish (Dansk)
@@ -672,12 +670,12 @@ $messages['ia'] = array(
 	'resultslimited' => 'Le resultatos ha essite limitate a $1 paginas.',
 );
 
-/** Ingush (ГІалгІай Ğalğaj)
+/** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
 $messages['inh'] = array(
 	'page' => 'ОагIув',
-	'tools-delete' => 'дIадаккха',
+	'tools-delete' => 'дIадакха',
 	'tools-links' => 'Iинкаш',
 );
 
@@ -1316,6 +1314,18 @@ $messages['tl'] = array(
 	'deletesummary' => 'Nililini ang naulilang mga pahina ng usapan sa pamamagitan ng $1',
 	'noresults' => 'Walang naulilang mga pahina ng usapan na tumugma sa mga pagtatakda mo sa wiking ito na nasa loob ng puwang ng pangalan na ito.',
 	'resultslimited' => 'Ang mga kinalabasan ay nakahangga sa $1 mga pahina.',
+);
+
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'title' => 'OrphanTalk2',
+	'page' => 'Сәһифә',
+	'tools-delete' => 'рәдд кардеј',
+	'tools-subject' => 'мовзу',
+	'tools-hist' => 'тарых',
+	'tools-curr' => 'есәт.',
 );
 
 /** Turkish (Türkçe)

@@ -60,20 +60,6 @@ $messages['qqq'] = array(
 	'parentheses' => '{{Optional}}',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'hello' => 'Сәлом',
-	'welcome' => 'Хәш омәјшон!',
-	'toolversionstamp' => 'Рәвојәт $1 ($2)',
-	'namespace' => 'Номон мәкон',
-	'form-submit' => 'Давардеј',
-	'years' => '{{PLURAL: $1|сор|сор}}',
-	'weeks' => '{{PLURAL: $1|һәфтә|һәфтә}}',
-	'days' => '{{PLURAL: $1|руж|руж}}',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -315,6 +301,27 @@ $messages['ca'] = array(
 	'seconds' => '{{PLURAL:$1|segon|segons}}',
 	'last-modified-date' => 'Darrera modificació: $1',
 	'view-source' => 'Mostra el codi font',
+);
+
+/** Sorani (کوردی)
+ * @author Asoxor
+ */
+$messages['ckb'] = array(
+	'hello' => 'سڵاو',
+	'welcome' => 'بەخێربێی',
+	'toolversionstamp' => 'وەشانی $1 ($2)',
+	'etc' => 'ھتد',
+	'namespace' => 'بۆشاییی ناو',
+	'form-submit' => 'بڕۆ',
+	'form-reset' => 'دووبارە ڕێکخستنەوە',
+	'years' => '{{PLURAL: $1|ساڵ|ساڵ}}',
+	'weeks' => '{{PLURAL:$1|ھەفتە|ھەفتە}}',
+	'days' => '{{PLURAL: $1|ڕۆژ|ڕۆژ}}',
+	'hours' => '{{PLURAL: $1|کاتژمێر|کاتژمێر}}',
+	'minutes' => '{{PLURAL: $1|خولەک|خولەک}}',
+	'seconds' => '{{PLURAL: $1|چرکە|چرکە}}',
+	'last-modified-date' => 'دوایین گۆڕانکاری: $1',
+	'view-source' => 'سەرچاوەکەی ببینە',
 );
 
 /** Czech (Česky)
@@ -607,6 +614,7 @@ $messages['hi'] = array(
 	'toolversionstamp' => 'वर्ज़न $1 ($2)',
 	'etc' => 'आदि',
 	'namespace' => 'नामस्थान',
+	'form-submit' => 'जायें',
 	'form-reset' => 'रीसेट करें',
 	'years' => '{{PLURAL: $1|वर्ष}}',
 	'weeks' => '{{PLURAL: $1|सप्ताह}}',
@@ -723,7 +731,7 @@ $messages['id'] = array(
 	'view-source' => 'Lihat sumber',
 );
 
-/** Ingush (ГІалгІай Ğalğaj)
+/** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
 $messages['inh'] = array(
@@ -732,10 +740,10 @@ $messages['inh'] = array(
 	'namespace' => 'ЦIерий аренаш',
 	'form-submit' => 'Кхоачашде',
 	'form-reset' => 'Юхаоттар',
-	'years' => 'шераш',
-	'weeks' => 'кIиранденош',
-	'days' => 'денош',
-	'hours' => 'сахьаташ',
+	'years' => '{{PLURAL: $1|шу|шера|шераш}}',
+	'weeks' => '{{PLURAL: $1|к|иранди|к|иранден|к|иранденош}}',
+	'days' => '{{PLURAL: $1|ди|ден|денош}}',
+	'hours' => '{{PLURAL: $1|сахьат|сахьата|сахьаташ}}',
 );
 
 /** Italian (Italiano)
@@ -1413,6 +1421,20 @@ $messages['tl'] = array(
 	'view-source' => 'Tingnan ang pinagmulan',
 );
 
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'hello' => 'Сәлом',
+	'welcome' => 'Хәш омәјшон!',
+	'toolversionstamp' => 'Рәвојәт $1 ($2)',
+	'namespace' => 'Номон мәкон',
+	'form-submit' => 'Давардеј',
+	'years' => '{{PLURAL: $1|сор|сор}}',
+	'weeks' => '{{PLURAL: $1|һәфтә|һәфтә}}',
+	'days' => '{{PLURAL: $1|руж|руж}}',
+);
+
 /** Turkish (Türkçe)
  * @author Emperyan
  * @author Vito Genovese
@@ -1433,6 +1455,24 @@ $messages['tr'] = array(
 	'seconds' => '{{PLURAL: $1|saniye|saniye}}',
 	'last-modified-date' => 'Son değiştirme: $1',
 	'view-source' => 'Kaynağı gör',
+);
+
+/** Tuvinian (Тыва дыл)
+ * @author Sborsody
+ */
+$messages['tyv'] = array(
+	'hello' => 'Экии',
+	'welcome' => 'Кирип моорлаңар',
+	'toolversionstamp' => 'Үндүрери $1 ($2)',
+	'namespace' => 'Аттар делгеми',
+	'form-submit' => 'Күүcедири',
+	'years' => '{{PLURAL: $1|чыл|чыл}}',
+	'weeks' => '{{PLURAL: $1|чеди-хонук|чеди-хонук}}',
+	'days' => '{{PLURAL: $1|хүн|хүн}}',
+	'hours' => '{{PLURAL: $1|шак|шак}}',
+	'minutes' => '{{PLURAL: $1|минут|минут}}',
+	'seconds' => '{{PLURAL: $1|секунда|секунда}}',
+	'view-source' => 'Дөзү бижиин көөрү',
 );
 
 /** Ukrainian (Українська)

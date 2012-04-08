@@ -98,22 +98,6 @@ Parameters:
 	'description-license' => 'A header for a form where description and copyright license are selected.',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'error-notsvg' => 'Ым SVG фајл ни.',
-	'th-translation' => 'Пегордыније',
-	'th-language' => 'Зывон',
-	'th-username' => 'Иштирокәкә ном',
-	'th-password' => 'Парол',
-	'translate' => 'Пегордынијеј',
-	'svginput-label' => 'SVG фајл',
-	'uploading' => 'Бо карде',
-	'upload-complete' => 'Бо жәј чок дәварде. Шикил бәбе быбу бы унвонәдә $1',
-	'editdescriptionpage' => 'Тәсвири тожә сәһифә дәгиш кардеј',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -211,7 +195,7 @@ $messages['ast'] = array(
 	'editdescriptionpage' => 'Editar la páxina de descripción nueva',
 	'disclaimer' => "Van recoyese dellos datos anónimos con propósitu estadísticu. Si se dan, los nomes d'usuariu TUSC tamién van grabase como ayuda'n casu de vandalismu. Les contraseñes enxamás se grabarán.",
 	'author-complete' => '¡Por favor, completa la información del autor!',
-	'preview-hide' => 'Anubrir entever',
+	'preview-hide' => 'Anubrir vista previa',
 	'preview-refresh' => 'Refrescar entever',
 	'error-must-accept' => "Pa siguir cola xubía direuta tienes d'aceutar los términos d'usu que s'ufren.",
 	'error-tusc-failed' => 'Fallu na validación TUSC: usuariu o conseña incorreutos.',
@@ -453,6 +437,27 @@ $messages['ca'] = array(
 	'error-tusc-failed' => "Error de validació de TUSC: nom d'usuari o contrasenya incorrectes.",
 	'description-license' => 'Seleccioneu la descripció i la llicència',
 	'finalise' => 'Conclusió dels detalls',
+);
+
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'error-nothing' => 'Nic k překladu.',
+	'error-notsvg' => 'Není SVG soubor.',
+	'error-upload' => 'Při nahrávání došlo k chybě.',
+	'th-original' => 'Originál',
+	'th-translation' => 'Překlad',
+	'th-language' => 'Jazyk',
+	'th-username' => 'Uživatelské jméno',
+	'th-password' => 'Heslo',
+	'option-manual' => 'Ruční nahrávání',
+	'preview' => 'Náhled',
+	'translate' => 'Přeložit',
+	'svginput-label' => 'SVG soubor',
+	'preview-hide' => 'Skrýt náhled',
+	'preview-refresh' => 'Aktualizovat náhled',
+	'description-license' => 'Vyberte popis a licenci',
 );
 
 /** Danish (Dansk)
@@ -1071,14 +1076,14 @@ $messages['id'] = array(
 	'finalise' => 'Rincian akhir',
 );
 
-/** Ingush (ГІалгІай Ğalğaj)
+/** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
 $messages['inh'] = array(
 	'th-translation' => 'Торжам',
 	'th-language' => 'Мотт',
 	'th-username' => 'Дакъалаьцархочунна цIи',
-	'th-password' => 'КъайладоагIа',
+	'th-password' => 'КъайлдоагIа',
 	'translate' => 'торжам де',
 );
 
@@ -2085,6 +2090,22 @@ $messages['tl'] = array(
 	'error-tusc-failed' => 'Nabigo ang pagpapatunay ng TUSC: hindi tama ang pangalan ng tagagamit o hudyat.',
 	'description-license' => 'Piliin ang paglalarawan at lisensiya',
 	'finalise' => 'Buuin na ang mga detalye',
+);
+
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'error-notsvg' => 'Ым SVG фајл ни.',
+	'th-translation' => 'Пегордыније',
+	'th-language' => 'Зывон',
+	'th-username' => 'Иштирокәкә ном',
+	'th-password' => 'Парол',
+	'translate' => 'Пегордынијеј',
+	'svginput-label' => 'SVG фајл',
+	'uploading' => 'Бо карде',
+	'upload-complete' => 'Бо жәј чок дәварде. Шикил бәбе быбу бы унвонәдә $1',
+	'editdescriptionpage' => 'Тәсвири тожә сәһифә дәгиш кардеј',
 );
 
 /** Turkish (Türkçe)

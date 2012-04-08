@@ -142,6 +142,13 @@ $messages['ca'] = array(
 	'form-legend-settings' => 'Paràmetres',
 );
 
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'alws-group-mustused' => 'Nejpoužívanější wiki',
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */
@@ -419,6 +426,14 @@ $messages['nl'] = array(
 	'alws-selectwiki' => '(selecteer een wiki)',
 	'alws-group-mustused' => "Meeste gebruikte wiki's",
 	'alws-group-allaz' => 'Alle wikis op alfabetische volgorde',
+	'form-legend-settings' => 'Instellingen',
+);
+
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Wiki13
+ */
+$messages['nl-informal'] = array(
+	'alws-selectwiki' => '(selecteer wiki)',
 	'form-legend-settings' => 'Instellingen',
 );
 

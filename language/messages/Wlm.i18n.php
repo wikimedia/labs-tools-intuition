@@ -140,23 +140,6 @@ $messages['qqq'] = array(
 	'ccaa-heading' => 'Header for the autonomous communities column',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'title' => 'WLM фајлон',
-	'file' => 'Шикил',
-	'upload-time' => 'Чы бо карде вахт',
-	'date-unknown' => 'Номәлум',
-	'view-uncategorized-images' => 'Дијә кардеј бә бекатегоријә шикилон',
-	'show-images-all' => 'Һәммәј шикилон нишо дој',
-	'id-none' => '(Ни)',
-	'bic-list-bad' => 'Нишо дој',
-	'bic-list-all' => 'Пурә сијоһи',
-	'users-list' => 'Тәмшо кардеј',
-	'province-none' => '(Номәлум)',
-);
-
 /** Assamese (অসমীয়া)
  * @author Simbu123
  */
@@ -399,6 +382,20 @@ $messages['ca'] = array(
 	'province-heading' => 'Província',
 	'province-none' => '(Desconeguda)',
 	'ccaa-heading' => 'CC.AA.',
+);
+
+/** Czech (Česky)
+ * @author Jezevec
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'title' => 'Soubory WLM',
+	'file' => 'Obrázek',
+	'show-images-all' => 'Zobrazit všechny obrázky',
+	'count-heading' => 'Fotografie',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Zobrazit',
+	'province-none' => '(Neznámý)',
 );
 
 /** German (Deutsch)
@@ -967,6 +964,18 @@ $messages['id'] = array(
 	'province-none' => '(Tidak diketahui)',
 );
 
+/** Ingush (ГӀалгӀай)
+ * @author Sapral Mikail
+ */
+$messages['inh'] = array(
+	'file' => 'Гойтсурт',
+	'author' => 'Яздархо',
+	'count-heading' => 'Сурташ',
+	'bic-gallery' => 'Суртанче',
+	'author-heading' => 'Яздархо',
+	'users-list' => 'БӀаргтассар',
+);
+
 /** Italian (Italiano)
  * @author Gianfranco
  * @author ZioNicco
@@ -1477,6 +1486,7 @@ $messages['ru'] = array(
 	'bic-list-bad' => 'Показать',
 	'bic-list-all' => 'Полный список',
 	'unregistered' => 'Незарегистрирован',
+	'users-text' => 'На этой странице расположены авторы с изображениями, которые они загрузили, а так же количество памятников',
 	'users-list' => 'Просмотр',
 	'distict-monuments' => 'Определить памятники',
 	'province-heading' => 'Область',
@@ -1657,6 +1667,23 @@ $messages['te'] = array(
 	'bic-list-all' => 'పూర్తి జాబితా',
 );
 
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'title' => 'WLM фајлон',
+	'file' => 'Шикил',
+	'upload-time' => 'Чы бо карде вахт',
+	'date-unknown' => 'Номәлум',
+	'view-uncategorized-images' => 'Дијә кардеј бә бекатегоријә шикилон',
+	'show-images-all' => 'Һәммәј шикилон нишо дој',
+	'id-none' => '(Ни)',
+	'bic-list-bad' => 'Нишо дој',
+	'bic-list-all' => 'Пурә сијоһи',
+	'users-list' => 'Тәмшо кардеј',
+	'province-none' => '(Номәлум)',
+);
+
 /** Turkish (Türkçe)
  * @author Emperyan
  * @author Suelnur
@@ -1769,8 +1796,10 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hzy980512
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'title' => 'WLM 文件',
 	'file' => '图片',
 	'province' => '省份',
 	'author' => '作者',
@@ -1779,6 +1808,7 @@ $messages['zh-hans'] = array(
 	'not-available' => '不可用',
 	'date-unknown' => '未知',
 	'show-images-all' => '显示所有图片',
+	'date-format' => 'Y-m-d H:i:s',
 	'id-none' => '（无）',
 	'count-heading' => '图片',
 	'bic-list' => '列表',

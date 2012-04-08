@@ -45,15 +45,6 @@ The label for a textbox where users enter the namespace they wish to work with.'
 	'time-label' => 'The label for the duration representing the time their query took to perform.',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'language-label' => 'Зывон',
-	'namespace-label' => 'Номон мәкон',
-	'pagename-label' => 'Сәһифә ном (бе номон мәкон)',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -161,6 +152,14 @@ $messages['ca'] = array(
 	'transclusion-count' => "S'han trobat $1 inclusions.",
 	'error-suggestion' => 'Potser heu escrit malament (o amb majúscules no coincidents) el nom de la pàgina.',
 	'time-label' => 'Temps necessari per executar les ordres',
+);
+
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'language-label' => 'Jazyk',
+	'namespace-label' => 'Jmenný prostor',
 );
 
 /** Danish (Dansk)
@@ -390,6 +389,13 @@ $messages['ia'] = array(
  */
 $messages['id'] = array(
 	'enter-details' => 'Masukan detail',
+);
+
+/** Ingush (ГӀалгӀай)
+ * @author Sapral Mikail
+ */
+$messages['inh'] = array(
+	'language-label' => 'Мотт',
 );
 
 /** Italian (Italiano)
@@ -744,6 +750,15 @@ $messages['tl'] = array(
 	'time-label' => 'Panahong nagamit upang maisagawa ang utos',
 );
 
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'language-label' => 'Зывон',
+	'namespace-label' => 'Номон мәкон',
+	'pagename-label' => 'Сәһифә ном (бе номон мәкон)',
+);
+
 /** Turkish (Türkçe)
  * @author Emperyan
  * @author Khutuck
@@ -776,8 +791,10 @@ $messages['vi'] = array(
  * @author Hydra
  * @author Shizhao
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'title' => '模板嵌入包含计数',
 	'enter-details' => '输入详细信息',
 	'language-label' => '语言',
 	'namespace-label' => '名字空间',

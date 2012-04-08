@@ -138,6 +138,15 @@ $messages['ca'] = array(
 	'output' => 'Sortida per «$1»',
 );
 
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'formats-heading' => 'Výstupní formáty',
+	'input' => 'Vstup',
+	'output' => 'Výstup pro " $1 "',
+);
+
 /** Danish (Dansk)
  * @author Sarrus
  */
@@ -605,10 +614,12 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'formats-heading' => '输出格式',
 	'input' => '输入',
+	'label-wikiids' => 'Wiki 标识符',
 	'no-matches' => '没有匹配 "$1"',
 	'output' => '输出的 "$1"',
 );

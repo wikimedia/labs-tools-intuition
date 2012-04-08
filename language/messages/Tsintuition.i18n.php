@@ -62,7 +62,7 @@ $messages['qqq'] = array(
 {{Identical|Overview}}',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
 {{Identical|Settings}}',
-	'tab-about' => "Dashboard tab for \"Demo\" which opens a window with a demonstration page. See [http://toolserver.org/~intuition/ toolserver].
+	'tab-about' => "Dashboard tab for \"About\" which opens a window with a demonstration page. See [//toolserver.org/~intuition/ TsIntuition Dashboard] for a live example.
 
 If 'About' doesn't work in your language, possible equivalents may be 'Details', 'About us', 'About this', 'Information' or 'Data'.
 
@@ -78,17 +78,6 @@ If 'About' doesn't work in your language, possible equivalents may be 'Details',
 	'help-translate-tool' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for that tool.',
 	'help-translate-all' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for all tools.',
 	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
-);
-
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'settings-legend' => 'Пеғәндон',
-	'tab-overview' => 'Чәшику дәвоније',
-	'tab-settings' => 'Пеғәндон',
-	'tab-about' => 'Тәсвир',
-	'bl-mysettings-new' => 'Зывони дәгиш кардеј!',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1585,6 +1574,7 @@ $messages['ta'] = array(
 	'choose-language' => 'மொழியைத் தேர்ந்தெடுக்கவும்',
 	'tab-overview' => 'மேல்நோட்டம்',
 	'tab-settings' => 'அமைப்புகள்',
+	'tab-about' => 'விவரம்',
 	'bl-mysettings' => 'எனது மொழி அமைப்புகள்',
 	'bl-mysettings-new' => 'மொழியை மாற்று!',
 );
@@ -1650,6 +1640,17 @@ $messages['tl'] = array(
 	'help-translate-tool' => 'Tumulong sa pagsasalinwika ng kasangkapang ito!',
 	'help-translate-all' => 'Tumulong sa pagsasalinwika ng Toolserver!',
 	'help-translate-tooltip' => 'Tulungan ang iba sa pamamagitan ng pagsasalinwika ng mga mensahe ng ugnayang-mukha papunta sa wika mo.',
+);
+
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'settings-legend' => 'Низамисә ној',
+	'tab-overview' => 'Чәшику дәвоније',
+	'tab-settings' => 'Низамисә ној',
+	'tab-about' => 'Тәсвир',
+	'bl-mysettings-new' => 'Зывони дәгиш кардеј!',
 );
 
 /** Turkish (Türkçe)

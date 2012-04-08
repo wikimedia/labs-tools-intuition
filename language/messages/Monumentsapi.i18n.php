@@ -82,15 +82,6 @@ Examples of registrant URLs:
 * http://register.muinas.ee/?menuID=monument&action=view&id=20875',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'search-table-th-filter' => 'Филтр',
-	'search-table-th-search' => 'Нәве',
-	'filter-all-languages' => 'Һәммәј зывонон',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -133,6 +124,19 @@ $messages['ast'] = array(
 	'search-table-th-search' => 'Guetar',
 	'filter-all-countries' => 'Tolos países',
 	'filter-all-languages' => 'Toles llingües',
+	'db-field-country' => 'País',
+	'db-field-lang' => 'Llingua',
+	'db-field-id' => 'Identificador',
+	'db-field-name' => 'Nome',
+	'db-field-address' => 'Direición',
+	'db-field-municipality' => 'Conceyu',
+	'db-field-lat' => 'Llatitú',
+	'db-field-lon' => 'Llonxitú',
+	'db-field-image' => 'Imaxe',
+	'db-field-changed' => 'Camudao',
+	'db-field-source' => 'Fonte',
+	'db-field-monument_article' => 'Artículu del monumentu',
+	'db-field-registrant_url' => 'URL del titular',
 );
 
 /** Azerbaijani (Azərbaycanca)
@@ -208,10 +212,24 @@ $messages['br'] = array(
 	'search-table-th-search' => 'Klask',
 	'filter-all-countries' => 'An holl vroioù',
 	'filter-all-languages' => 'An holl yezhoù',
+	'db-field-country' => 'Bro',
+	'db-field-lang' => 'Yezh',
+	'db-field-id' => 'Anaouder',
+	'db-field-name' => 'Anv',
+	'db-field-address' => "Chomlec'h",
+	'db-field-municipality' => 'Kumun',
+	'db-field-lat' => 'Ledred',
+	'db-field-lon' => 'Hedred',
+	'db-field-image' => 'Skeudenn',
+	'db-field-changed' => 'Kemmet',
+	'db-field-source' => 'Mammenn',
+	'db-field-monument_article' => 'Pennad monumant',
+	'db-field-registrant_url' => 'URL an diaz roadennoù',
 );
 
 /** Catalan (Català)
  * @author SMP
+ * @author Toniher
  */
 $messages['ca'] = array(
 	'search-title' => 'Cerca de monuments',
@@ -221,6 +239,53 @@ $messages['ca'] = array(
 	'search-table-th-search' => 'Cerca',
 	'filter-all-countries' => 'Tots els països',
 	'filter-all-languages' => 'Tots els idiomes',
+	'db-field-country' => 'Estat',
+	'db-field-lang' => 'Llengua',
+	'db-field-id' => 'Identificador',
+	'db-field-name' => 'Nom',
+	'db-field-address' => 'Adreça',
+	'db-field-municipality' => 'Municipi',
+	'db-field-lat' => 'Latitud',
+	'db-field-lon' => 'Longitud',
+	'db-field-image' => 'Imatge',
+	'db-field-changed' => 'Canviat',
+	'db-field-source' => 'Font',
+	'db-field-monument_article' => 'Article de monument',
+	'db-field-registrant_url' => 'URL del registrador',
+	'toolbox-label-searchtipps' => 'feu servir %term or term% o %term% per a una cerca aproximada',
+	'toolbox-meta-title' => "Joc d'eines del Wiki Loves Monuments",
+	'toolbox-main-title' => "Joc d'eines del WLM",
+	'toolbox-main-description' => "Un conjunt d'eines relacionades amb el",
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => "Pàgina d'inici",
+	'toolbox-nav-statistics' => 'Estadístiques',
+	'toolbox-nav-search' => 'Cerca',
+	'toolbox-title-searchmonuments' => 'Cerca monuments',
+);
+
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'search-table-th-field' => 'Pole',
+	'search-table-th-filter' => 'Filtr',
+	'search-table-th-search' => 'Hledat',
+	'filter-all-countries' => 'Všechny země',
+	'filter-all-languages' => 'Všechny jazyky',
+	'db-field-country' => 'Země',
+	'db-field-lang' => 'Jazyk',
+	'db-field-id' => 'Identifikátor',
+	'db-field-name' => 'Název',
+	'db-field-address' => 'Adresa',
+	'db-field-municipality' => 'Obec',
+	'db-field-lat' => 'Zeměpisná šířka',
+	'db-field-lon' => 'Zeměpisná délka',
+	'db-field-image' => 'Obrázek',
+	'db-field-changed' => 'Změněno',
+	'db-field-source' => 'Zdroj',
+	'toolbox-nav-statistics' => 'Statistiky',
+	'toolbox-nav-search' => 'Hledat',
+	'toolbox-title-searchmonuments' => 'Hledat monumenty',
 );
 
 /** Danish (Dansk)
@@ -251,11 +316,12 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Elya
  * @author Kghbln
  */
 $messages['de'] = array(
-	'search-title' => 'Sehenswürdigkeitensuche',
-	'search-monuments-database' => 'Die Datenbank der Sehenswürdigkeiten durchsuchen',
+	'search-title' => 'Denkmalsuche',
+	'search-monuments-database' => 'Denkmalsuche in der Datenbank',
 	'search-table-th-field' => 'Feld',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Suchen',
@@ -265,15 +331,24 @@ $messages['de'] = array(
 	'db-field-lang' => 'Sprache',
 	'db-field-id' => 'Kennung',
 	'db-field-name' => 'Name',
-	'db-field-address' => 'Anschrift',
+	'db-field-address' => 'Adresse',
 	'db-field-municipality' => 'Gemeinde',
 	'db-field-lat' => 'Breitengrad',
 	'db-field-lon' => 'Längengrad',
 	'db-field-image' => 'Bild',
 	'db-field-changed' => 'Geändert',
-	'db-field-source' => 'Quelle',
+	'db-field-source' => 'Herkunft',
 	'db-field-monument_article' => 'Artikel zum Denkmal',
-	'db-field-registrant_url' => 'Register-URL',
+	'db-field-registrant_url' => 'URL Denkmalbehörde',
+	'toolbox-label-searchtipps' => '%wort oder wort% oder %wort% für eine tolerante Suche verwenden',
+	'toolbox-meta-title' => '„Wiki Loves Monuments“-Werkzeugkasten',
+	'toolbox-main-title' => 'WLM-Werkzeugkasten',
+	'toolbox-main-description' => 'Werkzeugkasten für „Wiki Loves Monuments“',
+	'toolbox-wikilovesmonuments' => '„Wiki Loves Monuments“',
+	'toolbox-nav-homepage' => 'Startseite',
+	'toolbox-nav-statistics' => 'Statistiken',
+	'toolbox-nav-search' => 'Suche',
+	'toolbox-title-searchmonuments' => 'Denkmalsuche',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -287,6 +362,19 @@ $messages['dsb'] = array(
 	'search-table-th-search' => 'Pytaś',
 	'filter-all-countries' => 'Wšykne kraje',
 	'filter-all-languages' => 'Wšykne rěcy',
+	'db-field-country' => 'Kraj',
+	'db-field-lang' => 'Rěc',
+	'db-field-id' => 'Identifikator',
+	'db-field-name' => 'Mě',
+	'db-field-address' => 'Adresa',
+	'db-field-municipality' => 'Gmejna',
+	'db-field-lat' => 'Šyrina',
+	'db-field-lon' => 'Dlinina',
+	'db-field-image' => 'Wobraz',
+	'db-field-changed' => 'Změnjony',
+	'db-field-source' => 'Žrědło',
+	'db-field-monument_article' => 'Nastawk wó zajmnostce',
+	'db-field-registrant_url' => 'Registrowy URL',
 );
 
 /** Greek (Ελληνικά)
@@ -455,6 +543,16 @@ $messages['hi'] = array(
 	'search-table-th-search' => 'खोजें',
 	'filter-all-countries' => 'सभी देश',
 	'filter-all-languages' => 'सभी भाषाएँ',
+	'db-field-country' => 'देश',
+	'db-field-lang' => 'भाषा',
+	'db-field-id' => 'पहचान-चिन्ह',
+	'db-field-name' => 'नाम',
+	'db-field-address' => 'पता',
+	'db-field-municipality' => 'नगर पालिका',
+	'db-field-image' => 'चित्र',
+	'db-field-changed' => 'परिवर्तित',
+	'db-field-source' => 'स्रोत',
+	'db-field-monument_article' => 'स्मारक पर लेख',
 );
 
 /** Croatian (Hrvatski)
@@ -477,6 +575,19 @@ $messages['hsb'] = array(
 	'search-table-th-search' => 'Pytać',
 	'filter-all-countries' => 'Wšě kraje',
 	'filter-all-languages' => 'Wšě rěče',
+	'db-field-country' => 'Kraj',
+	'db-field-lang' => 'Rěč',
+	'db-field-id' => 'Identfikator',
+	'db-field-name' => 'Mjeno',
+	'db-field-address' => 'Adresa',
+	'db-field-municipality' => 'Gmejna',
+	'db-field-lat' => 'Šěrokostnik',
+	'db-field-lon' => 'Dołhostnik',
+	'db-field-image' => 'Wobraz',
+	'db-field-changed' => 'Změnjeny',
+	'db-field-source' => 'Žórło',
+	'db-field-monument_article' => 'Nastawk wo zajimawosći',
+	'db-field-registrant_url' => 'Registrowy URL',
 );
 
 /** Hungarian (Magyar)
@@ -519,7 +630,7 @@ $messages['ia'] = array(
 	'db-field-registrant_url' => 'URL de registration',
 );
 
-/** Ingush (ГІалгІай Ğalğaj)
+/** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
 $messages['inh'] = array(
@@ -529,6 +640,7 @@ $messages['inh'] = array(
 /** Italian (Italiano)
  * @author Beta16
  * @author Gianfranco
+ * @author Nemo bis
  * @author Otourly
  * @author ZioNicco
  */
@@ -540,8 +652,9 @@ $messages['it'] = array(
 	'search-table-th-search' => 'Cerca',
 	'filter-all-countries' => 'Tutti i paesi',
 	'filter-all-languages' => 'Tutte le lingue',
-	'db-field-country' => 'Nazione',
+	'db-field-country' => 'Stato',
 	'db-field-lang' => 'Lingua',
+	'db-field-id' => 'Identificativo',
 	'db-field-name' => 'Nome',
 	'db-field-address' => 'Indirizzo',
 	'db-field-municipality' => 'Comune',
@@ -550,6 +663,8 @@ $messages['it'] = array(
 	'db-field-image' => 'Immagine',
 	'db-field-changed' => 'Modificato',
 	'db-field-source' => 'Fonte',
+	'db-field-monument_article' => 'Voce sul monumento',
+	'db-field-registrant_url' => 'URL del registro',
 );
 
 /** Japanese (日本語)
@@ -602,6 +717,26 @@ $messages['lb'] = array(
 	'search-table-th-search' => 'Sichen',
 	'filter-all-countries' => 'All Länner',
 	'filter-all-languages' => 'All Sproochen',
+	'db-field-country' => 'Land',
+	'db-field-lang' => 'Sprooch',
+	'db-field-name' => 'Numm',
+	'db-field-address' => 'Adress',
+	'db-field-municipality' => 'Gemeng',
+	'db-field-lat' => 'Geografesch Breet',
+	'db-field-lon' => 'Geografesch Längt',
+	'db-field-image' => 'Bild',
+	'db-field-changed' => 'Geännert',
+	'db-field-source' => 'Quell',
+	'db-field-monument_article' => 'Artikel vum Monument',
+	'db-field-registrant_url' => 'URL vun der Datebank',
+	'toolbox-meta-title' => '"Wiki Loves Monuments"-Geschirkëscht',
+	'toolbox-main-title' => 'WLM Geschirkëscht',
+	'toolbox-main-description' => "'Geschirkëscht' fir",
+	'toolbox-wikilovesmonuments' => '"Wiki Loves Monuments"',
+	'toolbox-nav-homepage' => 'Haaptsäit',
+	'toolbox-nav-statistics' => 'Statistiken',
+	'toolbox-nav-search' => 'Sichen',
+	'toolbox-title-searchmonuments' => 'Monumenter sichen',
 );
 
 /** Lithuanian (Lietuvių)
@@ -632,6 +767,19 @@ $messages['mk'] = array(
 	'search-table-th-search' => 'Пребарување',
 	'filter-all-countries' => 'Сите земји',
 	'filter-all-languages' => 'Сите јазици',
+	'db-field-country' => 'Земја',
+	'db-field-lang' => 'Јазик',
+	'db-field-id' => 'Назнака',
+	'db-field-name' => 'Име',
+	'db-field-address' => 'Адреса',
+	'db-field-municipality' => 'Општина',
+	'db-field-lat' => 'Геог. ширина',
+	'db-field-lon' => 'Геог. должина',
+	'db-field-image' => 'Слика',
+	'db-field-changed' => 'Изменето',
+	'db-field-source' => 'Извор',
+	'db-field-monument_article' => 'Статија за споменикот',
+	'db-field-registrant_url' => 'URL во регистарот',
 );
 
 /** Malay (Bahasa Melayu)
@@ -645,6 +793,19 @@ $messages['ms'] = array(
 	'search-table-th-search' => 'Cari',
 	'filter-all-countries' => 'Semua negara',
 	'filter-all-languages' => 'Semua bahasa',
+	'db-field-country' => 'Negara',
+	'db-field-lang' => 'Bahasa',
+	'db-field-id' => 'Pengenal',
+	'db-field-name' => 'Nama',
+	'db-field-address' => 'Alamat',
+	'db-field-municipality' => 'Perbandaran',
+	'db-field-lat' => 'Garis Lintang',
+	'db-field-lon' => 'Garis Bujur',
+	'db-field-image' => 'Gambar',
+	'db-field-changed' => 'Diubah',
+	'db-field-source' => 'Sumber',
+	'db-field-monument_article' => 'Rencana monumen',
+	'db-field-registrant_url' => 'URL Pendaftar',
 );
 
 /** Norwegian Bokmål (‪Norsk (bokmål)‬)
@@ -672,6 +833,7 @@ $messages['ne'] = array(
  * @author Krinkle
  * @author Multichill
  * @author Siebrand
+ * @author Wiki13
  */
 $messages['nl'] = array(
 	'search-title' => 'Monumenten zoeken',
@@ -683,6 +845,7 @@ $messages['nl'] = array(
 	'filter-all-languages' => 'Alle talen',
 	'db-field-country' => 'Land',
 	'db-field-lang' => 'Taal',
+	'db-field-id' => 'ID',
 	'db-field-name' => 'Naam',
 	'db-field-address' => 'Adres',
 	'db-field-municipality' => 'Gemeente',
@@ -691,8 +854,17 @@ $messages['nl'] = array(
 	'db-field-image' => 'Afbeelding',
 	'db-field-changed' => 'Gewijzigd',
 	'db-field-source' => 'Bron',
-	'db-field-monument_article' => 'Monument artikel',
-	'db-field-registrant_url' => 'Url naar register',
+	'db-field-monument_article' => 'Monumentartikel',
+	'db-field-registrant_url' => 'URL naar register',
+	'toolbox-label-searchtipps' => 'gebruik %trefwoord, trefwoord% of %trefwoord% voor fuzzyzoeken',
+	'toolbox-meta-title' => 'Werkbalk voor Wiki Loves Monuments',
+	'toolbox-main-title' => 'Werkbalk WLM',
+	'toolbox-main-description' => 'Hulpmiddelen voor',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Startpagina',
+	'toolbox-nav-statistics' => 'Statistieken',
+	'toolbox-nav-search' => 'Zoeken',
+	'toolbox-title-searchmonuments' => 'Monumenten zoeken',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -818,6 +990,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Askarmuk
+ * @author Eleferen
  * @author Rave
  */
 $messages['ru'] = array(
@@ -828,6 +1001,19 @@ $messages['ru'] = array(
 	'search-table-th-search' => 'Поиск',
 	'filter-all-countries' => 'Все страны',
 	'filter-all-languages' => 'Все языки',
+	'db-field-country' => 'Страна',
+	'db-field-lang' => 'Язык',
+	'db-field-id' => 'Идентификатор',
+	'db-field-name' => 'Имя',
+	'db-field-address' => 'Адрес',
+	'db-field-municipality' => 'Муниципалитет',
+	'db-field-lat' => 'Широта',
+	'db-field-lon' => 'Долгота',
+	'db-field-image' => 'Изображение',
+	'db-field-changed' => 'Изменено',
+	'db-field-source' => 'Источник',
+	'db-field-monument_article' => 'Статья о памятнике',
+	'db-field-registrant_url' => 'URL-адрес регистранта',
 );
 
 /** Slovenian (Slovenščina)
@@ -841,6 +1027,19 @@ $messages['sl'] = array(
 	'search-table-th-search' => 'Iskanje',
 	'filter-all-countries' => 'Vse države',
 	'filter-all-languages' => 'Vsi jeziki',
+	'db-field-country' => 'Država',
+	'db-field-lang' => 'Jezik',
+	'db-field-id' => 'Označevalnik',
+	'db-field-name' => 'Ime',
+	'db-field-address' => 'Naslov',
+	'db-field-municipality' => 'Občina',
+	'db-field-lat' => 'Zemljepisna širina',
+	'db-field-lon' => 'Zemljepisna dolžina',
+	'db-field-image' => 'Slika',
+	'db-field-changed' => 'Spremenjeno',
+	'db-field-source' => 'Vir',
+	'db-field-monument_article' => 'Članek o spomeniku',
+	'db-field-registrant_url' => 'URL registranta',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
@@ -854,6 +1053,19 @@ $messages['sr-ec'] = array(
 	'search-table-th-search' => 'Претрага',
 	'filter-all-countries' => 'све земље',
 	'filter-all-languages' => 'сви језици',
+	'db-field-country' => 'Земља',
+	'db-field-lang' => 'Језик',
+	'db-field-id' => 'Назнака',
+	'db-field-name' => 'Назив',
+	'db-field-address' => 'Адреса',
+	'db-field-municipality' => 'Општина',
+	'db-field-lat' => 'Географска ширина',
+	'db-field-lon' => 'Географска дужина',
+	'db-field-image' => 'Слика',
+	'db-field-changed' => 'Измењено',
+	'db-field-source' => 'Извор',
+	'db-field-monument_article' => 'Чланак о споменику',
+	'db-field-registrant_url' => 'Адреса у регистру',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
@@ -867,6 +1079,19 @@ $messages['sr-el'] = array(
 	'search-table-th-search' => 'Pretraga',
 	'filter-all-countries' => 'sve zemlje',
 	'filter-all-languages' => 'svi jezici',
+	'db-field-country' => 'Zemlja',
+	'db-field-lang' => 'Jezik',
+	'db-field-id' => 'Naznaka',
+	'db-field-name' => 'Naziv',
+	'db-field-address' => 'Adresa',
+	'db-field-municipality' => 'Opština',
+	'db-field-lat' => 'Geografska širina',
+	'db-field-lon' => 'Geografska dužina',
+	'db-field-image' => 'Slika',
+	'db-field-changed' => 'Izmenjeno',
+	'db-field-source' => 'Izvor',
+	'db-field-monument_article' => 'Članak o spomeniku',
+	'db-field-registrant_url' => 'Adresa u registru',
 );
 
 /** Swedish (Svenska)
@@ -889,10 +1114,13 @@ $messages['sv'] = array(
  * @author Logicwiki
  */
 $messages['ta'] = array(
+	'search-table-th-field' => 'தளம்',
 	'search-table-th-filter' => 'வடிகட்டி',
 	'search-table-th-search' => 'தேடுக',
 	'filter-all-countries' => 'அனைத்து நாடுகள்',
 	'filter-all-languages' => 'அனைத்து மொழிகள்',
+	'db-field-country' => 'நாடு',
+	'db-field-lang' => 'மொழி',
 );
 
 /** Telugu (తెలుగు)
@@ -918,6 +1146,15 @@ $messages['tl'] = array(
 	'search-table-th-field' => 'Kahanayan',
 	'search-table-th-filter' => 'Pansala',
 	'search-table-th-search' => 'Hanapin',
+);
+
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'search-table-th-filter' => 'Филтр',
+	'search-table-th-search' => 'Нәве',
+	'filter-all-languages' => 'Һәммәј зывонон',
 );
 
 /** Turkish (Türkçe)
@@ -959,11 +1196,39 @@ $messages['vi'] = array(
 	'search-table-th-search' => 'Tìm kiếm',
 	'filter-all-countries' => 'Tất cả các quốc gia',
 	'filter-all-languages' => 'Tất cả các ngôn ngữ',
+	'db-field-country' => 'Quốc gia',
+	'db-field-lang' => 'Ngôn ngữ',
+	'db-field-id' => 'Định danh',
+	'db-field-name' => 'Tên',
+	'db-field-address' => 'Địa chỉ',
+	'db-field-municipality' => 'Thành phố',
+	'db-field-lat' => 'Vĩ độ',
+	'db-field-lon' => 'Kinh độ',
+	'db-field-image' => 'Hình ảnh',
+	'db-field-changed' => 'Lúc thay đổi',
+	'db-field-source' => 'Nguồn gốc',
+	'db-field-monument_article' => 'Bài về đài tưởng niệm',
+	'db-field-registrant_url' => 'URL đăng ký',
+);
+
+/** Zeeuws (Zeêuws)
+ * @author Troefkaart
+ */
+$messages['zea'] = array(
+	'search-table-th-search' => 'Zoek',
+	'filter-all-countries' => "Aolle lan'n",
+	'filter-all-languages' => 'Aolle taelen',
+	'db-field-country' => 'Land',
+	'db-field-lang' => 'Taele',
+	'db-field-name' => 'Naem',
+	'db-field-address' => 'Adres',
+	'db-field-municipality' => 'Gemeênte',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  * @author Hzy980512
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'search-table-th-field' => '字段',
@@ -971,5 +1236,13 @@ $messages['zh-hans'] = array(
 	'search-table-th-search' => '搜索',
 	'filter-all-countries' => '所有分类',
 	'filter-all-languages' => '所有语言',
+	'db-field-country' => '国家',
+	'db-field-lang' => '语言',
+	'db-field-id' => '标识符',
+	'db-field-name' => '名称',
+	'db-field-address' => '地址',
+	'db-field-image' => '图像',
+	'db-field-changed' => '已更改',
+	'db-field-source' => '来源',
 );
 

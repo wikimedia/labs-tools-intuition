@@ -123,15 +123,6 @@ $1: Maximum height in pixels',
 	'readme-filename' => 'Name of the readme file',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'title' => 'Шикилон бо жәј бә категоријон',
-	'category' => 'Категоријә:',
-	'download' => 'Бо жәј',
-);
-
 /** Arabic (العربية)
  * @author OsamaK
  */
@@ -352,6 +343,26 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
 	'scaling-width' => ', reduït a una màxima amplada de  $1  {{plural: $1 |pixel|pixels}}',
 	'scaling-height' => ', reduït a una alçada màxima de  $1  {{plural: $1 |pixel|pixels}}',
 	'scaling-both' => ', reduït a una mida màxima de  $1 x $2  píxels',
+);
+
+/** Czech (Česky)
+ * @author Jezevec
+ */
+$messages['cs'] = array(
+	'title' => 'Stahování obrázků podle kategorie',
+	'project' => 'Projekt:',
+	'category' => 'Kategorie:',
+	'thumbnailing' => 'Náhledy',
+	'max-width' => 'Maximální šířka:',
+	'max-height' => 'Maximální výška:',
+	'invalid-width' => 'Neplatná šířka',
+	'invalid-height' => 'Neplatná výška',
+	'no-such-project' => 'Neexistuje žádný takový projekt',
+	'no-images' => 'V této kategorii nejsou žádné obrázky',
+	'category-is-url' => 'Zadaný název kategorie vypadá jako URL. Je třeba zadat název kategorie, nikoli její adresu.',
+	'zip-failed' => 'Nepodařilo se vytvořit ZIP',
+	'image-area-too-big' => '$1je příliš velký pro vytvoření miniatury. Bude použita plná velikost.',
+	'download' => 'Stáhnout',
 );
 
 /** Danish (Dansk)
@@ -1111,6 +1122,27 @@ Linux/Mac OS
 	'readme-filename' => 'ДОКУМЕНТАЦИЈА.txt',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Sreejithk2000
+ */
+$messages['ml'] = array(
+	'title' => 'വർഗ്ഗത്തിലുള്ള ചിത്രങ്ങൾ ഇറക്കുമതി ചെയ്യൽ',
+	'subtitle' => 'ഒരു വർഗ്ഗത്തിലുള്ള ചിത്രങ്ങൾ ഇറക്കുമതി ചെയ്യാനുള്ള എളുപ്പവഴി',
+	'project' => 'പദ്ധതി:',
+	'category' => 'വർഗ്ഗം:',
+	'max-width' => 'പരമാവധി വീതി:',
+	'max-height' => 'പരമാവധി ഉയരം:',
+	'invalid-width' => 'തെറ്റായ വീതി',
+	'invalid-height' => 'തെറ്റായ ഉയരം',
+	'no-such-project' => 'നിലവിലില്ലാത്ത വിക്കിമീഡിയ പദ്ധതി',
+	'no-images' => 'ഈ വർഗ്ഗത്തിൽ ചിത്രങ്ങൾ ഇല്ല',
+	'category-is-url' => 'വർഗ്ഗത്തിന്റെ പേര് ഒരു വെബ് വിലാസം പോലെ തോന്നിക്കുന്നു. താങ്കൾ മുഴുവൻ വിലാസം നൽകാതെ, വർഗ്ഗത്തിന്റെ പേര് മാത്രം നൽകിയാൽ മതിയാകും.',
+	'zip-failed' => 'സിപ് പ്രമാണം ഉണ്ടാക്കുന്നത് പരാജയപ്പെട്ടു',
+	'image-area-too-big' => '$1 തമ്പ്നെയിൽ ഉണ്ടാക്കാൻ പറ്റാത്തവിധം വലുതാണ്. മുഴുവൻ വലിപ്പവും ഉപയോഗിച്ചിരിക്കുന്നു',
+	'download-info' => 'ഉദ്ദേശം $2 വലിപ്പം വരുന്ന {{plural: $1|ഒരു ചിത്രമുണ്ട്|$1 ചിത്രങ്ങൾ ഉണ്ട്}}',
+	'download' => 'ഡൗൺലോഡ്',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -1554,6 +1586,15 @@ $messages['ti'] = array(
 	'download' => 'ጽዓን',
 );
 
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'title' => 'Шикилон бо жәј бә категоријон',
+	'category' => 'Категоријә:',
+	'download' => 'Бо жәј',
+);
+
 /** Turkish (Türkçe)
  * @author Emperyan
  */
@@ -1563,6 +1604,20 @@ $messages['tr'] = array(
 	'max-width' => 'En fazla genişlik:',
 	'max-height' => 'En fazla yükseklik:',
 	'download' => 'İndir',
+);
+
+/** Ukrainian (Українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'title' => 'Завантажити зображення за категоріями',
+	'project' => 'Проект',
+	'category' => 'Категорія',
+	'max-width' => 'Максимальна ширина:',
+	'max-height' => 'Максимальна висота:',
+	'invalid-width' => 'Неприпустима ширина',
+	'invalid-height' => 'Неприпустима висота',
+	'no-such-project' => 'Такого проекту не існує',
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -1617,11 +1672,12 @@ hoặc một Kho phần mềm GNU khác; xem
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Linforest
  * @author Mys 721tx
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'title' => '按照分类下载图片',
 	'subtitle' => '从一个分类中下载图片的简单方式',
-	'project' => '项目',
+	'project' => '项目：',
 	'category' => '分类：',
 	'thumbnailing' => '缩小图片',
 	'max-width' => '最大宽度：',
