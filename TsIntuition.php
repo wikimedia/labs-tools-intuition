@@ -1038,7 +1038,7 @@ class TsIntuition {
 			'escape' => 'html',
 			'raw-variables' => true,
 			'variables' => array(
-				'<a href="http://translatewiki.net/">translatewiki.net</a>',
+				'<a href="//translatewiki.net/">translatewiki.net</a>',
 				'<a href="' . $this->dashboardHome . '">Toolserver Intuition</a>'
 			),
 		);
@@ -1071,7 +1071,7 @@ class TsIntuition {
 				'group' => "tsint-$helpTranslateDomain",
 			);
 			$twParams = http_build_query( $twParams );
-			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "http://translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) ) . ')</small>';
+			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "//translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) ) . ')</small>';
 		}
 
 		// Build output

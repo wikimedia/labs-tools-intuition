@@ -258,7 +258,7 @@ $messages['be'] = array(
 	'finalise' => 'Завяршыце апісанне падрабязнасцяў',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1228,7 +1228,7 @@ $messages['ksh'] = array(
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî))
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1473,7 +1473,7 @@ $messages['mzn'] = array(
 	'th-language' => 'زوون',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (Norsk (bokmål))
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1588,7 +1588,7 @@ $messages['nl'] = array(
 	'finalise' => 'Rond de details af',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål) (Norsk (bokmål))
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1894,7 +1894,7 @@ $messages['sl'] = array(
 	'finalise' => 'Dokončajte podrobnosti',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (Српски (ћирилица))
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1932,7 +1932,7 @@ $messages['sr-ec'] = array(
 	'finalise' => 'Доврши детаље',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (Srpski (latinica))
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -2224,7 +2224,7 @@ $messages['vi'] = array(
 	'finalise' => 'Hoàn tất các chi tiết',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (中文(简体))
  * @author Hydra
  * @author Liangent
  * @author Shizhao
@@ -2264,7 +2264,7 @@ $messages['zh-hans'] = array(
 	'finalise' => '敲定细节',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (中文(繁體))
  * @author Waihorace
  */
 $messages['zh-hant'] = array(

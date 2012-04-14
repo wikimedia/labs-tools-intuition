@@ -246,9 +246,9 @@ $toolSettings['tabs']['#tab-settingsform'] = _('tab-settings');
 // About tab
 $about = '<div id="tab-about">';
 
-$about .= '<a href="http://translatewiki.net/wiki/Translating:Toolserver">'
+$about .= '<a href="//translatewiki.net/wiki/Translating:Toolserver">'
 	.	Html::element( 'img', array(
-		'src' => 'http://translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&count=edits&scale=weeks&days=30&width=520&height=400&group=tsint-0-all',
+		'src' => '//translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&count=edits&scale=weeks&days=30&width=520&height=400&group=tsint-0-all',
 		'width' => 520,
 		'height' => 400,
 		'alt' => '',
