@@ -112,9 +112,9 @@ $3 is target wiki name.',
 $3 is target wiki name.
 
 $4 is the name of the file',
-	'error_no_meta' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of http://meta.wikimedia.org/wiki/CommonsHelper2.',
-	'error_meta_no_good' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of http://meta.wikimedia.org/wiki/CommonsHelper2.',
-	'error_meta_bad' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of http://meta.wikimedia.org/wiki/CommonsHelper2.',
+	'error_no_meta' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of [[m:CommonsHelper2]].',
+	'error_meta_no_good' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of [[m:CommonsHelper2]].',
+	'error_meta_bad' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is a subpage of [[m:CommonsHelper2]].',
 	'output_information' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
 	
 $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of the link).',
@@ -2832,5 +2832,49 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'attention' => '注意',
+);
+
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'attention' => '注意',
+	'description' => '一種將文件從維基媒體項目轉移到維基共享資源的工具',
+	'change_meta' => '為$3改變$1分類及$2模板設定',
+	'jira_link' => '報告錯誤或建議新功能',
+	'language' => '語言',
+	'project' => '項目',
+	'source_file' => '原始檔案',
+	'target_file' => '目的檔案',
+	'commons_username' => '維基共享資源用戶名',
+	'commons_to_project' => '維基共享資源至項目',
+	'move_file_from_com' => '將檔案從維基共享資源移動到項目',
+	'categories' => '分類',
+	'remove_cats' => '刪除現有分類',
+	'use_checkusage' => '使用$1CommonSense$2來建議新類別',
+	'use_tusc' => '使用$1TUSC$2來驗證和直接傳輸檔案',
+	'tusc_user' => 'TUSC用戶名',
+	'tusc_pass' => 'TUSC密碼',
+	'do_it' => '做吧',
+	'error_transfer_usr' => '您還沒有設置一個維基共享資源的用戶名',
+	'error_not_exists' => '原始檔案不存在！',
+	'error_on_commons' => '原始檔案已經在$1！',
+	'error_file_exists' => '檔案已於$3以"$1$4$2"存在！',
+	'error_diff_exists' => '目標wiki上已有相同名稱的檔案！',
+	'error_no_meta' => '源wiki沒有發現中繼資料！$1請為$2項目添加或更新中繼資料。',
+	'original_wikitext' => '原始維基文字',
+	'new_wikitext' => '新維基文字',
+	'new_filename' => '新檔案名：',
+	'upload_submit' => '上載！',
+	'target_wiki' => '目標wiki',
+	'standard_language' => '英語',
+	'error_bot_blocked' => '上傳機械人被維基共享資源封禁。',
+	'error_tusc_failed' => 'TUSC驗證失敗 ！',
+	'error_only_commons' => '直接上載只能用於維基共享資源 ！',
+	'upload_control_text' => '請檢查新的wiki文字，如果確定請按$1！',
+	'error_upload_users' => '測試期間上傳功能僅對某些用戶開放 ！',
+	'error_upload_file' => '原始檔不能下載。',
+	'help_intro' => '如果您要報告錯誤、建議新功能或要詢問問題，您可以使用下方的任一聯繫類型：',
+	'help_mail' => '發送電子郵件到$1',
 );
 

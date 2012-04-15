@@ -1410,3 +1410,26 @@ $messages['zh-hans'] = array(
 	'resultslimited' => '结果只显示$1页面。',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'title' => '孤立對話頁2',
+	'select-wiki-first' => '（先選擇一個wiki）',
+	'hideredirects' => '隱藏重定向',
+	'hidesubpages' => '隱藏子頁面',
+	'limit' => '限制',
+	'page' => '頁面',
+	'redirect' => '是否重定向',
+	'output' => '輸出',
+	'update' => '更新',
+	'tools-delete' => '刪除',
+	'tools-links' => '連結',
+	'tools-hist' => '歷史',
+	'tools-curr' => '最近',
+	'tools-globalusage' => '全域使用',
+	'deletesummary' => '使用$1清理孤立對話頁',
+	'noresults' => '此wiki中此命名空間中沒有孤立談話頁匹配您的設定。',
+	'resultslimited' => '結果只顯示$1頁面。',
+);
+

@@ -633,3 +633,12 @@ $messages['zh-hant'] = array(
 	'no-matches' => '找不到 "$1"',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'formats-heading' => '輸出格式',
+	'input' => '輸入',
+	'no-matches' => '找不到 "$1"',
+);
+

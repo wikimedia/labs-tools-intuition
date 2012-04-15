@@ -349,3 +349,10 @@ $messages['zh-hans'] = array(
 	'title' => '最近的匿名活动',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'title' => '近期匿名活動',
+);
+

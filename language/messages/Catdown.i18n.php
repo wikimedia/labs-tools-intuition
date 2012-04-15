@@ -1709,3 +1709,50 @@ Linux/Mac OS
 	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'title' => '按分類下載圖片',
+	'subtitle' => '下載分類中圖像的簡單方法',
+	'project' => '項目：',
+	'category' => '分類：',
+	'thumbnailing' => '縮小圖片',
+	'max-width' => '最大寬度：',
+	'max-height' => '最大高度：',
+	'invalid-width' => '無效寬度',
+	'invalid-height' => '無效高度',
+	'no-such-project' => '此項目不存在',
+	'no-images' => '該分類中沒有圖片',
+	'category-is-url' => '您所填寫分類名稱似乎是一個URL，您需要指明分類名稱而不是其URL',
+	'category-contains-namespace' => '您似乎在分類名稱中包含了名字空間。使用此名稱時頁面將會顯示為[[Category:$1]]',
+	'zip-failed' => 'Zip創建失敗',
+	'image-area-too-big' => '$1對於縮略圖過大，使用其實際大小。',
+	'download-info' => '此處有$1張大小為$2的圖片',
+	'download' => '下載',
+	'readme-contents' => '文件$4包括下列內容：
+分類$1<$2>$3中的圖片。
+
+==下載所有列出圖片指南==
+
+下載過程可能消耗幾分鐘至若干小時時間。
+
+Windows：
+將所有文件解壓縮至相同文件夾，並運行$5
+$6
+Linux/Mac OS：
+解壓所有文件，並在終端中運行sh $5',
+	'non-bundled-wget' => '注：此版本不包括適用於Windows的wget。您將需要解壓縮到有wget.exe的文件夾',
+	'wget-info' => '該文件捆綁了wget的副本$1（Windows適用）。wget是一款免費軟件，其使用GNU通用公共許可證。下方有一個許可證副本，您也可以到http://www.gnu.org/licenses/gpl-3.0.txt 找到此許可證。
+
+如你想獲得這個程序的源代碼，你可以從這裡下載
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+或此鏡像
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => '縮放到最大寬度$1{{plural:$1|pixel|pixels}}',
+	'scaling-height' => '縮放到最大高度$1{{plural:$1|pixel|pixels}}',
+	'scaling-both' => '縮放到最大尺寸$1x$2像素',
+);
+

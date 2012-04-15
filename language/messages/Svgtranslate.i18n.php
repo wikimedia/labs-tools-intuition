@@ -258,7 +258,7 @@ $messages['be'] = array(
 	'finalise' => 'Завяршыце апісанне падрабязнасцяў',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1228,7 +1228,7 @@ $messages['ksh'] = array(
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
-/** Kurdish (Latin script) (Kurdî (latînî))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1473,7 +1473,7 @@ $messages['mzn'] = array(
 	'th-language' => 'زوون',
 );
 
-/** Norwegian Bokmål (Norsk (bokmål))
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1588,7 +1588,7 @@ $messages['nl'] = array(
 	'finalise' => 'Rond de details af',
 );
 
-/** Norwegian (bokmål) (Norsk (bokmål))
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1894,7 +1894,7 @@ $messages['sl'] = array(
 	'finalise' => 'Dokončajte podrobnosti',
 );
 
-/** Serbian (Cyrillic script) (Српски (ћирилица))
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1932,7 +1932,7 @@ $messages['sr-ec'] = array(
 	'finalise' => 'Доврши детаље',
 );
 
-/** Serbian (Latin script) (Srpski (latinica))
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -2224,7 +2224,7 @@ $messages['vi'] = array(
 	'finalise' => 'Hoàn tất các chi tiết',
 );
 
-/** Simplified Chinese (中文(简体))
+/** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
  * @author Liangent
  * @author Shizhao
@@ -2264,7 +2264,7 @@ $messages['zh-hans'] = array(
 	'finalise' => '敲定细节',
 );
 
-/** Traditional Chinese (中文(繁體))
+/** Traditional Chinese (‪中文(繁體)‬)
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
@@ -2300,5 +2300,42 @@ $messages['zh-hant'] = array(
 	'error-tusc-failed' => 'TUSC驗証錯誤：用戶名或密碼不正確。',
 	'description-license' => '選擇描述及條款',
 	'finalise' => '敲定細節',
+);
+
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'error-tryagain' => '$1點選瀏覽器中的返回按鈕重試',
+	'error-nothing' => '沒有要翻譯的內容',
+	'error-notsvg' => '不是SVG文件。',
+	'error-unexpected' => '發生意外錯誤。',
+	'error-notfound' => '不能從提供的URL中獲取SVG文件。',
+	'error-upload' => '上傳時發生錯誤。',
+	'begin-translation' => '開始翻譯',
+	'th-original' => '原文',
+	'th-translation' => '翻譯',
+	'th-language' => '語言',
+	'th-username' => '用戶名',
+	'th-password' => '密碼',
+	'th-method' => '方法',
+	'option-tusc' => 'TUSC（自動上載）',
+	'option-manual' => '手動上載',
+	'preview' => '預覽',
+	'translate' => '翻譯',
+	'translate-instructions' => '可以輸入文件名（例如"$1"）或完整的URL（例如"$2"）。如果選擇第一個選項，會將維基共享資源視為來源。如果是從其他網站或維基中翻譯SVG文件，你必須使用完整的URL。',
+	'svginput-label' => 'SVG檔',
+	'stats-footer' => '此工具自$2起已經翻譯了約$1個文件。',
+	'uploading' => '上載中',
+	'upload-complete' => '上傳成功，該文件現在應該位於$1',
+	'editdescriptionpage' => '編輯新的描述頁',
+	'disclaimer' => '某些匿名數據會被私人收集以用於統計。如果使用TUSC上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。',
+	'author-complete' => '請填寫作者信息！',
+	'preview-hide' => '隱藏預覽',
+	'preview-refresh' => '重新整理預覽',
+	'error-must-accept' => '如要繼續上載，您必須接受提供的使用條款。',
+	'error-tusc-failed' => 'TUSC驗証錯誤：用戶名或密碼不正確。',
+	'description-license' => '選擇描述及條款',
+	'finalise' => '決定細節',
 );
 

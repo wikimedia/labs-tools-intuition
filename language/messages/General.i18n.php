@@ -37,7 +37,7 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
-	'dateformat' => '{{Optional}} Dateformat in this language. See documentation about [http://www.php.net/manual/en/function.strftime.php strftime() at php.net] for the syntax.',
+	'dateformat' => '{{Optional}} Dateformat in this language. See documentation about [http://php.net/strftime strftime() at php.net] for the syntax.',
 	'hello' => 'A friendly greet.',
 	'welcome' => 'A friendly welcome.
 {{Identical|Welcome}}',
@@ -1557,6 +1557,27 @@ $messages['zh-hant'] = array(
 	'minutes' => '{{PLURAL: $1|分鐘|分鐘}}',
 	'seconds' => '{{PLURAL: $1|秒|秒}}',
 	'last-modified-date' => '最近修改於: $1',
+	'view-source' => '查看原始碼',
+);
+
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'hello' => '您好',
+	'welcome' => '歡迎',
+	'toolversionstamp' => '版本$1 ($2)',
+	'etc' => '等。',
+	'namespace' => '名字空間',
+	'form-submit' => '提交',
+	'form-reset' => '重設',
+	'years' => '$1年',
+	'weeks' => '$1週',
+	'days' => '$1天',
+	'hours' => '$1小時',
+	'minutes' => '$1分鐘',
+	'seconds' => '$1秒',
+	'last-modified-date' => '最後修改:$1',
 	'view-source' => '查看原始碼',
 );
 

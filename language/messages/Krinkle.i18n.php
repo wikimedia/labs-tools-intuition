@@ -630,3 +630,13 @@ $messages['zh-hans'] = array(
 	'form-legend-settings' => '设置',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'alws-selectwiki' => '（選擇wiki）',
+	'alws-group-mustused' => '使用最多的wiki',
+	'alws-group-allaz' => '所有wiki按字母順序',
+	'form-legend-settings' => '設定',
+);
+

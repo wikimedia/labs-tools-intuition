@@ -452,3 +452,13 @@ $messages['zh-hans'] = array(
 	'error-form-empty' => '有了一个或多个必填的字段留空。在继续之前，您应该完成它们。',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'moretools' => '同一作者的更多工具',
+	'bugs' => '錯誤報告及功能請求',
+	'comments' => '意見及查詢',
+	'error-form-empty' => '一個或多個必填的欄位尚未填入。在繼續之前，您應該完成它們。',
+);
+

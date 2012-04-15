@@ -802,3 +802,17 @@ $messages['zh-hans'] = array(
 	'time-label' => '执行命令所需的时间',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Justincheng12345
+ */
+$messages['zh-hk'] = array(
+	'enter-details' => '輸入詳細資訊',
+	'language-label' => '語言',
+	'namespace-label' => '名字空間',
+	'pagename-label' => '頁面名稱 （不包括名字空間）',
+	'transclusion-count-label' => '包含數目',
+	'transclusion-count' => '發現$1個包含。',
+	'error-suggestion' => '也許您把頁面名稱錯誤拼寫（如錯誤大小寫）了？',
+	'time-label' => '執行命令所需時間',
+);
+
