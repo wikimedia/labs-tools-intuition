@@ -445,12 +445,15 @@ $messages['ca'] = array(
 $messages['cs'] = array(
 	'error-nothing' => 'Nic k překladu.',
 	'error-notsvg' => 'Není SVG soubor.',
+	'error-unexpected' => 'Došlo k neočekávané chybě.',
+	'error-notfound' => 'Z poskytnuté URL nelze načíst SVG soubor.',
 	'error-upload' => 'Při nahrávání došlo k chybě.',
 	'th-original' => 'Originál',
 	'th-translation' => 'Překlad',
 	'th-language' => 'Jazyk',
 	'th-username' => 'Uživatelské jméno',
 	'th-password' => 'Heslo',
+	'th-method' => 'Metoda',
 	'option-manual' => 'Ruční nahrávání',
 	'preview' => 'Náhled',
 	'translate' => 'Přeložit',
@@ -1129,11 +1132,16 @@ $messages['it'] = array(
  * @author Fryed-peach
  * @author Hmiyazaki
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
+	'error-tryagain' => '$1 再試行するにはブラウザの戻るボタンを押してください。',
 	'error-nothing' => '翻訳できるものがありません。',
 	'error-notsvg' => 'SVG ファイルではありません。',
 	'error-unexpected' => '予期しないエラーが発生しました。',
+	'error-notfound' => 'SVG ファイルを、入力された URL から取得できませんでした。',
+	'error-upload' => 'アップロード中にエラーが発生しました。',
+	'begin-translation' => '翻訳を開始',
 	'th-original' => 'オリジナル',
 	'th-translation' => '翻訳',
 	'th-language' => '言語',
@@ -1144,10 +1152,10 @@ $messages['ja'] = array(
 	'option-manual' => '手動アップロード',
 	'preview' => 'プレビュー',
 	'translate' => '翻訳',
-	'svginput-label' => 'SVGファイル',
+	'svginput-label' => 'SVG ファイル',
 	'uploading' => 'アップロード中',
 	'editdescriptionpage' => '新しい説明ページを編集',
-	'author-complete' => '著者についての情報を記入してください ！',
+	'author-complete' => '著者の情報を記入してください!',
 	'preview-hide' => 'プレビューを隠す',
 	'preview-refresh' => 'プレビューを更新',
 );

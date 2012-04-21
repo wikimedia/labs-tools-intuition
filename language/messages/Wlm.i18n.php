@@ -1029,14 +1029,39 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Hmiyazaki
+ * @author Shirayuki
  */
 $messages['ja'] = array(
+	'title' => 'WLM ファイル',
+	'file' => '画像',
+	'monument-type' => 'モニュメントの種類',
+	'monument-id' => 'モニュメント ID',
+	'province' => '州',
+	'comarque' => '地域',
+	'author' => '著者',
+	'upload-time' => 'アップロード時間',
 	'deleted' => '削除済み ($1)',
 	'not-available' => '利用できない状態です。',
+	'date-unknown' => '不明',
+	'total-images' => '総画像数: $1',
 	'view-uncategorized-images' => '未分類の画像を表示',
 	'show-images-all' => 'すべての画像を表示',
+	'search-monuments' => 'モニュメントを検索',
+	'view-frequency' => '人気のモニュメント',
+	'id-label' => 'モニュメント ID:',
+	'id-none' => '(なし)',
+	'monument-heading' => 'モニュメント',
+	'count-heading' => '写真',
 	'bic-list' => '一覧',
-	'bic-list-all' => '全リスト',
+	'bic-gallery' => 'ギャラリー',
+	'author-heading' => '著者',
+	'bic-list-bad' => '表示',
+	'bic-list-all' => 'すべての一覧',
+	'unregistered' => '未登録',
+	'users-list' => '表示',
+	'province-heading' => '州',
+	'province-none' => '(不明)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Colognian (Ripoarisch)
@@ -1642,6 +1667,55 @@ $messages['sr-el'] = array(
 	'distict-monuments' => 'Zasebni spomenici',
 	'province-heading' => 'Pokrajina',
 	'province-none' => '(nepoznata)',
+	'ccaa-heading' => 'CC.AA.',
+);
+
+/** Swedish (Svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'title' => 'WLM filer',
+	'file' => 'Bild',
+	'monument-type' => 'Monumenttyp',
+	'monument-id' => 'Monument-id',
+	'province' => 'Provins',
+	'comarque' => 'Comarca',
+	'competes' => 'Tävlar',
+	'author' => 'Skapare',
+	'upload-time' => 'Tidsstämpeln för uppladdning',
+	'deleted' => 'Raderad ($1)',
+	'concursa' => 'Deltar i WLM',
+	'no-concursa' => 'Deltar inte i WLM-tävlan',
+	'not-available' => 'Ej tillgänglig',
+	'date-unknown' => 'Okänt',
+	'total-images' => 'Totalt antal bilder:$1',
+	'view-uncategorized-images' => 'Se okategoriserade bilder',
+	'provide-id' => 'Ange ett monument-id för att visa de tillgängliga uppgifterna för det objektet',
+	'show-images-bad-only' => 'Visa enbart bilder utanför listorna',
+	'show-images-all' => 'Visa alla bilder',
+	'show-images-removed' => 'Visa bilder som tagits bort från tävlingen',
+	'search-monuments' => 'Sök monument',
+	'view-frequency' => 'Populära monument',
+	'view-ccaa' => 'Visa per autonom region',
+	'view-province' => 'Visa per provins',
+	'id-label' => 'Monument-id:',
+	'id-none' => '(Inget)',
+	'monument-heading' => 'Monument',
+	'count-heading' => 'Fotografier',
+	'bic-list' => 'Lista',
+	'bic-gallery' => 'Galleri',
+	'gallery-header' => 'Bilder av monumentet med id $1.',
+	'gallery-header-place' => 'Bilder av monument från $1.',
+	'wall-of-shame-text' => 'Skapare efter antal oidentifierade fotografier',
+	'author-heading' => 'Skapare',
+	'bic-list-bad' => 'Visa',
+	'bic-list-all' => 'Fullständig lista',
+	'unregistered' => 'Oregistrerade',
+	'users-text' => 'Denna sida visar skaparna med deras uppladdade bilderna samt för hur många monument',
+	'users-list' => 'Visa',
+	'distict-monuments' => 'Distinkta monument',
+	'province-heading' => 'Provins',
+	'province-none' => '(Okänd)',
 	'ccaa-heading' => 'CC.AA.',
 );
 

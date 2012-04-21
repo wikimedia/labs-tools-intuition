@@ -886,25 +886,32 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Schu
+ * @author Shirayuki
  * @author Whym
  */
 $messages['ja'] = array(
-	'fullname' => 'Toolserverのユーザーインターフェイスの国際化',
+	'fullname' => 'Toolserver のユーザーインターフェイスの国際化',
 	'current-settings' => '現在の設定',
 	'current-language' => '現在選択されている言語',
 	'settings-legend' => '設定',
-	'choose-language' => '言語を選択してください',
+	'choose-language' => '言語を選択',
 	'clear-cookies' => 'クッキーを消去',
 	'renew-cookies' => 'クッキーを更新',
 	'cookie-expiration' => 'クッキーの有効期限',
-	'clearcookies-success' => 'クッキーの削除に成功しました。',
-	'renewcookies-success' => 'クッキーを更新しました。以降$1のあいだ有効です。',
+	'clearcookies-success' => 'クッキーを消去しました。',
+	'renewcookies-success' => 'クッキーを更新しました。今後$1のあいだ有効です。',
 	'tab-overview' => '概要',
 	'tab-settings' => '設定',
 	'tab-about' => '解説',
-	'tab-demo' => '実演',
+	'tab-demo' => 'デモ',
 	'bl-mysettings' => '自分の言語設定',
-	'bl-mysettings-new' => '言語を変更',
+	'bl-mysettings-new' => '言語を変更!',
+	'bl-promo' => '翻訳したのは $1 と $2 です。',
+	'bl-changelanguage' => 'このツールのインターフェイス言語を変更するにはここをクリックしてください。',
+	'usage' => 'Toolserver Intuition が翻訳したツールです。',
+	'help-translate-tool' => 'このツールの翻訳を手伝う!',
+	'help-translate-all' => 'ツールサーバーの翻訳を手伝う!',
+	'help-translate-tooltip' => 'インターフェイス メッセージをあなたの言語に翻訳して他の人を助ける!',
 );
 
 /** Georgian (ქართული)

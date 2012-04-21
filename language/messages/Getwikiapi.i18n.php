@@ -334,9 +334,14 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
+	'formats-heading' => '出力形式',
 	'input' => '入力',
+	'label-wikiids' => 'Wiki 識別子',
+	'no-matches' => '"$1" と一致するものはありません',
+	'output' => '"$1" の検索結果',
 );
 
 /** Khmer (ភាសាខ្មែរ)

@@ -200,6 +200,13 @@ $messages['it'] = array(
 	'title' => 'Attività anonima recente',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'title' => '最近の匿名の活動',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

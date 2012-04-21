@@ -710,17 +710,24 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(まず wiki を選択)',
 	'hideredirects' => 'リダイレクトを隠す',
 	'hidesubpages' => 'サブページを隠す',
 	'limit' => '制限',
 	'page' => 'ページ',
+	'redirect' => 'リダイレクト?',
 	'output' => '出力',
 	'update' => '更新',
 	'tools-delete' => '削除',
 	'tools-links' => 'リンク',
 	'tools-subject' => '件名',
+	'tools-hist' => '履歴',
+	'tools-curr' => '最新',
+	'resultslimited' => '結果は $1 ページに制限されています。',
 );
 
 /** Khmer (ភាសាខ្មែរ)

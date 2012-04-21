@@ -260,6 +260,16 @@ $messages['it'] = array(
 	'error-form-empty' => 'Uno o più campi obbligatori sono stati lasciati vuoti. È necessario completarli prima di continuare.',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'moretools' => '同じ著者によるその他のツール',
+	'bugs' => 'バグ報告と機能リクエスト',
+	'comments' => 'コメントとクエリ',
+	'error-form-empty' => '空欄になっている必須項目があります。続行するには完全に埋める必要があります。',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

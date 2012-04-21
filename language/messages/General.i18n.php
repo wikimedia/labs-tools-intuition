@@ -257,7 +257,7 @@ $messages['br'] = array(
 	'weeks' => '{{PLURAL: $1|sizhunvezh|sizhunvezh}}',
 	'days' => '{{PLURAL: $1|devezh|devezh}}',
 	'hours' => '{{PLURAL: $1|eurvezh|eurvezh}}',
-	'minutes' => '{{PLURAL: $1|munutenn|munutenn}}',
+	'minutes' => '$1 {{PLURAL:$1|munut|munut}}',
 	'seconds' => '{{PLURAL: $1|eilenn|eilenn}}',
 	'last-modified-date' => 'Kemmet da ziwezhañ : $1',
 	'view-source' => 'Sellet ouzh tarzh an destenn',
@@ -772,22 +772,23 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Schu
+ * @author Shirayuki
  * @author Whym
  */
 $messages['ja'] = array(
 	'hello' => 'こんにちは',
 	'welcome' => 'ようこそ',
 	'toolversionstamp' => 'バージョン $1 ($2)',
-	'etc' => 'etc.',
+	'etc' => 'など',
 	'namespace' => '名前空間',
 	'form-submit' => '実行',
-	'form-reset' => '再設定',
-	'years' => '{{PLURAL: $1|年|年}}',
-	'weeks' => '{{PLURAL: $1|週間|週間}}',
-	'days' => '{{PLURAL: $1|日|日}}',
-	'hours' => '{{PLURAL: $1|時間|時間}}',
-	'minutes' => '{{PLURAL: $1|分|分}}',
-	'seconds' => '{{PLURAL: $1|秒|秒}}',
+	'form-reset' => 'リセット',
+	'years' => '{{PLURAL: $1|年}}',
+	'weeks' => '{{PLURAL: $1|週間}}',
+	'days' => '{{PLURAL: $1|日}}',
+	'hours' => '{{PLURAL: $1|時間}}',
+	'minutes' => '{{PLURAL: $1|分}}',
+	'seconds' => '{{PLURAL: $1|秒}}',
 	'last-modified-date' => '最終更新： $1',
 	'view-source' => 'ソースを表示',
 );
@@ -1542,6 +1543,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Justincheng12345
  * @author Lauhenry
  */
 $messages['zh-hant'] = array(
@@ -1551,7 +1553,7 @@ $messages['zh-hant'] = array(
 	'etc' => '等。',
 	'form-reset' => '重置',
 	'years' => '{{PLURAL: $1|年|年}}',
-	'weeks' => '{{PLURAL: $1|週|週}}',
+	'weeks' => '$1週',
 	'days' => '{{PLURAL: $1|天|天}}',
 	'hours' => '{{PLURAL: $1|小時|小時}}',
 	'minutes' => '{{PLURAL: $1|分鐘|分鐘}}',

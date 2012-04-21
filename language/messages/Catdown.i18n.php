@@ -939,27 +939,28 @@ o da altri Mirror GNU, vedi
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'title' => 'カテゴリー別に画像をダウンロード',
-	'subtitle' => 'カテゴリー内の画像をダウンロードする簡単な方法',
+	'title' => 'カテゴリ別に画像をダウンロード',
+	'subtitle' => 'カテゴリ内の画像をダウンロードする簡単な方法',
 	'project' => 'プロジェクト:',
-	'category' => 'カテゴリー:',
+	'category' => 'カテゴリ:',
 	'thumbnailing' => 'サムネイル処理',
 	'max-width' => '幅の最大値:',
 	'max-height' => '高さの最大値:',
 	'invalid-width' => '幅が無効',
 	'invalid-height' => '高さが無効',
 	'no-such-project' => 'そのようなプロジェクトはありません',
-	'no-images' => 'そのカテゴリーには画像がありません',
-	'category-is-url' => '指定されたカテゴリー名は URL のようにみえます。URL ではなく、カテゴリー名を指定する必要があります。',
-	'category-contains-namespace' => 'カテゴリー名に名前空間が含まれているようです。指定の通りだと、[[Category:$1]] というページになります。',
+	'no-images' => 'そのカテゴリには画像がありません',
+	'category-is-url' => '指定されたカテゴリ名は URL のようです。URL ではなくカテゴリ名を指定してください。',
+	'category-contains-namespace' => 'カテゴリ名に名前空間が含まれているようです。指定の通りだと [[Category:$1]] というページになります。',
 	'zip-failed' => 'ZIP の作成に失敗しました',
 	'image-area-too-big' => '$1 は大きすぎるためサムネイルを作成できません。元の大きさを利用します。',
 	'download-info' => '{{plural: $1|1個|$1個}}の画像があり、サイズの概算は$2です',
 	'download' => 'ダウンロード',
 	'readme-contents' => '同封したファイル $4 は
-カテゴリー「$1」( $2 ) 内の画像を$3記載したものです。
+カテゴリ「$1」( $2 ) 内の画像を$3記載したものです。
 
 == 記載した画像すべてをダウンロードする手順 ==
 ダウンロード時間は2、3分で終わることもありますし、数時間かかることもあります。
@@ -1366,6 +1367,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Eleferen
+ * @author Haffman
  */
 $messages['ru'] = array(
 	'max-width' => 'Максимальная ширина:',
@@ -1375,7 +1377,19 @@ $messages['ru'] = array(
 	'no-such-project' => 'Такого проекта не существует',
 	'no-images' => 'В этой категории нет изображений',
 	'category-is-url' => 'Имя данной категории выглядит как URL-адрес. Необходимо указать название категории, а не его URL-адрес.',
+	'category-contains-namespace' => 'Похоже, вы включили пространство имён в имя категории. С выбранным Вами названием страница будет доступна как [[Категория:$1]].',
 	'download-info' => '{{plural: $1|Есть одно изображение|Есть $1 изображения|Есть $1 изображений}}, с примерным размером $2',
+	'non-bundled-wget' => 'Обратите внимание: Эта версия не включает wget для Windows. Вам необходимо извлечь файлы в папку с wget.exe или прописать wget в PATH',
+	'wget-info' => 'Этот файл включает копию wget $1 (для платформы Windows). Wget является свободным программным обеспечением, 
+распространяемым на условиях лицензии GNU GENERAL PUBLIC LICENSE версии 3.
+Ниже представлена копия текста лицензии, ее также можно прочитать по адресу http://www.gnu.org/licenses/gpl-3.0.txt
+
+В случае, если вы желаете получить исходный код этой программы, вы можете загрузить его с:
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+или с некоторых других зеркал GNU, которые можно увидеть здесь:
+ http://www.gnu.org/prep/ftp.html',
 );
 
 /** Slovak (Slovenčina)

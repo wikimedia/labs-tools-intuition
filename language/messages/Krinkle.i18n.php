@@ -341,10 +341,13 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Schu
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'alws-selectwiki' => '（ウィキを選択）',
+	'alws-group-mustused' => '最も使用された wiki',
+	'alws-group-allaz' => 'すべての wiki (アルファベット順)',
 	'form-legend-settings' => '設定',
 );
 

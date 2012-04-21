@@ -427,6 +427,18 @@ $messages['it'] = array(
 	'toolserver-status-short-missing' => '$1: Mancante',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'toolserver-status-missing' => 'クラスタ $1 は存在しません',
+	'toolserver-status-short-ok' => '$1: OK',
+	'toolserver-status-short-info' => '$1: 情報',
+	'toolserver-status-short-warn' => '$1: 警告',
+	'toolserver-status-short-erro' => '$1: エラー',
+	'toolserver-status-short-unknown' => '$1: 不明',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author វ័ណថារិទ្ធ
  */

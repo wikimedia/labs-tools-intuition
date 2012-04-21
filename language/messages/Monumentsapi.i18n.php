@@ -670,13 +670,38 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Hmiyazaki
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
+	'search-title' => 'モニュメント検索',
+	'search-monuments-database' => 'モニュメント データベースを検索',
 	'search-table-th-field' => 'フィールド',
-	'search-table-th-filter' => 'フィルター',
+	'search-table-th-filter' => '絞り込む',
 	'search-table-th-search' => '検索',
 	'filter-all-countries' => 'すべての国々',
-	'filter-all-languages' => '全ての言語',
+	'filter-all-languages' => 'すべての言語',
+	'db-field-country' => '国',
+	'db-field-lang' => '言語',
+	'db-field-id' => '識別子',
+	'db-field-name' => '名前',
+	'db-field-address' => '住所',
+	'db-field-municipality' => '市町村',
+	'db-field-lat' => '緯度',
+	'db-field-lon' => '経度',
+	'db-field-image' => '画像',
+	'db-field-changed' => '変更日時',
+	'db-field-source' => 'ソース',
+	'db-field-monument_article' => 'モニュメント記事',
+	'db-field-registrant_url' => '登録 URL',
+	'toolbox-label-searchtipps' => 'あいまい検索には %単語、単語%、%term% のいずれかを使用',
+	'toolbox-meta-title' => 'Wiki はモニュメント ツールボックスが大好きです',
+	'toolbox-main-title' => 'WLM ツールボックス',
+	'toolbox-main-description' => '以下に関連するツールの集合:',
+	'toolbox-wikilovesmonuments' => 'Wiki はモニュメントが大好きです',
+	'toolbox-nav-homepage' => 'ホームページ',
+	'toolbox-nav-statistics' => '統計',
+	'toolbox-nav-search' => '検索',
+	'toolbox-title-searchmonuments' => 'モニュメントを検索',
 );
 
 /** Colognian (Ripoarisch)
@@ -1097,6 +1122,7 @@ $messages['sr-el'] = array(
 /** Swedish (Svenska)
  * @author Cybjit
  * @author Liftarn
+ * @author Lokal Profil
  */
 $messages['sv'] = array(
 	'search-title' => 'Minnesmärkessökning',
@@ -1106,6 +1132,28 @@ $messages['sv'] = array(
 	'search-table-th-search' => 'Sök',
 	'filter-all-countries' => 'All länder',
 	'filter-all-languages' => 'All språk',
+	'db-field-country' => 'Land',
+	'db-field-lang' => 'Språk',
+	'db-field-id' => 'Id',
+	'db-field-name' => 'Namn',
+	'db-field-address' => 'Adress',
+	'db-field-municipality' => 'Kommun',
+	'db-field-lat' => 'Latitud',
+	'db-field-lon' => 'Longitud',
+	'db-field-image' => 'Bild',
+	'db-field-changed' => 'Ändrad',
+	'db-field-source' => 'Källa',
+	'db-field-monument_article' => 'Monumentartikel',
+	'db-field-registrant_url' => 'Registrant-url',
+	'toolbox-label-searchtipps' => 'använd %term eller term% eller %term% för oskarp sökning',
+	'toolbox-meta-title' => 'Wiki Loves Monuments verktygslåda',
+	'toolbox-main-title' => 'WLM-verktygslåda',
+	'toolbox-main-description' => 'En uppsättning verktyg med anknytning till',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Hemsida',
+	'toolbox-nav-statistics' => 'Statistik',
+	'toolbox-nav-search' => 'Sök',
+	'toolbox-title-searchmonuments' => 'Sök monument',
 );
 
 /** Tamil (தமிழ்)
@@ -1244,6 +1292,9 @@ $messages['zh-hans'] = array(
 	'db-field-image' => '图像',
 	'db-field-changed' => '已更改',
 	'db-field-source' => '来源',
+	'toolbox-main-title' => 'WLM工具箱',
+	'toolbox-nav-statistics' => '统计',
+	'toolbox-nav-search' => '搜索',
 );
 
 /** Chinese (Hong Kong) (‪中文(香港)‬)
