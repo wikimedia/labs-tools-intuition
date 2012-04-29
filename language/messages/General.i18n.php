@@ -53,7 +53,7 @@ $messages['qqq'] = array(
 	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ).',
 	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ).',
 	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ).',
-	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advenced plural yet.',
+	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advanced plural yet.',
 	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
@@ -243,6 +243,7 @@ $messages['bn'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fulup
+ * @author Krinkle
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -257,7 +258,7 @@ $messages['br'] = array(
 	'weeks' => '{{PLURAL: $1|sizhunvezh|sizhunvezh}}',
 	'days' => '{{PLURAL: $1|devezh|devezh}}',
 	'hours' => '{{PLURAL: $1|eurvezh|eurvezh}}',
-	'minutes' => '$1 {{PLURAL:$1|munut|munut}}',
+	'minutes' => '{{PLURAL: $1|munutenn|munutenn}}',
 	'seconds' => '{{PLURAL: $1|eilenn|eilenn}}',
 	'last-modified-date' => 'Kemmet da ziwezhañ : $1',
 	'view-source' => 'Sellet ouzh tarzh an destenn',
@@ -1099,7 +1100,7 @@ $messages['pl'] = array(
  */
 $messages['ps'] = array(
 	'hello' => 'سلامونه',
-	'welcome' => 'ښه راغلاست',
+	'welcome' => 'ښه راغلۍ',
 	'toolversionstamp' => 'نسخه $1 ($2)',
 	'etc' => 'او داسې نور',
 	'namespace' => 'نوم-تشيال',

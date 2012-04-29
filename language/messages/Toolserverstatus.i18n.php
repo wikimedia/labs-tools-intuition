@@ -435,6 +435,7 @@ $messages['ja'] = array(
 	'toolserver-status-short-ok' => '$1: OK',
 	'toolserver-status-short-info' => '$1: 情報',
 	'toolserver-status-short-warn' => '$1: 警告',
+	'toolserver-status-short-down' => '$1: ダウン',
 	'toolserver-status-short-erro' => '$1: エラー',
 	'toolserver-status-short-unknown' => '$1: 不明',
 );

@@ -393,6 +393,7 @@ $messages['el'] = array(
 /** Spanish (Español)
  * @author Armando-Martin
  * @author Fitoschido
+ * @author Invadinado
  * @author Platonides
  * @author Vivaelcelta
  */
@@ -417,6 +418,15 @@ $messages['es'] = array(
 	'db-field-source' => 'Fuente',
 	'db-field-monument_article' => 'Artículo de monumento',
 	'db-field-registrant_url' => 'URL del titular',
+	'toolbox-label-searchtipps' => 'usa %term o term% o %term% para búsquedas por aproximación',
+	'toolbox-meta-title' => 'Caja de herramientas "A Wiki le gustan los Monumentos"',
+	'toolbox-main-title' => 'Caja de herramientas WLM',
+	'toolbox-main-description' => 'Un conjunto de herramientas relacionadas con',
+	'toolbox-wikilovesmonuments' => 'A Wiki le gustan los Monumentos',
+	'toolbox-nav-homepage' => 'Página principal',
+	'toolbox-nav-statistics' => 'Estadísticas',
+	'toolbox-nav-search' => 'Buscar',
+	'toolbox-title-searchmonuments' => 'Buscar monumentos',
 );
 
 /** Estonian (Eesti)
@@ -754,6 +764,7 @@ $messages['lb'] = array(
 	'db-field-source' => 'Quell',
 	'db-field-monument_article' => 'Artikel vum Monument',
 	'db-field-registrant_url' => 'URL vun der Datebank',
+	'toolbox-label-searchtipps' => 'benotzt %term or term% oder %term% fir méi Resultater ze fannen',
 	'toolbox-meta-title' => '"Wiki Loves Monuments"-Geschirkëscht',
 	'toolbox-main-title' => 'WLM Geschirkëscht',
 	'toolbox-main-description' => "'Geschirkëscht' fir",

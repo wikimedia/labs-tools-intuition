@@ -1152,6 +1152,7 @@ $messages['ja'] = array(
 	'option-manual' => '手動アップロード',
 	'preview' => 'プレビュー',
 	'translate' => '翻訳',
+	'translate-instructions' => 'ファイル名（「$1」など）、完全なURL（「$2」など）のいずれも入力できます。前者の場合、ウィキメディアはそれをソースと想定します。SVG ファイルを他のサイトまたはウィキから変換するには、完全なURL形式を使用する必要があります。',
 	'svginput-label' => 'SVG ファイル',
 	'uploading' => 'アップロード中',
 	'editdescriptionpage' => '新しい説明ページを編集',
