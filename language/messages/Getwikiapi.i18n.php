@@ -49,12 +49,15 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  */
 $messages['ar'] = array(
 	'formats-heading' => 'صيغ المخرجات',
 	'input' => 'مدخل',
 	'label-wikiids' => 'معرفات الويكي',
+	'no-matches' => 'لم يتوفر أي شبيه لـ "$1"',
+	'output' => 'النتيجة لـ "$1"',
 );
 
 /** Assamese (অসমীয়া)

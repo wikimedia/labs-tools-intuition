@@ -35,10 +35,14 @@ $messages['qqq'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  */
 $messages['ar'] = array(
+	'moretools' => 'مزيد من الأدوات من نفس المؤلف',
+	'bugs' => 'تقارير الاخطاء والطلبات المميزة',
 	'comments' => 'تعليقات واستعلامات',
+	'error-form-empty' => 'تم ترك حقل فارغ أو أكثر. يجب عليك أنهاؤها قبل المتابعة.',
 );
 
 /** Asturian (Asturianu)

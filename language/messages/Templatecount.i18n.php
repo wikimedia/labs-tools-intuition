@@ -654,6 +654,15 @@ $messages['ru'] = array(
 	'time-label' => 'Время, необходимое для выполнения команды',
 );
 
+/** Sinhala (සිංහල)
+ * @author Singhalawap
+ */
+$messages['si'] = array(
+	'enter-details' => 'විස්තර ඇතුළුකරන්න',
+	'language-label' => 'බස',
+	'namespace-label' => 'නාමාවකාශය:',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */

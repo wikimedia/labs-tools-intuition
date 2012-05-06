@@ -1711,8 +1711,10 @@ $messages['ps'] = array(
 /** Portuguese (Português)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Malafaya
  */
 $messages['pt'] = array(
+	'error-nothing' => 'Não há nada para traduzir.',
 	'error-notsvg' => 'Não é um ficheiro SVG.',
 	'error-unexpected' => 'Ocorreu um erro inesperado.',
 	'error-notfound' => 'Não foi possível obter o ficheiro SVG na URL fornecida.',
@@ -1721,6 +1723,7 @@ $messages['pt'] = array(
 	'th-translation' => 'Tradução',
 	'th-language' => 'Língua',
 	'th-username' => 'Nome de utilizador',
+	'th-password' => 'Palavra passe',
 	'th-method' => 'Método',
 	'option-tusc' => 'TUSC (upload automático)',
 	'option-manual' => 'Upload manual',
@@ -1728,6 +1731,7 @@ $messages['pt'] = array(
 	'translate' => 'Traduzir',
 	'svginput-label' => 'Ficheiro SVG',
 	'stats-footer' => 'Esta ferramenta foi usada para traduzir aproximadamente {{PLURAL:$1|um ficheiro|$1 ficheiros}} desde $2.',
+	'finalise' => 'Finalizar detalhes',
 );
 
 /** Brazilian Portuguese (Português do Brasil)

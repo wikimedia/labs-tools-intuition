@@ -149,11 +149,36 @@ $messages['az'] = array(
 
 /** Belarusian (Беларуская)
  * @author LexArt
+ * @author Wizardist
  */
 $messages['be'] = array(
+	'search-title' => 'Пошук па славутасьцях',
+	'search-monuments-database' => 'Пошук па базе зьвестак славутасьцяў',
 	'search-table-th-field' => 'Поле',
 	'search-table-th-filter' => 'Фільтр',
 	'search-table-th-search' => 'Знайсці',
+	'filter-all-countries' => 'Усе краіны',
+	'filter-all-languages' => 'Усе мовы',
+	'db-field-country' => 'Краіна',
+	'db-field-lang' => 'Мова',
+	'db-field-id' => 'Ідэнтыфікатар',
+	'db-field-name' => 'Назва',
+	'db-field-address' => 'Адрас',
+	'db-field-municipality' => 'Раён',
+	'db-field-lat' => 'Шырата',
+	'db-field-lon' => 'Даўгата',
+	'db-field-image' => 'Выява',
+	'db-field-changed' => 'Абноўлена',
+	'db-field-source' => 'Крыніца',
+	'db-field-monument_article' => 'Артыкул',
+	'db-field-registrant_url' => 'Запіс у рэестры',
+	'toolbox-label-searchtipps' => 'выкарыстоўвайце %запыт or запыт% ці %запыт% для недакладнага пошуку',
+	'toolbox-meta-title' => 'Прылады «Вікі любіць славутасьці»',
+	'toolbox-main-description' => 'Набор прыладаў, прызначаных для',
+	'toolbox-wikilovesmonuments' => '«Вікі любіць славутасьці»',
+	'toolbox-nav-homepage' => 'Галоўная старонка',
+	'toolbox-nav-statistics' => 'Статыстыка',
+	'toolbox-nav-search' => 'Шукаць',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -182,6 +207,15 @@ $messages['be-tarask'] = array(
 	'db-field-source' => 'Крыніца',
 	'db-field-monument_article' => 'Артыкул',
 	'db-field-registrant_url' => 'Запіс у рэестры',
+	'toolbox-label-searchtipps' => 'выкарыстоўвайце %запыт or запыт% ці %запыт% для недакладнага пошуку',
+	'toolbox-meta-title' => 'Прылады «Вікі любіць славутасьці»',
+	'toolbox-main-title' => 'WLM Toolbox',
+	'toolbox-main-description' => 'Набор прыладаў, прызначаных для',
+	'toolbox-wikilovesmonuments' => '«Вікі любіць славутасьці»',
+	'toolbox-nav-homepage' => 'Галоўная старонка',
+	'toolbox-nav-statistics' => 'Статыстыка',
+	'toolbox-nav-search' => 'Пошук',
+	'toolbox-title-searchmonuments' => 'Пошук славутасьцяў',
 );
 
 /** Bulgarian (Български)
@@ -754,6 +788,7 @@ $messages['lb'] = array(
 	'filter-all-languages' => 'All Sproochen',
 	'db-field-country' => 'Land',
 	'db-field-lang' => 'Sprooch',
+	'db-field-id' => 'Identifiant',
 	'db-field-name' => 'Numm',
 	'db-field-address' => 'Adress',
 	'db-field-municipality' => 'Gemeng',

@@ -1449,10 +1449,12 @@ $messages['ru'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author බිඟුවා
  */
 $messages['si'] = array(
 	'settings-legend' => 'පරිස්ථිතීන්',
+	'tab-settings' => 'සැකසුම්',
 	'tab-about' => 'පිළිබඳ',
 );
 

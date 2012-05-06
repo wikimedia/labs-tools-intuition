@@ -86,10 +86,12 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(اختر ويكي أولا)',
 	'hideredirects' => 'إخفاء التحويلات',
 	'hidesubpages' => 'إخفاء الصفحات الفرعية',
@@ -104,6 +106,9 @@ $messages['ar'] = array(
 	'tools-hist' => 'تاريخ',
 	'tools-curr' => 'حالي',
 	'tools-globalusage' => 'استخدام عام',
+	'deletesummary' => 'تنظيف صفحات النقاش اليتيمة عن طريق $1',
+	'noresults' => 'لم يتم إيجاد أي تطابق لإعداداتك  مع صفحات النقاش اليتيمية في هذا الويكي  وبمساحة الإسم هذه.',
+	'resultslimited' => 'أقتصرت المتائج على $1 صفحة.',
 );
 
 /** Assamese (অসমীয়া)

@@ -82,6 +82,7 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author Mutarjem horr
  * @author OsamaK
@@ -98,6 +99,8 @@ $messages['ar'] = array(
 	'weeks' => '{{PLURAL: $1|أسبوع|أسبوع}}',
 	'days' => '{{PLURAL: $1|يوم|يوم}}',
 	'hours' => '{{PLURAL: $1|ساعة|ساعة}}',
+	'minutes' => '{{PLURAL: $1|دقيقة|دقائق}}',
+	'seconds' => '{{PLURAL: $1|ثانية|ثواني}}',
 	'last-modified-date' => 'آخر تغيير: $1',
 	'view-source' => 'شاهد المصدر',
 );
@@ -396,6 +399,20 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'hello' => 'Merheba',
+	'welcome' => 'Xeyr amey',
+	'toolversionstamp' => 'Versiyon $1 ($2)',
+	'etc' => 'ws.',
+	'namespace' => 'Cayê namey:',
+	'form-submit' => 'Şo',
+	'form-reset' => 'Reset kerê',
+	'years' => '{{PLURAL: $1|serre|serri}}',
+	'weeks' => '{{PLURAL: $1|hefte|heftey}}',
+	'days' => '{{PLURAL: $1|roc|roci}}',
+	'hours' => '($1 {{PLURAL:$1|seate|seati}})',
+	'minutes' => '{{PLURAL: $1|deqe|deqey}}',
+	'seconds' => '{{PLURAL:$1|saniye|saniyeyan}}',
+	'last-modified-date' => 'Vurnayışo peên: $1',
+	'view-source' => 'Çımey bıvêne',
 );
 
 /** Lower Sorbian (Dolnoserbski)
