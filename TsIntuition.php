@@ -384,7 +384,7 @@ class TsIntuition {
 			'variables' => array(),
 			'raw-variables' => false,
 			'escape' => 'plain',
-			'parsemag' => false,
+			'parsemag' => true,
 		);
 
 		// If $options was a domain string, convert it now.
