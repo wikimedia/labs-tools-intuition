@@ -38,7 +38,7 @@ $messages['en'] = array(
 	'tablehead-snapshots' => 'Snapshots',
 	'tablehead-branch' => 'Branch',
 	'tablehead-filesize' => 'File size',
-	'tablehead-hash' => 'Hash',
+	'tablehead-hash' => 'Checksums',
 );
 
 
