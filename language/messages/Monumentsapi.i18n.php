@@ -509,6 +509,7 @@ $messages['fi'] = array(
 );
 
 /** French (Français)
+ * @author Gomoko
  * @author Hashar
  * @author Otourly
  * @author Peter17
@@ -534,6 +535,15 @@ $messages['fr'] = array(
 	'db-field-source' => 'Source',
 	'db-field-monument_article' => 'Article du monument',
 	'db-field-registrant_url' => 'URL de la base de donnée',
+	'toolbox-label-searchtipps' => 'utilisez %term or term% ou %term% pour une recherche floue',
+	'toolbox-meta-title' => 'Boîte à outils Monuments aimés de Wiki',
+	'toolbox-main-title' => 'Boîte à outils WLM',
+	'toolbox-main-description' => "Un ensemble d'outils relatifs à",
+	'toolbox-wikilovesmonuments' => 'Monuments aimés de Wiki',
+	'toolbox-nav-homepage' => "Page d'accueil",
+	'toolbox-nav-statistics' => 'Statistiques',
+	'toolbox-nav-search' => 'Rechercher',
+	'toolbox-title-searchmonuments' => 'Rechercher des monuments',
 );
 
 /** Galician (Galego)
@@ -632,6 +642,15 @@ $messages['hsb'] = array(
 	'db-field-source' => 'Žórło',
 	'db-field-monument_article' => 'Nastawk wo zajimawosći',
 	'db-field-registrant_url' => 'Registrowy URL',
+	'toolbox-label-searchtipps' => '%słowoabo słowo% abo %słowo% za njedokładne pytanje wužiwać',
+	'toolbox-meta-title' => 'Gratowy kašćik za Wiki Loves Monuments',
+	'toolbox-main-title' => 'WLM - gratowy kašćik',
+	'toolbox-main-description' => 'Sadźba gratow za',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Startowa strona',
+	'toolbox-nav-statistics' => 'Statistika',
+	'toolbox-nav-search' => 'Pytanje',
+	'toolbox-title-searchmonuments' => 'Zajimawosće pytać',
 );
 
 /** Hungarian (Magyar)
@@ -672,6 +691,15 @@ $messages['ia'] = array(
 	'db-field-source' => 'Origine',
 	'db-field-monument_article' => 'Articulo sur le monumento',
 	'db-field-registrant_url' => 'URL de registration',
+	'toolbox-label-searchtipps' => 'usa %term o term% o %term% pro recerca approximative',
+	'toolbox-meta-title' => 'Instrumentario de "Wiki Loves Monuments"',
+	'toolbox-main-title' => 'Instrumentario WLM',
+	'toolbox-main-description' => 'Un collection de instrumentos pro',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Pagina initial',
+	'toolbox-nav-statistics' => 'Statisticas',
+	'toolbox-nav-search' => 'Recerca',
+	'toolbox-title-searchmonuments' => 'Cercar monumentos',
 );
 
 /** Ingush (ГӀалгӀай)
@@ -686,6 +714,7 @@ $messages['inh'] = array(
  * @author Gianfranco
  * @author Nemo bis
  * @author Otourly
+ * @author Ximo17
  * @author ZioNicco
  */
 $messages['it'] = array(
@@ -709,6 +738,15 @@ $messages['it'] = array(
 	'db-field-source' => 'Fonte',
 	'db-field-monument_article' => 'Voce sul monumento',
 	'db-field-registrant_url' => 'URL del registro',
+	'toolbox-label-searchtipps' => 'utilizzare il % termine o termine% o  %termine%  per la ricerca fuzzy',
+	'toolbox-meta-title' => 'Strumento Wiki Ama i Monumenti',
+	'toolbox-main-title' => 'Strumenti WAM',
+	'toolbox-main-description' => 'Una raccolta di strumenti relativi a',
+	'toolbox-wikilovesmonuments' => 'Wiki Ama i Monumenti',
+	'toolbox-nav-homepage' => 'Pagina principale',
+	'toolbox-nav-statistics' => 'Statistiche',
+	'toolbox-nav-search' => 'Cerca',
+	'toolbox-title-searchmonuments' => 'Ricerca monumenti',
 );
 
 /** Japanese (日本語)
@@ -851,6 +889,15 @@ $messages['mk'] = array(
 	'db-field-source' => 'Извор',
 	'db-field-monument_article' => 'Статија за споменикот',
 	'db-field-registrant_url' => 'URL во регистарот',
+	'toolbox-label-searchtipps' => 'употребете %term или term% или %term% за попустливо пребарување',
+	'toolbox-meta-title' => 'Алатник на „Вики сака споменици“',
+	'toolbox-main-title' => 'Алатник на ВСС',
+	'toolbox-main-description' => 'Збир алатки поврзани со',
+	'toolbox-wikilovesmonuments' => 'Вики сака споменици',
+	'toolbox-nav-homepage' => 'Домашна страница',
+	'toolbox-nav-statistics' => 'Статистики',
+	'toolbox-nav-search' => 'Пребарај',
+	'toolbox-title-searchmonuments' => 'Пребарување на споменици',
 );
 
 /** Malay (Bahasa Melayu)
@@ -877,6 +924,15 @@ $messages['ms'] = array(
 	'db-field-source' => 'Sumber',
 	'db-field-monument_article' => 'Rencana monumen',
 	'db-field-registrant_url' => 'URL Pendaftar',
+	'toolbox-label-searchtipps' => 'gunakan %kata atau kata% atau %kata% untuk pencarian kabur',
+	'toolbox-meta-title' => 'Peti Alatan Wiki Loves Monuments',
+	'toolbox-main-title' => 'Peti Alatan WLM',
+	'toolbox-main-description' => 'Peranggu peralatan yang berkenaan dengan',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Laman Utama',
+	'toolbox-nav-statistics' => 'Statistik',
+	'toolbox-nav-search' => 'Cari',
+	'toolbox-title-searchmonuments' => 'Cari monumen',
 );
 
 /** Norwegian Bokmål (‪Norsk (bokmål)‬)
@@ -1249,6 +1305,9 @@ $messages['tly'] = array(
 	'search-table-th-filter' => 'Филтр',
 	'search-table-th-search' => 'Нәве',
 	'filter-all-languages' => 'Һәммәј зывонон',
+	'db-field-lang' => 'Зывон',
+	'db-field-name' => 'Ном',
+	'db-field-address' => 'Унвон',
 );
 
 /** Turkish (Türkçe)
@@ -1303,6 +1362,15 @@ $messages['vi'] = array(
 	'db-field-source' => 'Nguồn gốc',
 	'db-field-monument_article' => 'Bài về đài tưởng niệm',
 	'db-field-registrant_url' => 'URL đăng ký',
+	'toolbox-label-searchtipps' => 'tìm kiếm mờ dùng %term hoặc term% hoặc %term%',
+	'toolbox-meta-title' => 'Hộp công cụ Wiki Yêu mến Đài tưởng niệm',
+	'toolbox-main-title' => 'Công cụ WYMĐTN',
+	'toolbox-main-description' => 'Tập hợp công cụ có liên quan đến',
+	'toolbox-wikilovesmonuments' => 'Wiki Yêu mến Đài tưởng niệm',
+	'toolbox-nav-homepage' => 'Trang chủ',
+	'toolbox-nav-statistics' => 'Thống kê',
+	'toolbox-nav-search' => 'Tìm kiếm',
+	'toolbox-title-searchmonuments' => 'Tìm kiếm đài tưởng niệm',
 );
 
 /** Zeeuws (Zeêuws)

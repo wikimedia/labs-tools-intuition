@@ -731,6 +731,13 @@ $messages['ta'] = array(
 	'toolserver-status-short-erro' => '$1: பிழை',
 );
 
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'toolserver-status-short-erro' => '$1: Сәһв',
+);
+
 /** Turkish (Türkçe)
  * @author Emperyan
  */

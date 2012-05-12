@@ -1656,6 +1656,8 @@ $messages['tl'] = array(
  */
 $messages['tly'] = array(
 	'settings-legend' => 'Низамисә ној',
+	'choose-language' => 'Зывон бывыжнән',
+	'clear-cookies' => 'Cookies рәдд кардеј',
 	'tab-overview' => 'Чәшику дәвоније',
 	'tab-settings' => 'Низамисә ној',
 	'tab-about' => 'Тәсвир',

@@ -441,7 +441,7 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
-	'category' => 'Kategoriya',
+	'category' => 'Kategorî:',
 	'thumbnailing' => 'Resimo verdı',
 	'max-width' => 'En vesi herayey',
 	'max-height' => 'En vesi berzey',
@@ -1605,7 +1605,10 @@ $messages['ti'] = array(
  */
 $messages['tly'] = array(
 	'title' => 'Шикилон бо жәј бә категоријон',
+	'project' => 'Нәхшә:',
 	'category' => 'Категоријә:',
+	'no-such-project' => 'Жәго нәхшә сохтә быәни',
+	'no-images' => 'Бы категоријәдә шикилон нин',
 	'download' => 'Бо жәј',
 );
 

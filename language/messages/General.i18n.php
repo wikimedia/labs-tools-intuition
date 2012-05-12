@@ -95,8 +95,8 @@ $messages['ar'] = array(
 	'namespace' => 'النطاق',
 	'form-submit' => 'اذهب',
 	'form-reset' => 'إعادة ضبط',
-	'years' => '{{PLURAL: $1|سنة|سنة}}',
-	'weeks' => '{{PLURAL: $1|أسبوع|أسبوع}}',
+	'years' => '{{PLURAL: $1||سنة واحدة|سنتان|$1 سنين|$1 سنة}}',
+	'weeks' => '{{PLURAL:$1||أسبوع واحد|أسبوعان|$1 أسابيع|$1 أسبوعًا|$1 أسبوع}}',
 	'days' => '{{PLURAL: $1|يوم|يوم}}',
 	'hours' => '{{PLURAL: $1|ساعة|ساعة}}',
 	'minutes' => '{{PLURAL: $1|دقيقة|دقائق}}',
@@ -1449,9 +1449,13 @@ $messages['tly'] = array(
 	'toolversionstamp' => 'Рәвојәт $1 ($2)',
 	'namespace' => 'Номон мәкон',
 	'form-submit' => 'Давардеј',
+	'form-reset' => 'Тәмиз кардеј',
 	'years' => '{{PLURAL: $1|сор|сор}}',
 	'weeks' => '{{PLURAL: $1|һәфтә|һәфтә}}',
 	'days' => '{{PLURAL: $1|руж|руж}}',
+	'hours' => '{{PLURAL: $1|саат|саат}}',
+	'minutes' => '{{PLURAL: $1|дәғиғә|дәғиғә}}',
+	'last-modified-date' => 'Охонә дәгиши тарых: $1',
 );
 
 /** Turkish (Türkçe)

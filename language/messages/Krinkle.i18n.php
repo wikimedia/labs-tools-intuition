@@ -601,6 +601,14 @@ $messages['tl'] = array(
 	'form-legend-settings' => 'Mga katakdaan',
 );
 
+/** Толышә зывон (Толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'alws-selectwiki' => '(вики-нәхшә бывыжнән)',
+	'form-legend-settings' => 'Низамисә ној',
+);
+
 /** Turkish (Türkçe)
  * @author Emperyan
  * @author Khutuck
