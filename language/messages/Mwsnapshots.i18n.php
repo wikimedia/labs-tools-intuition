@@ -20,6 +20,8 @@ $messages['en'] = array(
 	'title-updatelog' => 'Update log',
 	'updatelog-intro' => 'The update script is scheduled to run every hour. Below is the console output of the last run.',
 	'updatelog-active' => 'The update script is currently running. Come back later for the complete log.',
+	'title-download' => '$1', // Do not translate
+	'download-button' => 'Download $1', 
 	'title-downloading' => 'Downloading: $1',
 	'downloading-intro' => 'Your download will start shortly...',
 	'downloading-directlink' => 'Problems with the download?  Please use this direct link.',
@@ -48,6 +50,10 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'title-overview' => 'Heading of overview page listing all repositories and branches',
 	'title-error' => 'Heading of page if action failed',
+	'title-download' => '{{Ignore}}',
+	'download-button' => 'Label of the download button.
+
+* $1: Branch name',
 	'title-downloading' => 'Heading of page if a file is going to be downloaded
 
 * $1: File name',
@@ -95,7 +101,7 @@ $messages['de'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form))
  * @author Kghbln
  */
 $messages['de-formal'] = array(
