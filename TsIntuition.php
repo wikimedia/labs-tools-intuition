@@ -1154,12 +1154,20 @@ class TsIntuition {
 			array( $this, 'msg' ),
 			func_get_args()
 		);
+		return $this->parensWrap( $msg );
+	}
+
+	/**
+	 * @param string $content: Text or HTML to be wrapped in parentheses.
+	 * @param string $escape: Any valid format for TsIntuitionUtil::strEscape.
+	 */
+	public function parensWrap( $content, $escape = 'plain' ) {
 		return $this->msg(
 			'parentheses',
 			array(
 				'domain' => 'general',
-				'variables' => array( $msg ),
 				'raw-variables' => true,
+				'variables' => array( TsIntuitionUtil::strEscape( $content, $escape ) ),
 			)
 		);
 	}

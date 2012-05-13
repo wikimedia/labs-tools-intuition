@@ -22,9 +22,9 @@ $messages['en'] = array(
 	'updatelog-active' => 'The update script is currently running. Come back later for the complete log.',
 	'title-download' => '$1', // Do not translate
 	'download-button' => 'Download $1', 
-	'title-downloading' => 'Downloading: $1',
-	'downloading-intro' => 'Your download will start shortly...',
-	'downloading-directlink' => 'Problems with the download?  Please use this direct link.',
+	'download-directlink' => 'direct link',
+	'title-downloadpage' => 'Download: $1',
+	'downloadpage-directlink' => 'Click here to download the snapshot.',
 	'err-snapshotindex' => 'Snapshot index temporarily unavailable. Please try again later.',
 	'err-invalid-repo' => 'Unknown repository: "$1".',
 	'err-invalid-branch' => 'Unknown branch: "$1" in repository "$2".',
@@ -51,14 +51,14 @@ $messages['qqq'] = array(
 	'title-overview' => 'Heading of overview page listing all repositories and branches',
 	'title-error' => 'Heading of page if action failed',
 	'title-download' => '{{Ignore}}',
-	'download-button' => 'Label of the download button.
+	'download-button' => 'Label of the download button. Text is outputted below an up-arrow.
 
 * $1: Branch name',
-	'title-downloading' => 'Heading of page if a file is going to be downloaded
+	'download-directlink' => 'Link displayed in parentheses below the download button.',
+	'title-downloadpage' => 'Heading of download page where the file is ready to be downloaded by the user
 
 * $1: File name',
-	'downloading-intro' => 'Displayed under the heading, the download will start in a second.',
-	'downloading-directlink' => 'Clickable link shown under the heading, links to the file directly',
+	'downloadpage-directlink' => 'Clickable link shown under the heading, links to the file directly',
 	'err-snapshotindex' => 'If the information manifest (Index) can not be found on the server, this error is shown.',
 	'err-invalid-repo' => '
 
