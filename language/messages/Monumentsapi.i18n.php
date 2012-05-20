@@ -584,6 +584,28 @@ $messages['he'] = array(
 	'search-table-th-search' => 'חיפוש',
 	'filter-all-countries' => 'כל הארצות',
 	'filter-all-languages' => 'כל השפות',
+	'db-field-country' => 'ארץ',
+	'db-field-lang' => 'שפה',
+	'db-field-id' => 'מזהה',
+	'db-field-name' => 'שם',
+	'db-field-address' => 'כתובת',
+	'db-field-municipality' => 'רשות מקומית',
+	'db-field-lat' => 'קו־רוחב',
+	'db-field-lon' => 'קו־אורך',
+	'db-field-image' => 'תמונה',
+	'db-field-changed' => 'זמן שינוי',
+	'db-field-source' => 'מקור',
+	'db-field-monument_article' => 'ערך על אתר מורשת',
+	'db-field-registrant_url' => 'כתובת מוסד רישום',
+	'toolbox-label-searchtipps' => 'יש להשתמש במחרוזת %term or term% or %term% לחיפוש מטושטש',
+	'toolbox-meta-title' => 'ארגז כלים של ויקי־מורשת',
+	'toolbox-main-title' => 'ארגז כלים של ויקי־מורשת',
+	'toolbox-main-description' => 'ארגז כלים של',
+	'toolbox-wikilovesmonuments' => 'ויקי־מורשת',
+	'toolbox-nav-homepage' => 'דף הבית',
+	'toolbox-nav-statistics' => 'סטטיסטיקות',
+	'toolbox-nav-search' => 'חיפוש',
+	'toolbox-title-searchmonuments' => 'חיפוש אתרי מורשת',
 );
 
 /** Hindi (हिन्दी)
@@ -1193,6 +1215,15 @@ $messages['sr-ec'] = array(
 	'db-field-source' => 'Извор',
 	'db-field-monument_article' => 'Чланак о споменику',
 	'db-field-registrant_url' => 'Адреса у регистру',
+	'toolbox-label-searchtipps' => 'користите %term, term% или %term% за нејасну претрагу',
+	'toolbox-meta-title' => 'Алатна трака „Вики воли споменике“',
+	'toolbox-main-title' => 'Алатна трака ВВС-а',
+	'toolbox-main-description' => 'Скуп алатки повезане са',
+	'toolbox-wikilovesmonuments' => 'Вики воли споменике',
+	'toolbox-nav-homepage' => 'Почетна страница',
+	'toolbox-nav-statistics' => 'Статистика',
+	'toolbox-nav-search' => 'Претражи',
+	'toolbox-title-searchmonuments' => 'Претрага споменика',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
@@ -1219,6 +1250,15 @@ $messages['sr-el'] = array(
 	'db-field-source' => 'Izvor',
 	'db-field-monument_article' => 'Članak o spomeniku',
 	'db-field-registrant_url' => 'Adresa u registru',
+	'toolbox-label-searchtipps' => 'koristite %term, term% ili %term% za nejasnu pretragu',
+	'toolbox-meta-title' => 'Alatna traka „Viki voli spomenike“',
+	'toolbox-main-title' => 'Alatna traka VVS-a',
+	'toolbox-main-description' => 'Skup alatki povezane sa',
+	'toolbox-wikilovesmonuments' => 'Viki voli spomenike',
+	'toolbox-nav-homepage' => 'Početna stranica',
+	'toolbox-nav-statistics' => 'Statistika',
+	'toolbox-nav-search' => 'Pretraži',
+	'toolbox-title-searchmonuments' => 'Pretraga spomenika',
 );
 
 /** Swedish (Svenska)

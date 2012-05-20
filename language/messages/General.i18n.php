@@ -60,6 +60,13 @@ $messages['qqq'] = array(
 	'parentheses' => '{{Optional}}',
 );
 
+/** Tati (Tati)
+ * @author Erdemaslancan
+ */
+$messages['ttt'] = array(
+	'form-submit' => 'Buşu',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -166,6 +173,18 @@ $messages['az'] = array(
 	'seconds' => '{{PLURAL: $1|saniyə|saniyə}}',
 	'last-modified-date' => 'Sonuncu düzəliş: $1',
 	'view-source' => 'Mənbəyə bax',
+);
+
+/** Bashkir (Башҡортса)
+ * @author ҒатаУлла
+ */
+$messages['ba'] = array(
+	'hello' => 'Сәләм',
+	'welcome' => 'Рәхим итегеҙ!',
+	'etc' => 'һ.б.',
+	'namespace' => 'Исемдәр арауығы',
+	'form-submit' => 'Күсеү',
+	'years' => '$1 {{PLURAL:$1|йыл|йылдар}}',
 );
 
 /** Belarusian (Беларуская)

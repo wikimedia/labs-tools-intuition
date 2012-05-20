@@ -680,6 +680,7 @@ $messages['de-formal'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'language' => 'Zıwan',
 	'tusc_user' => 'TUSC namey qarwani',
 	'standard_language' => 'diq',
 );

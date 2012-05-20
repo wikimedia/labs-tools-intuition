@@ -356,6 +356,7 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'title' => 'BakusWerenayış2',
 	'limit' => 'Limit',
 );
 

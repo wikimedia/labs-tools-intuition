@@ -417,12 +417,14 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'enter-details' => '詳細を入力',
 	'language-label' => '言語',
 	'namespace-label' => '名前空間',
 	'pagename-label' => 'ページ名 (名前空間を除く)',
+	'time-label' => 'コマンドの実行に要した時間',
 );
 
 /** Khmer (ភាសាខ្មែរ)

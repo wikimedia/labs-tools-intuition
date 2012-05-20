@@ -1155,10 +1155,12 @@ $messages['ja'] = array(
 	'translate-instructions' => 'ファイル名（「$1」など）、完全なURL（「$2」など）のいずれも入力できます。前者の場合、ウィキメディアはそれをソースと想定します。SVG ファイルを他のサイトまたはウィキから変換するには、完全なURL形式を使用する必要があります。',
 	'svginput-label' => 'SVG ファイル',
 	'uploading' => 'アップロード中',
+	'upload-complete' => 'アップロードが完了しました。画像は $1 にあります。',
 	'editdescriptionpage' => '新しい説明ページを編集',
 	'author-complete' => '著者の情報を記入してください!',
 	'preview-hide' => 'プレビューを隠す',
 	'preview-refresh' => 'プレビューを更新',
+	'error-must-accept' => '直接アップロードを続行するには、利用規約に同意する必要があります。',
 );
 
 /** Khmer (ភាសាខ្មែរ)

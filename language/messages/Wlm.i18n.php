@@ -453,6 +453,7 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'id-none' => '(Çıno)',
 	'bic-gallery' => 'Galeri',
 	'bic-list-bad' => 'bımısnı',
 );
@@ -784,7 +785,7 @@ $messages['hsb'] = array(
 	'title' => 'WLM-dataje',
 	'file' => 'Wobraz',
 	'monument-type' => 'Typ zajimawosće',
-	'monument-id' => 'ID zajimawosće',
+	'monument-id' => 'ID pomnika',
 	'province' => 'Prowinca',
 	'comarque' => 'Comarca',
 	'competes' => 'Wobdźěłuje so',
