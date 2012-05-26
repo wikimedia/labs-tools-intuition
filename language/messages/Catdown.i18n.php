@@ -236,6 +236,15 @@ Linux/Mac OS
 	'scaling-both' => ', маштабаваны да максымальнага памеру ў $1×$2 {{plural:$2|піксэль|піксэлі|піксэляў}}',
 );
 
+/** Banjar (Bahasa Banjar)
+ * @author Riemogerz
+ */
+$messages['bjn'] = array(
+	'project' => 'Pruyik',
+	'category' => 'Tumbung',
+	'download' => 'Unduh',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  */

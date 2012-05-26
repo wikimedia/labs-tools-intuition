@@ -455,7 +455,7 @@ $messages['de'] = array(
 $messages['diq'] = array(
 	'id-none' => '(Çıno)',
 	'bic-gallery' => 'Galeri',
-	'bic-list-bad' => 'bımısnı',
+	'bic-list-bad' => 'Bımocne',
 );
 
 /** Lower Sorbian (Dolnoserbski)

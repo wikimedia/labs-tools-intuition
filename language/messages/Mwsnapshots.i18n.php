@@ -51,7 +51,7 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'title-overview' => 'Heading of overview page listing all repositories and branches',
 	'title-error' => 'Heading of page if action failed',
-	'download-button' => 'Label of the download button. Text is outputted below an down-arrow.
+	'download-button' => 'Label of the download button. Text is outputted below a down-arrow.
 
 * $1: Branch name',
 	'download-directlink' => 'Link displayed in parentheses below the download button.',
@@ -80,6 +80,10 @@ $messages['ast'] = array(
 	'title-updatelog' => "Rexistru d'anovamientu",
 	'updatelog-intro' => "El script d'anovamientu ta programáu pa executase cada hora. Más abaxo ta la salida de terminal de la cabera execución.",
 	'updatelog-active' => "El script d'anovamientu ta executandose anguaño. Torna más sero pa ver el rexistru completu.",
+	'download-button' => 'Descargar $1',
+	'download-directlink' => 'enllaz direutu',
+	'title-downloadpage' => 'Descargar: $1',
+	'downloadpage-directlink' => 'Calca equí pa descargar la instantánea.',
 	'err-snapshotindex' => "L'índiz de instantánees nun ta disponible temporalmente. Intentalo otra vuelta más sero.",
 	'err-invalid-repo' => 'Repositoriu desconocíu: «$1».',
 	'err-invalid-branch' => 'Rama desconocida: «$1» nel repositoriu «$2».',
@@ -145,7 +149,7 @@ $messages['diq'] = array(
 	'download-button' => "$1'i Ron",
 	'title-downloadpage' => "$1'i Ron:",
 	'repo-site-link' => 'Websita',
-	'repo-lastmoddate-label' => 'Wext:',
+	'repo-lastmoddate-label' => 'Deme:',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -525,6 +529,24 @@ $messages['nl'] = array(
 	'tablehead-branch' => 'Branch',
 	'tablehead-filesize' => 'Bestandsgrootte',
 	'tablehead-hash' => 'Hash',
+);
+
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'title-error' => 'Napaka',
+	'title-updatelog' => 'Dnevnik posodobitev',
+	'download-button' => 'Prenesi $1',
+	'download-directlink' => 'neposredna povezava',
+	'title-downloadpage' => 'Prenesi: $1',
+	'repo-site-link' => 'Spletna stran',
+	'repo-branches-label' => 'Podveje:',
+	'repo-lastmoddate-label' => 'Datum:',
+	'branches-submit-button' => 'Pridobi!',
+	'updatelog-link' => 'dnevnik posodobitev',
+	'tablehead-branch' => 'Podveja',
+	'tablehead-filesize' => 'Velikost datoteke',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)

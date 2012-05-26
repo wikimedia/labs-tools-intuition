@@ -241,6 +241,18 @@ $messages['bg'] = array(
 	'seconds' => 'секунди',
 );
 
+/** Banjar (Bahasa Banjar)
+ * @author Riemogerz
+ */
+$messages['bjn'] = array(
+	'hello' => 'Halu',
+	'welcome' => 'Salamat datang',
+	'toolversionstamp' => 'Pirsi $1 ($2)',
+	'etc' => 'wll.',
+	'form-submit' => 'Kirim',
+	'form-reset' => 'Bulikakan satilan',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Wikitanvir

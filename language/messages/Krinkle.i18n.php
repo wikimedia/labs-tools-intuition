@@ -47,13 +47,14 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Abanima
  * @author Meno25
  */
 $messages['ar'] = array(
 	'alws-label' => 'ويكي',
 	'alws-selectwiki' => '(اختر ويكي)',
-	'alws-group-mustused' => 'أكثر الويكيات استخداما',
-	'alws-group-allaz' => 'كل الويكيات أبجديا',
+	'alws-group-mustused' => 'أكثر الويكيات استخداماً',
+	'alws-group-allaz' => 'كل الويكيات أبجدياً',
 	'form-legend-settings' => 'الإعدادات',
 );
 
@@ -398,6 +399,16 @@ $messages['mk'] = array(
 	'form-legend-settings' => 'Поставки',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'alws-selectwiki' => '(വിക്കി തിരഞ്ഞെടുക്കുക)',
+	'alws-group-mustused' => 'ഏറ്റവും ഉപയോറ്റിക്കപ്പെട്ടിട്ടുള്ള വിക്കികൾ',
+	'alws-group-allaz' => 'അക്ഷരമാലാക്രമത്തിൽ എല്ലാ വിക്കികളും',
+	'form-legend-settings' => 'സജ്ജീകരണങ്ങൾ',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -628,7 +639,7 @@ $messages['vi'] = array(
 	'alws-selectwiki' => '(chọn wiki)',
 	'alws-group-mustused' => 'Các wiki được sử dụng nhiều nhất',
 	'alws-group-allaz' => 'Tất cả các wiki theo thứ tự chữ cái',
-	'form-legend-settings' => 'Truy vấn',
+	'form-legend-settings' => 'Tùy chọn',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)

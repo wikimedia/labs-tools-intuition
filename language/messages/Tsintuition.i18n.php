@@ -100,6 +100,7 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  */
@@ -111,14 +112,20 @@ $messages['ar'] = array(
 	'clear-cookies' => 'امسح الكوكيز',
 	'renew-cookies' => 'جدد الكوكيز',
 	'cookie-expiration' => 'تاريخ انتهاء الكوكيز',
+	'clearcookies-success' => 'تم حذف كل الكوكيز بنجاح.',
+	'renewcookies-success' => 'تم تجديد الكوكيز! أنت الآن جاهز للنص $1.',
 	'tab-overview' => 'نظرة عامة',
 	'tab-settings' => 'الإعدادات',
 	'tab-about' => 'عن',
 	'tab-demo' => 'تجربة',
 	'bl-mysettings' => 'إعدادات لغتي',
 	'bl-mysettings-new' => 'غير اللغة!',
+	'bl-promo' => 'يدعم هذه الترجمات كل من $1 و $2.',
+	'bl-changelanguage' => 'أضغط هنا لتغيير لغة الواجهة لهذه الأدات.',
+	'usage' => 'تمت ترجمة الأدوات عن طريق Toolserver Intuition.',
 	'help-translate-tool' => 'ساعد في ترجمة هذه الأداة!',
 	'help-translate-all' => 'ساعد في ترجمة التول سيرفر!',
+	'help-translate-tooltip' => 'ساعد الآخرين بترجمة رسائل الواجهة إلى لغتك الأم.',
 );
 
 /** Assamese (অসমীয়া)
@@ -239,6 +246,19 @@ $messages['bg'] = array(
 	'bl-mysettings' => 'Моите езикови настройки',
 	'bl-mysettings-new' => 'Промяна на езика!',
 	'help-translate-tool' => 'Помогнете за превода на този инструмент!',
+);
+
+/** Banjar (Bahasa Banjar)
+ * @author Riemogerz
+ */
+$messages['bjn'] = array(
+	'current-settings' => 'Satilan wahini',
+	'settings-legend' => 'Satilan',
+	'tab-settings' => 'Satilan',
+	'tab-about' => 'Pasal',
+	'tab-demo' => 'Dimu',
+	'bl-mysettings' => 'Satilan bahasa ulun',
+	'bl-mysettings-new' => 'Ganti bahasa!',
 );
 
 /** Bengali (বাংলা)

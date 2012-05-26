@@ -60,6 +60,17 @@ $messages['af'] = array(
 	'time-label' => 'Tyd geneem om opdrag uit te voer',
 );
 
+/** Arabic (العربية)
+ * @author DRIHEM
+ */
+$messages['ar'] = array(
+	'enter-details' => 'أدخل التفاصيل',
+	'language-label' => 'اللغة',
+	'namespace-label' => 'النطاق',
+	'pagename-label' => 'اسم الصفحة (باستثناء النطاق)',
+	'time-label' => 'الوقت المستغرق في تنفيذ الأمر',
+);
+
 /** Assamese (অসমীয়া)
  * @author Simbu123
  */

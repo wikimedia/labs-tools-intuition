@@ -137,6 +137,15 @@ $messages['ast'] = array(
 	'db-field-source' => 'Fonte',
 	'db-field-monument_article' => 'Artículu del monumentu',
 	'db-field-registrant_url' => 'URL del titular',
+	'toolbox-label-searchtipps' => 'usa %term o term% o %term% pa una gueta aproximada',
+	'toolbox-meta-title' => 'Caxa de ferramientes  de Wiki Loves Monuments',
+	'toolbox-main-title' => 'Caxa de ferramientes de WLM',
+	'toolbox-main-description' => 'Un conxuntu de ferramientes rellacionaes con',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Páxina principal',
+	'toolbox-nav-statistics' => 'Estadístiques',
+	'toolbox-nav-search' => 'Guetar',
+	'toolbox-title-searchmonuments' => 'Guetar monumentos',
 );
 
 /** Azerbaijani (Azərbaycanca)
@@ -687,6 +696,20 @@ $messages['hu'] = array(
 	'search-table-th-search' => 'Keresés',
 	'filter-all-countries' => 'Minden ország',
 	'filter-all-languages' => 'Minden nyelv',
+	'db-field-country' => 'Ország',
+	'db-field-lang' => 'Nyelv',
+	'db-field-id' => 'Azonosító',
+	'db-field-name' => 'Név',
+	'db-field-address' => 'Cím',
+	'db-field-municipality' => 'Település',
+	'db-field-lat' => 'Földrajzi szélesség',
+	'db-field-lon' => 'Földrajzi hosszúság',
+	'db-field-image' => 'Kép',
+	'db-field-changed' => 'Változtatások',
+	'db-field-source' => 'Forrás',
+	'db-field-monument_article' => 'Műemlék cikk',
+	'db-field-registrant_url' => 'Regisztrációs URL',
+	'toolbox-main-title' => 'WLM Toolbox',
 );
 
 /** Interlingua (Interlingua)
