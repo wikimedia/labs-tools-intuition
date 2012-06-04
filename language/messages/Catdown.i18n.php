@@ -139,7 +139,7 @@ $messages['as'] = array(
 	'download' => 'ডাউনল’ড',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -256,7 +256,7 @@ $messages['bn'] = array(
 	'download' => 'ডাউনলোড',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -305,7 +305,7 @@ pe melezourioù GNU all, sellit ouzh
 	'scaling-both' => ", skeuliaouet d'ur vent vrasañ a $1x$2 piksel",
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Gemmaa
  */
 $messages['ca'] = array(
@@ -354,7 +354,7 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
 	'scaling-both' => ', reduït a una mida màxima de  $1 x $2  píxels',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
@@ -374,11 +374,22 @@ $messages['cs'] = array(
 	'download' => 'Stáhnout',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Tjernobyl
  */
 $messages['da'] = array(
 	'title' => 'Download af billeder efter kategori',
+	'project' => 'Projekt:',
+	'category' => 'Kategori:',
+	'max-width' => 'Maksimal bredde:',
+	'max-height' => 'Maksimal højde:',
+	'invalid-width' => 'Ugyldig bredde',
+	'invalid-height' => 'Ugyldig højde',
+	'no-such-project' => 'Projektet eksisterer ikke',
+	'no-images' => 'Der er ingen billeder i den kategori',
+	'zip-failed' => 'Oprettelsen af ZIP mislykkedes',
+	'download-info' => '{{plural: $1|Der er et billede|Der er $1 billeder}} med en anslået størrelse på $2',
+	'download' => 'Hent',
 );
 
 /** German (Deutsch)
@@ -505,7 +516,7 @@ Su teke druge glědałkowe GNU-serwery, glědaj
 	'scaling-both' => ', na maksimalnu wjelilkosć $1x$2 pikselow skalěrowane',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  * @author Vivaelcelta
  */
@@ -555,7 +566,7 @@ o en algún otro espejo de GNU, ver
 	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -592,7 +603,7 @@ $messages['fa'] = array(
 	'download' => 'بارگیری',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Silvonen
  */
 $messages['fi'] = array(
@@ -600,7 +611,7 @@ $messages['fi'] = array(
 	'max-height' => 'Enimmäiskorkeus:',
 );
 
-/** Faroese (Føroyskt)
+/** Faroese (føroyskt)
  * @author EileenSanda
  */
 $messages['fo'] = array(
@@ -609,7 +620,7 @@ $messages['fo'] = array(
 	'category' => 'Bólkur:',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -801,7 +812,7 @@ Su tež druhe špihelowe GNU-serwery, hlej
 	'scaling-both' => ', na maksimalnu wulkosć $1x$2 pikselow skalowane',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
@@ -847,7 +858,7 @@ vagy valamelyik GNU Mirror oldalról, lásd
 	'scaling-both' => ', átméretezve a $1x$2 pixel maximális méretre',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -896,7 +907,7 @@ o de un altere speculo de GNU, vide
 	'scaling-both' => ', scalate a un dimension maxime de $1 × $2 pixels',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Gianfranco
  * @author ZioNicco
  */
@@ -956,8 +967,8 @@ $messages['ja'] = array(
 	'project' => 'プロジェクト:',
 	'category' => 'カテゴリ:',
 	'thumbnailing' => 'サムネイル処理',
-	'max-width' => '幅の最大値:',
-	'max-height' => '高さの最大値:',
+	'max-width' => '幅の最大値：',
+	'max-height' => '高さの最大値：',
 	'invalid-width' => '幅が無効',
 	'invalid-height' => '高さが無効',
 	'no-such-project' => 'そのようなプロジェクトはありません',
@@ -1002,6 +1013,55 @@ GNU GENERAL PUBLIC LICENSE version 3 の条項の下にあります。
 $messages['ka'] = array(
 	'category' => 'კატეგორია:',
 	'download' => 'ჩამოტვირთვა',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'title' => '분류의 그림 다운로드',
+	'subtitle' => '분류에 있는 그림를 다운로드하는 쉬운 방법',
+	'project' => '프로젝트:',
+	'category' => '분류:',
+	'thumbnailing' => '섬네일 기능',
+	'max-width' => '최대 너비:',
+	'max-height' => '최대 높이:',
+	'invalid-width' => '잘못된 너비',
+	'invalid-height' => '잘못된 높이',
+	'no-such-project' => '비슷한 프로젝트가 없습니다',
+	'no-images' => '이 분류에 속하는 그림이 없습니다',
+	'category-is-url' => '주어진 분류 이름이 URL처럼 보입니다. 해당 URL이 아닌 특정한 분류 이름을 지정해야 합니다.',
+	'category-contains-namespace' => '분류 이름에 따라 이름공간을 포함한 것 같습니다. [[Category:$1]]에 따라 주어진 이름을 가진 문서가 가능합니다.',
+	'zip-failed' => 'Zip 만들기 실패',
+	'image-area-too-big' => '$1(은)는 썸네일을 만드는 데 너무 큽니다. 최대 크기를 사용합니다.',
+	'download-info' => '$2의 예상 크기와 같은 {{plural: $1|그림 1 개가 있습니다|그림 $1 개가 있습니다}}.',
+	'download' => '다운로드',
+	'readme-contents' => '인근 $4 파일 목록 $1 분류 ( $2 ) $3에서
+그림을 표시합니다.
+
+== 나열된 모든 이미지를 다운로드하기 위한 지침 ==
+다운로드하는 데에는 몇 분에서 몇시간까지 다를 수 있습니다.
+
+윈도:
+같은 폴더에 있는 모든 파일의 압축을 풀고 $5(을)를 실행하세요.
+$6
+리눅스/맥 OS
+모든 파일의 압축을 풀고 해당 폴더에서 터미널을 여세요. sh $5(을)를 실행하세요',
+	'non-bundled-wget' => '참고: 이 버전에서는 wget이 포함되지 않습니다. wget.exe를 폴더에 압축을 풀거나 경로에서 wget을 지정해야 합니다',
+	'wget-info' => 'wget $1 (윈도 플래폼용) 의 복사본 파일이 들어있습니다.wget은 GNU 일반 공중 사용 허가서 버전 3의
+조건에 따라 자유 소프트웨어입니다.
+아래에는 라이선스 복사본이며 또한 http://www.gnu.org/licenses/gpl-3.0.txt 에서도 찾아볼 수 있습니다
+
+이 프로그램에 대한 소스 코드를 받는 데 관심있을 경우 당신은
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+또는 일부 다른 GNU 미러에서 다운로드할 수 있습니다
+ http://www.gnu.org/prep/ftp.html
+을 참고하세요',
+	'scaling-width' => ', $1 픽셀의 최대 너비로 조정함',
+	'scaling-height' => ', $1 픽셀의 최대 높이로 조정함',
+	'scaling-both' => ', $1x$2의 최대 크기로 조정함',
 );
 
 /** Colognian (Ripoarisch)
@@ -1054,6 +1114,13 @@ udder och vun ander Schpeejel-ẞööver. Luuer op:
 	'scaling-both' => ', obb ene jrüüßte Ömfang vun $1x$2 Pixelle ömjeräschnet',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'category' => 'Kategorî:',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -1080,7 +1147,7 @@ $messages['lb'] = array(
 	'scaling-both' => ', op eng maximal Gréisst vu(n) $1x$2 Pixel skaléiert',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Rancher
  */
@@ -1222,7 +1289,7 @@ $messages['nl'] = array(
 	'category-contains-namespace' => 'U hebt de naamruimte opgenomen in de categorienaam. Met de opgegeven naam, komt de pagina beschikbaar als [[Category:$1|Categorie $1]].',
 	'zip-failed' => 'Het maken van een zip-bestand is mislukt.',
 	'image-area-too-big' => '$1 is te groot om een miniatuur maken. De volledige grootte wordt gebruikt.',
-	'download-info' => '{{plural: $1|Er is één afbeelding|Er zijn $1 afbeeldingen}}, met een geschatte grootte van $2',
+	'download-info' => '{{plural: $1|Er is één afbeelding|Er zijn $1 afbeeldingen}} met een geschatte grootte van $2',
 	'download' => 'Downloaden',
 	'readme-contents' => 'In het bestand $4 staat een lijst met
 bestanden uit de categorie $1 ($2)$3.
@@ -1238,15 +1305,15 @@ Linux/Mac OSX
 	'non-bundled-wget' => 'Let op: in deze versie is wget voor Windows niet opgenomen. U moet uitpakken
 naar een map waarin wget.exe staat, of wget moet opgenomen zijn in de
 omgevingsvariabele PATH.',
-	'wget-info' => 'Dit bestand bundelt een kopie van wget $1 (voor het Windows-systeem). Wget is vrije software,
+	'wget-info' => 'Dit bestand bundelt een kopie van wget $1 (voor het Windows-platform). Wget is vrije software,
 onder de voorwaarden van de GNU GENERAL PUBLIC LICENSE versie 3.
-Er is een kopie van de licentie hieronder, en het is ook beschikbaar op http://www.gnu.org/licenses/gpl-3.0.txt
+Hieronder staat een kopie van de licentie en deze is ook beschikbaar op http://www.gnu.org/licenses/gpl-3.0.txt.
 
-In het geval dat u geïnteresseerd bent in de broncode van dit programma, kunt u deze downloaden vanop
+In het geval dat u geïnteresseerd bent in de broncode van dit programma, kunt u deze downloaden via:
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
-of een andere GNU-mirror, zie
+of een andere GNU-mirror, zie:
  http://www.gnu.org/prep/ftp.html',
 	'scaling-width' => ', geschaald naar een maximale breedte van $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => ', geschaald naar een maximale hoogte van $1 {{plural:$1|pixel|pixels}}',
@@ -1281,7 +1348,7 @@ $messages['pdc'] = array(
 	'download' => 'Runnerdraage',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -1329,7 +1396,7 @@ lub niektórych innych mirrorów GNU, zobacz
 	'scaling-both' => ', przeskalowanych do maksymalnego rozmiaru $1x$2 pikseli',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -1337,6 +1404,7 @@ $messages['ro'] = array(
 	'subtitle' => 'Calea ușoară de a descărca imaginile dintr-o categorie',
 	'project' => 'Proiect:',
 	'category' => 'Categorie:',
+	'thumbnailing' => 'Miniaturizare',
 	'max-width' => 'Lățime maximă:',
 	'max-height' => 'Înălțime maximă:',
 	'invalid-width' => 'Lățime incorectă',
@@ -1353,7 +1421,7 @@ $messages['ro'] = array(
 	'scaling-both' => ', scalată la o dimensiune maximă de $1 x $2 pixeli',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1374,7 +1442,7 @@ $messages['roa-tara'] = array(
 	'readme-filename' => 'README.txt',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Haffman
  */
@@ -1401,14 +1469,14 @@ $messages['ru'] = array(
  http://www.gnu.org/prep/ftp.html',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Wizzard
  */
 $messages['sk'] = array(
 	'download' => 'Stiahnuť',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1457,7 +1525,7 @@ ali katerega drugega zrcala GNU; glej
 	'scaling-both' => ', prilagojene na velikost največ $1x$2 slikovnih pik',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1505,7 +1573,7 @@ $messages['sr-ec'] = array(
 	'scaling-both' => ', с изменом размере до највеће величине од $1 × $2 пиксела',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1553,7 +1621,7 @@ ili koristite druge rezervne veze:
 	'scaling-both' => ', s izmenom razmere do najveće veličine od $1 × $2 piksela',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1609,7 +1677,7 @@ $messages['ti'] = array(
 	'download' => 'ጽዓን',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1632,7 +1700,7 @@ $messages['tr'] = array(
 	'download' => 'İndir',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Base
  */
 $messages['uk'] = array(
@@ -1695,7 +1763,7 @@ hoặc một Kho phần mềm GNU khác; xem
 	'scaling-both' => ', được chỉnh lại theo kích cỡ tối đa là $1 × $2 điểm ảnh',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  * @author Mys 721tx
  * @author Yfdyh000
@@ -1735,7 +1803,7 @@ Linux/Mac OS
 	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

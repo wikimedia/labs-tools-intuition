@@ -166,7 +166,7 @@ $messages['as'] = array(
 	'province-none' => '(অজ্ঞাত)',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -284,7 +284,7 @@ $messages['bn'] = array(
 	'province-none' => '(অজানা)',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -333,7 +333,7 @@ $messages['br'] = array(
 	'ccaa-heading' => 'KUM.EMREN',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Gemmaa
  * @author SMP
  * @author Toniher
@@ -384,7 +384,7 @@ $messages['ca'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  * @author Mormegil
  */
@@ -396,6 +396,22 @@ $messages['cs'] = array(
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Zobrazit',
 	'province-none' => '(Neznámý)',
+);
+
+/** Danish (dansk)
+ * @author Tjernobyl
+ */
+$messages['da'] = array(
+	'not-available' => 'Ikke tilgængelig',
+	'date-unknown' => 'Ukendt',
+	'count-heading' => 'Fotografier',
+	'bic-list' => 'Liste',
+	'bic-gallery' => 'Galleri',
+	'bic-list-bad' => 'Vis',
+	'bic-list-all' => 'Fuldstændig liste',
+	'unregistered' => 'Uregistreret',
+	'users-list' => 'Vis',
+	'province-none' => '(Ukendt)',
 );
 
 /** German (Deutsch)
@@ -507,7 +523,7 @@ $messages['dsb'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author McDutchie
  * @author Platonides
  * @author Vivaelcelta
@@ -558,7 +574,7 @@ $messages['es'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -620,7 +636,7 @@ $messages['fa'] = array(
 	'province-none' => '(نامعلوم)',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Silvonen
  */
 $messages['fi'] = array(
@@ -628,7 +644,7 @@ $messages['fi'] = array(
 	'show-images-all' => 'Näytä kaikki kuvat',
 );
 
-/** French (Français)
+/** French (français)
  * @author Jean-Frédéric
  * @author Od1n
  */
@@ -827,7 +843,7 @@ $messages['hsb'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
@@ -876,7 +892,7 @@ $messages['hu'] = array(
 	'ccaa-heading' => 'Aut. köz.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -977,7 +993,7 @@ $messages['inh'] = array(
 	'users-list' => 'БӀаргтассар',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Gianfranco
  * @author ZioNicco
  */
@@ -1042,7 +1058,7 @@ $messages['ja'] = array(
 	'author' => '著者',
 	'upload-time' => 'アップロード時間',
 	'deleted' => '削除済み ($1)',
-	'not-available' => '利用できない状態です。',
+	'not-available' => '利用できません',
 	'date-unknown' => '不明',
 	'total-images' => '総画像数: $1',
 	'view-uncategorized-images' => '未分類の画像を表示',
@@ -1167,7 +1183,7 @@ Pro Provënz weisen',
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1290,7 +1306,7 @@ $messages['nl'] = array(
 	'provide-id' => 'Geef een monument-ID op om de beschikbare gegevens ervoor te bekijken',
 	'show-images-bad-only' => 'Alleen afbeeldingen buiten de lijsten weergeven',
 	'show-images-all' => 'Alle afbeeldingen weergeven',
-	'show-images-removed' => 'Afbeeldingen die verwijderd zijn uit de wedstrijd weergeven',
+	'show-images-removed' => 'Afbeeldingen weergeven die verwijderd zijn uit de wedstrijd',
 	'search-monuments' => 'Monumenten zoeken',
 	'view-frequency' => 'Populaire monumenten',
 	'view-ccaa' => 'Per autonome gemeenschap bekijken',
@@ -1330,7 +1346,7 @@ $messages['pdc'] = array(
 	'province-none' => '(Net bekannt)',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Grzechooo
  * @author Sp5uhe
  * @author Woytecr
@@ -1381,7 +1397,7 @@ $messages['pl'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -1422,6 +1438,7 @@ $messages['ro'] = array(
 	'bic-list-bad' => 'Arată',
 	'bic-list-all' => 'Lista completă',
 	'unregistered' => 'Neînregistrați',
+	'users-text' => 'Această pagină afișează autorii și imaginile pe care le-au încărcat, precum și numărul de monumente pentru care au încărcat',
 	'users-list' => 'Vizualizează',
 	'distict-monuments' => 'Monumente distincte',
 	'province-heading' => 'Provincie',
@@ -1429,7 +1446,7 @@ $messages['ro'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1469,7 +1486,7 @@ $messages['roa-tara'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Express2000
  * @author Александр Сигачёв
@@ -1520,7 +1537,7 @@ $messages['ru'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1569,7 +1586,7 @@ $messages['sl'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1620,7 +1637,7 @@ $messages['sr-ec'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1671,7 +1688,7 @@ $messages['sr-el'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lokal Profil
  */
 $messages['sv'] = array(
@@ -1742,7 +1759,7 @@ $messages['te'] = array(
 	'bic-list-all' => 'పూర్తి జాబితా',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1775,7 +1792,7 @@ $messages['tr'] = array(
 	'count-heading' => 'Fotoğraflar',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author A1
  */
 $messages['uk'] = array(
@@ -1873,7 +1890,7 @@ $messages['vi'] = array(
 	'ccaa-heading' => 'CĐTT',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hzy980512
  * @author Yfdyh000
  */
@@ -1901,7 +1918,7 @@ $messages['zh-hans'] = array(
 	'province-none' => '（未知）',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

@@ -67,7 +67,7 @@ $messages['as'] = array(
 	'input' => 'ইনপুট',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -78,7 +78,7 @@ $messages['ast'] = array(
 	'output' => 'Salida pa "$1"',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -111,7 +111,7 @@ $messages['bn'] = array(
 	'output' => '"$1"-এর জন্য আউটপুট',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -122,7 +122,7 @@ $messages['br'] = array(
 	'output' => 'Ezvont evit "$1"',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -130,7 +130,7 @@ $messages['bs'] = array(
 	'output' => 'Izlaz za "$1"',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -141,7 +141,7 @@ $messages['ca'] = array(
 	'output' => 'Sortida per «$1»',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
@@ -150,7 +150,7 @@ $messages['cs'] = array(
 	'output' => 'Výstup pro " $1 "',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -190,7 +190,7 @@ $messages['el'] = array(
 	'no-matches' => 'Τίποτα δεν βρέθηκε για το "$1"',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -212,7 +212,7 @@ $messages['fa'] = array(
 	'output' => 'خروجی برای «$1»',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  */
 $messages['fi'] = array(
@@ -223,7 +223,7 @@ $messages['fi'] = array(
 	'output' => 'Tulokset haulle ”$1”',
 );
 
-/** French (Français)
+/** French (français)
  * @author Jean-Frédéric
  */
 $messages['fr'] = array(
@@ -267,7 +267,7 @@ $messages['hi'] = array(
 	'output' => '"$1" के लिये आउटपुट',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -289,7 +289,7 @@ $messages['hsb'] = array(
 	'output' => 'Wudaće za "$1"',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -300,7 +300,7 @@ $messages['hu'] = array(
 	'output' => 'Eredmény: „$1”',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -322,7 +322,7 @@ $messages['id'] = array(
 	'output' => 'Output untuk " $1 "',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Gianfranco
  * @author Nemo bis
@@ -355,6 +355,13 @@ $messages['km'] = array(
 	'output' => 'លទ្ឋផលចំពោះ"$1"',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'output' => '"$1"에 대한 출력',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -384,7 +391,7 @@ $messages['lez'] = array(
 	'input' => 'Экъечlун',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -395,7 +402,7 @@ $messages['lt'] = array(
 	'output' => 'Išvestis "$1"',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -417,7 +424,7 @@ $messages['ms'] = array(
 	'output' => 'Output untuk "$1"',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'formats-heading' => 'utdataformater',
 	'input' => 'Inndata',
@@ -438,7 +445,7 @@ $messages['nl'] = array(
 	'output' => 'Uitvoer voor "$1"',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -449,7 +456,7 @@ $messages['no'] = array(
 	'output' => 'Utdata for «$1»',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Odder
  * @author Sp5uhe
  */
@@ -461,7 +468,7 @@ $messages['pl'] = array(
 	'output' => 'Wynik dla „$1”',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
  */
@@ -473,7 +480,7 @@ $messages['pt'] = array(
 	'output' => 'Resultados para "$1"',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -484,7 +491,7 @@ $messages['pt-br'] = array(
 	'output' => 'Resultados para "$1"',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -495,7 +502,7 @@ $messages['ro'] = array(
 	'output' => 'Datele de ieșire pentru „$1”',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -506,7 +513,7 @@ $messages['roa-tara'] = array(
 	'output' => 'Resultate pe "$1"',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Александр Сигачёв
  */
@@ -518,7 +525,7 @@ $messages['ru'] = array(
 	'output' => 'Выход для «$1»',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -529,7 +536,7 @@ $messages['sl'] = array(
 	'output' => 'Izhod za »$1«',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -540,7 +547,7 @@ $messages['sr-ec'] = array(
 	'output' => 'Излаз за „$1“',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -551,7 +558,7 @@ $messages['sr-el'] = array(
 	'output' => 'Izlaz za „$1“',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Liftarn
  */
 $messages['sv'] = array(
@@ -598,7 +605,7 @@ $messages['tr'] = array(
 	'output' => '"$1" için çıkış',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author A1
  */
 $messages['uk'] = array(
@@ -620,7 +627,7 @@ $messages['vi'] = array(
 	'output' => 'Kết quả “$1”',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Yfdyh000
  */
@@ -632,7 +639,7 @@ $messages['zh-hans'] = array(
 	'output' => '输出的 "$1"',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Lauhenry
  */
 $messages['zh-hant'] = array(
@@ -641,7 +648,7 @@ $messages['zh-hant'] = array(
 	'no-matches' => '找不到 "$1"',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

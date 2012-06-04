@@ -165,7 +165,7 @@ $messages['as'] = array(
 	'uploading' => 'আপল’ড কৰি থকা হৈছে',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -203,7 +203,7 @@ $messages['ast'] = array(
 	'finalise' => 'Finar detalles',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Wertuose
  */
@@ -220,7 +220,7 @@ $messages['az'] = array(
 	'svginput-label' => 'SVG fayl',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -298,7 +298,7 @@ $messages['be-tarask'] = array(
 	'finalise' => 'Падсумуйце апісаньне падрабязнасьцяў',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -353,7 +353,7 @@ $messages['bn'] = array(
 	'finalise' => 'বিস্তারিত চূড়ান্ত',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -391,7 +391,7 @@ $messages['br'] = array(
 	'finalise' => 'Peurlipat ar munudoù',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -401,7 +401,7 @@ $messages['bs'] = array(
 	'translate' => 'Prijevod',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -439,7 +439,7 @@ $messages['ca'] = array(
 	'finalise' => 'Conclusió dels detalls',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
@@ -463,7 +463,7 @@ $messages['cs'] = array(
 	'description-license' => 'Vyberte popis a licenci',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  * @author Sarrus
  */
@@ -610,7 +610,7 @@ $messages['el'] = array(
 	'preview-refresh' => 'Ανανέωση προεπισκόπησης',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  * @author Platonides
  */
@@ -649,7 +649,7 @@ $messages['es'] = array(
 	'finalise' => 'Finalizar detalles',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -726,7 +726,7 @@ $messages['fa'] = array(
 	'finalise' => 'نهایی‌سازی جزئیات',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Olli
  */
@@ -765,7 +765,7 @@ $messages['fi'] = array(
 	'finalise' => 'Viimeistele tiedot',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author IAlex
  * @author Jean-Frédéric
@@ -891,7 +891,7 @@ $messages['he'] = array(
 	'finalise' => 'גימור פרטים',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -966,7 +966,7 @@ $messages['hsb'] = array(
 	'finalise' => 'Podrobnosće wudospołnić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -1004,7 +1004,7 @@ $messages['hu'] = array(
 	'finalise' => 'Részletek véglegesítése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1090,7 +1090,7 @@ $messages['inh'] = array(
 	'translate' => 'торжам де',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Mpitt
  */
@@ -1303,7 +1303,7 @@ $messages['lez'] = array(
 	'th-password' => 'Куьлег',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -1337,7 +1337,7 @@ $messages['lt'] = array(
 	'preview-refresh' => 'Atnaujinti peržiūrą',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -1348,7 +1348,7 @@ $messages['lv'] = array(
 	'uploading' => 'Augšupielādē',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1484,7 +1484,7 @@ $messages['mzn'] = array(
 	'th-language' => 'زوون',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1599,7 +1599,7 @@ $messages['nl'] = array(
 	'finalise' => 'Rond de details af',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1653,7 +1653,7 @@ $messages['pdc'] = array(
 	'uploading' => 'Am ufflaade…',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Masti
  * @author Sp5uhe
  */
@@ -1710,7 +1710,7 @@ $messages['ps'] = array(
 	'preview-hide' => 'مخليدنه پټول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
  * @author Malafaya
@@ -1736,7 +1736,7 @@ $messages['pt'] = array(
 	'finalise' => 'Finalizar detalhes',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Pedroca cerebral
  */
 $messages['pt-br'] = array(
@@ -1759,7 +1759,7 @@ $messages['pt-br'] = array(
 	'translate' => 'Traduzir',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -1797,7 +1797,7 @@ $messages['ro'] = array(
 	'finalise' => 'Finalizează detaliile',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1833,7 +1833,7 @@ $messages['roa-tara'] = array(
 	'finalise' => 'Finalizze le dettaglie',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1871,7 +1871,7 @@ $messages['ru'] = array(
 	'finalise' => 'Заключительные подробности',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1909,7 +1909,7 @@ $messages['sl'] = array(
 	'finalise' => 'Dokončajte podrobnosti',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1947,7 +1947,7 @@ $messages['sr-ec'] = array(
 	'finalise' => 'Доврши детаље',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1985,7 +1985,7 @@ $messages['sr-el'] = array(
 	'finalise' => 'Dovrši detalje',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Liftarn
  * @author Lokal Profil
  */
@@ -2048,7 +2048,7 @@ $messages['te'] = array(
 	'th-original' => 'అసలు',
 	'th-translation' => 'అనువాదం',
 	'th-language' => 'భాష',
-	'th-username' => 'వాడుకరిపేరు',
+	'th-username' => 'వాడుకరి పేరు',
 	'th-password' => 'సంకేతపదం',
 	'th-method' => 'పద్ధతి',
 	'preview' => 'మునుజూపు',
@@ -2059,7 +2059,7 @@ $messages['te'] = array(
 	'preview-hide' => 'మునుజూపును దాచు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -2107,7 +2107,7 @@ $messages['tl'] = array(
 	'finalise' => 'Buuin na ang mga detalye',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -2163,7 +2163,7 @@ $messages['tr'] = array(
 	'finalise' => 'Ayrıntıları tamamlayın',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Dim Grits
  * @author Тест
  */
@@ -2239,7 +2239,7 @@ $messages['vi'] = array(
 	'finalise' => 'Hoàn tất các chi tiết',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Liangent
  * @author Shizhao
@@ -2279,7 +2279,7 @@ $messages['zh-hans'] = array(
 	'finalise' => '敲定细节',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
@@ -2317,7 +2317,7 @@ $messages['zh-hant'] = array(
 	'finalise' => '敲定細節',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

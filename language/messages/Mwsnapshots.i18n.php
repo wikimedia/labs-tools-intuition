@@ -71,7 +71,7 @@ $messages['qqq'] = array(
 * $1: Branch name',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -100,6 +100,37 @@ $messages['ast'] = array(
 	'tablehead-branch' => 'Rama',
 	'tablehead-filesize' => 'Tamañu del ficheru',
 	'tablehead-hash' => 'Sumes de comprobación',
+);
+
+/** Breton (brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'title-overview' => 'Tapadennoù prim',
+	'title-error' => 'Fazi',
+	'title-updatelog' => 'Hizivaat ar marilh',
+	'updatelog-intro' => "Programmet eo ar skript hizivaat evit treiñ bep eurvezh. Dindan emañ ezvont ar penell war-lerc'h an erounezadur diwezhañ.",
+	'updatelog-active' => "Emañ ar skript hizivaat o treiñ. Deuit en-dro diwezhatoc'hik evit gwelet ar marilh klok.",
+	'download-button' => 'Pellgargañ $1',
+	'download-directlink' => 'Liamm eeun',
+	'title-downloadpage' => 'Pellgargañ : $1',
+	'downloadpage-directlink' => 'Klikañ amañ evit pellgargañ an dabadenn brim.',
+	'err-snapshotindex' => 'Dihegerz eo ar meneger tapadennoù prim evit ar poent. Klaskit en-dro a-benn ur pennadig bihan.',
+	'err-invalid-repo' => 'Kavlec\'h dianav: "$1".',
+	'err-invalid-branch' => 'Skourr dianav: "$1" er c\'havlec\'h "$2".',
+	'err-nosnapshot' => 'Bep un nebeud eurvezhioù e vez ganet an tapadennoù prim. Ur fazi zo bet e-ser genel an dapadenn brim evit "$1". Klaskit en-dro a-benn ur pennadig bihan.',
+	'err-noupdatelog' => "N'eus bet kavet hizivadenn ebet",
+	'repo-site-link' => "Lec'hienn",
+	'repo-browse-link' => "Furchal er c'havlec'h",
+	'repo-branches-label' => 'Skourroù :',
+	'repo-lastmoddate-label' => 'Deiziad :',
+	'branches-submit-button' => 'Pakañ anezhi !',
+	'updatelog-link' => 'hizivaat ar marilh',
+	'tablehead-repo' => "Kavlec'h",
+	'tablehead-snapshots' => 'Tapadennoù prim',
+	'tablehead-branch' => 'Skourr',
+	'tablehead-filesize' => 'Ment ar restr',
+	'tablehead-hash' => 'Hacherezh',
 );
 
 /** German (Deutsch)
@@ -183,7 +214,7 @@ $messages['dsb'] = array(
 	'tablehead-hash' => 'Testowańske sumy',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Invadinado
  */
@@ -215,7 +246,7 @@ $messages['es'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author Tititou36
  */
@@ -340,7 +371,7 @@ $messages['hsb'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -371,7 +402,7 @@ $messages['ia'] = array(
 	'tablehead-hash' => 'Summas de controlo',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Ximo17
  */
@@ -424,6 +455,34 @@ $messages['ja'] = array(
 	'tablehead-hash' => 'チェックサム',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'title-error' => 'Fähler',
+	'title-updatelog' => 'Logbooch',
+	'updatelog-intro' => 'Dat Projramm för der neue Schtand leuf jeede Schtund.
+Heh kütt, wat dat Projramm op de Konsole jeschrevve hät.',
+	'download-button' => '$1 eronger laade',
+	'download-directlink' => 'tiräkte Lenk',
+	'title-downloadpage' => '$1 eronger laade',
+	'repo-site-link' => 'Websaijt',
+	'repo-branches-label' => 'Zweije vun dä Versione:',
+	'repo-lastmoddate-label' => 'Dattum:',
+	'branches-submit-button' => 'Lohß Jonn!',
+	'updatelog-link' => 'Logbooch',
+	'tablehead-branch' => 'Zweisch vun dä Version',
+	'tablehead-filesize' => 'Datteiömfang',
+	'tablehead-hash' => 'Prööfsumme',
+);
+
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'title-error' => 'Çewtî',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -433,12 +492,15 @@ $messages['lb'] = array(
 	'download-directlink' => 'direkte Link',
 	'title-downloadpage' => '$1 eroflueden',
 	'downloadpage-directlink' => 'Klickt hei fir de Snapshot erofzelueden.',
+	'err-noupdatelog' => "D'Logbuch vun den Aktualisatioune gouf net fonnt",
 	'repo-site-link' => 'Internetsite',
 	'repo-lastmoddate-label' => 'Datum:',
+	'branches-submit-button' => 'Eroflueden!',
 	'tablehead-filesize' => 'Gréisst vum Fichier',
+	'tablehead-hash' => 'Kontrollzuelen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -531,7 +593,42 @@ $messages['nl'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
-/** Slovenian (Slovenščina)
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'title-overview' => 'Instantanee',
+	'title-error' => 'Eroare',
+	'title-updatelog' => 'Jurnal actualizări',
+	'download-button' => 'Descărcare $1',
+	'download-directlink' => 'legătură directă',
+	'title-downloadpage' => 'Descărcare: $1',
+	'downloadpage-directlink' => 'Faceți clic aici pentru a descărca instantaneul.',
+	'err-snapshotindex' => 'Indexul instantaneilor este temporar indisponibil. Vă rugăm să reîncercați mai târziu.',
+	'err-invalid-repo' => 'Depozit necunoscut: „$1”.',
+	'err-invalid-branch' => 'Ramură necunoscută: „$1” în depozitul „$2”.',
+	'err-nosnapshot' => 'Instantaneele sunt generate la fiecare câteva ore. În timpul generării instantaneului pentru „$1” a apărut o eroare. Vă rugăm să reîncercați mai târziu.',
+	'err-noupdatelog' => 'Nu s-a găsit niciun jurnal al actualizărilor.',
+	'repo-site-link' => 'Site web',
+	'repo-browse-link' => 'Răsfoire depozit',
+	'repo-branches-label' => 'Ramuri:',
+	'repo-lastmoddate-label' => 'Dată:',
+	'branches-submit-button' => 'Ia-l!',
+	'updatelog-link' => 'actualizare jurnal',
+	'tablehead-repo' => 'Depozit',
+	'tablehead-snapshots' => 'Instantanee',
+	'tablehead-branch' => 'Ramură',
+	'tablehead-filesize' => 'Mărime fișier',
+);
+
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'title-error' => 'Errore',
+);
+
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -549,7 +646,7 @@ $messages['sl'] = array(
 	'tablehead-filesize' => 'Velikost datoteke',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -580,7 +677,7 @@ $messages['sr-ec'] = array(
 	'tablehead-hash' => 'Контролни збир',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -620,7 +717,7 @@ $messages['te'] = array(
 	'repo-lastmoddate-label' => 'తేది:',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(

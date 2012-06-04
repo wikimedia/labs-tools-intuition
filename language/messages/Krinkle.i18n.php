@@ -65,7 +65,7 @@ $messages['as'] = array(
 	'form-legend-settings' => 'ছেটিং',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -76,7 +76,7 @@ $messages['ast'] = array(
 	'form-legend-settings' => 'Configuración',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -98,7 +98,7 @@ $messages['be-tarask'] = array(
 	'form-legend-settings' => 'Налады',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -117,7 +117,7 @@ $messages['bn'] = array(
 	'form-legend-settings' => 'সেটিং',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -128,12 +128,12 @@ $messages['br'] = array(
 	'form-legend-settings' => 'Arventennoù',
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $messages['bs'] = array(
 	'form-legend-settings' => 'Postavke',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -143,14 +143,14 @@ $messages['ca'] = array(
 	'form-legend-settings' => 'Paràmetres',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
 	'alws-group-mustused' => 'Nejpoužívanější wiki',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -191,7 +191,7 @@ $messages['el'] = array(
 	'form-legend-settings' => 'Ρυθμίσεις',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -201,7 +201,7 @@ $messages['es'] = array(
 	'form-legend-settings' => 'Configuración',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -223,7 +223,7 @@ $messages['fa'] = array(
 	'form-legend-settings' => 'تنظیمات',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Silvonen
  */
@@ -234,7 +234,7 @@ $messages['fi'] = array(
 	'form-legend-settings' => 'Asetukset',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Peter17
  * @author Verdy p
@@ -278,7 +278,7 @@ $messages['hi'] = array(
 	'form-legend-settings' => 'सेटिंग्स',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -298,7 +298,7 @@ $messages['hsb'] = array(
 	'form-legend-settings' => 'Nastajenja',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -309,7 +309,7 @@ $messages['hu'] = array(
 	'form-legend-settings' => 'Beállítások',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -330,7 +330,7 @@ $messages['id'] = array(
 	'form-legend-settings' => 'Pengaturan',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Rippitippi
  */
 $messages['it'] = array(
@@ -357,6 +357,13 @@ $messages['km'] = array(
 	'form-legend-settings' => 'ការកំណត់​នានា',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'alws-selectwiki' => '(위키 선택)',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -379,7 +386,7 @@ $messages['lb'] = array(
 	'form-legend-settings' => 'Astellungen',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
@@ -388,7 +395,7 @@ $messages['lt'] = array(
 	'form-legend-settings' => 'Nustatymai',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -420,7 +427,7 @@ $messages['ms'] = array(
 	'form-legend-settings' => 'Tetapan',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -438,7 +445,7 @@ $messages['nb'] = array(
 $messages['nl'] = array(
 	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(selecteer een wiki)',
-	'alws-group-mustused' => "Meeste gebruikte wiki's",
+	'alws-group-mustused' => "Meest gebruikte wiki's",
 	'alws-group-allaz' => 'Alle wikis op alfabetische volgorde',
 	'form-legend-settings' => 'Instellingen',
 );
@@ -451,7 +458,7 @@ $messages['nl-informal'] = array(
 	'form-legend-settings' => 'Instellingen',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -470,7 +477,7 @@ $messages['pdc'] = array(
 	'form-legend-settings' => 'Uffstellinge',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -490,12 +497,12 @@ $messages['ps'] = array(
 	'form-legend-settings' => 'امستنې',
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $messages['pt'] = array(
 	'form-legend-settings' => 'Definições',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Pedroca cerebral
  */
 $messages['pt-br'] = array(
@@ -505,7 +512,7 @@ $messages['pt-br'] = array(
 	'form-legend-settings' => 'Configurações',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -516,7 +523,7 @@ $messages['ro'] = array(
 	'form-legend-settings' => 'Setări',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -527,7 +534,7 @@ $messages['roa-tara'] = array(
 	'form-legend-settings' => "'Mbostaziune",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Rave
  */
 $messages['ru'] = array(
@@ -537,7 +544,7 @@ $messages['ru'] = array(
 	'form-legend-settings' => 'Настройки',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -548,7 +555,7 @@ $messages['sl'] = array(
 	'form-legend-settings' => 'Nastavitve',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -559,7 +566,7 @@ $messages['sr-ec'] = array(
 	'form-legend-settings' => 'Поставке',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -570,7 +577,7 @@ $messages['sr-el'] = array(
 	'form-legend-settings' => 'Postavke',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Liftarn
  * @author Lokal Profil
  */
@@ -612,7 +619,7 @@ $messages['tl'] = array(
 	'form-legend-settings' => 'Mga katakdaan',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -642,7 +649,7 @@ $messages['vi'] = array(
 	'form-legend-settings' => 'Tùy chọn',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
@@ -652,7 +659,7 @@ $messages['zh-hans'] = array(
 	'form-legend-settings' => '设置',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

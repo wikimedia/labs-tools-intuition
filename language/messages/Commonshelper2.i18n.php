@@ -213,7 +213,7 @@ $messages['as'] = array(
 	'standard_language' => 'as',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -265,7 +265,7 @@ $messages['ast'] = array(
 	'help_commons' => '$1Escribi un mensaxe en Commons$2',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -282,7 +282,7 @@ $messages['az'] = array(
 	'new_filename' => 'Yeni fayl adı:',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -382,7 +382,7 @@ $messages['be-tarask'] = array(
 	'help_commons' => '$1Дадаць паведамленьне на Commons$2',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -457,7 +457,7 @@ $messages['bn'] = array(
 	'error_upload_file' => 'মূল ফাইল ডাউনলোড করা যাবে না।',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -509,7 +509,7 @@ $messages['br'] = array(
 	'help_commons' => '$1Ouzhpennañ ur gemennadenn war Commons$2',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -560,7 +560,7 @@ $messages['ca'] = array(
 	'help_commons' => '$1Afegeix un missatge a Commons$2',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
@@ -578,7 +578,7 @@ $messages['cs'] = array(
 	'target_wiki' => 'cílová wiki',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -753,7 +753,7 @@ $messages['dsb'] = array(
 	'help_commons' => '$1Powěsć na Commons zawóstajiś$2',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Fitoschido
  * @author Platonides
@@ -807,7 +807,7 @@ $messages['es'] = array(
 	'help_commons' => '$1Dejando un mensaje en Commons$2',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -882,7 +882,7 @@ $messages['fa'] = array(
 	'help_mail' => 'ارسال پست الکترونیکی به $1',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Olli
  */
@@ -927,7 +927,7 @@ $messages['fi'] = array(
 	'error_upload_file' => 'Alkuperäistä tiedostoa ei voida ladata.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Hashar
  * @author IAlex
  * @author Od1n
@@ -1143,7 +1143,7 @@ $messages['he'] = array(
 	'help_commons' => '$1הוספת רשומה בוויקישיתוף$2',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -1238,7 +1238,7 @@ $messages['hsb'] = array(
 	'help_commons' => '$1Powěsć na Commons zawostajić$2',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  */
@@ -1290,7 +1290,7 @@ $messages['hu'] = array(
 	'help_commons' => '$1Üzenet küldése a Commons-ra$2',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1411,7 +1411,7 @@ $messages['inh'] = array(
 	'categories' => 'Цатегаш',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Gianfranco
  * @author Nemo bis
@@ -1532,6 +1532,7 @@ $messages['ka'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'attention' => '주의',
@@ -1554,6 +1555,7 @@ $messages['ko'] = array(
 	'do_it' => '시작',
 	'error_transfer_usr' => '위키미디어 공용의 계정 이름을 입력하지 않았습니다.',
 	'error_not_exists' => '원본 파일이 없습니다!',
+	'error_on_commons' => '소스 파일이 이미 $1에 있습니다!',
 	'error_file_exists' => '$3에 "$1$4$2"로 파일이 이미 올라와 있습니다!',
 	'error_diff_exists' => '파일을 올릴 위키에 똑같은 이름의 다른 파일이 있습니다!',
 	'error_no_meta' => '원본 위키에 대한 메타데이터를 찾지 못했습니다! $1해당 프로젝트에 대한 메타데이터를 추가/업데이트해주세요.$2',
@@ -1574,6 +1576,10 @@ $messages['ko'] = array(
 	'error_commons_user' => '파일을 옮긴 사용자를 판별하기 위해 당신의 공용 계정 이름이 설명에 들어있어야 합니다!',
 	'error_upload_users' => '테스트 기간 중 올리기 기능은 일부 사용자만이 사용할 수 있습니다!',
 	'error_upload_file' => '원본 파일을 다운로드할 수 없습니다.',
+	'help_intro' => '버그를 보고하거나 알찬 것을 제안하거나 질문이 있으면 아래에 문의 유형 중 하나를 사용할 수 있습니다:',
+	'help_jira' => '$1JIRA (계정 필요)$2 (Project: Commonshelper2)',
+	'help_mail' => '$1한테 메일 보내기',
+	'help_commons' => '$1공용에 게시물 추가$2',
 );
 
 /** Colognian (Ripoarisch)
@@ -1635,6 +1641,7 @@ $messages['ksh'] = array(
 $messages['ku-latn'] = array(
 	'language' => 'Ziman',
 	'project' => 'Proje',
+	'categories' => 'Kategorî',
 );
 
 /** Latin (Latina)
@@ -1706,7 +1713,7 @@ $messages['lez'] = array(
 	'new_wikitext' => 'Цlийи вики кхьин',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
@@ -1725,7 +1732,7 @@ $messages['lt'] = array(
 	'upload_submit' => 'Įkelti!',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -1742,7 +1749,7 @@ $messages['min'] = array(
 	'attention' => 'Pangumuaman',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1965,7 +1972,7 @@ $messages['mzn'] = array(
 	'error_upload_file' => 'اصلی پرونده باربی‌یشته نوانه.',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2069,7 +2076,7 @@ $messages['nl'] = array(
 	'help_commons' => '$1Bericht toevoegen op Wikimedia Commons$2',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -2145,7 +2152,7 @@ $messages['pdc'] = array(
 	'standard_language' => 'pdc',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  * @author Woytecr
  */
@@ -2210,7 +2217,7 @@ $messages['ps'] = array(
 	'new_filename' => 'د نوې دوتنې نوم:',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Analuisa
  */
 $messages['pt'] = array(
@@ -2222,7 +2229,7 @@ $messages['pt'] = array(
 	'standard_language' => 'pt',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Helder.wiki
  */
@@ -2269,7 +2276,7 @@ $messages['pt-br'] = array(
 	'error_upload_file' => 'O arquivo original não pode ser baixado.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -2320,7 +2327,7 @@ $messages['ro'] = array(
 	'help_commons' => '$1Adaugă un comentariu la Commons$2',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -2361,7 +2368,7 @@ $messages['roa-tara'] = array(
 	'help_commons' => "$1 Aggiunge 'nu messagge sus a Commons$2",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Askarmuk
  * @author DarkSTALKER
  * @author Lvova
@@ -2429,7 +2436,7 @@ $messages['si'] = array(
 	'standard_language' => 'ඉංග්‍රීසි',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -2480,7 +2487,7 @@ $messages['sl'] = array(
 	'help_commons' => '$1Dodaj objavo na Zbirko$2',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2534,7 +2541,7 @@ $messages['sr-ec'] = array(
 	'help_commons' => '$1Додајте поруку у оставу$2',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -2588,7 +2595,7 @@ $messages['sr-el'] = array(
 	'help_commons' => '$1Dodajte poruku u ostavu$2',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Liftarn
  * @author Lokal Profil
@@ -2676,7 +2683,7 @@ $messages['te'] = array(
 	'new_wikitext' => 'కొత్త వికీ పాఠ్యం',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -2749,7 +2756,7 @@ $messages['tl'] = array(
 	'error_upload_file' => 'Hindi maikakargang paibaba ang orihinal talaksan.',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -2793,7 +2800,7 @@ $messages['tr'] = array(
 	'help_mail' => '$1 adresine bir e-posta gönderin.',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Dim Grits
  * @author Тест
  */
@@ -2857,7 +2864,7 @@ $messages['vi'] = array(
 	'help_commons' => '$1Thảo luận tại Commons$2',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Hzy980512
  * @author Linforest
@@ -2905,14 +2912,14 @@ $messages['zh-hans'] = array(
 	'help_mail' => '发送邮件给$1',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Lauhenry
  */
 $messages['zh-hant'] = array(
 	'attention' => '注意',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

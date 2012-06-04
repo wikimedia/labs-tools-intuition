@@ -39,14 +39,14 @@ $messages['ar'] = array(
 	'title' => 'النشاط المجهول الحديث',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
 	'title' => 'Actividá anónima reciente',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -67,28 +67,28 @@ $messages['bn'] = array(
 	'title' => 'সাম্প্রতিক বেনামী কর্মকাণ্ড',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'title' => 'Obererezh dianv er mareoù-mañ',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Solde
  */
 $messages['ca'] = array(
 	'title' => 'Activitat anònima recent',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
 	'title' => 'Nedávná aktivita anonymů',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -116,7 +116,7 @@ $messages['el'] = array(
 	'title' => 'Πρόσφατη ανώνυμη δραστηριότητα',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -130,7 +130,7 @@ $messages['fa'] = array(
 	'title' => 'فعالیت‌های ناشناس اخیر',
 );
 
-/** French (Français)
+/** French (français)
  * @author Peter17
  */
 $messages['fr'] = array(
@@ -158,7 +158,7 @@ $messages['hi'] = array(
 	'title' => 'हाल में हुई बेनामी गतिविधि',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -172,14 +172,14 @@ $messages['hsb'] = array(
 	'title' => 'Najnowša anonymna aktiwita',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
 	'title' => 'Legutóbbi anonim tevékenységek',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -193,7 +193,7 @@ $messages['id'] = array(
 	'title' => 'Aktifitas tak terdaftar akhir akhir ini',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Mpitt
  */
 $messages['it'] = array(
@@ -221,7 +221,7 @@ $messages['lb'] = array(
 	'title' => 'Rezent Aktivitéit vun anonyme Benotzer',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -235,7 +235,7 @@ $messages['ms'] = array(
 	'title' => 'Kegiatan terbaru oleh pengguna tanpa nama',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -250,42 +250,42 @@ $messages['nl'] = array(
 	'title' => 'Recente activiteit van anonieme gebruikers',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'title' => 'Siste anonyme aktivitet',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
 	'title' => 'Ostatnia anonimowa aktywność',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
 	'title' => 'Actividade anónima recente',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
 	'title' => 'Recent anonymous activity',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'title' => 'Attività anonime recende',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Александр Сигачёв
  */
@@ -293,28 +293,28 @@ $messages['ru'] = array(
 	'title' => 'Недавняя анонимная деятельность',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'title' => 'Nedavna brezimna dejavnost',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
 	'title' => 'Скорашња активност анонимних корисника',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
 	'title' => 'Skorašnja aktivnost anonimnih korisnika',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lokal Profil
  */
 $messages['sv'] = array(
@@ -349,14 +349,14 @@ $messages['vi'] = array(
 	'title' => 'Hoạt động vô danh gần đây',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
 	'title' => '最近的匿名活动',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

@@ -113,7 +113,7 @@ $messages['as'] = array(
 	'filter-all-languages' => 'সকলো ভাষা',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -148,7 +148,7 @@ $messages['ast'] = array(
 	'toolbox-title-searchmonuments' => 'Guetar monumentos',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -156,7 +156,7 @@ $messages['az'] = array(
 	'search-table-th-search' => 'Axtar',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  * @author Wizardist
  */
@@ -227,7 +227,7 @@ $messages['be-tarask'] = array(
 	'toolbox-title-searchmonuments' => 'Пошук славутасьцяў',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -243,7 +243,7 @@ $messages['bn'] = array(
 	'filter-all-languages' => 'সকল ভাষা',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -268,9 +268,18 @@ $messages['br'] = array(
 	'db-field-source' => 'Mammenn',
 	'db-field-monument_article' => 'Pennad monumant',
 	'db-field-registrant_url' => 'URL an diaz roadennoù',
+	'toolbox-label-searchtipps' => "Ober gant %term pe term% pe %term% evit klask diwar-c'horre",
+	'toolbox-meta-title' => 'Boest ostilhoù "Wiki a gar ar Monumantoù"',
+	'toolbox-main-title' => 'Boest ostilhoù WLM',
+	'toolbox-main-description' => 'Ur strollad ostilhoù a denn da',
+	'toolbox-wikilovesmonuments' => 'Wiki a gar ar Monumantoù',
+	'toolbox-nav-homepage' => 'Pajenn degemer',
+	'toolbox-nav-statistics' => 'Stadegoù',
+	'toolbox-nav-search' => 'Klask',
+	'toolbox-title-searchmonuments' => 'Klask monumantoù',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  * @author Toniher
  */
@@ -306,7 +315,7 @@ $messages['ca'] = array(
 	'toolbox-title-searchmonuments' => 'Cerca monuments',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
@@ -331,7 +340,7 @@ $messages['cs'] = array(
 	'toolbox-title-searchmonuments' => 'Hledat monumenty',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author MGA73
  * @author Peter Alberti
  */
@@ -433,7 +442,7 @@ $messages['el'] = array(
 	'filter-all-languages' => 'Όλες οι γλώσσες',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Fitoschido
  * @author Invadinado
@@ -472,16 +481,36 @@ $messages['es'] = array(
 	'toolbox-title-searchmonuments' => 'Buscar monumentos',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
+ * @author Pikne
  * @author WikedKentaur
  */
 $messages['et'] = array(
 	'search-table-th-field' => 'Väli',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Otsitekst',
+	'filter-all-countries' => 'Kõik riigid',
+	'filter-all-languages' => 'Kõik keeled',
+	'db-field-country' => 'Riik',
+	'db-field-lang' => 'Keel',
+	'db-field-id' => 'Number',
+	'db-field-name' => 'Nimi',
+	'db-field-address' => 'Aadress',
+	'db-field-municipality' => 'Omavalitsus',
+	'db-field-lat' => 'Laiuskraad',
+	'db-field-lon' => 'Pikkuskraad',
+	'db-field-image' => 'Pilt',
+	'db-field-changed' => 'Muudetud',
+	'db-field-source' => 'Allikas',
+	'db-field-monument_article' => 'Mälestise artikkel',
+	'db-field-registrant_url' => 'Registreerija URL',
+	'toolbox-nav-homepage' => 'Avaleht',
+	'toolbox-nav-statistics' => 'Statistikat',
+	'toolbox-nav-search' => 'Otsing',
+	'toolbox-title-searchmonuments' => 'Otsi mälestisi',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -508,7 +537,7 @@ $messages['fa'] = array(
 	'filter-all-languages' => 'همۀ زبان‌ها',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  */
 $messages['fi'] = array(
@@ -517,7 +546,7 @@ $messages['fi'] = array(
 	'search-table-th-search' => 'Haku',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author Hashar
  * @author Otourly
@@ -640,7 +669,7 @@ $messages['hi'] = array(
 	'db-field-monument_article' => 'स्मारक पर लेख',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -684,7 +713,7 @@ $messages['hsb'] = array(
 	'toolbox-title-searchmonuments' => 'Zajimawosće pytać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  */
@@ -712,7 +741,7 @@ $messages['hu'] = array(
 	'toolbox-main-title' => 'WLM Toolbox',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -754,7 +783,7 @@ $messages['inh'] = array(
 	'search-table-th-search' => 'Лаха',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Gianfranco
  * @author Nemo bis
@@ -893,7 +922,7 @@ $messages['lb'] = array(
 	'toolbox-title-searchmonuments' => 'Monumenter sichen',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
@@ -902,7 +931,7 @@ $messages['lt'] = array(
 	'search-table-th-search' => 'Paieška',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -910,7 +939,7 @@ $messages['lv'] = array(
 	'search-table-th-filter' => 'Filtrs',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -980,7 +1009,7 @@ $messages['ms'] = array(
 	'toolbox-title-searchmonuments' => 'Cari monumen',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1039,7 +1068,7 @@ $messages['nl'] = array(
 	'toolbox-title-searchmonuments' => 'Monumenten zoeken',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -1061,7 +1090,7 @@ $messages['pdc'] = array(
 	'filter-all-languages' => 'Alle Schprooche',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Odder
  * @author Sp5uhe
  */
@@ -1098,7 +1127,7 @@ $messages['ps'] = array(
 	'filter-all-languages' => 'ټولې ژبې',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Beria
  * @author Hamilton Abreu
  */
@@ -1125,7 +1154,7 @@ $messages['pt'] = array(
 	'db-field-registrant_url' => 'URL de registo',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -1134,7 +1163,7 @@ $messages['pt-br'] = array(
 	'search-table-th-search' => 'Pesquisar',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -1145,9 +1174,27 @@ $messages['ro'] = array(
 	'search-table-th-search' => 'Caută',
 	'filter-all-countries' => 'Toate țările',
 	'filter-all-languages' => 'Toate limbile',
+	'db-field-country' => 'Țară',
+	'db-field-lang' => 'Limbă',
+	'db-field-id' => 'Identificator',
+	'db-field-name' => 'Nume',
+	'db-field-address' => 'Adresă',
+	'db-field-municipality' => 'Localitate',
+	'db-field-lat' => 'Latitudine',
+	'db-field-lon' => 'Longitudine',
+	'db-field-image' => 'Imagine',
+	'db-field-changed' => 'Modificat',
+	'db-field-source' => 'Sursă',
+	'db-field-monument_article' => 'Articolul monumentului',
+	'db-field-registrant_url' => 'URL la baza de date',
+	'toolbox-main-description' => 'Un set de instrumente legate de',
+	'toolbox-nav-homepage' => 'Pagina principală',
+	'toolbox-nav-statistics' => 'Statistici',
+	'toolbox-nav-search' => 'Căutare',
+	'toolbox-title-searchmonuments' => 'Căutare monumente',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1158,9 +1205,21 @@ $messages['roa-tara'] = array(
 	'search-table-th-search' => 'Cirche',
 	'filter-all-countries' => 'Tutte le paise',
 	'filter-all-languages' => 'Tutte le lènghe',
+	'db-field-country' => 'Nazione',
+	'db-field-lang' => 'Lènghe',
+	'db-field-id' => 'Idendificatore',
+	'db-field-name' => 'Nome',
+	'db-field-address' => 'Indirizze',
+	'db-field-lat' => 'Latitudine',
+	'db-field-lon' => 'Longitudine',
+	'db-field-image' => 'Immaggine',
+	'db-field-changed' => 'Cangiate',
+	'db-field-source' => 'Sorgende',
+	'toolbox-nav-statistics' => 'Statisteche',
+	'toolbox-nav-search' => 'Cirche',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Askarmuk
  * @author Eleferen
  * @author Rave
@@ -1188,7 +1247,7 @@ $messages['ru'] = array(
 	'db-field-registrant_url' => 'URL-адрес регистранта',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1214,7 +1273,7 @@ $messages['sl'] = array(
 	'db-field-registrant_url' => 'URL registranta',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1249,7 +1308,7 @@ $messages['sr-ec'] = array(
 	'toolbox-title-searchmonuments' => 'Претрага споменика',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1284,7 +1343,7 @@ $messages['sr-el'] = array(
 	'toolbox-title-searchmonuments' => 'Pretraga spomenika',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Cybjit
  * @author Liftarn
  * @author Lokal Profil
@@ -1345,7 +1404,7 @@ $messages['te'] = array(
 	'filter-all-languages' => 'అన్ని భాషలు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1361,7 +1420,7 @@ $messages['tl'] = array(
 	'search-table-th-search' => 'Hanapin',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1387,7 +1446,7 @@ $messages['tr'] = array(
 	'filter-all-languages' => 'Bütün diller',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author A1
  * @author Тест
  */
@@ -1399,6 +1458,27 @@ $messages['uk'] = array(
 	'search-table-th-search' => 'Пошук',
 	'filter-all-countries' => 'Всі країни',
 	'filter-all-languages' => 'Всі мови',
+	'db-field-country' => 'Країна',
+	'db-field-lang' => 'Мова',
+	'db-field-id' => 'Ідентифікатор',
+	'db-field-name' => 'Назва',
+	'db-field-address' => 'Адреса',
+	'db-field-municipality' => 'Муніципалітет',
+	'db-field-lat' => 'Широта',
+	'db-field-lon' => 'Довгота',
+	'db-field-image' => 'Зображення',
+	'db-field-changed' => 'Змінено',
+	'db-field-source' => 'Джерело',
+	'db-field-monument_article' => "Стаття про пам'ятку",
+	'db-field-registrant_url' => 'URL-адреса в державній базі даних',
+	'toolbox-meta-title' => 'Панель інструментів',
+	'toolbox-main-title' => 'Панель інструментів',
+	'toolbox-main-description' => "Набір інструментів, які пов'язані з",
+	'toolbox-wikilovesmonuments' => "Вікі любить пам'ятки",
+	'toolbox-nav-homepage' => 'Домашня сторінка',
+	'toolbox-nav-statistics' => 'Статистика',
+	'toolbox-nav-search' => 'Пошук',
+	'toolbox-title-searchmonuments' => "Пошук пам'яток",
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -1450,7 +1530,7 @@ $messages['zea'] = array(
 	'db-field-municipality' => 'Gemeênte',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Hzy980512
  * @author Yfdyh000
@@ -1474,7 +1554,7 @@ $messages['zh-hans'] = array(
 	'toolbox-nav-search' => '搜索',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

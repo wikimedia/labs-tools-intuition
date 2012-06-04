@@ -79,7 +79,7 @@ $messages['as'] = array(
 	'namespace-label' => 'নামস্থান',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -94,7 +94,7 @@ $messages['ast'] = array(
 	'time-label' => 'Tiempu necesariu pa executar el comandu',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Wertuose
  */
 $messages['az'] = array(
@@ -118,7 +118,7 @@ $messages['be-tarask'] = array(
 	'time-label' => 'Час, які спатрэбіўся на выкананьня каманды',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -135,7 +135,7 @@ $messages['bn'] = array(
 	'namespace-label' => 'নামস্থান',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -150,7 +150,7 @@ $messages['br'] = array(
 	'time-label' => 'Amzer lakaet evit seveniñ an urzh',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -165,7 +165,7 @@ $messages['ca'] = array(
 	'time-label' => 'Temps necessari per executar les ordres',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
@@ -173,7 +173,7 @@ $messages['cs'] = array(
 	'namespace-label' => 'Jmenný prostor',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Erisos
  */
 $messages['da'] = array(
@@ -233,7 +233,7 @@ $messages['el'] = array(
 	'time-label' => 'Χρόνος που πέρασε για την εκτέλεση της εντολής',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -248,7 +248,7 @@ $messages['es'] = array(
 	'time-label' => 'Tiempo necesario para ejecutar la orden',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -271,7 +271,7 @@ $messages['fa'] = array(
 	'time-label' => 'زمان طول کشیده برای اجرای دستور',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Silvonen
  */
 $messages['fi'] = array(
@@ -280,7 +280,7 @@ $messages['fi'] = array(
 	'pagename-label' => 'Sivun nimi (ilman nimiavaruutta)',
 );
 
-/** French (Français)
+/** French (français)
  * @author Jean-Frédéric
  * @author Od1n
  * @author Seb35
@@ -365,7 +365,7 @@ $messages['hsb'] = array(
 	'time-label' => 'Trěbny čas za wuwjedźenje přikaza',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -380,7 +380,7 @@ $messages['hu'] = array(
 	'time-label' => 'A parancs végrehajtásához szükséges idő',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -409,7 +409,7 @@ $messages['inh'] = array(
 	'language-label' => 'Мотт',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Gianfranco
  */
@@ -491,14 +491,14 @@ $messages['lb'] = array(
 	'time-label' => "Zäit déi gebraucht gouf fir d'Aufgab ze maachen",
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
 	'enter-details' => 'Įveskite detales',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -536,7 +536,7 @@ $messages['mzn'] = array(
 	'language-label' => 'زوون',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -556,7 +556,7 @@ $messages['nb'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'enter-details' => 'Details opgeven',
+	'enter-details' => 'Voer details in',
 	'introduction' => 'Geef de naam in van een sjabloon (werkt alleen voor Wikipedia\'s op het moment) en klik op "OK". Zo eenvoudig is het. Er wordt gebruik gemaakt van cachen (onthouden van resultaten), maar daar heeft dit hulpprogramma geen invloed op.',
 	'language-label' => 'Taal',
 	'namespace-label' => 'Naamruimte',
@@ -567,7 +567,7 @@ $messages['nl'] = array(
 	'time-label' => 'Uitvoertijd van het commando',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -597,7 +597,7 @@ $messages['pdc'] = array(
 	'namespace-label' => 'Blatznaame',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -620,7 +620,7 @@ $messages['ps'] = array(
 	'namespace-label' => 'نوم-تشيال',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -635,7 +635,7 @@ $messages['ro'] = array(
 	'time-label' => 'Timpul necesar executării comenzii',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -650,7 +650,7 @@ $messages['roa-tara'] = array(
 	'time-label' => "Tiembe pigghiate pe eseguì 'u comande",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DarkSTALKER
  * @author Eleferen
  * @author Lvova
@@ -676,7 +676,7 @@ $messages['si'] = array(
 	'namespace-label' => 'නාමාවකාශය:',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -691,7 +691,7 @@ $messages['sl'] = array(
 	'time-label' => 'Čas, porabljen za izvršitev ukaza',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -707,7 +707,7 @@ $messages['sr-ec'] = array(
 	'time-label' => 'Време за извршавање наредбе',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -723,7 +723,7 @@ $messages['sr-el'] = array(
 	'time-label' => 'Vreme za izvršavanje naredbe',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lokal Profil
  */
 $messages['sv'] = array(
@@ -772,7 +772,7 @@ $messages['tl'] = array(
 	'time-label' => 'Panahong nagamit upang maisagawa ang utos',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -809,7 +809,7 @@ $messages['vi'] = array(
 	'time-label' => 'Thời gian thực hiện lệnh',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Shizhao
  * @author Xiaomingyan
@@ -824,7 +824,7 @@ $messages['zh-hans'] = array(
 	'time-label' => '执行命令所需的时间',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

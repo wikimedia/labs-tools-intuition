@@ -124,7 +124,7 @@ $messages['as'] = array(
 	'tools-subject' => 'বিষয়',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -148,7 +148,7 @@ $messages['ast'] = array(
 	'resultslimited' => 'Los resultaos tan llendaos a $1 páxines.',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -158,7 +158,7 @@ $messages['az'] = array(
 	'tools-links' => 'keçidlər',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -208,7 +208,7 @@ $messages['be-tarask'] = array(
 	'resultslimited' => 'Вынік абмежаваны да $1 старонак.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -242,7 +242,7 @@ $messages['bn'] = array(
 	'resultslimited' => 'ফলাফলগুলো $1টি পাতার মধ্যে সীমাবদ্ধ ছিলো।',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -266,7 +266,7 @@ $messages['br'] = array(
 	'resultslimited' => "Krennet eo bet an disoc'hoù da $1 pajenn.",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -277,7 +277,7 @@ $messages['bs'] = array(
 	'tools-subject' => 'tema',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -301,7 +301,7 @@ $messages['ca'] = array(
 	'resultslimited' => 'Els resultats es limiten a $1 pàgines.',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jezevec
  */
 $messages['cs'] = array(
@@ -311,7 +311,7 @@ $messages['cs'] = array(
 	'resultslimited' => 'Výsledky byly omezeny na  $1  stránek.',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Erisos
  * @author Sarrus
  */
@@ -358,6 +358,7 @@ $messages['de'] = array(
 $messages['diq'] = array(
 	'title' => 'BakusWerenayış2',
 	'limit' => 'Limit',
+	'update' => 'Newen ke',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -402,7 +403,7 @@ $messages['el'] = array(
 	'tools-curr' => 'τρέχουσα',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -426,7 +427,7 @@ $messages['es'] = array(
 	'resultslimited' => 'Los resultados se limitan a $1 páginas.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Xabier Armendaritz
  */
@@ -470,7 +471,7 @@ $messages['fa'] = array(
 	'resultslimited' => 'نتایج به $1 صفحه محدود بود.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Silvonen
  */
 $messages['fi'] = array(
@@ -482,7 +483,7 @@ $messages['fi'] = array(
 	'tools-delete' => 'poista',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Jean-Frédéric
  * @author Od1n
@@ -580,7 +581,7 @@ $messages['hi'] = array(
 	'resultslimited' => 'परिणाम $1 की सीमा के अंदर रखे गए हैं',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -628,7 +629,7 @@ $messages['hsb'] = array(
 	'resultslimited' => 'Wuslědki buchu na $1 stronow wobmjezowane.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -652,7 +653,7 @@ $messages['hu'] = array(
 	'resultslimited' => 'Az eredmények száma $1 db lapra lett korlátozva.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -685,7 +686,7 @@ $messages['inh'] = array(
 	'tools-links' => 'Iинкаш',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Gianfranco
  * @author Nemo bis
@@ -826,7 +827,7 @@ $messages['lb'] = array(
 	'resultslimited' => "D'Resultater goufen op $1 Säite limitéiert.",
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -850,7 +851,7 @@ $messages['lt'] = array(
 	'resultslimited' => 'Rezultatų limitas buvo $1 puslapių.',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -858,7 +859,7 @@ $messages['lv'] = array(
 	'page' => 'Lapa',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -926,7 +927,7 @@ $messages['mt'] = array(
 	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'title' => 'Foreldreløse diskusjonssider 2',
 	'select-wiki-first' => '(velg en wiki først)',
@@ -973,7 +974,7 @@ $messages['nl'] = array(
 	'resultslimited' => "Er worden maximaal $1 pagina's weergegeven.",
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -1008,7 +1009,7 @@ $messages['pdc'] = array(
 	'tools-links' => 'Gleecher',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Odder
  * @author Sp5uhe
  */
@@ -1047,7 +1048,7 @@ $messages['ps'] = array(
 	'tools-globalusage' => 'نړېواله کارېدنه',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
  */
@@ -1072,7 +1073,7 @@ $messages['pt'] = array(
 	'resultslimited' => 'Os resultados foram limitados a $1 páginas.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -1081,7 +1082,7 @@ $messages['pt-br'] = array(
 	'hideredirects' => 'Excluir redirecionamentos',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -1105,7 +1106,7 @@ $messages['ro'] = array(
 	'resultslimited' => 'Rezultatele au fost limitate la $1 pagini.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1129,7 +1130,7 @@ $messages['roa-tara'] = array(
 	'resultslimited' => 'Resultate limitate a $1 pàggene.',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Askarmuk
  * @author Eleferen
  * @author Lvova
@@ -1165,7 +1166,7 @@ $messages['si'] = array(
 	'tools-subject' => 'විෂයය',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1189,7 +1190,7 @@ $messages['sl'] = array(
 	'resultslimited' => 'Rezultati so bili omejeni na $1 stran.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1213,7 +1214,7 @@ $messages['sr-ec'] = array(
 	'resultslimited' => 'Резултати су ограничени на $1 страница.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1237,7 +1238,7 @@ $messages['sr-el'] = array(
 	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Liftarn
  * @author Lokal Profil
  */
@@ -1298,7 +1299,7 @@ $messages['te'] = array(
 	'resultslimited' => 'ఫలితాలు $1 పుటలకు పరిమితం చేయబడ్డాయి.',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1329,7 +1330,7 @@ $messages['tl'] = array(
 	'resultslimited' => 'Ang mga kinalabasan ay nakahangga sa $1 mga pahina.',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1366,7 +1367,7 @@ $messages['tr'] = array(
 	'resultslimited' => 'Sonuçlar, $1 sayfa ile sınırlandırıldı.',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1398,7 +1399,7 @@ $messages['vi'] = array(
 	'resultslimited' => 'Chỉ hiển thị $1 kết quả.',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Shizhao
  */
@@ -1423,7 +1424,7 @@ $messages['zh-hans'] = array(
 	'resultslimited' => '结果只显示$1页面。',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

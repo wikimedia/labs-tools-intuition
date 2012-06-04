@@ -105,6 +105,7 @@ $messages['af'] = array(
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'fullname' => 'تدويل واجهة مستخدم Toolserver',
 	'current-settings' => 'الإعدادات الحالية',
 	'current-language' => 'اللغة المختارة حاليا',
 	'settings-legend' => 'الإعدادات',
@@ -136,7 +137,7 @@ $messages['as'] = array(
 	'bl-mysettings-new' => 'ভাষা পৰিবৰ্তন কৰক!',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -164,7 +165,7 @@ $messages['ast'] = array(
 	'help-translate-tooltip' => 'Ayuda a otres persones traduciendo los mensaxes de la interfaz a la to llingua.',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -174,7 +175,7 @@ $messages['az'] = array(
 	'tab-about' => 'İzah',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -232,7 +233,7 @@ $messages['be-tarask'] = array(
 	'help-translate-tooltip' => 'Дапамажыце іншым з перакладам інтэрфэйса на Вашую мову.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -290,7 +291,7 @@ $messages['bn'] = array(
 	'help-translate-tooltip' => 'ইন্টারফেস বার্তাগুলো আপনার ভাষায় অনুবাদ করে অন্যদের সাহায্য করুন।',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -318,7 +319,7 @@ $messages['br'] = array(
 	'help-translate-tooltip' => 'Skoazellit ar re all en ur reiñ dorn da dreiñ kemennadennoù an etrefas en ho yezh.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -341,7 +342,7 @@ $messages['bs'] = array(
 	'bl-changelanguage' => 'Kliknite ovdje za promjenu jezika interfejsa za ovaj alat.',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -369,7 +370,7 @@ $messages['ca'] = array(
 	'help-translate-tooltip' => 'Ajudeu els altres fent les traduccions al vostre idioma dels missatges de la interfície.',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -397,7 +398,7 @@ $messages['cs'] = array(
 	'help-translate-tooltip' => 'Pomozte ostatním tím, že přeložíte zprávy rozhraní do svého jazyka.',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  * @author Sarrus
  */
@@ -516,7 +517,7 @@ $messages['el'] = array(
 	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -544,7 +545,7 @@ $messages['es'] = array(
 	'help-translate-tooltip' => 'Ayuda a otros al traducir los mensajes de la interfaz en tu idioma.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -594,7 +595,7 @@ $messages['fa'] = array(
 	'help-translate-tooltip' => 'دیگران را با ترجمهٔ پیام‌های رابط به زبان‌تان کمک کنید!',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  */
 $messages['fi'] = array(
@@ -622,7 +623,7 @@ $messages['fi'] = array(
 	'help-translate-tooltip' => 'Auta toisia kääntämällä käyttöliittymäviestejä kielellesi.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Jean-Frédéric
  * @author Od1n
@@ -733,7 +734,7 @@ $messages['hi'] = array(
 	'help-translate-tooltip' => 'अपनी भाषा में अंतरफल संदेशों का अनुवाद कर के औरों की मदद करें।',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -789,7 +790,7 @@ $messages['hsb'] = array(
 	'help-translate-tooltip' => 'Pomhaj druhim ludźom přełožujo zdźělenki wužiwarskeho powjercha do swojeje rěče.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -817,7 +818,7 @@ $messages['hu'] = array(
 	'help-translate-tooltip' => 'Segíts másokon a felület szövegének saját nyelvedre fordításával!',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -873,7 +874,7 @@ $messages['id'] = array(
 	'help-translate-tooltip' => 'Bantu orang lain dengan menerjemahkan pesan antarmuka ke dalam bahasa Anda.',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Nemo bis
  * @author Rippitippi
@@ -931,7 +932,7 @@ $messages['ja'] = array(
 	'usage' => 'Toolserver Intuition が翻訳したツールです。',
 	'help-translate-tool' => 'このツールの翻訳を手伝う!',
 	'help-translate-all' => 'ツールサーバーの翻訳を手伝う!',
-	'help-translate-tooltip' => 'インターフェイス メッセージをあなたの言語に翻訳して他の人を助ける!',
+	'help-translate-tooltip' => 'インターフェイスメッセージをあなたの言語に翻訳して他の人を助ける!',
 );
 
 /** Georgian (ქართული)
@@ -943,12 +944,31 @@ $messages['ka'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'fullname' => 'Toolserver 사용자 인터페이스 국제화',
 	'current-settings' => '현재 설정',
+	'current-language' => '현재 선택한 언어',
+	'settings-legend' => '설정',
 	'choose-language' => '언어 선택하기',
+	'clear-cookies' => '쿠키 지우기',
+	'renew-cookies' => '쿠키 새로 고침',
+	'cookie-expiration' => '쿠키 만료',
+	'clearcookies-success' => '성공적으로 쿠키를 지웠습니다.',
+	'renewcookies-success' => '쿠키를 새로 고쳤습니다! 다음 $1에 대한 모든 설정입니다.',
+	'tab-overview' => '둘러보기',
 	'tab-settings' => '설정',
+	'tab-about' => '소개',
+	'tab-demo' => '데모',
+	'bl-mysettings' => '사용자 언어 설정',
+	'bl-mysettings-new' => '언어가 바뀌었습니다!',
+	'bl-promo' => '번역은 $1과 $2에 의해 작동합니다.',
+	'bl-changelanguage' => '도구의 인터페이스 언어를 바꾸러면 여기를 클릭하세요.',
+	'usage' => 'Toolserver Intuition에 의해 도구를 번역했습니다.',
+	'help-translate-tool' => '도구 번역을 도와주세요!',
+	'help-translate-all' => 'Toolserver 번역을 도와주세요!',
+	'help-translate-tooltip' => '여러분의 언어로 인터페이스 메시지를 번역하는 이들을 도와주세요.',
 );
 
 /** Colognian (Ripoarisch)
@@ -1023,7 +1043,7 @@ $messages['lb'] = array(
 	'help-translate-tooltip' => "Hëlleft Aneren domat datt Dir d'Message vum Interface an Är Sprooch iwwersetzt.",
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -1051,7 +1071,7 @@ $messages['lt'] = array(
 	'help-translate-tooltip' => 'Padėkite kitiems versti sąsajos pranešimus į jūsų kalbą.',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -1062,7 +1082,7 @@ $messages['lv'] = array(
 	'help-translate-all' => 'Palīdzi tulkot Toolserver!',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1153,7 +1173,7 @@ $messages['mzn'] = array(
 	'tab-about' => 'درباره',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1194,7 +1214,7 @@ $messages['nl'] = array(
 	'choose-language' => 'Taal kiezen',
 	'clear-cookies' => 'cookies wissen',
 	'renew-cookies' => 'cookies verversen',
-	'cookie-expiration' => 'Cookie verlooptijd',
+	'cookie-expiration' => 'Verlooptijd cookie',
 	'clearcookies-success' => 'Cookies gewist.',
 	'renewcookies-success' => 'De cookies zijn ververst. U bent weer klaar voor de komende $1.',
 	'tab-overview' => 'Overzicht',
@@ -1211,7 +1231,7 @@ $messages['nl'] = array(
 	'help-translate-tooltip' => 'Help anderen door interfaceberichten te vertalen in uw taal.',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1237,7 +1257,7 @@ $messages['nn'] = array(
 	'help-translate-all' => 'Hjelp til med å setja om Toolserver!',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1280,7 +1300,7 @@ $messages['pdc'] = array(
 	'help-translate-all' => 'Hilf bitte daen Waerkzeichheit-Rechlinger zu iwwersetze!',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Marcin Łukasz Kiejzik
  * @author Odder
  * @author Sp5uhe
@@ -1324,7 +1344,7 @@ $messages['ps'] = array(
 	'bl-mysettings-new' => 'ژبه ټاکل!',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
  */
@@ -1353,7 +1373,7 @@ $messages['pt'] = array(
 	'help-translate-tooltip' => 'Ajude outros utilizadores traduzindo as mensagens da interface para a sua língua.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Hamilton Abreu
  * @author Helder.wiki
  */
@@ -1382,7 +1402,7 @@ $messages['pt-br'] = array(
 	'help-translate-tooltip' => 'Ajuda os outros, traduzindo as mensagens de interface para o seu idioma.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -1410,7 +1430,7 @@ $messages['ro'] = array(
 	'help-translate-tooltip' => 'Ajutați-i pe alții traducând mesajele de interfață în limba dumneavoastră.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1438,7 +1458,7 @@ $messages['roa-tara'] = array(
 	'help-translate-tooltip' => "Dà 'na màne a l'otre pe traducere le messagge de interfacce jndr'à lènga toje.",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Askarmuk
  * @author Eleferen
  * @author Lvova
@@ -1478,7 +1498,7 @@ $messages['si'] = array(
 	'tab-about' => 'පිළිබඳ',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1506,7 +1526,7 @@ $messages['sl'] = array(
 	'help-translate-tooltip' => 'Pomagajte drugim s prevajanjem sporočil vmesnika v svoj jezik.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1534,7 +1554,7 @@ $messages['sr-ec'] = array(
 	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1562,7 +1582,7 @@ $messages['sr-el'] = array(
 	'help-translate-tooltip' => 'Pomozite drugima prevodivši poruke sučelja na svoj jezik',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Liftarn
  * @author Lokal Profil
  */
@@ -1631,7 +1651,7 @@ $messages['te'] = array(
 	'help-translate-tooltip' => 'ముఖాంతరం యొక్క సందేశాలను మీ భాష లోనికి అనువదించడం ద్వారా ఇతరులకి తోడ్పడండి.',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1671,7 +1691,7 @@ $messages['tl'] = array(
 	'help-translate-tooltip' => 'Tulungan ang iba sa pamamagitan ng pagsasalinwika ng mga mensahe ng ugnayang-mukha papunta sa wika mo.',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1741,7 +1761,7 @@ $messages['vi'] = array(
 	'help-translate-tooltip' => 'Giúp người ta sử dụng công cụ bằng cách dịch thông điệp giao diện qua ngôn ngữ của bạn.',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Shizhao
  */
@@ -1770,7 +1790,7 @@ $messages['zh-hans'] = array(
 	'help-translate-tooltip' => '帮助其他人把界面翻译成您的语言。',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

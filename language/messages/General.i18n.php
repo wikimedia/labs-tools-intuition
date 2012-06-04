@@ -136,7 +136,7 @@ $messages['as'] = array(
 	'view-source' => 'উৎস চাওক',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -157,7 +157,7 @@ $messages['ast'] = array(
 	'view-source' => 'Ver códigu fonte',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Wertuose
  */
@@ -187,7 +187,7 @@ $messages['ba'] = array(
 	'years' => '$1 {{PLURAL:$1|йыл|йылдар}}',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author LexArt
  */
 $messages['be'] = array(
@@ -228,7 +228,7 @@ $messages['be-tarask'] = array(
 	'view-source' => 'Паказаць код',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -275,7 +275,7 @@ $messages['bn'] = array(
 	'view-source' => 'সোর্স দেখাও',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Krinkle
  * @author Y-M D
@@ -298,7 +298,7 @@ $messages['br'] = array(
 	'view-source' => 'Sellet ouzh tarzh an destenn',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -317,7 +317,7 @@ $messages['bs'] = array(
 	'view-source' => 'Pogledaj izvor',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -338,7 +338,7 @@ $messages['ca'] = array(
 	'view-source' => 'Mostra el codi font',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
 $messages['ckb'] = array(
@@ -359,7 +359,7 @@ $messages['ckb'] = array(
 	'view-source' => 'سەرچاوەکەی ببینە',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -380,7 +380,7 @@ $messages['cs'] = array(
 	'view-source' => 'Zobrazit zdrojový kód',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  * @author Sarrus
  */
@@ -485,7 +485,7 @@ $messages['el'] = array(
 	'view-source' => 'Εμφάνιση κώδικα',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Fitoschido
  * @author Platonides
@@ -509,7 +509,7 @@ $messages['es'] = array(
 	'view-source' => 'Ver fuente',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author WikedKentaur
  */
 $messages['et'] = array(
@@ -524,7 +524,7 @@ $messages['et'] = array(
 	'view-source' => 'Vaata lähteteksti',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -567,7 +567,7 @@ $messages['fa'] = array(
 	'view-source' => 'نمایش مبدأ',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Silvonen
  */
@@ -589,7 +589,7 @@ $messages['fi'] = array(
 	'view-source' => 'näytä lähdekoodi',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Jean-Frédéric
  * @author Od1n
@@ -675,7 +675,7 @@ $messages['hi'] = array(
 	'view-source' => 'स्रोत देखें',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -715,7 +715,7 @@ $messages['hsb'] = array(
 	'view-source' => 'Žórłowy tekst pokazać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  */
@@ -737,7 +737,7 @@ $messages['hu'] = array(
 	'view-source' => 'Forrás megtekintése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -795,7 +795,7 @@ $messages['inh'] = array(
 	'hours' => '{{PLURAL: $1|сахьат|сахьата|сахьаташ}}',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Nemo bis
  * @author Rippitippi
@@ -838,7 +838,7 @@ $messages['ja'] = array(
 	'hours' => '{{PLURAL: $1|時間}}',
 	'minutes' => '{{PLURAL: $1|分}}',
 	'seconds' => '{{PLURAL: $1|秒}}',
-	'last-modified-date' => '最終更新： $1',
+	'last-modified-date' => '最終更新：$1',
 	'view-source' => 'ソースを表示',
 );
 
@@ -875,11 +875,24 @@ $messages['km'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'hello' => '안녕하세요',
 	'welcome' => '환영합니다',
 	'toolversionstamp' => '버전 $1 ($2)',
+	'etc' => '기타',
+	'namespace' => '이름공간',
+	'form-submit' => '가기',
+	'form-reset' => '초기화',
+	'years' => '년',
+	'weeks' => '주',
+	'days' => '일',
+	'hours' => '시',
+	'minutes' => '분',
+	'seconds' => '초',
+	'last-modified-date' => '최근 수정일: $1',
+	'view-source' => '내용 보기',
 );
 
 /** Colognian (Ripoarisch)
@@ -956,7 +969,7 @@ $messages['lez'] = array(
 	'hours' => '{{PLURAL: $1|сят|сятерал}}',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -975,7 +988,7 @@ $messages['lt'] = array(
 	'view-source' => 'Peržiūrėti šaltinį',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -986,7 +999,7 @@ $messages['lv'] = array(
 	'hours' => 'stundas',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1040,7 +1053,7 @@ $messages['my'] = array(
 	'view-source' => 'ရင်းမြစ်ကို ကြည့်ရန်',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1086,7 +1099,7 @@ $messages['nl'] = array(
 	'view-source' => 'Brontekst bekijken',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1121,7 +1134,7 @@ $messages['pdc'] = array(
 	'hours' => '{{PLURAL:$1|Schtund|Schtund}}',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Odder
  * @author Sp5uhe
  */
@@ -1164,7 +1177,7 @@ $messages['ps'] = array(
 	'view-source' => 'سرچينه کتل',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
  */
@@ -1184,7 +1197,7 @@ $messages['pt'] = array(
 	'view-source' => 'Ver código fonte',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -1202,7 +1215,7 @@ $messages['pt-br'] = array(
 	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
@@ -1223,7 +1236,7 @@ $messages['ro'] = array(
 	'view-source' => 'Sursă pagină',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1247,7 +1260,7 @@ $messages['roa-tara'] = array(
 	'parentheses' => '($1)',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Lvova
  * @author Rave
@@ -1293,7 +1306,7 @@ $messages['si'] = array(
 	'view-source' => 'මූලාශ්‍රය බලන්න',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1314,7 +1327,7 @@ $messages['sl'] = array(
 	'view-source' => 'Izvorna koda',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1338,7 +1351,7 @@ $messages['sr-ec'] = array(
 	'parentheses' => '($1)',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1362,7 +1375,7 @@ $messages['sr-el'] = array(
 	'parentheses' => '($1)',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Cybjit
  * @author Liftarn
  * @author Lokal Profil
@@ -1427,7 +1440,7 @@ $messages['te'] = array(
 	'view-source' => 'మూలాన్ని చూడండి',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1471,7 +1484,7 @@ $messages['tl'] = array(
 	'view-source' => 'Tingnan ang pinagmulan',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1529,7 +1542,7 @@ $messages['tyv'] = array(
 	'view-source' => 'Дөзү бижиин көөрү',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1571,7 +1584,7 @@ $messages['yi'] = array(
 	'form-reset' => 'צוריקשטעלן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Hzy980512
  * @author Shizhao
@@ -1595,7 +1608,7 @@ $messages['zh-hans'] = array(
 	'view-source' => '查看源代码',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Justincheng12345
  * @author Lauhenry
  */
@@ -1615,7 +1628,7 @@ $messages['zh-hant'] = array(
 	'view-source' => '查看原始碼',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

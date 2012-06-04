@@ -53,6 +53,19 @@ $messages['qqq'] = array(
 	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)",
 );
 
+/** Arabic (العربية)
+ * @author ترجمان05
+ */
+$messages['ar'] = array(
+	'toolserver-status-short-ok' => '$1: حسنا',
+	'toolserver-status-short-info' => '$1: معلومات',
+	'toolserver-status-short-warn' => '$1: يحذّّر',
+	'toolserver-status-short-down' => '$1: أسفل',
+	'toolserver-status-short-erro' => '$1: خطأ',
+	'toolserver-status-short-unknown' => '$1: مجهول',
+	'toolserver-status-short-missing' => '$1: مفقود',
+);
+
 /** Assamese (অসমীয়া)
  * @author Simbu123
  */
@@ -65,7 +78,7 @@ $messages['as'] = array(
 	'toolserver-status-short-unknown' => '$1: অজ্ঞাত',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -106,7 +119,7 @@ $messages['be-tarask'] = array(
 	'toolserver-status-short-missing' => '$1: Адсутнічае',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -126,7 +139,7 @@ $messages['br'] = array(
 	'toolserver-status-short-missing' => '$1: Ezvezant',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -146,7 +159,7 @@ $messages['ca'] = array(
 	'toolserver-status-short-missing' => '$1: Inexistent',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -226,7 +239,7 @@ $messages['el'] = array(
 	'toolserver-status-short-missing' => '$1: Λείπει',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Platonides
  * @author Vivaelcelta
  */
@@ -247,7 +260,7 @@ $messages['es'] = array(
 	'toolserver-status-short-missing' => '$1: Inexistente',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -266,7 +279,7 @@ $messages['fa'] = array(
 	'toolserver-status-short-info' => '$1: اطلاعات',
 );
 
-/** French (Français)
+/** French (français)
  * @author Jean-Frédéric
  * @author Od1n
  */
@@ -366,7 +379,7 @@ $messages['hsb'] = array(
 	'toolserver-status-short-missing' => '$1: Faluje',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
@@ -386,7 +399,7 @@ $messages['hu'] = array(
 	'toolserver-status-short-missing' => '$1: Hiányzik',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -406,7 +419,7 @@ $messages['ia'] = array(
 	'toolserver-status-short-missing' => '$1: Mancante',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Gianfranco
  * @author ZioNicco
  */
@@ -453,6 +466,26 @@ $messages['km'] = array(
 	'toolserver-status-short-missing' => '$1: រកមិនមាន',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'toolserver-status-ok' => '$1 데이터베이스 클러스터에 문제가 없습니다 $2',
+	'toolserver-status-info' => '$1 클러스터의 사용자에 대한 알림: $2',
+	'toolserver-status-warn' => '$1 클러스터의 사용자에 대한 경고: $2',
+	'toolserver-status-down' => '$1 데이터베이스 클러스터를 일시적으로 종료했습니다. $1',
+	'toolserver-status-erro' => '$1 데이터베이스 클러스터는 down되었습니다. $2',
+	'toolserver-status-unknown' => '$1 클러스터의 알 수 없는 상태',
+	'toolserver-status-missing' => '$1 클러스터가 존재하지 않음',
+	'toolserver-status-short-ok' => '$1: 완료',
+	'toolserver-status-short-info' => '$1: 정보',
+	'toolserver-status-short-warn' => '$1: Warn',
+	'toolserver-status-short-down' => '$1: Down',
+	'toolserver-status-short-erro' => '$1: 오류',
+	'toolserver-status-short-unknown' => '$1: 알 수 없음',
+	'toolserver-status-short-missing' => '$1: 잃음',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -493,7 +526,7 @@ $messages['lb'] = array(
 	'toolserver-status-short-missing' => '$1: Net do',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -546,15 +579,15 @@ $messages['nl'] = array(
 	'toolserver-status-unknown' => 'Onbekend status van cluster $1',
 	'toolserver-status-missing' => 'Cluster $1 bestaat niet',
 	'toolserver-status-short-ok' => '$1: OK',
-	'toolserver-status-short-info' => '$1: Info',
-	'toolserver-status-short-warn' => '$1: Waarschuwing',
+	'toolserver-status-short-info' => '$1: info',
+	'toolserver-status-short-warn' => '$1: waarschuwing',
 	'toolserver-status-short-down' => '$1: niet beschikbaar',
-	'toolserver-status-short-erro' => '$1: Foutmelding',
-	'toolserver-status-short-unknown' => '$1: Onbekend',
-	'toolserver-status-short-missing' => '$1: Ontbrekend',
+	'toolserver-status-short-erro' => '$1: foutmelding',
+	'toolserver-status-short-unknown' => '$1: onbekend',
+	'toolserver-status-short-missing' => '$1: ontbreekt',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Grzechooo
  * @author Sp5uhe
  */
@@ -575,19 +608,20 @@ $messages['pl'] = array(
 	'toolserver-status-short-missing' => '$1: Brak',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
 	'toolserver-status-short-ok' => '$1: Ok',
 	'toolserver-status-short-info' => '$1: Info',
 	'toolserver-status-short-warn' => '$1: Avertizare',
+	'toolserver-status-short-down' => '$1: Picat',
 	'toolserver-status-short-erro' => '$1: Eroare',
 	'toolserver-status-short-unknown' => '$1: Necunoscut',
 	'toolserver-status-short-missing' => '$1: Lipsă',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -607,7 +641,7 @@ $messages['roa-tara'] = array(
 	'toolserver-status-short-missing' => '$1: Perse',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  */
 $messages['ru'] = array(
@@ -627,7 +661,7 @@ $messages['ru'] = array(
 	'toolserver-status-short-missing' => '$1: Отсутствует',
 );
 
-/** Serbo-Croatian (Srpskohrvatski)
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -661,7 +695,7 @@ $messages['si'] = array(
 	'toolserver-status-short-missing' => '$1: දක්නට නොමැත',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -681,7 +715,7 @@ $messages['sl'] = array(
 	'toolserver-status-short-missing' => '$1: Manjka',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -701,7 +735,7 @@ $messages['sr-ec'] = array(
 	'toolserver-status-short-missing' => '$1: Недостаје',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -731,7 +765,7 @@ $messages['ta'] = array(
 	'toolserver-status-short-erro' => '$1: பிழை',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -748,7 +782,7 @@ $messages['tr'] = array(
 	'toolserver-status-short-erro' => '$1: Hata',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author A1
  */
 $messages['uk'] = array(
@@ -780,7 +814,7 @@ $messages['vi'] = array(
 	'toolserver-status-short-missing' => '$1: Không có',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hzy980512
  */
 $messages['zh-hans'] = array(
@@ -793,7 +827,7 @@ $messages['zh-hans'] = array(
 	'toolserver-status-short-missing' => '$1: 丢失',
 );
 
-/** Chinese (Hong Kong) (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文（香港）‬)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(
