@@ -124,10 +124,52 @@ $1: Maximum height in pixels',
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author OsamaK
  */
 $messages['ar'] = array(
-	'category' => 'التصنيف:',
+	'title' => 'تحميل الصور حسب الفئة',
+	'subtitle' => 'أسهل طريقة لتحميل الصور في فئة',
+	'project' => 'المشروع:',
+	'category' => 'الفئة:',
+	'thumbnailing' => 'عملية التصغير',
+	'max-width' => 'العرض الأقصى:',
+	'max-height' => 'الإرتفاع الأقصى:',
+	'invalid-width' => 'عرض غير مقبول',
+	'invalid-height' => 'طول غير مقبول',
+	'no-such-project' => 'لا وجود لهذا المشروع',
+	'no-images' => 'لا توجد صور في تلك الفئة',
+	'category-is-url' => 'الإسم المقدم يشبه رابط موقع. يجب عليك تحديد أسم الفئة، وليس رابطها.',
+	'category-contains-namespace' => 'يبدو أنك قد أضفت مساحة الإسم مع أسم الفئة. بهذا الإسم، ستتوفر الصفحة كـ [[Category:$1]].',
+	'zip-failed' => 'فشل إنشاء الـ Zip',
+	'image-area-too-big' => '$1 كبير جدا لتكوين صورة مصغرة. سيتم أستخدام الحجم الكامل.',
+	'download-info' => '{{plural: $1|هناك صورة واحدة|هناك $1 صور}}، بحجم يقدر بـ $2',
+	'download' => 'تحميل',
+	'readme-contents' => 'ملف الإرفاق $4 قوائم
+الصور في $1 الفئة ( $2 )$3.
+
+== تعليمات تحميل جميع الصور المدرجة ==
+قد يختلف وقت التحميل من بضع دقائق إلى عدة ساعات.
+
+Windows:
+ أستخرج كل الملفات في نفس الملف وقم بتشغيل $5
+ $6
+Linux/Mac OS
+ استخرج كل الملفات وافتح معبرا في الملف. قم بتشغيل sh $5',
+	'non-bundled-wget' => 'ملاحظة: هذه النسخة لا تحتوي على wget الويندوز. ستحتاج لفك الضغط إلى مجلد بواسطة wget.exe أو أن يتوفر لديك wget في ذلك المسار',
+	'wget-info' => 'يجمع هذا الملف نسخة من wget $1 (لنظام الويندوز). Wget برنامج مجاني،
+متوفر تحت شروط رخصة GNU العمومية النسخة 3.
+يوجد نسخة من الترخيص أسفله، وتتوافر أيضا على الموقع http://www.gnu.org/licenses/gpl-3.0.txt
+
+في حال كنت مهتما بالحصول على شفرة المصدر لهذا البرنامج، يمكنك تحميلها من المواقع التالية
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+أو مواقع جنو مشابهة، أنظر
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => '، تم تحديد العرض الأقصى لـ $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => '، تم تحديد الإرتفاع القصى لـ $1 {{plural:$1|pixel|pixels}}',
+	'scaling-both' => '، تم تحديد الحجم الأقصى لـ $1x$2 pixels',
 );
 
 /** Assamese (অসমীয়া)
@@ -461,10 +503,12 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'project' => 'Proce:',
 	'category' => 'Kategorî:',
 	'thumbnailing' => 'Resimo verdı',
 	'max-width' => 'En vesi herayey',
 	'max-height' => 'En vesi berzey',
+	'download' => 'biyar war',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -1118,6 +1162,7 @@ udder och vun ander Schpeejel-ẞööver. Luuer op:
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'project' => 'Proje:',
 	'category' => 'Kategorî:',
 );
 
@@ -1675,6 +1720,53 @@ $messages['ti'] = array(
 	'no-such-project' => 'ዝመሳሰል ዕዮ ኣይተረኽበን',
 	'no-images' => 'ኣብዚ ክፍሊ ዝኾነ ስእሊ ኣይተረኽበን',
 	'download' => 'ጽዓን',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'title' => 'Pagkakargang paibaba ng mga larawan ayon sa kategorya',
+	'subtitle' => 'Ang maginhawang paraan upang makapagkargang paibaba ng mga larawan ng isang kategorya',
+	'project' => 'Proyekto:',
+	'category' => 'Kategorya:',
+	'thumbnailing' => 'Pagkakagyat',
+	'max-width' => 'Pinakamataas na lapad:',
+	'max-height' => 'Pinakamataas na taas:',
+	'invalid-width' => 'Hindi katanggap-tanggap na lapad',
+	'invalid-height' => 'Hindi katanggap-tanggap na taas',
+	'no-such-project' => 'Walang ganyang proyekto',
+	'no-images' => 'Walang mga larawan sa loob ng kategoryang iyan',
+	'category-is-url' => 'Ang ibinigay na pangalan ng kategorya ay tila isang URL. Kailangan mong tukuyin ang pangalan ng kategorya, hindi ang URL nito.',
+	'category-contains-namespace' => 'Tila isinama mo ang puwang ng pangalan sa piling ng pangalan ng kategorya. Sa pamamagitan ng ibinigay na pangalan, ang pahina ay makukuha bilang [[Category:$1]].',
+	'zip-failed' => 'Nabigo ang paglikha ng zip',
+	'image-area-too-big' => 'Napakalaki ng $1 upang makalikha ng isang kagyat. Ginagamit ang buong sukat.',
+	'download-info' => '{{plural: $1|Mayroong isang larawan|Mayroong $1 mga larawan}}, na tinatayang may sukat na $2',
+	'download' => 'Ikargang pababa',
+	'readme-contents' => 'Ang naglalakip na talaksang $4 ay nagtatala ng mga larawan sa kategoryang $1 ( $2 )$3.
+
+== Mga tagubilin para sa pagkakargang paibaba ng lahat ng nakalistang mga larawan ==
+Ang panahon ng pagkakargang paibaba ay maaaring magkakaiba mula ilang mga minuto hanggang sa ilang mga oras.
+
+Windows:
+ Hugutin ang lahat ng mga talaksan sa loob ng iisang tiklupan at patakbuhin ang $5
+ $6
+Linux/Mac OS
+ Hugutin ang lahat ng mga talaksan at magbukas ng isang terminal sa loob ng tiklupang iyon. Patakbuhin ang sh $5',
+	'non-bundled-wget' => 'Paunawa: Hindi kabilang sa bersiyong ito ang wget na para sa Windows. Kakailanganin mong alisin ang pagkakasiksik sa isang tiklupan sa pamamagitan ng wget.exe o kaya ay magkaroon ng wget sa loob ng PATH',
+	'wget-info' => 'Ibinubungkos ng talaksang ito ang isang kopya ng wget $1 (para sa plataporma ng Windows). Ang wget ay isang Malayang Sopwer, 
+na nasa ilalim ng mga kundisyon ng ika-3 bersiyon ng GNU GENERAL PUBLIC LICENSE.
+Mayroong isang sipi ng lisensiya sa ibaba, at makukuha rin ito magmula doon sa http://www.gnu.org/licenses/gpl-3.0.txt
+
+Kung nanaisin mong kunin ang kodigo ng pinagkunan para sa programang ito, maikakarga mong paibaba iyon magmula sa
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+o ilang iba pang mga Salamin ng GNU, tingnan ang
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', binawasan upang magkaroon ng pinakamataas na lapad na $1 {{plural:$1|piksel|mga piksel}}',
+	'scaling-height' => ', binawasan upang magkaroon ng pinakamataas na taas na $1 {{plural:$1|piksel|mga piksel}}',
+	'scaling-both' => ', binawasan upang magkaroon ng pinakamataas na sukat na $1x$2 mga piksel',
 );
 
 /** толышә зывон (толышә зывон)

@@ -121,13 +121,18 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  * @author ترجمان05
  */
 $messages['ar'] = array(
+	'error-tryagain' => '$1 قم بالضغط على زر الرجوع في المتصفح لإعادة المحاولة.',
 	'error-nothing' => 'لا شيء للترجمة.',
+	'error-notsvg' => 'ليس بملف SVG.',
 	'error-unexpected' => 'خطأ غير متوقع حدث.',
+	'error-notfound' => 'تعذر أستخراج ملف الـ SVG من الرابط المقدم.',
+	'error-upload' => 'حدث خطأ أثناء التحميل.',
 	'begin-translation' => 'ابدأ الترجمة',
 	'th-original' => 'أصلي',
 	'th-translation' => 'الترجمة',
@@ -135,14 +140,19 @@ $messages['ar'] = array(
 	'th-username' => 'اسم المستخدم',
 	'th-password' => 'كلمة السر',
 	'th-method' => 'وسيلة',
+	'option-tusc' => 'TUSC (التحميل التلقائي)',
 	'option-manual' => 'رفع يدوي',
 	'preview' => 'عاين',
 	'translate' => 'ترجم',
 	'svginput-label' => 'ملف SVG',
+	'stats-footer' => 'تم أستخدام هذه الأداة لترجمة ما يقارب $1 ملف منذ $2.',
 	'uploading' => 'يرفع',
+	'upload-complete' => 'انتهت علمية الرفع بنجاح. يجب أن تكون الصورة الآن في $1',
 	'editdescriptionpage' => 'عدل صفحة الوصف الجديدة',
+	'author-complete' => 'الرجاء إكمال معلومات المؤلف!',
 	'preview-hide' => 'أخفِ المعاينة',
 	'preview-refresh' => 'أنعش المعاينة',
+	'error-tusc-failed' => 'فشل التحقق من صحة الـ TUSC: اسم المستخدم أو كلمة المرور غير صحيحة.',
 	'description-license' => 'اختر وصفا ورخصة',
 	'finalise' => 'إنهاء التفاصيل',
 );
@@ -539,6 +549,22 @@ $messages['de'] = array(
 	'error-tusc-failed' => 'TUSC-Prüfung fehlgeschlagen: Benutzername oder Passwort fehlerhaft',
 	'description-license' => 'Bitte Beschreibung und Lizenz auswählen',
 	'finalise' => 'Angaben vervollständigen',
+);
+
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'th-original' => 'Orcinal',
+	'th-translation' => 'Çarnayış',
+	'th-language' => 'Zıwan',
+	'th-username' => 'Namey karberi',
+	'th-password' => 'Parola',
+	'th-method' => 'Metod',
+	'preview' => 'Verqayt',
+	'translate' => 'Açarne',
+	'svginput-label' => 'Dosyay SVG',
+	'uploading' => 'Bar beno',
 );
 
 /** Lower Sorbian (Dolnoserbski)

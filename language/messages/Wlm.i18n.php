@@ -140,6 +140,46 @@ $messages['qqq'] = array(
 	'ccaa-heading' => 'Header for the autonomous communities column',
 );
 
+/** Arabic (العربية)
+ * @author DRIHEM
+ */
+$messages['ar'] = array(
+	'title' => 'ملفات WLM',
+	'file' => 'الصورة',
+	'monument-type' => 'نوع النصب التذكاري',
+	'monument-id' => 'معرف النصب التذكاري',
+	'province' => 'المقاطعة',
+	'author' => 'المؤلف',
+	'upload-time' => 'وقت الرفع',
+	'deleted' => 'ثم حذفه ($1)',
+	'concursa' => 'يشارك في WLM',
+	'no-concursa' => 'خارج منافسة WLM',
+	'not-available' => 'غير متوفرة',
+	'date-unknown' => 'غير معروف',
+	'total-images' => 'مجموع الصور: $1',
+	'view-uncategorized-images' => 'عرض الصور غير المصنفة',
+	'provide-id' => 'توفير معرف النصب التذكاري لإظهار البيانات المتوفرة لهذا العنصر',
+	'show-images-bad-only' => 'أظهر الصور فقط خارج القوائم',
+	'show-images-all' => 'أظهر كافة الصور',
+	'show-images-removed' => 'أظهر الصور التي تمت إزالتها من المسابقة',
+	'search-monuments' => 'البحث عن المعالم',
+	'view-frequency' => 'المعالم المشهورة',
+	'id-label' => 'معرف النصب التذكاري:',
+	'id-none' => '(لا شيء)',
+	'monument-heading' => 'النصب التذكاري',
+	'count-heading' => 'المصورون',
+	'bic-list' => 'القائمة',
+	'bic-gallery' => 'معرض الصور',
+	'author-heading' => 'المؤلف',
+	'bic-list-bad' => 'أظهر',
+	'bic-list-all' => 'القائمة الكاملة',
+	'unregistered' => 'غير مسجل',
+	'users-list' => 'عرض',
+	'province-heading' => 'المقاطعة',
+	'province-none' => '(غير معروف)',
+	'ccaa-heading' => 'CC.AA.',
+);
+
 /** Assamese (অসমীয়া)
  * @author Simbu123
  */
@@ -469,9 +509,18 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'file' => 'Resim',
+	'province' => 'Wılayet',
+	'author' => 'Nuştekar',
+	'deleted' => '($1) besterneyê',
 	'id-none' => '(Çıno)',
+	'count-heading' => 'Fotrafi',
+	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galeri',
+	'author-heading' => 'Nuştekar',
 	'bic-list-bad' => 'Bımocne',
+	'users-list' => 'Bıvin',
+	'province-heading' => 'Wılayet',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -1132,6 +1181,16 @@ $messages['ksh'] = array(
 	'ccaa-heading' => '!!FUZZYY!!Eijeschtändeje Jemeinschaff',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'file' => 'Wêne',
+	'show-images-all' => 'Hemû wêneyan nîşan bide',
+	'bic-list' => 'Lîste',
+	'bic-gallery' => 'Galerî',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Purodha
  * @author Robby
@@ -1757,6 +1816,55 @@ $messages['te'] = array(
 	'bic-list' => 'జాబితా',
 	'bic-list-bad' => 'చూపించు',
 	'bic-list-all' => 'పూర్తి జాబితా',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'title' => 'Mga talaksang WLM',
+	'file' => 'Larawan',
+	'monument-type' => 'Uri ng bantayog',
+	'monument-id' => 'ID ng bantayog',
+	'province' => 'Lalawigan',
+	'comarque' => 'Comarca',
+	'competes' => 'Nakikipagpaligsahan',
+	'author' => 'May-akda',
+	'upload-time' => 'Panahon ng pagkarga',
+	'deleted' => 'Nabura ($1)',
+	'concursa' => 'Nakikilahok sa WLM',
+	'no-concursa' => 'Nakalabas mula sa paligsahang WLM',
+	'not-available' => 'Hindi makukuha',
+	'date-unknown' => 'Hindi nalalaman',
+	'total-images' => 'Kabuoang mga larawan: $1',
+	'view-uncategorized-images' => 'Tingnan ang mga larawang walang kategorya',
+	'provide-id' => 'Magbigay ng ID ng isang bantayog upang maipakita ang makukuhang dato mula sa bagay na iyon',
+	'show-images-bad-only' => 'Ipakita lamang ang mga larawang nasa labas ng talaan',
+	'show-images-all' => 'Ipakita ang lahat ng mga larawan',
+	'show-images-removed' => 'Ipakita ang mga larawang tinanggal mula sa paligsahan',
+	'search-monuments' => 'Maghanap sa mga bantayog',
+	'view-frequency' => 'Tanyag na mga bantayog',
+	'view-ccaa' => 'Tingnan ayon sa pamayanang nagsasarili',
+	'view-province' => 'Tingnan ayon sa lalawigan',
+	'id-label' => 'ID ng bantayog:',
+	'id-none' => '(Wala)',
+	'monument-heading' => 'Bantayog',
+	'count-heading' => 'Mga litrato',
+	'bic-list' => 'Ilista',
+	'bic-gallery' => 'Galeriya',
+	'gallery-header' => 'Mga larawan para sa bantayog na may ID na $1.',
+	'gallery-header-place' => 'Mga larawan para sa mga bantayog mula sa $1.',
+	'wall-of-shame-text' => 'Mga may-akda ayon sa bilang ng hindi nakikilalang mga litrato',
+	'author-heading' => 'May-akda',
+	'bic-list-bad' => 'Ipakita',
+	'bic-list-all' => 'Buong listahan',
+	'unregistered' => 'Hindi nakarehistro',
+	'users-text' => 'Ipinapakita ng pahinang ito ang mga may-akda sa pamamagitan ng mga larawang ikinarga nila at sa kung ilang mga bantayog',
+	'users-list' => 'Tingnan',
+	'distict-monuments' => 'Natatanging mga bantayog',
+	'province-heading' => 'Lalawigan',
+	'province-none' => '(Hindi nalalaman)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** толышә зывон (толышә зывон)

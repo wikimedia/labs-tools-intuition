@@ -92,15 +92,40 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'search-title' => 'بحث الآثار',
+	'search-monuments-database' => 'ابحث في قاعدة بيانات الآثار',
 	'search-table-th-field' => 'الحقل',
 	'search-table-th-filter' => 'المرشح',
 	'search-table-th-search' => 'ابحث',
 	'filter-all-countries' => 'جميع البلدان',
 	'filter-all-languages' => 'جميع اللغات',
+	'db-field-country' => 'الدولة',
+	'db-field-lang' => 'اللغة',
+	'db-field-id' => 'المعرف',
+	'db-field-name' => 'الاسم',
+	'db-field-address' => 'العنوان',
+	'db-field-municipality' => 'البلدية',
+	'db-field-lat' => 'خط العرض',
+	'db-field-lon' => 'خط الطول',
+	'db-field-image' => 'الصورة',
+	'db-field-changed' => 'التغييرات',
+	'db-field-source' => 'المصدر',
+	'db-field-monument_article' => 'مقالة آثار',
+	'db-field-registrant_url' => 'رابط التسجيل',
+	'toolbox-label-searchtipps' => 'استخدم %term أو term% أو %term% من أجل البحث التقريبي',
+	'toolbox-meta-title' => 'ويكي تحب صندوق أدوات الآثار',
+	'toolbox-main-title' => 'صندوق أدوات WLM',
+	'toolbox-main-description' => 'مجموعة من الأدوات مرتبطة بـ',
+	'toolbox-wikilovesmonuments' => 'ويكي تحب الآثار',
+	'toolbox-nav-homepage' => 'الصفحة الرئيسية',
+	'toolbox-nav-statistics' => 'الإحصائيات',
+	'toolbox-nav-search' => 'البحث',
+	'toolbox-title-searchmonuments' => 'البحث عن المعالم',
 );
 
 /** Assamese (অসমীয়া)
@@ -401,6 +426,29 @@ $messages['de'] = array(
 	'toolbox-nav-statistics' => 'Statistiken',
 	'toolbox-nav-search' => 'Suche',
 	'toolbox-title-searchmonuments' => 'Denkmalsuche',
+);
+
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'search-table-th-filter' => 'Parzum',
+	'search-table-th-search' => 'Cı geyre',
+	'filter-all-countries' => 'Dewleti pêro',
+	'filter-all-languages' => 'Zıwani pêro',
+	'db-field-country' => 'Dewlet',
+	'db-field-lang' => 'Zıwan',
+	'db-field-name' => 'Name',
+	'db-field-address' => 'Adres',
+	'db-field-municipality' => 'Belediye',
+	'db-field-lat' => 'Paralel',
+	'db-field-lon' => 'Meridyen',
+	'db-field-image' => 'Resim',
+	'db-field-changed' => 'Vurneya',
+	'db-field-source' => 'Çıme',
+	'toolbox-nav-homepage' => 'Pelaseri',
+	'toolbox-nav-statistics' => 'İstatistiki',
+	'toolbox-nav-search' => 'Cı geyre',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -878,6 +926,10 @@ $messages['ksh'] = array(
  */
 $messages['ku-latn'] = array(
 	'search-table-th-filter' => 'Fîltre',
+	'filter-all-languages' => 'Hemû ziman',
+	'db-field-image' => 'Wêne',
+	'toolbox-nav-homepage' => 'Malper',
+	'toolbox-nav-statistics' => 'Statîstîk',
 );
 
 /** Latin (Latina)
@@ -1091,8 +1143,10 @@ $messages['pdc'] = array(
 );
 
 /** Polish (polski)
+ * @author BeginaFelicysym
  * @author Odder
  * @author Sp5uhe
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'search-title' => 'Wyszukiwanie zabytków',
@@ -1115,6 +1169,15 @@ $messages['pl'] = array(
 	'db-field-source' => 'Źródło',
 	'db-field-monument_article' => 'Artykuł',
 	'db-field-registrant_url' => 'Odnośnik do rejestru',
+	'toolbox-label-searchtipps' => 'użyj inteligentnego wyszukiwania %termin or termin% or %termin%',
+	'toolbox-meta-title' => 'Zestaw narzędzi Wiki Kocha Zabytki',
+	'toolbox-main-title' => 'Zestaw narzędzi WKZ',
+	'toolbox-main-description' => 'Zestaw narzędzi powiązanych z',
+	'toolbox-wikilovesmonuments' => 'Wiki Lubi Zabytki',
+	'toolbox-nav-homepage' => 'Strona główna',
+	'toolbox-nav-statistics' => 'Statystyki',
+	'toolbox-nav-search' => 'Szukaj',
+	'toolbox-title-searchmonuments' => 'Szukaj zabytków',
 );
 
 /** Pashto (پښتو)
@@ -1380,6 +1443,41 @@ $messages['sv'] = array(
 	'toolbox-title-searchmonuments' => 'Sök monument',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'search-title' => 'Tafuta minara',
+	'search-monuments-database' => 'Tafuta hifadhidata ya minara',
+	'search-table-th-field' => 'Uga',
+	'search-table-th-filter' => 'Chuja',
+	'search-table-th-search' => 'Tafuta',
+	'filter-all-countries' => 'Nchi zote',
+	'filter-all-languages' => 'Lugha zote',
+	'db-field-country' => 'Nchi',
+	'db-field-lang' => 'Lugha',
+	'db-field-id' => 'Kitambulisho',
+	'db-field-name' => 'Jina',
+	'db-field-address' => 'Anwani',
+	'db-field-municipality' => 'Manispaa',
+	'db-field-lat' => 'Latitudi',
+	'db-field-lon' => 'Longitudi',
+	'db-field-image' => 'Picha',
+	'db-field-changed' => 'Ilibadilishwa',
+	'db-field-source' => 'Chanzo',
+	'db-field-monument_article' => 'Nakala ya mnara',
+	'db-field-registrant_url' => 'Kisara kilichoandikishwa',
+	'toolbox-label-searchtipps' => 'tumia %term ama %term kwa utafiti wa fuzzy',
+	'toolbox-meta-title' => 'Sanduku la vifaa la Wiki Yapenda Minara',
+	'toolbox-main-title' => 'Sanduku la vifaa la WLM',
+	'toolbox-main-description' => 'Seti ya vifaa vinavyohusiana na',
+	'toolbox-wikilovesmonuments' => 'Wiki Yapenda Minara',
+	'toolbox-nav-homepage' => 'Gombo kaya',
+	'toolbox-nav-statistics' => 'Takwimu',
+	'toolbox-nav-search' => 'Tafuta',
+	'toolbox-title-searchmonuments' => 'Tafuta minara',
+);
+
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
@@ -1415,9 +1513,35 @@ $messages['tet'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
+	'search-title' => 'Paghahanap sa mga bantayog',
+	'search-monuments-database' => 'Maghanap sa kalipunan ng dato ng mga bantayog',
 	'search-table-th-field' => 'Kahanayan',
 	'search-table-th-filter' => 'Pansala',
 	'search-table-th-search' => 'Hanapin',
+	'filter-all-countries' => 'Lahat ng mga bansa',
+	'filter-all-languages' => 'Lahat ng mga wika',
+	'db-field-country' => 'Bansa',
+	'db-field-lang' => 'Wika',
+	'db-field-id' => 'Tagapagpakilala',
+	'db-field-name' => 'Pangalan',
+	'db-field-address' => 'Tirahan',
+	'db-field-municipality' => 'Munisipalidad',
+	'db-field-lat' => 'Latitud',
+	'db-field-lon' => 'Longhitud',
+	'db-field-image' => 'Larawan',
+	'db-field-changed' => 'Nabago na',
+	'db-field-source' => 'Pinagmulan',
+	'db-field-monument_article' => 'Artikulo ng bantayog',
+	'db-field-registrant_url' => 'URL ng rehistrante',
+	'toolbox-label-searchtipps' => 'gamitin ang %term or term% o %term% para sa malabuang paghahanap',
+	'toolbox-meta-title' => 'Kahong Pangkasangkapan ng Mahilig ang Wiki sa mga Bantayog',
+	'toolbox-main-title' => 'Kahong pangkasangkapan ng WLM',
+	'toolbox-main-description' => 'Isang pangakat ng mga kagamitan na may kaugnayan sa',
+	'toolbox-wikilovesmonuments' => 'Mahilig sa mga Bantayog ang Wiki',
+	'toolbox-nav-homepage' => 'Bahay-pahina',
+	'toolbox-nav-statistics' => 'Estadistika',
+	'toolbox-nav-search' => 'Maghanap',
+	'toolbox-title-searchmonuments' => 'Maghanap sa mga bantayog',
 );
 
 /** толышә зывон (толышә зывон)

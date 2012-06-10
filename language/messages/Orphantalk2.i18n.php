@@ -108,7 +108,7 @@ $messages['ar'] = array(
 	'tools-globalusage' => 'استخدام عام',
 	'deletesummary' => 'تنظيف صفحات النقاش اليتيمة عن طريق $1',
 	'noresults' => 'لم يتم إيجاد أي تطابق لإعداداتك  مع صفحات النقاش اليتيمية في هذا الويكي  وبمساحة الإسم هذه.',
-	'resultslimited' => 'أقتصرت المتائج على $1 صفحة.',
+	'resultslimited' => 'أقتصرت النتائج على $1 صفحات.',
 );
 
 /** Assamese (অসমীয়া)
@@ -358,7 +358,9 @@ $messages['de'] = array(
 $messages['diq'] = array(
 	'title' => 'BakusWerenayış2',
 	'limit' => 'Limit',
-	'update' => 'Newen ke',
+	'page' => 'Pele',
+	'update' => 'Anewen ke',
+	'tools-delete' => 'besterne',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -793,7 +795,7 @@ $messages['ku-latn'] = array(
 	'page' => 'Rûpel',
 	'redirect' => 'Ragihandin e?',
 	'tools-delete' => 'jê bibe',
-	'tools-links' => 'lînk',
+	'tools-links' => 'girêdan',
 	'tools-hist' => 'dîro',
 );
 

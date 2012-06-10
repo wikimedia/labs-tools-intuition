@@ -71,6 +71,37 @@ $messages['qqq'] = array(
 * $1: Branch name',
 );
 
+/** Arabic (العربية)
+ * @author DRIHEM
+ */
+$messages['ar'] = array(
+	'title-overview' => 'لقطات',
+	'title-error' => 'خطأ',
+	'title-updatelog' => 'تحديث السجل',
+	'updatelog-intro' => 'سكريبت التحديث مبرمج للشتغيل كل ساعة. يوجد أدناه وحدة إخراج التشغيل الأخير.',
+	'updatelog-active' => 'سكريبت التحديث قيد التشغيل حاليا. عد لاحقا من أجل السجل الكامل.',
+	'download-button' => 'تحميل $1',
+	'download-directlink' => 'وصلة مباشرة',
+	'title-downloadpage' => 'تحميل: $1',
+	'downloadpage-directlink' => 'انقر هنا لتحميل اللقطة.',
+	'err-snapshotindex' => 'فهرس اللفطة غير متوفر مرقتا. الرجاء المحاولة لاحقا.',
+	'err-invalid-repo' => 'مستودع غير معروف: "$1".',
+	'err-invalid-branch' => 'فرع غير معروف: "$1" في مستودع "$2".',
+	'err-nosnapshot' => 'يتم إنشاء لقطات الصور كل بضع ساعات. حدث خطأ عند أنشاء لقطة "$1". الرجاء إعادة المحاولة لاحقا.',
+	'err-noupdatelog' => 'لم يتم العثور على سجل التحديث.',
+	'repo-site-link' => 'موقع الوب',
+	'repo-browse-link' => 'تصفح المستودع',
+	'repo-branches-label' => 'الفروع:',
+	'repo-lastmoddate-label' => 'التاريخ:',
+	'branches-submit-button' => 'احصل عليه!',
+	'updatelog-link' => 'تحديث السجل',
+	'tablehead-repo' => 'المستودع',
+	'tablehead-snapshots' => 'اللقطات',
+	'tablehead-branch' => 'الفرع',
+	'tablehead-filesize' => 'حجم الملف',
+	'tablehead-hash' => 'تدقيق المجاميع',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -177,6 +208,7 @@ $messages['de-formal'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'title-error' => 'Xırab',
 	'download-button' => "$1'i Ron",
 	'title-downloadpage' => "$1'i Ron:",
 	'repo-site-link' => 'Websita',
@@ -440,14 +472,19 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'title-overview' => 'スナップショット',
 	'title-error' => 'エラー',
+	'title-updatelog' => '更新記録',
 	'download-button' => '$1 をダウンロード',
 	'download-directlink' => '直接リンク',
 	'title-downloadpage' => 'ダウンロード：$1',
 	'downloadpage-directlink' => 'スナップショットをダウンロードするにはここをクリックします。',
+	'err-invalid-repo' => '不明なリポジトリ："$1"',
+	'err-noupdatelog' => '更新記録が見つかりませんでした。',
 	'repo-site-link' => 'ウェブサイト',
 	'repo-browse-link' => 'リポジトリを参照',
 	'repo-branches-label' => 'ブランチ：',
 	'repo-lastmoddate-label' => '日付：',
+	'branches-submit-button' => '取得する!',
+	'updatelog-link' => '更新記録',
 	'tablehead-repo' => 'リポジトリ',
 	'tablehead-snapshots' => 'スナップショット',
 	'tablehead-branch' => 'ブランチ',
@@ -593,6 +630,24 @@ $messages['nl'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
+/** Polish (polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'title-error' => 'Błąd',
+	'title-updatelog' => 'Rejestr aktualizacji',
+	'updatelog-intro' => 'Ten skrypt aktualizacji został zaplanowany tak, aby uruchamiał się co godzinę. Poniżej znajduje się wyjście konsoli podczas ostatniego uruchomienia.',
+	'updatelog-active' => 'Skrypt aktualizacyjny jest aktualnie uruchomiony. Zobacz później aby zobaczyć gotowy rejestr.',
+	'download-button' => 'Pobierz $1',
+	'download-directlink' => 'link bezpośredni',
+	'title-downloadpage' => 'Pobierz: $1',
+	'err-invalid-repo' => 'Nieznane repozytorium: "$1".',
+	'repo-browse-link' => 'Przeglądaj repozytorium',
+	'tablehead-repo' => 'Repozytorium',
+	'tablehead-filesize' => 'Rozmiar pliku',
+	'tablehead-hash' => 'Sumy kontrolne',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
@@ -717,6 +772,37 @@ $messages['te'] = array(
 	'repo-lastmoddate-label' => 'తేది:',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'title-overview' => 'Mga kuha ng kamera',
+	'title-error' => 'Kamalian',
+	'title-updatelog' => 'Isapanahon ang talaan',
+	'updatelog-intro' => 'Ang panitik ng pagsasapanahon ay nakatakdang umandor tuwing isang oras. Nasa ibaba ang lumabas sa entrepanyo mula sa huling pag-andar.',
+	'updatelog-active' => 'Kasalukuyang umaandar ang panitik na pangpagsasapanahon. Bumalik mamaya para sa buong pagtatala.',
+	'download-button' => 'Ikargang paibaba ang $1',
+	'download-directlink' => 'tuwirang kawing',
+	'title-downloadpage' => 'Ikargang paibaba: $1',
+	'downloadpage-directlink' => 'Pindutin dito upang ikargang paibaba ang kuha ng kamera.',
+	'err-snapshotindex' => 'Pansamantalang hindi makuha ang talatuntunan ng kuha ng kamera. Subukan na lang ulit mamaya.',
+	'err-invalid-repo' => 'Hindi nakikilalang taguan: "$1".',
+	'err-invalid-branch' => 'Hindi nakikilalang sangay: "$1" na nasa loob ng taguang "$2".',
+	'err-nosnapshot' => 'Ang mga kuha ng kamera ay nalilikha tuwing ilang mga oras. Naganap ang isang kamalian habang nililikha ang kuha ng kamera para sa "$1". Subukan ulit mamaya.',
+	'err-noupdatelog' => 'Walang natagpuang tala ng pagsasapanahon.',
+	'repo-site-link' => 'Websayt',
+	'repo-browse-link' => 'Tumingin-tingin sa repositoryo',
+	'repo-branches-label' => 'Mga sangay:',
+	'repo-lastmoddate-label' => 'Petsa:',
+	'branches-submit-button' => 'Kunin iyan!',
+	'updatelog-link' => 'isapanahon ang talaan',
+	'tablehead-repo' => 'Repositoryo',
+	'tablehead-snapshots' => 'Mga kuha ng kamera',
+	'tablehead-branch' => 'Sangay',
+	'tablehead-filesize' => 'Sukat ng talaksan',
+	'tablehead-hash' => 'Suriin ang mga suma',
+);
+
 /** толышә зывон (толышә зывон)
  * @author Гусейн
  */
@@ -724,6 +810,17 @@ $messages['tly'] = array(
 	'title-error' => 'Сәһв',
 	'repo-lastmoddate-label' => 'Тарых:',
 	'tablehead-filesize' => 'Фајли памјә',
+);
+
+/** Ukrainian (українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'title-error' => 'Помилка',
+	'download-button' => 'Завантажити $1',
+	'download-directlink' => 'прямі посилання',
+	'title-downloadpage' => 'Завантажити:$1',
+	'downloadpage-directlink' => 'Натисніть тут, щоб завантажити знімок.',
 );
 
 /** Vietnamese (Tiếng Việt)

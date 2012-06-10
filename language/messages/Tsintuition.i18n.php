@@ -461,6 +461,10 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'settings-legend' => 'Sazi',
+	'tab-overview' => 'Hera weynayis',
+	'tab-settings' => 'Sazi',
+	'tab-about' => 'Heq te cı',
 	'tab-demo' => 'Demo',
 );
 
@@ -1731,6 +1735,19 @@ $messages['tr'] = array(
 	'help-translate-tool' => 'Bu aracın çevrilmesine yardımcı olun!',
 	'help-translate-all' => "Toolserver'ın çevrilmesine yardımcı olun!",
 	'help-translate-tooltip' => 'Arayüz iletilerini dilinize çevirerek başkalarına yardımcı olun.',
+);
+
+/** Ukrainian (українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'tab-settings' => 'Налаштування',
+	'tab-about' => 'Опис',
+	'tab-demo' => 'Демо',
+	'bl-mysettings' => 'Мої налаштування мови',
+	'bl-mysettings-new' => 'Змінити мову!',
+	'bl-promo' => 'Переклад здійснено за допомогою $1 і $2.',
+	'bl-changelanguage' => 'Натисніть тут, щоб змінити мову інтерфейсу цього інструмента.',
 );
 
 /** Vietnamese (Tiếng Việt)

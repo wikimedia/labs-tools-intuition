@@ -1474,12 +1474,12 @@ $messages['tl'] = array(
 	'namespace' => 'Puwang ng pangalan',
 	'form-submit' => 'Pumunta',
 	'form-reset' => 'Muling itakda',
-	'years' => 'mga taon',
-	'weeks' => 'mga linggo',
-	'days' => 'mga araw',
-	'hours' => 'mga oras',
-	'minutes' => 'mga minuto',
-	'seconds' => 'mga segundo',
+	'years' => '{{PLURAL: $1|taon|mga taon}}',
+	'weeks' => '{{PLURAL: $1|linggo|mga linggo}}',
+	'days' => '{{PLURAL: $1|araw|mga araw}}',
+	'hours' => '{{PLURAL: $1|oras|mga oras}}',
+	'minutes' => '{{PLURAL:$1 |minuto|mga minuto}}',
+	'seconds' => '{{PLURAL: $1|segundo|mga segundo}}',
 	'last-modified-date' => 'Huling nabago noong: $1',
 	'view-source' => 'Tingnan ang pinagmulan',
 );
@@ -1543,16 +1543,25 @@ $messages['tyv'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author A1
  * @author Тест
  */
 $messages['uk'] = array(
 	'hello' => 'Вітаю',
+	'welcome' => 'Ласкаво просимо!',
+	'toolversionstamp' => 'Версія $1 ($2)',
+	'etc' => 'і т. д.',
 	'namespace' => 'Простір назв',
+	'form-submit' => 'Перейти',
+	'form-reset' => 'Очистити',
 	'years' => '{{PLURAL: $1|рік|роки|років}}',
 	'weeks' => '{{PLURAL: $1|тиждень|тижня|тижнів}}',
 	'days' => '{{PLURAL: $1|день|дні|днів}}',
 	'hours' => '{{PLURAL: $1|годину|години|годин}}',
+	'minutes' => '{{PLURAL:$1|хвилина|хвилини|хвилин}}',
+	'seconds' => '{{PLURAL:$1|секунда|секунди|секунд}}',
 	'last-modified-date' => 'Остання зміна: $1',
+	'view-source' => 'Переглянути код',
 );
 
 /** Vietnamese (Tiếng Việt)

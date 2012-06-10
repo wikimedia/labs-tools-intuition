@@ -166,6 +166,7 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author Abanima
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  */
@@ -184,21 +185,37 @@ $messages['ar'] = array(
 	'categories' => 'تصنيفات',
 	'remove_cats' => 'أزل التصنيفات الموجودة',
 	'use_checkusage' => 'استخدم $1CommonSense$2 لاقتراح تصانيف جديدة',
+	'use_tusc' => 'استخدم $1TUSC$2 للمصادقة ونقل الملف مباشرة',
 	'tusc_user' => 'اسم مستخدم TUSC',
 	'tusc_pass' => 'كلمة سر TUSC',
 	'do_it' => 'افعلها',
 	'error_transfer_usr' => 'أنت لم تضبط اسم مستخدم ويكيميديا كومنز',
 	'error_not_exists' => 'الملف المصدر غير موجود!',
+	'error_on_commons' => 'الملف المصدر موجود مسبقا على $1!',
 	'error_file_exists' => 'الملف موجود حالياً في $3 باسم "$1$4$2"!',
 	'error_diff_exists' => 'يوجد ملف مستهدف مختلف على ويكي الهدف تحت نفس الاسم!',
+	'error_no_meta' => 'تعذر العثور على بيانات التعريف المتعلقة بمصدر الويكي! $1رجاءا أضف/حدث بيانات التعريف للمشروع$2',
+	'error_meta_no_good' => 'البيانات الأولية: لم يتم العثور على قوالب جيدة! $1رجاءا أضف/حدث البيانات الأولية للمشروع$2',
+	'error_meta_bad' => 'البيانات الأولية: تم العثور على قوالب سيئة! $1رجاءا أضف/حدث البيانات الأولية للمشروع$2',
 	'original_wikitext' => 'نص الويكي الأصلي',
 	'new_wikitext' => 'نص الويكي الجديد',
 	'new_filename' => 'اسم الملف الجديد:',
+	'output_information' => 'من أجل التحميل اليدوي، قم بتعديل النص أعلاه (إن دعت الحاجة لذلك)، إحفظ $1الملف$2 على جهازك، ثم $3قم بتحميله$4.',
 	'upload_submit' => 'رفع!',
 	'target_wiki' => 'الويكي الهدف',
 	'standard_language' => 'ar',
 	'error_bot_blocked' => 'بوت الرفع ممنوع في ويكيميديا كومنز.',
+	'error_upload_meta' => 'لا يمكن التحميل مباشرة بسبب وجود مشكلة في البيانات الأولية (أنظر أعلاه) !',
+	'error_tusc_failed' => 'فشل التحقق من TUSC!',
+	'error_only_commons' => 'التحميل المباشرة يعمل فقط على ويكيميديا كومنز!',
+	'upload_control_text' => 'رجاءا تفقد نص الويكي الجديد ثم أضغط على "$1" في حال كان كل شيئ بحالة جيدة!',
+	'error_commons_user' => 'لتعريف مستخدم النقل، يجب أن تذكر أسم المستخدم التابع لويكيميديا كومنز في الوصف!',
+	'error_upload_users' => 'عملية التحميل متوفرة فقط لبعض المستخدمين وذلك خلال فترة الإختبار!',
 	'error_upload_file' => 'الملف الأصلي لم يمكن تنزيله.',
+	'help_intro' => 'عندما تريد أن ترفع تقريرا بخلل ما، تشير إلى ميزة او تطرح سؤالا، يمكنك أستخدام إحدى أنواع الإتصال المتوفرة أدناه:',
+	'help_jira' => '$1JIRA (أنت في حاجة إلى حساب)$2 (المشروع: Commonshelper2)',
+	'help_mail' => 'أرسل بريدا إلكترونيا إلى $1',
+	'help_commons' => '$1أضف تعليقا على كومنز$2',
 );
 
 /** Assamese (অসমীয়া)
@@ -697,7 +714,12 @@ $messages['de-formal'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'attention' => 'Diqet',
 	'language' => 'Zıwan',
+	'project' => 'Proce',
+	'source_file' => 'Çıme dosya',
+	'target_file' => 'Hedef dosya',
+	'categories' => 'Kategoriy',
 	'tusc_user' => 'TUSC namey qarwani',
 	'standard_language' => 'diq',
 );
@@ -2734,6 +2756,7 @@ $messages['tl'] = array(
 	'do_it' => 'Gawin ito',
 	'error_transfer_usr' => 'Hindi ka pa nagtatakda ng isang pangalan ng tagagamit ng Wikimedia Commons',
 	'error_not_exists' => 'Hindi umiiral ang pagmumulang talaksan!',
+	'error_on_commons' => 'Ang talaksang napagkunan ay nasa $1 na!',
 	'error_file_exists' => 'Umiiral na ang talaksan sa $3 bilang "$1$4$2"!',
 	'error_diff_exists' => 'Umiiral na ang ibang pinupukol na talaksan sa pinupukol na wiki na ganoon din ang pangalan!',
 	'error_no_meta' => 'Walang natagpuang metadato para sa pinagmumulang wiki! $1Mangyaring magdagdag/isapanahon ang metadato para sa proyekto$2',
@@ -2754,6 +2777,10 @@ $messages['tl'] = array(
 	'error_commons_user' => 'Upang makilala ang tagagamit ng paglilipat, ang iyong pangalan ng tagagamit sa Wikimedia Commons ay dapat na nasa loob ng paglalarawan!',
 	'error_upload_users' => 'Ang tungkulin ng pagkakargang papaitaas ay makukuha lamang ng ilang mga tagagamit habang nasa panahon ng pagsusubok!',
 	'error_upload_file' => 'Hindi maikakargang paibaba ang orihinal talaksan.',
+	'help_intro' => 'Kapag nais mong magsumbong ng isang sira, magmungkahi ng isang tampok o magtanong, magagamit mo ang isa sa mga uri ng pakikipag-ugnayang nasa ibaba:',
+	'help_jira' => '$1JIRA (kailangan mo ng isang akawnt)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Magpadala ng isang liham kay $1',
+	'help_commons' => '$1Magdagdag ng isang paskil sa Commons$2',
 );
 
 /** толышә зывон (толышә зывон)
@@ -2801,6 +2828,7 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author A1
  * @author Dim Grits
  * @author Тест
  */
@@ -2808,8 +2836,14 @@ $messages['uk'] = array(
 	'attention' => 'Увага',
 	'language' => 'Мова',
 	'project' => 'Проект',
+	'source_file' => 'Вихідний файл',
+	'commons_username' => "Ім'я користувача на Вікісховищі",
+	'commons_to_project' => 'із ВікіСховища в проект',
+	'move_file_from_com' => 'Перемістити файлу з ВікіСховища до проекту',
 	'categories' => 'Категорії',
+	'remove_cats' => 'Видалити наявні категорії',
 	'new_filename' => 'Нова назва файлу:',
+	'standard_language' => 'uk',
 );
 
 /** Vietnamese (Tiếng Việt)

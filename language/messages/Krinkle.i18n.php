@@ -171,6 +171,13 @@ $messages['de'] = array(
 	'form-legend-settings' => 'Einstellungen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'form-legend-settings' => 'Sazi',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */

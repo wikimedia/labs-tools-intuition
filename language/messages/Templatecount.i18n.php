@@ -203,6 +203,14 @@ $messages['de-formal'] = array(
 	'introduction' => 'Geben Sie den Namen einer Vorlage an (aktuell nur die Wikipedias) und klicken Sie „Los“ – so einfach ist das. Es kann sein, dass gecachte Ergebnisse (ältere Vorlagenversionen) ausgegeben werden. Dies liegt leider außerhalb des Einflussbereichs dieses Hilfsprogramms.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'language-label' => 'Zıwan',
+	'namespace-label' => 'Cayê namey',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
