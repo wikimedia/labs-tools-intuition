@@ -54,9 +54,17 @@ $messages['qqq'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author ترجمان05
  */
 $messages['ar'] = array(
+	'toolserver-status-ok' => 'لا توجد مشاكل في قاعدة بيانات الكتلة $1 $2',
+	'toolserver-status-info' => 'إشعار لمستخدمي الكتلة $1: $2',
+	'toolserver-status-warn' => 'تحذير لمستخدمي الكتلة $1: $2',
+	'toolserver-status-down' => 'ثم إيقاف قاعدة بيانات الكتلة $1 مؤقتا. $2',
+	'toolserver-status-erro' => 'قاعدة بيانات الكتلة $1 متوقفة عن العمل. $2',
+	'toolserver-status-unknown' => 'حالة غير معروف للكتلة $1',
+	'toolserver-status-missing' => 'الكتلة $1 غير موجودة',
 	'toolserver-status-short-ok' => '$1: حسنا',
 	'toolserver-status-short-info' => '$1: معلومات',
 	'toolserver-status-short-warn' => '$1: يحذّّر',

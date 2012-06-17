@@ -144,14 +144,17 @@ $messages['ar'] = array(
 	'option-manual' => 'رفع يدوي',
 	'preview' => 'عاين',
 	'translate' => 'ترجم',
+	'translate-instructions' => 'يتم قبول المدخلات كأسماء ملفات (على سبيل المثال "$1") أو روابط مواقع كاملة (على سبيل المثال "$2"). إذا تم أستخدام الخيار الأول، سيتم أعتبار ويكيميديا كمصدر. لترجمة SVG من موقع أو ويكي آخر، وجب عليك أستخدام صيغة الرابط الإلكتروني الكامل.',
 	'svginput-label' => 'ملف SVG',
 	'stats-footer' => 'تم أستخدام هذه الأداة لترجمة ما يقارب $1 ملف منذ $2.',
 	'uploading' => 'يرفع',
 	'upload-complete' => 'انتهت علمية الرفع بنجاح. يجب أن تكون الصورة الآن في $1',
 	'editdescriptionpage' => 'عدل صفحة الوصف الجديدة',
+	'disclaimer' => 'سيتم جمع بعض البيانات المجهولة بشكل خاص لأغراض إحصائية. كما سيتم تسجيل أسماء المستخدمين التابعة لـ TUSC  أيضا للمساعدة في حال وقوع أعمال تخريب، إذا توفرت. و لن يتم تسجيل الكلمات السرية مطلقا.',
 	'author-complete' => 'الرجاء إكمال معلومات المؤلف!',
 	'preview-hide' => 'أخفِ المعاينة',
 	'preview-refresh' => 'أنعش المعاينة',
+	'error-must-accept' => 'للإستمرار في التحميل المباشر يجب عليك قبول شروط الإستخدام المقدمة.',
 	'error-tusc-failed' => 'فشل التحقق من صحة الـ TUSC: اسم المستخدم أو كلمة المرور غير صحيحة.',
 	'description-license' => 'اختر وصفا ورخصة',
 	'finalise' => 'إنهاء التفاصيل',
@@ -1269,7 +1272,7 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
-	'th-translation' => 'Wergerr',
+	'th-translation' => 'Werger',
 	'th-language' => 'Ziman',
 	'th-username' => 'Navê bikarhêner',
 	'th-password' => 'Şîfre',

@@ -45,6 +45,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Krinkle
+ * @author Purodha
  * @author Siebrand
  * @author Toliño
  */
@@ -60,9 +61,7 @@ $messages['qqq'] = array(
 * $1: File name',
 	'downloadpage-directlink' => 'Clickable link shown under the heading, links to the file directly',
 	'err-snapshotindex' => 'If the information manifest (Index) can not be found on the server, this error is shown.',
-	'err-invalid-repo' => '
-
-* $1: Repository name',
+	'err-invalid-repo' => '* $1: Repository name',
 	'err-invalid-branch' => 'Parameters:
 * $1: Branch name
 * $2: Repository name',
@@ -496,18 +495,32 @@ $messages['ja'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'title-overview' => 'Schnappschöß',
 	'title-error' => 'Fähler',
 	'title-updatelog' => 'Logbooch',
 	'updatelog-intro' => 'Dat Projramm för der neue Schtand leuf jeede Schtund.
 Heh kütt, wat dat Projramm op de Konsole jeschrevve hät.',
+	'updatelog-active' => 'Dat Projramm es em Momang aam loufe un brängk heh di Sigg op der neuste Schtand.
+Schpääder kanns De heh dann et kumplätte Protokoll dovun beloore.',
 	'download-button' => '$1 eronger laade',
 	'download-directlink' => 'tiräkte Lenk',
 	'title-downloadpage' => '$1 eronger laade',
+	'err-snapshotindex' => 'Et Verzeijschneß met de Schnapschöß es em Momang nit ze bruche.
+Versöhg_et schpääder widder.',
+	'err-invalid-repo' => 'En Sammlong „$1“kenne mer nit.',
+	'err-invalid-branch' => 'En Afdeilong „$1“kenne mer nit en dä Sammlong „$2“',
+	'err-nosnapshot' => 'Schnapschöß wääde alle paa Schtond jemaat.
+Wi mer dä Schnapschoß för „$1“jemaat han, es jät scheif jeloufe.
+Versöhg_et schpääder norr_ens.',
+	'err-noupdatelog' => 'Mer han kei Protokoll jefonge.',
 	'repo-site-link' => 'Websaijt',
+	'repo-browse-link' => 'En dä Sammlong bläddere',
 	'repo-branches-label' => 'Zweije vun dä Versione:',
 	'repo-lastmoddate-label' => 'Dattum:',
 	'branches-submit-button' => 'Lohß Jonn!',
 	'updatelog-link' => 'Logbooch',
+	'tablehead-repo' => 'Sammlong',
+	'tablehead-snapshots' => 'Schnappschöß',
 	'tablehead-branch' => 'Zweisch vun dä Version',
 	'tablehead-filesize' => 'Datteiömfang',
 	'tablehead-hash' => 'Prööfsumme',
@@ -655,6 +668,7 @@ $messages['ro'] = array(
 	'title-overview' => 'Instantanee',
 	'title-error' => 'Eroare',
 	'title-updatelog' => 'Jurnal actualizări',
+	'updatelog-active' => 'Scriptul de actualizare se află în execuție. Reveniți mai târziu pentru jurnalul complet.',
 	'download-button' => 'Descărcare $1',
 	'download-directlink' => 'legătură directă',
 	'title-downloadpage' => 'Descărcare: $1',
@@ -674,6 +688,7 @@ $messages['ro'] = array(
 	'tablehead-snapshots' => 'Instantanee',
 	'tablehead-branch' => 'Ramură',
 	'tablehead-filesize' => 'Mărime fișier',
+	'tablehead-hash' => 'Sume de control',
 );
 
 /** tarandíne (tarandíne)
