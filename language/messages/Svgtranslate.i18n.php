@@ -271,7 +271,7 @@ $messages['be'] = array(
 	'finalise' => 'Завяршыце апісанне падрабязнасцяў',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -570,7 +570,7 @@ $messages['diq'] = array(
 	'uploading' => 'Bar beno',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -837,7 +837,7 @@ $messages['fr'] = array(
 	'finalise' => 'Finaliser les détails',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -958,7 +958,7 @@ $messages['hr'] = array(
 	'finalise' => 'Dovrši detalje',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -2272,10 +2272,11 @@ $messages['vi'] = array(
  * @author Hydra
  * @author Liangent
  * @author Shizhao
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'title' => 'SVG 翻译',
-	'error-tryagain' => '$1点击你的浏览器会退按钮重试。',
+	'error-tryagain' => '$1点击你的浏览器的返回按钮重试。',
 	'error-nothing' => '没有要翻译的内容。',
 	'error-notsvg' => '不是 SVG 文件。',
 	'error-unexpected' => '发生意外错误。',

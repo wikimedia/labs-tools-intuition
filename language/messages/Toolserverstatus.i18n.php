@@ -106,7 +106,7 @@ $messages['ast'] = array(
 	'toolserver-status-short-missing' => '$1: Inesistente',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -207,7 +207,7 @@ $messages['de'] = array(
 	'toolserver-status-short-missing' => '$1: Nicht vorhanden',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -308,7 +308,7 @@ $messages['fr'] = array(
 	'toolserver-status-short-missing' => '$1 : Absent',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -367,7 +367,7 @@ $messages['hi'] = array(
 	'toolserver-status-short-missing' => '$1: गायब',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

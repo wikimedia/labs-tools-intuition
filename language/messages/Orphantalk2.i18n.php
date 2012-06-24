@@ -182,7 +182,7 @@ $messages['be'] = array(
 	'resultslimited' => 'Вынік абмежаваны да $1 старонак.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -363,7 +363,7 @@ $messages['diq'] = array(
 	'tools-delete' => 'besterne',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -511,7 +511,7 @@ $messages['fr'] = array(
 	'resultslimited' => 'Les résultats ont été limités à $1 pages.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -607,7 +607,7 @@ $messages['hr'] = array(
 	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

@@ -206,7 +206,7 @@ $messages['be'] = array(
 	'view-source' => 'Паказаць крынічны тэкст',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Jim-by
  * @author Wizardist
  */
@@ -446,7 +446,7 @@ $messages['diq'] = array(
 	'view-source' => 'Çımey bıvêne',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -612,7 +612,7 @@ $messages['fr'] = array(
 	'view-source' => 'Voir la source',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -694,7 +694,7 @@ $messages['hr'] = array(
 	'view-source' => 'Prikaži izvor',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -926,6 +926,27 @@ $messages['ku-latn'] = array(
 	'etc' => 'hwd.',
 	'namespace' => 'Boşahîya nav',
 	'view-source' => 'Çavkanîyê bibîne',
+);
+
+/** Kirghiz (Кыргызча)
+ * @author Chorobek
+ */
+$messages['ky'] = array(
+	'hello' => 'Бар болуңуз',
+	'welcome' => 'Кош келиңиз',
+	'toolversionstamp' => 'Версия $1 ($2)',
+	'etc' => 'ж.б.у.с.',
+	'namespace' => 'Аталыштар мейкиндиги',
+	'form-submit' => 'Алга',
+	'form-reset' => 'Тазала',
+	'years' => '{{PLURAL: $1|жыл|жылдар}}',
+	'weeks' => '{{PLURAL: $1|апта|апталар}}',
+	'days' => '{{PLURAL: $1|күн|күндөр}}',
+	'hours' => '{{PLURAL: $1|саат|сааттар}}',
+	'minutes' => '{{PLURAL: $1|мүнөт|мүнөттөр}}',
+	'seconds' => '{{PLURAL: $1|секнд|секундалар}}',
+	'last-modified-date' => '$1 акыркы жолу өзгөртүлгөн',
+	'view-source' => 'Кайнарды кара',
 );
 
 /** Latin (Latina)

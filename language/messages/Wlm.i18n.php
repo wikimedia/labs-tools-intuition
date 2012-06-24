@@ -264,7 +264,7 @@ $messages['ast'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -532,7 +532,7 @@ $messages['diq'] = array(
 	'province-heading' => 'Wılayet',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -752,7 +752,7 @@ $messages['fr'] = array(
 	'ccaa-heading' => 'CA',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Elisardojm
  * @author Toliño
  */
@@ -852,7 +852,7 @@ $messages['he'] = array(
 	'ccaa-heading' => 'קהילות אוטונומיות',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

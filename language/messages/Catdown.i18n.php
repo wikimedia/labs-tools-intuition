@@ -230,7 +230,7 @@ o en dalgún otru espeyu de GNU, visita
 	'scaling-both' => ', escalaes a un tamañu máximu de $1x$2 pixels',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -511,7 +511,7 @@ $messages['diq'] = array(
 	'download' => 'biyar war',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -710,7 +710,7 @@ ou un autre miroir GNU, voyez
 	'scaling-both' => ", mis à l'échelle avec une taille maximale de $1x$2 pixels",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -807,7 +807,7 @@ Windows:
 	'scaling-both' => ', בהגדלה לגודל מרבי של $1x$2 פיקסלים',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

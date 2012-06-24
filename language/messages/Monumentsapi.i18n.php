@@ -215,7 +215,7 @@ $messages['be'] = array(
 	'toolbox-nav-search' => 'Шукаць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -451,7 +451,7 @@ $messages['diq'] = array(
 	'toolbox-nav-search' => 'Cı geyre',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -632,7 +632,7 @@ $messages['fr'] = array(
 	'toolbox-title-searchmonuments' => 'Rechercher des monuments',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Elisardojm
  * @author Toliño
  */
@@ -726,7 +726,7 @@ $messages['hr'] = array(
 	'search-table-th-search' => 'Traži',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

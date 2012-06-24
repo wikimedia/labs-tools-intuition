@@ -214,7 +214,7 @@ $messages['diq'] = array(
 	'repo-lastmoddate-label' => 'Deme:',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -309,7 +309,7 @@ $messages['fr'] = array(
 	'tablehead-hash' => 'Hachage',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -371,7 +371,7 @@ $messages['he'] = array(
 	'tablehead-hash' => 'סיכומי ביקורת',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -544,8 +544,10 @@ $messages['lb'] = array(
 	'downloadpage-directlink' => 'Klickt hei fir de Snapshot erofzelueden.',
 	'err-noupdatelog' => "D'Logbuch vun den Aktualisatioune gouf net fonnt",
 	'repo-site-link' => 'Internetsite',
+	'repo-branches-label' => 'Famillje vu Versiounen:',
 	'repo-lastmoddate-label' => 'Datum:',
 	'branches-submit-button' => 'Eroflueden!',
+	'tablehead-branch' => 'Versiouns-Famill',
 	'tablehead-filesize' => 'Gréisst vum Fichier',
 	'tablehead-hash' => 'Kontrollzuelen',
 );

@@ -53,7 +53,7 @@ $messages['be'] = array(
 	'title' => 'Бягучая ананімная актыўнасць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
@@ -102,7 +102,7 @@ $messages['de'] = array(
 	'title' => 'Aktuelle Bearbeitungen von IP-Adressen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -137,7 +137,7 @@ $messages['fr'] = array(
 	'title' => 'Activité anonyme récente',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -165,7 +165,7 @@ $messages['hr'] = array(
 	'title' => 'Nedavna aktivnost anonimnih suradnika',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

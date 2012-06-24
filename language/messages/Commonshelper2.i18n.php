@@ -346,7 +346,7 @@ $messages['be'] = array(
 	'error_upload_file' => 'Арыгінальны файл не можа быць загружаны.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -724,7 +724,7 @@ $messages['diq'] = array(
 	'standard_language' => 'diq',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -779,6 +779,7 @@ $messages['dsb'] = array(
  * @author Crazymadlover
  * @author Fitoschido
  * @author Platonides
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'attention' => 'Atención',
@@ -825,7 +826,7 @@ $messages['es'] = array(
 	'error_upload_file' => 'No se puede descargar el archivo original.',
 	'help_intro' => 'Si desea informar de un error, sugerir una nueva característica o realizar una pregunta, puedes usar una de las siguientes formas de contacto:',
 	'help_jira' => '$1A través de JIRA (necesita una cuenta)$2  (proyecto: Commonshelper2)',
-	'help_mail' => 'Enviando un e-mail a $1',
+	'help_mail' => 'Enviando un correo electrónico a $1',
 	'help_commons' => '$1Dejando un mensaje en Commons$2',
 );
 
@@ -1004,7 +1005,7 @@ $messages['fr'] = array(
 	'help_commons' => '$1Ajouter un message sur Commons$2',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -1209,7 +1210,7 @@ $messages['hr'] = array(
 	'error_upload_file' => 'Izvorna datoteka ne može biti preuzeta.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -2830,6 +2831,7 @@ $messages['tr'] = array(
 /** Ukrainian (українська)
  * @author A1
  * @author Dim Grits
+ * @author Olvin
  * @author Тест
  */
 $messages['uk'] = array(
@@ -2841,7 +2843,7 @@ $messages['uk'] = array(
 	'commons_to_project' => 'із ВікіСховища в проект',
 	'move_file_from_com' => 'Перемістити файлу з ВікіСховища до проекту',
 	'categories' => 'Категорії',
-	'remove_cats' => 'Видалити наявні категорії',
+	'remove_cats' => 'Вилучити наявні категорії',
 	'new_filename' => 'Нова назва файлу:',
 	'standard_language' => 'uk',
 );

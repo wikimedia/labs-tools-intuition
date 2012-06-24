@@ -65,7 +65,7 @@ $messages['be'] = array(
 	'error-form-empty' => 'Адно або некалькі абавязковых палёў пакінутыя пустымі. Вы мусіце запоўніць іх, перш чым працягваць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -123,7 +123,7 @@ $messages['de'] = array(
 	'error-form-empty' => 'Eines oder mehrere der Pflichtfelder wurden nicht ausgefüllt. Bitte vor dem Fortfahren ausfüllen.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -173,7 +173,7 @@ $messages['fr'] = array(
 	'error-form-empty' => 'Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -213,7 +213,7 @@ $messages['hr'] = array(
 	'error-form-empty' => 'Jedno ili više obaveznih polja su prazna. Trebali bi ih dovršiti prije nastavka.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

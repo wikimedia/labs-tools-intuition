@@ -106,7 +106,7 @@ $messages['az'] = array(
 	'namespace-label' => 'Adlar fəzası',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -215,7 +215,7 @@ $messages['diq'] = array(
 	'namespace-label' => 'Cayê namey',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -310,7 +310,7 @@ $messages['fr'] = array(
 	'time-label' => 'Temps pris pour exécuter la commande',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -362,7 +362,7 @@ $messages['hi'] = array(
 	'time-label' => 'कार्य करने में लगा समय',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
