@@ -1139,6 +1139,14 @@ $messages['ja'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'date-unknown' => '알 수 없음',
+	'province-none' => '(알 수 없음)',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */

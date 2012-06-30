@@ -568,7 +568,7 @@ $messages['nb'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'enter-details' => 'Voer details in',
+	'enter-details' => 'Gegevens invoeren',
 	'introduction' => 'Geef de naam in van een sjabloon (werkt alleen voor Wikipedia\'s op het moment) en klik op "OK". Zo eenvoudig is het. Er wordt gebruik gemaakt van cachen (onthouden van resultaten), maar daar heeft dit hulpprogramma geen invloed op.',
 	'language-label' => 'Taal',
 	'namespace-label' => 'Naamruimte',
