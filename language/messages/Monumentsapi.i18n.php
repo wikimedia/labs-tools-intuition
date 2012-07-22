@@ -56,6 +56,8 @@ $messages['en'] = array(
 	'toolbox-nav-statistics' => 'Statistics',
 	'toolbox-nav-search' => 'Search',
 	'toolbox-title-searchmonuments' => 'Search monuments',
+	'location' => 'Location',
+	'source-monuments-list-on-wikipedia' => 'Source monuments list on Wikipedia',
 );
 
 /** Message documentation (Message documentation)
