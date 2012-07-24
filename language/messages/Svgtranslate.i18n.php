@@ -452,6 +452,19 @@ $messages['ca'] = array(
 	'finalise' => 'Conclusió dels detalls',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Diyar se
+ */
+$messages['ckb'] = array(
+	'error-upload' => 'هەڵە هەبوو لە بارکردن',
+	'begin-translation' => 'دەست بکە بە وەرگێڕان',
+	'th-translation' => 'وەرگێڕان',
+	'th-language' => 'زمان',
+	'th-username' => 'ناوی بەکارهێنەر',
+	'th-password' => 'تێپەڕوشە',
+	'translate' => 'وەرگێڕە',
+);
+
 /** Czech (česky)
  * @author Jezevec
  */
@@ -564,6 +577,7 @@ $messages['diq'] = array(
 	'th-username' => 'Namey karberi',
 	'th-password' => 'Parola',
 	'th-method' => 'Metod',
+	'option-tusc' => 'TUSC (otomatik barkerdış)',
 	'preview' => 'Verqayt',
 	'translate' => 'Açarne',
 	'svginput-label' => 'Dosyay SVG',
@@ -1324,7 +1338,7 @@ $messages['lb'] = array(
 	'finalise' => 'Detailer kompletéieren',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Namik
  */
 $messages['lez'] = array(
@@ -1680,6 +1694,14 @@ $messages['pdc'] = array(
 	'translate' => 'Iwwersetze',
 	'svginput-label' => 'SVG-Feil',
 	'uploading' => 'Am ufflaade…',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'th-language' => 'Schbrooch',
+	'translate' => 'Iwasedze',
 );
 
 /** Polish (polski)
@@ -2145,11 +2167,13 @@ $messages['tly'] = array(
 	'th-language' => 'Зывон',
 	'th-username' => 'Иштирокәкә ном',
 	'th-password' => 'Парол',
+	'preview' => 'Сыфтәнә нишо дој',
 	'translate' => 'Пегордынијеј',
 	'svginput-label' => 'SVG фајл',
 	'uploading' => 'Бо карде',
 	'upload-complete' => 'Бо жәј чок дәварде. Шикил бәбе быбу бы унвонәдә $1',
 	'editdescriptionpage' => 'Тәсвири тожә сәһифә дәгиш кардеј',
+	'preview-hide' => 'Сыфтәнә нишо дој нијо кардеј',
 );
 
 /** Turkish (Türkçe)

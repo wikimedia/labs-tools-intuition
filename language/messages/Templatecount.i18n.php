@@ -609,6 +609,13 @@ $messages['pdc'] = array(
 	'namespace-label' => 'Blatznaame',
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'language-label' => 'Schbrooch',
+);
+
 /** Polish (polski)
  * @author Sp5uhe
  */
@@ -803,6 +810,22 @@ $messages['tr'] = array(
 	'namespace-label' => 'Alan adı',
 	'pagename-label' => 'Sayfa adı (alan adı hariç)',
 	'time-label' => 'Komutu yürütmek için geçen süre',
+);
+
+/** Ukrainian (українська)
+ * @author AS
+ * @author Olvin
+ */
+$messages['uk'] = array(
+	'enter-details' => 'Вкажіть подробиці',
+	'introduction' => "Введіть назву шаблону (поки що працює тільки для Вікіпедій) і натисніть кнопку переходу. Простіше нікуди. Працює кешування (запам'ятовування результатів), але, на жаль, воно непідконтрольне цьому інструменту та його власнику.",
+	'language-label' => 'Мова',
+	'namespace-label' => 'Простір назв',
+	'pagename-label' => 'Назва сторінки',
+	'transclusion-count-label' => 'Кількість включень',
+	'transclusion-count' => 'Знайдено включень: $1.',
+	'error-suggestion' => 'Можливо, Ви помилилися або використали неправильний регістр у назві сторінки?',
+	'time-label' => 'Час, витрачений на виконання команди',
 );
 
 /** Vietnamese (Tiếng Việt)

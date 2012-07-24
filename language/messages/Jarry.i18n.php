@@ -295,6 +295,13 @@ $messages['lb'] = array(
 	'error-form-empty' => 'Eent oder méi obligatoresch Felder goufen eidel gelooss. Dir musst déi ausfëllen ier Dir virufuere kënnt.',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'moretools' => 'daugiau įrankių iš to paties autoriaus',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */

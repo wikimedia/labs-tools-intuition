@@ -123,6 +123,7 @@ $messages['arc'] = array(
 );
 
 /** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
  * @author Simbu123
  */
 $messages['as'] = array(
@@ -131,7 +132,14 @@ $messages['as'] = array(
 	'toolversionstamp' => 'সংস্কৰণ $1 ($2)',
 	'etc' => 'ইত্যাদি।',
 	'namespace' => 'নামস্থান',
+	'form-submit' => 'যাওক',
 	'form-reset' => 'পূৰ্বৰ অৱস্থালৈ লৈ যাওক',
+	'years' => '$1 {{PLURAL:$1|বছৰ|বছৰ}}',
+	'weeks' => '{{PLURAL: $1|সপ্তাহ|সপ্তাহ}}',
+	'days' => '$1 {{PLURAL:$1|দিন|দিন}}',
+	'hours' => '{{PLURAL: $1|ঘণ্টা|ঘণ্টা}}',
+	'minutes' => '{{PLURAL: $1|মিনিট|মিনিট}}',
+	'seconds' => '$1 {{PLURAL:$1|ছেকেণ্ড|ছেকেণ্ড}}',
 	'last-modified-date' => 'শেষ পৰিবৰ্তন: $1',
 	'view-source' => 'উৎস চাওক',
 );
@@ -175,7 +183,7 @@ $messages['az'] = array(
 	'view-source' => 'Mənbəyə bax',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author ҒатаУлла
  */
 $messages['ba'] = array(
@@ -979,7 +987,7 @@ $messages['lb'] = array(
 	'view-source' => 'Quellcode weisen',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Namik
  */
 $messages['lez'] = array(
@@ -1153,6 +1161,26 @@ $messages['pdc'] = array(
 	'weeks' => '{{PLURAL: $1|Woch|Woche}}',
 	'days' => '{{PLURAL: $1|Daag|Daag}}',
 	'hours' => '{{PLURAL:$1|Schtund|Schtund}}',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'welcome' => 'Willkumme',
+	'years' => '{{PLURAL: $1|Joa|Joare}}',
+	'weeks' => '{{PLURAL: $1|Woch|Woche}}',
+	'days' => '{{PLURAL: $1|Daach|Daache}}',
+	'hours' => '{{PLURAL: $1|Schdund|Schdunde}}',
+	'minutes' => '{{PLURAL: $1|Minud|Minude}}',
+	'seconds' => '$1 {{PLURAL:$1|Sekund|Sekunde}}',
+);
+
+/** Pali (पाळि)
+ * @author Anand Vivek Satpathi
+ */
+$messages['pi'] = array(
+	'form-submit' => 'गच्छामि',
 );
 
 /** Polish (polski)
@@ -1545,7 +1573,7 @@ $messages['tr'] = array(
 	'view-source' => 'Kaynağı gör',
 );
 
-/** Tuvinian (Тыва дыл)
+/** Tuvinian (тыва дыл)
  * @author Sborsody
  */
 $messages['tyv'] = array(

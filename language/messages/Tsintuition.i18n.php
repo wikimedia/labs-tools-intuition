@@ -724,7 +724,11 @@ $messages['hi'] = array(
 	'settings-legend' => 'सेटिंग्स',
 	'choose-language' => 'भाषा चुनें',
 	'clear-cookies' => 'कुकीज़ साफ़ करें',
+	'renew-cookies' => 'कुकीज़ को नवीनीकृत करें',
+	'cookie-expiration' => 'कुकी समाप्ति',
 	'clearcookies-success' => 'कुकीज़ साफ़ कर दी गई हैं।',
+	'renewcookies-success' => 'कुकीज़ नवीनीकृत हो गयी! अब ये अगले $1 तक चलेंगी।',
+	'tab-overview' => 'सारांश',
 	'tab-settings' => 'सेटिंग्स',
 	'tab-about' => 'विवरण',
 	'tab-demo' => 'डॅमो',
@@ -982,7 +986,7 @@ $messages['ksh'] = array(
 	'fullname' => 'De Bedeenovverfläsh vum Tuulẞööver en alle Shprooche',
 	'current-settings' => 'De aktoälle Enshtällonge',
 	'current-language' => 'De ußjesöhk Shprooch',
-	'settings-legend' => 'Enshtällonge',
+	'settings-legend' => 'Enschtällonge',
 	'choose-language' => 'Donn en Shprooch ußwähle',
 	'clear-cookies' => 'Donn de <i lang="en">Cookies</i> fottschmiiße',
 	'renew-cookies' => 'Donn de <i lang="en">Cookies</i> neu säze',
@@ -990,7 +994,7 @@ $messages['ksh'] = array(
 	'clearcookies-success' => 'De <i lang="en">Cookies</i> sin fott.',
 	'renewcookies-success' => 'De <i lang="en">Cookies</i> sin neu jesaz un se sullte för de näkßde $1 hallde.',
 	'tab-overview' => 'Övverseesch',
-	'tab-settings' => 'Enshtällonge',
+	'tab-settings' => 'Enschtällonge',
 	'tab-about' => 'Övver dat Projramm heh',
 	'tab-demo' => 'Vörföhrung',
 	'bl-mysettings' => 'Ming Shproochenshtällonge',
@@ -1302,6 +1306,21 @@ $messages['pdc'] = array(
 	'bl-mysettings-new' => 'Schprooch ennere',
 	'help-translate-tool' => 'Bitte hilf des Gscharr zu iwwersetze!',
 	'help-translate-all' => 'Hilf bitte daen Waerkzeichheit-Rechlinger zu iwwersetze!',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'settings-legend' => 'Oischdellunge',
+	'choose-language' => 'Ä Schbrooch wehle',
+	'clear-cookies' => 'Cookies lesche',
+	'renew-cookies' => 'Cookies eanaijare',
+	'tab-overview' => 'Iwabligg',
+	'tab-settings' => 'Oischdellunge',
+	'tab-about' => 'Iwa',
+	'tab-demo' => 'Voafierung',
+	'bl-mysettings-new' => 'Sprache wexsle',
 );
 
 /** Polish (polski)
@@ -1705,6 +1724,7 @@ $messages['tly'] = array(
 	'tab-overview' => 'Чәшику дәвоније',
 	'tab-settings' => 'Низамисә ној',
 	'tab-about' => 'Тәсвир',
+	'bl-mysettings' => 'Чымы зывонә кукон',
 	'bl-mysettings-new' => 'Зывони дәгиш кардеј!',
 );
 

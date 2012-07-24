@@ -379,7 +379,7 @@ $messages['ksh'] = array(
 	'alws-selectwiki' => '(e Wiki ußwähle)',
 	'alws-group-mustused' => 'De miehts jebruchte Wikis',
 	'alws-group-allaz' => 'All de Wikis noh_m Alfabeet',
-	'form-legend-settings' => 'Enshtällonge',
+	'form-legend-settings' => 'Enschtällonge',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

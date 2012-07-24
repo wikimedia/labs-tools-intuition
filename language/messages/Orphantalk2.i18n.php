@@ -787,13 +787,14 @@ $messages['ksh'] = array(
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
+ * @author Ghybu
  */
 $messages['ku-latn'] = array(
-	'hideredirects' => 'Ragihandinan veşêre',
+	'hideredirects' => 'Beralîkirinan veşêre',
 	'hidesubpages' => 'Binrûpelan veşêre',
 	'limit' => 'Sînor',
 	'page' => 'Rûpel',
-	'redirect' => 'Ragihandin e?',
+	'redirect' => 'Beralîkirin e?',
 	'tools-delete' => 'jê bibe',
 	'tools-links' => 'girêdan',
 	'tools-hist' => 'dîro',
@@ -1009,6 +1010,13 @@ $messages['pdc'] = array(
 	'update' => 'Druffschridde',
 	'tools-delete' => 'verwische',
 	'tools-links' => 'Gleecher',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'tools-delete' => 'lesche',
 );
 
 /** Polish (polski)
@@ -1338,7 +1346,9 @@ $messages['tl'] = array(
 $messages['tly'] = array(
 	'title' => 'OrphanTalk2',
 	'page' => 'Сәһифә',
+	'output' => 'Нәтиҹә',
 	'tools-delete' => 'рәдд кардеј',
+	'tools-links' => 'сәбонон',
 	'tools-subject' => 'мовзу',
 	'tools-hist' => 'тарых',
 	'tools-curr' => 'есәт.',

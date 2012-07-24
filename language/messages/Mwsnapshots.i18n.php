@@ -212,6 +212,8 @@ $messages['diq'] = array(
 	'title-downloadpage' => "$1'i Ron:",
 	'repo-site-link' => 'Websita',
 	'repo-lastmoddate-label' => 'Deme:',
+	'branches-submit-button' => 'Şo ri!',
+	'tablehead-filesize' => 'Ebatê dosyayî',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -275,6 +277,13 @@ $messages['es'] = array(
 	'tablehead-branch' => 'Rama',
 	'tablehead-filesize' => 'Tamaño del archivo',
 	'tablehead-hash' => 'Hash',
+);
+
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'title-error' => 'خطا',
 );
 
 /** French (français)
@@ -416,17 +425,17 @@ $messages['ia'] = array(
 	'title-downloadpage' => 'Discargar: $1',
 	'downloadpage-directlink' => 'Clicca hic pro discargar le instantaneo.',
 	'err-snapshotindex' => 'Indice de instantaneos temporarimente indisponibile. Per favor reproba plus tarde.',
-	'err-invalid-repo' => 'Deposito incognite: "$1".',
-	'err-invalid-branch' => 'Branca incognite: "$1" in deposito "$2".',
+	'err-invalid-repo' => 'Repositorio incognite: "$1".',
+	'err-invalid-branch' => 'Branca incognite: "$1" in repositorio "$2".',
 	'err-nosnapshot' => 'Le instantaneos es generate cata poc horas. Durante le generation del instantaneo "$1" occurreva un error. Per favor reproba plus tarde.',
 	'err-noupdatelog' => 'Nulle registro de actualisation ha essite trovate.',
 	'repo-site-link' => 'Sito web',
-	'repo-browse-link' => 'Examinar deposito',
+	'repo-browse-link' => 'Explorar repositorio',
 	'repo-branches-label' => 'Brancas:',
 	'repo-lastmoddate-label' => 'Data:',
 	'branches-submit-button' => 'Obtene lo!',
 	'updatelog-link' => 'registro de actualisation',
-	'tablehead-repo' => 'Deposito',
+	'tablehead-repo' => 'Repositorio',
 	'tablehead-snapshots' => 'Instantaneos',
 	'tablehead-branch' => 'Branca',
 	'tablehead-filesize' => 'Dimension del file',
@@ -505,6 +514,7 @@ Schpääder kanns De heh dann et kumplätte Protokoll dovun beloore.',
 	'download-button' => '$1 eronger laade',
 	'download-directlink' => 'tiräkte Lenk',
 	'title-downloadpage' => '$1 eronger laade',
+	'downloadpage-directlink' => 'Donn heh klecke, öm enen Schnapschoß eronger ze laade.',
 	'err-snapshotindex' => 'Et Verzeijschneß met de Schnapschöß es em Momang nit ze bruche.
 Versöhg_et schpääder widder.',
 	'err-invalid-repo' => 'En Sammlong „$1“kenne mer nit.',
@@ -645,6 +655,13 @@ $messages['nl'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'title-error' => 'Fehla',
+);
+
 /** Polish (polski)
  * @author Woytecr
  */
@@ -698,6 +715,37 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'title-error' => 'Errore',
+);
+
+/** Russian (русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'title-overview' => 'Снимки',
+	'title-error' => 'Ошибка',
+	'title-updatelog' => 'Журнал обновления',
+	'updatelog-intro' => 'Сценарий обновления запускается каждый час. Ниже приводится отчет из консоли последнего прогона.',
+	'updatelog-active' => 'В настоящее время выполняется сценарий обновления. Зайдите позже чтобы увидеть весь журнал.',
+	'download-button' => 'Скачать $1',
+	'download-directlink' => 'прямая ссылка',
+	'title-downloadpage' => 'Скачать: $1',
+	'downloadpage-directlink' => 'Нажмите здесь, чтобы скачать моментальный снимок.',
+	'err-snapshotindex' => 'Индекс снимка временно недоступен. Пожалуйста, повторите попытку позже.',
+	'err-invalid-repo' => 'Неизвестный репозиторий: "$1".',
+	'err-invalid-branch' => 'Неизвестная ветвь: "$1" в репозитарии "$2".',
+	'err-nosnapshot' => 'Снимки создаются каждые несколько часов. Во время создания моментального снимка для "$1" произошла ошибка. Пожалуйста, повторите попытку позже.',
+	'err-noupdatelog' => 'Журнал обновления не найден.',
+	'repo-site-link' => 'Веб-сайт',
+	'repo-browse-link' => 'Обзор репозитория',
+	'repo-branches-label' => 'Вети:',
+	'repo-lastmoddate-label' => 'Дата:',
+	'branches-submit-button' => 'Заполучить!',
+	'updatelog-link' => 'журнал обновления',
+	'tablehead-repo' => 'Репозиторий',
+	'tablehead-snapshots' => 'Снимки',
+	'tablehead-branch' => 'Ветвь',
+	'tablehead-filesize' => 'Размер файла',
+	'tablehead-hash' => 'Контрольные суммы',
 );
 
 /** Slovenian (slovenščina)

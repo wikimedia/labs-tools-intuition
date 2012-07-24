@@ -518,8 +518,10 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'title' => 'WLM dosyay',
 	'file' => 'Resim',
 	'province' => 'Wılayet',
+	'comarque' => 'Comarca',
 	'author' => 'Nuştekar',
 	'deleted' => '($1) besterneyê',
 	'id-none' => '(Çıno)',
@@ -630,6 +632,14 @@ $messages['es'] = array(
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
+);
+
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'title' => 'Projekti WLM failid',
+	'gallery-header' => 'Mälestist registrinumbriga $1 kujutavad pildid.',
 );
 
 /** Basque (euskara)
@@ -1420,6 +1430,20 @@ $messages['pdc'] = array(
 	'bic-list' => 'Lischt',
 	'author-heading' => 'Schreiwer',
 	'province-none' => '(Net bekannt)',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'deleted' => 'Gleschd ($1)',
+	'date-unknown' => 'Uubkond',
+	'id-none' => '(käni)',
+	'bic-list' => 'Lischd',
+	'bic-gallery' => 'Galarie',
+	'bic-list-bad' => 'Zaische',
+	'users-list' => 'Oagugge',
+	'province-none' => '(Uubkond)',
 );
 
 /** Polish (polski)

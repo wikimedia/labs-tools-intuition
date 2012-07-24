@@ -1166,6 +1166,49 @@ $messages['he'] = array(
 	'help_commons' => '$1הוספת רשומה בוויקישיתוף$2',
 );
 
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'attention' => 'सूचना',
+	'description' => 'विकिमीडिया परियोजनाओं से विकिमीडिया कॉमन्स पर फ़ाइलें भेजने के लिये एक टूल',
+	'jira_link' => 'बग जानकारी दें या फ़ीचर सुझाएँ',
+	'language' => 'भाषा',
+	'project' => 'परियोजना',
+	'source_file' => 'स्रोत फ़ाइल',
+	'target_file' => 'लक्ष्य फ़ाइल',
+	'commons_username' => 'विकिमीडिया कॉमन्स सदस्यनाम',
+	'commons_to_project' => 'विकिमीडिया कॉमन्स से परियोजना',
+	'move_file_from_com' => 'फ़ाइल विकिमीडिया कॉमन्स से परियोजना को भेजें',
+	'categories' => 'श्रेणियाँ',
+	'remove_cats' => 'मौजूदा श्रेणियाँ हटाएँ',
+	'tusc_user' => 'TUSC सदस्यनाम',
+	'tusc_pass' => 'TUSC कूटशब्द',
+	'do_it' => 'कार्य करें',
+	'error_transfer_usr' => 'आपने विकिमीडिया कॉमन्स सदस्यनाम नहीं बताया है',
+	'error_not_exists' => 'स्रोत फ़ाइल मौजूद नहीं है!',
+	'error_on_commons' => 'स्रोत फ़ाइल पहले से $1 पर है!',
+	'error_file_exists' => 'फ़ाइल $3 पर पहले से "$1$4$2" नाम से मौजूद है!',
+	'error_diff_exists' => 'लक्ष्य विकि पर इस नाम से कोई अन्य फ़ाइल पहले से मौजूद है।',
+	'error_no_meta' => 'स्रोत विकि के बारे में कोई मेटाडाटा नहीं मिला! $1कृपया परियोजना के लिये मेटाडाटा जोड़ें/अद्यतित करें$2',
+	'original_wikitext' => 'मूल विकि पाठ',
+	'new_wikitext' => 'नया विकि पाठ',
+	'new_filename' => 'फ़ाइल का नया नाम:',
+	'upload_submit' => 'अपलोड!',
+	'target_wiki' => 'लक्ष्य विकि',
+	'error_bot_blocked' => 'अपलोड बॉट विकिमीडिया कॉमन्स पर अवरोधित है।',
+	'error_upload_meta' => 'सीधे अपलोड नहीं किया जा सकता क्योंकि मेटाडाटा में समस्या है (उपर्लिखित)!',
+	'error_tusc_failed' => 'TUSC सत्यापन विफल!',
+	'error_only_commons' => 'सीधा अपलोड केवल विकिमीडिया कॉमन्स पर किया जा सकता है!',
+	'upload_control_text' => 'कृपया नया विकि पाठ जाँचें और सही होने पर "$1" पर क्लिक करें!',
+	'error_commons_user' => 'स्थानान्तरणकर्ता की पहचान हेतु आपका विकिमीडिया कॉमन्स सदस्यनाम विवरण में होना चाहिये!',
+	'error_upload_users' => 'अपलोड फ़ंक्शन परीक्षण अवधि के दौरान केवल कुछ ही सदस्यों को उपलब्ध है!',
+	'error_upload_file' => 'मूल फ़ाइल डाउनलोड नहीं की जा सकी।',
+	'help_intro' => 'आप बग की जानकारी देने, फ़ीचर सुझाने अथवा प्रश्न पूछने के लिये निम्न सम्पर्क-सूत्रों में से किसी का प्रयोग कर सकते हैं:',
+	'help_mail' => '$1 को ई-मेल भेजें',
+	'help_commons' => '$1कॉमन्स पर टिप्पणी जोड़ें$2',
+);
+
 /** Croatian (hrvatski)
  * @author Ex13
  */
@@ -1665,6 +1708,8 @@ $messages['ku-latn'] = array(
 	'language' => 'Ziman',
 	'project' => 'Proje',
 	'categories' => 'Kategorî',
+	'upload_submit' => 'Bar bike!',
+	'help_mail' => 'Ji $1 re e-namekî bişîne',
 );
 
 /** Latin (Latina)
@@ -1728,7 +1773,7 @@ $messages['lb'] = array(
 	'help_commons' => '$1Eng Noriicht op Commons hannerloossen$2',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Namik
  */
 $messages['lez'] = array(
@@ -1753,6 +1798,7 @@ $messages['lt'] = array(
 	'new_wikitext' => 'Naujas wiki tekstas',
 	'new_filename' => 'Naujas pavadinimas:',
 	'upload_submit' => 'Įkelti!',
+	'standard_language' => 'en',
 );
 
 /** Latvian (latviešu)
@@ -2173,6 +2219,25 @@ $messages['pdc'] = array(
 	'categories' => 'Abdeelinge',
 	'upload_submit' => 'Ufflaade!',
 	'standard_language' => 'pdc',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'attention' => 'Uffbasse',
+	'language' => 'Schbrooch',
+	'categories' => 'Klasse',
+	'do_it' => 'Mags',
+	'upload_submit' => 'Nufflaade!',
+	'standard_language' => 'pfl',
+);
+
+/** Pali (पाळि)
+ * @author Anand Vivek Satpathi
+ */
+$messages['pi'] = array(
+	'language' => 'भाषा',
 );
 
 /** Polish (polski)
@@ -2920,6 +2985,7 @@ $messages['zh-hans'] = array(
 	'move_file_from_com' => '将文件从维基共享资源移至项目',
 	'categories' => '类别',
 	'remove_cats' => '删除现有的类别',
+	'use_checkusage' => '使用$1CommonSense$2建议新分类。',
 	'use_tusc' => '使用 $1TUSC$2 来直接验证和传输该文件',
 	'tusc_user' => 'TUSC 用户名',
 	'tusc_pass' => 'TUSC 密码',
@@ -2930,6 +2996,7 @@ $messages['zh-hans'] = array(
 	'error_file_exists' => '文件已经在$3上存在，文件名为$1$4$2',
 	'error_diff_exists' => '根据同名的目标维基上存在不同的目标文件！',
 	'error_no_meta' => '未找到关于该来源维基的元数据！$1请为该项目添加/更新元数据$2',
+	'error_meta_no_good' => '元数据： 找不到合适模板 ！ $1请添加或更新改项目的元数据$2',
 	'original_wikitext' => '原始维基文本',
 	'new_wikitext' => '新的维基文本',
 	'new_filename' => '新的文件名：',

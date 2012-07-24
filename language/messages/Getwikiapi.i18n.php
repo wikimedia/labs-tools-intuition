@@ -384,7 +384,7 @@ $messages['lb'] = array(
 	'output' => 'Resultat fir "$1"',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Namik
  */
 $messages['lez'] = array(

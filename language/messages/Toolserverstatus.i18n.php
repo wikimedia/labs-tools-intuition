@@ -207,6 +207,19 @@ $messages['de'] = array(
 	'toolserver-status-short-missing' => '$1: Nicht vorhanden',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'toolserver-status-short-ok' => '$1: Temam',
+	'toolserver-status-short-info' => '$1: Malumat',
+	'toolserver-status-short-warn' => '$1: Şık berz cı',
+	'toolserver-status-short-down' => '$1: Vınibyaye',
+	'toolserver-status-short-erro' => '$1: Xırab',
+	'toolserver-status-short-unknown' => '$1: Xeribo',
+	'toolserver-status-short-missing' => '$1: kemiyo',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
@@ -359,6 +372,7 @@ $messages['hi'] = array(
 	'toolserver-status-erro' => 'डाटाबेस क्लस्टर $1 बंद है। $2',
 	'toolserver-status-unknown' => 'क्लस्टर $1 की स्थिति अज्ञात है',
 	'toolserver-status-missing' => 'क्लस्टर $1 मौजूद नहीं है',
+	'toolserver-status-short-ok' => '$1: ठीक है',
 	'toolserver-status-short-info' => '$1: सूचना',
 	'toolserver-status-short-warn' => '$1: चेतावनी',
 	'toolserver-status-short-down' => '$1: बंद',
@@ -797,6 +811,8 @@ $messages['tl'] = array(
  * @author Гусейн
  */
 $messages['tly'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Мәлумот',
 	'toolserver-status-short-erro' => '$1: Сәһв',
 );
 

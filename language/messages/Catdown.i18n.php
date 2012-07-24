@@ -230,6 +230,20 @@ o en dalgún otru espeyu de GNU, visita
 	'scaling-both' => ', escalaes a un tamañu máximu de $1x$2 pixels',
 );
 
+/** Bashkir (башҡортса)
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'category' => 'Категория',
+	'max-width' => 'Максималь киңлек:',
+	'max-height' => 'Максималь бейеклек:',
+	'invalid-width' => 'Рөхсәт ителмәгән киңлек',
+	'invalid-height' => 'Рөхсәт ителмәгән бейеклек',
+	'no-such-project' => 'Бындай проект юҡ',
+	'no-images' => 'Был категорияла рәсем юҡ',
+	'category-is-url' => 'Был категорияның исеме URL-адрес адрес кеүек күренә. URL-адрес түгел, категория исемен яҙырға кәрәк.',
+);
+
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -276,6 +290,40 @@ Linux/Mac OS
 	'scaling-width' => ', маштабаваны да максымальнай шырыні ў $1 {{plural:$1|піксэль|піксэлі|піксэляў}}',
 	'scaling-height' => ', маштабаваны да максымальнай вышыні ў $1 {{plural:$1|піксэль|піксэлі|піксэляў}}',
 	'scaling-both' => ', маштабаваны да максымальнага памеру ў $1×$2 {{plural:$2|піксэль|піксэлі|піксэляў}}',
+);
+
+/** Bulgarian (български)
+ * @author Dimi z
+ */
+$messages['bg'] = array(
+	'title' => 'Изтегляне на изображения по категория',
+	'subtitle' => 'Лесният начин за изтегляне на изображения в дадена категория',
+	'project' => 'Проект:',
+	'category' => 'Категория',
+	'thumbnailing' => 'Минятуризиране',
+	'max-width' => 'Максимална широчина',
+	'max-height' => 'Максимална височина',
+	'invalid-width' => 'Невалидна ширина',
+	'invalid-height' => 'Невалидна височина',
+	'no-such-project' => 'Няма такъв проект',
+	'no-images' => 'В тази категория няма изображения',
+	'category-is-url' => 'Зададеното име на категория напомня URL адрес. Моля да бъде зададено име на категорията а не URL адреса.',
+	'category-contains-namespace' => 'Изглежда сте добавили именното пространство към името на категорията. Със зададеното име страница ще бъде достъпна като [[Category:$1]].',
+	'zip-failed' => 'Неуспешно създаване на ZIP',
+	'image-area-too-big' => '$1е твърде голям, за да се създаде миниатюра. Използване на пълен размер.',
+	'download-info' => '{{plural: $1|Има едно изображение|Има $1 изображения}}, с предполагаем размер от $2',
+	'download' => 'Изтегляне',
+	'readme-contents' => 'В съдържащия файл $4 са изброени
+изображенията в категория  $1( $2 )$3.
+
+== Указания за изтегляне на изборените изображнеия ==
+Изтеглянето може да отнеме от минута до няколко часа.
+
+Windows:
+ Извличете всички файлове в същата папка и изпълнете  $5
+ $6
+Linux/Mac OS
+ Извлечете всички файлове, отворете терминала в тази папка и изпълнете Run sh $5',
 );
 
 /** Banjar (Bahasa Banjar)
@@ -501,10 +549,11 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'project' => 'Proce:',
-	'category' => 'Kategorî:',
+	'category' => 'Kategoriye:',
 	'thumbnailing' => 'Resimo verdı',
 	'max-width' => 'En vesi herayey',
 	'max-height' => 'En vesi berzey',
@@ -1187,9 +1236,19 @@ $messages['lb'] = array(
 	'image-area-too-big' => '$1 ass ze grouss fir e Miniatur-Bild ze generéieren. Déi komplett Gréisst gëtt benotzt.',
 	'download-info' => 'Et {{plural: $1|ass 1 Bild|si(nn) $1 Biller}} mat enger geschater Gréisst vun $2 do',
 	'download' => 'Eroflueden',
+	'non-bundled-wget' => "Informatioun: An dëser Versioun ass 'wget for Windows' net abegraff. Dir musst an e Repertoire mat wget.exe dekompriméieren oder wget op eng aner Manéier am 'PATH' hunn",
 	'scaling-width' => ', op eng maximal Breet vu(n) $1 {{plural:$1Pixel|Pixel}} skaléiert',
 	'scaling-height' => ', op eng maximal Héicht vu(n) {{plural:$1Pixel|Pixel}} skaléiert',
 	'scaling-both' => ', op eng maximal Gréisst vu(n) $1x$2 Pixel skaléiert',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'project' => 'Projektas:',
+	'category' => 'Kategorija:',
+	'download' => 'Atsisiųsti',
 );
 
 /** Macedonian (македонски)
@@ -1393,6 +1452,25 @@ $messages['pdc'] = array(
 	'download' => 'Runnerdraage',
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'max-width' => 'Gregschd Braid:',
+	'max-height' => 'Glenschd Heeh:',
+	'invalid-width' => 'Uugildischi Braid',
+	'invalid-height' => 'Uugildischi Heeh',
+	'no-such-project' => "S'Brojegd hods ned.",
+	'download' => 'Runalaade',
+);
+
+/** Pali (पाळि)
+ * @author Anand Vivek Satpathi
+ */
+$messages['pi'] = array(
+	'category' => 'विभाग',
+);
+
 /** Polish (polski)
  * @author Sp5uhe
  */
@@ -1488,10 +1566,16 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author DCamer
  * @author Eleferen
  * @author Haffman
  */
 $messages['ru'] = array(
+	'title' => 'Загрузка изображений по категориям',
+	'subtitle' => 'Простой способ для загрузки изображения в категории',
+	'project' => 'Проект:',
+	'category' => 'Категория:',
+	'thumbnailing' => 'Миниатюры',
 	'max-width' => 'Максимальная ширина:',
 	'max-height' => 'Максимальная высота:',
 	'invalid-width' => 'Недопустимая ширина',
@@ -1499,8 +1583,21 @@ $messages['ru'] = array(
 	'no-such-project' => 'Такого проекта не существует',
 	'no-images' => 'В этой категории нет изображений',
 	'category-is-url' => 'Имя данной категории выглядит как URL-адрес. Необходимо указать название категории, а не его URL-адрес.',
-	'category-contains-namespace' => 'Похоже, вы включили пространство имён в имя категории. С выбранным Вами названием страница будет доступна как [[Категория:$1]].',
+	'category-contains-namespace' => 'Похоже, вы включили пространство имён в имя категории. С выбранным Вами названием страница будет доступна как [[Category:$1]].',
+	'zip-failed' => 'Ошибка создания ZIP',
+	'image-area-too-big' => '$1 слишком велико для создания эскиза. Будет использован полный размер.',
 	'download-info' => '{{plural: $1|Есть одно изображение|Есть $1 изображения|Есть $1 изображений}}, с примерным размером $2',
+	'download' => 'Загрузить',
+	'readme-contents' => 'Список изображений $4 в категории $1 ( $2 )$3.
+
+== Инструкции по загрузке всех перечисленных изображений ==
+Время загрузки может варьироваться от нескольких минут до нескольких часов.
+
+Windows:
+ Распакуйте все файлы в одну папку и запустите $5
+ $6
+Linux/Mac OS
+ Распакуйте все файлы и откройте терминал в этой папке. Выполните команду sh $5',
 	'non-bundled-wget' => 'Обратите внимание: Эта версия не включает wget для Windows. Вам необходимо извлечь файлы в папку с wget.exe или прописать wget в PATH',
 	'wget-info' => 'Этот файл включает копию wget $1 (для платформы Windows). Wget является свободным программным обеспечением, 
 распространяемым на условиях лицензии GNU GENERAL PUBLIC LICENSE версии 3.
@@ -1512,6 +1609,9 @@ $messages['ru'] = array(
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 или с некоторых других зеркал GNU, которые можно увидеть здесь:
  http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', масштабирован до максимальной ширины $1 {{plural:$1|пикселя|пикселей}}',
+	'scaling-height' => ', масштабирован до максимальной высоты $1 {{plural:$1|пикселя|пикселей}}',
+	'scaling-both' => ', масштабирован до максимального размера $1x$2 пикселей',
 );
 
 /** Slovak (slovenčina)
@@ -1890,6 +1990,7 @@ Windows:
  $6
 Linux/Mac OS
 解压所有文件，并在终端中运行 sh $5',
+	'non-bundled-wget' => '注： 此版本不包括Windows版本的wget。您需要解压缩到一个有wget.exe的文件夹，或在PATH中包含有wget。',
 	'scaling-width' => '缩放到最大宽度 $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => '缩放到最大高度 $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',
