@@ -62,7 +62,6 @@ $messages['en'] = array(
 	'target_wiki' => 'the target wiki',
 
 	// Standard values in Latin chars (for Maindesk and Metadata-Links)
-	'standard_language' => 'en', 
 	'standard_project' => 'wikipedia', // Optional
 
 	//Upload
@@ -120,7 +119,6 @@ $4 is the name of the file',
 $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of the link).',
 	'upload_submit' => 'Please see {{msg-toolserver|Commonshelper2-upload_control_text}} for context
 {{Identical|Upload}}',
-	'standard_language' => 'The language code (e.g. "en") of the language. Used for standard values in maindesk and metadata-links.',
 	'standard_project' => '{{Optional}} The biggest project (e.g. "wikipedia") in this language. Used for standard values in maindesk and metadata-links.',
 	'error_tusc_failed' => '
 {{hint-TUSC}}',
