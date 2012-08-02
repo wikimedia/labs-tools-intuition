@@ -293,15 +293,16 @@ Linux/Mac OS
 );
 
 /** Bulgarian (български)
+ * @author DCLXVI
  * @author Dimi z
  */
 $messages['bg'] = array(
 	'title' => 'Изтегляне на изображения по категория',
 	'subtitle' => 'Лесният начин за изтегляне на изображения в дадена категория',
 	'project' => 'Проект:',
-	'category' => 'Категория',
+	'category' => 'Категория:',
 	'thumbnailing' => 'Минятуризиране',
-	'max-width' => 'Максимална широчина',
+	'max-width' => 'Максимална ширина:',
 	'max-height' => 'Максимална височина',
 	'invalid-width' => 'Невалидна ширина',
 	'invalid-height' => 'Невалидна височина',

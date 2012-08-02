@@ -163,6 +163,21 @@ $messages['br'] = array(
 	'tablehead-hash' => 'Hacherezh',
 );
 
+/** Danish (dansk)
+ * @author Sarrus
+ */
+$messages['da'] = array(
+	'title-error' => 'Fejl',
+	'title-updatelog' => 'Opdateringslog',
+	'download-button' => 'Download $1',
+	'download-directlink' => 'direkte link',
+	'title-downloadpage' => 'Download: $1',
+	'repo-site-link' => 'Hjemmeside',
+	'repo-lastmoddate-label' => 'Dato:',
+	'updatelog-link' => 'opdateringslog',
+	'tablehead-filesize' => 'Filstørrelse',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -213,6 +228,7 @@ $messages['diq'] = array(
 	'repo-site-link' => 'Websita',
 	'repo-lastmoddate-label' => 'Deme:',
 	'branches-submit-button' => 'Şo ri!',
+	'tablehead-branch' => 'Şobe',
 	'tablehead-filesize' => 'Ebatê dosyayî',
 );
 

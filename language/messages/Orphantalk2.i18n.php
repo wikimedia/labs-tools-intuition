@@ -320,9 +320,11 @@ $messages['da'] = array(
 	'hideredirects' => 'Skjul omdirigeringer',
 	'hidesubpages' => 'Skjul undersider',
 	'page' => 'Side',
+	'redirect' => 'Er en omdirigering?',
 	'output' => 'Output',
 	'update' => 'Opdater',
 	'tools-delete' => 'slet',
+	'tools-links' => 'links',
 	'tools-subject' => 'emne',
 	'resultslimited' => 'Resultaterne var begrænsede til $1 sider.',
 );
@@ -357,10 +359,17 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'title' => 'BakusWerenayış2',
+	'hideredirects' => 'Hetenayışan bınımnê',
+	'hidesubpages' => 'Pelanê bınan bınımnê',
 	'limit' => 'Limit',
 	'page' => 'Pele',
-	'update' => 'Anewen ke',
+	'redirect' => 'Hetanayış ?',
+	'update' => 'Noroc resn',
 	'tools-delete' => 'besterne',
+	'tools-links' => 'gırey',
+	'tools-hist' => 'ravyardê',
+	'tools-curr' => 'newen',
+	'tools-globalusage' => 'global karkerdış',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -389,9 +398,10 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Evropi
+ * @author Geraki
  */
 $messages['el'] = array(
-	'select-wiki-first' => '(επιλέξτε πρώτα ένα βίκι)',
+	'select-wiki-first' => '(επιλέξτε πρώτα ένα wiki)',
 	'hideredirects' => 'Απόκρυψη ανακατευθύνσεων',
 	'hidesubpages' => 'Απόκρυψη υποσελιδών',
 	'limit' => 'Όριο',

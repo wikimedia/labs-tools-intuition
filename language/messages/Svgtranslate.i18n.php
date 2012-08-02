@@ -571,6 +571,7 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'error-nothing' => 'Theba çıniyo kê açerneyo.',
 	'th-original' => 'Orcinal',
 	'th-translation' => 'Çarnayış',
 	'th-language' => 'Zıwan',
@@ -578,10 +579,13 @@ $messages['diq'] = array(
 	'th-password' => 'Parola',
 	'th-method' => 'Metod',
 	'option-tusc' => 'TUSC (otomatik barkerdış)',
+	'option-manual' => 'Manuel barkerdış',
 	'preview' => 'Verqayt',
 	'translate' => 'Açarne',
 	'svginput-label' => 'Dosyay SVG',
 	'uploading' => 'Bar beno',
+	'preview-hide' => 'Verqayti bınımnê',
+	'preview-refresh' => 'Verqayti anewe kerê',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -1258,7 +1262,7 @@ $messages['ksh'] = array(
 	'begin-translation' => 'Mem Övversäze aanfange',
 	'th-original' => 'Ojinahl',
 	'th-translation' => 'Övversäzong',
-	'th-language' => 'Shprooch',
+	'th-language' => 'Schprooch',
 	'th-username' => 'Metmaacher Name',
 	'th-password' => 'Paßwoot',
 	'th-method' => 'Metood',

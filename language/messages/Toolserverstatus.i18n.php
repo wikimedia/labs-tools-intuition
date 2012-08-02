@@ -187,6 +187,17 @@ $messages['cs'] = array(
 	'toolserver-status-short-missing' => '$1: Chybí',
 );
 
+/** Danish (dansk)
+ * @author Sarrus
+ */
+$messages['da'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-erro' => '$1: Fejl',
+	'toolserver-status-short-unknown' => '$1: Ukendt',
+	'toolserver-status-short-missing' => '$1: Mangler',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */

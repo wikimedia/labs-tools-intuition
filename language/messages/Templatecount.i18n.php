@@ -179,10 +179,13 @@ $messages['cs'] = array(
 
 /** Danish (dansk)
  * @author Erisos
+ * @author Sarrus
  */
 $messages['da'] = array(
 	'enter-details' => 'Indtast detaljer',
 	'language-label' => 'Sprog',
+	'namespace-label' => 'Navnerum',
+	'pagename-label' => 'Sidenavn (uden navnerum)',
 );
 
 /** German (Deutsch)

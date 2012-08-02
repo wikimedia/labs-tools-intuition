@@ -105,6 +105,7 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Ali1
  * @author DRIHEM
  * @author Meno25
  * @author OsamaK
@@ -130,6 +131,12 @@ $messages['ar'] = array(
 	'db-field-source' => 'المصدر',
 	'db-field-monument_article' => 'مقالة آثار',
 	'db-field-registrant_url' => 'رابط التسجيل',
+	'db-field-st_address' => 'عناوين',
+	'db-field-st_address_pct' => 'عناوين%',
+	'db-field-st_coordinates' => 'إحداثيات',
+	'db-field-st_coordinates_pct' => 'إحداثيات %',
+	'db-field-st_image' => 'صورة',
+	'db-field-st_image_pct' => 'صورة %',
 	'toolbox-label-searchtipps' => 'استخدم %term أو term% أو %term% من أجل البحث التقريبي',
 	'toolbox-meta-title' => 'ويكي تحب صندوق أدوات الآثار',
 	'toolbox-main-title' => 'صندوق أدوات WLM',
@@ -139,6 +146,7 @@ $messages['ar'] = array(
 	'toolbox-nav-statistics' => 'الإحصائيات',
 	'toolbox-nav-search' => 'البحث',
 	'toolbox-title-searchmonuments' => 'البحث عن المعالم',
+	'location' => 'الموقع',
 );
 
 /** Assamese (অসমীয়া)
@@ -337,6 +345,7 @@ $messages['br'] = array(
 	'toolbox-nav-statistics' => 'Stadegoù',
 	'toolbox-nav-search' => 'Klask',
 	'toolbox-title-searchmonuments' => 'Klask monumantoù',
+	'location' => "Lec'hiadur",
 );
 
 /** Catalan (català)
@@ -403,6 +412,7 @@ $messages['cs'] = array(
 /** Danish (dansk)
  * @author MGA73
  * @author Peter Alberti
+ * @author Sarrus
  */
 $messages['da'] = array(
 	'search-title' => 'Monument-søgning',
@@ -425,6 +435,20 @@ $messages['da'] = array(
 	'db-field-source' => 'Kilde',
 	'db-field-monument_article' => 'Monument-artikel',
 	'db-field-registrant_url' => 'Registrant url',
+	'db-field-st_address' => 'Adresser',
+	'db-field-st_address_pct' => 'Adresser %',
+	'db-field-st_coordinates' => 'Koordinater',
+	'db-field-st_coordinates_pct' => 'Koordinater %',
+	'db-field-st_image' => 'Billede',
+	'db-field-st_image_pct' => 'Billede %',
+	'db-field-st_municipality' => 'Kommune',
+	'db-field-st_municipality_pct' => 'Kommune %',
+	'db-field-st_name' => 'Navne',
+	'db-field-st_name_pct' => 'Navne %',
+	'toolbox-nav-homepage' => 'Hjemmeside',
+	'toolbox-nav-statistics' => 'Statistikker',
+	'toolbox-nav-search' => 'Søg',
+	'toolbox-title-searchmonuments' => 'Søg monumenter',
 );
 
 /** German (Deutsch)
@@ -472,6 +496,8 @@ $messages['de'] = array(
 	'toolbox-nav-statistics' => 'Statistiken',
 	'toolbox-nav-search' => 'Suche',
 	'toolbox-title-searchmonuments' => 'Denkmalsuche',
+	'location' => 'Standort',
+	'source-monuments-list-on-wikipedia' => 'Liste der Denkmäler in der Wikipedia mit Quellen versehen',
 );
 
 /** Zazaki (Zazaki)
@@ -487,8 +513,8 @@ $messages['diq'] = array(
 	'db-field-name' => 'Name',
 	'db-field-address' => 'Adres',
 	'db-field-municipality' => 'Belediye',
-	'db-field-lat' => 'Paralel',
-	'db-field-lon' => 'Meridyen',
+	'db-field-lat' => 'Heralem',
+	'db-field-lon' => 'Lemen',
 	'db-field-image' => 'Resim',
 	'db-field-changed' => 'Vurneya',
 	'db-field-source' => 'Çıme',
@@ -508,6 +534,7 @@ $messages['diq'] = array(
 	'toolbox-nav-homepage' => 'Pelaseri',
 	'toolbox-nav-statistics' => 'İstatistiki',
 	'toolbox-nav-search' => 'Cı geyre',
+	'location' => 'Lokasyon',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -554,6 +581,8 @@ $messages['dsb'] = array(
 	'toolbox-nav-statistics' => 'Statistika',
 	'toolbox-nav-search' => 'Pytanje',
 	'toolbox-title-searchmonuments' => 'Zajmnostki pytaś',
+	'location' => 'Městno',
+	'source-monuments-list-on-wikipedia' => 'K lisćinje pomnikow we Wikipediji žrědła pśidaś',
 );
 
 /** Greek (Ελληνικά)
@@ -617,6 +646,8 @@ $messages['es'] = array(
 	'toolbox-nav-statistics' => 'Estadísticas',
 	'toolbox-nav-search' => 'Buscar',
 	'toolbox-title-searchmonuments' => 'Buscar monumentos',
+	'location' => 'Ubicación',
+	'source-monuments-list-on-wikipedia' => 'Lista de monumentos de origen en Wikipedia',
 );
 
 /** Estonian (eesti)
@@ -646,6 +677,8 @@ $messages['et'] = array(
 	'toolbox-nav-statistics' => 'Statistikat',
 	'toolbox-nav-search' => 'Otsing',
 	'toolbox-title-searchmonuments' => 'Otsi mälestisi',
+	'location' => 'Asukoht',
+	'source-monuments-list-on-wikipedia' => 'Mälestiste loend Vikipeedias',
 );
 
 /** Basque (euskara)
@@ -756,6 +789,8 @@ $messages['fr'] = array(
 	'toolbox-nav-statistics' => 'Statistiques',
 	'toolbox-nav-search' => 'Rechercher',
 	'toolbox-title-searchmonuments' => 'Rechercher des monuments',
+	'location' => 'Emplacement',
+	'source-monuments-list-on-wikipedia' => "Liste des monuments d'origine sur Wikipédia",
 );
 
 /** Galician (galego)
@@ -803,6 +838,8 @@ $messages['gl'] = array(
 	'toolbox-nav-statistics' => 'Estatísticas',
 	'toolbox-nav-search' => 'Procurar',
 	'toolbox-title-searchmonuments' => 'Buscar monumentos',
+	'location' => 'Localización',
+	'source-monuments-list-on-wikipedia' => 'Lista de monumentos de orixe na Wikipedia',
 );
 
 /** Hebrew (עברית)
@@ -923,6 +960,8 @@ $messages['hsb'] = array(
 	'toolbox-nav-statistics' => 'Statistika',
 	'toolbox-nav-search' => 'Pytanje',
 	'toolbox-title-searchmonuments' => 'Zajimawosće pytać',
+	'location' => 'Městno',
+	'source-monuments-list-on-wikipedia' => 'K lisćinje pomnikow we Wikipediji žórła přidać',
 );
 
 /** Hungarian (magyar)
@@ -1055,6 +1094,8 @@ $messages['it'] = array(
 	'toolbox-nav-statistics' => 'Statistiche',
 	'toolbox-nav-search' => 'Cerca',
 	'toolbox-title-searchmonuments' => 'Ricerca monumenti',
+	'location' => 'Ubicazione',
+	'source-monuments-list-on-wikipedia' => 'Procurarsi una lista di monumenti su Wikipedia',
 );
 
 /** Japanese (日本語)
@@ -1119,6 +1160,17 @@ $messages['ksh'] = array(
 	'db-field-source' => 'Quell udder Hääkunf',
 	'db-field-monument_article' => 'Atikel övver dat Dängkmohl',
 	'db-field-registrant_url' => '<i lang="en">URL</i> vum Rejister',
+	'db-field-st_address' => 'Adräße',
+	'db-field-st_address_pct' => 'Adräße %',
+	'db-field-st_coordinates' => "Ko'oodinaate",
+	'db-field-st_coordinates_pct' => "Ko'oodinaate %",
+	'db-field-st_image' => 'Beld',
+	'db-field-st_image_pct' => 'Beld %',
+	'db-field-st_municipality' => 'Jemeinde',
+	'db-field-st_municipality_pct' => 'Jemeinde %',
+	'db-field-st_name' => 'Naame',
+	'db-field-st_name_pct' => 'Naame %',
+	'db-field-st_total' => 'JesampZahl',
 	'toolbox-label-searchtipps' => 'Mer kann %woot udder woot% udder %woot% nämme, wam_mer alles fenge well, woh „woot“ am Aanfang, am Ängk, udder en de Medde dren schtisch.',
 	'toolbox-meta-title' => 'Werkzüch!!FUZZY! vum 
 Loves Monuments',
@@ -1128,6 +1180,7 @@ Loves Monuments',
 	'toolbox-nav-statistics' => 'Schtatistike',
 	'toolbox-nav-search' => 'Söhke',
 	'toolbox-title-searchmonuments' => 'Noh Dängkmöhler söhke',
+	'location' => 'Plaz',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
@@ -1263,6 +1316,8 @@ $messages['mk'] = array(
 	'toolbox-nav-statistics' => 'Статистики',
 	'toolbox-nav-search' => 'Пребарај',
 	'toolbox-title-searchmonuments' => 'Пребарување на споменици',
+	'location' => 'Место',
+	'source-monuments-list-on-wikipedia' => 'Изворен список на споменици на Википедија',
 );
 
 /** Malay (Bahasa Melayu)
@@ -1335,6 +1390,7 @@ $messages['ne'] = array(
  * @author Akoopal
  * @author Krinkle
  * @author Multichill
+ * @author SPQRobin
  * @author Siebrand
  * @author Wiki13
  */
@@ -1379,6 +1435,8 @@ $messages['nl'] = array(
 	'toolbox-nav-statistics' => 'Statistieken',
 	'toolbox-nav-search' => 'Zoeken',
 	'toolbox-title-searchmonuments' => 'Monumenten zoeken',
+	'location' => 'Locatie',
+	'source-monuments-list-on-wikipedia' => 'Monumentenbronlijst op Wikipedia',
 );
 
 /** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
@@ -1569,6 +1627,7 @@ $messages['roa-tara'] = array(
  * @author DCamer
  * @author Eleferen
  * @author Rave
+ * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'search-title' => 'Поиск сооружений',
@@ -1611,6 +1670,8 @@ $messages['ru'] = array(
 	'toolbox-nav-statistics' => 'Статистика',
 	'toolbox-nav-search' => 'Поиск',
 	'toolbox-title-searchmonuments' => 'Поиск памятников',
+	'location' => 'Расположение',
+	'source-monuments-list-on-wikipedia' => 'Исходный список памятников в Википедии',
 );
 
 /** Slovenian (slovenščina)
@@ -1792,6 +1853,15 @@ $messages['sw'] = array(
 	'db-field-source' => 'Chanzo',
 	'db-field-monument_article' => 'Nakala ya mnara',
 	'db-field-registrant_url' => 'Kisara kilichoandikishwa',
+	'db-field-st_address' => 'Anwani',
+	'db-field-st_address_pct' => 'Adresses %',
+	'db-field-st_image' => 'Picha',
+	'db-field-st_image_pct' => 'Image %',
+	'db-field-st_municipality' => 'Manispaa',
+	'db-field-st_municipality_pct' => 'Municipality %',
+	'db-field-st_name' => 'Majina',
+	'db-field-st_name_pct' => 'Names %',
+	'db-field-st_total' => 'Jumla ya Idadi',
 	'toolbox-label-searchtipps' => 'tumia %term ama %term kwa utafiti wa fuzzy',
 	'toolbox-meta-title' => 'Sanduku la vifaa la Wiki Yapenda Minara',
 	'toolbox-main-title' => 'Sanduku la vifaa la WLM',
@@ -1878,6 +1948,8 @@ $messages['tl'] = array(
 	'toolbox-nav-statistics' => 'Estadistika',
 	'toolbox-nav-search' => 'Maghanap',
 	'toolbox-title-searchmonuments' => 'Maghanap sa mga bantayog',
+	'location' => 'Kinalalagyan',
+	'source-monuments-list-on-wikipedia' => 'Listahan ng mga bantayog na pinagmulan na nasa Wikipedia',
 );
 
 /** толышә зывон (толышә зывон)

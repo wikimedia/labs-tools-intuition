@@ -448,11 +448,29 @@ $messages['cs'] = array(
 );
 
 /** Danish (dansk)
+ * @author Sarrus
  * @author Tjernobyl
  */
 $messages['da'] = array(
+	'title' => 'WLM-filer',
+	'file' => 'Billede',
+	'monument-type' => 'Monumenttype',
+	'monument-id' => 'Monument-id',
+	'province' => 'Provins',
+	'author' => 'Forfatter',
+	'deleted' => 'Slettet ( $1 )',
+	'concursa' => 'Deltager i WML',
+	'no-concursa' => 'Udenfor WLM-konkurrence',
 	'not-available' => 'Ikke tilgængelig',
 	'date-unknown' => 'Ukendt',
+	'total-images' => 'Totalt antal billeder:$1',
+	'view-uncategorized-images' => 'Vis ukategoriserede billeder',
+	'show-images-bad-only' => 'Vis kun billeder uden for listerne',
+	'show-images-all' => 'Vis alle billeder',
+	'show-images-removed' => 'Vis billeder fjernet fra konkurrencen',
+	'search-monuments' => 'Søg monumenter',
+	'view-frequency' => 'Populære monumenter',
+	'monument-heading' => 'Monument',
 	'count-heading' => 'Fotografier',
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galleri',
@@ -460,6 +478,7 @@ $messages['da'] = array(
 	'bic-list-all' => 'Fuldstændig liste',
 	'unregistered' => 'Uregistreret',
 	'users-list' => 'Vis',
+	'province-heading' => 'Provins',
 	'province-none' => '(Ukendt)',
 );
 
@@ -524,14 +543,21 @@ $messages['diq'] = array(
 	'comarque' => 'Comarca',
 	'author' => 'Nuştekar',
 	'deleted' => '($1) besterneyê',
+	'date-unknown' => 'Nêzanıte',
+	'total-images' => 'Resimi pêro: $1',
+	'id-label' => "ID'ê Ziyarık:",
 	'id-none' => '(Çıno)',
+	'monument-heading' => 'Ziyarık',
 	'count-heading' => 'Fotrafi',
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galeri',
 	'author-heading' => 'Nuştekar',
 	'bic-list-bad' => 'Bımocne',
+	'bic-list-all' => 'Lista pêro',
+	'unregistered' => 'Nê tesdiqyayo',
 	'users-list' => 'Bıvin',
 	'province-heading' => 'Wılayet',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Lower Sorbian (dolnoserbski)
