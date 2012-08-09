@@ -583,7 +583,7 @@ $messages['diq'] = array(
 	'preview' => 'Verqayt',
 	'translate' => 'Açarne',
 	'svginput-label' => 'Dosyay SVG',
-	'uploading' => 'Bar beno',
+	'uploading' => 'Oyo barêno',
 	'preview-hide' => 'Verqayti bınımnê',
 	'preview-refresh' => 'Verqayti anewe kerê',
 );
@@ -1924,6 +1924,20 @@ $messages['ru'] = array(
 	'error-tusc-failed' => 'Сбой проверки TUSC. Неправильное имя участникавателя или пароль.',
 	'description-license' => 'Выберите описание и лицензию',
 	'finalise' => 'Заключительные подробности',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'th-original' => 'නියම',
+	'th-translation' => 'පරිවර්තනය',
+	'th-language' => 'භාෂාව',
+	'th-username' => 'පරිශීලක නාමය',
+	'th-password' => 'මුරපදය',
+	'th-method' => 'ක්‍රමය',
+	'preview' => 'පෙරදසුන',
+	'translate' => 'පරිවර්තනය කරන්න',
 );
 
 /** Slovenian (slovenščina)

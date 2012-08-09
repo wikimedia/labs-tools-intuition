@@ -311,6 +311,19 @@ $messages['fa'] = array(
 	'toolserver-status-short-info' => '$1: اطلاعات',
 );
 
+/** Finnish (suomi)
+ * @author Olli
+ */
+$messages['fi'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Tiedot',
+	'toolserver-status-short-warn' => '$1: Vaara',
+	'toolserver-status-short-down' => '$1: Alas',
+	'toolserver-status-short-erro' => '$1: Virhe',
+	'toolserver-status-short-unknown' => '$1: Tuntematon',
+	'toolserver-status-short-missing' => '$1: Puuttuu',
+);
+
 /** French (français)
  * @author Jean-Frédéric
  * @author Od1n
@@ -641,6 +654,17 @@ $messages['pl'] = array(
 	'toolserver-status-short-missing' => '$1: Brak',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'toolserver-status-short-ok' => '$1: ښه',
+	'toolserver-status-short-info' => '$1: مالومات',
+	'toolserver-status-short-warn' => '$1: ګواښنه',
+	'toolserver-status-short-erro' => '$1: تېروتنه',
+	'toolserver-status-short-unknown' => '$1: ناڅرګند',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
@@ -796,6 +820,13 @@ $messages['ta'] = array(
 	'toolserver-status-short-info' => '$1: தகவல்',
 	'toolserver-status-short-warn' => '$1: எச்சரி',
 	'toolserver-status-short-erro' => '$1: பிழை',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'toolserver-status-short-ok' => '$1: సరే',
 );
 
 /** Tagalog (Tagalog)

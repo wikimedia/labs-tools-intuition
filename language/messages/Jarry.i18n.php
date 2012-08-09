@@ -97,9 +97,11 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Chmee2
  * @author Jezevec
  */
 $messages['cs'] = array(
+	'moretools' => 'více nástrojů od stejného autora',
 	'comments' => 'komentáře a dotazy',
 );
 

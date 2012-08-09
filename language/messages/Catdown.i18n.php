@@ -447,9 +447,12 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
 
 /** Czech (česky)
  * @author Jezevec
+ * @author Jkjk
+ * @author Mormegil
  */
 $messages['cs'] = array(
 	'title' => 'Stahování obrázků podle kategorie',
+	'subtitle' => 'Snadný způsob, jak stáhnout obrázky v kategorii',
 	'project' => 'Projekt:',
 	'category' => 'Kategorie:',
 	'thumbnailing' => 'Náhledy',
@@ -463,6 +466,7 @@ $messages['cs'] = array(
 	'zip-failed' => 'Nepodařilo se vytvořit ZIP',
 	'image-area-too-big' => '$1je příliš velký pro vytvoření miniatury. Bude použita plná velikost.',
 	'download' => 'Stáhnout',
+	'non-bundled-wget' => 'Poznámka: Tato verze neobsahuje wget pro Windows. Je nutné dekomprimovat do složky s wget.exe nebo mít wget v PATH',
 );
 
 /** Danish (dansk)
@@ -553,12 +557,18 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'title' => 'Kategori ra resiman ronê',
 	'project' => 'Proce:',
 	'category' => 'Kategoriye:',
 	'thumbnailing' => 'Resimo verdı',
 	'max-width' => 'En vesi herayey',
 	'max-height' => 'En vesi berzey',
+	'invalid-width' => 'Herayey ravêrdi niya',
+	'invalid-height' => 'Dergey ravêrdi niya',
 	'download' => 'biyar war',
+	'scaling-width' => ', maksimum herayey rê sencen $1 {{plural:$1|piksel|pikseli}}',
+	'scaling-height' => ', maksimum dergey rê sencen $1 {{plural:$1|piksel|pikseli}}',
+	'scaling-both' => ', maksimum ebatê sencen $1x$2 piksela',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -698,11 +708,31 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Olli
  * @author Silvonen
  */
 $messages['fi'] = array(
+	'title' => 'Tallenna valokuvia luokan mukaan',
+	'subtitle' => 'Helppo tapa tallentaa kuvia luokkaan',
+	'project' => 'Projekti:',
+	'category' => 'Luokka:',
+	'thumbnailing' => 'Esikatselukuvat',
 	'max-width' => 'Enimmäisleveys:',
 	'max-height' => 'Enimmäiskorkeus:',
+	'invalid-width' => 'Kelpaamaton leveys',
+	'invalid-height' => 'Kelpaamaton korkeus',
+	'no-such-project' => 'Projektia ei ole olemassa',
+	'no-images' => 'Luokassa ei ole kuvia',
+	'category-is-url' => 'Annettu luokan nimi vaikuttaa osoitteelta. Sinun tulee antaa luokan nimi, ei osoitetta.',
+	'category-contains-namespace' => 'Näyttää siltä, että olet sisällyttänyt nimiavaruuden luokan nimen lisäksi. Annetulla nimellä, sivu olisi saatavilla [[Luokka:$1]].',
+	'zip-failed' => 'Zip-tiedoston luonti epäonnistui',
+	'image-area-too-big' => '$1 on liian iso esikatselukuvan luomiseksi. Käytetään suurinta kokoa.',
+	'download-info' => 'On {{plural: $1|yksi kuva, jonka arvioitu koko|$1 kuvaa, joiden arvioitu yhteiskoko}} on $2',
+	'download' => 'Lataa',
+	'non-bundled-wget' => 'Huomautus: Tämä versio ei sisällä wgetiä Windowsille. Sinun täytyy purkaa kansioon wget.exe:llä tai ottaa wge mukaan polkuun',
+	'scaling-width' => ', skaalattu $1 pikselin enimmäiskokoon',
+	'scaling-height' => ', skaalattu enimmäiskorkeuteen $1 {{plural:$1|pikseli|pikseliä}}',
+	'scaling-both' => ', skaalattu enimmäiskokoon $1x$2 pikseliä',
 );
 
 /** Faroese (føroyskt)
@@ -1373,6 +1403,30 @@ atau mana-mana Cermin GNU yang lain, rujuk
 	'scaling-both' => ', dilaraskan kepada saiz maksimum $1x$2 piksel',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'title' => 'Niżżel l-istampi mill-kategorija',
+	'subtitle' => "L-iktar mod sempliċi biex tniżżel l-istampi f'kategorija",
+	'project' => 'Proġett:',
+	'category' => 'Kategorija:',
+	'max-width' => 'Wisa massimu:',
+	'max-height' => 'Tul massimu:',
+	'invalid-width' => "Wisa' mhux valida",
+	'invalid-height' => 'Tul mhux valida',
+	'no-such-project' => 'Dan il-proġett ma jeżistix',
+	'no-images' => "M'hemm l-ebda stampa f'din il-kategorija",
+	'category-is-url' => 'L-isem mogħti għal din il-kategorija jidher qisu URL. Trid tispeċifika l-isem tal-kategorija, mhux il-URL tagħha.',
+	'category-contains-namespace' => 'Jidher li daħħalt l-isem tal-ispazju flimkien mal-isem tal-kategorija. Flimkien mal-isem mogħti, il-paġna tkun disponibbli bħala [[Category:$1]].',
+	'zip-failed' => 'Kreazzjoni taż-zip falliet',
+	'image-area-too-big' => '$1 huwa wisq kbir biex isir minjatura. Id-daqs sħiħ se jiġi wżat.',
+	'download-info' => "{{plural: $1|Hemm stampa waħda|Hemm $1 stampi}}, b'daqs stmat ta' $2",
+	'download' => 'Niżżel',
+	'non-bundled-wget' => "Nota: Din il-verżjoni ma tinkudix wget għal Windows. Hemm bżonn li tneħħi l-kompressjoni tal-folder b'wget.exe jew inkella jkollok wget fil-PATH",
+	'scaling-width' => ", mqassra għal wisa' massima ta' $1 {{plural:$1|pixel|pixels}}",
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author SPQRobin
@@ -1423,6 +1477,31 @@ of een andere GNU-mirror, zie:
 	'scaling-width' => ', geschaald naar een maximale breedte van $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => ', geschaald naar een maximale hoogte van $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', geschaald naar een maximale afmeting van $1 x $2 pixels',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'title' => 'ବର୍ଗ ଅନୁଯାୟୀ ଛବିଗୁଡିକର ଡାଉନଲୋଡ',
+	'subtitle' => 'ବର୍ଗ ଅନୁଯାୟୀ ଛବିଗୁଡିକୁ ଡାଉନଲୋଡ କରିବା ସବୁଠୁ ସହଜ ଉପାୟ',
+	'project' => 'ପ୍ରକଳ୍ପ:',
+	'category' => 'ଶ୍ରେଣୀ:',
+	'thumbnailing' => 'ଛୋଟ ଛୋଟ କରିବା',
+	'max-width' => 'ଅଧିକତମ ଓସାର:',
+	'max-height' => 'ଅଧିକତମ ଉଚ୍ଚତା:',
+	'invalid-width' => 'ଅକାମୀ ଓସାର',
+	'invalid-height' => 'ଅକାମୀ ଉଚ୍ଚତା',
+	'no-such-project' => 'ସେଠାରେ ସେହିପରି କିଛ ପ୍ରକଳ୍ପ ନାହିଁ',
+	'no-images' => 'ସେଠାରେ ସେହି ଶ୍ରେଣୀର କୌଣସି ଛବି ନାହିଁ',
+	'category-is-url' => 'ଦିଆଯାଇଥିବା ଶ୍ରେଣୀରେ ନାମଟି ଇଉଆରଏଲ(URL) ଭଳି ଲାଗୁଛି । ଆପଣଙ୍କୁ ଏହାର ଶ୍ରେଣୀ ନାମ ଦେବାକୁ ପଡିବ, ଇଉଆରଏଲ ନାମ ନୁହେଁ ।',
+	'category-contains-namespace' => 'ଏହା ଲାଗୁଛି ଯେ ଆପଣ ଶ୍ରେଣୀ ନାମ ସହ ନାମଟି ମଧ୍ୟ ଯୋଡି ଦେଇଛନ୍ତି । ଦିଆଯାଇଥିବା ନାଁ ଅନୁସାରେ, ପୃଷ୍ଠାଟି [[Category:$1]] ଅନୁସାରେ ଉପଲବ୍ଧ ହେବ ।',
+	'zip-failed' => 'ଜିପ କରିବାରେ ବିଫଳ',
+	'image-area-too-big' => 'ଛୋଟ ଦେଖଣା ତିଆରି କରିବା ପାଇଁ $1 ବହୁତ ବଡ ହେଇ ଯାଉଛି । ପୁରା ସାଇଜ ବ୍ୟବହାର କରି ।',
+	'download-info' => '{{plural: $1|ସେଠାରେ ଗୋଟିଏ ଛବି ଅଛି|ସେଠାରେ $1ଟି ଛବି ଅଛି}},',
+	'download' => 'ଡାଉନଲୋଡ଼',
+	'scaling-width' => ', ଅଧିକତମ ଓସାର $1 {{plural:$1|pixel|pixels}} ଯାଏଁ ଲମ୍ବିଯାଇଛି',
+	'scaling-height' => ', ଅଧିକତମ ଉଚ୍ଚତା $1 {{plural:$1|pixel|pixels}} ଯାଏଁ ଲମ୍ବିଗଲା',
 );
 
 /** Punjabi (ਪੰਜਾਬੀ)
@@ -1520,6 +1599,15 @@ lub niektórych innych mirrorów GNU, zobacz
 	'scaling-both' => ', przeskalowanych do maksymalnego rozmiaru $1x$2 pikseli',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'project' => 'پروژه:',
+	'category' => 'وېشنيزه:',
+	'download' => 'ښکته کول',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
@@ -1613,6 +1701,13 @@ Linux/Mac OS
 	'scaling-width' => ', масштабирован до максимальной ширины $1 {{plural:$1|пикселя|пикселей}}',
 	'scaling-height' => ', масштабирован до максимальной высоты $1 {{plural:$1|пикселя|пикселей}}',
 	'scaling-both' => ', масштабирован до максимального размера $1x$2 пикселей',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'download' => 'බාගන්න',
 );
 
 /** Slovak (slovenčina)
@@ -1808,6 +1903,7 @@ $messages['te'] = array(
 	'invalid-height' => 'చెల్లని ఎత్తు',
 	'no-such-project' => 'అటువంటి ప్రాజెక్టు లేదు',
 	'no-images' => 'ఆ వర్గంలో బొమ్మలు ఏమీ లేవు',
+	'download' => 'దింపుకోలు',
 );
 
 /** Tigrinya (ትግርኛ)
@@ -1995,6 +2091,14 @@ Linux/Mac OS
 	'scaling-width' => '缩放到最大宽度 $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => '缩放到最大高度 $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'category' => '分類:',
+	'download' => '下載',
 );
 
 /** Chinese (Hong Kong) (‪中文（香港）‬)

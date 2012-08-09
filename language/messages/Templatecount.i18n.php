@@ -170,9 +170,11 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Chmee2
  * @author Jezevec
  */
 $messages['cs'] = array(
+	'enter-details' => 'Vložit podrobnosti',
 	'language-label' => 'Jazyk',
 	'namespace-label' => 'Jmenný prostor',
 );
@@ -317,6 +319,7 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
+	'title' => 'Contador das transclusións de modelos',
 	'enter-details' => 'Insira os detalles',
 	'introduction' => 'Escriba o nome dun modelo (sentímolo, nestes intres só para wikipedias) e prema no botón para continuar. É así de sinxelo. Hai problemas de memoria caché (que lembra os resultados), pero desgraciadamente isto está fóra do control da ferramenta e mais do seu dono.',
 	'language-label' => 'Lingua',
@@ -860,6 +863,14 @@ $messages['zh-hans'] = array(
 	'namespace-label' => '名字空间',
 	'pagename-label' => '页面名称（不包括命名空间）',
 	'time-label' => '执行命令所需的时间',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'enter-details' => '輸入詳細資訊',
+	'language-label' => '語言',
 );
 
 /** Chinese (Hong Kong) (‪中文（香港）‬)

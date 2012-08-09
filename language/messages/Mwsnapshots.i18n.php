@@ -163,6 +163,17 @@ $messages['br'] = array(
 	'tablehead-hash' => 'Hacherezh',
 );
 
+/** Czech (česky)
+ * @author Chmee2
+ */
+$messages['cs'] = array(
+	'title-error' => 'Chyba',
+	'download-button' => 'Stáhnout $1',
+	'download-directlink' => 'Přímý odkaz',
+	'repo-site-link' => 'Webová stránka',
+	'tablehead-filesize' => 'Velikost souboru',
+);
+
 /** Danish (dansk)
  * @author Sarrus
  */
@@ -222,7 +233,9 @@ $messages['de-formal'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'title-overview' => 'Snapshots',
 	'title-error' => 'Xırab',
+	'title-updatelog' => 'Qeydan anewen ke',
 	'download-button' => "$1'i Ron",
 	'title-downloadpage' => "$1'i Ron:",
 	'repo-site-link' => 'Websita',
@@ -296,10 +309,51 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Mjbmr
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'title-error' => 'خطا',
+	'title-updatelog' => 'سیاهه به روز رسانی',
+	'download-button' => 'بارگیری $1',
+	'download-directlink' => 'پیوند مستقیم',
+	'title-downloadpage' => 'بارگیری: $1',
+	'err-invalid-repo' => 'مخزن ناشناخته «$1».',
+	'err-invalid-branch' => 'شاخهٔ ناشناخته: «$1» در مخزن «$2».',
+	'err-noupdatelog' => 'هیچ سیاهه به روز رسانی یافت نشد.',
+	'repo-site-link' => 'تارنما',
+	'repo-browse-link' => 'مرور مخزن',
+	'repo-branches-label' => 'شاخه‌ها:',
+	'repo-lastmoddate-label' => 'تاریخ:',
+	'branches-submit-button' => 'آن را دریافت کنید!',
+	'updatelog-link' => 'سیاهه به روز رسانی',
+	'tablehead-repo' => 'مخزن',
+	'tablehead-branch' => 'شاخه',
+	'tablehead-filesize' => 'اندازهٔ پرونده',
+);
+
+/** Finnish (suomi)
+ * @author Olli
+ */
+$messages['fi'] = array(
+	'title-error' => 'Virhe',
+	'title-updatelog' => 'Päivitysloki',
+	'updatelog-intro' => 'Päivitysohjelma ajetaan joka tunti. Alla on viimeisimmän kerran konsolin tiedot.',
+	'updatelog-active' => 'Päivitysohjelma on käynnissä. Palaa myöhemmin saadaksesi tietää koko lokin.',
+	'download-button' => 'Lataa $1',
+	'download-directlink' => 'suora linkki',
+	'title-downloadpage' => 'Lataa: $1',
+	'downloadpage-directlink' => 'Napsauta ladataksesi tilannevedoksen.',
+	'err-snapshotindex' => 'Tilannevedos ei tällä hetkellä ole käytettävissä. Yritä myöhemmin uudelleen.',
+	'err-invalid-repo' => 'Tuntematon kirjasto: "$1".',
+	'err-noupdatelog' => 'Päivityslokia ei löytynyt.',
+	'repo-site-link' => 'Verkkosivusto',
+	'repo-browse-link' => 'Selaa kirjastoa',
+	'repo-lastmoddate-label' => 'Päiväys:',
+	'branches-submit-button' => 'Lataa!',
+	'updatelog-link' => 'päivitysloki',
+	'tablehead-filesize' => 'Tiedostokoko',
+	'tablehead-hash' => 'Tarkisteet',
 );
 
 /** French (français)
@@ -679,9 +733,11 @@ $messages['pfl'] = array(
 );
 
 /** Polish (polski)
+ * @author Przemub
  * @author Woytecr
  */
 $messages['pl'] = array(
+	'title-overview' => 'Migawki',
 	'title-error' => 'Błąd',
 	'title-updatelog' => 'Rejestr aktualizacji',
 	'updatelog-intro' => 'Ten skrypt aktualizacji został zaplanowany tak, aby uruchamiał się co godzinę. Poniżej znajduje się wyjście konsoli podczas ostatniego uruchomienia.',
@@ -689,11 +745,36 @@ $messages['pl'] = array(
 	'download-button' => 'Pobierz $1',
 	'download-directlink' => 'link bezpośredni',
 	'title-downloadpage' => 'Pobierz: $1',
+	'downloadpage-directlink' => 'Kliknij tutaj, aby pobrać migawkę.',
+	'err-snapshotindex' => 'Indeks migawek tymczasowo niedostępny. Spróbuj ponownie później.',
 	'err-invalid-repo' => 'Nieznane repozytorium: "$1".',
+	'err-invalid-branch' => 'Nieznany branch: "$1" w repozytorium "$2".',
+	'err-nosnapshot' => 'Migawki są generowane co kilka godzin. Podczas generowania migawki "$1" wystąpił błąd. Spróbuj ponownie później.',
+	'err-noupdatelog' => 'Rejestr aktualizacji nie został znaleziony.',
+	'repo-site-link' => 'Strona internetowa',
 	'repo-browse-link' => 'Przeglądaj repozytorium',
+	'repo-branches-label' => 'Branch:',
+	'repo-lastmoddate-label' => 'Data:',
+	'branches-submit-button' => 'Pobierz ją!',
+	'updatelog-link' => 'rejestr aktualizacji',
 	'tablehead-repo' => 'Repozytorium',
+	'tablehead-snapshots' => 'Migawki',
+	'tablehead-branch' => 'Branch',
 	'tablehead-filesize' => 'Rozmiar pliku',
 	'tablehead-hash' => 'Sumy kontrolne',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'title-error' => 'تېروتنه',
+	'download-button' => 'ښکته کول $1',
+	'title-downloadpage' => 'ښکته کول: $1',
+	'repo-site-link' => 'وېبځی',
+	'repo-branches-label' => 'څانګې:',
+	'repo-lastmoddate-label' => 'نېټه:',
+	'tablehead-branch' => 'څانګه',
 );
 
 /** Romanian (română)
@@ -731,6 +812,10 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'title-error' => 'Errore',
+	'download-button' => 'Scareche $1',
+	'title-downloadpage' => 'Scareche: $1',
+	'repo-site-link' => 'Site web',
+	'tablehead-filesize' => "Dimenzione d'u file",
 );
 
 /** Russian (русский)
@@ -762,6 +847,17 @@ $messages['ru'] = array(
 	'tablehead-branch' => 'Ветвь',
 	'tablehead-filesize' => 'Размер файла',
 	'tablehead-hash' => 'Контрольные суммы',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'title-error' => 'දෝෂය',
+	'repo-site-link' => 'වෙබ් අඩවිය',
+	'repo-lastmoddate-label' => 'දිනය:',
+	'tablehead-repo' => 'කෝෂ්ඨාගාරය',
+	'tablehead-filesize' => 'ගොනුවේ විශාලත්වය',
 );
 
 /** Slovenian (slovenščina)
@@ -848,6 +944,7 @@ $messages['sr-el'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'title-error' => 'పొరపాటు',
 	'download-directlink' => 'నేరు లంకె',
 	'repo-site-link' => 'జాలగూడు',
 	'repo-lastmoddate-label' => 'తేది:',
@@ -933,5 +1030,47 @@ $messages['vi'] = array(
 	'tablehead-branch' => 'Chi nhánh',
 	'tablehead-filesize' => 'Kích thước tập tin',
 	'tablehead-hash' => 'Giá trị băm',
+);
+
+/** Simplified Chinese (‪中文（简体）‬)
+ * @author Liangent
+ */
+$messages['zh-hans'] = array(
+	'title-overview' => '快照',
+	'title-error' => '错误',
+	'title-updatelog' => '更新日志',
+	'updatelog-intro' => '更新脚本每小时运行一次。下面是最后一次运行的控制台输出。',
+	'updatelog-active' => '更新脚本正在运行。稍后回来查看完整日志。',
+	'download-button' => '下载$1',
+	'download-directlink' => '直接链接',
+	'title-downloadpage' => '下载：$1',
+	'downloadpage-directlink' => '单击此处下载快照。',
+	'err-snapshotindex' => '快照索引暂时不可用。请稍后再试。',
+	'err-invalid-repo' => '未知的版本库：“$1”。',
+	'err-invalid-branch' => '版本库“$2”中未知的分支：“$1”。',
+	'err-nosnapshot' => '快照每隔几个小时生成一次。在为“$1”生成快照时出现了一个错误。请稍后再试。',
+	'err-noupdatelog' => '没有找到更新日志。',
+	'repo-site-link' => '网站',
+	'repo-browse-link' => '浏览版本库',
+	'repo-branches-label' => '分支：',
+	'repo-lastmoddate-label' => '日期：',
+	'updatelog-link' => '更新日志',
+	'tablehead-repo' => '版本库',
+	'tablehead-snapshots' => '快照',
+	'tablehead-branch' => '分支',
+	'tablehead-filesize' => '文件大小',
+	'tablehead-hash' => '校验和',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'title-error' => '錯誤',
+	'title-updatelog' => '更新日誌',
+	'title-downloadpage' => '下載：$1',
+	'repo-site-link' => '網站:',
+	'repo-lastmoddate-label' => '日期：',
+	'tablehead-filesize' => '檔案大小',
 );
 

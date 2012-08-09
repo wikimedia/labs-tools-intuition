@@ -434,12 +434,15 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Chmee2
  * @author Jezevec
  * @author Mormegil
  */
 $messages['cs'] = array(
 	'title' => 'Soubory WLM',
 	'file' => 'Obrázek',
+	'monument-type' => 'Druh památky',
+	'monument-id' => 'Číslo památky',
 	'show-images-all' => 'Zobrazit všechny obrázky',
 	'count-heading' => 'Fotografie',
 	'author-heading' => 'Autor',
@@ -490,7 +493,7 @@ $messages['de'] = array(
 	'title' => 'WLM-Dateien',
 	'file' => 'Datei',
 	'monument-type' => 'Art des Denkmals',
-	'monument-id' => 'Kennung des Denkmals',
+	'monument-id' => 'Kennnummer des Denkmals',
 	'province' => 'Provinz',
 	'comarque' => 'Comarca',
 	'province-comarque-joiner' => '$1 / $2',
@@ -512,7 +515,7 @@ $messages['de'] = array(
 	'view-frequency' => 'Beliebte Denkmäler',
 	'view-ccaa' => 'Nach autonomer Gemeinschaft ansehen',
 	'view-province' => 'Nach Provinz ansehen',
-	'id-label' => 'Kennung des Denkmals:',
+	'id-label' => 'Kennnummer des Denkmals:',
 	'id-none' => '(Keine)',
 	'monument-heading' => 'Denkmal',
 	'count-heading' => 'Fotos',
@@ -539,24 +542,40 @@ $messages['de'] = array(
 $messages['diq'] = array(
 	'title' => 'WLM dosyay',
 	'file' => 'Resim',
+	'monument-type' => 'Babeta Ziyarık',
+	'monument-id' => "Id'ê Ziyarık",
 	'province' => 'Wılayet',
 	'comarque' => 'Comarca',
+	'competes' => 'Temamyayo',
 	'author' => 'Nuştekar',
+	'upload-time' => 'Demê bar kerdışi',
 	'deleted' => '($1) besterneyê',
+	'concursa' => "Letey WLM' bıgi",
+	'no-concursa' => 'WLM teber ra pırkerdış',
+	'not-available' => 'No çıno',
 	'date-unknown' => 'Nêzanıte',
 	'total-images' => 'Resimi pêro: $1',
+	'view-uncategorized-images' => 'Resimê ke bêkategoriyê êna bıvin',
+	'show-images-all' => 'Resiman pêron bımocne',
+	'search-monuments' => 'Ziyarık cı geyrê',
+	'view-frequency' => 'Ziyarıkê poluleri',
+	'view-province' => 'Wılayetê cı bıvin',
 	'id-label' => "ID'ê Ziyarık:",
 	'id-none' => '(Çıno)',
 	'monument-heading' => 'Ziyarık',
 	'count-heading' => 'Fotrafi',
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galeri',
+	'gallery-header' => 'Resimê zıyarık da $1.',
+	'gallery-header-place' => '$1 ra resimê ziyarık.',
 	'author-heading' => 'Nuştekar',
 	'bic-list-bad' => 'Bımocne',
 	'bic-list-all' => 'Lista pêro',
 	'unregistered' => 'Nê tesdiqyayo',
 	'users-list' => 'Bıvin',
+	'distict-monuments' => 'Tip na ziyarıki',
 	'province-heading' => 'Wılayet',
+	'province-none' => '(Ne sılasneno)',
 	'ccaa-heading' => 'CC.AA.',
 );
 
@@ -706,12 +725,14 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Leyth
+ * @author Mjbmr
  * @author Reza1615
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'file' => 'تصویر',
 	'province' => 'استان',
+	'comarque' => 'منطقه',
 	'author' => 'مؤلف',
 	'upload-time' => 'زمان بارگذاری',
 	'deleted' => 'حذف شده‌است ($1)',
@@ -720,7 +741,11 @@ $messages['fa'] = array(
 	'total-images' => 'کل تصاویر: $1',
 	'view-uncategorized-images' => 'نمایش تصاویر رده‌بندی‌نشده',
 	'show-images-all' => 'نمایش همهٔ تصاویر',
+	'view-province' => 'مشاهده بر پایهٔ استان',
 	'id-none' => '(هیچ)',
+	'count-heading' => 'عکس‌ها',
+	'bic-list' => 'فهرست',
+	'bic-gallery' => 'نگارخانه',
 	'author-heading' => 'پدیدآور',
 	'bic-list-bad' => 'نمایش',
 	'bic-list-all' => 'فهرست کامل',
@@ -731,11 +756,34 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Olli
  * @author Silvonen
  */
 $messages['fi'] = array(
+	'title' => 'WLM-tiedostot',
+	'file' => 'Kuva',
+	'monument-type' => 'Monumentin tyyppi',
+	'monument-id' => 'Monumentin tunniste',
+	'province' => 'Provinssi',
+	'author' => 'Tekijä',
+	'upload-time' => 'Tallennusaika',
+	'deleted' => 'Poistettu ($1)',
+	'concursa' => 'Ottaa osaa WLM:ään',
+	'no-concursa' => 'Ei ota osaa WLM-kilpailuun',
+	'not-available' => 'Ei saatavissa',
+	'date-unknown' => 'Tuntematon',
+	'total-images' => 'Kuvia yhteensä: $1',
 	'view-uncategorized-images' => 'Näytä luokittelemattomat kuvat',
+	'provide-id' => 'Anna monumentin tunnusnumero näyttääksesi kohteelle olevat tiedot',
+	'show-images-bad-only' => 'Näytä vain kuvia listojen ulkopuolelta',
 	'show-images-all' => 'Näytä kaikki kuvat',
+	'show-images-removed' => 'Näytä kuvia, jotka on poistettu kilpailusta',
+	'search-monuments' => 'Etsi monumentteja',
+	'view-frequency' => 'Suosittuja monumentteja',
+	'view-province' => 'Näytä provinssin mukaan',
+	'id-label' => 'Monumentin tunniste:',
+	'id-none' => '(Ei mitään)',
+	'monument-heading' => 'Monumentti',
 );
 
 /** French (français)
@@ -1523,6 +1571,28 @@ $messages['pl'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'file' => 'انځور',
+	'province' => 'ولايت',
+	'author' => 'ليکوال',
+	'date-unknown' => 'ناجوت',
+	'total-images' => 'ټول انځورونه: $1',
+	'show-images-all' => 'ټول انځورونه ښکاره کول',
+	'id-none' => '(هېڅ)',
+	'count-heading' => 'انځورونه',
+	'bic-list' => 'لړليک',
+	'bic-gallery' => 'انځورتون',
+	'author-heading' => 'ليکوال',
+	'bic-list-bad' => 'ښکاره کول',
+	'bic-list-all' => 'بشپړ لړليک',
+	'users-list' => 'کتل',
+	'province-heading' => 'ولايت',
+	'province-none' => '(ناڅرګند)',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
@@ -1663,6 +1733,19 @@ $messages['ru'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'file' => 'පිංතූරය',
+	'author' => 'කතෘ',
+	'date-unknown' => 'අඥාත',
+	'bic-list' => 'ලැයිස්තුව',
+	'author-heading' => 'කතෘ',
+	'bic-list-bad' => 'පෙන්වන්න',
+	'ccaa-heading' => 'CC.AA.',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  */
@@ -1719,7 +1802,7 @@ $messages['sr-ec'] = array(
 	'title' => 'WLM датотеке',
 	'file' => 'Датотека',
 	'monument-type' => 'Врста споменика',
-	'monument-id' => 'ИБ споменика',
+	'monument-id' => 'ИД споменика',
 	'province' => 'Покрајина',
 	'comarque' => 'Округ',
 	'province-comarque-joiner' => '$1 / $2',
@@ -1741,7 +1824,7 @@ $messages['sr-ec'] = array(
 	'view-frequency' => 'Популарни споменици',
 	'view-ccaa' => 'Погледај по самосталној заједници',
 	'view-province' => 'По покрајини',
-	'id-label' => 'ИБ споменика:',
+	'id-label' => 'ИД споменика:',
 	'date-format' => 'd-m-Y H:i:s',
 	'id-none' => '(нема)',
 	'monument-heading' => 'Споменик',
@@ -1883,6 +1966,7 @@ $messages['te'] = array(
 	'bic-list' => 'జాబితా',
 	'bic-list-bad' => 'చూపించు',
 	'bic-list-all' => 'పూర్తి జాబితా',
+	'users-list' => 'చూడండి',
 );
 
 /** Tagalog (Tagalog)
@@ -2090,6 +2174,31 @@ $messages['zh-hans'] = array(
 	'unregistered' => '未注册',
 	'users-list' => '查看',
 	'province-heading' => '省份',
+	'province-none' => '（未知）',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'file' => '圖片',
+	'province' => '省',
+	'author' => '作者',
+	'upload-time' => '上載時間',
+	'deleted' => '已刪除「$1」',
+	'not-available' => '不可用',
+	'date-unknown' => '未知',
+	'total-images' => '圖像總數：$1',
+	'show-images-all' => '顯示所有圖像',
+	'id-none' => '（無）',
+	'bic-list' => '列表',
+	'bic-gallery' => '圖庫',
+	'author-heading' => '作者',
+	'bic-list-bad' => '顯示',
+	'bic-list-all' => '完整列表',
+	'unregistered' => '未註冊',
+	'users-list' => '檢視',
+	'province-heading' => '省',
 	'province-none' => '（未知）',
 );
 

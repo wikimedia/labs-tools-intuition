@@ -302,11 +302,17 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Chmee2
  * @author Jezevec
  */
 $messages['cs'] = array(
+	'hideredirects' => 'Skrýt přesměrování',
+	'hidesubpages' => 'Skrýt podstránky',
 	'page' => 'Stránka',
+	'redirect' => 'Přesměrováno?',
 	'output' => 'Výstup',
+	'update' => 'Aktualizace',
+	'tools-delete' => 'smazat',
 	'tools-links' => 'odkazy',
 	'resultslimited' => 'Výsledky byly omezeny na  $1  stránek.',
 );
@@ -484,13 +490,18 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Olli
  * @author Silvonen
  */
 $messages['fi'] = array(
+	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(valitse ensin wiki)',
 	'hideredirects' => 'Piilota ohjaukset',
 	'hidesubpages' => 'Piilota alasivut',
+	'limit' => 'Raja',
 	'page' => 'Sivu',
+	'redirect' => 'Onko uudelleenohjaus?',
+	'output' => 'Ulostulo',
 	'update' => 'Päivitä',
 	'tools-delete' => 'poista',
 );
@@ -1063,6 +1074,7 @@ $messages['ps'] = array(
 	'update' => 'اوسمهالول',
 	'tools-delete' => 'ړنګول',
 	'tools-links' => 'تړنې',
+	'tools-subject' => 'موضوع',
 	'tools-hist' => 'پېښليک',
 	'tools-curr' => 'اوسنی',
 	'tools-globalusage' => 'نړېواله کارېدنه',
@@ -1182,6 +1194,8 @@ $messages['ru'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'limit' => 'සීමාව',
+	'page' => 'පිටුව',
 	'tools-delete' => 'මකන්න',
 	'tools-subject' => 'විෂයය',
 );
@@ -1444,6 +1458,18 @@ $messages['zh-hans'] = array(
 	'deletesummary' => '使用$1清理孤立的对话页',
 	'noresults' => '在该wiki上没有找到你设置的名字空间中的孤立对话页。',
 	'resultslimited' => '结果只显示$1页面。',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'hideredirects' => '隱藏重定向頁',
+	'hidesubpages' => '隱藏子頁面',
+	'output' => '輸出',
+	'update' => '更新',
+	'tools-delete' => '已刪除',
+	'tools-hist' => '歷史',
 );
 
 /** Chinese (Hong Kong) (‪中文（香港）‬)

@@ -518,16 +518,23 @@ $messages['es'] = array(
 );
 
 /** Estonian (eesti)
+ * @author Pikne
  * @author WikedKentaur
  */
 $messages['et'] = array(
+	'hello' => 'Tere',
+	'welcome' => 'Tere tulemast',
+	'toolversionstamp' => 'Versioon $1 ($2)',
+	'etc' => 'jne',
 	'namespace' => 'Nimeruum',
-	'years' => 'aastat',
-	'weeks' => 'nädalat',
-	'days' => 'päeva',
-	'hours' => 'tundi',
-	'minutes' => 'minutit',
-	'seconds' => 'sekundit',
+	'form-submit' => 'Mine',
+	'form-reset' => 'Lähtesta',
+	'years' => '{{PLURAL: $1|aasta|aastat}}',
+	'weeks' => '{{PLURAL: $1|nädal|nädalat}}',
+	'days' => '{{PLURAL: $1|päev|päeva}}',
+	'hours' => '{{PLURAL: $1|tund|tundi}}',
+	'minutes' => '{{PLURAL: $1|minut|minutit}}',
+	'seconds' => '{{PLURAL: $1|sekund|sekundit}}',
 	'last-modified-date' => 'Viimati muudetud: $1',
 	'view-source' => 'Vaata lähteteksti',
 );
@@ -577,6 +584,7 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Nike
+ * @author Olli
  * @author Silvonen
  */
 $messages['fi'] = array(
@@ -589,7 +597,7 @@ $messages['fi'] = array(
 	'form-reset' => 'Tyhjennä',
 	'years' => '{{PLURAL: $1|vuosi|vuotta}}',
 	'weeks' => '{{PLURAL: $1|viikko|viikkoa}}',
-	'days' => 'päivää',
+	'days' => '{{PLURAL: $1|päivä|päivää}}',
 	'hours' => '{{PLURAL: $1|tunti|tuntia}}',
 	'minutes' => '{{PLURAL: $1|minuutti|minuuttia}}',
 	'seconds' => '{{PLURAL: $1|sekunti|sekuntia}}',
@@ -1669,17 +1677,19 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (‪中文（繁體）‬)
  * @author Justincheng12345
  * @author Lauhenry
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'hello' => '您好',
 	'welcome' => '歡迎',
 	'toolversionstamp' => '版本$1 ($2)',
 	'etc' => '等。',
+	'form-submit' => '提交',
 	'form-reset' => '重置',
 	'years' => '{{PLURAL: $1|年|年}}',
 	'weeks' => '$1週',
-	'days' => '{{PLURAL: $1|天|天}}',
-	'hours' => '{{PLURAL: $1|小時|小時}}',
+	'days' => '$1天',
+	'hours' => '$1小時',
 	'minutes' => '{{PLURAL: $1|分鐘|分鐘}}',
 	'seconds' => '{{PLURAL: $1|秒|秒}}',
 	'last-modified-date' => '最近修改於: $1',

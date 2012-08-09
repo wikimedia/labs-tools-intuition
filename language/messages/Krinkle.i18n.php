@@ -144,10 +144,13 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Chmee2
  * @author Jezevec
  */
 $messages['cs'] = array(
+	'alws-selectwiki' => '(vyberte wiki)',
 	'alws-group-mustused' => 'Nejpoužívanější wiki',
+	'form-legend-settings' => 'Nastavení',
 );
 
 /** Danish (dansk)
@@ -175,6 +178,7 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'alws-selectwiki' => '(wiki weçinê)',
 	'form-legend-settings' => 'Sazi',
 );
 
@@ -551,6 +555,13 @@ $messages['ru'] = array(
 	'form-legend-settings' => 'Настройки',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'form-legend-settings' => 'සැකසුම්',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  */
@@ -631,7 +642,7 @@ $messages['tl'] = array(
  */
 $messages['tly'] = array(
 	'alws-selectwiki' => '(вики-нәхшә бывыжнән)',
-	'form-legend-settings' => 'Низамисә ној',
+	'form-legend-settings' => 'Кукон',
 );
 
 /** Turkish (Türkçe)
@@ -664,6 +675,13 @@ $messages['zh-hans'] = array(
 	'alws-group-mustused' => '使用最多的维基',
 	'alws-group-allaz' => '所有的维基按字母顺序',
 	'form-legend-settings' => '设置',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'form-legend-settings' => '設定',
 );
 
 /** Chinese (Hong Kong) (‪中文（香港）‬)

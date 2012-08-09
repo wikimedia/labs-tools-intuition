@@ -42,6 +42,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
+ * @author Jan Luca
  * @author Krinkle
  * @author Lloffiwr
  * @author Purodha
@@ -73,7 +74,7 @@ If 'About' doesn't work in your language, possible equivalents may be 'Details',
 	'bl-promo' => "Sentence displayed at the bottom of other tools promoting translatewiki.net and Toolserver Intuition.
 * $1 is a link to translatewiki.net
 * $2 is the link to Toolserver Intuition's about page",
-	'bl-changelanguage' => 'Clickable link displayed at the bottom of other tools to the dashboard.',
+	'bl-changelanguage' => 'Tooltip of the clickable link displayed at the pages of other tools to the dashboard where you can change your interface language.',
 	'usage' => 'Heading on the About-page of the Toolserver Intuition dashboard. A list of tools and textdomains is listed below.',
 	'help-translate-tool' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for that tool.',
 	'help-translate-all' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for all tools.',
@@ -172,7 +173,7 @@ $messages['ast'] = array(
 $messages['az'] = array(
 	'clear-cookies' => 'kökələri təmizlə',
 	'cookie-expiration' => 'kökənin bitmə vaxtı',
-	'tab-about' => 'İzah',
+	'tab-about' => 'Haqqında',
 );
 
 /** Belarusian (беларуская)
@@ -461,11 +462,20 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'current-settings' => 'Sazê enewki',
+	'current-language' => 'Zıwano ke newke weçineyayo',
 	'settings-legend' => 'Sazi',
+	'choose-language' => 'Yew zıwan weçinê',
+	'clear-cookies' => 'Çereza besterne',
+	'renew-cookies' => 'çereza anewe ke',
+	'cookie-expiration' => 'wahdey çereza biyo pır',
+	'clearcookies-success' => 'Çerezi weş besterneyay',
 	'tab-overview' => 'Hera weynayis',
 	'tab-settings' => 'Sazi',
 	'tab-about' => 'Heq te cı',
 	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Sazê zıwan dı mı',
+	'bl-mysettings-new' => 'Zıwan vuurnayış!',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -547,6 +557,33 @@ $messages['es'] = array(
 	'help-translate-tool' => '¡Ayuda en la traducción de esta herramienta!',
 	'help-translate-all' => '¡Ayuda a traducir Toolserver!',
 	'help-translate-tooltip' => 'Ayuda a otros al traducir los mensajes de la interfaz en tu idioma.',
+);
+
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'fullname' => 'Toolserveri kasutajaliidese rahvusvahelikustamine',
+	'current-settings' => 'Praegused sätted',
+	'current-language' => 'Praegu valitud keel',
+	'settings-legend' => 'Sätted',
+	'choose-language' => 'Vali keel',
+	'clear-cookies' => 'eemalda küpsised',
+	'renew-cookies' => 'uuenda küpsiseid',
+	'cookie-expiration' => 'Küpsise aegumine',
+	'clearcookies-success' => 'Küpsised edukalt eemaldatud.',
+	'renewcookies-success' => 'Küpsised uuendatud! Järgmised $1 on kõik paigas.',
+	'tab-overview' => 'Ülevaade',
+	'tab-settings' => 'Sätted',
+	'tab-about' => 'Teave',
+	'bl-mysettings' => 'Minu keelesätted',
+	'bl-mysettings-new' => 'Muuda keelt!',
+	'bl-promo' => 'Tõlked valmivad projektide $1 ja $2 abiga.',
+	'bl-changelanguage' => 'Klõpsa siia, et muuta selle tööriista liidese keelt.',
+	'usage' => 'Toolserver Intuitioni abil tõlgitavad tööriistad.',
+	'help-translate-tool' => 'Aita seda tööriista tõlkida!',
+	'help-translate-all' => 'Aita Toolserverit tõlkida!',
+	'help-translate-tooltip' => 'Aita teisi liidese sõnumite tõlkimisega enda keelde.',
 );
 
 /** Basque (euskara)
@@ -1150,11 +1187,19 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'current-settings' => 'Konfigurazzjoni attwali',
+	'current-language' => 'Lingwa magħżula bħalissa',
+	'settings-legend' => 'Konfigurazzjoni',
 	'choose-language' => 'Agħżel lingwa',
 	'clear-cookies' => 'ħassar il-cookies',
 	'renew-cookies' => 'ġedded il-cookies',
 	'cookie-expiration' => 'Skadenza tal-cookie',
 	'clearcookies-success' => "Il-cookies ġew imneħħija b'suċċess.",
+	'renewcookies-success' => 'Cookies imġedda! Se jkunu validi għal $1 li jmiss.',
+	'tab-overview' => 'Ħarsa ġenerali',
+	'tab-settings' => 'Konfigurazzjoni',
+	'tab-about' => 'Dwar',
+	'tab-demo' => 'Eżempju',
 );
 
 /** Burmese (မြန်မာဘာသာ)
@@ -1361,6 +1406,8 @@ $messages['ps'] = array(
 	'current-language' => 'د دم مهال ټاکلې ژبه',
 	'settings-legend' => 'امستنې',
 	'choose-language' => 'يوه ژبه وټاکۍ',
+	'clear-cookies' => 'کوکيز سپينول',
+	'renew-cookies' => 'کوکيز بيا نوي کول',
 	'tab-settings' => 'امستنې',
 	'tab-about' => 'په اړه',
 	'bl-mysettings' => 'زما د ژبې امستنې',
@@ -1718,11 +1765,11 @@ $messages['tl'] = array(
  * @author Гусейн
  */
 $messages['tly'] = array(
-	'settings-legend' => 'Низамисә ној',
+	'settings-legend' => 'Кукон',
 	'choose-language' => 'Зывон бывыжнән',
 	'clear-cookies' => 'Cookies рәдд кардеј',
 	'tab-overview' => 'Чәшику дәвоније',
-	'tab-settings' => 'Низамисә ној',
+	'tab-settings' => 'Кукон',
 	'tab-about' => 'Тәсвир',
 	'bl-mysettings' => 'Чымы зывонә кукон',
 	'bl-mysettings-new' => 'Зывони дәгиш кардеј!',
@@ -1801,13 +1848,14 @@ $messages['vi'] = array(
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Shizhao
+ * @author Simon Shek
  */
 $messages['zh-hans'] = array(
 	'fullname' => '国际化Toolserver用户界面',
 	'current-settings' => '当前的设置',
 	'current-language' => '当前所选的语言',
 	'settings-legend' => '设置',
-	'choose-language' => '选择一种语言',
+	'choose-language' => '选择语言',
 	'clear-cookies' => '清除 cookie',
 	'renew-cookies' => '重设cookies',
 	'cookie-expiration' => 'Cookie期限',
@@ -1825,6 +1873,30 @@ $messages['zh-hans'] = array(
 	'help-translate-tool' => '帮助翻译此工具！',
 	'help-translate-all' => '帮助翻译Toolserver！',
 	'help-translate-tooltip' => '帮助其他人把界面翻译成您的语言。',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'current-settings' => '當前的設定',
+	'current-language' => '當前所選的語言',
+	'settings-legend' => '設定',
+	'choose-language' => '選擇語言',
+	'clear-cookies' => '清除 cookie',
+	'renew-cookies' => '重設cookie',
+	'clearcookies-success' => '成功清除 cookie。',
+	'tab-settings' => '設定',
+	'tab-about' => '關於',
+	'tab-demo' => '示範',
+	'bl-mysettings' => '我的語言設定',
+	'bl-mysettings-new' => '更改語言！',
+	'bl-promo' => '翻譯來自 $1 和 $2 。',
+	'bl-changelanguage' => '按此更改此工具的界面語言。',
+	'usage' => '由Toolserver Intuition翻譯的工具。',
+	'help-translate-tool' => '協助翻譯此工具！',
+	'help-translate-all' => '協助翻譯Toolserver！',
+	'help-translate-tooltip' => '幫助其他人把界面翻譯成您的語言。',
 );
 
 /** Chinese (Hong Kong) (‪中文（香港）‬)
