@@ -146,10 +146,12 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Jezevec
+ * @author PSJG-Tyler
  */
 $messages['cs'] = array(
 	'alws-selectwiki' => '(vyberte wiki)',
 	'alws-group-mustused' => 'Nejpoužívanější wiki',
+	'alws-group-allaz' => 'Vše wiki podle abecedy',
 	'form-legend-settings' => 'Nastavení',
 );
 
@@ -258,6 +260,16 @@ $messages['fr'] = array(
 	'form-legend-settings' => 'Configuration',
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'alws-selectwiki' => '(chouèsir lo vouiqui)',
+	'alws-group-mustused' => 'Vouiquis los ples empleyês',
+	'alws-group-allaz' => 'Tôs los vouiquis per ôrdre alfabètico',
+	'form-legend-settings' => 'Configuracion',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -363,6 +375,24 @@ $messages['ja'] = array(
 	'form-legend-settings' => '設定',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'alws-selectwiki' => '(pilih wiki)',
+	'alws-group-mustused' => 'Wiki paling kerep dianggo',
+	'alws-group-allaz' => 'Kabèh wiki miturut huruf',
+	'form-legend-settings' => 'Pangaturan',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'alws-selectwiki' => '(აირჩიეთ ვიკი)',
+	'form-legend-settings' => 'პარამეტრები',
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $messages['km'] = array(
 	'form-legend-settings' => 'ការកំណត់​នានា',
@@ -373,6 +403,9 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'alws-selectwiki' => '(위키 선택)',
+	'alws-group-mustused' => '대부분 사용한 위키',
+	'alws-group-allaz' => '모든 위키 알파벳순',
+	'form-legend-settings' => '설정',
 );
 
 /** Colognian (Ripoarisch)
@@ -438,6 +471,16 @@ $messages['ms'] = array(
 	'form-legend-settings' => 'Tetapan',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'alws-selectwiki' => '(agħżel wiki)',
+	'alws-group-mustused' => 'L-aktar wikis użati',
+	'alws-group-allaz' => "Kull wiki f'ordni alfabetiku",
+	'form-legend-settings' => 'Konfigurazzjoni',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
@@ -478,6 +521,15 @@ $messages['no'] = array(
 	'alws-group-mustused' => 'Mest brukte wikier',
 	'alws-group-allaz' => 'Alle wikier i alfabetisk orden',
 	'form-legend-settings' => 'Innstillinger',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'alws-selectwiki' => '(ଉଇକି ଚୟନ)',
+	'alws-group-mustused' => 'ସବୁଠୁ ଅଧିକ ବ୍ୟବହାର ହେଉଥିବା ଉଇକି',
+	'form-legend-settings' => 'ସଜାଣି',
 );
 
 /** Deitsch (Deitsch)
@@ -610,9 +662,13 @@ $messages['sv'] = array(
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
+ * @author Karthi.dr
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'alws-selectwiki' => '(விக்கியைத் தெரியவும்)',
 	'alws-group-mustused' => 'மிகவும் பயண்படுத்தபட்ட விக்கி',
+	'alws-group-allaz' => 'அகர வரிசையில் அனைத்து விக்கிகளும்',
 	'form-legend-settings' => 'அமைப்புகள்',
 );
 

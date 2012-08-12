@@ -100,7 +100,7 @@ $messages['ar'] = array(
 	'redirect' => 'هل تحويلة؟',
 	'output' => 'مخرج',
 	'update' => 'حدّث',
-	'tools-delete' => 'احذف',
+	'tools-delete' => 'حذف',
 	'tools-links' => 'وصلات',
 	'tools-subject' => 'موضوع',
 	'tools-hist' => 'تاريخ',
@@ -304,16 +304,21 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Jezevec
+ * @author PSJG-Tyler
  */
 $messages['cs'] = array(
 	'hideredirects' => 'Skrýt přesměrování',
 	'hidesubpages' => 'Skrýt podstránky',
+	'limit' => 'hranice',
 	'page' => 'Stránka',
 	'redirect' => 'Přesměrováno?',
 	'output' => 'Výstup',
 	'update' => 'Aktualizace',
 	'tools-delete' => 'smazat',
 	'tools-links' => 'odkazy',
+	'tools-subject' => 'téma',
+	'tools-hist' => 'historie',
+	'tools-curr' => 'poslední editace',
 	'resultslimited' => 'Výsledky byly omezeny na  $1  stránek.',
 );
 
@@ -445,6 +450,15 @@ $messages['es'] = array(
 	'resultslimited' => 'Los resultados se limitan a $1 páginas.',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'page' => 'Lehekülg',
+	'tools-delete' => 'kustuta',
+	'tools-hist' => 'ajal',
+);
+
 /** Basque (euskara)
  * @author An13sa
  * @author Xabier Armendaritz
@@ -530,6 +544,27 @@ $messages['fr'] = array(
 	'deletesummary' => 'Nettoyage des pages de discussion orphelines par $1',
 	'noresults' => 'Aucune page de discussion orpheline dans ce wiki dans cet espace de nommage correspondant à votre configuration.',
 	'resultslimited' => 'Les résultats ont été limités à $1 pages.',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(chouèsésséd d’abôrd un vouiqui)',
+	'hideredirects' => 'Cachiér les redirèccions',
+	'hidesubpages' => 'Cachiér les sot-pâges',
+	'limit' => 'Limita',
+	'page' => 'Pâge',
+	'redirect' => 'Est na redirèccion ?',
+	'output' => 'Sortia',
+	'update' => 'Betar a jorn',
+	'tools-delete' => 'suprimar',
+	'tools-links' => 'lims',
+	'tools-subject' => 'sujèt',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'ora',
+	'tools-globalusage' => 'usâjo globâl',
 );
 
 /** Galician (galego)
@@ -700,6 +735,30 @@ $messages['ia'] = array(
 	'resultslimited' => 'Le resultatos ha essite limitate a $1 paginas.',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(pilih wiki dahulu)',
+	'hideredirects' => 'Sembunyikan pengalihan',
+	'hidesubpages' => 'Sembunyikan subhalaman',
+	'limit' => 'Batasan',
+	'page' => 'Halaman',
+	'redirect' => 'Pengalihan?',
+	'output' => 'Keluaran',
+	'update' => 'Mutakhirkan',
+	'tools-delete' => 'hapus',
+	'tools-links' => 'pranala',
+	'tools-subject' => 'subyek',
+	'tools-hist' => 'versi',
+	'tools-curr' => 'sekarang',
+	'tools-globalusage' => 'globalusage',
+	'deletesummary' => 'Membersihkan halaman pembicaraan yatim melalui $1',
+	'noresults' => 'Tidak ada halaman pembicaraan yatim di wiki ini dalam ruang nama ini yang sesuai dengan pengaturan Anda.',
+	'resultslimited' => 'Hasil dibatasi hingga $1 halaman.',
+);
+
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
@@ -760,6 +819,44 @@ $messages['ja'] = array(
 	'resultslimited' => '結果は $1 ページに制限されています。',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(pilih wiki dhisik)',
+	'hideredirects' => 'Dhelikna alihan',
+	'hidesubpages' => 'Dhelikna subkaca',
+	'limit' => 'Wates',
+	'page' => 'Kaca',
+	'redirect' => 'Alihaké?',
+	'output' => 'Weton',
+	'update' => 'Anyari',
+	'tools-delete' => 'busak',
+	'tools-links' => 'pranala',
+	'tools-subject' => 'jejer',
+	'tools-hist' => 'riwayat',
+	'tools-curr' => 'saiki',
+	'tools-globalusage' => 'panganggoansakjagat',
+	'deletesummary' => 'Ngresiki kaca guneman yatim liwat $1',
+	'resultslimited' => 'Asil diwatesi mung $1 kaca.',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'select-wiki-first' => '(ჯერ აირჩიეთ ვიკი)',
+	'limit' => 'ლიმიტი',
+	'update' => 'განახლება',
+	'tools-delete' => 'წაშლა',
+	'tools-links' => 'ბმულები',
+	'tools-subject' => 'თემა',
+	'tools-hist' => 'ისტორია',
+	'tools-curr' => 'მიმდინარე',
+	'tools-globalusage' => 'გლობალური გამოყენება',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
@@ -780,6 +877,27 @@ $messages['km'] = array(
 	'deletesummary' => 'សំអាតទំព័រពិភាក្សាដែលកំព្រាតាមរយៈ $1',
 	'noresults' => 'គ្មានទំព័រពិភាក្សាកំព្រានៅលើវិគីនេះ ក្នុងប្រភេទបែបនេះ ដែលត្រូវគ្នានឹងការកំណត់របស់អ្នកទេ។',
 	'resultslimited' => 'លទ្ធផលត្រូវបានដាក់កំហិតត្រឹម $1 ទំព័រ។',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(먼저 위키 선택)',
+	'hideredirects' => '넘겨주기 숨기기',
+	'hidesubpages' => '하위 문서 숨기기',
+	'limit' => '제한',
+	'page' => '문서',
+	'redirect' => '넘겨주기입니까?',
+	'output' => '출력',
+	'update' => '업데이트',
+	'tools-delete' => '삭제',
+	'tools-links' => '링크',
+	'tools-subject' => '제목',
+	'tools-hist' => '역사',
+	'tools-curr' => '차이',
+	'resultslimited' => '결과는 문서 $1개로 제한했습니다.',
 );
 
 /** Colognian (Ripoarisch)
@@ -935,6 +1053,7 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'select-wiki-first' => '(l-ewwel agħżel wiki)',
 	'hideredirects' => 'Aħbi rindirizzi',
 	'hidesubpages' => 'Aħbi sottopaġni',
 	'limit' => 'Limitu',
@@ -948,6 +1067,7 @@ $messages['mt'] = array(
 	'tools-hist' => 'kron',
 	'tools-curr' => 'kurr',
 	'tools-globalusage' => 'użuglobali',
+	'deletesummary' => "Tindif ta' paġni ta' diskussjoni orfni permezz ta' $1",
 	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
@@ -1020,6 +1140,24 @@ $messages['no'] = array(
 	'deletesummary' => 'Renser opp i foreldreløse diskusjonssider via $1',
 	'noresults' => 'Det var ingen foreldreløse diskusjonssider på denne wikien som passet med de valgte innstillingene.',
 	'resultslimited' => 'Resultatene ble begrenset til $1 sider.',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'select-wiki-first' => '(ଆଗ ଏକ ଉଇକି ବାଛନ୍ତୁ)',
+	'hideredirects' => 'ପୁନଃପ୍ରେରଣସମୂହକୁ ଲୁଚାଇବେ',
+	'hidesubpages' => 'ଉପପୃଷ୍ଠାଗୁଡିକୁ ଲୁଚାଇବେ',
+	'limit' => 'ସୀମା',
+	'page' => 'ପୃଷ୍ଠା',
+	'output' => 'ଫଳାଫଳ',
+	'update' => 'ଅପଡେଟ କରିବେ',
+	'tools-delete' => 'ଲିଭାଇବେ',
+	'tools-links' => 'ଲିଙ୍କଗୁଡିକ',
+	'tools-subject' => 'ବିଷୟ',
+	'tools-globalusage' => 'ସମସ୍ତ ବ୍ୟବହାର',
+	'resultslimited' => 'ଫଳାଫଳ ଗୁଡିକ $1ପୃଷ୍ଠା ଭିତରେ ସୀମାତୀତ ହେଲା ।',
 );
 
 /** Deitsch (Deitsch)
@@ -1301,16 +1439,24 @@ $messages['sv'] = array(
  * @author Aswn
  * @author Balajijagadesh
  * @author செல்வா
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'select-wiki-first' => '(முதலில் ஒரு விக்கியைத் தெரியவும்)',
+	'hideredirects' => 'வழிமாற்றுகளைப் மறை',
+	'hidesubpages' => 'துனை பக்கங்களை மறை',
 	'limit' => 'வரம்பு',
 	'page' => 'பக்கம்',
+	'redirect' => 'வழிமாற்றா?',
+	'output' => 'வெளியீடு',
 	'update' => 'புதுப்பி',
 	'tools-delete' => 'நீக்கு',
 	'tools-links' => 'இணைப்புகள்',
+	'tools-subject' => 'பொருள்',
 	'tools-hist' => 'வரலாறு',
 	'tools-curr' => 'தற்போது',
 	'tools-globalusage' => 'உலகளாவியப் பயண்பாடு',
+	'resultslimited' => '$1 பக்கங்களுக்கு முடிவுகள் வரையறுக்கப்பட்டுள்ளன.',
 );
 
 /** Telugu (తెలుగు)

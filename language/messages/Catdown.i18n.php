@@ -123,6 +123,20 @@ $1: Maximum height in pixels',
 	'readme-filename' => 'Name of the readme file',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'project' => 'Projek:',
+	'category' => 'Kategorie:',
+	'max-width' => 'Maksimum breedte:',
+	'max-height' => 'Maksimum hoogte:',
+	'invalid-width' => 'Ongeldige breedte',
+	'invalid-height' => 'Ongeldige hoogte',
+	'no-such-project' => "Daa is nie so 'n projek nie",
+	'download' => 'Laai af',
+);
+
 /** Arabic (العربية)
  * @author DRIHEM
  * @author OsamaK
@@ -338,12 +352,21 @@ $messages['bjn'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Nasir8891
  */
 $messages['bn'] = array(
 	'title' => 'বিষয়শ্রেণীর ভিত্তিতে চিত্র ডাউনলোড',
 	'subtitle' => 'কোন বিষয়শ্রেণীর চিত্র ডাউনলোডের সহজ উপায়',
 	'project' => 'প্রকল্প:',
 	'category' => 'বিষয়শ্রেণী:',
+	'thumbnailing' => 'থাম্বনেইল তৈরী হচ্ছে',
+	'max-width' => 'সর্বোচ্চ প্রস্থ্য:',
+	'max-height' => 'সর্বোচ্চ উচ্চতা:',
+	'invalid-width' => 'অবৈধ প্রস্থ্য',
+	'invalid-height' => 'অবৈধ উচ্চতা',
+	'no-such-project' => 'এমন কোনো প্রকল্প নেই',
+	'no-images' => 'এই বিষয়শ্রেণীতে কোনো ছবি নেই',
+	'category-is-url' => 'বিষয়শ্রেণী নামটি একটি ইউআরএলের মত মনে হচ্ছে। ইউআরএলের পরিবর্তে আপনাকে নির্দিষ্ট করে বিষয়শ্রেণীর নাম লিখতে হবে।',
 	'download' => 'ডাউনলোড',
 );
 
@@ -670,6 +693,23 @@ o en algún otro espejo de GNU, ver
 	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'project' => 'Projekt:',
+	'category' => 'Kategooria:',
+	'max-width' => 'Maksimaalne laius:',
+	'max-height' => 'Maksimaalne kõrgus:',
+	'invalid-width' => 'Sobimatu laius',
+	'invalid-height' => 'Sobimatu kõrgus',
+	'no-such-project' => 'Sellist projekti ei ole',
+	'no-images' => 'Selles kategoorias ei ole pilte',
+	'zip-failed' => 'ZIP-faili loomine nurjus',
+	'download-info' => '{{mitmuse:  $1 |On üks pilt|On  $1  pilti}}, mille hinnanguline suurus on $2',
+	'download' => 'Laadi alla',
+);
+
 /** Basque (euskara)
  * @author An13sa
  */
@@ -740,8 +780,17 @@ $messages['fi'] = array(
  */
 $messages['fo'] = array(
 	'title' => 'Download av myndum eftir bólki',
+	'subtitle' => 'Tann lætti mátin at taka niður myndirnar í einum bólki',
 	'project' => 'Verkætlan:',
 	'category' => 'Bólkur:',
+	'max-width' => 'Størst møguliga víddin',
+	'max-height' => 'Mest loyvda hædd:',
+	'invalid-width' => 'Ikki loyvd vídd',
+	'invalid-height' => 'Ikki loyvd hædd',
+	'no-such-project' => 'Tað er ongin sovorðin verkætlan',
+	'no-images' => 'Tað eru ongar myndir í hasum bólkinum',
+	'category-is-url' => "Navnið á bólkinum, ið tú skrivaði, líkist meira einum URL'i. Tú mást skriva nágreiniliga navnið á bólkinum, ikki internet adressuna.",
+	'category-contains-namespace' => 'Tað sær út sum um tú hevur tikið navnaøkið við saman við bólka heitinum. Við tí givna heitinum, so hevði síðan verði tøk sum [[Bólkur:$1]].',
 );
 
 /** French (français)
@@ -788,6 +837,22 @@ ou un autre miroir GNU, voyez
 	'scaling-width' => ", mis à l'échelle avec une largeur maximale de $1 {{plural:$1|pixel|pixels}}",
 	'scaling-height' => ", mis à l'échelle avec une hauteur maximale de $1 {{plural:$1|pixel|pixels}}",
 	'scaling-both' => ", mis à l'échelle avec une taille maximale de $1x$2 pixels",
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'project' => 'Projèt :',
+	'category' => 'Catègorie :',
+	'max-width' => 'Largior maximon :',
+	'max-height' => 'Hôtior maximon :',
+	'invalid-width' => 'Largior envalida',
+	'invalid-height' => 'Hôtior envalida',
+	'download' => 'Tèlèchargiér',
+	'scaling-width' => ', betâ a l’èchiéla avouéc na largior maximon de $1 pixèl{{plural:$1||s}}',
+	'scaling-height' => ', betâ a l’èchiéla avouéc n’hôtior maximon de $1 pixèl{{plural:$1||s}}',
+	'scaling-both' => ', betâ a l’èchiéla avouéc na talye maximon de $1 x $2 pixèls',
 );
 
 /** Galician (galego)
@@ -1031,6 +1096,54 @@ o de un altere speculo de GNU, vide
 	'scaling-both' => ', scalate a un dimension maxime de $1 × $2 pixels',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'title' => 'Pengunduhan gambar menurut kategori',
+	'subtitle' => 'Cara mudah mengunduh gambar dalam sebuah kategori',
+	'project' => 'Proyek:',
+	'category' => 'Kategori:',
+	'thumbnailing' => 'Membuat gambar mini',
+	'max-width' => 'Lebar maksimum:',
+	'max-height' => 'Tinggi maksimum:',
+	'invalid-width' => 'Lebar tidak sah',
+	'invalid-height' => 'Tinggi tidak sah',
+	'no-such-project' => 'Tidak ada proyek seperti itu',
+	'no-images' => 'Tidak ada gambar di kategori tersebut',
+	'category-is-url' => 'Nama kategori yang dimasukkan tampak seperti URL. Anda perlu memasukkan nama kategorinya, bukan URL-nya.',
+	'category-contains-namespace' => 'Anda tampaknya memasukkan ruang sama beserta nama kategorinya. Dengan nama seperti itu, halaman ini akan tertampil sebagai [[Category:$1]].',
+	'zip-failed' => 'Pembuatan zip gagal',
+	'image-area-too-big' => '$1 terlalu besar untuk dijadikan gambar ini. Pakai ukuran penuh.',
+	'download-info' => '{{plural: $1|Ada satu gambar|Ada $1 gambar}}, dengan ukuran kira-kira $2',
+	'download' => 'Unduh',
+	'readme-contents' => 'Berkas lampiran $4 berisi
+gambar di kategori $1 ( $2 )$3.
+
+== Cara mengunduh semua gambar terdaftar ==
+Lama pengunduhan bisa bervariasi mulai dari beberapa menit hingga beberapa jam.
+
+Windows:
+ Ekstrak semua berkas di folder yang sama dan jalankan $5
+ $6
+Linux/Mac OS
+ Ekstrak semua berkas dan buka sebuah terminal di folder tersebut. Jalankan sh $5',
+	'non-bundled-wget' => 'Catatan: Versi ini tidak mencakup wget untuk Windows. Anda perlu melakukan dekompres ke sebuah folder berisi wget.exe atau pasang wget di PATH',
+	'wget-info' => 'Berkas ini berisikan salinan wget $1 (untuk platform Windows). Wget adalah Perangkat Lunak Bebas,
+di bawah persyaratan LISENSI PUBLIK UMUM GNU versi 3.
+Ada salinan lisensi di bawah yang juga tersedia di http://www.gnu.org/licenses/gpl-3.0.txt
+
+Jika Anda ingin mendapatkan kode sumber program ini, Anda bisa mengunduhnya dari
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+atau GNU Mirror lainnya, lihat
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', dibesarkan hingga lebar maksimum $1 {{plural:$1|piksel|piksel}}',
+	'scaling-height' => ', dibesarkan hingga tinggi maksimum $1 {{plural:$1|piksel|piksel}}',
+	'scaling-both' => ', dibesarkan hingga ukuran maksimum $1x$2 piksel',
+);
+
 /** Italian (italiano)
  * @author Gianfranco
  * @author ZioNicco
@@ -1131,11 +1244,54 @@ GNU GENERAL PUBLIC LICENSE version 3 の条項の下にあります。
 	'scaling-both' => 'サイズの最大値 $1x$2ピクセルに拡大縮小し、',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'title' => 'Ngundhuh gambar miturut katègori',
+	'subtitle' => 'Cara mayar kanggo ngundhuh gambar saka sawiji katègori',
+	'project' => 'Proyèk:',
+	'category' => 'Katégori:',
+	'thumbnailing' => 'Nggawé gambar mini',
+	'max-width' => 'Ambané maksimum:',
+	'max-height' => 'Dhuwuré maksimum:',
+	'invalid-width' => 'Ambané ora sah',
+	'invalid-height' => 'Dhuwuré ora sah',
+	'no-such-project' => 'Ora ana proyèk kaya ngono',
+	'no-images' => 'Ora ana gambar nèng katègori kuwi',
+	'category-is-url' => 'Jeneng katègori sing diawèhaké kaya-kayané URL. Sampéyan kudu nglebokaké jeneng katègoriné, dudu URLé.',
+	'category-contains-namespace' => 'Kaya-kayané Sampéyan nyartakaké bilik jenengé nèng jeneng katégoriné. Mawa jeneng kaya kuwi, kacané kuwi bakal sumadhiya dadi [[Category:$1]].',
+	'zip-failed' => 'Gawé zip ora dadi',
+	'image-area-too-big' => '$1 kagedhèn kanggo didadèkaké gambar mini. Nganggoa ukuran kebak.',
+	'download-info' => '{{plural: $1|Ana sak gambar|Ana $1 gambar}}, sing gedhéné kira-kira $2',
+	'download' => 'Undhuh',
+	'readme-contents' => 'Berkas kalampiraké $4 kaisi
+gambar-gambar nèng katégori $1 ( $2 )$3.
+
+==Tata cara ngundhuh kabèh gambar sing kadaptar==
+Wektuné ngundhuh mungkin béda-béda saka pirang-pirang menit tekan pirang-pirang jam.
+
+Windows:
+ Tokaké kabèh berkas nèng polder sing padha lan lakokaké $5
+ $6
+Linux/Mac OS
+ Tokaké kabèh berkas lan bukak terminal nèng polder kuwi. Lakokaké sh $5',
+	'non-bundled-wget' => 'Cathetan: Vérsi iki ora kalebu wget kanggo Windows. Sampéyan bakal kudu ndékomprès nèng polder mawa wget.exe utawa malah pasang waé wget nèng PATH',
+	'scaling-width' => ', digedhékaké tekan jembar maksimum $1 {{plural:$1|piksel|piksel}}',
+	'scaling-height' => ', digedhékaké tekan dhuwur maksimum $1 {{plural:$1|piksel|piksel}}',
+	'scaling-both' => ', digedhékaké tekan gedhé maksimum $1x$2 piksel',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
 $messages['ka'] = array(
+	'project' => 'პროექტი:',
 	'category' => 'კატეგორია:',
+	'max-width' => 'მაქსიმალური სიგანე:',
+	'max-height' => 'მაქსიმალური სიმაღლე:',
+	'invalid-width' => 'არასწორი სიგანე',
+	'invalid-height' => 'არასწორი სიმაღლე',
 	'download' => 'ჩამოტვირთვა',
 );
 
@@ -1244,6 +1400,7 @@ udder och vun ander Schpeejel-ẞööver. Luuer op:
 $messages['ku-latn'] = array(
 	'project' => 'Proje:',
 	'category' => 'Kategorî:',
+	'download' => 'Daxîne',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1280,6 +1437,25 @@ $messages['lt'] = array(
 	'project' => 'Projektas:',
 	'category' => 'Kategorija:',
 	'download' => 'Atsisiųsti',
+);
+
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'title' => 'Lejupielādēt attēlus pēc kategorijas',
+	'subtitle' => 'Viegls veids, kā lejupielādēt attēlus kategorijā',
+	'project' => 'Projekts:',
+	'category' => 'Kategorija:',
+	'thumbnailing' => 'Sīktēli',
+	'max-width' => 'Maksimālais platums:',
+	'max-height' => 'Maksimālais augstums:',
+	'invalid-width' => 'Nederīgs platums',
+	'invalid-height' => 'Nederīgs augstums',
+	'no-such-project' => 'Šāds projekts nepastāv',
+	'no-images' => 'Šajā kategorijā nav attēlu',
+	'category-is-url' => 'Ievadītais kategorijas nosaukums izskatās pēc URL. Jums jāievada kategorijas nosaukums, nevis tās URL.',
+	'download' => 'Lejupielādēt',
 );
 
 /** Macedonian (македонски)
@@ -1498,7 +1674,7 @@ $messages['or'] = array(
 	'category-contains-namespace' => 'ଏହା ଲାଗୁଛି ଯେ ଆପଣ ଶ୍ରେଣୀ ନାମ ସହ ନାମଟି ମଧ୍ୟ ଯୋଡି ଦେଇଛନ୍ତି । ଦିଆଯାଇଥିବା ନାଁ ଅନୁସାରେ, ପୃଷ୍ଠାଟି [[Category:$1]] ଅନୁସାରେ ଉପଲବ୍ଧ ହେବ ।',
 	'zip-failed' => 'ଜିପ କରିବାରେ ବିଫଳ',
 	'image-area-too-big' => 'ଛୋଟ ଦେଖଣା ତିଆରି କରିବା ପାଇଁ $1 ବହୁତ ବଡ ହେଇ ଯାଉଛି । ପୁରା ସାଇଜ ବ୍ୟବହାର କରି ।',
-	'download-info' => '{{plural: $1|ସେଠାରେ ଗୋଟିଏ ଛବି ଅଛି|ସେଠାରେ $1ଟି ଛବି ଅଛି}},',
+	'download-info' => '{{plural: $1|ସେଠାରେ ଗୋଟିଏ ଛବି ଅଛି|ସେଠାରେ $1ଟି ଛବି ଅଛି}}, ଯାହାର ଆକାର ହରହାରି $2',
 	'download' => 'ଡାଉନଲୋଡ଼',
 	'scaling-width' => ', ଅଧିକତମ ଓସାର $1 {{plural:$1|pixel|pixels}} ଯାଏଁ ଲମ୍ବିଯାଇଛି',
 	'scaling-height' => ', ଅଧିକତମ ଉଚ୍ଚତା $1 {{plural:$1|pixel|pixels}} ଯାଏଁ ଲମ୍ବିଗଲା',
@@ -1871,13 +2047,26 @@ $messages['sv'] = array(
 	'download' => 'Ladda ned',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'project' => 'Mradi:',
+	'category' => 'Jamii:',
+	'no-such-project' => 'Hakuna mradi kama huo',
+	'download' => 'Pakua',
+);
+
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
+ * @author Karthi.dr
  * @author Shanmugamp7
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'title' => 'பகுப்புப்படி படங்களை பதிவிறக்கு',
+	'subtitle' => 'ஒரு பகுப்பில் படங்களைத் தரவிறக்கம் செய்ய எளிய வழி',
 	'project' => 'திட்டம்:',
 	'category' => 'பகுப்பு:',
 	'thumbnailing' => 'வில்லைபடமாக்கல்',
@@ -1887,6 +2076,7 @@ $messages['ta'] = array(
 	'invalid-height' => 'செல்லாத உயரம்',
 	'no-such-project' => 'அப்படிப்பட்ட திட்டம் ஒன்றுமில்லை',
 	'no-images' => 'அந்த பகுப்பில் எந்த படமும் இல்லை',
+	'category-is-url' => 'வழங்கப்பட்ட பகுப்பின் பெயர் ஓர் உரலியைப் போல் தோற்றமளிக்கின்றது. நீங்கள் பகுப்பின் பெயரையே குறிப்பிட வேண்டும், அதனுடைய உரலியை அல்ல.',
 	'download' => 'பதிவிறக்கு',
 );
 
@@ -2055,10 +2245,11 @@ hoặc một Kho phần mềm GNU khác; xem
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  * @author Mys 721tx
+ * @author Simon Shek
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
-	'title' => '按照分类下载图片',
+	'title' => '按分类下载图片',
 	'subtitle' => '从一个分类中下载图片的简单方式',
 	'project' => '项目：',
 	'category' => '分类：',
@@ -2097,6 +2288,7 @@ Linux/Mac OS
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'title' => '按分類下載圖片',
 	'category' => '分類:',
 	'download' => '下載',
 );

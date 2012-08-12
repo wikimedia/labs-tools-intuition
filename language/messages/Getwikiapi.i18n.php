@@ -234,6 +234,15 @@ $messages['fr'] = array(
 	'output' => 'Sortie pour « $1 »',
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'formats-heading' => 'Formats de sortia',
+	'input' => 'Entrâs',
+	'output' => 'Sortia por « $1 »',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -347,6 +356,17 @@ $messages['ja'] = array(
 	'output' => '"$1" の検索結果',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'formats-heading' => 'Format weton',
+	'input' => 'Lebon',
+	'label-wikiids' => 'Pangidèntipikasi wiki',
+	'no-matches' => 'Ora ana sing cocok "$1"',
+	'output' => 'Weton kanggo "$1"',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author T-Rithy
  */
@@ -359,6 +379,10 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'formats-heading' => '출력 형식',
+	'input' => '입력',
+	'label-wikiids' => '위키 식별자',
+	'no-matches' => '"$1"(와)과 일치하지 않습니다',
 	'output' => '"$1"에 대한 출력',
 );
 
@@ -424,6 +448,15 @@ $messages['ms'] = array(
 	'output' => 'Output untuk "$1"',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'label-wikiids' => 'Identifikaturi tal-wiki',
+	'no-matches' => 'Xejn ma qabel ma\' "$1"',
+	'output' => 'Riżultat għal "$1"',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'formats-heading' => 'utdataformater',
@@ -454,6 +487,15 @@ $messages['no'] = array(
 	'label-wikiids' => 'Wiki-identifikatorer',
 	'no-matches' => 'Ingenting passet med «$1»',
 	'output' => 'Utdata for «$1»',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'label-wikiids' => 'ଉଇକି ଚିହ୍ନଟକାରୀ',
+	'no-matches' => 'କିଛି ମିଶିଲା ନାହିଁ "$1"',
+	'output' => '"$1" ପାଇଁ ଫଳାଫଳ',
 );
 
 /** Polish (polski)
@@ -570,10 +612,15 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Balajijagadesh
  * @author Logicwiki
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'formats-heading' => 'வெளியீடு வடிவங்கள்',
 	'input' => 'உள்ளீடு',
+	'no-matches' => '"$1" என்பதுடன் எதுவும் ஒத்துப் போகவில்லை',
+	'output' => '"$1" என்பதற்கான வருவிளைவு',
 );
 
 /** Telugu (తెలుగు)

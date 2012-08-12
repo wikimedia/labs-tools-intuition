@@ -142,7 +142,7 @@ $messages['ar'] = array(
 	'th-method' => 'وسيلة',
 	'option-tusc' => 'TUSC (التحميل التلقائي)',
 	'option-manual' => 'رفع يدوي',
-	'preview' => 'عاين',
+	'preview' => 'عرض مسبق',
 	'translate' => 'ترجم',
 	'translate-instructions' => 'يتم قبول المدخلات كأسماء ملفات (على سبيل المثال "$1") أو روابط مواقع كاملة (على سبيل المثال "$2"). إذا تم أستخدام الخيار الأول، سيتم أعتبار ويكيميديا كمصدر. لترجمة SVG من موقع أو ويكي آخر، وجب عليك أستخدام صيغة الرابط الإلكتروني الكامل.',
 	'svginput-label' => 'ملف SVG',
@@ -332,6 +332,7 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Nasir8891
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -362,6 +363,7 @@ $messages['bn'] = array(
 	'author-complete' => 'অনুগ্রহ করে লেখকের তথ্য সম্পূর্ণ করুন!',
 	'preview-hide' => 'প্রাকদর্শন আড়ালে রাখো',
 	'preview-refresh' => 'পুনরায় প্রাকদর্শন দেখাও',
+	'error-must-accept' => 'সরাসরি আপলোড পদ্ধতি ব্যবহার করে অগ্রসর হওয়ার জন্য আপনাকে অবশ্যই নীতিমালাটি মেনে নিতে হবে।',
 	'description-license' => 'বিবরণ এবং লাইসেন্স নির্বাচন',
 	'finalise' => 'বিস্তারিত চূড়ান্ত',
 );
@@ -467,6 +469,7 @@ $messages['ckb'] = array(
 
 /** Czech (česky)
  * @author Jezevec
+ * @author PSJG-Tyler
  */
 $messages['cs'] = array(
 	'error-nothing' => 'Nic k překladu.',
@@ -474,6 +477,7 @@ $messages['cs'] = array(
 	'error-unexpected' => 'Došlo k neočekávané chybě.',
 	'error-notfound' => 'Z poskytnuté URL nelze načíst SVG soubor.',
 	'error-upload' => 'Při nahrávání došlo k chybě.',
+	'begin-translation' => 'Nový překlad',
 	'th-original' => 'Originál',
 	'th-translation' => 'Překlad',
 	'th-language' => 'Jazyk',
@@ -696,6 +700,23 @@ $messages['es'] = array(
 	'finalise' => 'Finalizar detalles',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'begin-translation' => 'Alusta tõlkimist',
+	'th-translation' => 'Tõlge',
+	'th-language' => 'Keel',
+	'th-username' => 'Kasutajanimi',
+	'th-password' => 'Parool',
+	'th-method' => 'Viis',
+	'preview' => 'Eelvaade',
+	'translate' => 'Tõlgi',
+	'svginput-label' => 'SVG-fail',
+	'preview-hide' => 'Peida eelvaade',
+	'preview-refresh' => 'Uuenda eelvaade',
+);
+
 /** Basque (euskara)
  * @author An13sa
  */
@@ -853,6 +874,27 @@ $messages['fr'] = array(
 	'error-tusc-failed' => "La validation TUSC a échoué : nom d'utilisateur ou mot de passe incorrect.",
 	'description-license' => 'Sélectionnez la description et la licence',
 	'finalise' => 'Finaliser les détails',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'error-nothing' => 'Ren a traduire.',
+	'error-notsvg' => 'Pas un fichiér SVG.',
+	'error-unexpected' => 'Na fôta emprèvua est arrevâye.',
+	'th-original' => 'Originâl',
+	'th-translation' => 'Traduccion',
+	'th-language' => 'Lengoua',
+	'th-username' => 'Nom d’utilisator',
+	'th-password' => 'Contresegno',
+	'th-method' => 'Mètoda',
+	'option-tusc' => 'TUSC (tèlèchargement ôtomatico)',
+	'option-manual' => 'Tèlèchargement manuèl',
+	'translate' => 'Traduire',
+	'svginput-label' => 'Fichiér SVG',
+	'uploading' => 'Tèlèchargement',
+	'preview-hide' => 'Cachiér la prèvisualisacion',
 );
 
 /** Galician (galego)
@@ -1210,6 +1252,59 @@ $messages['ja'] = array(
 	'error-must-accept' => '直接アップロードを続行するには、利用規約に同意する必要があります。',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'error-tryagain' => '$1 Pencèt tombol balik nèng pramban Sampéyan kanggo njajal manèh.',
+	'error-nothing' => 'Ora ana sing diterjemahaké.',
+	'error-notsvg' => 'Udu berkas SVG.',
+	'error-unexpected' => 'Ana kasalahan sing ora kinira.',
+	'error-notfound' => 'Berkas SVG ora bisa dijupuk saka URL sing diawèhaké.',
+	'error-upload' => 'Ana kasalahan nalika ngunggah.',
+	'begin-translation' => 'Lekas terjemahaké',
+	'th-original' => 'Asli',
+	'th-translation' => 'Terjamahan',
+	'th-language' => 'Basa',
+	'th-username' => 'Jeneng panganggo',
+	'th-password' => 'Tembung sandhi',
+	'th-method' => 'Tata cara',
+	'option-tusc' => 'TUSC (ngunggah otomatis)',
+	'option-manual' => 'Ngunggah manual',
+	'preview' => 'Pratayang',
+	'translate' => 'Terjemahna',
+	'svginput-label' => 'Berkas SVG',
+	'stats-footer' => 'Piranti iki wis dianggo kanggo nerjemahaké kira-kira $1 berkas kawit $2.',
+	'uploading' => 'Ngunggah',
+	'upload-complete' => 'Pangunggahan rampung kanthi sukses. Gambar saiki kuduné nèng $1',
+	'editdescriptionpage' => 'Sunting kaca dèskripsi anyar',
+	'disclaimer' => 'Sebagéyan data anonim bakal diklempakaké sacara pribadi kanggo panjangka statistik. Yèn sumadhiya, jeneng panganggo TUSC uga bakal direkam kanggo ngéwangi yèn ana kadadéan pangrusakan. Tembung sandhi ora bakal direkam.',
+	'author-complete' => 'Mangga lengkapi informasi panganggit!',
+	'preview-hide' => 'Dhelikna pratayang',
+	'preview-refresh' => 'Anyari pratayang',
+	'error-must-accept' => 'Kanggo mbanjuraké mawa unggahan langsung, Sampéyan kudu nrima syarat panganggoan sing sumadhiya.',
+	'error-tusc-failed' => 'Pangesahan TUSC ora kena: jeneng pengguna lan tembung sandhi salah.',
+	'description-license' => 'Pilih dèskripsi lan lisènsi',
+	'finalise' => 'Rampungaké rincian',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'error-notsvg' => 'ეს არ არის SVG ფაილი.',
+	'begin-translation' => 'თარგმნის დაწყება',
+	'th-original' => 'საწყისი',
+	'th-translation' => 'თარგმანი',
+	'th-language' => 'ენა',
+	'th-username' => 'მომხმარებლის სახელი',
+	'th-password' => 'პაროლი',
+	'th-method' => 'მეთოდი',
+	'preview' => 'წინასწარი გადახედვა',
+	'translate' => 'თარგმნა',
+	'svginput-label' => 'SVG ფაილი',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  * @author វ័ណថារិទ្ធ
@@ -1246,6 +1341,35 @@ $messages['km'] = array(
 	'error-tusc-failed' => 'សុពលកម្ម TUSC បរាជ័យ៖ អត្តនាមឬពាក្យសំងាត់មិនត្រឹមត្រូវ។',
 	'description-license' => 'ជ្រើសរើសការពណ៌នានិងនិងអាជ្ញាបណ្ឌ។',
 	'finalise' => 'ព័ត៌មានលំអិតចុងក្រោយ',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'error-nothing' => '아무 번역도 없습니다.',
+	'error-notsvg' => 'SVG 파일이 아닙니다.',
+	'error-unexpected' => '예기치 않은 오류가 발생했습니다.',
+	'error-notfound' => '제공한 URL에서 SVG 파일을 찾을 수 없습니다.',
+	'error-upload' => '올리는 데 오류가 났습니다.',
+	'begin-translation' => '번역 시작',
+	'th-original' => '원본',
+	'th-translation' => '번역',
+	'th-language' => '언어',
+	'th-username' => '사용자 이름',
+	'th-password' => '비밀번호',
+	'th-method' => '방식',
+	'option-tusc' => 'TUSC (자동 올리기)',
+	'option-manual' => '수동 올리기',
+	'preview' => '미리 보기',
+	'translate' => '번역',
+	'svginput-label' => 'SVG 파일',
+	'uploading' => '올리는 중',
+	'editdescriptionpage' => '새 설명 문서 편집',
+	'author-complete' => '저자 정보를 완료하세요!',
+	'preview-hide' => '미리 보기 숨기기',
+	'preview-refresh' => '미리 보기 새로 고침',
+	'description-license' => '설명과 라이선스 선택',
 );
 
 /** Colognian (Ripoarisch)
@@ -1513,15 +1637,35 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'error-tryagain' => '$1 Agħfas il-buttuna "Lura" tal-browżer sabiex terġa\' tipprova.',
+	'error-nothing' => "M'hemm xejn x'tittraduċi.",
+	'error-notsvg' => 'Mhuwiex fajl SVG.',
 	'error-unexpected' => 'Seħħ żball mhux mistenni.',
 	'error-notfound' => 'Il-fajl SVG ma setax jiġi miksub mill-URL mogħti.',
+	'error-upload' => 'Kien hemm żball fit-tlugħ tal-fajl.',
 	'begin-translation' => 'Ibda t-traduzzjoni',
 	'th-original' => 'Oriġinali',
 	'th-translation' => 'Traduzzjoni',
 	'th-language' => 'Lingwa',
+	'th-username' => 'Isem tal-utent',
+	'th-password' => 'Password',
+	'th-method' => 'Metodu',
+	'option-tusc' => 'TUSC (tlugħ awtomatiku)',
+	'option-manual' => 'Tlugħ manwali',
 	'preview' => 'Dehra proviżorja',
 	'translate' => 'Ittraduċi',
 	'svginput-label' => 'Fajl SVG',
+	'stats-footer' => 'Din l-għodda ġiet użata sabiex tittraduċi bejn $1 fajls mill-$2',
+	'uploading' => "Qed itella'",
+	'upload-complete' => 'It-tlugħ tal-fajl irnexxa. L-istampa għandha tkun fl-indirizz $1',
+	'editdescriptionpage' => "Immodifika l-paġna ta' diskussjoni l-ġdida",
+	'author-complete' => 'Kompli l-informazzjoni dwar l-awtur!',
+	'preview-hide' => 'Aħbi d-dehra proviżorja',
+	'preview-refresh' => 'Aġġorna d-dehra proviżorja',
+	'error-must-accept' => "Sabiex tkompli bi tlugħ dirett inti trid taċċetta t-termini ta' użu provduti.",
+	'error-tusc-failed' => 'Il-validazzjoni TUSC falliet: l-isem tal-utent jew il-password huma ħżiena.',
+	'description-license' => 'Agħżel deskrizzjoni u liċenzja',
+	'finalise' => 'Iffinalizza d-dettalji',
 );
 
 /** Mazanderani (مازِرونی)
@@ -1683,6 +1827,36 @@ $messages['no'] = array(
 	'error-tusc-failed' => 'TUSC-validering feilet: feil brukernavn eller passord.',
 	'description-license' => 'Velg beskrivelse og lisens',
 	'finalise' => 'Ferdigstill detaljer',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'error-nothing' => 'ଅନୁବାଦ କରିବା ପାଇଁ କିଛି ନାହିଁ ।',
+	'error-unexpected' => 'କିଛି ଗୋଟେ ଅଜଣା ଅସୁବିଧା ହେଲା ।',
+	'error-upload' => 'ଅପଲୋଡ କଲାବେଳେ ଅସୁବିଧା ଦେଖା ଦେଲା ।',
+	'begin-translation' => 'ଅନୁବାଦ ଆରମ୍ଭ କରିବେ',
+	'th-original' => 'ପ୍ରକୃତ',
+	'th-translation' => 'ଅନୁବାଦ',
+	'th-language' => 'ଭାଷା',
+	'th-username' => 'ବ୍ୟବହାରକାରୀ ନାମ',
+	'th-password' => 'ପାସୱାର୍ଡ଼',
+	'th-method' => 'ଧାରା',
+	'option-tusc' => 'TUSC (ଆପେ ଆପେ ଅପଲୋଡ)',
+	'option-manual' => 'ଆପଣ ନିଜଦ୍ଵାରା ଅପଲୋଡ କରିବେ',
+	'preview' => 'ଦେଖଣା',
+	'translate' => 'ଅନୁବାଦ',
+	'uploading' => 'ଅପଲୋଡ଼ ହେଉଛି',
+	'upload-complete' => 'ଅପଲୋଡ ସଫଳ ହେଲା । ଛବିଟି ବର୍ତ୍ତମାନ $1ରେ ଅଛି ।',
+	'editdescriptionpage' => 'ନୂଆ ବିବରଣୀ ପୃଷ୍ଠାଟିକୁ ବଦଳାଇବେ',
+	'author-complete' => 'ଲେଖକଙ୍କ ବିଷୟରେ ଥିବା ତଥ୍ୟଗୁଡିକୁ ସମ୍ପୁର୍ଣ୍ଣ କରନ୍ତୁ !',
+	'preview-hide' => 'ଦେଖଣାଟିକୁ ଲୁଚାଇବେ',
+	'preview-refresh' => 'ଦେଖଣାଟିକୁ ରିଫ୍ରେସ କରିବେ',
+	'error-must-accept' => 'ଆପଣଙ୍କୁ ସିଧାସଳଖ ଅପଲୋଡ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ବ୍ୟବହାର ନିୟମ ମାନିବାକୁ ପଡିବ ।',
+	'error-tusc-failed' => 'TUSC ବୈଧତା ବିଫଳ ହେଲା: ବ୍ୟବହାରକାରୀନାମ କିମ୍ବା ପାସୱାର୍ଡ ଭୁଲ ଅଛି ।',
+	'description-license' => 'ବର୍ଣ୍ଣନା ଏବଂ ଲାଇସେନ୍ସ ବାଛନ୍ତୁ',
+	'finalise' => 'ବିବରଣୀ ନିଶ୍ଚିତ କରନ୍ତୁ',
 );
 
 /** Deitsch (Deitsch)
@@ -2095,14 +2269,39 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
+ * @author Karthi.dr
  * @author செல்வா
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'error-tryagain' => '$1 மீண்டும் முயற்சிக்க உங்கள் மேலோடியின் பின்செல்லும் ஆளியைச் சொடுக்கவும்.',
 	'error-nothing' => 'மொழிபெயர்க்க எதுவும் இல்லை',
+	'error-notsvg' => 'SVG கோப்பு கிடையாது',
+	'error-unexpected' => 'எதிர் பாராத தவறு நடந்தது',
+	'error-notfound' => 'நீங்கள் கொடுத்த உரலியில் இருந்து SVG கோப்புகளை பெற முடியவில்லை',
+	'error-upload' => 'பதிவேற்றுவதில் தவறு நடந்துள்ளது',
+	'begin-translation' => 'மொழிபெயர்பை தொடங்கு',
+	'th-original' => 'மூலம்',
+	'th-translation' => 'மொழிபெயர்ப்பு',
 	'th-language' => 'மொழி',
 	'th-username' => 'பயனர் பெயர்',
 	'th-password' => 'கடவுச்சொல்',
+	'th-method' => 'செய்முறை',
+	'option-tusc' => 'TUSC (தானியங்கி பதிவேற்றம்)',
+	'option-manual' => 'கைமுறை பதிவேற்றம்',
+	'preview' => 'முன்தோற்றம்',
 	'translate' => 'மொழிமாற்று',
+	'svginput-label' => 'SVG கோப்பு',
+	'stats-footer' => '$2 என்ற திகதியிலிருந்து அண்ணளவாக $1 கோப்புகளை மொழிபெயர்க்க இக்கருவி பயன்படுத்தப்பட்டுள்ளது.',
+	'uploading' => 'பதிவேற்றபடுகிறது',
+	'upload-complete' => 'தரவேற்றம் வெற்றிகரமாக முடிந்தது. $1 இல் படம் இருக்கும்.',
+	'editdescriptionpage' => 'புதிய விளக்க பக்கத்தை தொகு',
+	'author-complete' => 'ஆசிரியர் விவரங்களை பூர்த்தி செய்க',
+	'preview-hide' => 'முன்தோற்றத்தை மறைக்கவும்',
+	'preview-refresh' => 'முன்தோற்றதை புதுப்பி',
+	'description-license' => 'விளக்கவுரை மற்றும் உரிமத்தை தேர்வு செய்க',
+	'finalise' => 'விவரங்களை இறுதியாக்குக',
 );
 
 /** Telugu (తెలుగు)
@@ -2113,6 +2312,7 @@ $messages['te'] = array(
 	'error-nothing' => 'అనువదించడానికి ఏమీలేదు.',
 	'error-notsvg' => 'అది SVG దస్త్రం కాదు.',
 	'error-unexpected' => 'ఏదో గుర్తుతెలియని పొరపాటు జరిగింది.',
+	'error-upload' => 'ఎక్కించడంలో ఏదో పొరపాటు జరిగింది.',
 	'begin-translation' => 'అనువాదం మొదలుపెట్టండి',
 	'th-original' => 'అసలు',
 	'th-translation' => 'అనువాదం',

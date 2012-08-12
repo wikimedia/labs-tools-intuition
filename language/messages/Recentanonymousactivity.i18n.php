@@ -207,6 +207,20 @@ $messages['ja'] = array(
 	'title' => '最近の匿名の活動',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'title' => 'Kagiyatan ora kadaptar durung suwé iki.',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'title' => '최근 익명 활동',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -235,6 +249,13 @@ $messages['ms'] = array(
 	'title' => 'Kegiatan terbaru oleh pengguna tanpa nama',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'title' => 'Attività anonima riċenti',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
@@ -255,6 +276,13 @@ $messages['nl'] = array(
  */
 $messages['no'] = array(
 	'title' => 'Siste anonyme aktivitet',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'title' => 'ବର୍ତ୍ତମାନର ଯାହିତାହି ବ୍ୟବହାରସମୂହ',
 );
 
 /** Polish (polski)
@@ -319,6 +347,13 @@ $messages['sr-el'] = array(
  */
 $messages['sv'] = array(
 	'title' => 'Senaste anonyma aktivitet',
+);
+
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'title' => 'அண்மைய அடையாளம் காட்டாத நடவடிக்கை',
 );
 
 /** Telugu (తెలుగు)

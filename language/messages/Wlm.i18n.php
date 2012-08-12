@@ -140,6 +140,27 @@ $messages['qqq'] = array(
 	'ccaa-heading' => 'Header for the autonomous communities column',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'title' => 'WLM-lêers',
+	'file' => 'Beeld',
+	'monument-type' => 'Monumenttipe',
+	'monument-id' => 'Monument-ID',
+	'province' => 'Provinsie',
+	'comarque' => 'Comarca',
+	'competes' => 'In wedstryd',
+	'author' => 'Outeur',
+	'upload-time' => 'Oplaaityd',
+	'deleted' => 'Geskrap ($1)',
+	'concursa' => 'Neem deel aan WLM',
+	'no-concursa' => 'Buite WLM-wedstryd',
+	'not-available' => 'Nie beskikbaar nie',
+	'date-unknown' => 'Onbekend',
+	'total-images' => 'Totale aantal beelde: $1',
+);
+
 /** Arabic (العربية)
  * @author DRIHEM
  */
@@ -316,10 +337,22 @@ $messages['be-tarask'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Nasir8891
  */
 $messages['bn'] = array(
+	'title' => 'ডব্লিউএলএম ফাইলসমূহ',
 	'file' => 'চিত্র',
+	'monument-type' => 'মনুমেন্টের ধরন',
+	'monument-id' => 'মনুমেন্ট আইডি',
+	'province' => 'প্রোভিন্স',
+	'comarque' => 'কমাকা',
+	'competes' => 'সম্পূর্ণ',
 	'author' => 'লেখক',
+	'upload-time' => 'আপলোড সময়',
+	'deleted' => 'অপসারণ ($1)',
+	'concursa' => 'WLM-এ অংশগ্রন করেছেন',
+	'no-concursa' => 'WLM প্রতিযোগীতার বাইরে',
+	'not-available' => 'পাওয়া যাচ্ছে না',
 	'date-unknown' => 'অজানা',
 	'show-images-all' => 'সব চিত্র দেখাও',
 	'id-none' => '(কিছু নাই)',
@@ -680,11 +713,40 @@ $messages['es'] = array(
 );
 
 /** Estonian (eesti)
+ * @author Avjoska
  * @author Pikne
  */
 $messages['et'] = array(
 	'title' => 'Projekti WLM failid',
+	'file' => 'Pilt',
+	'monument-type' => 'Mälestise tüüp',
+	'monument-id' => 'Mälestise registrinumber',
+	'author' => 'Autor',
+	'upload-time' => 'Üleslaadimise aeg',
+	'deleted' => 'Kustutatud ($1)',
+	'concursa' => 'Osaleb WLM-il',
+	'no-concursa' => 'Väljaspool WLM-võistlust',
+	'not-available' => 'Ei ole saadaval',
+	'date-unknown' => 'Tundmatu',
+	'total-images' => 'Pilte kokku: $1',
+	'view-uncategorized-images' => 'Näita kategoriseerimata pilte',
+	'provide-id' => 'Too ära mälestise registrinumber, et näha selle jaoks olemasolevaid andmeid',
+	'show-images-all' => 'Näita kõiki pilte',
+	'show-images-removed' => 'Näita võistluselt eemaldatud pilte',
+	'search-monuments' => 'Otsi mälestisi',
+	'view-frequency' => 'Populaarsed mälestised',
+	'id-label' => 'Mälestise registrinumber:',
+	'id-none' => '(Puudub)',
+	'monument-heading' => 'Mälestis',
+	'count-heading' => 'Fotod',
+	'bic-list' => 'Loend',
+	'bic-gallery' => 'Galerii',
 	'gallery-header' => 'Mälestist registrinumbriga $1 kujutavad pildid.',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Näita',
+	'bic-list-all' => 'Täielik loend',
+	'unregistered' => 'Registreerimata',
+	'users-list' => 'Vaata',
 );
 
 /** Basque (euskara)
@@ -834,6 +896,42 @@ $messages['fr'] = array(
 	'province-heading' => 'Province',
 	'province-none' => '(inconnu)',
 	'ccaa-heading' => 'CA',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'title' => 'Fichiérs WLM',
+	'file' => 'Émâge',
+	'monument-type' => 'Tipo de monument',
+	'monument-id' => 'Numerô du monument',
+	'province' => 'Province',
+	'comarque' => 'Comârca',
+	'author' => 'Ôtor',
+	'deleted' => 'Suprimâ ($1)',
+	'not-available' => 'Pas disponiblo',
+	'date-unknown' => 'Encognu',
+	'total-images' => 'Soma de les émâges : $1',
+	'show-images-all' => 'Fâre vêre totes les émâges',
+	'view-frequency' => 'Monuments populèros',
+	'view-ccaa' => 'Fâre vêre per comunôtât ôtonoma',
+	'view-province' => 'Fâre vêre per province',
+	'id-label' => 'Numerô du monument :',
+	'id-none' => '(nion)',
+	'monument-heading' => 'Monument',
+	'count-heading' => 'Fotografies',
+	'bic-list' => 'Lista',
+	'bic-gallery' => 'Galerie',
+	'gallery-header' => 'Émâges du monument avouéc lo numerô $1.',
+	'gallery-header-place' => 'Émâges de monuments de $1.',
+	'author-heading' => 'Ôtor',
+	'bic-list-bad' => 'Fâre vêre',
+	'bic-list-all' => 'Lista complèta',
+	'users-list' => 'Fâre vêre',
+	'province-heading' => 'Province',
+	'province-none' => '(encognu)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Galician (galego)
@@ -1085,6 +1183,7 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Aldnonymous
+ * @author Farras
  */
 $messages['id'] = array(
 	'title' => 'file WLM',
@@ -1092,9 +1191,11 @@ $messages['id'] = array(
 	'monument-type' => 'Jenis monumen',
 	'monument-id' => 'Monumen id',
 	'province' => 'Provinsi',
+	'comarque' => 'Comarca',
 	'competes' => 'Bersaing',
 	'author' => 'Penulis',
 	'upload-time' => 'Waktu unggah',
+	'deleted' => 'Dihapus ($1)',
 	'concursa' => 'Mengambil bagian dalam WLM',
 	'no-concursa' => 'Diluar kompetisi WLM',
 	'not-available' => 'Tidak tersedia',
@@ -1104,8 +1205,10 @@ $messages['id'] = array(
 	'provide-id' => 'Berikan id monumen untuk menunjukan data yang tersedia untuk benda itu',
 	'show-images-bad-only' => 'Hanya tunjukan gambar diluar daftar',
 	'show-images-all' => 'Tunjukan semua gambar',
+	'show-images-removed' => 'Tampilkan gambar yang dihapus dari kompetisi ini',
 	'search-monuments' => 'Cari monumen',
 	'view-frequency' => 'Monumen populer',
+	'view-ccaa' => 'Lihat menurut komunitas masing-masing',
 	'view-province' => 'Lihat berdasarkan provinsi',
 	'id-label' => 'Monumen id:',
 	'id-none' => '(Tidak ada)',
@@ -1114,13 +1217,18 @@ $messages['id'] = array(
 	'bic-list' => 'Daftar',
 	'bic-gallery' => 'Galeri',
 	'gallery-header' => 'Gambar untuk monumen dengan id $1',
+	'gallery-header-place' => 'Gambar monumen dari $1.',
 	'wall-of-shame-text' => 'Pembuat dengan jumlah foto tak dikenal',
 	'author-heading' => 'Pembuat',
 	'bic-list-bad' => 'Tampilkan',
 	'bic-list-all' => 'Daftar berkas',
 	'unregistered' => 'Tidak terdaftar',
+	'users-text' => 'Halaman ini menampilkan pemilik karya dengan gambar yang mereka unggah dan ke monumen mana saja',
+	'users-list' => 'Tampilkan',
+	'distict-monuments' => 'Monumen berbeda',
 	'province-heading' => 'Provinsi',
 	'province-none' => '(Tidak diketahui)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Ingush (ГӀалгӀай)
@@ -1223,12 +1331,127 @@ $messages['ja'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'title' => 'Berkas WLM',
+	'file' => 'Gambar',
+	'monument-type' => 'Jinisé monumèn',
+	'monument-id' => 'Id monumèn',
+	'province' => 'Provinsi',
+	'comarque' => 'Comarca',
+	'competes' => 'Tandhing',
+	'author' => 'Panganggit',
+	'upload-time' => 'Wektu ngunggah',
+	'deleted' => 'Dibusak ($1)',
+	'concursa' => 'Melu sarta nèng WLM',
+	'no-concursa' => 'Sajabané lomba WLM',
+	'not-available' => 'Ora sumadhiya',
+	'date-unknown' => 'Ora dingertèni',
+	'total-images' => 'Cacahé gambar: $1',
+	'view-uncategorized-images' => 'Delok gambar sing durung dikategorèkaké',
+	'provide-id' => 'Awèhaké id monumèn kanggo nuduhaké yèn data sumadhiya kanggo barang kuwi',
+	'show-images-bad-only' => 'Tuduhaké thok gambar sing sajabané daptar',
+	'show-images-all' => 'Tuduhaké kabèh gambar',
+	'show-images-removed' => 'Tuduhaké gambar sing kasingkiraké saka lomba iki',
+	'search-monuments' => 'Golèk monumèn',
+	'view-frequency' => 'Monumèn kawentar',
+	'view-ccaa' => 'Delok miturut paguyuban swatantra',
+	'view-province' => 'Delok miturut propinsi',
+	'id-label' => 'Id monumèn:',
+	'id-none' => '(ora ana)',
+	'monument-heading' => 'Monumèn',
+	'count-heading' => 'Poto',
+	'bic-list' => 'Daptar',
+	'bic-gallery' => 'Galèri',
+	'gallery-header' => 'Gambar monumèn mawa id $1.',
+	'gallery-header-place' => 'Gambar monumèn saka $1.',
+	'wall-of-shame-text' => 'Panganggit miturut cacahé poto sing ora dikenal',
+	'author-heading' => 'Panganggit',
+	'bic-list-bad' => 'Tuduhna',
+	'bic-list-all' => 'Daptar jangkep',
+	'unregistered' => 'Ora kadaptar',
+	'users-text' => 'Kaca iki nuduhaké panganggit mawa gambar sing dhéwéké unggah lan nèng monumèn ngendi waé',
+	'users-list' => 'Delokaké',
+	'distict-monuments' => 'Monumèn béda',
+	'province-heading' => 'Propinsi',
+	'province-none' => '(Ora dingertèni)',
+	'ccaa-heading' => 'CC. AA.',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'title' => 'WLM ფაილები',
+	'file' => 'სურათი',
+	'province' => 'პროვინცია',
+	'author' => 'ავტორი',
+	'upload-time' => 'ატვირთვის დრო',
+	'deleted' => 'წაიშალა ($1)',
+	'not-available' => 'არ არის ხელმისაწვდომი',
+	'date-unknown' => 'უცნობი',
+	'total-images' => 'სულ სურათები: $1',
+	'show-images-all' => 'ყველა სურათის ჩვენება',
+	'id-none' => '(არა)',
+	'count-heading' => 'ფოტოგრაფები',
+	'bic-list' => 'სია',
+	'bic-gallery' => 'გალერეა',
+	'author-heading' => 'ავტორი',
+	'bic-list-bad' => 'ჩვენება',
+	'bic-list-all' => 'სრული სია',
+	'unregistered' => 'დაურეგისტრირებელი',
+	'users-list' => 'ხილვა',
+	'province-heading' => 'პროვინცია',
+	'province-none' => '(უცნობი)',
+	'ccaa-heading' => 'CC.AA.',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
 $messages['ko'] = array(
+	'title' => 'WLM 파일',
+	'file' => '그림',
+	'monument-type' => '모멘트 종류',
+	'monument-id' => '모멘트 id',
+	'province' => '지방',
+	'comarque' => '지역',
+	'competes' => '경쟁',
+	'author' => '저자',
+	'upload-time' => '올리기 시간',
+	'deleted' => '삭제함 ($1)',
+	'no-concursa' => '바깥 WLM 경쟁',
+	'not-available' => '사용할 수 없음',
 	'date-unknown' => '알 수 없음',
+	'total-images' => '총 그림 수: $1',
+	'view-uncategorized-images' => '분류하지 않은 그림 보기',
+	'provide-id' => '해당 홍목에 대해 사용할 수 있는 데이터를 보이는 모멘트 id 제공',
+	'show-images-bad-only' => '목록 이외의 그림만 보기',
+	'show-images-all' => '모든 그림 보기',
+	'show-images-removed' => '경쟁에서 제거한 그림 보기',
+	'search-monuments' => '모멘트 찾기',
+	'view-frequency' => '인기 있는 모멘트',
+	'view-ccaa' => '자치 공동체로 보기',
+	'view-province' => '지방으로 보기',
+	'id-label' => '모멘트 id:',
+	'id-none' => '(없음)',
+	'monument-heading' => '모멘트',
+	'count-heading' => '사진 작가',
+	'bic-list' => '목록',
+	'bic-gallery' => '갤러리',
+	'gallery-header' => '$1 id로 된 모멘트에 대한 그림입니다.',
+	'gallery-header-place' => '$1에서 모멘트에 대한 그림입니다.',
+	'author-heading' => '저자',
+	'bic-list-bad' => '보이기',
+	'bic-list-all' => '전체 목록',
+	'unregistered' => '등록하지 않음',
+	'users-list' => '보기',
+	'distict-monuments' => '고유 모멘트',
+	'province-heading' => '지방',
 	'province-none' => '(알 수 없음)',
+	'ccaa-heading' => 'CC.AA.',
 );
 
 /** Colognian (Ripoarisch)
@@ -1442,6 +1665,55 @@ $messages['ms'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'title' => 'Fajls WLM',
+	'file' => 'Stampa',
+	'monument-type' => "Tip ta' monument",
+	'monument-id' => 'Identità tal-monument',
+	'province' => 'Provinċja',
+	'comarque' => 'Reġjun',
+	'competes' => "F'kompetizzjoni",
+	'author' => 'Awtur',
+	'upload-time' => 'Ħin tat-tlugħ',
+	'deleted' => 'Imħassar ($1)',
+	'concursa' => 'Jieħu sehem fil-WLM',
+	'no-concursa' => 'Barra mill-kompetizzjoni WLM',
+	'not-available' => 'Mhux disponibbli',
+	'date-unknown' => 'Mhux magħruf',
+	'total-images' => "Total ta' stampi: $1",
+	'view-uncategorized-images' => 'Ara l-istampi li mhumiex kategorizzati',
+	'provide-id' => "Ipprovdi id ta' monument sabiex turi l-informazzjoni disponibbli dwar dan l-element",
+	'show-images-bad-only' => 'Uri biss stampi barra l-elenki',
+	'show-images-all' => 'Uri l-istampi kollha',
+	'show-images-removed' => 'Uri stampi mneħħija mill-kompetizzjoni',
+	'search-monuments' => 'Fittex monumenti',
+	'view-frequency' => 'Monumenti popolari',
+	'view-ccaa' => 'Qalleb skont il-komunità awtonoma',
+	'view-province' => 'Qalleb skont il-provinċja',
+	'id-label' => 'Identità tal-monument:',
+	'id-none' => '(L-ebda)',
+	'monument-heading' => 'Monument',
+	'count-heading' => 'Ritratti',
+	'bic-list' => 'Lista',
+	'bic-gallery' => 'Gallerija',
+	'gallery-header' => 'Stampi għall-monument bl-id $1',
+	'gallery-header-place' => 'Stampi għall-monumenti mill-$1.',
+	'wall-of-shame-text' => "Awturi skont in-numru ta' ritratti mhux identifikati",
+	'author-heading' => 'Awtur',
+	'bic-list-bad' => 'Uri',
+	'bic-list-all' => 'Lista sħiħa',
+	'unregistered' => 'Mhux reġistrat',
+	'users-text' => "Din il-paġna tiġbor l-awturi bl-istampi li huma tellgħu u ta' kemm-il monument",
+	'users-list' => 'Uri',
+	'distict-monuments' => 'Monumenti distinti',
+	'province-heading' => 'Provinċja',
+	'province-none' => '(Mhux magħruf)',
+	'ccaa-heading' => 'CC.AA.',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -1490,6 +1762,45 @@ $messages['nl'] = array(
 	'province-heading' => 'Provincie',
 	'province-none' => '(Onbekend)',
 	'ccaa-heading' => 'CC.AA.',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'title' => 'WLM ଫାଇଲଗୁଡିକ',
+	'file' => 'ଛବି',
+	'monument-type' => 'କୀର୍ତିରାଜି ପ୍ରକାର',
+	'monument-id' => 'କୀର୍ତିରାଜି ଆଇଡି',
+	'province' => 'ଦେଶ',
+	'author' => 'ଲେଖକ',
+	'upload-time' => 'ଅପଲୋଡ ସମୟ',
+	'deleted' => '$1(ଟି) ଲିଭିଲା',
+	'concursa' => 'ଡ଼ବଲଇଉଏଲଏମ(WLM)ରେ ଭାଗ ନେବେ',
+	'not-available' => 'ଉପଲବ୍ଧ ନାହିଁ',
+	'date-unknown' => 'ଅଜଣା',
+	'total-images' => 'ମୋଟ ଛବିଗୁଡିକ:$1',
+	'view-uncategorized-images' => 'ନୂଆ, ବିଭାଗ ଦିଆଯାଇନଥିବା ଛବିଗୁଡିକ',
+	'show-images-bad-only' => 'କେବଳ ତାଲିକା ବାହାରେ ଥିବା ଛବିଗୁଡିକୁ ଦେଖାନ୍ତୁ',
+	'show-images-removed' => 'ପ୍ରତିଯୋଗିତାରୁ କଟିଯାଇଥିବା ଛବିଗୁଡିକୁ ଦେଖିବେ',
+	'search-monuments' => 'କୀର୍ତିରାଜି ଖୋଜିବେ',
+	'view-frequency' => 'ଲୋକପ୍ରିୟ କୀର୍ତିରାଜି',
+	'view-province' => 'ଦେଶ ହିସାବରେ ଦେଖିବେ',
+	'id-label' => 'କୀର୍ତିରାଜି ଆଇଡି:',
+	'id-none' => '(କିଛି ନାହିଁ)',
+	'monument-heading' => 'ପୁରୁଣା କୀର୍ତିରାଜି',
+	'count-heading' => 'ଫଟୋଗୁଡ଼ିକ',
+	'bic-list' => 'ଶେଷ',
+	'bic-gallery' => 'ଗ୍ୟାଲେରୀ',
+	'gallery-header' => 'କୀର୍ତିରାଜିରେ $1ଆଇଡିରେ ଥିବା ଛବିଗୁଡିକ ।',
+	'author-heading' => 'ଲେଖକ',
+	'bic-list-bad' => 'ଦେଖାଇବେ',
+	'bic-list-all' => 'ସମ୍ପୁର୍ଣ୍ଣ ତାଲିକା',
+	'unregistered' => 'ପଞ୍ଜୀକୃତ ହୋଇନଥିବା',
+	'users-list' => 'ଦେଖା',
+	'distict-monuments' => 'ବଛା ବଛା ପୁରୁଣା କୀର୍ତିରାଜି',
+	'province-heading' => 'ଦେଶ',
+	'province-none' => 'ଅଜଣା',
 );
 
 /** Deitsch (Deitsch)
@@ -1948,25 +2259,56 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
+ * @author Karthi.dr
  */
 $messages['ta'] = array(
+	'file' => 'படம்',
+	'monument-type' => 'நினைவுச் சின்ன வகை',
+	'author' => 'ஆசிரியர்',
+	'upload-time' => 'பதிவேற்ற நேரம்',
+	'deleted' => 'நீக்கப்பட்டது  ($1)',
+	'not-available' => ' கிடைக்காது',
+	'date-unknown' => 'அறியப்படாதது.',
 	'total-images' => 'மொத்த படங்கள்: $1',
+	'show-images-bad-only' => 'பட்டியலுக்கு வெளியே உள்ள படங்களை மட்டும் காட்டவும்',
 	'show-images-all' => 'அனைத்து படங்களையும் காட்டு',
+	'show-images-removed' => 'போட்டியில் இருந்து நீக்கப்பட்ட படங்களைக் காட்டவும்',
+	'search-monuments' => 'நினைவுச் சின்னங்களைத் தேடவும்',
+	'view-frequency' => 'புகழ்பெற்ற நினைவுச் சின்னங்கள்',
+	'monument-heading' => 'நினைவுச்சின்னம்',
+	'count-heading' => 'புகைபடங்கள்',
 	'bic-list' => 'பட்டியல்',
+	'bic-gallery' => 'காட்சியகம்',
+	'wall-of-shame-text' => 'அடையாளம் காண இயலாத புகைப்படங்களைத் தரவேற்றியோர்',
+	'author-heading' => 'ஆசிரியர்',
 	'bic-list-bad' => 'காட்டு',
 	'bic-list-all' => 'முழு பட்டியல்',
+	'unregistered' => 'பதிவுசெய்யாதவர்',
 	'users-list' => 'பார்வையிடு',
+	'distict-monuments' => 'தனித்துவம் வாய்ந்த நினைவுச் சின்னங்கள்',
 );
 
 /** Telugu (తెలుగు)
  * @author Veeven
  */
 $messages['te'] = array(
+	'title' => 'WLM దస్త్రాలు',
+	'province' => 'ప్రావిన్స్',
+	'upload-time' => 'ఎక్కించిన సమయం',
+	'deleted' => 'తొలగించారు ($1)',
 	'not-available' => 'అందుబాటులో లేదు',
+	'date-unknown' => 'తెలియదు',
+	'total-images' => 'మొత్తం చిత్రాలు: $1',
+	'id-none' => '(ఏమీలేదు)',
+	'count-heading' => 'ఫొటోలు',
 	'bic-list' => 'జాబితా',
 	'bic-list-bad' => 'చూపించు',
 	'bic-list-all' => 'పూర్తి జాబితా',
+	'unregistered' => 'నమోదుకాలేదు',
 	'users-list' => 'చూడండి',
+	'province-heading' => 'ప్రావిన్స్',
+	'province-none' => '(తెలియదు)',
 );
 
 /** Tagalog (Tagalog)

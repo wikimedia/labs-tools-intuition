@@ -76,6 +76,16 @@ $messages['be-tarask'] = array(
 	'error-form-empty' => 'Адно ці некалькі абавязковых палёў пакінутыя пустымі. Вам неабходна запоўніць іх, перад тым як працягваць.',
 );
 
+/** Bengali (বাংলা)
+ * @author Nasir8891
+ */
+$messages['bn'] = array(
+	'moretools' => 'এই প্রকাশনের অন্যান্য টুল',
+	'bugs' => 'বাগ রিপোর্ট এবং ফিচার রিপোর্ট',
+	'comments' => 'মন্তব্য এবং প্রশ্নসমূহ',
+	'error-form-empty' => 'এক বা একাধিক বাধ্যতামূল ফিল্ড খালি রয়েছে। পরবর্তী ধাপে অগ্রসর হওয়ার আগে এগুলো পূরণ করুন।',
+);
+
 /** Breton (brezhoneg)
  * @author Fulup
  */
@@ -173,6 +183,14 @@ $messages['fr'] = array(
 	'bugs' => 'rapports de bogues et de demandes de fonctionnalités',
 	'comments' => 'commentaires et requêtes',
 	'error-form-empty' => 'Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer.',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'moretools' => 'més d’outils du mémo ôtor',
+	'comments' => 'comentèros et requétes',
 );
 
 /** Galician (galego)
@@ -276,6 +294,24 @@ $messages['ja'] = array(
 	'error-form-empty' => '空欄になっている必須項目があります。続行するには完全に埋める必要があります。',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'moretools' => 'piranti luwih akèh saka panganggit sing padha',
+	'comments' => 'tanggepan lan pitakonan',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'moretools' => '같은 저자에서 더 많은 도구',
+	'bugs' => '버그 보고 및 기능 요청',
+	'comments' => '의견과 쿼리',
+	'error-form-empty' => '하나 이상의 필수 입력란이 비어 있습니다. 계속하기 전에 모두 채워야합니다.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -324,6 +360,16 @@ $messages['ms'] = array(
 	'error-form-empty' => 'Ada ruangan wajib yang dibiarkan kosong. Anda mesti mengisinya sebelum bersambung.',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'moretools' => 'iktar għodda mill-istess awtur',
+	'bugs' => "rapporti ta' żbalji u rikjesti għall-funzjonijiet ġodda",
+	'comments' => 'kummenti u rikjesti',
+	'error-form-empty' => 'Waħda jew iktar oqsma obbligatorji tħallew vojta. Trid timliehom qabel ma tkompli.',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
@@ -352,6 +398,15 @@ $messages['no'] = array(
 	'bugs' => 'feilrapporter og funksjonsforespørsler',
 	'comments' => 'kommentarer og spørringer',
 	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'bugs' => 'ଅସୁବିଧା ଏବଂ ପ୍ରସ୍ତାବଗୁଡିକ',
+	'comments' => 'କମେଣ୍ଟ ଏବଂ ଅନୁରୋଧଗୁଡିକ',
+	'error-form-empty' => 'ଗୋଟେ କିମ୍ବା ଅଧିକ ଖାଲିସ୍ଥାନ ଅଛି । ଅପଣ ଆଗକୁ ଯିବା ପୂର୍ବରୁ ସେଗୁଡିକୁ ପୂରଣ କରିବା ଉଚିତ ।',
 );
 
 /** Polish (polski)
@@ -432,6 +487,16 @@ $messages['sv'] = array(
 	'bugs' => 'felrapporter och önskemål om utökad funktionalitet',
 	'comments' => 'kommentarer och frågor',
 	'error-form-empty' => 'Ett eller flera obligatoriska fält har lämnats tomt. Du bör fylla i dem innan du fortsätter.',
+);
+
+/** Tamil (தமிழ்)
+ * @author Balajijagadesh
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'bugs' => 'வழு அறிக்கைகளும் வசதி வேண்டுகோள்களும்',
+	'comments' => 'முன்னிகைகளை மற்றும் கேள்விகள்',
+	'error-form-empty' => 'ஒரு அல்லது சில வேண்டப்படும் புலங்கள் வெறுமையாக விடப்பட்டுள்ளன. தொடர்வதற்கு முன் நீங்கள் அவற்றை நிரப்ப வேண்டும்.',
 );
 
 /** Tagalog (Tagalog)

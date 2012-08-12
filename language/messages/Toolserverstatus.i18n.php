@@ -53,6 +53,19 @@ $messages['qqq'] = array(
 	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)",
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'toolserver-status-short-ok' => '$1: OK',
+	'toolserver-status-short-info' => '$1: info',
+	'toolserver-status-short-warn' => '$1: waarskuwing',
+	'toolserver-status-short-down' => '$1: nie beskikbaar nie',
+	'toolserver-status-short-erro' => '$1: foutmelding',
+	'toolserver-status-short-unknown' => '$1: onbekend',
+	'toolserver-status-short-missing' => '$1: ontbreek',
+);
+
 /** Arabic (العربية)
  * @author DRIHEM
  * @author ترجمان05
@@ -125,6 +138,19 @@ $messages['be-tarask'] = array(
 	'toolserver-status-short-erro' => '$1: Памылка',
 	'toolserver-status-short-unknown' => '$1: Невядомая',
 	'toolserver-status-short-missing' => '$1: Адсутнічае',
+);
+
+/** Bengali (বাংলা)
+ * @author Nasir8891
+ */
+$messages['bn'] = array(
+	'toolserver-status-short-ok' => '$1: ঠিকআছে',
+	'toolserver-status-short-info' => '$1: ইনফো',
+	'toolserver-status-short-warn' => '$1: সতর্কতা',
+	'toolserver-status-short-down' => '$1: ডাউন',
+	'toolserver-status-short-erro' => '$1: ত্রুটি',
+	'toolserver-status-short-unknown' => '$1: অজানা',
+	'toolserver-status-short-missing' => '$1: হারানো গেছে',
 );
 
 /** Breton (brezhoneg)
@@ -290,6 +316,27 @@ $messages['es'] = array(
 	'toolserver-status-short-erro' => '$1: Error',
 	'toolserver-status-short-unknown' => '$1: Desconocido',
 	'toolserver-status-short-missing' => '$1: Inexistente',
+);
+
+/** Estonian (eesti)
+ * @author Avjoska
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'toolserver-status-ok' => 'Andmebaasikobaras $1 pole probleeme $2',
+	'toolserver-status-info' => 'Teadaanne kobara $1 kasutajatele: $2',
+	'toolserver-status-warn' => 'Hoiatus kobara $1 kasutajatele: $2',
+	'toolserver-status-down' => 'Andmebaasikobar $1 on ajutiselt välja lülitatud. $2',
+	'toolserver-status-erro' => 'Andmebaasikobar $1 on maas. $2',
+	'toolserver-status-unknown' => 'Kobara $1 tundmatu olek',
+	'toolserver-status-missing' => 'Kobarat $1 pole olemas.',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Andmed',
+	'toolserver-status-short-warn' => '$1: Hoiatus',
+	'toolserver-status-short-down' => '$1: Alla',
+	'toolserver-status-short-erro' => '$1: Viga',
+	'toolserver-status-short-unknown' => '$1: Tundmatu',
+	'toolserver-status-short-missing' => '$1: Puudub',
 );
 
 /** Basque (euskara)
@@ -465,6 +512,26 @@ $messages['ia'] = array(
 	'toolserver-status-short-missing' => '$1: Mancante',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'toolserver-status-ok' => 'Tidak ada masalah di kluster basis data $1 $2',
+	'toolserver-status-info' => 'Pemberitahuan untuk pengguna kluster $1: $2',
+	'toolserver-status-warn' => 'Peringatan untuk pengguna kluster $1: $2',
+	'toolserver-status-down' => 'Kluster basis data $1 dimatikan sementara. $2',
+	'toolserver-status-erro' => 'Kluster basis data $1 mati. $2',
+	'toolserver-status-unknown' => 'Status kluster $1 tidak diketahui',
+	'toolserver-status-missing' => 'Kluster $1 tidak eksis',
+	'toolserver-status-short-ok' => '$1: Oke',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Peringatan',
+	'toolserver-status-short-down' => '$1: Mati',
+	'toolserver-status-short-erro' => '$1: Galat',
+	'toolserver-status-short-unknown' => '$1: Tidak dikenal',
+	'toolserver-status-short-missing' => '$1: Hilang',
+);
+
 /** Italian (italiano)
  * @author Gianfranco
  * @author ZioNicco
@@ -499,6 +566,39 @@ $messages['ja'] = array(
 	'toolserver-status-short-unknown' => '$1: 不明',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'toolserver-status-ok' => 'Ora ana masalah nèng klompok basis data $1 $2',
+	'toolserver-status-info' => 'Wara-wara kanggo panganggo saka klompok $1: $2',
+	'toolserver-status-warn' => 'Pèngetan kanggo panganggo saka klompok $1: $2',
+	'toolserver-status-down' => 'Klompok basis data $1 mati sawetara wektu. $2',
+	'toolserver-status-erro' => 'Klompok basis data $1 rendhet. $2',
+	'toolserver-status-unknown' => 'Status klompok $1 ora dikenal',
+	'toolserver-status-missing' => 'Klompok $1 ora ana',
+	'toolserver-status-short-ok' => '$1: Oké',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Pèngetan',
+	'toolserver-status-short-down' => '$1: Rendhet',
+	'toolserver-status-short-erro' => '$1: Kasalahan',
+	'toolserver-status-short-unknown' => '$1: Ora dingertèni',
+	'toolserver-status-short-missing' => '$1: Ilang',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'toolserver-status-short-ok' => '$1: კარგი',
+	'toolserver-status-short-info' => '$1: ინფორმაცია',
+	'toolserver-status-short-warn' => '$1: გაფრთხილება',
+	'toolserver-status-short-down' => '$1: ხელმიუწვდომელია',
+	'toolserver-status-short-erro' => '$1: შეცდომა',
+	'toolserver-status-short-unknown' => '$1: უცნობი',
+	'toolserver-status-short-missing' => '$1: დაკარგული',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author វ័ណថារិទ្ធ
  */
@@ -519,7 +619,7 @@ $messages['ko'] = array(
 	'toolserver-status-ok' => '$1 데이터베이스 클러스터에 문제가 없습니다 $2',
 	'toolserver-status-info' => '$1 클러스터의 사용자에 대한 알림: $2',
 	'toolserver-status-warn' => '$1 클러스터의 사용자에 대한 경고: $2',
-	'toolserver-status-down' => '$1 데이터베이스 클러스터를 일시적으로 종료했습니다. $1',
+	'toolserver-status-down' => '$1 데이터베이스 클러스터를 일시적으로 종료했습니다. $2',
 	'toolserver-status-erro' => '$1 데이터베이스 클러스터는 down되었습니다. $2',
 	'toolserver-status-unknown' => '$1 클러스터의 알 수 없는 상태',
 	'toolserver-status-missing' => '$1 클러스터가 존재하지 않음',
@@ -550,6 +650,13 @@ $messages['ksh'] = array(
 	'toolserver-status-short-erro' => '$1: Fähler.',
 	'toolserver-status-short-unknown' => '$1: Nit klohr.',
 	'toolserver-status-short-missing' => '$1: Ham_mer nit.',
+);
+
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'toolserver-status-short-unknown' => '$1: Nenas',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -612,6 +719,19 @@ $messages['ms'] = array(
 	'toolserver-status-short-missing' => '$1: Tiada',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Avviżi',
+	'toolserver-status-short-down' => '$1: Wieqaf',
+	'toolserver-status-short-erro' => '$1: Żball',
+	'toolserver-status-short-unknown' => '$1: Mhux magħruf',
+	'toolserver-status-short-missing' => '$1: Nieqes',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -631,6 +751,19 @@ $messages['nl'] = array(
 	'toolserver-status-short-erro' => '$1: foutmelding',
 	'toolserver-status-short-unknown' => '$1: onbekend',
 	'toolserver-status-short-missing' => '$1: ontbreekt',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'toolserver-status-short-ok' => '$1: ଠିକ ଅଛି',
+	'toolserver-status-short-info' => '$1: ତଥ୍ୟ',
+	'toolserver-status-short-warn' => '$: ସତର୍କ',
+	'toolserver-status-short-down' => '$1: ଖରାପ',
+	'toolserver-status-short-erro' => '$1: ଭୁଲ',
+	'toolserver-status-short-unknown' => '$1: ଅଜଣା',
+	'toolserver-status-short-missing' => '$1: ମିଳୁନାହିଁ',
 );
 
 /** Polish (polski)

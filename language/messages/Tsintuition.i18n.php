@@ -695,6 +695,27 @@ $messages['fr'] = array(
 	'help-translate-tooltip' => 'Aidez les autres en traduisant dans votre langue les messages de l’interface.',
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'current-settings' => 'Configuracion d’ora',
+	'current-language' => 'Lengoua ora chouèsia',
+	'settings-legend' => 'Configuracion',
+	'choose-language' => 'Chouèsésséd na lengoua',
+	'clear-cookies' => "èfaciér los tèmouens (''cookies'')",
+	'renew-cookies' => "renovelar los tèmouens (''cookies'')",
+	'tab-overview' => 'Apèrçu',
+	'tab-settings' => 'Configuracion',
+	'tab-about' => 'A propôs',
+	'tab-demo' => 'Dèmô',
+	'bl-mysettings' => 'Ma configuracion de lengoua',
+	'bl-mysettings-new' => 'Changiér la lengoua !',
+	'usage' => 'Outils traduits per Toolserver Intuition.',
+	'help-translate-tool' => 'Édiéd a traduire cet’outil !',
+	'help-translate-all' => 'Édiéd a traduire lo Toolserver !',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -980,10 +1001,42 @@ $messages['ja'] = array(
 	'help-translate-tooltip' => 'インターフェイスメッセージをあなたの言語に翻訳して他の人を助ける!',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'current-settings' => 'Pangaturan saiki',
+	'current-language' => 'Basa pinilih saiki',
+	'settings-legend' => 'Pangaturan',
+	'choose-language' => 'Pilih basa',
+	'clear-cookies' => 'busak kuki',
+	'renew-cookies' => 'anyari kuki',
+	'cookie-expiration' => 'Kedaluwarsané kuki',
+	'clearcookies-success' => 'Mbusak kuki kasil!',
+	'renewcookies-success' => 'Kuki wis dianyari! Sampéyan siap kanggo $1 sabanjuré.',
+	'tab-overview' => 'Gambaran',
+	'tab-settings' => 'Pangaturan',
+	'tab-about' => 'Bab',
+	'tab-demo' => 'Démo',
+	'bl-mysettings' => 'Aturan basa kula',
+	'bl-mysettings-new' => 'Ganti basa!',
+	'bl-promo' => 'Terjemahan disengkuyung déning $1 lan $2.',
+	'bl-changelanguage' => 'Klik kéné kanggo ngganti basané antarmuka saka piranti iki.',
+	'usage' => 'Piranti iki diterjemahaké déning Intuisi Toolserver.',
+	'help-translate-tool' => 'Éwangi nerjemahaké piranti iki!',
+	'help-translate-all' => 'Éwangi nerjemahaké Toolserver!',
+	'help-translate-tooltip' => 'Éwangi liyané mawa cara nerjemahaké pesen antarmuka nèng basané Sampéyan.',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
 $messages['ka'] = array(
+	'settings-legend' => 'პარამეტრები',
+	'choose-language' => 'აირჩიეთ ენა',
+	'tab-settings' => 'პარამეტრები',
+	'tab-demo' => 'დემო',
+	'bl-mysettings' => 'ჩემი ენის პარამეტრები',
 	'bl-mysettings-new' => 'ენის შეცვლა!',
 );
 
@@ -1200,6 +1253,12 @@ $messages['mt'] = array(
 	'tab-settings' => 'Konfigurazzjoni',
 	'tab-about' => 'Dwar',
 	'tab-demo' => 'Eżempju',
+	'bl-mysettings-new' => 'Biddel il-lingwa!',
+	'bl-promo' => 'It-traduzzjonijiet huma sostnuti minn $1 u $2.',
+	'bl-changelanguage' => "Iklikkja hawnhekk sabiex tbiddel il-lingwa tal-interfaċċa ta' din l-għodda",
+	'help-translate-tool' => 'Għin ittraduċi din l-għodda!',
+	'help-translate-all' => 'Għin ittraduċi Toolserver!',
+	'help-translate-tooltip' => 'Għin oħrajn billi tittraduċi messaġġi tal-interfaċċa fil-lingwa tiegħek.',
 );
 
 /** Burmese (မြန်မာဘာသာ)
@@ -1339,6 +1398,28 @@ $messages['no'] = array(
 	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'current-settings' => 'ବର୍ତ୍ତମାନର ସଜାଣି',
+	'current-language' => 'ବର୍ତ୍ତମାନ ବାଛିଥିବା ଭାଷା',
+	'settings-legend' => 'ସଜାଣି',
+	'choose-language' => 'ଭାଷା ଚୟନ କରନ୍ତୁ',
+	'clear-cookies' => 'କୁକିସ କାଢି ଦିଅନ୍ତୁ',
+	'renew-cookies' => 'କୁକିସ ପୁନାରମ୍ଭ କରନ୍ତୁ',
+	'clearcookies-success' => 'କୁକିସଗୁଡିକୁ ସଫଳ ଭାବେ କାଢି ଦିଆ ଯାଇଛି ।',
+	'tab-overview' => 'ନିରୀକ୍ଷଣ',
+	'tab-settings' => 'ସଜାଣି',
+	'tab-about' => 'ବିଷୟରେ',
+	'tab-demo' => 'ଦେଖଣା',
+	'bl-mysettings' => 'ମୋ ଭାଷା ସଜାଣି',
+	'bl-mysettings-new' => 'ଭାଷା ବଦଳାନ୍ତୁ !',
+	'bl-promo' => 'ଅନୁବାଦଟି $1 ଏବଂ $2 ଦ୍ଵାରା କରାଯାଇଛି ।',
+	'help-translate-tool' => 'ଏହି ଯନ୍ତ୍ରାଂଶଟିର ଅନୁବାଦରେ ସ‌ହଯୋଗ କରିବେ ।',
+	'help-translate-tooltip' => 'ଏହି ମେସେଜକୁ ନିଜ ଭାଷାରେ ବଦଳାଇ ଅନ୍ୟମାନଙ୍କୁ ସାହାଯ୍ୟ କରନ୍ତୁ',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
@@ -1357,15 +1438,28 @@ $messages['pdc'] = array(
  * @author Manuae
  */
 $messages['pfl'] = array(
+	'fullname' => 'Iwasedzung vunde Bnudzaowaflesch vum Toolseava',
+	'current-settings' => 'Agduelli Oischdellunge',
+	'current-language' => 'Agduell gwehldi Schbrooch',
 	'settings-legend' => 'Oischdellunge',
 	'choose-language' => 'Ä Schbrooch wehle',
-	'clear-cookies' => 'Cookies lesche',
-	'renew-cookies' => 'Cookies eanaijare',
+	'clear-cookies' => 'Kuukies lesche',
+	'renew-cookies' => 'Kuukies eanaijare',
+	'cookie-expiration' => "S'Kuukie laafd ab.",
+	'clearcookies-success' => 'Die Kuukies sind gleschd worre.',
+	'renewcookies-success' => 'Kuukies isch eanaiad worre! Fa die kummende $1 ischs guud.',
 	'tab-overview' => 'Iwabligg',
 	'tab-settings' => 'Oischdellunge',
 	'tab-about' => 'Iwa',
 	'tab-demo' => 'Voafierung',
+	'bl-mysettings' => 'Moin Schbroochoischdellung',
 	'bl-mysettings-new' => 'Sprache wexsle',
+	'bl-promo' => 'Iwasedzunge werre vun $1 un $2 eameschlischd.',
+	'bl-changelanguage' => 'Do drigge, um die Schbrooch fa des Weagzaisch do zu änare.',
+	'usage' => 'Weagzaisch sin vum Toolseava Intuition iwasedzd worre.',
+	'help-translate-tool' => 'Hilfs Weagzaisch zu iwasedze.',
+	'help-translate-all' => 'Hilf de Toolseava zu iwasedze.',
+	'help-translate-tooltip' => 'Hilf onare indem die Nochrischde vunde Bnudzaowaflesch in doi Schbrooch iwasedze duschd.',
 );
 
 /** Polish (polski)
@@ -1681,21 +1775,49 @@ $messages['sv'] = array(
 	'help-translate-tooltip' => 'Hjälp andra genom att översätta gränssnittsmeddelanden till ditt språk.',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'current-settings' => 'Mpangilio wa sasa',
+	'current-language' => 'Lugha iliyochaguliwa kwa sasa',
+	'settings-legend' => 'Mpangilio',
+	'choose-language' => 'Chagua lugha',
+	'tab-settings' => 'Mpangilio',
+	'tab-about' => 'Kuhusu',
+	'bl-mysettings' => 'Mpangilio wangu wa lugha',
+	'bl-mysettings-new' => 'Badili lugha',
+	'help-translate-tool' => 'Saidia kutafsiri kifaa hiki!',
+);
+
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
+ * @author Karthi.dr
  * @author Logicwiki
  * @author Shanmugamp7
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'fullname' => 'தூல்சர்வரின் பயனர் இடைமுகத்துக்கான அனைத்துலமயமாக்கல்',
 	'current-settings' => 'தற்போதைய அமைப்புகள்',
+	'current-language' => 'தற்சமயம் தேர்வு செய்யப்பட்டுள்ள மொழி',
 	'settings-legend' => 'அமைப்புகள்',
 	'choose-language' => 'மொழியைத் தேர்ந்தெடுக்கவும்',
+	'clear-cookies' => 'நினைவிகளை நீக்குக',
+	'renew-cookies' => 'நினைவிகளை புதுப்பி',
+	'clearcookies-success' => 'நினைவிகள் நீக்கம் வெற்றி',
 	'tab-overview' => 'மேல்நோட்டம்',
 	'tab-settings' => 'அமைப்புகள்',
 	'tab-about' => 'விவரம்',
+	'tab-demo' => 'எடுத்துக்காட்டு',
 	'bl-mysettings' => 'எனது மொழி அமைப்புகள்',
 	'bl-mysettings-new' => 'மொழியை மாற்று!',
+	'bl-promo' => '$1, $2 ஆகியவற்றால் மொழிபெயர்ப்புகள் வழங்கப்படுகின்றன.',
+	'bl-changelanguage' => 'இக்கருவியின் இடைமுகப்பு மொழியை மாற்ற இங்கே சொடுக்கவும்.',
+	'help-translate-tool' => 'இந்த கருவியை மொழிபெயர்க்க உதவுக',
+	'help-translate-all' => 'டூல்சர்வரை மொழிபெயர்க உதவுக!',
+	'help-translate-tooltip' => 'இடைமுகச் செய்திகளை உங்கள் மொழிக்கு மொழிபெயர்ப்பதனூடாக ஏனையவர்களுக்கு உதவுங்கள்.',
 );
 
 /** Telugu (తెలుగు)

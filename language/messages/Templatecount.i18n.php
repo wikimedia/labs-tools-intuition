@@ -265,6 +265,14 @@ $messages['es'] = array(
 	'time-label' => 'Tiempo necesario para ejecutar la orden',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'language-label' => 'Keel',
+	'namespace-label' => 'Nimeruum',
+);
+
 /** Basque (euskara)
  * @author An13sa
  */
@@ -313,6 +321,16 @@ $messages['fr'] = array(
 	'transclusion-count' => '$1 transclusion(s) trouvées.',
 	'error-suggestion' => 'Peut-être avez-vous mal épelé (ou mal capitalisé) le nom de la page ?',
 	'time-label' => 'Temps pris pour exécuter la commande',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'enter-details' => 'Buchiéd los dètalys',
+	'language-label' => 'Lengoua',
+	'namespace-label' => 'Èspâço de noms',
+	'pagename-label' => 'Nom de la pâge (sen l’èspâço de noms)',
 );
 
 /** Galician (galego)
@@ -415,9 +433,18 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Aldnonymous
+ * @author Farras
  */
 $messages['id'] = array(
 	'enter-details' => 'Masukan detail',
+	'introduction' => 'Ketikkan nama templat (Wikipedia saja untuk saat ini) dan tekan cari. Simpel sekali. Terjadi penyinggahan (pengingatan hasil), namun hal ini berada di luar kontrol alat ini dan pemiliknya.',
+	'language-label' => 'Bahasa',
+	'namespace-label' => 'Ruang nama',
+	'pagename-label' => 'Judul halaman (tidak termasuk ruang nama)',
+	'transclusion-count-label' => 'Jumlah transklusi',
+	'transclusion-count' => '$1 transklusi ditemukan.',
+	'error-suggestion' => 'Apakah Anda salah mengeja (atau salah menempatkan huruf kapital) judul halaman?',
+	'time-label' => 'Waktu yang dibutuhkan untuk melaksanakan perintah',
 );
 
 /** Ingush (ГӀалгӀай)
@@ -456,12 +483,44 @@ $messages['ja'] = array(
 	'time-label' => 'コマンドの実行に要した時間',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'enter-details' => 'Lebokaké rincian',
+	'introduction' => 'Tulisaké jeneng tèmplat (Wikipédia waé kanggo saiki) lan pencèt golèk. Mayar banget ta. Ana panyinggahan (ngéling-éling asil), ning sajabaning pangawasan piranti iki sarta sing nduwèni.',
+	'language-label' => 'Basa',
+	'namespace-label' => 'Bilik jeneng',
+	'pagename-label' => 'Jeneng kaca (kajaba bilik jeneng)',
+	'transclusion-count-label' => 'Cacahé transklusi',
+	'transclusion-count' => '$1 transklusi ditemokaké.',
+	'error-suggestion' => 'Apa Sampéyan salah ngeja (utawa salah nganggo hurup gedhé) jeneng kacané?',
+	'time-label' => 'Wektu sing dibutuhaké kanggo nglakokaké prèntah',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'language-label' => 'ენა',
+	'namespace-label' => 'სახელთა სივრცე',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
 	'language-label' => 'ភាសា',
 	'namespace-label' => 'លំហឈ្មោះ',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'language-label' => '언어',
+	'namespace-label' => '이름공간',
+	'pagename-label' => '문서 이름 (이름공간 제외)',
 );
 
 /** Colognian (Ripoarisch)
@@ -547,6 +606,18 @@ $messages['ms'] = array(
 	'time-label' => 'Masa yang diambil untuk melaksanakan perintah',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'enter-details' => 'Daħħal id-dettalji',
+	'language-label' => 'Lingwa',
+	'namespace-label' => 'Spazju tal-isem',
+	'pagename-label' => 'Isem tal-paġna (barra l-ispazju tal-isem)',
+	'transclusion-count-label' => "Numru ta' inklużjonijiet",
+	'transclusion-count' => '$1 inklużjonijiet misjuba.',
+);
+
 /** Mazanderani (مازِرونی)
  * @author محک
  */
@@ -598,6 +669,17 @@ $messages['no'] = array(
 	'transclusion-count' => '$1 transklusjon(er) funnet.',
 	'error-suggestion' => 'Kanskje du stavet navnet på siden feil (eller bommet på små og store bokstaver)?',
 	'time-label' => 'Tiden det tar å utføre kommandoen',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'enter-details' => 'ବିବରଣୀ ଦିଅନ୍ତୁ',
+	'language-label' => 'ଭାଷା',
+	'namespace-label' => 'ନେମସ୍ପେସ',
+	'pagename-label' => 'ପୃଷ୍ଠାନାମ (ନେମସ୍ପେସକୁ ଛାଡି)',
+	'error-suggestion' => 'ଆପଣ ବୋଧହୁଏ ପୃଷ୍ଠାର ଭୁଲ ବନାନ (କିମ୍ବା ଭୁଲ ସାନବଡ ଅକ୍ଷର) କରିଛନ୍ତି ?',
 );
 
 /** Ossetic (Ирон)
@@ -765,18 +847,23 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Balajijagadesh
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'enter-details' => 'தகவல்களை உள்ளிடு',
 	'language-label' => 'மொழி',
 	'namespace-label' => 'பெயர்வெளி',
 	'pagename-label' => 'பக்கத்தின் பெயர் (பெயர்வெளிகளைத் தவிர்த்து)',
+	'error-suggestion' => 'பக்கத்தின் பெயரை நீங்கள் தவறுதலாக எழுதியதாகத் (அல்லது தவறாகப் பேரெழுத்துகளாக்கியதாக) தோன்றுகிறது?',
+	'time-label' => 'ஆனையை செயல்படுத்த எடுத்துக்கொண்ட நேரம்',
 );
 
 /** Telugu (తెలుగు)
  * @author Veeven
  */
 $messages['te'] = array(
+	'enter-details' => 'వివరాలను ఇవ్వండి',
 	'language-label' => 'భాష',
 	'namespace-label' => 'పేరుబరి',
 	'pagename-label' => 'పుట పేరు (పేరుబరి లేకుండా)',

@@ -605,6 +605,26 @@ $messages['fi'] = array(
 	'view-source' => 'näytä lähdekoodi',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'hello' => 'Halló',
+	'welcome' => 'Vælkomin',
+	'toolversionstamp' => 'Versjón $1 ($2)',
+	'etc' => 'osfr.',
+	'namespace' => 'Navnarúm',
+	'form-submit' => 'Far',
+	'form-reset' => 'Nullstilla',
+	'years' => '{{PLURAL: $1|ár|ár}}',
+	'weeks' => '{{PLURAL: $1|vika|vikur}}',
+	'days' => '{{PLURAL: $1|dagur|dagar}}',
+	'hours' => '{{PLURAL: $1|tími|tímar}}',
+	'minutes' => '{{PLURAL: $1|minuttur|minuttir}}',
+	'seconds' => '{{PLURAL: $1|sekund|sekundir}}',
+	'last-modified-date' => 'Seinast broytt: $1',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Jean-Frédéric
@@ -626,6 +646,27 @@ $messages['fr'] = array(
 	'seconds' => '{{PLURAL: $1|seconde|secondes}}',
 	'last-modified-date' => 'Dernière modification : $1',
 	'view-source' => 'Voir la source',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'hello' => 'Bonjorn',
+	'welcome' => 'Benvegnua',
+	'toolversionstamp' => 'Vèrsion $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => 'Èspâço de noms',
+	'form-submit' => 'Validar',
+	'form-reset' => 'Tornar inicialisar',
+	'years' => 'an{{PLURAL:$1||s}}',
+	'weeks' => 'seman{{PLURAL:$1|a|es}}',
+	'days' => 'jorn{{PLURAL:$1||s}}',
+	'hours' => 'hor{{PLURAL:$1|a|es}}',
+	'minutes' => 'menut{{PLURAL:$1|a|es}}',
+	'seconds' => 'second{{PLURAL:$1|a|es}}',
+	'last-modified-date' => 'Dèrriér changement : $1',
+	'view-source' => 'Vêre lo tèxto sôrsa',
 );
 
 /** Galician (galego)
@@ -858,6 +899,27 @@ $messages['ja'] = array(
 	'view-source' => 'ソースを表示',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'hello' => 'Halo',
+	'welcome' => 'Sugeng rawuh',
+	'toolversionstamp' => 'Vèrsi $1 ($2)',
+	'etc' => 'lsp.',
+	'namespace' => 'Bilik jeneng',
+	'form-submit' => 'Kirim',
+	'form-reset' => 'Rèsèt',
+	'years' => '{{PLURAL: $1|taun|taun}}',
+	'weeks' => '{{PLURAL: $1|minggu|minggu}}',
+	'days' => '{{PLURAL: $1|dina|dina}}',
+	'hours' => '{{PLURAL: $1|jam|jam}}',
+	'minutes' => '{{PLURAL: $1|menit|menit}}',
+	'seconds' => '{{PLURAL: $1|detik|detik}}',
+	'last-modified-date' => 'Pungkasan diowah: $1',
+	'view-source' => 'Delok sumber',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
@@ -865,6 +927,14 @@ $messages['ka'] = array(
 	'hello' => 'გამარჯობა',
 	'welcome' => 'კეთილი იყოს თქვენი მობრძანება',
 	'etc' => 'და ა.შ.',
+	'namespace' => 'სახელთა სივრცე',
+	'form-submit' => 'მიდი',
+	'years' => '{{PLURAL:$1|წელი|წელი}}',
+	'weeks' => '{{PLURAL:$1|კვირა|კვირა}}',
+	'days' => '{{PLURAL:$1|დღე|დღე}}',
+	'hours' => '{{PLURAL:$1|საათი|საათი}}',
+	'minutes' => '{{PLURAL:$1|წუთი|წუთი}}',
+	'seconds' => '{{PLURAL:$1|წამი|წამი}}',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -901,12 +971,12 @@ $messages['ko'] = array(
 	'namespace' => '이름공간',
 	'form-submit' => '가기',
 	'form-reset' => '초기화',
-	'years' => '년',
-	'weeks' => '주',
-	'days' => '일',
-	'hours' => '시',
-	'minutes' => '분',
-	'seconds' => '초',
+	'years' => '{{PLURAL: $1|년}}',
+	'weeks' => '{{PLURAL: $1|주}}',
+	'days' => '{{PLURAL: $1|일}}',
+	'hours' => '{{PLURAL: $1|시}}',
+	'minutes' => '{{PLURAL: $1|분}}',
+	'seconds' => '{{PLURAL: $1|초}}',
 	'last-modified-date' => '최근 수정일: $1',
 	'view-source' => '내용 보기',
 );
@@ -1030,10 +1100,15 @@ $messages['lt'] = array(
  */
 $messages['lv'] = array(
 	'form-submit' => 'Aiziet',
-	'years' => 'gadi',
-	'weeks' => 'nedēļas',
-	'days' => 'dienas',
-	'hours' => 'stundas',
+	'form-reset' => 'Notīrīt',
+	'years' => '{{PLURAL: $1|gads|gadi}}',
+	'weeks' => '{{PLURAL: $1|nedēļa|nedēļas}}',
+	'days' => '{{PLURAL: $1|diena|dienas}}',
+	'hours' => '{{PLURAL: $1|stunda|stundas}}',
+	'minutes' => '{{PLURAL: $1|minūte|minūtes}}',
+	'seconds' => '{{PLURAL: $1|sekunde|sekundes}}',
+	'last-modified-date' => 'Pēdējoreiz mainīts: $1',
+	'view-source' => 'Aplūkot kodu',
 );
 
 /** Macedonian (македонски)
@@ -1077,6 +1152,26 @@ $messages['ms'] = array(
 	'seconds' => '{{PLURAL: $1|saat|saat}}',
 	'last-modified-date' => 'Kali terakhir diubah: $1',
 	'view-source' => 'Lihat sumber',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'welcome' => 'Merħba',
+	'toolversionstamp' => 'Verżjoni $1 ($2)',
+	'etc' => 'eċċ.',
+	'namespace' => 'Spazju tal-isem',
+	'form-submit' => 'Mur',
+	'form-reset' => 'Irrisettja',
+	'years' => '{{PLURAL: $1|sena|snin}}',
+	'weeks' => '{{PLURAL: $1|ġimgħa|ġimgħat}}',
+	'days' => '{{PLURAL: $1|jum|jiem}}',
+	'hours' => '{{PLURAL: $1|siegħa|sigħat}}',
+	'minutes' => '{{PLURAL: $1|minuta|minuti}}',
+	'seconds' => '{{PLURAL: $1|sekonda|sekondi}}',
+	'last-modified-date' => 'L-aħħar modifika: $1',
+	'view-source' => 'Ara s-sors',
 );
 
 /** Burmese (မြန်မာဘာသာ)
@@ -1158,6 +1253,27 @@ $messages['no'] = array(
 	'view-source' => 'Vis kilde',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'hello' => 'ନମସ୍କାର',
+	'welcome' => 'ସ୍ଵାଗତ',
+	'toolversionstamp' => '($2) $1ସଂସ୍କରଣ',
+	'etc' => 'ଇତ୍ୟାଦି ।',
+	'namespace' => 'ନେମସ୍ପେସ',
+	'form-submit' => 'ଯିବେ',
+	'form-reset' => 'ପୁନସ୍ଥାପନ',
+	'years' => '{{PLURAL: $1|ବର୍ଷ|ବର୍ଷଗୁଡିକ}}',
+	'weeks' => '{{PLURAL: $1|ସପ୍ତାହ|ସପ୍ତାହଗୁଡିକ}}',
+	'days' => '($1 {{PLURAL:$1|ଦିନ|ଦିନଗୁଡିକ}})',
+	'hours' => '($1 {{PLURAL:$1|ଘଣ୍ଟା|ଘଣ୍ଟା}})',
+	'minutes' => '$1 {{PLURAL:$1|ମିନିଟ|ମିନିଟ}}',
+	'seconds' => '$1 {{PLURAL:$1|ସେକେଣ୍ଡ|ସେକେଣ୍ଡ}}',
+	'last-modified-date' => 'ଗତଥର ବଦଳା ଯାଇଥିଲା :$1',
+	'view-source' => 'ମୂଳାଧାର ଦେଖିବେ',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
@@ -1175,13 +1291,21 @@ $messages['pdc'] = array(
  * @author Manuae
  */
 $messages['pfl'] = array(
+	'hello' => 'Hallo',
 	'welcome' => 'Willkumme',
+	'toolversionstamp' => 'Ausgaw $1 ($2)',
+	'etc' => 'usw.',
+	'namespace' => 'Nomensraum',
+	'form-submit' => 'Ausfiare',
+	'form-reset' => 'Zriggsedze',
 	'years' => '{{PLURAL: $1|Joa|Joare}}',
 	'weeks' => '{{PLURAL: $1|Woch|Woche}}',
 	'days' => '{{PLURAL: $1|Daach|Daache}}',
 	'hours' => '{{PLURAL: $1|Schdund|Schdunde}}',
 	'minutes' => '{{PLURAL: $1|Minud|Minude}}',
 	'seconds' => '$1 {{PLURAL:$1|Sekund|Sekunde}}',
+	'last-modified-date' => "Zuledschd g'änad: $1",
+	'view-source' => 'Qwelltegschd oazaische',
 );
 
 /** Pali (पाळि)
@@ -1456,13 +1580,25 @@ $messages['sv'] = array(
 	'view-source' => 'Visa källkod',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'welcome' => 'Karibu',
+	'etc' => 'nk',
+	'form-submit' => 'Nenda',
+	'view-source' => 'Onyesha kodi za ukurasa',
+);
+
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Logicwiki
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'hello' => 'வணக்கம்',
 	'welcome' => 'வருக',
+	'toolversionstamp' => 'பதிப்பு $1 ($2)',
 	'etc' => 'இன்ன பிற',
 	'namespace' => 'பெயர்வெளி',
 	'form-submit' => 'செல்',
@@ -1684,6 +1820,7 @@ $messages['zh-hant'] = array(
 	'welcome' => '歡迎',
 	'toolversionstamp' => '版本$1 ($2)',
 	'etc' => '等。',
+	'namespace' => '名字空間',
 	'form-submit' => '提交',
 	'form-reset' => '重置',
 	'years' => '{{PLURAL: $1|年|年}}',

@@ -70,6 +70,15 @@ $messages['qqq'] = array(
 * $1: Branch name',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'repo-site-link' => 'Webtuiste',
+	'repo-lastmoddate-label' => 'Datum:',
+	'branches-submit-button' => 'Kry dit!',
+);
+
 /** Arabic (العربية)
  * @author DRIHEM
  */
@@ -132,6 +141,34 @@ $messages['ast'] = array(
 	'tablehead-hash' => 'Sumes de comprobación',
 );
 
+/** Bengali (বাংলা)
+ * @author Nasir8891
+ */
+$messages['bn'] = array(
+	'title-overview' => 'ছবি',
+	'title-error' => 'ত্রুটি',
+	'title-updatelog' => 'আপডেট লগ',
+	'download-button' => '$1 ডাউনলোড',
+	'download-directlink' => 'সরাসরি লিংক',
+	'title-downloadpage' => 'ডাউনলোড: $1',
+	'downloadpage-directlink' => 'স্ন্যাপশট ডাউনলোডের জন্য এখানে ক্লিক করুন।',
+	'err-snapshotindex' => 'স্ন্যাপশট ইনডেক্সটি সাময়িকভাবে পাওয়া যাচ্ছে না। অনুগ্রহ করে পুনরায় চেষ্টা করুন।',
+	'err-invalid-repo' => 'অপরিচিত রিপোজিটরী: "$1".',
+	'err-invalid-branch' => '"$2" রিপোজিটরীতে অপরিচিত ব্রাঞ্চ: "$1"।',
+	'err-noupdatelog' => 'কোনো আপডেট লগ পাওয়া যায়নি।',
+	'repo-site-link' => 'ওয়েবসাইট',
+	'repo-browse-link' => 'রিপোজিটরী ব্রাউজ',
+	'repo-branches-label' => 'ব্রাঞ্চসমূহ:',
+	'repo-lastmoddate-label' => 'তারিখ:',
+	'branches-submit-button' => 'পাওয়া গেছে!',
+	'updatelog-link' => 'আপডেট লগ',
+	'tablehead-repo' => 'রিপোজিটরি',
+	'tablehead-snapshots' => 'স্ন্যপশট',
+	'tablehead-branch' => 'ব্রাঞ্চ',
+	'tablehead-filesize' => 'ফাইলের আকার',
+	'tablehead-hash' => 'চেকসাম',
+);
+
 /** Breton (brezhoneg)
  * @author Fulup
  */
@@ -163,14 +200,47 @@ $messages['br'] = array(
 	'tablehead-hash' => 'Hacherezh',
 );
 
+/** Catalan (català)
+ * @author Arnaugir
+ */
+$messages['ca'] = array(
+	'title-overview' => 'Instantànies',
+	'title-error' => 'Error',
+	'title-updatelog' => 'Actualitza el registre',
+	'updatelog-intro' => "L'escriptura d'actualització es planifica per executar cada hora. A continuació es mostra la sortida de la consola de l'última execució.",
+	'updatelog-active' => "L'escriptura d'actualització s'està executant. Torna més tard pel registre complet.",
+	'download-button' => 'Descarrega $1',
+	'download-directlink' => 'enllaç directe',
+	'title-downloadpage' => 'Descarrega $1',
+	'downloadpage-directlink' => 'Fes clic aquí per descarregar la instantània.',
+	'err-snapshotindex' => "Índex d'instantània no disponible temporalment. Si us plau prova-ho més tard.",
+	'err-invalid-repo' => 'Repositori desconegut: "$1".',
+	'err-invalid-branch' => 'Branca desconeguda: "$1" al repositori "$2".',
+	'err-nosnapshot' => 'Les instantànies es generen cada poques hores. Mentre es generava la de  "$1" s\'ha produït un error. Si us plau, prova-ho de nou més tard.',
+	'err-noupdatelog' => "No s'ha trobat cap registre d'actualització.",
+	'repo-site-link' => 'Lloc web',
+	'repo-browse-link' => 'Navega pel repositori',
+	'repo-branches-label' => 'Branques:',
+	'repo-lastmoddate-label' => 'Data:',
+	'branches-submit-button' => 'Aconsegueix-ho!',
+	'updatelog-link' => "Registre d'actualitzacions",
+	'tablehead-repo' => 'Repositori',
+	'tablehead-snapshots' => 'Instantànies',
+	'tablehead-branch' => 'Branca',
+	'tablehead-filesize' => 'Mida del fitxer',
+	'tablehead-hash' => 'Controls per addició',
+);
+
 /** Czech (česky)
  * @author Chmee2
+ * @author PSJG-Tyler
  */
 $messages['cs'] = array(
 	'title-error' => 'Chyba',
 	'download-button' => 'Stáhnout $1',
 	'download-directlink' => 'Přímý odkaz',
 	'repo-site-link' => 'Webová stránka',
+	'repo-lastmoddate-label' => 'Datum:',
 	'tablehead-filesize' => 'Velikost souboru',
 );
 
@@ -308,6 +378,19 @@ $messages['es'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'title-error' => 'Viga',
+	'download-button' => 'Laadi $1 alla',
+	'title-downloadpage' => 'Laadi alla: $1',
+	'repo-site-link' => 'Veebileht',
+	'repo-lastmoddate-label' => 'Kuupäev:',
+	'tablehead-filesize' => 'Faili suurus',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  * @author ZxxZxxZ
@@ -386,6 +469,26 @@ $messages['fr'] = array(
 	'tablehead-branch' => 'Branche',
 	'tablehead-filesize' => 'Taille de fichier',
 	'tablehead-hash' => 'Hachage',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'title-error' => 'Fôta',
+	'download-button' => 'Tèlèchargiér $1',
+	'download-directlink' => 'lim drêt',
+	'title-downloadpage' => 'Tèlèchargiér : $1',
+	'err-invalid-repo' => 'Dèpôt encognu : « $1 ».',
+	'err-invalid-branch' => 'Branche encognua : « $1 » dedens lo dèpôt « $2 ».',
+	'repo-site-link' => 'Seto vouèbe',
+	'repo-branches-label' => 'Branches :',
+	'repo-lastmoddate-label' => 'Dâta :',
+	'branches-submit-button' => 'L’obtegnir !',
+	'tablehead-repo' => 'Dèpôt',
+	'tablehead-branch' => 'Branche',
+	'tablehead-filesize' => 'Talye du fichiér',
+	'tablehead-hash' => 'Chaplâjo',
 );
 
 /** Galician (galego)
@@ -481,6 +584,23 @@ $messages['hsb'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
+/** Hungarian (magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'title-overview' => 'Pillanatfelvételek',
+	'title-error' => 'Hiba',
+	'title-updatelog' => 'Frissítési naplófájl',
+	'updatelog-intro' => 'A frissítést végző parancsfájl óránként fut le. Alább megtalálod a legutóbbi futtatás konzol outputját.',
+	'updatelog-active' => 'A frissítést végző parancsfájl jelenleg fut. Gyere vissza később a teljes naplóért.',
+	'download-button' => '$1 letöltése',
+	'repo-lastmoddate-label' => 'Dátum:',
+	'updatelog-link' => 'frissítési napló',
+	'tablehead-snapshots' => 'Pillanatfelvételek',
+	'tablehead-filesize' => 'Fájlméret',
+	'tablehead-hash' => 'Ellenőrzőösszegek',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
@@ -510,6 +630,37 @@ $messages['ia'] = array(
 	'tablehead-branch' => 'Branca',
 	'tablehead-filesize' => 'Dimension del file',
 	'tablehead-hash' => 'Summas de controlo',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'title-overview' => 'Cuplikan',
+	'title-error' => 'Kesalahan',
+	'title-updatelog' => 'Log pemutakhiran',
+	'updatelog-intro' => 'Skrip pemutakhiran dijadwalkan beroperasi setiap jam. Berikut adalah keluaran konsol operasi terakhir.',
+	'updatelog-active' => 'Skrip pemutakhiran sedang berjalan. Silakan kembali lagi nanti untuk log lengkapnya.',
+	'download-button' => 'Unduh $1',
+	'download-directlink' => 'tautan langsung',
+	'title-downloadpage' => 'Unduhan: $1',
+	'downloadpage-directlink' => 'Klik di sini untuk mengunduh cuplikan.',
+	'err-snapshotindex' => 'Indeks cuplikan sementara  tidak tersedia. Silakan coba lagi nanti.',
+	'err-invalid-repo' => 'Penyimpanan tidak dikenal: "$1".',
+	'err-invalid-branch' => 'Cabang tidak dikenal: "$1" di penyimpanan "$2".',
+	'err-nosnapshot' => 'Cuplikan dibuat beberapa jam sekali. Ketika membuat cuplikan untuk "$1", kesalahan terjadi. Silakan coba lagi nanti.',
+	'err-noupdatelog' => 'Log pemutakhiran tidak ditemukan.',
+	'repo-site-link' => 'Situs web',
+	'repo-browse-link' => 'Cari penyimpanan',
+	'repo-branches-label' => 'Cabang:',
+	'repo-lastmoddate-label' => 'Tanggal:',
+	'branches-submit-button' => 'Dapatkan!',
+	'updatelog-link' => 'log pemutakhiran',
+	'tablehead-repo' => 'Penyimpanan',
+	'tablehead-snapshots' => 'Cuplikan',
+	'tablehead-branch' => 'Cabang',
+	'tablehead-filesize' => 'Ukuran berkas',
+	'tablehead-hash' => 'Checksums',
 );
 
 /** Italian (italiano)
@@ -551,11 +702,16 @@ $messages['ja'] = array(
 	'title-overview' => 'スナップショット',
 	'title-error' => 'エラー',
 	'title-updatelog' => '更新記録',
+	'updatelog-intro' => '更新スクリプトを毎時間実行するようスケジュールされています。下記は前回の実行でのコンソール出力です。',
+	'updatelog-active' => '更新スクリプトを現在実行中です。あとで完了記録を確認してください。',
 	'download-button' => '$1 をダウンロード',
 	'download-directlink' => '直接リンク',
 	'title-downloadpage' => 'ダウンロード：$1',
 	'downloadpage-directlink' => 'スナップショットをダウンロードするにはここをクリックします。',
-	'err-invalid-repo' => '不明なリポジトリ："$1"',
+	'err-snapshotindex' => 'スナップショットのインデックスは一時的に利用できません。あとでもう一度やり直してください。',
+	'err-invalid-repo' => '不明なリポジトリ：「$1」',
+	'err-invalid-branch' => '不明なブランチ：リポジトリ「$2」内の「$1」',
+	'err-nosnapshot' => 'スナップショットは数時間ごとに生成されます。「$1」のスナップショット生成中にエラーが発生しました。あとでもう一度やり直してください。',
 	'err-noupdatelog' => '更新記録が見つかりませんでした。',
 	'repo-site-link' => 'ウェブサイト',
 	'repo-browse-link' => 'リポジトリを参照',
@@ -568,6 +724,76 @@ $messages['ja'] = array(
 	'tablehead-branch' => 'ブランチ',
 	'tablehead-filesize' => 'ファイルサイズ',
 	'tablehead-hash' => 'チェックサム',
+);
+
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'title-overview' => 'Cuplikan',
+	'title-error' => 'Kasalahan',
+	'title-updatelog' => 'Anyari log',
+	'updatelog-intro' => 'Skrip anyar dijadwalaké lumangsung pendhak jam. Ngisor iki weton konsol saka gawéan pungkasan.',
+	'updatelog-active' => 'Skrip anyar lagi lumangsung. Mangga mréné manèh mengko kanggo log jangkepé.',
+	'download-button' => 'Undhuh $1',
+	'download-directlink' => 'pranala langsung',
+	'title-downloadpage' => 'Undhuhan: $1',
+	'downloadpage-directlink' => 'Klik kènè kanggo ngundhuh cuplikan.',
+	'err-invalid-repo' => 'Panyimpenan ora dikenal: "$1".',
+	'err-invalid-branch' => 'Pang ora dikenal: "$1" nèng panyimenan "$2".',
+	'err-noupdatelog' => 'Log anyar ora ditemokaké.',
+	'repo-site-link' => 'Situs wèb',
+	'repo-browse-link' => 'Tlusur panyimpenan',
+	'repo-branches-label' => 'Pang:',
+	'repo-lastmoddate-label' => 'Tanggal:',
+	'branches-submit-button' => 'Éntokaké!',
+	'updatelog-link' => 'anyari log',
+	'tablehead-repo' => 'Panyimpenan',
+	'tablehead-snapshots' => 'Cuplikan',
+	'tablehead-branch' => 'Pang',
+	'tablehead-filesize' => 'Gedhéné berkas',
+	'tablehead-hash' => 'Checksum',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'title-error' => 'შეცდომა',
+	'repo-site-link' => 'ვებ-გვერდი',
+	'repo-lastmoddate-label' => 'თარიღი:',
+	'tablehead-filesize' => 'ფაილის ზომა',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'title-overview' => '스냅샷',
+	'title-error' => '오류',
+	'title-updatelog' => '올리기 기록',
+	'updatelog-intro' => '업데이트 스크립트는 매 시간마다 실행하도록 예약합니다. 다음은 마지막 실행의 콘솔 출력입니다.',
+	'updatelog-active' => '업데이트 스크립트는 현재 실행하고 있습니다. 나중에 완료 기록을 확인하세요.',
+	'download-button' => '$1 다운로드',
+	'download-directlink' => '직접 링크',
+	'title-downloadpage' => '다운로드: $1',
+	'downloadpage-directlink' => '스냅샷을 다운로드하려면 여기를 클릭하세요.',
+	'err-snapshotindex' => '스냅샷 색인을 일시적으로 사용할 수 없습니다. 나중에 다시 시도하세요.',
+	'err-invalid-repo' => '알 수 없는 저장소: "$1".',
+	'err-invalid-branch' => '알 수 없는 지점: "$2" 저장소의 "$1"',
+	'err-nosnapshot' => '스냅샷은 몇 시간마다 생성합니다. "$1"에 대한 스냅샷을 생성하는 동안 오류가 발생했습니다. 나중에 다시 시도하세요.',
+	'err-noupdatelog' => '올리기 기록을 찾을 수 없습니다.',
+	'repo-site-link' => '웹사이트',
+	'repo-browse-link' => '저장소 찾아보기',
+	'repo-branches-label' => '지점:',
+	'repo-lastmoddate-label' => '날짜:',
+	'branches-submit-button' => '얻기!',
+	'updatelog-link' => '올리기 기록',
+	'tablehead-repo' => '저장소',
+	'tablehead-snapshots' => '스냅샷',
+	'tablehead-branch' => '지점',
+	'tablehead-filesize' => '파일 크기',
+	'tablehead-hash' => '체크섬',
 );
 
 /** Colognian (Ripoarisch)
@@ -611,6 +837,7 @@ Versöhg_et schpääder norr_ens.',
  */
 $messages['ku-latn'] = array(
 	'title-error' => 'Çewtî',
+	'repo-site-link' => 'Malper',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -694,6 +921,35 @@ $messages['ms'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'title-overview' => 'Ritratti istantanji',
+	'title-error' => 'Żball',
+	'title-updatelog' => 'Aġġorna r-reġistru',
+	'updatelog-intro' => "L-aġġornament iseħħ kull siegħa. Hawn taħt hemm ir-riżultat tal-''console'' tal-aħħar aġġornament.",
+	'updatelog-active' => 'L-aġġornament qiegħed isir bħalissa. Ejja iktar tard għar-reġistru sħiħ.',
+	'download-button' => 'Niżżel $1',
+	'download-directlink' => 'ħolqa diretta',
+	'title-downloadpage' => 'Niżżel: $1',
+	'downloadpage-directlink' => 'Agħfas hawnhekk sabiex tniżżel ir-ritratt istantanju.',
+	'err-snapshotindex' => "Indiċi tar-ritratt istantanju attwalment mhuwiex disponibbli. Jekk jogħġbok erġa' pprova iktar tard.",
+	'err-invalid-repo' => 'Repożitorju mhux magħruf: "$1".',
+	'err-invalid-branch' => 'Sezzjoni mhux magħrufa: "$1" fir-repożitorju "$2".',
+	'err-nosnapshot' => 'Ir-ritratti istantanji huma ġenerati kull ftit sigħat. Waqt il-ġenerazzjoni tar-ritratti istantanji għal "$1", inqalgħet problema. Erġa\' pprova iktar tard.',
+	'err-noupdatelog' => 'L-ebda reġistru tal-aġġornament ma nstab.',
+	'repo-site-link' => 'Sit elettroniku',
+	'repo-browse-link' => 'Qalleb fir-repożitorju',
+	'repo-branches-label' => 'Sezzjonijiet:',
+	'repo-lastmoddate-label' => 'Data:',
+	'updatelog-link' => 'reġistru tal-aġġornament',
+	'tablehead-repo' => 'Repożitorju',
+	'tablehead-snapshots' => 'Ritratti istantanji',
+	'tablehead-branch' => 'Sezzjoni',
+	'tablehead-filesize' => 'Daqs tal-fajl',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -723,6 +979,35 @@ $messages['nl'] = array(
 	'tablehead-branch' => 'Branch',
 	'tablehead-filesize' => 'Bestandsgrootte',
 	'tablehead-hash' => 'Hash',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'title-overview' => 'ପ୍ରତିଛବି',
+	'title-error' => 'ଭୁଲ',
+	'title-updatelog' => 'ତାଲିକା ଅପଡେଟ କରିବେ',
+	'updatelog-active' => 'ଅପଡେଟ ସ୍କ୍ରିପ୍ଟଟି ବର୍ତ୍ତମାନ ଚାଲୁଛି । ସମ୍ପୂର୍ଣ ତାଲିକା ପାଇଁ ଆଉ କିଛି ସମୟ ପରେ ଆସନ୍ତୁ ।',
+	'download-button' => '$1 ଡାଉନଲୋଡ କରିବେ',
+	'download-directlink' => 'ସିଧା ଲିଙ୍କ',
+	'title-downloadpage' => 'ଡାଉନଲୋଡ କରିବେ :$1',
+	'downloadpage-directlink' => 'ପ୍ରତିଛବିଟିକୁ ଡାଉନଲୋଡ କରିବା ପାଇଁ ଏଠାରେ କ୍ଲିକ କରନ୍ତୁ ।',
+	'err-snapshotindex' => 'ପ୍ରତିଛବି ସୂଚୀ ଏବେ ଉପଲବ୍ଧ ନାହିଁ । ଦୟାକରି କିଛି ସମୟ ପରେ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ ।',
+	'err-invalid-repo' => 'ଅଜଣା ଭଣ୍ଡାର : "$1" ।',
+	'err-invalid-branch' => '"$2" ଭଣ୍ଡାର ମଧ୍ୟରେ ଅଜଣା ଶାଖା :"$1" ।',
+	'err-nosnapshot' => 'ପ୍ରତିଛବିଗୁଡିକ ପ୍ରତି ଘଣ୍ଟାରେ ବାହାରେ । "$1" ପାଇଁ ପ୍ରତିଛବି ବାହାର ହେଉଥିବା ସମୟରେ କିଛି ଅସୁବିଧା ହେଲା । ଦୟାକରି ଆଉ କିଛି ସମୟ ପରେ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ ।',
+	'err-noupdatelog' => 'କୌଣସି ଅପଡେଟ ତାଲିକା ମିଳିଲା ନାହିଁ',
+	'repo-site-link' => 'ୱେବସାଇଟ',
+	'repo-browse-link' => 'ଭଣ୍ଡାରରେ ଖୋଜିବେ',
+	'repo-branches-label' => 'ଶାଖାଗୁଡ଼ିକ:',
+	'repo-lastmoddate-label' => 'ତାରିଖ:',
+	'branches-submit-button' => 'ଏହାକୁ ନେବେ !',
+	'updatelog-link' => 'ତାଲିକା ଅପଡେଟ କରିବେ',
+	'tablehead-repo' => 'ଭଣ୍ଡାର',
+	'tablehead-snapshots' => 'ପ୍ରତିଛବି',
+	'tablehead-branch' => 'ଶାଖା',
+	'tablehead-filesize' => 'ସମୁର୍ଣ୍ଣ ଆକାର',
 );
 
 /** Pälzisch (Pälzisch)
@@ -775,6 +1060,7 @@ $messages['ps'] = array(
 	'repo-branches-label' => 'څانګې:',
 	'repo-lastmoddate-label' => 'نېټه:',
 	'tablehead-branch' => 'څانګه',
+	'tablehead-filesize' => 'د دوتنې کچه',
 );
 
 /** Romanian (română)
@@ -940,6 +1226,27 @@ $messages['sr-el'] = array(
 	'tablehead-hash' => 'Kontrolni zbir',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'title-overview' => 'நிழற்பட நொடிப்பெடுப்புகள்',
+	'title-error' => 'பிழை',
+	'title-updatelog' => 'புதுப்பித்தல் பதிவு',
+	'download-button' => '$1 ஐத் தரவிறக்கு',
+	'download-directlink' => 'நேரடி இணைப்பு',
+	'title-downloadpage' => 'தரவிறக்கவும்: $1',
+	'downloadpage-directlink' => 'நிழற்பட நொடிப்பெடுப்பைத் தரவிறக்க இங்கே சொடுக்கவும்.',
+	'err-noupdatelog' => 'புதுப்பித்தல் பதிவு எதுவும் கண்டுபிடிக்கப்படவில்லை.',
+	'repo-site-link' => 'இணையத்தளம்',
+	'repo-lastmoddate-label' => 'நாள்:',
+	'branches-submit-button' => 'அதைப் பெறுக!',
+	'updatelog-link' => 'புதுப்பித்தல் பதிவு',
+	'tablehead-snapshots' => 'நிழற்பட நொடிப்பெடுப்புகள்',
+	'tablehead-filesize' => 'கோப்பு அளவு',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -948,6 +1255,8 @@ $messages['te'] = array(
 	'download-directlink' => 'నేరు లంకె',
 	'repo-site-link' => 'జాలగూడు',
 	'repo-lastmoddate-label' => 'తేది:',
+	'updatelog-link' => 'తాజాకరణల చిట్టా',
+	'tablehead-filesize' => 'దస్త్రపు పరిమాణం',
 );
 
 /** Tagalog (Tagalog)
