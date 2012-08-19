@@ -109,10 +109,13 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Jezevec
+ * @author Vks
  */
 $messages['cs'] = array(
 	'moretools' => 'více nástrojů od stejného autora',
+	'bugs' => 'hlášení chyb a požadavky na vylepšení',
 	'comments' => 'komentáře a dotazy',
+	'error-form-empty' => 'Jedna nebo více povinných položek byla ponechána nevplněná. Měli byste je vyplnit, aby se mohlo pokračovat.',
 );
 
 /** Danish (dansk)
@@ -518,6 +521,16 @@ $messages['tr'] = array(
 	'bugs' => 'hata raporları ve özellik istekleri',
 	'comments' => 'yorum ve sorgular',
 	'error-form-empty' => 'Bir veya daha fazla gerekli alan boş bırakılmıştır. Devam etmeden önce bunları doldurmanız gerekir.',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'moretools' => 'ئوخشاش بىر يازغۇچىنىڭ تېخىمۇ كۆپ قوراللىرى',
+	'bugs' => 'خاتالىق دوكلاتى ۋە ئىقتىدار ئىلتىماسى',
+	'comments' => 'پىكىر ۋە سۈرۈشتۈرۈش',
+	'error-form-empty' => 'تولدۇرۇش زۆرۈر بولغان بىر ياكى بىر قانچە سۆز بۆلىكى بوش قالدۇرۇلغان. داۋاملاشتۇرۇشتىن ئىلگىرى ئۇلارنى تاماملاڭ.',
 );
 
 /** Vietnamese (Tiếng Việt)

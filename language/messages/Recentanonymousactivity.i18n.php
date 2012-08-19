@@ -235,6 +235,13 @@ $messages['lb'] = array(
 	'title' => 'Rezent Aktivitéit vun anonyme Benotzer',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'title' => 'Naujausia anoniminė veikla',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -375,6 +382,13 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'title' => 'Son anonim etkinliği',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'title' => 'يېقىنقى ئاتسىز پائالىيەتلەر',
 );
 
 /** Vietnamese (Tiếng Việt)

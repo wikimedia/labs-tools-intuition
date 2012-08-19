@@ -421,6 +421,7 @@ pe melezourioù GNU all, sellit ouzh
 
 /** Catalan (català)
  * @author Gemmaa
+ * @author Vriullop
  */
 $messages['ca'] = array(
 	'title' => 'Descàrrega de les imatges per categoria',
@@ -437,7 +438,7 @@ $messages['ca'] = array(
 	'category-is-url' => "El nom de la categoria determinada s'assembla a un URL. Heu d'especificar el nom de categoria, no l'URL.",
 	'category-contains-namespace' => "Sembla que han d'incloure l'espai de nom en el nom de la categoria. Amb el nom, la pàgina estaria disponible com [[Category:$1]].",
 	'zip-failed' => 'Creació de cremalleres ha fallat',
-	'image-area-too-big' => '$1és massa gran per crear una ungla. Ús de mida completa.',
+	'image-area-too-big' => '$1 és massa gran per crear una miniatura. Utilitzant la mida completa.',
 	'download-info' => '{{plural:  $1 |Hi ha un image|Hi ha  $1  imatges}}, amb una mida aproximada de$2',
 	'download' => 'Descarregar',
 	'readme-contents' => "L'arxiu de enclosing  $4  en les llistes de
@@ -472,6 +473,7 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
  * @author Jezevec
  * @author Jkjk
  * @author Mormegil
+ * @author Vks
  */
 $messages['cs'] = array(
 	'title' => 'Stahování obrázků podle kategorie',
@@ -488,6 +490,7 @@ $messages['cs'] = array(
 	'category-is-url' => 'Zadaný název kategorie vypadá jako URL. Je třeba zadat název kategorie, nikoli její adresu.',
 	'zip-failed' => 'Nepodařilo se vytvořit ZIP',
 	'image-area-too-big' => '$1je příliš velký pro vytvoření miniatury. Bude použita plná velikost.',
+	'download-info' => '{{plural: $1|Je to jeden obrázek|Je to $1 obrázků}} o předpokládané velikosti $2',
 	'download' => 'Stáhnout',
 	'non-bundled-wget' => 'Poznámka: Tato verze neobsahuje wget pro Windows. Je nutné dekomprimovat do složky s wget.exe nebo mít wget v PATH',
 );
@@ -695,19 +698,40 @@ o en algún otro espejo de GNU, ver
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
+	'title' => 'Piltide allalaadimine kategooria kaupa',
+	'subtitle' => 'Lihtne moodus kategoorias olevate piltide allalaadimiseks',
 	'project' => 'Projekt:',
 	'category' => 'Kategooria:',
+	'thumbnailing' => 'Pisipildistamine',
 	'max-width' => 'Maksimaalne laius:',
 	'max-height' => 'Maksimaalne kõrgus:',
 	'invalid-width' => 'Sobimatu laius',
 	'invalid-height' => 'Sobimatu kõrgus',
 	'no-such-project' => 'Sellist projekti ei ole',
 	'no-images' => 'Selles kategoorias ei ole pilte',
+	'category-is-url' => 'Toodud kategooria nimi meenutab internetiaadressi. Määrata tuleb kategooria nimi, mitte selle internetiaadress.',
+	'category-contains-namespace' => 'Paistab, et oled kategooria nime juurde lisanud nimeruumi. Sellise nimega asuks kategooria leheküljel [[Category:$1]].',
 	'zip-failed' => 'ZIP-faili loomine nurjus',
-	'download-info' => '{{mitmuse:  $1 |On üks pilt|On  $1  pilti}}, mille hinnanguline suurus on $2',
+	'image-area-too-big' => '$1 on pisipildi loomiseks liiga suur. Kasutatakse täissuurust.',
+	'download-info' => '{{plural:$1|Üks pilt|$1 pilti}} hinnangulise suurusega $2',
 	'download' => 'Laadi alla',
+	'readme-contents' => 'Kaasasolev fail $4 loetleb
+pildid kategoorias $1 ( $2 ). Need pildid on $3.
+
+== Juhised loetletud piltide allalaadimiseks ==
+Allalaadimis aeg võib ulatuda mõnest minutist mitme tunnini.
+
+Windows:
+ Paki kõik failid lahti samasse kausta ja käivita $5
+ $6
+Linux/Mac OS
+ Paki kõik failid ja ava selles kaustas terminal. Käivita sh $5',
+	'scaling-width' => 'mastaabitud maksimaalse laiuseni $1 {{plural:$1|piksel|pikslit}}',
+	'scaling-height' => 'mastaabitud maksimaalse kõrguseni $1 {{plural:$1|piksel|pikslit}}',
+	'scaling-both' => 'mastaabitud maksimaalse suuruseni $1x$2 pikslit',
 );
 
 /** Basque (euskara)
@@ -843,16 +867,30 @@ ou un autre miroir GNU, voyez
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'title' => 'Tèlèchargement d’émâges per catègorie',
+	'subtitle' => 'La maniére la ples simpla por tèlèchargiér les émâges dedens na catègorie',
 	'project' => 'Projèt :',
 	'category' => 'Catègorie :',
+	'thumbnailing' => 'Figurâjo',
 	'max-width' => 'Largior maximon :',
 	'max-height' => 'Hôtior maximon :',
 	'invalid-width' => 'Largior envalida',
 	'invalid-height' => 'Hôtior envalida',
+	'no-such-project' => 'Cél projèt ègziste pas',
+	'no-images' => 'Y at gins d’émâge dedens cela catègorie',
+	'zip-failed' => 'La crèacion du zip at pas reussia',
 	'download' => 'Tèlèchargiér',
 	'scaling-width' => ', betâ a l’èchiéla avouéc na largior maximon de $1 pixèl{{plural:$1||s}}',
 	'scaling-height' => ', betâ a l’èchiéla avouéc n’hôtior maximon de $1 pixèl{{plural:$1||s}}',
 	'scaling-both' => ', betâ a l’èchiéla avouéc na talye maximon de $1 x $2 pixèls',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'category' => 'Catagóir:',
+	'download' => 'Íosluchtaigh',
 );
 
 /** Galician (galego)
@@ -950,6 +988,22 @@ Windows:
 	'scaling-width' => ', בהגדלה לרוחב מרבי של {{plural:$1|פיקסל אחד|$1 פיקסלים}}',
 	'scaling-height' => ', בהגדלה לגובה מרבי של {{plural:$1|פיקסל אחד|$1 פיקסלים}}',
 	'scaling-both' => ', בהגדלה לגודל מרבי של $1x$2 פיקסלים',
+);
+
+/** Croatian (hrvatski)
+ * @author Ex13
+ */
+$messages['hr'] = array(
+	'project' => 'Projekt:',
+	'category' => 'Kategorija:',
+	'thumbnailing' => 'Minijaturizacija',
+	'max-width' => 'Najveća širina:',
+	'max-height' => 'Najveća visina:',
+	'invalid-width' => 'Neispravna širina',
+	'invalid-height' => 'Neispravna visina',
+	'no-such-project' => 'Nema takvog projekta',
+	'no-images' => 'Nema slika u toj kategoriji',
+	'category-is-url' => 'Navedeni naziv kategorije čini se kao URL. Potrebno je navesti naziv kategorije, a ne njegov URL.',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -1436,6 +1490,12 @@ $messages['lb'] = array(
 $messages['lt'] = array(
 	'project' => 'Projektas:',
 	'category' => 'Kategorija:',
+	'max-width' => 'Maksimalus plotis',
+	'max-height' => 'Maksimalus aukštis:',
+	'invalid-width' => 'Neleistinas plotis',
+	'invalid-height' => 'Neleistinas aukštis',
+	'no-such-project' => 'Nėra tokio projekto',
+	'zip-failed' => 'Zip sukurti nepavyko',
 	'download' => 'Atsisiųsti',
 );
 
@@ -1455,6 +1515,8 @@ $messages['lv'] = array(
 	'no-such-project' => 'Šāds projekts nepastāv',
 	'no-images' => 'Šajā kategorijā nav attēlu',
 	'category-is-url' => 'Ievadītais kategorijas nosaukums izskatās pēc URL. Jums jāievada kategorijas nosaukums, nevis tās URL.',
+	'zip-failed' => 'Zip izveide neizdevās',
+	'image-area-too-big' => '$1 ir pārāk liels, lai izveidotu sīktēlu. Izmanto pilnā izmērā.',
 	'download' => 'Lejupielādēt',
 );
 
@@ -1824,8 +1886,15 @@ $messages['roa-tara'] = array(
 	'invalid-height' => 'Iertezze invalide',
 	'no-such-project' => 'Non ge stonne pruggette',
 	'no-images' => "Non ge stonne immaggine jndr'à quedda categorije",
+	'category-is-url' => "'U nome d'a categorije date pare 'n'URL. Tu è abbesogne de specificà 'u nome d'a categorije, non l'URL sue.",
+	'category-contains-namespace' => "Pare ca tu è mise 'u nome d'u namespace jndr'à quidde d'a categorije. Cu stu nome ca è date, 'a pàgene pò essere disponibbele cumme [[Category:$1]].",
 	'zip-failed' => "Ccrejazione d'u ZIP fallite",
+	'image-area-too-big' => "$1 jè troppe granne pe ccrejà 'na miniature. Ause 'a dimenzione comblete.",
+	'download-info' => "{{plural: $1|stè 'n'immaggine|Stonne $1 immaggine}}, cu 'na dimenzione stimate de $2",
 	'download' => 'Scareche',
+	'scaling-width' => ", scalate a 'a massime larghezze de $1 {{plural:$1:pixel|pixel}}",
+	'scaling-height' => ", scalate a 'a massime altezze de $1 {{plural:$1:pixel|pixel}}",
+	'scaling-both' => ", scalate a 'a massima dimenzione de $1x$2 pixel",
 	'script-filename' => 'download.bat',
 	'readme-filename' => 'README.txt',
 );
@@ -1883,6 +1952,12 @@ Linux/Mac OS
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'project' => 'ව්‍යාපෘතිය:',
+	'category' => 'ප්‍රවර්ගය:',
+	'max-width' => 'උපරිම පළල:',
+	'max-height' => 'උපරිම උස:',
+	'invalid-width' => 'වලංගු නොවන පළල',
+	'invalid-height' => 'වලංගු නොවන උස',
 	'download' => 'බාගන්න',
 );
 
@@ -1940,6 +2015,44 @@ ali katerega drugega zrcala GNU; glej
 	'scaling-width' => ', prilagojene na širino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
 	'scaling-height' => ', prilagojene na višino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
 	'scaling-both' => ', prilagojene na velikost največ $1x$2 slikovnih pik',
+);
+
+/** Albanian (shqip)
+ * @author FatosMorina
+ */
+$messages['sq'] = array(
+	'title' => 'Shkarkimi i fotografive në bazë të kategorisë',
+	'subtitle' => 'Rruga e lehtë për të shkarkuar fotografitë në një kategori',
+	'project' => 'Projekti',
+	'category' => 'Kategoria:',
+	'thumbnailing' => 'Paraqitja',
+	'max-width' => 'Gjerësia maksimale:',
+	'max-height' => 'Lartësia maksimale:',
+	'invalid-width' => 'Gjerësi jo e vlefshme',
+	'invalid-height' => 'Lartësi jo e vlefshme',
+	'no-such-project' => 'Nuk ka projekt të tillë',
+	'no-images' => 'Nuk ka fotografi në atë kategori',
+	'category-is-url' => 'Emri i dhënë i kategorisë duket të jetë një URL. Ju duhet të cekni emrin e kategorisë, jo URL-në e saj.',
+	'category-contains-namespace' => 'Duket se ju keni përfshirë hapësirën së bashku me emrin e kategorisë. Me emrin e dhënë, faqja do të jetë në dispozicion si [[Kategoria:$1]].',
+	'zip-failed' => 'Krijimi në zip dështoi',
+	'image-area-too-big' => '$1 është shumë i madh për të krijuar një pamje. Duke përdorur madhësinë e plotë.',
+	'download-info' => '{{plural: $1|Është një fotografi|Janë $1 fotografi}}, me një madhësi të vlerësuar prej $2',
+	'download' => 'Shkarko',
+	'readme-contents' => 'Skedari i bashkëngjitur $4 liston 
+fotografitë në kategorinë $1 ($2) $3.',
+	'non-bundled-wget' => 'Shënim: Ky version nuk përfshin wget për Windows. Juve do të ju duhet që të shpërndani në një follder me wget.exe ose anasjelltas, të keni wget në RRUGË',
+	'wget-info' => 'Ky skedar lidh një kopje të wget $1 (për platformën Windows). Wget është Softuer i Lirë, nën rregullat e Licencës së Përgjithshme Publike GNU versioni 3.
+Është një kopje e licencës më poshtë dhe ajo është gjithashtu në dispozicion në http://www.gnu.org/licenses/gpl-3.0.txt
+
+Në rast se jeni të interesuar që ta merrni kodin burimor për këtë program, ju mund ta shkarkoni atë nga 
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ose nga ndonjë Pasqyrë tjetër GNU, shihni
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', shkallëzuar në një gjerësi maksimale prej $1 {{plural:$1|piksell|piksellë}}',
+	'scaling-height' => ', shkallëzuar në një lartësi maksimale prej $1 {{plural:$1|piksell|piksellë}}',
+	'scaling-both' => ', shkallëzuar në një madhësi maksimale prej $1x$2 piksellë',
 );
 
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
@@ -2042,9 +2155,27 @@ ili koristite druge rezervne veze:
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'title' => 'Nedladdning av bild efter kategori',
+	'subtitle' => 'Det enkla sättet att ladda ned bilder i en kategori',
 	'project' => 'Projekt:',
 	'category' => 'Kategori:',
+	'max-width' => 'Maximal bredd:',
+	'max-height' => 'Maximal höjd:',
+	'invalid-width' => 'Ogiltig bredd',
+	'invalid-height' => 'Ogiltig höjd',
+	'no-such-project' => 'Det finns inget sådant projekt',
+	'no-images' => 'Det finns inga bilder i den kategorin',
+	'category-is-url' => 'Den angivna kategorinamnet ser ut som en URL. Du måste ange kategorinamnet, inte dess URL.',
+	'category-contains-namespace' => 'Du verkar har inkluderat namnrymden tillsammans med kategorinamnet. Med det angivna namnet skulle sidan vara tillgänglig som [[Category:$1]].',
+	'zip-failed' => 'Skapande av ZIP misslyckades',
+	'image-area-too-big' => '$1 är för stor för att skapa en miniatyr. Använder full storlek.',
+	'download-info' => '{{plural: $1|Det finns en bild|Det finns $1 bilder}} med en uppskattad storlek på $2',
 	'download' => 'Ladda ned',
+	'non-bundled-wget' => 'OBS: Denna version inkluderar inte wget för Windows. Du måste expandera
+till en mapp med wget.exe eller annars har wget i SÖKVÄGEN',
+	'scaling-width' => ', skalas till en maximal bredd av $1 {{plural:$1|pixel|pixlar}}',
+	'scaling-height' => ', skalas till en maximal höjd av $1 {{plural:$1|pixel|pixlar}}',
+	'scaling-both' => ', skalas till en maximal storlek av $1x$2 pixlar',
 );
 
 /** Swahili (Kiswahili)
@@ -2177,6 +2308,48 @@ $messages['tr'] = array(
 	'max-width' => 'En fazla genişlik:',
 	'max-height' => 'En fazla yükseklik:',
 	'download' => 'İndir',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'title' => 'سۈرەتنى تۈرى بوبيچە چۈشۈر',
+	'subtitle' => 'بىر تۈر بويىچە سۈرەت چۈشۈرۈشنىڭ ئاددىي يولى',
+	'project' => 'قۇرۇلۇش:',
+	'category' => 'تۈرى:',
+	'thumbnailing' => 'كىچىك سۈرەت',
+	'max-width' => 'ئەڭ چوڭ كەڭلىكى:',
+	'max-height' => 'ئەڭ چوڭ ئېگىزلىكى',
+	'invalid-width' => 'ئىناۋەتسىز كەڭلىك',
+	'invalid-height' => 'ئىناۋەتسىز ئېگىزلىك',
+	'no-such-project' => 'بۇنداق قۇرۇلۇش يوق',
+	'no-images' => 'بۇ تۈردە ھېچقانداق سۈرەت يوق',
+	'category-is-url' => 'بېرىلگەن تۈرنىڭ ئاتى URL دەك تۇرىدۇ. سىز تۈرنىڭ URL ئەمەس، بەلكى تۈر ئاتىنى تەمىنلىشىڭىز كېرەك.',
+	'category-contains-namespace' => 'تۈر ئاتى ئات بوشلۇقىنى ئۆز ئىچىگە ئالغاندەك تۇرىدۇ. بۇ خىل ئاتنى ئىشلەتكەندە بەت [[Category:$1]] كۆرۈنىدۇ.',
+	'zip-failed' => 'Zip قۇرالمىدى',
+	'image-area-too-big' => '$1 كىچىك سۈرەت قۇرۇشقا نىسبەتە بەك چوڭ. ئەمەلىي چوڭلۇقىنى ئىشلىتىڭ.',
+	'download-info' => 'بۇ جايدا {{plural: $1|سۈرەت|$1 سۈرەت}} بار، مۆلچەرلەنگەن چوڭلۇقى $2',
+	'download' => 'چۈشۈر',
+	'readme-contents' => 'ھۆججەت $4 تۆۋەندىكى مەزمۇننى ئۆز ئىچىگە ئالىدۇ
+$1 تۈردىكى ( $2 )$3 سۈرەتلەر.
+
+==كۆرسىتىلگەن ھەممە سۈرەتلەرنى چۈشۈرۈش يېتەكچىسى==
+چۈشۈرۈش جەريانىغا بىر قانچە مىنۇتتىن بىر قانچە سائەتكىچە ۋاقىت كېتىشى مۇمكىن.
+
+Windows:
+ھەممە ھۆججەتلەرنى ئوخشاش بىر قىسقۇچقا يېشىپ $5 نى ئىجرا قىلىدۇ
+
+$6
+Linux/Mac OS
+ھەممە ھۆججەتلەرنى يېشىپ تېرمىنالنى شۇ قىسقۇچتا ئېچىپ تۆۋەندىكى بۇيرۇقنى ئىجرا قىلىدۇ
+Run sh $5',
+	'non-bundled-wget' => 'دىققەت: بۇ نەشرى Windows نەشرىنىڭ wget نى ئۆز ئىچىگە ئالمايدۇ. سىز ئۇلارنى wget.exe بار بىر مۇندەرىجىگە يېشىڭ ياكى PATH تە wget نى ئۆز ئىچىگە ئالسۇن.',
+	'scaling-width' => '، ئەڭ چوڭ كەڭلىك $1 {{plural:$1|پىكسېل|پىكسېل}}غا چوڭايت',
+	'scaling-height' => '، ئەڭ چوڭ ئېگىزلىك $1 {{plural:$1|پىكسېل|پىكسېل}}غا چوڭايت',
+	'scaling-both' => '، ئەڭ چوڭ بولغاندا $1x$2 پىكسېلغا چوڭايت',
+	'script-filename' => 'download.bat',
+	'readme-filename' => 'README.txt',
 );
 
 /** Ukrainian (українська)

@@ -305,8 +305,11 @@ $messages['ca'] = array(
  * @author Chmee2
  * @author Jezevec
  * @author PSJG-Tyler
+ * @author Vks
  */
 $messages['cs'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(nejdříve vyber wiki)',
 	'hideredirects' => 'Skrýt přesměrování',
 	'hidesubpages' => 'Skrýt podstránky',
 	'limit' => 'hranice',
@@ -319,6 +322,9 @@ $messages['cs'] = array(
 	'tools-subject' => 'téma',
 	'tools-hist' => 'historie',
 	'tools-curr' => 'poslední editace',
+	'tools-globalusage' => 'globální použití',
+	'deletesummary' => 'Čistím osiřelé diskuzní stránky přes $1',
+	'noresults' => 'Žádné osiřelé diskuzní stránky na této wiki v tomto jmenném prostoru neodpovídají Vašemu nastavení.',
 	'resultslimited' => 'Výsledky byly omezeny na  $1  stránek.',
 );
 
@@ -452,11 +458,26 @@ $messages['es'] = array(
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
+	'select-wiki-first' => '(kõigepealt vali viki)',
+	'hideredirects' => 'Peida ümbersuunamised',
+	'hidesubpages' => 'Peida alamleheküljed',
+	'limit' => 'Piirang',
 	'page' => 'Lehekülg',
+	'redirect' => 'Ümbersuunamine?',
+	'output' => 'Väljund',
+	'update' => 'Värskenda',
 	'tools-delete' => 'kustuta',
+	'tools-links' => 'lingid',
+	'tools-subject' => 'lehekülg',
 	'tools-hist' => 'ajal',
+	'tools-curr' => 'uusim versioon',
+	'tools-globalusage' => 'globaalne kasutus',
+	'deletesummary' => 'Orbarutelu eemaldatud tööriista $1 abil',
+	'noresults' => 'Selle viki selles nimeruumis ei vasta sinu sätetele ükski orbarutelu.',
+	'resultslimited' => 'Lehekülje kohta näidatakse $1 tulemust.',
 );
 
 /** Basque (euskara)
@@ -565,6 +586,14 @@ $messages['frp'] = array(
 	'tools-hist' => 'hist',
 	'tools-curr' => 'ora',
 	'tools-globalusage' => 'usâjo globâl',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'page' => 'Leathanach',
+	'tools-delete' => 'scrios',
 );
 
 /** Galician (galego)
@@ -897,6 +926,9 @@ $messages['ko'] = array(
 	'tools-subject' => '제목',
 	'tools-hist' => '역사',
 	'tools-curr' => '차이',
+	'tools-globalusage' => '공통사용',
+	'deletesummary' => '$1(을)를 통해 외톨이 토론 문서 정리',
+	'noresults' => '이 위키에 설정에서 일치하는 이 이름공간에서 외톨이 토론 문서가 없습니다.',
 	'resultslimited' => '결과는 문서 $1개로 제한했습니다.',
 );
 
@@ -1362,6 +1394,14 @@ $messages['sl'] = array(
 	'resultslimited' => 'Rezultati so bili omejeni na $1 stran.',
 );
 
+/** Albanian (shqip)
+ * @author FatosMorina
+ */
+$messages['sq'] = array(
+	'hideredirects' => 'Fshih përcjelljet',
+	'hidesubpages' => 'Fshih nënfaqet',
+);
+
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
@@ -1547,6 +1587,30 @@ $messages['tr'] = array(
 	'deletesummary' => '$1 aracılığıyla sayfası silinmiş tartışma sayfaları temizleniyor',
 	'noresults' => 'Bu vikinin bu ad alanındaki sayfası silinmiş hiçbir tartışma sayfası ayarlarınız ile eşleşmedi.',
 	'resultslimited' => 'Sonuçlar, $1 sayfa ile sınırlandırıldı.',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'title' => 'يالغۇز سۆزلىشىش بېتى2',
+	'select-wiki-first' => '(ئالدى بىلەن بىر ۋىكى تاللاڭ)',
+	'hideredirects' => 'قايتا نىشانلاشنى يوشۇر',
+	'hidesubpages' => 'تارماق بەتلەرنى يوشۇر',
+	'limit' => 'چەك',
+	'page' => 'بەت',
+	'redirect' => 'قايتا نىشانلاشمۇ؟',
+	'output' => 'چىقار',
+	'update' => 'يېڭىلا',
+	'tools-delete' => 'ئۆچۈر',
+	'tools-links' => 'ئۇلانمالار',
+	'tools-subject' => 'تېما',
+	'tools-hist' => 'تارىخ',
+	'tools-curr' => 'يېقىندا تۈزىتىلگەن نەشرى',
+	'tools-globalusage' => 'پۈتكۈل دائىرىدە قوللان',
+	'deletesummary' => '$1 ئارقىلىق يالغۇز سۆزلىشىش بېتىنى تازىلايدۇ',
+	'noresults' => 'بۇ ۋىكى بەتتە سىزنىڭ تەڭشىكىڭىزگە ماس كېلىدىغان ئات بوشلۇقىدا يالغۇز سۆزلىشىش بېتى يوق:',
+	'resultslimited' => 'نەتىجىلەر پەقەت $1 بەتلەرنىلا كۆرسىتىدۇ.',
 );
 
 /** Ukrainian (українська)

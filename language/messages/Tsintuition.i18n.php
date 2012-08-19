@@ -89,12 +89,18 @@ $messages['af'] = array(
 	'current-language' => 'Huidig gekose taal',
 	'settings-legend' => 'Instellings',
 	'choose-language' => "Kies 'n taal",
+	'clear-cookies' => 'vee koekies uit',
+	'renew-cookies' => 'verfris koekies',
+	'cookie-expiration' => 'Koekie uitlooptyd',
+	'clearcookies-success' => 'Koekies suksesvol uitgevee.',
+	'renewcookies-success' => 'Koekies is hernu! U is reg vir die komende $1.',
 	'tab-overview' => 'Oorsig',
 	'tab-settings' => 'Instellings',
 	'tab-about' => 'Aangaande',
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'My taalinstellings',
 	'bl-mysettings-new' => 'Verander taal!',
+	'bl-promo' => 'Die vertaling is moontlik gemaak deur $1 en $2.',
 	'help-translate-tool' => 'Help om hierdie program te vertaal!',
 	'help-translate-all' => 'Help om Toolserver te vertaal!',
 	'help-translate-tooltip' => 'Help ander deur koppelvlak-boodskappe na u taal te vertaal.',
@@ -699,12 +705,15 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'fullname' => 'Entèrnacionalisacion de l’entèrface utilisator du Toolserver',
 	'current-settings' => 'Configuracion d’ora',
 	'current-language' => 'Lengoua ora chouèsia',
 	'settings-legend' => 'Configuracion',
 	'choose-language' => 'Chouèsésséd na lengoua',
 	'clear-cookies' => "èfaciér los tèmouens (''cookies'')",
 	'renew-cookies' => "renovelar los tèmouens (''cookies'')",
+	'cookie-expiration' => "Èxpiracion du tèmouen (''cookie'')",
+	'clearcookies-success' => "Los tèmouens (''cookies'') sont étâs èfaciês avouéc reusséta",
 	'tab-overview' => 'Apèrçu',
 	'tab-settings' => 'Configuracion',
 	'tab-about' => 'A propôs',
@@ -714,6 +723,13 @@ $messages['frp'] = array(
 	'usage' => 'Outils traduits per Toolserver Intuition.',
 	'help-translate-tool' => 'Édiéd a traduire cet’outil !',
 	'help-translate-all' => 'Édiéd a traduire lo Toolserver !',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'tab-about' => 'Maidir leis',
 );
 
 /** Galician (galego)
@@ -1173,9 +1189,14 @@ $messages['lt'] = array(
  * @author Papuass
  */
 $messages['lv'] = array(
+	'settings-legend' => 'Uzstādījumi',
+	'choose-language' => 'Izvēlies valodu',
 	'tab-overview' => 'Pārskats',
 	'tab-settings' => 'Uzstādījumi',
 	'tab-about' => 'Par',
+	'tab-demo' => 'Demonstrācija',
+	'bl-mysettings' => 'Mani valodas uzstādījumi',
+	'bl-mysettings-new' => 'Mainīt valodu!',
 	'help-translate-tool' => 'Palīdzi iztulkot šo rīku!',
 	'help-translate-all' => 'Palīdzi tulkot Toolserver!',
 );
@@ -1400,6 +1421,7 @@ $messages['no'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
+ * @author Shisir 1945
  */
 $messages['or'] = array(
 	'current-settings' => 'ବର୍ତ୍ତମାନର ସଜାଣି',
@@ -1408,7 +1430,9 @@ $messages['or'] = array(
 	'choose-language' => 'ଭାଷା ଚୟନ କରନ୍ତୁ',
 	'clear-cookies' => 'କୁକିସ କାଢି ଦିଅନ୍ତୁ',
 	'renew-cookies' => 'କୁକିସ ପୁନାରମ୍ଭ କରନ୍ତୁ',
+	'cookie-expiration' => 'କୁକି ସମାପ୍ତ',
 	'clearcookies-success' => 'କୁକିସଗୁଡିକୁ ସଫଳ ଭାବେ କାଢି ଦିଆ ଯାଇଛି ।',
+	'renewcookies-success' => 'କୁକି ନବୀକୃତ ହେଲା! ଆପଣ ଆଗାମୀ $1 ପାଇଁ ଉପଯୁକ୍ତ.',
 	'tab-overview' => 'ନିରୀକ୍ଷଣ',
 	'tab-settings' => 'ସଜାଣି',
 	'tab-about' => 'ବିଷୟରେ',
@@ -1417,6 +1441,7 @@ $messages['or'] = array(
 	'bl-mysettings-new' => 'ଭାଷା ବଦଳାନ୍ତୁ !',
 	'bl-promo' => 'ଅନୁବାଦଟି $1 ଏବଂ $2 ଦ୍ଵାରା କରାଯାଇଛି ।',
 	'help-translate-tool' => 'ଏହି ଯନ୍ତ୍ରାଂଶଟିର ଅନୁବାଦରେ ସ‌ହଯୋଗ କରିବେ ।',
+	'help-translate-all' => 'ଟୁଲ୍‌ସର୍ଭର୍‌ ଅନୁବାଦ କରନ୍ତୁ',
 	'help-translate-tooltip' => 'ଏହି ମେସେଜକୁ ନିଜ ଭାଷାରେ ବଦଳାଇ ଅନ୍ୟମାନଙ୍କୁ ସାହାଯ୍ୟ କରନ୍ତୁ',
 );
 
@@ -1654,12 +1679,17 @@ $messages['ru'] = array(
 
 /** Sinhala (සිංහල)
  * @author Singhalawap
+ * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
 	'settings-legend' => 'පරිස්ථිතීන්',
+	'tab-overview' => 'දළ විශ්ලේෂණය',
 	'tab-settings' => 'සැකසුම්',
 	'tab-about' => 'පිළිබඳ',
+	'tab-demo' => 'නිදර්ශනය',
+	'bl-mysettings' => 'මගේ භාෂා සැකසුම්',
+	'bl-mysettings-new' => 'භාෂාව වෙනස් කරන්න!',
 );
 
 /** Slovenian (slovenščina)
@@ -1688,6 +1718,30 @@ $messages['sl'] = array(
 	'help-translate-tool' => 'Pomagajte prevesti to orodje!',
 	'help-translate-all' => 'Pomagajte prevesti Toolserver!',
 	'help-translate-tooltip' => 'Pomagajte drugim s prevajanjem sporočil vmesnika v svoj jezik.',
+);
+
+/** Albanian (shqip)
+ * @author FatosMorina
+ */
+$messages['sq'] = array(
+	'current-settings' => 'Parametrat aktualë',
+	'current-language' => 'Gjuha e përzgjedhur aktualisht',
+	'settings-legend' => 'Parametrat',
+	'choose-language' => 'Zgjidhni një gjuhë',
+	'clear-cookies' => 'fshini të ruajturat',
+	'renew-cookies' => 'përditësoni të ruajturat',
+	'cookie-expiration' => 'Skadimi i të ruajturave',
+	'clearcookies-success' => 'Të ruajturat u pastruan me sukses.',
+	'tab-settings' => 'Parametrat',
+	'tab-about' => 'Për',
+	'bl-mysettings' => 'Parametrat e mi të gjuhës',
+	'bl-mysettings-new' => 'Ndryshoni gjuhën!',
+	'bl-promo' => 'Përkthimet janë nga $1 dhe $2.',
+	'bl-changelanguage' => 'Klikoni këtu për të ndryshuar gjuhën e ndërfaqes të kësaj vegle.',
+	'usage' => 'Vegla të përkthyera nga Intuita e Toolserverit.',
+	'help-translate-tool' => 'Ndihmoni në përkthimin e kësaj vegle.',
+	'help-translate-all' => 'Ndihmoni në përkthimin e Toolserver!',
+	'help-translate-tooltip' => 'Ndihmo të tjerët duke përkthyer porositë e ndërfaqes në gjuhën tuaj.',
 );
 
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
@@ -1924,6 +1978,34 @@ $messages['tr'] = array(
 	'help-translate-tool' => 'Bu aracın çevrilmesine yardımcı olun!',
 	'help-translate-all' => "Toolserver'ın çevrilmesine yardımcı olun!",
 	'help-translate-tooltip' => 'Arayüz iletilerini dilinize çevirerek başkalarına yardımcı olun.',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'fullname' => 'Toolserver نىڭ ئىشلەتكۈچى ئارا يۈزىنى خەلقئارالاشتۇرۇش',
+	'current-settings' => 'نۆۋەتتىكى تەڭشەكلەر',
+	'current-language' => 'نۆۋەتتە تاللانغان تىل',
+	'settings-legend' => 'تەڭشەكلەر',
+	'choose-language' => 'بىر تىل تاللاڭ',
+	'clear-cookies' => 'Cookie تازىلا',
+	'renew-cookies' => 'cookie قايتا يېڭىلا',
+	'cookie-expiration' => 'Cookie مۆھلىتى',
+	'clearcookies-success' => 'cookie مۇۋەپپەقىيەتلىك تازىلاندى.',
+	'renewcookies-success' => 'Cookie قايتا يېڭىلاندى! ھەممە تەڭشەكلىرىڭىز ساقلىنىدۇ $1.',
+	'tab-overview' => 'قىسقىچە بايان',
+	'tab-settings' => 'تەڭشەكلەر',
+	'tab-about' => 'ھەققىدە',
+	'tab-demo' => 'ئۈلگە كۆرسىتىش',
+	'bl-mysettings' => 'تىل تەڭشەكلىرىم',
+	'bl-mysettings-new' => 'تىل ئۆزگەرت!',
+	'bl-promo' => 'تەرجىمىلەر $1 ۋە $2 نى قوللانغان.',
+	'bl-changelanguage' => 'بۇ جاينى چېكىپ مەزكۇر قورالنىڭ ئارايۈز تىلىنى ئۆزگەرتىڭ.',
+	'usage' => 'Toolserver Intuition تەرجىمە قىلغان قورال.',
+	'help-translate-tool' => 'بۇ قورالنى تەرجىمە قىلىشقا ياردەملىشىڭ!',
+	'help-translate-all' => 'Toolserver نى تەرجىمە قىلىشقا ياردەملىشىڭ!',
+	'help-translate-tooltip' => 'باشقىلارنىڭ ئارايۈزنى تىلىڭىزغا تەرجىمە قىلىشىغا ياردەملىشىڭ.',
 );
 
 /** Ukrainian (українська)

@@ -679,6 +679,19 @@ $messages['lb'] = array(
 	'toolserver-status-short-missing' => '$1: Net do',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'toolserver-status-short-ok' => '$1: Gerai',
+	'toolserver-status-short-info' => '$1: Informacija',
+	'toolserver-status-short-warn' => '$1: Įspėti',
+	'toolserver-status-short-down' => '$1: Žemyn',
+	'toolserver-status-short-erro' => '$1: Klaida',
+	'toolserver-status-short-unknown' => '$1: Nežinomas',
+	'toolserver-status-short-missing' => '$1: Trūksta',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -945,6 +958,22 @@ $messages['sr-el'] = array(
 	'toolserver-status-short-missing' => '$1: Nedostaje',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'toolserver-status-ok' => 'Det finns inga problem i databaskluster $1 $2',
+	'toolserver-status-warn' => 'Varning för klusteranvändare $1: $2',
+	'toolserver-status-erro' => 'Databasklustret $1 är nere. $2',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Varning',
+	'toolserver-status-short-down' => '$1: Nere',
+	'toolserver-status-short-erro' => '$1: Fel',
+	'toolserver-status-short-unknown' => '$1: Okänd',
+	'toolserver-status-short-missing' => '$1: Saknas',
+);
+
 /** Tamil (தமிழ்)
  * @author Aswn
  */
@@ -999,6 +1028,26 @@ $messages['tr'] = array(
 	'toolserver-status-short-info' => '$1: Bilgi',
 	'toolserver-status-short-warn' => '$1: Uyar',
 	'toolserver-status-short-erro' => '$1: Hata',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'toolserver-status-ok' => 'ساندان توپلاشتۇرغۇچ $1 $2 دا مەسىلە يوق',
+	'toolserver-status-info' => 'توپلاشتۇرغۇچنىڭ ئىشلەتكۈچى ئۈچۈن ئىزاھاتى $1: $2',
+	'toolserver-status-warn' => 'توپلاشتۇرغۇچنىڭ ئىشلەتكۈچى ئۈچۈن ئاگاھلاندۇرۇشى $1: $2',
+	'toolserver-status-down' => 'ساندان توپلاشتۇرغۇچ $1 ۋاقىتلىق تاقالدى. $2',
+	'toolserver-status-erro' => 'ساندان توپلاشتۇرغۇچ $1 تاقالدى. $2',
+	'toolserver-status-unknown' => 'توپلاشتۇرغۇچ $1 نىڭ يوچۇن ھالىتى',
+	'toolserver-status-missing' => 'توپلاشتۇرغۇچ $1 مەۋجۇت ئەمەس',
+	'toolserver-status-short-ok' => '$1: ياخشى',
+	'toolserver-status-short-info' => '$1: ئۇچۇر',
+	'toolserver-status-short-warn' => '$1: ئاگاھلاندۇرۇش',
+	'toolserver-status-short-down' => '$1: توختىدى',
+	'toolserver-status-short-erro' => '$1: خاتالىق',
+	'toolserver-status-short-unknown' => '$1: يوچۇن',
+	'toolserver-status-short-missing' => '$1: كەم',
 );
 
 /** Ukrainian (українська)

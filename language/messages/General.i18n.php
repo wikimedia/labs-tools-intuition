@@ -477,6 +477,7 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Evropi
+ * @author Glavkos
  */
 $messages['el'] = array(
 	'hello' => 'Γεια σας',
@@ -485,10 +486,12 @@ $messages['el'] = array(
 	'etc' => 'κλπ.',
 	'form-submit' => 'Μετάβαση',
 	'form-reset' => 'Επαναφορά',
-	'years' => 'χρόνια',
-	'weeks' => 'εβδομάδες',
-	'days' => 'ημέρες',
-	'hours' => 'ώρες',
+	'years' => '{{PLURAL: $1|έτος|έτη}}',
+	'weeks' => '$1 {{PLURAL:$1|εβδομάδα|εβδομάδες}}',
+	'days' => '($1 {{PLURAL: $1|ημέρα|ημέρες}})',
+	'hours' => '{{PLURAL: $1|ώρα|ώρες}}',
+	'minutes' => '{{PLURAL: $1|λεπτό|λεπτά}}',
+	'seconds' => '{{PLURAL: $1|δευτερόλεπτο|δευτερόλεπτα}}',
 	'last-modified-date' => 'Τελευταία επεξεργασία: $1',
 	'view-source' => 'Εμφάνιση κώδικα',
 );
@@ -669,6 +672,16 @@ $messages['frp'] = array(
 	'view-source' => 'Vêre lo tèxto sôrsa',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'welcome' => 'Fáilte',
+	'namespace' => 'Ainmspás',
+	'form-submit' => 'Gabh',
+	'form-reset' => 'Athshocraigh',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -743,10 +756,12 @@ $messages['hr'] = array(
 	'namespace' => 'Imenski prostor',
 	'form-submit' => 'Idi',
 	'form-reset' => 'Poništi',
-	'years' => 'godine',
-	'weeks' => 'tjedana',
+	'years' => '{{PLURAL: $1|godina|godine|godina}}',
+	'weeks' => '{{PLURAL: $1|tjedan|tjedna|tjedana}}',
 	'days' => 'dana',
 	'hours' => 'sati',
+	'minutes' => '{{PLURAL: $1|minuta|minute|minuta}}',
+	'seconds' => '{{PLURAL: $1|sekunda|sekunde|sekundi}}',
 	'last-modified-date' => 'Zadnja izmjena: $1',
 	'view-source' => 'Prikaži izvor',
 );
@@ -1077,6 +1092,7 @@ $messages['lez'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Eitvys200
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -1091,6 +1107,8 @@ $messages['lt'] = array(
 	'weeks' => 'savaičių',
 	'days' => 'dienų',
 	'hours' => 'valandų',
+	'minutes' => '{{PLURAL: $1|minutė|minučių}}',
+	'seconds' => '$1 {{PLURAL:$1|sekundė|sekundžių}}',
 	'last-modified-date' => 'Paskutinį kartą atnaujinta: $1',
 	'view-source' => 'Peržiūrėti šaltinį',
 );
@@ -1099,6 +1117,7 @@ $messages['lt'] = array(
  * @author Papuass
  */
 $messages['lv'] = array(
+	'namespace' => 'Vārdtelpa',
 	'form-submit' => 'Aiziet',
 	'form-reset' => 'Notīrīt',
 	'years' => '{{PLURAL: $1|gads|gadi}}',
@@ -1508,6 +1527,23 @@ $messages['sl'] = array(
 	'view-source' => 'Izvorna koda',
 );
 
+/** Albanian (shqip)
+ * @author FatosMorina
+ */
+$messages['sq'] = array(
+	'hello' => 'Tungjatjeta',
+	'welcome' => 'Mirësevini',
+	'toolversionstamp' => 'Versioni $1 ($2)',
+	'etc' => 'etj.',
+	'namespace' => 'Hapësira',
+	'form-submit' => 'Shko',
+	'form-reset' => 'Rikthe vlerat',
+	'years' => '{{PLURAL:$1|vit|vite}}',
+	'weeks' => '{{PLURAL:$1|javë|javë}}',
+	'days' => '{{PLURAL:$1|ditë|ditë}}',
+	'hours' => '{{PLURAL:$1|orë|orë}}',
+);
+
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
@@ -1733,6 +1769,30 @@ $messages['tyv'] = array(
 	'minutes' => '{{PLURAL: $1|минут|минут}}',
 	'seconds' => '{{PLURAL: $1|секунда|секунда}}',
 	'view-source' => 'Дөзү бижиин көөрү',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'dateformat' => '%Y-يىلى %d-ئاينىڭ %B-كۈنى',
+	'hello' => 'ئەسسالامۇئەلەيكۇم',
+	'welcome' => 'مەرھابا',
+	'toolversionstamp' => 'نەشرى $1 ($2)',
+	'etc' => 'قاتارلىق.',
+	'colon-separator' => ':',
+	'namespace' => 'ئات بوشلۇقى',
+	'form-submit' => 'يۆتكەل',
+	'form-reset' => 'ئەسلىگە قايتۇر',
+	'years' => '{{PLURAL: $1|يىل|يىل}}',
+	'weeks' => '{{PLURAL: $1|ھەپتە|ھەپتە}}',
+	'days' => '{{PLURAL: $1|كۈن|كۈن}}',
+	'hours' => '{{PLURAL: $1|سائەت|سائەت}}',
+	'minutes' => '{{PLURAL: $1|مىنۇت|مىنۇت}}',
+	'seconds' => '{{PLURAL: $1|سېكۇنت|سېكۇنت}}',
+	'last-modified-date' => 'ئاخىرقى ئۆزگەرتىش: $1',
+	'view-source' => 'مەنبەنى كۆرسەت',
+	'parentheses' => '($1)',
 );
 
 /** Ukrainian (українська)

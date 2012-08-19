@@ -402,6 +402,7 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'alws-label' => '위키',
 	'alws-selectwiki' => '(위키 선택)',
 	'alws-group-mustused' => '대부분 사용한 위키',
 	'alws-group-allaz' => '모든 위키 알파벳순',
@@ -436,7 +437,16 @@ $messages['lb'] = array(
 $messages['lt'] = array(
 	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(pasirinkite wiki)',
+	'alws-group-mustused' => 'Dažniausiai naudojamos wiki',
+	'alws-group-allaz' => 'Visos wiki abėcėlės tvarka',
 	'form-legend-settings' => 'Nustatymai',
+);
+
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'form-legend-settings' => 'Uzstādījumi',
 );
 
 /** Macedonian (македонски)
@@ -611,6 +621,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'alws-selectwiki' => '(විකිය තෝරාගන්න)',
 	'form-legend-settings' => 'සැකසුම්',
 );
 
@@ -623,6 +634,13 @@ $messages['sl'] = array(
 	'alws-group-mustused' => 'Najpogosteje uporabljani wikiji',
 	'alws-group-allaz' => 'Vsi wikiji po abecedi',
 	'form-legend-settings' => 'Nastavitve',
+);
+
+/** Albanian (shqip)
+ * @author FatosMorina
+ */
+$messages['sq'] = array(
+	'form-legend-settings' => 'Parametrat',
 );
 
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
@@ -710,6 +728,17 @@ $messages['tr'] = array(
 	'alws-group-mustused' => 'En çok kullanılan vikiler',
 	'alws-group-allaz' => 'Tüm Vikiler alfabetik olarak',
 	'form-legend-settings' => 'Ayarlar',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'alws-label' => 'ۋىكى',
+	'alws-selectwiki' => '(ۋىكى تاللاڭ)',
+	'alws-group-mustused' => 'ئەڭ كۆپ ئىشلىتىلىدىغان ۋىكىلار',
+	'alws-group-allaz' => 'ئېلېپبە تەرتىپىدىكى ھەممە ۋىكىلار',
+	'form-legend-settings' => 'تەڭشەكلەر',
 );
 
 /** Vietnamese (Tiếng Việt)

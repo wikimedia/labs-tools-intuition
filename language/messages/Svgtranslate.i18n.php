@@ -111,9 +111,12 @@ $messages['af'] = array(
 	'th-username' => 'Gebruikersnaam',
 	'th-password' => 'Wagwoord',
 	'th-method' => 'Metode',
+	'option-manual' => 'Handmatige oplaai',
 	'preview' => 'Voorskou',
 	'translate' => 'Vertaal',
 	'svginput-label' => 'SVG-lêer',
+	'uploading' => 'Besig om op te laai',
+	'editdescriptionpage' => 'Wysig die nuwe beskrywingsbladsy',
 	'preview-hide' => 'Versteek voorskou',
 	'preview-refresh' => 'verfris voorskou',
 	'description-license' => 'Kies beskrywing en lisensie',
@@ -470,8 +473,10 @@ $messages['ckb'] = array(
 /** Czech (česky)
  * @author Jezevec
  * @author PSJG-Tyler
+ * @author Vks
  */
 $messages['cs'] = array(
+	'error-tryagain' => '$1 Pro nový pokus stiskněte tlačítko "zpět" ve vašem prohlížeči.',
 	'error-nothing' => 'Nic k překladu.',
 	'error-notsvg' => 'Není SVG soubor.',
 	'error-unexpected' => 'Došlo k neočekávané chybě.',
@@ -484,12 +489,22 @@ $messages['cs'] = array(
 	'th-username' => 'Uživatelské jméno',
 	'th-password' => 'Heslo',
 	'th-method' => 'Metoda',
+	'option-tusc' => 'TUSC (automatický upload)',
 	'option-manual' => 'Ruční nahrávání',
 	'preview' => 'Náhled',
 	'translate' => 'Přeložit',
+	'translate-instructions' => 'Jména souborů (e.g. "$1") nebo celé URL (e.g. "$2") jsou akceptovány jako vstupy. V případě použití jmén souborů se předpokládá jako zdroj Wikimedia Commons. Celé URL musíte použít, když chcete vložit SVG z jiné stránky nebo wiki.',
 	'svginput-label' => 'SVG soubor',
+	'stats-footer' => 'Tento nástroj byl použit pro přeložení přibližně $1 soborů od $2.',
+	'uploading' => 'Uploadování',
+	'upload-complete' => 'Upload proběhl úspěšně. Obrázek by měl být na $1',
+	'editdescriptionpage' => 'Upravit novou popisnou stránku',
+	'disclaimer' => 'Některá anonymní data budou sbírána pro statistické účely. Uživatelská jména TUSC budou zaznamenávána, pokud budou k dispozici, pro případ nutnosti řešit vandalismus. Hesla nebudou nikdy zaznamenávána.',
+	'author-complete' => 'Prosím, vyplňte údaje o autorovi.',
 	'preview-hide' => 'Skrýt náhled',
 	'preview-refresh' => 'Aktualizovat náhled',
+	'error-must-accept' => 'Abyste mohli uploadovat soubory, musíte přijmout přiložená pravidla použití.',
+	'error-tusc-failed' => 'Validace TUSC selhala: Uživatelské jméno nebo heslo není správně.',
 	'description-license' => 'Vyberte popis a licenci',
 );
 
@@ -702,19 +717,40 @@ $messages['es'] = array(
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
+	'error-tryagain' => "$1 – klõpsa võrgulehitseja ''tagasi''-nuppu ja proovi uuesti.",
+	'error-nothing' => 'Pole midagi tõlkida.',
+	'error-notsvg' => 'Pole SVG-fail.',
+	'error-unexpected' => 'Ilmnes ootamatu tõrge.',
+	'error-notfound' => 'Ette antud internetiaadressi kaudu ei saanud SVG-faili hankida.',
+	'error-upload' => 'Tõrge üleslaadimisel.',
 	'begin-translation' => 'Alusta tõlkimist',
+	'th-original' => 'Algupärand',
 	'th-translation' => 'Tõlge',
 	'th-language' => 'Keel',
 	'th-username' => 'Kasutajanimi',
 	'th-password' => 'Parool',
 	'th-method' => 'Viis',
+	'option-tusc' => 'TUSC (automaatne üleslaadimine)',
+	'option-manual' => 'Käsitsi üleslaadimine',
 	'preview' => 'Eelvaade',
 	'translate' => 'Tõlgi',
+	'translate-instructions' => 'Sisend võib olla kas failinimi (nt "$1") või internetiaadress (nt "$2"). Kui kasutad esimest varianti, eeldatakse, et allikas on Wikimedia Commons. Et tõlkida teiselt saidilt või teisest vikist pärit SVG-fail, pead kasutama internetiaadressi.',
 	'svginput-label' => 'SVG-fail',
+	'stats-footer' => 'Selle tööriistaga on tõlgitud umbes $1 faili (kasutusel alates: $2).',
+	'uploading' => 'Üleslaadimine',
+	'upload-complete' => 'Edukalt üles laaditud. Pilt peaks olema nüüd asukohas $1.',
+	'editdescriptionpage' => 'Redigeeri uut kirjelduslehekülge',
+	'disclaimer' => 'Osa nimeta andmeid kogutakse isiklikuks kasutamiseks statistilistel eesmärkidel. Ka TUSC-kasutajanimi talletatakse, kui selle sisestad, sest see on abiks võimaliku vandalismi korral. Paroole ei talletata kunagi.',
+	'author-complete' => 'Palun lisa autoriteave!',
 	'preview-hide' => 'Peida eelvaade',
 	'preview-refresh' => 'Uuenda eelvaade',
+	'error-must-accept' => 'Et jätkata otsese üleslaadimisega, pead nõustuma toodud tingimustega.',
+	'error-tusc-failed' => 'TUSC-kontroll ebaõnnestus: vale kasutajanimi või parool.',
+	'description-license' => 'Kirjelduse ja litsentsi valimine',
+	'finalise' => 'Üksikasjade lõplik vormistus',
 );
 
 /** Basque (euskara)
@@ -891,10 +927,18 @@ $messages['frp'] = array(
 	'th-method' => 'Mètoda',
 	'option-tusc' => 'TUSC (tèlèchargement ôtomatico)',
 	'option-manual' => 'Tèlèchargement manuèl',
+	'preview' => 'Prèvisualisacion',
 	'translate' => 'Traduire',
 	'svginput-label' => 'Fichiér SVG',
 	'uploading' => 'Tèlèchargement',
 	'preview-hide' => 'Cachiér la prèvisualisacion',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'preview' => 'Réamhamharc',
 );
 
 /** Galician (galego)
@@ -1347,6 +1391,8 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'title' => 'SVG 번역',
+	'error-tryagain' => '$1 다시 시도하려면 브라우저의 뒤로 버튼을 누르세요.',
 	'error-nothing' => '아무 번역도 없습니다.',
 	'error-notsvg' => 'SVG 파일이 아닙니다.',
 	'error-unexpected' => '예기치 않은 오류가 발생했습니다.',
@@ -1363,13 +1409,20 @@ $messages['ko'] = array(
 	'option-manual' => '수동 올리기',
 	'preview' => '미리 보기',
 	'translate' => '번역',
+	'translate-instructions' => '파일 이름(예를 들어 "$1")이나 전체 URL(예를 들어 "$2") 중 하나를 입력하세요. 첫번째 설정을 사용할 경우 위키미디어 공용은 원본으로 간주합니다. 다른 사이트 또는 위키에서 SVG를 번역하려면 전체 url 형식을 사용해야 합니다.',
 	'svginput-label' => 'SVG 파일',
+	'stats-footer' => '이 도구는 $2 이후 파일 약 $1개를 변환하는 데 사용했습니다.',
 	'uploading' => '올리는 중',
+	'upload-complete' => '올리기를 성공적으로 완료했습니다. 그림은 $1에 있습니다.',
 	'editdescriptionpage' => '새 설명 문서 편집',
+	'disclaimer' => '일부 익명의 데이터는 개인 통계 목적으로만 수집됩니다. 제공할 경우 반달 행위를 할 경우 도움이 되도록 TUSC 사용자 이름도 기록합니다. 비밀번호는 기록하지 않습니다.',
 	'author-complete' => '저자 정보를 완료하세요!',
 	'preview-hide' => '미리 보기 숨기기',
 	'preview-refresh' => '미리 보기 새로 고침',
+	'error-must-accept' => '직접 업로드를 계속하려면 제공하는 이용 약관에 동의해야 합니다.',
+	'error-tusc-failed' => 'TUSC 유효성 검사 실패: 사용자 이름이나 비밀번호가 잘못되었습니다.',
 	'description-license' => '설명과 라이선스 선택',
+	'finalise' => '자세한 정보 마무리',
 );
 
 /** Colognian (Ripoarisch)
@@ -2432,6 +2485,44 @@ $messages['tr'] = array(
 	'error-tusc-failed' => 'TUSC doğrulanamadı: kullanıcı adı veya parola yanlış.',
 	'description-license' => 'Açıklama ve lisans seçin',
 	'finalise' => 'Ayrıntıları tamamlayın',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'title' => 'SVG تەرجىمە',
+	'error-tryagain' => '$1 توركۆرگۈڭىزنىڭ قايت توپچىسىنى چېكىپ قايتا سىنايدۇ.',
+	'error-nothing' => 'تەرجىمە قىلىدىغان ھېچنېمە يوق.',
+	'error-notsvg' => 'SVG ھۆججىتى ئەمەس.',
+	'error-unexpected' => 'ئويلاشمىغان خاتالىق كۆرۈلدى.',
+	'error-notfound' => 'تەمىنلەنگەن URL دىن SVG ھۆججەتكە ئېرىشەلمەيدۇ.',
+	'error-upload' => 'يۈكلەۋاتقاندا خاتالىق كۆرۈلدى.',
+	'begin-translation' => 'تەرجىمە باشلاڭ',
+	'th-original' => 'ئەسلى',
+	'th-translation' => 'تەرجىمىسى',
+	'th-language' => 'تىل',
+	'th-username' => 'ئىشلەتكۈچى ئاتى',
+	'th-password' => 'ئىم',
+	'th-method' => 'ئۇسۇل',
+	'option-tusc' => 'TUSC (ئۆزلۈكىدىن يۈكلە)',
+	'option-manual' => 'قولدا يۈكلە',
+	'preview' => 'ئالدىن كۆزەت',
+	'translate' => 'تەرجىمە',
+	'translate-instructions' => 'ھۆججەت ئاتى (مەسىلەن، "$1") ياكى تولۇق URL (مەسىلەن، "$2")نى كىرگۈزۈشكە بولىدۇ. ئەگەر بىرىنچى تاللانما تاللانسا ۋىكى ۋاستە ھەمبەھىر مەنبە قىلىنىدۇ. ئەگەر باشقا تورتۇرا ياكى ۋىكىدىن SVG ھۆججەت تەرجخمە قىلىنسا چوقۇم تولۇق URL ئىشلىتىڭ.',
+	'svginput-label' => 'SVG ھۆججەت',
+	'stats-footer' => '$2 دىن باشلاپ، مەزكۇر قورالدا $1 ھۆججەت تەرجىمە قىلىندى.',
+	'uploading' => 'يۈكلەۋاتىدۇ',
+	'upload-complete' => 'مۇۋەپپەقىيەتلىك يۈكلەندى. بۇ سۈرەتنىڭ ھازىرقى ئورنى $1',
+	'editdescriptionpage' => 'يېڭى  چۈشەندۈرۈش بېتىنى تەھرىر',
+	'disclaimer' => 'بەزى ئاتسىز سانلىق مەلۇماتلارنى شەخسلەر سىتاتىستىكا ئېلىپ بېرىش مەقسىتىدە توپلايدۇ. ئەگەر TUSC ئىشلەتكۈچى ئاتى ئىشلىتىلسە ئۇمۇ خاتىرىلىنىپ بۇزغۇنچىلىق قىلمىشىنىڭ ئالدىنى ئېلىشقا ھەمدەم قىلىنىدۇ. ئىم مەڭگۈ خاتىرىلەنمەيدۇ.',
+	'author-complete' => 'يازغۇچىنىڭ ئۇچۇرىنى تولدۇرۇڭ!',
+	'preview-hide' => 'ئالدىن كۆزىتىشنى يوشۇر',
+	'preview-refresh' => 'ئالدىن كۆزىتىشنى يېڭىلا',
+	'error-must-accept' => 'ئەگەر بىۋاستە يۈكلىمەكچى بولسىڭىز تەمىنلىگەن ئىشلىتىش ماددىلىرىغا قوشۇلۇڭ.',
+	'error-tusc-failed' => 'TUSC دەلىللىيەلمىدى: ئىشلەتكۈچى ئاتى ياكى ئىم خاتا.',
+	'description-license' => 'چۈشەندۈرۈش ۋە ئىجازەتنامە تاللاڭ',
+	'finalise' => 'تاماملاش تەپسىلاتى',
 );
 
 /** Ukrainian (українська)

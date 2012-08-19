@@ -74,6 +74,10 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'title-error' => 'Fout',
+	'download-button' => 'Laai $1 af',
+	'download-directlink' => 'direkte skakel',
+	'title-downloadpage' => 'Laai af: $1',
 	'repo-site-link' => 'Webtuiste',
 	'repo-lastmoddate-label' => 'Datum:',
 	'branches-submit-button' => 'Kry dit!',
@@ -234,14 +238,34 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author PSJG-Tyler
+ * @author Vks
  */
 $messages['cs'] = array(
+	'title-overview' => 'Snapshoty',
 	'title-error' => 'Chyba',
+	'title-updatelog' => 'Protokol změn',
+	'updatelog-intro' => 'Aktualizační skript je vykonáván každou hodinu. Níže je vypsán výstup z posledního spuštění.',
+	'updatelog-active' => 'Aktualizační skript běží. Pro kompletní protokol si zobrazte stránku později.',
 	'download-button' => 'Stáhnout $1',
 	'download-directlink' => 'Přímý odkaz',
+	'title-downloadpage' => 'Stažení: $1',
+	'downloadpage-directlink' => 'Klikněte sem pro stažení snapshotu.',
+	'err-snapshotindex' => 'Index snapshotu je dočasně nedostupný. Zkuste to prosím později.',
+	'err-invalid-repo' => 'Neznámé úložiště: "$1".',
+	'err-invalid-branch' => 'Neznámá větev: "$1" v úložišti "$2".',
+	'err-nosnapshot' => 'Snapshoty se generují každých několi hodin. Během generování snapshotu pro "$1" nastala chyba. Zkuste to prosím později.',
+	'err-noupdatelog' => 'Nebyl nalezen žádný protokol o aktualizaci.',
 	'repo-site-link' => 'Webová stránka',
+	'repo-browse-link' => 'Procházet úložiště',
+	'repo-branches-label' => 'Větve:',
 	'repo-lastmoddate-label' => 'Datum:',
+	'branches-submit-button' => 'Stáni si!',
+	'updatelog-link' => 'Protokol změn',
+	'tablehead-repo' => 'Úložiště',
+	'tablehead-snapshots' => 'Snapshoty',
+	'tablehead-branch' => 'Větev',
 	'tablehead-filesize' => 'Velikost souboru',
+	'tablehead-hash' => 'Kontrolní součty',
 );
 
 /** Danish (dansk)
@@ -344,6 +368,14 @@ $messages['dsb'] = array(
 	'tablehead-branch' => 'Gałuza',
 	'tablehead-filesize' => 'Wjelikosć dataje',
 	'tablehead-hash' => 'Testowańske sumy',
+);
+
+/** Greek (Ελληνικά)
+ * @author Glavkos
+ */
+$messages['el'] = array(
+	'title-error' => 'Σφάλμα',
+	'title-updatelog' => 'Ενημέρωση αρχείου καταγραφής',
 );
 
 /** Spanish (español)
@@ -489,6 +521,14 @@ $messages['frp'] = array(
 	'tablehead-branch' => 'Branche',
 	'tablehead-filesize' => 'Talye du fichiér',
 	'tablehead-hash' => 'Chaplâjo',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'title-error' => 'Earráid',
+	'repo-lastmoddate-label' => 'Dáta:',
 );
 
 /** Galician (galego)
@@ -859,6 +899,29 @@ $messages['lb'] = array(
 	'tablehead-hash' => 'Kontrollzuelen',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'title-error' => 'Klaida',
+	'download-button' => 'Atsisiųsti $1',
+	'download-directlink' => 'tiesioginė nuoroda',
+	'title-downloadpage' => 'Atsisiųsti: $1',
+	'repo-site-link' => 'Tinklalapis',
+	'repo-lastmoddate-label' => 'Data:',
+	'tablehead-filesize' => 'Failo dydis',
+);
+
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'title-error' => 'Kļūda',
+	'download-button' => 'Lejupielādēt $1',
+	'download-directlink' => 'tieša saite',
+	'title-downloadpage' => 'Lejupielādēt: $1',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -1097,11 +1160,31 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'title-overview' => 'Istandenèe',
 	'title-error' => 'Errore',
+	'title-updatelog' => 'Archivije de le carecaminde',
+	'updatelog-intro' => "'U script de aggiornamende jè schedulate pe essere eseguite ogne ore. Sotte ste 'u resultate de l'urtema esecuzione.",
+	'updatelog-active' => "'U script de aggiornamende jndr'à stu mumende jè in esecuzione. Tuèrne cchiù tarde pe l'archivije comblete.",
 	'download-button' => 'Scareche $1',
+	'download-directlink' => 'collegamende dirette',
 	'title-downloadpage' => 'Scareche: $1',
+	'downloadpage-directlink' => "Cazze aqquà pe scarecà l'istandanèe.",
+	'err-snapshotindex' => "Indice de l'istandanèe non gè disponibbele temboraneamende. Pe piacere pruève arrete cchiù tarde.",
+	'err-invalid-repo' => 'Archivije scanusciute: "$1".',
+	'err-invalid-branch' => 'Rame scanusciute; "$1" jndr\'à l\'archivije "$2".',
+	'err-nosnapshot' => "Le istandanèe avènene generate ogne picche ore. Mendre ca avène generate l'istandanèe pe \"\$1\", s'ha verificate 'n'errore. Pe piacere pruève arrete cchiù tarde.",
+	'err-noupdatelog' => 'Nisciune archivije de le carecaminde ha state acchiate.',
 	'repo-site-link' => 'Site web',
+	'repo-browse-link' => "Sfoglie l'archivije",
+	'repo-branches-label' => 'Rame:',
+	'repo-lastmoddate-label' => 'Date:',
+	'branches-submit-button' => 'Pigghiale!',
+	'updatelog-link' => "careche l'archivije",
+	'tablehead-repo' => 'Archivije',
+	'tablehead-snapshots' => 'Istandenèe',
+	'tablehead-branch' => 'Rame',
 	'tablehead-filesize' => "Dimenzione d'u file",
+	'tablehead-hash' => 'Condrolle',
 );
 
 /** Russian (русский)
@@ -1140,6 +1223,7 @@ $messages['ru'] = array(
  */
 $messages['si'] = array(
 	'title-error' => 'දෝෂය',
+	'download-button' => '$1 බාගන්න',
 	'repo-site-link' => 'වෙබ් අඩවිය',
 	'repo-lastmoddate-label' => 'දිනය:',
 	'tablehead-repo' => 'කෝෂ්ඨාගාරය',
@@ -1162,6 +1246,32 @@ $messages['sl'] = array(
 	'updatelog-link' => 'dnevnik posodobitev',
 	'tablehead-branch' => 'Podveja',
 	'tablehead-filesize' => 'Velikost datoteke',
+);
+
+/** Albanian (shqip)
+ * @author FatosMorina
+ */
+$messages['sq'] = array(
+	'title-overview' => 'Pamje',
+	'title-error' => 'Gabim',
+	'title-updatelog' => 'Përditëso shënimin',
+	'download-button' => 'Shkarko $1',
+	'download-directlink' => 'Lidhja e drejtpërdrejtë',
+	'title-downloadpage' => 'Shkarko: $1',
+	'downloadpage-directlink' => 'Kliko këtu për të shkarkuar pamjen.',
+	'err-invalid-repo' => 'Depo e panjohur: "$1".',
+	'err-invalid-branch' => 'Degë e panjohur: "$1" në depon "$2".',
+	'err-noupdatelog' => 'Nuk u gjet ndonjë përditësim.',
+	'repo-site-link' => 'Uebfaqja',
+	'repo-browse-link' => 'Depoja e shfletuesit',
+	'repo-branches-label' => 'Degët:',
+	'repo-lastmoddate-label' => 'Data:',
+	'branches-submit-button' => 'Merreni atë!',
+	'updatelog-link' => 'përditëso shënimin',
+	'tablehead-repo' => 'Depoja',
+	'tablehead-snapshots' => 'Pamje',
+	'tablehead-branch' => 'Dega',
+	'tablehead-filesize' => 'Madhësia e skedarit',
 );
 
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
@@ -1226,6 +1336,28 @@ $messages['sr-el'] = array(
 	'tablehead-hash' => 'Kontrolni zbir',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'title-overview' => 'Ögonblicksbilder',
+	'title-error' => 'Fel',
+	'title-updatelog' => 'Uppdatera logg',
+	'download-button' => 'Ladda ned $1',
+	'download-directlink' => 'direkt länk',
+	'title-downloadpage' => 'Ladda ned: $1',
+	'downloadpage-directlink' => 'Klicka här för att ladda ned ögonblicksbilden.',
+	'err-invalid-repo' => 'Okänd databas: "$1".',
+	'err-noupdatelog' => 'Ingen uppdateringslogg hittades.',
+	'repo-site-link' => 'Webbplats',
+	'repo-lastmoddate-label' => 'Datum:',
+	'branches-submit-button' => 'Skaffa det!',
+	'updatelog-link' => 'uppdateringslogg',
+	'tablehead-snapshots' => 'Ögonblicksbilder',
+	'tablehead-filesize' => 'Filstorlek',
+	'tablehead-hash' => 'Kontrollsummor',
+);
+
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author மதனாஹரன்
@@ -1240,10 +1372,12 @@ $messages['ta'] = array(
 	'downloadpage-directlink' => 'நிழற்பட நொடிப்பெடுப்பைத் தரவிறக்க இங்கே சொடுக்கவும்.',
 	'err-noupdatelog' => 'புதுப்பித்தல் பதிவு எதுவும் கண்டுபிடிக்கப்படவில்லை.',
 	'repo-site-link' => 'இணையத்தளம்',
+	'repo-branches-label' => 'கிளைகள்:',
 	'repo-lastmoddate-label' => 'நாள்:',
 	'branches-submit-button' => 'அதைப் பெறுக!',
 	'updatelog-link' => 'புதுப்பித்தல் பதிவு',
 	'tablehead-snapshots' => 'நிழற்பட நொடிப்பெடுப்புகள்',
+	'tablehead-branch' => 'கிளை',
 	'tablehead-filesize' => 'கோப்பு அளவு',
 );
 
@@ -1297,6 +1431,37 @@ $messages['tly'] = array(
 	'title-error' => 'Сәһв',
 	'repo-lastmoddate-label' => 'Тарых:',
 	'tablehead-filesize' => 'Фајли памјә',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'title-overview' => 'كەسمە سۈرەت',
+	'title-error' => 'خاتالىق',
+	'title-updatelog' => 'كۈندىلىك خاتىرىنى يېڭىلا',
+	'updatelog-intro' => 'بۇ يېڭىلاش قوليازمىسىنى ھەر سائەتتە بىر قېتىم ئىجرا قىلىدۇ. تۆۋەندىكىسى ئەڭ ئاخىرقى قېتىم ئىجرا قىلغان تىزگىن سۇپىسى چىقىرىشى.',
+	'updatelog-active' => 'بۇ يېڭىلاش قوليازمىسى ئىجرا قىلىنىۋاتىدۇ. سەل تۇرۇپ قايتىپ كېلىپ تولۇق كۈندىلىك خاتىرىنى كۆرۈڭ.',
+	'download-button' => '$1 چۈشۈر',
+	'download-directlink' => 'بىۋاستە ئۇلانما',
+	'title-downloadpage' => 'چۈشۈر: $1',
+	'downloadpage-directlink' => 'بۇ جاي چېكىلسە كەسمە سۈرەتنى چۈشۈرىدۈ.',
+	'err-snapshotindex' => 'كەسمە سۈرەت ئىندېكىسىنى ۋاقتىنچە ئىشلەتكىلى بولمايدۇ. سەل تۇتۇپ قايتا سىناڭ.',
+	'err-invalid-repo' => 'يوچۇن خەزىنە: "$1".',
+	'err-invalid-branch' => 'خەزىنە "$2" دىكى يوچۇن تارماق: "$1"',
+	'err-nosnapshot' => 'كەسمە سۈرەت ھەر بىر قانچە سائەتتە بىر قېتىم ھاسىل قىلىنىدۇ. "$1" ئۈچۈن كەسمە سۈرەت ھاسىل قىلىۋاتقاندا خاتالىق كۆرۈلدى. سەل تۇرۇپ قايتا سىناڭ.',
+	'err-noupdatelog' => 'ھېچقانداق يېڭىلاش خاتىرىسى تېپىلمىدى.',
+	'repo-site-link' => 'تورتۇرا',
+	'repo-browse-link' => 'خەزىنەگە كۆز يۈگۈرت',
+	'repo-branches-label' => 'تارماقلار:',
+	'repo-lastmoddate-label' => 'چېسلا:',
+	'branches-submit-button' => 'ئۇنىڭغا ئېرىش!',
+	'updatelog-link' => 'كۈندىلىك خاتىرىنى يېڭىلا',
+	'tablehead-repo' => 'خەزىنە',
+	'tablehead-snapshots' => 'كەسمە سۈرەت',
+	'tablehead-branch' => 'تارماق',
+	'tablehead-filesize' => 'ھۆججەت چوڭلۇقى',
+	'tablehead-hash' => 'تەكشۈرۈش يىغىندا',
 );
 
 /** Ukrainian (українська)

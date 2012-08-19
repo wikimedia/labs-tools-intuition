@@ -99,6 +99,8 @@ Examples of registrant URLs:
  * @author Naudefj
  */
 $messages['af'] = array(
+	'search-title' => 'Monumente soek',
+	'search-monuments-database' => 'Soek deur die databasis van monumente',
 	'search-table-th-field' => 'Veld',
 	'search-table-th-filter' => 'Filtreer',
 	'search-table-th-search' => 'Soek',
@@ -158,7 +160,7 @@ $messages['ar'] = array(
 	'db-field-lat' => 'خط العرض',
 	'db-field-lon' => 'خط الطول',
 	'db-field-image' => 'الصورة',
-	'db-field-changed' => 'التغييرات',
+	'db-field-changed' => 'غير',
 	'db-field-source' => 'المصدر',
 	'db-field-monument_article' => 'مقالة آثار',
 	'db-field-registrant_url' => 'رابط التسجيل',
@@ -168,6 +170,11 @@ $messages['ar'] = array(
 	'db-field-st_coordinates_pct' => 'إحداثيات %',
 	'db-field-st_image' => 'صورة',
 	'db-field-st_image_pct' => 'صورة %',
+	'db-field-st_municipality' => 'البلدية',
+	'db-field-st_municipality_pct' => 'بلدية %',
+	'db-field-st_name' => 'أسماء',
+	'db-field-st_name_pct' => 'أسماء %',
+	'db-field-st_total' => 'عدد إجمالي',
 	'toolbox-label-searchtipps' => 'استخدم %term أو term% أو %term% من أجل البحث التقريبي',
 	'toolbox-meta-title' => 'ويكي تحب صندوق أدوات الآثار',
 	'toolbox-main-title' => 'صندوق أدوات WLM',
@@ -178,6 +185,7 @@ $messages['ar'] = array(
 	'toolbox-nav-search' => 'بحث',
 	'toolbox-title-searchmonuments' => 'البحث عن المعالم',
 	'location' => 'الموقع',
+	'source-monuments-list-on-wikipedia' => 'مصدر قائمة المعالم في ويكيبيديا',
 );
 
 /** Assamese (অসমীয়া)
@@ -489,9 +497,11 @@ $messages['ca'] = array(
  * @author Chmee2
  * @author Jezevec
  * @author PSJG-Tyler
+ * @author Vks
  */
 $messages['cs'] = array(
 	'search-title' => 'Hledat památky',
+	'search-monuments-database' => 'Hledání památek v databázi',
 	'search-table-th-field' => 'Pole',
 	'search-table-th-filter' => 'Filtr',
 	'search-table-th-search' => 'Hledat',
@@ -508,6 +518,7 @@ $messages['cs'] = array(
 	'db-field-image' => 'Obrázek',
 	'db-field-changed' => 'Změněno',
 	'db-field-source' => 'Zdroj',
+	'db-field-monument_article' => 'Článek o památce',
 	'db-field-registrant_url' => 'url zaregistrovaného',
 	'db-field-st_address' => 'Adresy',
 	'db-field-st_address_pct' => 'Adresy %',
@@ -515,13 +526,22 @@ $messages['cs'] = array(
 	'db-field-st_coordinates_pct' => 'Souřadnice %',
 	'db-field-st_image' => 'Obrázek',
 	'db-field-st_image_pct' => 'Obrázek %',
+	'db-field-st_municipality' => 'Obec',
+	'db-field-st_municipality_pct' => 'Obec %',
 	'db-field-st_name' => 'Názvy',
 	'db-field-st_name_pct' => 'Názvy %',
 	'db-field-st_total' => 'Celkový počet',
+	'toolbox-label-searchtipps' => 'použijte %výraz, výraz% nebo %výraz% pro vyhledávání neúplného výrazu',
+	'toolbox-meta-title' => 'Panel nástrojů pro Wiki miluje památky',
+	'toolbox-main-title' => 'Panel nástrojů WLM',
+	'toolbox-main-description' => 'Sada nástrojů týkajících se',
+	'toolbox-wikilovesmonuments' => 'Wiki miluje památky',
 	'toolbox-nav-homepage' => 'Domovská stránka',
 	'toolbox-nav-statistics' => 'Statistiky',
 	'toolbox-nav-search' => 'Hledat',
 	'toolbox-title-searchmonuments' => 'Hledat monumenty',
+	'location' => 'Místo',
+	'source-monuments-list-on-wikipedia' => 'Seznam památek na Wikipedii se zdroji',
 );
 
 /** Danish (dansk)
@@ -619,6 +639,7 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'search-table-th-field' => 'Ca',
 	'search-table-th-filter' => 'Avrêc',
 	'search-table-th-search' => 'Cı geyre',
 	'filter-all-countries' => 'Dewleti pêro',
@@ -703,6 +724,7 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Geraki
+ * @author Glavkos
  */
 $messages['el'] = array(
 	'search-title' => 'Αναζήτηση μνημείων',
@@ -712,6 +734,32 @@ $messages['el'] = array(
 	'search-table-th-search' => 'Αναζήτηση',
 	'filter-all-countries' => 'Όλες οι χώρες',
 	'filter-all-languages' => 'Όλες οι γλώσσες',
+	'db-field-country' => 'Χώρα',
+	'db-field-lang' => 'Γλώσσα',
+	'db-field-id' => 'Αναγνωριστικό',
+	'db-field-name' => 'Όνομα',
+	'db-field-address' => 'Διεύθυνση',
+	'db-field-municipality' => 'Δήμος',
+	'db-field-lat' => 'Γεωγραφικό πλάτος',
+	'db-field-lon' => 'Γεωγραφικό μήκος',
+	'db-field-image' => 'Εικόνα',
+	'db-field-changed' => 'Άλλαξε',
+	'db-field-st_address' => 'Διευθύνσεις',
+	'db-field-st_address_pct' => 'Διευθύνσεις %',
+	'db-field-st_coordinates' => 'Συντεταγμένες',
+	'db-field-st_coordinates_pct' => 'Συντεταγμένες %',
+	'db-field-st_image' => 'Εικόνα',
+	'db-field-st_image_pct' => 'Εικόνα %',
+	'db-field-st_municipality' => 'Δήμος',
+	'db-field-st_municipality_pct' => 'Δήμος %',
+	'db-field-st_name' => 'Ονόματα',
+	'db-field-st_name_pct' => 'Ονόματα %',
+	'db-field-st_total' => 'Συνολικός αριθμός',
+	'toolbox-main-description' => 'Ένα σύνολο εργαλείων που σχετίζονται με',
+	'toolbox-wikilovesmonuments' => 'Το Wiki Αγαπάει τα Μνημεία',
+	'toolbox-nav-search' => 'Αναζήτηση',
+	'toolbox-title-searchmonuments' => 'Αναζήτηση μνημείων',
+	'location' => 'Τοποθεσία',
 );
 
 /** Spanish (español)
@@ -772,6 +820,8 @@ $messages['es'] = array(
  * @author WikedKentaur
  */
 $messages['et'] = array(
+	'search-title' => 'Mälestiste otsimine',
+	'search-monuments-database' => 'Otsimine mälestiste andmebaasist',
 	'search-table-th-field' => 'Väli',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Otsitekst',
@@ -796,6 +846,8 @@ $messages['et'] = array(
 	'db-field-st_coordinates_pct' => 'Koordinaadid %',
 	'db-field-st_image' => 'Pilt',
 	'db-field-st_image_pct' => 'Pilt %',
+	'db-field-st_municipality' => 'Omavalitsus',
+	'db-field-st_municipality_pct' => 'Omavalitsus %',
 	'db-field-st_name' => 'Nimed',
 	'db-field-st_name_pct' => 'Nimed %',
 	'db-field-st_total' => 'Koguarv',
@@ -994,10 +1046,29 @@ $messages['frp'] = array(
 	'db-field-st_municipality_pct' => 'Municipalitât %',
 	'db-field-st_name' => 'Noms',
 	'db-field-st_name_pct' => 'Noms %',
+	'db-field-st_total' => 'Soma',
+	'toolbox-label-searchtipps' => 'empleyéd %mot ou ben mot% ou ben %mot% por na rechèrche trobla',
+	'toolbox-meta-title' => 'Bouèta d’outils de Wiki Loves Monuments',
+	'toolbox-main-title' => 'Bouèta d’outils de WLM',
 	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
 	'toolbox-nav-homepage' => 'Pâge de reçua',
 	'toolbox-nav-statistics' => 'Statistiques',
+	'toolbox-nav-search' => 'Rechèrche',
+	'toolbox-title-searchmonuments' => 'Rechèrche de monuments',
 	'location' => 'Emplacement',
+	'source-monuments-list-on-wikipedia' => 'Lista des monuments d’origina dessus Vouiquipèdia',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'search-table-th-search' => 'Cuardaigh',
+	'db-field-lang' => 'Teanga',
+	'db-field-name' => 'Ainm',
+	'db-field-source' => 'Foinse',
+	'toolbox-nav-statistics' => 'Staidrimh',
+	'toolbox-nav-search' => 'Cuardaigh',
 );
 
 /** Galician (galego)
@@ -1133,9 +1204,29 @@ $messages['hi'] = array(
  * @author Ex13
  */
 $messages['hr'] = array(
+	'search-title' => 'Pretraživanje spomenika',
+	'search-monuments-database' => 'Pretraživanje baze podataka sa spomenicima',
 	'search-table-th-field' => 'Polje',
 	'search-table-th-filter' => 'Filtar',
 	'search-table-th-search' => 'Traži',
+	'filter-all-countries' => 'Sve zemlje',
+	'filter-all-languages' => 'Svi jezici',
+	'db-field-country' => 'Zemlja',
+	'db-field-lang' => 'Jezik',
+	'db-field-id' => 'Oznaka',
+	'db-field-name' => 'Naziv',
+	'db-field-address' => 'Adresa',
+	'db-field-municipality' => 'Općina',
+	'db-field-lat' => 'Geografska širina',
+	'db-field-lon' => 'Geografska dužina',
+	'db-field-image' => 'Slika',
+	'db-field-changed' => 'Promjenjeno',
+	'db-field-source' => 'Izvor',
+	'db-field-monument_article' => 'Članak o spomeniku',
+	'db-field-registrant_url' => 'URL u registru',
+	'db-field-st_address' => 'Adrese',
+	'db-field-st_address_pct' => 'Adrese %',
+	'db-field-st_coordinates' => 'Koordinate',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -1522,8 +1613,8 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'search-title' => '모멘트 찾기',
-	'search-monuments-database' => '모멘트 데이터베이스 찾기',
+	'search-title' => '유적 찾기',
+	'search-monuments-database' => '유적 데이터베이스 찾기',
 	'search-table-th-field' => '필드',
 	'search-table-th-filter' => '필터',
 	'search-table-th-search' => '찾기',
@@ -1540,7 +1631,7 @@ $messages['ko'] = array(
 	'db-field-image' => '그림',
 	'db-field-changed' => '바뀜',
 	'db-field-source' => '출처',
-	'db-field-monument_article' => '모멘트 문서',
+	'db-field-monument_article' => '유적 문서',
 	'db-field-registrant_url' => '등록 url',
 	'db-field-st_address' => '주소',
 	'db-field-st_address_pct' => '주소 %',
@@ -1554,16 +1645,16 @@ $messages['ko'] = array(
 	'db-field-st_name_pct' => '이름 %',
 	'db-field-st_total' => '총 수',
 	'toolbox-label-searchtipps' => '퍼지 찾기는 %term 또는 term% 또는 %term% 사용',
-	'toolbox-meta-title' => '위키 사랑 모멘트 도구상자',
-	'toolbox-main-title' => 'WLM 도구상자',
+	'toolbox-meta-title' => '위키 사랑 유적 도구모음',
+	'toolbox-main-title' => 'WLM 도구모음',
 	'toolbox-main-description' => '관련된 도구 집합',
-	'toolbox-wikilovesmonuments' => '위키 사랑 모멘트',
+	'toolbox-wikilovesmonuments' => '위키 사랑 유적',
 	'toolbox-nav-homepage' => '대문페이지',
 	'toolbox-nav-statistics' => '통계',
 	'toolbox-nav-search' => '찾기',
-	'toolbox-title-searchmonuments' => '모멘트 찾기',
+	'toolbox-title-searchmonuments' => '유적 찾기',
 	'location' => '위치',
-	'source-monuments-list-on-wikipedia' => '위키백과에 출처 모멘트 목록',
+	'source-monuments-list-on-wikipedia' => '위키백과에 출처 유적 목록',
 );
 
 /** Colognian (Ripoarisch)
@@ -1691,22 +1782,70 @@ $messages['lt'] = array(
 	'search-table-th-field' => 'Laukas',
 	'search-table-th-filter' => 'Filtras',
 	'search-table-th-search' => 'Paieška',
+	'filter-all-countries' => 'Visos šalys',
+	'filter-all-languages' => 'Visos kalbos',
 	'db-field-country' => 'Šalis',
+	'db-field-lang' => 'Kalba',
+	'db-field-id' => 'Identifikatorius',
 	'db-field-name' => 'Vardas',
+	'db-field-address' => 'Adresas',
 	'db-field-lat' => 'Platuma',
 	'db-field-lon' => 'Ilguma',
 	'db-field-image' => 'Paveikslėlis',
 	'db-field-changed' => 'Pakeistas',
+	'db-field-source' => 'Šaltinis',
+	'db-field-st_address' => 'Adresai',
+	'db-field-st_address_pct' => 'Adresai %',
 	'db-field-st_coordinates' => 'Koordinatės',
 	'db-field-st_coordinates_pct' => 'Koordinatės %',
+	'db-field-st_image' => 'Paveikslėlis',
+	'db-field-st_image_pct' => 'Paveikslėlis %',
+	'db-field-st_total' => 'Bendras skaičius',
+	'toolbox-nav-homepage' => 'Pagrindinis puslapis',
+	'toolbox-nav-statistics' => 'Statistika',
+	'toolbox-nav-search' => 'Ieškoti',
+	'location' => 'Vietovė',
 );
 
 /** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
+	'search-title' => 'Pieminekļu meklēšana',
+	'search-monuments-database' => 'Meklēt pieminekļu datubāzē',
 	'search-table-th-field' => 'Lauks',
 	'search-table-th-filter' => 'Filtrs',
+	'search-table-th-search' => 'Meklēt',
+	'filter-all-countries' => 'Visas valstis',
+	'filter-all-languages' => 'Visas valodas',
+	'db-field-country' => 'Valsts',
+	'db-field-lang' => 'Valoda',
+	'db-field-id' => 'Identifikators',
+	'db-field-name' => 'Nosaukums',
+	'db-field-address' => 'Adrese',
+	'db-field-municipality' => 'Pašvaldība',
+	'db-field-lat' => 'Ģeogrāfiskais platums',
+	'db-field-lon' => 'Ģeogrāfiskais garums',
+	'db-field-image' => 'Attēls',
+	'db-field-changed' => 'Mainīts',
+	'db-field-source' => 'Avots',
+	'db-field-monument_article' => 'Pieminekļa raksts',
+	'db-field-registrant_url' => 'Reģistratora URL',
+	'db-field-st_address' => 'Adreses',
+	'db-field-st_address_pct' => 'Adreses %',
+	'db-field-st_coordinates' => 'Koordinātas:',
+	'db-field-st_coordinates_pct' => 'Koordinātas %',
+	'db-field-st_image' => 'Attēls',
+	'db-field-st_image_pct' => 'Attēls %',
+	'db-field-st_municipality' => 'Pašvaldība',
+	'db-field-st_municipality_pct' => 'Pašvaldība %',
+	'db-field-st_name' => 'Nosaukumi',
+	'db-field-st_name_pct' => 'Nosaukumi %',
+	'db-field-st_total' => 'Kopējais skaits',
+	'toolbox-nav-statistics' => 'Statistika',
+	'toolbox-nav-search' => 'Meklēt',
+	'toolbox-title-searchmonuments' => 'Meklēt pieminekļus',
+	'location' => 'Atrašanās vieta',
 );
 
 /** Macedonian (македонски)
@@ -2197,6 +2336,7 @@ $messages['roa-tara'] = array(
 	'db-field-changed' => 'Cangiate',
 	'db-field-source' => 'Sorgende',
 	'db-field-monument_article' => "Vosce d'u monumende",
+	'db-field-registrant_url' => "URL d'u registrande",
 	'db-field-st_address' => 'Indirizze',
 	'db-field-st_address_pct' => 'Indirizze %',
 	'db-field-st_coordinates' => 'Coordinate',
@@ -2208,9 +2348,17 @@ $messages['roa-tara'] = array(
 	'db-field-st_name' => 'Nome',
 	'db-field-st_name_pct' => 'Nome %',
 	'db-field-st_total' => 'Numere totale',
+	'toolbox-label-searchtipps' => "ause %parole o parole% o %parole% pa ricerche ''fuzzy''",
+	'toolbox-meta-title' => 'Cascette de le Struminde Uicchi Ame le Monuminde',
+	'toolbox-main-title' => 'Cascette de le struminde WLM',
+	'toolbox-main-description' => "'Nu 'nzieme de struminde legate a",
+	'toolbox-wikilovesmonuments' => 'Uicchi Ame le Monuminde',
+	'toolbox-nav-homepage' => 'Pàgena prengepàle',
 	'toolbox-nav-statistics' => 'Statisteche',
 	'toolbox-nav-search' => 'Cirche',
+	'toolbox-title-searchmonuments' => 'Cirche le monuminde',
 	'location' => 'Luèche',
+	'source-monuments-list-on-wikipedia' => "Sorgende le l'elenghe de le monuminde sus a Uicchipèdie",
 );
 
 /** Russian (русский)
@@ -2269,6 +2417,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'search-table-th-field' => 'ක්ෂේත්‍රය',
 	'search-table-th-filter' => 'පෙරහන',
 	'search-table-th-search' => 'සොයන්න',
 	'filter-all-countries' => 'සියලුම රටවල්',
@@ -2279,7 +2428,10 @@ $messages['si'] = array(
 	'db-field-address' => 'ලිපිනය',
 	'db-field-lat' => 'අක්ෂාංශය',
 	'db-field-lon' => 'දේශාංශය',
+	'db-field-image' => 'පිංතූරය',
+	'db-field-changed' => 'වෙනස්කරන ලදි',
 	'db-field-source' => 'මූලාශ්‍රය',
+	'db-field-st_address' => 'ලිපින',
 	'db-field-st_image' => 'පිංතූරය',
 	'db-field-st_name' => 'නම්',
 	'db-field-st_name_pct' => 'නම් %',
@@ -2313,6 +2465,44 @@ $messages['sl'] = array(
 	'db-field-source' => 'Vir',
 	'db-field-monument_article' => 'Članek o spomeniku',
 	'db-field-registrant_url' => 'URL registranta',
+);
+
+/** Albanian (shqip)
+ * @author FatosMorina
+ */
+$messages['sq'] = array(
+	'search-table-th-search' => 'Kërko',
+	'filter-all-countries' => 'Të gjitha shtetet',
+	'filter-all-languages' => 'Të gjitha gjuhët',
+	'db-field-country' => 'Shteti',
+	'db-field-lang' => 'Gjuha',
+	'db-field-id' => 'Identifikuesi',
+	'db-field-name' => 'Emri',
+	'db-field-address' => 'Adresa',
+	'db-field-lat' => 'Gjerësia gjeografike',
+	'db-field-lon' => 'Gjatësia gjeografike',
+	'db-field-image' => 'Imazhi',
+	'db-field-changed' => 'Ndryshuar',
+	'db-field-source' => 'Burimi',
+	'db-field-registrant_url' => 'URL-ja e regjistruesit',
+	'db-field-st_address' => 'Adresat',
+	'db-field-st_address_pct' => 'Adresat %',
+	'db-field-st_coordinates' => 'Koordinatat',
+	'db-field-st_coordinates_pct' => 'Koordinatat %',
+	'db-field-st_image' => 'Imazhi',
+	'db-field-st_image_pct' => 'Imazhi %',
+	'db-field-st_municipality' => 'Komuna',
+	'db-field-st_municipality_pct' => 'Komuna %',
+	'db-field-st_name' => 'Emrat',
+	'db-field-st_name_pct' => 'Emrat %',
+	'db-field-st_total' => 'Numri i përgjithshëm',
+	'toolbox-main-description' => 'Një varg i veglat të lidhura me',
+	'toolbox-nav-homepage' => 'Faqja ballinore',
+	'toolbox-nav-statistics' => 'Statistika',
+	'toolbox-nav-search' => 'Kërkimi',
+	'toolbox-title-searchmonuments' => 'Monumentet e kërkimit',
+	'location' => 'Vendndodhja',
+	'source-monuments-list-on-wikipedia' => 'Lista e monumenteve të kërkimit në Wikipedia',
 );
 
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
@@ -2635,6 +2825,7 @@ $messages['tly'] = array(
 	'search-table-th-filter' => 'Филтр',
 	'search-table-th-search' => 'Нәве',
 	'filter-all-languages' => 'Һәммәј зывонон',
+	'db-field-country' => 'Мәмләкәт',
 	'db-field-lang' => 'Зывон',
 	'db-field-name' => 'Ном',
 	'db-field-address' => 'Унвон',
@@ -2645,6 +2836,7 @@ $messages['tly'] = array(
 	'db-field-st_image' => 'Шикил',
 	'db-field-st_image_pct' => 'Шикил %',
 	'db-field-st_name' => 'Номон',
+	'db-field-st_name_pct' => 'Номон %',
 	'toolbox-nav-homepage' => 'Әсосә сәһифә',
 	'toolbox-nav-search' => 'Нәве',
 );
@@ -2670,6 +2862,42 @@ $messages['tr'] = array(
 	'db-field-st_municipality_pct' => 'Belediyesi %',
 );
 
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'search-table-th-field' => 'سۆز بۆلىكى',
+	'search-table-th-filter' => 'سۈزگۈچ',
+	'search-table-th-search' => 'ئىزدە',
+	'filter-all-countries' => 'بارلىق دۆلەتلەر',
+	'filter-all-languages' => 'بارلىق تىللار',
+	'db-field-country' => 'دۆلەت',
+	'db-field-lang' => 'تىل',
+	'db-field-id' => 'بەلگە',
+	'db-field-name' => 'ئاتى',
+	'db-field-address' => 'ئادرېس',
+	'db-field-lat' => 'كەڭلىك',
+	'db-field-lon' => 'ئۇزۇنلۇق',
+	'db-field-image' => 'سۈرەت',
+	'db-field-changed' => 'ئۆزگەردى',
+	'db-field-source' => 'مەنبە',
+	'db-field-registrant_url' => 'خەتلەتكەنلەر url',
+	'db-field-st_address' => 'ئادرېسلار',
+	'db-field-st_address_pct' => 'ئادرېس %',
+	'db-field-st_coordinates' => 'كوئوردىناتلار',
+	'db-field-st_coordinates_pct' => 'كوردىناتلار %',
+	'db-field-st_image' => 'سۈرەت',
+	'db-field-st_image_pct' => 'سۈرەت %',
+	'db-field-st_name' => 'ئاتلار',
+	'db-field-st_name_pct' => 'ئاتلار %',
+	'db-field-st_total' => 'ئومۇمىي سانى',
+	'toolbox-main-title' => 'WLM قورال ساندۇقى',
+	'toolbox-nav-homepage' => 'باش بەت',
+	'toolbox-nav-statistics' => 'ستاتىستىكا',
+	'toolbox-nav-search' => 'ئىزدە',
+	'location' => 'ئورنى',
+);
+
 /** Ukrainian (українська)
  * @author A1
  * @author Тест
@@ -2687,7 +2915,7 @@ $messages['uk'] = array(
 	'db-field-id' => 'Ідентифікатор',
 	'db-field-name' => 'Назва',
 	'db-field-address' => 'Адреса',
-	'db-field-municipality' => 'Муніципалітет',
+	'db-field-municipality' => 'Місто (район)',
 	'db-field-lat' => 'Широта',
 	'db-field-lon' => 'Довгота',
 	'db-field-image' => 'Зображення',
@@ -2715,6 +2943,8 @@ $messages['uk'] = array(
 	'toolbox-nav-statistics' => 'Статистика',
 	'toolbox-nav-search' => 'Пошук',
 	'toolbox-title-searchmonuments' => "Пошук пам'яток",
+	'location' => 'Географічні координати',
+	'source-monuments-list-on-wikipedia' => "Список пам'яток у Вікіпедії",
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -2747,7 +2977,7 @@ $messages['vi'] = array(
 	'db-field-st_coordinates_pct' => '% tọa độ',
 	'db-field-st_image' => 'Hình ảnh',
 	'db-field-st_image_pct' => '% hình ảnh',
-	'db-field-st_municipality' => 'Đô thị',
+	'db-field-st_municipality' => 'Thành phố',
 	'db-field-st_municipality_pct' => '% đô thị',
 	'db-field-st_name' => 'Tên',
 	'db-field-st_name_pct' => '% tên',

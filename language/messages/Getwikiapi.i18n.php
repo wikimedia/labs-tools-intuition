@@ -143,10 +143,13 @@ $messages['ca'] = array(
 
 /** Czech (česky)
  * @author Jezevec
+ * @author Vks
  */
 $messages['cs'] = array(
 	'formats-heading' => 'Výstupní formáty',
 	'input' => 'Vstup',
+	'label-wikiids' => 'Identifikátory Wiki',
+	'no-matches' => 'Nic neodpovídá dotazu "$1"',
 	'output' => 'Výstup pro " $1 "',
 );
 
@@ -185,8 +188,10 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Evropi
+ * @author Glavkos
  */
 $messages['el'] = array(
+	'input' => 'Εισροή',
 	'no-matches' => 'Τίποτα δεν βρέθηκε για το "$1"',
 );
 
@@ -426,6 +431,13 @@ $messages['lt'] = array(
 	'output' => 'Išvestis "$1"',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'formats-heading' => 'Izvades formāti',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -491,8 +503,11 @@ $messages['no'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
+ * @author Shisir 1945
  */
 $messages['or'] = array(
+	'formats-heading' => 'ଆଉଟ୍‌ପୁଟ୍‌ ବିନ୍ୟାସ',
+	'input' => 'ଇନ୍‌ପୁଟ୍‌',
 	'label-wikiids' => 'ଉଇକି ଚିହ୍ନଟକାରୀ',
 	'no-matches' => 'କିଛି ମିଶିଲା ନାହିଁ "$1"',
 	'output' => '"$1" ପାଇଁ ଫଳାଫଳ',
@@ -565,6 +580,13 @@ $messages['ru'] = array(
 	'label-wikiids' => 'Вики-идентификаторы',
 	'no-matches' => 'Нет соответствий «$1»',
 	'output' => 'Выход для «$1»',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'input' => 'ආදානය',
 );
 
 /** Slovenian (slovenščina)
@@ -650,6 +672,17 @@ $messages['tr'] = array(
 	'label-wikiids' => 'Viki tanıtıcıları',
 	'no-matches' => '"$1" ile eşleşme yok',
 	'output' => '"$1" için çıkış',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'formats-heading' => 'چىقىرىش پىچىملىرى',
+	'input' => 'كىرگۈز',
+	'label-wikiids' => 'ۋىكى بەلگىلىرى',
+	'no-matches' => 'ھېچنېمە ماسلاشمىدى "$1"',
+	'output' => '"$1" ئۈچۈن چىقار',
 );
 
 /** Ukrainian (українська)

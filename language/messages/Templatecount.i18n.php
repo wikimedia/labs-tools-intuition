@@ -133,10 +133,13 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Nasir8891
  */
 $messages['bn'] = array(
+	'enter-details' => 'বিস্তারিত লিখুন',
 	'language-label' => 'ভাষা',
 	'namespace-label' => 'নামস্থান',
+	'pagename-label' => 'পাতার নাম (নামস্থান বাদে)',
 );
 
 /** Breton (brezhoneg)
@@ -172,11 +175,16 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Jezevec
+ * @author Vks
  */
 $messages['cs'] = array(
 	'enter-details' => 'Vložit podrobnosti',
 	'language-label' => 'Jazyk',
 	'namespace-label' => 'Jmenný prostor',
+	'pagename-label' => 'Jméno stránky (bez jmenného prostoru)',
+	'transclusion-count-label' => 'Počet transkluzí',
+	'transclusion-count' => '$1 transkluzí nalezeno',
+	'time-label' => 'Čas vykonávání příkazu',
 );
 
 /** Danish (dansk)
@@ -267,10 +275,18 @@ $messages['es'] = array(
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
+	'enter-details' => 'Üksikasjade sisestamine',
+	'introduction' => 'Sisesta malli nimi (praegu ainult Vikipeediatele) ja klõpsa "Mine". Nii lihtne ongi. Mõned tulemused võivad jääda vahemällu, aga sellest hoidumine pole paraku selle tööriista abil võimalik ega tööriista arendaja võimuses.',
 	'language-label' => 'Keel',
 	'namespace-label' => 'Nimeruum',
+	'pagename-label' => 'Lehekülje nimi (nimeruumita)',
+	'transclusion-count-label' => 'Kasutamiste arv',
+	'transclusion-count' => 'Kasutamisi leitud: $1.',
+	'error-suggestion' => 'Võib-olla kirjutasid või suurtähestasid lehekülje nime valesti?',
+	'time-label' => 'Käsu täitmiseks kulunud aeg',
 );
 
 /** Basque (euskara)
@@ -331,6 +347,14 @@ $messages['frp'] = array(
 	'language-label' => 'Lengoua',
 	'namespace-label' => 'Èspâço de noms',
 	'pagename-label' => 'Nom de la pâge (sen l’èspâço de noms)',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'language-label' => 'Teanga',
+	'namespace-label' => 'Ainmspás:',
 );
 
 /** Galician (galego)
@@ -518,9 +542,16 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'title' => '틀 트랜스클루전 수',
+	'enter-details' => '자세한 정보 입력',
+	'introduction' => '틀 이름(현재 위키백과만)을 입력하고 가기를 누르세요. 간단합니다. 몇 가지 캐시(결과 기억)를 하지만, 불행히도 도구와 도구 소유자의 통제 밖입니다.',
 	'language-label' => '언어',
 	'namespace-label' => '이름공간',
 	'pagename-label' => '문서 이름 (이름공간 제외)',
+	'transclusion-count-label' => '틀 수',
+	'transclusion-count' => '틀 $1개를 찾았습니다.',
+	'error-suggestion' => '아마도 문서 이름(또는 대소문자)을 잘못 입력했습니까?',
+	'time-label' => '명령을 실행하는 데 걸리는 시간',
 );
 
 /** Colognian (Ripoarisch)
@@ -573,6 +604,7 @@ $messages['lb'] = array(
  */
 $messages['lt'] = array(
 	'enter-details' => 'Įveskite detales',
+	'language-label' => 'Kalba',
 );
 
 /** Macedonian (македонски)
@@ -903,6 +935,21 @@ $messages['tr'] = array(
 	'namespace-label' => 'Alan adı',
 	'pagename-label' => 'Sayfa adı (alan adı hariç)',
 	'time-label' => 'Komutu yürütmek için geçen süre',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'title' => 'قېلىپ سىڭدۈرۈش سانى',
+	'enter-details' => 'تەپسىلاتىنى كىرگۈزۈڭ',
+	'language-label' => 'تىل',
+	'namespace-label' => 'ئات بوشلۇقى',
+	'pagename-label' => 'بەت ئاتى (ئات بوشلۇقى بۇنىڭ سىرتىدا)',
+	'transclusion-count-label' => 'سىڭدۈرگەن قېلىپ سانى',
+	'transclusion-count' => '$1 سىڭدۈرگەن قېلىپ تېپىلدى.',
+	'error-suggestion' => 'بۇ بەتنىڭ ئاتىنى ئۇنۇت (ياكى چوڭ يېزىلىشنى خاتا ئىشلەت) تىڭىزمۇ قانداق؟',
+	'time-label' => 'بۇيرۇق ئىجرا قىلىشقا كېرەكلىك ۋاقىت',
 );
 
 /** Ukrainian (українська)
