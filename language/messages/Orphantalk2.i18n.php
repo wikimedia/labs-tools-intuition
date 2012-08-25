@@ -1150,7 +1150,7 @@ $messages['nl'] = array(
 	'resultslimited' => "Er worden maximaal $1 pagina's weergegeven.",
 );
 
-/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(

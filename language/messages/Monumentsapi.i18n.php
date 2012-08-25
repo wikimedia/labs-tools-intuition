@@ -1367,6 +1367,7 @@ $messages['ia'] = array(
 	'toolbox-nav-search' => 'Recerca',
 	'toolbox-title-searchmonuments' => 'Cercar monumentos',
 	'location' => 'Loco',
+	'source-monuments-list-on-wikipedia' => 'Lista de monumentos de origine in Wikipedia',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -2063,7 +2064,7 @@ $messages['nl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Monumentenbronlijst op Wikipedia',
 );
 
-/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

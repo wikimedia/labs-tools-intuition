@@ -2412,7 +2412,7 @@ hoặc một Kho phần mềm GNU khác; xem
  http://www.gnu.org/prep/ftp.html',
 	'scaling-width' => ', được chỉnh lại theo chiều rộng tối đa là $1 điểm ảnh',
 	'scaling-height' => ', được chỉnh lại theo chiều cao tối đa là $1 điểm ảnh',
-	'scaling-both' => ', được chỉnh lại theo kích cỡ tối đa là $1 × $2 điểm ảnh',
+	'scaling-both' => ', được chỉnh lại theo kích cỡ tối đa là $1×$2 điểm ảnh',
 );
 
 /** Simplified Chinese (‪中文（简体）‬)

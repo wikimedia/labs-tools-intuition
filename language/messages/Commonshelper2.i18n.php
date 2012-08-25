@@ -2373,7 +2373,7 @@ $messages['nl'] = array(
 	'help_commons' => '$1Bericht toevoegen op Wikimedia Commons$2',
 );
 
-/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -2711,6 +2711,9 @@ $messages['roa-tara'] = array(
 	'error_on_commons' => "'U file sorgende stè ggià sus a $1!",
 	'error_file_exists' => '\'U file già esiste sus a $3 cumme "$1$4$2"!',
 	'error_diff_exists' => "'Nu file de destinazione diverse esiste sus 'a uicchi de destinazione sotte a 'u stesse nome!",
+	'error_no_meta' => 'Nisciune metadata acchiate sus a uicchi de origgene! $1Pe piacere aggiunge/aggiorne le metadata pu proggette$2',
+	'error_meta_no_good' => "Metadata: Nisciune template bbuène ha state acchiate! $1Pe piacere aggiunge/agggiorne 'u metadata pu proggette$2",
+	'error_meta_bad' => "Metadata: Template sbagliate acchiate!  $1Pe piacere aggiunge/agggiorne 'u metadata pu proggette$2",
 	'original_wikitext' => 'Teste de Uicchi origgenale',
 	'new_wikitext' => 'Teste de Uicchi nuève',
 	'new_filename' => "Nome d'u file nuève:",
@@ -2719,7 +2722,9 @@ $messages['roa-tara'] = array(
 	'standard_project' => 'uicchipèdie',
 	'error_bot_blocked' => "'U bot de le carecaminde jè bloccate sus a Wikimedia Commons.",
 	'error_tusc_failed' => 'verifiche de TUSC fallite!',
+	'error_only_commons' => "'U carecamende dirette fatìe sulamende sus a UicchiMedia Commons!",
 	'upload_control_text' => 'Pe piacere verifeche \'u teste nuève e cazze "$1" ce jè tutte apposte!',
+	'error_upload_users' => "'A funzione de carecamende jè sulamende disponibbele pe certe utinde duranne 'u periode de test!",
 	'error_upload_file' => "'U file origgenale non ge pò essere scarecate.",
 	'help_jira' => "$1JIRA (tu è abbesogne de 'nu cunde utende)$2 (Project: Commonshelper2)",
 	'help_mail' => "Manne 'n'email a $1",

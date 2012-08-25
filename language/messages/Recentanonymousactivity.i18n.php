@@ -278,7 +278,7 @@ $messages['nl'] = array(
 	'title' => 'Recente activiteit van anonieme gebruikers',
 );
 
-/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

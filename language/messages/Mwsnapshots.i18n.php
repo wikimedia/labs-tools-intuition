@@ -894,6 +894,7 @@ $messages['lb'] = array(
 	'repo-branches-label' => 'Famillje vu Versiounen:',
 	'repo-lastmoddate-label' => 'Datum:',
 	'branches-submit-button' => 'Eroflueden!',
+	'updatelog-link' => 'Logbuch aktualiséieren',
 	'tablehead-branch' => 'Versiouns-Famill',
 	'tablehead-filesize' => 'Gréisst vum Fichier',
 	'tablehead-hash' => 'Kontrollzuelen',

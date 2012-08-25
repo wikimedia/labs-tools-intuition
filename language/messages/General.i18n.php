@@ -910,7 +910,7 @@ $messages['ja'] = array(
 	'hours' => '{{PLURAL: $1|時間}}',
 	'minutes' => '{{PLURAL: $1|分}}',
 	'seconds' => '{{PLURAL: $1|秒}}',
-	'last-modified-date' => '最終更新：$1',
+	'last-modified-date' => '最終更新: $1',
 	'view-source' => 'ソースを表示',
 );
 
@@ -1250,7 +1250,7 @@ $messages['nl'] = array(
 	'view-source' => 'Brontekst bekijken',
 );
 
-/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1829,12 +1829,12 @@ $messages['vi'] = array(
 	'namespace' => 'Không gian tên',
 	'form-submit' => 'Lưu',
 	'form-reset' => 'Mặc định lại',
-	'years' => '{{PLURAL:$1}} năm',
-	'weeks' => '{{PLURAL:$1}} tuần',
-	'days' => '{{PLURAL:$1}} ngày',
-	'hours' => '{{PLURAL:$1}} giờ',
-	'minutes' => '{{PLURAL:$1}} phút',
-	'seconds' => '{{PLURAL:$1}} giây',
+	'years' => '{{PLURAL:$1}}năm',
+	'weeks' => '{{PLURAL:$1}}tuần',
+	'days' => '{{PLURAL:$1}}ngày',
+	'hours' => '{{PLURAL:$1}}giờ',
+	'minutes' => '{{PLURAL:$1}}phút',
+	'seconds' => '{{PLURAL:$1}}giây',
 	'last-modified-date' => 'Sửa đổi lần cuối: $1',
 	'view-source' => 'Xem mã nguồn',
 );

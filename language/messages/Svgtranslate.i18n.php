@@ -1843,7 +1843,7 @@ $messages['nl'] = array(
 	'finalise' => 'Rond de details af',
 );
 
-/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (‪norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
