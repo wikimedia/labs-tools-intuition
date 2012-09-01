@@ -469,6 +469,15 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
 	'scaling-both' => ', reduït a una mida màxima de  $1 x $2  píxels',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Muhammed taha
+ */
+$messages['ckb'] = array(
+	'project' => 'پرۆژە:',
+	'category' => 'پۆل:',
+	'download' => 'دایبگرە',
+);
+
 /** Czech (česky)
  * @author Jezevec
  * @author Jkjk

@@ -571,6 +571,17 @@ $messages['ca'] = array(
 	'help_commons' => '$1Afegeix un missatge a Commons$2',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Muhammed taha
+ */
+$messages['ckb'] = array(
+	'language' => 'زمان',
+	'project' => 'پرۆژە',
+	'source_file' => 'پەڕگەی سەرچاوە',
+	'categories' => 'پۆلەكان',
+	'upload_submit' => 'بارکرا!',
+);
+
 /** Czech (česky)
  * @author Jezevec
  * @author Jkjk

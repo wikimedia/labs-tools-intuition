@@ -1478,12 +1478,13 @@ $messages['sv'] = array(
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
+ * @author Sodabottle
  * @author செல்வா
  * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'select-wiki-first' => '(முதலில் ஒரு விக்கியைத் தெரியவும்)',
-	'hideredirects' => 'வழிமாற்றுகளைப் மறை',
+	'hideredirects' => 'வழிமாற்றுகளை மறை',
 	'hidesubpages' => 'துனை பக்கங்களை மறை',
 	'limit' => 'வரம்பு',
 	'page' => 'பக்கம்',

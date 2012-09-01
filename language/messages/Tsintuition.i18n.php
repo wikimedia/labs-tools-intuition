@@ -377,6 +377,13 @@ $messages['ca'] = array(
 	'help-translate-tooltip' => 'Ajudeu els altres fent les traduccions al vostre idioma dels missatges de la interfície.',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Muhammed taha
+ */
+$messages['ckb'] = array(
+	'tab-about' => 'سه‌باره‌ت',
+);
+
 /** Czech (česky)
  * @author Mormegil
  */

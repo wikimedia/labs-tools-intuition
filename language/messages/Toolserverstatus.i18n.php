@@ -352,10 +352,18 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Hooshmand.hasannia
  * @author ZxxZxxZ
+ * @author جواد
  */
 $messages['fa'] = array(
+	'toolserver-status-short-ok' => '$1: خوب',
 	'toolserver-status-short-info' => '$1: اطلاعات',
+	'toolserver-status-short-warn' => '$1: هشدار',
+	'toolserver-status-short-down' => '$1: پایین',
+	'toolserver-status-short-erro' => '$1: خطا',
+	'toolserver-status-short-unknown' => '$1: ناشناخته',
+	'toolserver-status-short-missing' => '$1: از دست رفته',
 );
 
 /** Finnish (suomi)
@@ -564,6 +572,7 @@ $messages['ja'] = array(
 	'toolserver-status-short-down' => '$1: ダウン',
 	'toolserver-status-short-erro' => '$1: エラー',
 	'toolserver-status-short-unknown' => '$1: 不明',
+	'toolserver-status-short-missing' => '$1: 見つかりません',
 );
 
 /** Javanese (Basa Jawa)

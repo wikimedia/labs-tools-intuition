@@ -396,6 +396,7 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Gwenn-Ael
  * @author VIGNERON
  * @author Y-M D
  */
@@ -441,6 +442,7 @@ $messages['br'] = array(
 	'toolbox-nav-search' => 'Klask',
 	'toolbox-title-searchmonuments' => 'Klask monumantoù',
 	'location' => "Lec'hiadur",
+	'source-monuments-list-on-wikipedia' => 'Roll ar monumantoù orin war Wikipedia',
 );
 
 /** Catalan (català)
