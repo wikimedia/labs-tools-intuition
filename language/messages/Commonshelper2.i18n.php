@@ -2737,6 +2737,7 @@ $messages['roa-tara'] = array(
 	'upload_control_text' => 'Pe piacere verifeche \'u teste nuève e cazze "$1" ce jè tutte apposte!',
 	'error_upload_users' => "'A funzione de carecamende jè sulamende disponibbele pe certe utinde duranne 'u periode de test!",
 	'error_upload_file' => "'U file origgenale non ge pò essere scarecate.",
+	'help_intro' => "Quanne tu vuè cu signale 'nu bochere, consiglià 'na funzionalità o fà 'na domande, tu puè ausà une de le tipe de condatte aqquà sotte:",
 	'help_jira' => "$1JIRA (tu è abbesogne de 'nu cunde utende)$2 (Project: Commonshelper2)",
 	'help_mail' => "Manne 'n'email a $1",
 	'help_commons' => "$1 Aggiunge 'nu messagge sus a Commons$2",

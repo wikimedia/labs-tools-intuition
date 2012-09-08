@@ -356,7 +356,7 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'formats-heading' => '出力形式',
 	'input' => '入力',
-	'label-wikiids' => 'Wiki 識別子',
+	'label-wikiids' => 'ウィキ識別子',
 	'no-matches' => '"$1" と一致するものはありません',
 	'output' => '"$1" の検索結果',
 );

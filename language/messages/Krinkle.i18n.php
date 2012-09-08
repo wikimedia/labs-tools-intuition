@@ -370,8 +370,8 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'alws-selectwiki' => '（ウィキを選択）',
-	'alws-group-mustused' => '最も使用された wiki',
-	'alws-group-allaz' => 'すべての wiki (アルファベット順)',
+	'alws-group-mustused' => '最も使用されたウィキ',
+	'alws-group-allaz' => 'すべてのウィキ (アルファベット順)',
 	'form-legend-settings' => '設定',
 );
 
