@@ -53,6 +53,8 @@ $messages['en'] = array(
 	'view-previous-images' => '← View previous images',
 	'view-later-images' => 'View later images →',
 
+	'images-listed-count' => '$1 images listed.',
+
 	/* ids.php */
 	'id-label' => 'Monument id:',
 	'date-format' => 'd-m-Y H:i:s',
@@ -129,6 +131,7 @@ $messages['qqq'] = array(
 	'show-button' => 'Caption of the button used in http://toolserver.org/~platonides/wlm2012/uploads.php to apply different settings',
 	'view-previous-images' => 'Link to a page with the images uploaded before the currently viewed ones',
 	'view-later-images' => 'Link to a page with the images uploader after the ones currently shown',
+	'images-listed-count' => 'Shows the count of images displayed in the current page.\n$1: Number of images.',
 	'id-label' => 'Label for ids.php input',
 	'date-format' => 'Format in which to present the date in the upload-time column',
 	'id-none' => "Column to show where there's no id.
@@ -796,6 +799,7 @@ $messages['es'] = array(
 	'show-button' => 'Mostrar',
 	'view-previous-images' => '← Ver imágenes anteriores',
 	'view-later-images' => 'Ver imágenenes posteriores →',
+	'images-listed-count' => 'Mostradas $1 imágenes.',
 	'id-label' => 'BIC:',
 	'id-none' => '(Sin identificador)',
 	'monument-heading' => 'Monumento',
