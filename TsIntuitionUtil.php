@@ -174,4 +174,44 @@ class TsIntuitionUtil {
 		return $acceptableLanguages;
 	}
 
+	const EXT_LINK_URL_CLASS = '[^][<>"\\x00-\\x20\\x7F\p{Zs}]'; // Copied from Parser class
+
+	/**
+	 * Given a text already html-escaped which contains urls in wiki format to html
+	 */
+	public static function parseExternalLinks($text) {
+		static $urlProtocols = false;
+		if ( !$urlProtocols ) {
+			if ( function_exists( 'wfUrlProtocols' ) ) { // Allow custom protocols
+				$urlProtocols = wfUrlProtocols();
+			} else {
+				$urlProtocols = 'https?:\/\/|ftp:\/\/';
+			}
+		}
+		
+		
+		$extLinkBracketedRegex = '/(?:(<[^>]*)|' .
+			'\[(((?i)' . $urlProtocols . ')' . self::EXT_LINK_URL_CLASS . '+)\p{Zs}*([^\]\\x00-\\x08\\x0a-\\x1F]*?)\]|'
+			. '(((?i)' . $urlProtocols . ')' . self::EXT_LINK_URL_CLASS . '+))/Su';
+
+		return preg_replace_callback( $extLinkBracketedRegex, 'self::parseExternalLinkArray', $text );
+	}
+	
+	/**
+	 * Changes the matches of parseExternalLinks into html
+	 */
+	public static function parseExternalLinkArray($bits) {
+		static $counter = 0;
+
+		if ( $bits[1] != '' )
+			return $bits[1];
+
+		if ( isset( $bits[4] ) && $bits[4] != '' ) {
+			return '<a href="' . $bits[2] . '">' . $bits[4] . '</a>';
+		} elseif ( isset( $bits[5] ) ) {
+			return '<a href="' . $bits[5] . '">' . $bits[5] . '</a>';
+		} else {
+			return '<a href="' . $bits[2] . '">[' . ++$counter . ']</a>';
+		}
+	}
 }

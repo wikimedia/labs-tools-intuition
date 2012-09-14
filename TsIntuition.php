@@ -385,6 +385,7 @@ class TsIntuition {
 			'raw-variables' => false,
 			'escape' => 'plain',
 			'parsemag' => true,
+			'externallinks' => false,
 		);
 
 		// If $options was a domain string, convert it now.
@@ -449,6 +450,10 @@ class TsIntuition {
 		if ( !$escapeDone ) {
 			$escapeDone = true;
 			$msg = TsIntuitionUtil::strEscape( $msg, $options['escape'] );
+		}
+
+		if ( $options['externallinks'] ) {
+			$msg = TsIntuitionUtil::parseExternalLinks( $msg );
 		}
 
 		// Finally
