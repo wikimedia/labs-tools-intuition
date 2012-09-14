@@ -3297,11 +3297,13 @@ class Language {
 	 * @return false|string
 	 */
 	static function getFallbackFor( $code ) {
+		global $I18N;
 		if ( $code === 'en' ) {
 			// Shortcut
 			return false;
 		} else {
-			return self::getLocalisationCache()->getItem( $code, 'fallback' );
+			return $I18N->getLangFallback( $code );
+			//return self::getLocalisationCache()->getItem( $code, 'fallback' );
 		}
 	}
 
