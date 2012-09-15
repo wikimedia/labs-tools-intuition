@@ -177,7 +177,8 @@ class TsIntuitionUtil {
 	const EXT_LINK_URL_CLASS = '[^][<>"\\x00-\\x20\\x7F\p{Zs}]'; // Copied from Parser class
 
 	/**
-	 * Given a text already html-escaped which contains urls in wiki format to html
+	 * Given a text already html-escaped which contains urls in wiki format,
+	 * convert it to html
 	 */
 	public static function parseExternalLinks($text) {
 		static $urlProtocols = false;
@@ -200,7 +201,7 @@ class TsIntuitionUtil {
 	/**
 	 * Changes the matches of parseExternalLinks into html
 	 */
-	public static function parseExternalLinkArray($bits) {
+	private static function parseExternalLinkArray($bits) {
 		static $counter = 0;
 
 		if ( $bits[1] != '' )
