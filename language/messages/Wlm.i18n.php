@@ -55,6 +55,8 @@ $messages['en'] = array(
 	'view-later-images' => 'View later images →',
 
 	'images-listed-count' => '$1 images listed.',
+	'log-page-disclaimer' => 'This tool shows the files at the [[:Category:$1|relevant category]] which were uploaded during the contest.
+Deleted files are not shown even if they were later [$2 restored] and are participating again.',
 
 	/* ids.php */
 	'id-label' => 'Monument id:',
@@ -134,6 +136,10 @@ $messages['qqq'] = array(
 	'view-previous-images' => 'Link to a page with the images uploaded before the currently viewed ones',
 	'view-later-images' => 'Link to a page with the images uploader after the ones currently shown',
 	'images-listed-count' => 'Shows the count of images displayed in the current page.\n$1: Number of images.',
+	'log-page-disclaimer' => 'Note explaining the limitations of some tools of this family, which don\'t show files deleted and restored.
+Parameters:
+* $1 Commons category used by the tool to fetch the images.
+* $2 Url to the tool showing files restored which are participating in WLM.',
 	'id-label' => 'Label for ids.php input',
 	'date-format' => 'Format in which to present the date in the upload-time column',
 	'id-none' => "Column to show where there's no id.
@@ -803,6 +809,7 @@ $messages['es'] = array(
 	'view-previous-images' => '← Ver imágenes anteriores',
 	'view-later-images' => 'Ver imágenenes posteriores →',
 	'images-listed-count' => 'Mostradas $1 imágenes.',
+	'log-page-disclaimer' => 'Esta herramienta muestra las fotos de la [[:Category:$1|categoría apropiada]] subidas durante el concurso. Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido recuperados y participan nuevamente.',
 	'id-label' => 'BIC:',
 	'id-none' => '(Sin identificador)',
 	'monument-heading' => 'Monumento',
