@@ -215,4 +215,24 @@ class TsIntuitionUtil {
 			return '<a href="' . $bits[2] . '">[' . ++$counter . ']</a>';
 		}
 	}
+
+	/**
+	 * Builds a pretty url link to a wiki article.
+	 * It assumes the wiki is not hosted on IIS7.
+	 * 
+	 * Most of this logic is taken from wfUrlencode()
+	 */
+	public static function prettyEncodedWikiUrl($articlePath, $article) {
+		$s = strtr( $article, ' ', '_' );
+		$s = urlencode( $s );
+		$s = str_ireplace(
+			array( '%3B', '%40', '%24', '%21', '%2A', '%28', '%29', '%2C', '%2F', '%3A' ),
+			array( ';', '@', '$', '!', '*', '(', ')', ',', '/', ':' ),
+			$s
+		);
+		
+		$s = str_replace( '$1', $s, $articlePath );
+		
+		return $s;
+	}
 }
