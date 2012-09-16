@@ -238,7 +238,7 @@ class TsIntuitionUtil {
 
 		$article = html_entity_decode( $bits[1], ENT_QUOTES, 'UTF-8' );
 
-		return '<a href="' . htmlspecialchars( self::prettyWikiUrl( self::$articlePath, $article ), ENT_COMPAT, 'UTF-8' ) . '">' . $bits[2] . "</a>";
+		return '<a href="' . htmlspecialchars( self::prettyEncodedWikiUrl( self::$articlePath, $article ), ENT_COMPAT, 'UTF-8' ) . '">' . $bits[2] . "</a>";
 	}
 
 	/**
