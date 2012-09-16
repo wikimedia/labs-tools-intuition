@@ -626,6 +626,7 @@ $messages['hsb'] = array(
 
 /** Hungarian (magyar)
  * @author Dj
+ * @author Sucy
  */
 $messages['hu'] = array(
 	'title-overview' => 'Pillanatfelvételek',
@@ -634,6 +635,7 @@ $messages['hu'] = array(
 	'updatelog-intro' => 'A frissítést végző parancsfájl óránként fut le. Alább megtalálod a legutóbbi futtatás konzol outputját.',
 	'updatelog-active' => 'A frissítést végző parancsfájl jelenleg fut. Gyere vissza később a teljes naplóért.',
 	'download-button' => '$1 letöltése',
+	'title-downloadpage' => 'Letöltés:$1',
 	'repo-lastmoddate-label' => 'Dátum:',
 	'updatelog-link' => 'frissítési napló',
 	'tablehead-snapshots' => 'Pillanatfelvételek',
@@ -850,7 +852,7 @@ Schpääder kanns De heh dann et kumplätte Protokoll dovun beloore.',
 	'download-button' => '$1 eronger laade',
 	'download-directlink' => 'tiräkte Lenk',
 	'title-downloadpage' => '$1 eronger laade',
-	'downloadpage-directlink' => 'Donn heh klecke, öm enen Schnapschoß eronger ze laade.',
+	'downloadpage-directlink' => 'Donn heh klecke, öm dä Schnapschoß eronger ze laade.',
 	'err-snapshotindex' => 'Et Verzeijschneß met de Schnapschöß es em Momang nit ze bruche.
 Versöhg_et schpääder widder.',
 	'err-invalid-repo' => 'En Sammlong „$1“kenne mer nit.',
@@ -859,7 +861,7 @@ Versöhg_et schpääder widder.',
 Wi mer dä Schnapschoß för „$1“jemaat han, es jät scheif jeloufe.
 Versöhg_et schpääder norr_ens.',
 	'err-noupdatelog' => 'Mer han kei Protokoll jefonge.',
-	'repo-site-link' => 'Websaijt',
+	'repo-site-link' => 'Wäbßaijt',
 	'repo-browse-link' => 'En dä Sammlong bläddere',
 	'repo-branches-label' => 'Zweije vun dä Versione:',
 	'repo-lastmoddate-label' => 'Dattum:',
@@ -1014,6 +1016,13 @@ $messages['mt'] = array(
 	'tablehead-filesize' => 'Daqs tal-fajl',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Danmichaelo
+ */
+$messages['nb'] = array(
+	'tablehead-hash' => 'Kontrollsummer',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -1125,6 +1134,16 @@ $messages['ps'] = array(
 	'repo-lastmoddate-label' => 'نېټه:',
 	'tablehead-branch' => 'څانګه',
 	'tablehead-filesize' => 'د دوتنې کچه',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas Blade
+ */
+$messages['pt-br'] = array(
+	'title-error' => 'Erro',
+	'repo-lastmoddate-label' => 'Data:',
+	'tablehead-repo' => 'Repositório',
+	'tablehead-filesize' => 'Tamanho do arquivo',
 );
 
 /** Romanian (română)

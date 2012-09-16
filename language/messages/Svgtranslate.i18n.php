@@ -471,6 +471,7 @@ $messages['ckb'] = array(
 );
 
 /** Czech (česky)
+ * @author Chmee2
  * @author Jezevec
  * @author PSJG-Tyler
  * @author Vks
@@ -506,6 +507,7 @@ $messages['cs'] = array(
 	'error-must-accept' => 'Abyste mohli uploadovat soubory, musíte přijmout přiložená pravidla použití.',
 	'error-tusc-failed' => 'Validace TUSC selhala: Uživatelské jméno nebo heslo není správně.',
 	'description-license' => 'Vyberte popis a licenci',
+	'finalise' => 'Dokončit detaily',
 );
 
 /** Danish (dansk)

@@ -1492,7 +1492,7 @@ $messages['ja'] = array(
 	'search-table-th-field' => 'フィールド',
 	'search-table-th-filter' => '絞り込む',
 	'search-table-th-search' => '検索',
-	'filter-all-countries' => 'すべての国々',
+	'filter-all-countries' => 'すべての国',
 	'filter-all-languages' => 'すべての言語',
 	'db-field-country' => '国',
 	'db-field-lang' => '言語',
@@ -2261,11 +2261,36 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Luckas Blade
  */
 $messages['pt-br'] = array(
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Pesquisar',
+	'filter-all-countries' => 'Todos os países',
+	'filter-all-languages' => 'Todos os idiomas',
+	'db-field-country' => 'País',
+	'db-field-lang' => 'Idioma',
+	'db-field-id' => 'Identificador',
+	'db-field-name' => 'Nome',
+	'db-field-address' => 'Endereço',
+	'db-field-municipality' => 'Município',
+	'db-field-lat' => 'Latitude',
+	'db-field-lon' => 'Longitude',
+	'db-field-image' => 'Imagem',
+	'db-field-changed' => 'Modificado',
+	'db-field-source' => 'Fonte',
+	'db-field-monument_article' => 'Artigo do monumento',
+	'db-field-st_address' => 'Endereços',
+	'db-field-st_coordinates' => 'Coordenadas',
+	'db-field-st_image' => 'Imagem',
+	'db-field-st_name' => 'Nomes',
+	'db-field-st_total' => 'Número total',
+	'toolbox-nav-homepage' => 'Página principal',
+	'toolbox-nav-statistics' => 'Estatísticas',
+	'toolbox-nav-search' => 'Pesquisar',
+	'toolbox-title-searchmonuments' => 'Buscar monumentos',
+	'location' => 'Localização',
 );
 
 /** Romanian (română)
@@ -2314,6 +2339,7 @@ $messages['ro'] = array(
 	'toolbox-nav-search' => 'Căutare',
 	'toolbox-title-searchmonuments' => 'Căutare monumente',
 	'location' => 'Loc',
+	'source-monuments-list-on-wikipedia' => 'Lista sursă cu monumente de pe Wikipedia',
 );
 
 /** tarandíne (tarandíne)

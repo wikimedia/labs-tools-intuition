@@ -1855,6 +1855,21 @@ $messages['ps'] = array(
 	'download' => 'ښکته کول',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas Blade
+ */
+$messages['pt-br'] = array(
+	'project' => 'Projeto:',
+	'category' => 'Categoria:',
+	'thumbnailing' => 'Miniatura',
+	'max-width' => 'Largura máxima:',
+	'max-height' => 'Altura máxima:',
+	'invalid-width' => 'Largura inválida',
+	'invalid-height' => 'Altura inválida',
+	'no-such-project' => 'Não existe tal projeto',
+	'no-images' => 'Não há nenhuma imagem nessa categoria',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */

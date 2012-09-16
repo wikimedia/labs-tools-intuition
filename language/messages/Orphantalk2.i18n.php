@@ -1277,11 +1277,13 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Luckas Blade
  */
 $messages['pt-br'] = array(
 	'title' => 'DiscussõesOrfãs2',
 	'select-wiki-first' => '(primeiro selecione uma wiki)',
 	'hideredirects' => 'Excluir redirecionamentos',
+	'hidesubpages' => 'Ocultar subpáginas',
 );
 
 /** Romanian (română)

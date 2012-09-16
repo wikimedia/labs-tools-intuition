@@ -754,6 +754,26 @@ $messages['mt'] = array(
 	'toolserver-status-short-missing' => '$1: Nieqes',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Danmichaelo
+ */
+$messages['nb'] = array(
+	'toolserver-status-ok' => 'Det er ingen problemer i databaseklyngen $1 $2',
+	'toolserver-status-info' => 'Merknad for brukere av klyngen $1: $2',
+	'toolserver-status-warn' => 'Advarsel for brukere av klyngen $1: $2',
+	'toolserver-status-down' => 'Databaseklyngen $1 har midlertidig blitt skrudd av. $2',
+	'toolserver-status-erro' => 'Databaseklyngen $1 er nede. $2',
+	'toolserver-status-unknown' => 'Ukjent status for klyngen $1',
+	'toolserver-status-missing' => 'Klyngen $1 eksisterer ikke',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Info',
+	'toolserver-status-short-warn' => '$1: Advarsel',
+	'toolserver-status-short-down' => '$1: Nede',
+	'toolserver-status-short-erro' => '$1: Feil',
+	'toolserver-status-short-unknown' => '$1: Ukjent',
+	'toolserver-status-short-missing' => '$1: Mangler',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
