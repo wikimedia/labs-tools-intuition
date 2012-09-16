@@ -386,6 +386,7 @@ class TsIntuition {
 			'escape' => 'plain',
 			'parsemag' => true,
 			'externallinks' => false,
+			'wikilinks' => false, // Set to a wiki article path for converting
 		);
 
 		// If $options was a domain string, convert it now.
@@ -452,6 +453,10 @@ class TsIntuition {
 			$msg = TsIntuitionUtil::strEscape( $msg, $options['escape'] );
 		}
 
+		if ( is_string( $options['wikilinks'] ) ) {
+			$msg = TsIntuitionUtil::parseWikiLinks( $msg, $options['wikilinks'] );
+		}
+		
 		if ( $options['externallinks'] ) {
 			$msg = TsIntuitionUtil::parseExternalLinks( $msg );
 		}

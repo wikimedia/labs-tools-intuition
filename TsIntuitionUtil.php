@@ -216,6 +216,31 @@ class TsIntuitionUtil {
 		}
 	}
 
+	private static $articlePath;
+
+	/**
+	 * Given a text already html-escaped which contains wiki links, convert them to html
+	 */
+	public static function parseWikiLinks($text, $articlePath) {
+		self::$articlePath = $articlePath;
+
+		return preg_replace_callback( '/\[\[:?([^]|]+)(?:\|([^]]*))?\]\]/', 'self::parseWikiLinkArray', $text );
+	}
+
+	/**
+	 * Changes the matches of parseWikiLinks into html
+	 */
+	private static function parseWikiLinkArray($bits) {
+
+		if ( !isset( $bits[2] ) || $bits[2] == '' ) {
+			$bits[2] = strtr( $bits[1], '_', ' ' );
+		}
+
+		$article = html_entity_decode( $bits[1], ENT_QUOTES, 'UTF-8' );
+
+		return '<a href="' . htmlspecialchars( self::prettyWikiUrl( self::$articlePath, $article ), ENT_COMPAT, 'UTF-8' ) . '">' . $bits[2] . "</a>";
+	}
+
 	/**
 	 * Builds a pretty url link to a wiki article.
 	 * It assumes the wiki is not hosted on IIS7.
