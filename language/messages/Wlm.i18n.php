@@ -26,6 +26,8 @@ $messages['en'] = array(
 	'province-comarque-joiner' => '$1 / $2', // Optional
 	'competes' => 'Competes',
 	'author' => 'Author',
+	'country-header' => 'Country',
+	'location' => 'Location',
 	'upload-time' => 'Upload time',
 	'deleted' => 'Deleted ($1)',
 	'concursa' => 'Takes part in WLM',
@@ -57,6 +59,7 @@ $messages['en'] = array(
 	'images-listed-count' => '$1 images listed.',
 	'log-page-disclaimer' => 'This tool shows the files at the [[:Category:$1|relevant category]] which were uploaded during the contest.
 Deleted files are not shown even if they were later [$2 restored] and are participating again.',
+	'bot' => 'Bot',
 
 	/* ids.php */
 	'id-label' => 'Monument id:',
@@ -109,6 +112,8 @@ $messages['qqq'] = array(
 	'competes' => 'Header for the column showing if the monument takes part in the competition',
 	'author' => 'Header for the column showing the author listed for that image.
 {{Identical|Author}}',
+	'country-header' => 'Header for the column showing the country under which this file is participating',
+	'location' => 'Header for the column showing the administrative divisions where the tagged monument is located.',
 	'upload-time' => 'Upload time in CEST',
 	'deleted' => 'Text to show instead of the filename if the file was deleted (those files only appear with option=removed). $1: page_id.
 {{Identical|Deleted}}',
@@ -142,6 +147,7 @@ $messages['qqq'] = array(
 Parameters:
 * $1 Commons category used by the tool to fetch the images.
 * $2 Url to the tool showing files restored which are participating in WLM.",
+	'bot' => 'Label to show next to a username in the upload page to indicate that it is a known bot and should not be confused with the real uploader.',
 	'id-label' => 'Label for ids.php input',
 	'date-format' => 'Format in which to present the date in the upload-time column',
 	'id-none' => "Column to show where there's no id.
@@ -838,6 +844,8 @@ $messages['es'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Competición',
 	'author' => 'Autor',
+	'country-header' => 'País',
+	'location' => 'Localización',
 	'upload-time' => 'Fecha',
 	'deleted' => 'Borrado ($1)',
 	'concursa' => 'Concursa',
