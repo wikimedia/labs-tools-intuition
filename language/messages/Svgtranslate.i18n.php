@@ -1296,6 +1296,7 @@ $messages['ja'] = array(
 	'preview-hide' => 'プレビューを隠す',
 	'preview-refresh' => 'プレビューを更新',
 	'error-must-accept' => '直接アップロードを続行するには、利用規約に同意する必要があります。',
+	'description-license' => '説明とライセンスの選択',
 );
 
 /** Javanese (Basa Jawa)

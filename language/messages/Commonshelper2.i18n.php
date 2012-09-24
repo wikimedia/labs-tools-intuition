@@ -1696,6 +1696,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'attention' => '注意',
+	'commonshelper2' => 'コモンズヘルパー 2',
 	'description' => 'ウィキメディア プロジェクトからウィキメディア コモンズにファイルを転送するツール',
 	'change_meta' => '$3 の$1カテゴリとテンプレートの設定$2を変更',
 	'jira_link' => 'バグを報告または新機能を提案',
@@ -1727,6 +1728,7 @@ $messages['ja'] = array(
 	'output_information' => '手動アップロードを行うには、（必要ならば）上記のテキストを編集し、$1このファイル$2をあなたのコンピューターに保存し、$3それをアップロードします$4。',
 	'upload_submit' => 'アップロード',
 	'target_wiki' => '転送先ウィキ',
+	'standard_project' => 'wikipedia',
 	'error_bot_blocked' => 'ウィキメディア コモンズでアップロード用ボットがブロックされています。',
 	'error_upload_meta' => 'メタデータに問題がある（上記参照）ため、直接アップロードすることができません。',
 	'error_tusc_failed' => 'TUSC の検証が失敗しました。',

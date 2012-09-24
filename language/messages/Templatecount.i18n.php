@@ -500,10 +500,13 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'title' => 'テンプレートの参照読み込み回数計算',
 	'enter-details' => '詳細を入力',
 	'language-label' => '言語',
 	'namespace-label' => '名前空間',
 	'pagename-label' => 'ページ名 (名前空間を除く)',
+	'transclusion-count-label' => '参照読み込みの回数',
+	'transclusion-count' => '$1 件の参照読み込みが見つかりました。',
 	'time-label' => 'コマンドの実行に要した時間',
 );
 

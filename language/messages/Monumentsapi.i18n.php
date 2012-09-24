@@ -1616,8 +1616,8 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'search-title' => '유적 찾기',
-	'search-monuments-database' => '유적 데이터베이스 찾기',
+	'search-title' => '기념물 찾기',
+	'search-monuments-database' => '기념물 데이터베이스 찾기',
 	'search-table-th-field' => '필드',
 	'search-table-th-filter' => '필터',
 	'search-table-th-search' => '찾기',
@@ -1634,7 +1634,7 @@ $messages['ko'] = array(
 	'db-field-image' => '그림',
 	'db-field-changed' => '바뀜',
 	'db-field-source' => '출처',
-	'db-field-monument_article' => '유적 문서',
+	'db-field-monument_article' => '기념물 문서',
 	'db-field-registrant_url' => '등록 url',
 	'db-field-st_address' => '주소',
 	'db-field-st_address_pct' => '주소 %',
@@ -1648,16 +1648,16 @@ $messages['ko'] = array(
 	'db-field-st_name_pct' => '이름 %',
 	'db-field-st_total' => '총 수',
 	'toolbox-label-searchtipps' => '퍼지 찾기는 %term 또는 term% 또는 %term% 사용',
-	'toolbox-meta-title' => '위키 사랑 유적 도구모음',
+	'toolbox-meta-title' => '위키 기념물 사랑 도구모음',
 	'toolbox-main-title' => 'WLM 도구모음',
 	'toolbox-main-description' => '관련된 도구 집합',
-	'toolbox-wikilovesmonuments' => '위키 사랑 유적',
+	'toolbox-wikilovesmonuments' => '위키 기념물 사랑',
 	'toolbox-nav-homepage' => '대문페이지',
 	'toolbox-nav-statistics' => '통계',
 	'toolbox-nav-search' => '찾기',
-	'toolbox-title-searchmonuments' => '유적 찾기',
+	'toolbox-title-searchmonuments' => '기념물 찾기',
 	'location' => '위치',
-	'source-monuments-list-on-wikipedia' => '위키백과에 출처 유적 목록',
+	'source-monuments-list-on-wikipedia' => '위키백과에 원본 기념물 목록',
 );
 
 /** Colognian (Ripoarisch)

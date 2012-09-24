@@ -492,6 +492,7 @@ $messages['br'] = array(
 	'country-label' => 'Bro :',
 	'all-countries' => 'An holl vroioù',
 	'limit-label' => 'Skeudennoù da ziskwel :',
+	'timezone-label' => 'Gwerzhid-eur',
 	'show-earlier-first' => 'Diskwel ar skeudennoù nevez da gentañ',
 	'show-older-first' => 'Diskwel ar skeudennoù kozh da gentañ',
 	'show-button' => 'Diskwel',
@@ -499,6 +500,8 @@ $messages['br'] = array(
 	'view-later-images' => "Gwelet ar skeudennoù war-lerc'h",
 	'images-listed-count' => '
 $1 skeudenn listennet.',
+	'log-page-disclaimer' => "Gant ar benveg-mañ e vez diskouezet ar restroù eus ar [[:Category:$1|rumm a zere]]  a vo pellgarget e-pad ar genstrivadeg.
+Ne vo ket mui diskwelet ar restroù lamet, ha pa vefent [$2 adsavet] diwezhatoc'h ha kemer a reont perzh enni en-dro.",
 	'id-label' => 'Kod ar Monumant :',
 	'id-none' => '(Hini ebet)',
 	'monument-heading' => 'Monumant',
@@ -681,6 +684,8 @@ $messages['de'] = array(
 	'province-comarque-joiner' => '$1 / $2',
 	'competes' => 'Nimmt teil',
 	'author' => 'Urheber',
+	'country-header' => 'Staat',
+	'location' => 'Standort',
 	'upload-time' => 'Hochladezeitpunkt',
 	'deleted' => 'Gelöscht ($1)',
 	'concursa' => 'Nimmt an WLM teil',
@@ -707,6 +712,9 @@ $messages['de'] = array(
 	'view-previous-images' => '← Vorherige Bilder ansehen',
 	'view-later-images' => 'Ältere Bilder ansehen →',
 	'images-listed-count' => '$1 Bilder werden aufgelistet.',
+	'log-page-disclaimer' => 'Dieses Hilfsprogramm zeigt alle Dateien in der [[:Category:$1|passenden Kategorie]] an, die während des Wettbewerbs hochgeladen wurden.
+Gelöschte Dateien werden auch dann nicht angezeigt, wenn sie zu einem späteren Zeitpunkt [$2 wiederhergestellt] werden und erneut teilnehmen.',
+	'bot' => 'Bot',
 	'id-label' => 'Kennnummer des Denkmals:',
 	'id-none' => '(Keine)',
 	'monument-heading' => 'Denkmal',
@@ -809,6 +817,8 @@ $messages['dsb'] = array(
 	'view-previous-images' => '← Pśedchadne wobraze zwobrazniś',
 	'view-later-images' => 'Pozdźejše wobraze zwobrazniś →',
 	'images-listed-count' => '$1 wobrazow nalicone.',
+	'log-page-disclaimer' => 'Toś ten rěd pokazujo dataje w [[:Category:$1|relevantnej kategoriji]], kótarež su se za wuběźowanje nagrali.
+Wulašowane dataje se njepokazuju, lěcrownož pózdźej [$2 wótnowili] a se zasej wobźěluju.',
 	'id-label' => 'ID zajmnostki:',
 	'id-none' => '(Žeden)',
 	'monument-heading' => 'Zajmnostka',
@@ -831,6 +841,7 @@ $messages['dsb'] = array(
 );
 
 /** Spanish (español)
+ * @author Armando-Martin
  * @author McDutchie
  * @author Platonides
  * @author Vivaelcelta
@@ -872,7 +883,8 @@ $messages['es'] = array(
 	'view-previous-images' => '← Ver imágenes anteriores',
 	'view-later-images' => 'Ver imágenenes posteriores →',
 	'images-listed-count' => 'Mostradas $1 imágenes.',
-	'log-page-disclaimer' => 'Esta herramienta muestra las fotos de la [[:Category:$1|categoría apropiada]] subidas durante el concurso. Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido recuperados y participan nuevamente.',
+	'log-page-disclaimer' => 'Esta herramienta muestra las fotos en la [[:Category:$1|categoría apropiada]] que fueron subidas durante el concurso. 
+Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido [restaurados $2] más tarde y participan nuevamente.',
 	'id-label' => 'BIC:',
 	'id-none' => '(Sin identificador)',
 	'monument-heading' => 'Monumento',
@@ -1044,6 +1056,7 @@ $messages['fi'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Jean-Frédéric
  * @author Od1n
  * @author Tititou36
@@ -1076,12 +1089,15 @@ $messages['fr'] = array(
 	'country-label' => 'Pays :',
 	'all-countries' => 'Tous les pays',
 	'limit-label' => 'Images à afficher :',
+	'timezone-label' => 'Fuseau horaire:',
 	'show-earlier-first' => 'Afficher les images récentes en premier',
 	'show-older-first' => 'Afficher les images anciennes en premier',
 	'show-button' => 'Afficher',
 	'view-previous-images' => '← Voir les images précédentes',
 	'view-later-images' => 'Voir les images suivantes →',
 	'images-listed-count' => '$1 images listées.',
+	'log-page-disclaimer' => "Cet outil montre les fichiers de la [[:Category:$1|catégorie appropriée]] qui seront téléchargés pendant le concours.
+Les fichiers supprimés ne sont pas affichés, même s'ils sont [$2 restaurés] plus tard et y participeront de nouveau.",
 	'id-label' => 'Identifiant du monument :',
 	'id-none' => '(aucun)',
 	'monument-heading' => 'Monument',
@@ -1167,6 +1183,8 @@ $messages['gl'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Competición',
 	'author' => 'Autor',
+	'country-header' => 'País',
+	'location' => 'Localización',
 	'upload-time' => 'Data de carga',
 	'deleted' => 'Borrado ($1)',
 	'concursa' => 'Participa en WLM',
@@ -1193,6 +1211,9 @@ $messages['gl'] = array(
 	'view-previous-images' => '← Ver as imaxes anteriores',
 	'view-later-images' => 'Ver as imaxes seguintes →',
 	'images-listed-count' => '$1 imaxes listadas.',
+	'log-page-disclaimer' => 'Esta ferramenta mostra os ficheiros da [[:Category:$1|categoría específica]] na que se cargaron durante o concurso.
+Os ficheiros borrados non se mostran, aínda que fosen [$2 restaurados] e participen de novo.',
+	'bot' => 'Bot',
 	'id-label' => 'Identificador do monumento:',
 	'id-none' => '(Ningún)',
 	'monument-heading' => 'Monumento',
@@ -1302,6 +1323,8 @@ $messages['hsb'] = array(
 	'view-previous-images' => '← Předchadne wobrazy zwobraznić',
 	'view-later-images' => 'Pozdźiše wobrazy zwobraznić →',
 	'images-listed-count' => '$1 wobrazow nalistowane.',
+	'log-page-disclaimer' => 'Tutón nastroj pokazuje dataje w [[:Category:$1|relevantnej kategoriji]], kotrež su so za wubědźowanje nahrali.
+Zhašane dataje so njepokazuja, byrnjež pozdźišo [$2 wobnowili] a so zaso wobdźěleja.',
 	'id-label' => 'ID zajimawosće:',
 	'id-none' => '(Žadyn)',
 	'monument-heading' => 'Zajimawosć',
@@ -1678,8 +1701,8 @@ $messages['ka'] = array(
 $messages['ko'] = array(
 	'title' => 'WLM 파일',
 	'file' => '그림',
-	'monument-type' => '문화재 종류',
-	'monument-id' => '문화재 id',
+	'monument-type' => '기념물 종류',
+	'monument-id' => '기념물 id',
 	'province' => '지방',
 	'comarque' => '지역',
 	'competes' => '경쟁',
@@ -1692,12 +1715,12 @@ $messages['ko'] = array(
 	'date-unknown' => '알 수 없음',
 	'total-images' => '총 그림 수: $1',
 	'view-uncategorized-images' => '분류하지 않은 그림 보기',
-	'provide-id' => '해당 항목에 대해 사용할 수 있는 데이터를 보이는 문화재 id 제공',
+	'provide-id' => '해당 항목에 대해 사용할 수 있는 데이터를 보이는 기념물 id 제공',
 	'show-images-bad-only' => '목록 이외의 그림만 보기',
 	'show-images-all' => '모든 그림 보기',
 	'show-images-removed' => '경쟁에서 제거한 그림 보기',
-	'search-monuments' => '문화재 찾기',
-	'view-frequency' => '인기 있는 문화재',
+	'search-monuments' => '기념물 찾기',
+	'view-frequency' => '인기 있는 기념물',
 	'view-ccaa' => '자치 공동체로 보기',
 	'view-province' => '지방으로 보기',
 	'country-label' => '국가:',
@@ -1710,22 +1733,24 @@ $messages['ko'] = array(
 	'view-previous-images' => '← 이전 그림 보기',
 	'view-later-images' => '최근 그림 보기 →',
 	'images-listed-count' => '그림 $1개를 나타냈습니다.',
-	'id-label' => '문화재 id:',
+	'log-page-disclaimer' => '이 도구는 대회 기간 동안 올린 [[:Category:$1|관련 분류]]에서 파일을 보여줍니다.
+삭제된 파일은 나중에 [$2 복원된] 후 다시 참여하더라도 보여지지 않습니다.',
+	'id-label' => '기념물 id:',
 	'id-none' => '(없음)',
-	'monument-heading' => '문화재',
+	'monument-heading' => '기념물',
 	'count-heading' => '사진 작가',
 	'bic-list' => '목록',
 	'bic-gallery' => '갤러리',
-	'gallery-header' => '$1 id로 된 문화재에 대한 그림입니다.',
-	'gallery-header-place' => '$1에서 문화재에 대한 그림입니다.',
+	'gallery-header' => '$1 id로 된 기념물에 대한 그림입니다.',
+	'gallery-header-place' => '$1에서 기념물에 대한 그림입니다.',
 	'wall-of-shame-text' => '미확인 사진 작가 수를 기준으로 저자',
 	'author-heading' => '저자',
 	'bic-list-bad' => '보이기',
 	'bic-list-all' => '전체 목록',
 	'unregistered' => '등록하지 않음',
-	'users-text' => '이 문서는 저자가 올린 그림과 얼마나 문화재가 많은지를 보여줍니다',
+	'users-text' => '이 문서는 저자가 올린 그림과 얼마나 기념물이 많은지를 보여줍니다',
 	'users-list' => '보기',
-	'distict-monuments' => '고유 문화재',
+	'distict-monuments' => '고유 기념물',
 	'province-heading' => '지방',
 	'province-none' => '(알 수 없음)',
 	'ccaa-heading' => 'CC.AA.',
@@ -1770,6 +1795,8 @@ $messages['ksh'] = array(
 	'view-previous-images' => '← de Belder doför aanzeije',
 	'view-later-images' => 'de Belder donoh aanzeije →',
 	'images-listed-count' => '$1 Belder.',
+	'log-page-disclaimer' => 'Heh dat Projramm zeisch alle Datteije aan en dä [[:Category:$1|zopaß Saachjropp]], di em Wätbewärb huhjelaaden woodte.
+Fottjeschmeße Datteije wääde nit jezeisch, och wann se schpääder [$2 wider zerökjehollt] woodte, un  nu wider em Wätbewärb schtonn.',
 	'id-label' => 'Dem Dänkmohl sing Kännong:',
 	'date-format' => 'Y-m-d H:i:s',
 	'id-none' => '(Kei)',
@@ -1815,6 +1842,8 @@ $messages['lb'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Partizipéiert',
 	'author' => 'Auteur',
+	'country-header' => 'Land',
+	'location' => 'Plaz',
 	'upload-time' => 'Zäitpunkt vum Eroplueden',
 	'deleted' => 'Geläscht ($1)',
 	'concursa' => 'mécht bäi WLM mat',
@@ -1835,12 +1864,14 @@ Pro Provënz weisen',
 	'country-label' => 'Land:',
 	'all-countries' => 'All Länner',
 	'limit-label' => 'Biller fir ze weisen:',
+	'timezone-label' => 'Zäitzon:',
 	'show-earlier-first' => "Déi rezent Biller fir d'éischt weisen",
 	'show-older-first' => "Déi eelst Biller d'éischt weisen",
 	'show-button' => 'Weisen',
 	'view-previous-images' => '← Vireg Biller weisen',
 	'view-later-images' => 'Méi rezent Biller weisen →',
 	'images-listed-count' => '$1 Biller an der Lëscht.',
+	'bot' => 'Bot',
 	'id-label' => 'ID vum Monument:',
 	'id-none' => '(Keng)',
 	'monument-heading' => 'Monument',
@@ -1927,6 +1958,8 @@ $messages['mk'] = array(
 	'view-previous-images' => '← Постари слики',
 	'view-later-images' => 'Понови слики →',
 	'images-listed-count' => 'Наведени се $1 слики.',
+	'log-page-disclaimer' => 'Оваа алатка ги прикажува податотеките во [[:Category:$1|релевантната категорија]] подигнати во текот на конкурсот.
+Избришаните податотеки не се прикажуваат (дури и ако во меѓувреме се [$2 вратени] и повторно учествуваат).',
 	'id-label' => 'Назнака на споменикот:',
 	'date-format' => 'j F Y, H:i ч. и s сек.',
 	'id-none' => '(Нема)',
@@ -1987,6 +2020,7 @@ $messages['ms'] = array(
 	'view-previous-images' => '← Lihat gambar terdahulu',
 	'view-later-images' => 'Lihat gambar berikutnya →',
 	'images-listed-count' => '$1 gambar tersenarai.',
+	'log-page-disclaimer' => 'Alat ini memaparkan fail-fail di [[:Category:$1|kategori berkenan]] yang dimuat naik sewaktu peraduan. Fail-fail yang dipadamkan tidak dipaparkan walaupun [$2 dipulihkan] dan dipertandingkan semula pada masa akan datang.',
 	'id-label' => 'Monumen',
 	'id-none' => '(Tiada)',
 	'monument-heading' => 'Monumen',
@@ -2235,6 +2269,8 @@ $messages['pl'] = array(
 	'view-previous-images' => '← Widok starszych obrazów',
 	'view-later-images' => 'Widok późniejszych obrazów →',
 	'images-listed-count' => '$1 obrazy.',
+	'log-page-disclaimer' => 'To narzędzie pokazuje pliki z [[:Category:$1|odpowiedniej kategorii]], przesłane na serwer podczas konkursu.
+Usunięte pliki nie są wyświetlane, nawet jeśli były one później [$2  przywrócone] i znowu biorą udział.',
 	'id-label' => 'Identyfikator zabytku',
 	'id-none' => '(brak)',
 	'monument-heading' => 'Zabytek',
@@ -2519,6 +2555,7 @@ $messages['sl'] = array(
 	'country-label' => 'Država:',
 	'all-countries' => 'Vse države',
 	'limit-label' => 'Prikaži toliko slik:',
+	'timezone-label' => 'Časovni pas:',
 	'show-earlier-first' => 'Najprej pokaži novejše slike',
 	'show-older-first' => 'Najprej pokaži starejše slike',
 	'show-button' => 'Prikaži',
@@ -2577,12 +2614,15 @@ $messages['sr-ec'] = array(
 	'country-label' => 'Земља:',
 	'all-countries' => 'Све земље',
 	'limit-label' => 'Слике за приказ:',
+	'timezone-label' => 'Временска зона:',
 	'show-earlier-first' => 'Прво раније слике',
 	'show-older-first' => 'Прво старије слике',
 	'show-button' => 'Прикажи',
 	'view-previous-images' => '← Претходне слике',
 	'view-later-images' => 'Следеће слике →',
 	'images-listed-count' => 'Наведено је $1 слика.',
+	'log-page-disclaimer' => 'Ова алатка приказује датотеке у [[:Category:$1|релевантној категорији]] отпремљене за време конкурса.
+Обрисане датотеке нису приказане, чак иако су у међувремену [$2 враћене] и поново у игри.',
 	'id-label' => 'ИД споменика:',
 	'date-format' => 'd-m-Y H:i:s',
 	'id-none' => '(нема)',
@@ -2772,6 +2812,7 @@ $messages['te'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author TheSleepyhollow02
  */
 $messages['tl'] = array(
 	'title' => 'Mga talaksang WLM',
@@ -2798,6 +2839,12 @@ $messages['tl'] = array(
 	'view-frequency' => 'Tanyag na mga bantayog',
 	'view-ccaa' => 'Tingnan ayon sa pamayanang nagsasarili',
 	'view-province' => 'Tingnan ayon sa lalawigan',
+	'country-label' => 'Bansa:',
+	'all-countries' => 'Lahat ng mga bansa',
+	'show-earlier-first' => 'Ipakita muna ang mga naunang larawan',
+	'show-older-first' => 'Ipakita muna ang mga lumang larawan',
+	'show-button' => 'Ipakita',
+	'view-previous-images' => '← Tingnan ang mga nakaraang larawan',
 	'id-label' => 'ID ng bantayog:',
 	'id-none' => '(Wala)',
 	'monument-heading' => 'Bantayog',
@@ -2974,12 +3021,15 @@ $messages['vi'] = array(
 	'country-label' => 'Quốc gia:',
 	'all-countries' => 'Tất cả các quốc gia',
 	'limit-label' => 'Số hình ảnh được hiển thị:',
+	'timezone-label' => 'Múi giờ:',
 	'show-earlier-first' => 'Bắt đầu với hình sớm hơn',
 	'show-older-first' => 'Bắt đầu với hình cũ hơn',
 	'show-button' => 'Xem',
 	'view-previous-images' => '← Xem hình trước',
 	'view-later-images' => 'Xem hình sau →',
 	'images-listed-count' => '$1 hình ảnh được liệt kê.',
+	'log-page-disclaimer' => 'Công cụ này trình bày các tập tin trong [[:Category:$1|thể loại phù hợp]] mà được tải lên vào lúc cuộc thi.
+Các tập tin đã xóa không được trình bày, ngay cả nếu về sau được [$2 phục hồi] và tiếp tục tham gia.',
 	'id-label' => 'ID của đài tưởng niệm',
 	'date-format' => 'd/m/Y H:i:s',
 	'id-none' => '(Không có)',

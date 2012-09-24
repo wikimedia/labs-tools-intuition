@@ -592,7 +592,7 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'title' => 'Kategori ra resiman ronê',
+	'title' => 'Kategoriye ra resiman ronê',
 	'project' => 'Proce:',
 	'category' => 'Kategoriye:',
 	'thumbnailing' => 'Resimo verdı',
@@ -1305,6 +1305,8 @@ GNU GENERAL PUBLIC LICENSE version 3 の条項の下にあります。
 	'scaling-width' => '幅の最大値$1{{plural:$1|ピクセル}}に拡大縮小し、',
 	'scaling-height' => '高さの最大値$1{{plural:$1|ピクセル}}に拡大縮小し、',
 	'scaling-both' => 'サイズの最大値 $1x$2ピクセルに拡大縮小し、',
+	'script-filename' => 'download.bat',
+	'readme-filename' => 'README.txt',
 );
 
 /** Javanese (Basa Jawa)

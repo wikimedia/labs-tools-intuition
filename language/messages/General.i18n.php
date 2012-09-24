@@ -897,10 +897,12 @@ $messages['it'] = array(
  * @author Whym
  */
 $messages['ja'] = array(
+	'dateformat' => '%Y年%m月%d日',
 	'hello' => 'こんにちは',
 	'welcome' => 'ようこそ',
 	'toolversionstamp' => 'バージョン $1 ($2)',
 	'etc' => 'など',
+	'colon-separator' => ':',
 	'namespace' => '名前空間',
 	'form-submit' => '実行',
 	'form-reset' => 'リセット',
@@ -912,6 +914,7 @@ $messages['ja'] = array(
 	'seconds' => '{{PLURAL: $1|秒}}',
 	'last-modified-date' => '最終更新: $1',
 	'view-source' => 'ソースを表示',
+	'parentheses' => '($1)',
 );
 
 /** Javanese (Basa Jawa)
