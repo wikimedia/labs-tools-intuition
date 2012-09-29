@@ -84,9 +84,17 @@ Deleted files are not shown even if they were later [$2 restored] and are partic
 	'unregistered' => 'Unregistered',
 	
 	/* users.php */
-	'users-text' => 'This page shows the authors with the images they uploaded and to how many monuments',
+	'users-text' => 'This page shows the authors with the images they uploaded and how many monuments',
 	'users-list' => 'View',
 	'distict-monuments' => 'Distinct monuments',
+	'list-prolific-begin' => 'List the most prolific uploaders:',
+	'list-prolific-by-photos' => 'by number of photos',
+	'list-prolific-by-distinct-identifiers' => 'by number of different identifiers',
+	'list-prolific-by-distinct-good-identifiers' => 'by number of different listed identifiers',
+	'list-prolific-by-identifiers' => 'by number of monument identifiers',
+	'list-prolific-by-good-identifiers' => 'by number of identifiers in the lists',
+	'list-prolific-by-bad-identifiers' => 'by number of identifiers not in the lists',
+	'group-by-identifiers-all-countries-meaningless' => "Many countries aren't using identifiers in their uploads, so these results are probably meaningless.",
 
 	/* province.php, ccaa.php */
 	'province-heading' => 'Province',
@@ -171,6 +179,14 @@ Parameters:
 	'users-list' => 'Link to the photos of this author.
 {{Identical|View}}',
 	'distict-monuments' => 'Caption for the column for number of distinct monuments',
+	'list-prolific-begin' => 'Start of phrase asking the type of user list to show;',
+	'list-prolific-by-photos' => 'Option 1. This is the total number of photos. It can be continuing the phrase started at list-prolific-begin',
+	'list-prolific-by-distinct-identifiers' => 'Option 2. This is the number of different monument identifiers. It can be continuing the phrase started at list-prolific-begin',
+	'list-prolific-by-distinct-good-identifiers' => 'Option 3. This is the number of different monument identifiers, restricted to those in the monument lists. It can be continuing the phrase started at list-prolific-begin',
+	'list-prolific-by-identifiers' => 'Option 4. This is the number of monument identifiers (ie. the number of photos counting one several times if it shows multiple monuments). It can be continuing the phrase started at list-prolific-begin',
+	'list-prolific-by-good-identifiers' => 'Option 5. This is the number of monument identifiers (ie. the number of photos counting one several times if it shows multiple monuments), restricted to those identifiers present in the monument lists. It can be continuing the phrase started at list-prolific-begin',
+	'list-prolific-by-bad-identifiers' => 'Option 6. This is the number of monument identifiers not in the monument lists. Useful for detecting the most misguided users. It can be continuing the phrase started at list-prolific-begin',
+	'group-by-identifiers-all-countries-meaningless' => "Note shown when selecting an option other than \"number of photos\" without filtering by country.",
 	'province-heading' => 'Header for the province column of http://toolserver.org/~platonides/wlm/provincias.php',
 	'province-none' => 'Marker to group images for which no province is registered in the db.
 {{Identical|Unknown}}',
@@ -901,6 +917,14 @@ Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido [
 	'users-text' => 'Lista de autores con el número de fotos y de monumentos que presentaron al concurso.',
 	'users-list' => 'Mostrar',
 	'distict-monuments' => 'Monumentos',
+	'list-prolific-begin' => 'Listar los participantes:',
+	'list-prolific-by-photos' => 'por número de fotos',
+	'list-prolific-by-distinct-identifiers' => 'por la cantidad de diferentes identificadores de monumento',
+	'list-prolific-by-distinct-good-identifiers' => 'por la cantidad de diferentes identificadores de monumento presentes en las listas',
+	'list-prolific-by-identifiers' => 'por número de identificadores de monumento',
+	'list-prolific-by-good-identifiers' => 'por número de identificadores de monumento presentes en las listas',
+	'list-prolific-by-bad-identifiers' => 'por número de identificadores de monumento que no se encuentran en las listas',
+	'group-by-identifiers-all-countries-meaningless' => "Muchos países no utilizan identificadores en el concurso, por lo que estos resultados probablemente no sean significativos.",
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
