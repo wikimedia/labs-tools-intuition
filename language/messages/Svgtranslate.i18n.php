@@ -57,6 +57,7 @@ $messages['en'] = array(
  * @author Jarry1250
  * @author Krinkle
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'title' => 'The title of the tool.
@@ -85,7 +86,9 @@ Parameters:
 * $1 is the string {{msg-toolserver|svgtranslate-format-filename-example}}
 * $2 is the string {{msg-toolserver|svgtranslate-format-fullurl-example}}',
 	'svginput-label' => 'The label for main SVG filename input.',
-	'stats-footer' => 'This message is displayed at the bottom of the welcome page displaying some statistics. $1 is the number of files, $2 is the date the first known translation took place.',
+	'stats-footer' => 'This message is displayed at the bottom of the welcome page displaying some statistics.
+*$1 is the number of files
+*$2 is the date the first known translation took place (Example: March 2011)',
 	'uploading' => 'A heading expressing that an upload is in progress.',
 	'upload-complete' => 'The message given on the successful conclusion of an upload, where $1 is a URL to the file in question.',
 	'editdescriptionpage' => 'An additional invitation, once a file has been uploaded automatically, to edit the new description page to tidy it.',
@@ -274,7 +277,7 @@ $messages['be'] = array(
 	'finalise' => 'Завяршыце апісанне падрабязнасцяў',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1271,31 +1274,34 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'error-tryagain' => '$1 再試行するにはブラウザの戻るボタンを押してください。',
-	'error-nothing' => '翻訳できるものがありません。',
+	'error-nothing' => '翻訳できるものはありません。',
 	'error-notsvg' => 'SVG ファイルではありません。',
 	'error-unexpected' => '予期しないエラーが発生しました。',
 	'error-notfound' => 'SVG ファイルを、入力された URL から取得できませんでした。',
 	'error-upload' => 'アップロード中にエラーが発生しました。',
-	'begin-translation' => '翻訳を開始',
-	'th-original' => 'オリジナル',
-	'th-translation' => '翻訳',
+	'begin-translation' => '翻訳の開始',
+	'th-original' => '翻訳元',
+	'th-translation' => '翻訳後',
 	'th-language' => '言語',
 	'th-username' => '利用者名',
 	'th-password' => 'パスワード',
-	'th-method' => 'メソッド',
+	'th-method' => '方法',
 	'option-tusc' => 'TUSC (自動アップロード)',
 	'option-manual' => '手動アップロード',
 	'preview' => 'プレビュー',
 	'translate' => '翻訳',
-	'translate-instructions' => 'ファイル名（「$1」など）、完全なURL（「$2」など）のいずれも入力できます。前者の場合、ウィキメディアはそれをソースと想定します。SVG ファイルを他のサイトまたはウィキから変換するには、完全なURL形式を使用する必要があります。',
+	'translate-instructions' => 'ファイル名 (「$1」など)、完全な URL (「$2」など) のいずれも入力できます。前者の場合、翻訳元ファイルがウィキメディア・コモンズにあると想定します。他のサイトやウィキにある SVG ファイルを翻訳するには、完全な URL 形式を使用する必要があります。',
 	'svginput-label' => 'SVG ファイル',
+	'stats-footer' => 'このツールは、$2 以降これまでに約 $1 ファイルを翻訳しました。',
 	'uploading' => 'アップロード中',
 	'upload-complete' => 'アップロードが完了しました。画像は $1 にあります。',
 	'editdescriptionpage' => '新しい説明ページを編集',
+	'disclaimer' => '統計上の目的で、匿名のデータを非公開で収集します。If supplied, TUSC usernames will also be recorded to assist in the event of vandalism. パスワードを記録することは決してありません。',
 	'author-complete' => '著者の情報を記入してください!',
 	'preview-hide' => 'プレビューを隠す',
 	'preview-refresh' => 'プレビューを更新',
 	'error-must-accept' => '直接アップロードを続行するには、利用規約に同意する必要があります。',
+	'error-tusc-failed' => 'TUSC 検証に失敗しました: 利用者名またはパスワードが無効です。',
 	'description-license' => '説明とライセンスの選択',
 );
 
@@ -1466,7 +1472,7 @@ $messages['ksh'] = array(
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1731,7 +1737,7 @@ $messages['mzn'] = array(
 	'th-language' => 'زوون',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1846,7 +1852,7 @@ $messages['nl'] = array(
 	'finalise' => 'Rond de details af',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -2208,7 +2214,7 @@ $messages['sl'] = array(
 	'finalise' => 'Dokončajte podrobnosti',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2246,7 +2252,7 @@ $messages['sr-ec'] = array(
 	'finalise' => 'Доврши детаље',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -2604,7 +2610,7 @@ $messages['vi'] = array(
 	'finalise' => 'Hoàn tất các chi tiết',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
  * @author Shizhao
@@ -2645,7 +2651,7 @@ $messages['zh-hans'] = array(
 	'finalise' => '敲定细节',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
@@ -2683,7 +2689,7 @@ $messages['zh-hant'] = array(
 	'finalise' => '敲定細節',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

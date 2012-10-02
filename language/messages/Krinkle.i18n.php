@@ -87,7 +87,7 @@ $messages['be'] = array(
 	'form-legend-settings' => 'Наладкі',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
@@ -491,7 +491,7 @@ $messages['mt'] = array(
 	'form-legend-settings' => 'Konfigurazzjoni',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -514,7 +514,7 @@ $messages['nl'] = array(
 	'form-legend-settings' => 'Instellingen',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Wiki13
  */
 $messages['nl-informal'] = array(
@@ -522,7 +522,7 @@ $messages['nl-informal'] = array(
 	'form-legend-settings' => 'Instellingen',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -643,7 +643,7 @@ $messages['sq'] = array(
 	'form-legend-settings' => 'Parametrat',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -654,7 +654,7 @@ $messages['sr-ec'] = array(
 	'form-legend-settings' => 'Поставке',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -752,7 +752,7 @@ $messages['vi'] = array(
 	'form-legend-settings' => 'Tùy chọn',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
@@ -762,14 +762,14 @@ $messages['zh-hans'] = array(
 	'form-legend-settings' => '设置',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'form-legend-settings' => '設定',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

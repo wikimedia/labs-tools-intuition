@@ -214,7 +214,7 @@ $messages['be'] = array(
 	'view-source' => 'Паказаць крынічны тэкст',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  * @author Wizardist
  */
@@ -852,6 +852,27 @@ $messages['id'] = array(
 	'view-source' => 'Lihat sumber',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'hello' => 'Kumusta',
+	'welcome' => 'Kablaaw!',
+	'toolversionstamp' => 'Bersion $1 ($2)',
+	'etc' => 'kdpy.',
+	'namespace' => 'Nagan ti lugar',
+	'form-submit' => 'Inkan',
+	'form-reset' => 'Isubli',
+	'years' => '{{PLURAL: $1|tawen|taw-tawen}}',
+	'weeks' => '{{PLURAL: $1|lawas|law-lawas}}',
+	'days' => '{{PLURAL: $1|aldaw|al-aldaw}}',
+	'hours' => '{{PLURAL: $1|oras|or-oras}}',
+	'minutes' => '{{PLURAL: $1|minuto|minutos}}',
+	'seconds' => '{{PLURAL: $1|segundo|seg-segundo}}',
+	'last-modified-date' => 'Kinaudi a binaliwan: $1',
+	'view-source' => 'Kitaen ti taudan',
+);
+
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
@@ -1021,7 +1042,7 @@ $messages['ksh'] = array(
 	'view-source' => 'Der Quelltäx vum Projramm',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1207,7 +1228,7 @@ $messages['my'] = array(
 	'view-source' => 'ရင်းမြစ်ကို ကြည့်ရန်',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1253,7 +1274,7 @@ $messages['nl'] = array(
 	'view-source' => 'Brontekst bekijken',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1547,7 +1568,7 @@ $messages['sq'] = array(
 	'hours' => '{{PLURAL:$1|orë|orë}}',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1571,7 +1592,7 @@ $messages['sr-ec'] = array(
 	'parentheses' => '($1)',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1820,6 +1841,13 @@ $messages['uk'] = array(
 	'view-source' => 'Переглянути код',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'view-source' => "Manbasini ko'rish",
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
@@ -1849,7 +1877,7 @@ $messages['yi'] = array(
 	'form-reset' => 'צוריקשטעלן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Hzy980512
  * @author Shizhao
@@ -1873,7 +1901,7 @@ $messages['zh-hans'] = array(
 	'view-source' => '查看源代码',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Justincheng12345
  * @author Lauhenry
  * @author Simon Shek
@@ -1896,7 +1924,7 @@ $messages['zh-hant'] = array(
 	'view-source' => '查看原始碼',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

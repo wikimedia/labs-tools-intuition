@@ -89,7 +89,7 @@ $messages['be'] = array(
 	'output' => 'Вывад для "$1"',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -173,6 +173,17 @@ $messages['de'] = array(
 	'label-wikiids' => 'Wiki-Kennungen',
 	'no-matches' => 'Kein Ergebnis für „$1“',
 	'output' => 'Ausgabe für „$1“',
+);
+
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'formats-heading' => 'Terza vıcyayen',
+	'input' => 'Cıkewten',
+	'label-wikiids' => 'Viki şınaskar',
+	'no-matches' => 'Zey "$1" netice çıniyo',
+	'output' => 'Qandê "$1" vıcyayış',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -469,7 +480,7 @@ $messages['mt'] = array(
 	'output' => 'Riżultat għal "$1"',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'formats-heading' => 'utdataformater',
 	'input' => 'Inndata',
@@ -490,7 +501,7 @@ $messages['nl'] = array(
 	'output' => 'Uitvoer voor "$1"',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -600,7 +611,7 @@ $messages['sl'] = array(
 	'output' => 'Izhod za »$1«',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -611,7 +622,7 @@ $messages['sr-ec'] = array(
 	'output' => 'Излаз за „$1“',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -707,7 +718,7 @@ $messages['vi'] = array(
 	'output' => 'Kết quả “$1”',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Yfdyh000
  */
@@ -719,7 +730,7 @@ $messages['zh-hans'] = array(
 	'output' => '输出的 "$1"',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Lauhenry
  */
 $messages['zh-hant'] = array(
@@ -728,7 +739,7 @@ $messages['zh-hant'] = array(
 	'no-matches' => '找不到 "$1"',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

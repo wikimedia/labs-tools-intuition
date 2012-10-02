@@ -314,7 +314,7 @@ $messages['de'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -874,7 +874,7 @@ Versöhg_et schpääder norr_ens.',
 	'tablehead-hash' => 'Prööfsumme',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -886,7 +886,9 @@ $messages['ku-latn'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'title-overview' => 'Schnappschëss',
 	'title-error' => 'Feeler',
+	'title-updatelog' => 'Logbuch vun den Aktualisatiounen',
 	'download-button' => '$1 eroflueden',
 	'download-directlink' => 'direkte Link',
 	'title-downloadpage' => '$1 eroflueden',
@@ -897,6 +899,7 @@ $messages['lb'] = array(
 	'repo-lastmoddate-label' => 'Datum:',
 	'branches-submit-button' => 'Eroflueden!',
 	'updatelog-link' => 'Logbuch aktualiséieren',
+	'tablehead-snapshots' => 'Schnappschëss',
 	'tablehead-branch' => 'Versiouns-Famill',
 	'tablehead-filesize' => 'Gréisst vum Fichier',
 	'tablehead-hash' => 'Kontrollzuelen',
@@ -1016,7 +1019,7 @@ $messages['mt'] = array(
 	'tablehead-filesize' => 'Daqs tal-fajl',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  */
 $messages['nb'] = array(
@@ -1294,7 +1297,7 @@ $messages['sq'] = array(
 	'tablehead-filesize' => 'Madhësia e skedarit',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1325,7 +1328,7 @@ $messages['sr-ec'] = array(
 	'tablehead-hash' => 'Контролни збир',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1526,7 +1529,7 @@ $messages['vi'] = array(
 	'tablehead-hash' => 'Giá trị băm',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  */
 $messages['zh-hans'] = array(
@@ -1556,7 +1559,7 @@ $messages['zh-hans'] = array(
 	'tablehead-hash' => '校验和',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(

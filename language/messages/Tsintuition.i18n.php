@@ -210,7 +210,7 @@ $messages['be'] = array(
 	'help-translate-tooltip' => 'Дапамажыце карыстальнікам - перакладайце паведамленні інтэрфейсу на вашую мову.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1121,7 +1121,7 @@ $messages['ksh'] = array(
 	'help-translate-tooltip' => 'Donn der Andere jet Joods un donn de Täxte un Nohreeschte vun de Projramme en Ding Shprooch övversäze.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1313,7 +1313,7 @@ $messages['mzn'] = array(
 	'tab-about' => 'درباره',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1371,7 +1371,7 @@ $messages['nl'] = array(
 	'help-translate-tooltip' => 'Help anderen door interfaceberichten te vertalen in uw taal.',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1397,7 +1397,7 @@ $messages['nn'] = array(
 	'help-translate-all' => 'Hjelp til med å setja om Toolserver!',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -1751,7 +1751,7 @@ $messages['sq'] = array(
 	'help-translate-tooltip' => 'Ndihmo të tjerët duke përkthyer porositë e ndërfaqes në gjuhën tuaj.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1779,7 +1779,7 @@ $messages['sr-ec'] = array(
 	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -2056,7 +2056,7 @@ $messages['vi'] = array(
 	'help-translate-tooltip' => 'Giúp người ta sử dụng công cụ bằng cách dịch thông điệp giao diện qua ngôn ngữ của bạn.',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Shizhao
  * @author Simon Shek
@@ -2086,7 +2086,7 @@ $messages['zh-hans'] = array(
 	'help-translate-tooltip' => '帮助其他人把界面翻译成您的语言。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -2110,7 +2110,7 @@ $messages['zh-hant'] = array(
 	'help-translate-tooltip' => '幫助其他人把界面翻譯成您的語言。',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

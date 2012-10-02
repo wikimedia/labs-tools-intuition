@@ -341,7 +341,7 @@ $messages['be'] = array(
 	'error_upload_file' => 'Арыгінальны файл не можа быць загружаны.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -738,7 +738,7 @@ $messages['de'] = array(
 	'help_commons' => '$1Eine Nachricht auf Commons hinterlassen$2',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -1894,7 +1894,7 @@ $messages['ksh'] = array(
 	'help_commons' => 'Donn en  $1Noheesch op Commons schrieve$2',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -2284,7 +2284,7 @@ $messages['mzn'] = array(
 	'error_upload_file' => 'اصلی پرونده باربی‌یشته نوانه.',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2386,7 +2386,7 @@ $messages['nl'] = array(
 	'help_commons' => '$1Bericht toevoegen op Wikimedia Commons$2',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -2910,7 +2910,7 @@ $messages['sq'] = array(
 	'help_commons' => '$1Shtoni një postim në Commons$2',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2963,7 +2963,7 @@ $messages['sr-ec'] = array(
 	'help_commons' => '$1Додајте поруку у оставу$2',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -3389,7 +3389,7 @@ $messages['vi'] = array(
 	'help_commons' => '$1Thảo luận tại Commons$2',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Hzy980512
  * @author Linforest
@@ -3438,7 +3438,7 @@ $messages['zh-hans'] = array(
 	'help_mail' => '发送邮件给$1',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Lauhenry
  * @author Simon Shek
  */
@@ -3460,7 +3460,7 @@ $messages['zh-hant'] = array(
 	'help_mail' => '發送電郵到$1',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

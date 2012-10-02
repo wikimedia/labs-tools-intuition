@@ -119,7 +119,7 @@ $messages['ast'] = array(
 	'toolserver-status-short-missing' => '$1: Inesistente',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -661,7 +661,7 @@ $messages['ksh'] = array(
 	'toolserver-status-short-missing' => '$1: Ham_mer nit.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -754,7 +754,7 @@ $messages['mt'] = array(
 	'toolserver-status-short-missing' => '$1: Nieqes',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  */
 $messages['nb'] = array(
@@ -947,7 +947,7 @@ $messages['sl'] = array(
 	'toolserver-status-short-missing' => '$1: Manjka',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -967,7 +967,7 @@ $messages['sr-ec'] = array(
 	'toolserver-status-short-missing' => '$1: Недостаје',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1111,7 +1111,7 @@ $messages['vi'] = array(
 	'toolserver-status-short-missing' => '$1: Không có',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
  */
 $messages['zh-hans'] = array(
@@ -1124,7 +1124,7 @@ $messages['zh-hans'] = array(
 	'toolserver-status-short-missing' => '$1: 丢失',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

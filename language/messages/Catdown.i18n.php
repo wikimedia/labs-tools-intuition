@@ -258,7 +258,7 @@ $messages['ba'] = array(
 	'category-is-url' => 'Был категорияның исеме URL-адрес адрес кеүек күренә. URL-адрес түгел, категория исемен яҙырға кәрәк.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -570,7 +570,7 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
 	'scaling-both' => ', auf eine maximale Größe von $1x$2 Pixel skaliert',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -1459,7 +1459,7 @@ udder och vun ander Schpeejel-ẞööver. Luuer op:
 	'scaling-both' => ', obb ene jrüüßte Ömfang vun $1x$2 Pixelle ömjeräschnet',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -2081,7 +2081,7 @@ ose nga ndonjë Pasqyrë tjetër GNU, shihni
 	'scaling-both' => ', shkallëzuar në një madhësi maksimale prej $1x$2 piksellë',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2129,7 +2129,7 @@ $messages['sr-ec'] = array(
 	'scaling-both' => ', с изменом размере до највеће величине од $1 × $2 пиксела',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -2441,7 +2441,7 @@ hoặc một Kho phần mềm GNU khác; xem
 	'scaling-both' => ', được chỉnh lại theo kích cỡ tối đa là $1×$2 điểm ảnh',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Linforest
  * @author Mys 721tx
  * @author Simon Shek
@@ -2483,7 +2483,7 @@ Linux/Mac OS
 	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -2492,7 +2492,7 @@ $messages['zh-hant'] = array(
 	'download' => '下載',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

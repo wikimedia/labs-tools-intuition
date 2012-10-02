@@ -180,13 +180,13 @@ Parameters:
 {{Identical|View}}',
 	'distict-monuments' => 'Caption for the column for number of distinct monuments',
 	'list-prolific-begin' => 'Start of phrase asking the type of user list to show;',
-	'list-prolific-by-photos' => 'Option 1. This is the total number of photos. It can be continuing the phrase started at list-prolific-begin',
-	'list-prolific-by-distinct-identifiers' => 'Option 2. This is the number of different monument identifiers. It can be continuing the phrase started at list-prolific-begin',
-	'list-prolific-by-distinct-good-identifiers' => 'Option 3. This is the number of different monument identifiers, restricted to those in the monument lists. It can be continuing the phrase started at list-prolific-begin',
-	'list-prolific-by-identifiers' => 'Option 4. This is the number of monument identifiers (ie. the number of photos counting one several times if it shows multiple monuments). It can be continuing the phrase started at list-prolific-begin',
-	'list-prolific-by-good-identifiers' => 'Option 5. This is the number of monument identifiers (ie. the number of photos counting one several times if it shows multiple monuments), restricted to those identifiers present in the monument lists. It can be continuing the phrase started at list-prolific-begin',
-	'list-prolific-by-bad-identifiers' => 'Option 6. This is the number of monument identifiers not in the monument lists. Useful for detecting the most misguided users. It can be continuing the phrase started at list-prolific-begin',
-	'group-by-identifiers-all-countries-meaningless' => "Note shown when selecting an option other than \"number of photos\" without filtering by country.",
+	'list-prolific-by-photos' => 'Option 1. This is the total number of photos. It can be continuing the phrase started at {{msg-toolserver|Wlm-list-prolific-begin}}',
+	'list-prolific-by-distinct-identifiers' => 'Option 2. This is the number of different monument identifiers. It can be continuing the phrase started at {{msg-toolserver|Wlm-list-prolific-begin}}',
+	'list-prolific-by-distinct-good-identifiers' => 'Option 3. This is the number of different monument identifiers, restricted to those in the monument lists. It can be continuing the phrase started at {{msg-toolserver|Wlm-list-prolific-begin}}',
+	'list-prolific-by-identifiers' => 'Option 4. This is the number of monument identifiers (ie. the number of photos counting one several times if it shows multiple monuments). It can be continuing the phrase started at {{msg-toolserver|Wlm-list-prolific-begin}}',
+	'list-prolific-by-good-identifiers' => 'Option 5. This is the number of monument identifiers (ie. the number of photos counting one several times if it shows multiple monuments), restricted to those identifiers present in the monument lists. It can be continuing the phrase started at {{msg-toolserver|Wlm-list-prolific-begin}}',
+	'list-prolific-by-bad-identifiers' => 'Option 6. This is the number of monument identifiers not in the monument lists. Useful for detecting the most misguided users. It can be continuing the phrase started at {{msg-toolserver|Wlm-list-prolific-begin}}',
+	'group-by-identifiers-all-countries-meaningless' => 'Note shown when selecting an option other than "number of photos" without filtering by country.',
 	'province-heading' => 'Header for the province column of http://toolserver.org/~platonides/wlm/provincias.php',
 	'province-none' => 'Marker to group images for which no province is registered in the db.
 {{Identical|Unknown}}',
@@ -246,6 +246,8 @@ $messages['ar'] = array(
 	'comarque' => 'المنطقة',
 	'competes' => 'يتنافس',
 	'author' => 'المؤلف',
+	'country-header' => 'البلد',
+	'location' => 'الموقع',
 	'upload-time' => 'وقت الرفع',
 	'deleted' => 'ثم حذفه ($1)',
 	'concursa' => 'يشارك في WLM',
@@ -272,6 +274,9 @@ $messages['ar'] = array(
 	'view-previous-images' => '← عرض الصور السابقة',
 	'view-later-images' => 'عرض الصور اللاحقة →',
 	'images-listed-count' => '$1 صور مدرجة.',
+	'log-page-disclaimer' => 'تظهر هذه الأداة الملفات في [[:Category:$1|الفئة المعنية]] التي تم تحميلها أثناء المسابقة.
+لا يتم إظهار الملفات المحذوفة حتى و لو [$2 تم أستعادتها] لاحقا وتشارك من جديد.',
+	'bot' => 'بوت',
 	'id-label' => 'معرف المعلم:',
 	'id-none' => '(لا شيء)',
 	'monument-heading' => 'أثر',
@@ -368,7 +373,7 @@ $messages['ast'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -489,6 +494,8 @@ $messages['br'] = array(
 	'comarque' => 'Komarkoù',
 	'competes' => 'Kenstrivañ',
 	'author' => 'Aozer',
+	'country-header' => 'Bro',
+	'location' => "Lec'hiadur",
 	'upload-time' => 'Deiziad enporzhiañ',
 	'deleted' => 'Diverket ($1)',
 	'concursa' => 'Kemerit perzh e WLM',
@@ -518,6 +525,7 @@ $messages['br'] = array(
 $1 skeudenn listennet.',
 	'log-page-disclaimer' => "Gant ar benveg-mañ e vez diskouezet ar restroù eus ar [[:Category:$1|rumm a zere]]  a vo pellgarget e-pad ar genstrivadeg.
 Ne vo ket mui diskwelet ar restroù lamet, ha pa vefent [$2 adsavet] diwezhatoc'h ha kemer a reont perzh enni en-dro.",
+	'bot' => 'Robot',
 	'id-label' => 'Kod ar Monumant :',
 	'id-none' => '(Hini ebet)',
 	'monument-heading' => 'Monumant',
@@ -605,6 +613,8 @@ $messages['cs'] = array(
 	'comarque' => 'Rajón',
 	'competes' => 'Soutěží',
 	'author' => 'Autor',
+	'country-header' => 'Země',
+	'location' => 'Umístění',
 	'upload-time' => 'Čas uploadování',
 	'deleted' => 'Smazáno ($1)',
 	'concursa' => 'Účastní se WLM',
@@ -624,11 +634,13 @@ $messages['cs'] = array(
 	'country-label' => 'Země:',
 	'all-countries' => 'Všechny země',
 	'limit-label' => 'Zobrazit obrázky:',
+	'timezone-label' => 'Časové pásmo:',
 	'show-earlier-first' => 'Zobrazit mladší obrázky nejdříve',
 	'show-older-first' => 'Zobrazit starší obrázky nejdříve',
 	'show-button' => 'Zobrazit',
 	'view-previous-images' => '← zobrazit předchozí obrázky',
 	'view-later-images' => 'Zobrazit pozdější obrázky →',
+	'bot' => 'Bot',
 	'id-label' => 'Číslo památky:',
 	'id-none' => '(nic)',
 	'monument-heading' => 'Pomník',
@@ -747,6 +759,14 @@ Gelöschte Dateien werden auch dann nicht angezeigt, wenn sie zu einem späteren
 	'users-text' => 'Diese Seite zeigt die Autoren, mitsamt den von ihnen hochgeladenen Bildern, sowie die entsprechende Anzahl der unterschiedlichen Denkmäler, an',
 	'users-list' => 'Ansehen',
 	'distict-monuments' => 'Unterschiedliche Denkmäler',
+	'list-prolific-begin' => 'Liste der produktivsten Teilnehmer:',
+	'list-prolific-by-photos' => 'nach der Anzahl der Fotos',
+	'list-prolific-by-distinct-identifiers' => 'nach der Anzahl der unterschiedlichen Denkmalkennungen',
+	'list-prolific-by-distinct-good-identifiers' => 'nach der Anzahl der unterschiedlichen aufgelisteten Denkmalkennungen',
+	'list-prolific-by-identifiers' => 'nach der Anzahl der Denkmalkennungen',
+	'list-prolific-by-good-identifiers' => 'nach der Anzahl der Denkmalkennungen, die in den Listen sind',
+	'list-prolific-by-bad-identifiers' => 'nach der Anzahl der Denkmalkennungen nicht in den Listen',
+	'group-by-identifiers-all-countries-meaningless' => 'In vielen Ländern werden keine Denkmalkennungen für die hochgeladenen Dateien verwendet, so dass die entsprechenden Ergebnisse wahrscheinlich bedeutungslos sind.',
 	'province-heading' => 'Provinz',
 	'province-none' => '(Unbekannt)',
 	'ccaa-heading' => 'CC.AA.',
@@ -764,6 +784,8 @@ $messages['diq'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Temamyayo',
 	'author' => 'Nuştekar',
+	'country-header' => 'Dewlet',
+	'location' => 'Lokasyon',
 	'upload-time' => 'Demê bar kerdışi',
 	'deleted' => '($1) besterneyê',
 	'concursa' => "Letey WLM' bıgi",
@@ -776,6 +798,14 @@ $messages['diq'] = array(
 	'search-monuments' => 'Ziyarık cı geyrê',
 	'view-frequency' => 'Ziyarıkê poluleri',
 	'view-province' => 'Wılayetê cı bıvin',
+	'country-label' => 'Dewlet:',
+	'all-countries' => 'Dewleti pêro',
+	'limit-label' => 'Resima bıvin:',
+	'timezone-label' => 'Warey saete:',
+	'show-button' => 'Bımocne',
+	'view-previous-images' => '← Resimê verêni bıvin',
+	'view-later-images' => 'Resimê peyêni bıvin →',
+	'bot' => 'Bot',
 	'id-label' => "ID'ê Ziyarık:",
 	'id-none' => '(Çıno)',
 	'monument-heading' => 'Ziyarık',
@@ -807,6 +837,8 @@ $messages['dsb'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Wobźěłujo se',
 	'author' => 'Awtor',
+	'country-header' => 'Kraj',
+	'location' => 'Městno',
 	'upload-time' => 'Nagrawański cas',
 	'deleted' => 'Wulašowany ($1)',
 	'concursa' => 'Wobźěłujo se na WLM',
@@ -835,6 +867,7 @@ $messages['dsb'] = array(
 	'images-listed-count' => '$1 wobrazow nalicone.',
 	'log-page-disclaimer' => 'Toś ten rěd pokazujo dataje w [[:Category:$1|relevantnej kategoriji]], kótarež su se za wuběźowanje nagrali.
 Wulašowane dataje se njepokazuju, lěcrownož pózdźej [$2 wótnowili] a se zasej wobźěluju.',
+	'bot' => 'Bot',
 	'id-label' => 'ID zajmnostki:',
 	'id-none' => '(Žeden)',
 	'monument-heading' => 'Zajmnostka',
@@ -851,6 +884,14 @@ Wulašowane dataje se njepokazuju, lěcrownož pózdźej [$2 wótnowili] a se za
 	'users-text' => 'Toś ten bok pokazujo awtorow z wobrazami, kótarež a za kak wjele zajmnostkow woni su nagrali',
 	'users-list' => 'Woglědaś se',
 	'distict-monuments' => 'Rozdźělne zajmnostki',
+	'list-prolific-begin' => 'Lisćina nejaktiwnjejšych nagrawarjow:',
+	'list-prolific-by-photos' => 'pó licbje fotow',
+	'list-prolific-by-distinct-identifiers' => 'pó licbje rozdźělnych identifikatorow',
+	'list-prolific-by-distinct-good-identifiers' => 'pó licbje rozdźělnych naliconych identifikatorow',
+	'list-prolific-by-identifiers' => 'pó licbje identifikatorow pomnikow',
+	'list-prolific-by-good-identifiers' => 'pó licbje identifikatorow w lisćinach',
+	'list-prolific-by-bad-identifiers' => 'pó licbje identifikatorow, kótarež njejsu w lisćinach',
+	'group-by-identifiers-all-countries-meaningless' => 'Wjele krajow njewužywa identifikatory we swójich nagraśach, tak až toś te wuslědki snaź su bźez wuznama.',
 	'province-heading' => 'Prowinca',
 	'province-none' => '(Njeznaty)',
 	'ccaa-heading' => 'CC.AA.',
@@ -901,6 +942,7 @@ $messages['es'] = array(
 	'images-listed-count' => 'Mostradas $1 imágenes.',
 	'log-page-disclaimer' => 'Esta herramienta muestra las fotos en la [[:Category:$1|categoría apropiada]] que fueron subidas durante el concurso. 
 Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido [restaurados $2] más tarde y participan nuevamente.',
+	'bot' => 'Bot',
 	'id-label' => 'BIC:',
 	'id-none' => '(Sin identificador)',
 	'monument-heading' => 'Monumento',
@@ -924,7 +966,7 @@ Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido [
 	'list-prolific-by-identifiers' => 'por número de identificadores de monumento',
 	'list-prolific-by-good-identifiers' => 'por número de identificadores de monumento presentes en las listas',
 	'list-prolific-by-bad-identifiers' => 'por número de identificadores de monumento que no se encuentran en las listas',
-	'group-by-identifiers-all-countries-meaningless' => "Muchos países no utilizan identificadores en el concurso, por lo que estos resultados probablemente no sean significativos.",
+	'group-by-identifiers-all-countries-meaningless' => 'Muchos países no utilizan identificadores en el concurso, por lo que estos resultados probablemente no sean significativos.',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
@@ -1094,6 +1136,8 @@ $messages['fr'] = array(
 	'comarque' => 'Comarque',
 	'competes' => 'Participant',
 	'author' => 'Auteur',
+	'country-header' => 'Pays',
+	'location' => 'Emplacement',
 	'upload-time' => 'Heure de téléversement',
 	'deleted' => 'Supprimé ($1)',
 	'concursa' => 'Participe à WLM',
@@ -1122,6 +1166,7 @@ $messages['fr'] = array(
 	'images-listed-count' => '$1 images listées.',
 	'log-page-disclaimer' => "Cet outil montre les fichiers de la [[:Category:$1|catégorie appropriée]] qui seront téléchargés pendant le concours.
 Les fichiers supprimés ne sont pas affichés, même s'ils sont [$2 restaurés] plus tard et y participeront de nouveau.",
+	'bot' => 'Robot',
 	'id-label' => 'Identifiant du monument :',
 	'id-none' => '(aucun)',
 	'monument-heading' => 'Monument',
@@ -1138,6 +1183,14 @@ Les fichiers supprimés ne sont pas affichés, même s'ils sont [$2 restaurés] 
 	'users-text' => 'Cette page montre les auteurs avec les images qu’ils ont versées et de combien de monuments',
 	'users-list' => 'Afficher',
 	'distict-monuments' => 'Monuments distincts',
+	'list-prolific-begin' => 'Liste des plus gros fournisseurs de téléchargement:',
+	'list-prolific-by-photos' => 'par nombre de photos',
+	'list-prolific-by-distinct-identifiers' => "par nombre d'identifiants différents",
+	'list-prolific-by-distinct-good-identifiers' => "par nombre d'identifiants différents listés",
+	'list-prolific-by-identifiers' => "par nombre d'identifiants de monument",
+	'list-prolific-by-good-identifiers' => "par nombre d'identifiants dans les listes",
+	'list-prolific-by-bad-identifiers' => "par nombre d'identifiants absents des listes",
+	'group-by-identifiers-all-countries-meaningless' => "De nombreux pays n'utilisent pas d'identifiants dans leurs téléchargements, donc ces résultats sont probablement non significatifs.",
 	'province-heading' => 'Province',
 	'province-none' => '(inconnu)',
 	'ccaa-heading' => 'CA',
@@ -1321,6 +1374,8 @@ $messages['hsb'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Wobdźěłuje so',
 	'author' => 'Awtor',
+	'country-header' => 'Kraj',
+	'location' => 'Městno',
 	'upload-time' => 'Nahrawanski čas',
 	'deleted' => 'Zhašany ($1)',
 	'concursa' => 'Wobdźěłuje so na WLM',
@@ -1349,6 +1404,7 @@ $messages['hsb'] = array(
 	'images-listed-count' => '$1 wobrazow nalistowane.',
 	'log-page-disclaimer' => 'Tutón nastroj pokazuje dataje w [[:Category:$1|relevantnej kategoriji]], kotrež su so za wubědźowanje nahrali.
 Zhašane dataje so njepokazuja, byrnjež pozdźišo [$2 wobnowili] a so zaso wobdźěleja.',
+	'bot' => 'Boćik',
 	'id-label' => 'ID zajimawosće:',
 	'id-none' => '(Žadyn)',
 	'monument-heading' => 'Zajimawosć',
@@ -1365,6 +1421,14 @@ Zhašane dataje so njepokazuja, byrnjež pozdźišo [$2 wobnowili] a so zaso wob
 	'users-text' => 'Tuta strona pokazuje awtorow z wobrazami, kotrež a za kelko zajimawosćow woni su nahrali',
 	'users-list' => 'Wobhladać',
 	'distict-monuments' => 'Rozdźělne zajimawosće',
+	'list-prolific-begin' => 'Lisćina najaktiwnišich nahrawarjow:',
+	'list-prolific-by-photos' => 'po ličbje fotow',
+	'list-prolific-by-distinct-identifiers' => 'po ličbje rozdźělnych identifikatorow',
+	'list-prolific-by-distinct-good-identifiers' => 'po ličbje rozdźělnych nalistowanych identifikatorow',
+	'list-prolific-by-identifiers' => 'po ličbje identifikatorow pomnikow',
+	'list-prolific-by-good-identifiers' => 'po ličbje identifikatorow w lisćinach',
+	'list-prolific-by-bad-identifiers' => 'po ličbje identifikatorow, kotrež w lisćinach njejsu',
+	'group-by-identifiers-all-countries-meaningless' => 'Wjele krajow njewužiwa identifikatory w swojich nahraćach, tak zo tute wuslědki su najskerje bjez wuznama.',
 	'province-heading' => 'Prowinca',
 	'province-none' => '(Njeznaty)',
 	'ccaa-heading' => 'CC.AA.',
@@ -1547,6 +1611,8 @@ $messages['it'] = array(
 	'comarque' => 'Regione',
 	'competes' => 'In competizione',
 	'author' => 'Autore',
+	'country-header' => 'Nazione',
+	'location' => 'Località',
 	'upload-time' => 'Momento di caricamento',
 	'deleted' => 'Cancellato ($1)',
 	'concursa' => 'Prende parte a WLM',
@@ -1573,6 +1639,8 @@ $messages['it'] = array(
 	'view-previous-images' => '← Vedi immagini precedenti',
 	'view-later-images' => 'Vedi immagini successive →',
 	'images-listed-count' => '$1 immagini elencate.',
+	'log-page-disclaimer' => 'Questo strumento mostra i file contenuti nella [[:Category:$1|categoria rilevante]] che sono stati caricati durante la campagna. I file cancellati non sono mostrati anche se sono stati successivamente [$2 ripristinati] e partecipano di nuovo.',
+	'bot' => 'Bot',
 	'id-label' => 'Identificativo del monumento:',
 	'id-none' => '(Nessuno)',
 	'monument-heading' => 'Monumento',
@@ -1589,6 +1657,14 @@ $messages['it'] = array(
 	'users-text' => 'Questa pagina mostra gli autori con le immagini che hanno caricato e di quanti monumenti',
 	'users-list' => 'Mostra',
 	'distict-monuments' => 'Monumenti distinti',
+	'list-prolific-begin' => 'Elenco degli uploaders più prolifici:',
+	'list-prolific-by-photos' => 'per numero di foto',
+	'list-prolific-by-distinct-identifiers' => 'per numero di identificatori di monumenti unici',
+	'list-prolific-by-distinct-good-identifiers' => "per numero di identificatori di monumenti unici contenuti nell'elenco",
+	'list-prolific-by-identifiers' => 'per numero di identificatori di monumenti',
+	'list-prolific-by-good-identifiers' => "per numero di identificatori di monumenti contenuti nell'elenco",
+	'list-prolific-by-bad-identifiers' => "per numero di identificatori di monumenti non contenuti nell'elenco",
+	'group-by-identifiers-all-countries-meaningless' => 'Molti paesi non utilizzano identificatori nei loro caricamenti, così questi risultati potrebbero essere probabilmente senza senso.',
 	'province-heading' => 'Provincia',
 	'province-none' => '(Sconosciuto)',
 	'ccaa-heading' => 'CC.AA.',
@@ -1607,8 +1683,11 @@ $messages['ja'] = array(
 	'province' => '州',
 	'comarque' => '地域',
 	'author' => '著者',
+	'country-header' => '国',
+	'location' => '場所',
 	'upload-time' => 'アップロード時間',
 	'deleted' => '削除済み ($1)',
+	'concursa' => 'WLM に参加',
 	'not-available' => '利用できません',
 	'date-unknown' => '不明',
 	'total-images' => '総画像数: $1',
@@ -1626,6 +1705,7 @@ $messages['ja'] = array(
 	'view-previous-images' => '← 前の画像を表示',
 	'view-later-images' => '次の画像を表示 →',
 	'images-listed-count' => '$1 件の画像を表示しています。',
+	'bot' => 'ボット',
 	'id-label' => 'モニュメント ID:',
 	'id-none' => '(なし)',
 	'monument-heading' => 'モニュメント',
@@ -1636,7 +1716,10 @@ $messages['ja'] = array(
 	'bic-list-bad' => '表示',
 	'bic-list-all' => 'すべての一覧',
 	'unregistered' => '未登録',
+	'users-text' => 'このページでは、作者、アップロードした画像、モニュメント数を表示します',
 	'users-list' => '表示',
+	'list-prolific-begin' => '最も多くアップロードした人を列挙:',
+	'group-by-identifiers-all-countries-meaningless' => '多くの国ではアップロードに識別子を使用しないため、これらの結果にはおそらく意味がありません。',
 	'province-heading' => '州',
 	'province-none' => '(不明)',
 	'ccaa-heading' => 'CC.AA.',
@@ -1731,6 +1814,8 @@ $messages['ko'] = array(
 	'comarque' => '지역',
 	'competes' => '경쟁',
 	'author' => '저자',
+	'country-header' => '국가',
+	'location' => '위치',
 	'upload-time' => '올리기 시간',
 	'deleted' => '삭제함 ($1)',
 	'concursa' => 'WLM 부분 찍기',
@@ -1759,6 +1844,7 @@ $messages['ko'] = array(
 	'images-listed-count' => '그림 $1개를 나타냈습니다.',
 	'log-page-disclaimer' => '이 도구는 대회 기간 동안 올린 [[:Category:$1|관련 분류]]에서 파일을 보여줍니다.
 삭제된 파일은 나중에 [$2 복원된] 후 다시 참여하더라도 보여지지 않습니다.',
+	'bot' => '봇',
 	'id-label' => '기념물 id:',
 	'id-none' => '(없음)',
 	'monument-heading' => '기념물',
@@ -1843,7 +1929,7 @@ Fottjeschmeße Datteije wääde nit jezeisch, och wann se schpääder [$2 wider 
 	'ccaa-heading' => '!!FUZZYY!!Eijeschtändeje Jemeinschaff',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1895,6 +1981,8 @@ Pro Provënz weisen',
 	'view-previous-images' => '← Vireg Biller weisen',
 	'view-later-images' => 'Méi rezent Biller weisen →',
 	'images-listed-count' => '$1 Biller an der Lëscht.',
+	'log-page-disclaimer' => "Dëse Programm weist d'Fichieren déi an der [[:Category:$1|relevanter Kategorie]] déi während dem Concours eropgeluede goufen.
+Geläschte Fichiere ginn net gewisen esougue wa si duerno [$2 restauréiert] goufen an erëm matmaachen.",
 	'bot' => 'Bot',
 	'id-label' => 'ID vum Monument:',
 	'id-none' => '(Keng)',
@@ -1956,6 +2044,8 @@ $messages['mk'] = array(
 	'comarque' => 'Комарка',
 	'competes' => 'Конкурира',
 	'author' => 'Автор',
+	'country-header' => 'Земја',
+	'location' => 'Место',
 	'upload-time' => 'Време на подигањето',
 	'deleted' => 'Избришана ($1)',
 	'concursa' => 'Учествува во WLM',
@@ -1984,6 +2074,7 @@ $messages['mk'] = array(
 	'images-listed-count' => 'Наведени се $1 слики.',
 	'log-page-disclaimer' => 'Оваа алатка ги прикажува податотеките во [[:Category:$1|релевантната категорија]] подигнати во текот на конкурсот.
 Избришаните податотеки не се прикажуваат (дури и ако во меѓувреме се [$2 вратени] и повторно учествуваат).',
+	'bot' => 'Бот',
 	'id-label' => 'Назнака на споменикот:',
 	'date-format' => 'j F Y, H:i ч. и s сек.',
 	'id-none' => '(Нема)',
@@ -2018,6 +2109,8 @@ $messages['ms'] = array(
 	'comarque' => 'Comarque',
 	'competes' => 'Pertandingan',
 	'author' => 'Pengarang',
+	'country-header' => 'Negara',
+	'location' => 'Lokasi',
 	'upload-time' => 'Waktu muat naik',
 	'deleted' => 'Terhapus ($1)',
 	'concursa' => 'Menyertai WLM',
@@ -2045,6 +2138,7 @@ $messages['ms'] = array(
 	'view-later-images' => 'Lihat gambar berikutnya →',
 	'images-listed-count' => '$1 gambar tersenarai.',
 	'log-page-disclaimer' => 'Alat ini memaparkan fail-fail di [[:Category:$1|kategori berkenan]] yang dimuat naik sewaktu peraduan. Fail-fail yang dipadamkan tidak dipaparkan walaupun [$2 dipulihkan] dan dipertandingkan semula pada masa akan datang.',
+	'bot' => 'Bot',
 	'id-label' => 'Monumen',
 	'id-none' => '(Tiada)',
 	'monument-heading' => 'Monumen',
@@ -2115,7 +2209,7 @@ $messages['mt'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  */
 $messages['nb'] = array(
@@ -2136,6 +2230,8 @@ $messages['nl'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'In wedstrijd',
 	'author' => 'Auteur',
+	'country-header' => 'Land',
+	'location' => 'Locatie',
 	'upload-time' => 'Uploadtijd',
 	'deleted' => 'Verwijderd ($1)',
 	'concursa' => 'Neemt deel aan WLM',
@@ -2164,6 +2260,7 @@ $messages['nl'] = array(
 	'images-listed-count' => '$1 afbeeldingen weergegeven.',
 	'log-page-disclaimer' => 'Via dit hulpprogramma worden de bestanden weergegeven in de [[:Category:$1|relevante categorie]] die zijn geüpload gedurende de wedstrijd.
 Verwijderde bestanden worden niet weergegeven, zelfs als ze later [$2 teruggeplaatst] zijn en weer meedoen.',
+	'bot' => 'Bot',
 	'id-label' => 'Monument-ID:',
 	'id-none' => '(Geen)',
 	'monument-heading' => 'Monument',
@@ -2180,6 +2277,14 @@ Verwijderde bestanden worden niet weergegeven, zelfs als ze later [$2 teruggepla
 	'users-text' => 'Op deze pagina worden de auteurs met hun afbeeldingen weergegeven, en voor hoeveel monumenten ze afbeeldingen hebben toegevoegd.',
 	'users-list' => 'Bekijken',
 	'distict-monuments' => 'Unieke monumenten',
+	'list-prolific-begin' => 'Lijst van de meest productieve uploaders:',
+	'list-prolific-by-photos' => "op aantal foto's",
+	'list-prolific-by-distinct-identifiers' => "op aantal verschillende ID's",
+	'list-prolific-by-distinct-good-identifiers' => "op aantal verschillende genoemde ID's",
+	'list-prolific-by-identifiers' => "op aantal verschillende monument-ID's",
+	'list-prolific-by-good-identifiers' => "op aantal verschillende ID's in de lijsten",
+	'list-prolific-by-bad-identifiers' => "op aantal ID's niet in de lijsten",
+	'group-by-identifiers-all-countries-meaningless' => "Veel landen gebruiken geen ID's in hun uploads, dus de resultaten zijn waarschijnlijk zinloos.",
 	'province-heading' => 'Provincie',
 	'province-none' => '(Onbekend)',
 	'ccaa-heading' => 'CC.AA.',
@@ -2606,7 +2711,7 @@ $messages['sl'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2669,7 +2774,7 @@ $messages['sr-ec'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -2818,14 +2923,20 @@ $messages['ta'] = array(
 $messages['te'] = array(
 	'title' => 'WLM దస్త్రాలు',
 	'province' => 'ప్రావిన్స్',
+	'country-header' => 'దేశం',
 	'upload-time' => 'ఎక్కించిన సమయం',
 	'deleted' => 'తొలగించారు ($1)',
 	'not-available' => 'అందుబాటులో లేదు',
 	'date-unknown' => 'తెలియదు',
 	'total-images' => 'మొత్తం చిత్రాలు: $1',
+	'country-label' => 'దేశం:',
+	'all-countries' => 'అన్ని దేశాలు',
+	'timezone-label' => 'కాల మండలం:',
+	'show-button' => 'చూపించు',
 	'id-none' => '(ఏమీలేదు)',
 	'count-heading' => 'ఫొటోలు',
 	'bic-list' => 'జాబితా',
+	'author-heading' => 'రచయిత',
 	'bic-list-bad' => 'చూపించు',
 	'bic-list-all' => 'పూర్తి జాబితా',
 	'unregistered' => 'నమోదుకాలేదు',
@@ -2967,6 +3078,8 @@ $messages['uk'] = array(
 	'comarque' => 'Район',
 	'competes' => 'Учасник конкурсу',
 	'author' => 'Автор',
+	'country-header' => 'Країна',
+	'location' => 'Розташування',
 	'upload-time' => 'Час завантаження',
 	'deleted' => 'Вилучено ( $1 )',
 	'concursa' => 'Бере участь у WLM',
@@ -2993,6 +3106,9 @@ $messages['uk'] = array(
 	'view-previous-images' => '← Попередні зображення',
 	'view-later-images' => 'Наступні зображення →',
 	'images-listed-count' => '$1зображень у списку.',
+	'log-page-disclaimer' => 'Цей інструмент показує файли [[: Категорія: $1 |відповідної категорії]] що були завантажені під час конкурсу.
+Видалені файли не відображаються, навіть якщо вони були пізніше [ $2  відновлені] і беруть участь знову.',
+	'bot' => 'Бот',
 	'id-label' => "Ідентифікатор пам'ятки",
 	'id-none' => '(Немає)',
 	'monument-heading' => "Пам'ятка",
@@ -3026,6 +3142,8 @@ $messages['vi'] = array(
 	'comarque' => 'Quận hạt',
 	'competes' => 'Thi đấu',
 	'author' => 'Tác giả',
+	'country-header' => 'Quốc gia',
+	'location' => 'Vị trí',
 	'upload-time' => 'Lúc tải lên',
 	'deleted' => 'Đã xóa ($1)',
 	'concursa' => 'Tham gia vào WLM',
@@ -3054,6 +3172,7 @@ $messages['vi'] = array(
 	'images-listed-count' => '$1 hình ảnh được liệt kê.',
 	'log-page-disclaimer' => 'Công cụ này trình bày các tập tin trong [[:Category:$1|thể loại phù hợp]] mà được tải lên vào lúc cuộc thi.
 Các tập tin đã xóa không được trình bày, ngay cả nếu về sau được [$2 phục hồi] và tiếp tục tham gia.',
+	'bot' => 'Bot',
 	'id-label' => 'ID của đài tưởng niệm',
 	'date-format' => 'd/m/Y H:i:s',
 	'id-none' => '(Không có)',
@@ -3076,7 +3195,7 @@ Các tập tin đã xóa không được trình bày, ngay cả nếu về sau �
 	'ccaa-heading' => 'CĐTT',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
  * @author Yfdyh000
  */
@@ -3104,7 +3223,7 @@ $messages['zh-hans'] = array(
 	'province-none' => '（未知）',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -3129,7 +3248,7 @@ $messages['zh-hant'] = array(
 	'province-none' => '（未知）',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

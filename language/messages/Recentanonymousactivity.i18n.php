@@ -53,7 +53,7 @@ $messages['be'] = array(
 	'title' => 'Бягучая ананімная актыўнасць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
@@ -263,7 +263,7 @@ $messages['mt'] = array(
 	'title' => 'Attività anonima riċenti',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -278,7 +278,7 @@ $messages['nl'] = array(
 	'title' => 'Recente activiteit van anonieme gebruikers',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -335,14 +335,14 @@ $messages['sl'] = array(
 	'title' => 'Nedavna brezimna dejavnost',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
 	'title' => 'Скорашња активност анонимних корисника',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -398,14 +398,14 @@ $messages['vi'] = array(
 	'title' => 'Hoạt động vô danh gần đây',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
 	'title' => '最近的匿名活动',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

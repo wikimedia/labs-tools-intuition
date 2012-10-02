@@ -182,7 +182,7 @@ $messages['be'] = array(
 	'resultslimited' => 'Вынік абмежаваны да $1 старонак.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -376,14 +376,17 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'title' => 'BakusWerenayış2',
+	'select-wiki-first' => '(Ya sıfte yew wiki weçine)',
 	'hideredirects' => 'Hetenayışan bınımnê',
 	'hidesubpages' => 'Pelanê bınan bınımnê',
 	'limit' => 'Limit',
 	'page' => 'Per',
 	'redirect' => 'Hetanayış ?',
+	'output' => 'Vıcyayış',
 	'update' => 'Noroc resn',
 	'tools-delete' => 'besterne',
 	'tools-links' => 'gırey',
+	'tools-subject' => 'mersel',
 	'tools-hist' => 'ravyardê',
 	'tools-curr' => 'newen',
 	'tools-globalusage' => 'global karkerdış',
@@ -956,7 +959,7 @@ $messages['ksh'] = array(
 	'resultslimited' => 'Heh di Leß es bejränz op {{PLURAL:$1|ein Sigg|$1 Sigg|kein Sigge}}',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  * @author Ghybu
  */
@@ -1103,7 +1106,7 @@ $messages['mt'] = array(
 	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'title' => 'Foreldreløse diskusjonssider 2',
 	'select-wiki-first' => '(velg en wiki først)',
@@ -1150,7 +1153,7 @@ $messages['nl'] = array(
 	'resultslimited' => "Er worden maximaal $1 pagina's weergegeven.",
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -1404,7 +1407,7 @@ $messages['sq'] = array(
 	'hidesubpages' => 'Fshih nënfaqet',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1428,7 +1431,7 @@ $messages['sr-ec'] = array(
 	'resultslimited' => 'Резултати су ограничени на $1 страница.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1648,7 +1651,7 @@ $messages['vi'] = array(
 	'resultslimited' => 'Chỉ hiển thị $1 kết quả.',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Shizhao
  */
@@ -1673,7 +1676,7 @@ $messages['zh-hans'] = array(
 	'resultslimited' => '结果只显示$1页面。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -1685,7 +1688,7 @@ $messages['zh-hant'] = array(
 	'tools-hist' => '歷史',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

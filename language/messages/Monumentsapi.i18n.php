@@ -288,7 +288,7 @@ $messages['be'] = array(
 	'toolbox-nav-search' => 'Шукаць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1707,7 +1707,7 @@ Loves Monuments',
 	'location' => 'Plaz',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1993,7 +1993,7 @@ $messages['mt'] = array(
 	'location' => 'Post',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2066,7 +2066,7 @@ $messages['nl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Monumentenbronlijst op Wikipedia',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -2153,6 +2153,7 @@ $messages['pfl'] = array(
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Matma Rex
  * @author Odder
  * @author Przemub
  * @author Sp5uhe
@@ -2191,7 +2192,7 @@ $messages['pl'] = array(
 	'db-field-st_name_pct' => 'Nazwy %',
 	'db-field-st_total' => 'Liczba całkowita',
 	'toolbox-label-searchtipps' => 'użyj inteligentnego wyszukiwania %termin or termin% or %termin%',
-	'toolbox-meta-title' => 'Zestaw narzędzi Wiki Kocha Zabytki',
+	'toolbox-meta-title' => 'Zestaw narzędzi Wiki Lubi Zabytki',
 	'toolbox-main-title' => 'Zestaw narzędzi WKZ',
 	'toolbox-main-description' => 'Zestaw narzędzi powiązanych z',
 	'toolbox-wikilovesmonuments' => 'Wiki Lubi Zabytki',
@@ -2534,7 +2535,7 @@ $messages['sq'] = array(
 	'source-monuments-list-on-wikipedia' => 'Lista e monumenteve të kërkimit në Wikipedia',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2582,7 +2583,7 @@ $messages['sr-ec'] = array(
 	'source-monuments-list-on-wikipedia' => 'Изворни списак споменика на Википедији',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -3038,7 +3039,7 @@ $messages['zea'] = array(
 	'db-field-municipality' => 'Gemeênte',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Hzy980512
  * @author Yfdyh000
@@ -3062,14 +3063,14 @@ $messages['zh-hans'] = array(
 	'toolbox-nav-search' => '搜索',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'toolbox-nav-statistics' => '統計',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

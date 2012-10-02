@@ -65,7 +65,7 @@ $messages['be'] = array(
 	'error-form-empty' => 'Адно або некалькі абавязковых палёў пакінутыя пустымі. Вы мусіце запоўніць іх, перш чым працягваць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -136,6 +136,13 @@ $messages['de'] = array(
 	'bugs' => 'Fehlermeldungen und Funktionswünsche',
 	'comments' => 'Anmerkungen und Abfragen',
 	'error-form-empty' => 'Eines oder mehrere der Pflichtfelder wurden nicht ausgefüllt. Bitte vor dem Fortfahren ausfüllen.',
+);
+
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'comments' => 'Vatış u perseney',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -373,7 +380,7 @@ $messages['mt'] = array(
 	'error-form-empty' => 'Waħda jew iktar oqsma obbligatorji tħallew vojta. Trid timliehom qabel ma tkompli.',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -393,7 +400,7 @@ $messages['nl'] = array(
 	'error-form-empty' => 'Een of meer verplichte velden zijn leeg gelaten. U moet deze invullen voordat u verdergaat.',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -462,7 +469,7 @@ $messages['sl'] = array(
 	'error-form-empty' => 'Eno ali več obveznih polj ni bilo izpolnjenih. Pred nadaljevanjem jih morate izpolniti.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -472,7 +479,7 @@ $messages['sr-ec'] = array(
 	'error-form-empty' => 'Нисте попунили сва обавезна поља. Урадите то пре него што наставите.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -543,7 +550,7 @@ $messages['vi'] = array(
 	'error-form-empty' => 'Ít nhất một trường bắt buộc đã được bỏ trống. Xin điền nó trước khi tiếc tục.',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
@@ -553,7 +560,7 @@ $messages['zh-hans'] = array(
 	'error-form-empty' => '有了一个或多个必填的字段留空。在继续之前，您应该完成它们。',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(

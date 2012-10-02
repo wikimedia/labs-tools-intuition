@@ -106,7 +106,7 @@ $messages['az'] = array(
 	'namespace-label' => 'Adlar fəzası',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -174,16 +174,19 @@ $messages['ca'] = array(
 
 /** Czech (česky)
  * @author Chmee2
+ * @author Gaj777
  * @author Jezevec
  * @author Vks
  */
 $messages['cs'] = array(
 	'enter-details' => 'Vložit podrobnosti',
+	'introduction' => 'Zadejte název šablony (zatím pouze z Wikipedie) a pokračujte. Je to velmi jednoduché. Některé informace mohou být zapamatovány, je to ale bohužel mimo kontrolu tohoto nástroje a jeho autora.',
 	'language-label' => 'Jazyk',
 	'namespace-label' => 'Jmenný prostor',
 	'pagename-label' => 'Jméno stránky (bez jmenného prostoru)',
 	'transclusion-count-label' => 'Počet transkluzí',
 	'transclusion-count' => '$1 transkluzí nalezeno',
+	'error-suggestion' => 'Možná jste zadali chybný název stránky? Ověřte také velikost písmen.',
 	'time-label' => 'Čas vykonávání příkazu',
 );
 
@@ -213,7 +216,7 @@ $messages['de'] = array(
 	'time-label' => 'Benötigte Zeit zur Ausführung der Anweisung',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -573,7 +576,7 @@ $messages['ksh'] = array(
 	'time-label' => 'De Zigg, di dat Projramm jebruch hät',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -660,7 +663,7 @@ $messages['mzn'] = array(
 	'language-label' => 'زوون',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -691,7 +694,7 @@ $messages['nl'] = array(
 	'time-label' => 'Uitvoertijd van het commando',
 );
 
-/** Norwegian (bokmål) (‪norsk (bokmål)‬)
+/** Norwegian (bokmål) (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -833,7 +836,7 @@ $messages['sl'] = array(
 	'time-label' => 'Čas, porabljen za izvršitev ukaza',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -849,7 +852,7 @@ $messages['sr-ec'] = array(
 	'time-label' => 'Време за извршавање наредбе',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -992,7 +995,7 @@ $messages['vi'] = array(
 	'time-label' => 'Thời gian thực hiện lệnh',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Shizhao
  * @author Xiaomingyan
@@ -1007,7 +1010,7 @@ $messages['zh-hans'] = array(
 	'time-label' => '执行命令所需的时间',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -1015,7 +1018,7 @@ $messages['zh-hant'] = array(
 	'language-label' => '語言',
 );
 
-/** Chinese (Hong Kong) (‪中文（香港）‬)
+/** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(
