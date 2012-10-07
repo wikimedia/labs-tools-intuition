@@ -1739,7 +1739,7 @@ $messages['ja'] = array(
 	'error_upload_file' => '元ファイルをダウンロードできません。',
 	'help_intro' => 'バグ報告、新機能の提案、または質問をする際には、以下の連絡方法から一つを選んでください。',
 	'help_jira' => '$1JIRA (アカウントが必要)$2 (プロジェクト: Commonshelper2)',
-	'help_mail' => '$1 へメールを送信',
+	'help_mail' => '$1 にメールを送信',
 	'help_commons' => '$1コモンズに投稿を追加$2',
 );
 

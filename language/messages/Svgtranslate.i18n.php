@@ -1513,6 +1513,7 @@ $messages['lb'] = array(
 	'option-manual' => 'Manuell Eroplueden',
 	'preview' => 'Weisen ouni ze späicheren',
 	'translate' => 'Iwwersetzen',
+	'translate-instructions' => 'D\'Entréeë ginn entweder als Fichiersnimm (z. Bsp. "$1") oder als komplett URL (z. Bsp. "$2") akzeptéiert. Wann déi éischt Optioun benotzt gëtt, gëtt ugeholl datt Wikimedia Commons d\'Quell ass. Fir en SVG vun engem anere Site oder enger anerer Wiki z\'iwwersetze muss de Format mat der kompletter URL benotzt ginn.',
 	'svginput-label' => 'SVG-Fichier',
 	'stats-footer' => "Dësen Tool gouf zënter dem $2 benotzt fir ongeféier $1 Fichieren z'iwwersetzen.",
 	'uploading' => 'Eroplueden',
