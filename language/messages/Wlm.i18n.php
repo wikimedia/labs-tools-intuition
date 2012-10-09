@@ -100,6 +100,10 @@ Deleted files are not shown even if they were later [$2 restored] and are partic
 	'province-heading' => 'Province',
 	'province-none' => '(Unknown)',
 	'ccaa-heading' => 'CC.AA.',
+
+	/* nomail.php */
+	'nomail-text' => 'List of users participating in Wiki Loves Monuments $1 which do not seem to have provided an email address.',
+	'nomail-user-count' => '$1 users',
 );
 
 /** Message documentation (Message documentation)
@@ -191,6 +195,10 @@ Parameters:
 	'province-none' => 'Marker to group images for which no province is registered in the db.
 {{Identical|Unknown}}',
 	'ccaa-heading' => 'Header for the autonomous communities column',
+	'nomail-text' => 'Summary explaining that this tool shows the list of users participating in Wiki Loves Monuments which do not seem to have provided an email address. Note that this tool is not authoritative. It could be listing users with an email, and skipping those with email from other users disabled.
+Parameter: $1 year of the WLM edition.',
+	'nomail-user-count' => 'Summary with the number of users without an email set.
+Parameters: $1 number of users shown above.',
 );
 
 /** Afrikaans (Afrikaans)
