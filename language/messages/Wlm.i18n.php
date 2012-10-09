@@ -65,10 +65,12 @@ Deleted files are not shown even if they were later [$2 restored] and are partic
 	'id-label' => 'Monument id:',
 	'date-format' => 'd-m-Y H:i:s',
 
-	/* monumentos.php */
+	/* monumentos.php / monuments.php */
 	'id-none' => '(None)',
+	'monuments-by-photographers-checkbox' => 'Order monuments by number of photographers, not by number of photos.',
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Photographs',
+	'photographer-count-heading' => 'Photographers',
 	'bic-list' => 'List',
 	'bic-gallery' => 'Gallery',
 
@@ -164,8 +166,10 @@ Parameters:
 	'date-format' => 'Format in which to present the date in the upload-time column',
 	'id-none' => "Column to show where there's no id.
 {{Identical|None}}",
+	'monuments-by-photographers-checkbox' => 'Caption for the checkbox which makes the tool group by number of photographers instead of the default of ordering by number of photos.',
 	'monument-heading' => 'Heading for the monument identifier column in http://toolserver.org/~platonides/wlm/monumentos.php tool',
 	'count-heading' => 'Heading for the count of images with that id',
+	'photographer-count-heading' => 'Heading for the count of photographers who took a shoot of the monument with that id (replaces count-heading if monuments-by-photographers-checkbox was checked)',
 	'bic-list' => 'Text of link which shows the list of monuments with the id of this row.
 {{Identical|List}}',
 	'bic-gallery' => 'Text of link which shows the gallery of monuments with the id of this row.
