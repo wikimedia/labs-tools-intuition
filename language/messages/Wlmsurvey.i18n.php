@@ -18,6 +18,9 @@ $messages = array();
  */
 $messages['en'] = array(
 	'title' => 'Wiki Loves Monuments survey',
+	'survey-mode-preparation' => "This survey is still in preparation.
+You are welcome to test it and submit “answers”, but the results provided will be wiped before the beginning of the real survey.",
+	'survey-mode-closed' => "This survey has been closed and can no longer be submitted.",
 	'2012-header-introduction' => "Introduction",
 	'2012-welcome-text' => "Welcome to the participant's survey for Wiki Loves Monuments 2012!
 The goal of this survey is to gather statistics about people who participated in Wiki Loves Monuments, their motivations for doing so, and their opinions on the way that the competition was organised. Our goal is to use this information to improve your experience with Wiki Loves Monuments 2013, and to make the next edition of the contest even friendlier, easier, and more fun to participate in!
