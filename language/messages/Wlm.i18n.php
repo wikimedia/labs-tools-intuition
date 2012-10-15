@@ -84,7 +84,7 @@ Deleted files are not shown even if they were later [$2 restored] and are partic
 	'bic-list-bad' => 'Show',
 	'bic-list-all' => 'Full list',
 	'unregistered' => 'Unregistered',
-	
+
 	/* users.php */
 	'users-text' => 'This page shows the authors with the images they uploaded and how many monuments',
 	'users-list' => 'View',
@@ -104,7 +104,7 @@ Deleted files are not shown even if they were later [$2 restored] and are partic
 	'ccaa-heading' => 'CC.AA.',
 
 	/* nomail.php */
-	'nomail-text' => 'List of users participating in Wiki Loves Monuments $1 which do not seem to have provided an email address.',
+	'nomail-text' => 'List of users participating in Wiki Loves Monuments $1 which do not seem to have provided an e-mail address.',
 	'nomail-user-count' => '$1 users',
 );
 
@@ -952,7 +952,7 @@ $messages['es'] = array(
 	'view-previous-images' => '← Ver imágenes anteriores',
 	'view-later-images' => 'Ver imágenenes posteriores →',
 	'images-listed-count' => 'Mostradas $1 imágenes.',
-	'log-page-disclaimer' => 'Esta herramienta muestra las fotos en la [[:Category:$1|categoría apropiada]] que fueron subidas durante el concurso. 
+	'log-page-disclaimer' => 'Esta herramienta muestra las fotos en la [[:Category:$1|categoría apropiada]] que fueron subidas durante el concurso.
 Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido [restaurados $2] más tarde y participan nuevamente.',
 	'bot' => 'Bot',
 	'id-label' => 'BIC:',
