@@ -757,8 +757,10 @@ Gelöschte Dateien werden auch dann nicht angezeigt, wenn sie zu einem späteren
 	'bot' => 'Bot',
 	'id-label' => 'Kennnummer des Denkmals:',
 	'id-none' => '(Keine)',
+	'monuments-by-photographers-checkbox' => 'Denkmäler nach der Anzahl der unterschiedlichen Fotografen und nicht nach der Anzahl der unterschiedlichen Fotos sortieren.',
 	'monument-heading' => 'Denkmal',
 	'count-heading' => 'Fotos',
+	'photographer-count-heading' => 'Fotografen',
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => 'Bilder des Denkmals mit der Kennung $1.',
@@ -782,6 +784,8 @@ Gelöschte Dateien werden auch dann nicht angezeigt, wenn sie zu einem späteren
 	'province-heading' => 'Provinz',
 	'province-none' => '(Unbekannt)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Benutzer auflisten, die am Wettbewerb Wiki Loves Monuments $1 teilnehmen und scheinbar noch keine E-Mail-Adresse angegeben haben.',
+	'nomail-user-count' => '$1 Benutzer',
 );
 
 /** Zazaki (Zazaki)
@@ -952,13 +956,15 @@ $messages['es'] = array(
 	'view-previous-images' => '← Ver imágenes anteriores',
 	'view-later-images' => 'Ver imágenenes posteriores →',
 	'images-listed-count' => 'Mostradas $1 imágenes.',
-	'log-page-disclaimer' => 'Esta herramienta muestra las fotos en la [[:Category:$1|categoría apropiada]] que fueron subidas durante el concurso.
+	'log-page-disclaimer' => 'Esta herramienta muestra las fotos en la [[:Category:$1|categoría apropiada]] que fueron subidas durante el concurso. 
 Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido [restaurados $2] más tarde y participan nuevamente.',
 	'bot' => 'Bot',
 	'id-label' => 'BIC:',
 	'id-none' => '(Sin identificador)',
+	'monuments-by-photographers-checkbox' => 'Ordenar los monumentos por número de fotógrafos, no por número de fotografías.',
 	'monument-heading' => 'Monumento',
 	'count-heading' => 'Fotografías',
+	'photographer-count-heading' => 'Fotógrafos',
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imágenes del monumento con el registro $1.',
@@ -982,6 +988,8 @@ Los ficheros que han sido borrados no se muestran, ni siquiera cuando han sido [
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocida)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lista de los usuarios que participan en Wiki Loves Monuments $1 que no han proporcionado una dirección de correo electrónico.',
+	'nomail-user-count' => '$1 usuarios',
 );
 
 /** Estonian (eesti)
@@ -1136,6 +1144,7 @@ $messages['fi'] = array(
 /** French (français)
  * @author Gomoko
  * @author Jean-Frédéric
+ * @author Moyg
  * @author Od1n
  * @author Tititou36
  */
@@ -1181,8 +1190,10 @@ Les fichiers supprimés ne sont pas affichés, même s'ils sont [$2 restaurés] 
 	'bot' => 'Robot',
 	'id-label' => 'Identifiant du monument :',
 	'id-none' => '(aucun)',
+	'monuments-by-photographers-checkbox' => 'Ordonner les monuments par nombre de photographes, et pas par nombre de photos.',
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Photographies',
+	'photographer-count-heading' => 'Photographes',
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => 'Images du monument avec l’identifiant $1 .',
@@ -1206,6 +1217,8 @@ Les fichiers supprimés ne sont pas affichés, même s'ils sont [$2 restaurés] 
 	'province-heading' => 'Province',
 	'province-none' => '(inconnu)',
 	'ccaa-heading' => 'CA',
+	'nomail-text' => "Liste des participants à Wiki Loves Monuments $1 qui ne semblent pas avoir fourni d'adresse e-mail.",
+	'nomail-user-count' => '$1 utilisateurs',
 );
 
 /** Franco-Provençal (arpetan)
@@ -1305,8 +1318,10 @@ Os ficheiros borrados non se mostran, aínda que fosen [$2 restaurados] e partic
 	'bot' => 'Bot',
 	'id-label' => 'Identificador do monumento:',
 	'id-none' => '(Ningún)',
+	'monuments-by-photographers-checkbox' => 'Ordenar os monumentos por número de fotógrafos, non por número de fotografías.',
 	'monument-heading' => 'Monumento',
 	'count-heading' => 'Fotografías',
+	'photographer-count-heading' => 'Fotógrafos',
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imaxes para o monumento co identificador $1.',
@@ -1330,6 +1345,8 @@ Os ficheiros borrados non se mostran, aínda que fosen [$2 restaurados] e partic
 	'province-heading' => 'Provincia',
 	'province-none' => '(Descoñecida)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lista de usuarios que participan no Wiki Loves Monuments do ano $1 que non deron o seu enderezo de correo electrónico.',
+	'nomail-user-count' => '$1 usuarios',
 );
 
 /** Hebrew (עברית)
@@ -1429,6 +1446,7 @@ Zhašane dataje so njepokazuja, byrnjež pozdźišo [$2 wobnowili] a so zaso wob
 	'id-none' => '(Žadyn)',
 	'monument-heading' => 'Zajimawosć',
 	'count-heading' => 'Fotografije',
+	'photographer-count-heading' => 'Fotografojo',
 	'bic-list' => 'Lisćina',
 	'bic-gallery' => 'Galerija',
 	'gallery-header' => 'Wobrazy za zajimawosć z ID $1.',
@@ -1452,6 +1470,7 @@ Zhašane dataje so njepokazuja, byrnjež pozdźišo [$2 wobnowili] a so zaso wob
 	'province-heading' => 'Prowinca',
 	'province-none' => '(Njeznaty)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-user-count' => '$1 wužiwarjow',
 );
 
 /** Hungarian (magyar)
@@ -1663,8 +1682,10 @@ $messages['it'] = array(
 	'bot' => 'Bot',
 	'id-label' => 'Identificativo del monumento:',
 	'id-none' => '(Nessuno)',
+	'monuments-by-photographers-checkbox' => 'Ordina i monumenti per numero di fotografi, non per numero di foto.',
 	'monument-heading' => 'Monumento',
 	'count-heading' => 'Fotografie',
+	'photographer-count-heading' => 'Fotografi',
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galleria',
 	'gallery-header' => 'Immagini per il monumento con id $1.',
@@ -1688,6 +1709,8 @@ $messages['it'] = array(
 	'province-heading' => 'Provincia',
 	'province-none' => '(Sconosciuto)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Elenco degli utenti che partecipano a Wiki Loves Monuments $1 e che sembra non abbiano fornito un indirizzo email.',
+	'nomail-user-count' => '$1 utenti',
 );
 
 /** Japanese (日本語)
@@ -1728,8 +1751,10 @@ $messages['ja'] = array(
 	'bot' => 'ボット',
 	'id-label' => 'モニュメント ID:',
 	'id-none' => '(なし)',
+	'monuments-by-photographers-checkbox' => 'モニュメントを写真数順ではなく撮影者数順に並べます。',
 	'monument-heading' => 'モニュメント',
 	'count-heading' => '写真',
+	'photographer-count-heading' => '撮影者',
 	'bic-list' => '一覧',
 	'bic-gallery' => 'ギャラリー',
 	'author-heading' => '著者',
@@ -1743,6 +1768,7 @@ $messages['ja'] = array(
 	'province-heading' => '州',
 	'province-none' => '(不明)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-user-count' => '$1 人の利用者',
 );
 
 /** Javanese (Basa Jawa)
@@ -1867,8 +1893,10 @@ $messages['ko'] = array(
 	'bot' => '봇',
 	'id-label' => '기념물 id:',
 	'id-none' => '(없음)',
+	'monuments-by-photographers-checkbox' => '사진 수가 아니라 사진 작가 수로 기념물을 주문합니다.',
 	'monument-heading' => '기념물',
 	'count-heading' => '사진 작가',
+	'photographer-count-heading' => '사진 작가',
 	'bic-list' => '목록',
 	'bic-gallery' => '갤러리',
 	'gallery-header' => '$1 id로 된 기념물에 대한 그림입니다.',
@@ -1892,6 +1920,8 @@ $messages['ko'] = array(
 	'province-heading' => '지방',
 	'province-none' => '(알 수 없음)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => '이메일 주소를 제공하지 않는 것으로 보이는 $1년 위키 기념물 사랑에 참여하는 사용자 목록입니다.',
+	'nomail-user-count' => '사용자 $1명',
 );
 
 /** Colognian (Ripoarisch)
@@ -2014,8 +2044,10 @@ Geläschte Fichiere ginn net gewisen esougue wa si duerno [$2 restauréiert] gou
 	'bot' => 'Bot',
 	'id-label' => 'ID vum Monument:',
 	'id-none' => '(Keng)',
+	'monuments-by-photographers-checkbox' => "D'Monumenter no der Zuel vu Fotografen, net no der Zuel vu Fotoen.",
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Photographen',
+	'photographer-count-heading' => 'Fotografen',
 	'bic-list' => 'Lëscht',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => "Biller fir d'Monument mat der Id $1.",
@@ -2039,6 +2071,7 @@ Geläschte Fichiere ginn net gewisen esougue wa si duerno [$2 restauréiert] gou
 	'province-heading' => 'Provënz',
 	'province-none' => '(Onbekannt)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-user-count' => '$1 Benotzer',
 );
 
 /** Lithuanian (lietuvių)
@@ -2114,8 +2147,10 @@ $messages['mk'] = array(
 	'id-label' => 'Назнака на споменикот:',
 	'date-format' => 'j F Y, H:i ч. и s сек.',
 	'id-none' => '(Нема)',
+	'monuments-by-photographers-checkbox' => 'Подредување на спомениците по број на фотографи, а не по број на слики.',
 	'monument-heading' => 'Споменик',
 	'count-heading' => 'Фотографии',
+	'photographer-count-heading' => 'Фотографи',
 	'bic-list' => 'Список',
 	'bic-gallery' => 'Галерија',
 	'gallery-header' => 'Слики на споменикот со назнака $1.',
@@ -2139,6 +2174,8 @@ $messages['mk'] = array(
 	'province-heading' => 'Покраина',
 	'province-none' => '(Непозната)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Список на учесниците во „Вики ги сака спомениците $1“ што не навеле е-пошта.',
+	'nomail-user-count' => '$1 корисници',
 );
 
 /** Malay (Bahasa Melayu)
@@ -2185,8 +2222,10 @@ $messages['ms'] = array(
 	'bot' => 'Bot',
 	'id-label' => 'Monumen',
 	'id-none' => '(Tiada)',
+	'monuments-by-photographers-checkbox' => 'Pesan monumen mengikut bilangan jurugambar, bukan bilangan gambar.',
 	'monument-heading' => 'Monumen',
 	'count-heading' => 'Gambar',
+	'photographer-count-heading' => 'Jurugambar',
 	'bic-list' => 'Senarai',
 	'bic-gallery' => 'Galeri',
 	'gallery-header' => 'Imej monumen id $1.',
@@ -2210,6 +2249,8 @@ $messages['ms'] = array(
 	'province-heading' => 'Wilayah',
 	'province-none' => '(Tidak diketahui)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Senarai pengguna yang menyertai Wiki Loves Monuments $1 tetapi nampaknya belum menyerahkan alamat e-mel.',
+	'nomail-user-count' => '$1 orang pengguna',
 );
 
 /** Maltese (Malti)
@@ -2315,8 +2356,10 @@ Verwijderde bestanden worden niet weergegeven, zelfs als ze later [$2 teruggepla
 	'bot' => 'Bot',
 	'id-label' => 'Monument-ID:',
 	'id-none' => '(Geen)',
+	'monuments-by-photographers-checkbox' => 'Monumenten sorteren op aantal fotografen, niet op aantal afbeeldingen.',
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Afbeeldingen',
+	'photographer-count-heading' => 'Fotografen',
 	'bic-list' => 'Lijst',
 	'bic-gallery' => 'Galerij',
 	'gallery-header' => 'Afbeeldingen voor het monument met ID $1.',
@@ -2340,6 +2383,8 @@ Verwijderde bestanden worden niet weergegeven, zelfs als ze later [$2 teruggepla
 	'province-heading' => 'Provincie',
 	'province-none' => '(Onbekend)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lijst van gebruikers die deel hebben genomen aan Wiki Loves Monuments $1 die geen e-mailadres opgegeven lijken te hebben.',
+	'nomail-user-count' => '$1 gebruikers',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
@@ -2539,6 +2584,8 @@ $messages['ro'] = array(
 	'comarque' => 'Comarcă',
 	'competes' => 'În competiție',
 	'author' => 'Autor',
+	'country-header' => 'Țară',
+	'location' => 'Amplasament',
 	'upload-time' => 'Ora încărcării',
 	'deleted' => 'Ștearsă ($1)',
 	'concursa' => 'În cadrul WLM',
@@ -2558,16 +2605,22 @@ $messages['ro'] = array(
 	'country-label' => 'Țară:',
 	'all-countries' => 'Toate țările',
 	'limit-label' => 'Imagini de afișat:',
+	'timezone-label' => 'Fus orar:',
 	'show-earlier-first' => 'Arată întâi imaginile mai noi',
 	'show-older-first' => 'Arată întâi imaginile mai vechi',
 	'show-button' => 'Arată',
 	'view-previous-images' => '← Vezi imaginile precedente',
 	'view-later-images' => 'Vezi imaginile următoare →',
 	'images-listed-count' => '$1 imagini listate.',
+	'log-page-disclaimer' => 'Această unealtă arată fișierele din [[:Category:$1|categoria relevantă]], care au fost încărcate în timpul concursului.
+Fișierele șterse nu sunt afișate, chiar dacă au fost ulterior [$2 restaurate] și participă din nou.',
+	'bot' => 'Robot',
 	'id-label' => 'ID monument:',
 	'id-none' => '(Niciunul)',
+	'monuments-by-photographers-checkbox' => 'Ordonează monumentele după numărul fotografilor, și nu după cel al fotografiilor.',
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Fotografii',
+	'photographer-count-heading' => 'Fotografi',
 	'bic-list' => 'Listă',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => 'Imagini pentru monumentul cu ID-ul $1.',
@@ -2580,9 +2633,19 @@ $messages['ro'] = array(
 	'users-text' => 'Această pagină afișează autorii și imaginile pe care le-au încărcat, precum și numărul de monumente pentru care au încărcat',
 	'users-list' => 'Vizualizează',
 	'distict-monuments' => 'Monumente distincte',
+	'list-prolific-begin' => 'Lista celor mai prolifici furnizori de fotografii:',
+	'list-prolific-by-photos' => 'după numărul de fotografii',
+	'list-prolific-by-distinct-identifiers' => 'după numărul de coduri diferite',
+	'list-prolific-by-distinct-good-identifiers' => 'după numărul de coduri diferite aflate în listă',
+	'list-prolific-by-identifiers' => 'după numărul codurilor de monument',
+	'list-prolific-by-good-identifiers' => 'după numărul de coduri aflate în listă',
+	'list-prolific-by-bad-identifiers' => 'după numărul de coduri care nu se află în listă',
+	'group-by-identifiers-all-countries-meaningless' => 'Multe țări nu folosesc coduri pentru încărcările lor, deci aceste rezultate sunt probabil fără sens.',
 	'province-heading' => 'Provincie',
 	'province-none' => '(Necunoscută)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lista utilizatorilor participanți la Wiki Loves Monuments $1 care par să nu fi furnizat o adresă de e-mail.',
+	'nomail-user-count' => '$1 utilizatori',
 );
 
 /** tarandíne (tarandíne)
@@ -2707,6 +2770,7 @@ $messages['si'] = array(
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'title' => 'Datoteke WLM',
@@ -2721,11 +2785,11 @@ $messages['sl'] = array(
 	'deleted' => 'Izbrisano ($1)',
 	'concursa' => 'Sodeluje v WLM',
 	'no-concursa' => 'Zunaj tekmovanja WLM',
-	'not-available' => 'Ni na voljo',
+	'not-available' => 'Ni na razpolago',
 	'date-unknown' => 'Neznano',
 	'total-images' => 'Skupno slik: $1',
 	'view-uncategorized-images' => 'Ogled nekategoriziranih slik',
-	'provide-id' => 'Za prikaz podatkov, ki so na voljo za spomenik, navedite njegov id',
+	'provide-id' => 'Za prikaz podatkov o spomeniku navedite njegov identifikator',
 	'show-images-bad-only' => 'Prikaži samo slike izven seznamov',
 	'show-images-all' => 'Prikaži vse slike',
 	'show-images-removed' => 'Prikaži slike, izključene iz tekmovanja',
@@ -2764,6 +2828,7 @@ $messages['sl'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Bebauautu
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2776,6 +2841,8 @@ $messages['sr-ec'] = array(
 	'province-comarque-joiner' => '$1 / $2',
 	'competes' => 'Такмичи се',
 	'author' => 'Аутор',
+	'country-header' => 'Земља',
+	'location' => 'Локација',
 	'upload-time' => 'Време отпремања',
 	'deleted' => 'Обрисана ($1)',
 	'concursa' => 'Учествује у WLM',
@@ -2804,6 +2871,7 @@ $messages['sr-ec'] = array(
 	'images-listed-count' => 'Наведено је $1 слика.',
 	'log-page-disclaimer' => 'Ова алатка приказује датотеке у [[:Category:$1|релевантној категорији]] отпремљене за време конкурса.
 Обрисане датотеке нису приказане, чак иако су у међувремену [$2 враћене] и поново у игри.',
+	'bot' => 'Бот',
 	'id-label' => 'ИД споменика:',
 	'date-format' => 'd-m-Y H:i:s',
 	'id-none' => '(нема)',
@@ -2821,9 +2889,18 @@ $messages['sr-ec'] = array(
 	'users-text' => 'На овој страници су приказани аутори са сликама које су отпремили.',
 	'users-list' => 'Погледај',
 	'distict-monuments' => 'Засебни споменици',
+	'list-prolific-begin' => 'Листа корисника који су највише допринели:',
+	'list-prolific-by-photos' => 'по броју фотографија',
+	'list-prolific-by-distinct-identifiers' => 'по броју различитих ИД-ева',
+	'list-prolific-by-distinct-good-identifiers' => 'по броју различитих ИД-ева са спискова',
+	'list-prolific-by-identifiers' => 'по броју ИД-ева непокретних културних добара',
+	'list-prolific-by-bad-identifiers' => 'по броју ИД-ева који нису на списковима',
+	'group-by-identifiers-all-countries-meaningless' => 'Многе земље не користе ИД-еве при слању, тако да су ови резултати без значаја.',
 	'province-heading' => 'Покрајина',
 	'province-none' => '(непозната)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Број корисника  који је учествовао у Wiki Loves Monuments $1, а који није доставио емаил адресу.',
+	'nomail-user-count' => '$1 корисника',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
@@ -3236,8 +3313,10 @@ Các tập tin đã xóa không được trình bày, ngay cả nếu về sau �
 	'id-label' => 'ID của đài tưởng niệm',
 	'date-format' => 'd/m/Y H:i:s',
 	'id-none' => '(Không có)',
+	'monuments-by-photographers-checkbox' => 'Sắp xếp đài tưởng niệm theo số người chụp hình thay vì số hình chụp.',
 	'monument-heading' => 'Đài tưởng niệm',
 	'count-heading' => 'Hình chụp',
+	'photographer-count-heading' => 'Người chụp hình',
 	'bic-list' => 'Danh sách',
 	'bic-gallery' => 'Album',
 	'gallery-header' => 'Hình ảnh của đài tưởng niệm với ID $1.',
@@ -3261,6 +3340,8 @@ Các tập tin đã xóa không được trình bày, ngay cả nếu về sau �
 	'province-heading' => 'Tỉnh',
 	'province-none' => '(Không rõ)',
 	'ccaa-heading' => 'CĐTT',
+	'nomail-text' => 'Danh sách những người tham gia kỳ Wiki Yêu mến Đài tưởng niệm năm $1 mà hình như không cung cấp địa chỉ thư điện tử.',
+	'nomail-user-count' => '$1 người dùng',
 );
 
 /** Simplified Chinese (中文（简体）‎)

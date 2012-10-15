@@ -1785,6 +1785,8 @@ $messages['pdc'] = array(
  * @author Manuae
  */
 $messages['pfl'] = array(
+	'project' => 'Brojegd:',
+	'category' => 'Kadegorie:',
 	'max-width' => 'Gregschd Braid:',
 	'max-height' => 'Glenschd Heeh:',
 	'invalid-width' => 'Uugildischi Braid',
@@ -1974,6 +1976,25 @@ Linux/Mac OS
 	'scaling-both' => ', масштабирован до максимального размера $1x$2 пикселей',
 );
 
+/** Sakha (саха тыла)
+ * @author HalanTul
+ */
+$messages['sah'] = array(
+	'title' => 'Ойуулары категорияларынан хачайдааһын',
+	'subtitle' => 'Ойууну категорияҕа угарга судургу ньыма',
+	'project' => 'Бырайыак:',
+	'category' => 'Категория:',
+	'thumbnailing' => 'Ойуучааннар',
+	'max-width' => 'Кэтитин хааччаҕа:',
+	'max-height' => 'Үрдүгүн хааччаҕа:',
+	'invalid-width' => 'Сатаммат кэтиттээх',
+	'invalid-height' => 'Сатаммат үрдүктээх',
+	'no-such-project' => 'Маннык суох',
+	'no-images' => 'Бу категорияҕа ойуу суох',
+	'category-is-url' => 'Бу категория URL-аадырыс курдук. Категория аата атын буолуохтаах, URL-аадырыс буолуо суохтаах.',
+	'zip-failed' => 'ZIP оҥоруутун алҕаһа',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
@@ -1996,6 +2017,7 @@ $messages['sk'] = array(
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'title' => 'Prenos slik po kategorijah',
@@ -2010,7 +2032,7 @@ $messages['sl'] = array(
 	'no-such-project' => 'Takšen projekt ne obstaja',
 	'no-images' => 'V tej kategoriji ni slik',
 	'category-is-url' => 'Podano ime kategorije izgleda kot URL. Navesti morate ime kategorije, ne njen URL.',
-	'category-contains-namespace' => 'Kot kaže, ste poleg imena kategorije vključili imenski prostor. Z navedenim imenom bo stran na voljo kot [[Category:$1]].',
+	'category-contains-namespace' => 'Zdi se, da ste poleg imena kategorije vključili tudi imenski prostor. Z navedenim imenom bo stran na razpolago kot [[Category:$1]].',
 	'zip-failed' => 'Ustvarjanje zipa je spodletelo',
 	'image-area-too-big' => '$1 je prevelika za ustvarjanje sličice. Uporabljena bo polna velikost.',
 	'download-info' => '{{PLURAL:$1|Obstaja $1 slika|Obstajata $1 sliki|Obstajajo $1 slike|Obstaja $1 slik}}, z velikostjo ocenjeno na $2',
@@ -2028,15 +2050,15 @@ OS Linux/Mac
  Razširite vse datoteke in odprite ukazno vrstico v tej mapi. Zaženite sh $5',
 	'non-bundled-wget' => 'Opozorilo: Ta različica ne vsebuje wget za Windows. Morali boste razširiti
 v mapo z wget.exe ali pa imeti wget v PATH',
-	'wget-info' => 'Datoteka vključuje kopijo wget $1 (za platformo Windows). Wget je prosto programje
-pod pogoji SPLOŠNEGA DOVOLJENJA GNU različice 3.
-Spodaj se nahaja kopija dovoljenja, prav tako pa je na voljo na http://www.gnu.org/licenses/gpl-3.0.txt
+	'wget-info' => 'Datoteka vključuje kopijo wget $1 (za programsko okolje Windows). Wget je prosto programje
+pod pogoji SPLOŠNE JAVNE LICENCE GNU različica 3.
+Kopija licence je na razpolago spodaj, prav tako pa tudi na naslovu http://www.gnu.org/licenses/gpl-3.0.txt
 
-Če želite pridobiti izvorno kodo programa, jo lahko prenesete z
+Če želite pridobiti izvorno kodo programa, jo lahko prenesete s:
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
-ali katerega drugega zrcala GNU; glej
+ali s katerega drugega zrcala GNU; glej
  http://www.gnu.org/prep/ftp.html',
 	'scaling-width' => ', prilagojene na širino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',
 	'scaling-height' => ', prilagojene na višino največ $1 {{PLURAL:$1|slikovne pike|slikovnih pik}}',

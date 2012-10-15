@@ -2506,6 +2506,7 @@ $messages['pdc'] = array(
 $messages['pfl'] = array(
 	'attention' => 'Uffbasse',
 	'language' => 'Schbrooch',
+	'project' => 'Brojegd',
 	'categories' => 'Klasse',
 	'do_it' => 'Mags',
 	'upload_submit' => 'Nufflaade!',
@@ -2816,6 +2817,7 @@ $messages['si'] = array(
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'attention' => 'Pozor',
@@ -2856,7 +2858,7 @@ $messages['sl'] = array(
 	'error_only_commons' => 'Neposredno nalaganje deluje samo na Wikimediini Zbirki!',
 	'upload_control_text' => 'Prosimo, preverite novo wikibesedilo in kliknite »$1«, če je vse v redu.',
 	'error_commons_user' => 'Za ugotavljanje uporabnika, ki je izvedel prenos, mora biti vaše uporabniško ime na Wikimediini Zbirki navedeno v opisu.',
-	'error_upload_users' => 'Zmnožnost nalaganja je med preizkusnim obdobjem na voljo samo nekaterim uporabnikom.',
+	'error_upload_users' => 'V preizkusnem obdobju lahko nalagajo datoteke samo nekateri uporabniki!',
 	'error_upload_file' => 'Izvorne datoteke ni mogoče prenesti.',
 	'help_intro' => 'Ko želite prijaviti hrošč, predlagati funkcijo ali imate vprašanje, lahko uporabite eno od spodnjih vrst stika z nami:',
 	'help_jira' => '$1JIRA (potrebujete račun)$2 (Projekt: Commonshelper2)',

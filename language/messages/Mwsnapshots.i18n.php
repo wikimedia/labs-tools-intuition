@@ -1156,6 +1156,7 @@ $messages['ro'] = array(
 	'title-overview' => 'Instantanee',
 	'title-error' => 'Eroare',
 	'title-updatelog' => 'Jurnal actualizări',
+	'updatelog-intro' => 'Scriptul de actualizare este programat să ruleze în fiecare oră. Mai jos se află consola de ieșire a ultimei rulări.',
 	'updatelog-active' => 'Scriptul de actualizare se află în execuție. Reveniți mai târziu pentru jurnalul complet.',
 	'download-button' => 'Descărcare $1',
 	'download-directlink' => 'legătură directă',

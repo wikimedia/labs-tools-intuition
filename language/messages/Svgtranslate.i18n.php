@@ -878,6 +878,7 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author IAlex
  * @author Jean-Frédéric
+ * @author Moyg
  * @author Od1n
  * @author Sherbrooke
  * @author Verdy p
@@ -911,7 +912,7 @@ $messages['fr'] = array(
 	'author-complete' => "Remplissez les informations sur l'auteur !",
 	'preview-hide' => "Masquer l'aperçu",
 	'preview-refresh' => 'Actualiser la prévisualisation',
-	'error-must-accept' => "Pour continuer avec un télévsersement direct, vous devez accepter les conditions d'utilisation prévues.",
+	'error-must-accept' => "Pour continuer avec un téléversement direct, vous devez accepter les conditions d'utilisation prévues.",
 	'error-tusc-failed' => "La validation TUSC a échoué : nom d'utilisateur ou mot de passe incorrect.",
 	'description-license' => 'Sélectionnez la description et la licence',
 	'finalise' => 'Finaliser les détails',
@@ -2179,6 +2180,7 @@ $messages['si'] = array(
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'title' => 'Prevajanje SVG',
@@ -2205,13 +2207,13 @@ $messages['sl'] = array(
 	'uploading' => 'Nalaganje',
 	'upload-complete' => 'Nalaganje je uspešno dokončano. Slika bi morala biti na $1.',
 	'editdescriptionpage' => 'Uredi novo opisno stran',
-	'disclaimer' => 'Nekateri brezimni podatki bodo zasebno zbrani v statistične namene. Če so na voljo, bodo zabeležena tudi uporabniška imena TUSC za pomoč v primeru vandalizma. Gesla ne bodo nikoli zabeležena.',
+	'disclaimer' => 'Nekateri anonimni podatki se bodo zasebno zbirali v statistične namene. Če so na razpolago, bodo zabeležena tudi uporabniška imena TUSC za pomoč v primeru vandalizma. Gesla ne bodo nikoli zabeležena.',
 	'author-complete' => 'Prosimo, dopolnite informacije o avtorju!',
 	'preview-hide' => 'Skrij predogled',
 	'preview-refresh' => 'Osveži predogled',
 	'error-must-accept' => 'Če želite nadaljevati z neposrednim nalaganjem, morate sprejeti navedene pogoje uporabe.',
 	'error-tusc-failed' => 'Preverjanje TUSC ni uspelo: uporabniško ime ali geslo je napačno.',
-	'description-license' => 'Izberite opis in dovoljenje',
+	'description-license' => 'Izberite opis in licenco',
 	'finalise' => 'Dokončajte podrobnosti',
 );
 

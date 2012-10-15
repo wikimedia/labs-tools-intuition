@@ -310,7 +310,7 @@ $messages['pt'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'title' => 'Recent anonymous activity',
+	'title' => 'Activitate anonimă recentă',
 );
 
 /** tarandíne (tarandíne)
