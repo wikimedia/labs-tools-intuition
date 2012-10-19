@@ -88,7 +88,7 @@ class MessagesFunctions {
 	private function msgFunctionMatches( $matches ) {
 		$functionName = strtolower( $matches[1] );
 		$firstParameter = $matches[2];			
-		$parameters = explode( "|", $match[3] );
+		$parameters = explode( "|", $matches[3] );
 
 		return $this->$functionName( $firstParameter, $parameters, $matches[0] );
 	}
