@@ -19,7 +19,7 @@ class MessagesFunctions {
 	
 	private $langCode = null;
 	
-	private $pluralRegex = "@\\{\\{(PLURAL)\\:(.*?)\\|(.*?)\\}\\}@i";
+	private $msgFunctionRegex = "@\\{\\{(PLURAL|GENDER)\\:(.*?)\\|(.*?)\\}\\}@i";
 	
 	private $error = array();
 	
@@ -105,7 +105,7 @@ class MessagesFunctions {
 		$this->langCode = $lang;
 		$this->loadLanguage( $lang );
 
-		$msg = preg_replace_callback($this->pluralRegex, array($this, 'msgFunctionMatches'), $msg);
+		$msg = preg_replace_callback( $this->msgFunctionRegex, array( $this, 'msgFunctionMatches' ), $msg );
 		$this->sendParseErrors( __METHOD__ );
 		
 		return $msg;
@@ -129,6 +129,25 @@ class MessagesFunctions {
 		}
 		
 		return $langObj->convertPlural( $number, $parameters );
+	}
+	
+	private function gender( $user, $parameters, $msg ) {
+		switch ( count( $parameters ) ) {
+			case 0:
+				$this->addParseError( "{{GENDER:}} with no variants" );
+				return '';
+			case 1:
+				return $parameters[0];
+			case 2:
+				return TsIntuitionUtil::tag( $parameters[0], 'span', array( 'class' => 'gender-male gender-neutral' ) ) .
+					TsIntuitionUtil::tag( $parameters[1], 'span', array( 'class' => 'gender-female' ) );
+			default:
+				$this->addParseError( "{{GENDER:}} given too many variants" );
+			case 3:
+				return TsIntuitionUtil::tag( $parameters[2], 'span', array( 'class' => 'gender-neutral' ) ) .
+					TsIntuitionUtil::tag( $parameters[0], 'span', array( 'class' => 'gender-male' ) ) .
+					TsIntuitionUtil::tag( $parameters[1], 'span', array( 'class' => 'gender-female' ) );
+		}
 	}
 	
 	private function addParseError( $errMsg, $context, $errType = E_WARNING, $file = '', $line = '' ) {
