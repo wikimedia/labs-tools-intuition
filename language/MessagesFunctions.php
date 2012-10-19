@@ -17,7 +17,9 @@ class MessagesFunctions {
 	
 	private $I18N = null;
 	
-	private $pluralRegex = "@\\{\\{PLURAL\\:(.*?)\\|(.*?)\\}\\}@i";
+	private $langCode = null;
+	
+	private $pluralRegex = "@\\{\\{(PLURAL)\\:(.*?)\\|(.*?)\\}\\}@i";
 	
 	private $error = array();
 	
@@ -77,30 +79,18 @@ class MessagesFunctions {
 	
 	/**
 	 * 
-	 * Get the functions (PLURAL, etc.) from the message.
+	 * Executed as the callback from parse()
+	 * Runs the functions (PLURAL, etc.) for the message.
 	 * 
-	 * @param String $msg the message with the functions
-	 * @return array of the functions
+	 * @param array $matches the matches for the function
+	 * @return string replaced message
 	 */
-	private function getMsgFunctions( $msg ) {
-		$functions = array();
-		
-		if ( preg_match_all($this->pluralRegex, $msg, $matches, PREG_SET_ORDER) ) {
-			foreach( $matches as $match ) {
-				$parameteres = array();
-				$parameteres[] = "plural";
-				$parameteres[] = trim($match[1]);
-				
-				$forms = explode( "|", $match[2] );
-				foreach( $forms as $form ) {
-					$parameteres[] = $form;
-				}
-				
-				$functions[] = $parameteres;
-			}
-		}
-		
-		return $functions;
+	private function msgFunctionMatches( $matches ) {
+		$functionName = strtolower( $matches[1] );
+		$firstParameter = $matches[2];			
+		$parameters = explode( "|", $match[3] );
+
+		return $this->$functionName( $firstParameter, $parameters, $matches[0] );
 	}
 	
 	/**
@@ -112,23 +102,17 @@ class MessagesFunctions {
 	 * @return String Parsed message
 	 */
 	public function parse( $msg, $lang ) {
+		$this->langCode = $lang;
 		$this->loadLanguage( $lang );
-		
-		$msgFunctions = $this->getMsgFunctions( $msg );
-		
-		foreach( $msgFunctions as $msgFunction ) {
-			$functionName = array_shift( $msgFunction );
-			$functionNumber = array_shift( $msgFunction );
-			$msg = $this->$functionName( $functionNumber, $msgFunction, $msg, $lang );
-		}
-		
+
+		$msg = preg_replace_callback($this->pluralRegex, array($this, 'msgFunctionMatches'), $msg);
 		$this->sendParseErrors( __METHOD__ );
 		
 		return $msg;
 	}
 	
-	private function plural( $number, $parameters, $msg, $language ) {
-		$language = ucfirst( strtolower( str_replace("-", "_", $language ) ) );
+	private function plural( $number, $parameters, $msg ) {
+		$language = ucfirst( strtolower( str_replace("-", "_", $this->langCode ) ) );
 		
 		if ( $number == null || !is_numeric( $number ) ) {
 			$this->addParseError( "Invalid number argument to {{PLURAL: ...}}", 
@@ -144,11 +128,7 @@ class MessagesFunctions {
 			$langObj = new Language();
 		}
 		
-		$form = $langObj->convertPlural( $number, $parameters );
-		
-		$msg = preg_replace( $this->pluralRegex, $form, $msg, 1 );
-		
-		return $msg;
+		return $langObj->convertPlural( $number, $parameters );
 	}
 	
 	private function addParseError( $errMsg, $context, $errType = E_WARNING, $file = '', $line = '' ) {
