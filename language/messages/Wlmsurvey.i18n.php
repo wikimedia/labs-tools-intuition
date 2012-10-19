@@ -1,6 +1,6 @@
 <?php
 /**
- * Interface messages for wlm tools.
+ * Interface messages for wlm survey.
  *
  * @toolowner platonides
  */
