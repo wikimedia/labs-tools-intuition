@@ -119,11 +119,7 @@ class MessagesFunctions {
 		foreach( $msgFunctions as $msgFunction ) {
 			$functionName = array_shift( $msgFunction );
 			$functionNumber = array_shift( $msgFunction );
-			if ( $functionNumber != null ) {
-				$msg = $this->$functionName( $functionNumber, $msgFunction, $msg, $lang );
-			} else {
-				$msg = $this->$functionName( $msgFunction, $msg, $lang );
-			}
+			$msg = $this->$functionName( $functionNumber, $msgFunction, $msg, $lang );
 		}
 		
 		$this->sendParseErrors( __METHOD__ );
@@ -134,7 +130,7 @@ class MessagesFunctions {
 	private function plural( $number, $parameters, $msg, $language ) {
 		$language = ucfirst( strtolower( str_replace("-", "_", $language ) ) );
 		
-		if ( !is_numeric( $number ) ) {
+		if ( $number == null || !is_numeric( $number ) ) {
 			$this->addParseError( "Invalid number argument to {{PLURAL: ...}}", 
 				__METHOD__, E_ERROR, __FILE__, __LINE__ );
 			return $msg;
