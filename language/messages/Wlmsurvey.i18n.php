@@ -116,6 +116,7 @@ Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org",
 );
 
 /** Message documentation (Message documentation)
+ * @author Mormegil
  * @author Odder
  * @author Platonides
  * @author Shirayuki
@@ -140,7 +141,7 @@ $messages['qqq'] = array(
 	'2012-explanation-select-multiple' => 'Question hint for multianswer questions',
 	'2012-question-wlm-participation' => 'Asking for the years when the user participated in Wiki Loves Monuments',
 	'2012-question-edited-wiki' => 'Asking if the user edited Wikipedia before participating in Wiki Loves Monuments for the first time',
-	'2012-edited-sporadically' => 'Answer to {{msg-ts|Wlmsurvey-2012-edited-wiki}}, edited sporadically.',
+	'2012-edited-sporadically' => 'Answer to {{msg-ts|Wlmsurvey-2012-question-edited-wiki}}, edited sporadically.',
 	'2012-edited-regularly' => 'Answer to {{msg-ts|Wlmsurvey-2012-question-edited-wiki}}, edited regularly.',
 	'2012-edited-never' => 'Answer to {{msg-ts|Wlmsurvey-2012-question-edited-wiki}}, never edited.',
 	'2012-header-competition' => 'Header for the Competition questions',
@@ -190,6 +191,104 @@ $messages['qqq'] = array(
 	'2012-username' => 'Label for the textbox to provide a username',
 	'2012-email' => 'Label for the textbox to provide an email address',
 	'2012-send-survey' => 'Caption of the button to send the survey',
+);
+
+/** Afrikaans (Afrikaans)
+ * @author Effeietsanders
+ */
+$messages['af'] = array(
+	'2012-birth-year' => 'Jaar:',
+);
+
+/** Belarusian (беларуская)
+ * @author Effeietsanders
+ */
+$messages['be'] = array(
+	'2012-email' => 'Электронная пошта:',
+);
+
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
+ * @author Effeietsanders
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'title' => 'Апытаньне для конкурсу «Вікі любіць славутасьці»',
+	'survey-mode-preparation' => 'Гэтае апытаньне яшчэ рыхтуецца.
+Вы можаце праверыць працу апытаньня, але вынікі будуць сьцертыя перад пачаткам сапраўднага апытаньня.',
+	'survey-mode-closed' => 'Апытаньне скончанае і адказы больш не прымаюцца.',
+	'2012-header-introduction' => 'Уводзіны',
+	'2012-welcome-text' => 'Вітаем у апытаньні ўдзельнікаў конкурсу «Вікі любіць славутасьці — 2012»!
+Мэтай гэтага апытаньня зьяўляецца збор меркаваньняў удзельнікаў «Вікі любіць славутасьці», чаму яны ўдзельнічалі ў конкурсе, ці падабаўся ім стан арганізацыі конкурсу. Наша мэта — выкарыстаць гэтыя зьвесткі для ўдасканаленьня наступнага конкурсу «Вікі любіць славутасьці — 2013», каб ён быў яшчэ прыемней, лягчэй і весялейшы!
+Вашыя адказы будуць выкарыстаныя для збору ананімнай статыстыкі. Зьвесткі ня будуць выкарыстаныя, перададзеныя, або апублікаваныя з разгалошваньнем прыватнай інфармацыі ні пры якіх варунках.
+Апытаньне зойме ў вас каля 5 хвілін, і мы загадзя дзякуем вам, то знайшлі час. Заўважце, што ніводнае з пытаньняў не зьяўляецца абавязковым і вы можаце на іх не адказваць, калі няма жаданьня.
+
+З павагай,
+Эльке, Лёдэвяйк, Маартэн і Томаш
+Каардынатары «Вікі любіць славутасьці», info@wikilovesmonuments.org',
+	'2012-header-demographics' => 'Дэмаграфія',
+	'2012-question-country' => 'У якой краіне вы жывяце?',
+	'2012-other-country-lives' => 'Іншая краіна:',
+	'2012-question-birth-year' => 'У якім годзе вы нарадзіліся?',
+	'2012-birth-year' => 'Год:',
+	'2012-hide-birth-year' => 'Не хачу разгалошваць',
+	'2012-question-gender' => 'Вашая плоць?',
+	'2012-gender-male' => 'Мужчына',
+	'2012-gender-female' => 'Жанчына',
+	'2012-gender-other' => 'Іншая / Не хачу разгалошваць',
+	'2012-header-wikimedia-activity' => 'Актыўнасьць у праектах Вікімэдыі',
+	'2012-explanation-select-multiple' => 'Выберыце ўсё, што слушна.',
+	'2012-question-wlm-participation' => 'У якіх гадох вы ўдзельнічалі ў «Вікі любіць славутасьці»?',
+	'2012-question-edited-wiki' => 'Ці рэдагавалі вы Вікіпэдыю ці іншыя праекты Вікімэдыі да першага ўдзелу ў «Вікі любіць славутасьці»?',
+	'2012-edited-sporadically' => 'Так, {{GENDER:|рэдагаваў|рэдагавала}} час ад часу (менш за пяць на месяц).',
+	'2012-edited-regularly' => 'Так, я стала рэдагую (больш за пяць правак на месяц).',
+	'2012-edited-never' => 'Не, ніколі не {{GENDER:|спрабаваў|спрабавала}} рэдагаваць да ўдзелу ў «Вікі любіць славутасьці».',
+	'2012-header-competition' => 'Конкурс',
+	'2012-question-discovered-wlm' => 'Як вы даведаліся пра «Вікі любіць славутасьці — 2012»?',
+	'2012-discovered-sitenotice' => 'Дзякуючы банэрам у Вікіпэдыі і іншых праектах Вікімэдыі.',
+	'2012-discovered-noticeboard' => 'Дзякуючы інфармацыі на форуме Вікіпэдыі.',
+	'2012-discovered-social' => 'Дзякуючы сацыяльным сеткам (Facebook, УКантакце, Twitter…).',
+	'2012-discovered-news' => 'Дзякуючы СМІ (сеціўныя або друкаваныя).',
+	'2012-discovered-friend' => 'Ад знаёмых.',
+	'2012-discovered-other' => 'Іншае:',
+	'2012-question-countries-uploaded' => 'Для якіх краін вы загружалі здымкі?',
+	'2012-other-country-upload' => 'Іншая краіна:',
+	'2012-question-photos-taken' => 'Калі вы зрабілі большасьць здымкаў для конкурсу 2012 году?',
+	'2012-photos-taken-sep-2012' => 'Я {{GENDER:|рабіў|рабіла}} здымкі ў верасьні 2012 году.',
+	'2012-photos-taken-jan-aug-2012' => 'Я {{GENDER:|рабіў|рабіла}} здымкі з студзеня па жнівень 2012 году.',
+	'2012-photos-taken-2000-2011' => 'Я {{GENDER:|рабіў|рабіла}} здымкі паміж 2000 і 2011 гадамі.',
+	'2012-photos-taken-before-2000' => 'Я {{GENDER:|рабіў|рабіла}} здымкі да 2000 году.',
+	'2012-header-motivation' => 'Матывацыя',
+	'2012-question-motivation' => 'Маім найбольшым стымулам для ўдзелу ў «Вікі любіць славутасьці — 2012» было:',
+	'2012-motivation-prize' => 'Магчымасьць выйграць прыз',
+	'2012-motivation-help' => 'Дапамога Вікіпэдыі',
+	'2012-motivation-discover-heritage' => 'Даведацца пра мясцовую культурную спадчыну',
+	'2012-motivation-share-heritage' => 'Падзяліцца мясцовай культурнай спадчынай зь іншымі людзьмі',
+	'2012-motivation-easy' => 'Умовы ўдзелу даволі простыя, таму чаму б не?',
+	'2012-motivation-other' => 'Іншае:',
+	'2012-header-usability' => 'Зручнасьць',
+	'2012-scale-difficult-1-text' => 'Вельмі лёгка',
+	'2012-scale-difficult-2-text' => 'Лёгка',
+	'2012-scale-difficult-3-text' => 'Нармальна',
+	'2012-scale-difficult-4-text' => 'Складана',
+	'2012-scale-difficult-5-text' => 'Вельмі складана',
+	'2012-question-find-info' => 'Ці было вам цяжка знайсьці агульную інфармацыю пра конкурс',
+	'2012-question-find-lists' => 'Ці было вам цяжка знайсьці сьпісы славутасьцяў вашай краіны або мясцовасьці',
+	'2012-question-find-identifier' => 'Ці было вам цяжка знайсьці ідэнтыфікатар славутасьці, якой вы цікавіліся',
+	'2012-question-usability-upload' => 'Ці было вам цяжка загружаць здымкі на конкурс',
+	'2012-question-usability-main-obstacle' => 'Што вам найбольш перашкаджала ва ўдзеле ў конкурсе? Калі жадаеце, можаце напісаць разгорнуты адказ (або пакінуць поле пустым)',
+	'2012-header-future' => 'Будучыня',
+	'2012-scale-likely-1-text' => 'Наўрад ці',
+	'2012-scale-likely-5-text' => 'Хутчэй за ўсё',
+	'2012-question-will-participate' => 'Хутчэй за ўсё я буду ўдзельнічаць у наступным конкурсе «Вікі любіць славутасьці», калі ён будзе арганізаваны ў маёй краіне:',
+	'2012-question-will-recommend' => 'Я буду рэкамэндаваць сябрам удзельнічаць у конкурсе «Вікі любіць славутасьці»:',
+	'2012-question-will-edit' => 'Я лепей буду выпраўляць памылкі і пашыраць Вікіпэдыю:',
+	'2012-header-comments' => 'Іншыя камэнтары',
+	'2012-can-leave-empty' => 'Вы можаце пакінуць поле пустым',
+	'2012-question-comments' => 'Калі ласка, напішыце ўласныя заўвагі і прапановы, што да «Вікі любіць славутасьці»:',
+	'2012-question-follow-up' => 'Калі вы жадаеце атрымаць вынікі апытаньня ці іншыя абвесткі пра «Вікі любіць славутасьці», пакіньце вашае імя ўдзельніка і/або e-mail адрас ніжэй:',
+	'2012-username' => 'Імя ўдзельніка:',
+	'2012-email' => 'Электронная пошта:',
+	'2012-send-survey' => 'Даслаць анкету',
 );
 
 /** Catalan (català)
@@ -277,27 +376,171 @@ Equip de coordinació de Wiki Loves Monuments, info@wikilovesmonuments.org",
 
 /** Czech (česky)
  * @author Limojoe
+ * @author Mormegil
  */
 $messages['cs'] = array(
+	'title' => 'Průzkum Wiki miluje památky',
+	'survey-mode-preparation' => 'Průzkum se stále ještě připravuje.
+Můžete ho vyzkoušet a odeslat „odpovědi“, ale zadané výsledky budou před začátkem skutečného průzkumu smazány.',
+	'survey-mode-closed' => 'Tento průzkum byl ukončen a nelze na něj dále odpovídat.',
 	'2012-header-introduction' => 'Úvod',
-	'2012-header-demographics' => 'Demografie',
-	'2012-other-country-lives' => 'Ostatní země',
+	'2012-welcome-text' => 'Vítejte u průzkumu účastníků soutěže Wiki miluje památky 2012!
+Cílem tohoto průzkumu je získat statistické údaje o lidech, kteří se soutěže účastnili, jejich motivaci a jejich názorech na organizaci této soutěže. Tyto informace chceme využít k vylepšení vašich zážitků při Wiki miluje památky 2013, aby byl příští ročník soutěže pro účastníky ještě přátelštější, jednodušší a zábavnější!
+Na základě vašich odpovědí v tomto průzkumu vytvoříme anonymizovanou statistiku; žádné osobní údaje za žádných okolností nebudeme užívat, nikomu předávat ani zveřejňovat. Vyplnění průzkumu zabere přibližně 5 minut a předem děkujeme, že nám tento čas věnujete. Podotýkáme, že žádná z otázek není povinná a pokud si přejete, můžete otázky přeskakovat.
+
+S pozdravem
+Elke, Lodewijk, Maarten a Tomasz
+Organizační tým projektu Wiki miluje památky, info@wikilovesmonuments.org',
+	'2012-header-demographics' => 'Demografické údaje',
+	'2012-question-country' => 'Ve které zemi žijete?',
+	'2012-other-country-lives' => 'Jiná země:',
+	'2012-question-birth-year' => 'V jakém roce jste se narodil(a)?',
 	'2012-birth-year' => 'Rok:',
+	'2012-hide-birth-year' => 'Nechci odpovědět',
+	'2012-question-gender' => 'Jakého jste pohlaví?',
 	'2012-gender-male' => 'Muž',
 	'2012-gender-female' => 'Žena',
-	'2012-header-wikimedia-activity' => 'Wikimedia aktivity',
+	'2012-gender-other' => 'Jiné / nechci odpovědět',
+	'2012-header-wikimedia-activity' => 'Aktivita na projektech Wikimedia',
+	'2012-explanation-select-multiple' => 'Vyberte všechny platné odpovědi.',
+	'2012-question-wlm-participation' => 'Kterých ročníků Wiki miluje památky jste se zúčastnil(a)?',
+	'2012-question-edited-wiki' => 'Editoval(a) jste někdy Wikipedii či jiný projekt Wikimedia před (první) účastí ve Wiki miluje památky?',
+	'2012-edited-sporadically' => 'Ano, čas od času jsem editoval(a) (méně než pět editací měsíčně).',
+	'2012-edited-regularly' => 'Ano, přispíval(a) jsem pravidelně (více než pět editací měsíčně).',
+	'2012-edited-never' => 'Ne, nikdy jsem to před účastí ve Wiki miluje památky nezkusil(a).',
 	'2012-header-competition' => 'Soutěž',
+	'2012-question-discovered-wlm' => 'Jak jste se o soutěži Wiki miluje památky 2012 dozvěděl(a)?',
+	'2012-discovered-sitenotice' => 'Prostřednictvím reklamního proužku na Wikipedii či jiném projektu Wikimedia.',
+	'2012-discovered-noticeboard' => 'Prostřednictvím informací Pod lípou nebo jiném komunitním fóru.',
+	'2012-discovered-social' => 'Prostřednictvím sociálních médií (Facebook, Google+, Twitter, …).',
+	'2012-discovered-news' => 'Prostřednictvím zpravodajství (online nebo tisku).',
+	'2012-discovered-friend' => 'O soutěži mi řekl kamarád.',
+	'2012-discovered-other' => 'Jinak:',
+	'2012-question-countries-uploaded' => 'Pro které země jste načítal(a) obrázky?',
+	'2012-other-country-upload' => 'Jiná země:',
+	'2012-question-photos-taken' => 'Kdy jste pořídil(a) většinu příspěvků do soutěžního ročníku 2012?',
+	'2012-photos-taken-sep-2012' => 'Fotografie jsem pořídil(a) v září 2012.',
+	'2012-photos-taken-jan-aug-2012' => 'Fotografie jsem pořídil(a) mezi lednem a srpnem 2012.',
+	'2012-photos-taken-2000-2011' => 'Fotografie jsem pořídil(a) v letech 2000–2011.',
+	'2012-photos-taken-before-2000' => 'Fotografie jsem pořídil(a) před rokem 2000.',
 	'2012-header-motivation' => 'Motivace',
-	'2012-motivation-other' => 'Jiné:',
-	'2012-scale-difficult-1-text' => 'Velmi lehká',
-	'2012-scale-difficult-2-text' => 'Lehká',
-	'2012-scale-difficult-3-text' => 'Normální',
-	'2012-scale-difficult-4-text' => 'Těžká',
-	'2012-scale-difficult-5-text' => 'Velmi těžká',
+	'2012-question-motivation' => 'Mojí hlavní motivací pro poskytnutí fotografie pro Wiki miluje památky 2012 bylo:',
+	'2012-motivation-prize' => 'Vyhrát cenu',
+	'2012-motivation-help' => 'Pomoci Wikipedii',
+	'2012-motivation-discover-heritage' => 'Poznat místní památky',
+	'2012-motivation-share-heritage' => 'Podělit se s ostatními lidmi o památky v mém okolí',
+	'2012-motivation-easy' => 'Bylo to tak snadné, že jsem si řekl(a) „proč ne?“',
+	'2012-motivation-other' => 'Něco jiného:',
+	'2012-header-usability' => 'Použitelnost',
+	'2012-scale-difficult-1-text' => 'Velmi lehké',
+	'2012-scale-difficult-2-text' => 'Lehké',
+	'2012-scale-difficult-3-text' => 'Středně',
+	'2012-scale-difficult-4-text' => 'Těžké',
+	'2012-scale-difficult-5-text' => 'Velmi těžké',
+	'2012-question-find-info' => 'Jak těžké pro vás bylo získat všeobecné informace o soutěži',
+	'2012-question-find-lists' => 'Jak těžké pro vás bylo najít seznamy památek ve vaší zemi/vašem okolí',
+	'2012-question-find-identifier' => 'Jak těžké pro vás bylo najít identifikační čísla památek, které vás zajímaly',
+	'2012-question-usability-upload' => 'Jak těžké pro vás bylo načíst obrázek do Wiki miluje památky 2012',
+	'2012-question-usability-main-obstacle' => 'Na jakou hlavní překážku (pokud nějaká byla) jste narazil(a) při účasti v soutěži? Pokud chcete, můžete odpovědět podrobně, ale také ponechat prázdné.',
 	'2012-header-future' => 'Budoucnost',
+	'2012-scale-likely-1-text' => 'Určitě ne',
+	'2012-scale-likely-5-text' => 'Určitě ano',
+	'2012-question-will-participate' => 'Pravděpodobně se soutěže Wiki miluje památky zúčastním i příští rok, pokud se bude v mé zemi organizovat:',
+	'2012-question-will-recommend' => 'Účast ve Wiki miluje památky bych doporučil svým přátelům:',
+	'2012-question-will-edit' => 'Je teď pravděpodobnější, že budu ve Wikipedii opravovat chyby či tam přidávat obsah:',
 	'2012-header-comments' => 'Další komentáře',
+	'2012-can-leave-empty' => 'Toto pole můžete ponechat prázdné.',
+	'2012-question-comments' => 'Sem nám můžete napsat jakékoli další komentáře či návrhy týkající se soutěže Wiki miluje památky:',
+	'2012-question-follow-up' => 'Pokud chcete, abychom vás informovali o výsledcích tohoto průzkumu nebo o dalších oznámeních týkajících se Wiki miluje památky, uveďte níže své uživatelské jméno nebo e-mailovou adresu:',
 	'2012-username' => 'Uživatelské jméno:',
 	'2012-email' => 'E-mailová adresa:',
+	'2012-send-survey' => 'Odeslat průzkum',
+);
+
+/** Danish (dansk)
+ * @author Christian List
+ * @author Kaare
+ * @author MGA73
+ * @author Palnatoke
+ */
+$messages['da'] = array(
+	'title' => 'Wiki Loves Monuments-undersøgelse',
+	'survey-mode-preparation' => 'Denne undersøgelse er stadig under udarbejdelse.
+Du er velkommen til at teste den og sende "svar", men resultaterne vil blive slettet inden begyndelsen af den egentlige undersøgelse.',
+	'survey-mode-closed' => 'Denne undersøgelse er afsluttet og kan ikke længere besvares.',
+	'2012-header-introduction' => 'Indledning',
+	'2012-welcome-text' => 'Velkommen til deltagerundersøgelsen for Wiki Loves Monuments 2012!
+Formålet med undersøgelsen er at indsamle statistik om deltagerne i Wiki Loves Monuments, deres motivering til at deltage og deres holdninger til den måde, konkurrencen blev organiseret på. Vores mål er at anvende oplysningerne til at forbedre din oplevelse med Wiki Loves Monuments 2013, og at næste udgave af konkurrencen bliver endnu venligere, nemmere og sjovere at deltage i!
+Vi vil bruge dine svar i undersøgelsen til at danne anonyme statistikker, og vil ikke bruge, dele eller offentliggøre eventuelle personligt identificerbare data under nogen omstændigheder.
+Det tager cirka fem minutter at udfylde spørgeskemaet, og vi takker på forhånd for at tage dig tid til det. Bemærk venligst at ingen af spørgsmålene er obligatoriske, og du kan undlade at besvare dem, hvis du ønsker det.
+
+Med venlig hilsen
+Elke, Lodewijk, Maarten og Tomasz
+Wiki Loves Monuments-koordinatorer, info@wikilovesmonuments.org',
+	'2012-header-demographics' => 'Demografi',
+	'2012-question-country' => 'Hvilket land bor du i?',
+	'2012-other-country-lives' => 'Andet land:',
+	'2012-question-birth-year' => 'Hvilket år er du født?',
+	'2012-birth-year' => 'År:',
+	'2012-hide-birth-year' => 'Jeg foretrækker ikke at svare',
+	'2012-question-gender' => 'Hvad er dit køn?',
+	'2012-gender-male' => 'Mand',
+	'2012-gender-female' => 'Kvinde',
+	'2012-gender-other' => 'Andet / Jeg ønsker ikke at svare',
+	'2012-header-wikimedia-activity' => 'Wikimedia-aktivitet',
+	'2012-explanation-select-multiple' => 'Vælg gerne flere muligheder.',
+	'2012-question-wlm-participation' => 'Hvilke år deltog du i Wiki Loves Monuments?',
+	'2012-question-edited-wiki' => 'Har du redigeret Wikipedia/Wikimedia før du første gang deltog i Wiki Loves Monuments?',
+	'2012-edited-sporadically' => 'Ja, jeg har redigeret af og til (mindre end fem redigeringer per måned).',
+	'2012-edited-regularly' => 'Ja, jeg har bidraget regelmæssigt (mere end fem gange per måned).',
+	'2012-edited-never' => 'Nej, jeg havde ikke forsøgt at redigere før jeg deltog i Wiki Loves Monuments.',
+	'2012-header-competition' => 'Konkurrence',
+	'2012-question-discovered-wlm' => 'Hvor hørte du om Wiki Loves Monuments?',
+	'2012-discovered-sitenotice' => 'Via reklame på Wikipedia eller et andet Wikimedia-projekt.',
+	'2012-discovered-noticeboard' => 'Ved opslag på "Landsbybrønden" eller tilsvarende.',
+	'2012-discovered-social' => 'Via sociale medier (Facebook, Google+, Twitter...).',
+	'2012-discovered-news' => 'Gennem nyhedsmedier (online eller trykte).',
+	'2012-discovered-friend' => 'En ven fortalte mig om konkurrencen.',
+	'2012-discovered-other' => 'Andet:',
+	'2012-question-countries-uploaded' => 'For hvilke lande har du uploadet billeder?',
+	'2012-other-country-upload' => 'Andet land:',
+	'2012-question-photos-taken' => 'Hvornår blev (de fleste af) dine billeder i 2012-konkurrencen taget?',
+	'2012-photos-taken-sep-2012' => 'Jeg tog billederne i september 2012.',
+	'2012-photos-taken-jan-aug-2012' => 'Jeg tog billederne mellem januar og august 2012.',
+	'2012-photos-taken-2000-2011' => 'Jeg tog billederne mellem 2000 og 2011.',
+	'2012-photos-taken-before-2000' => 'Jeg tog billederne før år 2000.',
+	'2012-header-motivation' => 'Motivation',
+	'2012-question-motivation' => 'Min hovedmotivation for at deltage med et billede i Wiki Loves Monuments 2012 var:',
+	'2012-motivation-prize' => 'At vinde en præmie',
+	'2012-motivation-help' => 'At hjælpe Wikipedia',
+	'2012-motivation-discover-heritage' => 'At opdage lokal kulturarv',
+	'2012-motivation-share-heritage' => 'At dele min lokale kulturarv med andre',
+	'2012-motivation-easy' => 'Det var let, så hvorfor ikke?',
+	'2012-motivation-other' => 'Andet:',
+	'2012-header-usability' => 'Anvendelighed',
+	'2012-scale-difficult-1-text' => 'Meget let',
+	'2012-scale-difficult-2-text' => 'Let',
+	'2012-scale-difficult-3-text' => 'Normalt',
+	'2012-scale-difficult-4-text' => 'Svært',
+	'2012-scale-difficult-5-text' => 'Meget svært',
+	'2012-question-find-info' => 'Hvor svært var det for dig at finde generel information om konkurrencen?',
+	'2012-question-find-lists' => 'Hvor svært var det for dig at finde lister over monumenter i dit land eller område?',
+	'2012-question-find-identifier' => 'Hvor svært var det for dig at finde monumentets ID-nummer for de monumenter, du var interesseret i?',
+	'2012-question-usability-upload' => 'Hvor svært var det for dig at uploade billeder til Wiki Loves Monuments 2012?',
+	'2012-question-usability-main-obstacle' => 'Hvad oplevede du som den største forhindring, om nogen, for din deltagelse i konkurrencen? Hvis du har lyst, kan du uddybe, men du kan også lade være',
+	'2012-header-future' => 'Fremtiden',
+	'2012-scale-likely-1-text' => 'Mindst sandsynligt',
+	'2012-scale-likely-5-text' => 'Meget sandsynligt',
+	'2012-question-will-participate' => 'Jeg deltager sandsynligvis i Wiki Loves Monuments igen næste år, hvis det bliver organiseret i mit land:',
+	'2012-question-will-recommend' => 'Jeg ville anbefale mine venner at deltage i Wiki Loves Monuments:',
+	'2012-question-will-edit' => 'Det er mere sandsynligt at jeg retter fejl eller tilføjer indhold til Wikipedia end det var før:',
+	'2012-header-comments' => 'Andre kommentarer',
+	'2012-can-leave-empty' => 'Dette felt er valgfrit',
+	'2012-question-comments' => 'Skriv gerne flere kommentarer eller forslag til Wiki Loves Monuments:',
+	'2012-question-follow-up' => 'Hvis du ønsker at vi sender resultatet af undersøgelsen eller andre meddelelser om Wiki Loves Monuments, kan du skrive dit brugernavn eller din e-mail-adresse nedenfor:',
+	'2012-username' => 'Brugernavn:',
+	'2012-email' => 'E-mail-adresse:',
+	'2012-send-survey' => 'Indsend undersøgelsen',
 );
 
 /** German (Deutsch)
@@ -386,17 +629,19 @@ Wiki Loves Monuments Koordinationsteam, info@wikilovesmonuments.org',
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Millars
  */
 $messages['es'] = array(
-	'title' => 'Encuesta de Wiki Loves Monuments',
+	'title' => 'Encuesta sobre Wiki Loves Monuments',
 	'survey-mode-preparation' => 'Esta encuesta está todavía en preparación.
 Te invitamos a probarla y enviar "respuestas", pero los resultados que aportes serán borrados antes del comienzo de la encuesta real.',
 	'survey-mode-closed' => 'Esta encuesta se ha cerrado y ya no puedes enviarla.',
 	'2012-header-introduction' => 'Introducción',
-	'2012-welcome-text' => '¡Bienvenido/a a la encuesta para participantes de Wiki Loves Monuments 2012!
-El objetivo de esta encuesta es recopilar estadísticas sobre las personas que participaron en Wiki Loves Monuments, sus motivaciones para hacerlo, y sus opiniones sobre la forma en que se organizó el concurso. Nuestro objetivo es utilizar esta información para mejorar tu experiencia con Wiki Loves Monuments 2013, y que participar en la próxima edición del concurso sea aún más amigable, más fácil y más divertido.
+	'2012-welcome-text' => '¡Bienvenido/a a la encuesta para participantes en Wiki Loves Monuments 2012!
+El objetivo de esta encuesta es recopilar estadísticas sobre las personas que participaron en Wiki Loves Monuments, sus motivaciones para hacerlo y sus opiniones sobre la forma en que se organizó el concurso. Nuestro objetivo es utilizar esta información para mejorar tu experiencia con Wiki Loves Monuments 2013, y que participar en la próxima edición del concurso sea aún más amigable, fácil y divertido.
+
 Utilizaremos tus respuestas en esta encuesta para crear estadísticas anónimas y no se van a utilizar, compartir o hacer públicos los datos de carácter personal bajo ninguna circunstancia.
-Tardarás unos 5 minutos en completar esta encuesta, y te agradecemos de antemano el tiempo dedicado para hacerlo. Ten en cuenta que ninguna de las preguntas son obligatorias, y puedes abstenerte de responderlas si lo deseas.
+Tardarás unos 5 minutos en completar esta encuesta, y te agradecemos de antemano el tiempo dedicado para hacerlo. Ten en cuenta que ninguna de las preguntas son obligatorias y puedes abstenerte de responderlas si así lo deseas.
 
 Sinceramente
 Elke, Lodewijk, Maarten y Tomasz
@@ -411,18 +656,18 @@ Equipo de coordinación de Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2012-gender-male' => 'Masculino',
 	'2012-gender-female' => 'Femenino',
 	'2012-gender-other' => 'Otros / Prefiero no indicarlo',
-	'2012-header-wikimedia-activity' => 'Actividad de Wikimedia',
+	'2012-header-wikimedia-activity' => 'Actividad en Wikimedia',
 	'2012-explanation-select-multiple' => 'Selecciona todas las opciones que correspondan.',
 	'2012-question-wlm-participation' => '¿En qué años participaste en Wiki Loves Monuments?',
-	'2012-question-edited-wiki' => '¿Alguna vez has editado en Wikipedia/Wikimedia antes de participar en Wiki Loves Monuments (la primera vez)?',
+	'2012-question-edited-wiki' => '¿Alguna vez has editado en Wikipedia/Wikimedia antes de participar por primera vez en Wiki Loves Monuments?',
 	'2012-edited-sporadically' => 'Sí, he estado editando de modo irregular (menos de cinco ediciones por mes).',
 	'2012-edited-regularly' => 'Sí, he sido un contribuyente regular (más de cinco ediciones por mes).',
 	'2012-edited-never' => 'No, nunca he editado antes de participar en Wiki Loves Monuments.',
 	'2012-header-competition' => 'Concurso',
-	'2012-question-discovered-wlm' => '¿Cómo te enteraste sobre Wiki Loves Monuments 2012?',
-	'2012-discovered-sitenotice' => 'A través de anuncios en Wikipedia u otros proyectos de Wikimedia.',
-	'2012-discovered-noticeboard' => 'A través de una información en un tablón de anuncios local.',
-	'2012-discovered-social' => 'A través de redes sociales (Facebook, Google +, Twitter...).',
+	'2012-question-discovered-wlm' => '¿Cómo te enteraste de la celebración de Wiki Loves Monuments 2012?',
+	'2012-discovered-sitenotice' => 'A través de anuncios en las páginas de Wikipedia u otros proyectos de Wikimedia.',
+	'2012-discovered-noticeboard' => 'A través de un anuncio en el Café o en un tablón de anuncios local.',
+	'2012-discovered-social' => 'A través de las redes sociales (Facebook, Google +, Twitter...).',
 	'2012-discovered-news' => 'A través de los medios de comunicación (en Internet o impresos).',
 	'2012-discovered-friend' => 'Alguien que conozco me habló del concurso.',
 	'2012-discovered-other' => 'Otros:',
@@ -441,27 +686,27 @@ Equipo de coordinación de Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2012-motivation-share-heritage' => 'Compartir mi patrimonio local con otras personas',
 	'2012-motivation-easy' => 'Era fácil, así que pensé ¿por qué no?',
 	'2012-motivation-other' => 'Otros:',
-	'2012-header-usability' => 'Usabilidad',
+	'2012-header-usability' => 'Facilidad o dificultad a la hora de participar',
 	'2012-scale-difficult-1-text' => 'Muy fácil',
 	'2012-scale-difficult-2-text' => 'Fácil',
 	'2012-scale-difficult-3-text' => 'Normal',
 	'2012-scale-difficult-4-text' => 'Difícil',
 	'2012-scale-difficult-5-text' => 'Muy difícil',
-	'2012-question-find-info' => 'Fue difícil encontrar información general sobre el concurso',
-	'2012-question-find-lists' => 'Lo difícil fue encontrar listas de monumentos del país o del entorno local',
-	'2012-question-find-identifier' => 'Lo difícil fue encontrar el número identificador de monumento de los monumentos en los que estaba interesado',
-	'2012-question-usability-upload' => 'Lo difícil fue subir una imagen a Wiki Loves Monuments 2012',
+	'2012-question-find-info' => '¿Fue difícil encontrar información general sobre el concurso?',
+	'2012-question-find-lists' => '¿Fue difícil encontrar listas de monumentos del país o del entorno local?',
+	'2012-question-find-identifier' => '¿Fue difícil encontrar el número identificador del monumento de los monumentos en los que estabas interesado/a?',
+	'2012-question-usability-upload' => '¿Fue difícil subir una imagen a Wiki Loves Monuments 2012?',
 	'2012-question-usability-main-obstacle' => '¿Cuál fue el principal obstáculo, en tu caso, para poder participar en el concurso? Si lo deseas, puedes contestar en detalle, pero también dejar vacía tu respuesta',
 	'2012-header-future' => 'Futuro',
-	'2012-scale-likely-1-text' => 'Menos probable',
+	'2012-scale-likely-1-text' => 'Poco probable',
 	'2012-scale-likely-5-text' => 'Muy probable',
 	'2012-question-will-participate' => 'Es probable que participe nuevamente en Wiki Loves Monuments el próximo año si se organiza en mi país:',
-	'2012-question-will-recommend' => 'Yo recomendaría participar en Wiki Loves Monuments a mis amigos:',
+	'2012-question-will-recommend' => 'Recomendaría a mis amigos participar en Wiki Loves Monuments:',
 	'2012-question-will-edit' => 'Ahora es más probable que corrija errores o añada contenido a Wikipedia:',
 	'2012-header-comments' => 'Otros comentarios',
 	'2012-can-leave-empty' => 'Puedes dejar este campo vacío.',
-	'2012-question-comments' => 'Por favor escribe cualquier otro comentario o sugerencia adicionales sobre Wiki Loves Monuments:',
-	'2012-question-follow-up' => 'Si deseas que te informemos sobre los resultados de la encuesta u otros anuncios sobre Wiki Loves Monuments, deja tu dirección de usuario o tu correo electrónico a continuación:',
+	'2012-question-comments' => 'Por favor escribe cualquier otro comentario o sugerencias adicionales sobre Wiki Loves Monuments:',
+	'2012-question-follow-up' => 'Si deseas que te informemos sobre los resultados de la encuesta u otros anuncios sobre Wiki Loves Monuments, deja tu nombre de usuario o tu correo electrónico a continuación:',
 	'2012-username' => 'Nombre de usuario:',
 	'2012-email' => 'Dirección de correo electrónico:',
 	'2012-send-survey' => 'Enviar encuesta',
@@ -554,21 +799,22 @@ info@wikilovesmonuments.org',
  * @author Cquoi
  * @author Gomoko
  * @author Moyg
+ * @author Verdy p
  */
 $messages['fr'] = array(
-	'title' => 'Sondage Wiki Loves Monuments',
+	'title' => "Sondage sur ''Wiki Loves Monuments''",
 	'survey-mode-preparation' => 'Cette enquête est encore en cours de préparation.
-Vous êtes invités à la tester et à envoyer des "réponses", mais les résultats fournis seront effacés avant le démarrage de l\'enquête réelle.',
+Vous êtes invité à la tester et à envoyer des « réponses », mais les résultats fournis seront effacés avant le démarrage de l’enquête réelle.',
 	'survey-mode-closed' => 'Ce sondage est clos, vous ne pouvez plus y participer.',
 	'2012-header-introduction' => 'Introduction',
-	'2012-welcome-text' => "Bienvenue au sondage des participants à \"Wiki Loves Monuments 2012\" !
-Cette enquête vise à recueillir des statistiques concernant les personnes qui ont participé à Wiki Loves Monuments, leurs motivations  et leurs opinions sur la façon dont le concours a été organisé. Notre objectif est d'utiliser ces informations pour améliorer votre utilisation de Wiki Loves Monuments 2013 et pour rendre la participation à la prochaine édition du concours encore plus conviviale, plus facile et plus amusante !
-Nous utiliserons vos réponses à ce sondage pour créer des statistiques anonymes et nous n'utiliserons ni partagerons ni rendrons publiques toutes les données personnellement identifiables, quelques soient les circonstances.
-Cela vous prendra environ 5 minutes pour remplir ce questionnaire et nous vous remercions à l'avance d'en prendre le temps. Veuillez noter qu'aucune des questions n'est obligatoire et vous pouvez vous abstenir d'y répondre si vous le désirez. 
+	'2012-welcome-text' => "Bienvenue au sondage des participants à ''Wiki Loves Monuments 2012'' !
+Cette enquête vise à recueillir des statistiques concernant les personnes qui ont participé à ''Wiki Loves Monuments'', leurs motivations  et leurs opinions sur la façon dont le concours a été organisé. Notre objectif est d’utiliser ces informations pour améliorer votre utilisation de ''Wiki Loves Monuments 2013'' et pour rendre la participation à la prochaine édition du concours encore plus conviviale, plus facile et plus amusante !
+Nous utiliserons vos réponses à ce sondage pour créer des statistiques anonymes et nous n’utiliserons ni partagerons ni rendrons publiques toutes les données personnellement identifiables, quelques soient les circonstances.
+Cela vous prendra environ 5 minutes pour remplir ce questionnaire et nous vous remercions à l’avance du temps consacré à y repondre. Veuillez noter qu’aucune des questions n’est obligatoire et vous pouvez vous abstenir d’y répondre si vous le désirez. 
 
 Bien à vous
 Elke, Lodewijk, Maarten and Tomasz
-L'équipe de coordination de Wiki Loves Monuments, info@wikilovesmonuments.org",
+L’équipe de coordination de Wiki Loves Monuments, info@wikilovesmonuments.org",
 	'2012-header-demographics' => 'Données démographiques',
 	'2012-question-country' => 'Dans quel pays vivez-vous ?',
 	'2012-other-country-lives' => 'Autre pays :',
@@ -578,66 +824,83 @@ L'équipe de coordination de Wiki Loves Monuments, info@wikilovesmonuments.org",
 	'2012-question-gender' => 'Quel est votre sexe ?',
 	'2012-gender-male' => 'Homme',
 	'2012-gender-female' => 'Femme',
-	'2012-gender-other' => 'Autre / Je ne souhaite pas répondre',
+	'2012-gender-other' => 'Autre / Je préfère ne pas le divulguer',
 	'2012-header-wikimedia-activity' => 'Votre contribution à Wikimedia',
-	'2012-explanation-select-multiple' => "Sélectionnez tout ce qui s'y rapporte",
-	'2012-question-wlm-participation' => 'En quelle année avez-vous participé à Wiki Loves Monuments ?',
-	'2012-question-edited-wiki' => 'Avez-vous déjà écrit dans Wikipédia/Wikimedia avant de participer à Wiki Loves Monuments (la première fois) ?',
-	'2012-edited-sporadically' => "Oui, j'ai écrit de temps en temps (moins de cinq fois par mois).",
-	'2012-edited-regularly' => 'Oui, je suis contribue régulièrement (plus de cinq fois par mois)',
-	'2012-edited-never' => "Non, je n'ai jamais essayé cela avant de participer à Wiki Loves Monuments.",
+	'2012-explanation-select-multiple' => 'Sélectionnez toutes les options pertinentes.',
+	'2012-question-wlm-participation' => "En quelles années avez-vous participé à ''Wiki Loves Monuments'' ?",
+	'2012-question-edited-wiki' => "Avez-vous déjà écrit dans Wikipédia/Wikimedia avant de participer à ''Wiki Loves Monuments'' (la première fois) ?",
+	'2012-edited-sporadically' => 'Oui, j’ai écrit de temps en temps (moins de cinq fois par mois).',
+	'2012-edited-regularly' => 'Oui, je contribue régulièrement (plus de cinq fois par mois).',
+	'2012-edited-never' => "Non, je n’ai jamais essayé cela avant de participer à ''Wiki Loves Monuments''.",
 	'2012-header-competition' => 'Concours',
-	'2012-question-discovered-wlm' => 'Comment avez vous découvert Wiki Loves Monuments 2012 ?',
-	'2012-discovered-sitenotice' => "Par les bannières sur Wikipédia ou sur d'autres projets Wikimédia.",
-	'2012-discovered-noticeboard' => 'Grâce à une information sur le "Bistro" ou sur un page de discussion communautaire.',
+	'2012-question-discovered-wlm' => "Comment avez vous découvert ''Wiki Loves Monuments 2012'' ?",
+	'2012-discovered-sitenotice' => 'Par les bannières présentées sur Wikipédia ou sur d’autres projets Wikimédia.',
+	'2012-discovered-noticeboard' => 'Grâce à une information sur le « Bistro » ou sur une page de discussion communautaire.',
 	'2012-discovered-social' => 'Grâce aux médias sociaux (Facebook, Google +, Twitter...).',
-	'2012-discovered-news' => "Grâce aux médias d'information (en ligne ou imprimés).",
-	'2012-discovered-friend' => "Quelqu'un que je connais m'a parlé du concours.",
+	'2012-discovered-news' => 'Grâce aux médias d’informations (en ligne ou imprimés).',
+	'2012-discovered-friend' => 'Quelqu’un que je connais m’a parlé du concours.',
 	'2012-discovered-other' => 'Autre :',
 	'2012-question-countries-uploaded' => 'De quels pays avez-vous téléchargé des photos ?',
-	'2012-other-country-upload' => 'Autre pays :',
+	'2012-other-country-upload' => 'Autre(s) pays :',
 	'2012-question-photos-taken' => 'Quand avez-vous pris (la plupart de) vos photos du concours 2012 ?',
-	'2012-photos-taken-sep-2012' => "J'ai pris les photos en septembre 2012.",
-	'2012-photos-taken-jan-aug-2012' => "J'ai pris les photos entre janvier et août 2012.",
-	'2012-photos-taken-2000-2011' => "J'ai pris les photos de 2000 à 2011.",
-	'2012-photos-taken-before-2000' => "J'ai pris les photos avant 2000.",
+	'2012-photos-taken-sep-2012' => 'J’ai pris les photos en septembre 2012.',
+	'2012-photos-taken-jan-aug-2012' => 'J’ai pris les photos entre janvier et août 2012.',
+	'2012-photos-taken-2000-2011' => 'J’ai pris les photos dans les années 2000 à 2011.',
+	'2012-photos-taken-before-2000' => 'J’ai pris les photos avant l’an 2000.',
 	'2012-header-motivation' => 'Motivation',
-	'2012-question-motivation' => 'Ma motivation principale pour participer à Wiki Loves Monuments 2012 était :',
-	'2012-motivation-prize' => 'De gagner un prix',
-	'2012-motivation-help' => "D'aider Wikipédia",
-	'2012-motivation-discover-heritage' => 'De découvrir le patrimoine local',
-	'2012-motivation-share-heritage' => "De partager mon patrimoine local avec d'autres personnes",
-	'2012-motivation-easy' => 'C\'était assez facile, je me suis dit "Pourquoi pas ?"',
-	'2012-motivation-other' => 'Autre :',
-	'2012-header-usability' => "Facilité d'utilisation",
+	'2012-question-motivation' => "Ma motivation principale pour participer à ''Wiki Loves Monuments 2012'' était :",
+	'2012-motivation-prize' => 'Pour gagner un prix',
+	'2012-motivation-help' => 'Pour aider Wikipédia',
+	'2012-motivation-discover-heritage' => 'Pour découvrir le patrimoine local',
+	'2012-motivation-share-heritage' => 'Pour partager mon patrimoine local avec d’autres personnes',
+	'2012-motivation-easy' => 'C’était assez facile, je me suis dit « Pourquoi pas ? »',
+	'2012-motivation-other' => 'Autre(s) :',
+	'2012-header-usability' => 'Facilité d’utilisation',
 	'2012-scale-difficult-1-text' => 'Très facile',
 	'2012-scale-difficult-2-text' => 'Facile',
 	'2012-scale-difficult-3-text' => 'Normal',
 	'2012-scale-difficult-4-text' => 'Difficile',
 	'2012-scale-difficult-5-text' => 'Très difficile',
+	'2012-question-find-info' => 'Était-ce difficile pour vous de trouver des informations générales sur le concours ?',
+	'2012-question-find-lists' => 'Était-ce difficile pour vous de trouver des listes de monuments pour votre pays ou voisinage ?',
+	'2012-question-find-identifier' => 'Était-ce difficile pour vous de trouver les numéros d’identification de monument pour les monuments qui vous intéressent ?',
+	'2012-question-usability-upload' => "Était-ce difficile pour vous de téléverser une image pour ''Wiki Loves Monuments 2012'' ?",
+	'2012-question-usability-main-obstacle' => 'Quel était pour vous le principal obstacle, s’il y en a, pour participer au concours ? Si vous le souhaitez, vous pouvez répondre plus en détail, mais vous pouvez aussi laisser ceci vide',
+	'2012-header-future' => 'Futur',
+	'2012-scale-likely-1-text' => 'Moins probable',
+	'2012-scale-likely-5-text' => 'Très probable',
+	'2012-question-will-participate' => "Je suis susceptible de participer à nouveau à ''Wiki Loves Monuments'' l’année prochaine s’il est organisé dans mon pays :",
+	'2012-question-will-recommend' => "Je recommanderais à mes amis de participer à ''Wiki Loves Monuments'' :",
+	'2012-question-will-edit' => 'Je suis maintenant plus susceptible de corriger les erreurs ou ajouter du contenu à Wikipédia :',
+	'2012-header-comments' => 'Autres commentaires',
+	'2012-can-leave-empty' => 'Vous pouvez laisser ce champ vide.',
+	'2012-question-comments' => "Veuillez inscrire ici vos autres commentaires ou suggestions concernant ''Wiki Loves Monuments'' :",
+	'2012-question-follow-up' => "Si vous voulez suivre les résultats de l’enquête ou d’autres annonces au sujet de ''Wiki Loves Monuments'', inscrivez ci-dessous votre nom d’utilisateur et/ou votre adresse de courriel :",
 	'2012-username' => 'Nom d’utilisateur :',
-	'2012-email' => 'Adresse e-mail :',
+	'2012-email' => 'Adresse de courriel :',
+	'2012-send-survey' => 'Envoyer les réponses',
 );
 
 /** Hebrew (עברית)
  * @author Amire80
  * @author Deror avi
+ * @author Ofrahod
  */
 $messages['he'] = array(
 	'title' => 'סקר ויקי אוהבת אתרי מורשת',
 	'survey-mode-preparation' => 'הסקר בתהליך הכנה.
-אפשר לנסות אותו ולשלוח "תשבות", אבל הן תימחקנה כשיתחיל הסקר האמתי.',
+אפשר לנסות אותו ולשלוח "תשובות", אבל הן תימחקנה כשיתחיל הסקר האמתי.',
 	'survey-mode-closed' => 'הסקר נסגר ולא ניתן לשלוח עוד תשובות.',
 	'2012-header-introduction' => 'מבוא',
 	'2012-welcome-text' => 'ברוכים הבאים לסקר המשתתפים בתחרות "ויקי אוהבת אתרי מורשת" 2012!
 
-המטרה של הסקר הזה היא לאסוף נתונים סטטיסטיים על אנשים שהשתתפו בתחרות "ויקי אוהבת אתרי מורשת", על המניעים שלהם לעשות זאת, ועל דעתם על הדרך שבה התחרות אורגנה. המטרה שלנו היא להשתמש במידע הזה כדי לשפר את החוויה ההשתתפות שלך בתחרות "ויקי אוהבת אתרי מורשת" שתתקיים בשנת 2013, ולהפוך את השנה הבאה של התחרות עוד יותר ידידותית, קלה ומהנה למשתתפים!
+המטרה של הסקר הזה היא לאסוף נתונים סטטיסטיים על אנשים שהשתתפו בתחרות "ויקי אוהבת אתרי מורשת", על המניעים שלהם לעשות זאת, ועל דעתם על הדרך שבה התחרות אורגנה. המטרה שלנו היא להשתמש במידע הזה כדי לשפר את חוויית ההשתתפות בתחרות "ויקי אוהבת אתרי מורשת" שתתקיים בשנת 2013, כדי שהתחרות בשנה הבאה תהיה עוד יותר ידידותית, קלה ומהנה למשתתפים!
 
-אנו נשתמש בתשובת שלך ליצירת נתונים סטטיסטיים אלמוניים, ואנו לא נשתף או נפרסם שום נתונים אישיים ולא נשתמש בהם בשום אופן.
+אנו נשתמש בתשובות שלך ליצירת נתונים סטטיסטיים אלמוניים, ולא נשתף או נפרסם שום נתונים אישיים ולא נשתמש בהם בשום אופן.
 
 מענה לשאלות סקר זה ייקח כחמש דקות בלבד, ואנחנו מודים לך מראש על כך שהקדשת את הזמן שלך לכך. 
 
-אין חובה לענות על כל השאלות, ומותר לדלג על השאלות.
+אין חובה לענות על כל השאלות, ומותר לדלג על שאלות.
 
 שלך,
 אלקה, לודוייק, מארטן וטומאש,
@@ -676,7 +939,7 @@ $messages['he'] = array(
 	'2012-photos-taken-before-2000' => 'צילמתי לפני 2000.',
 	'2012-header-motivation' => 'מוטיבציה',
 	'2012-question-motivation' => 'המניע העיקרי שלי לשליחת תמונה לתחרות ויקי אוהבת אתרי מורשת 2012 הוא:',
-	'2012-motivation-prize' => 'לזכרות בפרס',
+	'2012-motivation-prize' => 'לזכות בפרס',
 	'2012-motivation-help' => 'לעזור לוויקיפדיה',
 	'2012-motivation-discover-heritage' => 'ללמוד על מורשת המקום',
 	'2012-motivation-share-heritage' => 'לשתף את מורשת המקום שלי עם אנשים אחרים',
@@ -690,9 +953,9 @@ $messages['he'] = array(
 	'2012-scale-difficult-5-text' => 'קשה מאוד',
 	'2012-question-find-info' => 'כמה קל היה למצוא מידע כללי על התחרות',
 	'2012-question-find-lists' => 'כמה כל היה למצוא רשימת אתרי מורשת במדינה שלך או בשכונה שלך',
-	'2012-question-find-identifier' => 'כמה קל היה למצוא את מזהה אתר המורשת עבור האתר שעניין אותך',
+	'2012-question-find-identifier' => 'כמה קל היה למצוא את מזהה האתר של אתרי המורשת שעניינו אותך',
 	'2012-question-usability-upload' => 'כמה קל היה להעלות תמונה לתחרות ויקי אוהבת אתרי מורשת 2012',
-	'2012-question-usability-main-obstacle' => 'מה היה המכשול העיקרי להשתתפות בתחרות עבורך? אפשר לספר על כך בפרורוט, ואפשר גם לא לספר דבר',
+	'2012-question-usability-main-obstacle' => 'מה היה המכשול העיקרי להשתתפות בתחרות עבורך? אפשר לספר על כך בפרוטרוט, ואפשר גם לא לספר דבר',
 	'2012-header-future' => 'עתיד',
 	'2012-scale-likely-1-text' => 'לא סביר בכלל',
 	'2012-scale-likely-5-text' => 'סביר מאוד',
@@ -706,6 +969,13 @@ $messages['he'] = array(
 	'2012-username' => 'שם משתמש:',
 	'2012-email' => 'כתובת דואר אלקטרוני:',
 	'2012-send-survey' => 'לשלוח את הסקר',
+);
+
+/** Hindi (हिन्दी)
+ * @author Effeietsanders
+ */
+$messages['hi'] = array(
+	'2012-email' => 'प-पत्र:',
 );
 
 /** Italian (italiano)
@@ -726,27 +996,67 @@ Il sondaggio vi prenderà circa 5 minuti e vi ringraziamo fin da ora del tempo c
 Saluti,
 Elke, Lodewijk, Maarten e Tomasz
 Il team di coordinamento di Wiki Loves Monuments, info@wikilovesmonuments.org",
-	'2012-header-demographics' => 'Demografia',
-	'2012-question-country' => 'In quale nazione vivi?',
-	'2012-other-country-lives' => 'Altro paese:',
+	'2012-header-demographics' => 'Dati anagrafici',
+	'2012-question-country' => 'In quale Paese vivi?',
+	'2012-other-country-lives' => 'Altro Paese:',
 	'2012-question-birth-year' => 'In che anno sei nato?',
 	'2012-birth-year' => 'Anno:',
 	'2012-hide-birth-year' => 'Preferisco non divulgarlo',
 	'2012-question-gender' => 'Qual è il tuo sesso?',
 	'2012-gender-male' => 'Maschile',
 	'2012-gender-female' => 'Femminile',
-	'2012-gender-other' => 'Altri / preferisco non divulgare',
+	'2012-gender-other' => 'Preferisco non divulgare',
 	'2012-header-wikimedia-activity' => 'Attività su Wikimedia',
-	'2012-explanation-select-multiple' => 'Seleziona tutte le risposte valide.',
-	'2012-question-wlm-participation' => 'In che anni hai partecipato a Wiki Loves Monuments?',
+	'2012-explanation-select-multiple' => 'Seleziona le risposte che ritieni valide.',
+	'2012-question-wlm-participation' => 'In quali anni hai partecipato a Wiki Loves Monuments?',
+	'2012-question-edited-wiki' => 'Hai mai contribuito a un progetto Wikimedia prima di partecipare (per la prima volta) a Wiki Loves Monuments?',
+	'2012-edited-sporadically' => 'Sì, ho contribuito una volta ogni tanto (meno di cinque modifiche al mese).',
+	'2012-edited-regularly' => 'Sì, ho contribuito regolarmente (più di cinque edit al mese).',
+	'2012-edited-never' => 'No, non ho mai provato a contribuire prima di partecipare a Wiki Loves Monuments.',
+	'2012-header-competition' => 'Concorso',
+	'2012-question-discovered-wlm' => 'Come sei venuto a conoscenza di Wiki Loves Monuments 2012?',
+	'2012-discovered-sitenotice' => 'Attraverso i banner su Wikipedia o su altri progetti Wikimedia.',
+	'2012-discovered-noticeboard' => 'Attraverso le pagine comunitarie (Bar, il Wikipediano...).',
+	'2012-discovered-social' => 'Attraverso i social media (Facebook, Google+, Twitter...).',
+	'2012-discovered-news' => 'Attraverso i mezzi di informazione (on-line o stampati).',
+	'2012-discovered-friend' => 'Attraverso un mio conoscente che mi ha parlato del concorso.',
+	'2012-discovered-other' => 'Altro:',
+	'2012-question-countries-uploaded' => 'Le tue foto a quale Paese si riferiscono?',
+	'2012-other-country-upload' => 'Altro Paese:',
+	'2012-question-photos-taken' => 'Quando sono state scattate le foto (la maggior parte) che hai invitato per il concorso 2012?',
+	'2012-photos-taken-sep-2012' => 'Ho scattato le foto a settembre 2012.',
+	'2012-photos-taken-jan-aug-2012' => 'Ho scattato le foto fra gennaio e agosto 2012.',
+	'2012-photos-taken-2000-2011' => 'Ho scattato le foto fra il 2000 e il 2011.',
+	'2012-photos-taken-before-2000' => 'Ho scattato le foto prima del 2000.',
+	'2012-header-motivation' => 'Motivi',
+	'2012-question-motivation' => 'La mia principale motivazione per cui ho partecipato a Wiki Loves Monuments 2012 è stata:',
+	'2012-motivation-prize' => 'Vincere un premio',
+	'2012-motivation-help' => 'Aiutare Wikipedia',
+	'2012-motivation-discover-heritage' => 'Scoprire il patrimonio culturale locale',
+	'2012-motivation-share-heritage' => 'Condividere il patrimonio culturale locale con altre persone',
+	'2012-motivation-easy' => 'È stato così semplice, perciò ho pensato "perché no?"',
 	'2012-motivation-other' => 'Altro:',
+	'2012-header-usability' => "Facilità nell'utilizzo",
 	'2012-scale-difficult-1-text' => 'Molto facile',
 	'2012-scale-difficult-2-text' => 'Facile',
 	'2012-scale-difficult-3-text' => 'Normale',
 	'2012-scale-difficult-4-text' => 'Difficile',
 	'2012-scale-difficult-5-text' => 'Molto difficile',
+	'2012-question-find-info' => 'Quanto è stato difficile trovare le informazioni generali sul concorso',
+	'2012-question-find-lists' => 'Quanto è stato difficile trovare gli elenchi dei monumenti per il tuo paese/vicini a te',
+	'2012-question-find-identifier' => 'Quanto è stato difficile trovare il numero di identificativo per i monumenti a cui eri interessato',
+	'2012-question-usability-upload' => 'Quanto è stato difficile caricare una foto per Wiki Loves Monuments 2012',
+	'2012-question-usability-main-obstacle' => 'Qual è stato il principale ostacolo, se trovato, per poter partecipare al concorso? Se lo si desidera, è possibile descriverlo in dettaglio, ma anche lasciare vuoto',
+	'2012-header-future' => 'Futuro',
+	'2012-scale-likely-1-text' => 'Poco probabile',
+	'2012-scale-likely-5-text' => 'Molto probabile',
+	'2012-question-will-participate' => 'Sono propenso a partecipare a Wiki Loves Monuments anche il prossimo anno, se fosse organizzato nel mio paese:',
+	'2012-question-will-recommend' => 'Consiglierò di partecipare a Wiki Loves Monuments ai miei amici:',
+	'2012-question-will-edit' => 'Ora sono più propenso a correggere errori o aggiungere contenuti su Wikipedia:',
 	'2012-header-comments' => 'Altri commenti',
 	'2012-can-leave-empty' => 'È possibile lasciare questo campo vuoto.',
+	'2012-question-comments' => 'Scrivi sotto ulteriori commenti o suggerimenti su Wiki Loves Monuments:',
+	'2012-question-follow-up' => 'Se si desidera seguire i risultati del sondaggio o altri annunci a proposito di Wiki Loves Monuments, lascia il tuo nome utente e/o il tuo indirizzo di posta elettronica:',
 	'2012-username' => 'Nome utente:',
 	'2012-email' => 'Indirizzo e-mail:',
 	'2012-send-survey' => 'Invia sondaggio',
@@ -784,6 +1094,63 @@ $messages['ja'] = array(
 	'2012-send-survey' => '回答を送信',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Omshivaprakash
+ */
+$messages['kn'] = array(
+	'title' => 'ವಿಕಿ ಲವ್ಸ್ ಮಾನ್ಯುಮೆಂಟ್ಸ್ ಸಮೀಕ್ಷೆ',
+	'survey-mode-preparation' => 'ಈ ಸಮೀಕ್ಷೆಯನ್ನು ಇನ್ನೂ ಸಿದ್ದಪಡಿಸಲಾಗುತ್ತಿದೆ.
+ಇದರಲ್ಲಿ "ಉತ್ತರಗಳನ್ನು" ತುಂಬಿ ಪರೀಕ್ಶಿಸಲು ನಿಮ್ಮನ್ನು ಆಹ್ವಾನಿಸುತ್ತೇವೆ, ಆದರೆ ಫಲಿತಾಂಶವನ್ನು ಮೂಲ ಸಮೀಕ್ಷೆ ಪ್ರಾರಂಭವಾಗುವುದರ ಮುನ್ನ ಅಳಿಸಲಾಗುವುದು.',
+	'survey-mode-closed' => 'ಈ ಸಮೀಕ್ಷೆ ಮುಗಿದಿದೆ ಮತ್ತು ಇನ್ಮುಂದೆ ಇದರಲ್ಲಿ ಪಾಲ್ಗೊಳ್ಳಲು ಸಾಧ್ಯವಿಲ್ಲ.',
+	'2012-header-introduction' => 'ಪರಿಚಯ',
+	'2012-header-demographics' => 'ಜನಸಂಖ್ಯಾಶಾಸ್ತ್ರ',
+	'2012-question-country' => 'ನೀವು ಯಾವ ದೇಶದಲ್ಲಿ ಜೀವಿಸುತ್ತೀರಿ?',
+	'2012-other-country-lives' => 'ಬೇರೆ ದೇಶ:',
+	'2012-question-birth-year' => 'ನೀವು ಹುಟ್ಟಿದ ವರುಷ ಯಾವುದು?',
+	'2012-birth-year' => 'ವರ್ಷ:',
+	'2012-hide-birth-year' => 'ನಾನು ಇದನ್ನು ಪ್ರಕಟಪಡಿಸಲು ಇಷ್ಟಪಡುವುದಿಲ್ಲ',
+	'2012-question-gender' => 'ನಿಮ್ಮ ಲಿಂಗ ಯಾವುದು?',
+	'2012-gender-male' => 'ಪುರುಷ',
+	'2012-gender-female' => 'ಸ್ತ್ರೀ',
+	'2012-gender-other' => 'ಇತರೆ / ನಾನು ಇದನ್ನು ಪ್ರಕಟಪಡಿಸಲು ಇಷ್ಟಪಡುವುದಿಲ್ಲ',
+	'2012-header-wikimedia-activity' => 'ವಿಕಿಮೀಡಿಯ ಚಟುವಟಿಕೆ',
+	'2012-explanation-select-multiple' => 'ಅನ್ವಯವಾಗುವ ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ.',
+	'2012-edited-sporadically' => 'ಹೌದು, ನಾನು ಕಾಲಕಾಲಕ್ಕೆ ಸಂಪಾದನೆಯಲ್ಲಿ ತೊಡಗುತ್ತೇನೆ (ತಿಂಗಳಿಗೆ ಐದಕ್ಕಿಂದ ಕಡಿಮೆ ಸಂಪಾದನೆಗಳು).',
+	'2012-header-competition' => 'ಸ್ಪರ್ಧೆ',
+	'2012-discovered-other' => 'ಇತರೆ:',
+	'2012-question-countries-uploaded' => 'ನೀವು ಚಿತ್ರಗಳನ್ನು ಯಾವ ದೇಶಗಳಿಗೆ ಅಪ್ಲೋಡ್ ಮಾಡಿದ್ದೀರಾ?',
+	'2012-other-country-upload' => 'ಬೇರೆ ದೇಶ:',
+	'2012-question-photos-taken' => 'ನಿಮ್ಮ ೨೦೧೨ರ (ಬಹಳಷ್ಟು) ಕೊಡುಗೆಗಳನ್ನು ತೆಗೆದದ್ದು ಯಾವಾಗ?',
+	'2012-photos-taken-sep-2012' => 'ನಾನು ಚಿತ್ರಗಳನ್ನು ಸೆಪ್ಟೆಂಬರ್ ೨೦೧೨ರಲ್ಲಿ ತೆಗೆದಿದ್ದೆ.',
+	'2012-photos-taken-jan-aug-2012' => 'ನಾನು ಚಿತ್ರಗಳನ್ನು ೨೦೧೨ರ ಜನವರಿ ಮತ್ತು ಆಗಸ್ಟ್‌ನ ಮಧ್ಯೆ ತೆಗೆದಿದ್ದೆ.',
+	'2012-photos-taken-2000-2011' => 'ನಾನು ಚಿತ್ರಗಳನ್ನು ೨೦೦೦ ಮತ್ತು ೨೦೧೧ರ ನಡುವೆ ತೆಗೆದಿದ್ದೆ.',
+	'2012-photos-taken-before-2000' => 'ನಾನು 2000ನೇ ಸಾಲಿಗಿಂತ ಮೊದಲು ಚಿತ್ರಗಳನ್ನು ತೆಗೆದಿದ್ದೆ.',
+	'2012-header-motivation' => 'ಪ್ರೇರಣೆ',
+	'2012-motivation-prize' => 'ಬಹುಮಾನ ಗೆಲ್ಲಲು',
+	'2012-motivation-help' => 'ವಿಕಿಪೀಡಿಯಕ್ಕೆ ಸಹಾಯ ಮಾಡಲು',
+	'2012-motivation-discover-heritage' => 'ಸ್ಥಳೀಯ ಪರಂಪರೆ ಬಗ್ಗೆ ತಿಳಿಯಲು',
+	'2012-motivation-share-heritage' => 'ನನ್ನ ಸ್ಥಳೀಯ ಪರಂಪರೆಯನ್ನು ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು',
+	'2012-motivation-easy' => 'ಇದು ಸಾಕಷ್ಟು ಸುಲಭ, ಆದ್ದರಿಂದ ಏಕಾಗಬಾರದು ಎಂದು ನಾನೂ ಯೋಚಸಿದೆ',
+	'2012-motivation-other' => 'ಇತರೆ:',
+	'2012-header-usability' => 'ಉಪಯುಕ್ತತೆ',
+	'2012-scale-difficult-1-text' => 'ಬಹಳ ಸುಲಭ',
+	'2012-scale-difficult-2-text' => 'ಸುಲಭ',
+	'2012-scale-difficult-3-text' => 'ಸಾಧಾರಣ',
+	'2012-scale-difficult-4-text' => 'ಕಷ್ಟ',
+	'2012-scale-difficult-5-text' => 'ಬಹಳ ಕಷ್ಟ',
+	'2012-question-find-lists' => 'ನಿಮ್ಮ ದೇಶ / ನಿಮ್ಮ ನೆರೆಹೊರೆಯ ಸ್ಮಾರಕಗಳ ಪಟ್ಟಿಗಳನ್ನು ಹುಡುಕಲು ಎಷ್ಟು ಕಷ್ಟವಾಯಿತು',
+	'2012-question-find-identifier' => 'ನೀವು ಆಸಕ್ತಿ ತೋರಿದ ಸ್ಮಾರಕಗಳ ಸ್ಮಾರಕ ಗುರುತಿನ ಸಂಖ್ಯೆ ಹುಡುಕಲು ಎಷ್ಟು ಕಷ್ಟವಾಯಿತು',
+	'2012-header-future' => 'ಭವಿಷ್ಯ',
+	'2012-scale-likely-1-text' => 'ಕನಿಷ್ಠ ಸಾಧ್ಯತೆ',
+	'2012-scale-likely-5-text' => 'ಬಹಳ ಸಾಧ್ಯತೆ',
+	'2012-header-comments' => 'ಇತರೆ ಪ್ರತಿಕ್ರಿಯೆಗಳು',
+	'2012-can-leave-empty' => 'ನೀವು ಈ ಕ್ಷೇತ್ರವನ್ನು ಖಾಲಿ ಬಿಡಬಹುದು.',
+	'2012-question-comments' => 'ವಿಕಿ ಲವ್ಸ್ ಮಾನ್ಯುಮೆಂಟ್ಸ್ ಬಗ್ಗೆ ಇನ್ಯಾವುದೇ ಪ್ರತಿಕ್ರಿಯೆ ಅಥವಾ ಸಲಹೆಗಳು ಸಲಹೆಗಳಿದ್ದರೆ ಅವನ್ನೂ ಸೇರಿಸಿ',
+	'2012-username' => 'ಬಳಕೆದಾರ ಹೆಸರು:',
+	'2012-email' => 'ಇ-ಮೇಲ್ ವಿಳಾಸ:',
+	'2012-send-survey' => 'ಸಮೀಕ್ಷೆಯನ್ನು ಕಳಿಸಿ',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -793,6 +1160,13 @@ $messages['ko'] = array(
 설문 조사를 테스트하고 “답변”을 제출하실 수 있지만, 제공하는 결과는 실제 설문 조사가 시작하기 전에 지워질 것입니다.',
 	'survey-mode-closed' => '이 설문 조사는 끝났고 더 이상 제출할 수 없습니다.',
 	'2012-header-introduction' => '소개',
+	'2012-welcome-text' => '2012년 위키 기념물 사랑에 대한 참여자 설문 조사에 오신 것을 환영합니다.
+The goal of this survey is to gather statistics about people who participated in Wiki Loves Monuments, their motivations for doing so, and their opinions on the way that the competition was organised. Our goal is to use this information to improve your experience with Wiki Loves Monuments 2013, and to make the next edition of the contest even friendlier, easier, and more fun to participate in!
+We will use your answers in this survey to create anonymized statistics, and will not be using, sharing or making public any personally identifiable data under any circumstances.
+It takes about 5 minutes to fill out this survey, and we thank you in advance for taking the time to do so. Please note that none of the questions are obligatory, and you can refrain from answering them if you wish to.
+
+Elke, Lodewijk, Maarten and Tomasz
+위키 기념물 사랑 coordinating team, info@wikilovesmonuments.org',
 	'2012-header-demographics' => '인구 통계',
 	'2012-question-country' => '어느 나라에 사나요?',
 	'2012-other-country-lives' => '다른 국가:',
@@ -839,11 +1213,21 @@ $messages['ko'] = array(
 	'2012-scale-difficult-3-text' => '보통',
 	'2012-scale-difficult-4-text' => '어려움',
 	'2012-scale-difficult-5-text' => '매우 어려움',
+	'2012-question-find-info' => '경연 대회에 대한 일반 정보를 찾는 데 얼마나 힘듭니까',
+	'2012-question-find-lists' => '국가/이웃에 대한 기념물의 목록을 찾는 데 얼마나 어려웠습니까',
+	'2012-question-find-identifier' => '관심이 있는 기념물의 기념물 식별자 번호를 찾는 데 얼마나 어려웠습니까',
+	'2012-question-usability-upload' => '2012년 위키 기념물 사랑에 사진을 올리는 데 얼마나 어려웠습니까',
+	'2012-question-usability-main-obstacle' => '경연 대회에 참여하기 위한 주요 장애물은 무엇입니까? 원한다면 자세한 사항에 자세히 설명할 수 있고 또한 비어 둘 수 있습니다',
 	'2012-header-future' => '미래',
-	'2012-scale-likely-1-text' => '최소한 가능성이 있습니다',
+	'2012-scale-likely-1-text' => '가능성이 희박합니다',
 	'2012-scale-likely-5-text' => '매우 가능성이 있습니다',
+	'2012-question-will-participate' => '우리 나라에 조직되면 내년에 위키 기념물 사랑에 다시 참여할 가능성이 있습니다:',
+	'2012-question-will-recommend' => '내 친구에게 위키 기념물 사랑에 참여하는 것을 권하고 싶습니다:',
+	'2012-question-will-edit' => '지금 위키백과에 실수를 고치거나 내용을 추가할 가능성이 높습니다:',
 	'2012-header-comments' => '기타 덧글',
 	'2012-can-leave-empty' => '이 필드를 비워둘 수 있습니다.',
+	'2012-question-comments' => '위키 기념물 사랑에 대한 추가 덧글이나 제안을 아래에 적어주세요:',
+	'2012-question-follow-up' => '위키 기념물 사랑에 대한 설문 조사나 다른 발표에 대한 결과를 우리에게 후속 조치하려면 아래에 사용자 이름과/또는 이메일 주소를 남겨주세요:',
 	'2012-username' => '사용자 이름:',
 	'2012-email' => '이메일 주소:',
 	'2012-send-survey' => '설문 조사 보내기',
@@ -986,6 +1370,90 @@ $messages['mk'] = array(
 	'2012-send-survey' => 'Поднеси ја анкетата',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Netha Hussain
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'title' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു കണക്കെടുപ്പ്',
+	'survey-mode-preparation' => 'ഈ കണക്കെടുപ്പ് മുഴുമിക്കപ്പെട്ടിട്ടില്ല.
+ഇത് പരീക്ഷിക്കാനും "ഉത്തരങ്ങൾ" സമർപ്പിക്കാനും താങ്കളെ സ്വാഗതം ചെയ്യുന്നു. എന്നാൽ ഈ കണക്കെടുപ്പിന്റെ ഫലങ്ങൾ  യഥാർത്ഥ കണക്കെടുപ്പ് തുടങ്ങുന്നതിനു മുൻപേ മായ്ക്കുന്നതായിരിക്കും.',
+	'survey-mode-closed' => 'ഈ കണക്കെടുപ്പ്  സമാപിച്ചിരിക്കുന്നു. താങ്കളുടെ ഉത്തരങ്ങൾ ഇനി സമർപ്പിക്കാൻ കഴിയുന്നതല്ല.',
+	'2012-header-introduction' => 'പ്രാരംഭം:',
+	'2012-welcome-text' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു പരിപാടിയിൽ പങ്കെടുത്തവർക്കുള്ള സർവ്വെയിലേക്ക് സ്വാഗതം.
+വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു സർവ്വെയിൽ പങ്കെടുത്തവരെപ്പറ്റിയും, പങ്കെടുക്കാൻ അവർക്കുണ്ടായ താല്പര്യത്തെപ്പറ്റിയും, മത്സരം നടത്തിപ്പിനെപ്പറ്റിയും വിശദാംശങ്ങൾ സ്വീകരിക്കുന്നതിനായാണ് ഈ സർവ്വെ. ഈ സർവ്വെയിലെ വിവരങ്ങൾ ഉപയോഗിച്ചുകൊണ്ട് 2013 വർഷത്തെ മത്സരം കൂടുതൽ ജനകീയവും, സുഗമവും, ഉല്ലാസമേറിയതുമാക്കിത്തീർക്കുകയാണ് ഞങ്ങളുടെ ലക്ഷ്യം. 
+ഈ സർവ്വെയിൽ നിങ്ങൾ നൽകുന്ന ഉത്തരങ്ങൾ അജ്ഞാതവൽക്കരിക്കുക മാത്രമല്ല, താങ്കളുടെ വ്യക്തിഗത വിവരങ്ങൾ ഉപയോഗിക്കുകയോ , മറ്റാരെങ്കിലുമായി പങ്കുവയ്ക്കുകയോ ചെയ്യുന്നതല്ല.
+ഈ സർവ്വെ പൂർത്തിയാക്കാൻ 5 മിനിറ്റോളം വേണ്ടിവന്നേക്കാം. ഇത് പൂരിപ്പിക്കാൻ താങ്കൾ  ചിലവഴിച്ച സമയത്തിന് മുൻകൂർ നന്ദി പറയുന്നു. തന്നിരിക്കുന്ന ചോദ്യങ്ങളിൽ ഒന്നും തന്നെ നിർബന്ധിത സ്വഭാവമുള്ളതല്ലാത്തതിനാൽ താങ്കൾക്ക് താല്പര്യമില്ലാത്ത ചോദ്യങ്ങൾക്ക്  ഉത്തരം നൽകേണ്ടതില്ല.  
+
+എന്ന് സ്വന്തം,
+എൽക്, ലോജവിക്, മാർടെൻ, തോമഷ്
+വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു സംഘം, info@wikilovesmonuments.org',
+	'2012-header-demographics' => 'ജനസംഖ്യാ-പങ്കാളിത്ത വിവരങ്ങൾ',
+	'2012-question-country' => 'താങ്കൾ ഏത് രാജ്യത്താണ് ജീവിക്കുന്നത്?',
+	'2012-other-country-lives' => 'മറ്റേതെങ്കിലും രാജ്യം:',
+	'2012-question-birth-year' => 'താങ്കൾ ജനിച്ച വർഷം ഏത്?',
+	'2012-birth-year' => 'വർഷം:',
+	'2012-hide-birth-year' => 'ഇത് വെളിപ്പെടുത്താൻ ഞാൻ വിസമ്മതിക്കുന്നു',
+	'2012-question-gender' => 'താങ്കൾ സ്ത്രീയോ പുരുഷനോ?',
+	'2012-gender-male' => 'പുരുഷൻ',
+	'2012-gender-female' => 'സ്ത്രീ',
+	'2012-gender-other' => 'മറ്റേതെങ്കിലും/ഞാൻ പുറത്തുപറയാൻ വിസമ്മതിക്കുന്നു',
+	'2012-header-wikimedia-activity' => 'വിക്കിമീഡിയ പ്രവർത്തനം',
+	'2012-explanation-select-multiple' => 'താങ്കളെ സംബന്ധിക്കുന്നതെല്ലാം തിരഞ്ഞെടുക്കുക.',
+	'2012-question-wlm-participation' => 'താങ്കൾ ഏതൊക്കെ വർഷങ്ങളിൽ വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു മത്സരത്തിൽ പങ്കെടുത്തിട്ടുണ്ട്?',
+	'2012-question-edited-wiki' => 'താങ്കൾ (ആദ്യമായി മത്സരത്തിൽ പങ്കെടുക്കുന്നതിനു മുൻപ്) വിക്കിപീഡിയ/വിക്കിമീഡിയ തിരുത്തിയിട്ടുണ്ടോ?',
+	'2012-edited-sporadically' => 'അതെ, ഞാൻ പലപ്രാവശ്യം തിരുത്തിയിട്ടുണ്ട് (മാസത്തിൽ  അഞ്ച് തിരുത്തലുകളോളം)',
+	'2012-edited-regularly' => 'അതെ, ഞാൻ ഒരു സ്ഥിരം   ഉപയോക്താവാണ് (മാസം അഞ്ച് തിരുത്തലുകളിൽ കൂടുതൽ)',
+	'2012-edited-never' => 'ഇല്ല, വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു മത്സരത്തിനു മുൻപായി ഞാൻ തിരുത്താൻ ശ്രമിച്ചിട്ടില്ല.',
+	'2012-header-competition' => 'മത്സരം',
+	'2012-question-discovered-wlm' => 'വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു പദ്ധതിയെക്കുറിച്ച് താങ്കൾ എങ്ങനെ മനസിലാക്കി?',
+	'2012-discovered-sitenotice' => 'വിക്കിപീഡിയയിലെയും മറ്റ് വിക്കിമീഡിയ സംരംഭങ്ങളിലെയും ബാനറുകളിൽ നിന്ന്',
+	'2012-discovered-noticeboard' => 'വിക്കിപഞ്ചായത്തിലൂടെ അഥവാ ഏതെങ്കിലും സമൂഹ നോട്ടീസ് ബോർഡിലൂടെ',
+	'2012-discovered-social' => 'സാമൂഹ്യമാധ്യമങ്ങൾ (ഫേസ്ബുക്ക്, ഗൂഗിൾ+, ട്വിറ്റർ..)',
+	'2012-discovered-news' => 'പത്രമാധ്യമങ്ങളിലൂടെ (ഓൺലൈനോ, അച്ചടിമാധ്യമങ്ങളോ)',
+	'2012-discovered-friend' => 'ഞാനറിയുന്ന ഒരാൾ പറഞ്ഞതിലൂടെ',
+	'2012-discovered-other' => 'മറ്റെന്തെങ്കിലും:',
+	'2012-question-countries-uploaded' => 'ഏതൊക്കെ രാജ്യങ്ങൾക്ക് വേണ്ടിയാണ് താങ്കൾ ചിത്രങ്ങൾ അപ്ലോഡ് ചെയ്തിട്ടുള്ളത്?',
+	'2012-other-country-upload' => 'മറ്റേതെങ്കിലും രാജ്യം:',
+	'2012-question-photos-taken' => '2012-ൽ സമർപ്പിച്ച അപ്‌ലോഡുകൾ (ഭൂരിഭാഗം) എപ്പോൾ എടുത്തതായിരുന്നു?',
+	'2012-photos-taken-sep-2012' => 'സെപ്റ്റംബർ 2012-ലാണ് ഭൂരിഭാഗം ചിത്രങ്ങളും എടുത്തത്.',
+	'2012-photos-taken-jan-aug-2012' => '2012 ജനുവരി മുതൽ ഓഗസ്റ്റ് വരെയുള്ള മാസങ്ങളിലാണ് ഞാൻ ചിത്രങ്ങൾ എടുത്തത്.',
+	'2012-photos-taken-2000-2011' => '2000 നും 2011 നും ഇടയിലാണ് ഞാൻ ചിത്രങ്ങൾ എടുത്തത്.',
+	'2012-photos-taken-before-2000' => '2000-നു മുൻപാണ് ഞാൻ ചിത്രങ്ങൾ എടുത്തത്.',
+	'2012-header-motivation' => 'പ്രചോദനം',
+	'2012-question-motivation' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു -2012 മത്സരത്തിന് ഞാൻ ചിത്രങ്ങൾ സമർപ്പിക്കാനുള്ള പ്രധാന കാരണം:',
+	'2012-motivation-prize' => 'പുരസ്കാരം ലഭിക്കാൻ',
+	'2012-motivation-help' => 'വിക്കിപീഡിയയെ സഹായിക്കാൻ',
+	'2012-motivation-discover-heritage' => 'എന്റെ നാടിന്റെ പൈതൃകത്തെപ്പറ്റി അറിയാൻ',
+	'2012-motivation-share-heritage' => 'എന്റെ നാടിന്റെ പൈതൃകം മറ്റുള്ളവരുമായി പങ്കുവയ്ക്കാൻ',
+	'2012-motivation-easy' => 'വളരെ എളുപ്പമുള്ള കാര്യമായതിനാൽ എന്തുകൊണ്ടായിക്കൂടാ എന്ന് കരുതുന്നതുകൊണ്ട്.',
+	'2012-motivation-other' => 'മറ്റെന്തെങ്കിലും :',
+	'2012-header-usability' => 'ഉപയോഗയോഗ്യത',
+	'2012-scale-difficult-1-text' => 'വളരെ എളുപ്പം',
+	'2012-scale-difficult-2-text' => 'എളുപ്പം',
+	'2012-scale-difficult-3-text' => 'സാധാരണം',
+	'2012-scale-difficult-4-text' => 'വിഷമം',
+	'2012-scale-difficult-5-text' => 'വളരെ വിഷമം',
+	'2012-question-find-info' => 'മത്സരത്തെപ്പറ്റിയുള്ള വിവരങ്ങൾ അറിയാൻ താങ്കൾക്ക് എത്രമാത്രം ബുദ്ധിമുട്ടനുഭവപ്പെട്ടു?',
+	'2012-question-find-lists' => 'നിങ്ങളുടെ രാജ്യത്ത്/ചുറ്റുവട്ടത്ത് ഉള്ള സ്മാരകങ്ങളുടെ പട്ടിക ലഭിക്കാൻ താങ്കൾക്ക് എത്രമാത്രം ബുദ്ധിമുട്ടനുഭവപ്പെട്ടു?',
+	'2012-question-find-identifier' => 'സ്മാരകം കണ്ടെത്താനും സ്മാരകത്തിന്റെ കണ്ടെത്തൽ സംഖ്യ മനസിലാക്കാനും താങ്കൾക്ക് എത്രമാത്രം ബുദ്ധിമുട്ടനുഭവപ്പെട്ടു?',
+	'2012-question-usability-upload' => 'വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു 2012 - ന് ചിത്രങ്ങൾ അപ്ലോഡ് ചെയ്യാൻ താങ്കൾക്ക് എത്രമാത്രം ബുദ്ധിമുട്ടനുഭവപ്പെട്ടു?',
+	'2012-question-usability-main-obstacle' => 'ഈ മത്സരത്തിൽ പങ്കെടുക്കാൻ താങ്കൾക്കുണ്ടായ ഏറ്റവും വലിയ പരിമിതി എന്തായിരുന്നു? താല്പര്യമുണ്ടെങ്കിൽ താങ്കൾക്ക്  ഇതിനെപ്പറ്റി വിശദമായി എഴുതാവുന്നതോ, അല്ലെങ്കിൽ ഒന്നും എഴുതാതിരിക്കുകയോ ചെയ്യാവുന്നതാണ്.',
+	'2012-header-future' => 'ഭാവി',
+	'2012-scale-likely-1-text' => 'സാധ്യത വളരെ കുറവ്',
+	'2012-scale-likely-5-text' => 'സാധ്യത കൂടുതൽ',
+	'2012-question-will-participate' => 'അടുത്ത വർഷം വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു പരിപാടി വീണ്ടു നടത്തുകയാണെങ്കിൽ ഞാൻ പങ്കെടുക്കാൻ സാധ്യത കൂടുതലാണ് :',
+	'2012-question-will-recommend' => 'ഞാൻ എന്റെ സുഹൃത്തുക്കളെ വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു മത്സരത്തിൽ പങ്കെടുക്കാൻ പ്രേരിപ്പിക്കും :',
+	'2012-question-will-edit' => 'ഞാൻ വിക്കിപീഡിയയിലേക്ക് വസ്തുതകൾ ചേർക്കാനും, തെറ്റുകൾ തിരുത്താനും സഹായിക്കും :',
+	'2012-header-comments' => 'മറ്റ് അഭിപ്രായങ്ങൾ',
+	'2012-can-leave-empty' => 'ഈ ഭാഗം അപൂർണ്ണമായി നിലനിർത്താവുന്നതാണ്.',
+	'2012-question-comments' => 'വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു മത്സരത്തെപ്പറ്റി താങ്കൾക്കുള്ള മറ്റെന്റെങ്കിലും അഭിപ്രായങ്ങളോ, നിർദേശങ്ങളോ ഇവിടെ എഴുതുക :',
+	'2012-question-follow-up' => 'ഈ സർവ്വെയുടെ ഫലം അറിയുവാനോ, വിക്കിസ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു പരിപാടിയെപ്പറ്റിയുള്ള വാർത്തകൾ അറിയുവാനോ താല്പര്യമുണ്ടെങ്കിൽ താങ്കളുടെ ഉപയോക്തൃനാമമോ ഇ-മെയിൽ ഇവിടെ എഴുതുക :',
+	'2012-username' => 'ഉപയോക്തൃനാമം:',
+	'2012-email' => 'ഇമെയിൽ വിലാസം:',
+	'2012-send-survey' => 'സർവ്വെ അയയ്ക്കുക',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -996,15 +1464,16 @@ $messages['ms'] = array(
 
 /** Dutch (Nederlands)
  * @author Effeietsanders
+ * @author Siebrand
  * @author Wiki13
  */
 $messages['nl'] = array(
-	'title' => 'Wiki Loves Monuments enquête',
-	'survey-mode-preparation' => 'Deze enquête is nog in voorbereiding. 
-Je bent van harte welkom om de enquête te testen en "antwoorden" in te sturen, maar de resultaten zullen worden verwijderd voordat de daadwerkelijke enquête begint.',
-	'survey-mode-closed' => 'De enquête is afgesloten en kan niet meer ingevuld worden.',
+	'title' => 'Vragenlijst Wiki Loves Monuments',
+	'survey-mode-preparation' => 'Deze vragenlijst is nog in voorbereiding. 
+Je bent van harte welkom om de vragenlijst te testen en "antwoorden" in te sturen, maar de resultaten zullen worden verwijderd voordat de daadwerkelijke vragenlijst begint.',
+	'survey-mode-closed' => 'De vragenlijst is afgesloten en kan niet meer ingevuld worden.',
 	'2012-header-introduction' => 'Inleiding',
-	'2012-welcome-text' => 'Welkom bij de enquête voor deelnemers aan Wiki Loves Monuments 2012!
+	'2012-welcome-text' => 'Welkom bij de vragenlijst voor deelnemers aan Wiki Loves Monuments 2012!
 Het doel van dit onderzoek is om statistieken te verzamelen over de deelnemers aan Wiki Loves Monuments, hun beweegredenen en mening over de opzet van de wedstrijd. De bedoeling is om deze informatie te gebruiken om de ervaring te verbeteren bij Wiki Loves Monuments, het eenvoudiger en leuker te maken om deel te nemen. 
 
 We zullen je antwoorden in dit onderzoek gebruiken om geanonimiseerde statistieken, en zullen de antwoorden niet gebruiken, delen of publiek maken op enige persoonlijk identificeerbare manier onder wat voor omstandigheid dan ook. 
@@ -1026,20 +1495,20 @@ Wiki Loves Monuments coördinerend team, info@wikilovesmonuments.org',
 	'2012-gender-other' => 'Overige / geen antwoord',
 	'2012-header-wikimedia-activity' => 'Activiteit bij Wikimedia',
 	'2012-explanation-select-multiple' => 'Selecteer alles wat van toepassing is.',
-	'2012-question-wlm-participation' => 'In welk jaar nam je deel aan Wiki Loves Monuments?',
-	'2012-question-edited-wiki' => 'Heb je ooit Wikipedia/Wikimedia bewerkt alvorens (de eerste keer) deel te nemen aan Wiki Loves Monuments?',
+	'2012-question-wlm-participation' => 'In welke jaren heb je deelgenomen aan Wiki Loves Monuments?',
+	'2012-question-edited-wiki' => 'Heb je ooit Wikipedia of Wikimedia bewerkt voor dat je de eerste keer hebt deelgenomen aan Wiki Loves Monuments?',
 	'2012-edited-sporadically' => 'Ja, ik heb af en toe bewerkt (minder dan vijf bewerkingen per maand).',
 	'2012-edited-regularly' => 'Ja, ik ben een regelmatige bijdrager (meer dan vijf bewerkingen per maand).',
-	'2012-edited-never' => 'Nee, ik heb nooit geprobeerd te bewerken voor ik deelnam aan Wiki Loves Monuments.',
+	'2012-edited-never' => 'Nee, ik heb nooit geprobeerd te bewerken voor ik heb meegedaan aan Wiki Loves Monuments.',
 	'2012-header-competition' => 'Wedstrijd',
 	'2012-question-discovered-wlm' => 'Hoe ben je in aanraking gekomen met Wiki Loves Monuments 2012?',
-	'2012-discovered-sitenotice' => 'Via de banners op Wikipedia of andere Wikimedia projecten.',
-	'2012-discovered-noticeboard' => 'Via een bericht in de "Kroeg", "Village Pump" of een ander communicatiekanaal binnen de Wikimedia projecten.',
-	'2012-discovered-social' => 'Via sociale media (Facebook, Google+, Twitter ...).',
+	'2012-discovered-sitenotice' => 'Via de banners op Wikipedia of andere Wikimediaprojecten.',
+	'2012-discovered-noticeboard' => 'Via een bericht in de "Kroeg", "Village Pump" of een ander communicatiekanaal binnen de Wikimediaprojecten.',
+	'2012-discovered-social' => 'Via sociale media (Facebook, Google+, Twitter, ...).',
 	'2012-discovered-news' => 'Via de media (online of gedrukt).',
 	'2012-discovered-friend' => 'Iemand heeft me over de wedstrijd verteld.',
 	'2012-discovered-other' => 'Overig:',
-	'2012-question-countries-uploaded' => "Voor welke landen hebt u foto's ingezonden?",
+	'2012-question-countries-uploaded' => "Voor welke landen heb je foto's ingezonden?",
 	'2012-other-country-upload' => 'Ander land:',
 	'2012-question-photos-taken' => "Wanneer heb je de (meeste) foto's genomen voor Wiki Loves Monuments 2012?",
 	'2012-photos-taken-sep-2012' => "Ik heb de foto's in september 2012 genomen.",
@@ -1047,7 +1516,7 @@ Wiki Loves Monuments coördinerend team, info@wikilovesmonuments.org',
 	'2012-photos-taken-2000-2011' => "Ik heb de foto's tussen 2000 en 2011 genomen.",
 	'2012-photos-taken-before-2000' => "Ik heb de foto's voor 2000 genomen.",
 	'2012-header-motivation' => 'Motivatie',
-	'2012-question-motivation' => 'Mijn voornaamste motivatie voor het insturen van een foto voor Wiki Loves Monuments 2012 was:',
+	'2012-question-motivation' => 'Mijn voornaamste motivatie voor het insturen van een afbeelding voor Wiki Loves Monuments 2012 was:',
 	'2012-motivation-prize' => 'Om een prijs te winnen',
 	'2012-motivation-help' => 'Om Wikipedia te helpen',
 	'2012-motivation-discover-heritage' => 'Om lokaal erfgoed te ontdekken',
@@ -1063,21 +1532,28 @@ Wiki Loves Monuments coördinerend team, info@wikilovesmonuments.org',
 	'2012-question-find-info' => 'Hoe moeilijk was het om algemene informatie over de wedstrijd te vinden',
 	'2012-question-find-lists' => 'Hoe moeilijk was het om de monumentenlijst voor je land/regio te vinden',
 	'2012-question-find-identifier' => 'Hoe moeilijk was het om het monumentnummer te vinden voor de monumenten waarin je geïnteresseerd was',
-	'2012-question-usability-upload' => 'Hoe moeilijk was het om een afbeelding in te sturen voor Wiki Loves Monuments 2012',
-	'2012-question-usability-main-obstacle' => 'Wat was de belangrijkste hindernis, indien aanwezig, om aan de wedstrijd deel te nemen? Als je wilt kun je in detail uitwijden, maar ook algemeen blijven.',
+	'2012-question-usability-upload' => 'Hoe moeilijk was het om een afbeelding te uploaden voor Wiki Loves Monuments 2012',
+	'2012-question-usability-main-obstacle' => 'Wat was de belangrijkste hindernis, als je die bent tegengekomen, om aan de wedstrijd deel te nemen? Als je wilt kun je in detail treden, maar je kunt ook de toelichting achterwege laten.',
 	'2012-header-future' => 'Toekomst',
 	'2012-scale-likely-1-text' => 'Minst waarschijnlijk',
 	'2012-scale-likely-5-text' => 'Zeer waarschijnlijk',
 	'2012-question-will-participate' => 'Ik doe waarschijnlijk volgend jaar weer mee aan Wiki Loves Monuments als het wordt georganiseerd in mijn land:',
-	'2012-question-will-recommend' => 'Ik zou deelname aan Wiki Loves Monuments aanbevene aan mijn vrienden:',
-	'2012-question-will-edit' => 'Ik ben nu meer geneigd om fouten in Wikipedia te corrigeren of informatie toe te voegen:',
+	'2012-question-will-recommend' => 'Ik ga deelname aan Wiki Loves Monuments aanbevelen aan mijn vrienden:',
+	'2012-question-will-edit' => 'Ik ga nu eerder fouten corrigeren in Wikipedia of informatie toevoegen:',
 	'2012-header-comments' => 'Overige opmerkingen',
 	'2012-can-leave-empty' => 'Je kunt dit veld leeglaten.',
 	'2012-question-comments' => 'Laat hier andere opmerkingen of suggesties met betrekking tot Wiki Loves Monuments achter:',
-	'2012-question-follow-up' => 'Als je graag op de hoogte gehouden wordt over de uitkomsten van dit onderzoek, of andere aankondigingen over Wiki Loves Monuments - laat dan hieronder je gebruikersnaam of e-mailadres achter:',
+	'2012-question-follow-up' => 'Laat hieronder je gebruikersnaam of e-mailadres achter als je graag op de hoogte wordt gehouden over de uitkomsten van dit onderzoek, of andere aankondigingen over Wiki Loves Monuments wilt ontvangen:',
 	'2012-username' => 'Gebruikersnaam:',
 	'2012-email' => 'E-mailadres:',
-	'2012-send-survey' => 'Verzend',
+	'2012-send-survey' => 'Verzenden',
+);
+
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
+ * @author Effeietsanders
+ */
+$messages['nn'] = array(
+	'2012-email' => 'E-post:',
 );
 
 /** Polish (polski)
@@ -1113,9 +1589,9 @@ Zespół koordynujący Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2012-header-wikimedia-activity' => 'Aktywność w projektach Wikimedia',
 	'2012-explanation-select-multiple' => 'Wybierz wszystkie pasujące odpowiedzi.',
 	'2012-question-wlm-participation' => 'W których latach {{GENDER:|brałeś|brałaś}} udział w konkursie Wiki Lubi Zabytki?',
-	'2012-question-edited-wiki' => 'Czy kiedykolwiek edytowałeś Wikipedię lub inne projekty Wikimedia przed wzięciem udziału w konkursie Wiki Lubi Zabytki?',
+	'2012-question-edited-wiki' => 'Czy kiedykolwiek {{GENDER:edytowałeś|edytowałaś}} Wikipedię lub inne projekty Wikimedia przed wzięciem udziału w konkursie Wiki Lubi Zabytki?',
 	'2012-edited-sporadically' => 'Tak, {{GENDER:|edytowałem|edytowałam}} od czasu do czasu (mniej niż pięć edycji miesięcznie).',
-	'2012-edited-regularly' => 'Tak, jestem regularnym {{GENDER:|edytorem|edytorką}} (więcej niż pięć edycji miesięcznie).',
+	'2012-edited-regularly' => 'Tak, jestem {{GENDER:regularnym|regularną}} {{GENDER:|edytorem|edytorką}} (więcej niż pięć edycji miesięcznie).',
 	'2012-edited-never' => 'Nie, nigdy nie {{GENDER:|próbowałem|próbowałam}} edytować przed wzięciem udziału w konkursie Wiki Lubi Zabytki.',
 	'2012-header-competition' => 'Konkurs',
 	'2012-question-discovered-wlm' => 'Skąd {{GENDER:|dowiedziałeś|dowiedziałaś}} się o konkursie Wiki Lubi Zabytki 2012?',
@@ -1168,10 +1644,11 @@ Zespół koordynujący Wiki Loves Monuments, info@wikilovesmonuments.org',
 
 /** Romanian (română)
  * @author Minisarm
+ * @author Strainu
  */
 $messages['ro'] = array(
 	'title' => 'Sondaj Wiki Loves Monuments',
-	'survey-mode-preparation' => 'Acest sondaj este încă în pregătiri.
+	'survey-mode-preparation' => 'Acest sondaj este încă în pregătire.
 Sunteți invitat să-l testați și să trimiteți „răspunsuri”, dar rezultatele furnizate vor fi șterse înainte de începerea adevăratului sondaj.',
 	'survey-mode-closed' => 'Acest sondaj a fost închis; nu mai puteți participa.',
 	'2012-header-introduction' => 'Introducere',
@@ -1202,7 +1679,7 @@ Echipa coordonatoare a Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2012-edited-never' => 'Nu, nu am contribuit niciodată înainte de a participa la Wiki Loves Monuments.',
 	'2012-header-competition' => 'Concursul',
 	'2012-question-discovered-wlm' => 'Cum ați aflat despre Wiki Loves Monuments 2012?',
-	'2012-discovered-sitenotice' => 'Prin intermediul bannerelor de la Wikipedia sau alte proiecte ale Wikimediei.',
+	'2012-discovered-sitenotice' => 'Prin intermediul bannerelor de la Wikipedia sau alte proiecte înrudite.',
 	'2012-discovered-noticeboard' => 'Printr-o informare de la Cafenea sau de la avizierul comunității.',
 	'2012-discovered-social' => 'Prin rețelele sociale (Facebook, Google+, Twitter…).',
 	'2012-discovered-news' => 'Din presă (on-line sau tipărită).',
@@ -1251,21 +1728,22 @@ Echipa coordonatoare a Wiki Loves Monuments, info@wikilovesmonuments.org',
 
 /** Russian (русский)
  * @author Putnik
+ * @author Spider
  */
 $messages['ru'] = array(
 	'title' => 'Опрос по конкурсу «Вики любит памятники» (Wiki Loves Monuments)',
-	'survey-mode-preparation' => 'Этот опрос все еще находится в подготовке.
-Приглашаем вас испытать его и представить «ответы», но полученные результаты будут уничтожена перед началом реального опроса.',
+	'survey-mode-preparation' => 'Этот опрос всё ещё находится в подготовке.
+Приглашаем вас испытать его и представить «ответы», но полученные результаты будут очищены перед началом реального опроса.',
 	'survey-mode-closed' => 'Этот опрос был закрыт и больше не может быть пройден.',
 	'2012-header-introduction' => 'Вступление',
-	'2012-welcome-text' => 'Добро пожаловать на опрос участников конкурса «Вики любит памятники — 2012»!
-Цель этого исследования заключается в сборе статистических данных о людях, которые участвовали в «Вики любит памятники», их мотивах и их мнений о том, как конкурс был организован. Наша цель — использовать эту информацию для улучшения «Вики любит памятники — 2013» и сделать следующей конкурс дружелюбнее, проще и веселее для участия.
-Мы будем использовать ваши ответы в этом опросе для создания анонимной статистики и не будем использовать, передавать или предавать гласности любые личные данные ни при каких обстоятельствах.
-Прохождение этого опроса занимает около 5 минут, и мы благодарим вас заранее, что нашли время сделать это. Пожалуйста, обратите внимание, что ни один из вопросов ни является обязательными, и вы можете воздержаться от ответа на них, если хотите.
+	'2012-welcome-text' => 'Добро пожаловать в опрос участников конкурса «Вики любит памятники — 2012»!
+Цель этого исследования заключается в сборе статистических данных о людях, которые участвовали в «Вики любит памятники», их мотивов и мнений о том, как конкурс был организован. Наша цель — использовать эту информацию для улучшения «Вики любит памятники — 2013» и сделать следующей конкурс дружелюбнее, проще и приятнее для участия.
+Мы используем ваши ответы в этом опросе для создания анонимной статистики и обещаем не использовать, не передавать и не предавать гласности никакие личные данные ни при каких обстоятельствах.
+Прохождение этого опроса занимает около 5 минут, и мы благодарим вас заранее, что нашли время сделать это. Пожалуйста, обратите внимание, что ни один из вопросов ни является обязательными, и вы можете при желании воздержаться от ответа.
 
 С уважением,
-Эльке, Лодевийк, Мартен и Томаш
-Координационная группа «Вики любит памятники», info@wikilovesmonuments.org',
+Эльке, Лодевяйк, Маартен и Томаш
+Координаторы «Вики любит памятники», info@wikilovesmonuments.org',
 	'2012-header-demographics' => 'Демография',
 	'2012-question-country' => 'В какой стране вы живете?',
 	'2012-other-country-lives' => 'Другая страна:',
@@ -1276,7 +1754,7 @@ $messages['ru'] = array(
 	'2012-gender-male' => 'Мужской',
 	'2012-gender-female' => 'Женский',
 	'2012-gender-other' => 'Другой / я предпочитаю не раскрывать',
-	'2012-header-wikimedia-activity' => 'Деятельность в проектах Викимедиа',
+	'2012-header-wikimedia-activity' => 'Деятельность в проектах Фонда Викимедиа',
 	'2012-explanation-select-multiple' => 'Выберите все подходящие варианты.',
 	'2012-question-wlm-participation' => 'В каких годах вы участвовали в конкурсе «Вики любит памятники»?',
 	'2012-question-edited-wiki' => 'Вы когда-нибудь редактировали Википедию/проекты Викимедиа до первого участия в конкурсе «Вики любит памятники»?',
@@ -1286,10 +1764,10 @@ $messages['ru'] = array(
 	'2012-header-competition' => 'Конкурс',
 	'2012-question-discovered-wlm' => 'Как вы узнали о конкурсе «Вики любит памятники — 2012»?',
 	'2012-discovered-sitenotice' => 'Через баннеры в Википедии или других проектах Викимедиа.',
-	'2012-discovered-noticeboard' => 'Через информация на форуме сообщества Википедии.',
-	'2012-discovered-social' => 'Через социальные медиа (ВКонтакте, Facebook, Google+, Twitter…).',
+	'2012-discovered-noticeboard' => 'Через информацию на форуме сообщества Википедии.',
+	'2012-discovered-social' => 'Через социальные сети (ВКонтакте, Facebook, Google+, Twitter…).',
 	'2012-discovered-news' => 'Через СМИ (онлайн или печатные).',
-	'2012-discovered-friend' => 'Тот, кого я знаю, рассказал мне о конкурсе.',
+	'2012-discovered-friend' => 'Узнал о конкурсе от знакомых.',
 	'2012-discovered-other' => 'Другое:',
 	'2012-question-countries-uploaded' => 'Для каких стран вы загрузили фотографии?',
 	'2012-other-country-upload' => 'Другая страна:',
@@ -1312,121 +1790,215 @@ $messages['ru'] = array(
 	'2012-scale-difficult-3-text' => 'Нормально',
 	'2012-scale-difficult-4-text' => 'Сложно',
 	'2012-scale-difficult-5-text' => 'Очень сложно',
-	'2012-question-find-info' => 'Насколько трудно для вас было найти общую информацию о конкурсе',
+	'2012-question-find-info' => 'Насколько трудно для вас было найти общие сведения о конкурсе',
 	'2012-question-find-lists' => 'Насколько трудно для вас было найти списки памятников для вашей страны/вашего региона',
-	'2012-question-find-identifier' => 'Насколько трудно для вас было найти идентификационный номер для памятников, которые были вам интересны',
+	'2012-question-find-identifier' => 'Насколько трудно для вас было найти реестровый номер для памятников, которые были вам интересны',
 	'2012-question-usability-upload' => 'Насколько трудно для вас было загрузить изображение для «Вики любит памятники — 2012»',
 	'2012-question-usability-main-obstacle' => 'Что было для вас основным препятствием, если таковые имеются, принять участие в конкурсе? Если вы хотите, можете описать подробно, но также можете оставить пустым',
 	'2012-header-future' => 'Будущее',
 	'2012-scale-likely-1-text' => 'Наименее вероятно',
 	'2012-scale-likely-5-text' => 'Очень вероятно',
-	'2012-question-will-participate' => 'Я вероятно снова буду участвовать в конкурсе «Вики любит памятники» в следующем году, если он будет организован в моей стране:',
-	'2012-question-will-recommend' => 'Я бы порекомендовал поучаствовать в «Вики любит памятники» моим друзьям:',
+	'2012-question-will-participate' => 'Буду ли я участвовать в конкурсе «Вики любит памятники» в следующем году, если он будет организован в моей стране:',
+	'2012-question-will-recommend' => 'Буду ли рекомендовать участвовать в «Вики любит памятники» моим друзьям:',
 	'2012-question-will-edit' => 'Более вероятно, что теперь я исправлю ошибки или добавлю содержимое в Википедию:',
 	'2012-header-comments' => 'Другие комментарии',
 	'2012-can-leave-empty' => 'Вы можете оставить это поле пустым.',
-	'2012-question-comments' => 'Пожалуйста запишите ниже любые комментарии или предложения о «Вики любит памятники»:',
+	'2012-question-comments' => 'Пожалуйста, добавьте ниже любые комментарии или предложения, касающиеся конкурса «Вики любит памятники»:',
 	'2012-question-follow-up' => 'Если вы хотели бы узнать о результатах опроса или других объявлениях о «Вики любит памятники», оставьте ваше имя участника и/или электронный адрес ниже:',
 	'2012-username' => 'Имя участника:',
 	'2012-email' => 'Адрес электронной почты:',
 	'2012-send-survey' => 'Отправить опрос',
 );
 
+/** Slovak (slovenčina)
+ * @author Effeietsanders
+ */
+$messages['sk'] = array(
+	'2012-email' => 'E-mail:',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Bebauautu
+ * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'title' => '"Wiki Loves Monuments" - анкета',
-	'survey-mode-preparation' => 'На овој анкети се још увек ради.
-Добродошли сте да је тестирате и пошаљете одговоре, али ће резултати бити обрисани пре почетка праве анкете.',
-	'survey-mode-closed' => 'Ова анкета је завршена и више није могуће учествовати у њој.',
+	'title' => 'Анкета за „Вики воли споменике“',
+	'survey-mode-preparation' => 'Анкета је још увек у припремама.
+Можете слободно да је испробате и пошаљете „одговоре“, али поднесци ће бити обрисани пре почетка праве анкете.',
+	'survey-mode-closed' => 'Анкета је затворена за учествовање.',
 	'2012-header-introduction' => 'Увод',
-	'2012-welcome-text' => 'Добродошли на анкету за "Wiki Loves Monuments 2012"!
-Њен циљ је да се прикупе статистике о људима који су учествовали у "Wiki Loves Monuments" фото-конкурсу, као и о њиховој мотивацији и мишљењу о начину организовања овог такмичења. Добијене информације ће се искористити у циљу побољшања "Wiki Loves Monuments 2013" такмичења, како би оно било још лакше и забавније за учествовање!
-Ваши одговори на питања из ове анкете користиће се за прављење анонимне статистике, и Ваши лични подаци се ни под којим условима неће користити, делити нити објавити.
-Потребно је око 5 минута да би се попунила ова анкета и унапред Вам се захваљујемо на издвојеном времену. Имајте на уму да нисте у обавези да одговорите на питања на која не желите да дате одговор.
+	'2012-welcome-text' => 'Добро дошли на анкету за учеснике „Вики воли споменике 2012“!
+Ова анкета има за циљ да прикупи статистике о људима који су учествовали на „Вики воли споменике“, да сазнамо шта их је подстакло на тај потез и да сазнамо њихово мишљење о организацији конкурса. Податке прикупљамо са циљем да побољшамо конкурс „Вики воли споменике 2013“, како би био још лакши, погоднији и забавнији учесницима!
+Одговори ће бити претворени у анонимну статистику, и ни по каквим околностима нећемо користити, делити или објављивати ваше личне податке.
+За анкету вам је потребно пет минута, и унапред вам захваљујемо на указаном времену. Треба да напоменемо да ниједно питање није обавезно, стога можете да прескочите она која вам се не допадају.
 
 Ваши
-Elke, Lodewijk, Maarten and Tomasz
-"Wiki Loves Monuments" координаторски тим, info@wikilovesmonuments.org',
+Елке, Лодевејк, Мартен и Томаш
+Координаторски тим конкурса „Вики воли споменике“, info@wikilovesmonuments.org',
 	'2012-header-demographics' => 'Демографија',
 	'2012-question-country' => 'У којој земљи живите?',
-	'2012-other-country-lives' => 'Остале земље',
-	'2012-question-birth-year' => 'Које године сте рођени?',
+	'2012-other-country-lives' => 'Друга земља:',
+	'2012-question-birth-year' => 'Које сте године рођени?',
 	'2012-birth-year' => 'Година:',
-	'2012-hide-birth-year' => 'Радије не бих да одговорим.',
+	'2012-hide-birth-year' => 'Не желим да откривам',
 	'2012-question-gender' => 'Ког сте пола?',
-	'2012-gender-male' => 'Мушког',
-	'2012-gender-female' => 'Женског',
-	'2012-gender-other' => 'Друго / Радије не бих да одговорим',
+	'2012-gender-male' => 'мушког',
+	'2012-gender-female' => 'женског',
+	'2012-gender-other' => 'Друго / Не желим да откривам',
 	'2012-header-wikimedia-activity' => 'Активност у оквиру Викимедије',
-	'2012-explanation-select-multiple' => 'Означите сва одговарајућа поља.',
-	'2012-question-wlm-participation' => 'Које године сте учествовали у "Wiki Loves Monuments" такмичењу?',
-	'2012-question-edited-wiki' => 'Да ли сте раније уређивали Википедију/Викимедију пре него што сте (први пут) учествовали у "Wiki Loves Monuments" такмичењу?',
-	'2012-edited-sporadically' => 'Да, с времена на време (мање од пет уређивања месечно).',
-	'2012-edited-regularly' => 'Да, редовно доприносим (више од пет уређивања месечно).',
-	'2012-edited-never' => 'Не, нисам уређивао/ла Викимедију/Википедију пре учешћа у "Wiki Loves Monuments" такмичењу.',
-	'2012-header-competition' => 'Такмичење',
-	'2012-question-discovered-wlm' => 'Како сте сазнали за "Wiki Loves Monuments 2012" такмичење?',
-	'2012-discovered-sitenotice' => 'Преко банера на Википедији или на осталим Викимедијиним пројектима.',
-	'2012-discovered-noticeboard' => 'Преко информација на Википедијином Тргу или на неком другом форуму заједнице.',
-	'2012-discovered-social' => 'Преко социјалних медија (Facebook, Google+, Twitter…).',
+	'2012-explanation-select-multiple' => 'Изаберите све што се односи на вас.',
+	'2012-question-wlm-participation' => 'Које године сте учествовали у конкурсу „Вики воли споменике“?',
+	'2012-question-edited-wiki' => 'Да ли сте уређивали Википедију/Викимедију пре него што сте учествовали на конкурсу „Вики воли споменике“?',
+	'2012-edited-sporadically' => 'Да, с времена на време (мање од пет измена месечно).',
+	'2012-edited-regularly' => 'Да, редовно доприносим (више од пет измена месечно).',
+	'2012-edited-never' => 'Не, нисам уређивао/ла друге пројекте пре учествовања на конкурсу „Вики воли споменике“.',
+	'2012-header-competition' => 'Конкурс',
+	'2012-question-discovered-wlm' => 'Како сте сазнали за конкурс „Вики воли споменике 2012“?',
+	'2012-discovered-sitenotice' => 'Преко плаката на Википедији или другим Викимедијиним пројектима.',
+	'2012-discovered-noticeboard' => 'Преко саопштења на Тргу или на огласној табли заједнице.',
+	'2012-discovered-social' => 'Преко друштвених медија (Фејсбук, Гугл+, Твитер…).',
 	'2012-discovered-news' => 'Преко електронских или штампаних медија.',
-	'2012-discovered-friend' => 'Неко кога познајем обавестио ме је о такмичењу.',
+	'2012-discovered-friend' => 'Неко ми је рекао за конкурс.',
 	'2012-discovered-other' => 'Друго:',
-	'2012-question-countries-uploaded' => 'За које земље сте слали своје фотографије?',
-	'2012-other-country-upload' => 'Остале земље:',
-	'2012-question-photos-taken' => 'Када су Ваше фотографије за овогодишње такмичење (већином) настале?',
+	'2012-question-countries-uploaded' => 'За које земље сте отпремали фотографије?',
+	'2012-other-country-upload' => 'Друга земља:',
+	'2012-question-photos-taken' => 'Када сте направили (највише) фотографија за 2012?',
 	'2012-photos-taken-sep-2012' => 'Током септембра 2012.',
 	'2012-photos-taken-jan-aug-2012' => 'У периоду између јануара и августа 2012.',
 	'2012-photos-taken-2000-2011' => 'У периоду између 2000. и 2011. године.',
 	'2012-photos-taken-before-2000' => 'Пре 2000. године.',
 	'2012-header-motivation' => 'Мотивација',
-	'2012-question-motivation' => 'Моја главна мотивација за слање фотографија на "Wiki Loves Monuments 2012" такмичење била је:',
+	'2012-question-motivation' => 'Главни мотив за учествовање у конкурсу био је:',
 	'2012-motivation-prize' => 'Да освојим награду',
-	'2012-motivation-help' => 'Да подопринесем Википедији',
+	'2012-motivation-help' => 'Да допринесем Википедији',
 	'2012-motivation-discover-heritage' => 'Да се упознам са локалним културним наслеђем',
-	'2012-motivation-share-heritage' => 'Да поделим своје локално културно наслеђе са другим људима',
-	'2012-motivation-easy' => 'Било је довољно лако учествовати, па сам помислио/ла: што да не?',
-	'2012-motivation-other' => 'Остало:',
+	'2012-motivation-share-heritage' => 'Да поделим културно наслеђе своје земље с другима',
+	'2012-motivation-easy' => 'Чинило ми се лако, па сам рекао зашто да не.',
+	'2012-motivation-other' => 'Друго:',
 	'2012-header-usability' => 'Коришћење',
 	'2012-scale-difficult-1-text' => 'Веома лако',
 	'2012-scale-difficult-2-text' => 'Лако',
 	'2012-scale-difficult-3-text' => 'Нормално',
 	'2012-scale-difficult-4-text' => 'Тешко',
 	'2012-scale-difficult-5-text' => 'Веома тешко',
-	'2012-question-find-info' => 'Колико Вам је било тешко да пронађете опште информације о такмичењу?',
-	'2012-question-find-lists' => 'Колико Вам је било тешко да пронађете спискове споменика за Вашу земљу/подручје?',
-	'2012-question-find-identifier' => 'Колико Вам је било тешко да пронађете ИД ознаку непокретних културних добара која су Вас интересовала?',
-	'2012-question-usability-upload' => 'Колико Вам је било тешко да пошаљете фотографију на "Wiki Loves Monuments 2012" такмичење?',
-	'2012-question-usability-main-obstacle' => 'Шта је била главна препрека, уколико је она постојала, да бисте учествовали у такмичењу? Ако желите, можете детаљно одговорите на ово питање или, пак, да оставите ово поље празно.',
+	'2012-question-find-info' => 'Колико вам је било тешко да пронађете опште информације о конкурсу?',
+	'2012-question-find-lists' => 'Колико вам је било тешко да пронађете спискове споменика ваше земље/окружења?',
+	'2012-question-find-identifier' => 'Колико вам је било тешко да пронађете идентификаторе споменика који су вас занимали?',
+	'2012-question-usability-upload' => 'Колико вам је било тешко да отпремате фотографије на „Вики воли споменике 2012“?',
+	'2012-question-usability-main-obstacle' => 'Која вам је била главна препрека (ако сте је имали) за учешће на конкурсу? Ако желите, детаљно образложите или пак оставите празно.',
 	'2012-header-future' => 'Будућност',
 	'2012-scale-likely-1-text' => 'Мало вероватно',
 	'2012-scale-likely-5-text' => 'Веома вероватно',
-	'2012-question-will-participate' => 'Вероватно ћу учествовати у "Wiki Loves Monuments" такмичењу следеће године, уколико оно буде организовано у мојој земљи:',
-	'2012-question-will-recommend' => 'Препоручио/ла бих својим пријатељима да учествују у "Wiki Loves Monuments" такмичењу',
+	'2012-question-will-participate' => 'Вероватно ћу поново учествовати на конкурсу „Вики воли споменике“ следеће године, ако се приреди у мојој земљи:',
+	'2012-question-will-recommend' => 'Препоручио/ла бих конкурс „Вики воли споменике“ својим пријатељима:',
 	'2012-question-will-edit' => 'Вероватно ћу од сада више да уређујем или додајем садржај на Википедију:',
-	'2012-header-comments' => 'Остали коментари',
+	'2012-header-comments' => 'Други коментари',
 	'2012-can-leave-empty' => 'Ово поље можете да оставите празно.',
-	'2012-question-comments' => 'Молимо Вас да допишете остале коментаре или предлоге које имате за "Wiki Loves Monuments":',
-	'2012-question-follow-up' => 'Уколико желите да Вас обавестимо о резултатима анкете или о другим саопштењима везаним за "Wiki Loves Monuments", упишите испод своје корисничко име и/или е-адресу:',
+	'2012-question-comments' => 'Уколико имате додатне коментаре или предлоге за „Вики воли споменике“, онда их напишите овде:',
+	'2012-question-follow-up' => 'Ако желите да вас обавестимо о резултатима анкете или о другим саопштењима везаним за „Вики воли споменике“, онда напишите испод своје корисничко име и/или е-адресу:',
 	'2012-username' => 'Корисничко име:',
 	'2012-email' => 'Е-адреса:',
 	'2012-send-survey' => 'Пошаљите одговоре',
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎)
+ * @author Bebauautu
+ * @author Rancher
+ */
+$messages['sr-el'] = array(
+	'title' => 'Anketa za „Viki voli spomenike“',
+	'survey-mode-preparation' => 'Anketa je još uvek u pripremama.
+Možete slobodno da je isprobate i pošaljete „odgovore“, ali podnesci će biti obrisani pre početka prave ankete.',
+	'survey-mode-closed' => 'Anketa je zatvorena za učestvovanje.',
+	'2012-header-introduction' => 'Uvod',
+	'2012-welcome-text' => 'Dobro došli na anketu za učesnike „Viki voli spomenike 2012“!
+Ova anketa ima za cilj da prikupi statistike o ljudima koji su učestvovali na „Viki voli spomenike“, da saznamo šta ih je podstaklo na taj potez i da saznamo njihovo mišljenje o organizaciji konkursa. Podatke prikupljamo sa ciljem da poboljšamo konkurs „Viki voli spomenike 2013“, kako bi bio još lakši, pogodniji i zabavniji učesnicima!
+Odgovori će biti pretvoreni u anonimnu statistiku, i ni po kakvim okolnostima nećemo koristiti, deliti ili objavljivati vaše lične podatke.
+Za anketu vam je potrebno pet minuta, i unapred vam zahvaljujemo na ukazanom vremenu. Treba da napomenemo da nijedno pitanje nije obavezno, stoga možete da preskočite ona koja vam se ne dopadaju.
+
+Vaši
+Elke, Lodevejk, Marten i Tomaš
+Koordinatorski tim konkursa „Viki voli spomenike“, info@wikilovesmonuments.org',
+	'2012-header-demographics' => 'Demografija',
+	'2012-question-country' => 'U kojoj zemlji živite?',
+	'2012-other-country-lives' => 'Druga zemlja:',
+	'2012-question-birth-year' => 'Koje ste godine rođeni?',
+	'2012-birth-year' => 'Godina:',
+	'2012-hide-birth-year' => 'Ne želim da otkrivam',
+	'2012-question-gender' => 'Kog ste pola?',
+	'2012-gender-male' => 'muškog',
+	'2012-gender-female' => 'ženskog',
+	'2012-gender-other' => 'Drugo / Ne želim da otkrivam',
+	'2012-header-wikimedia-activity' => 'Aktivnost u okviru Vikimedije',
+	'2012-explanation-select-multiple' => 'Izaberite sve što se odnosi na vas.',
+	'2012-question-wlm-participation' => 'Koje godine ste učestvovali u konkursu „Viki voli spomenike“?',
+	'2012-question-edited-wiki' => 'Da li ste uređivali Vikipediju/Vikimediju pre nego što ste učestvovali na konkursu „Viki voli spomenike“?',
+	'2012-edited-sporadically' => 'Da, s vremena na vreme (manje od pet izmena mesečno).',
+	'2012-edited-regularly' => 'Da, redovno doprinosim (više od pet izmena mesečno).',
+	'2012-edited-never' => 'Ne, nisam uređivao/la druge projekte pre učestvovanja na konkursu „Viki voli spomenike“.',
+	'2012-header-competition' => 'Konkurs',
+	'2012-question-discovered-wlm' => 'Kako ste saznali za konkurs „Viki voli spomenike 2012“?',
+	'2012-discovered-sitenotice' => 'Preko plakata na Vikipediji ili drugim Vikimedijinim projektima.',
+	'2012-discovered-noticeboard' => 'Preko saopštenja na Trgu ili na oglasnoj tabli zajednice.',
+	'2012-discovered-social' => 'Preko društvenih medija (Fejsbuk, Gugl+, Tviter…).',
+	'2012-discovered-news' => 'Preko elektronskih ili štampanih medija.',
+	'2012-discovered-friend' => 'Neko mi je rekao za konkurs.',
+	'2012-discovered-other' => 'Drugo:',
+	'2012-question-countries-uploaded' => 'Za koje zemlje ste otpremali fotografije?',
+	'2012-other-country-upload' => 'Druga zemlja:',
+	'2012-question-photos-taken' => 'Kada ste napravili (najviše) fotografija za 2012?',
+	'2012-photos-taken-sep-2012' => 'Tokom septembra 2012.',
+	'2012-photos-taken-jan-aug-2012' => 'U periodu između januara i avgusta 2012.',
+	'2012-photos-taken-2000-2011' => 'U periodu između 2000. i 2011. godine.',
+	'2012-photos-taken-before-2000' => 'Pre 2000. godine.',
+	'2012-header-motivation' => 'Motivacija',
+	'2012-question-motivation' => 'Glavni motiv za učestvovanje u konkursu bio je:',
+	'2012-motivation-prize' => 'Da osvojim nagradu',
+	'2012-motivation-help' => 'Da doprinesem Vikipediji',
+	'2012-motivation-discover-heritage' => 'Da se upoznam sa lokalnim kulturnim nasleđem',
+	'2012-motivation-share-heritage' => 'Da podelim kulturno nasleđe svoje zemlje s drugima',
+	'2012-motivation-easy' => 'Činilo mi se lako, pa sam rekao zašto da ne.',
+	'2012-motivation-other' => 'Drugo:',
+	'2012-header-usability' => 'Korišćenje',
+	'2012-scale-difficult-1-text' => 'Veoma lako',
+	'2012-scale-difficult-2-text' => 'Lako',
+	'2012-scale-difficult-3-text' => 'Normalno',
+	'2012-scale-difficult-4-text' => 'Teško',
+	'2012-scale-difficult-5-text' => 'Veoma teško',
+	'2012-question-find-info' => 'Koliko vam je bilo teško da pronađete opšte informacije o konkursu?',
+	'2012-question-find-lists' => 'Koliko vam je bilo teško da pronađete spiskove spomenika vaše zemlje/okruženja?',
+	'2012-question-find-identifier' => 'Koliko vam je bilo teško da pronađete identifikatore spomenika koji su vas zanimali?',
+	'2012-question-usability-upload' => 'Koliko vam je bilo teško da otpremate fotografije na „Viki voli spomenike 2012“?',
+	'2012-question-usability-main-obstacle' => 'Koja vam je bila glavna prepreka (ako ste je imali) za učešće na konkursu? Ako želite, detaljno obrazložite ili pak ostavite prazno.',
+	'2012-header-future' => 'Budućnost',
+	'2012-scale-likely-1-text' => 'Malo verovatno',
+	'2012-scale-likely-5-text' => 'Veoma verovatno',
+	'2012-question-will-participate' => 'Verovatno ću ponovo učestvovati na konkursu „Viki voli spomenike“ sledeće godine, ako se priredi u mojoj zemlji:',
+	'2012-question-will-recommend' => 'Preporučio/la bih konkurs „Viki voli spomenike“ svojim prijateljima:',
+	'2012-question-will-edit' => 'Verovatno ću od sada više da uređujem ili dodajem sadržaj na Vikipediju:',
+	'2012-header-comments' => 'Drugi komentari',
+	'2012-can-leave-empty' => 'Ovo polje možete da ostavite prazno.',
+	'2012-question-comments' => 'Ukoliko imate dodatne komentare ili predloge za „Viki voli spomenike“, onda ih napišite ovde:',
+	'2012-question-follow-up' => 'Ako želite da vas obavestimo o rezultatima ankete ili o drugim saopštenjima vezanim za „Viki voli spomenike“, onda napišite ispod svoje korisničko ime i/ili e-adresu:',
+	'2012-username' => 'Korisničko ime:',
+	'2012-email' => 'E-adresa:',
+	'2012-send-survey' => 'Pošaljite odgovore',
+);
+
 /** Swedish (svenska)
  * @author Ainali
+ * @author Grytolle
+ * @author Haxpett
  * @author Prolineserver
  */
 $messages['sv'] = array(
 	'title' => 'Wiki Loves Monuments undersökning',
 	'survey-mode-preparation' => 'Denna undersökning är fortfarande under arbete.
-Du är välkommen att testa den och lämna "svar" men de lämnade svaren kommer raderas innan den riktiga undersökningen börjar.',
+Du är välkommen att testa den och lämna "svar", men de lämnade svaren kommer raderas innan den riktiga undersökningen börjar.',
 	'survey-mode-closed' => 'Denna undersökning har stängt och du kan inte längre delta.',
 	'2012-header-introduction' => 'Introduktion',
 	'2012-welcome-text' => 'Välkommen till deltagarundersökningen för Wiki Loves Monuments 2012!
-Målet med den här undersökningen är att samla in statistik om de personer som deltog i Wiki Loves Monuments, deras motivation för att delta och deras åsikter om hur tävlingen var organiserad. Vårt mål är att använda denna information för att förbättra era erfarenheter av Wiki Loves Monuments 2013, och att göra nästa omgång av tävlingen ännu vänligare, enklare och mer rolig att delta i!
+Målet med den här undersökningen är att samla in statistik om de personer som deltog i Wiki Loves Monuments, deras motivation för att delta och deras åsikter om hur tävlingen var organiserad. Vårt mål är att använda denna information för att förbättra er upplevelse av Wiki Loves Monuments 2013, och att göra nästa omgång av tävlingen ännu vänligare, enklare och mer rolig att delta i!
 Vi kommer att använda era svar i denna undersökning till att skapa anonym statistik och kommer inte under några omständigheter att använda, dela med oss av eller publicera någon slags personlig identifierbar data.
 Det tar ca 5 minuter att fylla i undersökningen och vi tackar dig på förhand för att du har tagit dig tid till detta. Vänligen notera att ingen fråga är obligatorisk och du kan avstå från att svara på dem om du vill.
 
@@ -1446,16 +2018,16 @@ Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org',
 	'2012-header-wikimedia-activity' => 'Wikimedia aktivitet',
 	'2012-explanation-select-multiple' => 'Välj alla som passar',
 	'2012-question-wlm-participation' => 'Vilket år deltog du i Wiki Loves Monuments?',
-	'2012-question-edited-wiki' => 'Har du någon gång redigerat Wikipedia/Wikiedia innan du deltog i Wiki Loves Monuments (första gången)?',
+	'2012-question-edited-wiki' => 'Har du någon gång redigerat Wikipedia/Wikimedia innan du deltog i Wiki Loves Monuments (första gången)?',
 	'2012-edited-sporadically' => 'Ja, jag har redigerat då och då (mindre än fem redigeringar per månad)?',
 	'2012-edited-regularly' => 'Ja, jag har bidragit regelbundet (mer än fem gånger per månad).',
 	'2012-edited-never' => 'Nej, jag har aldrig försökt redigera innan jag deltog i Wiki Loves Monuments.',
-	'2012-header-competition' => 'Konkurrens',
-	'2012-question-discovered-wlm' => 'Hur fick du reda på Wiki Loves Monuments 2012?',
-	'2012-discovered-sitenotice' => 'Via reklam på Wikipedia eller annat Wikiedia projekt.',
+	'2012-header-competition' => 'Tävling',
+	'2012-question-discovered-wlm' => 'Hur hörde du talas om Wiki Loves Monuments 2012?',
+	'2012-discovered-sitenotice' => 'Via reklam på Wikipedia eller annat Wikimediaprojekt.',
 	'2012-discovered-noticeboard' => 'Genom information via "Bybrunnen" eller andra samlingsplatsers anslagstavlor.',
 	'2012-discovered-social' => 'Via sociala medier (Facebook, Google+, Twitter...).',
-	'2012-discovered-news' => 'Genom nyhetsmedier (online eller tryckt)',
+	'2012-discovered-news' => 'Genom nyhetsmedier (online eller tryckt).',
 	'2012-discovered-friend' => 'Någon jag känner berättade för mig om tävlingen.',
 	'2012-discovered-other' => 'Annat:',
 	'2012-question-countries-uploaded' => 'Vilka land laddade du upp bilder för?',
@@ -1481,13 +2053,13 @@ Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org',
 	'2012-scale-difficult-5-text' => 'Väldigt svårt',
 	'2012-question-find-info' => 'Hur svårt det var för dig att hitta generell information om tävlingen.',
 	'2012-question-find-lists' => 'Hur svårt var det för dig att hitta listor av monument i ditt land/ ditt område?',
-	'2012-question-find-identifier' => 'Hur svårt var det för dig att hitta monumentets ID-nummer för de monument du var intresserad i?',
-	'2012-question-usability-upload' => 'Hur svårt var det för dig att ladda upp bilder för Wiki Loves Monuments 2012?',
-	'2012-question-usability-main-obstacle' => 'Vad var det största hindret, om det var något, för dig att delta i tävlingen? Om du önskar kan du utveckla ditt svar i detalj, men även lämna fältet öppet.',
+	'2012-question-find-identifier' => 'Hur svårt var det för dig att hitta monumentets ID-nummer för de monument du var intresserad av?',
+	'2012-question-usability-upload' => 'Hur svårt var det för dig att ladda upp bilder till Wiki Loves Monuments 2012?',
+	'2012-question-usability-main-obstacle' => 'Vad var det största hindret, om det var något, för dig att delta i tävlingen? Om du önskar kan du utveckla ditt svar i detalj, men även lämna fältet tomt.',
 	'2012-header-future' => 'Framtiden',
 	'2012-scale-likely-1-text' => 'Minst sannolikt',
 	'2012-scale-likely-5-text' => 'Mycket sannolikt',
-	'2012-question-will-participate' => 'jag kommer sannolikt delta i Wiki Loves Monuments nåsta år igen om mitt land organiserar det.',
+	'2012-question-will-participate' => 'Jag kommer sannolikt delta i Wiki Loves Monuments nåsta år igen om det organiseras i mitt land.',
 	'2012-question-will-recommend' => 'Jag skulle rekommendera mina vänner att delta i Wiki Loves Monuments:',
 	'2012-question-will-edit' => 'Det är nu mer sannolikt att jag skulle rätta till misstag eller lägga till innehåll/information på Wikipedia:',
 	'2012-header-comments' => 'Andra kommentarer',
@@ -1562,6 +2134,56 @@ Mnakaribishwa Kuijaribu na kuwasilisha "majibu", lakini matokeo yatakayolewa yat
 	'2012-send-survey' => 'Tuma utafiti',
 );
 
+/** Tamil (தமிழ்)
+ * @author Effeietsanders
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'title' => 'விக்கி நினைவுச் சின்னங்களை விரும்புகிறது கருத்துக்கணிப்பு',
+	'survey-mode-preparation' => 'இக் கருத்துக்கணிப்பு இன்னும் தயாரிப்பு நிலையில் தான் உள்ளது. 
+நீங்கள் இக்கருத்துக்கணிப்பைச் சோதிக்க வரவேற்கப்படுகிறீர்கள். ஆனால் உங்கள் விடைகள் உண்மையான கருத்துக் கணிப்பு துவங்கும் முன் அழிக்கப்பட்டு விடும்.',
+	'survey-mode-closed' => 'இக் கருத்துக் கணிப்பு மூடப்பட்டு விட்டது. இதைச் சமர்ப்பிக்க முடியாது.',
+	'2012-header-introduction' => 'அறிமுகம்',
+	'2012-question-country' => 'தாங்கள் வாழும் நாடு எது ?',
+	'2012-question-birth-year' => 'தாங்கள் எந்த வருடத்தில் பிறந்தீர்கள் ?',
+	'2012-birth-year' => 'ஆண்டு:',
+	'2012-hide-birth-year' => 'எனக்கு இதைத் தெரிவிக்க விருப்பமில்லை.',
+	'2012-question-gender' => 'பாலினம்',
+	'2012-gender-male' => 'ஆண்',
+	'2012-gender-female' => 'பெண்',
+	'2012-gender-other' => 'பிற / எனது பாலினத்தைக் கூற எனக்கு விருப்பமில்லை',
+	'2012-header-wikimedia-activity' => 'விக்கிமீடியா பங்களிப்புகள்',
+	'2012-explanation-select-multiple' => 'பொருத்தமானவை அனைத்தையும் தேர்வு செய்க',
+	'2012-question-edited-wiki' => 'விக்கி நினைவுச் சின்னங்களை விரும்புகிறது போட்டியில் பங்கேற்பதற்கு முன்னர் எப்போதாவது விக்கிபீடியா அல்லது விக்கிமீடியாவில் பங்களித்திருக்கிறீர்களா ?',
+	'2012-header-competition' => 'போட்டி',
+	'2012-discovered-sitenotice' => 'விக்கிப்பீடியா அல்லது பிற விக்கிமீடியா திட்டங்களின் தள அறிவிப்பு வாயிலாக அறிந்து கொண்டேன்.',
+	'2012-discovered-friend' => 'எனக்குத் தெரிந்த ஒருவர் இப்போட்டியைப் பற்றிக் கூறினார்.',
+	'2012-discovered-other' => 'மற்றவை:',
+	'2012-other-country-upload' => 'மற்ற நாடு:',
+	'2012-photos-taken-sep-2012' => 'படங்களை  2012 ஆம் ஆண்டு செம்டம்பர் மாதத்தில் எடுத்தேன்.',
+	'2012-photos-taken-2000-2011' => 'படங்களை 2000 மற்றும் 2001 ஆம் ஆண்டுகளுக்கு இடையில் எடுத்தேன்.',
+	'2012-photos-taken-before-2000' => 'படங்களை 2000 ஆம் ஆண்டுக்கு முன் எடுத்தேன்.',
+	'2012-header-motivation' => 'உந்துதல் எண்ணம்',
+	'2012-question-motivation' => 'விக்கி நினைவுச்சின்னங்களை விரும்புகிறது 2012 போட்டியில் நான் பங்களிக்க முக்கிய உந்துதல் :',
+	'2012-motivation-prize' => 'பரிசை வெல்ல',
+	'2012-motivation-help' => 'விக்கிப்பீடியாவிற்கு உதவ',
+	'2012-motivation-discover-heritage' => 'எனது பகுதியின் கலைப் பண்பாட்டு மரபுகளை அறிய',
+	'2012-motivation-share-heritage' => 'எனது பகுதியின் கலைப் பண்பாட்டு மரபுகளை மற்றவர்களோடு பகிர்ந்து கொள்ள',
+	'2012-motivation-easy' => 'இது மிக எளிதான ஒன்றாதலால் நான் ஏன் பங்களிக்க் கூடாது என எண்ணினேன்.',
+	'2012-motivation-other' => 'மற்றவை:',
+	'2012-header-usability' => 'பயன்பாட்டுக் கடினநிலை',
+	'2012-scale-difficult-1-text' => 'மிக எளிது',
+	'2012-scale-difficult-2-text' => 'எளிது',
+	'2012-scale-difficult-3-text' => 'சராசரி',
+	'2012-scale-difficult-4-text' => 'கடினம்',
+	'2012-scale-difficult-5-text' => 'மிகக் கடினம்',
+	'2012-header-comments' => 'பிற கருத்துகள்',
+	'2012-can-leave-empty' => 'இப் புலத்தை நீங்கள் வெறுமையாக விடலாம்.',
+	'2012-username' => 'பயனர் பெயர்:',
+	'2012-email' => 'மின்னஞ்சல்:',
+	'2012-send-survey' => 'கருத்துக் கணிப்பை அனுப்பு',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -1580,53 +2202,78 @@ $messages['te'] = array(
  */
 $messages['tl'] = array(
 	'title' => 'Survey ng Wiki Loves Monuments',
-	'survey-mode-preparation' => 'Hinahanda pa ang survey na ito. Maari niyo itong subukan at magsumite ng mga "sagot," ngunit ang mga resultang makukuha ay mabubura bago simulan ang aktuwal na survey.',
-	'survey-mode-closed' => "Natapos na ang survey na ito at 'di na maaaring maisumite.",
+	'survey-mode-preparation' => 'Hinahanda pa ang survey na ito. Maari niyo itong subukan at magsumite ng mga "sagot," ngunit ang mga lalabas na resulta ay buburahin bago simulan ang aktuwal na survey.',
+	'survey-mode-closed' => 'Natapos na ang survey na ito at hindi na ito maaaring maisumite.',
 	'2012-header-introduction' => 'Panimula',
+	'2012-welcome-text' => 'Ito ang survey para sa mga lumahok sa Wiki Loves Monuments 2012!
+Hangad ng survey na ito ang makakalap ng istatistika tungkol sa mga lumahok sa Wiki Loves Monuments, ang mga nakahikayat sa kanilang pagsali, at ang kanila na ring mga opinyon kung paano isinagawa ang paligsahan. Balak naming gamitin ang impormasyong ito upang mapabuti ang inyong magiging karanasan sa Wiki Loves Monuments sa 2013, at gawin ang susunod na edisyon ng paligsahan na higit na kaaya-aya, madali, at masaya sa mga lalahok. 
+Gagamitin namin ang inyong kasagutan sa survey na ito upang makagawa ng walang pagkakakilanlang istatistika, at hindi namin gagamitin, ibabahagi at isasapubliko ang ano mang personal na pagkakakilanlan kahit ano pa ang mangyari. 
+Gugugol ng mahigit-kumulang 5 minuto ang pagsagot sa survey na ito, at ngayon pa lang ay nagpapasalamat na kami sa paglaan ng panahon para rito. Tandaan na walang tanong ang sapilitang kailangang sagutin, at maaari kayong lumaktaw kung nanaisin. 
+
+Sumasainyo,
+Elke, Lodewijk, Maarten and Tomasz
+Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org',
 	'2012-header-demographics' => 'Demograpiko',
 	'2012-question-country' => 'Aling bansa ka nakatira?',
 	'2012-other-country-lives' => 'Iba pang bansa:',
-	'2012-question-birth-year' => 'Anong taon kang ipinanganak?',
+	'2012-question-birth-year' => 'Anong taon ka ipinanganak?',
 	'2012-birth-year' => 'Taon:',
 	'2012-hide-birth-year' => 'Nanaisin kong hindi sabihin',
 	'2012-question-gender' => 'Ano ang iyong kasarian?',
 	'2012-gender-male' => 'Lalaki',
 	'2012-gender-female' => 'Babae',
 	'2012-gender-other' => 'Iba pa / Nanaisin kong hindi sabihin',
-	'2012-header-wikimedia-activity' => 'Gawaing Wikimedia',
+	'2012-header-wikimedia-activity' => 'Gawi sa Wikimedia',
 	'2012-explanation-select-multiple' => 'Piliin ang lahat na naaangkop.',
 	'2012-question-wlm-participation' => 'Anong taon ka lumahok sa Wiki Loves Monuments?',
-	'2012-question-edited-wiki' => 'Nakapag-edit ka na ba sa Wikipedia/Wikimedia bago lumahok sa Wiki Loves Monuments (unang pagkakataon)?',
-	'2012-edited-sporadically' => 'Oo, nag-eedit ako paminsan-minsan (mababa sa limang edit bawat buwan).',
+	'2012-question-edited-wiki' => 'Nakapag-edit ka na ba sa Wikipedia/Wikimedia bago pa man lumahok sa Wiki Loves Monuments (sa unang pagkakataon)?',
+	'2012-edited-sporadically' => 'Oo, nag-eedit na ako paminsan-minsan (mababa sa limang edit bawat buwan).',
 	'2012-edited-regularly' => 'Oo, madalas na akong nag-aambag (mahigit sa limang edit bawat buwan).',
-	'2012-edited-never' => 'Hindi pa ako hindi ko pa nagawa iyan bago lumahok sa Wiki Loves Monuments.',
+	'2012-edited-never' => 'Hindi pa, hindi ko pa nagawa iyan bago lumahok sa Wiki Loves Monuments.',
 	'2012-header-competition' => 'Paligsahan',
 	'2012-question-discovered-wlm' => 'Paano mo nalaman ang tungkol sa Wiki Loves Monuments ng 2012?',
 	'2012-discovered-sitenotice' => 'Sa pamamagitan ng mga banner sa Wikipedia at iba pang Wikimedia projects.',
+	'2012-discovered-noticeboard' => 'Sa pamamagitan ng impormasyon sa Village pump o sa community noticeboard.',
 	'2012-discovered-social' => 'Sa social media (Facebook, Google+, Twitter...).',
-	'2012-discovered-news' => 'Sa mga balita (online o nakalimbag).',
-	'2012-discovered-friend' => 'May kakilala akong nagsabi tungkol sa paligsahan',
+	'2012-discovered-news' => 'Sa mga balita (online o nakalathala).',
+	'2012-discovered-friend' => 'May kakilala akong nagsabi tungkol sa paligsahan.',
 	'2012-discovered-other' => 'Iba pa:',
-	'2012-question-countries-uploaded' => 'Aling bansa ka nag-upload ng mga larawan?',
+	'2012-question-countries-uploaded' => 'Aling bansa ka nag-upload ng mga litrato?',
 	'2012-other-country-upload' => 'Ibang bansa:',
+	'2012-question-photos-taken' => 'Kailan kinunan (ang karamihan) sa iyong mga isinumite ngayong 2012?',
 	'2012-photos-taken-sep-2012' => 'Kinunan ko ang mga litrato noong Setyembre 2012.',
 	'2012-photos-taken-jan-aug-2012' => 'Kinunan ko ang mga litrato sa pagitan ng Enero at Agosto 2012.',
 	'2012-photos-taken-2000-2011' => 'Kinunan ko ang mga litrato sa pagitan ng 2000 at 2011.',
-	'2012-photos-taken-before-2000' => 'Kinunan ko ang mga litrato bago taong 2000.',
+	'2012-photos-taken-before-2000' => 'Kinunan ko ang mga litrato bago 2000.',
+	'2012-header-motivation' => 'Nakapaghikayat',
+	'2012-question-motivation' => 'Ang pangunahing nakapaghikayat sa akin upang magsumite ng litrato para sa Wiki Loves Monuments 2012 ay:',
+	'2012-motivation-prize' => 'Manalo ng premyo',
+	'2012-motivation-help' => 'Makatulong sa Wikipedia',
+	'2012-motivation-discover-heritage' => 'Matuklasan ang lokal na pamanang-lahi',
+	'2012-motivation-share-heritage' => 'Maibahagi sa iba ang lokal na pamanang-lahi',
+	'2012-motivation-easy' => 'Madali lang naman, kaya bakit naman hindi?',
+	'2012-motivation-other' => 'Iba pa:',
+	'2012-header-usability' => 'Dali ng paggamit',
 	'2012-scale-difficult-1-text' => 'Napakadali',
 	'2012-scale-difficult-2-text' => 'Madali',
 	'2012-scale-difficult-3-text' => 'Katamtaman',
 	'2012-scale-difficult-4-text' => 'Mahirap',
 	'2012-scale-difficult-5-text' => 'Napakahirap',
-	'2012-question-find-info' => 'Gaano kahirap maghagilap ng pangkalahatang impormasyong tungkol sa paligsahan',
-	'2012-question-find-lists' => 'Gaano kahirap humanap ng listahan ng mga bantayog sa iyong bansa/pamayanan?',
-	'2012-question-usability-upload' => 'Gaano kahirap sa iyo na mag-upload ng larawan para sa Wiki Loves Monument 2012',
-	'2012-question-usability-main-obstacle' => 'Ano ang naging pangunahing hadlang, kung mayroon man, sa iyoong paglahok sa paligsahan? Kung nanaisin, ipaliwanag ito ng husto, maaari rin namang iwang walang laman',
+	'2012-question-find-info' => 'Gaano kahirap maghanap ng impormasyong tungkol sa paligsahan',
+	'2012-question-find-lists' => 'Gaano kahirap humanap ng listahan ng mga bantayog sa iyong bansa/paligid?',
+	'2012-question-find-identifier' => 'Gaano kahirap hanapin ang monument identifier number ng mga bantayog na interesado ka',
+	'2012-question-usability-upload' => 'Gaano kahirap para sa iyo ang mag-upload ng litrato para sa Wiki Loves Monument 2012',
+	'2012-question-usability-main-obstacle' => 'Ano ang naging pangunahing hadlang, kung mayroon man, sa iyong paglahok sa paligsahan? Kung nanaisin, ipaliwanag ito ng husto, maaari rin namang iwan ng walang laman',
 	'2012-header-future' => 'Sa nahaharap',
-	'2012-question-will-recommend' => 'Irerekomenda ko sa aking mga kaibigan na lumahok sa Wiki Loves Monuments:',
+	'2012-scale-likely-1-text' => 'Hindi na siguro',
+	'2012-scale-likely-5-text' => 'Malamang',
+	'2012-question-will-participate' => 'Malamang lalahok ulit ako sa Wiki Loves Monuments sa susunod na taon kung isasagawa ito sa aking bansa:',
+	'2012-question-will-recommend' => 'Sasabihin ko sa aking mga kaibigan na lumahok sa Wiki Loves Monuments:',
+	'2012-question-will-edit' => 'Higit ko nang maitatama ang mga mali ko o makakapag-ambag sa Wikipedia:',
 	'2012-header-comments' => 'Iba pang komento',
 	'2012-can-leave-empty' => 'Maaaring iwan ito ng walang laman.',
-	'2012-question-comments' => 'Sumulat ng karagdagang komento o mungkahi hinggil sa Wiki Loves Monuments:',
+	'2012-question-comments' => 'Sumulat ng karagdagang komento o mungkahi tungkol sa Wiki Loves Monuments:',
+	'2012-question-follow-up' => 'Kung nais ninyong malaman ang resulta ng survey o iba pang balita tungkol sa Wiki Loves Monuments, iwan ang inyong username at/o e-mail address sa ibaba:',
 	'2012-username' => 'Username:',
 	'2012-email' => 'E-mail address:',
 	'2012-send-survey' => 'Isumite ang survey',
