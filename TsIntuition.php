@@ -1305,7 +1305,7 @@ class TsIntuition {
 
 	/**
 	 * Redo language init
-	 * Use this when you've messaged with the cookies and don't want to refresh
+	 * Use this when you've changed the cookies and don't want to refresh
 	 * for it to be applied
 	 * @return true
 	 */
