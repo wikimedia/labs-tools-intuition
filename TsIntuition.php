@@ -1315,7 +1315,7 @@ class TsIntuition {
 		$s = '';
 		$m = count( $l ) - 1;
 		if ( $m == 1 ) {
-			return $l[0] . $this->msg( 'and', array( 'domain' => 'general' ) ) . $this->msg( 'word-separator', array( 'domain' => 'general' ) ) . $l[1];
+			$s = $l[0] . $this->msg( 'and', array( 'domain' => 'general' ) ) . $this->msg( 'word-separator', array( 'domain' => 'general' ) ) . $l[1];
 		} else {
 			for ( $i = $m; $i >= 0; $i-- ) {
 				if ( $i == $m ) {
@@ -1326,8 +1326,8 @@ class TsIntuition {
 					$s = $l[$i] . $this->msg( 'comma-separator', array( 'domain' => 'general' ) ) . $s;
 				}
 			}
-			return str_replace( '&#32;', ' ', $s );
 		}
+		return str_replace( '&#32;', ' ', $s );
 	}
 
 	/**
