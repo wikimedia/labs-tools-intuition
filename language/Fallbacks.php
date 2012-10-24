@@ -5,7 +5,7 @@
 
 // Listed a few examples for now.
 // Perhaps this can be automated in the future via TranslateWiki based on MediaWiki's core fallbacks.
-// Values can be geted by getFallbacks.php
+// Values can be refreshed with getFallbacks.php
 $fallbacks = array(
 	'ab' => 'ru',
 	'ace' => 'id',
@@ -22,6 +22,7 @@ $fallbacks = array(
 	'bar' => 'de',
 	'bat_smg' => 'sgs',
 	'bcc' => 'fa',
+	'be_tarask' => 'be',
 	'be_x_old' => 'be-tarask',
 	'bh' => 'bho',
 	'bjn' => 'id',
