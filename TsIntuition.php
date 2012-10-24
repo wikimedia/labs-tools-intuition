@@ -1304,6 +1304,33 @@ class TsIntuition {
 	}
 
 	/**
+	 * Take a list of strings and build a locale-friendly comma-separated
+	 * list, using the local comma-separator message.
+	 * The last two strings are chained with an "and".
+	 *
+	 * @param $l Array
+	 * @return string
+	 */
+	function listToText( $l ) {
+		$s = '';
+		$m = count( $l ) - 1;
+		if ( $m == 1 ) {
+			return $l[0] . $this->msg( 'and', array( 'domain' => 'general' ) ) . $this->msg( 'word-separator', array( 'domain' => 'general' ) ) . $l[1];
+		} else {
+			for ( $i = $m; $i >= 0; $i-- ) {
+				if ( $i == $m ) {
+					$s = $l[$i];
+				} elseif ( $i == $m - 1 ) {
+					$s = $l[$i] . $this->msg( 'and', array( 'domain' => 'general' ) ) . $this->msg( 'word-separator', array( 'domain' => 'general' ) ) . $s;
+				} else {
+					$s = $l[$i] . $this->msg( 'comma-separator', array( 'domain' => 'general' ) ) . $s;
+				}
+			}
+			return str_replace( '&#32;', ' ', $s );
+		}
+	}
+
+	/**
 	 * Redo language init
 	 * Use this when you've changed the cookies and don't want to refresh
 	 * for it to be applied

@@ -29,6 +29,9 @@ $messages['en'] = array(
 	'last-modified-date' => 'Last modified: $1',
 	'view-source' => 'View source',
 	'parentheses' => '($1)', // Optional
+	'comma-separator' => ',&#32;', // Optional
+	'word-separator' => '&#32;', // Optional
+	'and' => '&#32;and',
 );
 
 /** Message documentation (Message documentation)
@@ -58,6 +61,9 @@ $messages['qqq'] = array(
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
 	'parentheses' => '{{Optional}}',
+	'comma-separator' => '{{Optional}} Used for separating lists of items. {{Identical|comma-separator}}',
+	'word-separator' => '{{Optional}} Used for separating lists of words. {{Identical|word-separator}}',
+	'and' => 'The translation for "and" appears in the [[Special:Version]] page, between the last two items of a list. If a comma is needed, add it at the beginning without a gap between it and the "&". <nowiki>&#32;</nowiki> is a blank space, one character long. Please leave it as it is. {{Identical|and}}',
 );
 
 /** Tati (Tati)
