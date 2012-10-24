@@ -117,7 +117,7 @@ Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org",
 	// Messages used when showing your answers:
 	'2012-thank-you-answer' => 'Thanks for filling out this survey!',
 	'2012-not-answered' => 'You decided not to answer this question.',
-	'2012-bad-year-answer' => 'The provided year $1 was invalid. Answer ignored.',
+	'2012-bad-year-answer' => 'The provided year "$1" was invalid. Answer ignored.',
 	'2012-no-comments' => 'No comments provided.',
 	'2012-change-answers' => 'Change my answers',
 	'2012-returnto' => 'Return to $1',
