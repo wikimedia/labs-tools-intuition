@@ -113,6 +113,14 @@ Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org",
 	'2012-email' => 'E-mail address:',
 
 	'2012-send-survey' => 'Send survey',
+
+	// Messages used when showing your answers:
+	'2012-thank-you-answer' => 'Thanks for filling out this survey!',
+	'2012-not-answered' => 'You decided not to answer this question.',
+	'2012-bad-year-answer' => 'The provided year $1 was invalid. Answer ignored.',
+	'2012-no-comments' => 'No comments provided.',
+	'2012-change-answers' => 'Change my answers',
+	'2012-returnto' => 'Return to $1',
 );
 
 /** Message documentation (Message documentation)
@@ -191,6 +199,15 @@ $messages['qqq'] = array(
 	'2012-username' => 'Label for the textbox to provide a username',
 	'2012-email' => 'Label for the textbox to provide an email address',
 	'2012-send-survey' => 'Caption of the button to send the survey',
+	'2012-thank-you-answer' => 'Text at the top thanking you that you sent the survey.',
+	'2012-not-answered' => 'You decided not to answer this question.',
+	'2012-bad-year-answer' => 'The user provided an invalid birth year (in the future, 200 years ago, not a number...).
+This kind of answer is treated by the survey as ifi no year was provided, even if showed here.
+Parameter $1: The wrong year.',
+	'2012-no-comments' => 'Like 2012-not-answered message, but for the question about further comments.',
+	'2012-change-answers' => 'Caption for a button sending the user back to the survey, if he wants to amend some answers.',
+	'2012-returnto' => 'Caption of the final link which sends you to the page from where you came.
+Parameter $1: Name of the url where you are sent back. A domain name or the text "Wikimedia Commons"',
 );
 
 /** Afrikaans (Afrikaans)
