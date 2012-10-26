@@ -420,6 +420,14 @@ $messages['gl'] = array(
 	'toolserver-status-short-missing' => '$1: Inexistente',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'toolserver-status-short-ok' => '$૧ : બરાબર', # Fuzzy
+	'toolserver-status-short-info' => '$૧ : માહિતી', # Fuzzy
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -801,7 +809,7 @@ $messages['nl'] = array(
 $messages['or'] = array(
 	'toolserver-status-short-ok' => '$1: ଠିକ ଅଛି',
 	'toolserver-status-short-info' => '$1: ତଥ୍ୟ',
-	'toolserver-status-short-warn' => '$: ସତର୍କ',
+	'toolserver-status-short-warn' => '$: ସତର୍କ', # Fuzzy
 	'toolserver-status-short-down' => '$1: ଖରାପ',
 	'toolserver-status-short-erro' => '$1: ଭୁଲ',
 	'toolserver-status-short-unknown' => '$1: ଅଜଣା',
@@ -1141,4 +1149,3 @@ $messages['zh-hk'] = array(
 	'toolserver-status-short-unknown' => '$1:未知',
 	'toolserver-status-short-missing' => '$1:丢失',
 );
-

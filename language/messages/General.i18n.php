@@ -66,15 +66,9 @@ $messages['qqq'] = array(
 	'and' => 'The translation for "and" appears in the [[Special:Version]] page, between the last two items of a list. If a comma is needed, add it at the beginning without a gap between it and the "&". <nowiki>&#32;</nowiki> is a blank space, one character long. Please leave it as it is. {{Identical|and}}',
 );
 
-/** Tati (Tati)
- * @author Erdemaslancan
- */
-$messages['ttt'] = array(
-	'form-submit' => 'Buşu',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
+ * @author Platonides
  */
 $messages['af'] = array(
 	'hello' => 'Hallo',
@@ -92,6 +86,7 @@ $messages['af'] = array(
 	'seconds' => '{{PLURAL: $1|sekonde|sekondes}}',
 	'last-modified-date' => 'Laaste wysiging op: $1',
 	'view-source' => 'Wys bronteks',
+	'and' => '&#32;en',
 );
 
 /** Arabic (العربية)
@@ -203,6 +198,7 @@ $messages['ba'] = array(
 
 /** Belarusian (беларуская)
  * @author LexArt
+ * @author Platonides
  */
 $messages['be'] = array(
 	'hello' => 'Прывітанне',
@@ -212,16 +208,18 @@ $messages['be'] = array(
 	'namespace' => 'Прастора назваў',
 	'form-submit' => 'Перайсці',
 	'form-reset' => 'Скінуць',
-	'years' => 'гадоў',
-	'weeks' => 'тыдняў',
-	'days' => 'дзён',
-	'hours' => 'гадзін',
+	'years' => 'гадоў', # Fuzzy
+	'weeks' => 'тыдняў', # Fuzzy
+	'days' => 'дзён', # Fuzzy
+	'hours' => 'гадзін', # Fuzzy
 	'last-modified-date' => 'Апошнія змены: $1',
 	'view-source' => 'Паказаць крынічны тэкст',
+	'and' => '&#32;і',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
+ * @author Platonides
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -240,6 +238,7 @@ $messages['be-tarask'] = array(
 	'seconds' => '{{PLURAL: $1|сэкунда|сэкунды|сэкундаў}}',
 	'last-modified-date' => 'Апошняя зьмена: $1',
 	'view-source' => 'Паказаць код',
+	'and' => '&#32;і',
 );
 
 /** Bulgarian (български)
@@ -248,11 +247,11 @@ $messages['be-tarask'] = array(
 $messages['bg'] = array(
 	'toolversionstamp' => 'Версия $1 ($2)',
 	'namespace' => 'Именно пространство',
-	'years' => 'години',
-	'weeks' => 'седмици',
-	'days' => 'дни',
-	'minutes' => 'минути',
-	'seconds' => 'секунди',
+	'years' => 'години', # Fuzzy
+	'weeks' => 'седмици', # Fuzzy
+	'days' => 'дни', # Fuzzy
+	'minutes' => 'минути', # Fuzzy
+	'seconds' => 'секунди', # Fuzzy
 );
 
 /** Banjar (Bahasa Banjar)
@@ -323,15 +322,16 @@ $messages['bs'] = array(
 	'namespace' => 'Imenski prostor',
 	'form-submit' => 'Idi',
 	'form-reset' => 'Poništi',
-	'years' => 'godine',
-	'weeks' => 'sedmice',
-	'days' => 'dani',
-	'hours' => 'sati',
+	'years' => 'godine', # Fuzzy
+	'weeks' => 'sedmice', # Fuzzy
+	'days' => 'dani', # Fuzzy
+	'hours' => 'sati', # Fuzzy
 	'last-modified-date' => 'Zadnji put izmijenjeno; $1',
 	'view-source' => 'Pogledaj izvor',
 );
 
 /** Catalan (català)
+ * @author Platonides
  * @author SMP
  */
 $messages['ca'] = array(
@@ -350,6 +350,7 @@ $messages['ca'] = array(
 	'seconds' => '{{PLURAL:$1|segon|segons}}',
 	'last-modified-date' => 'Darrera modificació: $1',
 	'view-source' => 'Mostra el codi font',
+	'and' => '&#32;i',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -375,6 +376,7 @@ $messages['ckb'] = array(
 
 /** Czech (česky)
  * @author Mormegil
+ * @author Platonides
  */
 $messages['cs'] = array(
 	'hello' => 'Ahoj',
@@ -392,10 +394,12 @@ $messages['cs'] = array(
 	'seconds' => '{{PLURAL:$1|sekunda|sekundy|sekund}}',
 	'last-modified-date' => 'Naposledy změněno: $1',
 	'view-source' => 'Zobrazit zdrojový kód',
+	'and' => '&#32;a',
 );
 
 /** Danish (dansk)
  * @author Peter Alberti
+ * @author Platonides
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -414,11 +418,13 @@ $messages['da'] = array(
 	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
 	'last-modified-date' => 'Senest ændret: $1',
 	'view-source' => 'Vis kildekode',
+	'and' => '&#32;og',
 );
 
 /** German (Deutsch)
  * @author Kghbln
  * @author Krinkle
+ * @author Metalhead64
  */
 $messages['de'] = array(
 	'dateformat' => '%d %B %Y',
@@ -437,6 +443,9 @@ $messages['de'] = array(
 	'seconds' => '{{PLURAL: $1|Sekunde|Sekunden}}',
 	'last-modified-date' => 'Zuletzt geändert: $1',
 	'view-source' => 'Quelltext anzeigen',
+	'comma-separator' => ',&#32;',
+	'word-separator' => '&#32;',
+	'and' => '&#32;und',
 );
 
 /** Zazaki (Zazaki)
@@ -524,10 +533,12 @@ $messages['es'] = array(
 	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 	'last-modified-date' => 'Última modificación: $1',
 	'view-source' => 'Ver fuente',
+	'and' => '&#32;y',
 );
 
 /** Estonian (eesti)
  * @author Pikne
+ * @author Platonides
  * @author WikedKentaur
  */
 $messages['et'] = array(
@@ -546,6 +557,7 @@ $messages['et'] = array(
 	'seconds' => '{{PLURAL: $1|sekund|sekundit}}',
 	'last-modified-date' => 'Viimati muudetud: $1',
 	'view-source' => 'Vaata lähteteksti',
+	'and' => '&#32;ja',
 );
 
 /** Basque (euskara)
@@ -638,6 +650,7 @@ $messages['fo'] = array(
  * @author Crochet.david
  * @author Jean-Frédéric
  * @author Od1n
+ * @author Platonides
  */
 $messages['fr'] = array(
 	'hello' => 'Bonjour',
@@ -655,6 +668,7 @@ $messages['fr'] = array(
 	'seconds' => '{{PLURAL: $1|seconde|secondes}}',
 	'last-modified-date' => 'Dernière modification : $1',
 	'view-source' => 'Voir la source',
+	'and' => '&#32;et',
 );
 
 /** Franco-Provençal (arpetan)
@@ -692,6 +706,7 @@ $messages['ga'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
+	'dateformat' => '%e de %B de %Y',
 	'hello' => 'Ola',
 	'welcome' => 'Benvido',
 	'toolversionstamp' => 'Versión $1 ($2)',
@@ -707,10 +722,21 @@ $messages['gl'] = array(
 	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 	'last-modified-date' => 'Última modificación: $1',
 	'view-source' => 'Ver o código fonte',
+	'and' => '&#32;e',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'hello' => 'હેલો',
+	'welcome' => 'સ્વાગત',
+	'form-submit' => 'જાઓ',
 );
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Platonides
  */
 $messages['he'] = array(
 	'hello' => 'שלום',
@@ -728,9 +754,11 @@ $messages['he'] = array(
 	'seconds' => 'שנ׳',
 	'last-modified-date' => 'שונה לאחרונה: $1',
 	'view-source' => 'הצגת מקור',
+	'and' => '&#32;וגם',
 );
 
 /** Hindi (हिन्दी)
+ * @author Platonides
  * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
@@ -749,6 +777,7 @@ $messages['hi'] = array(
 	'seconds' => '{{PLURAL: $1|सॅकेंड}}',
 	'last-modified-date' => 'अंतिम परिवर्तन: $1',
 	'view-source' => 'स्रोत देखें',
+	'and' => '&#32;और',
 );
 
 /** Croatian (hrvatski)
@@ -764,8 +793,8 @@ $messages['hr'] = array(
 	'form-reset' => 'Poništi',
 	'years' => '{{PLURAL: $1|godina|godine|godina}}',
 	'weeks' => '{{PLURAL: $1|tjedan|tjedna|tjedana}}',
-	'days' => 'dana',
-	'hours' => 'sati',
+	'days' => 'dana', # Fuzzy
+	'hours' => 'sati', # Fuzzy
 	'minutes' => '{{PLURAL: $1|minuta|minute|minuta}}',
 	'seconds' => '{{PLURAL: $1|sekunda|sekunde|sekundi}}',
 	'last-modified-date' => 'Zadnja izmjena: $1',
@@ -897,6 +926,7 @@ $messages['inh'] = array(
 /** Italian (italiano)
  * @author Beta16
  * @author Nemo bis
+ * @author Platonides
  * @author Rippitippi
  */
 $messages['it'] = array(
@@ -915,6 +945,7 @@ $messages['it'] = array(
 	'seconds' => '{{PLURAL:$1|secondo|secondi}}',
 	'last-modified-date' => 'Ultima modifica: $1',
 	'view-source' => 'Visualizza sorgente',
+	'and' => '&#32;e',
 );
 
 /** Japanese (日本語)
@@ -942,6 +973,8 @@ $messages['ja'] = array(
 	'last-modified-date' => '最終更新: $1',
 	'view-source' => 'ソースを表示',
 	'parentheses' => '($1)',
+	'comma-separator' => '、',
+	'and' => '&#32;および&#32;',
 );
 
 /** Javanese (Basa Jawa)
@@ -1004,6 +1037,13 @@ $messages['km'] = array(
 	'view-source' => 'មើល​កូដ',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Platonides
+ */
+$messages['kn'] = array(
+	'and' => '&#32;ಮತ್ತು',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  * @author 아라
@@ -1024,6 +1064,7 @@ $messages['ko'] = array(
 	'seconds' => '{{PLURAL: $1|초}}',
 	'last-modified-date' => '최근 수정일: $1',
 	'view-source' => '내용 보기',
+	'and' => '&#32;(와)과',
 );
 
 /** Colognian (Ripoarisch)
@@ -1089,6 +1130,7 @@ $messages['la'] = array(
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Platonides
  * @author Robby
  */
 $messages['lb'] = array(
@@ -1108,6 +1150,7 @@ $messages['lb'] = array(
 	'seconds' => '{{PLURAL: $1|Sekonn|Sekonnen}}',
 	'last-modified-date' => 'Lescht Ännerung: $1',
 	'view-source' => 'Quellcode weisen',
+	'and' => '&#32;a(n)',
 );
 
 /** Lezghian (лезги)
@@ -1115,7 +1158,7 @@ $messages['lb'] = array(
  */
 $messages['lez'] = array(
 	'welcome' => 'Ша башуьсте',
-	'years' => 'йисар',
+	'years' => 'йисар', # Fuzzy
 	'weeks' => '{{PLURAL: $1|афте|афтеяр}}',
 	'days' => '{{PLURAL: $1|югъ|йикъар}}',
 	'hours' => '{{PLURAL: $1|сят|сятерал}}',
@@ -1133,10 +1176,10 @@ $messages['lt'] = array(
 	'namespace' => 'Vardų sritis',
 	'form-submit' => 'Eiti',
 	'form-reset' => 'Atstatyti',
-	'years' => 'metų',
-	'weeks' => 'savaičių',
-	'days' => 'dienų',
-	'hours' => 'valandų',
+	'years' => 'metų', # Fuzzy
+	'weeks' => 'savaičių', # Fuzzy
+	'days' => 'dienų', # Fuzzy
+	'hours' => 'valandų', # Fuzzy
 	'minutes' => '{{PLURAL: $1|minutė|minučių}}',
 	'seconds' => '$1 {{PLURAL:$1|sekundė|sekundžių}}',
 	'last-modified-date' => 'Paskutinį kartą atnaujinta: $1',
@@ -1180,10 +1223,19 @@ $messages['mk'] = array(
 	'seconds' => '{{PLURAL: $1|секунда|секунди}}',
 	'last-modified-date' => 'Последена измена: $1',
 	'view-source' => 'Извор',
+	'and' => '&#32;и',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Platonides
+ */
+$messages['ml'] = array(
+	'and' => '&#32;ഒപ്പം',
 );
 
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
+ * @author Platonides
  */
 $messages['ms'] = array(
 	'hello' => 'Apa khabar',
@@ -1201,6 +1253,7 @@ $messages['ms'] = array(
 	'seconds' => '{{PLURAL: $1|saat|saat}}',
 	'last-modified-date' => 'Kali terakhir diubah: $1',
 	'view-source' => 'Lihat sumber',
+	'and' => '&#32;dan',
 );
 
 /** Maltese (Malti)
@@ -1258,6 +1311,7 @@ $messages['nb'] = array(
 /** Dutch (Nederlands)
  * @author GerardM
  * @author Krinkle
+ * @author Platonides
  * @author SPQRobin
  * @author Siebrand
  */
@@ -1278,6 +1332,14 @@ $messages['nl'] = array(
 	'seconds' => '{{PLURAL: $1|seconde|seconden}}',
 	'last-modified-date' => 'Laatste wijziging op: $1',
 	'view-source' => 'Brontekst bekijken',
+	'and' => '&#32;en',
+);
+
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
+ * @author Platonides
+ */
+$messages['nn'] = array(
+	'and' => '&#32;og',
 );
 
 /** Norwegian (bokmål) (norsk (bokmål)‎)
@@ -1366,6 +1428,7 @@ $messages['pi'] = array(
 
 /** Polish (polski)
  * @author Odder
+ * @author Platonides
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -1384,6 +1447,7 @@ $messages['pl'] = array(
 	'seconds' => '{{PLURAL:$1|sekunda|sekundy|sekund}}',
 	'last-modified-date' => 'Ostatnia modyfikacja $1',
 	'view-source' => 'Tekst źródłowy',
+	'and' => '&#32;oraz',
 );
 
 /** Pashto (پښتو)
@@ -1419,10 +1483,10 @@ $messages['pt'] = array(
 	'namespace' => 'Espaço nominal',
 	'form-submit' => 'Enviar',
 	'form-reset' => 'Repor',
-	'years' => 'anos',
-	'weeks' => 'semanas',
-	'days' => 'dias',
-	'hours' => 'horas',
+	'years' => 'anos', # Fuzzy
+	'weeks' => 'semanas', # Fuzzy
+	'days' => 'dias', # Fuzzy
+	'hours' => 'horas', # Fuzzy
 	'last-modified-date' => 'Última modificação: $1',
 	'view-source' => 'Ver código fonte',
 );
@@ -1447,6 +1511,7 @@ $messages['pt-br'] = array(
 
 /** Romanian (română)
  * @author Minisarm
+ * @author Platonides
  */
 $messages['ro'] = array(
 	'hello' => 'Bună',
@@ -1464,6 +1529,7 @@ $messages['ro'] = array(
 	'seconds' => '{{PLURAL: $1|secundă|secunde}}',
 	'last-modified-date' => 'Ultima modificare: $1',
 	'view-source' => 'Sursă pagină',
+	'and' => '&#32;și',
 );
 
 /** tarandíne (tarandíne)
@@ -1493,6 +1559,7 @@ $messages['roa-tara'] = array(
 /** Russian (русский)
  * @author Eleferen
  * @author Lvova
+ * @author Platonides
  * @author Rave
  */
 $messages['ru'] = array(
@@ -1511,6 +1578,7 @@ $messages['ru'] = array(
 	'seconds' => '{{PLURAL: $1|секунда|секунды|секунд}}',
 	'last-modified-date' => 'Дата последнего изменения: $1',
 	'view-source' => 'Просмотр исходного кода',
+	'and' => '&#32;и',
 );
 
 /** Sinhala (සිංහල)
@@ -1534,6 +1602,13 @@ $messages['si'] = array(
 	'seconds' => '{{PLURAL: $1|තත්පරය|තත්පර}}',
 	'last-modified-date' => 'අවසන්වරට සංස්කරණය කරන ලද්දේ: $1',
 	'view-source' => 'මූලාශ්‍රය බලන්න',
+);
+
+/** Slovak (slovenčina)
+ * @author Platonides
+ */
+$messages['sk'] = array(
+	'and' => '&#32;a',
 );
 
 /** Slovenian (slovenščina)
@@ -1575,6 +1650,7 @@ $messages['sq'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Platonides
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1596,9 +1672,11 @@ $messages['sr-ec'] = array(
 	'last-modified-date' => 'Последња измена: $1',
 	'view-source' => 'Изворник',
 	'parentheses' => '($1)',
+	'and' => '&#32;и',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
+ * @author Platonides
  * @author Rancher
  */
 $messages['sr-el'] = array(
@@ -1620,12 +1698,14 @@ $messages['sr-el'] = array(
 	'last-modified-date' => 'Poslednja izmena: $1',
 	'view-source' => 'Izvornik',
 	'parentheses' => '($1)',
+	'and' => '&#32;i',
 );
 
 /** Swedish (svenska)
  * @author Cybjit
  * @author Liftarn
  * @author Lokal Profil
+ * @author Platonides
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1644,9 +1724,11 @@ $messages['sv'] = array(
 	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
 	'last-modified-date' => 'Senast uppdaterad: $1',
 	'view-source' => 'Visa källkod',
+	'and' => '&#32;och',
 );
 
 /** Swahili (Kiswahili)
+ * @author Platonides
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
@@ -1654,11 +1736,13 @@ $messages['sw'] = array(
 	'etc' => 'nk',
 	'form-submit' => 'Nenda',
 	'view-source' => 'Onyesha kodi za ukurasa',
+	'and' => '&#32;na',
 );
 
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Logicwiki
+ * @author Platonides
  * @author மதனாஹரன்
  */
 $messages['ta'] = array(
@@ -1677,9 +1761,11 @@ $messages['ta'] = array(
 	'seconds' => '{{PLURAL: $1|வினாடி|வினாடிகள்}}',
 	'last-modified-date' => 'கடைசியாகத் திருத்தப்பட்டது: $1',
 	'view-source' => 'மூலத்தைப் பார்',
+	'and' => ' மற்றும்',
 );
 
 /** Telugu (తెలుగు)
+ * @author Platonides
  * @author Veeven
  */
 $messages['te'] = array(
@@ -1697,6 +1783,7 @@ $messages['te'] = array(
 	'seconds' => '{{PLURAL: $1|క్షణం|క్షణాలు}}',
 	'last-modified-date' => 'చివరి మార్పు: $1',
 	'view-source' => 'మూలాన్ని చూడండి',
+	'and' => '&#32;మరియు',
 );
 
 /** Tetum (tetun)
@@ -1718,12 +1805,13 @@ $messages['tet'] = array(
  * @author Tigrigna1
  */
 $messages['ti'] = array(
-	'years' => 'ዓመት| ዓመታት',
-	'days' => 'መዓልቲ|መዓልታት',
+	'years' => 'ዓመት| ዓመታት', # Fuzzy
+	'days' => 'መዓልቲ|መዓልታት', # Fuzzy
 );
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Platonides
  */
 $messages['tl'] = array(
 	'hello' => 'Kumusta',
@@ -1741,6 +1829,7 @@ $messages['tl'] = array(
 	'seconds' => '{{PLURAL: $1|segundo|mga segundo}}',
 	'last-modified-date' => 'Huling nabago noong: $1',
 	'view-source' => 'Tingnan ang pinagmulan',
+	'and' => ',&#32;at',
 );
 
 /** толышә зывон (толышә зывон)
@@ -1781,6 +1870,13 @@ $messages['tr'] = array(
 	'seconds' => '{{PLURAL: $1|saniye|saniye}}',
 	'last-modified-date' => 'Son değiştirme: $1',
 	'view-source' => 'Kaynağı gör',
+);
+
+/** Tati (Tati)
+ * @author Erdemaslancan
+ */
+$messages['ttt'] = array(
+	'form-submit' => 'Buşu',
 );
 
 /** Tuvinian (тыва дыл)
@@ -1827,6 +1923,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Platonides
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1845,6 +1942,7 @@ $messages['uk'] = array(
 	'seconds' => '{{PLURAL:$1|секунда|секунди|секунд}}',
 	'last-modified-date' => 'Остання зміна: $1',
 	'view-source' => 'Переглянути код',
+	'and' => '&#32;и',
 );
 
 /** Uzbek (oʻzbekcha)
@@ -1856,6 +1954,7 @@ $messages['uz'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
+ * @author Platonides
  */
 $messages['vi'] = array(
 	'dateformat' => '%d tháng %m năm %Y',
@@ -1874,6 +1973,7 @@ $messages['vi'] = array(
 	'seconds' => '{{PLURAL:$1}}giây',
 	'last-modified-date' => 'Sửa đổi lần cuối: $1',
 	'view-source' => 'Xem mã nguồn',
+	'and' => '&#32;và',
 );
 
 /** Yiddish (ייִדיש)
@@ -1950,4 +2050,3 @@ $messages['zh-hk'] = array(
 	'last-modified-date' => '最後修改:$1',
 	'view-source' => '查看原始碼',
 );
-

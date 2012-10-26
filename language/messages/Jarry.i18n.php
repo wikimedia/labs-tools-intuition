@@ -28,6 +28,7 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
+	'title' => 'The head line of Jarry tools. {{Notranslate}}',
 	'moretools' => 'This is a link to the index of all tools by Jarry1250.',
 	'bugs' => 'The text for a footer link to a website where users can submit details of errors they encounter and suggestions for new features',
 	'comments' => 'The text for a footer link to a website where users can leave comments and queries about the tool',
@@ -570,4 +571,3 @@ $messages['zh-hk'] = array(
 	'comments' => '意見及查詢',
 	'error-form-empty' => '一個或多個必填的欄位尚未填入。在繼續之前，您應該完成它們。',
 );
-

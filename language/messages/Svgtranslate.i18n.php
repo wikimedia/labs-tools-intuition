@@ -85,6 +85,8 @@ $messages['qqq'] = array(
 Parameters:
 * $1 is the string {{msg-toolserver|svgtranslate-format-filename-example}}
 * $2 is the string {{msg-toolserver|svgtranslate-format-fullurl-example}}',
+	'format-filename-example' => '{{Notranslate}}',
+	'format-fullurl-example' => '{{Notranslate}}',
 	'svginput-label' => 'The label for main SVG filename input.',
 	'stats-footer' => 'This message is displayed at the bottom of the welcome page displaying some statistics.
 *$1 is the number of files
@@ -990,6 +992,20 @@ $messages['gl'] = array(
  */
 $messages['grc'] = array(
 	'th-language' => 'Γλῶττα',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'th-original' => 'મૂળ',
+	'th-translation' => 'ભાષાંતર',
+	'th-language' => 'ભાષા',
+	'th-username' => 'સભ્ય નામ',
+	'th-password' => 'પાસવર્ડ',
+	'th-method' => 'પધ્ધતિ',
+	'preview' => 'પૂર્વાવલોકન',
+	'translate' => 'ભાષાંતર',
 );
 
 /** Hebrew (עברית)
@@ -2728,4 +2744,3 @@ $messages['zh-hk'] = array(
 	'description-license' => '選擇描述及條款',
 	'finalise' => '決定細節',
 );
-

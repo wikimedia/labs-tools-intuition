@@ -1031,4 +1031,3 @@ $messages['zh-hk'] = array(
 	'error-suggestion' => '也許您把頁面名稱錯誤拼寫（如錯誤大小寫）了？',
 	'time-label' => '執行命令所需時間',
 );
-

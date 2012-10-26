@@ -473,6 +473,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'current-settings' => 'Sazê enewki',
@@ -480,7 +481,7 @@ $messages['diq'] = array(
 	'settings-legend' => 'Sazi',
 	'choose-language' => 'Yew zıwan weçinê',
 	'clear-cookies' => 'Çereza besterne',
-	'renew-cookies' => 'çereza anewe ke',
+	'renew-cookies' => 'çerezan newe ke',
 	'cookie-expiration' => 'wahdey çereza biyo pır',
 	'clearcookies-success' => 'Çerezi weş besterneyay',
 	'tab-overview' => 'Hera weynayis',
@@ -767,6 +768,24 @@ $messages['gl'] = array(
 	'help-translate-tooltip' => 'Axude aos outros traducindo á súa lingua as mensaxes da interface.',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'current-settings' => 'વર્તમાન સુયોજનો',
+	'current-language' => 'હાલમાં પસંદ કરાયેલ ભાષા',
+	'settings-legend' => 'સુયોજનો',
+	'choose-language' => 'ભાષા પસંદ કરો',
+	'clear-cookies' => 'કૂકી સાફ કરો',
+	'tab-settings' => 'સુયોજનો',
+	'tab-about' => 'વિષે',
+	'tab-demo' => 'પ્રયોગ',
+	'bl-mysettings' => 'મારી ભાષાના સુયોજનો',
+	'bl-mysettings-new' => 'ભાષા બદલો!',
+	'help-translate-tool' => 'આ ટૂલનું ભાષાંતર કરવા મદદ કરો',
+	'help-translate-all' => 'ટૂલસર્વરનુ ભાષાંતર કરવા મદદ કરો',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -1000,7 +1019,7 @@ $messages['it'] = array(
  * @author Whym
  */
 $messages['ja'] = array(
-	'fullname' => 'Toolserver のユーザーインターフェイスの国際化',
+	'fullname' => 'ツールサーバーのユーザーインターフェイスの国際化',
 	'current-settings' => '現在の設定',
 	'current-language' => '現在選択されている言語',
 	'settings-legend' => '設定',
@@ -2137,4 +2156,3 @@ $messages['zh-hk'] = array(
 	'help-translate-all' => '協助翻譯Toolserver！',
 	'help-translate-tooltip' => '幫助其他人把界面翻譯成您的語言。',
 );
-

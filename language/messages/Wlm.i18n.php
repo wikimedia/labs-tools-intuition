@@ -348,6 +348,8 @@ $messages['ast'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Competición',
 	'author' => 'Autor',
+	'country-header' => 'País',
+	'location' => 'Allugamientu',
 	'upload-time' => 'Data de carga',
 	'deleted' => 'Desaniciada ($1)',
 	'concursa' => 'Participa en WLM',
@@ -364,10 +366,25 @@ $messages['ast'] = array(
 	'view-frequency' => 'Monumentos populares',
 	'view-ccaa' => 'Ver por comunidaes autónomes',
 	'view-province' => 'Ver por provincies',
+	'country-label' => 'País:',
+	'all-countries' => 'Tolos países',
+	'limit-label' => 'Imaxes a amosar:',
+	'timezone-label' => 'Estaya horaria:',
+	'show-earlier-first' => 'Amosar primero les imaxes más nueves',
+	'show-older-first' => 'Amosar primero les imaxes más antigües',
+	'show-button' => 'Amosar',
+	'view-previous-images' => '← Ver les imaxes anteriores',
+	'view-later-images' => 'Ver les imaxes siguientes →',
+	'images-listed-count' => '$1 imaxes llistaes.',
+	'log-page-disclaimer' => "Esta ferramienta amuesa los ficheros de la [[:Category:$1|categoría afayadiza]] que se cargaron demientres el concursu.
+Los ficheros desaniciaos nun s'amuesen anque dempués se [$2 restauraren] y vuelvan a participar.",
+	'bot' => 'Bot',
 	'id-label' => 'Id. del monumentu:',
 	'id-none' => '(Nengún)',
+	'monuments-by-photographers-checkbox' => 'Ordenar los monumentos pol númberu de fotógrafos, non pol númberu de fotos.',
 	'monument-heading' => 'Monumentu',
 	'count-heading' => 'Semeyes',
+	'photographer-count-heading' => 'Fotógrafos',
 	'bic-list' => 'Llista',
 	'bic-gallery' => 'Galería',
 	'gallery-header' => 'Imaxes del monumentu con identificador $1.',
@@ -380,9 +397,19 @@ $messages['ast'] = array(
 	'users-text' => 'Esta páxina amuesa los autores, coles imaxes que xubieron y de cuantos monumentos',
 	'users-list' => 'Ver',
 	'distict-monuments' => 'Monumentos distintos',
+	'list-prolific-begin' => 'Llista de los participantes más activos:',
+	'list-prolific-by-photos' => 'por númberu de fotos',
+	'list-prolific-by-distinct-identifiers' => "por númberu d'identificadores diferentes",
+	'list-prolific-by-distinct-good-identifiers' => "por númberu d'identificadores llistaos diferentes",
+	'list-prolific-by-identifiers' => "por númberu d'identificadores de monumentu",
+	'list-prolific-by-good-identifiers' => "por númberu d'identificadores nes llistes",
+	'list-prolific-by-bad-identifiers' => "por númberu d'identificadores que nun tan nes llistes",
+	'group-by-identifiers-all-countries-meaningless' => "Munchos paises nun usen identificadores nes cargues, polo qu'estos resultaos probablemente nun son significativos.",
 	'province-heading' => 'Provincia',
 	'province-none' => '(Desconocíu)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => "Llista d'usuarios que participen en Wiki Loves Monuments $1 que paez que nun dieron una direición de corréu electrónicu.",
+	'nomail-user-count' => '$1 usuarios',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -807,7 +834,7 @@ $messages['diq'] = array(
 	'concursa' => "Letey WLM' bıgi",
 	'no-concursa' => 'WLM teber ra pırkerdış',
 	'not-available' => 'No çıno',
-	'date-unknown' => 'Nêzanıte',
+	'date-unknown' => 'Nêzanayen',
 	'total-images' => 'Resimi pêro: $1',
 	'view-uncategorized-images' => 'Resimê ke bêkategoriyê êna bıvin',
 	'show-images-all' => 'Resiman pêron bımocne',
@@ -1347,6 +1374,22 @@ Os ficheiros borrados non se mostran, aínda que fosen [$2 restaurados] e partic
 	'ccaa-heading' => 'CC.AA.',
 	'nomail-text' => 'Lista de usuarios que participan no Wiki Loves Monuments do ano $1 que non deron o seu enderezo de correo electrónico.',
 	'nomail-user-count' => '$1 usuarios',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'country-label' => 'દેશ:',
+	'all-countries' => 'બધા દેશ',
+	'timezone-label' => 'સમય ક્ષેત્ર:',
+	'show-button' => 'બતાવો',
+	'bot' => 'બોટ',
+	'id-none' => '(કંઈ નહી)',
+	'photographer-count-heading' => 'તસવીરકાર',
+	'bic-list' => 'યાદી',
+	'users-list' => 'જુઓ',
+	'nomail-user-count' => '$૧ વપરાશકર્તા', # Fuzzy
 );
 
 /** Hebrew (עברית)
@@ -1960,7 +2003,7 @@ $messages['ksh'] = array(
 	'monument-type' => 'De Zoot Dänkmohl',
 	'monument-id' => 'Dem Dänkmohl sing Kännong',
 	'province' => 'Provinz',
-	'comarque' => 'Comarca',
+	'comarque' => 'Comarca', # Fuzzy
 	'competes' => 'Määt met',
 	'author' => 'Urhävver',
 	'upload-time' => 'Huhjelaade (<abbr title="ußjedröck en de Summerzick vun Meddel-Europa">MESZ</abbr>)',
@@ -1978,7 +2021,7 @@ $messages['ksh'] = array(
 	'search-monuments' => 'Dänkmöhler söhke',
 	'view-frequency' => 'Dänkmöhler met vill Belder',
 	'view-ccaa' => 'Noh de eijenschtändeje Jemeinschaff zoteere
-',
+', # Fuzzy
 	'view-province' => 'Noh Provinß zoteet',
 	'country-label' => 'Land:',
 	'all-countries' => 'Alle Länder',
@@ -2098,6 +2141,7 @@ Geläschte Fichiere ginn net gewisen esougue wa si duerno [$2 restauréiert] gou
 	'province-heading' => 'Provënz',
 	'province-none' => '(Onbekannt)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lëscht vun de Benotzer déi bäi Wiki Loves Monuments $1 matgemaach hunn an déi - wéi et ausgesäit - keng E-Mail-Adress uginn hunn.',
 	'nomail-user-count' => '$1 Benotzer',
 );
 
@@ -2765,9 +2809,17 @@ $messages['ru'] = array(
 	'view-province' => 'Просмотр по областям',
 	'country-label' => 'Страна:',
 	'all-countries' => 'Все страны',
+	'limit-label' => 'Число изображений на странице:',
 	'timezone-label' => 'Часовой пояс:',
+	'show-earlier-first' => 'Вначале показывать более старые изображения',
+	'show-older-first' => 'Вначале показывать новые изображения',
+	'show-button' => 'Показать',
 	'view-previous-images' => '← Предыдущее изображение',
 	'view-later-images' => 'Следующее изображение →',
+	'images-listed-count' => '$1 изображений в списке.',
+	'log-page-disclaimer' => 'Этот инструмент показывает файлы, находящиеся в [[:Category:$1|соответствующей категории]], которые были загружены во время конкурса.
+Удаленные файлы не отображаются, даже если они были позднее [$2  восстановлены] и участвуют снова.',
+	'bot' => 'Бот',
 	'id-label' => 'Идентификатор памятника:',
 	'id-none' => '(Нет)',
 	'monument-heading' => 'Памятник',
@@ -3297,7 +3349,7 @@ $messages['uk'] = array(
 	'view-later-images' => 'Наступні зображення →',
 	'images-listed-count' => '$1зображень у списку.',
 	'log-page-disclaimer' => 'Цей інструмент показує файли [[: Категорія: $1 |відповідної категорії]] що були завантажені під час конкурсу.
-Видалені файли не відображаються, навіть якщо вони були пізніше [ $2  відновлені] і беруть участь знову.',
+Видалені файли не відображаються, навіть якщо вони були пізніше [ $2  відновлені] і беруть участь знову.', # Fuzzy
 	'bot' => 'Бот',
 	'id-label' => "Ідентифікатор пам'ятки",
 	'id-none' => '(Немає)',
@@ -3386,7 +3438,7 @@ Các tập tin đã xóa không được trình bày, ngay cả nếu về sau �
 	'author-heading' => 'Tác giả',
 	'bic-list-bad' => 'Xem',
 	'bic-list-all' => 'Danh sách đầy đủ',
-	'unregistered' => 'Không đăng ký',
+	'unregistered' => 'Không có tài khoản',
 	'users-text' => 'Trang này liệt kê các tác giả, các hình ảnh được họ tải lên, và các đài tưởng niệm được họ chụp hình',
 	'users-list' => 'Xem',
 	'distict-monuments' => 'Số đài tưởng niệm khác biệt',
@@ -3490,4 +3542,3 @@ $messages['zh-hk'] = array(
 	'province-none' => '（未知）',
 	'ccaa-heading' => 'CC.AA.',
 );
-

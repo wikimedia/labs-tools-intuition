@@ -411,4 +411,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hk'] = array(
 	'title' => '近期匿名活動',
 );
-

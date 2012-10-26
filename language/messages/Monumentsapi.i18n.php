@@ -67,6 +67,9 @@ $messages['en'] = array(
  * @author Siebrand
  */
 $messages['qqq'] = array(
+	'title' => '{{Notranslate}}
+
+The title of the tool.',
 	'search-title' => 'Title (window caption) of http://toolserver.org/~erfgoed/api/.',
 	'search-monuments-database' => 'Title (h1) of the page.',
 	'search-table-th-field' => 'Table header for the Field-column in the search table. {{Identical|Field}}',
@@ -1122,6 +1125,30 @@ $messages['gl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Lista de monumentos de orixe na Wikipedia',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'search-table-th-filter' => 'ચાળણી',
+	'search-table-th-search' => 'શોધો',
+	'filter-all-countries' => 'બધા દેશ',
+	'filter-all-languages' => 'બધી ભાષાઓ',
+	'db-field-country' => 'દેશ',
+	'db-field-lang' => 'ભાષા',
+	'db-field-name' => 'નામ',
+	'db-field-address' => 'સરનામું',
+	'db-field-lat' => 'અક્ષાંશ',
+	'db-field-lon' => 'રેખાંશ',
+	'db-field-image' => 'ચિત્ર',
+	'db-field-st_image' => 'ચિત્ર',
+	'db-field-st_image_pct' => 'ચિત્ર %',
+	'db-field-st_name' => 'નામ',
+	'db-field-st_name_pct' => 'નામ %',
+	'db-field-st_total' => 'કુલ આંકડો',
+	'toolbox-nav-search' => 'શોધો',
+	'location' => 'સ્થળ',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  * @author Inkbug
@@ -1698,7 +1725,7 @@ $messages['ksh'] = array(
 	'toolbox-label-searchtipps' => 'Mer kann %woot udder woot% udder %woot% nämme, wam_mer alles fenge well, woh „woot“ am Aanfang, am Ängk, udder en de Medde dren schtisch.',
 	'toolbox-meta-title' => 'Werkzüch!!FUZZY! vum 
 Loves Monuments',
-	'toolbox-main-title' => 'WLM Werkzüch ',
+	'toolbox-main-title' => 'WLM Werkzüch ', # Fuzzy
 	'toolbox-main-description' => 'Ene Pöngel Werkzüch för',
 	'toolbox-nav-homepage' => 'Houpsigg',
 	'toolbox-nav-statistics' => 'Schtatistike',
@@ -3106,4 +3133,3 @@ $messages['zh-hk'] = array(
 	'toolbox-nav-search' => '搜尋',
 	'toolbox-title-searchmonuments' => '搜索歷史',
 );
-

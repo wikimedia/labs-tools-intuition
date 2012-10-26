@@ -99,6 +99,9 @@ $3 is target wiki name.',
 	'categories' => '{{Identical|Categories}}',
 	'checkusage' => '{{Optional}}',
 	'use_checkusage' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
+	'tusc' => '{{Ignore}}
+
+{{hint-TUSC}}',
 	'use_tusc' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
 
 {{hint-TUSC}}',
@@ -128,14 +131,6 @@ $3 and $4 are for a clickable link ($3 is the start of the link, $4 the end of t
 	'help_mail' => '$1 is the mail address.',
 	'help_commons' => 'Parameters:
 * $1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link). The target of the link is http://commons.wikimedia.org/wiki/Commons_talk:CommonsHelper_2.',
-);
-
-/** Batak Toba (Batak Toba)
- * @author Aldnonymous
- */
-$messages['bbc-latn'] = array(
-	'attention' => 'Goit',
-	'description' => 'parhohas tu paorothon siboanon sian proyek Wikimedia tu Wikimedia Commons',
 );
 
 /** Afrikaans (Afrikaans)
@@ -295,6 +290,14 @@ $messages['az'] = array(
 	'new_filename' => 'Yeni fayl adı:',
 );
 
+/** Batak Toba (Batak Toba)
+ * @author Aldnonymous
+ */
+$messages['bbc-latn'] = array(
+	'attention' => 'Goit',
+	'description' => 'parhohas tu paorothon siboanon sian proyek Wikimedia tu Wikimedia Commons',
+);
+
 /** Belarusian (беларуская)
  * @author LexArt
  */
@@ -322,9 +325,9 @@ $messages['be'] = array(
 	'error_not_exists' => 'Файл-крыніца не існуе!',
 	'error_file_exists' => 'Файл ужо існуе ў $3 , як " $1 $4 $2 "!',
 	'error_diff_exists' => 'Розныя мэтавыя файлы існуюць у Вікі пад адною назвай!',
-	'error_no_meta' => '$1Метададзеныя$2 не знойдзеныя ў зыходнай Вікі!',
+	'error_no_meta' => '$1Метададзеныя$2 не знойдзеныя ў зыходнай Вікі!', # Fuzzy
 	'error_meta_no_good' => 'Метададзеныя: Не знойдзена слушных шаблонаў! $1Спасылка на метададзеныя $2',
-	'error_meta_bad' => 'Метададзеныя: Знойдзены $1няслушны шаблон!$2',
+	'error_meta_bad' => 'Метададзеныя: Знойдзены $1няслушны шаблон!$2', # Fuzzy
 	'original_wikitext' => 'Арыгінальны тэкст Вікі',
 	'new_wikitext' => 'Новы wiki-тэкст',
 	'new_filename' => 'Новае імя файла:',
@@ -1386,7 +1389,7 @@ $messages['hr'] = array(
 	'categories' => 'Kategorije',
 	'remove_cats' => 'Ukloni postojeće kategorije',
 	'use_checkusage' => 'rabite $1CommonSense$2 za prijedlog novih kategorija',
-	'use_tusc' => 'Rabite $1TUSC$2 za izravan prijenos datoteka',
+	'use_tusc' => 'Rabite $1TUSC$2 za izravan prijenos datoteka', # Fuzzy
 	'tusc_user' => 'TUSC suradničko ime',
 	'tusc_pass' => 'Lozinka za TUSC',
 	'do_it' => 'Učini',
@@ -1395,13 +1398,13 @@ $messages['hr'] = array(
 	'error_on_commons' => 'Izvorna datoteka je već na $1.',
 	'error_file_exists' => 'Datoteka već postoji na $3 kao "$1$4$2"!',
 	'error_diff_exists' => 'Drugačija odredišna datoteka postoji na navedenom wikiju pod istim imenom!',
-	'error_no_meta' => 'Metapodaci nisu pronađeni na izvornom wikiju. $1Poveznica$2',
-	'error_meta_no_good' => 'Metapodaci: nisu pronađeni dobri predlošci! $1Poveznica$2',
-	'error_meta_bad' => 'Metapodaci: pronađen loš predložak! $1Poveznica$2',
+	'error_no_meta' => 'Metapodaci nisu pronađeni na izvornom wikiju. $1Poveznica$2', # Fuzzy
+	'error_meta_no_good' => 'Metapodaci: nisu pronađeni dobri predlošci! $1Poveznica$2', # Fuzzy
+	'error_meta_bad' => 'Metapodaci: pronađen loš predložak! $1Poveznica$2', # Fuzzy
 	'original_wikitext' => 'Izvorni wiki tekst',
 	'new_wikitext' => 'Novi wiki tekst',
 	'new_filename' => 'Novi naziv datoteke:',
-	'output_information' => 'Za ručno postavljanje, uredite gornji tekst (ukoliko je potrebno), spremite $1datoteka$2 na svoje računalo, zatim',
+	'output_information' => 'Za ručno postavljanje, uredite gornji tekst (ukoliko je potrebno), spremite $1datoteka$2 na svoje računalo, zatim', # Fuzzy
 	'upload_submit' => 'Postavi!',
 	'target_wiki' => 'odredišni wiki',
 	'error_bot_blocked' => 'Bot za postavljanje je blokiran na Zajedničkom poslužitelju.',
@@ -2601,8 +2604,8 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Helder.wiki
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'attention' => 'Atenção',
@@ -2872,7 +2875,7 @@ $messages['sl'] = array(
 $messages['sq'] = array(
 	'attention' => 'Vëmendje',
 	'description' => 'Një vegël për të bartur skedarët nga projektet e Wikimedias në Wikimedia Commons',
-	'change_meta' => 'Ndryshoni cilësimet e $kategorisë dhe ndërfaqes$2 për $3',
+	'change_meta' => 'Ndryshoni cilësimet e $kategorisë dhe ndërfaqes$2 për $3', # Fuzzy
 	'jira_link' => 'Raportoni një vrimë ose sugjeroni një veçori',
 	'language' => 'Gjuha',
 	'project' => 'Projekti',
@@ -2883,7 +2886,7 @@ $messages['sq'] = array(
 	'move_file_from_com' => 'Lëvizni skedarin nga Wikimedia Commons në projekt',
 	'categories' => 'Kategori',
 	'remove_cats' => 'Largoni kategoritë ekzistuese',
-	'use_checkusage' => 'Përdorni $1CommoSense$ për të sugjeruar për kategori të reja.',
+	'use_checkusage' => 'Përdorni $1CommoSense$ për të sugjeruar për kategori të reja.', # Fuzzy
 	'use_tusc' => 'Përdorni $1TUSC$2 për të vërtetuar dhe bartuar drejtpërdrejt skedarin',
 	'tusc_user' => 'Emri i përdoruesit të TUSC',
 	'tusc_pass' => 'Fjalëkalimi në TUSC',
@@ -3504,4 +3507,3 @@ $messages['zh-hk'] = array(
 	'help_intro' => '如果您要報告錯誤、建議新功能或要詢問問題，您可以使用下方的任一聯繫類型：',
 	'help_mail' => '發送電子郵件到$1',
 );
-

@@ -128,7 +128,8 @@ $messages['br'] = array(
 	'form-legend-settings' => 'Arventennoù',
 );
 
-/** Bosnian (bosanski) */
+/** Bosnian (bosanski)
+ */
 $messages['bs'] = array(
 	'form-legend-settings' => 'Postavke',
 );
@@ -281,6 +282,13 @@ $messages['gl'] = array(
 	'form-legend-settings' => 'Configuracións',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'form-legend-settings' => 'ગોઠવણીઓ',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -393,7 +401,8 @@ $messages['ka'] = array(
 	'form-legend-settings' => 'პარამეტრები',
 );
 
-/** Khmer (ភាសាខ្មែរ) */
+/** Khmer (ភាសាខ្មែរ)
+ */
 $messages['km'] = array(
 	'form-legend-settings' => 'ការកំណត់​នានា',
 );
@@ -570,7 +579,8 @@ $messages['ps'] = array(
 	'form-legend-settings' => 'امستنې',
 );
 
-/** Portuguese (português) */
+/** Portuguese (português)
+ */
 $messages['pt'] = array(
 	'form-legend-settings' => 'Definições',
 );
@@ -778,4 +788,3 @@ $messages['zh-hk'] = array(
 	'alws-group-allaz' => '所有wiki按字母順序',
 	'form-legend-settings' => '設定',
 );
-

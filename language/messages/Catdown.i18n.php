@@ -600,7 +600,7 @@ $messages['diq'] = array(
 	'max-height' => 'En vesi berzey',
 	'invalid-width' => 'Herayey ravêrdi niya',
 	'invalid-height' => 'Dergey ravêrdi niya',
-	'download' => 'biyar war',
+	'download' => 'Barkerdış',
 	'scaling-width' => ', maksimum herayey rê sencen $1 {{plural:$1|piksel|pikseli}}',
 	'scaling-height' => ', maksimum dergey rê sencen $1 {{plural:$1|piksel|pikseli}}',
 	'scaling-both' => ', maksimum ebatê sencen $1x$2 piksela',
@@ -773,7 +773,7 @@ $messages['fa'] = array(
 	'no-such-project' => 'چنین پروژه‌ای وجود ندارد',
 	'no-images' => 'هیچ تصویری در این رده وجود ندارد',
 	'category-is-url' => 'نام ردهٔ داده‌شده به نظر نشانی اینترنتی است. باید نام رده را مشخص کنید نه نشانی اینترنتی‌اش را.',
-	'category-contains-namespace' => 'به نظر فضای‌نام را نیز پیش از نام رده قرار داده‌اید. با در نظرگیری این نام صفحهٔ مورد نظر [[رده:$1]] خواهد بود.',
+	'category-contains-namespace' => 'به نظر فضای‌نام را نیز پیش از نام رده قرار داده‌اید. با در نظرگیری این نام صفحهٔ مورد نظر [[رده:$1]] خواهد بود.', # Fuzzy
 	'zip-failed' => 'زیپ ایجاد نشد',
 	'image-area-too-big' => '$1 برای ایجاد تصویر بندانگشتی بیش از حد بزرگ است. استفاده از اندازهٔ کامل.',
 	'download-info' => '{{plural: $1|یک تصویر وجود دارد|$1 تصویر وجود دارد}}، با اندازهٔ تخمینی $2',
@@ -797,13 +797,13 @@ $messages['fi'] = array(
 	'no-such-project' => 'Projektia ei ole olemassa',
 	'no-images' => 'Luokassa ei ole kuvia',
 	'category-is-url' => 'Annettu luokan nimi vaikuttaa osoitteelta. Sinun tulee antaa luokan nimi, ei osoitetta.',
-	'category-contains-namespace' => 'Näyttää siltä, että olet sisällyttänyt nimiavaruuden luokan nimen lisäksi. Annetulla nimellä, sivu olisi saatavilla [[Luokka:$1]].',
+	'category-contains-namespace' => 'Näyttää siltä, että olet sisällyttänyt nimiavaruuden luokan nimen lisäksi. Annetulla nimellä, sivu olisi saatavilla [[Luokka:$1]].', # Fuzzy
 	'zip-failed' => 'Zip-tiedoston luonti epäonnistui',
 	'image-area-too-big' => '$1 on liian iso esikatselukuvan luomiseksi. Käytetään suurinta kokoa.',
 	'download-info' => 'On {{plural: $1|yksi kuva, jonka arvioitu koko|$1 kuvaa, joiden arvioitu yhteiskoko}} on $2',
 	'download' => 'Lataa',
 	'non-bundled-wget' => 'Huomautus: Tämä versio ei sisällä wgetiä Windowsille. Sinun täytyy purkaa kansioon wget.exe:llä tai ottaa wge mukaan polkuun',
-	'scaling-width' => ', skaalattu $1 pikselin enimmäiskokoon',
+	'scaling-width' => ', skaalattu $1 pikselin enimmäiskokoon', # Fuzzy
 	'scaling-height' => ', skaalattu enimmäiskorkeuteen $1 {{plural:$1|pikseli|pikseliä}}',
 	'scaling-both' => ', skaalattu enimmäiskokoon $1x$2 pikseliä',
 );
@@ -823,7 +823,7 @@ $messages['fo'] = array(
 	'no-such-project' => 'Tað er ongin sovorðin verkætlan',
 	'no-images' => 'Tað eru ongar myndir í hasum bólkinum',
 	'category-is-url' => "Navnið á bólkinum, ið tú skrivaði, líkist meira einum URL'i. Tú mást skriva nágreiniliga navnið á bólkinum, ikki internet adressuna.",
-	'category-contains-namespace' => 'Tað sær út sum um tú hevur tikið navnaøkið við saman við bólka heitinum. Við tí givna heitinum, so hevði síðan verði tøk sum [[Bólkur:$1]].',
+	'category-contains-namespace' => 'Tað sær út sum um tú hevur tikið navnaøkið við saman við bólka heitinum. Við tí givna heitinum, so hevði síðan verði tøk sum [[Bólkur:$1]].', # Fuzzy
 );
 
 /** French (français)
@@ -949,6 +949,18 @@ ou nestoutro espello de GNU
 	'scaling-width' => ', escaladas a un ancho máximo de $1 {{plural:$1|píxel|píxeles}}',
 	'scaling-height' => ', escaladas a unha altura máxima de $1 {{plural:$1|píxel|píxeles}}',
 	'scaling-both' => ', escaladas a un tamaño máximo de $1x$2 píxeles',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'project' => 'પરિયોજના:',
+	'category' => 'શ્રેણી:',
+	'max-width' => 'મહત્તમ પહોળાઇ',
+	'max-height' => 'મહત્તમ ઉંચાઇ:',
+	'invalid-width' => 'અયોગ્ય પહોળાઇ',
+	'invalid-height' => 'અયોગ્ય ઉંચાઇ',
 );
 
 /** Hebrew (עברית)
@@ -2081,13 +2093,13 @@ $messages['sq'] = array(
 	'no-such-project' => 'Nuk ka projekt të tillë',
 	'no-images' => 'Nuk ka fotografi në atë kategori',
 	'category-is-url' => 'Emri i dhënë i kategorisë duket të jetë një URL. Ju duhet të cekni emrin e kategorisë, jo URL-në e saj.',
-	'category-contains-namespace' => 'Duket se ju keni përfshirë hapësirën së bashku me emrin e kategorisë. Me emrin e dhënë, faqja do të jetë në dispozicion si [[Kategoria:$1]].',
+	'category-contains-namespace' => 'Duket se ju keni përfshirë hapësirën së bashku me emrin e kategorisë. Me emrin e dhënë, faqja do të jetë në dispozicion si [[Kategoria:$1]].', # Fuzzy
 	'zip-failed' => 'Krijimi në zip dështoi',
 	'image-area-too-big' => '$1 është shumë i madh për të krijuar një pamje. Duke përdorur madhësinë e plotë.',
 	'download-info' => '{{plural: $1|Është një fotografi|Janë $1 fotografi}}, me një madhësi të vlerësuar prej $2',
 	'download' => 'Shkarko',
 	'readme-contents' => 'Skedari i bashkëngjitur $4 liston 
-fotografitë në kategorinë $1 ($2) $3.',
+fotografitë në kategorinë $1 ($2) $3.', # Fuzzy
 	'non-bundled-wget' => 'Shënim: Ky version nuk përfshin wget për Windows. Juve do të ju duhet që të shpërndani në një follder me wget.exe ose anasjelltas, të keni wget në RRUGË',
 	'wget-info' => 'Ky skedar lidh një kopje të wget $1 (për platformën Windows). Wget është Softuer i Lirë, nën rregullat e Licencës së Përgjithshme Publike GNU versioni 3.
 Është një kopje e licencës më poshtë dhe ajo është gjithashtu në dispozicion në http://www.gnu.org/licenses/gpl-3.0.txt
@@ -2220,7 +2232,7 @@ $messages['sv'] = array(
 	'download-info' => '{{plural: $1|Det finns en bild|Det finns $1 bilder}} med en uppskattad storlek på $2',
 	'download' => 'Ladda ned',
 	'non-bundled-wget' => 'OBS: Denna version inkluderar inte wget för Windows. Du måste expandera
-till en mapp med wget.exe eller annars har wget i SÖKVÄGEN',
+till en mapp med wget.exe eller annars har wget i SÖKVÄGEN', # Fuzzy
 	'scaling-width' => ', skalas till en maximal bredd av $1 {{plural:$1|pixel|pixlar}}',
 	'scaling-height' => ', skalas till en maximal höjd av $1 {{plural:$1|pixel|pixlar}}',
 	'scaling-both' => ', skalas till en maximal storlek av $1x$2 pixlar',
@@ -2560,4 +2572,3 @@ Linux/Mac OS：
 	'scaling-height' => '縮放到最大高度$1{{plural:$1|pixel|pixels}}',
 	'scaling-both' => '縮放到最大尺寸$1x$2像素',
 );
-

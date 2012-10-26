@@ -562,6 +562,15 @@ $messages['gl'] = array(
 	'tablehead-hash' => 'Sumas de verificación',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'repo-site-link' => 'વેબસાઇટ',
+	'repo-lastmoddate-label' => 'તારીખ:',
+	'tablehead-filesize' => 'ફાઇલનું કદ',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -748,17 +757,17 @@ $messages['ja'] = array(
 	'updatelog-active' => '更新スクリプトを現在実行中です。あとで完了記録を確認してください。',
 	'download-button' => '$1 をダウンロード',
 	'download-directlink' => '直接リンク',
-	'title-downloadpage' => 'ダウンロード：$1',
+	'title-downloadpage' => 'ダウンロード: $1',
 	'downloadpage-directlink' => 'スナップショットをダウンロードするにはここをクリックします。',
 	'err-snapshotindex' => 'スナップショットのインデックスは一時的に利用できません。あとでもう一度やり直してください。',
-	'err-invalid-repo' => '不明なリポジトリ：「$1」',
-	'err-invalid-branch' => '不明なブランチ：リポジトリ「$2」内の「$1」',
+	'err-invalid-repo' => '不明なリポジトリ:「$1」',
+	'err-invalid-branch' => '不明なブランチ: リポジトリ「$2」内の「$1」',
 	'err-nosnapshot' => 'スナップショットは数時間ごとに生成されます。「$1」のスナップショット生成中にエラーが発生しました。あとでもう一度やり直してください。',
 	'err-noupdatelog' => '更新記録が見つかりませんでした。',
 	'repo-site-link' => 'ウェブサイト',
 	'repo-browse-link' => 'リポジトリを参照',
-	'repo-branches-label' => 'ブランチ：',
-	'repo-lastmoddate-label' => '日付：',
+	'repo-branches-label' => 'ブランチ:',
+	'repo-lastmoddate-label' => '日付:',
 	'branches-submit-button' => '取得する!',
 	'updatelog-link' => '更新記録',
 	'tablehead-repo' => 'リポジトリ',
@@ -852,7 +861,7 @@ Schpääder kanns De heh dann et kumplätte Protokoll dovun beloore.',
 	'download-button' => '$1 eronger laade',
 	'download-directlink' => 'tiräkte Lenk',
 	'title-downloadpage' => '$1 eronger laade',
-	'downloadpage-directlink' => 'Donn heh klecke, öm dä Schnapschoß eronger ze laade.',
+	'downloadpage-directlink' => 'Donn heh klecke, öm dä Schnapschoß eronger ze laade.', # Fuzzy
 	'err-snapshotindex' => 'Et Verzeijschneß met de Schnapschöß es em Momang nit ze bruche.
 Versöhg_et schpääder widder.',
 	'err-invalid-repo' => 'En Sammlong „$1“kenne mer nit.',
@@ -1571,4 +1580,3 @@ $messages['zh-hant'] = array(
 	'repo-lastmoddate-label' => '日期：',
 	'tablehead-filesize' => '檔案大小',
 );
-

@@ -373,6 +373,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'title' => 'BakusWerenayış2',
@@ -380,7 +381,7 @@ $messages['diq'] = array(
 	'hideredirects' => 'Hetenayışan bınımnê',
 	'hidesubpages' => 'Pelanê bınan bınımnê',
 	'limit' => 'Limit',
-	'page' => 'Per',
+	'page' => 'Pele',
 	'redirect' => 'Hetanayış ?',
 	'output' => 'Vıcyayış',
 	'update' => 'Noroc resn',
@@ -621,6 +622,15 @@ $messages['gl'] = array(
 	'deletesummary' => 'Limpando as páxinas de conversa orfas mediante $1',
 	'noresults' => 'Non hai páxina de conversa orfas neste espazo de nomes que coincidisen coa configuración.',
 	'resultslimited' => 'Os resultados limítanse a $1 páxinas.',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'hidesubpages' => 'પેટાપૃષ્ઠ છુપાવો',
+	'limit' => 'મર્યાદા',
+	'page' => 'પૃષ્ઠ',
 );
 
 /** Hebrew (עברית)
@@ -1001,6 +1011,7 @@ $messages['lb'] = array(
 	'tools-curr' => 'aktuell',
 	'tools-globalusage' => 'Globale Gebrauch',
 	'deletesummary' => 'Botze vu verweesten Diskussiouns-Säite mat $1',
+	'noresults' => 'Keng Diskussiouns-Weese-Säit op dëser Wiki an dësem Nummraum entsprécht Ären Astellungen.',
 	'resultslimited' => "D'Resultater goufen op $1 Säite limitéiert.",
 );
 
@@ -1106,7 +1117,8 @@ $messages['mt'] = array(
 	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'title' => 'Foreldreløse diskusjonssider 2',
 	'select-wiki-first' => '(velg en wiki først)',
@@ -1710,4 +1722,3 @@ $messages['zh-hk'] = array(
 	'noresults' => '此wiki中此命名空間中沒有孤立談話頁匹配您的設定。',
 	'resultslimited' => '結果只顯示$1頁面。',
 );
-

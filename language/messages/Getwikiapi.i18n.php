@@ -480,7 +480,8 @@ $messages['mt'] = array(
 	'output' => 'Riżultat għal "$1"',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'formats-heading' => 'utdataformater',
 	'input' => 'Inndata',
@@ -747,4 +748,3 @@ $messages['zh-hk'] = array(
 	'input' => '輸入',
 	'no-matches' => '找不到 "$1"',
 );
-
