@@ -414,8 +414,8 @@ Mard oc'h dedennet da dapout kod tarzh ar programm-mañ e c'hallit e bellgargañ
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 pe melezourioù GNU all, sellit ouzh
  http://www.gnu.org/prep/ftp.html",
-	'scaling-width' => ', skeuliaouet gant ul ledander brasañ a $1 {{plural:$1|piksel|piksel}}',
-	'scaling-height' => ', skeuliaouet gant un uhelder brasañ a $1 {{plural:$1|piksel|piksel}}',
+	'scaling-width' => ', skeuliaouet gant ul ledander brasañ a $1 {{plural:$1|piksel|piksel}}', # Fuzzy
+	'scaling-height' => ', skeuliaouet gant un uhelder brasañ a $1 {{plural:$1|piksel|piksel}}', # Fuzzy
 	'scaling-both' => ", skeuliaouet d'ur vent vrasañ a $1x$2 piksel",
 );
 
@@ -650,8 +650,8 @@ Jolic sy na žrědłowem coźe toś togo programa zajmowany, móžoš jen wót s
 
 Su teke druge glědałkowe GNU-serwery, glědaj
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => ', na maksimalnu šyrokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane',
-	'scaling-height' => ', na maksimalnu wusokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane',
+	'scaling-width' => ', na maksimalnu šyrokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane', # Fuzzy
+	'scaling-height' => ', na maksimalnu wusokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane', # Fuzzy
 	'scaling-both' => ', na maksimalnu wjelilkosć $1x$2 pikselow skalěrowane',
 );
 
