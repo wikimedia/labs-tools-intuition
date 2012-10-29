@@ -1283,6 +1283,13 @@ class TsIntuition {
 
 					 foreach ( $this->availableLanguages as $availableLang => $true ) {
 						 if ( !isset( $acceptableLanguages[$availableLang] ) ) {
+							$n = strchr( $availableLang, '-' );
+							// Assumption: We won't have translations for languages with several dashes on its language tag
+							if ( $n !== false && !isset( $acceptableLanguages[ substr( $availableLang, 0, $n - 1 ) ] ) ) {
+								// zh-hans should not be picked for "fr,*;q=0.3,zh;q=0.1" if we have non-Chinese translations.
+								continue;
+							}
+
 							 $set = $this->setLang( $availableLangf );
 							 break;
 						 }
@@ -1297,6 +1304,8 @@ class TsIntuition {
 				}
 			}
 		}
+
+		/* From this point on, we are choosing amongst languages with a $qVal of 0 */
 
 		if ( !$set ) {
 			/**
