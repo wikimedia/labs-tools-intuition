@@ -165,7 +165,7 @@ class TsIntuitionUtil {
 
 			list( $langCode, $qVal ) = $m;
 
-			$acceptableLanguages[$langCode] = $qVal;
+			$acceptableLanguages[ strtolower( $langCode ) ] = $qVal;
 		}
 
 		// Sort by q value in descending order
