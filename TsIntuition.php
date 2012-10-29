@@ -1244,7 +1244,9 @@ class TsIntuition {
 	 * - Second: Parameter override
 	 * - Third: Saved cookie
 	 * - Fourth: Preferences from Accept-Language header
-	 * - Fifth: English (default stays)
+	 * - Fifth: A language which is a prefix for one of the 
+	 * Accept-Language preferences.
+	 * - Sixth: English (default stays)
 	 *
 	 * @private
 	 *
@@ -1295,6 +1297,32 @@ class TsIntuition {
 				}
 			}
 		}
+
+		if ( !$set ) {
+			/**
+			 * Some browsers show (apparently by default) only a tag, 
+			 * such as "ru-RU", "fr-FR" or "es-mx".
+			 * This is broken behavior! The browser should be providing 
+			 * appropriate guidance.
+			 * Providing only a full tag is doing a disservice.
+			 * See RFC 2616 section 1.4 - http://tools.ietf.org/html/rfc2616#page-105
+			 */
+
+			foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
+				if ( !$qVal )
+					continue;
+
+				while ( ( $n = strrchr( $acceptLang, '-' ) ) !== false ) {
+					$acceptLang = substr( $acceptLang, 0, $n - 1 );
+					
+					if ( isset( $this->availableLanguages[$acceptLang] ) ) {
+						$set = $this->setLang( $acceptLang );
+						break 2;
+					}
+				}
+			}
+		}
+
 
 		if ( !$set ) {
 			$set = $this->setLang( 'en' );

@@ -5,7 +5,7 @@
  * @author Jan Luca <jan@toolserver.org>
  */
 
-$dir = "<path to messages dir of MediaWiki>";
+$dir = "/home/repos/git/mw/mediawiki/core/languages/messages/";
 $files = scandir( $dir );
 
 $output = fopen("output.php", "w");
@@ -28,6 +28,6 @@ foreach( $files as $file ) {
 		preg_match("@Messages(.*?)\\.php@", $file, $file_match);
 		$source_lang = $file_match[1];
 		$source_lang = strtolower($source_lang);
-		fwrite($output, "'".$source_lang."' => '".$fallback_lang."',\n");
+		fwrite($output, "\t'".$source_lang."' => '".$fallback_lang."',\n");
 	}
 }
