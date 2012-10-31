@@ -25,7 +25,7 @@ class TsIntuition {
 	public $localBaseDir;
 
 	public $registeredTextdomains;
-	public $version = '0.1.2-svn';
+	public $version = '0.1.3-alpha';
 	public $versionDate;
 	public $mode = null; // 'in-tool', 'dashboard'
 

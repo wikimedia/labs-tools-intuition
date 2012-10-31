@@ -24,7 +24,6 @@ if ( !file_exists( $BaseInit ) )  {
 }
 require_once( $BaseInit );
 
-
 require_once( dirname( __DIR__ ) . '/ToolStart.php' );
 
 /* Initialize TsIntuition */
@@ -54,6 +53,7 @@ $opts = array(
 );
 
 $Tool = BaseTool::newFromArray( $opts );
+$Tool->setSourceInfoGithub( 'Krinkle', 'TsIntuition', dirname( __DIR__ ) );
 
 /* Load Scripts & Styles */
 
