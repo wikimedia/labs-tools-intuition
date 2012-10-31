@@ -1,14 +1,10 @@
 <?php
 /**
+ * Global functions optoinally loaded with option 'globalfunctions'.
+ * @see TsIntuition::__construct
  *
- * Created on March 23, 2011
- *
- * Copyright 2011 Krinkle <krinklemail@gmail.com>
- *
- * This file is licensed under
- * the Creative Commons Attribution 3.0 Unported License
- * creativecommons.org/licenses/by/3.0/
- *
+ * @copyright 2011-2012 See AUTHORS.txt
+ * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
 

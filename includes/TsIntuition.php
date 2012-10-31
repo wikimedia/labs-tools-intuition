@@ -1,14 +1,9 @@
 <?php
 /**
+ * Main class.
  *
- * Created on March 23, 2011
- *
- * Copyright 2011 Krinkle <krinklemail@gmail.com>
- *
- * This file is licensed under
- * the Creative Commons Attribution 3.0 Unported License
- * creativecommons.org/licenses/by/3.0/
- *
+ * @copyright 2011-2012 See AUTHORS.txt
+ * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
 
@@ -27,7 +22,7 @@ class TsIntuition {
 	/* Variables
 	 * ------------------------------------------------- */
 
-	public $localBaseDir = __DIR__;
+	public $localBaseDir;
 
 	public $registeredTextdomains;
 	public $version = '0.1.2-svn';
@@ -104,7 +99,8 @@ class TsIntuition {
 	 * - stayalive
 	 * - param
 	 */
-	function __construct( $options = array() ) {
+	public function __construct( $options = array() ) {
+		$this->localBaseDir = dirname( __DIR__ );
 
 		if ( is_string( $options ) ) {
 			$options = array( 'domain' => $options );
@@ -137,7 +133,7 @@ class TsIntuition {
 		// Allow a tool to disable the loading of global functions,
 		// in case they have a _() and/or _e() already.
 		if ( $options['globalfunctions'] === true ) {
-			require_once( $this->localBaseDir . '/Functions.php' );
+			require_once( $this->localBaseDir . '/includes/Functions.php' );
 		}
 
 		// Allow a tool to suppress fatals, which will prevent TsIntuition from showing fatal errors.
@@ -456,7 +452,7 @@ class TsIntuition {
 		if ( is_string( $options['wikilinks'] ) ) {
 			$msg = TsIntuitionUtil::parseWikiLinks( $msg, $options['wikilinks'] );
 		}
-		
+
 		if ( $options['externallinks'] ) {
 			$msg = TsIntuitionUtil::parseExternalLinks( $msg );
 		}
@@ -1308,21 +1304,21 @@ class TsIntuition {
 
 		if ( !$set ) {
 			/**
-			 * Some browsers show (apparently by default) only a tag, 
+			 * Some browsers show (apparently by default) only a tag,
 			 * such as "ru-RU", "fr-FR" or "es-mx".
-			 * This is broken behavior! The browser should be providing 
+			 * This is broken behavior! The browser should be providing
 			 * appropriate guidance.
 			 * Providing only a full tag is doing a disservice.
 			 * See RFC 2616 section 1.4 - http://tools.ietf.org/html/rfc2616#page-105
 			 */
-
 			foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
-				if ( !$qVal )
+				if ( !$qVal ) {
 					continue;
+				}
 
-				while ( ( $n = strrchr( $acceptLang, '-' ) ) !== false ) {
+				while ( ( $n = strstr( $acceptLang, '-' ) ) !== false ) {
 					$acceptLang = substr( $acceptLang, 0, $n - 1 );
-					
+
 					if ( isset( $this->availableLanguages[$acceptLang] ) ) {
 						$set = $this->setLang( $acceptLang );
 						break 2;
@@ -1330,7 +1326,6 @@ class TsIntuition {
 				}
 			}
 		}
-
 
 		if ( !$set ) {
 			$set = $this->setLang( 'en' );

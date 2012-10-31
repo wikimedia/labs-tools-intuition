@@ -1,11 +1,11 @@
 <?php
 /**
- *
  * Functions for messages (PLURAL, etc.).
- *
- * @package TsIntuition
- * @author Jan Luca <jan@toolserver.org>
  * @see TsIntuition::msg()
+ *
+ * @copyright 2011-2012 See AUTHORS.txt
+ * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
+ * @package TsIntuition
  */
 
 class MessagesFunctions {

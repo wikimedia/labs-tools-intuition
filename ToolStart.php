@@ -1,8 +1,9 @@
 <?php
 /**
+ * Primary entry point for the back-end.
  *
- * Created on June 30, 2011
- *
+ * @copyright 2011-2012 See AUTHORS.txt
+ * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
 
@@ -20,6 +21,6 @@ if ( file_exists( __DIR__ . '/LocalConfig.php' ) ) {
 
 
 // Files
-require_once( __DIR__ . '/Defines.php' );
-require_once( __DIR__ . '/TsIntuitionUtil.php' );
-require_once( __DIR__ . '/TsIntuition.php' );
+require_once( __DIR__ . '/includes/Defines.php' );
+require_once( __DIR__ . '/includes/TsIntuitionUtil.php' );
+require_once( __DIR__ . '/includes/TsIntuition.php' );

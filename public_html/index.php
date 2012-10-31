@@ -1,14 +1,9 @@
 <?php
 /**
+ * Main index file of the TsIntuition Dashboard.
  *
- * Created on March 24, 2011
- *
- * Copyright 2011 Krinkle <krinklemail@gmail.com>
- *
- * This file is licensed under
- * the Creative Commons Attribution 3.0 Unported License
- * creativecommons.org/licenses/by/3.0/
- *
+ * @copyright 2011-2012 See AUTHORS.txt
+ * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
 
@@ -21,7 +16,15 @@
  * Configuration
  * -------------------------------------------------
  */
-require_once( '/home/krinkle/common/InitTool.php' ); // BaseTool
+
+// BaseTool
+$BaseInit = '../../ts-krinkle-basetool/InitTool.php';
+if ( !file_exists( $BaseInit ) )  {
+	$BaseInit = dirname( __DIR__ ) . '/includes/libs/ts-krinkle-basetool/InitTool.php';
+}
+require_once( $BaseInit );
+
+
 require_once( dirname( __DIR__ ) . '/ToolStart.php' );
 
 /* Initialize TsIntuition */

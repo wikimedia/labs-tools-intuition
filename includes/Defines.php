@@ -1,8 +1,9 @@
 <?php
 /**
+ * Constants.
  *
- * Created on March 23, 2011
- *
+ * @copyright 2011-2012 See AUTHORS.txt
+ * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
 

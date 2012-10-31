@@ -1,14 +1,9 @@
 <?php
 /**
+ * Static utitlities class.
  *
- * Created on March 25, 2011
- *
- * Copyright 2011 Krinkle <krinklemail@gmail.com>
- *
- * This file is licensed under
- * the Creative Commons Attribution 3.0 Unported License
- * creativecommons.org/licenses/by/3.0/
- *
+ * @copyright 2011-2012 See AUTHORS.txt
+ * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
 
@@ -22,6 +17,8 @@ if( !defined( 'TS_INTUITION' ) ) {
  * This class contains the static utility functions for the Itui class.
  */
 class TsIntuitionUtil {
+
+	private static $articlePath;
 
 	/**
 	 * Escapes a string with one of the known method and returns it
@@ -178,19 +175,21 @@ class TsIntuitionUtil {
 
 	/**
 	 * Given a text already html-escaped which contains urls in wiki format,
-	 * convert it to html
+	 * convert it to html.
+	 * @param $text
+	 * @return string
 	 */
-	public static function parseExternalLinks($text) {
+	public static function parseExternalLinks( $text ) {
 		static $urlProtocols = false;
 		if ( !$urlProtocols ) {
-			if ( function_exists( 'wfUrlProtocols' ) ) { // Allow custom protocols
+			// Allow custom protocols
+			if ( function_exists( 'wfUrlProtocols' ) ) {
 				$urlProtocols = wfUrlProtocols();
 			} else {
 				$urlProtocols = 'https?:\/\/|ftp:\/\/';
 			}
 		}
-		
-		
+
 		$extLinkBracketedRegex = '/(?:(<[^>]*)|' .
 			'\[(((?i)' . $urlProtocols . ')' . self::EXT_LINK_URL_CLASS . '+)\p{Zs}*([^\]\\x00-\\x08\\x0a-\\x1F]*?)\]|'
 			. '(((?i)' . $urlProtocols . ')' . self::EXT_LINK_URL_CLASS . '+))/Su';
@@ -199,9 +198,9 @@ class TsIntuitionUtil {
 	}
 	
 	/**
-	 * Changes the matches of parseExternalLinks into html
+	 * Changes the matches of parseExternalLinks into html.
 	 */
-	private static function parseExternalLinkArray($bits) {
+	private static function parseExternalLinkArray( $bits ) {
 		static $counter = 0;
 
 		if ( $bits[1] != '' )
@@ -216,12 +215,13 @@ class TsIntuitionUtil {
 		}
 	}
 
-	private static $articlePath;
-
 	/**
-	 * Given a text already html-escaped which contains wiki links, convert them to html
+	 * Given a text already html-escaped which contains wiki links, convert them to html.
+	 * @param $text
+	 * @param $articlePath
+	 * @return string
 	 */
-	public static function parseWikiLinks($text, $articlePath) {
+	public static function parseWikiLinks( $text, $articlePath ) {
 		self::$articlePath = $articlePath;
 
 		return preg_replace_callback( '/\[\[:?([^]|]+)(?:\|([^]]*))?\]\]/', 'self::parseWikiLinkArray', $text );
@@ -230,7 +230,7 @@ class TsIntuitionUtil {
 	/**
 	 * Changes the matches of parseWikiLinks into html
 	 */
-	private static function parseWikiLinkArray($bits) {
+	private static function parseWikiLinkArray( $bits ) {
 
 		if ( !isset( $bits[2] ) || $bits[2] == '' ) {
 			$bits[2] = strtr( $bits[1], '_', ' ' );
@@ -245,9 +245,12 @@ class TsIntuitionUtil {
 	 * Builds a pretty url link to a wiki article.
 	 * It assumes the wiki is not hosted on IIS7.
 	 * 
-	 * Most of this logic is taken from wfUrlencode()
+	 * Most of this logic is taken from wfUrlencode().
+	 * @param $articlePath
+	 * @param $article
+	 * @return string
 	 */
-	public static function prettyEncodedWikiUrl($articlePath, $article) {
+	public static function prettyEncodedWikiUrl( $articlePath, $article ) {
 		$s = strtr( $article, ' ', '_' );
 		$s = urlencode( $s );
 		$s = str_ireplace(
@@ -255,9 +258,9 @@ class TsIntuitionUtil {
 			array( ';', '@', '$', '!', '*', '(', ')', ',', '/', ':' ),
 			$s
 		);
-		
+
 		$s = str_replace( '$1', $s, $articlePath );
-		
+
 		return $s;
 	}
 }
