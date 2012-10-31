@@ -1,5 +1,6 @@
 # Intuition
 scripts/*.out
+LocalConfig.php
 
 # Node
 node_modules/
