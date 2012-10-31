@@ -1271,7 +1271,7 @@ class TsIntuition {
 			$acceptableLanguages = TsIntuitionUtil::GetAcceptableLanguages();
 			foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
 
-				if ( $acceptLang == '*' ) {
+				if ( $acceptLang === '*' ) {
 
 					/**
 					 * We pick the first available language which is not in $acceptableLanguages.
@@ -1280,10 +1280,9 @@ class TsIntuition {
 					 * or be missing from availableLanguages.
 					 * The order will be the one in the i18n file: en, af, ar...
 					 */
-
 					 foreach ( $this->availableLanguages as $availableLang => $true ) {
 						 if ( !isset( $acceptableLanguages[$availableLang] ) ) {
-							$n = strchr( $availableLang, '-' );
+							$n = strstr( $availableLang, '-' );
 							// Assumption: We won't have translations for languages with several dashes on its language tag
 							if ( $n !== false && !isset( $acceptableLanguages[ substr( $availableLang, 0, $n - 1 ) ] ) ) {
 								// zh-hans should not be picked for "fr,*;q=0.3,zh;q=0.1" if we have non-Chinese translations.
