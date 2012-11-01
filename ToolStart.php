@@ -19,7 +19,6 @@ if ( file_exists( __DIR__ . '/LocalConfig.php' ) ) {
 	include_once( __DIR__ . '/LocalConfig.php' );
 }
 
-
 // Files
 require_once( __DIR__ . '/includes/Defines.php' );
 require_once( __DIR__ . '/includes/TsIntuitionUtil.php' );

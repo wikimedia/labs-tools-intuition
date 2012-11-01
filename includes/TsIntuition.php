@@ -416,7 +416,7 @@ class TsIntuition {
 		// Just in case, one last check:
 		$rawMsg = $this->rawMsg( $domain, $lang, $key );
 		if ( is_null( $rawMsg ) ) {
-			$this->errTrigger( "Message \"$key\" in \"$domain\" undefined", __METHOD__, E_NOTICE );
+			$this->errTrigger( "Message \"$key\" in domain \"$domain\" not found", __METHOD__, E_NOTICE );
 			// Fall back to a simple [keyname]
 			return $this->bracketMsg( $key, $fail );
 		}
@@ -1373,7 +1373,7 @@ class TsIntuition {
 	}
 
 	private function errMsg( $msg, $context ) {
-		return htmlentities( "[$context] $msg", ENT_QUOTES, 'UTF-8' );
+		return "[$context] $msg";
 	}
 
 	// Custom version of trigger_error() that can be passed a custom filename and line number
@@ -1388,7 +1388,7 @@ class TsIntuition {
 			case E_COMPILE_ERROR:
 			case E_USER_ERROR:
 			case E_RECOVERABLE_ERROR:
-				$code = 'Fatal error: ';
+				$code = 'Fatal error';
 				$error = true;
 				$die = true;
 				break;
@@ -1398,19 +1398,19 @@ class TsIntuition {
 			case E_CORE_WARNING:
 			case E_COMPILE_WARNING:
 			case E_USER_WARNING:
-				$code = 'Warning: ';
+				$code = 'Warning';
 				$error = true;
 				break;
 
 			// Notice
 			case E_NOTICE:
-				$code = 'Notice: ';
+				$code = 'Notice';
 				$notice = true;
 				break;
 
 			// Unknown
 			default:
-				$code = 'Unknown error: ';
+				$code = 'Unknown error';
 		}
 
 		if ( $error && $this->suppressfatal ) {
@@ -1420,12 +1420,14 @@ class TsIntuition {
 			return;
 		}
 
-		echo "\n<strong>$code</strong>" . $this->errMsg( $msg, $context ) . ( $file != '' ? " in <strong>$file</strong>" : '' ) . ( $line != '' ? " on line <strong>$line</strong>" : '' ) . '.' ;
+		if ( php_sapi_name() === 'cli' ) {
+			echo "$code: " . $this->errMsg( $msg, $context ) . ( $file ? " in $file" : '' ) . ( $line ? " on line $line" : '' ) . '.' ;
+		} else {
+			echo "<b>$code: </b>" . htmlspecialchars( $this->errMsg( $msg, $context ) ) . ( $file ? " in <b>$file</b>" : '' ) . ( $line ? " on line <b>$line</b>" : '' ) . '.<br/>' ;
+		}
 
 		if ( $die && !$this->stayalive ) {
 			die;
-		} else {
-			echo "<br/>\n";
 		}
 	}
 

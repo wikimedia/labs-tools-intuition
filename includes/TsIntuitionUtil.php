@@ -88,7 +88,6 @@ class TsIntuitionUtil {
 		return $dump;
 	}
 
-
 	/* Primitive html building */
 	/* Based on kfTag from the BaseTool class */
 	public static function tag( $str, $wrapTag = 0, $attributes = array() ) {
@@ -121,54 +120,57 @@ class TsIntuitionUtil {
 	}
 
 	/**
-	 * Return a list of acceptable languages from an Accept-Language header
+	 * Return a list of acceptable languages from an Accept-Language header.
 	 * @param $rawList String List of language tags, formatted like an
 	 * HTTP Accept-Language header (optional; defaults to $_SERVER['HTTP_ACCEPT_LANGUAGE'])
 	 * @return array keyed by language codes with q-values as values.
 	 */
 	public static function getAcceptableLanguages( $rawList = false ) {
+		// Implementation based on MediaWiki 1.21's WebRequest::getAcceptLang
+		// Which is based on http://www.thefutureoftheweb.com/blog/use-accept-language-header
+
 		if ( $rawList === false ) {
 			$rawList = @$_SERVER['HTTP_ACCEPT_LANGUAGE'];
 		}
 
-		$acceptableLanguages = array();
+		// Return the language codes in lower case
+		$rawList = strtolower( $rawList );
 
-		// Accept-Language: 1#( language-range [ ";" "q" "=" qvalue ] )
-		// Example: "nl-be,nl;q=0.7,en-us,en;q=0.3"
 		// The list of elements is separated by comma and optional LWS
-		$languages = explode( ',', $rawList );
-		foreach ( $languages as $language ) {
-			$language = trim( $language ); // Remove optional LWS
+		// Extract the language-range and, if present, the q-value
+		$lang_parse = null;
+		preg_match_all(
+			'/([a-z]{1,8}(-[a-z]{1,8})*|\*)\s*(;\s*q\s*=\s*(1(\.0{0,3})?|0(\.[0-9]{0,3})?)?)?/',
+			$rawList,
+			$lang_parse
+		);
 
-			// Extract the language-range and, if present, the q-value
-			if ( !preg_match( '/^([A-Za-z]{1,8}(?:-[A-Za-z]{1,8})*|\*)(?:\s*;\s*q\s*=\s*([01](?:\.[0-9]{0,3})?))?$/', $language, $m )
-			) {
-				continue;
-			}
-
-			/**
-			 * $m is now an array with either two or three values:
-			 * - array( 'lang-code', 'lang-code' )
-			 * - array( 'lang-code;q=val', 'lang-code', 'val' )
-			 */
-
-			// We are not interested in the first value.
-			array_shift( $m );
-
-			// Default to 1 as q-val
-			if ( !isset( $m[1] ) ) {
-				$m[1] = '1';
-			}
-
-			list( $langCode, $qVal ) = $m;
-
-			$acceptableLanguages[ strtolower( $langCode ) ] = $qVal;
+		if ( !count( $lang_parse[1] ) ) {
+			return array();
 		}
 
-		// Sort by q value in descending order
-		arsort( $acceptableLanguages, SORT_NUMERIC );
+		$langcodes = $lang_parse[1];
+		$qvalues = $lang_parse[4];
+		$indices = range( 0, count( $lang_parse[1] ) - 1 );
 
-		return $acceptableLanguages;
+		// Set default q factor to 1
+		foreach ( $indices as $index ) {
+			if ( $qvalues[$index] === '' ) {
+				$qvalues[$index] = 1;
+			} elseif ( $qvalues[$index] == 0 ) {
+				unset( $langcodes[$index], $qvalues[$index], $indices[$index] );
+			} else {
+				$qvalues[$index] = floatval( $qvalues[$index] );
+			}
+		}
+
+		// Sort list. First by $qvalues, then by order. Reorder $langcodes the same way
+		array_multisort( $qvalues, SORT_DESC, SORT_NUMERIC, $indices, $langcodes );
+
+		// Create a list like "en" => 0.8
+		$langs = array_combine( $langcodes, $qvalues );
+
+		return $langs;
 	}
 
 	const EXT_LINK_URL_CLASS = '[^][<>"\\x00-\\x20\\x7F\p{Zs}]'; // Copied from Parser class

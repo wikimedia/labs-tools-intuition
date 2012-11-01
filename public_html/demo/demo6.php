@@ -46,7 +46,7 @@ var_dump(
 );
 var_dump(
 
-	TsIntuitionUtil::nonEmptyStrs( array( 'one', '', 'three' ) )
+	TsIntuitionUtil::nonEmptyStrs( 'one', 'three' )
 
 );
 

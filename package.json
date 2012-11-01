@@ -3,6 +3,10 @@
 	"version": "0.1.2",
 	"homepage": "https://github.com/Krinkle/TsIntuition",
 	"bugs": "https://github.com/Krinkle/TsIntuition/issues",
+	"scripts": {
+		"pretest": "which phpunit && echo 'Checking if PHPUnit is installed and in PATH'",
+		"test": "phpunit --configuration tests/phpunit/phpunit.xml"
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"grunt-git-authors": ">=1.0.0",
