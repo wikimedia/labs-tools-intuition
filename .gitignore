@@ -1,4 +1,5 @@
 # Intuition
+public_html/logs
 scripts/*.out
 LocalConfig.php
 
