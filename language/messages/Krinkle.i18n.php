@@ -286,6 +286,7 @@ $messages['gl'] = array(
  * @author Harsh4101991
  */
 $messages['gu'] = array(
+	'alws-selectwiki' => 'વિકિ પસંદ કરો',
 	'form-legend-settings' => 'ગોઠવણીઓ',
 );
 
@@ -738,6 +739,13 @@ $messages['tr'] = array(
 	'alws-group-mustused' => 'En çok kullanılan vikiler',
 	'alws-group-allaz' => 'Tüm Vikiler alfabetik olarak',
 	'form-legend-settings' => 'Ayarlar',
+);
+
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'form-legend-settings' => 'ⵉⵎⵙⴳⵉⴷⴷⴰ',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)

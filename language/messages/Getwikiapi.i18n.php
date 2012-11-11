@@ -270,6 +270,13 @@ $messages['gl'] = array(
 	'output' => 'Saída para "$1"',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'input' => 'ઈનપુટ',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */

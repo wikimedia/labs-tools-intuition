@@ -310,6 +310,13 @@ $messages['ar'] = array(
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'author' => 'ܣܝܘܡܐ',
+);
+
 /** Assamese (অসমীয়া)
  * @author Simbu123
  */
@@ -426,6 +433,7 @@ $messages['be-tarask'] = array(
 	'comarque' => 'Раён',
 	'competes' => 'Спаборніцтвы',
 	'author' => 'Аўтар',
+	'country-header' => 'Краіна',
 	'upload-time' => 'Час загрузкі',
 	'deleted' => 'Выдалены ($1)',
 	'concursa' => 'Прыняць удзел у «Вікі любіць славутасьці»',
@@ -486,6 +494,8 @@ $messages['bn'] = array(
 	'comarque' => 'কমাকা',
 	'competes' => 'সম্পূর্ণ',
 	'author' => 'লেখক',
+	'country-header' => 'দেশ',
+	'location' => 'অবস্থান',
 	'upload-time' => 'আপলোড সময়',
 	'deleted' => 'অপসারণ ($1)',
 	'concursa' => 'WLM-এ অংশগ্রন করেছেন',
@@ -502,6 +512,11 @@ $messages['bn'] = array(
 	'view-frequency' => 'জনপ্রিয় মনুমেন্ট',
 	'view-ccaa' => 'দেশ ভিত্তিতে দেখুন',
 	'view-province' => 'প্রোভিন্স অনুযায়ী দেখুন',
+	'country-label' => 'দেশ:',
+	'all-countries' => 'সকল দেশ',
+	'timezone-label' => 'সময়স্থান:',
+	'show-button' => 'দেখাও',
+	'bot' => 'বট',
 	'id-label' => 'মনুমেন্ট আইডি:',
 	'id-none' => '(কিছু নাই)',
 	'monument-heading' => 'মনুমেন্ট',
@@ -1395,6 +1410,7 @@ $messages['gu'] = array(
 /** Hebrew (עברית)
  * @author Amire80
  * @author YaronSh
+ * @author פדיחה
  */
 $messages['he'] = array(
 	'title' => 'קובצי WLM',
@@ -1465,7 +1481,7 @@ $messages['he'] = array(
 	'province-heading' => 'מחוז',
 	'province-none' => '(אינו ידוע)',
 	'ccaa-heading' => 'קהילות אוטונומיות',
-	'nomail-text' => 'רשימת המשתתפים בוויקי אוהבת אתרים מורשת $1 שכנראה לא נתנו כתובת דוא"ל.',
+	'nomail-text' => 'רשימת המשתתפים בוויקי אוהבת אתרי מורשת $1 שכנראה לא נתנו כתובת דוא"ל.',
 	'nomail-user-count' => '$1 משתמשים',
 );
 
@@ -2006,6 +2022,8 @@ $messages['ksh'] = array(
 	'comarque' => 'Comarca', # Fuzzy
 	'competes' => 'Määt met',
 	'author' => 'Urhävver',
+	'country-header' => 'Land',
+	'location' => 'Der Plaz',
 	'upload-time' => 'Huhjelaade (<abbr title="ußjedröck en de Summerzick vun Meddel-Europa">MESZ</abbr>)',
 	'deleted' => 'Fottjeschmeßße ($1)',
 	'concursa' => 'Määt met bei <abbr title="Wiki Loves Monuments - et Wiki hät de Dänkmöhler leev">WLM</abbr>',
@@ -2040,6 +2058,7 @@ Fottjeschmeße Datteije wääde nit jezeisch, och wann se schpääder [$2 wider 
 	'id-none' => '(Kei)',
 	'monument-heading' => 'Däm Dänkmohl sing Kännong',
 	'count-heading' => 'Fottos',
+	'photographer-count-heading' => 'Fottojraafe',
 	'bic-list' => 'Leß',
 	'bic-gallery' => 'Belder_Jallerieh',
 	'gallery-header' => 'De Belder för dat Dänkmohl met dä Kännong: $1.',
@@ -2052,9 +2071,11 @@ Fottjeschmeße Datteije wääde nit jezeisch, och wann se schpääder [$2 wider 
 	'users-text' => 'Heh di Sigg zeich de Maacher udder Fottojraafe met dänne ier huhjelaade Bellder un de Aanzahl ongerscheidlijje Dänkmöhler.',
 	'users-list' => 'Beloore',
 	'distict-monuments' => 'Ongerscheidlijje Dänkmöhler',
+	'list-prolific-by-photos' => 'noh de Aanzahl Fottos',
 	'province-heading' => 'Provinß',
 	'province-none' => '(Onbikannt)',
 	'ccaa-heading' => '!!FUZZYY!!Eijeschtändeje Jemeinschaff',
+	'nomail-user-count' => '{{GENDER:$1|Eine|$1|Keine}} Metmaacher',
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
@@ -2918,6 +2939,7 @@ $messages['sl'] = array(
 	'province-heading' => 'Provinca',
 	'province-none' => '(Neznano)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-user-count' => '$1 uporabnikov',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -3311,6 +3333,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  */
 $messages['uk'] = array(
 	'title' => 'Файли конкурсу "Вікі любить пам\'ятки"',
@@ -3349,13 +3372,15 @@ $messages['uk'] = array(
 	'view-previous-images' => '← Попередні зображення',
 	'view-later-images' => 'Наступні зображення →',
 	'images-listed-count' => '$1зображень у списку.',
-	'log-page-disclaimer' => 'Цей інструмент показує файли [[: Категорія: $1 |відповідної категорії]] що були завантажені під час конкурсу.
-Видалені файли не відображаються, навіть якщо вони були пізніше [ $2  відновлені] і беруть участь знову.', # Fuzzy
+	'log-page-disclaimer' => 'Цей інструмент показує файли [[:Category:$1|відповідної категорії]], що було завантажено під час конкурсу.
+Вилучені файли не відображаються, навіть якщо їх було пізніше [$2  відновлено] і вони беруть участь знову.',
 	'bot' => 'Бот',
 	'id-label' => "Ідентифікатор пам'ятки",
 	'id-none' => '(Немає)',
+	'monuments-by-photographers-checkbox' => "Сортувати пам'ятки за кількістю фотографів (не за кількістю фотографій).",
 	'monument-heading' => "Пам'ятка",
 	'count-heading' => 'Фотографії',
+	'photographer-count-heading' => 'Фотографи',
 	'bic-list' => 'Список',
 	'bic-gallery' => 'Галерея',
 	'gallery-header' => "Зображення пам'ятки з ідентифікатором  $1 .",
@@ -3379,6 +3404,8 @@ $messages['uk'] = array(
 	'province-heading' => 'Область',
 	'province-none' => '(Невідомий)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Список користувачів, які беруть участь у "Вікі любить пам\'ятники" $1  які не надали адреси електронної пошти.',
+	'nomail-user-count' => '$1 користувачів',
 );
 
 /** Vietnamese (Tiếng Việt)

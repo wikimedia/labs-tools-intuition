@@ -1607,6 +1607,15 @@ $messages['tr'] = array(
 	'resultslimited' => 'Sonuçlar, $1 sayfa ile sınırlandırıldı.',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'page' => 'ⵜⴰⵙⵏⴰ',
+	'tools-delete' => 'ⵓⴽⵓⵙ',
+	'tools-hist' => 'ⴰⵎⵣⵔⵓⵢ',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */

@@ -3273,6 +3273,16 @@ $messages['tr'] = array(
 	'help_mail' => '$1 adresine bir e-posta gönderin.',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'language' => 'ⵜⵓⵜⵍⴰⵢⵜ',
+	'project' => 'ⴰⵙⵏⴼⴰⵔ',
+	'source_file' => 'ⴰⵖⴱⴰⵍⵓ ⵓⵙⴷⴰⵡ',
+	'categories' => 'ⵜⴰⴳⴳⴰⵢⵉⵏ',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */

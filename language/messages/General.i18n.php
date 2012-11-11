@@ -164,6 +164,7 @@ $messages['ast'] = array(
 	'seconds' => '{{PLURAL: $1|segundu|segundos}}',
 	'last-modified-date' => 'Caberu cambéu: $1',
 	'view-source' => 'Ver códigu fonte',
+	'and' => '&#32;y',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -467,6 +468,7 @@ $messages['diq'] = array(
 	'seconds' => '{{PLURAL:$1|saniye|saniyeyan}}',
 	'last-modified-date' => 'Vurnayışo peên: $1',
 	'view-source' => 'Çımey bıvêne',
+	'and' => '&#32;u',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -731,7 +733,9 @@ $messages['gl'] = array(
 $messages['gu'] = array(
 	'hello' => 'હેલો',
 	'welcome' => 'સ્વાગત',
+	'etc' => 'વગેરે',
 	'form-submit' => 'જાઓ',
+	'view-source' => 'સ્રોત જુઓ',
 );
 
 /** Hebrew (עברית)
@@ -820,6 +824,7 @@ $messages['hsb'] = array(
 	'seconds' => '{{PLURAL:$1|sekunda|sekundźe|sekundy|sekundow}}',
 	'last-modified-date' => 'Posledni raz změnjeny: $1',
 	'view-source' => 'Žórłowy tekst pokazać',
+	'and' => '&#32;a',
 );
 
 /** Hungarian (magyar)
@@ -842,6 +847,7 @@ $messages['hu'] = array(
 	'seconds' => '{{PLURAL: $1|másodperc|másodperc}}',
 	'last-modified-date' => 'Utolsó módosítás ideje: $1',
 	'view-source' => 'Forrás megtekintése',
+	'and' => '&#32;és',
 );
 
 /** Interlingua (interlingua)
@@ -1630,6 +1636,7 @@ $messages['sl'] = array(
 	'seconds' => '{{PLURAL:$1|sekunda|sekundi|sekunde|sekund}}',
 	'last-modified-date' => 'Zadnja sprememba: $1',
 	'view-source' => 'Izvorna koda',
+	'and' => '&#32;in',
 );
 
 /** Albanian (shqip)
@@ -1897,6 +1904,23 @@ $messages['tyv'] = array(
 	'view-source' => 'Дөзү бижиин көөрү',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'hello' => 'ⴰⵣⵓⵍ',
+	'welcome' => 'ⴰⵏⵙⵓⴼ',
+	'etc' => 'ⴰⵔ ⵜⴰⴳⴰⵔⴰ.',
+	'form-submit' => 'ⴷⴷⵓ',
+	'years' => '{{PLURAL:$1|ⴰⵙⴳⴳⵯⴰⵙ|ⵉⵙⴳⴳⵯⴰⵙⵏ}}',
+	'weeks' => '{{PLURAL: $1|ⵉⵎⴰⵍⴰⵙⵙ|ⵉⵎⴰⵍⴰⵙⵙⵏ}}',
+	'days' => '{{PLURAL: $1|ⴰⵙⵙ|ⵓⵙⵙⴰⵏ}}',
+	'hours' => '{{PLURAL: $1|ⵜⴰⵙⵔⴰⴳⵜ|ⵜⵉⵙⵔⴰⴳⵉⵏ}}',
+	'last-modified-date' => 'ⴰⴱⴷⴷⴻⵍ ⴰⵏⴳⴳⴰⵔⵓ: $1',
+	'view-source' => 'ⵥⵕ ⴰⵖⴱⴰⵍⵓ',
+	'and' => '&#32;ⴷ',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */
@@ -1923,6 +1947,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  * @author Platonides
  * @author Тест
  */
@@ -1942,7 +1967,7 @@ $messages['uk'] = array(
 	'seconds' => '{{PLURAL:$1|секунда|секунди|секунд}}',
 	'last-modified-date' => 'Остання зміна: $1',
 	'view-source' => 'Переглянути код',
-	'and' => '&#32;и',
+	'and' => '&#32;і',
 );
 
 /** Uzbek (oʻzbekcha)

@@ -1119,7 +1119,7 @@ $messages['ksh'] = array(
 	'current-settings' => 'De aktoälle Enshtällonge',
 	'current-language' => 'De ußjesöhk Shprooch',
 	'settings-legend' => 'Enschtällonge',
-	'choose-language' => 'Donn en Shprooch ußwähle',
+	'choose-language' => 'Donn en Schprooch ußwähle',
 	'clear-cookies' => 'Donn de <i lang="en">Cookies</i> fottschmiiße',
 	'renew-cookies' => 'Donn de <i lang="en">Cookies</i> neu säze',
 	'cookie-expiration' => 'Dä <i lang="en">Cookies</i> iehr Lävenszigg.',
@@ -2004,6 +2004,14 @@ $messages['tr'] = array(
 	'help-translate-tool' => 'Bu aracın çevrilmesine yardımcı olun!',
 	'help-translate-all' => "Toolserver'ın çevrilmesine yardımcı olun!",
 	'help-translate-tooltip' => 'Arayüz iletilerini dilinize çevirerek başkalarına yardımcı olun.',
+);
+
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'tab-demo' => 'ⵜⵉⵔⵎⵉⵜ',
+	'bl-mysettings-new' => 'ⴱⴷⴷⴻⵍ ⵜⵓⵜⵍⴰⵢⵜ!',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)

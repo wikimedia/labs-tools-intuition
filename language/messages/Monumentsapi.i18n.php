@@ -1129,6 +1129,7 @@ $messages['gl'] = array(
  * @author Harsh4101991
  */
 $messages['gu'] = array(
+	'search-table-th-field' => 'ક્ષેત્ર',
 	'search-table-th-filter' => 'ચાળણી',
 	'search-table-th-search' => 'શોધો',
 	'filter-all-countries' => 'બધા દેશ',
@@ -1140,6 +1141,7 @@ $messages['gu'] = array(
 	'db-field-lat' => 'અક્ષાંશ',
 	'db-field-lon' => 'રેખાંશ',
 	'db-field-image' => 'ચિત્ર',
+	'db-field-source' => 'સ્રોત',
 	'db-field-st_image' => 'ચિત્ર',
 	'db-field-st_image_pct' => 'ચિત્ર %',
 	'db-field-st_name' => 'નામ',
@@ -2525,6 +2527,22 @@ $messages['sl'] = array(
 	'db-field-source' => 'Vir',
 	'db-field-monument_article' => 'Članek o spomeniku',
 	'db-field-registrant_url' => 'URL registranta',
+	'db-field-st_address' => 'Naslovi',
+	'db-field-st_address_pct' => '% naslovov',
+	'db-field-st_coordinates' => 'Koordinate',
+	'db-field-st_coordinates_pct' => '% koordinat',
+	'db-field-st_image' => 'Slika',
+	'db-field-st_image_pct' => '% slik',
+	'db-field-st_municipality' => 'Občina',
+	'db-field-st_municipality_pct' => '% občin',
+	'db-field-st_name' => 'Imena',
+	'db-field-st_name_pct' => '% imen',
+	'db-field-st_total' => 'Skupno število',
+	'toolbox-nav-homepage' => 'Domača stran',
+	'toolbox-nav-statistics' => 'Statistika',
+	'toolbox-nav-search' => 'Iskanje',
+	'toolbox-title-searchmonuments' => 'Iskanje spomenikov',
+	'location' => 'Nahajališče',
 );
 
 /** Albanian (shqip)
@@ -2920,6 +2938,31 @@ $messages['tr'] = array(
 	'db-field-st_coordinates_pct' => 'Koordinatları %',
 	'db-field-st_municipality' => 'Belediyesi',
 	'db-field-st_municipality_pct' => 'Belediyesi %',
+);
+
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'search-table-th-field' => 'ⵉⴳⵔ',
+	'search-table-th-filter' => 'ⴰⵎⵙⵜⴰⵢ',
+	'search-table-th-search' => 'ⴰⵔⵣⵣⵓ',
+	'filter-all-countries' => 'ⵎⴰⵕⵕⴰ ⵜⵉⵎⵉⵣⴰⵔ',
+	'filter-all-languages' => 'ⵎⴰⵕⵕⴰ ⵜⵓⵜⵍⴰⵢⵉⵏ',
+	'db-field-country' => 'ⵜⴰⵎⵓⵔⵜ',
+	'db-field-lang' => 'ⵜⵓⵜⵍⴰⵢⵜ',
+	'db-field-name' => 'ⴰⵙⵙⴰⵖ',
+	'db-field-address' => 'ⴰⵣⵡⵉⵍ',
+	'db-field-municipality' => 'ⵜⴰⵖⵉⵡⴰⵏⵜ',
+	'db-field-image' => 'ⵜⴰⵡⵍⴰⴼⵜ',
+	'db-field-changed' => 'ⴱⴷⴷⴻⵍ',
+	'db-field-source' => 'ⴰⵖⴱⴰⵍⵓ',
+	'db-field-st_address' => 'ⵉⵣⵡⵉⵍⵏ',
+	'db-field-st_address_pct' => 'ⵉⵣⵡⵉⵍⵏ %',
+	'db-field-st_image' => 'ⵜⴰⵡⵍⴰⴼⵜ',
+	'db-field-st_image_pct' => 'ⵜⴰⵡⵍⴰⴼⵜ %',
+	'db-field-st_name' => 'ⴰⵙⵙⴰⵖⵏ',
+	'db-field-st_name_pct' => 'ⴰⵙⵙⴰⵖⵏ %',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)

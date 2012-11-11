@@ -1067,6 +1067,13 @@ $messages['tr'] = array(
 	'toolserver-status-short-erro' => '$1: Hata',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'toolserver-status-short-ok' => '$1: ⵡⴰⵅⵅⴰ',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */
@@ -1089,8 +1096,17 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  */
 $messages['uk'] = array(
+	'toolserver-status-ok' => 'База даних у кластерах $1 $2 в порядку',
+	'toolserver-status-info' => 'Повідомлення для користувачів кластерів  $1 :$2',
+	'toolserver-status-warn' => 'Попередження для користувачів кластерів  $1 :$2',
+	'toolserver-status-down' => 'База даних кластера $1 тимчасово відключена. $2',
+	'toolserver-status-erro' => 'База даних кластера $1 недоступна. $2',
+	'toolserver-status-unknown' => 'Невідомий стан кластера $1',
+	'toolserver-status-missing' => 'Кластер  $1 не існує',
+	'toolserver-status-short-ok' => '$1: Гаразд',
 	'toolserver-status-short-info' => '$1: Інформація',
 	'toolserver-status-short-warn' => '$1: Попередження',
 	'toolserver-status-short-down' => '$1: Вниз',

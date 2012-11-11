@@ -2515,6 +2515,15 @@ $messages['tr'] = array(
 	'finalise' => 'Ayrıntıları tamamlayın',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'th-password' => 'ⵜⴰⵡⴰⵍⵜ ⵓⵙⵉⴽⵍ',
+	'translate' => 'ⵙⵙⵓⵖⵍ',
+	'svginput-label' => 'ⴰⵙⴷⴰⵡ SVG',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */

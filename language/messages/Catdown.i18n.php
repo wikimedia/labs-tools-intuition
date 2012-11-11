@@ -961,6 +961,7 @@ $messages['gu'] = array(
 	'max-height' => 'મહત્તમ ઉંચાઇ:',
 	'invalid-width' => 'અયોગ્ય પહોળાઇ',
 	'invalid-height' => 'અયોગ્ય ઉંચાઇ',
+	'download' => 'ડાઉનલોડ',
 );
 
 /** Hebrew (עברית)
@@ -2212,6 +2213,7 @@ ili koristite druge rezervne veze:
 );
 
 /** Swedish (svenska)
+ * @author Cybjit
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -2232,7 +2234,7 @@ $messages['sv'] = array(
 	'download-info' => '{{plural: $1|Det finns en bild|Det finns $1 bilder}} med en uppskattad storlek på $2',
 	'download' => 'Ladda ned',
 	'non-bundled-wget' => 'OBS: Denna version inkluderar inte wget för Windows. Du måste expandera
-till en mapp med wget.exe eller annars har wget i SÖKVÄGEN', # Fuzzy
+till en mapp med wget.exe eller ha wget i PATH',
 	'scaling-width' => ', skalas till en maximal bredd av $1 {{plural:$1|pixel|pixlar}}',
 	'scaling-height' => ', skalas till en maximal höjd av $1 {{plural:$1|pixel|pixlar}}',
 	'scaling-both' => ', skalas till en maximal storlek av $1x$2 pixlar',
@@ -2368,6 +2370,14 @@ $messages['tr'] = array(
 	'max-width' => 'En fazla genişlik:',
 	'max-height' => 'En fazla yükseklik:',
 	'download' => 'İndir',
+);
+
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'project' => 'ⴰⵙⵏⴼⴰⵔ:',
+	'category' => 'ⵜⴰⴳⴳⴰⵢⵜ:',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)

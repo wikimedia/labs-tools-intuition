@@ -1267,6 +1267,7 @@ $messages['si'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'title-overview' => 'Posnetki',
 	'title-error' => 'Napaka',
 	'title-updatelog' => 'Dnevnik posodobitev',
 	'download-button' => 'Prenesi $1',
@@ -1464,6 +1465,14 @@ $messages['tly'] = array(
 	'title-error' => 'Сәһв',
 	'repo-lastmoddate-label' => 'Тарых:',
 	'tablehead-filesize' => 'Фајли памјә',
+);
+
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'title-error' => 'Error',
+	'repo-lastmoddate-label' => 'ⴰⴽⵓⴷ:',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
