@@ -845,6 +845,7 @@ $messages['el'] = array(
 
 /** Spanish (español)
  * @author Crazymadlover
+ * @author Dalton2
  * @author Fitoschido
  * @author Platonides
  * @author Vivaelcelta
@@ -860,7 +861,7 @@ $messages['es'] = array(
 	'target_file' => 'Archivo de destino',
 	'commons_username' => 'Nombre de usuario de Wikimedia Commons',
 	'commons_to_project' => 'Wikimedia Commons a proyecto',
-	'move_file_from_com' => 'Mover archivo de Wikimedia Commons al proyecto',
+	'move_file_from_com' => 'Trasladar un archivo de Wikimedia Commons al proyecto',
 	'categories' => 'Categorías',
 	'remove_cats' => 'Quitar categorías existentes',
 	'checkusage' => 'CheckUsage',
@@ -3402,6 +3403,18 @@ $messages['vi'] = array(
 	'help_jira' => '$1JIRA (cần tài khoản)$2 (Dự án: Commonshelper2)',
 	'help_mail' => 'Gửi thư điện tử cho $1',
 	'help_commons' => '$1Thảo luận tại Commons$2',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'language' => 'שפראַך:',
+	'project' => 'פראיעקט',
+	'source_file' => 'קוואל טעקע',
+	'target_file' => 'ציל טעקע',
+	'commons_username' => 'וויקיפעדיע קאמאנס באניצער נאמען',
+	'commons_to_project' => 'וויקיפעדיע קאמאנס פראיעקט',
 );
 
 /** Simplified Chinese (中文（简体）‎)

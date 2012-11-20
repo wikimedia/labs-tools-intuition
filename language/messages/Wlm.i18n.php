@@ -1530,6 +1530,7 @@ Zhašane dataje so njepokazuja, byrnjež pozdźišo [$2 wobnowili] a so zaso wob
 	'bot' => 'Boćik',
 	'id-label' => 'ID zajimawosće:',
 	'id-none' => '(Žadyn)',
+	'monuments-by-photographers-checkbox' => 'Pomniki po ličbje fotografow sortěrować, nic po ličbje fotow.',
 	'monument-heading' => 'Zajimawosć',
 	'count-heading' => 'Fotografije',
 	'photographer-count-heading' => 'Fotografojo',
@@ -1556,6 +1557,7 @@ Zhašane dataje so njepokazuja, byrnjež pozdźišo [$2 wobnowili] a so zaso wob
 	'province-heading' => 'Prowinca',
 	'province-none' => '(Njeznaty)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lisćina wužiwarjow, kotřiž so na Wiki Loves Monuments $1 wobdźěleja, kotřiž po wšěm zdaću njejsu e-mejlowu adresu podali.',
 	'nomail-user-count' => '$1 wužiwarjow',
 );
 

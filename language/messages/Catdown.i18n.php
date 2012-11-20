@@ -650,8 +650,8 @@ Jolic sy na žrědłowem coźe toś togo programa zajmowany, móžoš jen wót s
 
 Su teke druge glědałkowe GNU-serwery, glědaj
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => ', na maksimalnu šyrokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane', # Fuzzy
-	'scaling-height' => ', na maksimalnu wusokosć $1 {{plural:$1|piksela|pikselowu|pikselow|pikselow}} skalěrowane', # Fuzzy
+	'scaling-width' => ', na maksimalnu šyrokosć $1 {{plural:$1|piksela|pikselowu|pikselow}} skalěrowane',
+	'scaling-height' => ', na maksimalnu wusokosć $1 {{plural:$1|piksela|pikselowu|pikselow}} skalěrowane',
 	'scaling-both' => ', na maksimalnu wjelilkosć $1x$2 pikselow skalěrowane',
 );
 
@@ -2483,6 +2483,19 @@ hoặc một Kho phần mềm GNU khác; xem
 	'scaling-width' => ', được chỉnh lại theo chiều rộng tối đa là $1 điểm ảnh',
 	'scaling-height' => ', được chỉnh lại theo chiều cao tối đa là $1 điểm ảnh',
 	'scaling-both' => ', được chỉnh lại theo kích cỡ tối đa là $1×$2 điểm ảnh',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'project' => 'פראיעקט:',
+	'category' => 'קאַטעגאריע:',
+	'max-width' => 'מאקסימום ברייט:',
+	'max-height' => 'מאקסימום הייך:',
+	'invalid-width' => 'אומגילטיקע ברייט',
+	'invalid-height' => 'אומגילטיקע הייך',
+	'download' => 'אראָפלאָדן',
 );
 
 /** Simplified Chinese (中文（简体）‎)

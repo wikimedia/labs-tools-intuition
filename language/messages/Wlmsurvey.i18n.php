@@ -985,6 +985,20 @@ info@wikilovesmonuments.org',
 	'2012-change-answers' => 'Muuda mu vastuseid',
 );
 
+/** Finnish (suomi)
+ * @author Stryn
+ */
+$messages['fi'] = array(
+	'2012-question-country' => 'Missä maassa asut?',
+	'2012-other-country-lives' => 'Muualla:',
+	'2012-question-birth-year' => 'Minä vuonna olet syntynyt?',
+	'2012-birth-year' => 'Vuosi:',
+	'2012-hide-birth-year' => 'En halua paljastaa',
+	'2012-question-gender' => 'Mikä on sukupuolesi?',
+	'2012-gender-male' => 'Mies',
+	'2012-gender-female' => 'Nainen',
+);
+
 /** French (français)
  * @author Cquoi
  * @author Gomoko
@@ -1191,9 +1205,10 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Effeietsanders
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'2012-email' => 'प-पत्र:',
+	'2012-email' => 'ई-मेल पता:',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -1612,6 +1627,7 @@ Dir gitt invitéiert fir se ze testen an Är "Äntwerten" ze schécken, awer d\'
 	'2012-question-motivation' => "Meng Haaptmotivatioun fir eng Foto bäi 'Wiki Loves Monuments 2012' eropzeluede war:",
 	'2012-motivation-prize' => 'Fir e Präis ze gewannen',
 	'2012-motivation-help' => 'Fir Wikipedia ze hëllefen',
+	'2012-motivation-discover-heritage' => "Fir lokal Monumenter z'entdecken",
 	'2012-motivation-share-heritage' => 'Fir meng lokal Monumenter Aneren zougänglech ze maachen',
 	'2012-motivation-easy' => "Et war net ze schwéier, dunn duecht ech 'Firwat net?'",
 	'2012-motivation-other' => 'Aner:',
@@ -1623,6 +1639,7 @@ Dir gitt invitéiert fir se ze testen an Är "Äntwerten" ze schécken, awer d\'
 	'2012-scale-difficult-5-text' => 'Ganz schwéier',
 	'2012-question-find-info' => 'Wéi schwéier war et fir Iech fir déi allgemeng Informatiounen iwwer de Concours ze fannen?',
 	'2012-question-find-lists' => "Wéi schwéier war et fir d'Lëschte vun de Monumenter vun Ärem Land oder Ärer Géigend ze fannen?",
+	'2012-question-find-identifier' => "Wéi schwéier war et fir Iech fir d'Identifikatiounsnummer vun de Monumenter ze fannen fir déi Dir Iech interesséiert",
 	'2012-question-usability-upload' => 'Wéi schwéier war et fir Iech fir e Bild fir Wiki Loves Monuments 2012 eropzelueden?',
 	'2012-header-future' => 'Zukunft',
 	'2012-scale-likely-1-text' => 'Kaum wahrscheinlech',
