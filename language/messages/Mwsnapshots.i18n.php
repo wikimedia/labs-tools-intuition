@@ -1508,13 +1508,24 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  */
 $messages['uk'] = array(
+	'title-overview' => 'Знімки',
 	'title-error' => 'Помилка',
+	'title-updatelog' => 'Журнал оновлень',
 	'download-button' => 'Завантажити $1',
 	'download-directlink' => 'прямі посилання',
 	'title-downloadpage' => 'Завантажити:$1',
 	'downloadpage-directlink' => 'Натисніть тут, щоб завантажити знімок.',
+	'repo-site-link' => 'Веб-сайт',
+	'repo-lastmoddate-label' => 'Дата:',
+	'branches-submit-button' => 'Отримати!',
+	'updatelog-link' => 'журнал оновлень',
+	'tablehead-repo' => 'репозиторій',
+	'tablehead-snapshots' => 'Знімки',
+	'tablehead-filesize' => 'Розмір файлу',
+	'tablehead-hash' => 'Контрольні суми',
 );
 
 /** Vietnamese (Tiếng Việt)
