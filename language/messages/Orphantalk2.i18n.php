@@ -1641,11 +1641,28 @@ $messages['ug-arab'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Base
  * @author Тест
  */
 $messages['uk'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(спершу оберіть вікі)',
+	'hideredirects' => 'Сховати перенаправлення',
 	'hidesubpages' => 'Приховати підсторінки',
+	'limit' => 'Обмеження',
 	'page' => 'Сторінка',
+	'redirect' => 'Це перенаправлення?',
+	'output' => 'Вивід',
+	'update' => 'Оновити',
+	'tools-delete' => 'вилучити',
+	'tools-links' => 'посилання',
+	'tools-subject' => 'тема',
+	'tools-hist' => 'історія',
+	'tools-curr' => 'остання',
+	'tools-globalusage' => 'глобальне використання',
+	'deletesummary' => 'Очистка сторінок обговорень-сиріт через $1',
+	'noresults' => 'У цій вікі в заданих Вами просторах назв не знайдено сторінок обговорень-сиріт.',
+	'resultslimited' => 'Результати було обмежено $1 сторінками.',
 );
 
 /** Vietnamese (Tiếng Việt)

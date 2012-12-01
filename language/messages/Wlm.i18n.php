@@ -3102,6 +3102,7 @@ Obrisane datoteke nisu prikazane, čak iako su u međuvremenu [$2 vraćene] i po
 );
 
 /** Swedish (svenska)
+ * @author Fader
  * @author Lokal Profil
  */
 $messages['sv'] = array(
@@ -3113,6 +3114,7 @@ $messages['sv'] = array(
 	'comarque' => 'Comarca',
 	'competes' => 'Tävlar',
 	'author' => 'Skapare',
+	'country-header' => 'Land',
 	'upload-time' => 'Tidsstämpeln för uppladdning',
 	'deleted' => 'Raderad ($1)',
 	'concursa' => 'Deltar i WLM',
@@ -3129,10 +3131,16 @@ $messages['sv'] = array(
 	'view-frequency' => 'Populära monument',
 	'view-ccaa' => 'Visa per autonom region',
 	'view-province' => 'Visa per provins',
+	'country-label' => 'Land:',
+	'timezone-label' => 'Tidszon:',
+	'show-older-first' => 'Visa äldre bilder först',
+	'show-button' => 'Visa',
+	'view-previous-images' => '← Visa föregående bilder',
 	'id-label' => 'Monument-id:',
 	'id-none' => '(Inget)',
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Fotografier',
+	'photographer-count-heading' => 'Fotografer',
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galleri',
 	'gallery-header' => 'Bilder av monumentet med id $1.',
@@ -3148,6 +3156,7 @@ $messages['sv'] = array(
 	'province-heading' => 'Provins',
 	'province-none' => '(Okänd)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lista över användare som deltar i Wiki Loves monument $1 som inte verkar har angett en e-postadress.',
 );
 
 /** Tamil (தமிழ்)

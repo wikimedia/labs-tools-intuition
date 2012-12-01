@@ -391,6 +391,13 @@ $messages['ug-arab'] = array(
 	'title' => 'يېقىنقى ئاتسىز پائالىيەتلەر',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'title' => 'Поточна активність анонімів',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

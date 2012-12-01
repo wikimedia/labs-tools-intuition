@@ -1092,6 +1092,60 @@ L’équipe de coordination de Wiki Loves Monuments, info@wikilovesmonuments.org
 	'2012-returnto' => 'Revenir à $1',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'title' => 'Enquisa do Wiki Loves Monuments',
+	'survey-mode-preparation' => 'Esta enquisa aínda está en preparación.
+Dámoslle a benvida a probala e enviar "respostas", pero os resultados especificados serán borrados antes do inicio da enquisa real.',
+	'survey-mode-closed' => 'Esta enquisa está pechada e xa non se pode participar máis nela.',
+	'2012-header-introduction' => 'Introdución',
+	'2012-header-demographics' => 'Datos demográficos',
+	'2012-question-country' => 'En que país vive?',
+	'2012-other-country-lives' => 'Outro país:',
+	'2012-question-birth-year' => 'En que ano naceu?',
+	'2012-birth-year' => 'Ano:',
+	'2012-hide-birth-year' => 'Prefiro non indicalo',
+	'2012-question-gender' => 'Cal é o seu sexo?',
+	'2012-gender-male' => 'Home',
+	'2012-gender-female' => 'Muller',
+	'2012-gender-other' => 'Outro / Prefiro non indicalo',
+	'2012-header-wikimedia-activity' => 'Actividade na Wikimedia',
+	'2012-explanation-select-multiple' => 'Seleccione todas as opcións pertinentes.',
+	'2012-header-competition' => 'Concurso',
+	'2012-discovered-other' => 'Outro:',
+	'2012-other-country-upload' => 'Outro país:',
+	'2012-header-motivation' => 'Motivación',
+	'2012-question-motivation' => 'A miña motivación principal para enviar unha foto ao Wiki Loves Monuments 2012 foi:',
+	'2012-motivation-prize' => 'Para gañar un premio',
+	'2012-motivation-help' => 'Para axudar á Wikipedia',
+	'2012-motivation-discover-heritage' => 'Para descubrir o patrimonio local',
+	'2012-motivation-share-heritage' => 'Para compartir o meu patrimonio local con outras persoas',
+	'2012-motivation-easy' => 'Foi moi doado, así que pensei: "Por que non?"',
+	'2012-motivation-other' => 'Outra:',
+	'2012-header-usability' => 'Usabilidade',
+	'2012-scale-difficult-1-text' => 'Moi doado',
+	'2012-scale-difficult-2-text' => 'Doado',
+	'2012-scale-difficult-3-text' => 'Normal',
+	'2012-scale-difficult-4-text' => 'Difícil',
+	'2012-scale-difficult-5-text' => 'Moi difícil',
+	'2012-header-future' => 'Futuro',
+	'2012-scale-likely-1-text' => 'Pouco probable',
+	'2012-scale-likely-5-text' => 'Moi probable',
+	'2012-header-comments' => 'Outros comentarios',
+	'2012-can-leave-empty' => 'Pode deixar este campo baleiro.',
+	'2012-username' => 'Nome de usuario:',
+	'2012-email' => 'Enderezo de correo electrónico:',
+	'2012-send-survey' => 'Enviar a enquisa',
+	'2012-thank-you-answer' => 'Grazas por encher a enquisa!',
+	'2012-not-answered' => 'Decidiu non contestar esta pregunta.',
+	'2012-bad-year-answer' => 'O ano indicado, "$1", non é válido. Ignoráronse as respostas.',
+	'2012-no-comments' => 'Non se achegou comentario ningún.',
+	'2012-change-answers' => 'Cambiar as respostas',
+	'2012-returnto' => 'Volver a $1',
+);
+
 /** Gujarati (ગુજરાતી)
  * @author Harsh4101991
  */
@@ -1413,6 +1467,7 @@ $messages['ja'] = array(
 	'2012-header-motivation' => '動機',
 	'2012-question-motivation' => 'ウィキ ラブ モニュメント 2012 に写真を投稿した主な動機は:',
 	'2012-motivation-other' => 'その他:',
+	'2012-scale-difficult-3-text' => '通常',
 	'2012-header-comments' => 'その他のコメント',
 	'2012-username' => '利用者名:',
 	'2012-email' => 'メールアドレス:',
