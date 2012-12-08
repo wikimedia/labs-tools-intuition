@@ -346,6 +346,8 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'search-table-th-search' => 'Търсене',
+	'db-field-lang' => 'Език',
+	'toolbox-nav-search' => 'Търсене',
 );
 
 /** Bengali (বাংলা)

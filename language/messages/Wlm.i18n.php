@@ -699,6 +699,7 @@ $messages['cs'] = array(
 	'id-none' => '(nic)',
 	'monument-heading' => 'Pomník',
 	'count-heading' => 'Fotografie',
+	'photographer-count-heading' => 'Fotografové',
 	'bic-list' => 'Seznam',
 	'bic-gallery' => 'Galerie',
 	'gallery-header' => 'Obrázky pomníku s identifikátorem $1.',
@@ -711,9 +712,12 @@ $messages['cs'] = array(
 	'users-text' => 'Stránka ukazuje autory se snímky, které nahráli, stejně jako počet památek',
 	'users-list' => 'Prohlížení',
 	'distict-monuments' => 'Různé pomníky',
+	'list-prolific-by-photos' => 'podle počtu fotografií',
+	'list-prolific-by-distinct-identifiers' => 'podle počtu různých identifikátorů',
 	'province-heading' => 'Provincie',
 	'province-none' => '(Neznámý)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-user-count' => '$1 uživatel',
 );
 
 /** Danish (dansk)
