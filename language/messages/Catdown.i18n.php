@@ -244,6 +244,14 @@ o en dalgún otru espeyu de GNU, visita
 	'scaling-both' => ', escalaes a un tamañu máximu de $1x$2 pixels',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author E THP
+ */
+$messages['azb'] = array(
+	'project' => 'پروژه:',
+	'category' => 'بؤلمه:',
+);
+
 /** Bashkir (башҡортса)
  * @author Sagan
  */
@@ -1687,6 +1695,15 @@ $messages['mt'] = array(
 	'download' => 'Niżżel',
 	'non-bundled-wget' => "Nota: Din il-verżjoni ma tinkudix wget għal Windows. Hemm bżonn li tneħħi l-kompressjoni tal-folder b'wget.exe jew inkella jkollok wget fil-PATH",
 	'scaling-width' => ", mqassra għal wisa' massima ta' $1 {{plural:$1|pixel|pixels}}",
+);
+
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'title' => 'पुचःकथं किपा दाउनलोद',
+	'project' => 'ज्याझ्वः:',
+	'category' => 'पुचः:',
 );
 
 /** Dutch (Nederlands)

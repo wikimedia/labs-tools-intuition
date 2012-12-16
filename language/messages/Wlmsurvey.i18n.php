@@ -1820,6 +1820,7 @@ Dir gitt invitéiert fir se ze testen an Är "Äntwerten" ze schécken, awer d\'
 	'2012-question-find-lists' => "Wéi schwéier war et fir d'Lëschte vun de Monumenter vun Ärem Land oder Ärer Géigend ze fannen?",
 	'2012-question-find-identifier' => "Wéi schwéier war et fir Iech fir d'Identifikatiounsnummer vun de Monumenter ze fannen fir déi Dir Iech interesséiert",
 	'2012-question-usability-upload' => 'Wéi schwéier war et fir Iech fir e Bild fir Wiki Loves Monuments 2012 eropzelueden?',
+	'2012-question-usability-main-obstacle' => "Wat war d'Haaptschwieregkeet, wann et eng gouf, fir beim Concours matzemaachen? Wann Dir wëllt, kënnt Dir detailléiert äntwerten, oder d'Feld einfach eidel loossen.",
 	'2012-header-future' => 'Zukunft',
 	'2012-scale-likely-1-text' => 'Kaum wahrscheinlech',
 	'2012-scale-likely-5-text' => 'Ganz wahrscheinlech',
