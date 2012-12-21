@@ -759,6 +759,17 @@ $messages['ug-arab'] = array(
 	'form-legend-settings' => 'تەڭشەكلەر',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ * @author Steve.rusyn
+ */
+$messages['uk'] = array(
+	'alws-selectwiki' => '(виберіть вікі)',
+	'alws-group-mustused' => 'Найуживаніші вікі',
+	'alws-group-allaz' => 'Усі вікі за алфавітом',
+	'form-legend-settings' => 'Налаштування',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

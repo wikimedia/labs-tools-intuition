@@ -1148,6 +1148,26 @@ $messages['zh-hans'] = array(
 	'toolserver-status-short-missing' => '$1: 丢失',
 );
 
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'toolserver-status-ok' => '數據庫集群沒有任何問題$1 $2',
+	'toolserver-status-info' => '集群$1用戶通知：$2',
+	'toolserver-status-warn' => '集群$1用戶警告：$2',
+	'toolserver-status-down' => '數據庫集群$1已被暫時關閉。$2',
+	'toolserver-status-erro' => '數據庫集群$1已關閉。$2',
+	'toolserver-status-unknown' => '集群$1狀態未知',
+	'toolserver-status-missing' => '集群$1不存在',
+	'toolserver-status-short-ok' => '$1：正常',
+	'toolserver-status-short-info' => '$1：資訊',
+	'toolserver-status-short-warn' => '$1：警告',
+	'toolserver-status-short-down' => '$1：暫停工作',
+	'toolserver-status-short-erro' => '$1：錯誤',
+	'toolserver-status-short-unknown' => '$1：未知',
+	'toolserver-status-short-missing' => '$1：丟失',
+);
+
 /** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */

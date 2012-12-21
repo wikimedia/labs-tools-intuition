@@ -203,10 +203,11 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Steef389
  */
 $messages['de'] = array(
 	'enter-details' => 'Details eingeben',
-	'introduction' => 'Gib den Namen einer Vorlage an (aktuell nur die Wikipedias) und klicke „Los“ – so einfach ist das. Es kann sein, dass gecachte Ergebnisse (ältere Vorlagenversionen) ausgegeben werden. Dies liegt leider außerhalb des Einflussbereichs dieses Hilfsprogramms.',
+	'introduction' => 'Gib den Namen einer Vorlage an (aktuell nur von Wikipedias) und klicke „Ausführen“ – so einfach ist das. Es kann sein, dass gecachte Ergebnisse (ältere Vorlagenversionen) ausgegeben werden. Dies liegt leider außerhalb des Einflussbereichs dieses Hilfsprogramms.',
 	'language-label' => 'Sprache',
 	'namespace-label' => 'Namensraum',
 	'pagename-label' => 'Seitenname (ohne Namensraum)',

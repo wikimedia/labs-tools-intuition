@@ -1747,6 +1747,7 @@ $messages['sl'] = array(
 );
 
 /** Albanian (shqip)
+ * @author Besnik b
  * @author FatosMorina
  */
 $messages['sq'] = array(
@@ -1766,8 +1767,8 @@ $messages['sq'] = array(
 	'bl-changelanguage' => 'Klikoni këtu për të ndryshuar gjuhën e ndërfaqes të kësaj vegle.',
 	'usage' => 'Vegla të përkthyera nga Intuita e Toolserverit.',
 	'help-translate-tool' => 'Ndihmoni në përkthimin e kësaj vegle.',
-	'help-translate-all' => 'Ndihmoni në përkthimin e Toolserver!',
-	'help-translate-tooltip' => 'Ndihmo të tjerët duke përkthyer porositë e ndërfaqes në gjuhën tuaj.',
+	'help-translate-all' => 'Ndihmoni në përkthimin e Toolserver-it!',
+	'help-translate-tooltip' => 'Ndihmoni të tjerët duke përkthyer mesazhet e ndërfaqes në gjuhën tuaj.',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -2044,8 +2045,15 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Steve.rusyn
  */
 $messages['uk'] = array(
+	'current-settings' => 'Поточні налаштування',
+	'settings-legend' => 'Налаштування',
+	'choose-language' => 'Оберіть мову',
+	'clear-cookies' => 'очистити cookies',
+	'renew-cookies' => 'оновити cookies',
+	'tab-overview' => 'Огляд',
 	'tab-settings' => 'Налаштування',
 	'tab-about' => 'Опис',
 	'tab-demo' => 'Демо',
@@ -2053,6 +2061,10 @@ $messages['uk'] = array(
 	'bl-mysettings-new' => 'Змінити мову!',
 	'bl-promo' => 'Переклад здійснено за допомогою $1 і $2.',
 	'bl-changelanguage' => 'Натисніть тут, щоб змінити мову інтерфейсу цього інструмента.',
+	'usage' => 'Інструменти, перекладені за допомогою Toolserver Intuition.',
+	'help-translate-tool' => 'Допоможіть перекласти цей інструмент!',
+	'help-translate-all' => 'Допоможіть перекласти Toolserver!',
+	'help-translate-tooltip' => 'Допоможіть іншим, перекладаючи повідомлення інтерфейсу на Вашу мову.',
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -2117,13 +2129,17 @@ $messages['zh-hans'] = array(
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'fullname' => '國際化Toolserver使用者介面',
 	'current-settings' => '當前的設定',
 	'current-language' => '當前所選的語言',
 	'settings-legend' => '設定',
 	'choose-language' => '選擇語言',
 	'clear-cookies' => '清除 cookie',
 	'renew-cookies' => '重設cookie',
+	'cookie-expiration' => 'Cookie期限',
 	'clearcookies-success' => '成功清除 cookie。',
+	'renewcookies-success' => 'Cookies已經重設！你全部的設置將保留$1。',
+	'tab-overview' => '概述',
 	'tab-settings' => '設定',
 	'tab-about' => '關於',
 	'tab-demo' => '示範',

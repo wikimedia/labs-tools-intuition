@@ -3337,8 +3337,10 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  * @author Dim Grits
  * @author Olvin
+ * @author Steve.rusyn
  * @author Тест
  */
 $messages['uk'] = array(
@@ -3346,12 +3348,26 @@ $messages['uk'] = array(
 	'language' => 'Мова',
 	'project' => 'Проект',
 	'source_file' => 'Вихідний файл',
+	'target_file' => 'Цільовий файл',
 	'commons_username' => "Ім'я користувача на Вікісховищі",
 	'commons_to_project' => 'із ВікіСховища в проект',
 	'move_file_from_com' => 'Перемістити файлу з ВікіСховища до проекту',
 	'categories' => 'Категорії',
 	'remove_cats' => 'Вилучити наявні категорії',
+	'tusc_user' => "Ім'я користувача TUSC",
+	'tusc_pass' => 'Пароль TUSC',
+	'do_it' => 'Зробити це',
+	'error_transfer_usr' => "Ви повинні вказати ім'я користувача Вікісховища",
+	'error_not_exists' => 'Вихідний файл не існує!',
+	'error_on_commons' => 'Вихідний файл уже на $1!',
+	'error_file_exists' => 'Файл уже існує у $3 як «$1$4$2»!',
+	'error_diff_exists' => 'Інший файл в цільовій вікі має таку ж назву!',
+	'original_wikitext' => 'Вихідний вікі-текст',
+	'new_wikitext' => 'Новий вікі-текст',
 	'new_filename' => 'Нова назва файлу:',
+	'upload_submit' => 'Завантажити!',
+	'target_wiki' => 'цільова вікі',
+	'error_bot_blocked' => 'Завантажуючого бота заблоковано на Вікісховищі.',
 );
 
 /** Vietnamese (Tiếng Việt)

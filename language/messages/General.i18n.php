@@ -1640,11 +1640,12 @@ $messages['sl'] = array(
 );
 
 /** Albanian (shqip)
+ * @author Besnik b
  * @author FatosMorina
  */
 $messages['sq'] = array(
 	'hello' => 'Tungjatjeta',
-	'welcome' => 'Mirësevini',
+	'welcome' => 'Mirë se vini',
 	'toolversionstamp' => 'Versioni $1 ($2)',
 	'etc' => 'etj.',
 	'namespace' => 'Hapësira',
@@ -2055,6 +2056,7 @@ $messages['zh-hant'] = array(
 	'seconds' => '{{PLURAL: $1|秒|秒}}',
 	'last-modified-date' => '最近修改於: $1',
 	'view-source' => '查看原始碼',
+	'and' => '&#32;和',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

@@ -2548,6 +2548,7 @@ $messages['sl'] = array(
 );
 
 /** Albanian (shqip)
+ * @author Besnik b
  * @author FatosMorina
  */
 $messages['sq'] = array(
@@ -2575,7 +2576,7 @@ $messages['sq'] = array(
 	'db-field-st_municipality_pct' => 'Komuna %',
 	'db-field-st_name' => 'Emrat',
 	'db-field-st_name_pct' => 'Emrat %',
-	'db-field-st_total' => 'Numri i përgjithshëm',
+	'db-field-st_total' => 'Numri gjithsej',
 	'toolbox-main-description' => 'Një varg i veglat të lidhura me',
 	'toolbox-nav-homepage' => 'Faqja ballinore',
 	'toolbox-nav-statistics' => 'Statistika',
