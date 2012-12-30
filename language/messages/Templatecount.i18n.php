@@ -75,6 +75,16 @@ $messages['ar'] = array(
 	'time-label' => 'الوقت المستغرق في تنفيذ الأمر',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'language-label' => 'ܠܫܢܐ',
+	'namespace-label' => 'ܚܩܠܐ',
+	'transclusion-count-label' => 'ܡܢܝܢܐ ܕܡܬܚܪ̈ܙܢܘܬܐ',
+	'transclusion-count' => '$1 ܡܬܚܪ̈ܙܢܘܬܐ ܐܫܬܟܚ.',
+);
+
 /** Assamese (অসমীয়া)
  * @author Simbu123
  */
@@ -104,6 +114,36 @@ $messages['ast'] = array(
 $messages['az'] = array(
 	'language-label' => 'Dil',
 	'namespace-label' => 'Adlar fəzası',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'enter-details' => 'بیلگیلری وئرین',
+	'introduction' => 'بیر شابلون آدینی یازین (بو آن‌دا یالنیز ویکی‌پئدیا) و گئت-ی وورون. بو راحاتلیقدادیر. بیر آز کَش ائتمک واردیر (نتیجه‌لری یاددا ساخلاماق)، اما تأسف‌له بو آراج و اونون یییه‌سینین گوجونون ائشیگینده‌دیر.',
+	'language-label' => 'دیل',
+	'namespace-label' => 'آدفضاسی',
+	'pagename-label' => 'صحیفه آدی (آدفضاسینی چیخاراق)',
+	'transclusion-count-label' => 'گؤرونتولمه سایی',
+	'transclusion-count' => '$1 گؤرونتولمه تاپیلدی.',
+	'error-suggestion' => 'بلکه صحیفه‌نین آدینین ایملاسینی یانلیش یازدینیز (یا دا یانلیشجا حرفلری بؤیوک یازدینیز)؟',
+	'time-label' => 'دستورو چالیشدیرماغا گئچن واخت',
+);
+
+/** Bashkir (башҡортса)
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'enter-details' => 'Ентекле мәғлүмәт яҙығыҙ',
+	'introduction' => 'Ҡалып исемен яҙығыҙ (әлеге ваҡытта тик Википедия өсөн мөмкин) һәм күсеү төймәһен баҫығыҙ. Был ябай ғына. Шулай уҡ кешлау (caching) (эҙләү нәтижәләрен һаклау) эшләй.',
+	'language-label' => 'Тел',
+	'namespace-label' => 'Исемдәр арауығы',
+	'pagename-label' => 'Бит исеме (исемдәр арауығыҡһыҙ)',
+	'transclusion-count-label' => 'Башлап ебәреү һаны',
+	'transclusion-count' => '$1 башлап ебәреү табылды.',
+	'error-suggestion' => 'Бәлки биттең исемен яҙғанда хата ебәргәнһеғеҙҙер йәки хәреф регистры дөрөҫ түгелдер.',
+	'time-label' => 'Команданы үтәү өсөн бирелгән ваҡыт',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -190,6 +230,16 @@ $messages['cs'] = array(
 	'time-label' => 'Čas vykonávání příkazu',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'enter-details' => 'Вакки-тӗвеккине кӗртӗр',
+	'language-label' => 'Чӗлхе',
+	'namespace-label' => 'Ятсен уҫлӑхӗ',
+	'pagename-label' => 'Страница ячӗ (ятсен уҫлӑхӗсӗр)',
+);
+
 /** Danish (dansk)
  * @author Erisos
  * @author Sarrus
@@ -262,6 +312,16 @@ $messages['el'] = array(
 	'time-label' => 'Χρόνος που πέρασε για την εκτέλεση της εντολής',
 );
 
+/** Esperanto (Esperanto)
+ * @author Anakmalaysia
+ */
+$messages['eo'] = array(
+	'language-label' => 'Lingvo',
+	'namespace-label' => 'Nomspaco',
+	'pagename-label' => 'Paĝnomo (escepti nomspaco)',
+	'time-label' => 'Tempo bezonata por ekzekuti komando',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  */
@@ -318,8 +378,12 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Silvonen
+ * @author Stryn
+ * @author VezonThunder
  */
 $messages['fi'] = array(
+	'enter-details' => 'Kirjoita tiedot',
+	'introduction' => 'Kirjoita mallineen nimi (tällä hetkellä vain Wikipedioiden mallineet) ja paina Siirry. Niin yksinkertaista se on. Välimuistiin jää jälkiä (tulokset muistetaan), mutta siihen ei tämä työkalu tai sen omistaja voi valitettavasti vaikuttaa.',
 	'language-label' => 'Kieli',
 	'namespace-label' => 'Nimiavaruus',
 	'pagename-label' => 'Sivun nimi (ilman nimiavaruutta)',
@@ -382,6 +446,13 @@ $messages['gl'] = array(
  */
 $messages['grc'] = array(
 	'language-label' => 'Γλῶττα',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Harsh4101991
+ */
+$messages['gu'] = array(
+	'language-label' => 'ભાષા',
 );
 
 /** Hebrew (עברית)
@@ -475,6 +546,14 @@ $messages['id'] = array(
 	'time-label' => 'Waktu yang dibutuhkan untuk melaksanakan perintah',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'language-label' => 'Ásụ̀sụ̀',
+	'namespace-label' => 'Ámááhà',
+);
+
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
@@ -543,6 +622,20 @@ $messages['ka'] = array(
 $messages['km'] = array(
 	'language-label' => 'ភាសា',
 	'namespace-label' => 'លំហឈ្មោះ',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'enter-details' => 'ವಿವರಣೆಗಳನ್ನು ತುಂಬಿ',
+	'language-label' => 'ಭಾಷೆ',
+	'namespace-label' => 'ನಾಮವರ್ಗ',
+	'pagename-label' => 'ಪುಟದ ಹೆಸರು (ನಾಮವರ್ಗ ಹೊರತುಪಡಿಸಿ)',
+	'transclusion-count-label' => 'ಅಡಕಗೊಳ್ಳುವಿಕೆಗಳ ಸಂಖ್ಯೆ',
+	'transclusion-count' => '$1 ಅಡಕಗೊಳ್ಳುವಿಕೆ(ಗಳು) ಸಿಕ್ಕಿವೆ.',
+	'error-suggestion' => 'ನೀವು ಹೆಚ್ಚಾಗಿ ಪುಟದ ಹೆಸರನ್ನು ತಪ್ಪಾಗಿ (ಅಥವಾ ತಪ್ಪು ಕಾಗುಣಿತ) ನಮೂದಿಸಿದ್ದೀರಿ',
+	'time-label' => 'ಆಣತಿಯನ್ನು ನೆರವೇರಿಸಲು ತೆಗೆದುಕೊಂಡ ಸಮಯ',
 );
 
 /** Korean (한국어)
@@ -679,6 +772,19 @@ $messages['nb'] = array(
 	'time-label' => 'Tiden det tar å utføre kommandoen',
 );
 
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'enter-details' => 'विवरण दर्ता यानादिसँ',
+	'language-label' => 'भाय्',
+	'namespace-label' => 'नेमस्पेस:',
+	'pagename-label' => 'पौया नां (नेमस्पेस मतसें)',
+	'transclusion-count-label' => 'त्रान्सक्लुसनतयेगु ल्या',
+	'transclusion-count' => '$1 त्रान्सक्लुसन लुत।',
+	'time-label' => 'ब्वःगु ज्या यायेत काःगु ई',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -719,6 +825,7 @@ $messages['or'] = array(
 	'namespace-label' => 'ନେମସ୍ପେସ',
 	'pagename-label' => 'ପୃଷ୍ଠାନାମ (ନେମସ୍ପେସକୁ ଛାଡି)',
 	'error-suggestion' => 'ଆପଣ ବୋଧହୁଏ ପୃଷ୍ଠାର ଭୁଲ ବନାନ (କିମ୍ବା ଭୁଲ ସାନବଡ ଅକ୍ଷର) କରିଛନ୍ତି ?',
+	'time-label' => 'କମାଣ୍ଡ କାମ କରିବାଲାଗି ନେଉଥିବା ସମୟ',
 );
 
 /** Ossetic (Ирон)
@@ -837,6 +944,21 @@ $messages['sl'] = array(
 	'time-label' => 'Čas, porabljen za izvršitev ukaza',
 );
 
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'enter-details' => 'Gali Faah faahinta',
+	'introduction' => 'Qor magaca  template (ee Wikipedias hadda) kadibna guji soco. waa iska tusaale uun. Waxaa jirta kaydin si kumeel gaar ah (natiijo xasuusin), Laakiin waa wax ka baxsan awooda maamulkaan iyo lahaanshaheeda waana ka xunahay.',
+	'language-label' => 'Luqada',
+	'namespace-label' => 'Meesha banaan',
+	'pagename-label' => 'Magaca bogga (Waxay gooni utahay meel banaan ee wax lagu qoro)',
+	'transclusion-count-label' => 'Tirada damiinaha',
+	'transclusion-count' => '$1 Waa la helay damaanad.',
+	'error-suggestion' => 'Waxaa laga yaabaa inaad qoraalka qaladay (ama aad uqortay si aan haboonayn) magaca bogga?',
+	'time-label' => 'Waqtiga howsha oo ku dhow gabagabo',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
@@ -882,6 +1004,15 @@ $messages['sv'] = array(
 	'transclusion-count' => '$1 mallinkludering(ar) hittades.',
 	'error-suggestion' => 'Kanske du felstavade (eller fel-versaliserade) namnet på sidan?',
 	'time-label' => 'Tid det tog att utföra kommandot',
+);
+
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'enter-details' => 'Ingiza maelezo',
+	'language-label' => 'Lugha',
+	'namespace-label' => 'Eneo la wiki',
 );
 
 /** Tamil (தமிழ்)
@@ -1017,6 +1148,7 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'enter-details' => '輸入詳細資訊',
 	'language-label' => '語言',
+	'namespace-label' => '名字空間',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

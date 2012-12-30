@@ -158,6 +158,17 @@ $messages['af'] = array(
 	'help_mail' => 'Stuur e-pos aan $1',
 );
 
+/** Amharic (አማርኛ)
+ * @author Codex Sinaiticus
+ */
+$messages['am'] = array(
+	'language' => 'ቋንቋ',
+	'project' => 'ፕሮጀክት',
+	'source_file' => 'መነሻ ፋይል',
+	'categories' => 'መደቦች',
+	'upload_submit' => 'ለመላክ',
+);
+
 /** Arabic (العربية)
  * @author Abanima
  * @author DRIHEM
@@ -211,15 +222,49 @@ $messages['ar'] = array(
 	'help_commons' => '$1أضف تعليقا على كومنز$2',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'language' => 'ܠܫܢܐ',
+	'project' => 'ܬܪܡܝܬܐ',
+	'source_file' => 'ܠܦܦܐ ܡܒܘܥܝܐ',
+	'target_file' => 'ܠܦܦܐ ܢܘܦܝܐ',
+	'categories' => 'ܣܕܪ̈ܐ',
+	'new_filename' => 'ܫܡܐ ܕܠܦܦܐ ܚܕܬܐ:',
+	'upload_submit' => 'ܐܣܩ!',
+);
+
 /** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
  * @author Simbu123
  */
 $messages['as'] = array(
+	'attention' => 'লক্ষ্য কৰক',
 	'language' => 'ভাষা',
 	'project' => 'প্ৰকল্প',
+	'source_file' => 'উৎস ফাইল',
+	'target_file' => 'লক্ষ্য ফাইল',
+	'commons_username' => 'ৱিকিমিডিয়া কমন্স সদস্যনাম',
+	'commons_to_project' => 'ৱিকিমিডিয়া কমন্সৰ পৰা প্রকল্পলৈ',
+	'categories' => 'শ্ৰেণীসমূহ',
+	'remove_cats' => 'বর্তমানৰ শ্ৰেণীসমূহ বিলোপ কৰক',
 	'tusc_user' => 'TUSC সদস্যনাম',
 	'tusc_pass' => 'TUSC গুপ্তশব্দ',
+	'do_it' => 'সম্পন্ন কৰক',
+	'error_transfer_usr' => 'আপুনি ৱিকিমিডিয়া কমন্সৰ ব্যৱহাৰকাৰী নাম প্ৰদান কৰা নাই',
+	'error_not_exists' => 'উৎস পৃষ্ঠৰ অস্তিত্ব নাই ।',
+	'error_file_exists' => 'ফাইল $3 ইতিমধ্যে "$1 $4 $2" হিচাপে আছেই !',
+	'original_wikitext' => 'মূল ৱিকি পাঠ্য',
+	'new_wikitext' => 'নতুন ৱিকি পাঠ্য',
 	'new_filename' => 'নতুন ফাইলনাম:',
+	'upload_submit' => 'আপল’ড কৰক !',
+	'target_wiki' => 'লক্ষ্য ৱিকি',
+	'error_bot_blocked' => 'আপল’ড বট ৱিকিমিডিয়া কমন্সত ব্লক কৰা হৈছে।',
+	'error_tusc_failed' => 'TUSC সত্যাপন বিফল হৈছে',
+	'error_upload_file' => 'মূল ফাইল ডাউনল’ড কৰিব নোৱাৰি ।',
+	'help_jira' => '$1JIRA (আপোনাক এটা একাউন্টৰ প্ৰয়োজন)$2 (Project: Commonshelper2)',
+	'help_mail' => '$1ক ই-মেইল প্ৰেৰণ কৰক',
 );
 
 /** Asturian (asturianu)
@@ -288,6 +333,107 @@ $messages['az'] = array(
 	'original_wikitext' => 'Orijinal viki mətn',
 	'new_wikitext' => 'Yeni viki mətn',
 	'new_filename' => 'Yeni fayl adı:',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author E THP
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'attention' => 'دیقت',
+	'description' => 'فایل‌لاری ویکی‌مئدیا پروژه‌لریندن ویکی‌مئدیا اورتاقلار داشیماق اوچون بیر آراج',
+	'change_meta' => '$3 اوچون $1بؤلمه و شابلون تنظیملری$2نی دَییشدیر',
+	'jira_link' => 'بیر خطا بیلدیر ویا بیر اؤزل‌لیک ایسته',
+	'language' => 'دیل',
+	'project' => 'پروژه',
+	'source_file' => 'قایناق فايلی',
+	'target_file' => 'هدف فایلی',
+	'commons_username' => 'ویکی‌مئدیا اورتاقلار ایستیفاده‌چی آدی',
+	'commons_to_project' => 'ویکی‌مئدیا اورتاقلاردان پروژه‌یه',
+	'move_file_from_com' => 'فایلی ویکی‌مئدیا اورتاقلاردان پروژه‌یه آپار',
+	'categories' => 'بؤلمه‌لر',
+	'remove_cats' => 'اولان بؤلمه‌لری سیل',
+	'use_checkusage' => 'یئنی بؤلمه‌لر اؤنریله‌مک اوچون $1CommonSense$2 ایشلت',
+	'use_tusc' => 'دوغرولاماق و فایلی موستقیم داشیماق اوچون $1TUSC$2-ی ایشلدین',
+	'tusc_user' => 'TUSC ایستیفاده‌چی آدی',
+	'tusc_pass' => 'TUSC رمزی',
+	'do_it' => 'بونو ائت',
+	'error_transfer_usr' => 'سیز بو ویکی‌مئدیا اورتاقلار ایستیفاده‌چی آدی قویمامیسینیز',
+	'error_not_exists' => 'قایناق فایل یوخدور!',
+	'error_on_commons' => 'قایناق فایل قاباقجادان $1-ده‌دیر!',
+	'error_file_exists' => 'فایل قاباقجادان «$1$4$2» آدی ایله $3-ده‌دیر!',
+	'error_diff_exists' => 'هدف ویکی‌ده بیر فرقلی فایل عینی آددا واردیر!',
+	'error_no_meta' => 'قایناق ویکی‌یه گؤره هئچ بیر مِتابیلگی تاپیلمادی! $1لوطفاً پروژه اوچون مِتابیلگیلری آرتیرین/گونجل‌له‌یین$2',
+	'error_meta_no_good' => 'مٍتابیلگی: هئچ بیر یاخشی شابلون تاپیلمادی! $1لوطفاً پروژه اوچون مِتابیلگیلری آرتیرین/گونجل‌له‌یین$2',
+	'error_meta_bad' => 'مٍتابیلگی: پیس شابلون تاپیلدی! $1لوطفاً پروژه اوچون مِتابیلگیلری آرتیرین/گونجل‌له‌یین$2',
+	'original_wikitext' => 'ایلکین ویکی یازیسی',
+	'new_wikitext' => 'یئنی ویکی یازیسی',
+	'new_filename' => 'یئنی فایل آدی:',
+	'output_information' => 'ال ایله یوکله‌مک اوچون، اوست‌ده‌کی یازینی دَییشدیرین (اگر لازیم اولسا)، $1فایلی$2 بیلگی‌سایارینیزدا قئید ائدین، سونرا $3اونو یوکله‌یین$4.',
+	'upload_submit' => 'یوکله!',
+	'target_wiki' => 'هدف ویکی',
+	'error_bot_blocked' => 'یوکله‌مک روبوتو ویکی‌مئدیا اورتاقلاردا باغلانیلیب‌دیر.',
+	'error_upload_meta' => 'موستقیم یوکله‌مک اولمور، نییه‌کی مِتابیلگی‌یه گؤره بیر موشکول وار (اوسته باخین)!',
+	'error_tusc_failed' => 'TUSC دوغرولاماغی اولانمادی!',
+	'error_only_commons' => 'موستقیم یوکله‌مک یالنیز ویکی‌مئدیا اورتاقلاردا اولا بیلر!',
+	'upload_control_text' => 'هر شئی یاخشی اولسا، یئنی ویکی یازیسینی یوخلایین و «$1»-ی تیکلایین!',
+	'error_commons_user' => 'داشییان ایستیفاده‌چینی بیلدیرمک اوچون، سیزین ویکی‌مئدیا اورتاقلار ایستیفاده‌چی آدینیز گرک آچیقلامادا اولسون!',
+	'error_upload_users' => 'تِست دؤنمینده یوکله‌مک یالنیز بعضی ایستیفاده‌چیلره آچیقدیر!',
+	'error_upload_file' => 'ایلکین فایلی اندیرمک اولمور.',
+	'help_intro' => 'بیر خطا بیلدیرنده، اؤزل‌لیک ایسته‌ینده، یا سوال سوروشاندا، بو ایلگی قورماق یول‌لارینین بیرینی سئچه بیلرسینیز:',
+	'help_jira' => '$1JIRA (سیزه حساب گرکلی‌دیر)$2 (پروژه: Commonshelper2)',
+	'help_mail' => '$1-ه بیر ایمیل گؤندر',
+	'help_commons' => '$1اورتاقلارا بیر یازی آرتیر$2',
+);
+
+/** Bashkir (башҡортса)
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'attention' => 'Ихтибар',
+	'description' => 'Викимедия пректынан Викиһаҡлағысҡа файлдар күсереү ҡорамалы',
+	'change_meta' => '$3 өсөн  $1 категория һәм  $2 ҡалып көйләүҙәрен үҙгәртегеҙ.',
+	'jira_link' => 'Проблема тураһында хәбәр итегеҙ йәки сисеү юлын тәҡдим итегеҙ.',
+	'language' => 'Тел',
+	'project' => 'Проект',
+	'source_file' => 'Тәүге файл',
+	'target_file' => 'Маҡсатлы файл',
+	'commons_username' => 'Викиһаҡлағыстағы ҡулланыусы исеме',
+	'commons_to_project' => 'Викиһаҡлағыстан проеҡтҡа',
+	'move_file_from_com' => 'Викиһаҡлағыстан файлды проектҡа күсерергә',
+	'categories' => 'Категориялар',
+	'remove_cats' => 'Барлыҡ категорияларҙы юйыу',
+	'use_checkusage' => 'Яңы категория тәҡдим итеү өсөн $1CommonSense$2 ҡулланығыҙ',
+	'use_tusc' => 'Танылыу һәм файлдарҙы тураға күсереү өсөн $1TUSC$2 ҡулланығыҙ',
+	'tusc_user' => 'TUSC ҡатнашыусы исеме',
+	'tusc_pass' => ' TUSC пароле',
+	'do_it' => 'Ошоно эшлә',
+	'error_transfer_usr' => 'Викиһаҡлағыста һеҙҙең исем юҡ',
+	'error_not_exists' => 'Тәүге файл юҡ!',
+	'error_on_commons' => 'Тәүге файл $1 битендә инде!',
+	'error_file_exists' => 'Был файл $3 битендә  "$1$4$2" исеме менән бар!',
+	'error_diff_exists' => 'Маҡсатлы викила ошо исемдәге башҡа файл бар!',
+	'error_no_meta' => 'Маҡсатли вики тураһында метамәғлүмәт табылманы! $1 өҫтәгеҙ йәки $2 проекты метамәғлүмәнен яңыртығыҙ.',
+	'error_meta_no_good' => 'Метамәғлүмәт: яраҡлы ҡалыптар табылмана!  $1 өҫтәгеҙ йәки  $2 пректы метамәғлүмәтен яңыртығыҙ.',
+	'error_meta_bad' => 'Метамәғлүмәт: яраҡһыҙ ҡалыптар табылды!  $1 өҫтәгеҙ йәки  $2 пректы метамәғлүмәтен яңыртығыҙ.',
+	'original_wikitext' => 'Вики текстың төп нөхсәһе',
+	'new_wikitext' => 'Яңы вики текст',
+	'new_filename' => 'Файлдың яңы исеме',
+	'output_information' => 'Файлды ҡулдан тейәү өсөн өҫтәге тексты төҙәтегеҙ (әгәр кәрәк булһа), $1файл$2 компьютерҙа һаҡлағыҙ, һуңынан $3тейәгеҙ $4',
+	'upload_submit' => 'Тейәргә',
+	'target_wiki' => 'Маҡсатлы вики',
+	'error_bot_blocked' => 'Викиһаҡлағыста тейәүсе робот бикләнгән.',
+	'error_upload_meta' => 'Туоаға тейәй алмайым, метамәғлүмәт менән проблема бар (өҫтә карағыҙ).',
+	'error_tusc_failed' => 'TUSC тикшереүҙе башкарып булманы!',
+	'error_only_commons' => 'Турыға тейәү тик Викиһаҡлағыс өсөн эшләй!',
+	'upload_control_text' => 'Яңы вики-тексты тикшереп ҡарағыҙ, әгәр барыһы ла дөрөҫ булһа "$1" төймәһенә баҫығыҙ!',
+	'error_commons_user' => 'Танылыу өсөн һеҙҙең иҫәп яҙмаһы Wikimedia Commons яҙмаһында яҙылған булырға тейеш.',
+	'error_upload_users' => 'Һынап ҡару ваҡытында тик ҡайһы бер ҡатнашыусыларҙың ғына тейәү рөхсәте бар.',
+	'error_upload_file' => 'Тәүге файлды ксереп булманы',
+	'help_intro' => 'Хата тураһында хебәр итергә, функция тәҡдим итергә йәки һорау бирергә теләһәгеҙ, түбәндәге бәйләнеш менән файҙаланығыҙ:',
+	'help_jira' => '$1JIRA (һеҙҙең иҫәп яҙмаһы талап ителә)$2  (проект: Commonshelper2)',
+	'help_mail' => '$1 хат ебәрергә',
+	'help_commons' => '$1 Commons$2 хәбәр өҫтәргә',
 );
 
 /** Batak Toba (Batak Toba)
@@ -637,6 +783,21 @@ $messages['cs'] = array(
 	'help_commons' => '$1Přidat zprávu na Commons$2',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'language' => 'Чӗлхе',
+	'project' => 'Проект',
+	'source_file' => 'Кӑк файлӗ',
+	'target_file' => 'Тӗллевлӗ файл',
+	'do_it' => 'Куна ту',
+	'new_wikitext' => 'Ҫӗнӗ вики-текст',
+	'new_filename' => 'Ҫӗнӗ файл ячӗ:',
+	'upload_submit' => 'Тиесе яр!',
+	'help_mail' => '$1 патне ҫыру яр',
+);
+
 /** Danish (dansk)
  * @author Peter Alberti
  */
@@ -841,6 +1002,43 @@ $messages['el'] = array(
 	'new_filename' => 'Νέο όνομα αρχείου:',
 	'upload_submit' => 'Φόρτωση!',
 	'target_wiki' => 'το wiki προορισμού',
+);
+
+/** Esperanto (Esperanto)
+ * @author Anakmalaysia
+ * @author Objectivesea
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'attention' => 'Atentu',
+	'description' => 'Ilo por transloki dosierojn el vikimediajn projektojn al Vikimedia Komunejo',
+	'language' => 'Lingvo',
+	'project' => 'Projekto',
+	'source_file' => 'Fonta dosiero',
+	'target_file' => 'Cela dosiero',
+	'commons_username' => 'Uzantnomo je Vikimedia Komunejo',
+	'commons_to_project' => 'Vikimedia Komunejo al projekto',
+	'move_file_from_com' => 'Transloku dosieron el Vikimedia Komunejo al projekto',
+	'categories' => 'Kategorioj',
+	'remove_cats' => 'Forigi ekzistantajn kategoriojn',
+	'use_checkusage' => 'Uzu $1CommonSense$2-on por proponi novajn kategoriojn',
+	'use_tusc' => 'Uzu $1TUSC$2-on por kontroli kaj transloki rekte la dosieron',
+	'tusc_user' => 'Salutnomo de TUSC',
+	'tusc_pass' => 'Pasvorto de TUSC',
+	'do_it' => 'Faru',
+	'error_transfer_usr' => 'Vi ne elektis uzantnomon pri la Vikimedia Komunumo',
+	'error_not_exists' => 'Fonta dosiero ne ekzistas!',
+	'error_on_commons' => 'Fonta dosiero jam estas en $1!',
+	'error_file_exists' => 'La dosiero jam ekzistas ĉe $3 kiel "$1$4$2"!',
+	'error_diff_exists' => 'La diferenca celdosiero kun sama nomo ekzistas en la celvikio!',
+	'original_wikitext' => 'Originala vikiteksto',
+	'new_wikitext' => 'Nova vikiteksto',
+	'new_filename' => 'Nova dosier-nomo:',
+	'upload_submit' => 'Alŝuti!',
+	'target_wiki' => 'la cela vikio',
+	'error_tusc_failed' => 'Kontrolo de TUSC nefaris!',
+	'help_mail' => 'Sendi retpoŝton al $1',
+	'help_commons' => '$1Aldoni afiŝo en Komunejo$2',
 );
 
 /** Spanish (español)
@@ -1627,7 +1825,13 @@ $messages['id'] = array(
  */
 $messages['ig'] = array(
 	'attention' => 'Anyá gị!',
-	'language' => 'Asụsụ',
+	'language' => 'Ásụ̀sụ̀',
+	'project' => 'Nzu',
+	'source_file' => 'Usòrò mkpọlógwù',
+	'target_file' => 'Usòrò ọ chọ',
+	'categories' => 'Ébéanọr',
+	'do_it' => 'Mẹ ya',
+	'upload_submit' => 'Tinyénélú!',
 );
 
 /** Ingush (ГӀалгӀай)
@@ -1724,20 +1928,20 @@ $messages['ja'] = array(
 	'error_file_exists' => 'ファイルは $3 に既に「$1$4$2」として存在します',
 	'error_diff_exists' => '転送先のウィキには同じ名前で別のファイルが存在します',
 	'error_no_meta' => '転送元ウィキに関するメタデータが見つかりませんでした。$1このプロジェクトのメタデータを追加・更新してください$2',
-	'error_meta_no_good' => 'メタデータ：許可済みテンプレートが見つかりませんでした。$1このプロジェクトのメタデータを追加・更新してください$2',
-	'error_meta_bad' => 'メタデータ：不許可テンプレートが見つかりました。$1このプロジェクトのメタデータを追加・更新してください$2',
+	'error_meta_no_good' => 'メタデータ: 許可済みテンプレートが見つかりませんでした。$1このプロジェクトのメタデータを追加・更新してください$2',
+	'error_meta_bad' => 'メタデータ: 不許可テンプレートが見つかりました。$1このプロジェクトのメタデータを追加・更新してください$2',
 	'original_wikitext' => '元のウィキテキスト',
 	'new_wikitext' => '新しいウィキテキスト',
 	'new_filename' => '新しいファイル名:',
-	'output_information' => '手動アップロードを行うには、（必要ならば）上記のテキストを編集し、$1このファイル$2をあなたのコンピューターに保存し、$3それをアップロードします$4。',
+	'output_information' => '手動アップロードを行うには、(必要であれば) 上記のテキストを編集し、$1このファイル$2をあなたのコンピューターに保存し、$3それをアップロードします$4。',
 	'upload_submit' => 'アップロード',
 	'target_wiki' => '転送先ウィキ',
 	'standard_project' => 'wikipedia',
 	'error_bot_blocked' => 'ウィキメディア コモンズでアップロード用ボットがブロックされています。',
-	'error_upload_meta' => 'メタデータに問題がある（上記参照）ため、直接アップロードすることができません。',
+	'error_upload_meta' => 'メタデータに問題点がある (上記参照) ため、直接アップロードすることができません。',
 	'error_tusc_failed' => 'TUSC の検証が失敗しました。',
 	'error_only_commons' => '直接アップロードはウィキメディア コモンズでのみ実行できます。',
-	'upload_control_text' => '新しいウィキテキストを確認し、すべて問題がなければ「$1」をクリックしてください。',
+	'upload_control_text' => '新しいウィキテキストを確認して、何も問題がなければ「$1」をクリックしてください。',
 	'error_commons_user' => '転送を行った利用者を識別するため、あなたのウィキメディア コモンズでの利用者名を説明文に含める必要があります。',
 	'error_upload_users' => '試験期間中は一部の利用者のみがアップロード機能を利用できます。',
 	'error_upload_file' => '元ファイルをダウンロードできません。',
@@ -1792,6 +1996,57 @@ $messages['ka'] = array(
 	'tusc_pass' => 'TUSC-ის პაროლი',
 	'do_it' => 'გააკეთე',
 	'upload_submit' => 'ატვირთვა!',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author Akoppad
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'attention' => 'ಗಮನಿಸಿ',
+	'description' => 'ವಿಕಿಮೀಡಿಯ ಯೋಜನೆಗಳಿಂದ ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್‌ಗೆ ಕಡತಗಳನ್ನು ವರ್ಗಾಯಿಸಲು ಒಂದು ಉಪಕರಣ',
+	'change_meta' => '$3 ಗಾಗಿ $1ವರ್ಗ ಮತ್ತು ಮಾದರಿ ಸಂಯೋಜನೆ$2 ಬದಲಾಯಿಸಿ',
+	'jira_link' => 'ಒಂದು ದೋಷ ವರದಿಯನ್ನು  ಅಥವಾ ಒಂದು ಲಕ್ಷಣವನ್ನು ಸೂಚಿಸಿ',
+	'language' => 'ಭಾಷೆ',
+	'project' => 'ಯೋಜನೆ',
+	'source_file' => 'ಮೂಲ ಕಡತ',
+	'target_file' => 'ಗುರಿ ಕಡತ',
+	'commons_username' => 'ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್ ಸದಸ್ಯತ್ವದ ಹೆಸರು',
+	'commons_to_project' => 'ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್‌ನಿಂದ ಯೋಜನೆಗೆ',
+	'move_file_from_com' => 'ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್‌ನಿಂದ ಯೋಜನೆಗೆ ಕಡತ ವರ್ಗಾಯಿಸಿರಿ',
+	'categories' => 'ವರ್ಗಗಳು',
+	'remove_cats' => 'ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ವಿಭಾಗಗಳು ತೆಗೆದುಹಾಕಿ',
+	'use_checkusage' => 'ಹೊಸ ವಿಭಾಗಗಳು ಸೂಚಿಸಲು $1CommonSense $2 ಬಳಸಿ',
+	'use_tusc' => 'ದೃಢೀಕರಿಸಲು ಮತ್ತು ನೇರವಾಗಿ ಕಡತವನ್ನು ವರ್ಗಾಯಿಸಲು $1TUSC$2 ಉಪಯೋಗಿಸಿ',
+	'tusc_user' => 'TUSC ಸದಸ್ಯತ್ವದ ಹೆಸರು',
+	'tusc_pass' => 'TUSC ಗುಪ್ತಪದ',
+	'do_it' => 'ಮಾಡು',
+	'error_transfer_usr' => 'ನೀವು ವಿಕಿಮೀಡಿಯ ಕಣಜದಲ್ಲಿ ಬಳಕೆದಾರಹೆಸರು ಹೊಂದಿಸಿಲ್ಲ',
+	'error_not_exists' => 'ಮೂಲ ಪುಟ ಅಸ್ಥಿತ್ವದಲ್ಲಿ ಇಲ್ಲ.',
+	'error_on_commons' => 'ಮೂಲ ಪುಟ $1 ರಲ್ಲಿ ಅಸ್ಥಿತ್ವದಲ್ಲಿ',
+	'error_file_exists' => 'ಕಡತವು ಈಗಾಗಲೇ $3 ಅಲ್ಲಿ "$1$4$2" ಎಂದು ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ!',
+	'error_diff_exists' => 'ಒಂದು ವಿಭಿನ್ನ ಕಡತ ಈಗಾಗಲೇ ಇದೆ ಹೆಸರಿನಡಿ ಗುರಿ ವಿಕಿ ಮೇಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ!',
+	'error_no_meta' => 'ಆಕರ ವಿಕಿಯ ಬಗ್ಗೆ ದತ್ತಾಂಶ ಅಲಭ್ಯ! $1ದಯವಿಟ್ಟು ಯೋಜನೆಗೆ ದತ್ತಾಂಶ ಸೇರಿಸಿ/ಬದಲಾಯಿಸಿ$2',
+	'error_meta_no_good' => 'ದತ್ತಾಂಶ: ಉತ್ತಮವಾದ ಮಾದರಿಗಳು ಸಿಗಲಿಲ್ಲ! $1ದಯವಿಟ್ಟು ಯೋಜನೆಗೆ ದತ್ತಾಂಶ ಸೇರಿಸಿ/ಬದಲಾಯಿಸಿ$2',
+	'error_meta_bad' => 'ದತ್ತಾಂಶ: ಉತ್ತಮವಲ್ಲದ ಮಾದರಿಗಳು! $1ದಯವಿಟ್ಟು ಯೋಜನೆಗೆ ದತ್ತಾಂಶ ಸೇರಿಸಿ/ಬದಲಾಯಿಸಿ$2',
+	'original_wikitext' => 'ಮೂಲ ವಿಕಿ ಪಠ್ಯ',
+	'new_wikitext' => 'ಹೊಸ ವಿಕಿ ಪಠ್ಯ',
+	'new_filename' => 'ಹೊಸ ಕಡತದ ಹೆಸರು:',
+	'output_information' => 'ನೀವೇ ನಕಲೇರಿಸಲು, ಮೇಲೆ ನೀಡಿರುವ ಪಠ್ಯವನ್ನು (ಅಗತ್ಯವಿದ್ದಲ್ಲಿ) ತಿದ್ದಿ,  $1ಕಡತವನ್ನು$2 ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಉಳಿಸಿ, ನಂತರ $3ನಕಲೇರಿಸಿ$4.',
+	'upload_submit' => 'ನಕಲೇರಿಸಿ!',
+	'target_wiki' => 'ಲಕ್ಷ್ಯ ವಿಕಿ',
+	'error_bot_blocked' => 'ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್‌ನಲ್ಲಿ ನಕಲೇರಿಸುವ ಬಾಟ್ ಅನ್ನು ಬ್ಲಾಕ್ ಮಾಡಲಾಗಿದೆ.',
+	'error_upload_meta' => 'ದತ್ತಾಂಶದಲ್ಲಿ ಸಮಸ್ಯೆ ಇರುವುದರಿಂದ ನೇರವಾಗಿ ನಕಲೇರಿಸಲಾಗುವುದಿಲ್ಲ (ಮೇಲೆ ನೋಡಿ)!',
+	'error_tusc_failed' => 'TUSC ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ!',
+	'error_only_commons' => 'ನೇರ ನಕಲೇರಿಸುವಿಕೆ ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್‌ನಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ!',
+	'upload_control_text' => 'ದಯವಿಟ್ಟು ಹೊಸ ವಿಕಿ ಪಠ್ಯವನ್ನು ಪರೀಕ್ಷಿಸಿ ಹಾಗೂ ಎಲ್ಲವೂ ಸರಿಯಿದ್ದರೆ "$1" ಕ್ಲಿಕ್ಕಿಸಿ!',
+	'error_commons_user' => 'ವರ್ಗಾವಣೆ ಸದಸ್ಯರನ್ನು ಗುರುತಿಸಲು, ನಿಮ್ಮ ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್ ಸದಸ್ಯತ್ವದ ಹೆಸರು ವಿವರಣೆಯಲ್ಲಿರಬೇಕು!',
+	'error_upload_users' => 'ಪರೀಕ್ಷಣಾ ಅವಧಿಯಲ್ಲಿ ನಕಲೇರಿಸುವಿಕೆಯ ಕ್ರಿಯೆಯು ಕೆಲವೇ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಿದೆ!',
+	'error_upload_file' => 'ಮೂಲ ಕಡತವನ್ನು ನಕಲಿಳಿಸಲಾಗುವುದಿಲ್ಲ.',
+	'help_intro' => 'ನೀವು ದೋಷ ವರದಿ ಮಾಡಲು, ವೈಶಿಷ್ಟ್ಯ ಕೋರಲು ಅಥವಾ ಪ್ರಶ್ನೆ ಕೇಳಲು, ಕೆಳಗಿನ ಸಂಪರ್ಕ ರೀತಿಯಲ್ಲಿ ಒಂದನ್ನು ಬಳಸಬಹುದು:',
+	'help_jira' => '$1ಜಿರಾ (ಖಾತೆ ಅಗತ್ಯವಿದೆ)$2 (ಯೋಜನೆ: Commonshelper2)',
+	'help_mail' => '$1 ಗೆ ಮಿಂಚಂಚೆ ಕಳಿಸಿ',
+	'help_commons' => '$1ಕಾಮನ್ಸ್‌ನಲ್ಲಿ ಒಂದು ಪ್ರಕಟಣೆ ಸೇರಿಸಿ$2',
 );
 
 /** Korean (한국어)
@@ -1909,6 +2164,17 @@ $messages['ku-latn'] = array(
 	'help_mail' => 'Ji $1 re e-namekî bişîne',
 );
 
+/** Kirghiz (Кыргызча)
+ * @author Growingup
+ */
+$messages['ky'] = array(
+	'language' => 'Тил',
+	'project' => 'Долбоор',
+	'source_file' => 'Баштапкы файл',
+	'categories' => 'Категориялар',
+	'upload_submit' => 'Жүктөө',
+);
+
 /** Latin (Latina)
  * @author MissPetticoats
  */
@@ -2021,6 +2287,39 @@ $messages['lv'] = array(
 	'new_wikitext' => 'Jaunais vikiteksts',
 	'new_filename' => 'Jaunais faila nosaukums:',
 	'upload_submit' => 'Augšupielādēt!',
+);
+
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'language' => 'Basa',
+	'project' => 'Proyek',
+	'source_file' => 'Berkas sumber',
+	'target_file' => 'Berkas tujuan',
+	'commons_username' => 'Jeneng panganggo Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons ming proyek',
+	'move_file_from_com' => 'Mindah berkas sekang Wikimedia Commons ming proyek',
+	'categories' => 'Kategori',
+	'remove_cats' => 'Busek kategori sing wis ana',
+	'use_checkusage' => 'Gunakna $1CommonSense$2 kanggo ngusulna kategori anyar',
+	'tusc_user' => 'Jeneng panganggo TUSC',
+	'tusc_pass' => 'Tembung sandhi TUSC',
+	'do_it' => 'Kerjakna',
+	'error_transfer_usr' => 'Rika durung nyetel jeneng panganggo Wikimedia Commons',
+	'error_not_exists' => 'Berkas sumber ora ana!',
+	'error_on_commons' => 'Berkas sumber anu wis ana nang $1!',
+	'error_file_exists' => 'Berkas wis ana nang $3 nganggo jeneng "$1$4$2"!',
+	'error_diff_exists' => 'Wis ana berkas target sejen nang wiki target sing nganggo jeneng sing padha!',
+	'original_wikitext' => 'Teks wiki aslihttp://translatewiki.net/wiki/Special:Translate/tsint-0-all#',
+	'new_wikitext' => 'Teks wiki anyar',
+	'new_filename' => 'Jeneng berkas anyar:',
+	'upload_submit' => 'Unggah!',
+	'target_wiki' => 'wiki target',
+	'error_bot_blocked' => 'Bot pangunggah wis diblokir nang Wikimedia Commons.',
+	'error_tusc_failed' => 'Pangesahan TUSC ora dadi!',
+	'help_mail' => 'Kirim layang ming $1',
+	'help_commons' => '$1Tambahna post nang Commons$2',
 );
 
 /** Minangkabau (Baso Minangkabau)
@@ -2171,7 +2470,7 @@ $messages['ms'] = array(
 	'error_not_exists' => 'Fail sumber tidak wujud.',
 	'error_on_commons' => 'Fail sumber sudah ada di $1!',
 	'error_file_exists' => 'Fail sudah wujud di $3 sebagai "$1$4$2"!',
-	'error_diff_exists' => 'Fail sesaran yang berlainan wujud di wiki sasaran dengan nama yang sama!',
+	'error_diff_exists' => 'Fail sasaran yang berlainan wujud di wiki sasaran dengan nama yang sama!',
 	'error_no_meta' => 'Tiada metadata yang dijumpai untuk wiki sumber! $1Sila isikan/kemas kini metadata untuk projek ini$2',
 	'error_meta_no_good' => 'Metadata: Tiada templat elok yang dijumpai! $1Sila isikan/kemas kini metadata untuk projek ini$2',
 	'error_meta_bad' => 'Metadata: Templat tak elok dijumpai! $1Sila isikan/kemas kini metadata untuk projek ini$2',
@@ -2232,6 +2531,11 @@ $messages['mt'] = array(
 	'error_bot_blocked' => 'Il-bot tat-tlugħ huwa mblukkat fuq Wikimedia Commons.',
 	'error_tusc_failed' => 'L-awtentikazzjoni TUSC falliet!',
 	'error_only_commons' => 'It-trasferiment dirett jaħdem biss għal Wikimedia Commons!',
+	'error_upload_file' => 'Il-fajl oriġinali ma jistax jitniżżel.',
+	'help_intro' => "Meta trid tirrapporta ''bug'', tagħti suġġeriment jew għandek mistoqsija, tista' tuża' wieħed mill-modi differenti ta' kuntatt:",
+	'help_jira' => '$1JIRA (irid ikollok kont)$2 (Project: Commonshelper2)',
+	'help_mail' => 'Ibgħat ittre lil $1',
+	'help_commons' => '$1Żid messaġġ fuq Commons$2',
 );
 
 /** Burmese (မြန်မာဘာသာ)
@@ -2336,6 +2640,59 @@ $messages['nb'] = array(
 	'help_jira' => '$1JIRA (du trenger en konto)$2 (Project: Commonshelper2)',
 	'help_mail' => 'Send en e-post til $1',
 	'help_commons' => '$1Legg til et innlegg på Commons$2',
+);
+
+/** Nepali (नेपाली)
+ * @author Krish Dulal
+ */
+$messages['ne'] = array(
+	'source_file' => 'स्रोत फाइल',
+	'target_file' => 'लक्ष्य फाइल',
+);
+
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'description' => 'विकिमिदिया ज्याझ्वलं विकिमिदिया कमन्सय् फाइल छ्वयेगु ज्याभः',
+	'jira_link' => 'बग विवरण व फिचर्स इनाप',
+	'language' => 'भाय्',
+	'project' => 'ज्याझ्वः',
+	'source_file' => 'स्रोत फाइल',
+	'target_file' => 'तार्गेत फाइल',
+	'commons_username' => 'विकिमिदिया कमन्स छ्येलामिनां',
+	'commons_to_project' => 'विकिमिदिया कमन्सं ज्याझ्वलय्',
+	'move_file_from_com' => 'फाइल विकिमिदिया कमन्सं ज्याझ्वले यंकादिसँ',
+	'categories' => 'पुचःत',
+	'remove_cats' => 'दूगु पुचःत खारेज यानादिसँ',
+	'use_checkusage' => '$1CommonSense$2 छ्येला न्हूगु पुचःत प्रस्त्ताव यानादिसँ',
+	'use_tusc' => '$1TUSC$2 छ्येला फाइल प्रमाणिकरण यानादिसँ व फाइल छकलं हस्तान्तरण यानादिसँ',
+	'tusc_user' => 'TUSC छ्यलामि नां',
+	'tusc_pass' => 'TUSC दुथखँग्वः (पासवर्ड)',
+	'do_it' => 'थ्व यानादिसँ',
+	'error_transfer_usr' => 'छिं विकिमिदिया कमन्स छ्यलामि नां सेत यानामदिनि',
+	'error_not_exists' => 'स्रोत फाइल अस्तित्त्व हे मदु!',
+	'error_on_commons' => 'स्रोत फाइल न्हापा हे $1य् दु!',
+	'error_file_exists' => 'फाइल न्हापा हे $3स "$1$4$2"या रुपय् दु!',
+	'error_diff_exists' => 'तार्तेत विकिइ थ्व हे नामं छगू मेगु हे फाइल दु।',
+	'error_no_meta' => 'स्रोत विकिया मेतादाता मलु! $1कृपया ज्याझ्वः$2या निंतिं मेतादाता तनादिसँ/अपदेत यानादिसँ।',
+	'error_meta_no_good' => 'मेतादाता: बांलाःगु तेम्प्लेत मलु! $1कृपया ज्याझ्वः$2या निंतिं मेतादाता तनादिसँ/अपदेत यानादिसँ।',
+	'error_meta_bad' => 'मेतादाता: बांमलाःगु तेम्प्लेत लुत! $1कृपया ज्याझ्वः$2या निंतिं मेतादाता तनादिसँ/अपदेत यानादिसँ',
+	'original_wikitext' => 'धाथेंया विकि पाठ',
+	'new_wikitext' => 'न्हुगु विकि पाठ',
+	'new_filename' => 'न्हुगु फाइलनां',
+	'upload_submit' => 'अपलोद!',
+	'target_wiki' => 'गंतव्य विकि',
+	'error_bot_blocked' => 'विकिमिदिया कमन्सय् अपलोद बोत पनातःगु दु।',
+	'error_upload_meta' => 'मेतादाता (च्वे स्वयादिसँ)या समस्यां याना प्रत्यक्ष कथं अपलोद यायेमछिंना च्वंगुदु!',
+	'error_tusc_failed' => 'TUSC प्रमाणिकरण विफल जुल!',
+	'error_only_commons' => 'प्रत्यक्ष अपलोद विकिमिदिया कमन्सय् जक्क छिं!',
+	'upload_control_text' => 'न्हुगु विकि पाठ स्वयादिसँ व दक्वं पाय्छि जुसाः "$1"स तियादिसँ!',
+	'error_commons_user' => 'त्रान्सफर छ्य्लामियात म्हसीकेयात छिगु विकिमिदिया कमन्स छ्य्लामि नां विवरणय् दयेमा!',
+	'error_upload_users' => 'निरिक्षण कालय् अपलोद फंक्सन निश्चित छ्य्लामितयेत जक्क उपलब्ध दु।',
+	'error_upload_file' => 'धाथेंया फाइल दाउनलोद याये मछिं।',
+	'help_mail' => '$1य् पौ छ्वयादिसँ',
+	'help_commons' => 'कमन्स$2य् पोस्त $1तनादिसँ',
 );
 
 /** Dutch (Nederlands)
@@ -2468,17 +2825,23 @@ $messages['or'] = array(
 	'error_on_commons' => 'ମୂଳ ଫାଇଲଟି $1ରେ ଆଗରୁ ଅଛି !',
 	'error_file_exists' => '$3 ଫାଇଲଟି ଆଗରୁ "$1$4$2" ଭାବେ ଅଛି !',
 	'error_diff_exists' => 'ଲକ୍ଷସ୍ଥଳ ଉଇକିରେ ସମାନ ନାମରେ ଆଉ ଗୋଟିଏ ଅଲଗା ଫାଇଲଅଛି !',
+	'error_meta_no_good' => 'ମେଟାଡାଟା: କୌଣସି ଟେମ୍ପଲେଟ ମିଳିଲା ନାହି ! $1 ଦୟାକରି $2 ପ୍ରକଳ୍ପ ପାଇଁ ମେଟାଡାଟା ଯୋଡନ୍ତୁ/ଅପଲୋଡ କରନ୍ତୁ',
+	'error_meta_bad' => 'ମେଟାଡାଟା: ଖରାପ ଟେମ୍ପଲେଟ ମିଳିଲା ! $1 ଦୟାକରି $2 ପ୍ରକଳ୍ପ ପାଇଁ ମେଟାଡାଟା ଯୋଡନ୍ତୁ/ଅପଲୋଡ କରନ୍ତୁ',
 	'original_wikitext' => 'ମୂଳ ଉଇକି ଲେଖା',
 	'new_wikitext' => 'ନୂଆ ଉଇକି ଲେଖା',
 	'new_filename' => 'ନୂଆ ଫାଇଲନାମ :',
 	'upload_submit' => 'ଅପଲୋଡ଼ !',
 	'target_wiki' => 'ଲକ୍ଷସ୍ଥଳ ଉଇକିଟି',
+	'error_bot_blocked' => 'ଉଇକିମେଡିଆ କମନ୍ସରେ ଅପଲୋଡ ବଟଟି ବନ୍ଦ ହେଇ ଯାଇଛି ।',
+	'error_upload_meta' => 'ମେଟାଡାଟାରେ ଅସୁବିଧା ଥିବାରୁ ପ୍ରତ୍ୟେକ୍ଷ ଭାବେ ଅପଲୋଡ ହୋଇ ପାରୁନାହିଁ (ଉପରକୁ ଦେଖନ୍ତୁ) !',
 	'error_tusc_failed' => 'TUSC ଯାଞ୍ଚ ବିଫଳ ହେଲା !',
 	'error_only_commons' => 'ସିଧାସଳଖ ଅପଲୋଡଟି କେବଳ ଉଇକିମେଡିଆ କମନ୍ସରେ କାମ କରେ !',
 	'upload_control_text' => 'ଦୟାକରି ନୂଆ ଉଇକି ଲେଖାଟିକୁ ଯାଞ୍ଚ କରିଦିଅନ୍ତୁ ଏବଂ ଯଦି ସବୁ ଠିକ ଅଛି ତାହେଲେ $1ରେ କ୍ଲିକ କରନ୍ତୁ !',
 	'error_upload_users' => 'ଅପଲୋଡତି କେବଳ ପରୀକ୍ଷା କରାଯାଉଥିବା ବେଳେ କିଛି ବ୍ୟବହାରକାରୀମାନଙ୍କ ପାଇଁ ଉପଲବ୍ଧ ହୋଇଥାଏ !',
 	'error_upload_file' => 'ପ୍ରକୃତ ଫାଇଲଟି ଡାଉନଲୋଡ ହୋଇ ପାରିବ ନାହିଁ ।',
+	'help_jira' => '$1JIRA (ଆପଣଙ୍କର ଖାତା ଖୋଲିବା ଦରକାର)$2 (ପ୍ରକଳ୍ପ: Commonshelper2)',
 	'help_mail' => '$1କୁ ଗୋଟିଏ ମେଲ ପଠେଇବେ',
+	'help_commons' => '$2 କମନ୍ସରେ $1 ପୋଷ୍ଟ ଯୋଡନ୍ତୁ',
 );
 
 /** Punjabi (ਪੰਜਾਬੀ)
@@ -2572,6 +2935,15 @@ $messages['pl'] = array(
 	'help_jira' => '$1JIRA (musisz posiadać konto)$2 (Projekt Commonshelper2)',
 	'help_mail' => 'Wyślij e‐mail do $1',
 	'help_commons' => '$1Dodaj wiadomość na Commons$2',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['pms'] = array(
+	'language' => 'Lenga',
+	'project' => 'Proget',
+	'categories' => 'Categorìe',
 );
 
 /** Pashto (پښتو)
@@ -2802,21 +3174,63 @@ $messages['ru'] = array(
 	'help_commons' => '$1Добавить сообщение на Commons$2',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Hemant wikikosh1
+ */
+$messages['sa'] = array(
+	'attention' => 'अवधानम्',
+	'description' => 'विकिमीडियाप्रकल्पेभ्यः विकिमीडिया-कौमन्स् इति यावत् सञ्चिकाप्रेषणार्थम् उपकरणम्',
+	'language' => 'भाषा',
+	'project' => 'प्रकल्पः',
+	'source_file' => 'स्रोतःसञ्चिका',
+	'target_file' => 'लक्ष्यसञ्चिका',
+	'commons_username' => 'विकिमीडियाकौमन्स् सदस्यनाम',
+	'commons_to_project' => 'विकिमीडिया-कौमन्स् इत्यतः प्रकल्पं प्रति',
+	'move_file_from_com' => 'विकिमीडिया-कौमन्स् इत्यतः प्रकल्पं प्रति सञ्चिका चाल्यताम्',
+	'categories' => 'वर्गाः',
+	'remove_cats' => 'विद्यमानान् वर्गान् निष्कासयतु',
+	'do_it' => 'क्रियताम्',
+	'error_transfer_usr' => 'भवता विकिमीडिया-कौमन्स् इत्यत्र सदस्यनाम न संस्थापितमस्ति',
+	'error_not_exists' => 'स्रोतःसञ्चिका न विद्यते!',
+	'error_on_commons' => 'स्रोतःसञ्चिका $1 इत्यत्र पूर्वे एव विद्यते!',
+	'error_file_exists' => 'सञ्चिका तु $3 इत्यत्र "$1$4$2" इति रूपेण पूर्वे एव विद्यते!',
+	'error_diff_exists' => 'लक्ष्यविक्याम् अनेनैव नाम्ना भिन्नैका लक्ष्यसञ्चिका विद्यते!',
+	'error_no_meta' => 'स्रोतःविकिविषये प्रदत्तांशः न लब्धः! $1कृपया प्रकल्पविषये प्रदत्तांशः युज्यताम्/नवीनीक्रियताम्$2',
+	'original_wikitext' => 'मौलिकः विकिपाठः',
+	'new_wikitext' => 'नूतनः विकिपाठः',
+	'new_filename' => 'नूतनं सञ्चिकानाम :',
+	'upload_submit' => 'उद्भार्यताम् !',
+	'target_wiki' => 'लक्ष्यविकि',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
 	'attention' => 'අවධානය',
+	'jira_link' => 'ද්‍යෝෂයක් වාර්තා කරන්න හෝ විශේෂාංගයක් යෝජනා කරන්න',
 	'language' => 'භාෂාව',
 	'project' => 'ව්‍යාපෘතිය',
 	'source_file' => 'මූලාශ්‍ර ගොනුව',
 	'target_file' => 'ඉලක්කගත ගොනුව',
+	'commons_username' => 'විකිමාධ්‍ය පොදුජන පරිශීලක නාමය',
+	'commons_to_project' => 'ව්‍යාපෘතිය වෙත විකිමීඩියා කොමන්ස්',
 	'categories' => 'ප්‍රවර්ගයන්',
+	'remove_cats' => 'පවත්නා ප්‍රවර්ගයන් ඉවත් කරන්න',
+	'tusc_user' => 'TUSC පරිශීලක නාමය',
+	'tusc_pass' => 'TUSC මුරපදය',
 	'do_it' => 'එය කරන්න',
+	'error_not_exists' => 'මූලාශ්‍ර ගොනුව නොපවතියි!',
+	'error_on_commons' => 'මූලාශ්‍ර ගොනුව $1 මත දැනටමත් පවතී!',
+	'original_wikitext' => 'මුල් විකි පාඨය',
 	'new_wikitext' => 'නව විකි පාඨය',
 	'new_filename' => 'නව ගොනුනාමය:',
 	'upload_submit' => 'උඩුගත කරන්න!',
+	'target_wiki' => 'ඉලක්කගත විකිය',
+	'error_tusc_failed' => 'TUSC සත්‍යාපනය අසාර්ථකයි!',
+	'error_upload_file' => 'මුල් ගොනුව බාගත කල නොහැක.',
+	'help_mail' => '$1 වෙත තැපෑලක් යවන්න',
 );
 
 /** Slovenian (slovenščina)
@@ -2868,6 +3282,56 @@ $messages['sl'] = array(
 	'help_jira' => '$1JIRA (potrebujete račun)$2 (Projekt: Commonshelper2)',
 	'help_mail' => 'Pošljite sporočilo na $1',
 	'help_commons' => '$1Dodaj objavo na Zbirko$2',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'attention' => 'Iska jir',
+	'description' => 'Qalabka lagu gudbiyo File lasha mashruuca Wikimedia ee Wikimedia',
+	'change_meta' => 'Badal $1Qaybta iyo template qooqyada$2 ee $3',
+	'jira_link' => 'Calaameey qalad ama soo saar badalid',
+	'language' => 'Luqad',
+	'project' => 'Mashruuc',
+	'source_file' => 'Asalka fileka',
+	'target_file' => 'Ujeedka fileka',
+	'commons_username' => 'Wikimedia Commons adeegsadaha',
+	'commons_to_project' => 'Wikimedia Commons ee mashruuca',
+	'move_file_from_com' => 'Ka saar fileka Wikimedia Commons ee mashruuca',
+	'categories' => 'Qaybaha',
+	'remove_cats' => 'Ka saar qaybaha jira',
+	'use_checkusage' => 'Adeegso $1CommonSense$2 ee hoos usheegid qayb cusub',
+	'use_tusc' => 'Adeegso $1TUSC$2 xaqiijinta iyo gudbinta fileka si toos ah',
+	'tusc_user' => 'TUSC Adeegsade',
+	'tusc_pass' => 'TUSC Eray sir',
+	'do_it' => 'Dir',
+	'error_transfer_usr' => 'Ma lihid Wikimedia Commons magac adeegsade',
+	'error_not_exists' => 'Asalka fileka lama helin!',
+	'error_on_commons' => 'Asalka fileka waa jiraa $1!',
+	'error_file_exists' => 'Fileka wuu jiraa $3 sida "$1$4$2"!',
+	'error_diff_exists' => 'Waa ku jiraa wiki fileka aad dooneysid isla magacaan',
+	'error_no_meta' => 'Cudurdaar helidda ku saabsan cadaynta ku saabsan asalka wiki! $1fadlan ku dar/dib u howl gali cadaynta ku saabsan asalka mashruuca$2',
+	'error_meta_no_good' => 'cadaymaha biloowga: lama helin templates! $1fadlan ku dar/dib u howl geli cadaynta ku saabsan asalka mashruuca$2',
+	'error_meta_bad' => 'adaymaha biloowga: template xun ayaa la helay! $1fadlan ku dar/dib u howl gali adaynta ku saabsan asalka mashruuca$2',
+	'original_wikitext' => 'Asalka qoraalka ee wiki',
+	'new_wikitext' => 'Qoraal cusub ee wiki',
+	'new_filename' => 'Magaca fileka cusub',
+	'output_information' => 'Gacan ku galin, qoraalka sare wax kabadal (hadii loo baahdo), kaydi $1fileka$2 compuyuter kaada, kadib $3gali$4.',
+	'upload_submit' => 'Gali!',
+	'target_wiki' => 'Ujeedada wiki',
+	'error_bot_blocked' => 'Galinta Bot ayaa mamnuucay ee Wikimedia Commons.',
+	'error_upload_meta' => 'Ma galin kartid maxaa yeelay waxaa jirta dhibaato la xiriirta xagga cadaymaha biloowga (Kor fiiri)!',
+	'error_tusc_failed' => 'Fashil ka yimid dabagal ee TUSC !',
+	'error_only_commons' => 'Galinta si toos ah waxa uu ku shaqaynayaa oo kaliya Wikimedia Commons!',
+	'upload_control_text' => 'Fadlan iska hubi wiki cusub  qoraalka hadana guji "$1" hadii dhamaan ay ok tahay!',
+	'error_commons_user' => 'Si aad u qeexdo qofkii file soo wareejiyey, magacaada adeegsiga ee Wikimedia Commons waa in uu ku jiraa cadaymaha',
+	'error_upload_users' => 'Howsha galinta waxaa loo ogol yahay oo kaliya qaar ka mid ah adeegsada yaasha taasina waxa ay ku agtahay xiliga tijaabada!',
+	'error_upload_file' => 'Filekii asalka ahaa ma suuroobin laa dajintiisa',
+	'help_intro' => "Markii aad doonaysid inaad gudbisid xog waran! qaladaad uun ee tilmaamaya wax gaar ah ama su'aal waxaad adeegsan kartaa mid ka mid ah qaybaha xiriirka",
+	'help_jira' => '$1JIRA (waxaad ubaahantahay akoon)$2 (mashruuca: Commonshelper2)',
+	'help_mail' => 'U dir E-mail', # Fuzzy
+	'help_commons' => '$1ku dar faallo Commons$2',
 );
 
 /** Albanian (shqip)
@@ -3079,14 +3543,21 @@ $messages['sv'] = array(
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
+	'attention' => 'Tahadhari',
+	'description' => 'Chombo cha kuhamisha faili kutoka kwa miradi ya Wikimedia hadi Wikimedia Commons',
 	'language' => 'Lugha',
 	'project' => 'Mradi',
 	'source_file' => 'Faili ya chanzo',
+	'commons_username' => 'Jina la mtumiaji la Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons hadi mradi',
+	'move_file_from_com' => 'Hamisha faili kutoka Wikimedia commons hadi mradi',
 	'categories' => 'Jamii',
+	'remove_cats' => 'Toa jamii zilizoko',
 	'tusc_user' => 'Jina la mtumiaji la TUSC',
 	'tusc_pass' => 'Nywila ya TUSC',
 	'do_it' => 'Fanya',
 	'error_transfer_usr' => 'Haujaweka jina kla mtumiaji la Wikimedia commons',
+	'new_filename' => 'NJina lipya la faili:',
 	'upload_submit' => 'Pakia!',
 	'help_mail' => 'Tuma barua pepe kwa $1',
 );
@@ -3368,6 +3839,42 @@ $messages['uk'] = array(
 	'upload_submit' => 'Завантажити!',
 	'target_wiki' => 'цільова вікі',
 	'error_bot_blocked' => 'Завантажуючого бота заблоковано на Вікісховищі.',
+	'help_mail' => 'Надіслати електронного листа на адресу $1',
+);
+
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'attention' => 'Diqqat',
+	'description' => 'Vikimedia loyihalaridan VikiOmborga fayllarni oʻtkazish uchun asbob',
+	'change_meta' => '$3 uchun $1turkum va andoza moslamalari$2ni oʻzgartiring',
+	'jira_link' => 'Muammo haqida xabar qilish yoki yaxshilashni taklif etish',
+	'language' => 'Til',
+	'project' => 'Loyiha',
+	'source_file' => 'Manba fayl',
+	'target_file' => 'Moʻljal fayl',
+	'commons_username' => 'VikiOmbordagi foydalanuvchi nomi',
+	'commons_to_project' => 'VikiOmbordan loyihaga',
+	'move_file_from_com' => 'Faylni VikiOmbordan loyihaga koʻchirish',
+	'categories' => 'Turkumlar',
+	'remove_cats' => 'Mavjud turkumlarni oʻchirish',
+	'use_checkusage' => 'Yangi turkumlarni taklif etish uchun $1CommonSense$2dan foydalanish',
+	'use_tusc' => 'Kirish va fayllarni toʻgʻridan-toʻgʻri oʻtkazish uchun $1TUSC$2dan foydalaning',
+	'tusc_user' => 'TUSCdagi foydalanuvchi nomi',
+	'tusc_pass' => 'TUSC paroli',
+	'do_it' => 'Buni bajarish',
+	'error_transfer_usr' => 'VikiOmborda foydalanuvchi nomi berilmadi',
+	'error_not_exists' => 'Manba fayli mavjud emas!',
+	'error_on_commons' => 'Manba fayli allaqachon $1da!',
+	'error_file_exists' => 'Fayl allaqachon $3da "$1$4$2" sifatida mavjud!',
+	'original_wikitext' => 'Asl vikimatn',
+	'new_wikitext' => 'Yangi vikimatn',
+	'new_filename' => 'Yangi fayl nomi:',
+	'output_information' => 'Qoʻlda yuklash uchun yuqoridagi matnni toʻgʻrilang (agar zarur boʻlsa), $1fayl$2ni oʻz komputeringizga saqlang, keyin $3uni yuklang$4.',
+	'upload_submit' => 'Yuklash!',
+	'target_wiki' => 'moʻljal viki',
+	'help_mail' => '$1ga maktub joʻnatish',
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -3470,6 +3977,7 @@ $messages['zh-hans'] = array(
 	'new_filename' => '新的文件名：',
 	'upload_submit' => '上传！',
 	'target_wiki' => '目标维基',
+	'standard_project' => '维基百科',
 	'error_bot_blocked' => '上传机器维基共享资源上被阻止。',
 	'error_upload_meta' => '不能直接上载，因为有的元数据的问题（见上文）！',
 	'error_tusc_failed' => 'TUSC 验证失败！',
@@ -3488,16 +3996,29 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'attention' => '注意',
+	'description' => '由維基媒體項目轉移檔案到維基共享資源的工具',
+	'change_meta' => '更改$3的$1分類和模板設定$2',
 	'jira_link' => '報告問題或建議一項功能',
 	'language' => '語言',
 	'project' => '計劃',
 	'source_file' => '來源檔案',
 	'target_file' => '目標檔案',
 	'commons_username' => '維琪共用資源的用戶名',
+	'commons_to_project' => '維基共享資源到項目',
+	'move_file_from_com' => '由維基共享資源轉移檔案到項目',
 	'categories' => '分類',
 	'remove_cats' => '刪除現有的分類',
+	'use_checkusage' => '使用$1CommonSense$2蝥立新分類',
+	'use_tusc' => '使用$1TUSC$2來直接驗證和傳輸該文件',
+	'tusc_user' => 'TUSC用戶名',
+	'tusc_pass' => 'TUSC密碼',
+	'do_it' => '做吧',
+	'error_transfer_usr' => '您未輸入您的維基共享資源用戶名',
 	'error_not_exists' => '原始檔案不存在 ！',
 	'error_on_commons' => '原始檔案已在 $1 ！',
+	'error_file_exists' => '檔案已經在$3上存在，檔案名為「$1$4$2」！',
+	'error_diff_exists' => '根據同名的目標維基上存在不同的目標文件！',
+	'error_no_meta' => '未找到關於該來源維基的元數據！ $1請為該項目添加/更新元數據$2',
 	'new_filename' => '新的檔案名：',
 	'upload_submit' => '上傳 ！',
 	'error_upload_file' => '無法下載原始檔案。',

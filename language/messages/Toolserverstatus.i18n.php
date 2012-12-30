@@ -119,6 +119,47 @@ $messages['ast'] = array(
 	'toolserver-status-short-missing' => '$1: Inesistente',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'toolserver-status-ok' => '$1 دیتابیس سالخیمیندا بیر موشکول یوخدور $2',
+	'toolserver-status-info' => '$1 سالخیمی ایستیفاده‌چیلرینه بیلدیریش: $2',
+	'toolserver-status-warn' => '$1 سالخیمی ایستیفاده‌چیلرینه ایخطار: $2',
+	'toolserver-status-down' => '$1 دیتابیس سالخیمی گئچیجی اولاراق چالیشماقدان دوردورولوب‌دور. $2',
+	'toolserver-status-erro' => '$1 دیتابیس سالخیمی ایشلمیر. $2',
+	'toolserver-status-unknown' => '$1 سالخیمینین وضعیتی بیلینمیر',
+	'toolserver-status-missing' => '$1 سالخیمی یوخدور',
+	'toolserver-status-short-ok' => '$1: یاخشی',
+	'toolserver-status-short-info' => '$1: بیلگی',
+	'toolserver-status-short-warn' => '$1: ایخطار',
+	'toolserver-status-short-down' => '$1: ایشلَمیر',
+	'toolserver-status-short-erro' => '$1: خطا',
+	'toolserver-status-short-unknown' => '$1: بیلینمیر',
+	'toolserver-status-short-missing' => '$1: ال‌دن گئدیب',
+);
+
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'toolserver-status-ok' => ' $1 $2 кластер мәғлүмәтендә бер ниндәйҙә проблема юҡ.',
+	'toolserver-status-info' => '$1 кластеры файҙаланыусыларына хәбәр ебәрергә:$2',
+	'toolserver-status-warn' => '$1 кластеры файҙаланыусыларына хәбәр иҫкәртеү:$2',
+	'toolserver-status-down' => ' $1 мәғлүмәт базаһы ваҡытлыса туҡтатылған. $2',
+	'toolserver-status-erro' => ' $1 мәғлүмәт базаһы ваҡытлыса ҡыйынлыҡ кисерә. $2',
+	'toolserver-status-unknown' => ' $1 кластерының билдәһеҙ торошо.',
+	'toolserver-status-missing' => '$1 кластеры юҡ',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Мәғлүмәт',
+	'toolserver-status-short-warn' => '$1: Иҫкәртеү',
+	'toolserver-status-short-down' => '$1: Ябыҡ',
+	'toolserver-status-short-erro' => '$1: Хата',
+	'toolserver-status-short-unknown' => '$1: Билдәһеҙ',
+	'toolserver-status-short-missing' => '$1: Юҡ',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
@@ -211,6 +252,26 @@ $messages['cs'] = array(
 	'toolserver-status-short-erro' => '$1: Chyba',
 	'toolserver-status-short-unknown' => '$1: Neznámý',
 	'toolserver-status-short-missing' => '$1: Chybí',
+);
+
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'toolserver-status-ok' => '$1 $2 пӗлӗмлӗх кластерӗнче проблема ҫук',
+	'toolserver-status-info' => '$1 кластерӑн усӑҫӗсен валли пӗлтерӳ: $2',
+	'toolserver-status-warn' => '$1 кластерӑн усӑҫӗсен валли асӑрхаттару: $2',
+	'toolserver-status-down' => '$1 пӗлӗмлӗх кластерӗ вӑхӑтлӑха ӗҫлемест. $2',
+	'toolserver-status-erro' => '$1 пӗлӗмлӗх кластерӗ ӗҫлемест. $2',
+	'toolserver-status-unknown' => '$1 кластерӑн тӑрӑмӗ паллӑ мар',
+	'toolserver-status-missing' => '$1 кластер пулмасть',
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Тӗплӗнрех',
+	'toolserver-status-short-warn' => '$1: Асӑрхаттару',
+	'toolserver-status-short-down' => '$1: Ӗҫлемест',
+	'toolserver-status-short-erro' => '$1: Йӑнӑш',
+	'toolserver-status-short-unknown' => '$1: Паллӑ мар',
+	'toolserver-status-short-missing' => '$1: Ҫук',
 );
 
 /** Danish (dansk)
@@ -629,6 +690,19 @@ $messages['km'] = array(
 	'toolserver-status-short-missing' => '$1: រកមិនមាន',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'toolserver-status-short-ok' => '$1: ಸರಿ',
+	'toolserver-status-short-info' => '$1: ಮಾಹಿತಿ',
+	'toolserver-status-short-warn' => '$1: ಎಚ್ಚರಿಕೆ',
+	'toolserver-status-short-down' => '$1: ವಿಫಲ',
+	'toolserver-status-short-erro' => '$1: ದೋಷ',
+	'toolserver-status-short-unknown' => '$1: ಅಜ್ಞಾತ',
+	'toolserver-status-short-missing' => '$1: ನಷ್ಟ',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -782,6 +856,20 @@ $messages['nb'] = array(
 	'toolserver-status-short-missing' => '$1: Mangler',
 );
 
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'toolserver-status-missing' => 'क्लस्तर $1 अस्तित्त्व हे मदु',
+	'toolserver-status-short-ok' => '$1: ज्यु',
+	'toolserver-status-short-info' => '$1: सूचं',
+	'toolserver-status-short-warn' => '$1: न्हेसूचं',
+	'toolserver-status-short-down' => '$1: क्वे',
+	'toolserver-status-short-erro' => '$1: इरर',
+	'toolserver-status-short-unknown' => '$1: मस्यूगु',
+	'toolserver-status-short-missing' => '$1: मलूगु',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -809,7 +897,7 @@ $messages['nl'] = array(
 $messages['or'] = array(
 	'toolserver-status-short-ok' => '$1: ଠିକ ଅଛି',
 	'toolserver-status-short-info' => '$1: ତଥ୍ୟ',
-	'toolserver-status-short-warn' => '$: ସତର୍କ', # Fuzzy
+	'toolserver-status-short-warn' => '$1: ସତର୍କିତ',
 	'toolserver-status-short-down' => '$1: ଖରାପ',
 	'toolserver-status-short-erro' => '$1: ଭୁଲ',
 	'toolserver-status-short-unknown' => '$1: ଅଜଣା',
@@ -883,13 +971,14 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Eleferen
+ * @author Salam
  */
 $messages['ru'] = array(
-	'toolserver-status-ok' => 'Нет никаких проблем в базе данных кластера $1 $2',
+	'toolserver-status-ok' => 'Нет никаких проблем в кластере базы данных $1 $2',
 	'toolserver-status-info' => 'Уведомление для пользователей кластера $1: $2',
 	'toolserver-status-warn' => 'Предупреждение для пользователей кластера $1: $2',
-	'toolserver-status-down' => 'База данных кластера $1 временно выключена. $2',
-	'toolserver-status-erro' => 'База данных кластера $1 недоступна. $2',
+	'toolserver-status-down' => 'Кластер базы данных $1 временно выключен. $2',
+	'toolserver-status-erro' => 'Кластер базы данных $1 недоступен. $2',
 	'toolserver-status-unknown' => 'Неизвестное состояние кластера $1',
 	'toolserver-status-missing' => 'Кластер $1 не существует',
 	'toolserver-status-short-ok' => '$1: Ok',
@@ -955,6 +1044,13 @@ $messages['sl'] = array(
 	'toolserver-status-short-missing' => '$1: Manjka',
 );
 
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'toolserver-status-ok' => 'Wax dhibaato ah ma jiraan guud ahaan Kaydka $1 $2',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
@@ -1002,6 +1098,7 @@ $messages['sv'] = array(
 	'toolserver-status-ok' => 'Det finns inga problem i databaskluster $1 $2',
 	'toolserver-status-warn' => 'Varning för klusteranvändare $1: $2',
 	'toolserver-status-erro' => 'Databasklustret $1 är nere. $2',
+	'toolserver-status-missing' => 'Klustret $1 finns inte',
 	'toolserver-status-short-ok' => '$1: Ok',
 	'toolserver-status-short-info' => '$1: Info',
 	'toolserver-status-short-warn' => '$1: Varning',
@@ -1009,6 +1106,19 @@ $messages['sv'] = array(
 	'toolserver-status-short-erro' => '$1: Fel',
 	'toolserver-status-short-unknown' => '$1: Okänd',
 	'toolserver-status-short-missing' => '$1: Saknas',
+);
+
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'toolserver-status-short-ok' => '$1: Sawa',
+	'toolserver-status-short-info' => '$1: Habari',
+	'toolserver-status-short-warn' => '$1: Onya',
+	'toolserver-status-short-down' => '$1: Shuka',
+	'toolserver-status-short-erro' => '$1: Hitilafu',
+	'toolserver-status-short-unknown' => '$1: hazijulikani',
+	'toolserver-status-short-missing' => '$1: Hazipatikani',
 );
 
 /** Tamil (தமிழ்)

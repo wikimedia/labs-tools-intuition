@@ -140,6 +140,22 @@ $messages['af'] = array(
 	'location' => 'Ligging',
 );
 
+/** Amharic (አማርኛ)
+ * @author Codex Sinaiticus
+ */
+$messages['am'] = array(
+	'search-table-th-field' => 'መስክ',
+	'search-table-th-filter' => 'ማጣሪያ',
+	'search-table-th-search' => 'ፈልግ',
+	'db-field-country' => 'ሀገር',
+	'db-field-lang' => 'ቋንቋ',
+	'db-field-name' => 'ስም',
+	'db-field-lat' => 'ኬክሮስ',
+	'db-field-lon' => 'ኬንትሮስ',
+	'db-field-changed' => 'የተለወጠበት',
+	'db-field-source' => 'መነሻ',
+);
+
 /** Arabic (العربية)
  * @author Ali1
  * @author DRIHEM
@@ -191,14 +207,66 @@ $messages['ar'] = array(
 	'source-monuments-list-on-wikipedia' => 'مصدر قائمة المعالم في ويكيبيديا',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'search-table-th-field' => 'ܚܩܠܐ',
+	'search-table-th-filter' => 'ܡܨܦܝܢܝܬܐ',
+	'search-table-th-search' => 'ܒܨܝ',
+	'filter-all-countries' => 'ܟܠ ܐܬܪ̈ܘܬܐ',
+	'filter-all-languages' => 'ܟܠ ܠܫܢ̈ܐ',
+	'db-field-country' => 'ܐܬܪܐ',
+	'db-field-st_name_pct' => 'ܫܡܗ̈ܐ %',
+	'db-field-st_total' => 'ܡܢܝܢܐ ܟܠܢܝܐ',
+	'toolbox-nav-homepage' => 'ܦܐܬܐ ܪܝܫܝܬܐ',
+	'toolbox-nav-statistics' => 'ܚܒܝܫܘܬ ܡܢܝܢܐ',
+	'toolbox-nav-search' => 'ܒܨܝ',
+);
+
 /** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
  * @author Simbu123
  */
 $messages['as'] = array(
+	'search-title' => 'কীৰ্তিচিহ্ন অনুসন্ধান কৰক',
+	'search-monuments-database' => 'কীৰ্তিচিহ্ন তথ্যকোষত অনুসন্ধান কৰক',
+	'search-table-th-field' => 'ফিল্ড',
 	'search-table-th-filter' => 'ছেকনী',
 	'search-table-th-search' => 'অনুসন্ধান',
 	'filter-all-countries' => 'সকলো দেশ',
 	'filter-all-languages' => 'সকলো ভাষা',
+	'db-field-country' => 'দেশ',
+	'db-field-lang' => 'ভাষা',
+	'db-field-id' => 'পৰিচয়ক',
+	'db-field-name' => 'নাম',
+	'db-field-address' => 'ঠিকনা',
+	'db-field-municipality' => 'নগৰপালিকা',
+	'db-field-lat' => 'অক্ষাংশ',
+	'db-field-lon' => 'দ্ৰাঘিমাংশ',
+	'db-field-image' => 'চিত্ৰ',
+	'db-field-changed' => 'সলোৱা হ’ল',
+	'db-field-source' => 'উৎস',
+	'db-field-monument_article' => 'কীৰ্তিচিহ্নৰ প্ৰবন্ধ',
+	'db-field-registrant_url' => 'নিবন্ধন ইউআৰএল',
+	'db-field-st_address' => 'ঠিকনা',
+	'db-field-st_address_pct' => 'ঠিকনা %',
+	'db-field-st_coordinates' => 'স্থানাংক',
+	'db-field-st_coordinates_pct' => 'স্থানাংকসমূঃ %',
+	'db-field-st_image' => 'চিত্ৰ',
+	'db-field-st_image_pct' => 'চিত্ৰ %',
+	'db-field-st_municipality' => 'নগৰপালিকা',
+	'db-field-st_municipality_pct' => 'নগৰপালিকা %',
+	'db-field-st_name' => 'নাম',
+	'db-field-st_name_pct' => 'নাম %',
+	'db-field-st_total' => 'সৰ্বমুঠ সংখ্যা',
+	'toolbox-label-searchtipps' => 'ফুজী অনুসন্ধানৰ বাবে ব্যৱহাৰ কৰক %term অথবা term% অথবা %term%',
+	'toolbox-meta-title' => 'ৱিকি লাভচ কীৰ্তিচিহ্ন সা-সঁজুলি',
+	'toolbox-nav-homepage' => 'বেটুপাত',
+	'toolbox-nav-statistics' => 'পৰিসংখ্যা',
+	'toolbox-nav-search' => 'সন্ধান কৰক',
+	'toolbox-title-searchmonuments' => 'স্মৃতিস্তম্ভ অনুসন্ধান কৰক',
+	'location' => 'অৱস্থান',
 );
 
 /** Asturian (asturianu)
@@ -255,6 +323,104 @@ $messages['ast'] = array(
 $messages['az'] = array(
 	'search-table-th-filter' => 'Filtrlər',
 	'search-table-th-search' => 'Axtar',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author E THP
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'search-title' => 'عابیده‌لر آختارماغی',
+	'search-monuments-database' => 'عابیده‌لر دیتابیس-ینی آختار',
+	'search-table-th-field' => 'ساحه',
+	'search-table-th-filter' => 'سۆزگَج',
+	'search-table-th-search' => 'آختار',
+	'filter-all-countries' => 'بوتون اؤلکه‌لر',
+	'filter-all-languages' => 'بوتون دیل‌لر',
+	'db-field-country' => 'اؤلکه',
+	'db-field-lang' => 'دیل',
+	'db-field-id' => 'تانیتدیران',
+	'db-field-name' => 'آد',
+	'db-field-address' => 'آدرس',
+	'db-field-municipality' => 'شهرداری',
+	'db-field-lat' => 'ائنلم (جوغرافیایی ائنی)',
+	'db-field-lon' => 'بویلام (جوغرافیایی بوی)',
+	'db-field-image' => 'شکیل',
+	'db-field-changed' => 'دَییشدیریلیب',
+	'db-field-source' => 'قایناق',
+	'db-field-monument_article' => 'عابیده مقاله‌سی',
+	'db-field-registrant_url' => 'اینترنت آدرسی یازدیران',
+	'db-field-st_address' => 'آدرسلر',
+	'db-field-st_address_pct' => 'آدرسلر %',
+	'db-field-st_coordinates' => 'موختصات',
+	'db-field-st_coordinates_pct' => 'موختصات %',
+	'db-field-st_image' => 'شکیل',
+	'db-field-st_image_pct' => 'شکیل %',
+	'db-field-st_municipality' => 'شهرداری',
+	'db-field-st_municipality_pct' => 'شهرداری %',
+	'db-field-st_name' => 'آدلار',
+	'db-field-st_name_pct' => 'آدلار %',
+	'db-field-st_total' => 'توپلام سایی',
+	'toolbox-label-searchtipps' => 'موبهم آختارماق اوچون %سؤزجوک or سؤزجوک% یادا %سؤزجوک% ایستیفاده ائدین',
+	'toolbox-meta-title' => 'ویکی سئویم عابیده‌لری آراج‌قوتوسو',
+	'toolbox-main-title' => 'WLM آراج‌قوتوسو',
+	'toolbox-main-description' => 'بونا ایلگیلی اولان آراجلار:',
+	'toolbox-wikilovesmonuments' => 'ویکی سئویم عابیده‌لری',
+	'toolbox-nav-homepage' => 'آنا صحیفه',
+	'toolbox-nav-statistics' => 'آمار',
+	'toolbox-nav-search' => 'آختار',
+	'toolbox-title-searchmonuments' => 'عابیده‌لری آختار',
+	'location' => 'یئر',
+	'source-monuments-list-on-wikipedia' => 'ویکی‌پئدیادا قایناق عابیده‌لر لیستی',
+);
+
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'search-title' => 'Һәйкәлдәрҙе эҙләү',
+	'search-monuments-database' => 'Һәйкәлдәр базаһында эҙләү',
+	'search-table-th-field' => 'Юл',
+	'search-table-th-filter' => 'Фильтр',
+	'search-table-th-search' => 'Эҙләү',
+	'filter-all-countries' => 'Бөтә илдәр',
+	'filter-all-languages' => 'Бөтә телдәр',
+	'db-field-country' => 'Ил',
+	'db-field-lang' => 'Тел',
+	'db-field-id' => 'Идентификатор',
+	'db-field-name' => 'Исем',
+	'db-field-address' => 'Адрес',
+	'db-field-municipality' => 'Муниципалитет',
+	'db-field-lat' => 'Киңлек',
+	'db-field-lon' => 'Оҙонлоҡ',
+	'db-field-image' => 'Рәсем',
+	'db-field-changed' => 'Үҙгәртелгән',
+	'db-field-source' => 'Сығанаҡ',
+	'db-field-monument_article' => 'Һәйкәл тураһында мәҡәлә',
+	'db-field-registrant_url' => 'Милексенең URL-адресы',
+	'db-field-st_address' => 'Адрестар',
+	'db-field-st_address_pct' => 'Адрестар %',
+	'db-field-st_coordinates' => 'Координаталар',
+	'db-field-st_coordinates_pct' => 'Координаталар %',
+	'db-field-st_image' => 'Рәсем',
+	'db-field-st_image_pct' => 'Рәсем %',
+	'db-field-st_municipality' => 'Муниципалитет',
+	'db-field-st_municipality_pct' => 'Муниципалитет %',
+	'db-field-st_name' => 'Исемдәр',
+	'db-field-st_name_pct' => 'Исемдәр %',
+	'db-field-st_total' => 'Барыһы',
+	'toolbox-label-searchtipps' => 'Иҫкергән мәғлумәтте алыу өсөн %term, term% йәки %term% ҡулланығыҙ',
+	'toolbox-meta-title' => 'Wiki Loves Monuments (Wiki Һәйкәлдәрҙе Ярата) ҡоролмаһы',
+	'toolbox-main-title' => 'WLM ҡоролмалары',
+	'toolbox-main-description' => 'Ҡоролмалар йыйлмаһы',
+	'toolbox-wikilovesmonuments' => 'Вики һәйкәлдәр ярата',
+	'toolbox-nav-homepage' => 'Баш бит',
+	'toolbox-nav-statistics' => 'Статистика',
+	'toolbox-nav-search' => 'Эҙләү',
+	'toolbox-title-searchmonuments' => 'Һәйкәлдәр эҙләү',
+	'location' => 'Урын',
+	'source-monuments-list-on-wikipedia' => 'Википедияла һәйкәлдәр исемлегенең тәүгеһе',
 );
 
 /** Belarusian (беларуская)
@@ -551,10 +717,58 @@ $messages['cs'] = array(
 	'source-monuments-list-on-wikipedia' => 'Seznam památek na Wikipedii se zdroji',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'search-title' => 'Палӑксене шырани',
+	'search-monuments-database' => 'Палӑксен пӗлӗмлӗхӗнчи шырав',
+	'search-table-th-field' => 'Уй',
+	'search-table-th-filter' => 'Ала',
+	'search-table-th-search' => 'Шырав',
+	'filter-all-countries' => 'Мӗн пур ҫӗршыв',
+	'filter-all-languages' => 'Мӗн пур чӗлхе',
+	'db-field-country' => 'Ҫӗршыв',
+	'db-field-lang' => 'Чӗлхе',
+	'db-field-id' => 'Идентификатор',
+	'db-field-name' => 'Ят',
+	'db-field-address' => 'Адрес',
+	'db-field-municipality' => 'Район (муниципалитет)',
+	'db-field-lat' => 'Анлӑх',
+	'db-field-lon' => 'Вӑрӑмлӑх',
+	'db-field-image' => 'Ӳкерчӗк',
+	'db-field-changed' => 'Улӑштарнӑ',
+	'db-field-source' => 'Ҫӑл куҫ',
+	'db-field-monument_article' => 'Палӑк ҫинчен статья',
+	'db-field-registrant_url' => 'Регистрантӑн URL адресӗ',
+	'db-field-st_address' => 'Адрес',
+	'db-field-st_address_pct' => 'Адрес %',
+	'db-field-st_coordinates' => 'Координата',
+	'db-field-st_coordinates_pct' => 'Координата %',
+	'db-field-st_image' => 'Ӳкерчӗк',
+	'db-field-st_image_pct' => 'Ӳкерчӗк %',
+	'db-field-st_municipality' => 'Район (муниципалитет)',
+	'db-field-st_municipality_pct' => 'Район (муниципалитет) %',
+	'db-field-st_name' => 'Ят',
+	'db-field-st_name_pct' => 'Ят %',
+	'db-field-st_total' => 'Пӗтӗм хисеп',
+	'toolbox-label-searchtipps' => 'кивелнӗ пӗтӗмлӗхе шырасшӑн %term, term% е %term% кӗртӗр',
+	'toolbox-meta-title' => 'Wiki Loves Monuments хатӗрӗсем',
+	'toolbox-main-title' => 'WLM хатӗрӗсем',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Тӗпел',
+	'toolbox-nav-statistics' => 'Статистика',
+	'toolbox-nav-search' => 'Шырав',
+	'toolbox-title-searchmonuments' => 'Палӑксене шырасси',
+	'location' => 'Вырнӑҫу',
+	'source-monuments-list-on-wikipedia' => 'Википедири палӑксен кӑк йышӗ',
+);
+
 /** Danish (dansk)
  * @author MGA73
  * @author Peter Alberti
  * @author Sarrus
+ * @author Tjernobyl
  */
 $messages['da'] = array(
 	'search-title' => 'Monument-søgning',
@@ -587,10 +801,12 @@ $messages['da'] = array(
 	'db-field-st_municipality_pct' => 'Kommune %',
 	'db-field-st_name' => 'Navne',
 	'db-field-st_name_pct' => 'Navne %',
+	'toolbox-wikilovesmonuments' => 'Wiki elsker monumenter',
 	'toolbox-nav-homepage' => 'Hjemmeside',
 	'toolbox-nav-statistics' => 'Statistikker',
 	'toolbox-nav-search' => 'Søg',
 	'toolbox-title-searchmonuments' => 'Søg monumenter',
+	'location' => 'Sted',
 );
 
 /** German (Deutsch)
@@ -767,6 +983,50 @@ $messages['el'] = array(
 	'toolbox-nav-search' => 'Αναζήτηση',
 	'toolbox-title-searchmonuments' => 'Αναζήτηση μνημείων',
 	'location' => 'Τοποθεσία',
+);
+
+/** Esperanto (Esperanto)
+ * @author Anakmalaysia
+ * @author Objectivesea
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'search-title' => 'Serĉi monumentojn',
+	'search-monuments-database' => 'Traserĉi la datumbazo de monumentoj',
+	'search-table-th-field' => 'Kampo',
+	'search-table-th-filter' => 'Filtri',
+	'search-table-th-search' => 'Serĉi',
+	'filter-all-countries' => 'Ĉiuj landoj',
+	'filter-all-languages' => 'Ĉiuj lingvoj',
+	'db-field-country' => 'Lando',
+	'db-field-lang' => 'Lingvo',
+	'db-field-id' => 'Identigo',
+	'db-field-name' => 'Nomo',
+	'db-field-address' => 'Adreso',
+	'db-field-municipality' => 'Municipo',
+	'db-field-lat' => 'Latitudo',
+	'db-field-lon' => 'Longitudo',
+	'db-field-image' => 'Bildo',
+	'db-field-changed' => 'Ŝanĝita',
+	'db-field-source' => 'Fonto',
+	'db-field-monument_article' => 'Artikolo pri monumento',
+	'db-field-st_address' => 'Adresoj',
+	'db-field-st_address_pct' => 'Adresoj %',
+	'db-field-st_coordinates' => 'Koordinatoj',
+	'db-field-st_coordinates_pct' => 'Koordinatoj %',
+	'db-field-st_image' => 'Bildo',
+	'db-field-st_image_pct' => 'Bildo %',
+	'db-field-st_municipality' => 'Municipo',
+	'db-field-st_municipality_pct' => 'Municipo %',
+	'db-field-st_name' => 'Nomoj',
+	'db-field-st_name_pct' => 'Nomoj %',
+	'db-field-st_total' => 'Totalnombro',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Hejmpaĝo',
+	'toolbox-nav-statistics' => 'Statistikoj',
+	'toolbox-nav-search' => 'Serĉi',
+	'toolbox-title-searchmonuments' => 'Serĉi monumentojn',
+	'location' => 'Loko',
 );
 
 /** Spanish (español)
@@ -1149,6 +1409,7 @@ $messages['gu'] = array(
 	'db-field-st_name' => 'નામ',
 	'db-field-st_name_pct' => 'નામ %',
 	'db-field-st_total' => 'કુલ આંકડો',
+	'toolbox-nav-homepage' => 'મુખપૃષ્ઠ',
 	'toolbox-nav-search' => 'શોધો',
 	'location' => 'સ્થળ',
 );
@@ -1451,6 +1712,25 @@ $messages['id'] = array(
 	'source-monuments-list-on-wikipedia' => 'Daftar monumen sumber di Wikipedia',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'search-table-th-search' => 'Chọwa',
+	'filter-all-countries' => 'Òbòdò nile',
+	'filter-all-languages' => 'Asụ̀sụ̀ níle',
+	'db-field-name' => 'Áhà',
+	'db-field-image' => 'Nhuunuche',
+	'db-field-source' => 'Mkpọlọ́gwụ̀',
+	'db-field-st_image' => 'Nhuunuche',
+	'db-field-st_image_pct' => 'Nhuunuche %',
+	'db-field-st_name' => 'Áhà:',
+	'db-field-st_name_pct' => 'Áhà %',
+	'toolbox-nav-homepage' => 'Ihümbụ',
+	'toolbox-nav-search' => 'Chọwa',
+	'location' => 'Ébéà',
+);
+
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
@@ -1643,6 +1923,55 @@ $messages['ka'] = array(
 	'location' => 'მდებარეობა',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Akoppad
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'search-title' => 'ಸ್ಮಾರಕ ಹುಡುಕಾಟ',
+	'search-monuments-database' => 'ಸ್ಮಾರಕಗಳ ದತ್ತಸಂಚಯ ಹುಡುಕಿ',
+	'search-table-th-field' => 'ಕ್ಷೇತ್ರ',
+	'search-table-th-filter' => 'ಶೋಧಕ',
+	'search-table-th-search' => 'ಹುಡುಕಿ',
+	'filter-all-countries' => 'ಎಲ್ಲ ದೇಶಗಳು',
+	'filter-all-languages' => 'ಎಲ್ಲಾ ಭಾಷೆಗಳು',
+	'db-field-country' => 'ದೇಶ',
+	'db-field-lang' => 'ಭಾಷೆ',
+	'db-field-id' => 'ಗುರುತಿಸುವಿಕೆ',
+	'db-field-name' => 'ಹೆಸರು',
+	'db-field-address' => 'ವಿಳಾಸ',
+	'db-field-municipality' => 'ಪುರಸಭೆ',
+	'db-field-lat' => 'ಅಕ್ಷಾಂಶ',
+	'db-field-lon' => 'ರೇಖಾಂಶ',
+	'db-field-image' => 'ಚಿತ್ರ',
+	'db-field-changed' => 'ಬದಲಾಯಿಸಲಾಗಿದೆ',
+	'db-field-source' => 'ಆಕರ',
+	'db-field-monument_article' => 'ಸ್ಮಾರಕ ಲೇಖನ',
+	'db-field-registrant_url' => 'ನೋಂದಣಿ url',
+	'db-field-st_address' => 'ವಿಳಾಸಗಳು',
+	'db-field-st_address_pct' => 'ವಿಳಾಸಗಳು %',
+	'db-field-st_coordinates' => 'ಸಹಯೋಗಿಗಳು',
+	'db-field-st_coordinates_pct' => 'ಸಹಯೋಗಿಗಳು %',
+	'db-field-st_image' => 'ಚಿತ್ರ',
+	'db-field-st_image_pct' => 'ಚಿತ್ರ %',
+	'db-field-st_municipality' => 'ಪುರಸಭೆ',
+	'db-field-st_municipality_pct' => 'ಪುರಸಭೆ %',
+	'db-field-st_name' => 'ಹೆಸರುಗಳು',
+	'db-field-st_name_pct' => 'ಹೆಸರುಗಳು %',
+	'db-field-st_total' => 'ಒಟ್ಟು ಸಂಖ್ಯೆ',
+	'toolbox-label-searchtipps' => 'ಅಸ್ಪಷ್ಟ ಹುಡುಕಾಟಕ್ಕಾಗಿ %ಪದ ಅಥವಾ ಪದ% ಅಥವಾ %ಪದ% ಉಪಯೋಗಿಸಿ',
+	'toolbox-meta-title' => 'ವಿಕಿ ಲವ್ಸ್ ಮಾನ್ಯುಮೆಂಟ್ಸ್ ಉಪಕರಣಪೆಟ್ಟಿಗೆ',
+	'toolbox-main-title' => 'WLM ಉಪಕರಣಪೆಟ್ಟಿಗೆ',
+	'toolbox-main-description' => 'ಇದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಉಪಕರಣಗಳ ಒಂದು ಗುಂಪು',
+	'toolbox-wikilovesmonuments' => 'ವಿಕಿ ಲವ್ಸ್ ಮಾನ್ಯುಮೆಂಟ್ಸ್',
+	'toolbox-nav-homepage' => 'ಮುಖಪುಟ',
+	'toolbox-nav-statistics' => 'ಅಂಕಿ ಅಂಶಗಳು',
+	'toolbox-nav-search' => 'ಹುಡುಕಿ',
+	'toolbox-title-searchmonuments' => 'ಸ್ಮಾರಕಗಳನ್ನು  ಹುಡುಕಿ',
+	'location' => 'ಸ್ಥಳ',
+	'source-monuments-list-on-wikipedia' => 'ವಿಕಿಪೀಡಿಯದಲ್ಲಿ ಸ್ಮಾರಕಗಳ ಪಟ್ಟಿಯ ಆಕರ',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -1729,13 +2058,15 @@ $messages['ksh'] = array(
 	'toolbox-label-searchtipps' => 'Mer kann %woot udder woot% udder %woot% nämme, wam_mer alles fenge well, woh „woot“ am Aanfang, am Ängk, udder en de Medde dren schtisch.',
 	'toolbox-meta-title' => 'Werkzüch!!FUZZY! vum 
 Loves Monuments',
-	'toolbox-main-title' => 'WLM Werkzüch ', # Fuzzy
+	'toolbox-main-title' => 'WLM Werkzüch',
 	'toolbox-main-description' => 'Ene Pöngel Werkzüch för',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments', # Fuzzy
 	'toolbox-nav-homepage' => 'Houpsigg',
 	'toolbox-nav-statistics' => 'Schtatistike',
 	'toolbox-nav-search' => 'Söhke',
 	'toolbox-title-searchmonuments' => 'Noh Dängkmöhler söhke',
 	'location' => 'Plaz',
+	'source-monuments-list-on-wikipedia' => 'Leß met de Dängkmöhler op de Wikkipeedija',
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
@@ -1752,6 +2083,21 @@ $messages['ku-latn'] = array(
 	'db-field-st_name' => 'Nav',
 	'toolbox-nav-homepage' => 'Malper',
 	'toolbox-nav-statistics' => 'Statîstîk',
+);
+
+/** Kirghiz (Кыргызча)
+ * @author Growingup
+ */
+$messages['ky'] = array(
+	'search-table-th-filter' => 'Фильтр',
+	'search-table-th-search' => 'Издөө',
+	'db-field-country' => 'Өлкө',
+	'db-field-lang' => 'Тил',
+	'db-field-id' => 'Идентификатор',
+	'db-field-name' => 'Ат',
+	'db-field-address' => 'Дарек',
+	'db-field-lat' => 'Кеңдик',
+	'db-field-lon' => 'Узундук',
 );
 
 /** Latin (Latina)
@@ -1834,6 +2180,8 @@ $messages['lt'] = array(
 	'db-field-st_coordinates_pct' => 'Koordinatės %',
 	'db-field-st_image' => 'Paveikslėlis',
 	'db-field-st_image_pct' => 'Paveikslėlis %',
+	'db-field-st_name' => 'Pavadinimai',
+	'db-field-st_name_pct' => 'Pavadinimai %',
 	'db-field-st_total' => 'Bendras skaičius',
 	'toolbox-nav-homepage' => 'Pagrindinis puslapis',
 	'toolbox-nav-statistics' => 'Statistika',
@@ -1928,6 +2276,47 @@ $messages['mk'] = array(
 	'toolbox-title-searchmonuments' => 'Пребарување на споменици',
 	'location' => 'Место',
 	'source-monuments-list-on-wikipedia' => 'Изворен список на споменици на Википедија',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Anoopan
+ */
+$messages['ml'] = array(
+	'search-table-th-field' => 'ഫീൽഡ്',
+	'search-table-th-filter' => 'അരിപ്പ',
+	'search-table-th-search' => 'തിരയുക',
+	'filter-all-countries' => 'എല്ലാ രാജ്യങ്ങളും',
+	'filter-all-languages' => 'എല്ലാ ഭാഷകളും',
+	'db-field-country' => 'രാജ്യം',
+	'db-field-lang' => 'ഭാഷ',
+	'db-field-id' => 'തിരിച്ചറിയലടയാളം',
+	'db-field-name' => 'പേര്',
+	'db-field-address' => 'വിലാസം',
+	'db-field-municipality' => 'നഗരസഭ',
+	'db-field-lat' => 'അക്ഷാംശം',
+	'db-field-lon' => 'രേഖാംശം',
+	'db-field-image' => 'ചിത്രം',
+	'db-field-changed' => 'മാറ്റിയിരിക്കുന്നു',
+	'db-field-source' => 'സ്രോതസ്സ്',
+	'db-field-monument_article' => 'സ്മാരക ലേഖനം',
+	'db-field-registrant_url' => 'രജിസ്ട്രന്റ് യുആർഎൽ',
+	'db-field-st_image' => 'ചിത്രം',
+	'db-field-st_image_pct' => 'ചിത്രം %',
+	'db-field-st_municipality' => 'നഗരസഭ',
+	'db-field-st_municipality_pct' => 'നഗരസഭ %',
+	'db-field-st_name' => 'പേരുകൾ',
+	'db-field-st_name_pct' => 'പേരുകൾ %',
+	'db-field-st_total' => 'ആകെ എണ്ണം',
+	'toolbox-meta-title' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു ഉപകരണപ്പെട്ടി',
+	'toolbox-main-title' => 'WLM ഉപകരണപ്പെട്ടി',
+	'toolbox-main-description' => 'ആയി ബന്ധപ്പെട്ട ഒരു കൂട്ടം ഉപകരണങ്ങൾ',
+	'toolbox-wikilovesmonuments' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു',
+	'toolbox-nav-homepage' => 'ഹോംപേജ്',
+	'toolbox-nav-statistics' => 'സ്ഥിതിവിവരക്കണക്കുകൾ',
+	'toolbox-nav-search' => 'തിരയുക',
+	'toolbox-title-searchmonuments' => 'സ്മാരകങ്ങൾ തിരയുക',
+	'location' => 'സ്ഥലം',
+	'source-monuments-list-on-wikipedia' => 'വിക്കിപീഡിയയിലെ സ്മാരകങ്ങളുടെ സ്രോതസ്സ്',
 );
 
 /** Malay (Bahasa Melayu)
@@ -2044,6 +2433,50 @@ $messages['ne'] = array(
 	'search-table-th-search' => 'खोज',
 );
 
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'search-title' => 'स्मारक मालेज्या',
+	'search-monuments-database' => 'स्मारकातयेगु देताबेस मालादिसँ',
+	'search-table-th-field' => 'ख्यः',
+	'search-table-th-filter' => 'फिल्तर',
+	'search-table-th-search' => 'मालादिसँ',
+	'filter-all-countries' => 'सकल देय्‌',
+	'filter-all-languages' => 'दक्वँ भाय्',
+	'db-field-country' => 'देय्',
+	'db-field-lang' => 'भाय्',
+	'db-field-name' => 'नां',
+	'db-field-address' => 'थाय्‌बाय्‌',
+	'db-field-municipality' => 'नगरपालिका',
+	'db-field-lat' => 'अक्षांश',
+	'db-field-lon' => 'देशान्तर',
+	'db-field-image' => 'किपा',
+	'db-field-source' => 'स्रोत',
+	'db-field-monument_article' => 'स्मारक च्वसु',
+	'db-field-registrant_url' => 'दर्तायाःगु url',
+	'db-field-st_address' => 'थाय्‌बाय्‌त',
+	'db-field-st_address_pct' => 'थाय्‌बाय्‌त %',
+	'db-field-st_coordinates' => 'अवस्थितित',
+	'db-field-st_coordinates_pct' => 'अवस्थितित %',
+	'db-field-st_image' => 'किपा',
+	'db-field-st_image_pct' => 'किपा %',
+	'db-field-st_municipality' => 'नगरपालिका',
+	'db-field-st_municipality_pct' => 'नगरपालिका %',
+	'db-field-st_name' => 'नां',
+	'db-field-st_name_pct' => 'नां %',
+	'db-field-st_total' => 'सकल ल्या',
+	'toolbox-meta-title' => 'विकियात स्मारक यः ज्याभः',
+	'toolbox-main-title' => 'WLM ज्याभः',
+	'toolbox-main-description' => 'थ्व नाप स्वापू दूगु ज्याभः पुचः',
+	'toolbox-wikilovesmonuments' => 'विकियात स्मारक यः',
+	'toolbox-nav-homepage' => 'मू पौ',
+	'toolbox-nav-statistics' => 'तथ्याङ्क',
+	'toolbox-nav-search' => 'मालादिसँ',
+	'toolbox-title-searchmonuments' => 'स्मारक मालादिसँ',
+	'location' => 'थाय्',
+);
+
 /** Dutch (Nederlands)
  * @author Akoopal
  * @author Krinkle
@@ -2133,8 +2566,11 @@ $messages['or'] = array(
 	'db-field-changed' => 'ବଦଳାଗଲା',
 	'db-field-source' => 'ଆଧାର',
 	'db-field-monument_article' => 'କୀର୍ତିରାଜି ପ୍ରସଙ୍ଗ',
+	'db-field-registrant_url' => 'url ପଞ୍ଜୀକରଣ',
 	'db-field-st_address' => 'ଠିକଣାଗୁଡିକ',
 	'db-field-st_address_pct' => 'Adresses %',
+	'db-field-st_coordinates' => 'ସହଯୋଗ କରେ',
+	'db-field-st_coordinates_pct' => '% ସହଯୋଗକରେ',
 	'db-field-st_image' => 'ଛବି',
 	'db-field-st_image_pct' => 'Image %',
 	'db-field-st_municipality' => 'ମୁନିସିପାଲିଟି',
@@ -2142,8 +2578,10 @@ $messages['or'] = array(
 	'db-field-st_name' => 'ନାମଗୂଡିକ',
 	'db-field-st_name_pct' => 'Names %',
 	'db-field-st_total' => 'ମୋଟ ସଂଖ୍ୟା',
+	'toolbox-label-searchtipps' => 'ଅଜଣା ଖୋଜା ପାଇଁ %term କିମ୍ବା term% କିମ୍ବା %term% ବ୍ୟବହାର କରନ୍ତୁ',
 	'toolbox-meta-title' => 'ଉଇକି କୀର୍ତିରାଜିକୁ ଭଲ ପାଏ ଟୁଲବକ୍ସ',
 	'toolbox-main-title' => 'ଡ଼ବଲଇଉଏଲଏମ (WLM) ଟୁଲବକ୍ସ',
+	'toolbox-main-description' => 'ଗୁଡିଏ ଟୁଲ ଯାହାରକି ଏହା ସହ ସମ୍ପର୍କ ଅଛି',
 	'toolbox-wikilovesmonuments' => 'ଉଇକି ପୁରୁଣା କୀର୍ତିରାଜିକୁ ଭଲପାଏ',
 	'toolbox-nav-homepage' => 'ପ୍ରଧାନ ପୃଷ୍ଠା',
 	'toolbox-nav-statistics' => 'ହିସାବ',
@@ -2237,6 +2675,29 @@ $messages['pl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Lista zabytków na Wikipedii',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['pms'] = array(
+	'search-table-th-field' => 'Camp',
+	'search-table-th-filter' => 'Filtr',
+	'search-table-th-search' => 'Sërca',
+	'filter-all-languages' => 'Tute lenghe',
+	'db-field-country' => 'Nassion',
+	'db-field-lang' => 'Lenga',
+	'db-field-name' => 'Nòm',
+	'db-field-address' => 'Adrëssa',
+	'db-field-lat' => 'Latitùdin',
+	'db-field-lon' => 'Longitùdin',
+	'db-field-image' => 'Figura',
+	'db-field-source' => 'Sorgiss',
+	'db-field-st_image' => 'Figura',
+	'db-field-st_municipality' => 'Comun-a',
+	'toolbox-nav-statistics' => 'Statìstiche',
+	'toolbox-nav-search' => 'Sërca',
+	'location' => 'Locassion',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -2248,8 +2709,10 @@ $messages['ps'] = array(
 	'filter-all-languages' => 'ټولې ژبې',
 	'db-field-country' => 'هېواد',
 	'db-field-lang' => 'ژبه',
+	'db-field-id' => 'پېژندنه',
 	'db-field-name' => 'نوم',
 	'db-field-address' => 'پته',
+	'db-field-municipality' => 'ښاروالي',
 	'db-field-image' => 'انځور',
 	'db-field-changed' => 'بدلېدلی',
 	'db-field-source' => 'سرچينه',
@@ -2257,6 +2720,8 @@ $messages['ps'] = array(
 	'db-field-st_address_pct' => 'پتې %',
 	'db-field-st_image' => 'انځور',
 	'db-field-st_image_pct' => 'انځور %',
+	'db-field-st_municipality' => 'ښاروالي',
+	'db-field-st_municipality_pct' => 'ښاروالي %',
 	'db-field-st_name' => 'نومونه',
 	'db-field-st_name_pct' => 'نومونه %',
 	'db-field-st_total' => 'ټول شمېر',
@@ -2481,6 +2946,8 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'search-title' => 'සිහිවටන සෙවීම',
+	'search-monuments-database' => 'සිහිවටන දත්ත සංචිතය සොයන්න',
 	'search-table-th-field' => 'ක්ෂේත්‍රය',
 	'search-table-th-filter' => 'පෙරහන',
 	'search-table-th-search' => 'සොයන්න',
@@ -2488,20 +2955,34 @@ $messages['si'] = array(
 	'filter-all-languages' => 'සියලුම භාෂාවන්',
 	'db-field-country' => 'රට',
 	'db-field-lang' => 'භාෂාව',
+	'db-field-id' => 'හඳුන්වනය',
 	'db-field-name' => 'නම',
 	'db-field-address' => 'ලිපිනය',
+	'db-field-municipality' => 'නගර සභාව',
 	'db-field-lat' => 'අක්ෂාංශය',
 	'db-field-lon' => 'දේශාංශය',
 	'db-field-image' => 'පිංතූරය',
 	'db-field-changed' => 'වෙනස්කරන ලදි',
 	'db-field-source' => 'මූලාශ්‍රය',
+	'db-field-monument_article' => 'සිහිවටන ලිපිය',
+	'db-field-registrant_url' => 'ලියාපදිංචිකරු url',
 	'db-field-st_address' => 'ලිපින',
+	'db-field-st_address_pct' => 'ලිපින %',
+	'db-field-st_coordinates' => 'ඛණ්ඩාංක',
+	'db-field-st_coordinates_pct' => 'ඛණ්ඩාංක %',
 	'db-field-st_image' => 'පිංතූරය',
+	'db-field-st_image_pct' => 'පින්තූරය %',
+	'db-field-st_municipality' => 'නගර සභාව',
+	'db-field-st_municipality_pct' => 'නගර සභාව %',
 	'db-field-st_name' => 'නම්',
 	'db-field-st_name_pct' => 'නම් %',
+	'db-field-st_total' => 'සමස්ත අංකය',
+	'toolbox-main-title' => 'WLM මෙවලම්පෙට්ටිය',
+	'toolbox-wikilovesmonuments' => 'විකි ආදර සිහිවටන',
 	'toolbox-nav-homepage' => 'මුල් පිටුව',
 	'toolbox-nav-statistics' => 'සංඛ්‍යාන දත්ත',
 	'toolbox-nav-search' => 'සොයන්න',
+	'toolbox-title-searchmonuments' => 'සිහිවටන සොයන්න',
 	'location' => 'ස්ථානය',
 );
 
@@ -2545,6 +3026,54 @@ $messages['sl'] = array(
 	'toolbox-nav-search' => 'Iskanje',
 	'toolbox-title-searchmonuments' => 'Iskanje spomenikov',
 	'location' => 'Nahajališče',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'search-title' => 'Raad raac',
+	'search-monuments-database' => 'Ka baar kaydka macluumaadka ee raadka',
+	'search-table-th-field' => 'Barxad',
+	'search-table-th-filter' => 'Filtar',
+	'search-table-th-search' => 'Raadi',
+	'filter-all-countries' => 'dalalka oo dhan',
+	'filter-all-languages' => 'Luqadaha dhamaan',
+	'db-field-country' => 'Dalka',
+	'db-field-lang' => 'Luqada',
+	'db-field-id' => 'La yaqaan',
+	'db-field-name' => 'Magaca',
+	'db-field-address' => 'Ciwaan',
+	'db-field-municipality' => 'Degmo',
+	'db-field-lat' => 'Masaafo balaceed',
+	'db-field-lon' => 'Masaafo dherer',
+	'db-field-image' => 'Sawir:',
+	'db-field-changed' => 'La badalay',
+	'db-field-source' => 'Xigasho',
+	'db-field-monument_article' => 'Maqaalka raadka',
+	'db-field-registrant_url' => 'Diiwaan galinta url',
+	'db-field-st_address' => 'Ciwaanno',
+	'db-field-st_address_pct' => 'Ciwaanno %',
+	'db-field-st_coordinates' => 'Isbadalada',
+	'db-field-st_coordinates_pct' => 'Isbadalada %',
+	'db-field-st_image' => 'Sawir:',
+	'db-field-st_image_pct' => 'Sawir %',
+	'db-field-st_municipality' => 'Degmo',
+	'db-field-st_municipality_pct' => 'Degmo %',
+	'db-field-st_name' => 'Magacyo',
+	'db-field-st_name_pct' => 'Magacyo %',
+	'db-field-st_total' => 'Tirada guud',
+	'toolbox-label-searchtipps' => 'Adeegso %term ama term% ama %term% sida ugu dhow ee baarista',
+	'toolbox-meta-title' => 'Wiki waxay ay ka heshaa qaanadda qalabka raad raaca',
+	'toolbox-main-title' => 'WLM Qaanada qalabka',
+	'toolbox-main-description' => 'Qayba ka mid ah qalabka quseeya',
+	'toolbox-wikilovesmonuments' => 'Wiki waxa ay ka heshaa raad raaca',
+	'toolbox-nav-homepage' => 'Hogga Hore',
+	'toolbox-nav-statistics' => 'Tira koob',
+	'toolbox-nav-search' => 'Raadi',
+	'toolbox-title-searchmonuments' => 'Raadin taariikha hore',
+	'location' => 'Meesha',
+	'source-monuments-list-on-wikipedia' => 'Xigashada liiska taariikhaha hore ee wikipedia',
 );
 
 /** Albanian (shqip)
@@ -2982,6 +3511,7 @@ $messages['ug-arab'] = array(
 	'db-field-id' => 'بەلگە',
 	'db-field-name' => 'ئاتى',
 	'db-field-address' => 'ئادرېس',
+	'db-field-municipality' => 'ئاپتونوم رايون',
 	'db-field-lat' => 'كەڭلىك',
 	'db-field-lon' => 'ئۇزۇنلۇق',
 	'db-field-image' => 'سۈرەت',
@@ -3053,6 +3583,31 @@ $messages['uk'] = array(
 	'source-monuments-list-on-wikipedia' => "Список пам'яток у Вікіпедії",
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'search-title' => 'Inshootlarni qidirish',
+	'search-monuments-database' => 'Inshootlar bazasi boʻyicha qidirish',
+	'search-table-th-field' => 'Maydon',
+	'search-table-th-filter' => 'Filtr',
+	'search-table-th-search' => 'Qidiruv',
+	'filter-all-countries' => 'Darcha davlatlar',
+	'filter-all-languages' => 'Barcha tillar',
+	'db-field-country' => 'Davlat',
+	'db-field-lang' => 'Til',
+	'db-field-id' => 'Identifikator',
+	'db-field-name' => 'Nomi',
+	'db-field-address' => 'Manzil',
+	'db-field-municipality' => 'Munitsipalitet',
+	'db-field-lat' => 'Kenglik',
+	'db-field-lon' => 'Uzunlik',
+	'db-field-image' => 'Rasm',
+	'db-field-changed' => 'Oʻzgartirildi',
+	'db-field-source' => 'Manba',
+	'db-field-monument_article' => 'Yodgorlik haqida maqola',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
@@ -3118,32 +3673,77 @@ $messages['zea'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Hzy980512
+ * @author Shirayuki
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'search-table-th-field' => '字段',
 	'search-table-th-filter' => '筛选器',
 	'search-table-th-search' => '搜索',
-	'filter-all-countries' => '所有分类',
+	'filter-all-countries' => '所有国家',
 	'filter-all-languages' => '所有语言',
 	'db-field-country' => '国家',
 	'db-field-lang' => '语言',
 	'db-field-id' => '标识符',
 	'db-field-name' => '名称',
 	'db-field-address' => '地址',
+	'db-field-lat' => '纬度',
+	'db-field-lon' => '经度',
 	'db-field-image' => '图像',
 	'db-field-changed' => '已更改',
 	'db-field-source' => '来源',
+	'db-field-st_coordinates' => '坐标',
+	'db-field-st_coordinates_pct' => '坐标 %',
+	'db-field-st_image' => '图像',
+	'db-field-st_image_pct' => '图像 %',
+	'db-field-st_name' => '名称',
+	'db-field-st_name_pct' => '名称 %',
 	'toolbox-main-title' => 'WLM工具箱',
+	'toolbox-nav-homepage' => '首页',
 	'toolbox-nav-statistics' => '统计',
 	'toolbox-nav-search' => '搜索',
+	'location' => '位置',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Shirayuki
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'search-title' => '搜尋古蹟',
+	'search-monuments-database' => '搜尋古蹟資料庫',
+	'search-table-th-filter' => '過濾',
+	'search-table-th-search' => '搜尋',
+	'filter-all-countries' => '所有國家',
+	'filter-all-languages' => '所有語言',
+	'db-field-country' => '國家',
+	'db-field-lang' => '語言',
+	'db-field-id' => '標識符號',
+	'db-field-name' => '名稱',
+	'db-field-address' => '地址',
+	'db-field-municipality' => '市',
+	'db-field-lat' => '緯度',
+	'db-field-lon' => '經度',
+	'db-field-image' => '圖片',
+	'db-field-changed' => '已更改',
+	'db-field-source' => '來源',
+	'db-field-monument_article' => '古蹟的條目',
+	'db-field-st_address' => '地址',
+	'db-field-st_address_pct' => '地址 %',
+	'db-field-st_coordinates' => '座標',
+	'db-field-st_coordinates_pct' => '座標 %',
+	'db-field-st_image' => '圖片',
+	'db-field-st_image_pct' => '圖片 %',
+	'db-field-st_municipality' => '市',
+	'db-field-st_municipality_pct' => '市 %',
+	'db-field-st_name' => '名稱',
+	'db-field-st_name_pct' => '名稱 %',
+	'toolbox-wikilovesmonuments' => '維基愛古蹟',
+	'toolbox-nav-homepage' => '首頁',
 	'toolbox-nav-statistics' => '統計',
+	'toolbox-nav-search' => '搜尋',
+	'toolbox-title-searchmonuments' => '搜尋古蹟',
+	'location' => '位置',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

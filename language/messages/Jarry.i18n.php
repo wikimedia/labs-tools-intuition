@@ -46,6 +46,16 @@ $messages['ar'] = array(
 	'error-form-empty' => 'تم ترك حقل فارغ أو أكثر. يجب عليك أنهاؤها قبل المتابعة.',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'moretools' => 'এই লেখকৰ দ্বাৰা নিৰ্মিত অন্যান্য সঁজুলি',
+	'bugs' => 'বাগ ৰিপৰ্ট আৰু ফিচাৰ অনুৰোধ',
+	'comments' => 'মন্তব্য আৰু প্রশ্নসমূহ',
+	'error-form-empty' => 'এটা বা একাধিক বাধ্যতামূলক ফিল্ড খালি হৈ আছে। পৰৱর্তী ঢাপলৈ অগ্ৰসৰ হোৱা আগেয়ে এইবোৰ সম্পূৰ্ণ কৰক।',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -54,6 +64,26 @@ $messages['ast'] = array(
 	'bugs' => 'informar de fallos y pidir carauterístiques',
 	'comments' => 'comentarios y consultes',
 	'error-form-empty' => 'Un campu necesariu o más quedaron baleros. Tienes de completalos enantes de siguir.',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'moretools' => 'همن یارادیجی‌دان آرتیق آراجلار',
+	'bugs' => 'خطا بیلدیریلری و اؤزل‌لیک ایستکلری',
+	'comments' => 'نظرلر و سوال‌لار',
+	'error-form-empty' => 'بیر یا چوخ گرکلی فیلدلر بوش بوراخیلیبلار. قاباغا گئتمک‌دن قاباق اونلاری گرک دولدوراسینیز.',
+);
+
+/** Bashkir (башҡортса)
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'moretools' => 'был авторҙың башҡа ҡорамалдары',
+	'bugs' => 'хата тураһында белдереү һәм теләктәр',
+	'comments' => 'һорауҙар һәм аңлатмалар',
+	'error-form-empty' => 'Бер йәки бер нисә тәҙрә тултырылмай ҡалды. Дауам итеү өсөн уларҙы тултырырға кәрәк.',
 );
 
 /** Belarusian (беларуская)
@@ -119,6 +149,13 @@ $messages['cs'] = array(
 	'error-form-empty' => 'Jedna nebo více povinných položek byla ponechána nevplněná. Měli byste je vyplnit, aby se mohlo pokračovat.',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'comments' => 'ыйтусемпе шухӑшсем',
+);
+
 /** Danish (dansk)
  * @author Peter Alberti
  */
@@ -154,6 +191,14 @@ $messages['dsb'] = array(
 	'bugs' => 'zmólkowe powěźeńki a žycenja za funkcijami',
 	'comments' => 'komentary a napšašowanja',
 	'error-form-empty' => 'Jadne trěbne pólo njejo se wupolniło abo někotare trěbne póla  njejsu se wupołnili. Pšosym  wupołni je, nježli až pókšacujoš.',
+);
+
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'moretools' => 'pliaj iloj de la sama aŭtoro',
+	'comments' => 'komentoj kaj demandoj',
 );
 
 /** Spanish (español)
@@ -313,6 +358,16 @@ $messages['jv'] = array(
 	'comments' => 'tanggepan lan pitakonan',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'moretools' => 'ಇದೇ ನಿರ್ಮಾತೃವಿನಿಂದ ಇನ್ನೂ ಹೆಚ್ಚಿನ ಉಪಕರಣಗಳು',
+	'bugs' => 'ದೋಷ ವರದಿಗಳು ಮತ್ತು ವೈಶಿಷ್ಟ್ಯ ಕೋರಿಕೆಗಳು',
+	'comments' => 'ಟಿಪ್ಪಣಿಗಳು ಮತ್ತು ವಿಚಾರಣೆಗಳು',
+	'error-form-empty' => 'ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಅಗತ್ಯವಾದ ಕ್ಷೇತ್ರಗಳನ್ನು ಖಾಲಿ ಬಿಟ್ಟಿದ್ದೀರಿ. ಮುಂದುವರೆಯುವ ಮೊದಲು ನೀವು ಅವುಗಳನ್ನು ಭರ್ತಿಮಾಡಬೇಕು.',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -361,6 +416,15 @@ $messages['mk'] = array(
 	'error-form-empty' => 'Испуштивте едно или повеќе задолжителни полиња. Ќе мора да ги пополните пред да продолжите.',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Anoopan
+ */
+$messages['ml'] = array(
+	'moretools' => 'ഈ ഉപയോക്താവിന്റെ തന്നെ മറ്റു ടൂളുകൾ',
+	'bugs' => 'ബഗ് റിപ്പോർട്ടുകളും ഫീച്ചർ ആവശ്യപ്പെടലുകളും',
+	'comments' => 'അഭിപ്രായങ്ങളും സംശയങ്ങളും',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -391,6 +455,16 @@ $messages['nb'] = array(
 	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
 );
 
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'moretools' => 'थ्व हे च्वमिया मेमेगु ज्याभः',
+	'bugs' => 'बग विवरण व फिचर्स इनाप',
+	'comments' => 'विचाः व न्हेसः',
+	'error-form-empty' => 'छपू वा अप्व माःगु ख्यः खालि त्वतुगु दु। छिं न्ह्यने वने स्वया न्ह्यः थुंपिं ख्यःत जायेकेमा।',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -415,6 +489,7 @@ $messages['no'] = array(
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
+	'moretools' => 'ସେହି ପ୍ରବନ୍ଧକଙ୍କ ଦ୍ଵାରା ହୋଇଥିବା ଆହୁରି ଟୁଲଗୁଡିକ',
 	'bugs' => 'ଅସୁବିଧା ଏବଂ ପ୍ରସ୍ତାବଗୁଡିକ',
 	'comments' => 'କମେଣ୍ଟ ଏବଂ ଅନୁରୋଧଗୁଡିକ',
 	'error-form-empty' => 'ଗୋଟେ କିମ୍ବା ଅଧିକ ଖାଲିସ୍ଥାନ ଅଛି । ଅପଣ ଆଗକୁ ଯିବା ପୂର୍ବରୁ ସେଗୁଡିକୁ ପୂରଣ କରିବା ଉଚିତ ।',
@@ -461,6 +536,23 @@ $messages['ru'] = array(
 	'error-form-empty' => 'Одно или несколько обязательных полей были оставлены пустыми. Вы должны заполнить их, прежде чем продолжить.',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Hemant wikikosh1
+ */
+$messages['sa'] = array(
+	'moretools' => 'एतेनैव लेखकेन कृतानि अन्यानि उपकरणानि',
+	'comments' => 'टिप्पण्यः प्रश्नाश्च',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'moretools' => 'එකම කතෘගෙන් තවත් මෙවලම්',
+	'bugs' => 'ද්‍යෝෂ වාර්තා සහ විශේෂාංග අයදුම්',
+	'comments' => 'පරිකථන සහ ප්‍රශ්න',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  */
@@ -469,6 +561,16 @@ $messages['sl'] = array(
 	'bugs' => 'poročila o hroščih in predlogi funkcij',
 	'comments' => 'pripombe in poizvedbe',
 	'error-form-empty' => 'Eno ali več obveznih polj ni bilo izpolnjenih. Pred nadaljevanjem jih morate izpolniti.',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'moretools' => 'Qalab dheeraad ah isla qoraaga',
+	'bugs' => 'Xog waran qaladaadka iyo dalabaadka la xulay',
+	'comments' => 'Faallooyin iyo codsiyo',
+	'error-form-empty' => 'Hal ama in kabadan ee meelaha banaan ee qasabka ah la dhaafay. Waxaa qasab ah in la buuxbuuxiyo.',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -540,6 +642,20 @@ $messages['ug-arab'] = array(
 	'bugs' => 'خاتالىق دوكلاتى ۋە ئىقتىدار ئىلتىماسى',
 	'comments' => 'پىكىر ۋە سۈرۈشتۈرۈش',
 	'error-form-empty' => 'تولدۇرۇش زۆرۈر بولغان بىر ياكى بىر قانچە سۆز بۆلىكى بوش قالدۇرۇلغان. داۋاملاشتۇرۇشتىن ئىلگىرى ئۇلارنى تاماملاڭ.',
+);
+
+/** Ukrainian (українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'moretools' => 'інші інструменти від того ж автора',
+);
+
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'comments' => 'savollar va izohlar',
 );
 
 /** Vietnamese (Tiếng Việt)

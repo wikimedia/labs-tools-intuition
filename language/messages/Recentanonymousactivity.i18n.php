@@ -46,6 +46,20 @@ $messages['ast'] = array(
 	'title' => 'Actividá anónima reciente',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'title' => 'یاخین تانیلمایان چالیشمالار',
+);
+
+/** Bashkir (башҡортса)
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'title' => 'Һуңғы аноним эшмәкәрлек',
+);
+
 /** Belarusian (беларуская)
  * @author LexArt
  */
@@ -88,6 +102,13 @@ $messages['cs'] = array(
 	'title' => 'Nedávná aktivita anonymů',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'title' => 'Пӗркунхи анонимлӑ ӗҫ-хӗл',
+);
+
 /** Danish (dansk)
  * @author Peter Alberti
  */
@@ -116,6 +137,13 @@ $messages['el'] = array(
 	'title' => 'Πρόσφατη ανώνυμη δραστηριότητα',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'title' => 'Lastaj agoj de anonimuloj',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  */
@@ -128,6 +156,13 @@ $messages['es'] = array(
  */
 $messages['fa'] = array(
 	'title' => 'فعالیت‌های ناشناس اخیر',
+);
+
+/** Finnish (suomi)
+ * @author VezonThunder
+ */
+$messages['fi'] = array(
+	'title' => 'Viimeisin nimetön toiminta',
 );
 
 /** French (français)
@@ -212,6 +247,13 @@ $messages['ja'] = array(
  */
 $messages['jv'] = array(
 	'title' => 'Kagiyatan ora kadaptar durung suwé iki.',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'title' => 'ಇತ್ತೀಚಿನ ಅನಾಮಧೇಯ ಚಟುವಟಿಕೆ',
 );
 
 /** Korean (한국어)
@@ -328,11 +370,25 @@ $messages['ru'] = array(
 	'title' => 'Недавняя анонимная деятельность',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'title' => 'මෑත නිර්නාමික ක්‍රියාකාරකම',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'title' => 'Nedavna brezimna dejavnost',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'title' => 'Dhaqdhaqaan aan laqoon ee cusub',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)

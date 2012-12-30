@@ -61,10 +61,15 @@ $messages['ar'] = array(
 );
 
 /** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
  * @author Simbu123
  */
 $messages['as'] = array(
+	'formats-heading' => 'আউটপুট ফৰ্মেট',
 	'input' => 'ইনপুট',
+	'label-wikiids' => 'ৱিকি নিৰ্ধাৰণী',
+	'no-matches' => '"$1"ৰ  লগত একো মিল খোৱা নাই',
+	'output' => '"$1"ৰ বাবে আউটপুট',
 );
 
 /** Asturian (asturianu)
@@ -76,6 +81,30 @@ $messages['ast'] = array(
 	'label-wikiids' => 'Identificadores na Wiki',
 	'no-matches' => 'Res nun casa con "$1"',
 	'output' => 'Salida pa "$1"',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author E THP
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'formats-heading' => 'چیختی فورمتلری',
+	'input' => 'گیریش',
+	'label-wikiids' => 'ویکی تانیتانلاری',
+	'no-matches' => '«$1»-ه بیر شئی تطبیق اولونمادی',
+	'output' => '"$1" اوچون چیخیش',
+);
+
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'formats-heading' => 'Сығарыу форматтары',
+	'input' => 'Инеү',
+	'label-wikiids' => 'Вики идентификаторҙар',
+	'no-matches' => '«$1» менән тап килеүсе юҡ',
+	'output' => '«$1» өсөн сығыу',
 );
 
 /** Belarusian (беларуская)
@@ -153,6 +182,14 @@ $messages['cs'] = array(
 	'output' => 'Výstup pro " $1 "',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'formats-heading' => 'Тӗллевлӗ форматсем',
+	'label-wikiids' => 'Вики идентификаторӗсем',
+);
+
 /** Danish (dansk)
  * @author Sarrus
  */
@@ -204,6 +241,17 @@ $messages['dsb'] = array(
 $messages['el'] = array(
 	'input' => 'Εισροή',
 	'no-matches' => 'Τίποτα δεν βρέθηκε για το "$1"',
+);
+
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'formats-heading' => 'Eligaj formatoj',
+	'input' => 'Enigo',
+	'label-wikiids' => 'Vikiaj identigoj',
+	'no-matches' => 'Nenio kongruas "$1"',
+	'output' => 'Eligo por "$1"',
 );
 
 /** Spanish (español)
@@ -398,6 +446,17 @@ $messages['km'] = array(
 	'output' => 'លទ្ឋផលចំពោះ"$1"',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'formats-heading' => 'ಹೊರಹೋಗುವ ಶೈಲಿಗಳು',
+	'input' => 'ಒಳಬರುವಿಕೆ',
+	'label-wikiids' => 'ವಿಕಿ ಗುರುತುಗಳು',
+	'no-matches' => '"$1" ಅನ್ನು ಯಾವುದೂ ಹೋಲಲಿಲ್ಲ.',
+	'output' => '"$1" ಗಾಗಿ ಫಲಿತಾಂಶಗಳು',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -467,6 +526,17 @@ $messages['mk'] = array(
 	'output' => 'Извод за „$1“',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Anoopan
+ */
+$messages['ml'] = array(
+	'formats-heading' => 'ഔട്ട്പുട്ട് ഫോർമാറ്റുകൾ',
+	'input' => 'ഇൻപുട്ട്',
+	'label-wikiids' => 'വിക്കി ഐച്ഛികങ്ങൾ',
+	'no-matches' => '"$1" മായി ഒന്നും ചേർന്നില്ല',
+	'output' => '"$1" ന്റെ ഔട്ട്പുട്ട്',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -495,6 +565,17 @@ $messages['nb'] = array(
 	'label-wikiids' => 'Wiki-identifikatorer',
 	'no-matches' => 'Ingenting passet med «$1»',
 	'output' => 'Utdata for «$1»',
+);
+
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'formats-heading' => 'आउतपुत फरम्यात',
+	'input' => 'इन्पुत',
+	'label-wikiids' => 'विकि म्हसीकामि',
+	'no-matches' => '"$1"नाप छुं हे ज्वःमला',
+	'output' => '"$1"या आउतपुत',
 );
 
 /** Dutch (Nederlands)
@@ -542,6 +623,13 @@ $messages['pl'] = array(
 	'label-wikiids' => 'Identyfikatory wiki',
 	'no-matches' => 'Brak wyników odpowiadających zapytaniu „$1”',
 	'output' => 'Wynik dla „$1”',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['pms'] = array(
+	'input' => 'Anseriment',
 );
 
 /** Portuguese (português)
@@ -601,11 +689,24 @@ $messages['ru'] = array(
 	'output' => 'Выход для «$1»',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Hemant wikikosh1
+ */
+$messages['sa'] = array(
+	'formats-heading' => 'बहिर्गतप्रारूपाणि',
+	'input' => 'निवेश्यम्',
+	'output' => '"$1" इत्यस्मै फलितम्',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'formats-heading' => 'ප්‍රතිදාන ආකෘතින්',
 	'input' => 'ආදානය',
+	'label-wikiids' => 'විකි හඳුන්වන',
+	'no-matches' => '"$1" කිසිවක් ගැලපෙන්නේ නැත',
+	'output' => '"$1" සඳහා ප්‍රතිදානය',
 );
 
 /** Slovenian (slovenščina)
@@ -617,6 +718,17 @@ $messages['sl'] = array(
 	'label-wikiids' => 'Wikiidentifikatorji',
 	'no-matches' => 'Nič se ne ujema z »$1«',
 	'output' => 'Izhod za »$1«',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'formats-heading' => 'Habka bixidda',
+	'input' => 'Galid',
+	'label-wikiids' => 'Aqoonsiga wiki',
+	'no-matches' => 'Wax udhigma maleh ee "$1"',
+	'output' => 'Natiijada ee', # Fuzzy
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -713,6 +825,17 @@ $messages['uk'] = array(
 	'label-wikiids' => 'Ідентифікатори Wiki',
 	'no-matches' => 'Немає відповідностей «$1»',
 	'output' => 'Вихід для " $1 "',
+);
+
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'formats-heading' => 'Chiqish formatlari',
+	'input' => 'Kirish',
+	'label-wikiids' => 'Viki-identifikatorlar',
+	'no-matches' => '"$1" bilan mosliklar yoʻq',
+	'output' => '"$1" uchun chiqish',
 );
 
 /** Vietnamese (Tiếng Việt)

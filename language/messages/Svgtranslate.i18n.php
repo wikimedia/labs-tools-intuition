@@ -168,6 +168,21 @@ $messages['ar'] = array(
 	'finalise' => 'إنهاء التفاصيل',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'begin-translation' => 'ܫܪܝ ܬܘܪܓܡܐ',
+	'th-original' => 'ܫܪܫܝܐ',
+	'th-translation' => 'ܬܘܪܓܡܐ',
+	'th-language' => 'ܠܫܢܐ',
+	'th-username' => 'ܫܡܐ ܕܡܦܠܚܢܐ',
+	'th-password' => 'ܡܠܬܐ ܕܥܠܠܐ',
+	'th-method' => 'ܫܒܝܠܐ',
+	'preview' => 'ܚܝܪܐ ܩܕܡܝܐ',
+	'translate' => 'ܬܪܓܡ',
+);
+
 /** Assamese (অসমীয়া)
  * @author Simbu123
  */
@@ -239,6 +254,81 @@ $messages['az'] = array(
 	'th-method' => 'Üsul',
 	'translate' => 'Tərcümə et',
 	'svginput-label' => 'SVG fayl',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'error-tryagain' => '$1 یئنی‌دن چالیشماق اوچون براوزِرینیزین «قاییت» دویمه‌سینی وورون.',
+	'error-nothing' => 'چئویرمگه بیر شئی یوخدور.',
+	'error-notsvg' => 'اِس‌وی‌جی فایلی دئییل.',
+	'error-unexpected' => 'بیر گؤزلَنیلمه‌ین خطا باش وئردی.',
+	'error-notfound' => 'وئریلن اینترنت آدرسیندن، اِس‌وی‌جی فایلی گؤتورولنمه‌دی.',
+	'error-upload' => 'یوکله‌مک‌ده بیر خطا وار ایدی.',
+	'begin-translation' => 'چئویرمگه باشلا',
+	'th-original' => 'ایلکین',
+	'th-translation' => 'چئویرمک',
+	'th-language' => 'دیل',
+	'th-username' => 'ایستیفاده‌چی آدی',
+	'th-password' => 'رمز',
+	'th-method' => 'یول',
+	'option-tusc' => 'TUSC (اوتوماتیک یوکله‌مک)',
+	'option-manual' => 'ال ایله یوکله‌مک',
+	'preview' => 'اؤن‌گؤستریش',
+	'translate' => 'چئویرمک',
+	'translate-instructions' => 'گیریشلر فایل آدلاری (مثلاً «$1») یا بوتؤو اینترنت آدرسی (مثلاً «$2») کیمی قبول اولونور. ایلک سئچمه سئچیلسه، ویکی‌مئدیا اورتاقلار قایناق نظرده آلیناجاق‌دیر. باشقا بیر سایت‌دان ویکی‌ده بیر اِس‌وی‌جی-نی چئویرمک اوچون گرک بوتؤو آدرس فورمتینی ایشلده‌سینیز.',
+	'svginput-label' => 'اِس‌وی‌جی فایلی',
+	'stats-footer' => 'بو آراج $2-دن بویانا حدوداً $1 فایلین چئویرمگینه ایشلدیلیب‌دیر.',
+	'uploading' => 'یوکله‌نیر',
+	'upload-complete' => 'یوکله‌مک اوغورلا قورتاریلدی. شکیل ایندی گرک $1-ده اولا',
+	'editdescriptionpage' => 'یئنی آچیقلاما صحیفه‌سینی دَییشدیر',
+	'disclaimer' => 'بعضی تانیملانمامیش معلومات اؤزل اولاراق آمار اوچون ییغیلاجاق‌دیر. اگر وئریلسه، واندالیزمه قارشی یاردیم اولماق اوچون TUSC ایستیفاده‌چی آدی دا ثبت اولوناجاقدیر. رمزلر هئچ واخت ثبت اولمایاجاقلار.',
+	'author-complete' => 'لوطفاً یارادیجی بیلگیلرینی دولدورون!',
+	'preview-hide' => 'اؤن‌گؤستریشی گیزلت',
+	'preview-refresh' => 'اؤن‌گؤستریشی یئنی‌له',
+	'error-must-accept' => 'موستقیم یوکله‌مگی داوام ائتمک اوچون گرک ایستیفاده شرطلرینی قبول ائده‌سینیز.',
+	'error-tusc-failed' => 'TUSC دوغرولاماغی اوغورسوز اولدو: ایستیفاده‌چی آدی یا رمز، یانلیش‌دیر.',
+	'description-license' => 'آچیقلاما و لیسانسی سئچین',
+	'finalise' => 'بیلگیلری تاماملا',
+);
+
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'error-tryagain' => '$1 Ҡабатлау өсөн браузерҙың «Артҡа» төймәһенә баҫығыҙ.',
+	'error-nothing' => 'Тәржемә итерлек бер нәмә лә юҡ.',
+	'error-notsvg' => 'Был SVG-файл түгел.',
+	'error-unexpected' => 'Уйламаған хата килеп сыҡты.',
+	'error-notfound' => 'Бирелгән адрес буйынса SVG-файлын алып булманы.',
+	'error-upload' => 'Тейәгән ваҡытта хата китте.',
+	'begin-translation' => 'Тәржемә башы',
+	'th-original' => 'Оригинал',
+	'th-translation' => 'Тәржемә',
+	'th-language' => 'Тел',
+	'th-username' => 'Ҡатнашыусы исеме',
+	'th-password' => 'Пароль',
+	'th-method' => 'Ысул',
+	'option-tusc' => 'TUSC (автоматик йөкләү)',
+	'option-manual' => 'Ҡул менән йөкләү',
+	'preview' => 'Алдан байҡау',
+	'translate' => 'Тәржемә итергә',
+	'translate-instructions' => 'Файлдың исемен (мәҫәлән,«$1») йәки тулы URL-адресые (мәҫәлән, «$2») яҙығыҙ. Әгәр беренсе вариантты һайлаһағыҙ Викиһаҡлағыс сығанаҡ була.  SVG башҡа сайттан йәки викинан күсереү өсөн тулы URL-адресты яҙығыҙ.',
+	'svginput-label' => 'SVG-файл',
+	'stats-footer' => 'Был ҡорамал $2 битенән $1 файлды күсереү өсөн файҙалынылды.',
+	'uploading' => 'Тейәү',
+	'upload-complete' => 'Тейәү тамамланда. Рәсемде $1 адресында ҡарарға мөмкин.',
+	'editdescriptionpage' => 'Яңы тасуирлама битен үҙгәртергә',
+	'disclaimer' => 'Ҡайһы бер аноним мәғлүмәттәр статистика маҡсаты өсөн яҙыласаҡ. Әгәр TUSC-исем яҙылған булһа, вандализмға ҡаршы ярҙам өсөн яҙыласаҡ. Парольдәр бер касан да яҙылмай.',
+	'author-complete' => 'Зинһар өсөн, автор тураһында мәғлүмәт яҙығыҙ!',
+	'preview-hide' => 'Ҡарап сығыуҙы йәшерергә',
+	'preview-refresh' => 'Алдан ҡарауҙы яңыртырға',
+	'error-must-accept' => 'Тура тейеүҙе дауат итеү өсөн, Ҡулланыу шарттарын ҡабул итергә кәрәк.',
+	'error-tusc-failed' => ' TUSC тикшереүе өҙөлдө. Ҡулланыусының исеме йәки пароле дөрөҫ түгел.',
+	'description-license' => 'Тасүирлама һәм лицензия һайлағыҙ.',
+	'finalise' => 'Тулы йомғаҡлау',
 );
 
 /** Belarusian (беларуская)
@@ -515,6 +605,27 @@ $messages['cs'] = array(
 	'finalise' => 'Dokončit detaily',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'begin-translation' => 'Куҫарма пуҫла',
+	'th-original' => 'Кӑк тексчӗ',
+	'th-translation' => 'Куҫару',
+	'th-language' => 'Чӗлхе',
+	'th-username' => 'Усӑҫ ячӗ',
+	'th-password' => 'Вӑрттӑн сӑмах',
+	'th-method' => 'Меслет',
+	'option-tusc' => 'TUSC (автоматла тиесе яни)',
+	'option-manual' => 'Алӑпа тиесе яни',
+	'preview' => 'Ум курӑм',
+	'translate' => 'Куҫарма',
+	'svginput-label' => 'SVG файлӗ',
+	'uploading' => 'Тиесе ярать',
+	'preview-hide' => 'Ум курӑма пытар',
+	'preview-refresh' => 'Ум курӑма тӗпре тие',
+);
+
 /** Danish (dansk)
  * @author Peter Alberti
  * @author Sarrus
@@ -681,6 +792,29 @@ $messages['el'] = array(
 	'author-complete' => 'Παρακαλούμε συμπληρώστε τις πληροφορίες σχετικά με το συντάκτη!',
 	'preview-hide' => 'Απόκρυψη προεπισκόπησης',
 	'preview-refresh' => 'Ανανέωση προεπισκόπησης',
+);
+
+/** Esperanto (Esperanto)
+ * @author Anakmalaysia
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'error-nothing' => 'Nenio por traduki.',
+	'error-notsvg' => 'Ne estas dosiero SVG.',
+	'begin-translation' => 'Ektraduki',
+	'th-original' => 'Originalo',
+	'th-translation' => 'Traduko',
+	'th-language' => 'Lingvo',
+	'th-username' => 'Salutnomo',
+	'th-password' => 'Pasvorto',
+	'th-method' => 'Metodo',
+	'option-tusc' => 'TUSC (aŭtomate alŝuti)',
+	'option-manual' => 'Permana alŝuto',
+	'preview' => 'Antaŭvido',
+	'translate' => 'Traduki',
+	'svginput-label' => 'Dosiero SVG',
+	'uploading' => 'Alŝutante',
+	'preview-hide' => 'Kaŝi antaŭvidon',
 );
 
 /** Spanish (español)
@@ -1007,6 +1141,7 @@ $messages['gu'] = array(
 	'th-method' => 'પધ્ધતિ',
 	'preview' => 'પૂર્વાવલોકન',
 	'translate' => 'ભાષાંતર',
+	'uploading' => 'અપલોડ કરી રહ્યા છે..',
 );
 
 /** Hebrew (עברית)
@@ -1235,6 +1370,17 @@ $messages['id'] = array(
 	'finalise' => 'Rincian akhir',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'th-language' => 'Ásụ̀sụ̀',
+	'th-username' => "Áhà ọ'bànifé",
+	'th-password' => 'Okwúngáfè',
+	'preview' => 'Lètú',
+	'translate' => 'Tụ̀wári ásụ̀sụ̀',
+);
+
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
@@ -1315,7 +1461,7 @@ $messages['ja'] = array(
 	'upload-complete' => 'アップロードが完了しました。画像は $1 にあります。',
 	'editdescriptionpage' => '新しい説明ページを編集',
 	'disclaimer' => '統計上の目的で、匿名のデータを非公開で収集します。If supplied, TUSC usernames will also be recorded to assist in the event of vandalism. パスワードを記録することは決してありません。',
-	'author-complete' => '著者の情報を記入してください!',
+	'author-complete' => '著者の情報を記入してください',
 	'preview-hide' => 'プレビューを隠す',
 	'preview-refresh' => 'プレビューを更新',
 	'error-must-accept' => '直接アップロードを続行するには、利用規約に同意する必要があります。',
@@ -1412,6 +1558,44 @@ $messages['km'] = array(
 	'error-tusc-failed' => 'សុពលកម្ម TUSC បរាជ័យ៖ អត្តនាមឬពាក្យសំងាត់មិនត្រឹមត្រូវ។',
 	'description-license' => 'ជ្រើសរើសការពណ៌នានិងនិងអាជ្ញាបណ្ឌ។',
 	'finalise' => 'ព័ត៌មានលំអិតចុងក្រោយ',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author Akoppad
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'error-tryagain' => '$1 ನಿಮ್ಮ ಜಾಲವೀಕ್ಷಕದ ಹಿಂದೆ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.',
+	'error-nothing' => 'ಭಾಷಾಂತರಿಸಲು ಏನೂ ಇಲ್ಲ',
+	'error-notsvg' => 'SVG ಕಡತವಲ್ಲ.',
+	'error-unexpected' => 'ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ.',
+	'error-notfound' => 'ಕೊಟ್ಟಿರುವ URL ನಿಂದ SVG ಕಡತವನ್ನು ತರಲಾಗಲಿಲ್ಲ.',
+	'error-upload' => 'ನಕಲೆರಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ.',
+	'begin-translation' => 'ಅನುವಾದ ಶುರು ಮಾಡಿ',
+	'th-original' => 'ಅಸಲು',
+	'th-translation' => 'ಅನುವಾದಗಳು',
+	'th-language' => 'ಭಾಷೆಗಳು',
+	'th-username' => 'ಬಳಕೆದಾರ ಹೆಸರು',
+	'th-password' => 'ಪ್ರವೇಶಪದ',
+	'th-method' => 'ವಿಧಾನ',
+	'option-tusc' => 'TUSC (ಸ್ವಯಂಚಾಲಿತ ನಕಲೇರಿಸುವಿಕೆ)',
+	'option-manual' => 'ಕೈಯಾರೆ ನಕಲೇರಿಕೆ',
+	'preview' => 'ಮುನ್ನೋಟ',
+	'translate' => 'ಭಾಷಾಂತರಿಸಿ',
+	'translate-instructions' => 'ಕಡತದ ಹೆಸರುಗಳು (ಉದಾ: "$1") ಅಥವಾ ಪೂರ್ಣ ಜಾಲದ URL (ಉದಾ: "$2") ರೀತಿಯಲ್ಲಿ ಆದಾನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಲಾಗುವುದು. ಮೊದಲ ರೀತಿಯನ್ನು ಬಳಸಿದಲ್ಲಿ ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್ ಆಕರವೆಂದು ತಿಳಿಯಲಾಗುವುದು. ಬೇರೊಂದು ಜಾಲತಾಣ ಅಥವಾ ವಿಕಿಯಿಂದ SVG ಅನ್ನು ಅನುವಾದಿಸಲು ನೀವು ಪೂರ್ಣ ಜಾಲದ ರೀತಿಯನ್ನೇ ಬಳಸಬೇಕು.',
+	'svginput-label' => 'SVG ಕಡತ',
+	'stats-footer' => '$2 ನಂತರ $1 ಕಡತಗಳನ್ನು ಅನುವಾದಿಸಲು ಈ ಉಪಕರಣವು ಬಳಸಲ್ಪಟ್ಟಿದೆ.',
+	'uploading' => 'ನಕಲೇರಿಸಲಾಗುತ್ತಿದೆ',
+	'upload-complete' => 'ನಕಲೇರಿಸುವಿಕೆ ಸಫಲವಾಯಿತು. ಚಿತ್ರವು ಈಗ $1 ಅಲ್ಲಿ ಇರಬೇಕು.',
+	'editdescriptionpage' => 'ವಿವರಣೆ ಪುಟವನ್ನು ಸಂಪಾದಿಸಿ',
+	'disclaimer' => 'ಅಂಕಿ ಅಂಶಗಳಿಗಾಗಿ ಕೆಲವು ಅನಾಮಧೇಯ ದತ್ತಾಂಶಗಳನ್ನು ಖಾಸಗಿಯಾಗಿ ಕಲೆಹಾಕಲಾಗುವುದು. TUSC ಸದಸ್ಯತ್ವದ ಹೆಸರು ನೀಡಿದರೆ, ವಿಧ್ವಂಸಕ ಘಟನೆಗಳಲ್ಲಿ ಸಹಕರಿಸಲು ಅವುಗಳನ್ನೂ ದಾಖಲಿಸಲಾಗುವುದು. ಗುಪ್ತಪದಗಳನ್ನು ಎಂದಿಗೂ ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ.',
+	'author-complete' => 'ದಯವಿಟ್ಟು ಕರ್ತೃವಿನ ಮಾಹಿತಿ ಪೂರ್ತಿಗೊಳಿಸಿ!',
+	'preview-hide' => 'ಮುನ್ನೋಟ ಅಡಗಿಸಿ',
+	'preview-refresh' => 'ಮುನ್ನೋಟ ಮತ್ತೆ ನೋಡಿ',
+	'error-must-accept' => 'ನೇರ ನಕಲೇರಿಸುವಿಕೆಯೊಂದಿಗೆ ಮುಂದುವರೆಯಲು ನೀವು ಬಳಕೆಯ ನಿಬಂಧನೆಗಳನ್ನು ಒಪ್ಪಲೇಬೇಕು.',
+	'error-tusc-failed' => 'TUSC ದೃಢೀಕರಣ ವಿಫಲವಾಯಿತು: ಸದಸ್ಯತ್ವದ ಹೆಸರು ಅಥವಾ ಗುಪ್ತಪದ ತಪ್ಪಾಗಿದೆ.',
+	'description-license' => 'ವಿವರಣೆ ಮತ್ತು ಪರವಾನಗಿ ಆಯ್ದುಕೊಳ್ಳಿ',
+	'finalise' => 'ವಿವರಗಳನ್ನು ಅಂತಿಮಗೊಳಿಸಿ',
 );
 
 /** Korean (한국어)
@@ -1831,6 +2015,40 @@ $messages['ne'] = array(
 	'finalise' => 'विवरणहरुलाई अन्तिम रुप दिने',
 );
 
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'error-nothing' => 'भाय्हिलेत छुं हे मदु।',
+	'error-notsvg' => 'थ्व SVG फाइल मखु।',
+	'error-unexpected' => 'अप्रत्याशित इरर जुवन।',
+	'error-notfound' => 'ब्युगु URLनं SVG फाइल लिकाये मफुत।',
+	'error-upload' => 'अपलोद याबिले इरर वल।',
+	'begin-translation' => 'भाय्‌हिला न्ह्यथनादिसँ',
+	'th-original' => 'धाथेंया',
+	'th-translation' => 'भाय्‌हिला',
+	'th-language' => 'भाय्',
+	'th-username' => 'छ्य्लामि नां',
+	'th-password' => 'दुथखँग्वः (पासवर्द):',
+	'th-method' => 'विधि',
+	'option-tusc' => 'TUSC (स्वचालित अपलोद)',
+	'option-manual' => 'म्यानुअल अपलोद',
+	'preview' => 'पूर्वालोकन',
+	'translate' => 'भाय्‌ हिलादिसँ',
+	'svginput-label' => 'SVG फाइल',
+	'stats-footer' => '$2निसें थ्व ज्याभः छ्य्ला $1 फाइलया भाय् हिलाबुला जूगुदु।',
+	'uploading' => 'अपलोद जुयाच्वँगुदु',
+	'upload-complete' => 'अपलोद सुथांलाक्क क्वचाल। किपा आः $1य् दयेमा।',
+	'editdescriptionpage' => 'न्हुगु विवरण पौ सम्पादन यानादिसँ',
+	'author-complete' => 'कृपया च्वमि सूचं पूवंकादिसँ!',
+	'preview-hide' => 'पूर्वालोकन सुचुकादिसँ',
+	'preview-refresh' => 'पूर्वालोकन रिफ्रेश यानादिसँ',
+	'error-must-accept' => 'प्रत्यक्ष अपलोद यानाच्वनेत छिं बियातःगु छ्य्लाया शर्त (terms of use) स्वीकार यायेमा।',
+	'error-tusc-failed' => 'TUSC प्रमाणीकरन बिफल जुल: छ्य्लामि नां वा पासवर्द मिलेमजु।',
+	'description-license' => 'विवरण व लाइसन्स ल्ययादिसँ',
+	'finalise' => 'विवरणयात पूर्णरुप बियादिसँ',
+);
+
 /** Dutch (Nederlands)
  * @author Gerard Meijssen
  * @author Krinkle
@@ -1914,8 +2132,11 @@ $messages['no'] = array(
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
+	'error-tryagain' => '$1 ଆଉଥରେ ଚେଷ୍ଟା କରିବା ପାଇଁ ଆପଣଙ୍କ ବ୍ରାଉଜରରେ ପଛ ବଟନ କ୍ଲିକ କରନ୍ତୁ ।',
 	'error-nothing' => 'ଅନୁବାଦ କରିବା ପାଇଁ କିଛି ନାହିଁ ।',
+	'error-notsvg' => 'SVG ଫାଇଲ ନୁହେଁ ।',
 	'error-unexpected' => 'କିଛି ଗୋଟେ ଅଜଣା ଅସୁବିଧା ହେଲା ।',
+	'error-notfound' => 'ଦିଆଯାଇଥିବା URLଟିରେ SVG ଫାଇଲଟି ମିଳୁନାହି ।',
 	'error-upload' => 'ଅପଲୋଡ କଲାବେଳେ ଅସୁବିଧା ଦେଖା ଦେଲା ।',
 	'begin-translation' => 'ଅନୁବାଦ ଆରମ୍ଭ କରିବେ',
 	'th-original' => 'ପ୍ରକୃତ',
@@ -1928,6 +2149,7 @@ $messages['or'] = array(
 	'option-manual' => 'ଆପଣ ନିଜଦ୍ଵାରା ଅପଲୋଡ କରିବେ',
 	'preview' => 'ଦେଖଣା',
 	'translate' => 'ଅନୁବାଦ',
+	'svginput-label' => 'SVG ଫାଇଲ',
 	'uploading' => 'ଅପଲୋଡ଼ ହେଉଛି',
 	'upload-complete' => 'ଅପଲୋଡ ସଫଳ ହେଲା । ଛବିଟି ବର୍ତ୍ତମାନ $1ରେ ଅଛି ।',
 	'editdescriptionpage' => 'ନୂଆ ବିବରଣୀ ପୃଷ୍ଠାଟିକୁ ବଦଳାଇବେ',
@@ -2000,6 +2222,21 @@ $messages['pl'] = array(
 	'error-tusc-failed' => 'TUSC – nieudana weryfikacja użytkownika – nazwa użytkownika lub hasło są nieprawidłowe.',
 	'description-license' => 'Wybierz opis i licencję',
 	'finalise' => 'Zapisz szczegóły',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['pms'] = array(
+	'th-original' => 'Original',
+	'th-language' => 'Lenga',
+	'th-username' => 'Stranòm',
+	'th-password' => 'Ciav',
+	'th-method' => 'Métod',
+	'preview' => 'Preuva',
+	'translate' => 'Traduv',
+	'uploading' => 'Cariament',
+	'preview-hide' => 'Stërmé la previsualisassion',
 );
 
 /** Pashto (پښتو)
@@ -2185,14 +2422,29 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'error-nothing' => 'පරිවර්තනය කිරීමට කිසිවක් නොමැත.',
+	'error-notsvg' => 'SVG ගොනුවක් නොවේ.',
+	'error-unexpected' => 'බලපොරොත්තු නොවූ දෝෂයක් හට ගැනුණි.',
+	'error-upload' => 'එහි උඩුගත කිරීමේ දෝෂයක් තිබුණි.',
+	'begin-translation' => 'පරිවර්තනය අරඹන්න',
 	'th-original' => 'නියම',
 	'th-translation' => 'පරිවර්තනය',
 	'th-language' => 'භාෂාව',
 	'th-username' => 'පරිශීලක නාමය',
 	'th-password' => 'මුරපදය',
 	'th-method' => 'ක්‍රමය',
+	'option-tusc' => 'TUSC (ස්වයංක්‍රිය උඩුගත කිරීම)',
+	'option-manual' => 'හස්තීය උඩුගතකෙරුම',
 	'preview' => 'පෙරදසුන',
 	'translate' => 'පරිවර්තනය කරන්න',
+	'svginput-label' => 'SVG ගොනුව',
+	'uploading' => 'උඩුගත කෙරෙමින් පවතී',
+	'editdescriptionpage' => 'නව විස්තර පිටුව සංස්කරණය කරන්න',
+	'author-complete' => 'කරුණාකර කතෘ තොරතුරු සම්පූර්ණ කරන්න!',
+	'preview-hide' => 'පෙරදසුන සඟවන්න',
+	'preview-refresh' => 'පෙරදසුන ප්‍රතිපූරණය කරන්න',
+	'description-license' => 'විස්තරය සහ බලපත්‍රය තෝරාගන්න',
+	'finalise' => 'අවසන් විස්තර',
 );
 
 /** Slovenian (slovenščina)
@@ -2234,7 +2486,45 @@ $messages['sl'] = array(
 	'finalise' => 'Dokončajte podrobnosti',
 );
 
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'error-tryagain' => '$1 guji batoonka browser ee noqoshada  si aad mar kale iskugu daydo.',
+	'error-nothing' => 'Wax fasiraad ah ma leh.',
+	'error-notsvg' => 'Ma lahan fileka SVG.',
+	'error-unexpected' => 'Waxaa dhacay qalad aan lagu talo galin.',
+	'error-notfound' => 'Fileka SVG la ma soo celin karo URL kaan hore.',
+	'error-upload' => 'Waxaa dhacay qalad xilli aad wax galinaysay',
+	'begin-translation' => 'Biloow fasiraad',
+	'th-original' => 'Asli',
+	'th-translation' => 'Fasiraad',
+	'th-language' => 'Luqada',
+	'th-username' => 'Magaca gudagalka',
+	'th-password' => 'Eraysir:',
+	'th-method' => 'Adeegsiga',
+	'option-tusc' => 'TUSC (Galin iskeed ah)',
+	'option-manual' => 'Gacan ku galin',
+	'preview' => 'Horfiirin',
+	'translate' => 'Fasir',
+	'translate-instructions' => 'Waxaa la ogol yahay soo saaris ama magacyada filalka (Tusaale "$1") ama  URL oo buuxa (Tusaale "$2"). Hadii aad adeegsato tusaaleha koowaad, Wikimedia Commons waxa ay noqonayasaa xigasho fasiraad. hadii aad fasirto SVG website kale ama wiki, waa inaad adeegsataa URL ka oo buuxa.',
+	'svginput-label' => 'File ka samaysan SVG',
+	'stats-footer' => 'Qaybtaan fasiraada ah waxaa adeegsaday ku dhawaad $1 filal laga soo bilaabo $2.',
+	'uploading' => 'Galin',
+	'upload-complete' => 'Galintii waa lagu guuleeystay. sawirku waa in uu yaalaa $1',
+	'editdescriptionpage' => 'Wxa kabadal cadaymaha cusub ee Bogga',
+	'disclaimer' => 'Waa la uruurinayaa macluumaadka qaar ee aan la aqoon si gaar ah iyadoo loola jeedo tirakoob ahaan. sidoo kale waxaa la diiwaan galinayaa magacyada isticmaala TUSC si loo caawiyo hadii ay dhacdo wax qarbudaad ah. Eraysirtana lama kaydin doono sideedaba.',
+	'author-complete' => 'Fadlan dhamaystir macluumaadka qoraaga',
+	'preview-hide' => 'Qari Horfiirinta',
+	'preview-refresh' => 'Cusbooneeysii Horfiirinta',
+	'error-must-accept' => 'Si aad usii wadato galinta tooska ah waxaa lagaa rabaa inaad aqbasho shuruudaha adeegsiga ee aad dooneeyso.',
+	'error-tusc-failed' => 'Waa lagu fashilmay dabagalka runta ah ee TUSC: Magaca adeegsadaha ama ereysirta ma saxna.',
+	'description-license' => 'Dooro Caydayn iyo ruqsad',
+	'finalise' => 'Dhamaadka faah faahinta',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Nikola Smolenski
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2254,7 +2544,7 @@ $messages['sr-ec'] = array(
 	'th-method' => 'Начин',
 	'option-tusc' => 'TUSC (самоотпремање)',
 	'option-manual' => 'Ручно отпремање',
-	'preview' => 'Прегледај',
+	'preview' => 'Прикажи претпреглед',
 	'translate' => 'Преведи',
 	'translate-instructions' => 'Уноси се прихватају као називи датотека („$1“) или као цела адреса („$2“). Ако изаберете прву могућност, Викимедијина остава ће бити изабрана као извор. Да бисте превели SVG датотеку с другог мрежног места или викија, користите целу адресу.',
 	'svginput-label' => 'SVG датотека',
@@ -2349,6 +2639,29 @@ $messages['sv'] = array(
 	'finalise' => 'Färdigställ detaljer',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'error-notsvg' => 'Sio faili ya SVG.',
+	'error-upload' => 'Kulikuwa na hitilafu kupakia.',
+	'begin-translation' => 'Anza tafsiri',
+	'th-original' => 'Asili',
+	'th-translation' => 'Tafsiri',
+	'th-language' => 'Lugha',
+	'th-username' => 'Jina la mtumiaji',
+	'th-password' => 'Nywila',
+	'th-method' => 'Mbinu',
+	'option-manual' => 'Pakia kwa mikono',
+	'preview' => 'Onyesha hakikisho',
+	'translate' => 'Tafsiri',
+	'svginput-label' => 'Faili ya SVG',
+	'uploading' => 'Inapakia',
+	'upload-complete' => 'Kupakia kumefaulu. Picha lazima iwe katika $1',
+	'editdescriptionpage' => 'Hariri ukurasa mpya wa maelezo',
+	'author-complete' => 'Tafadgali kamilisha habari ya mwandishi!',
+);
+
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
@@ -2418,6 +2731,44 @@ $messages['tet'] = array(
 	'th-translation' => 'Tradusaun',
 	'th-language' => 'Lian',
 	'th-username' => "Naran uza-na'in",
+);
+
+/** Thai (ไทย)
+ * @author Horus
+ * @author TMo3289
+ */
+$messages['th'] = array(
+	'error-tryagain' => '$1 กดปุ่มถอยที่เบราว์เซอร์ของคุณ เพื่อลองอีกครั้ง',
+	'error-nothing' => 'ไม่มีข้อมูลที่จะแปล',
+	'error-notsvg' => 'ไม่ใช่ไฟล์ SVG',
+	'error-unexpected' => 'มีข้อผิดพลาดที่ไม่ทราบสาเหตุ',
+	'error-notfound' => 'ไฟล์ SVG ไม่สามารถหาได้จาก URL ที่ให้มา',
+	'error-upload' => 'มีข้อผิดพลาดในการอัปโหลด',
+	'begin-translation' => 'เริ่มการแปล',
+	'th-original' => 'ต้นฉบับ',
+	'th-translation' => 'การแปล',
+	'th-language' => 'ภาษา',
+	'th-username' => 'ชื่อผู้ใช้งาน',
+	'th-password' => 'รหัสผ่าน',
+	'th-method' => 'วิธีการ',
+	'option-tusc' => 'TUSC (อัปโหลดโดยอัตโนมัติ)',
+	'option-manual' => 'อัปโหลดด้วยตนเอง',
+	'preview' => 'ดูตัวอย่าง',
+	'translate' => 'แปล',
+	'translate-instructions' => 'ไฟล์ที่ป้อนเข้าสามารถป้อนได้ทั้งชื่อไฟล์ (เช่น "$1") หรือที่อยู่ URL (เช่น "$2") ถ้าเลือกอย่างแรก วิกิมีเดียคอมมอนส์จะถือว่าไฟล์นั้นเป็นต้นฉบับ แต่ถ้าต้องการแปล SVG จากเว็บหรือวิกิอื่น คุณต้องใช้ที่อยู่ URL แทน',
+	'svginput-label' => 'ไฟล์ SVG',
+	'stats-footer' => 'เครื่องมือนี้ใช้ในการแปลประมาณ $1 ไฟล์ ตั้งแต่ $2',
+	'uploading' => 'กำลังอัปโหลด',
+	'upload-complete' => 'อัปโหลดเสร็จเรียบร้อยแล้ว ภาพควรอยู่ที่ $1',
+	'editdescriptionpage' => 'แก้ไขหน้าคำอธิบายใหม่',
+	'disclaimer' => 'ข้อมูลไม่ระบุตัวตน รวมไปถึงชื่อผู้ใช้งาน TUSC จะถูกเก็บรักษาเป็นความลับเพื่อประโยชน์ทางสถิติและป้องกันการก่อกวน อย่างไรก็ตามรหัสผ่านจะไม่มีการบันทึกแต่อย่างใด',
+	'author-complete' => 'โปรดระบุรายละเอียดผู้สร้างสรรค์ให้ละเอียด',
+	'preview-hide' => 'ซ่อนตัวอย่าง',
+	'preview-refresh' => 'ปรับปรุงตัวอย่างให้เป็นปัจจุบัน',
+	'error-must-accept' => 'คุณต้องยอมรับเงื่อนไขการใช้งานที่มีอยู่ ก่อนดำเนินการอัปโหลดโดยตรง',
+	'error-tusc-failed' => 'การตรวจสอบ TUSC ล้มเหลวเนื่องจากชื่อผู้ใช้งานหรือรหัสผ่านผิด',
+	'description-license' => 'เลือกคำอธิบายและสัญญาอนุญาต',
+	'finalise' => 'ให้รายละเอียดนี้เป็นที่ถูกต้องและสิ้นสุด',
 );
 
 /** Tagalog (Tagalog)

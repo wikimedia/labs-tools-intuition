@@ -136,12 +136,31 @@ $messages['ar'] = array(
 	'help-translate-tooltip' => 'ساعد الآخرين بترجمة رسائل الواجهة إلى لغتك الأم.',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'current-settings' => 'ܡܛܝܒܘܬ̈ܐ ܗܫܝܬ̈ܐ',
+);
+
 /** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
  * @author Simbu123
  */
 $messages['as'] = array(
+	'current-settings' => 'বর্তমানৰ পছন্দসমূহ',
+	'settings-legend' => 'পছন্দসমূহ',
 	'choose-language' => 'ভাষা নির্বাচন কৰক',
+	'tab-overview' => 'ভূমিকা',
+	'tab-settings' => 'পছন্দসমূহ',
+	'tab-about' => 'বিষয়ে',
+	'tab-demo' => 'ডেমো',
+	'bl-mysettings' => 'মোৰ ভাষাৰ ছেটিংসমূহ',
 	'bl-mysettings-new' => 'ভাষা পৰিবৰ্তন কৰক!',
+	'bl-changelanguage' => 'এই সঁজুলিৰ ইন্টাৰফেছ ভাষা পৰিৱর্তন কৰিবলৈ ইয়াত ক্লিক কৰক।',
+	'help-translate-tool' => 'এই সঁজুলিটো অনুবাদ কৰাত সহায় কৰক!',
+	'help-translate-all' => 'টুলছাৰ্ভাৰ অনুবাদ কৰাত সহায় কৰক!',
+	'help-translate-tooltip' => 'ইন্টাৰ্ফেছ বার্তাসমূহ আপোনাৰ ভাষাত অনুবাদ কৰি আনসকলক সহায় কৰক ।',
 );
 
 /** Asturian (asturianu)
@@ -180,6 +199,63 @@ $messages['az'] = array(
 	'clear-cookies' => 'kökələri təmizlə',
 	'cookie-expiration' => 'kökənin bitmə vaxtı',
 	'tab-about' => 'Haqqında',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'fullname' => 'Toolserver-ین ایستیفاده آرا-اوزو اوچون بیل‌الخالقلاشدیرما',
+	'current-settings' => 'ایندیکی تنظیملر',
+	'current-language' => 'ایندیکی سئچیلمیش دیل',
+	'settings-legend' => 'تنظیملر',
+	'choose-language' => 'بیر دیل سئچین',
+	'clear-cookies' => 'کوکیلری سیل',
+	'renew-cookies' => 'کوکی‌لری یئنی‌له',
+	'cookie-expiration' => 'کوکی سون واختی',
+	'clearcookies-success' => 'کوکی‌لر اوغورلا سیلیندیلر.',
+	'renewcookies-success' => 'کوکی‌لر یئنی‌لندیلر! سیزین ایندی سون $1-ه حاضیرسینیز.',
+	'tab-overview' => 'گنل باخیش',
+	'tab-settings' => 'تنظیملر',
+	'tab-about' => 'حاقیندا',
+	'tab-demo' => 'دِمو',
+	'bl-mysettings' => 'منیم دیل سئچمه‌لریم',
+	'bl-mysettings-new' => 'دیلی دَییشدیر!',
+	'bl-promo' => 'چئویرمه‌لر $1 و $2 ایله گوجلنیب‌دیلر.',
+	'bl-changelanguage' => 'بو آراجین آرا-اوز دیلینی چئویرمک اوچون بورانی تیکلایین.',
+	'usage' => 'آراجلار Toolserver اویغولاماسیلا چئویریلیب‌دیلر.',
+	'help-translate-tool' => 'بو آراجی چئویرمگه یاردیم ائدین!',
+	'help-translate-all' => 'Toolserver-ی چئویرمگه یاردیم ائدین!',
+	'help-translate-tooltip' => 'آرا-اوز مئساژلارینی اؤز دیلینیزه چئویرمک‌له، باشقالارا یاردیم ائدین.',
+);
+
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'fullname' => 'Турсервер ҡулланыу интерфейсын интернационалләштереү',
+	'current-settings' => 'Ағымдағы көйләүҙәр',
+	'current-language' => 'Ағымдағы тел көйләүҙәре',
+	'settings-legend' => 'Көйләүҙәр',
+	'choose-language' => 'Тел һайлау',
+	'clear-cookies' => ' Cookies юйырға',
+	'renew-cookies' => ' Cookies яңыртырға',
+	'cookie-expiration' => ' Cookies файлының эшләү ваҡыты',
+	'clearcookies-success' => ' Cookies файлдарҙы юйыу уңышлы үтте.',
+	'renewcookies-success' => ' Cookies яңыртылды.  $1 ваҡыт бирелде.',
+	'tab-overview' => 'Дөйөм күренеш',
+	'tab-settings' => 'Көйләүҙәр',
+	'tab-about' => 'Тасурилама',
+	'tab-demo' => 'Демо',
+	'bl-mysettings' => 'Тел көйләүҙәрем',
+	'bl-mysettings-new' => 'Телде үҙгәртергә!',
+	'bl-promo' => 'Күсереү  $1 һәм $2 ярҙамында эшләнде.',
+	'bl-changelanguage' => 'Был ҡорамалда интерфейс телен үҙгәртеү өсөн ошонда баҫығыҙ.',
+	'usage' => 'Toolserver Intuition ярҙамында тәржемә ителгән ҡорамалдар.',
+	'help-translate-tool' => 'был ҡорамалды тәржемә итергә ярҙам итегеҙ!',
+	'help-translate-all' => 'Тулсерверҙы тәржеме итергә ярҙам итегеҙ!',
+	'help-translate-tooltip' => 'Башҡа юл менән интерфейсты һеҙҙең телгә тержемә итергә ярҙвм итегеҙ.',
 );
 
 /** Belarusian (беларуская)
@@ -412,6 +488,33 @@ $messages['cs'] = array(
 	'help-translate-tooltip' => 'Pomozte ostatním tím, že přeložíte zprávy rozhraní do svého jazyka.',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'fullname' => 'Toolserver-ӑн усӑҫ интерфейсӗ валли интернационализацийӗ',
+	'current-settings' => 'Хальхи ӗнерлевсем',
+	'current-language' => 'Хальхи чӗлхе ӗнерленӗвӗсем',
+	'settings-legend' => 'Ӗнерлевсем',
+	'choose-language' => 'Чӗлхене улӑштарӑр',
+	'clear-cookies' => 'кукисене тасат',
+	'renew-cookies' => 'кукисене тӗпре тие',
+	'cookie-expiration' => 'Кукисен ӗҫлев хушши',
+	'clearcookies-success' => 'Кукисем ӑнӑҫлӑ тасатнӑ.',
+	'tab-overview' => 'Курӑм',
+	'tab-settings' => 'Ӗнерлевсем',
+	'tab-about' => 'Тӗплӗнрех',
+	'tab-demo' => 'Демо',
+	'bl-mysettings' => 'Ман чӗлхе ӗнерленӗвӗсем',
+	'bl-mysettings-new' => 'Чӗлхене улӑштар!',
+	'bl-promo' => 'Куҫару $1 тата $2 пулӑшӑвӗпе тунӑ.',
+	'bl-changelanguage' => 'Ку хатӗрӗн интерфейс чӗлхине улӑштарасшӑн кунта пусӑр.',
+	'usage' => 'Toolserver Intuition пулӑшӑвӗпе куҫарнӑ хатӗрсем.',
+	'help-translate-tool' => 'Ку хатӗре куҫарма пулӑшӑр-ха!',
+	'help-translate-all' => 'Toolserver-а куҫарма пулӑшӑр-ха!',
+	'help-translate-tooltip' => 'Сирӗн пӗлтерӳсен интерфейсне куҫарасси урӑххисене пулӑшать.',
+);
+
 /** Danish (dansk)
  * @author Peter Alberti
  * @author Sarrus
@@ -543,6 +646,23 @@ $messages['el'] = array(
 	'usage' => 'Εργαλεία μεταφρασμένα με το Toolserver Intuition.',
 	'help-translate-tool' => 'Βοηθήστε μας να μεταφράσουμε αυτό το εργαλείο!',
 	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!',
+);
+
+/** Esperanto (Esperanto)
+ * @author Anakmalaysia
+ */
+$messages['eo'] = array(
+	'fullname' => 'Internaciigo por Uzanto-Interfaco  de Toolserver',
+	'current-settings' => 'Nuntempaj agordoj',
+	'current-language' => 'Nuntempe elektita lingvo',
+	'settings-legend' => 'Agordoj',
+	'choose-language' => 'Elektu lingvon',
+	'tab-overview' => 'Superrigardo',
+	'tab-settings' => 'Agordoj',
+	'tab-about' => 'Pri',
+	'bl-mysettings' => 'Mia lingvo-agordoj',
+	'bl-mysettings-new' => 'Ŝanĝu lingvon!',
+	'bl-promo' => 'Tradukoj estas de $1 kaj $2.',
 );
 
 /** Spanish (español)
@@ -982,6 +1102,15 @@ $messages['id'] = array(
 	'help-translate-tooltip' => 'Bantu orang lain dengan menerjemahkan pesan antarmuka ke dalam bahasa Anda.',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'settings-legend' => 'Otu ihe dị',
+	'tab-about' => 'Màkà',
+	'tab-demo' => 'Nñomi',
+);
+
 /** Italian (italiano)
  * @author Beta16
  * @author Nemo bis
@@ -1034,13 +1163,13 @@ $messages['ja'] = array(
 	'tab-about' => '解説',
 	'tab-demo' => 'デモ',
 	'bl-mysettings' => '自分の言語設定',
-	'bl-mysettings-new' => '言語を変更!',
+	'bl-mysettings-new' => '言語を変更',
 	'bl-promo' => '翻訳したのは $1 と $2 です。',
 	'bl-changelanguage' => 'このツールのインターフェイス言語を変更するにはここをクリックしてください。',
 	'usage' => 'Toolserver Intuition が翻訳したツールです。',
-	'help-translate-tool' => 'このツールの翻訳を手伝う!',
-	'help-translate-all' => 'ツールサーバーの翻訳を手伝う!',
-	'help-translate-tooltip' => 'インターフェイスメッセージをあなたの言語に翻訳して他の人を助ける!',
+	'help-translate-tool' => 'このツールの翻訳を手伝う',
+	'help-translate-all' => 'ツールサーバーの翻訳を手伝う',
+	'help-translate-tooltip' => 'インターフェイスメッセージをあなたの言語に翻訳して他の利用者を助けます。',
 );
 
 /** Javanese (Basa Jawa)
@@ -1080,6 +1209,33 @@ $messages['ka'] = array(
 	'tab-demo' => 'დემო',
 	'bl-mysettings' => 'ჩემი ენის პარამეტრები',
 	'bl-mysettings-new' => 'ენის შეცვლა!',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'fullname' => 'ಉಪಕರಣ ಸೇವಕದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಅಂತರ್ರಾಷ್ಟ್ರೀಕರಣ',
+	'current-settings' => 'ಈಗಿನ ವ್ಯವಸ್ಥೆಗಳು',
+	'current-language' => 'ಈಗ ಆಯ್ದುಕೊಂಡಿರುವ ಭಾಷೆ',
+	'settings-legend' => 'ವ್ಯವಸ್ಥೆಗಳು',
+	'choose-language' => 'ಭಾಷೆ ಆಯ್ದುಕೊಳ್ಳಿ',
+	'clear-cookies' => 'ಕುಕೀಗಳನ್ನು ಅಳಿಸಿ',
+	'renew-cookies' => 'ಕುಕೀಗಳನ್ನು ನವೀಕರಿಸಿ',
+	'cookie-expiration' => 'ಕುಕೀ ಅಂತ್ಯ',
+	'clearcookies-success' => 'ಕುಕೀಗಳನ್ನು ಸಫಲವಾಗಿ ಅಳಿಸಲಾಯಿತು.',
+	'renewcookies-success' => 'ಕುಕೀಗಳನ್ನು ನವೀಕರಿಸಲಾಯಿತು! ನೀವು ಮುಂದಿನ $1 ಗಾಗಿ ಸನ್ನದ್ಧರಾಗಿದ್ದೀರಿ.',
+	'tab-overview' => 'ಸಾರಾಂಶ',
+	'tab-settings' => 'ವ್ಯವಸ್ಥೆಗಳು',
+	'tab-about' => 'ಕುರಿತು',
+	'tab-demo' => 'ಪ್ರಾತ್ಯಕ್ಷಿಕೆ',
+	'bl-mysettings' => 'ನನ್ನ ಭಾಷಾ ವ್ಯವಸ್ಥೆಗಳು',
+	'bl-mysettings-new' => 'ಭಾಷೆ ಬದಲಾಯಿಸಿ!',
+	'bl-promo' => 'ಅನುವಾದಗಳು $1 ಮತ್ತು $2 ಇಂದ ಸಾಮರ್ಥ್ಯ ಪಡೆದಿವೆ.',
+	'bl-changelanguage' => 'ಈ ಉಪಕರಣದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಭಾಷೆ ಬದಲಾಯಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ಕಿಸಿ.',
+	'usage' => 'ಉಪಕರಣ ಸೇವಕ ಪ್ರವೃತ್ತಿಯಿಂದ ಅನುವಾದಿಸಲ್ಪಟ್ಟ ಉಪಕರಣಗಳು.',
+	'help-translate-tool' => 'ಈ ಉಪಕರಣವನ್ನು ಅನುವಾದಿಸಲು ಸಹಕರಿಸಿ!',
+	'help-translate-all' => 'ಉಪಕರಣ ಸೇವಕವನ್ನು ಅನುವಾದಿಸಲು ಸಹಕರಿಸಿ!',
 );
 
 /** Korean (한국어)
@@ -1129,7 +1285,7 @@ $messages['ksh'] = array(
 	'tab-settings' => 'Enschtällonge',
 	'tab-about' => 'Övver dat Projramm heh',
 	'tab-demo' => 'Vörföhrung',
-	'bl-mysettings' => 'Ming Shproochenshtällonge',
+	'bl-mysettings' => 'Ming Schproochenschtällonge',
 	'bl-mysettings-new' => 'De Shprooch wääßele',
 	'bl-promo' => 'De Övversäzonge kumme vum $1 un övver $2 noh heh.',
 	'bl-changelanguage' => 'Donn di Shprooch ändere, di heh dat Projramm met Der kallt.',
@@ -1303,6 +1459,7 @@ $messages['mt'] = array(
 	'bl-mysettings-new' => 'Biddel il-lingwa!',
 	'bl-promo' => 'It-traduzzjonijiet huma sostnuti minn $1 u $2.',
 	'bl-changelanguage' => "Iklikkja hawnhekk sabiex tbiddel il-lingwa tal-interfaċċa ta' din l-għodda",
+	'usage' => 'Għodda tradotti minn Toolserver Intuition.',
 	'help-translate-tool' => 'Għin ittraduċi din l-għodda!',
 	'help-translate-all' => 'Għin ittraduċi Toolserver!',
 	'help-translate-tooltip' => 'Għin oħrajn billi tittraduċi messaġġi tal-interfaċċa fil-lingwa tiegħek.',
@@ -1358,6 +1515,29 @@ $messages['nb'] = array(
 	'help-translate-tool' => 'Hjelp med oversettelsen av dette verktøyet!',
 	'help-translate-all' => 'Hjelp med oversettelsen av Toolserver!',
 	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
+);
+
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'fullname' => 'तुलसर्भरया छ्य्लामि इन्तरफेसया अन्तरराष्ट्रियकरण',
+	'current-settings' => 'आःया सेटिङ्ग्स',
+	'current-language' => 'आः ल्ययातःगु भाय्',
+	'settings-legend' => 'सेटिङ्ग्स्',
+	'choose-language' => 'भाय् ल्ययादिसँ',
+	'clear-cookies' => 'कुकिज यचुकादिसँ',
+	'renew-cookies' => 'कुकिजत रिन्यु यानादिसँ',
+	'cookie-expiration' => 'कुकी समाप्ति',
+	'tab-overview' => 'पृष्ठभूमि',
+	'tab-settings' => 'सेटिङ्ग्स्',
+	'tab-about' => 'विषयक',
+	'tab-demo' => 'देमो',
+	'bl-mysettings' => 'जिगु भाय् सेटिङ्ग्स्',
+	'bl-mysettings-new' => 'भाय् हिलादिसँ!',
+	'bl-changelanguage' => 'थ्व ज्याभःया इन्तरफेस भाय् हिलेत थन तियादिसँ।',
+	'help-translate-tool' => 'थ्व ज्याभः भाय्‌हिलेत ग्वहालि यानादिसँ!',
+	'help-translate-all' => 'तुलसर्भरया भाय्‌हिलेत ग्वहालि यानादिसँ!',
 );
 
 /** Dutch (Nederlands)
@@ -1466,6 +1646,7 @@ $messages['or'] = array(
 	'bl-mysettings' => 'ମୋ ଭାଷା ସଜାଣି',
 	'bl-mysettings-new' => 'ଭାଷା ବଦଳାନ୍ତୁ !',
 	'bl-promo' => 'ଅନୁବାଦଟି $1 ଏବଂ $2 ଦ୍ଵାରା କରାଯାଇଛି ।',
+	'bl-changelanguage' => 'ଏହି ଟୁଲର ଭାଷା ବଦଳାଇବା ପାଇଁ ଏଠାରେ କ୍ଲିକ କରନ୍ତୁ ।',
 	'help-translate-tool' => 'ଏହି ଯନ୍ତ୍ରାଂଶଟିର ଅନୁବାଦରେ ସ‌ହଯୋଗ କରିବେ ।',
 	'help-translate-all' => 'ଟୁଲ୍‌ସର୍ଭର୍‌ ଅନୁବାଦ କରନ୍ତୁ',
 	'help-translate-tooltip' => 'ଏହି ମେସେଜକୁ ନିଜ ଭାଷାରେ ବଦଳାଇ ଅନ୍ୟମାନଙ୍କୁ ସାହାଯ୍ୟ କରନ୍ତୁ',
@@ -1541,6 +1722,15 @@ $messages['pl'] = array(
 	'help-translate-tool' => 'Pomóż przetłumaczyć to narzędzie!',
 	'help-translate-all' => 'Pomóż przetłumaczyć Toolserver!',
 	'help-translate-tooltip' => 'Pomóż innym tłumacząc komunikaty interfejsu na swój język.',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['pms'] = array(
+	'tab-overview' => "Vista d'ansem",
+	'tab-settings' => 'Regolassion',
+	'tab-about' => 'A propòsit',
 );
 
 /** Pashto (پښتو)
@@ -1709,13 +1899,22 @@ $messages['ru'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'current-settings' => 'වත්මන් සැකසුම්',
+	'current-language' => 'වත්මන් තෝරාගත් භෂාව',
 	'settings-legend' => 'පරිස්ථිතීන්',
+	'choose-language' => 'භාෂාවක් තෝරාගන්න',
+	'clear-cookies' => 'කුකීස් හිස් කරන්න',
+	'renew-cookies' => 'කුකීස් නව්‍යකරණය කරන්න',
+	'cookie-expiration' => 'කුකී ඉකුත් වීම',
+	'clearcookies-success' => 'කුකීස් සාර්ථකව හිස් කරන ලදී.',
 	'tab-overview' => 'දළ විශ්ලේෂණය',
 	'tab-settings' => 'සැකසුම්',
 	'tab-about' => 'පිළිබඳ',
 	'tab-demo' => 'නිදර්ශනය',
 	'bl-mysettings' => 'මගේ භාෂා සැකසුම්',
 	'bl-mysettings-new' => 'භාෂාව වෙනස් කරන්න!',
+	'help-translate-tool' => 'මෙම මෙවලම පරිවර්තනය කිරීමට සහය වන්න!',
+	'help-translate-all' => 'මෙවලම්සර්වරය පරිවර්තනය කිරීමට සහය වන්න!',
 );
 
 /** Slovenian (slovenščina)
@@ -1744,6 +1943,34 @@ $messages['sl'] = array(
 	'help-translate-tool' => 'Pomagajte prevesti to orodje!',
 	'help-translate-all' => 'Pomagajte prevesti Toolserver!',
 	'help-translate-tooltip' => 'Pomagajte drugim s prevajanjem sporočil vmesnika v svoj jezik.',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'fullname' => 'soo qaadasho Toolserver ee adeegsadaha',
+	'current-settings' => 'Dooqyada hadda',
+	'current-language' => 'Luqada ee la doortay hadda',
+	'settings-legend' => 'dooqyada',
+	'choose-language' => 'Dooro luqad',
+	'clear-cookies' => 'Nadiifi cookies',
+	'renew-cookies' => 'Cusbooneeysii cookies',
+	'cookie-expiration' => 'Cookie waqtiga uu dhacayo',
+	'clearcookies-success' => 'waa lagu guuleeystay nadiifinta cookies.',
+	'renewcookies-success' => 'Cookies waa la cusbooneeysiiyey! Waxaad diyaar utahay waxa xiga $1.',
+	'tab-overview' => 'Aragti guud',
+	'tab-settings' => 'dooqyada',
+	'tab-about' => 'Ku saabsan',
+	'tab-demo' => 'Tijaabo',
+	'bl-mysettings' => 'Luqadayda dooqyada',
+	'bl-mysettings-new' => 'Badal Luqada!',
+	'bl-promo' => 'Waxaa suura galiyey fasiraadaan $1 iyo $2.',
+	'bl-changelanguage' => 'Guji halkaan si aad ubadasho luqada ee waafaqsan qalabkaan',
+	'usage' => 'Waxaa lagu turjumay Toolserver.',
+	'help-translate-tool' => 'Waxaa caawinaad ka gaystay fasiraada qalabkaan!',
+	'help-translate-all' => 'Waxaa caawinaad ka gaystay fasiraada Toolserver!',
+	'help-translate-tooltip' => 'Waxaa caawinaad ka gaystay fasiraada luqadaada hooyo dad kale .',
 );
 
 /** Albanian (shqip)
@@ -1864,6 +2091,8 @@ $messages['sw'] = array(
 	'current-language' => 'Lugha iliyochaguliwa kwa sasa',
 	'settings-legend' => 'Mpangilio',
 	'choose-language' => 'Chagua lugha',
+	'clear-cookies' => 'Tandua kuki',
+	'clearcookies-success' => 'Imefaulu kutandua kuki.',
 	'tab-settings' => 'Mpangilio',
 	'tab-about' => 'Kuhusu',
 	'bl-mysettings' => 'Mpangilio wangu wa lugha',

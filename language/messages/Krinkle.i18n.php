@@ -46,6 +46,13 @@ $messages['af'] = array(
 	'form-legend-settings' => 'Instellings',
 );
 
+/** Amharic (አማርኛ)
+ * @author Codex Sinaiticus
+ */
+$messages['am'] = array(
+	'form-legend-settings' => 'ምርጫዎች',
+);
+
 /** Arabic (العربية)
  * @author Abanima
  * @author Meno25
@@ -58,10 +65,21 @@ $messages['ar'] = array(
 	'form-legend-settings' => 'الإعدادات',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'form-legend-settings' => 'ܛܘܝܒ̈ܐ',
+);
+
 /** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
  * @author Simbu123
  */
 $messages['as'] = array(
+	'alws-selectwiki' => '(ৱিকি নিৰ্বাচন কৰক)',
+	'alws-group-mustused' => 'সৰ্বোচ্চ ব্যবহৃত ৱিকি',
+	'alws-group-allaz' => 'বৰ্ণানুক্ৰমিকভাৱে সকলো ৱিকি',
 	'form-legend-settings' => 'ছেটিং',
 );
 
@@ -74,6 +92,27 @@ $messages['ast'] = array(
 	'alws-group-mustused' => 'Wikis más usaes',
 	'alws-group-allaz' => 'Toles wikis alfabéticamente',
 	'form-legend-settings' => 'Configuración',
+);
+
+/** South Azerbaijani (تورکجه)
+ * @author E THP
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'alws-selectwiki' => '(ویکی سئچین)',
+	'alws-group-mustused' => 'چوخ ایشلنیلن ویکیلر',
+	'alws-group-allaz' => 'بوتون ویکیلر ایلیفبا سیراسیلا',
+	'form-legend-settings' => 'تنظیملر',
+);
+
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ */
+$messages['ba'] = array(
+	'alws-selectwiki' => '(вики һайлағыҙ)',
+	'alws-group-mustused' => 'Иң күп ҡулланылған викилар',
+	'alws-group-allaz' => 'Алфавит буйынса викилар',
+	'form-legend-settings' => 'Көйләүҙәр',
 );
 
 /** Belarusian (беларуская)
@@ -156,6 +195,16 @@ $messages['cs'] = array(
 	'form-legend-settings' => 'Nastavení',
 );
 
+/** Chuvash (Чӑвашла)
+ * @author Salam
+ */
+$messages['cv'] = array(
+	'alws-selectwiki' => '(вики-проекта суйлӑр)',
+	'alws-group-mustused' => 'Чи усӑ курнӑ вики-проектсем',
+	'alws-group-allaz' => 'Мӗн пур вики-проект алфавит йӗркипе',
+	'form-legend-settings' => 'Ӗнерлевсем',
+);
+
 /** Danish (dansk)
  * @author Peter Alberti
  */
@@ -203,6 +252,16 @@ $messages['el'] = array(
 	'alws-group-mustused' => 'Περισσότερο χρησιμοποιούμενα wiki',
 	'alws-group-allaz' => 'Όλα τα wiki αλφαβητικά',
 	'form-legend-settings' => 'Ρυθμίσεις',
+);
+
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'alws-selectwiki' => '(elektu vikion)',
+	'alws-group-mustused' => 'Plej uzataj vikioj',
+	'alws-group-allaz' => 'Ĉiuj vikioj laŭ alfabeta ordo',
+	'form-legend-settings' => 'Agordoj',
 );
 
 /** Spanish (español)
@@ -378,7 +437,7 @@ $messages['it'] = array(
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'alws-selectwiki' => '（ウィキを選択）',
+	'alws-selectwiki' => '(ウィキを選択)',
 	'alws-group-mustused' => '最も使用されたウィキ',
 	'alws-group-allaz' => 'すべてのウィキ (アルファベット順)',
 	'form-legend-settings' => '設定',
@@ -408,6 +467,16 @@ $messages['km'] = array(
 	'form-legend-settings' => 'ការកំណត់​នានា',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'alws-selectwiki' => '(ವಿಕಿ ಆಯ್ದುಕೊಳ್ಳಿ)',
+	'alws-group-mustused' => 'ಅತಿ ಹೆಚ್ಚು ಬಳಸಲ್ಪಟ್ಟ ವಿಕಿಗಳು',
+	'alws-group-allaz' => 'ಅಕಾರಾದಿಯಾಗಿ ಎಲ್ಲ ವಿಕಿಗಳು',
+	'form-legend-settings' => 'ವ್ಯವಸ್ಥೆಗಳು',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -428,6 +497,13 @@ $messages['ksh'] = array(
 	'alws-group-mustused' => 'De miehts jebruchte Wikis',
 	'alws-group-allaz' => 'All de Wikis noh_m Alfabeet',
 	'form-legend-settings' => 'Enschtällonge',
+);
+
+/** Kirghiz (Кыргызча)
+ * @author Growingup
+ */
+$messages['ky'] = array(
+	'form-legend-settings' => 'Ырастоолор',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -512,6 +588,16 @@ $messages['nb'] = array(
 	'form-legend-settings' => 'Innstillinger',
 );
 
+/** Newari (नेपाल भाषा)
+ * @author Eukesh
+ */
+$messages['new'] = array(
+	'alws-selectwiki' => '(विकि चयन)',
+	'alws-group-mustused' => 'आपाल्ं छ्यलातःगु विकि',
+	'alws-group-allaz' => 'सकल विकि वर्णक्रम कथं',
+	'form-legend-settings' => 'सेटिंग्स',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand
@@ -549,6 +635,7 @@ $messages['no'] = array(
 $messages['or'] = array(
 	'alws-selectwiki' => '(ଉଇକି ଚୟନ)',
 	'alws-group-mustused' => 'ସବୁଠୁ ଅଧିକ ବ୍ୟବହାର ହେଉଥିବା ଉଇକି',
+	'alws-group-allaz' => 'ସମସ୍ତ ଉଇକି ଅକ୍ଷରାନୁଯାୟୀ',
 	'form-legend-settings' => 'ସଜାଣି',
 );
 
@@ -569,6 +656,13 @@ $messages['pl'] = array(
 	'alws-group-mustused' => 'Najczęściej używane wiki',
 	'alws-group-allaz' => 'Wszystkie wiki alfabetycznie',
 	'form-legend-settings' => 'Ustawienia',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['pms'] = array(
+	'form-legend-settings' => 'Regolassion',
 );
 
 /** Pashto (پښتو)
@@ -628,11 +722,23 @@ $messages['ru'] = array(
 	'form-legend-settings' => 'Настройки',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Hemant wikikosh1
+ */
+$messages['sa'] = array(
+	'alws-selectwiki' => '(विकिः चीयताम्)',
+	'alws-group-mustused' => 'सर्वाधिकप्रयुक्ताः विकयः',
+	'alws-group-allaz' => 'सर्वाः विकयः अकारादिक्रमेण',
+	'form-legend-settings' => 'अभिविन्यासाः',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
 	'alws-selectwiki' => '(විකිය තෝරාගන්න)',
+	'alws-group-mustused' => 'වැඩියෙන්ම භාවිතා කල විකියන්',
+	'alws-group-allaz' => 'සියලුම විකියන් අකාරාදියේ පිළිවෙළට',
 	'form-legend-settings' => 'සැකසුම්',
 );
 
@@ -645,6 +751,16 @@ $messages['sl'] = array(
 	'alws-group-mustused' => 'Najpogosteje uporabljani wikiji',
 	'alws-group-allaz' => 'Vsi wikiji po abecedi',
 	'form-legend-settings' => 'Nastavitve',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'alws-selectwiki' => '(dooro wiki)',
+	'alws-group-mustused' => 'aad loo adeegsado wikis',
+	'alws-group-allaz' => 'Dhamaan wiki xaraf xaraf',
+	'form-legend-settings' => 'dooqyada',
 );
 
 /** Albanian (shqip)
@@ -770,6 +886,16 @@ $messages['uk'] = array(
 	'form-legend-settings' => 'Налаштування',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'alws-selectwiki' => '(viki-loyihani tanlash)',
+	'alws-group-mustused' => 'Koʻproq foydalaniladigan viki-loyihalar',
+	'alws-group-allaz' => 'Alifbo boʻyicha barcha viki-loyihalar',
+	'form-legend-settings' => 'Moslamalar',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
@@ -785,6 +911,7 @@ $messages['vi'] = array(
  * @author Hydra
  */
 $messages['zh-hans'] = array(
+	'alws-label' => '维基',
 	'alws-selectwiki' => '（选择维基）',
 	'alws-group-mustused' => '使用最多的维基',
 	'alws-group-allaz' => '所有的维基按字母顺序',
