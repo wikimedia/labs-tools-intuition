@@ -505,6 +505,16 @@ $messages['pl'] = array(
 	'error-form-empty' => 'Jedno lub więcej wymaganych pól pozostało pustych. Musisz je wypełnić, aby móc kontynuować.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'moretools' => 'pi utiss dal midem autor',
+	'bugs' => "rapòrt d'eror e arceste ëd funsion",
+	'comments' => 'cement e arceste',
+	'error-form-empty' => 'Un o pi camp obligatòri a son stàit lassà bianch. It dovrìe completeje prima ëd continué.',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
@@ -655,6 +665,8 @@ $messages['uk'] = array(
  * @author CoderSI
  */
 $messages['uz'] = array(
+	'moretools' => 'ushbu muallifning boshqa asboblari',
+	'bugs' => 'xatolar haqida xabarlar, shuningdek takliflar',
 	'comments' => 'savollar va izohlar',
 );
 

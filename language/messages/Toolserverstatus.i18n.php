@@ -358,6 +358,14 @@ $messages['el'] = array(
 	'toolserver-status-short-missing' => '$1: Λείπει',
 );
 
+/** Esperanto (Esperanto)
+ * @author Anakmalaysia
+ */
+$messages['eo'] = array(
+	'toolserver-status-unknown' => 'Nekonata stato de fasko $1',
+	'toolserver-status-missing' => 'La fasko $1 ne ekzistas.',
+);
+
 /** Spanish (español)
  * @author Platonides
  * @author Vivaelcelta
@@ -925,6 +933,26 @@ $messages['pl'] = array(
 	'toolserver-status-short-missing' => '$1: Brak',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'toolserver-status-ok' => 'A-i é gnun problem ant ël cluster ëd database $1 $2',
+	'toolserver-status-info' => "Neuve për j'utent dël cluster $1: $2",
+	'toolserver-status-warn' => "Avis për j'utent dël cluster $1: $2",
+	'toolserver-status-down' => "Ël cluster $1 ëd database a l'é stàit temporaneament tirà giù. $2",
+	'toolserver-status-erro' => "Ël cluster $1 ëd database a l'é giù. $2",
+	'toolserver-status-unknown' => 'Stat dël cluster $1 pa conossù',
+	'toolserver-status-missing' => 'El cluster $1 a esist pa',
+	'toolserver-status-short-ok' => '$1: Va bin',
+	'toolserver-status-short-info' => '$1: Anformassion',
+	'toolserver-status-short-warn' => '$1: Avis',
+	'toolserver-status-short-down' => '$1: Giù',
+	'toolserver-status-short-erro' => '$1: Eror',
+	'toolserver-status-short-unknown' => '$1: Pa conossù',
+	'toolserver-status-short-missing' => '$1: Mancant',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -1011,10 +1039,17 @@ $messages['sh'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
 	'toolserver-status-ok' => 'ක්ලස්ටර් $1 $2 හි කිසිදු දෝෂයක් නොමැත',
+	'toolserver-status-info' => '$1 ස්තබකයෙහි පරිශීලකයන් සඳහා නිවේදනය: $2',
+	'toolserver-status-warn' => '$1 ස්තබකයෙහි පරිශීලකයන් සඳහා රැඳෙමින්: $2',
+	'toolserver-status-down' => 'දත්ත සංචිත ස්තබකය $1 තාවකාලිකව වසා දමා ඇත. $2',
+	'toolserver-status-erro' => 'දත්ත සංචිත ස්තබකය $1 මැඩ පවත්වා ඇත. $2',
+	'toolserver-status-unknown' => '$1 ස්තබකයේ නොදන්නා තත්වය',
+	'toolserver-status-missing' => '$1 ස්තබකය නොපවතියි',
 	'toolserver-status-short-ok' => '$1: හරි',
 	'toolserver-status-short-info' => '$1: තොරතුරු',
 	'toolserver-status-short-warn' => '$1: අනතුරු හඟවනවා',

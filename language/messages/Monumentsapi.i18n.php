@@ -1465,6 +1465,7 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
@@ -1481,17 +1482,31 @@ $messages['hi'] = array(
 	'db-field-name' => 'नाम',
 	'db-field-address' => 'पता',
 	'db-field-municipality' => 'नगर पालिका',
+	'db-field-lat' => 'अक्षांश',
+	'db-field-lon' => 'देशान्तर',
 	'db-field-image' => 'चित्र',
 	'db-field-changed' => 'परिवर्तित',
 	'db-field-source' => 'स्रोत',
 	'db-field-monument_article' => 'स्मारक पर लेख',
+	'db-field-st_address' => 'पते',
+	'db-field-st_address_pct' => 'पते %',
+	'db-field-st_coordinates' => 'निर्देशांक',
+	'db-field-st_coordinates_pct' => 'निर्देशांक %',
+	'db-field-st_image' => 'छवि',
+	'db-field-st_image_pct' => 'छवि %',
+	'db-field-st_municipality' => 'नगर पालिका',
+	'db-field-st_municipality_pct' => 'नगर पालिका %',
 	'db-field-st_name' => 'नाम',
 	'db-field-st_name_pct' => 'नाम %',
 	'db-field-st_total' => 'कुल संख्या',
+	'toolbox-meta-title' => 'विकि लव्स मौन्युमेंट्स टूलबॉक्स',
+	'toolbox-main-title' => 'WLM टूलबॉक्स',
+	'toolbox-wikilovesmonuments' => 'विकि लव्स मौन्युमेंट्स',
 	'toolbox-nav-homepage' => 'मुखपृष्ठ',
 	'toolbox-nav-statistics' => 'आँकड़े',
 	'toolbox-nav-search' => 'खोज',
 	'toolbox-title-searchmonuments' => 'स्मारक खोज',
+	'location' => 'स्थान',
 );
 
 /** Croatian (hrvatski)
@@ -2544,6 +2559,7 @@ $messages['no'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
@@ -2579,10 +2595,10 @@ $messages['or'] = array(
 	'db-field-st_name_pct' => 'Names %',
 	'db-field-st_total' => 'ମୋଟ ସଂଖ୍ୟା',
 	'toolbox-label-searchtipps' => 'ଅଜଣା ଖୋଜା ପାଇଁ %term କିମ୍ବା term% କିମ୍ବା %term% ବ୍ୟବହାର କରନ୍ତୁ',
-	'toolbox-meta-title' => 'ଉଇକି କୀର୍ତିରାଜିକୁ ଭଲ ପାଏ ଟୁଲବକ୍ସ',
+	'toolbox-meta-title' => 'ଉଇକି ଲଭ୍ସ ମନୁମେଣ୍ଟ୍ସ ଟୁଲବକ୍ସ',
 	'toolbox-main-title' => 'ଡ଼ବଲଇଉଏଲଏମ (WLM) ଟୁଲବକ୍ସ',
 	'toolbox-main-description' => 'ଗୁଡିଏ ଟୁଲ ଯାହାରକି ଏହା ସହ ସମ୍ପର୍କ ଅଛି',
-	'toolbox-wikilovesmonuments' => 'ଉଇକି ପୁରୁଣା କୀର୍ତିରାଜିକୁ ଭଲପାଏ',
+	'toolbox-wikilovesmonuments' => 'ଉଇକି ଲଭ୍ସ ମନୁମେଣ୍ଟ୍ସ',
 	'toolbox-nav-homepage' => 'ପ୍ରଧାନ ପୃଷ୍ଠା',
 	'toolbox-nav-statistics' => 'ହିସାବ',
 	'toolbox-nav-search' => 'ଖୋଜିବେ',
@@ -2676,26 +2692,52 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
+	'search-title' => 'Serca monument',
+	'search-monuments-database' => 'Serca ant ël database dij monument',
 	'search-table-th-field' => 'Camp',
 	'search-table-th-filter' => 'Filtr',
 	'search-table-th-search' => 'Sërca',
+	'filter-all-countries' => 'Tùit ij paìs',
 	'filter-all-languages' => 'Tute lenghe',
 	'db-field-country' => 'Nassion',
 	'db-field-lang' => 'Lenga',
+	'db-field-id' => 'Identificator',
 	'db-field-name' => 'Nòm',
 	'db-field-address' => 'Adrëssa',
+	'db-field-municipality' => 'Comun-a',
 	'db-field-lat' => 'Latitùdin',
 	'db-field-lon' => 'Longitùdin',
 	'db-field-image' => 'Figura',
+	'db-field-changed' => 'Cangià',
 	'db-field-source' => 'Sorgiss',
+	'db-field-monument_article' => 'Vos ëd monument',
+	'db-field-registrant_url' => 'Anliura ëd registrassion',
+	'db-field-st_address' => 'Adrëssa',
+	'db-field-st_address_pct' => 'Adrësse %',
+	'db-field-st_coordinates' => 'Coordinà',
+	'db-field-st_coordinates_pct' => 'Coordinà %',
 	'db-field-st_image' => 'Figura',
+	'db-field-st_image_pct' => 'Figure %',
 	'db-field-st_municipality' => 'Comun-a',
+	'db-field-st_municipality_pct' => 'Comun-a %',
+	'db-field-st_name' => 'Nòm %',
+	'db-field-st_name_pct' => 'Nòm %',
+	'db-field-st_total' => 'Nùmer total',
+	'toolbox-label-searchtipps' => 'dòvra %term o term% o %term% per arserche fuzzy',
+	'toolbox-meta-title' => 'Utiss Wiki Loves Monuments',
+	'toolbox-main-title' => 'Utiss WLM',
+	'toolbox-main-description' => "N'ansema d'utiss relativ a",
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => "Pàgina d'intrada",
 	'toolbox-nav-statistics' => 'Statìstiche',
 	'toolbox-nav-search' => 'Sërca',
+	'toolbox-title-searchmonuments' => 'Arserca dij monument',
 	'location' => 'Locassion',
+	'source-monuments-list-on-wikipedia' => 'Lista sorziss dij monument dzor Wikipedia',
 );
 
 /** Pashto (پښتو)
@@ -2977,13 +3019,17 @@ $messages['si'] = array(
 	'db-field-st_name' => 'නම්',
 	'db-field-st_name_pct' => 'නම් %',
 	'db-field-st_total' => 'සමස්ත අංකය',
+	'toolbox-label-searchtipps' => 'fuzzy සෙවුම සඳහා %term හෝ term% හෝ %term% භාවිතා කරන්න',
+	'toolbox-meta-title' => 'විකි ආදර සිහිවටන මෙවලම්පෙට්ටිය',
 	'toolbox-main-title' => 'WLM මෙවලම්පෙට්ටිය',
+	'toolbox-main-description' => 'ආශ්‍රිත මෙවලම් කට්ටලය',
 	'toolbox-wikilovesmonuments' => 'විකි ආදර සිහිවටන',
 	'toolbox-nav-homepage' => 'මුල් පිටුව',
 	'toolbox-nav-statistics' => 'සංඛ්‍යාන දත්ත',
 	'toolbox-nav-search' => 'සොයන්න',
 	'toolbox-title-searchmonuments' => 'සිහිවටන සොයන්න',
 	'location' => 'ස්ථානය',
+	'source-monuments-list-on-wikipedia' => 'විකිපීඩියාවෙහි ලැයිස්තුගත කොට ඇති මූලාශ්‍ර සිහිවටන',
 );
 
 /** Slovenian (slovenščina)
@@ -3021,11 +3067,17 @@ $messages['sl'] = array(
 	'db-field-st_name' => 'Imena',
 	'db-field-st_name_pct' => '% imen',
 	'db-field-st_total' => 'Skupno število',
+	'toolbox-label-searchtipps' => 'uporabite %pojem ali %pojem ali %pojem% za delno ujemanje',
+	'toolbox-meta-title' => 'Orodjarna Wiki ljubi spomenike',
+	'toolbox-main-title' => 'Orodjarna WLM',
+	'toolbox-main-description' => 'Nabor orodij, povezanih z',
+	'toolbox-wikilovesmonuments' => 'Wiki ljubi spomenike',
 	'toolbox-nav-homepage' => 'Domača stran',
 	'toolbox-nav-statistics' => 'Statistika',
 	'toolbox-nav-search' => 'Iskanje',
 	'toolbox-title-searchmonuments' => 'Iskanje spomenikov',
 	'location' => 'Nahajališče',
+	'source-monuments-list-on-wikipedia' => 'Izvirni seznam spomenikov na Wikipediji',
 );
 
 /** Somali (Soomaaliga)
@@ -3606,6 +3658,29 @@ $messages['uz'] = array(
 	'db-field-changed' => 'Oʻzgartirildi',
 	'db-field-source' => 'Manba',
 	'db-field-monument_article' => 'Yodgorlik haqida maqola',
+	'db-field-registrant_url' => 'Registrantning URL-manzili',
+	'db-field-st_address' => 'Manzillar',
+	'db-field-st_address_pct' => 'Manzillar %',
+	'db-field-st_coordinates' => 'Koordinatalar',
+	'db-field-st_coordinates_pct' => 'Koordinatalar %',
+	'db-field-st_image' => 'Tasvir',
+	'db-field-st_image_pct' => 'Tasvir %',
+	'db-field-st_municipality' => 'Munitsipalitetlar',
+	'db-field-st_municipality_pct' => 'Munitsipalitetlar %',
+	'db-field-st_name' => 'Nomlar',
+	'db-field-st_name_pct' => 'Nomlar %',
+	'db-field-st_total' => 'Umumiy soni',
+	'toolbox-label-searchtipps' => 'eskirgan maʼlumotlarni qidirish uchun %term, term% yoki %term% dan foydalaning',
+	'toolbox-meta-title' => 'Wiki Loves Monuments asboblari',
+	'toolbox-main-title' => 'WLM asboblari',
+	'toolbox-main-description' => 'Quyidagi bilan bogʻliq asboblar toʻplami',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Bosh sahifa',
+	'toolbox-nav-statistics' => 'Statistika',
+	'toolbox-nav-search' => 'Qidiruv',
+	'toolbox-title-searchmonuments' => 'Yodgorliklarni qidirish',
+	'location' => 'Joylashuv',
+	'source-monuments-list-on-wikipedia' => 'Vikipediyadagi yodgorliklarning manbaviy roʻyxati',
 );
 
 /** Vietnamese (Tiếng Việt)

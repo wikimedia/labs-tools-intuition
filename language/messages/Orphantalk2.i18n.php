@@ -520,9 +520,11 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Anakmalaysia
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(unue elektu vikion)',
 	'hideredirects' => 'Kaŝi alidirektilojn',
 	'hidesubpages' => 'Kaŝi subpaĝojn',
@@ -1317,7 +1319,7 @@ $messages['nl'] = array(
 	'output' => 'Uitvoer',
 	'update' => 'Bijwerken',
 	'tools-delete' => 'verwijderen',
-	'tools-links' => 'verwijzingen',
+	'tools-links' => 'koppelingen',
 	'tools-subject' => 'pagina',
 	'tools-hist' => 'gesch.',
 	'tools-curr' => 'huidige',
@@ -1417,15 +1419,28 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(selession-a na wiki prima)',
+	'hideredirects' => 'Stërma le ridiression',
+	'hidesubpages' => 'Stërma le sotpagine',
 	'limit' => 'Lìmit',
 	'page' => 'Pàgina',
+	'redirect' => "A l'é-lo na ridiression?",
 	'output' => 'Surtìa',
 	'update' => 'Agiorna',
 	'tools-delete' => 'scancelé',
 	'tools-links' => 'anliure',
+	'tools-subject' => 'soget',
+	'tools-hist' => 'stòria',
+	'tools-curr' => 'corr',
+	'tools-globalusage' => 'globalusage',
+	'deletesummary' => 'Canselé pagine ëd discussion orfanele via $1',
+	'noresults' => 'Gnun-e pagine ëd discussion orfanele dzor sta wiki ant sto passi nominal a corispondo a toe ampostassion.',
+	'resultslimited' => "J'arzultà a son stàit limità a $1 pagine.",
 );
 
 /** Pashto (پښتو)
@@ -1574,6 +1589,7 @@ $messages['si'] = array(
 	'tools-hist' => 'ඉතිහාසය',
 	'tools-curr' => 'වත්මන්',
 	'tools-globalusage' => 'ගෝලීයභාවිතය',
+	'resultslimited' => 'ප්‍රතිඑල $1 පිටු වෙත සීමා කර ඇත.',
 );
 
 /** Slovenian (slovenščina)
@@ -1889,6 +1905,16 @@ $messages['uk'] = array(
 	'deletesummary' => 'Прибирання сторінок обговорень-сиріт за допомогою $1',
 	'noresults' => 'У цій вікі в заданих Вами просторах назв не знайдено сторінок обговорень-сиріт.',
 	'resultslimited' => 'Результати було обмежено $1 сторінками.',
+);
+
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(oldin vikini tanlang)',
+	'hideredirects' => 'Yoʻnaltirishlarni yashirish',
+	'hidesubpages' => 'Ostsahifalarni yashirish',
 );
 
 /** Vietnamese (Tiếng Việt)

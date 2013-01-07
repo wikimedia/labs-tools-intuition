@@ -814,7 +814,9 @@ $messages['eo'] = array(
 	'translate' => 'Traduki',
 	'svginput-label' => 'Dosiero SVG',
 	'uploading' => 'Alŝutante',
+	'editdescriptionpage' => 'Redaktu la novan priskriban paĝon',
 	'preview-hide' => 'Kaŝi antaŭvidon',
+	'preview-refresh' => 'Freŝigu antaŭmontro',
 );
 
 /** Spanish (español)
@@ -1180,6 +1182,34 @@ $messages['he'] = array(
 	'error-tusc-failed' => 'זיהוי ב־TUSC נכשל: שגיאה בשם משתמש או בססמה.',
 	'description-license' => 'נא לבחור תיאור ורישיון',
 	'finalise' => 'גימור פרטים',
+);
+
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'error-nothing' => 'अनुवाद के लिए कुछ भी नहीं मिला।',
+	'error-notsvg' => 'ये SVG फ़ाइल नहीं है।',
+	'error-unexpected' => 'एक अनपेक्षित त्रुटि उत्पन्न हुई।',
+	'error-upload' => 'अपलोड करने के समय त्रुटि उत्पन्न हुई।',
+	'begin-translation' => 'अनुवाद शुरू',
+	'th-original' => 'मूल',
+	'th-translation' => 'अनुवाद',
+	'th-language' => 'भाषा',
+	'th-username' => 'सदस्यनाम',
+	'th-password' => 'पासवर्ड',
+	'th-method' => 'पद्धती',
+	'option-tusc' => 'TUSC (स्वतः अपलोड)',
+	'option-manual' => 'मैनुअल अपलोड',
+	'preview' => 'पूर्वावलोकन',
+	'translate' => 'अनुवाद',
+	'svginput-label' => 'SVG फ़ाइल',
+	'uploading' => 'अपलोड हो रही है',
+	'upload-complete' => 'अपलोड सफलतापूर्वक पूर्ण हुआ। छवि अब $1 में होनी चाहिए',
+	'editdescriptionpage' => 'नया विवरण पृष्ठ संपादित करें',
+	'author-complete' => 'कृपया रचयिता जानकारी पूर्ण करें!',
+	'preview-hide' => 'पूर्वावलोकन छुपाएँ',
 );
 
 /** Croatian (hrvatski)
@@ -2225,18 +2255,41 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
+	'error-tryagain' => '$1 Sgnaca ël boton andré ëd tò navigator për torna prové.',
+	'error-nothing' => 'Gnente da volté.',
+	'error-notsvg' => "Pa n'archivi SVG.",
+	'error-unexpected' => "A l' capitaje n'eror pa spetà.",
+	'error-notfound' => "L'archivi SVG a peul pa esse trovà da l'anliura dàita.",
+	'error-upload' => "A l'é stàit-ie n'eror an cariand.",
+	'begin-translation' => 'Ancamin-a tradussion',
 	'th-original' => 'Original',
+	'th-translation' => 'Tradussion',
 	'th-language' => 'Lenga',
 	'th-username' => 'Stranòm',
 	'th-password' => 'Ciav',
 	'th-method' => 'Métod',
+	'option-tusc' => 'TUSC (caria automàtica)',
+	'option-manual' => 'Caria manual',
 	'preview' => 'Preuva',
 	'translate' => 'Traduv',
+	'translate-instructions' => 'Anseriment a son acetà o com nòm d\'archivi (esempi "$1") o anliure complete (esempi "$2"). Se as dòvra la prima opsion, as dovrerò Wikimedia Commons com sorziss. Për volté un SVG da n\'àutr sit o wiki, it deuve dovré ël formà con anliura completa.',
+	'svginput-label' => 'Archivi SVG',
+	'stats-footer' => "St'utiss a l'é stàit dovrà për volté apepro $1 archivi dal $2.",
 	'uploading' => 'Cariament',
+	'upload-complete' => "La caria a l'é stàita completà da bin. La figura a dovrìa esse a $1",
+	'editdescriptionpage' => 'Modìfica la neuva pagina ëd descrission',
+	'disclaimer' => "Quaich dat anònim a saran cujì privatament për but statìstich. Se dàit, nòm utent TUSC ëdcò a saran memorisà për assistensa ant l'event ëd vandalism. Le ciav a san mai memorisà.",
+	'author-complete' => "Për piasì completa j'anformassion dl'autor!",
 	'preview-hide' => 'Stërmé la previsualisassion',
+	'preview-refresh' => 'Rinfrësca preuva',
+	'error-must-accept' => "Për continué con na caria direta it deuve aceté ij termo d'usagi dàit.",
+	'error-tusc-failed' => 'Falì la valisassion TUSC: nòm utent o ciav pa giust.',
+	'description-license' => 'Selession-a descrission o licensa',
+	'finalise' => 'Finalisa detaj',
 );
 
 /** Pashto (پښتو)
@@ -2422,9 +2475,11 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'error-tryagain' => 'නැවත උත්සහ කිරීමට ඔබේ ගවේෂකයෙහි $1 ආපසු බොත්තම ඔබන්න.',
 	'error-nothing' => 'පරිවර්තනය කිරීමට කිසිවක් නොමැත.',
 	'error-notsvg' => 'SVG ගොනුවක් නොවේ.',
 	'error-unexpected' => 'බලපොරොත්තු නොවූ දෝෂයක් හට ගැනුණි.',
+	'error-notfound' => 'ලබා දුන් URL ලිපිනයෙන් SVG ගොනුව ලබා ගත නොහැක.',
 	'error-upload' => 'එහි උඩුගත කිරීමේ දෝෂයක් තිබුණි.',
 	'begin-translation' => 'පරිවර්තනය අරඹන්න',
 	'th-original' => 'නියම',
@@ -2439,10 +2494,13 @@ $messages['si'] = array(
 	'translate' => 'පරිවර්තනය කරන්න',
 	'svginput-label' => 'SVG ගොනුව',
 	'uploading' => 'උඩුගත කෙරෙමින් පවතී',
+	'upload-complete' => 'උඩුගත කරීම සාර්ථකව සිදු කරන ලදී. පින්තූරය $1 හිදී ලබා ගත හැක',
 	'editdescriptionpage' => 'නව විස්තර පිටුව සංස්කරණය කරන්න',
 	'author-complete' => 'කරුණාකර කතෘ තොරතුරු සම්පූර්ණ කරන්න!',
 	'preview-hide' => 'පෙරදසුන සඟවන්න',
 	'preview-refresh' => 'පෙරදසුන ප්‍රතිපූරණය කරන්න',
+	'error-must-accept' => 'ඍජු උඩුගත කිරීම සමඟ ඉදිරියට යාම සඳහා ඉදිරිපත් කරන ලද කොන්දේසි වලට ඔබ විසින් එකඟත්වය ප්‍රකාශ කල යුතුය.',
+	'error-tusc-failed' => 'TUSC සත්‍යාපනය අසාර්ථකයි: පරිශීලක නාමය සහ මුරපදය වැරදියි.',
 	'description-license' => 'විස්තරය සහ බලපත්‍රය තෝරාගන්න',
 	'finalise' => 'අවසන් විස්තර',
 );
@@ -2544,7 +2602,7 @@ $messages['sr-ec'] = array(
 	'th-method' => 'Начин',
 	'option-tusc' => 'TUSC (самоотпремање)',
 	'option-manual' => 'Ручно отпремање',
-	'preview' => 'Прикажи претпреглед',
+	'preview' => 'Прегледај',
 	'translate' => 'Преведи',
 	'translate-instructions' => 'Уноси се прихватају као називи датотека („$1“) или као цела адреса („$2“). Ако изаберете прву могућност, Викимедијина остава ће бити изабрана као извор. Да бисте превели SVG датотеку с другог мрежног места или викија, користите целу адресу.',
 	'svginput-label' => 'SVG датотека',

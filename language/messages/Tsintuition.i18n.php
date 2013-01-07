@@ -663,6 +663,7 @@ $messages['eo'] = array(
 	'bl-mysettings' => 'Mia lingvo-agordoj',
 	'bl-mysettings-new' => 'Ŝanĝu lingvon!',
 	'bl-promo' => 'Tradukoj estas de $1 kaj $2.',
+	'usage' => 'Iloj tradukitaj de Toolserver Intuition.',
 );
 
 /** Spanish (español)
@@ -1725,12 +1726,32 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
+	'fullname' => "Antërnassionalisassion për l'Antërfacia Utent ëd Toolserver",
+	'current-settings' => 'Ampostassion corente',
+	'current-language' => 'Lenga selessionà al moment',
+	'settings-legend' => 'Regolassion',
+	'choose-language' => 'Sern na lenga',
+	'clear-cookies' => 'polida ij cookie',
+	'renew-cookies' => 'arneuva ij cookie',
+	'cookie-expiration' => 'Scadensa dij cookie',
+	'clearcookies-success' => 'Scanselà cookie da bin',
+	'renewcookies-success' => "Cookie rinovà! It je l'hai tùit ampostà për ij $1 ch'a ven-o.",
 	'tab-overview' => "Vista d'ansem",
 	'tab-settings' => 'Regolassion',
 	'tab-about' => 'A propòsit',
+	'tab-demo' => 'Dimostrassion',
+	'bl-mysettings' => 'Mie ampostassion ëd lenga',
+	'bl-mysettings-new' => 'Cangia lenga!',
+	'bl-promo' => 'le tradussion a son soagnà da $1 e $2.',
+	'bl-changelanguage' => "Sgnaca sì për cangé le lenga d'antërfacia dë sto utiss.",
+	'usage' => 'Utiss voltà da Toolserver Intuition.',
+	'help-translate-tool' => "Giuta a viré st'utiss.",
+	'help-translate-all' => 'Giuta a viré Toolserver!',
+	'help-translate-tooltip' => "Giuta àutri voltand ij mëssagi d'antërfacia an toa lenga.",
 );
 
 /** Pashto (پښتو)
@@ -1899,6 +1920,7 @@ $messages['ru'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'fullname' => 'Toolserver පරිශීලක අතුරුමුහණත සඳහා ජාත්‍යන්තරකරණය',
 	'current-settings' => 'වත්මන් සැකසුම්',
 	'current-language' => 'වත්මන් තෝරාගත් භෂාව',
 	'settings-legend' => 'පරිස්ථිතීන්',
@@ -1907,14 +1929,19 @@ $messages['si'] = array(
 	'renew-cookies' => 'කුකීස් නව්‍යකරණය කරන්න',
 	'cookie-expiration' => 'කුකී ඉකුත් වීම',
 	'clearcookies-success' => 'කුකීස් සාර්ථකව හිස් කරන ලදී.',
+	'renewcookies-success' => 'කුකීස් අලුත් කරන ලදී! ඔබ සියල්ලම මීළඟ $1 සඳහා සකසන ලදී.',
 	'tab-overview' => 'දළ විශ්ලේෂණය',
 	'tab-settings' => 'සැකසුම්',
 	'tab-about' => 'පිළිබඳ',
 	'tab-demo' => 'නිදර්ශනය',
 	'bl-mysettings' => 'මගේ භාෂා සැකසුම්',
 	'bl-mysettings-new' => 'භාෂාව වෙනස් කරන්න!',
+	'bl-promo' => 'පරිවර්තනයන් බල ගන්වන්නේ $1 සහ $2 විසිනි.',
+	'bl-changelanguage' => 'මෙම මෙවලමේ අතුරුමුහුණත් භාෂාව වෙනස් කිරීම සඳහා මෙතන ක්ලික් කරන්න.',
+	'usage' => 'Toolserver ප්‍රතිභානය විසින් මෙවලම් පරිවර්තනය කර ඇත.',
 	'help-translate-tool' => 'මෙම මෙවලම පරිවර්තනය කිරීමට සහය වන්න!',
 	'help-translate-all' => 'මෙවලම්සර්වරය පරිවර්තනය කිරීමට සහය වන්න!',
+	'help-translate-tooltip' => 'අතුරුමුහුණත් පණිවුඩ ඔබේ භාෂාවට පරිවර්තනය කිරීමෙන් අනිකුත් පරිශීලකයන් හට උදව් කරන්න.',
 );
 
 /** Slovenian (slovenščina)

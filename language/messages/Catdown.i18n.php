@@ -974,11 +974,12 @@ $messages['fo'] = array(
 );
 
 /** French (français)
+ * @author Crochet.david
  * @author Gomoko
  * @author Linedwell
  */
 $messages['fr'] = array(
-	'title' => "Téléchargement d'images par catégorie",
+	'title' => 'Téléchargement d’images par catégorie',
 	'subtitle' => 'La manière la plus simple pour télécharger les images dans une catégorie',
 	'project' => 'Projet :',
 	'category' => 'Catégorie:',
@@ -987,13 +988,13 @@ $messages['fr'] = array(
 	'max-height' => 'Hauteur maximale:',
 	'invalid-width' => 'Largeur non valide',
 	'invalid-height' => 'Hauteur non valide',
-	'no-such-project' => "Ce projet n'existe pas",
-	'no-images' => "Il n'y a pas d'images dans cette catégorie",
+	'no-such-project' => 'Ce projet n’existe pas',
+	'no-images' => "Il n'y a pas d’images dans cette catégorie",
 	'category-is-url' => 'Le nom de catégorie fourni ressemble à une URL. Vous devez spécifier le nom de la catégorie, non pas son URL.',
-	'category-contains-namespace' => "Il semble que vous avez inclus l'espace de nom avec le nom de la catégorie. Avec le nom fourni, la page serait disponible à [[Category:$1]].",
+	'category-contains-namespace' => 'Il semble que vous avez inclus l’espace de nom avec le nom de la catégorie. Avec le nom fourni, la page serait disponible à [[Category:$1]].',
 	'zip-failed' => 'Échec de la création du zip',
 	'image-area-too-big' => '$1 est trop gros pour créer une vignette. Utilisez la taille réelle.',
-	'download-info' => '{{plural: $1|Il y a une image|Il y a $1 images}}, avec une taille estimée de $2',
+	'download-info' => 'Il y a {{plural: $1|une image|$1 images}}, avec une taille estimée de $2',
 	'download' => 'Télécharger',
 	'readme-contents' => 'Le fichier conteneur $4 liste les images de la catégorie $1 ( $2 )$3.
 
@@ -1015,9 +1016,9 @@ Si vous êtes intéressés par le code source de ce programme, vous pouvez le t�
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 ou un autre miroir GNU, voyez
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => ", mis à l'échelle avec une largeur maximale de $1 {{plural:$1|pixel|pixels}}",
-	'scaling-height' => ", mis à l'échelle avec une hauteur maximale de $1 {{plural:$1|pixel|pixels}}",
-	'scaling-both' => ", mis à l'échelle avec une taille maximale de $1x$2 pixels",
+	'scaling-width' => ', mis à l’échelle avec une largeur maximale de $1 pixel{{plural:$1||s}}',
+	'scaling-height' => ', mis à l’échelle avec une hauteur maximale de $1 pixel{{plural:$1||s}}',
+	'scaling-both' => ', mis à l’échelle avec une taille maximale de $1x$2 pixels',
 );
 
 /** Franco-Provençal (arpetan)
@@ -1161,6 +1162,23 @@ Windows:
 	'scaling-width' => ', בהגדלה לרוחב מרבי של {{plural:$1|פיקסל אחד|$1 פיקסלים}}',
 	'scaling-height' => ', בהגדלה לגובה מרבי של {{plural:$1|פיקסל אחד|$1 פיקסלים}}',
 	'scaling-both' => ', בהגדלה לגודל מרבי של $1x$2 פיקסלים',
+);
+
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'project' => 'प्रकल्प:',
+	'category' => 'श्रेणी:',
+	'max-width' => 'अधिकतम चौड़ाई:',
+	'max-height' => 'अधिकतम ऊँचाई:',
+	'invalid-width' => 'अमान्य चौड़ाई',
+	'invalid-height' => 'अमान्य ऊँचाई',
+	'no-such-project' => 'ऐसा कोई प्रकल्प नहीं है',
+	'no-images' => 'उस श्रेणी में कोई चित्र नहीं हैं',
+	'zip-failed' => 'ज़िप नहीं बनाई जा सकी',
+	'download' => 'डाउनलोड करें',
 );
 
 /** Croatian (hrvatski)
@@ -2137,12 +2155,52 @@ lub niektórych innych mirrorów GNU, zobacz
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
+	'title' => 'Dëscarié ëd figure për categorìa',
+	'subtitle' => 'La manera bel fé ëd dëscarié le figure ant na categorìa',
 	'project' => 'Proget:',
 	'category' => 'Categorìa:',
+	'thumbnailing' => 'Miniaturisé',
+	'max-width' => 'Largheur màssim:',
+	'max-height' => 'Autëssa màssima:',
+	'invalid-width' => 'Largheur pa bon',
+	'invalid-height' => 'Autëssa pa bon-a',
+	'no-such-project' => 'A-i é pa sto proget',
+	'no-images' => 'A-i é pa ëd figure an sta categorìa',
+	'category-is-url' => 'Ël nòm ëd categorìa dàit a smija na anliura. It deuve specifiché ël nòm ëd categorìa, pa soa anliura.',
+	'category-contains-namespace' => "A smija ch'it l'abie ancludù lë spassi nominal con ël nòm ëd categorìa. Con ëd nòm dàit, la pagina a dovrìa esse disponìbil com [[Category:$1]].",
+	'zip-failed' => 'Creassion Zip falìa',
+	'image-area-too-big' => "$1 a l'é tròp gròss për creé na miniadura. Dovr-lo a dimension pien-a.",
+	'download-info' => '{{plural: $1|A-i é na figura|A-i sin $1 figure}}, con na dimension stimà ëd  $2',
 	'download' => 'Dëscaria',
+	'readme-contents' => "L'archivi ancludù $4 a lista
+le figure ant la categorìa $1 ( $2 )$3
+
+== Istrussion për dëscarié tute le figure listà ==
+El temp ëd dëscaria a peul varié da pòche minute a vàire ore.
+
+Windows:
+ Tira fòra tùit j'archivi ant la midema cartela e fà viré $5
+ $6
+Linus/Mac OS
+ Tira fòra tùit j'archivi ant deurb un terminal an cola cartela. Fà viré sh $5",
+	'non-bundled-wget' => 'Nòta: sta vërsion a anclud pa wget për Windows. It deuve decomprime ant na cartela con wget.exe o dësnò avèj wget ant ël PATH',
+	'wget-info' => "Sto archivi a anclud na còpia ëd wget $1 (për piataforma Windows). wget a l'é Software Lìber,
+sota ij termo ëd la LICENSA GNU GENERAL PUBLIC vërsion 3.
+A-i é na còpia dla licensa sota, e a l'é ëdcò disponìbil a http://www.gnu.org/licenses/gpl-3.0.txt
+
+An cas it sie anteressaà a pijé ël còdes sorziss për sto program, it peule dëscarielo da
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+o quaich àutr Mirror GNU, varda
+ http://www.gnu.org/prep/ftp.html",
+	'scaling-width' => ', scalà a un longheur màssim ëd $1 {{plural:$1|pixel}}',
+	'scaling-height' => ', scalà a na autëssa màssima ëd $1 {{plural:$1|pixel}}',
+	'scaling-both' => ', scalà a na dimension màssima ëd $1x$2 pixel',
 );
 
 /** Pashto (پښتو)
@@ -2317,7 +2375,11 @@ $messages['si'] = array(
 	'no-such-project' => 'සැබෑ වශයෙන් එහි ව්‍යාපෘතියක් නොමැත',
 	'no-images' => 'මෙම ප්‍රවර්ගයේ පින්තූර කිසිවක් නොමැත.',
 	'zip-failed' => 'Zip තැනීම අසාර්ථකයි',
+	'image-area-too-big' => '$1 සංක්ෂිප්තය තැනීමට විශාල වැඩියි. සම්පූර්ණ ප්‍රමාණය භාවිතා කරයි.',
 	'download' => 'බාගන්න',
+	'scaling-width' => ', {{plural:$1|පික්සල්}} $1 ක උපරිම පළලකට පරිමාණය කර ඇත',
+	'scaling-height' => ', {{plural:$1|පික්සල්}} $1 ක උපරිම උසකට පරිමාණය කර ඇත',
+	'scaling-both' => ', $1x$2 ක උපරිම ප්‍රමාණයකට පරිමාණය කර ඇත',
 );
 
 /** Slovak (slovenčina)
@@ -2589,6 +2651,7 @@ till en mapp med wget.exe eller ha wget i PATH',
 );
 
 /** Swahili (Kiswahili)
+ * @author Kwisha
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
@@ -2596,11 +2659,17 @@ $messages['sw'] = array(
 	'subtitle' => 'Njia rahisi ya kupakua picha katika jamii',
 	'project' => 'Mradi:',
 	'category' => 'Jamii:',
+	'max-width' => 'Upeo wa upana:',
+	'max-height' => 'Upeo wa urefu:',
 	'invalid-width' => 'Upana batili',
 	'invalid-height' => 'Urefu batili',
 	'no-such-project' => 'Hakuna mradi kama huo',
 	'no-images' => 'Hakuna picha katika jamii hiyo',
+	'image-area-too-big' => '$1 ni kubwa sana kutengeneza kijipicha. Tumia saizi nzima.',
 	'download' => 'Pakua',
+	'scaling-width' => ', imepanuliwa hadi upeo wa upana wa $1 {{plural:$1|piseli|piseli}}', # Fuzzy
+	'scaling-height' => ', imepanuliwa hadi upeo wa urefu wa $1 {{plural:$1|piseli|piseli}}', # Fuzzy
+	'scaling-both' => ', imepanuliwa hadi upeo wa saizi wa piseli $1x$2.',
 );
 
 /** Tamil (தமிழ்)
@@ -2708,7 +2777,7 @@ o ilang iba pang mga Salamin ng GNU, tingnan ang
 $messages['tly'] = array(
 	'title' => 'Шикилон бо жәј бә категоријон',
 	'project' => 'Нәхшә:',
-	'category' => 'Категоријә:',
+	'category' => 'Тиспир:',
 	'no-such-project' => 'Жәго нәхшә сохтә быәни',
 	'no-images' => 'Бы категоријәдә шикилон нин',
 	'download' => 'Бо жәј',

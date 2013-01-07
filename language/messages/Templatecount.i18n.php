@@ -865,6 +865,21 @@ $messages['pl'] = array(
 	'time-label' => 'Czas wykonywania polecenia',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'enter-details' => 'Anseriss detaj',
+	'introduction' => "Scrive ël nòm ëd në stamp (mach ëd Wikipedia al moment) e sgnava và. A l'é belfé parèj. A-i é quaich memòria (memòria dj'arzultà), ma lòn a l'é për maleur fòra dël contròl dë st'utiss e dij sò gestor.",
+	'language-label' => 'Lenga',
+	'namespace-label' => 'Spassi nominal',
+	'pagename-label' => 'Nòm pagina (gavand lë spassi nominal)',
+	'transclusion-count-label' => "Nùmer d'anclusion",
+	'transclusion-count' => '$1 anclusion trovà.',
+	'error-suggestion' => "Miraco it l'has-to sbalià (o sbalià ël maiuscolin) ël nòm ëd la pagina?",
+	'time-label' => 'Temp pijà a fé ël comand.',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -922,11 +937,16 @@ $messages['ru'] = array(
 
 /** Sinhala (සිංහල)
  * @author Singhalawap
+ * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
 	'enter-details' => 'විස්තර ඇතුළුකරන්න',
 	'language-label' => 'බස',
 	'namespace-label' => 'නාමාවකාශය:',
+	'pagename-label' => 'පිටුවේ නම (නාමඅවකාශය නැතුව)',
+	'transclusion-count-label' => 'transclusions ගණන',
+	'transclusion-count' => '$1 transclusion(s) හමුවුණි.',
+	'time-label' => 'විධානය ක්‍රියාත්මක කිරීමට ගත කාලය',
 );
 
 /** Slovenian (slovenščina)

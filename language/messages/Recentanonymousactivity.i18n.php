@@ -341,6 +341,13 @@ $messages['pl'] = array(
 	'title' => 'Ostatnia anonimowa aktywność',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'title' => 'Atività anònima recenta',
+);
+
 /** Portuguese (português)
  * @author Hamilton Abreu
  */

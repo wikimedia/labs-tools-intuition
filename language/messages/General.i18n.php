@@ -795,6 +795,7 @@ $messages['frp'] = array(
 	'seconds' => 'second{{PLURAL:$1|a|es}}',
 	'last-modified-date' => 'Dèrriér changement : $1',
 	'view-source' => 'Vêre lo tèxto sôrsa',
+	'and' => '&#32;et',
 );
 
 /** Irish (Gaeilge)
@@ -1651,12 +1652,24 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
+	'hello' => 'Cerea',
+	'welcome' => 'Bin ëvnù',
+	'toolversionstamp' => 'Vërsion $1 ($2)',
+	'etc' => 'ec.',
 	'namespace' => 'Spassi nominal',
 	'form-submit' => 'Va',
 	'form-reset' => 'Spian-a',
+	'years' => '{{PLURAL: $1|ann|agn}}',
+	'weeks' => '{{PLURAL:$1|sman-a|sman-e}}',
+	'days' => '{{PLURAL:$1|di}}',
+	'hours' => '{{PLURAL:$1|ora|ore}}',
+	'minutes' => '{{PLURAL:$1|minuta|minute}}',
+	'seconds' => '{{PLURAL:$1|second}}',
+	'last-modified-date' => 'Ultima modìfica: $1',
 	'view-source' => 'Vardé la sorgiss',
 	'and' => '&#32;e',
 );
