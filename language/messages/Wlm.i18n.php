@@ -117,7 +117,7 @@ Deleted files are not shown even if they were later [$2 restored] and are partic
 $messages['qqq'] = array(
 	'title' => 'Title of the different pages',
 	'file' => 'Header for the column showing the filenames.
-{{Identical|File}}',
+{{Identical|Image}}',
 	'monument-type' => 'Header for the column showing the type of monument -BIC or BCIL-, basically the template used',
 	'monument-id' => 'Header for the column showing the monument id',
 	'province' => 'Header for the column showing the monument province',
@@ -127,7 +127,8 @@ $messages['qqq'] = array(
 	'author' => 'Header for the column showing the author listed for that image.
 {{Identical|Author}}',
 	'country-header' => 'Header for the column showing the country under which this file is participating',
-	'location' => 'Header for the column showing the administrative divisions where the tagged monument is located.',
+	'location' => 'Header for the column showing the administrative divisions where the tagged monument is located.
+{{Identical|Location}}',
 	'upload-time' => 'Upload time in CEST',
 	'deleted' => 'Text to show instead of the filename if the file was deleted (those files only appear with option=removed). $1: page_id.
 {{Identical|Deleted}}',
@@ -3544,7 +3545,11 @@ $messages['roa-tara'] = array(
 	'all-countries' => 'Tutte le naziune',
 	'limit-label' => 'Immaggine da fà vedè:',
 	'timezone-label' => "Orarie d'a zone:",
+	'show-earlier-first' => 'Fà vedè le immaggine cchiù nuève apprime',
+	'show-older-first' => 'Fà vedè le immaggine cchiù vicchie apprime',
 	'show-button' => 'Fà vedè',
+	'view-previous-images' => '← Vide immaggine cchiù vicchie',
+	'view-later-images' => 'Vide immaggine cchiù nuève →',
 	'images-listed-count' => '$1 immaggine elengate.',
 	'bot' => 'Bot',
 	'id-label' => "ID d'u monumende:",
@@ -4477,7 +4482,9 @@ $messages['zh-hant'] = array(
 	'title' => 'WLM檔案',
 	'file' => '圖片',
 	'monument-type' => '古蹟類別',
+	'monument-id' => '古蹟ID',
 	'province' => '省',
+	'comarque' => '區域',
 	'competes' => '完成',
 	'author' => '作者',
 	'country-header' => '國家',

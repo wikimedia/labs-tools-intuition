@@ -119,6 +119,15 @@ $messages['ast'] = array(
 	'toolserver-status-short-missing' => '$1: Inesistente',
 );
 
+/** Azerbaijani (azərbaycanca)
+ * @author AZISS
+ */
+$messages['az'] = array(
+	'toolserver-status-short-info' => '$1: Informasiya',
+	'toolserver-status-short-erro' => '$1: Xəta',
+	'toolserver-status-short-unknown' => '$1: Naməlum',
+);
+
 /** South Azerbaijani (تورکجه)
  * @author Mousa
  */

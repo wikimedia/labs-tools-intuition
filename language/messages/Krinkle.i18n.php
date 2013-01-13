@@ -94,6 +94,16 @@ $messages['ast'] = array(
 	'form-legend-settings' => 'Configuración',
 );
 
+/** Azerbaijani (azərbaycanca)
+ * @author AZISS
+ */
+$messages['az'] = array(
+	'alws-selectwiki' => '(vikini seç)',
+	'alws-group-mustused' => 'Ən çox istifadə edilən vikilər',
+	'alws-group-allaz' => 'Əlifba sırasıyla bütün vikilər',
+	'form-legend-settings' => 'Tənzimləmələr',
+);
+
 /** South Azerbaijani (تورکجه)
  * @author E THP
  * @author Mousa

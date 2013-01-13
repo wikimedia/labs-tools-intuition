@@ -169,6 +169,17 @@ $messages['ast'] = array(
 	'tablehead-hash' => 'Sumes de comprobación',
 );
 
+/** Azerbaijani (azərbaycanca)
+ * @author AZISS
+ */
+$messages['az'] = array(
+	'title-error' => 'Xəta',
+	'download-directlink' => 'Birbaşa link',
+	'repo-site-link' => 'Vebsayt',
+	'repo-lastmoddate-label' => 'Tarix:',
+	'tablehead-filesize' => 'Faylın ölçüsü',
+);
+
 /** South Azerbaijani (تورکجه)
  * @author Mousa
  */
@@ -1133,6 +1144,7 @@ $messages['lb'] = array(
 	'title-overview' => 'Schnappschëss',
 	'title-error' => 'Feeler',
 	'title-updatelog' => 'Logbuch vun den Aktualisatiounen',
+	'updatelog-active' => 'Den Aktualisatiouns-Script leeft elo. Kommt méi spéit zréck fir de komplette Log ze gesinn.',
 	'download-button' => '$1 eroflueden',
 	'download-directlink' => 'direkte Link',
 	'title-downloadpage' => '$1 eroflueden',

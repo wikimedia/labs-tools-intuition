@@ -1169,6 +1169,7 @@ $messages['zh-hant'] = array(
 	'enter-details' => '輸入詳細資訊',
 	'language-label' => '語言',
 	'namespace-label' => '名字空間',
+	'time-label' => '執行命令所需的時間',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

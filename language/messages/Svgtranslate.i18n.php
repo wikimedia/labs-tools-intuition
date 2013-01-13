@@ -240,20 +240,25 @@ $messages['ast'] = array(
 );
 
 /** Azerbaijani (azərbaycanca)
+ * @author AZISS
  * @author Cekli829
  * @author Wertuose
  */
 $messages['az'] = array(
 	'error-nothing' => 'Tərcümə etməli heç nə yoxdur.',
 	'error-notsvg' => 'Bu SVG faylı deyil.',
+	'begin-translation' => 'Tərcüməyə başla',
 	'th-original' => 'Orijinal',
 	'th-translation' => 'Tərcümə',
 	'th-language' => 'Dil',
 	'th-username' => 'İstifadəçi adı',
 	'th-password' => 'Parol',
 	'th-method' => 'Üsul',
+	'preview' => 'Sınaq görüntüsü',
 	'translate' => 'Tərcümə et',
 	'svginput-label' => 'SVG fayl',
+	'author-complete' => 'Zəhmət olmasa, müəllif informasiyasını tamamla!',
+	'preview-hide' => 'Önizləməni gizlət',
 );
 
 /** South Azerbaijani (تورکجه)

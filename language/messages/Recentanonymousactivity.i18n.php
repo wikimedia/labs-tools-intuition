@@ -46,6 +46,13 @@ $messages['ast'] = array(
 	'title' => 'Actividá anónima reciente',
 );
 
+/** Azerbaijani (azərbaycanca)
+ * @author AZISS
+ */
+$messages['az'] = array(
+	'title' => 'Bu yaxınlardakı anonim fəaliyyətlər',
+);
+
 /** South Azerbaijani (تورکجه)
  * @author Mousa
  */
@@ -473,6 +480,13 @@ $messages['vi'] = array(
  */
 $messages['zh-hans'] = array(
 	'title' => '最近的匿名活动',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'title' => '最近的匿名活動',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

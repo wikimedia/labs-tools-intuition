@@ -64,6 +64,7 @@ $messages['en'] = array(
  * @author Krinkle
  * @author McDutchie
  * @author Multichill
+ * @author Shirayuki
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -80,14 +81,16 @@ The title of the tool.',
 	'filter-all-countries' => 'Entry for the countries filter selecting all countries.',
 	'filter-all-languages' => 'Entry for the language filter selecting all languages.',
 	'db-field-country' => 'Translation of the field "country" in the monuments database.',
-	'db-field-lang' => 'Translation of the field "language" in the monuments database.',
+	'db-field-lang' => 'Translation of the field "language" in the monuments database.
+{{Identical|Language}}',
 	'db-field-id' => 'Translation of the field "identifier" in the monuments database.',
 	'db-field-name' => 'Translation of the field "name" in the monuments database.',
 	'db-field-address' => 'Translation of the field "address" in the monuments database.',
 	'db-field-municipality' => 'Translation of the field "municipality" in the monuments database.',
 	'db-field-lat' => 'Translation of the field "latitude" in the monuments database.',
 	'db-field-lon' => 'Translation of the field "longitude" in the monuments database.',
-	'db-field-image' => 'Translation of the field "image" in the monuments database.',
+	'db-field-image' => 'Translation of the field "image" in the monuments database.
+{{Identical|Image}}',
 	'db-field-changed' => 'Translation of the field "changed" in the monuments database. This field contains the time when the record was last imported in the database.',
 	'db-field-source' => 'Translation of the field "source" in the monuments database. The source field contains a link to the Wikipedia list from which the data was imported.',
 	'db-field-monument_article' => 'Translation of the field "monument_article" in the monuments database. This is the title of a wiki article about the monument.',
@@ -96,6 +99,9 @@ The title of the tool.',
 Examples of registrant URLs:
 * http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=PA00088517
 * http://register.muinas.ee/?menuID=monument&action=view&id=20875',
+	'db-field-st_coordinates' => '{{Identical|Coordinates}}',
+	'toolbox-nav-homepage' => '{{Identical|Homepage}}',
+	'location' => '{{Identical|Location}}',
 );
 
 /** Afrikaans (Afrikaans)

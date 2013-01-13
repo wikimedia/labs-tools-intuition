@@ -1977,14 +1977,16 @@ $messages['zh-hant'] = array(
 	'hidesubpages' => '隱藏子頁面',
 	'limit' => '限制',
 	'page' => '頁面',
-	'redirect' => '是$1重定向嗎？', # Fuzzy
+	'redirect' => '是重定向嗎？',
 	'output' => '輸出',
 	'update' => '更新',
 	'tools-delete' => '已刪除',
 	'tools-links' => '連結',
 	'tools-subject' => '主旨',
 	'tools-hist' => '歷史',
+	'tools-curr' => '最新修訂',
 	'tools-globalusage' => '全域使用',
+	'deletesummary' => '使用$1清理孤立的討論頁',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)
