@@ -601,6 +601,15 @@ $messages['no'] = array(
 	'output' => 'Utdata for «$1»',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'formats-heading' => 'Format de sortida',
+	'input' => 'Entradas',
+	'label-wikiids' => 'Identificants Wiki',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  * @author Shisir 1945
@@ -868,11 +877,14 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Lauhenry
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'formats-heading' => '輸出格式',
 	'input' => '輸入',
+	'label-wikiids' => 'Wiki標識符',
 	'no-matches' => '找不到 "$1"',
+	'output' => '輸出為" $1 "',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

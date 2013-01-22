@@ -639,6 +639,13 @@ $messages['no'] = array(
 	'form-legend-settings' => 'Innstillinger',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'form-legend-settings' => 'Configuracion',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
@@ -936,6 +943,9 @@ $messages['zh-hans'] = array(
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'alws-selectwiki' => '（選擇維基）',
+	'alws-group-mustused' => '最常用皫維基',
+	'alws-group-allaz' => '所有維基按字母順序',
 	'form-legend-settings' => '設定',
 );
 

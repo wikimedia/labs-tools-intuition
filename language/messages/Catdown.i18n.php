@@ -70,6 +70,7 @@ or some other GNU Mirror, see
  * @author Fryed-peach
  * @author Platonides
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -119,8 +120,10 @@ $1: Maximum height in pixels',
 	'scaling-both' => 'Added to readme-contents as $6 if the images are scaled to a maximum width and.
 * $1: Maximum width in pixels
 * $2: Maximum height in pixels',
-	'script-filename' => 'Name of the script which downloads the files.',
-	'readme-filename' => 'Name of the readme file',
+	'script-filename' => '{{Optional}}
+Name of the script which downloads the files.',
+	'readme-filename' => '{{Optional}}
+Name of the readme file',
 );
 
 /** Afrikaans (Afrikaans)
@@ -2029,6 +2032,20 @@ of een andere GNU-mirror, zie:
 	'scaling-width' => ', geschaald naar een maximale breedte van $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => ', geschaald naar een maximale hoogte van $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', geschaald naar een maximale afmeting van $1 x $2 pixels',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'title' => 'Telecargament d’imatges per categoria',
+	'project' => 'Projècte :',
+	'category' => 'Categoria :',
+	'thumbnailing' => 'Vinhetatge',
+	'max-width' => 'Largor maximala :',
+	'max-height' => 'Nautor maximala :',
+	'invalid-width' => 'Largor invalida',
+	'invalid-height' => 'Nautor invalida',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

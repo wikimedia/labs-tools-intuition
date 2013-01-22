@@ -164,7 +164,8 @@ Parameters:
 * $2 Url to the tool showing files restored which are participating in WLM.",
 	'bot' => 'Label to show next to a username in the upload page to indicate that it is a known bot and should not be confused with the real uploader.',
 	'id-label' => 'Label for ids.php input',
-	'date-format' => 'Format in which to present the date in the upload-time column',
+	'date-format' => '{{Optional}}
+Format in which to present the date in the upload-time column',
 	'id-none' => "Column to show where there's no id.
 {{Identical|None}}",
 	'monuments-by-photographers-checkbox' => 'Caption for the checkbox which makes the tool group by number of photographers instead of the default of ordering by number of photos.',
@@ -1158,6 +1159,7 @@ Gelöschte Dateien werden auch dann nicht angezeigt, wenn sie zu einem späteren
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'title' => 'WLM dosyay',
@@ -1171,7 +1173,7 @@ $messages['diq'] = array(
 	'country-header' => 'Dewlet',
 	'location' => 'Lokasyon',
 	'upload-time' => 'Demê bar kerdışi',
-	'deleted' => '($1) besterneyê',
+	'deleted' => '($1) esteriya',
 	'concursa' => "Letey WLM' bıgi",
 	'no-concursa' => 'WLM teber ra pırkerdış',
 	'not-available' => 'No çıno',
@@ -1283,41 +1285,66 @@ Wulašowane dataje se njepokazuju, lěcrownož pózdźej [$2 wótnowili] a se za
 
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
+ * @author Objectivesea
  */
 $messages['eo'] = array(
 	'title' => 'Dosieroj de WLM',
 	'file' => 'Bildo',
+	'monument-id' => 'Identigo de la monumento',
 	'province' => 'Provinco',
+	'comarque' => 'Regiono',
+	'competes' => 'Konkuras',
 	'author' => 'Aŭtoro',
 	'country-header' => 'Lando',
 	'location' => 'Loko',
 	'upload-time' => 'Tempo de la alŝuto',
 	'deleted' => 'Forigita ($1)',
+	'concursa' => 'Konkuras je WLM',
+	'no-concursa' => 'Ne konkuras je WLM',
 	'not-available' => 'Ne atingebla',
 	'date-unknown' => 'Nekonata',
 	'total-images' => 'Totalo de bildoj: $1',
 	'show-images-all' => 'Montri ĉiujn bildojn',
 	'search-monuments' => 'Serĉi monumentojn',
+	'view-frequency' => 'Popularaj monumentoj',
+	'view-ccaa' => 'Vidi laŭ komunumo aŭtonoma',
+	'view-province' => 'Vidi laŭ provinco',
 	'country-label' => 'Lando:',
 	'all-countries' => 'Ĉiuj landoj',
+	'limit-label' => 'Montrotaj bildoj:',
 	'timezone-label' => 'Horzono:',
 	'show-earlier-first' => 'Unue montru plej novajn bildojn',
 	'show-older-first' => 'Unue montru plej malnovajn bildojn',
 	'show-button' => 'Montru',
+	'view-previous-images' => '← Vidi la antaŭajn bildojn',
+	'view-later-images' => '← Vidi la postajn bildojn',
+	'images-listed-count' => '$1 bildoj listiĝas.',
 	'bot' => 'Roboto',
+	'id-label' => 'Identigo de la monumento:',
 	'id-none' => '(Nenio)',
 	'monument-heading' => 'Monumento',
 	'count-heading' => 'Fotoj',
 	'photographer-count-heading' => 'Fotoistoj',
 	'bic-list' => 'Listo',
 	'bic-gallery' => 'Galerio',
+	'gallery-header' => 'Bildoj pri la monumento kun la identigo $1.',
+	'gallery-header-place' => 'Bildoj pri monumentoj el $1.',
+	'wall-of-shame-text' => 'Aŭtoroj laŭ la nombro da neidentigitaj fotoj',
 	'author-heading' => 'Aŭtoro',
 	'bic-list-bad' => 'Montru',
 	'bic-list-all' => 'Plena listo',
 	'unregistered' => 'Neregistritaj',
 	'users-list' => 'Vidi',
+	'distict-monuments' => 'Malsamaj monumentoj',
+	'list-prolific-by-photos' => 'laŭ la nombro da bildoj',
+	'list-prolific-by-distinct-identifiers' => 'laŭ la nombro da malsamaj identaĵoj',
+	'list-prolific-by-distinct-good-identifiers' => 'laŭ la nombro da malsamaj identaĵoj kiu listiĝis',
+	'list-prolific-by-identifiers' => 'laŭ la nombro da identaĵoj de monumentoj',
+	'list-prolific-by-good-identifiers' => 'laŭ la nombro da identaĵoj en la listoj',
+	'list-prolific-by-bad-identifiers' => 'laŭ la nombro da identaĵoj ne en la listoj',
 	'province-heading' => 'Provinco',
 	'province-none' => '(Nesciata)',
+	'ccaa-heading' => 'K-oj aŭ-oj',
 	'nomail-user-count' => '$1 uzantoj',
 );
 
@@ -1914,6 +1941,7 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Ansumang
+ * @author Rajesh
  * @author Siddhartha Ghai
  * @author පසිඳු කාවින්ද
  */
@@ -1933,7 +1961,7 @@ $messages['hi'] = array(
 	'date-unknown' => 'अज्ञात',
 	'country-label' => 'देश:',
 	'all-countries' => 'सभी देश',
-	'limit-label' => 'छवियाँ दिखाएँ:',
+	'limit-label' => 'दिखाने के लिए छवियाँ:',
 	'timezone-label' => 'समयमंडल:',
 	'show-earlier-first' => 'पहले पुरानी छवियाँ दिखाएँ',
 	'show-older-first' => 'पहले पुरानी छवियाँ दिखाएँ',
@@ -3555,6 +3583,7 @@ $messages['roa-tara'] = array(
 	'id-label' => "ID d'u monumende:",
 	'date-format' => 'd-m-Y H:i:s',
 	'id-none' => '(Ninde)',
+	'monuments-by-photographers-checkbox' => 'Ordine le monuminde pe numere de fotografe, e no pe numere de fote.',
 	'monument-heading' => 'Monumende',
 	'count-heading' => 'Fotografije',
 	'photographer-count-heading' => 'Fotografe',
@@ -3577,9 +3606,11 @@ $messages['roa-tara'] = array(
 	'list-prolific-by-identifiers' => 'pe numere de idendificature de monuminde',
 	'list-prolific-by-good-identifiers' => "pe numere de idendificature jndr'à l'elenghe",
 	'list-prolific-by-bad-identifiers' => "pe numere de idendificature ca non ge stonne jndr'à l'elenghe",
+	'group-by-identifiers-all-countries-meaningless' => "'Nu sacche de pajesere non ge ausane le idendificature jndr'à le carecaminde lore, accussì chiste resultate sò probbabbilmende senze significate.",
 	'province-heading' => 'Provinge',
 	'province-none' => '(Scanusciute)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => "Elenghe de le utinde ca partecipane a Uicchi Ame le Monuminde $1 le quale non ge parene ca onne mannate l'indirizze e-mail.",
 	'nomail-user-count' => '$1 utinde',
 );
 

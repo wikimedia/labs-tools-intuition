@@ -46,12 +46,14 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Krinkle
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  * @author Toliño
  */
 $messages['qqq'] = array(
 	'title-overview' => 'Heading of overview page listing all repositories and branches',
-	'title-error' => 'Heading of page if action failed',
+	'title-error' => 'Heading of page if action failed.
+{{Identical|Error}}',
 	'download-button' => 'Label of the download button. Text is outputted below a down-arrow.
 
 * $1: Branch name',

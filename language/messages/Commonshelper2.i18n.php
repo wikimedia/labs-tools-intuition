@@ -2802,6 +2802,17 @@ $messages['no'] = array(
 	'help_commons' => '$1Legg til et innlegg på Commons$2',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'language' => 'Lenga',
+	'project' => 'Projècte',
+	'source_file' => 'Fichièr font',
+	'target_file' => 'Fichièr cibla',
+	'categories' => 'Categorias',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
@@ -3153,6 +3164,7 @@ $messages['roa-tara'] = array(
 	'original_wikitext' => 'Teste de Uicchi origgenale',
 	'new_wikitext' => 'Teste de Uicchi nuève',
 	'new_filename' => "Nome d'u file nuève:",
+	'output_information' => "Pe carecaminde manuale, cange 'u teste de sus (ce serve), reggistre $1'u file$2 sus a 'u combiuter tue, allore $3carecale$4.",
 	'upload_submit' => 'Careche!',
 	'target_wiki' => "'a uicchi de destinazione",
 	'standard_project' => 'uicchipèdie',
@@ -3161,6 +3173,7 @@ $messages['roa-tara'] = array(
 	'error_tusc_failed' => 'verifiche de TUSC fallite!',
 	'error_only_commons' => "'U carecamende dirette fatìe sulamende sus a UicchiMedia Commons!",
 	'upload_control_text' => 'Pe piacere verifeche \'u teste nuève e cazze "$1" ce jè tutte apposte!',
+	'error_commons_user' => "Pe idendificà l'utende ca trasferisce, 'u cunde utende tune de Uicchimedia Commons addà stà jndr'à descrizione!",
 	'error_upload_users' => "'A funzione de carecamende jè sulamende disponibbele pe certe utinde duranne 'u periode de test!",
 	'error_upload_file' => "'U file origgenale non ge pò essere scarecate.",
 	'help_intro' => "Quanne tu vuè cu signale 'nu bochere, consiglià 'na funzionalità o fà 'na domande, tu puè ausà une de le tipe de condatte aqquà sotte:",

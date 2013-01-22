@@ -1564,6 +1564,28 @@ $messages['no'] = array(
 	'view-source' => 'Vis kilde',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'hello' => 'Bonjorn',
+	'welcome' => 'Benvenguda',
+	'toolversionstamp' => 'Version $1 ($2)',
+	'etc' => 'etc.',
+	'namespace' => 'Espaci de noms',
+	'form-submit' => 'Validar',
+	'form-reset' => 'Reïnicializar',
+	'years' => '{{PLURAL: $1|annada|annadas}}',
+	'weeks' => '{{PLURAL: $1|setmana|setmanas}}',
+	'days' => '{{PLURAL: $1|jorn|jorns}}',
+	'hours' => '{{PLURAL:$1|ora|oras}}',
+	'minutes' => '{{PLURAL:$1|minuta|minutas}}',
+	'seconds' => '{{PLURAL:$1|segonda|segondas}}',
+	'last-modified-date' => 'Darrièra modificacion : $1',
+	'view-source' => 'Veire la font',
+	'and' => '&#32;e',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */

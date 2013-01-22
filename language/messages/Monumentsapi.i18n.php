@@ -2564,6 +2564,16 @@ $messages['no'] = array(
 	'filter-all-languages' => 'Alle språk',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'search-title' => 'Recèrca de monuments',
+	'search-monuments-database' => 'Recercar demest los monuments',
+	'search-table-th-field' => 'Camp',
+	'search-table-th-filter' => 'Filtre',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
@@ -3793,6 +3803,7 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'search-title' => '搜尋古蹟',
 	'search-monuments-database' => '搜尋古蹟資料庫',
+	'search-table-th-field' => '欄位',
 	'search-table-th-filter' => '過濾',
 	'search-table-th-search' => '搜尋',
 	'filter-all-countries' => '所有國家',
@@ -3809,6 +3820,7 @@ $messages['zh-hant'] = array(
 	'db-field-changed' => '已更改',
 	'db-field-source' => '來源',
 	'db-field-monument_article' => '古蹟的條目',
+	'db-field-registrant_url' => '註冊者的url',
 	'db-field-st_address' => '地址',
 	'db-field-st_address_pct' => '地址 %',
 	'db-field-st_coordinates' => '座標',
@@ -3819,12 +3831,18 @@ $messages['zh-hant'] = array(
 	'db-field-st_municipality_pct' => '市 %',
 	'db-field-st_name' => '名稱',
 	'db-field-st_name_pct' => '名稱 %',
+	'db-field-st_total' => '總數',
+	'toolbox-label-searchtipps' => '使用 %term 或 term% 或 %term% 來模糊搜尋',
+	'toolbox-meta-title' => '維基愛古蹟工具箱',
+	'toolbox-main-title' => 'WLM工具箱',
+	'toolbox-main-description' => '一套有關的工具',
 	'toolbox-wikilovesmonuments' => '維基愛古蹟',
 	'toolbox-nav-homepage' => '首頁',
 	'toolbox-nav-statistics' => '統計',
 	'toolbox-nav-search' => '搜尋',
 	'toolbox-title-searchmonuments' => '搜尋古蹟',
 	'location' => '位置',
+	'source-monuments-list-on-wikipedia' => '維基百科上古蹟列表的來源',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

@@ -690,6 +690,16 @@ $messages['zh-hans'] = array(
 	'error-form-empty' => '有了一个或多个必填的字段留空。在继续之前，您应该完成它们。',
 );
 
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'moretools' => '同一作者的其他工具',
+	'bugs' => '問題報告和功能請求',
+	'comments' => '意見和查詢',
+	'error-form-empty' => '有必填項目留空。請填上後繼續。',
+);
+
 /** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
  */

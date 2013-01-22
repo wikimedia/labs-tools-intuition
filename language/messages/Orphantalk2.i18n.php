@@ -468,7 +468,7 @@ $messages['diq'] = array(
 	'redirect' => 'Hetanayış ?',
 	'output' => 'Vıcyayış',
 	'update' => 'Noroc resn',
-	'tools-delete' => 'besterne',
+	'tools-delete' => 'bestere',
 	'tools-links' => 'gırey',
 	'tools-subject' => 'mersel',
 	'tools-hist' => 'ravyardê',
@@ -1987,6 +1987,8 @@ $messages['zh-hant'] = array(
 	'tools-curr' => '最新修訂',
 	'tools-globalusage' => '全域使用',
 	'deletesummary' => '使用$1清理孤立的討論頁',
+	'noresults' => '以你設定搜尋，該維基的名字空間內沒有孤立的討論頁。',
+	'resultslimited' => '結果只顯示$1頁。',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)
