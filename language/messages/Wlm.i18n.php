@@ -3579,6 +3579,8 @@ $messages['roa-tara'] = array(
 	'view-previous-images' => '← Vide immaggine cchiù vicchie',
 	'view-later-images' => 'Vide immaggine cchiù nuève →',
 	'images-listed-count' => '$1 immaggine elengate.',
+	'log-page-disclaimer' => "Stu strumende face vedè le file jndr'à [[:Category:$1|categorije rilevande]] 'a quale ha state carecate durande 'u condeste.
+Le file scangellate non g'avènene viste a meno che non ge stonne almene [$2 repristine] e ponne partecipà arrete.",
 	'bot' => 'Bot',
 	'id-label' => "ID d'u monumende:",
 	'date-format' => 'd-m-Y H:i:s',

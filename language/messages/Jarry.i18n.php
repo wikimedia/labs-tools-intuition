@@ -475,7 +475,7 @@ $messages['nl'] = array(
 	'error-form-empty' => 'Een of meer verplichte velden zijn leeg gelaten. U moet deze invullen voordat u verdergaat.',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

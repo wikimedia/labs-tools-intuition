@@ -2124,7 +2124,7 @@ $messages['nl'] = array(
 	'finalise' => 'Rond de details af',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -2424,11 +2424,13 @@ $messages['roa-tara'] = array(
 	'option-manual' => 'Carecamende a màne',
 	'preview' => 'Andeprime',
 	'translate' => 'Traduce',
+	'translate-instructions' => 'Le date in ingresse sò accettatte sie cumme nome de file (pe esembie "$1") o cumme URL comblete (pe esembie "$2"). Ce \'a prime opzione avène ausate, Uicchimedia Commons avène assunde cumme fonde. Pe traducere \'nu SVG da \'n\'otre site o uicchi, jè necessarie ausà \'u formate d\'a URL indere.',
 	'svginput-label' => 'File SVG',
 	'stats-footer' => 'Stu strumende avène ausate pe traducere approssimativamende $1 file da $2.',
 	'uploading' => 'Stoche a careche',
 	'upload-complete' => "'U carecamende ha state fatte. L'immaggine avessa stà sus a $1",
 	'editdescriptionpage' => "Cange 'a pàgena nove d'a descrizione",
+	'disclaimer' => 'Quacche date anonime avènene cugghiute in mode private pe fine statistece. Ce fornite, le nome utinde TUSC avènene reggistrate pe le case de vandalisme. Le passuord non ge avènene reggistrate.',
 	'author-complete' => "Pe piacere comblete le 'mbormaziune de l'autore!",
 	'preview-hide' => "Scunne l'andeprime",
 	'preview-refresh' => "Aggiorne l'andeprime",

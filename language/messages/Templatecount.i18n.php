@@ -801,7 +801,7 @@ $messages['nl'] = array(
 	'time-label' => 'Uitvoertijd van het commando',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

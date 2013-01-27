@@ -590,7 +590,7 @@ $messages['nl'] = array(
 	'output' => 'Uitvoer voor "$1"',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(

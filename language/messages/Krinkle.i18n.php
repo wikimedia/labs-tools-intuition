@@ -628,7 +628,7 @@ $messages['nl-informal'] = array(
 	'form-legend-settings' => 'Instellingen',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

@@ -2551,7 +2551,7 @@ $messages['nl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Monumentenbronlijst op Wikipedia',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

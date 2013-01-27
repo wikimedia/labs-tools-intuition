@@ -1597,7 +1597,7 @@ $messages['nn'] = array(
 	'help-translate-all' => 'Hjelp til med å setja om Toolserver!',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */

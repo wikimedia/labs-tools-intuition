@@ -2290,6 +2290,26 @@ $messages['roa-tara'] = array(
 	'image-area-too-big' => "$1 jè troppe granne pe ccrejà 'na miniature. Ause 'a dimenzione comblete.",
 	'download-info' => "{{plural: $1|stè 'n'immaggine|Stonne $1 immaggine}}, cu 'na dimenzione stimate de $2",
 	'download' => 'Scareche',
+	'readme-contents' => "'U file $4 tène 'n'elenghe de immaggine jndr'à $1 categorije ( $2 )$3.
+
+== 'Struziune pe scarecà tutte le immaggine elengate ==
+'U tiembe de scarecamende pò cangià da quacche minue e adiverse ore.
+
+Windows:
+ Estraje tutte le file jndr'à stessa cartelle e lange $5
+ $6
+Linux/Mac:
+ Estraje tutte le file e iapre 'nu terminale jndr'à quedda cartelle. Lange sh $5",
+	'non-bundled-wget' => "Note: Sta versione non ge 'nglude wget pe Windows. Tu puè avè abbesogne de decomprimere jndr'à 'na cartelle cu wget.exe oppure è wget jndr'à 'u PATH",
+	'wget-info' => "Stu file tène 'na copie de wget $1 (pe piattaforme Windows). Wget jè 'nu Softuare libbere, sotte a le termine 'a GNU GENERAL PUBLIC LICENSE versione 3.
+Stè 'na copie d'a licenze aqquà sotte, e jè pure disponibbele sus a http://www.gnu.org/licenses/gpl-3.0.txt
+
+Ce tu si inderessate a pigghià 'u codece sorgende pe stu programma, tu 'u puè scarecà da 
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+o pe otre Copie de GNU, 'ndruche
+ http://www.gnu.org/prep/ftp.html",
 	'scaling-width' => ", scalate a 'a massime larghezze de $1 {{plural:$1:pixel|pixel}}",
 	'scaling-height' => ", scalate a 'a massime altezze de $1 {{plural:$1:pixel|pixel}}",
 	'scaling-both' => ", scalate a 'a massima dimenzione de $1x$2 pixel",

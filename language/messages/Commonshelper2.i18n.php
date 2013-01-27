@@ -2751,7 +2751,7 @@ $messages['nl'] = array(
 	'help_commons' => '$1Bericht toevoegen op Wikimedia Commons$2',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */

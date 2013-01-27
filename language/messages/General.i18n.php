@@ -38,6 +38,7 @@ $messages['en'] = array(
  * @author Beta16
  * @author EugeneZelenko
  * @author Krinkle
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'dateformat' => '{{Optional}} Dateformat in this language. See documentation about [http://php.net/strftime strftime() at php.net] for the syntax.',
@@ -56,7 +57,8 @@ $messages['qqq'] = array(
 	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ).',
 	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ).',
 	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ).',
-	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advanced plural yet.',
+	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advanced plural yet.
+{{Identical|Minute}}',
 	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
@@ -1542,7 +1544,7 @@ $messages['nn'] = array(
 	'and' => '&#32;og',
 );
 
-/** Norwegian (bokmål) (norsk (bokmål)‎)
+/** no (norsk (bokmål)‎)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
