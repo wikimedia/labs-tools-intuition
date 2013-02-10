@@ -62,16 +62,17 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author DRIHEM
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'enter-details' => 'أدخل التفاصيل',
-	'introduction' => 'قم بإدخال إسم القالب (حاليا ويكيبيديا فقط) ثم أضغط على إذهب، بكل بساطة. هناك بعض التخزين المؤقت (لتذكر النتائج)، وهو خارج عن نطاق تكحم هذه الأداة ومالكها للأسف.',
+	'introduction' => 'أدخل اسم القالب (حاليا "ويكيبيديا" فقط المسموح) ثم أضغط "اذهب"، بكل بساطة. يجري بعض التخزين المخبئي (لتذكر النتائج) وهو خارج عن نطاق تحكم هذه الأداة و مالكها.',
 	'language-label' => 'اللغة',
-	'namespace-label' => 'النطاق',
-	'pagename-label' => 'اسم الصفحة (باستثناء النطاق)',
+	'namespace-label' => 'فضاء التسمية',
+	'pagename-label' => 'اسم الصفحة (باستثناء فضاء التسمية)',
 	'transclusion-count-label' => 'عدد التضمينات',
 	'transclusion-count' => 'تم العثور على $1 تضمين(ات).',
-	'error-suggestion' => 'لربما أخطأت في كتابة (أو أضفت حرفا أستهلاليا خاطئ) إسم الصفحة؟',
+	'error-suggestion' => 'لربما أخطأت في كتابة اسم الصفحة (أو لم تراع الأحرف اللاتينية الكبيرة)؟',
 	'time-label' => 'الوقت المستغرق في تنفيذ الأمر',
 );
 
@@ -757,7 +758,7 @@ $messages['mzn'] = array(
 	'language-label' => 'زوون',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -801,7 +802,7 @@ $messages['nl'] = array(
 	'time-label' => 'Uitvoertijd van het commando',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -1159,6 +1160,8 @@ $messages['zh-hans'] = array(
 	'language-label' => '语言',
 	'namespace-label' => '名字空间',
 	'pagename-label' => '页面名称（不包括命名空间）',
+	'transclusion-count-label' => '使用数目',
+	'transclusion-count' => '找到在$1页面上使用。',
 	'time-label' => '执行命令所需的时间',
 );
 

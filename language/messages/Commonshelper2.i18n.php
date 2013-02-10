@@ -174,12 +174,14 @@ $messages['am'] = array(
  * @author DRIHEM
  * @author Meno25
  * @author OsamaK
+ * @author Tarawneh
+ * @author أحمد
  */
 $messages['ar'] = array(
-	'attention' => 'انتباه',
-	'description' => 'أداة لنقل الملفات من مشاريع ويكيميديا إلى ويكيميديا كومونز',
-	'change_meta' => 'تغيير $1إعدادات التصانيف والقوالب$2 من أجل $3',
-	'jira_link' => 'بلغ عن علة أو اقترح خاصية',
+	'attention' => 'تنبيه',
+	'description' => 'أداة لنقل الملفات من مشروعات ويكيميديا إلى ويكيميديا كومونز',
+	'change_meta' => 'غيّر $1إعدادات التصنيفات و القوالب$2 لأجل $3',
+	'jira_link' => 'بلغ عن علة أو اقترح وظيفة',
 	'language' => 'اللغة',
 	'project' => 'المشروع',
 	'source_file' => 'الملف المصدر',
@@ -189,7 +191,7 @@ $messages['ar'] = array(
 	'move_file_from_com' => 'انقل الملف من ويكيميديا كومنز للمشروع',
 	'categories' => 'تصنيفات',
 	'remove_cats' => 'أزل التصنيفات الموجودة',
-	'use_checkusage' => 'استخدم $1CommonSense$2 لاقتراح تصانيف جديدة',
+	'use_checkusage' => 'استخدم $1CommonSense$2 لاقتراح تصنيفات جديدة',
 	'use_tusc' => 'استخدم $1TUSC$2 للمصادقة ونقل الملف مباشرة',
 	'tusc_user' => 'اسم مستخدم TUSC',
 	'tusc_pass' => 'كلمة سر TUSC',
@@ -199,24 +201,24 @@ $messages['ar'] = array(
 	'error_on_commons' => 'الملف المصدر موجود مسبقا على $1!',
 	'error_file_exists' => 'الملف موجود حالياً في $3 باسم "$1$4$2"!',
 	'error_diff_exists' => 'يوجد ملف مستهدف مختلف على ويكي الهدف تحت نفس الاسم!',
-	'error_no_meta' => 'تعذر العثور على بيانات التعريف المتعلقة بمصدر الويكي! $1رجاءا أضف/حدث بيانات التعريف للمشروع$2',
-	'error_meta_no_good' => 'البيانات الأولية: لم يتم العثور على قوالب جيدة! $1رجاءا أضف/حدث البيانات الأولية للمشروع$2',
-	'error_meta_bad' => 'البيانات الأولية: تم العثور على قوالب سيئة! $1رجاءا أضف/حدث البيانات الأولية للمشروع$2',
+	'error_no_meta' => 'تعذر العثور على البيانات الفوقية للويكي المصدر! $1أضف/حدث البيانات الفوقية للمشروع$2',
+	'error_meta_no_good' => 'البيانات الفوقية: لم يتم العثور على قوالب جيدة! $1أضف/حدث البيانات الفوقية للمشروع$2',
+	'error_meta_bad' => 'البيانات الفوقية: تم العثور على قالب سيئ! $1 رجاء أضف\\حدث البيانات الفوقية للمشروع$2',
 	'original_wikitext' => 'نص الويكي الأصلي',
 	'new_wikitext' => 'نص الويكي الجديد',
 	'new_filename' => 'اسم الملف الجديد:',
-	'output_information' => 'من أجل التحميل اليدوي، قم بتعديل النص أعلاه (إن دعت الحاجة لذلك)، إحفظ $1الملف$2 على جهازك، ثم $3قم بتحميله$4.',
-	'upload_submit' => 'رفع!',
+	'output_information' => 'للرفع اليدوي عدِّل النص أعلاه (إن دعت الحاجة لذلك) ثم احفظ $1الملف$2 على جهازك، ثم $3ارفعه$4.',
+	'upload_submit' => 'ارفع!',
 	'target_wiki' => 'الويكي الهدف',
-	'error_bot_blocked' => 'بوت الرفع ممنوع في ويكيميديا كومنز.',
-	'error_upload_meta' => 'لا يمكن التحميل مباشرة بسبب وجود مشكلة في البيانات الأولية (أنظر أعلاه) !',
+	'error_bot_blocked' => 'روبوت الرفع محظور في ويكيميديا كومنز.',
+	'error_upload_meta' => 'لا يمكن الرَّفع مباشرة بسبب وجود مشكلة في البيانات الفوقية (انظر أعلاه) !',
 	'error_tusc_failed' => 'فشل التحقق من TUSC!',
-	'error_only_commons' => 'التحميل المباشرة يعمل فقط على ويكيميديا كومنز!',
-	'upload_control_text' => 'رجاءا تفقد نص الويكي الجديد ثم أضغط على "$1" في حال كان كل شيئ بحالة جيدة!',
-	'error_commons_user' => 'لتعريف مستخدم النقل، يجب أن تذكر أسم المستخدم التابع لويكيميديا كومنز في الوصف!',
-	'error_upload_users' => 'عملية التحميل متوفرة فقط لبعض المستخدمين وذلك خلال فترة الإختبار!',
+	'error_only_commons' => 'الرفع المباشرة يعمل فقط على ويكيميديا كومنز.',
+	'upload_control_text' => 'تفقد نص الويكي الجديد ثم اضغط "$1" إن كان كل شيء على ما يُرام!',
+	'error_commons_user' => 'لتعريف المستخدم الناقل ينبغي أن تذكر اسم مستخدم ويكيميديا كومنز في الوصف!',
+	'error_upload_users' => 'وظيفة الرَّف متاحة لبعض المستخدمين فقط خلال فترة الاختبار!',
 	'error_upload_file' => 'الملف الأصلي لم يمكن تنزيله.',
-	'help_intro' => 'عندما تريد أن ترفع تقريرا بخلل ما، تشير إلى ميزة او تطرح سؤالا، يمكنك أستخدام إحدى أنواع الإتصال المتوفرة أدناه:',
+	'help_intro' => 'إن أردت رفع تقرير بعلِّة ما، أو اقتراح وظيفة أو طرح سؤال فاستخدام إحدى وسائل الاتصال المسرودة أدناه:',
 	'help_jira' => '$1JIRA (أنت في حاجة إلى حساب)$2 (المشروع: Commonshelper2)',
 	'help_mail' => 'أرسل بريدا إلكترونيا إلى $1',
 	'help_commons' => '$1أضف تعليقا على كومنز$2',
@@ -320,19 +322,31 @@ $messages['ast'] = array(
 
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
+ * @author Khan27
  * @author Vago
  */
 $messages['az'] = array(
 	'attention' => 'Diqqət',
 	'language' => 'Dil',
 	'project' => 'Layihə',
+	'source_file' => 'Mənbə faylı',
+	'target_file' => 'Hədəf faylı',
+	'commons_username' => 'Vikimedia Commons istifadəçi adı',
+	'commons_to_project' => 'Vikimedia Commons-dan layihəyə',
+	'move_file_from_com' => 'Faylı Vikimedia Commons-dan proyektə köçürün',
 	'categories' => 'Kateqoriyalar',
+	'remove_cats' => 'Mövcud kateqoriyaları silin',
 	'tusc_user' => 'TUSC istifadəçi adı',
 	'tusc_pass' => 'TUSC parolu',
 	'do_it' => 'Bunu et',
 	'original_wikitext' => 'Orijinal viki mətn',
 	'new_wikitext' => 'Yeni viki mətn',
 	'new_filename' => 'Yeni fayl adı:',
+	'error_upload_file' => 'Orijinal faylı yükləmək mümkün olmur.',
+	'help_intro' => 'Əgər siz səhv haqqında bildirmək, funksiyanı təklif etmək və ya sual vermək istəyirsinizsə, sşsğıdakı əlaqə yollarından istifadə edə bilərsiniz:',
+	'help_jira' => '$1JIRA (hesaba ehtiyacın var)$2 (Proyekt: Commonshelper2)',
+	'help_mail' => '$1 ünvanına bir e-poçt göndərin.',
+	'help_commons' => '$1Commons-da yazı əlavə et$2',
 );
 
 /** South Azerbaijani (تورکجه)
@@ -990,10 +1004,16 @@ $messages['dsb'] = array(
  * @author Glavkos
  */
 $messages['el'] = array(
+	'attention' => 'Προσοχή',
+	'description' => 'Ένα εργαλείο για τη μεταφορά αρχείων από τα εγχειρήματα του Wikimedia στα Κοινά',
+	'language' => 'Γλώσσα',
 	'project' => 'Έργο',
 	'source_file' => 'Αρχείο προέλευσης',
 	'target_file' => 'Αρχείο προορισμού',
 	'commons_username' => 'Όνομα χρήστη στο Wikimedia Commons',
+	'commons_to_project' => 'από τα Κοινά στο εγχείρημα',
+	'categories' => 'Κατηγορίες',
+	'remove_cats' => 'Απομάκρυνση υπαρχουσών κατηγοριών',
 	'do_it' => 'Κάντο',
 	'error_transfer_usr' => 'Δεν έχετε ορίσει ένα όνομα χρήστη στο Wikimedia Commons',
 	'error_not_exists' => 'Το αρχείο προέλευσης δεν υπάρχει!',
@@ -1002,6 +1022,7 @@ $messages['el'] = array(
 	'new_filename' => 'Νέο όνομα αρχείου:',
 	'upload_submit' => 'Φόρτωση!',
 	'target_wiki' => 'το wiki προορισμού',
+	'help_mail' => 'Αποστείλατε email στο $1',
 );
 
 /** Esperanto (Esperanto)
@@ -2596,7 +2617,7 @@ $messages['mzn'] = array(
 	'error_upload_file' => 'اصلی پرونده باربی‌یشته نوانه.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2751,7 +2772,7 @@ $messages['nl'] = array(
 	'help_commons' => '$1Bericht toevoegen op Wikimedia Commons$2',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */

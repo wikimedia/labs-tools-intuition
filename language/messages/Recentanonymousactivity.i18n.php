@@ -34,9 +34,10 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author أحمد
  */
 $messages['ar'] = array(
-	'title' => 'النشاط المجهول الحديث',
+	'title' => 'نشاط المجهولين الحديث',
 );
 
 /** Asturian (asturianu)
@@ -312,7 +313,7 @@ $messages['mt'] = array(
 	'title' => 'Attività anonima riċenti',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -327,7 +328,7 @@ $messages['nl'] = array(
 	'title' => 'Recente activiteit van anonieme gebruikers',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

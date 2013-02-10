@@ -87,18 +87,19 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author DRIHEM
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'title-overview' => 'لقطات',
 	'title-error' => 'خطأ',
-	'title-updatelog' => 'تحديث السجل',
-	'updatelog-intro' => 'سكريبت التحديث مبرمج للشتغيل كل ساعة. يوجد أدناه وحدة إخراج التشغيل الأخير.',
-	'updatelog-active' => 'سكريبت التحديث قيد التشغيل حاليا. عد لاحقا من أجل السجل الكامل.',
-	'download-button' => 'تحميل $1',
-	'download-directlink' => 'وصلة مباشرة',
-	'title-downloadpage' => 'تحميل: $1',
-	'downloadpage-directlink' => 'انقر هنا لتحميل اللقطة.',
-	'err-snapshotindex' => 'فهرس اللفطة غير متوفر مرقتا. الرجاء المحاولة لاحقا.',
+	'title-updatelog' => 'سجل التحديث',
+	'updatelog-intro' => 'سكربت التحديث مُجدوَل ليشتغل كل ساعة. المسرود أدناه مخرجات آخر تشغيلة.',
+	'updatelog-active' => 'سكربت التحديث قيد التشغيل حاليا. عد لاحقا لمطالعة سِجِلِّ الشغل كاملا.',
+	'download-button' => 'نزِّل $1',
+	'download-directlink' => 'رابط مباشر',
+	'title-downloadpage' => 'تنزيل: $1',
+	'downloadpage-directlink' => 'انقر هنا لتنزيل اللقطة.',
+	'err-snapshotindex' => 'فهرس اللقطات غير متاح مؤقتا. حاول لاحقا.',
 	'err-invalid-repo' => 'مستودع غير معروف: "$1".',
 	'err-invalid-branch' => 'فرع غير معروف: "$1" في مستودع "$2".',
 	'err-nosnapshot' => 'يتم إنشاء لقطات الصور كل بضع ساعات. حدث خطأ عند أنشاء لقطة "$1". الرجاء إعادة المحاولة لاحقا.',
@@ -108,7 +109,7 @@ $messages['ar'] = array(
 	'repo-branches-label' => 'الفروع:',
 	'repo-lastmoddate-label' => 'التاريخ:',
 	'branches-submit-button' => 'احصل عليه!',
-	'updatelog-link' => 'تحديث السجل',
+	'updatelog-link' => 'سِجِلُّ التحديث',
 	'tablehead-repo' => 'المستودع',
 	'tablehead-snapshots' => 'اللقطات',
 	'tablehead-branch' => 'الفرع',
@@ -1299,7 +1300,7 @@ $messages['mt'] = array(
 	'tablehead-hash' => 'Checksums',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Danmichaelo
  */
 $messages['nb'] = array(
@@ -1965,6 +1966,7 @@ $messages['vi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Hydra
  * @author Liangent
  */
 $messages['zh-hans'] = array(
@@ -1986,6 +1988,7 @@ $messages['zh-hans'] = array(
 	'repo-browse-link' => '浏览版本库',
 	'repo-branches-label' => '分支：',
 	'repo-lastmoddate-label' => '日期：',
+	'branches-submit-button' => '获取它！',
 	'updatelog-link' => '更新日志',
 	'tablehead-repo' => '版本库',
 	'tablehead-snapshots' => '快照',

@@ -109,23 +109,24 @@ $messages['am'] = array(
  * @author Mutarjem horr
  * @author OsamaK
  * @author Zanatos
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'hello' => 'أهلاّ بك',
 	'welcome' => 'مرحبا',
 	'toolversionstamp' => 'الإصدار $1 ($2)',
-	'etc' => 'و إلى آخره',
-	'namespace' => 'النطاق',
+	'etc' => 'إلخ.',
+	'namespace' => 'فضاء التسمية',
 	'form-submit' => 'اذهب',
-	'form-reset' => 'إعادة ضبط',
-	'years' => '{{PLURAL: $1||سنة واحدة|سنتان|$1 سنين|$1 سنة}}',
-	'weeks' => '{{PLURAL:$1||أسبوع واحد|أسبوعان|$1 أسابيع|$1 أسبوعًا|$1 أسبوع}}',
+	'form-reset' => 'صفِّر',
+	'years' => '{{PLURAL: $1||سنة|سنتان|$1 سنين|$1 سنة}}',
+	'weeks' => '{{PLURAL:$1||أسبوع|أسبوعان|$1 أسابيع|$1 أسبوعًا|$1 أسبوع}}',
 	'days' => '{{PLURAL: $1|يوم|يوم}}',
 	'hours' => '{{PLURAL: $1|ساعة|ساعة}}',
 	'minutes' => '{{PLURAL: $1|دقيقة|دقائق}}',
-	'seconds' => '{{PLURAL: $1|ثانية|ثواني}}',
+	'seconds' => '{{PLURAL: $1|ثانية|ثوان}}',
 	'last-modified-date' => 'آخر تغيير: $1',
-	'view-source' => 'شاهد المصدر',
+	'view-source' => 'طالع المصدر',
 	'and' => '&#32; و',
 );
 
@@ -192,11 +193,16 @@ $messages['ast'] = array(
 
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
+ * @author Khan27
  * @author Wertuose
  */
 $messages['az'] = array(
 	'hello' => 'Salam',
+	'welcome' => 'Xoş gəlmisiniz',
+	'toolversionstamp' => 'Versiya $1 ($2)',
+	'etc' => 'vs.',
 	'namespace' => 'Adlar fəzası',
+	'form-submit' => 'Keçmək',
 	'form-reset' => 'Qur',
 	'years' => '{{PLURAL: $1|il|il}}',
 	'weeks' => '{{PLURAL: $1|həftə|həftə}}',
@@ -206,6 +212,7 @@ $messages['az'] = array(
 	'seconds' => '{{PLURAL: $1|saniyə|saniyə}}',
 	'last-modified-date' => 'Sonuncu düzəliş: $1',
 	'view-source' => 'Mənbəyə bax',
+	'and' => '&#32;və',
 );
 
 /** South Azerbaijani (تورکجه)
@@ -368,6 +375,7 @@ $messages['br'] = array(
 	'seconds' => '{{PLURAL: $1|eilenn|eilenn}}',
 	'last-modified-date' => 'Kemmet da ziwezhañ : $1',
 	'view-source' => 'Sellet ouzh tarzh an destenn',
+	'and' => '&#32;ha(g)',
 );
 
 /** Bosnian (bosanski)
@@ -581,6 +589,7 @@ $messages['el'] = array(
 	'welcome' => 'Καλώς ορίσατε',
 	'toolversionstamp' => 'Έκδοση $1 ($2)',
 	'etc' => 'κλπ.',
+	'namespace' => 'Ονοματοχώρος',
 	'form-submit' => 'Μετάβαση',
 	'form-reset' => 'Επαναφορά',
 	'years' => '{{PLURAL: $1|έτος|έτη}}',
@@ -1460,7 +1469,7 @@ $messages['my'] = array(
 	'view-source' => 'ရင်းမြစ်ကို ကြည့်ရန်',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1537,14 +1546,14 @@ $messages['nl'] = array(
 	'and' => '&#32;en',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Platonides
  */
 $messages['nn'] = array(
 	'and' => '&#32;og',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */

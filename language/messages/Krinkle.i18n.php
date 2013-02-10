@@ -56,12 +56,13 @@ $messages['am'] = array(
 /** Arabic (العربية)
  * @author Abanima
  * @author Meno25
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'alws-label' => 'ويكي',
 	'alws-selectwiki' => '(اختر ويكي)',
-	'alws-group-mustused' => 'أكثر الويكيات استخداماً',
-	'alws-group-allaz' => 'كل الويكيات أبجدياً',
+	'alws-group-mustused' => 'أكثر الويكيات استخدامًا',
+	'alws-group-allaz' => 'كل الويكيات أبجديًا',
 	'form-legend-settings' => 'الإعدادات',
 );
 
@@ -587,7 +588,7 @@ $messages['mt'] = array(
 	'form-legend-settings' => 'Konfigurazzjoni',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -628,7 +629,7 @@ $messages['nl-informal'] = array(
 	'form-legend-settings' => 'Instellingen',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

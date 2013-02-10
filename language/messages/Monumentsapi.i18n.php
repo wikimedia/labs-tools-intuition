@@ -167,6 +167,7 @@ $messages['am'] = array(
  * @author DRIHEM
  * @author Meno25
  * @author OsamaK
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'search-title' => 'بحث الآثار',
@@ -188,7 +189,7 @@ $messages['ar'] = array(
 	'db-field-changed' => 'غير',
 	'db-field-source' => 'المصدر',
 	'db-field-monument_article' => 'مقالة آثار',
-	'db-field-registrant_url' => 'رابط التسجيل',
+	'db-field-registrant_url' => 'مسارُ السِّجِلِّ',
 	'db-field-st_address' => 'عناوين',
 	'db-field-st_address_pct' => 'عناوين%',
 	'db-field-st_coordinates' => 'إحداثيات',
@@ -325,8 +326,12 @@ $messages['ast'] = array(
 
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
+ * @author Khan27
  */
 $messages['az'] = array(
+	'search-title' => 'Abidələr axtar',
+	'search-monuments-database' => 'Abidələri məlumat bazasında axtar',
+	'search-table-th-field' => 'Sahə',
 	'search-table-th-filter' => 'Filtrlər',
 	'search-table-th-search' => 'Axtar',
 );
@@ -2434,7 +2439,7 @@ $messages['mt'] = array(
 	'location' => 'Post',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2551,7 +2556,7 @@ $messages['nl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Monumentenbronlijst op Wikipedia',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -3768,6 +3773,8 @@ $messages['zea'] = array(
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'search-title' => '搜寻古迹',
+	'search-monuments-database' => '搜寻古迹资料库',
 	'search-table-th-field' => '字段',
 	'search-table-th-filter' => '筛选器',
 	'search-table-th-search' => '搜索',
@@ -3778,22 +3785,34 @@ $messages['zh-hans'] = array(
 	'db-field-id' => '标识符',
 	'db-field-name' => '名称',
 	'db-field-address' => '地址',
+	'db-field-municipality' => '市',
 	'db-field-lat' => '纬度',
 	'db-field-lon' => '经度',
 	'db-field-image' => '图像',
 	'db-field-changed' => '已更改',
 	'db-field-source' => '来源',
+	'db-field-monument_article' => '古迹的条目',
+	'db-field-registrant_url' => '注册者的网址',
+	'db-field-st_address' => '地址',
+	'db-field-st_address_pct' => '地址 %',
 	'db-field-st_coordinates' => '坐标',
 	'db-field-st_coordinates_pct' => '坐标 %',
 	'db-field-st_image' => '图像',
 	'db-field-st_image_pct' => '图像 %',
+	'db-field-st_municipality' => '市',
+	'db-field-st_municipality_pct' => '市 %',
 	'db-field-st_name' => '名称',
 	'db-field-st_name_pct' => '名称 %',
+	'db-field-st_total' => '总数',
 	'toolbox-main-title' => 'WLM工具箱',
+	'toolbox-main-description' => '一套有关的工具',
+	'toolbox-wikilovesmonuments' => '维基爱古迹',
 	'toolbox-nav-homepage' => '首页',
 	'toolbox-nav-statistics' => '统计',
 	'toolbox-nav-search' => '搜索',
+	'toolbox-title-searchmonuments' => '寻找古迹',
 	'location' => '位置',
+	'source-monuments-list-on-wikipedia' => '维基百科上古迹列表的来源',
 );
 
 /** Traditional Chinese (中文（繁體）‎)

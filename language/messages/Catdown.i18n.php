@@ -152,50 +152,51 @@ $messages['am'] = array(
 /** Arabic (العربية)
  * @author DRIHEM
  * @author OsamaK
+ * @author أحمد
  */
 $messages['ar'] = array(
-	'title' => 'تحميل الصور حسب الفئة',
-	'subtitle' => 'أسهل طريقة لتحميل الصور في فئة',
+	'title' => 'تنزيل الصور حسب التصنيف',
+	'subtitle' => 'أسهل طريقة لتنزيل الصور في تصنيف',
 	'project' => 'المشروع:',
-	'category' => 'الفئة:',
-	'thumbnailing' => 'عملية التصغير',
+	'category' => 'التصنيف:',
+	'thumbnailing' => 'توليد المُصَغَّرات',
 	'max-width' => 'العرض الأقصى:',
-	'max-height' => 'الإرتفاع الأقصى:',
+	'max-height' => 'الطول الأقصى:',
 	'invalid-width' => 'عرض غير مقبول',
 	'invalid-height' => 'طول غير مقبول',
 	'no-such-project' => 'لا وجود لهذا المشروع',
-	'no-images' => 'لا توجد صور في تلك الفئة',
-	'category-is-url' => 'الإسم المقدم يشبه رابط موقع. يجب عليك تحديد أسم الفئة، وليس رابطها.',
-	'category-contains-namespace' => 'يبدو أنك قد أضفت مساحة الإسم مع أسم الفئة. بهذا الإسم، ستتوفر الصفحة كـ [[Category:$1]].',
-	'zip-failed' => 'فشل إنشاء الـ Zip',
-	'image-area-too-big' => '$1 كبير جدا لتكوين صورة مصغرة. سيتم أستخدام الحجم الكامل.',
-	'download-info' => '{{plural: $1|هناك صورة واحدة|هناك $1 صور}}، بحجم يقدر بـ $2',
-	'download' => 'تحميل',
+	'no-images' => 'لا توجد صور في ذلك التصنيف',
+	'category-is-url' => 'اسم التصنيف المُعطى يبدو كأنه مسار إنترنت. ينبغي إدخال اسم التصنيف، لا مساره.',
+	'category-contains-namespace' => 'يبدو أنك قد ضمَّنتَ فضاء تسمية مع اسم التصنيف. بهذا الاسم، ستُعرضُ الصفحة بالعنوان [[Category:$1]].',
+	'zip-failed' => 'فشل إنشاء ملف Zip',
+	'image-area-too-big' => 'الملف $1 حجمه أكبر مما يمكن توليد صورة مصغرة منه في هذا النظام. ستُعرض الصورة بأبعادها الأصلية.',
+	'download-info' => '{{plural: $1|توجد ملف صورة واحدة|توجد ملفات $1 صور}}، حجمها مقداره $2',
+	'download' => 'تنزيل',
 	'readme-contents' => 'ملف الإرفاق $4 قوائم
-الصور في $1 الفئة ( $2 )$3.
+صور من التصنيف $1 ( $2 )$3.
 
-== تعليمات تحميل جميع الصور المدرجة ==
-قد يختلف وقت التحميل من بضع دقائق إلى عدة ساعات.
+== تعليمات تنزيل كل الصور المدرجة ==
+قد يتراوح وقت التنزيل ما بين بضع دقائق إلى عدة ساعات، حسب حجم الملفات و سرعة الاتصال بالإنترنت.
 
-Windows:
- أستخرج كل الملفات في نفس الملف وقم بتشغيل $5
+وِندوز:
+ استخرج كل الملفات في نفس الدليل و شغِّل $5
  $6
-Linux/Mac OS
- استخرج كل الملفات وافتح معبرا في الملف. قم بتشغيل sh $5',
-	'non-bundled-wget' => 'ملاحظة: هذه النسخة لا تحتوي على wget الويندوز. ستحتاج لفك الضغط إلى مجلد بواسطة wget.exe أو أن يتوفر لديك wget في ذلك المسار',
-	'wget-info' => 'يجمع هذا الملف نسخة من wget $1 (لنظام الويندوز). Wget برنامج مجاني،
-متوفر تحت شروط رخصة GNU العمومية النسخة 3.
-يوجد نسخة من الترخيص أسفله، وتتوافر أيضا على الموقع http://www.gnu.org/licenses/gpl-3.0.txt
+لينُكس و ماك أوإس:
+ استخرج كل الملفات وافتح طرفية في الدليل ثم شغِّل "sh $5"',
+	'non-bundled-wget' => 'ملاحظة: هذه الإصدارة لا تضم برمجية wget لوندوز. ستحتاج لاستخراج الملفات من الأرشيف إلى دليل فيه wget.exe أو أن يكون wget في مسار التطبيقات المُعرَّف.',
+	'wget-info' => 'يضُمُّ هذا الملف نسخة من wget $1 (لنظام ويندوز). Wget برمجية حُرَّة
+منشورة برخصة GNU العمومية، الإصدارة 3.
+توجد نسخة من نصِّ الترخيص فيما يلي، كما أنها منشورة على الموقع http://www.gnu.org/licenses/gpl-3.0.txt
 
-في حال كنت مهتما بالحصول على شفرة المصدر لهذا البرنامج، يمكنك تحميلها من المواقع التالية
+إذا أردت الحصول على الكود المصدري لهذه البرمجية فيمكنك تنزيلها من أيِّ من المواقع التالية
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
-أو مواقع جنو مشابهة، أنظر
+أو مواقع مرآوات گنو غيرها، أنظر
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => '، تم تحديد العرض الأقصى لـ $1 {{plural:$1|pixel|pixels}}',
-	'scaling-height' => '، تم تحديد الإرتفاع القصى لـ $1 {{plural:$1|pixel|pixels}}',
-	'scaling-both' => '، تم تحديد الحجم الأقصى لـ $1x$2 pixels',
+	'scaling-width' => '، مُحَجّمة ليكون العرض الأقصى لكلِّ منها $1 {{plural:$1|عنصورة|عنصورة}}', # Fuzzy
+	'scaling-height' => '، مُحَجّمة ليكون الطول الأقصى لكلِّ منها $1 {{plural:$1|عنصورة|عنصورة}}', # Fuzzy
+	'scaling-both' => '، مُحجَّمة إلى الأبعاد القصوى $1x$2 عنصورة',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -272,6 +273,25 @@ o en dalgún otru espeyu de GNU, visita
 	'scaling-width' => ', escalaes a un anchor máximu de $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => ', escalaes a un altor máximu de $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', escalaes a un tamañu máximu de $1x$2 pixels',
+);
+
+/** Azerbaijani (azərbaycanca)
+ * @author Khan27
+ */
+$messages['az'] = array(
+	'title' => 'Kateqoriya üzrə şakilləri yüklə',
+	'subtitle' => 'Kateqoriyadakı şəkilləri asan yolla yüklə',
+	'project' => 'Layihə:',
+	'category' => 'Kateqoriya:',
+	'thumbnailing' => 'Kiçik rəsim',
+	'max-width' => 'Maksimum eni:',
+	'max-height' => 'Maksimum hündürlüyü:',
+	'invalid-width' => 'Yanlış en',
+	'invalid-height' => 'Yanlış hündürlük',
+	'no-such-project' => 'Belə layihə mövcud deyil',
+	'no-images' => 'Bu kateqoriyada heç bir şəkil yoxdur',
+	'category-is-url' => 'Kateqoriyanın adı URL ünvanı kimi görünür. Kateqoriyanın adını müəyyən edin, ancaq URL ünvanı kimi yox.',
+	'zip-failed' => 'Zip yaradılması uğursuz oldu',
 );
 
 /** South Azerbaijani (تورکجه)
@@ -776,6 +796,21 @@ Su teke druge glědałkowe GNU-serwery, glědaj
 	'scaling-width' => ', na maksimalnu šyrokosć $1 {{plural:$1|piksela|pikselowu|pikselow}} skalěrowane',
 	'scaling-height' => ', na maksimalnu wusokosć $1 {{plural:$1|piksela|pikselowu|pikselow}} skalěrowane',
 	'scaling-both' => ', na maksimalnu wjelilkosć $1x$2 pikselow skalěrowane',
+);
+
+/** Greek (Ελληνικά)
+ * @author Glavkos
+ */
+$messages['el'] = array(
+	'project' => 'Εγχείρημα:',
+	'category' => 'Κατηγορία:',
+	'max-width' => 'Μέγιστο πλάτος:',
+	'max-height' => 'Μέγιστο ύψος:',
+	'invalid-width' => 'Μη έγκυρο πλάτος',
+	'invalid-height' => 'Μη έγκυρο ύψος',
+	'no-such-project' => 'Δεν υπάρχει τέτοιο εγχείρημα',
+	'no-images' => 'Δεν υπάρχουν εικόνες σε αυτή την κατηγορία',
+	'download' => 'Λήψη',
 );
 
 /** Esperanto (Esperanto)

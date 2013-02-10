@@ -68,20 +68,21 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author DRIHEM
+ * @author أحمد
  * @author ترجمان05
  */
 $messages['ar'] = array(
-	'toolserver-status-ok' => 'لا توجد مشاكل في قاعدة بيانات الكتلة $1 $2',
-	'toolserver-status-info' => 'إشعار لمستخدمي الكتلة $1: $2',
-	'toolserver-status-warn' => 'تحذير لمستخدمي الكتلة $1: $2',
-	'toolserver-status-down' => 'ثم إيقاف قاعدة بيانات الكتلة $1 مؤقتا. $2',
-	'toolserver-status-erro' => 'قاعدة بيانات الكتلة $1 متوقفة عن العمل. $2',
-	'toolserver-status-unknown' => 'حالة غير معروف للكتلة $1',
-	'toolserver-status-missing' => 'الكتلة $1 غير موجودة',
-	'toolserver-status-short-ok' => '$1: حسنا',
+	'toolserver-status-ok' => 'لا توجد مشاكل في عنقود قاعدة البيانات $1 $2',
+	'toolserver-status-info' => 'تنبيه لمستخدمي العنقود $1: $2',
+	'toolserver-status-warn' => 'تحذير لمستخدمي العنقود $1: $2',
+	'toolserver-status-down' => 'ثم إيقاف عنقود قاعدة البيانات $1 مؤقتا. $2',
+	'toolserver-status-erro' => 'عنقود قاعدة البيانات $1 متعطِّل عن العمل. $2',
+	'toolserver-status-unknown' => 'حالة العنقود $1 غير معروفة',
+	'toolserver-status-missing' => 'العنقود $1 غير موجود',
+	'toolserver-status-short-ok' => '$1: بخير',
 	'toolserver-status-short-info' => '$1: معلومات',
-	'toolserver-status-short-warn' => '$1: يحذّّر',
-	'toolserver-status-short-down' => '$1: أسفل',
+	'toolserver-status-short-warn' => '$1: حذر',
+	'toolserver-status-short-down' => '$1: عاطل',
 	'toolserver-status-short-erro' => '$1: خطأ',
 	'toolserver-status-short-unknown' => '$1: مجهول',
 	'toolserver-status-short-missing' => '$1: مفقود',
@@ -766,6 +767,7 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'toolserver-status-short-info' => '$1: Agahî',
 	'toolserver-status-short-unknown' => '$1: Nenas',
 );
 
@@ -855,7 +857,7 @@ $messages['mt'] = array(
 	'toolserver-status-short-missing' => '$1: Nieqes',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Danmichaelo
  */
 $messages['nb'] = array(

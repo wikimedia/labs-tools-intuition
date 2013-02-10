@@ -89,26 +89,27 @@ $messages['af'] = array(
  * @author DRIHEM
  * @author Meno25
  * @author OsamaK
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(اختر ويكي أولا)',
-	'hideredirects' => 'إخفاء التحويلات',
-	'hidesubpages' => 'إخفاء الصفحات الفرعية',
+	'hideredirects' => 'أخفِ التحويلات',
+	'hidesubpages' => 'أخفِ الصفحات الفرعية',
 	'limit' => 'حد',
 	'page' => 'الصفحة',
-	'redirect' => 'هل تحويلة؟',
+	'redirect' => 'تحويلة؟',
 	'output' => 'مخرج',
 	'update' => 'حدّث',
-	'tools-delete' => 'حذف',
-	'tools-links' => 'وصلات',
+	'tools-delete' => 'احذف',
+	'tools-links' => 'روابط',
 	'tools-subject' => 'موضوع',
 	'tools-hist' => 'تاريخ',
 	'tools-curr' => 'حالي',
 	'tools-globalusage' => 'استخدام عام',
 	'deletesummary' => 'تنظيف صفحات النقاش اليتيمة عن طريق $1',
-	'noresults' => 'لم يتم إيجاد أي تطابق لإعداداتك  مع صفحات النقاش اليتيمية في هذا الويكي  وبمساحة الإسم هذه.',
-	'resultslimited' => 'أقتصرت النتائج على $1 صفحات.',
+	'noresults' => 'لا توجد صفحات نقاش يتيمة في هذا الويكي في فضاء التسمية هذا مما يطابق إعداداتك.',
+	'resultslimited' => 'حُدِّدَ عدد النتائج بما لا يزيد على $1 صفحات.',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -1273,7 +1274,7 @@ $messages['mt'] = array(
 	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'title' => 'Foreldreløse diskusjonssider 2',
@@ -1329,7 +1330,7 @@ $messages['nl'] = array(
 	'resultslimited' => "Er worden maximaal $1 pagina's weergegeven.",
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(

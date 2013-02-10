@@ -51,13 +51,14 @@ $messages['af'] = array(
 /** Arabic (العربية)
  * @author DRIHEM
  * @author Meno25
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'formats-heading' => 'صيغ المخرجات',
 	'input' => 'مدخل',
-	'label-wikiids' => 'معرفات الويكي',
-	'no-matches' => 'لم يتوفر أي شبيه لـ "$1"',
-	'output' => 'النتيجة لـ "$1"',
+	'label-wikiids' => 'مُعَرَِّفات الويكي',
+	'no-matches' => 'لم يطابق شيء "$1"',
+	'output' => 'مخرجات "$1"',
 );
 
 /** Assamese (অসমীয়া)
@@ -81,6 +82,17 @@ $messages['ast'] = array(
 	'label-wikiids' => 'Identificadores na Wiki',
 	'no-matches' => 'Res nun casa con "$1"',
 	'output' => 'Salida pa "$1"',
+);
+
+/** Azerbaijani (azərbaycanca)
+ * @author Khan27
+ */
+$messages['az'] = array(
+	'formats-heading' => 'Çıxış formatları',
+	'input' => 'Giriş',
+	'label-wikiids' => 'Viki tanımlayıcıları',
+	'no-matches' => '"$1" ilə uyğunluq yoxdur',
+	'output' => '"$1" üçün çıxış',
 );
 
 /** South Azerbaijani (تورکجه)
@@ -557,7 +569,7 @@ $messages['mt'] = array(
 	'output' => 'Riżultat għal "$1"',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'formats-heading' => 'utdataformater',
@@ -590,7 +602,7 @@ $messages['nl'] = array(
 	'output' => 'Uitvoer voor "$1"',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(

@@ -38,12 +38,13 @@ $messages['qqq'] = array(
 /** Arabic (العربية)
  * @author DRIHEM
  * @author Meno25
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'moretools' => 'مزيد من الأدوات من نفس المؤلف',
 	'bugs' => 'تقارير الاخطاء والطلبات المميزة',
 	'comments' => 'تعليقات واستعلامات',
-	'error-form-empty' => 'تم ترك حقل فارغ أو أكثر. يجب عليك أنهاؤها قبل المتابعة.',
+	'error-form-empty' => 'أُغفِلَ حقل أو أكثر. ينبغي ملء كل الحقول للمواصلة.',
 );
 
 /** Assamese (অসমীয়া)
@@ -64,6 +65,16 @@ $messages['ast'] = array(
 	'bugs' => 'informar de fallos y pidir carauterístiques',
 	'comments' => 'comentarios y consultes',
 	'error-form-empty' => 'Un campu necesariu o más quedaron baleros. Tienes de completalos enantes de siguir.',
+);
+
+/** Azerbaijani (azərbaycanca)
+ * @author Khan27
+ */
+$messages['az'] = array(
+	'moretools' => 'bu müəllifin başqa alətləri',
+	'bugs' => 'xəta hesabatları və özəl sorğular',
+	'comments' => 'şərhlər və sorğular',
+	'error-form-empty' => 'Bir və ya bir neçə məcburi sahə boş qoyulub. Siz onları davam etməzdən əvvəl doldurmalısınız.',
 );
 
 /** South Azerbaijani (تورکجه)
@@ -399,6 +410,14 @@ $messages['lb'] = array(
 	'error-form-empty' => 'Eent oder méi obligatoresch Felder goufen eidel gelooss. Dir musst déi ausfëllen ier Dir virufuere kënnt.',
 );
 
+/** Lezghian (лезги)
+ * @author Namik
+ */
+$messages['lez'] = array(
+	'moretools' => 'маса jаракъ и уртахдин',
+	'comments' => 'суалар ни веревердар',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  */
@@ -445,7 +464,7 @@ $messages['mt'] = array(
 	'error-form-empty' => 'Waħda jew iktar oqsma obbligatorji tħallew vojta. Trid timliehom qabel ma tkompli.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -475,7 +494,7 @@ $messages['nl'] = array(
 	'error-form-empty' => 'Een of meer verplichte velden zijn leeg gelaten. U moet deze invullen voordat u verdergaat.',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

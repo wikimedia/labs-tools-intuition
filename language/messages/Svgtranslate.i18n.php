@@ -132,15 +132,16 @@ $messages['af'] = array(
  * @author DRIHEM
  * @author Meno25
  * @author OsamaK
+ * @author أحمد
  * @author ترجمان05
  */
 $messages['ar'] = array(
-	'error-tryagain' => '$1 قم بالضغط على زر الرجوع في المتصفح لإعادة المحاولة.',
-	'error-nothing' => 'لا شيء للترجمة.',
+	'error-tryagain' => '$1 اضغط زر الرجوع في المتصفح لإعادة المحاولة.',
+	'error-nothing' => 'لا شيء لترجمته.',
 	'error-notsvg' => 'ليس بملف SVG.',
-	'error-unexpected' => 'خطأ غير متوقع حدث.',
-	'error-notfound' => 'تعذر أستخراج ملف الـ SVG من الرابط المقدم.',
-	'error-upload' => 'حدث خطأ أثناء التحميل.',
+	'error-unexpected' => 'طرأ خطأ غير متوقع.',
+	'error-notfound' => 'تعذر جلبُ ملف SVG من المسار المُعطى.',
+	'error-upload' => 'حدث خطأ أثناء الرّفع.',
 	'begin-translation' => 'ابدأ الترجمة',
 	'th-original' => 'أصلي',
 	'th-translation' => 'الترجمة',
@@ -150,19 +151,19 @@ $messages['ar'] = array(
 	'th-method' => 'وسيلة',
 	'option-tusc' => 'TUSC (التحميل التلقائي)',
 	'option-manual' => 'رفع يدوي',
-	'preview' => 'عرض مسبق',
+	'preview' => 'استعرِض',
 	'translate' => 'ترجم',
-	'translate-instructions' => 'يتم قبول المدخلات كأسماء ملفات (على سبيل المثال "$1") أو روابط مواقع كاملة (على سبيل المثال "$2"). إذا تم أستخدام الخيار الأول، سيتم أعتبار ويكيميديا كمصدر. لترجمة SVG من موقع أو ويكي آخر، وجب عليك أستخدام صيغة الرابط الإلكتروني الكامل.',
+	'translate-instructions' => 'يتم قبول المدخلات كأسماء ملفات (على سبيل المثال "$1") أو مسارات كاملة (على سبيل المثال "$2"). إذا ما لجأت للخيار الأول فإن ويكيميديا كُمُنْزْ ستحسب أنها المصدر. لترجمة SVG من موقع أو ويكي غير كُمُنْزْ يجب عليك استخدام صيغة المسار الكامل.',
 	'svginput-label' => 'ملف SVG',
-	'stats-footer' => 'تم أستخدام هذه الأداة لترجمة ما يقارب $1 ملف منذ $2.',
-	'uploading' => 'يرفع',
-	'upload-complete' => 'انتهت علمية الرفع بنجاح. يجب أن تكون الصورة الآن في $1',
+	'stats-footer' => 'تم استخدام هذه الأداة لترجمة ما يقارب $1 ملفا منذ $2.',
+	'uploading' => 'يجري الرفع',
+	'upload-complete' => 'تم الرفع بنجاح. ينبغي أن تكون الصورة الآن في $1',
 	'editdescriptionpage' => 'عدل صفحة الوصف الجديدة',
-	'disclaimer' => 'سيتم جمع بعض البيانات المجهولة بشكل خاص لأغراض إحصائية. كما سيتم تسجيل أسماء المستخدمين التابعة لـ TUSC  أيضا للمساعدة في حال وقوع أعمال تخريب، إذا توفرت. و لن يتم تسجيل الكلمات السرية مطلقا.',
-	'author-complete' => 'الرجاء إكمال معلومات المؤلف!',
+	'disclaimer' => 'سيتم جمع بعض البيانات المُجَهَّلَة لأغراض إحصائية، كما سيتم تسجيل أسماء مستخدمي TUSC - إن أُعطيت - للمعونة في حال وقوع تخريب. كلمات السِّرِّ لا يتم تسجيلها مطلقا.',
+	'author-complete' => 'استكمل بيانات المؤلف.',
 	'preview-hide' => 'أخفِ المعاينة',
 	'preview-refresh' => 'أنعش المعاينة',
-	'error-must-accept' => 'للإستمرار في التحميل المباشر يجب عليك قبول شروط الإستخدام المقدمة.',
+	'error-must-accept' => 'للمواصلة في الرفع المباشر يجب عليك قبول شروط الاستخدام المقدمة.',
 	'error-tusc-failed' => 'فشل التحقق من صحة الـ TUSC: اسم المستخدم أو كلمة المرور غير صحيحة.',
 	'description-license' => 'اختر وصفا ورخصة',
 	'finalise' => 'إنهاء التفاصيل',
@@ -181,6 +182,8 @@ $messages['arc'] = array(
 	'th-method' => 'ܫܒܝܠܐ',
 	'preview' => 'ܚܝܪܐ ܩܕܡܝܐ',
 	'translate' => 'ܬܪܓܡ',
+	'preview-hide' => 'ܛܫܝ ܚܝܪܐ ܩܕܡܝܐ',
+	'preview-refresh' => 'ܦܪܓܝ ܚܝܪܐ ܩܕܡܝܐ',
 );
 
 /** Assamese (অসমীয়া)
@@ -1975,7 +1978,7 @@ $messages['mzn'] = array(
 	'th-language' => 'زوون',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2124,7 +2127,7 @@ $messages['nl'] = array(
 	'finalise' => 'Rond de details af',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
@@ -2609,7 +2612,7 @@ $messages['sr-ec'] = array(
 	'th-method' => 'Начин',
 	'option-tusc' => 'TUSC (самоотпремање)',
 	'option-manual' => 'Ручно отпремање',
-	'preview' => 'Прегледај',
+	'preview' => 'Прикажи претпреглед',
 	'translate' => 'Преведи',
 	'translate-instructions' => 'Уноси се прихватају као називи датотека („$1“) или као цела адреса („$2“). Ако изаберете прву могућност, Викимедијина остава ће бити изабрана као извор. Да бисте превели SVG датотеку с другог мрежног места или викија, користите целу адресу.',
 	'svginput-label' => 'SVG датотека',
@@ -3025,7 +3028,7 @@ $messages['vi'] = array(
 	'error-tryagain' => '$1 Bấm nút Lùi của trình duyệt để thử lại.',
 	'error-nothing' => 'Không có gì để dịch.',
 	'error-notsvg' => 'Không phải là tập tin SVG.',
-	'error-unexpected' => 'Một lỗi bất ngờ đã xảy ra.',
+	'error-unexpected' => 'Đã xuất hiện lỗi bất ngờ.',
 	'error-notfound' => 'Không thể lấy được tập tin SVG từ URL được cung cấp.',
 	'error-upload' => 'Việc tải lên bị thất bại.',
 	'begin-translation' => 'Bắt đầu dịch',

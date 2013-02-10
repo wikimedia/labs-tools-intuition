@@ -110,9 +110,10 @@ $messages['af'] = array(
  * @author DRIHEM
  * @author Meno25
  * @author OsamaK
+ * @author أحمد
  */
 $messages['ar'] = array(
-	'fullname' => 'تدويل واجهة مستخدم Toolserver',
+	'fullname' => 'أقلمة واجهة مستخدم Toolserver',
 	'current-settings' => 'الإعدادات الحالية',
 	'current-language' => 'اللغة المختارة حاليا',
 	'settings-legend' => 'الإعدادات',
@@ -132,7 +133,7 @@ $messages['ar'] = array(
 	'bl-changelanguage' => 'أضغط هنا لتغيير لغة الواجهة لهذه الأدات.',
 	'usage' => 'تمت ترجمة الأدوات عن طريق Toolserver Intuition.',
 	'help-translate-tool' => 'ساعد في ترجمة هذه الأداة!',
-	'help-translate-all' => 'ساعد في ترجمة التول سيرفر!',
+	'help-translate-all' => 'ساعد في ترجمة Toolserver.',
 	'help-translate-tooltip' => 'ساعد الآخرين بترجمة رسائل الواجهة إلى لغتك الأم.',
 );
 
@@ -1490,7 +1491,7 @@ $messages['mzn'] = array(
 	'tab-about' => 'درباره',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1571,7 +1572,7 @@ $messages['nl'] = array(
 	'help-translate-tooltip' => 'Help anderen door interfaceberichten te vertalen in uw taal.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1597,7 +1598,7 @@ $messages['nn'] = array(
 	'help-translate-all' => 'Hjelp til med å setja om Toolserver!',
 );
 
-/** no (norsk (bokmål)‎)
+/** no (norsk bokmål)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */

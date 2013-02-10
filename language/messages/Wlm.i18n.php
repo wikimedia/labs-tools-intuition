@@ -253,6 +253,7 @@ $messages['af'] = array(
  * @author DRIHEM
  * @author Meno25
  * @author Zanatos
+ * @author أحمد
  */
 $messages['ar'] = array(
 	'title' => 'ملفات WLM',
@@ -264,7 +265,7 @@ $messages['ar'] = array(
 	'competes' => 'يتنافس',
 	'author' => 'المؤلف',
 	'country-header' => 'البلد',
-	'location' => 'الموقع',
+	'location' => 'الموضع',
 	'upload-time' => 'وقت الرفع',
 	'deleted' => 'ثم حذفه ($1)',
 	'concursa' => 'يشارك في WLM',
@@ -288,43 +289,43 @@ $messages['ar'] = array(
 	'show-earlier-first' => 'أظهر الصور السابقة أولاً',
 	'show-older-first' => 'أظهر الصور الأقدم أولاً',
 	'show-button' => 'أظهر',
-	'view-previous-images' => '← عرض الصور السابقة',
-	'view-later-images' => 'عرض الصور اللاحقة →',
+	'view-previous-images' => '→ اعرض الصور السابقة',
+	'view-later-images' => 'اعرض الصور اللاحقة ←',
 	'images-listed-count' => '$1 صور مدرجة.',
-	'log-page-disclaimer' => 'تظهر هذه الأداة الملفات في [[:Category:$1|الفئة المعنية]] التي تم تحميلها أثناء المسابقة.
-لا يتم إظهار الملفات المحذوفة حتى و لو [$2 تم أستعادتها] لاحقا وتشارك من جديد.',
-	'bot' => 'بوت',
+	'log-page-disclaimer' => 'تظهر هذه الأداة الملفات في [[:Category:$1|التصنيف المعني]] المرفوعة أثناء المسابقة.
+لا تظهر الملفات المحذوفة حتى و لو [$2 تمت استعادتها] لاحقا و تشارك من جديد.',
+	'bot' => 'روبوت',
 	'id-label' => 'معرف المعلم:',
 	'id-none' => '(لا شيء)',
-	'monuments-by-photographers-checkbox' => 'ترتيب الآثار بعدد من المصورين، وليس عن طريق عدد من الصور.',
+	'monuments-by-photographers-checkbox' => 'ترتيب الآثار حسب عدد المصورين، لا حسب عدد الصور.',
 	'monument-heading' => 'أثر',
-	'count-heading' => 'المصورون',
-	'photographer-count-heading' => 'المصورين',
+	'count-heading' => 'الصور',
+	'photographer-count-heading' => 'المصورون',
 	'bic-list' => 'القائمة',
 	'bic-gallery' => 'معرض الصور',
-	'gallery-header' => 'صور للمعالم الأثرية بالمعرف $1.',
+	'gallery-header' => 'صور للمعلم الأثري ذي المعرّف $1.',
 	'gallery-header-place' => 'صور للمعالم الأثرية من $1.',
-	'wall-of-shame-text' => 'المؤلفون من خلال عدد مجهول من الصور الفوتوغرافية',
+	'wall-of-shame-text' => 'المؤلفون حسب عدد الصور المجهولة',
 	'author-heading' => 'المؤلف',
 	'bic-list-bad' => 'أظهر',
 	'bic-list-all' => 'القائمة الكاملة',
 	'unregistered' => 'غير مسجل',
-	'users-text' => 'تعرض هذه الصفحة المؤلفين مع الصور التي قاموا بتحمليها وكذا عدد المعالم فيها',
+	'users-text' => 'تعرض هذه الصفحة المؤلفين مع الصور التي رفعوها وكذا عدد المعالم',
 	'users-list' => 'عرض',
 	'distict-monuments' => 'المعالم المميزة',
-	'list-prolific-begin' => 'القائمة اوبلوادرس أغزر:',
-	'list-prolific-by-photos' => 'بعدد من الصور',
-	'list-prolific-by-distinct-identifiers' => 'بعدد من المعرفات المختلفة',
-	'list-prolific-by-distinct-good-identifiers' => 'بعدد من المعرفات المختلفة المدرجة في القائمة',
-	'list-prolific-by-identifiers' => 'بعدد من المعرفات النصب',
-	'list-prolific-by-good-identifiers' => 'بعدد من المعرفات في القوائم',
-	'list-prolific-by-bad-identifiers' => 'بعدد من المعرفات لا في القوائم',
-	'group-by-identifiers-all-countries-meaningless' => 'العديد من البلدان لا يتم استخدام معرفات في تحميل بهم، حتى هذه النتائج لا معنى لها ربما.',
+	'list-prolific-begin' => 'اسرد أغزر الرافعين:',
+	'list-prolific-by-photos' => 'حسب عدد الصور',
+	'list-prolific-by-distinct-identifiers' => 'حسب تَنَوُّع المعرفات',
+	'list-prolific-by-distinct-good-identifiers' => 'حسب عدد المعرفات المختلفة المدرجة',
+	'list-prolific-by-identifiers' => 'حسب عدد مُعرفات الآثار',
+	'list-prolific-by-good-identifiers' => 'حسب عدد المعرفات في القوائم',
+	'list-prolific-by-bad-identifiers' => 'حسب عدد المعرفات التي ليست في القوائم',
+	'group-by-identifiers-all-countries-meaningless' => 'العديد من البلدان لا توجد للصور المرفوعة منها مُعَرِّفات، لذا فهذه الإحصاءات على الأرجح بلا دلالة.',
 	'province-heading' => 'المقاطعة',
 	'province-none' => '(غير معروف)',
 	'ccaa-heading' => 'CC.AA.',
-	'nomail-text' => 'قائمة مستخدمين المشاركة في ويكي يحب الآثار  $1  التي لا يبدو أنها قدمت عنوان بريد إلكتروني.',
-	'nomail-user-count' => '$1المستخدمين',
+	'nomail-text' => 'قائمة المشاركبن في ويكي تحب الآثار $1  الذين يبدو أنهم لم يعطونا عنوان بريد إلكتروني.',
+	'nomail-user-count' => '$1 مستخدما',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -793,8 +794,10 @@ Ne vo ket mui diskwelet ar restroù lamet, ha pa vefent [$2 adsavet] diwezhatoc'
 	'bot' => 'Robot',
 	'id-label' => 'Kod ar Monumant :',
 	'id-none' => '(Hini ebet)',
+	'monuments-by-photographers-checkbox' => "Urzhiañ ar monumantoù dre niver a luc'hskeudennerien, ha neket dre niver a skeudennoù.",
 	'monument-heading' => 'Monumant',
 	'count-heading' => "Luc'hskeudennoù",
+	'photographer-count-heading' => "Luc'hskeudennerien",
 	'bic-list' => 'Roll',
 	'bic-gallery' => 'Skeudennaoueg',
 	'gallery-header' => "Skeudennoù eus ar monumant dezho ar c'hod $1.",
@@ -807,9 +810,19 @@ Ne vo ket mui diskwelet ar restroù lamet, ha pa vefent [$2 adsavet] diwezhatoc'
 	'users-text' => 'Diskouez a ra ar bajenn-mañ roll an aozerien gant ar skeudennoù enporzhiet ganto hag an niver a vonumantoù',
 	'users-list' => 'Gwelet',
 	'distict-monuments' => 'Monumantoù disheñvel',
+	'list-prolific-begin' => 'Rollañ ar bourvezerien stankañ :',
+	'list-prolific-by-photos' => 'dre niver a skeudennoù',
+	'list-prolific-by-distinct-identifiers' => 'dre niver a anaouderioù disheñvel',
+	'list-prolific-by-distinct-good-identifiers' => 'dre niver a anaouderioù disheñvel rollet',
+	'list-prolific-by-identifiers' => 'dre niver a anaouderioù monumantoù',
+	'list-prolific-by-good-identifiers' => 'dre niver a anaouederioù er rolloù',
+	'list-prolific-by-bad-identifiers' => "dre niver a anaouederioù n'emaint ket war ar rolloù",
+	'group-by-identifiers-all-countries-meaningless' => "Broioù e-leizh ne reont ket gant anaouderioù pa enporzhiont elfennoù, setu n'eo ket sur e vo heverk an disoc'hoù",
 	'province-heading' => 'Proviñs',
 	'province-none' => '(Dianav)',
 	'ccaa-heading' => 'KUM.EMREN',
+	'nomail-text' => "Roll ar berzhidi da Wiki Loves Monument $1 zo chomet hep merkañ chomlec'h postel ebet evit doare.",
+	'nomail-user-count' => '$1 implijer',
 );
 
 /** Catalan (català)
@@ -3026,7 +3039,7 @@ $messages['mt'] = array(
 	'nomail-user-count' => '$1 utenti',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Danmichaelo
  */
 $messages['nb'] = array(
@@ -4471,6 +4484,7 @@ Các tập tin đã xóa không được trình bày, ngay cả nếu về sau �
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Hydra
  * @author Hzy980512
  * @author Shirayuki
  * @author Yfdyh000
@@ -4478,7 +4492,11 @@ Các tập tin đã xóa không được trình bày, ngay cả nếu về sau �
 $messages['zh-hans'] = array(
 	'title' => 'WLM 文件',
 	'file' => '图片',
+	'monument-type' => '古迹列别',
+	'monument-id' => '古迹ID',
 	'province' => '省份',
+	'comarque' => '区城',
+	'competes' => '完成',
 	'author' => '作者',
 	'country-header' => '国家',
 	'location' => '位置',
@@ -4486,15 +4504,24 @@ $messages['zh-hans'] = array(
 	'deleted' => '已删除($1)',
 	'not-available' => '不可用',
 	'date-unknown' => '未知',
+	'total-images' => '图像总数：$1',
+	'view-uncategorized-images' => '查看未分类的图片',
 	'show-images-all' => '显示所有图片',
+	'search-monuments' => '搜寻古迹',
+	'view-frequency' => '受欢迎的古迹',
 	'country-label' => '国家：',
 	'all-countries' => '所有国家',
 	'timezone-label' => '时区：',
+	'show-earlier-first' => '首先显示较早的图像',
+	'show-older-first' => '首先显示较旧的图像',
 	'show-button' => '显示',
 	'bot' => '机器人',
+	'id-label' => '古迹ID：',
 	'date-format' => 'Y-m-d H:i:s',
 	'id-none' => '（无）',
+	'monument-heading' => '古迹',
 	'count-heading' => '图片',
+	'photographer-count-heading' => '摄影师',
 	'bic-list' => '列表',
 	'bic-gallery' => '图库',
 	'author-heading' => '作者',
@@ -4502,9 +4529,11 @@ $messages['zh-hans'] = array(
 	'bic-list-all' => '完整列表',
 	'unregistered' => '未注册',
 	'users-list' => '查看',
+	'distict-monuments' => '独特古迹',
 	'province-heading' => '省份',
 	'province-none' => '（未知）',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-user-count' => '$1 用户',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
