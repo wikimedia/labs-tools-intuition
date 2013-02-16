@@ -61,7 +61,8 @@ $messages['qqq'] = array(
 {{Identical|Minute}}',
 	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
-	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.',
+	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.
+{{Identical|View source}}',
 	'parentheses' => '{{Optional}}',
 	'comma-separator' => '{{Optional}} Used for separating lists of items. {{Identical|comma-separator}}',
 	'word-separator' => '{{Optional}} Used for separating lists of words. {{Identical|word-separator}}',

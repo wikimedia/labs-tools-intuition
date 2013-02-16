@@ -91,7 +91,8 @@ Parameters:
 	'stats-footer' => 'This message is displayed at the bottom of the welcome page displaying some statistics.
 *$1 is the number of files
 *$2 is the date the first known translation took place (Example: March 2011)',
-	'uploading' => 'A heading expressing that an upload is in progress.',
+	'uploading' => 'A heading expressing that an upload is in progress.
+{{Identical|Uploading}}',
 	'upload-complete' => 'The message given on the successful conclusion of an upload, where $1 is a URL to the file in question.',
 	'editdescriptionpage' => 'An additional invitation, once a file has been uploaded automatically, to edit the new description page to tidy it.',
 	'disclaimer' => 'Supplementary footer text explaining that the tool may collect certain pieces of data from the user.',
