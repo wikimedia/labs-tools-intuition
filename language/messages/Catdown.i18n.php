@@ -194,8 +194,8 @@ $messages['ar'] = array(
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 أو مواقع مرآوات گنو غيرها، أنظر
  http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => '، مُحَجّمة ليكون العرض الأقصى لكلِّ منها $1 {{plural:$1|عنصورة|عنصورة}}', # Fuzzy
-	'scaling-height' => '، مُحَجّمة ليكون الطول الأقصى لكلِّ منها $1 {{plural:$1|عنصورة|عنصورة}}', # Fuzzy
+	'scaling-width' => '، مُحَجّمة ليكون العرض الأقصى لكلِّ منها $1 {{plural:$1|pixel|بيكسل}}',
+	'scaling-height' => '، مُحَجّمة ليكون الطول الأقصى لكلِّ منها $1 {{plural:$1|pixel|بيكسل}}',
 	'scaling-both' => '، مُحجَّمة إلى الأبعاد القصوى $1x$2 عنصورة',
 );
 
@@ -292,6 +292,8 @@ $messages['az'] = array(
 	'no-images' => 'Bu kateqoriyada heç bir şəkil yoxdur',
 	'category-is-url' => 'Kateqoriyanın adı URL ünvanı kimi görünür. Kateqoriyanın adını müəyyən edin, ancaq URL ünvanı kimi yox.',
 	'zip-failed' => 'Zip yaradılması uğursuz oldu',
+	'image-area-too-big' => '$1 miniatür yaratmaq üçün çox böyükdür. Tam ölçüdə istifadə et.',
+	'download' => 'Yüklə',
 );
 
 /** South Azerbaijani (تورکجه)
@@ -501,6 +503,7 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Gwenn-Ael
  */
 $messages['br'] = array(
 	'title' => 'Pellgargañ skeudennoù dre rummadoù',
@@ -543,8 +546,8 @@ Mard oc'h dedennet da dapout kod tarzh ar programm-mañ e c'hallit e bellgargañ
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 pe melezourioù GNU all, sellit ouzh
  http://www.gnu.org/prep/ftp.html",
-	'scaling-width' => ', skeuliaouet gant ul ledander brasañ a $1 {{plural:$1|piksel|piksel}}', # Fuzzy
-	'scaling-height' => ', skeuliaouet gant un uhelder brasañ a $1 {{plural:$1|piksel|piksel}}', # Fuzzy
+	'scaling-width' => ',skeuliaouet gant ul ledander brasañ a $1 {{plural:$1|pikse}}',
+	'scaling-height' => ', skeuliaouet gant un uhelder brasañ a $1 {{plural:$1|piksel}}',
 	'scaling-both' => ", skeuliaouet d'ur vent vrasañ a $1x$2 piksel",
 );
 

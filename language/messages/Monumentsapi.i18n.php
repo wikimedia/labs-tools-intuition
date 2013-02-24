@@ -92,7 +92,8 @@ The title of the tool.',
 	'db-field-image' => 'Translation of the field "image" in the monuments database.
 {{Identical|Image}}',
 	'db-field-changed' => 'Translation of the field "changed" in the monuments database. This field contains the time when the record was last imported in the database.',
-	'db-field-source' => 'Translation of the field "source" in the monuments database. The source field contains a link to the Wikipedia list from which the data was imported.',
+	'db-field-source' => 'Translation of the field "source" in the monuments database. The source field contains a link to the Wikipedia list from which the data was imported.
+{{Identical|Source}}',
 	'db-field-monument_article' => 'Translation of the field "monument_article" in the monuments database. This is the title of a wiki article about the monument.',
 	'db-field-registrant_url' => 'Translation of the field "registrant_url" in the monuments database.
 
@@ -101,6 +102,7 @@ Examples of registrant URLs:
 * http://register.muinas.ee/?menuID=monument&action=view&id=20875',
 	'db-field-st_coordinates' => '{{Identical|Coordinates}}',
 	'toolbox-nav-homepage' => '{{Identical|Homepage}}',
+	'toolbox-nav-statistics' => '{{Identical|Statistics}}',
 	'location' => '{{Identical|Location}}',
 );
 
@@ -334,6 +336,21 @@ $messages['az'] = array(
 	'search-table-th-field' => 'Sahə',
 	'search-table-th-filter' => 'Filtrlər',
 	'search-table-th-search' => 'Axtar',
+	'filter-all-countries' => 'Bütün ölkələr',
+	'filter-all-languages' => 'Bütün dillər',
+	'db-field-country' => 'Ölkə',
+	'db-field-lang' => 'Dil',
+	'db-field-id' => 'İdentifikator',
+	'db-field-name' => 'Ad',
+	'db-field-address' => 'Ünvan',
+	'db-field-municipality' => 'Bələdiyyə',
+	'db-field-image' => 'Şəkil',
+	'toolbox-nav-homepage' => 'Ana səhifə',
+	'toolbox-nav-statistics' => 'Statistikalar',
+	'toolbox-nav-search' => 'Axtar',
+	'toolbox-title-searchmonuments' => 'Abidələr axtar',
+	'location' => 'Yerləşməsi',
+	'source-monuments-list-on-wikipedia' => 'Vikipediyada adidələr mənbəsinin siyahısı',
 );
 
 /** South Azerbaijani (تورکجه)
@@ -2254,6 +2271,13 @@ $messages['lv'] = array(
 	'toolbox-nav-search' => 'Meklēt',
 	'toolbox-title-searchmonuments' => 'Meklēt pieminekļus',
 	'location' => 'Atrašanās vieta',
+);
+
+/** Minangkabau (Baso Minangkabau)
+ * @author Naval Scene
+ */
+$messages['min'] = array(
+	'toolbox-nav-homepage' => 'Palanta',
 );
 
 /** Macedonian (македонски)

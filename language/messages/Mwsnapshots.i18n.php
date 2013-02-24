@@ -70,6 +70,7 @@ $messages['qqq'] = array(
 	'err-nosnapshot' => 'The snapshots are generated every few hours. If during the generation the selected branch had a problem. Then trying to download it will show this error.
 
 * $1: Branch name',
+	'repo-lastmoddate-label' => '{{Identical|Date}}',
 );
 
 /** Afrikaans (Afrikaans)
