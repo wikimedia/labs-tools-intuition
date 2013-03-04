@@ -370,12 +370,15 @@ $messages['el'] = array(
 
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
+ * @author KuboF
  * @author Objectivesea
  */
 $messages['eo'] = array(
 	'toolserver-status-unknown' => 'Nekonata stato de fasko $1',
 	'toolserver-status-missing' => 'La fasko $1 ne ekzistas.',
+	'toolserver-status-short-ok' => '$1: Bone',
 	'toolserver-status-short-info' => '$1: Informoj',
+	'toolserver-status-short-erro' => '$1: Eraro',
 );
 
 /** Spanish (español)

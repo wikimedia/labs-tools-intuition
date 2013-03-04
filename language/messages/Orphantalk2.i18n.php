@@ -1203,6 +1203,30 @@ $messages['lv'] = array(
 	'redirect' => 'Ir pāradresācija?',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(piliah wiki dulu)',
+	'hideredirects' => 'Suruakan pangaliahan',
+	'hidesubpages' => 'Suruakan sublaman',
+	'limit' => 'Bateh',
+	'page' => 'Laman',
+	'redirect' => 'Pangaliahan?',
+	'output' => 'Hasil',
+	'update' => 'Pabarui',
+	'tools-delete' => 'Hapuih',
+	'tools-links' => 'pautan',
+	'tools-subject' => 'subyek',
+	'tools-hist' => 'versi',
+	'tools-curr' => 'kini',
+	'tools-globalusage' => 'panggunoan global',
+	'deletesummary' => 'Barasiahkan laman rundiang yatim malalui $1',
+	'noresults' => 'Indak ado laman rundiang yatim pado wiki ko dalam ruang namo nan sasuai pangaturan.',
+	'resultslimited' => 'Hasil babateh sampai $1 laman.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */

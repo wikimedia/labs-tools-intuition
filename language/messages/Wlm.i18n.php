@@ -134,7 +134,8 @@ $messages['qqq'] = array(
 {{Identical|Deleted}}',
 	'concursa' => 'Entry for the competes column if the monuments takes part in WLM (also see: {{msg-toolserver|Wlm-no-concursa}})',
 	'no-concursa' => 'Entry for the competes column if the monuments does not take part in WLM (also see: {{msg-toolserver|Wlm-concursa}})',
-	'not-available' => 'Shown for images not yet loaded',
+	'not-available' => 'Shown for images not yet loaded.
+{{Identical|Not available}}',
 	'date-unknown' => 'Showed when the
 {{Identical|Unknown}}',
 	'total-images' => 'A message with the total number of images listed above, provided in $1',

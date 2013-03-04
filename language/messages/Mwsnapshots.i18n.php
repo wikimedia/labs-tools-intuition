@@ -277,6 +277,7 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'title-overview' => 'Tapadennoù prim',
@@ -293,7 +294,7 @@ $messages['br'] = array(
 	'err-invalid-branch' => 'Skourr dianav: "$1" er c\'havlec\'h "$2".',
 	'err-nosnapshot' => 'Bep un nebeud eurvezhioù e vez ganet an tapadennoù prim. Ur fazi zo bet e-ser genel an dapadenn brim evit "$1". Klaskit en-dro a-benn ur pennadig bihan.',
 	'err-noupdatelog' => "N'eus bet kavet hizivadenn ebet",
-	'repo-site-link' => "Lec'hienn",
+	'repo-site-link' => "Lec'hienn Genrouedad",
 	'repo-browse-link' => "Furchal er c'havlec'h",
 	'repo-branches-label' => 'Skourroù :',
 	'repo-lastmoddate-label' => 'Deiziad :',
