@@ -649,6 +649,13 @@ $messages['el'] = array(
 	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'fullname' => "Internationalisation for Toolserver's User Interface",
+);
+
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
  */

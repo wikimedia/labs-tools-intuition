@@ -1297,6 +1297,13 @@ Wulašowane dataje se njepokazuju, lěcrownož pózdźej [$2 wótnowili] a se za
 	'ccaa-heading' => 'CC.AA.',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'view-uncategorized-images' => 'View uncategorised images',
+);
+
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
  * @author Objectivesea

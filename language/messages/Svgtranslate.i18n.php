@@ -63,7 +63,8 @@ $messages['qqq'] = array(
 	'title' => 'The title of the tool.
 {{Optional}}',
 	'error-tryagain' => 'A general error message appended to another error message ($1) suggesting the user hits their "Back" button and tries again.',
-	'error-nothing' => 'An error received when the tool finds no translatable items of text in the SVG.',
+	'error-nothing' => 'An error received when the tool finds no translatable items of text in the SVG.
+{{Identical|Nothing to translate}}',
 	'error-notsvg' => 'An error that occurs when the file provided is not in the required SVG file format.',
 	'error-unexpected' => 'A general error category, for errors which are "unexpected": they should never be encountered by the average user / at all.',
 	'error-notfound' => 'An error that occurs when the URL provided does not point to an SVG file or a file description page.',
@@ -211,7 +212,7 @@ $messages['as'] = array(
 $messages['ast'] = array(
 	'title' => 'SVG Translate',
 	'error-tryagain' => '$1 Calca nel botón atrás del restolador pa volver a tentalo.',
-	'error-nothing' => 'Nun hai res que traducir.',
+	'error-nothing' => 'Nun hai ren que traducir.',
 	'error-notsvg' => 'Nun ye un ficheru SVG.',
 	'error-unexpected' => 'Hebo un fallu inesperáu.',
 	'error-notfound' => 'El ficheru SVG nun se pudo baxar de la URL conseñada.',
@@ -1643,7 +1644,7 @@ $messages['kn'] = array(
 $messages['ko'] = array(
 	'title' => 'SVG 번역',
 	'error-tryagain' => '$1 다시 시도하려면 브라우저의 뒤로 버튼을 누르세요.',
-	'error-nothing' => '아무 번역도 없습니다.',
+	'error-nothing' => '번역할 것이 없습니다.',
 	'error-notsvg' => 'SVG 파일이 아닙니다.',
 	'error-unexpected' => '예기치 않은 오류가 발생했습니다.',
 	'error-notfound' => '제공한 URL에서 SVG 파일을 찾을 수 없습니다.',
