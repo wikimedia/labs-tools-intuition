@@ -525,13 +525,14 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'moretools' => 'pi utiss dal midem autor',
+	'moretools' => "pi d'utiss dal midem autor",
 	'bugs' => "rapòrt d'eror e arceste ëd funsion",
-	'comments' => 'cement e arceste',
-	'error-form-empty' => 'Un o pi camp obligatòri a son stàit lassà bianch. It dovrìe completeje prima ëd continué.',
+	'comments' => 'coment e arceste',
+	'error-form-empty' => 'Un o pi camp obligatòri a son stàit lassà veuid. A dev completeje prima ëd continué.',
 );
 
 /** Romanian (română)

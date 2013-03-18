@@ -1309,6 +1309,7 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'choose-language' => 'Zimanekî hilbijêre',
 	'tab-about' => 'Der barê',
 	'bl-mysettings-new' => 'Zimanê biguherîne!',
 );

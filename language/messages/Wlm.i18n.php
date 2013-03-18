@@ -1270,8 +1270,10 @@ Wulašowane dataje se njepokazuju, lěcrownož pózdźej [$2 wótnowili] a se za
 	'bot' => 'Bot',
 	'id-label' => 'ID zajmnostki:',
 	'id-none' => '(Žeden)',
+	'monuments-by-photographers-checkbox' => 'Pomniki pó licbje fotografow sortěrowaś, nic pó licbje fotow.',
 	'monument-heading' => 'Zajmnostka',
 	'count-heading' => 'Fotografije',
+	'photographer-count-heading' => 'Fotografy',
 	'bic-list' => 'Lisćina',
 	'bic-gallery' => 'Galerija',
 	'gallery-header' => 'Wobraze za zajmnostku z ID $1.',
@@ -1295,6 +1297,8 @@ Wulašowane dataje se njepokazuju, lěcrownož pózdźej [$2 wótnowili] a se za
 	'province-heading' => 'Prowinca',
 	'province-none' => '(Njeznaty)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lisćina wužywarjow, kótarež wobźěluju se na Wiki Loves Monuments $1, kótarež zazdaśim njejsu e-mailowu adresu pódali.',
+	'nomail-user-count' => '$1 wužywarjow',
 );
 
 /** British English (British English)
@@ -2709,9 +2713,12 @@ Fottjeschmeße Datteije wääde nit jezeisch, och wann se schpääder [$2 wider 
  */
 $messages['ku-latn'] = array(
 	'file' => 'Wêne',
+	'location' => 'Cih',
 	'show-images-all' => 'Hemû wêneyan nîşan bide',
+	'bot' => 'Bot',
 	'bic-list' => 'Lîste',
 	'bic-gallery' => 'Galerî',
+	'nomail-user-count' => 'Bikarhêneran $1',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

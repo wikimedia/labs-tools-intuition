@@ -647,6 +647,7 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
@@ -654,7 +655,7 @@ $messages['pms'] = array(
 	'formats-heading' => 'Formà ëd surtìa',
 	'input' => 'Anseriment',
 	'label-wikiids' => 'Identificador ëd wiki',
-	'no-matches' => 'Gnente a corispond a "$1"',
+	'no-matches' => 'Gnun-a rëspondensa për «$1»',
 	'output' => 'Surtìa për "$1"',
 );
 

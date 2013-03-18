@@ -677,13 +677,14 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
-	'alws-selectwiki' => '(selessioné wiki)',
+	'alws-selectwiki' => '(selessioné la wiki)',
 	'alws-group-mustused' => 'Wiki pi dovrà',
-	'alws-group-allaz' => 'Tute le wiki alfabeticament',
+	'alws-group-allaz' => 'Tute le wiki an órdin alfabétich',
 	'form-legend-settings' => 'Regolassion',
 );
 

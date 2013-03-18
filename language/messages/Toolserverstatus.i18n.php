@@ -950,16 +950,17 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'toolserver-status-ok' => 'A-i é gnun problem ant ël cluster ëd database $1 $2',
-	'toolserver-status-info' => "Neuve për j'utent dël cluster $1: $2",
-	'toolserver-status-warn' => "Avis për j'utent dël cluster $1: $2",
-	'toolserver-status-down' => "Ël cluster $1 ëd database a l'é stàit temporaneament tirà giù. $2",
-	'toolserver-status-erro' => "Ël cluster $1 ëd database a l'é giù. $2",
-	'toolserver-status-unknown' => 'Stat dël cluster $1 pa conossù',
-	'toolserver-status-missing' => 'El cluster $1 a esist pa',
+	'toolserver-status-ok' => 'A-i é gnun problema ant ël sistema ëd base ëd dàit $1 $2',
+	'toolserver-status-info' => "avis për j'utent dël sistema $1: $2",
+	'toolserver-status-warn' => "Avis për j'utent dël sistema $1: $2",
+	'toolserver-status-down' => "Ël sistema $1 ëd base ëd dàit a l'é stàit temporaneament sarà. $2",
+	'toolserver-status-erro' => 'Ël sistema $1 ëd base ëd dàit a marcia nen. $2',
+	'toolserver-status-unknown' => 'Statù dël sistema $1 pa conossù',
+	'toolserver-status-missing' => 'El sistema $1 a esist pa',
 	'toolserver-status-short-ok' => '$1: Va bin',
 	'toolserver-status-short-info' => '$1: Anformassion',
 	'toolserver-status-short-warn' => '$1: Avis',

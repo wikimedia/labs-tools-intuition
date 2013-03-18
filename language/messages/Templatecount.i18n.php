@@ -867,18 +867,19 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'enter-details' => 'Anseriss detaj',
+	'enter-details' => "Ch'a anserissa ij detaj",
 	'introduction' => "Scrive ël nòm ëd në stamp (mach ëd Wikipedia al moment) e sgnava và. A l'é belfé parèj. A-i é quaich memòria (memòria dj'arzultà), ma lòn a l'é për maleur fòra dël contròl dë st'utiss e dij sò gestor.",
 	'language-label' => 'Lenga',
 	'namespace-label' => 'Spassi nominal',
-	'pagename-label' => 'Nòm pagina (gavand lë spassi nominal)',
+	'pagename-label' => 'Nòm ëd la pàgina (sensa lë spassi nominal)',
 	'transclusion-count-label' => "Nùmer d'anclusion",
 	'transclusion-count' => '$1 anclusion trovà.',
 	'error-suggestion' => "Miraco it l'has-to sbalià (o sbalià ël maiuscolin) ël nòm ëd la pagina?",
-	'time-label' => 'Temp pijà a fé ël comand.',
+	'time-label' => 'Temp butà për eseguì ël comand.',
 );
 
 /** Pashto (پښتو)

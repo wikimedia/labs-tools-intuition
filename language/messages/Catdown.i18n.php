@@ -2154,7 +2154,7 @@ $messages['pfl'] = array(
 	'download' => 'Runalaade',
 );
 
-/** Pali (पाळि)
+/** Pali (पालि)
  * @author Anand Vivek Satpathi
  */
 $messages['pi'] = array(
@@ -2210,24 +2210,25 @@ lub niektórych innych mirrorów GNU, zobacz
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
 	'title' => 'Dëscarié ëd figure për categorìa',
-	'subtitle' => 'La manera bel fé ëd dëscarié le figure ant na categorìa',
+	'subtitle' => 'La manera sempia ëd dëscarié le figure ant na categorìa',
 	'project' => 'Proget:',
 	'category' => 'Categorìa:',
 	'thumbnailing' => 'Miniaturisé',
-	'max-width' => 'Largheur màssim:',
+	'max-width' => 'Larghëssa màssima:',
 	'max-height' => 'Autëssa màssima:',
-	'invalid-width' => 'Largheur pa bon',
+	'invalid-width' => 'Larghëssa nen bon-a',
 	'invalid-height' => 'Autëssa pa bon-a',
-	'no-such-project' => 'A-i é pa sto proget',
+	'no-such-project' => 'Ës proget a esist nen',
 	'no-images' => 'A-i é pa ëd figure an sta categorìa',
-	'category-is-url' => 'Ël nòm ëd categorìa dàit a smija na anliura. It deuve specifiché ël nòm ëd categorìa, pa soa anliura.',
+	'category-is-url' => 'Ël nòm ëd categorìa fornì a smija na liura. A dev specifiché ël nòm ëd la categorìa, pa soa anliura.',
 	'category-contains-namespace' => "A smija ch'it l'abie ancludù lë spassi nominal con ël nòm ëd categorìa. Con ëd nòm dàit, la pagina a dovrìa esse disponìbil com [[Category:$1]].",
-	'zip-failed' => 'Creassion Zip falìa',
+	'zip-failed' => 'Creassion dël Zip falìa',
 	'image-area-too-big' => "$1 a l'é tròp gròss për creé na miniadura. Dovr-lo a dimension pien-a.",
 	'download-info' => '{{plural: $1|A-i é na figura|A-i sin $1 figure}}, con na dimension stimà ëd  $2',
 	'download' => 'Dëscaria',
@@ -2253,9 +2254,9 @@ An cas it sie anteressaà a pijé ël còdes sorziss për sto program, it peule 
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 o quaich àutr Mirror GNU, varda
  http://www.gnu.org/prep/ftp.html",
-	'scaling-width' => ', scalà a un longheur màssim ëd $1 {{plural:$1|pixel}}',
-	'scaling-height' => ', scalà a na autëssa màssima ëd $1 {{plural:$1|pixel}}',
-	'scaling-both' => ', scalà a na dimension màssima ëd $1x$2 pixel',
+	'scaling-width' => ', scalà a na larghëssa màssima ëd $1 {{plural:$1|pontin}}',
+	'scaling-height' => ", scalà a n'autëssa màssima ëd $1 {{plural:$1|pontin}}",
+	'scaling-both' => ', scalà a na dimension màssima ëd $1x$2 pontin',
 );
 
 /** Pashto (پښتو)

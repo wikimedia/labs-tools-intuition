@@ -2117,15 +2117,18 @@ Loves Monuments',
  */
 $messages['ku-latn'] = array(
 	'search-table-th-filter' => 'Fîltre',
+	'search-table-th-search' => 'Lêgerîn',
 	'filter-all-languages' => 'Hemû ziman',
 	'db-field-lang' => 'Ziman',
 	'db-field-name' => 'Nav',
 	'db-field-address' => 'Navnîşan',
 	'db-field-image' => 'Wêne',
 	'db-field-st_address' => 'Navnîşan',
+	'db-field-st_image' => 'Wêne',
 	'db-field-st_name' => 'Nav',
 	'toolbox-nav-homepage' => 'Malper',
 	'toolbox-nav-statistics' => 'Statîstîk',
+	'location' => 'Cih',
 );
 
 /** Kirghiz (Кыргызча)

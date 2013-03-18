@@ -579,6 +579,7 @@ $messages['dsb'] = array(
 	'seconds' => '{{PLURAL: $1|sekunda|sekunźe|sekundy|sekundow}}',
 	'last-modified-date' => 'Slědny raz změnjony: $1',
 	'view-source' => 'Žrědło se woglědaś',
+	'and' => '&#32;a',
 );
 
 /** Greek (Ελληνικά)
@@ -1654,7 +1655,7 @@ $messages['pfl'] = array(
 	'view-source' => 'Qwelltegschd oazaische',
 );
 
-/** Pali (पाळि)
+/** Pali (पालि)
  * @author Anand Vivek Satpathi
  */
 $messages['pi'] = array(
@@ -1686,14 +1687,15 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
 	'hello' => 'Cerea',
 	'welcome' => 'Bin ëvnù',
-	'toolversionstamp' => 'Vërsion $1 ($2)',
-	'etc' => 'ec.',
+	'toolversionstamp' => 'Version $1 ($2)',
+	'etc' => 'e via fòrt',
 	'namespace' => 'Spassi nominal',
 	'form-submit' => 'Va',
 	'form-reset' => 'Spian-a',
@@ -1703,7 +1705,7 @@ $messages['pms'] = array(
 	'hours' => '{{PLURAL:$1|ora|ore}}',
 	'minutes' => '{{PLURAL:$1|minuta|minute}}',
 	'seconds' => '{{PLURAL:$1|second}}',
-	'last-modified-date' => 'Ultima modìfica: $1',
+	'last-modified-date' => 'Ùltima modìfica: $1',
 	'view-source' => 'Vardé la sorgiss',
 	'and' => '&#32;e',
 );
@@ -2272,6 +2274,7 @@ $messages['uk'] = array(
 
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
+ * @author Sociologist
  */
 $messages['uz'] = array(
 	'hello' => 'Salom',
@@ -2288,7 +2291,7 @@ $messages['uz'] = array(
 	'minutes' => '{{PLURAL: $1|minut}}',
 	'seconds' => '{{PLURAL: $1|sekund}}',
 	'last-modified-date' => 'Oxirgi oʻzgarish sanasi: $1',
-	'view-source' => "Manbasini ko'rish",
+	'view-source' => 'Manbasini koʻrish',
 	'and' => '&#32;va',
 );
 

@@ -1723,6 +1723,7 @@ $messages['ku-latn'] = array(
 	'th-username' => 'Navê bikarhêner',
 	'th-password' => 'Şîfre',
 	'preview' => 'Pêşdîtin',
+	'translate' => 'Wergerîne',
 );
 
 /** Latin (Latina)

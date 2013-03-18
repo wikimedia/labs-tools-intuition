@@ -2915,7 +2915,7 @@ $messages['pfl'] = array(
 	'upload_submit' => 'Nufflaade!',
 );
 
-/** Pali (पाळि)
+/** Pali (पालि)
  * @author Anand Vivek Satpathi
  */
 $messages['pi'] = array(
@@ -2974,13 +2974,14 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
 	'attention' => 'Atension',
-	'description' => "N'utiss për tramudé arcivi dai proget Wikimedia a Wikimedia Commons",
-	'change_meta' => 'Cangia la $1categorìa e lë stamp regolassion$2 për $3',
+	'description' => "N'utiss për tramudé dj'archivi dai proget Wikimedia a Wikimedia Commons",
+	'change_meta' => 'Modifiché la $1categorìa e lë stamp dël model$2 për $3',
 	'jira_link' => "Arpòrta n'eror o sugeriss na funsion",
 	'language' => 'Lenga',
 	'project' => 'Proget',
