@@ -995,6 +995,7 @@ $messages['el'] = array(
 	'db-field-lon' => 'Γεωγραφικό μήκος',
 	'db-field-image' => 'Εικόνα',
 	'db-field-changed' => 'Άλλαξε',
+	'db-field-source' => 'Πηγή',
 	'db-field-st_address' => 'Διευθύνσεις',
 	'db-field-st_address_pct' => 'Διευθύνσεις %',
 	'db-field-st_coordinates' => 'Συντεταγμένες',
@@ -1008,6 +1009,7 @@ $messages['el'] = array(
 	'db-field-st_total' => 'Συνολικός αριθμός',
 	'toolbox-main-description' => 'Ένα σύνολο εργαλείων που σχετίζονται με',
 	'toolbox-wikilovesmonuments' => 'Το Wiki Αγαπάει τα Μνημεία',
+	'toolbox-nav-homepage' => 'Αρχική σελίδα',
 	'toolbox-nav-search' => 'Αναζήτηση',
 	'toolbox-title-searchmonuments' => 'Αναζήτηση μνημείων',
 	'location' => 'Τοποθεσία',
@@ -1966,6 +1968,22 @@ $messages['ka'] = array(
 	'location' => 'მდებარეობა',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'filter-all-countries' => 'ប្រទេសទាំងអស់',
+	'filter-all-languages' => 'ភាសាទាំងអស់',
+	'db-field-country' => 'ប្រទេស',
+	'db-field-lang' => 'ភាសា',
+	'db-field-name' => 'ឈ្មោះ​',
+	'db-field-image' => 'រូបភាព',
+	'db-field-source' => 'ប្រភព',
+	'toolbox-nav-homepage' => 'គេហទំព័រ​',
+	'toolbox-nav-statistics' => 'ស្ថិតិ',
+	'toolbox-nav-search' => 'ស្វែងរក',
+);
+
 /** Kannada (ಕನ್ನಡ)
  * @author Akoppad
  * @author M G Harish
@@ -2740,12 +2758,13 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
-	'search-title' => 'Serca monument',
-	'search-monuments-database' => 'Serca ant ël database dij monument',
+	'search-title' => 'Arserca ëd monument',
+	'search-monuments-database' => 'Arserché ant la base ëd dàit dij monument',
 	'search-table-th-field' => 'Camp',
 	'search-table-th-filter' => 'Filtr',
 	'search-table-th-search' => 'Sërca',
@@ -2762,7 +2781,7 @@ $messages['pms'] = array(
 	'db-field-image' => 'Figura',
 	'db-field-changed' => 'Cangià',
 	'db-field-source' => 'Sorgiss',
-	'db-field-monument_article' => 'Vos ëd monument',
+	'db-field-monument_article' => 'Artìcol dël monument',
 	'db-field-registrant_url' => 'Anliura ëd registrassion',
 	'db-field-st_address' => 'Adrëssa',
 	'db-field-st_address_pct' => 'Adrësse %',
@@ -2775,9 +2794,9 @@ $messages['pms'] = array(
 	'db-field-st_name' => 'Nòm %',
 	'db-field-st_name_pct' => 'Nòm %',
 	'db-field-st_total' => 'Nùmer total',
-	'toolbox-label-searchtipps' => 'dòvra %term o term% o %term% per arserche fuzzy',
-	'toolbox-meta-title' => 'Utiss Wiki Loves Monuments',
-	'toolbox-main-title' => 'Utiss WLM',
+	'toolbox-label-searchtipps' => "ch'a deuvra %term o term% o %term% per n'arserca tërbola",
+	'toolbox-meta-title' => "Bòita dj'utiss Wiki a-j veul bin ai Monument",
+	'toolbox-main-title' => "Bòita dj'utiss WLM",
 	'toolbox-main-description' => "N'ansema d'utiss relativ a",
 	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
 	'toolbox-nav-homepage' => "Pàgina d'intrada",
@@ -2785,7 +2804,7 @@ $messages['pms'] = array(
 	'toolbox-nav-search' => 'Sërca',
 	'toolbox-title-searchmonuments' => 'Arserca dij monument',
 	'location' => 'Locassion',
-	'source-monuments-list-on-wikipedia' => 'Lista sorziss dij monument dzor Wikipedia',
+	'source-monuments-list-on-wikipedia' => 'Lista dij monument sorgiss dzora Wikipedia',
 );
 
 /** Pashto (پښتو)
@@ -2824,6 +2843,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Beria
  * @author Hamilton Abreu
+ * @author Sarilho1
  */
 $messages['pt'] = array(
 	'search-title' => 'Pesquisa de monumentos',
@@ -2846,6 +2866,23 @@ $messages['pt'] = array(
 	'db-field-source' => 'Fonte',
 	'db-field-monument_article' => 'Artigo do monumento',
 	'db-field-registrant_url' => 'URL de registo',
+	'db-field-st_address' => 'Endereços',
+	'db-field-st_address_pct' => 'Endereços %',
+	'db-field-st_coordinates' => 'Coordenadas',
+	'db-field-st_coordinates_pct' => 'Coordenadas %',
+	'db-field-st_image' => 'Imagem',
+	'db-field-st_image_pct' => 'Imagem %',
+	'db-field-st_municipality' => 'Município',
+	'db-field-st_municipality_pct' => 'Município %',
+	'db-field-st_name' => 'Nomes',
+	'db-field-st_name_pct' => 'Nomes %',
+	'db-field-st_total' => 'Número total',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Página principal',
+	'toolbox-nav-statistics' => 'Estatísticas',
+	'toolbox-nav-search' => 'Pesquisar',
+	'toolbox-title-searchmonuments' => 'Procurar monumentos',
+	'location' => 'Localização',
 );
 
 /** Brazilian Portuguese (português do Brasil)

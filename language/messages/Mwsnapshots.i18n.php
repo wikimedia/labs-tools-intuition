@@ -510,6 +510,8 @@ $messages['dsb'] = array(
 $messages['el'] = array(
 	'title-error' => 'Σφάλμα',
 	'title-updatelog' => 'Ενημέρωση αρχείου καταγραφής',
+	'download-directlink' => 'άμεσος σύνδεσμος',
+	'repo-site-link' => 'Ιστότοπος',
 );
 
 /** Esperanto (Esperanto)
@@ -1035,6 +1037,14 @@ $messages['ka'] = array(
 	'tablehead-filesize' => 'ფაილის ზომა',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'title-error' => 'កំហុស',
+	'tablehead-filesize' => 'ទំហំឯកសារ',
+);
+
 /** Kannada (ಕನ್ನಡ)
  * @author Akoppad
  * @author M G Harish
@@ -1425,17 +1435,18 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
 	'title-overview' => 'Fòto',
 	'title-error' => 'Eror',
-	'title-updatelog' => 'Agiorna registr',
+	'title-updatelog' => 'Agiorné ël registr',
 	'updatelog-intro' => "Lë script d'agiornament a l'é schedulà për viré minca ora. Sota a-i é la surtìa dla console dl'ùltima esecussion.",
 	'updatelog-active' => "Lë script d'agiornament al moment a sta virand. Torna pi tard për ël registr complet.",
 	'download-button' => 'Dëscaria $1',
-	'download-directlink' => 'colegament diret',
+	'download-directlink' => 'liura direta',
 	'title-downloadpage' => 'Dëscaria: $1',
 	'downloadpage-directlink' => 'Sgnaca sì për dëscarié la fòto.',
 	'err-snapshotindex' => 'Indes dle fòto temporaneament pa disponìbil. Përpiasì preuva torna pi tard.',
@@ -1444,16 +1455,16 @@ $messages['pms'] = array(
 	'err-nosnapshot' => 'Le fòto a son generà minca pòche ore. Mente as género le fòto pëfr "$1", a l\'é capitaje n\'eror. Për piasì preuva torna pi tard.',
 	'err-noupdatelog' => 'Gnun agiornament ëd registr a son stàit trovà.',
 	'repo-site-link' => "Sit dl'aragnà",
-	'repo-browse-link' => 'Lista depòsit',
+	'repo-browse-link' => 'Navighé ant ël depòsit',
 	'repo-branches-label' => 'Session:',
 	'repo-lastmoddate-label' => 'Data:',
 	'branches-submit-button' => 'Otenlo!',
-	'updatelog-link' => 'agiorna registr',
+	'updatelog-link' => 'agiorné el registr',
 	'tablehead-repo' => 'Depòsit',
 	'tablehead-snapshots' => 'Fòto',
 	'tablehead-branch' => 'Session',
 	'tablehead-filesize' => "Amzure dl'archivi",
-	'tablehead-hash' => 'Sifra ëd contròl',
+	'tablehead-hash' => 'Gifre ëd contròl',
 );
 
 /** Pashto (پښتو)
@@ -1472,6 +1483,14 @@ $messages['ps'] = array(
 	'tablehead-snapshots' => 'انځورټوټې',
 	'tablehead-branch' => 'څانګه',
 	'tablehead-filesize' => 'د دوتنې کچه',
+);
+
+/** Portuguese (português)
+ * @author Sarilho1
+ */
+$messages['pt'] = array(
+	'title-error' => 'Erro',
+	'repo-lastmoddate-label' => 'Data:',
 );
 
 /** Brazilian Portuguese (português do Brasil)

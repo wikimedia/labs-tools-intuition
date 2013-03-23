@@ -698,8 +698,12 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Sarilho1
  */
 $messages['pt'] = array(
+	'alws-selectwiki' => '(selecionar wiki)',
+	'alws-group-mustused' => 'Wikis mais usadas',
+	'alws-group-allaz' => 'Todas as wikis por ordem alfabética',
 	'form-legend-settings' => 'Definições',
 );
 

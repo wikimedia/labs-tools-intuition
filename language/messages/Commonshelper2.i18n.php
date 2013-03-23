@@ -927,6 +927,7 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'attention' => 'Diqet',
@@ -945,7 +946,7 @@ $messages['diq'] = array(
 	'original_wikitext' => 'Orcinal metne wiki',
 	'new_wikitext' => 'wiki metino newe',
 	'new_filename' => 'Newe namey dosya:',
-	'upload_submit' => 'Barke!',
+	'upload_submit' => 'Bar ke!',
 	'target_wiki' => 'Menzil wiki',
 	'help_mail' => 'Adres de $1 rê e-posta bırşê',
 );
@@ -1012,6 +1013,7 @@ $messages['el'] = array(
 	'target_file' => 'Αρχείο προορισμού',
 	'commons_username' => 'Όνομα χρήστη στο Wikimedia Commons',
 	'commons_to_project' => 'από τα Κοινά στο εγχείρημα',
+	'move_file_from_com' => 'Μετακίνηση αρχείου από τα Wikimedia Commons στο εγχείρημα',
 	'categories' => 'Κατηγορίες',
 	'remove_cats' => 'Απομάκρυνση υπαρχουσών κατηγοριών',
 	'do_it' => 'Κάντο',
@@ -1022,7 +1024,9 @@ $messages['el'] = array(
 	'new_filename' => 'Νέο όνομα αρχείου:',
 	'upload_submit' => 'Φόρτωση!',
 	'target_wiki' => 'το wiki προορισμού',
+	'error_upload_file' => 'Το αρχικό αρχείο δεν μπορεί να ληφθεί.',
 	'help_mail' => 'Αποστείλατε email στο $1',
+	'help_commons' => '$1Προσθέστε μια ανάρτηση στα Commons$2',
 );
 
 /** Esperanto (Esperanto)
@@ -2023,6 +2027,15 @@ $messages['ka'] = array(
 	'upload_submit' => 'ატვირთვა!',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'language' => 'ភាសា',
+	'project' => 'គម្រោង​',
+	'upload_submit' => 'ផ្ទុកឡើង!',
+);
+
 /** Kannada (ಕನ್ನಡ)
  * @author Akoppad
  * @author M G Harish
@@ -2987,27 +3000,27 @@ $messages['pms'] = array(
 	'project' => 'Proget',
 	'source_file' => 'Archivi sorgiss',
 	'target_file' => 'Archivi destinassion',
-	'commons_username' => 'Nòm utent ëd Wikimedia Commons',
+	'commons_username' => "Stranòm d'utent ëd Wikimedia Commons",
 	'commons_to_project' => 'Da Wikimedia Commons al proget',
-	'move_file_from_com' => 'Tramuda archivi da Wikimedia Commons al proget',
+	'move_file_from_com' => "Tramudé l'archivi da Wikimedia Commons al proget",
 	'categories' => 'Categorìe',
-	'remove_cats' => 'Gava categorìe esistente',
-	'use_checkusage' => 'Dòvra $1CommonSense$2 për sugerì neuve categorìe',
-	'use_tusc' => "Dòvra $1TUSC$2 për autentiché e tramudé l'archivi diretament",
-	'tusc_user' => 'Nòm utent TUSC',
+	'remove_cats' => 'Gavé le categorìe esistente',
+	'use_checkusage' => 'Dovré $1CommonSense$2 për sugerì le neuve categorìe',
+	'use_tusc' => "Dovré $1TUSC$2 për autentiché e tramudé l'archivi diretament",
+	'tusc_user' => "Stranòm d'utent TUSC",
 	'tusc_pass' => 'Ciav TUSC',
 	'do_it' => 'Falo',
-	'error_transfer_usr' => "It l'has pa ampostà un nòm utent Wikimedia Commons",
+	'error_transfer_usr' => "A l'ha nen ampostà në stranòm d'utent Wikimedia Commons",
 	'error_not_exists' => "L'archivi sorgiss a esist pa!",
-	'error_on_commons' => "L'archivi sorziss a l'é già dzor $1!",
+	'error_on_commons' => "L'archivi sorgiss a l'é già dzor $1!",
 	'error_file_exists' => 'L\'archivi a esist già dzor $3 com "$1$4$2"!',
-	'error_diff_exists' => "N'archivi destinassion diferent a esist dzor la wiki destinassion sota ël midem nòm!",
+	'error_diff_exists' => "N'archivi destinassion diferent a esist an sla wiki destinassion con ël midem nòm!",
 	'error_no_meta' => 'Gnun metadat trovà a propòsit dla wiki sorziss! $1Për piasì gionta/agiorna ij metadat për ël proget$2',
 	'error_meta_no_good' => 'Metadat: Gnun stamp bon trovà! $1Për piasì gionta/agiorna ij metadat për ël proget$2',
 	'error_meta_bad' => 'Metadat: Në stamp pa bon trovà! $1Për piasì gionta/agiorna ij metadat për ël proget$2',
 	'original_wikitext' => 'Test original dla wiki',
 	'new_wikitext' => 'Test neuv dla wiki',
-	'new_filename' => 'Nòm archivi neuv:',
+	'new_filename' => "Neuv nòm d'archivi:",
 	'output_information' => "Për cariagi manual, modìfica ël test dzora (se necessari), salva $1l'archivi$2 dzor tò calcolador, peui $3carijlo$4.",
 	'upload_submit' => 'Carié!',
 	'target_wiki' => 'la wiki destinassion',
@@ -3021,7 +3034,7 @@ $messages['pms'] = array(
 	'error_upload_file' => "L'archivi original a peul pa esse dëscarià.",
 	'help_intro' => "Quand it veule arporté n'eror, sugerì na funsion o avèj na custion, it peule dovré un-a dle sòrt ëd contat sota:",
 	'help_jira' => '$1JIRA (at serv un cont)$2 (Project: Commonshelper2)',
-	'help_mail' => 'Manda un corel a $1',
+	'help_mail' => 'Mandé un mëssagi a $1',
 	'help_commons' => '$1Gionta un mëssagi dzor Commons$2',
 );
 

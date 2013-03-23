@@ -504,6 +504,7 @@ $messages['dsb'] = array(
 /** Greek (Ελληνικά)
  * @author Evropi
  * @author Geraki
+ * @author Glavkos
  */
 $messages['el'] = array(
 	'select-wiki-first' => '(επιλέξτε πρώτα ένα wiki)',
@@ -518,6 +519,7 @@ $messages['el'] = array(
 	'tools-subject' => 'θέμα',
 	'tools-hist' => 'ιστορικό',
 	'tools-curr' => 'τρέχουσα',
+	'tools-globalusage' => 'καθολική χρήση',
 );
 
 /** Esperanto (Esperanto)
@@ -1949,7 +1951,7 @@ $messages['vi'] = array(
 	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(trước tiên hãy chọn wiki)',
 	'hideredirects' => 'Ẩn trang đổi hướng',
-	'hidesubpages' => 'Ẩn trang phụ',
+	'hidesubpages' => 'Ẩn trang con',
 	'limit' => 'Tối đa',
 	'page' => 'Trang',
 	'redirect' => 'Có đổi hướng',

@@ -716,6 +716,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'error-nothing' => 'Theba çıniyo kê açerneyo.',
@@ -730,7 +731,7 @@ $messages['diq'] = array(
 	'preview' => 'Verqayt',
 	'translate' => 'Açarne',
 	'svginput-label' => 'Dosyay SVG',
-	'uploading' => 'Oyo barêno',
+	'uploading' => 'Bar beno',
 	'preview-hide' => 'Verqayti bınımnê',
 	'preview-refresh' => 'Verqayti anewe kerê',
 );
@@ -774,6 +775,7 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Evropi
+ * @author Glavkos
  */
 $messages['el'] = array(
 	'title' => 'Μετάφραση SVG',
@@ -802,6 +804,7 @@ $messages['el'] = array(
 	'author-complete' => 'Παρακαλούμε συμπληρώστε τις πληροφορίες σχετικά με το συντάκτη!',
 	'preview-hide' => 'Απόκρυψη προεπισκόπησης',
 	'preview-refresh' => 'Ανανέωση προεπισκόπησης',
+	'description-license' => 'Επιλογή περιγραφής και άδειας',
 );
 
 /** Esperanto (Esperanto)
@@ -2266,41 +2269,42 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
-	'error-tryagain' => '$1 Sgnaca ël boton andré ëd tò navigator për torna prové.',
+	'error-tryagain' => "$1 Ch'a sgnaca an sël boton andré ëd sò navigator për prové torna.",
 	'error-nothing' => 'Gnente da volté.',
 	'error-notsvg' => "Pa n'archivi SVG.",
 	'error-unexpected' => "A l' capitaje n'eror pa spetà.",
-	'error-notfound' => "L'archivi SVG a peul pa esse trovà da l'anliura dàita.",
-	'error-upload' => "A l'é stàit-ie n'eror an cariand.",
-	'begin-translation' => 'Ancamin-a tradussion',
+	'error-notfound' => "L'archivi SVG a l'ha pa podù esse trovà da l'anliura dàita.",
+	'error-upload' => "A-i é staje n'eror an cariand.",
+	'begin-translation' => 'Ancaminé la tradussion',
 	'th-original' => 'Original',
 	'th-translation' => 'Tradussion',
 	'th-language' => 'Lenga',
 	'th-username' => 'Stranòm',
 	'th-password' => 'Ciav',
 	'th-method' => 'Métod',
-	'option-tusc' => 'TUSC (caria automàtica)',
-	'option-manual' => 'Caria manual',
+	'option-tusc' => 'TUSC (cariament automàtich)',
+	'option-manual' => 'Cariament manual',
 	'preview' => 'Preuva',
 	'translate' => 'Traduv',
-	'translate-instructions' => 'Anseriment a son acetà o com nòm d\'archivi (esempi "$1") o anliure complete (esempi "$2"). Se as dòvra la prima opsion, as dovrerò Wikimedia Commons com sorziss. Për volté un SVG da n\'àutr sit o wiki, it deuve dovré ël formà con anliura completa.',
+	'translate-instructions' => "J'anseriment a son acetà o com nòm d'archivi (për esempi «$1») o tanme anliure complete (për esempi «$2»). Se un a deuvra la prima opsion, as dovrerà Wikimedia Commons com sorgiss. Për volté un SVG da n'àutr sit o wiki, a dev dovré ël formà con anliura completa.",
 	'svginput-label' => 'Archivi SVG',
-	'stats-footer' => "St'utiss a l'é stàit dovrà për volté apepro $1 archivi dal $2.",
+	'stats-footer' => "St'utiss a l'é stàit dovrà për volté apopré $1 archivi da $2.",
 	'uploading' => 'Cariament',
-	'upload-complete' => "La caria a l'é stàita completà da bin. La figura a dovrìa esse a $1",
-	'editdescriptionpage' => 'Modìfica la neuva pagina ëd descrission',
-	'disclaimer' => "Quaich dat anònim a saran cujì privatament për but statìstich. Se dàit, nòm utent TUSC ëdcò a saran memorisà për assistensa ant l'event ëd vandalism. Le ciav a san mai memorisà.",
-	'author-complete' => "Për piasì completa j'anformassion dl'autor!",
+	'upload-complete' => "Ël cariament a l'é stàit completà për da bin. La figura a dovrìa adess trovesse a $1",
+	'editdescriptionpage' => 'Modifiché la neuva pàgina ëd descrission',
+	'disclaimer' => "Chèich dat anònim a saran cujì ëd fasson privà për dij but statìstich. Se fornì, jë stranòm d'utent TUSC a saran ëdcò memorisà për giuté ant ij cas ëd vandalism. Le ciav a san mai memorisà.",
+	'author-complete' => "Për piasì, ch'a completa j'anformassion an sl'autor!",
 	'preview-hide' => 'Stërmé la previsualisassion',
-	'preview-refresh' => 'Rinfrësca preuva',
-	'error-must-accept' => "Për continué con na caria direta it deuve aceté ij termo d'usagi dàit.",
+	'preview-refresh' => 'Rinfrësché la preuva',
+	'error-must-accept' => "Për continué con un cariament diret a dev aceté le condission d'utilisassion fornìe.",
 	'error-tusc-failed' => 'Falì la valisassion TUSC: nòm utent o ciav pa giust.',
 	'description-license' => 'Selession-a descrission o licensa',
-	'finalise' => 'Finalisa detaj',
+	'finalise' => 'Finalisé ij detaj',
 );
 
 /** Pashto (پښتو)

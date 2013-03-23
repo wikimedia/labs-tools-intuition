@@ -626,6 +626,7 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Evropi
+ * @author Glavkos
  */
 $messages['el'] = array(
 	'current-settings' => 'Τρέχουσες ρυθμίσεις',
@@ -640,6 +641,7 @@ $messages['el'] = array(
 	'tab-overview' => 'Επισκόπηση',
 	'tab-settings' => 'Ρυθμίσεις',
 	'tab-about' => 'Σχετικά',
+	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Ρυθμίσεις γλώσσας',
 	'bl-mysettings-new' => 'Αλλαγή γλώσσας!',
 	'bl-promo' => 'Οι μεταφράσεις τροφοδοτούνται από το $1 και το $2.',
@@ -647,6 +649,7 @@ $messages['el'] = array(
 	'usage' => 'Εργαλεία μεταφρασμένα με το Toolserver Intuition.',
 	'help-translate-tool' => 'Βοηθήστε μας να μεταφράσουμε αυτό το εργαλείο!',
 	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!',
+	'help-translate-tooltip' => 'Βοηθήστε τους άλλους μεταφράζοντας τα μηνύματα της διεπαφής στη γλώσσα σας.',
 );
 
 /** British English (British English)
@@ -1220,6 +1223,14 @@ $messages['ka'] = array(
 	'bl-mysettings-new' => 'ენის შეცვლა!',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'tab-settings' => 'ការកំណត់​នានា',
+	'tab-about' => 'អំពី',
+);
+
 /** Kannada (ಕನ್ನಡ)
  * @author M G Harish
  */
@@ -1735,32 +1746,33 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
-	'fullname' => "Antërnassionalisassion për l'Antërfacia Utent ëd Toolserver",
+	'fullname' => "Antërnassionalisassion ëd l'Antërfacia Utent dël Toolserver",
 	'current-settings' => 'Ampostassion corente',
 	'current-language' => 'Lenga selessionà al moment',
 	'settings-legend' => 'Regolassion',
 	'choose-language' => 'Sern na lenga',
-	'clear-cookies' => 'polida ij cookie',
-	'renew-cookies' => 'arneuva ij cookie',
-	'cookie-expiration' => 'Scadensa dij cookie',
-	'clearcookies-success' => 'Scanselà cookie da bin',
-	'renewcookies-success' => "Cookie rinovà! It je l'hai tùit ampostà për ij $1 ch'a ven-o.",
+	'clear-cookies' => 'eliminé ij bëscotin',
+	'renew-cookies' => 'arnové ij bëscotin',
+	'cookie-expiration' => 'Scadensa dël bëscotin',
+	'clearcookies-success' => 'Scancelà për da bin ij bëscotin',
+	'renewcookies-success' => "Bëscotin rinovà! A l'é a pòst për $1.",
 	'tab-overview' => "Vista d'ansem",
 	'tab-settings' => 'Regolassion',
 	'tab-about' => 'A propòsit',
 	'tab-demo' => 'Dimostrassion',
 	'bl-mysettings' => 'Mie ampostassion ëd lenga',
-	'bl-mysettings-new' => 'Cangia lenga!',
+	'bl-mysettings-new' => 'Cangé la lenga!',
 	'bl-promo' => 'le tradussion a son soagnà da $1 e $2.',
-	'bl-changelanguage' => "Sgnaca sì për cangé le lenga d'antërfacia dë sto utiss.",
+	'bl-changelanguage' => "Ch'a sgnaca ambelessì për cangé le lenga dl'antërfacia ëd s'utiss.",
 	'usage' => 'Utiss voltà da Toolserver Intuition.',
-	'help-translate-tool' => "Giuta a viré st'utiss.",
-	'help-translate-all' => 'Giuta a viré Toolserver!',
-	'help-translate-tooltip' => "Giuta àutri voltand ij mëssagi d'antërfacia an toa lenga.",
+	'help-translate-tool' => "Ch'a giuta a volté st'utiss.",
+	'help-translate-all' => "Ch'a giuta a volté ël Toolserver!",
+	'help-translate-tooltip' => "Ch'a giuta j'àutri an voltand ij mëssagi dl'antërfacia an soa lenga.",
 );
 
 /** Pashto (پښتو)
@@ -2310,14 +2322,18 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author DixonD
  * @author Steve.rusyn
  */
 $messages['uk'] = array(
+	'fullname' => 'Інтернаціоналізація користувацького інтерфейсу Тулсервера',
 	'current-settings' => 'Поточні налаштування',
+	'current-language' => 'Поточна вибрана мова',
 	'settings-legend' => 'Налаштування',
 	'choose-language' => 'Оберіть мову',
 	'clear-cookies' => 'очистити cookies',
 	'renew-cookies' => 'оновити cookies',
+	'cookie-expiration' => 'Закінчення терміну дії cookie',
 	'tab-overview' => 'Огляд',
 	'tab-settings' => 'Налаштування',
 	'tab-about' => 'Опис',

@@ -805,8 +805,10 @@ Su teke druge glědałkowe GNU-serwery, glědaj
  * @author Glavkos
  */
 $messages['el'] = array(
+	'title' => 'Λήψη εικόνων ανά κατηγορία',
 	'project' => 'Εγχείρημα:',
 	'category' => 'Κατηγορία:',
+	'thumbnailing' => 'Μικρογραφίες',
 	'max-width' => 'Μέγιστο πλάτος:',
 	'max-height' => 'Μέγιστο ύψος:',
 	'invalid-width' => 'Μη έγκυρο πλάτος',
@@ -1591,6 +1593,15 @@ $messages['ka'] = array(
 	'download' => 'ჩამოტვირთვა',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'project' => 'គម្រោង​៖',
+	'category' => 'ចំណាត់ថ្នាក់ក្រុម៖',
+	'download' => 'ទាញយក',
+);
+
 /** Kannada (ಕನ್ನಡ)
  * @author Akoppad
  * @author M G Harish
@@ -2266,6 +2277,20 @@ $messages['ps'] = array(
 	'project' => 'پروژه:',
 	'category' => 'وېشنيزه:',
 	'download' => 'ښکته کول',
+);
+
+/** Portuguese (português)
+ * @author Sarilho1
+ */
+$messages['pt'] = array(
+	'project' => 'Projeto:',
+	'category' => 'Categoria:',
+	'max-width' => 'Máxima largura:',
+	'max-height' => 'Máxima altura:',
+	'invalid-width' => 'Largura inválida',
+	'invalid-height' => 'Altura inválida',
+	'no-such-project' => 'Esse projeto não existe',
+	'no-images' => 'Não há imagens nesta categoria',
 );
 
 /** Brazilian Portuguese (português do Brasil)

@@ -987,6 +987,7 @@ $messages['ia'] = array(
 	'seconds' => '{{PLURAL: $1|secunda|secundas}}',
 	'last-modified-date' => 'Ultime modification: $1',
 	'view-source' => 'Vider texto fonte',
+	'and' => '&#32;e',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1734,6 +1735,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
+ * @author Sarilho1
  */
 $messages['pt'] = array(
 	'hello' => 'Olá',
@@ -1743,10 +1745,12 @@ $messages['pt'] = array(
 	'namespace' => 'Espaço nominal',
 	'form-submit' => 'Enviar',
 	'form-reset' => 'Repor',
-	'years' => 'anos', # Fuzzy
-	'weeks' => 'semanas', # Fuzzy
-	'days' => 'dias', # Fuzzy
-	'hours' => 'horas', # Fuzzy
+	'years' => '{{PLURAL: $1|ano|anos}}',
+	'weeks' => '{{PLURAL: $1|semana|semanas}}',
+	'days' => '{{PLURAL: $1|dia|dias}}',
+	'hours' => '{{PLURAL: $1|hora|horas}}',
+	'minutes' => '{{PLURAL: $1|minuto|minutos}}',
+	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 	'last-modified-date' => 'Última modificação: $1',
 	'view-source' => 'Ver código fonte',
 );
@@ -1949,6 +1953,7 @@ $messages['sq'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Nikola Smolenski
  * @author Platonides
  * @author Rancher
  */
@@ -1969,7 +1974,7 @@ $messages['sr-ec'] = array(
 	'minutes' => '{{PLURAL: $1|минут|минута|минута}}',
 	'seconds' => '{{PLURAL: $1|секунд|секунде|секунди}}',
 	'last-modified-date' => 'Последња измена: $1',
-	'view-source' => 'Изворник',
+	'view-source' => 'Изворни код',
 	'parentheses' => '($1)',
 	'and' => '&#32;и',
 );

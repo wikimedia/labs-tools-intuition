@@ -872,13 +872,13 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'enter-details' => "Ch'a anserissa ij detaj",
-	'introduction' => "Scrive ël nòm ëd në stamp (mach ëd Wikipedia al moment) e sgnava và. A l'é belfé parèj. A-i é quaich memòria (memòria dj'arzultà), ma lòn a l'é për maleur fòra dël contròl dë st'utiss e dij sò gestor.",
+	'introduction' => "Ch'a scriva ël nòm ëd në stamp (mach për Wikipedia al moment) e ch'a sgnaca andé. A basta mach parèj. A-i é cheicòs an memòria (memòria dj'arzultà), ma lòn a l'é për maleur fòra dël contròl dë st'utiss e dij sò gestor.",
 	'language-label' => 'Lenga',
 	'namespace-label' => 'Spassi nominal',
 	'pagename-label' => 'Nòm ëd la pàgina (sensa lë spassi nominal)',
 	'transclusion-count-label' => "Nùmer d'anclusion",
 	'transclusion-count' => '$1 anclusion trovà.',
-	'error-suggestion' => "Miraco it l'has-to sbalià (o sbalià ël maiuscolin) ël nòm ëd la pagina?",
+	'error-suggestion' => "Miraco a l'ha fàit un boro (o sbalià le majùscole) ant ël nòm ëd la pàgina?",
 	'time-label' => 'Temp butà për eseguì ël comand.',
 );
 
@@ -888,6 +888,13 @@ $messages['pms'] = array(
 $messages['ps'] = array(
 	'language-label' => 'ژبه',
 	'namespace-label' => 'نوم-تشيال',
+);
+
+/** Portuguese (português)
+ * @author Sarilho1
+ */
+$messages['pt'] = array(
+	'language-label' => 'Língua',
 );
 
 /** Romanian (română)
