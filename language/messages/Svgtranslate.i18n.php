@@ -723,7 +723,7 @@ $messages['diq'] = array(
 	'th-original' => 'Orcinal',
 	'th-translation' => 'Çarnayış',
 	'th-language' => 'Zıwan',
-	'th-username' => 'Namey karberi',
+	'th-username' => 'Nameyê karberi',
 	'th-password' => 'Parola',
 	'th-method' => 'Metod',
 	'option-tusc' => 'TUSC (otomatik barkerdış)',
@@ -2022,6 +2022,14 @@ $messages['nb'] = array(
 	'finalise' => 'Ferdigstill detaljer',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'th-translation' => 'Översetten',
+	'th-language' => 'Spraak',
+);
+
 /** Nepali (नेपाली)
  * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
@@ -2302,8 +2310,8 @@ $messages['pms'] = array(
 	'preview-hide' => 'Stërmé la previsualisassion',
 	'preview-refresh' => 'Rinfrësché la preuva',
 	'error-must-accept' => "Për continué con un cariament diret a dev aceté le condission d'utilisassion fornìe.",
-	'error-tusc-failed' => 'Falì la valisassion TUSC: nòm utent o ciav pa giust.',
-	'description-license' => 'Selession-a descrission o licensa',
+	'error-tusc-failed' => "Falì la validassion TUSC: stranòm d'utent o ciav pa giust.",
+	'description-license' => "Ch'a selession-a la descrission e la licensa",
 	'finalise' => 'Finalisé ij detaj',
 );
 

@@ -1122,7 +1122,7 @@ Schpääder kanns De heh dann et kumplätte Protokoll dovun beloore.',
 	'download-button' => '$1 eronger laade',
 	'download-directlink' => 'tiräkte Lenk',
 	'title-downloadpage' => '$1 eronger laade',
-	'downloadpage-directlink' => 'Donn heh klecke, öm dä Schnapschoß eronger ze laade.', # Fuzzy
+	'downloadpage-directlink' => 'Donn heh klecke, öm dä Schnapschos eronger ze laade.',
 	'err-snapshotindex' => 'Et Verzeijschneß met de Schnapschöß es em Momang nit ze bruche.
 Versöhg_et schpääder widder.',
 	'err-invalid-repo' => 'En Sammlong „$1“kenne mer nit.',
@@ -1319,6 +1319,13 @@ $messages['nb'] = array(
 	'tablehead-hash' => 'Kontrollsummer',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'title-error' => 'Fähler',
+);
+
 /** Newari (नेपाल भाषा)
  * @author Eukesh
  */
@@ -1443,16 +1450,16 @@ $messages['pms'] = array(
 	'title-overview' => 'Fòto',
 	'title-error' => 'Eror',
 	'title-updatelog' => 'Agiorné ël registr',
-	'updatelog-intro' => "Lë script d'agiornament a l'é schedulà për viré minca ora. Sota a-i é la surtìa dla console dl'ùltima esecussion.",
-	'updatelog-active' => "Lë script d'agiornament al moment a sta virand. Torna pi tard për ël registr complet.",
+	'updatelog-intro' => "Ël copion d'agiornament a l'é programà për marcé tute j'ore. Sì-sota a-i é la surtìa dla plancia dl'ùltima esecussion.",
+	'updatelog-active' => "Ël copion d'agiornament a l'é an camin ch'a marcia. Ch'a torna pi tard për ël registr complet.",
 	'download-button' => 'Dëscaria $1',
 	'download-directlink' => 'liura direta',
 	'title-downloadpage' => 'Dëscaria: $1',
 	'downloadpage-directlink' => 'Sgnaca sì për dëscarié la fòto.',
-	'err-snapshotindex' => 'Indes dle fòto temporaneament pa disponìbil. Përpiasì preuva torna pi tard.',
+	'err-snapshotindex' => "Tàula dle fòto al moment nen disponìbij. Për piasì, ch'a preuva torna pi tard.",
 	'err-invalid-repo' => 'Depòsit pa conossù: "$1".',
 	'err-invalid-branch' => 'Session pa conossùa: "$1" ant ël depòsit "$2".',
-	'err-nosnapshot' => 'Le fòto a son generà minca pòche ore. Mente as género le fòto pëfr "$1", a l\'é capitaje n\'eror. Për piasì preuva torna pi tard.',
+	'err-nosnapshot' => "Le plance a son generà minca pòche ore. Antramentre ch'as generavo le plance për «$1», a l'é capitaje n'eror. Për piasì, ch'a preuva torna pi tard.",
 	'err-noupdatelog' => 'Gnun agiornament ëd registr a son stàit trovà.',
 	'repo-site-link' => "Sit dl'aragnà",
 	'repo-browse-link' => 'Navighé ant ël depòsit',

@@ -1446,6 +1446,7 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  * @author පසිඳු කාවින්ද
  */
@@ -1453,21 +1454,21 @@ $messages['pms'] = array(
 	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(selession-a na wiki prima)',
 	'hideredirects' => 'Stërma le ridiression',
-	'hidesubpages' => 'Stërma le sotpagine',
+	'hidesubpages' => 'Stërmé le sot-pàgine',
 	'limit' => 'Lìmit',
 	'page' => 'Pàgina',
-	'redirect' => "A l'é-lo na ridiression?",
+	'redirect' => 'É-lo na ridiression?',
 	'output' => 'Surtìa',
 	'update' => 'Agiorna',
 	'tools-delete' => 'scancelé',
 	'tools-links' => 'anliure',
 	'tools-subject' => 'soget',
 	'tools-hist' => 'stòria',
-	'tools-curr' => 'corr',
+	'tools-curr' => 'cor',
 	'tools-globalusage' => 'globalusage',
-	'deletesummary' => 'Canselé pagine ëd discussion orfanele via $1',
-	'noresults' => 'Gnun-e pagine ëd discussion orfanele dzor sta wiki ant sto passi nominal a corispondo a toe ampostassion.',
-	'resultslimited' => "J'arzultà a son stàit limità a $1 pagine.",
+	'deletesummary' => 'Scancelassion ëd le pàgine ëd discussion orfanin-e via $1',
+	'noresults' => 'Gnun-e pàgine ëd discussion orfanin-e dzora a sta wiki ant cost ëspassi nominal a corëspondo a soe ampostassion.',
+	'resultslimited' => "J'arzultà a son stàit limità a $1 pàgine.",
 );
 
 /** Pashto (پښتو)

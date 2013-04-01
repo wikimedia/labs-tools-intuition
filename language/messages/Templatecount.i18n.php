@@ -773,6 +773,13 @@ $messages['nb'] = array(
 	'time-label' => 'Tiden det tar å utføre kommandoen',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'language-label' => 'Spraak',
+);
+
 /** Newari (नेपाल भाषा)
  * @author Eukesh
  */

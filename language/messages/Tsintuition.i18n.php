@@ -582,14 +582,14 @@ $messages['de'] = array(
 $messages['diq'] = array(
 	'current-settings' => 'Sazê enewki',
 	'current-language' => 'Zıwano ke newke weçineyayo',
-	'settings-legend' => 'Sazi',
+	'settings-legend' => 'Eyari',
 	'choose-language' => 'Yew zıwan weçinê',
 	'clear-cookies' => 'Çereza besterne',
 	'renew-cookies' => 'çerezan newe ke',
 	'cookie-expiration' => 'wahdey çereza biyo pır',
 	'clearcookies-success' => 'Çerezi weş besterneyay',
 	'tab-overview' => 'Hera weynayis',
-	'tab-settings' => 'Sazi',
+	'tab-settings' => 'Eyari',
 	'tab-about' => 'Heqa cı de',
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Sazê zıwan dı mı',
@@ -1536,6 +1536,13 @@ $messages['nb'] = array(
 	'help-translate-tool' => 'Hjelp med oversettelsen av dette verktøyet!',
 	'help-translate-all' => 'Hjelp med oversettelsen av Toolserver!',
 	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
+);
+
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'tab-about' => 'Över',
 );
 
 /** Newari (नेपाल भाषा)

@@ -880,6 +880,13 @@ $messages['nb'] = array(
 	'toolserver-status-short-missing' => '$1: Mangler',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'toolserver-status-short-erro' => '$1: Fähler',
+);
+
 /** Newari (नेपाल भाषा)
  * @author Eukesh
  */

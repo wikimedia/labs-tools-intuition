@@ -2680,6 +2680,14 @@ $messages['nb'] = array(
 	'help_commons' => '$1Legg til et innlegg på Commons$2',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'language' => 'Spraak',
+	'categories' => 'Kategorien',
+);
+
 /** Nepali (नेपाली)
  * @author Krish Dulal
  */
@@ -3015,24 +3023,24 @@ $messages['pms'] = array(
 	'error_on_commons' => "L'archivi sorgiss a l'é già dzor $1!",
 	'error_file_exists' => 'L\'archivi a esist già dzor $3 com "$1$4$2"!',
 	'error_diff_exists' => "N'archivi destinassion diferent a esist an sla wiki destinassion con ël midem nòm!",
-	'error_no_meta' => 'Gnun metadat trovà a propòsit dla wiki sorziss! $1Për piasì gionta/agiorna ij metadat për ël proget$2',
+	'error_no_meta' => 'Gnun metadat trovà për da wiki sorgiss! $1Për piasì, gionté/agiorné ij metadat për ël proget$2',
 	'error_meta_no_good' => 'Metadat: Gnun stamp bon trovà! $1Për piasì gionta/agiorna ij metadat për ël proget$2',
 	'error_meta_bad' => 'Metadat: Në stamp pa bon trovà! $1Për piasì gionta/agiorna ij metadat për ël proget$2',
 	'original_wikitext' => 'Test original dla wiki',
 	'new_wikitext' => 'Test neuv dla wiki',
 	'new_filename' => "Neuv nòm d'archivi:",
-	'output_information' => "Për cariagi manual, modìfica ël test dzora (se necessari), salva $1l'archivi$2 dzor tò calcolador, peui $3carijlo$4.",
+	'output_information' => "Për ël cariagi manual, modifiché ël test sì-dzora (se necessari), ch'a argistra $1l'archivi$2 su sò ordinator, peui $3ch'a lo caria$4.",
 	'upload_submit' => 'Carié!',
 	'target_wiki' => 'la wiki destinassion',
-	'error_bot_blocked' => "Trigomiro ëd caria a l'é blocà dzor Wikimedia Commons.",
-	'error_upload_meta' => 'As peul pa carié diretament përchè a-i é un problem con ij metadat (varda dzora)!',
+	'error_bot_blocked' => "Ël trigomiro ëd cariament a l'é blocà dzor Wikimedia Commons.",
+	'error_upload_meta' => 'As peul pa cariesse diretament përchè a-i é un problema con ij metadat (vëdde sì-dzora)!',
 	'error_tusc_failed' => 'Verìfica TUSC falìa!',
-	'error_only_commons' => 'Cariagi riret a travaja mach a Wikimedia Commons!',
+	'error_only_commons' => 'Ël cariagi diret a travaja mach su Wikimedia Commons!',
 	'upload_control_text' => 'Për piasì contròla ël neuv test wiki e sgnaca "$1" se tut a và bin!',
-	'error_commons_user' => "Për identifiché l'utent dël trasferiment, tò nòm utent ëd Wikimedia Commons a deuv esse ant la descrission!",
-	'error_upload_users' => "Le funsion ëd caria a l'é mach disponìbil Për quaich utent an mente dl'antërval ëd preuva.",
+	'error_commons_user' => "Për identifiché l'utent ch'a fa ël trasferiment, sò stranòm d'utent ëd Wikimedia Commons a dev essie ant la descrission!",
+	'error_upload_users' => "Le funsion ëd cariament a l'é mach disponìbil për chèich utent durant ël perìod ëd preuva!",
 	'error_upload_file' => "L'archivi original a peul pa esse dëscarià.",
-	'help_intro' => "Quand it veule arporté n'eror, sugerì na funsion o avèj na custion, it peule dovré un-a dle sòrt ëd contat sota:",
+	'help_intro' => 'Quand a veul arporté un givo, sugerì na funsion o fé na domanda, a peul dovré un-a dle sòrt ëd contat sì-sota:',
 	'help_jira' => '$1JIRA (at serv un cont)$2 (Project: Commonshelper2)',
 	'help_mail' => 'Mandé un mëssagi a $1',
 	'help_commons' => '$1Gionta un mëssagi dzor Commons$2',
@@ -3070,6 +3078,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Helder.wiki
+ * @author TheGabrielZaum
  * @author 555
  */
 $messages['pt-br'] = array(
@@ -3093,6 +3102,7 @@ $messages['pt-br'] = array(
 	'do_it' => 'Faça isso',
 	'error_transfer_usr' => 'Você não definiu um nome de usuário do Wikimedia Commons',
 	'error_not_exists' => 'O arquivo de origem não existe!',
+	'error_on_commons' => 'Arquivo de origem já se encontra em $1!',
 	'error_file_exists' => 'O arquivo já existe na $3 como "$1$4$2"!',
 	'error_diff_exists' => 'Um arquivo de destino diferente existe na wiki de destino com o mesmo nome!',
 	'error_no_meta' => 'Não foram encontrados metadados sobre a wiki de origem! $1Por favor, adicione/atualize os metadados para o projeto$2',
@@ -3112,6 +3122,7 @@ $messages['pt-br'] = array(
 	'error_commons_user' => 'Para identificar o usuário da transferência, o seu nome de usuário no Wikimedia Commons tem que estar na descrição!',
 	'error_upload_users' => 'A função de upload só está disponível para alguns usuários durante o período de teste!',
 	'error_upload_file' => 'O arquivo original não pode ser baixado.',
+	'help_intro' => 'Caso queire reportar um bug, sugerir uma função ou tenha uma dúvida, você pode usar uma das formas de contato abaixo:',
 );
 
 /** Romanian (română)
@@ -4061,6 +4072,7 @@ $messages['yi'] = array(
  * @author Hzy980512
  * @author Linforest
  * @author Mys 721tx
+ * @author Zhuyifei1999
  */
 $messages['zh-hans'] = array(
 	'attention' => '关注',
@@ -4091,6 +4103,7 @@ $messages['zh-hans'] = array(
 	'original_wikitext' => '原始维基文本',
 	'new_wikitext' => '新的维基文本',
 	'new_filename' => '新的文件名：',
+	'output_information' => '对于手动上载，编辑上述文本 （如果需要），保存 $1 文件 $2 到您的计算机，然后 $3 将其上传 $4 。',
 	'upload_submit' => '上传！',
 	'target_wiki' => '目标维基',
 	'standard_project' => '维基百科',
@@ -4103,6 +4116,7 @@ $messages['zh-hans'] = array(
 	'error_upload_users' => '测试期间仅有部分用户可以使用上传功能！',
 	'error_upload_file' => '无法下载原始文件。',
 	'help_intro' => '当您希望报告bug、提议增加新功能或咨询问题时，您可以使用下列联系方式中的一种。',
+	'help_jira' => '$1JIRA（你需要一个帐户）$2 （项目：Commonshelper2）',
 	'help_mail' => '发送邮件给$1',
 );
 

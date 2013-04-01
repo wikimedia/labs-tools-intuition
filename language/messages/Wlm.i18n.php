@@ -1579,12 +1579,15 @@ $messages['eu'] = array(
  * @author Mjbmr
  * @author Reza1615
  * @author ZxxZxxZ
+ * @author جواد
  */
 $messages['fa'] = array(
 	'file' => 'تصویر',
 	'province' => 'استان',
 	'comarque' => 'منطقه',
 	'author' => 'مؤلف',
+	'country-header' => 'کشور',
+	'location' => 'موقعیت',
 	'upload-time' => 'زمان بارگذاری',
 	'deleted' => 'حذف شده‌است ($1)',
 	'not-available' => 'در دسترس نیست',
@@ -1597,9 +1600,11 @@ $messages['fa'] = array(
 	'show-button' => 'نمایش',
 	'view-previous-images' => '→ مشاهده تصاویر قبلی',
 	'view-later-images' => 'مشاده تصاویر بعدی ←',
+	'bot' => 'ربات',
 	'id-label' => 'شناسه یادبود:',
 	'id-none' => '(هیچ)',
 	'count-heading' => 'عکس‌ها',
+	'photographer-count-heading' => 'عکاسان',
 	'bic-list' => 'فهرست',
 	'bic-gallery' => 'نگارخانه',
 	'author-heading' => 'پدیدآور',
@@ -1609,6 +1614,7 @@ $messages['fa'] = array(
 	'users-list' => 'نمایش',
 	'province-heading' => 'استان',
 	'province-none' => '(نامعلوم)',
+	'nomail-user-count' => '$1 کاربران',
 );
 
 /** Finnish (suomi)
@@ -3112,6 +3118,13 @@ $messages['mt'] = array(
 $messages['nb'] = array(
 	'title' => 'WLM-filer',
 	'file' => 'Bilde',
+);
+
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'country-label' => 'Staat:',
 );
 
 /** Newari (नेपाल भाषा)

@@ -239,10 +239,11 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'alws-selectwiki' => '(wiki weçinê)',
-	'form-legend-settings' => 'Sazi',
+	'form-legend-settings' => 'Eyari',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -430,6 +431,16 @@ $messages['id'] = array(
 	'alws-group-mustused' => 'Wiki yang paling banyak digunakan',
 	'alws-group-allaz' => 'Semua wiki berdasarkan abjad',
 	'form-legend-settings' => 'Pengaturan',
+);
+
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'alws-selectwiki' => '(agpili ti wiki)',
+	'alws-group-mustused' => 'Dagiti kaaduan a naus-usar a wiki',
+	'alws-group-allaz' => 'Amin dagiti wiki nga alpabetiko',
+	'form-legend-settings' => 'Dagiti pakayasentaran',
 );
 
 /** Italian (italiano)

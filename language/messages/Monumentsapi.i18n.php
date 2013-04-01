@@ -2497,6 +2497,20 @@ $messages['nb'] = array(
 	'filter-all-languages' => 'Alle språk',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'db-field-country' => 'Staat',
+	'db-field-lang' => 'Spraak',
+	'db-field-name' => 'Naam',
+	'db-field-image' => 'Bild',
+	'db-field-st_image' => 'Bild',
+	'db-field-st_image_pct' => 'Bild %',
+	'db-field-st_name' => 'Naams',
+	'db-field-st_name_pct' => 'Naams %',
+);
+
 /** Nepali (नेपाली)
  * @author RajeshPandey
  */

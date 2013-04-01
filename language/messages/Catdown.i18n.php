@@ -1994,6 +1994,13 @@ $messages['mt'] = array(
 	'scaling-width' => ", mqassra għal wisa' massima ta' $1 {{plural:$1|pixel|pixels}}",
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'category' => 'Kategorie:',
+);
+
 /** Nepali (नेपाली)
  * @author Krish Dulal
  */
@@ -2238,32 +2245,32 @@ $messages['pms'] = array(
 	'no-such-project' => 'Ës proget a esist nen',
 	'no-images' => 'A-i é pa ëd figure an sta categorìa',
 	'category-is-url' => 'Ël nòm ëd categorìa fornì a smija na liura. A dev specifiché ël nòm ëd la categorìa, pa soa anliura.',
-	'category-contains-namespace' => "A smija ch'it l'abie ancludù lë spassi nominal con ël nòm ëd categorìa. Con ëd nòm dàit, la pagina a dovrìa esse disponìbil com [[Category:$1]].",
+	'category-contains-namespace' => "A smija ch'a l'abie ancludù lë spassi nominal con ël nòm ëd la categorìa. Con ël nòm fornì, la pàgina a sarìa disponìbil com [[Category:$1]].",
 	'zip-failed' => 'Creassion dël Zip falìa',
-	'image-area-too-big' => "$1 a l'é tròp gròss për creé na miniadura. Dovr-lo a dimension pien-a.",
-	'download-info' => '{{plural: $1|A-i é na figura|A-i sin $1 figure}}, con na dimension stimà ëd  $2',
+	'image-area-too-big' => "$1 a l'é tròp gròss për creé na miniadura. As deuvra la dimension pien-a.",
+	'download-info' => '{{plural: $1|A-i é na figura|A-i son $1 figure}}, con na dimension stimà ëd $2',
 	'download' => 'Dëscaria',
-	'readme-contents' => "L'archivi ancludù $4 a lista
+	'readme-contents' => "L'archivi contnidor $4 a lista
 le figure ant la categorìa $1 ( $2 )$3
 
 == Istrussion për dëscarié tute le figure listà ==
 El temp ëd dëscaria a peul varié da pòche minute a vàire ore.
 
 Windows:
- Tira fòra tùit j'archivi ant la midema cartela e fà viré $5
+ Tiré fòra tùit j'archivi ant ël midem dossié e fé marcé $5
  $6
 Linus/Mac OS
- Tira fòra tùit j'archivi ant deurb un terminal an cola cartela. Fà viré sh $5",
-	'non-bundled-wget' => 'Nòta: sta vërsion a anclud pa wget për Windows. It deuve decomprime ant na cartela con wget.exe o dësnò avèj wget ant ël PATH',
-	'wget-info' => "Sto archivi a anclud na còpia ëd wget $1 (për piataforma Windows). wget a l'é Software Lìber,
-sota ij termo ëd la LICENSA GNU GENERAL PUBLIC vërsion 3.
-A-i é na còpia dla licensa sota, e a l'é ëdcò disponìbil a http://www.gnu.org/licenses/gpl-3.0.txt
+ Tiré fòra tùit j'archivi e duverté un terminal an col dossié. Fà marcé sh $5",
+	'non-bundled-wget' => 'Nòta: costa vërsion a anclud pa wget për Windows. A dev dëscomprime ant un dossié con wget.exe o dësnò avèj wget ant ël PATH',
+	'wget-info' => "Cost archivi a comprend na còpia ëd wget $1 (për piataforma Windows). wget a l'é un programa Lìber,
+sota le condission ëd la LICENSA GNU GENERAL PUBLIC version 3.
+A-i é na còpia dla licensa sì-sota, e a l'é ëdcò disponìbil a http://www.gnu.org/licenses/gpl-3.0.txt
 
-An cas it sie anteressaà a pijé ël còdes sorziss për sto program, it peule dëscarielo da
+Dle vire ch'a sia anteressà a avèj ël còdes sorziss për cost programa, a peul dëscarielo da
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
-o quaich àutr Mirror GNU, varda
+o chèich àutr ëspecc GNU, ch'a vëdda
  http://www.gnu.org/prep/ftp.html",
 	'scaling-width' => ', scalà a na larghëssa màssima ëd $1 {{plural:$1|pontin}}',
 	'scaling-height' => ", scalà a n'autëssa màssima ëd $1 {{plural:$1|pontin}}",
@@ -2295,8 +2302,11 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Luckas Blade
+ * @author TheGabrielZaum
  */
 $messages['pt-br'] = array(
+	'title' => 'Download de imagens por categoria',
+	'subtitle' => 'Um jeito fácil de baixar as imagens numa categoria',
 	'project' => 'Projeto:',
 	'category' => 'Categoria:',
 	'thumbnailing' => 'Miniatura',
@@ -2306,6 +2316,26 @@ $messages['pt-br'] = array(
 	'invalid-height' => 'Altura inválida',
 	'no-such-project' => 'Não existe tal projeto',
 	'no-images' => 'Não há nenhuma imagem nessa categoria',
+	'category-is-url' => 'O nome da categoria dado parece um URL. Você precisa especificar o nome da categoria, não seu URL.',
+	'category-contains-namespace' => 'Parece que você incluiu o espaço de nomes junto com o nome da categoria. Com o nome dado, a página estará disponível como [[Category:$1]].',
+	'zip-failed' => 'Falha na criação de Zip',
+	'image-area-too-big' => '$1 é muito grande para criar uma miniatura. Usando o tamanho inteiro.',
+	'download-info' => '{{plural: $1|Há uma imagem|Há $1 imagens}}, com um tamanho estimado em $2',
+	'download' => 'Baixar',
+	'non-bundled-wget' => 'Nota: Esta versão não inclui wget para Windows. Você deverá extrair em uma pasta com o wget.exe ou senão ter wget na  ROTA.',
+	'wget-info' => 'Este arquivo contém uma cópia de wget $1 (para a plataforma Windows). Wget é um Software Gratuito,
+sob os termos da LICENÇA PÚBLICA GERAL GNU versão 3.
+Há uma cópia da licença abaixo, e está também disponível em http://www.gnu.org/licenses/gpl-3.0.txt
+
+Caso você esteja interessado em ter o código-fonte para esse programa, você pode baixá-lo em
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ou ver outro Espelho GNU, veja
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', dimensionada para uma largura máxima de $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => ', dimensionada para uma altura máxima de $1 {{plural:$1|pixel|pixels}}',
+	'scaling-both' => ', dimensionada para um tamanho máximo de $1x$2 pixels',
 );
 
 /** Romanian (română)
