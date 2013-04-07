@@ -81,7 +81,7 @@ $messages['en'] = array(
 	'help_commons' => '$1Add a post on Commons$2'
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always. It might be easier to translate it as "translation guidelines" or "translation help".)
  * @author EugeneZelenko
  * @author Jan Luca
  * @author Krinkle
@@ -2793,7 +2793,7 @@ $messages['nl'] = array(
 	'help_commons' => '$1Bericht toevoegen op Wikimedia Commons$2',
 );
 
-/** no (norsk bokmål)
+/** no (no)
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */

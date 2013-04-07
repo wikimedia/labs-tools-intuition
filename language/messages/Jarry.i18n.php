@@ -23,7 +23,7 @@ $messages['en'] = array(
 
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always. It might be easier to translate it as "translation guidelines" or "translation help".)
  * @author Jarry1250
  * @author Krinkle
  */
@@ -494,7 +494,7 @@ $messages['nl'] = array(
 	'error-form-empty' => 'Een of meer verplichte velden zijn leeg gelaten. U moet deze invullen voordat u verdergaat.',
 );
 
-/** no (norsk bokmål)
+/** no (no)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -533,6 +533,13 @@ $messages['pms'] = array(
 	'bugs' => "rapòrt d'eror e arceste ëd funsion",
 	'comments' => 'coment e arceste',
 	'error-form-empty' => 'Un o pi camp obligatòri a son stàit lassà veuid. A dev completeje prima ëd continué.',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Gusta
+ */
+$messages['pt-br'] = array(
+	'moretools' => 'mais ferramentas do mesmo autor',
 );
 
 /** Romanian (română)

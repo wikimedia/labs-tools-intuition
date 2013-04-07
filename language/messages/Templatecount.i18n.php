@@ -25,7 +25,7 @@ $messages['en'] = array(
 	'time-label' => 'Time taken to execute command',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always. It might be easier to translate it as "translation guidelines" or "translation help".)
  * @author Jarry1250
  * @author Krinkle
  */
@@ -809,7 +809,7 @@ $messages['nl'] = array(
 	'time-label' => 'Uitvoertijd van het commando',
 );
 
-/** no (norsk bokmål)
+/** no (no)
  * @author Nghtwlkr
  */
 $messages['no'] = array(

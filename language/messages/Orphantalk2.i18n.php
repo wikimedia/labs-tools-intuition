@@ -35,7 +35,7 @@ $messages['en'] = array(
 	'resultslimited' => 'Results were limited to $1 pages.',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always. It might be easier to translate it as "translation guidelines" or "translation help".)
  * @author Dbc334
  * @author EugeneZelenko
  * @author Krinkle
@@ -1356,7 +1356,7 @@ $messages['nl'] = array(
 	'resultslimited' => "Er worden maximaal $1 pagina's weergegeven.",
 );
 
-/** no (norsk bokmål)
+/** no (no)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(

@@ -60,7 +60,7 @@ $messages['en'] = array(
 	'source-monuments-list-on-wikipedia' => 'Source monuments list on Wikipedia',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always. It might be easier to translate it as "translation guidelines" or "translation help".)
  * @author Krinkle
  * @author McDutchie
  * @author Multichill
@@ -2615,7 +2615,7 @@ $messages['nl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Monumentenbronlijst op Wikipedia',
 );
 
-/** no (norsk bokmål)
+/** no (no)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -2901,9 +2901,11 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Gusta
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
+	'search-title' => 'Busca de monumentos',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Pesquisar',
