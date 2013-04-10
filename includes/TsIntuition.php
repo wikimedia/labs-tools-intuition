@@ -1240,7 +1240,7 @@ class TsIntuition {
 	 * - Second: Parameter override
 	 * - Third: Saved cookie
 	 * - Fourth: Preferences from Accept-Language header
-	 * - Fifth: A language which is a prefix for one of the 
+	 * - Fifth: A language which is a prefix for one of the
 	 * Accept-Language preferences.
 	 * - Sixth: English (default stays)
 	 *

@@ -30,15 +30,15 @@ foreach ( $files as $file ) {
 	if ( $file === '.' || $file === '..' || $file === '.svn' ) {
 		continue;
 	}
-	
+
 	$file = $dir.'/'.$file;
-	
+
 	$content = file_get_contents( $file );
-	
+
 	if ( !$content ) {
 		exit( 'Error: ' . $file );
 	}
-	
+
 	if ( preg_match( $reg, $content, $match ) ) {
 		$fallback_lang = $match[1];
 		preg_match( '@Messages(.*?)\\.php@', $file, $file_match );

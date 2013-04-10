@@ -6,7 +6,6 @@ require_once( __DIR__ . '/../../../includes/libs/ts-krinkle-basetool/InitTool.ph
 // TsIntuition classes
 require_once( __DIR__ . '/../../../ToolStart.php' );
 
-
 class IntuitionTestCase extends PHPUnit_Framework_TestCase {
 	protected $i18n;
 	protected $live = array() ;

@@ -8,7 +8,7 @@
  */
 
 // Protect against invalid entry
-if( !defined( 'TS_INTUITION' ) ) {
+if ( !defined( 'TS_INTUITION' ) ) {
 	echo "This file is part of TsIntuition and is not a valid entry point\n";
 	exit;
 }
@@ -198,7 +198,7 @@ class TsIntuitionUtil {
 
 		return preg_replace_callback( $extLinkBracketedRegex, 'self::parseExternalLinkArray', $text );
 	}
-	
+
 	/**
 	 * Changes the matches of parseExternalLinks into html.
 	 */
@@ -246,7 +246,7 @@ class TsIntuitionUtil {
 	/**
 	 * Builds a pretty url link to a wiki article.
 	 * It assumes the wiki is not hosted on IIS7.
-	 * 
+	 *
 	 * Most of this logic is taken from wfUrlencode().
 	 * @param $articlePath
 	 * @param $article

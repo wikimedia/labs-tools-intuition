@@ -1,8 +1,10 @@
 <?php
-error_reporting( E_ALL ); ini_set( 'display_errors', 1 ); date_default_timezone_set( 'UTC' );
+error_reporting( E_ALL );
+ini_set( 'display_errors', 1 );
+date_default_timezone_set( 'UTC' );
 
 /* Load Toolserver Intuition from the main directory */
-require_once( dirname(dirname( __DIR__ )) . '/ToolStart.php' );
+require_once( dirname( dirname( __DIR__ ) ) . '/ToolStart.php' );
 
 // Known demos
 $demoRegistry = array(
@@ -92,6 +94,6 @@ function close_demo( $file ) {
 }
 
 // Make this file viewable as well
-if( $thisFile == 'demoBase' ){
+if ( $thisFile == 'demoBase' ){
 	close_demo( __FILE__ );
 }
