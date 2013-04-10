@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'demoBase.php' );
+require_once 'demoBase.php';
 
 
 /* Demonstration */
@@ -18,4 +18,4 @@ echo $I18N->msg( 'r4nd0mstr1n9' );
 
 
 /* View source */
-close_demo( __FILE__ );
+closeDemo( __FILE__ );

@@ -9,7 +9,7 @@
  */
 
 // Protect against invalid entry
-if( !defined( 'TS_INTUITION' ) ) {
+if ( !defined( 'TS_INTUITION' ) ) {
 	echo "This file is part of TsIntuition and is not a valid entry point\n";
 	exit;
 }

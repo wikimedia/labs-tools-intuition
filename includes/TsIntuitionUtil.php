@@ -76,8 +76,8 @@ class TsIntuitionUtil {
 	 *
 	 * @return string
 	 */
-	public static function return_dump( $var, $html = true) {
-		$dump = NULL;
+	public static function returnDump( $var, $html = true) {
+		$dump = null;
 		ob_start();
 		var_dump( $var );
 		$dump = ob_get_contents();
@@ -130,7 +130,9 @@ class TsIntuitionUtil {
 		// Which is based on http://www.thefutureoftheweb.com/blog/use-accept-language-header
 
 		if ( $rawList === false ) {
-			$rawList = @$_SERVER['HTTP_ACCEPT_LANGUAGE'];
+			$rawList = isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )
+				? $_SERVER['HTTP_ACCEPT_LANGUAGE']
+				: '';
 		}
 
 		// Return the language codes in lower case
@@ -193,10 +195,18 @@ class TsIntuitionUtil {
 		}
 
 		$extLinkBracketedRegex = '/(?:(<[^>]*)|' .
-			'\[(((?i)' . $urlProtocols . ')' . self::EXT_LINK_URL_CLASS . '+)\p{Zs}*([^\]\\x00-\\x08\\x0a-\\x1F]*?)\]|'
-			. '(((?i)' . $urlProtocols . ')' . self::EXT_LINK_URL_CLASS . '+))/Su';
+			'\[(((?i)' . $urlProtocols . ')' .
+				self::EXT_LINK_URL_CLASS .
+				'+)\p{Zs}*([^\]\\x00-\\x08\\x0a-\\x1F]*?)\]|' .
+			'(((?i)' . $urlProtocols . ')' .
+				self::EXT_LINK_URL_CLASS .
+				'+))/Su';
 
-		return preg_replace_callback( $extLinkBracketedRegex, 'self::parseExternalLinkArray', $text );
+		return preg_replace_callback(
+			$extLinkBracketedRegex,
+			'self::parseExternalLinkArray',
+			$text
+		);
 	}
 
 	/**
@@ -226,7 +236,11 @@ class TsIntuitionUtil {
 	public static function parseWikiLinks( $text, $articlePath ) {
 		self::$articlePath = $articlePath;
 
-		return preg_replace_callback( '/\[\[:?([^]|]+)(?:\|([^]]*))?\]\]/', 'self::parseWikiLinkArray', $text );
+		return preg_replace_callback(
+			'/\[\[:?([^]|]+)(?:\|([^]]*))?\]\]/',
+			'self::parseWikiLinkArray',
+			$text
+		);
 	}
 
 	/**
@@ -240,7 +254,9 @@ class TsIntuitionUtil {
 
 		$article = html_entity_decode( $bits[1], ENT_QUOTES, 'UTF-8' );
 
-		return '<a href="' . htmlspecialchars( self::prettyEncodedWikiUrl( self::$articlePath, $article ), ENT_COMPAT, 'UTF-8' ) . '">' . $bits[2] . "</a>";
+		return '<a href="' . htmlspecialchars(
+			self::prettyEncodedWikiUrl( self::$articlePath, $article ), ENT_COMPAT, 'UTF-8'
+		) . '">' . $bits[2] . "</a>";
 	}
 
 	/**

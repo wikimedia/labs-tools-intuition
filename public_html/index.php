@@ -22,9 +22,9 @@ $BaseInit = '../../ts-krinkle-basetool/InitTool.php';
 if ( !file_exists( $BaseInit ) )  {
 	$BaseInit = dirname( __DIR__ ) . '/includes/libs/ts-krinkle-basetool/InitTool.php';
 }
-require_once( $BaseInit );
+require_once $BaseInit;
 
-require_once( dirname( __DIR__ ) . '/ToolStart.php' );
+require_once dirname( __DIR__ ) . '/ToolStart.php';
 
 /* Initialize TsIntuition */
 $opts = array(
@@ -43,13 +43,13 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 
 /* Initialize BaseTool */
 $opts = array(
-	'displayTitle'	=> _( 'fullname' ),
-	'krinklePrefix'	=> false,
-	'remoteBasePath'=> $I18N->dashboardHome,
-	'localBasePath'	=> $I18N->localBaseDir,
-	'revisionId'	=> $I18N->version,
-	'revisionDate'	=> $I18N->dateFormatted( $I18N->versionDate ),
-	'styles'		=> array( 'main.css' ),
+	'displayTitle'	 => _( 'fullname' ),
+	'krinklePrefix'	 => false,
+	'remoteBasePath' => $I18N->dashboardHome,
+	'localBasePath'	 => $I18N->localBaseDir,
+	'revisionId'	 => $I18N->version,
+	'revisionDate'	 => $I18N->dateFormatted( $I18N->versionDate ),
+	'styles'		 => array( 'main.css' ),
 );
 
 $Tool = BaseTool::newFromArray( $opts );
@@ -151,7 +151,10 @@ if ( isset( $_GET['msg'] ) ) {
 			break;
 		case 3:
 			$Tool->addOut(
-				_( 'renewcookies-success', array( 'variables' => array( '30 ' . _g( 'days', array( 'parsemag' => true, 'variables' => array( 30 ) ) ) ) ) ),
+				_( 'renewcookies-success', array( 'variables' => array( '30 ' . _g( 'days', array(
+					'parsemag' => true,
+					'variables' => array( 30 )
+				) ) ) ) ),
 				'div',
 				array( 'class' => 'msg ns success' )
 			);
@@ -166,31 +169,42 @@ if ( $I18N->hasCookies() ) {
 
 	$lifetime = $I18N->getCookieLifetime();
 	$after = '';
-	$renew = ' (' . kfTag( _('renew-cookies'), 'a', array( 'href' => $Tool->generatePermalink(array('action' => 'renewcookies')) ) ) .')';
+	$renew = ' (' . kfTag( _( 'renew-cookies' ), 'a', array(
+		'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) )
+	) ) .')';
+
 	// 29+ days
-	if ( $lifetime > 29*24*3600 ) {
+	if ( $lifetime > 29 * 24 * 3600 ) {
 		$class = 'perfect';
-		$number = floor( $lifetime/3600/24/7 );
-		$time = $number . '+ ' . _g( 'weeks', array( 'parsemag' => true, 'variables' => array( $number ) ) );
+		$number = floor( $lifetime / 3600 / 24 / 7 );
+		$time = $number . '+ ' . _g( 'weeks', array(
+			'parsemag' => true, 'variables' => array( $number )
+		) );
 
 	// 10+ days
-	} elseif ( $lifetime > 10*24*3600 ) {
+	} elseif ( $lifetime > 10 * 24 * 3600 ) {
 		$class = 'good';
-		$number = floor( $lifetime/3600/24 );
-		$time = $number . '+ ' . _g( 'days', array( 'parsemag' => true, 'variables' => array( $number ) ) );
+		$number = floor( $lifetime / 3600 / 24 );
+		$time = $number . '+ ' . _g( 'days', array(
+			'parsemag' => true, 'variables' => array( $number )
+		) );
 
 	// 1+ day
-	} elseif ( $lifetime > 24*3600 ) {
+	} elseif ( $lifetime > 24 * 3600 ) {
 		$class = 'bad';
-		$number = floor( $lifetime/3600/24 );
-		$time = $number . '+ ' . _g( 'days', array( 'parsemag' => true, 'variables' => array( $number ) ) );
+		$number = floor( $lifetime / 3600 / 24 );
+		$time = $number . '+ ' . _g( 'days', array(
+			'parsemag' => true, 'variables' => array( $number )
+		) );
 		$after = $renew;
 
 	// Less than a day
 	} else {
 		$class = 'worst';
-		$number = ceil( $lifetime/3600 );
-		$time = '<' . $number . '+ ' . _g( 'hours', array( 'parsemag' => true, 'variables' => array( $number ) ) );
+		$number = ceil( $lifetime / 3600 );
+		$time = '<' . $number . '+ ' . _g( 'hours', array(
+			'parsemag' => true, 'variables' => array( $number )
+		) );
 		$after = $renew;
 
 	}
@@ -202,11 +216,20 @@ if ( $I18N->hasCookies() ) {
 	.	kfTag( _( 'current-language' ) . _g( 'colon-separator' ) . ' ', 'label' )
 	.	kfTag( '', 'input', array( 'value' => $I18N->getLangName(), 'readonly' => 'readonly' ) )
 	.	' ('
-	.	kfTag( _( 'clear-cookies' ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) ) ) )
+	.	kfTag( _( 'clear-cookies' ), 'a', array(
+			'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) )
+		) )
 	.	')<br/>'
-	.	kfTag( _( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' ) . kfTag( '', 'input', array( 'value' => $time, 'class' => "cookie-health $class", 'readonly' => 'readonly' ) )
+	.	kfTag( _( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' )
+	.	kfTag( '', 'input', array(
+			'value' => $time,
+			'class' => "cookie-health $class",
+			'readonly' => true
+		) )
 	.	' ('
-	.	kfTag( _( 'renew-cookies' ), 'a', array( 'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) ) ) )
+	.	kfTag( _( 'renew-cookies' ), 'a', array(
+			'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) )
+		) )
 	.	')<br/>'
 	.	$after
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
@@ -219,28 +242,35 @@ if ( $I18N->hasCookies() ) {
 // Settings form
 // XXX: Quick way to build the form
 $dropdown = '<select name="fpLang">';
-$selected = ' selected="selected"';
+$selected = ' selected';
 foreach ( $I18N->getAvailableLangs( 'any' ) as $langCode => $langName ) {
 	$attr = $langCode == $I18N->getLang() ? $selected : '';
-	$dropdown .= '<option value="' . $langCode . '"' . $attr . '>' . "$langCode - $langName" . '</option>';
+	$dropdown .= '<option value="' . $langCode . '"' . $attr . '>'
+		. "$langCode - $langName"
+		. '</option>';
 }
 $dropdown .= '</select>';
 
-$form = '<div id="tab-settingsform"><form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform"><fieldset>
-	<legend>' . _( 'settings-legend' ) . '</legend><div class="inner">
+$form = '<div id="tab-settingsform">
+	<form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform">
+	<fieldset><legend>' . _( 'settings-legend' ) . '</legend><div class="inner">
 
 	<label>' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
 	' . $dropdown . '
 	<br/>
 
 	<input type="hidden" name="action" value="prefset"/>
-	<input type="hidden" name="returnto" value="' . htmlspecialchars( $kgReq->getVal( 'returnto' ) ) . '"/>
-	<input type="hidden" name="returntoquery" value="' . htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '"/>
+	<input type="hidden" name="returnto" value="' .
+		htmlspecialchars( $kgReq->getVal( 'returnto' ) ) . '"/>
+	<input type="hidden" name="returntoquery" value="' .
+		htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '"/>
 	<label></label>
 	<input type="submit" nof value="' . _html( 'form-submit', 'general' ) . '"/>
 	<br/>
 
-</div></fieldset></form></div>';
+</div></fieldset>
+</form>
+</div>';
 
 $Tool->addOut( $form );
 $toolSettings['tabs']['#tab-settingsform'] = _('tab-settings');
@@ -251,15 +281,16 @@ $about = '<div id="tab-about">';
 
 $about .= '<a href="//translatewiki.net/wiki/Translating:Toolserver">'
 	.	Html::element( 'img', array(
-		'src' => '//translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&count=edits&scale=weeks&days=30&width=520&height=400&group=tsint-0-all',
+		'src' => '//translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&'
+			. 'count=edits&scale=weeks&days=30&width=520&height=400&group=tsint-0-all',
 		'width' => 520,
 		'height' => 400,
 		'alt' => '',
 		'class' => 'floatRight'
 		))
 	.	'</a>';
-$about .= 'Technical documentation: <a href="https://wiki.toolserver.org/view/Toolserver_Intuition">'
-	. 'https://wiki.toolserver.org/view/Toolserver_Intuition</a>'
+$about .= 'Technical documentation: <a href="//wiki.toolserver.org/view/Toolserver_Intuition">'
+	. 'wiki.toolserver.org/view/Toolserver_Intuition</a>'
 	. '<div class="tab-paragraph-head">' . _( 'usage' ) . '</div><ul>';
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 	$domainInfo = $I18N->getDomainInfo( $domainKey );
@@ -271,20 +302,16 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 			. '</strong><br/>'
 			. htmlspecialchars( $domainInfo['path'] )
 			. '</a></li>';
-	} else {
-		// Don't show tools without a url
-		//$item = TsIntuitionUtil::tag( $title, 'em' );
-		//$about .= "<li>$item</li>";
 	}
 }
-$about .= '</ul><div style="clear:both"></div></div><!-- #tab-about -->';
+$about .= '</ul><div style="clear: both;"></div></div><!-- /#tab-about -->';
 
 $Tool->addOut( $about );
 $toolSettings['tabs']['#tab-about'] = _('tab-about');
 $toolSettings['tabs']['demo/demo1.php'] = _('tab-demo');
 
 
-$Tool->addOut( '</div><!-- #tsint-dashboard -->' );
+$Tool->addOut( '</div><!-- /#tsint-dashboard -->' );
 
 
 /**

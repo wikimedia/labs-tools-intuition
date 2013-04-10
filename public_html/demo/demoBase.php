@@ -4,7 +4,7 @@ ini_set( 'display_errors', 1 );
 date_default_timezone_set( 'UTC' );
 
 /* Load Toolserver Intuition from the main directory */
-require_once( dirname( dirname( __DIR__ ) ) . '/ToolStart.php' );
+require_once dirname( dirname( __DIR__ ) ) . '/ToolStart.php';
 
 // Known demos
 $demoRegistry = array(
@@ -19,7 +19,7 @@ $demoRegistry = array(
 );
 
 $thisFile = basename( $_SERVER['SCRIPT_NAME'], '.php' );
-$thisDescr =  htmlspecialchars( @$demoRegistry[$thisFile] );
+$thisDescr = isset( $demoRegistry[$thisFile] ) ? htmlspecialchars( $demoRegistry[$thisFile] ) : '';
 
 // HTML fragments
 $startHTML = <<<HTML
@@ -27,7 +27,7 @@ $startHTML = <<<HTML
 <html dir="ltr" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<title>Toolserver Intuition | Demonstration sandboxes | $thisFile: $thisDescr</title>
+	<title>$thisFile - Demonstration - Toolserver Intuition</title>
 	<style>
 	/* Demo framework */
 	body {
@@ -58,7 +58,12 @@ $startHTML = <<<HTML
 		margin: 0px 2px;
 	}
 	/* Example */
-	.tsint-promobox { background: #F9F9F9; padding: 5px 8px; margin: 10px; font-size: 85% }
+	.tsint-promobox {
+		background: #F9F9F9;
+		padding: 5px 8px;
+		margin: 10px;
+		font-size: 85%;
+	}
 	</style>
 </head>
 <body>
@@ -71,7 +76,10 @@ header( 'Content-Type: text/html; charset=utf-8' );
 echo $startHTML . "<p><em>&larr; <a href=\"../\">Return to Dashboard</a></em></p><ul>";
 foreach ( $demoRegistry as $demoFilename => $descr ) {
 	$descr = htmlspecialchars( $descr );
-	echo "<li><a href=\"$demoFilename.php\" title=\"$descr\">$demoFilename</a><br/><small>$descr</small></li>";
+	echo "<li>
+		<a href=\"$demoFilename.php\" title=\"$descr\">$demoFilename</a><br/>
+		<small>$descr</small>
+	</li>";
 }
 echo '</ul>';
 echo $outputHead;
@@ -79,7 +87,7 @@ echo '<div style="white-space: pre;">';
 
 
 // Output source-heading and source code
-function view_source( $file ) {
+function viewSource( $file ) {
 	echo '<h3>Source</h3>'
 	. '<pre>'
 	. show_source( $file, true )
@@ -87,13 +95,13 @@ function view_source( $file ) {
 }
 
 // End of track
-function close_demo( $file ) {
+function closeDemo( $file ) {
 	echo '</div>';
-	view_source( $file );
+	viewSource( $file );
 	echo '</body></html>';
 }
 
 // Make this file viewable as well
 if ( $thisFile == 'demoBase' ){
-	close_demo( __FILE__ );
+	closeDemo( __FILE__ );
 }

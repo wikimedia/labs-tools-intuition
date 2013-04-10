@@ -9,6 +9,7 @@
  */
 
 class MessagesFunctions {
+
 	private static $instance = null;
 
 	private $langIsLoaded = array();
@@ -52,7 +53,7 @@ class MessagesFunctions {
 		$this->baseDir = $baseDir;
 		$this->I18N = $I18N;
 
-		require_once( $this->baseDir."/language/mw-classes/Language.php" );
+		require_once $this->baseDir . '/language/mw-classes/Language.php';
 	}
 
 	/**
@@ -62,7 +63,7 @@ class MessagesFunctions {
 	 * @param String $language Language-Code
 	 */
 	private function loadLanguage( $language ) {
-		$language = ucfirst( strtolower( str_replace("-", "_", $language ) ) );
+		$language = ucfirst( strtolower( str_replace( '-', '_', $language ) ) );
 
 		if ( in_array( $language, $this->langIsLoaded ) ) {
 			return;
@@ -70,8 +71,8 @@ class MessagesFunctions {
 
 		$className = "Language".$language;
 
-		if ( file_exists( $this->baseDir."/language/mw-classes/".$className.".php" ) ) {
-			include_once( $this->baseDir."/language/mw-classes/".$className.".php" );
+		if ( file_exists( $this->baseDir . '/language/mw-classes/' . $className . '.php' ) ) {
+			include_once $this->baseDir . '/language/mw-classes/' . $className . '.php';
 		}
 
 		$this->langIsLoaded[] = $language;
@@ -88,7 +89,7 @@ class MessagesFunctions {
 	private function msgFunctionMatches( $matches ) {
 		$functionName = strtolower( $matches[1] );
 		$firstParameter = $matches[2];
-		$parameters = explode( "|", $matches[3] );
+		$parameters = explode( '|', $matches[3] );
 
 		return $this->$functionName( $firstParameter, $parameters, $matches[0] );
 	}
@@ -105,14 +106,17 @@ class MessagesFunctions {
 		$this->langCode = $lang;
 		$this->loadLanguage( $lang );
 
-		$msg = preg_replace_callback( $this->msgFunctionRegex, array( $this, 'msgFunctionMatches' ), $msg );
+		$msg = preg_replace_callback(
+			$this->msgFunctionRegex,
+			array( $this, 'msgFunctionMatches' ), $msg
+		);
 		$this->sendParseErrors( __METHOD__ );
 
 		return $msg;
 	}
 
 	private function plural( $number, $parameters, $msg ) {
-		$language = ucfirst( strtolower( str_replace("-", "_", $this->langCode ) ) );
+		$language = ucfirst( strtolower( str_replace( '-', '_', $this->langCode ) ) );
 
 		if ( $number == null || !is_numeric( $number ) ) {
 			$this->addParseError( "Invalid number argument to {{PLURAL: ...}}",
@@ -120,7 +124,7 @@ class MessagesFunctions {
 			return $msg;
 		}
 
-		$className = "Language".$language;
+		$className = 'Language' . $language;
 
 		if ( class_exists( $className ) ) {
 			$langObj = new $className();
@@ -139,32 +143,43 @@ class MessagesFunctions {
 			case 1:
 				return $parameters[0];
 			case 2:
-				return TsIntuitionUtil::tag( $parameters[0], 'span', array( 'class' => 'gender-male gender-neutral' ) ) .
-					TsIntuitionUtil::tag( $parameters[1], 'span', array( 'class' => 'gender-female' ) );
+				return TsIntuitionUtil::tag( $parameters[0], 'span', array(
+						'class' => 'gender-male gender-neutral'
+					) ) .
+					TsIntuitionUtil::tag( $parameters[1], 'span', array(
+						'class' => 'gender-female'
+					) );
 			default:
 				$this->addParseError( "{{GENDER:}} given too many variants" );
 			case 3:
-				return TsIntuitionUtil::tag( $parameters[2], 'span', array( 'class' => 'gender-neutral' ) ) .
-					TsIntuitionUtil::tag( $parameters[0], 'span', array( 'class' => 'gender-male' ) ) .
-					TsIntuitionUtil::tag( $parameters[1], 'span', array( 'class' => 'gender-female' ) );
+				return TsIntuitionUtil::tag( $parameters[2], 'span', array(
+						'class' => 'gender-neutral'
+					) ) .
+					TsIntuitionUtil::tag( $parameters[0], 'span', array(
+						'class' => 'gender-male'
+					) ) .
+					TsIntuitionUtil::tag( $parameters[1], 'span', array(
+						'class' => 'gender-female'
+					) );
 		}
 	}
 
 	private function addParseError( $errMsg, $context, $errType = E_WARNING, $file = '', $line = '' ) {
-		$this->error[] = array( "msg" => $errMsg, "context" => $context,
-			"type" => $errType, "file" => $file, "line" => $line );
+		$this->error[] = array( 'msg' => $errMsg, 'context' => $context,
+			'type' => $errType, 'file' => $file, 'line' => $line
+		);
 	}
 
 	private function sendParseErrors( $parseContext ) {
 		if ( count( $this->error ) < 1 ) return;
 
-		$this->I18N->errTrigger( "Problems when parsing the message. For Information see below!",
+		$this->I18N->errTrigger( 'Problems when parsing the message. For Information see below!',
 			$parseContext, E_WARNING );
 
 		foreach( $this->error as $error ) {
-			$this->I18N->errTrigger( $error["msg"], $error["context"],
-				 $error["type"], $error["file"], $error["line"] );
+			$this->I18N->errTrigger( $error['msg'], $error['context'],
+				$error['type'], $error['file'], $error['line']
+			);
 		}
 	}
 }
-?>

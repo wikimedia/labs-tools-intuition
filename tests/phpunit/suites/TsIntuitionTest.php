@@ -1,5 +1,6 @@
 <?php
 class TsIntuitionTest extends PHPUnit_Framework_TestCase {
+
 	private $i18n;
 
 	protected function setUp() {
@@ -113,8 +114,8 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 	public function testOptionShowNotices() {
 
 		$i18n = new TsIntuition( array(
-		    // Show notices
-		    'suppressnotice' => false,
+			// Show notices
+			'suppressnotice' => false,
 		) );
 
 		$this->assertEquals(
@@ -122,7 +123,9 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 			'[r4nd0mstr1n9]',
 			'Unknown key falls back to bracket-wrapped key'
 		);
-		$this->expectOutputString('Notice: [TsIntuition::msg] Message "r4nd0mstr1n9" in domain "General" not found.');
+		$this->expectOutputString(
+			'Notice: [TsIntuition::msg] Message "r4nd0mstr1n9" in domain "General" not found.'
+		);
 	}
 
 	public function testGetLangName() {

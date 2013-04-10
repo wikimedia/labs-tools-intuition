@@ -3,9 +3,8 @@
  * Language fallbacks.
  */
 
-// Listed a few examples for now.
-// Perhaps this can be automated in the future via TranslateWiki based on MediaWiki's core fallbacks.
-// Values can be refreshed with getFallbacks.php
+// Perhaps this can be automated in the future via TranslateWiki based on MediaWiki's core
+// fallbacks. Values can be refreshed with getFallbacks.php
 $fallbacks = array(
 	'ab' => 'ru',
 	'ace' => 'id',

@@ -1,5 +1,12 @@
-= 0.1.2 (svn) =
+= 0.1.3 =
 : In development
+
+== Changes ==
+* TsIntuitionUtil::return_dump renamed to TsIntuitionUtil::returnDump.
+
+
+= 0.1.2 =
+: April 1, 2013
 
 == New features ==
 * Textdomains may now also define the $url in the definition file. (r85286)
@@ -19,6 +26,7 @@
 * Introduced new 'suppressfatal' option (r85471)
 * Introduced new 'suppressbrackets' option (r85471)
 * Dashboard moved to http://toolserver.org/~intuition/
+
 
 = 0.1.1 =
 : April 3, 2011

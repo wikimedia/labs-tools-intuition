@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'demoBase.php' );
+require_once 'demoBase.php';
 $I18N = new TsIntuition( 'general' );
 
 /* Demonstration */
@@ -14,4 +14,4 @@ echo $I18N->getFooterLine( TSINT_HELP_ALL );
 
 
 /* View source */
-close_demo( __FILE__ );
+closeDemo( __FILE__ );

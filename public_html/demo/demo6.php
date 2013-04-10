@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'demoBase.php' );
+require_once 'demoBase.php';
 
 
 /* Demonstration */
@@ -53,10 +53,12 @@ var_dump(
 );
 
 // GetAcceptableLanguages
-echo "<br/>getAcceptableLanguages: (default: \$_SERVER['HTTP_ACCEPT_LANGUAGE']: ", htmlspecialchars( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ), "):<br/>";
+echo "<br/>getAcceptableLanguages: (default: \$_SERVER['HTTP_ACCEPT_LANGUAGE']: " .
+	htmlspecialchars( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) .
+	"):<br/>";
 var_dump(
 
-	TsIntuitionUtil::getAcceptableLanguages( @$_SERVER['HTTP_ACCEPT_LANGUAGE'] )
+	TsIntuitionUtil::getAcceptableLanguages( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )
 
 );
 
@@ -70,4 +72,4 @@ var_dump(
 
 
 /* View source */
-close_demo( __FILE__ );
+closeDemo( __FILE__ );

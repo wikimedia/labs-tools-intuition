@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'demoBase.php' );
+require_once 'demoBase.php';
 
 
 /* Demonstration */
@@ -13,4 +13,4 @@ echo $I18N->msg( 'welcome' );
 
 
 /* View source */
-close_demo( __FILE__ );
+closeDemo( __FILE__ );

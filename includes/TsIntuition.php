@@ -25,8 +25,11 @@ class TsIntuition {
 	public $localBaseDir;
 
 	public $registeredTextdomains;
+
 	public $version = '0.1.3-alpha';
+
 	public $versionDate;
+
 	public $mode = null; // 'in-tool', 'dashboard'
 
 	// Address to the dashboard home. Should end with a slash or .extension
@@ -34,11 +37,17 @@ class TsIntuition {
 
 	// Construct options
 	private $currentTextdomain;
+
 	private $currentLanguage;
+
 	private $suppressfatal;
+
 	private $suppressnotice;
+
 	private $suppressbrackets;
+
 	private $stayalive;
+
 	private $useRequestParam;
 
 	// Changing this will invalidate all cookies
@@ -133,7 +142,7 @@ class TsIntuition {
 		// Allow a tool to disable the loading of global functions,
 		// in case they have a _() and/or _e() already.
 		if ( $options['globalfunctions'] === true ) {
-			require_once( $this->localBaseDir . '/includes/Functions.php' );
+			require_once $this->localBaseDir . '/includes/Functions.php';
 		}
 
 		// Allow a tool to suppress fatals, which will prevent TsIntuition from showing fatal errors.
@@ -334,7 +343,7 @@ class TsIntuition {
 	 */
 	private function getMessagesFunctions() {
 		if ( $this->messagesFunctions == null ) {
-			require_once( $this->localBaseDir . '/language/MessagesFunctions.php' );
+			require_once $this->localBaseDir . '/language/MessagesFunctions.php';
 			$this->messagesFunctions = MessagesFunctions::getInstance( $this->localBaseDir, $this );
 			return $this->messagesFunctions;
 		} else {
@@ -515,8 +524,8 @@ class TsIntuition {
 	/**
 	 * Adds or overwrites a message in the blob.
 	 * This function is public so tools can use it while testing their tools
-	 * and don't need a message to exist in translatewiki.net yet, but don't want to see [msgkey] either.
-	 * See also addMsgs() for registering multiple messages.
+	 * and don't need a message to exist in translatewiki.net yet, but don't want to see [msgkey]
+	 * either. See also addMsgs() for registering multiple messages.
 	 *
 	 * First two parameters are required. Others (domain, language) default to current environment.
 	 */
@@ -656,7 +665,9 @@ class TsIntuition {
 	public function loadTextdomain( $domain ) {
 
 		// Generally validate input and protect against path traversal
-		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) || strcspn( $domain, ":/\\\000" ) !== strlen( $domain ) ) {
+		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) ||
+			strcspn( $domain, ":/\\\000" ) !== strlen( $domain )
+		) {
 			$this->errTrigger( "Invalid textdomain \"$domain\"", __METHOD__, E_NOTICE );
 			return false;
 		}
@@ -694,15 +705,19 @@ class TsIntuition {
 	 */
 	public function loadTextdomainFromFile( $filePath = '', $domain = '' ) {
 		if ( !TsIntuitionUtil::nonEmptyStrs( $filePath, $domain ) ) {
-			$this->errTrigger( 'One or more arguments are missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			$this->errTrigger( 'One or more arguments are missing', __METHOD__, E_NOTICE,
+				__FILE__, __LINE__
+			);
 			return false;
 		}
 
 		// Load it
-		$included = include( $filePath );
+		$included = include $filePath;
 
 		if ( $included === false ) {
-			$this->errTrigger( "File $filePath could not be loaded ", __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			$this->errTrigger( "File $filePath could not be loaded ", __METHOD__, E_NOTICE,
+				__FILE__, __LINE__
+			);
 			return false;
 		}
 
@@ -717,13 +732,14 @@ class TsIntuition {
 	 */
 	private function parseTextdomain( $data, $domain, $filePath ) {
 		if ( !is_array( $data ) ) {
-			$this->errTrigger( 'Invalid $data passed to ' . __FUNCTION__,
-				__METHOD__, E_ERROR, __FILE__, __LINE__ );
+			$this->errTrigger( 'Invalid $data passed to ' . __FUNCTION__, __METHOD__, E_ERROR,
+				__FILE__, __LINE__
+			);
 		}
 
 		// Were there any message defined in the textdomain file ?
 		if ( !isset( $data['messages'] ) || !is_array( $data['messages'] ) ) {
-			$this->errTrigger( 'No $messages array found', __METHOD__ , E_ERROR, $filePath );
+			$this->errTrigger( 'No $messages array found', __METHOD__, E_ERROR, $filePath );
 		}
 		unset( $data['messages']['qqq'] ); // Workaround
 
@@ -733,7 +749,7 @@ class TsIntuition {
 		// use Itui::setMsg() or Itui::setMsgs() instead
 		foreach ( $data['messages'] as $langcode => $messages ) {
 			$this->availableLanguages[$langcode] = true;
-			$this->setMsgs( (array)$messages, $domain, $langcode );
+			$this->setMsgs( (array) $messages, $domain, $langcode );
 		}
 
 		// Was there a url defined in the textdomain file ?
@@ -741,7 +757,6 @@ class TsIntuition {
 		$path = isset( $data['url'] ) ? $data['url'] : null;
 
 		$this->loadedTextdomains[$domain] = array( 'url' => $fullurl, 'path' => $path );
-
 
 		return true;
 	}
@@ -758,7 +773,9 @@ class TsIntuition {
 		// Load if registered but not already loaded
 		$this->loadTextdomain( $domain );
 
-		if ( isset( $this->loadedTextdomains[$domain] ) && is_array( $this->loadedTextdomains[$domain] ) ) {
+		if ( isset( $this->loadedTextdomains[$domain] ) &&
+			is_array( $this->loadedTextdomains[$domain] )
+		) {
 			return $this->loadedTextdomains[$domain];
 		} else {
 			return array();
@@ -778,7 +795,7 @@ class TsIntuition {
 	 *
 	 * @return boolean
 	 */
-	public function setCookie( $key, $val, $lifetime = 2592000 /* 30 days */, $track = TSINT_COOKIE_TRACK ) {
+	public function setCookie( $key, $val, $lifetime = 2592000, $track = TSINT_COOKIE_TRACK ) {
 			// Validate cookie name
 			$name = $this->getCookieName( $key );
 			if ( !$name ) {
@@ -832,7 +849,7 @@ class TsIntuition {
 	public function wipeCookies() {
 		$week = 7 * 24 * 3600;
 		foreach( $this->getCookieNames() as $key => $name ) {
-			$this->setCookie( $key, '', 0-$week, TSINT_COOKIE_NOTRACK );
+			$this->setCookie( $key, '', 0 - $week, TSINT_COOKIE_NOTRACK );
 			unset( $_COOKIE[$name] );
 		}
 		return true;
@@ -874,7 +891,7 @@ class TsIntuition {
 	 */
 	public function gender( $male, $female, $neutral ) {
 		// Depends on getGender() which doesn't exist yet
-		throw new BadMethodCallException("Not supported yet!");
+		throw new BadMethodCallException( 'Not supported yet!' );
 	}
 
 	/**
@@ -886,7 +903,8 @@ class TsIntuition {
 	 */
 	public function plural( $count, $forms ) {
 		throw new BadMethodCallException(
-			"Use msg() with \"parse\" option to support PLURAL!");
+			"Use msg() with \"parse\" option to support PLURAL!"
+		);
 	}
 
 
@@ -916,7 +934,7 @@ class TsIntuition {
 
 		// Load it
 		$domains = array();
-		include( $path );
+		include $path;
 		$this->registeredTextdomains = $domains;
 
 		return true;
@@ -945,7 +963,7 @@ class TsIntuition {
 
 		// Load it
 		$fallbacks = array();
-		include( $path );
+		include $path;
 		$this->langFallbacks = $fallbacks;
 
 		return true;
@@ -973,7 +991,7 @@ class TsIntuition {
 
 		// Load it
 		$coreLanguageNames = array();
-		include( $path );
+		include $path;
 		$this->langNames = $coreLanguageNames;
 
 		return true;
@@ -1077,7 +1095,10 @@ class TsIntuition {
 				'group' => "tsint-$helpTranslateDomain",
 			);
 			$twParams = http_build_query( $twParams );
-			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array( 'href' => "//translatewiki.net/w/i.php?$twParams", 'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' ) ) ) . ')</small>';
+			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array(
+				'href' => "//translatewiki.net/w/i.php?$twParams",
+				'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' )
+			) ) . ')</small>';
 		}
 
 		// Build output
@@ -1255,7 +1276,9 @@ class TsIntuition {
 			$set = $this->setLang( $option );
 		}
 
-		if ( !$set && $this->getUseRequestParam() === true && isset( $_GET[ $this->paramNames['userlang'] ] ) ) {
+		if ( !$set && $this->getUseRequestParam() === true &&
+			isset( $_GET[ $this->paramNames['userlang'] ] )
+		) {
 			$set = $this->setLang( $_GET[ $this->paramNames['userlang'] ] );
 		}
 
@@ -1276,20 +1299,24 @@ class TsIntuition {
 					 * or be missing from availableLanguages.
 					 * The order will be the one in the i18n file: en, af, ar...
 					 */
-					 foreach ( $this->availableLanguages as $availableLang => $true ) {
-						 if ( !isset( $acceptableLanguages[$availableLang] ) ) {
+					foreach ( $this->availableLanguages as $availableLang => $true ) {
+						if ( !isset( $acceptableLanguages[$availableLang] ) ) {
 							$n = strstr( $availableLang, '-' );
-							// Assumption: We won't have translations for languages with several dashes on its language tag
-							if ( $n !== false && !isset( $acceptableLanguages[ substr( $availableLang, 0, $n - 1 ) ] ) ) {
-								// zh-hans should not be picked for "fr,*;q=0.3,zh;q=0.1" if we have non-Chinese translations.
+							// Assumption: We won't have translations for languages with more than
+							// 1 dashe on the language tag
+							if ( $n !== false &&
+								!isset( $acceptableLanguages[ substr( $availableLang, 0, $n - 1 ) ] )
+							) {
+								// if we have non-Chinese translations, zh-hans should not be
+								// picked for "fr,*;q=0.3,zh;q=0.1".
 								continue;
 							}
 
-							 $set = $this->setLang( $availableLangf );
-							 break;
-						 }
-					 }
-					 if ( $set ) {
+							$set = $this->setLang( $availableLangf );
+							break;
+						}
+					}
+					if ( $set ) {
 						break;
 					}
 
@@ -1346,15 +1373,21 @@ class TsIntuition {
 		$s = '';
 		$m = count( $l ) - 1;
 		if ( $m == 1 ) {
-			$s = $l[0] . $this->msg( 'and', array( 'domain' => 'general' ) ) . $this->msg( 'word-separator', array( 'domain' => 'general' ) ) . $l[1];
+			$s = $l[0] . $this->msg( 'and', array( 'domain' => 'general' ) ) .
+				$this->msg( 'word-separator', array( 'domain' => 'general' ) ) .
+				$l[1];
 		} else {
 			for ( $i = $m; $i >= 0; $i-- ) {
 				if ( $i == $m ) {
 					$s = $l[$i];
 				} elseif ( $i == $m - 1 ) {
-					$s = $l[$i] . $this->msg( 'and', array( 'domain' => 'general' ) ) . $this->msg( 'word-separator', array( 'domain' => 'general' ) ) . $s;
+					$s = $l[$i] . $this->msg( 'and', array( 'domain' => 'general' ) ) .
+						$this->msg( 'word-separator', array( 'domain' => 'general' ) ) .
+						$s;
 				} else {
-					$s = $l[$i] . $this->msg( 'comma-separator', array( 'domain' => 'general' ) ) . $s;
+					$s = $l[$i] .
+						$this->msg( 'comma-separator', array( 'domain' => 'general' ) ) .
+						$s;
 				}
 			}
 		}
@@ -1420,10 +1453,16 @@ class TsIntuition {
 			return;
 		}
 
-		if ( php_sapi_name() === 'cli' ) {
-			echo "$code: " . $this->errMsg( $msg, $context ) . ( $file ? " in $file" : '' ) . ( $line ? " on line $line" : '' ) . '.' ;
+		if ( PHP_SAPI === 'cli' ) {
+			echo "$code: " . $this->errMsg( $msg, $context ) .
+				( $file ? " in $file" : '' ) .
+				( $line ? " on line $line" : '' ) .
+				'.';
 		} else {
-			echo "<b>$code: </b>" . htmlspecialchars( $this->errMsg( $msg, $context ) ) . ( $file ? " in <b>$file</b>" : '' ) . ( $line ? " on line <b>$line</b>" : '' ) . '.<br/>' ;
+			echo "<b>$code: </b>" . htmlspecialchars( $this->errMsg( $msg, $context ) ) .
+				( $file ? " in <b>$file</b>" : '' ) .
+				( $line ? " on line <b>$line</b>" : '' ) .
+				'.<br/>';
 		}
 
 		if ( $die && !$this->stayalive ) {
@@ -1437,7 +1476,7 @@ class TsIntuition {
 	 * current language if missing
 	 * @return Boolean
 	 */
-	public function isRTL( $code = null ) {
+	public function isRtl( $code = null ) {
 		if ( !$code ) {
 			$code = $this->getLang();
 		}
@@ -1451,6 +1490,6 @@ class TsIntuition {
 	 * @return String
 	 */
 	public function getDir( $code = null ) {
-		return $this->isRTL( $code ) ? 'rtl' : 'ltr';
+		return $this->isRtl( $code ) ? 'rtl' : 'ltr';
 	}
 }

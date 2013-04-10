@@ -1,6 +1,6 @@
 <?php
 /* Config */
-require_once( 'demoBase.php' );
+require_once 'demoBase.php';
 
 
 /* Demonstration */
@@ -37,4 +37,4 @@ echo '<br/>' . $I18N->msg( 'basket', array( 'variables' => array( '7' ), 'parsem
 
 
 /* View source */
-close_demo( __FILE__ );
+closeDemo( __FILE__ );
