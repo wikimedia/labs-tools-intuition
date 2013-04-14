@@ -237,7 +237,7 @@ $messages['arc'] = array(
 	'upload_submit' => 'ܐܣܩ!',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -2855,7 +2855,7 @@ $messages['oc'] = array(
 	'categories' => 'Categorias',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

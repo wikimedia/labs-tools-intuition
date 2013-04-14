@@ -207,7 +207,7 @@ $messages['arc'] = array(
 	'category' => 'ܣܕܪܐ:',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -2104,7 +2104,7 @@ $messages['oc'] = array(
 	'invalid-height' => 'Nautor invalida',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

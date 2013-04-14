@@ -86,7 +86,7 @@ $messages['arc'] = array(
 	'transclusion-count' => '$1 ܡܬܚܪ̈ܙܢܘܬܐ ܐܫܬܟܚ.',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Simbu123
  */
 $messages['as'] = array(
@@ -824,7 +824,7 @@ $messages['no'] = array(
 	'time-label' => 'Tiden det tar å utføre kommandoen',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

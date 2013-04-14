@@ -73,7 +73,7 @@ $messages['arc'] = array(
 	'form-legend-settings' => 'ܛܘܝܒ̈ܐ',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -658,7 +658,7 @@ $messages['oc'] = array(
 	'form-legend-settings' => 'Configuracion',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

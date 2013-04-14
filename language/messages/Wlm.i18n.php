@@ -358,7 +358,7 @@ $messages['arc'] = array(
 	'nomail-user-count' => '$1 ܡܦܠܚܢ̈ܐ',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -3246,7 +3246,7 @@ Verwijderde bestanden worden niet weergegeven, zelfs als ze later [$2 teruggepla
 	'nomail-user-count' => '$1 gebruikers',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

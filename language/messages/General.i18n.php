@@ -147,7 +147,7 @@ $messages['arc'] = array(
 	'hours' => '{{PLURAL:$1|ܫܥܬܐ|ܫܥܬ̈ܐ}}',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -1600,7 +1600,7 @@ $messages['oc'] = array(
 	'and' => '&#32;e',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

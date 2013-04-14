@@ -88,7 +88,7 @@ $messages['ar'] = array(
 	'toolserver-status-short-missing' => '$1: مفقود',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Simbu123
  */
 $messages['as'] = array(
@@ -922,7 +922,7 @@ $messages['nl'] = array(
 	'toolserver-status-short-missing' => '$1: ontbreekt',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

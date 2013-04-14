@@ -188,7 +188,7 @@ $messages['arc'] = array(
 	'preview-refresh' => 'ܦܪܓܝ ܚܝܪܐ ܩܕܡܝܐ',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Simbu123
  */
 $messages['as'] = array(
@@ -2028,6 +2028,11 @@ $messages['nb'] = array(
 $messages['nds'] = array(
 	'th-translation' => 'Översetten',
 	'th-language' => 'Spraak',
+	'th-username' => 'Brukernaam',
+	'th-password' => 'Passwoord',
+	'th-method' => 'Methood',
+	'preview' => 'Vörschau',
+	'translate' => 'Översetten',
 );
 
 /** Nepali (नेपाली)
@@ -2180,7 +2185,7 @@ $messages['no'] = array(
 	'finalise' => 'Ferdigstill detaljer',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

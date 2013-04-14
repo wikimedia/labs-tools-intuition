@@ -61,7 +61,7 @@ $messages['ar'] = array(
 	'output' => 'مخرجات "$1"',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -622,7 +622,7 @@ $messages['oc'] = array(
 	'label-wikiids' => 'Identificants Wiki',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  * @author Shisir 1945
  */

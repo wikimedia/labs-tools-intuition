@@ -127,7 +127,7 @@ $messages['arc'] = array(
 	'tools-curr' => 'ܗܫܝܐ',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Simbu123
  */
 $messages['as'] = array(
@@ -1380,7 +1380,7 @@ $messages['no'] = array(
 	'resultslimited' => 'Resultatene ble begrenset til $1 sider.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

@@ -335,7 +335,7 @@ $messages['no'] = array(
 	'title' => 'Siste anonyme aktivitet',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(

@@ -144,7 +144,7 @@ $messages['arc'] = array(
 	'current-settings' => 'ܡܛܝܒܘܬ̈ܐ ܗܫܝܬ̈ܐ',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -1653,7 +1653,7 @@ $messages['no'] = array(
 	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  * @author Shisir 1945
  */

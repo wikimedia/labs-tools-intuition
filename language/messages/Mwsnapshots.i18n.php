@@ -128,7 +128,7 @@ $messages['arc'] = array(
 	'tablehead-filesize' => 'ܥܓܪܐ ܕܠܦܦܐ',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -613,6 +613,7 @@ $messages['fa'] = array(
 /** Finnish (suomi)
  * @author Nike
  * @author Olli
+ * @author Silvonen
  * @author Stryn
  */
 $messages['fi'] = array(
@@ -636,6 +637,7 @@ $messages['fi'] = array(
 	'updatelog-link' => 'päivitysloki',
 	'tablehead-repo' => 'Koodivaranto',
 	'tablehead-snapshots' => 'Tilannekuvat',
+	'tablehead-branch' => 'Haara',
 	'tablehead-filesize' => 'Tiedostokoko',
 	'tablehead-hash' => 'Tarkisteet',
 );
@@ -1371,7 +1373,7 @@ $messages['nl'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  */

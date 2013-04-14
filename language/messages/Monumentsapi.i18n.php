@@ -233,7 +233,7 @@ $messages['arc'] = array(
 	'toolbox-nav-search' => 'ܒܨܝ',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Simbu123
  */
@@ -2638,7 +2638,7 @@ $messages['oc'] = array(
 	'search-table-th-filter' => 'Filtre',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  */

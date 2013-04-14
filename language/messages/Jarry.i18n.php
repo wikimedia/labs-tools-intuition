@@ -47,7 +47,7 @@ $messages['ar'] = array(
 	'error-form-empty' => 'أُغفِلَ حقل أو أكثر. ينبغي ملء كل الحقول للمواصلة.',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -504,7 +504,7 @@ $messages['no'] = array(
 	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
@@ -682,10 +682,14 @@ $messages['ug-arab'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author DixonD
  * @author Тест
  */
 $messages['uk'] = array(
 	'moretools' => 'інші інструменти від того ж автора',
+	'bugs' => 'звіти про помилки і запити на додаткові функції',
+	'comments' => 'коментарі і питання',
+	'error-form-empty' => "Одне або декілька обов'язкових полів залишилися порожніми. Ви повинні заповнити їх перед тим, як продовжити.",
 );
 
 /** Uzbek (oʻzbekcha)
