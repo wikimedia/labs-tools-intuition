@@ -3123,6 +3123,9 @@ $messages['pt-br'] = array(
 	'error_upload_users' => 'A função de upload só está disponível para alguns usuários durante o período de teste!',
 	'error_upload_file' => 'O arquivo original não pode ser baixado.',
 	'help_intro' => 'Caso queire reportar um bug, sugerir uma função ou tenha uma dúvida, você pode usar uma das formas de contato abaixo:',
+	'help_jira' => '$1JIRA (você precisa de uma conta)$2 (Projeto: Commonshelper2)',
+	'help_mail' => 'Enviar um e-mail a $1',
+	'help_commons' => '$1Inserir uma mensagem no Commons$2',
 );
 
 /** Romanian (română)

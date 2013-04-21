@@ -1707,7 +1707,7 @@ $messages['ksh'] = array(
 	'uploading' => 'Aam Huhlaade',
 	'upload-complete' => 'Dat Huhlaade hät jeflupp, un dat Beld sullt jäz onger „$1“ shtonn.',
 	'editdescriptionpage' => 'Donn di Sigg övver dat Beld op der neue Shtand bränge!',
-	'disclaimer' => 'E paa Daate wääde för de Shtatistik faßjehallde, ävver nit öffentlesch jemaat, un se donn sesch och ob keine beschtemmpte Metmaacher beträcke. Wann se aanjejovve sin, wääde em <i lang="en">TUSC</i> sing Metmaachername faßjehallde, öm ze hällefe, falls ens Eine jät kapott jemaat hät. Paßwööter wääde nimohls faßjehallde.',
+	'disclaimer' => 'E paa Daate wääde för en Schtatistik faßjehallde, ävver nit öffentlesch jemaat, un se donn sesch och ob keine beschtemmpte Metmaacher beträcke. Wann se aanjejovve sin, wääde em <i lang="en">TUSC</i> sing Metmaachername faßjehallde, öm ze hällefe, falls ens Eine jät kapott jemaat hät. Paßwööter wääde nimohls faßjehallde.',
 	'author-complete' => 'Bes esu joot, un donn de Aanjabe övver der Maacher vum Beld kumplätt maaache!',
 	'preview-hide' => 'Vör-Aansesch verschteische',
 	'preview-refresh' => 'Donn de Vör-Aansesch op der neue Shtand bränge!',

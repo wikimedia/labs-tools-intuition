@@ -2322,6 +2322,17 @@ $messages['pt-br'] = array(
 	'image-area-too-big' => '$1 é muito grande para criar uma miniatura. Usando o tamanho inteiro.',
 	'download-info' => '{{plural: $1|Há uma imagem|Há $1 imagens}}, com um tamanho estimado em $2',
 	'download' => 'Baixar',
+	'readme-contents' => 'O arquivo incluído $4 lista as imagens na categoria $1 ( $2 )$3.
+
+== Instruções para download de todas as imagens listadas ==
+O tempo de download pode variar de alguns minutos à várias horas.
+
+Windows:
+Extraia todos os arquivos na mesma pasta e execute $5
+$6
+
+Linux/Mac OS
+Extraia todos os arquivos e abra um terminal nessa pasta. Execute sh $5',
 	'non-bundled-wget' => 'Nota: Esta versão não inclui wget para Windows. Você deverá extrair em uma pasta com o wget.exe ou senão ter wget na  ROTA.',
 	'wget-info' => 'Este arquivo contém uma cópia de wget $1 (para a plataforma Windows). Wget é um Software Gratuito,
 sob os termos da LICENÇA PÚBLICA GERAL GNU versão 3.

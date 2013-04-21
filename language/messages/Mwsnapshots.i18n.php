@@ -1161,6 +1161,7 @@ $messages['lb'] = array(
 	'title-overview' => 'Schnappschëss',
 	'title-error' => 'Feeler',
 	'title-updatelog' => 'Logbuch vun den Aktualisatiounen',
+	'updatelog-intro' => "Den Aktualisatiouns-Script ass fir all Stonn programméiert. Hei drënner stinn d'Informatiounen iwwer déi leschte Kéier wou dat fonctionnéiert huet,",
 	'updatelog-active' => 'Den Aktualisatiouns-Script leeft elo. Kommt méi spéit zréck fir de komplette Log ze gesinn.',
 	'download-button' => '$1 eroflueden',
 	'download-directlink' => 'direkte Link',
@@ -1919,6 +1920,7 @@ $messages['ug-arab'] = array(
 /** Ukrainian (українська)
  * @author A1
  * @author Base
+ * @author Ua2004
  */
 $messages['uk'] = array(
 	'title-overview' => 'Знімки',
@@ -1928,12 +1930,17 @@ $messages['uk'] = array(
 	'download-directlink' => 'прямі посилання',
 	'title-downloadpage' => 'Завантажити:$1',
 	'downloadpage-directlink' => 'Натисніть тут, щоб завантажити знімок.',
+	'err-invalid-repo' => 'Невідомий репозиторій: "$1".',
+	'err-invalid-branch' => 'Невідома гілка: "$1" у репозиторії "$2".',
 	'repo-site-link' => 'Веб-сайт',
+	'repo-browse-link' => 'Переглянути репозиторій',
+	'repo-branches-label' => 'Гілки:',
 	'repo-lastmoddate-label' => 'Дата:',
 	'branches-submit-button' => 'Отримати!',
 	'updatelog-link' => 'журнал оновлень',
 	'tablehead-repo' => 'репозиторій',
 	'tablehead-snapshots' => 'Знімки',
+	'tablehead-branch' => 'Гілка',
 	'tablehead-filesize' => 'Розмір файлу',
 	'tablehead-hash' => 'Контрольні суми',
 );

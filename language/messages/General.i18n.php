@@ -540,13 +540,14 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'hello' => 'Merheba',
 	'welcome' => 'Xeyr amey',
 	'toolversionstamp' => 'Versiyon $1 ($2)',
 	'etc' => 'ws.',
-	'namespace' => 'Cayê namey:',
+	'namespace' => 'Cayê namey',
 	'form-submit' => 'Şo',
 	'form-reset' => 'Reset kerê',
 	'years' => '{{PLURAL: $1|serre|serri}}',
@@ -1758,6 +1759,7 @@ $messages['pt'] = array(
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  * @author Gusta
+ * @author TheGabrielZaum
  */
 $messages['pt-br'] = array(
 	'hello' => 'Olá',
@@ -1765,6 +1767,7 @@ $messages['pt-br'] = array(
 	'toolversionstamp' => 'Versão $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espaço nominal',
+	'form-submit' => 'Ir',
 	'form-reset' => 'Restaurar',
 	'years' => '{{PLURAL: $1|ano|anos}}',
 	'weeks' => '{{PLURAL: $1|semana|semanas}}',
