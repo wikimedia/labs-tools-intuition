@@ -3965,6 +3965,8 @@ $messages['uk'] = array(
 	'upload_submit' => 'Завантажити!',
 	'target_wiki' => 'цільова вікі',
 	'error_bot_blocked' => 'Завантажуючого бота заблоковано на Вікісховищі.',
+	'error_tusc_failed' => 'Помилка TUSC-верифікації!',
+	'error_only_commons' => 'Прямі завантаження працюють лише на Вікісховищі!',
 	'help_mail' => 'Надіслати електронного листа на адресу $1',
 );
 
@@ -4074,6 +4076,7 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Hzy980512
  * @author Linforest
+ * @author Littletung
  * @author Mys 721tx
  * @author Zhuyifei1999
  */
@@ -4109,7 +4112,7 @@ $messages['zh-hans'] = array(
 	'output_information' => '对于手动上载，编辑上述文本 （如果需要），保存 $1 文件 $2 到您的计算机，然后 $3 将其上传 $4 。',
 	'upload_submit' => '上传！',
 	'target_wiki' => '目标维基',
-	'standard_project' => '维基百科',
+	'standard_project' => 'wikipedia',
 	'error_bot_blocked' => '上传机器维基共享资源上被阻止。',
 	'error_upload_meta' => '不能直接上载，因为有的元数据的问题（见上文）！',
 	'error_tusc_failed' => 'TUSC 验证失败！',
@@ -4125,10 +4128,12 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Lauhenry
+ * @author Littletung
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'attention' => '注意',
+	'commonshelper2' => 'CommonsHelper 2',
 	'description' => '由維基媒體項目轉移檔案到維基共享資源的工具',
 	'change_meta' => '更改$3的$1分類和模板設定$2',
 	'jira_link' => '報告問題或建議一項功能',
@@ -4141,25 +4146,39 @@ $messages['zh-hant'] = array(
 	'move_file_from_com' => '由維基共享資源轉移檔案到項目',
 	'categories' => '分類',
 	'remove_cats' => '刪除現有的分類',
-	'use_checkusage' => '使用$1CommonSense$2蝥立新分類',
+	'checkusage' => 'CheckUsage',
+	'use_checkusage' => '使用$1CommonSense$2導入新分類',
 	'use_tusc' => '使用$1TUSC$2來直接驗證和傳輸該文件',
 	'tusc_user' => 'TUSC用戶名',
 	'tusc_pass' => 'TUSC密碼',
-	'do_it' => '做吧',
+	'do_it' => '開始',
 	'error_transfer_usr' => '您未輸入您的維基共享資源用戶名',
 	'error_not_exists' => '原始檔案不存在 ！',
 	'error_on_commons' => '原始檔案已在 $1 ！',
 	'error_file_exists' => '檔案已經在$3上存在，檔案名為「$1$4$2」！',
 	'error_diff_exists' => '根據同名的目標維基上存在不同的目標文件！',
 	'error_no_meta' => '未找到關於該來源維基的元數據！ $1請為該項目添加/更新元數據$2',
-	'new_filename' => '新的檔案名：',
-	'upload_submit' => '上傳 ！',
+	'error_meta_no_good' => '元數據：找不到合適模板！$1請添加或更新改項目的元數據$2',
+	'error_meta_bad' => '元數據：找到不合適模板！$1請添加或更新改項目的元數據$2',
+	'original_wikitext' => '原始維基文本',
+	'new_wikitext' => '新的維基文本',
+	'new_filename' => '新檔案名稱：',
+	'output_information' => '對於手動上載，編輯上述文本（如果需要），儲存 $1檔案$2 到您的電腦，然後 $3將其上傳$4。',
+	'upload_submit' => '上傳！',
 	'target_wiki' => '目標維基',
+	'standard_project' => 'wikipedia',
 	'error_bot_blocked' => '上載機器人在維基共享資源上被封禁。',
+	'error_upload_meta' => '元數據出現錯誤（見上文），不能直接上載！',
 	'error_tusc_failed' => 'TUSC驗證失敗！',
 	'error_only_commons' => '只能在維基共享資源直接上載！',
+	'upload_control_text' => '請檢查新的維基文本，如一切妥當，按" $1 "',
+	'error_commons_user' => '為了識別轉移檔案的使用者，您的維基共享資源使用者名稱必須在描述中顯示！',
+	'error_upload_users' => '上傳功能在測試期間僅供某些用戶使用！',
 	'error_upload_file' => '無法下載原始檔案。',
+	'help_intro' => '當您需要報告問題、建議新功能或提出疑問時，您可以使用以下聯繫方法：',
+	'help_jira' => '$1JIRA（你需要一個帳戶）$2（Project: Commonshelper2）',
 	'help_mail' => '發送電郵到$1',
+	'help_commons' => '$1在維基共享資源中提出意見$2',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

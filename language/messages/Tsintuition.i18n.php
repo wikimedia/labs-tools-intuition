@@ -46,6 +46,7 @@ $messages['en'] = array(
  * @author Krinkle
  * @author Lloffiwr
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'fullname' => "The full name of the Toolserver Intution. Intution (INTUI-tion) stands for \"'' '''In'''ternationalization for '''T'''oolserver's '''U'''ser '''I'''nterface''\".",
@@ -69,7 +70,8 @@ If 'About' doesn't work in your language, possible equivalents may be 'Details',
 
 {{Identical|About}}",
 	'tab-demo' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
-	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.',
+	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.
+{{Identical|Language settings}}',
 	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition.',
 	'bl-promo' => "Sentence displayed at the bottom of other tools promoting translatewiki.net and Toolserver Intuition.
 * $1 is a link to translatewiki.net

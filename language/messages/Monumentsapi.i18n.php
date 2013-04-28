@@ -2107,7 +2107,7 @@ $messages['ksh'] = array(
 	'db-field-registrant_url' => '<i lang="en">URL</i> vum Rejister',
 	'db-field-st_address' => 'Adräße',
 	'db-field-st_address_pct' => 'Adräße %',
-	'db-field-st_coordinates' => "Ko'oodinaate",
+	'db-field-st_coordinates' => "Ko'oodėnaate",
 	'db-field-st_coordinates_pct' => "Ko'oodinaate %",
 	'db-field-st_image' => 'Beld',
 	'db-field-st_image_pct' => 'Beld %',

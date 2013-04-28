@@ -42,7 +42,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'dateformat' => '{{Optional}} Dateformat in this language. See documentation about [http://php.net/strftime strftime() at php.net] for the syntax.',
-	'hello' => 'A friendly greet.',
+	'hello' => 'A friendly greet.
+{{Identical|Hello}}',
 	'welcome' => 'A friendly welcome.
 {{Identical|Welcome}}',
 	'toolversionstamp' => 'Short sentence about what the last version of this tool is and when the last update was. <code>$1</code> is the version (eg. "1.5.5beta") and <code>$2</code> is the date (without time).',
