@@ -988,6 +988,26 @@ $messages['ps'] = array(
 	'toolserver-status-short-unknown' => '$1: ناڅرګند',
 );
 
+/** Portuguese (português)
+ * @author Luckas
+ */
+$messages['pt'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Informação',
+	'toolserver-status-short-erro' => '$1: Erro',
+	'toolserver-status-short-unknown' => '$1: Desconhecido',
+	'toolserver-status-short-missing' => '$1: Inexistente',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
+ */
+$messages['pt-br'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-erro' => '$1: Erro',
+	'toolserver-status-short-unknown' => '$1: Desconhecido',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */

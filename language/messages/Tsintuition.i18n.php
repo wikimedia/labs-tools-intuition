@@ -2056,10 +2056,11 @@ $messages['sq'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'fullname' => 'Превод корисничког сучеља Тулсервера',
+	'fullname' => 'Превод корисничког окружења Toolservera',
 	'current-settings' => 'Текуће поставке',
 	'current-language' => 'Изабрани језик',
 	'settings-legend' => 'Поставке',
@@ -2391,6 +2392,7 @@ $messages['vi'] = array(
  * @author Hydra
  * @author Shizhao
  * @author Simon Shek
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'fullname' => '国际化Toolserver用户界面',
@@ -2398,7 +2400,7 @@ $messages['zh-hans'] = array(
 	'current-language' => '当前所选的语言',
 	'settings-legend' => '设置',
 	'choose-language' => '选择语言',
-	'clear-cookies' => '清除 cookie',
+	'clear-cookies' => '清除Cookie',
 	'renew-cookies' => '重设cookies',
 	'cookie-expiration' => 'Cookie期限',
 	'clearcookies-success' => '顺利清理cookies。',

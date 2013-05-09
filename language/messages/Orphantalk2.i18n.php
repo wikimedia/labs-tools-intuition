@@ -1513,6 +1513,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
@@ -1520,6 +1521,11 @@ $messages['pt-br'] = array(
 	'select-wiki-first' => '(primeiro selecione uma wiki)',
 	'hideredirects' => 'Excluir redirecionamentos',
 	'hidesubpages' => 'Ocultar subpáginas',
+	'limit' => 'Limite',
+	'page' => 'Página',
+	'update' => 'Atualizar',
+	'tools-delete' => 'apagar',
+	'tools-hist' => 'hist',
 );
 
 /** Romanian (română)

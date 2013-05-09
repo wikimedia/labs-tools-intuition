@@ -2105,14 +2105,14 @@ $messages['ko'] = array(
 	'move_file_from_com' => '공용에서 다른 프로젝트로 보내기',
 	'categories' => '분류',
 	'remove_cats' => '기존 분류를 제거',
-	'use_checkusage' => '새 분류 제안을 위해 $1커먼센스$2 이용',
+	'use_checkusage' => '새 분류 제안을 위해 $1커먼센스$2 사용',
 	'use_tusc' => '$1TUSC$2 인증을 하고 즉시 파일을 올리기',
 	'tusc_user' => 'TUSC 사용자 이름',
 	'tusc_pass' => 'TUSC 비밀번호',
 	'do_it' => '시작',
 	'error_transfer_usr' => '위키미디어 공용의 계정 이름을 입력하지 않았습니다.',
 	'error_not_exists' => '원본 파일이 없습니다!',
-	'error_on_commons' => '소스 파일이 이미 $1에 있습니다!',
+	'error_on_commons' => '원본 파일이 이미 $1에 있습니다!',
 	'error_file_exists' => '$3에 "$1$4$2"로 파일이 이미 올라와 있습니다!',
 	'error_diff_exists' => '파일을 올릴 위키에 똑같은 이름의 다른 파일이 있습니다!',
 	'error_no_meta' => '원본 위키에 대한 메타데이터를 찾지 못했습니다! $1해당 프로젝트에 대한 메타데이터를 추가/업데이트해주세요.$2',
@@ -3067,11 +3067,15 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Analuisa
+ * @author Luckas
  */
 $messages['pt'] = array(
 	'attention' => 'Atenção',
 	'language' => 'Língua',
 	'project' => 'Projecto',
+	'categories' => 'Categorias',
+	'remove_cats' => 'Remover categorias existentes',
+	'new_filename' => 'Novo nome do arquivo:',
 	'upload_submit' => 'Upload!',
 	'target_wiki' => 'o wiki alvo',
 );

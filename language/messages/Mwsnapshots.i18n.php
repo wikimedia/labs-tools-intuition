@@ -1496,14 +1496,17 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Luckas
  * @author Sarilho1
  */
 $messages['pt'] = array(
 	'title-error' => 'Erro',
 	'repo-lastmoddate-label' => 'Data:',
+	'tablehead-filesize' => 'Tamanho do arquivo',
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(

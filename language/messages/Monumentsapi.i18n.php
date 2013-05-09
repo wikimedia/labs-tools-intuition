@@ -2902,6 +2902,7 @@ $messages['pt'] = array(
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  * @author Gusta
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
@@ -2924,9 +2925,15 @@ $messages['pt-br'] = array(
 	'db-field-source' => 'Fonte',
 	'db-field-monument_article' => 'Artigo do monumento',
 	'db-field-st_address' => 'Endereços',
+	'db-field-st_address_pct' => 'Endereços %',
 	'db-field-st_coordinates' => 'Coordenadas',
+	'db-field-st_coordinates_pct' => 'Coordenadas %',
 	'db-field-st_image' => 'Imagem',
+	'db-field-st_image_pct' => 'Imagem %',
+	'db-field-st_municipality' => 'Município',
+	'db-field-st_municipality_pct' => 'Município %',
 	'db-field-st_name' => 'Nomes',
+	'db-field-st_name_pct' => 'Nomes %',
 	'db-field-st_total' => 'Número total',
 	'toolbox-nav-homepage' => 'Página principal',
 	'toolbox-nav-statistics' => 'Estatísticas',

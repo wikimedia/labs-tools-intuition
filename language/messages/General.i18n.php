@@ -1737,6 +1737,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Sarilho1
  */
 $messages['pt'] = array(
@@ -1755,6 +1756,7 @@ $messages['pt'] = array(
 	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 	'last-modified-date' => 'Última modificação: $1',
 	'view-source' => 'Ver código fonte',
+	'and' => '&#32;e',
 );
 
 /** Brazilian Portuguese (português do Brasil)

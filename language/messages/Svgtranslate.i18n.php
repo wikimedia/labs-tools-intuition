@@ -1673,7 +1673,7 @@ $messages['ko'] = array(
 	'author-complete' => '저자 정보를 완료하세요!',
 	'preview-hide' => '미리 보기 숨기기',
 	'preview-refresh' => '미리 보기 새로 고침',
-	'error-must-accept' => '직접 업로드를 계속하려면 제공하는 이용 약관에 동의해야 합니다.',
+	'error-must-accept' => '직접 올리기를 계속하려면 제공하는 이용 약관에 동의해야 합니다.',
 	'error-tusc-failed' => 'TUSC 유효성 검사 실패: 사용자 이름이나 비밀번호가 잘못되었습니다.',
 	'description-license' => '설명과 라이선스 선택',
 	'finalise' => '자세한 정보 마무리',
@@ -2365,6 +2365,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
  * @author Pedroca cerebral
  */
 $messages['pt-br'] = array(
@@ -2385,6 +2386,7 @@ $messages['pt-br'] = array(
 	'option-manual' => 'Upload manual',
 	'preview' => 'Pré-visualização',
 	'translate' => 'Traduzir',
+	'svginput-label' => 'Arquivo SVG',
 );
 
 /** Romanian (română)
@@ -3076,6 +3078,23 @@ $messages['vi'] = array(
 	'error-tusc-failed' => 'Thất bại việc xác minh TUSC: tên người dùng hoặc mật khẩu không chính xác.',
 	'description-license' => 'Chọn miêu tả và giấy phép',
 	'finalise' => 'Hoàn tất các chi tiết',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'error-nothing' => 'נישטא וואס איבערצוזעצן',
+	'error-notsvg' => 'נישט קיין SVG טעקע.',
+	'begin-translation' => 'אנהייבן איבערזעצן',
+	'th-original' => 'ארגינעל',
+	'th-translation' => 'איבערזעצונג',
+	'th-language' => 'שפראַך',
+	'th-username' => 'באַניצער נאָמען',
+	'th-password' => 'פאַסווארט',
+	'th-method' => 'מעטאָד',
+	'translate' => 'איבערזעצן',
+	'svginput-label' => 'SVG טעקע',
 );
 
 /** Simplified Chinese (中文（简体）‎)

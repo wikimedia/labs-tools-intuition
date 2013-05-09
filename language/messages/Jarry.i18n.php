@@ -535,6 +535,13 @@ $messages['pms'] = array(
 	'error-form-empty' => 'Un o pi camp obligatòri a son stàit lassà veuid. A dev completeje prima ëd continué.',
 );
 
+/** Portuguese (português)
+ * @author Luckas
+ */
+$messages['pt'] = array(
+	'moretools' => 'mais ferramentas do mesmo autor',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author Gusta
  */

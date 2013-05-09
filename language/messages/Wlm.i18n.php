@@ -2226,6 +2226,7 @@ $messages['ia'] = array(
 	'all-countries' => 'Tote le paises',
 	'limit-label' => 'Imagines a monstrar:',
 	'timezone-label' => 'Fuso horari:',
+	'show-earlier-first' => 'Monstrar imagines anterior primo',
 	'show-older-first' => 'Monstrar imagines ancian primo',
 	'show-button' => 'Monstrar',
 	'view-previous-images' => '← Vider imagines precedente',
@@ -3526,9 +3527,12 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Luckas
  * @author Sarilho1
  */
 $messages['pt'] = array(
+	'file' => 'Imagem',
+	'monument-type' => 'Tipo de monumento',
 	'province' => 'Província',
 	'comarque' => 'Comarca',
 	'author' => 'Autor',
@@ -3548,12 +3552,15 @@ $messages['pt'] = array(
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galeria',
 	'author-heading' => 'Autor',
+	'users-list' => 'Ver',
 	'list-prolific-by-photos' => 'por número de fotos',
 	'province-heading' => 'Província',
 	'province-none' => '(Desconhecido)',
+	'nomail-user-count' => '$1 usuários',
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
@@ -3561,8 +3568,11 @@ $messages['pt-br'] = array(
 	'monument-type' => 'Tipo de monumento',
 	'province' => 'Província',
 	'author' => 'Autor',
+	'country-header' => 'País',
+	'location' => 'Localização',
 	'not-available' => 'Não disponível',
 	'date-unknown' => 'Desconhecido',
+	'show-images-all' => 'Mostrar todas as imagens',
 	'search-monuments' => 'Buscar monumentos',
 	'view-frequency' => 'Monumentos populares',
 	'view-ccaa' => 'Visualizar por comunidade autônoma',
@@ -3574,6 +3584,7 @@ $messages['pt-br'] = array(
 	'id-none' => '(Nenhum)',
 	'monument-heading' => 'Monumento',
 	'count-heading' => 'Fotografias',
+	'photographer-count-heading' => 'Fotógrafos',
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galeria',
 	'author-heading' => 'Autor',
@@ -3583,6 +3594,7 @@ $messages['pt-br'] = array(
 	'users-list' => 'Ver',
 	'province-heading' => 'Província',
 	'province-none' => '(Desconhecido)',
+	'nomail-user-count' => '$1 usuários',
 );
 
 /** Romanian (română)
