@@ -1830,11 +1830,12 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Hamilton Abreu
  * @author Helder.wiki
  */
 $messages['pt-br'] = array(
-	'fullname' => 'Internacionalização para o Interface de Usuário do Toolserver',
+	'fullname' => 'Internacionalização da interface de usuário do Toolserver',
 	'current-settings' => 'Configurações atuais',
 	'current-language' => 'Idioma selecionado atualmente',
 	'settings-legend' => 'Configurações',
@@ -2386,6 +2387,27 @@ $messages['vi'] = array(
 	'help-translate-tool' => 'Giúp dịch công cụ này!',
 	'help-translate-all' => 'Giúp dịch Toolserver!',
 	'help-translate-tooltip' => 'Giúp người ta sử dụng công cụ bằng cách dịch thông điệp giao diện qua ngôn ngữ của bạn.',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'current-language' => 'אקטועלע שפראך',
+	'settings-legend' => 'איינשטעלונגען',
+	'choose-language' => 'קלויבט א שפראך',
+	'clear-cookies' => 'אפרייניקן קיכעלעך',
+	'renew-cookies' => 'באנײַען קיכעלעך',
+	'cookie-expiration' => 'קיכעלעך אויסלאז',
+	'clearcookies-success' => 'קיכעלעך אפגערייניקט דערפאלגרייך.',
+	'renewcookies-success' => 'קיכעלעך באנײַט! אלץ אין ארדנונג פֿאר די קומענדיקע $1.',
+	'tab-overview' => 'איבערבליק',
+	'tab-settings' => 'איינשטעלונגען',
+	'tab-about' => 'וועגן',
+	'tab-demo' => 'דעמא',
+	'bl-mysettings' => 'מײַנע שפראך איינשטעלונגען',
+	'bl-mysettings-new' => 'ענדערן שפראך!',
+	'help-translate-tool' => 'העלפט איבערזעצן דעם מכשיר.',
 );
 
 /** Simplified Chinese (中文（简体）‎)

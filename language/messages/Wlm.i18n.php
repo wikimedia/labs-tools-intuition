@@ -908,6 +908,7 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Jezevec
+ * @author Jkjk
  * @author Mormegil
  * @author Vks
  */
@@ -948,9 +949,11 @@ $messages['cs'] = array(
 	'view-previous-images' => '← zobrazit předchozí obrázky',
 	'view-later-images' => 'Zobrazit pozdější obrázky →',
 	'images-listed-count' => '$1 uvedených obrázků.',
+	'log-page-disclaimer' => 'Tento nástroj zobrazí soubory v [[:Category:$1|příslušné kategorii]], které byly nahrány během soutěže. Smazané soubory se nezobrazují, i pokud byly později [$2 obnoveny] a znovu se účastní soutěže.',
 	'bot' => 'Bot',
 	'id-label' => 'Číslo památky:',
 	'id-none' => '(nic)',
+	'monuments-by-photographers-checkbox' => 'Seřadit památky podle počtu fotografů, nikoliv podle počtu fotografií.',
 	'monument-heading' => 'Pomník',
 	'count-heading' => 'Fotografie',
 	'photographer-count-heading' => 'Fotografové',
@@ -977,6 +980,7 @@ $messages['cs'] = array(
 	'province-heading' => 'Provincie',
 	'province-none' => '(Neznámý)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Seznam uživatelů účastnících se soutěže Wiki miluje památky $1, kteří patrně neuvedli svou e-mailovou adresu.',
 	'nomail-user-count' => '$1 uživatel',
 );
 

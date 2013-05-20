@@ -1512,6 +1512,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Giro720
  * @author Luckas
  * @author Luckas Blade
@@ -1523,9 +1524,17 @@ $messages['pt-br'] = array(
 	'hidesubpages' => 'Ocultar subpáginas',
 	'limit' => 'Limite',
 	'page' => 'Página',
+	'redirect' => 'É redirecionamento?',
+	'output' => 'Saída',
 	'update' => 'Atualizar',
 	'tools-delete' => 'apagar',
+	'tools-links' => 'links',
+	'tools-subject' => 'assunto',
 	'tools-hist' => 'hist',
+	'tools-globalusage' => 'uso global',
+	'deletesummary' => 'Limpeza das páginas de discussão órfãs via $1',
+	'noresults' => 'Não há páginas de discussão órfãs nesta wiki, este namespace coincide com sua configuração.',
+	'resultslimited' => 'Os resultados se limitam a $1 páginas',
 );
 
 /** Romanian (română)

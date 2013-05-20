@@ -2900,6 +2900,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Giro720
  * @author Gusta
  * @author Luckas
@@ -2907,6 +2908,7 @@ $messages['pt'] = array(
  */
 $messages['pt-br'] = array(
 	'search-title' => 'Busca de monumentos',
+	'search-monuments-database' => 'Pesquisar na base de dados de monumentos',
 	'search-table-th-field' => 'Campo',
 	'search-table-th-filter' => 'Filtro',
 	'search-table-th-search' => 'Pesquisar',
@@ -2924,6 +2926,7 @@ $messages['pt-br'] = array(
 	'db-field-changed' => 'Modificado',
 	'db-field-source' => 'Fonte',
 	'db-field-monument_article' => 'Artigo do monumento',
+	'db-field-registrant_url' => 'URL do titular',
 	'db-field-st_address' => 'Endereços',
 	'db-field-st_address_pct' => 'Endereços %',
 	'db-field-st_coordinates' => 'Coordenadas',
@@ -2935,11 +2938,17 @@ $messages['pt-br'] = array(
 	'db-field-st_name' => 'Nomes',
 	'db-field-st_name_pct' => 'Nomes %',
 	'db-field-st_total' => 'Número total',
+	'toolbox-label-searchtipps' => 'use %term ou term% ou %term% para buscar por aproximação',
+	'toolbox-meta-title' => 'Caixa de ferramentas do Wiki Loves Monuments',
+	'toolbox-main-title' => 'Caixa de ferramentas do WLM',
+	'toolbox-main-description' => 'Um conjunto de ferramentas relacionadas com',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
 	'toolbox-nav-homepage' => 'Página principal',
 	'toolbox-nav-statistics' => 'Estatísticas',
 	'toolbox-nav-search' => 'Pesquisar',
 	'toolbox-title-searchmonuments' => 'Buscar monumentos',
 	'location' => 'Localização',
+	'source-monuments-list-on-wikipedia' => 'Fonte da lista de monumentos na Wikipédia',
 );
 
 /** Romanian (română)

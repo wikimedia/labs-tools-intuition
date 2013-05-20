@@ -543,10 +543,14 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Gusta
  */
 $messages['pt-br'] = array(
 	'moretools' => 'mais ferramentas do mesmo autor',
+	'bugs' => 'relatórios de erros e solicitações de recursos',
+	'comments' => 'comentários e consultas',
+	'error-form-empty' => 'Um ou mais campos obrigatórios foram deixados em branco. Você deve preenche-los antes de continuar.',
 );
 
 /** Romanian (română)

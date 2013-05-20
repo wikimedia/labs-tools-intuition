@@ -904,6 +904,21 @@ $messages['pt'] = array(
 	'language-label' => 'Língua',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
+ */
+$messages['pt-br'] = array(
+	'enter-details' => 'Inserir detalhes',
+	'introduction' => 'Digite o nome de uma predefinição (somente as Wikipédia, no momento) e clique em Ir. É tão simples como isso. Há algo da cache (recorde os resultados), mas está infelizmente fora do controle desta ferramenta e de seu proprietário.',
+	'language-label' => 'Idioma',
+	'namespace-label' => 'Namespace',
+	'pagename-label' => 'Nome da página (sem o namespace)',
+	'transclusion-count-label' => 'Número de transclusões',
+	'transclusion-count' => '$1 transclusão(ões) encontrada(s).',
+	'error-suggestion' => 'Será que você escreveu mal o nome da página?',
+	'time-label' => 'Tempo necessário para executar o comando',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */

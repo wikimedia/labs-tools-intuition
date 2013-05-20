@@ -2365,6 +2365,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Luckas
  * @author Pedroca cerebral
  */
@@ -2386,7 +2387,20 @@ $messages['pt-br'] = array(
 	'option-manual' => 'Upload manual',
 	'preview' => 'Pré-visualização',
 	'translate' => 'Traduzir',
+	'translate-instructions' => 'São aceitas entradas tanto como um nome de arquivo (por exemplo, "$1") ou como uma URL completa (por exemplo, "$2"). Se o primeiro caso for utilizado, a fonte será o Wikimedia Commons. Para traduzir uma imagem SVG de outro site ou wiki, é preciso usar uma URL completa.',
 	'svginput-label' => 'Arquivo SVG',
+	'stats-footer' => 'Esta ferramenta foi utilizada para traduzir aproximadamente $1 arquivos desde $2.',
+	'uploading' => 'Enviando',
+	'upload-complete' => 'O envio foi concluído com sucesso. A imagem deve estar agora em $1',
+	'editdescriptionpage' => 'Edite a nova página de descrição',
+	'disclaimer' => 'Alguns dados anônimos serão coletados de forma privada para fins estatísticos. Se for fornecido, os nomes de usuário TUSC também será armazenado para auxílio em caso de vandalismo. As senhas nunca serão gravadas.',
+	'author-complete' => 'Por favor, complete a informação do autor!',
+	'preview-hide' => 'Esconder pré-visualização',
+	'preview-refresh' => 'Atualizar pré-visualização',
+	'error-must-accept' => 'Para continuar com um envio direto você deve aceitar os termos de uso fornecidos.',
+	'error-tusc-failed' => 'A validação de TUSC falhou: nome de usuário ou senha incorretos.',
+	'description-license' => 'Selecione a descrição e a licença',
+	'finalise' => 'Finalizar detalhes',
 );
 
 /** Romanian (română)

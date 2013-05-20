@@ -363,6 +363,13 @@ $messages['pt'] = array(
 	'title' => 'Actividade anónima recente',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
+ */
+$messages['pt-br'] = array(
+	'title' => 'Atividades anônimas recentes',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */

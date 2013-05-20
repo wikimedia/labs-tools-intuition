@@ -1760,6 +1760,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Giro720
  * @author Gusta
  * @author TheGabrielZaum
@@ -1778,6 +1779,7 @@ $messages['pt-br'] = array(
 	'hours' => '{{PLURAL: $1|hora|horas}}',
 	'minutes' => '{{PLURAL: $1|minuto|minutos}}',
 	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
+	'last-modified-date' => 'Última modificação: $1',
 	'view-source' => 'Ver código-fonte',
 	'and' => '&#32;e',
 );

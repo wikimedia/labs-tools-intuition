@@ -1506,14 +1506,36 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
+	'title-overview' => 'Instantâneas',
 	'title-error' => 'Erro',
+	'title-updatelog' => 'Registro da atualização',
+	'updatelog-intro' => 'O script de atualização está programado para ser executado a cada hora. A seguir, o resultado do console após a última execução.',
+	'updatelog-active' => 'O script de atualização está sendo executado. Volte mais tarde para ver o registro completo.',
+	'download-button' => 'Baixar $1',
+	'download-directlink' => 'link direto',
+	'title-downloadpage' => 'Baixar: $1',
+	'downloadpage-directlink' => 'Clique aqui para baixar a instantânea.',
+	'err-snapshotindex' => 'O índice de instantâneas está temporariamente indisponível. Tente novamente mais tarde.',
+	'err-invalid-repo' => 'Repositório desconhecido: "$1"',
+	'err-invalid-branch' => 'Ramo desconhecido: "$1" no repositório "$2".',
+	'err-nosnapshot' => 'As instantâneas são geradas a cada poucas horas. Ao gerar a instantânea para "$1", ocorreu um erro. Tente novamente mais tarde.',
+	'err-noupdatelog' => 'Nenhum registro de atualização foi encontrado.',
+	'repo-site-link' => 'Sítio Web',
+	'repo-browse-link' => 'Examinar repositório',
+	'repo-branches-label' => 'Ramos:',
 	'repo-lastmoddate-label' => 'Data:',
+	'branches-submit-button' => 'Conseguiu!',
+	'updatelog-link' => 'registro de atualização',
 	'tablehead-repo' => 'Repositório',
+	'tablehead-snapshots' => 'Instantâneas',
+	'tablehead-branch' => 'Ramo',
 	'tablehead-filesize' => 'Tamanho do arquivo',
+	'tablehead-hash' => 'Somas de verificação',
 );
 
 /** Romanian (română)
