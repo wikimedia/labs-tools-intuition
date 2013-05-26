@@ -2043,21 +2043,24 @@ $messages['sv'] = array(
 );
 
 /** Swahili (Kiswahili)
+ * @author Lloffiwr
  * @author Platonides
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
 	'welcome' => 'Karibu',
+	'toolversionstamp' => 'Toleo la $1 ($2)',
 	'etc' => 'nk',
 	'namespace' => 'Eneo la wiki',
 	'form-submit' => 'Nenda',
-	'form-reset' => 'Seti upya',
-	'years' => '{{PLURAL:$1|year|miaka}}',
-	'weeks' => '{{PLURAL:$1|week|wiki}}',
-	'days' => '{{PLURAL:$1|day|masiku}}',
-	'hours' => '{{PLURAL:$1|hour|masaa}}',
-	'minutes' => '{{PLURAL:$1|minute|dakika}}',
-	'seconds' => '{{PLURAL:$1|second|sekunde}}',
+	'form-reset' => 'Panga upya',
+	'years' => '{{PLURAL:$1|mwaka|miaka}}',
+	'weeks' => '{{PLURAL:$1|wiki}}',
+	'days' => '{{PLURAL:$1|siku}}',
+	'hours' => '{{PLURAL:$1|saa|masaa}}',
+	'minutes' => '{{PLURAL:$1|dakika}}',
+	'seconds' => '{{PLURAL:$1|sekunde}}',
+	'last-modified-date' => 'Ilibadilishwa mwishoni tarehe $1',
 	'view-source' => 'Onyesha kodi za ukurasa',
 	'and' => '&#32;na',
 );
