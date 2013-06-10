@@ -1489,6 +1489,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
 	'title' => 'DiscussõesOrfãs2',
@@ -1497,9 +1498,9 @@ $messages['pt'] = array(
 	'hidesubpages' => 'Excluir subpáginas',
 	'limit' => 'Limite',
 	'page' => 'Página',
-	'redirect' => 'Redireccionamento?',
+	'redirect' => 'Redirecionamento?',
 	'output' => 'Resultados',
-	'update' => 'Actualizar',
+	'update' => 'Atualizar',
 	'tools-delete' => 'eliminar',
 	'tools-links' => 'links',
 	'tools-subject' => 'Página',

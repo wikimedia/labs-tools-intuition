@@ -1834,7 +1834,7 @@ $messages['ga'] = array(
  */
 $messages['gl'] = array(
 	'title' => 'Ficheiros de WLM',
-	'file' => 'Ficheiro',
+	'file' => 'Imaxe',
 	'monument-type' => 'Tipo de monumento',
 	'monument-id' => 'Identificador do monumento',
 	'province' => 'Provincia',
@@ -2777,6 +2777,7 @@ Fottjeschmeße Datteije wääde nit jezeisch, och wann se schpääder [$2 wider 
 $messages['ku-latn'] = array(
 	'file' => 'Wêne',
 	'location' => 'Cih',
+	'upload-time' => 'Dema barkirinê',
 	'show-images-all' => 'Hemû wêneyan nîşan bide',
 	'bot' => 'Bot',
 	'bic-list' => 'Lîste',

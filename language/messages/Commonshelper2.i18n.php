@@ -1800,10 +1800,12 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Iwan Novirion
  * @author Kenrick95
  */
 $messages['id'] = array(
 	'attention' => 'Perhatian',
+	'commonshelper2' => 'CommonsHelper 2',
 	'description' => 'Alat untuk mentransfer berkas dari proyek-proyek Wikimedia ke Wikimedia Commons',
 	'change_meta' => 'Ubah $1pengaturan kategori dan templat$2 untuk $3',
 	'jira_link' => 'Laporkan kutu (bug) atau sarankan fitur',
@@ -1816,6 +1818,7 @@ $messages['id'] = array(
 	'move_file_from_com' => 'Pindahkan berkas dari Wikimedia Commons ke proyek',
 	'categories' => 'Kategori',
 	'remove_cats' => 'Hapus kategori yang ada',
+	'checkusage' => 'Periksa penggunaan',
 	'use_checkusage' => 'Gunakan $1CommonSense$2 untuk menyarankan kategori baru',
 	'use_tusc' => 'Gunakan $1TUSC$2 untuk langsung mengotentikasi dan mentransfer berkas',
 	'tusc_user' => 'Nama pengguna TUSC',
@@ -1835,6 +1838,7 @@ $messages['id'] = array(
 	'output_information' => 'Untuk pengunggahan secara manual, sunting teks di atas (jika diperlukan), simpan $1berkas$2 di komputer Anda, lalu $3unggah berkas tersebut$4.',
 	'upload_submit' => 'Unggah!',
 	'target_wiki' => 'wiki target',
+	'standard_project' => 'wikipedia',
 	'error_bot_blocked' => 'Bot pengunggah diblokir di Wikimedia Commons.',
 	'error_upload_meta' => 'Tidak bisa langsung mengunggah karena ada masalah dengan meta data (lihat di atas)!',
 	'error_tusc_failed' => 'Verifikasi TUSC gagal!',

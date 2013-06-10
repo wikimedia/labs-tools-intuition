@@ -425,8 +425,10 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Aldnonymous
+ * @author Iwan Novirion
  */
 $messages['id'] = array(
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '(pilih wiki)',
 	'alws-group-mustused' => 'Wiki yang paling banyak digunakan',
 	'alws-group-allaz' => 'Semua wiki berdasarkan abjad',

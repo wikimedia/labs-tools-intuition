@@ -1972,6 +1972,7 @@ $messages['uk'] = array(
 
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
+ * @author Sociologist
  */
 $messages['uz'] = array(
 	'title-overview' => 'Suratlar',
@@ -1980,7 +1981,7 @@ $messages['uz'] = array(
 	'download-button' => '$1ni yuklash',
 	'download-directlink' => 'toʻgʻridan-toʻgʻri havola',
 	'title-downloadpage' => 'Yuklash: $1',
-	'downloadpage-directlink' => 'Bir lahzalik suratni yuklash uchun bu yerga bosing.',
+	'downloadpage-directlink' => 'Bir lahzada tayyor boʻladigan suratni yuklash uchun bu yerga bosing.',
 	'err-snapshotindex' => 'Surat indeksiga vaqtincha ruxsat yoʻq. Iltimos, keyinroq urinib koʻring.',
 	'err-invalid-repo' => 'Nomaʼlum repozitoriy: "$1".',
 	'err-invalid-branch' => 'Noʼmalum tarmoq: "$2" repozitoriyasida "$1".',

@@ -1373,6 +1373,28 @@ $messages['map-bms'] = array(
 	'namespace' => 'Bilik jeneng',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'hello' => 'Salam',
+	'welcome' => 'Salamaik datang',
+	'toolversionstamp' => 'Versi $1 ($2)',
+	'etc' => 'dll.',
+	'namespace' => 'Ruangnamo',
+	'form-submit' => 'Tuju',
+	'form-reset' => 'Reset',
+	'years' => '{{PLURAL: $1|taun}}',
+	'weeks' => '{{PLURAL: $1|pakan}}',
+	'days' => '{{PLURAL: $1|ari}}',
+	'hours' => '{{PLURAL: $1|jam}}',
+	'minutes' => '{{PLURAL: $1|minik}}',
+	'seconds' => '{{PLURAL: $1|datiak}}',
+	'last-modified-date' => 'Tarakhia diubah: $1',
+	'view-source' => 'Caliak sumber',
+	'and' => '&#32;jo',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
