@@ -3950,6 +3950,7 @@ $messages['sl'] = array(
 	'id-none' => '(Brez)',
 	'monument-heading' => 'Spomenik',
 	'count-heading' => 'Fotografije',
+	'photographer-count-heading' => 'Fotografi',
 	'bic-list' => 'Seznam',
 	'bic-gallery' => 'Galerija',
 	'gallery-header' => 'Slike spomenika z id $1.',
@@ -4134,6 +4135,7 @@ Obrisane datoteke nisu prikazane, čak iako su u međuvremenu [$2 vraćene] i po
 
 /** Swedish (svenska)
  * @author Fader
+ * @author Jopparn
  * @author Lokal Profil
  * @author WikiPhoenix
  */
@@ -4192,12 +4194,14 @@ $messages['sv'] = array(
 	'users-text' => 'Denna sida visar skaparna med deras uppladdade bilderna samt för hur många monument',
 	'users-list' => 'Visa',
 	'distict-monuments' => 'Distinkta monument',
+	'list-prolific-begin' => 'Lista över de mest produktiva uppladdarna:',
 	'list-prolific-by-photos' => 'efter antal foton',
 	'list-prolific-by-distinct-identifiers' => 'efter antal olika identifierare',
 	'list-prolific-by-distinct-good-identifiers' => 'efter antal olika listade identifierare',
 	'list-prolific-by-identifiers' => 'efter antal monumentidentifierare',
 	'list-prolific-by-good-identifiers' => 'efter antal identifierare i listorna',
 	'list-prolific-by-bad-identifiers' => 'efter antal identifierare som inte finns i listorna',
+	'group-by-identifiers-all-countries-meaningless' => 'Många länder använder inte identifierare i deras uppladdningar, så dessa resultat är förmodligen meningslösa.',
 	'province-heading' => 'Provins',
 	'province-none' => '(Okänd)',
 	'ccaa-heading' => 'CC.AA.',

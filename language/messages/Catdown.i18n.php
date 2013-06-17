@@ -3010,6 +3010,7 @@ $messages['uk'] = array(
 
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
+ * @author Sociologist
  */
 $messages['uz'] = array(
 	'title' => 'Rasmlarni turkumlar boʻyicha yuklash',
@@ -3027,7 +3028,7 @@ $messages['uz'] = array(
 	'category-contains-namespace' => 'Siz turkum nomiga nomfazoni qoʻshganga oʻxshaysiz. Siz tomondan tanlangan nom bilan sahifa [[Category:$1]] koʻrinishiga ega boʻladi.',
 	'zip-failed' => 'Zip yaratishda xatolik',
 	'image-area-too-big' => '$1 eskiz yaratish uchun juda katta. Toʻliq oʻlchamdan foydalaniladi.',
-	'download-info' => '$2 taxminiy oʻlchami bilan {{plural: $1|$1 ta rasm mavjud}}',
+	'download-info' => 'Taxminiy oʻlchami $2 boʻlgan {{plural: $1|bitta tasvir|$1 ta tasvir}} mavjud',
 	'download' => 'Yuklash',
 	'scaling-both' => '$1x$2 pikselli eng katta oʻlchamgacha miqyoslandi',
 );

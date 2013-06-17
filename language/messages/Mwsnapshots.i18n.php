@@ -1799,16 +1799,19 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'title-overview' => 'Ögonblicksbilder',
 	'title-error' => 'Fel',
 	'title-updatelog' => 'Uppdatera logg',
+	'updatelog-intro' => 'Uppdateringsskriptet har schemalagts att köra varje timme. Nedan är konsolproduktionen från den senaste körningen.',
 	'download-button' => 'Ladda ned $1',
 	'download-directlink' => 'direkt länk',
 	'title-downloadpage' => 'Ladda ned: $1',
 	'downloadpage-directlink' => 'Klicka här för att ladda ned ögonblicksbilden.',
+	'err-snapshotindex' => 'Indexet över ögonblicksbilder är tillfälligt otillgänligt. Vänligen försök igen senare.',
 	'err-invalid-repo' => 'Okänd databas: "$1".',
 	'err-noupdatelog' => 'Ingen uppdateringslogg hittades.',
 	'repo-site-link' => 'Webbplats',
