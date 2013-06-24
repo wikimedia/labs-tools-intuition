@@ -1171,12 +1171,16 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'toolserver-status-ok' => 'Det finns inga problem i databaskluster $1 $2',
+	'toolserver-status-info' => 'Meddelande för användare i klustret $1: $2',
 	'toolserver-status-warn' => 'Varning för klusteranvändare $1: $2',
+	'toolserver-status-down' => 'Databasklustret $1 har tillfälligt blivit avstängt. $2',
 	'toolserver-status-erro' => 'Databasklustret $1 är nere. $2',
+	'toolserver-status-unknown' => 'Okänd status för kluster $1',
 	'toolserver-status-missing' => 'Klustret $1 finns inte',
 	'toolserver-status-short-ok' => '$1: Ok',
 	'toolserver-status-short-info' => '$1: Info',

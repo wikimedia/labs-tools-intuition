@@ -4135,6 +4135,7 @@ Obrisane datoteke nisu prikazane, čak iako su u međuvremenu [$2 vraćene] i po
 
 /** Swedish (svenska)
  * @author Fader
+ * @author Haxpett
  * @author Jopparn
  * @author Lokal Profil
  * @author WikiPhoenix
@@ -4176,9 +4177,11 @@ $messages['sv'] = array(
 	'view-previous-images' => '← Visa föregående bilder',
 	'view-later-images' => 'Visa senare bilder →',
 	'images-listed-count' => '$1 bilder listade.',
+	'log-page-disclaimer' => 'Det här verktyget visar filerna i [[:Category:$1|kategorin]] vilka laddades upp i tävlingen. Raderade filer visas inte även om dom senare [$2 återställdes] och deltar igen.',
 	'bot' => 'Bot',
 	'id-label' => 'Monument-id:',
 	'id-none' => '(Inget)',
+	'monuments-by-photographers-checkbox' => 'Sortera monument efter antal fotografer, inte efter antal bilder.',
 	'monument-heading' => 'Monument',
 	'count-heading' => 'Fotografier',
 	'photographer-count-heading' => 'Fotografer',

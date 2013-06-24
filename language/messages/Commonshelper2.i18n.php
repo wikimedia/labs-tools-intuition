@@ -734,6 +734,13 @@ $messages['ca'] = array(
 	'help_commons' => '$1Afegeix un missatge a Commons$2',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'new_filename' => 'Файлан керла цӀе:',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Muhammed taha
  */
