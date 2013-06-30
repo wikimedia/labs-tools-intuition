@@ -21,7 +21,7 @@ $messages['en'] = array(
 	'pagename-label' => 'Page name (excluding namespace)',
 	'transclusion-count-label' => 'Number of transclusions',
 	'transclusion-count' => '$1 transclusion(s) found.',
-	'error-suggestion' => 'Perhaps you misspelt (or incorrectly capitalised) the name of the page?',
+	'error-suggestion' => 'Perhaps you misspelt (or incorrectly capitalized) the name of the page?',
 	'time-label' => 'Time taken to execute command',
 );
 

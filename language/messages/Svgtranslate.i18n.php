@@ -48,7 +48,7 @@ $messages['en'] = array(
 	'error-must-accept' => 'To continue with a direct upload you must accept the terms of use provided.',
 	'error-tusc-failed' => 'TUSC validation failed: username or password incorrect.',
 	'description-license' => 'Select description and license',
-	'finalise' => 'Finalise details',
+	'finalise' => 'Finalize details',
 );
 
 /** Message documentation (Message documentation)
