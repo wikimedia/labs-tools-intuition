@@ -34,10 +34,10 @@ $messages['en'] = array(
 	'db-field-image' => 'Image',
 	'db-field-changed' => 'Changed',
 	'db-field-source' => 'Source',
-	'db-field-monument_article' => 'Monument article',
-	'db-field-registrant_url' => 'Registrant url',
+	'db-field-monument_article' => 'Monument page',
+	'db-field-registrant_url' => 'Registrant URL',
 	'db-field-st_address' => 'Adresses',
-	'db-field-st_address_pct' => 'Adresses %',
+	'db-field-st_address_pct' => 'Addresses %',
 	'db-field-st_coordinates' => 'Coordinates',
 	'db-field-st_coordinates_pct' => 'Coordinates %',
 	'db-field-st_image' => 'Image',
@@ -94,7 +94,7 @@ The title of the tool.',
 	'db-field-changed' => 'Translation of the field "changed" in the monuments database. This field contains the time when the record was last imported in the database.',
 	'db-field-source' => 'Translation of the field "source" in the monuments database. The source field contains a link to the Wikipedia list from which the data was imported.
 {{Identical|Source}}',
-	'db-field-monument_article' => 'Translation of the field "monument_article" in the monuments database. This is the title of a wiki article about the monument.',
+	'db-field-monument_article' => 'Translation of the field "monument_article" in the monuments database. This is the title of a wiki page about the monument.',
 	'db-field-registrant_url' => 'Translation of the field "registrant_url" in the monuments database.
 
 Examples of registrant URLs:
