@@ -59,7 +59,8 @@ $messages['qqq'] = array(
 	'renew-cookies' => "Link in the dashboard that will renew all memory (cookies) of the visitors language choise. This resets the expiry, so that they won't expire soon.",
 	'cookie-expiration' => 'Label in the dashboard\'s "current settings"-tab. This is the time until the language memory (cookies) will expire.',
 	'clearcookies-success' => 'Message displayed after cookies are cleared.',
-	'renewcookies-success' => 'This message is shown after the cookies are renewed. The $1 variable contains the period of time until the cookies will expire (eg. "30 days")..',
+	'renewcookies-success' => 'This message is shown after the cookies are renewed. Parameters:
+* $1 - the period of time until the cookies will expire. e.g. "30 days"',
 	'tab-overview' => 'Dashboard tab for "Overview" which shows the current settings.
 {{Identical|Overview}}',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
@@ -1167,11 +1168,11 @@ $messages['ja'] = array(
 	'current-language' => '現在選択されている言語',
 	'settings-legend' => '設定',
 	'choose-language' => '言語を選択',
-	'clear-cookies' => 'クッキーを消去',
-	'renew-cookies' => 'クッキーを更新',
-	'cookie-expiration' => 'クッキーの有効期限',
-	'clearcookies-success' => 'クッキーを消去しました。',
-	'renewcookies-success' => 'クッキーを更新しました。今後$1のあいだ有効です。',
+	'clear-cookies' => 'Cookie を消去',
+	'renew-cookies' => 'Cookie を更新',
+	'cookie-expiration' => 'Cookie の有効期限',
+	'clearcookies-success' => 'Cookie を消去しました。',
+	'renewcookies-success' => 'Cookie を更新しました。今後$1のあいだ有効です。',
 	'tab-overview' => '概要',
 	'tab-settings' => '設定',
 	'tab-about' => '解説',

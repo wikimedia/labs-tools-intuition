@@ -313,6 +313,13 @@ $messages['el'] = array(
 	'time-label' => 'Χρόνος που πέρασε για την εκτέλεση της εντολής',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'error-suggestion' => 'Perhaps you misspelt (or incorrectly capitalised) the name of the page?',
+);
+
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
  */
@@ -1180,6 +1187,7 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Qiyue2001
  * @author Shizhao
  * @author Xiaomingyan
  * @author Yfdyh000
@@ -1187,11 +1195,13 @@ $messages['vi'] = array(
 $messages['zh-hans'] = array(
 	'title' => '模板嵌入包含计数',
 	'enter-details' => '输入详细信息',
+	'introduction' => '输入模板的名称（现时只限维基百科），然后按提交。就是这么简单。可能有些缓存问题（结果回忆），但这不是此工具和其主人可控制的范围。',
 	'language-label' => '语言',
 	'namespace-label' => '名字空间',
 	'pagename-label' => '页面名称（不包括命名空间）',
 	'transclusion-count-label' => '使用数目',
 	'transclusion-count' => '找到在$1页面上使用。',
+	'error-suggestion' => '可能你输入了错误的页面标题？',
 	'time-label' => '执行命令所需的时间',
 );
 

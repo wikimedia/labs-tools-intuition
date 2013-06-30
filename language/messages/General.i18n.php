@@ -792,6 +792,7 @@ $messages['fr'] = array(
 );
 
 /** Franco-Provençal (arpetan)
+ * @author Cedric31
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -2083,7 +2084,7 @@ $messages['sw'] = array(
 	'minutes' => '{{PLURAL:$1|dakika}}',
 	'seconds' => '{{PLURAL:$1|sekunde}}',
 	'last-modified-date' => 'Ilibadilishwa mwishoni tarehe $1',
-	'view-source' => 'Onyesha kodi za ukurasa',
+	'view-source' => 'Onesha msimbo wa ukurasa',
 	'and' => '&#32;na',
 );
 

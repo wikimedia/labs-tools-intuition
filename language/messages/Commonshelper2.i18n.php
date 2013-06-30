@@ -4093,6 +4093,7 @@ $messages['yi'] = array(
  * @author Linforest
  * @author Littletung
  * @author Mys 721tx
+ * @author Qiyue2001
  * @author Zhuyifei1999
  */
 $messages['zh-hans'] = array(
@@ -4121,6 +4122,7 @@ $messages['zh-hans'] = array(
 	'error_diff_exists' => '根据同名的目标维基上存在不同的目标文件！',
 	'error_no_meta' => '未找到关于该来源维基的元数据！$1请为该项目添加/更新元数据$2',
 	'error_meta_no_good' => '元数据： 找不到合适模板 ！ $1请添加或更新改项目的元数据$2',
+	'error_meta_bad' => '元数据：找到不合适模板！$1请添加或更新改项目的元数据$2',
 	'original_wikitext' => '原始维基文本',
 	'new_wikitext' => '新的维基文本',
 	'new_filename' => '新的文件名：',
@@ -4139,6 +4141,7 @@ $messages['zh-hans'] = array(
 	'help_intro' => '当您希望报告bug、提议增加新功能或咨询问题时，您可以使用下列联系方式中的一种。',
 	'help_jira' => '$1JIRA（你需要一个帐户）$2 （项目：Commonshelper2）',
 	'help_mail' => '发送邮件给$1',
+	'help_commons' => '$1在维基共享资源上提出意见$2',
 );
 
 /** Traditional Chinese (中文（繁體）‎)

@@ -3865,6 +3865,7 @@ $messages['zea'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Hzy980512
+ * @author Qiyue2001
  * @author Shirayuki
  * @author Yfdyh000
  */
@@ -3900,6 +3901,8 @@ $messages['zh-hans'] = array(
 	'db-field-st_name' => '名称',
 	'db-field-st_name_pct' => '名称 %',
 	'db-field-st_total' => '总数',
+	'toolbox-label-searchtipps' => '使用 %term 或 term% 或 %term% 来模糊搜索',
+	'toolbox-meta-title' => '维基爱古迹工具箱',
 	'toolbox-main-title' => 'WLM工具箱',
 	'toolbox-main-description' => '一套有关的工具',
 	'toolbox-wikilovesmonuments' => '维基爱古迹',

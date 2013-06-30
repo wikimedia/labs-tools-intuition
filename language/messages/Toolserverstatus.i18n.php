@@ -1330,8 +1330,16 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
+ * @author Qiyue2001
  */
 $messages['zh-hans'] = array(
+	'toolserver-status-ok' => '数据库集群中没有任何问题$1 $2',
+	'toolserver-status-info' => '集群$1用戶通知：$2',
+	'toolserver-status-warn' => '集群$1用户警告：$2',
+	'toolserver-status-down' => '数据库集群$1已被暂时关闭。$2',
+	'toolserver-status-erro' => '数据库集群$1已关闭。$2',
+	'toolserver-status-unknown' => '集群$1状态未知',
+	'toolserver-status-missing' => '集群$1不存在',
 	'toolserver-status-short-ok' => '$1: 良好',
 	'toolserver-status-short-info' => '$1: 讯息',
 	'toolserver-status-short-warn' => '$1: 警告',

@@ -807,6 +807,13 @@ $messages['el'] = array(
 	'description-license' => 'Επιλογή περιγραφής και άδειας',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'finalise' => 'Finalise details',
+);
+
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
  * @author Yekrats
@@ -1480,7 +1487,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'error-tryagain' => '$1 再試行するにはブラウザの戻るボタンを押してください。',
+	'error-tryagain' => '$1 再試行するにはブラウザーの戻るボタンを押してください。',
 	'error-nothing' => '翻訳できるものはありません。',
 	'error-notsvg' => 'SVG ファイルではありません。',
 	'error-unexpected' => '予期しないエラーが発生しました。',
@@ -1552,6 +1559,7 @@ $messages['jv'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'error-nothing' => 'სათარგმნი არაფერია.',
 	'error-notsvg' => 'ეს არ არის SVG ფაილი.',
 	'begin-translation' => 'თარგმნის დაწყება',
 	'th-original' => 'საწყისი',

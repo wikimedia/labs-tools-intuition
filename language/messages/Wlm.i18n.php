@@ -4620,6 +4620,7 @@ Các tập tin đã xóa không được trình bày, ngay cả nếu về sau �
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Hzy980512
+ * @author Qiyue2001
  * @author Shirayuki
  * @author Yfdyh000
  */
@@ -4636,19 +4637,27 @@ $messages['zh-hans'] = array(
 	'location' => '位置',
 	'upload-time' => '上传时间',
 	'deleted' => '已删除($1)',
+	'concursa' => '参与WLM',
 	'not-available' => '不可用',
 	'date-unknown' => '未知',
 	'total-images' => '图像总数：$1',
 	'view-uncategorized-images' => '查看未分类的图片',
+	'show-images-bad-only' => '仅显示列表以外的图像',
 	'show-images-all' => '显示所有图片',
 	'search-monuments' => '搜寻古迹',
 	'view-frequency' => '受欢迎的古迹',
+	'view-ccaa' => '以行政区排列',
+	'view-province' => '以省份排列',
 	'country-label' => '国家：',
 	'all-countries' => '所有国家',
+	'limit-label' => '要显示的图像：',
 	'timezone-label' => '时区：',
 	'show-earlier-first' => '首先显示较早的图像',
 	'show-older-first' => '首先显示较旧的图像',
 	'show-button' => '显示',
+	'view-previous-images' => '← 查看上一页图像',
+	'view-later-images' => '查看更后的图像 →',
+	'images-listed-count' => '$1 图像已列出。',
 	'bot' => '机器人',
 	'id-label' => '古迹ID：',
 	'date-format' => 'Y-m-d H:i:s',
@@ -4664,6 +4673,7 @@ $messages['zh-hans'] = array(
 	'unregistered' => '未注册',
 	'users-list' => '查看',
 	'distict-monuments' => '独特古迹',
+	'list-prolific-by-photos' => '通过照片数量',
 	'province-heading' => '省份',
 	'province-none' => '（未知）',
 	'ccaa-heading' => 'CC.AA.',
