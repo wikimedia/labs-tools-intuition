@@ -307,6 +307,13 @@ $messages['br'] = array(
 	'tablehead-hash' => 'Hacherezh',
 );
 
+/** Bosnian (bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'downloadpage-directlink' => 'Preuzmite snimku.',
+);
+
 /** Catalan (català)
  * @author Arnaugir
  */
@@ -981,7 +988,7 @@ $messages['ja'] = array(
 	'download-button' => '$1 をダウンロード',
 	'download-directlink' => '直接リンク',
 	'title-downloadpage' => 'ダウンロード: $1',
-	'downloadpage-directlink' => 'スナップショットをダウンロードするにはここをクリックします。',
+	'downloadpage-directlink' => 'スナップショットをダウンロードする。',
 	'err-snapshotindex' => 'スナップショットのインデックスは一時的に利用できません。あとでもう一度やり直してください。',
 	'err-invalid-repo' => '不明なリポジトリ:「$1」',
 	'err-invalid-branch' => '不明なブランチ: リポジトリ「$2」内の「$1」',
@@ -1167,6 +1174,7 @@ $messages['lb'] = array(
 	'download-directlink' => 'direkte Link',
 	'title-downloadpage' => '$1 eroflueden',
 	'downloadpage-directlink' => 'Klickt hei fir de Snapshot erofzelueden.',
+	'err-nosnapshot' => 'Snapshots ginn all puer Stonne generéiert. Wéi de Snapshot fir "$1" generéiert gouf ass e Feeler geschitt. Probéiert méi w.e.g. nach eng Kéier.',
 	'err-noupdatelog' => "D'Logbuch vun den Aktualisatioune gouf net fonnt",
 	'repo-site-link' => 'Internetsite',
 	'repo-branches-label' => 'Famillje vu Versiounen:',
@@ -2069,6 +2077,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Liflon
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -2077,6 +2086,7 @@ $messages['zh-hant'] = array(
 	'download-button' => '下載$1',
 	'download-directlink' => '直接鏈接',
 	'title-downloadpage' => '下載：$1',
+	'downloadpage-directlink' => '下載快照。',
 	'err-noupdatelog' => '沒有找到更新日誌。',
 	'repo-site-link' => '網站:',
 	'repo-browse-link' => '瀏覽儲存庫',

@@ -198,6 +198,13 @@ $messages['br'] = array(
 	'time-label' => 'Amzer lakaet evit seveniñ an urzh',
 );
 
+/** Bosnian (bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'error-suggestion' => 'Možda ste pogrešno napisali (ili koristili velika ili mala slova) u nazivu stranice?',
+);
+
 /** Catalan (català)
  * @author SMP
  */
@@ -598,6 +605,7 @@ $messages['ja'] = array(
 	'pagename-label' => 'ページ名 (名前空間を除く)',
 	'transclusion-count-label' => '参照読み込みの回数',
 	'transclusion-count' => '$1 件の参照読み込みが見つかりました。',
+	'error-suggestion' => 'ページ名の綴りが正しいか、誤って大文字にしていないか、確認してください。',
 	'time-label' => 'コマンドの実行に要した時間',
 );
 

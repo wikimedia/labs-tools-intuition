@@ -35,6 +35,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Platonides
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'toolserver-status-ok' => "Message formatting for when the cluster status is 'ok'. Params: cluster ($1) and informative text ($2), which should be empty",
@@ -49,7 +50,11 @@ $messages['qqq'] = array(
 	'toolserver-status-short-warn' => "A short status text for when the status is 'warn'. Params: cluster name ($1)",
 	'toolserver-status-short-down' => "A short status text for when the status is 'down'. Params: cluster name ($1)",
 	'toolserver-status-short-erro' => "A short status text for when the status is 'erro'. Params: cluster name ($1)",
-	'toolserver-status-short-unknown' => "A short status text for when the status file doesn't deliver any information about the status (a toolserver admin wrote it wrong). Params: cluster name ($1)",
+	'toolserver-status-short-unknown' => "A short status text for when the status file doesn't deliver any information about the status (a toolserver admin wrote it wrong).
+
+Parameters:
+* $1 - cluster name
+{{Identical|Unknown}}",
 	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)",
 );
 

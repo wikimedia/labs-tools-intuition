@@ -2204,24 +2204,32 @@ $messages['ksh'] = array(
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
+ * @author Gomada
  */
 $messages['ku-latn'] = array(
 	'language' => 'Ziman',
 	'project' => 'Proje',
 	'categories' => 'Kategorî',
+	'do_it' => 'Pêk bîne',
+	'new_filename' => 'Navê pelê yê nû:',
 	'upload_submit' => 'Bar bike!',
 	'help_mail' => 'Ji $1 re e-namekî bişîne',
 );
 
 /** Kirghiz (Кыргызча)
  * @author Growingup
+ * @author Викиней
  */
 $messages['ky'] = array(
-	'language' => 'Тил',
+	'attention' => 'Көңүл буруңуз',
+	'jira_link' => 'Көйгөйдү билдирүү же жакшыртууну сунуштоо',
+	'language' => 'Тили',
 	'project' => 'Долбоор',
 	'source_file' => 'Баштапкы файл',
 	'categories' => 'Категориялар',
-	'upload_submit' => 'Жүктөө',
+	'do_it' => 'Муну аткаруу',
+	'new_filename' => 'Файлдын жаңы аты:',
+	'upload_submit' => 'Жүктөө!',
 );
 
 /** Latin (Latina)

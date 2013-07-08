@@ -522,6 +522,8 @@ $messages['bs'] = array(
 	'th-language' => 'Jezik',
 	'preview' => 'Pregled',
 	'translate' => 'Prijevod',
+	'translate-instructions' => 'Unosi su prihvaćeni kao imena datoteka (npr. "$1") ili puni URL (npr."$2"). Ako se koristi prva mogućnost, Wikimedia Commons će se pretpostaviti kao izvor. Da biste preveli SVG sa druge stranice ili wiki, morate koristiti puni format URL-a.',
+	'finalise' => 'Dovršite detalje',
 );
 
 /** Catalan (català)

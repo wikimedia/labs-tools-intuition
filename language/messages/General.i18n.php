@@ -1260,6 +1260,7 @@ $messages['ku-latn'] = array(
 /** Kirghiz (Кыргызча)
  * @author Chorobek
  * @author Growingup
+ * @author Викиней
  */
 $messages['ky'] = array(
 	'hello' => 'Бар болуңуз',
@@ -1274,7 +1275,7 @@ $messages['ky'] = array(
 	'days' => '{{PLURAL: $1|күн|күндөр}}',
 	'hours' => '{{PLURAL: $1|саат|сааттар}}',
 	'minutes' => '{{PLURAL: $1|мүнөт|мүнөттөр}}',
-	'seconds' => '{{PLURAL: $1|секнд|секундалар}}',
+	'seconds' => '{{PLURAL: $1|секунд|секундалар}}',
 	'last-modified-date' => '$1 акыркы жолу өзгөртүлгөн',
 	'view-source' => 'Кайнарды кара',
 	'and' => '&#32;жана',

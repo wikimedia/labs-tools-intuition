@@ -103,6 +103,7 @@ Examples of registrant URLs:
 	'db-field-st_coordinates' => '{{Identical|Coordinates}}',
 	'toolbox-nav-homepage' => '{{Identical|Homepage}}',
 	'toolbox-nav-statistics' => '{{Identical|Statistics}}',
+	'toolbox-nav-search' => '{{Identical|Search}}',
 	'location' => '{{Identical|Location}}',
 );
 
@@ -642,6 +643,16 @@ $messages['br'] = array(
 	'toolbox-title-searchmonuments' => 'Klask monumantoù',
 	'location' => "Lec'hiadur",
 	'source-monuments-list-on-wikipedia' => 'Roll ar monumantoù orin war Wikipedia',
+);
+
+/** Bosnian (bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'db-field-monument_article' => 'Članak o spomeniku',
+	'db-field-registrant_url' => 'URL u registru',
+	'db-field-st_address' => 'Adrese',
+	'db-field-st_address_pct' => 'Adrese %',
 );
 
 /** Catalan (català)
@@ -1861,7 +1872,7 @@ $messages['ja'] = array(
 	'db-field-image' => '画像',
 	'db-field-changed' => '変更日時',
 	'db-field-source' => 'ソース',
-	'db-field-monument_article' => 'モニュメント記事',
+	'db-field-monument_article' => 'モニュメント ページ',
 	'db-field-registrant_url' => '登録 URL',
 	'db-field-st_address' => 'アドレス',
 	'db-field-st_address_pct' => 'アドレス %',
@@ -2151,17 +2162,24 @@ $messages['ku-latn'] = array(
 
 /** Kirghiz (Кыргызча)
  * @author Growingup
+ * @author Викиней
  */
 $messages['ky'] = array(
-	'search-table-th-filter' => 'Фильтр',
+	'search-table-th-filter' => 'Чыпка',
 	'search-table-th-search' => 'Издөө',
+	'filter-all-countries' => 'Бардык өлкөлөр',
+	'filter-all-languages' => 'Бардык тилдер',
 	'db-field-country' => 'Өлкө',
-	'db-field-lang' => 'Тил',
+	'db-field-lang' => 'Тили',
 	'db-field-id' => 'Идентификатор',
 	'db-field-name' => 'Ат',
 	'db-field-address' => 'Дарек',
 	'db-field-lat' => 'Кеңдик',
 	'db-field-lon' => 'Узундук',
+	'db-field-image' => 'Сүрөт',
+	'db-field-changed' => 'өзгөртүлдү',
+	'db-field-source' => 'Булагы',
+	'db-field-st_address' => 'Даректерди',
 );
 
 /** Latin (Latina)
