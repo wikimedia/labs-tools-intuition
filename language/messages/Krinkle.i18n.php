@@ -24,11 +24,13 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Krinkle
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'alws-label' => 'Label in the input form for the dropdown menu with all wikis, of which one must be choosen.
 
-{{Optional}}',
+{{Optional}}
+{{Identical|Wiki}}',
 	'alws-selectwiki' => 'This is the initial value for the dropdown menu with all wikis, of which one must be choosen.',
 	'alws-group-mustused' => 'This is the group label for group containing the most used wikis. In a dropdown menu with all wikis.',
 	'alws-group-allaz' => 'This is the group label for the group containg all wikis listed alphabetically. In a dropdown menu with all wikis.',
@@ -461,6 +463,7 @@ $messages['it'] = array(
  * @author 青子守歌
  */
 $messages['ja'] = array(
+	'alws-label' => 'ウィキ',
 	'alws-selectwiki' => '(ウィキを選択)',
 	'alws-group-mustused' => '最も使用されたウィキ',
 	'alws-group-allaz' => 'すべてのウィキ (アルファベット順)',

@@ -738,6 +738,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'language' => 'Мотт',
 	'new_filename' => 'Файлан керла цӀе:',
 );
 
@@ -1210,6 +1211,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Mjbmr
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'attention' => 'توجه',
@@ -1252,7 +1254,10 @@ $messages['fa'] = array(
 	'error_commons_user' => 'برای شناسایی انتقال کاربر، نام کاربری ویکی‌انبار شما می‌بایست در توضیحات باشد!',
 	'error_upload_users' => 'عملکرد بارگذاری فقط برای بعضی از کاربران در طول مدت آزمایشی موجود است!',
 	'error_upload_file' => 'پروندهٔ اصلی نمی‌تواند بارگیری شود.',
+	'help_intro' => 'برای اعلام پیشنهاد یا مشکلات نرم‌افزار از یکی از تماس‌های زیر استفاده کنید:',
+	'help_jira' => '$1JIRA (نیاز مند به اشتراک)$2 (Project: Commonshelper2)',
 	'help_mail' => 'ارسال پست الکترونیکی به $1',
+	'help_commons' => '$1 یک پست در ویکی‌انبار اضافه کرد $2',
 );
 
 /** Finnish (suomi)
@@ -3957,6 +3962,7 @@ $messages['ug-arab'] = array(
  * @author Olvin
  * @author RLuts
  * @author Steve.rusyn
+ * @author SteveR
  * @author Тест
  */
 $messages['uk'] = array(
@@ -3990,7 +3996,9 @@ $messages['uk'] = array(
 	'error_bot_blocked' => 'Завантажуючого бота заблоковано на Вікісховищі.',
 	'error_tusc_failed' => 'Помилка TUSC-верифікації!',
 	'error_only_commons' => 'Прямі завантаження працюють лише на Вікісховищі!',
+	'error_upload_file' => 'Не вдається завантажити вихідний файл.',
 	'help_mail' => 'Надіслати електронного листа на адресу $1',
+	'help_commons' => '$1Додати повідомлення на Commons$2',
 );
 
 /** Uzbek (oʻzbekcha)

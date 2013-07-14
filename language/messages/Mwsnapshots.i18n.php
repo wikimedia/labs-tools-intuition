@@ -1961,18 +1961,24 @@ $messages['ug-arab'] = array(
 /** Ukrainian (українська)
  * @author A1
  * @author Base
+ * @author SteveR
  * @author Ua2004
  */
 $messages['uk'] = array(
 	'title-overview' => 'Знімки',
 	'title-error' => 'Помилка',
 	'title-updatelog' => 'Журнал оновлень',
+	'updatelog-intro' => 'Сценарій оновлення запускається щогодини. Нижче наведений звіт з консолі останнього запуску.',
+	'updatelog-active' => 'Виконується сценарій оновлення. Зайдіть пізніше, щоб отримати весь журнал.',
 	'download-button' => 'Завантажити $1',
 	'download-directlink' => 'прямі посилання',
 	'title-downloadpage' => 'Завантажити:$1',
 	'downloadpage-directlink' => 'Натисніть тут, щоб завантажити знімок.',
+	'err-snapshotindex' => 'Індекс знімка тимчасово недоступний. Будь ласка, повторіть спробу пізніше.',
 	'err-invalid-repo' => 'Невідомий репозиторій: "$1".',
 	'err-invalid-branch' => 'Невідома гілка: "$1" у репозиторії "$2".',
+	'err-nosnapshot' => 'Знімки створюються кожні кілька годин. Під час створення знімка для "$1" сталася помилка. Будь ласка, повторіть спробу пізніше.',
+	'err-noupdatelog' => 'Журнал оновлень не знайдено.',
 	'repo-site-link' => 'Веб-сайт',
 	'repo-browse-link' => 'Переглянути репозиторій',
 	'repo-branches-label' => 'Гілки:',

@@ -564,6 +564,13 @@ $messages['ca'] = array(
 	'finalise' => 'Conclusió dels detalls',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'th-language' => 'Мотт',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Diyar se
  */

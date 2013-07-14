@@ -220,6 +220,13 @@ $messages['ca'] = array(
 	'time-label' => 'Temps necessari per executar les ordres',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'language-label' => 'Мотт',
+);
+
 /** Czech (česky)
  * @author Chmee2
  * @author Gaj777

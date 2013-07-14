@@ -457,6 +457,14 @@ $messages['ca'] = array(
 	'help-translate-tooltip' => 'Ajudeu els altres fent les traduccions al vostre idioma dels missatges de la interfície.',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'choose-language' => 'Харжа мотт',
+	'bl-mysettings-new' => 'Харжа мотт',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Muhammed taha
  */

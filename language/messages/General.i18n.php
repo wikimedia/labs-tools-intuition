@@ -702,6 +702,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Mjbmr
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'hello' => 'سلام',
@@ -719,6 +720,7 @@ $messages['fa'] = array(
 	'seconds' => '{{PLURAL: $1|ثانیه|ثانیه}}',
 	'last-modified-date' => 'آخرین تغییر: $1',
 	'view-source' => 'نمایش مبدأ',
+	'and' => '&#32;و',
 );
 
 /** Finnish (suomi)
@@ -1219,7 +1221,7 @@ $messages['ko'] = array(
 	'minutes' => '{{PLURAL: $1|분}}',
 	'seconds' => '{{PLURAL: $1|초}}',
 	'last-modified-date' => '최근 수정일: $1',
-	'view-source' => '내용 보기',
+	'view-source' => '원본 보기',
 	'and' => '&#32;(와)과',
 );
 
@@ -1517,6 +1519,7 @@ $messages['nb'] = array(
 	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
 	'last-modified-date' => 'Sist endret: $1',
 	'view-source' => 'Vis kilde',
+	'and' => '&#32;og',
 );
 
 /** Nepali (नेपाली)

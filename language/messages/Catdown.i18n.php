@@ -1798,7 +1798,27 @@ $messages['lb'] = array(
 	'image-area-too-big' => '$1 ass ze grouss fir e Miniatur-Bild ze generéieren. Déi komplett Gréisst gëtt benotzt.',
 	'download-info' => 'Et {{plural: $1|ass 1 Bild|si(nn) $1 Biller}} mat enger geschater Gréisst vun $2 do',
 	'download' => 'Eroflueden',
+	'readme-contents' => "Am Fichier $4 stinn d'Biller déi an der Kategorie $1 dra sinn ($2) $3.
+
+== Instruktiounen fir d'Erofluede vun de Biller aus der Lëscht ==
+D'Zäit déi Erofluede brauch kann tëschent e puer Minutten an a puer Stonne leien.
+
+Windows:
+All Fichieren an deeselwechte Repertoire erauszéien an $5 lancéieren.
+$6
+Linux/Mac OS:
+All Fichieren entpacken an een Terminal an deem Repertoire  opmaachen. Duerno sh $5 lancéieren.",
 	'non-bundled-wget' => "Informatioun: An dëser Versioun ass 'wget for Windows' net abegraff. Dir musst an e Repertoire mat wget.exe dekompriméieren oder wget op eng aner Manéier am 'PATH' hunn",
+	'wget-info' => 'An dësem Fichier ass eng Kopie vun Wget $1 (fir Windows). Wget ass Fräi Software no der
+Lizenz „GNU GENERAL PUBLIC LICENSE“ Versioun 3.
+Eng Kopie vun der Lizenz steet hei drënner, an ass op der URL http://www.gnu.org/licenses/gpl-3.0.txt disponibel.
+
+Wann Dir drun interesséiert sidd de Quellcode vun dësem Programm ze kréien, da kënntDir en op dëse Säiten eroflueden:
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+Et gëtt och aner GNU-Mirror. Kuckt dofir
+ http://www.gnu.org/prep/ftp.html',
 	'scaling-width' => ', op eng maximal Breet vu(n) $1 {{plural:$1Pixel|Pixel}} skaléiert',
 	'scaling-height' => ', op eng maximal Héicht vu(n) {{plural:$1Pixel|Pixel}} skaléiert',
 	'scaling-both' => ', op eng maximal Gréisst vu(n) $1x$2 Pixel skaléiert',
@@ -2999,6 +3019,7 @@ Run sh $5',
 
 /** Ukrainian (українська)
  * @author Base
+ * @author SteveR
  */
 $messages['uk'] = array(
 	'title' => 'Завантажити зображення за категоріями',
@@ -3015,6 +3036,8 @@ $messages['uk'] = array(
 	'category-is-url' => 'Вказана назва категорії виглядає як URL-адреса. Вам слід вказати назву категорії, а не її URL-адресу.',
 	'category-contains-namespace' => 'Схоже, Ви включили простір назв до назви категорії. З даною назвою сторінка буде доступна як [[Category:$1]].',
 	'zip-failed' => 'Помилка створення ZIP',
+	'image-area-too-big' => '$1 завелике для створення ескізу. Буде використаний повний розмір.',
+	'download-info' => '{{plural: $1|Існує одне зображення|Існує $1 зображень}}, з приблизним розміром $2',
 	'download' => 'Завантажити',
 );
 
