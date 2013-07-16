@@ -1,6 +1,6 @@
 <?php
 /**
- * Interface messages for TsIntuition.
+ * Interface messages for Intuition.
  *
  * @toolowner krinkle
  */
@@ -15,8 +15,8 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' =>	'Toolserver Intuition', // Ignore
-	'fullname' => 'Internationalization for Toolserver\'s User Interface',
+	'title' =>	'Intuition', // Ignore
+	'fullname' => 'Internationalization for tools',
 	'current-settings' => 'Current settings',
 	'current-language' => 'Currently selected language',
 	'settings-legend' => 'Settings',
@@ -34,9 +34,9 @@ $messages['en'] = array(
 	'bl-mysettings-new' => 'Change language!',
 	'bl-promo' => 'Translations are powered by $1 and $2.',
 	'bl-changelanguage' => 'Click here to change the interface language of this tool.',
-	'usage' => 'Tools translated by Toolserver Intuition.',
+	'usage' => 'Tools translated by Intuition.',
 	'help-translate-tool' => 'Help translate this tool!',
-	'help-translate-all' => 'Help translate Toolserver!',
+	'help-translate-all' => 'Help translate tools!',
 	'help-translate-tooltip' => 'Help others by translating interface messages into your language.',
 );
 
@@ -49,6 +49,7 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
+	'title' => '{{Ignore}}',
 	'fullname' => "The full name of the Toolserver Intution. Intution (INTUI-tion) stands for \"'' '''In'''ternationalization for '''T'''oolserver's '''U'''ser '''I'''nterface''\".",
 	'current-settings' => 'Form legend in the language settings dashboard around the box that displays the current settings and their properties (such as expiry time).',
 	'current-language' => 'Label in front of the currently selected language name in the "Current settings"-box',
