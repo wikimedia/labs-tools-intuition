@@ -43,7 +43,7 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 
 /* Initialize BaseTool */
 $opts = array(
-	'displayTitle'	 => _( 'fullname' ),
+	'displayTitle'	 => $I18N->msg( 'fullname' ),
 	'krinklePrefix'	 => false,
 	'remoteBasePath' => $I18N->dashboardHome,
 	'localBasePath'	 => $I18N->localBaseDir,
@@ -144,14 +144,14 @@ if ( isset( $_GET['msg'] ) ) {
 	switch ( $_GET['msg'] ) {
 		case 2:
 			$Tool->addOut(
-				_( 'clearcookies-success' ),
+				$I18N->msg( 'clearcookies-success' ),
 				'div',
 				array( 'class' => 'msg ns' )
 			);
 			break;
 		case 3:
 			$Tool->addOut(
-				_( 'renewcookies-success', array( 'variables' => array( '30 ' . _g( 'days', array(
+				$I18N->msg( 'renewcookies-success', array( 'variables' => array( '30 ' . _g( 'days', array(
 					'parsemag' => true,
 					'variables' => array( 30 )
 				) ) ) ) ),
@@ -169,7 +169,7 @@ if ( $I18N->hasCookies() ) {
 
 	$lifetime = $I18N->getCookieLifetime();
 	$after = '';
-	$renew = ' (' . kfTag( _( 'renew-cookies' ), 'a', array(
+	$renew = ' (' . kfTag( $I18N->msg( 'renew-cookies' ), 'a', array(
 		'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) )
 	) ) .')';
 
@@ -211,30 +211,30 @@ if ( $I18N->hasCookies() ) {
 
 	$Tool->addOut(
 		'<div id="tab-currentsettings"><form class="cleanform"><fieldset>'
-	.	kfTag( _( 'current-settings' ) . _g( 'colon-separator' ) . ' ', 'legend' )
+	.	kfTag( $I18N->msg( 'current-settings' ) . _g( 'colon-separator' ) . ' ', 'legend' )
 	.	'<div class="inner">'
-	.	kfTag( _( 'current-language' ) . _g( 'colon-separator' ) . ' ', 'label' )
+	.	kfTag( $I18N->msg( 'current-language' ) . _g( 'colon-separator' ) . ' ', 'label' )
 	.	kfTag( '', 'input', array( 'value' => $I18N->getLangName(), 'readonly' => 'readonly' ) )
 	.	' ('
-	.	kfTag( _( 'clear-cookies' ), 'a', array(
+	.	kfTag( $I18N->msg( 'clear-cookies' ), 'a', array(
 			'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) )
 		) )
 	.	')<br/>'
-	.	kfTag( _( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' )
+	.	kfTag( $I18N->msg( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' )
 	.	kfTag( '', 'input', array(
 			'value' => $time,
 			'class' => "cookie-health $class",
 			'readonly' => true
 		) )
 	.	' ('
-	.	kfTag( _( 'renew-cookies' ), 'a', array(
+	.	kfTag( $I18N->msg( 'renew-cookies' ), 'a', array(
 			'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) )
 		) )
 	.	')<br/>'
 	.	$after
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
 	);
-	$toolSettings['tabs']['#tab-currentsettings'] = _( 'tab-overview' );
+	$toolSettings['tabs']['#tab-currentsettings'] = $I18N->msg( 'tab-overview' );
 
 
 }
@@ -253,7 +253,7 @@ $dropdown .= '</select>';
 
 $form = '<div id="tab-settingsform">
 	<form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform">
-	<fieldset><legend>' . _( 'settings-legend' ) . '</legend><div class="inner">
+	<fieldset><legend>' . $I18N->msg( 'settings-legend' ) . '</legend><div class="inner">
 
 	<label>' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
 	' . $dropdown . '
@@ -273,7 +273,7 @@ $form = '<div id="tab-settingsform">
 </div>';
 
 $Tool->addOut( $form );
-$toolSettings['tabs']['#tab-settingsform'] = _('tab-settings');
+$toolSettings['tabs']['#tab-settingsform'] = $I18N->msg('tab-settings');
 
 
 // About tab
@@ -291,7 +291,7 @@ $about .= '<a href="//translatewiki.net/wiki/Translating:Toolserver">'
 	.	'</a>';
 $about .= 'Technical documentation: <a href="//wiki.toolserver.org/view/Toolserver_Intuition">'
 	. 'wiki.toolserver.org/view/Toolserver_Intuition</a>'
-	. '<div class="tab-paragraph-head">' . _( 'usage' ) . '</div><ul>';
+	. '<div class="tab-paragraph-head">' . $I18N->msg( 'usage' ) . '</div><ul>';
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 	$domainInfo = $I18N->getDomainInfo( $domainKey );
 	$title = $I18N->msg( 'title', $domainKey, /* fallback = */ $domainKey );
@@ -307,8 +307,8 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 $about .= '</ul><div style="clear: both;"></div></div><!-- /#tab-about -->';
 
 $Tool->addOut( $about );
-$toolSettings['tabs']['#tab-about'] = _('tab-about');
-$toolSettings['tabs']['demo/demo1.php'] = _('tab-demo');
+$toolSettings['tabs']['#tab-about'] = $I18N->msg('tab-about');
+$toolSettings['tabs']['demo/demo1.php'] = $I18N->msg('tab-demo');
 
 
 $Tool->addOut( '</div><!-- /#tsint-dashboard -->' );

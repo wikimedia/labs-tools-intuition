@@ -2,7 +2,8 @@
 : In development
 
 == Changes ==
-* TsIntuitionUtil::return_dump renamed to TsIntuitionUtil::returnDump.
+* Rename TsIntuitionUtil::return_dump to TsIntuitionUtil::returnDump.
+* Deprecate global function _().
 
 
 = 0.1.2 =
