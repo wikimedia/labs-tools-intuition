@@ -14,3 +14,7 @@ script:
     --extensions=php \
     --report-full \
     --warning-severity=0
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net##krinkle"
