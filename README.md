@@ -1,4 +1,4 @@
-# Toolserver Intuition ![Build Status](https://travis-ci.org/Krinkle/TsIntuition.png)](https://travis-ci.org/Krinkle/TsIntuition)
+# Toolserver Intuition [![Build Status](https://travis-ci.org/Krinkle/TsIntuition.png)](https://travis-ci.org/Krinkle/TsIntuition)
 
 
 ## Quick start
