@@ -3,7 +3,7 @@
  * LocalConfig for Toolserver instance at https://toolserver.org/~intuition/.
  */
 
-function TsIntuition_inithook( $TsIntuition ) {
+function intuitionHookInit( $TsIntuition ) {
 
 	// Hide certain tools for now
 	$hiddenTools = array(

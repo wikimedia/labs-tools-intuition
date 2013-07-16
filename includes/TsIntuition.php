@@ -192,7 +192,9 @@ class TsIntuition {
 		// Version date (default to this file modification time)
 		// Can be overwritten in LocalConfig (ie. from svn info)
 		$TsIntuition->versionDate = getlastmod();
-		if ( function_exists( 'TsIntuition_inithook' ) ) {
+		if ( function_exists( 'intuitionHookInit' ) ) {
+			intuitionHookInit( $TsIntuition );
+		} elseif ( function_exists( 'TsIntuition_inithook' ) ) {
 			TsIntuition_inithook( $TsIntuition );
 		}
 

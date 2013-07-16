@@ -3,6 +3,6 @@
  * LocalConfig for ToolLabs instance at https://tools.wmflabs.org/intuition/.
  */
 
-function TsIntuition_inithook( $TsIntuition ) {
+function intuitionHookInit( $TsIntuition ) {
 	$TsIntuition->dashboardHome = '//tools.wmflabs.org/intuition/';
 }

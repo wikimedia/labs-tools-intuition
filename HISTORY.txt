@@ -4,6 +4,9 @@
 == Changes ==
 * Rename TsIntuitionUtil::return_dump to TsIntuitionUtil::returnDump.
 * Deprecate global function _().
+* Rename hook 'TsIntuition_inithook' to 'intuitionHookInit'.
+  Old one still works, though only one will run (if both are
+  defined, the new one is used).
 
 
 = 0.1.2 =
