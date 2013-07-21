@@ -124,7 +124,7 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 			'Unknown key falls back to bracket-wrapped key'
 		);
 		$this->expectOutputString(
-			'Notice: [TsIntuition::msg] Message "r4nd0mstr1n9" in domain "General" not found.'
+			'Notice: [TsIntuition::msg] Message "r4nd0mstr1n9" in domain "general" not found.'
 		);
 	}
 

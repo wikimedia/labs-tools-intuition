@@ -277,7 +277,8 @@ class TsIntuition {
 	 * @return true
 	 */
 	public function setDomain( $domain ) {
-		$this->currentTextdomain = ucfirst( strtolower( $domain ) );
+		// Normalise domain name (case-insensitive)
+		$this->currentTextdomain = strtolower( $domain );
 		return true;
 	}
 
@@ -411,10 +412,9 @@ class TsIntuition {
 
 		// First character of the message-key is case-insensitive.
 		$key = lcfirst( $key );
-		$domain = ucfirst( strtolower( $options['domain'] ) );
 
 		// Load if not already loaded
-		$this->loadTextdomain( $domain );
+		$domain = $this->loadTextdomain( $options['domain'] );
 
 		// In case the domain name was invalid or inexistant
 		if ( !isset( $this->messageBlob[$domain] ) ) {
@@ -531,12 +531,13 @@ class TsIntuition {
 	 *
 	 * First two parameters are required. Others (domain, language) default to current environment.
 	 */
-	public function setMsg( $key, $message, $domain = 0, $lang = 0 ) {
+	public function setMsg( $key, $message, $domain = null, $lang = null ) {
 
 		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) ) {
 			$domain = $this->getDomain();
 		} else {
-			$domain = ucfirst( strtolower( $domain ) );
+			// Normalise domain name (case-insensitive)
+			$domain = strtolower( $domain );
 		}
 		if ( !TsIntuitionUtil::nonEmptyStr( $lang ) ) {
 			$lang = $this->getLang();
@@ -549,7 +550,7 @@ class TsIntuition {
 	 *
 	 * First parameter is required. Others (domain, language) default to current environment.
 	 */
-	public function setMsgs( $messagesByKeys, $domain = 0, $lang = 0 ) {
+	public function setMsgs( $messagesByKeys, $domain = null, $lang = null ) {
 		foreach ( $messagesByKeys as $key => $message ) {
 			$this->setMsg( $key, $message, $domain, $lang );
 		}
@@ -625,7 +626,6 @@ class TsIntuition {
 	 * @return array
 	 */
 	public function getLangNames() {
-
 		return is_array( $this->langNames ) ? $this->langNames : array();
 	}
 
@@ -673,8 +673,9 @@ class TsIntuition {
 			$this->errTrigger( "Invalid textdomain \"$domain\"", __METHOD__, E_NOTICE );
 			return false;
 		}
-		// Sanitize domainnames (case-insensitive)
-		$domain = ucfirst( strtolower( $domain ) );
+
+		// Normalise domain name (case-insensitive)
+		$domain = strtolower( $domain );
 
 		// Don't load if already loaded
 		if ( isset( $this->loadedTextdomains[$domain] ) ) {
@@ -703,9 +704,10 @@ class TsIntuition {
 	}
 
 	/**
-	 * @DOCME:
+	 * @param string $filePath
+	 * @param string $domain
 	 */
-	public function loadTextdomainFromFile( $filePath = '', $domain = '' ) {
+	public function loadTextdomainFromFile( $filePath, $domain ) {
 		if ( !TsIntuitionUtil::nonEmptyStrs( $filePath, $domain ) ) {
 			$this->errTrigger( 'One or more arguments are missing', __METHOD__, E_NOTICE,
 				__FILE__, __LINE__
@@ -770,15 +772,13 @@ class TsIntuition {
 	 * @return array
 	 */
 	public function getDomainInfo( $domain ) {
-		$domain = ucfirst( strtolower( $domain ) );
-
 		// Load if registered but not already loaded
-		$this->loadTextdomain( $domain );
+		$normalised = $this->loadTextdomain( $domain );
 
-		if ( isset( $this->loadedTextdomains[$domain] ) &&
-			is_array( $this->loadedTextdomains[$domain] )
+		if ( isset( $this->loadedTextdomains[$normalised] ) &&
+			is_array( $this->loadedTextdomains[$normalised] )
 		) {
-			return $this->loadedTextdomains[$domain];
+			return $this->loadedTextdomains[$normalised];
 		} else {
 			return array();
 		}
