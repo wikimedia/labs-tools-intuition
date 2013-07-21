@@ -2,38 +2,34 @@
 /**
  * Main index file of the TsIntuition Dashboard.
  *
- * @copyright 2011-2012 See AUTHORS.txt
+ * This file outputs the interface to set settings for TsIntuition.
+ *
+ * @copyright 2011-2013 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
 
-/**
- * This file outputs the interface to set settings for TsIntuition.
- */
-
 
 /**
- * Configuration
+ * Setup
  * -------------------------------------------------
  */
 
-// BaseTool
-$BaseInit = '../../ts-krinkle-basetool/InitTool.php';
-if ( !file_exists( $BaseInit ) )  {
-	$BaseInit = dirname( __DIR__ ) . '/includes/libs/ts-krinkle-basetool/InitTool.php';
+// Load BaseTool
+$initPath = '../../ts-krinkle-basetool';
+if ( !is_readable( $initPath ) )  {
+	$initPath = dirname( __DIR__ ) . '/includes/libs/ts-krinkle-basetool';
 }
-require_once $BaseInit;
+require_once $initPath . '/InitTool.php';
 
+// Load Intuition
 require_once dirname( __DIR__ ) . '/ToolStart.php';
 
-/* Initialize TsIntuition */
-$opts = array(
+// Initialize Intuition
+$I18N = new TsIntuition( array(
 	'domain' => 'TsIntuition',
-	//'suppressnotices' => false, // DEBUG
-	'mode'			=> 'dashboard',
-);
-
-$I18N = new TsIntuition( $opts );
+	'mode' => 'dashboard',
+) );
 
 // Load all domains so we can get some statistics later on and
 // make sure "getAvailableLangs" is complete
@@ -41,8 +37,8 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
 	$I18N->loadTextdomain( $domainKey );
 }
 
-/* Initialize BaseTool */
-$opts = array(
+// Initialize BaseTool
+$Tool = BaseTool::newFromArray( array(
 	'displayTitle'	 => $I18N->msg( 'fullname' ),
 	'krinklePrefix'	 => false,
 	'remoteBasePath' => $I18N->dashboardHome,
@@ -50,10 +46,8 @@ $opts = array(
 	'revisionId'	 => $I18N->version,
 	'revisionDate'	 => $I18N->dateFormatted( $I18N->versionDate ),
 	'styles'		 => array( 'main.css' ),
-);
-
-$Tool = BaseTool::newFromArray( $opts );
-$Tool->setSourceInfoGithub( 'Krinkle', 'TsIntuition', dirname( __DIR__ ) );
+) );
+$Tool->setSourceInfoGithub( 'Krinkle', 'TsIntuition', __DIR__ );
 
 /* Load Scripts & Styles */
 
