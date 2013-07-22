@@ -568,7 +568,9 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'th-translation' => 'Гоч',
 	'th-language' => 'Мотт',
+	'th-username' => 'Декъашхочун цӀе',
 );
 
 /** Sorani Kurdish (کوردی)

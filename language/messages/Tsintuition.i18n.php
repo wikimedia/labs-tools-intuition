@@ -49,7 +49,8 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'title' => '{{Ignore}}',
+	'title' => '{{Ignore}}
+Intuition (INTUI-tion) stands for " Internationalization for Toolserver\'s User Interface".',
 	'fullname' => "The full name of the Toolserver Intution. Intution (INTUI-tion) stands for \"'' '''In'''ternationalization for '''T'''oolserver's '''U'''ser '''I'''nterface''\".",
 	'current-settings' => 'Form legend in the language settings dashboard around the box that displays the current settings and their properties (such as expiry time).',
 	'current-language' => 'Label in front of the currently selected language name in the "Current settings"-box',
@@ -80,8 +81,10 @@ If 'About' doesn't work in your language, possible equivalents may be 'Details',
 * $2 is the link to Toolserver Intuition's about page",
 	'bl-changelanguage' => 'Tooltip of the clickable link displayed at the pages of other tools to the dashboard where you can change your interface language.',
 	'usage' => 'Heading on the About-page of the Toolserver Intuition dashboard. A list of tools and textdomains is listed below.',
-	'help-translate-tool' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for that tool.',
-	'help-translate-all' => 'Link displayed in the footer of other tools linking to Special:Translate on translatewiki.net for all tools.',
+	'help-translate-tool' => 'Link displayed in the footer of other tools linking to [[Special:Translate]] on translatewiki.net for that tool.',
+	'help-translate-all' => 'Link displayed in the footer of other tools linking to [[Special:Translate]] on translatewiki.net for all tools.
+
+This means "Help to translate the tools!".',
 	'help-translate-tooltip' => 'Tooltip displayed when hovering the "Help translate!" button.',
 );
 
@@ -1172,7 +1175,7 @@ $messages['it'] = array(
  * @author Whym
  */
 $messages['ja'] = array(
-	'fullname' => 'ツールサーバーのユーザーインターフェイスの国際化',
+	'fullname' => 'ツールの国際化',
 	'current-settings' => '現在の設定',
 	'current-language' => '現在選択されている言語',
 	'settings-legend' => '設定',
@@ -1190,9 +1193,9 @@ $messages['ja'] = array(
 	'bl-mysettings-new' => '言語を変更',
 	'bl-promo' => '翻訳したのは $1 と $2 です。',
 	'bl-changelanguage' => 'このツールのインターフェイス言語を変更するにはここをクリックしてください。',
-	'usage' => 'Toolserver Intuition が翻訳したツールです。',
+	'usage' => 'Intuition が翻訳したツールです。',
 	'help-translate-tool' => 'このツールの翻訳を手伝う',
-	'help-translate-all' => 'ツールサーバーの翻訳を手伝う',
+	'help-translate-all' => 'ツールの翻訳を手伝う',
 	'help-translate-tooltip' => 'インターフェイスメッセージをあなたの言語に翻訳して他の利用者を助けます。',
 );
 
@@ -1813,11 +1816,12 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
-	'fullname' => 'Internacionalização para a Interface de Utilizador do Toolserver',
+	'fullname' => 'Internacionalização para a Interface de Utilizador do Toolserver', # Fuzzy
 	'current-settings' => 'Definições actuais',
-	'current-language' => 'Língua presentemente seleccionada',
+	'current-language' => 'Língua presentemente selecionada',
 	'settings-legend' => 'Definições',
 	'choose-language' => 'Escolha uma língua',
 	'clear-cookies' => 'limpar cookies',
@@ -1833,9 +1837,9 @@ $messages['pt'] = array(
 	'bl-mysettings-new' => 'Alterar língua!',
 	'bl-promo' => 'Traduções possíveis graças à $1 e ao $2.',
 	'bl-changelanguage' => 'Carregue aqui para mudar a língua da interface desta ferramenta.',
-	'usage' => 'Ferramentas traduzidas pelo Toolserver Intuition.',
+	'usage' => 'Ferramentas traduzidas pelo Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Ajude a traduzir esta ferramenta!',
-	'help-translate-all' => 'Ajude a traduzir o Toolserver!',
+	'help-translate-all' => 'Ajude a traduzir o Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Ajude outros utilizadores traduzindo as mensagens da interface para a sua língua.',
 );
 
@@ -2124,11 +2128,12 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Liftarn
  * @author Lokal Profil
  */
 $messages['sv'] = array(
-	'fullname' => 'Internationalisering för Toolservers användargränssnitt',
+	'fullname' => 'Internationalisering för Toolservers användargränssnitt', # Fuzzy
 	'current-settings' => 'Aktuella inställningar',
 	'current-language' => 'Valt språk',
 	'settings-legend' => 'Inställningar',
@@ -2146,9 +2151,9 @@ $messages['sv'] = array(
 	'bl-mysettings-new' => 'Byt språk!',
 	'bl-promo' => 'Översättningar drivs av $1 och $2.',
 	'bl-changelanguage' => 'Klicka här för att ändra gränssnittsspråket för detta verktyg.',
-	'usage' => 'Verktyget översatt av Toolserver Intuition.',
+	'usage' => 'Verktyget översatt av Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Hjälp till att översätta detta verktyg!',
-	'help-translate-all' => 'Hjälpa till att översätta Toolserver!',
+	'help-translate-all' => 'Hjälp till att översätta verktyg!',
 	'help-translate-tooltip' => 'Hjälp andra genom att översätta gränssnittsmeddelanden till ditt språk.',
 );
 
