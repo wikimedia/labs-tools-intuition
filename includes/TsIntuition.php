@@ -415,14 +415,12 @@ class TsIntuition {
 
 		// Load if not already loaded
 		$domain = $this->loadTextdomain( $options['domain'] );
+		$lang = $options['lang'];
 
 		// In case the domain name was invalid or inexistant
 		if ( !isset( $this->messageBlob[$domain] ) ) {
 			return $this->bracketMsg( $key, $fail );
 		}
-
-		// Use fallback if this message doesn't exist in the current language
-		$lang = $this->getLangForTextdomain( $options['lang'], $domain, $key );
 
 		// Just in case, one last check:
 		$rawMsg = $this->rawMsg( $domain, $lang, $key );
@@ -474,13 +472,29 @@ class TsIntuition {
 	}
 
 	/**
-	 * Access MessageBlob
+	 * Get a raw message (handles fallback).
+	 *
 	 * @param $domain
 	 * @param $lang
 	 * @param $key
 	 * @return string value or null.
 	 */
-	private function rawMsg( $domain, $lang, $key ) {
+	public function rawMsg( $domain, $lang, $key ) {
+		// Use fallback if this message doesn't exist in the current language
+		$lang = $this->getLangForTextdomain( $lang, $domain, $key );
+
+		return $this->accessBlob( $domain, $lang, $key );
+	}
+
+	/**
+	 * Access MessageBlob.
+	 *
+	 * @param $domain
+	 * @param $lang
+	 * @param $key
+	 * @return string value or null.
+	 */
+	private function accessBlob( $domain, $lang, $key ) {
 		if ( isset( $this->messageBlob[$domain][$lang][$key] ) ) {
 			return $this->messageBlob[$domain][$lang][$key];
 		} else {
