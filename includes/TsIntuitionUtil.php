@@ -130,9 +130,9 @@ class TsIntuitionUtil {
 		// Which is based on http://www.thefutureoftheweb.com/blog/use-accept-language-header
 
 		if ( $rawList === false ) {
-			$rawList = isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )
-				? $_SERVER['HTTP_ACCEPT_LANGUAGE']
-				: '';
+			$rawList = isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) ?
+				$_SERVER['HTTP_ACCEPT_LANGUAGE'] :
+				'';
 		}
 
 		// Return the language codes in lower case
