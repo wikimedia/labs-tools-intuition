@@ -2496,6 +2496,7 @@ $messages['ml'] = array(
 
 /** Marathi (मराठी)
  * @author Htt
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'attention' => 'लक्ष',
@@ -2503,6 +2504,24 @@ $messages['mr'] = array(
 	'language' => 'भाषा',
 	'project' => 'प्रकल्प',
 	'source_file' => 'स्रोत संचिका',
+	'categories' => 'वर्ग',
+	'remove_cats' => 'सध्या असलेले वर्ग हटवा',
+	'use_checkusage' => 'नविन वर्ग सुचविण्यास $1सामान्यज्ञान$2 वापरा',
+	'do_it' => 'करा',
+	'error_transfer_usr' => 'आपण विकिमिडिया कॉमन्सचे सदस्यनाव स्थापित केले नाही.',
+	'error_not_exists' => 'स्रोत संचिका अस्तित्वात नाही',
+	'error_on_commons' => 'स्रोत संचिका पूर्वीच $1 वर आहे!',
+	'error_file_exists' => '"$1$4$2"  म्हणून संचिका पूर्वीच $3 वर अस्तित्वात आहे.',
+	'original_wikitext' => 'मुळ विकि मजकूर',
+	'new_wikitext' => 'नविन विकि मजकूर',
+	'new_filename' => 'नविन संचिकानाम',
+	'upload_submit' => 'पुनर्भारीत करा!',
+	'target_wiki' => 'लक्ष्य विकि',
+	'error_only_commons' => 'थेट पुनर्भारण(अपलोड) फक्त विकिमिडिया कॉमन्सवरच काम करते!',
+	'upload_control_text' => 'कृपया नविन विकि-मजकूर तपासा व जर सर्व आलबेल असेल तर "$1" टिचका!',
+	'error_upload_users' => 'चाचणी कालावधीत,पुनर्भारण फक्त मर्यादित सदस्यांनाच उपलब्ध आहे!',
+	'error_upload_file' => 'मुळ संचिकेचे अधिभारण(डाउनलोड) करता आले नाही.',
+	'help_mail' => ' $1 ला विपत्र पाठवा',
 );
 
 /** Malay (Bahasa Melayu)
@@ -3106,6 +3125,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Helder.wiki
+ * @author Luckas
  * @author TheGabrielZaum
  * @author 555
  */
@@ -3135,7 +3155,7 @@ $messages['pt-br'] = array(
 	'error_diff_exists' => 'Um arquivo de destino diferente existe na wiki de destino com o mesmo nome!',
 	'error_no_meta' => 'Não foram encontrados metadados sobre a wiki de origem! $1Por favor, adicione/atualize os metadados para o projeto$2',
 	'error_meta_no_good' => 'Metadados: Não foram encontradas boas predefinições! $1Por favor, adicione/atualize os metadados para o projeto$2',
-	'error_meta_bad' => 'Metadados: Foi encontrada uma predefinição ruim! $1Por favor, adicione/actualize os metadados para o projeto$2',
+	'error_meta_bad' => 'Metadados: Foi encontrada uma predefinição ruim! $1Por favor, adicione/atualize os metadados para o projeto$2',
 	'original_wikitext' => 'Código wiki original',
 	'new_wikitext' => 'Novo código wiki',
 	'new_filename' => 'Novo nome de arquivo:',

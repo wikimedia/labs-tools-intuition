@@ -1923,6 +1923,39 @@ $messages['ml'] = array(
 	'finalise' => 'വിവരങ്ങളുടെ അന്തിമരൂപം തയ്യാറാക്കുക',
 );
 
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'error-tryagain' => "$1 पुन्हा प्रयत्न करण्यासाठी आपल्या न्याहाळकाच्या 'back 'कळीवर टिचकी मारा.",
+	'error-nothing' => 'भाषांतरासाठी काहीच शिल्लक नाही',
+	'error-notsvg' => 'ही SVG संचिका नाही.',
+	'error-unexpected' => 'अनपेक्षित त्रूटी घडली.',
+	'error-upload' => 'अपभारणामध्ये(अपलोड) त्रुटी आली.',
+	'begin-translation' => 'भाषांतरास सुरूवात करा',
+	'th-original' => 'मुळ',
+	'th-translation' => 'भाषांतर',
+	'th-language' => 'भाषा',
+	'th-username' => 'सदस्यनाम',
+	'th-password' => 'परवलीचा शब्द',
+	'th-method' => 'पद्धत',
+	'option-tusc' => 'TUSC (स्वयंमेव अपभारण)',
+	'option-manual' => 'मानवीकृत अपभारण(मॅनूअल अपलोड)',
+	'preview' => 'झलक',
+	'translate' => 'भाषांतर करा',
+	'svginput-label' => 'SVG संचिका',
+	'stats-footer' => 'हे साधन,  $2 पासून अंदाजे $1 संचिका भाषांतरीत करण्यास वापरण्यात आले आहे.',
+	'uploading' => 'अपभारण करीत आहे',
+	'upload-complete' => 'अपभारण यशस्वीरित्या पूर्ण झाले.चित्र सध्या $1 येथे असेल',
+	'editdescriptionpage' => 'नविन वर्णन-पान संपादा',
+	'author-complete' => 'कृपया लेखकाची माहिती पूर्ण करा!',
+	'preview-hide' => 'झलक लपवा',
+	'preview-refresh' => 'झलक तरोताजी करा',
+	'error-must-accept' => "थेट अपभारणासाठी,आपणास, येथे दिलेल्या 'वापरण्याच्या अटी' स्वीकृत असावयास हव्या.",
+	'description-license' => 'वर्णन व परवाना निवडा',
+	'finalise' => 'तपशील नक्की करा',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */

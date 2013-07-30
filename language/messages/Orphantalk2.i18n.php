@@ -366,6 +366,13 @@ $messages['ca'] = array(
 	'resultslimited' => 'Els resultats es limiten a $1 pàgines.',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'update' => 'Карлаяккха',
+);
+
 /** Czech (česky)
  * @author Chmee2
  * @author Jezevec
@@ -1253,6 +1260,23 @@ $messages['mk'] = array(
 	'resultslimited' => 'Резултатите беа ограничени на $1 страници',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Akhilan
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'limit' => 'പരിധി',
+	'page' => 'താൾ',
+	'output' => 'ഔട്ട്പുട്ട്',
+	'update' => 'പുതുക്കുക',
+	'tools-delete' => 'മായ്ക്കുക',
+	'tools-links' => 'കണ്ണികൾ',
+	'tools-subject' => 'വിഷയം',
+	'tools-hist' => 'നാൾവഴി',
+	'tools-curr' => 'നിലവിൽ',
+	'tools-globalusage' => 'ആഗോള ഉപയോഗം',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -1493,8 +1517,8 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'title' => 'DiscussõesOrfãs2',
-	'select-wiki-first' => '(primeiro seleccione uma wiki)',
-	'hideredirects' => 'Excluir redireccionamentos',
+	'select-wiki-first' => '(primeiro selecione uma wiki)',
+	'hideredirects' => 'Ocultar redirecionamentos',
 	'hidesubpages' => 'Excluir subpáginas',
 	'limit' => 'Limite',
 	'page' => 'Página',

@@ -358,9 +358,10 @@ $messages['pms'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
-	'title' => 'Actividade anónima recente',
+	'title' => 'Atividade anónima recente',
 );
 
 /** Brazilian Portuguese (português do Brasil)

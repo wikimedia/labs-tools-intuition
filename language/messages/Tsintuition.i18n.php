@@ -563,10 +563,12 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Kghbln
  * @author Krinkle
+ * @author Metalhead64
+ * @author Se4598
  * @author UV
  */
 $messages['de'] = array(
-	'fullname' => 'Übersetzungen für die Benutzeroberfläche des Toolservers',
+	'fullname' => 'Übersetzungen für die Hilfsprogramme',
 	'current-settings' => 'Aktuelle Einstellungen',
 	'current-language' => 'Aktuell ausgewählte Sprache',
 	'settings-legend' => 'Einstellungen',
@@ -584,9 +586,9 @@ $messages['de'] = array(
 	'bl-mysettings-new' => 'Sprache ändern',
 	'bl-promo' => 'Die Übersetzungen werden von $1 und $2 möglich gemacht.',
 	'bl-changelanguage' => 'Hier klicken, um die Sprache der Benutzeroberfläche dieses Hilfsprogramms zu ändern.',
-	'usage' => 'Die Hilfsprogramme wurden von Toolserver Intuition übersetzt.',
+	'usage' => 'Die Hilfsprogramme wurden von Intuition übersetzt.',
 	'help-translate-tool' => 'Hilf bitte dieses Hilfsprogramm zu übersetzen.',
-	'help-translate-all' => 'Hilf bitte den Toolserver zu übersetzen.',
+	'help-translate-all' => 'Hilf bitte Tools zu übersetzen.',
 	'help-translate-tooltip' => 'Hilf anderen indem du die Nachrichten der Benutzeroberfläche in deine Sprache übersetzt.',
 );
 
@@ -1447,6 +1449,39 @@ $messages['mk'] = array(
 	'help-translate-tooltip' => 'Помогнете им на другите со преведување на посреднички пораки на вашиот јазик.',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Akhilan
+ */
+$messages['ml'] = array(
+	'settings-legend' => 'സജ്ജീകരണങ്ങൾ',
+	'tab-overview' => 'അവലോകനം',
+	'tab-settings' => 'സജ്ജീകരണങ്ങൾ',
+	'tab-about' => 'വിവരണം',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'fullname' => 'साधनांसाठीचे आंतरराष्ट्रीयीकरण',
+	'current-settings' => 'सध्याचे स्थापन(सेटिंग)',
+	'current-language' => 'सध्या निवडलेली भाषा',
+	'settings-legend' => 'स्थापके',
+	'choose-language' => 'भाषा निवडा',
+	'clear-cookies' => 'कुकीज हटवा',
+	'renew-cookies' => 'कुकिज पुन्हा नुतनीकृत करा',
+	'clearcookies-success' => 'कुकीच हटविल्या आहेत.',
+	'tab-overview' => 'चाळणे',
+	'tab-settings' => 'स्थापके',
+	'tab-about' => 'च्या बद्दल',
+	'bl-mysettings-new' => 'भाषा बदला!',
+	'bl-promo' => '$1 व $2 द्वारे भाषांतरांना उर्जीकृत करण्यात येते..',
+	'bl-changelanguage' => 'या साधनाचे इंतरफेस भाषा बदलण्यास येथे टिचकी द्या.',
+	'help-translate-tool' => 'या साधनाचे भाषांतर करण्यास मदत करा!',
+	'help-translate-all' => 'साधनांचे भाषांतरास मदत करा!',
+	'help-translate-tooltip' => 'इंतरफेस संदेश आपल्या भाषेत भाषांतरीत करून इतरांना मदत करा.',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
@@ -1820,7 +1855,7 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'fullname' => 'Internacionalização para a Interface de Utilizador do Toolserver', # Fuzzy
-	'current-settings' => 'Definições actuais',
+	'current-settings' => 'Configuração atual',
 	'current-language' => 'Língua presentemente selecionada',
 	'settings-legend' => 'Definições',
 	'choose-language' => 'Escolha uma língua',
@@ -2133,7 +2168,7 @@ $messages['sr-el'] = array(
  * @author Lokal Profil
  */
 $messages['sv'] = array(
-	'fullname' => 'Internationalisering för Toolservers användargränssnitt', # Fuzzy
+	'fullname' => 'Internationalisering av verktyg',
 	'current-settings' => 'Aktuella inställningar',
 	'current-language' => 'Valt språk',
 	'settings-legend' => 'Inställningar',
@@ -2151,7 +2186,7 @@ $messages['sv'] = array(
 	'bl-mysettings-new' => 'Byt språk!',
 	'bl-promo' => 'Översättningar drivs av $1 och $2.',
 	'bl-changelanguage' => 'Klicka här för att ändra gränssnittsspråket för detta verktyg.',
-	'usage' => 'Verktyget översatt av Toolserver Intuition.', # Fuzzy
+	'usage' => 'Verktyg översatt av Intuition.',
 	'help-translate-tool' => 'Hjälp till att översätta detta verktyg!',
 	'help-translate-all' => 'Hjälp till att översätta verktyg!',
 	'help-translate-tooltip' => 'Hjälp andra genom att översätta gränssnittsmeddelanden till ditt språk.',
@@ -2429,10 +2464,11 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Shizhao
  * @author Simon Shek
+ * @author Xiaomingyan
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
-	'fullname' => '国际化Toolserver用户界面',
+	'fullname' => '工具国际化',
 	'current-settings' => '当前的设置',
 	'current-language' => '当前所选的语言',
 	'settings-legend' => '设置',
@@ -2450,9 +2486,9 @@ $messages['zh-hans'] = array(
 	'bl-mysettings-new' => '更改语言！',
 	'bl-promo' => '翻译采用 $1 和 $2。',
 	'bl-changelanguage' => '若要更改此工具界面语言，请单击此处。',
-	'usage' => '由Toolserver Intuition翻译的工具。',
+	'usage' => '用Intuition翻译的工具',
 	'help-translate-tool' => '帮助翻译此工具！',
-	'help-translate-all' => '帮助翻译Toolserver！',
+	'help-translate-all' => '帮助翻译工具！',
 	'help-translate-tooltip' => '帮助其他人把界面翻译成您的语言。',
 );
 

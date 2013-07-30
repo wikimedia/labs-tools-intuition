@@ -1932,6 +1932,7 @@ Linux/Mac OS
 );
 
 /** Malayalam (മലയാളം)
+ * @author Akhilan
  * @author Sreejithk2000
  */
 $messages['ml'] = array(
@@ -1939,6 +1940,7 @@ $messages['ml'] = array(
 	'subtitle' => 'ഒരു വർഗ്ഗത്തിലുള്ള ചിത്രങ്ങൾ ഇറക്കുമതി ചെയ്യാനുള്ള എളുപ്പവഴി',
 	'project' => 'പദ്ധതി:',
 	'category' => 'വർഗ്ഗം:',
+	'thumbnailing' => 'ലഘുചിത്രമുണ്ടാക്കുക',
 	'max-width' => 'പരമാവധി വീതി:',
 	'max-height' => 'പരമാവധി ഉയരം:',
 	'invalid-width' => 'തെറ്റായ വീതി',
@@ -1950,6 +1952,29 @@ $messages['ml'] = array(
 	'image-area-too-big' => '$1 തമ്പ്നെയിൽ ഉണ്ടാക്കാൻ പറ്റാത്തവിധം വലുതാണ്. മുഴുവൻ വലിപ്പവും ഉപയോഗിച്ചിരിക്കുന്നു',
 	'download-info' => 'ഉദ്ദേശം $2 വലിപ്പം വരുന്ന {{plural: $1|ഒരു ചിത്രമുണ്ട്|$1 ചിത്രങ്ങൾ ഉണ്ട്}}',
 	'download' => 'ഡൗൺലോഡ്',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'title' => 'वर्गानुसार संचिकांचे अपभारण(डाउनलोड)',
+	'subtitle' => 'संचिकांचे विशिष्ट वर्गामध्ये अपभारण(डाउनलोड) करण्याचा सोपा मार्ग',
+	'project' => 'प्रकल्प:',
+	'category' => 'वर्ग:',
+	'thumbnailing' => 'नखुलेकरण(थंबनेलिंग)',
+	'max-width' => 'महत्तम रुंदी:',
+	'max-height' => 'महत्तम उंची:',
+	'invalid-width' => 'अवैध रुंदी',
+	'invalid-height' => 'अवैध उंची',
+	'no-such-project' => 'असा कोणताही प्रकल्प नाही.',
+	'no-images' => 'त्या वर्गात कोणत्याही संचिका नाहीत',
+	'category-is-url' => 'दिलेले वर्गनाव हे यूआरएल समान दिसते. आपणास वर्गाचे नाव नमूद करावयाचे आहे न कि त्याच्या यूआरएल चे.',
+	'category-contains-namespace' => 'वर्ग नावासमवेत आपण नामविश्वही अंतर्भूत केले आहे.[[Category:$1]] म्हणून  हे पान उपलब्ध होईल.',
+	'zip-failed' => "'झिप' तयार करणे अयशस्वी",
+	'image-area-too-big' => 'नखुलेकरण(थंबनेल) करण्यास $1 बरीच मोठी आहे म्हणून मुळ आकार वापरत आहे.',
+	'download-info' => '{{plural: $1|तेथे एक संचिका|तेथे $1 संचिका}} आहेत ज्यांचा अनुमानीत आकार $2 आहे.',
+	'download' => 'अपभारण',
 );
 
 /** Malay (Bahasa Melayu)
@@ -2797,6 +2822,7 @@ ili koristite druge rezervne veze:
 
 /** Swedish (svenska)
  * @author Cybjit
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -2804,6 +2830,7 @@ $messages['sv'] = array(
 	'subtitle' => 'Det enkla sättet att ladda ned bilder i en kategori',
 	'project' => 'Projekt:',
 	'category' => 'Kategori:',
+	'thumbnailing' => 'Miniatyrbildsinställning',
 	'max-width' => 'Maximal bredd:',
 	'max-height' => 'Maximal höjd:',
 	'invalid-width' => 'Ogiltig bredd',
@@ -2816,8 +2843,27 @@ $messages['sv'] = array(
 	'image-area-too-big' => '$1 är för stor för att skapa en miniatyr. Använder full storlek.',
 	'download-info' => '{{plural: $1|Det finns en bild|Det finns $1 bilder}} med en uppskattad storlek på $2',
 	'download' => 'Ladda ned',
+	'readme-contents' => 'Den omslutande filen $4-listor
+bilderna i $1-kategorin ( $2 )$3.
+
+== Instruktioner för att ladda ner alla listade bilder ==
+Nedladdningstiden kan variera från några minuter till flera timmar.
+
+Windows:
+ Extrahera alla filer i samma mapp och kör $5 
+ $6
+Linux/Mac OS
+ Extrahera alla filer och öppna en terminal i mappen. Kör sh $5',
 	'non-bundled-wget' => 'OBS: Denna version inkluderar inte wget för Windows. Du måste expandera
 till en mapp med wget.exe eller ha wget i PATH',
+	'wget-info' => 'Denna fil buntar en kopia av wget $1 (för Windows-plattformen). Wget är fri programvara,
+enligt villkoren i GNU GENERAL PUBLIC LICENSE version 3.
+Det finns en kopia av licensen nedan, och den är också tillgänglig på http://www.gnu.org/licenses/gpl-3.0.txt
+
+I fall du är intresserad av att få källkoden för det här programmet kan du ladda ned den från
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1 http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+eller några andra GNU-spegel, se
+ http://www.gnu.org/prep/ftp.html',
 	'scaling-width' => ', skalas till en maximal bredd av $1 {{plural:$1|pixel|pixlar}}',
 	'scaling-height' => ', skalas till en maximal höjd av $1 {{plural:$1|pixel|pixlar}}',
 	'scaling-both' => ', skalas till en maximal storlek av $1x$2 pixlar',

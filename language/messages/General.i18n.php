@@ -60,7 +60,8 @@ $messages['qqq'] = array(
 	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ).',
 	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advanced plural yet.
 {{Identical|Minute}}',
-	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.',
+	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.
+{{Identical|Second}}',
 	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.
 {{Identical|View source}}',
@@ -1443,6 +1444,28 @@ $messages['ml'] = array(
 	'last-modified-date' => 'അവസാനമായി മാറ്റങ്ങൾ വരുത്തിയത് : $1',
 	'view-source' => 'മൂലരൂപം കാണുക',
 	'and' => '&#32;ഒപ്പം',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'hello' => 'नमस्कार',
+	'welcome' => 'स्वागत',
+	'toolversionstamp' => 'आवृत्ती $1 ($2)',
+	'etc' => 'इत्यादी',
+	'namespace' => 'नामविश्वे',
+	'form-submit' => 'जा',
+	'form-reset' => 'पुनर्स्थापन(रिसेट)',
+	'years' => '{{PLURAL: $1|वर्ष|वर्षे}}',
+	'weeks' => '{{PLURAL: $1|आठवडा|आठवडे}}',
+	'days' => '{{PLURAL: $1|दिवस}}',
+	'hours' => '{{PLURAL: $1|तास}}',
+	'minutes' => '{{PLURAL: $1|मिनिट|मिनिटे}}',
+	'seconds' => '{{PLURAL: $1|सेकंद}}',
+	'last-modified-date' => 'शेवटचा बदल: $1',
+	'view-source' => 'स्रोत बघा',
+	'and' => '&#32;व',
 );
 
 /** Malay (Bahasa Melayu)

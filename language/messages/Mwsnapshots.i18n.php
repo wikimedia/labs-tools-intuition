@@ -1246,19 +1246,24 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Akhilan
  * @author Anoopan
+ * @author Praveenp
  */
 $messages['ml'] = array(
+	'title-overview' => 'ലഘുചിത്രം',
 	'title-error' => 'പിഴവ്',
 	'download-button' => '$1 ആയി ഡൗൺലോഡ് ചെയ്യുക',
 	'download-directlink' => 'നേർ കണ്ണി',
 	'title-downloadpage' => 'ഡൗൺലോഡ്: $1',
+	'downloadpage-directlink' => 'തത്സമയചിത്രം ഡൗൺലോഡ് ചെയ്യുക',
 	'repo-site-link' => 'വെബ്‌സൈറ്റ്:',
 	'repo-branches-label' => 'ശാഖകൾ:',
 	'repo-lastmoddate-label' => 'തീയതി:',
 	'tablehead-repo' => 'റെപ്പോസിറ്ററി:',
 	'tablehead-branch' => 'ശാഖ',
 	'tablehead-filesize' => 'പ്രമാണത്തിന്റെ വലിപ്പം',
+	'tablehead-hash' => 'ചെൿസമ്മുകൾ',
 );
 
 /** Malay (Bahasa Melayu)
@@ -1822,16 +1827,19 @@ $messages['sv'] = array(
 	'downloadpage-directlink' => 'Klicka här för att ladda ned ögonblicksbilden.',
 	'err-snapshotindex' => 'Indexet över ögonblicksbilder är tillfälligt otillgänligt. Vänligen försök igen senare.',
 	'err-invalid-repo' => 'Okänd databas: "$1".',
+	'err-invalid-branch' => 'Okänd gren: "$1" i databasen "$2".',
 	'err-nosnapshot' => 'Ögonblicksbilder genereras varannan timme. Samtidigt som de skapade ögonblicksbilden för "$1" uppstod ett fel. 
 Vänligen försök igen senare.',
 	'err-noupdatelog' => 'Ingen uppdateringslogg hittades.',
 	'repo-site-link' => 'Webbplats',
 	'repo-browse-link' => 'Bläddra i databasen',
+	'repo-branches-label' => 'Grenar:',
 	'repo-lastmoddate-label' => 'Datum:',
 	'branches-submit-button' => 'Skaffa det!',
 	'updatelog-link' => 'uppdateringslogg',
 	'tablehead-repo' => 'Databas',
 	'tablehead-snapshots' => 'Ögonblicksbilder',
+	'tablehead-branch' => 'Gren',
 	'tablehead-filesize' => 'Filstorlek',
 	'tablehead-hash' => 'Kontrollsummor',
 );

@@ -746,6 +746,30 @@ $messages['mk'] = array(
 	'time-label' => 'Наредбата е извршена за:',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Akhilan
+ */
+$messages['ml'] = array(
+	'enter-details' => 'വിവരങ്ങൾ ചേർക്കുക',
+	'language-label' => 'ഭാഷ',
+	'namespace-label' => 'നാമമേഖല',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'enter-details' => 'माहिती भरा',
+	'introduction' => "साच्याचे नाव टंका(सध्या विकिपिडिया) व 'जा' टिचका. हे ईतके सोपे आहे.येथे काही 'सयीकरण' आहे(निकाल स्मृती)परंतु ते, दुर्दैवाने, या साधनाच्या व त्याचे मालकाच्या आवाक्याबाहेर आहे.",
+	'language-label' => 'भाषा',
+	'namespace-label' => 'नामविश्वे',
+	'pagename-label' => 'पाननाम(नामविश्वारहीत)',
+	'transclusion-count-label' => 'एकुण आंतरविन्यासाची संख्या',
+	'transclusion-count' => '$1 आंतरविन्यास सापडले.',
+	'error-suggestion' => 'बहुतेक काय आपण या पानाचे नाव चुकिचे टाकले?',
+	'time-label' => 'आदेश कार्यवाहीस लागलेला वेळ',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */

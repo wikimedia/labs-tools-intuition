@@ -2376,9 +2376,11 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Akhilan
  * @author Anoopan
  */
 $messages['ml'] = array(
+	'search-title' => 'സ്മാരകങ്ങൾ തിരയുക',
 	'search-table-th-field' => 'ഫീൽഡ്',
 	'search-table-th-filter' => 'അരിപ്പ',
 	'search-table-th-search' => 'തിരയുക',
@@ -2397,6 +2399,8 @@ $messages['ml'] = array(
 	'db-field-source' => 'സ്രോതസ്സ്',
 	'db-field-monument_article' => 'സ്മാരക ലേഖനം',
 	'db-field-registrant_url' => 'രജിസ്ട്രന്റ് യുആർഎൽ',
+	'db-field-st_address' => 'വിലാസങ്ങൾ',
+	'db-field-st_coordinates' => 'നിർദ്ദേശാങ്കങ്ങൾ',
 	'db-field-st_image' => 'ചിത്രം',
 	'db-field-st_image_pct' => 'ചിത്രം %',
 	'db-field-st_municipality' => 'നഗരസഭ',
