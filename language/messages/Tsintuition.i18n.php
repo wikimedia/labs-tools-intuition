@@ -383,10 +383,11 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Fulup
  */
 $messages['br'] = array(
-	'fullname' => 'Etrebroadeladur evit etrefas implijer an Toolserver',
+	'fullname' => 'Etrebroadeladur an ostilhoù',
 	'current-settings' => 'Arventennoù red',
 	'current-language' => 'Yezh dibabet evit poent',
 	'settings-legend' => 'Arventennoù',
@@ -404,9 +405,9 @@ $messages['br'] = array(
 	'bl-mysettings-new' => 'Cheñch yezh !',
 	'bl-promo' => 'Pourchaset eo an troidigezhioù gant $1 ha $2',
 	'bl-changelanguage' => 'Klikañ amañ evit cheñch yezh etrefas an ostilh-mañ.',
-	'usage' => 'Ostilhoù troet gant Toolserver Intuition.',
+	'usage' => 'Ostilhoù troet gant Intuition.',
 	'help-translate-tool' => 'Hor skoazellit da dreiñ an ostilh-mañ !',
-	'help-translate-all' => 'Hor skoazellit da dreiñ an Toolserver !',
+	'help-translate-all' => 'Hor skoazellit da dreiñ an ostilhoù !',
 	'help-translate-tooltip' => 'Skoazellit ar re all en ur reiñ dorn da dreiñ kemennadennoù an etrefas en ho yezh.',
 );
 
@@ -434,10 +435,11 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Alvaro Vidal-Abarca
  * @author SMP
  */
 $messages['ca'] = array(
-	'fullname' => "Internacionalització i traducció de la interfície d'usuari del Toolserver",
+	'fullname' => 'Internacionalització per les eines',
 	'current-settings' => 'Configuració actual',
 	'current-language' => 'Idioma seleccionat actualment',
 	'settings-legend' => 'Paràmetres',
@@ -455,9 +457,9 @@ $messages['ca'] = array(
 	'bl-mysettings-new' => "Canvia l'idioma!",
 	'bl-promo' => 'Les traduccions són gentilesa de $1 i $2.',
 	'bl-changelanguage' => "Feu clic ací per canviar l'idioma de la interfície d'aquesta eina.",
-	'usage' => 'Eines traduïdes per Toolserver Intuition.',
+	'usage' => 'Eines traduïdes per Intuition.',
 	'help-translate-tool' => 'Ajudeu-nos a traduir aquesta eina!',
-	'help-translate-all' => 'Ajudeu-nos a traduir el Toolserver!',
+	'help-translate-all' => 'Ajudeu-nos a traduir les eines!',
 	'help-translate-tooltip' => 'Ajudeu els altres fent les traduccions al vostre idioma dels missatges de la interfície.',
 );
 
@@ -1079,7 +1081,7 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'fullname' => 'Internationalisation pro le interfacie de usator de Toolserver',
+	'fullname' => 'Internationalisation pro instrumentos',
 	'current-settings' => 'Configuration actual',
 	'current-language' => 'Lingua actualmente seligite',
 	'settings-legend' => 'Configuration',
@@ -1097,9 +1099,9 @@ $messages['ia'] = array(
 	'bl-mysettings-new' => 'Cambiar de lingua!',
 	'bl-promo' => 'Le traduction es actionate per $1 e $2.',
 	'bl-changelanguage' => 'Clicca hic pro cambiar le lingua del interfacie de iste instrumento.',
-	'usage' => 'Instrumentos traducite per Toolserver Intuition.',
+	'usage' => 'Instrumentos traducite per Intuition.',
 	'help-translate-tool' => 'Adjuta a traducer iste instrumento!',
-	'help-translate-all' => 'Adjuta a traducer Toolserver!',
+	'help-translate-all' => 'Adjuta a traducer instrumentos!',
 	'help-translate-tooltip' => 'Adjuta alteres per traducer le messages de interfacie in tu lingua.',
 );
 
@@ -1486,7 +1488,7 @@ $messages['mr'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
-	'fullname' => 'Pengantarabangsaan untuk Antara Muka Pengguna Toolserver (Intuition)',
+	'fullname' => 'Pengantarabangsaan untuk peralatan',
 	'current-settings' => 'Tetapan semasa',
 	'current-language' => 'Bahasa yang dipilih sekarang',
 	'settings-legend' => 'Tetapan',
@@ -1504,9 +1506,9 @@ $messages['ms'] = array(
 	'bl-mysettings-new' => 'Tukar bahasa!',
 	'bl-promo' => 'Penterjemahahn dijana oleh $1 dan $2.',
 	'bl-changelanguage' => 'Klik di sini untuk menukar bahasa antara muka alat ini.',
-	'usage' => 'Alat-alat yang diterjemah oleh Toolserver Intuition.',
+	'usage' => 'Peralatan yang diterjemahkan oleh Intuition.',
 	'help-translate-tool' => 'Bantu kami menterjemah alat ini!',
-	'help-translate-all' => 'Bantu kami menterjemahkan Toolserver!',
+	'help-translate-all' => 'Bantu kami menterjemahkan peralatan kami!',
 	'help-translate-tooltip' => 'Bantu orang lain dengan menterjemah mesej-mesej antara muka kepada bahasa anda.',
 );
 
@@ -1624,7 +1626,7 @@ $messages['new'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'fullname' => 'Vertaling voor de gebruikersinterface van Toolserver',
+	'fullname' => 'Vertalingen voor tools',
 	'current-settings' => 'Huidige instellingen',
 	'current-language' => 'Huidige taal',
 	'settings-legend' => 'Instellingen',
@@ -1642,9 +1644,9 @@ $messages['nl'] = array(
 	'bl-mysettings-new' => 'Taal wijzigen',
 	'bl-promo' => 'De vertaling is mogelijk gemaakt door $1 en $2.',
 	'bl-changelanguage' => 'Klik hier om de interfacetaal van dit programma te wijzigen.',
-	'usage' => "Programma's die vertaald worden via Toolserver Intuition.",
+	'usage' => 'Tools die vertaald worden via Intuition.',
 	'help-translate-tool' => 'Help dit programma vertalen!',
-	'help-translate-all' => 'Help Toolserver vertalen!',
+	'help-translate-all' => 'Help tools vertalen!',
 	'help-translate-tooltip' => 'Help anderen door interfaceberichten te vertalen in uw taal.',
 );
 
@@ -2028,7 +2030,7 @@ $messages['si'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'fullname' => 'Internacionalizacija uporabniškega vmesnika Toolserverja',
+	'fullname' => 'Internacionalizacija orodij',
 	'current-settings' => 'Trenutne nastavitve',
 	'current-language' => 'Trenutno izbran jezik',
 	'settings-legend' => 'Nastavitve',
@@ -2046,9 +2048,9 @@ $messages['sl'] = array(
 	'bl-mysettings-new' => 'Spremeni jezik!',
 	'bl-promo' => 'Prevode zagotavljata $1 in $2.',
 	'bl-changelanguage' => 'Kliknite tukaj za spremembo jezika vmesnika tega orodja.',
-	'usage' => 'Orodja, ki so prevedena s Toolserverjevo Intuicijo.',
+	'usage' => 'Orodja, ki so prevedena z Intuicijo.',
 	'help-translate-tool' => 'Pomagajte prevesti to orodje!',
-	'help-translate-all' => 'Pomagajte prevesti Toolserver!',
+	'help-translate-all' => 'Pomagajte prevesti orodja!',
 	'help-translate-tooltip' => 'Pomagajte drugim s prevajanjem sporočil vmesnika v svoj jezik.',
 );
 

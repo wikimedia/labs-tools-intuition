@@ -1340,11 +1340,13 @@ $messages['en-gb'] = array(
 
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
+ * @author KuboF
  * @author Objectivesea
  */
 $messages['eo'] = array(
 	'title' => 'Dosieroj de WLM',
 	'file' => 'Bildo',
+	'monument-type' => 'Speco de monumento',
 	'monument-id' => 'Identigo de la monumento',
 	'province' => 'Provinco',
 	'comarque' => 'Regiono',
@@ -1359,7 +1361,11 @@ $messages['eo'] = array(
 	'not-available' => 'Ne atingebla',
 	'date-unknown' => 'Nekonata',
 	'total-images' => 'Totalo de bildoj: $1',
+	'view-uncategorized-images' => 'Montri neenkategoriigitajn bildojn',
+	'provide-id' => 'Provizu identigilon de monumento por montri disponeblajn datumojn por tiu ero',
+	'show-images-bad-only' => 'Montri nur bildojn, kiuj ne estas en la listoj',
 	'show-images-all' => 'Montri ĉiujn bildojn',
+	'show-images-removed' => 'Montri bildojn, kiuj estis forigitaj de la konkurso',
 	'search-monuments' => 'Serĉi monumentojn',
 	'view-frequency' => 'Popularaj monumentoj',
 	'view-ccaa' => 'Vidi laŭ komunumo aŭtonoma',
@@ -1374,9 +1380,12 @@ $messages['eo'] = array(
 	'view-previous-images' => '← Vidi la antaŭajn bildojn',
 	'view-later-images' => '← Vidi la postajn bildojn',
 	'images-listed-count' => '$1 bildoj listiĝas.',
+	'log-page-disclaimer' => 'Tiu ĉi ilo montras dosierojn en la [[:Category:$1|koncerna kategorio]] kiuj estis alŝutitaj dum la konkurso.
+Forigitaj dosieroj ne estas montritaj eĉ se ili estis poste [$2 restarigitaj] kaj denove partoprenas.',
 	'bot' => 'Roboto',
 	'id-label' => 'Identigo de la monumento:',
 	'id-none' => '(Nenio)',
+	'monuments-by-photographers-checkbox' => 'Ordigi monumentojn laŭ nombro de fotintoj, ne laŭ nombro de fotoj.',
 	'monument-heading' => 'Monumento',
 	'count-heading' => 'Fotoj',
 	'photographer-count-heading' => 'Fotoistoj',
@@ -1389,17 +1398,21 @@ $messages['eo'] = array(
 	'bic-list-bad' => 'Montru',
 	'bic-list-all' => 'Plena listo',
 	'unregistered' => 'Neregistritaj',
+	'users-text' => 'Tiu ĉi paĝo montras aŭtorojn kun bildoj, kiujn ili alŝutis kaj nombron de monumentoj',
 	'users-list' => 'Vidi',
 	'distict-monuments' => 'Malsamaj monumentoj',
+	'list-prolific-begin' => 'Listo de la plej produktopovaj alŝutantoj:',
 	'list-prolific-by-photos' => 'laŭ la nombro da bildoj',
 	'list-prolific-by-distinct-identifiers' => 'laŭ la nombro da malsamaj identaĵoj',
 	'list-prolific-by-distinct-good-identifiers' => 'laŭ la nombro da malsamaj identaĵoj kiu listiĝis',
 	'list-prolific-by-identifiers' => 'laŭ la nombro da identaĵoj de monumentoj',
 	'list-prolific-by-good-identifiers' => 'laŭ la nombro da identaĵoj en la listoj',
 	'list-prolific-by-bad-identifiers' => 'laŭ la nombro da identaĵoj ne en la listoj',
+	'group-by-identifiers-all-countries-meaningless' => 'Multaj landoj ne uzas identigilojn en iliaj listoj do tiuj ĉi rezultoj estas probable misaj.',
 	'province-heading' => 'Provinco',
 	'province-none' => '(Nesciata)',
 	'ccaa-heading' => 'K-oj aŭ-oj',
+	'nomail-text' => 'Listo de partoprenintoj de Vikio amas monumentojn $1, kiuj ŝajne ne provizis sian retpoŝton.',
 	'nomail-user-count' => '$1 uzantoj',
 );
 
@@ -3971,6 +3984,61 @@ $messages['si'] = array(
 	'province-none' => '(නොදත්)',
 	'ccaa-heading' => 'CC.AA.',
 	'nomail-user-count' => 'පරිශීලකයන් $1',
+);
+
+/** Slovak (slovenčina)
+ * @author KuboF
+ */
+$messages['sk'] = array(
+	'title' => 'Súbory WLM',
+	'file' => 'Obrázok',
+	'monument-type' => 'Druh pamiatky',
+	'monument-id' => 'Číslo pamiatky',
+	'province' => 'Provincia',
+	'author' => 'Autor',
+	'country-header' => 'Krajina',
+	'location' => 'Poloha',
+	'upload-time' => 'Čas nahrania',
+	'deleted' => 'Vymazaný ($1)',
+	'concursa' => 'Zúčastňuje sa WLM',
+	'no-concursa' => 'Mimo súťaže WLM',
+	'not-available' => 'Nie je k dispozícii',
+	'date-unknown' => 'Neznáme',
+	'total-images' => 'Celkový počet obrázkov: $1',
+	'view-uncategorized-images' => 'Prezrieť nekategorizované obrázky',
+	'show-images-bad-only' => 'Zobraziť iba obrázky mimo zoznamov',
+	'show-images-all' => 'Zobraziť všetky obrázky',
+	'show-images-removed' => 'Zobraziť obrázky vyradené zo súťaže',
+	'search-monuments' => 'Hľadať pamiatky',
+	'view-frequency' => 'Populárne pamiatky',
+	'view-ccaa' => 'Prehliadať podľa autonómnych komunít',
+	'view-province' => 'Zobraziť podľa provincie',
+	'country-label' => 'Krajina:',
+	'all-countries' => 'Všetky krajiny',
+	'limit-label' => 'Zobraziť obrázky:',
+	'timezone-label' => 'Časové pásmo:',
+	'show-earlier-first' => 'Najskôr zobraziť novšie obrázky',
+	'show-older-first' => 'Najskôr zobraziť staršie obrázky',
+	'show-button' => 'Zobraziť',
+	'view-previous-images' => '← zobraziť predchádzajúce obrázky',
+	'view-later-images' => 'Zobraziť staršie obrázky →',
+	'bot' => 'Robot',
+	'id-label' => 'Číslo pamiatky:',
+	'id-none' => '(nič)',
+	'monument-heading' => 'Pamiatka',
+	'count-heading' => 'Fotografie',
+	'photographer-count-heading' => 'Fotografi',
+	'bic-list' => 'Zoznam',
+	'bic-gallery' => 'Galéria',
+	'author-heading' => 'Autor',
+	'bic-list-bad' => 'Zobraziť',
+	'bic-list-all' => 'Úplný zoznam',
+	'unregistered' => 'Neregistrovaný',
+	'users-list' => 'Zobraziť',
+	'list-prolific-by-photos' => 'podľa počtu fotografií',
+	'list-prolific-by-distinct-identifiers' => 'podľa počtu rôznych identifikátorov',
+	'list-prolific-by-distinct-good-identifiers' => 'podľa počtu rôznych uvedených identifikátorov',
+	'list-prolific-by-identifiers' => 'podle počtu identifikátorov pamiatok',
 );
 
 /** Slovenian (slovenščina)

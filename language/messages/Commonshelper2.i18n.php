@@ -1760,6 +1760,17 @@ $messages['hu'] = array(
 	'help_commons' => '$1Üzenet küldése a Commons-ra$2',
 );
 
+/** Armenian (Հայերեն)
+ * @author Համլետ
+ */
+$messages['hy'] = array(
+	'language' => 'Լեզու',
+	'project' => 'Նախագիծ',
+	'source_file' => 'Ելատեքստային ֆայլ',
+	'target_file' => 'Նպատակային ֆայլի',
+	'categories' => 'Կատեգորիաներ',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */

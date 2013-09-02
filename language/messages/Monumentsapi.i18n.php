@@ -3446,6 +3446,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author Cybjit
  * @author Liftarn
  * @author Lokal Profil
@@ -3457,8 +3458,8 @@ $messages['sv'] = array(
 	'search-table-th-field' => 'Fält',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sök',
-	'filter-all-countries' => 'All länder',
-	'filter-all-languages' => 'All språk',
+	'filter-all-countries' => 'Alla länder',
+	'filter-all-languages' => 'Alla språk',
 	'db-field-country' => 'Land',
 	'db-field-lang' => 'Språk',
 	'db-field-id' => 'Id',
