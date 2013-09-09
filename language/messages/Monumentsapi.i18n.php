@@ -1638,10 +1638,11 @@ $messages['hsb'] = array(
 /** Hungarian (magyar)
  * @author Dani
  * @author Dj
+ * @author Samat
  */
 $messages['hu'] = array(
 	'search-title' => 'Műemlékek keresés',
-	'search-monuments-database' => 'Műemlékek adatbázis keresése',
+	'search-monuments-database' => 'Keresés a műemléki adatbázisban',
 	'search-table-th-field' => 'Mező',
 	'search-table-th-filter' => 'Szűrő',
 	'search-table-th-search' => 'Keresés',
@@ -1658,7 +1659,7 @@ $messages['hu'] = array(
 	'db-field-image' => 'Kép',
 	'db-field-changed' => 'Változtatások',
 	'db-field-source' => 'Forrás',
-	'db-field-monument_article' => 'Műemlék cikk',
+	'db-field-monument_article' => 'Műemlékcikk',
 	'db-field-registrant_url' => 'Regisztrációs URL',
 	'db-field-st_address' => 'Címek',
 	'db-field-st_address_pct' => 'Címek %',
@@ -1672,12 +1673,15 @@ $messages['hu'] = array(
 	'db-field-st_name_pct' => 'Nevek %',
 	'db-field-st_total' => 'Teljes szám',
 	'toolbox-label-searchtipps' => 'használd a %kifejezés, kifejezés% vagy a %kifejezés% formákat a kereséshez',
-	'toolbox-main-title' => 'WLM Toolbox',
+	'toolbox-meta-title' => 'A Wiki Loves Monuments eszközcsomagja',
+	'toolbox-main-title' => 'WLM-eszközök',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
 	'toolbox-nav-homepage' => 'Honlap',
 	'toolbox-nav-statistics' => 'Statisztika',
 	'toolbox-nav-search' => 'Keresés',
 	'toolbox-title-searchmonuments' => 'Műemlékek keresése',
 	'location' => 'Helyszín',
+	'source-monuments-list-on-wikipedia' => 'A műemlék keresése a Wikipédián',
 );
 
 /** Interlingua (interlingua)
@@ -2701,6 +2705,35 @@ $messages['oc'] = array(
 	'search-monuments-database' => 'Recercar demest los monuments',
 	'search-table-th-field' => 'Camp',
 	'search-table-th-filter' => 'Filtre',
+	'db-field-country' => 'País',
+	'db-field-lang' => 'Lenga',
+	'db-field-id' => 'Identificant',
+	'db-field-name' => 'Nom',
+	'db-field-address' => 'Adreça',
+	'db-field-municipality' => 'Municipalitat',
+	'db-field-lat' => 'Latitud',
+	'db-field-lon' => 'Longitud',
+	'db-field-image' => 'Imatge',
+	'db-field-changed' => 'Cambiat',
+	'db-field-source' => 'Font',
+	'db-field-monument_article' => 'Article del monument',
+	'db-field-registrant_url' => 'URL de la banca de donadas',
+	'db-field-st_address' => 'Adreças',
+	'db-field-st_address_pct' => 'Adreças %',
+	'db-field-st_coordinates' => 'Coordenadas',
+	'db-field-st_coordinates_pct' => 'Coordenadas %',
+	'db-field-st_image' => 'Imatge',
+	'db-field-st_image_pct' => 'Imatge %',
+	'db-field-st_municipality' => 'Municipalitat',
+	'db-field-st_municipality_pct' => 'Municipalitat %',
+	'db-field-st_name' => 'Noms',
+	'db-field-st_name_pct' => 'Noms %',
+	'db-field-st_total' => 'Nombre total',
+	'toolbox-nav-homepage' => "Pagina d'acuèlh",
+	'toolbox-nav-statistics' => 'Estatisticas',
+	'toolbox-nav-search' => 'Recercar',
+	'toolbox-title-searchmonuments' => 'Recercar de monuments',
+	'location' => 'Emplaçament',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

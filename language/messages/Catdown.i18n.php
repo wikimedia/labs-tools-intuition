@@ -2157,6 +2157,7 @@ $messages['oc'] = array(
 	'max-height' => 'Nautor maximala :',
 	'invalid-width' => 'Largor invalida',
 	'invalid-height' => 'Nautor invalida',
+	'download' => 'Telecargar',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

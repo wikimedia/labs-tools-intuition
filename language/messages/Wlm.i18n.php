@@ -1528,9 +1528,14 @@ $messages['et'] = array(
 	'view-province' => 'Rühmita provintside kaupa',
 	'country-label' => 'Maa:',
 	'all-countries' => 'Kõik maad',
+	'limit-label' => 'Näidatavate piltide arv:',
 	'timezone-label' => 'Ajavöönd:',
+	'show-earlier-first' => 'Näita uuemaid pilte eespool',
+	'show-older-first' => 'Näita vanemaid pilte eespool',
+	'show-button' => 'Näita',
 	'view-previous-images' => '← Vaata eelmisi pilte',
 	'view-later-images' => 'Vaata hilisemaid pilte →',
+	'images-listed-count' => '$1 pilti loetletud.',
 	'bot' => 'Robot',
 	'id-label' => 'Mälestise registrinumber:',
 	'id-none' => '(Puudub)',
@@ -1549,6 +1554,13 @@ $messages['et'] = array(
 	'users-text' => 'Sellel leheküljel on toodud, mitu pilti ja mitmest erinevast mälestisest iga autor üles laadis.',
 	'users-list' => 'Vaata',
 	'distict-monuments' => 'Erinevaid mälestisi',
+	'list-prolific-begin' => 'Enim fotosid üles laadinud kasutajate loend:',
+	'list-prolific-by-photos' => 'fotode arvu järgi',
+	'list-prolific-by-distinct-identifiers' => 'erinevate registrinumbrite arvu järgi',
+	'list-prolific-by-distinct-good-identifiers' => 'erinevate loendites toodud registrinumbrite arvu järgi',
+	'list-prolific-by-identifiers' => 'mälestiste registrinumbrite arvu järgi',
+	'list-prolific-by-good-identifiers' => 'loendites toodud registrinumbrite arvu järgi',
+	'list-prolific-by-bad-identifiers' => 'loendites mitte toodud registrinumbrite arvu järgi',
 	'province-heading' => 'Provints',
 	'province-none' => '(Teadmata)',
 	'ccaa-heading' => 'Autonoomne piirkond',
@@ -1695,6 +1707,27 @@ $messages['fi'] = array(
 	'ccaa-heading' => 'CC.AA.',
 	'nomail-text' => 'Luettelo Wiki Loves Monuments $1 -osallistujista, jotka eivät ole antaneet sähköpostiosoitetta.',
 	'nomail-user-count' => '$1 käyttäjää',
+);
+
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'title' => 'WLM fílur',
+	'file' => 'Mynd',
+	'country-header' => 'Land',
+	'total-images' => 'Myndir í alt: $1',
+	'show-button' => 'Vís',
+	'monument-heading' => 'Minnisvarði',
+	'count-heading' => 'Myndir',
+	'photographer-count-heading' => 'Myndafólk',
+	'bic-list' => 'Listi',
+	'bic-gallery' => 'Myndasavn',
+	'gallery-header' => 'Myndir av minnisvarðanum við ID $1.',
+	'gallery-header-place' => 'Myndir av minnisvarðum úr $1.',
+	'users-list' => 'Vís',
+	'distict-monuments' => 'Serstakir minnisvarðar',
+	'nomail-user-count' => '$1 brúkarar',
 );
 
 /** French (français)

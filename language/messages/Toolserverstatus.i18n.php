@@ -468,6 +468,18 @@ $messages['fi'] = array(
 	'toolserver-status-short-missing' => '$1: Puuttuu',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-info' => '$1: Kunning',
+	'toolserver-status-short-warn' => '$1: Ávaring',
+	'toolserver-status-short-erro' => '$1: Feilur',
+	'toolserver-status-short-unknown' => '$1: Ókent',
+	'toolserver-status-short-missing' => '$1: Manglar',
+);
+
 /** French (français)
  * @author Jean-Frédéric
  * @author Od1n

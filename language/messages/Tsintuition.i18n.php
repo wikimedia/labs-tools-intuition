@@ -698,9 +698,10 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author VegaDark
  */
 $messages['es'] = array(
-	'fullname' => 'Internacionalización de la interfaz de usuario de Toolserver',
+	'fullname' => 'Internacionalización para las herramientas',
 	'current-settings' => 'Configuración actual',
 	'current-language' => 'Idioma actualmente seleccionado',
 	'settings-legend' => 'Configuración',
@@ -718,9 +719,9 @@ $messages['es'] = array(
 	'bl-mysettings-new' => '¡Cambiar idioma!',
 	'bl-promo' => 'Las traducciones son impulsadas por $1 y $2.',
 	'bl-changelanguage' => 'Haz clic aquí para cambiar el idioma de la interfaz de esta herramienta.',
-	'usage' => 'Herramientas traducidas por Toolserver Intuition.',
+	'usage' => 'Herramientas traducidas por intuición.',
 	'help-translate-tool' => '¡Ayuda en la traducción de esta herramienta!',
-	'help-translate-all' => '¡Ayuda a traducir Toolserver!',
+	'help-translate-all' => '¡Ayuda a traducir herramientas!',
 	'help-translate-tooltip' => 'Ayuda a otros al traducir los mensajes de la interfaz en tu idioma.',
 );
 
@@ -827,6 +828,34 @@ $messages['fi'] = array(
 	'help-translate-tool' => 'Auta tämän työkalun kääntämisessä!',
 	'help-translate-all' => 'Auta Toolserverin kääntämisessä!',
 	'help-translate-tooltip' => 'Auta toisia kääntämällä käyttöliittymäviestejä kielellesi.',
+);
+
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'fullname' => 'Altjóðagerð av tólum',
+	'current-settings' => 'Galdandi innstillingar',
+	'current-language' => 'Valt mál í løtuni',
+	'settings-legend' => 'Innstillingar',
+	'choose-language' => 'Vel eitt mál',
+	'clear-cookies' => 'rudda kakur (cookies)',
+	'renew-cookies' => 'endurnýggja cookies',
+	'cookie-expiration' => 'Cookie gongur út',
+	'clearcookies-success' => 'Cookies eru nú reinsaðar.',
+	'renewcookies-success' => 'Cookies endurnýggjaðar! Tú ert nú til reiðar til næstu $1.',
+	'tab-overview' => 'Yvirlit',
+	'tab-settings' => 'Innstillingar',
+	'tab-about' => 'Um',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Mínar málsligu innstillingar',
+	'bl-mysettings-new' => 'Broyt mál!',
+	'bl-promo' => 'Týðingar verða riknar av $1 og $2.',
+	'bl-changelanguage' => 'Trýst her fyri at broyta málið á markamótinum (interface) hjá hesum tólinum.',
+	'usage' => 'Tólini eru týdd av Intuition.',
+	'help-translate-tool' => 'Hjálp við at týða hetta tólið!',
+	'help-translate-all' => 'Hjálp við at týða verktoy!',
+	'help-translate-tooltip' => 'Hjálp øðrum við at týða markamót-boð til týtt mál.',
 );
 
 /** French (français)
@@ -1703,6 +1732,17 @@ $messages['no'] = array(
 	'help-translate-tool' => 'Hjelp med oversettelsen av dette verktøyet!',
 	'help-translate-all' => 'Hjelp med oversettelsen av Toolserver!',
 	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'settings-legend' => 'Paramètres',
+	'tab-overview' => "Vista d'ensemble",
+	'tab-settings' => 'Paramètres',
+	'tab-about' => 'A prepaus',
+	'tab-demo' => 'Demo',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

@@ -940,6 +940,29 @@ $messages['ig'] = array(
 	'tools-hist' => 'akíkómbu',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'select-wiki-first' => '(umuna nga agpili ti wiki)',
+	'hideredirects' => 'Ilemmeng dagiti baw-ing',
+	'hidesubpages' => 'Ilemmeng dagiti subpanid',
+	'limit' => 'Patingga',
+	'page' => 'Panid',
+	'redirect' => 'Baw-ing kadi?',
+	'output' => 'Maiparuar',
+	'update' => 'Pabaruen',
+	'tools-delete' => 'ikkaten',
+	'tools-links' => 'dagiti silpo',
+	'tools-subject' => 'suheto',
+	'tools-hist' => 'saritaan',
+	'tools-curr' => 'agdama',
+	'tools-globalusage' => 'sangalubongan a panag-usar',
+	'deletesummary' => 'Agdaldalus kadagiti naulila a pampanid babaen ti $1',
+	'noresults' => 'Awan dagiti naulila a pampanid ti tungtungan iti daytoy a wiki iti daytoy a nagan ti espasio a maipada kadagiti inyasentarmo',
+	'resultslimited' => 'Dagiti resulta ket naipatingga iti $1 a pampanid.',
+);
+
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
@@ -1402,6 +1425,22 @@ $messages['no'] = array(
 	'deletesummary' => 'Renser opp i foreldreløse diskusjonssider via $1',
 	'noresults' => 'Det var ingen foreldreløse diskusjonssider på denne wikien som passet med de valgte innstillingene.',
 	'resultslimited' => 'Resultatene ble begrenset til $1 sider.',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'limit' => 'Limit',
+	'page' => 'Pagina',
+	'output' => 'Sortida',
+	'update' => 'Metre a jorn',
+	'tools-delete' => 'suprimir',
+	'tools-links' => 'ligams',
+	'tools-subject' => 'Subjècte',
+	'tools-hist' => 'ist',
+	'tools-curr' => 'actu',
+	'tools-globalusage' => 'globalusage',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

@@ -2237,6 +2237,23 @@ $messages['no'] = array(
 	'finalise' => 'Ferdigstill detaljer',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'begin-translation' => 'Començar la traduccion',
+	'th-original' => 'Original',
+	'th-translation' => 'Traduccion',
+	'th-language' => 'Lenga',
+	'th-username' => "Nom d'utilizaire",
+	'th-password' => 'Senhal',
+	'th-method' => 'Metòde',
+	'preview' => 'Previsualizar',
+	'translate' => 'Tradusir',
+	'svginput-label' => 'Fichièr SVG',
+	'uploading' => 'Telecargament',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */

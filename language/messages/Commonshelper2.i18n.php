@@ -2902,6 +2902,7 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'attention' => 'Atencion',
 	'language' => 'Lenga',
 	'project' => 'Projècte',
 	'source_file' => 'Fichièr font',

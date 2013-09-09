@@ -411,6 +411,20 @@ $messages['fi'] = array(
 	'pagename-label' => 'Sivun nimi (ilman nimiavaruutta)',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'enter-details' => 'Greið frá smálutum',
+	'language-label' => 'Mál',
+	'namespace-label' => 'Navnarúm',
+	'pagename-label' => 'Síðunavn (tó ikki navnarúm)',
+	'transclusion-count-label' => 'Tal av innsetingum',
+	'transclusion-count' => '$1 innseting(ar) funnar.',
+	'error-suggestion' => 'Manst tú hava stava síðuheitið skeivt (ella av misgáum skrivað við stórum)?',
+	'time-label' => 'Tann tíð ið tað tók at útføra fyrispurningin',
+);
+
 /** French (français)
  * @author Jean-Frédéric
  * @author Od1n
@@ -868,6 +882,14 @@ $messages['no'] = array(
 	'transclusion-count' => '$1 transklusjon(er) funnet.',
 	'error-suggestion' => 'Kanskje du stavet navnet på siden feil (eller bommet på små og store bokstaver)?',
 	'time-label' => 'Tiden det tar å utføre kommandoen',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'language-label' => 'Lenga',
+	'namespace-label' => 'Espaci de noms',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

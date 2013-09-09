@@ -1387,6 +1387,24 @@ $messages['nl'] = array(
 	'tablehead-hash' => 'Hash',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'title-overview' => 'Instantanèus',
+	'title-error' => 'Error',
+	'title-updatelog' => 'Metre a jorn lo jornal',
+	'repo-site-link' => 'Site web',
+	'repo-branches-label' => 'Brancas :',
+	'repo-lastmoddate-label' => 'Data :',
+	'branches-submit-button' => "L'obténer !",
+	'updatelog-link' => 'metre a jorn lo jornal',
+	'tablehead-repo' => 'Depaus',
+	'tablehead-snapshots' => 'Instantanèus',
+	'tablehead-branch' => 'Branca',
+	'tablehead-filesize' => 'Talha del fichièr',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
