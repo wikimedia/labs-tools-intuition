@@ -568,6 +568,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'title' => 'SVG гоч',
 	'th-translation' => 'Гоч',
 	'th-language' => 'Мотт',
 	'th-username' => 'Декъашхочун цӀе',

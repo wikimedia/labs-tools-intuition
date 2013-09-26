@@ -865,10 +865,11 @@ $messages['gu'] = array(
 /** Hebrew (עברית)
  * @author Amire80
  * @author Platonides
+ * @author YaronSh
  */
 $messages['he'] = array(
 	'hello' => 'שלום',
-	'welcome' => 'ברוכים הבאים',
+	'welcome' => 'ברוך בואך',
 	'toolversionstamp' => 'גרסה $1 ($2)‏',
 	'etc' => 'וכו׳',
 	'namespace' => 'מרחב שם',

@@ -1518,6 +1518,7 @@ $messages['gu'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author YaronSh
  */
 $messages['he'] = array(
 	'attention' => 'לתשומת לבך',
@@ -1538,7 +1539,7 @@ $messages['he'] = array(
 	'use_checkusage' => 'להשתמש ב־$1CheckUsage$2 כדי לאתר קטגוריות',
 	'use_tusc' => 'להשתמש ב־$1TUSC$2 כדי להזדהות ולהעביר את הקובץ ישירות',
 	'tusc_user' => 'שם משתמש ב־TUSC',
-	'tusc_pass' => 'סיסמה ב־TUSC',
+	'tusc_pass' => 'ססמה ב־TUSC',
 	'do_it' => 'העברה',
 	'error_transfer_usr' => 'לא יצרת שם משתמש בוויקישיתוף',
 	'error_not_exists' => 'קובץ המקור אינו קיים!',

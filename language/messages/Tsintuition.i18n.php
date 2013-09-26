@@ -1954,7 +1954,7 @@ $messages['pt-br'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'fullname' => 'Internaționalizare pentru interfața proiectului Toolserver',
+	'fullname' => 'Internaționalizare pentru unelte',
 	'current-settings' => 'Setări curente',
 	'current-language' => 'Limba curentă',
 	'settings-legend' => 'Setări',
@@ -1972,9 +1972,9 @@ $messages['ro'] = array(
 	'bl-mysettings-new' => 'Schimbă limba!',
 	'bl-promo' => 'Traducerile sunt susținute și efectuate de $1 și $2.',
 	'bl-changelanguage' => 'Apăsați aici pentru a schimba limba interfeței acestei unelte.',
-	'usage' => 'Unelte traduse de Toolserver Intuition.',
+	'usage' => 'Unelte traduse de Intuition.',
 	'help-translate-tool' => 'Ajutați-ne să traducem această unealtă!',
-	'help-translate-all' => 'Ajutați-ne să traducem Toolserver!',
+	'help-translate-all' => 'Ajutați-ne să traducem uneltele!',
 	'help-translate-tooltip' => 'Ajutați-i pe alții traducând mesajele de interfață în limba dumneavoastră.',
 );
 
