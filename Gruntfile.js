@@ -3,6 +3,7 @@
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
  * @package TsIntuition
  */
+/*jshint node:true */
 module.exports = function (grunt) {
 	'use strict';
 
@@ -12,7 +13,7 @@ module.exports = function (grunt) {
 
 	grunt.initConfig({
 		jshint: {
-			all: 'grunt.js'
+			all: ['Gruntfile.js', 'includes/js-env/*.js']
 		}
 	});
 
