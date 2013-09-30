@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '~krinkle/';
+$url = '//toolserver.org/~krinkle/';
 
 $messages = array();
 

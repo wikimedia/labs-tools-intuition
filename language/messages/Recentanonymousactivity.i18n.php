@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '~krinkle/recentAnonymousActivity/';
+$url = '//toolserver.org/~krinkle/recentAnonymousActivity/';
 
 $messages = array();
 

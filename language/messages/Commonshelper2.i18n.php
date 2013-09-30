@@ -5,7 +5,7 @@
  * @toolowner jan
  */
 
-$url = '~commonshelper2/';
+$url = '//toolserver.org/~commonshelper2/';
 
 $messages = array();
 

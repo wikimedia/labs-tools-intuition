@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '~krinkle/mwSnapshots/';
+$url = '//toolserver.org/~krinkle/mwSnapshots/';
 
 $messages = array();
 

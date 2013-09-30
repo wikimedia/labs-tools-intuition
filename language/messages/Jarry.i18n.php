@@ -5,7 +5,7 @@
  * @toolowner jarry
  */
 
-$url = '~jarry/';
+$url = '//toolserver.org/~jarry/';
 
 $messages = array();
 

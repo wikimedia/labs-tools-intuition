@@ -5,7 +5,7 @@
  * @toolowner platonides
  */
 
-$url = '~platonides/catdown/';
+$url = '//toolserver.org/~platonides/catdown/';
 
 $messages = array();
 

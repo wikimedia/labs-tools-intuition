@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '~krinkle/OrphanTalk2/';
+$url = '//toolserver.org/~krinkle/OrphanTalk2/';
 
 $messages = array();
 

@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '~krinkle/getWikiAPI.php';
+$url = '//toolserver.org/~krinkle/getWikiAPI.php';
 
 $messages = array();
 

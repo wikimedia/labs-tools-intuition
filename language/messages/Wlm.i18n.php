@@ -5,7 +5,7 @@
  * @toolowner platonides
  */
 
-$url = '~platonides/wlm/';
+$url = '//toolserver.org/~platonides/wlm/';
 
 $messages = array();
 

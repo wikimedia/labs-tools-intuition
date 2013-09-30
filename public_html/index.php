@@ -293,8 +293,7 @@ foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 		$about .= '<li><a href="'
 			. htmlspecialchars( $domainInfo['url'] )
 			. '"><strong>' . htmlspecialchars( $title )
-			. '</strong><br/>'
-			. htmlspecialchars( $domainInfo['path'] )
+			. '</strong>'
 			. '</a></li>';
 	}
 }

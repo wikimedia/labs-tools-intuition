@@ -5,9 +5,6 @@
  * @toolowner platonides
  */
 
-/* This is a library, there is no public url */
-$url = null;
-
 $messages = array();
 
 /**

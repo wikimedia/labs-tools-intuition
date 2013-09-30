@@ -5,7 +5,7 @@
  * @toolowner jarry
  */
 
-$url = '~jarry/svgtranslate/';
+$url = '//toolserver.org/~jarry/svgtranslate/';
 
 $messages = array();
 

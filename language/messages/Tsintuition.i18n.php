@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '~intuition/';
+$url = '//toolserver.org/~intuition/';
 
 $messages = array();
 

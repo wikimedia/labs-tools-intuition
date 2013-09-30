@@ -5,7 +5,7 @@
  * @toolowner jarry
  */
 
-$url = '~jarry/templatecount/';
+$url = '//toolserver.org/~jarry/templatecount/';
 
 $messages = array();
 

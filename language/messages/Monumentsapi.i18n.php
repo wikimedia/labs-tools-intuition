@@ -5,7 +5,7 @@
  * @toolowner p_erfgoed
  */
 
-$url = '~erfgoed/api/';
+$url = '//toolserver.org/~erfgoed/api/';
 
 $messages = array();
 
