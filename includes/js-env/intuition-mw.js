@@ -3,7 +3,8 @@
 		apiPath = 'api.php',
 		mwMsgPrefix = 'intuition-',
 		loaded = {},
-		hasOwn = loaded.hasOwnProperty;
+		hasOwn = loaded.hasOwnProperty,
+		slice = [].slice;
 
 
 	intuition = {
@@ -64,14 +65,28 @@
 			}
 		},
 
-		/** @return {string} */
+		/**
+		 * @param {string} domain
+		 * @param {string} key
+		 * @param {Mixed...} [parameters]
+		 * @return {string}
+		 */
 		msg: function (domain, key) {
-			return mw.msg(mwMsgPrefix + domain + '-' + key);
+			var args = slice.call(arguments, 2);
+			args.unshift(mwMsgPrefix + domain + '-' + key);
+			return mw.message.apply(mw.message, args).toString();
 		},
 
-		/** @return {mw.Message} */
+		/**
+		 * @param {string} domain
+		 * @param {string} key
+		 * @param {Mixed...} [parameters]
+		 * @return {mw.Message}
+		 */
 		message: function (domain, key) {
-			return mw.message(mwMsgPrefix + domain + '-' + key);
+			var args = slice.call(arguments, 2);
+			args.unshift(mwMsgPrefix + domain + '-' + key);
+			return mw.message.apply(mw.message, args);
 		}
 	};
 
