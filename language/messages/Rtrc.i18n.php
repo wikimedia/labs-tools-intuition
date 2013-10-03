@@ -18,8 +18,6 @@ $messages['en'] = array(
 	'title' => 'Real-Time Recent Changes',
 	'apply' => 'Apply',
 	'asc' => 'Asc',
-	'autodiff-disable-masspatrol' => 'You are disabling AutoDiff, MassPatrol is still active and requires AutoDiff to be on. Are you sure you want to disable AutoDiff ? (MassPatrol will be disabled if you do so)',
-	'autodiff_loadfromtop' => 'From top',
 	'changelog' => 'Whats New',
 	'clear' => 'clear',
 	'currentedit' => 'Currently selected edit',
@@ -34,8 +32,7 @@ $messages['en'] = array(
 	'lastupdate-cvn' => 'Last update: $1',
 	'lastupdate-rc' => 'Last update: $1',
 	'limit' => 'Limit',
-	'masspatrol-enable-autodiff' => 'You are enabling MassPatrol, which needs AutoDiff. Do you want to enable AutoDiff ? (If not, MassPatrol will stay off)',
-	'masspatrol_userfilterconfirm' => 'You are clearing the user filter, MassPatrol is still active but requires atleast one filter to be on. Are you sure you want to clear the user filter ? (MassPatrol will be disabled if you do so)',
+	'masspatrol-requires-userfilter' => 'MassPatrol has been disabled as it requires a user filter and none was set.',
 	'months' => 'January, February, March, April, May, June, July, August, September, October, November, December',
 	'mypatrollog' => 'my patrol log',
 	'namespace' => 'Namespace',
@@ -92,7 +89,7 @@ See also:
 
 * $1: Timestamp',
 	'limit' => 'Label of dropdown menu for changing how many results to show (maximum)',
-	'masspatrol-enable-autodiff' => 'Confirmation dialog for when the user enables MassPatrol, while AutoDiff is not yet enabled. RTRC will automatically enable AutoDiff.',
+	'masspatrol-requires-userfilter' => 'Informing the user that MassPatrol has been disabled when the user clears the user filter (or when there was no user filter to begin with)',
 	'months' => 'Comma-separated list of the 12 different months in a year',
 	'mypatrollog' => 'Label of the link to your patrol log',
 	'namespace' => 'Label of dropdown menu for filtering by namespace',
@@ -109,5 +106,4 @@ See also:
 	'typeEdit' => 'Label of the checkbox to include changes that edit existing pages',
 	'typeNew' => 'Label of the checkbox to include changes that create new pages',
 	'userfilter' => 'Label of username filter',
-	'userfilter-disable-masspatrol' => 'Confirmation dialog for when the user clears the user filter, while MassPatrol is still active. RTRC will automatically disable MassPatrol.',
 );
