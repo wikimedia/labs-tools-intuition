@@ -709,7 +709,7 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'alws-selectwiki' => '(ويکي وټاکۍ)',
-	'alws-group-mustused' => 'ډېر کارېدلي ويکي ګانې',
+	'alws-group-mustused' => 'ډېر کارېدلي ويکي گانې',
 	'form-legend-settings' => 'امستنې',
 );
 

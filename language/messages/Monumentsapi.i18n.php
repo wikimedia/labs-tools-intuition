@@ -4014,6 +4014,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Cwlin0416
  * @author Shirayuki
  * @author Simon Shek
  */
@@ -4021,7 +4022,7 @@ $messages['zh-hant'] = array(
 	'search-title' => '搜尋古蹟',
 	'search-monuments-database' => '搜尋古蹟資料庫',
 	'search-table-th-field' => '欄位',
-	'search-table-th-filter' => '過濾',
+	'search-table-th-filter' => '搜尋',
 	'search-table-th-search' => '搜尋',
 	'filter-all-countries' => '所有國家',
 	'filter-all-languages' => '所有語言',

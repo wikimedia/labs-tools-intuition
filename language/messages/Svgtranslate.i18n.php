@@ -974,7 +974,7 @@ $messages['eu'] = array(
 $messages['fa'] = array(
 	'title' => 'ترجمهٔ اس‌وی‌جی',
 	'error-tryagain' => '$1 اگر می‌خواهید دوباره امتحان کنید، دکمهٔ بازگشت را در مرورگرتان بفشارید.',
-	'error-nothing' => 'چیزی برای ترجمه نیست.',
+	'error-nothing' => 'چیزی برای ترجمه وجود ندارد.',
 	'error-notsvg' => 'پرونده اس‌وی‌جی نیست.',
 	'error-unexpected' => 'یک خطای غیرمنتظره رخ داد.',
 	'error-notfound' => 'امکان بازیابی پروندهٔ اس‌وی‌جی از نشانی اینترنتی ارائه‌شده نبود.',
@@ -3223,12 +3223,13 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Cwlin0416
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
 	'title' => 'SVG翻譯',
 	'error-tryagain' => '$1點選瀏覽器中的返回按鈕重試',
-	'error-nothing' => '沒有要翻譯的內容',
+	'error-nothing' => '目前沒有可翻譯的內容',
 	'error-notsvg' => '不是SVG文件。',
 	'error-unexpected' => '發生意外錯誤。',
 	'error-notfound' => '不能從提供的URL中獲取SVG文件。',

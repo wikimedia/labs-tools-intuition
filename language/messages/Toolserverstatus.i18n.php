@@ -997,7 +997,7 @@ $messages['pms'] = array(
 $messages['ps'] = array(
 	'toolserver-status-short-ok' => '$1: ښه',
 	'toolserver-status-short-info' => '$1: مالومات',
-	'toolserver-status-short-warn' => '$1: ګواښنه',
+	'toolserver-status-short-warn' => '$1: گواښنه',
 	'toolserver-status-short-erro' => '$1: تېروتنه',
 	'toolserver-status-short-unknown' => '$1: ناڅرګند',
 );
