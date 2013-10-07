@@ -253,6 +253,7 @@ $messages['af'] = array(
 /** Arabic (العربية)
  * @author DRIHEM
  * @author Meno25
+ * @author Zaher kadour
  * @author Zanatos
  * @author أحمد
  */
@@ -295,7 +296,7 @@ $messages['ar'] = array(
 	'images-listed-count' => '$1 صور مدرجة.',
 	'log-page-disclaimer' => 'تظهر هذه الأداة الملفات في [[:Category:$1|التصنيف المعني]] المرفوعة أثناء المسابقة.
 لا تظهر الملفات المحذوفة حتى و لو [$2 تمت استعادتها] لاحقا و تشارك من جديد.',
-	'bot' => 'روبوت',
+	'bot' => 'بوت',
 	'id-label' => 'معرف المعلم:',
 	'id-none' => '(لا شيء)',
 	'monuments-by-photographers-checkbox' => 'ترتيب الآثار حسب عدد المصورين، لا حسب عدد الصور.',
@@ -478,6 +479,7 @@ Los ficheros desaniciaos nun s'amuesen anque dempués se [$2 restauraren] y vuel
 
 /** South Azerbaijani (تورکجه)
  * @author Mousa
+ * @author Zaher kadour
  */
 $messages['azb'] = array(
 	'title' => 'WLM فایل‌لاری',
@@ -518,7 +520,7 @@ $messages['azb'] = array(
 	'images-listed-count' => '$1 عکس لیست اولوب‌دور.',
 	'log-page-disclaimer' => 'بو آراج، [[:Category:$1|ایلگیلی بؤلمه]]‌ده اولان عکسلری گؤستریر کی رقابت‌ده یوکله‌نیبدیلر.
 سیلینمیش فایل‌لار، حتی سونرا [$2قایتاریلیب] و یئنی‌دن رقابت‌ده ایشتیراک ائتسه‌لر ده، گؤستریلمیرلر.',
-	'bot' => 'روبوت',
+	'bot' => 'بوت',
 	'id-label' => 'عابیده آی‌دی:',
 	'id-none' => '(هئچ)',
 	'monuments-by-photographers-checkbox' => 'عابیده‌لری عکسلر سایی ایله یوخ، عکس سالانلار سایی ایله سیرالا.',
@@ -2473,6 +2475,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Akaniji
  * @author Fryed-peach
  * @author Hmiyazaki
  * @author Shirayuki
@@ -2494,9 +2497,13 @@ $messages['ja'] = array(
 	'date-unknown' => '不明',
 	'total-images' => '総画像数: $1',
 	'view-uncategorized-images' => '未分類の画像を表示',
+	'provide-id' => 'Monument IDを提供し、そのアイテムで利用できるデータを表示',
+	'show-images-bad-only' => 'リスト外の画像のみ表示',
 	'show-images-all' => 'すべての画像を表示',
+	'show-images-removed' => 'コンテストから除外された画像を表示',
 	'search-monuments' => 'モニュメントを検索',
 	'view-frequency' => '人気のモニュメント',
+	'view-province' => '都道府県順',
 	'country-label' => '国:',
 	'all-countries' => 'すべての国',
 	'limit-label' => '表示する画像:',
@@ -2678,7 +2685,7 @@ $messages['ko'] = array(
 	'country-header' => '국가',
 	'location' => '위치',
 	'upload-time' => '올리기 시간',
-	'deleted' => '삭제함 ($1)',
+	'deleted' => '삭제됨 ($1)',
 	'concursa' => 'WLM 부분 찍기',
 	'no-concursa' => '바깥 WLM 경쟁',
 	'not-available' => '사용할 수 없음',
@@ -2708,15 +2715,15 @@ $messages['ko'] = array(
 	'bot' => '봇',
 	'id-label' => '기념물 id:',
 	'id-none' => '(없음)',
-	'monuments-by-photographers-checkbox' => '사진 수가 아니라 사진 작가 수로 기념물을 주문합니다.',
+	'monuments-by-photographers-checkbox' => '사진 수가 아니라 촬영자 수로 기념물을 정렬합니다.',
 	'monument-heading' => '기념물',
-	'count-heading' => '사진 작가',
-	'photographer-count-heading' => '사진 작가',
+	'count-heading' => '사진',
+	'photographer-count-heading' => '사진',
 	'bic-list' => '목록',
 	'bic-gallery' => '갤러리',
 	'gallery-header' => '$1 id로 된 기념물에 대한 그림입니다.',
 	'gallery-header-place' => '$1에서 기념물에 대한 그림입니다.',
-	'wall-of-shame-text' => '미확인 사진 작가 수를 기준으로 저자',
+	'wall-of-shame-text' => '미확인 사진 수를 기준으로 저자',
 	'author-heading' => '저자',
 	'bic-list-bad' => '보이기',
 	'bic-list-all' => '전체 목록',
@@ -3680,19 +3687,33 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
+	'title' => 'Arquivos do WLM',
 	'file' => 'Imagem',
 	'monument-type' => 'Tipo de monumento',
+	'monument-id' => 'ID do monumento',
 	'province' => 'Província',
+	'comarque' => 'Comarca',
+	'competes' => 'Concorre',
 	'author' => 'Autor',
 	'country-header' => 'País',
 	'location' => 'Localização',
+	'upload-time' => 'Data de carregamento',
+	'deleted' => 'Eliminado ($1)',
+	'concursa' => 'Participa do WLM',
+	'no-concursa' => 'Não participa do WLM',
 	'not-available' => 'Não disponível',
 	'date-unknown' => 'Desconhecido',
+	'total-images' => 'Total de imagens: $1',
+	'view-uncategorized-images' => 'Ver imagens não categorizadas',
+	'provide-id' => 'Forneça o ID de um monumento para mostrar os dados disponíveis para este item',
+	'show-images-bad-only' => 'Mostrar apenas imagens fora das listas',
 	'show-images-all' => 'Mostrar todas as imagens',
+	'show-images-removed' => 'Mostrar imagens retiradas da competição',
 	'search-monuments' => 'Buscar monumentos',
 	'view-frequency' => 'Monumentos populares',
 	'view-ccaa' => 'Visualizar por comunidade autônoma',
@@ -3700,20 +3721,46 @@ $messages['pt-br'] = array(
 	'country-label' => 'País:',
 	'all-countries' => 'Todos os países',
 	'limit-label' => 'Imagens para mostrar:',
+	'timezone-label' => 'Fuso horário:',
+	'show-earlier-first' => 'Mostrar primeiro as imagens mais antigas',
+	'show-older-first' => 'Mostrar primeiro as imagens mais antigas',
 	'show-button' => 'Exibir',
+	'view-previous-images' => '← Ver imagens anteriores',
+	'view-later-images' => 'Ver próximas imagens →',
+	'images-listed-count' => 'Mostrando $1 imagens.',
+	'log-page-disclaimer' => 'Esta ferramenta mostra os arquivos na [[:Category:$1|categoria relevante]] que foram enviadas durante a competição.
+Os arquivos excluídos não são mostrados, mesmo se forem [restaurados $2] mais tarde e participarem novamente.',
+	'bot' => 'Bot',
+	'id-label' => 'ID do monumento:',
 	'id-none' => '(Nenhum)',
+	'monuments-by-photographers-checkbox' => 'Ordenar os monumentos por número de fotógrafos, e não por número de fotografias.',
 	'monument-heading' => 'Monumento',
 	'count-heading' => 'Fotografias',
 	'photographer-count-heading' => 'Fotógrafos',
 	'bic-list' => 'Lista',
 	'bic-gallery' => 'Galeria',
+	'gallery-header' => 'Imagens do monumento com o ID $1.',
+	'gallery-header-place' => 'Imagens de monumentos de $1.',
+	'wall-of-shame-text' => 'Autores por número de fotografias não identificadas',
 	'author-heading' => 'Autor',
 	'bic-list-bad' => 'Exibir',
 	'bic-list-all' => 'Lista completa',
 	'unregistered' => 'Não registrado',
+	'users-text' => 'Esta página mostra uma lista de autores com as imagens que enviaram e com os monumentos que apresentaram para a competição',
 	'users-list' => 'Ver',
+	'distict-monuments' => 'Monumentos distintos',
+	'list-prolific-begin' => 'Listar os participantes mais produtivos:',
+	'list-prolific-by-photos' => 'por número de fotografias',
+	'list-prolific-by-distinct-identifiers' => 'por número de IDs diferentes',
+	'list-prolific-by-distinct-good-identifiers' => 'por número de IDs diferentes listados',
+	'list-prolific-by-identifiers' => 'por número de monumentos identificados',
+	'list-prolific-by-good-identifiers' => 'por número de IDs na lista',
+	'list-prolific-by-bad-identifiers' => 'por número de IDs não mostrados na lista',
+	'group-by-identifiers-all-countries-meaningless' => 'Muitos países não estão utilizando IDs em seus carregamentos, portanto estes resultados podem não ser significativos.',
 	'province-heading' => 'Província',
 	'province-none' => '(Desconhecido)',
+	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Lista de usuários que participam do Wiki Loves Monuments $1 que não devem ter fornecido um endereço de e-mail.',
 	'nomail-user-count' => '$1 usuários',
 );
 
@@ -4581,11 +4628,13 @@ $messages['tly'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Incelemeelemani
  * @author Suelnur
  */
 $messages['tr'] = array(
 	'file' => 'Resim',
 	'author' => 'Üreten',
+	'location' => 'Konum',
 	'upload-time' => 'Yükleme zamanı',
 	'date-unknown' => 'Bilinmiyor',
 	'count-heading' => 'Fotoğraflar',

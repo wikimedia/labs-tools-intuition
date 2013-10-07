@@ -101,6 +101,8 @@ Examples of registrant URLs:
 * http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=PA00088517
 * http://register.muinas.ee/?menuID=monument&action=view&id=20875',
 	'db-field-st_coordinates' => '{{Identical|Coordinates}}',
+	'db-field-st_image' => '{{Identical|Image}}',
+	'db-field-st_image_pct' => '{{Identical|Image}}',
 	'toolbox-nav-homepage' => '{{Identical|Homepage}}',
 	'toolbox-nav-statistics' => '{{Identical|Statistics}}',
 	'toolbox-nav-search' => '{{Identical|Search}}',
@@ -1278,6 +1280,52 @@ $messages['fi'] = array(
 	'location' => 'Sijainti',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'search-title' => 'Leitan eftir minnisvarða',
+	'search-monuments-database' => 'Leita í minnisvarðadátagrunninum',
+	'search-table-th-field' => 'Teigur',
+	'search-table-th-filter' => 'Filtur',
+	'search-table-th-search' => 'Leita',
+	'filter-all-countries' => 'Øll lond',
+	'filter-all-languages' => 'Øll mál',
+	'db-field-country' => 'Land',
+	'db-field-lang' => 'Mál',
+	'db-field-id' => 'Id',
+	'db-field-name' => 'Navn',
+	'db-field-address' => 'Bústaður',
+	'db-field-municipality' => 'Kommuna',
+	'db-field-lat' => 'Breiddarstig',
+	'db-field-lon' => 'Longdarstig',
+	'db-field-image' => 'Mynd',
+	'db-field-changed' => 'Broytt',
+	'db-field-source' => 'Kelda',
+	'db-field-monument_article' => 'Minnisvarðagrein',
+	'db-field-st_address' => 'Bústaðir',
+	'db-field-st_address_pct' => 'Bústaðir %',
+	'db-field-st_coordinates' => 'Koordinatar',
+	'db-field-st_coordinates_pct' => 'Koordinatar %',
+	'db-field-st_image' => 'Mynd',
+	'db-field-st_image_pct' => 'Mynd %',
+	'db-field-st_municipality' => 'Kommuna',
+	'db-field-st_municipality_pct' => 'Kommuna %',
+	'db-field-st_name' => 'Nøvn',
+	'db-field-st_name_pct' => 'Nøvn %',
+	'db-field-st_total' => 'Tilsamans',
+	'toolbox-meta-title' => 'Wiki Loves Monuments Amboðskassi',
+	'toolbox-main-title' => 'WLM Amboðskassi',
+	'toolbox-main-description' => 'Ein røð av tólum við tilknýti til',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
+	'toolbox-nav-homepage' => 'Heimasíða',
+	'toolbox-nav-statistics' => 'Hagtøl',
+	'toolbox-nav-search' => 'Leita',
+	'toolbox-title-searchmonuments' => 'Leita eftir minnisvarða',
+	'location' => 'Staður',
+	'source-monuments-list-on-wikipedia' => 'Kelduminnisvarðalisti á Wikipedia',
+);
+
 /** French (français)
  * @author Gomoko
  * @author Hashar
@@ -2172,7 +2220,7 @@ $messages['ku-latn'] = array(
 	'location' => 'Cih',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  * @author Викиней
  */
@@ -3722,6 +3770,7 @@ $messages['tly'] = array(
 /** Turkish (Türkçe)
  * @author Emperyan
  * @author Erdemaslancan
+ * @author Incelemeelemani
  * @author Khutuck
  */
 $messages['tr'] = array(
@@ -3738,6 +3787,7 @@ $messages['tr'] = array(
 	'db-field-st_coordinates_pct' => 'Koordinatları %',
 	'db-field-st_municipality' => 'Belediyesi',
 	'db-field-st_municipality_pct' => 'Belediyesi %',
+	'location' => 'Konum',
 );
 
 /** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)

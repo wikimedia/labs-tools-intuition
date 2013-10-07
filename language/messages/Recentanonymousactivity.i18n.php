@@ -173,6 +173,13 @@ $messages['fi'] = array(
 	'title' => 'Viimeisin nimetön toiminta',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'title' => 'Seinasta virksemi hjá dulnevndum',
+);
+
 /** French (français)
  * @author Peter17
  */

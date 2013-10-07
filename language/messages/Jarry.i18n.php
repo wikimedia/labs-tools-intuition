@@ -242,6 +242,15 @@ $messages['fi'] = array(
 	'error-form-empty' => 'Yksi tai useampia pakollisia kenttiä on täyttämättä. Täytä ne ennen jatkamista.',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'moretools' => 'fleiri tól frá sama høvundi',
+	'comments' => 'viðmerkingar og fyrispurningar',
+	'error-form-empty' => 'Ein ella fleiri kravdir teigar eru enn tómir. Tú eigur at fylla teir út áðrenn tú heldur fram.',
+);
+
 /** French (français)
  * @author Peter17
  */

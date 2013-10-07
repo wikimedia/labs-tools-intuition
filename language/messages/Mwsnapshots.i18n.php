@@ -345,6 +345,13 @@ $messages['ca'] = array(
 	'tablehead-hash' => 'Controls per addició',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'download-directlink' => 'дуьхьала хьажориг',
+);
+
 /** Czech (česky)
  * @author Chmee2
  * @author PSJG-Tyler
@@ -647,6 +654,30 @@ $messages['fi'] = array(
 	'tablehead-branch' => 'Haara',
 	'tablehead-filesize' => 'Tiedostokoko',
 	'tablehead-hash' => 'Tarkisteet',
+);
+
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'title-overview' => 'Løtumyndir',
+	'title-error' => 'Feilur',
+	'title-updatelog' => 'Dagfør loggin',
+	'download-button' => 'Tak niður $1',
+	'download-directlink' => 'beinleiðis leinkja',
+	'title-downloadpage' => 'Tak niður: $1',
+	'downloadpage-directlink' => 'Tak niður løtumyndina.',
+	'err-invalid-repo' => 'Ókendur dátugrunnur: "$1".',
+	'repo-site-link' => 'Heimasíða',
+	'repo-browse-link' => 'Leita í dátugrunninum',
+	'repo-branches-label' => 'Greinar:',
+	'repo-lastmoddate-label' => 'Dagur:',
+	'branches-submit-button' => 'Skaffa tað!',
+	'updatelog-link' => 'dagføringsloggur',
+	'tablehead-repo' => 'Dátugrunnur',
+	'tablehead-snapshots' => 'Løtumyndir',
+	'tablehead-branch' => 'Grein',
+	'tablehead-filesize' => 'Fílustødd',
 );
 
 /** French (français)

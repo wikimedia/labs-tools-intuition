@@ -113,6 +113,7 @@ $messages['am'] = array(
  * @author OsamaK
  * @author Zanatos
  * @author أحمد
+ * @author زكريا
  */
 $messages['ar'] = array(
 	'hello' => 'أهلاّ بك',
@@ -129,7 +130,7 @@ $messages['ar'] = array(
 	'minutes' => '{{PLURAL: $1|دقيقة|دقائق}}',
 	'seconds' => '{{PLURAL: $1|ثانية|ثوان}}',
 	'last-modified-date' => 'آخر تغيير: $1',
-	'view-source' => 'طالع المصدر',
+	'view-source' => 'اعرض المصدر',
 	'and' => '&#32; و',
 );
 
@@ -469,6 +470,7 @@ $messages['cs'] = array(
 
 /** Chuvash (Чӑвашла)
  * @author Salam
+ * @author Блокнот
  */
 $messages['cv'] = array(
 	'hello' => 'Салам',
@@ -478,7 +480,7 @@ $messages['cv'] = array(
 	'namespace' => 'Ятсен уҫлӑхӗ',
 	'form-submit' => 'Куҫ',
 	'form-reset' => 'Тасат',
-	'years' => '{{PLURAL: $1|ҫул}}',
+	'years' => '{{PLURAL: $1|çул}}',
 	'weeks' => '{{PLURAL: $1|эрне}}',
 	'days' => '{{PLURAL: $1|кун}}',
 	'hours' => '{{PLURAL: $1|сехет}}',
@@ -767,6 +769,8 @@ $messages['fo'] = array(
 	'minutes' => '{{PLURAL: $1|minuttur|minuttir}}',
 	'seconds' => '{{PLURAL: $1|sekund|sekundir}}',
 	'last-modified-date' => 'Seinast broytt: $1',
+	'view-source' => 'Vís keldu',
+	'and' => '&#32;og',
 );
 
 /** French (français)
@@ -1261,7 +1265,7 @@ $messages['ku-latn'] = array(
 	'view-source' => 'Çavkanîyê bibîne',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Chorobek
  * @author Growingup
  * @author Викиней

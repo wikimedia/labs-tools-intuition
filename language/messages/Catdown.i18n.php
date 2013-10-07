@@ -68,6 +68,7 @@ or some other GNU Mirror, see
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Fryed-peach
+ * @author Mormegil
  * @author Platonides
  * @author Purodha
  * @author Shirayuki
@@ -113,8 +114,8 @@ The content of the gpl-3.0 is appended below this text (untranslated, as it is r
 	'scaling-none' => "{{optional}}
 
 Added to readme-contents as $6 if there's no scaling",
-	'scaling-width' => 'Added to readme-contents as $6 if the images are scaled to a maximum width.
-$1: Maximum width in pixels',
+	'scaling-width' => 'Added to {{Msg-toolserver|Catdown-readme-contents}} as $6 if the images are scaled down to a maximum width.
+* $1: Maximum width in pixels',
 	'scaling-height' => 'Added to readme-contents as $6 if the images are scaled to a maximum height.
 $1: Maximum height in pixels',
 	'scaling-both' => 'Added to readme-contents as $6 if the images are scaled to a maximum width and.
@@ -626,14 +627,38 @@ $messages['cs'] = array(
 	'max-height' => 'Maximální výška:',
 	'invalid-width' => 'Neplatná šířka',
 	'invalid-height' => 'Neplatná výška',
-	'no-such-project' => 'Neexistuje žádný takový projekt',
+	'no-such-project' => 'Takový projekt neexistuje',
 	'no-images' => 'V této kategorii nejsou žádné obrázky',
 	'category-is-url' => 'Zadaný název kategorie vypadá jako URL. Je třeba zadat název kategorie, nikoli její adresu.',
+	'category-contains-namespace' => 'Vypadá to, že jste v názvu kategorie použili i jmenný prostor. S uvedeným jménem by stránka byla dostupná jako [[Category:$1]].',
 	'zip-failed' => 'Nepodařilo se vytvořit ZIP',
-	'image-area-too-big' => '$1je příliš velký pro vytvoření miniatury. Bude použita plná velikost.',
-	'download-info' => '{{plural: $1|Je to jeden obrázek|Je to $1 obrázků}} o předpokládané velikosti $2',
+	'image-area-too-big' => '$1 je příliš velký, než aby se dal vytvořit náhled. Bude použita plná velikost.',
+	'download-info' => '{{plural:$1|Je to jeden obrázek|Jsou to $1 obrázky|Je to $1 obrázků}} o předpokládané velikosti $2',
 	'download' => 'Stáhnout',
+	'readme-contents' => 'Přibalený soubor $4 obsahuje seznam
+obrázků v kategorii $1 ( $2 )$3.
+
+== Instrukce pro stažení všech uvedených obrázků ==
+Stahování může trvat od několika minut po mnoho hodin.
+
+Windows:
+ Rozbalte všechny soubory do stejného adresáře a spusťte $5
+ $6
+Linux/Mac OS
+ Rozbalte všechny soubory a ve stejném adresáři otevřete terminál. Spusťte sh $5',
 	'non-bundled-wget' => 'Poznámka: Tato verze neobsahuje wget pro Windows. Je nutné dekomprimovat do složky s wget.exe nebo mít wget v PATH',
+	'wget-info' => 'Tento soubor obsahuje kopii wget $1 (pro Windows). Wget je svobodný software, zveřejněný za podmínek GNU GENERAL PUBLIC LICENSE verze 3.
+Níže je uvedena kopie licence, která je také dostupná na http://www.gnu.org/licenses/gpl-3.0.txt
+
+Pokud by vás zajímal zdrojový kód tohoto programu, můžete si ho stáhnout na
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+nebo jiném mirroru GNU, vizte
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', zmenšených na šířku maximálně $1 {{PLURAL:$1|pixel|pixely|pixelů}}',
+	'scaling-height' => ', zmenšených na výšku maximálně $1 {{PLURAL:$1|pixel|pixely|pixelů}}',
+	'scaling-both' => ', zmenšených na velikost maximálně $1×$2 pixelů',
 );
 
 /** Chuvash (Чӑвашла)
@@ -972,6 +997,7 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Olli
+ * @author Samoasambia
  * @author Silvonen
  */
 $messages['fi'] = array(
@@ -993,7 +1019,7 @@ $messages['fi'] = array(
 	'download-info' => 'On {{plural: $1|yksi kuva, jonka arvioitu koko|$1 kuvaa, joiden arvioitu yhteiskoko}} on $2',
 	'download' => 'Lataa',
 	'non-bundled-wget' => 'Huomautus: Tämä versio ei sisällä wgetiä Windowsille. Sinun täytyy purkaa kansioon wget.exe:llä tai ottaa wge mukaan polkuun',
-	'scaling-width' => ', skaalattu $1 pikselin enimmäiskokoon', # Fuzzy
+	'scaling-width' => ', skaalattu enimmäisleveyteen $1 {{plural:$1|pikseli|pikseliä}}',
 	'scaling-height' => ', skaalattu enimmäiskorkeuteen $1 {{plural:$1|pikseli|pikseliä}}',
 	'scaling-both' => ', skaalattu enimmäiskokoon $1x$2 pikseliä',
 );
@@ -1013,7 +1039,11 @@ $messages['fo'] = array(
 	'no-such-project' => 'Tað er ongin sovorðin verkætlan',
 	'no-images' => 'Tað eru ongar myndir í hasum bólkinum',
 	'category-is-url' => "Navnið á bólkinum, ið tú skrivaði, líkist meira einum URL'i. Tú mást skriva nágreiniliga navnið á bólkinum, ikki internet adressuna.",
-	'category-contains-namespace' => 'Tað sær út sum um tú hevur tikið navnaøkið við saman við bólka heitinum. Við tí givna heitinum, so hevði síðan verði tøk sum [[Bólkur:$1]].', # Fuzzy
+	'category-contains-namespace' => 'Tað sær út sum um tú hevur tikið navnaøkið við saman við bólkaheitinum. Við tí givna heitinum, so hevði síðan verði tøk sum [[Category:$1]].',
+	'zip-failed' => 'Upprættan av ZIP miseydnaðist',
+	'image-area-too-big' => '$1 er ov stór til at upprætta eina minimynd. Brúkar fulla stødd.',
+	'download-info' => '{{plural: $1|Tað er ein mynd|Tað eru $1 myndir}}, við einari stødd á umleið $2',
+	'download' => 'Tak niður',
 );
 
 /** French (français)
@@ -1668,7 +1698,7 @@ $messages['ko'] = array(
 	'category-is-url' => '주어진 분류 이름이 URL처럼 보입니다. 해당 URL이 아닌 특정한 분류 이름을 지정해야 합니다.',
 	'category-contains-namespace' => '분류 이름에 따라 이름공간을 포함한 것 같습니다. [[Category:$1]]에 따라 주어진 이름을 가진 문서가 가능합니다.',
 	'zip-failed' => 'Zip 만들기 실패',
-	'image-area-too-big' => '$1(은)는 썸네일을 만드는 데 너무 큽니다. 최대 크기를 사용합니다.',
+	'image-area-too-big' => '$1(은)는 섬네일을 만드는 데 너무 큽니다. 최대 크기를 사용합니다.',
 	'download-info' => '$2의 예상 크기와 같은 {{plural: $1|그림 1 개가 있습니다|그림 $1 개가 있습니다}}.',
 	'download' => '다운로드',
 	'readme-contents' => '인근 $4 파일 목록 $1 분류 ( $2 ) $3에서
@@ -1683,7 +1713,7 @@ $6
 리눅스/맥 OS
 모든 파일의 압축을 풀고 해당 폴더에서 터미널을 여세요. sh $5(을)를 실행하세요',
 	'non-bundled-wget' => '참고: 이 버전에서는 wget이 포함되지 않습니다. wget.exe를 폴더에 압축을 풀거나 경로에서 wget을 지정해야 합니다',
-	'wget-info' => 'wget $1 (윈도 플래폼용) 의 복사본 파일이 들어있습니다.wget은 GNU 일반 공중 사용 허가서 버전 3의
+	'wget-info' => 'wget $1 (윈도 플랫폼용) 의 복사본 파일이 들어있습니다. wget은 GNU 일반 공중 사용 허가서 버전 3의
 조건에 따라 자유 소프트웨어입니다.
 아래에는 라이선스 복사본이며 또한 http://www.gnu.org/licenses/gpl-3.0.txt 에서도 찾아볼 수 있습니다
 
@@ -1758,7 +1788,7 @@ $messages['ku-latn'] = array(
 	'download' => 'Daxîne',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  * @author Викиней
  */
@@ -1793,7 +1823,7 @@ $messages['lb'] = array(
 	'no-such-project' => 'Esou e Projet gëtt et net',
 	'no-images' => 'Et gëtt keng Biller an där Kategorie',
 	'category-is-url' => "D'Kategorie déi ugi gouf gesäit wéi eng komplett URL aus. Dir musst den Numm vun der Kategorie uginn, an net hir URL.",
-	'category-contains-namespace' => "Et schéngt wéi wann dir den Nummraum bäi den Numm vun der Kategorie derbäigesat hutt. Mam Numm den uginn ass wier d'Säit als [[Category:$1]] disponibel.",
+	'category-contains-namespace' => "Et schéngt wéi wann Dir den Nummraum bäi den Numm vun der Kategorie derbäigesat hutt. Mam Numm den uginn ass wier d'Säit als [[Category:$1]] disponibel.",
 	'zip-failed' => 'De ZIP-Fichier konnt net gemaach ginn',
 	'image-area-too-big' => '$1 ass ze grouss fir e Miniatur-Bild ze generéieren. Déi komplett Gréisst gëtt benotzt.',
 	'download-info' => 'Et {{plural: $1|ass 1 Bild|si(nn) $1 Biller}} mat enger geschater Gréisst vun $2 do',
@@ -3065,6 +3095,7 @@ Run sh $5',
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Base
  * @author SteveR
  */
@@ -3086,6 +3117,30 @@ $messages['uk'] = array(
 	'image-area-too-big' => '$1 завелике для створення ескізу. Буде використаний повний розмір.',
 	'download-info' => '{{plural: $1|Існує одне зображення|Існує $1 зображень}}, з приблизним розміром $2',
 	'download' => 'Завантажити',
+	'readme-contents' => 'Вкладений файл $4 заносить у список
+зображення у категорії $1 ( $2 )$3.
+
+== Вказівки щодо завантаження всіх перерахованих зображень ==
+Час завантаження може варіюватися від декількох хвилин до декількох годин.
+
+Windows:
+ Розпакуйте усі файли у одну теку та запустіть $5
+ $6
+Linux/Mac OS
+ Розпакуйте усі файли і відкрийте термінал у цій теці. Виконайте команду sh $5',
+	'non-bundled-wget' => 'Примітка: Ця версія не включає wget для Windows. Вам потрібно буде розпакувати у теку з wget.exe або іншим чином вказати wget у PATH',
+	'wget-info' => 'Цей файл містить копію wget $1 (для платформи Windows). Wget - це безкоштовне програмне забезпечення, яке розповсюджується на умовах Загальної публічної ліцензії GNU версії 3.
+Нижче подано копію ліцензії, яка також доступна за адресою http://www.gnu.org/licenses/gpl-3.0.txt
+
+Якщо ви зацікавлені отримати вихідний код цієї програми, то ви можете його завантажити з
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+або з деяких інших дзеркал GNU, список яких подано тут
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', масштабований до максимальної ширини $1 {{plural:$1|пікселі|пікселів}}',
+	'scaling-height' => ', масштабований до максимальної висоти $1 {{plural:$1|пікселі|пікселів}}',
+	'scaling-both' => ', масштабований до максимального розміру $1x$2 пікселів',
 );
 
 /** Uzbek (oʻzbekcha)

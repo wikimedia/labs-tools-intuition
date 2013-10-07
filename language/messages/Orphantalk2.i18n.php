@@ -669,6 +669,29 @@ $messages['fi'] = array(
 	'resultslimited' => 'Tulokset rajoitettiin $1 sivuun.',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'select-wiki-first' => '(vel eina wikii fyrst)',
+	'hideredirects' => 'Fjal snarvegir',
+	'hidesubpages' => 'Fjal undirsíður',
+	'limit' => 'Mark',
+	'page' => 'Síða',
+	'redirect' => 'Er snarvegur?',
+	'output' => 'Útdáta',
+	'update' => 'Dagfør',
+	'tools-delete' => 'strika',
+	'tools-links' => 'leinkjur',
+	'tools-subject' => 'evni',
+	'tools-hist' => 'søga',
+	'tools-curr' => 'nú',
+	'tools-globalusage' => 'global nýtsla',
+	'deletesummary' => 'Ruddar upp í foreldraleysum kjaksíðum via $1',
+	'noresults' => 'Ongar foreldraleyar kjaksíður á hesi wiki í hesum navnarúminum samsvaraðu tínum innstillingum.',
+	'resultslimited' => 'Úrslitini vóru avmarkaði til $1 síður.',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Jean-Frédéric
@@ -1595,6 +1618,7 @@ $messages['pt-br'] = array(
 	'tools-links' => 'links',
 	'tools-subject' => 'assunto',
 	'tools-hist' => 'hist',
+	'tools-curr' => 'atu',
 	'tools-globalusage' => 'uso global',
 	'deletesummary' => 'Limpeza das páginas de discussão órfãs via $1',
 	'noresults' => 'Não há páginas de discussão órfãs nesta wiki, este namespace coincide com sua configuração.',

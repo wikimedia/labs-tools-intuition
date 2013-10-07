@@ -206,10 +206,11 @@ $messages['de'] = array(
 	'lastupdate-cvn' => 'Letzte Aktualisierung: $1',
 	'lastupdate-rc' => 'Letzte Aktualisierung: $1',
 	'limit' => 'Limit',
+	'masspatrol-requires-userfilter' => 'MassPatrol wurde deaktiviert, da es einen Benutzerfilter benötigt und kein Filter festgelegt wurde.',
 	'months' => 'Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember',
 	'mypatrollog' => 'Mein Kontroll-Logbuch',
 	'namespace' => 'Namensraum',
-	'nomatches' => 'Keine Ergebnisse entsprechen deinen Einstellungen', # Fuzzy
+	'nomatches' => 'Es sind keine relevanten Änderungen für deine Einstellungen vorhanden',
 	'order' => 'Reihenfolge',
 	'permalink' => 'Permanentlink auf die aktuellen Einstellungen',
 	'showAnonOnly' => 'Nur anonyme',
@@ -252,10 +253,11 @@ $messages['fr'] = array(
 	'lastupdate-cvn' => 'Dernière mise à jour : $1',
 	'lastupdate-rc' => 'Dernière mise à jour : $1',
 	'limit' => 'Limite',
+	'masspatrol-requires-userfilter' => 'MassPatrol a été désactivé car il nécessite un filtre utilisateur et aucun n’a été défini.',
 	'months' => 'Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre',
 	'mypatrollog' => 'mon journal de patrouille',
 	'namespace' => 'Espace de nommage',
-	'nomatches' => 'Aucun résultat correspondant à vos paramètres', # Fuzzy
+	'nomatches' => 'Aucune modification pertinente de vos paramètres',
 	'order' => 'Ordre',
 	'permalink' => 'Lien permanent vers les paramètres actuels',
 	'showAnonOnly' => 'Anonymes uniquement',
@@ -348,10 +350,11 @@ $messages['ja'] = array(
 	'lastupdate-cvn' => '最終更新: $1',
 	'lastupdate-rc' => '最終更新: $1',
 	'limit' => '表示数',
+	'masspatrol-requires-userfilter' => 'MassPatrol に必要な利用者フィルターを設定していないため、無効にしました。',
 	'months' => '1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月',
 	'mypatrollog' => '自分の巡回記録',
 	'namespace' => '名前空間',
-	'nomatches' => '設定に一致するものはありません', # Fuzzy
+	'nomatches' => '設定内容に一致する変更はありません',
 	'order' => '並び順',
 	'permalink' => '現在の設定への固定リンク',
 	'showAnonOnly' => '匿名利用者のみ',
@@ -364,6 +367,45 @@ $messages['ja'] = array(
 	'typeEdit' => '編集',
 	'typeNew' => '新規ページ',
 	'userfilter' => '利用者フィルター',
+);
+
+/** Korean (한국어)
+ * @author Hym411
+ */
+$messages['ko'] = array(
+	'title' => '실시간 최근 바뀜',
+	'apply' => '적용',
+	'changelog' => '새로운 업데이트',
+	'clear' => '비우기',
+	'currentedit' => '현재 선택된 편집',
+	'cvn-adder' => '추가한 사람',
+	'cvn-adder-empty' => '알 수 없음',
+	'cvn-reason' => '이유',
+	'cvn-reason-empty' => '이유를 찾을 수 없음',
+	'desc' => '설명',
+	'documentation' => '설명',
+	'filter' => '필터',
+	'helpicon-tooltip' => '자세한 내용은 여기를 클릭하십시오',
+	'lastupdate-cvn' => '마지막 업데이트:$1',
+	'lastupdate-rc' => '마지막 업데이트:$1',
+	'limit' => '제한',
+	'masspatrol-requires-userfilter' => 'MassPatrol은 사용자 필터가 필요하지만 제공되지 않아 해제되었습니다.',
+	'months' => '1월,2월,3월,4월,5월,6월,7월,8월,9월,10월,11월,12월',
+	'mypatrollog' => '나의 검토 기록',
+	'namespace' => '이름공간',
+	'nomatches' => '변경된 설정이 없습니다',
+	'order' => '순서대로',
+	'permalink' => '현재 설정에 대한 정적 링크',
+	'showAnonOnly' => '익명 편집만 보기',
+	'showUnpatrolledOnly' => '검토되지 않은 편집만 보기',
+	'skippededit' => '건너뛴 편집',
+	'time-from' => '부터',
+	'time-untill' => '까지',
+	'timeframe' => '기간',
+	'type' => '종류',
+	'typeEdit' => '편집들',
+	'typeNew' => '새 문서들',
+	'userfilter' => '사용자 필터',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -387,6 +429,7 @@ $messages['lb'] = array(
 	'limit' => 'Limit',
 	'months' => 'Januar, Februar, Mäerz, Abrëll, Mee, Juni, Juli, August, September. Oktober, November, Dezember',
 	'namespace' => 'Nummraum',
+	'nomatches' => 'Keng relevant Ännerunge fir Är Astellungen',
 	'order' => 'Reiefolleg',
 	'showAnonOnly' => 'Nëmmen anonym',
 	'skippededit' => 'Iwwersprongen Ännerung',
@@ -572,18 +615,32 @@ $messages['ru'] = array(
 	'asc' => 'По возрастанию',
 	'changelog' => 'Что нового',
 	'clear' => 'очистить',
+	'currentedit' => 'Выбранная в настоящий момент правка',
+	'cvn-adder' => 'Добавивший',
+	'cvn-adder-empty' => 'Неизвестен',
 	'cvn-reason' => 'Причина',
+	'cvn-reason-empty' => 'Причина не найдена',
 	'desc' => 'По убыванию',
 	'documentation' => 'Документация',
 	'filter' => 'Фильтр',
 	'helpicon-tooltip' => 'Нажмите здесь для получения дополнительной информации',
 	'lastupdate-cvn' => 'Последнее обновление: $1',
 	'lastupdate-rc' => 'Последнее обновление: $1',
+	'limit' => 'Ограничение',
+	'masspatrol-requires-userfilter' => 'Массовое патрулирование было отключено, так как оно требует установки пользовательского фильтра, а не один из них не был установлен.',
 	'months' => 'Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь',
+	'mypatrollog' => 'мой журнал патрулирования',
 	'namespace' => 'Пространство имён',
+	'nomatches' => 'Нет изменений, соответствующих вашим параметрам',
 	'order' => 'Порядок',
+	'permalink' => 'Постоянная ссылка на текущие параметры',
+	'showAnonOnly' => 'только анонимов',
+	'showUnpatrolledOnly' => 'Только неотпатрулированные',
+	'skippededit' => 'Пропущенные правки',
 	'time-from' => 'С',
 	'time-untill' => 'До',
+	'timeframe' => 'Временные рамки',
+	'type' => 'Тип',
 	'typeEdit' => 'Правки',
 	'typeNew' => 'Новые страницы',
 	'userfilter' => 'Фильтр пользователей',
@@ -617,10 +674,11 @@ $messages['uk'] = array(
 	'lastupdate-cvn' => 'Останнє оновлення: $1',
 	'lastupdate-rc' => 'Останнє оновлення: $1',
 	'limit' => 'Обмеження',
+	'masspatrol-requires-userfilter' => 'MassPatrol був відключений, бо він вимагає користувацького фільтру і жодний не був встановлений.',
 	'months' => 'Січень, Лютий, Березень, Квітень, Травень, Червень, Липень, Серпень, Вересень, Жовтень, Листопад, Грудень',
 	'mypatrollog' => 'журнал патрулювання',
 	'namespace' => 'Простір назв',
-	'nomatches' => 'Результати не відповідають вашим налаштуванням', # Fuzzy
+	'nomatches' => 'Немає відповідних змін для ваших налаштувань',
 	'order' => 'Порядок',
 	'permalink' => 'Постійне посилання на поточні параметри',
 	'showAnonOnly' => 'Анонім тільки',
@@ -635,13 +693,24 @@ $messages['uk'] = array(
 	'userfilter' => 'Користувацький фільтр',
 );
 
+/** Wu (吴语)
+ * @author Benojan
+ */
+$messages['wuu'] = array(
+	'cvn-adder-empty' => '弗識',
+	'helpicon-tooltip' => '捺箇裏望還多信息',
+	'time-from' => '從',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
+ * @author Liuxinyu970226
  */
 $messages['zh-hans'] = array(
 	'title' => '实时最新更改',
 	'apply' => '应用',
 	'asc' => '升序',
+	'changelog' => '最新消息',
 	'clear' => '清除',
 	'currentedit' => '当前所选编辑',
 	'cvn-adder-empty' => '未知',
@@ -657,7 +726,7 @@ $messages['zh-hans'] = array(
 	'months' => '1月、2月、3月、4月、5月、6月、7月、8月、9月、10月、11月、12月',
 	'mypatrollog' => '我的巡查日志',
 	'namespace' => '名字空间',
-	'nomatches' => '找不到符合您设置的结果', # Fuzzy
+	'nomatches' => '找不到与您设置相关的结果',
 	'order' => '顺序',
 	'permalink' => '链至目前设定的永久链接',
 	'showAnonOnly' => '仅匿名用户',

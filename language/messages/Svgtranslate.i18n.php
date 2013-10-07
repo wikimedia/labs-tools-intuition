@@ -974,7 +974,7 @@ $messages['eu'] = array(
 $messages['fa'] = array(
 	'title' => 'ترجمهٔ اس‌وی‌جی',
 	'error-tryagain' => '$1 اگر می‌خواهید دوباره امتحان کنید، دکمهٔ بازگشت را در مرورگرتان بفشارید.',
-	'error-nothing' => 'چیزی برای ترجمه وجود ندارد.',
+	'error-nothing' => 'چیزی برای ترجمه نیست.',
 	'error-notsvg' => 'پرونده اس‌وی‌جی نیست.',
 	'error-unexpected' => 'یک خطای غیرمنتظره رخ داد.',
 	'error-notfound' => 'امکان بازیابی پروندهٔ اس‌وی‌جی از نشانی اینترنتی ارائه‌شده نبود.',
@@ -1043,6 +1043,33 @@ $messages['fi'] = array(
 	'error-tusc-failed' => 'TUSC-tarkistus epäonnistui: käyttäjä tai salasana väärin.',
 	'description-license' => 'Valitse kuvaus ja lisenssi',
 	'finalise' => 'Viimeistele tiedot',
+);
+
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'error-tryagain' => '$1 Trýst á aftur-knøttin á tínum brovsara fyri at royna umaftur.',
+	'error-nothing' => 'Onki at týða.',
+	'error-notsvg' => 'Ikki ein SVG fíla.',
+	'error-unexpected' => 'Ein óvæntaður feilur uppstóð.',
+	'error-upload' => 'Ein feilur hendi undir útlegging.',
+	'begin-translation' => 'Byrja týðing',
+	'th-original' => 'Upprunaligt',
+	'th-translation' => 'Týðing',
+	'th-language' => 'Mál',
+	'th-username' => 'Brúkaranavn',
+	'th-password' => 'Loyniorð',
+	'th-method' => 'Máti',
+	'option-tusc' => 'TUSC (sjálvvirkandi útleggjan)',
+	'option-manual' => 'Manuel útleggjan',
+	'preview' => 'Forskoðan',
+	'translate' => 'Týð',
+	'svginput-label' => 'SVG fíla',
+	'stats-footer' => 'Hetta tólið hevur verið brúkt til at týða umleið $1 fílur síðan $2.',
+	'uploading' => 'Leggur út',
+	'upload-complete' => 'Tað eydnaðist at leggja út. Myndin skuldi nú verið at finna á $1',
+	'editdescriptionpage' => 'Rætta ta nýggju frágreiðingarsíðuna',
 );
 
 /** French (français)

@@ -75,7 +75,8 @@ If 'About' doesn't work in your language, possible equivalents may be 'Details',
 	'tab-demo' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
 	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.
 {{Identical|Language settings}}',
-	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition.',
+	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition.
+{{Identical|Change language}}',
 	'bl-promo' => "Sentence displayed at the bottom of other tools promoting translatewiki.net and Toolserver Intuition.
 * $1 is a link to translatewiki.net
 * $2 is the link to Toolserver Intuition's about page",
@@ -109,7 +110,7 @@ $messages['af'] = array(
 	'bl-mysettings-new' => 'Verander taal!',
 	'bl-promo' => 'Die vertaling is moontlik gemaak deur $1 en $2.',
 	'help-translate-tool' => 'Help om hierdie program te vertaal!',
-	'help-translate-all' => 'Help om Toolserver te vertaal!',
+	'help-translate-all' => 'Help om Toolserver te vertaal!', # Fuzzy
 	'help-translate-tooltip' => 'Help ander deur koppelvlak-boodskappe na u taal te vertaal.',
 );
 
@@ -120,7 +121,7 @@ $messages['af'] = array(
  * @author أحمد
  */
 $messages['ar'] = array(
-	'fullname' => 'أقلمة واجهة مستخدم Toolserver',
+	'fullname' => 'أقلمة واجهة مستخدم Toolserver', # Fuzzy
 	'current-settings' => 'الإعدادات الحالية',
 	'current-language' => 'اللغة المختارة حاليا',
 	'settings-legend' => 'الإعدادات',
@@ -138,9 +139,9 @@ $messages['ar'] = array(
 	'bl-mysettings-new' => 'غير اللغة!',
 	'bl-promo' => 'يدعم هذه الترجمات كل من $1 و $2.',
 	'bl-changelanguage' => 'أضغط هنا لتغيير لغة الواجهة لهذه الأدات.',
-	'usage' => 'تمت ترجمة الأدوات عن طريق Toolserver Intuition.',
+	'usage' => 'تمت ترجمة الأدوات عن طريق Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'ساعد في ترجمة هذه الأداة!',
-	'help-translate-all' => 'ساعد في ترجمة Toolserver.',
+	'help-translate-all' => 'ساعد في ترجمة Toolserver.', # Fuzzy
 	'help-translate-tooltip' => 'ساعد الآخرين بترجمة رسائل الواجهة إلى لغتك الأم.',
 );
 
@@ -167,7 +168,7 @@ $messages['as'] = array(
 	'bl-mysettings-new' => 'ভাষা পৰিবৰ্তন কৰক!',
 	'bl-changelanguage' => 'এই সঁজুলিৰ ইন্টাৰফেছ ভাষা পৰিৱর্তন কৰিবলৈ ইয়াত ক্লিক কৰক।',
 	'help-translate-tool' => 'এই সঁজুলিটো অনুবাদ কৰাত সহায় কৰক!',
-	'help-translate-all' => 'টুলছাৰ্ভাৰ অনুবাদ কৰাত সহায় কৰক!',
+	'help-translate-all' => 'টুলছাৰ্ভাৰ অনুবাদ কৰাত সহায় কৰক!', # Fuzzy
 	'help-translate-tooltip' => 'ইন্টাৰ্ফেছ বার্তাসমূহ আপোনাৰ ভাষাত অনুবাদ কৰি আনসকলক সহায় কৰক ।',
 );
 
@@ -175,7 +176,7 @@ $messages['as'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'fullname' => "Internacionalización pa la interfaz d'usuariu de Toolserver",
+	'fullname' => 'Internacionalización pa les ferramientes',
 	'current-settings' => 'Configuración actual',
 	'current-language' => 'Llingua seleicionada anguaño',
 	'settings-legend' => 'Configuración',
@@ -193,9 +194,9 @@ $messages['ast'] = array(
 	'bl-mysettings-new' => '¡Camudar llingua!',
 	'bl-promo' => 'Traducciones feches con $1 y $2.',
 	'bl-changelanguage' => "Calca equí pa camudar la llingua de la interfaz d'esta ferramienta.",
-	'usage' => 'Ferramientes traducíes por Toolserver Intuition.',
+	'usage' => 'Ferramientes traducíes por Intuition.',
 	'help-translate-tool' => '¡Ayuda a traducir esta ferramienta!',
-	'help-translate-all' => '¡Ayuda a traducir Toolserver!',
+	'help-translate-all' => '¡Ayuda a traducir les ferramientes!',
 	'help-translate-tooltip' => 'Ayuda a otres persones traduciendo los mensaxes de la interfaz a la to llingua.',
 );
 
@@ -213,7 +214,7 @@ $messages['az'] = array(
  * @author Mousa
  */
 $messages['azb'] = array(
-	'fullname' => 'Toolserver-ین ایستیفاده آرا-اوزو اوچون بیل‌الخالقلاشدیرما',
+	'fullname' => 'Toolserver-ین ایستیفاده آرا-اوزو اوچون بیل‌الخالقلاشدیرما', # Fuzzy
 	'current-settings' => 'ایندیکی تنظیملر',
 	'current-language' => 'ایندیکی سئچیلمیش دیل',
 	'settings-legend' => 'تنظیملر',
@@ -231,9 +232,9 @@ $messages['azb'] = array(
 	'bl-mysettings-new' => 'دیلی دَییشدیر!',
 	'bl-promo' => 'چئویرمه‌لر $1 و $2 ایله گوجلنیب‌دیلر.',
 	'bl-changelanguage' => 'بو آراجین آرا-اوز دیلینی چئویرمک اوچون بورانی تیکلایین.',
-	'usage' => 'آراجلار Toolserver اویغولاماسیلا چئویریلیب‌دیلر.',
+	'usage' => 'آراجلار Toolserver اویغولاماسیلا چئویریلیب‌دیلر.', # Fuzzy
 	'help-translate-tool' => 'بو آراجی چئویرمگه یاردیم ائدین!',
-	'help-translate-all' => 'Toolserver-ی چئویرمگه یاردیم ائدین!',
+	'help-translate-all' => 'Toolserver-ی چئویرمگه یاردیم ائدین!', # Fuzzy
 	'help-translate-tooltip' => 'آرا-اوز مئساژلارینی اؤز دیلینیزه چئویرمک‌له، باشقالارا یاردیم ائدین.',
 );
 
@@ -242,7 +243,7 @@ $messages['azb'] = array(
  * @author Sagan
  */
 $messages['ba'] = array(
-	'fullname' => 'Турсервер ҡулланыу интерфейсын интернационалләштереү',
+	'fullname' => 'Турсервер ҡулланыу интерфейсын интернационалләштереү', # Fuzzy
 	'current-settings' => 'Ағымдағы көйләүҙәр',
 	'current-language' => 'Ағымдағы тел көйләүҙәре',
 	'settings-legend' => 'Көйләүҙәр',
@@ -260,9 +261,9 @@ $messages['ba'] = array(
 	'bl-mysettings-new' => 'Телде үҙгәртергә!',
 	'bl-promo' => 'Күсереү  $1 һәм $2 ярҙамында эшләнде.',
 	'bl-changelanguage' => 'Был ҡорамалда интерфейс телен үҙгәртеү өсөн ошонда баҫығыҙ.',
-	'usage' => 'Toolserver Intuition ярҙамында тәржемә ителгән ҡорамалдар.',
+	'usage' => 'Toolserver Intuition ярҙамында тәржемә ителгән ҡорамалдар.', # Fuzzy
 	'help-translate-tool' => 'был ҡорамалды тәржемә итергә ярҙам итегеҙ!',
-	'help-translate-all' => 'Тулсерверҙы тәржеме итергә ярҙам итегеҙ!',
+	'help-translate-all' => 'Тулсерверҙы тәржеме итергә ярҙам итегеҙ!', # Fuzzy
 	'help-translate-tooltip' => 'Башҡа юл менән интерфейсты һеҙҙең телгә тержемә итергә ярҙвм итегеҙ.',
 );
 
@@ -270,7 +271,7 @@ $messages['ba'] = array(
  * @author LexArt
  */
 $messages['be'] = array(
-	'fullname' => 'Інтэрналіцыяналізацыя інтэрфейсу карыстальніка Toolserver',
+	'fullname' => 'Інтэрналіцыяналізацыя інтэрфейсу карыстальніка Toolserver', # Fuzzy
 	'current-settings' => 'Цяперашнія наладкі',
 	'current-language' => 'Цяперашняя выбраная мова',
 	'settings-legend' => 'Наладкі',
@@ -288,9 +289,9 @@ $messages['be'] = array(
 	'bl-mysettings-new' => 'Змяніце мову!',
 	'bl-promo' => 'Пераклады зробленыя на сайтах $1 і $2',
 	'bl-changelanguage' => 'Націсніце тут для змены мовы для гэтай прылады',
-	'usage' => 'Прылады перакладзеныя на Toolserver Intuition.',
+	'usage' => 'Прылады перакладзеныя на Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Дапамажыце з перакладамі для гэтай прылады',
-	'help-translate-all' => 'Дапамажыце перакласці Toolserver!',
+	'help-translate-all' => 'Дапамажыце перакласці Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Дапамажыце карыстальнікам - перакладайце паведамленні інтэрфейсу на вашую мову.',
 );
 
@@ -300,7 +301,7 @@ $messages['be'] = array(
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
-	'fullname' => 'Інтэрналіцыяналізацыя інтэрфэйсу карыстальніка Toolserver',
+	'fullname' => 'Інтэрналіцыяналізацыя інтэрфэйсу карыстальніка Toolserver', # Fuzzy
 	'current-settings' => 'Цяперашнія налады',
 	'current-language' => 'Цяперашняя выбраная мова',
 	'settings-legend' => 'Налады',
@@ -318,9 +319,9 @@ $messages['be-tarask'] = array(
 	'bl-mysettings-new' => 'Выберыце мову',
 	'bl-promo' => 'Пераклады зробленыя пры падтрымцы $1 і $2.',
 	'bl-changelanguage' => 'Націсьніце, каб зьмяніць мову інтэрфэйсу гэтага інструмэнта.',
-	'usage' => 'Інструмэнты перакладзеныя ў межах Toolserver Intuition.',
+	'usage' => 'Інструмэнты перакладзеныя ў межах Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Дапамажыце перакласьці гэты інструмэнт!',
-	'help-translate-all' => 'Дапамажыце перакласьці сэрвэр інструмэнтаў!',
+	'help-translate-all' => 'Дапамажыце перакласьці сэрвэр інструмэнтаў!', # Fuzzy
 	'help-translate-tooltip' => 'Дапамажыце іншым з перакладам інтэрфэйса на Вашую мову.',
 );
 
@@ -358,7 +359,7 @@ $messages['bjn'] = array(
  * @author Wikitanvir
  */
 $messages['bn'] = array(
-	'fullname' => 'টুলসার্ভারের ব্যবহারকারী ইন্টারফেসের আন্তর্জাতিকীকরণ',
+	'fullname' => 'টুলসার্ভারের ব্যবহারকারী ইন্টারফেসের আন্তর্জাতিকীকরণ', # Fuzzy
 	'current-settings' => 'বর্তমান সেটিংস',
 	'current-language' => 'বর্তমানে নির্ধারিত ভাষাসমূহ',
 	'settings-legend' => 'সেটিংস',
@@ -376,9 +377,9 @@ $messages['bn'] = array(
 	'bl-mysettings-new' => 'ভাষা পরিবর্তন!',
 	'bl-promo' => 'অনুবাদসমূহ $1 ও $2-এর সহায়তায় অনূদিত হয়েছে।',
 	'bl-changelanguage' => 'এই সরঞ্জামটির ইন্টারফেস ভাষা পরিবর্তন করতে এখানে ক্লিক করুন।',
-	'usage' => 'সরঞ্জামগুলো টুলসার্ভার ইনট্যুইশনের সহায়তায় অনূদিত হয়েছে।',
+	'usage' => 'সরঞ্জামগুলো টুলসার্ভার ইনট্যুইশনের সহায়তায় অনূদিত হয়েছে।', # Fuzzy
 	'help-translate-tool' => 'এই টুলটি অনুবাদে সাহায্য করুন!',
-	'help-translate-all' => 'টুলসার্ভার অনুবাদ করতে সাহায্য করুন!',
+	'help-translate-all' => 'টুলসার্ভার অনুবাদ করতে সাহায্য করুন!', # Fuzzy
 	'help-translate-tooltip' => 'ইন্টারফেস বার্তাগুলো আপনার ভাষায় অনুবাদ করে অন্যদের সাহায্য করুন।',
 );
 
@@ -415,7 +416,7 @@ $messages['br'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
-	'fullname' => 'Prijevod za korisnički interfejs Toolservera',
+	'fullname' => 'Prijevod za korisnički interfejs Toolservera', # Fuzzy
 	'current-settings' => 'Trenutne postavke',
 	'current-language' => 'Trenutno odabrani jezik',
 	'settings-legend' => 'Postavke',
@@ -479,10 +480,11 @@ $messages['ckb'] = array(
 );
 
 /** Czech (česky)
+ * @author Leanes
  * @author Mormegil
  */
 $messages['cs'] = array(
-	'fullname' => 'Překlady uživatelského rozhraní Toolserveru',
+	'fullname' => 'Internacionalizace pro nástroje',
 	'current-settings' => 'Aktuální nastavení',
 	'current-language' => 'Aktuálně vybraný jazyk',
 	'settings-legend' => 'Nastavení',
@@ -500,9 +502,9 @@ $messages['cs'] = array(
 	'bl-mysettings-new' => 'Změnit jazyk!',
 	'bl-promo' => 'Překlady fungují prostřednictvím $1 a $2.',
 	'bl-changelanguage' => 'Kliknutím zde změníte jazyk rozhraní tohoto nástroje.',
-	'usage' => 'Nástroje přeložené pomocí Toolserver Intuition.',
+	'usage' => 'Nástroje přeložené pomocí Intuition.',
 	'help-translate-tool' => 'Pomozte přeložit tento nástroj!',
-	'help-translate-all' => 'Pomozte přeložit Toolserver!',
+	'help-translate-all' => 'Pomozte přeložit nástroje!',
 	'help-translate-tooltip' => 'Pomozte ostatním tím, že přeložíte zprávy rozhraní do svého jazyka.',
 );
 
@@ -510,7 +512,7 @@ $messages['cs'] = array(
  * @author Salam
  */
 $messages['cv'] = array(
-	'fullname' => 'Toolserver-ӑн усӑҫ интерфейсӗ валли интернационализацийӗ',
+	'fullname' => 'Toolserver-ӑн усӑҫ интерфейсӗ валли интернационализацийӗ', # Fuzzy
 	'current-settings' => 'Хальхи ӗнерлевсем',
 	'current-language' => 'Хальхи чӗлхе ӗнерленӗвӗсем',
 	'settings-legend' => 'Ӗнерлевсем',
@@ -527,9 +529,9 @@ $messages['cv'] = array(
 	'bl-mysettings-new' => 'Чӗлхене улӑштар!',
 	'bl-promo' => 'Куҫару $1 тата $2 пулӑшӑвӗпе тунӑ.',
 	'bl-changelanguage' => 'Ку хатӗрӗн интерфейс чӗлхине улӑштарасшӑн кунта пусӑр.',
-	'usage' => 'Toolserver Intuition пулӑшӑвӗпе куҫарнӑ хатӗрсем.',
+	'usage' => 'Toolserver Intuition пулӑшӑвӗпе куҫарнӑ хатӗрсем.', # Fuzzy
 	'help-translate-tool' => 'Ку хатӗре куҫарма пулӑшӑр-ха!',
-	'help-translate-all' => 'Toolserver-а куҫарма пулӑшӑр-ха!',
+	'help-translate-all' => 'Toolserver-а куҫарма пулӑшӑр-ха!', # Fuzzy
 	'help-translate-tooltip' => 'Сирӗн пӗлтерӳсен интерфейсне куҫарасси урӑххисене пулӑшать.',
 );
 
@@ -538,7 +540,7 @@ $messages['cv'] = array(
  * @author Sarrus
  */
 $messages['da'] = array(
-	'fullname' => 'Internationalisering til Toolservers brugergrænseflade',
+	'fullname' => 'Internationalisering til Toolservers brugergrænseflade', # Fuzzy
 	'current-settings' => 'Aktuelle indstillinger',
 	'current-language' => 'Aktuelt valgte sprog',
 	'settings-legend' => 'Indstillinger',
@@ -556,9 +558,9 @@ $messages['da'] = array(
 	'bl-mysettings-new' => 'Skift sprog!',
 	'bl-promo' => 'Oversættelser er drevet af $1 og $2 .',
 	'bl-changelanguage' => 'Klik her for at ændre sproget i brugergrænsefladen for ​​dette værktøj.',
-	'usage' => 'Værktøjer oversat af Toolserver Intuition.',
+	'usage' => 'Værktøjer oversat af Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Hjælpe med at oversætte dette værktøj!',
-	'help-translate-all' => 'Hjælp med at oversætte Toolserver!',
+	'help-translate-all' => 'Hjælp med at oversætte Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Hjælp andre ved at omsætte brugergrænsefladebeskeder til dit sprog.',
 );
 
@@ -619,7 +621,7 @@ $messages['diq'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'fullname' => 'Pśełožki za wužywarski powjerch Toolserver',
+	'fullname' => 'Pśełožki za wužywarski powjerch Toolserver', # Fuzzy
 	'current-settings' => 'Aktualne nstajenja',
 	'current-language' => 'Tuchylu wubrana rěc',
 	'settings-legend' => 'Nastajenja',
@@ -637,9 +639,9 @@ $messages['dsb'] = array(
 	'bl-mysettings-new' => 'Rěc změniś!',
 	'bl-promo' => 'Pśełožki zmóžnjaju se wót $1 a $2.',
 	'bl-changelanguage' => 'Klikni how, aby rěc wužywarskego powjercha toś togo rěda změnił.',
-	'usage' => 'Rědy su se wót Toolserver Intuition pśełožyli.',
+	'usage' => 'Rědy su se wót Toolserver Intuition pśełožyli.', # Fuzzy
 	'help-translate-tool' => 'Pomóž toś ten rěd pśełožyś!',
-	'help-translate-all' => 'Pomóž Toolserver pśełožyś!',
+	'help-translate-all' => 'Pomóž Toolserver pśełožyś!', # Fuzzy
 	'help-translate-tooltip' => 'Pomóž drugim luźim, za tym až pśełožujo powěźeńki wužywarskego powjercha do swójeje rěcy.',
 );
 
@@ -665,9 +667,9 @@ $messages['el'] = array(
 	'bl-mysettings-new' => 'Αλλαγή γλώσσας!',
 	'bl-promo' => 'Οι μεταφράσεις τροφοδοτούνται από το $1 και το $2.',
 	'bl-changelanguage' => 'Κάντε κλικ εδώ για να αλλάξετε την γλώσσα αυτού του εργαλείου.',
-	'usage' => 'Εργαλεία μεταφρασμένα με το Toolserver Intuition.',
+	'usage' => 'Εργαλεία μεταφρασμένα με το Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Βοηθήστε μας να μεταφράσουμε αυτό το εργαλείο!',
-	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!',
+	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Βοηθήστε τους άλλους μεταφράζοντας τα μηνύματα της διεπαφής στη γλώσσα σας.',
 );
 
@@ -675,14 +677,14 @@ $messages['el'] = array(
  * @author Shirayuki
  */
 $messages['en-gb'] = array(
-	'fullname' => "Internationalisation for Toolserver's User Interface",
+	'fullname' => "Internationalisation for Toolserver's User Interface", # Fuzzy
 );
 
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
  */
 $messages['eo'] = array(
-	'fullname' => 'Internaciigo por Uzanto-Interfaco  de Toolserver',
+	'fullname' => 'Internaciigo por Uzanto-Interfaco  de Toolserver', # Fuzzy
 	'current-settings' => 'Nuntempaj agordoj',
 	'current-language' => 'Nuntempe elektita lingvo',
 	'settings-legend' => 'Agordoj',
@@ -693,7 +695,7 @@ $messages['eo'] = array(
 	'bl-mysettings' => 'Mia lingvo-agordoj',
 	'bl-mysettings-new' => 'Ŝanĝu lingvon!',
 	'bl-promo' => 'Tradukoj estas de $1 kaj $2.',
-	'usage' => 'Iloj tradukitaj de Toolserver Intuition.',
+	'usage' => 'Iloj tradukitaj de Toolserver Intuition.', # Fuzzy
 );
 
 /** Spanish (español)
@@ -729,7 +731,7 @@ $messages['es'] = array(
  * @author Pikne
  */
 $messages['et'] = array(
-	'fullname' => 'Toolserveri kasutajaliidese rahvusvahelikustamine',
+	'fullname' => 'Toolserveri kasutajaliidese rahvusvahelikustamine', # Fuzzy
 	'current-settings' => 'Praegused sätted',
 	'current-language' => 'Praegu valitud keel',
 	'settings-legend' => 'Sätted',
@@ -746,9 +748,9 @@ $messages['et'] = array(
 	'bl-mysettings-new' => 'Muuda keelt!',
 	'bl-promo' => 'Tõlked valmivad projektide $1 ja $2 abiga.',
 	'bl-changelanguage' => 'Klõpsa siia, et muuta selle tööriista liidese keelt.',
-	'usage' => 'Toolserver Intuitioni abil tõlgitavad tööriistad.',
+	'usage' => 'Toolserver Intuitioni abil tõlgitavad tööriistad.', # Fuzzy
 	'help-translate-tool' => 'Aita seda tööriista tõlkida!',
-	'help-translate-all' => 'Aita Toolserverit tõlkida!',
+	'help-translate-all' => 'Aita Toolserverit tõlkida!', # Fuzzy
 	'help-translate-tooltip' => 'Aita teisi liidese sõnumite tõlkimisega enda keelde.',
 );
 
@@ -768,9 +770,9 @@ $messages['eu'] = array(
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Nire hizkuntzaren hobespenak',
 	'bl-mysettings-new' => 'Hizkuntza aldatu!',
-	'usage' => 'Toolserver Intuitionek itzulitako tresnak.',
+	'usage' => 'Toolserver Intuitionek itzulitako tresnak.', # Fuzzy
 	'help-translate-tool' => 'Tresna hau itzultzen lagundu!',
-	'help-translate-all' => 'Toolserver itzultzen lagundu!',
+	'help-translate-all' => 'Toolserver itzultzen lagundu!', # Fuzzy
 );
 
 /** Persian (فارسی)
@@ -778,7 +780,7 @@ $messages['eu'] = array(
  * @author Wayiran
  */
 $messages['fa'] = array(
-	'fullname' => 'بین‌المللی سازی برای رابط کاربری تول‌سرور',
+	'fullname' => 'بین‌المللی سازی برای رابط کاربری تول‌سرور', # Fuzzy
 	'current-settings' => 'تنظیمات کنونی',
 	'current-language' => 'زبان انتخاب شدهٔ فعلی',
 	'settings-legend' => 'تنظیمات',
@@ -796,17 +798,18 @@ $messages['fa'] = array(
 	'bl-mysettings-new' => 'تغییر زبان!',
 	'bl-promo' => 'ترجمه شده توسط $1 و $2 تهیه شده‌اند.',
 	'bl-changelanguage' => 'برای تغییر زبان رابط این ابزار اینجا را کلیک کنید.',
-	'usage' => 'ابزار ترجمه‌شده توسط درک تولسرور.',
+	'usage' => 'ابزار ترجمه‌شده توسط درک تولسرور.', # Fuzzy
 	'help-translate-tool' => 'در ترجمه این ابزار کمک کنید!',
-	'help-translate-all' => 'در ترجمهٔ تول‌سرور کمک کنید!',
+	'help-translate-all' => 'در ترجمهٔ تول‌سرور کمک کنید!', # Fuzzy
 	'help-translate-tooltip' => 'دیگران را با ترجمهٔ پیام‌های رابط به زبان‌تان کمک کنید!',
 );
 
 /** Finnish (suomi)
  * @author Nike
+ * @author Samoasambia
  */
 $messages['fi'] = array(
-	'fullname' => 'Toolserverin työkalujen kansainvälistäminen',
+	'fullname' => 'Työkalujen kansainvälistäminen',
 	'current-settings' => 'Nykyiset asetukset',
 	'current-language' => 'Tällä hetkellä valittu kieli',
 	'settings-legend' => 'Asetukset',
@@ -824,9 +827,9 @@ $messages['fi'] = array(
 	'bl-mysettings-new' => 'Vaihda kieltä!',
 	'bl-promo' => 'Käännökset mahdollistaa $1 ja $2.',
 	'bl-changelanguage' => 'Vaihda käyttöliittymän kieltä napsauttamalla tästä.',
-	'usage' => 'Toolserver Intuitionia käyttävät työkalut.',
+	'usage' => 'Toolserver Intuitionia käyttävät työkalut.', # Fuzzy
 	'help-translate-tool' => 'Auta tämän työkalun kääntämisessä!',
-	'help-translate-all' => 'Auta Toolserverin kääntämisessä!',
+	'help-translate-all' => 'Auta työkalujen kääntämisessä!',
 	'help-translate-tooltip' => 'Auta toisia kääntämällä käyttöliittymäviestejä kielellesi.',
 );
 
@@ -860,12 +863,13 @@ $messages['fo'] = array(
 
 /** French (français)
  * @author Crochet.david
+ * @author Gomoko
  * @author Jean-Frédéric
  * @author Od1n
  * @author Verdy p
  */
 $messages['fr'] = array(
-	'fullname' => 'Internationalisation de l’interface utilisateur du Toolserver',
+	'fullname' => 'Internationalisation des outils',
 	'current-settings' => 'Paramètres actuels',
 	'current-language' => 'Langue actuellement sélectionnée',
 	'settings-legend' => 'Configuration',
@@ -883,9 +887,9 @@ $messages['fr'] = array(
 	'bl-mysettings-new' => 'Changer la langue !',
 	'bl-promo' => 'Les traductions sont propulsées par $1 et $2 .',
 	'bl-changelanguage' => 'Cliquez ici pour changer la langue de l’interface de cet outil.',
-	'usage' => 'Outils traduits par Toolserver Intuition.',
+	'usage' => 'Outils traduits par Intuition.',
 	'help-translate-tool' => 'Aidez à traduire cet outil !',
-	'help-translate-all' => 'Aidez à traduire le Toolserver !',
+	'help-translate-all' => 'Aidez à traduire les outils !',
 	'help-translate-tooltip' => 'Aidez les autres en traduisant dans votre langue les messages de l’interface.',
 );
 
@@ -893,7 +897,7 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'fullname' => 'Entèrnacionalisacion de l’entèrface utilisator du Toolserver',
+	'fullname' => 'Entèrnacionalisacion de l’entèrface utilisator du Toolserver', # Fuzzy
 	'current-settings' => 'Configuracion d’ora',
 	'current-language' => 'Lengoua ora chouèsia',
 	'settings-legend' => 'Configuracion',
@@ -908,9 +912,9 @@ $messages['frp'] = array(
 	'tab-demo' => 'Dèmô',
 	'bl-mysettings' => 'Ma configuracion de lengoua',
 	'bl-mysettings-new' => 'Changiér la lengoua !',
-	'usage' => 'Outils traduits per Toolserver Intuition.',
+	'usage' => 'Outils traduits per Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Édiéd a traduire cet’outil !',
-	'help-translate-all' => 'Édiéd a traduire lo Toolserver !',
+	'help-translate-all' => 'Édiéd a traduire lo Toolserver !', # Fuzzy
 );
 
 /** Irish (Gaeilge)
@@ -924,7 +928,7 @@ $messages['ga'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'fullname' => 'Internacionalización para a interface de usuario do Toolserver',
+	'fullname' => 'Internacionalización das ferramentas',
 	'current-settings' => 'Configuración actual',
 	'current-language' => 'Lingua actual',
 	'settings-legend' => 'Configuracións',
@@ -942,9 +946,9 @@ $messages['gl'] = array(
 	'bl-mysettings-new' => 'Cambiar a lingua!',
 	'bl-promo' => 'As traducións son posibles grazas a $1 e $2.',
 	'bl-changelanguage' => 'Prema aquí para cambiar a lingua da interface da ferramenta.',
-	'usage' => 'Ferramentas traducidas por Toolserver Intuition.',
+	'usage' => 'Ferramentas traducidas por Intuition.',
 	'help-translate-tool' => 'Axude a traducir esta ferramenta!',
-	'help-translate-all' => 'Axude a traducir Toolserver!',
+	'help-translate-all' => 'Axude a traducir as ferramentas!',
 	'help-translate-tooltip' => 'Axude aos outros traducindo á súa lingua as mensaxes da interface.',
 );
 
@@ -963,14 +967,15 @@ $messages['gu'] = array(
 	'bl-mysettings' => 'મારી ભાષાના સુયોજનો',
 	'bl-mysettings-new' => 'ભાષા બદલો!',
 	'help-translate-tool' => 'આ ટૂલનું ભાષાંતર કરવા મદદ કરો',
-	'help-translate-all' => 'ટૂલસર્વરનુ ભાષાંતર કરવા મદદ કરો',
+	'help-translate-all' => 'ટૂલસર્વરનુ ભાષાંતર કરવા મદદ કરો', # Fuzzy
 );
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author YaronSh
  */
 $messages['he'] = array(
-	'fullname' => 'בִנאום עבור ממשק המשתמש של Toolserver',
+	'fullname' => 'בִנאום עבור הכלים',
 	'current-settings' => 'הגדרות נוכחיות',
 	'current-language' => 'השפה הנוכחית',
 	'settings-legend' => 'הגדרות',
@@ -988,9 +993,9 @@ $messages['he'] = array(
 	'bl-mysettings-new' => 'לשנות שפה!',
 	'bl-promo' => 'ההגדרות בזכות $1 ו־$2',
 	'bl-changelanguage' => 'לחצו כאן לשינוי שפת הממשק של הכלי הזה.',
-	'usage' => 'כלים שמתורגמים באמצעות Toolserver Intuition.',
+	'usage' => 'כלים שמתורגמים באמצעות Intuition.',
 	'help-translate-tool' => 'בואו לעזור את הכלי הזה!',
-	'help-translate-all' => 'עזרו לתרגום את שרת הכלים!',
+	'help-translate-all' => 'עזרו לתרגם את הכלים!',
 	'help-translate-tooltip' => 'עזרו לאחרים לתרגם את הודעות הממשק לשפתכם.',
 );
 
@@ -998,7 +1003,7 @@ $messages['he'] = array(
  * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'fullname' => 'टूलसर्वर के उपयोग अंतरफल के लिये अंतर्राष्ट्रीयकरण',
+	'fullname' => 'टूलसर्वर के उपयोग अंतरफल के लिये अंतर्राष्ट्रीयकरण', # Fuzzy
 	'current-settings' => 'वर्तमान सेटिंग्स',
 	'current-language' => 'वर्तमान चयनित भाषा',
 	'settings-legend' => 'सेटिंग्स',
@@ -1016,9 +1021,9 @@ $messages['hi'] = array(
 	'bl-mysettings-new' => 'भाषा बदलें!',
 	'bl-promo' => 'अनुवाद $1 और $2 द्वारा किये गए हैं।',
 	'bl-changelanguage' => 'इस टूल की अंतरफल भाषा बदलने के लिये यहाँ क्लिक करें।',
-	'usage' => 'टूलसर्वर इंट्यूशन द्वारा अनूदित टूल',
+	'usage' => 'टूलसर्वर इंट्यूशन द्वारा अनूदित टूल', # Fuzzy
 	'help-translate-tool' => 'इस टूल का अनुवाद करने में मदद करें!',
-	'help-translate-all' => 'टूलसर्वर का अनुवाद करने में मदद करें!',
+	'help-translate-all' => 'टूलसर्वर का अनुवाद करने में मदद करें!', # Fuzzy
 	'help-translate-tooltip' => 'अपनी भाषा में अंतरफल संदेशों का अनुवाद कर के औरों की मदद करें।',
 );
 
@@ -1026,7 +1031,7 @@ $messages['hi'] = array(
  * @author Ex13
  */
 $messages['hr'] = array(
-	'fullname' => 'Prijevod za suradničko sučelje Toolservera',
+	'fullname' => 'Prijevod za suradničko sučelje Toolservera', # Fuzzy
 	'current-settings' => 'Trenutne postavke',
 	'current-language' => 'Trenutačno odabrani jezik',
 	'settings-legend' => 'Postavke',
@@ -1044,9 +1049,9 @@ $messages['hr'] = array(
 	'bl-mysettings-new' => 'Promjena jezika!',
 	'bl-promo' => 'Za prijevode su zaslužni $1 i $2.',
 	'bl-changelanguage' => 'Kliknite ovdje za promjenu jezika sučelja za ovaj alat.',
-	'usage' => 'Alati koje je preveo Toolserver Intuition.',
+	'usage' => 'Alati koje je preveo Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Pomozite nam prevesti ovaj alat!',
-	'help-translate-all' => 'Pomozite nam da prevedemo Toolserver!',
+	'help-translate-all' => 'Pomozite nam da prevedemo Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Pomozite drugima prijevodom poruka sučelja na svoj jezik.',
 );
 
@@ -1054,7 +1059,7 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'fullname' => 'Přełožki za wužiwarski powjerch Toolserver',
+	'fullname' => 'Přełožki za wužiwarski powjerch Toolserver', # Fuzzy
 	'current-settings' => 'Aktualne nstajenja',
 	'current-language' => 'Tuchwilu wubrana rěč',
 	'settings-legend' => 'Nastajenja',
@@ -1072,9 +1077,9 @@ $messages['hsb'] = array(
 	'bl-mysettings-new' => 'Změń rěč!',
 	'bl-promo' => 'Přełožki so wot $1 a $2 zmóžnjeja.',
 	'bl-changelanguage' => 'Klikń tu, zo by rěč wužiwarskeho powjercha tutoho nastroja změnił.',
-	'usage' => 'Nastroje su so wot Toolserver Intuition přełožili.',
+	'usage' => 'Nastroje su so wot Toolserver Intuition přełožili.', # Fuzzy
 	'help-translate-tool' => 'Pomhaj tutón nastroj přełožić!',
-	'help-translate-all' => 'Pomhaj Toolserver přełožić!',
+	'help-translate-all' => 'Pomhaj Toolserver přełožić!', # Fuzzy
 	'help-translate-tooltip' => 'Pomhaj druhim ludźom přełožujo zdźělenki wužiwarskeho powjercha do swojeje rěče.',
 );
 
@@ -1082,7 +1087,7 @@ $messages['hsb'] = array(
  * @author Dani
  */
 $messages['hu'] = array(
-	'fullname' => 'A Toolserver felhasználói felületének internacionalizációja',
+	'fullname' => 'A Toolserver felhasználói felületének internacionalizációja', # Fuzzy
 	'current-settings' => 'Jelenlegi beállítások',
 	'current-language' => 'Jelenleg kiválasztott nyelv',
 	'settings-legend' => 'Beállítások',
@@ -1100,9 +1105,9 @@ $messages['hu'] = array(
 	'bl-mysettings-new' => 'Nyelv módosítása',
 	'bl-promo' => 'A lokalizációt a $1 és a $2 teszi lehetővé.',
 	'bl-changelanguage' => 'Kattints ide az eszköz felhasználói felülete nyelvének módosításához.',
-	'usage' => 'Az eszköz fordítása a Toolserver Intuitionnel készült.',
+	'usage' => 'Az eszköz fordítása a Toolserver Intuitionnel készült.', # Fuzzy
 	'help-translate-tool' => 'Segíts az eszköz fordításában!',
-	'help-translate-all' => 'Segíts a Toolserver fordításában!',
+	'help-translate-all' => 'Segíts a Toolserver fordításában!', # Fuzzy
 	'help-translate-tooltip' => 'Segíts másokon a felület szövegének saját nyelvedre fordításával!',
 );
 
@@ -1138,7 +1143,7 @@ $messages['ia'] = array(
  * @author IvanLanin
  */
 $messages['id'] = array(
-	'fullname' => 'Internasionalisasi Antarmuka Pengguna Toolserver',
+	'fullname' => 'Internasionalisasi Antarmuka Pengguna Toolserver', # Fuzzy
 	'current-settings' => 'Setelan sekarang',
 	'current-language' => 'Bahasa terpilih sekarang',
 	'settings-legend' => 'Setelan',
@@ -1156,9 +1161,9 @@ $messages['id'] = array(
 	'bl-mysettings-new' => 'Ganti bahasa!',
 	'bl-promo' => 'Terjemahan didukung oleh $1 dan $2.',
 	'bl-changelanguage' => 'Klik di sini untuk mengganti bahasa antarmuka alat ini.',
-	'usage' => 'Alat yang diterjemahkan oleh Toolserver Intuition.',
+	'usage' => 'Alat yang diterjemahkan oleh Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Bantu menerjemahkan alat ini!',
-	'help-translate-all' => 'Bantu menerjemahkan Toolserver!',
+	'help-translate-all' => 'Bantu menerjemahkan Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Bantu orang lain dengan menerjemahkan pesan antarmuka ke dalam bahasa Anda.',
 );
 
@@ -1177,7 +1182,7 @@ $messages['ig'] = array(
  * @author Rippitippi
  */
 $messages['it'] = array(
-	'fullname' => "Internazionalizzazione per l'interfaccia utente di Toolserver",
+	'fullname' => 'Internazionalizzazione per strumenti',
 	'current-settings' => 'Impostazioni attuali',
 	'current-language' => 'Lingua attualmente selezionata',
 	'settings-legend' => 'Impostazioni',
@@ -1195,9 +1200,9 @@ $messages['it'] = array(
 	'bl-mysettings-new' => 'Cambia lingua!',
 	'bl-promo' => 'Le traduzioni sono curate da $1 e $2.',
 	'bl-changelanguage' => "Clicca qui per modificare la lingua dell'interfaccia di questo strumento.",
-	'usage' => 'Strumenti tradotti da Toolserver Intuition.',
+	'usage' => 'Strumenti tradotti da Intuition.',
 	'help-translate-tool' => 'Aiutaci a tradurre questo strumento!',
-	'help-translate-all' => 'Aiutaci a tradurre i testi del Toolserver!',
+	'help-translate-all' => 'Aiutaci a tradurre gli strumenti!',
 	'help-translate-tooltip' => "Aiuta gli altri traducendo i messaggi dell'interfaccia nella tua lingua.",
 );
 
@@ -1253,9 +1258,9 @@ $messages['jv'] = array(
 	'bl-mysettings-new' => 'Ganti basa!',
 	'bl-promo' => 'Terjemahan disengkuyung déning $1 lan $2.',
 	'bl-changelanguage' => 'Klik kéné kanggo ngganti basané antarmuka saka piranti iki.',
-	'usage' => 'Piranti iki diterjemahaké déning Intuisi Toolserver.',
+	'usage' => 'Piranti iki diterjemahaké déning Intuisi Toolserver.', # Fuzzy
 	'help-translate-tool' => 'Éwangi nerjemahaké piranti iki!',
-	'help-translate-all' => 'Éwangi nerjemahaké Toolserver!',
+	'help-translate-all' => 'Éwangi nerjemahaké Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Éwangi liyané mawa cara nerjemahaké pesen antarmuka nèng basané Sampéyan.',
 );
 
@@ -1283,7 +1288,7 @@ $messages['km'] = array(
  * @author M G Harish
  */
 $messages['kn'] = array(
-	'fullname' => 'ಉಪಕರಣ ಸೇವಕದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಅಂತರ್ರಾಷ್ಟ್ರೀಕರಣ',
+	'fullname' => 'ಉಪಕರಣ ಸೇವಕದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಅಂತರ್ರಾಷ್ಟ್ರೀಕರಣ', # Fuzzy
 	'current-settings' => 'ಈಗಿನ ವ್ಯವಸ್ಥೆಗಳು',
 	'current-language' => 'ಈಗ ಆಯ್ದುಕೊಂಡಿರುವ ಭಾಷೆ',
 	'settings-legend' => 'ವ್ಯವಸ್ಥೆಗಳು',
@@ -1301,9 +1306,9 @@ $messages['kn'] = array(
 	'bl-mysettings-new' => 'ಭಾಷೆ ಬದಲಾಯಿಸಿ!',
 	'bl-promo' => 'ಅನುವಾದಗಳು $1 ಮತ್ತು $2 ಇಂದ ಸಾಮರ್ಥ್ಯ ಪಡೆದಿವೆ.',
 	'bl-changelanguage' => 'ಈ ಉಪಕರಣದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಭಾಷೆ ಬದಲಾಯಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ಕಿಸಿ.',
-	'usage' => 'ಉಪಕರಣ ಸೇವಕ ಪ್ರವೃತ್ತಿಯಿಂದ ಅನುವಾದಿಸಲ್ಪಟ್ಟ ಉಪಕರಣಗಳು.',
+	'usage' => 'ಉಪಕರಣ ಸೇವಕ ಪ್ರವೃತ್ತಿಯಿಂದ ಅನುವಾದಿಸಲ್ಪಟ್ಟ ಉಪಕರಣಗಳು.', # Fuzzy
 	'help-translate-tool' => 'ಈ ಉಪಕರಣವನ್ನು ಅನುವಾದಿಸಲು ಸಹಕರಿಸಿ!',
-	'help-translate-all' => 'ಉಪಕರಣ ಸೇವಕವನ್ನು ಅನುವಾದಿಸಲು ಸಹಕರಿಸಿ!',
+	'help-translate-all' => 'ಉಪಕರಣ ಸೇವಕವನ್ನು ಅನುವಾದಿಸಲು ಸಹಕರಿಸಿ!', # Fuzzy
 );
 
 /** Korean (한국어)
@@ -1311,7 +1316,7 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'fullname' => 'Toolserver 사용자 인터페이스 국제화',
+	'fullname' => '도구에 대한 국제화',
 	'current-settings' => '현재 설정',
 	'current-language' => '현재 선택한 언어',
 	'settings-legend' => '설정',
@@ -1329,9 +1334,9 @@ $messages['ko'] = array(
 	'bl-mysettings-new' => '언어가 바뀌었습니다!',
 	'bl-promo' => '번역은 $1과 $2에 의해 작동합니다.',
 	'bl-changelanguage' => '도구의 인터페이스 언어를 바꾸러면 여기를 클릭하세요.',
-	'usage' => 'Toolserver Intuition에 의해 도구를 번역했습니다.',
+	'usage' => 'Intuition에 의해 도구가 번역되었습니다.',
 	'help-translate-tool' => '도구 번역을 도와주세요!',
-	'help-translate-all' => 'Toolserver 번역을 도와주세요!',
+	'help-translate-all' => '도구 번역을 도와주세요!',
 	'help-translate-tooltip' => '여러분의 언어로 인터페이스 메시지를 번역하는 이들을 도와주세요.',
 );
 
@@ -1339,7 +1344,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'fullname' => 'De Bedeenovverfläsh vum Tuulẞööver en alle Shprooche',
+	'fullname' => 'De Bedeenovverfläsh vum Tuulẞööver en alle Shprooche', # Fuzzy
 	'current-settings' => 'De aktoälle Enshtällonge',
 	'current-language' => 'De ußjesöhk Shprooch',
 	'settings-legend' => 'Enschtällonge',
@@ -1358,9 +1363,9 @@ $messages['ksh'] = array(
 	'bl-promo' => 'De Övversäzonge kumme vum $1 un övver $2 noh heh.',
 	'bl-changelanguage' => 'Donn di Shprooch ändere, di heh dat Projramm met Der kallt.',
 	'usage' => 'Projramme, di övver dem Tuulẞööver sing Süßteem „<i lang="en">Intuition</i>“
-övversaz woode sin',
+övversaz woode sin', # Fuzzy
 	'help-translate-tool' => 'Donn beim Övversäze för heh dat Projramm hellfe!',
-	'help-translate-all' => 'Donn beim Övversäze för der Tuulẞööver hellfe!',
+	'help-translate-all' => 'Donn beim Övversäze för der Tuulẞööver hellfe!', # Fuzzy
 	'help-translate-tooltip' => 'Donn der Andere jet Joods un donn de Täxte un Nohreeschte vun de Projramme en Ding Shprooch övversäze.',
 );
 
@@ -1384,7 +1389,7 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'fullname' => 'Iwwersetzunge fir den Toolserver Benotzer-Interface',
+	'fullname' => 'Iwwersetzunge fir Tools',
 	'current-settings' => 'Aktuell Astellungen',
 	'current-language' => 'Aktuell erausgesichte Sprooch',
 	'settings-legend' => 'Astellungen',
@@ -1402,9 +1407,9 @@ $messages['lb'] = array(
 	'bl-mysettings-new' => 'Sprooch wiesselen!',
 	'bl-promo' => "D'Iwwersetzunge ginn duerch $1 an $2 erméiglecht.",
 	'bl-changelanguage' => "Klickt hei fir d'Sprooch vum Interface vun dësem Tool z'änneren.",
-	'usage' => "D'Toole goufe vum 'Toolserver Intuition' iwwersat.",
+	'usage' => "D'Tools déi vun 'Intuition' iwwersat goufen.",
 	'help-translate-tool' => "Hëlleft dësen Tool z'iwwersetzen!",
-	'help-translate-all' => "Hëlleft den Toolserver z'iwwersetzen!",
+	'help-translate-all' => "Hëlleft Tools z'iwwersetzen!",
 	'help-translate-tooltip' => "Hëlleft Aneren domat datt Dir d'Message vum Interface an Är Sprooch iwwersetzt.",
 );
 
@@ -1412,7 +1417,7 @@ $messages['lb'] = array(
  * @author Matasg
  */
 $messages['lt'] = array(
-	'fullname' => 'Toolserver vartotojo sąsajos internacionalizacija',
+	'fullname' => 'Toolserver vartotojo sąsajos internacionalizacija', # Fuzzy
 	'current-settings' => 'Esami nustatymai',
 	'current-language' => 'Šiuo metu pasirinkta kalba',
 	'settings-legend' => 'Nustatymai',
@@ -1430,9 +1435,9 @@ $messages['lt'] = array(
 	'bl-mysettings-new' => 'Keisti kalbą!',
 	'bl-promo' => 'Vertimus teikia $1 bei $2.',
 	'bl-changelanguage' => 'Spauskite čia, norėdami pakeisti šios priemonės kalbą.',
-	'usage' => 'Įrankis išverstas Toolserver Intuition.',
+	'usage' => 'Įrankis išverstas Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Padėkite išversti šį įrankį!',
-	'help-translate-all' => 'Padėkite išversti Toolserver!',
+	'help-translate-all' => 'Padėkite išversti Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Padėkite kitiems versti sąsajos pranešimus į jūsų kalbą.',
 );
 
@@ -1449,14 +1454,14 @@ $messages['lv'] = array(
 	'bl-mysettings' => 'Mani valodas uzstādījumi',
 	'bl-mysettings-new' => 'Mainīt valodu!',
 	'help-translate-tool' => 'Palīdzi iztulkot šo rīku!',
-	'help-translate-all' => 'Palīdzi tulkot Toolserver!',
+	'help-translate-all' => 'Palīdzi tulkot Toolserver!', # Fuzzy
 );
 
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'fullname' => 'Преводи на корисничкиот посредник на Toolserver',
+	'fullname' => 'Преведување на алатки',
 	'current-settings' => 'Тековни поставки',
 	'current-language' => 'Тековен избран јазик',
 	'settings-legend' => 'Поставки',
@@ -1474,9 +1479,9 @@ $messages['mk'] = array(
 	'bl-mysettings-new' => 'Сменете јазик!',
 	'bl-promo' => 'Преводот е овозможен од $1 и $2.',
 	'bl-changelanguage' => 'Стиснете тука за да го смените јазикот на посредникот за алаткава.',
-	'usage' => 'Алатки што се преведуваат со Toolserver Intuition.',
+	'usage' => 'Алатки што се преведуваат со Intuition.',
 	'help-translate-tool' => 'Помогнете ни со преводот на алаткава!',
-	'help-translate-all' => 'Помогнете ни со преводот на Toolserver!',
+	'help-translate-all' => 'Помогнете ни да ги преведеме алатките!',
 	'help-translate-tooltip' => 'Помогнете им на другите со преведување на посреднички пораки на вашиот јазик.',
 );
 
@@ -1561,9 +1566,9 @@ $messages['mt'] = array(
 	'bl-mysettings-new' => 'Biddel il-lingwa!',
 	'bl-promo' => 'It-traduzzjonijiet huma sostnuti minn $1 u $2.',
 	'bl-changelanguage' => "Iklikkja hawnhekk sabiex tbiddel il-lingwa tal-interfaċċa ta' din l-għodda",
-	'usage' => 'Għodda tradotti minn Toolserver Intuition.',
+	'usage' => 'Għodda tradotti minn Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Għin ittraduċi din l-għodda!',
-	'help-translate-all' => 'Għin ittraduċi Toolserver!',
+	'help-translate-all' => 'Għin ittraduċi Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Għin oħrajn billi tittraduċi messaġġi tal-interfaċċa fil-lingwa tiegħek.',
 );
 
@@ -1580,7 +1585,7 @@ $messages['my'] = array(
  * @author محک
  */
 $messages['mzn'] = array(
-	'fullname' => 'بین‌المللی ساجی رابط کاروری تول‌سرور وسّه',
+	'fullname' => 'بین‌المللی ساجی رابط کاروری تول‌سرور وسّه', # Fuzzy
 	'current-settings' => 'تنظیمات کنونی',
 	'current-language' => 'انتخاب بَیی زوون',
 	'settings-legend' => 'تنظیمات',
@@ -1595,7 +1600,7 @@ $messages['mzn'] = array(
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
-	'fullname' => 'Internasjonalisering for Toolservers brukergrensesnitt',
+	'fullname' => 'Internasjonalisering for Toolservers brukergrensesnitt', # Fuzzy
 	'current-settings' => 'Gjeldende innstillinger',
 	'current-language' => 'Valgt språk',
 	'settings-legend' => 'Innstillinger',
@@ -1613,9 +1618,9 @@ $messages['nb'] = array(
 	'bl-mysettings-new' => 'Endre språk',
 	'bl-promo' => 'Oversettelser drives av $1 og $2.',
 	'bl-changelanguage' => 'Klikk her for å endre grensesnittspråket for dette verktøyet.',
-	'usage' => 'Verktøy oversatt med Toolserver Intuition.',
+	'usage' => 'Verktøy oversatt med Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Hjelp med oversettelsen av dette verktøyet!',
-	'help-translate-all' => 'Hjelp med oversettelsen av Toolserver!',
+	'help-translate-all' => 'Hjelp med oversettelsen av Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
 );
 
@@ -1630,7 +1635,7 @@ $messages['nds'] = array(
  * @author Eukesh
  */
 $messages['new'] = array(
-	'fullname' => 'तुलसर्भरया छ्य्लामि इन्तरफेसया अन्तरराष्ट्रियकरण',
+	'fullname' => 'तुलसर्भरया छ्य्लामि इन्तरफेसया अन्तरराष्ट्रियकरण', # Fuzzy
 	'current-settings' => 'आःया सेटिङ्ग्स',
 	'current-language' => 'आः ल्ययातःगु भाय्',
 	'settings-legend' => 'सेटिङ्ग्स्',
@@ -1646,7 +1651,7 @@ $messages['new'] = array(
 	'bl-mysettings-new' => 'भाय् हिलादिसँ!',
 	'bl-changelanguage' => 'थ्व ज्याभःया इन्तरफेस भाय् हिलेत थन तियादिसँ।',
 	'help-translate-tool' => 'थ्व ज्याभः भाय्‌हिलेत ग्वहालि यानादिसँ!',
-	'help-translate-all' => 'तुलसर्भरया भाय्‌हिलेत ग्वहालि यानादिसँ!',
+	'help-translate-all' => 'तुलसर्भरया भाय्‌हिलेत ग्वहालि यानादिसँ!', # Fuzzy
 );
 
 /** Dutch (Nederlands)
@@ -1700,9 +1705,9 @@ $messages['nn'] = array(
 	'bl-mysettings-new' => 'Byt språk',
 	'bl-promo' => 'Omsetjingane er drivne av $1 og $2.',
 	'bl-changelanguage' => 'Trykk her for å byta språket i brukarflata til verktyet.',
-	'usage' => 'Verkty sette om av Toolserver Intuition.',
+	'usage' => 'Verkty sette om av Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Hjelp til med å setja om dette verktyet!',
-	'help-translate-all' => 'Hjelp til med å setja om Toolserver!',
+	'help-translate-all' => 'Hjelp til med å setja om Toolserver!', # Fuzzy
 );
 
 /** no (no)
@@ -1768,7 +1773,7 @@ $messages['or'] = array(
 	'bl-promo' => 'ଅନୁବାଦଟି $1 ଏବଂ $2 ଦ୍ଵାରା କରାଯାଇଛି ।',
 	'bl-changelanguage' => 'ଏହି ଟୁଲର ଭାଷା ବଦଳାଇବା ପାଇଁ ଏଠାରେ କ୍ଲିକ କରନ୍ତୁ ।',
 	'help-translate-tool' => 'ଏହି ଯନ୍ତ୍ରାଂଶଟିର ଅନୁବାଦରେ ସ‌ହଯୋଗ କରିବେ ।',
-	'help-translate-all' => 'ଟୁଲ୍‌ସର୍ଭର୍‌ ଅନୁବାଦ କରନ୍ତୁ',
+	'help-translate-all' => 'ଟୁଲ୍‌ସର୍ଭର୍‌ ଅନୁବାଦ କରନ୍ତୁ', # Fuzzy
 	'help-translate-tooltip' => 'ଏହି ମେସେଜକୁ ନିଜ ଭାଷାରେ ବଦଳାଇ ଅନ୍ୟମାନଙ୍କୁ ସାହାଯ୍ୟ କରନ୍ତୁ',
 );
 
@@ -1783,14 +1788,14 @@ $messages['pdc'] = array(
 	'bl-mysettings' => "Mei Uffstelling fer d'Schprooch",
 	'bl-mysettings-new' => 'Schprooch ennere',
 	'help-translate-tool' => 'Bitte hilf des Gscharr zu iwwersetze!',
-	'help-translate-all' => 'Hilf bitte daen Waerkzeichheit-Rechlinger zu iwwersetze!',
+	'help-translate-all' => 'Hilf bitte daen Waerkzeichheit-Rechlinger zu iwwersetze!', # Fuzzy
 );
 
 /** Pälzisch (Pälzisch)
  * @author Manuae
  */
 $messages['pfl'] = array(
-	'fullname' => 'Iwasedzung vunde Bnudzaowaflesch vum Toolseava',
+	'fullname' => 'Iwasedzung vunde Bnudzaowaflesch vum Toolseava', # Fuzzy
 	'current-settings' => 'Agduelli Oischdellunge',
 	'current-language' => 'Agduell gwehldi Schbrooch',
 	'settings-legend' => 'Oischdellunge',
@@ -1808,9 +1813,9 @@ $messages['pfl'] = array(
 	'bl-mysettings-new' => 'Sprache wexsle',
 	'bl-promo' => 'Iwasedzunge werre vun $1 un $2 eameschlischd.',
 	'bl-changelanguage' => 'Do drigge, um die Schbrooch fa des Weagzaisch do zu änare.',
-	'usage' => 'Weagzaisch sin vum Toolseava Intuition iwasedzd worre.',
+	'usage' => 'Weagzaisch sin vum Toolseava Intuition iwasedzd worre.', # Fuzzy
 	'help-translate-tool' => 'Hilfs Weagzaisch zu iwasedze.',
-	'help-translate-all' => 'Hilf de Toolseava zu iwasedze.',
+	'help-translate-all' => 'Hilf de Toolseava zu iwasedze.', # Fuzzy
 	'help-translate-tooltip' => 'Hilf onare indem die Nochrischde vunde Bnudzaowaflesch in doi Schbrooch iwasedze duschd.',
 );
 
@@ -1820,7 +1825,7 @@ $messages['pfl'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'fullname' => 'Ustawienia międzynarodowe interfejsu użytkownika Toolservera',
+	'fullname' => 'Ustawienia międzynarodowe interfejsu użytkownika Toolservera', # Fuzzy
 	'current-settings' => 'Bieżące ustawienia',
 	'current-language' => 'Obecnie wybrany język',
 	'settings-legend' => 'Ustawienia',
@@ -1838,9 +1843,9 @@ $messages['pl'] = array(
 	'bl-mysettings-new' => 'Zmień język!',
 	'bl-promo' => 'W tłumaczeniach interfejsu pomagają $1 i $2.',
 	'bl-changelanguage' => 'Kliknij tutaj, aby zmienić język interfejsu tego narzędzia.',
-	'usage' => 'Narzędzia przetłumaczone w ramach inicjatywy Toolserver Intuition.',
+	'usage' => 'Narzędzia przetłumaczone w ramach inicjatywy Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Pomóż przetłumaczyć to narzędzie!',
-	'help-translate-all' => 'Pomóż przetłumaczyć Toolserver!',
+	'help-translate-all' => 'Pomóż przetłumaczyć Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Pomóż innym tłumacząc komunikaty interfejsu na swój język.',
 );
 
@@ -1850,7 +1855,7 @@ $messages['pl'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
-	'fullname' => "Antërnassionalisassion ëd l'Antërfacia Utent dël Toolserver",
+	'fullname' => "Antërnassionalisassion për j'utiss",
 	'current-settings' => 'Ampostassion corente',
 	'current-language' => 'Lenga selessionà al moment',
 	'settings-legend' => 'Regolassion',
@@ -1868,9 +1873,9 @@ $messages['pms'] = array(
 	'bl-mysettings-new' => 'Cangé la lenga!',
 	'bl-promo' => 'le tradussion a son soagnà da $1 e $2.',
 	'bl-changelanguage' => "Ch'a sgnaca ambelessì për cangé le lenga dl'antërfacia ëd s'utiss.",
-	'usage' => 'Utiss voltà da Toolserver Intuition.',
+	'usage' => 'Utiss voltà da Intuition.',
 	'help-translate-tool' => "Ch'a giuta a volté st'utiss.",
-	'help-translate-all' => "Ch'a giuta a volté ël Toolserver!",
+	'help-translate-all' => "Ch'a giuta a volté j'utiss!",
 	'help-translate-tooltip' => "Ch'a giuta j'àutri an voltand ij mëssagi dl'antërfacia an soa lenga.",
 );
 
@@ -1926,7 +1931,7 @@ $messages['pt'] = array(
  * @author Helder.wiki
  */
 $messages['pt-br'] = array(
-	'fullname' => 'Internacionalização da interface de usuário do Toolserver',
+	'fullname' => 'Internacionalização para ferramentas',
 	'current-settings' => 'Configurações atuais',
 	'current-language' => 'Idioma selecionado atualmente',
 	'settings-legend' => 'Configurações',
@@ -1944,9 +1949,9 @@ $messages['pt-br'] = array(
 	'bl-mysettings-new' => 'Alterar o idioma!',
 	'bl-promo' => 'Traduções possíveis graças à $1 e ao $2.',
 	'bl-changelanguage' => 'Clique aqui para alterar o idioma da interface desta ferramenta.',
-	'usage' => 'Ferramentas traduzidas pelo Toolserver Intuition.',
+	'usage' => 'Ferramentas traduzidas pelo Intuition.',
 	'help-translate-tool' => 'Ajude a traduzir esta ferramenta!',
-	'help-translate-all' => 'Ajude a traduzir o Toolserver!',
+	'help-translate-all' => 'Ajude a traduzir as ferramentas!',
 	'help-translate-tooltip' => 'Ajuda os outros, traduzindo as mensagens de interface para o seu idioma.',
 );
 
@@ -1982,7 +1987,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'fullname' => "'Ndernazzionalizzazzione de l'Interfacce Utende de Toolserver",
+	'fullname' => "'Ndernazzionalizzazzione de le struminde",
 	'current-settings' => "'Mbostaziune corrende",
 	'current-language' => 'Lènga scacchiate de mò',
 	'settings-legend' => "'Mbostaziune",
@@ -2000,9 +2005,9 @@ $messages['roa-tara'] = array(
 	'bl-mysettings-new' => "Cange 'a lènghe!",
 	'bl-promo' => 'Le traduziune sonde sostenute da $1 e $2.',
 	'bl-changelanguage' => "Cazze aqquà pe cangià l'inderfacce d'a lènghe de stu strumende.",
-	'usage' => 'Struminde tradotte da Toolserver Intuition.',
+	'usage' => 'Struminde tradotte da Intuition.',
 	'help-translate-tool' => "Danne 'na màne a traducere stu strumende!",
-	'help-translate-all' => "Danne 'na màne a traducere Toolserver!",
+	'help-translate-all' => "Danne 'na màne a traducere le struminde!",
 	'help-translate-tooltip' => "Dà 'na màne a l'otre pe traducere le messagge de interfacce jndr'à lènga toje.",
 );
 
@@ -2010,9 +2015,10 @@ $messages['roa-tara'] = array(
  * @author Askarmuk
  * @author Eleferen
  * @author Lvova
+ * @author Okras
  */
 $messages['ru'] = array(
-	'fullname' => 'Интернационализация пользовательского интерфейса Тулсервера',
+	'fullname' => 'Интернационализация инструментов',
 	'current-settings' => 'Текущие настройки',
 	'current-language' => 'Текущие языковые настройки',
 	'settings-legend' => 'Настройки',
@@ -2030,9 +2036,9 @@ $messages['ru'] = array(
 	'bl-mysettings-new' => 'Изменить язык',
 	'bl-promo' => 'Перевод сделан с помощью $1 и $2.',
 	'bl-changelanguage' => 'Нажмите здесь, чтобы изменить язык интерфейса этого инструмента.',
-	'usage' => 'Инструменты, переведенные с помощью Toolserver Intuition',
+	'usage' => 'Инструменты, переведенные с помощью Intuition.',
 	'help-translate-tool' => 'Помогите перевести этот инструмент!',
-	'help-translate-all' => 'Помогите перевести Тулсервер!',
+	'help-translate-all' => 'Помогите перевести инструменты!',
 	'help-translate-tooltip' => 'Помогите другим путём перевода интерфейса сообщений на ваш язык.',
 );
 
@@ -2042,7 +2048,7 @@ $messages['ru'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
-	'fullname' => 'Toolserver පරිශීලක අතුරුමුහණත සඳහා ජාත්‍යන්තරකරණය',
+	'fullname' => 'Toolserver පරිශීලක අතුරුමුහණත සඳහා ජාත්‍යන්තරකරණය', # Fuzzy
 	'current-settings' => 'වත්මන් සැකසුම්',
 	'current-language' => 'වත්මන් තෝරාගත් භෂාව',
 	'settings-legend' => 'පරිස්ථිතීන්',
@@ -2060,9 +2066,9 @@ $messages['si'] = array(
 	'bl-mysettings-new' => 'භාෂාව වෙනස් කරන්න!',
 	'bl-promo' => 'පරිවර්තනයන් බල ගන්වන්නේ $1 සහ $2 විසිනි.',
 	'bl-changelanguage' => 'මෙම මෙවලමේ අතුරුමුහුණත් භාෂාව වෙනස් කිරීම සඳහා මෙතන ක්ලික් කරන්න.',
-	'usage' => 'Toolserver ප්‍රතිභානය විසින් මෙවලම් පරිවර්තනය කර ඇත.',
+	'usage' => 'Toolserver ප්‍රතිභානය විසින් මෙවලම් පරිවර්තනය කර ඇත.', # Fuzzy
 	'help-translate-tool' => 'මෙම මෙවලම පරිවර්තනය කිරීමට සහය වන්න!',
-	'help-translate-all' => 'මෙවලම්සර්වරය පරිවර්තනය කිරීමට සහය වන්න!',
+	'help-translate-all' => 'මෙවලම්සර්වරය පරිවර්තනය කිරීමට සහය වන්න!', # Fuzzy
 	'help-translate-tooltip' => 'අතුරුමුහුණත් පණිවුඩ ඔබේ භාෂාවට පරිවර්තනය කිරීමෙන් අනිකුත් පරිශීලකයන් හට උදව් කරන්න.',
 );
 
@@ -2098,7 +2104,7 @@ $messages['sl'] = array(
  * @author Abshirdheere
  */
 $messages['so'] = array(
-	'fullname' => 'soo qaadasho Toolserver ee adeegsadaha',
+	'fullname' => 'soo qaadasho Toolserver ee adeegsadaha', # Fuzzy
 	'current-settings' => 'Dooqyada hadda',
 	'current-language' => 'Luqada ee la doortay hadda',
 	'settings-legend' => 'dooqyada',
@@ -2116,9 +2122,9 @@ $messages['so'] = array(
 	'bl-mysettings-new' => 'Badal Luqada!',
 	'bl-promo' => 'Waxaa suura galiyey fasiraadaan $1 iyo $2.',
 	'bl-changelanguage' => 'Guji halkaan si aad ubadasho luqada ee waafaqsan qalabkaan',
-	'usage' => 'Waxaa lagu turjumay Toolserver.',
+	'usage' => 'Waxaa lagu turjumay Toolserver.', # Fuzzy
 	'help-translate-tool' => 'Waxaa caawinaad ka gaystay fasiraada qalabkaan!',
-	'help-translate-all' => 'Waxaa caawinaad ka gaystay fasiraada Toolserver!',
+	'help-translate-all' => 'Waxaa caawinaad ka gaystay fasiraada Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Waxaa caawinaad ka gaystay fasiraada luqadaada hooyo dad kale .',
 );
 
@@ -2141,9 +2147,9 @@ $messages['sq'] = array(
 	'bl-mysettings-new' => 'Ndryshoni gjuhën!',
 	'bl-promo' => 'Përkthimet janë nga $1 dhe $2.',
 	'bl-changelanguage' => 'Klikoni këtu për të ndryshuar gjuhën e ndërfaqes të kësaj vegle.',
-	'usage' => 'Vegla të përkthyera nga Intuita e Toolserverit.',
+	'usage' => 'Vegla të përkthyera nga Intuita e Toolserverit.', # Fuzzy
 	'help-translate-tool' => 'Ndihmoni në përkthimin e kësaj vegle.',
-	'help-translate-all' => 'Ndihmoni në përkthimin e Toolserver-it!',
+	'help-translate-all' => 'Ndihmoni në përkthimin e Toolserver-it!', # Fuzzy
 	'help-translate-tooltip' => 'Ndihmoni të tjerët duke përkthyer mesazhet e ndërfaqes në gjuhën tuaj.',
 );
 
@@ -2152,7 +2158,7 @@ $messages['sq'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'fullname' => 'Превод корисничког окружења Toolservera',
+	'fullname' => 'Превод корисничког окружења Toolservera', # Fuzzy
 	'current-settings' => 'Текуће поставке',
 	'current-language' => 'Изабрани језик',
 	'settings-legend' => 'Поставке',
@@ -2170,9 +2176,9 @@ $messages['sr-ec'] = array(
 	'bl-mysettings-new' => 'Промените језик.',
 	'bl-promo' => 'За преводе су заслужни $1 и $2.',
 	'bl-changelanguage' => 'Кликните овде да промените језик алатке',
-	'usage' => 'Алатке које је превео Тулсервер интуишон:',
+	'usage' => 'Алатке које је превео Тулсервер интуишон:', # Fuzzy
 	'help-translate-tool' => 'помозите нам да преведемо ову алатку',
-	'help-translate-all' => 'Помозите нам да преведемо Тулсервер.',
+	'help-translate-all' => 'Помозите нам да преведемо Тулсервер.', # Fuzzy
 	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик',
 );
 
@@ -2180,7 +2186,7 @@ $messages['sr-ec'] = array(
  * @author Rancher
  */
 $messages['sr-el'] = array(
-	'fullname' => 'Prevod korisničkog sučelja Tulservera',
+	'fullname' => 'Prevod korisničkog sučelja Tulservera', # Fuzzy
 	'current-settings' => 'Tekuće postavke',
 	'current-language' => 'Izabrani jezik',
 	'settings-legend' => 'Postavke',
@@ -2198,9 +2204,9 @@ $messages['sr-el'] = array(
 	'bl-mysettings-new' => 'Promenite jezik.',
 	'bl-promo' => 'Za prevode su zaslužni $1 i $2.',
 	'bl-changelanguage' => 'Kliknite ovde da promenite jezik alatke',
-	'usage' => 'Alatke koje je preveo Tulserver intuišon:',
+	'usage' => 'Alatke koje je preveo Tulserver intuišon:', # Fuzzy
 	'help-translate-tool' => 'pomozite nam da prevedemo ovu alatku',
-	'help-translate-all' => 'Pomozite nam da prevedemo Tulserver.',
+	'help-translate-all' => 'Pomozite nam da prevedemo Tulserver.', # Fuzzy
 	'help-translate-tooltip' => 'Pomozite drugima prevodivši poruke sučelja na svoj jezik',
 );
 
@@ -2260,7 +2266,7 @@ $messages['sw'] = array(
  * @author மதனாஹரன்
  */
 $messages['ta'] = array(
-	'fullname' => 'தூல்சர்வரின் பயனர் இடைமுகத்துக்கான அனைத்துலமயமாக்கல்',
+	'fullname' => 'தூல்சர்வரின் பயனர் இடைமுகத்துக்கான அனைத்துலமயமாக்கல்', # Fuzzy
 	'current-settings' => 'தற்போதைய அமைப்புகள்',
 	'current-language' => 'தற்சமயம் தேர்வு செய்யப்பட்டுள்ள மொழி',
 	'settings-legend' => 'அமைப்புகள்',
@@ -2277,7 +2283,7 @@ $messages['ta'] = array(
 	'bl-promo' => '$1, $2 ஆகியவற்றால் மொழிபெயர்ப்புகள் வழங்கப்படுகின்றன.',
 	'bl-changelanguage' => 'இக்கருவியின் இடைமுகப்பு மொழியை மாற்ற இங்கே சொடுக்கவும்.',
 	'help-translate-tool' => 'இந்த கருவியை மொழிபெயர்க்க உதவுக',
-	'help-translate-all' => 'டூல்சர்வரை மொழிபெயர்க உதவுக!',
+	'help-translate-all' => 'டூல்சர்வரை மொழிபெயர்க உதவுக!', # Fuzzy
 	'help-translate-tooltip' => 'இடைமுகச் செய்திகளை உங்கள் மொழிக்கு மொழிபெயர்ப்பதனூடாக ஏனையவர்களுக்கு உதவுங்கள்.',
 );
 
@@ -2285,7 +2291,7 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'fullname' => 'టూల్‌సర్వర్ పనిముట్ల అంతర్జాతీయీకరణ',
+	'fullname' => 'టూల్‌సర్వర్ పనిముట్ల అంతర్జాతీయీకరణ', # Fuzzy
 	'current-settings' => 'ప్రస్తుత అమరికలు',
 	'current-language' => 'ప్రస్తుతం ఎంచుకున్న భాష',
 	'settings-legend' => 'అమరికలు',
@@ -2298,9 +2304,9 @@ $messages['te'] = array(
 	'bl-mysettings-new' => 'భాషని మార్చు!',
 	'bl-promo' => 'అనువాదాల సౌజన్యం $1 మరియు $2.',
 	'bl-changelanguage' => 'ఈ పనిముట్టు ముఖాంతరపు భాషను మార్చడానికి ఇక్కడ నొక్కండి.',
-	'usage' => 'టూల్‌సర్వర్ ఇన్‌ట్యూషన్ ద్వారా అనువాదమైన పనిముట్లు.',
+	'usage' => 'టూల్‌సర్వర్ ఇన్‌ట్యూషన్ ద్వారా అనువాదమైన పనిముట్లు.', # Fuzzy
 	'help-translate-tool' => 'ఈ పనిముట్టుని అనువదించడానికి సహాయపడండి!',
-	'help-translate-all' => 'టూల్‌సర్వర్‌ను అనువదించడానికి తోడ్పడండి!',
+	'help-translate-all' => 'టూల్‌సర్వర్‌ను అనువదించడానికి తోడ్పడండి!', # Fuzzy
 	'help-translate-tooltip' => 'ముఖాంతరం యొక్క సందేశాలను మీ భాష లోనికి అనువదించడం ద్వారా ఇతరులకి తోడ్పడండి.',
 );
 
@@ -2313,14 +2319,14 @@ $messages['tet'] = array(
 	'tab-about' => 'Kona-ba',
 	'bl-mysettings-new' => 'Lian seluk',
 	'help-translate-tool' => "Favór ida, tulun tradús ne'e!",
-	'help-translate-all' => 'Favór ida, tulun tradús Toolserver!',
+	'help-translate-all' => 'Favór ida, tulun tradús Toolserver!', # Fuzzy
 );
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'fullname' => 'Pagsasandaigdigan para sa Ugnayang-Mukha ng Toolserver',
+	'fullname' => 'Pagsasandaigdigan para sa Ugnayang-Mukha ng Toolserver', # Fuzzy
 	'current-settings' => 'Pangkasalukuyang mga katakdaan',
 	'current-language' => 'Pangkasalukuyang napiling wika',
 	'settings-legend' => 'Mga pagtatakda',
@@ -2338,9 +2344,9 @@ $messages['tl'] = array(
 	'bl-mysettings-new' => 'Palitan ang wika!',
 	'bl-promo' => 'Ang mga salinwika ay binibigyang lakas ng $1 at $2.',
 	'bl-changelanguage' => 'Pindutin dito upang baguhin anng wika ng ugnayang-mukha ng kasangkapang ito.',
-	'usage' => 'Ang mga kasangkapan ay isinalinwika ng Kutob ng Toolserver.',
+	'usage' => 'Ang mga kasangkapan ay isinalinwika ng Kutob ng Toolserver.', # Fuzzy
 	'help-translate-tool' => 'Tumulong sa pagsasalinwika ng kasangkapang ito!',
-	'help-translate-all' => 'Tumulong sa pagsasalinwika ng Toolserver!',
+	'help-translate-all' => 'Tumulong sa pagsasalinwika ng Toolserver!', # Fuzzy
 	'help-translate-tooltip' => 'Tulungan ang iba sa pamamagitan ng pagsasalinwika ng mga mensahe ng ugnayang-mukha papunta sa wika mo.',
 );
 
@@ -2363,7 +2369,7 @@ $messages['tly'] = array(
  * @author Vito Genovese
  */
 $messages['tr'] = array(
-	'fullname' => "Toolserver'ın Kullanıcı Arayüzü için Uluslararasılaştırma",
+	'fullname' => "Toolserver'ın Kullanıcı Arayüzü için Uluslararasılaştırma", # Fuzzy
 	'current-settings' => 'Güncel ayarlar',
 	'current-language' => 'Halihazırda seçilmiş dil',
 	'settings-legend' => 'Ayarlar',
@@ -2381,9 +2387,9 @@ $messages['tr'] = array(
 	'bl-mysettings-new' => 'Dili değiştir!',
 	'bl-promo' => 'Çeviriler, $1 ve $2 tarafından sağlanmaktadır.',
 	'bl-changelanguage' => 'Bu aracın arayüz dilini değiştirmek için buraya tıklayın.',
-	'usage' => 'Toolserver Intuition tarafından çevrilen araçlar.',
+	'usage' => 'Toolserver Intuition tarafından çevrilen araçlar.', # Fuzzy
 	'help-translate-tool' => 'Bu aracın çevrilmesine yardımcı olun!',
-	'help-translate-all' => "Toolserver'ın çevrilmesine yardımcı olun!",
+	'help-translate-all' => "Toolserver'ın çevrilmesine yardımcı olun!", # Fuzzy
 	'help-translate-tooltip' => 'Arayüz iletilerini dilinize çevirerek başkalarına yardımcı olun.',
 );
 
@@ -2399,7 +2405,7 @@ $messages['tzm'] = array(
  * @author Sahran
  */
 $messages['ug-arab'] = array(
-	'fullname' => 'Toolserver نىڭ ئىشلەتكۈچى ئارا يۈزىنى خەلقئارالاشتۇرۇش',
+	'fullname' => 'Toolserver نىڭ ئىشلەتكۈچى ئارا يۈزىنى خەلقئارالاشتۇرۇش', # Fuzzy
 	'current-settings' => 'نۆۋەتتىكى تەڭشەكلەر',
 	'current-language' => 'نۆۋەتتە تاللانغان تىل',
 	'settings-legend' => 'تەڭشەكلەر',
@@ -2417,20 +2423,22 @@ $messages['ug-arab'] = array(
 	'bl-mysettings-new' => 'تىل ئۆزگەرت!',
 	'bl-promo' => 'تەرجىمىلەر $1 ۋە $2 نى قوللانغان.',
 	'bl-changelanguage' => 'بۇ جاينى چېكىپ مەزكۇر قورالنىڭ ئارايۈز تىلىنى ئۆزگەرتىڭ.',
-	'usage' => 'Toolserver Intuition تەرجىمە قىلغان قورال.',
+	'usage' => 'Toolserver Intuition تەرجىمە قىلغان قورال.', # Fuzzy
 	'help-translate-tool' => 'بۇ قورالنى تەرجىمە قىلىشقا ياردەملىشىڭ!',
-	'help-translate-all' => 'Toolserver نى تەرجىمە قىلىشقا ياردەملىشىڭ!',
+	'help-translate-all' => 'Toolserver نى تەرجىمە قىلىشقا ياردەملىشىڭ!', # Fuzzy
 	'help-translate-tooltip' => 'باشقىلارنىڭ ئارايۈزنى تىلىڭىزغا تەرجىمە قىلىشىغا ياردەملىشىڭ.',
 );
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Andriykopanytsia
  * @author Base
  * @author DixonD
  * @author Steve.rusyn
+ * @author SteveR
  */
 $messages['uk'] = array(
-	'fullname' => 'Інтернаціоналізація користувацького інтерфейсу Тулсервера',
+	'fullname' => 'Інтернаціоналізація для інструментів',
 	'current-settings' => 'Поточні налаштування',
 	'current-language' => 'Поточна вибрана мова',
 	'settings-legend' => 'Налаштування',
@@ -2439,6 +2447,7 @@ $messages['uk'] = array(
 	'renew-cookies' => 'оновити cookies',
 	'cookie-expiration' => 'Закінчення терміну дії cookie',
 	'clearcookies-success' => 'Успішно очищено cookies.',
+	'renewcookies-success' => 'Куки оновлено! Ви встановили термін на $1.',
 	'tab-overview' => 'Огляд',
 	'tab-settings' => 'Налаштування',
 	'tab-about' => 'Опис',
@@ -2447,9 +2456,9 @@ $messages['uk'] = array(
 	'bl-mysettings-new' => 'Змінити мову!',
 	'bl-promo' => 'Переклад здійснено за допомогою $1 і $2.',
 	'bl-changelanguage' => 'Натисніть тут, щоб змінити мову інтерфейсу цього інструмента.',
-	'usage' => 'Інструменти, перекладені за допомогою Toolserver Intuition.',
+	'usage' => 'Інструменти, перекладені за допомогою Intuition.',
 	'help-translate-tool' => 'Допоможіть перекласти цей інструмент!',
-	'help-translate-all' => 'Допоможіть перекласти Toolserver!',
+	'help-translate-all' => 'Допоможіть перекласти інструменти!',
 	'help-translate-tooltip' => 'Допоможіть іншим, перекладаючи повідомлення інтерфейсу на Вашу мову.',
 );
 
@@ -2457,7 +2466,7 @@ $messages['uk'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'fullname' => 'Quốc tế hóa giao diện người dùng của Toolserver',
+	'fullname' => 'Quốc tế hóa các công cụ',
 	'current-settings' => 'Các tùy chọn hiện hành',
 	'current-language' => 'Ngôn ngữ được chọn',
 	'settings-legend' => 'Tùy chọn',
@@ -2475,9 +2484,9 @@ $messages['vi'] = array(
 	'bl-mysettings-new' => 'Thay đổi ngôn ngữ!',
 	'bl-promo' => 'Bản dịch do $1 và $2.',
 	'bl-changelanguage' => 'Thay đổi ngôn ngữ giao diện của công cụ này.',
-	'usage' => 'Các công cụ do Toolserver Intuition dịch',
+	'usage' => 'Các công cụ do Intuition biên dịch',
 	'help-translate-tool' => 'Giúp dịch công cụ này!',
-	'help-translate-all' => 'Giúp dịch Toolserver!',
+	'help-translate-all' => 'Hãy cùng biên dịch các công cụ!',
 	'help-translate-tooltip' => 'Giúp người ta sử dụng công cụ bằng cách dịch thông điệp giao diện qua ngôn ngữ của bạn.',
 );
 
@@ -2538,7 +2547,7 @@ $messages['zh-hans'] = array(
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
-	'fullname' => '國際化Toolserver使用者介面',
+	'fullname' => '國際化Toolserver使用者介面', # Fuzzy
 	'current-settings' => '當前的設定',
 	'current-language' => '當前所選的語言',
 	'settings-legend' => '設定',
@@ -2556,9 +2565,9 @@ $messages['zh-hant'] = array(
 	'bl-mysettings-new' => '更改語言！',
 	'bl-promo' => '翻譯來自 $1 和 $2 。',
 	'bl-changelanguage' => '按此更改此工具的界面語言。',
-	'usage' => '由Toolserver Intuition翻譯的工具。',
+	'usage' => '由Toolserver Intuition翻譯的工具。', # Fuzzy
 	'help-translate-tool' => '協助翻譯此工具！',
-	'help-translate-all' => '協助翻譯Toolserver！',
+	'help-translate-all' => '協助翻譯Toolserver！', # Fuzzy
 	'help-translate-tooltip' => '幫助其他人把界面翻譯成您的語言。',
 );
 
@@ -2566,7 +2575,7 @@ $messages['zh-hant'] = array(
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(
-	'fullname' => 'Toolserver用戶界面國際化',
+	'fullname' => 'Toolserver用戶界面國際化', # Fuzzy
 	'current-settings' => '目前設置',
 	'current-language' => '目前所選語言',
 	'settings-legend' => '設定',
@@ -2584,8 +2593,8 @@ $messages['zh-hk'] = array(
 	'bl-mysettings-new' => '更改語言！',
 	'bl-promo' => '翻译由$1及$2提供。',
 	'bl-changelanguage' => '若要更改此工具的介面語言，請按此處。',
-	'usage' => '由Toolserver Intuition翻譯的工具。',
+	'usage' => '由Toolserver Intuition翻譯的工具。', # Fuzzy
 	'help-translate-tool' => '協助翻譯此工具 ！',
-	'help-translate-all' => '協助翻譯Toolserver！',
+	'help-translate-all' => '協助翻譯Toolserver！', # Fuzzy
 	'help-translate-tooltip' => '幫助其他人把界面翻譯成您的語言。',
 );

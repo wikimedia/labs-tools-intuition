@@ -321,6 +321,16 @@ $messages['fi'] = array(
 	'form-legend-settings' => 'Asetukset',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'alws-selectwiki' => '(vel wiki)',
+	'alws-group-mustused' => 'Mest brúktu wikiir',
+	'alws-group-allaz' => 'Allar wikiir í bókstavarøð',
+	'form-legend-settings' => 'Innstillingar',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Peter17
@@ -526,7 +536,7 @@ $messages['ksh'] = array(
 	'form-legend-settings' => 'Enschtällonge',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  */
 $messages['ky'] = array(
@@ -921,6 +931,7 @@ $messages['ug-arab'] = array(
 /** Ukrainian (українська)
  * @author Base
  * @author Steve.rusyn
+ * @author SteveR
  */
 $messages['uk'] = array(
 	'alws-selectwiki' => '(виберіть вікі)',

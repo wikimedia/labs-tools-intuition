@@ -676,6 +676,7 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Kwj2772
  * @author 아라
  */
 $messages['ko'] = array(
@@ -685,10 +686,10 @@ $messages['ko'] = array(
 	'language-label' => '언어',
 	'namespace-label' => '이름공간',
 	'pagename-label' => '문서 이름 (이름공간 제외)',
-	'transclusion-count-label' => '틀 수',
-	'transclusion-count' => '틀 $1개를 찾았습니다.',
+	'transclusion-count-label' => '틀을 포함하는 횟수',
+	'transclusion-count' => '$1회의 틀 포함을 확인했습니다.',
 	'error-suggestion' => '아마도 문서 이름(또는 대소문자)을 잘못 입력했습니까?',
-	'time-label' => '명령을 실행하는 데 걸리는 시간',
+	'time-label' => '명령을 실행하는 데 걸린 시간',
 );
 
 /** Colognian (Ripoarisch)

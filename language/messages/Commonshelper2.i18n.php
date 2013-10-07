@@ -87,6 +87,7 @@ $messages['en'] = array(
  * @author Krinkle
  * @author Kwj2772
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -96,7 +97,7 @@ $messages['qqq'] = array(
 $3 is target wiki name.',
 	'language' => '{{Identical|Language}}',
 	'project' => '{{Identical|Project}}',
-	'categories' => '{{Identical|Categories}}',
+	'categories' => '{{Identical|Category}}',
 	'checkusage' => '{{Optional}}',
 	'use_checkusage' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).',
 	'tusc' => '{{Ignore}}
@@ -175,6 +176,7 @@ $messages['am'] = array(
  * @author Meno25
  * @author OsamaK
  * @author Tarawneh
+ * @author Zaher kadour
  * @author أحمد
  */
 $messages['ar'] = array(
@@ -210,7 +212,7 @@ $messages['ar'] = array(
 	'output_information' => 'للرفع اليدوي عدِّل النص أعلاه (إن دعت الحاجة لذلك) ثم احفظ $1الملف$2 على جهازك، ثم $3ارفعه$4.',
 	'upload_submit' => 'ارفع!',
 	'target_wiki' => 'الويكي الهدف',
-	'error_bot_blocked' => 'روبوت الرفع محظور في ويكيميديا كومنز.',
+	'error_bot_blocked' => 'بوت الرفع محظور في ويكيميديا كومنز.',
 	'error_upload_meta' => 'لا يمكن الرَّفع مباشرة بسبب وجود مشكلة في البيانات الفوقية (انظر أعلاه) !',
 	'error_tusc_failed' => 'فشل التحقق من TUSC!',
 	'error_only_commons' => 'الرفع المباشرة يعمل فقط على ويكيميديا كومنز.',
@@ -1312,6 +1314,39 @@ $messages['fi'] = array(
 	'help_commons' => '$1Lisää viesti Commonsiin$2',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'attention' => 'Legg til merkis',
+	'description' => 'Eitt tók til at flyta fílur frá Wikimedia verkætlanum til Wikimedia Commons',
+	'language' => 'Mál',
+	'project' => 'Verkætlan',
+	'source_file' => 'Keldufíla',
+	'commons_username' => 'Wikimedia Commons brúkaranavn',
+	'commons_to_project' => 'Wikimedia Commons til verkætlanina',
+	'move_file_from_com' => 'Flyt fílur frá Wikimedia Commons til verkætlanina',
+	'categories' => 'Bólkar',
+	'remove_cats' => 'Tak burtur verandi bólkar',
+	'use_checkusage' => 'Nýt $1CommonSense$2 til uppskot um nýggir bólkar',
+	'tusc_user' => 'TUSC brúkaranavn',
+	'tusc_pass' => 'TUSC loyniorð',
+	'do_it' => 'Ger tað',
+	'error_transfer_usr' => 'Tú hevur ikki valt eitt Wikimedia Commons brúkaranavn',
+	'error_not_exists' => 'Keldufílan er ikki til!',
+	'error_on_commons' => 'Keldufílan er longu á $1!',
+	'error_file_exists' => 'Fílan er longu til á $3 sum "$1$4$2"!',
+	'error_meta_no_good' => 'Metadáta: Ongar góðar fyrimyndir funnar! $1Vinarliga innset/dagfør metadáta fyri verkætlan$2',
+	'original_wikitext' => 'Upprunaligur wikitekstur',
+	'new_wikitext' => 'Nýggjur wikitekstur',
+	'new_filename' => 'Nýtt fílunavn:',
+	'upload_submit' => 'Legg út!',
+	'target_wiki' => 'málwikiin',
+	'error_bot_blocked' => 'Útleggingar-botturin er sperraður á Wikimedia Commons.',
+	'help_mail' => 'Send ein meyl til $1',
+	'help_commons' => '$1Legg eitt innslag á Commons$2',
+);
+
 /** French (français)
  * @author Coyau
  * @author Crochet.david
@@ -2161,7 +2196,7 @@ $messages['ko'] = array(
 	'error_commons_user' => '파일을 옮긴 사용자를 판별하기 위해 당신의 공용 계정 이름이 설명에 들어있어야 합니다!',
 	'error_upload_users' => '테스트 기간 중 올리기 기능은 일부 사용자만이 사용할 수 있습니다!',
 	'error_upload_file' => '원본 파일을 다운로드할 수 없습니다.',
-	'help_intro' => '버그를 보고하거나 알찬 것을 제안하거나 질문이 있으면 아래에 문의 유형 중 하나를 사용할 수 있습니다:',
+	'help_intro' => '버그를 보고하거나 기능을 제안하거나 질문이 있으면 아래에 문의 유형 중 하나를 사용할 수 있습니다:',
 	'help_jira' => '$1JIRA (계정 필요)$2 (Project: Commonshelper2)',
 	'help_mail' => '$1한테 메일 보내기',
 	'help_commons' => '$1공용에 게시물 추가$2',
@@ -2233,7 +2268,7 @@ $messages['ku-latn'] = array(
 	'help_mail' => 'Ji $1 re e-namekî bişîne',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  * @author Викиней
  */
@@ -2302,7 +2337,7 @@ $messages['lb'] = array(
 	'error_commons_user' => "Fir de Benotzer z'identifizéieren deen den Transfert mécht, muss de Benotzernumm vu Wikimedia Commons an der Beschreiwung dra sinn!",
 	'error_upload_users' => "D'Fonctioun vum Eroplueden ass während der Testphas nëmme fir e puer Benotzer disponibel!",
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
-	'help_intro' => "Wann Dir e Software-Feeler melle wëllt, eng Fonctioun virschloe wëllt oder eng Fro hutt, da kënnt Dir d'Kontaktmethoden hei drënner benotzen:",
+	'help_intro' => "Wann Dir e Software-Feeler melle wëllt, eng Funktioun virschloe wëllt oder eng Fro hutt, da kënnt Dir d'Kontaktmethoden hei drënner benotzen:",
 	'help_jira' => '$1JIRA (Dir braucht e Benotzerkont)$2 (Projet: Commonshelper2)',
 	'help_mail' => 'Eng Mail op $1 schécken',
 	'help_commons' => '$1Eng Noriicht op Commons hannerloossen$2',
@@ -2318,16 +2353,24 @@ $messages['lez'] = array(
 
 /** Lithuanian (lietuvių)
  * @author Eitvys200
+ * @author Hugo.arg
  */
 $messages['lt'] = array(
 	'attention' => 'Dėmesio',
+	'description' => 'Įrankis, skirtas failų perkėlimui iš Vikimedijos projektų į Vikiteką',
+	'change_meta' => 'Pakeisti $1kategorijos ir šablono nustatymus$2 $3',
 	'jira_link' => 'Pranešk apie klaidą arba pasiūlyti funkcija',
 	'language' => 'Kalba',
 	'project' => 'Projektas',
 	'source_file' => 'Šaltinio failas',
+	'target_file' => 'Tikslinis failas',
 	'commons_username' => 'Wikimedia Commons vartotojo vardas',
+	'commons_to_project' => 'Iš Vikitekos į projektą',
+	'move_file_from_com' => 'Perkelti failą iš Vikitekos į projektą',
 	'categories' => 'Kategorijos',
 	'remove_cats' => 'Pašalinti esamas kategorijas',
+	'use_checkusage' => 'Naudoti $1CommonSense$2 naujų kategorijų pasiūlymams',
+	'use_tusc' => 'Naudoti $1TUSC$2 tiesioginio failo perkėlimo autorizacijai',
 	'tusc_user' => 'TUSC vartotojo vardas',
 	'tusc_pass' => 'TUSC slaptažodis',
 	'do_it' => 'padaryk tai',
@@ -2335,11 +2378,28 @@ $messages['lt'] = array(
 	'error_not_exists' => 'Šaltinio failas neegzistuoja!',
 	'error_on_commons' => 'Šaltinio failas jau $1 !',
 	'error_file_exists' => 'Failas jau egzistuoja $3 kaip " $1 $4 $2 "!',
+	'error_diff_exists' => 'Šiuo pavadinimu jau yra kitas tikslinis failas!',
+	'error_no_meta' => 'Nerasta jokios metadatos apie pradinę wiki! $1Prašome pridėti/atnaujinti projekto metadatą$2',
+	'error_meta_no_good' => 'Metadata: nerasta tinkamų šablonų! $1Prašome pridėti/atnaujinti projekto metadatą$2',
+	'error_meta_bad' => 'Metadata: rastas netinkamas šablonas! $1Prašome pridėti/atnaujinti projekto metadatą$2',
 	'original_wikitext' => 'Originalus Wiki tekstas',
 	'new_wikitext' => 'Naujas wiki tekstas',
 	'new_filename' => 'Naujas pavadinimas:',
+	'output_information' => 'Rankiniam įkėlimui pakoreguokite aukščiau esantį tekstą (jei reikia), išsaugokite $1failą$2 savo kompiuteryje ir $3jį įkelkite$4.',
 	'upload_submit' => 'Įkelti!',
+	'target_wiki' => 'tikslinė wiki',
+	'error_bot_blocked' => 'Įkėlimo robotas Vikitekoje užblokuotas.',
+	'error_upload_meta' => 'Tiesioginis įkėlimas neįmanomas dėl metaduomenų problemos (žiūrėkite aukščiau)!',
+	'error_tusc_failed' => 'TUSC patikra nepavyko!',
+	'error_only_commons' => 'Tiesioginė failų perkėla tik Vikitekoje!',
+	'upload_control_text' => 'Patikrinkite naują wiki tekstą ir, jei viskas tvarkoje, spauskite "$1"!',
+	'error_commons_user' => 'Perkėlos vykdytojo identifikacijos reikmėms, jūsų Vikitekos naudotojo vardas turi būti apraše!',
+	'error_upload_users' => 'Įkėlimo funkcija yra galima tik keletui naudotojų bandomuoju laikotarpiu!',
+	'error_upload_file' => 'Originalus failas negali būti atsiųstas.',
+	'help_intro' => 'Kuomet norite pranešti klaidą, pateikti pasiūlymus ar klausimus, galite pasinaudoti vienu iš žemiau nurodytų kontaktų:',
+	'help_jira' => '$1JIRA (jums reikalinga paskyra)$2 (Projektas: Commonshelper2)',
 	'help_mail' => 'Siųsti laišką $1',
+	'help_commons' => '$1Pridėti įrašą Vikitekoje$2',
 );
 
 /** Latvian (latviešu)
@@ -2418,12 +2478,12 @@ $messages['mk'] = array(
 	'target_file' => 'Целна податотека',
 	'commons_username' => 'Корисничко име на Ризницата',
 	'commons_to_project' => 'Корисничко име на Ризницата',
-	'move_file_from_com' => 'Премести податотека од Заедничката Ризница во проект',
+	'move_file_from_com' => 'Премести податотека од Ризницата во проект',
 	'categories' => 'Категории',
 	'remove_cats' => 'Отстрани постоечки категории',
 	'checkusage' => 'ПровериУпотреба',
-	'use_checkusage' => 'Користете го $1CommonSense$2 за да предложите нови категории',
-	'use_tusc' => 'Користете го $1TUSC$2 за да се заверите и непосредно да ја префрлите податотеката',
+	'use_checkusage' => 'Користи го $1CommonSense$2 за предлагање на нови категории',
+	'use_tusc' => 'Користи го $1TUSC$2 за заверка и непосредно префрлање на податотеката',
 	'tusc_user' => 'Корисничко име на TUSC',
 	'tusc_pass' => 'Лозинка на TUSC',
 	'do_it' => 'Изврши',
@@ -3173,7 +3233,7 @@ $messages['pt-br'] = array(
 	'new_wikitext' => 'Novo código wiki',
 	'new_filename' => 'Novo nome de arquivo:',
 	'output_information' => 'Para fazer o carregamento manual, edite o texto acima (se necessário), salve $1o arquivo$2 no seu computador, em seguida, $3carregue-o$4.',
-	'upload_submit' => 'Carregar!',
+	'upload_submit' => 'Enviar!',
 	'target_wiki' => 'a wiki de destino',
 	'error_bot_blocked' => 'O robô de carregamento está bloqueado no Wikimedia Commons.',
 	'error_upload_meta' => 'Não é possível fazer upload diretamente, pois há problema com os metadados (veja acima)!',
@@ -3990,6 +4050,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Andriykopanytsia
  * @author Base
  * @author Dim Grits
  * @author Olvin
@@ -4013,6 +4074,7 @@ $messages['uk'] = array(
 	'categories' => 'Категорії',
 	'remove_cats' => 'Вилучити наявні категорії',
 	'use_checkusage' => 'Використовуйте $1CommonSense$2, щоб запропонувати нові категорії',
+	'use_tusc' => 'Використовуйте $1TUSC$2 для авторизації та безпосередньої передачі файла',
 	'tusc_user' => "Ім'я користувача TUSC",
 	'tusc_pass' => 'Пароль TUSC',
 	'do_it' => 'Зробити це',
@@ -4021,15 +4083,25 @@ $messages['uk'] = array(
 	'error_on_commons' => 'Вихідний файл уже на $1!',
 	'error_file_exists' => 'Файл уже існує у $3 як «$1$4$2»!',
 	'error_diff_exists' => 'Інший файл в цільовій вікі має таку ж назву!',
+	'error_no_meta' => 'Жодних метаданих не знайдено у вихідному вікі! $1Додайте або оновіть метадані проекту$2',
+	'error_meta_no_good' => 'Метадані: не знайдено належних шаблонів! $1Оновіть або додайте метадані проекту$2',
+	'error_meta_bad' => 'Метадані: знайдено неналежний шаблон! $1Додайте або оновіть метадані проекту$2',
 	'original_wikitext' => 'Вихідний вікі-текст',
 	'new_wikitext' => 'Новий вікі-текст',
 	'new_filename' => 'Нова назва файлу:',
+	'output_information' => "Для ручного вивантаження відредагуйте текст вгорі (якщо потрібно), збережіть $1файл$2 на вашому комп'ютері, потім  $3вивантажте його$4.",
 	'upload_submit' => 'Завантажити!',
 	'target_wiki' => 'цільова вікі',
 	'error_bot_blocked' => 'Завантажуючого бота заблоковано на Вікісховищі.',
+	'error_upload_meta' => 'Не можна вивантажити безпосередньо, бо існує проблема з метаданими (див. вище)!',
 	'error_tusc_failed' => 'Помилка TUSC-верифікації!',
 	'error_only_commons' => 'Прямі завантаження працюють лише на Вікісховищі!',
+	'upload_control_text' => 'Перевірте новий вікі-текст і натисніть "$1", якщо все добре!',
+	'error_commons_user' => "Для визначення хто передав файл, ваше ім'я користувача Wikimedia Commons має бути в описі!",
+	'error_upload_users' => 'Функція вивантаження доступна лише для деяких користувачів протягом тестового періоду!',
 	'error_upload_file' => 'Не вдається завантажити вихідний файл.',
+	'help_intro' => 'Якщо ви хочете повідомити про помилку, запропонувати нову функцію або маєте питання, то ви можете використовувати один з контактів нижче:',
+	'help_jira' => '$1JIRA (вам потрібний обліковий запис)$2 (Проект: Commonshelper2)',
 	'help_mail' => 'Надіслати електронного листа на адресу $1',
 	'help_commons' => '$1Додати повідомлення на Commons$2',
 );

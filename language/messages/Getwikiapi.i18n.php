@@ -299,6 +299,14 @@ $messages['fi'] = array(
 	'output' => 'Tulokset haulle ”$1”',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'no-matches' => 'Onki samsvaraði "$1"',
+	'output' => 'Útdáta fyri "$1"',
+);
+
 /** French (français)
  * @author Jean-Frédéric
  */
@@ -533,7 +541,7 @@ $messages['lv'] = array(
 $messages['mk'] = array(
 	'formats-heading' => 'Формати на изводот',
 	'input' => 'Внос',
-	'label-wikiids' => 'Идентификатори за вики',
+	'label-wikiids' => 'Викиназнаки',
 	'no-matches' => 'Ништо не одговара на „$1“',
 	'output' => 'Извод за „$1“',
 );
