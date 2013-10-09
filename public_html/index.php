@@ -182,6 +182,7 @@ if ( $I18N->hasCookies() ) {
 		$time = $number . '+ ' . _g( 'days', array(
 			'parsemag' => true, 'variables' => array( $number )
 		) );
+		$after = $renew;
 
 	// 1+ day
 	} elseif ( $lifetime > 24 * 3600 ) {
@@ -220,12 +221,8 @@ if ( $I18N->hasCookies() ) {
 			'class' => "cookie-health $class",
 			'readonly' => true
 		) )
-	.	' ('
-	.	kfTag( $I18N->msg( 'renew-cookies' ), 'a', array(
-			'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) )
-		) )
-	.	')<br/>'
 	.	$after
+	.	'<br/>'
 	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
 	);
 	$toolSettings['tabs']['#tab-currentsettings'] = $I18N->msg( 'tab-overview' );
