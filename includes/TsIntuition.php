@@ -32,7 +32,7 @@ class TsIntuition {
 
 	public $mode = null; // 'in-tool', 'dashboard'
 
-	// Address to the dashboard home. Should end with a slash or .extension
+	// Address to the public html, must end in a slash.
 	public $dashboardHome = '//toolserver.org/~intuition/';
 
 	// Construct options
