@@ -36,6 +36,7 @@ $messages['en'] = array(
 	'months' => 'January, February, March, April, May, June, July, August, September, October, November, December',
 	'mypatrollog' => 'my patrol log',
 	'namespace' => 'Namespace',
+	'navtoggle-tooltip' => 'Toggle the sidebar',
 	'nomatches' => 'No relevant changes for your settings',
 	'order' => 'Order',
 	'permalink' => 'Permalink to current settings',
@@ -106,6 +107,7 @@ See also:
 	'mypatrollog' => 'Label of the link to your patrol log',
 	'namespace' => 'Label of dropdown menu for filtering by namespace.
 {{Identical|Namespace}}',
+	'navtoggle-tooltip' => 'Tooltip for the icon that toggles the MediaWiki sidebar',
 	'nomatches' => 'Placeholder text in place of the changes list when the query returned no results',
 	'order' => 'Section label for the sort order radio buttons.
 {{Identical|Order}}',
