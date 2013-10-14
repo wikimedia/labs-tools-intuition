@@ -1823,6 +1823,7 @@ $messages['pfl'] = array(
  * @author Marcin Łukasz Kiejzik
  * @author Odder
  * @author Sp5uhe
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'fullname' => 'Ustawienia międzynarodowe interfejsu użytkownika Toolservera', # Fuzzy
@@ -1845,7 +1846,7 @@ $messages['pl'] = array(
 	'bl-changelanguage' => 'Kliknij tutaj, aby zmienić język interfejsu tego narzędzia.',
 	'usage' => 'Narzędzia przetłumaczone w ramach inicjatywy Toolserver Intuition.', # Fuzzy
 	'help-translate-tool' => 'Pomóż przetłumaczyć to narzędzie!',
-	'help-translate-all' => 'Pomóż przetłumaczyć Toolserver!', # Fuzzy
+	'help-translate-all' => 'Pomóż przetłumaczyć narzędzia!',
 	'help-translate-tooltip' => 'Pomóż innym tłumacząc komunikaty interfejsu na swój język.',
 );
 
@@ -1889,10 +1890,13 @@ $messages['ps'] = array(
 	'choose-language' => 'يوه ژبه وټاکۍ',
 	'clear-cookies' => 'کوکيز سپينول',
 	'renew-cookies' => 'کوکيز بيا نوي کول',
+	'tab-overview' => 'مخليدنه',
 	'tab-settings' => 'امستنې',
 	'tab-about' => 'په اړه',
+	'tab-demo' => 'آزمېښتي',
 	'bl-mysettings' => 'زما د ژبې امستنې',
 	'bl-mysettings-new' => 'ژبه ټاکل!',
+	'bl-promo' => 'ژباړې د $1 او $2 لخوا برابرې شوي.',
 );
 
 /** Portuguese (português)

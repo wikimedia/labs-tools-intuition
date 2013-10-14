@@ -79,7 +79,8 @@ The title of the tool.',
 	'search-table-th-search' => 'Form: verb
 {{Identical|Search}}',
 	'filter-all-countries' => 'Entry for the countries filter selecting all countries.',
-	'filter-all-languages' => 'Entry for the language filter selecting all languages.',
+	'filter-all-languages' => 'Entry for the language filter selecting all languages.
+{{Identical|All languages}}',
 	'db-field-country' => 'Translation of the field "country" in the monuments database.',
 	'db-field-lang' => 'Translation of the field "language" in the monuments database.
 {{Identical|Language}}',
@@ -2140,10 +2141,10 @@ $messages['ko'] = array(
 	'db-field-st_name_pct' => '이름 %',
 	'db-field-st_total' => '총 수',
 	'toolbox-label-searchtipps' => '퍼지 찾기는 %term 또는 term% 또는 %term% 사용',
-	'toolbox-meta-title' => '위키 기념물 사랑 도구모음',
+	'toolbox-meta-title' => '위키 기념물을 사랑하다 도구모음',
 	'toolbox-main-title' => 'WLM 도구모음',
 	'toolbox-main-description' => '관련된 도구 집합',
-	'toolbox-wikilovesmonuments' => '위키 기념물 사랑',
+	'toolbox-wikilovesmonuments' => '위키 기념물을 사랑하다',
 	'toolbox-nav-homepage' => '대문페이지',
 	'toolbox-nav-statistics' => '통계',
 	'toolbox-nav-search' => '찾기',

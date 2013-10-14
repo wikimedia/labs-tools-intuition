@@ -968,6 +968,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Omidh
  * @author Wayiran
  * @author ZxxZxxZ
  */
@@ -3213,18 +3214,19 @@ $messages['yi'] = array(
  * @author Liangent
  * @author Shizhao
  * @author Xiaomingyan
+ * @author 乌拉跨氪
  */
 $messages['zh-hans'] = array(
 	'title' => 'SVG 翻译',
 	'error-tryagain' => '$1点击你的浏览器的返回按钮重试。',
 	'error-nothing' => '没有要翻译的内容。',
-	'error-notsvg' => '不是 SVG 文件。',
+	'error-notsvg' => '非SVG文件。',
 	'error-unexpected' => '发生意外错误。',
 	'error-notfound' => '不能从提供的 URL 中获取SVG 文件。',
-	'error-upload' => '上传时发生错误。',
+	'error-upload' => '上传时出错。',
 	'begin-translation' => '开始翻译',
-	'th-original' => '源语言',
-	'th-translation' => '翻译',
+	'th-original' => '原文',
+	'th-translation' => '译文',
 	'th-language' => '语言',
 	'th-username' => '用户名',
 	'th-password' => '密码',
@@ -3234,18 +3236,18 @@ $messages['zh-hans'] = array(
 	'preview' => '预览',
 	'translate' => '翻译',
 	'translate-instructions' => '可以输入文件名（例如“$1”）或完整的URL(例如 "$2")。如果选择第一个选项，维基共享资源会被作为来源。如果是从其他网站或wiki翻译SVG文件，你必须使用完整的url。',
-	'svginput-label' => 'SVG 文件',
+	'svginput-label' => 'SVG文件',
 	'stats-footer' => '自$2起，本工具已翻译约$1个文件。',
-	'uploading' => '上传中',
+	'uploading' => '正在上传',
 	'upload-complete' => '上传顺利完成。该图像现在应该位于$1',
 	'editdescriptionpage' => '编辑新的描述页',
 	'disclaimer' => '某些匿名数据将会被私人收集用于统计目的。如果使用TUSC用户名，它也将会被记录下来以用于协助应付破坏行为。密码永远不会被记录。',
 	'author-complete' => '请填写作者信息！',
 	'preview-hide' => '隐藏预览',
 	'preview-refresh' => '刷新预览',
-	'error-must-accept' => '若要继续直接上载，您必须接受提供的使用条款。',
+	'error-must-accept' => '若要继续直接上传，您必须接受提供的使用条款。',
 	'error-tusc-failed' => 'TUSC验证失败：用户名或密码不正确。',
-	'description-license' => '选择描述和许可证',
+	'description-license' => '选择描述和授权协议',
 	'finalise' => '敲定细节',
 );
 

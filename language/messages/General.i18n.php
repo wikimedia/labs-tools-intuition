@@ -729,6 +729,7 @@ $messages['fa'] = array(
 /** Finnish (suomi)
  * @author Nike
  * @author Olli
+ * @author Pxos
  * @author Silvonen
  * @author Stryn
  */
@@ -747,7 +748,7 @@ $messages['fi'] = array(
 	'minutes' => '{{PLURAL: $1|minuutti|minuuttia}}',
 	'seconds' => '{{PLURAL: $1|sekunti|sekuntia}}',
 	'last-modified-date' => 'Viimeksi muokattu $1',
-	'view-source' => 'näytä lähdekoodi',
+	'view-source' => 'Näytä lähdekoodi',
 	'and' => '&#32;ja',
 );
 

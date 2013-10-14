@@ -187,6 +187,32 @@ $messages['az'] = array(
 	'typeNew' => 'Yeni səhifələr',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'apply' => 'Lakaat da dalvezout',
+	'changelog' => 'Petra nevez',
+	'clear' => 'riñsañ',
+	'cvn-adder-empty' => 'Dianav',
+	'cvn-reason' => 'Abeg',
+	'cvn-reason-empty' => "N'eus bet kavet abeg ebet",
+	'documentation' => 'Teuliadur',
+	'filter' => 'Sil',
+	'helpicon-tooltip' => "Klikañ amañ evit kaout muioc'h a ditouroù",
+	'lastupdate-cvn' => 'Hizivadenn ziwezhañ : $1',
+	'lastupdate-rc' => 'Hizivadenn ziwezhañ : $1',
+	'limit' => 'Bevenn',
+	'months' => "Genver, C'hwevrer, Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu",
+	'namespace' => 'Esaouenn anv',
+	'showAnonOnly' => 'Dizanv hepken',
+	'time-from' => 'Eus',
+	'time-untill' => 'Betek',
+	'typeEdit' => 'Kemmoù',
+	'typeNew' => 'Pajennoù nevez',
+	'userfilter' => 'Sil implijer',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -212,6 +238,7 @@ $messages['de'] = array(
 	'months' => 'Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember',
 	'mypatrollog' => 'Mein Kontroll-Logbuch',
 	'namespace' => 'Namensraum',
+	'navtoggle-tooltip' => 'Seitenleiste feststellen',
 	'nomatches' => 'Es sind keine relevanten Änderungen für deine Einstellungen vorhanden',
 	'order' => 'Reihenfolge',
 	'permalink' => 'Permanentlink auf die aktuellen Einstellungen',
@@ -259,6 +286,7 @@ $messages['fr'] = array(
 	'months' => 'Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre',
 	'mypatrollog' => 'mon journal de patrouille',
 	'namespace' => 'Espace de nommage',
+	'navtoggle-tooltip' => 'Basculer l’affichage de la barre latérale',
 	'nomatches' => 'Aucune modification pertinente de vos paramètres',
 	'order' => 'Ordre',
 	'permalink' => 'Lien permanent vers les paramètres actuels',
@@ -272,6 +300,46 @@ $messages['fr'] = array(
 	'typeEdit' => 'Modifications',
 	'typeNew' => 'Nouvelles pages',
 	'userfilter' => 'Filtre utilisateur',
+);
+
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'title' => 'Cambios recentes en tempo real',
+	'apply' => 'Aplicar',
+	'asc' => 'Ascendente',
+	'changelog' => 'Novidades',
+	'clear' => 'limpar',
+	'currentedit' => 'Edición seleccionada actualmente',
+	'cvn-adder' => 'Responsable da adición',
+	'cvn-adder-empty' => 'Descoñecido',
+	'cvn-reason' => 'Motivo',
+	'cvn-reason-empty' => 'Non se atopou ningún motivo',
+	'desc' => 'Descendente',
+	'documentation' => 'Documentación',
+	'filter' => 'Filtro',
+	'helpicon-tooltip' => 'Prema aquí para obter máis información',
+	'lastupdate-cvn' => 'Última actualización: $1',
+	'lastupdate-rc' => 'Última actualización: $1',
+	'limit' => 'Límite',
+	'masspatrol-requires-userfilter' => 'MassPatrol foi desactivado, dado que necesita un filtro de usuario e non hai ningún filtro definido.',
+	'months' => 'xaneiro, febreiro, marzo, abril, maio, xuño, xullo, agosto, setembro, outubro, novembro, decembro',
+	'mypatrollog' => 'o meu rexistro de patrullas',
+	'namespace' => 'Espazo de nomes',
+	'nomatches' => 'Non se produciron cambios relevantes segundo a súa configuración',
+	'order' => 'Orde',
+	'permalink' => 'Ligazón permanente á configuración actual',
+	'showAnonOnly' => 'Anónimos unicamente',
+	'showUnpatrolledOnly' => 'Sen patrullar unicamente',
+	'skippededit' => 'Edición saltada',
+	'time-from' => 'De',
+	'time-untill' => 'Ata',
+	'timeframe' => 'Período',
+	'type' => 'Tipo',
+	'typeEdit' => 'Edicións',
+	'typeNew' => 'Páxinas novas',
+	'userfilter' => 'Filtro de usuario',
 );
 
 /** Gujarati (ગુજરાતી)
@@ -356,6 +424,7 @@ $messages['ja'] = array(
 	'months' => '1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月',
 	'mypatrollog' => '自分の巡回記録',
 	'namespace' => '名前空間',
+	'navtoggle-tooltip' => 'サイドバーを表示/非表示',
 	'nomatches' => '設定内容に一致する変更はありません',
 	'order' => '並び順',
 	'permalink' => '現在の設定への固定リンク',
@@ -373,11 +442,13 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Hym411
+ * @author 아라
  */
 $messages['ko'] = array(
 	'title' => '실시간 최근 바뀜',
 	'apply' => '적용',
-	'changelog' => '새로운 업데이트',
+	'asc' => '오름차순',
+	'changelog' => '새로운 소식',
 	'clear' => '비우기',
 	'currentedit' => '현재 선택된 편집',
 	'cvn-adder' => '추가한 사람',
@@ -388,13 +459,14 @@ $messages['ko'] = array(
 	'documentation' => '설명',
 	'filter' => '필터',
 	'helpicon-tooltip' => '자세한 내용은 여기를 클릭하십시오',
-	'lastupdate-cvn' => '마지막 업데이트:$1',
-	'lastupdate-rc' => '마지막 업데이트:$1',
+	'lastupdate-cvn' => '마지막 업데이트: $1',
+	'lastupdate-rc' => '마지막 업데이트: $1',
 	'limit' => '제한',
 	'masspatrol-requires-userfilter' => 'MassPatrol은 사용자 필터가 필요하지만 제공되지 않아 해제되었습니다.',
 	'months' => '1월,2월,3월,4월,5월,6월,7월,8월,9월,10월,11월,12월',
 	'mypatrollog' => '나의 검토 기록',
 	'namespace' => '이름공간',
+	'navtoggle-tooltip' => '사이트바를 토글',
 	'nomatches' => '변경된 설정이 없습니다',
 	'order' => '순서대로',
 	'permalink' => '현재 설정에 대한 정적 링크',
@@ -405,8 +477,8 @@ $messages['ko'] = array(
 	'time-untill' => '까지',
 	'timeframe' => '기간',
 	'type' => '종류',
-	'typeEdit' => '편집들',
-	'typeNew' => '새 문서들',
+	'typeEdit' => '편집',
+	'typeNew' => '새 문서',
 	'userfilter' => '사용자 필터',
 );
 
@@ -469,6 +541,7 @@ $messages['mk'] = array(
 	'months' => 'јануари, февруари, март, април, мај, јуни, јули, август, септември, октомври, ноември, декември',
 	'mypatrollog' => 'мој дневник на патролирање',
 	'namespace' => 'Именски простор',
+	'navtoggle-tooltip' => 'Префрлање на странична лента',
 	'nomatches' => 'Нема промени што одговараат на вашите поставки',
 	'order' => 'Редослед',
 	'permalink' => 'Постојана врска до тековните поставки',
@@ -486,41 +559,60 @@ $messages['mk'] = array(
 
 /** Dutch (Nederlands)
  * @author Krinkle
+ * @author Siebrand
  * @author Sjoerddebruin
  */
 $messages['nl'] = array(
+	'title' => 'Realtime recente wijzigingen',
 	'apply' => 'Toepassen',
-	'asc' => 'Opl.',
+	'asc' => 'Oplopend',
 	'changelog' => 'Wat is er nieuw?',
 	'clear' => 'wissen',
-	'currentedit' => 'Momenteel geselecteerde bewerking',
-	'cvn-adder' => 'Toevoeger',
+	'currentedit' => 'Huidige selectie',
+	'cvn-adder' => 'Toegevoegd door',
 	'cvn-adder-empty' => 'Onbekend',
 	'cvn-reason' => 'Reden',
 	'cvn-reason-empty' => 'Geen reden gevonden',
-	'desc' => 'Afl.',
+	'desc' => 'Aflopend',
 	'documentation' => 'Documentatie',
-	'filter' => 'Filter',
-	'helpicon-tooltip' => 'Klik hier voor meer informatie',
-	'lastupdate-cvn' => 'Laatste update: $1',
-	'lastupdate-rc' => 'Laatste update: $1',
-	'limit' => 'Maximaal',
+	'filter' => 'Filters',
+	'helpicon-tooltip' => 'Meer informatie',
+	'lastupdate-cvn' => 'Laatst bijgewerkt: $1',
+	'lastupdate-rc' => 'Laatst bijgewerkt: $1',
+	'limit' => 'Aantal',
+	'masspatrol-requires-userfilter' => 'Massaal controleren is uitgeschakeld omdat hiervoor een gebruikersfilter nodig is, en die is uitgeschakeld.',
 	'months' => 'januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december',
-	'mypatrollog' => 'Markeerlogboek',
+	'mypatrollog' => 'markeerlogboek',
 	'namespace' => 'Naamruimte',
-	'nomatches' => 'Uw instellingen heeft geen resultaten opgeleverd', # Fuzzy
+	'nomatches' => 'Er zijn geen relevante wijzigingen voor uw instellingen',
 	'order' => 'Volgorde',
 	'permalink' => 'Permalink naar huidige instellingen',
 	'showAnonOnly' => 'Alleen anoniemen',
-	'showUnpatrolledOnly' => 'Alleen ongecontroleerde',
+	'showUnpatrolledOnly' => 'Alleen ongecontroleerd',
 	'skippededit' => 'Overgeslagen bewerking',
-	'time-from' => 'Van',
+	'time-from' => 'Vanaf',
 	'time-untill' => 'Tot',
 	'timeframe' => 'Tijdsbestek',
 	'type' => 'Type',
 	'typeEdit' => 'Bewerkingen',
 	'typeNew' => "Nieuwe pagina's",
 	'userfilter' => 'Gebruikersfilter',
+);
+
+/** Polish (polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'apply' => 'Zastosuj',
+	'changelog' => 'Co nowego',
+	'clear' => 'wyczyść',
+	'currentedit' => 'Aktualnie wybrana edycja',
+	'cvn-reason' => 'Powód',
+	'documentation' => 'Dokumentacja',
+	'lastupdate-cvn' => 'Ostatnia aktualizacja: $1',
+	'lastupdate-rc' => 'Ostatnia aktualizacja: $1',
+	'months' => 'Styczeń, Luty, Marzec, Kwiecień, Maj, Czerwiec, Lipiec, Sierpień, Wrzesień, Październik, Listopad, Grudzień',
+	'namespace' => 'Przestrzeń nazw',
 );
 
 /** Pashto (پښتو)
@@ -633,6 +725,7 @@ $messages['ru'] = array(
 	'months' => 'Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь',
 	'mypatrollog' => 'мой журнал патрулирования',
 	'namespace' => 'Пространство имён',
+	'navtoggle-tooltip' => 'Переключить боковую панель',
 	'nomatches' => 'Нет изменений, соответствующих вашим параметрам',
 	'order' => 'Порядок',
 	'permalink' => 'Постоянная ссылка на текущие параметры',
@@ -653,6 +746,36 @@ $messages['ru'] = array(
  */
 $messages['sr-ec'] = array(
 	'type' => 'Тип',
+);
+
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'apply' => 'Verkställ',
+	'changelog' => 'Vad är nytt',
+	'clear' => 'rensa',
+	'cvn-adder-empty' => 'Okänd',
+	'cvn-reason' => 'Anledning',
+	'cvn-reason-empty' => 'Ingen anledning hittades',
+	'documentation' => 'Dokumentation',
+	'filter' => 'Filter',
+	'helpicon-tooltip' => 'Klicka här för mer information',
+	'lastupdate-cvn' => 'Senaste uppdatering: $1',
+	'lastupdate-rc' => 'Senaste uppdatering: $1',
+	'months' => 'januari, februari, mars, april, maj, juni, juli, augusti, september, oktober, november, december',
+	'mypatrollog' => 'min patrullogg',
+	'namespace' => 'Namnrymd',
+	'navtoggle-tooltip' => 'Visa/dölj sidofältet',
+	'showAnonOnly' => 'Bara anonyma',
+	'showUnpatrolledOnly' => 'Bara opatrullerade',
+	'time-from' => 'Från',
+	'time-untill' => 'Tills',
+	'timeframe' => 'Tidsram',
+	'type' => 'Typ',
+	'typeEdit' => 'Redigeringar',
+	'typeNew' => 'Nya sidor',
+	'userfilter' => 'Användarfilter',
 );
 
 /** Ukrainian (українська)
@@ -680,6 +803,7 @@ $messages['uk'] = array(
 	'months' => 'Січень, Лютий, Березень, Квітень, Травень, Червень, Липень, Серпень, Вересень, Жовтень, Листопад, Грудень',
 	'mypatrollog' => 'журнал патрулювання',
 	'namespace' => 'Простір назв',
+	'navtoggle-tooltip' => 'Перемкнути бічну панель',
 	'nomatches' => 'Немає відповідних змін для ваших налаштувань',
 	'order' => 'Порядок',
 	'permalink' => 'Постійне посилання на поточні параметри',
@@ -707,6 +831,7 @@ $messages['wuu'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
  * @author Liuxinyu970226
+ * @author Qiyue2001
  */
 $messages['zh-hans'] = array(
 	'title' => '实时最新更改',
@@ -715,6 +840,7 @@ $messages['zh-hans'] = array(
 	'changelog' => '最新消息',
 	'clear' => '清除',
 	'currentedit' => '当前所选编辑',
+	'cvn-adder' => '添加者',
 	'cvn-adder-empty' => '未知',
 	'cvn-reason' => '理由',
 	'cvn-reason-empty' => '找不到理由',

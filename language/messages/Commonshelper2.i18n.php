@@ -1213,6 +1213,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Mjbmr
+ * @author Omidh
  * @author Reza1615
  */
 $messages['fa'] = array(
@@ -4215,22 +4216,24 @@ $messages['yi'] = array(
  * @author Littletung
  * @author Mys 721tx
  * @author Qiyue2001
+ * @author Xiaomingyan
  * @author Zhuyifei1999
+ * @author 乌拉跨氪
  */
 $messages['zh-hans'] = array(
 	'attention' => '关注',
 	'description' => '一种工具将文件从维基媒体项目转移到维基共享资源',
 	'change_meta' => '更改$3的$1类别和模板设置$2',
-	'jira_link' => '报告问题或建议一项功能',
+	'jira_link' => '报告问题或建议功能',
 	'language' => '语言',
 	'project' => '项目',
 	'source_file' => '源文件',
 	'target_file' => '目标文件',
-	'commons_username' => '维基共享资源的用户名',
-	'commons_to_project' => '维基共享资源项目',
+	'commons_username' => '维基共享资源用户名',
+	'commons_to_project' => '维基共享资源到项目',
 	'move_file_from_com' => '将文件从维基共享资源移至项目',
-	'categories' => '类别',
-	'remove_cats' => '删除现有的类别',
+	'categories' => '分类',
+	'remove_cats' => '删除现有分类',
 	'use_checkusage' => '使用$1CommonSense$2建议新分类。',
 	'use_tusc' => '使用 $1TUSC$2 来直接验证和传输该文件',
 	'tusc_user' => 'TUSC 用户名',
