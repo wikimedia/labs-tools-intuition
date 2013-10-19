@@ -370,6 +370,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'output' => 'Хилам',
 	'update' => 'Карлаяккха',
 );
 

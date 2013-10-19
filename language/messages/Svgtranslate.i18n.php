@@ -569,6 +569,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'title' => 'SVG гоч',
+	'th-original' => 'ДӀадолалун йоза',
 	'th-translation' => 'Гоч',
 	'th-language' => 'Мотт',
 	'th-username' => 'Декъашхочун цӀе',
@@ -3240,14 +3241,14 @@ $messages['zh-hans'] = array(
 	'stats-footer' => '自$2起，本工具已翻译约$1个文件。',
 	'uploading' => '正在上传',
 	'upload-complete' => '上传顺利完成。该图像现在应该位于$1',
-	'editdescriptionpage' => '编辑新的描述页',
+	'editdescriptionpage' => '编辑新说明页面',
 	'disclaimer' => '某些匿名数据将会被私人收集用于统计目的。如果使用TUSC用户名，它也将会被记录下来以用于协助应付破坏行为。密码永远不会被记录。',
 	'author-complete' => '请填写作者信息！',
 	'preview-hide' => '隐藏预览',
 	'preview-refresh' => '刷新预览',
 	'error-must-accept' => '若要继续直接上传，您必须接受提供的使用条款。',
-	'error-tusc-failed' => 'TUSC验证失败：用户名或密码不正确。',
-	'description-license' => '选择描述和授权协议',
+	'error-tusc-failed' => 'TUSC确认失败：用户名或密码不正确。',
+	'description-license' => '选择说明和授权协议',
 	'finalise' => '敲定细节',
 );
 

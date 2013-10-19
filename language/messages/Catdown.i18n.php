@@ -3232,6 +3232,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
+ * @author Liuxinyu970226
  * @author Mys 721tx
  * @author Simon Shek
  * @author Yfdyh000
@@ -3267,6 +3268,16 @@ Windows:
 Linux/Mac OS
 解压所有文件，并在终端中运行 sh $5',
 	'non-bundled-wget' => '注： 此版本不包括Windows版本的wget。您需要解压缩到一个有wget.exe的文件夹，或在PATH中包含有wget。',
+	'wget-info' => '此文件作为wget的副本$1（用于Windows平台）而打包。Wget是自由软件，
+根据GNU通用公共许可证第3版授权。
+这里有一个许可证副本，可在这个网站查看：http://www.gnu.org/licenses/gpl-3.0.txt
+
+如果您有兴趣获得此程序的源代码，您可以在此下载
+http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+或者其他GNU镜像，参见
+http://www.gnu.org/prep/ftp.html',
 	'scaling-width' => '缩放到最大宽度 $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => '缩放到最大高度 $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',

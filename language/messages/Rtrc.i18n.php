@@ -156,10 +156,12 @@ $messages['ast'] = array(
 	'lastupdate-cvn' => 'Caberu anovamientu: $1',
 	'lastupdate-rc' => 'Caberu anovamientu: $1',
 	'limit' => 'Llímite',
+	'masspatrol-requires-userfilter' => "Desactivóse MassPatrol porque necesita una peñera d'usuariu y nun se configuró denguna.",
 	'months' => 'xineru, febreru, marzu, abril, mayu, xunu, xunetu, agostu, setiembre, ochobre, payares, avientu',
 	'mypatrollog' => 'el mio rexistru de supervisión',
 	'namespace' => 'Espaciu de nomes',
-	'nomatches' => 'Nun casó dengún resultáu cola so configuración', # Fuzzy
+	'navtoggle-tooltip' => 'Conmutar la barra llateral',
+	'nomatches' => 'Nun hai cambios cola so configuración',
 	'order' => 'Orde',
 	'permalink' => 'Enllaz permanente a la configuración actual',
 	'showAnonOnly' => 'Namái anónimos',
@@ -185,6 +187,18 @@ $messages['az'] = array(
 	'months' => 'Yanvar, Fevral, Mart, Aprel, May, İyun, İyul, Avqust, Sentyabr, Oktyabr, Noyabr, Dekabr',
 	'typeEdit' => 'Redaktələr',
 	'typeNew' => 'Yeni səhifələr',
+);
+
+/** Bulgarian (български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'cvn-reason' => 'Причина',
+	'documentation' => 'Документация',
+	'namespace' => 'Именно пространство',
+	'time-from' => 'От',
+	'typeEdit' => 'Редакции',
+	'typeNew' => 'Нови страници',
 );
 
 /** Breton (brezhoneg)
@@ -256,9 +270,43 @@ $messages['de'] = array(
 
 /** Spanish (español)
  * @author Krinkle
+ * @author VegaDark
  */
 $messages['es'] = array(
+	'title' => 'Cambios Recientes en tiempo real',
 	'apply' => 'Aplicar',
+	'asc' => 'ASC',
+	'changelog' => 'Qué hay de nuevo',
+	'clear' => 'Limpiar',
+	'currentedit' => 'Edición seleccionada actualmente',
+	'cvn-adder' => 'Agregado',
+	'cvn-adder-empty' => 'Desconocido',
+	'cvn-reason' => 'Motivo',
+	'cvn-reason-empty' => 'No se encontró un motivo',
+	'desc' => 'Descripción',
+	'documentation' => 'Documentación',
+	'filter' => 'Filtro',
+	'helpicon-tooltip' => 'Haz clic aquí para más información',
+	'lastupdate-cvn' => 'Última actualización: $1',
+	'lastupdate-rc' => 'Última actualización: $1',
+	'limit' => 'Límite',
+	'masspatrol-requires-userfilter' => 'MassPatrol ha sido deshabilitado porque requiere un filtro de usuario y ninguno fue creado.',
+	'months' => 'Enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre',
+	'mypatrollog' => 'mi registro de patrulla',
+	'namespace' => 'Espacio de nombre',
+	'navtoggle-tooltip' => 'Alternar la barra lateral',
+	'nomatches' => 'No hay cambios relevantes para tu configuración',
+	'order' => 'Orden',
+	'permalink' => 'Enlace permanente a la configuración actual',
+	'showAnonOnly' => 'sólo anónimos',
+	'skippededit' => 'Edición omitida',
+	'time-from' => 'De',
+	'time-untill' => 'Hasta',
+	'timeframe' => 'Calendario',
+	'type' => 'Tipo',
+	'typeEdit' => 'Ediciones',
+	'typeNew' => 'Páginas nuevas',
+	'userfilter' => 'Filtro de usuario',
 );
 
 /** French (français)
@@ -327,6 +375,7 @@ $messages['gl'] = array(
 	'months' => 'xaneiro, febreiro, marzo, abril, maio, xuño, xullo, agosto, setembro, outubro, novembro, decembro',
 	'mypatrollog' => 'o meu rexistro de patrullas',
 	'namespace' => 'Espazo de nomes',
+	'navtoggle-tooltip' => 'Activar ou desactivar a barra lateral',
 	'nomatches' => 'Non se produciron cambios relevantes segundo a súa configuración',
 	'order' => 'Orde',
 	'permalink' => 'Ligazón permanente á configuración actual',
@@ -455,7 +504,7 @@ $messages['ko'] = array(
 	'cvn-adder-empty' => '알 수 없음',
 	'cvn-reason' => '이유',
 	'cvn-reason-empty' => '이유를 찾을 수 없음',
-	'desc' => '설명',
+	'desc' => '내림차순',
 	'documentation' => '설명',
 	'filter' => '필터',
 	'helpicon-tooltip' => '자세한 내용은 여기를 클릭하십시오',
@@ -468,7 +517,7 @@ $messages['ko'] = array(
 	'namespace' => '이름공간',
 	'navtoggle-tooltip' => '사이트바를 토글',
 	'nomatches' => '변경된 설정이 없습니다',
-	'order' => '순서대로',
+	'order' => '순서',
 	'permalink' => '현재 설정에 대한 정적 링크',
 	'showAnonOnly' => '익명 편집만 보기',
 	'showUnpatrolledOnly' => '검토되지 않은 편집만 보기',
@@ -584,6 +633,7 @@ $messages['nl'] = array(
 	'months' => 'januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december',
 	'mypatrollog' => 'markeerlogboek',
 	'namespace' => 'Naamruimte',
+	'navtoggle-tooltip' => 'Zijbalk in- of uitschakelen',
 	'nomatches' => 'Er zijn geen relevante wijzigingen voor uw instellingen',
 	'order' => 'Volgorde',
 	'permalink' => 'Permalink naar huidige instellingen',
