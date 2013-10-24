@@ -40,9 +40,11 @@ $messages['en'] = array(
 	'nomatches' => 'No relevant changes for your settings',
 	'order' => 'Order',
 	'permalink' => 'Permalink to current settings',
+	'select-placeholder-none' => '(none)',
 	'showAnonOnly' => 'Anonymous only',
 	'showUnpatrolledOnly' => 'Unpatrolled only',
 	'skippededit' => 'Skipped edit',
+	'tag' => 'Tag',
 	'time-from' => 'From',
 	'time-untill' => 'Untill',
 	'timeframe' => 'Timeframe',
@@ -112,10 +114,12 @@ See also:
 	'order' => 'Section label for the sort order radio buttons.
 {{Identical|Order}}',
 	'permalink' => 'Label of the permalink that will start RTRC with the current settings',
+	'select-placeholder-none' => 'Placeholder in a dropdown menu representing the blank option.',
 	'showAnonOnly' => 'Label of the checkbox to only show changes by anonymous users.
 {{Identical|Anon only}}',
 	'showUnpatrolledOnly' => 'Label of the checkbox to only show unpatrolled changes',
 	'skippededit' => 'Example text in the legend to show what a skipped edit looks like',
+	'tag' => 'Label of the dropdown menu for filtering by change tag.',
 	'time-from' => 'Label of input field containing the start date of the time range filter.
 {{Identical|From}}',
 	'time-untill' => 'Label of input field containing the end date of the time range filter',
