@@ -3247,7 +3247,7 @@ $messages['zh-hans'] = array(
 	'preview-hide' => '隐藏预览',
 	'preview-refresh' => '刷新预览',
 	'error-must-accept' => '若要继续直接上传，您必须接受提供的使用条款。',
-	'error-tusc-failed' => 'TUSC确认失败：用户名或密码不正确。',
+	'error-tusc-failed' => 'TUSC验证失败：用户名或密码不正确。',
 	'description-license' => '选择说明和授权协议',
 	'finalise' => '敲定细节',
 );

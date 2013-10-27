@@ -51,26 +51,65 @@ $messages['en'] = array(
  * @author Toliño
  */
 $messages['qqq'] = array(
-	'title-overview' => 'Heading of overview page listing all repositories and branches',
+	'title-overview' => 'Heading of overview page listing all repositories and branches.
+{{Identical|Snapshot}}',
 	'title-error' => 'Heading of page if action failed.
 {{Identical|Error}}',
+	'title-updatelog' => 'Used as section heading.
+{{Identical|Update log}}',
 	'download-button' => 'Label of the download button. Text is outputted below a down-arrow.
 
-* $1: Branch name',
+Parameters:
+* $1 - branch name. e.g. "master", "REL1_22"',
 	'download-directlink' => 'Link displayed in parentheses below the download button.',
 	'title-downloadpage' => 'Heading of download page where the file is ready to be downloaded by the user
 
 * $1: File name',
 	'downloadpage-directlink' => 'Clickable link shown under the heading, links to the file directly',
 	'err-snapshotindex' => 'If the information manifest (Index) can not be found on the server, this error is shown.',
-	'err-invalid-repo' => '* $1: Repository name',
-	'err-invalid-branch' => 'Parameters:
-* $1: Branch name
-* $2: Repository name',
+	'err-invalid-repo' => 'Used as error message. Parameters:
+* $1 - repository name
+See example: https://toolserver.org/~krinkle/mwSnapshots/index.php#!/test/master',
+	'err-invalid-branch' => 'Used as error message. Parameters:
+* $1 - branch name
+* $2 - repository name
+See example: https://toolserver.org/~krinkle/mwSnapshots/index.php#!/mediawiki-core/test',
 	'err-nosnapshot' => 'The snapshots are generated every few hours. If during the generation the selected branch had a problem. Then trying to download it will show this error.
 
-* $1: Branch name',
-	'repo-lastmoddate-label' => '{{Identical|Date}}',
+Parameters:
+* $1 - branch name',
+	'repo-site-link' => 'Used as text for the link which points to the repository website.
+{{Identical|Website}}',
+	'repo-browse-link' => 'Used as text for the link which points to gerrit.wikimedia.org. e.g. https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/core.git;a=tree',
+	'repo-branches-label' => 'Used as label for the "Branch" select box.
+{{Identical|Branch}}',
+	'repo-lastmoddate-label' => 'Used as label for timestamp (time and date).
+{{Identical|Date}}',
+	'branches-submit-button' => 'Used as label for the Submit button.
+
+Preceded by the Branch select box.',
+	'updatelog-link' => 'Used as link text.
+{{Identical|Update log}}',
+	'tablehead-repo' => 'Used as table row header.
+
+Followed by repository name which is currently selected.
+{{Identical|Repository}}',
+	'tablehead-snapshots' => 'Used as table column header.
+
+Followed by the list of snapshots.
+{{Identical|Snapshot}}',
+	'tablehead-branch' => 'Used as table row header.
+
+Followed by branch name which is currently selected.
+{{Identical|Branch}}',
+	'tablehead-filesize' => 'Used as table row header.
+
+Followed by file size. e.g. "3.21 MB (3370522 bytes)"
+{{Identical|File size}}',
+	'tablehead-hash' => 'Used as table row header.
+
+Followed by MD5 and SHA1 checksums. e.g. "MD5: 1d3a979b3c6e90c4300b6950a9d4db89<br/>
+SHA1: 1ee0f37197ffbc2ed7ba6bac30be6a65c8a757a9"',
 );
 
 /** Afrikaans (Afrikaans)
@@ -349,7 +388,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'download-directlink' => 'дуьхьала хьажориг',
+	'download-directlink' => 'дуьхьала хьажораг',
 );
 
 /** Czech (česky)
@@ -1028,13 +1067,13 @@ $messages['ja'] = array(
 	'repo-site-link' => 'ウェブサイト',
 	'repo-browse-link' => 'リポジトリを参照',
 	'repo-branches-label' => 'ブランチ:',
-	'repo-lastmoddate-label' => '日付:',
+	'repo-lastmoddate-label' => '日時:',
 	'branches-submit-button' => '取得する',
 	'updatelog-link' => '更新記録',
 	'tablehead-repo' => 'リポジトリ',
 	'tablehead-snapshots' => 'スナップショット',
 	'tablehead-branch' => 'ブランチ',
-	'tablehead-filesize' => 'ファイルサイズ',
+	'tablehead-filesize' => 'ファイル サイズ',
 	'tablehead-hash' => 'チェックサム',
 );
 

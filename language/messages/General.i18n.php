@@ -424,6 +424,13 @@ $messages['ca'] = array(
 	'and' => '&#32;i',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'form-submit' => 'Дехьа гӀо',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
  */

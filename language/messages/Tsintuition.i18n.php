@@ -469,6 +469,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'choose-language' => 'Харжа мотт',
+	'tab-overview' => 'Гучé',
 	'bl-mysettings-new' => 'Харжа мотт',
 );
 

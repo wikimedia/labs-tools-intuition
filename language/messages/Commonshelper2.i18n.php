@@ -823,12 +823,13 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  */
 $messages['da'] = array(
 	'attention' => 'Bemærk',
 	'description' => 'Et værktøj til at overføre filer fra Wikimedia projekter til Wikimedia Commons',
-	'change_meta' => 'Ændr $1kategori og skabelonindstillinger$2 for $3',
+	'change_meta' => 'Ændre $1kategori og skabelonindstillinger$2 for $3',
 	'jira_link' => 'Rapporter en fejl eller foreslå en funktion',
 	'language' => 'Sprog',
 	'project' => 'Projekt',

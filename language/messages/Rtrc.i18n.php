@@ -114,12 +114,14 @@ See also:
 	'order' => 'Section label for the sort order radio buttons.
 {{Identical|Order}}',
 	'permalink' => 'Label of the permalink that will start RTRC with the current settings',
-	'select-placeholder-none' => 'Placeholder in a dropdown menu representing the blank option.',
+	'select-placeholder-none' => 'Placeholder in a dropdown menu representing the blank option.
+{{Identical|None}}',
 	'showAnonOnly' => 'Label of the checkbox to only show changes by anonymous users.
 {{Identical|Anon only}}',
 	'showUnpatrolledOnly' => 'Label of the checkbox to only show unpatrolled changes',
 	'skippededit' => 'Example text in the legend to show what a skipped edit looks like',
-	'tag' => 'Label of the dropdown menu for filtering by change tag.',
+	'tag' => 'Label of the dropdown menu for filtering by change tag.
+{{Identical|Tag}}',
 	'time-from' => 'Label of input field containing the start date of the time range filter.
 {{Identical|From}}',
 	'time-untill' => 'Label of input field containing the end date of the time range filter',
@@ -231,6 +233,18 @@ $messages['br'] = array(
 	'userfilter' => 'Sil implijer',
 );
 
+/** Danish (dansk)
+ * @author Overlaet
+ */
+$messages['da'] = array(
+	'apply' => 'Anvend',
+	'cvn-adder-empty' => 'Ukendt',
+	'cvn-reason' => 'Årsag',
+	'documentation' => 'Dokumentation',
+	'filter' => 'Filter',
+	'helpicon-tooltip' => 'Klik her for mere information',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -260,9 +274,11 @@ $messages['de'] = array(
 	'nomatches' => 'Es sind keine relevanten Änderungen für deine Einstellungen vorhanden',
 	'order' => 'Reihenfolge',
 	'permalink' => 'Permanentlink auf die aktuellen Einstellungen',
+	'select-placeholder-none' => '(keine)',
 	'showAnonOnly' => 'Nur anonyme',
 	'showUnpatrolledOnly' => 'Nur unkontrollierte',
 	'skippededit' => 'Übersprungene Bearbeitung',
+	'tag' => 'Markierung',
 	'time-from' => 'Von',
 	'time-untill' => 'Bis',
 	'timeframe' => 'Zeitrahmen',
@@ -274,6 +290,7 @@ $messages['de'] = array(
 
 /** Spanish (español)
  * @author Krinkle
+ * @author McDutchie
  * @author VegaDark
  */
 $messages['es'] = array(
@@ -287,7 +304,7 @@ $messages['es'] = array(
 	'cvn-adder-empty' => 'Desconocido',
 	'cvn-reason' => 'Motivo',
 	'cvn-reason-empty' => 'No se encontró un motivo',
-	'desc' => 'Descripción',
+	'desc' => 'Descendente', # Fuzzy
 	'documentation' => 'Documentación',
 	'filter' => 'Filtro',
 	'helpicon-tooltip' => 'Haz clic aquí para más información',
@@ -303,6 +320,7 @@ $messages['es'] = array(
 	'order' => 'Orden',
 	'permalink' => 'Enlace permanente a la configuración actual',
 	'showAnonOnly' => 'sólo anónimos',
+	'showUnpatrolledOnly' => 'Sin patrullar',
 	'skippededit' => 'Edición omitida',
 	'time-from' => 'De',
 	'time-untill' => 'Hasta',
@@ -420,6 +438,49 @@ $messages['he'] = array(
 	'showAnonOnly' => 'משתמשים אנונימיים בלבד',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'title' => 'Modificationes recente in tempore real',
+	'apply' => 'Applicar',
+	'asc' => 'Asc.',
+	'changelog' => 'Novitates',
+	'clear' => 'Rader',
+	'currentedit' => 'Modification actualmente seligite',
+	'cvn-adder' => 'Additor',
+	'cvn-adder-empty' => 'Incognite',
+	'cvn-reason' => 'Motivo',
+	'cvn-reason-empty' => 'Nulle motivo trovate',
+	'desc' => 'Desc.',
+	'documentation' => 'Documentation',
+	'filter' => 'Filtro',
+	'helpicon-tooltip' => 'Clicca hic pro plus information',
+	'lastupdate-cvn' => 'Ultime actualisation: $1',
+	'lastupdate-rc' => 'Ultime actualisation: $1',
+	'limit' => 'Limite',
+	'masspatrol-requires-userfilter' => 'MassPatrol ha essite disactivate perque illo require un filtro de usator e necun ha essite definite.',
+	'months' => 'januario, februario, martio, april, maio, junio, julio, augusto, septembre, octobre, novembre, decembre',
+	'mypatrollog' => 'mi registro de patrulia',
+	'namespace' => 'Spatio de nomines',
+	'navtoggle-tooltip' => 'Alternar le barra lateral',
+	'nomatches' => 'Nulle modification pertinente a tu parametros',
+	'order' => 'Ordine',
+	'permalink' => 'Ligamine permanente al parametros actual',
+	'select-placeholder-none' => '(nulle)',
+	'showAnonOnly' => 'Anonymos solmente',
+	'showUnpatrolledOnly' => 'Non patruliates solmente',
+	'skippededit' => 'Modification saltate',
+	'tag' => 'Etiquetta',
+	'time-from' => 'De',
+	'time-untill' => 'Usque a',
+	'timeframe' => 'Periodo',
+	'type' => 'Typo',
+	'typeEdit' => 'Modificationes',
+	'typeNew' => 'Nove paginas',
+	'userfilter' => 'Filtro de usator',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -481,9 +542,11 @@ $messages['ja'] = array(
 	'nomatches' => '設定内容に一致する変更はありません',
 	'order' => '並び順',
 	'permalink' => '現在の設定への固定リンク',
+	'select-placeholder-none' => '(なし)',
 	'showAnonOnly' => '匿名利用者のみ',
 	'showUnpatrolledOnly' => '未巡回のみ',
 	'skippededit' => 'スキップした編集',
+	'tag' => 'タグ',
 	'time-from' => '始点',
 	'time-untill' => '終点',
 	'timeframe' => '時間指定',
@@ -541,13 +604,14 @@ $messages['ko'] = array(
 $messages['lb'] = array(
 	'title' => 'Rezent Ännerungen (an Echtzäit)',
 	'apply' => 'Uwenden',
+	'asc' => 'Kleng op grouss',
 	'changelog' => 'Wat gëtt et Neies',
 	'clear' => 'eidel maachen',
 	'currentedit' => 'Aktuell erausgesichten Ännerung',
 	'cvn-adder-empty' => 'Onbekannt',
 	'cvn-reason' => 'Grond',
 	'cvn-reason-empty' => 'Kee Grond fonnt',
-	'desc' => 'Beschr',
+	'desc' => 'Grouss op kleng',
 	'documentation' => 'Dokumentatioun',
 	'filter' => 'Filter',
 	'helpicon-tooltip' => 'Klickt hei fir méi Informatiounen',
@@ -558,6 +622,7 @@ $messages['lb'] = array(
 	'namespace' => 'Nummraum',
 	'nomatches' => 'Keng relevant Ännerunge fir Är Astellungen',
 	'order' => 'Reiefolleg',
+	'select-placeholder-none' => '(keen)',
 	'showAnonOnly' => 'Nëmmen anonym',
 	'skippededit' => 'Iwwersprongen Ännerung',
 	'time-from' => 'Vum',
@@ -598,9 +663,11 @@ $messages['mk'] = array(
 	'nomatches' => 'Нема промени што одговараат на вашите поставки',
 	'order' => 'Редослед',
 	'permalink' => 'Постојана врска до тековните поставки',
+	'select-placeholder-none' => '(ништо)',
 	'showAnonOnly' => 'Само анонимни',
 	'showUnpatrolledOnly' => 'Само неиспатролирани',
 	'skippededit' => 'Изоставено уредување',
+	'tag' => 'Ознака',
 	'time-from' => 'Од',
 	'time-untill' => 'До',
 	'timeframe' => 'Временска рамка',
@@ -658,15 +725,27 @@ $messages['nl'] = array(
  */
 $messages['pl'] = array(
 	'apply' => 'Zastosuj',
+	'asc' => 'Rosnąco',
 	'changelog' => 'Co nowego',
 	'clear' => 'wyczyść',
 	'currentedit' => 'Aktualnie wybrana edycja',
+	'cvn-adder' => 'Dodający',
+	'cvn-adder-empty' => 'Nieznany',
 	'cvn-reason' => 'Powód',
+	'cvn-reason-empty' => 'Nie znaleziono powodu',
+	'desc' => 'Malejąco',
 	'documentation' => 'Dokumentacja',
+	'filter' => 'Filtr',
+	'helpicon-tooltip' => 'Kliknij tutaj, aby uzyskać więcej informacji',
 	'lastupdate-cvn' => 'Ostatnia aktualizacja: $1',
 	'lastupdate-rc' => 'Ostatnia aktualizacja: $1',
+	'limit' => 'Limit',
+	'masspatrol-requires-userfilter' => 'MassPatrol został zablokowany, ponieważ wymaga filtru użytkownika, a żaden nie został określony.',
 	'months' => 'Styczeń, Luty, Marzec, Kwiecień, Maj, Czerwiec, Lipiec, Sierpień, Wrzesień, Październik, Listopad, Grudzień',
+	'mypatrollog' => 'mój rejestr patrolowania',
 	'namespace' => 'Przestrzeń nazw',
+	'permalink' => 'Link do bieżących ustawień',
+	'typeNew' => 'Nowe strony',
 );
 
 /** Pashto (پښتو)
@@ -717,6 +796,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Helder.wiki
+ * @author Titoncio
  */
 $messages['pt-br'] = array(
 	'title' => 'Mudanças Recentes em Tempo Real',
@@ -736,10 +816,11 @@ $messages['pt-br'] = array(
 	'lastupdate-cvn' => 'Última atualização: $1',
 	'lastupdate-rc' => 'Última atualização: $1',
 	'limit' => 'Limite',
+	'masspatrol-requires-userfilter' => 'MassPatrol foi desativado pois requer um filtro de usuário e nenhum foi selecionado.',
 	'months' => 'janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro',
 	'mypatrollog' => 'registro dos meus patrulhamentos',
 	'namespace' => 'Domínio',
-	'nomatches' => 'Nenhum resultado corresponde às suas configurações', # Fuzzy
+	'nomatches' => 'Nenhuma mudança recente corresponde às suas configurações',
 	'order' => 'Ordem',
 	'permalink' => 'Link permanente para as configurações atuais',
 	'showAnonOnly' => 'Apenas edições de anônimos',
@@ -752,6 +833,47 @@ $messages['pt-br'] = array(
 	'typeEdit' => 'Edições',
 	'typeNew' => 'Páginas novas',
 	'userfilter' => 'Filtro de usuários',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'title' => 'Schimbări recente în timp real',
+	'apply' => 'Aplică',
+	'asc' => 'Asc',
+	'changelog' => 'Ce este nou',
+	'clear' => 'curăță',
+	'currentedit' => 'Modificare actualmente selectată',
+	'cvn-adder' => 'Persoana care a adăugat',
+	'cvn-adder-empty' => 'Necunoscut',
+	'cvn-reason' => 'Motiv',
+	'cvn-reason-empty' => 'Niciun motiv găsit',
+	'desc' => 'Desc',
+	'documentation' => 'Documentație',
+	'filter' => 'Filtru',
+	'helpicon-tooltip' => 'Faceți clic aici pentru mai multe informații',
+	'lastupdate-cvn' => 'Ultima actualizare: $1',
+	'lastupdate-rc' => 'Ultima actualizare: $1',
+	'limit' => 'Limită',
+	'masspatrol-requires-userfilter' => 'MassPatrol a fost dezactivată întrucât necesită un filtru de utilizator, niciunul nefiind definit.',
+	'months' => 'Ianuarie, Februarie, Martie, Aprilie, Mai, Iunie, Iulie, August, Septembrie, Octombrie, Noiembrie, Decembrie',
+	'mypatrollog' => 'jurnalul meu de patrulare',
+	'namespace' => 'Spațiu de nume',
+	'navtoggle-tooltip' => 'Arată/ascunde bara laterală',
+	'nomatches' => 'Nicio modificare relevantă parametrilor dumneavoastră',
+	'order' => 'Ordonare',
+	'permalink' => 'Legătură permanentă către parametrii actuali',
+	'showAnonOnly' => 'Doar anonimi',
+	'showUnpatrolledOnly' => 'Doar nepatrulate',
+	'skippededit' => 'Modificare sărită',
+	'time-from' => 'De la',
+	'time-untill' => 'Până la',
+	'timeframe' => 'Interval de timp',
+	'type' => 'Tip',
+	'typeEdit' => 'Modificări',
+	'typeNew' => 'Pagini noi',
+	'userfilter' => 'Filtru de utilizator',
 );
 
 /** Russian (русский)
@@ -783,9 +905,11 @@ $messages['ru'] = array(
 	'nomatches' => 'Нет изменений, соответствующих вашим параметрам',
 	'order' => 'Порядок',
 	'permalink' => 'Постоянная ссылка на текущие параметры',
+	'select-placeholder-none' => '(нет)',
 	'showAnonOnly' => 'только анонимов',
 	'showUnpatrolledOnly' => 'Только неотпатрулированные',
 	'skippededit' => 'Пропущенные правки',
+	'tag' => 'Тег',
 	'time-from' => 'С',
 	'time-untill' => 'До',
 	'timeframe' => 'Временные рамки',
@@ -861,9 +985,11 @@ $messages['uk'] = array(
 	'nomatches' => 'Немає відповідних змін для ваших налаштувань',
 	'order' => 'Порядок',
 	'permalink' => 'Постійне посилання на поточні параметри',
+	'select-placeholder-none' => '(нема)',
 	'showAnonOnly' => 'Анонім тільки',
 	'showUnpatrolledOnly' => 'Непатрульований тільки',
 	'skippededit' => 'Пропущені редагування',
+	'tag' => 'Мітка',
 	'time-from' => 'Від',
 	'time-untill' => 'Доки',
 	'timeframe' => 'Часові рамки',
@@ -905,9 +1031,11 @@ $messages['zh-hans'] = array(
 	'lastupdate-cvn' => '最后更新：$1',
 	'lastupdate-rc' => '最后更新：$1',
 	'limit' => '限制',
+	'masspatrol-requires-userfilter' => '由于需要用户筛选器但却全部失效MassPatrol已被禁用。',
 	'months' => '1月、2月、3月、4月、5月、6月、7月、8月、9月、10月、11月、12月',
 	'mypatrollog' => '我的巡查日志',
 	'namespace' => '名字空间',
+	'navtoggle-tooltip' => '切换侧栏',
 	'nomatches' => '找不到与您设置相关的结果',
 	'order' => '顺序',
 	'permalink' => '链至目前设定的永久链接',
