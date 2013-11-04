@@ -419,6 +419,7 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Erisos
  * @author Sarrus
  * @author Tjernobyl
@@ -435,6 +436,11 @@ $messages['da'] = array(
 	'tools-delete' => 'slet',
 	'tools-links' => 'links',
 	'tools-subject' => 'emne',
+	'tools-hist' => 'hist',
+	'tools-curr' => 'nu',
+	'tools-globalusage' => 'global brug',
+	'deletesummary' => 'Sletning af forældreløse diskussionssider via $1',
+	'noresults' => 'Ingen forældreløse diskussionssider på denne wiki i dette navneområde passede med de valgte indstillinger.',
 	'resultslimited' => 'Resultaterne var begrænsede til $1 sider.',
 );
 

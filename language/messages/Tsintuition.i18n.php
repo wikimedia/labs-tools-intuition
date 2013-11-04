@@ -537,11 +537,12 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  * @author Sarrus
  */
 $messages['da'] = array(
-	'fullname' => 'Internationalisering til Toolservers brugergrænseflade', # Fuzzy
+	'fullname' => 'Internationalisering af værktøjer',
 	'current-settings' => 'Aktuelle indstillinger',
 	'current-language' => 'Aktuelt valgte sprog',
 	'settings-legend' => 'Indstillinger',
@@ -559,9 +560,9 @@ $messages['da'] = array(
 	'bl-mysettings-new' => 'Skift sprog!',
 	'bl-promo' => 'Oversættelser er drevet af $1 og $2 .',
 	'bl-changelanguage' => 'Klik her for at ændre sproget i brugergrænsefladen for ​​dette værktøj.',
-	'usage' => 'Værktøjer oversat af Toolserver Intuition.', # Fuzzy
+	'usage' => 'Værktøjer oversat af Intuition.',
 	'help-translate-tool' => 'Hjælpe med at oversætte dette værktøj!',
-	'help-translate-all' => 'Hjælp med at oversætte Toolserver!', # Fuzzy
+	'help-translate-all' => 'Hjælp med at oversætte værktøjer!',
 	'help-translate-tooltip' => 'Hjælp andre ved at omsætte brugergrænsefladebeskeder til dit sprog.',
 );
 
@@ -1281,8 +1282,23 @@ $messages['ka'] = array(
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
+	'current-settings' => 'ការកំណត់បច្ចុប្បន្ន',
+	'current-language' => 'ភាសាដែលបានជ្រើសរើសបច្ចុប្បន្ននេះ',
+	'settings-legend' => 'ការកំណត់​ផ្សេងៗ',
+	'choose-language' => 'ជ្រើសរើសភាសា',
+	'clear-cookies' => 'ជំរះ cookies',
+	'tab-overview' => 'ខ្លឹមសារសង្ខេប',
 	'tab-settings' => 'ការកំណត់​នានា',
 	'tab-about' => 'អំពី',
+	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'ការកំណត់ភាសារបស់ខ្ញុំ',
+	'bl-mysettings-new' => 'ផ្លាស់ប្ដូរភាសា!',
+	'bl-promo' => 'ការប្រែសម្រួល powered ដោយ $1 និង $2 ។',
+	'bl-changelanguage' => 'ចុចនៅទីនេះដើម្បីផ្លាស់ប្ដូរភាសានៃឧបករណ៍នេះ។',
+	'usage' => 'ឧបករណ៍ ត្រូវបានបកប្រែសម្រួលដោយ Intution ។',
+	'help-translate-tool' => 'ចូលរួមជួយបកប្រែឧបករណ៍នេះ!',
+	'help-translate-all' => 'ចូលរួមជួយបកប្រែឧបករណ៍!',
+	'help-translate-tooltip' => 'ជួយអ្នកដទៃដោយចូលរួមបកប្រែខ្លឹមសារទាំងនេះទៅជាភាសារបស់អ្នក។',
 );
 
 /** Kannada (ಕನ್ನಡ)
@@ -1412,6 +1428,34 @@ $messages['lb'] = array(
 	'help-translate-tool' => "Hëlleft dësen Tool z'iwwersetzen!",
 	'help-translate-all' => "Hëlleft Tools z'iwwersetzen!",
 	'help-translate-tooltip' => "Hëlleft Aneren domat datt Dir d'Message vum Interface an Är Sprooch iwwersetzt.",
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'fullname' => 'جهون گرایی کردن سی اوزاریا',
+	'current-settings' => 'تنظیمات تازه باو',
+	'current-language' => 'زون تازه باو انتخاو بیه',
+	'settings-legend' => 'تنظيمات',
+	'choose-language' => 'يه گل زون انتخاو بكيد',
+	'clear-cookies' => 'کوکی یانه پاک بکید',
+	'renew-cookies' => 'کوکیا نه پاک بکید',
+	'cookie-expiration' => 'تموم بین ویرگار مصرف کوکی',
+	'clearcookies-success' => 'کوکیا سی همیشه پاک بیه',
+	'renewcookies-success' => 'کوکیا ز نو تازه بیه!', # Fuzzy
+	'tab-overview' => 'بیش سیل',
+	'tab-settings' => 'تنظيمات',
+	'tab-about' => 'دباره',
+	'tab-demo' => 'دمو',
+	'bl-mysettings' => 'تنظيمات زون مه',
+	'bl-mysettings-new' => 'آلشت كردن زون',
+	'bl-promo' => 'لرسن قوی بیه وا $1 و $2',
+	'bl-changelanguage' => 'ایچه بپورنیت تا راوط زون ای اوزار آلشت بوئه',
+	'usage' => 'اوزاریا لرسه وا نهاد',
+	'help-translate-tool' => 'سی والرسن ای اوزار هومیار بکید!',
+	'help-translate-all' => 'هومیاری والرسن اوزاریا',
+	'help-translate-tooltip' => 'دیه رونه وا لرسن پیغوم راوط د زون خوتو هومیاری بکید',
 );
 
 /** Lithuanian (lietuvių)

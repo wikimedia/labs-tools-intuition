@@ -141,6 +141,14 @@ See also:
 	'userfilter' => 'Label of username filter',
 );
 
+/** Arabic (العربية)
+ * @author Claw eg
+ */
+$messages['ar'] = array(
+	'select-placeholder-none' => '(لا شيء)',
+	'tag' => 'وسم',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -170,9 +178,11 @@ $messages['ast'] = array(
 	'nomatches' => 'Nun hai cambios cola so configuración',
 	'order' => 'Orde',
 	'permalink' => 'Enllaz permanente a la configuración actual',
+	'select-placeholder-none' => '(nengún)',
 	'showAnonOnly' => 'Namái anónimos',
 	'showUnpatrolledOnly' => 'Namái ensin supervisar',
 	'skippededit' => 'Edición saltada',
+	'tag' => 'Etiqueta',
 	'time-from' => 'Dende',
 	'time-untill' => 'Fasta',
 	'timeframe' => 'Rangu temporal',
@@ -234,15 +244,46 @@ $messages['br'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Overlaet
  */
 $messages['da'] = array(
+	'title' => 'Seneste ændringer i realtid',
 	'apply' => 'Anvend',
+	'asc' => 'Stig',
+	'changelog' => 'Hvad er nyt',
+	'clear' => 'ryd',
+	'currentedit' => 'Aktuelt valgt redigering',
+	'cvn-adder' => 'Bruger',
 	'cvn-adder-empty' => 'Ukendt',
 	'cvn-reason' => 'Årsag',
+	'cvn-reason-empty' => 'Ingen årsag fundet',
+	'desc' => 'Fald',
 	'documentation' => 'Dokumentation',
 	'filter' => 'Filter',
 	'helpicon-tooltip' => 'Klik her for mere information',
+	'lastupdate-cvn' => 'Sidst opdateret: $1',
+	'lastupdate-rc' => 'Sidst opdateret: $1',
+	'limit' => 'Grænse',
+	'masspatrol-requires-userfilter' => 'MassPatrol er blevet deaktiveret, fordi den kræver et brugerfilter og ingen blev sat.',
+	'months' => 'januar, februar, marts, april, maj, juni, juli, august, september, oktober, november, december',
+	'mypatrollog' => 'min patruljeringslog',
+	'namespace' => 'Navnerum',
+	'navtoggle-tooltip' => 'Vis/gem venstremenuen',
+	'nomatches' => 'Ingen relevante ændringer for dine indstillinger',
+	'order' => 'Rækkefølge',
+	'permalink' => 'Permanent link til de aktuelle indstillinger',
+	'select-placeholder-none' => '(ingen)',
+	'showAnonOnly' => 'Kun anonyme',
+	'showUnpatrolledOnly' => 'Kun upatruljeret',
+	'skippededit' => 'Oversprunget redigering',
+	'time-from' => 'Fra',
+	'time-untill' => 'Indtil',
+	'timeframe' => 'Tidsramme',
+	'type' => 'Type',
+	'typeEdit' => 'Redigeringer',
+	'typeNew' => 'Nye sider',
+	'userfilter' => 'Brugerfilter',
 );
 
 /** German (Deutsch)
@@ -288,6 +329,13 @@ $messages['de'] = array(
 	'userfilter' => 'Benutzerfilter',
 );
 
+/** Greek (Ελληνικά)
+ * @author Astralnet
+ */
+$messages['el'] = array(
+	'tag' => 'Ετικέτα',
+);
+
 /** Spanish (español)
  * @author Krinkle
  * @author McDutchie
@@ -304,7 +352,7 @@ $messages['es'] = array(
 	'cvn-adder-empty' => 'Desconocido',
 	'cvn-reason' => 'Motivo',
 	'cvn-reason-empty' => 'No se encontró un motivo',
-	'desc' => 'Descendente', # Fuzzy
+	'desc' => 'Desc',
 	'documentation' => 'Documentación',
 	'filter' => 'Filtro',
 	'helpicon-tooltip' => 'Haz clic aquí para más información',
@@ -319,9 +367,11 @@ $messages['es'] = array(
 	'nomatches' => 'No hay cambios relevantes para tu configuración',
 	'order' => 'Orden',
 	'permalink' => 'Enlace permanente a la configuración actual',
+	'select-placeholder-none' => '(ninguno)',
 	'showAnonOnly' => 'sólo anónimos',
 	'showUnpatrolledOnly' => 'Sin patrullar',
 	'skippededit' => 'Edición omitida',
+	'tag' => 'Etiqueta',
 	'time-from' => 'De',
 	'time-untill' => 'Hasta',
 	'timeframe' => 'Calendario',
@@ -360,9 +410,11 @@ $messages['fr'] = array(
 	'nomatches' => 'Aucune modification pertinente de vos paramètres',
 	'order' => 'Ordre',
 	'permalink' => 'Lien permanent vers les paramètres actuels',
+	'select-placeholder-none' => '(aucun)',
 	'showAnonOnly' => 'Anonymes uniquement',
 	'showUnpatrolledOnly' => 'Non patrouillés uniquement',
 	'skippededit' => 'Modification sautée',
+	'tag' => 'Balise',
 	'time-from' => 'De',
 	'time-untill' => 'Jusqu’à',
 	'timeframe' => 'Période',
@@ -401,9 +453,11 @@ $messages['gl'] = array(
 	'nomatches' => 'Non se produciron cambios relevantes segundo a súa configuración',
 	'order' => 'Orde',
 	'permalink' => 'Ligazón permanente á configuración actual',
+	'select-placeholder-none' => '(ningún)',
 	'showAnonOnly' => 'Anónimos unicamente',
 	'showUnpatrolledOnly' => 'Sen patrullar unicamente',
 	'skippededit' => 'Edición saltada',
+	'tag' => 'Etiqueta',
 	'time-from' => 'De',
 	'time-untill' => 'Ata',
 	'timeframe' => 'Período',
@@ -711,6 +765,7 @@ $messages['nl'] = array(
 	'showAnonOnly' => 'Alleen anoniemen',
 	'showUnpatrolledOnly' => 'Alleen ongecontroleerd',
 	'skippededit' => 'Overgeslagen bewerking',
+	'tag' => 'Tag',
 	'time-from' => 'Vanaf',
 	'time-untill' => 'Tot',
 	'timeframe' => 'Tijdsbestek',
@@ -923,7 +978,15 @@ $messages['ru'] = array(
  * @author Milicevic01
  */
 $messages['sr-ec'] = array(
+	'tag' => 'Ознака',
 	'type' => 'Тип',
+);
+
+/** Serbian (Latin script) (srpski (latinica)‎)
+ * @author Milicevic01
+ */
+$messages['sr-el'] = array(
+	'tag' => 'Oznaka',
 );
 
 /** Swedish (svenska)
@@ -999,6 +1062,49 @@ $messages['uk'] = array(
 	'userfilter' => 'Користувацький фільтр',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'title' => 'Thay đổi gần đây túc thời',
+	'apply' => 'Áp dụng',
+	'asc' => 'Tăng',
+	'changelog' => 'Những gì mới',
+	'clear' => 'xóa',
+	'currentedit' => 'Sửa đổi được chọn',
+	'cvn-adder' => 'Người thêm',
+	'cvn-adder-empty' => 'Không rõ',
+	'cvn-reason' => 'Lý do',
+	'cvn-reason-empty' => 'Không tìm thấy lý do',
+	'desc' => 'Giảm',
+	'documentation' => 'Tài liệu',
+	'filter' => 'Bộ lọc',
+	'helpicon-tooltip' => 'Thêm thông tin',
+	'lastupdate-cvn' => 'Cập nhật lần cuối: $1',
+	'lastupdate-rc' => 'Cập nhật lần cuối: $1',
+	'limit' => 'Giới hạn',
+	'masspatrol-requires-userfilter' => 'MassPatrol đã bị tắt vì không có bộ lọc người dùng nào được đặt.',
+	'months' => 'tháng 1, tháng 2, tháng 3, tháng 4, tháng 5, tháng 6, tháng 7, tháng 8, tháng 9, tháng 10, tháng 11, tháng 12',
+	'mypatrollog' => 'nhật trình tuần tra của tôi',
+	'namespace' => 'Không gian tên',
+	'navtoggle-tooltip' => 'Bật/tắt thanh bên',
+	'nomatches' => 'Không có thay đổi liên quan đến tùy chọn của bạn',
+	'order' => 'Thứ tự',
+	'permalink' => 'Liên kết thường trực đến tùy chọn hiện tại',
+	'select-placeholder-none' => '(không có)',
+	'showAnonOnly' => 'Chỉ vô danh',
+	'showUnpatrolledOnly' => 'Chỉ chưa tuần tra',
+	'skippededit' => 'Sửa đổi được bỏ qua',
+	'tag' => 'Thẻ',
+	'time-from' => 'Từ',
+	'time-untill' => 'Đến',
+	'timeframe' => 'Khoảng thời gian',
+	'type' => 'Kiểu',
+	'typeEdit' => 'Sửa đổi',
+	'typeNew' => 'Trang mới',
+	'userfilter' => 'Bộ lọc người dùng',
+);
+
 /** Wu (吴语)
  * @author Benojan
  */
@@ -1039,9 +1145,11 @@ $messages['zh-hans'] = array(
 	'nomatches' => '找不到与您设置相关的结果',
 	'order' => '顺序',
 	'permalink' => '链至目前设定的永久链接',
+	'select-placeholder-none' => '（无）',
 	'showAnonOnly' => '仅匿名用户',
 	'showUnpatrolledOnly' => '仅未巡查编辑',
 	'skippededit' => '跳过的编辑',
+	'tag' => '标签',
 	'time-from' => '从',
 	'time-untill' => '到',
 	'timeframe' => '时间范围',

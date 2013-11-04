@@ -849,27 +849,27 @@ $messages['da'] = array(
 	'error_not_exists' => 'Kildefilen findes ikke!',
 	'error_on_commons' => 'Kildefilen er allerede på $1!',
 	'error_file_exists' => 'Filen findes allerede på $3 som "$1$4$2"!',
-	'error_diff_exists' => "En anden fil med samme navn findes allerede på destinationswiki'en!",
-	'error_no_meta' => "Ingen metadata fundet om kilde-wiki'en! $1Vær venlig at tilføje/opdatere metadataene for projektet$2",
+	'error_diff_exists' => 'En anden fil med samme navn findes allerede på destinationswikien!',
+	'error_no_meta' => 'Ingen metadata fundet om kildewikien! $1Vær venlig at tilføje/opdatere metadataene for projektet$2',
 	'error_meta_no_good' => 'Metadata: Ingen gode skabeloner fundet! $1Vær venlig at tilføje/opdatere metadataene for projektet$2',
 	'error_meta_bad' => 'Metadata: Problematisk skabelon fundet! $1Vær venlig at tilføje/opdatere metadataene for projektet$2',
-	'original_wikitext' => 'Oprindelig wiki tekst',
-	'new_wikitext' => 'Ny wiki tekst',
+	'original_wikitext' => 'Oprindelig wikitekst',
+	'new_wikitext' => 'Ny wikitekst',
 	'new_filename' => 'Nyt filnavn:',
 	'output_information' => 'For at lægge filen op manuelt, rediger teksten ovenfor (om nødvendigt), gem $1filen$2 på din computer, og $3læg den op$4.',
 	'upload_submit' => 'Læg op!',
-	'target_wiki' => 'Destinationswiki',
+	'target_wiki' => 'destinationswikien',
 	'error_bot_blocked' => 'Upload-botten er blokeret på Wikimedia Commons.',
 	'error_upload_meta' => 'Kan ikke overføre direkte, fordi der er problemer med metadata (se ovenfor)!',
 	'error_tusc_failed' => 'TUSC verifikation mislykkedes!',
 	'error_only_commons' => 'Direkte upload fungerer kun på Wikimedia Commons!',
-	'upload_control_text' => 'Tjek venligst den nye wiki-tekst og klik på "$1" hvis alt er OK!',
+	'upload_control_text' => 'Tjek venligst den nye wikitekst og klik på "$1" hvis alt er OK!',
 	'error_commons_user' => 'Dit Wikimedia Commons brugernavn skal være i beskrivelsen, så brugeren, der udførte overførslen, kan identificeres!',
 	'error_upload_users' => 'Uploadfunktionen er kun tilgængelig for nogle brugere i forsøgsperioden!',
 	'error_upload_file' => 'Den originale fil kan ikke hentes.',
 	'help_intro' => 'Hvis du vil melde en fejl, foreslå ny funktionalitet eller stille et spørgsmål, kan du bruge en af nedenstående metoder:',
 	'help_jira' => '$1JIRA (du skal bruge en konto)$2 (Projekt: Commonshelper2)',
-	'help_mail' => 'Send en mail til $1',
+	'help_mail' => 'Send en e-mail til $1',
 	'help_commons' => '$1Tilføj et indlæg på Commons$2',
 );
 
@@ -2295,6 +2295,7 @@ $messages['la'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'attention' => 'Opgepasst',
@@ -2334,10 +2335,10 @@ $messages['lb'] = array(
 	'error_bot_blocked' => 'De bot fir erofzelueden ass op Wikimedia Commons gespaart.',
 	'error_upload_meta' => 'Et kann net direkt eropgeluede ginn, well et Problemer mat de Metadonnéeë gëtt (kuckt uewen)!',
 	'error_tusc_failed' => 'TUSC Kontroll ass feelgeschloe!',
-	'error_only_commons' => 'Direkt Eropluede fonctionnéiert nëmme bäi Wikimedia Commons',
+	'error_only_commons' => 'Direkt Eropluede funktionéiert nëmme bei Wikimedia Commons',
 	'upload_control_text' => 'Kuckt w.e.g. den neie Wiki-Text no a klickt "$1" wann alles an der Rei ass!',
 	'error_commons_user' => "Fir de Benotzer z'identifizéieren deen den Transfert mécht, muss de Benotzernumm vu Wikimedia Commons an der Beschreiwung dra sinn!",
-	'error_upload_users' => "D'Fonctioun vum Eroplueden ass während der Testphas nëmme fir e puer Benotzer disponibel!",
+	'error_upload_users' => "D'Funktioun vum Eroplueden ass während der Testphas nëmme fir e puer Benotzer disponibel!",
 	'error_upload_file' => 'De Quell-Fichier kann net erofgeluede ginn.',
 	'help_intro' => "Wann Dir e Software-Feeler melle wëllt, eng Funktioun virschloe wëllt oder eng Fro hutt, da kënnt Dir d'Kontaktmethoden hei drënner benotzen:",
 	'help_jira' => '$1JIRA (Dir braucht e Benotzerkont)$2 (Projet: Commonshelper2)',
@@ -4164,6 +4165,7 @@ $messages['vi'] = array(
 	'move_file_from_com' => 'Chuyển tập tin từ Wikimedia Commons sang một dự án',
 	'categories' => 'Thể loại',
 	'remove_cats' => 'Gỡ thể loại hiện có',
+	'checkusage' => 'Kiểm tra sử dụng',
 	'use_checkusage' => 'Sử dụng $1CommonsSense$2 để gợi ý thêm thể loại',
 	'use_tusc' => 'Sử dụng $1TUSC$2 để xác thực và chuyển tập tin trực tiếp',
 	'tusc_user' => 'Tên người dùng TUSC',

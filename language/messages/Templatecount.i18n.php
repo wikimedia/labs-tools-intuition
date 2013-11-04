@@ -256,14 +256,20 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Erisos
  * @author Sarrus
  */
 $messages['da'] = array(
 	'enter-details' => 'Indtast detaljer',
+	'introduction' => 'Skriv navnet på en skabelon (kun Wikipediaer i øjeblikket) og tryk på go. Så simpelt er det. Der er noget caching (resultaterne huskes), men det er desværre uden for kontrol af dette værktøj og dens ejer.',
 	'language-label' => 'Sprog',
 	'namespace-label' => 'Navnerum',
 	'pagename-label' => 'Sidenavn (uden navnerum)',
+	'transclusion-count-label' => 'Antallet af indlejringer',
+	'transclusion-count' => '$1 indlejring(er) fundet.',
+	'error-suggestion' => 'Måske har du stavet navnet på siden forkert (eller skrevet med stort)?',
+	'time-label' => 'Tid det tog at udføre kommandoen',
 );
 
 /** German (Deutsch)
@@ -724,10 +730,11 @@ $messages['la'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'enter-details' => 'Detailer aginn',
-	'introduction' => "Gitt den Numm vun enger Schabloun an (elo nëmmen op Wikipedia) a klickt 'Lass'. Et ass esou einfach wéi dat. Et ka sinn datt Resultater aus dem Tëschespäicher gewise ginn, awer dat kann net vun dësem Tool oder sengem Besëtzer kontrolléiert ginn.",
+	'introduction' => "Gitt den Numm vun enger Schabloun an (elo nëmmen op Wikipedia) a klickt 'Lass'. Et ass sou einfach wéi dat. Et ka sinn datt Resultater aus dem Tëschespäicher gewise ginn, awer dat kann net vun dësem Tool oder sengem Besëtzer kontrolléiert ginn.",
 	'language-label' => 'Sprooch',
 	'namespace-label' => 'Nummraum',
 	'pagename-label' => 'Numm vun der Säit (ouni Nummraum)',

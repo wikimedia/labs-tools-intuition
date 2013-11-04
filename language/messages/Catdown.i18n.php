@@ -686,11 +686,14 @@ $messages['da'] = array(
 	'no-such-project' => 'Projektet eksisterer ikke',
 	'no-images' => 'Der er ingen billeder i den kategori',
 	'category-is-url' => 'Det angivne kategorinavn ligner en URL-adresse. Du skal angive navnet på en kategori, ikke dens URL.',
-	'category-contains-namespace' => 'Du synes at have medtaget navnerummet i kategoriens navn. Med det angivne navn, vil siden være tilgængelig som [[Kategori:$1]].', # Fuzzy
+	'category-contains-namespace' => 'Du synes at have medtaget navnerummet i kategoriens navn. Med det angivne navn, vil siden være tilgængelig som [[Category:$1]].',
 	'zip-failed' => 'Oprettelsen af ZIP mislykkedes',
 	'image-area-too-big' => '$1 er for stor til at oprette en miniature. Anvender fuld størrelse.',
 	'download-info' => '{{plural: $1|Der er et billede|Der er $1 billeder}} med en anslået størrelse på $2',
 	'download' => 'Hent',
+	'scaling-width' => ',skaleret til en maksimal bredde på $1 {{plural:$1|pixel|pixels}}',
+	'scaling-height' => ',skaleret til en maksimal højde på $1 {{plural:$1|pixel|pixels}}',
+	'scaling-both' => ',skaleret til en maksimal størrelse på $1x$2 pixels',
 );
 
 /** German (Deutsch)
@@ -971,6 +974,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Leyth
  * @author Reza1615
  * @author ZxxZxxZ
@@ -992,7 +996,7 @@ $messages['fa'] = array(
 	'zip-failed' => 'زیپ ایجاد نشد',
 	'image-area-too-big' => '$1 برای ایجاد تصویر بندانگشتی بیش از حد بزرگ است. استفاده از اندازهٔ کامل.',
 	'download-info' => '{{plural: $1|یک تصویر وجود دارد|$1 تصویر وجود دارد}}، با اندازهٔ تخمینی $2',
-	'download' => 'بارگیری',
+	'download' => 'دریافت',
 );
 
 /** Finnish (suomi)
@@ -1809,6 +1813,7 @@ $messages['ky'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'title' => 'Biller vun enger Kategorie eroflueden',
@@ -1820,10 +1825,10 @@ $messages['lb'] = array(
 	'max-height' => 'Maximal Héicht:',
 	'invalid-width' => "D'Breet ass net valabel",
 	'invalid-height' => "D'Héicht ass net valabel",
-	'no-such-project' => 'Esou e Projet gëtt et net',
+	'no-such-project' => 'Sou e Projet gëtt et net',
 	'no-images' => 'Et gëtt keng Biller an där Kategorie',
 	'category-is-url' => "D'Kategorie déi ugi gouf gesäit wéi eng komplett URL aus. Dir musst den Numm vun der Kategorie uginn, an net hir URL.",
-	'category-contains-namespace' => "Et schéngt wéi wann Dir den Nummraum bäi den Numm vun der Kategorie derbäigesat hutt. Mam Numm den uginn ass wier d'Säit als [[Category:$1]] disponibel.",
+	'category-contains-namespace' => "Et schéngt wéi wann Dir den Nummraum bei den Numm vun der Kategorie derbäigesat hutt. Mam Numm den uginn ass wier d'Säit als [[Category:$1]] disponibel.",
 	'zip-failed' => 'De ZIP-Fichier konnt net gemaach ginn',
 	'image-area-too-big' => '$1 ass ze grouss fir e Miniatur-Bild ze generéieren. Déi komplett Gréisst gëtt benotzt.',
 	'download-info' => 'Et {{plural: $1|ass 1 Bild|si(nn) $1 Biller}} mat enger geschater Gréisst vun $2 do',
@@ -1831,7 +1836,7 @@ $messages['lb'] = array(
 	'readme-contents' => "Am Fichier $4 stinn d'Biller déi an der Kategorie $1 dra sinn ($2) $3.
 
 == Instruktiounen fir d'Erofluede vun de Biller aus der Lëscht ==
-D'Zäit déi Erofluede brauch kann tëschent e puer Minutten an a puer Stonne leien.
+D'Zäit déi Erofluede brauch kann tëscht e puer Minutten an a puer Stonne leien.
 
 Windows:
 All Fichieren an deeselwechte Repertoire erauszéien an $5 lancéieren.
@@ -1852,6 +1857,20 @@ Et gëtt och aner GNU-Mirror. Kuckt dofir
 	'scaling-width' => ', op eng maximal Breet vu(n) $1 {{plural:$1Pixel|Pixel}} skaléiert',
 	'scaling-height' => ', op eng maximal Héicht vu(n) {{plural:$1Pixel|Pixel}} skaléiert',
 	'scaling-both' => ', op eng maximal Gréisst vu(n) $1x$2 Pixel skaléiert',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'project' => 'پروجه:',
+	'category' => 'دسه:',
+	'invalid-width' => 'درازا بی اعتوار',
+	'invalid-height' => 'بلنگی بی اعتوار',
+	'no-such-project' => 'چنی پروجه ای نی',
+	'no-images' => 'هیش عسکی د ای دسه نی',
+	'zip-failed' => 'راس کردن زیپ شکست حرد',
+	'download' => 'گرتن',
 );
 
 /** Lithuanian (lietuvių)

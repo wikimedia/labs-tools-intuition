@@ -1042,6 +1042,7 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Sarrus
  * @author Tjernobyl
  */
@@ -1087,14 +1088,21 @@ $messages['da'] = array(
 	'photographer-count-heading' => 'Fotografer',
 	'bic-list' => 'Liste',
 	'bic-gallery' => 'Galleri',
+	'gallery-header-place' => 'Billeder af monumenter fra $1.',
+	'wall-of-shame-text' => 'Fotografer efter antal af uidentificerede fotografier',
+	'author-heading' => 'Fotograf',
 	'bic-list-bad' => 'Vis',
 	'bic-list-all' => 'Fuldstændig liste',
 	'unregistered' => 'Uregistreret',
+	'users-text' => 'Denne side viser fotograferne med de billeder de uploadede og hvor mange monumenter',
 	'users-list' => 'Vis',
+	'distict-monuments' => 'Forskellige monumenter',
+	'list-prolific-begin' => 'Liste over de mest produktive uploadere:',
 	'list-prolific-by-photos' => 'Efter antal billeder',
 	'province-heading' => 'Provins',
 	'province-none' => '(Ukendt)',
 	'ccaa-heading' => 'CC.AA.',
+	'nomail-text' => 'Liste over brugere som deltager i Wiki Loves Monuments $1 der ikke synes at have angivet en e-mailadresse.',
 	'nomail-user-count' => '$1 brugere',
 );
 
@@ -2841,6 +2849,7 @@ $messages['ku-latn'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Purodha
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'title' => 'WLM-Fichieren',
@@ -2855,7 +2864,7 @@ $messages['lb'] = array(
 	'location' => 'Plaz',
 	'upload-time' => 'Zäitpunkt vum Eroplueden',
 	'deleted' => 'Geläscht ($1)',
-	'concursa' => 'mécht bäi WLM mat',
+	'concursa' => 'mécht bei WLM mat',
 	'no-concursa' => 'Mécht net beim WLM-Concours mat',
 	'not-available' => 'Net disponibel',
 	'date-unknown' => 'Onbekannt',
@@ -2881,7 +2890,7 @@ Pro Provënz weisen',
 	'view-later-images' => 'Méi rezent Biller weisen →',
 	'images-listed-count' => '$1 Biller an der Lëscht.',
 	'log-page-disclaimer' => "Dëse Programm weist d'Fichieren déi an der [[:Category:$1|relevanter Kategorie]] déi während dem Concours eropgeluede goufen.
-Geläschte Fichiere ginn net gewisen esougue wa si duerno [$2 restauréiert] goufen an erëm matmaachen.",
+Geläschte Fichiere ginn net gewisen souguer wa si duerno [$2 restauréiert] goufen an erëm matmaachen.",
 	'bot' => 'Bot',
 	'id-label' => 'ID vum Monument:',
 	'id-none' => '(Keng)',
@@ -2912,8 +2921,32 @@ Geläschte Fichiere ginn net gewisen esougue wa si duerno [$2 restauréiert] gou
 	'province-heading' => 'Provënz',
 	'province-none' => '(Onbekannt)',
 	'ccaa-heading' => 'CC.AA.',
-	'nomail-text' => 'Lëscht vun de Benotzer déi bäi Wiki Loves Monuments $1 matgemaach hunn an déi - wéi et ausgesäit - keng E-Mail-Adress uginn hunn.',
+	'nomail-text' => 'Lëscht vun de Benotzer déi bei Wiki Loves Monuments $1 matgemaach hunn an déi - wéi et ausgesäit - keng E-Mail-Adress uginn hunn.',
 	'nomail-user-count' => '$1 Benotzer',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'file' => 'عسگ',
+	'country-header' => 'ولات',
+	'location' => 'جاگه',
+	'upload-time' => 'بلم گیر وخت',
+	'deleted' => 'پاک بیه($1)',
+	'date-unknown' => 'ناشناس',
+	'total-images' => 'همه عسگیا:$1',
+	'show-images-all' => 'همه عسگیا نه نشون بيه',
+	'country-label' => 'ولات',
+	'all-countries' => 'همه ولاتیا',
+	'timezone-label' => 'وخت راساگه',
+	'show-button' => 'نشون دائن',
+	'bot' => 'بت',
+	'id-none' => '(هيش كوم)',
+	'bic-gallery' => 'عسگ دونی',
+	'author-heading' => 'نيسنه',
+	'bic-list-bad' => 'نشون دائن',
+	'users-list' => 'ديئن',
 );
 
 /** Lithuanian (lietuvių)

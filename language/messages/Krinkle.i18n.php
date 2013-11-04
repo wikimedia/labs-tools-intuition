@@ -554,6 +554,16 @@ $messages['lb'] = array(
 	'form-legend-settings' => 'Astellungen',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'alws-selectwiki' => '(ویکی نه انتخاو بکید)',
+	'alws-group-mustused' => 'ویکیا بیشتر استفاده بیه',
+	'alws-group-allaz' => 'همه ویکیا د لحاظ الفبانگاشت',
+	'form-legend-settings' => 'تنظيمات',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  */

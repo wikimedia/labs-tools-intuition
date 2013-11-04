@@ -499,6 +499,7 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  * @author Platonides
  * @author Sarrus
@@ -509,7 +510,7 @@ $messages['da'] = array(
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'osv.',
 	'namespace' => 'Navnerum',
-	'form-submit' => 'Gå',
+	'form-submit' => 'Udfør',
 	'form-reset' => 'Nulstil',
 	'years' => '{{PLURAL: $1|år|år}}',
 	'weeks' => '{{PLURAL: $1|uge|uger}}',
@@ -1340,6 +1341,28 @@ $messages['lez'] = array(
 	'hours' => '{{PLURAL: $1|сят|сятерал}}',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'hello' => 'سلام',
+	'welcome' => 'خوش اومايت',
+	'toolversionstamp' => 'نسقه $1($2)',
+	'etc' => 'همچنو.',
+	'namespace' => 'نوم جا',
+	'form-submit' => 'رو',
+	'form-reset' => 'د نو شرو كردن',
+	'years' => '{{جمی: $1|سال|سالیا}}', # Fuzzy
+	'weeks' => '{{جمی: $1|هفته|هفته یا}}', # Fuzzy
+	'days' => '{{جمی: $1|رو|زوزا}}', # Fuzzy
+	'hours' => '{{جمی: $1|ساعت|ساعتیا}}', # Fuzzy
+	'minutes' => '{{جمی: $1|دیقه|دیقه یا}}', # Fuzzy
+	'seconds' => '{{جمی: $1|تیه وه یک زنون|تیه وه یک زنون یا}}', # Fuzzy
+	'last-modified-date' => 'آخرین آلشت:$1',
+	'view-source' => 'سرچشمه نه بوينيت',
+	'and' => '&#32;و',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Matasg
@@ -2054,6 +2077,7 @@ $messages['sr-ec'] = array(
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
+ * @author Milicevic01
  * @author Platonides
  * @author Rancher
  */
@@ -2074,7 +2098,7 @@ $messages['sr-el'] = array(
 	'minutes' => '{{PLURAL: $1|minut|minuta|minuta}}',
 	'seconds' => '{{PLURAL: $1|sekund|sekunde|sekundi}}',
 	'last-modified-date' => 'Poslednja izmena: $1',
-	'view-source' => 'Izvornik',
+	'view-source' => 'Izvorni kod',
 	'parentheses' => '($1)',
 	'and' => '&#32;i',
 );

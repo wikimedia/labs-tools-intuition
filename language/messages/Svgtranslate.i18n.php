@@ -976,7 +976,7 @@ $messages['eu'] = array(
 $messages['fa'] = array(
 	'title' => 'ترجمهٔ اس‌وی‌جی',
 	'error-tryagain' => '$1 اگر می‌خواهید دوباره امتحان کنید، دکمهٔ بازگشت را در مرورگرتان بفشارید.',
-	'error-nothing' => 'چیزی برای ترجمه نیست.',
+	'error-nothing' => 'چیزی برای ترجمه وجود ندارد.',
 	'error-notsvg' => 'پرونده اس‌وی‌جی نیست.',
 	'error-unexpected' => 'یک خطای غیرمنتظره رخ داد.',
 	'error-notfound' => 'امکان بازیابی پروندهٔ اس‌وی‌جی از نشانی اینترنتی ارائه‌شده نبود.',
@@ -1623,15 +1623,15 @@ $messages['km'] = array(
 	'error-tryagain' => '$1 ចុចប៊ូតុងត្រលប់ក្រោយរបស់ឧបករណ៍រាវរករបស់អ្នក ដើម្បីព្យាយាមម្ដងទៀត។',
 	'error-nothing' => 'គ្មានអ្វីត្រូវបកប្រែ។',
 	'error-notsvg' => 'មិនមែនជាឯកសារប្រភេទ SVG។',
-	'error-unexpected' => 'មានបញ្ហាមិនបានព្រាងទុកមួយកើតឡើង។',
-	'error-notfound' => 'ឯកសារSVGនេះមិនអាចទាញយកបានពីURLដែលបានផ្ដល់អោយទេ។',
-	'error-upload' => 'មានបញ្ហាក្នុងការផ្ទុកឡើង។',
+	'error-unexpected' => 'មានកំហុសមិនបានព្រាងទុកមួយកើតឡើង។',
+	'error-notfound' => 'ឯកសារ SVG នេះមិនអាចទាញយកបានពី URL នេះបានទេ។',
+	'error-upload' => 'មានកំហុសក្នុងការផ្ទុកឡើង។',
 	'begin-translation' => 'ចាប់ផ្ដើមបកប្រែ',
-	'th-original' => 'ដើម',
+	'th-original' => 'ច្បាប់ដើម',
 	'th-translation' => 'ការបកប្រែ',
 	'th-language' => 'ភាសា',
 	'th-username' => 'អត្តនាម',
-	'th-password' => 'ពាក្យសំងាត់',
+	'th-password' => 'ពាក្យ​សម្ងាត់',
 	'th-method' => 'វិធី',
 	'option-tusc' => 'TUSC (ផ្ទុកឡើងដោយស្វ័យប្រវត្តិ)',
 	'option-manual' => 'ផ្ទុកឡើងដោយដៃ',
@@ -1788,6 +1788,7 @@ $messages['la'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'title' => 'SVG Iwwersetzen',
@@ -1812,13 +1813,13 @@ $messages['lb'] = array(
 	'svginput-label' => 'SVG-Fichier',
 	'stats-footer' => "Dësen Tool gouf zënter dem $2 benotzt fir ongeféier $1 Fichieren z'iwwersetzen.",
 	'uploading' => 'Eroplueden',
-	'upload-complete' => "D'Eroplueden huet fonctionnéiert. D'Bild misst elo op $1 sinn",
+	'upload-complete' => "D'Eroplueden huet funktionéiert. D'Bild misst elo op $1 sinn",
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
 	'disclaimer' => "E puer anonym Donnéeë gi fir statistesch Zwecker gesammelt. Wann dir en TUSC Benotzernumm ugitt, gëtt deen och gespäichert fir am Fall vu Vandalismus d'Recherchen ze vereinfachen. Passwierder ginn ni gespäichert.",
 	'author-complete' => "Kompletéiert w.e.g. d'Informatiounen iwwer den Auteur!",
 	'preview-hide' => 'Preview verstoppen',
 	'preview-refresh' => 'Preview aktualiséieren',
-	'error-must-accept' => "Fir mam direkten Eropluede virunzefuere musst Dir d'Conditioune vum Benotzen akzeptéieren.",
+	'error-must-accept' => "Fir mam direkten Eropluede virunzefuere musst Dir d'Konditioune vum Benotzen akzeptéieren.",
 	'error-tusc-failed' => 'TUSC-Validatioun feelgeschlo: Benotzernumm oder Passwuert ass net richteg.',
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 	'finalise' => 'Detailer kompletéieren',

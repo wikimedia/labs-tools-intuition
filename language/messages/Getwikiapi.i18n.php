@@ -517,6 +517,17 @@ $messages['lez'] = array(
 	'input' => 'Экъечlун',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'formats-heading' => 'قالویا درفرسن',
+	'input' => 'داده',
+	'label-wikiids' => 'ویکی شناساگر',
+	'no-matches' => 'هیچی تطاوق ناره$1',
+	'output' => 'درفرسن سی $1',
+);
+
 /** Lithuanian (lietuvių)
  * @author Matasg
  */

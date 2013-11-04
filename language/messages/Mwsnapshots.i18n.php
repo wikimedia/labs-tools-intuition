@@ -452,6 +452,7 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Sarrus
  * @author Tjernobyl
  */
@@ -459,12 +460,16 @@ $messages['da'] = array(
 	'title-overview' => 'Øjebliksbilleder',
 	'title-error' => 'Fejl',
 	'title-updatelog' => 'Opdateringslog',
+	'updatelog-intro' => 'Opdateringsskriptet er planlagt til at køre hver time. Nedenfor er konsol outputtet af den seneste kørsel.',
+	'updatelog-active' => 'Opdateringsskriptet kører i øjeblikket. Kom tilbage senere for den fuldstændige log.',
 	'download-button' => 'Download $1',
 	'download-directlink' => 'direkte link',
 	'title-downloadpage' => 'Download: $1',
 	'downloadpage-directlink' => 'Klik her for at hente øjebliksbillede.',
+	'err-noupdatelog' => 'Ingen opdateringslog blev fundet.',
 	'repo-site-link' => 'Hjemmeside',
 	'repo-lastmoddate-label' => 'Dato:',
+	'branches-submit-button' => 'Skaf den!',
 	'updatelog-link' => 'opdateringslog',
 	'tablehead-snapshots' => 'Øjebliksbilleder',
 	'tablehead-filesize' => 'Filstørrelse',
@@ -640,15 +645,16 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Mjbmr
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'title-error' => 'خطا',
 	'title-updatelog' => 'سیاهه به روز رسانی',
-	'download-button' => 'بارگیری $1',
+	'download-button' => 'دریافت $1',
 	'download-directlink' => 'پیوند مستقیم',
-	'title-downloadpage' => 'بارگیری: $1',
+	'title-downloadpage' => 'دریافت: $1',
 	'err-invalid-repo' => 'مخزن ناشناخته «$1».',
 	'err-invalid-branch' => 'شاخهٔ ناشناخته: «$1» در مخزن «$2».',
 	'err-noupdatelog' => 'هیچ سیاهه به روز رسانی یافت نشد.',
@@ -1233,12 +1239,13 @@ $messages['ku-latn'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'title-overview' => 'Schnappschëss',
 	'title-error' => 'Feeler',
 	'title-updatelog' => 'Logbuch vun den Aktualisatiounen',
-	'updatelog-intro' => "Den Aktualisatiouns-Script ass fir all Stonn programméiert. Hei drënner stinn d'Informatiounen iwwer déi leschte Kéier wou dat fonctionnéiert huet,",
+	'updatelog-intro' => "Den Aktualisatiounsscript ass fir all Stonn programméiert. Hei drënner stinn d'Informatiounen iwwer déi lescht Kéier wou dat funktionéiert huet,",
 	'updatelog-active' => 'Den Aktualisatiouns-Script leeft elo. Kommt méi spéit zréck fir de komplette Log ze gesinn.',
 	'download-button' => '$1 eroflueden',
 	'download-directlink' => 'direkte Link',

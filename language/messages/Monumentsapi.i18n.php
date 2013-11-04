@@ -815,6 +815,7 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author MGA73
  * @author Peter Alberti
  * @author Sarrus
@@ -851,12 +852,18 @@ $messages['da'] = array(
 	'db-field-st_municipality_pct' => 'Kommune %',
 	'db-field-st_name' => 'Navne',
 	'db-field-st_name_pct' => 'Navne %',
+	'db-field-st_total' => 'Samlet antal',
+	'toolbox-label-searchtipps' => 'Brug %ord eller ord% eller %ord% for fuzzy søgning',
+	'toolbox-meta-title' => 'Wiki Loves Monuments værktøjskasse',
+	'toolbox-main-title' => 'WLM værktøjskasse',
+	'toolbox-main-description' => 'Et sæt af værktøjer relateret til',
 	'toolbox-wikilovesmonuments' => 'Wiki elsker monumenter',
 	'toolbox-nav-homepage' => 'Hjemmeside',
 	'toolbox-nav-statistics' => 'Statistikker',
 	'toolbox-nav-search' => 'Søg',
 	'toolbox-title-searchmonuments' => 'Søg monumenter',
 	'location' => 'Sted',
+	'source-monuments-list-on-wikipedia' => 'Kildeliste over monumenter på Wikipedia',
 );
 
 /** German (Deutsch)
@@ -2973,7 +2980,7 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'search-table-th-field' => 'ډګر',
-	'search-table-th-filter' => 'چاڼګر',
+	'search-table-th-filter' => 'چاڼگر',
 	'search-table-th-search' => 'پلټل',
 	'filter-all-countries' => 'ټول هېوادونه',
 	'filter-all-languages' => 'ټولې ژبې',
