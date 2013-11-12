@@ -26,9 +26,7 @@ class TsIntuition {
 
 	public $registeredTextdomains;
 
-	public $version = '0.1.3-alpha';
-
-	public $versionDate;
+	public $version = '0.1.4';
 
 	public $mode = null; // 'in-tool', 'dashboard'
 
@@ -191,7 +189,7 @@ class TsIntuition {
 
 		// Version date (default to this file modification time)
 		// Can be overwritten in LocalConfig (ie. from svn info)
-		$TsIntuition->versionDate = getlastmod();
+
 		if ( function_exists( 'intuitionHookInit' ) ) {
 			intuitionHookInit( $TsIntuition );
 		} elseif ( function_exists( 'TsIntuition_inithook' ) ) {

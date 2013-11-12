@@ -14,6 +14,7 @@ $messages['en'] = array(
 	'dateformat' => '%B %d %Y', // Optional
 	'hello' =>	'Hello',
 	'welcome' => 'Welcome',
+	'toolversion' => 'Version $1',
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'etc.',
 	'colon-separator' => ':', // Optional
@@ -46,7 +47,8 @@ $messages['qqq'] = array(
 {{Identical|Hello}}',
 	'welcome' => 'A friendly welcome.
 {{Identical|Welcome}}',
-	'toolversionstamp' => 'Short sentence about what the last version of this tool is and when the last update was. <code>$1</code> is the version (eg. "1.5.5beta") and <code>$2</code> is the date (without time).',
+	'toolversion' => 'Short label stating the current version of a tool. <code>$1</code> is the version (eg. "1.2.3-alpha").',
+	'toolversionstamp' => 'Short label stating the current version of a tool and when the last update was. <code>$1</code> is the version (eg. "1.2.3-alpha") and <code>$2</code> is the date (without time).',
 	'etc' => 'Abbreviated form of "et cetera"',
 	'colon-separator' => '{{Optional}} Change it only if your language uses another character for ":" or it needs an extra space before the colon.',
 	'namespace' => '{{Identical|Namespace}}',

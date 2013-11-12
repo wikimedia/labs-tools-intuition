@@ -44,10 +44,9 @@ $Tool = BaseTool::newFromArray( array(
 	'remoteBasePath' => $I18N->dashboardHome,
 	'localBasePath'	 => $I18N->localBaseDir,
 	'revisionId'	 => $I18N->version,
-	'revisionDate'	 => $I18N->dateFormatted( $I18N->versionDate ),
 	'styles'		 => array( 'main.css' ),
 ) );
-$Tool->setSourceInfoGithub( 'Krinkle', 'TsIntuition', __DIR__ );
+$Tool->setSourceInfoGithub( 'Krinkle', 'TsIntuition', dirname( __DIR__ ) );
 
 /* Load Scripts & Styles */
 
