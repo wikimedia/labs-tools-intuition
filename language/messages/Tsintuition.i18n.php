@@ -544,26 +544,26 @@ $messages['cv'] = array(
 $messages['da'] = array(
 	'fullname' => 'Internationalisering af værktøjer',
 	'current-settings' => 'Aktuelle indstillinger',
-	'current-language' => 'Aktuelt valgte sprog',
+	'current-language' => 'Valgte sprog',
 	'settings-legend' => 'Indstillinger',
 	'choose-language' => 'Vælg et sprog',
-	'clear-cookies' => 'Fjern cookies',
-	'renew-cookies' => 'Forny cookies',
-	'cookie-expiration' => 'Cookieudløb',
+	'clear-cookies' => 'fjern cookies',
+	'renew-cookies' => 'forny cookies',
+	'cookie-expiration' => 'Udløbsdato for cookie',
 	'clearcookies-success' => 'Det lykkedes at slette cookies',
-	'renewcookies-success' => 'Cookies fornyet! Du er klar til næste $1.',
+	'renewcookies-success' => 'Cookies fornyet! Du er klar til de næste $1.',
 	'tab-overview' => 'Oversigt',
 	'tab-settings' => 'Indstillinger',
 	'tab-about' => 'Om',
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Mine sprogindstillinger',
 	'bl-mysettings-new' => 'Skift sprog!',
-	'bl-promo' => 'Oversættelser er drevet af $1 og $2 .',
+	'bl-promo' => 'Oversættelser er drevet af $1 og $2.',
 	'bl-changelanguage' => 'Klik her for at ændre sproget i brugergrænsefladen for ​​dette værktøj.',
 	'usage' => 'Værktøjer oversat af Intuition.',
-	'help-translate-tool' => 'Hjælpe med at oversætte dette værktøj!',
+	'help-translate-tool' => 'Hjælp med at oversætte dette værktøj!',
 	'help-translate-all' => 'Hjælp med at oversætte værktøjer!',
-	'help-translate-tooltip' => 'Hjælp andre ved at omsætte brugergrænsefladebeskeder til dit sprog.',
+	'help-translate-tooltip' => 'Hjælp andre ved at oversætte beskederne i brugergrænsefladen til dit sprog.',
 );
 
 /** German (Deutsch)
@@ -600,6 +600,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Mirzali
  */
 $messages['diq'] = array(
@@ -613,7 +614,7 @@ $messages['diq'] = array(
 	'clearcookies-success' => 'Çerezi weş besterneyay',
 	'tab-overview' => 'Hera weynayis',
 	'tab-settings' => 'Eyari',
-	'tab-about' => 'Heqa cı de',
+	'tab-about' => 'Heqdé cı',
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Sazê zıwan dı mı',
 	'bl-mysettings-new' => 'Zıwan vuurnayış!',
@@ -1867,11 +1868,12 @@ $messages['pfl'] = array(
 /** Polish (polski)
  * @author Marcin Łukasz Kiejzik
  * @author Odder
+ * @author Rezonansowy
  * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
-	'fullname' => 'Ustawienia międzynarodowe interfejsu użytkownika Toolservera', # Fuzzy
+	'fullname' => 'Internacjonalizacja dla narzędzi',
 	'current-settings' => 'Bieżące ustawienia',
 	'current-language' => 'Obecnie wybrany język',
 	'settings-legend' => 'Ustawienia',
@@ -1889,7 +1891,7 @@ $messages['pl'] = array(
 	'bl-mysettings-new' => 'Zmień język!',
 	'bl-promo' => 'W tłumaczeniach interfejsu pomagają $1 i $2.',
 	'bl-changelanguage' => 'Kliknij tutaj, aby zmienić język interfejsu tego narzędzia.',
-	'usage' => 'Narzędzia przetłumaczone w ramach inicjatywy Toolserver Intuition.', # Fuzzy
+	'usage' => 'Narzędzia przetłumaczone przez Intuition.',
 	'help-translate-tool' => 'Pomóż przetłumaczyć to narzędzie!',
 	'help-translate-all' => 'Pomóż przetłumaczyć narzędzia!',
 	'help-translate-tooltip' => 'Pomóż innym tłumacząc komunikaty interfejsu na swój język.',

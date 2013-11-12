@@ -650,6 +650,7 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  * @author Sarrus
  */
@@ -661,7 +662,7 @@ $messages['da'] = array(
 	'error-unexpected' => 'En uventet fejl opstod.',
 	'error-notfound' => 'SVG-filen kunne ikke hentes fra den angivne URL-adresse.',
 	'error-upload' => 'Der opstod en fejl under upload.',
-	'begin-translation' => 'Begynd oversættelse',
+	'begin-translation' => 'Begynd med at oversætte',
 	'th-original' => 'Original',
 	'th-translation' => 'Oversættelse',
 	'th-language' => 'Sprog',
@@ -672,7 +673,7 @@ $messages['da'] = array(
 	'option-manual' => 'Manuel upload',
 	'preview' => 'Forhåndsvisning',
 	'translate' => 'Oversæt',
-	'translate-instructions' => 'Input accepteres som enten filnavne (f.eks " $1 ") eller fuld URL (f.eks" $2 "). Hvis den første mulighed benyttes, antages det, at Wikimedia Commons er kilden. For at oversætte en SVG fra et andet websted eller wiki, skal du skrive den fulde URL.adresse',
+	'translate-instructions' => 'Input accepteres som enten filnavne (f.eks. "$1") eller fuld URL (f.eks. "$2"). Hvis den første mulighed benyttes, antages det, at Wikimedia Commons er kilden. For at oversætte en SVG fra et andet websted eller wiki, skal du skrive den fulde URL-adresse.',
 	'svginput-label' => 'SVG-fil',
 	'stats-footer' => 'Dette værktøj er blevet brugt til at oversætte ca. $1 filer siden $2.',
 	'uploading' => 'Uploader',

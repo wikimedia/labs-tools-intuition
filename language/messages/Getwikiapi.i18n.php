@@ -203,14 +203,15 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Sarrus
  */
 $messages['da'] = array(
 	'formats-heading' => 'Outputformater',
 	'input' => 'Input',
 	'label-wikiids' => 'Wiki-identifikatorer',
-	'no-matches' => 'Intet matcher " $1 "',
-	'output' => 'Output til "$1"',
+	'no-matches' => 'Intet passer med "$1"',
+	'output' => 'Resultat for "$1"',
 );
 
 /** German (Deutsch)

@@ -342,6 +342,13 @@ $messages['no'] = array(
 	'title' => 'Siste anonyme aktivitet',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'title' => 'Activitat anonima recenta',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */

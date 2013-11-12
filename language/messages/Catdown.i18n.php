@@ -2285,13 +2285,14 @@ $messages['pi'] = array(
 );
 
 /** Polish (polski)
+ * @author Rezonansowy
  * @author Sp5uhe
  */
 $messages['pl'] = array(
 	'title' => 'Pobieranie grafik ze względu na kategorię',
 	'subtitle' => 'Prosta metoda na pobranie grafik znajdujących się w określonej kategorii',
-	'project' => 'Projekt',
-	'category' => 'Kategoria',
+	'project' => 'Projekt:',
+	'category' => 'Kategoria:',
 	'thumbnailing' => 'Miniatura',
 	'max-width' => 'Maksymalna szerokość',
 	'max-height' => 'Maksymalna wysokość',

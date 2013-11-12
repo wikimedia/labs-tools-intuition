@@ -513,6 +513,16 @@ $messages['no'] = array(
 	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'moretools' => "mai d'aisinas del meteis autor",
+	'bugs' => 'rapòrts de bugs e de demandas de foncionalitats',
+	'comments' => 'comentaris e requèstas',
+	'error-form-empty' => 'Un o mantun camp obligatòri son estats daissats en blanc. Los vos cal emplenar abans de contunhar.',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */

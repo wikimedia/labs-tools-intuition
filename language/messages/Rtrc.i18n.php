@@ -329,6 +329,30 @@ $messages['de'] = array(
 	'userfilter' => 'Benutzerfilter',
 );
 
+/** Zazaki (Zazaki)
+ * @author Gorizon
+ */
+$messages['diq'] = array(
+	'apply' => 'Dezge',
+	'changelog' => 'Çıçi newe yo',
+	'clear' => 'pak ke',
+	'currentedit' => 'Hesıbyaye timar weçineya',
+	'cvn-adder' => 'Dekeroğ',
+	'cvn-adder-empty' => 'Nêzanayen',
+	'cvn-reason' => 'Sebeb',
+	'cvn-reason-empty' => 'Sebeb nivineya',
+	'documentation' => 'Dokumentasyon',
+	'filter' => 'Avréc',
+	'limit' => 'Limit',
+	'order' => 'Pepeyin',
+	'tag' => 'Etiket',
+	'time-from' => 'Kêra',
+	'type' => 'Babet',
+	'typeEdit' => 'Timari',
+	'typeNew' => 'Perré newey',
+	'userfilter' => 'Filtreya karberi',
+);
+
 /** Greek (Ελληνικά)
  * @author Astralnet
  */
@@ -775,10 +799,55 @@ $messages['nl'] = array(
 	'userfilter' => 'Gebruikersfilter',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'title' => 'Modificacions recentas en temps real',
+	'apply' => 'Aplicar',
+	'asc' => 'Creissent',
+	'changelog' => 'Qué de nòu',
+	'clear' => 'escafar',
+	'currentedit' => 'Modificacion actualament seleccionada',
+	'cvn-adder' => 'Responsable de l’apondon',
+	'cvn-adder-empty' => 'Desconegut',
+	'cvn-reason' => 'Motiu',
+	'cvn-reason-empty' => 'Cap de motiu pas trobat',
+	'desc' => 'Descreissent',
+	'documentation' => 'Documentacion',
+	'filter' => 'Filtre',
+	'helpicon-tooltip' => 'Clicar aicí per mai d’informacion',
+	'lastupdate-cvn' => 'Darrièra mesa a jorn : $1',
+	'lastupdate-rc' => 'Darrièra mesa a jorn : $1',
+	'limit' => 'Limit',
+	'masspatrol-requires-userfilter' => "MassPatrol es estat desactivat perque necessita un filtre utilizaire e que n'i a pas cap de definit.",
+	'months' => 'Genièr, Febrièr, Març, Abril, Mai, Junh, Julhet, Agost, Setembre, Octobre, Novembre, Decembre',
+	'mypatrollog' => 'mon jornal de patrolha',
+	'namespace' => 'Espaci de nom',
+	'navtoggle-tooltip' => 'Bascuolar l’afichatge de la barra laterala',
+	'nomatches' => 'Pas cap de modificacion pertinenta de vòstres paramètres',
+	'order' => 'Òrdre',
+	'permalink' => 'Ligam permanent cap als paramètres actuals',
+	'select-placeholder-none' => '(pas cap)',
+	'showAnonOnly' => 'Anonimes unicament',
+	'showUnpatrolledOnly' => 'Pas patrolhats unicament',
+	'skippededit' => 'Modificacion sautada',
+	'tag' => 'Balisa',
+	'time-from' => 'De',
+	'time-untill' => 'Fins a',
+	'timeframe' => 'Periòde',
+	'type' => 'Tipe',
+	'typeEdit' => 'Modificacions',
+	'typeNew' => 'Paginas novèlas',
+	'userfilter' => 'Filtre utilizaire',
+);
+
 /** Polish (polski)
+ * @author Rezonansowy
  * @author Woytecr
  */
 $messages['pl'] = array(
+	'title' => 'Ostatnie zmiany w czasie rzeczywistym',
 	'apply' => 'Zastosuj',
 	'asc' => 'Rosnąco',
 	'changelog' => 'Co nowego',
@@ -799,8 +868,15 @@ $messages['pl'] = array(
 	'months' => 'Styczeń, Luty, Marzec, Kwiecień, Maj, Czerwiec, Lipiec, Sierpień, Wrzesień, Październik, Listopad, Grudzień',
 	'mypatrollog' => 'mój rejestr patrolowania',
 	'namespace' => 'Przestrzeń nazw',
+	'navtoggle-tooltip' => 'Przełącz pasek boczny',
 	'permalink' => 'Link do bieżących ustawień',
+	'showAnonOnly' => 'Tylko anonimowy',
+	'showUnpatrolledOnly' => 'Tylko niezatwierdzeni',
+	'skippededit' => 'Pominięte edycje',
+	'tag' => 'Tag',
+	'typeEdit' => 'Edycje',
 	'typeNew' => 'Nowe strony',
+	'userfilter' => 'Filtr użytkownika',
 );
 
 /** Pashto (پښتو)
@@ -896,7 +972,7 @@ $messages['pt-br'] = array(
 $messages['ro'] = array(
 	'title' => 'Schimbări recente în timp real',
 	'apply' => 'Aplică',
-	'asc' => 'Asc',
+	'asc' => 'Asc.',
 	'changelog' => 'Ce este nou',
 	'clear' => 'curăță',
 	'currentedit' => 'Modificare actualmente selectată',
@@ -904,7 +980,7 @@ $messages['ro'] = array(
 	'cvn-adder-empty' => 'Necunoscut',
 	'cvn-reason' => 'Motiv',
 	'cvn-reason-empty' => 'Niciun motiv găsit',
-	'desc' => 'Desc',
+	'desc' => 'Desc.',
 	'documentation' => 'Documentație',
 	'filter' => 'Filtru',
 	'helpicon-tooltip' => 'Faceți clic aici pentru mai multe informații',
@@ -919,9 +995,11 @@ $messages['ro'] = array(
 	'nomatches' => 'Nicio modificare relevantă parametrilor dumneavoastră',
 	'order' => 'Ordonare',
 	'permalink' => 'Legătură permanentă către parametrii actuali',
+	'select-placeholder-none' => '(niciuna)',
 	'showAnonOnly' => 'Doar anonimi',
 	'showUnpatrolledOnly' => 'Doar nepatrulate',
 	'skippededit' => 'Modificare sărită',
+	'tag' => 'Etichetă',
 	'time-from' => 'De la',
 	'time-untill' => 'Până la',
 	'timeframe' => 'Interval de timp',

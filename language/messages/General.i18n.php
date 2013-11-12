@@ -54,7 +54,8 @@ $messages['qqq'] = array(
 {{Identical|Go}}',
 	'form-reset' => 'A general label for a form reset button. Not per se a search form!
 {{Identical|Reset}}',
-	'years' => 'Notation of time duration for multiple years (eg. "Duration: x years" ).',
+	'years' => 'Notation of time duration for multiple years (eg. "Duration: x years" ).
+{{Identical|Year}}',
 	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ).',
 	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ).',
 	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ).',
@@ -429,6 +430,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'form-submit' => 'Дехьа гӀо',
+	'minutes' => '$1 {{PLURAL:$1|минут}} хьалха',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -1067,6 +1069,7 @@ $messages['ilo'] = array(
 
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
+ * @author Умар
  */
 $messages['inh'] = array(
 	'hello' => 'Салам',
@@ -1077,7 +1080,7 @@ $messages['inh'] = array(
 	'years' => '{{PLURAL: $1|шу|шера|шераш}}',
 	'weeks' => '{{PLURAL: $1|к|иранди|к|иранден|к|иранденош}}',
 	'days' => '{{PLURAL: $1|ди|ден|денош}}',
-	'hours' => '{{PLURAL: $1|сахьат|сахьата|сахьаташ}}',
+	'hours' => '{{PLURAL: $1|сахьат}}',
 );
 
 /** Italian (italiano)

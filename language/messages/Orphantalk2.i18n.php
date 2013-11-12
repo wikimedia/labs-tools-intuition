@@ -431,8 +431,8 @@ $messages['da'] = array(
 	'limit' => 'Grænse',
 	'page' => 'Side',
 	'redirect' => 'Er en omdirigering?',
-	'output' => 'Output',
-	'update' => 'Opdater',
+	'output' => 'Resultat',
+	'update' => 'Opdatér',
 	'tools-delete' => 'slet',
 	'tools-links' => 'links',
 	'tools-subject' => 'emne',
@@ -441,7 +441,7 @@ $messages['da'] = array(
 	'tools-globalusage' => 'global brug',
 	'deletesummary' => 'Sletning af forældreløse diskussionssider via $1',
 	'noresults' => 'Ingen forældreløse diskussionssider på denne wiki i dette navneområde passede med de valgte indstillinger.',
-	'resultslimited' => 'Resultaterne var begrænsede til $1 sider.',
+	'resultslimited' => 'Resultaterne blev begrænset til $1 sider.',
 );
 
 /** German (Deutsch)
@@ -2082,11 +2082,12 @@ $messages['vi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Shizhao
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'title' => '孤立对话页2',
 	'select-wiki-first' => '（先选择一个wiki）',
-	'hideredirects' => '隐藏重定向页',
+	'hideredirects' => '隐藏重定向',
 	'hidesubpages' => '隐藏子页面',
 	'limit' => '限制',
 	'page' => '页面',

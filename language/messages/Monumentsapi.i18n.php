@@ -84,9 +84,11 @@ The title of the tool.',
 	'db-field-country' => 'Translation of the field "country" in the monuments database.',
 	'db-field-lang' => 'Translation of the field "language" in the monuments database.
 {{Identical|Language}}',
-	'db-field-id' => 'Translation of the field "identifier" in the monuments database.',
+	'db-field-id' => 'Translation of the field "identifier" in the monuments database.
+{{Identical|Identifier}}',
 	'db-field-name' => 'Translation of the field "name" in the monuments database.',
-	'db-field-address' => 'Translation of the field "address" in the monuments database.',
+	'db-field-address' => 'Translation of the field "address" in the monuments database.
+{{Identical|Address}}',
 	'db-field-municipality' => 'Translation of the field "municipality" in the monuments database.',
 	'db-field-lat' => 'Translation of the field "latitude" in the monuments database.',
 	'db-field-lon' => 'Translation of the field "longitude" in the monuments database.',
@@ -101,9 +103,12 @@ The title of the tool.',
 Examples of registrant URLs:
 * http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=PA00088517
 * http://register.muinas.ee/?menuID=monument&action=view&id=20875',
+	'db-field-st_address' => '{{Identical|Address}}',
+	'db-field-st_address_pct' => '{{Identical|Address}}',
 	'db-field-st_coordinates' => '{{Identical|Coordinates}}',
 	'db-field-st_image' => '{{Identical|Image}}',
 	'db-field-st_image_pct' => '{{Identical|Image}}',
+	'db-field-st_total' => '{{Identical|Total number}}',
 	'toolbox-nav-homepage' => '{{Identical|Homepage}}',
 	'toolbox-nav-statistics' => '{{Identical|Statistics}}',
 	'toolbox-nav-search' => '{{Identical|Search}}',
@@ -822,8 +827,8 @@ $messages['cv'] = array(
  * @author Tjernobyl
  */
 $messages['da'] = array(
-	'search-title' => 'Monument-søgning',
-	'search-monuments-database' => 'Søg i monument-databasen',
+	'search-title' => 'Søg efter monumenter',
+	'search-monuments-database' => 'Søg i databasen over monumenter',
 	'search-table-th-field' => 'Felt',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Søg',
@@ -840,7 +845,7 @@ $messages['da'] = array(
 	'db-field-image' => 'Billede',
 	'db-field-changed' => 'Ændret',
 	'db-field-source' => 'Kilde',
-	'db-field-monument_article' => 'Monument-artikel',
+	'db-field-monument_article' => 'Monumentside',
 	'db-field-registrant_url' => 'Registrant url',
 	'db-field-st_address' => 'Adresser',
 	'db-field-st_address_pct' => 'Adresser %',
@@ -857,7 +862,7 @@ $messages['da'] = array(
 	'toolbox-meta-title' => 'Wiki Loves Monuments værktøjskasse',
 	'toolbox-main-title' => 'WLM værktøjskasse',
 	'toolbox-main-description' => 'Et sæt af værktøjer relateret til',
-	'toolbox-wikilovesmonuments' => 'Wiki elsker monumenter',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
 	'toolbox-nav-homepage' => 'Hjemmeside',
 	'toolbox-nav-statistics' => 'Statistikker',
 	'toolbox-nav-search' => 'Søg',
@@ -1952,6 +1957,7 @@ $messages['ja'] = array(
 	'db-field-st_municipality_pct' => '市町村 %',
 	'db-field-st_name' => '名前',
 	'db-field-st_name_pct' => '名前 %',
+	'db-field-st_total' => '総数',
 	'toolbox-label-searchtipps' => 'あいまい検索には %単語、単語%、%term% のいずれかを使用',
 	'toolbox-meta-title' => 'ウィキラブモニュメントのツールボックス',
 	'toolbox-main-title' => 'WLM ツールボックス',

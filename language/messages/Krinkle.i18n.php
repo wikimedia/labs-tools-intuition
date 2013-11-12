@@ -219,12 +219,13 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  */
 $messages['da'] = array(
 	'alws-selectwiki' => '(vælg wiki)',
-	'alws-group-mustused' => "De mest brugte wiki'er",
-	'alws-group-allaz' => "Alle wiki'er alfabetisk",
+	'alws-group-mustused' => 'De mest brugte wikier',
+	'alws-group-allaz' => 'Alle wikier alfabetisk',
 	'form-legend-settings' => 'Indstillinger',
 );
 
