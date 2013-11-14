@@ -1054,15 +1054,16 @@ $messages['fo'] = array(
  * @author Crochet.david
  * @author Gomoko
  * @author Linedwell
+ * @author VIGNERON
  */
 $messages['fr'] = array(
 	'title' => 'Téléchargement d’images par catégorie',
-	'subtitle' => 'La manière la plus simple pour télécharger les images dans une catégorie',
+	'subtitle' => 'La manière simple pour télécharger les images dans une catégorie',
 	'project' => 'Projet :',
-	'category' => 'Catégorie:',
+	'category' => 'Catégorie :',
 	'thumbnailing' => 'Vignettage',
-	'max-width' => 'Largeur maximale:',
-	'max-height' => 'Hauteur maximale:',
+	'max-width' => 'Largeur maximale :',
+	'max-height' => 'Hauteur maximale :',
 	'invalid-width' => 'Largeur non valide',
 	'invalid-height' => 'Hauteur non valide',
 	'no-such-project' => 'Ce projet n’existe pas',
@@ -1078,12 +1079,12 @@ $messages['fr'] = array(
 == Instructions pour télécharger toutes les images listées ==
 Le temps de téléchargement peut varier de quelques minutes à plusieurs heures.
 
-Windows:
+Windows :
  Extraire tous les fichier dans le même répertoire et lancez $5
  $6
-Linux/Mac OS:
+Linux/Mac OS :
  Extraire tous les fichiers et ouvrir un terminal dans ce répertoire. Lancez sh $5',
-	'non-bundled-wget' => 'Note: Cette version ne comprend pas wget pour Windows. Vous devez décompresser dans un répertoire avec wget.exe, ou avoir wget dans le PATH',
+	'non-bundled-wget' => 'Note : Cette version ne comprend pas wget pour Windows. Vous devez décompresser dans un répertoire avec wget.exe ou avoir wget dans le PATH',
 	'wget-info' => 'Le fichier comprend une copie de wget $1 (pour plateformes Windows). Wget est un logiciel libre, sous licence de la GNU GENERAL PUBLIC LICENSE version 3.
 Vous trouverez une copie de cette licence ci-dessous, et elle est également disponible à http://www.gnu.org/licenses/gpl-3.0.txt
 

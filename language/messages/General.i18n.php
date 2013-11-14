@@ -47,7 +47,9 @@ $messages['qqq'] = array(
 {{Identical|Hello}}',
 	'welcome' => 'A friendly welcome.
 {{Identical|Welcome}}',
-	'toolversion' => 'Short label stating the current version of a tool. <code>$1</code> is the version (eg. "1.2.3-alpha").',
+	'toolversion' => 'Short label stating the current version of a tool. Parameters:
+* $1 - the version. e.g. "1.2.3-alpha"
+{{Identical|Version}}',
 	'toolversionstamp' => 'Short label stating the current version of a tool and when the last update was. <code>$1</code> is the version (eg. "1.2.3-alpha") and <code>$2</code> is the date (without time).',
 	'etc' => 'Abbreviated form of "et cetera"',
 	'colon-separator' => '{{Optional}} Change it only if your language uses another character for ":" or it needs an extra space before the colon.',
@@ -536,6 +538,7 @@ $messages['de'] = array(
 	'dateformat' => '%d %B %Y',
 	'hello' => 'Hallo',
 	'welcome' => 'Willkommen',
+	'toolversion' => 'Version $1',
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'usw.',
 	'namespace' => 'Namensraum',
@@ -788,6 +791,7 @@ $messages['fo'] = array(
 
 /** French (français)
  * @author Crochet.david
+ * @author Gomoko
  * @author Jean-Frédéric
  * @author Od1n
  * @author Platonides
@@ -795,6 +799,7 @@ $messages['fo'] = array(
 $messages['fr'] = array(
 	'hello' => 'Bonjour',
 	'welcome' => 'Bienvenue',
+	'toolversion' => 'Version $1',
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espace de noms',
@@ -1120,6 +1125,7 @@ $messages['ja'] = array(
 	'dateformat' => '%Y年%m月%d日',
 	'hello' => 'こんにちは',
 	'welcome' => 'ようこそ',
+	'toolversion' => 'バージョン $1',
 	'toolversionstamp' => 'バージョン $1 ($2)',
 	'etc' => 'など',
 	'colon-separator' => ':',
@@ -1626,6 +1632,7 @@ $messages['nl'] = array(
 	'dateformat' => '%d %B %Y',
 	'hello' => 'Hallo',
 	'welcome' => 'Welkom',
+	'toolversion' => 'Versie $1',
 	'toolversionstamp' => 'Versie $1 ($2)',
 	'etc' => 'enzovoort',
 	'namespace' => 'Naamruimte',
@@ -1926,12 +1933,14 @@ $messages['roa-tara'] = array(
 /** Russian (русский)
  * @author Eleferen
  * @author Lvova
+ * @author Okras
  * @author Platonides
  * @author Rave
  */
 $messages['ru'] = array(
 	'hello' => 'Привет',
 	'welcome' => 'Добро пожаловать',
+	'toolversion' => 'Версия $1',
 	'toolversionstamp' => 'Версия $1 ($2)',
 	'etc' => 'и т.д.',
 	'namespace' => 'Пространство имён',

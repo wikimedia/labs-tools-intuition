@@ -4002,6 +4002,7 @@ $messages['tzm'] = array(
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
+ * @author Tel'et
  */
 $messages['ug-arab'] = array(
 	'attention' => 'دىققەت',
@@ -4021,7 +4022,7 @@ $messages['ug-arab'] = array(
 	'use_checkusage' => '$1CommonSense$2 ئارقىلىق يېڭى تۈر ئىلتىماس قىلىدۇ.',
 	'use_tusc' => '$1TUSC$2 ئارقىلىق ھۆججەتنى بىۋاستە دەلىللەيدۇ ياكى يوللايدۇ',
 	'tusc_user' => 'TUSC ئىشلەتكۈچى ئاتى',
-	'tusc_pass' => 'TUSC ئىم',
+	'tusc_pass' => 'TUSC پارولى',
 	'do_it' => 'ئىجرا قىل',
 	'error_transfer_usr' => 'سىز تېخى ۋىكى ۋاستە ھەمبەھىر ئىشلەتكۈچى ئاتىنى تەڭشىمىدىڭىز.',
 	'error_not_exists' => 'مەنبە ھۆججەت مەۋجۇت ئەمەس!',

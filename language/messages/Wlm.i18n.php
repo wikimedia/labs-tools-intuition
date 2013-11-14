@@ -3390,7 +3390,7 @@ $messages['nl'] = array(
 	'images-listed-count' => '$1 afbeeldingen weergegeven.',
 	'log-page-disclaimer' => 'Via dit hulpprogramma worden de bestanden weergegeven in de [[:Category:$1|relevante categorie]] die zijn geüpload gedurende de wedstrijd.
 Verwijderde bestanden worden niet weergegeven, zelfs als ze later [$2 teruggeplaatst] zijn en weer meedoen.',
-	'bot' => 'Bot',
+	'bot' => 'Robot',
 	'id-label' => 'Monument-ID:',
 	'id-none' => '(Geen)',
 	'monuments-by-photographers-checkbox' => 'Monumenten sorteren op aantal fotografen, niet op aantal afbeeldingen.',

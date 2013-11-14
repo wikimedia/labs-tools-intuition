@@ -3083,6 +3083,7 @@ $messages['tzm'] = array(
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
+ * @author Tel'et
  */
 $messages['ug-arab'] = array(
 	'title' => 'SVG تەرجىمە',
@@ -3097,7 +3098,7 @@ $messages['ug-arab'] = array(
 	'th-translation' => 'تەرجىمىسى',
 	'th-language' => 'تىل',
 	'th-username' => 'ئىشلەتكۈچى ئاتى',
-	'th-password' => 'ئىم',
+	'th-password' => 'پارول',
 	'th-method' => 'ئۇسۇل',
 	'option-tusc' => 'TUSC (ئۆزلۈكىدىن يۈكلە)',
 	'option-manual' => 'قولدا يۈكلە',
