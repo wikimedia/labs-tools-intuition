@@ -3899,6 +3899,7 @@ $messages['ti'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Nemo bis
  */
 $messages['tl'] = array(
 	'attention' => 'Pansinin',
@@ -3934,6 +3935,7 @@ $messages['tl'] = array(
 	'output_information' => 'Para sa kinakamay na pagkakargang papaitaas, baguhin ang tekstong nasa itaas (kung kinakailangan), sagipin $1ang talaksan$2 sa kompyuter mo, pagkaraan ay $3ikarga itong papaitaas$4.',
 	'upload_submit' => 'Ikargang papaitaas!',
 	'target_wiki' => 'ang pinupukol na wiki',
+	'standard_project' => 'wikipedia',
 	'error_bot_blocked' => 'Ang bot ng pagkakargang papaitaas ay hinahadlangan sa Wikimedia Commons.',
 	'error_upload_meta' => 'Hindi maaaring tuwirang magkargang papaitaas dahil may mga suliranin sa dato ng meta (tingnan ang nasa itaas)!',
 	'error_tusc_failed' => 'Nabigo ang pagpapatunay ng TUSC!',

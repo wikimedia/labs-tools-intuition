@@ -184,6 +184,7 @@ $messages['as'] = array(
 $messages['ast'] = array(
 	'hello' => 'Bones',
 	'welcome' => 'Bienveníos',
+	'toolversion' => 'Versión $1',
 	'toolversionstamp' => 'Versión $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espaciu de nomes',
@@ -371,6 +372,7 @@ $messages['bn'] = array(
 $messages['br'] = array(
 	'hello' => 'Demat',
 	'welcome' => 'Degemer mat',
+	'toolversion' => 'Stumm $1',
 	'toolversionstamp' => 'Stumm $1 ($2)',
 	'etc' => 'h.a.',
 	'namespace' => 'Esaouenn anv',
@@ -559,6 +561,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
@@ -576,7 +579,7 @@ $messages['diq'] = array(
 	'minutes' => '{{PLURAL: $1|deqe|deqey}}',
 	'seconds' => '{{PLURAL:$1|saniye|saniyeyan}}',
 	'last-modified-date' => 'Vurnayışo peên: $1',
-	'view-source' => 'Çımey bıvêne',
+	'view-source' => 'Çımi bıvin',
 	'and' => '&#32;u',
 );
 
@@ -1099,6 +1102,7 @@ $messages['inh'] = array(
 $messages['it'] = array(
 	'hello' => 'Ciao',
 	'welcome' => 'Benvenuto/a',
+	'toolversion' => 'Versione $1',
 	'toolversionstamp' => 'Versione $1 ($2)',
 	'etc' => 'ecc.',
 	'namespace' => 'Namespace',
@@ -1325,6 +1329,7 @@ $messages['lb'] = array(
 	'dateformat' => '%d %B %Y',
 	'hello' => 'Salut',
 	'welcome' => 'Wëllkomm',
+	'toolversion' => 'Versioun $1',
 	'toolversionstamp' => 'Versioun $1 ($2)',
 	'etc' => 'asw.',
 	'namespace' => 'Nummraum',
@@ -1454,6 +1459,7 @@ $messages['mk'] = array(
 	'dateformat' => '%d %B %Y',
 	'hello' => 'Здраво',
 	'welcome' => 'Добредојдовте',
+	'toolversion' => 'Верзија $1',
 	'toolversionstamp' => 'Верзија $1 ($2)',
 	'etc' => 'и тн.',
 	'namespace' => 'Именски простор',
@@ -1473,10 +1479,12 @@ $messages['mk'] = array(
 /** Malayalam (മലയാളം)
  * @author Anoopan
  * @author Platonides
+ * @author Suresh.balasubra
  */
 $messages['ml'] = array(
 	'hello' => 'ഹലോ',
 	'welcome' => 'സ്വാഗതം',
+	'toolversion' => 'പതിപ്പ് $1',
 	'toolversionstamp' => 'പതിപ്പ് $1 ($2)',
 	'etc' => 'മുതലായവ..',
 	'namespace' => 'നാമമേഖല',
@@ -1594,9 +1602,11 @@ $messages['nb'] = array(
 
 /** Nepali (नेपाली)
  * @author Krish Dulal
+ * @author सरोज कुमार ढकाल
  */
 $messages['ne'] = array(
 	'hello' => 'नमस्कार',
+	'toolversion' => 'संस्करण $1',
 );
 
 /** Newari (नेपाल भाषा)
@@ -2127,6 +2137,7 @@ $messages['sr-el'] = array(
 $messages['sv'] = array(
 	'hello' => 'Hej',
 	'welcome' => 'Välkommen',
+	'toolversion' => 'Version $1',
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Namnrymd',
@@ -2369,6 +2380,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Andriykopanytsia
  * @author Base
  * @author Platonides
  * @author Тест
@@ -2376,6 +2388,7 @@ $messages['ug-arab'] = array(
 $messages['uk'] = array(
 	'hello' => 'Вітаю',
 	'welcome' => 'Ласкаво просимо!',
+	'toolversion' => 'Версія $1',
 	'toolversionstamp' => 'Версія $1 ($2)',
 	'etc' => 'і т. д.',
 	'namespace' => 'Простір назв',
@@ -2423,6 +2436,7 @@ $messages['vi'] = array(
 	'dateformat' => '%d tháng %m năm %Y',
 	'hello' => 'Xin chào',
 	'welcome' => 'Hoan nghênh',
+	'toolversion' => 'Phiên bản $1',
 	'toolversionstamp' => 'Phiên bản $1 ($2)',
 	'etc' => 'v.v.',
 	'namespace' => 'Không gian tên',

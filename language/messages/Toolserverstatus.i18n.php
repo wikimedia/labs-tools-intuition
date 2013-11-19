@@ -1366,6 +1366,7 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
+ * @author Liuxinyu970226
  * @author Qiyue2001
  */
 $messages['zh-hans'] = array(
@@ -1378,7 +1379,7 @@ $messages['zh-hans'] = array(
 	'toolserver-status-missing' => '集群$1不存在',
 	'toolserver-status-short-ok' => '$1: 良好',
 	'toolserver-status-short-info' => '$1: 讯息',
-	'toolserver-status-short-warn' => '$1: 警告',
+	'toolserver-status-short-warn' => '$1：警告',
 	'toolserver-status-short-down' => '$1: 停止工作',
 	'toolserver-status-short-erro' => '$1: 错误',
 	'toolserver-status-short-unknown' => '$1: 未知',

@@ -763,12 +763,13 @@ Es gibt auch andere GNU-Mirror. Siehe hierzu
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
 	'title' => 'Kategoriye ra resiman ronê',
 	'project' => 'Proce:',
-	'category' => 'Kategoriye:',
+	'category' => 'Kategori:',
 	'thumbnailing' => 'Resimo verdı',
 	'max-width' => 'En vesi herayey',
 	'max-height' => 'En vesi berzey',
@@ -2108,9 +2109,12 @@ $messages['nds'] = array(
 
 /** Nepali (नेपाली)
  * @author Krish Dulal
+ * @author सरोज कुमार ढकाल
  */
 $messages['ne'] = array(
+	'project' => 'परियोजना:',
 	'category' => 'श्रेणी:',
+	'thumbnailing' => 'थम्बनेल',
 	'max-width' => 'अधिकतम चौडाइ:',
 	'max-height' => 'अधिकतम उचाइ:',
 	'invalid-width' => 'अमान्य चौडाइ',
@@ -2997,6 +3001,7 @@ $messages['ti'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Nemo bis
  */
 $messages['tl'] = array(
 	'title' => 'Pagkakargang paibaba ng mga larawan ayon sa kategorya',
@@ -3040,6 +3045,7 @@ o ilang iba pang mga Salamin ng GNU, tingnan ang
 	'scaling-width' => ', binawasan upang magkaroon ng pinakamataas na lapad na $1 {{plural:$1|piksel|mga piksel}}',
 	'scaling-height' => ', binawasan upang magkaroon ng pinakamataas na taas na $1 {{plural:$1|piksel|mga piksel}}',
 	'scaling-both' => ', binawasan upang magkaroon ng pinakamataas na sukat na $1x$2 mga piksel',
+	'script-filename' => 'download.bat',
 );
 
 /** толышә зывон (толышә зывон)

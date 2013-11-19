@@ -774,7 +774,7 @@ $messages['nl'] = array(
 	'desc' => 'Aflopend',
 	'documentation' => 'Documentatie',
 	'filter' => 'Filters',
-	'helpicon-tooltip' => 'Meer informatie',
+	'helpicon-tooltip' => 'Meer informatie', # Fuzzy
 	'lastupdate-cvn' => 'Laatst bijgewerkt: $1',
 	'lastupdate-rc' => 'Laatst bijgewerkt: $1',
 	'limit' => 'Aantal',
@@ -1069,24 +1069,35 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Lokal Profil
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'title' => 'Senaste ändringer i realtid',
 	'apply' => 'Verkställ',
+	'asc' => 'Stig',
 	'changelog' => 'Vad är nytt',
 	'clear' => 'rensa',
+	'currentedit' => 'Aktuell vald redigering',
 	'cvn-adder-empty' => 'Okänd',
 	'cvn-reason' => 'Anledning',
 	'cvn-reason-empty' => 'Ingen anledning hittades',
+	'desc' => 'Fall',
 	'documentation' => 'Dokumentation',
 	'filter' => 'Filter',
-	'helpicon-tooltip' => 'Klicka här för mer information',
+	'helpicon-tooltip' => 'Klicka här för mer information', # Fuzzy
 	'lastupdate-cvn' => 'Senaste uppdatering: $1',
 	'lastupdate-rc' => 'Senaste uppdatering: $1',
+	'limit' => 'Gräns',
+	'masspatrol-requires-userfilter' => 'MassPatrol har inaktiverats, eftersom den kräver ett användarfilter och ingen var satt.',
 	'months' => 'januari, februari, mars, april, maj, juni, juli, augusti, september, oktober, november, december',
 	'mypatrollog' => 'min patrullogg',
 	'namespace' => 'Namnrymd',
 	'navtoggle-tooltip' => 'Visa/dölj sidofältet',
+	'nomatches' => 'Inga relevanta ändringar för dina inställningar',
+	'order' => 'Sortera',
+	'permalink' => 'Permanent länk till nuvarande inställningar',
+	'select-placeholder-none' => '(ingen)',
 	'showAnonOnly' => 'Bara anonyma',
 	'showUnpatrolledOnly' => 'Bara opatrullerade',
 	'time-from' => 'Från',
