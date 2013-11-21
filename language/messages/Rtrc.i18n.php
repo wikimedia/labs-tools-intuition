@@ -355,8 +355,10 @@ $messages['diq'] = array(
 
 /** Greek (Ελληνικά)
  * @author Astralnet
+ * @author Evropi
  */
 $messages['el'] = array(
+	'apply' => 'Εφαρμογή',
 	'tag' => 'Ετικέτα',
 );
 
@@ -608,7 +610,7 @@ $messages['ja'] = array(
 	'desc' => '降順',
 	'documentation' => '説明書',
 	'filter' => '絞り込み',
-	'helpicon-tooltip' => 'クリックすると詳細情報が表示されます',
+	'helpicon-tooltip' => 'この機能の詳細情報',
 	'lastupdate-cvn' => '最終更新: $1',
 	'lastupdate-rc' => '最終更新: $1',
 	'limit' => '表示数',

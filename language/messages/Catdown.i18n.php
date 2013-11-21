@@ -831,6 +831,7 @@ Su teke druge glědałkowe GNU-serwery, glědaj
 );
 
 /** Greek (Ελληνικά)
+ * @author Evropi
  * @author Glavkos
  */
 $messages['el'] = array(
@@ -844,6 +845,7 @@ $messages['el'] = array(
 	'invalid-height' => 'Μη έγκυρο ύψος',
 	'no-such-project' => 'Δεν υπάρχει τέτοιο εγχείρημα',
 	'no-images' => 'Δεν υπάρχουν εικόνες σε αυτή την κατηγορία',
+	'zip-failed' => 'Η δημιουργία ZIP απέτυχε',
 	'download' => 'Λήψη',
 );
 

@@ -1013,11 +1013,13 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author Geraki
  * @author Glavkos
  */
 $messages['el'] = array(
 	'attention' => 'Προσοχή',
 	'description' => 'Ένα εργαλείο για τη μεταφορά αρχείων από τα εγχειρήματα του Wikimedia στα Κοινά',
+	'jira_link' => 'Αναφέρετε ένα σφάλμα ή να προτείνετε ένα χαρακτηριστικό',
 	'language' => 'Γλώσσα',
 	'project' => 'Έργο',
 	'source_file' => 'Αρχείο προέλευσης',
@@ -1027,9 +1029,15 @@ $messages['el'] = array(
 	'move_file_from_com' => 'Μετακίνηση αρχείου από τα Wikimedia Commons στο εγχείρημα',
 	'categories' => 'Κατηγορίες',
 	'remove_cats' => 'Απομάκρυνση υπαρχουσών κατηγοριών',
+	'use_checkusage' => 'Χρησιμοποιήστε το $1CommonSense$2 για να προτείνει νέες κατηγορίες',
+	'use_tusc' => 'Χρησιμοποιήστε το $1TUSC$2 για πιστοποίηση και άμεση μεταφορά του αρχείου',
+	'tusc_user' => 'όνομα χρήστη TUSC',
+	'tusc_pass' => 'κωδικός TUSC',
 	'do_it' => 'Κάντο',
 	'error_transfer_usr' => 'Δεν έχετε ορίσει ένα όνομα χρήστη στο Wikimedia Commons',
 	'error_not_exists' => 'Το αρχείο προέλευσης δεν υπάρχει!',
+	'error_on_commons' => 'Το αρχείο προέλευσης υπάρχει ήδη στο  $1!',
+	'error_file_exists' => 'Το αρχείο υπάρχει ήδη στο $3 ως "$1$4$2"!',
 	'original_wikitext' => 'Αρχικό κείμενο wiki',
 	'new_wikitext' => 'Νέο κείμενο wiki',
 	'new_filename' => 'Νέο όνομα αρχείου:',

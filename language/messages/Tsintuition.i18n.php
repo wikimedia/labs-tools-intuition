@@ -670,9 +670,9 @@ $messages['el'] = array(
 	'bl-mysettings-new' => 'Αλλαγή γλώσσας!',
 	'bl-promo' => 'Οι μεταφράσεις τροφοδοτούνται από το $1 και το $2.',
 	'bl-changelanguage' => 'Κάντε κλικ εδώ για να αλλάξετε την γλώσσα αυτού του εργαλείου.',
-	'usage' => 'Εργαλεία μεταφρασμένα με το Toolserver Intuition.', # Fuzzy
+	'usage' => 'Εργαλεία μεταφρασμένα με χρήση του Toolserver Intuition.',
 	'help-translate-tool' => 'Βοηθήστε μας να μεταφράσουμε αυτό το εργαλείο!',
-	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε το Toolserver!', # Fuzzy
+	'help-translate-all' => 'Βοηθήστε μας να μεταφράσουμε εργαλεία Toolserver!',
 	'help-translate-tooltip' => 'Βοηθήστε τους άλλους μεταφράζοντας τα μηνύματα της διεπαφής στη γλώσσα σας.',
 );
 

@@ -1008,6 +1008,7 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author Evropi
  * @author Geraki
  * @author Glavkos
  */
@@ -1044,6 +1045,7 @@ $messages['el'] = array(
 	'toolbox-main-description' => 'Ένα σύνολο εργαλείων που σχετίζονται με',
 	'toolbox-wikilovesmonuments' => 'Το Wiki Αγαπάει τα Μνημεία',
 	'toolbox-nav-homepage' => 'Αρχική σελίδα',
+	'toolbox-nav-statistics' => 'Στατιστικά',
 	'toolbox-nav-search' => 'Αναζήτηση',
 	'toolbox-title-searchmonuments' => 'Αναζήτηση μνημείων',
 	'location' => 'Τοποθεσία',

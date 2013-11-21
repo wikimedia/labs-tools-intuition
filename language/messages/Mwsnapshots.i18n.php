@@ -563,6 +563,7 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author Evropi
  * @author Glavkos
  */
 $messages['el'] = array(
@@ -570,6 +571,8 @@ $messages['el'] = array(
 	'title-updatelog' => 'Ενημέρωση αρχείου καταγραφής',
 	'download-directlink' => 'άμεσος σύνδεσμος',
 	'repo-site-link' => 'Ιστότοπος',
+	'repo-lastmoddate-label' => 'Ημερομηνία:',
+	'tablehead-filesize' => 'Μέγεθος αρχείου',
 );
 
 /** Esperanto (Esperanto)

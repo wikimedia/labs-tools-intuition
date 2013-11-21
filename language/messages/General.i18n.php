@@ -612,6 +612,7 @@ $messages['dsb'] = array(
 $messages['el'] = array(
 	'hello' => 'Γεια σας',
 	'welcome' => 'Καλώς ορίσατε',
+	'toolversion' => 'Έκδοση $1',
 	'toolversionstamp' => 'Έκδοση $1 ($2)',
 	'etc' => 'κλπ.',
 	'namespace' => 'Ονοματοχώρος',
@@ -654,11 +655,13 @@ $messages['eo'] = array(
  * @author Crazymadlover
  * @author Fitoschido
  * @author Platonides
+ * @author VegaDark
  */
 $messages['es'] = array(
 	'dateformat' => '%d de %B de %Y',
 	'hello' => 'Hola',
 	'welcome' => 'Bienvenido',
+	'toolversion' => 'Versión $1',
 	'toolversionstamp' => 'Versión $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espacio de nombres',
