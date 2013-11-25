@@ -2721,7 +2721,7 @@ $messages['ko'] = array(
 	'show-images-bad-only' => '목록 이외의 그림만 보기',
 	'show-images-all' => '모든 그림 보기',
 	'show-images-removed' => '경쟁에서 제거한 그림 보기',
-	'search-monuments' => '기념물 찾기',
+	'search-monuments' => '기념물 검색',
 	'view-frequency' => '인기 있는 기념물',
 	'view-ccaa' => '자치 공동체로 보기',
 	'view-province' => '지방으로 보기',
@@ -2864,6 +2864,7 @@ $messages['ku-latn'] = array(
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Purodha
  * @author Robby
  * @author Soued031
@@ -2906,8 +2907,8 @@ Pro Provënz weisen',
 	'view-previous-images' => '← Vireg Biller weisen',
 	'view-later-images' => 'Méi rezent Biller weisen →',
 	'images-listed-count' => '$1 Biller an der Lëscht.',
-	'log-page-disclaimer' => "Dëse Programm weist d'Fichieren déi an der [[:Category:$1|relevanter Kategorie]] déi während dem Concours eropgeluede goufen.
-Geläschte Fichiere ginn net gewisen souguer wa si duerno [$2 restauréiert] goufen an erëm matmaachen.",
+	'log-page-disclaimer' => "Dëse Programm weist d'Fichieren aus der [[:Category:$1|relevanter Kategorie]] déi während dem Concours eropgeluede goufen.
+Geläscht Fichiere ginn net gewisen, souguer wa si duerno [$2 restauréiert] goufen an erëm matmaachen.",
 	'bot' => 'Bot',
 	'id-label' => 'ID vum Monument:',
 	'id-none' => '(Keng)',

@@ -1919,6 +1919,22 @@ $messages['diq'] = array(
 	'2013-returnto' => 'Peyser şo $1',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'2013-welcome-text' => 'The goal of this survey is to gather statistics about people who participated in Wiki Loves Monuments, their motivations for doing so, and their opinions on the way the competition was organised. Our goal is to use this information to improve your experience with Wiki Loves Monuments, and to make the next edition of the contest even friendlier, easier, and more fun to participate in!
+We will use your answers in this survey to create anonymised statistics, and will not be using, sharing or making public any personally identifiable data under any circumstances. For the data analysis we will this year be supported by a group of students of the Bern University of Applied Sciences, Switzerland.
+It takes about 5 minutes to fill out this survey, and we thank you in advance for taking the time to do so. Please note that none of the questions are obligatory, and you can refrain from answering them if you wish to.
+We thank you for your participation in the survey.
+
+Yours,
+Cristian, Lodewijk, Monica, Karthik, Platonides, and Romaine
+Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org',
+	'2013-discovered-member' => "I'm a member of the organising team / organisation.",
+	'2013-contact-organization-contests' => 'I would like to participate in the organisation of Wiki Loves Monuments or other photo contests in the future - please let me know if I can help.',
+);
+
 /** Esperanto (Esperanto)
  * @author Remux
  * @author Sahaquiel9102
@@ -2177,7 +2193,7 @@ Equipo coordinador de Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2013-discovered-other' => 'Otro',
 	'2013-question-countries-uploaded' => '¿De que país son las fotos que has subido durante la edición de este año de Wiki Loves Monuments?',
 	'2013-other-country-upload' => 'Otro país:',
-	'2013-question-photos-taken' => '¿Cuando fueron tomadas la mayoría de las fotos?',
+	'2013-question-photos-taken' => '¿Cuándo hiciste la mayoría de las fotos?',
 	'2013-photos-taken-sep-2013' => 'Tomé la mayoría de las fotos durante setiembre de 2013.',
 	'2013-photos-taken-jan-aug-2013' => 'Tomé la mayoría de las fotos entre enero y agosto de 2013.',
 	'2013-photos-taken-2000-2012' => 'Tomé la mayoría de las fotos entre 2000 y 2012.',
@@ -2202,7 +2218,7 @@ Equipo coordinador de Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2013-question-find-lists' => '¿Cuán difícil fue encontrar las listas de monumentos para las áreas de su interés?',
 	'2013-question-find-identifier' => '¿Cuán difícil fue encontrar los códigos de identificación de los monumentos de su interés?',
 	'2013-question-usability-upload' => '¿Cuán difícil fue subir una foto a Wiki Loves Monuments 2013?',
-	'2013-question-usability-main-obstacle' => '¿Hubo algún obstáculo que dificultó la participación a usted o a sus amigos?',
+	'2013-question-usability-main-obstacle' => '¿Hubo algún obstáculo que dificultara la participación? (a usted o a sus amigos)',
 	'2013-header-future' => 'Futuro',
 	'2013-scale-likely-1-text' => 'No, en absoluto',
 	'2013-scale-likely-2-text' => 'Más bien no',
@@ -2216,7 +2232,7 @@ Equipo coordinador de Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2013-can-leave-empty' => 'Puede dejar este campo vacío.',
 	'2013-question-comments' => 'Por favor escriba cualquier comentario o sugerencia acerca de Wiki Loves Monuments:',
 	'2013-header-contests' => 'Concursos futuros y actividades relacionadas',
-	'2013-question-future' => 'Según usted, ¿cuál sería el tema más interesante para un concurso de fotografía futuro?',
+	'2013-question-future' => 'Según usted, ¿cuál sería el tema más interesante para un futuro concurso de fotografía?',
 	'2013-future-select-multiple' => 'Seleccione todas las que apliquen.',
 	'2013-future-cultural-heritage' => 'Objetos de patrimonio cultural (edificios históricos, etc.)',
 	'2013-future-natural-heritage' => 'Sitios de patrimonio natural',
@@ -2226,7 +2242,7 @@ Equipo coordinador de Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2013-future-animals' => 'Animales',
 	'2013-future-performing-arts' => 'Artes escénicas',
 	'2013-future-sports' => 'Deportes',
-	'2013-future-needed-pictures' => 'Varios tipos de elementos de los cuales son necesitadas fotografías para artículos específicos de Wikipedia',
+	'2013-future-needed-pictures' => 'Varios tipos de elementos de los cuales hacen falta fotografías para artículos específicos de Wikipedia',
 	'2013-future-other' => 'Otros',
 	'2013-question-contact' => 'Si está de acuerdo con que le contactemos en un futuro por favor indíquelo abajo:',
 	'2013-contact-select-multiple' => 'Seleccione todas las que apliquen.',
@@ -2237,7 +2253,7 @@ Equipo coordinador de Wiki Loves Monuments, info@wikilovesmonuments.org',
 	'2013-contact-learn-contributing' => 'Estoy interesado en aprender como editar Wikipedia y/o contribuir a Wikimedia Commons - por favor hacerme saber cuando habrán cursos introductorios en mi zona (indique su lugar de residencia abajo)',
 	'2013-contact-teach-contributing' => 'Estoy familiarizado con Wikipedia y/o Wikimedia Commons y me gustaría enseñarle a otros como contribuir (indique su lugar de residencia abajo)',
 	'2013-question-follow-up' => 'Si ha marcado alguna de las anteriores por favor deje su dirección de correo electrónico. Indique su ciudad de residencia sí está interesado en reuniones o cursos en su zona.',
-	'2013-forward-your-response' => 'Transmitiremos sus respuestas a la pregunta 20 junto con sus datos de contacto a su capítulo nacional y/o a los organizadores de Wiki Loves Monuments en su país. Las respuestas de las demás preguntas serán tratadas de manera independiente de sus datos de contacto para garantizar el anonimato de su encuestas.',
+	'2013-forward-your-response' => 'Transmitiremos sus respuestas a la pregunta 20 junto con sus datos de contacto a su capítulo nacional y/o a los organizadores de Wiki Loves Monuments en su país. Las respuestas de las demás preguntas serán tratadas de manera independiente de sus datos de contacto para garantizar el anonimato de la encuesta.',
 	'2013-username' => 'Nombre de usuario:',
 	'2013-email' => 'Dirección de correo electrónico:',
 	'2013-postal-code' => 'Código postal:',
@@ -2253,6 +2269,7 @@ Equipo coordinador de Wiki Loves Monuments, info@wikilovesmonuments.org',
 
 /** Estonian (eesti)
  * @author Adeliine
+ * @author Oop
  * @author WikedKentaur
  */
 $messages['et'] = array(
@@ -2336,6 +2353,118 @@ info@wikilovesmonuments.org',
 	'2012-thank-you-answer' => 'Aitäh küsitlusele vastamast!',
 	'2012-change-answers' => 'Muuda mu vastuseid',
 	'2013-header-introduction' => 'Sissejuhatus',
+	'2013-welcome-text' => 'Selle küsitluse eesmärk on koguda andmeid fotovõistlusel "Kultuurimälestised Vikipeediasse" osalenute ja nende osalemise põhjuste kohta, samuti uurida, mida nad arvavad võistluse korraldusest. Me soovime seda teavet kasutada, et muuta võistlusel osalemine veel meeldivamaks, lihtsamaks ja huvitavamaks.
+Me kasutame Sinu vastuseid anonüümse statistika tegemiseks ja ei jaga ega avalda mingil juhul Sinu isikut tuvastada võimaldavat teavet. Sel aastal aitab meil andmeid analüüsida rühm tudengeid Berni Rakendusteaduste Ülikoolist Šveitsis.
+Küsitlusele vastamiseks kulub umbes 5 minutit ja me täname Sind juba ette selle aja eest. Kõik küsimused on vastamiseks vabatahtlikud, Sa võid jätta mis tahes küsimusele vastamata, kui Sa vastust anda ei soovi.
+Me täname Sind küsitluses osalemise eest.
+
+Cristian, Lodewijk, Monica, Karthik, Platonides ja Romaine, 
+Wiki Loves Monuments rahvusvaheline korraldusmeeskond, 
+info@wikilovesmonuments.org',
+	'2013-header-demographics' => 'Isikuandmed',
+	'2013-question-country' => 'Mis riigis Sa elad?',
+	'2013-other-country-lives' => 'Muu riik:',
+	'2013-question-birth-year' => 'Mis aastal Sa sündisid?',
+	'2013-birth-year' => 'Aasta:',
+	'2013-hide-birth-year' => 'Ma ei soovi seda avaldada.',
+	'2013-question-gender' => 'Mis on Sinu sugu?',
+	'2013-gender-male' => 'Mees',
+	'2013-gender-female' => 'Naine',
+	'2013-gender-other' => 'Muu / Ma ei soovi seda avaldada.',
+	'2013-header-wikimedia-activity' => 'Tegevus Wikimedias',
+	'2013-explanation-select-multiple' => 'Vali kõik sobivad.',
+	'2013-question-wlm-participation' => 'Millistel varasematel aastatel Sa osalesid võistlusel "Kultuurimälestised Vikipeediasse/Wiki Loves Monuments"?',
+	'2013-question-edited-wiki' => 'Kas Sa oled osalenud Vikipeedia või selle sõsarprojektide täiendamisel ka enne selle aasta fotovõistlust?',
+	'2013-edited-regularly' => 'Jah, ma olen olnud regulaarne kaastööline (rohkem kui viis muudatust kuus).',
+	'2013-edited-sporadically' => 'Jah, ma olen aeg-ajalt redigeerinud (vähem kui viis muudatust kuus).',
+	'2013-edited-only-photo-contests' => 'Jah, aga ma olen osa võtnud ainult fotovõistlustest, nagu näiteks "Kultuurimälestised Vikipeediasse".',
+	'2013-edited-never' => 'Ei, enne selleaastast kultuurimälestiste fotovõistlust ei olnud ma kunagi Wikimedia projektidele kaastööd teinud.',
+	'2013-header-competition' => 'Võistlus',
+	'2013-question-discovered-wlm' => 'Kust Sa said teada 2013. aasta võistlusest "Kultuurimälestised Vikipeediasse/Wiki Loves Monuments"?',
+	'2013-discovered-sitenotice' => 'Vikipeedia või teiste Wikimedia projektide päises oleva reklaamiriba kaudu.',
+	'2013-discovered-noticeboard' => 'Vikipeedia üldisest arutelust või mujalt kogukonnalehtedelt.',
+	'2013-discovered-social' => 'Sotsiaalmeediast (Facebook, Google+, Twitter, Flickr, foorumid vms)',
+	'2013-discovered-news' => 'Meediast (trüki- või veebiväljaanded, raadio, televisioon).',
+	'2013-discovered-direct-communication' => 'Kohaliku Wikimedia haruorganisatsiooni kaudu (organisatsiooni koduleht, meililist vms).',
+	'2013-discovered-event' => 'Üritusel (piirkonna inimeste kokkusaamine, konverents, koolitus vms)',
+	'2013-discovered-friend' => 'Kellegi tuttava käest.',
+	'2013-discovered-member' => 'Ma olen korraldava meeskonna / organisatsiooni liige.',
+	'2013-discovered-remembered' => 'Mul oli eelmisest aastast meeles.',
+	'2013-discovered-other' => 'Muu',
+	'2013-question-countries-uploaded' => 'Millistes riikides on tehtud pildid, mille Sa sel aastal kultuurimälestiste fotovõistlusele saatsid?',
+	'2013-other-country-upload' => 'Muu riik:',
+	'2013-question-photos-taken' => 'Millal Sa tegid enamiku nendest fotodest?',
+	'2013-photos-taken-sep-2013' => '2013. aasta septembris.',
+	'2013-photos-taken-jan-aug-2013' => '2013. aasta jaanuarist augustini.',
+	'2013-photos-taken-2000-2012' => 'Aastatel 2000-2012.',
+	'2013-photos-taken-before-2000' => 'Enne 2000. aastat.',
+	'2013-header-motivation' => 'Motivatsioon',
+	'2013-question-motivation' => 'Minu peamine motivatsioon osalemiseks 2013. aasta võistlusel "Kultuurimälestised Vikipeediasse" oli:',
+	'2013-motivation-prize' => 'Võita auhind',
+	'2013-motivation-help' => 'Aidata Vikipeediat',
+	'2013-motivation-discover-heritage' => 'Avastada kohalikku kultuuripärandit',
+	'2013-motivation-share-heritage' => 'Näidata kohalikku pärandit ka teistele inimestele',
+	'2013-motivation-fun' => 'Meelt lahutada',
+	'2013-motivation-share-work' => 'Mulle meeldib fotograafia ja oma tööde näitamine',
+	'2013-motivation-easy' => 'See oli piisavalt lihtne ja ma mõtlesin, et miks mitte?',
+	'2013-motivation-other' => 'Muu',
+	'2013-header-usability' => 'Osalemismugavus',
+	'2013-scale-difficult-1-text' => 'Väga lihtne',
+	'2013-scale-difficult-2-text' => 'Lihtne',
+	'2013-scale-difficult-3-text' => 'Normaalne',
+	'2013-scale-difficult-4-text' => 'Raske',
+	'2013-scale-difficult-5-text' => 'Väga raske',
+	'2013-question-find-info' => 'Kui keeruline oli leida üldist teavet võistluse kohta?',
+	'2013-question-find-lists' => 'Kui raske oli leida nende piirkondade mälestiste nimekirju, mis Sind huvitasid?',
+	'2013-question-find-identifier' => 'Kui raske oli leida mälestiste registrinumbreid?',
+	'2013-question-usability-upload' => 'Kui raske oli võistlusele foto üleslaadimine?',
+	'2013-question-usability-main-obstacle' => 'Kas Sinul või Sinu tuttavatel tekkis mingeid takistusi, mis muutsid osalemise raskemaks?',
+	'2013-header-future' => 'Tulevik',
+	'2013-scale-likely-1-text' => 'Kindlasti mitte',
+	'2013-scale-likely-2-text' => 'Pigem mitte',
+	'2013-scale-likely-3-text' => 'Võib-olla',
+	'2013-scale-likely-4-text' => 'Pigem jah',
+	'2013-scale-likely-5-text' => 'Jah, kindlasti',
+	'2013-question-will-participate' => 'Tõenäoliselt osalen ma kultuurimälestiste fotovõistlusel järgmisel aastal uuesti, kui see minu riigis korraldatakse:',
+	'2013-question-will-recommend' => 'Ma soovitan oma sõpradele sellel võistlusel osalemist:',
+	'2013-question-will-edit' => 'Nüüd on tõenäolisem, et ma parandan Vikipeedias vigu või lisan materjali:',
+	'2013-header-comments' => 'Muud kommentaarid:',
+	'2013-can-leave-empty' => 'Võid jätta selle lahtri tühjaks, kui ei soovi vastata.',
+	'2013-question-comments' => 'Palun kirjuta siia kõik muud kommentaarid ja ettepanekud võistluse kohta, mis ei olnud kaetud eelnevate küsimustega:',
+	'2013-header-contests' => 'Tulevased võistlused ja tegevused',
+	'2013-question-future' => 'Mis on Sinu arvates kõige huvitavam teema, mille kohta tulevikus fotovõistlust korraldada?',
+	'2013-future-select-multiple' => 'Vali kõik sobivad.',
+	'2013-future-cultural-heritage' => 'Kultuuripärandi objektid (ajaloolised hooned jms)',
+	'2013-future-natural-heritage' => 'Loodusmälestised ja -kaitsealad',
+	'2013-future-public-art' => 'Avalikus kohas asuvad kunstiteosed',
+	'2013-future-museum-items' => 'Kunstiteosed või muud objektid muuseumites',
+	'2013-future-plants' => 'Taimed',
+	'2013-future-animals' => 'Loomad',
+	'2013-future-performing-arts' => 'Esituskunstid',
+	'2013-future-sports' => 'Sport',
+	'2013-future-needed-pictures' => 'Igasugused asjad, millest oleks vaja pilte Vikipeedia artiklite illustreerimiseks',
+	'2013-future-other' => 'Muu',
+	'2013-question-contact' => 'Palun kirjuta siia oma e-postiaadress, kui oled nõus, et võtame Sinuga tulevikus ühendust:',
+	'2013-contact-select-multiple' => 'Vali kõik sobivad.',
+	'2013-contact-announcements-contests' => 'Ma soovin saada teavitusi võistluse "Kultuurimälestised Vikipeediasse/Wiki Loves Monuments" või teiste fotovõistluste kohta.',
+	'2013-contact-organization-contests' => 'Mulle meeldiks osaleda "Kultuurimälestised Vikipeediasse/Wiki Loves Monuments" või teiste fotovõistluste korraldamises. Palun andke mulle teada, kui ma saan aidata.',
+	'2013-contact-GLAM-cooperation' => 'Mind huvitab koostöö kohalike mäluasutustega (raamatukogud, arhiivid, muuseumid). Palun andke mulle teada, kui ma saan aidata.',
+	'2013-contact-meetup' => 'Mulle meeldiks kohtuda teiste vikipedistide või Wikimedia projektide kaastöölistega. Palun andke mulle teada, kui minu piirkonnas toimub kokkusaamine (märgi oma asupaik allpool).',
+	'2013-contact-learn-contributing' => 'Ma tunnen huvi Vikipeediale või Wikimedia Commonsile kaastöö tegemise vastu. Palun andke mulle teada, kui minu piirkonnas on võimalik saada selleteemalist juhendamist (märgi oma asupaik allpool).',
+	'2013-contact-teach-contributing' => 'Ma tunnen Vikipeediat või Wikimedia Commonsit hästi ning olen nõus teisi inimesi juhendama (märgi oma asupaik allpool).',
+	'2013-question-follow-up' => 'Kui valisid mõne eelnevatest vastustest, palun kirjuta siia oma e-postiaadress ning asupaik, et saada infot Sinu piirkonna kokkusaamistest ja õpitubadest.',
+	'2013-forward-your-response' => 'Kui vastasid 20. küsimusele ja lisasid oma kontaktandmed, siis me edastame need Sinu kohalikule Wikimedia haruorganisatsioonile. Teiste küsimuste vastuseid hoitakse Sinu kontaktandmetest eraldi, et tagada vastajate anonüümsus.',
+	'2013-username' => 'Kasutajanimi:',
+	'2013-email' => 'E-postiaadress:',
+	'2013-postal-code' => 'Postiindeks:',
+	'2013-city' => 'Linn/vald:',
+	'2013-send-survey' => 'Saada vastused',
+	'2013-thank-you-answer' => 'Suur tänu küsitlusele vastamise eest!',
+	'2013-not-answered' => 'Sa eelistasid sellele küsimusele mitte vastata.',
+	'2013-bad-year-answer' => 'Aasta "$1" ei sobi. Vastust eiratakse.',
+	'2013-no-comments' => 'Kommentaare ei ole.',
+	'2013-change-answers' => 'Tahan vastuseid muuta',
+	'2013-returnto' => 'Pöördu tagasi lehele $1',
 );
 
 /** Persian (فارسی)
@@ -2372,6 +2501,7 @@ $messages['fi'] = array(
  * @author Dyolf77
  * @author Gomoko
  * @author Moyg
+ * @author Seb35
  * @author Strainu
  * @author VIGNERON
  * @author Verdy p
@@ -2499,7 +2629,7 @@ Cristian, Lodewijk, Monica, Karthik, Platonides, et Romaine
 	'2013-discovered-member' => 'Je suis un membre de l’équipe / de l’organisation ayant mis en œuvre le concours.',
 	'2013-discovered-remembered' => 'Je me suis simplement souvenu de l’année passée.',
 	'2013-discovered-other' => 'Autre',
-	'2013-question-countries-uploaded' => 'De quel(s) pays sont les photos que vous avez contribuées durant le concours Wiki Loves Monuments de cette année ?',
+	'2013-question-countries-uploaded' => 'De quel(s) pays sont les photos que vous avez téléversées durant le concours Wiki Loves Monuments de cette année ?',
 	'2013-other-country-upload' => 'Autre pays :',
 	'2013-question-photos-taken' => 'Quand est-ce que la plupart de vos participations de 2013 ont été prises?',
 	'2013-photos-taken-sep-2013' => 'J’ai pris la plupart des photos en septembre 2013.',
@@ -2516,7 +2646,7 @@ Cristian, Lodewijk, Monica, Karthik, Platonides, et Romaine
 	'2013-motivation-share-work' => 'J’aime la photographie et partager mon travail',
 	'2013-motivation-easy' => 'C’était assez facile, alors pourquoi ne pas essayer ?',
 	'2013-motivation-other' => 'Autre',
-	'2013-header-usability' => 'Convivialité',
+	'2013-header-usability' => 'Facilité d’utilisation',
 	'2013-scale-difficult-1-text' => 'Très simple',
 	'2013-scale-difficult-2-text' => 'Simple',
 	'2013-scale-difficult-3-text' => 'Normal',
@@ -3270,6 +3400,7 @@ Tu pote testar lo e submitter "responsas", ma le resultatos fornite essera radit
 /** Italian (italiano)
  * @author Beta16
  * @author Cruccone
+ * @author Ermanon
  * @author Sannita
  */
 $messages['it'] = array(
@@ -3357,10 +3488,10 @@ Il team di coordinamento di Wiki Loves Monuments, info@wikilovesmonuments.org",
 	'2012-change-answers' => 'Modifica le mie risposte',
 	'2012-returnto' => 'Torna a $1',
 	'2013-header-introduction' => 'Introduzione',
-	'2013-welcome-text' => "L'obiettivo di questo sondaggio è raccogliere statistiche sui partecipanti a Wiki Loves Monuments, le motivazioni che li hanno spinto a partecipare, e le opinioni su come è stato organizzato il concorso.  Il nostro obiettivo è utilizzare queste informazioni per migliorare la tua esperienza con Wiki Loves Monuments, e far sì che partecipare alla prossima edizione del concorso sia ancora più gradevole, facile e divertente!
+	'2013-welcome-text' => "L'obiettivo di questo sondaggio è raccogliere statistiche sui partecipanti a Wiki Loves Monuments, le motivazioni che li hanno spinti a partecipare, e le opinioni su come è stato organizzato il concorso.  Il nostro obiettivo è utilizzare queste informazioni per migliorare la tua esperienza con Wiki Loves Monuments, e far sì che partecipare alla prossima edizione del concorso sia ancora più gradevole, facile e divertente!
 Utilizzeremo le tue risposte a questo sondaggio per creare statistiche anonimizzate e non utilizzeremo, condivideremo o renderemo pubblico alcun dato personale in nessun caso. Per l'analisi dei dati, quest'anno ci aiuterà un gruppo di studenti dell'Università delle Scienze Applicate di Berna, in Svizzera.
 Ci vogliono circa cinque minuti per compilare questo sondaggio, e ti ringraziamo in anticipo per il tuo tempo. Per favore, tieni conto che nessuna delle domande è obbligatoria, e puoi evitare di rispondervi se preferisci.
-Grazie per partecipare al sondaggio.
+Grazie per la partecipazione al sondaggio.
 
 In fede,
 Cristian, Lodewijk, Monica, Karthik, Platonides, e Romaine
@@ -3381,7 +3512,7 @@ Team di coordinamento di Wiki Loves Monuments, info@wikilovesmonuments.org",
 	'2013-question-edited-wiki' => "Hai mai modificato Wikipedia/Wikimedia prima di partecipare all'edizione di quest'anno di Wiki Loves Monuments?",
 	'2013-edited-regularly' => 'Sì, sono stato un collaboratore assiduo (più di cinque modifiche al mese).',
 	'2013-edited-sporadically' => 'Sì, ho fatto modifiche qualche volta (meno di cinque modifiche al mese).',
-	'2013-edited-only-photo-contests' => 'Sì, ma solo in occasione di concorsi fotografici, come quali  "Wiki Loves Monuments" o "Wiki Loves Public Art" / "Wiki Loves Earth".',
+	'2013-edited-only-photo-contests' => 'Sì, ma solo in occasione di concorsi fotografici, quali  "Wiki Loves Monuments" o "Wiki Loves Public Art" / "Wiki Loves Earth".',
 	'2013-edited-never' => "No, non avevo mai provato a modificare prima di partecipare all'edizione di quest'anno di Wiki Loves Monuments.",
 	'2013-header-competition' => 'Concorso',
 	'2013-question-discovered-wlm' => 'Come hai scoperto Wiki Loves Monuments 2013?',
@@ -3457,7 +3588,7 @@ Team di coordinamento di Wiki Loves Monuments, info@wikilovesmonuments.org",
 	'2013-contact-learn-contributing' => 'Sono interessato a imparare a modificare Wikipedia e/o a contribuire a Wikimedia Commons - fatemi sapere  per favore quando si svolgeranno corsi introduttivi nella mia zona (indica il tuo luogo di residenza qui sotto).',
 	'2013-contact-teach-contributing' => 'Ho familiarità con Wikipedia e/o Wikimedia Commons e vorrei insegnare ad altri come contribuire (indicare il luogo di residenza qui sotto).',
 	'2013-question-follow-up' => 'Se hai risposto sì ha una delle domande precedenti,  per favore lascia il tuo indirizzo e-mail qui sotto. Indica la tua città di residenza se sei interessato a raduni in persona o corsi nella tua zona.',
-	'2013-forward-your-response' => "Inoltreremo le tue risposte alla domanda 20 insieme ai vostri dati di contatto al capitolo nazionale e/o organizzatori di Wiki Loves Monuments nel tuo paese. Le risposte alle altre domande saranno trattate in modo indipendente dai tuoi dati di contatto al fine di garantire l'anonimato dell'indagine.",
+	'2013-forward-your-response' => "Inoltreremo le tue risposte alla domanda 20 insieme ai tuoi dati di contatto al capitolo nazionale e/o organizzatori di Wiki Loves Monuments nel tuo paese. Le risposte alle altre domande saranno trattate in modo indipendente dai tuoi dati di contatto al fine di garantire l'anonimato dell'indagine.",
 	'2013-username' => 'Nome utente:',
 	'2013-email' => 'Indirizzo e-mail:',
 	'2013-postal-code' => 'CAP',
@@ -3611,7 +3742,7 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'title' => '위키 기념물 사랑 설문 조사', # Fuzzy
+	'title' => '위키 기념물을 사랑하다 - 참가자의 설문 조사',
 	'survey-mode-preparation' => '이 설문 조사는 준비하고 있습니다.
 설문 조사를 테스트하고 “답변”을 제출하실 수 있지만, 제공하는 결과는 실제 설문 조사가 시작하기 전에 지워질 것입니다.',
 	'survey-mode-closed' => '이 설문 조사는 끝났고 더 이상 제출할 수 없습니다.',
@@ -3785,34 +3916,49 @@ Dir gitt invitéiert fir se ze testen an Är "Äntwerten" ze schécken, awer d\'
 	'2012-no-comments' => 'Keng Bemierkungen ofginn.',
 	'2012-change-answers' => 'Meng Äntwerten änneren',
 	'2012-returnto' => 'Zréck op $1',
+	'2013-header-introduction' => 'Aféierung',
+	'2013-header-demographics' => 'Demographie',
 	'2013-question-country' => 'A wat fir engem Land wunnt Dir?',
 	'2013-other-country-lives' => 'Anert Land:',
 	'2013-question-birth-year' => 'A watfir engem Joer gouf Dir gebuer?',
 	'2013-birth-year' => 'Joer:',
 	'2013-hide-birth-year' => 'Ech wëll dat net soen.',
+	'2013-question-gender' => 'Wat ass Äert Geschlecht?',
 	'2013-gender-male' => 'Männlech',
 	'2013-gender-female' => 'Weiblech',
+	'2013-gender-other' => 'Anert / Ech wëll dat net soen.',
+	'2013-header-wikimedia-activity' => 'Wikimedia-Aktivitéit',
 	'2013-explanation-select-multiple' => 'Sicht all déi eraus déi richteg sinn.',
+	'2013-question-wlm-participation' => 'A wat fir enge virege Joren hutt Dir bäi Wiki Loves Monuments matgemaach?',
+	'2013-question-edited-wiki' => 'Hutt Dir schonn eng Kéier eppes op Wikipedia/Wikimedia geännert Ier Dir bäi Wiki Loves Monuments vun dësem Joer matgemaach hutt?',
+	'2013-edited-regularly' => 'Jo, ech sinn e regelméissege Mataarbechter (méi wéi fënnef Ännerunge pro Mount)',
 	'2013-header-competition' => 'Concours',
 	'2013-question-discovered-wlm' => 'Wéi sidd Dir vu Wiki Loves Monuments 2013 gewuer ginn?',
 	'2013-discovered-sitenotice' => "Duerch d'Bannere op Wikipedia oder anere Wikimedia Projeten.",
+	'2013-discovered-news' => 'Duerch Noriichten an de Medien (on-line, gedréckt, Radio oder Televisioun)',
 	'2013-discovered-friend' => 'Een deen ech kennen huet mir vum Concours erzielt.',
+	'2013-discovered-member' => 'Ech si Member vum Organisatiounsteam / Organisateur.',
 	'2013-discovered-remembered' => "Ech hu mech just un d'lescht Joer erënnert.",
 	'2013-discovered-other' => 'Anerer',
 	'2013-other-country-upload' => 'Anert Land:',
+	'2013-question-photos-taken' => 'Wéini goufen déi meescht vun Äre Fotoen, mat deenen Dir 2013 matgemaach hutt, gemaach?',
 	'2013-photos-taken-sep-2013' => 'Ech hunn déi meescht Fotoen am September 2013 gemaach.',
+	'2013-photos-taken-jan-aug-2013' => 'Ech hunn déi meescht Fotoen tëscht Januar an August 2013 gemaach.',
+	'2013-photos-taken-2000-2012' => 'Ech hunn déi meescht Fotoen tëscht 2000 an 2012 gemaach.',
 	'2013-photos-taken-before-2000' => 'Ech hunn déi meescht Fotoe virun 2000 gemaach.',
 	'2013-header-motivation' => 'Motivatioun',
 	'2013-motivation-prize' => 'Fir e Präis ze gewannen',
 	'2013-motivation-help' => 'Fir Wikipedia ze hëllefen',
 	'2013-motivation-fun' => "Fir mech z'ameséieren",
 	'2013-motivation-easy' => 'Et war zimlech einfach, dunn duecht ech firwat net?',
+	'2013-motivation-other' => 'Anerer',
 	'2013-header-usability' => 'Benotzerfrëndlechkeet',
 	'2013-scale-difficult-1-text' => 'Ganz einfach',
 	'2013-scale-difficult-2-text' => 'Einfach',
 	'2013-scale-difficult-3-text' => 'Normal',
 	'2013-scale-difficult-4-text' => 'Schwéier',
 	'2013-scale-difficult-5-text' => 'Ganz schwéier',
+	'2013-question-usability-upload' => 'Wéi schwéier war et fir Iech fir eng Foto bäi Wiki Loves Monuments 2013 eropzelueden?',
 	'2013-header-future' => 'Zukunft',
 	'2013-scale-likely-1-text' => 'Neen, iwwerhaapt net',
 	'2013-scale-likely-2-text' => 'Éischter neen',
@@ -3821,18 +3967,22 @@ Dir gitt invitéiert fir se ze testen an Är "Äntwerten" ze schécken, awer d\'
 	'2013-scale-likely-5-text' => 'Jo, absolut',
 	'2013-header-comments' => 'Aner Bemierkungen',
 	'2013-can-leave-empty' => 'Dir kënnt dëst Feld eidel loossen.',
+	'2013-header-contests' => 'Concoursen an der Zukunft an Aktivitéiten an deem Kontext',
 	'2013-future-select-multiple' => 'Sicht all déi eraus déi richteg sinn.',
 	'2013-future-museum-items' => 'Konschtwierker oder aner Objeten a Muséeën',
 	'2013-future-plants' => 'Planzen',
 	'2013-future-animals' => 'Déieren',
 	'2013-future-sports' => 'Sport',
+	'2013-future-other' => 'Anerer',
 	'2013-contact-select-multiple' => 'Sicht all déi eraus déi richteg sinn.',
 	'2013-username' => 'Benotzernumm:',
 	'2013-email' => 'E-Mail-Adress:',
+	'2013-postal-code' => 'Postcode:',
 	'2013-city' => 'Stad:',
 	'2013-send-survey' => 'Ëmfro schécken',
 	'2013-thank-you-answer' => 'Merci datt Dir dës Ëmfro ausgefëllt hutt!',
 	'2013-not-answered' => 'Dir hutt decidéiert net op dës Fro ze äntwerten.',
+	'2013-bad-year-answer' => 'D\'Joer "$1" dat Dir uginn hutt ass net valabel. D\'Äntwert gouf ignoréiert.',
 	'2013-no-comments' => 'Keng Bemierkungen uginn.',
 	'2013-change-answers' => 'Meng Äntwerten änneren',
 	'2013-returnto' => 'Zréck op $1',
@@ -4043,9 +4193,10 @@ $messages['mk'] = array(
 /** Malayalam (മലയാളം)
  * @author Netha Hussain
  * @author Praveenp
+ * @author SreejithK2000
  */
 $messages['ml'] = array(
-	'title' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു കണക്കെടുപ്പ്',
+	'title' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു കണക്കെടുപ്പ്', # Fuzzy
 	'survey-mode-preparation' => 'ഈ കണക്കെടുപ്പ് മുഴുമിക്കപ്പെട്ടിട്ടില്ല.
 ഇത് പരീക്ഷിക്കാനും "ഉത്തരങ്ങൾ" സമർപ്പിക്കാനും താങ്കളെ സ്വാഗതം ചെയ്യുന്നു. എന്നാൽ ഈ കണക്കെടുപ്പിന്റെ ഫലങ്ങൾ  യഥാർത്ഥ കണക്കെടുപ്പ് തുടങ്ങുന്നതിനു മുൻപേ മായ്ക്കുന്നതായിരിക്കും.',
 	'survey-mode-closed' => 'ഈ കണക്കെടുപ്പ്  സമാപിച്ചിരിക്കുന്നു. താങ്കളുടെ ഉത്തരങ്ങൾ ഇനി സമർപ്പിക്കാൻ കഴിയുന്നതല്ല.',
@@ -4082,7 +4233,7 @@ $messages['ml'] = array(
 	'2012-discovered-social' => 'സാമൂഹ്യമാധ്യമങ്ങൾ (ഫേസ്ബുക്ക്, ഗൂഗിൾ+, ട്വിറ്റർ..)',
 	'2012-discovered-news' => 'പത്രമാധ്യമങ്ങളിലൂടെ (ഓൺലൈനോ, അച്ചടിമാധ്യമങ്ങളോ)',
 	'2012-discovered-friend' => 'ഞാനറിയുന്ന ഒരാൾ പറഞ്ഞതിലൂടെ',
-	'2012-discovered-other' => 'മറ്റെന്തെങ്കിലും:',
+	'2012-discovered-other' => 'മറ്റെന്തെങ്കിലും:', # Fuzzy
 	'2012-question-countries-uploaded' => 'ഏതൊക്കെ രാജ്യങ്ങൾക്ക് വേണ്ടിയാണ് താങ്കൾ ചിത്രങ്ങൾ അപ്ലോഡ് ചെയ്തിട്ടുള്ളത്?',
 	'2012-other-country-upload' => 'മറ്റേതെങ്കിലും രാജ്യം:',
 	'2012-question-photos-taken' => '2012-ൽ സമർപ്പിച്ച അപ്‌ലോഡുകൾ (ഭൂരിഭാഗം) എപ്പോൾ എടുത്തതായിരുന്നു?',
@@ -4097,7 +4248,7 @@ $messages['ml'] = array(
 	'2012-motivation-discover-heritage' => 'എന്റെ നാടിന്റെ പൈതൃകത്തെപ്പറ്റി അറിയാൻ',
 	'2012-motivation-share-heritage' => 'എന്റെ നാടിന്റെ പൈതൃകം മറ്റുള്ളവരുമായി പങ്കുവയ്ക്കാൻ',
 	'2012-motivation-easy' => 'വളരെ എളുപ്പമുള്ള കാര്യമായതിനാൽ എന്തുകൊണ്ടായിക്കൂടാ എന്ന് കരുതുന്നതുകൊണ്ട്.',
-	'2012-motivation-other' => 'മറ്റെന്തെങ്കിലും :',
+	'2012-motivation-other' => 'മറ്റെന്തെങ്കിലും :', # Fuzzy
 	'2012-header-usability' => 'ഉപയോഗയോഗ്യത',
 	'2012-scale-difficult-1-text' => 'വളരെ എളുപ്പം',
 	'2012-scale-difficult-2-text' => 'എളുപ്പം',
@@ -4122,6 +4273,40 @@ $messages['ml'] = array(
 	'2012-username' => 'ഉപയോക്തൃനാമം:',
 	'2012-email' => 'ഇമെയിൽ വിലാസം:',
 	'2012-send-survey' => 'സർവ്വെ അയയ്ക്കുക',
+	'2013-question-country' => 'താങ്കളുടെ രാജ്യം ഏതാണ്?',
+	'2013-other-country-lives' => 'മറ്റ് രാജ്യം:',
+	'2013-question-birth-year' => 'താങ്കൾ ജനിച്ച വർഷം?',
+	'2013-birth-year' => 'വർഷം:',
+	'2013-hide-birth-year' => 'ഇക്കാര്യം വെളിപ്പെടുത്താൻ ഞാൻ ആഗ്രഹിക്കുന്നില്ല.',
+	'2013-question-gender' => 'താങ്കൾ പുരുഷനോ സ്ത്രീയോ?',
+	'2013-gender-male' => 'പുരുഷൻ',
+	'2013-gender-female' => 'സ്ത്രീ',
+	'2013-gender-other' => 'മറ്റൊന്ന് / ഇക്കാര്യം വെളിപ്പെടുത്താൻ ഞാൻ ആഗ്രഹിക്കുന്നില്ല.',
+	'2013-question-wlm-participation' => 'കഴിഞ്ഞ ഏതൊക്കെ വർഷങ്ങളിൽ താങ്കൾ വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു എന്നതിൽ പങ്കെടുത്തു?',
+	'2013-header-competition' => 'മത്സരം',
+	'2013-question-discovered-wlm' => 'വിക്കി സ്മാരകങ്ങളെ സ്നേഹിക്കുന്നു 2013-നെ പറ്റി താങ്കൾ എങ്ങിനെ അറിഞ്ഞു?',
+	'2013-discovered-friend' => 'എനിക്കറിയാവുന്ന ഒരാൾ മത്സരത്തെക്കുറിച്ച് പറഞ്ഞു.',
+	'2013-discovered-member' => 'ഞാൻ സംഘാടക സമിതിയിലെ അംഗമാണ്',
+	'2013-discovered-remembered' => 'കഴിഞ്ഞ വർഷത്തേത് ഓർമ്മിച്ചു',
+	'2013-discovered-other' => 'മറ്റൊന്ന്',
+	'2013-photos-taken-before-2000' => 'ഞാൻ 2000-ന് മുൻപാണ് മിക്ക ചിത്രങ്ങളും എടുത്തത്',
+	'2013-header-motivation' => 'പ്രചോദനം',
+	'2013-motivation-prize' => 'സമ്മാനം നേടാൻ',
+	'2013-motivation-help' => 'വിക്കിപീഡിയയെ സഹായിക്കാൻ',
+	'2013-scale-difficult-1-text' => 'വളരെ എളുപ്പം',
+	'2013-scale-difficult-2-text' => 'എളുപ്പം',
+	'2013-scale-difficult-3-text' => 'സാധാരണം',
+	'2013-scale-difficult-4-text' => 'ബുദ്ധിമുട്ട്',
+	'2013-scale-difficult-5-text' => 'വളരെ ബുദ്ധിമുട്ട്',
+	'2013-header-future' => 'ഭാവി',
+	'2013-scale-likely-1-text' => 'ഒട്ടുമില്ല',
+	'2013-scale-likely-2-text' => 'മിക്കവാറും ഇല്ല',
+	'2013-scale-likely-3-text' => 'ചിലപ്പോൾ',
+	'2013-scale-likely-4-text' => 'മിക്കവാറും അതെ',
+	'2013-scale-likely-5-text' => 'ഉറപ്പായും അതെ',
+	'2013-future-plants' => 'ചെടികൾ',
+	'2013-future-animals' => 'മൃഗങ്ങൾ',
+	'2013-future-sports' => 'കായികവിനോദങ്ങൾ',
 );
 
 /** Marathi (मराठी)
@@ -5736,8 +5921,13 @@ Wiki Loves Monuments coordinating team, info@wikilovesmonuments.org',
 
 /** Telugu (తెలుగు)
  * @author Veeven
+ * @author రహ్మానుద్దీన్
  */
 $messages['te'] = array(
+	'title' => 'వికీ లవ్స్ మాన్యుమెంట్స్ - పోటీలో పాల్గొన్నవారి సర్వేక్షణ',
+	'survey-mode-preparation' => 'ఈ సర్వేక్షణ ఇంకా రూపొందుతోంది. 
+దీనిని పరీక్షించేందుకు మరియు "సమాధానాలు" పొందిపరిచేందుకు ఇదే ఆహ్వానం, కానీ మీరు రాసిన జవాబులు అసలు సర్వేక్షణ మొదలయ్యాక అందుబాటులో ఉండకపోవచ్చు.',
+	'survey-mode-closed' => 'ఈ సర్వేక్షన గడువు అయిపోయింది, ఎలాంటి జవాబులు తీసుకోబడుటలేదు.',
 	'2012-header-introduction' => 'పరిచయం',
 	'2012-other-country-lives' => 'మరో దేశం:',
 	'2012-birth-year' => 'సంవత్సరం:',
@@ -5745,6 +5935,61 @@ $messages['te'] = array(
 	'2012-gender-female' => 'స్త్రీ',
 	'2012-header-comments' => 'ఇతర వ్యాఖ్యలు',
 	'2012-username' => 'వాడుకరి పేరు:',
+	'2013-header-introduction' => 'పరిచయం',
+	'2013-welcome-text' => 'వికీ లవ్స్ మాన్యుమెంట్స్ లో పాల్గొన్న సభ్యుల గణాంకాలను పొందుపరచటం, వారి ఆసక్తులను, స్ఫూర్తులనూమరియు పోటీ జరిగిన సరళి పట్ల వారికున్న అభిప్రాయాలను సేకరించటమే ఈ సర్వేక్షణ యొక్క లక్ష్యం. వికీ లవ్స్ మాన్యుమెంట్స్ తో మీ అనుభవాలను మరింత మెరుగుపరచటమే మా లక్ష్యం. తదుపరి పోటీని మరింత సులువుగా, సరళంగా ఇంకా ఆసక్తికరంగా చేయటమనమాట! 
+ఈ సర్వేక్షణలో మీ జవాబులను వాడి గోప్య గణాంకాలను రూపొందిస్తాం, ఇవి ఏ విధంగానూ వాడబడవు, పంచుకోబడవు ఇంకా జాతీయం చేయబడవు మరియు మిమ్మల్ని గుర్తించటానికి వీలున్న ఏ విషయం ఎట్టి పరిస్థితుల్లో బహిర్గతం కాజాలదు. ఈ సంవత్సరానికి స్విట్జర్లాండ్ లోని బెర్న్ యూనివర్సిటీ ఆఫ్ అప్లైడ్ సైన్సెస్ లోని కొందరు విద్యార్థుల సహాయంతో మేము ఈ గణాంకాలను అధ్యయనం చేస్తాము. 
+ఈ సర్వేక్షణ పూర్తి చేసేందుకు దాదాపుగా ఐదు నిమిషాలు పట్టవచ్చు, ఈ సమయం మాకోసం వెచ్చిస్తున్నందుకు ముందస్తుగా ధన్యవాదాలు. ఇందులో ఏ ప్రశ్నకు తప్పనిసరిగా జవాబు రాయాలని లేదు, మీరు కావాలనుకుంటే ఏ ప్రశ్ననైనా వదిలివేయవచ్చు, ఈ విషయాన్ని గమనించగలరు.
+సర్వేక్షణలో పాల్గొన్నందుకు ధన్యవాదాలు.
+
+మీ,
+క్రిస్టెన్, లోడెవిజ్క్, మోనికా, కార్తీక్, ప్లాటోనైడ్స్, మరియు రొమేన్
+వికీ లవ్స్ మాన్యుమెంట్స్ సహకార టీం, info@wikilovesmonuments.org',
+	'2013-header-demographics' => 'గణాంక విశేషాలు',
+	'2013-question-country' => 'మీరు ఏ దేశంలో నివసిస్తున్నారు?',
+	'2013-other-country-lives' => 'వేరే దేశం:',
+	'2013-question-birth-year' => 'మీరు ఏ సంవత్సరంలో పుట్టారు?',
+	'2013-birth-year' => 'సంవత్సరం:',
+	'2013-hide-birth-year' => 'నేనీ విషయాన్ని పొందుపరచదలుచుకోలేదు.',
+	'2013-question-gender' => 'మీరు స్త్రీ/పురుషుడు?',
+	'2013-gender-male' => 'పురుషుడు',
+	'2013-gender-female' => 'స్త్రీ',
+	'2013-gender-other' => 'ఇతర / నేను చెప్పుకోదలచలేదు',
+	'2013-header-wikimedia-activity' => 'వికీమీడియా పనితనం',
+	'2013-explanation-select-multiple' => 'సంబంధమున్నవన్నీ ఎంచుకో.',
+	'2013-question-wlm-participation' => 'క్రీతం సారి ఏ సంవత్సరంలో మీరు వికీ లవ్స్ మాన్యుమెంట్స్ పోటీలో పాల్గొన్నారు?',
+	'2013-question-edited-wiki' => 'ఈ సంవత్సరపు వికీ లవ్స్ మాన్యుమెంట్స్ పోటీలో పాల్గొనక ముందు మీరు వికీపీడియా/వికీమీడియా లో మార్పులు చేసారా?',
+	'2013-edited-regularly' => 'ఔను, నేను తరచూ తోడ్పాటు చేస్తూ ఉంటాను (నెలకు 5 కన్నా ఎక్కువ మార్పులు).',
+	'2013-edited-sporadically' => 'ఔను, నేను ఎప్పటికప్పుడు మార్పులు చేస్తాను (నెలకు ఐదు కన్నా తక్కువ మార్పులు).',
+	'2013-edited-only-photo-contests' => 'ఔను, కానీ "వికీ లవ్స్ మాన్యుమెంట్స్" లేదా "వికీ లవ్స్ పబ్లిక్ ఆర్ట్" / "వికీ లవ్స్ అర్త్" లాంటి పోటిలలో మాత్రమే.',
+	'2013-edited-never' => 'లేదు, నేను ఈ సంవత్సరం పోటీలో పాల్గినక ముందు ఏ మార్పులూ చేయలేదు.',
+	'2013-header-competition' => 'పోటీ',
+	'2013-question-discovered-wlm' => 'మీరు వికీ లవ్స్ మాన్యుమెంట్స్ 2013 గురించి ఎలా తెలుసుకున్నారు?',
+	'2013-discovered-sitenotice' => 'వికీపీడియా మరియు ఇతర వికీమీడియ ప్రకరణాలలోని బ్యానర్ల ద్వారా.',
+	'2013-discovered-noticeboard' => 'సమూహ చర్చా వేదిక లేదా రచ్చబండ వద్ద గల సమాచారం ద్వారా.',
+	'2013-discovered-social' => 'అంతర్జాల సామాజిక మాధ్యమాల ద్వారా (ఫేస్‍బుక్, గూగుల్+, ట్విటర్, ఫ్లికర్, అంతర్జాల చర్చా వేదికలు, మొ॥)',
+	'2013-discovered-news' => 'వార్తా మాధ్యమాల ద్వారా (అంతర్జాలంలో, పత్రికలలో, రేడియో లేదా టీవీ)',
+	'2013-discovered-direct-communication' => 'నాకు స్థానికంగా ఉన్న చాప్టర్ పంపిన సూచన ద్వారా (చాప్టర్ జాలగూడు, మెయిలింగ్ లిస్ట్, మొ॥)',
+	'2013-discovered-event' => 'ముఖాముఖీ (స్థానిక మీటప్, కాన్ఫరెన్స్, మొ॥)',
+	'2013-discovered-friend' => 'నాకో వ్యక్తి ద్వారా ఈ పోటీ గురించి తెలిసింది.',
+	'2013-discovered-member' => 'నేను నిర్వాహక సంఘం/నిర్వాహక సభ్యుల కార్యవర్గంలో సభ్యుడ్ని.',
+	'2013-discovered-remembered' => 'నేను పోయిన సంవత్సరం నుండి జ్ఞాపకముంచుకొన్నాను.',
+	'2013-discovered-other' => 'ఇతర',
+	'2013-question-countries-uploaded' => 'ఈ సంవత్సరం పోటీలో ఏ-ఏ దేశాల ఫుటోలు ఎక్కించారు?',
+	'2013-other-country-upload' => 'ఇతర దేశం:',
+	'2013-question-photos-taken' => '2013లోని మీ సమర్పణలు ఏ కాలంలో ఎక్కువగా తీయబడినవి?',
+	'2013-photos-taken-sep-2013' => 'నేను చాలా వరకూ ఫుటోలను సెప్టెంబర్ 2013లో తీసాను.',
+	'2013-photos-taken-jan-aug-2013' => 'జనవరి ఇంకా ఆగస్టు  2013 మధ్యలో చాలా వరకూ చిత్రాలను తీసాను.',
+	'2013-photos-taken-2000-2012' => '2000 మరియు 2012 మధ్య చాలా వరకు చిత్రాలు తీసాను.',
+	'2013-header-comments' => 'ఇతర వ్యాఖ్యలు',
+	'2013-can-leave-empty' => 'ఈ ఖాళీని పూరించకుండా వదిలేయవచ్చు.',
+	'2013-future-plants' => 'మొక్కలు',
+	'2013-future-animals' => 'జంతువులు',
+	'2013-future-sports' => 'క్రీడలు',
+	'2013-username' => 'వాడుకరి పేరు:',
+	'2013-email' => 'ఈ-మెయిలు చిరునామా:',
+	'2013-postal-code' => 'తపాలా కోడు:',
+	'2013-city' => 'నగరం:',
+	'2013-returnto' => 'తిరిగి $1కి',
 );
 
 /** Thai (ไทย)

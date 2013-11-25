@@ -2124,11 +2124,11 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'search-title' => '기념물 찾기',
-	'search-monuments-database' => '기념물 데이터베이스 찾기',
+	'search-title' => '기념물 검색',
+	'search-monuments-database' => '기념물 데이터베이스 검색',
 	'search-table-th-field' => '필드',
 	'search-table-th-filter' => '필터',
-	'search-table-th-search' => '찾기',
+	'search-table-th-search' => '검색',
 	'filter-all-countries' => '모든 국가',
 	'filter-all-languages' => '모든 언어',
 	'db-field-country' => '국가',
@@ -2155,15 +2155,15 @@ $messages['ko'] = array(
 	'db-field-st_name' => '이름',
 	'db-field-st_name_pct' => '이름 %',
 	'db-field-st_total' => '총 수',
-	'toolbox-label-searchtipps' => '퍼지 찾기는 %term 또는 term% 또는 %term% 사용',
+	'toolbox-label-searchtipps' => '퍼지 검색은 %term 또는 term% 또는 %term% 사용',
 	'toolbox-meta-title' => '위키 기념물을 사랑하다 도구모음',
 	'toolbox-main-title' => 'WLM 도구모음',
 	'toolbox-main-description' => '관련된 도구 집합',
 	'toolbox-wikilovesmonuments' => '위키 기념물을 사랑하다',
 	'toolbox-nav-homepage' => '대문페이지',
 	'toolbox-nav-statistics' => '통계',
-	'toolbox-nav-search' => '찾기',
-	'toolbox-title-searchmonuments' => '기념물 찾기',
+	'toolbox-nav-search' => '검색',
+	'toolbox-title-searchmonuments' => '기념물 검색',
 	'location' => '위치',
 	'source-monuments-list-on-wikipedia' => '위키백과에 원본 기념물 목록',
 );
