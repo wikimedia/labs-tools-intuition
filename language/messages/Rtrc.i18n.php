@@ -303,7 +303,7 @@ $messages['de'] = array(
 	'desc' => 'Abst.',
 	'documentation' => 'Dokumentation',
 	'filter' => 'Filter',
-	'helpicon-tooltip' => 'Hier klicken für mehr Informationen',
+	'helpicon-tooltip' => 'Mehr über diese Funktion erfahren',
 	'lastupdate-cvn' => 'Letzte Aktualisierung: $1',
 	'lastupdate-rc' => 'Letzte Aktualisierung: $1',
 	'limit' => 'Limit',
@@ -363,6 +363,7 @@ $messages['el'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Krinkle
  * @author McDutchie
  * @author VegaDark
@@ -381,7 +382,7 @@ $messages['es'] = array(
 	'desc' => 'Desc',
 	'documentation' => 'Documentación',
 	'filter' => 'Filtro',
-	'helpicon-tooltip' => 'Haz clic aquí para más información',
+	'helpicon-tooltip' => 'Más información sobre esta función',
 	'lastupdate-cvn' => 'Última actualización: $1',
 	'lastupdate-rc' => 'Última actualización: $1',
 	'limit' => 'Límite',
@@ -636,6 +637,45 @@ $messages['ja'] = array(
 	'userfilter' => '利用者フィルター',
 );
 
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'title' => 'Нақты уақыттағы жуықтағы өзгерістер',
+	'apply' => 'Қолдану',
+	'asc' => 'Артуы',
+	'clear' => 'Тазарту',
+	'currentedit' => 'Таңдалған өңдеме',
+	'cvn-adder' => 'Қосушы',
+	'cvn-adder-empty' => 'Белгісіз',
+	'cvn-reason' => 'Себебі',
+	'cvn-reason-empty' => 'Себебі табылмады',
+	'desc' => 'Кему',
+	'documentation' => 'Құжаттамасы',
+	'filter' => 'Сүзгі',
+	'helpicon-tooltip' => 'Бұл мүмкіндік туралы көбірек білу',
+	'lastupdate-cvn' => 'Соңғы жаңартылуы: $1',
+	'lastupdate-rc' => 'Соңғы жаңартылуы: $1',
+	'limit' => 'Шектеуі',
+	'months' => 'Қаңтар, Ақпан, Наурыз, Сәуір, Мамыр, Маусым, Шілде, Тамыз, Қыркүйек, Қазан, Қараша, Желтоқсан',
+	'mypatrollog' => 'Қадағалау журналым',
+	'namespace' => 'Есім кеңістігі',
+	'nomatches' => 'Сіздің талабыңыз бойынша өзгерістер жоқ',
+	'order' => 'Рет',
+	'select-placeholder-none' => '(ештеңе)',
+	'showAnonOnly' => 'Тек анонимдер',
+	'showUnpatrolledOnly' => 'Тек тексерілмегендер',
+	'skippededit' => 'Жасырылған өңдеме',
+	'tag' => 'Тег',
+	'time-from' => 'Бастап',
+	'time-untill' => 'Дейін',
+	'timeframe' => 'Уақыт аралығы',
+	'type' => 'Түрі',
+	'typeEdit' => 'Өңдемелер',
+	'typeNew' => 'Жаңа беттер',
+	'userfilter' => 'Қатысушы сүзгісі',
+);
+
 /** Korean (한국어)
  * @author Hym411
  * @author 아라
@@ -761,6 +801,49 @@ $messages['mk'] = array(
 	'userfilter' => 'Кориснички филтер',
 );
 
+/** Norwegian Bokmål (norsk bokmål)
+ * @author Danmichaelo
+ */
+$messages['nb'] = array(
+	'title' => 'Siste endringer i sanntid',
+	'apply' => 'Bruk',
+	'asc' => 'Stigende',
+	'changelog' => 'Hva er nytt',
+	'clear' => 'tøm',
+	'currentedit' => 'Valgt redigering',
+	'cvn-adder' => 'Bruker',
+	'cvn-adder-empty' => 'Ukjent',
+	'cvn-reason' => 'Årsak',
+	'cvn-reason-empty' => 'Ingen årsak funnet',
+	'desc' => 'Synkende',
+	'documentation' => 'Dokumentasjon',
+	'filter' => 'Filter',
+	'helpicon-tooltip' => 'Lær mer om denne funksjonen',
+	'lastupdate-cvn' => 'Siste oppdatering: $1',
+	'lastupdate-rc' => 'Sist oppdatert: $1',
+	'limit' => 'Grense',
+	'masspatrol-requires-userfilter' => 'MassPatrol har blitt deaktivert, fordi den krever et brukerfilter, noe som ikke ble funnet.',
+	'months' => 'januar, februar, mars, april, mai, juni, juli, august, september, oktober, november, desember',
+	'mypatrollog' => 'min patruljeringslogg',
+	'namespace' => 'Navnerom:',
+	'navtoggle-tooltip' => 'Veksle sidefeltet',
+	'nomatches' => 'Ingen relevante endringer for innstillingene dine',
+	'order' => 'Rekkefølge',
+	'permalink' => 'Permalenke til de nåværende innstillingene',
+	'select-placeholder-none' => '(ingen)',
+	'showAnonOnly' => 'Kun uregistrerte',
+	'showUnpatrolledOnly' => 'Kun upatruljerte',
+	'skippededit' => 'Hoppet over redigering',
+	'tag' => 'Tagg',
+	'time-from' => 'Fra',
+	'time-untill' => 'Til',
+	'timeframe' => 'Tidsrom',
+	'type' => 'Type',
+	'typeEdit' => 'Redigeringer',
+	'typeNew' => 'Nye sider',
+	'userfilter' => 'Brukerfilter',
+);
+
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand
@@ -780,7 +863,7 @@ $messages['nl'] = array(
 	'desc' => 'Aflopend',
 	'documentation' => 'Documentatie',
 	'filter' => 'Filters',
-	'helpicon-tooltip' => 'Meer informatie', # Fuzzy
+	'helpicon-tooltip' => 'Meer informatie over deze functie',
 	'lastupdate-cvn' => 'Laatst bijgewerkt: $1',
 	'lastupdate-rc' => 'Laatst bijgewerkt: $1',
 	'limit' => 'Aantal',
@@ -1075,6 +1158,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Lokal Profil
  * @author WikiPhoenix
  */
@@ -1085,6 +1169,7 @@ $messages['sv'] = array(
 	'changelog' => 'Vad är nytt',
 	'clear' => 'rensa',
 	'currentedit' => 'Aktuell vald redigering',
+	'cvn-adder' => 'Användare',
 	'cvn-adder-empty' => 'Okänd',
 	'cvn-reason' => 'Anledning',
 	'cvn-reason-empty' => 'Ingen anledning hittades',
@@ -1106,6 +1191,8 @@ $messages['sv'] = array(
 	'select-placeholder-none' => '(ingen)',
 	'showAnonOnly' => 'Bara anonyma',
 	'showUnpatrolledOnly' => 'Bara opatrullerade',
+	'skippededit' => 'Hoppade över redigering',
+	'tag' => 'Tagg',
 	'time-from' => 'Från',
 	'time-untill' => 'Tills',
 	'timeframe' => 'Tidsram',

@@ -409,12 +409,14 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Alvaro Vidal-Abarca
  * @author Platonides
  * @author SMP
  */
 $messages['ca'] = array(
 	'hello' => 'Hola',
 	'welcome' => 'Benvinguts',
+	'toolversion' => 'Versió $1',
 	'toolversionstamp' => 'Versió $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espai de noms',
@@ -660,7 +662,7 @@ $messages['eo'] = array(
 $messages['es'] = array(
 	'dateformat' => '%d de %B de %Y',
 	'hello' => 'Hola',
-	'welcome' => 'Bienvenido',
+	'welcome' => 'Bienvenido/a',
 	'toolversion' => 'Versión $1',
 	'toolversionstamp' => 'Versión $1 ($2)',
 	'etc' => 'etc.',
@@ -674,7 +676,7 @@ $messages['es'] = array(
 	'minutes' => '{{PLURAL: $1|minuto|minutos}}',
 	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 	'last-modified-date' => 'Última modificación: $1',
-	'view-source' => 'Ver fuente',
+	'view-source' => 'Ver el código',
 	'and' => '&#32;y',
 );
 
@@ -1094,7 +1096,7 @@ $messages['inh'] = array(
 	'years' => '{{PLURAL: $1|шу|шера|шераш}}',
 	'weeks' => '{{PLURAL: $1|к|иранди|к|иранден|к|иранденош}}',
 	'days' => '{{PLURAL: $1|ди|ден|денош}}',
-	'hours' => '{{PLURAL: $1|сахьат}}',
+	'hours' => '{{PLURAL: $1|сахьт}}',
 );
 
 /** Italian (italiano)

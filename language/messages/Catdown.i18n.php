@@ -885,12 +885,12 @@ $messages['es'] = array(
 	'subtitle' => 'La forma más fácil de descargar las imágenes en una categoría',
 	'project' => 'Proyecto:',
 	'category' => 'Categoría:',
-	'thumbnailing' => 'Miniatura',
-	'max-width' => 'Ancho máximo:',
+	'thumbnailing' => 'Miniaturización',
+	'max-width' => 'Anchura máxima:',
 	'max-height' => 'Altura máxima:',
 	'invalid-width' => 'Anchura no válida',
 	'invalid-height' => 'Altura no válida',
-	'no-such-project' => 'No hay ningún proyecto de ese tipo',
+	'no-such-project' => 'Ese proyecto no existe',
 	'no-images' => 'No hay imágenes en esta categoría',
 	'category-is-url' => 'El nombre de la categoría dada es parecida a una dirección URL. Es necesario especificar el nombre de la categoría, no su dirección URL.',
 	'category-contains-namespace' => 'Al parecer ha incluido el espacio de nombres junto al nombre de la categoría. Con el nombre dado, la página estaría disponible como [[Category:$1]].',
@@ -2102,6 +2102,29 @@ $messages['mt'] = array(
 	'scaling-width' => ", mqassra għal wisa' massima ta' $1 {{plural:$1|pixel|pixels}}",
 );
 
+/** Norwegian Bokmål (norsk bokmål)
+ * @author Danmichaelo
+ */
+$messages['nb'] = array(
+	'title' => 'Last ned bilder etter kategori',
+	'subtitle' => 'Den enkle måten å laste ned bilder fra en kategori',
+	'project' => 'Prosjekt:',
+	'category' => 'Kategori:',
+	'thumbnailing' => 'Miniatyrbilder',
+	'max-width' => 'Maksimumbredde:',
+	'max-height' => 'Maksimumhøyde:',
+	'invalid-width' => 'Ugyldig bredde',
+	'invalid-height' => 'Ugyldig høyde',
+	'no-such-project' => 'Det finnes ikke noe slikt prosjekt',
+	'no-images' => 'Det er ingen bilder i kategorien',
+	'category-is-url' => 'Kategorinavnet du oppga ser ut som en URL. Du må fylle inn kategorinavnet, ikke URLen.',
+	'category-contains-namespace' => 'Det ser ut som du har inkludert navnerommet sammen med kategorinavnet. Med det oppgitte navnet, vil siden være tilgjengelig som [[Category:$1]].',
+	'zip-failed' => 'Opprettelsen av en ZIP-fil feilet',
+	'image-area-too-big' => '$1 er for stor til at det kan lages miniatyrbilde. Bruker full størrelse.',
+	'download-info' => 'Det finnes {{plural:$1|ett bilde|$1 bilder}}, med en estimert størrelse $2',
+	'download' => 'Last ned',
+);
+
 /** Low German (Plattdüütsch)
  * @author Joachim Mos
  */
@@ -3264,6 +3287,7 @@ $messages['yi'] = array(
  * @author Liuxinyu970226
  * @author Mys 721tx
  * @author Simon Shek
+ * @author Xiaomingyan
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
@@ -3282,7 +3306,7 @@ $messages['zh-hans'] = array(
 	'category-contains-namespace' => '您似乎在分类名称中包含了名字空间。使用此名称时页面将会显示为[[Category:$1]]',
 	'zip-failed' => 'Zip创建失败',
 	'image-area-too-big' => '$1 对于缩略图过大，使用其实际大小。',
-	'download-info' => '此处有{{plural: $1|一张|$1张}}大小为$2的图片',
+	'download-info' => '{{plural: $1|有$1个图像}}，估计大小为$2',
 	'download' => '下载',
 	'readme-contents' => '文件$4包括下列内容：
 分类$1<$2>$3中的图片。

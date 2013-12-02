@@ -624,7 +624,7 @@ $messages['diq'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'fullname' => 'Pśełožki za wužywarski powjerch Toolserver', # Fuzzy
+	'fullname' => 'Pśełožki za rědy',
 	'current-settings' => 'Aktualne nstajenja',
 	'current-language' => 'Tuchylu wubrana rěc',
 	'settings-legend' => 'Nastajenja',
@@ -642,9 +642,9 @@ $messages['dsb'] = array(
 	'bl-mysettings-new' => 'Rěc změniś!',
 	'bl-promo' => 'Pśełožki zmóžnjaju se wót $1 a $2.',
 	'bl-changelanguage' => 'Klikni how, aby rěc wužywarskego powjercha toś togo rěda změnił.',
-	'usage' => 'Rědy su se wót Toolserver Intuition pśełožyli.', # Fuzzy
+	'usage' => 'Rědy su se wót Intuition pśełožyli.',
 	'help-translate-tool' => 'Pomóž toś ten rěd pśełožyś!',
-	'help-translate-all' => 'Pomóž Toolserver pśełožyś!', # Fuzzy
+	'help-translate-all' => 'Pomóž rědy pśełožyś!',
 	'help-translate-tooltip' => 'Pomóž drugim luźim, za tym až pśełožujo powěźeńki wužywarskego powjercha do swójeje rěcy.',
 );
 
@@ -1643,10 +1643,11 @@ $messages['mzn'] = array(
 );
 
 /** Norwegian Bokmål (norsk bokmål)
+ * @author Danmichaelo
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
-	'fullname' => 'Internasjonalisering for Toolservers brukergrensesnitt', # Fuzzy
+	'fullname' => 'Internasjonalisering for verktøy',
 	'current-settings' => 'Gjeldende innstillinger',
 	'current-language' => 'Valgt språk',
 	'settings-legend' => 'Innstillinger',
@@ -1664,9 +1665,9 @@ $messages['nb'] = array(
 	'bl-mysettings-new' => 'Endre språk',
 	'bl-promo' => 'Oversettelser drives av $1 og $2.',
 	'bl-changelanguage' => 'Klikk her for å endre grensesnittspråket for dette verktøyet.',
-	'usage' => 'Verktøy oversatt med Toolserver Intuition.', # Fuzzy
+	'usage' => 'Verktøy oversatt med Intuition.',
 	'help-translate-tool' => 'Hjelp med oversettelsen av dette verktøyet!',
-	'help-translate-all' => 'Hjelp med oversettelsen av Toolserver!', # Fuzzy
+	'help-translate-all' => 'Hjelp til med å oversette verktøy!',
 	'help-translate-tooltip' => 'Hjelp andre ved å oversette grensesnittmeldinger til ditt språk.',
 );
 
@@ -2587,7 +2588,7 @@ $messages['zh-hans'] = array(
 	'bl-mysettings' => '我的语言设置',
 	'bl-mysettings-new' => '更改语言！',
 	'bl-promo' => '翻译采用 $1 和 $2。',
-	'bl-changelanguage' => '若要更改此工具界面语言，请单击此处。',
+	'bl-changelanguage' => '单击这里以更改该工具的界面语言。',
 	'usage' => '用Intuition翻译的工具',
 	'help-translate-tool' => '帮助翻译此工具！',
 	'help-translate-all' => '帮助翻译工具！',

@@ -2159,6 +2159,7 @@ $messages['vi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'title-overview' => '快照',
@@ -2169,7 +2170,7 @@ $messages['zh-hans'] = array(
 	'download-button' => '下载$1',
 	'download-directlink' => '直接链接',
 	'title-downloadpage' => '下载：$1',
-	'downloadpage-directlink' => '单击此处下载快照。',
+	'downloadpage-directlink' => '下载快照。',
 	'err-snapshotindex' => '快照索引暂时不可用。请稍后再试。',
 	'err-invalid-repo' => '未知的版本库：“$1”。',
 	'err-invalid-branch' => '版本库“$2”中未知的分支：“$1”。',

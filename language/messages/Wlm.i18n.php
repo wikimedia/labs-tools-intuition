@@ -1442,6 +1442,7 @@ Forigitaj dosieroj ne estas montritaj eĉ se ili estis poste [$2 restarigitaj] k
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Fitoschido
  * @author McDutchie
  * @author Platonides
  * @author Vivaelcelta
@@ -1450,7 +1451,7 @@ $messages['es'] = array(
 	'title' => 'Imágenes de Wiki Loves Monuments',
 	'file' => 'Imagen',
 	'monument-type' => 'Tipo de monumento',
-	'monument-id' => 'Código',
+	'monument-id' => 'Id. del monumento',
 	'province' => 'Provincia',
 	'comarque' => 'Comarca',
 	'competes' => 'Competición',
@@ -1475,8 +1476,8 @@ $messages['es'] = array(
 	'view-province' => 'Ver imágenes por provincia',
 	'country-label' => 'País:',
 	'all-countries' => 'Todos los países',
-	'limit-label' => 'Nº de imágenes:',
-	'timezone-label' => 'Zona horaria:',
+	'limit-label' => 'Imágenes que mostrar:',
+	'timezone-label' => 'Huso horario:',
 	'show-earlier-first' => 'Mostrar primero las imágenes más antiguas',
 	'show-older-first' => 'Mostrar primero las imágenes más recientes',
 	'show-button' => 'Mostrar',
@@ -1902,6 +1903,7 @@ $messages['ga'] = array(
 
 /** Galician (galego)
  * @author Elisardojm
+ * @author Fitoschido
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -1934,7 +1936,7 @@ $messages['gl'] = array(
 	'country-label' => 'País:',
 	'all-countries' => 'Todos os países',
 	'limit-label' => 'Imaxes a mostrar:',
-	'timezone-label' => 'Zona horaria:',
+	'timezone-label' => 'Fuso horario:',
 	'show-earlier-first' => 'Mostrar as imaxes recentes primeiro',
 	'show-older-first' => 'Mostrar as imaxes antigas primeiro',
 	'show-button' => 'Mostrar',
