@@ -41,7 +41,7 @@ The download time may vary from a few minutes to several hours.
 Windows:
  Extract all the files in the same folder and run $5
  $6
-Linux/Mac OS
+Linux/Mac OS:
  Extract all the files and open a terminal in that folder. Run sh $5',
 	'non-bundled-wget' => "Note: This version doesn't include wget for Windows. You will need to decompress
 to a folder with wget.exe or otherwise have wget in the PATH",
@@ -412,7 +412,7 @@ $messages['be-tarask'] = array(
 	'image-area-too-big' => '$1 занадта вялікая каб стварыць мініятуру. Будзе выкарыстоўвацца ў поўным памеры.',
 	'download-info' => '{{plural: $1|Ёсьць $1 выява|Ёсьць $1 выявы|Ёсьць $1 выяваў}}, з меркаваным памерам $2',
 	'download' => 'Загрузіць',
-	'readme-contents' => 'Укладзены файл $4 утрымлівае сьпісы 
+	'readme-contents' => 'Укладзены файл $4 утрымлівае сьпісы
 выяваў, якія знаходзяцца ў катэгорыях $1 ( $2 )$3.
 
 == Інструкцыі па загрузцы ўсіх файлаў са сьпісу ==
@@ -524,7 +524,7 @@ $messages['br'] = array(
 	'image-area-too-big' => 'Re vras eo $1 da grouiñ ur munud. Ober gant ar vent leun.',
 	'download-info' => '{{plural: $1|Ur skeudenn zo dezhi|$1 skeudenn zo dezho}} ar vent a $2 pe war-dro',
 	'download' => 'Pellgargañ',
-	'readme-contents' => "Renabliñ a ra ar restr $4 enframmet 
+	'readme-contents' => "Renabliñ a ra ar restr $4 enframmet
 ar skeudennoù zo er rummad $1 ( $2 )$3.
 
 == Kuzulioù evit pellgargañ an holl skeudennoù rollet ==
@@ -535,9 +535,9 @@ Windows :
  $6
 Linux/Mac OS
  Eztennañ an holl restroù ha digeriñ un dermenell er renkell-se. Lañsañ sh $5",
-	'non-bundled-wget' => "Notenn : N'eo ket skoret wget evit Windows er stumm-mañ. Ret e vo deoc'h diwaskañ 
+	'non-bundled-wget' => "Notenn : N'eo ket skoret wget evit Windows er stumm-mañ. Ret e vo deoc'h diwaskañ
 en ur c'havlec'h gant wget.exe pe neuze kaout wget er PATH",
-	'wget-info' => "Un eilskrid eus wget $1 (evit savennoù Windows) zo er restr. Ur meziant frank eo Wget, 
+	'wget-info' => "Un eilskrid eus wget $1 (evit savennoù Windows) zo er restr. Ur meziant frank eo Wget,
 dindan termenoù ar GNU GENERAL PUBLIC LICENSE stumm 3.
 Dindan ez eus un eilskrid eus an aotre-implijout a c'haller kavout ivez war http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -581,7 +581,7 @@ $messages['ca'] = array(
 El temps de descàrrega pot variar des d'uns quants minuts a unes quantes hores.
 
 Windows:
- Extreu tots els arxius a la mateixa carpeta i cursa  $5 
+ Extreu tots els arxius a la mateixa carpeta i cursa  $5
  $6
 Linux/Mac OS
  Extreu tots els arxius i obrir un terminal d'aquesta carpeta. Executar sh$5",
@@ -592,7 +592,7 @@ Linux/Mac OS
 Hi ha una còpia de la llicència sota, i també està disponible a http://www.gnu.org/licenses/gpl-3.0.txt
 
 En cas que vostè està interessat en obtenir el codi font per a aquest programa, pot descarregar des de
- http://toolserver.org/~platonides/catdown/wget-sources.php?version= $1 
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version= $1
  http://FTP.GNU.org/GNU/wget/wget- $1 . tar.xz
  FTP://FTP.GNU.org/GNU/wget/wget- $1 . tar.xz
  o alguns altres GNU mirall, veure
@@ -1230,7 +1230,7 @@ Windows:
 לינוקס/Mac OS
  יש לחלץ את כל הקבצים ולפתוח את המסוף באותה התיקייה. להריץ את הפקודה sh $5',
 	'non-bundled-wget' => 'הערה: גרסה זו אינה כוללת את wget לסביבת Windows. יהיה עליך לחלץ לתיקייה שיש בה כבר את wget.exe או שבמשתנה הסביבתי PATH שלך תהיה הכוונה למיקום של wget',
-	'wget-info' => 'קובץ זה מאגד בתוכו את wget $1 (לסביבת Windows).‏ Wget הנה תכנה חופשית, 
+	'wget-info' => 'קובץ זה מאגד בתוכו את wget $1 (לסביבת Windows).‏ Wget הנה תכנה חופשית,
 תחת תנאי הרישיון הציבורי הכללי של GNU GENERAL PUBLIC LICENSE בגרסה 3.
 יש עותק של הרישיון להלן, והוא גם זמין בכתובת http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -1348,7 +1348,7 @@ $messages['hu'] = array(
 	'image-area-too-big' => '$1 túl nagy a bélyegkép létrehozásához. A teljes kép lesz használva.',
 	'download-info' => '{{PLURAL:$1|Egy|$1}} kép, becsült összméret: $2',
 	'download' => 'Letöltés',
-	'readme-contents' => 'A mellékelt $4 fájl tartalmazz a 
+	'readme-contents' => 'A mellékelt $4 fájl tartalmazz a
 $1 kategória ( $2 )$3 képeinek listáját.
 
 == Útmutató a listázott képek letöltéséhez ==
@@ -1394,7 +1394,7 @@ $messages['ia'] = array(
 	'image-area-too-big' => '$1 es troppo grande pro crear un miniatura. Le dimension complete es usate.',
 	'download-info' => '{{plural: $1|Il ha un imagine|Il ha $1 imagines}}, con un dimension estimate de $2',
 	'download' => 'Discargar',
-	'readme-contents' => 'Le file $4 contine un lista 
+	'readme-contents' => 'Le file $4 contine un lista
 del imagines presente in le categoria $1 ( $2 )$3.
 
 == Instructiones pro discargar tote le imagines listate ==
@@ -1507,7 +1507,7 @@ le immagini nella categoria $1 ( $2 )$3.
 Il tempo di download può variare da pochi minuti a diverse ore.
 
 Windows:
- Estrai tutti i file nella stessa directory ed esegui $5 
+ Estrai tutti i file nella stessa directory ed esegui $5
  $6
 Sistemi operativi Linux/Mac
  Estrai tutti i file ed apri una finestra di terminale in quella directory. Esegui sh $5',
@@ -1663,7 +1663,7 @@ $messages['kn'] = array(
 	'image-area-too-big' => 'ಅಡಕಚಿತ್ರ ಮಾಡಲು $1 ಬಹಳ ದೊಡ್ಡದಾಗಿದೆ. ಪೂರ್ಣ ಗಾತ್ರವನ್ನು ಉಪಯೋಗಿಸಲಾಗುತ್ತದೆ.',
 	'download-info' => 'ಸುಮಾರು $2 ಗಾತ್ರ ಹೊಂದಿದ {{plural: $1|ಒಂದು ಚಿತ್ರವಿದೆ|$1 ಚಿತ್ರಗಳಿವೆ}}',
 	'download' => 'ನಕಲಿಳಿಸಿ',
-	'readme-contents' => 'ಒಳಗೊಂಡಿರುವ $4 ಕಡತವು 
+	'readme-contents' => 'ಒಳಗೊಂಡಿರುವ $4 ಕಡತವು
 $1 ವರ್ಗದ ( $2 )$3 ಚಿತ್ರಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ.
 
 == ಪಟ್ಟಿ ಮಾಡಲಾಗಿರುವ ಎಲ್ಲ ಚಿತ್ರಗಳನ್ನು ನಕಲಿಳಿಸಲು ಸೂಚನೆಗಳು ==
@@ -1677,7 +1677,7 @@ $1 ವರ್ಗದ ( $2 )$3 ಚಿತ್ರಗಳನ್ನು ಪಟ್ಟಿ �
 	'non-bundled-wget' => 'ಗಮನಿಸಿ: ಈ ಆವೃತ್ತಿಯು ವಿಂಡೋಸ್‌ಗಾಗಿ wget ಅನ್ನು ಹೊಂದಿಲ್ಲ. ನೀವು wget.exe ಹೊಂದಿರುವ ಕಡತಕೋಶಕ್ಕೆ ಹಿಗ್ಗಿಸಬೇಕು ಅಥವಾ wget ಅನ್ನು PATH ಗೆ ಸೇರಿಸಬೇಕು.',
 	'wget-info' => 'ಈ ಕಡತವು wget $1 (ವಿಂಡೋಸ್‌ಗಾಗಿ) ನಕಲನ್ನು ಹೊಂದಿದೆ. Wget ಎಂಬುದು GNU GENERAL PUBLIC LICENSEನ ೩ನೇ ಆವೃತ್ತಿಯ ನಿಬಂಧನೆಗೊಳಪಟ್ಟಿರುವ ಒಂದು ಸ್ವತಂತ್ರ ತಂತ್ರಾಂಶ. ಈ ಪರವಾನಗಿಯ ನಕಲು ಕೆಳಗಿದೆ, ಮತ್ತು ಅದು http://www.gnu.org/licenses/gpl-3.0.txt ಎಂಬಲ್ಲಿ ಕೂಡ ಲಭ್ಯವಿದೆ.
 
-ಒಂದು ವೇಳೆ ನೀವು ಈ ತಂತ್ರಾಂಶದ ಮೂಲ ಸಂಕೇತಗಳನ್ನು ಪಡೆಯಲಿಚ್ಛಿಸಿದಲ್ಲಿ ನೀವು ಅದನ್ನು 
+ಒಂದು ವೇಳೆ ನೀವು ಈ ತಂತ್ರಾಂಶದ ಮೂಲ ಸಂಕೇತಗಳನ್ನು ಪಡೆಯಲಿಚ್ಛಿಸಿದಲ್ಲಿ ನೀವು ಅದನ್ನು
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
@@ -1773,7 +1773,7 @@ Met <i lang="en">Linux</i> udder <i lang="en">Mac OS</i>:
  Alle Dateije ußpacke un e <i lang="en">Terminal</i>-Finster op maache.
  Dabb ußföhre lohße: <code>sh $5</code>',
 	'non-bundled-wget' => 'Opjepaß: En heh dä Version es <code lang="en">wget</code> fö <i lang="en">Windows</i> nit derbei. Do moß se met <code lang="en">wget.exe</code> en enem Verzischneß ußpacke udder <code lang="en">wget</code> moß övver der Paad zom Projramme Söhke jefonge wääde künne.',
-	'wget-info' => 'En dä Dattei es <code lang="en">wget</code> $1 för <i lang="en">Windows</i> met enjebonge. Wget es e frei Projramm un et es ze han onger dä Version 3 vun GNU General Public License (dä alljemeine öffentlesche Lizänz vun dä GNU) 
+	'wget-info' => 'En dä Dattei es <code lang="en">wget</code> $1 för <i lang="en">Windows</i> met enjebonge. Wget es e frei Projramm un et es ze han onger dä Version 3 vun GNU General Public License (dä alljemeine öffentlesche Lizänz vun dä GNU)
 Wigger onge kütt die Lizänz ob heh dä Sigg, ävver mer kann se och beloore op: http://www.gnu.org/licenses/gpl-3.0.txt verfügbar.
 
 Wä däm Projramm singe Quällkood krijje well, kann dä eronger laade vun ongerscheidlijje Schtälle:
@@ -1954,7 +1954,7 @@ $messages['mk'] = array(
 	'image-area-too-big' => 'Сликата $1 е преголема за да може да се минијатуризира. Ќе ја употребам полната големина.',
 	'download-info' => '{{plural: $1|Има една слика|Има $1 слики}}, со проценета големина од $2',
 	'download' => 'Преземи',
-	'readme-contents' => 'Во податотеката $4 се наведени 
+	'readme-contents' => 'Во податотеката $4 се наведени
 сликите во категоријата $1 ( $2 )$3.
 
 == Напатствија за преземање на сите наведени слики ==
@@ -1965,9 +1965,9 @@ Windows:
  $6
 Linux/Mac OS
 Отпакувајте ги сите податотеки и отворете терминал во таа папка. Пуштете ја sh $5',
-	'non-bundled-wget' => 'Напомена: Оваа верзија не содржи wget за Windows. Отпакувањето ќе треба да  
+	'non-bundled-wget' => 'Напомена: Оваа верзија не содржи wget за Windows. Отпакувањето ќе треба да
 го извршите во папка со wget.exe или веќе да имате wget во патеката',
-	'wget-info' => "Податотекава содржи примерок на wget $1 (за Windows). Wget е слободна програмска опрема, 
+	'wget-info' => "Податотекава содржи примерок на wget $1 (за Windows). Wget е слободна програмска опрема,
 и се нуди под условите на ГНУ-ОВАТА ОПШТА ЈАВНА ЛИЦЕНЦА (''GNU GENERAL PUBLIC LICENSE'') верзија 3.
 Подолу е наведен примерок на лиценцата (достапен и на http://www.gnu.org/licenses/gpl-3.0.txt)
 
@@ -2063,7 +2063,7 @@ Windows:
 Linux/Mac OS
  Ekstrakkan semua fail dan buka sebuah terminal dalam folder itu. Jalankan sh $5',
 	'non-bundled-wget' => 'Perhatian: Versi ini tidak menyertakan wget untuk Windows. Anda mungkin perlu menyahmampatkannya ke dalam folder dengan wget.exe, ataupun mempunyai wget dalam LALUAN',
-	'wget-info' => 'Fail ini memberkaskan salinan wget $1 (untuk platform Windows). Wget ialah Perisian Bebas, 
+	'wget-info' => 'Fail ini memberkaskan salinan wget $1 (untuk platform Windows). Wget ialah Perisian Bebas,
 mengikut terma-terma LESEN AWAM AM GNU versi 3.
 Di bawa adalah satu salinan lesen, dan ia juga didapati di http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -2352,7 +2352,7 @@ Linux lub Mac OS:
 	'wget-info' => 'W tym pliku znajduje się kopia programu wget $1 (dla platformy Windows). Wget jest  darmowym oprogramowaniem, dostępnym na zasadach licencji GNU GENERAL PUBLIC LICENSE w wersji 3.
 Kopia licencji dostępna jest poniżej oraz pod adresem http://www.gnu.org/licenses/gpl-3.0.txt
 
-Jeśli jesteś zainteresowany kodem źródłowym tego programu możesz pobrać go z 
+Jeśli jesteś zainteresowany kodem źródłowym tego programu możesz pobrać go z
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
@@ -2546,7 +2546,7 @@ Linux/Mac:
 	'wget-info' => "Stu file tène 'na copie de wget $1 (pe piattaforme Windows). Wget jè 'nu Softuare libbere, sotte a le termine 'a GNU GENERAL PUBLIC LICENSE versione 3.
 Stè 'na copie d'a licenze aqquà sotte, e jè pure disponibbele sus a http://www.gnu.org/licenses/gpl-3.0.txt
 
-Ce tu si inderessate a pigghià 'u codece sorgende pe stu programma, tu 'u puè scarecà da 
+Ce tu si inderessate a pigghià 'u codece sorgende pe stu programma, tu 'u puè scarecà da
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
@@ -2593,7 +2593,7 @@ Windows:
 Linux/Mac OS
  Распакуйте все файлы и откройте терминал в этой папке. Выполните команду sh $5',
 	'non-bundled-wget' => 'Обратите внимание: Эта версия не включает wget для Windows. Вам необходимо извлечь файлы в папку с wget.exe или прописать wget в PATH',
-	'wget-info' => 'Этот файл включает копию wget $1 (для платформы Windows). Wget является свободным программным обеспечением, 
+	'wget-info' => 'Этот файл включает копию wget $1 (для платформы Windows). Wget является свободным программным обеспечением,
 распространяемым на условиях лицензии GNU GENERAL PUBLIC LICENSE версии 3.
 Ниже представлена копия текста лицензии, ее также можно прочитать по адресу http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -2788,13 +2788,13 @@ $messages['sq'] = array(
 	'image-area-too-big' => '$1 është shumë i madh për të krijuar një pamje. Duke përdorur madhësinë e plotë.',
 	'download-info' => '{{plural: $1|Është një fotografi|Janë $1 fotografi}}, me një madhësi të vlerësuar prej $2',
 	'download' => 'Shkarko',
-	'readme-contents' => 'Skedari i bashkëngjitur $4 liston 
+	'readme-contents' => 'Skedari i bashkëngjitur $4 liston
 fotografitë në kategorinë $1 ($2) $3.', # Fuzzy
 	'non-bundled-wget' => 'Shënim: Ky version nuk përfshin wget për Windows. Juve do të ju duhet që të shpërndani në një follder me wget.exe ose anasjelltas, të keni wget në RRUGË',
 	'wget-info' => 'Ky skedar lidh një kopje të wget $1 (për platformën Windows). Wget është Softuer i Lirë, nën rregullat e Licencës së Përgjithshme Publike GNU versioni 3.
 Është një kopje e licencës më poshtë dhe ajo është gjithashtu në dispozicion në http://www.gnu.org/licenses/gpl-3.0.txt
 
-Në rast se jeni të interesuar që ta merrni kodin burimor për këtë program, ju mund ta shkarkoni atë nga 
+Në rast se jeni të interesuar që ta merrni kodin burimor për këtë program, ju mund ta shkarkoni atë nga
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
@@ -2838,7 +2838,7 @@ $messages['sr-ec'] = array(
 Отпакујте све датотеке и отворите терминал у тој фасцикли. Покрените sh $5',
 	'non-bundled-wget' => 'Напомена: ово издање не садржи wget за виндоус. Треба да отпакујете
 у фасциклу са wget.exe или да већ имате wget у путањи',
-	'wget-info' => 'Датотека садржи примерак wget-а $1 (виндоус). Wget је слободан програм 
+	'wget-info' => 'Датотека садржи примерак wget-а $1 (виндоус). Wget је слободан програм
 који је објављен под условима ГНУ-ОВЕ ОПШТЕ ЈАВНЕ ЛИЦЕНЦЕ 3.
 Испод се налази примерак лиценце (доступан је и на http://www.gnu.org/licenses/gpl-3.0.txt)
 
@@ -2886,7 +2886,7 @@ Linuks/Mak OS
 Otpakujte sve datoteke i otvorite terminal u toj fascikli. Pokrenite sh $5',
 	'non-bundled-wget' => 'Napomena: ovo izdanje ne sadrži wget za vindous. Treba da otpakujete
 u fasciklu sa wget.exe ili da već imate wget u putanji',
-	'wget-info' => 'Datoteka sadrži primerak wget-a $1 (vindous). Wget je slobodan program 
+	'wget-info' => 'Datoteka sadrži primerak wget-a $1 (vindous). Wget je slobodan program
 koji je objavljen pod uslovima GNU-OVE OPŠTE JAVNE LICENCE 3.
 Ispod se nalazi primerak licence (dostupan je i na http://www.gnu.org/licenses/gpl-3.0.txt)
 
@@ -2931,7 +2931,7 @@ bilderna i $1-kategorin ( $2 )$3.
 Nedladdningstiden kan variera från några minuter till flera timmar.
 
 Windows:
- Extrahera alla filer i samma mapp och kör $5 
+ Extrahera alla filer i samma mapp och kör $5
  $6
 Linux/Mac OS
  Extrahera alla filer och öppna en terminal i mappen. Kör sh $5',
@@ -3057,7 +3057,7 @@ Windows:
 Linux/Mac OS
  Hugutin ang lahat ng mga talaksan at magbukas ng isang terminal sa loob ng tiklupang iyon. Patakbuhin ang sh $5',
 	'non-bundled-wget' => 'Paunawa: Hindi kabilang sa bersiyong ito ang wget na para sa Windows. Kakailanganin mong alisin ang pagkakasiksik sa isang tiklupan sa pamamagitan ng wget.exe o kaya ay magkaroon ng wget sa loob ng PATH',
-	'wget-info' => 'Ibinubungkos ng talaksang ito ang isang kopya ng wget $1 (para sa plataporma ng Windows). Ang wget ay isang Malayang Sopwer, 
+	'wget-info' => 'Ibinubungkos ng talaksang ito ang isang kopya ng wget $1 (para sa plataporma ng Windows). Ang wget ay isang Malayang Sopwer,
 na nasa ilalim ng mga kundisyon ng ika-3 bersiyon ng GNU GENERAL PUBLIC LICENSE.
 Mayroong isang sipi ng lisensiya sa ibaba, at makukuha rin ito magmula doon sa http://www.gnu.org/licenses/gpl-3.0.txt
 
