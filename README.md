@@ -1,5 +1,8 @@
 # Toolserver Intuition [![Build Status](https://travis-ci.org/Krinkle/TsIntuition.png)](https://travis-ci.org/Krinkle/TsIntuition)
 
+## Usage
+
+To use it in a tool, read the  [Usage documentation](https://github.com/Krinkle/TsIntuition/wiki/Documentation#usage).
 
 ## Quick start
 
