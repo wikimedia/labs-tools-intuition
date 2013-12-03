@@ -9,6 +9,7 @@ $domains = array(
 	'monumentsapi' => 'Monumentsapi.i18n.php',
 	'mwsnapshots' => 'Mwsnapshots.i18n.php',
 	'orphantalk2' => 'Orphantalk2.i18n.php',
+    'pb' => 'Pb.i18n.php',
 	'recentanonymousactivity' => 'Recentanonymousactivity.i18n.php',
 	'svgtranslate' => 'Svgtranslate.i18n.php',
 	'templatecount' => 'Templatecount.i18n.php',
