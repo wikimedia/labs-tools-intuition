@@ -422,7 +422,7 @@ Windows:
  Распакаваць усе файлы ў тую ж самую папку і запусьціць $5
  $6
 Linux/Mac OS
- Распакаваць усе файлы і адкройце тэрмінал у той жа дырэкторыі. Запусьціце sh $5',
+ Распакаваць усе файлы і адкройце тэрмінал у той жа дырэкторыі. Запусьціце sh $5', # Fuzzy
 	'non-bundled-wget' => 'Заўвага: Гэтая вэрсія не ўтрымлівае wget для Windows. Вам трэба будзе распакаваць у папку з wget.exe ці трэба мець шлях да wget у PATH',
 	'wget-info' => 'Гэты файл утрымлівае копію wget $1 (для плятформы Windows). Wget — вольнае праграмнае забесьпячэньне, якое распаўсюджваецца на ўмовах ліцэнзіі GNU GENERAL PUBLIC вэрсіі 3.
 Копія ліцэнзіі знаходзіцца ніжэй, і таксама даступная на http://www.gnu.org/licenses/gpl-3.0.txt
@@ -534,7 +534,7 @@ Windows :
  Eztennañ an holl restroù en hevelep renkell ha lañsañ $5
  $6
 Linux/Mac OS
- Eztennañ an holl restroù ha digeriñ un dermenell er renkell-se. Lañsañ sh $5",
+ Eztennañ an holl restroù ha digeriñ un dermenell er renkell-se. Lañsañ sh $5", # Fuzzy
 	'non-bundled-wget' => "Notenn : N'eo ket skoret wget evit Windows er stumm-mañ. Ret e vo deoc'h diwaskañ
 en ur c'havlec'h gant wget.exe pe neuze kaout wget er PATH",
 	'wget-info' => "Un eilskrid eus wget $1 (evit savennoù Windows) zo er restr. Ur meziant frank eo Wget,
@@ -584,7 +584,7 @@ Windows:
  Extreu tots els arxius a la mateixa carpeta i cursa  $5
  $6
 Linux/Mac OS
- Extreu tots els arxius i obrir un terminal d'aquesta carpeta. Executar sh$5",
+ Extreu tots els arxius i obrir un terminal d'aquesta carpeta. Executar sh$5", # Fuzzy
 	'non-bundled-wget' => 'Nota: Aquesta versió no inclou wget per a Windows. Vostè haurà de descomprimir
  a una carpeta amb wget. exe o en cas contrari han wget en el camí',
 	'wget-info' => 'Aquest fitxer farcells una còpia de wget  $1  (per a plataforma de Windows). Wget és programari lliure
@@ -849,6 +849,22 @@ $messages['el'] = array(
 	'download' => 'Λήψη',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'wget-info' => 'This file bundles a copy of wget $1 (for Windows platform). Wget is Free Software,
+under the terms of the GNU GENERAL PUBLIC LICENCE version 3.
+There is a copy of the licence below, and it is also available at http://www.gnu.org/licenses/gpl-3.0.txt
+
+In case you are interested in getting the source code for this program, you can download it from
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+or some other GNU Mirror, see
+ http://www.gnu.org/prep/ftp.html',
+);
+
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
  * @author Objectivesea
@@ -908,7 +924,7 @@ Windows:
  Extraiga todos los archivos en la misma carpeta y ejecute $5
  $6
 Linux/Mac OS:
- Extraiga todos los archivos y abra un  terminal en esa carpeta. Ejecute $5',
+ Extraiga todos los archivos y abra un  terminal en esa carpeta. Ejecute $5', # Fuzzy
 	'non-bundled-wget' => 'Nota: Esta versión no incluye wget para Windows. Deberás descomprimir
 en una carpeta con wget.exe o de lo contrario tener wget en la RUTA',
 	'wget-info' => 'Este archivo contiene una copia de wget $1 (para la plataforma Windows). Wget es software libre,
@@ -1162,7 +1178,7 @@ O tempo de descarga pode variar duns minutos a varias horas.
 Windows:
  Extraia todos os ficheiros no mesmo cartafol e execute $5
  $6
-Linux/Mac OS
+Linux/Mac OS:
  Extraia todos os ficheiros e abra un terminal nese cartafol. Execute sh $5',
 	'non-bundled-wget' => 'Nota: Esta versión non inclúe wget para Windows. Terá que descomprimir
 nun cartafol con wget.exe ou ter wget na RUTA',
@@ -1228,7 +1244,7 @@ Windows:
  יש לחלץ את כל הקבצים לאותה התיקייה ולהריץ $5
  $6
 לינוקס/Mac OS
- יש לחלץ את כל הקבצים ולפתוח את המסוף באותה התיקייה. להריץ את הפקודה sh $5',
+ יש לחלץ את כל הקבצים ולפתוח את המסוף באותה התיקייה. להריץ את הפקודה sh $5', # Fuzzy
 	'non-bundled-wget' => 'הערה: גרסה זו אינה כוללת את wget לסביבת Windows. יהיה עליך לחלץ לתיקייה שיש בה כבר את wget.exe או שבמשתנה הסביבתי PATH שלך תהיה הכוונה למיקום של wget',
 	'wget-info' => 'קובץ זה מאגד בתוכו את wget $1 (לסביבת Windows).‏ Wget הנה תכנה חופשית,
 תחת תנאי הרישיון הציבורי הכללי של GNU GENERAL PUBLIC LICENSE בגרסה 3.
@@ -1358,7 +1374,7 @@ Windows:
  Csomagold ki az összes fájlt ugyanabba a könyvtárba és futtasd le a $5 parancsfájlt!
  $6
 Linux/Mac OS
- Csomagold ki az összes fájlt, nyissál egy terminált ablakot ebbe a könyvtárban. Futtasd le az sh $5 parancsot!',
+ Csomagold ki az összes fájlt, nyissál egy terminált ablakot ebbe a könyvtárban. Futtasd le az sh $5 parancsot!', # Fuzzy
 	'non-bundled-wget' => 'Megjegyzés: Ez a verzió nem tartalmazza a wget Windows-os verzióját. Csomagold ki a wget.exe programot az adott könyvtárba, vagy legyen wget elérhető a PATH-ben.',
 	'wget-info' => 'Egy a csomag tartalmazza a wget $1 (Windows-os verzió). Wget egy ingyenes program, a GNU GENERAL PUBLIC LICENSE version 3 alatt. Alább megtalálható a licenc egy másolata, valamint hozzáférhető a http://www.gnu.org/licenses/gpl-3.0.txt címen.
 
@@ -1404,7 +1420,7 @@ Windows:
  Extrahe tote le files in le mesme directoria e executa $5
  $6
 Linux/Mac OS
- Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5',
+ Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5', # Fuzzy
 	'non-bundled-wget' => 'Nota: Iste version non include le programma "wget" pro Windows. Es necessari, o decomprimer le files
 in un directorio que include wget.exe, o haber "wget" in le "PATH".',
 	'wget-info' => 'Iste file contine un copia de wget $1 (pro Windows). Wget es software libere,
@@ -1510,7 +1526,7 @@ Windows:
  Estrai tutti i file nella stessa directory ed esegui $5
  $6
 Sistemi operativi Linux/Mac
- Estrai tutti i file ed apri una finestra di terminale in quella directory. Esegui sh $5',
+ Estrai tutti i file ed apri una finestra di terminale in quella directory. Esegui sh $5', # Fuzzy
 	'non-bundled-wget' => 'Nota: Questa versione non comprende wget per Windows. Dovrai decomprimere
 in una directory con wget.exe o altrimenti avere wget nel PATH',
 	'wget-info' => "Questo file include una copia di wget $1 (per piattaforma Windows). Wget è Software Libero, nei
@@ -1559,7 +1575,7 @@ $messages['ja'] = array(
 Winsows:
  同じフォルダーにあるファイルをすべて展開し、$5 を実行してください
  $6
-Linux/Mac OS
+Linux/Mac OS:
  ファイルをすべて展開し、そのフォルダーで端末を開いてください。sh $5 を実行してください',
 	'non-bundled-wget' => '注: このバージョンは Windows 用の wget を含んでいません。
 wget.exe が存在するフォルダーに展開するか、wget を PATH が通ったところに置いておく必要があります。',
@@ -1673,7 +1689,7 @@ $1 ವರ್ಗದ ( $2 )$3 ಚಿತ್ರಗಳನ್ನು ಪಟ್ಟಿ �
  ಎಲ್ಲ ಕಡತಗಳನ್ನೂ ಒಂದು ಕಡತಕೋಶದಲ್ಲಿ ಹೊರತೆಗೆದು $5 ಜಾರಿಗೊಳಿಸಿ.
  $6
 ಲಿನಕ್ಸ್/ಮ್ಯಾಕ್ ಓಎಸ್
- ಎಲ್ಲ ಕಡತಗಳನ್ನೂ ಒಂದು ಕಡತಕೋಶದಲ್ಲಿ ಹೊರತೆಗೆದು ಅದೇ ಕಡತಕೋಶದಲ್ಲಿ ಒಂದು ಟರ್ಮಿನಲ್ ತೆರೆದುಕೊಳ್ಳಿ. sh $5 ಜಾರಿಗೊಳಿಸಿ.',
+ ಎಲ್ಲ ಕಡತಗಳನ್ನೂ ಒಂದು ಕಡತಕೋಶದಲ್ಲಿ ಹೊರತೆಗೆದು ಅದೇ ಕಡತಕೋಶದಲ್ಲಿ ಒಂದು ಟರ್ಮಿನಲ್ ತೆರೆದುಕೊಳ್ಳಿ. sh $5 ಜಾರಿಗೊಳಿಸಿ.', # Fuzzy
 	'non-bundled-wget' => 'ಗಮನಿಸಿ: ಈ ಆವೃತ್ತಿಯು ವಿಂಡೋಸ್‌ಗಾಗಿ wget ಅನ್ನು ಹೊಂದಿಲ್ಲ. ನೀವು wget.exe ಹೊಂದಿರುವ ಕಡತಕೋಶಕ್ಕೆ ಹಿಗ್ಗಿಸಬೇಕು ಅಥವಾ wget ಅನ್ನು PATH ಗೆ ಸೇರಿಸಬೇಕು.',
 	'wget-info' => 'ಈ ಕಡತವು wget $1 (ವಿಂಡೋಸ್‌ಗಾಗಿ) ನಕಲನ್ನು ಹೊಂದಿದೆ. Wget ಎಂಬುದು GNU GENERAL PUBLIC LICENSEನ ೩ನೇ ಆವೃತ್ತಿಯ ನಿಬಂಧನೆಗೊಳಪಟ್ಟಿರುವ ಒಂದು ಸ್ವತಂತ್ರ ತಂತ್ರಾಂಶ. ಈ ಪರವಾನಗಿಯ ನಕಲು ಕೆಳಗಿದೆ, ಮತ್ತು ಅದು http://www.gnu.org/licenses/gpl-3.0.txt ಎಂಬಲ್ಲಿ ಕೂಡ ಲಭ್ಯವಿದೆ.
 
@@ -1771,7 +1787,7 @@ Met <i lang="en">Windows</i>:
  $6
 Met <i lang="en">Linux</i> udder <i lang="en">Mac OS</i>:
  Alle Dateije ußpacke un e <i lang="en">Terminal</i>-Finster op maache.
- Dabb ußföhre lohße: <code>sh $5</code>',
+ Dabb ußföhre lohße: <code>sh $5</code>', # Fuzzy
 	'non-bundled-wget' => 'Opjepaß: En heh dä Version es <code lang="en">wget</code> fö <i lang="en">Windows</i> nit derbei. Do moß se met <code lang="en">wget.exe</code> en enem Verzischneß ußpacke udder <code lang="en">wget</code> moß övver der Paad zom Projramme Söhke jefonge wääde künne.',
 	'wget-info' => 'En dä Dattei es <code lang="en">wget</code> $1 för <i lang="en">Windows</i> met enjebonge. Wget es e frei Projramm un et es ze han onger dä Version 3 vun GNU General Public License (dä alljemeine öffentlesche Lizänz vun dä GNU)
 Wigger onge kütt die Lizänz ob heh dä Sigg, ävver mer kann se och beloore op: http://www.gnu.org/licenses/gpl-3.0.txt verfügbar.
@@ -1839,14 +1855,15 @@ $messages['lb'] = array(
 	'download' => 'Eroflueden',
 	'readme-contents' => "Am Fichier $4 stinn d'Biller déi an der Kategorie $1 dra sinn ($2) $3.
 
-== Instruktiounen fir d'Erofluede vun de Biller aus der Lëscht ==
+== Instruktioune fir d'Erofluede vun de Biller aus der Lëscht ==
 D'Zäit déi Erofluede brauch kann tëscht e puer Minutten an a puer Stonne leien.
 
 Windows:
 All Fichieren an deeselwechte Repertoire erauszéien an $5 lancéieren.
 $6
-Linux/Mac OS:
-All Fichieren entpacken an een Terminal an deem Repertoire  opmaachen. Duerno sh $5 lancéieren.",
+Linux/Mac OS
+
+All Fichieren entpacken an een Terminal an deem Repertoire opmaachen. Duerno sh $5 lancéieren.",
 	'non-bundled-wget' => "Informatioun: An dëser Versioun ass 'wget for Windows' net abegraff. Dir musst an e Repertoire mat wget.exe dekompriméieren oder wget op eng aner Manéier am 'PATH' hunn",
 	'wget-info' => 'An dësem Fichier ass eng Kopie vun Wget $1 (fir Windows). Wget ass Fräi Software no der
 Lizenz „GNU GENERAL PUBLIC LICENSE“ Versioun 3.
@@ -1963,8 +1980,8 @@ $messages['mk'] = array(
 Windows:
  Отпакувајте ги сите податотеки во иста папка и пуштете ја $5
  $6
-Linux/Mac OS
-Отпакувајте ги сите податотеки и отворете терминал во таа папка. Пуштете ја sh $5',
+Linux/Mac OS:
+Отпакувајте ги сите податотеки и отворете терминал во таа папка. Пуштете ја $5',
 	'non-bundled-wget' => 'Напомена: Оваа верзија не содржи wget за Windows. Отпакувањето ќе треба да
 го извршите во папка со wget.exe или веќе да имате wget во патеката',
 	'wget-info' => "Податотекава содржи примерок на wget $1 (за Windows). Wget е слободна програмска опрема,
@@ -2061,7 +2078,7 @@ Windows:
  Ekstrakkan semua fail dalam folder yang sama dan jalankan $5
  $6
 Linux/Mac OS
- Ekstrakkan semua fail dan buka sebuah terminal dalam folder itu. Jalankan sh $5',
+ Ekstrakkan semua fail dan buka sebuah terminal dalam folder itu. Jalankan sh $5', # Fuzzy
 	'non-bundled-wget' => 'Perhatian: Versi ini tidak menyertakan wget untuk Windows. Anda mungkin perlu menyahmampatkannya ke dalam folder dengan wget.exe, ataupun mempunyai wget dalam LALUAN',
 	'wget-info' => 'Fail ini memberkaskan salinan wget $1 (untuk platform Windows). Wget ialah Perisian Bebas,
 mengikut terma-terma LESEN AWAM AM GNU versi 3.
@@ -2347,7 +2364,7 @@ Windows:
  Rozpakuj wszystkie pliki w jednym folderze i uruchom $5
  $6
 Linux lub Mac OS:
- Rozpakuj wszystkie pliki, a następnie otwórz terminal w tym folderze. Uruchom sh $5',
+ Rozpakuj wszystkie pliki, a następnie otwórz terminal w tym folderze. Uruchom sh $5', # Fuzzy
 	'non-bundled-wget' => 'Uwaga – ta wersja nie zawiera wget dla systemu Windows. Będziesz musiał rozpakować archiwum do folderu z programem wget.exe lub musisz mieć ten program na ścieżce wpisanej w PATH.',
 	'wget-info' => 'W tym pliku znajduje się kopia programu wget $1 (dla platformy Windows). Wget jest  darmowym oprogramowaniem, dostępnym na zasadach licencji GNU GENERAL PUBLIC LICENSE w wersji 3.
 Kopia licencji dostępna jest poniżej oraz pod adresem http://www.gnu.org/licenses/gpl-3.0.txt
@@ -2437,6 +2454,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Luckas
  * @author Luckas Blade
  * @author TheGabrielZaum
@@ -2468,7 +2486,7 @@ Windows:
 Extraia todos os arquivos na mesma pasta e execute $5
 $6
 
-Linux/Mac OS
+Linux/Mac OS:
 Extraia todos os arquivos e abra um terminal nessa pasta. Execute sh $5',
 	'non-bundled-wget' => 'Nota: Esta versão não inclui wget para Windows. Você deverá extrair em uma pasta com o wget.exe ou senão ter wget na  ROTA.',
 	'wget-info' => 'Este arquivo contém uma cópia de wget $1 (para a plataforma Windows). Wget é um Software Gratuito,
@@ -2541,7 +2559,7 @@ Windows:
  Estraje tutte le file jndr'à stessa cartelle e lange $5
  $6
 Linux/Mac:
- Estraje tutte le file e iapre 'nu terminale jndr'à quedda cartelle. Lange sh $5",
+ Estraje tutte le file e iapre 'nu terminale jndr'à quedda cartelle. Lange sh $5", # Fuzzy
 	'non-bundled-wget' => "Note: Sta versione non ge 'nglude wget pe Windows. Tu puè avè abbesogne de decomprimere jndr'à 'na cartelle cu wget.exe oppure è wget jndr'à 'u PATH",
 	'wget-info' => "Stu file tène 'na copie de wget $1 (pe piattaforme Windows). Wget jè 'nu Softuare libbere, sotte a le termine 'a GNU GENERAL PUBLIC LICENSE versione 3.
 Stè 'na copie d'a licenze aqquà sotte, e jè pure disponibbele sus a http://www.gnu.org/licenses/gpl-3.0.txt
@@ -2563,6 +2581,7 @@ o pe otre Copie de GNU, 'ndruche
  * @author DCamer
  * @author Eleferen
  * @author Haffman
+ * @author Okras
  */
 $messages['ru'] = array(
 	'title' => 'Загрузка изображений по категориям',
@@ -2590,7 +2609,7 @@ $messages['ru'] = array(
 Windows:
  Распакуйте все файлы в одну папку и запустите $5
  $6
-Linux/Mac OS
+Linux/Mac OS:
  Распакуйте все файлы и откройте терминал в этой папке. Выполните команду sh $5',
 	'non-bundled-wget' => 'Обратите внимание: Эта версия не включает wget для Windows. Вам необходимо извлечь файлы в папку с wget.exe или прописать wget в PATH',
 	'wget-info' => 'Этот файл включает копию wget $1 (для платформы Windows). Wget является свободным программным обеспечением,
@@ -2835,7 +2854,7 @@ $messages['sr-ec'] = array(
  Отпакујте све датотеке у исту фасциклу и покрените $5
  $6
 Линукс/Мак ОС
-Отпакујте све датотеке и отворите терминал у тој фасцикли. Покрените sh $5',
+Отпакујте све датотеке и отворите терминал у тој фасцикли. Покрените sh $5', # Fuzzy
 	'non-bundled-wget' => 'Напомена: ово издање не садржи wget за виндоус. Треба да отпакујете
 у фасциклу са wget.exe или да већ имате wget у путањи',
 	'wget-info' => 'Датотека садржи примерак wget-а $1 (виндоус). Wget је слободан програм
@@ -2883,7 +2902,7 @@ Vindous:
  Otpakujte sve datoteke u istu fasciklu i pokrenite $5
  $6
 Linuks/Mak OS
-Otpakujte sve datoteke i otvorite terminal u toj fascikli. Pokrenite sh $5',
+Otpakujte sve datoteke i otvorite terminal u toj fascikli. Pokrenite sh $5', # Fuzzy
 	'non-bundled-wget' => 'Napomena: ovo izdanje ne sadrži wget za vindous. Treba da otpakujete
 u fasciklu sa wget.exe ili da već imate wget u putanji',
 	'wget-info' => 'Datoteka sadrži primerak wget-a $1 (vindous). Wget je slobodan program
@@ -2934,7 +2953,7 @@ Windows:
  Extrahera alla filer i samma mapp och kör $5
  $6
 Linux/Mac OS
- Extrahera alla filer och öppna en terminal i mappen. Kör sh $5',
+ Extrahera alla filer och öppna en terminal i mappen. Kör sh $5', # Fuzzy
 	'non-bundled-wget' => 'OBS: Denna version inkluderar inte wget för Windows. Du måste expandera
 till en mapp med wget.exe eller ha wget i PATH',
 	'wget-info' => 'Denna fil buntar en kopia av wget $1 (för Windows-plattformen). Wget är fri programvara,
@@ -3055,7 +3074,7 @@ Windows:
  Hugutin ang lahat ng mga talaksan sa loob ng iisang tiklupan at patakbuhin ang $5
  $6
 Linux/Mac OS
- Hugutin ang lahat ng mga talaksan at magbukas ng isang terminal sa loob ng tiklupang iyon. Patakbuhin ang sh $5',
+ Hugutin ang lahat ng mga talaksan at magbukas ng isang terminal sa loob ng tiklupang iyon. Patakbuhin ang sh $5', # Fuzzy
 	'non-bundled-wget' => 'Paunawa: Hindi kabilang sa bersiyong ito ang wget na para sa Windows. Kakailanganin mong alisin ang pagkakasiksik sa isang tiklupan sa pamamagitan ng wget.exe o kaya ay magkaroon ng wget sa loob ng PATH',
 	'wget-info' => 'Ibinubungkos ng talaksang ito ang isang kopya ng wget $1 (para sa plataporma ng Windows). Ang wget ay isang Malayang Sopwer,
 na nasa ilalim ng mga kundisyon ng ika-3 bersiyon ng GNU GENERAL PUBLIC LICENSE.

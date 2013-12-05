@@ -825,6 +825,7 @@ $messages['el'] = array(
  * @author Shirayuki
  */
 $messages['en-gb'] = array(
+	'description-license' => 'Select description and licence',
 	'finalise' => 'Finalise details',
 );
 

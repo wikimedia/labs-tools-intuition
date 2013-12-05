@@ -218,6 +218,7 @@ $messages['bg'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -229,15 +230,18 @@ $messages['br'] = array(
 	'cvn-reason-empty' => "N'eus bet kavet abeg ebet",
 	'documentation' => 'Teuliadur',
 	'filter' => 'Sil',
-	'helpicon-tooltip' => "Klikañ amañ evit kaout muioc'h a ditouroù",
+	'helpicon-tooltip' => "Klikañ amañ evit kaout muioc'h a ditouroù", # Fuzzy
 	'lastupdate-cvn' => 'Hizivadenn ziwezhañ : $1',
 	'lastupdate-rc' => 'Hizivadenn ziwezhañ : $1',
 	'limit' => 'Bevenn',
 	'months' => "Genver, C'hwevrer, Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu",
 	'namespace' => 'Esaouenn anv',
+	'order' => 'Urzh',
+	'select-placeholder-none' => '(hini ebet)',
 	'showAnonOnly' => 'Dizanv hepken',
 	'time-from' => 'Eus',
 	'time-untill' => 'Betek',
+	'type' => 'Seurt',
 	'typeEdit' => 'Kemmoù',
 	'typeNew' => 'Pajennoù nevez',
 	'userfilter' => 'Sil implijer',
@@ -353,6 +357,49 @@ $messages['diq'] = array(
 	'userfilter' => 'Filtreya karberi',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'title' => 'Nejnowše změny (napšawdnu cas)',
+	'apply' => 'Nałožyś',
+	'asc' => 'Stup.',
+	'changelog' => 'Co jo nowe?',
+	'clear' => 'wuprozniś',
+	'currentedit' => 'Tuchylu wubrana změna',
+	'cvn-adder' => 'Wužywaŕ',
+	'cvn-adder-empty' => 'Njeznaty',
+	'cvn-reason' => 'Pśicyna',
+	'cvn-reason-empty' => 'Źedna pśicyna namakana',
+	'desc' => 'Wóst.',
+	'documentation' => 'Dokumentacija',
+	'filter' => 'Filter',
+	'helpicon-tooltip' => 'Wěcej wó toś tej funkciji zgóniś',
+	'lastupdate-cvn' => 'Slědna aktualizacija: $1',
+	'lastupdate-rc' => 'Slědna aktualizacija: $1',
+	'limit' => 'Limit',
+	'masspatrol-requires-userfilter' => 'MassPatrol jo se znjemóžnił a trjeba wužywarski filter a žeden njejo se nastajił.',
+	'months' => 'januar, februar, měrc, apryl, maj, junij, julij, awgust, september, oktober, nowember, december',
+	'mypatrollog' => 'mój protokol doglědowanja',
+	'namespace' => 'Mjenjowy rum',
+	'navtoggle-tooltip' => 'Bócnicu pśešaltowaś',
+	'nomatches' => 'Žedne relewantne změny za twóje nastajenja',
+	'order' => 'Pórěd',
+	'permalink' => 'Trajny wótkaz k aktualnym nastajenjam',
+	'select-placeholder-none' => '(žeden)',
+	'showAnonOnly' => 'Jano anonymne',
+	'showUnpatrolledOnly' => 'Jano njedoglědowane',
+	'skippededit' => 'Pśeskócona změna',
+	'tag' => 'Toflicka',
+	'time-from' => 'Wót',
+	'time-untill' => 'Až do',
+	'timeframe' => 'Casowy wobłuk',
+	'type' => 'Typ',
+	'typeEdit' => 'Změny',
+	'typeNew' => 'Nowe boki',
+	'userfilter' => 'Wužywarski filter',
+);
+
 /** Greek (Ελληνικά)
  * @author Astralnet
  * @author Evropi
@@ -406,6 +453,13 @@ $messages['es'] = array(
 	'typeEdit' => 'Ediciones',
 	'typeNew' => 'Páginas nuevas',
 	'userfilter' => 'Filtro de usuario',
+);
+
+/** Finnish (suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'cvn-reason' => 'Syy',
 );
 
 /** French (français)
@@ -468,7 +522,7 @@ $messages['gl'] = array(
 	'desc' => 'Descendente',
 	'documentation' => 'Documentación',
 	'filter' => 'Filtro',
-	'helpicon-tooltip' => 'Prema aquí para obter máis información',
+	'helpicon-tooltip' => 'Máis información sobre esta característica',
 	'lastupdate-cvn' => 'Última actualización: $1',
 	'lastupdate-rc' => 'Última actualización: $1',
 	'limit' => 'Límite',
@@ -517,6 +571,49 @@ $messages['gu'] = array(
  */
 $messages['he'] = array(
 	'showAnonOnly' => 'משתמשים אנונימיים בלבד',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'title' => 'Najnowše změny (woprawdźity čas)',
+	'apply' => 'Nałožić',
+	'asc' => 'Post.',
+	'changelog' => 'Što je nowe?',
+	'clear' => 'wuprózdnić',
+	'currentedit' => 'Tuchwilu wubrana změna',
+	'cvn-adder' => 'Wužiwar',
+	'cvn-adder-empty' => 'Njeznaty',
+	'cvn-reason' => 'Přičina',
+	'cvn-reason-empty' => 'Žana přičina namakana',
+	'desc' => 'Tačałka',
+	'documentation' => 'Dokumentacija',
+	'filter' => 'Filter',
+	'helpicon-tooltip' => 'Wjace wo tutej funkciji zhonić',
+	'lastupdate-cvn' => 'Poslednja aktualizacija: $1',
+	'lastupdate-rc' => 'Poslednja aktualizacija: $1',
+	'limit' => 'Limit',
+	'masspatrol-requires-userfilter' => 'MassPatrol je so znjemóžnił a trjeba wužiwarski filter a žadyn njeje so nastajił.',
+	'months' => 'januar, februar, měrc, apryl, meja, junij, julij, awgust, september, oktober, nowember, december',
+	'mypatrollog' => 'mój protokol dohladowanja',
+	'namespace' => 'Mjenowy rum',
+	'navtoggle-tooltip' => 'Bóčnicu přešaltować',
+	'nomatches' => 'Žane relewantne změny za twoje nastajenja',
+	'order' => 'Porjad',
+	'permalink' => 'Trajny wotkaz k aktualnym nastajenjam',
+	'select-placeholder-none' => '(žadyn)',
+	'showAnonOnly' => 'Jenož anonymne',
+	'showUnpatrolledOnly' => 'Jenož njedohladowane',
+	'skippededit' => 'Přeskočena změna',
+	'tag' => 'Značka',
+	'time-from' => 'Wot',
+	'time-untill' => 'Hač do',
+	'timeframe' => 'Časowy wobłuk',
+	'type' => 'Typ',
+	'typeEdit' => 'Změny',
+	'typeNew' => 'Nowe strony',
+	'userfilter' => 'Wužiwarski filter',
 );
 
 /** Interlingua (interlingua)
@@ -775,7 +872,7 @@ $messages['mk'] = array(
 	'desc' => 'Над',
 	'documentation' => 'Документација',
 	'filter' => 'Филтер',
-	'helpicon-tooltip' => 'Повеќе информации',
+	'helpicon-tooltip' => 'Повеќе за функцијава',
 	'lastupdate-cvn' => 'Последна измена: $1',
 	'lastupdate-rc' => 'Последна измена: $1',
 	'limit' => 'Граница',
@@ -1016,6 +1113,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Helder.wiki
  * @author Titoncio
  */
@@ -1033,7 +1131,7 @@ $messages['pt-br'] = array(
 	'desc' => 'Desc',
 	'documentation' => 'Documentação',
 	'filter' => 'Filtro',
-	'helpicon-tooltip' => 'Clique aqui para maiores informações',
+	'helpicon-tooltip' => 'Mais informação sobre este recurso',
 	'lastupdate-cvn' => 'Última atualização: $1',
 	'lastupdate-rc' => 'Última atualização: $1',
 	'limit' => 'Limite',
@@ -1041,12 +1139,15 @@ $messages['pt-br'] = array(
 	'months' => 'janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro',
 	'mypatrollog' => 'registro dos meus patrulhamentos',
 	'namespace' => 'Domínio',
+	'navtoggle-tooltip' => 'Ativar ou desativar a barra lateral',
 	'nomatches' => 'Nenhuma mudança recente corresponde às suas configurações',
 	'order' => 'Ordem',
 	'permalink' => 'Link permanente para as configurações atuais',
+	'select-placeholder-none' => '(nenhum)',
 	'showAnonOnly' => 'Apenas edições de anônimos',
 	'showUnpatrolledOnly' => 'Apenas não patrulhadas',
 	'skippededit' => 'Edição pulada',
+	'tag' => 'Etiqueta',
 	'time-from' => 'De',
 	'time-untill' => 'Até',
 	'timeframe' => 'Intervalo de tempo',
@@ -1073,7 +1174,7 @@ $messages['ro'] = array(
 	'desc' => 'Desc.',
 	'documentation' => 'Documentație',
 	'filter' => 'Filtru',
-	'helpicon-tooltip' => 'Faceți clic aici pentru mai multe informații',
+	'helpicon-tooltip' => 'Aflați mai multe despre această funcție',
 	'lastupdate-cvn' => 'Ultima actualizare: $1',
 	'lastupdate-rc' => 'Ultima actualizare: $1',
 	'limit' => 'Limită',
@@ -1116,7 +1217,7 @@ $messages['ru'] = array(
 	'desc' => 'По убыванию',
 	'documentation' => 'Документация',
 	'filter' => 'Фильтр',
-	'helpicon-tooltip' => 'Нажмите здесь для получения дополнительной информации',
+	'helpicon-tooltip' => 'Подробнее об этой функции',
 	'lastupdate-cvn' => 'Последнее обновление: $1',
 	'lastupdate-rc' => 'Последнее обновление: $1',
 	'limit' => 'Ограничение',

@@ -591,6 +591,7 @@ $messages['diq'] = array(
 $messages['dsb'] = array(
 	'hello' => 'Halo',
 	'welcome' => 'Witaj',
+	'toolversion' => 'Wersija $1',
 	'toolversionstamp' => 'Wersija $1 ($2)',
 	'etc' => 'atd.',
 	'namespace' => 'Mjenjowy rum',
@@ -759,6 +760,7 @@ $messages['fa'] = array(
 $messages['fi'] = array(
 	'hello' => 'Moikka',
 	'welcome' => 'Tervetuloa',
+	'toolversion' => 'Versio $1',
 	'toolversionstamp' => 'Versio $1 ($2)',
 	'etc' => 'jne.',
 	'namespace' => 'Nimiavaruus',
@@ -864,6 +866,7 @@ $messages['gl'] = array(
 	'dateformat' => '%e de %B de %Y',
 	'hello' => 'Ola',
 	'welcome' => 'Benvido',
+	'toolversion' => 'Versión $1',
 	'toolversionstamp' => 'Versión $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espazo de nomes',
@@ -966,6 +969,7 @@ $messages['hr'] = array(
 $messages['hsb'] = array(
 	'hello' => 'Halo',
 	'welcome' => 'Witaj',
+	'toolversion' => 'Wersija $1',
 	'toolversionstamp' => 'Wersija $1 ($2)',
 	'etc' => 'atd.',
 	'namespace' => 'Mjenowy rum',
@@ -1875,6 +1879,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Fúlvio
  * @author Giro720
  * @author Gusta
@@ -1883,6 +1888,7 @@ $messages['pt'] = array(
 $messages['pt-br'] = array(
 	'hello' => 'Olá',
 	'welcome' => 'Bem-vindo',
+	'toolversion' => 'Versão $1',
 	'toolversionstamp' => 'Versão $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espaço nominal',
@@ -1906,6 +1912,7 @@ $messages['pt-br'] = array(
 $messages['ro'] = array(
 	'hello' => 'Bună',
 	'welcome' => 'Bun venit',
+	'toolversion' => 'Versiunea $1',
 	'toolversionstamp' => 'Versiunea $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Spațiu de nume',

@@ -1062,7 +1062,7 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'fullname' => 'Přełožki za wužiwarski powjerch Toolserver', # Fuzzy
+	'fullname' => 'Přełožki za nastroje',
 	'current-settings' => 'Aktualne nstajenja',
 	'current-language' => 'Tuchwilu wubrana rěč',
 	'settings-legend' => 'Nastajenja',
@@ -1080,9 +1080,9 @@ $messages['hsb'] = array(
 	'bl-mysettings-new' => 'Změń rěč!',
 	'bl-promo' => 'Přełožki so wot $1 a $2 zmóžnjeja.',
 	'bl-changelanguage' => 'Klikń tu, zo by rěč wužiwarskeho powjercha tutoho nastroja změnił.',
-	'usage' => 'Nastroje su so wot Toolserver Intuition přełožili.', # Fuzzy
+	'usage' => 'Nastroje su so wot Intuition přełožili.',
 	'help-translate-tool' => 'Pomhaj tutón nastroj přełožić!',
-	'help-translate-all' => 'Pomhaj Toolserver přełožić!', # Fuzzy
+	'help-translate-all' => 'Pomhaj nastroje přełožić!',
 	'help-translate-tooltip' => 'Pomhaj druhim ludźom přełožujo zdźělenki wužiwarskeho powjercha do swojeje rěče.',
 );
 
