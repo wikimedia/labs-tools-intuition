@@ -22,7 +22,9 @@ if ( !is_readable( $dir ) ) {
 }
 $files = scandir( $dir );
 
-$output = fopen( __DIR__ . '/getFallbacks.out', 'w' );
+$fhOutput = fopen( __DIR__ . '/getFallbacks.out', 'w' );
+
+$data = array();
 
 $reg = "@fallback \\= \\'(.*?)\\'\\;@i";
 
@@ -39,11 +41,27 @@ foreach ( $files as $file ) {
 		exit( 'Error: ' . $file );
 	}
 
-	if ( preg_match( $reg, $content, $match ) ) {
-		$fallback_lang = $match[1];
+	if ( preg_match( $reg, $content, $content_match ) ) {
+		$fallback = $content_match[1];
+		$fallbacks = array_map( 'trim', explode( ',', $fallback ) );
+
 		preg_match( '@Messages(.*?)\\.php@', $file, $file_match );
-		$source_lang = $file_match[1];
-		$source_lang = strtolower( $source_lang );
-		fwrite( $output, "\t'" . $source_lang . "' => '" . $fallback_lang . "',\n" );
+		$source = str_replace( '_', '-', strtolower( $file_match[1] ) );
+
+		$data[ $source ] = count( $fallbacks ) > 1 ? $fallbacks : $fallbacks[0];
 	}
 }
+
+$output = var_export( $data, true );
+// var_export adds trailing whitespace (https://bugs.php.net/60050)
+$output = preg_replace( '/\s+$/m', '', $output );
+// var_export adds numbered keys even for straight numberical arrays
+$output = preg_replace( '/\d+ => /m', '', $output );
+// Clean up whitespacing
+$output = str_replace(
+	array( 'array (', "\n  array(", '  ' ),
+	array( 'array(', ' array(', "\t" ),
+	$output
+);
+
+fwrite( $fhOutput, '$fallbacks = ' . $output . ';' . "\n" );

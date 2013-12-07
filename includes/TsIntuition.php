@@ -34,59 +34,59 @@ class TsIntuition {
 	public $dashboardHome = '//toolserver.org/~intuition/';
 
 	// Construct options
-	private $currentTextdomain;
+	protected $currentTextdomain;
 
-	private $currentLanguage;
+	protected $currentLanguage;
 
-	private $suppressfatal;
+	protected $suppressfatal;
 
-	private $suppressnotice;
+	protected $suppressnotice;
 
-	private $suppressbrackets;
+	protected $suppressbrackets;
 
-	private $stayalive;
+	protected $stayalive;
 
-	private $useRequestParam;
+	protected $useRequestParam;
 
 	// Changing this will invalidate all cookies
-	private $cookieNames = array(
+	protected $cookieNames = array(
 		'userlang' => 'TsIntuition_userlang',
 		'track-expire' => 'TsIntuition_expiry'
 	);
 
 	// Changing this will break existing permalinks
-	private $paramNames = array( 'userlang' => 'userlang' );
+	protected $paramNames = array( 'userlang' => 'userlang' );
 
 	// Here everything will be stored as arrays in arrays
 	// Such as: $messageBlob['Textdomain']['langcode']['messagename'] = 'Message string';
-	private $messageBlob = array();
+	protected $messageBlob = array();
 
 	// All loaded text domains and (if available) their information (such as url) in an array
 	// $loadedTextdomains['general'] = array( ... );
-	private $loadedTextdomains = array();
+	protected $loadedTextdomains = array();
 
 	// Fallbacks are stored as an array of language codes
 	// with their fallback as value
-	// Such as Low German falling back to German: langFallbacks['nds'] = 'de';
-	private $langFallbacks = null;
+	// Such as Low German falling back to German: langFallbacks['nds'] = array( 'de' );
+	protected $langFallbacks = null;
 
 	// Language names are stored as an array of language codes
 	// with their native name as value
 	// Such as as for Spanish: langNames['es'] = 'Español';
-	private $langNames = null;
+	protected $langNames = null;
 
 	// This array keeps track of which languages are available in atleast one textdomain
 	// $languages['en'] = true;
-	private $availableLanguages = array();
+	protected $availableLanguages = array();
 
 	// These variable names will be extracted from the message files
-	private $includeVariables = array( 'messages', 'url' );
+	protected $includeVariables = array( 'messages', 'url' );
 
 	// Redirect address and status
-	private $redirectTo = null;
+	protected $redirectTo = null;
 
 	// Instance of MessagesFunctions
-	private $messagesFunctions = null;
+	protected $messagesFunctions = null;
 
 	/* Init
 	 * ------------------------------------------------- */
@@ -342,7 +342,7 @@ class TsIntuition {
 	 *
 	 * @return object Instance of MessagesFunction
 	 */
-	private function getMessagesFunctions() {
+	protected function getMessagesFunctions() {
 		if ( $this->messagesFunctions == null ) {
 			require_once $this->localBaseDir . '/language/MessagesFunctions.php';
 			$this->messagesFunctions = MessagesFunctions::getInstance( $this->localBaseDir, $this );
@@ -478,7 +478,7 @@ class TsIntuition {
 	 * @return string value or null.
 	 */
 	public function rawMsg( $domain, $lang, $key ) {
-		// Use fallback if this message doesn't exist in the current language
+		// Uses fallback if this message doesn't exist in the current language
 		$lang = $this->getLangForTextdomain( $lang, $domain, $key );
 
 		return $this->accessBlob( $domain, $lang, $key );
@@ -492,7 +492,7 @@ class TsIntuition {
 	 * @param $key
 	 * @return string value or null.
 	 */
-	private function accessBlob( $domain, $lang, $key ) {
+	protected function accessBlob( $domain, $lang, $key ) {
 		if ( isset( $this->messageBlob[$domain][$lang][$key] ) ) {
 			return $this->messageBlob[$domain][$lang][$key];
 		} else {
@@ -587,7 +587,7 @@ class TsIntuition {
 	 * @param $key string Key of the wanted message
 	 * @return string Language code
 	 */
-	private function getLangForTextdomain( $lang, $domain, $key ) {
+	protected function getLangForTextdomain( $lang, $domain, $key ) {
 		$msgDomain = $this->messageBlob[$domain];
 
 		// If it's available, just use it
@@ -596,31 +596,36 @@ class TsIntuition {
 		}
 
 		// Otherwise use the fallback
-		$lang = $this->getLangFallback( $lang );
-		if ( isset( $msgDomain[$lang] ) && isset( $msgDomain[$lang][$key] ) ) {
-			return $lang;
+		$langs = $this->getLangFallbacks( $lang );
+		foreach ( $langs as $lang ) {
+			if ( isset( $msgDomain[$lang] ) && isset( $msgDomain[$lang][$key] ) ) {
+				return $lang;
+			}
 		}
 
-		// Otherwise use the fallback's fallback
-		$lang = $this->getLangFallback( $lang );
-		if ( isset( $msgDomain[$lang] ) && isset( $msgDomain[$lang][$key] ) ) {
-			return $lang;
-		}
-
-		// Otherwise default to English
 		return 'en';
 	}
 
 	/**
-	 * Return the fallback language for the given language (if available)
-	 * returns 'en' otherwise.
+	 * Return the fallback language for a given language.
 	 *
-	 * @param $lang string Language code of language to get fallback for.
-	 * @return string
+	 * @deprecated Use #getLangFallbacks instead
+	 * @param $lang string Language code
+	 * @return string Language code
 	 */
 	public function getLangFallback( $lang ) {
+		$fallbacks = $this->getLangFallbacks( $lang );
+		return $fallbacks[0];
+	}
 
-		return isset( $this->langFallbacks[$lang] ) ? $this->langFallbacks[$lang] : 'en';
+	/**
+	 * Return the fallback chain for a given language.
+	 *
+	 * @param $lang string Language code
+	 * @return string[] List of one or more language codes
+	 */
+	public function getLangFallbacks( $lang ) {
+		return isset( $this->langFallbacks[$lang] ) ? $this->langFallbacks[$lang] : array( 'en' );
 	}
 
 	/**
@@ -746,7 +751,7 @@ class TsIntuition {
 	/**
 	 * @DOCME:
 	 */
-	private function parseTextdomain( $data, $domain, $filePath ) {
+	protected function parseTextdomain( $data, $domain, $filePath ) {
 		if ( !is_array( $data ) ) {
 			$this->errTrigger( 'Invalid $data passed to ' . __FUNCTION__, __METHOD__, E_ERROR,
 				__FILE__, __LINE__
@@ -834,7 +839,7 @@ class TsIntuition {
 	 * Browsers don't send the expiration date of cookies with the request
 	 * In order to keep track of the expiration date, we set an additional cookie.
 	 */
-	private function setExpiryTrackerCookie( $lifetime ) {
+	protected function setExpiryTrackerCookie( $lifetime ) {
 		$val = time() + $lifetime;
 		$this->setCookie( 'track-expire', $val, $lifetime, TSINT_COOKIE_NOTRACK );
 		return true;
@@ -928,11 +933,9 @@ class TsIntuition {
 	/**
 	 * Load domains
 	 *
-	 * @private
-	 *
 	 * @return true
 	 */
-	private function loadDomainRegistry() {
+	protected function loadDomainRegistry() {
 
 		// Don't load twice
 		if ( is_array( $this->registeredTextdomains ) ) {
@@ -957,11 +960,9 @@ class TsIntuition {
 	/**
 	 * Load fallbacks
 	 *
-	 * @private
-	 *
 	 * @return true
 	 */
-	private function loadFallbacks() {
+	protected function loadFallbacks() {
 
 		// Don't load twice
 		if ( is_array( $this->langFallbacks ) ) {
@@ -974,9 +975,16 @@ class TsIntuition {
 			return false;
 		}
 
-		// Load it
 		$fallbacks = array();
 		include $path;
+
+		// Expand single-fallback strings into arrays for a consistent interface
+		foreach ( $fallbacks as $lang => $list ) {
+			if ( !is_array( $list ) ) {
+				$fallbacks[ $lang ] = array( $list );
+			}
+		}
+
 		$this->langFallbacks = $fallbacks;
 
 		return true;
@@ -985,11 +993,9 @@ class TsIntuition {
 	/**
 	 * Load names
 	 *
-	 * @private
-	 *
 	 * @return true
 	 */
-	private function loadNames() {
+	protected function loadNames() {
 
 		// Don't load twice
 		if ( is_array( $this->langNames ) ) {
@@ -1278,11 +1284,9 @@ class TsIntuition {
 	 * Accept-Language preferences.
 	 * - Sixth: English (default stays)
 	 *
-	 * @private
-	 *
 	 * @return true
 	 */
-	private function initLangSelect( $option ) {
+	protected function initLangSelect( $option ) {
 		$set = false;
 
 		if ( isset( $option ) && !empty( $option ) ) {
@@ -1418,7 +1422,7 @@ class TsIntuition {
 		return true;
 	}
 
-	private function errMsg( $msg, $context ) {
+	protected function errMsg( $msg, $context ) {
 		return "[$context] $msg";
 	}
 

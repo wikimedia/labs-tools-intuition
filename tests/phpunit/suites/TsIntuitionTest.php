@@ -1,4 +1,30 @@
 <?php
+
+// @codingStandardsIgnoreStart
+class TestTsIntuition extends TsIntuition {
+// @codingStandardsIgnoreEnd
+
+	// Stub this method. The test asserts that working with these
+	// type of fallbacks works, we don't want the tests to rely
+	// on the actual fallback data.
+	protected function loadFallbacks() {
+		$this->langFallbacks = array(
+			'de_formal' => array(
+				'de',
+			),
+			'cdo' => array(
+				'nan',
+				'zh-hant',
+			),
+			'gan' => array(
+				'gan-hant',
+				'zh-hant',
+				'zh-hans',
+			),
+		);
+	}
+}
+
 class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 
 	private $i18n;
@@ -6,7 +32,13 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 	protected function setUp() {
 		parent::setUp();
 
-		$this->i18n = new TsIntuition( 'general' );
+		$intuition = new TestTsIntuition( 'general' );
+		$intuition->setMsg( 'test-value', 'en value', 'test-domain', 'en' );
+		$intuition->setMsg( 'test-value', 'de value', 'test-domain', 'de' );
+		$intuition->setMsg( 'test-value', 'nan value', 'test-domain', 'nan' );
+		$intuition->setMsg( 'test-value', 'zh-hans value', 'test-domain', 'zh-hans' );
+
+		$this->i18n = $intuition;
 	}
 
 	protected function tearDown() {
@@ -140,6 +172,38 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(
 			'English',
 			$this->i18n->getLangName( 'en' )
+		);
+	}
+
+	public function testFallback() {
+		$this->assertEquals(
+			'en value',
+			$this->i18n->rawMsg( 'test-domain', 'en', 'test-value' ),
+			'Default'
+		);
+
+		$this->assertEquals(
+			'en value',
+			$this->i18n->rawMsg( 'test-domain', 'nl', 'test-value' ),
+			'Default for language without fallback'
+		);
+
+		// Language with 1 fallback
+		$this->assertEquals(
+			'de value',
+			$this->i18n->rawMsg( 'test-domain', 'de_formal', 'test-value' )
+		);
+
+		// Language with 2 fallbacks (first)
+		$this->assertEquals(
+			'nan value',
+			$this->i18n->rawMsg( 'test-domain', 'cdo', 'test-value' )
+		);
+
+		// Language with 3 fallbacks (third)
+		$this->assertEquals(
+			'zh-hans value',
+			$this->i18n->rawMsg( 'test-domain', 'gan', 'test-value' )
 		);
 	}
 }
