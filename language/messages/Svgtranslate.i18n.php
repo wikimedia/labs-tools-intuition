@@ -573,6 +573,7 @@ $messages['ce'] = array(
 	'th-translation' => 'Гоч',
 	'th-language' => 'Мотт',
 	'th-username' => 'Декъашхочун цӀе',
+	'preview' => 'Хьалха муха ю хьажа',
 );
 
 /** Sorani Kurdish (کوردی)

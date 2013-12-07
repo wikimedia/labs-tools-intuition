@@ -425,6 +425,7 @@ $messages['cv'] = array(
  * @author Tjernobyl
  */
 $messages['da'] = array(
+	'title' => 'OrphanTalk2',
 	'select-wiki-first' => '(vælg en wiki først)',
 	'hideredirects' => 'Skjul omdirigeringer',
 	'hidesubpages' => 'Skjul undersider',

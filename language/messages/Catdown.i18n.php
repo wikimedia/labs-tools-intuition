@@ -1495,6 +1495,7 @@ $messages['ig'] = array(
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author Gianfranco
  * @author ZioNicco
  */
@@ -1525,8 +1526,8 @@ Il tempo di download può variare da pochi minuti a diverse ore.
 Windows:
  Estrai tutti i file nella stessa directory ed esegui $5
  $6
-Sistemi operativi Linux/Mac
- Estrai tutti i file ed apri una finestra di terminale in quella directory. Esegui sh $5', # Fuzzy
+Sistemi operativi Linux/Mac:
+ Estrai tutti i file ed apri una finestra di terminale in quella directory. Esegui sh $5',
 	'non-bundled-wget' => 'Nota: Questa versione non comprende wget per Windows. Dovrai decomprimere
 in una directory con wget.exe o altrimenti avere wget nel PATH',
 	'wget-info' => "Questo file include una copia di wget $1 (per piattaforma Windows). Wget è Software Libero, nei
@@ -2221,7 +2222,7 @@ De downloadtijd kan uiteen lopen van minuten tot uren.
 Windows:
  Pak alle bestanden uit in dezelfde map en voer uit: $5
  $6
-Linux/Mac OSX
+Linux/Mac OSX:
  Pak alle bestanden uit en open een terminalvenster in die map. Voer daarna uit: sh $5',
 	'non-bundled-wget' => 'Let op: in deze versie is wget voor Windows niet opgenomen. U moet uitpakken
 naar een map waarin wget.exe staat, of wget moet opgenomen zijn in de

@@ -131,6 +131,13 @@ $messages['de'] = array(
 	'title' => 'Aktuelle Bearbeitungen von IP-Adressen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Marmase
+ */
+$messages['diq'] = array(
+	'title' => 'Anonim aktiviteya bahdoyen',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
