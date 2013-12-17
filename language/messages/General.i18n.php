@@ -1543,6 +1543,7 @@ $messages['mr'] = array(
 $messages['ms'] = array(
 	'hello' => 'Apa khabar',
 	'welcome' => 'Selamat datang',
+	'toolversion' => 'Versi $1',
 	'toolversionstamp' => 'Versi $1 ($2)',
 	'etc' => 'dsb.',
 	'namespace' => 'Ruang nama',
@@ -2482,11 +2483,13 @@ $messages['yi'] = array(
  * @author Shirayuki
  * @author Shizhao
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'dateformat' => '%Y年%m月%d日',
 	'hello' => '你好',
 	'welcome' => '欢迎',
+	'toolversion' => '版本 $1',
 	'toolversionstamp' => '版本 $1 ($2)',
 	'etc' => '等。',
 	'namespace' => '名字空间',

@@ -2078,8 +2078,8 @@ Jangka masa muat turun mungkin antara beberapa minit dan beberapa jam.
 Windows:
  Ekstrakkan semua fail dalam folder yang sama dan jalankan $5
  $6
-Linux/Mac OS
- Ekstrakkan semua fail dan buka sebuah terminal dalam folder itu. Jalankan sh $5', # Fuzzy
+Linux/Mac OS:
+ Ekstrakkan semua fail dan buka sebuah terminal dalam folder itu. Jalankan sh $5',
 	'non-bundled-wget' => 'Perhatian: Versi ini tidak menyertakan wget untuk Windows. Anda mungkin perlu menyahmampatkannya ke dalam folder dengan wget.exe, ataupun mempunyai wget dalam LALUAN',
 	'wget-info' => 'Fail ini memberkaskan salinan wget $1 (untuk platform Windows). Wget ialah Perisian Bebas,
 mengikut terma-terma LESEN AWAM AM GNU versi 3.
@@ -3335,11 +3335,11 @@ $messages['zh-hans'] = array(
 
 下载过程可能消耗几分钟至若干小时时间。
 
-Windows:
-将所有文件解压缩至相同文件夹，并运行$5
+Windows：
+将所有文件解压缩至同一文件夹，运行 $5
  $6
-Linux/Mac OS
-解压所有文件，并在终端中运行 sh $5',
+Linux/Mac OS：
+解压所有文件，在终端中依此文件夹运行 sh $5',
 	'non-bundled-wget' => '注： 此版本不包括Windows版本的wget。您需要解压缩到一个有wget.exe的文件夹，或在PATH中包含有wget。',
 	'wget-info' => '此文件作为wget的副本$1（用于Windows平台）而打包。Wget是自由软件，
 根据GNU通用公共许可证第3版授权。

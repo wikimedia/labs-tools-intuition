@@ -719,6 +719,8 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'filter-all-languages' => 'Берриге меттанаш',
 	'db-field-lang' => 'Мотт',
+	'db-field-st_image' => 'Сурт',
+	'db-field-st_image_pct' => 'Сурт %',
 );
 
 /** Czech (česky)

@@ -827,6 +827,7 @@ $messages['lb'] = array(
 	'changelog' => 'Wat gëtt et Neies',
 	'clear' => 'eidel maachen',
 	'currentedit' => 'Aktuell erausgesichten Ännerung',
+	'cvn-adder' => 'Benotzer',
 	'cvn-adder-empty' => 'Onbekannt',
 	'cvn-reason' => 'Grond',
 	'cvn-reason-empty' => 'Kee Grond fonnt',
@@ -841,6 +842,7 @@ $messages['lb'] = array(
 	'namespace' => 'Nummraum',
 	'nomatches' => 'Keng relevant Ännerunge fir Är Astellungen',
 	'order' => 'Reiefolleg',
+	'permalink' => 'Permanente Link op déi aktuell Astellungen',
 	'select-placeholder-none' => '(keen)',
 	'showAnonOnly' => 'Nëmmen anonym',
 	'showUnpatrolledOnly' => 'Nëmmen déi net nogekuckten',
@@ -896,6 +898,49 @@ $messages['mk'] = array(
 	'typeEdit' => 'Уредувања',
 	'typeNew' => 'Нови страници',
 	'userfilter' => 'Кориснички филтер',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'title' => 'Perubahan Terkini Masa Nyata',
+	'apply' => 'Gunakan',
+	'asc' => 'Menaik',
+	'changelog' => 'Terbaru',
+	'clear' => 'padamkan',
+	'currentedit' => 'Suntingan terpilih semasa',
+	'cvn-adder' => 'Penambah',
+	'cvn-adder-empty' => 'Tidak dikenali',
+	'cvn-reason' => 'Sebab',
+	'cvn-reason-empty' => 'Tiada sebab yang dijumpai',
+	'desc' => 'Menurun',
+	'documentation' => 'Pendokumenan',
+	'filter' => 'Penapis',
+	'helpicon-tooltip' => 'Ketahui lebih lanjut mengenai ciri ini',
+	'lastupdate-cvn' => 'Mutakhir: $1',
+	'lastupdate-rc' => 'Mutakhir: $1',
+	'limit' => 'Had',
+	'masspatrol-requires-userfilter' => 'MassPatrol telah dimatikan kerana ia memerlukan penapis pengguna, sedangkan tidak satu pun yang dipasang.',
+	'months' => 'Januari, Februari, Mac, April, Mei, Jun, Julai, Ogos, September, Oktober, November, Disember',
+	'mypatrollog' => 'log rondaan saya',
+	'namespace' => 'Ruang nama',
+	'navtoggle-tooltip' => 'Togol sidebar',
+	'nomatches' => 'Tiada perubahan yang relevan untuk tetapan anda',
+	'order' => 'Turutan',
+	'permalink' => 'Pautan kekal untuk tetapan semasa',
+	'select-placeholder-none' => '(tiada)',
+	'showAnonOnly' => 'Awanama sahaja',
+	'showUnpatrolledOnly' => 'Yang tidak dironda sahaja',
+	'skippededit' => 'Suntingan terlangkau',
+	'tag' => 'Teg',
+	'time-from' => 'Mulai',
+	'time-untill' => 'Hingga',
+	'timeframe' => 'Tempoh masa',
+	'type' => 'Jenis',
+	'typeEdit' => 'Suntingan',
+	'typeNew' => 'Halaman baru',
+	'userfilter' => 'Penapis pengguna',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
@@ -1402,6 +1447,7 @@ $messages['wuu'] = array(
  * @author Hzy980512
  * @author Liuxinyu970226
  * @author Qiyue2001
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'title' => '实时最新更改',
@@ -1417,7 +1463,7 @@ $messages['zh-hans'] = array(
 	'desc' => '降序',
 	'documentation' => '档案',
 	'filter' => '过滤器',
-	'helpicon-tooltip' => '点这里获得更多信息',
+	'helpicon-tooltip' => '详细了解此功能的有关信息',
 	'lastupdate-cvn' => '最后更新：$1',
 	'lastupdate-rc' => '最后更新：$1',
 	'limit' => '限制',
