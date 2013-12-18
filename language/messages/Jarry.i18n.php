@@ -5,7 +5,7 @@
  * @toolowner jarry
  */
 
-$url = '//toolserver.org/~jarry/';
+$url = '//tools.wmflabs.org/jarry-common/';
 
 $messages = array();
 
@@ -15,8 +15,10 @@ $messages = array();
  * @author Jarry
  */
 $messages['en'] = array(
-	'title' => 'Jarry1250\'s Toolserver Tools', // Ignore
-	'moretools' => 'more tools from the same author',
+	'title' => 'Jarry1250\'s Tools', // Ignore
+	'moretools' => 'more tools',
+	'homepage-title' => 'Introduction',
+	'view-source' => 'view source',
 	'bugs' => 'bug reports and feature requests',
 	'comments' => 'comments and queries',
 	'error-form-empty' => 'One or more required fields have been left blank. You should complete them before continuing.',
@@ -30,6 +32,8 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'title' => 'The head line of Jarry tools. {{Notranslate}}',
 	'moretools' => 'This is a link to the index of all tools by Jarry1250.',
+	'homepage-title' => 'The heading of the Labs homepage',
+	'view-source' => 'This sentence fragment appears as the text of auxiliary link in tool descriptions',
 	'bugs' => 'The text for a footer link to a website where users can submit details of errors they encounter and suggestions for new features',
 	'comments' => 'The text for a footer link to a website where users can leave comments and queries about the tool',
 	'error-form-empty' => 'A general error that field that results when users leave required fields empty (blank)',
