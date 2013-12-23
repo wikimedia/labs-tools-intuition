@@ -1216,6 +1216,8 @@ $messages['eu'] = array(
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'search-title' => 'جستجو در آثار تاریخی',
+	'search-monuments-database' => 'جستجوی پایگاه داده آثار تاریخی',
 	'search-table-th-field' => 'زمینه',
 	'search-table-th-filter' => 'پالایه',
 	'search-table-th-search' => 'جستجو',
@@ -1232,6 +1234,8 @@ $messages['fa'] = array(
 	'db-field-image' => 'تصویر',
 	'db-field-changed' => 'تغییر یافته',
 	'db-field-source' => 'منبع',
+	'db-field-monument_article' => 'صفحه آثار تاریخی',
+	'db-field-registrant_url' => 'آدرس ثبت نام',
 	'db-field-st_address' => 'نشانی',
 	'db-field-st_address_pct' => 'نشانی‌های %',
 	'db-field-st_coordinates' => 'مختصات:',
@@ -1243,10 +1247,17 @@ $messages['fa'] = array(
 	'db-field-st_name' => 'نام‌ها',
 	'db-field-st_name_pct' => 'نام‌ها %',
 	'db-field-st_total' => 'تعداد کل',
+	'toolbox-label-searchtipps' => 'استفاده %term یا term% یا %term% برای جستجوی فوزی',
+	'toolbox-meta-title' => 'ویکی‌هدیهٔ جعبه ابزار آثار تاریخی',
+	'toolbox-main-title' => 'جعبه ابزار WLM',
+	'toolbox-main-description' => 'مجموعه‌ای از ابزارهای مربوط به',
+	'toolbox-wikilovesmonuments' => 'ویکی‌هدیه آثار تاریخی',
 	'toolbox-nav-homepage' => 'صفحهٔ خانگی',
 	'toolbox-nav-statistics' => 'آمار',
 	'toolbox-nav-search' => 'جستجو',
+	'toolbox-title-searchmonuments' => 'جستجوی یادبودها',
 	'location' => 'مکان',
+	'source-monuments-list-on-wikipedia' => 'فهرست منابع آثار تاریخی در ویکی‌پدیا',
 );
 
 /** Finnish (suomi)
@@ -2313,6 +2324,35 @@ $messages['lb'] = array(
 	'toolbox-title-searchmonuments' => 'Monumenter sichen',
 	'location' => 'Plaz',
 	'source-monuments-list-on-wikipedia' => 'Lëscht vun de Monumenter déi op Wikipedia benotzt gëtt',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'search-table-th-filter' => 'فيلتر',
+	'search-table-th-search' => 'پی جوری',
+	'filter-all-countries' => 'همه ولاتیا',
+	'filter-all-languages' => 'همه زونيا',
+	'db-field-country' => 'ولات',
+	'db-field-lang' => 'زون',
+	'db-field-name' => 'نوم',
+	'db-field-address' => 'نشونی',
+	'db-field-municipality' => 'شهرداری',
+	'db-field-image' => 'عسگ',
+	'db-field-changed' => 'آلشت بیه',
+	'db-field-source' => 'سرچشمه',
+	'db-field-st_address' => 'نشونی یا',
+	'db-field-st_image' => 'عسگ',
+	'db-field-st_image_pct' => 'عسگ%',
+	'db-field-st_municipality' => 'شهرداری',
+	'db-field-st_municipality_pct' => 'شهرداری %',
+	'db-field-st_name' => 'نوميا',
+	'db-field-st_name_pct' => 'نومیا%',
+	'toolbox-nav-homepage' => 'بلگه سرآسونه',
+	'toolbox-nav-statistics' => 'آماريا',
+	'toolbox-nav-search' => 'پی جوری',
+	'location' => 'جاگه',
 );
 
 /** Lithuanian (lietuvių)

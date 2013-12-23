@@ -736,6 +736,7 @@ $messages['eu'] = array(
 $messages['fa'] = array(
 	'hello' => 'سلام',
 	'welcome' => 'خوش‌آمدید',
+	'toolversion' => 'نسخهٔ $1',
 	'toolversionstamp' => 'نسخهٔ $1 ($2)',
 	'etc' => 'غیره.',
 	'namespace' => 'فضای نام',
@@ -1376,6 +1377,7 @@ $messages['lez'] = array(
 $messages['lrc'] = array(
 	'hello' => 'سلام',
 	'welcome' => 'خوش اومايت',
+	'toolversion' => 'نسقه $1',
 	'toolversionstamp' => 'نسقه $1($2)',
 	'etc' => 'همچنو.',
 	'namespace' => 'نوم جا',
@@ -1788,6 +1790,7 @@ $messages['pi'] = array(
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Odder
  * @author Platonides
  * @author Sp5uhe
@@ -1795,6 +1798,7 @@ $messages['pi'] = array(
 $messages['pl'] = array(
 	'hello' => 'Witaj',
 	'welcome' => 'Witaj',
+	'toolversion' => 'Wersja $1',
 	'toolversionstamp' => 'Wersja $1 z $2',
 	'etc' => 'itp.',
 	'namespace' => 'Przestrzeń nazw',

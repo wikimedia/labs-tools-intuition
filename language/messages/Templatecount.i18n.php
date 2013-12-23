@@ -744,6 +744,15 @@ $messages['lb'] = array(
 	'time-label' => "Zäit déi gebraucht gouf fir d'Aufgab ze maachen",
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'language-label' => 'زون',
+	'namespace-label' => 'نوم جا',
+	'pagename-label' => 'نوم بلگه',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  */

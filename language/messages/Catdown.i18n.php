@@ -553,6 +553,7 @@ pe melezourioù GNU all, sellit ouzh
 );
 
 /** Catalan (català)
+ * @author Alvaro Vidal-Abarca
  * @author Gemmaa
  * @author Vriullop
  */
@@ -574,17 +575,16 @@ $messages['ca'] = array(
 	'image-area-too-big' => '$1 és massa gran per crear una miniatura. Utilitzant la mida completa.',
 	'download-info' => '{{plural:  $1 |Hi ha un image|Hi ha  $1  imatges}}, amb una mida aproximada de$2',
 	'download' => 'Descarregar',
-	'readme-contents' => "L'arxiu de enclosing  $4  en les llistes de
- les imatges a la  $1  Categoria (  $2  ) $3 .
+	'readme-contents' => "L'arxiu contenidor $4 llista les imatges a la categoria $1 ( $2 )$3.
 
- = = instruccions per descarregar totes les imatges que figuren = =
+== Instruccions per descarregar totes les imatges ==
 El temps de descàrrega pot variar des d'uns quants minuts a unes quantes hores.
 
 Windows:
- Extreu tots els arxius a la mateixa carpeta i cursa  $5
+ Extreieu tots els arxius a la mateixa carpeta i executeu $5
  $6
-Linux/Mac OS
- Extreu tots els arxius i obrir un terminal d'aquesta carpeta. Executar sh$5", # Fuzzy
+Linux/Mac OS:
+ Extreieu tots els arxius i obriu un terminal sobre aquesta carpeta. Executeu sh $5",
 	'non-bundled-wget' => 'Nota: Aquesta versió no inclou wget per a Windows. Vostè haurà de descomprimir
  a una carpeta amb wget. exe o en cas contrari han wget en el camí',
 	'wget-info' => 'Aquest fitxer farcells una còpia de wget  $1  (per a plataforma de Windows). Wget és programari lliure
@@ -1011,7 +1011,7 @@ $messages['fa'] = array(
 	'no-such-project' => 'چنین پروژه‌ای وجود ندارد',
 	'no-images' => 'هیچ تصویری در این رده وجود ندارد',
 	'category-is-url' => 'نام ردهٔ داده‌شده به نظر نشانی اینترنتی است. باید نام رده را مشخص کنید نه نشانی اینترنتی‌اش را.',
-	'category-contains-namespace' => 'به نظر فضای‌نام را نیز پیش از نام رده قرار داده‌اید. با در نظرگیری این نام صفحهٔ مورد نظر [[رده:$1]] خواهد بود.', # Fuzzy
+	'category-contains-namespace' => 'به نظر فضای‌نام را نیز پیش از نام رده قرار داده‌اید. با در نظرگیری این نام صفحهٔ مورد نظر [[Category:$1]] خواهد بود.',
 	'zip-failed' => 'زیپ ایجاد نشد',
 	'image-area-too-big' => '$1 برای ایجاد تصویر بندانگشتی بیش از حد بزرگ است. استفاده از اندازهٔ کامل.',
 	'download-info' => '{{plural: $1|یک تصویر وجود دارد|$1 تصویر وجود دارد}}، با اندازهٔ تخمینی $2',
@@ -1887,6 +1887,8 @@ Et gëtt och aner GNU-Mirror. Kuckt dofir
 $messages['lrc'] = array(
 	'project' => 'پروجه:',
 	'category' => 'دسه:',
+	'max-width' => 'بیشتری پئنا',
+	'max-height' => 'بیشتری درازی',
 	'invalid-width' => 'درازا بی اعتوار',
 	'invalid-height' => 'بلنگی بی اعتوار',
 	'no-such-project' => 'چنی پروجه ای نی',
@@ -2333,6 +2335,7 @@ $messages['pi'] = array(
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Rezonansowy
  * @author Sp5uhe
  */
@@ -2356,7 +2359,6 @@ $messages['pl'] = array(
 	'download' => 'Pobierz',
 	'readme-contents' => 'Załączony plik $4 zawiera listę
 grafik znajdujących się w kategorii $1 ( $2 )$3.
-the images at the $1 category ( $2 )$3.
 
 == Instrukcja pobrania wszystkich plików z listy ==
 Czas pobierania może się wahać od kilku minut do wielu godzin.
@@ -2365,7 +2367,7 @@ Windows:
  Rozpakuj wszystkie pliki w jednym folderze i uruchom $5
  $6
 Linux lub Mac OS:
- Rozpakuj wszystkie pliki, a następnie otwórz terminal w tym folderze. Uruchom sh $5', # Fuzzy
+ Rozpakuj wszystkie pliki, a następnie otwórz terminal w tym folderze. Uruchom sh $5',
 	'non-bundled-wget' => 'Uwaga – ta wersja nie zawiera wget dla systemu Windows. Będziesz musiał rozpakować archiwum do folderu z programem wget.exe lub musisz mieć ten program na ścieżce wpisanej w PATH.',
 	'wget-info' => 'W tym pliku znajduje się kopia programu wget $1 (dla platformy Windows). Wget jest  darmowym oprogramowaniem, dostępnym na zasadach licencji GNU GENERAL PUBLIC LICENSE w wersji 3.
 Kopia licencji dostępna jest poniżej oraz pod adresem http://www.gnu.org/licenses/gpl-3.0.txt

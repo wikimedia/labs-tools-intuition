@@ -569,6 +569,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'title' => 'SVG гоч',
+	'error-nothing' => 'ХӀума дац гочдан.',
 	'th-original' => 'ДӀадолалун йоза',
 	'th-translation' => 'Гоч',
 	'th-language' => 'Мотт',
@@ -1834,6 +1835,24 @@ $messages['lb'] = array(
 $messages['lez'] = array(
 	'th-language' => 'Чlалар',
 	'th-password' => 'Куьлег',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'begin-translation' => 'شرو د  لرسن',
+	'th-original' => 'اصل',
+	'th-translation' => 'لرسن',
+	'th-language' => 'زون',
+	'th-username' => 'نوم كاروری',
+	'th-password' => 'پاسورد',
+	'th-method' => 'روشت',
+	'option-tusc' => 'تی یو اس سی',
+	'preview' => 'پيش سيل',
+	'translate' => 'والرن',
+	'svginput-label' => 'فایل اس وی جی',
+	'uploading' => 'د حالت سوارکرد',
 );
 
 /** Lithuanian (lietuvių)

@@ -818,6 +818,19 @@ $messages['lb'] = array(
 	'toolserver-status-short-missing' => '$1: Net do',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'toolserver-status-short-ok' => '$1:خوئه',
+	'toolserver-status-short-info' => '$1:دونسمنیا',
+	'toolserver-status-short-warn' => '$1:زنئار',
+	'toolserver-status-short-down' => '$1:هار',
+	'toolserver-status-short-erro' => '$1:خطا',
+	'toolserver-status-short-unknown' => '$1:ناشناس',
+	'toolserver-status-short-missing' => '$1:گم بیه',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  */

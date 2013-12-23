@@ -1233,6 +1233,19 @@ $messages['lb'] = array(
 	'resultslimited' => "D'Resultater goufen op $1 Säite limitéiert.",
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'limit' => 'كران دار بيئن',
+	'page' => 'بلگه',
+	'update' => 'روزآمد كردن',
+	'tools-delete' => 'پاك كردن',
+	'tools-links' => 'هوم پیوندیا',
+	'tools-hist' => 'ويرگار',
+	'tools-curr' => 'تازه باو',
+);
+
 /** Lithuanian (lietuvių)
  * @author Matasg
  */

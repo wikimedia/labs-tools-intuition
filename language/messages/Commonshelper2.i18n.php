@@ -2362,6 +2362,26 @@ $messages['lez'] = array(
 	'new_wikitext' => 'Цlийи вики кхьин',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'attention' => 'توجه بکید',
+	'language' => 'زون',
+	'project' => 'پروجه',
+	'source_file' => 'سرچشمه فایل',
+	'target_file' => 'فایل تمارزی بیه',
+	'categories' => 'دسه يا',
+	'tusc_user' => 'نوم کاروری تی یو اس سی',
+	'tusc_pass' => 'پاسورد تی یو اس سی',
+	'do_it' => 'انجومش به',
+	'error_not_exists' => 'سرچشمه فایل وجود ناره!',
+	'error_on_commons' => 'سرچشمه فایل ایسه ها د $1!',
+	'upload_submit' => 'سوار کرد!',
+	'target_wiki' => 'ویکی تمارزی بیه',
+	'help_mail' => 'یه گل ایمیل سی $1 کل بکید',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Hugo.arg

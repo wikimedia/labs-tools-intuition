@@ -780,10 +780,11 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Reza1615
  * @author Wayiran
  */
 $messages['fa'] = array(
-	'fullname' => 'بین‌المللی سازی برای رابط کاربری تول‌سرور', # Fuzzy
+	'fullname' => 'بین‌المللی سازی برای ابزارها',
 	'current-settings' => 'تنظیمات کنونی',
 	'current-language' => 'زبان انتخاب شدهٔ فعلی',
 	'settings-legend' => 'تنظیمات',
@@ -801,9 +802,9 @@ $messages['fa'] = array(
 	'bl-mysettings-new' => 'تغییر زبان!',
 	'bl-promo' => 'ترجمه شده توسط $1 و $2 تهیه شده‌اند.',
 	'bl-changelanguage' => 'برای تغییر زبان رابط این ابزار اینجا را کلیک کنید.',
-	'usage' => 'ابزار ترجمه‌شده توسط درک تولسرور.', # Fuzzy
+	'usage' => 'ابزار ترجمه‌شده توسط درک.',
 	'help-translate-tool' => 'در ترجمه این ابزار کمک کنید!',
-	'help-translate-all' => 'در ترجمهٔ تول‌سرور کمک کنید!', # Fuzzy
+	'help-translate-all' => 'در ترجمهٔ ابزارها کمک کنید!',
 	'help-translate-tooltip' => 'دیگران را با ترجمهٔ پیام‌های رابط به زبان‌تان کمک کنید!',
 );
 

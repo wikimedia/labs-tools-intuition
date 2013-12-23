@@ -1267,6 +1267,21 @@ $messages['lb'] = array(
 	'tablehead-hash' => 'Kontrollzuelen',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'title-error' => 'خطا',
+	'download-button' => 'گرتن د عنوان $1',
+	'download-directlink' => 'هوم پیوند مستقیم',
+	'title-downloadpage' => 'گرتن د عنوان $1',
+	'repo-site-link' => 'مالگه:',
+	'repo-lastmoddate-label' => 'وخت:',
+	'branches-submit-button' => 'بئرش!',
+	'tablehead-branch' => 'لشک',
+	'tablehead-filesize' => 'انازه فایل',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  */

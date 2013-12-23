@@ -247,6 +247,49 @@ $messages['br'] = array(
 	'userfilter' => 'Sil implijer',
 );
 
+/** Catalan (català)
+ * @author Alvaro Vidal-Abarca
+ */
+$messages['ca'] = array(
+	'title' => 'Canvis recents en temps real',
+	'apply' => 'Aplicar',
+	'asc' => 'Ascendent',
+	'changelog' => 'Novetats',
+	'clear' => 'neteja',
+	'currentedit' => 'Edició seleccionada',
+	'cvn-adder' => 'Usuari que ha afegit',
+	'cvn-adder-empty' => 'Desconegut',
+	'cvn-reason' => 'Motiu',
+	'cvn-reason-empty' => "No s'ha trobat cap motiu",
+	'desc' => 'Descendent',
+	'documentation' => 'Documentació',
+	'filter' => 'Filtre',
+	'helpicon-tooltip' => 'Més informació sobre aquesta característica',
+	'lastupdate-cvn' => 'Última actualització: $1',
+	'lastupdate-rc' => 'Última actualització: $1',
+	'limit' => 'Límit',
+	'masspatrol-requires-userfilter' => "S'ha desactivat MassPatrol, ja que necessita un filtre d'usuari, i no se n'ha proporcionat cap.",
+	'months' => 'gener, febrer, març, abril, maig, juny, juliol, agost, setembre, octubre, novembre, desembre',
+	'mypatrollog' => 'el meu registre de patrulla',
+	'namespace' => 'Espai de noms',
+	'navtoggle-tooltip' => 'Mostra o oculta la barra lateral',
+	'nomatches' => 'No hi ha canvis rellevants per a la vostra configuració',
+	'order' => 'Ordenar',
+	'permalink' => 'Enllaç permanent a la configuració actual',
+	'select-placeholder-none' => '(cap)',
+	'showAnonOnly' => 'només anònims',
+	'showUnpatrolledOnly' => 'només sense patrullar',
+	'skippededit' => 'Edició omesa',
+	'tag' => 'Etiqueta',
+	'time-from' => 'Des de',
+	'time-untill' => 'Fins a',
+	'timeframe' => 'Interval de temps',
+	'type' => 'Tipus',
+	'typeEdit' => 'Edicions',
+	'typeNew' => 'Pàgines noves',
+	'userfilter' => "Filtre d'usuari",
+);
+
 /** Danish (dansk)
  * @author Christian List
  * @author Overlaet
@@ -763,8 +806,10 @@ $messages['kk-cyrl'] = array(
 	'months' => 'Қаңтар, Ақпан, Наурыз, Сәуір, Мамыр, Маусым, Шілде, Тамыз, Қыркүйек, Қазан, Қараша, Желтоқсан',
 	'mypatrollog' => 'Қадағалау журналым',
 	'namespace' => 'Есім кеңістігі',
+	'navtoggle-tooltip' => 'Бүйірлік үстелді үлкейту',
 	'nomatches' => 'Сіздің талабыңыз бойынша өзгерістер жоқ',
 	'order' => 'Рет',
+	'permalink' => 'Ағымдағы параметрлердің тұрақты сілтемесі',
 	'select-placeholder-none' => '(ештеңе)',
 	'showAnonOnly' => 'Тек анонимдер',
 	'showUnpatrolledOnly' => 'Тек тексерілмегендер',
@@ -861,6 +906,30 @@ $messages['lb'] = array(
 	'typeEdit' => 'Ännerungen',
 	'typeNew' => 'Nei Säiten',
 	'userfilter' => 'Benotzerfilter',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'apply' => 'وه کار بردن',
+	'asc' => 'ای اس سی',
+	'changelog' => 'تازه چنه',
+	'clear' => 'پاك كردن',
+	'cvn-adder-empty' => 'ناشناس',
+	'cvn-reason' => 'دليل',
+	'documentation' => 'سندمند كردن',
+	'filter' => 'فيلتر',
+	'limit' => 'كران دار بيئن',
+	'namespace' => 'نوم جا',
+	'order' => 'دستور',
+	'select-placeholder-none' => '(هيش كوم)',
+	'time-from' => 'د',
+	'time-untill' => 'تا',
+	'type' => 'نيسنن كامپيتری',
+	'typeEdit' => 'ويرايشتيا',
+	'typeNew' => 'بلگيا نو',
+	'userfilter' => 'فیلتر کارور',
 );
 
 /** Macedonian (македонски)
@@ -1081,6 +1150,7 @@ $messages['oc'] = array(
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Rezonansowy
  * @author Woytecr
  */
@@ -1098,7 +1168,7 @@ $messages['pl'] = array(
 	'desc' => 'Malejąco',
 	'documentation' => 'Dokumentacja',
 	'filter' => 'Filtr',
-	'helpicon-tooltip' => 'Kliknij tutaj, aby uzyskać więcej informacji',
+	'helpicon-tooltip' => 'Dowiedz się więcej na temat tej funkcji',
 	'lastupdate-cvn' => 'Ostatnia aktualizacja: $1',
 	'lastupdate-rc' => 'Ostatnia aktualizacja: $1',
 	'limit' => 'Limit',
@@ -1107,11 +1177,17 @@ $messages['pl'] = array(
 	'mypatrollog' => 'mój rejestr patrolowania',
 	'namespace' => 'Przestrzeń nazw',
 	'navtoggle-tooltip' => 'Przełącz pasek boczny',
+	'order' => 'Kolejność',
 	'permalink' => 'Link do bieżących ustawień',
+	'select-placeholder-none' => '(brak)',
 	'showAnonOnly' => 'Tylko anonimowy',
 	'showUnpatrolledOnly' => 'Tylko niezatwierdzeni',
 	'skippededit' => 'Pominięte edycje',
 	'tag' => 'Tag',
+	'time-from' => 'Od',
+	'time-untill' => 'Do',
+	'timeframe' => 'Ramy czasowe',
+	'type' => 'Typ',
 	'typeEdit' => 'Edycje',
 	'typeNew' => 'Nowe strony',
 	'userfilter' => 'Filtr użytkownika',
