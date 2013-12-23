@@ -10,7 +10,7 @@ script:
   - |
     phpcs -v -s . \
     --standard=./tests/codesniffer \
-    --ignore=node_modules/*,includes/libs/*,includes/Functions.php,language/mw-classes/*,language/messages/* \
+    --ignore=node_modules/*,includes/libs/*,includes/Functions.php,language/mw-classes/*,language/messages/*,language/LanguageConverter.php \
     --extensions=php \
     --report-full \
     --warning-severity=0
