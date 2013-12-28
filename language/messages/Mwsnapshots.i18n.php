@@ -650,16 +650,24 @@ $messages['et'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Mjbmr
+ * @author Pouyana
+ * @author Reza1615
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'title-overview' => 'عکس‌های فوری',
 	'title-error' => 'خطا',
 	'title-updatelog' => 'سیاهه به روز رسانی',
+	'updatelog-intro' => 'اسکریپت به‌روزرسانی طوری تنظیم شده‌است که هر ساعت اجرا شود. در پایین صفحه نتیجهٔ آخرین اجرای آن را می‌بینید.',
+	'updatelog-active' => 'اسکریپت به‌روزرسانی در حال اجرا می‌باشد. برای دیدن نتیجهٔ کامل بار دیگر مراجعه کنید.',
 	'download-button' => 'دریافت $1',
 	'download-directlink' => 'پیوند مستقیم',
 	'title-downloadpage' => 'دریافت: $1',
+	'downloadpage-directlink' => 'دانلود تصویرهای فوری.',
+	'err-snapshotindex' => 'فهرست تصویرهای لحظه‌ای در دسترس نیست. لطفا دوباره مراجعه کنید.',
 	'err-invalid-repo' => 'مخزن ناشناخته «$1».',
 	'err-invalid-branch' => 'شاخهٔ ناشناخته: «$1» در مخزن «$2».',
+	'err-nosnapshot' => 'تصویرهای لحظه‌ای هر چند ساعت ایجاد می‌شوند. هنگام ایجاد $1، ایرادی وجود داشت. لطفا بعدا، دوباره تلاش کنید.',
 	'err-noupdatelog' => 'هیچ سیاهه به روز رسانی یافت نشد.',
 	'repo-site-link' => 'تارنما',
 	'repo-browse-link' => 'مرور مخزن',
@@ -668,8 +676,10 @@ $messages['fa'] = array(
 	'branches-submit-button' => 'آن را دریافت کنید!',
 	'updatelog-link' => 'سیاهه به روز رسانی',
 	'tablehead-repo' => 'مخزن',
+	'tablehead-snapshots' => 'عکس‌های فوری',
 	'tablehead-branch' => 'شاخه',
 	'tablehead-filesize' => 'اندازهٔ پرونده',
+	'tablehead-hash' => 'چک‌سام',
 );
 
 /** Finnish (suomi)

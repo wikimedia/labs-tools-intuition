@@ -372,6 +372,7 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'output' => 'Хилам',
 	'update' => 'Карлаяккха',
+	'tools-hist' => 'истори',
 );
 
 /** Czech (česky)

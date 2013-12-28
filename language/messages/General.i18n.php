@@ -438,6 +438,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'form-submit' => 'Дехьа гӀо',
+	'days' => '{{PLURAL: $1|де}}',
 	'minutes' => '$1 {{PLURAL:$1|минут}} хьалха',
 );
 

@@ -677,10 +677,11 @@ $messages['el'] = array(
 );
 
 /** British English (British English)
+ * @author Jdforrester
  * @author Shirayuki
  */
 $messages['en-gb'] = array(
-	'fullname' => "Internationalisation for Toolserver's User Interface", # Fuzzy
+	'fullname' => 'Internationalisation for tools',
 );
 
 /** Esperanto (Esperanto)

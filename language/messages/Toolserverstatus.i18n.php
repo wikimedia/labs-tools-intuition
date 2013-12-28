@@ -449,10 +449,19 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Hooshmand.hasannia
+ * @author Pouyana
+ * @author Reza1615
  * @author ZxxZxxZ
  * @author جواد
  */
 $messages['fa'] = array(
+	'toolserver-status-ok' => 'هیچ ایرادی در خوشه پایگاه داده $1 $2 وجود ندارد',
+	'toolserver-status-info' => 'اطلاعیه برای کاربران خوشهٔ  $1 :$2',
+	'toolserver-status-warn' => 'هشدار برای کاربران خوشهٔ  $1 :$2',
+	'toolserver-status-down' => 'خوشهٔ پایگاه داده  $1  بطور موقت خاموش شده است.$2',
+	'toolserver-status-erro' => 'خوشهٔ پایگاه دادهٔ  $1  پائین است. $2',
+	'toolserver-status-unknown' => 'وضعیت ناشناخته خوشهٔ $1',
+	'toolserver-status-missing' => 'خوشه  $1  وجود ندارد',
 	'toolserver-status-short-ok' => '$1: خوب',
 	'toolserver-status-short-info' => '$1: اطلاعات',
 	'toolserver-status-short-warn' => '$1: هشدار',

@@ -995,6 +995,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Leyth
+ * @author Pouyana
  * @author Reza1615
  * @author ZxxZxxZ
  */
@@ -1016,6 +1017,32 @@ $messages['fa'] = array(
 	'image-area-too-big' => '$1 برای ایجاد تصویر بندانگشتی بیش از حد بزرگ است. استفاده از اندازهٔ کامل.',
 	'download-info' => '{{plural: $1|یک تصویر وجود دارد|$1 تصویر وجود دارد}}، با اندازهٔ تخمینی $2',
 	'download' => 'دریافت',
+	'readme-contents' => 'فایل پیوند شدهٔ $4 فهرست می‌کند
+تصویرهای ردهٔ $1 ($2)$3.
+
+== راهنما برای بارگیری همه تصویرهای فهرست‌شده ==
+زمان بارگیری امکان دارد از چند دقیقه تا چند ساعت به طول بیانجامد.
+
+ویندوز:
+همه پرونده‌ها را در یک پوشه باز کنید و  $5 را اجرا کنید
+$6
+
+لینوکس/مک اواس
+همه پرونده‌ها را باز کنید و ترمینال را در آن پوشه باز کنید و sh $5 را اجرا کنید',
+	'non-bundled-wget' => 'توجه: این نسخه شامل برنامه wget  برای ویندوز نیست. شما نیاز دارید که آن در پوشه‌ای همراه با wget.exe باز کنید با اینکه آدرس wget.exe را بدهید',
+	'wget-info' => 'This file bundles a copy of wget $1 (for Windows platform). Wget is Free Software,
+under the terms of the GNU GENERAL PUBLIC LICENSE version 3.
+There is a copy of the license below, and it is also available at http://www.gnu.org/licenses/gpl-3.0.txt
+
+In case you are interested in getting the source code for this program, you can download it from
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+or some other GNU Mirror, see
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => 'عرضش به حداکثر $1 {{plural:$1|پیکسل|پیکسل}} تغییر یافت.',
+	'scaling-height' => 'ارتفاعش به حداکثر $1 {{plural:$1|پیکسل|پیکسل}} پیکسل تغییر یافت.',
+	'scaling-both' => 'اندازه‌اش به حداکثر $1 در $2 تغییر یافت.',
 );
 
 /** Finnish (suomi)
@@ -1419,8 +1446,8 @@ Le tempore de discargamento pote variar de qualque minutas a plure horas.
 Windows:
  Extrahe tote le files in le mesme directoria e executa $5
  $6
-Linux/Mac OS
- Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5', # Fuzzy
+Linux/Mac OS:
+ Extrahe tote le files e aperi un terminal in iste directorio. Executa sh $5',
 	'non-bundled-wget' => 'Nota: Iste version non include le programma "wget" pro Windows. Es necessari, o decomprimer le files
 in un directorio que include wget.exe, o haber "wget" in le "PATH".',
 	'wget-info' => 'Iste file contine un copia de wget $1 (pro Windows). Wget es software libere,

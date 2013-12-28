@@ -392,9 +392,11 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'enter-details' => 'واردکردن مشخصات',
+	'introduction' => 'در نام یک الگو بنویسید (فقط ویکی‌پدیاها) و دکمه برو را بفشارید. به همین سادگی بود. تعدادی دریافت (نتیجه را به خاطر می‌سپارند) ولی متاسفانه خارج از دسترس ابزار و مالک آن است.',
 	'language-label' => 'زبان',
 	'namespace-label' => 'فضای نام',
 	'pagename-label' => 'نام صفحه (به استثنای فضای نام)',

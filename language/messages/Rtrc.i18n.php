@@ -290,6 +290,13 @@ $messages['ca'] = array(
 	'userfilter' => "Filtre d'usuari",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'typeEdit' => 'Нисдарш',
+);
+
 /** Danish (dansk)
  * @author Christian List
  * @author Overlaet
@@ -496,6 +503,50 @@ $messages['es'] = array(
 	'typeEdit' => 'Ediciones',
 	'typeNew' => 'Páginas nuevas',
 	'userfilter' => 'Filtro de usuario',
+);
+
+/** Persian (فارسی)
+ * @author Pouyana
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'title' => 'تغییرات اخیر در زمان واقعی',
+	'apply' => 'اعمال',
+	'asc' => 'صعودی',
+	'changelog' => 'چه خبر',
+	'clear' => 'پاک‌کردن',
+	'currentedit' => 'ویرایش انتخاب‌شده فعلی',
+	'cvn-adder' => 'اضافه‌کننده',
+	'cvn-adder-empty' => 'ناشناس',
+	'cvn-reason' => 'دلیل',
+	'cvn-reason-empty' => 'هیچ دلیلی یافت نشد.',
+	'desc' => 'نزولی',
+	'documentation' => 'مستندات',
+	'filter' => 'پالایه',
+	'helpicon-tooltip' => 'دربارهٔ این ویژگی بیشتر مطالعه کنید',
+	'lastupdate-cvn' => 'آخرین به روز رسانی:$1',
+	'lastupdate-rc' => 'آخرین به روز رسانی:$1',
+	'limit' => 'محدودیت',
+	'masspatrol-requires-userfilter' => 'گشت دسته‌جمعی متوقف شده‌است به دلیل اینکه نیازمند پالایهٔ کابری بوده است و هیچ پالایه‌ای تنظیم نشده‌است.',
+	'months' => 'ژانویه، فوریه، مارس، آوریل، مه، ژوئن، ژوئیه، اوت، سپتامبر، اکتبر، نوامبر، دسامبر',
+	'mypatrollog' => 'سیاههٔ گشت‌زنی من',
+	'namespace' => 'فضای نام',
+	'navtoggle-tooltip' => 'ثابت کردن نوار کناری',
+	'nomatches' => 'هیچ تغییر مربوطه برای تنظیماتتان وجود ندارد',
+	'order' => 'مرتب‌سازی',
+	'permalink' => 'پیوند ثابت به تنظیمات کنونی',
+	'select-placeholder-none' => '(هیچ)',
+	'showAnonOnly' => 'فقط کاربران گمنام',
+	'showUnpatrolledOnly' => 'فقط گشت‌نخورده‌ها',
+	'skippededit' => 'ویرایش‌های رد شده',
+	'tag' => 'برچسب',
+	'time-from' => 'از',
+	'time-untill' => 'تا',
+	'timeframe' => 'بازه زمانی',
+	'type' => 'نوع',
+	'typeEdit' => 'ویرایش‌ها',
+	'typeNew' => 'صفحه‌های تازه',
+	'userfilter' => 'پالایه کاربر',
 );
 
 /** Finnish (suomi)
@@ -1293,7 +1344,7 @@ $messages['ro'] = array(
 	'asc' => 'Asc.',
 	'changelog' => 'Ce este nou',
 	'clear' => 'curăță',
-	'currentedit' => 'Modificare actualmente selectată',
+	'currentedit' => 'Modificare selectată în prezent',
 	'cvn-adder' => 'Persoana care a adăugat',
 	'cvn-adder-empty' => 'Necunoscut',
 	'cvn-reason' => 'Motiv',
