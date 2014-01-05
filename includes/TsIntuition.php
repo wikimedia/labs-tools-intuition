@@ -1329,7 +1329,7 @@ class TsIntuition {
 								continue;
 							}
 
-							$set = $this->setLang( $availableLangf );
+							$set = $this->setLang( $availableLang );
 							break;
 						}
 					}
