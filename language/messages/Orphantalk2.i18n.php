@@ -39,11 +39,13 @@ $messages['en'] = array(
  * @author Dbc334
  * @author EugeneZelenko
  * @author Krinkle
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'title' => 'The title of the tool. Note that this is a sequel of an old tool by the same name. "2" is part of the name.',
 	'select-wiki-first' => "This message is displayed in the dropdown menu for the namespace selector if the user didn't choose a wiki yet. Include the parenthesis.",
-	'hideredirects' => 'Label for a checkbox in the input form indicating whether redirect pages should be included in the results.',
+	'hideredirects' => 'Label for a checkbox in the input form indicating whether redirect pages should be included in the results.
+{{Identical|Hide redirect}}',
 	'hidesubpages' => 'Label for a checkbox in the input form indicating whether subpages should be included in the results.',
 	'limit' => 'Label in front of a dropdown menu. Affects the maximum number of results to display. {{Identical|Limit}}',
 	'page' => 'Table heading for the "Page"-column in the results.

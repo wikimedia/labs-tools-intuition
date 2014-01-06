@@ -26,11 +26,13 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Jarry1250
  * @author Krinkle
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'title' => 'The head line of Jarry tools. {{Notranslate}}',
 	'moretools' => 'This is a link to the index of all tools by Jarry1250.',
-	'homepage-title' => 'The heading of the Jarry\'s Labs homepage',
+	'homepage-title' => "The heading of the Jarry's Labs homepage.
+{{Identical|Introduction}}",
 	'bugs' => 'The text for a footer link to a website where users can submit details of errors they encounter and suggestions for new features',
 	'comments' => 'The text for a footer link to a website where users can leave comments and queries about the tool',
 	'error-form-empty' => 'A general error that field that results when users leave required fields empty (blank)',
@@ -365,7 +367,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'moretools' => '同じ著者によるその他のツール',
+	'moretools' => 'その他のツール',
 	'bugs' => 'バグ報告と機能リクエスト',
 	'comments' => 'コメントとクエリ',
 	'error-form-empty' => '空欄になっている必須項目があります。続行するには完全に埋める必要があります。',
