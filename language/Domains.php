@@ -16,6 +16,7 @@ $domains = array(
 	'toolserverstatus' => 'Toolserverstatus.i18n.php',
 	'rtrc' => 'Rtrc.i18n.php',
 	'tsintuition' => 'Tsintuition.i18n.php',
+	'voiceintro' => 'Voiceintro.i18n.php',
 	'wlm' => 'Wlm.i18n.php',
 	'wlmsurvey' => 'Wlmsurvey.i18n.php',
 );
