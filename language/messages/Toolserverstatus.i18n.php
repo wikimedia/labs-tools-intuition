@@ -91,10 +91,11 @@ $messages['ar'] = array(
 );
 
 /** Assamese (অসমীয়া)
+ * @author Gitartha.bordoloi
  * @author Simbu123
  */
 $messages['as'] = array(
-	'toolserver-status-short-ok' => '$1: ঠিক',
+	'toolserver-status-short-ok' => '$1: শুদ্ধ',
 	'toolserver-status-short-info' => '$1: তথ্য',
 	'toolserver-status-short-warn' => '$1: সতৰ্কবাণী',
 	'toolserver-status-short-down' => '$1: তললৈ',

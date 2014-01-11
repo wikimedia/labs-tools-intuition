@@ -584,7 +584,7 @@ $messages['diq'] = array(
 	'minutes' => '{{PLURAL: $1|deqe|deqey}}',
 	'seconds' => '{{PLURAL:$1|saniye|saniyeyan}}',
 	'last-modified-date' => 'Vurnayışo peên: $1',
-	'view-source' => 'Çımi bıvin',
+	'view-source' => 'Çımey bıvêne',
 	'and' => '&#32;u',
 );
 
@@ -1277,6 +1277,7 @@ $messages['ksh'] = array(
 	'dateformat' => '%d. %B %Y',
 	'hello' => 'Ene schööne Daach!',
 	'welcome' => 'Wellkumme!',
+	'toolversion' => 'Väsjohn $1',
 	'toolversionstamp' => 'De Version $1 vum $2',
 	'etc' => 'uew.',
 	'namespace' => 'Appachtemang',

@@ -385,6 +385,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Gorizon
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'apply' => 'Dezge',
@@ -403,7 +404,7 @@ $messages['diq'] = array(
 	'time-from' => 'Kêra',
 	'type' => 'Babet',
 	'typeEdit' => 'Timari',
-	'typeNew' => 'Perré newey',
+	'typeNew' => 'Pelê newey',
 	'userfilter' => 'Filtreya karberi',
 );
 
@@ -573,7 +574,7 @@ $messages['fr'] = array(
 	'desc' => 'Décroissant',
 	'documentation' => 'Documentation',
 	'filter' => 'Filtre',
-	'helpicon-tooltip' => 'Cliquer ici pour plus d’information',
+	'helpicon-tooltip' => 'En savoir plus sur cette fonctionnalité',
 	'lastupdate-cvn' => 'Dernière mise à jour : $1',
 	'lastupdate-rc' => 'Dernière mise à jour : $1',
 	'limit' => 'Limite',
@@ -923,6 +924,34 @@ $messages['ko'] = array(
 	'typeEdit' => '편집',
 	'typeNew' => '새 문서',
 	'userfilter' => '사용자 필터',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'apply' => 'Lohß Jonn!',
+	'asc' => 'von onge noch bovve',
+	'changelog' => 'Wad_es neu?',
+	'clear' => 'Läddesch maache',
+	'cvn-adder-empty' => 'Onbikannt',
+	'cvn-reason' => 'Jrond',
+	'cvn-reason-empty' => 'Keine jrond jevonge',
+	'desc' => 'von bovve noch onge',
+	'documentation' => 'Dokkemäntazjuhn',
+	'lastupdate-cvn' => 'Läzte Änderong: $1',
+	'lastupdate-rc' => 'Läzte Änderong: $1',
+	'limit' => 'Jräns',
+	'months' => 'Jannewaa, Fääbroaa, Määz, Aprell, Mai, Juuni, Juuli, Ojoß, Säptämber, Oktoober, Novämber, Dezämber',
+	'namespace' => 'Appachtemang',
+	'order' => 'Zotteerfollsch',
+	'select-placeholder-none' => '(kein)',
+	'showAnonOnly' => 'Bloß de Naameloose',
+	'time-from' => 'Vun',
+	'time-untill' => 'Bes',
+	'type' => 'Zoot',
+	'typeEdit' => 'Änderunge',
+	'typeNew' => 'Neu Sigge',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1504,7 +1533,7 @@ $messages['uk'] = array(
 	'desc' => 'Спад',
 	'documentation' => 'Документація',
 	'filter' => 'Фільтр',
-	'helpicon-tooltip' => 'Натисніть тут для отримання додаткової інформації',
+	'helpicon-tooltip' => 'Дізнайтеся більше про цю функцію',
 	'lastupdate-cvn' => 'Останнє оновлення: $1',
 	'lastupdate-rc' => 'Останнє оновлення: $1',
 	'limit' => 'Обмеження',

@@ -614,7 +614,7 @@ $messages['diq'] = array(
 	'clearcookies-success' => 'Çerezi weş besterneyay',
 	'tab-overview' => 'Hera weynayis',
 	'tab-settings' => 'Eyari',
-	'tab-about' => 'Heqdé cı',
+	'tab-about' => 'Heqa cı de',
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Sazê zıwan dı mı',
 	'bl-mysettings-new' => 'Zıwan vuurnayış!',
@@ -1364,7 +1364,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'fullname' => 'De Bedeenovverfläsh vum Tuulẞööver en alle Shprooche', # Fuzzy
+	'fullname' => 'De Bedeenovverfläsh vun Wärkzüsch en alle Shprooche',
 	'current-settings' => 'De aktoälle Enshtällonge',
 	'current-language' => 'De ußjesöhk Shprooch',
 	'settings-legend' => 'Enschtällonge',
@@ -1382,10 +1382,10 @@ $messages['ksh'] = array(
 	'bl-mysettings-new' => 'De Shprooch wääßele',
 	'bl-promo' => 'De Övversäzonge kumme vum $1 un övver $2 noh heh.',
 	'bl-changelanguage' => 'Donn di Shprooch ändere, di heh dat Projramm met Der kallt.',
-	'usage' => 'Projramme, di övver dem Tuulẞööver sing Süßteem „<i lang="en">Intuition</i>“
-övversaz woode sin', # Fuzzy
+	'usage' => 'Projramme, di övver dat Süßteem „<i lang="en">Intuition</i>“
+övversaz woode sin.',
 	'help-translate-tool' => 'Donn beim Övversäze för heh dat Projramm hellfe!',
-	'help-translate-all' => 'Donn beim Övversäze för der Tuulẞööver hellfe!', # Fuzzy
+	'help-translate-all' => 'Donn beim Wärkzüsch-Övversäze hellfe!',
 	'help-translate-tooltip' => 'Donn der Andere jet Joods un donn de Täxte un Nohreeschte vun de Projramme en Ding Shprooch övversäze.',
 );
 

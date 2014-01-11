@@ -691,6 +691,7 @@ $messages['da'] = array(
 	'image-area-too-big' => '$1 er for stor til at oprette en miniature. Anvender fuld størrelse.',
 	'download-info' => '{{plural: $1|Der er et billede|Der er $1 billeder}} med en anslået størrelse på $2',
 	'download' => 'Hent',
+	'non-bundled-wget' => 'Bemærk: Denne version omfatter ikke wget til Windows. Du bliver nødt til at dekomprimere til en mappe med wget.exe eller på anden måde have wget i PATH',
 	'scaling-width' => ',skaleret til en maksimal bredde på $1 {{plural:$1|pixel|pixels}}',
 	'scaling-height' => ',skaleret til en maksimal højde på $1 {{plural:$1|pixel|pixels}}',
 	'scaling-both' => ',skaleret til en maksimal størrelse på $1x$2 pixels',
@@ -782,6 +783,7 @@ $messages['diq'] = array(
 );
 
 /** Lower Sorbian (dolnoserbski)
+ * @author Derbeth
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -798,7 +800,7 @@ $messages['dsb'] = array(
 	'no-images' => 'W tej kategoriji wobraze njejsu',
 	'category-is-url' => 'Pódanaa kategorija wuglěda kaž URL. Musyš mě kategorije pódaś, nic jeje URL.',
 	'category-contains-namespace' => 'Zda se, až mjenjowy rum z mjenim kategorije zapśimjeł. Z pódanym mjenim by bok ako [[Category:$1]] k dispoziciji stał.',
-	'zip-failed' => 'Zip-napóranje jo se njeraźiło',
+	'zip-failed' => 'Zip-napóranje njejo se raźiło',
 	'image-area-too-big' => '$1 jo pśewjeliki, aby miniaturny wobraz napórał. Togodla se połna wjelilkosć wužywa.',
 	'download-info' => '{{plural: $1|Jo jaden wobraz|Stej $1 wobraza|Su $1 wobraze|Jo $1 wobrazow}}, z pówobliconeju wjelilkosću $2',
 	'download' => 'Ześěgnuś',
@@ -809,7 +811,7 @@ wobraze w kategoriji $1 ( $2 )$3.
 Ześěgowański cas móžo mjazy mało minutami  a někotarymi góźinami wariěrowaś.
 
 Windows:
-Zrozpakuj wšykne dataje do togo samego zarědnika a startuj $5
+Zrozpakuj wšykne dataje do togo samskego zarědnika a startuj $5
 $6
 
 Linux/Mac OS:
@@ -1912,15 +1914,20 @@ Et gëtt och aner GNU-Mirror. Kuckt dofir
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'title' => 'گرتن عسگیا وا توجه وه دسه',
+	'subtitle' => 'یه گل را آسو سی گرتن عسگیا د یه گل دسه',
 	'project' => 'پروجه:',
 	'category' => 'دسه:',
+	'thumbnailing' => 'بن کلکی',
 	'max-width' => 'بیشتری پئنا',
 	'max-height' => 'بیشتری درازی',
 	'invalid-width' => 'درازا بی اعتوار',
 	'invalid-height' => 'بلنگی بی اعتوار',
 	'no-such-project' => 'چنی پروجه ای نی',
 	'no-images' => 'هیش عسکی د ای دسه نی',
+	'category-is-url' => 'دسه ای که دئی ته چی یه گل یو آر ال هئ. شما با نوم دسه نه مشقص بکید ، نه نوم یو آر الشه.',
 	'zip-failed' => 'راس کردن زیپ شکست حرد',
+	'image-area-too-big' => '$1 سی بن کلیکی راس کردن فره گپه. د انازه کامل استفاده بکید.',
 	'download' => 'گرتن',
 );
 
@@ -3227,7 +3234,7 @@ $messages['uk'] = array(
 Windows:
  Розпакуйте усі файли у одну теку та запустіть $5
  $6
-Linux/Mac OS
+Linux/Mac OS:
  Розпакуйте усі файли і відкрийте термінал у цій теці. Виконайте команду sh $5',
 	'non-bundled-wget' => 'Примітка: Ця версія не включає wget для Windows. Вам потрібно буде розпакувати у теку з wget.exe або іншим чином вказати wget у PATH',
 	'wget-info' => 'Цей файл містить копію wget $1 (для платформи Windows). Wget - це безкоштовне програмне забезпечення, яке розповсюджується на умовах Загальної публічної ліцензії GNU версії 3.

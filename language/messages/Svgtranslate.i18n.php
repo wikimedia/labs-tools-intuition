@@ -753,6 +753,7 @@ $messages['diq'] = array(
 );
 
 /** Lower Sorbian (dolnoserbski)
+ * @author Derbeth
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -784,7 +785,7 @@ $messages['dsb'] = array(
 	'preview-hide' => 'Pśeglěd schowaś',
 	'preview-refresh' => 'Pśeglěd aktualizěrowaś',
 	'error-must-accept' => 'Aby z direktnym nagraśim pókšacował, musyš slědujuce wužywańske wuměnjenja akceptěrowaś.',
-	'error-tusc-failed' => 'TUSC-pśeglědanje jo se njeraźiło: Wužywarske mě abo gronidło jo wopak.',
+	'error-tusc-failed' => 'TUSC-pśeglědanje njejo se raźiło: Wužywarske mě abo gronidło jo wopak.',
 	'description-license' => 'Wopisanje a licencu wubraś',
 	'finalise' => 'Drobnostki wudopołniś',
 );

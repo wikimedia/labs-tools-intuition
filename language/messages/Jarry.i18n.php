@@ -64,7 +64,8 @@ $messages['as'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'moretools' => 'más ferramientes del mesmu autor',
+	'moretools' => 'más ferramientes',
+	'homepage-title' => 'Introducción',
 	'bugs' => 'informar de fallos y pidir carauterístiques',
 	'comments' => 'comentarios y consultes',
 	'error-form-empty' => 'Un campu necesariu o más quedaron baleros. Tienes de completalos enantes de siguir.',
@@ -171,10 +172,12 @@ $messages['cv'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  */
 $messages['da'] = array(
-	'moretools' => 'flere værktøjer fra samme forfatter',
+	'moretools' => 'flere værktøjer',
+	'homepage-title' => 'Introduktion',
 	'bugs' => 'fejlrapporter og anmodninger om ny funktionalitet',
 	'comments' => 'kommentarer og spørgsmål',
 	'error-form-empty' => 'Et eller flere obligatoriske felter er efterladt tomt. Du bør udfylde dem, før du fortsætter.',
@@ -182,9 +185,11 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Metalhead64
  */
 $messages['de'] = array(
-	'moretools' => 'Weitere Hilfsprogramme desselben Autors',
+	'moretools' => 'Weitere Hilfsprogramme',
+	'homepage-title' => 'Einführung',
 	'bugs' => 'Fehlermeldungen und Funktionswünsche',
 	'comments' => 'Anmerkungen und Abfragen',
 	'error-form-empty' => 'Eines oder mehrere der Pflichtfelder wurden nicht ausgefüllt. Bitte vor dem Fortfahren ausfüllen.',
@@ -201,7 +206,8 @@ $messages['diq'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'moretools' => 'dalšne rědy wót togo samego awtora',
+	'moretools' => 'dalšne rědy',
+	'homepage-title' => 'Zapokazanje',
 	'bugs' => 'zmólkowe powěźeńki a žycenja za funkcijami',
 	'comments' => 'komentary a napšašowanja',
 	'error-form-empty' => 'Jadne trěbne pólo njejo se wupolniło abo někotare trěbne póla  njejsu se wupołnili. Pšosym  wupołni je, nježli až pókšacujoš.',
@@ -217,9 +223,11 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author VegaDark
  */
 $messages['es'] = array(
-	'moretools' => 'más herramientas del mismo autor',
+	'moretools' => 'más herramientas',
+	'homepage-title' => 'Introducción',
 	'bugs' => 'informes de errores y solicitudes',
 	'comments' => 'comentarios y consultas',
 	'error-form-empty' => 'Uno o más campos obligatorios se han dejado en blanco. Complétalos antes de continuar.',
@@ -227,9 +235,11 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Reza1615
  */
 $messages['fa'] = array(
-	'moretools' => 'ابزارهای بیشتر از همان نویسنده',
+	'moretools' => 'ابزارهای بیشتر',
+	'homepage-title' => 'آشنایی',
 	'bugs' => 'گزارش مشکلات و درخواست قابلیت',
 	'comments' => 'نظرها و درخواست‌ها',
 	'error-form-empty' => 'یک یا چند فیلد خالی نگه داشته شده‌اند. شما می‌بایست آن‌ها را قبل از ادامه دادن کامل کنید.',
@@ -255,10 +265,12 @@ $messages['fo'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Peter17
  */
 $messages['fr'] = array(
-	'moretools' => 'plus d’outils du même auteur',
+	'moretools' => 'plus d’outils',
+	'homepage-title' => 'Introduction',
 	'bugs' => 'rapports de bogues et de demandes de fonctionnalités',
 	'comments' => 'commentaires et requêtes',
 	'error-form-empty' => 'Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer.',
@@ -316,7 +328,8 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'moretools' => 'dalše nastroje wot samsneheo awtora',
+	'moretools' => 'dalše nastroje',
+	'homepage-title' => 'Zawod',
 	'bugs' => 'zmylkowe zdźělenki a přeća wo funkcije',
 	'comments' => 'komentary  a naprašowanja',
 	'error-form-empty' => 'Jedne trěbne polo njeje so wupjelniło abo wjacore trěbne pola  njejsu so wupjelnili. Prošu wupjelń je, prjedy hač pokročuješ.',
@@ -336,7 +349,8 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'moretools' => 'plus instrumentos del mesme autor',
+	'moretools' => 'altere instrumentos',
+	'homepage-title' => 'Introduction',
 	'bugs' => 'reportos de defectos e requestas de functionalitate',
 	'comments' => 'commentos e questiones',
 	'error-form-empty' => 'Un o plus campos obligatori ha essite lassate vacue. Es necessari completar los ante de continuar.',
@@ -353,11 +367,13 @@ $messages['id'] = array(
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author Nemo bis
  * @author Rippitippi
  */
 $messages['it'] = array(
-	'moretools' => 'altri strumenti dello stesso autore',
+	'moretools' => 'altri strumenti',
+	'homepage-title' => 'Introduzione',
 	'bugs' => 'segnalazione errori e richieste di nuove funzioni',
 	'comments' => 'commenti e richieste',
 	'error-form-empty' => 'Uno o più campi obbligatori sono stati lasciati vuoti. È necessario completarli prima di continuare.',
@@ -381,6 +397,14 @@ $messages['jv'] = array(
 	'comments' => 'tanggepan lan pitakonan',
 );
 
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Amangeldy
+ */
+$messages['kk-cyrl'] = array(
+	'moretools' => 'Басқа құралдар',
+	'homepage-title' => 'Кіріспе',
+);
+
 /** Kannada (ಕನ್ನಡ)
  * @author M G Harish
  */
@@ -392,10 +416,12 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Jskang
  * @author 아라
  */
 $messages['ko'] = array(
-	'moretools' => '같은 저자에서 더 많은 도구',
+	'moretools' => '같은 저자에서 더 많은 도구', # Fuzzy
+	'homepage-title' => '소개',
 	'bugs' => '버그 보고 및 기능 요청',
 	'comments' => '의견과 쿼리',
 	'error-form-empty' => '하나 이상의 필수 입력란이 비어 있습니다. 계속하기 전에 모두 채워야합니다.',
@@ -405,7 +431,8 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'moretools' => 'ander Projramme vum sellve Schriever',
+	'moretools' => 'mieh Projramme',
+	'homepage-title' => 'Enföhrong',
 	'bugs' => 'Fählermäldonge un Wönsche för Verbäßeronge',
 	'comments' => 'Aanmerkunge un Froore',
 	'error-form-empty' => 'Vun dä nüüdeje Enjaabe sin nit alle jemaat.
@@ -416,7 +443,8 @@ Donn se enfölle, ih dat de wigger määß.',
  * @author Robby
  */
 $messages['lb'] = array(
-	'moretools' => 'méi Toole vum selwechten Auteur',
+	'moretools' => 'méi Tools',
+	'homepage-title' => 'Aféierung',
 	'bugs' => 'Feelermeldungen an Ufroe fir Fonctiounen',
 	'comments' => 'Bemierkungen an Ufroen',
 	'error-form-empty' => 'Eent oder méi obligatoresch Felder goufen eidel gelooss. Dir musst déi ausfëllen ier Dir virufuere kënnt.',
@@ -430,18 +458,35 @@ $messages['lez'] = array(
 	'comments' => 'суалар ни веревердар',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'moretools' => 'اوزاریا هنی',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
+ * @author Robotukas11
  */
 $messages['lt'] = array(
-	'moretools' => 'daugiau įrankių iš to paties autoriaus',
+	'moretools' => 'daugiau įrankių iš to paties autoriaus', # Fuzzy
+	'homepage-title' => 'Įvadas',
+);
+
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'homepage-title' => 'Ievads',
 );
 
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'moretools' => 'уште алатки од истиот автор',
+	'moretools' => 'уште алатки',
+	'homepage-title' => 'Вовед',
 	'bugs' => 'пријавување грешки и барања за функции',
 	'comments' => 'коментари и прашања',
 	'error-form-empty' => 'Испуштивте едно или повеќе задолжителни полиња. Ќе мора да ги пополните пред да продолжите.',
@@ -500,7 +545,8 @@ $messages['new'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'moretools' => "meer hulpprogramma's van dezelfde auteur",
+	'moretools' => "meer hulpprogramma's",
+	'homepage-title' => 'Inleiding',
 	'bugs' => 'bugmeldingen en functionaliteitsverzoeken',
 	'comments' => 'vragen en opmerkingen',
 	'error-form-empty' => 'Een of meer verplichte velden zijn leeg gelaten. U moet deze invullen voordat u verdergaat.',
@@ -597,10 +643,12 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Incnis Mrsi
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
-	'moretools' => 'другие инструменты этого автора',
+	'moretools' => 'другие инструменты',
+	'homepage-title' => 'Введение',
 	'bugs' => 'сообщения об ошибках, а также пожелания',
 	'comments' => 'вопросы и комментарии',
 	'error-form-empty' => 'Одно или несколько обязательных полей были оставлены пустыми. Вы должны заполнить их, прежде чем продолжить.',
@@ -665,9 +713,11 @@ $messages['sr-el'] = array(
 
 /** Swedish (svenska)
  * @author Liftarn
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
-	'moretools' => 'fler verktyg från samma författare',
+	'moretools' => 'fler verktyg',
+	'homepage-title' => 'Introduktion',
 	'bugs' => 'felrapporter och önskemål om utökad funktionalitet',
 	'comments' => 'kommentarer och frågor',
 	'error-form-empty' => 'Ett eller flera obligatoriska fält har lämnats tomt. Du bör fylla i dem innan du fortsätter.',
@@ -675,9 +725,12 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Balajijagadesh
+ * @author கௌசிக் பிரபு
  * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'moretools' => 'மேலும் கருவிகள்',
+	'homepage-title' => 'அறிமுகம்',
 	'bugs' => 'வழு அறிக்கைகளும் வசதி வேண்டுகோள்களும்',
 	'comments' => 'முன்னிகைகளை மற்றும் கேள்விகள்',
 	'error-form-empty' => 'ஒரு அல்லது சில வேண்டப்படும் புலங்கள் வெறுமையாக விடப்பட்டுள்ளன. தொடர்வதற்கு முன் நீங்கள் அவற்றை நிரப்ப வேண்டும்.',
@@ -715,11 +768,13 @@ $messages['ug-arab'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author DixonD
  * @author Тест
  */
 $messages['uk'] = array(
-	'moretools' => 'інші інструменти від того ж автора',
+	'moretools' => 'більше інструментів',
+	'homepage-title' => 'Вступ',
 	'bugs' => 'звіти про помилки і запити на додаткові функції',
 	'comments' => 'коментарі і питання',
 	'error-form-empty' => "Одне або декілька обов'язкових полів залишилися порожніми. Ви повинні заповнити їх перед тим, як продовжити.",
@@ -738,7 +793,8 @@ $messages['uz'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'moretools' => 'thêm công cụ từ cùng tác giả',
+	'moretools' => 'thêm công cụ',
+	'homepage-title' => 'Giới thiệu',
 	'bugs' => 'báo cáo lỗi và yêu cầu tính năng',
 	'comments' => 'ý kiến và truy vấn',
 	'error-form-empty' => 'Ít nhất một trường bắt buộc đã được bỏ trống. Xin điền nó trước khi tiếc tục.',
@@ -746,9 +802,11 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
-	'moretools' => '从同一作者更多工具',
+	'moretools' => '更多工具',
+	'homepage-title' => '介绍',
 	'bugs' => '问题报告和功能请求',
 	'comments' => '意见及查询',
 	'error-form-empty' => '有了一个或多个必填的字段留空。在继续之前，您应该完成它们。',

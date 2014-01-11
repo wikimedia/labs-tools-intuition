@@ -963,6 +963,7 @@ $messages['diq'] = array(
 );
 
 /** Lower Sorbian (dolnoserbski)
+ * @author Derbeth
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -1000,7 +1001,7 @@ $messages['dsb'] = array(
 	'target_wiki' => 'celowy wiki',
 	'error_bot_blocked' => 'Nagrawański bot jo na Wikimedia Commons zablokěrowany.',
 	'error_upload_meta' => 'Direktne nagraśe njejo móžno, dokulaž jo problem z metadatami (glědaj górjejce)!',
-	'error_tusc_failed' => 'TUSC-pśeglědanje jo se njeraźiło!',
+	'error_tusc_failed' => 'TUSC-pśeglědanje njejo se raźiło!',
 	'error_only_commons' => 'Direktne nagraśe funkcioněrujo jano na Wikimedia Commons!',
 	'upload_control_text' => 'Pśosym pśeglědaj nowy wikitekst a klikni na "$1", joli wšykno jo w pórěźe!',
 	'error_commons_user' => 'Aby pśenošowańskego wužywarja identificěrował, musy twójo wužywarske mě za Wikimedia Commons we wopisanju byś!',
