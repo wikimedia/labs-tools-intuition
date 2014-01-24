@@ -858,12 +858,13 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Liftarn
  * @author Lokal Profil
  */
 $messages['sv'] = array(
 	'alws-label' => 'Wiki',
-	'alws-selectwiki' => '(Välj wiki)',
+	'alws-selectwiki' => '(välj wiki)',
 	'alws-group-mustused' => 'Mest använda wikis',
 	'alws-group-allaz' => 'Alla wikis i alfabetisk ordning',
 	'form-legend-settings' => 'Inställningar',

@@ -604,6 +604,7 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Fitoschido
  * @author Invadinado
  */
 $messages['es'] = array(
@@ -617,7 +618,7 @@ $messages['es'] = array(
 	'title-downloadpage' => 'Descargar: $1',
 	'downloadpage-directlink' => 'Haz clic aquí para descargar la instantánea.',
 	'err-snapshotindex' => 'Índice de instantáneas no disponible temporalmente. Inténtalo de nuevo más tarde.',
-	'err-invalid-repo' => 'Repositorio desconocido: "$1".',
+	'err-invalid-repo' => 'Repositorio desconocido: «$1».',
 	'err-invalid-branch' => 'Rama desconocida: "$1" en el repositorio "$2".',
 	'err-nosnapshot' => 'Las instantáneas se generan cada pocas horas. Mientras se generaba la instantánea para "$1", se produjo un error. Inténtalo de nuevo más tarde.',
 	'err-noupdatelog' => 'No se ha encontrado ningún registro de actualización.',
@@ -1437,6 +1438,30 @@ $messages['mt'] = array(
  * @author Danmichaelo
  */
 $messages['nb'] = array(
+	'title-overview' => 'Øyeblikksbilder',
+	'title-error' => 'Feil',
+	'title-updatelog' => 'Oppdater logg',
+	'updatelog-intro' => 'Oppdateringsskriptet kjøres hver time. Nedenfor er konsollresultatet fra forrige kjøring.',
+	'updatelog-active' => 'Oppdateringsskriptet kjører akkurat nå. Kom tilbake senere for en komplett logg.',
+	'download-button' => 'Last ned $1',
+	'download-directlink' => 'direktelenke',
+	'title-downloadpage' => 'Last ned: $1',
+	'downloadpage-directlink' => 'Last ned øyeblikksbildet',
+	'err-snapshotindex' => 'Indeksen over øyeblikksbilder er midlertidig utilgjengelig. Prøv igjen senere.',
+	'err-invalid-repo' => 'Ukjent database: «$1».',
+	'err-invalid-branch' => 'Ukjent gren: «$1» i databasen «$2».',
+	'err-nosnapshot' => 'Øyeblikksbildene genereres med noen timers mellomrom. Under genereringen av øyeblikksbildet for «$1» oppsto det en feil. Prøv igjen senere.',
+	'err-noupdatelog' => 'Ingen oppdateringslogg funnet.',
+	'repo-site-link' => 'Nettsted',
+	'repo-browse-link' => 'Bla gjennom database',
+	'repo-branches-label' => 'Grener:',
+	'repo-lastmoddate-label' => 'Dato:',
+	'branches-submit-button' => 'Skaff den!',
+	'updatelog-link' => 'oppdateringslogg',
+	'tablehead-repo' => 'Database',
+	'tablehead-snapshots' => 'Øyeblikksbilder',
+	'tablehead-branch' => 'Gren',
+	'tablehead-filesize' => 'Filstørrelse',
 	'tablehead-hash' => 'Kontrollsummer',
 );
 
@@ -1945,7 +1970,7 @@ $messages['sv'] = array(
 	'updatelog-intro' => 'Uppdateringsskriptet har schemalagts att köra varje timme. Nedan är konsolproduktionen från den senaste körningen.',
 	'updatelog-active' => 'Uppdateringsskriptet körs för närvarande. Kom tillbaka senare för den kompletta loggen.',
 	'download-button' => 'Ladda ned $1',
-	'download-directlink' => 'direkt länk',
+	'download-directlink' => 'direktlänk',
 	'title-downloadpage' => 'Ladda ned: $1',
 	'downloadpage-directlink' => 'Klicka här för att ladda ned ögonblicksbilden.',
 	'err-snapshotindex' => 'Indexet över ögonblicksbilder är tillfälligt otillgänligt. Vänligen försök igen senare.',

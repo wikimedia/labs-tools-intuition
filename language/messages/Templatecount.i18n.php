@@ -1130,6 +1130,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Lokal Profil
  */
 $messages['sv'] = array(
@@ -1140,7 +1141,7 @@ $messages['sv'] = array(
 	'pagename-label' => 'Sidans namn (exklusive namnrymd)',
 	'transclusion-count-label' => 'Antal mallinkluderingar',
 	'transclusion-count' => '$1 mallinkludering(ar) hittades.',
-	'error-suggestion' => 'Kanske du felstavade (eller fel-versaliserade) namnet på sidan?',
+	'error-suggestion' => 'Kanske du stavade du fel (eller felaktigt versaliserade) namnet på sidan?',
 	'time-label' => 'Tid det tog att utföra kommandot',
 );
 

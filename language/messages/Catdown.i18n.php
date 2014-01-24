@@ -2177,6 +2177,29 @@ $messages['nb'] = array(
 	'image-area-too-big' => '$1 er for stor til at det kan lages miniatyrbilde. Bruker full størrelse.',
 	'download-info' => 'Det finnes {{plural:$1|ett bilde|$1 bilder}}, med en estimert størrelse $2',
 	'download' => 'Last ned',
+	'readme-contents' => 'Den omsluttende filen $4 lister opp bildene i kategorien $1 ( $2 )$3.
+
+== Instruksjoner for nedlasting av alle bildene ==
+Nedlastingstiden kan variere fra noen minutter til flere timer.
+
+Windows:
+ Pakk ut alle filene i samme mappe og kjør $5
+ $6
+Linux/Mac OS:
+ Pakk ut alle filene og åpne en terminal i samme mappe. Kjør sh $5',
+	'non-bundled-wget' => 'Merk: Denne versjonen inkluderer ikke wget for Windows. Du må pakke ut til en mappe med wget.exe eller ha wget i PATH',
+	'wget-info' => 'Denne filen inkluderer en kopi av wget $1 (for Windows). Wget er fri programvare, under vilkårene i GNU GENERAL PUBLIC LICENSE versjon 3.
+En kopi av lisensen finnes nedenfor, og den er også tilgjengelig på http://www.gnu.org/licenses/gpl-3.0.txt
+
+Om du er interessert i å få tak i kildekoden til dette programmet kan du laste den ned fra
+ http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
+ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+ ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
+eller et annet GNU-speil, se
+ http://www.gnu.org/prep/ftp.html',
+	'scaling-width' => ', skalert til en maksimumsbredde på $1 {{PLURAL:$1|piksel|piksler}}',
+	'scaling-height' => ', skalert til en maksimumshøyde på $1 {{PLURAL:$1|piksel|piksler}}',
+	'scaling-both' => ', skalert til en maksimumsstørrelse på $1×$2 piksler',
 );
 
 /** Low German (Plattdüütsch)
@@ -2590,13 +2613,13 @@ $messages['roa-tara'] = array(
 	'readme-contents' => "'U file $4 tène 'n'elenghe de immaggine jndr'à $1 categorije ( $2 )$3.
 
 == 'Struziune pe scarecà tutte le immaggine elengate ==
-'U tiembe de scarecamende pò cangià da quacche minue e adiverse ore.
+'U tiembe de scarecamende pò cangià da quacche minute e a diverse ore.
 
 Windows:
  Estraje tutte le file jndr'à stessa cartelle e lange $5
  $6
 Linux/Mac:
- Estraje tutte le file e iapre 'nu terminale jndr'à quedda cartelle. Lange sh $5", # Fuzzy
+ Estraje tutte le file e iapre 'nu terminale jndr'à quedda cartelle. Lange sh $5",
 	'non-bundled-wget' => "Note: Sta versione non ge 'nglude wget pe Windows. Tu puè avè abbesogne de decomprimere jndr'à 'na cartelle cu wget.exe oppure è wget jndr'à 'u PATH",
 	'wget-info' => "Stu file tène 'na copie de wget $1 (pe piattaforme Windows). Wget jè 'nu Softuare libbere, sotte a le termine 'a GNU GENERAL PUBLIC LICENSE versione 3.
 Stè 'na copie d'a licenze aqquà sotte, e jè pure disponibbele sus a http://www.gnu.org/licenses/gpl-3.0.txt
@@ -2963,8 +2986,8 @@ ili koristite druge rezervne veze:
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
-	'title' => 'Nedladdning av bild efter kategori',
-	'subtitle' => 'Det enkla sättet att ladda ned bilder i en kategori',
+	'title' => 'Nedladdning av bilder efter kategori',
+	'subtitle' => 'Det enkla sättet att ladda ned bilderna i en kategori',
 	'project' => 'Projekt:',
 	'category' => 'Kategori:',
 	'thumbnailing' => 'Miniatyrbildsinställning',
@@ -2989,8 +3012,8 @@ Nedladdningstiden kan variera från några minuter till flera timmar.
 Windows:
  Extrahera alla filer i samma mapp och kör $5
  $6
-Linux/Mac OS
- Extrahera alla filer och öppna en terminal i mappen. Kör sh $5', # Fuzzy
+Linux/Mac OS:
+ Extrahera alla filer och öppna en terminal i mappen. Kör sh $5',
 	'non-bundled-wget' => 'OBS: Denna version inkluderar inte wget för Windows. Du måste expandera
 till en mapp med wget.exe eller ha wget i PATH',
 	'wget-info' => 'Denna fil buntar en kopia av wget $1 (för Windows-plattformen). Wget är fri programvara,

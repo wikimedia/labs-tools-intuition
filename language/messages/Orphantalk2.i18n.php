@@ -1852,12 +1852,13 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Liftarn
  * @author Lokal Profil
  */
 $messages['sv'] = array(
 	'title' => 'OrphanTalk2',
-	'select-wiki-first' => '(Välj en wiki först)',
+	'select-wiki-first' => '(välj en wiki först)',
 	'hideredirects' => 'Göm omdirigeringar',
 	'hidesubpages' => 'Dölj undersidor',
 	'limit' => 'Begränsning',
@@ -1869,7 +1870,7 @@ $messages['sv'] = array(
 	'tools-links' => 'länkar',
 	'tools-subject' => 'ämne',
 	'tools-hist' => 'hist',
-	'tools-curr' => 'nu',
+	'tools-curr' => 'nuvarande',
 	'tools-globalusage' => 'global användning',
 	'deletesummary' => 'Rensar upp bland föräldralösa diskussionssidor via $1',
 	'noresults' => 'Inga föräldralösa diskussionssidor på denna wikin i denna namnrymden matchade dina inställningar.',

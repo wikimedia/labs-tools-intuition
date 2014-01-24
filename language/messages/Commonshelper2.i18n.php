@@ -3211,6 +3211,7 @@ $messages['ps'] = array(
 	'new_filename' => 'د نوې دوتنې نوم:',
 	'upload_submit' => 'پورته کول:',
 	'target_wiki' => 'د موخې ويکي',
+	'help_mail' => '$1 ته يو برېښليک لېږل',
 );
 
 /** Portuguese (português)
@@ -3759,6 +3760,7 @@ $messages['sr-el'] = array(
 
 /** Swedish (svenska)
  * @author Ainali
+ * @author Jopparn
  * @author Liftarn
  * @author Lokal Profil
  * @author WikiPhoenix
@@ -3772,17 +3774,17 @@ $messages['sv'] = array(
 	'project' => 'Projekt',
 	'source_file' => 'Källfil',
 	'target_file' => 'Målfil',
-	'commons_username' => 'Wikimedia Commons användarnamn',
-	'commons_to_project' => 'Wikimedia Commons till projektet',
+	'commons_username' => 'Användarnamn på Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons till projekt',
 	'move_file_from_com' => 'Flytta fil från Wikimedia Commons till projekt',
 	'categories' => 'Kategorier',
 	'remove_cats' => 'Ta bort befintliga kategorier',
 	'use_checkusage' => 'Använd $1CommonSense$2 för att föreslå nya kategorier',
 	'use_tusc' => 'Använd $1TUSC$2 för att autentisera och överföra filen direkt',
-	'tusc_user' => 'TUSC användarnamn',
-	'tusc_pass' => 'TUSC lösenord',
+	'tusc_user' => 'Användarnamn på TUSC',
+	'tusc_pass' => 'Lösenord på TUSC',
 	'do_it' => 'Gör det',
-	'error_transfer_usr' => 'Du har inte angett ett Wikimedia Commons användarnamn',
+	'error_transfer_usr' => 'Du har inte angett ett användarnamn på Wikimedia Commons',
 	'error_not_exists' => 'Källfilen finns inte!',
 	'error_on_commons' => 'Källfilen är redan på $1!',
 	'error_file_exists' => 'Filen finns redan på $3 som "$1$4$2"!',
@@ -3793,14 +3795,14 @@ $messages['sv'] = array(
 	'original_wikitext' => 'Ursprunglig wikitext',
 	'new_wikitext' => 'Ny wikitext',
 	'new_filename' => 'Nytt filnamn:',
-	'output_information' => 'För att ladda upp filen manuellt, redigera texten ovan (om nödvändigt), spara $1filen$2 på din dator, och $3ladda sedan upp$4 den.',
+	'output_information' => 'För att ladda upp filen manuellt, redigera texten ovan (om nödvändigt), spara $1filen$2 på din dator, och $3ladda sedan upp den$4.',
 	'upload_submit' => 'Ladda upp!',
 	'target_wiki' => 'målwikin',
 	'error_bot_blocked' => 'Upload-botten är blokerad på Wikimedia Commons.',
 	'error_upload_meta' => 'Kan inte ladda upp direkt eftersom det finns problem med metadata (se ovan)!',
 	'error_tusc_failed' => 'TUSC-verifiering misslyckades!',
 	'error_only_commons' => 'Direktuppladdning fungerar bara på Wikimedia Commons!',
-	'upload_control_text' => 'Vänligen kontrollera den nya wiki texten och klicka på "$1" om allt är OK!',
+	'upload_control_text' => 'Vänligen kontrollera den nya wikitexten och klicka på "$1" om allt är OK!',
 	'error_commons_user' => 'Ditt användarnamn på  Wikimedia Commons ska anges i beskrivningen, så att användaren, som utfört överföringen, kan identifieras!',
 	'error_upload_users' => 'Uppladdningsfunktionen är endast tillgänglig för vissa användare under testperioden!',
 	'error_upload_file' => 'Den ursprungliga filen kan inte laddas ner.',

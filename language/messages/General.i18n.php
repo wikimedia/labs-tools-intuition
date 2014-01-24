@@ -1602,6 +1602,7 @@ $messages['my'] = array(
 $messages['nb'] = array(
 	'hello' => 'Hallo',
 	'welcome' => 'Velkommen',
+	'toolversion' => 'Versjon $1',
 	'toolversionstamp' => 'Versjon $1 ($2)',
 	'etc' => 'osv.',
 	'namespace' => 'Navnerom',
@@ -1945,6 +1946,7 @@ $messages['roa-tara'] = array(
 	'dateformat' => '%B %d %Y',
 	'hello' => 'Cià',
 	'welcome' => 'Bovègne',
+	'toolversion' => 'Versione $1',
 	'toolversionstamp' => 'Versione $1 ($2)',
 	'etc' => 'ecc.',
 	'colon-separator' => ':',
@@ -2040,6 +2042,7 @@ $messages['sk'] = array(
 $messages['sl'] = array(
 	'hello' => 'Pozdravljeni',
 	'welcome' => 'Dobrodošli',
+	'toolversion' => 'Različica $1',
 	'toolversionstamp' => 'Različica $1 ($2)',
 	'etc' => 'idr.',
 	'namespace' => 'Imenski prostor',
@@ -2152,6 +2155,7 @@ $messages['sr-el'] = array(
 
 /** Swedish (svenska)
  * @author Cybjit
+ * @author Jopparn
  * @author Liftarn
  * @author Lokal Profil
  * @author Platonides
@@ -2165,14 +2169,14 @@ $messages['sv'] = array(
 	'etc' => 'etc.',
 	'namespace' => 'Namnrymd',
 	'form-submit' => 'Gå',
-	'form-reset' => 'Nollställ',
+	'form-reset' => 'Återställ',
 	'years' => '{{PLURAL: $1|år|år}}',
 	'weeks' => '{{PLURAL: $1|vecka|veckor}}',
 	'days' => '{{PLURAL: $1|dag|dagar}}',
 	'hours' => '{{PLURAL: $1|timme|timmar}}',
 	'minutes' => '{{PLURAL: $1|minut|minuter}}',
 	'seconds' => '{{PLURAL: $1|sekund|sekunder}}',
-	'last-modified-date' => 'Senast uppdaterad: $1',
+	'last-modified-date' => 'Senast ändrad: $1',
 	'view-source' => 'Visa källkod',
 	'and' => '&#32;och',
 );

@@ -417,10 +417,11 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Jskang
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
-	'moretools' => '같은 저자에서 더 많은 도구', # Fuzzy
+	'moretools' => '그 외 도구',
 	'homepage-title' => '소개',
 	'bugs' => '버그 보고 및 기능 요청',
 	'comments' => '의견과 쿼리',
@@ -505,7 +506,8 @@ $messages['ml'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
-	'moretools' => 'banyak lagi alatan daripada pengarang ini',
+	'moretools' => 'banyak lagi peralatan',
+	'homepage-title' => 'Pengenalan',
 	'bugs' => 'laporan pepijat dan permohonan ciri-ciri',
 	'comments' => 'komen dan pertanyaan',
 	'error-form-empty' => 'Ada ruangan wajib yang dibiarkan kosong. Anda mesti mengisinya sebelum bersambung.',
@@ -525,7 +527,8 @@ $messages['mt'] = array(
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
-	'moretools' => 'flere verktøy fra den samme forfatteren',
+	'moretools' => 'flere verktøy',
+	'homepage-title' => 'Indroduksjon',
 	'bugs' => 'feilrapporter og funksjonsforespørsler',
 	'comments' => 'kommentarer og spørringer',
 	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
@@ -635,7 +638,8 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'moretools' => "cchiù struminde da 'u stesse autore",
+	'moretools' => 'cchiù struminde',
+	'homepage-title' => "'Ndroduzione",
 	'bugs' => 'comunicaziune de bug e richieste de funzionalità',
 	'comments' => 'commende e inderrogaziune',
 	'error-form-empty' => "Une o cchiù cambe obbligatorie onne state lassate vianghe. Tu l'avissa combletà apprime de condinuà.",
@@ -675,7 +679,8 @@ $messages['si'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'moretools' => 'več orodij istega avtorja',
+	'moretools' => 'več orodij',
+	'homepage-title' => 'Uvod',
 	'bugs' => 'poročila o hroščih in predlogi funkcij',
 	'comments' => 'pripombe in poizvedbe',
 	'error-form-empty' => 'Eno ali več obveznih polj ni bilo izpolnjenih. Pred nadaljevanjem jih morate izpolniti.',
