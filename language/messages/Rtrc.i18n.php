@@ -390,7 +390,7 @@ $messages['de'] = array(
 $messages['diq'] = array(
 	'apply' => 'Dezge',
 	'changelog' => 'Çıçi newe yo',
-	'clear' => 'pak ke',
+	'clear' => 'bestere',
 	'currentedit' => 'Hesıbyaye timar weçineya',
 	'cvn-adder' => 'Dekeroğ',
 	'cvn-adder-empty' => 'Nêzanayen',
@@ -507,6 +507,7 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Fatemi127
  * @author Pouyana
  * @author Reza1615
  */
@@ -529,7 +530,7 @@ $messages['fa'] = array(
 	'lastupdate-rc' => 'آخرین به روز رسانی:$1',
 	'limit' => 'محدودیت',
 	'masspatrol-requires-userfilter' => 'گشت دسته‌جمعی متوقف شده‌است به دلیل اینکه نیازمند پالایهٔ کابری بوده است و هیچ پالایه‌ای تنظیم نشده‌است.',
-	'months' => 'ژانویه، فوریه، مارس، آوریل، مه، ژوئن، ژوئیه، اوت، سپتامبر، اکتبر، نوامبر، دسامبر',
+	'months' => 'ژانویه, فوریه, مارس, آوریل, مه, ژوئن, ژوئیه, اوت, سپتامبر, اکتبر, نوامبر, دسامبر',
 	'mypatrollog' => 'سیاههٔ گشت‌زنی من',
 	'namespace' => 'فضای نام',
 	'navtoggle-tooltip' => 'ثابت کردن نوار کناری',
@@ -880,6 +881,23 @@ $messages['kk-cyrl'] = array(
 	'typeEdit' => 'Өңдемелер',
 	'typeNew' => 'Жаңа беттер',
 	'userfilter' => 'Қатысушы сүзгісі',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayan
+ */
+$messages['kn'] = array(
+	'apply' => 'ಅನ್ವಯಿಸುತ್ತವೆ',
+	'asc' => 'ಆರೋಹಣ',
+	'changelog' => 'ಹೊಸತೇನಿದೆ',
+	'clear' => 'ಅಳಿಸಿ',
+	'cvn-adder' => 'ಸೇರಿಸು',
+	'cvn-adder-empty' => 'ತಿಳಿದಿಲ್ಲ',
+	'cvn-reason' => 'ಕಾರಣ',
+	'cvn-reason-empty' => 'ಯಾವುದೇ ಕಾರಣ ಕಂಡುಬಂದಿಲ್ಲ',
+	'desc' => 'ಅವರೋಹಣ',
+	'documentation' => 'ದಾಖಲೀಕರಣ',
+	'filter' => 'ಶೋಧಕ',
 );
 
 /** Korean (한국어)

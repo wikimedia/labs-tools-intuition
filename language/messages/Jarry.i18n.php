@@ -285,10 +285,12 @@ $messages['frp'] = array(
 );
 
 /** Galician (galego)
+ * @author Elisardojm
  * @author Toliño
  */
 $messages['gl'] = array(
-	'moretools' => 'máis ferramentas do mesmo autor',
+	'moretools' => 'máis ferramentas',
+	'homepage-title' => 'Introdución',
 	'bugs' => 'informes de erros e solicitudes de funcionalidades',
 	'comments' => 'comentarios e preguntas',
 	'error-form-empty' => 'Algún dos campos obrigatorios quedou baleiro. Cómpre completalos antes de continuar.',

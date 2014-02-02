@@ -296,11 +296,13 @@ $messages['be'] = array(
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  * @author Platonides
+ * @author Red Winged Duck
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'hello' => 'Прывітаньне',
 	'welcome' => 'Вітаем',
+	'toolversion' => 'Вэрсія $1',
 	'toolversionstamp' => 'Вэрсія $1, ($2)',
 	'etc' => 'і гэтак далей.',
 	'namespace' => 'Прастора назваў',
