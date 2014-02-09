@@ -278,6 +278,14 @@ $messages['es'] = array(
 	'output' => 'Salida para «$1»',
 );
 
+/** Basque (euskara)
+ * @author Subi
+ */
+$messages['eu'] = array(
+	'formats-heading' => 'Irteera formatuak',
+	'input' => 'Sarrera',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  */

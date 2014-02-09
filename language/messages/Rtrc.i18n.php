@@ -506,6 +506,18 @@ $messages['es'] = array(
 	'userfilter' => 'Filtro de usuario',
 );
 
+/** Basque (euskara)
+ * @author Subi
+ */
+$messages['eu'] = array(
+	'apply' => 'Ezarri',
+	'lastupdate-cvn' => 'Azken eguneratzea: $1',
+	'lastupdate-rc' => 'Azken eguneratzea: $1',
+	'time-from' => 'Noiztik',
+	'time-untill' => 'Noiz arte',
+	'typeNew' => 'Orrialde berriak',
+);
+
 /** Persian (فارسی)
  * @author Fatemi127
  * @author Pouyana
@@ -663,10 +675,33 @@ $messages['gu'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Yona b
  * @author תומר ט
  */
 $messages['he'] = array(
+	'asc' => 'עולה',
+	'changelog' => 'מה חדש',
+	'clear' => 'ניקוי',
+	'cvn-adder-empty' => 'לא ידוע',
+	'cvn-reason' => 'סיבה',
+	'cvn-reason-empty' => 'לא נמצאה סיבה',
+	'desc' => 'יורד',
+	'documentation' => 'תיעוד',
+	'filter' => 'מסנן',
+	'helpicon-tooltip' => 'מידע נוסף על התכונה הזאת',
+	'lastupdate-cvn' => 'עדכון אחרון:$1',
+	'lastupdate-rc' => 'עדכון אחרון:$1',
+	'limit' => 'הגבלה',
+	'mypatrollog' => 'יומן רשימת מעקב',
+	'namespace' => 'מרחב שם',
 	'showAnonOnly' => 'משתמשים אנונימיים בלבד',
+	'showUnpatrolledOnly' => 'לא במעקב בלבד',
+	'time-from' => 'מאת',
+	'time-untill' => 'עד',
+	'timeframe' => 'מסגרת זמן',
+	'type' => 'סוג',
+	'typeEdit' => 'עריכות',
+	'typeNew' => 'דפים חדשים',
 );
 
 /** Upper Sorbian (hornjoserbsce)

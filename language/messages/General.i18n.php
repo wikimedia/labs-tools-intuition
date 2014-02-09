@@ -712,10 +712,12 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author Subi
  */
 $messages['eu'] = array(
 	'hello' => 'Kaixo',
 	'welcome' => 'Ongi etorri',
+	'toolversion' => '$1 bertsioa',
 	'toolversionstamp' => 'Bertsioa $1 ($2)',
 	'etc' => 'etab.',
 	'namespace' => 'Izen-tartea',
@@ -729,6 +731,7 @@ $messages['eu'] = array(
 	'seconds' => '{{PLURAL: $1|segundu|segundu}}',
 	'last-modified-date' => 'Azken aldaketa: $1',
 	'view-source' => 'Iturria ikusi',
+	'and' => '&#32;eta',
 );
 
 /** Persian (فارسی)
@@ -905,10 +908,12 @@ $messages['gu'] = array(
  * @author Amire80
  * @author Platonides
  * @author YaronSh
+ * @author Yona b
  */
 $messages['he'] = array(
 	'hello' => 'שלום',
 	'welcome' => 'ברוך בואך',
+	'toolversion' => 'גרסה $1',
 	'toolversionstamp' => 'גרסה $1 ($2)‏',
 	'etc' => 'וכו׳',
 	'namespace' => 'מרחב שם',
@@ -1868,6 +1873,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
+ * @author Imperadeiro98
  * @author Luckas
  * @author Sarilho1
  */
@@ -1886,7 +1892,7 @@ $messages['pt'] = array(
 	'minutes' => '{{PLURAL: $1|minuto|minutos}}',
 	'seconds' => '{{PLURAL: $1|segundo|segundos}}',
 	'last-modified-date' => 'Última modificação: $1',
-	'view-source' => 'Ver código fonte',
+	'view-source' => 'Ver código-fonte',
 	'and' => '&#32;e',
 );
 

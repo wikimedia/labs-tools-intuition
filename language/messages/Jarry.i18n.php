@@ -233,6 +233,14 @@ $messages['es'] = array(
 	'error-form-empty' => 'Uno o más campos obligatorios se han dejado en blanco. Complétalos antes de continuar.',
 );
 
+/** Basque (euskara)
+ * @author Subi
+ */
+$messages['eu'] = array(
+	'moretools' => 'tresna gehiago',
+	'homepage-title' => 'Sarrera',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Reza1615
@@ -259,7 +267,9 @@ $messages['fi'] = array(
  * @author EileenSanda
  */
 $messages['fo'] = array(
-	'moretools' => 'fleiri tól frá sama høvundi',
+	'moretools' => 'fleiri tól',
+	'homepage-title' => 'Leiðbeining',
+	'bugs' => 'feilmeldingar og funksjónsfyrispurningar',
 	'comments' => 'viðmerkingar og fyrispurningar',
 	'error-form-empty' => 'Ein ella fleiri kravdir teigar eru enn tómir. Tú eigur at fylla teir út áðrenn tú heldur fram.',
 );
@@ -298,9 +308,11 @@ $messages['gl'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Yona b
  */
 $messages['he'] = array(
-	'moretools' => 'כלים נוספים של המפתח הזה',
+	'moretools' => 'כלים נוספים',
+	'homepage-title' => 'מבוא',
 	'bugs' => 'דיווחי תקלות ובקשת תכונות חדשות',
 	'comments' => 'הערות ושאלות',
 	'error-form-empty' => 'יש שדה הכרחי שלא מולא. יש למלא את כל השדות ההכרחיים כדי להמשיך.',

@@ -4145,6 +4145,7 @@ $messages['uk'] = array(
 
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
+ * @author Sociologist
  */
 $messages['uz'] = array(
 	'attention' => 'Diqqat',
@@ -4153,7 +4154,7 @@ $messages['uz'] = array(
 	'jira_link' => 'Muammo haqida xabar qilish yoki yaxshilashni taklif etish',
 	'language' => 'Til',
 	'project' => 'Loyiha',
-	'source_file' => 'Manba fayl',
+	'source_file' => 'Yuklanayotgan fayl',
 	'target_file' => 'Moʻljal fayl',
 	'commons_username' => 'VikiOmbordagi foydalanuvchi nomi',
 	'commons_to_project' => 'VikiOmbordan loyihaga',

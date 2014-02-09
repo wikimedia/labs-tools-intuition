@@ -648,6 +648,14 @@ $messages['et'] = array(
 	'tablehead-filesize' => 'Faili suurus',
 );
 
+/** Basque (euskara)
+ * @author Subi
+ */
+$messages['eu'] = array(
+	'repo-site-link' => 'Webgunea',
+	'repo-lastmoddate-label' => 'Data:',
+);
+
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Mjbmr

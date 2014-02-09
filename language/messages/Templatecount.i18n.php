@@ -598,6 +598,21 @@ $messages['ig'] = array(
 	'namespace-label' => 'Ámááhà',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'enter-details' => 'Ikabil dagiti salaysay',
+	'introduction' => 'Imakinilia ti nagan ti plantlia wenno modulo (dagiti Wikipedia laeng iti agdama) ken pinduten ti inkan. Kasta ti kalakana. Add met dagiti pannakaiduldulin (a panaglaglagip kadagiti resulta), ngem daksanggasat datoy nga adda ti ruar a panagtengngel daytoy a ramit ken ti agtagikua.',
+	'language-label' => 'Pagsasao',
+	'namespace-label' => 'Nagan ti espasio',
+	'pagename-label' => 'Nagan ti panid (saan nga iraman ti nagan ti espasio)',
+	'transclusion-count-label' => 'Bilang dagiti pannakailak-am',
+	'transclusion-count' => '$1 (dagi)ti nabirukan a pannakailak-am.',
+	'error-suggestion' => 'Mabalin a saan a husto ti panangiletra (wenno saan a husto ti kadakkel ti letra) ti nagan ti panid?',
+	'time-label' => 'Kabayag a pannakaaramid ti panagtungpal ti bilin',
+);
+
 /** Ingush (ГӀалгӀай)
  * @author Sapral Mikail
  */
@@ -769,7 +784,7 @@ $messages['lt'] = array(
 $messages['mk'] = array(
 	'title' => 'Број на превметнувања на шаблон',
 	'enter-details' => 'Внесете податоци',
-	'introduction' => 'Внесете го името на шаблонот (нажалост, засега само за Википедии) и стиснете на „Оди“. Толку. Ќе се изврши извесно кеширање (за да се запаметат резултатите), но тоа е нажалост вон контролата на алаткава и нејзиниот сопственик.',
+	'introduction' => 'Внесете го името на шаблонот (нажалост, засега само за Википедии) и стиснете на „Оди“. Толку. Ќе се изврши извесно меѓускладирање (за да се запаметат резултатите), но тоа е нажалост вон контролата на алаткава и нејзиниот сопственик.',
 	'language-label' => 'Јазик',
 	'namespace-label' => 'Именски простор',
 	'pagename-label' => 'Име на страницата (без именскиот простор)',

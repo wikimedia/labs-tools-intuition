@@ -760,6 +760,7 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author Subi
  */
 $messages['eu'] = array(
 	'current-settings' => 'Oraingo hobespenak',
@@ -774,9 +775,9 @@ $messages['eu'] = array(
 	'tab-demo' => 'Demo',
 	'bl-mysettings' => 'Nire hizkuntzaren hobespenak',
 	'bl-mysettings-new' => 'Hizkuntza aldatu!',
-	'usage' => 'Toolserver Intuitionek itzulitako tresnak.', # Fuzzy
+	'usage' => 'Intuitionek itzulitako tresnak.',
 	'help-translate-tool' => 'Tresna hau itzultzen lagundu!',
-	'help-translate-all' => 'Toolserver itzultzen lagundu!', # Fuzzy
+	'help-translate-all' => 'Lagun ezazu tresnak itzultzen!',
 );
 
 /** Persian (فارسی)

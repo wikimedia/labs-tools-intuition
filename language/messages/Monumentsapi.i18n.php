@@ -1196,6 +1196,7 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author Subi
  */
 $messages['eu'] = array(
 	'search-title' => 'Monumentuen bilaketa',
@@ -1205,6 +1206,27 @@ $messages['eu'] = array(
 	'search-table-th-search' => 'Bilatu',
 	'filter-all-countries' => 'Herrialde guztiak',
 	'filter-all-languages' => 'Hizkuntza guztiak',
+	'db-field-country' => 'Herrialdea',
+	'db-field-lang' => 'Hizkuntza',
+	'db-field-name' => 'Izena',
+	'db-field-address' => 'Helbidea',
+	'db-field-municipality' => 'Udalerria',
+	'db-field-lat' => 'Latitudea',
+	'db-field-lon' => 'Longitudea',
+	'db-field-image' => 'Irudia',
+	'db-field-st_address' => 'Helbideak',
+	'db-field-st_address_pct' => 'Helbideak %',
+	'db-field-st_coordinates' => 'Koordenatuak',
+	'db-field-st_coordinates_pct' => 'Koordenatuak %',
+	'db-field-st_image' => 'Irudia',
+	'db-field-st_image_pct' => 'Irudia %',
+	'db-field-st_municipality' => 'Udalerria',
+	'db-field-st_municipality_pct' => 'Udalerria %',
+	'db-field-st_name' => 'Izenak',
+	'db-field-st_name_pct' => 'Izenak %',
+	'toolbox-nav-homepage' => 'Hasiera orria',
+	'toolbox-nav-statistics' => 'Estatistikak',
+	'toolbox-nav-search' => 'Bilatu',
 );
 
 /** Persian (فارسی)
