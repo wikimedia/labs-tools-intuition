@@ -4,6 +4,7 @@ $domains = array(
 	'commonshelper2' => 'Commonshelper2.i18n.php',
 	'general' => 'General.i18n.php',
 	'getwikiapi' => 'Getwikiapi.i18n.php',
+	'grep' => 'Grep.i18n.php',
 	'jarry' => 'Jarry.i18n.php',
 	'krinkle' => 'Krinkle.i18n.php',
 	'monumentsapi' => 'Monumentsapi.i18n.php',
