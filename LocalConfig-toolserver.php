@@ -3,7 +3,7 @@
  * LocalConfig for Toolserver instance at https://toolserver.org/~intuition/.
  */
 
-function intuitionHookInit( $TsIntuition ) {
+function intuitionHookInit( $intuition ) {
 
 	// Hide certain tools for now
 	$hiddenTools = array(
@@ -11,6 +11,6 @@ function intuitionHookInit( $TsIntuition ) {
 	);
 
 	foreach ( $hiddenTools as $hideTool ) {
-		unset( $TsIntuition->registeredTextdomains[$hideTool] );
+		unset( $intuition->registeredTextdomains[$hideTool] );
 	}
 }

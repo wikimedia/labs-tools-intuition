@@ -1,9 +1,9 @@
 <?php
 
 // BaseTool
-require_once __DIR__ . '/../../../includes/libs/ts-krinkle-basetool/InitTool.php';
+require_once __DIR__ . '/../../../includes/libs/basetool/InitTool.php';
 
-// TsIntuition classes
+// Intuition classes
 require_once __DIR__ . '/../../../ToolStart.php';
 
 class IntuitionTestCase extends PHPUnit_Framework_TestCase {
@@ -15,7 +15,7 @@ class IntuitionTestCase extends PHPUnit_Framework_TestCase {
 	protected function setUp() {
 		parent::setUp();
 
-		$this->i18n = new TsIntuition( 'general' );
+		$this->i18n = new Intuition( 'general' );
 		$this->live['SERVER'] = $_SERVER;
 	}
 

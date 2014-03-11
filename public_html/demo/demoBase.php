@@ -58,7 +58,7 @@ $startHTML = <<<HTML
 		margin: 0px 2px;
 	}
 	/* Example */
-	.tsint-promobox {
+	.int-promobox {
 		background: #F9F9F9;
 		padding: 5px 8px;
 		margin: 10px;

@@ -12,8 +12,8 @@
 
 # HACK: Intuition
 # @{
-if ( !defined( 'TS_INTUITION' ) ) {
-	echo "This file is part of Intuition, it is not a valid entry point.\n";
+if ( !defined( 'INTUITION' ) ) {
+	echo "This file is not a valid entry point\n";
 # @}
 	exit( 1 );
 }

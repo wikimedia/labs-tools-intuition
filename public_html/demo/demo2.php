@@ -5,11 +5,11 @@ require_once 'demoBase.php';
 
 /* Demonstration */
 
-// 1) Init TsIntuition
+// 1) Init
 $options = array(
 	'domain' => 'tsintuition',
 );
-$I18N = new TsIntuition( $options );
+$I18N = new Intuition( $options );
 
 // 2) Request an undefined message
 // Because 'suppressnotices' is true (default),

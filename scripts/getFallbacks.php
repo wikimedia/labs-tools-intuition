@@ -2,9 +2,9 @@
 /**
  * Get fallbacks from MediaWiki core.
  *
- * @copyright 2011-2012 See AUTHORS.txt
+ * @copyright 2011-2014 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package TsIntuition
+ * @package intuition
  */
 
 $dir = '/path/to/mediawiki-core/languages/messages/';

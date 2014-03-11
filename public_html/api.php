@@ -2,9 +2,9 @@
 /**
  * Entry point for the Intuition API.
  *
- * @copyright 2011-2013 See AUTHORS.txt
+ * @copyright 2011-2014 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package TsIntuition
+ * @package intuition
  */
 
 /**
@@ -13,17 +13,14 @@
  */
 
 // Load BaseTool
-$initPath = '../../ts-krinkle-basetool';
-if ( !is_readable( $initPath ) )  {
-	$initPath = dirname( __DIR__ ) . '/includes/libs/ts-krinkle-basetool';
-}
+$initPath = dirname( __DIR__ ) . '/includes/libs/basetool';
 require_once $initPath . '/InitTool.php';
 
 // Load Intuition
 require_once dirname( __DIR__ ) . '/ToolStart.php';
 
 // Initialize Intuition
-$I18N = new TsIntuition( array(
+$I18N = new Intuition( array(
 	'domain' => 'TsIntuition',
 	'mode' => 'dashboard',
 ) );

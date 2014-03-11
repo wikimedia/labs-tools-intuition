@@ -1,8 +1,8 @@
 {
-	"name": "TsIntuition",
-	"version": "0.1.3-pre",
-	"homepage": "https://github.com/Krinkle/TsIntuition",
-	"bugs": "https://github.com/Krinkle/TsIntuition/issues",
+	"name": "intuition",
+	"version": "0.1.4",
+	"homepage": "https://github.com/Krinkle/intuition",
+	"bugs": "https://github.com/Krinkle/intuition/issues",
 	"scripts": {
 		"pretest": "which phpunit && phpunit --version && which grunt && grunt --version",
 		"test": "grunt && phpunit --configuration tests/phpunit/phpunit.xml"

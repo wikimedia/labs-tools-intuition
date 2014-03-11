@@ -7,6 +7,8 @@
 * Rename hook 'TsIntuition_inithook' to 'intuitionHookInit'.
   Old one still works, though only one will run (if both are
   defined, the new one is used).
+* Rename TsIntuition to Intuition.
+  Repository to https://github.com/Krinkle/intuition.
 
 
 = 0.1.2 =

@@ -1,5 +1,5 @@
 <?php
-class TsIntuitionUtilTest extends PHPUnit_Framework_TestCase {
+class IntuitionUtilTest extends PHPUnit_Framework_TestCase {
 
 	public static function provideNonEmptyStr() {
 		return array(
@@ -21,7 +21,7 @@ class TsIntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testNonEmptyStr( $bool, $input ) {
 		$this->assertSame(
-			TsIntuitionUtil::nonEmptyStr( $input ),
+			IntuitionUtil::nonEmptyStr( $input ),
 			$bool
 		);
 	}
@@ -44,7 +44,7 @@ class TsIntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testNonEmptyStrs( $bool, $inputArgs ) {
 		$this->assertSame(
-			call_user_func_array( 'TsIntuitionUtil::nonEmptyStrs', $inputArgs ),
+			call_user_func_array( 'IntuitionUtil::nonEmptyStrs', $inputArgs ),
 			$bool
 		);
 	}
@@ -108,7 +108,7 @@ class TsIntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testGetAcceptableLanguages( $data, $result, $message ) {
 		$this->assertEquals(
-			TsIntuitionUtil::getAcceptableLanguages( $data ),
+			IntuitionUtil::getAcceptableLanguages( $data ),
 			$result,
 			$message
 		);

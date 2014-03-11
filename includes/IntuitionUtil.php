@@ -2,21 +2,21 @@
 /**
  * Static utitlities class.
  *
- * @copyright 2011-2012 See AUTHORS.txt
+ * @copyright 2011-2014 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package TsIntuition
+ * @package intuition
  */
 
 // Protect against invalid entry
-if ( !defined( 'TS_INTUITION' ) ) {
-	echo "This file is part of TsIntuition and is not a valid entry point\n";
+if ( !defined( 'INTUITION' ) ) {
+	echo "This file is not a valid entry point\n";
 	exit;
 }
 
 /**
  * This class contains the static utility functions for the Itui class.
  */
-class TsIntuitionUtil {
+class IntuitionUtil {
 
 	private static $articlePath;
 
@@ -61,7 +61,7 @@ class TsIntuitionUtil {
 			return false;
 		}
 		foreach ( $args as $arg) {
-			if ( !TsIntuitionUtil::nonEmptyStr( $arg ) ) {
+			if ( !self::nonEmptyStr( $arg ) ) {
 				return false;
 			}
 		}

@@ -2,14 +2,14 @@
 /**
  * Main class.
  *
- * @copyright 2011-2012 See AUTHORS.txt
+ * @copyright 2011-2014 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package TsIntuition
+ * @package intuition
  */
 
 // Protect against invalid entry
-if( !defined( 'TS_INTUITION' ) ) {
-	echo "This file is part of TsIntuition and is not a valid entry point\n";
+if ( !defined( 'INTUITION' ) ) {
+	echo "This file is not a valid entry point\n";
 	exit;
 }
 
@@ -17,7 +17,7 @@ if( !defined( 'TS_INTUITION' ) ) {
  * This file contains the main class which the individual tools will
  * creating an instance of to use and configure their i18n.
  */
-class TsIntuition {
+class Intuition {
 
 	/* Variables
 	 * ------------------------------------------------- */
@@ -92,11 +92,12 @@ class TsIntuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * Initialize TsIntuition
+	 * Initialize class
 	 *
 	 * Pass a string (domain) or array (options)
 	 *
 	 * Options:
+	 *
 	 * - lang
 	 * - domain
 	 * - globalfunctions
@@ -143,24 +144,23 @@ class TsIntuition {
 			require_once $this->localBaseDir . '/includes/Functions.php';
 		}
 
-		// Allow a tool to suppress fatals, which will prevent TsIntuition from showing fatal errors.
+		// Allow a tool to suppress fatals, which hide php fatal errors.
 		$this->suppressfatal = $options['suppressfatal'];
 
-		// Allow a tool to suppress notices, which will prevent TsIntuition from showing notices.
+		// Allow a tool to suppress notices, which hide php notices.
 		$this->suppressnotice = $options['suppressnotice'];
 
 		// Allow a tool to suppress brackets, msg() will return "Messagekey" instead of "[messagekey]"
 		// if this is true.
 		$this->suppressbrackets = $options['suppressbrackets'];
 
-		// Allow a tool to prevent TsIntuition for exiting/dieing on fatal errors.
+		// Allow a tool to prevent exiting/dieing on fatal errors.
 		$this->stayalive = $options['stayalive'];
 
-		// TsIntuition will choose the language based on a cookie. However it
-		// can be manually overriden for permalinks through a request parameter.
-		// By default this is 'userlang'. If you need this parameter for something else
-		// you can disable this system here. To avoid inconsistencies between tools
-		// a custom parameter name will not be supported. It's either on or off.
+		// Choose language based on a cookie. However it can be manually overriden for permalinks
+		// through a request parameter. By default this is 'userlang'. If you need this parameter
+		// for something else you can disable this system here. To avoid inconsistencies between
+		// tools a custom parameter name will not be supported. It's either on or off.
 		$this->setUseRequestParam( $options['param'] );
 
 		// Load the initial text domain
@@ -185,15 +185,15 @@ class TsIntuition {
 
 	}
 
-	public function initHook( $TsIntuition ) {
+	public function initHook( Intuition $intuition ) {
 
 		// Version date (default to this file modification time)
 		// Can be overwritten in LocalConfig (ie. from svn info)
 
 		if ( function_exists( 'intuitionHookInit' ) ) {
-			intuitionHookInit( $TsIntuition );
+			intuitionHookInit( $intuition );
 		} elseif ( function_exists( 'TsIntuition_inithook' ) ) {
-			TsIntuition_inithook( $TsIntuition );
+			TsIntuition_inithook( $intuition );
 		}
 
 	}
@@ -214,7 +214,7 @@ class TsIntuition {
 	 * @return boolean
 	 */
 	public function setLang( $lang ) {
-		if ( TsIntuitionUtil::nonEmptyStr( $lang ) ) {
+		if ( IntuitionUtil::nonEmptyStr( $lang ) ) {
 			$this->currentLanguage = $lang;
 			return true;
 		}
@@ -282,7 +282,7 @@ class TsIntuition {
 
 	/**
 	 * Cookie names may change over time, don't depend on them.
-	 * Each cookie-name has an alias (eg. 'userlang' instead of 'TsIntuition-pref_userlang')
+	 * Each cookie-name has an alias (eg. 'userlang' instead of 'pref_userlang')
 	 * Use getCookieName() if you only need a single value.
 	 *
 	 * @return array An array of aliases as keys and actual cookienames as values
@@ -380,7 +380,7 @@ class TsIntuition {
 	public function msg( $key = 0, $options = array(), $fail = null ) {
 
 		// Make sure a proper key was passed.
-		if ( !TsIntuitionUtil::nonEmptyStr( $key ) ) {
+		if ( !IntuitionUtil::nonEmptyStr( $key ) ) {
 			return $this->bracketMsg( $key, $fail );
 		}
 
@@ -396,7 +396,7 @@ class TsIntuition {
 		);
 
 		// If $options was a domain string, convert it now.
-		if ( TsIntuitionUtil::nonEmptyStr( $options ) ) {
+		if ( IntuitionUtil::nonEmptyStr( $options ) ) {
 			$options = array( 'domain' => $options );
 		}
 
@@ -435,7 +435,7 @@ class TsIntuition {
 
 		// Escape now or do it after variable replacement ?
 		if ( $options['raw-variables'] === true ) {
-			$msg = TsIntuitionUtil::strEscape( $msg, $options['escape'] );
+			$msg = IntuitionUtil::strEscape( $msg, $options['escape'] );
 			$escapeDone = true;
 		}
 
@@ -453,15 +453,15 @@ class TsIntuition {
 		// If not already escaped, do it now
 		if ( !$escapeDone ) {
 			$escapeDone = true;
-			$msg = TsIntuitionUtil::strEscape( $msg, $options['escape'] );
+			$msg = IntuitionUtil::strEscape( $msg, $options['escape'] );
 		}
 
 		if ( is_string( $options['wikilinks'] ) ) {
-			$msg = TsIntuitionUtil::parseWikiLinks( $msg, $options['wikilinks'] );
+			$msg = IntuitionUtil::parseWikiLinks( $msg, $options['wikilinks'] );
 		}
 
 		if ( $options['externallinks'] ) {
-			$msg = TsIntuitionUtil::parseExternalLinks( $msg );
+			$msg = IntuitionUtil::parseExternalLinks( $msg );
 		}
 
 		// Finally
@@ -545,13 +545,13 @@ class TsIntuition {
 	 */
 	public function setMsg( $key, $message, $domain = null, $lang = null ) {
 
-		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) ) {
+		if ( !IntuitionUtil::nonEmptyStr( $domain ) ) {
 			$domain = $this->getDomain();
 		} else {
 			// Normalise domain name (case-insensitive)
 			$domain = strtolower( $domain );
 		}
-		if ( !TsIntuitionUtil::nonEmptyStr( $lang ) ) {
+		if ( !IntuitionUtil::nonEmptyStr( $lang ) ) {
 			$lang = $this->getLang();
 		}
 		$this->messageBlob[$domain][$lang][$key] = $message;
@@ -684,7 +684,7 @@ class TsIntuition {
 	public function loadTextdomain( $domain ) {
 
 		// Generally validate input and protect against path traversal
-		if ( !TsIntuitionUtil::nonEmptyStr( $domain ) ||
+		if ( !IntuitionUtil::nonEmptyStr( $domain ) ||
 			strcspn( $domain, ":/\\\000" ) !== strlen( $domain )
 		) {
 			$this->errTrigger( "Invalid textdomain \"$domain\"", __METHOD__, E_NOTICE );
@@ -725,7 +725,7 @@ class TsIntuition {
 	 * @param string $domain
 	 */
 	public function loadTextdomainFromFile( $filePath, $domain ) {
-		if ( !TsIntuitionUtil::nonEmptyStrs( $filePath, $domain ) ) {
+		if ( !IntuitionUtil::nonEmptyStrs( $filePath, $domain ) ) {
 			$this->errTrigger( 'One or more arguments are missing', __METHOD__, E_NOTICE,
 				__FILE__, __LINE__
 			);
@@ -860,7 +860,7 @@ class TsIntuition {
 	}
 
 	/**
-	 * Delete all TsIntuition cookies.
+	 * Delete all cookies.
 	 * It's recommended to redirectTo() directly after this.
 	 * @return boolean
 	 */
@@ -1034,7 +1034,7 @@ class TsIntuition {
 		} else {
 			$text = $this->msg( 'bl-mysettings-new', 'tsintuition' );
 		}
-		return '<span class="tsint-dashboardbacklink">' . TsIntuitionUtil::tag(
+		return '<span class="int-dashboardbacklink">' . IntuitionUtil::tag(
 			$text,
 			'a',
 			array(
@@ -1063,13 +1063,13 @@ class TsIntuition {
 			$src = '//upload.wikimedia.org/wikipedia/commons/thumb/b/be'
 				. '/Wikimedia_Community_Logo-Toolserver.svg'
 				. "/{$imgSize}px-Wikimedia_Community_Logo-Toolserver.svg.png";
-			$img = TsIntuitionUtil::tag( '', 'img', array(
+			$img = IntuitionUtil::tag( '', 'img', array(
 				'src' => $src,
 				'width' => $imgSize,
 				'height' => $imgSize,
 				'alt' => '',
 				'title' => '',
-				'class' => 'tsint-logo',
+				'class' => 'int-logo',
 			) );
 		} else {
 			$img = '';
@@ -1082,7 +1082,7 @@ class TsIntuition {
 			'raw-variables' => true,
 			'variables' => array(
 				'<a href="//translatewiki.net/">translatewiki.net</a>',
-				'<a href="' . $this->dashboardHome . '">Toolserver Intuition</a>'
+				'<a href="' . $this->dashboardHome . '">Intuition</a>'
 			),
 		);
 		$powered = $this->msg( 'bl-promo', $promoMsgOpts );
@@ -1114,7 +1114,7 @@ class TsIntuition {
 				'group' => "tsint-$helpTranslateDomain",
 			);
 			$twParams = http_build_query( $twParams );
-			$helpTranslateLink = '<small>(' . TsIntuitionUtil::tag( $twLinkText, 'a', array(
+			$helpTranslateLink = '<small>(' . IntuitionUtil::tag( $twLinkText, 'a', array(
 				'href' => "//translatewiki.net/w/i.php?$twParams",
 				'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' )
 			) ) . ')</small>';
@@ -1122,7 +1122,7 @@ class TsIntuition {
 
 		// Build output
 		return
-			"<div class=\"tsint-promobox\"><p><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a> "
+			"<div class=\"int-promobox\"><p><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a> "
 			. "$powered {$this->dashboardBacklink()} $helpTranslateLink</p></div>";
 	}
 
@@ -1205,7 +1205,7 @@ class TsIntuition {
 
 	/**
 	 * @param string $content: Text or HTML to be wrapped in parentheses.
-	 * @param string $escape: Any valid format for TsIntuitionUtil::strEscape.
+	 * @param string $escape: Any valid format for IntuitionUtil::strEscape.
 	 */
 	public function parensWrap( $content, $escape = 'plain' ) {
 		return $this->msg(
@@ -1213,7 +1213,7 @@ class TsIntuition {
 			array(
 				'domain' => 'general',
 				'raw-variables' => true,
-				'variables' => array( TsIntuitionUtil::strEscape( $content, $escape ) ),
+				'variables' => array( IntuitionUtil::strEscape( $content, $escape ) ),
 			)
 		);
 	}
@@ -1304,7 +1304,7 @@ class TsIntuition {
 		}
 
 		if ( !$set ) {
-			$acceptableLanguages = TsIntuitionUtil::GetAcceptableLanguages();
+			$acceptableLanguages = IntuitionUtil::getAcceptableLanguages();
 			foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
 
 				if ( $acceptLang === '*' ) {

@@ -1,12 +1,12 @@
 <?php
 /**
- * Main index file of the TsIntuition Dashboard.
+ * Main entry point (web dashboard).
  *
- * This file outputs the interface to set settings for TsIntuition.
+ * This file outputs the interface to change user preferences.
  *
- * @copyright 2011-2013 See AUTHORS.txt
+ * @copyright 2011-2014 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package TsIntuition
+ * @package intuition
  */
 
 
@@ -16,17 +16,14 @@
  */
 
 // Load BaseTool
-$initPath = '../../ts-krinkle-basetool';
-if ( !is_readable( $initPath ) )  {
-	$initPath = dirname( __DIR__ ) . '/includes/libs/ts-krinkle-basetool';
-}
+$initPath = dirname( __DIR__ ) . '/includes/libs/basetool';
 require_once $initPath . '/InitTool.php';
 
 // Load Intuition
 require_once dirname( __DIR__ ) . '/ToolStart.php';
 
 // Initialize Intuition
-$I18N = new TsIntuition( array(
+$I18N = new Intuition( array(
 	'domain' => 'TsIntuition',
 	'mode' => 'dashboard',
 ) );
@@ -46,7 +43,7 @@ $Tool = BaseTool::newFromArray( array(
 	'revisionId'	 => $I18N->version,
 	'styles'		 => array( 'main.css' ),
 ) );
-$Tool->setSourceInfoGithub( 'Krinkle', 'TsIntuition', dirname( __DIR__ ) );
+$Tool->setSourceInfoGithub( 'Krinkle', 'intuition', dirname( __DIR__ ) );
 
 /* Load Scripts & Styles */
 
@@ -113,8 +110,8 @@ if ( isset( $_GET['action'] ) ) {
 if ( $I18N->isRedirecting() ) {
 	$returnTo = $kgReq->getVal( 'returnto' );
 	$returnToQuery = $kgReq->getVal( 'returntoquery' );
-	if ( TsIntuitionUtil::nonEmptyStr( $returnTo ) ) {
-		if ( TsIntuitionUtil::nonEmptyStr( $returnToQuery ) ) {
+	if ( IntuitionUtil::nonEmptyStr( $returnTo ) ) {
+		if ( IntuitionUtil::nonEmptyStr( $returnToQuery ) ) {
 			$returnToQuery = '?' . urldecode( $returnToQuery );
 		} else {
 			$returnToQuery = '';
@@ -155,7 +152,7 @@ if ( isset( $_GET['msg'] ) ) {
 	}
 }
 
-$Tool->addOut( '<div id="tsint-dashboard">' );
+$Tool->addOut( '<div id="int-dashboard">' );
 
 // Cookie has already been set, show "current-settings" box
 if ( $I18N->hasCookies() ) {
@@ -269,7 +266,7 @@ $toolSettings['tabs']['#tab-settingsform'] = $I18N->msg('tab-settings');
 // About tab
 $about = '<div id="tab-about">';
 
-$about .= '<a href="//translatewiki.net/wiki/Translating:Toolserver">'
+$about .= '<a href="//translatewiki.net/wiki/Translating:Intuition">'
 	.	Html::element( 'img', array(
 		'src' => '//translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&'
 			. 'count=edits&scale=weeks&days=30&width=520&height=400&group=tsint-0-all',
@@ -279,8 +276,8 @@ $about .= '<a href="//translatewiki.net/wiki/Translating:Toolserver">'
 		'class' => 'floatRight'
 		))
 	.	'</a>';
-$about .= 'Technical documentation: <a href="//wiki.toolserver.org/view/Toolserver_Intuition">'
-	. 'wiki.toolserver.org/view/Toolserver_Intuition</a>'
+$about .= '<a href="https://github.com/Krinkle/intuition/wiki/Documentation">'
+	. 'Technical documentation</a>'
 	. '<div class="tab-paragraph-head">' . $I18N->msg( 'usage' ) . '</div><ul>';
 foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
 	$domainInfo = $I18N->getDomainInfo( $domainKey );
@@ -300,23 +297,23 @@ $toolSettings['tabs']['#tab-about'] = $I18N->msg('tab-about');
 $toolSettings['tabs']['demo/demo1.php'] = $I18N->msg('tab-demo');
 
 
-$Tool->addOut( '</div><!-- /#tsint-dashboard -->' );
+$Tool->addOut( '</div><!-- /#int-dashboard -->' );
 
 
 /**
  * JavaScript init
  * -------------------------------------------------
  */
-$script[] = '$(document).ready(function(){';
-$script[] = '$("#tsint-dashboard").prepend(\'<ul>';
+$script[] = '$(document).ready(function () {';
+$script[] = '$("#int-dashboard").prepend(\'<ul>';
 foreach ( $toolSettings['tabs'] as $tabID => $tabName ) {
 	$script[] = "<li><a href=\"$tabID\">$tabName</a></li>";
 }
 $script[] = '</ul>\');';
-$script[] = '$("#tsint-dashboard").tabs({
-	select: function(event, ui) {
+$script[] = '$("#int-dashboard").tabs({
+	select: function (event, ui) {
 		var url = $.data(ui.tab, "load.tabs");
-		if( url ) {
+		if (url) {
 			window.open(url);
 			return false;
 		}

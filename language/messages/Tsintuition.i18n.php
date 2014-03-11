@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '//toolserver.org/~intuition/';
+$url = '//tools.wmflabs.org/intuition/';
 
 $messages = array();
 
@@ -67,15 +67,15 @@ Intuition (INTUI-tion) stands for " Internationalization for Toolserver\'s User 
 {{Identical|Overview}}',
 	'tab-settings' => 'Dashboard tab for "Settings" which allows the user to edit the settings.
 {{Identical|Settings}}',
-	'tab-about' => "Dashboard tab for \"About\" which opens a window with a demonstration page. See [//toolserver.org/~intuition/ TsIntuition Dashboard] for a live example.
+	'tab-about' => "Dashboard tab for \"About\" which opens a window with a demonstration page. See [//tools.wmflabs.org/intuition/ Intuition Dashboard] for a live example.
 
 If 'About' doesn't work in your language, possible equivalents may be 'Details', 'About us', 'About this', 'Information' or 'Data'.
 
 {{Identical|About}}",
 	'tab-demo' => 'Dashboard tab for "Demo" which opens a window with a demonstration page.',
-	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used TsIntuition before.
+	'bl-mysettings' => 'Backlink from within other tools to the dashboard for users that have used Intuition before.
 {{Identical|Language settings}}',
-	'bl-mysettings-new' => 'Backlink to TsIntuition for users that are new to TsIntuition.
+	'bl-mysettings-new' => 'Backlink to Intuition for users that are new to Intuition.
 {{Identical|Change language}}',
 	'bl-promo' => "Sentence displayed at the bottom of other tools promoting translatewiki.net and Toolserver Intuition.
 * $1 is a link to translatewiki.net

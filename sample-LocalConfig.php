@@ -4,6 +4,6 @@
  * then modify that file if you need to.
  */
 
-function intuitionHookInit( $TsIntuition ) {
-	$TsIntuition->dashboardHome = '//localhost.dev/TsIntuition/public_html/';
+function intuitionHookInit( $intuition ) {
+	$intuition->dashboardHome = '//localhost.dev/intuition/public_html/';
 }

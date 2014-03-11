@@ -1,14 +1,10 @@
 <?php
 /**
- * Constants.
+ * This file defines the constants.
  *
- * @copyright 2011-2012 See AUTHORS.txt
+ * @copyright 2011-2014 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package TsIntuition
- */
-
-/**
- * This file defines constants for Toolserver Intuition.
+ * @package intuition
  */
 
 define( 'TSINT_HELP_ALL', true );

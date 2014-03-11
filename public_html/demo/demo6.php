@@ -5,8 +5,8 @@ require_once 'demoBase.php';
 
 /* Demonstration */
 
-// 1) Init $I18N
-$I18N = new TsIntuition( 'general' /* name of textdomain here */ );
+// 1) Init
+$I18N = new Intuition( 'general' /* name of textdomain here */ );
 
 // 2) Do it
 
@@ -35,7 +35,7 @@ var_dump(
 echo '<br/>nonEmptyStr: ';
 var_dump(
 
-	TsIntuitionUtil::nonEmptyStr( 'one' )
+	IntuitionUtil::nonEmptyStr( 'one' )
 
 );
 
@@ -43,12 +43,12 @@ var_dump(
 echo '<br/>nonEmptyStrs: ';
 var_dump(
 
-	TsIntuitionUtil::nonEmptyStrs( 'one', '', 'three' )
+	IntuitionUtil::nonEmptyStrs( 'one', '', 'three' )
 
 );
 var_dump(
 
-	TsIntuitionUtil::nonEmptyStrs( 'one', 'three' )
+	IntuitionUtil::nonEmptyStrs( 'one', 'three' )
 
 );
 
@@ -58,7 +58,7 @@ echo "<br/>getAcceptableLanguages: (default: \$_SERVER['HTTP_ACCEPT_LANGUAGE']: 
 	"):<br/>";
 var_dump(
 
-	TsIntuitionUtil::getAcceptableLanguages( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )
+	IntuitionUtil::getAcceptableLanguages( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )
 
 );
 
@@ -66,7 +66,7 @@ $acceptLang = 'nl-be,nl;q=0.7,en-us,en;q=0.3';
 echo "<br/>getAcceptableLanguages: ( '{$acceptLang}' ):<br/>";
 var_dump(
 
-	TsIntuitionUtil::getAcceptableLanguages( $acceptLang )
+	IntuitionUtil::getAcceptableLanguages( $acceptLang )
 
 );
 

@@ -1,11 +1,11 @@
 <?php
 /**
  * Functions for messages (PLURAL, etc.).
- * @see TsIntuition::msg()
+ * @see Intuition::msg()
  *
- * @copyright 2011-2012 See AUTHORS.txt
+ * @copyright 2011-2014 See AUTHORS.txt
  * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package TsIntuition
+ * @package intuition
  */
 
 class MessagesFunctions {
@@ -28,14 +28,14 @@ class MessagesFunctions {
 	 *
 	 * Get a instance of MessagesFunctions.
 	 *
-	 * @param String $baseDir The path of the root dir of TS-I18N
-	 * @param TsIntuition $I18N The current object of TsIntution
 	 * @static
-	 * @see TsIntuition::getMessagesFunctions()
+	 * @param String $baseDir The path of the root dir of TS-I18N
+	 * @param Intuition $intuition
+	 * @see Intuition::getMessagesFunctions()
 	 */
-	public static function getInstance( $baseDir, $I18N ) {
+	public static function getInstance( $baseDir, Intuition $intuition ) {
 		if( self::$instance == null ) {
-			self::$instance = new MessagesFunctions( $baseDir, $I18N );
+			self::$instance = new MessagesFunctions( $baseDir, $intuition );
 			return self::$instance;
 		} else {
 			return self::$instance;
@@ -47,11 +47,11 @@ class MessagesFunctions {
 	 * Construct a new object of MessageFunctions.
 	 *
 	 * @param String $baseDir The path of the root dir of TS-I18N
-	 * @param TsIntuition $I18N The current object of TsIntution
+	 * @param Intuition $intuition
 	 */
-	function __construct( $baseDir, $I18N ) {
+	function __construct( $baseDir, $intuition ) {
 		$this->baseDir = $baseDir;
-		$this->I18N = $I18N;
+		$this->I18N = $intuition;
 
 		require_once $this->baseDir . '/language/mw-classes/Language.php';
 	}
@@ -143,22 +143,22 @@ class MessagesFunctions {
 			case 1:
 				return $parameters[0];
 			case 2:
-				return TsIntuitionUtil::tag( $parameters[0], 'span', array(
+				return IntuitionUtil::tag( $parameters[0], 'span', array(
 						'class' => 'gender-male gender-neutral'
 					) ) .
-					TsIntuitionUtil::tag( $parameters[1], 'span', array(
+					IntuitionUtil::tag( $parameters[1], 'span', array(
 						'class' => 'gender-female'
 					) );
 			default:
 				$this->addParseError( "{{GENDER:}} given too many variants" );
 			case 3:
-				return TsIntuitionUtil::tag( $parameters[2], 'span', array(
+				return IntuitionUtil::tag( $parameters[2], 'span', array(
 						'class' => 'gender-neutral'
 					) ) .
-					TsIntuitionUtil::tag( $parameters[0], 'span', array(
+					IntuitionUtil::tag( $parameters[0], 'span', array(
 						'class' => 'gender-male'
 					) ) .
-					TsIntuitionUtil::tag( $parameters[1], 'span', array(
+					IntuitionUtil::tag( $parameters[1], 'span', array(
 						'class' => 'gender-female'
 					) );
 		}

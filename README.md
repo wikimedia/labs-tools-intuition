@@ -1,13 +1,13 @@
-# Toolserver Intuition [![Build Status](https://travis-ci.org/Krinkle/TsIntuition.png)](https://travis-ci.org/Krinkle/TsIntuition)
+# Intuition [![Build Status](https://travis-ci.org/Krinkle/intuition.png?branch=master)](https://travis-ci.org/Krinkle/intuition)
 
 ## Usage
 
-To use it in a tool, read the  [Usage documentation](https://github.com/Krinkle/TsIntuition/wiki/Documentation#usage).
+To use it in a tool, read the  [Usage documentation](https://github.com/Krinkle/intuition/wiki/Documentation#usage).
 
 ## Quick start
 
 ```bash
-git clone --recursive https://github.com/Krinkle/TsIntuition.git
+git clone --recursive https://github.com/Krinkle/intuition.git
 ```
 
 ## Getting involved

@@ -4,7 +4,7 @@
 	http://pear.php.net/manual/en/package.php.php-codesniffer.annotated-ruleset.php
 	https://github.com/squizlabs/PHP_CodeSniffer/tree/master/CodeSniffer/Standards
 -->
-<ruleset name="TsIntuition">
+<ruleset name="intuition">
 	<rule ref="Generic.Classes.DuplicateClassName" />
 	<rule ref="Generic.CodeAnalysis.EmptyStatement" />
 	<rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop" />

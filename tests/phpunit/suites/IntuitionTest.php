@@ -1,7 +1,7 @@
 <?php
 
 // @codingStandardsIgnoreStart
-class TestTsIntuition extends TsIntuition {
+class TestIntuition extends Intuition {
 // @codingStandardsIgnoreEnd
 
 	// Stub this method. The test asserts that working with these
@@ -25,14 +25,14 @@ class TestTsIntuition extends TsIntuition {
 	}
 }
 
-class TsIntuitionTest extends PHPUnit_Framework_TestCase {
+class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	private $i18n;
 
 	protected function setUp() {
 		parent::setUp();
 
-		$intuition = new TestTsIntuition( 'general' );
+		$intuition = new TestIntuition( 'general' );
 		$intuition->setMsg( 'test-value', 'en value', 'test-domain', 'en' );
 		$intuition->setMsg( 'test-value', 'de value', 'test-domain', 'de' );
 		$intuition->setMsg( 'test-value', 'nan value', 'test-domain', 'nan' );
@@ -48,7 +48,7 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function testConstructor() {
-		$i18n = new TsIntuition();
+		$i18n = new Intuition();
 
 		$this->assertEquals(
 			'Welcome',
@@ -56,7 +56,7 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 			'Defaults to "general"'
 		);
 
-		$i18n = new TsIntuition( 'tsintuition' );
+		$i18n = new Intuition( 'tsintuition' );
 
 		$this->assertEquals(
 			'Demo',
@@ -64,7 +64,7 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 			'Domain key as string'
 		);
 
-		$i18n = new TsIntuition( array(
+		$i18n = new Intuition( array(
 			'domain' => 'tsintuition'
 		) );
 
@@ -145,7 +145,7 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 
 	public function testOptionShowNotices() {
 
-		$i18n = new TsIntuition( array(
+		$i18n = new Intuition( array(
 			// Show notices
 			'suppressnotice' => false,
 		) );
@@ -156,7 +156,7 @@ class TsIntuitionTest extends PHPUnit_Framework_TestCase {
 			'Unknown key falls back to bracket-wrapped key'
 		);
 		$this->expectOutputString(
-			'Notice: [TsIntuition::msg] Message "r4nd0mstr1n9" in domain "general" not found.'
+			'Notice: [Intuition::msg] Message "r4nd0mstr1n9" in domain "general" not found.'
 		);
 	}
 
