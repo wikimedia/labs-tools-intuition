@@ -679,9 +679,13 @@ $messages['gu'] = array(
  * @author תומר ט
  */
 $messages['he'] = array(
+	'title' => 'שינויים אחרונים בזמן אמת',
+	'apply' => 'החלה',
 	'asc' => 'עולה',
 	'changelog' => 'מה חדש',
 	'clear' => 'ניקוי',
+	'currentedit' => 'עריכה נוכחית שנבחרה',
+	'cvn-adder' => 'מוסיף',
 	'cvn-adder-empty' => 'לא ידוע',
 	'cvn-reason' => 'סיבה',
 	'cvn-reason-empty' => 'לא נמצאה סיבה',
@@ -692,16 +696,26 @@ $messages['he'] = array(
 	'lastupdate-cvn' => 'עדכון אחרון:$1',
 	'lastupdate-rc' => 'עדכון אחרון:$1',
 	'limit' => 'הגבלה',
+	'masspatrol-requires-userfilter' => 'ניטור־מרובה (MassPatrol) בוטל בגלל שנדרש מסנן משתמש אך אף מסנן לא הוגדר.',
+	'months' => 'ינואר, פברואר, מרץ, אפריל, מאי, יוני, יולי, אוגוסט, ספטמבר, אוקטובר, נובמבר, דצמבר',
 	'mypatrollog' => 'יומן רשימת מעקב',
 	'namespace' => 'מרחב שם',
+	'navtoggle-tooltip' => 'לשנות את סרגל הצד',
+	'nomatches' => 'אין שינויים רלוונטיים להגדרות שלך',
+	'order' => 'סדר',
+	'permalink' => 'קישור קבוע להגדרות הנוכחיות',
+	'select-placeholder-none' => '(כלום)',
 	'showAnonOnly' => 'משתמשים אנונימיים בלבד',
 	'showUnpatrolledOnly' => 'לא במעקב בלבד',
+	'skippededit' => 'דילוג על עריכה',
+	'tag' => 'תג',
 	'time-from' => 'מאת',
 	'time-untill' => 'עד',
 	'timeframe' => 'מסגרת זמן',
 	'type' => 'סוג',
 	'typeEdit' => 'עריכות',
 	'typeNew' => 'דפים חדשים',
+	'userfilter' => 'מסנן למשתמש',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -1364,6 +1378,7 @@ $messages['pl'] = array(
 	'mypatrollog' => 'mój rejestr patrolowania',
 	'namespace' => 'Przestrzeń nazw',
 	'navtoggle-tooltip' => 'Przełącz pasek boczny',
+	'nomatches' => 'Brak istotnych zmian w ustawieniach',
 	'order' => 'Kolejność',
 	'permalink' => 'Link do bieżących ustawień',
 	'select-placeholder-none' => '(brak)',
@@ -1560,10 +1575,46 @@ $messages['ru'] = array(
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Milicevic01
+ * @author Rancher
  */
 $messages['sr-ec'] = array(
+	'title' => 'Скорашње измене у реалном времену',
+	'apply' => 'Примени',
+	'asc' => 'Раст.',
+	'changelog' => 'Шта је ново',
+	'clear' => 'очисти',
+	'currentedit' => 'Тренутно изабрана измена',
+	'cvn-adder' => 'Додавач',
+	'cvn-adder-empty' => 'Непознато',
+	'cvn-reason' => 'Разлог',
+	'cvn-reason-empty' => 'Нема разлога',
+	'desc' => 'Опис',
+	'documentation' => 'Документација',
+	'filter' => 'Филтер',
+	'helpicon-tooltip' => 'Више о функцији',
+	'lastupdate-cvn' => 'Последње ажурирање: $1',
+	'lastupdate-rc' => 'Последње ажурирање: $1',
+	'limit' => 'Ограничење',
+	'masspatrol-requires-userfilter' => 'MassPatrol је онемогућен јер нисте задали кориснички филтер, који је потребан.',
+	'months' => 'јануар, фебруар, март, април, мај, јун, јул, август, септембар, октобар, новембар, децембар',
+	'mypatrollog' => 'дневник патролирања',
+	'namespace' => 'Именски простор',
+	'navtoggle-tooltip' => 'Укључи/искључи бочну траку',
+	'nomatches' => 'Нема измена које одговарају вашим поставкама',
+	'order' => 'Редослед',
+	'permalink' => 'Трајна веза до тренутних поставки',
+	'select-placeholder-none' => '(ништа)',
+	'showAnonOnly' => 'Само анонимни',
+	'showUnpatrolledOnly' => 'Само непатролирани',
+	'skippededit' => 'Изостављена измена',
 	'tag' => 'Ознака',
+	'time-from' => 'Од',
+	'time-untill' => 'До',
+	'timeframe' => 'Временски оквир',
 	'type' => 'Тип',
+	'typeEdit' => 'Измене',
+	'typeNew' => 'Нове странице',
+	'userfilter' => 'Кориснички филтер',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)

@@ -2244,7 +2244,7 @@ $messages['ksh'] = array(
 Loves Monuments',
 	'toolbox-main-title' => 'WLM Werkzüch',
 	'toolbox-main-description' => 'Ene Pöngel Werkzüch för',
-	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments', # Fuzzy
+	'toolbox-wikilovesmonuments' => '<i lang="en" xml:lang="en">Wiki Loves Monuments</i>',
 	'toolbox-nav-homepage' => 'Houpsigg',
 	'toolbox-nav-statistics' => 'Schtatistike',
 	'toolbox-nav-search' => 'Söhke',
@@ -2350,9 +2350,11 @@ $messages['lb'] = array(
 );
 
 /** لوری (لوری)
+ * @author Bonevarluri
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'search-table-th-field' => 'رشنه',
 	'search-table-th-filter' => 'فيلتر',
 	'search-table-th-search' => 'پی جوری',
 	'filter-all-countries' => 'همه ولاتیا',
@@ -2366,6 +2368,7 @@ $messages['lrc'] = array(
 	'db-field-changed' => 'آلشت بیه',
 	'db-field-source' => 'سرچشمه',
 	'db-field-st_address' => 'نشونی یا',
+	'db-field-st_address_pct' => 'نشونی یا %',
 	'db-field-st_image' => 'عسگ',
 	'db-field-st_image_pct' => 'عسگ%',
 	'db-field-st_municipality' => 'شهرداری',
@@ -3543,12 +3546,12 @@ $messages['sr-ec'] = array(
 	'search-table-th-field' => 'Поље',
 	'search-table-th-filter' => 'Филтер',
 	'search-table-th-search' => 'Претрага',
-	'filter-all-countries' => 'све земље',
-	'filter-all-languages' => 'сви језици',
+	'filter-all-countries' => 'Све земље',
+	'filter-all-languages' => 'Сви језици',
 	'db-field-country' => 'Земља',
 	'db-field-lang' => 'Језик',
-	'db-field-id' => 'Назнака',
-	'db-field-name' => 'Назив',
+	'db-field-id' => 'Идентификатор',
+	'db-field-name' => 'Име',
 	'db-field-address' => 'Адреса',
 	'db-field-municipality' => 'Општина',
 	'db-field-lat' => 'Географска ширина',
@@ -3557,7 +3560,7 @@ $messages['sr-ec'] = array(
 	'db-field-changed' => 'Измењено',
 	'db-field-source' => 'Извор',
 	'db-field-monument_article' => 'Чланак о споменику',
-	'db-field-registrant_url' => 'Адреса у регистру',
+	'db-field-registrant_url' => 'URL у регистру',
 	'db-field-st_address' => 'Адресе',
 	'db-field-st_address_pct' => 'Адресе %',
 	'db-field-st_coordinates' => 'Координате',
@@ -3570,9 +3573,9 @@ $messages['sr-ec'] = array(
 	'db-field-st_name_pct' => 'Имена %',
 	'db-field-st_total' => 'Укупно',
 	'toolbox-label-searchtipps' => 'користите %term, term% или %term% за нејасну претрагу',
-	'toolbox-meta-title' => 'Алатна трака „Вики воли споменике“',
-	'toolbox-main-title' => 'Алатна трака ВВС-а',
-	'toolbox-main-description' => 'Скуп алатки повезане са',
+	'toolbox-meta-title' => 'Оквир са алаткама „Вики воли споменике“',
+	'toolbox-main-title' => 'Оквир са алаткама WLM',
+	'toolbox-main-description' => 'Скуп алатки повезаних са',
 	'toolbox-wikilovesmonuments' => 'Вики воли споменике',
 	'toolbox-nav-homepage' => 'Почетна страница',
 	'toolbox-nav-statistics' => 'Статистика',
@@ -3771,6 +3774,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Ravichandra
  * @author Veeven
  */
 $messages['te'] = array(
@@ -3783,6 +3787,9 @@ $messages['te'] = array(
 	'db-field-address' => 'చిరునామా',
 	'db-field-lat' => 'అక్షాంశం',
 	'db-field-lon' => 'రేఖాంశం',
+	'db-field-image' => 'బొమ్మ',
+	'db-field-changed' => 'మార్చబడినది',
+	'db-field-source' => 'మూలం',
 	'db-field-st_address' => 'చిరునామాలు',
 	'db-field-st_name' => 'పేర్లు',
 	'db-field-st_name_pct' => 'పేర్లు %',

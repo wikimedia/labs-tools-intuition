@@ -604,10 +604,12 @@ $messages['or'] = array(
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'moretools' => 'więcej narzędzi tego samego autora',
+	'moretools' => 'więcej narzędzi',
+	'homepage-title' => 'wprowadzenie',
 	'bugs' => 'raporty o błędach i propozycje zmian',
 	'comments' => 'uwagi i pytania',
 	'error-form-empty' => 'Jedno lub więcej wymaganych pól pozostało pustych. Musisz je wypełnić, aby móc kontynuować.',
@@ -625,18 +627,21 @@ $messages['pms'] = array(
 );
 
 /** Portuguese (português)
+ * @author Imperadeiro98
  * @author Luckas
  */
 $messages['pt'] = array(
-	'moretools' => 'mais ferramentas do mesmo autor',
+	'moretools' => 'mais ferramentas',
 );
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Fúlvio
  * @author Gusta
+ * @author Mordecaista
  */
 $messages['pt-br'] = array(
-	'moretools' => 'mais ferramentas do mesmo autor',
+	'moretools' => 'mais ferramentas',
+	'homepage-title' => 'Introdução',
 	'bugs' => 'relatórios de erros e solicitações de recursos',
 	'comments' => 'comentários e consultas',
 	'error-form-empty' => 'Um ou mais campos obrigatórios foram deixados em branco. Você deve preenche-los antes de continuar.',
@@ -646,7 +651,8 @@ $messages['pt-br'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'moretools' => 'mai multe unelte de la același autor',
+	'moretools' => 'mai multe unelte',
+	'homepage-title' => 'Introducere',
 	'bugs' => 'rapoarte de erori și cereri de îmbunătățiri',
 	'comments' => 'comentarii și întrebări',
 	'error-form-empty' => 'Unul sau mai multe câmpuri obligatorii nu sunt completate. Ar trebui să le completați înainte de a continua.',
@@ -718,7 +724,8 @@ $messages['so'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'moretools' => 'више алатки од истог аутора',
+	'moretools' => 'више алатки',
+	'homepage-title' => 'Увод',
 	'bugs' => 'пријава грешака и захтеви за нове могућности',
 	'comments' => 'коментари и упити',
 	'error-form-empty' => 'Нисте попунили сва обавезна поља. Урадите то пре него што наставите.',
@@ -757,6 +764,14 @@ $messages['ta'] = array(
 	'bugs' => 'வழு அறிக்கைகளும் வசதி வேண்டுகோள்களும்',
 	'comments' => 'முன்னிகைகளை மற்றும் கேள்விகள்',
 	'error-form-empty' => 'ஒரு அல்லது சில வேண்டப்படும் புலங்கள் வெறுமையாக விடப்பட்டுள்ளன. தொடர்வதற்கு முன் நீங்கள் அவற்றை நிரப்ப வேண்டும்.',
+);
+
+/** Telugu (తెలుగు)
+ * @author Ravichandra
+ */
+$messages['te'] = array(
+	'moretools' => 'మరిన్ని పరికరాలు',
+	'homepage-title' => 'పరిచయం',
 );
 
 /** Tagalog (Tagalog)

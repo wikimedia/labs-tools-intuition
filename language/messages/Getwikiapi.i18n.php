@@ -790,9 +790,9 @@ $messages['so'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'formats-heading' => 'Одредишни формати',
+	'formats-heading' => 'Излазни формати',
 	'input' => 'Унос',
-	'label-wikiids' => 'Назнаке викија',
+	'label-wikiids' => 'Вики идентификатори',
 	'no-matches' => 'Ништа се не поклапа са „$1“',
 	'output' => 'Излаз за „$1“',
 );
@@ -832,9 +832,11 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Ravichandra
  * @author Veeven
  */
 $messages['te'] = array(
+	'input' => 'ఇన్‌పుట్',
 	'no-matches' => '"$1"కి ఏమీ సరిపోలేదు.',
 );
 

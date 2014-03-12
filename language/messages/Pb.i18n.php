@@ -455,3 +455,18 @@ $messages['sco'] = array(
 	'pb-users-overview' => 'Thae $1 uisers parteeceepate in the <em>Personal Acquaintance</em> waurk:',
 	'pb-verified-since' => 'Vereefied sin',
 );
+
+/** Swedish (svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'pb-about-pb-navi' => 'Om',
+	'pb-about-pb-tech' => 'Tekniska detaljer',
+	'pb-about-pb-title' => 'Om projektet',
+	'pb-change-language' => 'Ändra språk',
+	'pb-home' => 'Hem',
+	'pb-user' => 'Användare',
+	'pb-user-link-title' => 'Detaljer för användare $1',
+	'pb-users-navi' => 'Användare',
+	'pb-users-title' => 'Deltagarlista',
+);

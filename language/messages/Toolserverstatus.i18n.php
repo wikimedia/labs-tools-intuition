@@ -829,9 +829,11 @@ $messages['lb'] = array(
 );
 
 /** لوری (لوری)
+ * @author Bonevarluri
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'toolserver-status-missing' => 'رشنه $1 وجود ناره',
 	'toolserver-status-short-ok' => '$1:خوئه',
 	'toolserver-status-short-info' => '$1:دونسمنیا',
 	'toolserver-status-short-warn' => '$1:زنئار',

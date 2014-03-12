@@ -609,7 +609,7 @@ $messages['diq'] = array(
 	'current-language' => 'Zıwano ke newke weçineyayo',
 	'settings-legend' => 'Eyari',
 	'choose-language' => 'Yew zıwan weçinê',
-	'clear-cookies' => 'Çereza besterne',
+	'clear-cookies' => 'çerezan bestere',
 	'renew-cookies' => 'çerezan newe ke',
 	'cookie-expiration' => 'wahdey çereza biyo pır',
 	'clearcookies-success' => 'Çerezi weş besterneyay',
@@ -617,7 +617,7 @@ $messages['diq'] = array(
 	'tab-settings' => 'Eyari',
 	'tab-about' => 'Heqa cı de',
 	'tab-demo' => 'Demo',
-	'bl-mysettings' => 'Sazê zıwan dı mı',
+	'bl-mysettings' => 'Eyarê zıwanê mı',
 	'bl-mysettings-new' => 'Zıwan vuurnayış!',
 );
 
@@ -1954,10 +1954,11 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author GoEThe
  * @author Hamilton Abreu
+ * @author Imperadeiro98
  * @author Luckas
  */
 $messages['pt'] = array(
-	'fullname' => 'Internacionalização para a Interface de Utilizador do Toolserver', # Fuzzy
+	'fullname' => 'Internacionalização de ferramentas',
 	'current-settings' => 'Configuração atual',
 	'current-language' => 'Língua presentemente selecionada',
 	'settings-legend' => 'Definições',
@@ -1975,9 +1976,9 @@ $messages['pt'] = array(
 	'bl-mysettings-new' => 'Alterar língua!',
 	'bl-promo' => 'Traduções possíveis graças à $1 e ao $2.',
 	'bl-changelanguage' => 'Carregue aqui para mudar a língua da interface desta ferramenta.',
-	'usage' => 'Ferramentas traduzidas pelo Toolserver Intuition.', # Fuzzy
+	'usage' => 'Ferramentas traduzidas por Intuition.',
 	'help-translate-tool' => 'Ajude a traduzir esta ferramenta!',
-	'help-translate-all' => 'Ajude a traduzir o Toolserver!', # Fuzzy
+	'help-translate-all' => 'Ajude a traduzir ferramentas!',
 	'help-translate-tooltip' => 'Ajude outros utilizadores traduzindo as mensagens da interface para a sua língua.',
 );
 
@@ -2221,7 +2222,7 @@ $messages['sq'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'fullname' => 'Превод корисничког окружења Toolservera', # Fuzzy
+	'fullname' => 'Интернационализација алатки',
 	'current-settings' => 'Текуће поставке',
 	'current-language' => 'Изабрани језик',
 	'settings-legend' => 'Поставке',
@@ -2239,9 +2240,9 @@ $messages['sr-ec'] = array(
 	'bl-mysettings-new' => 'Промените језик.',
 	'bl-promo' => 'За преводе су заслужни $1 и $2.',
 	'bl-changelanguage' => 'Кликните овде да промените језик алатке',
-	'usage' => 'Алатке које је превео Тулсервер интуишон:', # Fuzzy
+	'usage' => 'Алатке које се преводе помоћу Intuition-а.',
 	'help-translate-tool' => 'помозите нам да преведемо ову алатку',
-	'help-translate-all' => 'Помозите нам да преведемо Тулсервер.', # Fuzzy
+	'help-translate-all' => 'Помозите нам да преведемо алатке!',
 	'help-translate-tooltip' => 'Помозите другима преводивши поруке сучеља на свој језик',
 );
 

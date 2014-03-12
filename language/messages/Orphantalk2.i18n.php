@@ -1237,11 +1237,14 @@ $messages['lb'] = array(
 );
 
 /** لوری (لوری)
+ * @author Bonevarluri
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'select-wiki-first' => '(اول یه گل ویکی انتخاو بکید)',
 	'limit' => 'كران دار بيئن',
 	'page' => 'بلگه',
+	'output' => 'نتیجه',
 	'update' => 'روزآمد كردن',
 	'tools-delete' => 'پاك كردن',
 	'tools-links' => 'هوم پیوندیا',
@@ -1807,23 +1810,23 @@ $messages['sq'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'title' => 'Орфанток2',
-	'select-wiki-first' => '(прво изаберите викију)',
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(прво изаберите вики)',
 	'hideredirects' => 'Сакриј преусмерења',
 	'hidesubpages' => 'Сакриј подстранице',
 	'limit' => 'Ограничење',
 	'page' => 'Страница',
-	'redirect' => 'Преусмерење',
-	'output' => 'Одредиште',
+	'redirect' => 'Је ли преусмерење?',
+	'output' => 'Излаз',
 	'update' => 'Ажурирај',
 	'tools-delete' => 'обриши',
 	'tools-links' => 'везе',
 	'tools-subject' => 'наслов',
 	'tools-hist' => 'ист',
 	'tools-curr' => 'трен',
-	'tools-globalusage' => 'употреба',
-	'deletesummary' => 'Чишћење тајних страница за разговор преко $1',
-	'noresults' => 'Ниједна тајна страница за разговор се не поклапа с поставкама у овом именском простору.',
+	'tools-globalusage' => 'глобална употреба',
+	'deletesummary' => 'Чишћење неповезаних страница за разговор преко $1',
+	'noresults' => 'На овом викију нема неповезаних страница за разговор у овом именском простору које одговарају вашим поставкама.',
 	'resultslimited' => 'Резултати су ограничени на $1 страница.',
 );
 

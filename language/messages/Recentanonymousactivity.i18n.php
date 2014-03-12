@@ -414,6 +414,13 @@ $messages['ru'] = array(
 	'title' => 'Недавняя анонимная деятельность',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'title' => 'Recent anonymous acteevitie',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
