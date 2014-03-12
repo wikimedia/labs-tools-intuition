@@ -56,7 +56,8 @@ Intuition (INTUI-tion) stands for " Internationalization for Toolserver\'s User 
 	'current-language' => 'Label in front of the currently selected language name in the "Current settings"-box',
 	'settings-legend' => 'The legend around the form under the "Change settings" tab
 {{Identical|Settings}}',
-	'choose-language' => 'Label for the language dropdown menu in the Dashboard.',
+	'choose-language' => 'Label for the language dropdown menu in the Dashboard.
+{{Identical|Choose language}}',
 	'clear-cookies' => 'Link in the dashboard that will remove all memory (cookies) of the visitors language choise.',
 	'renew-cookies' => "Link in the dashboard that will renew all memory (cookies) of the visitors language choise. This resets the expiry, so that they won't expire soon.",
 	'cookie-expiration' => 'Label in the dashboard\'s "current settings"-tab. This is the time until the language memory (cookies) will expire.',
@@ -2125,6 +2126,13 @@ $messages['si'] = array(
 	'help-translate-tool' => 'මෙම මෙවලම පරිවර්තනය කිරීමට සහය වන්න!',
 	'help-translate-all' => 'මෙවලම්සර්වරය පරිවර්තනය කිරීමට සහය වන්න!', # Fuzzy
 	'help-translate-tooltip' => 'අතුරුමුහුණත් පණිවුඩ ඔබේ භාෂාවට පරිවර්තනය කිරීමෙන් අනිකුත් පරිශීලකයන් හට උදව් කරන්න.',
+);
+
+/** Slovak (slovenčina)
+ * @author Sudo77(new)
+ */
+$messages['sk'] = array(
+	'bl-mysettings' => 'Moje jazykové nastavenia',
 );
 
 /** Slovenian (slovenščina)

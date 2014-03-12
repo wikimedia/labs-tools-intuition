@@ -90,7 +90,8 @@ The title of the tool.',
 	'db-field-address' => 'Translation of the field "address" in the monuments database.
 {{Identical|Address}}',
 	'db-field-municipality' => 'Translation of the field "municipality" in the monuments database.',
-	'db-field-lat' => 'Translation of the field "latitude" in the monuments database.',
+	'db-field-lat' => 'Translation of the field "latitude" in the monuments database.
+{{Identical|Latitude}}',
 	'db-field-lon' => 'Translation of the field "longitude" in the monuments database.',
 	'db-field-image' => 'Translation of the field "image" in the monuments database.
 {{Identical|Image}}',

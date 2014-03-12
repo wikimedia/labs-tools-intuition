@@ -143,10 +143,12 @@ $messages['br'] = array(
 );
 
 /** Catalan (català)
+ * @author Alvaro Vidal-Abarca
  * @author SMP
  */
 $messages['ca'] = array(
-	'moretools' => "més instruments d'aquest autor",
+	'moretools' => 'més eines',
+	'homepage-title' => 'Introducció',
 	'bugs' => "informes d'error i característiques soŀlicitades",
 	'comments' => 'comentaris i consultes',
 	'error-form-empty' => 'Una o més caselles obligatòries han quedat en blanc. Heu de completar-les abans de continuar.',
@@ -351,9 +353,11 @@ $messages['hsb'] = array(
 
 /** Hungarian (magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
-	'moretools' => 'további eszközök ettől a szerzőtől',
+	'moretools' => 'további eszközök',
+	'homepage-title' => 'Bevezetés',
 	'bugs' => 'hibajelentések és fejlesztési ötletek',
 	'comments' => 'hozzászólások és kérések',
 	'error-form-empty' => 'A szükséges mezők közól egy vagy több üresen maradt. Töltsd ki őket a folytatás előtt.',
@@ -583,7 +587,7 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'moretools' => "mai d'aisinas del meteis autor",
+	'moretools' => "Mai d'aisinas",
 	'bugs' => 'rapòrts de bugs e de demandas de foncionalitats',
 	'comments' => 'comentaris e requèstas',
 	'error-form-empty' => 'Un o mantun camp obligatòri son estats daissats en blanc. Los vos cal emplenar abans de contunhar.',

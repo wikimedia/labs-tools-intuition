@@ -410,6 +410,13 @@ $messages['bs'] = array(
 	'view-source' => 'Pogledaj izvor',
 );
 
+/** буряад (буряад)
+ * @author Elvonudinium
+ */
+$messages['bxr'] = array(
+	'view-source' => 'Эшэ үндэһэндэнь хандаха',
+);
+
 /** Catalan (català)
  * @author Alvaro Vidal-Abarca
  * @author Platonides
@@ -1004,6 +1011,7 @@ $messages['hsb'] = array(
 $messages['hu'] = array(
 	'hello' => 'Szia',
 	'welcome' => 'Üdvözlet',
+	'toolversion' => '$1 verzió',
 	'toolversionstamp' => 'Verzió: $1 ($2)',
 	'etc' => 'stb.',
 	'namespace' => 'Névtér',
@@ -1083,6 +1091,7 @@ $messages['ig'] = array(
 $messages['ilo'] = array(
 	'hello' => 'Kumusta',
 	'welcome' => 'Kablaaw!',
+	'toolversion' => 'Bersion $1',
 	'toolversionstamp' => 'Bersion $1 ($2)',
 	'etc' => 'kdpy.',
 	'namespace' => 'Nagan ti lugar',
@@ -1096,6 +1105,7 @@ $messages['ilo'] = array(
 	'seconds' => '{{PLURAL: $1|segundo|seg-segundo}}',
 	'last-modified-date' => 'Kinaudi a binaliwan: $1',
 	'view-source' => 'Kitaen ti taudan',
+	'and' => '&#32;ken',
 );
 
 /** Ingush (ГӀалгӀай)
@@ -2238,6 +2248,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Platonides
  * @author Veeven
  */
@@ -2248,6 +2259,7 @@ $messages['te'] = array(
 	'etc' => 'మొ.వి.',
 	'namespace' => 'పేరుబరి',
 	'form-submit' => 'వెళ్ళు',
+	'form-reset' => 'రీసెట్ చెయ్యి',
 	'years' => '{{PLURAL: $1|సంవత్సరం|సంవత్సరాలు}}',
 	'weeks' => '{{PLURAL: $1|వారం|వారాలు}}',
 	'days' => '{{PLURAL: $1|రోజు|రోజులు}}',

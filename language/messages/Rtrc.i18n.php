@@ -747,6 +747,39 @@ $messages['hsb'] = array(
 	'userfilter' => 'Wužiwarski filter',
 );
 
+/** Hungarian (magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'apply' => 'Alkalmaz',
+	'asc' => 'Növekvő',
+	'changelog' => 'Mi újság?',
+	'clear' => 'töröl',
+	'currentedit' => 'Aktuálisan kijelölt szerkesztés',
+	'cvn-adder-empty' => 'Ismeretlen',
+	'cvn-reason' => 'Indoklás',
+	'cvn-reason-empty' => 'Nincs indoklás',
+	'desc' => 'Csökkenő',
+	'documentation' => 'Dokumentáció',
+	'filter' => 'Szűrő',
+	'helpicon-tooltip' => 'Tudj meg többet erről a szolgáltatásról',
+	'lastupdate-cvn' => 'Utolsó frissítés:$1',
+	'lastupdate-rc' => 'Utolsó frissítés:$1',
+	'months' => 'január, február, március, április, május, június, július, augusztus, szeptember, október, november, december',
+	'mypatrollog' => 'járőr naplóm',
+	'namespace' => 'Névtér',
+	'select-placeholder-none' => '(semmi)',
+	'showAnonOnly' => 'Csak névtelen',
+	'showUnpatrolledOnly' => 'Csak ellenőrizetlen',
+	'skippededit' => 'Kihagyott szerkesztés',
+	'tag' => 'Címke',
+	'timeframe' => 'Időkeret',
+	'type' => 'Típus',
+	'typeEdit' => 'Szerkesztések',
+	'typeNew' => 'Új lapok',
+	'userfilter' => 'Felhasználói szűrő',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
@@ -983,28 +1016,43 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'title' => 'Neuste Änderonge en Ääschzigg',
 	'apply' => 'Lohß Jonn!',
 	'asc' => 'von onge noch bovve',
 	'changelog' => 'Wad_es neu?',
 	'clear' => 'Läddesch maache',
+	'currentedit' => 'Di Änderong, di em Momang ußjesöhg es',
+	'cvn-adder' => 'Enreischer',
 	'cvn-adder-empty' => 'Onbikannt',
 	'cvn-reason' => 'Jrond',
 	'cvn-reason-empty' => 'Keine jrond jevonge',
 	'desc' => 'von bovve noch onge',
 	'documentation' => 'Dokkemäntazjuhn',
+	'filter' => 'Ußsöhke',
+	'helpicon-tooltip' => 'Donn mieh övver dat heh eruß fenge',
 	'lastupdate-cvn' => 'Läzte Änderong: $1',
 	'lastupdate-rc' => 'Läzte Änderong: $1',
 	'limit' => 'Jräns',
+	'masspatrol-requires-userfilter' => 'Et Maßße-Prööve wohd ußjeschalld, weil et ene ußjesöhk Metmaacher bruch, un ed wohr keine ußjesöhk.',
 	'months' => 'Jannewaa, Fääbroaa, Määz, Aprell, Mai, Juuni, Juuli, Ojoß, Säptämber, Oktoober, Novämber, Dezämber',
+	'mypatrollog' => 'ming Logbooch vum Prööve',
 	'namespace' => 'Appachtemang',
+	'navtoggle-tooltip' => 'Lenkleß aan de Sigg ömschallde',
+	'nomatches' => 'Kein Änderonge för Ding Enschtällonge',
 	'order' => 'Zotteerfollsch',
+	'permalink' => 'Lengk up Duur op de aktoälle Enschtällonge',
 	'select-placeholder-none' => '(kein)',
 	'showAnonOnly' => 'Bloß de Naameloose',
+	'showUnpatrolledOnly' => 'Onjeprööf Änderonge',
+	'skippededit' => 'Övverjange Änderong',
+	'tag' => 'Kännzeijsche',
 	'time-from' => 'Vun',
 	'time-untill' => 'Bes',
+	'timeframe' => 'Beredd en der Zigg',
 	'type' => 'Zoot',
 	'typeEdit' => 'Änderunge',
 	'typeNew' => 'Neu Sigge',
+	'userfilter' => 'Metmaacher ußsöhke',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1262,7 +1310,7 @@ $messages['oc'] = array(
 	'desc' => 'Descreissent',
 	'documentation' => 'Documentacion',
 	'filter' => 'Filtre',
-	'helpicon-tooltip' => 'Clicar aicí per mai d’informacion',
+	'helpicon-tooltip' => 'Ne saber mai sus aquesta foncionalitat',
 	'lastupdate-cvn' => 'Darrièra mesa a jorn : $1',
 	'lastupdate-rc' => 'Darrièra mesa a jorn : $1',
 	'limit' => 'Limit',
