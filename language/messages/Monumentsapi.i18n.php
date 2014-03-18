@@ -81,7 +81,8 @@ The title of the tool.',
 	'filter-all-countries' => 'Entry for the countries filter selecting all countries.',
 	'filter-all-languages' => 'Entry for the language filter selecting all languages.
 {{Identical|All languages}}',
-	'db-field-country' => 'Translation of the field "country" in the monuments database.',
+	'db-field-country' => 'Translation of the field "country" in the monuments database.
+{{Identical|Country}}',
 	'db-field-lang' => 'Translation of the field "language" in the monuments database.
 {{Identical|Language}}',
 	'db-field-id' => 'Translation of the field "identifier" in the monuments database.
@@ -1127,11 +1128,11 @@ $messages['es'] = array(
 	'db-field-monument_article' => 'Artículo de monumento',
 	'db-field-registrant_url' => 'URL del titular',
 	'db-field-st_address' => 'Direcciones',
-	'db-field-st_address_pct' => '% Direcciones',
+	'db-field-st_address_pct' => '% de direcciones',
 	'db-field-st_coordinates' => 'Coordenadas',
-	'db-field-st_coordinates_pct' => '% Coordenadas',
+	'db-field-st_coordinates_pct' => '% de coordenadas',
 	'db-field-st_image' => 'Imagen',
-	'db-field-st_image_pct' => 'Imagen %',
+	'db-field-st_image_pct' => '% de imágenes',
 	'db-field-st_municipality' => 'Municipio',
 	'db-field-st_municipality_pct' => 'Municipio %',
 	'db-field-st_name' => 'Nombres',

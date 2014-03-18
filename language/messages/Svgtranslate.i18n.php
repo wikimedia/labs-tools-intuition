@@ -736,7 +736,7 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'error-nothing' => 'Theba çıniyo kê açerneyo.',
-	'th-original' => 'Orcinal',
+	'th-original' => 'Oricinal',
 	'th-translation' => 'Çarnayış',
 	'th-language' => 'Zıwan',
 	'th-username' => 'Nameyê karberi',
