@@ -648,6 +648,7 @@ $messages['oc'] = array(
 	'formats-heading' => 'Format de sortida',
 	'input' => 'Entradas',
 	'label-wikiids' => 'Identificants Wiki',
+	'output' => 'Sortida per « $1 »',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

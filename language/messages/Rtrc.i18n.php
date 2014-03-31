@@ -166,7 +166,7 @@ $messages['ast'] = array(
 	'desc' => 'Desc',
 	'documentation' => 'Documentación',
 	'filter' => 'Peñera',
-	'helpicon-tooltip' => 'Calque equí pa más información',
+	'helpicon-tooltip' => 'Más información sobro esta carauterística',
 	'lastupdate-cvn' => 'Caberu anovamientu: $1',
 	'lastupdate-rc' => 'Caberu anovamientu: $1',
 	'limit' => 'Llímite',
@@ -219,15 +219,20 @@ $messages['bg'] = array(
 
 /** Breton (brezhoneg)
  * @author Fohanno
+ * @author Gwenn-Ael
  * @author Y-M D
  */
 $messages['br'] = array(
+	'title' => 'Kemmoù nevez war amzer real',
 	'apply' => 'Lakaat da dalvezout',
+	'asc' => 'War gresk',
 	'changelog' => 'Petra nevez',
 	'clear' => 'riñsañ',
+	'currentedit' => 'Kemm dibabet er mare-mañ',
 	'cvn-adder-empty' => 'Dianav',
 	'cvn-reason' => 'Abeg',
 	'cvn-reason-empty' => "N'eus bet kavet abeg ebet",
+	'desc' => 'War zigresk',
 	'documentation' => 'Teuliadur',
 	'filter' => 'Sil',
 	'helpicon-tooltip' => "Klikañ amañ evit kaout muioc'h a ditouroù", # Fuzzy
@@ -235,12 +240,18 @@ $messages['br'] = array(
 	'lastupdate-rc' => 'Hizivadenn ziwezhañ : $1',
 	'limit' => 'Bevenn',
 	'months' => "Genver, C'hwevrer, Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu",
+	'mypatrollog' => 'Ma renabl gwiriañ',
 	'namespace' => 'Esaouenn anv',
+	'navtoggle-tooltip' => 'Gwintañ war-zu ar varrenn gostez',
+	'nomatches' => "Kemm dereat ebet evit hoc'h arventennoù",
 	'order' => 'Urzh',
+	'permalink' => 'Liamm pad war-zu an arventennoù bremañ',
 	'select-placeholder-none' => '(hini ebet)',
 	'showAnonOnly' => 'Dizanv hepken',
+	'showUnpatrolledOnly' => 'Nann gwiriet hepken',
 	'time-from' => 'Eus',
 	'time-untill' => 'Betek',
+	'timeframe' => 'Prantad',
 	'type' => 'Seurt',
 	'typeEdit' => 'Kemmoù',
 	'typeNew' => 'Pajennoù nevez',
@@ -1461,7 +1472,7 @@ $messages['pt-br'] = array(
 	'desc' => 'Desc',
 	'documentation' => 'Documentação',
 	'filter' => 'Filtro',
-	'helpicon-tooltip' => 'Mais informação sobre este recurso',
+	'helpicon-tooltip' => 'Saiba mais sobre este recurso',
 	'lastupdate-cvn' => 'Última atualização: $1',
 	'lastupdate-rc' => 'Última atualização: $1',
 	'limit' => 'Limite',

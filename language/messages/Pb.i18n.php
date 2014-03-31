@@ -126,6 +126,38 @@ $messages['ar'] = array(
 	'pb-verified-since' => 'تمّ التحقّق منها منذ',
 );
 
+/** Breton (brezhoneg)
+ * @author Gwenn-Ael
+ */
+$messages['br'] = array(
+	'pb-about-pb-navi' => 'Diwar-benn',
+	'pb-about-pb-tech' => 'Munudoù teknikel',
+	'pb-about-pb-tech-text' => '<p>Implijout a reomp <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> et <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a> evit an etrefas-se. Ar c\'hod tarzh a c\'haller kaout dindan divizoù an aotre-implijout <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Public License 3</a> (LGPL 3) hag a c\'hall bezañ kavet <a href="https://github.com/tool-labs/pb">e GitHub</a>.
+Ouzhpennit, mar plij,an danevelloù draen, ar goulennoù emdreiñ hag hoc\'h evezhiadennoù all <a href="https://github.com/tool-labs/pb/issues/new"> er merour kudennoù GitHub</a> pe disklêriañ anezho e <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">pajenn eskemm Wikipédia</a>.</p>
+    <p> An danevelloù bremañ eus diaz roadennoù PB a c\'hall bezañ kavet <a href="/pb/sql-dumps">amañ</a>.</p>
+    <p>Nous utilisons plusieurs icônes créées par le projet <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>.</p>',
+	'pb-about-pb-title' => 'Diwar-benn ar raktres',
+	'pb-change-language' => 'Cheñch yezh',
+	'pb-comment' => 'Evezhiadenn',
+	'pb-date' => 'Deiziad',
+	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften er Wikipedia alaman">[[Wikipedia:Persönliche Bekanntschaften]]</a> e Tool Labs. <a href="$1" title="Diwar-benn Wikipedia:Persönliche Bekanntschaften">Evit gouzout hiroc\'h.</a>',
+	'pb-home' => 'Pajenn zegemer',
+	'pb-home-welcome' => 'Degemer mat er raktres <em>Anaoudegezhioù Personel</em> (<em>Persönliche-Bekanntschaften</em> en alamaneg) ! Evit gouzout hiroc\'h war ar raktres-se <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften er Wikipedia alaman"> e Wikipedia en alamaneg</a>.',
+	'pb-javascript-notice' => "Aliañ a reomp ac'hanoc'h da weredekaat JavaScript el lec'hienn Web evit gwellaat an etrefas implijer.",
+	'pb-labs-name' => 'Tool Labs eus Wikimedia',
+	'pb-participates-since' => 'A gemer perzh abaoe',
+	'pb-name' => 'Wikipédia:Anaoudegezh personnel',
+	'pb-powered-by-labs' => 'Sevenet gant Tool Labs eus Wikimedia',
+	'pb-user' => 'Implijer',
+	'pb-user-link-title' => 'Munudoù evit an implijer $1',
+	'pb-user-heading' => 'Titouroù evit <a href="$2" title="Pajenn implijer $1">$1</a>',
+	'pb-user-title' => 'Titouroù evit $1',
+	'pb-users-navi' => 'Implijerien',
+	'pb-users-title' => 'Roll ar berzhidi',
+	'pb-users-overview' => '{{PLURAL:$1|An implijer-mañ a gemer perzh|An $1 implijerien-mañ a gemer perzh}} er raktres <em>Anaoudegezh personel</em> :',
+	'pb-verified-since' => 'Gwiriet abaoe',
+);
+
 /** Chechen (нохчийн)
  * @author Умар
  */
@@ -344,6 +376,36 @@ $messages['fr'] = array(
 	'pb-users-title' => 'Liste des participants',
 	'pb-users-overview' => '{{PLURAL:$1|Cet utilisateur participe|Ces $1 utilisateurs participent}} au projet <em>Connaissance Personnelle</em> :',
 	'pb-verified-since' => 'Vérifié depuis',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'pb-about-pb-navi' => 'אודות',
+	'pb-about-pb-tech' => 'פרטים טכניים',
+	'pb-about-pb-title' => 'על הפרוייקט',
+	'pb-change-language' => 'שינוי שפה',
+	'pb-comment' => 'תגובה',
+	'pb-confirmations-given' => 'אישורים שניתנו',
+	'pb-confirmations-taken' => 'אישורים שהתקבלו',
+	'pb-current-confirmations' => 'יש $1 אישורים סך הכול, שזה בערך <abbr title="$2">$3</abbr> אישורים ליום.',
+	'pb-current-figures' => 'מספרים נוכחיים',
+	'pb-current-users' => 'כעת $1 משתמשים משתתפים במיזם <em>היכרות אישית</em>',
+	'pb-date' => 'תאריך',
+	'pb-home' => 'דף הבית',
+	'pb-javascript-notice' => 'אנחנו ממליצים להפעיל JavaScript באתר הזה כדי לשפר את ממשק המשתמש.',
+	'pb-labs-name' => 'מעבדות כלי ויקימדיה',
+	'pb-participates-since' => 'משתתף מאז',
+	'pb-powered-by-labs' => 'מופעל על־ידי מעבדות כלי ויקימדיה',
+	'pb-recent-confirmations' => 'אישורים אחרונים',
+	'pb-reconfirmed' => 'מאושר מחדש?',
+	'pb-user' => 'משתמש',
+	'pb-user-link-title' => 'פרטים עבור המשתמש $1',
+	'pb-users-navi' => 'משתמשים',
+	'pb-users-title' => 'רשימת המשתתפים',
+	'pb-users-overview' => '$1 המשתמשים האלה משתתפים במיזם <em>היכרות אישית</em>:',
+	'pb-verified-since' => 'מאושר מאז',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -588,6 +650,19 @@ $messages['nl'] = array(
 	'pb-verified-since' => 'Bevestigd sinds',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'pb-change-language' => 'Cambiar de lenga',
+	'pb-comment' => 'Comentari',
+	'pb-date' => 'Data',
+	'pb-home' => "Pagina d'acuèlh",
+	'pb-user' => 'Utilizaire',
+	'pb-user-link-title' => 'Detalhs per l’utilizaire $1',
+	'pb-users-navi' => 'Utilizaires',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -649,7 +724,7 @@ $messages['ru'] = array(
 $messages['sco'] = array(
 	'pb-about-pb-navi' => 'Aneat',
 	'pb-about-pb-tech' => 'Techneecal deetails',
-	'pb-about-pb-tech-text' => '<p>We uise <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> n <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a> fer this interface. The soorce code is publeeshed unner the terms o the <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Publeec License 3</a> (LGPL 3) n can be accessed <a href="https://github.com/tool-labs/pb">on GitHub</a>. Please add bug reports, feature requests or ither comments <a href="https://github.com/tool-labs/pb/issues/new">til the GitHub issue tracker</a> or report it oan the <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">Wikipædia tauk page</a>.</p>
+	'pb-about-pb-tech-text' => '<p>We uise <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> n <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a> fer this interface. The soorce code is publeeshed unner the terms o the <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Publeec License 3</a> (LGPL 3) n can be accessed <a href="https://github.com/tool-labs/pb">on GitHub</a>. Please eik bug reports, featur requests or ither comments <a href="https://github.com/tool-labs/pb/issues/new">til the GitHub issue tracker</a> or report it oan the <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">Wikipædia tauk page</a>.</p>
     <p>The Nou dumps o the PB database can be foond <a href="/pb/sql-dumps">here</a>.</p>
     <p>We uise several icons cræftit bi the <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a> waurk.</p>',
 	'pb-about-pb-text' => '<p>This waurk represents personal acquaintances atween Wikimedians.</p>
@@ -761,4 +836,33 @@ $messages['vi'] = array(
 	'pb-users-navi' => 'Người dùng',
 	'pb-users-title' => 'Danh sách người tham gia',
 	'pb-verified-since' => 'Xác nhận từ',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'pb-about-pb-navi' => '关于',
+	'pb-about-pb-tech' => '技术信息',
+	'pb-about-pb-title' => '关于项目',
+	'pb-change-language' => '更改语言',
+	'pb-comment' => '评论',
+	'pb-confirmations-given' => '给定确认',
+	'pb-confirmations-taken' => '收到确认',
+	'pb-current-confirmations' => '总共$1次确认，这是关于每天的<abbr title="$2">$3</abbr>次确认。',
+	'pb-current-figures' => '目前计数',
+	'pb-current-users' => '此时，$1位用户参与了<em>个人相识</em>项目。',
+	'pb-date' => '日期',
+	'pb-home' => '首页',
+	'pb-labs-name' => '维基媒体工具实验室',
+	'pb-participates-since' => '参与自从',
+	'pb-powered-by-labs' => '由维基媒体工具实验室提供支持',
+	'pb-recent-confirmations' => '最近确认',
+	'pb-reconfirmed' => '重新确认？',
+	'pb-user' => '用户',
+	'pb-user-link-title' => '用户$1的详细信息',
+	'pb-user-heading' => '用于<a href="$2" title="User page of $1">$1</a>的信息',
+	'pb-user-title' => '用于$1的信息',
+	'pb-users-navi' => '用户',
+	'pb-verified-since' => '验证自从',
 );

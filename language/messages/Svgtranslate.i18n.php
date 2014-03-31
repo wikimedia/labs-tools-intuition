@@ -3003,6 +3003,7 @@ $messages['th'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Jojit fb
  */
 $messages['tl'] = array(
 	'title' => 'Pagsasalinwika na SVG',
@@ -3017,7 +3018,7 @@ $messages['tl'] = array(
 	'th-translation' => 'Salinwika',
 	'th-language' => 'Wika',
 	'th-username' => 'Pangalan ng tagagamit',
-	'th-password' => 'Hudyat',
+	'th-password' => 'Password',
 	'th-method' => 'Pamamaraan',
 	'option-tusc' => 'TUSC (kusang pagkakarga na paitaas)',
 	'option-manual' => 'Kinakamay na pagkakargang papaitaas',

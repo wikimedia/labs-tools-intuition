@@ -1730,6 +1730,7 @@ $messages['no'] = array(
 $messages['oc'] = array(
 	'hello' => 'Bonjorn',
 	'welcome' => 'Benvenguda',
+	'toolversion' => 'Version $1',
 	'toolversionstamp' => 'Version $1 ($2)',
 	'etc' => 'etc.',
 	'namespace' => 'Espaci de noms',

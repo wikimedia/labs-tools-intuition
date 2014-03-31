@@ -681,6 +681,8 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'alws-selectwiki' => '(seleccionar lo wiki)',
+	'alws-group-mustused' => 'Wikis los mai utilizats',
 	'form-legend-settings' => 'Configuracion',
 );
 

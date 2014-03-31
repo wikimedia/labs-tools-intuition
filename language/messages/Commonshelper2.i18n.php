@@ -3027,6 +3027,14 @@ $messages['oc'] = array(
 	'source_file' => 'Fichièr font',
 	'target_file' => 'Fichièr cibla',
 	'categories' => 'Categorias',
+	'tusc_user' => 'Nom d’utilizaire TUSC',
+	'tusc_pass' => 'Senhal TUSC',
+	'do_it' => 'O far',
+	'original_wikitext' => 'Wikitèxte original',
+	'new_wikitext' => 'Wikitèxte novèl',
+	'new_filename' => 'Novèl nom de fichièr :',
+	'upload_submit' => 'Mandar',
+	'target_wiki' => 'lo wiki cibla',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
@@ -3493,6 +3501,7 @@ $messages['sa'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
@@ -3520,7 +3529,7 @@ $messages['si'] = array(
 	'original_wikitext' => 'මුල් විකි පාඨය',
 	'new_wikitext' => 'නව විකි පාඨය',
 	'new_filename' => 'නව ගොනුනාමය:',
-	'upload_submit' => 'උඩුගත කරන්න!',
+	'upload_submit' => 'උඩුගතකරන්න!',
 	'target_wiki' => 'ඉලක්කගත විකිය',
 	'error_bot_blocked' => 'විකිමාධ්‍ය කොමන්සි හී උඩුගත කිරීම් රොබෝ වාරණය කර ඇත.',
 	'error_tusc_failed' => 'TUSC සත්‍යාපනය අසාර්ථකයි!',
@@ -4282,6 +4291,7 @@ $messages['yi'] = array(
  * @author Hzy980512
  * @author Linforest
  * @author Littletung
+ * @author Liuxinyu970226
  * @author Mys 721tx
  * @author Qiyue2001
  * @author Xiaomingyan
@@ -4321,7 +4331,7 @@ $messages['zh-hans'] = array(
 	'output_information' => '对于手动上载，编辑上述文本 （如果需要），保存 $1 文件 $2 到您的计算机，然后 $3 将其上传 $4 。',
 	'upload_submit' => '上传！',
 	'target_wiki' => '目标维基',
-	'standard_project' => 'wikipedia',
+	'standard_project' => '维基百科',
 	'error_bot_blocked' => '上传机器维基共享资源上被阻止。',
 	'error_upload_meta' => '不能直接上载，因为有的元数据的问题（见上文）！',
 	'error_tusc_failed' => 'TUSC 验证失败！',
@@ -4339,6 +4349,7 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎)
  * @author Lauhenry
  * @author Littletung
+ * @author Liuxinyu970226
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -4376,7 +4387,7 @@ $messages['zh-hant'] = array(
 	'output_information' => '對於手動上載，編輯上述文本（如果需要），儲存 $1檔案$2 到您的電腦，然後 $3將其上傳$4。',
 	'upload_submit' => '上傳！',
 	'target_wiki' => '目標維基',
-	'standard_project' => 'wikipedia',
+	'standard_project' => '維基百科',
 	'error_bot_blocked' => '上載機器人在維基共享資源上被封禁。',
 	'error_upload_meta' => '元數據出現錯誤（見上文），不能直接上載！',
 	'error_tusc_failed' => 'TUSC驗證失敗！',

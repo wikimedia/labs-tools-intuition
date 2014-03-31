@@ -248,8 +248,8 @@ $messages['ast'] = array(
 	'image-area-too-big' => '"$1" ye demasiao grande pa crear una miniatura. Usando\'l tamañu completu.',
 	'download-info' => '{{plural: $1|Hai una imaxe|Hai $1 imaxes}}, con un tamañu estimáu de $2',
 	'download' => 'Descargar',
-	'readme-contents' => 'El ficheru contenedor "$4" llista
-les imaxes de la categoría "$1" ($2)$3.
+	'readme-contents' => 'El ficheru contenedor $4 llista
+les imaxes de la categoría $1 ($2)$3.
 
 == Instrucciones pa descargar toles imaxes ==
 El tiempu de descarga pue variar ente unos minutos y delles hores.
@@ -257,7 +257,7 @@ El tiempu de descarga pue variar ente unos minutos y delles hores.
 Windows:
  Estrái tolos ficheros nel mesmu direutoriu y executa $5
  $6
-Linux/Mac OS
+Linux/Mac OS:
  Estrái tolos ficheros y abri un terminal nesi direutoriu. Executa sh $5',
 	'non-bundled-wget' => "Nota: Esta versión nun inclúi wget pa Windows. Tendrás de descomprimir
 a un direutoriu con wget.exe o, d'otra miente, tener wget nel PATH",
@@ -533,8 +533,8 @@ An amzer bellgargañ a c'hall bezañ cheñch-dicheñch, eus un nebeud munutenno�
 Windows :
  Eztennañ an holl restroù en hevelep renkell ha lañsañ $5
  $6
-Linux/Mac OS
- Eztennañ an holl restroù ha digeriñ un dermenell er renkell-se. Lañsañ sh $5", # Fuzzy
+Linux/Mac OS :
+ Eztennañ an holl restroù ha digeriñ un dermenell er renkell-se. Lañsañ sh $5",
 	'non-bundled-wget' => "Notenn : N'eo ket skoret wget evit Windows er stumm-mañ. Ret e vo deoc'h diwaskañ
 en ur c'havlec'h gant wget.exe pe neuze kaout wget er PATH",
 	'wget-info' => "Un eilskrid eus wget $1 (evit savennoù Windows) zo er restr. Ur meziant frank eo Wget,
@@ -2315,7 +2315,11 @@ $messages['oc'] = array(
 	'invalid-width' => 'Largor invalida',
 	'invalid-height' => 'Nautor invalida',
 	'no-such-project' => 'Aqueste projècte existís pas',
+	'zip-failed' => 'Fracàs de la creacion del zip',
 	'download' => 'Telecargar',
+	'scaling-width' => ', mes a l’escala amb una largor maximala de $1 pixèl{{plural:$1||s}}',
+	'scaling-height' => ', mes a l’escala amb una nautor maximala de $1 pixèl{{plural:$1||s}}',
+	'scaling-both' => ', mes a l’escala amb una talha maximala de $1x$2 pixèls',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

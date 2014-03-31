@@ -134,9 +134,11 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Gwenn-Ael
  */
 $messages['br'] = array(
-	'moretools' => 'Ostilhoù ouzhpenn digant an hevelep aozer',
+	'moretools' => 'Ostilhoù ouzhpenn',
+	'homepage-title' => 'Digoradur',
 	'bugs' => "Kemennoù drein ha goulennou arc'hwelioù",
 	'comments' => 'Evezhiadennoù ha goulennoù',
 	'error-form-empty' => "Lezet ez eus bet goullo ur vaezienn ret pe meur a hini. Ret eo deoc'h leuniañ anezho evit gallout kenderc'hel.",
@@ -588,6 +590,7 @@ $messages['no'] = array(
  */
 $messages['oc'] = array(
 	'moretools' => "Mai d'aisinas",
+	'homepage-title' => 'Introduccion',
 	'bugs' => 'rapòrts de bugs e de demandas de foncionalitats',
 	'comments' => 'comentaris e requèstas',
 	'error-form-empty' => 'Un o mantun camp obligatòri son estats daissats en blanc. Los vos cal emplenar abans de contunhar.',
