@@ -667,13 +667,14 @@ $messages['id'] = array(
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author Gianfranco
  * @author ZioNicco
  */
 $messages['it'] = array(
 	'toolserver-status-ok' => 'Non ci sono problemi nel cluster di database $1 $2',
-	'toolserver-status-info' => 'Avviso per gli utenti del cluster $1: $2',
-	'toolserver-status-warn' => 'Avvertenza per gli utenti del cluster $1: $2',
+	'toolserver-status-info' => 'Informazione per gli utenti del cluster $1: $2',
+	'toolserver-status-warn' => 'Attenzione per gli utenti del cluster $1: $2',
 	'toolserver-status-down' => 'Il cluster $1 del database è stato temporaneamente arrestato. $2',
 	'toolserver-status-erro' => 'Il cluster $1 del database è giù. $2',
 	'toolserver-status-unknown' => 'Stato del cluster $1 non noto',

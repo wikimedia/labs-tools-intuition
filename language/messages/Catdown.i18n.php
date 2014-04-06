@@ -771,7 +771,7 @@ $messages['diq'] = array(
 	'title' => 'Kategoriye ra resiman ronê',
 	'project' => 'Proce:',
 	'category' => 'Kategoriye:',
-	'thumbnailing' => 'Resimo verdı',
+	'thumbnailing' => 'Resmo qıckek',
 	'max-width' => 'En vesi herayey',
 	'max-height' => 'En vesi berzey',
 	'invalid-width' => 'Herayey ravêrdi niya',
@@ -2784,7 +2784,7 @@ slike v kategoriji $1 ($2)$3.
 Windows:
  Razširite vse datoteke v isto mapo in zaženite $5
  $6
-OS Linux/Mac
+OS Linux/Mac:
  Razširite vse datoteke in odprite ukazno vrstico v tej mapi. Zaženite sh $5',
 	'non-bundled-wget' => 'Opozorilo: Ta različica ne vsebuje wget za Windows. Morali boste razširiti
 v mapo z wget.exe ali pa imeti wget v PATH',

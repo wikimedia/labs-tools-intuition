@@ -1166,6 +1166,13 @@ $messages['ko'] = array(
 	'resultslimited' => '결과는 문서 $1개로 제한했습니다.',
 );
 
+/** Karachay-Balkar (къарачай-малкъар)
+ * @author Iltever
+ */
+$messages['krc'] = array(
+	'update' => 'Джангырт',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
