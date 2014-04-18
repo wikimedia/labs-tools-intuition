@@ -26,6 +26,7 @@ $messages['en'] = array(
     'stat' => 'Statistics',
 
     // Settings
+    'settings_tool' => 'Tool',
     'language' => 'Language',
     'project' => 'Project',
     'save' => 'Save',
@@ -34,7 +35,6 @@ $messages['en'] = array(
 
     // Filter
     'settings_show' => 'Show',
-    'settings_tool' => 'Tool',
     'settings_wiki' => 'Wiki',
     'settings_bot_edits' => 'Bot edits',
     'settings_anon_edits' => 'Anon edits',
@@ -68,7 +68,7 @@ $messages['en'] = array(
     'main_user' => 'User',
     'main_info' => 'Information',
 
-    // Content: tags
+    // Content: filter
     'new' => 'new',
     'minor' => 'minor',
     'anon' => 'anon',
@@ -117,11 +117,116 @@ $messages['en'] = array(
     'send_feedback' => 'Send feedback',
 );
 
+/** Message documentation (Message documentation)
+ * @author Kenrick95
+ */
+$messages['qqq'] = array(
+    // General
+    'close' => 'Text displayed for closing a modal.',
+
+    // Menu bar
+    'help' => 'Text displayed at menu bar',
+    'filter' => 'Text displayed at menu bar',
+    'settings' => 'Text displayed at menu bar',
+    'fork' => 'Text displayed at menu bar, freely choose to translate "Source code" or "Fork me at GitHub"',
+    'stat' => 'Text displayed at menu bar',
+
+    // Settings
+    'settings_tool' => 'Rreferred to this tool (Raun)',
+    'settings_wiki' => 'Referred to which project is used at the tool',
+    'language' => 'Project\'s language which is currently used at the tool',
+    'project' => 'Project which is currently used at the tool',
+    'save' => 'Save the setting change',
+    'settings_pause' => 'Pause the tool (currently unused)',
+    'settings_run' => 'Continue the tool (currently unused)',
+
+    // Filter
+    'settings_show' => 'the text to show or display entries according to filter',
+    'settings_bot_edits' => 'Edits made by bots',
+    'settings_anon_edits' => 'Edits made by anonymous users',
+    'settings_minor_edits' => 'Minor edits',
+    'settings_redirects' => 'Redirect pages',
+    'settings_new_pages' => 'New pages',
+    'settings_editor_edits' => 'Edits made by users with Editor rights',
+    'settings_admin_edits' => 'Edits made by users with Administrator or Sysop rights',
+    'settings_other_edits' => 'Other edits not in above filters',
+
+    // Statistics
+    'time_utc' => 'Current time, in UTC',
+    'stat_articles' => 'Number of Content pages',
+    'stat_pages' => 'Number of Pages',
+    'stat_files' => 'Number of Uploaded files',
+    'stat_edits' => 'Number of Page edits',
+    'stat_depth' => 'Value of project\'s Depth',
+    'stat_users' => 'Number of Registered users',
+    'stat_active_users' => 'Number of Active users',
+    'stat_admins' => 'Number of Administrators',
+    'separator_thousands' => 'Separator for thousands',
+    'separator_decimals' => 'Separator for decimals',
+
+    // Content: definition
+    'def_i' => ' v: verb, conv: conversation',
+    'def_def' => 'If possible, please put three synonyms of "patrol" separated by semicolon.',
+
+    // Content: table
+    'main_time_utc' => 'Displayed for the header of the main table',
+    'main_page' => 'Displayed for the header of the main table',
+    'main_user' => 'Displayed for the header of the main table',
+    'main_info' => 'Displayed for the header of the main table',
+
+    // Content: filter
+    'new' => 'filter for information column',
+    'minor' => 'filter for information column',
+    'anon' => 'filter for information column',
+    'redirect' => 'filter for information column',
+    'bot' => 'filter for information column',
+    'editor' => 'filter for information column',
+    'admin' => 'filter for information column',
+
+    // Help
+    'help_p1' => 'Definition of the tool',
+    'help_p2' => 'Pausing or continuing the tool; currently disabled.',
+    'help_p3' => 'What you can do with this tool: filtering under "Filter", change the project settings under "Settings"',
+    'help_p4' => 'Information about grey text colour entries',
+    'help_legend' => 'Legend, Information about colour and namspace',
+    'color' => 'Colour',
+
+    // Namespace, used in Help and Content
+    'ns' => 'Namespace',
+    'ns0' => 'Article',
+    'ns1' => 'Article talk',
+    'ns2' => 'User',
+    'ns3' => 'User talk',
+    'ns4' => 'Project',
+    'ns5' => 'Project talk',
+    'ns6' => 'File',
+    'ns7' => 'File talk',
+    'ns8' => 'MediaWiki',
+    'ns9' => 'MediaWiki talk',
+    'ns10' => 'Template',
+    'ns11' => 'Template talk',
+    'ns12' => 'Help',
+    'ns13' => 'Help talk',
+    'ns14' => 'Category',
+    'ns15' => 'Category talk',
+    'ns100' => 'Portal',
+    'ns101' => 'Portal talk',
+
+    // About
+    'about' => 'About',
+    'about_tool' => 'What is Raun',
+    'about_cookie' => 'Cookie refers to HTTP Cookie',
+    'information' => 'Information',
+    'credit' => 'Credit',
+    'about_license' => 'License of the project; "MIT License" is the name of the license',
+    'about_github' => 'Availability of source code',
+    'send_feedback' => 'Text displayed at the link for sending feedback',
+);
 
 /**
  * Indonesian (Bahasa Indonesia)
- *
- * @author Kenrick95, IvanLanin
+ * @author Kenrick95
+ * @author IvanLanin
  */
 $messages['id'] = array(
     // General
@@ -135,6 +240,8 @@ $messages['id'] = array(
     'stat' => 'Statistik',
 
     // Settings
+    'settings_tool' => 'Alat',
+    'settings_wiki' => 'Wiki',
     'language' => 'Bahasa',
     'project' => 'Proyek',
     'save' => 'Simpan',
@@ -143,8 +250,6 @@ $messages['id'] = array(
 
     // Filter
     'settings_show' => 'Tampilkan',
-    'settings_tool' => 'Alat',
-    'settings_wiki' => 'Wiki',
     'settings_bot_edits' => 'Suntingan bot',
     'settings_anon_edits' => 'Suntingan anon',
     'settings_minor_edits' => 'Suntingan kecil',
@@ -177,7 +282,7 @@ $messages['id'] = array(
     'main_user' => 'Pengguna',
     'main_info' => 'Keterangan',
 
-    // Content: tags
+    // Content: filter
     'new' => 'baru',
     'minor' => 'kecil',
     'anon' => 'anon',
