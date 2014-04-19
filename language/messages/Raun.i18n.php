@@ -78,7 +78,7 @@ $messages['en'] = array(
     'admin' => 'admin',
 
     // Help
-    'help_p1' => 'Raun is a tool to patrol the recent changes of Wikimedia Foundation Project wikis in real time. After a while, Raun will load the recent changes and show it in front of you automatically.',
+    'help_p1' => 'Raun is a tool to patrol the recent changes of Wikimedia Foundation Project wikis in real time. Raun will load the recent changes periodically and show it in front of you automatically.',
     'help_p2' => 'You can pause this tool by clicking "Pause". And after that, you can run it again by clicking "Run!".', //currently unused
     'help_p3' => 'You can filter the edits you want to see under "Filter", and change the wiki project or language, or the locale of this tool under "Settings".',
     'help_p4' => 'Rows with grey text colour means there are other newer edit(s) on that page.',
@@ -108,16 +108,17 @@ $messages['en'] = array(
 
     // About
     'about' => 'About',
-    'about_tool' => 'Raun is a tool to watch the recent changes of Wikimedia Foundation projects in (near) real time. This tool is inspired from <a href="http://ivan.lanin.org/ronda">Ronda</a>, by Ivan Lanin. This project is started by <a href="http://kenrick95.org/">Kenrick</a> (<a href="http://en.wikipedia.org/wiki/User:Kenrick95">User:Kenrick95</a>).',
-    'about_cookie' => 'This site uses <a href="https://en.wikipedia.org/wiki/HTTP_Cookies">cookies</a>. Data stored by the cookie will be deleted automatically if you don\'t visit this tool in 30 days.',
+    'about_tool' => 'Raun is a tool to watch the recent changes of Wikimedia Foundation projects in (near) real time. This tool is inspired from $1, by $2. This project is started by $3.',
+    'about_cookie' => 'This site uses cookies. Data stored by the cookie will be deleted automatically if you don\'t visit this tool in 30 days.',
     'information' => 'Information',
     'credit' => 'Credit',
     'about_license' => 'Otherwise stated, this project source code is licensed under MIT License.',
-    'about_github' => 'Source code is available on <a href="https://github.com/kenrick95/Raun">github.com/kenrick95/Raun</a>',
+    'about_github' => 'Source code is available on $1',
     'send_feedback' => 'Send feedback',
 );
 
 /** Message documentation (Message documentation)
+ *
  * @author Kenrick95
  */
 $messages['qqq'] = array(
@@ -189,35 +190,10 @@ $messages['qqq'] = array(
     'help_p3' => 'What you can do with this tool: filtering under "Filter", change the project settings under "Settings"',
     'help_p4' => 'Information about grey text colour entries',
     'help_legend' => 'Legend, Information about colour and namspace',
-    'color' => 'Colour',
-
-    // Namespace, used in Help and Content
-    'ns' => 'Namespace',
-    'ns0' => 'Article',
-    'ns1' => 'Article talk',
-    'ns2' => 'User',
-    'ns3' => 'User talk',
-    'ns4' => 'Project',
-    'ns5' => 'Project talk',
-    'ns6' => 'File',
-    'ns7' => 'File talk',
-    'ns8' => 'MediaWiki',
-    'ns9' => 'MediaWiki talk',
-    'ns10' => 'Template',
-    'ns11' => 'Template talk',
-    'ns12' => 'Help',
-    'ns13' => 'Help talk',
-    'ns14' => 'Category',
-    'ns15' => 'Category talk',
-    'ns100' => 'Portal',
-    'ns101' => 'Portal talk',
 
     // About
-    'about' => 'About',
     'about_tool' => 'What is Raun',
     'about_cookie' => 'Cookie refers to HTTP Cookie',
-    'information' => 'Information',
-    'credit' => 'Credit',
     'about_license' => 'License of the project; "MIT License" is the name of the license',
     'about_github' => 'Availability of source code',
     'send_feedback' => 'Text displayed at the link for sending feedback',
@@ -322,15 +298,14 @@ $messages['id'] = array(
 
     // About
     'about' => 'Tentang',
-    'about_tool' => 'Raun adalah alat untuk memantau perubahan terbaru Wikipedia bahasa Indonesia secara langsung (<i>live</i>). Alat ini terinspirasi dari <a href="http://ivan.lanin.org/ronda">Ronda</a>, oleh Ivan Lanin. Proyek ini dimulai oleh <a href="http://kenrick95.org/">Kenrick</a> (<a href="http://id.wikipedia.org/wiki/Pengguna:Kenrick95">Pengguna:Kenrick95</a>).',
-    'about_cookie' => 'Situs ini menggunakan <a href="https://id.wikipedia.org/wiki/Kuki_HTTP">kuki</a>. Data yang disimpan kuki akan otomatis dihapus jika Anda tidak mengunjungi situs ini dalam 30 hari.',
+    'about_tool' => 'Raun adalah alat untuk memantau perubahan terbaru Wikipedia bahasa Indonesia secara langsung (<i>live</i>). Alat ini terinspirasi dari $1, oleh $2. Proyek ini dimulai oleh $3.',
+    'about_cookie' => 'Situs ini menggunakan kuki HTTP. Data yang disimpan kuki akan otomatis dihapus jika Anda tidak mengunjungi situs ini dalam 30 hari.',
 
     'information' => 'Informasi',
     'credit' => 'Kredit',
     'about_license' => 'Di luar lisensi kode dan ide yang telah disebutkan, kode proyek ini dilisensikan dengan lisensi MIT',
-    'about_github' => 'Kode tersedia di <a href="https://github.com/kenrick95/Raun">github.com/kenrick95/Raun</a>',
+    'about_github' => 'Kode tersedia di $1',
     'send_feedback' => 'Kirim umpan balik',
 
 );
 
-?>
