@@ -648,6 +648,7 @@ $messages['oc'] = array(
 	'formats-heading' => 'Format de sortida',
 	'input' => 'Entradas',
 	'label-wikiids' => 'Identificants Wiki',
+	'no-matches' => 'Pas cap de correspondéncia per « $1 »',
 	'output' => 'Sortida per « $1 »',
 );
 

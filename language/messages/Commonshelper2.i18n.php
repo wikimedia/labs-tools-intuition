@@ -2211,7 +2211,7 @@ $messages['ko'] = array(
 	'error_upload_file' => '원본 파일을 다운로드할 수 없습니다.',
 	'help_intro' => '버그를 보고하거나 기능을 제안하거나 질문이 있으면 아래에 문의 유형 중 하나를 사용할 수 있습니다:',
 	'help_jira' => '$1JIRA (계정 필요)$2 (Project: Commonshelper2)',
-	'help_mail' => '$1한테 메일 보내기',
+	'help_mail' => '$1에게 메일 보내기',
 	'help_commons' => '$1공용에 게시물 추가$2',
 );
 
@@ -3022,19 +3022,28 @@ $messages['no'] = array(
  */
 $messages['oc'] = array(
 	'attention' => 'Atencion',
+	'jira_link' => 'Senhalar un bug o suggerir una foncionalitat',
 	'language' => 'Lenga',
 	'project' => 'Projècte',
 	'source_file' => 'Fichièr font',
 	'target_file' => 'Fichièr cibla',
+	'commons_username' => 'Nom d’utilizaire Wikimedia Commons',
+	'commons_to_project' => 'Wikimedia Commons al projècte',
 	'categories' => 'Categorias',
 	'tusc_user' => 'Nom d’utilizaire TUSC',
 	'tusc_pass' => 'Senhal TUSC',
 	'do_it' => 'O far',
+	'error_not_exists' => 'Lo fichièr font existís pas !',
+	'error_on_commons' => 'Fichièr font ja sus $1 !',
+	'error_file_exists' => 'Lo fichièr existís ja sus $3 en tant que « $1$4$2 » !',
 	'original_wikitext' => 'Wikitèxte original',
 	'new_wikitext' => 'Wikitèxte novèl',
 	'new_filename' => 'Novèl nom de fichièr :',
 	'upload_submit' => 'Mandar',
 	'target_wiki' => 'lo wiki cibla',
+	'error_tusc_failed' => 'La verificacion TUSC a fracassat !',
+	'help_mail' => 'Mandar un corrièr electronic a $1',
+	'help_commons' => '$1Apondre un messatge sus Commons$2',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

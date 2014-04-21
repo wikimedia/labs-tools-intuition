@@ -2315,6 +2315,7 @@ $messages['oc'] = array(
 	'invalid-width' => 'Largor invalida',
 	'invalid-height' => 'Nautor invalida',
 	'no-such-project' => 'Aqueste projècte existís pas',
+	'no-images' => 'I a pas d’imatges dins aquesta categoria',
 	'zip-failed' => 'Fracàs de la creacion del zip',
 	'download' => 'Telecargar',
 	'scaling-width' => ', mes a l’escala amb una largor maximala de $1 pixèl{{plural:$1||s}}',

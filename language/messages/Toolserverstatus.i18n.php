@@ -330,13 +330,14 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'toolserver-status-short-ok' => '$1: Temam',
 	'toolserver-status-short-info' => '$1: Malumat',
 	'toolserver-status-short-warn' => '$1: Şık berz cı',
 	'toolserver-status-short-down' => '$1: Vınibyaye',
-	'toolserver-status-short-erro' => '$1: Xırab',
+	'toolserver-status-short-erro' => '$1: Xeta',
 	'toolserver-status-short-unknown' => '$1: Xeribo',
 	'toolserver-status-short-missing' => '$1: kemiyo',
 );
@@ -970,6 +971,19 @@ $messages['nl'] = array(
 	'toolserver-status-short-erro' => '$1: foutmelding',
 	'toolserver-status-short-unknown' => '$1: onbekend',
 	'toolserver-status-short-missing' => '$1: ontbreekt',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'toolserver-status-short-ok' => '$1 : Ok',
+	'toolserver-status-short-info' => '$1 : Info',
+	'toolserver-status-short-warn' => '$1 : Avertiment',
+	'toolserver-status-short-down' => '$1: Desconnectat',
+	'toolserver-status-short-erro' => '$1: Error',
+	'toolserver-status-short-unknown' => '$1: Desconegut',
+	'toolserver-status-short-missing' => '$1 : Absent',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

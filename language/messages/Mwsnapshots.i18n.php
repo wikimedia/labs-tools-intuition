@@ -517,17 +517,19 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'title-overview' => 'Snapshots',
-	'title-error' => 'Xırab',
+	'title-error' => 'Xeta',
 	'title-updatelog' => 'Qeydan anewen ke',
 	'download-button' => "$1'i Ron",
 	'title-downloadpage' => "$1'i Ron:",
 	'repo-site-link' => 'Websita',
+	'repo-branches-label' => 'Lızgey:',
 	'repo-lastmoddate-label' => 'Deme:',
 	'branches-submit-button' => 'Şo ri!',
-	'tablehead-branch' => 'Şobe',
+	'tablehead-branch' => 'Lızge',
 	'tablehead-filesize' => 'Ebatê dosyayî',
 );
 
@@ -1532,6 +1534,9 @@ $messages['oc'] = array(
 	'title-overview' => 'Instantanèus',
 	'title-error' => 'Error',
 	'title-updatelog' => 'Metre a jorn lo jornal',
+	'download-button' => 'Telecargar $1',
+	'download-directlink' => 'ligam dirècte',
+	'title-downloadpage' => 'Telecargar : $1',
 	'repo-site-link' => 'Site web',
 	'repo-branches-label' => 'Brancas :',
 	'repo-lastmoddate-label' => 'Data :',

@@ -2298,6 +2298,9 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'error-nothing' => 'Pas res a tradusir.',
+	'error-notsvg' => 'Pas un fichièr SVG.',
+	'error-unexpected' => "Una error imprevista s'es producha.",
 	'begin-translation' => 'Començar la traduccion',
 	'th-original' => 'Original',
 	'th-translation' => 'Traduccion',
@@ -2305,10 +2308,14 @@ $messages['oc'] = array(
 	'th-username' => "Nom d'utilizaire",
 	'th-password' => 'Senhal',
 	'th-method' => 'Metòde',
+	'option-manual' => 'Telecargament manual',
 	'preview' => 'Previsualizar',
 	'translate' => 'Tradusir',
 	'svginput-label' => 'Fichièr SVG',
 	'uploading' => 'Telecargament',
+	'preview-hide' => "Amagar l'apercebut",
+	'preview-refresh' => 'Actualizar la previsualizacion',
+	'finalise' => 'Finalizar los detalhs',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

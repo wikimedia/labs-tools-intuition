@@ -384,6 +384,12 @@ $messages['fr'] = array(
 $messages['he'] = array(
 	'pb-about-pb-navi' => 'אודות',
 	'pb-about-pb-tech' => 'פרטים טכניים',
+	'pb-about-pb-tech-text' => '<p>אנחנו משתמשים ב<a href="https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F">פייתון</a> וב־<a href="https://he.wikipedia.org/wiki/MySQL">MySQL</a> בשביל הממשק הזה. קוד המקור מתפרסם לפי התנאים של <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">גרסה 3 של הרישיון הציבורי הכללי המוקטן של גנו</a> (LGPL 3) ואפשר למצוא אותו ב<a href="https://github.com/tool-labs/pb">גיטהאב</a>. נא להוסיף דיווחי באגים, בקשות ליכולות חדשות והערות אחרות ל<a href="https://github.com/tool-labs/pb/issues/new">כלי מעקב הבאגים של גיטהאב</a> או לדווח אותן ל<a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">דף השיחה של המיזם בוויקיפדיה הגרמנית</a>.</p>
+ <p>היטלים נוכחיים של מסד הנתונים של PB אפשר למצוא <a href="/pb/sql-dumps">כאן</a>.</p>
+ <p>אנחנו משתמשים במספר סמלים שנוצרו במיזם <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>.</p>',
+	'pb-about-pb-text' => '<p>המיזם הזה מציג היכרויות אישיות בין ויקימדים.</p>
+  <p>המימוש הראשון נוצר על־ידי אולי פורווין (Ulli Purwin; הממשק) ו־Euku (הבוט). בתחילת 2011 ויגלס (Wiegels) ואירֵאס (Ireas) המשיכו את העבודה של אולי על הממשק. עכשיו המיזם כבר לא מתארח בשרת פרטי, אלא במעבדות ויקימדיה.</p>
+  <p>אפשר למצוא מידע נוסף על המיזם הזה בוויקיפדיה הגרמנית בדף <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a>.</p>',
 	'pb-about-pb-title' => 'על הפרוייקט',
 	'pb-change-language' => 'שינוי שפה',
 	'pb-comment' => 'תגובה',
@@ -393,15 +399,20 @@ $messages['he'] = array(
 	'pb-current-figures' => 'מספרים נוכחיים',
 	'pb-current-users' => 'כעת $1 משתמשים משתתפים במיזם <em>היכרות אישית</em>',
 	'pb-date' => 'תאריך',
+	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in the German Wikipedia">[[Wikipedia:Persönliche Bekanntschaften]]</a> ב־Tool Labs. <a href="$1" title="About Wikipedia:Persönliche Bekanntschaften">מידע נוסף.</a>',
 	'pb-home' => 'דף הבית',
+	'pb-home-welcome' => 'ברוך בואך למיזם היכרויות אישיות (<em lang="de" dir="ltr">Persönliche-Bekanntschaften</em> בגרמנית)! מידע נוסף על המיזם הזה אפשר למצוא <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in the German language Wikipedia">בוויקיפדיה הגרמנית</a>.',
 	'pb-javascript-notice' => 'אנחנו ממליצים להפעיל JavaScript באתר הזה כדי לשפר את ממשק המשתמש.',
 	'pb-labs-name' => 'מעבדות כלי ויקימדיה',
 	'pb-participates-since' => 'משתתף מאז',
+	'pb-name' => 'ויקיפדיה:היכרויות אישיות',
 	'pb-powered-by-labs' => 'מופעל על־ידי מעבדות כלי ויקימדיה',
 	'pb-recent-confirmations' => 'אישורים אחרונים',
 	'pb-reconfirmed' => 'מאושר מחדש?',
 	'pb-user' => 'משתמש',
 	'pb-user-link-title' => 'פרטים עבור המשתמש $1',
+	'pb-user-heading' => 'מידע עבור <a href="$2" title="דף המשתמש של $1">$1</a>',
+	'pb-user-title' => 'מידע עבור $1',
 	'pb-users-navi' => 'משתמשים',
 	'pb-users-title' => 'רשימת המשתתפים',
 	'pb-users-overview' => '$1 המשתמשים האלה משתתפים במיזם <em>היכרות אישית</em>:',
@@ -654,13 +665,21 @@ $messages['nl'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'pb-about-pb-navi' => 'A prepaus',
+	'pb-about-pb-tech' => 'Detalhs tecnics',
+	'pb-about-pb-title' => 'A prepaus del projècte',
 	'pb-change-language' => 'Cambiar de lenga',
 	'pb-comment' => 'Comentari',
+	'pb-confirmations-given' => 'Confirmacions provesidas',
+	'pb-current-figures' => 'Cifras actualas',
 	'pb-date' => 'Data',
 	'pb-home' => "Pagina d'acuèlh",
 	'pb-user' => 'Utilizaire',
 	'pb-user-link-title' => 'Detalhs per l’utilizaire $1',
+	'pb-user-title' => 'Informacion sus $1',
 	'pb-users-navi' => 'Utilizaires',
+	'pb-users-title' => 'Lista dels participants',
+	'pb-verified-since' => 'Verificat dempuèi',
 );
 
 /** Pashto (پښتو)

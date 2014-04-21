@@ -1488,8 +1488,13 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'title' => 'OrphanTalk2',
+	'select-wiki-first' => '(seleccionatz d’en primièr un wiki)',
+	'hideredirects' => 'Amagar las redireccions',
+	'hidesubpages' => 'Amagar las sospaginas',
 	'limit' => 'Limit',
 	'page' => 'Pagina',
+	'redirect' => 'Es una redireccion ?',
 	'output' => 'Sortida',
 	'update' => 'Metre a jorn',
 	'tools-delete' => 'suprimir',

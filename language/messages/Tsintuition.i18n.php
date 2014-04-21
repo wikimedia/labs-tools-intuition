@@ -1794,11 +1794,21 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'current-settings' => 'Paramètres actuals',
+	'current-language' => 'Lenga seleccionada actualament',
 	'settings-legend' => 'Paramètres',
+	'choose-language' => 'Causissètz una lenga',
+	'clear-cookies' => 'escafar los cookies',
+	'renew-cookies' => 'renovelar los cookies',
+	'cookie-expiration' => 'Expiracion del cookie',
 	'tab-overview' => "Vista d'ensemble",
 	'tab-settings' => 'Paramètres',
 	'tab-about' => 'A prepaus',
 	'tab-demo' => 'Demo',
+	'bl-mysettings' => 'Mos paramètres de lenga',
+	'bl-mysettings-new' => 'Cambiar de lenga !',
+	'help-translate-tool' => 'Ajudatz a tradusir aquesta aisina !',
+	'help-translate-all' => 'Ajudatz a tradusir las aisinas !',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

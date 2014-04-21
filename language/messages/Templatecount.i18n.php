@@ -922,8 +922,11 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'enter-details' => 'Entratz los detalhs',
 	'language-label' => 'Lenga',
 	'namespace-label' => 'Espaci de noms',
+	'transclusion-count-label' => 'Nombre de tranclusions',
+	'transclusion-count' => '$1 transclusion(s) trobadas.',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
