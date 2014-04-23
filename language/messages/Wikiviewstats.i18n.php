@@ -153,10 +153,8 @@ $messages['en'] = array(
 	'authorMostEdits' => 'Author with most edits. In german wikpedia: Author with largest text share',
 	'totalShare' => 'Total share',
 	
-	
  	//entry on local wikipedia statistics page
 	'statsEntry' =>  '$1 - Page view and page popularity statistics with Top 100,000 hit lists for all Wikimedia Wiki\'s (today, per month and custom time periods). Additional features: Wildcard search, 24-hour statistics, personal favorites, global project totals, support for disambiguation pages and Wikidata items. Hourly updates.'
-
 );
 
 /** Message documentation (Message documentation)
@@ -314,10 +312,8 @@ $messages['qqq'] = array(
 	'authorMostEdits' => 'Author with most edits. In german wikpedia: Author with largest text share',
 	'totalShare' => 'Total share',
 
-	
 	//entry on local wikipedia statistics page
 	'statsEntry' => '$1 = link to the tool. This message is placed on Wikipedia\'s statistic page. e.g: [[:en:Wikipedia:Statistics]]',
-	
 );
 
 /** Catalan (Català)
@@ -561,7 +557,6 @@ $messages['de'] = array(
 	'linkArticle' => 'Link zum Wikipedia-Artikel',
 	'authorMostEdits' => 'Autor mit den meisten Bearbeitungen. In der deutschen Wikipedia: Autor mit dem größten Textanteil',
 	'totalShare' => 'Anteil',
-
 );
 
 /** French (français)
@@ -1457,7 +1452,7 @@ $messages['te'] = array(
 * @author Ingochina
 * @author Shizhao
 */
-$messages['zh'] = array(
+$messages['zh-hans'] = array(
 	'allLang' => '所有语言',
 	'all' => '全部',
 	'enterSearchTerm' => '输入搜索词',
