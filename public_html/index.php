@@ -16,7 +16,7 @@
  */
 
 // Load BaseTool
-$initPath = dirname( __DIR__ ) . '/includes/libs/basetool';
+$initPath = dirname( __DIR__ ) . '/libs/basetool';
 require_once $initPath . '/InitTool.php';
 
 // Load Intuition
