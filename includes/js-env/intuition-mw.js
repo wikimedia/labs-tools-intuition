@@ -1,3 +1,4 @@
+/*global mediaWiki */
 (function (mw, $) {
 	var intuition,
 		apiPath = 'api.php',
@@ -5,7 +6,6 @@
 		loaded = {},
 		hasOwn = loaded.hasOwnProperty,
 		slice = [].slice;
-
 
 	intuition = {
 

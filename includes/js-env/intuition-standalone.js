@@ -5,7 +5,6 @@
 		loaded = {},
 		hasOwn = loaded.hasOwnProperty;
 
-
 	intuition = {
 
 		/**

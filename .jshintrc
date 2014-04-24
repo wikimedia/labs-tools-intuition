@@ -11,15 +11,10 @@
 	"noempty": true,
 	"nonew": true,
 	"quotmark": "single",
-	"trailing": true,
 	"undef": true,
 	"unused": true,
 	// Environment
 	"browser": true,
-	// Legacy
-	"onevar": true,
-	"nomen": true,
-	"white": true,
 
 	"predef": [
 		"jQuery"

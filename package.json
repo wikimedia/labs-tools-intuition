@@ -1,17 +1,20 @@
 {
-	"name": "intuition",
-	"version": "0.1.4",
-	"homepage": "https://github.com/Krinkle/intuition",
-	"bugs": "https://github.com/Krinkle/intuition/issues",
-	"scripts": {
-		"pretest": "which phpunit && phpunit --version && which grunt && grunt --version",
-		"test": "grunt && phpunit --configuration tests/phpunit/phpunit.xml"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"grunt": "~0.4.1",
-		"grunt-update-submodules": "~0.2.0",
-		"grunt-contrib-jshint": "~0.6.4",
-		"grunt-git-authors": "~1.2.0"
-	}
+  "name": "intuition",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Krinkle/intuition.git"
+  },
+  "scripts": {
+    "pretest": "phpunit --version && grunt --version",
+    "test": "grunt && phpunit --configuration tests/phpunit/phpunit.xml"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-git-authors": "1.2.0",
+    "grunt-jscs-checker": "0.4.1",
+    "grunt-update-submodules": "0.3.0"
+  }
 }

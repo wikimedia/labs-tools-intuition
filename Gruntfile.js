@@ -7,16 +7,23 @@
 module.exports = function (grunt) {
 	'use strict';
 
-	grunt.loadNpmTasks('grunt-update-submodules');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-git-authors');
+	grunt.loadNpmTasks('grunt-jscs-checker');
+	grunt.loadNpmTasks('grunt-update-submodules');
 
 	grunt.initConfig({
 		jshint: {
-			all: ['Gruntfile.js', 'includes/js-env/*.js']
+			options: {
+				jshintrc: true
+			},
+			all: [ 'Gruntfile.js', 'includes/js-env/*.js' ]
+		},
+		jscs: {
+			all: '<%= jshint.all %>',
 		}
 	});
 
-	grunt.registerTask('default', ['update_submodules', 'jshint']);
+	grunt.registerTask('default', ['update_submodules', 'jshint', 'jscs']);
 
 };
