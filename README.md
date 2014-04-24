@@ -14,7 +14,7 @@ git clone --recursive https://github.com/Krinkle/intuition.git
 
 ### Testing
 
-Use [Composer](https://getcomposer.org) for managing our dependenices (such as [PHPUnit](http://www.phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/).
+Use [Composer](https://getcomposer.org) for managing dependenices (such as [PHPUnit](http://www.phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/).
 
 Prior to runnig tests, ensure presence of local dev dependencies:
 ```
