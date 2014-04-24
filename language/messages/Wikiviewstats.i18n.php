@@ -1089,8 +1089,8 @@ $messages['ja'] = array(
 );
 
 /** Polish (polski)
-* @author WTM
-*/ 
+ * @author WTM
+ */
 $messages['pl'] = array(
 	'records' => 'records',
 	'list' => 'lista',
@@ -1555,4 +1555,3 @@ $messages['zh-hans'] = array(
 	'optinMsg2' => 'Alternatively, you can create $1 on metawiki to opt-in across all Wikimedia wikis.',
 	'mywatchlists' => '我的监视列表',
 );
-
