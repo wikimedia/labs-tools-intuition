@@ -1,18 +1,18 @@
 <?php
 /**
-* Interface messages for tool "Wiki ViewStats".
-*
-* @toolowner Hedonil
-*/
+ * Interface messages for tool "Wiki ViewStats".
+ *
+ * @toolowner Hedonil
+ */
 
 $url = '//tools.wmflabs.org/wikiviewstats/';
 
 $messages = array();
 
 /**
-* English
-* @author Hedonil
-*/
+ * English
+ * @author Hedonil
+ */
 $messages['en'] = array(
 	'records' => 'records',
 	'list' => 'List',
@@ -151,13 +151,13 @@ $messages['en'] = array(
 	'authorMostEdits' => 'Author with most edits. In german wikpedia: Author with largest text share',
 	'totalShare' => 'Total share',
 
- 	//entry on local wikipedia statistics page
-	'statsEntry' =>  '$1 - Page view and page popularity statistics with Top 100,000 hit lists for all Wikimedia Wiki\'s (today, per month and custom time periods). Additional features: Wildcard search, 24-hour statistics, personal favorites, global project totals, support for disambiguation pages and Wikidata items. Hourly updates.'
+	//entry on local wikipedia statistics page
+	'statsEntry' => '$1 - Page view and page popularity statistics with Top 100,000 hit lists for all Wikimedia Wiki\'s (today, per month and custom time periods). Additional features: Wildcard search, 24-hour statistics, personal favorites, global project totals, support for disambiguation pages and Wikidata items. Hourly updates.'
 );
 
 /** Message documentation (Message documentation)
-* @author Hedonil
-*/
+ * @author Hedonil
+ */
 $messages['qqq'] = array(
 	'records' => 'data records',
 	'list' => 'List',
@@ -313,8 +313,8 @@ $messages['qqq'] = array(
 );
 
 /** Catalan (Català)
-* @author Vriullop
-*/
+ * @author Vriullop
+ */
 $messages['ca'] = array(
 	'allLang' => 'Totes les llengües',
 	'all' => 'tot',
@@ -424,8 +424,8 @@ $messages['ca'] = array(
 );
 
 /** German (Deutsch)
-* @author Hedonil
-*/
+ * @author Hedonil
+ */
 $messages['de'] = array(
 	'records' => 'Datensätze',
 	'list' => 'Liste',
@@ -556,8 +556,8 @@ $messages['de'] = array(
 );
 
 /** French (français)
-* @author Hedonil
-*/
+ * @author Hedonil
+ */
 $messages['fr'] = array(
 	'records' => 'enregistrements',
 	'list' => 'Liste',
@@ -662,8 +662,8 @@ $messages['fr'] = array(
 );
 
 /** Spanish (español)
-* @author Stauffen
-*/
+ * @author Stauffen
+ */
 $messages['es'] = array(
 	'records' => 'datos',
 	'list' => 'Lista',
@@ -768,9 +768,9 @@ $messages['es'] = array(
 );
 
 /** Italian (italiano)
-* @author Ilario
-* @author Vituzzu
-*/
+ * @author Ilario
+ * @author Vituzzu
+ */
 $messages['it'] = array(
 	'records' => 'records',
 	'list' => 'Lista',
@@ -875,8 +875,8 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
-* @author Dr. Koto
-*/
+ * @author Dr. Koto
+ */
 $messages['ja'] = array(
 	'records' => 'データレコード',
 	'list' => 'リスト',
@@ -981,9 +981,9 @@ $messages['ja'] = array(
 );
 
 /** Dutch (Nederlands)
-* @author Romaine
-*/
- $messages['nl'] = array(
+ * @author Romaine
+ */
+$messages['nl'] = array(
 	'records' => 'records',
 	'list' => 'Lijst',
 	'sample' => 'Voorbeeld',
@@ -1195,8 +1195,8 @@ $messages['pl'] = array(
 );
 
 /** Russian (русский)
-* @author Voevoda
-*/
+ * @author Voevoda
+ */
 $messages['ru'] = array(
 	'records' => 'набор',
 	'list' => 'Список',
@@ -1301,8 +1301,8 @@ $messages['ru'] = array(
 );
 
 /** Swedish (svenska)
-* @author LZ6387
-*/
+ * @author LZ6387
+ */
 $messages['sv'] = array(
 	'records' => 'dataset',
 	'list' => 'Lista',
@@ -1407,8 +1407,8 @@ $messages['sv'] = array(
 );
 
 /** Telugu (తెలుగు)
-* @author రహ్మానుద్దీన్
-*/
+ * @author రహ్మానుద్దీన్
+ */
 $messages['te'] = array(
 	'records' => 'రికార్డులు',
 	'hits' => 'వీక్షణలు',
@@ -1445,9 +1445,9 @@ $messages['te'] = array(
 );
 
 /** Chinese (中文‎)
-* @author Ingochina
-* @author Shizhao
-*/
+ * @author Ingochina
+ * @author Shizhao
+ */
 $messages['zh-hans'] = array(
 	'allLang' => '所有语言',
 	'all' => '全部',
