@@ -21,4 +21,5 @@ $domains = array(
 	'wlm' => 'Wlm.i18n.php',
 	'wlmsurvey' => 'Wlmsurvey.i18n.php',
 	'raun' => 'Raun.i18n.php',
+        'wikiviewstats' => 'Wikiviewstats.i18n.php',
 );
