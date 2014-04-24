@@ -75,7 +75,6 @@ $messages['en'] = array(
 	'protection' => 'protection',
 	'semi' => 'semi',
 	'complete' => 'complete',
-	'user_pl' => 'Users',
 	'active' => 'active',
 	'bureaucrats' => 'bureaucrats',
 	'sysops' => 'administrators',
@@ -138,21 +137,20 @@ $messages['en'] = array(
 	'searchVariants' => 'Search variants',
 	'addToWorkList' => 'add to work list',
 	'removeFromWorklist' => 'remove from work list',
-	
+
 	//wiki page edits TOP 500
 	'projectPages' => 'Project pages',
-	
 	'backToTop' => 'back to top',
 	'rankLocal' => 'Rank (local) in',
 	'rankWorld' => 'Rank (world) across all Wikimedia Wikis',
 	'pageViewCount' => 'Number of pageviews (non-unique)',
 	'winningArticles' => 'Winning articles',
-	'numPageWatchers' => "Number of page watchers",
+	'numPageWatchers' => 'Number of page watchers',
 	'linkStats' => 'Link to page statistics',
 	'linkArticle' => 'Link to wiki article',
 	'authorMostEdits' => 'Author with most edits. In german wikpedia: Author with largest text share',
 	'totalShare' => 'Total share',
-	
+
  	//entry on local wikipedia statistics page
 	'statsEntry' =>  '$1 - Page view and page popularity statistics with Top 100,000 hit lists for all Wikimedia Wiki\'s (today, per month and custom time periods). Additional features: Wildcard search, 24-hour statistics, personal favorites, global project totals, support for disambiguation pages and Wikidata items. Hourly updates.'
 );
@@ -232,8 +230,6 @@ $messages['qqq'] = array(
 	'inPeriod' => 'relates to header: period of time the revisions were made',
 
 	'deleted' => 'deleted items',
-
-	'user_pl' => 'name for wikipedia users eg. (Users, Benutzer, Utilisateurs ..)  [[toollabs:wikiviewstats/?lang=en&project=d&page=stats-project-totals]]',
 	'active' => 'relates to header: users - active user',
 	'bureaucrats' => 'name for wikipedia bureaucrats',
 	'sysops' => 'name for wikipedia sysops',
@@ -298,7 +294,7 @@ $messages['qqq'] = array(
 	'searchVariants' => 'link text to show search variants of this page',
 	'addToWorkList' => 'tooltip message to add this item to the worklist',
 	'removeFromWorklist' => 'tooltip message to remove this item from the worklist',
-	
+
 	//wiki page edits TOP 500
 	'projectPages' => 'Project pages',
 	'backToTop' => 'back to top',
@@ -306,7 +302,7 @@ $messages['qqq'] = array(
 	'rankWorld' => 'Rank (world) across all Wikimedia Wikis',
 	'pageViewCount' => 'Number of pageviews (non-unique)',
 	'winningArticles' => 'Winning articles',
-	'numPageWatchers' => "Number of page watchers",
+	'numPageWatchers' => 'Number of page watchers',
 	'linkStats' => 'Link to page statistics',
 	'linkArticle' => 'Link to wiki article',
 	'authorMostEdits' => 'Author with most edits. In german wikpedia: Author with largest text share',
@@ -552,7 +548,7 @@ $messages['de'] = array(
 	'rankWorld' => 'Rang (world) in allen Wikimedia Wikis',
 	'pageViewCount' => 'Anzahl der Seitenaufrufe (non-unique)',
 	'winningArticles' => 'Prämierte Artikel',
-	'numPageWatchers' => "Anzahl der Beobachter der Seite",
+	'numPageWatchers' => 'Anzahl der Beobachter dieser Seite',
 	'linkStats' => 'Link zu den Seitenstatistiken',
 	'linkArticle' => 'Link zum Wikipedia-Artikel',
 	'authorMostEdits' => 'Autor mit den meisten Bearbeitungen. In der deutschen Wikipedia: Autor mit dem größten Textanteil',
