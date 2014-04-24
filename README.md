@@ -1,4 +1,4 @@
-# Intuition [![Build Status](https://travis-ci.org/Krinkle/intuition.png?branch=master)](https://travis-ci.org/Krinkle/intuition)
+# Intuition [![Build Status](https://travis-ci.org/Krinkle/intuition.svg?branch=master)](https://travis-ci.org/Krinkle/intuition)
 
 ## Usage
 
