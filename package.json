@@ -6,8 +6,7 @@
     "url": "git://github.com/Krinkle/intuition.git"
   },
   "scripts": {
-    "pretest": "phpunit --version && grunt --version",
-    "test": "grunt && phpunit --configuration tests/phpunit/phpunit.xml"
+    "test": "grunt"
   },
   "dependencies": {},
   "devDependencies": {

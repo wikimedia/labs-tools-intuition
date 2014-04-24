@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+cd $(cd $(dirname $0)/..; pwd)
+set -xe
+./vendor/bin/parallel-lint --exclude vendor --exclude node_modules --exclude libs .
+
+./vendor/bin/phpcs -v -s . \
+--standard=./tests/codesniffer \
+--ignore=vendor/*,node_modules/*,libs/*,includes/Functions.php,language/mw-classes/*,language/messages/*,language/LanguageConverter.php \
+--extensions=php \
+--report-full \
+--warning-severity=0
+
+phpunit --configuration tests/phpunit/phpunit.xml

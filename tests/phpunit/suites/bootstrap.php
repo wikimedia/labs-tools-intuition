@@ -1,7 +1,7 @@
 <?php
 
 // BaseTool
-require_once __DIR__ . '/../../../includes/libs/basetool/InitTool.php';
+require_once __DIR__ . '/../../../libs/basetool/InitTool.php';
 
 // Intuition classes
 require_once __DIR__ . '/../../../ToolStart.php';

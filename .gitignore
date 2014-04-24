@@ -3,9 +3,11 @@ public_html/logs
 scripts/*.out
 LocalConfig.php
 
-# Node
+# Dev
 node_modules
 npm-debug.log
+vendor
+composer.lock
 
 # OSX
 .DS_Store

@@ -2,19 +2,14 @@ language: php
 php:
   - "5.4"
   - "5.3"
-before_script:
-  - pear install pear/PHP_CodeSniffer
-  - phpenv rehash
+install:
+  - composer self-update
+  - composer install
+  - npm install -g grunt-cli
+  - npm install
 script:
-  - find . -name '*.php' -print0 | xargs -0 -L 1 -P 8 php -l
-  - phpunit --configuration tests/phpunit/phpunit.xml
-  - |
-    phpcs -v -s . \
-    --standard=./tests/codesniffer \
-    --ignore=node_modules/*,includes/libs/*,includes/Functions.php,language/mw-classes/*,language/messages/*,language/LanguageConverter.php \
-    --extensions=php \
-    --report-full \
-    --warning-severity=0
+  - ./tests/run
+  - npm test
 notifications:
   irc:
     channels:
