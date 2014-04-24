@@ -1,6 +1,7 @@
 {
 	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "0.*",
 		"squizlabs/php_codesniffer": "1.*",
-		"jakub-onderka/php-parallel-lint": "0.*"
+		"phpunit/phpunit": "3.7.*"
 	}
 }

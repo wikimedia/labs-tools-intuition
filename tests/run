@@ -10,4 +10,4 @@ set -xe
 --report-full \
 --warning-severity=0
 
-phpunit --configuration tests/phpunit/phpunit.xml
+./vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml
