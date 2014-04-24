@@ -14,28 +14,34 @@ git clone --recursive https://github.com/Krinkle/intuition.git
 
 ### Testing
 
-If you haven't already, [install PHPUnit](http://www.phpunit.de/manual/current/en/installation.html) and make sure it is in your `PATH`. The easiest way to install it is through [PEAR](http://pear.php.net/manual/en/installation.getting.php) (you may have to use `sudo`):
-```
-pear channel-discover pear.phpunit.de
-pear update-channels
-pear install --alldeps phpunit/PHPUnit
-```
+Use [Composer](https://getcomposer.org) for managing our dependenices (such as [PHPUnit](http://www.phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/).
 
-Run tests:
+Prior to runnig tests, ensure presence of local dev dependencies:
 ```
-phpunit --configuration tests/phpunit/phpunit.xml
+composer install
 ```
 
-Or simply `npm test` (if you have node installed).
+Run the tests:
+```
+./tests/run
+```
 
-### Misc
+A small amount of frontend code is integrated via [Grunt](http://gruntjs.com/) on [node.js](http://nodejs.org/). Install the Grunt command-line utility:
+`npm install -g grunt-cli`
 
-For building of `AUTHORS.txt` (and linting of code base in the future) we use [node-grunt](https://github.com/gruntjs/grunt).
-Make sure you have [nodejs](http://nodejs.org/) installed and grunt with `npm install -g grunt`.
-Then from inside the root directory of this project:
+Prior to runnig tests, ensure presence of local dev dependencies:
 ```
 npm install
 ```
 
-* To regenerate the `AUTHORS.txt` list: `$ grunt authors`
-* The default action is to update submodules and lint the grunt file: `$ grunt`
+Run the tests:
+```
+npm test
+```
+
+### Misc
+
+To regenerate the `AUTHORS.txt`:
+```
+npm install && grunt authors
+```
