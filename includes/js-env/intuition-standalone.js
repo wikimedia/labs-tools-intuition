@@ -24,32 +24,26 @@
 				}
 			}
 
-			d = jQuery.Deferred();
-
 			if (!queue.length) {
+				d = $.Deferred();
 				setTimeout(d.resolve);
 				return d.promise();
 			}
 
-			$.ajax({
+			return $.ajax({
 				url: apiPath,
 				data: {
 					domains: queue.join('|'),
 					userlang: lang || 'en'
 				},
 				dataType: 'jsonp'
-			}).done(function (data) {
+			}).then(function (data) {
 				if (!data || !data.messages) {
-					d.reject(data);
-					return;
+					return $.Deferred().reject(data);
 				}
 
 				$.each(data.messages, intuition.put);
-
-				d.resolve(data.messages);
-			}).fail(d.reject);
-
-			return d.promise();
+			});
 		},
 
 		put: function (domain, msgs) {

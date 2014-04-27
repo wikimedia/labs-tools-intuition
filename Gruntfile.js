@@ -8,6 +8,7 @@ module.exports = function (grunt) {
 	'use strict';
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-contrib-qunit');
 	grunt.loadNpmTasks('grunt-git-authors');
 	grunt.loadNpmTasks('grunt-jscs-checker');
 	grunt.loadNpmTasks('grunt-update-submodules');
@@ -21,9 +22,11 @@ module.exports = function (grunt) {
 		},
 		jscs: {
 			all: '<%= jshint.all %>',
+		},
+		qunit: {
+			all: ['tests/qunit/index.html']
 		}
 	});
 
-	grunt.registerTask('default', ['update_submodules', 'jshint', 'jscs']);
-
+	grunt.registerTask('default', ['update_submodules', 'jshint', 'jscs', 'qunit']);
 };

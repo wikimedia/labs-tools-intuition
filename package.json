@@ -12,6 +12,7 @@
   "devDependencies": {
     "grunt": "0.4.2",
     "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-qunit": "0.4.0",
     "grunt-git-authors": "1.2.0",
     "grunt-jscs-checker": "0.4.1",
     "grunt-update-submodules": "0.3.0"

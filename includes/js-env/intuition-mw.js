@@ -1,5 +1,5 @@
-/*global mediaWiki */
-(function (mw, $) {
+/*global mw */
+(function ($) {
 	var intuition,
 		apiPath = 'api.php',
 		mwMsgPrefix = 'intuition-',
@@ -26,32 +26,26 @@
 				}
 			}
 
-			d = jQuery.Deferred();
-
 			if (!queue.length) {
+				d = $.Deferred();
 				setTimeout(d.resolve);
 				return d.promise();
 			}
 
-			$.ajax({
+			return $.ajax({
 				url: apiPath,
 				data: {
 					domains: queue.join('|'),
 					userlang: lang || mw.config.get('wgUserLanguage')
 				},
 				dataType: 'jsonp'
-			}).done(function (data) {
+			}).then(function (data) {
 				if (!data || !data.messages) {
-					d.reject(data);
-					return;
+					return $.Deferred().reject(data);
 				}
 
 				$.each(data.messages, intuition.put);
-
-				d.resolve(data.messages);
-			}).fail(d.reject);
-
-			return d.promise();
+			});
 		},
 
 		put: function (domain, msgs) {
@@ -93,4 +87,4 @@
 	// Expose
 	mw.libs.intuition = intuition;
 
-}(mediaWiki, jQuery));
+}(jQuery));
