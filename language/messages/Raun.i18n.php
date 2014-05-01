@@ -67,6 +67,7 @@ $messages['en'] = array(
     'main_page' => 'Page',
     'main_user' => 'User',
     'main_info' => 'Information',
+    'combined_entries' => 'Combined entries',
 
     // Content: filter
     'new' => 'new',
@@ -174,6 +175,7 @@ $messages['qqq'] = array(
     'main_page' => 'Displayed for the header of the main table',
     'main_user' => 'Displayed for the header of the main table',
     'main_info' => 'Displayed for the header of the main table',
+    'combined_entries' => 'Text displayed for entries combined into one entry',
 
     // Content: filter
     'new' => 'filter for information column',
@@ -257,6 +259,7 @@ $messages['id'] = array(
     'main_page' => 'Halaman',
     'main_user' => 'Pengguna',
     'main_info' => 'Keterangan',
+    'combined_entries' => 'Beberapa entri',
 
     // Content: filter
     'new' => 'baru',
@@ -308,3 +311,4 @@ $messages['id'] = array(
     'send_feedback' => 'Kirim umpan balik',
 
 );
+
