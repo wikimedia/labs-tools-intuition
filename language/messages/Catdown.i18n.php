@@ -1469,6 +1469,7 @@ o de un altere speculo de GNU, vide
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author C5st4wr6ch
  * @author Farras
  */
 $messages['id'] = array(
@@ -1492,13 +1493,13 @@ $messages['id'] = array(
 	'readme-contents' => 'Berkas lampiran $4 berisi
 gambar di kategori $1 ( $2 )$3.
 
-== Cara mengunduh semua gambar terdaftar ==
+== Petunjuk untuk mengunduh semua gambar terdaftar ==
 Lama pengunduhan bisa bervariasi mulai dari beberapa menit hingga beberapa jam.
 
 Windows:
  Ekstrak semua berkas di folder yang sama dan jalankan $5
  $6
-Linux/Mac OS
+Linux/Mac OS:
  Ekstrak semua berkas dan buka sebuah terminal di folder tersebut. Jalankan sh $5',
 	'non-bundled-wget' => 'Catatan: Versi ini tidak mencakup wget untuk Windows. Anda perlu melakukan dekompres ke sebuah folder berisi wget.exe atau pasang wget di PATH',
 	'wget-info' => 'Berkas ini berisikan salinan wget $1 (untuk platform Windows). Wget adalah Perangkat Lunak Bebas,

@@ -926,6 +926,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'search-table-th-field' => 'Ca',
@@ -946,7 +947,7 @@ $messages['diq'] = array(
 	'db-field-monument_article' => 'Wesiqey zıyarık',
 	'db-field-st_address' => 'Adres',
 	'db-field-st_address_pct' => 'Adresê %',
-	'db-field-st_coordinates' => 'Koordinati:',
+	'db-field-st_coordinates' => 'Koordinati',
 	'db-field-st_coordinates_pct' => 'Koordinati %',
 	'db-field-st_image' => 'Resim',
 	'db-field-st_image_pct' => 'Resim %',

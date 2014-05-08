@@ -452,6 +452,21 @@ $messages['hsb'] = array(
 	'pb-verified-since' => 'Přepruwowany wot',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author C5st4wr6ch
+ */
+$messages['id'] = array(
+	'pb-about-pb-text' => '<p>Proyek ini menggambarkan perkenalan perorangan antara Wikimediawan.</p>
+    <p>Penerapan pertama telah dilakukan oleh Ulli Purwin (antarmuka) dan Euku (bot). Pada awal tahun 2011, Wiegels dan Ireas mengikuti Ulli mengerjakan antarmukanya. Sekarang, proyek tidak lagi di-hosting pada server pribadi namun pada Lab Wikimedia.</p>
+    <p>Informasi lebih lanjut tentang proyek ini dapat ditemukan di Wikipedia Jerman pada halaman <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a>.</p>',
+	'pb-comment' => 'Komentar',
+	'pb-current-users' => 'Saat ini, ada $1 pengguna yang ikut serta dalam proyek <em>Perkenalan Pribadi</em>.',
+	'pb-date' => 'Tanggal',
+	'pb-home' => 'Utama',
+	'pb-javascript-notice' => 'Kami menganjurkan untuk mengaktifkan JavaScript pada situs web ini untuk meningkatkan antarmuka pengguna.',
+	'pb-user-link-title' => 'Rincian untuk pengguna $1',
+);
+
 /** Italian (italiano)
  * @author Beta16
  * @author Gianfranco

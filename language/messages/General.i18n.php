@@ -67,7 +67,8 @@ $messages['qqq'] = array(
 {{Identical|Minute}}',
 	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.
 {{Identical|Second}}',
-	'last-modified-date' => 'The date something was last modified. $1 is a date (eg. "April 5 2010, 12:30 AM")',
+	'last-modified-date' => 'The date something was last modified. Parameters:
+* $1 - a date (e.g. "April 5 2010, 12:30 AM")',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.
 {{Identical|View source}}',
 	'parentheses' => '{{Optional}}',
@@ -583,7 +584,7 @@ $messages['diq'] = array(
 	'toolversion' => 'Versiyon $1',
 	'toolversionstamp' => 'Versiyon $1 ($2)',
 	'etc' => 'ws.',
-	'namespace' => 'Cayê namey',
+	'namespace' => 'Caynami',
 	'form-submit' => 'Şo',
 	'form-reset' => 'Reset kerê',
 	'years' => '{{PLURAL: $1|serre|serri}}',

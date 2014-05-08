@@ -50,3 +50,110 @@ $messages['qqq'] = array(
 	'error-zeroresults' => 'Error message',
 	'match-count' => 'Appears above a list of results. $1 is a whole number (integer) greater than or equal to 1'
 );
+
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'title' => 'Artikeltitel-Grep (Beta)',
+	'introduction' => 'Dieses Werkzeug zeigt alle Artikeltitel, die einem regulären Ausdrucksmuster ($1) entsprechen. Das Suchen mit einem regulären Ausdruck ist ressourcenintensiv. Falls überhaupt möglich, vergiss nicht die Präfix- und Suffix-Indikatoren (^ bzw. $).',
+	'explanation' => 'Erklärung',
+	'regex' => 'Regulärer Ausdruck',
+	'enter-details' => 'Einzelheiten eingeben',
+	'results' => 'Ergebnisse',
+	'language-label' => 'Sprache',
+	'namespace-label' => 'Namensraum',
+	'project-label' => 'Projekt',
+	'pattern-label' => 'Muster',
+	'redirects-label' => 'Weiterleitungen einschließen',
+	'limit-label' => 'Anzeige auf die ersten 100 Ergebnisse beschränken',
+	'error-zeroresults' => 'Es gibt keine Seiten in diesem Namensraum mit Titeln, die deinem regulären Ausdruck entsprechen.',
+	'match-count' => '{{PLURAL:$1|Eine Seite|$1 Seiten}} stimmen mit deinem regulären Ausdruck überein.',
+);
+
+/** Zazaki (Zazaki)
+ * @author Marmase
+ */
+$messages['diq'] = array(
+	'namespace-label' => 'Caynami',
+);
+
+/** Spanish (español)
+ * @author Kingpowl
+ * @author VegaDark
+ */
+$messages['es'] = array(
+	'introduction' => 'Esta herramienta muestra todos los títulos de los artículos que coinciden con un patrón de expresión regular ($1). Buscar usando una expresión regular es consume recursos. Si es posible, recuerda usar los indicadores prefijo (^) y sufijo ($).',
+	'explanation' => 'explicación',
+	'regex' => 'Expresión regular',
+	'enter-details' => 'Introduce los datos',
+	'results' => 'Resultados',
+	'language-label' => 'Idioma',
+	'namespace-label' => 'Espacio de nombres',
+	'project-label' => 'Proyecto',
+	'pattern-label' => 'Patrón',
+	'redirects-label' => 'Incluir redirecciones',
+	'limit-label' => 'Limitar la visualización de los primeros 100 resultados',
+	'error-zeroresults' => 'No hay páginas en ese espacio de nombres con títulos que coincidan con tu expresión regular.',
+	'match-count' => '{{PLURAL:$1|$1 página coincide|$1 páginas coinciden}} con tu expresión regular.',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author C5st4wr6ch
+ */
+$messages['id'] = array(
+	'regex' => 'Ekspresi reguler',
+	'project-label' => 'Proyek',
+	'limit-label' => 'Batasi tampilan menjadi 100 hasil pertama',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author VASANTH S.N.
+ */
+$messages['kn'] = array(
+	'explanation' => 'ವಿವರಣೆ',
+	'enter-details' => 'ವಿವರಣೆಗಳನ್ನು ತುಂಬಿ',
+	'results' => 'ಫಲಿತಾಂಶಗಳು',
+	'language-label' => 'ಭಾಷೆ',
+	'namespace-label' => 'ನಾಮವರ್ಗ',
+	'project-label' => 'ಯೋಜನೆ',
+	'pattern-label' => 'ವಿನ್ಯಾಸ',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'explanation' => 'Erklärung',
+	'enter-details' => 'Detailer aginn',
+	'results' => 'Resultater',
+	'language-label' => 'Sprooch',
+	'namespace-label' => 'Nummraum',
+	'project-label' => 'Projet',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
+ */
+$messages['pt-br'] = array(
+	'results' => 'Resultados',
+	'language-label' => 'Língua',
+	'namespace-label' => 'Espaço nominal',
+	'project-label' => 'Projeto',
+	'pattern-label' => 'Padrão',
+);
+
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'explanation' => 'förklaring',
+	'regex' => 'Reguljärt uttryck',
+	'results' => 'Resultat',
+	'language-label' => 'Språk',
+	'namespace-label' => 'Namnrymd',
+	'project-label' => 'Projekt',
+	'pattern-label' => 'Mönster',
+	'redirects-label' => 'Inkludera omdirigeringar',
+	'match-count' => '{{PLURAL:$1|$1 sida|$1 sidor}} överensstämmer ditt reguljära uttryck.',
+);

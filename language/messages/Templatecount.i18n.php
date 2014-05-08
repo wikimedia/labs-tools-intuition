@@ -297,10 +297,11 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Marmase
  */
 $messages['diq'] = array(
 	'language-label' => 'Zıwan',
-	'namespace-label' => 'Cayê namey',
+	'namespace-label' => 'Caynami',
 );
 
 /** Lower Sorbian (dolnoserbski)

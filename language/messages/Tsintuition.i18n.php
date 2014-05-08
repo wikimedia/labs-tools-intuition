@@ -592,7 +592,7 @@ $messages['de'] = array(
 	'bl-mysettings' => 'Meine Spracheinstellungen',
 	'bl-mysettings-new' => 'Sprache ändern',
 	'bl-promo' => 'Die Übersetzungen werden von $1 und $2 möglich gemacht.',
-	'bl-changelanguage' => 'Hier klicken, um die Sprache der Benutzeroberfläche dieses Hilfsprogramms zu ändern.',
+	'bl-changelanguage' => 'Die Sprache der Benutzeroberfläche dieses Hilfsprogramms ändern.',
 	'usage' => 'Die Hilfsprogramme wurden von Intuition übersetzt.',
 	'help-translate-tool' => 'Hilf bitte dieses Hilfsprogramm zu übersetzen.',
 	'help-translate-all' => 'Hilf bitte Tools zu übersetzen.',
@@ -893,7 +893,7 @@ $messages['fr'] = array(
 	'bl-mysettings' => 'Mes paramètres de langue',
 	'bl-mysettings-new' => 'Changer la langue !',
 	'bl-promo' => 'Les traductions sont propulsées par $1 et $2 .',
-	'bl-changelanguage' => 'Cliquez ici pour changer la langue de l’interface de cet outil.',
+	'bl-changelanguage' => 'Changer la langue de l’interface de cet outil.',
 	'usage' => 'Outils traduits par Intuition.',
 	'help-translate-tool' => 'Aidez à traduire cet outil !',
 	'help-translate-all' => 'Aidez à traduire les outils !',
@@ -999,7 +999,7 @@ $messages['he'] = array(
 	'bl-mysettings' => 'הגדרות השפה שלי',
 	'bl-mysettings-new' => 'לשנות שפה!',
 	'bl-promo' => 'ההגדרות בזכות $1 ו־$2',
-	'bl-changelanguage' => 'לחצו כאן לשינוי שפת הממשק של הכלי הזה.',
+	'bl-changelanguage' => 'שינוי שפת הממשק של הכלי הזה.',
 	'usage' => 'כלים שמתורגמים באמצעות Intuition.',
 	'help-translate-tool' => 'בואו לעזור את הכלי הזה!',
 	'help-translate-all' => 'עזרו לתרגם את הכלים!',
@@ -1147,6 +1147,7 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author C5st4wr6ch
  * @author IvanLanin
  */
 $messages['id'] = array(
@@ -1167,10 +1168,10 @@ $messages['id'] = array(
 	'bl-mysettings' => 'Setelan bahasa saya',
 	'bl-mysettings-new' => 'Ganti bahasa!',
 	'bl-promo' => 'Terjemahan didukung oleh $1 dan $2.',
-	'bl-changelanguage' => 'Klik di sini untuk mengganti bahasa antarmuka alat ini.',
-	'usage' => 'Alat yang diterjemahkan oleh Toolserver Intuition.', # Fuzzy
+	'bl-changelanguage' => 'Klik di sini untuk mengganti bahasa antarmuka alat ini.', # Fuzzy
+	'usage' => 'Alat-alat yang diterjemahkan oleh Intuition.',
 	'help-translate-tool' => 'Bantu menerjemahkan alat ini!',
-	'help-translate-all' => 'Bantu menerjemahkan Toolserver!', # Fuzzy
+	'help-translate-all' => 'Bantu menerjemahkan alat!',
 	'help-translate-tooltip' => 'Bantu orang lain dengan menerjemahkan pesan antarmuka ke dalam bahasa Anda.',
 );
 
@@ -1206,7 +1207,7 @@ $messages['it'] = array(
 	'bl-mysettings' => 'Le mie impostazioni per la lingua',
 	'bl-mysettings-new' => 'Cambia lingua!',
 	'bl-promo' => 'Le traduzioni sono curate da $1 e $2.',
-	'bl-changelanguage' => "Clicca qui per modificare la lingua dell'interfaccia di questo strumento.",
+	'bl-changelanguage' => "Modifica la lingua dell'interfaccia di questo strumento.",
 	'usage' => 'Strumenti tradotti da Intuition.',
 	'help-translate-tool' => 'Aiutaci a tradurre questo strumento!',
 	'help-translate-all' => 'Aiutaci a tradurre gli strumenti!',
@@ -1528,7 +1529,7 @@ $messages['mk'] = array(
 	'bl-mysettings' => 'Мои јазични поставки',
 	'bl-mysettings-new' => 'Сменете јазик!',
 	'bl-promo' => 'Преводот е овозможен од $1 и $2.',
-	'bl-changelanguage' => 'Стиснете тука за да го смените јазикот на посредникот за алаткава.',
+	'bl-changelanguage' => 'Сменете го јазикот на посредникот за алаткава.',
 	'usage' => 'Алатки што се преведуваат со Intuition.',
 	'help-translate-tool' => 'Помогнете ни со преводот на алаткава!',
 	'help-translate-all' => 'Помогнете ни да ги преведеме алатките!',

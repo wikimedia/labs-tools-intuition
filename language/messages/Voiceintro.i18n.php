@@ -7,6 +7,7 @@
  */
 
 $messages = array();
+
 $url = '//tools.wmflabs.org/voiceintro/';
 
 /** English
@@ -119,6 +120,7 @@ $messages['de'] = array(
 	'voiceintro-upload-publish-succeeded' => 'Die Aufnahme wurde erfolgreich hochgeladen:',
 	'voiceintro-upload-publish-failed' => 'Die Aufnahme wurde nicht hochgeladen',
 	'voiceintro-information-label' => 'Information',
+	'voiceintro-information-speaker-label' => 'Name des Sprechers:',
 	'voiceintro-information-language-label' => 'Sprache:',
 	'voiceintro-mic-access-notify' => 'Klicke auf „Erlauben“, um dem Browser den Zugriff auf dein Mikrofon zu gestatten.',
 	'voiceintro-recording-notify' => 'Aufnahme …',
@@ -127,6 +129,7 @@ $messages['de'] = array(
 /** Spanish (español)
  * @author Fitoschido
  * @author Ovruni
+ * @author VegaDark
  */
 $messages['es'] = array(
 	'voiceintro-toolbar-record-label' => 'Grabar',
@@ -134,8 +137,13 @@ $messages['es'] = array(
 	'voiceintro-toolbar-clear-label' => 'Borrar',
 	'voiceintro-toolbar-upload-label' => 'Cargar',
 	'voiceintro-webaudio-not-supported' => 'Este navegador no admite la API WebAudio.',
+	'voiceintro-upload-publish-succeeded' => 'Grabación subida correctamente:',
+	'voiceintro-upload-publish-failed' => 'La grabación no fue subida.',
 	'voiceintro-information-label' => 'información',
+	'voiceintro-information-speaker-label' => 'Nombre del ponente:',
 	'voiceintro-information-language-label' => 'Idioma:',
+	'voiceintro-mic-access-notify' => 'Pulsa en «Permitir» para que el navegador pueda acceder al micrófono.',
+	'voiceintro-recording-notify' => 'Grabando…',
 );
 
 /** Finnish (suomi)
@@ -197,6 +205,26 @@ $messages['gl'] = array(
 	'voiceintro-recording-notify' => 'Gravando...',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ * @author Ontsed
+ * @author RonktanG
+ */
+$messages['it'] = array(
+	'voiceintro-toolbar-record-label' => 'Registra',
+	'voiceintro-toolbar-stop-label' => 'Ferma',
+	'voiceintro-toolbar-clear-label' => 'Pulisci',
+	'voiceintro-toolbar-upload-label' => 'Carica',
+	'voiceintro-webaudio-not-supported' => 'WebAudio API non è supportata per questo browser',
+	'voiceintro-upload-publish-succeeded' => 'Registrazione caricata correttamente:',
+	'voiceintro-upload-publish-failed' => 'La registrazione non è stata caricata.',
+	'voiceintro-information-label' => 'Informazioni',
+	'voiceintro-information-speaker-label' => "Nome dell'oratore:",
+	'voiceintro-information-language-label' => 'Lingua:',
+	'voiceintro-mic-access-notify' => 'Fai clic su "Consenti" per permettere al browser di accedere al microfono.',
+	'voiceintro-recording-notify' => 'Registro...',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
@@ -219,6 +247,19 @@ $messages['ja'] = array(
  */
 $messages['ka'] = array(
 	'voiceintro-information-label' => 'ინფორმაცია',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author VASANTH S.N.
+ */
+$messages['kn'] = array(
+	'voiceintro-toolbar-record-label' => 'ದಾಖಲೆ',
+	'voiceintro-toolbar-stop-label' => 'ನಿಲ್ಲಿಸಿ',
+	'voiceintro-toolbar-clear-label' => 'ಅಳಿಸಿ',
+	'voiceintro-toolbar-upload-label' => 'ನಕಲೇರಿಸು',
+	'voiceintro-information-label' => 'ಮಾಹಿತಿ',
+	'voiceintro-information-language-label' => 'ಭಾಷೆ:',
+	'voiceintro-recording-notify' => 'ದಾಖಲೀಕರಣವಾಗುತ್ತಿದೆ....',
 );
 
 /** Korean (한국어)
@@ -302,6 +343,13 @@ $messages['mr'] = array(
 	'voiceintro-webaudio-not-supported' => 'या न्याहाळकाद्वारे जालध्वनी एपीआय सहाय्यीभूत नाही',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'voiceintro-information-language-label' => 'Bahasa:',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -370,6 +418,7 @@ $messages['pt-br'] = array(
 	'voiceintro-webaudio-not-supported' => 'A API do WebAudio não é suportada por este navegador.',
 	'voiceintro-information-label' => 'Informação',
 	'voiceintro-information-language-label' => 'Língua:',
+	'voiceintro-recording-notify' => 'Gravando...',
 );
 
 /** tarandíne (tarandíne)
@@ -421,6 +470,7 @@ $messages['sl'] = array(
 	'voiceintro-upload-publish-succeeded' => 'Posnetek se je uspešno naložil:',
 	'voiceintro-upload-publish-failed' => 'Posnetek se ni naložil',
 	'voiceintro-information-label' => 'Informacije',
+	'voiceintro-information-speaker-label' => 'Ime govorca:',
 	'voiceintro-information-language-label' => 'Jezik:',
 	'voiceintro-mic-access-notify' => 'Kliknite »Dovolim«, da bo brskalnik lahko dostopal do vašega mikrofona.',
 	'voiceintro-recording-notify' => 'Snemanje ...',

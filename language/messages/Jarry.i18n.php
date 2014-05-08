@@ -378,9 +378,10 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Aldnonymous
+ * @author C5st4wr6ch
  */
 $messages['id'] = array(
-	'moretools' => 'alat alat yang lain dari penulis yang sama',
+	'moretools' => 'alat-alat yang lain',
 	'bugs' => 'laporan bug dan permintaan fitur',
 	'comments' => 'Komentar dan pertanyaan',
 	'error-form-empty' => 'Satu bidang atau beberapa bidang telah ditinggalkan kosong. Anda harus menyelesaikannya sebelum melanjutkan.',

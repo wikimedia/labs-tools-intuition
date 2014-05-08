@@ -396,6 +396,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Gorizon
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
@@ -410,6 +411,7 @@ $messages['diq'] = array(
 	'documentation' => 'Dokumentasyon',
 	'filter' => 'Avréc',
 	'limit' => 'Limit',
+	'namespace' => 'Caynami',
 	'order' => 'Pepeyin',
 	'tag' => 'Etiket',
 	'time-from' => 'Kêra',
@@ -846,6 +848,14 @@ $messages['ia'] = array(
 	'typeEdit' => 'Modificationes',
 	'typeNew' => 'Nove paginas',
 	'userfilter' => 'Filtro de usator',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author C5st4wr6ch
+ */
+$messages['id'] = array(
+	'documentation' => 'Dokumentasi',
+	'months' => 'Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember',
 );
 
 /** Italian (italiano)
