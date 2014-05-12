@@ -406,6 +406,7 @@ $messages['am'] = array(
 	'submit' => 'ለማቅረብ',
 	'save' => 'ይቆጠብ',
 	'cancel' => 'ይሠረዝ',
+	'autofilter' => 'ልዩ ገጾች ይቅሩ',
 	'barchart' => 'የአገዳ ግራፍ',
 	'linechart' => 'የመስመር ግራፍ',
 	'linechart_filled' => 'የተሞላ መስመር ግራፍ',
@@ -675,6 +676,7 @@ $messages['de'] = array(
  * @author Fitoschido
  * @author Kingpowl
  * @author Stauffen
+ * @author VegaDark
  */
 $messages['es'] = array(
 	'records' => 'datos',
@@ -741,6 +743,7 @@ $messages['es'] = array(
 	'good_articles' => 'artículos buenos',
 	'pages' => 'páginas',
 	'watchers' => 'observadores',
+	'redirects' => 'redirecciones',
 	'testmode' => 'Modo test',
 	'chartBasedOn' => 'gráficos gráfico basados en',
 	'by' => 'de',

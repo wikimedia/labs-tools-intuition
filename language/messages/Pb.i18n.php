@@ -53,6 +53,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  * @author Siebrand
  * @author ireas
  */
@@ -74,7 +75,8 @@ $messages['qqq'] = array(
 	'pb-current-users' => 'Label containing some figures about the participating users (HTML allowed)',
 	'pb-date' => 'Label for dates',
 	'pb-footer' => 'Content of the footer (HTML allowed). $1: URL of the about page',
-	'pb-home' => 'Title of the home page',
+	'pb-home' => 'Title of the home page.
+{{Identical|Home}}',
 	'pb-home-welcome' => 'Welcome label on the home page (HTML allowed)',
 	'pb-javascript-notice' => 'Content of the noscript warning',
 	'pb-labs-name' => 'Name of Wikimedia Tool Labs',
@@ -510,6 +512,13 @@ $messages['it'] = array(
 	'pb-users-title' => 'Elenco dei partecipanti',
 	'pb-users-overview' => 'Questi $1 utenti partecipano al progetto <em>Conoscenze personali</em>:',
 	'pb-verified-since' => 'Verificato dal',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'pb-home' => 'ホーム',
 );
 
 /** Colognian (Ripoarisch)

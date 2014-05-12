@@ -2474,6 +2474,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Malafaya
  */
 $messages['pt'] = array(
@@ -2485,7 +2486,7 @@ $messages['pt'] = array(
 	'th-original' => 'Original',
 	'th-translation' => 'Tradução',
 	'th-language' => 'Língua',
-	'th-username' => 'Nome de utilizador',
+	'th-username' => 'Nome de usuário',
 	'th-password' => 'Palavra passe',
 	'th-method' => 'Método',
 	'option-tusc' => 'TUSC (upload automático)',

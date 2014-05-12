@@ -2544,11 +2544,13 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎)
  * @author Justincheng12345
  * @author Lauhenry
+ * @author Liuxinyu970226
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'hello' => '您好',
 	'welcome' => '歡迎',
+	'toolversion' => '版本 $1',
 	'toolversionstamp' => '版本$1 ($2)',
 	'etc' => '等。',
 	'namespace' => '名字空間',
