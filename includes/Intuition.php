@@ -1034,14 +1034,15 @@ class Intuition {
 		} else {
 			$text = $this->msg( 'bl-mysettings-new', 'tsintuition' );
 		}
-		return '<span class="int-dashboardbacklink">' . IntuitionUtil::tag(
+		return IntuitionUtil::tag(
 			$text,
 			'a',
 			array(
+				'class' => 'int-dashboardbacklink',
 				'href' => $this->getDashboardReturnToUrl(),
 				'title' => $this->msg( 'bl-changelanguage', 'tsintuition' ),
 			)
-		) . '</span>';
+		);
 	}
 
 	/**
