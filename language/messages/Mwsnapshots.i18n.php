@@ -21,11 +21,10 @@ $messages['en'] = array(
 	'updatelog-intro' => 'The update script is scheduled to run every hour. Below is the console output of the last run.',
 	'updatelog-active' => 'The update script is currently running. Come back later for the complete log.',
 	'title-download' => '$1', // Do not translate
-	'download-button' => 'Download $1',
+	'download-button' => 'Download snapshot',
 	'download-directlink' => 'direct link',
 	'title-downloadpage' => 'Download',
-	'title-downloadpage-repo' => 'Download: $1',
-	'downloadpage-directlink' => 'Download the snapshot.',
+	'title-downloadpage-repo' => 'Download $1',
 	'err-snapshotindex' => 'Snapshot index temporarily unavailable. Please try again later.',
 	'err-invalid-repo' => 'Unknown repository: "$1".',
 	'err-invalid-branch' => 'Unknown branch: "$1" in repository "$2".',
@@ -58,10 +57,7 @@ $messages['qqq'] = array(
 {{Identical|Error}}',
 	'title-updatelog' => 'Used as section heading.
 {{Identical|Update log}}',
-	'download-button' => 'Label of the download button. Text is outputted below a down-arrow.
-
-Parameters:
-* $1 - branch name. e.g. "master", "REL1_22"',
+	'download-button' => 'Label of the download button.',
 	'download-directlink' => 'Link displayed in parentheses below the download button.',
 	'title-downloadpage' => 'Heading of download page if the file or repo is not found. Otherwise {{msg-intuition|Mwsnapshots-title-downloadpage-repo}} is used.',
 	'title-downloadpage-repo' => 'Heading of download page where the file is ready to be downloaded by the user
