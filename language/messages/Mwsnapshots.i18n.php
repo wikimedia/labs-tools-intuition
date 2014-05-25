@@ -23,7 +23,8 @@ $messages['en'] = array(
 	'title-download' => '$1', // Do not translate
 	'download-button' => 'Download $1',
 	'download-directlink' => 'direct link',
-	'title-downloadpage' => 'Download: $1',
+	'title-downloadpage' => 'Download',
+	'title-downloadpage-repo' => 'Download: $1',
 	'downloadpage-directlink' => 'Download the snapshot.',
 	'err-snapshotindex' => 'Snapshot index temporarily unavailable. Please try again later.',
 	'err-invalid-repo' => 'Unknown repository: "$1".',
@@ -62,7 +63,8 @@ $messages['qqq'] = array(
 Parameters:
 * $1 - branch name. e.g. "master", "REL1_22"',
 	'download-directlink' => 'Link displayed in parentheses below the download button.',
-	'title-downloadpage' => 'Heading of download page where the file is ready to be downloaded by the user
+	'title-downloadpage' => 'Heading of download page if the file or repo is not found. Otherwise {{msg-intuition|Mwsnapshots-title-downloadpage-repo}} is used.',
+	'title-downloadpage-repo' => 'Heading of download page where the file is ready to be downloaded by the user
 
 * $1: File name',
 	'downloadpage-directlink' => 'Clickable link shown under the heading, links to the file directly',
