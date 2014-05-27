@@ -15,7 +15,9 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' => 'Orphan Talk',
+	'title' => 'OrphanTalk',
+	'description' => 'Find orphaned talk pages.',
+	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(select a wiki first)',
 	'hideredirects' => 'Hide redirects',
 	'hidesubpages' => 'Hide subpages',
@@ -43,6 +45,10 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'title' => 'The title of the tool.',
+	'description' => 'Short caption that describes the tool, used in the primary heading on every page as tag line.',
+	'label-wiki' => 'Label in the input form for the dropdown menu with different Wikimedia wikis, of which one must be chosen.
+
+{{Identical|Wiki}}',
 	'select-wiki-first' => "This message is displayed in the dropdown menu for the namespace selector if the user didn't choose a wiki yet. Include the parenthesis.",
 	'hideredirects' => 'Label for a checkbox in the input form indicating whether redirect pages should be included in the results.
 {{Identical|Hide redirect}}',
