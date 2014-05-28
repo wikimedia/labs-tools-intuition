@@ -23,16 +23,17 @@ $messages['en'] = array(
 	'hidesubpages' => 'Hide subpages',
 	'limit' => 'Limit',
 	'page' => 'Page',
-	'redirect' => 'Is redirect?',
+	'tooltip-redirect' => 'This page is a redirect',
 	'output' => 'Output',
 	'update' => 'Update',
-	'tools-delete' => 'delete',
-	'tools-links' => 'links',
-	'tools-subject' => 'subject',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'curr',
-	'tools-globalusage' => 'globalusage',
-	'deletesummary' => 'Cleaning orphaned talk pages via $1',
+	'tools-view' => 'View',
+	'tools-delete' => 'Delete',
+	'tools-links' => 'What links here',
+	'tools-subject' => 'Subject page',
+	'tools-hist' => 'View history',
+	'tools-curr' => 'Last change',
+	'tools-globalusage' => 'File usage',
+	'deletesummary' => '$1: Orphaned talk page',
 	'noresults' => 'No orphaned talk pages on this wiki in this namespace matched your settings.',
 	'resultslimited' => 'Results were limited to $1 pages.',
 );
@@ -56,19 +57,23 @@ $messages['qqq'] = array(
 	'limit' => 'Label in front of a dropdown menu. Affects the maximum number of results to display. {{Identical|Limit}}',
 	'page' => 'Table heading for the "Page"-column in the results.
 {{Identical|Page}}',
-	'redirect' => 'Table heading for the "Is redirect"-column in the results. This column is "0" (not a redirect) or "1" (is redirect).',
+	'tooltip-redirect' => 'Tooltip for link to a redirect page.',
 	'output' => 'Heading above the results output of the search query.
 {{Identical|Output}}',
 	'update' => 'Clicking this button will update the form to adapt to the new settings. {{Identical|Update}}',
-	'tools-delete' => 'This link goes directly to action=delete to delete this orphaned talk page. Part of the tool-links in the left column.
+	'tools-view' => 'Link to the regular page view on the wiki',
+	'tools-delete' => 'Link to action=delete to delete this orphaned talk page.
 {{Identical|Delete}}',
-	'tools-links' => 'Goes to Special:WhatLinksHere for the orphaned page. Part of the tool-links in the left column.
+	'tools-links' => 'Link to Special:WhatLinksHere for the orphaned talk page.
 {{Identical|Link}}',
-	'tools-subject' => 'Goes to the subject page (which never existed or has been deleted) of the orphaned page. Part of the tool-links in the left column.',
-	'tools-hist' => 'Goes to the history view of the orphaned page. Part of the tool-links in the left column.',
-	'tools-curr' => 'Shows the latest/current edit to this orphaned page. Part of the tool-links in the left column.',
-	'tools-globalusage' => 'If the orphan is a Commons file talk page, this link will link to the Special:GlobalUsage for the File page.',
-	'deletesummary' => 'Deletion summary for the "delete"-toollink. $1 is an interwiki link to more info, also a way to promote this tool to others.',
+	'tools-subject' => 'Link to the subject page of the orphaned talk page.',
+	'tools-hist' => 'Link to action=history of the orphaned talk page.',
+	'tools-curr' => 'Link the diff of the last edit to this orphaned talk page.',
+	'tools-globalusage' => 'Link to Special:GlobalUsage for the associated File page (only if the talk page is a File talk page on Commons).',
+	'deletesummary' => 'Deletion summary for the "delete"-toollink.
+
+Parameters:
+* $1: An interwiki link to documentation of OrphanTalk (labeled with {{msg-intuition|orphantalk2-title}}).',
 	'noresults' => 'Message displayed if there are no orphaned talk pages found with the current settings.',
 	'resultslimited' => "If results were limited by the set' limit, this message is displayed at the bottom of the search results.",
 );
