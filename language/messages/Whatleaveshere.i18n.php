@@ -36,7 +36,8 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'title' => 'Title heading of [[Special:WhatLeavesHere]] and link to it from [[Special:SpecialPages]].',
+	'title' => 'Title heading of [[Special:WhatLeavesHere]] and link to it from [[Special:SpecialPages]].
+{{Identical|Whatleaveshere}}',
 	'title-leaveshere' => 'Title heading of [[Special:WhatLeavesHere]] when viewing results for a specific page.
 
 * $1 is the name of the associated page.',
@@ -52,9 +53,11 @@ $messages['qqq'] = array(
 	'button-submit' => 'Submit button of form.
 {{Identical|Go}}',
 	'noleaveshere' => 'Used on [[Special:WhatLeavesHere]] when there are no outgoing links found.',
-	'link-whatleaveshere' => 'Text of link to [[Special:WhatLeavesHere]] in the sidebar.',
+	'link-whatleaveshere' => 'Text of link to [[Special:WhatLeavesHere]] in the sidebar.
+{{Identical|Whatleaveshere}}',
 	'tooltip-whatleaveshere' => 'Tooltip of link to [[Special:WhatLeavesHere]] in the sidebar.',
-	'whatlinkshere-whatleaveshere' => 'What leaves here?',
+	'whatlinkshere-whatleaveshere' => 'What leaves here?
+{{Identical|Whatleaveshere}}',
 	'istemplate' => 'Used as indication that this outgoing link is a transclusion.
 {{Identical|Transclusion}}',
 	'isfile' => 'Used as indication that this outgoing link is embedding a file.
