@@ -1,11 +1,11 @@
 <?php
 /**
- * Interface messages for tool "OrphanTalk2".
+ * Interface messages for the OrphanTalk tool.
  *
  * @toolowner krinkle
  */
 
-$url = '//toolserver.org/~krinkle/OrphanTalk2/';
+$url = '//tools.wmflabs.org/orphantalk/';
 
 $messages = array();
 

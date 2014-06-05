@@ -1,6 +1,6 @@
 <?php
 /**
- * Interface messages for tool "Get Wiki API".
+ * Interface messages for Get Wiki API.
  *
  * @toolowner krinkle
  */

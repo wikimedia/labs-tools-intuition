@@ -1,11 +1,11 @@
 <?php
 /**
- * Interface messages for tool "mwSnapshots".
+ * Interface messages for the Snapshots tool.
  *
  * @toolowner krinkle
  */
 
-$url = '//toolserver.org/~krinkle/mwSnapshots/';
+$url = '//tools.wmflabs.org/snapshots/';
 
 $messages = array();
 
