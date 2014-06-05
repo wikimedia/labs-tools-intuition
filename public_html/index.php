@@ -9,53 +9,43 @@
  * @package intuition
  */
 
-
 /**
- * Setup
+ * Configuration
  * -------------------------------------------------
  */
 
-// Load BaseTool
-$initPath = dirname( __DIR__ ) . '/libs/basetool';
-require_once $initPath . '/InitTool.php';
+// BaseTool & Localization
+require_once __DIR__ . '/../libs/basetool/InitTool.php';
+require_once __DIR__ . '/../ToolStart.php';
 
-// Load Intuition
-require_once dirname( __DIR__ ) . '/ToolStart.php';
-
-// Initialize Intuition
 $I18N = new Intuition( array(
-	'domain' => 'TsIntuition',
+	'domain' => 'tsintuition',
 	'mode' => 'dashboard',
 ) );
 
 // Load all domains so we can get some statistics later on and
 // make sure "getAvailableLangs" is complete
-foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainInfo ) {
+foreach ( $I18N->getAllRegisteredDomains() as $domainKey ) {
 	$I18N->loadTextdomain( $domainKey );
 }
 
 // Initialize BaseTool
 $Tool = BaseTool::newFromArray( array(
-	'displayTitle'	 => $I18N->msg( 'fullname' ),
-	'krinklePrefix'	 => false,
+	'displayTitle' => $I18N->msg( 'title' ),
 	'remoteBasePath' => $I18N->dashboardHome,
-	'localBasePath'	 => $I18N->localBaseDir,
-	'revisionId'	 => $I18N->version,
-	'styles'		 => array( 'main.css' ),
+	'localBasePath' => $I18N->localBaseDir,
+	'revisionId' => $I18N->version,
+	'styles' => array(
+		'main.css',
+	),
+	'scripts' => array(
+		'main.js',
+	),
+	'licenses' => array(
+		'CC-BY 3.0' => 'https://creativecommons.org/licenses/by/3.0/'
+	),
 ) );
 $Tool->setSourceInfoGithub( 'Krinkle', 'intuition', dirname( __DIR__ ) );
-
-/* Load Scripts & Styles */
-
-// jQuery UI
-$jqueryui = $kgConf->getJQueryUI();
-$Tool->addScripts( $jqueryui['scripts'] );
-$Tool->addStyles( $jqueryui['styles'] );
-
-/* Add initial stuff to <head> and <body> */
-$Tool->doHtmlHead();
-$Tool->doStartBodyWrapper();
-
 
 /**
  * Tool settings
@@ -64,7 +54,6 @@ $Tool->doStartBodyWrapper();
 $toolSettings = array(
 	'tabs' => array(),
 );
-
 
 /**
  * Post actions
@@ -80,7 +69,6 @@ if ( isset( $_POST['action'] ) ) {
 			break;
 	}
 }
-
 
 /**
  * Get actions
@@ -127,7 +115,14 @@ $I18N->doRedirect();
  * Main content output
  * -------------------------------------------------
  */
+$Tool->setLayout( 'header', array(
+	'captionHtml' => $I18N->msg( 'fullname' ),
+) );
+$Tool->addOut( '<div class="container">' );
 $Tool->addOut( _g( 'welcome' ), 'h2' );
+$Tool->addOut( '<div class="well">' );
+
+$tabContent = '<div class="tab-content">';
 
 // Messages ?
 if ( isset( $_GET['msg'] ) ) {
@@ -152,20 +147,22 @@ if ( isset( $_GET['msg'] ) ) {
 	}
 }
 
-$Tool->addOut( '<div id="int-dashboard">' );
-
 // Cookie has already been set, show "current-settings" box
 if ( $I18N->hasCookies() ) {
 
 	$lifetime = $I18N->getCookieLifetime();
 	$after = '';
-	$renew = ' (' . kfTag( $I18N->msg( 'renew-cookies' ), 'a', array(
+	$cookieHealthClass = false;
+	$cookieHealthIcon = false;
+	$renew = '<p class="help-block">' . Html::element( 'a', array(
 		'href' => $Tool->generatePermalink( array( 'action' => 'renewcookies' ) )
-	) ) .')';
+	), $I18N->msg( 'renew-cookies' ) ) .'</p>';
 
 	// 29+ days
 	if ( $lifetime > 29 * 24 * 3600 ) {
-		$class = 'perfect';
+		$cookieHealthClass = 'success';
+		$cookieHealthIcon = 'ok';
+
 		$number = floor( $lifetime / 3600 / 24 / 7 );
 		$time = $number . '+ ' . _g( 'weeks', array(
 			'parsemag' => true, 'variables' => array( $number )
@@ -173,7 +170,9 @@ if ( $I18N->hasCookies() ) {
 
 	// 10+ days
 	} elseif ( $lifetime > 10 * 24 * 3600 ) {
-		$class = 'good';
+		$cookieHealthClass = 'warning';
+		$cookieHealthIcon = 'warning-sign';
+
 		$number = floor( $lifetime / 3600 / 24 );
 		$time = $number . '+ ' . _g( 'days', array(
 			'parsemag' => true, 'variables' => array( $number )
@@ -182,7 +181,9 @@ if ( $I18N->hasCookies() ) {
 
 	// 1+ day
 	} elseif ( $lifetime > 24 * 3600 ) {
-		$class = 'bad';
+		$cookieHealthClass = 'warning';
+		$cookieHealthIcon = 'warning-sign';
+
 		$number = floor( $lifetime / 3600 / 24 );
 		$time = $number . '+ ' . _g( 'days', array(
 			'parsemag' => true, 'variables' => array( $number )
@@ -191,44 +192,60 @@ if ( $I18N->hasCookies() ) {
 
 	// Less than a day
 	} else {
-		$class = 'worst';
+		$cookieHealthClass = 'error';
+		$cookieHealthIcon = 'remove';
+
 		$number = ceil( $lifetime / 3600 );
 		$time = '<' . $number . '+ ' . _g( 'hours', array(
 			'parsemag' => true, 'variables' => array( $number )
 		) );
 		$after = $renew;
-
 	}
 
-	$Tool->addOut(
-		'<div id="tab-currentsettings"><form class="cleanform"><fieldset>'
-	.	kfTag( $I18N->msg( 'current-settings' ) . _g( 'colon-separator' ) . ' ', 'legend' )
-	.	'<div class="inner">'
-	.	kfTag( $I18N->msg( 'current-language' ) . _g( 'colon-separator' ) . ' ', 'label' )
-	.	kfTag( '', 'input', array( 'value' => $I18N->getLangName(), 'readonly' => 'readonly' ) )
-	.	' ('
-	.	kfTag( $I18N->msg( 'clear-cookies' ), 'a', array(
+	$toolSettings['tabs']['#tab-currentsettings'] = $I18N->msg( 'tab-overview' );
+	$tabContent .=
+		'<div class="tab-pane active" id="tab-currentsettings">'
+	.	'<form role="form" class="form-horizontal"><fieldset>'
+	.	Html::element( 'legend', array(), $I18N->msg( 'current-settings' ) )
+	.	'<div class="form-group">'
+	.	Html::element( 'label', array(
+			'class' => 'col-sm-4 control-label'
+		), $I18N->msg( 'current-language' ) . _g( 'colon-separator' ) . ' ' )
+	.	'<div class="col-sm-8">'
+	.	Html::element( 'input', array(
+		'value' => $I18N->getLangName(),
+		'readonly' => true,
+		'class' => 'form-control'
+	) )
+	.	'<p class="help-block">'
+	.	Html::element( 'a', array(
 			'href' => $Tool->generatePermalink( array( 'action' => 'clearcookies' ) )
-		) )
-	.	')<br/>'
-	.	kfTag( $I18N->msg( 'cookie-expiration' ) . _g( 'colon-separator' ), 'label' )
-	.	kfTag( '', 'input', array(
+		), $I18N->msg( 'clear-cookies' ) )
+	.	'</p>'
+	.	'</div>'
+	.	Html::element( 'label', array(
+			'class' => 'col-sm-4 control-label'
+	), $I18N->msg( 'cookie-expiration' ) . _g( 'colon-separator' ) )
+	.	"<div class=\"col-sm-8 has-$cookieHealthClass has-feedback\">"
+	.	Html::element( 'input', array(
 			'value' => $time,
-			'class' => "cookie-health $class",
+			'class' => "form-control",
 			'readonly' => true
 		) )
+	.	"<span class=\"glyphicon glyphicon-$cookieHealthIcon form-control-feedback\"></span>"
 	.	$after
-	.	'<br/>'
-	.	'</div></fieldset></form></div><!-- #tab-currentsettings -->'
-	);
-	$toolSettings['tabs']['#tab-currentsettings'] = $I18N->msg( 'tab-overview' );
+	.	'</div>'
+	.	'</fieldset></form>'
+	.	'</div>';
 
-
+	$settingsIsFirst = false;
+} else {
+	$settingsIsFirst = true;
 }
 
+
 // Settings form
-// XXX: Quick way to build the form
-$dropdown = '<select name="fpLang">';
+$dropdown = '<select name="fpLang" class="form-control">';
 $selected = ' selected';
 foreach ( $I18N->getAvailableLangs( 'any' ) as $langCode => $langName ) {
 	$attr = $langCode == $I18N->getLang() ? $selected : '';
@@ -238,34 +255,41 @@ foreach ( $I18N->getAvailableLangs( 'any' ) as $langCode => $langName ) {
 }
 $dropdown .= '</select>';
 
-$form = '<div id="tab-settingsform">
-	<form action="' . $Tool->remoteBasePath . '" method="post" class="cleanform">
-	<fieldset><legend>' . $I18N->msg( 'settings-legend' ) . '</legend><div class="inner">
-
-	<label>' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
-	' . $dropdown . '
-	<br/>
-
-	<input type="hidden" name="action" value="prefset"/>
-	<input type="hidden" name="returnto" value="' .
-		htmlspecialchars( $kgReq->getVal( 'returnto' ) ) . '"/>
-	<input type="hidden" name="returntoquery" value="' .
-		htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '"/>
-	<label></label>
-	<input type="submit" nof value="' . _html( 'form-submit', 'general' ) . '"/>
-	<br/>
-
-</div></fieldset>
-</form>
-</div>';
-
-$Tool->addOut( $form );
 $toolSettings['tabs']['#tab-settingsform'] = $I18N->msg('tab-settings');
+$tabContent .= Html::openElement('div', array(
+	'class' => array(
+		'tab-pane',
+		'active' => $settingsIsFirst,
+	),
+	'id' => 'tab-settingsform'
+) ) . '<form action="' . $Tool->remoteBasePath . '" method="post" role="form" class="form-horizontal">
+	<fieldset>
+	<legend>' . $I18N->msg( 'settings-legend' ) . '</legend>
+	<div class="form-group">
+	<label class="col-sm-4 control-label">' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
+	<div class="col-sm-8">
+	' . $dropdown . '
+	</div>
+	</div>
+
+	<input type="hidden" name="action" value="prefset">
+	<input type="hidden" name="returnto" value="' .
+		htmlspecialchars( $kgReq->getVal( 'returnto' ) ) . '">
+	<input type="hidden" name="returntoquery" value="' .
+		htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '">
+	<div class="form-group">
+		<div class="col-sm-offset-4 col-sm-8">
+			<input type="submit" class="btn btn-default btn-primary" value="' . _html( 'form-submit', 'general' ) . '">
+		</div>
+	</div>
+
+</fieldset></form>
+</div>';
 
 
 // About tab
-$about = '<div id="tab-about">';
 
+$about = '<div class="tab-pane" id="tab-about">';
 $about .= '<a href="//translatewiki.net/wiki/Translating:Intuition">'
 	.	Html::element( 'img', array(
 		'src' => '//translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&'
@@ -273,57 +297,50 @@ $about .= '<a href="//translatewiki.net/wiki/Translating:Intuition">'
 		'width' => 520,
 		'height' => 400,
 		'alt' => '',
-		'class' => 'floatRight'
+		'class' => 'pull-right'
 		))
 	.	'</a>';
-$about .= '<a href="https://github.com/Krinkle/intuition/wiki/Documentation">'
-	. 'Technical documentation</a>'
-	. '<div class="tab-paragraph-head">' . $I18N->msg( 'usage' ) . '</div><ul>';
-foreach ( $I18N->getAllRegisteredDomains() as $domainKey => $domainFile ) {
-	$domainInfo = $I18N->getDomainInfo( $domainKey );
-	$title = $I18N->msg( 'title', $domainKey, /* fallback = */ $domainKey );
+$about .= ''
+	. '<div class="lead">' . $I18N->msg( 'usage' ) . '</div><ul>';
+foreach ( $I18N->getAllRegisteredDomains() as $domain) {
+	$domainInfo = $I18N->getDomainInfo( $domain );
+	$title = $I18N->msg( 'title', $domain, /* fallback = */ $domain );
 	if ( isset( $domainInfo['url'] ) ) {
 		$about .= '<li><a href="'
 			. htmlspecialchars( $domainInfo['url'] )
-			. '"><strong>' . htmlspecialchars( $title )
-			. '</strong>'
+			. '">' . htmlspecialchars( $title )
 			. '</a></li>';
 	}
 }
-$about .= '</ul><div style="clear: both;"></div></div><!-- /#tab-about -->';
+$about .= '</ul><a href="https://github.com/Krinkle/intuition/wiki/Documentation">'
+	. 'Technical documentation</a></div>';
 
-$Tool->addOut( $about );
 $toolSettings['tabs']['#tab-about'] = $I18N->msg('tab-about');
+$tabContent .= $about;
+
+$tabContent .= '</div><!-- /.tab-content -->';
+
 $toolSettings['tabs']['demo/demo1.php'] = $I18N->msg('tab-demo');
 
-
-$Tool->addOut( '</div><!-- /#int-dashboard -->' );
-
-
-/**
- * JavaScript init
- * -------------------------------------------------
- */
-$script[] = '$(document).ready(function () {';
-$script[] = '$("#int-dashboard").prepend(\'<ul>';
+$tabBar = '<ul class="nav nav-tabs intuition-nav-tabs">';
+reset( $toolSettings['tabs'] );
+$firstTabId = key( $toolSettings['tabs'] );
 foreach ( $toolSettings['tabs'] as $tabID => $tabName ) {
-	$script[] = "<li><a href=\"$tabID\">$tabName</a></li>";
+	$tabBar .= Html::rawElement( 'li', array(
+		'class' => array(
+			'active' => $tabID === $firstTabId,
+		)
+	), Html::element( 'a', array(
+		'href' => $tabID,
+		'data-toggle' => $tabID[0] === '#' ? 'tab' : null,
+	), $tabName ) );
 }
-$script[] = '</ul>\');';
-$script[] = '$("#int-dashboard").tabs({
-	select: function (event, ui) {
-		var url = $.data(ui.tab, "load.tabs");
-		if (url) {
-			window.open(url);
-			return false;
-		}
-		return true;
-	}
-});';
-$script[] = '});';
+$tabBar .= '</ul>';
 
-$Tool->addOut( '<script>' . implode( '', $script ) . '</script>' );
-
+$Tool->addOut( $tabBar );
+$Tool->addOut( $tabContent );
+$Tool->addOut( '</div><!-- /.well -->' );
+$Tool->addOut( '</div><!-- /.container -->' );
 
 /**
  * Close up

@@ -7,6 +7,7 @@
 	<script src="../../libs/jquery/jquery.js"></script>
 	<!-- Bootstrap -->
 	<script>
+	/*global mw:true */
 	(function () {
 		function Map(values) {
 			values = values || {};
@@ -15,7 +16,7 @@
 			};
 			this.get = function (key) {
 				return values[key];
-			}
+			};
 		}
 		function Message(messages, key /* , params... */) {
 			var rawMsg = messages.get(key);
