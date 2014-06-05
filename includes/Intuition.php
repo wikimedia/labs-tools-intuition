@@ -24,11 +24,10 @@ class Intuition {
 
 	public $localBaseDir;
 
-	public $registeredTextdomains;
+	public $version = '0.2.0';
 
-	public $version = '0.1.4';
-
-	public $mode = null; // 'in-tool', 'dashboard'
+	// One of 'in-tool' or 'dashboard'
+	public $mode = null;
 
 	// Address to the public html, must end in a slash.
 	public $dashboardHome = '//toolserver.org/~intuition/';
@@ -60,6 +59,8 @@ class Intuition {
 	// Here everything will be stored as arrays in arrays
 	// Such as: $messageBlob['Textdomain']['langcode']['messagename'] = 'Message string';
 	protected $messageBlob = array();
+
+	protected $registeredTextdomains;
 
 	// All loaded text domains and (if available) their information (such as url) in an array
 	// $loadedTextdomains['general'] = array( ... );
@@ -263,7 +264,7 @@ class Intuition {
 	}
 
 	/**
-	 * Get an array of all registered text domains.
+	 * Get a list of registered text domains.
 	 * @return array
 	 */
 	public function getAllRegisteredDomains() {
@@ -700,12 +701,12 @@ class Intuition {
 		}
 
 		// Error out if unregistered
-		if  ( !isset( $this->registeredTextdomains[$domain] ) ) {
+		if ( !in_array( $domain, $this->registeredTextdomains ) ) {
 			return false;
 		}
 
 		// File exists ?
-		$path = $this->localBaseDir . "/language/messages/" . $this->registeredTextdomains[$domain];
+		$path = $this->localBaseDir . '/language/messages/' . ucfirst( $domain ) . '.i18n.php';
 		if ( !file_exists( $path ) ) {
 			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring",
 				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
@@ -933,25 +934,20 @@ class Intuition {
 	/**
 	 * Load domains
 	 *
-	 * @return true
+	 * @return bool
 	 */
 	protected function loadDomainRegistry() {
-
-		// Don't load twice
-		if ( is_array( $this->registeredTextdomains ) ) {
+		// Skip if already loaded
+		if ( $this->registeredTextdomains !== null ) {
 			return false;
 		}
 
-		$path = $this->localBaseDir . '/language/Domains.php';
+		$path = $this->localBaseDir . '/language/domains.json';
 		if ( !file_exists( $path ) ) {
-			$this->errTrigger( 'Domains.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			$this->errTrigger( 'domains.json is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
 		}
-
-		// Load it
-		$domains = array();
-		include $path;
-		$this->registeredTextdomains = $domains;
+		$this->registeredTextdomains = json_decode( file_get_contents( $path ) );
 
 		return true;
 	}
@@ -960,7 +956,7 @@ class Intuition {
 	/**
 	 * Load fallbacks
 	 *
-	 * @return true
+	 * @return bool
 	 */
 	protected function loadFallbacks() {
 
