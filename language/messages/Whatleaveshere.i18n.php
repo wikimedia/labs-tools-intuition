@@ -25,6 +25,7 @@ $messages['en'] = array(
 	'noleaveshere' => 'Nothing links from $1',
 	'link-whatleaveshere' => 'What leaves here',
 	'tooltip-whatleaveshere' => 'List of everything that links from here',
+	'whatlinkshere' => 'What links here',
 	'whatlinkshere-whatleaveshere' => 'What leaves here?',
 	'istemplate' => 'transclusion',
 	'isfile' => 'file link',
@@ -56,7 +57,9 @@ $messages['qqq'] = array(
 	'link-whatleaveshere' => 'Text of link to [[Special:WhatLeavesHere]] in the sidebar.
 {{Identical|Whatleaveshere}}',
 	'tooltip-whatleaveshere' => 'Tooltip of link to [[Special:WhatLeavesHere]] in the sidebar.',
-	'whatlinkshere-whatleaveshere' => 'What leaves here?
+	'whatlinkshere' => 'Link to [[Special:WhatLinksHere]] from form legend of [[Special:WhatLeavesHere]].
+{{Identical|Whatlinkshere}}',
+	'whatlinkshere-whatleaveshere' => 'Link to [[Special:WhatLeavesHere]] from form legend of [[Special:WhatLinksHere]].
 {{Identical|Whatleaveshere}}',
 	'istemplate' => 'Used as indication that this outgoing link is a transclusion.
 {{Identical|Transclusion}}',
