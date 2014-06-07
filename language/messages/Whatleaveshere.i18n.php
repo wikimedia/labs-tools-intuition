@@ -30,6 +30,10 @@ $messages['en'] = array(
 	'istemplate' => 'transclusion',
 	'isfile' => 'file link',
 	'linksearch' => 'LinkSearch',
+	'section-links' => 'Links',
+	'section-iwlinks' => 'Interwiki winks',
+	'section-extlinks' => 'External links',
+	'section-categories' => 'Categories',
 );
 
 /** Message documentation (Message documentation)
@@ -66,4 +70,12 @@ $messages['qqq'] = array(
 	'isfile' => 'Used as indication that this outgoing link is embedding a file.
 {{Identical|File link}}',
 	'linksearch' => 'Link to [[Special:LinkSearch]] to find other pages with the same outgoing external link.',
+	'section-links' => 'Section header for page links, file links and tranclusions.
+{{Identical|Links}}',
+	'section-iwlinks' => 'Section header for interwiki links.
+{{Identical|Interwiki link}}',
+	'section-extlinks' => 'Section header for external links.
+{{Identical|External link}}',
+	'section-categories' => 'Section header for categories.
+{{Identical|Categories}}',
 );
