@@ -438,12 +438,13 @@ $messages['bs'] = array(
 
 /** Catalan (català)
  * @author Alvaro Vidal-Abarca
+ * @author Fitoschido
  * @author SMP
  */
 $messages['ca'] = array(
 	'fullname' => 'Internacionalització per les eines',
 	'current-settings' => 'Configuració actual',
-	'current-language' => 'Idioma seleccionat actualment',
+	'current-language' => 'Idioma seleccionat actualment', # Fuzzy
 	'settings-legend' => 'Paràmetres',
 	'choose-language' => 'Trieu un idioma',
 	'clear-cookies' => 'neteja les galetes',
@@ -458,7 +459,7 @@ $messages['ca'] = array(
 	'bl-mysettings' => "Configuració d'idioma",
 	'bl-mysettings-new' => "Canvia l'idioma!",
 	'bl-promo' => 'Les traduccions són gentilesa de $1 i $2.',
-	'bl-changelanguage' => "Feu clic ací per canviar l'idioma de la interfície d'aquesta eina.",
+	'bl-changelanguage' => 'Canvia l’idioma de la interfície d’aquesta eina.',
 	'usage' => 'Eines traduïdes per Intuition.',
 	'help-translate-tool' => 'Ajudeu-nos a traduir aquesta eina!',
 	'help-translate-all' => 'Ajudeu-nos a traduir les eines!',
@@ -577,7 +578,7 @@ $messages['da'] = array(
 $messages['de'] = array(
 	'fullname' => 'Übersetzungen für die Hilfsprogramme',
 	'current-settings' => 'Aktuelle Einstellungen',
-	'current-language' => 'Aktuell ausgewählte Sprache',
+	'current-language' => 'Aktuell ausgewählte Sprache', # Fuzzy
 	'settings-legend' => 'Einstellungen',
 	'choose-language' => 'Eine Sprache auswählen',
 	'clear-cookies' => 'Cookies entfernen',
@@ -878,7 +879,7 @@ $messages['fo'] = array(
 $messages['fr'] = array(
 	'fullname' => 'Internationalisation des outils',
 	'current-settings' => 'Paramètres actuels',
-	'current-language' => 'Langue actuellement sélectionnée',
+	'current-language' => 'Langue actuellement sélectionnée', # Fuzzy
 	'settings-legend' => 'Configuration',
 	'choose-language' => 'Choisissez une langue',
 	'clear-cookies' => 'effacer les cookies',
@@ -984,7 +985,7 @@ $messages['gu'] = array(
 $messages['he'] = array(
 	'fullname' => 'בִנאום עבור הכלים',
 	'current-settings' => 'הגדרות נוכחיות',
-	'current-language' => 'השפה הנוכחית',
+	'current-language' => 'השפה הנוכחית', # Fuzzy
 	'settings-legend' => 'הגדרות',
 	'choose-language' => 'בחירת שפה',
 	'clear-cookies' => 'ניקוי עוגיות',
@@ -1153,7 +1154,7 @@ $messages['ia'] = array(
 $messages['id'] = array(
 	'fullname' => 'Internasionalisasi Antarmuka Pengguna Toolserver', # Fuzzy
 	'current-settings' => 'Setelan sekarang',
-	'current-language' => 'Bahasa terpilih sekarang',
+	'current-language' => 'Bahasa terpilih sekarang', # Fuzzy
 	'settings-legend' => 'Setelan',
 	'choose-language' => 'Pilih bahasa',
 	'clear-cookies' => 'hapus kuki',
@@ -1192,7 +1193,7 @@ $messages['ig'] = array(
 $messages['it'] = array(
 	'fullname' => 'Internazionalizzazione per strumenti',
 	'current-settings' => 'Impostazioni attuali',
-	'current-language' => 'Lingua attualmente selezionata',
+	'current-language' => 'Lingua attualmente selezionata', # Fuzzy
 	'settings-legend' => 'Impostazioni',
 	'choose-language' => 'Scegli la lingua',
 	'clear-cookies' => 'cancellare i cookie',
@@ -1309,11 +1310,12 @@ $messages['km'] = array(
 
 /** Kannada (ಕನ್ನಡ)
  * @author M G Harish
+ * @author Nayvik
  */
 $messages['kn'] = array(
-	'fullname' => 'ಉಪಕರಣ ಸೇವಕದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಅಂತರ್ರಾಷ್ಟ್ರೀಕರಣ', # Fuzzy
+	'fullname' => 'ಉಪಕರಣಗಳ  ಅಂತರ್ರಾಷ್ಟ್ರೀಕರಣ',
 	'current-settings' => 'ಈಗಿನ ವ್ಯವಸ್ಥೆಗಳು',
-	'current-language' => 'ಈಗ ಆಯ್ದುಕೊಂಡಿರುವ ಭಾಷೆ',
+	'current-language' => 'ಈಗ ಆಯ್ದುಕೊಂಡಿರುವ ಭಾಷೆ', # Fuzzy
 	'settings-legend' => 'ವ್ಯವಸ್ಥೆಗಳು',
 	'choose-language' => 'ಭಾಷೆ ಆಯ್ದುಕೊಳ್ಳಿ',
 	'clear-cookies' => 'ಕುಕೀಗಳನ್ನು ಅಳಿಸಿ',
@@ -1328,10 +1330,11 @@ $messages['kn'] = array(
 	'bl-mysettings' => 'ನನ್ನ ಭಾಷಾ ವ್ಯವಸ್ಥೆಗಳು',
 	'bl-mysettings-new' => 'ಭಾಷೆ ಬದಲಾಯಿಸಿ!',
 	'bl-promo' => 'ಅನುವಾದಗಳು $1 ಮತ್ತು $2 ಇಂದ ಸಾಮರ್ಥ್ಯ ಪಡೆದಿವೆ.',
-	'bl-changelanguage' => 'ಈ ಉಪಕರಣದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಭಾಷೆ ಬದಲಾಯಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ಕಿಸಿ.',
-	'usage' => 'ಉಪಕರಣ ಸೇವಕ ಪ್ರವೃತ್ತಿಯಿಂದ ಅನುವಾದಿಸಲ್ಪಟ್ಟ ಉಪಕರಣಗಳು.', # Fuzzy
+	'bl-changelanguage' => 'ಈ ಉಪಕರಣದ ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಭಾಷೆ ಬದಲಾಯಿಸಿ.',
+	'usage' => 'ಪ್ರವೃತ್ತಿಯಿಂದ ಅನುವಾದಿಸಲ್ಪಟ್ಟ ಉಪಕರಣಗಳು.',
 	'help-translate-tool' => 'ಈ ಉಪಕರಣವನ್ನು ಅನುವಾದಿಸಲು ಸಹಕರಿಸಿ!',
-	'help-translate-all' => 'ಉಪಕರಣ ಸೇವಕವನ್ನು ಅನುವಾದಿಸಲು ಸಹಕರಿಸಿ!', # Fuzzy
+	'help-translate-all' => 'ಉಪಕರಣಗಳನ್ನು ಅನುವಾದಿಸಲು ಸಹಾಯ ಮಾಡಿ!',
+	'help-translate-tooltip' => 'ಅಂತರ ಸಂಪರ್ಕ ಸಾಧನದ ಸಂದೇಶಗಳನ್ನು ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ ಅನುವಾದಿಸಿ ಇತರರಿಗೆ ಸಹಾಯ ಮಾಡಿ.',
 );
 
 /** Korean (한국어)
@@ -1414,7 +1417,7 @@ $messages['la'] = array(
 $messages['lb'] = array(
 	'fullname' => 'Iwwersetzunge fir Tools',
 	'current-settings' => 'Aktuell Astellungen',
-	'current-language' => 'Aktuell erausgesichte Sprooch',
+	'current-language' => 'Aktuell erausgesichte Sprooch', # Fuzzy
 	'settings-legend' => 'Astellungen',
 	'choose-language' => 'Sicht eng Sprooch eraus',
 	'clear-cookies' => 'Cookie läschen',
@@ -1429,7 +1432,7 @@ $messages['lb'] = array(
 	'bl-mysettings' => 'Meng Sproochastellungen',
 	'bl-mysettings-new' => 'Sprooch wiesselen!',
 	'bl-promo' => "D'Iwwersetzunge ginn duerch $1 an $2 erméiglecht.",
-	'bl-changelanguage' => "Klickt hei fir d'Sprooch vum Interface vun dësem Tool z'änneren.",
+	'bl-changelanguage' => "Ännert d'Sprooch vum Interface vun dësem Tool.",
 	'usage' => "D'Tools déi vun 'Intuition' iwwersat goufen.",
 	'help-translate-tool' => "Hëlleft dësen Tool z'iwwersetzen!",
 	'help-translate-all' => "Hëlleft Tools z'iwwersetzen!",
@@ -1514,7 +1517,7 @@ $messages['lv'] = array(
 $messages['mk'] = array(
 	'fullname' => 'Преведување на алатки',
 	'current-settings' => 'Тековни поставки',
-	'current-language' => 'Тековен избран јазик',
+	'current-language' => 'Тековен избран јазик', # Fuzzy
 	'settings-legend' => 'Поставки',
 	'choose-language' => 'Изберете јазик',
 	'clear-cookies' => 'исчисти колачиња',
@@ -1714,7 +1717,7 @@ $messages['new'] = array(
 $messages['nl'] = array(
 	'fullname' => 'Vertalingen voor tools',
 	'current-settings' => 'Huidige instellingen',
-	'current-language' => 'Huidige taal',
+	'current-language' => 'Huidige taal', # Fuzzy
 	'settings-legend' => 'Instellingen',
 	'choose-language' => 'Taal kiezen',
 	'clear-cookies' => 'cookies wissen',
@@ -1729,7 +1732,7 @@ $messages['nl'] = array(
 	'bl-mysettings' => 'Mijn taalinstellingen',
 	'bl-mysettings-new' => 'Taal wijzigen',
 	'bl-promo' => 'De vertaling is mogelijk gemaakt door $1 en $2.',
-	'bl-changelanguage' => 'Klik hier om de interfacetaal van dit programma te wijzigen.',
+	'bl-changelanguage' => 'Wijzig de interfacetaal van dit programma.',
 	'usage' => 'Tools die vertaald worden via Intuition.',
 	'help-translate-tool' => 'Help dit programma vertalen!',
 	'help-translate-all' => 'Help tools vertalen!',
@@ -1796,7 +1799,7 @@ $messages['no'] = array(
  */
 $messages['oc'] = array(
 	'current-settings' => 'Paramètres actuals',
-	'current-language' => 'Lenga seleccionada actualament',
+	'current-language' => 'Lenga seleccionada actualament', # Fuzzy
 	'settings-legend' => 'Paramètres',
 	'choose-language' => 'Causissètz una lenga',
 	'clear-cookies' => 'escafar los cookies',
@@ -1882,6 +1885,7 @@ $messages['pfl'] = array(
 );
 
 /** Polish (polski)
+ * @author Faren
  * @author Marcin Łukasz Kiejzik
  * @author Odder
  * @author Rezonansowy
@@ -1891,7 +1895,7 @@ $messages['pfl'] = array(
 $messages['pl'] = array(
 	'fullname' => 'Internacjonalizacja dla narzędzi',
 	'current-settings' => 'Bieżące ustawienia',
-	'current-language' => 'Obecnie wybrany język',
+	'current-language' => 'Obecnie wybrany język', # Fuzzy
 	'settings-legend' => 'Ustawienia',
 	'choose-language' => 'Wybierz język',
 	'clear-cookies' => 'usuń ciasteczka',
@@ -1906,7 +1910,7 @@ $messages['pl'] = array(
 	'bl-mysettings' => 'Moje ustawienia języka',
 	'bl-mysettings-new' => 'Zmień język!',
 	'bl-promo' => 'W tłumaczeniach interfejsu pomagają $1 i $2.',
-	'bl-changelanguage' => 'Kliknij tutaj, aby zmienić język interfejsu tego narzędzia.',
+	'bl-changelanguage' => 'Zmień język interfejsu tego narzędzia.',
 	'usage' => 'Narzędzia przetłumaczone przez Intuition.',
 	'help-translate-tool' => 'Pomóż przetłumaczyć to narzędzie!',
 	'help-translate-all' => 'Pomóż przetłumaczyć narzędzia!',
@@ -2088,7 +2092,7 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'fullname' => 'Интернационализация инструментов',
 	'current-settings' => 'Текущие настройки',
-	'current-language' => 'Текущие языковые настройки',
+	'current-language' => 'Текущие языковые настройки', # Fuzzy
 	'settings-legend' => 'Настройки',
 	'choose-language' => 'Выберите язык',
 	'clear-cookies' => 'Удалить Cookies',
@@ -2103,7 +2107,7 @@ $messages['ru'] = array(
 	'bl-mysettings' => 'Мои языковые настройки',
 	'bl-mysettings-new' => 'Изменить язык',
 	'bl-promo' => 'Перевод сделан с помощью $1 и $2.',
-	'bl-changelanguage' => 'Нажмите здесь, чтобы изменить язык интерфейса этого инструмента.',
+	'bl-changelanguage' => 'Изменяет язык интерфейса для этого инструмента.',
 	'usage' => 'Инструменты, переведенные с помощью Intuition.',
 	'help-translate-tool' => 'Помогите перевести этот инструмент!',
 	'help-translate-all' => 'Помогите перевести инструменты!',
@@ -2569,7 +2573,8 @@ $messages['vi'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
-	'current-language' => 'אקטועלע שפראך',
+	'current-settings' => 'אקטועלע אײַנשטעלונגען',
+	'current-language' => 'אקטועלע שפראך', # Fuzzy
 	'settings-legend' => 'איינשטעלונגען',
 	'choose-language' => 'קלויבט א שפראך',
 	'clear-cookies' => 'אפרייניקן קיכעלעך',
@@ -2583,11 +2588,15 @@ $messages['yi'] = array(
 	'tab-demo' => 'דעמא',
 	'bl-mysettings' => 'מײַנע שפראך איינשטעלונגען',
 	'bl-mysettings-new' => 'ענדערן שפראך!',
+	'bl-promo' => 'איבערזעצונגען דערמעגלעכט דורך $1 און $2.',
+	'usage' => 'געצייג איבערגעזעצט דורך Intuition.',
 	'help-translate-tool' => 'העלפט איבערזעצן דעם מכשיר.',
+	'help-translate-all' => 'העלפט איבערזעצן די געצייג.',
 );
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Liuxinyu970226
  * @author Shizhao
  * @author Simon Shek
  * @author Xiaomingyan
@@ -2596,7 +2605,7 @@ $messages['yi'] = array(
 $messages['zh-hans'] = array(
 	'fullname' => '工具国际化',
 	'current-settings' => '当前的设置',
-	'current-language' => '当前所选的语言',
+	'current-language' => '当前所选的语言', # Fuzzy
 	'settings-legend' => '设置',
 	'choose-language' => '选择语言',
 	'clear-cookies' => '清除Cookie',
@@ -2611,7 +2620,7 @@ $messages['zh-hans'] = array(
 	'bl-mysettings' => '我的语言设置',
 	'bl-mysettings-new' => '更改语言！',
 	'bl-promo' => '翻译采用 $1 和 $2。',
-	'bl-changelanguage' => '单击这里以更改该工具的界面语言。',
+	'bl-changelanguage' => '更改该工具的界面语言。',
 	'usage' => '用Intuition翻译的工具',
 	'help-translate-tool' => '帮助翻译此工具！',
 	'help-translate-all' => '帮助翻译工具！',

@@ -1154,6 +1154,7 @@ $messages['ga'] = array(
 
 /** Galician (galego)
  * @author Toliño
+ * @author Vivaelcelta
  */
 $messages['gl'] = array(
 	'title' => 'Tradución SVG',
@@ -1177,7 +1178,7 @@ $messages['gl'] = array(
 	'translate-instructions' => 'Acéptanse as entradas como nomes de ficheiro (por exemplo, "$1") ou enderezos URL completos (por exemplo, "$2"). En caso de empregar a primeira opción, a Wikimedia Commons usarase como fonte. Para traducir un SVG desde outro sitio ou wiki, debe utilizar o formato URL completo.',
 	'svginput-label' => 'Ficheiro SVG',
 	'stats-footer' => 'Esta ferramenta empregouse para traducir aproximadamente $1 ficheiros desde $2.',
-	'uploading' => 'Cargando',
+	'uploading' => 'Subindo',
 	'upload-complete' => 'A carga finalizou correctamente. A imaxe debería estar en $1',
 	'editdescriptionpage' => 'Editar a nova páxina de descrición',
 	'disclaimer' => 'Recolleranse de xeito privado algúns datos anónimos para fins estatísticos. Se se proporcionaron, os nomes de usuario TUSC tamén se rexistrarán para axudar a combater o vandalismo. Os contrasinais non se gardan en ningún caso.',
@@ -2065,7 +2066,7 @@ $messages['mt'] = array(
 	'th-original' => 'Oriġinali',
 	'th-translation' => 'Traduzzjoni',
 	'th-language' => 'Lingwa',
-	'th-username' => 'Isem tal-utent',
+	'th-username' => 'Isem l-utent',
 	'th-password' => 'Password',
 	'th-method' => 'Metodu',
 	'option-tusc' => 'TUSC (tlugħ awtomatiku)',
@@ -2320,6 +2321,7 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
+ * @author Psubhashish
  */
 $messages['or'] = array(
 	'error-tryagain' => '$1 ଆଉଥରେ ଚେଷ୍ଟା କରିବା ପାଇଁ ଆପଣଙ୍କ ବ୍ରାଉଜରରେ ପଛ ବଟନ କ୍ଲିକ କରନ୍ତୁ ।',
@@ -2346,7 +2348,7 @@ $messages['or'] = array(
 	'author-complete' => 'ଲେଖକଙ୍କ ବିଷୟରେ ଥିବା ତଥ୍ୟଗୁଡିକୁ ସମ୍ପୁର୍ଣ୍ଣ କରନ୍ତୁ !',
 	'preview-hide' => 'ଦେଖଣାଟିକୁ ଲୁଚାଇବେ',
 	'preview-refresh' => 'ଦେଖଣାଟିକୁ ରିଫ୍ରେସ କରିବେ',
-	'error-must-accept' => 'ଆପଣଙ୍କୁ ସିଧାସଳଖ ଅପଲୋଡ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ବ୍ୟବହାର ନିୟମ ମାନିବାକୁ ପଡିବ ।',
+	'error-must-accept' => 'ଆପଣଙ୍କୁ ସିଧାସଳଖ ଅପଲୋଡ଼ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ବ୍ୟବହାର ନିୟମ ମାନିବାକୁ ପଡିବ ।',
 	'error-tusc-failed' => 'TUSC ବୈଧତା ବିଫଳ ହେଲା: ବ୍ୟବହାରକାରୀନାମ କିମ୍ବା ପାସୱାର୍ଡ ଭୁଲ ଅଛି ।',
 	'description-license' => 'ବର୍ଣ୍ଣନା ଏବଂ ଲାଇସେନ୍ସ ବାଛନ୍ତୁ',
 	'finalise' => 'ବିବରଣୀ ନିଶ୍ଚିତ କରନ୍ତୁ',
@@ -2476,6 +2478,7 @@ $messages['ps'] = array(
  * @author Hamilton Abreu
  * @author Luckas
  * @author Malafaya
+ * @author Polyethylen
  */
 $messages['pt'] = array(
 	'error-nothing' => 'Não há nada para traduzir.',
@@ -2486,7 +2489,7 @@ $messages['pt'] = array(
 	'th-original' => 'Original',
 	'th-translation' => 'Tradução',
 	'th-language' => 'Língua',
-	'th-username' => 'Nome de usuário',
+	'th-username' => 'Nome de utilizador',
 	'th-password' => 'Palavra passe',
 	'th-method' => 'Método',
 	'option-tusc' => 'TUSC (upload automático)',
@@ -3250,6 +3253,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
+ * @author Mywood
  * @author Shizhao
  * @author Xiaomingyan
  * @author 乌拉跨氪
@@ -3284,7 +3288,7 @@ $messages['zh-hans'] = array(
 	'preview-hide' => '隐藏预览',
 	'preview-refresh' => '刷新预览',
 	'error-must-accept' => '若要继续直接上传，您必须接受提供的使用条款。',
-	'error-tusc-failed' => 'TUSC验证失败：用户名或密码不正确。',
+	'error-tusc-failed' => 'TUSC确认失败：用户名或密码不正确。',
 	'description-license' => '选择说明和授权协议',
 	'finalise' => '敲定细节',
 );

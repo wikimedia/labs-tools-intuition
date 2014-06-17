@@ -87,7 +87,8 @@ The title of the tool.',
 {{Identical|Language}}',
 	'db-field-id' => 'Translation of the field "identifier" in the monuments database.
 {{Identical|Identifier}}',
-	'db-field-name' => 'Translation of the field "name" in the monuments database.',
+	'db-field-name' => 'Translation of the field "name" in the monuments database.
+{{Identical|Name}}',
 	'db-field-address' => 'Translation of the field "address" in the monuments database.
 {{Identical|Address}}',
 	'db-field-municipality' => 'Translation of the field "municipality" in the monuments database.',
@@ -939,8 +940,8 @@ $messages['diq'] = array(
 	'db-field-name' => 'Name',
 	'db-field-address' => 'Adres',
 	'db-field-municipality' => 'Belediye',
-	'db-field-lat' => 'Heralem',
-	'db-field-lon' => 'Lemen',
+	'db-field-lat' => 'Verıniye',
+	'db-field-lon' => 'Derganiye',
 	'db-field-image' => 'Resim',
 	'db-field-changed' => 'Vurneya',
 	'db-field-source' => 'Çıme',
@@ -3919,6 +3920,14 @@ $messages['tr'] = array(
 	'db-field-st_name_pct' => 'İsimler %',
 	'db-field-st_total' => 'Toplam sayı',
 	'location' => 'Konum',
+);
+
+/** Tuvinian (тыва дыл)
+ * @author Agilight
+ */
+$messages['tyv'] = array(
+	'search-table-th-search' => 'Дилээшкин',
+	'toolbox-nav-search' => 'Дилээшкин',
 );
 
 /** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)

@@ -46,7 +46,7 @@ $messages['qqq'] = array(
 	'voiceintro-webaudio-not-supported' => 'Used as an error message when the WebAudio API is not supported by the browser.',
 	'voiceintro-information-label' => 'Label text for the legend.
 {{Identical|Information}}',
-	'voiceintro-information-speaker-label' => 'Speaker\'s name:',
+	'voiceintro-information-speaker-label' => "Speaker's name:",
 	'voiceintro-information-language-label' => 'Label text for the language dropdown list.
 {{Identical|Language}}',
 	'voiceintro-mic-access-notify' => 'Notifies the user to click "Allow" to allow the browser to get microphone access',
@@ -89,6 +89,7 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -96,15 +97,39 @@ $messages['br'] = array(
 	'voiceintro-toolbar-stop-label' => 'Paouez',
 	'voiceintro-toolbar-clear-label' => 'Riñsañ',
 	'voiceintro-toolbar-upload-label' => 'Enporzhiañ',
+	'voiceintro-information-label' => 'Titouroù',
+	'voiceintro-information-speaker-label' => 'Anv ar prezeger :',
+	'voiceintro-information-language-label' => 'Yezh :',
+);
+
+/** Catalan (català)
+ * @author Fitoschido
+ */
+$messages['ca'] = array(
+	'voiceintro-toolbar-record-label' => 'Enregistra',
+	'voiceintro-toolbar-stop-label' => 'Atura',
+	'voiceintro-toolbar-clear-label' => 'Neteja',
+	'voiceintro-toolbar-upload-label' => 'Puja',
+	'voiceintro-webaudio-not-supported' => 'Aquest navegador no és compatible amb l’API WebAudio',
+	'voiceintro-information-label' => 'Informació',
+	'voiceintro-information-language-label' => 'Idioma:',
+	'voiceintro-mic-access-notify' => 'Feu clic a «Permet» per permetre que el navegador utilitzi el micròfon.',
+	'voiceintro-recording-notify' => 'S’està enregistrant…',
 );
 
 /** Chechen (нохчийн)
  * @author Умар
  */
 $messages['ce'] = array(
+	'voiceintro-toolbar-record-label' => 'ДӀаяздар',
 	'voiceintro-toolbar-clear-label' => 'ЦӀанъян',
 	'voiceintro-toolbar-upload-label' => 'Чуяккха',
+	'voiceintro-upload-publish-succeeded' => 'ДӀаяздар кхиамца чудяьккхина:',
+	'voiceintro-upload-publish-failed' => 'ДӀаяздар чудаьккхина дац',
 	'voiceintro-information-label' => 'Хаам',
+	'voiceintro-information-speaker-label' => 'Къамелдечун цӀе:',
+	'voiceintro-information-language-label' => 'Мотт:',
+	'voiceintro-recording-notify' => 'ДӀаязъяр…',
 );
 
 /** German (Deutsch)
@@ -156,7 +181,7 @@ $messages['fi'] = array(
 	'voiceintro-toolbar-clear-label' => 'Tyhjennä',
 	'voiceintro-toolbar-upload-label' => 'Lataa',
 	'voiceintro-webaudio-not-supported' => 'WebAudio-rajapinta ei ole tuettu tässä selaimessa.',
-	'voiceintro-upload-publish-succeeded' => 'Nauhoitus tallennettiin', # Fuzzy
+	'voiceintro-upload-publish-succeeded' => 'Nauhoitus tallennettiin',
 	'voiceintro-upload-publish-failed' => 'Nauhoitusta ei tallennettu',
 );
 
@@ -183,6 +208,7 @@ $messages['fr'] = array(
 	'voiceintro-upload-publish-succeeded' => 'Enregistrement bien importé :',
 	'voiceintro-upload-publish-failed' => 'L’enregistrement n’a pas été importé',
 	'voiceintro-information-label' => 'Information',
+	'voiceintro-information-speaker-label' => 'Nom du conférencier :',
 	'voiceintro-information-language-label' => 'Langue :',
 	'voiceintro-mic-access-notify' => 'Cliquez sur « Autoriser » pour permettre au navigateur d’accéder à votre microphone.',
 	'voiceintro-recording-notify' => 'Enregistrement en cours…',
@@ -196,13 +222,31 @@ $messages['gl'] = array(
 	'voiceintro-toolbar-stop-label' => 'Deter',
 	'voiceintro-toolbar-clear-label' => 'Limpar',
 	'voiceintro-toolbar-upload-label' => 'Cargar',
-	'voiceintro-webaudio-not-supported' => 'A API WebAudio non está soportada neste navegador.',
+	'voiceintro-webaudio-not-supported' => 'A API WebAudio non está soportada neste navegador',
 	'voiceintro-upload-publish-succeeded' => 'A gravación cargouse correctamente:',
-	'voiceintro-upload-publish-failed' => 'Non se cargou a gravación',
+	'voiceintro-upload-publish-failed' => 'Non se cargou a gravación.',
 	'voiceintro-information-label' => 'Información',
 	'voiceintro-information-language-label' => 'Lingua:',
 	'voiceintro-mic-access-notify' => 'Prema en "Permitir" para que o navegador poida acceder ao seu micrófono.',
 	'voiceintro-recording-notify' => 'Gravando...',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'voiceintro-toolbar-record-label' => 'הקלטה',
+	'voiceintro-toolbar-stop-label' => 'עצירה',
+	'voiceintro-toolbar-clear-label' => 'ניקוי',
+	'voiceintro-toolbar-upload-label' => 'העלאה',
+	'voiceintro-webaudio-not-supported' => 'ה־API של WebAudio אינו נתמך בדפדפן הזה',
+	'voiceintro-upload-publish-succeeded' => 'ההקלטה הועלתה בהצלחה:',
+	'voiceintro-upload-publish-failed' => 'ההקלטה לא הועלתה.',
+	'voiceintro-information-label' => 'מידע',
+	'voiceintro-information-speaker-label' => 'שם הדובר:',
+	'voiceintro-information-language-label' => 'שפה:',
+	'voiceintro-mic-access-notify' => 'יש לאפשר לדפדפן לגשת למיקרופון שלך.',
+	'voiceintro-recording-notify' => 'הקלטה...',
 );
 
 /** Italian (italiano)
@@ -289,6 +333,9 @@ $messages['ksh'] = array(
 	'voiceintro-toolbar-clear-label' => 'Läddesch maache',
 	'voiceintro-toolbar-upload-label' => 'Huhlaade',
 	'voiceintro-webaudio-not-supported' => 'Heh dä Brauser kann de <i lang="en" xml:lang="en">WebAudio API</i> nit.',
+	'voiceintro-information-label' => 'Enfommazjuhn',
+	'voiceintro-information-language-label' => 'Schprooch:',
+	'voiceintro-recording-notify' => 'Aam opzeischne&nbsp;..',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -307,6 +354,14 @@ $messages['lb'] = array(
 	'voiceintro-recording-notify' => 'Ophuelen...',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'voiceintro-information-speaker-label' => 'Runātāja vārds:',
+	'voiceintro-information-language-label' => 'Valoda:',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -319,6 +374,7 @@ $messages['mk'] = array(
 	'voiceintro-upload-publish-succeeded' => 'Снимката е успешно подигната:',
 	'voiceintro-upload-publish-failed' => 'Снимката не е подигната',
 	'voiceintro-information-label' => 'Информации',
+	'voiceintro-information-speaker-label' => 'Име на говорникот:',
 	'voiceintro-information-language-label' => 'Јазик:',
 	'voiceintro-mic-access-notify' => 'Стиснете на „Дозволи“ за да му дадете пристап на прелистувачот до вашиот микрофон.',
 	'voiceintro-recording-notify' => 'Снимам....',
@@ -397,6 +453,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Cainamarques
  * @author Fúlvio
+ * @author Imperadeiro98
  */
 $messages['pt'] = array(
 	'voiceintro-toolbar-record-label' => 'Gravar',
@@ -404,6 +461,8 @@ $messages['pt'] = array(
 	'voiceintro-toolbar-clear-label' => 'Limpar',
 	'voiceintro-toolbar-upload-label' => 'Carregar',
 	'voiceintro-webaudio-not-supported' => 'A API do WebAudio não é suportada por este navegador.',
+	'voiceintro-information-language-label' => 'Idioma:',
+	'voiceintro-mic-access-notify' => 'Clique em "Permitir" para permitir que o navegador acesse ao seu microfone.',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -446,6 +505,7 @@ $messages['ru'] = array(
 	'voiceintro-upload-publish-succeeded' => 'Запись успешно загружена:',
 	'voiceintro-upload-publish-failed' => 'Запись не была загружена',
 	'voiceintro-information-label' => 'Информация',
+	'voiceintro-information-speaker-label' => 'Имя говорящего:',
 	'voiceintro-information-language-label' => 'Язык:',
 	'voiceintro-mic-access-notify' => 'Нажмите кнопку «Разрешить», чтобы разрешить браузеру доступ к вашему микрофону.',
 	'voiceintro-recording-notify' => 'Запись…',
@@ -531,6 +591,24 @@ $messages['uk'] = array(
 	'voiceintro-recording-notify' => 'Запис...',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'voiceintro-toolbar-record-label' => 'Ghi âm',
+	'voiceintro-toolbar-stop-label' => 'Ngừng',
+	'voiceintro-toolbar-clear-label' => 'Xóa',
+	'voiceintro-toolbar-upload-label' => 'Tải lên',
+	'voiceintro-webaudio-not-supported' => 'Trình duyệt này không hỗ trợ API WebAudio',
+	'voiceintro-upload-publish-succeeded' => 'Đã tải lên bản ghi thành công:',
+	'voiceintro-upload-publish-failed' => 'Bản ghi không tải lên được.',
+	'voiceintro-information-label' => 'Thông tin',
+	'voiceintro-information-speaker-label' => 'Tên người nói:',
+	'voiceintro-information-language-label' => 'Ngôn ngữ:',
+	'voiceintro-mic-access-notify' => 'Bấm “Cho phép” để cho phép trình duyệt truy cập micrô của bạn.',
+	'voiceintro-recording-notify' => 'Đang ghi âm…',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
@@ -554,6 +632,7 @@ $messages['zh-hans'] = array(
 	'voiceintro-upload-publish-succeeded' => '录音上传成功：',
 	'voiceintro-upload-publish-failed' => '录音未能上传。',
 	'voiceintro-information-label' => '信息',
+	'voiceintro-information-speaker-label' => '发言者姓名：',
 	'voiceintro-information-language-label' => '语言：',
 	'voiceintro-mic-access-notify' => '点击“同意”以允许浏览器使用您的麦克风。',
 	'voiceintro-recording-notify' => '录音......',

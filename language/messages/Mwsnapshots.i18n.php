@@ -57,13 +57,14 @@ $messages['qqq'] = array(
 {{Identical|Error}}',
 	'title-updatelog' => 'Used as section heading.
 {{Identical|Update log}}',
-	'download-button' => 'Label of the download button.',
+	'download-button' => 'Label of the download button. Text is outputted below a down-arrow.',
 	'download-directlink' => 'Link displayed in parentheses below the download button.',
-	'title-downloadpage' => 'Heading of download page if the file or repo is not found. Otherwise {{msg-intuition|Mwsnapshots-title-downloadpage-repo}} is used.',
-	'title-downloadpage-repo' => 'Heading of download page where the file is ready to be downloaded by the user
+	'title-downloadpage' => 'Heading of download page if the file or repo is not found. Otherwise {{msg-intuition|Mwsnapshots-title-downloadpage-repo}} is used.
+{{Identical|Download}}',
+	'title-downloadpage-repo' => 'Heading of download page where the file is ready to be downloaded by the user.
 
-* $1: File name',
-	'downloadpage-directlink' => 'Clickable link shown under the heading, links to the file directly',
+Parameters:
+* $1 - filename',
 	'err-snapshotindex' => 'If the information manifest (Index) can not be found on the server, this error is shown.',
 	'err-invalid-repo' => 'Used as error message. Parameters:
 * $1 - repository name
@@ -284,17 +285,27 @@ $messages['ba'] = array(
 	'tablehead-hash' => 'Тикшереү суммаһы',
 );
 
+/** Belarusian (беларуская)
+ * @author Artificial123
+ * @author Mikalai Udodau
+ */
+$messages['be'] = array(
+	'download-button' => 'Загрузіць здымак',
+	'title-downloadpage' => 'Загрузіць',
+	'title-downloadpage-repo' => 'Сцягнуць $1',
+);
+
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Nasir8891
  */
 $messages['bn'] = array(
 	'title-overview' => 'ছবি',
 	'title-error' => 'ত্রুটি',
 	'title-updatelog' => 'আপডেট লগ',
-	'download-button' => '$1 ডাউনলোড',
+	'download-button' => '$1 ডাউনলোড', # Fuzzy
 	'download-directlink' => 'সরাসরি লিংক',
-	'title-downloadpage' => 'ডাউনলোড: $1',
-	'downloadpage-directlink' => 'স্ন্যাপশট ডাউনলোডের জন্য এখানে ক্লিক করুন।',
+	'title-downloadpage' => 'ডাউনলোড',
 	'err-snapshotindex' => 'স্ন্যাপশট ইনডেক্সটি সাময়িকভাবে পাওয়া যাচ্ছে না। অনুগ্রহ করে পুনরায় চেষ্টা করুন।',
 	'err-invalid-repo' => 'অপরিচিত রিপোজিটরী: "$1".',
 	'err-invalid-branch' => '"$2" রিপোজিটরীতে অপরিচিত ব্রাঞ্চ: "$1"।',
@@ -353,6 +364,7 @@ $messages['bs'] = array(
 
 /** Catalan (català)
  * @author Arnaugir
+ * @author Fitoschido
  */
 $messages['ca'] = array(
 	'title-overview' => 'Instantànies',
@@ -360,10 +372,10 @@ $messages['ca'] = array(
 	'title-updatelog' => 'Actualitza el registre',
 	'updatelog-intro' => "L'escriptura d'actualització es planifica per executar cada hora. A continuació es mostra la sortida de la consola de l'última execució.",
 	'updatelog-active' => "L'escriptura d'actualització s'està executant. Torna més tard pel registre complet.",
-	'download-button' => 'Descarrega $1',
+	'download-button' => 'Descarrega $1', # Fuzzy
 	'download-directlink' => 'enllaç directe',
-	'title-downloadpage' => 'Descarrega $1',
-	'downloadpage-directlink' => 'Fes clic aquí per descarregar la instantània.',
+	'title-downloadpage' => 'Baixa',
+	'title-downloadpage-repo' => 'Baixa $1',
 	'err-snapshotindex' => "Índex d'instantània no disponible temporalment. Si us plau prova-ho més tard.",
 	'err-invalid-repo' => 'Repositori desconegut: "$1".',
 	'err-invalid-branch' => 'Branca desconeguda: "$1" al repositori "$2".',
@@ -386,7 +398,10 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'download-button' => 'Чудаккха сурт',
 	'download-directlink' => 'дуьхьала хьажораг',
+	'title-downloadpage' => 'Чуяккха',
+	'title-downloadpage-repo' => 'Чуяккха $1',
 );
 
 /** Czech (česky)
@@ -475,6 +490,7 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Metalhead64
  */
 $messages['de'] = array(
 	'title-overview' => 'Schnappschüsse',
@@ -482,10 +498,10 @@ $messages['de'] = array(
 	'title-updatelog' => 'Aktualisierungsprotokoll',
 	'updatelog-intro' => 'Das Aktualisierungsskript wird einmal pro Stunde ausgeführt. Hier kann man Informationen zur letzten Ausführung des Skripts einsehen.',
 	'updatelog-active' => 'Das Aktualisierungsskript wird derzeit ausgeführt. Besuche diese Seite später noch einmal, um das vollständige Protokoll einsehen zu können.',
-	'download-button' => '$1 herunterladen',
+	'download-button' => 'Schnappschuss herunterladen',
 	'download-directlink' => 'direkter Link',
-	'title-downloadpage' => 'Herunterladen von $1',
-	'downloadpage-directlink' => 'Hier klicken, um den Schnappschuss herunterzuladen.',
+	'title-downloadpage' => 'Herunterladen',
+	'title-downloadpage-repo' => '$1 herunterladen',
 	'err-snapshotindex' => 'Der Schnappschussindex ist vorübergehend nicht verfügbar. Bitte versuche es später erneut.',
 	'err-invalid-repo' => 'Unbekanntes Repositorium: „$1“',
 	'err-invalid-branch' => 'Unbekannter Versionszweig: „$1“ im Repositorium „$2“.',
@@ -515,20 +531,21 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
 	'title-overview' => 'Snapshots',
 	'title-error' => 'Xeta',
 	'title-updatelog' => 'Qeydan anewen ke',
-	'download-button' => "$1'i Ron",
-	'title-downloadpage' => "$1'i Ron:",
+	'download-button' => "$1'i Ron", # Fuzzy
+	'title-downloadpage' => "$1'i Ron:", # Fuzzy
 	'repo-site-link' => 'Websita',
 	'repo-branches-label' => 'Lızgey:',
 	'repo-lastmoddate-label' => 'Deme:',
 	'branches-submit-button' => 'Şo ri!',
 	'tablehead-branch' => 'Lızge',
-	'tablehead-filesize' => 'Ebatê dosyayî',
+	'tablehead-filesize' => 'Ebata dosya',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -604,6 +621,7 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author AwesomeOrange89
  * @author Fitoschido
  * @author Invadinado
  */
@@ -613,10 +631,10 @@ $messages['es'] = array(
 	'title-updatelog' => 'Registro de actualización',
 	'updatelog-intro' => 'La secuencia de comandos (script) de actualización está programada para ejecutarse cada hora. A continuación está el resultado de la consola tras la última ejecución.',
 	'updatelog-active' => 'La secuencia de comandos (script) de actualización se está ejecutando actualmente. Vuelve más tarde para ver el registro completo.',
-	'download-button' => 'Descargar $1',
+	'download-button' => 'Descargar instantánea',
 	'download-directlink' => 'enlace directo',
-	'title-downloadpage' => 'Descargar: $1',
-	'downloadpage-directlink' => 'Haz clic aquí para descargar la instantánea.',
+	'title-downloadpage' => 'Descargar',
+	'title-downloadpage-repo' => 'Descargar $1',
 	'err-snapshotindex' => 'Índice de instantáneas no disponible temporalmente. Inténtalo de nuevo más tarde.',
 	'err-invalid-repo' => 'Repositorio desconocido: «$1».',
 	'err-invalid-branch' => 'Rama «$1» desconocida en el repositorio «$2».',
@@ -757,10 +775,10 @@ $messages['fr'] = array(
 	'title-updatelog' => 'Mettre à jour le journal',
 	'updatelog-intro' => "Le script de mise à jour est programmé pour s'exécuter toutes les heures. Voici ci-dessous la sortie de la console de la dernière exécution.",
 	'updatelog-active' => "Le script de mise à jour est en cours d'exécution. Revenez plus tard pour le journal complet.",
-	'download-button' => 'Télécharger $1',
+	'download-button' => 'Télécharger l’image instantanée',
 	'download-directlink' => 'lien direct',
-	'title-downloadpage' => 'Télécharger : $1',
-	'downloadpage-directlink' => 'Cliquez ici pour télécharger la copie.',
+	'title-downloadpage' => 'Télécharger',
+	'title-downloadpage-repo' => 'Télécharger $1',
 	'err-snapshotindex' => "Index d'instantané temporairement indisponible. Veuillez réessayer ultérieurement.",
 	'err-invalid-repo' => 'Dépôt inconnu: "$1".',
 	'err-invalid-branch' => 'Branche inconnue: "$1" dans le dépôt "$2".',
@@ -859,10 +877,10 @@ $messages['he'] = array(
 	'title-updatelog' => 'יומן עדכונים',
 	'updatelog-intro' => 'תסריט עדכון מתוזמן לרוץ מדי שעה. להלן הפלט של הריצה האחרונה.',
 	'updatelog-active' => 'תסריט העדכון רץ עכשיו. בואו בהמשך לראות את היומן המלא.',
-	'download-button' => 'הורדת $1',
+	'download-button' => 'הורדת היטל־בזק',
 	'download-directlink' => 'קישור ישיר',
-	'title-downloadpage' => 'הורדה: $1',
-	'downloadpage-directlink' => 'לחצו כאן כדי להוריד את הקובץ.',
+	'title-downloadpage' => 'הורדה',
+	'title-downloadpage-repo' => 'הורדת $1',
 	'err-snapshotindex' => 'מפתח קובצי המאגרים אינו זמין כעת. נא לנסות מאוחר יותר.',
 	'err-invalid-repo' => 'מאגר בלתי־יודע: „$1”.',
 	'err-invalid-branch' => 'ענף בלתי־ידוע: „$1” במאגר „$2”.',
@@ -939,6 +957,7 @@ $messages['hsb'] = array(
 );
 
 /** Hungarian (magyar)
+ * @author Csega
  * @author Dj
  * @author Sucy
  */
@@ -948,10 +967,10 @@ $messages['hu'] = array(
 	'title-updatelog' => 'Frissítési naplófájl',
 	'updatelog-intro' => 'A frissítést végző parancsfájl óránként fut le. Alább megtalálod a legutóbbi futtatás konzol outputját.',
 	'updatelog-active' => 'A frissítést végző parancsfájl jelenleg fut. Gyere vissza később a teljes naplóért.',
-	'download-button' => '$1 letöltése',
+	'download-button' => 'Pillanatfelvétel letöltése',
 	'download-directlink' => 'közvetlen hivatkozás',
-	'title-downloadpage' => 'Letöltés:$1',
-	'downloadpage-directlink' => 'Kattints ide a pilanatfelvétel letöltéséhet',
+	'title-downloadpage' => 'Letöltés',
+	'title-downloadpage-repo' => '$1 letöltése',
 	'err-snapshotindex' => 'A pillantfelvétel index iőlegesen nem áll rendelkezésre. Kérjük próbáld meg később!',
 	'err-invalid-repo' => 'Ismeretlen adattár: "$1".',
 	'err-invalid-branch' => 'Ismeretlen ág: "$1" az adattárban: "$2".',
@@ -1052,10 +1071,10 @@ $messages['it'] = array(
 	'title-updatelog' => 'Aggiorna etichetta',
 	'updatelog-intro' => "L'aggiornamento avviene ogni ora. Di seguito è presente l'output della console della ultima corsa.",
 	'updatelog-active' => "L'aggiornamento è attualmente in esecuzione. Torna più tardi per il registro completo.",
-	'download-button' => 'Scarica $1',
+	'download-button' => 'Scarica snapshot',
 	'download-directlink' => 'link diretto',
-	'title-downloadpage' => 'Scarica: $1',
-	'downloadpage-directlink' => 'Clicca qui per scaricare lo snapshot.',
+	'title-downloadpage' => 'Scarica',
+	'title-downloadpage-repo' => 'Scarica $1',
 	'err-snapshotindex' => 'Indice delle istantanee temporaneamente non disponibile. Si prega di riprovare più tardi.',
 	'err-invalid-repo' => 'Deposito sconosciuto: "$1".',
 	'err-invalid-branch' => 'Sezione sconosciuta: "$1" nel deposito "$2".',
@@ -1083,10 +1102,10 @@ $messages['ja'] = array(
 	'title-updatelog' => '更新記録',
 	'updatelog-intro' => '更新スクリプトを毎時間実行するようスケジュールされています。下記は前回の実行でのコンソール出力です。',
 	'updatelog-active' => '更新スクリプトを現在実行中です。あとで完了記録を確認してください。',
-	'download-button' => '$1 をダウンロード',
+	'download-button' => 'スナップショットをダウンロード',
 	'download-directlink' => '直接リンク',
-	'title-downloadpage' => 'ダウンロード: $1',
-	'downloadpage-directlink' => 'スナップショットをダウンロードする。',
+	'title-downloadpage' => 'ダウンロード',
+	'title-downloadpage-repo' => '$1 のダウンロード',
 	'err-snapshotindex' => 'スナップショットのインデックスは一時的に利用できません。あとでもう一度やり直してください。',
 	'err-invalid-repo' => '不明なリポジトリ:「$1」',
 	'err-invalid-branch' => '不明なブランチ: リポジトリ「$2」内の「$1」',
@@ -1185,6 +1204,7 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Tyey
  * @author 아라
  */
 $messages['ko'] = array(
@@ -1193,10 +1213,10 @@ $messages['ko'] = array(
 	'title-updatelog' => '올리기 기록',
 	'updatelog-intro' => '업데이트 스크립트는 매 시간마다 실행하도록 예약합니다. 다음은 마지막 실행의 콘솔 출력입니다.',
 	'updatelog-active' => '업데이트 스크립트는 현재 실행하고 있습니다. 나중에 완료 기록을 확인하세요.',
-	'download-button' => '$1 다운로드',
+	'download-button' => '스냅샷 다운로드',
 	'download-directlink' => '직접 링크',
-	'title-downloadpage' => '다운로드: $1',
-	'downloadpage-directlink' => '스냅샷을 다운로드하려면 여기를 클릭하세요.',
+	'title-downloadpage' => '다운로드',
+	'title-downloadpage-repo' => '$1 다운로드',
 	'err-snapshotindex' => '스냅샷 색인을 일시적으로 사용할 수 없습니다. 나중에 다시 시도하세요.',
 	'err-invalid-repo' => '알 수 없는 저장소: "$1".',
 	'err-invalid-branch' => '알 수 없는 지점: "$2" 저장소의 "$1"',
@@ -1269,10 +1289,10 @@ $messages['lb'] = array(
 	'title-updatelog' => 'Logbuch vun den Aktualisatiounen',
 	'updatelog-intro' => "Den Aktualisatiounsscript ass fir all Stonn programméiert. Hei drënner stinn d'Informatiounen iwwer déi lescht Kéier wou dat funktionéiert huet,",
 	'updatelog-active' => 'Den Aktualisatiouns-Script leeft elo. Kommt méi spéit zréck fir de komplette Log ze gesinn.',
-	'download-button' => '$1 eroflueden',
+	'download-button' => 'Snapshot eroflueden',
 	'download-directlink' => 'direkte Link',
-	'title-downloadpage' => '$1 eroflueden',
-	'downloadpage-directlink' => 'Klickt hei fir de Snapshot erofzelueden.',
+	'title-downloadpage' => 'Eroflueden',
+	'title-downloadpage-repo' => '$1 eroflueden',
 	'err-nosnapshot' => 'Snapshots ginn all puer Stonne generéiert. Wéi de Snapshot fir "$1" generéiert gouf ass e Feeler geschitt. Probéiert méi w.e.g. nach eng Kéier.',
 	'err-noupdatelog' => "D'Logbuch vun den Aktualisatioune gouf net fonnt",
 	'repo-site-link' => 'Internetsite',
@@ -1320,9 +1340,10 @@ $messages['lt'] = array(
  */
 $messages['lv'] = array(
 	'title-error' => 'Kļūda',
-	'download-button' => 'Lejupielādēt $1',
+	'download-button' => 'Lejupielādēt momentuzņēmumu',
 	'download-directlink' => 'tieša saite',
-	'title-downloadpage' => 'Lejupielādēt: $1',
+	'title-downloadpage' => 'Lejupielādēt',
+	'title-downloadpage-repo' => 'Lejupielādēt $1',
 	'tablehead-repo' => 'Repozitorijs',
 	'tablehead-filesize' => 'Faila izmērs',
 	'tablehead-hash' => 'Kontrolsummas',
@@ -1337,10 +1358,10 @@ $messages['mk'] = array(
 	'title-updatelog' => 'Дневник на подновувања',
 	'updatelog-intro' => 'Скриптата врши поднова на секој час. Подолу е прикажан конзолниот извод од последната поднова.',
 	'updatelog-active' => 'Скриптата моментално врши поднова. Навратете се подоцна за целосниот дневник.',
-	'download-button' => 'Преземи $1',
+	'download-button' => 'Преземи снимка',
 	'download-directlink' => 'директна врска:',
-	'title-downloadpage' => 'Преземање: $1',
-	'downloadpage-directlink' => 'Стиснете тука за да ја преземете снимката.',
+	'title-downloadpage' => 'Преземање',
+	'title-downloadpage-repo' => 'Преземање на $1',
 	'err-snapshotindex' => 'Индексот на снимки е привремено недостапен. Обидете се подоцна.',
 	'err-invalid-repo' => 'Непознато складиште: „$1“.',
 	'err-invalid-branch' => 'Непозната гранка: „$1“ во складиштето „$2“.',
@@ -1378,6 +1399,14 @@ $messages['ml'] = array(
 	'tablehead-branch' => 'ശാഖ',
 	'tablehead-filesize' => 'പ്രമാണത്തിന്റെ വലിപ്പം',
 	'tablehead-hash' => 'ചെൿസമ്മുകൾ',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'title-downloadpage' => 'अधिभारण करा',
+	'title-downloadpage-repo' => '$1 चे अधिभारण करा',
 );
 
 /** Malay (Bahasa Melayu)
@@ -1495,6 +1524,7 @@ $messages['new'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Krinkle
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -1503,10 +1533,10 @@ $messages['nl'] = array(
 	'title-updatelog' => 'Updatelogboek',
 	'updatelog-intro' => 'Het updatescript wordt volgens planning ieder uur uitgevoerd. Hieronder is de uitvoer van de console van de laatste uitvoering te bekijken.',
 	'updatelog-active' => 'Het updatescript wordt op het moment uitgevoerd. Kom op een later moment terug voor het complete logboek.',
-	'download-button' => '$1 downloaden',
+	'download-button' => 'Snapshot downloaden',
 	'download-directlink' => 'directe koppeling',
-	'title-downloadpage' => 'Downloaden: $1',
-	'downloadpage-directlink' => 'Klik hier om het snapshot te downloaden.',
+	'title-downloadpage' => 'Downloaden',
+	'title-downloadpage-repo' => '$1 Downloaden',
 	'err-snapshotindex' => 'De snapshotindex is tijdelijk niet beschikbaar. Probeer het later opnieuw.',
 	'err-invalid-repo' => 'Onbekende repository: "$1".',
 	'err-invalid-branch' => 'Onbekende branch: "$1" in repository "$2".',
@@ -1532,9 +1562,9 @@ $messages['oc'] = array(
 	'title-overview' => 'Instantanèus',
 	'title-error' => 'Error',
 	'title-updatelog' => 'Metre a jorn lo jornal',
-	'download-button' => 'Telecargar $1',
+	'download-button' => 'Telecargar $1', # Fuzzy
 	'download-directlink' => 'ligam dirècte',
-	'title-downloadpage' => 'Telecargar : $1',
+	'title-downloadpage' => 'Telecargar : $1', # Fuzzy
 	'repo-site-link' => 'Site web',
 	'repo-branches-label' => 'Brancas :',
 	'repo-lastmoddate-label' => 'Data :',
@@ -1585,6 +1615,7 @@ $messages['pfl'] = array(
 );
 
 /** Polish (polski)
+ * @author Matik7
  * @author Przemub
  * @author Woytecr
  */
@@ -1594,10 +1625,10 @@ $messages['pl'] = array(
 	'title-updatelog' => 'Rejestr aktualizacji',
 	'updatelog-intro' => 'Ten skrypt aktualizacji został zaplanowany tak, aby uruchamiał się co godzinę. Poniżej znajduje się wyjście konsoli podczas ostatniego uruchomienia.',
 	'updatelog-active' => 'Skrypt aktualizacyjny jest aktualnie uruchomiony. Zobacz później aby zobaczyć gotowy rejestr.',
-	'download-button' => 'Pobierz $1',
+	'download-button' => 'Pobierz migawkę',
 	'download-directlink' => 'link bezpośredni',
-	'title-downloadpage' => 'Pobierz: $1',
-	'downloadpage-directlink' => 'Kliknij tutaj, aby pobrać migawkę.',
+	'title-downloadpage' => 'Pobierz',
+	'title-downloadpage-repo' => 'Pobierz $1',
 	'err-snapshotindex' => 'Indeks migawek tymczasowo niedostępny. Spróbuj ponownie później.',
 	'err-invalid-repo' => 'Nieznane repozytorium: "$1".',
 	'err-invalid-branch' => 'Nieznany branch: "$1" w repozytorium "$2".',
@@ -1670,9 +1701,12 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Luckas
  * @author Sarilho1
+ * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
 	'title-error' => 'Erro',
+	'title-downloadpage' => 'Descarregar',
+	'title-downloadpage-repo' => 'Descarregar $1',
 	'repo-lastmoddate-label' => 'Data:',
 	'tablehead-filesize' => 'Tamanho do arquivo',
 );
@@ -1719,10 +1753,10 @@ $messages['ro'] = array(
 	'title-updatelog' => 'Jurnal actualizări',
 	'updatelog-intro' => 'Scriptul de actualizare este programat să ruleze în fiecare oră. Mai jos se află consola de ieșire a ultimei rulări.',
 	'updatelog-active' => 'Scriptul de actualizare se află în execuție. Reveniți mai târziu pentru jurnalul complet.',
-	'download-button' => 'Descărcare $1',
+	'download-button' => 'Descarcă instantaneul',
 	'download-directlink' => 'legătură directă',
-	'title-downloadpage' => 'Descărcare: $1',
-	'downloadpage-directlink' => 'Faceți clic aici pentru a descărca instantaneul.',
+	'title-downloadpage' => 'Descărcare',
+	'title-downloadpage-repo' => 'Descărcare $1',
 	'err-snapshotindex' => 'Indexul instantaneilor este temporar indisponibil. Vă rugăm să reîncercați mai târziu.',
 	'err-invalid-repo' => 'Depozit necunoscut: „$1”.',
 	'err-invalid-branch' => 'Ramură necunoscută: „$1” în depozitul „$2”.',
@@ -1774,6 +1808,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author DCamer
+ * @author Okras
  * @author Salam
  */
 $messages['ru'] = array(
@@ -1782,10 +1817,10 @@ $messages['ru'] = array(
 	'title-updatelog' => 'Журнал обновления',
 	'updatelog-intro' => 'Сценарий обновления запускается каждый час. Ниже приводится отчет из консоли последнего прогона.',
 	'updatelog-active' => 'В настоящее время выполняется сценарий обновления. Зайдите позже чтобы увидеть весь журнал.',
-	'download-button' => 'Скачать $1',
+	'download-button' => 'Загрузить снимок',
 	'download-directlink' => 'прямая ссылка',
-	'title-downloadpage' => 'Скачать: $1',
-	'downloadpage-directlink' => 'Нажмите здесь, чтобы скачать моментальный снимок.',
+	'title-downloadpage' => 'Загрузить',
+	'title-downloadpage-repo' => 'Скачать $1',
 	'err-snapshotindex' => 'Индекс снимка временно недоступен. Пожалуйста, повторите попытку позже.',
 	'err-invalid-repo' => 'Неизвестный репозиторий: "$1".',
 	'err-invalid-branch' => 'Неизвестная ветвь: "$1" в репозитарии "$2".',
@@ -1839,9 +1874,9 @@ $messages['sl'] = array(
 	'title-overview' => 'Posnetki',
 	'title-error' => 'Napaka',
 	'title-updatelog' => 'Dnevnik posodobitev',
-	'download-button' => 'Prenesi $1',
+	'download-button' => 'Prenesi posnetek',
 	'download-directlink' => 'neposredna povezava',
-	'title-downloadpage' => 'Prenesi: $1',
+	'title-downloadpage' => 'Prenesi',
 	'repo-site-link' => 'Spletna stran',
 	'repo-branches-label' => 'Podveje:',
 	'repo-lastmoddate-label' => 'Datum:',
@@ -1980,10 +2015,10 @@ $messages['sv'] = array(
 	'title-updatelog' => 'Uppdatera logg',
 	'updatelog-intro' => 'Uppdateringsskriptet har schemalagts att köra varje timme. Nedan är konsolproduktionen från den senaste körningen.',
 	'updatelog-active' => 'Uppdateringsskriptet körs för närvarande. Kom tillbaka senare för den kompletta loggen.',
-	'download-button' => 'Ladda ned $1',
+	'download-button' => 'Ladda ned ögonblicksbild',
 	'download-directlink' => 'direktlänk',
-	'title-downloadpage' => 'Ladda ned: $1',
-	'downloadpage-directlink' => 'Klicka här för att ladda ned ögonblicksbilden.',
+	'title-downloadpage' => 'Ladda ned',
+	'title-downloadpage-repo' => 'Ladda ned $1',
 	'err-snapshotindex' => 'Indexet över ögonblicksbilder är tillfälligt otillgänligt. Vänligen försök igen senare.',
 	'err-invalid-repo' => 'Okänd databas: "$1".',
 	'err-invalid-branch' => 'Okänd gren: "$1" i databasen "$2".',
@@ -2196,10 +2231,10 @@ $messages['vi'] = array(
 	'title-updatelog' => 'Cập nhật nhật trình',
 	'updatelog-intro' => 'Kịch bản cập nhật được dự định để chạy mỗi giờ một lần. Dưới đây là kết quả trên bảng kiểm soát từ lần chạy vừa rồi.',
 	'updatelog-active' => 'Kịch bản hiện đang chạy. Hãy trở lại sau để xem nhật trình đầy đủ.',
-	'download-button' => 'Tải về $1',
+	'download-button' => 'Tải về ảnh chụp nhanh',
 	'download-directlink' => 'liên kết trục tiếp',
-	'title-downloadpage' => 'Tải về: $1',
-	'downloadpage-directlink' => 'Nhấn vào đây để tải về ảnh chụp nhanh.',
+	'title-downloadpage' => 'Tải về',
+	'title-downloadpage-repo' => 'Tải về $1',
 	'err-snapshotindex' => 'Chỉ mục ảnh chụp nhanh tạm không hoạt động. Xin vui lòng thử lại sau.',
 	'err-invalid-repo' => 'Kho không rõ: “$1”.',
 	'err-invalid-branch' => 'Chi nhánh không rõ: “$1” trong kho “$2”.',
@@ -2221,6 +2256,7 @@ $messages['vi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
@@ -2229,10 +2265,10 @@ $messages['zh-hans'] = array(
 	'title-updatelog' => '更新日志',
 	'updatelog-intro' => '更新脚本每小时运行一次。下面是最后一次运行的控制台输出。',
 	'updatelog-active' => '更新脚本正在运行。稍后回来查看完整日志。',
-	'download-button' => '下载$1',
+	'download-button' => '下载快照',
 	'download-directlink' => '直接链接',
-	'title-downloadpage' => '下载：$1',
-	'downloadpage-directlink' => '下载快照。',
+	'title-downloadpage' => '下载',
+	'title-downloadpage-repo' => '下载$1',
 	'err-snapshotindex' => '快照索引暂时不可用。请稍后再试。',
 	'err-invalid-repo' => '未知的版本库：“$1”。',
 	'err-invalid-branch' => '版本库“$2”中未知的分支：“$1”。',

@@ -229,13 +229,14 @@ $messages['br'] = array(
 	'changelog' => 'Petra nevez',
 	'clear' => 'riñsañ',
 	'currentedit' => 'Kemm dibabet er mare-mañ',
+	'cvn-adder' => 'Ouzhpenner',
 	'cvn-adder-empty' => 'Dianav',
 	'cvn-reason' => 'Abeg',
 	'cvn-reason-empty' => "N'eus bet kavet abeg ebet",
 	'desc' => 'War zigresk',
 	'documentation' => 'Teuliadur',
 	'filter' => 'Sil',
-	'helpicon-tooltip' => "Klikañ amañ evit kaout muioc'h a ditouroù", # Fuzzy
+	'helpicon-tooltip' => "Gouzout hiroc'h diwar-benn ar perzh-mañ",
 	'lastupdate-cvn' => 'Hizivadenn ziwezhañ : $1',
 	'lastupdate-rc' => 'Hizivadenn ziwezhañ : $1',
 	'limit' => 'Bevenn',
@@ -249,6 +250,7 @@ $messages['br'] = array(
 	'select-placeholder-none' => '(hini ebet)',
 	'showAnonOnly' => 'Dizanv hepken',
 	'showUnpatrolledOnly' => 'Nann gwiriet hepken',
+	'tag' => 'Balizenn',
 	'time-from' => 'Eus',
 	'time-untill' => 'Betek',
 	'timeframe' => 'Prantad',
@@ -411,7 +413,7 @@ $messages['diq'] = array(
 	'documentation' => 'Dokumentasyon',
 	'filter' => 'Avréc',
 	'limit' => 'Limit',
-	'namespace' => 'Caynami',
+	'namespace' => 'Heruna nami',
 	'order' => 'Pepeyin',
 	'tag' => 'Etiket',
 	'time-from' => 'Kêra',
@@ -988,6 +990,7 @@ $messages['kk-cyrl'] = array(
 
 /** Kannada (ಕನ್ನಡ)
  * @author Nayan
+ * @author Nayvik
  */
 $messages['kn'] = array(
 	'apply' => 'ಅನ್ವಯಿಸುತ್ತವೆ',
@@ -1001,6 +1004,7 @@ $messages['kn'] = array(
 	'desc' => 'ಅವರೋಹಣ',
 	'documentation' => 'ದಾಖಲೀಕರಣ',
 	'filter' => 'ಶೋಧಕ',
+	'limit' => 'ಮಿತಿ',
 );
 
 /** Korean (한국어)

@@ -59,12 +59,15 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'pb-about-pb-navi' => 'Navigation item ‘About PB’',
-	'pb-about-pb-tech' => 'About section ‘Technical’',
+	'pb-about-pb-tech' => 'About section "Technical".
+{{Identical|Technical details}}',
 	'pb-about-pb-tech-text' => 'Description of the technical details of the project (HTML allowed, in <p> tag(s))',
 	'pb-about-pb-text' => 'Description of the project (HTML allowed, in <p> tag(s))',
 	'pb-about-pb-title' => 'Title of the page ‘About PB’',
-	'pb-change-language' => 'Link to the Intuition settings page',
-	'pb-comment' => 'Label for comments',
+	'pb-change-language' => 'Used as text for the link to the Intuition settings page https://tools.wmflabs.org/intuition/
+{{Identical|Change language}}',
+	'pb-comment' => 'Label for comments.
+{{Identical|Comment}}',
 	'pb-confirmations-given' => 'Name for the confirmations done by a user',
 	'pb-confirmations-taken' => 'Name for the confirmations received by a user',
 	'pb-current-confirmations' => 'Label containing some figures about confirmations (HTML allowed). Parameters:
@@ -72,28 +75,56 @@ $messages['qqq'] = array(
 * $2: exact confirmation count per day;
 * $3: rounded confirmation count per day',
 	'pb-current-figures' => 'Home section ‘Current figures’',
-	'pb-current-users' => 'Label containing some figures about the participating users (HTML allowed)',
-	'pb-date' => 'Label for dates',
-	'pb-footer' => 'Content of the footer (HTML allowed). $1: URL of the about page',
+	'pb-current-users' => 'Label containing some figures about the participating users (HTML allowed).
+
+Parameters:
+* $1 - number of users',
+	'pb-date' => 'Label for dates. e.g. "2014-06-15".
+
+See https://tools.wmflabs.org/pb/beta/recent/
+{{Identical|Date}}',
+	'pb-footer' => 'Content of the footer (HTML allowed). Parameters:
+* $1 - URL of the about page',
 	'pb-home' => 'Title of the home page.
 {{Identical|Home}}',
 	'pb-home-welcome' => 'Welcome label on the home page (HTML allowed)',
 	'pb-javascript-notice' => 'Content of the noscript warning',
 	'pb-labs-name' => 'Name of Wikimedia Tool Labs',
-	'pb-participates-since' => 'Label for the date since when the user participates',
-	'pb-name' => 'Name of the WP:PB project',
-	'pb-powered-by-labs' => 'Title for the ‘Powered by Labs’ logo',
+	'pb-participates-since' => 'Label for the date since when the user participates. e.g. "2008-11-30"
+
+See https://tools.wmflabs.org/pb/beta/users/',
+	'pb-name' => 'Name of the WP:PB project.
+
+There is a source page [[w:de:Wikipedia:Persönliche Bekanntschaften]] on German Wikipedia.
+If there is a local version on a wiki language, you can point there.',
+	'pb-powered-by-labs' => 'Tooltip for the "Powered by Labs" logo.
+
+See https://tools.wmflabs.org/pb/beta/',
 	'pb-recent-confirmations' => 'Home section ‘Recent confirmations’',
-	'pb-reconfirmed' => 'Label for reconfirmations',
-	'pb-user' => 'Label for user names',
-	'pb-user-link-title' => 'Title for a link to user details. $1: user name of the linked user',
-	'pb-user-heading' => 'Heading of the user details page (HTML allowed). $1: user name of the current user; $2: link to the user page of the current user',
-	'pb-user-title' => 'Title of the user details page. $1: user name of the current user',
-	'pb-users-navi' => 'Navgation item ‘Users’',
-	'pb-users-title' => 'Title of the page ‘Users’',
+	'pb-reconfirmed' => 'Table column header for reconfirmations.
+
+See example: https://tools.wmflabs.org/pb/beta/user/name/Siebrand/',
+	'pb-user' => 'Label for user names.
+{{Identical|User}}',
+	'pb-user-link-title' => 'Title for a link pointing to user details. Parameters:
+* $1 - user name of the linked user',
+	'pb-user-heading' => 'Heading of the user details page (HTML allowed).
+
+See example: https://tools.wmflabs.org/pb/beta/user/name/Siebrand/
+
+Parameters:
+* $1 - user name of the current user
+* $2 - link to the user page of the current user',
+	'pb-user-title' => 'Title of the user details page. Parameters:
+* $1 - user name of the current user',
+	'pb-users-navi' => 'Navigation item "Users" pointing to https://tools.wmflabs.org/pb/beta/users/
+{{Identical|User}}',
+	'pb-users-title' => 'Title of the page "Users". See https://tools.wmflabs.org/pb/beta/users/',
 	'pb-users-overview' => 'Introduction for the ‘Users’ page (HTML allowed). Parameters:
 * $1: total count of participating users',
-	'pb-verified-since' => 'Label for the date since when the user is verified',
+	'pb-verified-since' => 'Label for the date since when the user is verified. e.g. "2008-11-30"
+
+See https://tools.wmflabs.org/pb/beta/users/',
 );
 
 /** Arabic (العربية)
@@ -129,6 +160,7 @@ $messages['ar'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Gwenn-Ael
  */
 $messages['br'] = array(
@@ -141,6 +173,10 @@ Ouzhpennit, mar plij,an danevelloù draen, ar goulennoù emdreiñ hag hoc\'h eve
 	'pb-about-pb-title' => 'Diwar-benn ar raktres',
 	'pb-change-language' => 'Cheñch yezh',
 	'pb-comment' => 'Evezhiadenn',
+	'pb-confirmations-given' => 'Kadarnadurioù roet',
+	'pb-confirmations-taken' => 'Kadarnadurioù resevet',
+	'pb-current-confirmations' => 'Bez\' ez eus $1 kadarnadur en holl, da lavaret eo war-dro <abbr title="$2">$3</abbr> kadarnadur an deiz.',
+	'pb-current-figures' => 'Sifroù bremañ',
 	'pb-date' => 'Deiziad',
 	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften er Wikipedia alaman">[[Wikipedia:Persönliche Bekanntschaften]]</a> e Tool Labs. <a href="$1" title="Diwar-benn Wikipedia:Persönliche Bekanntschaften">Evit gouzout hiroc\'h.</a>',
 	'pb-home' => 'Pajenn zegemer',
@@ -150,6 +186,8 @@ Ouzhpennit, mar plij,an danevelloù draen, ar goulennoù emdreiñ hag hoc\'h eve
 	'pb-participates-since' => 'A gemer perzh abaoe',
 	'pb-name' => 'Wikipédia:Anaoudegezh personnel',
 	'pb-powered-by-labs' => 'Sevenet gant Tool Labs eus Wikimedia',
+	'pb-recent-confirmations' => 'Kadarnadurioù graet nevez zo',
+	'pb-reconfirmed' => 'Adkadarnaet ?',
 	'pb-user' => 'Implijer',
 	'pb-user-link-title' => 'Munudoù evit an implijer $1',
 	'pb-user-heading' => 'Titouroù evit <a href="$2" title="Pajenn implijer $1">$1</a>',
@@ -158,6 +196,20 @@ Ouzhpennit, mar plij,an danevelloù draen, ar goulennoù emdreiñ hag hoc\'h eve
 	'pb-users-title' => 'Roll ar berzhidi',
 	'pb-users-overview' => '{{PLURAL:$1|An implijer-mañ a gemer perzh|An $1 implijerien-mañ a gemer perzh}} er raktres <em>Anaoudegezh personel</em> :',
 	'pb-verified-since' => 'Gwiriet abaoe',
+);
+
+/** Catalan (català)
+ * @author Fitoschido
+ */
+$messages['ca'] = array(
+	'pb-about-pb-navi' => 'Quant a',
+	'pb-about-pb-tech' => 'Detalls tècnics',
+	'pb-about-pb-title' => 'Quant al projecte',
+	'pb-change-language' => 'Canvia l’idioma',
+	'pb-comment' => 'Comentari',
+	'pb-date' => 'Data',
+	'pb-users-navi' => 'Usuaris',
+	'pb-users-title' => 'Llista de participants',
 );
 
 /** Chechen (нохчийн)
@@ -518,7 +570,49 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'pb-about-pb-navi' => 'プロジェクトについて',
+	'pb-about-pb-tech' => '技術的な詳細',
+	'pb-about-pb-title' => 'プロジェクトについて',
+	'pb-change-language' => '言語を変更',
+	'pb-comment' => 'コメント',
+	'pb-current-users' => '現時点では、$1 人の利用者が <em>Personal Acquaintances</em> プロジェクトに参加しています。',
+	'pb-date' => '日付',
 	'pb-home' => 'ホーム',
+	'pb-participates-since' => '参加開始日',
+	'pb-name' => 'Wikipedia:Persönliche Bekanntschaften',
+	'pb-recent-confirmations' => '最近の確認',
+	'pb-reconfirmed' => '再確認済?',
+	'pb-user' => '利用者',
+	'pb-user-link-title' => '利用者 $1 の詳細',
+	'pb-user-heading' => '<a href="$2" title="$1 の利用者ページ">$1</a> の情報',
+	'pb-user-title' => '$1 の情報',
+	'pb-users-navi' => '利用者',
+	'pb-users-title' => '参加者一覧',
+	'pb-users-overview' => '$1 人の利用者が <em>Personal Acquaintance</em> プロジェクトに参加しています:',
+	'pb-verified-since' => '検証日',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'pb-about-pb-navi' => 'ನಮ್ಮ ಬಗ್ಗೆ',
+	'pb-about-pb-tech' => 'ತಾಂತ್ರಿಕ ವಿವರಗಳು',
+	'pb-about-pb-title' => 'ಯೋಜನೆಯ ಬಗ್ಗೆ',
+	'pb-change-language' => 'ಭಾಷೆ ಬದಲಾಯಿಸಿ',
+	'pb-comment' => 'ಟಿಪ್ಪಣಿ',
+	'pb-confirmations-given' => 'ನೀಡಲಾದ ದೃಢೀಕರಣಗಳು',
+	'pb-confirmations-taken' => 'ಸ್ವೀಕರಿಸಲಾದ ದೃಢೀಕರಣಗಳು',
+	'pb-current-confirmations' => 'ಒಟ್ಟು $1 ದೃಢೀಕರಣಗಳಿದ್ದು, ಇದು ಪ್ರತಿ ದಿನಕ್ಕೆ <abbr title="$2">$3</abbr> ದೃಢೀಕರಣಗಳಾಗಿವೆ.',
+	'pb-current-figures' => 'ಪ್ರಚಲಿತ ಅಂಕಿಗಳು',
+	'pb-date' => 'ದಿನಾಂಕ',
+	'pb-home' => 'ಮುಖ್ಯಪುಟ',
+	'pb-recent-confirmations' => 'ಇತ್ತೀಚಿನ ದೃಢೀಕರಣಗಳು',
+	'pb-reconfirmed' => 'ಮರುದೃಡಪಡಿಸಲಾಗಿದೆಯೆ?',
+	'pb-user' => 'ಬಳಕೆದಾರ',
+	'pb-user-link-title' => '$1 ಬಳಕೆದಾರರ ವಿವರಗಳು',
+	'pb-users-navi' => 'ಬಳಕೆದಾರರು',
+	'pb-users-title' => 'ಭಾಗವಹಿಸುವವರ ಪಟ್ಟಿ',
 );
 
 /** Colognian (Ripoarisch)
@@ -574,6 +668,8 @@ $messages['lb'] = array(
 	'pb-user' => 'Benotzer',
 	'pb-user-link-title' => 'Detailer vum  Benotzer $1',
 	'pb-users-navi' => 'Benotzer',
+	'pb-users-title' => 'Lëscht vun deenen déi matgemaach hunn',
+	'pb-users-overview' => 'Dës $1 Benotzer hu beim Projet <em>Perséinlech Bekannschaften</em> matgemaach:',
 	'pb-verified-since' => 'Confirméiert zanter dem',
 );
 
@@ -706,6 +802,28 @@ $messages['oc'] = array(
 	'pb-verified-since' => 'Verificat dempuèi',
 );
 
+/** Polish (polski)
+ * @author Faren
+ */
+$messages['pl'] = array(
+	'pb-about-pb-tech' => 'Szczegóły techniczne',
+	'pb-about-pb-title' => 'O projekcie',
+	'pb-change-language' => 'Zmień język',
+	'pb-comment' => 'Komentarz',
+	'pb-confirmations-given' => 'Dostarczone potwierdzenia',
+	'pb-confirmations-taken' => 'Otrzymane potwierdzenia',
+	'pb-date' => 'Data',
+	'pb-javascript-notice' => 'Zalecamy włączenie JavaScript dla tej strony w celu poprawy interfejsu użytkownika.',
+	'pb-participates-since' => 'Uczestniczy od',
+	'pb-recent-confirmations' => 'Ostatnie potwierdzenia',
+	'pb-user' => 'Użytkownik',
+	'pb-user-link-title' => 'Szczegóły użytkownika $1',
+	'pb-user-title' => 'Informacje o $1',
+	'pb-users-navi' => 'Użytkownicy',
+	'pb-users-title' => 'Lista uczestników',
+	'pb-verified-since' => 'Sprawdzone od',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -717,6 +835,36 @@ $messages['ps'] = array(
 	'pb-home' => 'کور',
 	'pb-user' => 'کارن',
 	'pb-users-navi' => 'کارنان',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'pb-about-pb-navi' => 'Despre',
+	'pb-about-pb-tech' => 'Detalii tehnice',
+	'pb-about-pb-title' => 'Despre proiect',
+	'pb-change-language' => 'Schimbă limba',
+	'pb-comment' => 'Comentariu',
+	'pb-confirmations-given' => 'Confirmări date',
+	'pb-confirmations-taken' => 'Confirmări primite',
+	'pb-current-confirmations' => 'Există $1 confirmări în total, adică aproximativ <abbr title="$2">$3</abbr> confirmări pe zi.',
+	'pb-current-figures' => 'Cifre actuale',
+	'pb-date' => 'Dată',
+	'pb-home' => 'Acasă',
+	'pb-javascript-notice' => 'Vă recomandăm să activați JavaScript pe acest site web pentru a îmbunătăți interfața cu utilizatorul.',
+	'pb-labs-name' => 'Wikimedia Tool Labs',
+	'pb-participates-since' => 'Participă din',
+	'pb-powered-by-labs' => 'Motorizat de Wikimedia Tool Labs',
+	'pb-recent-confirmations' => 'Confirmări recente',
+	'pb-reconfirmed' => 'Reconfirmat?',
+	'pb-user' => 'Utilizator',
+	'pb-user-link-title' => 'Detalii pentru utilizatorul $1',
+	'pb-user-heading' => 'Informații pentru <a href="$2" title="Pagina utilizatorului $1">$1</a>',
+	'pb-user-title' => 'Informații pentru $1',
+	'pb-users-navi' => 'Utilizatori',
+	'pb-users-title' => 'Listă de participanți',
+	'pb-verified-since' => 'Verificat din',
 );
 
 /** Russian (русский)
@@ -803,6 +951,7 @@ $messages['sco'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Lokal Profil
  */
 $messages['sv'] = array(
@@ -810,7 +959,15 @@ $messages['sv'] = array(
 	'pb-about-pb-tech' => 'Tekniska detaljer',
 	'pb-about-pb-title' => 'Om projektet',
 	'pb-change-language' => 'Ändra språk',
+	'pb-comment' => 'Kommentar',
+	'pb-confirmations-taken' => 'Mottagna bekräftelser',
+	'pb-date' => 'Datum',
 	'pb-home' => 'Hem',
+	'pb-labs-name' => 'Wikimedia Tool Labs',
+	'pb-participates-since' => 'Deltar sedan',
+	'pb-name' => 'Wikipedia:Persönliche Bekanntschaften',
+	'pb-powered-by-labs' => 'Drivs av Wikimedia Tool Labs',
+	'pb-recent-confirmations' => 'Senaste bekräftelser',
 	'pb-user' => 'Användare',
 	'pb-user-link-title' => 'Detaljer för användare $1',
 	'pb-users-navi' => 'Användare',
@@ -887,6 +1044,12 @@ $messages['vi'] = array(
 $messages['zh-hans'] = array(
 	'pb-about-pb-navi' => '关于',
 	'pb-about-pb-tech' => '技术信息',
+	'pb-about-pb-tech-text' => '<p>我们使用 <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> 和 <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a> 开发此界面。源代码依据<a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU 轻量通用公共许可证 3</a>（LGPL 3）发布，这也可在<a href="https://github.com/tool-labs/pb">GitHub</a>找到。请通过<a href="https://github.com/tool-labs/pb/issues/new">GitHub 问题跟踪器</a>或者<a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">维基百科讨论页</a>提交错误报告、功能请求或其他评论。</p>
+    <p>当前的PB数据库转储可在<a href="/pb/sql-dumps">此处</a>找到。</p>
+    <p>我们使用<a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>计划制作的一些图标。</p>',
+	'pb-about-pb-text' => '<p>本项目代表维基人直接的个人相识。</p>
+    <p>The first implementation was done by Ulli Purwin (interface) and Euku (bot). In the beginning of 2011, Wiegels and Ireas followed Ulli doing the interface. By now, the project is not longer hosted on a private server but on Wikimedia Labs.</p>
+    <p>更多有关此项目的信息请参见德语维基百科的<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a>。</p>',
 	'pb-about-pb-title' => '关于项目',
 	'pb-change-language' => '更改语言',
 	'pb-comment' => '评论',
@@ -896,9 +1059,13 @@ $messages['zh-hans'] = array(
 	'pb-current-figures' => '目前计数',
 	'pb-current-users' => '此时，$1位用户参与了<em>个人相识</em>项目。',
 	'pb-date' => '日期',
+	'pb-footer' => '工具实验室的<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in the German Wikipedia">[[Wikipedia:Persönliche Bekanntschaften]]</a>。<a href="$1" title="About Wikipedia:Persönliche Bekanntschaften">更多信息。</a>',
 	'pb-home' => '首页',
+	'pb-home-welcome' => '欢迎来到<em>个人相识</em>项目（德语<em>Persönliche-Bekanntschaften</em>）！更多此项目的信息可在<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in the German language Wikipedia">德语维基百科</a>找到。',
+	'pb-javascript-notice' => '我们推荐您在此网站启用JavaScript以改进用户体验。',
 	'pb-labs-name' => '维基媒体工具实验室',
 	'pb-participates-since' => '参与自从',
+	'pb-name' => 'Wikipedia:Persönliche Bekanntschaften',
 	'pb-powered-by-labs' => '由维基媒体工具实验室提供支持',
 	'pb-recent-confirmations' => '最近确认',
 	'pb-reconfirmed' => '重新确认？',
@@ -907,5 +1074,7 @@ $messages['zh-hans'] = array(
 	'pb-user-heading' => '用于<a href="$2" title="User page of $1">$1</a>的信息',
 	'pb-user-title' => '用于$1的信息',
 	'pb-users-navi' => '用户',
+	'pb-users-title' => '参与者列表',
+	'pb-users-overview' => '这里的$1位用户参与<em>个人相识</em>项目：',
 	'pb-verified-since' => '验证自从',
 );

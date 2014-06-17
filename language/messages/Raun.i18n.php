@@ -121,6 +121,7 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Amire80
  * @author Kenrick95
+ * @author Krinkle
  * @author Shirayuki
  */
 $messages['qqq'] = array(
@@ -136,7 +137,7 @@ $messages['qqq'] = array(
 {{Identical|Source code}}',
 	'stat' => 'Text displayed at menu bar.
 {{identical|Statistics}}',
-	'settings_tool' => 'Rreferred to this tool (Raun).
+	'settings_tool' => 'The noun used to refer to this (the Raun program itself).
 {{Identical|Tool}}',
 	'language' => "Project's language which is currently used at the tool.
 {{Identical|Language}}",
@@ -249,6 +250,92 @@ This message should be consistent with:
 {{Identical|Send feedback}}',
 );
 
+/** Breton (brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'close' => 'Serriñ',
+	'help' => 'Skoazell',
+	'filter' => 'Sil',
+	'settings' => 'Arventennoù',
+	'stat' => 'Stadegoù',
+	'settings_tool' => 'Ostilh',
+	'language' => 'Yezh',
+	'project' => 'Raktres',
+	'save' => 'Enrollañ',
+	'settings_pause' => 'Ehanañ',
+	'settings_show' => 'Diskouez',
+	'settings_wiki' => 'Wiki',
+	'stat_pages' => 'Pajennoù',
+	'stat_files' => 'Restroù ezporzhiet',
+	'stat_depth' => 'Donder',
+	'stat_users' => 'Implijerien enrollet',
+	'stat_active_users' => 'Implijerien oberiant',
+	'stat_admins' => 'Merourien',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'main_time_utc' => 'Eur (UTC)',
+	'main_page' => 'Pajenn',
+	'main_user' => 'Implijer',
+	'main_info' => 'Titouroù',
+	'new' => 'nevez',
+	'bot' => 'robot',
+	'admin' => 'merour',
+	'help_legend' => "Alc'hwez :",
+	'color' => 'Liv',
+	'about' => 'Diwar-benn',
+	'information' => 'Titouroù',
+);
+
+/** Catalan (català)
+ * @author Fitoschido
+ */
+$messages['ca'] = array(
+	'close' => 'Tanca',
+	'help' => 'Ajuda',
+	'filter' => 'Filtra',
+	'settings' => 'Paràmetres',
+	'fork' => 'Codi font',
+	'stat' => 'Estadístiques',
+	'settings_tool' => 'Eina',
+	'language' => 'Idioma',
+	'project' => 'Projecte',
+	'save' => 'Desa',
+	'settings_pause' => 'Pausa',
+	'main_time_utc' => 'Hora (UTC)',
+	'main_page' => 'Pàgina',
+	'main_user' => 'Usuari',
+	'main_info' => 'Informació',
+	'new' => 'nou',
+	'minor' => 'menor',
+	'color' => 'Color',
+	'about' => 'Quant a',
+	'information' => 'Informació',
+	'credit' => 'Crèdit',
+	'about_github' => 'El codi font és disponible a $1',
+);
+
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'settings' => 'Параметраш',
+	'settings_pause' => 'Пауза',
+	'settings_run' => 'Йолаялита',
+	'settings_bot_edits' => 'Ботийн нисдарш',
+	'settings_anon_edits' => 'Къайлаха нисдарш',
+	'settings_minor_edits' => 'Жим хийцамаш',
+	'stat_articles' => 'Коьрта агӀонаш',
+	'stat_pages' => 'АгӀонаш',
+	'stat_edits' => 'АгӀона нисдарш',
+	'stat_users' => 'ДӀабазбелла декъашхой',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'main_user' => 'Декъашхо',
+	'bot' => 'бот',
+	'send_feedback' => 'Дахьийта хетарг',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -314,6 +401,13 @@ $messages['de'] = array(
 	'about_license' => 'Falls nicht anders angegeben, ist der Quellcode dieses Projekts lizenziert unter der MIT-Lizenz.',
 	'about_github' => 'Der Quellcode ist verfügbar auf $1',
 	'send_feedback' => 'Rückmeldung senden',
+);
+
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'about_license' => 'Otherwise stated, this project source code is licenced under MIT Licence.',
 );
 
 /** Spanish (español)
@@ -613,7 +707,67 @@ $messages['it'] = array(
 	'send_feedback' => 'Invia commenti',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'close' => '閉じる',
+	'help' => 'ヘルプ',
+	'filter' => 'フィルター',
+	'settings' => '設定',
+	'fork' => 'ソース コード',
+	'stat' => '統計',
+	'settings_tool' => 'ツール',
+	'language' => '言語',
+	'project' => 'プロジェクト',
+	'save' => '保存',
+	'settings_pause' => '一時停止',
+	'settings_run' => '実行!',
+	'settings_show' => '表示する項目',
+	'settings_wiki' => 'ウィキ',
+	'settings_bot_edits' => 'ボットによる編集',
+	'settings_anon_edits' => '匿名利用者による編集',
+	'settings_minor_edits' => '細部の編集',
+	'settings_redirects' => '転送ページ',
+	'settings_new_pages' => 'ページの新規作成',
+	'settings_editor_edits' => '編集者による編集',
+	'settings_admin_edits' => '管理者による編集',
+	'settings_other_edits' => 'その他の編集',
+	'time_utc' => '日時 (UTC)',
+	'stat_articles' => '本文ページ',
+	'stat_pages' => 'ページ',
+	'stat_files' => 'アップロードされたファイル',
+	'stat_edits' => 'ページの編集',
+	'stat_users' => '登録利用者',
+	'stat_admins' => '管理者',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'def_i' => '(会話型動詞)',
+	'def_def' => '調査; 監視; 巡回;',
+	'main_time_utc' => '時刻 (UTC)',
+	'main_page' => 'ページ',
+	'main_user' => '利用者',
+	'main_info' => '情報',
+	'new' => '新規',
+	'minor' => '細部',
+	'anon' => '匿名',
+	'redirect' => '転送',
+	'bot' => 'ボット',
+	'editor' => '編集者',
+	'admin' => '管理者',
+	'help_p2' => 'このツールを一時停止するには「一時停止」をクリックします。その後、実行を再開するには「実行!」をクリックします。',
+	'help_p3' => '「フィルター」メニューで編集を絞り込むことができます。「設定」メニューで、ウィキ プロジェクトや言語を変更したり、このツールの表示言語を変更することができます。',
+	'help_legend' => '凡例:',
+	'color' => '色',
+	'about_cookie' => 'このサイトは Cookie を使用します。このツールを 30 日間使用しなかった場合、Cookie を紐付けて格納されたデータは自動的に削除されます。',
+	'information' => '情報',
+	'credit' => 'クレジット',
+	'about_github' => 'ソース コードは $1 で入手できます',
+	'send_feedback' => 'フィードバックを送信',
+);
+
 /** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
  * @author VASANTH S.N.
  */
 $messages['kn'] = array(
@@ -629,6 +783,8 @@ $messages['kn'] = array(
 	'settings_pause' => 'ವಿರಾಮ',
 	'settings_show' => 'ತೋರಿಸು',
 	'settings_wiki' => 'ವಿಕಿ',
+	'settings_bot_edits' => 'ಬಾಟ್ ಸಂಪಾದನೆಗಳು',
+	'settings_anon_edits' => 'ಅನಾಮಿಕ ಸಂಪಾದನೆಗಳು',
 	'settings_minor_edits' => 'ಚಿಕ್ಕ ಸಂಪಾದನೆ',
 	'settings_redirects' => 'ಪುನರ್ನಿರ್ದೇಶನ ಪುಟಗಳು',
 	'settings_new_pages' => 'ಹೊಸ ಪುಟಗಳು',
@@ -659,6 +815,53 @@ $messages['kn'] = array(
 	'send_feedback' => 'ಮರುಮಾಹಿತಿ ಕಳುಹಿಸಿ',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'close' => 'Zohmaache',
+	'help' => 'Hölp',
+	'filter' => 'Ußwähle',
+	'settings' => 'Enschtällonge',
+	'fork' => 'Et Quällprojramm',
+	'stat' => 'Schtatistike',
+	'settings_tool' => 'Wärkzüsch',
+	'language' => 'Schprohch',
+	'project' => 'Projäk',
+	'save' => 'Faßhalde',
+	'settings_pause' => 'Aanhallde',
+	'settings_run' => 'Lohß Jonn!',
+	'settings_show' => 'Zeije',
+	'settings_wiki' => 'Wikki',
+	'settings_bot_edits' => 'Änderonge vun Bots',
+	'settings_anon_edits' => 'Änderonge vun Nahmeloose',
+	'settings_minor_edits' => 'Kein Minni-Änderonge',
+	'settings_redirects' => 'Ömleidondssigge',
+	'settings_new_pages' => 'Neue Sigge',
+	'settings_editor_edits' => 'Änderonge vun nommaale Metmaacher',
+	'settings_admin_edits' => 'Änderonge vun Wiki_Kööbeße',
+	'settings_other_edits' => 'Alle andere Änderonge',
+	'stat_pages' => 'Sigge',
+	'stat_files' => 'Huhjelaade Datteije',
+	'stat_edits' => 'Änderonge aan Sigge',
+	'stat_users' => 'Metmaacher aanjemälldt',
+	'stat_active_users' => 'Aktieve Metmaacher',
+	'stat_admins' => 'Wiki_Kööbeße',
+	'separator_thousands' => '&nbsp;',
+	'separator_decimals' => '.',
+	'main_user' => 'Metmaacher',
+	'main_info' => 'Enfomazjuhn',
+	'new' => 'neu',
+	'anon' => 'nahmeloßß',
+	'redirect' => 'Ömleidong',
+	'bot' => 'Bot',
+	'editor' => 'Beärbeider',
+	'admin' => 'Wiki_Köhbes',
+	'color' => 'Färv',
+	'information' => 'Enfomazjuhn',
+	'send_feedback' => 'En Rökmäldong jävve',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -669,6 +872,7 @@ $messages['lb'] = array(
 	'settings' => 'Astellungen',
 	'fork' => 'Quellcode',
 	'stat' => 'Statistiken',
+	'settings_tool' => 'Geschir (Tool)',
 	'language' => 'Sprooch',
 	'project' => 'Projet',
 	'save' => 'Späicheren',
@@ -709,6 +913,14 @@ $messages['lb'] = array(
 	'about' => 'Iwwer',
 	'information' => 'Informatioun',
 	'send_feedback' => 'Feedback schécken',
+);
+
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'settings' => 'Iestatījumi',
+	'stat_pages' => 'Lapas',
 );
 
 /** Macedonian (македонски)
@@ -786,6 +998,108 @@ $messages['ms'] = array(
 	'language' => 'Bahasa',
 	'stat_pages' => 'Halaman',
 	'bot' => 'bot',
+);
+
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'settings_run' => 'दौडनुहोस् !',
+	'settings_bot_edits' => 'बोटका सम्पादनहरू',
+	'send_feedback' => 'पृष्ठपोषण पठाउनुहोस',
+);
+
+/** Dutch (Nederlands)
+ * @author Krinkle
+ * @author SPQRobin
+ */
+$messages['nl'] = array(
+	'close' => 'Sluiten',
+	'settings' => 'Instellingen',
+	'fork' => 'Broncode',
+	'stat' => 'Statistieken',
+	'language' => 'Taal',
+	'project' => 'Project',
+	'save' => 'Opslaan',
+	'settings_new_pages' => "Nieuwe pagina's",
+	'stat_pages' => "Pagina's",
+	'stat_files' => 'Geüploade bestanden',
+	'stat_edits' => 'Paginabewerkingen',
+	'stat_depth' => 'Diepgang',
+	'stat_users' => 'Geregistreerde gebruikers',
+	'stat_active_users' => 'Actieve gebruikers',
+	'stat_admins' => 'Beheerders',
+	'main_page' => 'Pagina',
+	'main_user' => 'Gebruiker',
+	'color' => 'Kleur',
+	'about' => 'Over',
+);
+
+/** Polish (polski)
+ * @author Faren
+ * @author Wiochman
+ */
+$messages['pl'] = array(
+	'close' => 'Zamknij',
+	'help' => 'Pomoc',
+	'settings' => 'Ustawienia',
+	'fork' => 'Kod źródłowy',
+	'stat' => 'Statystyki',
+	'settings_tool' => 'Narzędzie',
+	'language' => 'Język',
+	'project' => 'Projekt',
+	'save' => 'Zapisz',
+	'settings_pause' => 'Pauza',
+	'settings_run' => 'Uruchom!',
+	'settings_show' => 'Pokaż',
+	'settings_bot_edits' => 'Edycje bota',
+	'settings_anon_edits' => 'Edycje anonimowych',
+	'settings_minor_edits' => 'Drobne zmiany',
+	'settings_new_pages' => 'Nowe strony',
+	'settings_editor_edits' => 'Edycje edytora',
+	'settings_admin_edits' => 'Edycje admina',
+	'settings_other_edits' => 'Inne edycje',
+	'stat_pages' => 'Strony',
+	'stat_files' => 'Przesłane pliki',
+	'stat_edits' => 'Edycje strony',
+	'stat_users' => 'Zarejestrowani użytkownicy',
+	'stat_active_users' => 'Użytkownicy aktywni',
+	'stat_admins' => 'Administratorzy',
+	'main_page' => 'Strona',
+	'main_user' => 'Użytkownik',
+	'main_info' => 'Informacja',
+	'bot' => 'automat (robot)',
+	'send_feedback' => 'Prześlij opinię',
+);
+
+/** Portuguese (português)
+ * @author Imperadeiro98
+ */
+$messages['pt'] = array(
+	'close' => 'Fechar',
+	'help' => 'Ajuda',
+	'settings' => 'Configurações',
+	'stat' => 'Estatísticas',
+	'language' => 'Idioma',
+	'save' => 'Gravar',
+	'settings_pause' => 'Parar',
+	'settings_run' => 'Executar!',
+	'settings_show' => 'Mostrar',
+	'settings_anon_edits' => 'Edições anónimas',
+	'settings_minor_edits' => 'Edições menores',
+	'settings_other_edits' => 'Outras edições',
+	'stat_pages' => 'Páginas',
+	'stat_edits' => 'Edições da página',
+	'stat_active_users' => 'Utilizadores ativos',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'main_time_utc' => 'Hora (UTC)',
+	'main_page' => 'Página',
+	'main_user' => 'Utilizador',
+	'help_p2' => 'Pode parar esta ferramenta clicando em "Parar". E depois disso, pode executá-la outra vez clicando em "Executar!".',
+	'color' => 'Cor',
+	'about' => 'Sobre',
+	'about_github' => 'O código-fonte está disponível em $1',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -936,9 +1250,130 @@ $messages['sv'] = array(
 	'send_feedback' => 'Skicka återkoppling',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'close' => 'Đóng',
+	'help' => 'Trợ giúp',
+	'filter' => 'Bộ lọc',
+	'settings' => 'Tùy chọn',
+	'fork' => 'Mã nguồn',
+	'stat' => 'Thống kê',
+	'settings_tool' => 'Công cụ',
+	'language' => 'Ngôn ngữ',
+	'project' => 'Dự án',
+	'save' => 'Lưu',
+	'settings_pause' => 'Tạm ngừng',
+	'settings_run' => 'Chạy!',
+	'settings_show' => 'Hiện',
+	'settings_wiki' => 'Wiki',
+	'settings_bot_edits' => 'Sửa đổi bot',
+	'settings_anon_edits' => 'Sửa đổi vô danh',
+	'settings_minor_edits' => 'Sửa đổi nhỏ',
+	'settings_redirects' => 'Trang đổi hướng',
+	'settings_new_pages' => 'Trang mới',
+	'settings_editor_edits' => 'Sửa đổi của người sửa đổi',
+	'settings_admin_edits' => 'Sửa đổi của bảo quản viên',
+	'settings_other_edits' => 'Sửa đổi khác',
+	'time_utc' => 'Giờ UTC',
+	'stat_articles' => 'Số trang nội dung',
+	'stat_pages' => 'Số trang',
+	'stat_files' => 'Số tập tin đã tải',
+	'stat_edits' => 'Số lần sửa đổi trang',
+	'stat_depth' => 'Chiều sâu',
+	'stat_users' => 'Số người dùng có tài khoản',
+	'stat_active_users' => 'Số thành viên tích cực',
+	'stat_admins' => 'Số bảo quản viên',
+	'separator_thousands' => '.',
+	'separator_decimals' => ',',
+	'def_i' => 'đã v conv',
+	'def_def' => 'kiểm tra; tuần tra; quan sát;',
+	'main_time_utc' => 'Giờ (UTC)',
+	'main_page' => 'Trang',
+	'main_user' => 'Người dùng',
+	'main_info' => 'Thông tin',
+	'combined_entries' => 'Mục kết hợp',
+	'new' => 'mới',
+	'minor' => 'nhỏ',
+	'anon' => 'vô danh',
+	'redirect' => 'đổi hướng',
+	'bot' => 'bot',
+	'editor' => 'người sửa đổi',
+	'admin' => 'bảo quản viên',
+	'help_legend' => 'Chú giải:',
+	'color' => 'Màu',
+	'about' => 'Giới thiệu',
+	'information' => 'Thông tin',
+	'credit' => 'Ghi công',
+	'about_github' => 'Mã nguồn có sẵn trên $1',
+	'send_feedback' => 'Gửi phản hồi',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
 $messages['yi'] = array(
 	'send_feedback' => 'שיקן פידבעק',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'close' => '关闭',
+	'help' => '帮助',
+	'filter' => '过滤器',
+	'settings' => '设置',
+	'fork' => '源代码',
+	'stat' => '统计',
+	'settings_tool' => '工具',
+	'language' => '语言',
+	'project' => '项目',
+	'save' => '保存',
+	'settings_pause' => '暂停',
+	'settings_run' => '运行！',
+	'settings_show' => '显示',
+	'settings_wiki' => '维基',
+	'settings_bot_edits' => '机器人编辑',
+	'settings_anon_edits' => '佚名编辑',
+	'settings_minor_edits' => '小编辑',
+	'settings_redirects' => '重定向页',
+	'settings_new_pages' => '新页面',
+	'settings_editor_edits' => '编辑器编辑',
+	'settings_admin_edits' => '管理员编辑',
+	'settings_other_edits' => '其他编辑',
+	'time_utc' => '时间（UTC）',
+	'stat_articles' => '内容页面',
+	'stat_pages' => '页面',
+	'stat_files' => '上传的文件',
+	'stat_edits' => '页面编辑',
+	'stat_depth' => '深度',
+	'stat_users' => '注册用户',
+	'stat_active_users' => '活跃用户',
+	'stat_admins' => '管理员',
+	'separator_thousands' => '，',
+	'separator_decimals' => '。',
+	'def_i' => '动词对话',
+	'def_def' => '检验; 警戒; 巡查;',
+	'main_time_utc' => '时间（UTC）',
+	'main_page' => '页面',
+	'main_user' => '用户',
+	'main_info' => '信息',
+	'combined_entries' => '组合记录',
+	'new' => '新',
+	'minor' => '小',
+	'anon' => '佚名',
+	'redirect' => '重定向',
+	'bot' => '机器人',
+	'editor' => '编辑',
+	'admin' => '管理员',
+	'help_p2' => '您可通过点击“暂停”按钮暂停此工具。之后您可随时点击“运行！”按钮重启。',
+	'help_legend' => '图例：',
+	'color' => '颜色',
+	'about' => '关于',
+	'information' => '信息',
+	'credit' => '信用卡',
+	'about_github' => '源代码可在$1找到',
+	'send_feedback' => '发送反馈',
 );

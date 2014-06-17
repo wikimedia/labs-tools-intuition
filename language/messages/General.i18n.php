@@ -584,7 +584,7 @@ $messages['diq'] = array(
 	'toolversion' => 'Versiyon $1',
 	'toolversionstamp' => 'Versiyon $1 ($2)',
 	'etc' => 'ws.',
-	'namespace' => 'Caynami',
+	'namespace' => 'Heruna nami',
 	'form-submit' => 'Şo',
 	'form-reset' => 'Reset kerê',
 	'years' => '{{PLURAL: $1|serre|serri}}',
@@ -881,7 +881,7 @@ $messages['ga'] = array(
  */
 $messages['gl'] = array(
 	'dateformat' => '%e de %B de %Y',
-	'hello' => 'Ola',
+	'hello' => 'Boas',
 	'welcome' => 'Benvido',
 	'toolversion' => 'Versión $1',
 	'toolversionstamp' => 'Versión $1 ($2)',
@@ -1243,11 +1243,13 @@ $messages['km'] = array(
 
 /** Kannada (ಕನ್ನಡ)
  * @author M G Harish
+ * @author Nayvik
  * @author Platonides
  */
 $messages['kn'] = array(
 	'hello' => 'ನಮಸ್ಕಾರ',
 	'welcome' => 'ಸುಸ್ವಾಗತ',
+	'toolversion' => 'ಆವೃತ್ತಿ $1',
 	'toolversionstamp' => 'ಆವೃತ್ತಿ $1 ($2)',
 	'etc' => 'ಇತ್ಯಾದಿ',
 	'namespace' => 'ನಾಮವರ್ಗ',
@@ -1307,7 +1309,7 @@ $messages['ksh'] = array(
 	'hours' => '({{PLURAL:$1|Shtund|Shtunde|Shtunde}})',
 	'minutes' => '{{PLURAL:$1|Menutt|Menutte|Menutte}}',
 	'seconds' => '{{PLURAL:$1|Sekund|Sekunde|Sekund}}',
-	'last-modified-date' => 'Et läz jeändert aam $1',
+	'last-modified-date' => 'zerläz jeändert aam $2 öm $3', # Fuzzy
 	'view-source' => 'Der Quelltäx vum Projramm',
 	'and' => ',&#32;un',
 );

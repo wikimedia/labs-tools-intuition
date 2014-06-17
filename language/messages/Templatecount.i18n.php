@@ -28,14 +28,16 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Jarry1250
  * @author Krinkle
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'title' => 'The title of the tool.
 {{Optional}}',
-	'enter-details' => 'A heading inviting users to complete a form directly below',
+	'enter-details' => 'A heading inviting users to complete a form directly below.
+{{Identical|Enter details}}',
 	'introduction' => 'A basic introduction to the tool, illustrating its key facets.',
-	'language-label' => '{{Identical|Language}}
-The label for a textbox where users enter the language they wish to work with.',
+	'language-label' => 'The label for a textbox where users enter the language they wish to work with.
+{{Identical|Language}}',
 	'namespace-label' => '{{Identical|Namespace}}
 The label for a textbox where users enter the namespace they wish to work with.',
 	'pagename-label' => 'The label for a textbox where users enter the name of the page they wish to work with, with extra note.',
@@ -298,10 +300,11 @@ $messages['de-formal'] = array(
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
  * @author Marmase
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'language-label' => 'Zıwan',
-	'namespace-label' => 'Caynami',
+	'namespace-label' => 'Heruna namey',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -785,7 +788,7 @@ $messages['lt'] = array(
 $messages['mk'] = array(
 	'title' => 'Број на превметнувања на шаблон',
 	'enter-details' => 'Внесете податоци',
-	'introduction' => 'Внесете го името на шаблонот (нажалост, засега само за Википедии) и стиснете на „Оди“. Толку. Ќе се изврши извесно меѓускладирање (за да се запаметат резултатите), но тоа е нажалост вон контролата на алаткава и нејзиниот сопственик.',
+	'introduction' => 'Внесете го името на шаблонот (за жал, засега само за Википедии) и стиснете на „Оди“. Толку. Ќе се изврши извесно меѓускладирање (за да се запаметат резултатите), но тоа е, за жал, вон контролата на алаткава и нејзиниот сопственик.',
 	'language-label' => 'Јазик',
 	'namespace-label' => 'Именски простор',
 	'pagename-label' => 'Име на страницата (без именскиот простор)',

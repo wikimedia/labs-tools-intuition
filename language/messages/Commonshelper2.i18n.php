@@ -689,6 +689,7 @@ $messages['br'] = array(
 );
 
 /** Catalan (català)
+ * @author Fitoschido
  * @author SMP
  */
 $messages['ca'] = array(
@@ -731,7 +732,7 @@ $messages['ca'] = array(
 	'upload_control_text' => 'Comproveu el nou wikitext i feu clic a «$1» si tot és correcte.',
 	'error_commons_user' => "Per a identificar l'usuari de la transferència, el vostre nom d'usuari de Wikimedia Commons ha d'estar a la descripció!",
 	'error_upload_users' => 'La funció de càrrega només està disponible per alguns usuaris durant el període de prova!',
-	'error_upload_file' => 'No es pot descarregar el fitxer original.',
+	'error_upload_file' => 'No s’ha pogut baixar el fitxer original.',
 	'help_intro' => "Quan vulgueu informar d'un error, suggerir una nova característica o posar una qüestió, podeu usar un dels següents mètodes de contacte:",
 	'help_jira' => '$1JIRA (es necessita un compte)$2 al projecte Commonshelper2',
 	'help_mail' => 'Envia un missatge de correu a $1',
@@ -954,14 +955,14 @@ $messages['diq'] = array(
 	'tusc_user' => 'TUSC namey qarwani',
 	'tusc_pass' => 'Parolay TUSC',
 	'do_it' => 'Bıke',
-	'error_not_exists' => 'Çıme dosya çıniya!',
+	'error_not_exists' => 'Dosyaya çımey çıniya!',
 	'error_on_commons' => 'Çıme dosyay wanayışê  $1!',
 	'original_wikitext' => 'Metnê wikiyo oricinal',
 	'new_wikitext' => 'wiki metino newe',
 	'new_filename' => 'Newe namey dosya:',
 	'upload_submit' => 'Bar ke!',
 	'target_wiki' => 'Menzil wiki',
-	'help_mail' => 'Adres de $1 rê e-posta bırşê',
+	'help_mail' => '$1 rê e-poste bırışe',
 );
 
 /** Lower Sorbian (dolnoserbski)
