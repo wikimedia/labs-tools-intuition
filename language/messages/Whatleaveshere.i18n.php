@@ -31,7 +31,7 @@ $messages['en'] = array(
 	'isfile' => 'file link',
 	'linksearch' => 'LinkSearch',
 	'section-links' => 'Links',
-	'section-iwlinks' => 'Interwiki winks',
+	'section-iwlinks' => 'Interwiki links',
 	'section-extlinks' => 'External links',
 	'section-categories' => 'Categories',
 );
