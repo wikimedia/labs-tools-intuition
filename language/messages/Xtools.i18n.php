@@ -19,7 +19,7 @@ $messages = array();
 $messages['en'] = array (
 	'title_xtools' => 'X!\'s tools',
 	'welcome' => 'Welcome to X!\'s tools!',
-	'million' => 'Unbelievable. Absolutely unbelievable. This edit counter was created in December 2008, and in under 1.5 years, has amassed over <span style="color:red;">1 Million Hits</span>. This is astounding. I thank everyone for their continued support of this tool throughout the years. Without your support, this tool would not be in existence. Let\'s hope for another million! --X! 14 May 2010',
+	'million' => 'Unbelievable. Absolutely unbelievable. This edit counter was created in December 2008, and in under 1.5 years, has amassed over 1 Million Hits. This is astounding. I thank everyone for their continued support of this tool throughout the years. Without your support, this tool would not be in existence. Let\'s hope for another million! --X! 14 May 2010',
 	
 	//toolnames
 	'tool_ec' => 'Edit Counter',
