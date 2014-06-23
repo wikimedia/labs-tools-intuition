@@ -126,6 +126,7 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'label-page' => 'АгӀо',
 	'button-submit' => 'Лаха',
+	'section-categories' => 'Категореш',
 );
 
 /** German (Deutsch)
@@ -147,6 +148,10 @@ $messages['de'] = array(
 	'istemplate' => 'Vorlageneinbindung',
 	'isfile' => 'Dateilink',
 	'linksearch' => 'Weblinksuche',
+	'section-links' => 'Links',
+	'section-iwlinks' => 'Interwiki-Links',
+	'section-extlinks' => 'Weblinks',
+	'section-categories' => 'Kategorien',
 );
 
 /** Spanish (español)
@@ -168,6 +173,8 @@ $messages['es'] = array(
 	'istemplate' => 'inclusión',
 	'isfile' => 'enlace de archivo',
 	'linksearch' => 'LinkSearch',
+	'section-extlinks' => 'Enlaces externos',
+	'section-categories' => 'Categorías',
 );
 
 /** French (français)
@@ -189,6 +196,10 @@ $messages['fr'] = array(
 	'istemplate' => 'inclusion',
 	'isfile' => 'lien de fichier',
 	'linksearch' => 'LinkSearch',
+	'section-links' => 'Liens',
+	'section-iwlinks' => 'Liens entre wikis',
+	'section-extlinks' => 'Liens externes',
+	'section-categories' => 'Catégories',
 );
 
 /** Hebrew (עברית)
@@ -210,6 +221,10 @@ $messages['he'] = array(
 	'istemplate' => 'הכללה',
 	'isfile' => 'קישור לקובץ',
 	'linksearch' => 'חיפוש קישורים',
+	'section-links' => 'קישורים',
+	'section-iwlinks' => 'קישורי בינוויקי',
+	'section-extlinks' => 'קישורים חיצוניים',
+	'section-categories' => 'קטגוריות',
 );
 
 /** Hungarian (magyar)
@@ -244,6 +259,10 @@ $messages['it'] = array(
 	'istemplate' => 'inclusione',
 	'isfile' => 'collegamento a file',
 	'linksearch' => 'Ricerca collegamenti esterni',
+	'section-links' => 'Collegamenti',
+	'section-iwlinks' => 'Collegamenti interwiki',
+	'section-extlinks' => 'Collegamenti esterni',
+	'section-categories' => 'Categorie',
 );
 
 /** Japanese (日本語)
@@ -265,6 +284,7 @@ $messages['ja'] = array(
 	'istemplate' => '参照読み込み',
 	'isfile' => 'ファイルへのリンク',
 	'linksearch' => '外部リンクの検索',
+	'section-extlinks' => '外部リンク',
 );
 
 /** Korean (한국어)
@@ -294,6 +314,8 @@ $messages['lb'] = array(
 	'istemplate' => 'an dëser Säit dran',
 	'isfile' => 'Link op de Fichier',
 	'linksearch' => 'LinkSearch',
+	'section-extlinks' => 'Extern Linken',
+	'section-categories' => 'Kategorien',
 );
 
 /** Macedonian (македонски)
@@ -315,6 +337,10 @@ $messages['mk'] = array(
 	'istemplate' => 'превметнување',
 	'isfile' => 'врска до податотеката',
 	'linksearch' => 'ПребарувањеВрски',
+	'section-links' => 'Врски',
+	'section-iwlinks' => 'Меѓујазични врски',
+	'section-extlinks' => 'Надворешни врски',
+	'section-categories' => 'Категории',
 );
 
 /** Low Saxon (Netherlands) (Nedersaksies)
@@ -327,8 +353,10 @@ $messages['nds-nl'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Southparkfan
  */
 $messages['nl'] = array(
+	'title' => 'Koppelingen op deze pagina',
 	'label-page' => 'Pagina',
 	'label-namespace' => 'Naamruimte',
 	'button-submit' => 'OK',
@@ -363,7 +391,19 @@ $messages['pt'] = array(
 	'isfile' => 'ligação para ficheiro',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'label-page' => 'Страница',
+	'label-namespace' => 'Пространство имён',
+	'label-limit' => 'Ограничение',
+	'section-links' => 'Ссылки',
+	'section-categories' => 'Категории',
+);
+
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -376,6 +416,9 @@ $messages['sv'] = array(
 	'whatlinkshere' => 'Vad som länkar hit',
 	'istemplate' => 'inkluderad som mall',
 	'isfile' => 'fillänk',
+	'section-links' => 'Länkar',
+	'section-extlinks' => 'Externa länkar',
+	'section-categories' => 'Kategorier',
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -423,4 +466,8 @@ $messages['zh-hans'] = array(
 	'istemplate' => '嵌入',
 	'isfile' => '文件链接',
 	'linksearch' => '链接搜索',
+	'section-links' => '链接',
+	'section-iwlinks' => '跨维基眨眼',
+	'section-extlinks' => '外部链接',
+	'section-categories' => '分类',
 );

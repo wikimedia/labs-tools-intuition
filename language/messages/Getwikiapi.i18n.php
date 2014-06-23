@@ -908,6 +908,16 @@ $messages['vi'] = array(
 	'output' => 'Kết quả “$1”',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'formats-heading' => 'אויסגאב פארמאטן',
+	'input' => 'איינגאב',
+	'label-wikiids' => 'וויקי אידענטיפיצירערס',
+	'output' => 'אויסגאב פאר "$1"',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Yfdyh000

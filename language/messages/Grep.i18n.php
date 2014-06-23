@@ -316,12 +316,20 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author SPQRobin
+ * @author Southparkfan
  */
 $messages['nl'] = array(
+	'explanation' => 'uitleg',
+	'regex' => 'Reguliere expressie',
+	'enter-details' => 'Gegevens invoeren',
 	'results' => 'Resultaten',
 	'language-label' => 'Taal',
 	'namespace-label' => 'Naamruimte',
 	'project-label' => 'Project',
+	'redirects-label' => 'Doorverwijzingen toevoegen',
+	'limit-label' => 'Geef alleen de eerste 100 resultaten weer',
+	'error-zeroresults' => "Er zijn geen pagina's in die naamruimte met een naam die overeenkomt met uw reguliere expressie.",
+	'match-count' => "{{PLURAL:$1|$1 pagina|$1 pagina's}} komen overeen met uw reguliere expressie.",
 );
 
 /** Polish (polski)
@@ -404,6 +412,7 @@ $messages['sv'] = array(
 	'project-label' => 'Projekt',
 	'pattern-label' => 'Mönster',
 	'redirects-label' => 'Inkludera omdirigeringar',
+	'limit-label' => 'Begränsa visningen till de första 100 resultaten',
 	'match-count' => '{{PLURAL:$1|$1 sida|$1 sidor}} överensstämmer ditt reguljära uttryck.',
 );
 
@@ -425,6 +434,21 @@ $messages['vi'] = array(
 	'limit-label' => 'Chỉ hiển thị 100 kết quả đầu tiên',
 	'error-zeroresults' => 'Không gian tên này không có trang nào có tên khớp với biểu thức chính quy.',
 	'match-count' => '$1 trang khớp với biểu thức chính quy.',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'explanation' => 'ערקלערונג',
+	'regex' => 'רגעולערער אויסדרוק',
+	'enter-details' => 'אײַנגעבן פרטים',
+	'results' => 'רעזולטאטן',
+	'language-label' => 'שפראַך',
+	'namespace-label' => 'נאָמענטייל',
+	'project-label' => 'פראיעקט',
+	'pattern-label' => 'מוסטער',
+	'redirects-label' => 'אײַנשליסן ווײַטערפירונגען',
 );
 
 /** Simplified Chinese (中文（简体）‎)

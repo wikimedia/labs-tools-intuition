@@ -1792,6 +1792,7 @@ $messages['wuu'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
  * @author Liuxinyu970226
+ * @author Mywood
  * @author Qiyue2001
  * @author Yfdyh000
  */
@@ -1820,7 +1821,7 @@ $messages['zh-hans'] = array(
 	'navtoggle-tooltip' => '切换侧栏',
 	'nomatches' => '找不到与您设置相关的结果',
 	'order' => '顺序',
-	'permalink' => '链至目前设定的永久链接',
+	'permalink' => '当前设置的固定链接',
 	'select-placeholder-none' => '（无）',
 	'showAnonOnly' => '仅匿名用户',
 	'showUnpatrolledOnly' => '仅未巡查编辑',

@@ -628,21 +628,25 @@ $messages['es'] = array(
  * @author Pikne
  */
 $messages['et'] = array(
+	'title' => 'Orbarutelu',
+	'description' => 'Leia orvuks jäänud arutelud.',
+	'label-wiki' => 'Viki',
 	'select-wiki-first' => '(kõigepealt vali viki)',
 	'hideredirects' => 'Peida ümbersuunamised',
 	'hidesubpages' => 'Peida alamleheküljed',
 	'limit' => 'Piirang',
 	'page' => 'Lehekülg',
-	'redirect' => 'Ümbersuunamine?',
+	'tooltip-redirect' => 'See lehekülg on ümbersuunamine',
 	'output' => 'Väljund',
 	'update' => 'Värskenda',
+	'tools-view' => 'vaata',
 	'tools-delete' => 'kustuta',
 	'tools-links' => 'lingid',
-	'tools-subject' => 'lehekülg',
-	'tools-hist' => 'ajal',
-	'tools-curr' => 'uusim versioon',
-	'tools-globalusage' => 'globaalne kasutus',
-	'deletesummary' => 'Orbarutelu eemaldatud tööriista $1 abil',
+	'tools-subject' => 'seotud lehekülg',
+	'tools-hist' => 'ajalugu',
+	'tools-curr' => 'viimane muudatus',
+	'tools-globalusage' => 'faili kasutus',
+	'deletesummary' => '$1: seotud leheküljeta arutelu',
 	'noresults' => 'Selle viki selles nimeruumis ei vasta sinu sätetele ükski orbarutelu.',
 	'resultslimited' => 'Lehekülje kohta näidatakse $1 tulemust.',
 );
@@ -1984,7 +1988,8 @@ $messages['sr-el'] = array(
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
-	'title' => 'OrphanTalk2', # Fuzzy
+	'title' => 'OrphanTalk',
+	'description' => 'Hitta föräldralösa diskussionssidor.',
 	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(välj en wiki först)',
 	'hideredirects' => 'Göm omdirigeringar',
@@ -2002,7 +2007,7 @@ $messages['sv'] = array(
 	'tools-curr' => 'Senaste ändring',
 	'tools-globalusage' => 'Filanvändning',
 	'deletesummary' => '$1: Föräldralösa diskussionssidor',
-	'noresults' => 'Inga föräldralösa diskussionssidor på denna wikin i denna namnrymden matchade dina inställningar.',
+	'noresults' => 'Inga föräldralösa diskussionssidor på den här wikin, i den här namnrymden, matchade dina inställningar.',
 	'resultslimited' => 'Resultaten var begränsade till $1 sidor.',
 );
 
@@ -2229,6 +2234,13 @@ $messages['vi'] = array(
 	'deletesummary' => '$1: Trang thảo luận mồ côi',
 	'noresults' => 'Không có trang thảo luận mồ côi nằm trong không gian tên này mà trùng với truy vấn của bạn.',
 	'resultslimited' => 'Chỉ hiển thị $1 kết quả.',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'label-wiki' => 'וויקי',
 );
 
 /** Simplified Chinese (中文（简体）‎)

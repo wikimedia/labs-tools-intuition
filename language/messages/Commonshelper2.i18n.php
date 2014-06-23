@@ -3833,7 +3833,7 @@ $messages['sv'] = array(
 	'error_not_exists' => 'Källfilen finns inte!',
 	'error_on_commons' => 'Källfilen är redan på $1!',
 	'error_file_exists' => 'Filen finns redan på $3 som "$1$4$2"!',
-	'error_diff_exists' => 'En annan målfil finns på målwiki under samma namn!',
+	'error_diff_exists' => 'En annan målfil finns på målwikin under samma namn!',
 	'error_no_meta' => 'Ingen metadata hittades om ursprungs-wikin! $1Vänligen lägg till/uppdatera metadata för projektet$2',
 	'error_meta_no_good' => 'Metadata: Inga bra mallar hittades! $1Var vänlig lägg till/uppdatera metadata för projektet$2',
 	'error_meta_bad' => 'Metadata: Dålig mall hittades! $1Var vänlig lägg till/uppdatera metadata för projektet$2',
@@ -4288,12 +4288,30 @@ $messages['vi'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'attention' => 'אכטונג',
+	'description' => 'א געצייג אריבערצופירן טעקעס פון וויקימעדיע פראיעקטן צו וויקימעדיע קאמאנס',
+	'change_meta' => 'ענדערן די $1קאטעגאריע און מוסטער אײַנשטעלונגען$2 פאר$3',
 	'language' => 'שפראַך:',
 	'project' => 'פראיעקט',
 	'source_file' => 'קוואל טעקע',
 	'target_file' => 'ציל טעקע',
 	'commons_username' => 'וויקיפעדיע קאמאנס באניצער נאמען',
 	'commons_to_project' => 'וויקיפעדיע קאמאנס פראיעקט',
+	'categories' => 'קאַטעגאָריעס',
+	'remove_cats' => 'אראפנעמען עקזיסטירנדע קאטעגאריעס',
+	'tusc_user' => 'TUSC באניצער־נאמען',
+	'tusc_pass' => 'TUSC פאסווארט',
+	'do_it' => 'אויספירן',
+	'error_transfer_usr' => 'איר האט נישט אוועקגעשטעלט א וויקימעדיע קאמאנס באניצער־נאמען',
+	'error_not_exists' => 'מקור טעקע עקזיסטירט נישט.',
+	'error_on_commons' => 'קוואלטעקע שוין פאראן אויף $1.',
+	'error_file_exists' => 'טעקע איז שוין פאראן אויף $3 ווי "$1$4$2"!',
+	'original_wikitext' => 'אריגינעלער וויקי טעקסט',
+	'new_wikitext' => 'נײַער וויקי טעקסט',
+	'new_filename' => 'נײַער טעקע־נאמען:',
+	'upload_submit' => 'אַרויפֿלאָדן!',
+	'target_wiki' => 'ציל־וויקי',
+	'help_mail' => 'שיקן פאסט צו $1',
 );
 
 /** Simplified Chinese (中文（简体）‎)

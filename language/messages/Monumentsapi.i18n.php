@@ -3642,13 +3642,14 @@ $messages['sr-el'] = array(
 /** Swedish (svenska)
  * @author Ainali
  * @author Cybjit
+ * @author Jopparn
  * @author Liftarn
  * @author Lokal Profil
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
-	'search-title' => 'Minnesmärkessökning',
-	'search-monuments-database' => 'Sök i minnesmärkesdatabasen',
+	'search-title' => 'Sökning efter monument',
+	'search-monuments-database' => 'Sök i monumentdatabasen',
 	'search-table-th-field' => 'Fält',
 	'search-table-th-filter' => 'Filter',
 	'search-table-th-search' => 'Sök',
@@ -4135,6 +4136,33 @@ $messages['vi'] = array(
 	'toolbox-title-searchmonuments' => 'Tìm kiếm đài tưởng niệm',
 	'location' => 'Vị trí',
 	'source-monuments-list-on-wikipedia' => 'Danh sách đài kỷ niệm nguồn tại Wikipedia',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'search-table-th-field' => 'פעלד',
+	'search-table-th-filter' => 'פֿילטער',
+	'search-table-th-search' => 'זוכן',
+	'filter-all-countries' => 'אלע לענדער',
+	'filter-all-languages' => 'אלע שפראַכן',
+	'db-field-country' => 'לאַנד',
+	'db-field-lang' => 'שפראַך',
+	'db-field-id' => 'אידענטיפֿיצירער',
+	'db-field-name' => 'נאָמען',
+	'db-field-address' => 'אַדרעס',
+	'db-field-municipality' => 'מוניציפאליטעט',
+	'db-field-lat' => 'גארטל־ליניע',
+	'db-field-lon' => 'געאגראַפֿישע לענג',
+	'db-field-image' => 'בילד',
+	'db-field-changed' => 'געטוישט',
+	'db-field-source' => 'מקור',
+	'db-field-monument_article' => 'מאנומענט בלאט',
+	'toolbox-nav-homepage' => 'היימבלאט',
+	'toolbox-nav-statistics' => 'סטאַטיסטיק',
+	'toolbox-nav-search' => 'זוכן',
+	'location' => 'אָרט',
 );
 
 /** Zeeuws (Zeêuws)

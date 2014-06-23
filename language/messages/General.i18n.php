@@ -2511,7 +2511,23 @@ $messages['vi'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'hello' => 'האלא',
+	'welcome' => 'ברוך הבא!',
+	'toolversion' => 'ווערסיע $1',
+	'toolversionstamp' => 'ווערסיע $1 ($2)',
+	'etc' => 'אא"וו',
+	'namespace' => 'נאָמענטייל',
+	'form-submit' => 'גיין',
 	'form-reset' => 'צוריקשטעלן',
+	'years' => '{{PLURAL:$1|יאר}}',
+	'weeks' => '{{PLURAL:$1|וואך|וואכן}}',
+	'days' => '{{PLURAL:$1|טאג|טעג}}',
+	'hours' => "{{PLURAL:$1|שעה|שעה'ן}}",
+	'minutes' => '{{PLURAL:$1|מינוט}}',
+	'seconds' => '{{PLURAL:$1|סעקונדע|סעקונדעס}}',
+	'last-modified-date' => 'לעצט געענדערט: $1',
+	'view-source' => 'ווײַזן מקור',
+	'and' => '&#32;און',
 );
 
 /** Simplified Chinese (中文（简体）‎)

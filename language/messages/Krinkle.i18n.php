@@ -976,6 +976,13 @@ $messages['vi'] = array(
 	'form-legend-settings' => 'Tùy chọn',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'form-legend-settings' => 'איינשטעלונגען',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  */

@@ -2253,6 +2253,13 @@ $messages['vi'] = array(
 	'tablehead-hash' => 'Giá trị băm',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'repo-lastmoddate-label' => 'דאַטע:',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent

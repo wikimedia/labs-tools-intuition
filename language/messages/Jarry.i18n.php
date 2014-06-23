@@ -844,6 +844,14 @@ $messages['vi'] = array(
 	'error-form-empty' => 'Ít nhất một trường bắt buộc đã được bỏ trống. Xin điền nó trước khi tiếc tục.',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'homepage-title' => 'אַרייַנפֿיר',
+	'comments' => 'הערות און שאלות',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Yfdyh000

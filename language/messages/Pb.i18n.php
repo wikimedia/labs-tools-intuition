@@ -957,6 +957,9 @@ $messages['sco'] = array(
 $messages['sv'] = array(
 	'pb-about-pb-navi' => 'Om',
 	'pb-about-pb-tech' => 'Tekniska detaljer',
+	'pb-about-pb-tech-text' => '<p>Vi använder <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> och <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a> för detta gränssnitt. Källkoden är publicerad under vilkoren i <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Public License 3</a> (LGPL 3) och kan nås via <a href="https://github.com/tool-labs/pb">på GitHub</a>. Vänligen lägg till buggrapporter, funktionsförfrågningar eller andra kommentarer <a href="https://github.com/tool-labs/pb/issues/new">till GitHubs problemspåraren</a> eller rapportera in det på <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">diskussionssidan på Wikipedia</a>.</p>
+    <p>Nuvarande dumpar av PB-databasen kan hittas <a href="/pb/sql-dumps">här</a>.</p>
+    <p>Vi använder flera ikoner som skapas av projektet <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>.</p>',
 	'pb-about-pb-title' => 'Om projektet',
 	'pb-change-language' => 'Ändra språk',
 	'pb-comment' => 'Kommentar',
@@ -970,8 +973,11 @@ $messages['sv'] = array(
 	'pb-recent-confirmations' => 'Senaste bekräftelser',
 	'pb-user' => 'Användare',
 	'pb-user-link-title' => 'Detaljer för användare $1',
+	'pb-user-heading' => 'Information om <a href="$2" title="$1s användarsida">$1</a>',
+	'pb-user-title' => 'Information om $1',
 	'pb-users-navi' => 'Användare',
 	'pb-users-title' => 'Deltagarlista',
+	'pb-verified-since' => 'Verifierad sedan',
 );
 
 /** Ukrainian (українська)
@@ -1036,6 +1042,14 @@ $messages['vi'] = array(
 	'pb-users-navi' => 'Người dùng',
 	'pb-users-title' => 'Danh sách người tham gia',
 	'pb-verified-since' => 'Xác nhận từ',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'pb-about-pb-navi' => 'וועגן',
+	'pb-home' => 'היים',
 );
 
 /** Simplified Chinese (中文（简体）‎)

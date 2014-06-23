@@ -548,6 +548,7 @@ $messages['sv'] = array(
 	'voiceintro-upload-publish-succeeded' => 'Inspelning framgångsrikt uppladdad:',
 	'voiceintro-upload-publish-failed' => 'Inspelningen laddades inte upp',
 	'voiceintro-information-label' => 'Information',
+	'voiceintro-information-speaker-label' => 'Talarens namn:',
 	'voiceintro-information-language-label' => 'Språk:',
 	'voiceintro-mic-access-notify' => 'Klicka på "Tillåt" för att tillåta webbläsaren att komma åt din mikrofon.',
 	'voiceintro-recording-notify' => 'Spelar in...',
