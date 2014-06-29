@@ -163,8 +163,8 @@ if ( $I18N->hasCookies() ) {
 		$cookieHealthClass = 'success';
 		$cookieHealthIcon = 'ok';
 
-		$number = floor( $lifetime / 3600 / 24 / 7 );
-		$time = $number . '+ ' . _g( 'weeks', array(
+		$number = floor( $lifetime / 3600 / 24 / 29 );
+		$time = $number . '+ ' . _g( 'months', array(
 			'parsemag' => true, 'variables' => array( $number )
 		) );
 

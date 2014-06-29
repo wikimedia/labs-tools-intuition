@@ -22,6 +22,7 @@ $messages['en'] = array(
 	'form-submit' => 'Go',
 	'form-reset' => 'Reset',
 	'years' => '{{PLURAL: $1|year|years}}',
+	'months' => '{{PLURAL: $1|month|months}}',
 	'weeks' => '{{PLURAL: $1|week|weeks}}',
 	'days' => '{{PLURAL: $1|day|days}}',
 	'hours' => '{{PLURAL: $1|hour|hours}}',
@@ -58,8 +59,11 @@ $messages['qqq'] = array(
 {{Identical|Go}}',
 	'form-reset' => 'A general label for a form reset button. Not per se a search form!
 {{Identical|Reset}}',
-	'years' => 'Notation of time duration for multiple years (eg. "Duration: x years" ).
+	'years' => 'Notation of time duration (eg. "Duration: x years" ).
 {{Identical|Year}}',
+	'months' => 'Full word for "months".
+* $1 - the number of months.
+{{Identical|Months}}',
 	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ).',
 	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ).',
 	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ).',

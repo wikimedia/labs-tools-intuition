@@ -814,7 +814,7 @@ class Intuition {
 	 *
 	 * @return boolean
 	 */
-	public function setCookie( $key, $val, $lifetime = 2592000, $track = TSINT_COOKIE_TRACK ) {
+	public function setCookie( $key, $val, $lifetime = 2592000 /* 30 days */, $track = TSINT_COOKIE_TRACK ) {
 			// Validate cookie name
 			$name = $this->getCookieName( $key );
 			if ( !$name ) {
@@ -850,7 +850,7 @@ class Intuition {
 	 * Renew all cookies
 	 */
 	public function renewCookies( $lifetime = 2592000 /* 30 days */ ) {
-		foreach( $this->getCookieNames() as $key => $name ) {
+		foreach ( $this->getCookieNames() as $key => $name ) {
 			if ( $key === 'track-expire' ) {
 				continue;
 			}
@@ -866,9 +866,8 @@ class Intuition {
 	 * @return boolean
 	 */
 	public function wipeCookies() {
-		$week = 7 * 24 * 3600;
-		foreach( $this->getCookieNames() as $key => $name ) {
-			$this->setCookie( $key, '', 0 - $week, TSINT_COOKIE_NOTRACK );
+		foreach ( $this->getCookieNames() as $key => $name ) {
+			$this->setCookie( $key, '', -3600, TSINT_COOKIE_NOTRACK );
 			unset( $_COOKIE[$name] );
 		}
 		return true;
