@@ -1,11 +1,11 @@
 <?php
 /**
- * Interface messages for Get Wiki API.
+ * Interface messages for GetInfo.
  *
  * @toolowner krinkle
  */
 
-$url = '//toolserver.org/~krinkle/getWikiAPI.php';
+$url = '//tools.wmflabs.org/wikiinfo/';
 
 $messages = array();
 
@@ -15,7 +15,8 @@ $messages = array();
  * @author Krinkle
  */
 $messages['en'] = array(
-	'title' =>	'Get Wiki API', // Ignore
+	'title' => 'Wiki Info',
+	'description' => 'Meta information about Wikimedia wikis.',
 	'formats-heading' => 'Output formats',
 	'input' => 'Input',
 	'label-wikiids' => 'Wiki identifiers',
@@ -28,6 +29,8 @@ $messages['en'] = array(
  * @author Krinkle
  */
 $messages['qqq'] = array(
+	'title' => 'The title of the tool.',
+	'description' => 'Short caption that describes the tool, used in the primary heading on every page as tag line.',
 	'formats-heading' => 'This is the heading above the list of available formats to export/output to.',
 	'input' => 'This is the heading above the input form.',
 	'label-wikiids' => 'This form label is for the input field for the wiki identifiers. Users may type one or more identifiers here.
