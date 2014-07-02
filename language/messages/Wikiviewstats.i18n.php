@@ -148,7 +148,7 @@ $messages['en'] = array(
 	'numPageWatchers' => 'Number of page watchers',
 	'linkStats' => 'Link to page statistics',
 	'linkArticle' => 'Link to wiki article',
-	'authorMostEdits' => 'Author with most edits. In german wikpedia: Author with largest text share',
+	'authorMostEdits' => 'Author with most edits. In German Wikpedia: Author with largest text share',
 	'totalShare' => 'Total share',
 
 	//entry on local wikipedia statistics page
