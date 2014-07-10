@@ -5,7 +5,7 @@
  * @toolowner krinkle
  */
 
-$url = '//toolserver.org/~krinkle/';
+$url = '//meta.wikimedia.org/wiki/User:Krinkle';
 
 $messages = array();
 

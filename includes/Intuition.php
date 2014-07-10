@@ -30,7 +30,7 @@ class Intuition {
 	public $mode = null;
 
 	// Address to the public html, must end in a slash.
-	public $dashboardHome = '//toolserver.org/~intuition/';
+	public $dashboardHome = '//tools.wmflabs.org/intuition/';
 
 	// Construct options
 	protected $currentTextdomain;
@@ -1016,11 +1016,9 @@ class Intuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * Show a link that explains that this tool has been
-	 * localized via Toolserver Intuition and that they
-	 * can change the language by setting their preference
-	 * in the dashboard. Or (if they've done so already)
-	 * that they can manage their settings there
+	 * Show a link that explains that this tool has been localized via Intuition and that they
+	 * can change the language by setting their preference in the dashboard.
+	 * Or (if they've done so already) that they can manage their settings there
 	 */
 	public function dashboardBacklink() {
 
@@ -1056,11 +1054,13 @@ class Intuition {
 
 		// Logo
 		if ( is_int( $imgSize ) && $imgSize > 0 ) {
-			$src = '//upload.wikimedia.org/wikipedia/commons/thumb/b/be'
-				. '/Wikimedia_Community_Logo-Toolserver.svg'
-				. "/{$imgSize}px-Wikimedia_Community_Logo-Toolserver.svg.png";
+			$src = '//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
+				. '/' . $imgSize . 'px-Tool_labs_logo.svg.png';
+			$src_2x = '//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
+				. '/' . ( $imgSize * 2 ) . 'px-Tool_labs_logo.svg.png';
 			$img = IntuitionUtil::tag( '', 'img', array(
 				'src' => $src,
+				'srcset' => "$src 1x, $src_2x 2x",
 				'width' => $imgSize,
 				'height' => $imgSize,
 				'alt' => '',
@@ -1135,7 +1135,7 @@ class Intuition {
 	 * to return to the current page. To be used in other tools.
 	 *
 	 * @example:
-	 *  Location: //toolserver.org/~foo/JohnDoe.php?wiki=loremwiki_p
+	 *  Location: //tools.wmflabs.org/example/JohnDoe.php?wiki=loremwiki_p
 	 *  HTML:
 	 *  '<p>Change the settings <a href="' . $I18N->getDashboardReturnToUrl() . '">here</a>';
 	 *

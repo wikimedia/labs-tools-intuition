@@ -3,7 +3,7 @@ error_reporting( E_ALL );
 ini_set( 'display_errors', 1 );
 date_default_timezone_set( 'UTC' );
 
-/* Load Toolserver Intuition from the main directory */
+// Load Intuition from the main directory
 require_once dirname( dirname( __DIR__ ) ) . '/ToolStart.php';
 
 // Known demos
@@ -27,7 +27,7 @@ $startHTML = <<<HTML
 <html dir="ltr" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<title>$thisFile - Demonstration - Toolserver Intuition</title>
+	<title>$thisFile - Demonstration - Intuition</title>
 	<style>
 	/* Demo framework */
 	body {
