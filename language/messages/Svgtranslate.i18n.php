@@ -3295,21 +3295,23 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Cwlin0416
+ * @author LNDDYL
+ * @author Liuxinyu970226
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
 	'title' => 'SVG翻譯',
 	'error-tryagain' => '$1點選瀏覽器中的返回按鈕重試',
 	'error-nothing' => '目前沒有可翻譯的內容',
-	'error-notsvg' => '不是SVG文件。',
+	'error-notsvg' => '不是SVG檔案。',
 	'error-unexpected' => '發生意外錯誤。',
-	'error-notfound' => '不能從提供的URL中獲取SVG文件。',
+	'error-notfound' => '不能從提供的URL中獲取SVG檔案。',
 	'error-upload' => '上傳時發生了錯誤。',
 	'begin-translation' => '開始翻譯',
 	'th-original' => '原文',
 	'th-translation' => '翻譯',
 	'th-language' => '語言',
-	'th-username' => '用戶名',
+	'th-username' => '使用者名稱',
 	'th-password' => '密碼',
 	'th-method' => '方法',
 	'option-tusc' => 'TUSC（自動上傳）',
@@ -3317,8 +3319,8 @@ $messages['zh-hant'] = array(
 	'preview' => '預覽',
 	'translate' => '翻譯',
 	'translate-instructions' => '可以輸入文件名（例如"$1"）或完整的URL（例如"$2"）。如果選擇第一個選項，會將維基共享資源視為來源。如果是從其他網站或維基中翻譯SVG文件，你必須使用完整的URL。',
-	'svginput-label' => 'SVG文件',
-	'stats-footer' => '此工具自$2起已經翻譯了約$1個文件。',
+	'svginput-label' => 'SVG檔案',
+	'stats-footer' => '此工具自$2起已經翻譯了約$1個檔案。',
 	'uploading' => '上傳中',
 	'upload-complete' => '上傳成功，該文件現在應該位於$1',
 	'editdescriptionpage' => '編輯新的描述頁',

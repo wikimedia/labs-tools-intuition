@@ -66,10 +66,12 @@ See also:
 
 /** Breton (brezhoneg)
  * @author Fohanno
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'results' => "Disoc'hoù",
 	'language-label' => 'Yezh',
+	'namespace-label' => 'Esaouenn anv',
 	'project-label' => 'Raktres',
 	'pattern-label' => 'Patrom',
 );
@@ -384,6 +386,7 @@ $messages['ro'] = array(
  * @author Okras
  */
 $messages['ru'] = array(
+	'introduction' => 'Этот инструмент показывает все заголовки статей, которые соответствуют шаблону регулярного выражения ($1). Поиск с помощью регулярных выражений является ресурсоёмким, поэтому, если это возможно, не забывайте использовать указатели префикса (^) и ($) суффикса.',
 	'explanation' => 'объяснение',
 	'regex' => 'Регулярное выражение',
 	'enter-details' => 'Введите подробности',

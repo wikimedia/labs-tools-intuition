@@ -86,11 +86,13 @@ $messages['en'] = array(
  * @author Jan Luca
  * @author Krinkle
  * @author Kwj2772
+ * @author Liuxinyu970226
  * @author Purodha
  * @author Shirayuki
  * @author Siebrand
  */
 $messages['qqq'] = array(
+	'attention' => '{{Identical|Attention}}',
 	'commonshelper2' => '{{Optional}}',
 	'change_meta' => '$1 and $2 are for a clickable link ($1 is the start of the link, $2 the end of the link).
 
@@ -4352,7 +4354,7 @@ $messages['zh-hans'] = array(
 	'error_diff_exists' => '根据同名的目标维基上存在不同的目标文件！',
 	'error_no_meta' => '未找到关于该来源维基的元数据！$1请为该项目添加/更新元数据$2',
 	'error_meta_no_good' => '元数据： 找不到合适模板 ！ $1请添加或更新改项目的元数据$2',
-	'error_meta_bad' => '元数据：找到不合适模板！$1请添加或更新改项目的元数据$2',
+	'error_meta_bad' => '元数据：找到不适当的模板！$1 请添加或更新用于项目$2的元数据',
 	'original_wikitext' => '原始维基文本',
 	'new_wikitext' => '新的维基文本',
 	'new_filename' => '新的文件名：',

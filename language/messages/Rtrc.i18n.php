@@ -482,7 +482,7 @@ $messages['el'] = array(
  * @author VegaDark
  */
 $messages['es'] = array(
-	'title' => 'Cambios Recientes en tiempo real',
+	'title' => 'Cambios recientes en tiempo real',
 	'apply' => 'Aplicar',
 	'asc' => 'ASC',
 	'changelog' => 'Qué hay de nuevo',

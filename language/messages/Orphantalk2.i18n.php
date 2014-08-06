@@ -330,24 +330,27 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
+	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(diuzit ur wiki da gentañ)',
 	'hideredirects' => 'Kuzhat an adkasoù',
 	'hidesubpages' => 'Kuzhat an ispajennoù',
 	'limit' => 'Bevenn',
 	'page' => 'Pajenn',
-	'redirect' => 'Un adkas eo ?',
+	'tooltip-redirect' => 'Un adkas eo ar bajenn-mañ',
 	'output' => 'Ezvont',
 	'update' => 'Hizivaat',
-	'tools-delete' => 'diverkañ',
-	'tools-links' => 'liammoù',
-	'tools-subject' => 'danvez',
-	'tools-hist' => 'istor',
-	'tools-curr' => 'red',
-	'tools-globalusage' => 'Implij hollek',
-	'deletesummary' => 'O naetaat ar pajennoù kaozeal dre $1',
+	'tools-view' => 'Diskwel',
+	'tools-delete' => 'Dilemel',
+	'tools-links' => 'Pajennoù liammet',
+	'tools-subject' => 'danvez', # Fuzzy
+	'tools-hist' => 'Gwelet an istor',
+	'tools-curr' => 'Kemm diwezhañ',
+	'tools-globalusage' => 'Implij ar restr',
+	'deletesummary' => 'O naetaat ar pajennoù kaozeal dre $1', # Fuzzy
 	'noresults' => "N'eus bet kavet pajenn gaozeal dall ebet er wiki, en esaouenn anv a glot gant ho kefluniadur.",
 	'resultslimited' => "Krennet eo bet an disoc'hoù da $1 pajenn.",
 );
@@ -511,21 +514,20 @@ $messages['de'] = array(
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'title' => 'BakusWerenayış2',
+	'title' => 'BakusWerenayış2', # Fuzzy
 	'select-wiki-first' => '(Ya sıfte yew wiki weçine)',
 	'hideredirects' => 'Hetenayışan bınımnê',
 	'hidesubpages' => 'Pelanê bınan bınımnê',
 	'limit' => 'Limit',
 	'page' => 'Pele',
-	'redirect' => 'Hetanayış ?',
 	'output' => 'Vıcyayış',
-	'update' => 'Noroc resn',
-	'tools-delete' => 'bestere',
-	'tools-links' => 'gırey',
-	'tools-subject' => 'mewzu',
-	'tools-hist' => 'ravyardê',
-	'tools-curr' => 'newen',
-	'tools-globalusage' => 'global karkerdış',
+	'update' => 'Rocane ke',
+	'tools-delete' => 'bestere', # Fuzzy
+	'tools-links' => 'gırey', # Fuzzy
+	'tools-subject' => 'mewzu', # Fuzzy
+	'tools-hist' => 'ravyardê', # Fuzzy
+	'tools-curr' => 'newen', # Fuzzy
+	'tools-globalusage' => 'global karkerdış', # Fuzzy
 );
 
 /** Lower Sorbian (dolnoserbski)

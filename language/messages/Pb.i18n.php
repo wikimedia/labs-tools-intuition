@@ -309,6 +309,7 @@ $messages['en-gb'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author VegaDark
  */
 $messages['es'] = array(
@@ -320,7 +321,7 @@ $messages['es'] = array(
 	'pb-about-pb-text' => '<p>Este proyecto representa personal conocido entre Wikimedians.</p>
     <p>La primera implementación fue hecha por Ulli Purwin (interfaz) y Euku (bot). A inicios de 2011, Wiegels e Ireas siguieron a Ulli haicendo la interfaz. Por ahora, el proyecto ya no está alojado en un servidor privado pero sí en Wikimedia Labs.</p>
     <p>Puede encontrarse más información de este proyecto en la Wikipedia Alemana en la página <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a>.</p>',
-	'pb-about-pb-title' => 'Sobre el proyecto',
+	'pb-about-pb-title' => 'Acerca del proyecto',
 	'pb-change-language' => 'Cambiar el idioma',
 	'pb-comment' => 'Comentario',
 	'pb-confirmations-given' => 'Confirmaciones dadas',
@@ -1091,4 +1092,12 @@ $messages['zh-hans'] = array(
 	'pb-users-title' => '参与者列表',
 	'pb-users-overview' => '这里的$1位用户参与<em>个人相识</em>项目：',
 	'pb-verified-since' => '验证自从',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'pb-user' => '使用者',
+	'pb-users-navi' => '使用者',
 );

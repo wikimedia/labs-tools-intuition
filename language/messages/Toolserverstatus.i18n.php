@@ -396,6 +396,7 @@ $messages['eo'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Platonides
  * @author Vivaelcelta
  */
@@ -406,14 +407,14 @@ $messages['es'] = array(
 	'toolserver-status-down' => 'El cluster $1 no está disponible. $2',
 	'toolserver-status-erro' => 'El cluster $1 está caído. $2',
 	'toolserver-status-unknown' => 'Se desconoce el estado del cluster $1',
-	'toolserver-status-missing' => 'El cluster "$1" no existe',
+	'toolserver-status-missing' => 'La agrupación «$1» no existe',
 	'toolserver-status-short-ok' => '$1: Ok',
-	'toolserver-status-short-info' => '$1: Información',
-	'toolserver-status-short-warn' => '$1: Advertencia',
-	'toolserver-status-short-down' => '$1: Desconectado',
-	'toolserver-status-short-erro' => '$1: Error',
-	'toolserver-status-short-unknown' => '$1: Desconocido',
-	'toolserver-status-short-missing' => '$1: Inexistente',
+	'toolserver-status-short-info' => '$1: información',
+	'toolserver-status-short-warn' => '$1: aviso',
+	'toolserver-status-short-down' => '$1: desconectado',
+	'toolserver-status-short-erro' => '$1: error',
+	'toolserver-status-short-unknown' => '$1: desconocido',
+	'toolserver-status-short-missing' => '$1: inexistente',
 );
 
 /** Estonian (eesti)

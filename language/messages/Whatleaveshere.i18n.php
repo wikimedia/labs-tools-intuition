@@ -113,6 +113,19 @@ $messages['bn'] = array(
 	'label-page' => 'পাতা',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'label-page' => 'Pajenn',
+	'label-namespace' => 'Esaouenn anv',
+	'label-limit' => 'Bevenn',
+	'button-submit' => 'Mont',
+	'whatlinkshere' => 'Pajennoù liammet',
+	'section-links' => 'Liammoù',
+	'section-iwlinks' => 'Liammoù etrewiki',
+);
+
 /** Catalan (català)
  * @author Fitoschido
  */
@@ -398,7 +411,11 @@ $messages['ru'] = array(
 	'label-page' => 'Страница',
 	'label-namespace' => 'Пространство имён',
 	'label-limit' => 'Ограничение',
+	'whatlinkshere' => 'Ссылки сюда',
+	'isfile' => 'файловая ссылка',
 	'section-links' => 'Ссылки',
+	'section-iwlinks' => 'Интервики-ссылки',
+	'section-extlinks' => 'Внешние ссылки',
 	'section-categories' => 'Категории',
 );
 

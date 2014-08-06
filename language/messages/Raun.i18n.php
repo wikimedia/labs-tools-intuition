@@ -252,6 +252,7 @@ This message should be consistent with:
 
 /** Breton (brezhoneg)
  * @author Fohanno
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'close' => 'Serriñ',
@@ -266,6 +267,10 @@ $messages['br'] = array(
 	'settings_pause' => 'Ehanañ',
 	'settings_show' => 'Diskouez',
 	'settings_wiki' => 'Wiki',
+	'settings_minor_edits' => 'Kemmoù dister',
+	'settings_redirects' => 'Pajennoù adkas',
+	'settings_new_pages' => 'Pajennoù nevez',
+	'settings_other_edits' => 'Kemmoù all',
 	'stat_pages' => 'Pajennoù',
 	'stat_files' => 'Restroù ezporzhiet',
 	'stat_depth' => 'Donder',
@@ -279,6 +284,9 @@ $messages['br'] = array(
 	'main_user' => 'Implijer',
 	'main_info' => 'Titouroù',
 	'new' => 'nevez',
+	'minor' => 'dister',
+	'anon' => 'dizanv',
+	'redirect' => 'adkas',
 	'bot' => 'robot',
 	'admin' => 'merour',
 	'help_legend' => "Alc'hwez :",
@@ -1220,13 +1228,18 @@ $messages['ru'] = array(
 	'main_page' => 'Страница',
 	'main_user' => 'Участник',
 	'main_info' => 'Информация',
+	'combined_entries' => 'Комбинированные записи',
 	'minor' => 'малая',
 	'anon' => 'аноним',
 	'redirect' => 'перенапр',
 	'bot' => 'бот',
 	'editor' => 'редактор',
 	'admin' => 'админ',
+	'help_p2' => 'Этот инструмент можно приостановить, нажав кнопку «Пауза». После этого вы можете его снова запустить, нажав кнопку «Запустить!».',
+	'help_legend' => 'Легенда:',
 	'color' => 'Цвет',
+	'about' => 'О приложении',
+	'about_tool' => 'Raun — это инструмент для слежения за последними изменениями в проектах Фонда Викимедиа практически в реальном времени. Этот инструмент вдохновлён $1 и $2. Этот проект был запущен $3.',
 	'information' => 'Информация',
 	'about_github' => 'Исходный код доступен на $1',
 	'send_feedback' => 'Отправить отзыв',
@@ -1421,4 +1434,13 @@ $messages['zh-hans'] = array(
 	'credit' => '信用卡',
 	'about_github' => '源代码可在$1找到',
 	'send_feedback' => '发送反馈',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'main_time_utc' => '時間 (UTC)',
+	'main_user' => '使用者',
+	'credit' => '信用',
 );

@@ -64,12 +64,20 @@ $messages['qqq'] = array(
 	'months' => 'Full word for "months".
 * $1 - the number of months.
 {{Identical|Months}}',
-	'weeks' => 'Notation of time duration for multiple weeks (eg. "Duration: x weeks" ).',
-	'days' => 'Notation of time duration for multiple days (eg. "Duration: x days" ).',
-	'hours' => 'Notation of time duration for multiple hours (eg. "Duration: x hours" ).',
-	'minutes' => 'Notation of time duration for multiple hours (eg. "Duration: x minutes" ). No support for advanced plural yet.
+	'weeks' => 'Full word for "weeks".
+* $1 - the number of weeks.
+{{Identical|Week}}',
+	'days' => 'Full word for "days".
+* $1 - the number of days.
+{{Identical|Day}}',
+	'hours' => 'Full word for "hours".
+* $1 - the number of hour.
+{{Identical|Hour}}',
+	'minutes' => 'Full word for "minutes".
+* $1 - the number of minutes.
 {{Identical|Minute}}',
-	'seconds' => 'Notation of time duration for multiple hours (eg. "Duration: x seconds" ). No support for advenced plural yet.
+	'seconds' => 'Full word for "seconds".
+* $1 - the number of seconds.
 {{Identical|Second}}',
 	'last-modified-date' => 'The date something was last modified. Parameters:
 * $1 - a date (e.g. "April 5 2010, 12:30 AM")',
