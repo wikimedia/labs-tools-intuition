@@ -56,6 +56,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Krinkle
+ * @author Liuxinyu970226
  * @author Shirayuki
  */
 $messages['qqq'] = array(
@@ -66,12 +67,13 @@ $messages['qqq'] = array(
 	'asc' => 'Label of the radio button that sets sort order to ascending.
 
 See also:
-* {{msg-toolserver|Rtrc-desc}}',
+* {{msg-intuition|Rtrc-desc}}',
 	'changelog' => 'Label of link to the page about RTRC software updates.',
 	'clear' => 'Button to clear (or reset) a particular input field.
 {{Identical|Clear}}',
 	'currentedit' => 'Example text in the legend to show what a currently selected edit looks like',
-	'cvn-adder' => 'Label of the user that added this item to the CVN database',
+	'cvn-adder' => 'Label of the user that added this item to the CVN database
+{{Identical|Adder}}',
 	'cvn-adder-empty' => 'Placeholder text for when the author is unknown.
 
 See also:
@@ -86,7 +88,7 @@ See also:
 	'desc' => 'Label of the radio button that sets the sort order to descending.
 
 See also:
-* {{msg-toolserver|Rtrc-asc}}',
+* {{msg-intuition|Rtrc-asc}}',
 	'documentation' => 'Label of the link to the documentation page.
 {{Identical|Documentation}}',
 	'filter' => 'Section label for various change filters.
@@ -124,8 +126,10 @@ See also:
 {{Identical|Tag}}',
 	'time-from' => 'Label of input field containing the start date of the time range filter.
 {{Identical|From}}',
-	'time-untill' => 'Label of input field containing the end date of the time range filter',
-	'timeframe' => 'Label of time range filter',
+	'time-untill' => 'Label of input field containing the end date of the time range filter
+{{Identical|Until}}',
+	'timeframe' => 'Label of time range filter
+{{Identical|Timeframe}}',
 	'type' => 'Section label for the change type checkboxes.
 {{Identical|Type}}',
 	'typeEdit' => 'Label of the checkbox to include changes that edit existing pages.
@@ -307,6 +311,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'helpicon-tooltip' => 'ХӀокху функцех лаьцна мадарра',
 	'typeEdit' => 'Нисдарш',
 );
 
@@ -478,17 +483,18 @@ $messages['el'] = array(
 /** Spanish (español)
  * @author Fitoschido
  * @author Krinkle
+ * @author Macofe
  * @author McDutchie
  * @author VegaDark
  */
 $messages['es'] = array(
 	'title' => 'Cambios recientes en tiempo real',
 	'apply' => 'Aplicar',
-	'asc' => 'ASC',
-	'changelog' => 'Qué hay de nuevo',
-	'clear' => 'Limpiar',
+	'asc' => 'Asc',
+	'changelog' => 'Novedades',
+	'clear' => 'vaciar',
 	'currentedit' => 'Edición seleccionada actualmente',
-	'cvn-adder' => 'Agregado',
+	'cvn-adder' => 'Agregador',
 	'cvn-adder-empty' => 'Desconocido',
 	'cvn-reason' => 'Motivo',
 	'cvn-reason-empty' => 'No se encontró un motivo',
@@ -499,22 +505,22 @@ $messages['es'] = array(
 	'lastupdate-cvn' => 'Última actualización: $1',
 	'lastupdate-rc' => 'Última actualización: $1',
 	'limit' => 'Límite',
-	'masspatrol-requires-userfilter' => 'MassPatrol ha sido deshabilitado porque requiere un filtro de usuario y ninguno fue creado.',
+	'masspatrol-requires-userfilter' => 'MassPatrol se ha desactivado porque requiere un filtro de usuario y no se creó ninguno.',
 	'months' => 'Enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre',
 	'mypatrollog' => 'mi registro de patrulla',
 	'namespace' => 'Espacio de nombre',
-	'navtoggle-tooltip' => 'Alternar la barra lateral',
+	'navtoggle-tooltip' => 'Mostrar u ocultar la barra lateral',
 	'nomatches' => 'No hay cambios relevantes para tu configuración',
 	'order' => 'Orden',
 	'permalink' => 'Enlace permanente a la configuración actual',
 	'select-placeholder-none' => '(ninguno)',
-	'showAnonOnly' => 'sólo anónimos',
-	'showUnpatrolledOnly' => 'Sin patrullar',
+	'showAnonOnly' => 'Solo anónimos',
+	'showUnpatrolledOnly' => 'Solo sin patrullar',
 	'skippededit' => 'Edición omitida',
 	'tag' => 'Etiqueta',
 	'time-from' => 'De',
 	'time-untill' => 'Hasta',
-	'timeframe' => 'Calendario',
+	'timeframe' => 'Periodo',
 	'type' => 'Tipo',
 	'typeEdit' => 'Ediciones',
 	'typeNew' => 'Páginas nuevas',
@@ -1009,6 +1015,7 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Hym411
+ * @author Revi
  * @author 아라
  */
 $messages['ko'] = array(
@@ -1016,7 +1023,7 @@ $messages['ko'] = array(
 	'apply' => '적용',
 	'asc' => '오름차순',
 	'changelog' => '새로운 소식',
-	'clear' => '비우기',
+	'clear' => '지우기',
 	'currentedit' => '현재 선택된 편집',
 	'cvn-adder' => '추가한 사람',
 	'cvn-adder-empty' => '알 수 없음',
@@ -1285,6 +1292,22 @@ $messages['nb'] = array(
 	'typeEdit' => 'Redigeringer',
 	'typeNew' => 'Nye sider',
 	'userfilter' => 'Brukerfilter',
+);
+
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'apply' => 'लागु गर्ने',
+	'clear' => 'हटाउने',
+	'cvn-reason' => 'कारण',
+	'tag' => 'ट्याग',
+	'time-from' => 'देखि',
+	'time-untill' => 'सम्म',
+	'timeframe' => 'समयावधी',
+	'type' => 'प्रकार',
+	'typeEdit' => 'सम्पादनहरू',
+	'typeNew' => 'नयाँ पृष्ठहरू',
 );
 
 /** Dutch (Nederlands)
@@ -1694,6 +1717,14 @@ $messages['sv'] = array(
 	'userfilter' => 'Användarfilter',
 );
 
+/** Tamil (தமிழ்)
+ * @author ElangoRamanujam
+ */
+$messages['ta'] = array(
+	'select-placeholder-none' => '(ஏதுமில்லை)',
+	'showAnonOnly' => 'அடையாளம் காட்டாத பயனர்கள் மட்டும்',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
@@ -1791,6 +1822,7 @@ $messages['wuu'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
+ * @author Impersonator 1
  * @author Liuxinyu970226
  * @author Mywood
  * @author Qiyue2001
@@ -1805,7 +1837,7 @@ $messages['zh-hans'] = array(
 	'currentedit' => '当前所选编辑',
 	'cvn-adder' => '添加者',
 	'cvn-adder-empty' => '未知',
-	'cvn-reason' => '理由',
+	'cvn-reason' => '原因',
 	'cvn-reason-empty' => '找不到理由',
 	'desc' => '降序',
 	'documentation' => '档案',
@@ -1834,4 +1866,13 @@ $messages['zh-hans'] = array(
 	'typeEdit' => '编辑',
 	'typeNew' => '新页面',
 	'userfilter' => '用户过滤器',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'cvn-reason' => '原因',
+	'documentation' => '說明文件',
+	'filter' => '篩選器',
 );

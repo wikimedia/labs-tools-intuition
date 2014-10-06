@@ -356,15 +356,16 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author Macofe
  */
 $messages['es'] = array(
-	'enter-details' => 'Introduce los datos',
+	'enter-details' => 'Ingresar detalles',
 	'introduction' => 'Escribe el nombre de una plantilla (solo Wikipedias por el momento, lo siento) y pulsa Ir. Es tan simple como eso. Hay algo de caché (recordar los resultados), pero eso lamentablemente está fuera del control de esta herramienta y de su propietario.',
 	'language-label' => 'Idioma',
 	'namespace-label' => 'Espacio de nombres',
 	'pagename-label' => 'Nombre de la página (sin el espacio de nombres)',
 	'transclusion-count-label' => 'Número de transclusiones',
-	'transclusion-count' => '$1 transclusión(es) encontradas.',
+	'transclusion-count' => '$1 transclusión(es) encontrada(s).',
 	'error-suggestion' => 'Quizás has escrito mal el nombre de la página.',
 	'time-label' => 'Tiempo necesario para ejecutar la orden',
 );
@@ -839,11 +840,12 @@ $messages['ms'] = array(
 
 /** Maltese (Malti)
  * @author Chrisportelli
+ * @author Leli Forte
  */
 $messages['mt'] = array(
 	'enter-details' => 'Daħħal id-dettalji',
 	'language-label' => 'Lingwa',
-	'namespace-label' => 'Spazju tal-isem',
+	'namespace-label' => 'Spazju tal-ismijiet',
 	'pagename-label' => 'Isem tal-paġna (barra l-ispazju tal-isem)',
 	'transclusion-count-label' => "Numru ta' inklużjonijiet",
 	'transclusion-count' => '$1 inklużjonijiet misjuba.',
@@ -876,6 +878,14 @@ $messages['nb'] = array(
  */
 $messages['nds'] = array(
 	'language-label' => 'Spraak',
+);
+
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'language-label' => 'भाषा',
+	'namespace-label' => 'नेमस्पेस',
 );
 
 /** Newari (नेपाल भाषा)
@@ -1294,6 +1304,7 @@ $messages['vi'] = array(
  * @author Shizhao
  * @author Xiaomingyan
  * @author Yfdyh000
+ * @author はなよめ
  */
 $messages['zh-hans'] = array(
 	'title' => '模板嵌入包含计数',
@@ -1301,11 +1312,11 @@ $messages['zh-hans'] = array(
 	'introduction' => '输入模板的名称（现时只限维基百科），然后按提交。就是这么简单。可能有些缓存问题（结果回忆），但这不是此工具和其主人可控制的范围。',
 	'language-label' => '语言',
 	'namespace-label' => '名字空间',
-	'pagename-label' => '页面名称（不包括命名空间）',
-	'transclusion-count-label' => '使用数目',
-	'transclusion-count' => '找到在$1页面上使用。',
-	'error-suggestion' => '可能你输入了错误的页面标题？',
-	'time-label' => '执行命令所需的时间',
+	'pagename-label' => '页面名称（不含命名空间）',
+	'transclusion-count-label' => '嵌入数目',
+	'transclusion-count' => '发现于$1个页面嵌入。',
+	'error-suggestion' => '您的页面名称（或大小写/简繁体）输入错误？',
+	'time-label' => '执行命令耗时',
 );
 
 /** Traditional Chinese (中文（繁體）‎)

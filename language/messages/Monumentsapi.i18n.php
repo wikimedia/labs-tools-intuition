@@ -62,6 +62,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Krinkle
+ * @author Liuxinyu970226
  * @author McDutchie
  * @author Multichill
  * @author Shirayuki
@@ -109,8 +110,13 @@ Examples of registrant URLs:
 	'db-field-st_address' => '{{Identical|Address}}',
 	'db-field-st_address_pct' => '{{Identical|Address}}',
 	'db-field-st_coordinates' => '{{Identical|Coordinates}}',
+	'db-field-st_coordinates_pct' => '{{Identical|Coordinates}}',
 	'db-field-st_image' => '{{Identical|Image}}',
 	'db-field-st_image_pct' => '{{Identical|Image}}',
+	'db-field-st_municipality' => '{{Identical|Municipality}}',
+	'db-field-st_municipality_pct' => '{{Identical|Municipality}}',
+	'db-field-st_name' => '{{Identical|Name}}',
+	'db-field-st_name_pct' => '{{Identical|Name}}',
 	'db-field-st_total' => '{{Identical|Total number}}',
 	'toolbox-nav-homepage' => '{{Identical|Homepage}}',
 	'toolbox-nav-statistics' => '{{Identical|Statistics}}',
@@ -1105,6 +1111,7 @@ $messages['eo'] = array(
  * @author Armando-Martin
  * @author Fitoschido
  * @author Invadinado
+ * @author Macofe
  * @author Platonides
  * @author Vivaelcelta
  */
@@ -1127,7 +1134,7 @@ $messages['es'] = array(
 	'db-field-image' => 'Imagen',
 	'db-field-changed' => 'Modificado',
 	'db-field-source' => 'Origen',
-	'db-field-monument_article' => 'Artículo de monumento',
+	'db-field-monument_article' => 'Página del monumento',
 	'db-field-registrant_url' => 'URL del titular',
 	'db-field-st_address' => 'Direcciones',
 	'db-field-st_address_pct' => '% de direcciones',
@@ -1136,15 +1143,15 @@ $messages['es'] = array(
 	'db-field-st_image' => 'Imagen',
 	'db-field-st_image_pct' => '% de imágenes',
 	'db-field-st_municipality' => 'Municipio',
-	'db-field-st_municipality_pct' => 'Municipio %',
+	'db-field-st_municipality_pct' => '% de municipios',
 	'db-field-st_name' => 'Nombres',
-	'db-field-st_name_pct' => 'Nombres %',
+	'db-field-st_name_pct' => '% de nombres',
 	'db-field-st_total' => 'Número total',
 	'toolbox-label-searchtipps' => 'usa %term o term% o %term% para búsquedas por aproximación',
-	'toolbox-meta-title' => 'Caja de herramientas "A Wiki le gustan los Monumentos"',
+	'toolbox-meta-title' => 'Herramientas de Wiki Loves Monuments',
 	'toolbox-main-title' => 'Caja de herramientas WLM',
 	'toolbox-main-description' => 'Un conjunto de herramientas relacionadas con',
-	'toolbox-wikilovesmonuments' => 'A Wiki le gustan los Monumentos',
+	'toolbox-wikilovesmonuments' => 'Wiki Loves Monuments',
 	'toolbox-nav-homepage' => 'Página principal',
 	'toolbox-nav-statistics' => 'Estadísticas',
 	'toolbox-nav-search' => 'Buscar',
@@ -2457,6 +2464,18 @@ $messages['lv'] = array(
 	'toolbox-nav-search' => 'Meklēt',
 	'toolbox-title-searchmonuments' => 'Meklēt pieminekļus',
 	'location' => 'Atrašanās vieta',
+);
+
+/** Laz (Lazuri)
+ * @author Ceas08
+ */
+$messages['lzz'] = array(
+	'db-field-country' => 'Dobadona',
+	'db-field-lang' => 'Nena',
+	'db-field-name' => 'Coxo',
+	'db-field-st_name' => 'Coxope',
+	'db-field-st_name_pct' => 'Coxope %',
+	'toolbox-nav-search' => 'Mgori',
 );
 
 /** Minangkabau (Baso Minangkabau)

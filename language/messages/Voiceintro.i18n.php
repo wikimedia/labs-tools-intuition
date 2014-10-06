@@ -72,6 +72,7 @@ $messages['ast'] = array(
 	'voiceintro-upload-publish-succeeded' => 'Grabación xubida correutamente:',
 	'voiceintro-upload-publish-failed' => 'La grabación nun se xubió',
 	'voiceintro-information-label' => 'Información',
+	'voiceintro-information-speaker-label' => 'Nome del falante:',
 	'voiceintro-information-language-label' => 'Llingua:',
 	'voiceintro-mic-access-notify' => 'Calque "Permitir" pa permitir l\'accesu del navegador al micrófonu.',
 	'voiceintro-recording-notify' => 'Grabando...',
@@ -100,6 +101,7 @@ $messages['br'] = array(
 	'voiceintro-information-label' => 'Titouroù',
 	'voiceintro-information-speaker-label' => 'Anv ar prezeger :',
 	'voiceintro-information-language-label' => 'Yezh :',
+	'voiceintro-recording-notify' => "Oc'h enrollañ...",
 );
 
 /** Catalan (català)
@@ -153,22 +155,40 @@ $messages['de'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author Macofe
  * @author Ovruni
  * @author VegaDark
  */
 $messages['es'] = array(
 	'voiceintro-toolbar-record-label' => 'Grabar',
 	'voiceintro-toolbar-stop-label' => 'Detener',
-	'voiceintro-toolbar-clear-label' => 'Borrar',
+	'voiceintro-toolbar-clear-label' => 'Vaciar',
 	'voiceintro-toolbar-upload-label' => 'Cargar',
 	'voiceintro-webaudio-not-supported' => 'Este navegador no admite la API WebAudio.',
 	'voiceintro-upload-publish-succeeded' => 'Grabación subida correctamente:',
 	'voiceintro-upload-publish-failed' => 'No se cargó la grabación.',
-	'voiceintro-information-label' => 'información',
+	'voiceintro-information-label' => 'Información',
 	'voiceintro-information-speaker-label' => 'Nombre del ponente:',
 	'voiceintro-information-language-label' => 'Idioma:',
 	'voiceintro-mic-access-notify' => 'Pulsa en «Permitir» para que el navegador pueda acceder al micrófono.',
 	'voiceintro-recording-notify' => 'Grabando…',
+);
+
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'voiceintro-toolbar-record-label' => 'ضبط',
+	'voiceintro-toolbar-stop-label' => 'توقف',
+	'voiceintro-toolbar-clear-label' => 'پاک‌کردن',
+	'voiceintro-toolbar-upload-label' => 'بارگذاری',
+	'voiceintro-webaudio-not-supported' => 'وب‌آدیو ای‌پیآی برای این مرورگر پشتیبانی نشده‌است.',
+	'voiceintro-upload-publish-succeeded' => 'ضبط انتقال داده شده با موفقیت انجام شد:',
+	'voiceintro-upload-publish-failed' => 'ضبط منتقل نشد.',
+	'voiceintro-information-label' => 'اطلاعات',
+	'voiceintro-information-language-label' => 'زبان:',
+	'voiceintro-mic-access-notify' => 'برای اجازهٔ مرورگر برای دسترسی به میکروفون شما، دکمهٔ "اجازه" را کلیک کنید.',
+	'voiceintro-recording-notify' => 'در حال ضبط...',
 );
 
 /** Finnish (suomi)
@@ -406,6 +426,18 @@ $messages['ms'] = array(
 	'voiceintro-information-language-label' => 'Bahasa:',
 );
 
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'voiceintro-toolbar-stop-label' => 'रोक्ने',
+	'voiceintro-toolbar-clear-label' => 'हटाउने',
+	'voiceintro-toolbar-upload-label' => 'अपलोड गर्ने',
+	'voiceintro-information-label' => 'जानकारी',
+	'voiceintro-information-speaker-label' => 'वक्ताको नाम:',
+	'voiceintro-information-language-label' => 'भाषा:',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -436,10 +468,23 @@ $messages['oc'] = array(
 );
 
 /** Polish (polski)
+ * @author Alan ffm
  * @author Chrumps
+ * @author Ty221
  */
 $messages['pl'] = array(
+	'voiceintro-toolbar-record-label' => 'Rekord',
+	'voiceintro-toolbar-stop-label' => 'Stop',
+	'voiceintro-toolbar-clear-label' => 'Wyczyść',
+	'voiceintro-toolbar-upload-label' => 'Załaduj',
+	'voiceintro-webaudio-not-supported' => 'WebAudio API nie jest obsługiwany przez tą przeglądarkę.',
+	'voiceintro-upload-publish-succeeded' => 'Nagranie przesłane pomyślnie:',
+	'voiceintro-upload-publish-failed' => 'Nagranie nie zostało przesłane.',
+	'voiceintro-information-label' => 'Informacja',
+	'voiceintro-information-speaker-label' => 'Imię i nazwisko prelegenta:',
 	'voiceintro-information-language-label' => 'Język:',
+	'voiceintro-mic-access-notify' => 'Kliknij "Włącz", aby zezwolić przeglądarce na dostęp do swojego mikrofonu.',
+	'voiceintro-recording-notify' => 'Nagrywanie...',
 );
 
 /** Pashto (پښتو)
@@ -478,6 +523,24 @@ $messages['pt-br'] = array(
 	'voiceintro-information-label' => 'Informação',
 	'voiceintro-information-language-label' => 'Língua:',
 	'voiceintro-recording-notify' => 'Gravando...',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'voiceintro-toolbar-record-label' => 'Înregistrează',
+	'voiceintro-toolbar-stop-label' => 'Stop',
+	'voiceintro-toolbar-clear-label' => 'Curăță',
+	'voiceintro-toolbar-upload-label' => 'Încarcă',
+	'voiceintro-webaudio-not-supported' => 'API-ul WebAudio nu este acceptat de acest navigator',
+	'voiceintro-upload-publish-succeeded' => 'Înregistrare încărcată cu succes:',
+	'voiceintro-upload-publish-failed' => 'Înregistrarea nu a fost încărcată.',
+	'voiceintro-information-label' => 'Informații',
+	'voiceintro-information-speaker-label' => 'Numele vorbitorului:',
+	'voiceintro-information-language-label' => 'Limbă:',
+	'voiceintro-mic-access-notify' => 'Apăsați „Permite” pentru a permite navigatorului să vă acceseze microfonul.',
+	'voiceintro-recording-notify' => 'Se înregistrează...',
 );
 
 /** tarandíne (tarandíne)
@@ -534,6 +597,13 @@ $messages['sl'] = array(
 	'voiceintro-information-language-label' => 'Jezik:',
 	'voiceintro-mic-access-notify' => 'Kliknite »Dovolim«, da bo brskalnik lahko dostopal do vašega mikrofona.',
 	'voiceintro-recording-notify' => 'Snemanje ...',
+);
+
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
+ */
+$messages['sr-ec'] = array(
+	'voiceintro-information-language-label' => 'Језик:',
 );
 
 /** Swedish (svenska)
@@ -637,4 +707,11 @@ $messages['zh-hans'] = array(
 	'voiceintro-information-language-label' => '语言：',
 	'voiceintro-mic-access-notify' => '点击“同意”以允许浏览器使用您的麦克风。',
 	'voiceintro-recording-notify' => '录音......',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'voiceintro-toolbar-upload-label' => '上傳',
 );

@@ -122,6 +122,7 @@ $messages['en'] = array(
  * @author Amire80
  * @author Kenrick95
  * @author Krinkle
+ * @author Liuxinyu970226
  * @author Shirayuki
  */
 $messages['qqq'] = array(
@@ -149,7 +150,8 @@ Used as label for the Save button.
 {{Identical|Save}}',
 	'settings_pause' => 'Pause the tool (currently unused). This message is also used in the message {{msg-intuition|Raun-help p2}}.
 {{Identical|Pause}}',
-	'settings_run' => 'Continue the tool (currently unused). This message is also used in the message {{msg-intuition|Raun-help p2}}.',
+	'settings_run' => 'Continue the tool (currently unused). This message is also used in the message {{msg-intuition|Raun-help p2}}.
+{{Identical|Run}}',
 	'settings_show' => 'the text to show or display entries according to filter.
 
 Used as label which is followed by the following checkbox labels:
@@ -185,7 +187,8 @@ The icon is followed by time and date.',
 {{Identical|Uploaded file}}',
 	'stat_edits' => 'Number of Page edits.
 {{Identical|Page edit}}',
-	'stat_depth' => "Value of project's Depth",
+	'stat_depth' => "Value of project's Depth
+{{Identical|Depth}}",
 	'stat_users' => 'Number of Registered users.
 {{Identical|Registered user}}',
 	'stat_active_users' => 'Number of Active users',
@@ -193,7 +196,9 @@ The icon is followed by time and date.',
 {{Identical|Administrator}}',
 	'separator_thousands' => 'Separator for thousands',
 	'separator_decimals' => 'Separator for decimals',
-	'def_i' => ' v: verb, conv: conversation',
+	'def_i' => ' v: verb, conv: conversation
+
+This message was supposed to be an abbreviation of "verb" and "conversation" respectively.',
 	'def_def' => 'If possible, please put three synonyms of "patrol" separated by semicolon.',
 	'main_time_utc' => 'Displayed for the header of the main table.
 {{Identical|Time}}',
@@ -236,18 +241,139 @@ This message should be consistent with:
 {{Identical|Legend}}',
 	'color' => '{{Identical|Color}}',
 	'ns100' => '{{Identical|Portal}}',
+	'about' => '{{Identical|About}}',
 	'about_tool' => 'What is Raun. Parameters:
 * $1 - "[http://ivan.lanin.org/ronda Ronda]"
 * $2 - "Ivan Lanin"
 * $3 - "[http://kenrick95.org/ Kenrick] ([[w:User:Kenrick95|User:Kenrick95]])"',
 	'about_cookie' => 'Cookie refers to HTTP Cookie',
 	'information' => '{{Identical|Information}}',
-	'credit' => '{{Identical|Credit}}',
+	'credit' => '{{Identical|Credit}}
+
+It is for crediting things (e.g. jQuery) that are used in the tools.',
 	'about_license' => 'License of the project; "MIT License" is the name of the license',
 	'about_github' => 'Availability of source code. Parameters:
 * $1 - a link pointing to [http://github.com/kenrick95/Raun github.com/kenrick95/Raun]',
 	'send_feedback' => 'Text displayed at the link for sending feedback.
 {{Identical|Send feedback}}',
+);
+
+/** Asturian (asturianu)
+ * @author Taxandru
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'close' => 'Zarrar',
+	'help' => 'Ayuda',
+	'filter' => 'Filtru',
+	'settings' => 'Configuración',
+	'fork' => 'Códigu fonte',
+	'stat' => 'Estadístiques',
+	'settings_tool' => 'Ferramienta',
+	'language' => 'Llingua',
+	'project' => 'Proyeutu',
+	'save' => 'Guardar',
+	'settings_pause' => 'Pausa',
+	'settings_run' => '¡Executar!',
+	'settings_show' => 'Amosar',
+	'settings_wiki' => 'Wiki',
+	'settings_bot_edits' => 'Ediciones de bot',
+	'settings_anon_edits' => 'Ediciones anónimes',
+	'settings_minor_edits' => 'Ediciones menores',
+	'settings_redirects' => 'Redireiciones',
+	'settings_new_pages' => 'Páxines nueves',
+	'settings_editor_edits' => "Ediciones d'editores",
+	'settings_admin_edits' => "Ediciones d'alministradores",
+	'settings_other_edits' => 'Otres ediciones',
+	'time_utc' => 'Hora, en UTC',
+	'stat_articles' => 'Páxines de conteníu',
+	'stat_pages' => 'Páxines',
+	'stat_files' => 'Ficheros xubíos',
+	'stat_edits' => 'Ediciones de páxines',
+	'stat_depth' => 'Fondura',
+	'stat_users' => 'Usuarios rexistraos',
+	'stat_active_users' => 'Usuarios activos',
+	'stat_admins' => 'Alministradores',
+	'separator_thousands' => '.',
+	'separator_decimals' => ',',
+	'def_i' => 'v conv',
+	'def_def' => 'inspeición; revisión; patrulla;',
+	'main_time_utc' => 'Hora (UTC)',
+	'main_page' => 'Páxina',
+	'main_user' => 'Usuariu',
+	'main_info' => 'Información',
+	'combined_entries' => 'Entraes combinaes',
+	'new' => 'nuevu',
+	'minor' => 'menor',
+	'anon' => 'anónimu',
+	'redirect' => 'redireición',
+	'bot' => 'bot',
+	'editor' => 'editor',
+	'admin' => 'alministrador',
+	'help_p1' => 'Raun ye una ferramienta pa patrullar los cambios recientes de las wikis del Proyeutu Fundación Wikimedia en tiempu real. Raun cargará periódicamente los cambios recientes y te los presentará automáticamente.',
+	'help_p2' => 'Pues posar esta ferramienta calcando "Pausa". Y dempués d\'eso, pues volver a llanzala calcando "¡Executar!".',
+	'help_p3' => 'Pues filtrar les ediciones que quies ver baxo "Filtru", y cambiar de proyeutu wiki o llingua, o la configuración llocal d\'esta ferramienta baxo "Preferencies".',
+	'help_p4' => "El color buxu nel testu de les fileres significa significa qu'hai otres ediciones más nueves nesa páxina.",
+	'help_legend' => 'Lleenda:',
+	'color' => 'Color',
+	'about' => 'Tocante a',
+	'about_tool' => 'Raun ye una ferramienta pa vixilar los cambios recientes de los proyeutos de la Fundación Wikimedia en tiempu real (casi). Esta ferramienta ta inspirada por $1, de $2. Esti proyeutu principiólu $3.',
+	'about_cookie' => 'Este sitiu utiliza «cookies». Los datos almacenaos pola «cookie» desaniciaránse automáticamente si nun visites esta ferramienta en 30 díes.',
+	'information' => 'Información',
+	'credit' => 'Créditu',
+	'about_license' => "Mentanto nun s'indique lo contrario, el códigu fonte d'esti proyeutu ta disponible baxo la llicencia MIT.",
+	'about_github' => 'El códigu fonte ta disponible en $1',
+	'send_feedback' => 'Unviar opiniones',
+);
+
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'close' => 'বন্ধ',
+	'help' => 'সাহায্য',
+	'filter' => 'ছাকনী',
+	'settings' => 'সেটিং',
+	'fork' => 'উত্স কোড',
+	'stat' => 'পরিসংখ্যান',
+	'settings_tool' => 'সরঞ্জাম',
+	'language' => 'ভাষা',
+	'project' => 'প্রকল্প',
+	'save' => 'সংরক্ষণ',
+	'settings_pause' => 'বিরতি',
+	'settings_run' => 'চালান!',
+	'settings_show' => 'দেখাও',
+	'settings_wiki' => 'উইকি',
+	'settings_bot_edits' => 'বট সম্পাদনা',
+	'settings_anon_edits' => 'বেনামী সম্পাদনা',
+	'settings_minor_edits' => 'অনুল্লেখ্য সম্পাদনা',
+	'settings_redirects' => 'পুনর্নির্দেশ পাতা',
+	'settings_new_pages' => 'নতুন পাতা',
+	'settings_editor_edits' => 'সম্পাদনের সম্পাদনা',
+	'settings_admin_edits' => 'প্রশাসক সম্পাদনা',
+	'settings_other_edits' => 'অন্য সম্পাদনা',
+	'time_utc' => 'সময়, ইউটিসিতে',
+	'stat_articles' => 'বিষয়বস্তুর পাতা',
+	'stat_pages' => 'পাতা',
+	'stat_files' => 'আপলোডকৃত ফাইল',
+	'stat_edits' => 'পাতার সম্পাদনা',
+	'stat_depth' => 'গভীরতা',
+	'stat_users' => 'নিবন্ধিত ব্যবহারকারী',
+	'stat_active_users' => 'সক্রিয় ব্যবহারকারী',
+	'stat_admins' => 'প্রশাসক',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'main_time_utc' => 'সময় (ইউটিসি)',
+	'main_page' => 'পাতা',
+	'main_user' => 'ব্যবহারকারী',
+	'main_info' => 'তথ্য',
+	'new' => 'নতুন',
+	'minor' => 'অনুল্লেখ্য',
+	'anon' => 'বেনামী',
+	'redirect' => 'পুনঃনির্দেশ',
+	'bot' => 'বট',
+	'editor' => 'সম্পাদক',
+	'admin' => 'প্রশাসক',
 );
 
 /** Breton (brezhoneg)
@@ -259,26 +385,33 @@ $messages['br'] = array(
 	'help' => 'Skoazell',
 	'filter' => 'Sil',
 	'settings' => 'Arventennoù',
+	'fork' => 'Kod tarzh',
 	'stat' => 'Stadegoù',
 	'settings_tool' => 'Ostilh',
 	'language' => 'Yezh',
 	'project' => 'Raktres',
 	'save' => 'Enrollañ',
 	'settings_pause' => 'Ehanañ',
+	'settings_run' => "Loc'hañ !",
 	'settings_show' => 'Diskouez',
 	'settings_wiki' => 'Wiki',
+	'settings_bot_edits' => 'Aozadennoù gant robotoù',
+	'settings_anon_edits' => 'Aozadennoù gant tud dizanv',
 	'settings_minor_edits' => 'Kemmoù dister',
 	'settings_redirects' => 'Pajennoù adkas',
 	'settings_new_pages' => 'Pajennoù nevez',
+	'settings_admin_edits' => 'Aozadennoù gant ar merour',
 	'settings_other_edits' => 'Kemmoù all',
 	'stat_pages' => 'Pajennoù',
 	'stat_files' => 'Restroù ezporzhiet',
+	'stat_edits' => 'Aozadennoù pajennoù',
 	'stat_depth' => 'Donder',
 	'stat_users' => 'Implijerien enrollet',
 	'stat_active_users' => 'Implijerien oberiant',
 	'stat_admins' => 'Merourien',
 	'separator_thousands' => ',',
 	'separator_decimals' => '.',
+	'def_i' => 'v div',
 	'main_time_utc' => 'Eur (UTC)',
 	'main_page' => 'Pajenn',
 	'main_user' => 'Implijer',
@@ -288,11 +421,14 @@ $messages['br'] = array(
 	'anon' => 'dizanv',
 	'redirect' => 'adkas',
 	'bot' => 'robot',
+	'editor' => 'aozer',
 	'admin' => 'merour',
 	'help_legend' => "Alc'hwez :",
 	'color' => 'Liv',
 	'about' => 'Diwar-benn',
 	'information' => 'Titouroù',
+	'credit' => 'Kred',
+	'send_feedback' => 'Kas un ali',
 );
 
 /** Catalan (català)
@@ -310,12 +446,17 @@ $messages['ca'] = array(
 	'project' => 'Projecte',
 	'save' => 'Desa',
 	'settings_pause' => 'Pausa',
+	'separator_thousands' => '.',
+	'separator_decimals' => ',',
 	'main_time_utc' => 'Hora (UTC)',
 	'main_page' => 'Pàgina',
 	'main_user' => 'Usuari',
 	'main_info' => 'Informació',
 	'new' => 'nou',
 	'minor' => 'menor',
+	'redirect' => 'redirecció',
+	'bot' => 'robot',
+	'editor' => 'editor',
 	'color' => 'Color',
 	'about' => 'Quant a',
 	'information' => 'Informació',
@@ -421,28 +562,107 @@ $messages['en-gb'] = array(
 /** Spanish (español)
  * @author Fitoschido
  * @author Kingpowl
+ * @author Macofe
  */
 $messages['es'] = array(
 	'close' => 'Cerrar',
 	'help' => 'Ayuda',
+	'filter' => 'Filtro',
 	'settings' => 'Ajustes',
+	'fork' => 'Código fuente',
 	'stat' => 'Estadísticas',
+	'settings_tool' => 'Herramienta',
+	'language' => 'Idioma',
+	'project' => 'Proyecto',
+	'save' => 'Guardar',
+	'settings_pause' => 'Pausar',
+	'settings_run' => 'Ejecutar',
 	'settings_show' => 'Mostrar',
 	'settings_wiki' => 'Wiki',
-	'settings_bot_edits' => 'Ediciones de bot',
+	'settings_bot_edits' => 'Ediciones de bots',
 	'settings_anon_edits' => 'Ediciones anónimas',
 	'settings_minor_edits' => 'Ediciones menores',
+	'settings_redirects' => 'Redirecciones',
 	'settings_new_pages' => 'Páginas nuevas',
+	'settings_editor_edits' => 'Ediciones de usuarios',
+	'settings_admin_edits' => 'Ediciones de administradores',
+	'settings_other_edits' => 'Otras ediciones',
 	'time_utc' => 'Hora, en UTC',
+	'stat_articles' => 'Páginas de contenido',
 	'stat_pages' => 'Páginas',
 	'stat_files' => 'Archivos subidos',
+	'stat_edits' => 'Ediciones de la página',
+	'stat_depth' => 'Profundidad',
 	'stat_users' => 'Usuarios registrados',
+	'stat_active_users' => 'Usuarios activos',
 	'stat_admins' => 'Administradores',
+	'separator_thousands' => '&nbsp;',
+	'separator_decimals' => ',',
+	'def_i' => 'v conv',
+	'def_def' => 'inspeccionar; vigilar; patrullar;',
+	'main_time_utc' => 'Hora (UTC)',
+	'main_page' => 'Página',
 	'main_user' => 'Usuario',
 	'main_info' => 'Información',
-	'admin' => 'Administrador',
+	'combined_entries' => 'Entradas combinadas',
+	'new' => 'nueva',
+	'minor' => 'menor',
+	'anon' => 'anónima',
+	'redirect' => 'redirección',
+	'bot' => 'bot',
+	'editor' => 'editor',
+	'admin' => 'administrador',
+	'help_p1' => 'Raun es una herramienta para patrullar los cambios recientes de los wikis de la Fundación Wikimedia en tiempo real. Raun cargará periódicamente los cambios recientes y los mostrará delante de ti automáticamente.',
+	'help_p2' => 'Puedes detener esta herramienta haciendo clic en "Pausar". Y después de eso, puedes ejecutarla otra vez haciendo clic en "Ejecutar".',
+	'help_p3' => 'Puedes filtrar las ediciones que quieres ver en "Filtro" y cambiar el proyecto wiki o idioma, o la configuración de esta herramienta en "Ajustes".',
+	'help_p4' => 'Las filas cuyo texto es gris indican que hay ediciones más recientes en la página respectiva.',
+	'help_legend' => 'Leyenda:',
 	'color' => 'Color',
 	'about' => 'Acerca de',
+	'about_tool' => 'Raun es una herramienta para observar los cambios recientes de los proyectos de la Fundación Wikimedia, casi en tiempo real. Esta herramienta está inspirada en $1, de $2. $3 inició este proyecto.',
+	'about_cookie' => 'Este sitio utiliza «cookies». Los datos almacenados por la «cookie» se eliminarán automáticamente si no visitas esta herramienta en 30 días.',
+	'information' => 'Información',
+	'credit' => 'Crédito',
+	'about_license' => 'A menos que se indique lo contrario, el código fuente de este proyecto está disponible bajo la licencia MIT.',
+	'about_github' => 'El código fuente está disponible en $1',
+	'send_feedback' => 'Enviar comentarios',
+);
+
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'close' => 'بستن',
+	'help' => 'کمک',
+	'filter' => 'پالایه',
+	'settings' => 'تنظیمات',
+	'stat' => 'آمار',
+	'language' => 'زبان',
+	'project' => 'پروژه',
+	'save' => 'ذخیره',
+	'settings_pause' => 'مکث',
+	'settings_show' => 'نمایش',
+	'settings_wiki' => 'ویکی',
+	'settings_new_pages' => 'صفحه‌های تازه',
+	'stat_articles' => 'صفحه‌های محتوایی',
+	'stat_pages' => 'صفحه‌ها',
+	'stat_files' => 'پرونده‌های بارگذاری‌شده',
+	'stat_edits' => 'ویرایش‌های صفحه',
+	'stat_depth' => 'عمق',
+	'stat_active_users' => 'کاربران فعال',
+	'stat_admins' => 'مدیران',
+	'separator_thousands' => '،',
+	'separator_decimals' => '.',
+	'main_page' => 'صفحه',
+	'main_user' => 'کاربر',
+	'main_info' => 'اطلاعات',
+	'new' => 'تازه',
+	'editor' => 'ویرایشگر',
+	'help_legend' => 'علائم:',
+	'color' => 'رنگ',
+	'about' => 'درباره',
+	'information' => 'اطلاعات',
+	'send_feedback' => 'فرستادن بازخورد',
 );
 
 /** French (français)
@@ -931,6 +1151,13 @@ $messages['lv'] = array(
 	'stat_pages' => 'Lapas',
 );
 
+/** Laz (Lazuri)
+ * @author Ceas08
+ */
+$messages['lzz'] = array(
+	'language' => 'Nena',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -1012,14 +1239,61 @@ $messages['ms'] = array(
  * @author सरोज कुमार ढकाल
  */
 $messages['ne'] = array(
+	'close' => 'बन्द गर्ने',
+	'help' => 'सहायता',
+	'filter' => 'फिल्टर',
+	'settings' => 'सेटिङ्हरू',
+	'fork' => 'स्रोत कोड',
+	'stat' => 'तथ्याङ्क',
+	'settings_tool' => 'औजार',
+	'language' => 'भाषा',
+	'project' => 'परियोजना',
+	'save' => 'संग्रह गर्ने',
+	'settings_pause' => 'रोक्ने',
 	'settings_run' => 'दौडनुहोस् !',
+	'settings_show' => 'देखाउनुहोस्',
+	'settings_wiki' => 'विकी',
 	'settings_bot_edits' => 'बोटका सम्पादनहरू',
+	'settings_anon_edits' => 'वेनामी सम्पादनहरू',
+	'settings_minor_edits' => 'सामान्य सम्पादनहरू',
+	'settings_redirects' => 'अनुप्रेषण पृष्ठहरू',
+	'settings_new_pages' => 'नयाँ पृष्ठहरू',
+	'settings_editor_edits' => 'सम्पादक सम्पादनहरू',
+	'settings_admin_edits' => 'प्रवन्धक सम्पादनहरू',
+	'settings_other_edits' => 'अरू सम्पादनहरू',
+	'stat_articles' => 'सामग्री पृष्ठहरू',
+	'stat_pages' => 'पृष्ठहरू',
+	'stat_files' => 'उर्ध्वभरण गरिएका फाइलहरु',
+	'stat_edits' => 'पृष्ठ सम्पादनहरू',
+	'stat_depth' => 'गहिराई',
+	'stat_users' => 'दर्ता गरिएका प्रयोगकर्ताहरू',
+	'stat_active_users' => 'सकृय प्रयोगकर्ताहरू',
+	'stat_admins' => 'प्रबन्धकहरू',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'main_time_utc' => 'समय (UTC)',
+	'main_page' => 'पृष्ठ',
+	'main_user' => 'प्रयोगकर्ता',
+	'main_info' => 'जानकारी',
+	'combined_entries' => 'जोडिएको प्रविष्टी',
+	'new' => 'नयाँ',
+	'minor' => 'सामान्य',
+	'anon' => 'वेनाम',
+	'redirect' => 'अनुप्रेषण',
+	'bot' => 'रोबोट',
+	'editor' => 'सम्पादक',
+	'admin' => 'प्रबन्धक',
+	'color' => 'रङ्ग',
+	'about' => 'बारेमा',
+	'information' => 'जानकारी',
+	'credit' => 'श्रेय',
 	'send_feedback' => 'पृष्ठपोषण पठाउनुहोस',
 );
 
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author SPQRobin
+ * @author Siebrand
  * @author Southparkfan
  */
 $messages['nl'] = array(
@@ -1056,6 +1330,7 @@ $messages['nl'] = array(
 	'stat_admins' => 'Beheerders',
 	'separator_thousands' => ',',
 	'separator_decimals' => '.',
+	'def_def' => 'inspecteren; bewaken; controleren',
 	'main_time_utc' => 'Tijd (UTC)',
 	'main_page' => 'Pagina',
 	'main_user' => 'Gebruiker',
@@ -1083,12 +1358,15 @@ $messages['nl'] = array(
 );
 
 /** Polish (polski)
+ * @author Alan ffm
  * @author Faren
+ * @author Ty221
  * @author Wiochman
  */
 $messages['pl'] = array(
 	'close' => 'Zamknij',
 	'help' => 'Pomoc',
+	'filter' => 'Filtr',
 	'settings' => 'Ustawienia',
 	'fork' => 'Kod źródłowy',
 	'stat' => 'Statystyki',
@@ -1099,23 +1377,46 @@ $messages['pl'] = array(
 	'settings_pause' => 'Pauza',
 	'settings_run' => 'Uruchom!',
 	'settings_show' => 'Pokaż',
+	'settings_wiki' => 'Wiki',
 	'settings_bot_edits' => 'Edycje bota',
-	'settings_anon_edits' => 'Edycje anonimowych',
+	'settings_anon_edits' => 'Anonimowe edycje',
 	'settings_minor_edits' => 'Drobne zmiany',
+	'settings_redirects' => 'Strony przekierowań',
 	'settings_new_pages' => 'Nowe strony',
 	'settings_editor_edits' => 'Edycje edytora',
 	'settings_admin_edits' => 'Edycje admina',
 	'settings_other_edits' => 'Inne edycje',
+	'time_utc' => 'Czas, w UTC',
+	'stat_articles' => 'Strony w przestrzeni głównej',
 	'stat_pages' => 'Strony',
 	'stat_files' => 'Przesłane pliki',
 	'stat_edits' => 'Edycje strony',
+	'stat_depth' => 'Głębokość',
 	'stat_users' => 'Zarejestrowani użytkownicy',
 	'stat_active_users' => 'Użytkownicy aktywni',
 	'stat_admins' => 'Administratorzy',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'def_i' => 'v conv',
+	'def_def' => 'sprawdzać; strażnik; patrol;',
+	'main_time_utc' => 'Czas (UTC)',
 	'main_page' => 'Strona',
 	'main_user' => 'Użytkownik',
 	'main_info' => 'Informacja',
-	'bot' => 'automat (robot)',
+	'combined_entries' => 'Połączone wpisy',
+	'new' => 'nowy',
+	'minor' => 'drobny',
+	'anon' => 'anonimowy',
+	'redirect' => 'przekierowanie',
+	'bot' => 'bot',
+	'editor' => 'redaktor',
+	'admin' => 'admin',
+	'help_legend' => 'Legenda:',
+	'color' => 'Kolor',
+	'about' => 'O programie',
+	'information' => 'Informacja',
+	'credit' => 'Kredyt',
+	'about_github' => 'Kod źródłowy jest dostępny na $1',
 	'send_feedback' => 'Prześlij opinię',
 );
 
@@ -1187,7 +1488,75 @@ $messages['pt-br'] = array(
 	'credit' => 'Crédito',
 );
 
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'close' => 'Închidere',
+	'help' => 'Ajutor',
+	'filter' => 'Filtrare',
+	'settings' => 'Setări',
+	'fork' => 'Cod sursă',
+	'stat' => 'Statistici',
+	'settings_tool' => 'Unealtă',
+	'language' => 'Limbă',
+	'project' => 'Proiect',
+	'save' => 'Salvare',
+	'settings_pause' => 'Pauză',
+	'settings_run' => 'Rulează!',
+	'settings_show' => 'Arată',
+	'settings_wiki' => 'Wiki',
+	'settings_bot_edits' => 'Modificări ale roboților',
+	'settings_anon_edits' => 'Modificări anonime',
+	'settings_minor_edits' => 'Modificări minore',
+	'settings_redirects' => 'Pagini de redirecționare',
+	'settings_new_pages' => 'Pagini noi',
+	'settings_editor_edits' => 'Modificări ale editorilor',
+	'settings_admin_edits' => 'Modificări ale administratorilor',
+	'settings_other_edits' => 'Alte modificări',
+	'time_utc' => 'Timp, în UTC',
+	'stat_articles' => 'Pagini de conținut',
+	'stat_pages' => 'Pagini',
+	'stat_files' => 'Fișiere încărcate',
+	'stat_edits' => 'Modificări asupra paginilor',
+	'stat_depth' => 'Profunzime',
+	'stat_users' => 'Utilizatori înregistrați',
+	'stat_active_users' => 'Utilizatori activi',
+	'stat_admins' => 'Administratori',
+	'separator_thousands' => '.',
+	'separator_decimals' => ',',
+	'def_i' => 'v conv',
+	'def_def' => 'a inspecta; a veghea; a patrula;',
+	'main_time_utc' => 'Timp (UTC)',
+	'main_page' => 'Pagină',
+	'main_user' => 'Utilizator',
+	'main_info' => 'Informații',
+	'combined_entries' => 'Intrări combinate',
+	'new' => 'nouă',
+	'minor' => 'minoră',
+	'anon' => 'anonim',
+	'redirect' => 'redirecționare',
+	'bot' => 'robot',
+	'editor' => 'editor',
+	'admin' => 'administrator',
+	'help_p1' => 'Raun este o unealtă pentru patrularea în timp real a schimbărilor recente din cadrul proiectelor wiki ale Fundației Wikimedia. Raun va încărca periodic schimbările recente și le va afișa în mod automat.',
+	'help_p2' => 'Puteți întrerupe activitatea acestei unelte apăsând „Pauză”. Ulterior, o puteți reporni apăsând butonul „Rulează!”.',
+	'help_p3' => 'Puteți filtra modificările pe care doriți să le afișați din submeniul „Filtrare”. De asemenea, puteți schimba proiectul wiki și limba acestuia, dar și limba interfeței din submeniul „Setări”.',
+	'help_p4' => 'Rândurile cu text gri apar în cazul în care s-a efectuat cel puțin o modificare nouă asupra paginii respective.',
+	'help_legend' => 'Legendă:',
+	'color' => 'Culoare',
+	'about' => 'Despre',
+	'about_tool' => 'Raun este o unealtă pentru urmărirea în timp (aproape) real a schimbărilor recente din cadrul proiectelor Fundației Wikimedia. Această unealtă este inspirată de $1, creată de $2. Acest proiect a fost inițiat de către $3.',
+	'about_cookie' => 'Acest site folosește module cookie. Datele stocate de modulele cookie vor fi șterse în mod automat dacă nu revizitați această unealtă în decurs de 30 de zile.',
+	'information' => 'Informație',
+	'credit' => 'Credite',
+	'about_license' => 'Cu excepția cazurilor în care se specifică altfel, codul sursă al acestui proiect este licențiat sub licența MIT.',
+	'about_github' => 'Codul sursă este disponibil la $1',
+	'send_feedback' => 'Trimitere păreri',
+);
+
 /** Russian (русский)
+ * @author Alexandr Efremov
  * @author Okras
  */
 $messages['ru'] = array(
@@ -1229,6 +1598,7 @@ $messages['ru'] = array(
 	'main_user' => 'Участник',
 	'main_info' => 'Информация',
 	'combined_entries' => 'Комбинированные записи',
+	'new' => 'новый',
 	'minor' => 'малая',
 	'anon' => 'аноним',
 	'redirect' => 'перенапр',
@@ -1245,8 +1615,22 @@ $messages['ru'] = array(
 	'send_feedback' => 'Отправить отзыв',
 );
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
+ */
+$messages['sr-ec'] = array(
+	'close' => 'Затвори',
+	'help' => 'Помоћ',
+	'filter' => 'Филтер',
+	'settings' => 'Подешавања',
+	'language' => 'Језик',
+	'save' => 'Сачувај',
+	'settings_pause' => 'Паузирај',
+);
+
 /** Swedish (svenska)
  * @author Jopparn
+ * @author Lokal Profil
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1283,6 +1667,7 @@ $messages['sv'] = array(
 	'stat_admins' => 'Administratörer',
 	'separator_thousands' => ',',
 	'separator_decimals' => '.',
+	'def_i' => 'v konv',
 	'def_def' => 'inspektera; vakta; patrullera;',
 	'main_time_utc' => 'Tid (UTC)',
 	'main_page' => 'Sida',
@@ -1296,15 +1681,99 @@ $messages['sv'] = array(
 	'bot' => 'bot',
 	'editor' => 'redigerare',
 	'admin' => 'administratör',
+	'help_p1' => 'Raun är ett verktyg för att patrullera de senaste ändringarna på Wikimedia Foundations projektwikis i realtid. Raun kommer att ladda in den senaste tidens ändringar med jämna mellanrum och visa det för dig automatiskt.',
 	'help_p2' => 'Du kan pausa detta verktyg genom att klicka på "Paus". Och efter det, kan du köra det igen genom att klicka på "Kör!".',
 	'help_p3' => 'Du kan filtrera de redigeringar du vill se under "Filter". Där kan du ändra vilket wiki-projekt eller språk av den här redskap under "Inställningar".',
 	'help_p4' => 'Rader med grå textfärg innebär att det finns en eller flera andra nyare redigeringar på den sidan.',
 	'help_legend' => 'Teckenförklaring:',
 	'color' => 'Färg',
 	'about' => 'Om',
+	'about_tool' => 'Raun är ett verktyg för att titta på de senaste ändringarna på Wikimedia Foundations projekt i (nära) realtid. Detta verktyg är inspirerad av $1, skapat av $2. Detta projekt har startats av $3.',
+	'about_cookie' => 'Denna webbplats använder kakor. Data som sparas av kakan raderas automatiskt om du inte besöker detta verktyg inom 30 dagar.',
 	'information' => 'Information',
+	'credit' => 'Erkännanden',
+	'about_license' => 'Om inte annat anges är detta projekts källkod licensierat under MIT License.',
 	'about_github' => 'Källkoden finns tillgänglig på $1',
 	'send_feedback' => 'Skicka återkoppling',
+);
+
+/** Tamil (தமிழ்)
+ * @author ElangoRamanujam
+ */
+$messages['ta'] = array(
+	'settings_tool' => 'கருவி',
+	'language' => 'மொழி',
+	'project' => 'திட்டம்',
+	'save' => 'சேமி',
+	'settings_pause' => 'இடைநிறுத்து',
+	'settings_run' => 'ஓடவிடுக!',
+	'settings_show' => 'காண்பிக்கவும்',
+	'settings_wiki' => 'விக்கி',
+	'stat_depth' => 'ஆழம்',
+	'stat_users' => 'பதிவுற்ற பயனர்கள்',
+	'stat_active_users' => 'தொடர் பங்களிப்பாளர்கள் (பயனர்கள்)',
+	'stat_admins' => 'நிர்வாகிகள்',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+);
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'close' => 'Закрити',
+	'help' => 'Довідка',
+	'filter' => 'Фільтр',
+	'settings' => 'Налаштування',
+	'fork' => 'Вихідний код',
+	'stat' => 'Статистика',
+	'settings_tool' => 'Інструмент',
+	'language' => 'Мова',
+	'project' => 'Проект',
+	'save' => 'Зберегти',
+	'settings_pause' => 'Пауза',
+	'settings_run' => 'Запустити!',
+	'settings_show' => 'Показати',
+	'settings_wiki' => 'Вікі',
+	'settings_bot_edits' => 'Редагування ботів',
+	'settings_anon_edits' => 'Анонімні правки',
+	'settings_minor_edits' => 'Незначні редагування',
+	'settings_redirects' => 'Сторінки-перенаправлення',
+	'settings_new_pages' => 'Нові сторінки',
+	'settings_editor_edits' => 'Правки редакторів',
+	'settings_admin_edits' => 'Правки адміністраторів',
+	'settings_other_edits' => 'Інші правки',
+	'time_utc' => 'Час у UTC',
+	'stat_articles' => 'Основні сторінки',
+	'stat_pages' => 'Сторінки',
+	'stat_files' => 'Завантажені файли',
+	'stat_edits' => 'Редагування сторінок',
+	'stat_depth' => 'Глибина',
+	'stat_users' => 'Зареєстровані користувачі',
+	'stat_active_users' => 'Активні користувачі',
+	'stat_admins' => 'Адміністратори',
+	'separator_thousands' => ',',
+	'separator_decimals' => '.',
+	'def_i' => 'v conv',
+	'def_def' => 'охоронець; сторож; патрульний;',
+	'main_time_utc' => 'Час (UTC)',
+	'main_page' => 'Сторінка',
+	'main_user' => 'Користувач',
+	'main_info' => 'Інформація',
+	'combined_entries' => 'Комбіновані записи',
+	'new' => 'новий',
+	'minor' => 'незначне',
+	'anon' => 'анонім',
+	'redirect' => 'перенаправлення',
+	'bot' => 'бот',
+	'editor' => 'редактор',
+	'admin' => 'адміністратор',
+	'help_legend' => 'Легенда:',
+	'color' => 'Колір',
+	'about' => 'Про',
+	'information' => 'Інформація',
+	'credit' => 'Кредит',
+	'send_feedback' => 'Надіслати відгук',
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -1375,6 +1844,8 @@ $messages['yi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Cwek
+ * @author Impersonator 1
  * @author Liuxinyu970226
  */
 $messages['zh-hans'] = array(
@@ -1393,9 +1864,9 @@ $messages['zh-hans'] = array(
 	'settings_show' => '显示',
 	'settings_wiki' => '维基',
 	'settings_bot_edits' => '机器人编辑',
-	'settings_anon_edits' => '佚名编辑',
+	'settings_anon_edits' => '匿名编辑',
 	'settings_minor_edits' => '小编辑',
-	'settings_redirects' => '重定向页',
+	'settings_redirects' => '重定向页面',
 	'settings_new_pages' => '新页面',
 	'settings_editor_edits' => '编辑器编辑',
 	'settings_admin_edits' => '管理员编辑',
@@ -1420,27 +1891,45 @@ $messages['zh-hans'] = array(
 	'combined_entries' => '组合记录',
 	'new' => '新',
 	'minor' => '小',
-	'anon' => '佚名',
+	'anon' => '匿名',
 	'redirect' => '重定向',
 	'bot' => '机器人',
 	'editor' => '编辑',
 	'admin' => '管理员',
+	'help_p1' => 'Raun是一个在维基计划基金会下用于实时巡查最近更新的工具。Raun将在定期加载最近更新并自动显示出来。',
 	'help_p2' => '您可通过点击“暂停”按钮暂停此工具。之后您可随时点击“运行！”按钮重启。',
+	'help_p3' => '使用“过滤器”可以过滤你想查看的编辑，或改变查看的项目或语言，或使用“设置”本地化你的工具。',
+	'help_p4' => '灰色文本的行意味着这是在该页面上较新的编辑。',
 	'help_legend' => '图例：',
 	'color' => '颜色',
 	'about' => '关于',
+	'about_tool' => 'Raun是一个在维基计划基金会下用于接近实时巡查最近更新的工具。这个工具其发自$2的$1，由$3开启。',
 	'about_cookie' => '此站点使用cookie。由cookie存储的数据会在您不再访问30天后自动删除。',
 	'information' => '信息',
 	'credit' => '信用卡',
+	'about_license' => '另外，此项目的源代码是使用麻省理工学院许可证（MIT）授权许可。',
 	'about_github' => '源代码可在$1找到',
 	'send_feedback' => '发送反馈',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Cwlin0416
  * @author Liuxinyu970226
  */
 $messages['zh-hant'] = array(
+	'help' => '說明',
+	'filter' => '篩選器',
+	'settings_wiki' => 'Wiki',
 	'main_time_utc' => '時間 (UTC)',
 	'main_user' => '使用者',
+	'redirect' => '重新導向',
+	'bot' => '機械人',
 	'credit' => '信用',
+);
+
+/** Chinese (Taiwan) (中文（台灣）‎)
+ * @author LNDDYL
+ */
+$messages['zh-tw'] = array(
+	'bot' => '機器人',
 );

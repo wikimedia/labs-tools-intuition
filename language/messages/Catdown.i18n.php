@@ -68,6 +68,7 @@ or some other GNU Mirror, see
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Fryed-peach
+ * @author Krinkle
  * @author Mormegil
  * @author Platonides
  * @author Purodha
@@ -102,7 +103,7 @@ Parameters: $1: Name of the image',
 	'readme-contents' => "Contents of the README file. The result will be shown to the user as plain text (there's no wikitext parsing).
 * $1: Category name
 * $2: Category URL
-* $3: Result of scaling restrictions (one of {{msg-toolserver|Catdown-scaling-none|notext=1}}, {{msg-toolserver|Catdown-scaling-width|notext=1}}, {{msg-toolserver|Catdown-scaling-height|notext=1}}, {{msg-toolserver|Catdown-scaling-both|notext=1}} messages). To keep the sentence meaningful, you probably not want to place a space before this. Remember to translate scaling-width, scaling-height, scaling-both, or the users may face with half sentence in another language.
+* $3: Result of scaling restrictions (one of {{msg-intuition|Catdown-scaling-none|notext=1}}, {{msg-intuition|Catdown-scaling-width|notext=1}}, {{msg-intuition|Catdown-scaling-height|notext=1}}, {{msg-intuition|Catdown-scaling-both|notext=1}} messages). To keep the sentence meaningful, you probably not want to place a space before this. Remember to translate scaling-width, scaling-height, scaling-both, or the users may face with half sentence in another language.
 * $4: Filename of the list.
 * $5 Name of the .bat script to run (script-filename msg)
 * $6: Note if wget for Windows was not bundled (contents of non-bundled-wget message if 'Bundle wget' was not checked)",
@@ -114,7 +115,7 @@ The content of the gpl-3.0 is appended below this text (untranslated, as it is r
 	'scaling-none' => "{{optional}}
 
 Added to readme-contents as $6 if there's no scaling",
-	'scaling-width' => 'Added to {{Msg-toolserver|Catdown-readme-contents}} as $6 if the images are scaled down to a maximum width.
+	'scaling-width' => 'Added to {{Msg-intuition|Catdown-readme-contents}} as $6 if the images are scaled down to a maximum width.
 * $1: Maximum width in pixels',
 	'scaling-height' => 'Added to readme-contents as $6 if the images are scaled to a maximum height.
 $1: Maximum height in pixels',
@@ -896,6 +897,7 @@ Vi bezonas malkompaktigi ĝin al dosierujo kun wget.exe aŭ alie havas wget-on e
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author Macofe
  * @author Vivaelcelta
  */
 $messages['es'] = array(
@@ -910,30 +912,30 @@ $messages['es'] = array(
 	'invalid-height' => 'Altura no válida',
 	'no-such-project' => 'Ese proyecto no existe',
 	'no-images' => 'No hay imágenes en esta categoría',
-	'category-is-url' => 'El nombre de la categoría dada es parecida a una dirección URL. Es necesario especificar el nombre de la categoría, no su dirección URL.',
-	'category-contains-namespace' => 'Al parecer ha incluido el espacio de nombres junto al nombre de la categoría. Con el nombre dado, la página estaría disponible como [[Category:$1]].',
+	'category-is-url' => 'El nombre de la categoría dada se parece a una URL. Es necesario especificar el nombre de la categoría, no su URL.',
+	'category-contains-namespace' => 'Al parecer has incluido el espacio de nombres junto al nombre de la categoría. Con el nombre dado, la página estaría disponible como [[Category:$1]].',
 	'zip-failed' => 'Error en la creación del ZIP',
 	'image-area-too-big' => '«$1» es demasiado grande para crear una miniatura. Usando el tamaño completo.',
-	'download-info' => '{{plural: $1|Hay un imagen|Hay $1 imágenes}}, con un tamaño estimado de $2',
+	'download-info' => 'Hay {{plural: $1|una imagen|$1 imágenes}}, con un tamaño estimado de $2',
 	'download' => 'Descargar',
 	'readme-contents' => 'El archivo "$4" incluido enumera
 las imágenes en la categoría "$1" ($2)$3.
 
-== Instrucciones para descargar todo la lista de imágenes ==
-El tiempo de descarga puede variar desde unos minutos a varias horas.
+== Instrucciones para descargar todas las imágenes listadas ==
+El tiempo de descarga puede variar desde unos minutos hasta varias horas.
 
 Windows:
- Extraiga todos los archivos en la misma carpeta y ejecute $5
+ Extrae todos los archivos en la misma carpeta y ejecuta $5
  $6
 Linux/Mac OS:
- Extraiga todos los archivos y abra un  terminal en esa carpeta. Ejecute $5', # Fuzzy
+ Extrae todos los archivos y abre una terminal en esa carpeta. Ejecuta sh $5',
 	'non-bundled-wget' => 'Nota: Esta versión no incluye wget para Windows. Deberás descomprimir
 en una carpeta con wget.exe o de lo contrario tener wget en la RUTA',
 	'wget-info' => 'Este archivo contiene una copia de wget $1 (para la plataforma Windows). Wget es software libre,
 bajo los términos de la LICENCIA PÚBLICA GENERAL DE GNU versión 3.
-A continuación hay una copia de la licencia e también está disponible en http://www.gnu.org/licenses/gpl-3.0.txt
+A continuación hay una copia de la licencia y también está disponible en http://www.gnu.org/licenses/gpl-3.0.txt
 
-En caso de estar interesado en el código fuente de este programa, puede descargarlo en
+En caso de estar interesado en el código fuente de este programa, puedes descargarlo en
  http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1
  http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
  ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
@@ -2227,6 +2229,7 @@ $messages['ne'] = array(
 	'no-such-project' => 'यहाँ त्यस्तो कुनै योजना छैन',
 	'no-images' => 'त्यस श्रेणीमा कुनै चित्रहरू छैनन्',
 	'category-is-url' => 'तपाईंले दिनुभएको श्रेणी वेब ठेगाना जस्तो देखिन्छ । वेब ठेगाना हैन श्रेणीको नाम दिनुहोला ।',
+	'download' => 'डाउनलोड गर्ने',
 );
 
 /** Newari (नेपाल भाषा)
@@ -2650,6 +2653,7 @@ o pe otre Copie de GNU, 'ndruche
  * @author DCamer
  * @author Eleferen
  * @author Haffman
+ * @author Kaganer
  * @author Okras
  */
 $messages['ru'] = array(
@@ -2669,7 +2673,7 @@ $messages['ru'] = array(
 	'zip-failed' => 'Ошибка создания ZIP',
 	'image-area-too-big' => '$1 слишком велико для создания эскиза. Будет использован полный размер.',
 	'download-info' => '{{plural: $1|Есть одно изображение|Есть $1 изображения|Есть $1 изображений}}, с примерным размером $2',
-	'download' => 'Загрузить',
+	'download' => 'Скачать',
 	'readme-contents' => 'Список изображений $4 в категории $1 ( $2 )$3.
 
 == Инструкции по загрузке всех перечисленных изображений ==
@@ -3419,8 +3423,8 @@ http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz
 或者其他GNU镜像，参见
 http://www.gnu.org/prep/ftp.html',
-	'scaling-width' => '缩放到最大宽度 $1 {{plural:$1|pixel|pixels}}',
-	'scaling-height' => '缩放到最大高度 $1 {{plural:$1|pixel|pixels}}',
+	'scaling-width' => '缩放到最大宽度 $1 {{plural:$1|像素}}',
+	'scaling-height' => '缩放到最大高度 $1 {{plural:$1|像素}}',
 	'scaling-both' => ', 缩放到最大尺寸 $1x$2 像素',
 );
 

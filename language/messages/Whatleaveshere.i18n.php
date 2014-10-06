@@ -38,6 +38,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Krinkle
+ * @author Liuxinyu970226
  * @author Metalhead64
  * @author Shirayuki
  */
@@ -78,13 +79,38 @@ Parameters:
 See also:
 * {{msg-mw|Linksearch}}',
 	'section-links' => 'Section header for page links, file links and tranclusions.
-{{Identical|Links}}',
+{{Identical|Link}}',
 	'section-iwlinks' => 'Section header for interwiki links.
 {{Identical|Interwiki link}}',
 	'section-extlinks' => 'Section header for external links.
 {{Identical|External link}}',
 	'section-categories' => 'Section header for categories.
-{{Identical|Categories}}',
+{{Identical|Category}}',
+);
+
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'title' => "Qué sal d'equí",
+	'title-leaveshere' => 'Enllaces que salen de "$1"',
+	'sub-leaveshere' => 'Les siguientes páxines enllacen dende $1',
+	'label-page' => 'Páxina',
+	'label-namespace' => 'Espaciu de nomes',
+	'label-limit' => 'Llímite',
+	'button-submit' => 'Dir',
+	'noleaveshere' => "Nun hai nada qu'enllace dende $1",
+	'link-whatleaveshere' => "Qué sal d'equí",
+	'tooltip-whatleaveshere' => "Llista de tolo qu'enllaza dende equí",
+	'whatlinkshere' => "Lo qu'enllaza equí",
+	'whatlinkshere-whatleaveshere' => "¿Qué sal d'equí?",
+	'istemplate' => 'tresclusión',
+	'isfile' => 'enllaz a ficheru',
+	'linksearch' => 'LinkSearch',
+	'section-links' => 'Enllaces',
+	'section-iwlinks' => 'Enllaces interwiki',
+	'section-extlinks' => 'Enllaces esternos',
+	'section-categories' => 'Categoríes',
 );
 
 /** Belarusian (беларуская)
@@ -114,6 +140,7 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -122,15 +149,25 @@ $messages['br'] = array(
 	'label-limit' => 'Bevenn',
 	'button-submit' => 'Mont',
 	'whatlinkshere' => 'Pajennoù liammet',
+	'isfile' => 'Liamm war-zu ar restr',
 	'section-links' => 'Liammoù',
 	'section-iwlinks' => 'Liammoù etrewiki',
+	'section-extlinks' => 'Liammoù diavaez',
+	'section-categories' => 'Rummadoù',
 );
 
 /** Catalan (català)
  * @author Fitoschido
  */
 $messages['ca'] = array(
+	'label-page' => 'Pàgina',
+	'label-namespace' => 'Espai de noms',
+	'label-limit' => 'Límit',
 	'button-submit' => 'Vés-hi',
+	'isfile' => 'enllaç a fitxer',
+	'section-links' => 'Enllaços',
+	'section-extlinks' => 'Enllaços externs',
+	'section-categories' => 'Categories',
 );
 
 /** Chechen (нохчийн)
@@ -138,7 +175,9 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'label-page' => 'АгӀо',
+	'label-limit' => 'Доза тохар',
 	'button-submit' => 'Лаха',
+	'section-links' => 'Хьажоргаш',
 	'section-categories' => 'Категореш',
 );
 
@@ -181,13 +220,32 @@ $messages['es'] = array(
 	'label-limit' => 'Límite',
 	'button-submit' => 'Ir',
 	'noleaveshere' => 'Nada vincula desde $1',
+	'link-whatleaveshere' => 'Lo que sale de aquí',
 	'tooltip-whatleaveshere' => 'Lista de todo lo que enlaza aquí',
 	'whatlinkshere' => 'Lo que enlaza aquí',
-	'istemplate' => 'inclusión',
+	'whatlinkshere-whatleaveshere' => '¿Qué sale de aquí?',
+	'istemplate' => 'transclusión',
 	'isfile' => 'enlace de archivo',
 	'linksearch' => 'LinkSearch',
+	'section-links' => 'Enlaces',
+	'section-iwlinks' => 'Enlaces interwikis',
 	'section-extlinks' => 'Enlaces externos',
 	'section-categories' => 'Categorías',
+);
+
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'label-page' => 'صفحه',
+	'label-namespace' => 'فضای نام',
+	'label-limit' => 'محدودیت',
+	'button-submit' => 'برو',
+	'whatlinkshere' => 'پیوندها به این صفحه',
+	'istemplate' => 'تراگنجانش‌ها',
+	'isfile' => 'پیوند به پرونده',
+	'section-links' => 'پیوندها',
+	'section-categories' => 'رده‌ها',
 );
 
 /** French (français)
@@ -255,9 +313,10 @@ $messages['hu'] = array(
 
 /** Italian (italiano)
  * @author Beta16
+ * @author FRacco
  */
 $messages['it'] = array(
-	'title' => 'Lasciano qui',
+	'title' => 'Partono da qui',
 	'title-leaveshere' => 'Collegamenti che partono da "$1"',
 	'sub-leaveshere' => 'Le seguenti pagine sono collegate da $1',
 	'label-page' => 'Pagina',
@@ -265,7 +324,7 @@ $messages['it'] = array(
 	'label-limit' => 'Limite',
 	'button-submit' => 'Vai',
 	'noleaveshere' => 'Nessun collegamento da $1',
-	'link-whatleaveshere' => 'Lasciano qui',
+	'link-whatleaveshere' => 'Partono da qui',
 	'tooltip-whatleaveshere' => 'Elenco di tutto ciò che è collegato da qui',
 	'whatlinkshere' => 'Puntano qui',
 	'whatlinkshere-whatleaveshere' => 'Cosa parte da qui?',
@@ -297,7 +356,10 @@ $messages['ja'] = array(
 	'istemplate' => '参照読み込み',
 	'isfile' => 'ファイルへのリンク',
 	'linksearch' => '外部リンクの検索',
+	'section-links' => 'リンク',
+	'section-iwlinks' => 'ウィキ間リンク',
 	'section-extlinks' => '外部リンク',
+	'section-categories' => 'カテゴリ',
 );
 
 /** Korean (한국어)
@@ -317,16 +379,20 @@ $messages['ko'] = array(
 $messages['lb'] = array(
 	'title' => 'Wat hei fortgeet',
 	'title-leaveshere' => 'Linken déi vun "$1" fort ginn',
+	'sub-leaveshere' => 'Dës Säite si vu(n) $1 aus verlinkt',
 	'label-page' => 'Säit',
 	'label-namespace' => 'Nummraum',
 	'label-limit' => 'Limit',
 	'button-submit' => 'Lass',
+	'noleaveshere' => 'Näischt linkt vu(n) $1',
 	'link-whatleaveshere' => 'Wat hei fort geet',
 	'whatlinkshere' => 'Linken op dës Säit',
 	'whatlinkshere-whatleaveshere' => 'Wat geet hei fort?',
 	'istemplate' => 'an dëser Säit dran',
 	'isfile' => 'Link op de Fichier',
 	'linksearch' => 'LinkSearch',
+	'section-links' => 'Linken',
+	'section-iwlinks' => 'Interwiki-Linken',
 	'section-extlinks' => 'Extern Linken',
 	'section-categories' => 'Kategorien',
 );
@@ -364,18 +430,50 @@ $messages['nds-nl'] = array(
 	'isfile' => 'bestaandsverwiezing',
 );
 
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'label-page' => 'पृष्ठ',
+	'label-namespace' => 'नेमस्पेस',
+	'label-limit' => 'सीमा',
+	'button-submit' => 'जाने',
+	'isfile' => 'फाइल लिङ्क',
+	'section-links' => 'लिङ्कहरू',
+	'section-iwlinks' => 'अन्तरविकि लिङ्कहरू',
+	'section-extlinks' => 'बाह्य लिङ्कहरू',
+	'section-categories' => 'श्रेणीहरू',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Sjoerddebruin
  * @author Southparkfan
  */
 $messages['nl'] = array(
-	'title' => 'Koppelingen op deze pagina',
+	'title' => 'Links vanaf deze pagina',
+	'title-leaveshere' => 'Pagina\'s die verwijzen vanaf "$1"',
+	'sub-leaveshere' => "De volgende pagina's verwijzen vanaf $1",
 	'label-page' => 'Pagina',
 	'label-namespace' => 'Naamruimte',
+	'label-limit' => 'Limiet',
 	'button-submit' => 'OK',
+	'noleaveshere' => 'Geen verwijzingen vanaf $1',
+	'link-whatleaveshere' => 'Links vanaf deze pagina',
+	'tooltip-whatleaveshere' => 'Lijst van alle verwijzingen vanaf deze pagina',
+	'whatlinkshere' => 'Links naar deze pagina',
+	'whatlinkshere-whatleaveshere' => 'Links vanaf deze pagina?',
+	'istemplate' => 'ingevoegd als sjabloon',
+	'isfile' => 'bestand',
+	'linksearch' => 'Externe koppelingen zoeken',
+	'section-links' => 'Links',
+	'section-iwlinks' => 'Interwikilinks',
+	'section-extlinks' => 'Externe links',
+	'section-categories' => 'Categorieën',
 );
 
 /** Polish (polski)
+ * @author Alan ffm
  * @author Matik7
  * @author Matma Rex
  */
@@ -388,7 +486,12 @@ $messages['pl'] = array(
 	'noleaveshere' => 'Nic nie jest linkowane z $1',
 	'tooltip-whatleaveshere' => 'Lista wszystkich stron, które są stąd linkowane',
 	'whatlinkshere' => 'Linkujące',
+	'istemplate' => 'transkluzja',
 	'isfile' => 'link do pliku',
+	'section-links' => 'Linki',
+	'section-iwlinks' => 'Linki interwiki',
+	'section-extlinks' => 'Linki zewnętrzne',
+	'section-categories' => 'Kategorie',
 );
 
 /** Portuguese (português)
@@ -402,6 +505,24 @@ $messages['pt'] = array(
 	'whatlinkshere' => 'Páginas afluentes',
 	'istemplate' => 'transclusão',
 	'isfile' => 'ligação para ficheiro',
+	'section-iwlinks' => 'Ligações interlínguas',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Tooguether
+ */
+$messages['pt-br'] = array(
+	'section-iwlinks' => 'Links interwiki',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'label-page' => 'Pagină',
+	'label-namespace' => 'Spațiu de nume',
+	'label-limit' => 'Limită',
+	'button-submit' => 'Du-te',
 );
 
 /** Russian (русский)
@@ -411,7 +532,9 @@ $messages['ru'] = array(
 	'label-page' => 'Страница',
 	'label-namespace' => 'Пространство имён',
 	'label-limit' => 'Ограничение',
+	'button-submit' => 'Выполнить',
 	'whatlinkshere' => 'Ссылки сюда',
+	'istemplate' => 'включение',
 	'isfile' => 'файловая ссылка',
 	'section-links' => 'Ссылки',
 	'section-iwlinks' => 'Интервики-ссылки',
@@ -419,21 +542,38 @@ $messages['ru'] = array(
 	'section-categories' => 'Категории',
 );
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
+ */
+$messages['sr-ec'] = array(
+	'label-page' => 'Страница',
+	'label-namespace' => 'Именски простор',
+	'section-links' => 'Везе',
+	'section-categories' => 'Категорије',
+);
+
 /** Swedish (svenska)
  * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'title' => 'Vad länkar ut härifrån',
+	'title-leaveshere' => 'Länkar som länkar ut från "$1"',
 	'sub-leaveshere' => 'Följande sidor länkar från $1',
 	'label-page' => 'Sida',
 	'label-namespace' => 'Namnrymd',
 	'label-limit' => 'Gräns',
 	'button-submit' => 'Gå',
 	'noleaveshere' => 'Ingenting länkar från $1',
+	'link-whatleaveshere' => 'Vad länkar ut härifrån',
+	'tooltip-whatleaveshere' => 'Lista över allt som länkar ut härifrån',
 	'whatlinkshere' => 'Vad som länkar hit',
+	'whatlinkshere-whatleaveshere' => 'Vad länkar ut härifrån?',
 	'istemplate' => 'inkluderad som mall',
 	'isfile' => 'fillänk',
+	'linksearch' => 'Länksökning',
 	'section-links' => 'Länkar',
+	'section-iwlinks' => 'Interwiki-länkar',
 	'section-extlinks' => 'Externa länkar',
 	'section-categories' => 'Kategorier',
 );
@@ -450,6 +590,10 @@ $messages['vi'] = array(
 	'istemplate' => 'nhúng',
 	'isfile' => 'liên kết tập tin',
 	'linksearch' => 'Tìm liên kết',
+	'section-links' => 'Liên kết',
+	'section-iwlinks' => 'Liên kết liên wiki',
+	'section-extlinks' => 'Liên kết ngoài',
+	'section-categories' => 'Thể loại',
 );
 
 /** Yiddish (ייִדיש)
@@ -462,6 +606,7 @@ $messages['yi'] = array(
 	'whatlinkshere' => 'װאָס פֿאַרבינדט אַהער',
 	'istemplate' => 'אריבערשליסן',
 	'isfile' => 'טעקע לינק',
+	'section-iwlinks' => 'אינטערוויקי לינקען',
 );
 
 /** Simplified Chinese (中文（简体）‎)
@@ -484,7 +629,16 @@ $messages['zh-hans'] = array(
 	'isfile' => '文件链接',
 	'linksearch' => '链接搜索',
 	'section-links' => '链接',
-	'section-iwlinks' => '跨维基眨眼',
+	'section-iwlinks' => '跨维基连接',
 	'section-extlinks' => '外部链接',
 	'section-categories' => '分类',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'istemplate' => '引用',
+	'section-links' => '連結',
+	'section-categories' => '分類',
 );

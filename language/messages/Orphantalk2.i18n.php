@@ -161,22 +161,25 @@ $messages['as'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk',
+	'description' => "Alcontrar páxines d'alderique güérfanes.",
+	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(primero seleiciona una wiki)',
 	'hideredirects' => 'Anubrir redireiciones',
 	'hidesubpages' => 'Anubrir subpáxines',
 	'limit' => 'Llímite',
 	'page' => 'Páxina',
-	'redirect' => '¿Ye redireición?',
+	'tooltip-redirect' => 'Esta páxina ye una redireición',
 	'output' => 'Salida',
 	'update' => 'Anovar',
-	'tools-delete' => 'desaniciar',
-	'tools-links' => 'enllaces',
-	'tools-subject' => 'asuntu',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'act',
-	'tools-globalusage' => 'usuglobal',
-	'deletesummary' => "Llimpiando páxines d'alderique güérfanes con $1",
+	'tools-view' => 'Ver',
+	'tools-delete' => 'Desaniciar',
+	'tools-links' => "Lo qu'enllaza equí",
+	'tools-subject' => "Páxina d'asuntu",
+	'tools-hist' => 'Ver historial',
+	'tools-curr' => 'Cambéu postreru',
+	'tools-globalusage' => 'Usu del ficheru',
+	'deletesummary' => "$1: Páxina d'alderique güérfana",
 	'noresults' => "Denguna páxina d'alderique d'esta wiki nesti espaciu de nomes concasa coles tos preferencies.",
 	'resultslimited' => 'Los resultaos tan llendaos a $1 páxines.',
 );
@@ -308,32 +311,36 @@ $messages['bg'] = array(
  * @author Wikitanvir
  */
 $messages['bn'] = array(
-	'title' => 'পিতৃহীন পাতা আলোচনা ২', # Fuzzy
+	'title' => 'পিতৃহীন আলোচনা',
+	'description' => 'পিতৃহীন আলোচনার পাতা খুঁজুন',
 	'label-wiki' => 'উইকি',
 	'select-wiki-first' => '(প্রথমে একটি উইকি নির্বাচন করুন)',
 	'hideredirects' => 'পুনর্নির্দেশনাগুলো লুকাও',
 	'hidesubpages' => 'উপপাতাগুলো লুকাও',
 	'limit' => 'সীমা',
 	'page' => 'পাতা',
+	'tooltip-redirect' => 'এই পাতাটি একটি পুনঃনির্দেশ',
 	'output' => 'আউটপুট',
 	'update' => 'হালনাগাদ',
+	'tools-view' => 'দেখাও',
 	'tools-delete' => 'অপসারণ',
 	'tools-links' => 'সংযোগকারী পাতাসমূহ',
-	'tools-subject' => 'বিষয়', # Fuzzy
+	'tools-subject' => 'বিষয়য়ের পাতা',
 	'tools-hist' => 'ইতিহাস দেখুন',
 	'tools-curr' => 'সর্বশেষ পরিবর্তন',
 	'tools-globalusage' => 'ফাইলের ব্যবহার',
-	'deletesummary' => '$1-এর মাধ্যমে পিতৃহীন আলাপ পাতা পরিস্কার করা হচ্ছে', # Fuzzy
+	'deletesummary' => '$1: পিতৃহীন আলাপ পাতা',
 	'noresults' => 'এই উইকির এই নামস্থানের কোনো পিতৃহীন আলাপ পাতার সাথে আপনার সেটিং মেলেনি।',
 	'resultslimited' => 'ফলাফলগুলো $1টি পাতার মধ্যে সীমাবদ্ধ ছিলো।',
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
-	'title' => 'OrphanTalk2', # Fuzzy
+	'title' => 'OrphanTalk',
 	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(diuzit ur wiki da gentañ)',
 	'hideredirects' => 'Kuzhat an adkasoù',
@@ -346,7 +353,7 @@ $messages['br'] = array(
 	'tools-view' => 'Diskwel',
 	'tools-delete' => 'Dilemel',
 	'tools-links' => 'Pajennoù liammet',
-	'tools-subject' => 'danvez', # Fuzzy
+	'tools-subject' => 'Pajenn danvez',
 	'tools-hist' => 'Gwelet an istor',
 	'tools-curr' => 'Kemm diwezhañ',
 	'tools-globalusage' => 'Implij ar restr',
@@ -382,11 +389,11 @@ $messages['ca'] = array(
 	'output' => 'Resultats',
 	'update' => 'Actualitza',
 	'tools-delete' => 'Suprimeix',
-	'tools-links' => 'enllaços', # Fuzzy
+	'tools-links' => 'Què hi enllaça',
 	'tools-subject' => 'pàgina', # Fuzzy
-	'tools-hist' => 'hist', # Fuzzy
-	'tools-curr' => 'act', # Fuzzy
-	'tools-globalusage' => 'ús global', # Fuzzy
+	'tools-hist' => 'Mostra l’historial',
+	'tools-curr' => 'Últim canvi',
+	'tools-globalusage' => 'Ús del fitxer',
 	'deletesummary' => 'Neteja de pàgines de discussió òrfenes via $1', # Fuzzy
 	'noresults' => "No s'ha trobat en aquest wiki cap pàgina de discussió òrfena en aquest espai de noms que correspongui amb la vostra configuració.",
 	'resultslimited' => 'Els resultats es limiten a $1 pàgines.',
@@ -600,6 +607,7 @@ $messages['eo'] = array(
 /** Spanish (español)
  * @author AwesomeOrange89
  * @author Fitoschido
+ * @author Macofe
  */
 $messages['es'] = array(
 	'title' => 'OrphanTalk',
@@ -616,11 +624,11 @@ $messages['es'] = array(
 	'tools-view' => 'Ver',
 	'tools-delete' => 'Borrar',
 	'tools-links' => 'Lo que enlaza aquí',
-	'tools-subject' => 'Código de asunto',
+	'tools-subject' => 'Página de asunto',
 	'tools-hist' => 'Ver historial',
 	'tools-curr' => 'Último cambio',
 	'tools-globalusage' => 'Usos del archivo',
-	'deletesummary' => '$1: página de discusión sin asociación',
+	'deletesummary' => '$1: página de discusión huérfana',
 	'noresults' => 'Ninguna página de discusión huérfana en este wiki, en este espacio de nombres coinciden con tu configuración.',
 	'resultslimited' => 'Los resultados se limitan a $1 páginas.',
 );
@@ -674,25 +682,27 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Reza1615
  * @author Wayiran
  */
 $messages['fa'] = array(
-	'title' => 'بحث‌یتیم۲',
+	'title' => 'بحث‌یتیم۲', # Fuzzy
+	'label-wiki' => 'ویکی',
 	'select-wiki-first' => '(ابتدا یک ویکی را انتخاب کنید)',
 	'hideredirects' => 'پنهان‌کردن تغییر مسیرها',
 	'hidesubpages' => 'پنهان‌کردن زیرصفحه‌ها',
 	'limit' => 'تعداد',
 	'page' => 'صفحه',
-	'redirect' => 'تغییر مسیر است؟',
 	'output' => 'خروجی',
 	'update' => 'به روز رسانی',
-	'tools-delete' => 'حذف',
-	'tools-links' => 'پیوندها',
-	'tools-subject' => 'عنوان',
-	'tools-hist' => 'تاریخچه',
-	'tools-curr' => 'فعلی',
-	'tools-globalusage' => 'استفادهٔ سراسری',
-	'deletesummary' => 'تمیزکردن صفحات بحث یتیم از طریق $1',
+	'tools-view' => 'نمایش',
+	'tools-delete' => 'حذف', # Fuzzy
+	'tools-links' => 'پیوندها', # Fuzzy
+	'tools-subject' => 'عنوان', # Fuzzy
+	'tools-hist' => 'تاریخچه', # Fuzzy
+	'tools-curr' => 'فعلی', # Fuzzy
+	'tools-globalusage' => 'استفادهٔ سراسری', # Fuzzy
+	'deletesummary' => 'تمیزکردن صفحات بحث یتیم از طریق $1', # Fuzzy
 	'noresults' => 'هیچ صفحهٔ بحث یتیمی در این ویکی و در این فضای نام، مطابق با تنظیمات شما وجود ندارد.',
 	'resultslimited' => 'نتایج به $1 صفحه محدود بود.',
 );
@@ -831,17 +841,18 @@ $messages['gl'] = array(
 
 /** Gujarati (ગુજરાતી)
  * @author Harsh4101991
+ * @author KartikMistry
  */
 $messages['gu'] = array(
 	'hidesubpages' => 'પેટાપૃષ્ઠ છુપાવો',
 	'limit' => 'મર્યાદા',
-	'page' => 'પૃષ્ઠ',
+	'page' => 'પાનું',
 	'output' => 'ઉત્પાદન',
 	'update' => 'સુધારો',
-	'tools-delete' => 'હટાવો',
-	'tools-links' => 'કડીઓ',
-	'tools-subject' => 'વિષય',
-	'tools-hist' => 'ઇતિહાસ',
+	'tools-delete' => 'હટાવો', # Fuzzy
+	'tools-links' => 'કડીઓ', # Fuzzy
+	'tools-subject' => 'વિષય', # Fuzzy
+	'tools-hist' => 'ઇતિહાસ', # Fuzzy
 );
 
 /** Hebrew (עברית)
@@ -997,24 +1008,27 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Farras
+ * @author Kenrick95
  */
 $messages['id'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk',
+	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(pilih wiki dahulu)',
 	'hideredirects' => 'Sembunyikan pengalihan',
 	'hidesubpages' => 'Sembunyikan subhalaman',
 	'limit' => 'Batasan',
 	'page' => 'Halaman',
-	'redirect' => 'Pengalihan?',
+	'tooltip-redirect' => 'Halaman ini adalah pengalihan',
 	'output' => 'Keluaran',
 	'update' => 'Mutakhirkan',
-	'tools-delete' => 'hapus',
-	'tools-links' => 'pranala',
-	'tools-subject' => 'subyek',
-	'tools-hist' => 'versi',
-	'tools-curr' => 'sekarang',
-	'tools-globalusage' => 'globalusage',
-	'deletesummary' => 'Membersihkan halaman pembicaraan yatim melalui $1',
+	'tools-view' => 'Lihat',
+	'tools-delete' => 'Hapus',
+	'tools-links' => 'Pranala balik',
+	'tools-subject' => 'Halaman subjek',
+	'tools-hist' => 'Versi terdahulu',
+	'tools-curr' => 'Perubahan terakhir',
+	'tools-globalusage' => 'Pranala berkas',
+	'deletesummary' => '$1: Halaman pembicaraan yatim',
 	'noresults' => 'Tidak ada halaman pembicaraan yatim di wiki ini dalam ruang nama ini yang sesuai dengan pengaturan Anda.',
 	'resultslimited' => 'Hasil dibatasi hingga $1 halaman.',
 );
@@ -1364,6 +1378,13 @@ $messages['lv'] = array(
 	'tools-globalusage' => 'Faila lietojums',
 );
 
+/** Laz (Lazuri)
+ * @author Ceas08
+ */
+$messages['lzz'] = array(
+	'tools-delete' => 'Jili',
+);
+
 /** Minangkabau (Baso Minangkabau)
  * @author Iwan Novirion
  */
@@ -1529,6 +1550,18 @@ $messages['nds-nl'] = array(
 	'tools-globalusage' => 'Bestaandsgebruuk',
 );
 
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'limit' => 'सीमा',
+	'page' => 'पृष्ठ',
+	'output' => 'अाउटपुट',
+	'update' => 'अद्यतन',
+	'tools-view' => 'अवलोकन',
+	'tools-delete' => 'मेट्ने',
+);
+
 /** Newari (नेपाल भाषा)
  * @author Eukesh
  */
@@ -1593,7 +1626,7 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'title' => 'OrphanTalk2', # Fuzzy
+	'title' => 'OrphanTalk',
 	'select-wiki-first' => '(seleccionatz d’en primièr un wiki)',
 	'hideredirects' => 'Amagar las redireccions',
 	'hidesubpages' => 'Amagar las sospaginas',
@@ -1601,12 +1634,12 @@ $messages['oc'] = array(
 	'page' => 'Pagina',
 	'output' => 'Sortida',
 	'update' => 'Metre a jorn',
-	'tools-delete' => 'suprimir', # Fuzzy
-	'tools-links' => 'ligams', # Fuzzy
-	'tools-subject' => 'Subjècte', # Fuzzy
-	'tools-hist' => 'ist', # Fuzzy
-	'tools-curr' => 'actu', # Fuzzy
-	'tools-globalusage' => 'globalusage', # Fuzzy
+	'tools-delete' => 'Suprimir',
+	'tools-links' => 'Ligams que puntan cap a aicí',
+	'tools-subject' => 'Pagina de subjècte',
+	'tools-hist' => "Afichar l'istoric",
+	'tools-curr' => 'Darrièr cambiament',
+	'tools-globalusage' => 'Utilizacion del fichièr',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
@@ -1835,6 +1868,7 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'title' => 'OrphanTalk',
+	'description' => 'Находит потерянные страницы обсуждения.',
 	'label-wiki' => 'Вики',
 	'select-wiki-first' => '(сначала выберите вики)',
 	'hideredirects' => 'Скрыть перенаправления',
@@ -1885,13 +1919,17 @@ $messages['si'] = array(
  */
 $messages['sl'] = array(
 	'title' => 'OsiroteliPogovori',
+	'description' => 'Najdite osirotele pogovorne strani.',
+	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(najprej izberite wiki)',
 	'hideredirects' => 'Skrij preusmeritve',
 	'hidesubpages' => 'Skrij podstrani',
 	'limit' => 'Omejitev',
 	'page' => 'Stran',
+	'tooltip-redirect' => 'Stran je preusmeritev',
 	'output' => 'Izhod',
 	'update' => 'Posodobi',
+	'tools-view' => 'Ogled',
 	'tools-delete' => 'Izbriši',
 	'tools-links' => 'Kaj se povezuje sem',
 	'tools-subject' => 'Zadevna stran',
@@ -1936,25 +1974,25 @@ $messages['sq'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk',
 	'select-wiki-first' => '(прво изаберите вики)',
 	'hideredirects' => 'Сакриј преусмерења',
 	'hidesubpages' => 'Сакриј подстранице',
 	'limit' => 'Ограничење',
 	'page' => 'Страница',
-	'redirect' => 'Је ли преусмерење?',
 	'output' => 'Излаз',
 	'update' => 'Ажурирај',
-	'tools-delete' => 'обриши',
-	'tools-links' => 'везе',
-	'tools-subject' => 'наслов',
-	'tools-hist' => 'ист',
-	'tools-curr' => 'трен',
-	'tools-globalusage' => 'глобална употреба',
-	'deletesummary' => 'Чишћење неповезаних страница за разговор преко $1',
+	'tools-delete' => 'обриши', # Fuzzy
+	'tools-links' => 'везе', # Fuzzy
+	'tools-subject' => 'наслов', # Fuzzy
+	'tools-hist' => 'ист', # Fuzzy
+	'tools-curr' => 'трен', # Fuzzy
+	'tools-globalusage' => 'глобална употреба', # Fuzzy
+	'deletesummary' => 'Чишћење неповезаних страница за разговор преко $1', # Fuzzy
 	'noresults' => 'На овом викију нема неповезаних страница за разговор у овом именском простору које одговарају вашим поставкама.',
 	'resultslimited' => 'Резултати су ограничени на $1 страница.',
 );
@@ -2028,6 +2066,7 @@ $messages['sw'] = array(
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
+ * @author ElangoRamanujam
  * @author Sodabottle
  * @author செல்வா
  * @author மதனாஹரன்
@@ -2038,15 +2077,14 @@ $messages['ta'] = array(
 	'hidesubpages' => 'துனை பக்கங்களை மறை',
 	'limit' => 'வரம்பு',
 	'page' => 'பக்கம்',
-	'redirect' => 'வழிமாற்றா?',
 	'output' => 'வெளியீடு',
 	'update' => 'புதுப்பி',
-	'tools-delete' => 'நீக்கு',
-	'tools-links' => 'இணைப்புகள்',
-	'tools-subject' => 'பொருள்',
-	'tools-hist' => 'வரலாறு',
-	'tools-curr' => 'தற்போது',
-	'tools-globalusage' => 'உலகளாவியப் பயண்பாடு',
+	'tools-delete' => 'நீக்குக',
+	'tools-links' => 'இப்பக்கத்தை இணைத்தவை',
+	'tools-subject' => 'பொருள் பக்கம்',
+	'tools-hist' => 'வரலாறு காணவும்',
+	'tools-curr' => 'தற்போதைய மாற்றம்',
+	'tools-globalusage' => 'கோப்புப் பயன்பாடு',
 	'resultslimited' => '$1 பக்கங்களுக்கு முடிவுகள் வரையறுக்கப்பட்டுள்ளன.',
 );
 
@@ -2117,25 +2155,25 @@ $messages['tly'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Trockya
  * @author Vito Genovese
  */
 $messages['tr'] = array(
-	'title' => 'YalnızTartışma2',
+	'title' => 'YalnızTartışma2', # Fuzzy
 	'select-wiki-first' => '(ilk olarak bir viki seçin)',
 	'hideredirects' => 'Yönlendirmeleri gizle',
 	'hidesubpages' => 'Alt sayfaları gizle',
 	'limit' => 'Sınır',
 	'page' => 'Sayfa',
-	'redirect' => 'Yönlendirme mi?',
 	'output' => 'Çıkış',
 	'update' => 'Güncelle',
-	'tools-delete' => 'sil',
-	'tools-links' => 'bağlantılar',
-	'tools-subject' => 'konu',
-	'tools-hist' => 'geçmiş',
-	'tools-curr' => 'günc',
-	'tools-globalusage' => 'küresel kullanım',
-	'deletesummary' => '$1 aracılığıyla sayfası silinmiş tartışma sayfaları temizleniyor',
+	'tools-delete' => 'Sil',
+	'tools-links' => 'bağlantılar', # Fuzzy
+	'tools-subject' => 'konu', # Fuzzy
+	'tools-hist' => 'geçmiş', # Fuzzy
+	'tools-curr' => 'günc', # Fuzzy
+	'tools-globalusage' => 'küresel kullanım', # Fuzzy
+	'deletesummary' => '$1 aracılığıyla sayfası silinmiş tartışma sayfaları temizleniyor', # Fuzzy
 	'noresults' => 'Bu vikinin bu ad alanındaki sayfası silinmiş hiçbir tartışma sayfası ayarlarınız ile eşleşmedi.',
 	'resultslimited' => 'Sonuçlar, $1 sayfa ile sınırlandırıldı.',
 );
@@ -2174,27 +2212,31 @@ $messages['ug-arab'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Base
  * @author DixonD
  * @author Тест
  */
 $messages['uk'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk',
+	'description' => 'Знайти втрачені сторінки обговорення.',
+	'label-wiki' => 'Вікі',
 	'select-wiki-first' => '(спершу оберіть вікі)',
 	'hideredirects' => 'Сховати перенаправлення',
 	'hidesubpages' => 'Приховати підсторінки',
 	'limit' => 'Обмеження',
 	'page' => 'Сторінка',
-	'redirect' => 'Це перенаправлення?',
+	'tooltip-redirect' => 'Ця сторінка є переспрямуванням',
 	'output' => 'Вивід',
 	'update' => 'Оновити',
-	'tools-delete' => 'вилучити',
-	'tools-links' => 'посилання',
-	'tools-subject' => 'тема',
-	'tools-hist' => 'історія',
-	'tools-curr' => 'остання',
-	'tools-globalusage' => 'глобальне використання',
-	'deletesummary' => 'Прибирання сторінок обговорень-сиріт за допомогою $1',
+	'tools-view' => 'Переглянути',
+	'tools-delete' => 'Видалити',
+	'tools-links' => 'Посилання сюди',
+	'tools-subject' => 'Сторінка теми',
+	'tools-hist' => 'Перегляд історії',
+	'tools-curr' => 'Остання зміна',
+	'tools-globalusage' => 'Використання файлу',
+	'deletesummary' => '$1: сторінка обговорення-сирота',
 	'noresults' => 'У цій вікі в заданих Вами просторах назв не знайдено сторінок обговорень-сиріт.',
 	'resultslimited' => 'Результати було обмежено $1 сторінками.',
 );
@@ -2247,6 +2289,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Impersonator 1
  * @author Liuxinyu970226
  * @author Shizhao
  * @author Xiaomingyan
@@ -2260,7 +2303,7 @@ $messages['zh-hans'] = array(
 	'hidesubpages' => '隐藏子页面',
 	'limit' => '限制',
 	'page' => '页面',
-	'tooltip-redirect' => '此页面是重定向页',
+	'tooltip-redirect' => '本页面是重定向',
 	'output' => '输出',
 	'update' => '更新',
 	'tools-view' => '查看',
@@ -2276,26 +2319,27 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
  * @author Shirayuki
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
-	'title' => '孤立對話頁2',
+	'title' => '孤立對話頁2', # Fuzzy
+	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '（先選擇一個wiki）',
 	'hideredirects' => '隱藏重定向頁',
 	'hidesubpages' => '隱藏子頁面',
 	'limit' => '限制',
 	'page' => '頁面',
-	'redirect' => '是重定向嗎？',
 	'output' => '輸出',
 	'update' => '更新',
-	'tools-delete' => '已刪除',
-	'tools-links' => '連結',
-	'tools-subject' => '主旨',
-	'tools-hist' => '歷史',
-	'tools-curr' => '最新修訂',
-	'tools-globalusage' => '全域使用',
-	'deletesummary' => '使用$1清理孤立的討論頁',
+	'tools-delete' => '已刪除', # Fuzzy
+	'tools-links' => '連結', # Fuzzy
+	'tools-subject' => '主旨', # Fuzzy
+	'tools-hist' => '歷史', # Fuzzy
+	'tools-curr' => '最新修訂', # Fuzzy
+	'tools-globalusage' => '全域使用', # Fuzzy
+	'deletesummary' => '使用$1清理孤立的討論頁', # Fuzzy
 	'noresults' => '以你設定搜尋，該維基的名字空間內沒有孤立的討論頁。',
 	'resultslimited' => '結果只顯示$1頁。',
 );

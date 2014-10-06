@@ -27,12 +27,14 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Krinkle
+ * @author Liuxinyu970226
  */
 $messages['qqq'] = array(
 	'title' => 'The title of the tool.',
 	'description' => 'Short caption that describes the tool, used in the primary heading on every page as tag line.',
 	'formats-heading' => 'This is the heading above the list of available formats to export/output to.',
-	'input' => 'This is the heading above the input form.',
+	'input' => 'This is the heading above the input form.
+{{Identical|Input}}',
 	'label-wikiids' => 'This form label is for the input field for the wiki identifiers. Users may type one or more identifiers here.
 
 Identifiers can be a language code (e.g. \'de\' will assume the German Wikipedia), or a database code (enwiki_p for English Wikipedia), hostname (fr.wiktionary, optionally including ".org") and some others as well. Almost any form of identification or guessing is accepted.',
@@ -80,6 +82,7 @@ $messages['as'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
+	'description' => 'Metainformación tocante a les wikis de Wikimedia.',
 	'formats-heading' => 'Formatos de salida',
 	'input' => 'Entrada',
 	'label-wikiids' => 'Identificadores na Wiki',
@@ -145,9 +148,11 @@ $messages['be-tarask'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Wikitanvir
  */
 $messages['bn'] = array(
+	'description' => 'উইকিমিডিয়া উইকিগুলো সম্পর্কে মেটা তথ্য।',
 	'formats-heading' => 'আউটপুটের কাঠামো',
 	'input' => 'ইনপুট',
 	'label-wikiids' => 'উইকি নির্ধারণী',
@@ -175,9 +180,11 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Fitoschido
  * @author SMP
  */
 $messages['ca'] = array(
+	'description' => 'Metainformació sobre els viquis de Wikimedia.',
 	'formats-heading' => 'Formats de sortida',
 	'input' => 'Entrada de dades',
 	'label-wikiids' => 'Identificadors wiki',
@@ -219,8 +226,10 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Metalhead64
  */
 $messages['de'] = array(
+	'description' => 'Metainformationen über Wikimedia-Wikis.',
 	'formats-heading' => 'Ausgabeformate',
 	'input' => 'Angaben',
 	'label-wikiids' => 'Wiki-Kennungen',
@@ -274,11 +283,12 @@ $messages['eo'] = array(
  * @author Fitoschido
  */
 $messages['es'] = array(
+	'description' => 'Metainformación acerca de los wikis de Wikimedia.',
 	'formats-heading' => 'Formatos de salida',
 	'input' => 'Entrada',
 	'label-wikiids' => 'Identificadores de wiki',
 	'no-matches' => 'No hay coincidencias para «$1»',
-	'output' => 'Salida para «$1»',
+	'output' => 'Salida de «$1»',
 );
 
 /** Basque (euskara)
@@ -304,6 +314,7 @@ $messages['fa'] = array(
  * @author Nike
  */
 $messages['fi'] = array(
+	'description' => 'Metatietoja Wikimedian wikeistä.',
 	'formats-heading' => 'Tulosmuodot',
 	'input' => 'Syöte',
 	'label-wikiids' => 'Wikitunnisteet',
@@ -320,9 +331,11 @@ $messages['fo'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Jean-Frédéric
  */
 $messages['fr'] = array(
+	'description' => 'Méta-information sur les wikis de Wikimédia.',
 	'formats-heading' => 'Formats de sortie',
 	'input' => 'Entrées',
 	'label-wikiids' => 'Identifiants Wiki',
@@ -361,6 +374,7 @@ $messages['gu'] = array(
  * @author Amire80
  */
 $messages['he'] = array(
+	'description' => 'מטא־מידע על אתרי ויקי של ויקימדיה.',
 	'formats-heading' => 'תסדירי פלט',
 	'input' => 'קלט',
 	'label-wikiids' => 'מזהי ויקי',
@@ -440,6 +454,7 @@ $messages['id'] = array(
  * @author Nemo bis
  */
 $messages['it'] = array(
+	'description' => 'Meta informazioni sui wiki di Wikimedia.',
 	'formats-heading' => 'Formati in uscita',
 	'input' => 'Input',
 	'label-wikiids' => 'Identificativi wiki',
@@ -452,6 +467,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'description' => 'ウィキメディアのウィキ群についてのメタ情報。',
 	'formats-heading' => '出力形式',
 	'input' => '入力',
 	'label-wikiids' => 'ウィキ識別子',
@@ -515,6 +531,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'description' => 'Meta Informatioun iwwer Wikimedia Wikien.',
 	'formats-heading' => 'Formater vum Resultat',
 	'input' => 'Donnéeën',
 	'label-wikiids' => 'Wiki-Identifikatioun',
@@ -562,6 +579,7 @@ $messages['lv'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
+	'description' => 'Метаинформации за Викимедиините викија.',
 	'formats-heading' => 'Формати на изводот',
 	'input' => 'Внос',
 	'label-wikiids' => 'Викиназнаки',
@@ -578,6 +596,13 @@ $messages['ml'] = array(
 	'label-wikiids' => 'വിക്കി ഐച്ഛികങ്ങൾ',
 	'no-matches' => '"$1" മായി ഒന്നും ചേർന്നില്ല',
 	'output' => '"$1" ന്റെ ഔട്ട്പുട്ട്',
+);
+
+/** Mongolian (монгол)
+ * @author Wisdom
+ */
+$messages['mn'] = array(
+	'description' => 'Wikimedia wikis -ын талаар Meta мэдээллүүд.',
 );
 
 /** Malay (Bahasa Melayu)
@@ -624,8 +649,10 @@ $messages['new'] = array(
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author Siebrand
+ * @author Sjoerddebruin
  */
 $messages['nl'] = array(
+	'description' => "Meta-informatie over Wikimedia-wiki's.",
 	'formats-heading' => 'Uitvoeropmaak',
 	'input' => 'Invoer',
 	'label-wikiids' => "Wiki-ID's",
@@ -670,8 +697,10 @@ $messages['or'] = array(
 /** Polish (polski)
  * @author Odder
  * @author Sp5uhe
+ * @author Ty221
  */
 $messages['pl'] = array(
+	'description' => 'Meta-info o wiki Wikimedia.',
 	'formats-heading' => 'Formaty wyjścia',
 	'input' => 'Dane wejściowe',
 	'label-wikiids' => 'Identyfikatory wiki',
@@ -719,6 +748,7 @@ $messages['pt-br'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
+	'description' => 'Informații meta despre wikiurile Wikimediei.',
 	'formats-heading' => 'Formate de ieșire',
 	'input' => 'Date de intrare',
 	'label-wikiids' => 'Identificatori de wikiuri',
@@ -739,9 +769,11 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Eleferen
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
+	'description' => 'Мета-информация о вики-проектах Викимедиа.',
 	'formats-heading' => 'Выходные форматы',
 	'input' => 'Вход',
 	'label-wikiids' => 'Вики-идентификаторы',
@@ -815,8 +847,10 @@ $messages['sr-el'] = array(
 
 /** Swedish (svenska)
  * @author Liftarn
+ * @author Lokal Profil
  */
 $messages['sv'] = array(
+	'description' => 'Metainformation om Wikimedias wikis.',
 	'formats-heading' => 'Utdataformat',
 	'input' => 'Indata',
 	'label-wikiids' => 'Wiki-identifierare',
@@ -880,8 +914,10 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Andriykopanytsia
  */
 $messages['uk'] = array(
+	'description' => 'Мета-інформація про вікі-проекти Вікімедіа.',
 	'formats-heading' => 'Вихідні формати',
 	'input' => 'Вхід',
 	'label-wikiids' => 'Ідентифікатори Wiki',
@@ -904,6 +940,7 @@ $messages['uz'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
+	'description' => 'Siêu thông tin về các wiki của Wikimedia.',
 	'formats-heading' => 'Định dạng kết quả',
 	'input' => 'Truy vấn',
 	'label-wikiids' => 'ID của các wiki',
@@ -923,9 +960,11 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Liuxinyu970226
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'description' => '关于维基媒体网站的元信息。',
 	'formats-heading' => '输出格式',
 	'input' => '输入',
 	'label-wikiids' => 'Wiki 标识符',

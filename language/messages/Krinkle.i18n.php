@@ -289,6 +289,13 @@ $messages['es'] = array(
 	'form-legend-settings' => 'Configuración',
 );
 
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'form-legend-settings' => 'Sätted',
+);
+
 /** Basque (euskara)
  * @author An13sa
  */
@@ -636,6 +643,13 @@ $messages['nb'] = array(
 	'form-legend-settings' => 'Innstillinger',
 );
 
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'form-legend-settings' => 'सेटिङ्हरू',
+);
+
 /** Newari (नेपाल भाषा)
  * @author Eukesh
  */
@@ -780,13 +794,14 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author Gazimagomedov
  * @author Rave
  */
 $messages['ru'] = array(
 	'alws-selectwiki' => '(выберите вики-проект)',
 	'alws-group-mustused' => 'Наиболее используемые вики-проекты',
 	'alws-group-allaz' => 'Все вики-проекты по алфавиту',
-	'form-legend-settings' => 'Настройки',
+	'form-legend-settings' => 'Рекъезаби',
 );
 
 /** Sanskrit (संस्कृतम्)
@@ -995,9 +1010,11 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'alws-label' => '維基',
 	'alws-selectwiki' => '（選擇維基）',
 	'alws-group-mustused' => '最常用皫維基',
 	'alws-group-allaz' => '所有維基按字母順序',

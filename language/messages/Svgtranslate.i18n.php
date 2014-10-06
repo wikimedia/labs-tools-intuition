@@ -55,6 +55,7 @@ $messages['en'] = array(
  * @author Jarry
  * @author Jarry1250
  * @author Krinkle
+ * @author Liuxinyu970226
  * @author Purodha
  * @author Shirayuki
  */
@@ -75,7 +76,8 @@ $messages['qqq'] = array(
 	'th-language' => 'Label for the language selection dropdown box. {{Identical|Language}}',
 	'th-username' => '{{Identical|Username}}',
 	'th-password' => '{{Identical|Password}}',
-	'th-method' => 'The label introducing a choice between two ways of proceeding/ways of uploading the file.',
+	'th-method' => 'The label introducing a choice between two ways of proceeding/ways of uploading the file.
+{{Identical|Method}}',
 	'option-oauth' => 'The option for an automated upload using the "oAuth" mechanism.',
 	'option-manual' => 'The option for uploading a file manually.',
 	'preview' => '{{Identical|Preview}}',
@@ -83,8 +85,8 @@ $messages['qqq'] = array(
 	'translate-instructions' => 'Intro paragraph in the translation process.
 
 Parameters:
-* $1 is the string {{msg-toolserver|svgtranslate-format-filename-example}}
-* $2 is the string {{msg-toolserver|svgtranslate-format-fullurl-example}}',
+* $1 is the string {{msg-intuition|svgtranslate-format-filename-example}}
+* $2 is the string {{msg-intuition|svgtranslate-format-fullurl-example}}',
 	'format-filename-example' => '{{Notranslate}}',
 	'format-fullurl-example' => '{{Notranslate}}',
 	'svginput-label' => 'The label for main SVG filename input.',
@@ -100,7 +102,6 @@ Parameters:
 	'preview-hide' => 'The text for a button which hides the preview that the user has just asked for.',
 	'preview-refresh' => 'The text for a button which refreshes the preview that the user has just asked for.',
 	'error-must-accept' => 'An error message encountered when users do not tick the box that indicates they accept the terms of use of the tool.',
-	'error-tusc-failed' => 'An error encountered when a TUSC user with that username/password combination is not found e.g. because the wrong password have been supplied.',
 	'description-license' => 'A header for a form where description and copyright license are selected.',
 );
 
@@ -150,7 +151,7 @@ $messages['ar'] = array(
 	'th-username' => 'اسم المستخدم',
 	'th-password' => 'كلمة السر',
 	'th-method' => 'وسيلة',
-	'option-tusc' => 'TUSC (التحميل التلقائي)',
+	'option-oauth' => 'TUSC (التحميل التلقائي)', # Fuzzy
 	'option-manual' => 'رفع يدوي',
 	'preview' => 'استعرِض',
 	'translate' => 'ترجم',
@@ -160,12 +161,11 @@ $messages['ar'] = array(
 	'uploading' => 'يجري الرفع',
 	'upload-complete' => 'تم الرفع بنجاح. ينبغي أن تكون الصورة الآن في $1',
 	'editdescriptionpage' => 'عدل صفحة الوصف الجديدة',
-	'disclaimer' => 'سيتم جمع بعض البيانات المُجَهَّلَة لأغراض إحصائية، كما سيتم تسجيل أسماء مستخدمي TUSC - إن أُعطيت - للمعونة في حال وقوع تخريب. كلمات السِّرِّ لا يتم تسجيلها مطلقا.',
+	'disclaimer' => 'سيتم جمع بعض البيانات المُجَهَّلَة لأغراض إحصائية، كما سيتم تسجيل أسماء مستخدمي TUSC - إن أُعطيت - للمعونة في حال وقوع تخريب. كلمات السِّرِّ لا يتم تسجيلها مطلقا.', # Fuzzy
 	'author-complete' => 'استكمل بيانات المؤلف.',
 	'preview-hide' => 'أخفِ المعاينة',
 	'preview-refresh' => 'أنعش المعاينة',
 	'error-must-accept' => 'للمواصلة في الرفع المباشر يجب عليك قبول شروط الاستخدام المقدمة.',
-	'error-tusc-failed' => 'فشل التحقق من صحة الـ TUSC: اسم المستخدم أو كلمة المرور غير صحيحة.',
 	'description-license' => 'اختر وصفا ورخصة',
 	'finalise' => 'إنهاء التفاصيل',
 );
@@ -223,7 +223,7 @@ $messages['ast'] = array(
 	'th-username' => "Nome d'usuariu",
 	'th-password' => 'Contraseña',
 	'th-method' => 'Métodu',
-	'option-tusc' => 'TUSC (xuba automática)',
+	'option-oauth' => 'TUSC (xuba automática)', # Fuzzy
 	'option-manual' => 'Xuba manual',
 	'preview' => 'Vista previa',
 	'translate' => 'Traducir',
@@ -233,12 +233,11 @@ $messages['ast'] = array(
 	'uploading' => 'Xubiendo',
 	'upload-complete' => 'La xuba se completó correutamente. La imaxe habría tar anguaño en $1',
 	'editdescriptionpage' => 'Editar la páxina de descripción nueva',
-	'disclaimer' => "Van recoyese dellos datos anónimos con propósitu estadísticu. Si se dan, los nomes d'usuariu TUSC tamién van grabase como ayuda'n casu de vandalismu. Les contraseñes enxamás se grabarán.",
+	'disclaimer' => "Van recoyese dellos datos anónimos con propósitu estadísticu. Si se dan, los nomes d'usuariu TUSC tamién van grabase como ayuda'n casu de vandalismu. Les contraseñes enxamás se grabarán.", # Fuzzy
 	'author-complete' => '¡Por favor, completa la información del autor!',
 	'preview-hide' => 'Anubrir vista previa',
 	'preview-refresh' => 'Refrescar entever',
 	'error-must-accept' => "Pa siguir cola xubía direuta tienes d'aceutar los términos d'usu que s'ufren.",
-	'error-tusc-failed' => 'Fallu na validación TUSC: usuariu o conseña incorreutos.',
 	'description-license' => 'Escoyer descripción y llicencia',
 	'finalise' => 'Finar detalles',
 );
@@ -282,7 +281,7 @@ $messages['azb'] = array(
 	'th-username' => 'ایستیفاده‌چی آدی',
 	'th-password' => 'رمز',
 	'th-method' => 'یول',
-	'option-tusc' => 'TUSC (اوتوماتیک یوکله‌مک)',
+	'option-oauth' => 'TUSC (اوتوماتیک یوکله‌مک)', # Fuzzy
 	'option-manual' => 'ال ایله یوکله‌مک',
 	'preview' => 'اؤن‌گؤستریش',
 	'translate' => 'چئویرمک',
@@ -292,12 +291,11 @@ $messages['azb'] = array(
 	'uploading' => 'یوکله‌نیر',
 	'upload-complete' => 'یوکله‌مک اوغورلا قورتاریلدی. شکیل ایندی گرک $1-ده اولا',
 	'editdescriptionpage' => 'یئنی آچیقلاما صحیفه‌سینی دَییشدیر',
-	'disclaimer' => 'بعضی تانیملانمامیش معلومات اؤزل اولاراق آمار اوچون ییغیلاجاق‌دیر. اگر وئریلسه، واندالیزمه قارشی یاردیم اولماق اوچون TUSC ایستیفاده‌چی آدی دا ثبت اولوناجاقدیر. رمزلر هئچ واخت ثبت اولمایاجاقلار.',
+	'disclaimer' => 'بعضی تانیملانمامیش معلومات اؤزل اولاراق آمار اوچون ییغیلاجاق‌دیر. اگر وئریلسه، واندالیزمه قارشی یاردیم اولماق اوچون TUSC ایستیفاده‌چی آدی دا ثبت اولوناجاقدیر. رمزلر هئچ واخت ثبت اولمایاجاقلار.', # Fuzzy
 	'author-complete' => 'لوطفاً یارادیجی بیلگیلرینی دولدورون!',
 	'preview-hide' => 'اؤن‌گؤستریشی گیزلت',
 	'preview-refresh' => 'اؤن‌گؤستریشی یئنی‌له',
 	'error-must-accept' => 'موستقیم یوکله‌مگی داوام ائتمک اوچون گرک ایستیفاده شرطلرینی قبول ائده‌سینیز.',
-	'error-tusc-failed' => 'TUSC دوغرولاماغی اوغورسوز اولدو: ایستیفاده‌چی آدی یا رمز، یانلیش‌دیر.',
 	'description-license' => 'آچیقلاما و لیسانسی سئچین',
 	'finalise' => 'بیلگیلری تاماملا',
 );
@@ -320,7 +318,7 @@ $messages['ba'] = array(
 	'th-username' => 'Ҡатнашыусы исеме',
 	'th-password' => 'Пароль',
 	'th-method' => 'Ысул',
-	'option-tusc' => 'TUSC (автоматик йөкләү)',
+	'option-oauth' => 'TUSC (автоматик йөкләү)', # Fuzzy
 	'option-manual' => 'Ҡул менән йөкләү',
 	'preview' => 'Алдан байҡау',
 	'translate' => 'Тәржемә итергә',
@@ -330,12 +328,11 @@ $messages['ba'] = array(
 	'uploading' => 'Тейәү',
 	'upload-complete' => 'Тейәү тамамланда. Рәсемде $1 адресында ҡарарға мөмкин.',
 	'editdescriptionpage' => 'Яңы тасуирлама битен үҙгәртергә',
-	'disclaimer' => 'Ҡайһы бер аноним мәғлүмәттәр статистика маҡсаты өсөн яҙыласаҡ. Әгәр TUSC-исем яҙылған булһа, вандализмға ҡаршы ярҙам өсөн яҙыласаҡ. Парольдәр бер касан да яҙылмай.',
+	'disclaimer' => 'Ҡайһы бер аноним мәғлүмәттәр статистика маҡсаты өсөн яҙыласаҡ. Әгәр TUSC-исем яҙылған булһа, вандализмға ҡаршы ярҙам өсөн яҙыласаҡ. Парольдәр бер касан да яҙылмай.', # Fuzzy
 	'author-complete' => 'Зинһар өсөн, автор тураһында мәғлүмәт яҙығыҙ!',
 	'preview-hide' => 'Ҡарап сығыуҙы йәшерергә',
 	'preview-refresh' => 'Алдан ҡарауҙы яңыртырға',
 	'error-must-accept' => 'Тура тейеүҙе дауат итеү өсөн, Ҡулланыу шарттарын ҡабул итергә кәрәк.',
-	'error-tusc-failed' => ' TUSC тикшереүе өҙөлдө. Ҡулланыусының исеме йәки пароле дөрөҫ түгел.',
 	'description-license' => 'Тасүирлама һәм лицензия һайлағыҙ.',
 	'finalise' => 'Тулы йомғаҡлау',
 );
@@ -358,7 +355,7 @@ $messages['be'] = array(
 	'th-username' => 'Імя ўдзельніка',
 	'th-password' => 'Пароль',
 	'th-method' => 'Метад',
-	'option-tusc' => 'TUSC (аўтаматычная загрузка)',
+	'option-oauth' => 'TUSC (аўтаматычная загрузка)', # Fuzzy
 	'option-manual' => 'Загрузка ўручную',
 	'preview' => 'Папярэдні прагляд',
 	'translate' => 'Перакласці',
@@ -368,12 +365,11 @@ $messages['be'] = array(
 	'uploading' => 'Загрузка...',
 	'upload-complete' => 'Загрузка завершаная паспяхова. Выява мусіць быць даступная па адрасе $1',
 	'editdescriptionpage' => 'Змяніць новую старонку апісання',
-	'disclaimer' => 'Некаторыя ананімныя звесткі будуць збірацца для статыстычных мэтаў. Калі будуць пададзеныя, імёны ўдзельнікаў TUSC будуць таксама запісаныя ў мэтах абароны ад вандалізму. Паролі ніколі не будуць запісвацца.',
+	'disclaimer' => 'Некаторыя ананімныя звесткі будуць збірацца для статыстычных мэтаў. Калі будуць пададзеныя, імёны ўдзельнікаў TUSC будуць таксама запісаныя ў мэтах абароны ад вандалізму. Паролі ніколі не будуць запісвацца.', # Fuzzy
 	'author-complete' => 'Калі ласка, запоўніце інфармацыю пра аўтара!',
 	'preview-hide' => 'Схаваць папярэдні прагляд',
 	'preview-refresh' => 'Абнавіць папярэдні прагляд',
 	'error-must-accept' => 'Каб працягнуць непасрэдную загрузку, Вы мусіце пагадзіцца з умовамі карыстання',
-	'error-tusc-failed' => 'Праверка TUSC не атрымалася: няслушны пароль або імя ўдзельніка.',
 	'description-license' => 'Абярыце апісанне і ліцэнзію',
 	'finalise' => 'Завяршыце апісанне падрабязнасцяў',
 );
@@ -398,7 +394,7 @@ $messages['be-tarask'] = array(
 	'th-username' => 'Імя карыстальніка',
 	'th-password' => 'Пароль',
 	'th-method' => 'Мэтад',
-	'option-tusc' => 'TUSC (аўтаматычная загрузка)',
+	'option-oauth' => 'TUSC (аўтаматычная загрузка)', # Fuzzy
 	'option-manual' => 'Ручная загрузка',
 	'preview' => 'Папярэдні прагляд',
 	'translate' => 'Перакласьці',
@@ -408,12 +404,11 @@ $messages['be-tarask'] = array(
 	'uploading' => 'Ідзе загрузка',
 	'upload-complete' => 'Загрузка завершаная пасьпяхова. Выява мусіць быць даступная па адрасе $1',
 	'editdescriptionpage' => 'Рэдагаваць старонку апісаньня',
-	'disclaimer' => 'Некаторыя ананімныя зьвесткі будуць зьбірацца для статыстычных мэтаў. Калі будуць пададзеныя, імёны ўдзельнікаў TUSC будуць таксама запісаныя ў мэтах абароны ад вандалізму. Паролі ніколі не будуць запісвацца.',
+	'disclaimer' => 'Некаторыя ананімныя зьвесткі будуць зьбірацца для статыстычных мэтаў. Калі будуць пададзеныя, імёны ўдзельнікаў TUSC будуць таксама запісаныя ў мэтах абароны ад вандалізму. Паролі ніколі не будуць запісвацца.', # Fuzzy
 	'author-complete' => 'Запоўніце зьвесткі пра аўтарства!',
 	'preview-hide' => 'Схаваць папярэдні прагляд',
 	'preview-refresh' => 'Абнавіць папярэдні прагляд',
 	'error-must-accept' => 'Каб працягваць непасрэдную загрузку, Вам неабходна пагадзіцца з пададзенымі ўмовамі выкарыстаньня.',
-	'error-tusc-failed' => 'Памылка праверкі TUSC: няслушны пароль ці імя карыстальніка.',
 	'description-license' => 'Выберыце апісаньне і ліцэнзію',
 	'finalise' => 'Падсумуйце апісаньне падрабязнасьцяў',
 );
@@ -438,13 +433,14 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Bellayet
  * @author Nasir8891
  * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'title' => 'এসভিজি অনুবাদ',
-	'error-tryagain' => '$1 পুনরায় চেষ্টা করতে আপনার ব্রাউজারের ব্যাক বাটনে ক্লিক করুন।',
+	'error-tryagain' => '$1 পুনরায় চেষ্টা করতে আপনার ব্রাউজারের পিছনে বোতাম ক্লিক করুন।',
 	'error-nothing' => 'অনুবাদ করার মতো কিছু নেই।',
 	'error-notsvg' => 'এটি কোনো এসভিজি ফাইল নয়।',
 	'error-unexpected' => 'একটি অনাকাঙ্ক্ষিত ত্রুটি দেখা দিয়েছে।',
@@ -455,10 +451,10 @@ $messages['bn'] = array(
 	'th-translation' => 'অনুবাদ',
 	'th-language' => 'ভাষা',
 	'th-username' => 'ব্যবহারকারী নাম',
-	'th-password' => 'শব্দচাবি (Password)',
+	'th-password' => 'পাসওয়ার্ড',
 	'th-method' => 'পদ্ধতি',
-	'option-tusc' => 'TUSC (স্বয়ংক্রিয় আপলোড)',
-	'option-manual' => 'হাতে আপলোড',
+	'option-oauth' => 'OAuth (স্বয়ংক্রিয় আপলোড)',
+	'option-manual' => 'ম্যানুয়াল আপলোড',
 	'preview' => 'প্রাকদর্শন',
 	'translate' => 'অনুবাদ',
 	'translate-instructions' => 'ইনপুট হিসেবে শুধুমাত্র ফাইলের নাম (যেমন: "$1") বা পূর্ণ ইউআরএল (যেমন: "$2") গ্রহণযোগ্য। যদি ফাইলের নাম ব্যবহার করেন, তবে উইকিমিডিয়া কমন্সকে ফাইলের উৎস হিসেবে ধরে নেওয়া হবে। অন্য কোনো সাইট বা উইকি থেকে এসভিজি ট্রান্সলেট করতে হলে আপনাকে অবশ্যই পূর্ণ ইউআরএল প্রবেশ করাতে হবে।',
@@ -493,7 +489,7 @@ $messages['br'] = array(
 	'th-username' => 'Anv implijer',
 	'th-password' => 'Ger-tremen',
 	'th-method' => 'Hentenn',
-	'option-tusc' => 'TUSC (enporzh emgefre)',
+	'option-oauth' => 'TUSC (enporzh emgefre)', # Fuzzy
 	'option-manual' => 'Enporzh dre zorn',
 	'preview' => 'Rakwelet',
 	'translate' => 'Treiñ',
@@ -503,12 +499,11 @@ $messages['br'] = array(
 	'uploading' => "Oc'h enporzhiañ",
 	'upload-complete' => "Enporzhiet eo bet ar skeudenn ervat. Bez' e tlefe bezañ war $1 bremañ",
 	'editdescriptionpage' => 'Embann deskrivadur nevez ar bajenn',
-	'disclaimer' => "Roadennoù dianv zo a vo dastumet evit sevel stadegoù a chomo prevez. Ma vez resisaet an anvioù implijer evit TUSC e vint notennet ivez gant ar pal stourm a-enep d'ar vandalerezh. Ne vez ket enrollet ar gerioù-tremen gwezh ebet.",
+	'disclaimer' => "Roadennoù dianv zo a vo dastumet evit sevel stadegoù a chomo prevez. Ma vez resisaet an anvioù implijer evit TUSC e vint notennet ivez gant ar pal stourm a-enep d'ar vandalerezh. Ne vez ket enrollet ar gerioù-tremen gwezh ebet.", # Fuzzy
 	'author-complete' => 'Klokaat an titouroù diwar-benn an aozer !',
 	'preview-hide' => 'Kuzhat ar rakweled',
 	'preview-refresh' => 'Freskaat ar rakweled',
 	'error-must-accept' => "Evit gallout kenderc'hel gant un enporzhiadenn war-eeun eo ret deoc'h bezañ asantet d'an termenoù implijout pourchaset.",
-	'error-tusc-failed' => "C'hwitet eo bet gwiriekadenn TUSC : direizh eo an anv implijer pe ar ger-tremen.",
 	'description-license' => 'Dibab an deskrivadur hag an aotre-implijout',
 	'finalise' => 'Peurlipat ar munudoù',
 );
@@ -526,6 +521,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Fitoschido
  * @author SMP
  */
 $messages['ca'] = array(
@@ -543,7 +539,7 @@ $messages['ca'] = array(
 	'th-username' => "Nom d'usuari",
 	'th-password' => 'Contrasenya',
 	'th-method' => 'Mètode',
-	'option-tusc' => 'TUSC (càrrega automàtica)',
+	'option-oauth' => 'OAuth (càrrega automàtica)',
 	'option-manual' => 'Càrrega manual',
 	'preview' => 'Vista prèvia',
 	'translate' => 'Traducció',
@@ -553,12 +549,11 @@ $messages['ca'] = array(
 	'uploading' => 'Càrrega en curs',
 	'upload-complete' => "La càrrega s'ha completat amb èxit. La imatge hauria d'estar a l'adreça $1",
 	'editdescriptionpage' => 'Modifica la nova pàgina de descripció',
-	'disclaimer' => "Es recolliran de manera privada algunes dades anònimes amb una finalitat estadística. Quan s'hagin proporcionat, també es registraran els noms d'usuari de TUSC per assistir en cas de vandalisme. Les contrasenyes no es conserven en cap cas.",
+	'disclaimer' => "Es recolliran de manera privada algunes dades anònimes amb una finalitat estadística. Quan s'hagin proporcionat, també es registraran els noms d'usuari de TUSC per assistir en cas de vandalisme. Les contrasenyes no es conserven en cap cas.", # Fuzzy
 	'author-complete' => "Completeu la informació de l'autor!",
 	'preview-hide' => 'Amaga la vista prèvia',
 	'preview-refresh' => 'Actualitza la vista prèvia',
 	'error-must-accept' => "Per continuar amb la càrrega directa cal que accepteu les condicions d'ús establertes.",
-	'error-tusc-failed' => "Error de validació de TUSC: nom d'usuari o contrasenya incorrectes.",
 	'description-license' => 'Seleccioneu la descripció i la llicència',
 	'finalise' => 'Conclusió dels detalls',
 );
@@ -573,7 +568,8 @@ $messages['ce'] = array(
 	'th-translation' => 'Гоч',
 	'th-language' => 'Мотт',
 	'th-username' => 'Декъашхочун цӀе',
-	'preview' => 'Хьалха муха ю хьажа',
+	'option-oauth' => 'OAuth (автоматически чуяккхар)',
+	'preview' => 'Хьалха хьажар',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -589,9 +585,10 @@ $messages['ckb'] = array(
 	'translate' => 'وەرگێڕە',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Jezevec
+ * @author Mormegil
  * @author PSJG-Tyler
  * @author Vks
  */
@@ -609,7 +606,7 @@ $messages['cs'] = array(
 	'th-username' => 'Uživatelské jméno',
 	'th-password' => 'Heslo',
 	'th-method' => 'Metoda',
-	'option-tusc' => 'TUSC (automatický upload)',
+	'option-oauth' => 'OAuth (automatický upload)',
 	'option-manual' => 'Ruční nahrávání',
 	'preview' => 'Náhled',
 	'translate' => 'Přeložit',
@@ -619,12 +616,11 @@ $messages['cs'] = array(
 	'uploading' => 'Uploadování',
 	'upload-complete' => 'Upload proběhl úspěšně. Obrázek by měl být na $1',
 	'editdescriptionpage' => 'Upravit novou popisnou stránku',
-	'disclaimer' => 'Některá anonymní data budou sbírána pro statistické účely. Uživatelská jména TUSC budou zaznamenávána, pokud budou k dispozici, pro případ nutnosti řešit vandalismus. Hesla nebudou nikdy zaznamenávána.',
+	'disclaimer' => 'Některá anonymní data budou sbírána pro statistické účely. Uživatelská jména TUSC budou zaznamenávána, pokud budou k dispozici, pro případ nutnosti řešit vandalismus. Hesla nebudou nikdy zaznamenávána.', # Fuzzy
 	'author-complete' => 'Prosím, vyplňte údaje o autorovi.',
 	'preview-hide' => 'Skrýt náhled',
 	'preview-refresh' => 'Aktualizovat náhled',
 	'error-must-accept' => 'Abyste mohli uploadovat soubory, musíte přijmout přiložená pravidla použití.',
-	'error-tusc-failed' => 'Validace TUSC selhala: Uživatelské jméno nebo heslo není správně.',
 	'description-license' => 'Vyberte popis a licenci',
 	'finalise' => 'Dokončit detaily',
 );
@@ -640,7 +636,7 @@ $messages['cv'] = array(
 	'th-username' => 'Усӑҫ ячӗ',
 	'th-password' => 'Вӑрттӑн сӑмах',
 	'th-method' => 'Меслет',
-	'option-tusc' => 'TUSC (автоматла тиесе яни)',
+	'option-oauth' => 'TUSC (автоматла тиесе яни)', # Fuzzy
 	'option-manual' => 'Алӑпа тиесе яни',
 	'preview' => 'Ум курӑм',
 	'translate' => 'Куҫарма',
@@ -670,7 +666,7 @@ $messages['da'] = array(
 	'th-username' => 'Brugernavn',
 	'th-password' => 'Adgangskode',
 	'th-method' => 'Metode',
-	'option-tusc' => 'TUSC (automatisk upload)',
+	'option-oauth' => 'TUSC (automatisk upload)', # Fuzzy
 	'option-manual' => 'Manuel upload',
 	'preview' => 'Forhåndsvisning',
 	'translate' => 'Oversæt',
@@ -680,12 +676,11 @@ $messages['da'] = array(
 	'uploading' => 'Uploader',
 	'upload-complete' => 'Upload fuldendt. Billedet burde nu være at finde på $1',
 	'editdescriptionpage' => 'Rediger den nye beskrivelsesside',
-	'disclaimer' => 'Nogle anonyme data vil blive indsamlet privat for at kunne føre statistik. Hvis det oplyses, vil TUSC-brugernavne også blive registreret til hjælp i tilfælde af hærværk. Adgangskoder vil aldrig blive registreret.',
+	'disclaimer' => 'Nogle anonyme data vil blive indsamlet privat for at kunne føre statistik. Hvis det oplyses, vil TUSC-brugernavne også blive registreret til hjælp i tilfælde af hærværk. Adgangskoder vil aldrig blive registreret.', # Fuzzy
 	'author-complete' => 'Udfyld venligst oplysninger om forfattere!',
 	'preview-hide' => 'Skjul forhåndsvisning',
 	'preview-refresh' => 'Genopfrisk forhåndsvisning',
 	'error-must-accept' => 'For at kunne fortsætte med direkte upload, skal du acceptere brugsvilkårene.',
-	'error-tusc-failed' => 'TUSC-godkendelse lykkedes ikke: forkert brugernavn eller adgangskode.',
 	'description-license' => 'Vælg beskrivelse og licens',
 	'finalise' => 'Færdiggør detaljer',
 );
@@ -693,6 +688,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Giftpflanze
  * @author Kghbln
+ * @author Metalhead64
  */
 $messages['de'] = array(
 	'title' => 'SVG-Übersetzung',
@@ -709,7 +705,7 @@ $messages['de'] = array(
 	'th-username' => 'Benutzername',
 	'th-password' => 'Passwort',
 	'th-method' => 'Methode',
-	'option-tusc' => 'TUSC (automatisches Hochladen)',
+	'option-oauth' => 'OAuth (automatisches Hochladen)',
 	'option-manual' => 'Manuelles Hochladen',
 	'preview' => 'Vorschau',
 	'translate' => 'Übersetzen',
@@ -719,12 +715,11 @@ $messages['de'] = array(
 	'uploading' => 'Am Hochladen …',
 	'upload-complete' => 'Das Hochladen wurde erfolgreich abgeschlossen. Das Bild sollte jetzt unter $1 verfügbar sein.',
 	'editdescriptionpage' => 'Die neue Beschreibungsseite bearbeiten',
-	'disclaimer' => 'Einige anonymen Daten werden für statistische Zwecke erhoben. Sofern angegeben werden auch die TUSC-Benutzernamen aufgezeichnet, um im Fall von Vandalismus Abhilfe zu erleichtern. Passwörter werden niemals aufgezeichnet.',
+	'disclaimer' => 'Einige anonymen Daten werden für statistische Zwecke erhoben. Sofern angegeben werden auch die OAuth-Benutzernamen aufgezeichnet, um im Fall von Vandalismus Abhilfe zu erleichtern. Passwörter werden niemals aufgezeichnet.',
 	'author-complete' => 'Bitte die Angaben zum Autor vervollständigen.',
 	'preview-hide' => 'Vorschau ausblenden',
 	'preview-refresh' => 'Vorschau aktualisieren',
 	'error-must-accept' => 'Um mit einem direkten Upload fortzufahren, musst du die angegebenen Nutzungsbedingungen annehmen.',
-	'error-tusc-failed' => 'TUSC-Prüfung fehlgeschlagen: Benutzername oder Passwort fehlerhaft',
 	'description-license' => 'Bitte Beschreibung und Lizenz auswählen',
 	'finalise' => 'Angaben vervollständigen',
 );
@@ -741,7 +736,7 @@ $messages['diq'] = array(
 	'th-username' => 'Nameyê karberi',
 	'th-password' => 'Parola',
 	'th-method' => 'Metod',
-	'option-tusc' => 'TUSC (otomatik barkerdış)',
+	'option-oauth' => 'TUSC (otomatik barkerdış)', # Fuzzy
 	'option-manual' => 'Manuel barkerdış',
 	'preview' => 'Verqayt',
 	'translate' => 'Açarne',
@@ -769,7 +764,7 @@ $messages['dsb'] = array(
 	'th-username' => 'Wužywarske mě',
 	'th-password' => 'Gronidło',
 	'th-method' => 'Metoda',
-	'option-tusc' => 'TUSC (awtomatiske nagraśe)',
+	'option-oauth' => 'TUSC (awtomatiske nagraśe)', # Fuzzy
 	'option-manual' => 'Manuelne nagraśe',
 	'preview' => 'Pśeglěd',
 	'translate' => 'Pśełožyś',
@@ -779,12 +774,11 @@ $messages['dsb'] = array(
 	'uploading' => 'Nagrawa se...',
 	'upload-complete' => 'Nagraśe jo wuspěšnje dokóńcone. Wobraz by dejał něnto pód $1 k dispoziciji staś.',
 	'editdescriptionpage' => 'Nowy wopisański bok wobźěłaś',
-	'disclaimer' => 'Někotare anonymne daty zběraju se za statistiske zaměry. Jolic k dispoziciji, wužywarske mjenja TUSC so teke zapśimuju, ako pomocny srědk pśeśiwo wandalizmoju. Gronidła se nigda njezapśimuju.',
+	'disclaimer' => 'Někotare anonymne daty zběraju se za statistiske zaměry. Jolic k dispoziciji, wužywarske mjenja TUSC so teke zapśimuju, ako pomocny srědk pśeśiwo wandalizmoju. Gronidła se nigda njezapśimuju.', # Fuzzy
 	'author-complete' => 'Pšosym wudopołni informacije wó awtorje!',
 	'preview-hide' => 'Pśeglěd schowaś',
 	'preview-refresh' => 'Pśeglěd aktualizěrowaś',
 	'error-must-accept' => 'Aby z direktnym nagraśim pókšacował, musyš slědujuce wužywańske wuměnjenja akceptěrowaś.',
-	'error-tusc-failed' => 'TUSC-pśeglědanje njejo se raźiło: Wužywarske mě abo gronidło jo wopak.',
 	'description-license' => 'Wopisanje a licencu wubraś',
 	'finalise' => 'Drobnostki wudopołniś',
 );
@@ -808,7 +802,7 @@ $messages['el'] = array(
 	'th-username' => 'Όνομα χρήστη',
 	'th-password' => 'Κωδικός',
 	'th-method' => 'Μέθοδος',
-	'option-tusc' => 'TUSC (αυτόματη μεταφόρτωση)',
+	'option-oauth' => 'TUSC (αυτόματη μεταφόρτωση)', # Fuzzy
 	'option-manual' => 'Μη αυτόματη μεταφόρτωση',
 	'preview' => 'Προεπισκόπηση',
 	'translate' => 'Μετάφραση',
@@ -845,7 +839,7 @@ $messages['eo'] = array(
 	'th-username' => 'Salutnomo',
 	'th-password' => 'Pasvorto',
 	'th-method' => 'Metodo',
-	'option-tusc' => 'TUSC (aŭtomate alŝuti)',
+	'option-oauth' => 'TUSC (aŭtomate alŝuti)', # Fuzzy
 	'option-manual' => 'Permana alŝuto',
 	'preview' => 'Antaŭvido',
 	'translate' => 'Traduki',
@@ -858,6 +852,7 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author Macofe
  * @author Platonides
  */
 $messages['es'] = array(
@@ -866,7 +861,7 @@ $messages['es'] = array(
 	'error-nothing' => 'No hay nada que traducir.',
 	'error-notsvg' => 'No es un archivo SVG.',
 	'error-unexpected' => 'Ocurrió un error inesperado.',
-	'error-notfound' => 'No se pudo recuperar el archivo SVG desde la dirección URL proporcionada.',
+	'error-notfound' => 'No se pudo recuperar el archivo SVG desde la URL proporcionada.',
 	'error-upload' => 'Se ha producido un error de carga.',
 	'begin-translation' => 'Comenzar traducción',
 	'th-original' => 'Original',
@@ -875,7 +870,7 @@ $messages['es'] = array(
 	'th-username' => 'Nombre de usuario',
 	'th-password' => 'Contraseña',
 	'th-method' => 'Método',
-	'option-tusc' => 'TUSC (carga automática)',
+	'option-oauth' => 'OAuth (carga automática)',
 	'option-manual' => 'Carga manual',
 	'preview' => 'Previsualización',
 	'translate' => 'Traducir',
@@ -885,12 +880,11 @@ $messages['es'] = array(
 	'uploading' => 'Subiendo',
 	'upload-complete' => 'La carga ha finalizado correctamente. La imagen debe estar ahora en $1',
 	'editdescriptionpage' => 'Editar la nueva página de descripción',
-	'disclaimer' => 'Se recogerán de forma privada algunos datos anónimos para propósitos estadísticos. En caso de proporcionarse, los nombres de usuario de TUSC también se almacenarán como asistencia en caso de vandalismo. Las contraseñas no se almacenan en ningún caso.',
+	'disclaimer' => 'Se recopilarán de forma privada algunos datos anónimos para propósitos estadísticos. En caso de proporcionarse, los nombres de usuario de OAuth también se almacenarán como asistencia en caso de vandalismo. Las contraseñas nunca se almacenan.',
 	'author-complete' => '¡Por favor, completa la información del autor!',
 	'preview-hide' => 'Ocultar previsualización',
 	'preview-refresh' => 'Actualizar previsualización',
 	'error-must-accept' => 'Para continuar con una carga directa debes aceptar los términos de uso provistos.',
-	'error-tusc-failed' => 'Error de validación de TUSC: nombre de usuario o contraseña incorrectos.',
 	'description-license' => 'Selecciona la descripción y licencia',
 	'finalise' => 'Finalizar detalles',
 );
@@ -913,7 +907,7 @@ $messages['et'] = array(
 	'th-username' => 'Kasutajanimi',
 	'th-password' => 'Parool',
 	'th-method' => 'Viis',
-	'option-tusc' => 'TUSC (automaatne üleslaadimine)',
+	'option-oauth' => 'TUSC (automaatne üleslaadimine)', # Fuzzy
 	'option-manual' => 'Käsitsi üleslaadimine',
 	'preview' => 'Eelvaade',
 	'translate' => 'Tõlgi',
@@ -923,12 +917,11 @@ $messages['et'] = array(
 	'uploading' => 'Üleslaadimine',
 	'upload-complete' => 'Edukalt üles laaditud. Pilt peaks olema nüüd asukohas $1.',
 	'editdescriptionpage' => 'Redigeeri uut kirjelduslehekülge',
-	'disclaimer' => 'Osa nimeta andmeid kogutakse isiklikuks kasutamiseks statistilistel eesmärkidel. Ka TUSC-kasutajanimi talletatakse, kui selle sisestad, sest see on abiks võimaliku vandalismi korral. Paroole ei talletata kunagi.',
+	'disclaimer' => 'Osa nimeta andmeid kogutakse isiklikuks kasutamiseks statistilistel eesmärkidel. Ka TUSC-kasutajanimi talletatakse, kui selle sisestad, sest see on abiks võimaliku vandalismi korral. Paroole ei talletata kunagi.', # Fuzzy
 	'author-complete' => 'Palun lisa autoriteave!',
 	'preview-hide' => 'Peida eelvaade',
 	'preview-refresh' => 'Uuenda eelvaade',
 	'error-must-accept' => 'Et jätkata otsese üleslaadimisega, pead nõustuma toodud tingimustega.',
-	'error-tusc-failed' => 'TUSC-kontroll ebaõnnestus: vale kasutajanimi või parool.',
 	'description-license' => 'Kirjelduse ja litsentsi valimine',
 	'finalise' => 'Üksikasjade lõplik vormistus',
 );
@@ -951,7 +944,7 @@ $messages['eu'] = array(
 	'th-username' => 'Erabiltzaile izena',
 	'th-password' => 'Pasahitza',
 	'th-method' => 'Metodoa',
-	'option-tusc' => 'TUSC (igoera automatikoa)',
+	'option-oauth' => 'TUSC (igoera automatikoa)', # Fuzzy
 	'option-manual' => 'Eskuz igo',
 	'preview' => 'Aurrebista',
 	'translate' => 'Itzuli',
@@ -961,17 +954,17 @@ $messages['eu'] = array(
 	'uploading' => 'Igotzen',
 	'upload-complete' => 'Igoera arrakastatsua izan da. Irudiak $1-en egon beharko luke',
 	'editdescriptionpage' => 'Deskribapen orri berria aldatu',
-	'disclaimer' => 'Datu anonimo batzuk jasoko dira hainbat estatistika egiteko. TUSC erabiltzaile izenak ere gordeak izango dira bandalismo ekintzak ekiditeko. Pasahitzak ez dira inoiz gordeko.',
+	'disclaimer' => 'Datu anonimo batzuk jasoko dira hainbat estatistika egiteko. TUSC erabiltzaile izenak ere gordeak izango dira bandalismo ekintzak ekiditeko. Pasahitzak ez dira inoiz gordeko.', # Fuzzy
 	'author-complete' => 'Mesedez egilearen informazioa bete!',
 	'preview-hide' => 'Aurrebista ezkutatu',
 	'preview-refresh' => 'Aurrebista eguneratu',
 	'error-must-accept' => 'Zuzeneko igoerarekin jarraitzeko erabilera-baldintzak onartu behar dituzu.',
-	'error-tusc-failed' => 'TUSC baieztapenak huts egin du: erabiltzaile izena edo pasahitza ez dira zuzenak.',
 	'description-license' => 'Aukeratu deskribapena eta lizentzia',
 	'finalise' => 'Xehetasunak amaitu',
 );
 
 /** Persian (فارسی)
+ * @author Alirezaaa
  * @author Ebraminio
  * @author Omidh
  * @author Wayiran
@@ -992,7 +985,7 @@ $messages['fa'] = array(
 	'th-username' => 'نام کاربری',
 	'th-password' => 'گذرواژه',
 	'th-method' => 'روش',
-	'option-tusc' => 'TUSC (بارگذاری خودکار)',
+	'option-oauth' => 'TUSC (بارگذاری خودکار)', # Fuzzy
 	'option-manual' => 'بارگذاری دستی',
 	'preview' => 'پیش‌نمایش',
 	'translate' => 'ترجمه',
@@ -1001,13 +994,12 @@ $messages['fa'] = array(
 	'stats-footer' => 'این ابزار از $2 برای ترجمهٔ حدود $1 پرونده استفاده شده‌است.',
 	'uploading' => 'بارگذاری',
 	'upload-complete' => 'بارگذاری با موفقیت انجام شد. نگاره اکنون باید در $1 باشد.',
-	'editdescriptionpage' => 'ویرایش صفحهٔ توضیحات جدید',
-	'disclaimer' => 'مقداری داده‌های ناشناس برای اهداف آماری جمع‌آوری خواهد شد. اگر ارائه شود، نام‌های کاربری TUSC برای کمک در هنگام خرابکاری ثبت خواهند شد. گذرواژه‌ها هیچ‌گاه ثبت نخواهند شد.',
+	'editdescriptionpage' => 'ویرایش صفحهٔ توضیحات تازه',
+	'disclaimer' => 'مقداری داده‌های ناشناس برای اهداف آماری جمع‌آوری خواهد شد. اگر ارائه شود، نام‌های کاربری TUSC برای کمک در هنگام خرابکاری ثبت خواهند شد. گذرواژه‌ها هیچ‌گاه ثبت نخواهند شد.', # Fuzzy
 	'author-complete' => 'لطفاً اطلاعات پدیدآور را کامل کنید!',
 	'preview-hide' => 'پنهان‌سازی پیش‌نمایش',
 	'preview-refresh' => 'تازه‌کردن پیش‌نمایش',
 	'error-must-accept' => 'برای ادامه‌دادن یک بارگذاری مستقیم باید شرایط استفادهٔ ارائه‌شده را بپذیرید.',
-	'error-tusc-failed' => 'اعتبارسنجی TUSC شکست خورد: نام کاربری یا گذرواژه نادرست است.',
 	'description-license' => 'توضیحات و اجازه‌نامه را انتخاب کنید',
 	'finalise' => 'نهایی‌سازی جزئیات',
 );
@@ -1031,7 +1023,7 @@ $messages['fi'] = array(
 	'th-username' => 'Käyttäjätunnus',
 	'th-password' => 'Salasana',
 	'th-method' => 'Tapa',
-	'option-tusc' => 'TUSC (automaattinen tallennus)',
+	'option-oauth' => 'OAuth (automaattinen tallennus)',
 	'option-manual' => 'Manuaalinen tallennus',
 	'preview' => 'Esikatsele',
 	'translate' => 'Käännä',
@@ -1041,12 +1033,11 @@ $messages['fi'] = array(
 	'uploading' => 'Tallennetaan',
 	'upload-complete' => 'Lataus onnistui. Tiedoston pitäisi löytyä nyt osoitteesta $1',
 	'editdescriptionpage' => 'Muokkaa uutta kuvaussivua',
-	'disclaimer' => 'Joitakin nimettömiä tietoja kerätään tilastokäyttöön. Annetut TUSC-käyttäjätunnukset tallennetaan häiriköinnin tutkintaa varten. Salasanoja ei koskaan tallenneta.',
+	'disclaimer' => 'Joitakin nimettömiä tietoja kerätään tilastokäyttöön. Annetut TUSC-käyttäjätunnukset tallennetaan häiriköinnin tutkintaa varten. Salasanoja ei koskaan tallenneta.', # Fuzzy
 	'author-complete' => 'Täytä tekijän tiedot!',
 	'preview-hide' => 'Piilota esikatselu',
 	'preview-refresh' => 'Päivitä esikatselu',
 	'error-must-accept' => 'Jatkaaksesi suoraa latausta sinun täytyy hyväksyä käyttöehdot.',
-	'error-tusc-failed' => 'TUSC-tarkistus epäonnistui: käyttäjä tai salasana väärin.',
 	'description-license' => 'Valitse kuvaus ja lisenssi',
 	'finalise' => 'Viimeistele tiedot',
 );
@@ -1067,7 +1058,7 @@ $messages['fo'] = array(
 	'th-username' => 'Brúkaranavn',
 	'th-password' => 'Loyniorð',
 	'th-method' => 'Máti',
-	'option-tusc' => 'TUSC (sjálvvirkandi útleggjan)',
+	'option-oauth' => 'TUSC (sjálvvirkandi útleggjan)', # Fuzzy
 	'option-manual' => 'Manuel útleggjan',
 	'preview' => 'Forskoðan',
 	'translate' => 'Týð',
@@ -1080,6 +1071,7 @@ $messages['fo'] = array(
 
 /** French (français)
  * @author Crochet.david
+ * @author Gomoko
  * @author IAlex
  * @author Jean-Frédéric
  * @author Moyg
@@ -1102,7 +1094,7 @@ $messages['fr'] = array(
 	'th-username' => 'Nom d’utilisateur',
 	'th-password' => 'Mot de passe',
 	'th-method' => 'Méthode',
-	'option-tusc' => 'TUSC (téléchargement automatique)',
+	'option-oauth' => 'OAuth (téléchargement automatique)',
 	'option-manual' => 'Téléchargement manuel',
 	'preview' => 'Prévisualiser',
 	'translate' => 'Traduire',
@@ -1112,12 +1104,11 @@ $messages['fr'] = array(
 	'uploading' => 'Téléchargement',
 	'upload-complete' => "Le téléchargement s'est terminé avec succès. L'image devrait maintenant se trouver à l'adresse $1.",
 	'editdescriptionpage' => 'Modifier la nouvelle page de description',
-	'disclaimer' => "Certaines données anonymes seront recueillies de façon privée à des fins statistiques. Si fournis, les noms d'usagers TUSC seront aussi notés dans le but d'aider à combattre le vandalisme. Les mots de passe ne sont jamais enregistrés.",
+	'disclaimer' => 'Certaines données anonymes seront recueillies de façon privée à des fins statistiques. Si fournis, les noms d’usagers OAuth seront aussi notés dans le but d’aider à combattre le vandalisme. Les mots de passe ne sont jamais enregistrés.',
 	'author-complete' => "Remplissez les informations sur l'auteur !",
 	'preview-hide' => "Masquer l'aperçu",
 	'preview-refresh' => 'Actualiser la prévisualisation',
 	'error-must-accept' => "Pour continuer avec un téléversement direct, vous devez accepter les conditions d'utilisation prévues.",
-	'error-tusc-failed' => "La validation TUSC a échoué : nom d'utilisateur ou mot de passe incorrect.",
 	'description-license' => 'Sélectionnez la description et la licence',
 	'finalise' => 'Finaliser les détails',
 );
@@ -1135,7 +1126,7 @@ $messages['frp'] = array(
 	'th-username' => 'Nom d’utilisator',
 	'th-password' => 'Contresegno',
 	'th-method' => 'Mètoda',
-	'option-tusc' => 'TUSC (tèlèchargement ôtomatico)',
+	'option-oauth' => 'TUSC (tèlèchargement ôtomatico)', # Fuzzy
 	'option-manual' => 'Tèlèchargement manuèl',
 	'preview' => 'Prèvisualisacion',
 	'translate' => 'Traduire',
@@ -1170,7 +1161,7 @@ $messages['gl'] = array(
 	'th-username' => 'Nome de usuario',
 	'th-password' => 'Contrasinal',
 	'th-method' => 'Método',
-	'option-tusc' => 'TUSC (carga automática)',
+	'option-oauth' => 'TUSC (carga automática)', # Fuzzy
 	'option-manual' => 'Carga manual',
 	'preview' => 'Vista previa',
 	'translate' => 'Traducir',
@@ -1180,12 +1171,11 @@ $messages['gl'] = array(
 	'uploading' => 'Subindo',
 	'upload-complete' => 'A carga finalizou correctamente. A imaxe debería estar en $1',
 	'editdescriptionpage' => 'Editar a nova páxina de descrición',
-	'disclaimer' => 'Recolleranse de xeito privado algúns datos anónimos para fins estatísticos. Se se proporcionaron, os nomes de usuario TUSC tamén se rexistrarán para axudar a combater o vandalismo. Os contrasinais non se gardan en ningún caso.',
+	'disclaimer' => 'Recolleranse de xeito privado algúns datos anónimos para fins estatísticos. Se se proporcionaron, os nomes de usuario TUSC tamén se rexistrarán para axudar a combater o vandalismo. Os contrasinais non se gardan en ningún caso.', # Fuzzy
 	'author-complete' => 'Complete a información do autor!',
 	'preview-hide' => 'Agochar a vista previa',
 	'preview-refresh' => 'Actualizar a vista previa',
 	'error-must-accept' => 'Para continuar a carga directa ten que aceptar as condicións de uso.',
-	'error-tusc-failed' => 'Fallou a validación TUSC: nome de usuario ou contrasinal incorrectos.',
 	'description-license' => 'Seleccione a descrición e a licenza',
 	'finalise' => 'Finalizar os detalles',
 );
@@ -1214,13 +1204,14 @@ $messages['gu'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Guycn2
  */
 $messages['he'] = array(
 	'title' => 'תרגום SVG',
 	'error-tryagain' => '$1 לחצו על כפתור "חזרה" בדפדפן כדי לנסות שוב.',
 	'error-nothing' => 'אין מה לתרגם.',
 	'error-notsvg' => 'זה לא קובץ SVG.',
-	'error-unexpected' => 'אירעה תקלה בלתי צפויה.',
+	'error-unexpected' => 'אירעה שגיאה בלתי־צפויה.',
 	'error-notfound' => 'לא ניתן לאחזר את קובץ ה־SVG מהכתובת שניתנה',
 	'error-upload' => 'שגיאה בהעלאה.',
 	'begin-translation' => 'להתחיל לתרגם',
@@ -1230,7 +1221,7 @@ $messages['he'] = array(
 	'th-username' => 'שם משתמש',
 	'th-password' => 'סיסמה',
 	'th-method' => 'שיטה',
-	'option-tusc' => 'TUSC (העלאה אוטומטית)',
+	'option-oauth' => 'OAuth (העלאה אוטומטית)',
 	'option-manual' => 'העלאה ידנית',
 	'preview' => 'תצוגה מקדימה',
 	'translate' => 'לתרגם',
@@ -1240,12 +1231,11 @@ $messages['he'] = array(
 	'uploading' => 'ההעלאה מתבצעת',
 	'upload-complete' => 'ההעלאה הושלמה בהצלחה. התמונה אמורה להיות עכשיו בכתובת $1',
 	'editdescriptionpage' => 'עריכת דף התיאור החדש',
-	'disclaimer' => 'נתונים אלמוניים מסוימים ייאספו באופן פרטי למטרות סטטיסטיקה. אם הם יינתנו, שמות משתמש ב־TUSC יירשמו גם כדי לעזור במקרה של השחתה. ססמאות לא תישמרנה לעולם.',
+	'disclaimer' => 'נתונים אלמוניים מסוימים ייאספו באופן פרטי למטרות סטטיסטיקה. אם הם יינתנו, שמות משתמש ב־OAuth יירשמו גם כדי לעזור במקרה של השחתה. ססמאות לא תישמרנה לעולם.',
 	'author-complete' => 'נא למלא את כל המידע שלך!',
 	'preview-hide' => 'הסתרת תצוגה מקדימה.',
 	'preview-refresh' => 'רענון תצוגה מקדימה',
 	'error-must-accept' => 'כדי להמשיך עם העלאה ישירה יש לקבל את תנאי השימוש שניתנו.',
-	'error-tusc-failed' => 'זיהוי ב־TUSC נכשל: שגיאה בשם משתמש או בססמה.',
 	'description-license' => 'נא לבחור תיאור ורישיון',
 	'finalise' => 'גימור פרטים',
 );
@@ -1266,7 +1256,7 @@ $messages['hi'] = array(
 	'th-username' => 'सदस्यनाम',
 	'th-password' => 'पासवर्ड',
 	'th-method' => 'पद्धती',
-	'option-tusc' => 'TUSC (स्वतः अपलोड)',
+	'option-oauth' => 'TUSC (स्वतः अपलोड)', # Fuzzy
 	'option-manual' => 'मैनुअल अपलोड',
 	'preview' => 'पूर्वावलोकन',
 	'translate' => 'अनुवाद',
@@ -1296,7 +1286,7 @@ $messages['hr'] = array(
 	'th-username' => 'Suradničko ime',
 	'th-password' => 'Lozinka',
 	'th-method' => 'Način',
-	'option-tusc' => 'TUSC (automatsko postavljanje)',
+	'option-oauth' => 'TUSC (automatsko postavljanje)', # Fuzzy
 	'option-manual' => 'Ručno postavljanje',
 	'preview' => 'Pregled',
 	'translate' => 'Prevedi',
@@ -1306,12 +1296,11 @@ $messages['hr'] = array(
 	'uploading' => 'Postavljanje',
 	'upload-complete' => 'Postavljanje uspješno završeno. Slika bi trebala sada biti na $1',
 	'editdescriptionpage' => 'Uredi novu stranicu s opisom',
-	'disclaimer' => 'Neki anonimni podaci će se prikupljati u statističke svrhe. Ako je navedeno, TUSC suradnička imena također će biti zapisana kao pomoć u slučaju vandalizma. Lozinke nikada neće biti snimljene.',
+	'disclaimer' => 'Neki anonimni podaci će se prikupljati u statističke svrhe. Ako je navedeno, TUSC suradnička imena također će biti zapisana kao pomoć u slučaju vandalizma. Lozinke nikada neće biti snimljene.', # Fuzzy
 	'author-complete' => 'Molimo Vas da popunite informacije o autoru!',
 	'preview-hide' => 'Sakrij pregled',
 	'preview-refresh' => 'Osvježi pregled',
 	'error-must-accept' => 'Da biste nastavili s izravnim postavljanjem morate prihvatiti uvjete uporabe kako su navedeni.',
-	'error-tusc-failed' => 'TUSC provijera nije uspijela: suradničko ime ili lozinka su neispravni.',
 	'description-license' => 'Odaberite opis i licenciju',
 	'finalise' => 'Dovrši detalje',
 );
@@ -1333,7 +1322,7 @@ $messages['hsb'] = array(
 	'th-username' => 'Wužiwarske mjeno',
 	'th-password' => 'Hesło',
 	'th-method' => 'Metoda',
-	'option-tusc' => 'TUSC (awtomatiske nahraće)',
+	'option-oauth' => 'TUSC (awtomatiske nahraće)', # Fuzzy
 	'option-manual' => 'Manuelne nahraće',
 	'preview' => 'Přehlad',
 	'translate' => 'Přełožić',
@@ -1343,17 +1332,17 @@ $messages['hsb'] = array(
 	'uploading' => 'Nahrawa so...',
 	'upload-complete' => 'Nahraće je wuspěšnje zakónčene. Wobraz dyrbjał nětko pod $1 k dispoziciji stać.',
 	'editdescriptionpage' => 'Nowu wopisansku stronu wobdźěłać',
-	'disclaimer' => 'Někotre anonymne daty so za statistiske zaměry zběraja. Jeli k dispoziciji, wužiwarske mjena TUSC so tež zapřijimaja, jako pomocny srědk přećiwo wandalizmej. Hesła so ženje njezapřijimaja.',
+	'disclaimer' => 'Někotre anonymne daty so za statistiske zaměry zběraja. Jeli k dispoziciji, wužiwarske mjena TUSC so tež zapřijimaja, jako pomocny srědk přećiwo wandalizmej. Hesła so ženje njezapřijimaja.', # Fuzzy
 	'author-complete' => 'Prošu wudospołń informacije wo awtorje!',
 	'preview-hide' => 'Přehlad schować',
 	'preview-refresh' => 'Přehlad aktualizować',
 	'error-must-accept' => 'Zo by z direktnym nahraćom pokročował, dyrbiš slědowace wužiwanske wuměnjenja akceptować.',
-	'error-tusc-failed' => 'TUSC-přepruwowanje je so njeporadźiło: Wužiwarske mjeno abo hesło je wopak.',
 	'description-license' => 'Wopisanje a licencu wubrać',
 	'finalise' => 'Podrobnosće wudospołnić',
 );
 
 /** Hungarian (magyar)
+ * @author Csega
  * @author Dani
  */
 $messages['hu'] = array(
@@ -1371,7 +1360,7 @@ $messages['hu'] = array(
 	'th-username' => 'Felhasználónév',
 	'th-password' => 'Jelszó',
 	'th-method' => 'Módszer',
-	'option-tusc' => 'TUSC (automatikus feltöltés)',
+	'option-oauth' => 'OAuth (automatikus feltöltés)',
 	'option-manual' => 'Feltöltés kézzel',
 	'preview' => 'Előnézet',
 	'translate' => 'Fordítás',
@@ -1381,12 +1370,11 @@ $messages['hu'] = array(
 	'uploading' => 'Feltöltés',
 	'upload-complete' => 'A feltöltés sikeresen befejeződött. A kép a következő címen érhető el: $1',
 	'editdescriptionpage' => 'Az új leírólap szerkesztése',
-	'disclaimer' => 'Néhány névtelen adat rögzítve lesz statisztikai célok miatt. Ha meg van adva, a TUSC felhasználónév is el lesz tárolva, arra az esetre, ha később vandalizmus merülne fel. A jelszavakat viszont soha nem mentjük el.',
+	'disclaimer' => 'Néhány névtelen adat rögzítve lesz statisztikai célok miatt. Ha meg van adva, a TUSC felhasználónév is el lesz tárolva, arra az esetre, ha később vandalizmus merülne fel. A jelszavakat viszont soha nem mentjük el.', # Fuzzy
 	'author-complete' => 'Kérlek, add meg a szerzővel kapcsolatos információkat!',
 	'preview-hide' => 'Előnézet elrejtése',
 	'preview-refresh' => 'Előnézet frissítése',
 	'error-must-accept' => 'A közvetlen feltöltés folytatásához el kell fogadnod a megadott használati feltételeket.',
-	'error-tusc-failed' => 'TUSC érvényesítés nem sikerült: a felhasználónév vagy a jelszó helytelen.',
 	'description-license' => 'Leírás és licenc kiválasztása',
 	'finalise' => 'Részletek véglegesítése',
 );
@@ -1409,7 +1397,7 @@ $messages['ia'] = array(
 	'th-username' => 'Nomine de usator',
 	'th-password' => 'Contrasigno',
 	'th-method' => 'Methodo',
-	'option-tusc' => 'TUSC (incargamento automatic)',
+	'option-oauth' => 'TUSC (incargamento automatic)', # Fuzzy
 	'option-manual' => 'Incargamento manual',
 	'preview' => 'Previsualisation',
 	'translate' => 'Traducer',
@@ -1419,17 +1407,17 @@ $messages['ia'] = array(
 	'uploading' => 'Incargamento in curso',
 	'upload-complete' => 'Le incargamento ha succedite. Le imagine debe ora esser presente a $1',
 	'editdescriptionpage' => 'Modificar le nove pagina de description',
-	'disclaimer' => 'Certe datos anonyme essera colligite in private pro alimentar nostre statisticas. Si fornite, le nomines de usator de TUSC etiam essera registrate pro assister in caso de vandalismo. Le contrasignos nunquam essera registrate.',
+	'disclaimer' => 'Certe datos anonyme essera colligite in private pro alimentar nostre statisticas. Si fornite, le nomines de usator de TUSC etiam essera registrate pro assister in caso de vandalismo. Le contrasignos nunquam essera registrate.', # Fuzzy
 	'author-complete' => 'Per favor completa le informationes del autor.',
 	'preview-hide' => 'Celar previsualisation',
 	'preview-refresh' => 'Refrescar previsualisation',
 	'error-must-accept' => 'Pro continuar con un incargamento directe, es necessari acceptar le conditiones de uso pertinente.',
-	'error-tusc-failed' => 'Validation TUSC fallite: nomine de usator o contrasigno incorrecte.',
 	'description-license' => 'Selige description e licentia',
 	'finalise' => 'Finalisar detalios',
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Ahdan
  * @author Iwan Novirion
  */
 $messages['id'] = array(
@@ -1446,7 +1434,7 @@ $messages['id'] = array(
 	'th-username' => 'Nama pengguna',
 	'th-password' => 'Kata sandi',
 	'th-method' => 'Metode',
-	'option-tusc' => 'TUSC (unggah otomatis)',
+	'option-oauth' => 'TUSC (unggah otomatis)', # Fuzzy
 	'option-manual' => 'Mengunggah manual',
 	'preview' => 'Pratayang',
 	'translate' => 'Terjemahkan',
@@ -1456,12 +1444,11 @@ $messages['id'] = array(
 	'uploading' => 'Mengunggah',
 	'upload-complete' => 'Pengunggahan selesai dengan sukses. Gambar sekarang harusnya ada di $1',
 	'editdescriptionpage' => 'Sunting halaman deskripsi baru',
-	'disclaimer' => 'Beberapa data anonim akan secara pribadi dikumpulkan untuk tujuan statistik. Jika disediakan, TUSC nama pengguna juga akan dicatat untuk membantu dalam peristiwa vandalisme. Kata sandi tidak akan disimpan.',
+	'disclaimer' => 'Beberapa data anonim akan secara khusus dikumpulkan untuk tujuan statistik. Jika disediakan, nama pengguna OAuth juga akan dicatat untuk menolong jika ada peristiwa vandalisme. Kata sandi tidak akan disimpan.',
 	'author-complete' => 'Mohon lengkapi informasi penulis!',
 	'preview-hide' => 'Sembunyikan pratayang',
 	'preview-refresh' => 'Perbarui pratayang',
 	'error-must-accept' => 'Untuk melanjutkan mengunggah secara langsung, anda harus menerima persyaratan penggunaan yang disediakan.',
-	'error-tusc-failed' => 'Validasi TUSC gagal: nama pengguna atau kata sandi salah.',
 	'description-license' => 'Pilih deskripsi dan lisensi',
 	'finalise' => 'Rincian akhir',
 );
@@ -1506,7 +1493,7 @@ $messages['it'] = array(
 	'th-username' => 'Nome utente',
 	'th-password' => 'Password',
 	'th-method' => 'Metodo',
-	'option-tusc' => 'TUSC (caricamento automatico)',
+	'option-oauth' => 'OAuth (caricamento automatico)',
 	'option-manual' => 'Caricamento manuale',
 	'preview' => 'Anteprima',
 	'translate' => 'Traduci',
@@ -1516,12 +1503,11 @@ $messages['it'] = array(
 	'uploading' => 'Caricamento in corso',
 	'upload-complete' => "Upload completato con successo. L'immagine dovrebbe essere all'indirizzo $1",
 	'editdescriptionpage' => 'Modificare la nuova pagina di descrizione',
-	'disclaimer' => 'Alcuni dati anonimi saranno privatamente raccolti per fini statistici. Inoltre gli username TUSC, se forniti, saranno memorizzati per eventuali casi di vandalismo. Le password non verranno mai memorizzate.',
+	'disclaimer' => 'Alcuni dati anonimi saranno privatamente raccolti per fini statistici. Inoltre gli username OAuth, se forniti, saranno memorizzati per eventuali casi di vandalismo. Le password non verranno mai memorizzate.',
 	'author-complete' => "Completare le informazioni sull'autore!",
 	'preview-hide' => 'Nascondi anteprima',
 	'preview-refresh' => 'Aggiorna anteprima',
 	'error-must-accept' => "Per continuare con un upload diretto è necessario accettare i termini d'uso.",
-	'error-tusc-failed' => 'Convalida TUSC fallita: username o password non corretti.',
 	'description-license' => 'Selezionare la descrizione e la licenza',
 	'finalise' => 'Finalizza i dettagli',
 );
@@ -1546,7 +1532,7 @@ $messages['ja'] = array(
 	'th-username' => '利用者名',
 	'th-password' => 'パスワード',
 	'th-method' => '方法',
-	'option-tusc' => 'TUSC (自動アップロード)',
+	'option-oauth' => 'TUSC (自動アップロード)', # Fuzzy
 	'option-manual' => '手動アップロード',
 	'preview' => 'プレビュー',
 	'translate' => '翻訳',
@@ -1556,12 +1542,11 @@ $messages['ja'] = array(
 	'uploading' => 'アップロード中',
 	'upload-complete' => 'アップロードが完了しました。画像は $1 にあります。',
 	'editdescriptionpage' => '新しい説明ページを編集',
-	'disclaimer' => '統計上の目的で、匿名のデータを非公開で収集します。If supplied, TUSC usernames will also be recorded to assist in the event of vandalism. パスワードを記録することは決してありません。',
+	'disclaimer' => '統計上の目的で、匿名のデータを非公開で収集します。If supplied, OAuth usernames will also be recorded to assist in the event of vandalism. パスワードを記録することは決してありません。', # Fuzzy
 	'author-complete' => '著者の情報を記入してください',
 	'preview-hide' => 'プレビューを隠す',
 	'preview-refresh' => 'プレビューを更新',
 	'error-must-accept' => '直接アップロードを続行するには、利用規約に同意する必要があります。',
-	'error-tusc-failed' => 'TUSC 検証に失敗しました: 利用者名またはパスワードが無効です。',
 	'description-license' => '説明とライセンスの選択',
 );
 
@@ -1582,7 +1567,7 @@ $messages['jv'] = array(
 	'th-username' => 'Jeneng panganggo',
 	'th-password' => 'Tembung sandhi',
 	'th-method' => 'Tata cara',
-	'option-tusc' => 'TUSC (ngunggah otomatis)',
+	'option-oauth' => 'TUSC (ngunggah otomatis)', # Fuzzy
 	'option-manual' => 'Ngunggah manual',
 	'preview' => 'Pratayang',
 	'translate' => 'Terjemahna',
@@ -1591,12 +1576,11 @@ $messages['jv'] = array(
 	'uploading' => 'Ngunggah',
 	'upload-complete' => 'Pangunggahan rampung kanthi sukses. Gambar saiki kuduné nèng $1',
 	'editdescriptionpage' => 'Sunting kaca dèskripsi anyar',
-	'disclaimer' => 'Sebagéyan data anonim bakal diklempakaké sacara pribadi kanggo panjangka statistik. Yèn sumadhiya, jeneng panganggo TUSC uga bakal direkam kanggo ngéwangi yèn ana kadadéan pangrusakan. Tembung sandhi ora bakal direkam.',
+	'disclaimer' => 'Sebagéyan data anonim bakal diklempakaké sacara pribadi kanggo panjangka statistik. Yèn sumadhiya, jeneng panganggo TUSC uga bakal direkam kanggo ngéwangi yèn ana kadadéan pangrusakan. Tembung sandhi ora bakal direkam.', # Fuzzy
 	'author-complete' => 'Mangga lengkapi informasi panganggit!',
 	'preview-hide' => 'Dhelikna pratayang',
 	'preview-refresh' => 'Anyari pratayang',
 	'error-must-accept' => 'Kanggo mbanjuraké mawa unggahan langsung, Sampéyan kudu nrima syarat panganggoan sing sumadhiya.',
-	'error-tusc-failed' => 'Pangesahan TUSC ora kena: jeneng pengguna lan tembung sandhi salah.',
 	'description-license' => 'Pilih dèskripsi lan lisènsi',
 	'finalise' => 'Rampungaké rincian',
 );
@@ -1607,6 +1591,8 @@ $messages['jv'] = array(
 $messages['ka'] = array(
 	'error-nothing' => 'სათარგმნი არაფერია.',
 	'error-notsvg' => 'ეს არ არის SVG ფაილი.',
+	'error-unexpected' => 'გაუთვალისწინებელი შეცდომა მოხდა.',
+	'error-upload' => 'ატვირთვისას შეცდომა მოხდა.',
 	'begin-translation' => 'თარგმნის დაწყება',
 	'th-original' => 'საწყისი',
 	'th-translation' => 'თარგმანი',
@@ -1614,9 +1600,19 @@ $messages['ka'] = array(
 	'th-username' => 'მომხმარებლის სახელი',
 	'th-password' => 'პაროლი',
 	'th-method' => 'მეთოდი',
+	'option-oauth' => 'OAuth (ავტომატური ატვირთვა)',
+	'option-manual' => 'დამოუკიდებლად ატვირთვა',
 	'preview' => 'წინასწარი გადახედვა',
 	'translate' => 'თარგმნა',
 	'svginput-label' => 'SVG ფაილი',
+	'uploading' => 'იტვირთება',
+	'upload-complete' => 'ატვირთვა წარმატებით დასრულდა. სურათის ნახვა შესაძლებელია მისამართზე $1',
+	'editdescriptionpage' => 'ახალი აღწერის გვერდის რედაქტირება',
+	'author-complete' => 'გთხოვთ, შეავსოთ ინფორმაცია ავტორის შესახებ!',
+	'preview-hide' => 'წინასწარი გადახედვის დამალვა',
+	'preview-refresh' => 'წინასწარი გადახედვის განახლება',
+	'description-license' => 'აირჩიეთ აღწერა და ლიცენზია',
+	'finalise' => 'საბოლოო დეტალები',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -1638,7 +1634,7 @@ $messages['km'] = array(
 	'th-username' => 'អត្តនាម',
 	'th-password' => 'ពាក្យ​សម្ងាត់',
 	'th-method' => 'វិធី',
-	'option-tusc' => 'TUSC (ផ្ទុកឡើងដោយស្វ័យប្រវត្តិ)',
+	'option-oauth' => 'TUSC (ផ្ទុកឡើងដោយស្វ័យប្រវត្តិ)', # Fuzzy
 	'option-manual' => 'ផ្ទុកឡើងដោយដៃ',
 	'preview' => 'ការមើលមុន',
 	'translate' => 'បកប្រែ',
@@ -1647,12 +1643,11 @@ $messages['km'] = array(
 	'uploading' => 'កំពុង​ផ្ទុកឡើង​',
 	'upload-complete' => 'ការផ្ទុកឡើងសំរេចជាស្ថាពរ។ ពេលនេះ រូបភាពនេះគួរតែមាននៅ$1',
 	'editdescriptionpage' => 'កែប្រែទំព័រពណ៌នាថ្មី',
-	'disclaimer' => 'ទិន្នន័យខ្លះនឹងត្រូវបានប្រមូលទុកសំរាប់គោលបំណងខាងស្ថិតិ។ បើត្រូវបានផ្ដល់អោយ នោះអត្តនាម TUSC នឹងត្រូវបានកត់ត្រាទុកសំរាប់ការពារអំពើបំផ្លិចបំផ្លាញ​ជាសាធារណៈណាមួយ។ ពាក្យសំងាត់នឹងមិនត្រូវបានកត់ត្រាទុកជាដាច់ខាត។',
+	'disclaimer' => 'ទិន្នន័យខ្លះនឹងត្រូវបានប្រមូលទុកសំរាប់គោលបំណងខាងស្ថិតិ។ បើត្រូវបានផ្ដល់អោយ នោះអត្តនាម TUSC នឹងត្រូវបានកត់ត្រាទុកសំរាប់ការពារអំពើបំផ្លិចបំផ្លាញ​ជាសាធារណៈណាមួយ។ ពាក្យសំងាត់នឹងមិនត្រូវបានកត់ត្រាទុកជាដាច់ខាត។', # Fuzzy
 	'author-complete' => 'សូមបំពេញព័ត៌មានអ្នកនិពន្ធ!',
 	'preview-hide' => 'លាក់ការមើលមុន',
 	'preview-refresh' => 'ផ្ទុកការមើលមុនឡើងវិញ',
 	'error-must-accept' => 'ដើម្បីបន្តដោយការផ្ទុកឡើងដោយផ្ទាល់ អ្នកត្រូវតែយល់ព្រមជាមួយនឹងល័ក្ខខ័ណ្ឌនៃការប្រើប្រាស់​ដែលបានផ្ដល់អោយ។',
-	'error-tusc-failed' => 'សុពលកម្ម TUSC បរាជ័យ៖ អត្តនាមឬពាក្យសំងាត់មិនត្រឹមត្រូវ។',
 	'description-license' => 'ជ្រើសរើសការពណ៌នានិងនិងអាជ្ញាបណ្ឌ។',
 	'finalise' => 'ព័ត៌មានលំអិតចុងក្រោយ',
 );
@@ -1675,7 +1670,7 @@ $messages['kn'] = array(
 	'th-username' => 'ಬಳಕೆದಾರ ಹೆಸರು',
 	'th-password' => 'ಪ್ರವೇಶಪದ',
 	'th-method' => 'ವಿಧಾನ',
-	'option-tusc' => 'TUSC (ಸ್ವಯಂಚಾಲಿತ ನಕಲೇರಿಸುವಿಕೆ)',
+	'option-oauth' => 'TUSC (ಸ್ವಯಂಚಾಲಿತ ನಕಲೇರಿಸುವಿಕೆ)', # Fuzzy
 	'option-manual' => 'ಕೈಯಾರೆ ನಕಲೇರಿಕೆ',
 	'preview' => 'ಮುನ್ನೋಟ',
 	'translate' => 'ಭಾಷಾಂತರಿಸಿ',
@@ -1685,12 +1680,11 @@ $messages['kn'] = array(
 	'uploading' => 'ನಕಲೇರಿಸಲಾಗುತ್ತಿದೆ',
 	'upload-complete' => 'ನಕಲೇರಿಸುವಿಕೆ ಸಫಲವಾಯಿತು. ಚಿತ್ರವು ಈಗ $1 ಅಲ್ಲಿ ಇರಬೇಕು.',
 	'editdescriptionpage' => 'ವಿವರಣೆ ಪುಟವನ್ನು ಸಂಪಾದಿಸಿ',
-	'disclaimer' => 'ಅಂಕಿ ಅಂಶಗಳಿಗಾಗಿ ಕೆಲವು ಅನಾಮಧೇಯ ದತ್ತಾಂಶಗಳನ್ನು ಖಾಸಗಿಯಾಗಿ ಕಲೆಹಾಕಲಾಗುವುದು. TUSC ಸದಸ್ಯತ್ವದ ಹೆಸರು ನೀಡಿದರೆ, ವಿಧ್ವಂಸಕ ಘಟನೆಗಳಲ್ಲಿ ಸಹಕರಿಸಲು ಅವುಗಳನ್ನೂ ದಾಖಲಿಸಲಾಗುವುದು. ಗುಪ್ತಪದಗಳನ್ನು ಎಂದಿಗೂ ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ.',
+	'disclaimer' => 'ಅಂಕಿ ಅಂಶಗಳಿಗಾಗಿ ಕೆಲವು ಅನಾಮಧೇಯ ದತ್ತಾಂಶಗಳನ್ನು ಖಾಸಗಿಯಾಗಿ ಕಲೆಹಾಕಲಾಗುವುದು. TUSC ಸದಸ್ಯತ್ವದ ಹೆಸರು ನೀಡಿದರೆ, ವಿಧ್ವಂಸಕ ಘಟನೆಗಳಲ್ಲಿ ಸಹಕರಿಸಲು ಅವುಗಳನ್ನೂ ದಾಖಲಿಸಲಾಗುವುದು. ಗುಪ್ತಪದಗಳನ್ನು ಎಂದಿಗೂ ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ.', # Fuzzy
 	'author-complete' => 'ದಯವಿಟ್ಟು ಕರ್ತೃವಿನ ಮಾಹಿತಿ ಪೂರ್ತಿಗೊಳಿಸಿ!',
 	'preview-hide' => 'ಮುನ್ನೋಟ ಅಡಗಿಸಿ',
 	'preview-refresh' => 'ಮುನ್ನೋಟ ಮತ್ತೆ ನೋಡಿ',
 	'error-must-accept' => 'ನೇರ ನಕಲೇರಿಸುವಿಕೆಯೊಂದಿಗೆ ಮುಂದುವರೆಯಲು ನೀವು ಬಳಕೆಯ ನಿಬಂಧನೆಗಳನ್ನು ಒಪ್ಪಲೇಬೇಕು.',
-	'error-tusc-failed' => 'TUSC ದೃಢೀಕರಣ ವಿಫಲವಾಯಿತು: ಸದಸ್ಯತ್ವದ ಹೆಸರು ಅಥವಾ ಗುಪ್ತಪದ ತಪ್ಪಾಗಿದೆ.',
 	'description-license' => 'ವಿವರಣೆ ಮತ್ತು ಪರವಾನಗಿ ಆಯ್ದುಕೊಳ್ಳಿ',
 	'finalise' => 'ವಿವರಗಳನ್ನು ಅಂತಿಮಗೊಳಿಸಿ',
 );
@@ -1713,7 +1707,7 @@ $messages['ko'] = array(
 	'th-username' => '사용자 이름',
 	'th-password' => '비밀번호',
 	'th-method' => '방식',
-	'option-tusc' => 'TUSC (자동 올리기)',
+	'option-oauth' => 'TUSC (자동 올리기)', # Fuzzy
 	'option-manual' => '수동 올리기',
 	'preview' => '미리 보기',
 	'translate' => '번역',
@@ -1723,12 +1717,11 @@ $messages['ko'] = array(
 	'uploading' => '올리는 중',
 	'upload-complete' => '올리기를 성공적으로 완료했습니다. 그림은 $1에 있습니다.',
 	'editdescriptionpage' => '새 설명 문서 편집',
-	'disclaimer' => '일부 익명의 데이터는 개인 통계 목적으로만 수집됩니다. 제공할 경우 반달 행위를 할 경우 도움이 되도록 TUSC 사용자 이름도 기록합니다. 비밀번호는 기록하지 않습니다.',
+	'disclaimer' => '일부 익명의 데이터는 개인 통계 목적으로만 수집됩니다. 제공할 경우 반달 행위를 할 경우 도움이 되도록 TUSC 사용자 이름도 기록합니다. 비밀번호는 기록하지 않습니다.', # Fuzzy
 	'author-complete' => '저자 정보를 완료하세요!',
 	'preview-hide' => '미리 보기 숨기기',
 	'preview-refresh' => '미리 보기 새로 고침',
 	'error-must-accept' => '직접 올리기를 계속하려면 제공하는 이용 약관에 동의해야 합니다.',
-	'error-tusc-failed' => 'TUSC 유효성 검사 실패: 사용자 이름이나 비밀번호가 잘못되었습니다.',
 	'description-license' => '설명과 라이선스 선택',
 	'finalise' => '자세한 정보 마무리',
 );
@@ -1751,7 +1744,7 @@ $messages['ksh'] = array(
 	'th-username' => 'Metmaacher Name',
 	'th-password' => 'Paßwoot',
 	'th-method' => 'Metood',
-	'option-tusc' => '<i lang="en">TUSC</i> (automattesch Huhlaade)',
+	'option-oauth' => '<i lang="en">TUSC</i> (automattesch Huhlaade)', # Fuzzy
 	'option-manual' => 'vun Hand huhlaade',
 	'preview' => 'Vör-Aansich zeije',
 	'translate' => 'Övversäze',
@@ -1761,12 +1754,11 @@ $messages['ksh'] = array(
 	'uploading' => 'Aam Huhlaade',
 	'upload-complete' => 'Dat Huhlaade hät jeflupp, un dat Beld sullt jäz onger „$1“ shtonn.',
 	'editdescriptionpage' => 'Donn di Sigg övver dat Beld op der neue Shtand bränge!',
-	'disclaimer' => 'E paa Daate wääde för en Schtatistik faßjehallde, ävver nit öffentlesch jemaat, un se donn sesch och ob keine beschtemmpte Metmaacher beträcke. Wann se aanjejovve sin, wääde em <i lang="en">TUSC</i> sing Metmaachername faßjehallde, öm ze hällefe, falls ens Eine jät kapott jemaat hät. Paßwööter wääde nimohls faßjehallde.',
+	'disclaimer' => 'E paa Daate wääde för en Schtatistik faßjehallde, ävver nit öffentlesch jemaat, un se donn sesch och ob keine beschtemmpte Metmaacher beträcke. Wann se aanjejovve sin, wääde em <i lang="en">TUSC</i> sing Metmaachername faßjehallde, öm ze hällefe, falls ens Eine jät kapott jemaat hät. Paßwööter wääde nimohls faßjehallde.', # Fuzzy
 	'author-complete' => 'Bes esu joot, un donn de Aanjabe övver der Maacher vum Beld kumplätt maaache!',
 	'preview-hide' => 'Vör-Aansesch verschteische',
 	'preview-refresh' => 'Donn de Vör-Aansesch op der neue Shtand bränge!',
 	'error-must-accept' => 'Öm med em tiräk Huhlaade wiggger ze maache. moß De dä Bedengonge för der Jebruch zohshtemme.',
-	'error-tusc-failed' => 'Dem <i lang="en">TUSC</i> sing Övverprööfung es donävve jejange: Dä Name als Metmaacher udder et Paßwoot hät nit jeshtemmp.',
 	'description-license' => 'Donn die Dattei koot beschrieve un en Lizänz ußwähle',
 	'finalise' => 'Donn de Einzelheite kumplätt maache',
 );
@@ -1810,7 +1802,7 @@ $messages['lb'] = array(
 	'th-username' => 'Benotzernumm',
 	'th-password' => 'Passwuert',
 	'th-method' => 'Method',
-	'option-tusc' => 'TUSC (automatesch Eroplueden)',
+	'option-oauth' => 'OAuth (automatesch Eroplueden)',
 	'option-manual' => 'Manuell Eroplueden',
 	'preview' => 'Weisen ouni ze späicheren',
 	'translate' => 'Iwwersetzen',
@@ -1820,12 +1812,11 @@ $messages['lb'] = array(
 	'uploading' => 'Eroplueden',
 	'upload-complete' => "D'Eroplueden huet funktionéiert. D'Bild misst elo op $1 sinn",
 	'editdescriptionpage' => 'Déi nei Beschreiwungssäit änneren',
-	'disclaimer' => "E puer anonym Donnéeë gi fir statistesch Zwecker gesammelt. Wann dir en TUSC Benotzernumm ugitt, gëtt deen och gespäichert fir am Fall vu Vandalismus d'Recherchen ze vereinfachen. Passwierder ginn ni gespäichert.",
+	'disclaimer' => "E puer anonym Donnéeë gi fir statistesch Zwecker gesammelt. Wann dir en TUSC Benotzernumm ugitt, gëtt deen och gespäichert fir am Fall vu Vandalismus d'Recherchen ze vereinfachen. Passwierder ginn ni gespäichert.", # Fuzzy
 	'author-complete' => "Kompletéiert w.e.g. d'Informatiounen iwwer den Auteur!",
 	'preview-hide' => 'Preview verstoppen',
 	'preview-refresh' => 'Preview aktualiséieren',
 	'error-must-accept' => "Fir mam direkten Eropluede virunzefuere musst Dir d'Konditioune vum Benotzen akzeptéieren.",
-	'error-tusc-failed' => 'TUSC-Validatioun feelgeschlo: Benotzernumm oder Passwuert ass net richteg.',
 	'description-license' => 'Beschreiwung a Lizenz eraussichen',
 	'finalise' => 'Detailer kompletéieren',
 );
@@ -1849,7 +1840,7 @@ $messages['lrc'] = array(
 	'th-username' => 'نوم كاروری',
 	'th-password' => 'پاسورد',
 	'th-method' => 'روشت',
-	'option-tusc' => 'تی یو اس سی',
+	'option-oauth' => 'تی یو اس سی', # Fuzzy
 	'preview' => 'پيش سيل',
 	'translate' => 'والرن',
 	'svginput-label' => 'فایل اس وی جی',
@@ -1874,7 +1865,7 @@ $messages['lt'] = array(
 	'th-username' => 'Vartotojo vardas',
 	'th-password' => 'Slaptažodis',
 	'th-method' => 'Metodas',
-	'option-tusc' => 'TUSC (automatinis įkėlimas)',
+	'option-oauth' => 'TUSC (automatinis įkėlimas)', # Fuzzy
 	'option-manual' => 'Rankinis įkėlimas',
 	'preview' => 'Peržiūra',
 	'translate' => 'Versti',
@@ -1884,7 +1875,7 @@ $messages['lt'] = array(
 	'uploading' => 'Įkeliama',
 	'upload-complete' => 'Sėkmingai įkelta. Paveikslėlis dabar turėtų būti šiuo adresu: $1',
 	'editdescriptionpage' => 'Redaguoti naują aprašymo puslapį',
-	'disclaimer' => 'Kai kurie anoniminiai duomenys bus privačiai renkami statistikos tikslais. Jei pateikėte, TUSC vardai taip pat bus registruojami dėl galimo vandalizmo. Slaptažodžiai niekada nebus įrašyti.',
+	'disclaimer' => 'Kai kurie anoniminiai duomenys bus privačiai renkami statistikos tikslais. Jei pateikėte, TUSC vardai taip pat bus registruojami dėl galimo vandalizmo. Slaptažodžiai niekada nebus įrašyti.', # Fuzzy
 	'author-complete' => 'Prašome užpildyti autoriaus informaciją!',
 	'preview-hide' => 'Slėpti peržiūrą',
 	'preview-refresh' => 'Atnaujinti peržiūrą',
@@ -1899,6 +1890,15 @@ $messages['lv'] = array(
 	'th-method' => 'Metode',
 	'svginput-label' => 'SVG fails',
 	'uploading' => 'Augšupielādē',
+);
+
+/** Laz (Lazuri)
+ * @author Ceas08
+ */
+$messages['lzz'] = array(
+	'th-language' => 'Nena',
+	'th-username' => 'Skani maxmare-coxo',
+	'th-password' => 'Pʼarola-skani',
 );
 
 /** Macedonian (македонски)
@@ -1919,7 +1919,7 @@ $messages['mk'] = array(
 	'th-username' => 'Корисничко име',
 	'th-password' => 'Лозинка',
 	'th-method' => 'Начин',
-	'option-tusc' => 'TUSC (автоматско подигање)',
+	'option-oauth' => 'OAuth (автоматско подигање)',
 	'option-manual' => 'Рачно подигање',
 	'preview' => 'Преглед',
 	'translate' => 'Преведување',
@@ -1928,13 +1928,12 @@ $messages['mk'] = array(
 	'stats-footer' => 'Со оваа алатка досега се преведени околу $1 податотеки од (започнувајќи од $2).',
 	'uploading' => 'Подигам',
 	'upload-complete' => 'Подигањето заврши успешно. Сликата сега треба да биде на $1',
-	'editdescriptionpage' => 'Уредете ја новата страница за опис',
-	'disclaimer' => 'Извесни анонимни податоци ќе се прибираат доверливо за статистички цели. Ако се наведени, корисничките имиња од TUSC ќе се заведат за помош во случај на вандализам. Лозинките никогаш нема да се евидентираат.',
+	'editdescriptionpage' => 'Уредете ја новата описна страница',
+	'disclaimer' => 'Извесни анонимни податоци ќе се прибираат доверливо за статистички цели. Ако се наведени, корисничките имиња од OAuth ќе се заведат за помош во случај на вандализам. Лозинките никогаш нема да се евидентираат.',
 	'author-complete' => 'Пополнете го податокот за авторот!',
 	'preview-hide' => 'Скриј преглед',
 	'preview-refresh' => 'Превчитај приказ',
 	'error-must-accept' => 'За да продолжите со непосредното подигање, ќе мора најпрвин да ги прифатите наведените услови на користење.',
-	'error-tusc-failed' => 'Заверката на TUSC не успеа: погрешно корисничко име или лозинка.',
 	'description-license' => 'Изберете опис и лиценца',
 	'finalise' => 'Довршете ги податоците',
 );
@@ -1957,7 +1956,7 @@ $messages['ml'] = array(
 	'th-username' => 'ഉപയോക്തൃനാമം',
 	'th-password' => 'രഹസ്യവാക്ക്',
 	'th-method' => 'മാർഗ്ഗം',
-	'option-tusc' => 'റ്റി.യു.എസ്.സി. (സ്വയം പ്രവർത്തിത അപ്‌ലോഡ്)',
+	'option-oauth' => 'റ്റി.യു.എസ്.സി. (സ്വയം പ്രവർത്തിത അപ്‌ലോഡ്)', # Fuzzy
 	'option-manual' => 'നമ്മൾ ചെയ്യേണ്ട അപ്‌ലോഡ്',
 	'preview' => 'എങ്ങനെയുണ്ടെന്നു കാണുക',
 	'translate' => 'പരിഭാഷപ്പെടുത്തുക',
@@ -1967,12 +1966,11 @@ $messages['ml'] = array(
 	'uploading' => 'അപ്‌ലോഡ് ചെയ്യുന്നു',
 	'upload-complete' => 'അപ്‌ലോഡ് വിജയകരമായി പൂർത്തിയായി. ചിത്രം ഇപ്പോൾ $1 എന്ന വിലാസത്തിൽ ലഭ്യമാണ്.',
 	'editdescriptionpage' => 'പുതിയ വിവരണ താൾ തിരുത്തുക',
-	'disclaimer' => 'ആളെ തിരിച്ചറിയാനാകാത്ത വിധത്തിൽ ചില വിവരങ്ങൾ സ്ഥിതിവിവരോപയോഗങ്ങൾക്കായി സ്വകാര്യമായി ശേഖരിക്കുന്നുണ്ട്. നൽകിയിട്ടുണ്ടെങ്കിൽ, റ്റി.യു.എസ്.സി. അംഗത്വനാമം നശീകരണപ്രവർത്തനം നേരിടാനുള്ള മാർഗ്ഗമായി ശേഖരിക്കുന്നതാണ്. രഹസ്യവാക്ക് ഒരു കാരണവശാലും ശേഖരിക്കില്ല.',
+	'disclaimer' => 'ആളെ തിരിച്ചറിയാനാകാത്ത വിധത്തിൽ ചില വിവരങ്ങൾ സ്ഥിതിവിവരോപയോഗങ്ങൾക്കായി സ്വകാര്യമായി ശേഖരിക്കുന്നുണ്ട്. നൽകിയിട്ടുണ്ടെങ്കിൽ, റ്റി.യു.എസ്.സി. അംഗത്വനാമം നശീകരണപ്രവർത്തനം നേരിടാനുള്ള മാർഗ്ഗമായി ശേഖരിക്കുന്നതാണ്. രഹസ്യവാക്ക് ഒരു കാരണവശാലും ശേഖരിക്കില്ല.', # Fuzzy
 	'author-complete' => 'ദയവായി രചയിതാവിന്റെ വിവരങ്ങൾ പൂർത്തീകരിക്കുക!',
 	'preview-hide' => 'പ്രിവ്യൂ മറയ്ക്കുക',
 	'preview-refresh' => 'പ്രിവ്യൂ പുതുക്കുക',
 	'error-must-accept' => 'നേരിട്ടുള്ള അപ്‌ലോഡ് തുടരാൻ നൽകിയിരിക്കുന്ന ഉപയോഗനിബന്ധനകൾ താങ്കൾ അംഗീകരിക്കേണ്ടതാണ്.',
-	'error-tusc-failed' => 'റ്റി.യു.എസ്.സി. പരിശോധന പരാജയം: ഉപയോക്തൃനാമമോ രഹസ്യവാക്കോ തെറ്റാണ്.',
 	'description-license' => 'വിവരണവും അനുവാദപത്രവും തിരഞ്ഞെടുക്കുക',
 	'finalise' => 'വിവരങ്ങളുടെ അന്തിമരൂപം തയ്യാറാക്കുക',
 );
@@ -1994,7 +1992,7 @@ $messages['mr'] = array(
 	'th-username' => 'सदस्यनाम',
 	'th-password' => 'परवलीचा शब्द',
 	'th-method' => 'पद्धत',
-	'option-tusc' => 'TUSC (स्वयंमेव अपभारण)',
+	'option-oauth' => 'TUSC (स्वयंमेव अपभारण)', # Fuzzy
 	'option-manual' => 'मानवीकृत अपभारण(मॅनूअल अपलोड)',
 	'preview' => 'झलक',
 	'translate' => 'भाषांतर करा',
@@ -2003,12 +2001,11 @@ $messages['mr'] = array(
 	'uploading' => 'अपभारण करीत आहे',
 	'upload-complete' => 'अपभारण यशस्वीरित्या पूर्ण झाले.चित्र सध्या $1 येथे असेल',
 	'editdescriptionpage' => 'नविन वर्णन-पान संपादा',
-	'disclaimer' => 'सांख्यिकीचे कामासाठी काही अनामिक माहिती खाजगीरित्या  गोळा केली जाईल.मिळाल्यास,उत्पाताच्या घटनेत TUSC सदस्यनावाचीही नोंद होईल.परवलीचा शब्द कधीच नोंदविल्या जाणार नाही.',
+	'disclaimer' => 'सांख्यिकीचे कामासाठी काही अनामिक माहिती खाजगीरित्या  गोळा केली जाईल.मिळाल्यास,उत्पाताच्या घटनेत TUSC सदस्यनावाचीही नोंद होईल.परवलीचा शब्द कधीच नोंदविल्या जाणार नाही.', # Fuzzy
 	'author-complete' => 'कृपया लेखकाची माहिती पूर्ण करा!',
 	'preview-hide' => 'झलक लपवा',
 	'preview-refresh' => 'झलक तरोताजी करा',
 	'error-must-accept' => "थेट अपभारणासाठी,आपणास, येथे दिलेल्या 'वापरण्याच्या अटी' स्वीकृत असावयास हव्या.",
-	'error-tusc-failed' => 'TUSC वैधमापन अयशस्वी.सदस्यनाव किंवा परवलीचा शब्द चुकिचा आहे.',
 	'description-license' => 'वर्णन व परवाना निवडा',
 	'finalise' => 'तपशील नक्की करा',
 );
@@ -2031,7 +2028,7 @@ $messages['ms'] = array(
 	'th-username' => 'Nama pengguna',
 	'th-password' => 'Kata laluan',
 	'th-method' => 'Kaedah',
-	'option-tusc' => 'TUSC (muat naik automatik)',
+	'option-oauth' => 'OAuth (muat naik automatik)',
 	'option-manual' => 'Muat naik manual',
 	'preview' => 'Pralihat',
 	'translate' => 'Terjemah',
@@ -2041,18 +2038,18 @@ $messages['ms'] = array(
 	'uploading' => 'Sedang memuat naik',
 	'upload-complete' => 'Muat naik berjaya disiapkan. Imej anda sepatutnya berada di $1',
 	'editdescriptionpage' => 'Sunting laman penerangan baru',
-	'disclaimer' => 'Sesetengah data tanpa nama akan dihimpunkan secara peribadi untuk tujuan statistik. Jika disediakan, nama pengguna TUSC juga akan dicatatkan sebagai bantuan sekiranya terjadi laku musnah. Kata laluan tidak akan dicatatkan sekali pun.',
+	'disclaimer' => 'Sesetengah data tanpa nama akan dihimpunkan secara peribadi untuk tujuan statistik. Jika disediakan, nama pengguna OAuth juga akan dicatatkan sebagai bantuan sekiranya terjadi laku musnah. Kata laluan tidak akan dicatatkan sekali pun.',
 	'author-complete' => 'Tolong lengkapkan maklumat pengarang!',
 	'preview-hide' => 'Sorokkan pralihat',
 	'preview-refresh' => 'Muat semula pralihat',
 	'error-must-accept' => 'Untuk meneruskan muat naik terus, anda mesti menerima terma-terma penggunaan yang dinyatakan.',
-	'error-tusc-failed' => 'Pengesahan TUSC gagal: nama pengguna atau kata laluan tidak betul.',
 	'description-license' => 'Pilih keterangan dan lesen',
 	'finalise' => 'Muktamadkan butiran',
 );
 
 /** Maltese (Malti)
  * @author Chrisportelli
+ * @author Leli Forte
  */
 $messages['mt'] = array(
 	'error-tryagain' => '$1 Agħfas il-buttuna "Lura" tal-browżer sabiex terġa\' tipprova.',
@@ -2068,7 +2065,7 @@ $messages['mt'] = array(
 	'th-username' => 'Isem l-utent',
 	'th-password' => 'Password',
 	'th-method' => 'Metodu',
-	'option-tusc' => 'TUSC (tlugħ awtomatiku)',
+	'option-oauth' => 'OAuth(tlugħ awtomatiku)',
 	'option-manual' => 'Tlugħ manwali',
 	'preview' => 'Dehra proviżorja',
 	'translate' => 'Ittraduċi',
@@ -2077,11 +2074,11 @@ $messages['mt'] = array(
 	'uploading' => "Qed itella'",
 	'upload-complete' => 'It-tlugħ tal-fajl irnexxa. L-istampa għandha tkun fl-indirizz $1',
 	'editdescriptionpage' => "Immodifika l-paġna ta' diskussjoni l-ġdida",
+	'disclaimer' => "Xi data anonima tinġabar privatament għal skopijiet statistiċi. Jekk ikunu provduti, l-ismijiet ta' utent ta' OAuth jiġu rreġistrati wkoll biex ikunu ta' għajnuna f'każ ta' vandaliżmu. Il-kliem tad-dħul (passwords) qatt ma ħa jiġu reġistrati.",
 	'author-complete' => 'Kompli l-informazzjoni dwar l-awtur!',
 	'preview-hide' => 'Aħbi d-dehra proviżorja',
 	'preview-refresh' => 'Aġġorna d-dehra proviżorja',
 	'error-must-accept' => "Sabiex tkompli bi tlugħ dirett inti trid taċċetta t-termini ta' użu provduti.",
-	'error-tusc-failed' => 'Il-validazzjoni TUSC falliet: l-isem tal-utent jew il-password huma ħżiena.',
 	'description-license' => 'Agħżel deskrizzjoni u liċenzja',
 	'finalise' => 'Iffinalizza d-dettalji',
 );
@@ -2091,6 +2088,13 @@ $messages['mt'] = array(
  */
 $messages['mzn'] = array(
 	'th-language' => 'زوون',
+);
+
+/** Neapolitan (Napulitano)
+ * @author C.R.
+ */
+$messages['nap'] = array(
+	'error-unexpected' => "All'intrasatta s'è verificato n'errore.",
 );
 
 /** Norwegian Bokmål (norsk bokmål)
@@ -2111,7 +2115,7 @@ $messages['nb'] = array(
 	'th-username' => 'Brukernavn',
 	'th-password' => 'Passord',
 	'th-method' => 'Metode',
-	'option-tusc' => 'TUSC (automatisk opplasting)',
+	'option-oauth' => 'TUSC (automatisk opplasting)', # Fuzzy
 	'option-manual' => 'Manuell opplasting',
 	'preview' => 'Forhåndsvisning',
 	'translate' => 'Oversett',
@@ -2121,12 +2125,11 @@ $messages['nb'] = array(
 	'uploading' => 'Opplasting',
 	'upload-complete' => 'Opplastingen er fullført. Bildet bør nå være på $1',
 	'editdescriptionpage' => 'Endre den nye beskrivelsessiden',
-	'disclaimer' => 'Enkelte anonyme data vil samles inn privat for statistiske formål. Hvis oppgitt vil også TUSC-brukernavn bli registrert for å bistå i tilfelle hærverk. Passord vil aldri bli registrert.',
+	'disclaimer' => 'Enkelte anonyme data vil samles inn privat for statistiske formål. Hvis oppgitt vil også TUSC-brukernavn bli registrert for å bistå i tilfelle hærverk. Passord vil aldri bli registrert.', # Fuzzy
 	'author-complete' => 'Fyll ut forfatterinformasjonen!',
 	'preview-hide' => 'Skjul forhåndsvisning',
 	'preview-refresh' => 'Oppdater forhåndsvisning',
 	'error-must-accept' => 'For å fortsette med en direkte opplasting må du godta de oppgitte bruksvilkårene.',
-	'error-tusc-failed' => 'TUSC-validering feilet: feil brukernavn eller passord.',
 	'description-license' => 'Velg beskrivelse og lisens',
 	'finalise' => 'Ferdigstill detaljer',
 );
@@ -2163,7 +2166,7 @@ $messages['ne'] = array(
 	'th-username' => 'प्रयोगकर्ता-नाम',
 	'th-password' => 'पासवर्ड',
 	'th-method' => 'विधि',
-	'option-tusc' => 'TUSC (स्वतः उर्ध्वभरण)',
+	'option-oauth' => 'TUSC (स्वतः उर्ध्वभरण)', # Fuzzy
 	'option-manual' => 'हातद्वारा उर्ध्वभरण',
 	'preview' => 'पूर्वावलोकन',
 	'translate' => 'अनुवाद गर्ने',
@@ -2176,7 +2179,6 @@ $messages['ne'] = array(
 	'preview-hide' => 'पूर्वावलोकन लुकाउने',
 	'preview-refresh' => 'पूर्वावलोकन ताजा पार्ने',
 	'error-must-accept' => 'प्रत्यक्ष उर्ध्वभरण अघि बढाउन तपाईंले दिइएका प्रयोग शर्तहरु स्वीकार गर्नुपर्छ।',
-	'error-tusc-failed' => 'TUSC सत्यापन असफल: प्रयोगकर्ता नाम अथवा पासवर्डमा त्रुटि।',
 	'description-license' => 'विवरण र लाइसेन्स चुन्ने',
 	'finalise' => 'विवरणहरुलाई अन्तिम रुप दिने',
 );
@@ -2197,7 +2199,7 @@ $messages['new'] = array(
 	'th-username' => 'छ्य्लामि नां',
 	'th-password' => 'दुथखँग्वः (पासवर्द):',
 	'th-method' => 'विधि',
-	'option-tusc' => 'TUSC (स्वचालित अपलोद)',
+	'option-oauth' => 'TUSC (स्वचालित अपलोद)', # Fuzzy
 	'option-manual' => 'म्यानुअल अपलोद',
 	'preview' => 'पूर्वालोकन',
 	'translate' => 'भाय्‌ हिलादिसँ',
@@ -2210,7 +2212,6 @@ $messages['new'] = array(
 	'preview-hide' => 'पूर्वालोकन सुचुकादिसँ',
 	'preview-refresh' => 'पूर्वालोकन रिफ्रेश यानादिसँ',
 	'error-must-accept' => 'प्रत्यक्ष अपलोद यानाच्वनेत छिं बियातःगु छ्य्लाया शर्त (terms of use) स्वीकार यायेमा।',
-	'error-tusc-failed' => 'TUSC प्रमाणीकरन बिफल जुल: छ्य्लामि नां वा पासवर्द मिलेमजु।',
 	'description-license' => 'विवरण व लाइसन्स ल्ययादिसँ',
 	'finalise' => 'विवरणयात पूर्णरुप बियादिसँ',
 );
@@ -2219,6 +2220,7 @@ $messages['new'] = array(
  * @author Gerard Meijssen
  * @author Krinkle
  * @author Siebrand
+ * @author Sjoerddebruin
  */
 $messages['nl'] = array(
 	'title' => 'SVG-vertaling',
@@ -2235,7 +2237,7 @@ $messages['nl'] = array(
 	'th-username' => 'Gebruikersnaam',
 	'th-password' => 'Wachtwoord',
 	'th-method' => 'Methode',
-	'option-tusc' => 'TUSC (automatische upload)',
+	'option-oauth' => 'OAuth (automatische upload)',
 	'option-manual' => 'Handmatige upload',
 	'preview' => 'Voorvertoning',
 	'translate' => 'Vertalen',
@@ -2245,12 +2247,11 @@ $messages['nl'] = array(
 	'uploading' => 'bezig met uploaden',
 	'upload-complete' => 'Het uploaden is voltooid. De afbeelding is nu te bekijken op $1',
 	'editdescriptionpage' => 'De nieuwe beschrijvingspagina bewerken',
-	'disclaimer' => 'Enkele anonieme gegevens worden niet-openbaar verzameld voor statistische doeleinden. Gebruikersnamen voor TUSC worden ook vastgelegd om in het geval van vandalisme te kunnen ingrijpen. Wachtwoorden worden nooit opgeslagen.',
+	'disclaimer' => 'Enkele anonieme gegevens worden niet-openbaar verzameld voor statistische doeleinden. Gebruikersnamen voor TUSC worden ook vastgelegd om in het geval van vandalisme te kunnen ingrijpen. Wachtwoorden worden nooit opgeslagen.', # Fuzzy
 	'author-complete' => 'Voer de volledige auteursgegevens in!',
 	'preview-hide' => 'Voorvertoning verbergen',
 	'preview-refresh' => 'Voorvertoning vernieuwen',
 	'error-must-accept' => 'Om door te gaan met een directe upload, moet u akkoord gaan met de voorwaarden voor gebruik.',
-	'error-tusc-failed' => 'De TUSC-validatie is mislukt. De gebruikersnaam of het wachtwoord is onjuist.',
 	'description-license' => 'Selecteer beschrijving en licentie',
 	'finalise' => 'Rond de details af',
 );
@@ -2274,7 +2275,7 @@ $messages['no'] = array(
 	'th-username' => 'Brukernavn',
 	'th-password' => 'Passord',
 	'th-method' => 'Metode',
-	'option-tusc' => 'TUSC (automatisk opplasting)',
+	'option-oauth' => 'TUSC (automatisk opplasting)', # Fuzzy
 	'option-manual' => 'Manuell opplasting',
 	'preview' => 'Forhåndsvisning',
 	'translate' => 'Oversett',
@@ -2289,7 +2290,6 @@ $messages['no'] = array(
 	'preview-hide' => 'Skjul forhåndsvisning',
 	'preview-refresh' => 'Oppdater forhåndsvisning',
 	'error-must-accept' => 'For å fortsette med en direkte opplasting må du godta de oppgitte bruksvilkårene.',
-	'error-tusc-failed' => 'TUSC-validering feilet: feil brukernavn eller passord.',
 	'description-license' => 'Velg beskrivelse og lisens',
 	'finalise' => 'Ferdigstill detaljer',
 );
@@ -2336,7 +2336,7 @@ $messages['or'] = array(
 	'th-username' => 'ବ୍ୟବହାରକାରୀ ନାମ',
 	'th-password' => 'ପାସୱାର୍ଡ଼',
 	'th-method' => 'ଧାରା',
-	'option-tusc' => 'TUSC (ଆପେ ଆପେ ଅପଲୋଡ)',
+	'option-oauth' => 'TUSC (ଆପେ ଆପେ ଅପଲୋଡ)', # Fuzzy
 	'option-manual' => 'ଆପଣ ନିଜଦ୍ଵାରା ଅପଲୋଡ କରିବେ',
 	'preview' => 'ଦେଖଣା',
 	'translate' => 'ଅନୁବାଦ',
@@ -2348,7 +2348,6 @@ $messages['or'] = array(
 	'preview-hide' => 'ଦେଖଣାଟିକୁ ଲୁଚାଇବେ',
 	'preview-refresh' => 'ଦେଖଣାଟିକୁ ରିଫ୍ରେସ କରିବେ',
 	'error-must-accept' => 'ଆପଣଙ୍କୁ ସିଧାସଳଖ ଅପଲୋଡ଼ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ବ୍ୟବହାର ନିୟମ ମାନିବାକୁ ପଡିବ ।',
-	'error-tusc-failed' => 'TUSC ବୈଧତା ବିଫଳ ହେଲା: ବ୍ୟବହାରକାରୀନାମ କିମ୍ବା ପାସୱାର୍ଡ ଭୁଲ ଅଛି ।',
 	'description-license' => 'ବର୍ଣ୍ଣନା ଏବଂ ଲାଇସେନ୍ସ ବାଛନ୍ତୁ',
 	'finalise' => 'ବିବରଣୀ ନିଶ୍ଚିତ କରନ୍ତୁ',
 );
@@ -2377,6 +2376,8 @@ $messages['pfl'] = array(
 );
 
 /** Polish (polski)
+ * @author Alan ffm
+ * @author Darellur
  * @author Masti
  * @author Sp5uhe
  */
@@ -2395,7 +2396,7 @@ $messages['pl'] = array(
 	'th-username' => 'Nazwa użytkownika',
 	'th-password' => 'Hasło',
 	'th-method' => 'Metoda',
-	'option-tusc' => 'TUSC (automatyczne przesyłanie)',
+	'option-oauth' => 'OAuth (automatyczne przesyłanie)',
 	'option-manual' => 'Przesyłanie ręczne',
 	'preview' => 'Podgląd',
 	'translate' => 'Tłumacz',
@@ -2405,12 +2406,11 @@ $messages['pl'] = array(
 	'uploading' => 'Przesyłanie',
 	'upload-complete' => 'Przesyłanie powiodło się. Grafika powinna być na stronie $1',
 	'editdescriptionpage' => 'Edytuj nową stronę opisu',
-	'disclaimer' => 'Niektóre anonimowe dane będą gromadzone dla celów statystycznych. Jeśli podano nazwa użytkownika TUSC zostanie zapisana na potrzeby walki z wandalizmami. Hasła nigdy nie będą rejestrowane.',
+	'disclaimer' => 'Niektóre anonimowe dane będą gromadzone dla celów statystycznych. Jeśli podano, nazwa użytkownika OAuth zostanie zapisana na potrzeby walki z wandalizmami. Hasła nigdy nie będą rejestrowane.',
 	'author-complete' => 'Uzupełnij informacje o autorze',
 	'preview-hide' => 'Ukryj podgląd',
 	'preview-refresh' => 'Odśwież podgląd',
 	'error-must-accept' => 'Kontynuowanie bezpośredniego przesyłania wymaga zaakceptowania warunków korzystania z usługi.',
-	'error-tusc-failed' => 'TUSC – nieudana weryfikacja użytkownika – nazwa użytkownika lub hasło są nieprawidłowe.',
 	'description-license' => 'Wybierz opis i licencję',
 	'finalise' => 'Zapisz szczegóły',
 );
@@ -2434,7 +2434,7 @@ $messages['pms'] = array(
 	'th-username' => 'Stranòm',
 	'th-password' => 'Ciav',
 	'th-method' => 'Métod',
-	'option-tusc' => 'TUSC (cariament automàtich)',
+	'option-oauth' => 'OAuth (cariament automàtich)',
 	'option-manual' => 'Cariament manual',
 	'preview' => 'Preuva',
 	'translate' => 'Traduv',
@@ -2444,12 +2444,11 @@ $messages['pms'] = array(
 	'uploading' => 'Cariament',
 	'upload-complete' => "Ël cariament a l'é stàit completà për da bin. La figura a dovrìa adess trovesse a $1",
 	'editdescriptionpage' => 'Modifiché la neuva pàgina ëd descrission',
-	'disclaimer' => "Chèich dat anònim a saran cujì ëd fasson privà për dij but statìstich. Se fornì, jë stranòm d'utent TUSC a saran ëdcò memorisà për giuté ant ij cas ëd vandalism. Le ciav a san mai memorisà.",
+	'disclaimer' => "Chèich dat anònim a saran cujì ëd fasson privà për dij but statìstich. Se fornì, jë stranòm d'utent TUSC a saran ëdcò memorisà për giuté ant ij cas ëd vandalism. Le ciav a san mai memorisà.", # Fuzzy
 	'author-complete' => "Për piasì, ch'a completa j'anformassion an sl'autor!",
 	'preview-hide' => 'Stërmé la previsualisassion',
 	'preview-refresh' => 'Rinfrësché la preuva',
 	'error-must-accept' => "Për continué con un cariament diret a dev aceté le condission d'utilisassion fornìe.",
-	'error-tusc-failed' => "Falì la validassion TUSC: stranòm d'utent o ciav pa giust.",
 	'description-license' => "Ch'a selession-a la descrission e la licensa",
 	'finalise' => 'Finalisé ij detaj',
 );
@@ -2478,6 +2477,7 @@ $messages['ps'] = array(
  * @author Luckas
  * @author Malafaya
  * @author Polyethylen
+ * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
 	'error-nothing' => 'Não há nada para traduzir.',
@@ -2491,7 +2491,7 @@ $messages['pt'] = array(
 	'th-username' => 'Nome de utilizador',
 	'th-password' => 'Palavra passe',
 	'th-method' => 'Método',
-	'option-tusc' => 'TUSC (upload automático)',
+	'option-oauth' => 'OAuth (carregamento automático)',
 	'option-manual' => 'Upload manual',
 	'preview' => 'Antevisão',
 	'translate' => 'Traduzir',
@@ -2502,6 +2502,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Fúlvio
+ * @author Jefersonmoraes
  * @author Luckas
  * @author Pedroca cerebral
  */
@@ -2519,7 +2520,7 @@ $messages['pt-br'] = array(
 	'th-username' => 'Nome de usuário',
 	'th-password' => 'Senha',
 	'th-method' => 'Método',
-	'option-tusc' => 'TUSC (upload automático)',
+	'option-oauth' => 'TUSC (envio automático)',
 	'option-manual' => 'Upload manual',
 	'preview' => 'Pré-visualização',
 	'translate' => 'Traduzir',
@@ -2529,12 +2530,11 @@ $messages['pt-br'] = array(
 	'uploading' => 'Enviando',
 	'upload-complete' => 'O envio foi concluído com sucesso. A imagem deve estar agora em $1',
 	'editdescriptionpage' => 'Edite a nova página de descrição',
-	'disclaimer' => 'Alguns dados anônimos serão coletados de forma privada para fins estatísticos. Se for fornecido, os nomes de usuário TUSC também será armazenado para auxílio em caso de vandalismo. As senhas nunca serão gravadas.',
+	'disclaimer' => 'Alguns dados anônimos serão coletados de forma privada para fins estatísticos. Se for fornecido, os nomes de usuário TUSC também serão armazenado para auxílio em caso de vandalismo. As senhas nunca serão gravadas.',
 	'author-complete' => 'Por favor, complete a informação do autor!',
 	'preview-hide' => 'Esconder pré-visualização',
 	'preview-refresh' => 'Atualizar pré-visualização',
 	'error-must-accept' => 'Para continuar com um envio direto você deve aceitar os termos de uso fornecidos.',
-	'error-tusc-failed' => 'A validação de TUSC falhou: nome de usuário ou senha incorretos.',
 	'description-license' => 'Selecione a descrição e a licença',
 	'finalise' => 'Finalizar detalhes',
 );
@@ -2557,7 +2557,7 @@ $messages['ro'] = array(
 	'th-username' => 'Nume de utilizator',
 	'th-password' => 'Parolă',
 	'th-method' => 'Metodă',
-	'option-tusc' => 'TUSC (încărcare automată)',
+	'option-oauth' => 'OAuth (încărcare automată)',
 	'option-manual' => 'Încărcare manuală',
 	'preview' => 'Previzualizare',
 	'translate' => 'Traducere',
@@ -2567,12 +2567,11 @@ $messages['ro'] = array(
 	'uploading' => 'Se încarcă',
 	'upload-complete' => 'Încărcarea s-a finalizat cu succes. Imaginea ar trebui să se găsească la $1',
 	'editdescriptionpage' => 'Modificați noua pagină descriptivă',
-	'disclaimer' => 'Câteva informații anonime vor fi colectate în mod privat pentru statistici. Dacă sunt furnizate, numele de utilizator TUSC vor fi de asemenea contabilizate pentru ajutor în caz de vandalism. Parolele nu vor fi niciodată reținute.',
+	'disclaimer' => 'Câteva informații anonime vor fi colectate în mod privat pentru statistici. Dacă sunt furnizate, numele de utilizator OAuth vor fi de asemenea contabilizate pentru ajutor în caz de vandalism. Parolele nu vor fi niciodată reținute.',
 	'author-complete' => 'Vă rugăm să completați informațiile despre autor!',
 	'preview-hide' => 'Ascunde previzualizarea',
 	'preview-refresh' => 'Reîncarcă previzualizarea',
 	'error-must-accept' => 'Pentru a continua cu încărcarea directă, trebuie să fiți de acord cu termenii de utilizare furnizați.',
-	'error-tusc-failed' => 'Validarea TUSC a eșuat: nume de utilizator sau parolă incorecte.',
 	'description-license' => 'Selectați descrierea și licența',
 	'finalise' => 'Finalizează detaliile',
 );
@@ -2595,7 +2594,7 @@ $messages['roa-tara'] = array(
 	'th-username' => 'Nome utende',
 	'th-password' => 'Passuord',
 	'th-method' => 'Metode',
-	'option-tusc' => 'TUSC (carecamende automateche)',
+	'option-oauth' => 'OAuth (carecamende automateche)',
 	'option-manual' => 'Carecamende a màne',
 	'preview' => 'Andeprime',
 	'translate' => 'Traduce',
@@ -2605,17 +2604,17 @@ $messages['roa-tara'] = array(
 	'uploading' => 'Stoche a careche',
 	'upload-complete' => "'U carecamende ha state fatte. L'immaggine avessa stà sus a $1",
 	'editdescriptionpage' => "Cange 'a pàgena nove d'a descrizione",
-	'disclaimer' => 'Quacche date anonime avènene cugghiute in mode private pe fine statistece. Ce fornite, le nome utinde TUSC avènene reggistrate pe le case de vandalisme. Le passuord non ge avènene reggistrate.',
+	'disclaimer' => 'Quacche date anonime avènene cugghiute in mode private pe fine statistece. Ce date, le nome utinde OAuth avènene reggistrate pe le case de vandalisme. Le passuord non ge avènene reggistrate.',
 	'author-complete' => "Pe piacere comblete le 'mbormaziune de l'autore!",
 	'preview-hide' => "Scunne l'andeprime",
 	'preview-refresh' => "Aggiorne l'andeprime",
 	'error-must-accept' => "Pe condinuà cu 'nu carecamende dirette tu a accettà le termine de l'ause previste.",
-	'error-tusc-failed' => 'Validazione TUSC fallite: Nome utende o passuord non ge sonde corrette.',
 	'description-license' => 'Scacchie descrizione e licenze',
 	'finalise' => 'Finalizze le dettaglie',
 );
 
 /** Russian (русский)
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -2633,7 +2632,7 @@ $messages['ru'] = array(
 	'th-username' => 'Имя участника',
 	'th-password' => 'Пароль',
 	'th-method' => 'Способ',
-	'option-tusc' => 'TUSC (автоматическая загрузка)',
+	'option-oauth' => 'OAuth (автоматическая загрузка)',
 	'option-manual' => 'Ручная загрузка',
 	'preview' => 'Предпросмотр',
 	'translate' => 'Перевести',
@@ -2643,12 +2642,11 @@ $messages['ru'] = array(
 	'uploading' => 'Загрузка',
 	'upload-complete' => 'Загрузка завершена успешно. Изображение быть доступно по адресу $1',
 	'editdescriptionpage' => 'Изменить новую страницу описания',
-	'disclaimer' => 'Некоторые анонимные данные будут записываться для статистических целей. Если было указано TUSC-имя, то оно также будет записано, для оказания помощи в случае вандализма. Пароли никогда не записываются.',
+	'disclaimer' => 'Некоторые анонимные данные будут записываться для статистических целей. Если было указано OAuth-имя, то оно также будет записано для оказания помощи в случае вандализма. Пароли никогда не записываются.',
 	'author-complete' => 'Пожалуйста, заполните информацию об авторе!',
 	'preview-hide' => 'Скрыть предпросмотр',
 	'preview-refresh' => 'Обновить предпросмотр',
 	'error-must-accept' => 'Чтобы продолжить прямую загрузку, следует принять Условия использования.',
-	'error-tusc-failed' => 'Сбой проверки TUSC. Неправильное имя участникавателя или пароль.',
 	'description-license' => 'Выберите описание и лицензию',
 	'finalise' => 'Заключительные подробности',
 );
@@ -2670,7 +2668,7 @@ $messages['si'] = array(
 	'th-username' => 'පරිශීලක නාමය',
 	'th-password' => 'මුරපදය',
 	'th-method' => 'ක්‍රමය',
-	'option-tusc' => 'TUSC (ස්වයංක්‍රිය උඩුගත කිරීම)',
+	'option-oauth' => 'TUSC (ස්වයංක්‍රිය උඩුගත කිරීම)', # Fuzzy
 	'option-manual' => 'හස්තීය උඩුගතකෙරුම',
 	'preview' => 'පෙරදසුන',
 	'translate' => 'පරිවර්තනය කරන්න',
@@ -2682,7 +2680,6 @@ $messages['si'] = array(
 	'preview-hide' => 'පෙරදසුන සඟවන්න',
 	'preview-refresh' => 'පෙරදසුන ප්‍රතිපූරණය කරන්න',
 	'error-must-accept' => 'ඍජු උඩුගත කිරීම සමඟ ඉදිරියට යාම සඳහා ඉදිරිපත් කරන ලද කොන්දේසි වලට ඔබ විසින් එකඟත්වය ප්‍රකාශ කල යුතුය.',
-	'error-tusc-failed' => 'TUSC සත්‍යාපනය අසාර්ථකයි: පරිශීලක නාමය සහ මුරපදය වැරදියි.',
 	'description-license' => 'විස්තරය සහ බලපත්‍රය තෝරාගන්න',
 	'finalise' => 'අවසන් විස්තර',
 );
@@ -2706,7 +2703,7 @@ $messages['sl'] = array(
 	'th-username' => 'Uporabniško ime',
 	'th-password' => 'Geslo',
 	'th-method' => 'Način',
-	'option-tusc' => 'TUSC (samodejno nalaganje)',
+	'option-oauth' => 'OAuth (samodejno nalaganje)',
 	'option-manual' => 'Ročno nalaganje',
 	'preview' => 'Predogled',
 	'translate' => 'Prevedi',
@@ -2716,12 +2713,11 @@ $messages['sl'] = array(
 	'uploading' => 'Nalaganje',
 	'upload-complete' => 'Nalaganje je uspešno dokončano. Slika bi morala biti na $1.',
 	'editdescriptionpage' => 'Uredi novo opisno stran',
-	'disclaimer' => 'Nekateri anonimni podatki se bodo zasebno zbirali v statistične namene. Če so na razpolago, bodo zabeležena tudi uporabniška imena TUSC za pomoč v primeru vandalizma. Gesla ne bodo nikoli zabeležena.',
+	'disclaimer' => 'Nekateri anonimni podatki se bodo zasebno zbirali v statistične namene. Če so na razpolago, bodo zabeležena tudi uporabniška imena OAuth za pomoč v primeru vandalizma. Gesla ne bodo nikoli zabeležena.',
 	'author-complete' => 'Prosimo, dopolnite informacije o avtorju!',
 	'preview-hide' => 'Skrij predogled',
 	'preview-refresh' => 'Osveži predogled',
 	'error-must-accept' => 'Če želite nadaljevati z neposrednim nalaganjem, morate sprejeti navedene pogoje uporabe.',
-	'error-tusc-failed' => 'Preverjanje TUSC ni uspelo: uporabniško ime ali geslo je napačno.',
 	'description-license' => 'Izberite opis in licenco',
 	'finalise' => 'Dokončajte podrobnosti',
 );
@@ -2743,7 +2739,7 @@ $messages['so'] = array(
 	'th-username' => 'Magaca gudagalka',
 	'th-password' => 'Eraysir:',
 	'th-method' => 'Adeegsiga',
-	'option-tusc' => 'TUSC (Galin iskeed ah)',
+	'option-oauth' => 'TUSC (Galin iskeed ah)', # Fuzzy
 	'option-manual' => 'Gacan ku galin',
 	'preview' => 'Horfiirin',
 	'translate' => 'Fasir',
@@ -2753,17 +2749,17 @@ $messages['so'] = array(
 	'uploading' => 'Galin',
 	'upload-complete' => 'Galintii waa lagu guuleeystay. sawirku waa in uu yaalaa $1',
 	'editdescriptionpage' => 'Wxa kabadal cadaymaha cusub ee Bogga',
-	'disclaimer' => 'Waa la uruurinayaa macluumaadka qaar ee aan la aqoon si gaar ah iyadoo loola jeedo tirakoob ahaan. sidoo kale waxaa la diiwaan galinayaa magacyada isticmaala TUSC si loo caawiyo hadii ay dhacdo wax qarbudaad ah. Eraysirtana lama kaydin doono sideedaba.',
+	'disclaimer' => 'Waa la uruurinayaa macluumaadka qaar ee aan la aqoon si gaar ah iyadoo loola jeedo tirakoob ahaan. sidoo kale waxaa la diiwaan galinayaa magacyada isticmaala TUSC si loo caawiyo hadii ay dhacdo wax qarbudaad ah. Eraysirtana lama kaydin doono sideedaba.', # Fuzzy
 	'author-complete' => 'Fadlan dhamaystir macluumaadka qoraaga',
 	'preview-hide' => 'Qari Horfiirinta',
 	'preview-refresh' => 'Cusbooneeysii Horfiirinta',
 	'error-must-accept' => 'Si aad usii wadato galinta tooska ah waxaa lagaa rabaa inaad aqbasho shuruudaha adeegsiga ee aad dooneeyso.',
-	'error-tusc-failed' => 'Waa lagu fashilmay dabagalka runta ah ee TUSC: Magaca adeegsadaha ama ereysirta ma saxna.',
 	'description-license' => 'Dooro Caydayn iyo ruqsad',
 	'finalise' => 'Dhamaadka faah faahinta',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Nikola Smolenski
  * @author Rancher
  */
@@ -2782,7 +2778,7 @@ $messages['sr-ec'] = array(
 	'th-username' => 'Корисничко име',
 	'th-password' => 'Лозинка',
 	'th-method' => 'Начин',
-	'option-tusc' => 'TUSC (аутоматско отпремање)',
+	'option-oauth' => 'OAuth (аутоматско отпремање)',
 	'option-manual' => 'Ручно отпремање',
 	'preview' => 'Прегледај',
 	'translate' => 'Преведи',
@@ -2792,12 +2788,11 @@ $messages['sr-ec'] = array(
 	'uploading' => 'Отпремам',
 	'upload-complete' => 'Отпремање је успешно завршено. Слика сада треба да буде на $1',
 	'editdescriptionpage' => 'Уреди нову страницу с описом',
-	'disclaimer' => 'Поједини анонимни подаци ће се приватно скупљати у статистичке сврхе. Ако су наведена, корисничка имена TUSC-а ће бити забележена за помоћ у случају вандализма. Лозинке никада неће бити евидентиране.',
+	'disclaimer' => 'Поједини анонимни подаци ће се приватно скупљати у статистичке сврхе. Ако су наведена, корисничка имена OAuth-а ће бити забележена за помоћ у случају вандализма. Лозинке никада неће бити евидентиране.',
 	'author-complete' => 'Попуните податке о аутору!',
 	'preview-hide' => 'Сакриј преглед',
 	'preview-refresh' => 'Освежи преглед',
 	'error-must-accept' => 'Да бисте наставили са директним отпремањем, морате прихватити услове коришћења.',
-	'error-tusc-failed' => 'Провера TUSC-а није успела: неисправно корисничко име или лозинка.',
 	'description-license' => 'Изаберите опис и лиценцу',
 	'finalise' => 'Доврши детаље',
 );
@@ -2820,7 +2815,7 @@ $messages['sr-el'] = array(
 	'th-username' => 'Korisničko ime',
 	'th-password' => 'Lozinka',
 	'th-method' => 'Način',
-	'option-tusc' => 'TUSC (samootpremanje)',
+	'option-oauth' => 'TUSC (samootpremanje)', # Fuzzy
 	'option-manual' => 'Ručno otpremanje',
 	'preview' => 'Pregledaj',
 	'translate' => 'Prevedi',
@@ -2830,12 +2825,11 @@ $messages['sr-el'] = array(
 	'uploading' => 'Otpremanje',
 	'upload-complete' => 'Otpremanje je završeno. Slika bi trebalo da je u $1',
 	'editdescriptionpage' => 'Uredi novu stranicu za opis',
-	'disclaimer' => 'Neki anonimni podaci će biti skupljani u statističke svrhe. Ako je navedeno, TUSC korisnička imena će takođe biti zabeležena radi sprečavanja vandalizma. Lozinke se neće beležiti.',
+	'disclaimer' => 'Neki anonimni podaci će biti skupljani u statističke svrhe. Ako je navedeno, TUSC korisnička imena će takođe biti zabeležena radi sprečavanja vandalizma. Lozinke se neće beležiti.', # Fuzzy
 	'author-complete' => 'Popunite sve podatke o autoru.',
 	'preview-hide' => 'Sakrij pregled',
 	'preview-refresh' => 'Osveži pregled',
 	'error-must-accept' => 'Da biste nastavili s izravnim otpremanjem, morate prihvatiti uslove korišćenja.',
-	'error-tusc-failed' => 'Ne mogu da izvršim TUSC proveru: korisničko ime ili lozinka su neispravni.',
 	'description-license' => 'Izaberite opis i licencu',
 	'finalise' => 'Dovrši detalje',
 );
@@ -2859,7 +2853,7 @@ $messages['sv'] = array(
 	'th-username' => 'Användarnamn',
 	'th-password' => 'Lösenord',
 	'th-method' => 'Metod',
-	'option-tusc' => 'TUSC (automatisk uppladdning)',
+	'option-oauth' => 'OAuth (automatisk uppladdning)',
 	'option-manual' => 'Manuell uppladdning',
 	'preview' => 'Förhandsgranska',
 	'translate' => 'Översätt',
@@ -2869,12 +2863,11 @@ $messages['sv'] = array(
 	'uploading' => 'Laddar upp',
 	'upload-complete' => 'Uppladdningen har slutförts. Bilden bör nu finnas på $1',
 	'editdescriptionpage' => 'Redigera den nya beskrivningssidan',
-	'disclaimer' => 'Viss anonym data kommer att privat samlas in för statistiska ändamål. Om angivet, kommer TUSC-användarnamn också registreras för att hjälpa vid händelse av vandalism. Lösenord kommer aldrig registreras.',
+	'disclaimer' => 'Viss anonym data kommer att privat samlas in för statistiska ändamål. Om angivet, kommer OAuth-användarnamn också registreras för att hjälpa vid händelse av vandalism. Lösenord kommer aldrig registreras.',
 	'author-complete' => 'Vänligen fyll i författarinformationen!',
 	'preview-hide' => 'Göm förhandsgranskning',
 	'preview-refresh' => 'Uppdatera förhandsvisningen',
 	'error-must-accept' => 'För att fortsätta med en direkt uppladdning måste du acceptera användningsvilkoren.',
-	'error-tusc-failed' => 'TUSC-valideringen misslyckades: användarnamn eller lösenordet är felaktigt.',
 	'description-license' => 'Välj beskrivning och licens',
 	'finalise' => 'Färdigställ detaljer',
 );
@@ -2905,6 +2898,7 @@ $messages['sw'] = array(
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Balajijagadesh
+ * @author ElangoRamanujam
  * @author Karthi.dr
  * @author செல்வா
  * @author மதனாஹரன்
@@ -2923,7 +2917,7 @@ $messages['ta'] = array(
 	'th-username' => 'பயனர் பெயர்',
 	'th-password' => 'கடவுச்சொல்',
 	'th-method' => 'செய்முறை',
-	'option-tusc' => 'TUSC (தானியங்கி பதிவேற்றம்)',
+	'option-oauth' => 'OAuth (தானியங்கி பதிவேற்றம்)',
 	'option-manual' => 'கைமுறை பதிவேற்றம்',
 	'preview' => 'முன்தோற்றம்',
 	'translate' => 'மொழிமாற்று',
@@ -2991,7 +2985,7 @@ $messages['th'] = array(
 	'th-username' => 'ชื่อผู้ใช้งาน',
 	'th-password' => 'รหัสผ่าน',
 	'th-method' => 'วิธีการ',
-	'option-tusc' => 'TUSC (อัปโหลดโดยอัตโนมัติ)',
+	'option-oauth' => 'TUSC (อัปโหลดโดยอัตโนมัติ)', # Fuzzy
 	'option-manual' => 'อัปโหลดด้วยตนเอง',
 	'preview' => 'ดูตัวอย่าง',
 	'translate' => 'แปล',
@@ -3001,12 +2995,11 @@ $messages['th'] = array(
 	'uploading' => 'กำลังอัปโหลด',
 	'upload-complete' => 'อัปโหลดเสร็จเรียบร้อยแล้ว ภาพควรอยู่ที่ $1',
 	'editdescriptionpage' => 'แก้ไขหน้าคำอธิบายใหม่',
-	'disclaimer' => 'ข้อมูลไม่ระบุตัวตน รวมไปถึงชื่อผู้ใช้งาน TUSC จะถูกเก็บรักษาเป็นความลับเพื่อประโยชน์ทางสถิติและป้องกันการก่อกวน อย่างไรก็ตามรหัสผ่านจะไม่มีการบันทึกแต่อย่างใด',
+	'disclaimer' => 'ข้อมูลไม่ระบุตัวตน รวมไปถึงชื่อผู้ใช้งาน TUSC จะถูกเก็บรักษาเป็นความลับเพื่อประโยชน์ทางสถิติและป้องกันการก่อกวน อย่างไรก็ตามรหัสผ่านจะไม่มีการบันทึกแต่อย่างใด', # Fuzzy
 	'author-complete' => 'โปรดระบุรายละเอียดผู้สร้างสรรค์ให้ละเอียด',
 	'preview-hide' => 'ซ่อนตัวอย่าง',
 	'preview-refresh' => 'ปรับปรุงตัวอย่างให้เป็นปัจจุบัน',
 	'error-must-accept' => 'คุณต้องยอมรับเงื่อนไขการใช้งานที่มีอยู่ ก่อนดำเนินการอัปโหลดโดยตรง',
-	'error-tusc-failed' => 'การตรวจสอบ TUSC ล้มเหลวเนื่องจากชื่อผู้ใช้งานหรือรหัสผ่านผิด',
 	'description-license' => 'เลือกคำอธิบายและสัญญาอนุญาต',
 	'finalise' => 'ให้รายละเอียดนี้เป็นที่ถูกต้องและสิ้นสุด',
 );
@@ -3030,7 +3023,7 @@ $messages['tl'] = array(
 	'th-username' => 'Pangalan ng tagagamit',
 	'th-password' => 'Password',
 	'th-method' => 'Pamamaraan',
-	'option-tusc' => 'TUSC (kusang pagkakarga na paitaas)',
+	'option-oauth' => 'TUSC (kusang pagkakarga na paitaas)', # Fuzzy
 	'option-manual' => 'Kinakamay na pagkakargang papaitaas',
 	'preview' => 'Paunang pagtingin',
 	'translate' => 'Isalinwika',
@@ -3040,12 +3033,11 @@ $messages['tl'] = array(
 	'uploading' => 'Ikinakarga',
 	'upload-complete' => 'Matagumpay na nabuo ang pagkakarga. Ang larawan ay dapat na nasa $1 na ngayon',
 	'editdescriptionpage' => 'Baguhin ang bagong pahina ng paglalarawan',
-	'disclaimer' => 'Ilang datong hindi nakikilala ang pribadong lilikumin para sa mga layuning pang-estadistika.  Kapag ibinigay, ang mga pangalan ng tagagamit ng TUSC ay maitatala rin upang makatulong kapag may naganap na pambababoy. Hindi kailanman maitalala ang mga hudyat.',
+	'disclaimer' => 'Ilang datong hindi nakikilala ang pribadong lilikumin para sa mga layuning pang-estadistika.  Kapag ibinigay, ang mga pangalan ng tagagamit ng TUSC ay maitatala rin upang makatulong kapag may naganap na pambababoy. Hindi kailanman maitalala ang mga hudyat.', # Fuzzy
 	'author-complete' => 'Mangyaring buuin ang kabatiran sa may-akda!',
 	'preview-hide' => 'Itago ang paunang tanaw',
 	'preview-refresh' => 'Sariwain ang paunang tanaw',
 	'error-must-accept' => 'Upang magpatuloy sa isang tuwirang pagkakargang papaitaas dapat mong tanggapin ang ibinigay na mga tuntunin sa paggamit.',
-	'error-tusc-failed' => 'Nabigo ang pagpapatunay ng TUSC: hindi tama ang pangalan ng tagagamit o hudyat.',
 	'description-license' => 'Piliin ang paglalarawan at lisensiya',
 	'finalise' => 'Buuin na ang mga detalye',
 );
@@ -3071,6 +3063,7 @@ $messages['tly'] = array(
 /** Turkish (Türkçe)
  * @author Emperyan
  * @author Khutuck
+ * @author Violetanka
  * @author Vito Genovese
  */
 $messages['tr'] = array(
@@ -3088,7 +3081,7 @@ $messages['tr'] = array(
 	'th-username' => 'Kullanıcı adı',
 	'th-password' => 'Şifre',
 	'th-method' => 'Yöntem',
-	'option-tusc' => 'TUSC (otomatik yükleme)',
+	'option-oauth' => 'OAuth (otomatik yükleme)',
 	'option-manual' => 'Manuel yükleme',
 	'preview' => 'Ön izleme',
 	'translate' => 'Çevir',
@@ -3098,12 +3091,11 @@ $messages['tr'] = array(
 	'uploading' => 'Yükleniyor',
 	'upload-complete' => 'Yükleme başarıyla tamamlandı. Görüntüyü şimdi $1 adresinde olmalı.',
 	'editdescriptionpage' => 'Yeni açıklama sayfasını düzenle',
-	'disclaimer' => 'İstatistiksel amaçlarla bazı anonim bilgiler kaydedilecektir. Eğer belirtilirse, TUSC kullanıcı adları vandalizme karşı mücadelede kullanılacaktır. Şifreler asla kaydedilmeyecektir.',
+	'disclaimer' => 'İstatistiksel amaçlarla bazı anonim bilgiler kaydedilecektir. Eğer belirtilirse, TUSC kullanıcı adları suiistimale karşı mücadelede kullanılacaktır. Şifreler asla kaydedilmeyecektir.',
 	'author-complete' => 'Lütfen yazar bilgilerini doldurunuz!',
 	'preview-hide' => 'Önizleme gizle',
 	'preview-refresh' => 'Önizleme görüntüsünü yenileyin',
 	'error-must-accept' => 'Doğrudan yükleme ile devam etmek için kullanım koşullarını kabul etmeniz gerekir.',
-	'error-tusc-failed' => 'TUSC doğrulanamadı: kullanıcı adı veya parola yanlış.',
 	'description-license' => 'Açıklama ve lisans seçin',
 	'finalise' => 'Ayrıntıları tamamlayın',
 );
@@ -3136,7 +3128,7 @@ $messages['ug-arab'] = array(
 	'th-username' => 'ئىشلەتكۈچى ئاتى',
 	'th-password' => 'پارول',
 	'th-method' => 'ئۇسۇل',
-	'option-tusc' => 'TUSC (ئۆزلۈكىدىن يۈكلە)',
+	'option-oauth' => 'TUSC (ئۆزلۈكىدىن يۈكلە)', # Fuzzy
 	'option-manual' => 'قولدا يۈكلە',
 	'preview' => 'ئالدىن كۆزەت',
 	'translate' => 'تەرجىمە',
@@ -3146,12 +3138,11 @@ $messages['ug-arab'] = array(
 	'uploading' => 'يۈكلەۋاتىدۇ',
 	'upload-complete' => 'مۇۋەپپەقىيەتلىك يۈكلەندى. بۇ سۈرەتنىڭ ھازىرقى ئورنى $1',
 	'editdescriptionpage' => 'يېڭى  چۈشەندۈرۈش بېتىنى تەھرىر',
-	'disclaimer' => 'بەزى ئاتسىز سانلىق مەلۇماتلارنى شەخسلەر سىتاتىستىكا ئېلىپ بېرىش مەقسىتىدە توپلايدۇ. ئەگەر TUSC ئىشلەتكۈچى ئاتى ئىشلىتىلسە ئۇمۇ خاتىرىلىنىپ بۇزغۇنچىلىق قىلمىشىنىڭ ئالدىنى ئېلىشقا ھەمدەم قىلىنىدۇ. ئىم مەڭگۈ خاتىرىلەنمەيدۇ.',
+	'disclaimer' => 'بەزى ئاتسىز سانلىق مەلۇماتلارنى شەخسلەر سىتاتىستىكا ئېلىپ بېرىش مەقسىتىدە توپلايدۇ. ئەگەر TUSC ئىشلەتكۈچى ئاتى ئىشلىتىلسە ئۇمۇ خاتىرىلىنىپ بۇزغۇنچىلىق قىلمىشىنىڭ ئالدىنى ئېلىشقا ھەمدەم قىلىنىدۇ. ئىم مەڭگۈ خاتىرىلەنمەيدۇ.', # Fuzzy
 	'author-complete' => 'يازغۇچىنىڭ ئۇچۇرىنى تولدۇرۇڭ!',
 	'preview-hide' => 'ئالدىن كۆزىتىشنى يوشۇر',
 	'preview-refresh' => 'ئالدىن كۆزىتىشنى يېڭىلا',
 	'error-must-accept' => 'ئەگەر بىۋاستە يۈكلىمەكچى بولسىڭىز تەمىنلىگەن ئىشلىتىش ماددىلىرىغا قوشۇلۇڭ.',
-	'error-tusc-failed' => 'TUSC دەلىللىيەلمىدى: ئىشلەتكۈچى ئاتى ياكى ئىم خاتا.',
 	'description-license' => 'چۈشەندۈرۈش ۋە ئىجازەتنامە تاللاڭ',
 	'finalise' => 'تاماملاش تەپسىلاتى',
 );
@@ -3174,7 +3165,7 @@ $messages['uk'] = array(
 	'th-username' => "Ім'я користувача",
 	'th-password' => 'Пароль',
 	'th-method' => 'Метод',
-	'option-tusc' => 'TUSC (автоматичне завантаження)',
+	'option-oauth' => 'TUSC (автоматичне завантаження)', # Fuzzy
 	'option-manual' => 'Самостійне завантаження',
 	'preview' => 'Попередній перегляд',
 	'translate' => 'Перекласти',
@@ -3184,12 +3175,11 @@ $messages['uk'] = array(
 	'uploading' => 'Завантаження',
 	'upload-complete' => 'Завантаження успішно завершено. Зображення має тепер бути в $1',
 	'editdescriptionpage' => 'Редагування нової сторінки опису',
-	'disclaimer' => "Деякі анонімні дані можуть збиратися для статистичних цілей. Якщо було вказане TUSC-ім'я користувача, то воно також буде збережено для надання допомоги у випадку вандалізму. Паролі ніколи не зберігаються.",
+	'disclaimer' => "Деякі анонімні дані можуть збиратися для статистичних цілей. Якщо було вказане TUSC-ім'я користувача, то воно також буде збережено для надання допомоги у випадку вандалізму. Паролі ніколи не зберігаються.", # Fuzzy
 	'author-complete' => 'Будь ласка, заповніть інформацію про автора!',
 	'preview-hide' => 'Приховати попередній перегляд',
 	'preview-refresh' => 'Оновити попередній перегляд',
 	'error-must-accept' => 'Щоб продовжити завантаження, ви повинні прийняти Умови використання.',
-	'error-tusc-failed' => "Помилка перевірки TUSC. Ім'я користувача або пароль невірні.",
 	'description-license' => 'Виберіть опис і ліцензію',
 	'finalise' => 'Прикінцеві подробиці',
 );
@@ -3212,7 +3202,7 @@ $messages['vi'] = array(
 	'th-username' => 'Tên người dùng',
 	'th-password' => 'Mật khẩu',
 	'th-method' => 'Phương thức',
-	'option-tusc' => 'TUSC (tự động tải lên)',
+	'option-oauth' => 'OAuth (tự động tải lên)',
 	'option-manual' => 'Tải lên thủ công',
 	'preview' => 'Xem trước',
 	'translate' => 'Biên dịch',
@@ -3222,12 +3212,11 @@ $messages['vi'] = array(
 	'uploading' => 'Đang tải lên',
 	'upload-complete' => 'Hoàn tất tải lên tập tin. Hình có sẵn tại $1.',
 	'editdescriptionpage' => 'Sửa đổi trang miêu tả mới',
-	'disclaimer' => 'Một số dữ liệu vô danh sẽ được gửi một cách bảo mật cho mục đích thống kê. Nếu được cung cấp, các tên người dùng TUSC cũng được ghi lại để giúp tránh phá hoại. Các mật khẩu không bao giờ được ghi lại.',
+	'disclaimer' => 'Một số dữ liệu vô danh sẽ được gửi một cách bảo mật cho mục đích thống kê. Nếu được cung cấp, các tên người dùng OAuth cũng được ghi lại để giúp tránh phá hoại. Các mật khẩu không bao giờ được ghi lại.',
 	'author-complete' => 'Xin vui lòng điền thông tin tác giả!',
 	'preview-hide' => 'Ẩn phần xem trước',
 	'preview-refresh' => 'Làm mới phần xem trước',
 	'error-must-accept' => 'Để tiếp tục tải lên trực tiếp, trước tiên bạn phải cấp nhận các điều khoản sử dụng được trình bày.',
-	'error-tusc-failed' => 'Thất bại việc xác minh TUSC: tên người dùng hoặc mật khẩu không chính xác.',
 	'description-license' => 'Chọn miêu tả và giấy phép',
 	'finalise' => 'Hoàn tất các chi tiết',
 );
@@ -3252,6 +3241,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Mywood
  * @author Shizhao
  * @author Xiaomingyan
@@ -3272,7 +3262,7 @@ $messages['zh-hans'] = array(
 	'th-username' => '用户名',
 	'th-password' => '密码',
 	'th-method' => '方法',
-	'option-tusc' => 'TUSC (自动上传)',
+	'option-oauth' => 'OAuth（自动上传）',
 	'option-manual' => '手工上传',
 	'preview' => '预览',
 	'translate' => '翻译',
@@ -3282,12 +3272,11 @@ $messages['zh-hans'] = array(
 	'uploading' => '正在上传',
 	'upload-complete' => '上传顺利完成。该图像现在应该位于$1',
 	'editdescriptionpage' => '编辑新说明页面',
-	'disclaimer' => '某些匿名数据将会被私人收集用于统计目的。如果使用TUSC用户名，它也将会被记录下来以用于协助应付破坏行为。密码永远不会被记录。',
+	'disclaimer' => '某些匿名数据将会被私人收集用于统计目的。如果使用OAuth用户名，它也将会被记录下来以用于协助应付破坏行为。密码永远不会被记录。',
 	'author-complete' => '请填写作者信息！',
 	'preview-hide' => '隐藏预览',
 	'preview-refresh' => '刷新预览',
 	'error-must-accept' => '若要继续直接上传，您必须接受提供的使用条款。',
-	'error-tusc-failed' => 'TUSC确认失败：用户名或密码不正确。',
 	'description-license' => '选择说明和授权协议',
 	'finalise' => '敲定细节',
 );
@@ -3313,7 +3302,7 @@ $messages['zh-hant'] = array(
 	'th-username' => '使用者名稱',
 	'th-password' => '密碼',
 	'th-method' => '方法',
-	'option-tusc' => 'TUSC（自動上傳）',
+	'option-oauth' => 'TUSC（自動上傳）', # Fuzzy
 	'option-manual' => '手工上傳',
 	'preview' => '預覽',
 	'translate' => '翻譯',
@@ -3323,12 +3312,11 @@ $messages['zh-hant'] = array(
 	'uploading' => '上傳中',
 	'upload-complete' => '上傳成功，該文件現在應該位於$1',
 	'editdescriptionpage' => '編輯新的描述頁',
-	'disclaimer' => '某些匿名數據會被私人收集以用於統計。如果使用TUSC上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。',
+	'disclaimer' => '某些匿名數據會被私人收集以用於統計。如果使用TUSC上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。', # Fuzzy
 	'author-complete' => '請填寫作者信息。',
 	'preview-hide' => '隱藏預覽',
 	'preview-refresh' => '重新整理預覽',
 	'error-must-accept' => '如要繼續上傳，您必須接受提供的使用條款。',
-	'error-tusc-failed' => 'TUSC驗証錯誤：用戶名或密碼不正確。',
 	'description-license' => '選擇描述及條款',
 	'finalise' => '敲定細節',
 );
@@ -3350,7 +3338,7 @@ $messages['zh-hk'] = array(
 	'th-username' => '用戶名',
 	'th-password' => '密碼',
 	'th-method' => '方法',
-	'option-tusc' => 'TUSC（自動上載）',
+	'option-oauth' => 'TUSC（自動上載）', # Fuzzy
 	'option-manual' => '手動上載',
 	'preview' => '預覽',
 	'translate' => '翻譯',
@@ -3360,12 +3348,11 @@ $messages['zh-hk'] = array(
 	'uploading' => '上載中',
 	'upload-complete' => '上傳成功，該文件現在應該位於$1',
 	'editdescriptionpage' => '編輯新的描述頁',
-	'disclaimer' => '某些匿名數據會被私人收集以用於統計。如果使用TUSC上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。',
+	'disclaimer' => '某些匿名數據會被私人收集以用於統計。如果使用TUSC上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。', # Fuzzy
 	'author-complete' => '請填寫作者信息！',
 	'preview-hide' => '隱藏預覽',
 	'preview-refresh' => '重新整理預覽',
 	'error-must-accept' => '如要繼續上載，您必須接受提供的使用條款。',
-	'error-tusc-failed' => 'TUSC驗証錯誤：用戶名或密碼不正確。',
 	'description-license' => '選擇描述及條款',
 	'finalise' => '決定細節',
 );

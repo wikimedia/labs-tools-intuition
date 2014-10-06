@@ -39,8 +39,7 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'title' => "The tool's title (name), used the main heading. grep is a technical term and cannot be translated",
 	'introduction' => "The introductory paragraph explaining the tool's use. Parameters:
-* $1 - a link pointing to [[w:Regular expression]], with translatable link text and link target
-
+* $1 - a link pointing to [[w:Regular expression]], with translatable link text {{msg-intuition|Grep-explanation}} and link target
 See also:
 * {{msg-intuition|Grep-regex}} - link text and link target",
 	'explanation' => 'Used as text for the link pointing to [[w:Regular expression]] which contains explanation for regular expression.',
@@ -64,16 +63,51 @@ See also:
 	'match-count' => 'Appears above a list of results. $1 is a whole number (integer) greater than or equal to 1',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'title' => "grep nel títulu d'artículos (beta)",
+	'introduction' => 'Esta ferramienta amuesa tolos títulos d\'artículos que casen con un patrón d\'espresión regular ($1). Buscar usando una espresión regular ye costoso en recursos. Si pue ser, recuerda usar los indicadores prefixu (^) y sufixu ($).',
+	'explanation' => 'esplicación',
+	'regex' => 'Espresión regular',
+	'enter-details' => 'Escribi los detalles',
+	'results' => 'Resultaos',
+	'language-label' => 'Llingua',
+	'namespace-label' => 'Espaciu de nomes',
+	'project-label' => 'Proyeutu',
+	'pattern-label' => 'Patrón',
+	'redirects-label' => 'Incluir redirecciones',
+	'limit-label' => 'Llendar la vista a los 100 primeros resultaos',
+	'error-zeroresults' => 'Nun hai páxines nesi espaciu de nomes con títulos que casen cola espresión regular.',
+	'match-count' => '{{PLURAL:$1|$1 páxina casa|$1 páxines casen}} cola espresión regular.',
+);
+
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'enter-details' => 'বিস্তারিত লিখুন',
+	'results' => 'ফলাফল',
+	'language-label' => 'ভাষা',
+	'namespace-label' => 'নামস্থান',
+	'project-label' => 'প্রকল্প',
+	'pattern-label' => 'বিন্যাস',
+);
+
 /** Breton (brezhoneg)
  * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
+	'explanation' => 'displegadenn',
+	'enter-details' => 'Ebarzhiñ munudoù',
 	'results' => "Disoc'hoù",
 	'language-label' => 'Yezh',
 	'namespace-label' => 'Esaouenn anv',
 	'project-label' => 'Raktres',
 	'pattern-label' => 'Patrom',
+	'limit-label' => "Diskwel ar 100 disoc'h kentañ hepken",
 );
 
 /** Catalan (català)
@@ -130,13 +164,15 @@ $messages['diq'] = array(
 
 /** Spanish (español)
  * @author Kingpowl
+ * @author Macofe
  * @author VegaDark
  */
 $messages['es'] = array(
-	'introduction' => 'Esta herramienta muestra todos los títulos de los artículos que coinciden con un patrón de expresión regular ($1). Buscar usando una expresión regular es consume recursos. Si es posible, recuerda usar los indicadores prefijo (^) y sufijo ($).',
+	'title' => 'Grep del título del artículo (beta)',
+	'introduction' => 'Esta herramienta muestra todos los títulos de los artículos que coinciden con un patrón de expresión regular ($1). Buscar usando una expresión regular consume muchos recursos. Si es posible, recuerda usar los indicadores de prefijo (^) y sufijo ($).',
 	'explanation' => 'explicación',
 	'regex' => 'Expresión regular',
-	'enter-details' => 'Introduce los datos',
+	'enter-details' => 'Introduce los detalles',
 	'results' => 'Resultados',
 	'language-label' => 'Idioma',
 	'namespace-label' => 'Espacio de nombres',
@@ -146,6 +182,17 @@ $messages['es'] = array(
 	'limit-label' => 'Limitar la visualización de los primeros 100 resultados',
 	'error-zeroresults' => 'No hay páginas en ese espacio de nombres con títulos que coincidan con tu expresión regular.',
 	'match-count' => '{{PLURAL:$1|$1 página coincide|$1 páginas coinciden}} con tu expresión regular.',
+);
+
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'results' => 'نتایج',
+	'language-label' => 'زبان',
+	'namespace-label' => 'فضای نام',
+	'project-label' => 'پروژه',
+	'pattern-label' => 'طرح‌دار',
 );
 
 /** French (français)
@@ -190,10 +237,17 @@ $messages['he'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author C5st4wr6ch
+ * @author Kenrick95
  */
 $messages['id'] = array(
+	'explanation' => 'penjelasan',
 	'regex' => 'Ekspresi reguler',
+	'enter-details' => 'Masukan detail',
+	'results' => 'Hasil',
+	'language-label' => 'Bahasa',
+	'namespace-label' => 'Ruang nama',
 	'project-label' => 'Proyek',
+	'pattern-label' => 'Pola',
 	'limit-label' => 'Batasi tampilan menjadi 100 hasil pertama',
 );
 
@@ -288,6 +342,14 @@ $messages['lv'] = array(
 	'results' => 'Rezultāti',
 );
 
+/** Laz (Lazuri)
+ * @author Ceas08
+ */
+$messages['lzz'] = array(
+	'language-label' => 'Nena',
+	'namespace-label' => 'Svacoxo',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -312,6 +374,13 @@ $messages['mk'] = array(
  * @author सरोज कुमार ढकाल
  */
 $messages['ne'] = array(
+	'explanation' => 'वर्णन',
+	'regex' => 'रेगुलर एक्सप्रेसन',
+	'enter-details' => 'जानकारीहरू प्रविष्ट गर्नुहोस्',
+	'results' => 'नतिजाहरू',
+	'language-label' => 'भाषा',
+	'namespace-label' => 'नेमस्पेस',
+	'project-label' => 'परियोजना',
 	'pattern-label' => 'ढाँचा',
 );
 
@@ -336,11 +405,22 @@ $messages['nl'] = array(
 
 /** Polish (polski)
  * @author Faren
+ * @author Ty221
  */
 $messages['pl'] = array(
+	'title' => 'Grep tytułu artykułu (beta)',
+	'explanation' => 'wyjaśnienie',
+	'regex' => 'Wyrażenie regularne',
+	'enter-details' => 'Wprowadź szczegóły',
+	'results' => 'Wyniki',
 	'language-label' => 'Język',
+	'namespace-label' => 'Przestrzeń nazw',
 	'project-label' => 'Projekt',
+	'pattern-label' => 'Wzór',
+	'redirects-label' => 'Zawiera przekierowania',
 	'limit-label' => 'Ogranicz wyświetlanie do pierwszych 100 wyników',
+	'error-zeroresults' => 'Nie ma stron w tej przestrzeni nazw, które pasują do twojego wyrażenia regularnego.',
+	'match-count' => '{{PLURAL:$1|$1 strona|$1 stron}} pasuje do twojego wyrażenia regularnego.',
 );
 
 /** Portuguese (português)
@@ -386,6 +466,7 @@ $messages['ro'] = array(
  * @author Okras
  */
 $messages['ru'] = array(
+	'title' => 'Grep для названий статей (бета)',
 	'introduction' => 'Этот инструмент показывает все заголовки статей, которые соответствуют шаблону регулярного выражения ($1). Поиск с помощью регулярных выражений является ресурсоёмким, поэтому, если это возможно, не забывайте использовать указатели префикса (^) и ($) суффикса.',
 	'explanation' => 'объяснение',
 	'regex' => 'Регулярное выражение',
@@ -401,11 +482,23 @@ $messages['ru'] = array(
 	'match-count' => '$1 страниц{{PLURAL:$1|а соответствует| соответствуют|ы соответствуют}} вашему регулярному выражению.',
 );
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
+ */
+$messages['sr-ec'] = array(
+	'language-label' => 'Језик',
+	'namespace-label' => 'Именски простор',
+	'project-label' => 'Пројекат',
+);
+
 /** Swedish (svenska)
  * @author Jopparn
+ * @author Lokal Profil
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'title' => 'Artikeltitel-grep (beta)',
+	'introduction' => 'Detta verktyg visar alla artikelrubriker som matchar ett mönster för reguljära uttryck ($1). Att söka genom att använda ett reguljärt uttryck är resurskrävande. Om möjligt, kom ihåg att använda prefix- (^) och ($) suffixindikatorerna.',
 	'explanation' => 'förklaring',
 	'regex' => 'Reguljärt uttryck',
 	'enter-details' => 'Ange detaljer',
@@ -416,7 +509,28 @@ $messages['sv'] = array(
 	'pattern-label' => 'Mönster',
 	'redirects-label' => 'Inkludera omdirigeringar',
 	'limit-label' => 'Begränsa visningen till de första 100 resultaten',
+	'error-zeroresults' => 'Det finns inga sidor i den namnrymnden med titlar som matchar ditt reguljära uttryck.',
 	'match-count' => '{{PLURAL:$1|$1 sida|$1 sidor}} överensstämmer ditt reguljära uttryck.',
+);
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'title' => 'Grep для назв статей (бета)',
+	'introduction' => 'Цей інструмент відображає всі заголовки статей, які відповідають шаблону регулярного виразу ($1). Пошук за допомогою регулярних виразів є ресурсомістким, тому, якщо це можливо, не забувайте використовувати покажчики префікса ( ^ ) ( $ ) суфікс.',
+	'explanation' => 'пояснення',
+	'regex' => 'Регулярний вираз',
+	'enter-details' => 'Вкажіть подробиці',
+	'results' => 'Результати',
+	'language-label' => 'Мова',
+	'namespace-label' => 'Простір назв',
+	'project-label' => 'Проект',
+	'pattern-label' => 'Візерунок',
+	'redirects-label' => 'Включати перенаправлення',
+	'limit-label' => 'Обмежувати відображення першими 100 результатами',
+	'error-zeroresults' => 'Немає сторінок в просторі імен з назвами відповідних вашому регулярному виразу.',
+	'match-count' => '{{PLURAL:$1|$1 сторінка відповідає|$1 сторінок відповідають|$1 сторінки відповідають}} вашому регулярному виразу.',
 );
 
 /** Vietnamese (Tiếng Việt)

@@ -397,18 +397,19 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author Macofe
  * @author Platonides
  * @author Vivaelcelta
  */
 $messages['es'] = array(
-	'toolserver-status-ok' => 'No hay problemas en el cluster $1 $2',
-	'toolserver-status-info' => 'Información para los usuarios del cluster $1: $2',
-	'toolserver-status-warn' => 'Advertencia para usuarios del cluster $1: $2',
-	'toolserver-status-down' => 'El cluster $1 no está disponible. $2',
-	'toolserver-status-erro' => 'El cluster $1 está caído. $2',
-	'toolserver-status-unknown' => 'Se desconoce el estado del cluster $1',
+	'toolserver-status-ok' => 'No hay problemas en la agrupación de bases de datos $1 $2',
+	'toolserver-status-info' => 'Información para los usuarios del clúster $1: $2',
+	'toolserver-status-warn' => 'Aviso para los usuarios de la agrupación $1: $2',
+	'toolserver-status-down' => 'El clúster $1 no está disponible. $2',
+	'toolserver-status-erro' => 'La agrupación de bases de datos $1 no está disponible. $2',
+	'toolserver-status-unknown' => 'Se desconoce el estado de la agrupación $1',
 	'toolserver-status-missing' => 'La agrupación «$1» no existe',
-	'toolserver-status-short-ok' => '$1: Ok',
+	'toolserver-status-short-ok' => '$1: correcto',
 	'toolserver-status-short-info' => '$1: información',
 	'toolserver-status-short-warn' => '$1: aviso',
 	'toolserver-status-short-down' => '$1: desconectado',
@@ -694,7 +695,9 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'toolserver-status-missing' => 'クラスタ $1 は存在しません',
+	'toolserver-status-ok' => 'データベース クラスターに問題点はありません $1 $2',
+	'toolserver-status-erro' => 'データベース クラスター $1 はダウンしています: $2',
+	'toolserver-status-missing' => 'クラスター $1 は存在しません',
 	'toolserver-status-short-ok' => '$1: OK',
 	'toolserver-status-short-info' => '$1: 情報',
 	'toolserver-status-short-warn' => '$1: 警告',
@@ -937,6 +940,19 @@ $messages['nb'] = array(
  */
 $messages['nds'] = array(
 	'toolserver-status-short-erro' => '$1: Fähler',
+);
+
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'toolserver-status-short-ok' => '$1: ठिक',
+	'toolserver-status-short-info' => '$1: जानकारी',
+	'toolserver-status-short-warn' => '$1: चेतावनी',
+	'toolserver-status-short-down' => '$1: निम्न',
+	'toolserver-status-short-erro' => '$1: त्रुटि',
+	'toolserver-status-short-unknown' => '$1: अज्ञात',
+	'toolserver-status-short-missing' => '$1: हराइरहेका',
 );
 
 /** Newari (नेपाल भाषा)
@@ -1283,12 +1299,16 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author ElangoRamanujam
  */
 $messages['ta'] = array(
 	'toolserver-status-short-ok' => '$1: சரி',
 	'toolserver-status-short-info' => '$1: தகவல்',
 	'toolserver-status-short-warn' => '$1: எச்சரி',
+	'toolserver-status-short-down' => '$1: கீழே',
 	'toolserver-status-short-erro' => '$1: பிழை',
+	'toolserver-status-short-unknown' => '$1: அறியாதது',
+	'toolserver-status-short-missing' => '$1: விடுபட்டது',
 );
 
 /** Telugu (తెలుగు)
@@ -1329,12 +1349,20 @@ $messages['tly'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Mavrikant
+ * @author Prq
  */
 $messages['tr'] = array(
+	'toolserver-status-ok' => 'Veritabanı kümesinde $1 $2 problem yok',
+	'toolserver-status-unknown' => "Cluster $1'in durumu bilinmiyor",
+	'toolserver-status-missing' => 'Cluster $1 mevcut değil',
 	'toolserver-status-short-ok' => '$1: Tamam',
 	'toolserver-status-short-info' => '$1: Bilgi',
 	'toolserver-status-short-warn' => '$1: Uyar',
+	'toolserver-status-short-down' => '$1: Çalışmıyor',
 	'toolserver-status-short-erro' => '$1: Hata',
+	'toolserver-status-short-unknown' => '$1: Bilinmiyor',
+	'toolserver-status-short-missing' => '$1: Eksik',
 );
 
 /** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)

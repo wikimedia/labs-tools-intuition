@@ -123,10 +123,12 @@ $messages['be-tarask'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Nasir8891
  */
 $messages['bn'] = array(
-	'moretools' => 'এই প্রকাশনের অন্যান্য টুল',
+	'moretools' => 'আরও সরঞ্জাম',
+	'homepage-title' => 'পরিচিতি',
 	'bugs' => 'বাগ রিপোর্ট এবং ফিচার রিপোর্ট',
 	'comments' => 'মন্তব্য এবং প্রশ্নসমূহ',
 	'error-form-empty' => 'এক বা একাধিক বাধ্যতামূল ফিল্ড খালি রয়েছে। পরবর্তী ধাপে অগ্রসর হওয়ার আগে এগুলো পূরণ করুন।',
@@ -190,12 +192,13 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
+ * @author Se4598
  */
 $messages['de'] = array(
 	'moretools' => 'Weitere Hilfsprogramme',
 	'homepage-title' => 'Einführung',
 	'bugs' => 'Fehlermeldungen und Funktionswünsche',
-	'comments' => 'Anmerkungen und Abfragen',
+	'comments' => 'Anmerkungen und Anfragen',
 	'error-form-empty' => 'Eines oder mehrere der Pflichtfelder wurden nicht ausgefüllt. Bitte vor dem Fortfahren ausfüllen.',
 );
 
@@ -379,9 +382,11 @@ $messages['ia'] = array(
 /** Indonesian (Bahasa Indonesia)
  * @author Aldnonymous
  * @author C5st4wr6ch
+ * @author Kenrick95
  */
 $messages['id'] = array(
 	'moretools' => 'alat-alat yang lain',
+	'homepage-title' => 'Pendahuluan',
 	'bugs' => 'laporan bug dan permintaan fitur',
 	'comments' => 'Komentar dan pertanyaan',
 	'error-form-empty' => 'Satu bidang atau beberapa bidang telah ditinggalkan kosong. Anda harus menyelesaikannya sebelum melanjutkan.',
@@ -555,6 +560,13 @@ $messages['nb'] = array(
 	'bugs' => 'feilrapporter og funksjonsforespørsler',
 	'comments' => 'kommentarer og spørringer',
 	'error-form-empty' => 'En eller flere obligatoriske felt er fortsatt tomme. Du bør fylle dem ut før du fortsetter.',
+);
+
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'homepage-title' => 'परिचय',
 );
 
 /** Newari (नेपाल भाषा)

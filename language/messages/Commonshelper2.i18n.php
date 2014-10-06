@@ -598,12 +598,14 @@ $messages['bjn'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Bellayet
  * @author Nasir8891
  */
 $messages['bn'] = array(
 	'attention' => 'লক্ষ্য করুন',
 	'description' => 'টুলটি উইকিমিডিয়া প্রকল্প থেকে উইকিমিডিয়া কমন্সে ফাইল স্থানান্তর করে',
+	'change_meta' => '$3-এর জন্য $1বিষয়শ্রেণী এবং টেমপ্লেট সেটিংস$2 পরিবর্তন করুন',
 	'jira_link' => 'কোন বৈশিষ্ট্য সম্পর্কে পরামর্শ দিতে বাগ রিপোর্ট করুন',
 	'language' => 'ভাষা',
 	'project' => 'প্রকল্প',
@@ -614,17 +616,23 @@ $messages['bn'] = array(
 	'move_file_from_com' => 'উইকিমিডিয়া কমন্স থেকে প্রকল্পে ফাইল স্থানান্তর করো',
 	'categories' => 'বিষয়শ্রেণীসমূহ',
 	'remove_cats' => 'বর্তমান বিষয়শ্রেণীসমূহ অপসারণ',
+	'use_checkusage' => 'নতুন বিষয়শ্রেণীর পরামর্শ দিতে $1কমন্সসেন্স$2 ব্যবহার করুন',
+	'use_tusc' => 'অনুমোদন এবং সরাসরি ফাইল স্থানান্তর করতে $1TUSC$2 ব্যবহার করুন',
 	'tusc_user' => 'TUSC ব্যবহারকারীনাম',
-	'tusc_pass' => 'TUSC শব্দচাবি',
+	'tusc_pass' => 'TUSC পাসওয়ার্ড',
 	'do_it' => 'সম্পন্ন করো',
 	'error_transfer_usr' => 'আপনি উইকিমিডিয়া কমন্সের ব্যবহারকারী নাম প্রদান করেননি',
 	'error_not_exists' => 'উৎস ফাইল পাওয়া যায়নি!',
 	'error_on_commons' => 'সোর্স ফাইল পূর্বেই $1 এ রয়েছে',
-	'error_file_exists' => 'ফাইল $3 এ ইতিমধ্যে "$1 $4 $2" হিসাবে বিদ্যমান!',
+	'error_file_exists' => 'ফাইল $3-এ ইতিমধ্যে "$1$4$2" হিসাবে বিদ্যমান!',
 	'error_diff_exists' => 'ভিন্ন লক্ষ্য ফাইল একই নামের অধীনে লক্ষ্য উইকিতে বিদ্যমান!',
+	'error_no_meta' => 'উৎস উইকি সম্পর্কে মেটাডেটা খুঁজে পাওয়া যায়নি! $1দয়া করে প্রকল্পের জন্য মেটাডাটা যোগ/হালনাগাদ করুন$2',
+	'error_meta_no_good' => 'মেটাডাটা: কোন ভাল টেমপ্লেট পাওয়া যায়নি! $1দয়া করে প্রকল্পের জন্য মেটাডাটা যোগ/হালনাগাদ করুন$2',
+	'error_meta_bad' => 'মেটাডাটা: খারাপ টেমপ্লেট পাওয়া গেছে! $1দয়া করে প্রকল্পের জন্য মেটাডাটা যোগ/হালনাগাদ করুন$2',
 	'original_wikitext' => 'মূল উইকি টেক্সট',
 	'new_wikitext' => 'নতুন উইকি টেক্সট',
 	'new_filename' => 'নতুন ফাইলনাম:',
+	'output_information' => 'ম্যানুয়াল হালনাগাদের জন্য, উপরের লেখা (প্রয়োজন হলে) সম্পাদনা করুন, $1ফাইলটি$2 আপনার কম্পিউটারে সংরক্ষণ করুন, এরপর $3এটি আপলোড$4 করুন।',
 	'upload_submit' => 'আপলোড!',
 	'target_wiki' => 'লক্ষ্য উইকি টেক্সট',
 	'error_bot_blocked' => 'আপলোড বট উইকিমিডিয়া কমন্সে ব্লক করা হয়েছে।',
@@ -635,8 +643,10 @@ $messages['bn'] = array(
 	'error_commons_user' => 'স্থানান্তর ব্যবহারকারীকে চিহ্নিত করতে, বর্ণনায় আপনার উইকিমিডিয়া কমন্স ইউজারনেম থাকতে হবে!',
 	'error_upload_users' => 'আপলোড ফাংশন শুধুমাত্র কিছু ব্যবহারকারীদের পরীক্ষার সময় পাওয়া যায়!',
 	'error_upload_file' => 'মূল ফাইল ডাউনলোড করা যাবে না।',
+	'help_intro' => 'যদি আপনি একটি বাগ রিপোর্ট করতে চান, একটি বৈশিষ্ট্য সুপারিশ করতে বা কোন প্রশ্ন করতে চান, তাহলে আপনি নীচের যোগাযোগ ব্যবহার করতে পারেন:',
+	'help_jira' => '$1JIRA (আপনার একটি অ্যাকাউন্ট প্রয়োজন)$2 (প্রকল্প: Commonshelper2)',
 	'help_mail' => '$1 কে ইমেইল পাঠান',
-	'help_commons' => '$2 কমন্সে $1 একটি পোস্ট করেছেন',
+	'help_commons' => '$1কমন্সে একটি পোস্ট করুন$2',
 );
 
 /** Breton (brezhoneg)
@@ -1098,17 +1108,18 @@ $messages['eo'] = array(
  * @author Crazymadlover
  * @author Dalton2
  * @author Fitoschido
+ * @author Macofe
  * @author Platonides
  * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'attention' => 'Atención',
 	'description' => 'Una herramienta para transferir archivos de proyectos Wikimedia a Wikimedia Commons',
-	'change_meta' => 'Cambiar $1category y las configuraciones de plantilla $2 a $3',
+	'change_meta' => 'Cambiar las $1configuraciones de categorías y de plantillas$2 de $3',
 	'jira_link' => 'Informar de un fallo o sugerir una función',
 	'language' => 'Idioma',
 	'project' => 'Proyecto',
-	'source_file' => 'Archivo origen',
+	'source_file' => 'Archivo de origen',
 	'target_file' => 'Archivo de destino',
 	'commons_username' => 'Nombre de usuario de Wikimedia Commons',
 	'commons_to_project' => 'Wikimedia Commons a proyecto',
@@ -1121,13 +1132,13 @@ $messages['es'] = array(
 	'tusc_user' => 'Usuario de TUSC',
 	'tusc_pass' => 'Contraseña de TUSC',
 	'do_it' => 'Hacerlo',
-	'error_transfer_usr' => 'No ha definido un nombre de usuario de Wikimedia Commons',
+	'error_transfer_usr' => 'No has definido un nombre de usuario de Wikimedia Commons',
 	'error_not_exists' => 'El archivo de origen no existe.',
 	'error_on_commons' => 'El archivo de origen ya se encuentra en $1.',
 	'error_file_exists' => 'El archivo ya existe en $3 como «$1$4$2».',
 	'error_diff_exists' => '¡Un archivo de destino diferente existe en el wiki de destino con el mismo nombre!',
 	'error_no_meta' => 'No se encontraron metadatos del wiki de origen. $1Añade/actualiza los metadatos del proyecto$2',
-	'error_meta_no_good' => 'Metadatos: ¡No se hallaron plantillas buenas! $1Por favor agregar/actualizar los metadatos para el proyecto$2',
+	'error_meta_no_good' => 'Metadatos: ¡No se hallaron plantillas adecuadas! $1Añade/actualiza los metadatos para el proyecto$2',
 	'error_meta_bad' => 'Metadatos: Se encontró una plantilla inadecuada. $1Añade/actualiza los metadatos para el proyecto$2',
 	'original_wikitext' => 'Texto original de wiki',
 	'new_wikitext' => 'Nuevo texto de wiki',
@@ -1137,16 +1148,16 @@ $messages['es'] = array(
 	'target_wiki' => 'el wiki de destino',
 	'error_bot_blocked' => 'El bot de carga está bloqueado en Wikimedia Commons.',
 	'error_upload_meta' => 'No se puede cargar directamente porque hay un problema con los metadatos (véase más arriba).',
-	'error_tusc_failed' => 'Error de verificación de TUSC',
+	'error_tusc_failed' => 'Falló la comprobación de TUSC.',
 	'error_only_commons' => 'La carga directa funciona solo en Wikimedia Commons.',
 	'upload_control_text' => 'Comprueba el nuevo texto wiki y haz clic en «$1» si todo está bien.',
 	'error_commons_user' => 'Para identificar al usuario de transferencia, tu nombre de usuario de Wikimedia Commons tiene que estar en la descripción.',
 	'error_upload_users' => 'La función de carga solo está disponible para algunos usuarios durante el período de prueba.',
 	'error_upload_file' => 'No se puede descargar el archivo original.',
-	'help_intro' => 'Si desea informar de un error, sugerir una nueva característica o realizar una pregunta, puedes usar una de las siguientes formas de contacto:',
-	'help_jira' => '$1A través de JIRA (necesita una cuenta)$2  (proyecto: Commonshelper2)',
-	'help_mail' => 'Enviando un correo electrónico a $1',
-	'help_commons' => '$1Dejando un mensaje en Commons$2',
+	'help_intro' => 'Si deseas informar un error, sugerir una nueva característica o realizar una pregunta, puedes usar una de las siguientes formas de contacto:',
+	'help_jira' => '$1JIRA (necesitas una cuenta)$2 (proyecto: Commonshelper2)',
+	'help_mail' => 'Enviar un mensaje de correo a $1',
+	'help_commons' => '$1Dejar un mensaje en Commons$2',
 );
 
 /** Estonian (eesti)
@@ -1226,6 +1237,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Alirezaaa
  * @author Ebraminio
  * @author Mjbmr
  * @author Omidh
@@ -1245,7 +1257,7 @@ $messages['fa'] = array(
 	'move_file_from_com' => 'انتقال پرونده از ویکی‌انبار به پروژه',
 	'categories' => 'رده‌ها',
 	'remove_cats' => 'حذف رده‌های موجود',
-	'use_checkusage' => 'استفاده از $1CommonSense$2 برای پیشنهاد رده‌های جدید',
+	'use_checkusage' => 'استفاده از $1CommonSense$2 برای پیشنهاد رده‌های تازه',
 	'use_tusc' => 'استفاده از $1TUSC$2 برای تأیید و انتقال مستقیم پرونده',
 	'tusc_user' => 'نام کاربری TUSC',
 	'tusc_pass' => 'گذرواژهٔ TUSC',
@@ -1259,8 +1271,8 @@ $messages['fa'] = array(
 	'error_meta_no_good' => 'فراداده: الگوهای خوبی یافت نشد! $1لطفاً فرادادهٔ پروژه را اضافه/به‌روز کنید$2',
 	'error_meta_bad' => 'فراداده: الگوی بدی یافت شد! $1لطفاً فرادادهٔ پروژه را اضافه/به‌روز کنید$2',
 	'original_wikitext' => 'متن اصلی ویکی',
-	'new_wikitext' => 'متن جدید ویکی',
-	'new_filename' => 'نام پروندهٔ جدید:',
+	'new_wikitext' => 'متن تازه ویکی',
+	'new_filename' => 'نام پروندهٔ تازه:',
 	'output_information' => 'برای بارگذاری دستی، متن بالا را ویرایش کنید (اگر نیاز است)، $1پرونده$2 را در رایانه‌یتان ذخیره کنید، سپس $3بارگذاری‌اش کنید$4.',
 	'upload_submit' => 'بارگذاری!',
 	'target_wiki' => 'ویکی مقصد',
@@ -2465,6 +2477,13 @@ $messages['lv'] = array(
 	'upload_submit' => 'Augšupielādēt!',
 );
 
+/** Laz (Lazuri)
+ * @author Ceas08
+ */
+$messages['lzz'] = array(
+	'language' => 'Nena',
+);
+
 /** Basa Banyumasan (Basa Banyumasan)
  * @author StefanusRA
  */
@@ -2866,10 +2885,17 @@ $messages['nds'] = array(
 
 /** Nepali (नेपाली)
  * @author Krish Dulal
+ * @author सरोज कुमार ढकाल
  */
 $messages['ne'] = array(
+	'attention' => 'ध्यान दिनुहोस्',
+	'language' => 'भाषा',
+	'project' => 'परियोजना',
 	'source_file' => 'स्रोत फाइल',
 	'target_file' => 'लक्ष्य फाइल',
+	'categories' => 'श्रेणीहरू',
+	'do_it' => 'गर्नुहोस्',
+	'upload_submit' => 'अपलोड गर्ने',
 );
 
 /** Newari (नेपाल भाषा)
@@ -3097,6 +3123,7 @@ $messages['or'] = array(
 
 /** Punjabi (ਪੰਜਾਬੀ)
  * @author Aalam
+ * @author Babanwalia
  */
 $messages['pa'] = array(
 	'attention' => 'ਧਿਆਨ ਦਿਓ',
@@ -3104,7 +3131,7 @@ $messages['pa'] = array(
 	'project' => 'ਪਰੋਜੈਕਟ',
 	'source_file' => 'ਸਰੋਤ ਫਾਇਲ',
 	'target_file' => 'ਟਾਰਗੇਟ ਫਾਇਲ',
-	'commons_username' => 'ਵਿਕਿਮੀਡਿਆ ਕਾਮਨਜ਼ ਯੂਜ਼ਰ-ਨਾਂ',
+	'commons_username' => 'ਵਿਕੀਮੀਡੀਆ ਕਾਮਨਜ਼ ਵਰਤੋਂਕਾਰ ਨਾਂ',
 	'categories' => 'ਕੈਟਾਗਰੀਆਂ',
 	'remove_cats' => 'ਮੌਜੂਦਾ ਕੈਟਾਗਰੀਆਂ ਹਟਾਓ',
 );
@@ -4377,6 +4404,8 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Cwlin0416
+ * @author LNDDYL
  * @author Lauhenry
  * @author Littletung
  * @author Liuxinyu970226
@@ -4392,14 +4421,14 @@ $messages['zh-hant'] = array(
 	'project' => '計劃',
 	'source_file' => '來源檔案',
 	'target_file' => '目標檔案',
-	'commons_username' => '維琪共用資源的用戶名',
+	'commons_username' => '維基共享資源的使用者名稱',
 	'commons_to_project' => '維基共享資源到項目',
 	'move_file_from_com' => '由維基共享資源轉移檔案到項目',
 	'categories' => '分類',
 	'remove_cats' => '刪除現有的分類',
 	'checkusage' => 'CheckUsage',
 	'use_checkusage' => '使用$1CommonSense$2導入新分類',
-	'use_tusc' => '使用$1TUSC$2來直接驗證和傳輸該文件',
+	'use_tusc' => '使用$1TUSC$2來直接驗證和傳輸該檔案',
 	'tusc_user' => 'TUSC用戶名',
 	'tusc_pass' => 'TUSC密碼',
 	'do_it' => '開始',
@@ -4407,7 +4436,7 @@ $messages['zh-hant'] = array(
 	'error_not_exists' => '原始檔案不存在 ！',
 	'error_on_commons' => '原始檔案已在 $1 ！',
 	'error_file_exists' => '檔案已經在$3上存在，檔案名為「$1$4$2」！',
-	'error_diff_exists' => '根據同名的目標維基上存在不同的目標文件！',
+	'error_diff_exists' => '根據同名的目標維基上存在不同的目標檔案！',
 	'error_no_meta' => '未找到關於該來源維基的元數據！ $1請為該項目添加/更新元數據$2',
 	'error_meta_no_good' => '元數據：找不到合適模板！$1請添加或更新改項目的元數據$2',
 	'error_meta_bad' => '元數據：找到不合適模板！$1請添加或更新改項目的元數據$2',
