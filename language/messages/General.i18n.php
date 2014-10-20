@@ -82,7 +82,8 @@ $messages['qqq'] = array(
 * $1 - the number of seconds.
 {{Identical|Second}}',
 	'last-modified-date' => 'The date something was last modified. Parameters:
-* $1 - a date (e.g. "April 5 2010, 12:30 AM")',
+* $1 - a date (e.g. "April 5 2010, 12:30 AM")
+{{Identical|Last modified}}',
 	'view-source' => 'Label for a button or link that, when clicked, will present the program source code.
 {{Identical|View source}}',
 	'parentheses' => '{{Optional}}',

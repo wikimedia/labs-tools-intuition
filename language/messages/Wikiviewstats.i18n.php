@@ -1693,12 +1693,13 @@ $messages['fa'] = array(
  * @author Gomoko
  * @author Hedonil
  * @author JackPotte
+ * @author Kvardek du
  */
 $messages['fr'] = array(
 	'records' => 'enregistrements',
 	'list' => 'Liste',
 	'sample' => 'Exemple',
-	'hits' => 'coups',
+	'hits' => 'consultations',
 	'pageviews' => 'pages vues',
 	'24hstat' => '24 heures statistique',
 	'pagetitle' => 'Titre de la page',
@@ -2859,7 +2860,7 @@ $messages['mk'] = array(
 	'removeFromWorklist' => 'отстрани го делото од списокот',
 	'projectPages' => 'Проектни страници',
 	'backToTop' => 'најгоре',
-	'rankLocal' => 'Ранг (локален) на',
+	'rankLocal' => 'Ранг (месен) на',
 	'rankWorld' => 'Ранг (светски) на сите Викимедиини викија',
 	'pageViewCount' => 'Број на посети (неединечни)',
 	'winningArticles' => 'Најкотирани статии',

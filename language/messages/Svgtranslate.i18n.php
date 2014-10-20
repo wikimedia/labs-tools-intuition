@@ -223,7 +223,7 @@ $messages['ast'] = array(
 	'th-username' => "Nome d'usuariu",
 	'th-password' => 'Contraseña',
 	'th-method' => 'Métodu',
-	'option-oauth' => 'TUSC (xuba automática)', # Fuzzy
+	'option-oauth' => 'OAuth (xuba automática)',
 	'option-manual' => 'Xuba manual',
 	'preview' => 'Vista previa',
 	'translate' => 'Traducir',
@@ -233,7 +233,7 @@ $messages['ast'] = array(
 	'uploading' => 'Xubiendo',
 	'upload-complete' => 'La xuba se completó correutamente. La imaxe habría tar anguaño en $1',
 	'editdescriptionpage' => 'Editar la páxina de descripción nueva',
-	'disclaimer' => "Van recoyese dellos datos anónimos con propósitu estadísticu. Si se dan, los nomes d'usuariu TUSC tamién van grabase como ayuda'n casu de vandalismu. Les contraseñes enxamás se grabarán.", # Fuzzy
+	'disclaimer' => "Van recoyese dellos datos anónimos con propósitu estadísticu. Si se dan, los nomes d'usuariu OAuth tamién van grabase como ayuda'n casu de vandalismu. Les contraseñes enxamás se grabarán.",
 	'author-complete' => '¡Por favor, completa la información del autor!',
 	'preview-hide' => 'Anubrir vista previa',
 	'preview-refresh' => 'Refrescar entever',
@@ -1532,7 +1532,7 @@ $messages['ja'] = array(
 	'th-username' => '利用者名',
 	'th-password' => 'パスワード',
 	'th-method' => '方法',
-	'option-oauth' => 'TUSC (自動アップロード)', # Fuzzy
+	'option-oauth' => 'OAuth (自動アップロード)',
 	'option-manual' => '手動アップロード',
 	'preview' => 'プレビュー',
 	'translate' => '翻訳',
@@ -2652,6 +2652,7 @@ $messages['ru'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Susith Chandira Gts
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
@@ -2668,7 +2669,7 @@ $messages['si'] = array(
 	'th-username' => 'පරිශීලක නාමය',
 	'th-password' => 'මුරපදය',
 	'th-method' => 'ක්‍රමය',
-	'option-oauth' => 'TUSC (ස්වයංක්‍රිය උඩුගත කිරීම)', # Fuzzy
+	'option-oauth' => 'OAuth (ස්වයංක්‍රිය උඩුගත කිරීම)',
 	'option-manual' => 'හස්තීය උඩුගතකෙරුම',
 	'preview' => 'පෙරදසුන',
 	'translate' => 'පරිවර්තනය කරන්න',
