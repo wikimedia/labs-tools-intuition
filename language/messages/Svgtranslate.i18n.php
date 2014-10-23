@@ -442,7 +442,7 @@ $messages['bn'] = array(
 	'title' => 'এসভিজি অনুবাদ',
 	'error-tryagain' => '$1 পুনরায় চেষ্টা করতে আপনার ব্রাউজারের পিছনে বোতাম ক্লিক করুন।',
 	'error-nothing' => 'অনুবাদ করার মতো কিছু নেই।',
-	'error-notsvg' => 'এটি কোনো এসভিজি ফাইল নয়।',
+	'error-notsvg' => 'এটি কোনো SVG ফাইল নয়।',
 	'error-unexpected' => 'একটি অনাকাঙ্ক্ষিত ত্রুটি দেখা দিয়েছে।',
 	'error-notfound' => 'প্রদানকৃত ইউআরএল থেকে এসভিজি ফাইলটি সংগ্রহ করা সম্ভব হয়নি।',
 	'error-upload' => 'আপলোডিং করতে একটি ত্রুটি দেখা দিয়েছে।',
@@ -457,15 +457,16 @@ $messages['bn'] = array(
 	'option-manual' => 'ম্যানুয়াল আপলোড',
 	'preview' => 'প্রাকদর্শন',
 	'translate' => 'অনুবাদ',
-	'translate-instructions' => 'ইনপুট হিসেবে শুধুমাত্র ফাইলের নাম (যেমন: "$1") বা পূর্ণ ইউআরএল (যেমন: "$2") গ্রহণযোগ্য। যদি ফাইলের নাম ব্যবহার করেন, তবে উইকিমিডিয়া কমন্সকে ফাইলের উৎস হিসেবে ধরে নেওয়া হবে। অন্য কোনো সাইট বা উইকি থেকে এসভিজি ট্রান্সলেট করতে হলে আপনাকে অবশ্যই পূর্ণ ইউআরএল প্রবেশ করাতে হবে।',
+	'translate-instructions' => 'ইনপুট হিসেবে শুধুমাত্র ফাইলের নাম (যেমন: "$1") বা পূর্ণ URL (যেমন: "$2") গ্রহণযোগ্য। যদি ফাইলের নাম ব্যবহার করেন, তবে উইকিমিডিয়া কমন্সকে ফাইলের উৎস হিসেবে ধরে নেওয়া হবে। অন্য কোনো সাইট বা উইকি থেকে SVG অনুবাদ করতে হলে আপনাকে অবশ্যই পূর্ণ URL লিখতে হবে।',
 	'svginput-label' => 'এসভিজি ফাইল',
 	'stats-footer' => 'অনুবাদের জন্য এই সরঞ্জামটি $2 থেকে আনুমানিক $1টি ফাইল অনুবাদের কাজে ব্যবহৃত হয়েছে।',
-	'uploading' => 'আপলোডিং',
-	'upload-complete' => 'সফলভাবে আপলোড সম্পন্ন হয়েছে। চিত্রটি এখন যেখানে রয়েছে $1',
-	'editdescriptionpage' => 'নতুন বিবরণ পাতা সম্পাদনা করুন',
+	'uploading' => 'আপলোড হচ্ছে',
+	'upload-complete' => 'সফলভাবে আপলোড সম্পন্ন হয়েছে। চিত্রটি এখন $1 -এ রয়েছে',
+	'editdescriptionpage' => 'নতুন বিবরণের পাতা সম্পাদনা করুন',
+	'disclaimer' => 'কিছু বেনামী তথ্য ব্যক্তিগতভাবে পরিসংখ্যান তৈরির উদ্দেশ্যে সংগ্রহ করা হবে। সরবরাহ করা হলে, OAuth ব্যবহারকারীর নাম ধ্বংসপ্রবণতার ঘটনা রোধে সহায়তা করার জন্য রেকর্ড করা হবে। পাসওয়ার্ড কখনো লিপিবদ্ধ করা হবে না।',
 	'author-complete' => 'অনুগ্রহ করে লেখকের তথ্য সম্পূর্ণ করুন!',
 	'preview-hide' => 'প্রাকদর্শন আড়ালে রাখো',
-	'preview-refresh' => 'পুনরায় প্রাকদর্শন দেখাও',
+	'preview-refresh' => 'প্রাকদর্শন পুনঃসতেজ করুন',
 	'error-must-accept' => 'সরাসরি আপলোড পদ্ধতি ব্যবহার করে অগ্রসর হওয়ার জন্য আপনাকে অবশ্যই নীতিমালাটি মেনে নিতে হবে।',
 	'description-license' => 'বিবরণ এবং লাইসেন্স নির্বাচন',
 	'finalise' => 'বিস্তারিত চূড়ান্ত',
@@ -2836,6 +2837,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Liftarn
  * @author Lokal Profil
  */
@@ -2858,7 +2860,7 @@ $messages['sv'] = array(
 	'option-manual' => 'Manuell uppladdning',
 	'preview' => 'Förhandsgranska',
 	'translate' => 'Översätt',
-	'translate-instructions' => 'Indata accepteras som antingen filnamn (t.ex. "$1") eller fullständig URL-adress (t.ex. "$2"). Om det första alternativet används kommer Wikimedia Commons antas som källa. För att översätta en SVG-fil från en annan webbplats eller wiki, måste du använda det fullständiga URL-adressen.',
+	'translate-instructions' => 'Indata accepteras som antingen filnamn (t.ex. "$1") eller fullständig URL-adress (t.ex. "$2"). Om det första alternativet används kommer Wikimedia Commons antas vara källa. För att översätta en SVG-fil från en annan webbplats eller wiki, måste du använda det fullständiga URL-adressen.',
 	'svginput-label' => 'SVG-fil',
 	'stats-footer' => 'Detta verktyg har använts för att översätta cirka $1 filer sedan $2 .',
 	'uploading' => 'Laddar upp',

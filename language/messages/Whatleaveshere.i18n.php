@@ -137,6 +137,9 @@ $messages['be'] = array(
  */
 $messages['bn'] = array(
 	'label-page' => 'পাতা',
+	'button-submit' => 'চলো',
+	'whatlinkshere' => 'সংযোগকারী পাতাসমূহ',
+	'section-iwlinks' => 'আন্তঃউইকি সংযোগ',
 );
 
 /** Breton (brezhoneg)

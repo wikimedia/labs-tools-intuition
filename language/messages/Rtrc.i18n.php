@@ -221,6 +221,26 @@ $messages['bg'] = array(
 	'typeNew' => 'Нови страници',
 );
 
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'apply' => 'প্রয়োগ',
+	'changelog' => 'নতুন কি',
+	'clear' => 'পরিস্কার',
+	'currentedit' => 'বর্তমানে নির্বাচিত সম্পাদনা',
+	'cvn-adder' => 'যোগকারী',
+	'cvn-adder-empty' => 'অজানা',
+	'cvn-reason' => 'কারণ',
+	'cvn-reason-empty' => 'কোন কারণ পাওয়া যায়নি',
+	'documentation' => 'নথিপত্র',
+	'filter' => 'ছাকনী',
+	'helpicon-tooltip' => 'এই বৈশিষ্ট্য সম্পর্কে আরও জানুন',
+	'lastupdate-cvn' => 'সর্বশেষ হালনাগাদ: $1',
+	'lastupdate-rc' => 'সর্বশেষ হালনাগাদ: $1',
+	'limit' => 'সীমা',
+);
+
 /** Breton (brezhoneg)
  * @author Fohanno
  * @author Gwenn-Ael

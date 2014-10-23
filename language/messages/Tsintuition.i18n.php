@@ -2013,6 +2013,7 @@ $messages['ps'] = array(
  * @author Imperadeiro98
  * @author Luckas
  * @author Vitorvicentevalente
+ * @author Waldir
  */
 $messages['pt'] = array(
 	'fullname' => 'Internacionalização de ferramentas',
@@ -2032,7 +2033,7 @@ $messages['pt'] = array(
 	'bl-mysettings' => 'Definições de língua',
 	'bl-mysettings-new' => 'Alterar língua!',
 	'bl-promo' => 'Traduções possíveis graças à $1 e ao $2.',
-	'bl-changelanguage' => 'Carregue aqui para mudar a língua da interface desta ferramenta.', # Fuzzy
+	'bl-changelanguage' => 'Mudar a língua da interface desta ferramenta.',
 	'usage' => 'Ferramentas traduzidas por Intuition.',
 	'help-translate-tool' => 'Ajude a traduzir esta ferramenta!',
 	'help-translate-all' => 'Ajude a traduzir ferramentas!',

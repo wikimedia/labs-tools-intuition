@@ -374,6 +374,9 @@ $messages['bn'] = array(
 	'bot' => 'বট',
 	'editor' => 'সম্পাদক',
 	'admin' => 'প্রশাসক',
+	'information' => 'তথ্য',
+	'credit' => 'কৃতিত্ব',
+	'send_feedback' => 'প্রতিক্রিয়া জানান',
 );
 
 /** Breton (brezhoneg)

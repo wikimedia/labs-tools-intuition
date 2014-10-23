@@ -484,6 +484,7 @@ $messages['bjn'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Bellayet
  * @author Nasir8891
  */
@@ -500,6 +501,7 @@ $messages['bn'] = array(
 	'no-such-project' => 'এমন কোনো প্রকল্প নেই',
 	'no-images' => 'এই বিষয়শ্রেণীতে কোনো ছবি নেই',
 	'category-is-url' => 'বিষয়শ্রেণী নামটি একটি ইউআরএলের মত মনে হচ্ছে। ইউআরএলের পরিবর্তে আপনাকে নির্দিষ্ট করে বিষয়শ্রেণীর নাম লিখতে হবে।',
+	'zip-failed' => 'Zip সৃষ্টি ব্যর্থ হয়েছে',
 	'download' => 'ডাউনলোড',
 );
 
