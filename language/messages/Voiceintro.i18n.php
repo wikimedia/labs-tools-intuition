@@ -186,6 +186,7 @@ $messages['fa'] = array(
 	'voiceintro-upload-publish-succeeded' => 'ضبط انتقال داده شده با موفقیت انجام شد:',
 	'voiceintro-upload-publish-failed' => 'ضبط منتقل نشد.',
 	'voiceintro-information-label' => 'اطلاعات',
+	'voiceintro-information-speaker-label' => 'نام گوینده :',
 	'voiceintro-information-language-label' => 'زبان:',
 	'voiceintro-mic-access-notify' => 'برای اجازهٔ مرورگر برای دسترسی به میکروفون شما، دکمهٔ "اجازه" را کلیک کنید.',
 	'voiceintro-recording-notify' => 'در حال ضبط...',
@@ -443,16 +444,17 @@ $messages['ne'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'voiceintro-toolbar-record-label' => 'Record',
+	'voiceintro-toolbar-record-label' => 'Opnemen',
 	'voiceintro-toolbar-stop-label' => 'Stoppen',
 	'voiceintro-toolbar-clear-label' => 'Wissen',
 	'voiceintro-toolbar-upload-label' => 'Uploaden',
 	'voiceintro-webaudio-not-supported' => 'De API voor WebAudio wordt niet ondersteund in deze browser',
 	'voiceintro-upload-publish-succeeded' => 'Opname geüpload:',
-	'voiceintro-upload-publish-failed' => 'Opname is niet geüpload',
+	'voiceintro-upload-publish-failed' => 'De opname is niet geüpload.',
 	'voiceintro-information-label' => 'Gegevens',
+	'voiceintro-information-speaker-label' => 'Naam spreker:',
 	'voiceintro-information-language-label' => 'Taal:',
-	'voiceintro-mic-access-notify' => 'Klik op ""Toestaan" om uw browser toegang te geven tot uw microfoon.',
+	'voiceintro-mic-access-notify' => 'Klik op "Toestaan" om uw browser toegang te geven tot uw microfoon.',
 	'voiceintro-recording-notify' => 'Bezig met opnemen...',
 );
 

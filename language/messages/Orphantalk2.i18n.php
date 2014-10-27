@@ -686,23 +686,25 @@ $messages['eu'] = array(
  * @author Wayiran
  */
 $messages['fa'] = array(
-	'title' => 'بحث‌یتیم۲', # Fuzzy
+	'title' => 'بحث‌یتیم',
+	'description' => 'یافتن صفحات بحث یتیم',
 	'label-wiki' => 'ویکی',
 	'select-wiki-first' => '(ابتدا یک ویکی را انتخاب کنید)',
 	'hideredirects' => 'پنهان‌کردن تغییر مسیرها',
 	'hidesubpages' => 'پنهان‌کردن زیرصفحه‌ها',
 	'limit' => 'تعداد',
 	'page' => 'صفحه',
+	'tooltip-redirect' => 'این صفحه تغییر مسیر است',
 	'output' => 'خروجی',
 	'update' => 'به روز رسانی',
 	'tools-view' => 'نمایش',
-	'tools-delete' => 'حذف', # Fuzzy
-	'tools-links' => 'پیوندها', # Fuzzy
-	'tools-subject' => 'عنوان', # Fuzzy
-	'tools-hist' => 'تاریخچه', # Fuzzy
-	'tools-curr' => 'فعلی', # Fuzzy
-	'tools-globalusage' => 'استفادهٔ سراسری', # Fuzzy
-	'deletesummary' => 'تمیزکردن صفحات بحث یتیم از طریق $1', # Fuzzy
+	'tools-delete' => 'حذف',
+	'tools-links' => 'پیوند به اینجا',
+	'tools-subject' => 'عنوان صفحه',
+	'tools-hist' => 'نمایش تاریخچه',
+	'tools-curr' => 'تغییرات اخیر',
+	'tools-globalusage' => 'استفادهٔ پرونده',
+	'deletesummary' => '$1: صفحات بحث یتیم',
 	'noresults' => 'هیچ صفحهٔ بحث یتیمی در این ویکی و در این فضای نام، مطابق با تنظیمات شما وجود ندارد.',
 	'resultslimited' => 'نتایج به $1 صفحه محدود بود.',
 );
@@ -1575,25 +1577,25 @@ $messages['new'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'title' => 'WeesOverleg',
-	'description' => "Help weesoverlegpagina's te vinden.",
+	'title' => 'Weesoverleg',
+	'description' => "Weesoverlegpagina's vinden.",
 	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(selecteer eerst een wiki)',
 	'hideredirects' => 'Doorverwijzingen verbergen',
 	'hidesubpages' => "Subpagina's verbergen",
 	'limit' => 'Limiet',
 	'page' => 'Pagina',
-	'tooltip-redirect' => 'Deze pagina is een redirect',
+	'tooltip-redirect' => 'Deze pagina is een doorverwijzing',
 	'output' => 'Uitvoer',
 	'update' => 'Bijwerken',
-	'tools-view' => 'Lezen',
+	'tools-view' => 'Bekijken',
 	'tools-delete' => 'Verwijderen',
 	'tools-links' => 'Koppelingen naar deze pagina',
 	'tools-subject' => 'Pagina',
 	'tools-hist' => 'Geschiedenis weergeven',
 	'tools-curr' => 'Laatste wijziging',
 	'tools-globalusage' => 'Bestandsgebruik',
-	'deletesummary' => '$1: Opruimen van weesoverleg',
+	'deletesummary' => '$1: weesoverlegpagina',
 	'noresults' => "Er zijn geen weesoverlegpagina's binnen deze naamruimte in deze wiki die aan uw instellingen voldoen.",
 	'resultslimited' => "Er worden maximaal $1 pagina's weergegeven.",
 );

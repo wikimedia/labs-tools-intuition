@@ -162,8 +162,10 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Gwenn-Ael
  */
 $messages['br'] = array(
+	'description' => 'Metatitour diwar-benn wikioù Wikimedia.',
 	'formats-heading' => 'Furmadoù ezvont',
 	'input' => 'Enmont',
 	'label-wikiids' => 'Anaouderioù wiki',
@@ -301,8 +303,10 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Reza1615
  */
 $messages['fa'] = array(
+	'description' => 'اطلاعات متا درباره ویکی‌های مدیاویکی',
 	'formats-heading' => 'قالب‌های خروجی:',
 	'input' => 'ورودی',
 	'label-wikiids' => 'شناسهٔ ویکی',
@@ -652,7 +656,7 @@ $messages['new'] = array(
  * @author Sjoerddebruin
  */
 $messages['nl'] = array(
-	'description' => "Meta-informatie over Wikimedia-wiki's.",
+	'description' => "Metainformatie over wiki's van Wikimedia.",
 	'formats-heading' => 'Uitvoeropmaak',
 	'input' => 'Invoer',
 	'label-wikiids' => "Wiki-ID's",

@@ -188,11 +188,20 @@ $messages['es'] = array(
  * @author Reza1615
  */
 $messages['fa'] = array(
+	'title' => 'گریپ عنوان مقاله (آزمایشی)',
+	'introduction' => 'این ابزار همه عنوان مقاله‌هایی که با عبارت باقاعده ($1) همسان باشند را نشان می‌دهد. جستجوی عبارت باقاعده از منابع فشرده استفاده می‌کند اگر مقدور است از (^) و ($) برای آن استفاده کنید.',
+	'explanation' => 'توضیح',
+	'regex' => 'عبارت باقاعده',
+	'enter-details' => 'وارد کردن جزئیات',
 	'results' => 'نتایج',
 	'language-label' => 'زبان',
 	'namespace-label' => 'فضای نام',
 	'project-label' => 'پروژه',
 	'pattern-label' => 'طرح‌دار',
+	'redirects-label' => 'شامل تغییرمسیر',
+	'limit-label' => 'محدود کردن نمایش نتایج به 100 مورد اول',
+	'error-zeroresults' => 'هیچ صفحه ای در فضای نامی که با عناوین عبارت باقاعده مشخص کردید یافت نشد.',
+	'match-count' => '{{PLURAL:$1|$1صفحه| $1  صفحه}} همسان با عبارت باقاعده شما',
 );
 
 /** French (français)
@@ -233,6 +242,20 @@ $messages['he'] = array(
 	'limit-label' => 'הגבלת התצוגה ל־100 התוצאות הראשונות',
 	'error-zeroresults' => 'אין דפים במרחב השם הזה עם כותרות שתואמות לביטוי הרגולרי שלך.',
 	'match-count' => '{{PLURAL:$1|דף אחד התאים|$1 דפים התאימו}} לביטוי הרגולרי שלך.',
+);
+
+/** Hungarian (magyar)
+ * @author Csega
+ */
+$messages['hu'] = array(
+	'explanation' => 'magyarázat',
+	'regex' => 'Reguláris kifejezés',
+	'enter-details' => 'Részletek megadása',
+	'results' => 'Eredmények',
+	'language-label' => 'Nyelv',
+	'namespace-label' => 'Névtér',
+	'project-label' => 'Projekt',
+	'pattern-label' => 'Minta',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -387,9 +410,12 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author Krinkle
  * @author SPQRobin
+ * @author Siebrand
  * @author Southparkfan
  */
 $messages['nl'] = array(
+	'title' => "Pagina's zoeken (beta)",
+	'introduction' => 'Dit hulpmiddel geeft alle paginanamen weer die voldoen aan het patroon van een reguliere expressie ($1). Zoeken met behulp van een reguliere expressie is een intensief proces. Als het mogelijk is, gebruik dan de indicatoren voor begin (^) en eind ($).',
 	'explanation' => 'uitleg',
 	'regex' => 'Reguliere expressie',
 	'enter-details' => 'Gegevens invoeren',
@@ -397,6 +423,7 @@ $messages['nl'] = array(
 	'language-label' => 'Taal',
 	'namespace-label' => 'Naamruimte',
 	'project-label' => 'Project',
+	'pattern-label' => 'Patroon',
 	'redirects-label' => 'Doorverwijzingen toevoegen',
 	'limit-label' => 'Geef alleen de eerste 100 resultaten weer',
 	'error-zeroresults' => "Er zijn geen pagina's in die naamruimte met een naam die overeenkomt met uw reguliere expressie.",

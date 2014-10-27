@@ -240,14 +240,24 @@ $messages['es'] = array(
  * @author Reza1615
  */
 $messages['fa'] = array(
+	'title' => 'پیوند به اینجا',
+	'title-leaveshere' => 'پیوندهای گذاشته شده از "$1"',
+	'sub-leaveshere' => 'صفحات زیر پیوند شده از $1',
 	'label-page' => 'صفحه',
 	'label-namespace' => 'فضای نام',
 	'label-limit' => 'محدودیت',
 	'button-submit' => 'برو',
+	'noleaveshere' => 'هیچ  پیوندی از $1 موجود نیست',
+	'link-whatleaveshere' => 'پیوند به اینجا',
+	'tooltip-whatleaveshere' => 'فهرستی از همه چیز که پیوند از اینجا دارند',
 	'whatlinkshere' => 'پیوندها به این صفحه',
+	'whatlinkshere-whatleaveshere' => 'چه پیوندی به اینجا؟',
 	'istemplate' => 'تراگنجانش‌ها',
 	'isfile' => 'پیوند به پرونده',
+	'linksearch' => 'جستجوی‌پیوند',
 	'section-links' => 'پیوندها',
+	'section-iwlinks' => 'پیوندهای میان‌ویکی',
+	'section-extlinks' => 'پیوندهای خارجی',
 	'section-categories' => 'رده‌ها',
 );
 
@@ -450,11 +460,12 @@ $messages['ne'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  * @author Sjoerddebruin
  * @author Southparkfan
  */
 $messages['nl'] = array(
-	'title' => 'Links vanaf deze pagina',
+	'title' => 'Koppelingen vanaf deze pagina',
 	'title-leaveshere' => 'Pagina\'s die verwijzen vanaf "$1"',
 	'sub-leaveshere' => "De volgende pagina's verwijzen vanaf $1",
 	'label-page' => 'Pagina',
@@ -462,16 +473,16 @@ $messages['nl'] = array(
 	'label-limit' => 'Limiet',
 	'button-submit' => 'OK',
 	'noleaveshere' => 'Geen verwijzingen vanaf $1',
-	'link-whatleaveshere' => 'Links vanaf deze pagina',
+	'link-whatleaveshere' => 'Koppelingen vanaf deze pagina',
 	'tooltip-whatleaveshere' => 'Lijst van alle verwijzingen vanaf deze pagina',
-	'whatlinkshere' => 'Links naar deze pagina',
-	'whatlinkshere-whatleaveshere' => 'Links vanaf deze pagina?',
+	'whatlinkshere' => 'Koppelingen naar deze pagina',
+	'whatlinkshere-whatleaveshere' => 'Koppelingen vanaf deze pagina?',
 	'istemplate' => 'ingevoegd als sjabloon',
 	'isfile' => 'bestand',
 	'linksearch' => 'Externe koppelingen zoeken',
-	'section-links' => 'Links',
+	'section-links' => 'Koppelingen',
 	'section-iwlinks' => 'Interwikilinks',
-	'section-extlinks' => 'Externe links',
+	'section-extlinks' => 'Externe koppelingen',
 	'section-categories' => 'Categorieën',
 );
 

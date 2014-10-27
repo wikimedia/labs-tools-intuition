@@ -532,6 +532,20 @@ $messages['hsb'] = array(
 	'pb-verified-since' => 'Přepruwowany wot',
 );
 
+/** Hungarian (magyar)
+ * @author Csega
+ */
+$messages['hu'] = array(
+	'pb-about-pb-navi' => 'Névjegy',
+	'pb-about-pb-tech' => 'Technikai részletek',
+	'pb-change-language' => 'Nyelv módosítása',
+	'pb-comment' => 'Megjegyzés',
+	'pb-date' => 'Dátum',
+	'pb-home' => 'Kezdőlap',
+	'pb-user' => 'Felhasználó',
+	'pb-users-navi' => 'Felhasználók',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author C5st4wr6ch
  * @author Kenrick95
