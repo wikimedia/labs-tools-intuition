@@ -2627,6 +2627,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Justincheng12345
+ * @author LNDDYL
  * @author Lauhenry
  * @author Liuxinyu970226
  * @author Simon Shek
@@ -2637,7 +2638,7 @@ $messages['zh-hant'] = array(
 	'toolversion' => '版本 $1',
 	'toolversionstamp' => '版本$1 ($2)',
 	'etc' => '等。',
-	'namespace' => '名字空間',
+	'namespace' => '命名空間',
 	'form-submit' => '提交',
 	'form-reset' => '重置',
 	'years' => '{{PLURAL: $1|年}}',

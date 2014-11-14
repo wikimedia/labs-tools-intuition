@@ -1465,6 +1465,16 @@ $messages['frp'] = array(
 	'help_commons' => '$1Apondre un mèssâjo dessus Commons$2',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'language' => 'Taal',
+	'project' => 'Projekt',
+	'categories' => 'Kategoryen',
+	'standard_project' => 'Wikipedy',
+);
+
 /** Irish (Gaeilge)
  * @author පසිඳු කාවින්ද
  */

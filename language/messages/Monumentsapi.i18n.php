@@ -1484,6 +1484,24 @@ $messages['frp'] = array(
 	'source-monuments-list-on-wikipedia' => 'Lista des monuments d’origina dessus Vouiquipèdia',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'search-table-th-search' => 'Sykje',
+	'db-field-country' => 'Lân',
+	'db-field-lang' => 'Taal',
+	'db-field-name' => 'Namme',
+	'db-field-lat' => 'Breedtegraad',
+	'db-field-image' => 'Ôfbylding',
+	'db-field-st_coordinates' => 'Koördinaten',
+	'db-field-st_coordinates_pct' => 'Koördinaten %',
+	'db-field-st_image' => 'Ôfbylding',
+	'db-field-st_image_pct' => 'Ôfbylding %',
+	'toolbox-nav-search' => 'Sykje',
+	'location' => 'Lokaasje',
+);
+
 /** Irish (Gaeilge)
  * @author පසිඳු කාවින්ද
  */

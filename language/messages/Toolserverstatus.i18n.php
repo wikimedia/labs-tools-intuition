@@ -521,6 +521,14 @@ $messages['fr'] = array(
 	'toolserver-status-short-missing' => '$1 : Absent',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'toolserver-status-short-ok' => '$1: OK',
+	'toolserver-status-short-erro' => '$1: Flater',
+);
+
 /** Galician (galego)
  * @author Toliño
  */

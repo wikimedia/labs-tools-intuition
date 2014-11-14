@@ -287,7 +287,8 @@ Followed by a link pointing to http://dumps-wikimedia.org/',
 	'helpDiscuss' => 'footer text: help / discussion / improvements',
 	'dbUpdateInProgress' => 'database is updating right now',
 	'filtersOut' => 'tooltip text of auto filter field',
-	'lastUpdate' => 'message shown on start screen',
+	'lastUpdate' => 'message shown on start screen
+{{Identical|Last update}}',
 	'urlToUserpage' => 'Instruction what to fill in this field',
 	'tooltipSearch' => 'tooltip message of search field',
 	'noJavaScript' => 'message if javascript is disabled',
@@ -304,7 +305,8 @@ Followed by a link pointing to http://dumps-wikimedia.org/',
 	'selectCategory' => 'Instruction message 1  [[toollabs:wikiviewstats/?nosplash=0]]',
 	'homeMain' => 'Instruction message 1 part 2',
 	'filerResults' => 'Instruction message 2 [[toollabs:wikiviewstats/?nosplash=0]]',
-	'furtherInformation' => 'Instruction message 3 [[toollabs:wikiviewstats/?nosplash=0]]',
+	'furtherInformation' => 'Instruction message 3 [[toollabs:wikiviewstats/?nosplash=0]]
+{{Identical|Further information}}',
 	'urlParameter' => 'Instruction message 3 with link to sample URL parameters [[toollabs:wikiviewstats/?nosplash=0]]',
 	'hideHints' => 'hide this insruction messages for the ongoing session [[toollabs:wikiviewstats/?nosplash=0]]',
 	'optinMsg1' => '$1 is a link. example: [[toollabs:wikiviewstats/?contribs]] -> enter an invalid username & submit',
@@ -1826,6 +1828,20 @@ $messages['fr'] = array(
 	'authorMostEdits' => 'Auteur avec le plus de modifications. Dans Wikipédia allemand : Auteur avec le plus de texte partagé',
 	'totalShare' => 'Partage total',
 	'statsEntry' => '$1 - Statistiques de vue et de popularité de la page avec le début de la liste des plus de 100000 vues pour tous les wikis de Wikimédia (aujourd’hui, par mois et par périodes de temps personnalisées). Fonctionnalités supplémentaires : Recherche par joker, statistiques sur 24 heures, favoris personnels, totaux du projet global, support des pages d’homonymie et des éléments Wikidata. Mises à jour horaires.',
+);
+
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'settings' => 'Ynstellings',
+	'help' => 'help',
+	'today' => 'hjoed',
+	'language' => 'taal',
+	'project' => 'Projekt',
+	'category' => 'Kategory',
+	'files' => '{{PLURAL: $1|triem|triemmen}}',
+	'cancel' => 'annulearje',
 );
 
 /** Hebrew (עברית)
@@ -3658,7 +3674,7 @@ $messages['sv'] = array(
 	'onlyOwnCreatedPages' => 'visa endast sidor jag har skapat',
 	'namespaces' => 'namnrymder',
 	'comparisonOfPages' => 'jämförelse av flera sidor',
-	'historyDataCatchup' => 'Meddelande: historik är i inhämtningsprocessen',
+	'historyDataCatchup' => 'Meddelande: historikdata är i inhämtningsprocessen',
 	'selectCategory' => 'Välj kategori i menyn till vänster',
 	'homeMain' => 'Home är huvuddatatabell, som innehåller all data',
 	'filerResults' => 'Filtrera resultaten genom att ändra parametrarna i menyn som du vill',
@@ -4134,7 +4150,7 @@ $messages['zh-hans'] = array(
 	'comparisonOfPages' => '多页比较',
 	'historyDataCatchup' => '注意：历史数据正在补充',
 	'selectCategory' => '从左边的菜单选择你的类别',
-	'homeMain' => 'Home 包含所有数据',
+	'homeMain' => '首页是包含任何数据的主数据表',
 	'filerResults' => '您可以通过修改顶部菜单中的参数，自由过滤结果',
 	'furtherInformation' => '更多信息',
 	'urlParameter' => 'URL参数',
@@ -4213,7 +4229,7 @@ $messages['zh-hant'] = array(
 	'portal' => 'Portal',
 	'project' => '計畫',
 	'category' => '分類',
-	'template' => '模板',
+	'template' => '樣板',
 	'files' => '{{PLURAL: $1|file|檔案}}',
 	'specialPage' => '特殊頁面',
 	'helpPage' => '幫助頁面',
@@ -4234,6 +4250,7 @@ $messages['zh-hant'] = array(
 	'protection' => '保護',
 	'semi' => '半',
 	'complete' => '完成',
+	'active' => '活躍的使用者',
 	'bureaucrats' => '行政員',
 	'sysops' => '管理員',
 	'bots' => '機械人',
@@ -4284,6 +4301,15 @@ $messages['zh-hant'] = array(
 	'numPageWatchers' => '頁面監視者數',
 	'linkStats' => '連結到頁面統計',
 	'linkArticle' => '連結至wiki條目',
+);
+
+/** Chinese (Hong Kong) (中文（香港）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hk'] = array(
+	'users' => '{{PLURAL: $1|用戶}}',
+	'active' => '活躍的用戶',
+	'thisSoftwareIs' => '這個軟件是',
 );
 
 /** Chinese (Taiwan) (中文（台灣）‎)

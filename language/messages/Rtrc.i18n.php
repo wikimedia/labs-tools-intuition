@@ -654,6 +654,13 @@ $messages['fr'] = array(
 	'userfilter' => 'Filtre utilisateur',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'order' => 'Folchoarder',
+);
+
 /** Galician (galego)
  * @author Toliño
  */

@@ -948,6 +948,15 @@ $messages['frp'] = array(
 	'help-translate-all' => 'Édiéd a traduire lo Toolserver !', # Fuzzy
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'settings-legend' => 'Ynstellings',
+	'tab-settings' => 'Ynstellings',
+	'tab-about' => 'Oer',
+);
+
 /** Irish (Gaeilge)
  * @author පසිඳු කාවින්ද
  */

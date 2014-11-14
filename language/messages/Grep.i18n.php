@@ -224,6 +224,14 @@ $messages['fr'] = array(
 	'match-count' => '{{PLURAL:$1|$1 page|$1 pages}} correspondent à votre expression régulière.',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'language-label' => 'Taal',
+	'project-label' => 'Projekt',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */

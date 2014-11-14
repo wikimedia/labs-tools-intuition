@@ -286,6 +286,13 @@ $messages['fr'] = array(
 	'section-categories' => 'Catégories',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'section-categories' => 'Kategoryen',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */

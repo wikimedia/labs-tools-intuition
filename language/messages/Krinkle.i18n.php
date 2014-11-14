@@ -362,6 +362,13 @@ $messages['frp'] = array(
 	'form-legend-settings' => 'Configuracion',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'form-legend-settings' => 'Ynstellings',
+);
+
 /** Galician (galego)
  * @author Toliño
  */

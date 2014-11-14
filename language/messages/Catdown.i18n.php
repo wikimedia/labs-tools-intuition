@@ -1173,6 +1173,14 @@ $messages['frp'] = array(
 	'scaling-both' => ', betâ a l’èchiéla avouéc na talye maximon de $1 x $2 pixèls',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'project' => 'Projekt:',
+	'category' => 'Kategory:',
+);
+
 /** Irish (Gaeilge)
  * @author පසිඳු කාවින්ද
  */

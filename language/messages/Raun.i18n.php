@@ -758,6 +758,17 @@ $messages['fr'] = array(
 	'send_feedback' => 'Envoyer un avis',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'help' => 'Help',
+	'settings' => 'Ynstellings',
+	'language' => 'Taal',
+	'project' => 'Projekt',
+	'about' => 'Oer',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */

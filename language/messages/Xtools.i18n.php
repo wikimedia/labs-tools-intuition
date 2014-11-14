@@ -269,6 +269,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Amire80
+ * @author Bertaz
  * @author Hedonil
  * @author Liuxinyu970226
  * @author Robby
@@ -278,7 +279,8 @@ $messages['qqq'] = array(
 	'title_xtools' => "the tool's title",
 	'welcome' => 'Welcome message',
 	'million' => 'message of success; preserved for archiving purposes :-) {{Notranslate}}',
-	'tool_ec' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
+	'tool_ec' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated
+{{Identical|Edit counter}}',
 	'tool_blame' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
 	'tool_articleinfo' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated
 {{Identical|Page history}}',
@@ -286,7 +288,9 @@ $messages['qqq'] = array(
 {{Identical|Pages created}}',
 	'tool_topedits' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
 	'tool_autoedits' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
-	'tool_rangecontribs' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
+	'tool_rangecontribs' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated
+
+Contributions of range of IP/user...',
 	'tool_bash' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
 	'tool_sc' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
 	'tool_rfa' => 'Top menu title: short phrase! or shortcut (to fit into the design) or leave untranslated',
@@ -528,7 +532,8 @@ See also:
 	'file' => 'label for file
 {{Identical|File}}',
 	'autoedits' => '(semi-)automated edits with known tools like huggle',
-	'percentage' => 'ration in percent',
+	'percentage' => 'ration in percent
+{{Identical|Percentage}}',
 	'tosearch' => 'label for search text.
 
 Also appears in header of the search result.',
@@ -583,7 +588,9 @@ Parameters:
 	'lastyear' => 'phrase as short as possible',
 	'editorcount' => 'Number of editors per page, phrase as short as possible.
 {Identical|Number of editors}}',
-	'toptencount' => 'phrase as short as possible',
+	'toptencount' => 'Number of edits made by the top 10% of active users
+
+phrase as short as possible',
 	'ips' => 'label for non-logged in users, plural',
 	'minor' => "edits marked as minor.
 
@@ -602,7 +609,7 @@ See also:
 	'alledits' => 'All edits',
 	'graph' => '{{Identical|Graph}}',
 	'linegraph' => 'Edits over Time',
-	'monthly' => 'Monthly',
+	'monthly' => '{{Identical|Monthly}}',
 	'cumulative' => 'Cumulative',
 	'sizegraph' => 'chart label',
 	'usertable' => 'header',
@@ -2747,15 +2754,26 @@ $messages['eml'] = array(
 	'date' => 'Data',
 	'pages' => 'Pàgini',
 	'bytes' => 'byte',
+	'edits' => 'cambiamèint',
 	'actions' => 'Asiòun',
+	'actions_admin' => "Asiòun 'd aministradōr",
+	'others' => 'èter',
+	'select_language' => 'Selesionèr la lengva',
+	'translatelink' => 'Tradùr',
 	'login' => 'Intrèr',
 	'logout' => 'Andèr fōra',
+	'time_ago' => '$1 $2 fà',
 	'seconds' => '{{PLURAL: $1|secònd}}',
 	'minutes' => '{{PLURAL: $1|minùt}}',
 	'days' => '{{PLURAL: $1|gióren}}',
 	'hours' => '{{PLURAL: $1|ora|ori}}',
 	'weeks' => '{{PLURAL: $1|smàna|smàni}}',
 	'months' => '{{PLURAL: $1|mēś}}',
+	'years' => '{{PLURAL: $1|an}}',
+	'revisions' => '{{PLURAL: $1|Revisiòun}}',
+	'authors' => '{{PLURAL: $1|Autōr}}',
+	'start' => 'Data edl inìsi',
+	'end' => 'Data edla fin',
 	'more' => 'Êter',
 	'approximate' => "a l'incìrca",
 	'mainspace' => 'Artìcol',
@@ -3778,6 +3796,25 @@ $messages['fr'] = array(
 	'rfx_intro' => 'Cet outil analyse les votes et identifie les votants en doublon dans un :',
 	'rfx_bureaucrat' => 'Cet outil peut aussi analyser les demandes pour les pages de bureaucrates',
 	'rfx_page' => 'Page RfX',
+);
+
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'tool_articleinfo' => 'Sideskiednis',
+	'username' => 'Brûkersnamme',
+	'bytes' => 'bytes',
+	'time_ago' => '$1 $2 lyn',
+	'seconds' => '{{PLURAL: $1|sekonde|sekonden}}',
+	'minutes' => '{{PLURAL: $1|minút|minuten}}',
+	'days' => '{{PLURAL: $1|dei|dagen}}',
+	'hours' => '{{PLURAL: $1|oere|oeren}}',
+	'weeks' => '{{PLURAL: $1|wike|wiken}}',
+	'months' => '{{PLURAL: $1|moanne|moannen}}',
+	'years' => '{{PLURAL: $1|jier|jierren}}',
+	'more' => 'Mear',
+	'file' => 'Triem',
 );
 
 /** Galician (galego)
@@ -8112,6 +8149,24 @@ $messages['sr-ec'] = array(
 	'unknown' => 'Непознато',
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎)
+ * @author Milicevic01
+ */
+$messages['sr-el'] = array(
+	'welcome' => "Dobro došli u X!'s tools!",
+	'tool_ec' => 'Brojač izmena',
+	'tool_articleinfo' => 'Istorija',
+	'tool_pages' => 'Napravljene stranice',
+	'tool_autoedits' => 'Automatske izmene',
+	'select_language' => 'Izaberite jezik',
+	'translatelink' => 'Prevedi',
+	'login' => 'Prijavi me',
+	'logout' => 'Odjavi me',
+	'monthcounts' => 'Po mesecima',
+	'yearcounts' => 'Po godinama',
+	'alledits' => 'Sve izmene',
+);
+
 /** Swedish (svenska)
  * @author Hangsna
  * @author Jopparn
@@ -8129,7 +8184,7 @@ $messages['sv'] = array(
 	'tool_pages' => 'Skapade sidor',
 	'tool_topedits' => 'Toppredigeringar',
 	'tool_autoedits' => 'Automatiserade redigeringar',
-	'tool_rangecontribs' => 'Utökade bidrag',
+	'tool_rangecontribs' => 'Bidragsserie',
 	'tool_bash' => 'Slumpmässigt citat',
 	'tool_sc' => 'Snabb, smutsig, enkel redigeringsräknare',
 	'tool_rfa' => 'RfX-analys',
@@ -9663,12 +9718,12 @@ $messages['zh-hant'] = array(
 	'start' => '起始日期',
 	'end' => '結束日期',
 	'text' => '文字',
-	'namespace' => '名稱空間',
+	'namespace' => '命名空間',
 	'more' => '更多',
 	'approximate' => '近似值',
 	'see_full_page_stats' => '檢視完整頁面統計',
 	'editcounter' => '編輯統計',
-	'userid' => '使用者ID',
+	'userid' => '使用者 ID',
 	'mainspace' => '條目',
 	'groups' => '使用者組',
 	'firstedit' => '首次編輯',
@@ -9710,4 +9765,14 @@ $messages['zh-hant'] = array(
 	'quote_showall' => '顯示所有導言',
 	'support' => '支援',
 	'unknown' => '未知',
+);
+
+/** Chinese (Hong Kong) (中文（香港）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hk'] = array(
+	'tool_rfap_desc' => '用戶是如何投票的？',
+	'username' => '用戶名稱',
+	'users' => '{{PLURAL: $1|用戶}}',
+	'userid' => '用戶 ID',
 );

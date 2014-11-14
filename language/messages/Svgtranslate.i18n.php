@@ -70,7 +70,8 @@ $messages['qqq'] = array(
 	'error-notfound' => 'An error that occurs when the URL provided does not point to an SVG file or a file description page.',
 	'error-upload' => 'General error message for when the tool\'s "direct upload" feature fails.',
 	'begin-translation' => 'This is the opening heading on the home page of the tool.',
-	'th-original' => 'Heading of the "Original"-column.',
+	'th-original' => 'Heading of the "Original"-column.
+{{Identical|Original}}',
 	'th-translation' => 'Heading of the "Translation"-column.
 {{Identical|Translation}}',
 	'th-language' => 'Label for the language selection dropdown box. {{Identical|Language}}',
@@ -103,6 +104,7 @@ Parameters:
 	'preview-refresh' => 'The text for a button which refreshes the preview that the user has just asked for.',
 	'error-must-accept' => 'An error message encountered when users do not tick the box that indicates they accept the terms of use of the tool.',
 	'description-license' => 'A header for a form where description and copyright license are selected.',
+	'finalise' => '{{Identical|Finalize detail}}',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1334,7 +1336,7 @@ $messages['hsb'] = array(
 	'uploading' => 'Nahrawa so...',
 	'upload-complete' => 'Nahraće je wuspěšnje zakónčene. Wobraz dyrbjał nětko pod $1 k dispoziciji stać.',
 	'editdescriptionpage' => 'Nowu wopisansku stronu wobdźěłać',
-	'disclaimer' => 'Někotre anonymne daty so za statistiske zaměry zběraja. Jeli k dispoziciji, wužiwarske mjena OAuth so tež zapřijimaja, jako pomocny srědk přećiwo wandalizmej. Hesła so ženje njezapřijimaja.', # Fuzzy
+	'disclaimer' => 'Někotre anonymne daty so za statistiske zaměry zběraja. Jeli k dispoziciji, wužiwarske mjena OAuth so tež zapřijimaja, jako pomocny srědk přećiwo wandalizmej. Hesła so ženje njezapřijimaja.',
 	'author-complete' => 'Prošu wudospołń informacije wo awtorje!',
 	'preview-hide' => 'Přehlad schować',
 	'preview-refresh' => 'Přehlad aktualizować',
@@ -3270,7 +3272,7 @@ $messages['zh-hans'] = array(
 	'option-manual' => '手工上传',
 	'preview' => '预览',
 	'translate' => '翻译',
-	'translate-instructions' => '可以输入文件名（例如“$1”）或完整的URL(例如 "$2")。如果选择第一个选项，维基共享资源会被作为来源。如果是从其他网站或wiki翻译SVG文件，你必须使用完整的url。',
+	'translate-instructions' => '可以输入文件名（例如“$1”）或完整的URL(例如 "$2")。如果选择第一个选项，维基共享资源会被作为来源。如果是从其他网站或wiki翻译SVG文件，你必须使用完整的URL。',
 	'svginput-label' => 'SVG文件',
 	'stats-footer' => '自$2起，本工具已翻译约$1个文件。',
 	'uploading' => '正在上传',
@@ -3282,7 +3284,7 @@ $messages['zh-hans'] = array(
 	'preview-refresh' => '刷新预览',
 	'error-must-accept' => '若要继续直接上传，您必须接受提供的使用条款。',
 	'description-license' => '选择说明和授权协议',
-	'finalise' => '敲定细节',
+	'finalise' => '完成细节',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
@@ -3310,11 +3312,11 @@ $messages['zh-hant'] = array(
 	'option-manual' => '手工上傳',
 	'preview' => '預覽',
 	'translate' => '翻譯',
-	'translate-instructions' => '可以輸入文件名（例如"$1"）或完整的URL（例如"$2"）。如果選擇第一個選項，會將維基共享資源視為來源。如果是從其他網站或維基中翻譯SVG文件，你必須使用完整的URL。',
+	'translate-instructions' => '可以輸入檔案名稱（例如"$1"）或完整的URL（例如"$2"）。如果選擇第一個選項，會將維基共享資源視為來源。如果是從其他網站或維基中翻譯SVG檔案，你必須使用完整的URL。',
 	'svginput-label' => 'SVG檔案',
 	'stats-footer' => '此工具自$2起已經翻譯了約$1個檔案。',
 	'uploading' => '上傳中',
-	'upload-complete' => '上傳成功，該文件現在應該位於$1',
+	'upload-complete' => '上傳成功，該圖片現在應該位於$1',
 	'editdescriptionpage' => '編輯新的描述頁',
 	'disclaimer' => '某些匿名數據會被私人收集以用於統計。如果使用OAuth上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。', # Fuzzy
 	'author-complete' => '請填寫作者信息。',
@@ -3322,11 +3324,12 @@ $messages['zh-hant'] = array(
 	'preview-refresh' => '重新整理預覽',
 	'error-must-accept' => '如要繼續上傳，您必須接受提供的使用條款。',
 	'description-license' => '選擇描述及條款',
-	'finalise' => '敲定細節',
+	'finalise' => '完成細節',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)
  * @author Justincheng12345
+ * @author Liuxinyu970226
  */
 $messages['zh-hk'] = array(
 	'error-tryagain' => '$1點選瀏覽器中的返回按鈕重試',
@@ -3339,7 +3342,7 @@ $messages['zh-hk'] = array(
 	'th-original' => '原文',
 	'th-translation' => '翻譯',
 	'th-language' => '語言',
-	'th-username' => '用戶名',
+	'th-username' => '用戶名稱',
 	'th-password' => '密碼',
 	'th-method' => '方法',
 	'option-oauth' => 'TUSC（自動上載）', # Fuzzy
