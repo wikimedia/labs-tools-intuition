@@ -36,7 +36,7 @@ $messages['en'] = array(
 	'popular' => 'popular',
 	'interlang_proj' => 'international projects',
 	'other_lang' => 'other languages',
-	'closedWikis' => 'closed Wikis',
+	'closedWikis' => 'closed wikis',
 	'misc' => 'miscellaneous',
 	'language' => 'language',
 
@@ -98,8 +98,8 @@ $messages['en'] = array(
 	'filtersOut' => 'filters out some technical entries - details see help',
 	'lastUpdate' => 'last update',
 	'urlToUserpage' => 'URL to section or subsection (#) of your user page.',
-	'tooltipSearch' => 'page title (e.g. Hollywood) – you may also use wildcards "*" e.g. Hollywood* or User:Tom* .See help for further details.',
-	'noJavaScript' => 'Javascript is disabled',
+	'tooltipSearch' => 'page title (e.g. Hollywood). You may also use wildcards "*", e.g. Hollywood* or User:Tom* .See help for further details.',
+	'noJavaScript' => 'JavaScript is disabled',
 	'noData' => 'no data available',
 	'searchOnlyTOP' => 'This search was performed only in TOP lists.',
 	'tryAgain' => 'Try again in main database',
@@ -142,7 +142,7 @@ $messages['en'] = array(
 	'projectPages' => 'Project pages',
 	'backToTop' => 'back to top',
 	'rankLocal' => 'Rank (local) in',
-	'rankWorld' => 'Rank (world) across all Wikimedia Wikis',
+	'rankWorld' => 'Rank (world) across all Wikimedia wikis',
 	'pageViewCount' => 'Number of pageviews (non-unique)',
 	'winningArticles' => 'Winning articles',
 	'numPageWatchers' => 'Number of page watchers',
@@ -152,7 +152,7 @@ $messages['en'] = array(
 	'totalShare' => 'Total share',
 
 	//entry on local wikipedia statistics page
-	'statsEntry' => '$1 - Page view and page popularity statistics with Top 100,000 hit lists for all Wikimedia Wiki\'s (today, per month and custom time periods). Additional features: Wildcard search, 24-hour statistics, personal favorites, global project totals, support for disambiguation pages and Wikidata items. Hourly updates.'
+	'statsEntry' => '$1 - Page view and page popularity statistics with Top 100,000 hit lists for all Wikimedia wiki\'s (today, per month and custom time periods). Additional features: Wildcard search, 24-hour statistics, personal favorites, global project totals, support for disambiguation pages and Wikidata items. Hourly updates.'
 );
 
 /** Message documentation (Message documentation)
@@ -336,7 +336,7 @@ Followed by a link pointing to http://dumps-wikimedia.org/',
 	'projectPages' => 'Project pages',
 	'backToTop' => 'back to top',
 	'rankLocal' => 'Rank (local) in',
-	'rankWorld' => 'Rank (world) across all Wikimedia Wikis',
+	'rankWorld' => 'Rank (world) across all Wikimedia wikis',
 	'pageViewCount' => 'Number of pageviews (non-unique)',
 	'winningArticles' => 'Winning articles',
 	'numPageWatchers' => 'Number of page watchers',
