@@ -24,7 +24,7 @@ $messages['en'] = array(
 
 	# SelectWiki messages
 	'select_wiki_title' => 'Select a wiki',
-	'select_wiki' => 'Please enter the wiki you would like a report for (e.g. <em>https://en.wikipedia.org</em>):',
+	'select_wiki' => 'Please enter the wiki you would like a report for (e.g. "<kbd>en.wikipedia.org</kbd>"):',
 	'select_wiki_next' => 'Next →',
 
 	# SelectReport messages
