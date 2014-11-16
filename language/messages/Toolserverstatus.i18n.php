@@ -31,6 +31,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Liuxinyu970226
  * @author Platonides
  * @author Shirayuki
  */
@@ -42,17 +43,22 @@ $messages['qqq'] = array(
 	'toolserver-status-erro' => "Message formatting for when the cluster status is 'erro' (eg. a unplanned maintenance). Params: cluster ($1) and informative text ($2)",
 	'toolserver-status-unknown' => "Message formatting for when the status file doesn't deliver any information about the status (a toolserver admin wrote it wrong). Params: cluster ($1) and empty informative text ($2)",
 	'toolserver-status-missing' => "Message formatting for when the cluster name doesn't exist (invalid name passed by the calling program)",
-	'toolserver-status-short-ok' => "A short status text for when the status is 'ok'. Params: cluster name ($1)",
-	'toolserver-status-short-info' => "A short status text for when the status is 'info'. Params: cluster name ($1)",
+	'toolserver-status-short-ok' => "A short status text for when the status is 'ok'. Params: cluster name ($1)
+{{Identical|OK}}",
+	'toolserver-status-short-info' => "A short status text for when the status is 'info'. Params: cluster name ($1)
+{{Identical|Info}}",
 	'toolserver-status-short-warn' => "A short status text for when the status is 'warn'. Params: cluster name ($1)",
-	'toolserver-status-short-down' => "A short status text for when the status is 'down'. Params: cluster name ($1)",
-	'toolserver-status-short-erro' => "A short status text for when the status is 'erro'. Params: cluster name ($1)",
+	'toolserver-status-short-down' => "A short status text for when the status is 'down'. Params: cluster name ($1)
+{{Identical|Down}}",
+	'toolserver-status-short-erro' => "A short status text for when the status is 'erro'. Params: cluster name ($1)
+{{Identical|Error}}",
 	'toolserver-status-short-unknown' => "A short status text for when the status file doesn't deliver any information about the status (a toolserver admin wrote it wrong).
 
 Parameters:
 * $1 - cluster name
 {{Identical|Unknown}}",
-	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)",
+	'toolserver-status-short-missing' => "A short status text for when the cluster name doesn't exist (invalid name passed by the calling program)
+{{Identical|Missing}}",
 );
 
 /** Afrikaans (Afrikaans)
@@ -247,7 +253,7 @@ $messages['ca'] = array(
 	'toolserver-status-short-missing' => '$1: Inexistent',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -1346,7 +1352,7 @@ $messages['tl'] = array(
 	'toolserver-status-short-missing' => '$1: Nawawala',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(

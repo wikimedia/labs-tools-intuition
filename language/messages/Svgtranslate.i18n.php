@@ -830,11 +830,16 @@ $messages['en-gb'] = array(
 
 /** Esperanto (Esperanto)
  * @author Anakmalaysia
+ * @author ThomasPusch
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'error-tryagain' => '$1 Klaku la butonon "reiro" de via foliumilo por reprovi.',
 	'error-nothing' => 'Nenio por traduki.',
 	'error-notsvg' => 'Ne estas dosiero SVG.',
+	'error-unexpected' => 'Okazis neatendita eraro.',
+	'error-notfound' => 'La SVG-dosiero ne povis prenita el la provizita URL.',
+	'error-upload' => 'Okazis eraro dum la alŝuto.',
 	'begin-translation' => 'Ektraduki',
 	'th-original' => 'Originalo',
 	'th-translation' => 'Traduko',
@@ -842,15 +847,23 @@ $messages['eo'] = array(
 	'th-username' => 'Salutnomo',
 	'th-password' => 'Pasvorto',
 	'th-method' => 'Metodo',
-	'option-oauth' => 'TUSC (aŭtomate alŝuti)', # Fuzzy
+	'option-oauth' => 'OAuth (aŭtomata alŝuto)',
 	'option-manual' => 'Permana alŝuto',
 	'preview' => 'Antaŭvido',
 	'translate' => 'Traduki',
+	'translate-instructions' => 'Tajpaĵoj akceptiĝas aŭ kiel dosieronomoj (ekzemple "$1") aŭ kiel plena URL (ekzemple "$2"). En la unua kazo, la Vikimedia Komunejo kompreniĝos kiel fonto. Por traduki SVG-dosieron el alia retejo aŭ vikio, necesas uzi la plenan URL-formaton.',
 	'svginput-label' => 'Dosiero SVG',
+	'stats-footer' => 'Tiu ĉi ilo uziĝis por traduki proksimume $1 dosierojn ekde $2.',
 	'uploading' => 'Alŝutante',
+	'upload-complete' => 'La alŝuto komplete sukcesis. La dosiero nun estu ĉe $1',
 	'editdescriptionpage' => 'Redaktu la novan priskriban paĝon',
+	'disclaimer' => 'Iuj anonimaj datumoj private kolektiĝos por statistikaj celoj. Se provizitaj, OAuth-salutnomoj ankaŭ estos registritaj por helpi en la okazo de vandalismo. Pasvortoj neniam registriĝos.',
+	'author-complete' => 'Bonvolu kompletigu informon pri la kreinto!',
 	'preview-hide' => 'Kaŝi antaŭvidon',
 	'preview-refresh' => 'Freŝigu antaŭmontro',
+	'error-must-accept' => 'Por daŭrigi rekta alŝuton vi devas akcepti la provizitajn uzokondiĉojn.',
+	'description-license' => 'Elektu priskribon kaj licencon',
+	'finalise' => 'Finpreparu detalojn',
 );
 
 /** Spanish (español)
@@ -1137,6 +1150,15 @@ $messages['frp'] = array(
 	'svginput-label' => 'Fichiér SVG',
 	'uploading' => 'Tèlèchargement',
 	'preview-hide' => 'Cachiér la prèvisualisacion',
+);
+
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'th-language' => 'Taal',
+	'th-username' => 'Brûkersnamme',
+	'th-password' => 'Wachtwurd',
 );
 
 /** Irish (Gaeilge)
@@ -2356,7 +2378,7 @@ $messages['or'] = array(
 	'finalise' => 'ବିବରଣୀ ନିଶ୍ଚିତ କରନ୍ତୁ',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
@@ -2371,7 +2393,7 @@ $messages['pdc'] = array(
 	'uploading' => 'Am ufflaade…',
 );
 
-/** Pälzisch (Pälzisch)
+/** Palatine German (Pälzisch)
  * @author Manuae
  */
 $messages['pfl'] = array(
@@ -3048,7 +3070,7 @@ $messages['tl'] = array(
 	'finalise' => 'Buuin na ang mga detalye',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(

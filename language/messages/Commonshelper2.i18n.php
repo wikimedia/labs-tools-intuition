@@ -757,6 +757,7 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'language' => 'Мотт',
 	'new_filename' => 'Файлан керла цӀе:',
+	'upload_submit' => 'Чуяккха',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -770,7 +771,7 @@ $messages['ckb'] = array(
 	'upload_submit' => 'بارکرا!',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Jezevec
  * @author Jkjk
  * @author Vks
@@ -3146,7 +3147,7 @@ $messages['pa'] = array(
 	'remove_cats' => 'ਮੌਜੂਦਾ ਕੈਟਾਗਰੀਆਂ ਹਟਾਓ',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
@@ -3155,7 +3156,7 @@ $messages['pdc'] = array(
 	'upload_submit' => 'Ufflaade!',
 );
 
-/** Pälzisch (Pälzisch)
+/** Palatine German (Pälzisch)
  * @author Manuae
  */
 $messages['pfl'] = array(
@@ -3313,6 +3314,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author He7d3r
  * @author Helder.wiki
  * @author Luckas
  * @author TheGabrielZaum
@@ -4069,7 +4071,7 @@ $messages['tl'] = array(
 	'help_commons' => '$1Magdagdag ng isang paskil sa Commons$2',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(

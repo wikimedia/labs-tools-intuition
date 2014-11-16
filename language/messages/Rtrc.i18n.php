@@ -1504,6 +1504,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author He7d3r
  * @author Helder.wiki
  * @author Krinkle
  */
@@ -1519,6 +1520,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Cainamarques
+ * @author He7d3r
  * @author Helder.wiki
  * @author Titoncio
  */
@@ -1843,7 +1845,7 @@ $messages['vi'] = array(
  */
 $messages['wuu'] = array(
 	'cvn-adder-empty' => '弗識',
-	'helpicon-tooltip' => '捺箇裏望還多信息',
+	'helpicon-tooltip' => '捺箇裏望還多信息', # Fuzzy
 	'time-from' => '從',
 );
 

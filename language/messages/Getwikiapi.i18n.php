@@ -194,7 +194,7 @@ $messages['ca'] = array(
 	'output' => 'Sortida per «$1»',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Jezevec
  * @author Vks
  */
@@ -972,8 +972,8 @@ $messages['zh-hans'] = array(
 	'formats-heading' => '输出格式',
 	'input' => '输入',
 	'label-wikiids' => 'Wiki 标识符',
-	'no-matches' => '没有匹配 "$1"',
-	'output' => '输出的 "$1"',
+	'no-matches' => '没有网站匹配 "$1"',
+	'output' => '输出 "$1"',
 );
 
 /** Traditional Chinese (中文（繁體）‎)

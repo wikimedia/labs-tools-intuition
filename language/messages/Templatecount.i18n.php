@@ -229,7 +229,7 @@ $messages['ce'] = array(
 	'language-label' => 'Мотт',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Gaj777
  * @author Jezevec
@@ -466,6 +466,13 @@ $messages['frp'] = array(
 	'pagename-label' => 'Nom de la pâge (sen l’èspâço de noms)',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'language-label' => 'Taal',
+);
+
 /** Irish (Gaeilge)
  * @author පසිඳු කාවින්ද
  */
@@ -679,6 +686,13 @@ $messages['jv'] = array(
 $messages['ka'] = array(
 	'language-label' => 'ენა',
 	'namespace-label' => 'სახელთა სივრცე',
+);
+
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'enter-details' => 'Егжей-тегжейін енгізіңіз',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -962,7 +976,7 @@ $messages['os'] = array(
 	'language-label' => 'Æвзаг',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
@@ -970,7 +984,7 @@ $messages['pdc'] = array(
 	'namespace-label' => 'Blatznaame',
 );
 
-/** Pälzisch (Pälzisch)
+/** Palatine German (Pälzisch)
  * @author Manuae
  */
 $messages['pfl'] = array(
@@ -1225,7 +1239,7 @@ $messages['tl'] = array(
 	'time-label' => 'Panahong nagamit upang maisagawa ang utos',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(

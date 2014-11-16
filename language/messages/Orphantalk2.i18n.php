@@ -91,14 +91,13 @@ $messages['af'] = array(
 	'hidesubpages' => 'Versteek subbladsye',
 	'limit' => 'Limiet',
 	'page' => 'Bladsy',
-	'redirect' => 'Is aanstuur?',
 	'output' => 'Afvoer',
 	'update' => 'Opdateer',
-	'tools-delete' => 'skrap',
-	'tools-links' => 'skakels',
-	'tools-subject' => 'onderwerp',
-	'tools-hist' => 'gesk.',
-	'tools-curr' => 'huidige',
+	'tools-delete' => 'skrap', # Fuzzy
+	'tools-links' => 'skakels', # Fuzzy
+	'tools-subject' => 'onderwerp', # Fuzzy
+	'tools-hist' => 'gesk.', # Fuzzy
+	'tools-curr' => 'huidige', # Fuzzy
 	'resultslimited' => 'Resultate is beperk tot $1 bladsye.',
 );
 
@@ -109,22 +108,21 @@ $messages['af'] = array(
  * @author أحمد
  */
 $messages['ar'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(اختر ويكي أولا)',
 	'hideredirects' => 'أخفِ التحويلات',
 	'hidesubpages' => 'أخفِ الصفحات الفرعية',
 	'limit' => 'حد',
 	'page' => 'الصفحة',
-	'redirect' => 'تحويلة؟',
 	'output' => 'مخرج',
 	'update' => 'حدّث',
-	'tools-delete' => 'احذف',
-	'tools-links' => 'روابط',
-	'tools-subject' => 'موضوع',
-	'tools-hist' => 'تاريخ',
-	'tools-curr' => 'حالي',
-	'tools-globalusage' => 'استخدام عام',
-	'deletesummary' => 'تنظيف صفحات النقاش اليتيمة عن طريق $1',
+	'tools-delete' => 'احذف', # Fuzzy
+	'tools-links' => 'روابط', # Fuzzy
+	'tools-subject' => 'موضوع', # Fuzzy
+	'tools-hist' => 'تاريخ', # Fuzzy
+	'tools-curr' => 'حالي', # Fuzzy
+	'tools-globalusage' => 'استخدام عام', # Fuzzy
+	'deletesummary' => 'تنظيف صفحات النقاش اليتيمة عن طريق $1', # Fuzzy
 	'noresults' => 'لا توجد صفحات نقاش يتيمة في هذا الويكي في فضاء التسمية هذا مما يطابق إعداداتك.',
 	'resultslimited' => 'حُدِّدَ عدد النتائج بما لا يزيد على $1 صفحات.',
 );
@@ -134,14 +132,13 @@ $messages['ar'] = array(
  */
 $messages['arc'] = array(
 	'page' => 'ܦܐܬܐ',
-	'redirect' => 'ܐܪܐ ܨܘܝܒܐ ܐܝܬܘܗܝ؟',
 	'output' => 'ܡܦܩܢܐ',
 	'update' => 'ܚܕܬ',
-	'tools-delete' => 'ܫܘܦ',
-	'tools-links' => 'ܐܣܘܪ̈ܐ',
-	'tools-subject' => 'ܡܠܘܐܐ',
-	'tools-hist' => 'ܬܫܥܝܬܐ',
-	'tools-curr' => 'ܗܫܝܐ',
+	'tools-delete' => 'ܫܘܦ', # Fuzzy
+	'tools-links' => 'ܐܣܘܪ̈ܐ', # Fuzzy
+	'tools-subject' => 'ܡܠܘܐܐ', # Fuzzy
+	'tools-hist' => 'ܬܫܥܝܬܐ', # Fuzzy
+	'tools-curr' => 'ܗܫܝܐ', # Fuzzy
 );
 
 /** Assamese (অসমীয়া)
@@ -152,9 +149,9 @@ $messages['as'] = array(
 	'page' => 'পৃষ্ঠা',
 	'output' => 'আউটপুট',
 	'update' => 'আপডেট',
-	'tools-delete' => 'বিলোপন (ডিলিট)',
-	'tools-links' => 'সংযোগ (লিঙ্ক)',
-	'tools-subject' => 'বিষয়',
+	'tools-delete' => 'বিলোপন (ডিলিট)', # Fuzzy
+	'tools-links' => 'সংযোগ (লিঙ্ক)', # Fuzzy
+	'tools-subject' => 'বিষয়', # Fuzzy
 );
 
 /** Asturian (asturianu)
@@ -190,30 +187,29 @@ $messages['ast'] = array(
 $messages['az'] = array(
 	'limit' => 'Limit',
 	'page' => 'Səhifə',
-	'tools-delete' => 'sil',
-	'tools-links' => 'keçidlər',
+	'tools-delete' => 'sil', # Fuzzy
+	'tools-links' => 'keçidlər', # Fuzzy
 );
 
 /** South Azerbaijani (تورکجه)
  * @author Mousa
  */
 $messages['azb'] = array(
-	'title' => 'یئتیم‌دانیشیق۲',
+	'title' => 'یئتیم‌دانیشیق۲', # Fuzzy
 	'select-wiki-first' => '(ایلکجه بیر ویکی سئچین)',
 	'hideredirects' => 'یول‌لاندیرمالاری گیزلت',
 	'hidesubpages' => 'آلت‌صحیفه‌لری گیزلت',
 	'limit' => 'سینیر',
 	'page' => 'صحیفه',
-	'redirect' => 'یول‌لاندیرمادیرمی؟',
 	'output' => 'چیختی',
 	'update' => 'گونجل‌له',
-	'tools-delete' => 'سیل',
-	'tools-links' => 'باغلانتیلار',
-	'tools-subject' => 'قونو',
-	'tools-hist' => 'گئچمیش',
-	'tools-curr' => 'ایندی',
-	'tools-globalusage' => 'سراسری ایستیفاده',
-	'deletesummary' => '$1 ایله یئتیم اولموش دانیشیق صحیفه‌لری سیلینیر',
+	'tools-delete' => 'سیل', # Fuzzy
+	'tools-links' => 'باغلانتیلار', # Fuzzy
+	'tools-subject' => 'قونو', # Fuzzy
+	'tools-hist' => 'گئچمیش', # Fuzzy
+	'tools-curr' => 'ایندی', # Fuzzy
+	'tools-globalusage' => 'سراسری ایستیفاده', # Fuzzy
+	'deletesummary' => '$1 ایله یئتیم اولموش دانیشیق صحیفه‌لری سیلینیر', # Fuzzy
 	'noresults' => 'سیزین تنظیملرینیزله بو ویکی‌ده بو آدفضاسیندا بیر یئتیم اولموش دانیشیق صحیفه‌سی تاپیلمادی.',
 	'resultslimited' => 'نتیجه‌لر $1 صحیفه‌یه محدودلاشیبلار.',
 );
@@ -223,22 +219,21 @@ $messages['azb'] = array(
  * @author Sagan
  */
 $messages['ba'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(тәүҙә вики һайлағыҙ)',
 	'hideredirects' => 'Йүнәлтеүҙәрҙе йәшерергә',
 	'hidesubpages' => 'Эске биттәрҙе йәшерергә',
 	'limit' => 'Сикләү',
 	'page' => 'Бит',
-	'redirect' => 'Был йүнәлтеүме?',
 	'output' => 'Һөҙөмтә',
 	'update' => 'Яңыртырға',
-	'tools-delete' => 'юйырға',
-	'tools-links' => 'һылтанмалар',
-	'tools-subject' => 'тема',
-	'tools-hist' => 'тарих',
-	'tools-curr' => 'ағым.',
-	'tools-globalusage' => 'дөйөм ҡулланыу',
-	'deletesummary' => 'Йәтим-биттәрҙең фекер алышыу битен  $1 аша таҙартырға',
+	'tools-delete' => 'юйырға', # Fuzzy
+	'tools-links' => 'һылтанмалар', # Fuzzy
+	'tools-subject' => 'тема', # Fuzzy
+	'tools-hist' => 'тарих', # Fuzzy
+	'tools-curr' => 'ағым.', # Fuzzy
+	'tools-globalusage' => 'дөйөм ҡулланыу', # Fuzzy
+	'deletesummary' => 'Йәтим-биттәрҙең фекер алышыу битен  $1 аша таҙартырға', # Fuzzy
 	'noresults' => 'Был викила һеҙ һораған исемдәр арауығында йәтим-биттәрҙең фекер алышыу биттәре табылманы.',
 	'resultslimited' => 'Йомғаҡлау $1 бит менән сикләнде.',
 );
@@ -276,22 +271,21 @@ $messages['be'] = array(
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(сьпярша выберыце вікі)',
 	'hideredirects' => 'Схаваць перанакіраваньні',
 	'hidesubpages' => 'Схаваць падстаронкі',
 	'limit' => 'Абмежаваньне',
 	'page' => 'Старонка',
-	'redirect' => 'Зьяўляецца перанакіраваньнем?',
 	'output' => 'Вывад',
 	'update' => 'Абнавіць',
-	'tools-delete' => 'выдаліць',
-	'tools-links' => 'спасылкі',
-	'tools-subject' => 'прадмет',
-	'tools-hist' => 'гіст',
-	'tools-curr' => 'цяп',
-	'tools-globalusage' => 'глябальнае выкарыстаньне',
-	'deletesummary' => 'Выдаленьне абмеркаваньняў-сірацін праз $1',
+	'tools-delete' => 'выдаліць', # Fuzzy
+	'tools-links' => 'спасылкі', # Fuzzy
+	'tools-subject' => 'прадмет', # Fuzzy
+	'tools-hist' => 'гіст', # Fuzzy
+	'tools-curr' => 'цяп', # Fuzzy
+	'tools-globalusage' => 'глябальнае выкарыстаньне', # Fuzzy
+	'deletesummary' => 'Выдаленьне абмеркаваньняў-сірацін праз $1', # Fuzzy
 	'noresults' => 'У гэтай вікі і ў гэтай прасторы назваў абмеркаваньняў-сірацін няма.',
 	'resultslimited' => 'Вынік абмежаваны да $1 старонак.',
 );
@@ -301,9 +295,9 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'update' => 'Обновяване',
-	'tools-delete' => 'изтриване',
-	'tools-hist' => 'ист',
-	'tools-curr' => 'тек',
+	'tools-delete' => 'изтриване', # Fuzzy
+	'tools-hist' => 'ист', # Fuzzy
+	'tools-curr' => 'тек', # Fuzzy
 );
 
 /** Bengali (বাংলা)
@@ -369,8 +363,8 @@ $messages['bs'] = array(
 	'limit' => 'Ograničenje',
 	'page' => 'Stranica',
 	'update' => 'Ažuriraj',
-	'tools-delete' => 'obriši',
-	'tools-subject' => 'tema',
+	'tools-delete' => 'obriši', # Fuzzy
+	'tools-subject' => 'tema', # Fuzzy
 );
 
 /** Catalan (català)
@@ -416,29 +410,28 @@ $messages['ce'] = array(
 	'tools-globalusage' => 'Файл лелор',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Jezevec
  * @author PSJG-Tyler
  * @author Vks
  */
 $messages['cs'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(nejdříve vyber wiki)',
 	'hideredirects' => 'Skrýt přesměrování',
 	'hidesubpages' => 'Skrýt podstránky',
 	'limit' => 'hranice',
 	'page' => 'Stránka',
-	'redirect' => 'Přesměrováno?',
 	'output' => 'Výstup',
 	'update' => 'Aktualizace',
-	'tools-delete' => 'smazat',
-	'tools-links' => 'odkazy',
-	'tools-subject' => 'téma',
-	'tools-hist' => 'historie',
-	'tools-curr' => 'poslední editace',
-	'tools-globalusage' => 'globální použití',
-	'deletesummary' => 'Čistím osiřelé diskuzní stránky přes $1',
+	'tools-delete' => 'smazat', # Fuzzy
+	'tools-links' => 'odkazy', # Fuzzy
+	'tools-subject' => 'téma', # Fuzzy
+	'tools-hist' => 'historie', # Fuzzy
+	'tools-curr' => 'poslední editace', # Fuzzy
+	'tools-globalusage' => 'globální použití', # Fuzzy
+	'deletesummary' => 'Čistím osiřelé diskuzní stránky přes $1', # Fuzzy
 	'noresults' => 'Žádné osiřelé diskuzní stránky na této wiki v tomto jmenném prostoru neodpovídají Vašemu nastavení.',
 	'resultslimited' => 'Výsledky byly omezeny na  $1  stránek.',
 );
@@ -447,17 +440,17 @@ $messages['cs'] = array(
  * @author Salam
  */
 $messages['cv'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(малтанах викие суйлӑр)',
 	'hidesubpages' => 'Кӗҫӗн страницӑсене пытар',
 	'limit' => 'Хӗсев',
 	'page' => 'Страница',
-	'tools-delete' => 'тӗпле',
-	'tools-links' => 'каҫӑсем',
-	'tools-subject' => 'тема',
-	'tools-hist' => 'истори',
-	'tools-curr' => 'халь.',
-	'tools-globalusage' => 'глобаллӑ усӑ курни',
+	'tools-delete' => 'тӗпле', # Fuzzy
+	'tools-links' => 'каҫӑсем', # Fuzzy
+	'tools-subject' => 'тема', # Fuzzy
+	'tools-hist' => 'истори', # Fuzzy
+	'tools-curr' => 'халь.', # Fuzzy
+	'tools-globalusage' => 'глобаллӑ усӑ курни', # Fuzzy
 );
 
 /** Danish (dansk)
@@ -467,22 +460,21 @@ $messages['cv'] = array(
  * @author Tjernobyl
  */
 $messages['da'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(vælg en wiki først)',
 	'hideredirects' => 'Skjul omdirigeringer',
 	'hidesubpages' => 'Skjul undersider',
 	'limit' => 'Grænse',
 	'page' => 'Side',
-	'redirect' => 'Er en omdirigering?',
 	'output' => 'Resultat',
 	'update' => 'Opdatér',
-	'tools-delete' => 'slet',
-	'tools-links' => 'links',
-	'tools-subject' => 'emne',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'nu',
-	'tools-globalusage' => 'global brug',
-	'deletesummary' => 'Sletning af forældreløse diskussionssider via $1',
+	'tools-delete' => 'slet', # Fuzzy
+	'tools-links' => 'links', # Fuzzy
+	'tools-subject' => 'emne', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'nu', # Fuzzy
+	'tools-globalusage' => 'global brug', # Fuzzy
+	'deletesummary' => 'Sletning af forældreløse diskussionssider via $1', # Fuzzy
 	'noresults' => 'Ingen forældreløse diskussionssider på denne wiki i dette navneområde passede med de valgte indstillinger.',
 	'resultslimited' => 'Resultaterne blev begrænset til $1 sider.',
 );
@@ -541,22 +533,21 @@ $messages['diq'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(wubjeŕ nejpjerwjej wiki)',
 	'hideredirects' => 'Dalejpósrědnjenja schowaś',
 	'hidesubpages' => 'Pódboki schowaś',
 	'limit' => 'Limit',
 	'page' => 'Bok',
-	'redirect' => 'Jo dalejpósrědnjenje?',
 	'output' => 'Wudaśe',
 	'update' => 'Aktualizěrowaś',
-	'tools-delete' => 'wulašowaś',
-	'tools-links' => 'wótkaze',
-	'tools-subject' => 'tema',
-	'tools-hist' => 'historija',
-	'tools-curr' => 'aktualna wersija',
-	'tools-globalusage' => 'globalne wužywanje',
-	'deletesummary' => 'Lašowanje wósyrośonych diskusijnych bokow pśez $1',
+	'tools-delete' => 'wulašowaś', # Fuzzy
+	'tools-links' => 'wótkaze', # Fuzzy
+	'tools-subject' => 'tema', # Fuzzy
+	'tools-hist' => 'historija', # Fuzzy
+	'tools-curr' => 'aktualna wersija', # Fuzzy
+	'tools-globalusage' => 'globalne wužywanje', # Fuzzy
+	'deletesummary' => 'Lašowanje wósyrośonych diskusijnych bokow pśez $1', # Fuzzy
 	'noresults' => 'Žedne wósyrośone diskusijne boki na toś tom wikiju w toś tom mjenjowem rumje njejsu wašym nastajenjam wótpowědowali.',
 	'resultslimited' => 'Wuslědki su se na $1 bokow wobgranicowali.',
 );
@@ -572,14 +563,13 @@ $messages['el'] = array(
 	'hidesubpages' => 'Απόκρυψη υποσελιδών',
 	'limit' => 'Όριο',
 	'page' => 'Άρθρο',
-	'redirect' => 'Είναι ανακατεύθυνση;',
 	'update' => 'Ενημέρωση',
-	'tools-delete' => 'διαγραφή',
-	'tools-links' => 'σύνδεσμοι',
-	'tools-subject' => 'θέμα',
-	'tools-hist' => 'ιστορικό',
-	'tools-curr' => 'τρέχουσα',
-	'tools-globalusage' => 'καθολική χρήση',
+	'tools-delete' => 'διαγραφή', # Fuzzy
+	'tools-links' => 'σύνδεσμοι', # Fuzzy
+	'tools-subject' => 'θέμα', # Fuzzy
+	'tools-hist' => 'ιστορικό', # Fuzzy
+	'tools-curr' => 'τρέχουσα', # Fuzzy
+	'tools-globalusage' => 'καθολική χρήση', # Fuzzy
 );
 
 /** Esperanto (Esperanto)
@@ -587,21 +577,20 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(unue elektu vikion)',
 	'hideredirects' => 'Kaŝi alidirektilojn',
 	'hidesubpages' => 'Kaŝi subpaĝojn',
 	'limit' => 'Limo',
 	'page' => 'Paĝo',
-	'redirect' => 'Ĉu alidirektilo?',
 	'output' => 'Eligo',
 	'update' => 'Ĝisdatigi',
-	'tools-delete' => 'forigi',
-	'tools-links' => 'ligiloj',
-	'tools-subject' => 'temo',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'aktu',
-	'tools-globalusage' => 'globalusage',
+	'tools-delete' => 'forigi', # Fuzzy
+	'tools-links' => 'ligiloj', # Fuzzy
+	'tools-subject' => 'temo', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'aktu', # Fuzzy
+	'tools-globalusage' => 'globalusage', # Fuzzy
 );
 
 /** Spanish (español)
@@ -666,18 +655,17 @@ $messages['et'] = array(
  * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'hideredirects' => 'Birzuzenketak ezkutatu',
 	'hidesubpages' => 'Azpiorrialdeak ezkutatu',
 	'limit' => 'Muga',
 	'page' => 'Orrialdea',
-	'redirect' => 'Birbideratzea da?',
 	'update' => 'Eguneratu',
-	'tools-delete' => 'ezabatu',
-	'tools-links' => 'loturak',
-	'tools-subject' => 'gaia',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'orain',
+	'tools-delete' => 'ezabatu', # Fuzzy
+	'tools-links' => 'loturak', # Fuzzy
+	'tools-subject' => 'gaia', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'orain', # Fuzzy
 );
 
 /** Persian (فارسی)
@@ -716,21 +704,20 @@ $messages['fa'] = array(
  * @author VezonThunder
  */
 $messages['fi'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(valitse ensin wiki)',
 	'hideredirects' => 'Piilota ohjaukset',
 	'hidesubpages' => 'Piilota alasivut',
 	'limit' => 'Raja',
 	'page' => 'Sivu',
-	'redirect' => 'Onko uudelleenohjaus?',
 	'output' => 'Ulostulo',
 	'update' => 'Päivitä',
-	'tools-delete' => 'poista',
-	'tools-links' => 'linkit',
-	'tools-subject' => 'aihe',
-	'tools-hist' => 'historia',
-	'tools-curr' => 'nyk.',
-	'deletesummary' => 'Yksinäisten keskustelusivujen siivous $1-työkalulla',
+	'tools-delete' => 'poista', # Fuzzy
+	'tools-links' => 'linkit', # Fuzzy
+	'tools-subject' => 'aihe', # Fuzzy
+	'tools-hist' => 'historia', # Fuzzy
+	'tools-curr' => 'nyk.', # Fuzzy
+	'deletesummary' => 'Yksinäisten keskustelusivujen siivous $1-työkalulla', # Fuzzy
 	'noresults' => 'Asetuksesi eivät vastanneet yhtään yksinäistä keskustelusivua tässä wikissä ja tässä nimiavaruudessa.',
 	'resultslimited' => 'Tulokset rajoitettiin $1 sivuun.',
 );
@@ -744,16 +731,15 @@ $messages['fo'] = array(
 	'hidesubpages' => 'Fjal undirsíður',
 	'limit' => 'Mark',
 	'page' => 'Síða',
-	'redirect' => 'Er snarvegur?',
 	'output' => 'Útdáta',
 	'update' => 'Dagfør',
-	'tools-delete' => 'strika',
-	'tools-links' => 'leinkjur',
-	'tools-subject' => 'evni',
-	'tools-hist' => 'søga',
-	'tools-curr' => 'nú',
-	'tools-globalusage' => 'global nýtsla',
-	'deletesummary' => 'Ruddar upp í foreldraleysum kjaksíðum via $1',
+	'tools-delete' => 'strika', # Fuzzy
+	'tools-links' => 'leinkjur', # Fuzzy
+	'tools-subject' => 'evni', # Fuzzy
+	'tools-hist' => 'søga', # Fuzzy
+	'tools-curr' => 'nú', # Fuzzy
+	'tools-globalusage' => 'global nýtsla', # Fuzzy
+	'deletesummary' => 'Ruddar upp í foreldraleysum kjaksíðum via $1', # Fuzzy
 	'noresults' => 'Ongar foreldraleyar kjaksíður á hesi wiki í hesum navnarúminum samsvaraðu tínum innstillingum.',
 	'resultslimited' => 'Úrslitini vóru avmarkaði til $1 síður.',
 );
@@ -792,21 +778,20 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(chouèsésséd d’abôrd un vouiqui)',
 	'hideredirects' => 'Cachiér les redirèccions',
 	'hidesubpages' => 'Cachiér les sot-pâges',
 	'limit' => 'Limita',
 	'page' => 'Pâge',
-	'redirect' => 'Est na redirèccion ?',
 	'output' => 'Sortia',
 	'update' => 'Betar a jorn',
-	'tools-delete' => 'suprimar',
-	'tools-links' => 'lims',
-	'tools-subject' => 'sujèt',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'ora',
-	'tools-globalusage' => 'usâjo globâl',
+	'tools-delete' => 'suprimar', # Fuzzy
+	'tools-links' => 'lims', # Fuzzy
+	'tools-subject' => 'sujèt', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'ora', # Fuzzy
+	'tools-globalusage' => 'usâjo globâl', # Fuzzy
 );
 
 /** Irish (Gaeilge)
@@ -814,29 +799,28 @@ $messages['frp'] = array(
  */
 $messages['ga'] = array(
 	'page' => 'Leathanach',
-	'tools-delete' => 'scrios',
+	'tools-delete' => 'scrios', # Fuzzy
 );
 
 /** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(seleccione primeiro un wiki)',
 	'hideredirects' => 'Agochar as redireccións',
 	'hidesubpages' => 'Agochar as subpáxinas',
 	'limit' => 'Límite',
 	'page' => 'Páxina',
-	'redirect' => 'É unha redirección?',
 	'output' => 'Saída',
 	'update' => 'Actualizar',
-	'tools-delete' => 'borrar',
-	'tools-links' => 'ligazóns',
-	'tools-subject' => 'asunto',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'actual',
-	'tools-globalusage' => 'uso global',
-	'deletesummary' => 'Limpando as páxinas de conversa orfas mediante $1',
+	'tools-delete' => 'borrar', # Fuzzy
+	'tools-links' => 'ligazóns', # Fuzzy
+	'tools-subject' => 'asunto', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'actual', # Fuzzy
+	'tools-globalusage' => 'uso global', # Fuzzy
+	'deletesummary' => 'Limpando as páxinas de conversa orfas mediante $1', # Fuzzy
 	'noresults' => 'Non hai páxina de conversa orfas neste espazo de nomes que coincidisen coa configuración.',
 	'resultslimited' => 'Os resultados limítanse a $1 páxinas.',
 );
@@ -888,22 +872,21 @@ $messages['he'] = array(
  * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'title' => 'एकाकी-वार्ता 2',
+	'title' => 'एकाकी-वार्ता 2', # Fuzzy
 	'select-wiki-first' => '(पहले एक विकी चुनें)',
 	'hideredirects' => 'पुनर्निर्देश छुपाएँ',
 	'hidesubpages' => 'उपपृष्ठ छुपाएँ',
 	'limit' => 'सीमा',
 	'page' => 'पृष्ठ',
-	'redirect' => 'पुनर्निर्देश है?',
 	'output' => 'आउटपुट',
 	'update' => 'अद्यतन',
-	'tools-delete' => 'हटाएँ',
-	'tools-links' => 'कड़ियाँ',
-	'tools-subject' => 'सामग्री पृष्ठ',
-	'tools-hist' => 'इतिहास',
-	'tools-curr' => 'चालू',
-	'tools-globalusage' => 'वैश्विक प्रयोग',
-	'deletesummary' => '$1 द्वारा एकाकी वार्ता पृष्ठ हटाया जा रहा है',
+	'tools-delete' => 'हटाएँ', # Fuzzy
+	'tools-links' => 'कड़ियाँ', # Fuzzy
+	'tools-subject' => 'सामग्री पृष्ठ', # Fuzzy
+	'tools-hist' => 'इतिहास', # Fuzzy
+	'tools-curr' => 'चालू', # Fuzzy
+	'tools-globalusage' => 'वैश्विक प्रयोग', # Fuzzy
+	'deletesummary' => '$1 द्वारा एकाकी वार्ता पृष्ठ हटाया जा रहा है', # Fuzzy
 	'noresults' => 'इस विकी पर इस नामस्थान में आपकी दी सेटिंग्स से मेल खाते कोई एकाकी वार्ता पृष्ठ नहीं हैं।',
 	'resultslimited' => 'परिणाम $1 की सीमा के अंदर रखे गए हैं',
 );
@@ -912,22 +895,21 @@ $messages['hi'] = array(
  * @author Ex13
  */
 $messages['hr'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(prvo izaberite wiki)',
 	'hideredirects' => 'Sakrij preusmjeravanja',
 	'hidesubpages' => 'Sakrij podstranice',
 	'limit' => 'Ograničenje',
 	'page' => 'Stranica',
-	'redirect' => 'Je li preusmjerena?',
 	'output' => 'Odredište',
 	'update' => 'Osvježi',
-	'tools-delete' => 'izbriši',
-	'tools-links' => 'poveznice',
-	'tools-subject' => 'naslov',
-	'tools-hist' => 'pov',
-	'tools-curr' => 'sad',
-	'tools-globalusage' => 'globalna uporaba',
-	'deletesummary' => 'Čišćenje stranica za razgovor siročad preko $1',
+	'tools-delete' => 'izbriši', # Fuzzy
+	'tools-links' => 'poveznice', # Fuzzy
+	'tools-subject' => 'naslov', # Fuzzy
+	'tools-hist' => 'pov', # Fuzzy
+	'tools-curr' => 'sad', # Fuzzy
+	'tools-globalusage' => 'globalna uporaba', # Fuzzy
+	'deletesummary' => 'Čišćenje stranica za razgovor siročad preko $1', # Fuzzy
 	'noresults' => 'Niti jedna stranica za razgovor siročad na ovom wikiju u ovom imenskom prostoru ne odgovara vašim postavkama.',
 	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
 );
@@ -936,22 +918,21 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(wubjer najprjedy wiki)',
 	'hideredirects' => 'Daleposrědkowanja schować',
 	'hidesubpages' => 'Podstrony schować',
 	'limit' => 'Limit',
 	'page' => 'Strona',
-	'redirect' => 'Je dalesposrědkowanje?',
 	'output' => 'Wudaće',
 	'update' => 'Aktualizować',
-	'tools-delete' => 'zhašeć',
-	'tools-links' => 'wotkazy',
-	'tools-subject' => 'tema',
-	'tools-hist' => 'wersije',
-	'tools-curr' => 'aktualna wersija',
-	'tools-globalusage' => 'globalne wužiwanje',
-	'deletesummary' => 'Wuprózdnjenje wosyroćenych diskusijnych stronow přez $1',
+	'tools-delete' => 'zhašeć', # Fuzzy
+	'tools-links' => 'wotkazy', # Fuzzy
+	'tools-subject' => 'tema', # Fuzzy
+	'tools-hist' => 'wersije', # Fuzzy
+	'tools-curr' => 'aktualna wersija', # Fuzzy
+	'tools-globalusage' => 'globalne wužiwanje', # Fuzzy
+	'deletesummary' => 'Wuprózdnjenje wosyroćenych diskusijnych stronow přez $1', # Fuzzy
 	'noresults' => 'Žane wosyroćene diskusijne strony na tutym wikiju w tutym mjenowym rumje njejsu wašim nastajenjam wotpowědowali.',
 	'resultslimited' => 'Wuslědki buchu na $1 stronow wobmjezowane.',
 );
@@ -988,22 +969,21 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(selige primo un wiki)',
 	'hideredirects' => 'Celar redirectiones',
 	'hidesubpages' => 'Celar subpaginas',
 	'limit' => 'Limite',
 	'page' => 'Pagina',
-	'redirect' => 'Es redirection?',
 	'output' => 'Resultato',
 	'update' => 'Actualisar',
-	'tools-delete' => 'deler',
-	'tools-links' => 'ligamines',
-	'tools-subject' => 'subjecto',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'actu',
-	'tools-globalusage' => 'uso global',
-	'deletesummary' => 'Radimento de paginas de discussion orphane via $1',
+	'tools-delete' => 'deler', # Fuzzy
+	'tools-links' => 'ligamines', # Fuzzy
+	'tools-subject' => 'subjecto', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'actu', # Fuzzy
+	'tools-globalusage' => 'uso global', # Fuzzy
+	'deletesummary' => 'Radimento de paginas de discussion orphane via $1', # Fuzzy
 	'noresults' => 'Nulle pagina de discussion orphane in iste wiki e in iste spatio de nomines correspondeva a tu configurationes.',
 	'resultslimited' => 'Le resultatos ha essite limitate a $1 paginas.',
 );
@@ -1041,7 +1021,7 @@ $messages['id'] = array(
 $messages['ig'] = array(
 	'limit' => 'Érúrú',
 	'page' => 'Ihü',
-	'tools-hist' => 'akíkómbu',
+	'tools-hist' => 'akíkómbu', # Fuzzy
 );
 
 /** Iloko (Ilokano)
@@ -1053,16 +1033,15 @@ $messages['ilo'] = array(
 	'hidesubpages' => 'Ilemmeng dagiti subpanid',
 	'limit' => 'Patingga',
 	'page' => 'Panid',
-	'redirect' => 'Baw-ing kadi?',
 	'output' => 'Maiparuar',
 	'update' => 'Pabaruen',
-	'tools-delete' => 'ikkaten',
-	'tools-links' => 'dagiti silpo',
-	'tools-subject' => 'suheto',
-	'tools-hist' => 'saritaan',
-	'tools-curr' => 'agdama',
-	'tools-globalusage' => 'sangalubongan a panag-usar',
-	'deletesummary' => 'Agdaldalus kadagiti naulila a pampanid babaen ti $1',
+	'tools-delete' => 'ikkaten', # Fuzzy
+	'tools-links' => 'dagiti silpo', # Fuzzy
+	'tools-subject' => 'suheto', # Fuzzy
+	'tools-hist' => 'saritaan', # Fuzzy
+	'tools-curr' => 'agdama', # Fuzzy
+	'tools-globalusage' => 'sangalubongan a panag-usar', # Fuzzy
+	'deletesummary' => 'Agdaldalus kadagiti naulila a pampanid babaen ti $1', # Fuzzy
 	'noresults' => 'Awan dagiti naulila a pampanid ti tungtungan iti daytoy a wiki iti daytoy a nagan ti espasio a maipada kadagiti inyasentarmo',
 	'resultslimited' => 'Dagiti resulta ket naipatingga iti $1 a pampanid.',
 );
@@ -1072,8 +1051,8 @@ $messages['ilo'] = array(
  */
 $messages['inh'] = array(
 	'page' => 'ОагIув',
-	'tools-delete' => 'дIадакха',
-	'tools-links' => 'Iинкаш',
+	'tools-delete' => 'дIадакха', # Fuzzy
+	'tools-links' => 'Iинкаш', # Fuzzy
 );
 
 /** Italian (italiano)
@@ -1140,22 +1119,21 @@ $messages['ja'] = array(
  * @author NoiX180
  */
 $messages['jv'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(pilih wiki dhisik)',
 	'hideredirects' => 'Dhelikna alihan',
 	'hidesubpages' => 'Dhelikna subkaca',
 	'limit' => 'Wates',
 	'page' => 'Kaca',
-	'redirect' => 'Alihaké?',
 	'output' => 'Weton',
 	'update' => 'Anyari',
-	'tools-delete' => 'busak',
-	'tools-links' => 'pranala',
-	'tools-subject' => 'jejer',
-	'tools-hist' => 'riwayat',
-	'tools-curr' => 'saiki',
-	'tools-globalusage' => 'panganggoansakjagat',
-	'deletesummary' => 'Ngresiki kaca guneman yatim liwat $1',
+	'tools-delete' => 'busak', # Fuzzy
+	'tools-links' => 'pranala', # Fuzzy
+	'tools-subject' => 'jejer', # Fuzzy
+	'tools-hist' => 'riwayat', # Fuzzy
+	'tools-curr' => 'saiki', # Fuzzy
+	'tools-globalusage' => 'panganggoansakjagat', # Fuzzy
+	'deletesummary' => 'Ngresiki kaca guneman yatim liwat $1', # Fuzzy
 	'resultslimited' => 'Asil diwatesi mung $1 kaca.',
 );
 
@@ -1166,12 +1144,12 @@ $messages['ka'] = array(
 	'select-wiki-first' => '(ჯერ აირჩიეთ ვიკი)',
 	'limit' => 'ლიმიტი',
 	'update' => 'განახლება',
-	'tools-delete' => 'წაშლა',
-	'tools-links' => 'ბმულები',
-	'tools-subject' => 'თემა',
-	'tools-hist' => 'ისტორია',
-	'tools-curr' => 'მიმდინარე',
-	'tools-globalusage' => 'გლობალური გამოყენება',
+	'tools-delete' => 'წაშლა', # Fuzzy
+	'tools-links' => 'ბმულები', # Fuzzy
+	'tools-subject' => 'თემა', # Fuzzy
+	'tools-hist' => 'ისტორია', # Fuzzy
+	'tools-curr' => 'მიმდინარე', # Fuzzy
+	'tools-globalusage' => 'გლობალური გამოყენება', # Fuzzy
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -1183,15 +1161,14 @@ $messages['km'] = array(
 	'hidesubpages' => 'លាក់ទំព័ររង',
 	'limit' => 'កំហិត',
 	'page' => 'ទំព័រ',
-	'redirect' => 'ជាការបញ្ជូនបន្ត?',
 	'update' => 'បន្ទាន់សម័យ',
-	'tools-delete' => 'លុបចោល',
-	'tools-links' => 'តំណ​ភ្ជាប់',
-	'tools-subject' => 'ប្រធានបទ​',
-	'tools-hist' => 'ប្រវត្តិ',
-	'tools-curr' => 'បច្ចុប្បន្ន',
-	'tools-globalusage' => 'បំរើបំរាស់សាកល',
-	'deletesummary' => 'សំអាតទំព័រពិភាក្សាដែលកំព្រាតាមរយៈ $1',
+	'tools-delete' => 'លុបចោល', # Fuzzy
+	'tools-links' => 'តំណ​ភ្ជាប់', # Fuzzy
+	'tools-subject' => 'ប្រធានបទ​', # Fuzzy
+	'tools-hist' => 'ប្រវត្តិ', # Fuzzy
+	'tools-curr' => 'បច្ចុប្បន្ន', # Fuzzy
+	'tools-globalusage' => 'បំរើបំរាស់សាកល', # Fuzzy
+	'deletesummary' => 'សំអាតទំព័រពិភាក្សាដែលកំព្រាតាមរយៈ $1', # Fuzzy
 	'noresults' => 'គ្មានទំព័រពិភាក្សាកំព្រានៅលើវិគីនេះ ក្នុងប្រភេទបែបនេះ ដែលត្រូវគ្នានឹងការកំណត់របស់អ្នកទេ។',
 	'resultslimited' => 'លទ្ធផលត្រូវបានដាក់កំហិតត្រឹម $1 ទំព័រ។',
 );
@@ -1201,22 +1178,21 @@ $messages['km'] = array(
  * @author M G Harish
  */
 $messages['kn'] = array(
-	'title' => 'ಆರ್ಫನ್‌ಟಾಕ್೨',
+	'title' => 'ಆರ್ಫನ್‌ಟಾಕ್೨', # Fuzzy
 	'select-wiki-first' => '(ಮೊದಲು ಒಂದು ವಿಕಿಯನ್ನು ಆಯ್ದುಕೊಳ್ಳಿ)',
 	'hideredirects' => 'ಪುನರ್ನಿದೇಶನಗಳನ್ನು ಅಡಗಿಸಿ',
 	'hidesubpages' => 'ಉಪಪುಟಗಳನ್ನು ಅಡಗಿಸಿ',
 	'limit' => 'ಮಿತಿ',
 	'page' => 'ಪುಟ',
-	'redirect' => 'ಪುನರ್ನಿರ್ದೇಶನವೆ?',
 	'output' => 'ಉತ್ಪಾದನೆ',
 	'update' => 'ಬದಲಿಸಬೇಕೆ?',
-	'tools-delete' => 'ಅಳಿಸು',
-	'tools-links' => 'ಕೊಂಡಿ',
-	'tools-subject' => 'ವಿಷಯ',
-	'tools-hist' => 'ಇತಿಹಾಸ',
-	'tools-curr' => 'ಈಗಿನ',
-	'tools-globalusage' => 'ಸಮಗ್ರ ಬಳಕೆ',
-	'deletesummary' => '$1 ಮೂಲಕ ಅನಾಥವಾದ ಚರ್ಚಾಪುಟಗಳನ್ನು ಶುದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ',
+	'tools-delete' => 'ಅಳಿಸು', # Fuzzy
+	'tools-links' => 'ಕೊಂಡಿ', # Fuzzy
+	'tools-subject' => 'ವಿಷಯ', # Fuzzy
+	'tools-hist' => 'ಇತಿಹಾಸ', # Fuzzy
+	'tools-curr' => 'ಈಗಿನ', # Fuzzy
+	'tools-globalusage' => 'ಸಮಗ್ರ ಬಳಕೆ', # Fuzzy
+	'deletesummary' => '$1 ಮೂಲಕ ಅನಾಥವಾದ ಚರ್ಚಾಪುಟಗಳನ್ನು ಶುದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ', # Fuzzy
 	'noresults' => 'ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಗೆ ಹೋಲುವಂಥ ಅನಾಥ ಚರ್ಚಾ ಪುಟಗಳು ಈ ವಿಕಿಯಲ್ಲಿ ಈ ನಾಮವರ್ಗದಲ್ಲಿ ಸಿಗಲಿಲ್ಲ.',
 	'resultslimited' => 'ಫಲಿತಾಂಶಗಳು $1 ಪುಟಕ್ಕೆ ಸೀಮಿತಗೊಂಡಿದ್ದವು.',
 );
@@ -1257,22 +1233,21 @@ $messages['krc'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'title' => 'Alleinjeblevve Klaafsigge 2',
+	'title' => 'Alleinjeblevve Klaafsigge 2', # Fuzzy
 	'select-wiki-first' => '(donn et eez e Wiki ußsöhke)',
 	'hideredirects' => 'Ömleidonge fott lohße',
 	'hidesubpages' => 'Ongersigge fott lohße',
 	'limit' => 'Donn de Aanzahl en dä Leß bejränze op',
 	'page' => 'Klaafsigg',
-	'redirect' => 'Ömleidong?',
 	'output' => 'Dat kohm eruß:',
 	'update' => 'Op der neuste Shtand bränge',
-	'tools-delete' => 'schmiiß fott!',
-	'tools-links' => 'Lengks',
-	'tools-subject' => 'Sigg',
-	'tools-hist' => 'Versione',
-	'tools-curr' => 'läz Änderong',
-	'tools-globalusage' => 'En alle Wikis',
-	'deletesummary' => 'Alleinjeblevve Klaafsigg fott jeschmeße met „$1“.',
+	'tools-delete' => 'schmiiß fott!', # Fuzzy
+	'tools-links' => 'Lengks', # Fuzzy
+	'tools-subject' => 'Sigg', # Fuzzy
+	'tools-hist' => 'Versione', # Fuzzy
+	'tools-curr' => 'läz Änderong', # Fuzzy
+	'tools-globalusage' => 'En alle Wikis', # Fuzzy
+	'deletesummary' => 'Alleinjeblevve Klaafsigg fott jeschmeße met „$1“.', # Fuzzy
 	'noresults' => 'Kein alleinjeblevve Klaafsigge en däm Wiki en däm Appachtemang paße zoh Dinge Enshtällonge.',
 	'resultslimited' => 'Heh di Leß es bejränz op {{PLURAL:$1|ein Sigg|$1 Sigg|kein Sigge}}',
 );
@@ -1286,10 +1261,9 @@ $messages['ku-latn'] = array(
 	'hidesubpages' => 'Binrûpelan veşêre',
 	'limit' => 'Sînor',
 	'page' => 'Rûpel',
-	'redirect' => 'Beralîkirin e?',
-	'tools-delete' => 'jê bibe',
-	'tools-links' => 'girêdan',
-	'tools-hist' => 'dîro',
+	'tools-delete' => 'jê bibe', # Fuzzy
+	'tools-links' => 'girêdan', # Fuzzy
+	'tools-hist' => 'dîro', # Fuzzy
 );
 
 /** Latin (Latina)
@@ -1335,32 +1309,31 @@ $messages['lrc'] = array(
 	'page' => 'بلگه',
 	'output' => 'نتیجه',
 	'update' => 'روزآمد كردن',
-	'tools-delete' => 'پاك كردن',
-	'tools-links' => 'هوم پیوندیا',
-	'tools-hist' => 'ويرگار',
-	'tools-curr' => 'تازه باو',
+	'tools-delete' => 'پاك كردن', # Fuzzy
+	'tools-links' => 'هوم پیوندیا', # Fuzzy
+	'tools-hist' => 'ويرگار', # Fuzzy
+	'tools-curr' => 'تازه باو', # Fuzzy
 );
 
 /** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(pirma pasirinkite wiki)',
 	'hideredirects' => 'Slėpti peradresavimus',
 	'hidesubpages' => 'Slėpti antrinius puslapius',
 	'limit' => 'Limitas',
 	'page' => 'Puslapis',
-	'redirect' => 'Nukreipiantysis?',
 	'output' => 'Išvestis',
 	'update' => 'Atnaujinti',
-	'tools-delete' => 'ištrinti',
-	'tools-links' => 'nuorodos',
-	'tools-subject' => 'tema',
-	'tools-hist' => 'ist',
-	'tools-curr' => 'esamas',
-	'tools-globalusage' => 'globalusage',
-	'deletesummary' => 'Valomi nereikalingi aptarimo puslapiai, naudojant $1',
+	'tools-delete' => 'ištrinti', # Fuzzy
+	'tools-links' => 'nuorodos', # Fuzzy
+	'tools-subject' => 'tema', # Fuzzy
+	'tools-hist' => 'ist', # Fuzzy
+	'tools-curr' => 'esamas', # Fuzzy
+	'tools-globalusage' => 'globalusage', # Fuzzy
+	'deletesummary' => 'Valomi nereikalingi aptarimo puslapiai, naudojant $1', # Fuzzy
 	'noresults' => 'Nerasta nenaudojamų aptarimų puslapių šioje wiki vardų srityje pagal jūsų nustatymus.',
 	'resultslimited' => 'Rezultatų limitas buvo $1 puslapių.',
 );
@@ -1391,22 +1364,21 @@ $messages['lzz'] = array(
  * @author Iwan Novirion
  */
 $messages['min'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(piliah wiki dulu)',
 	'hideredirects' => 'Suruakan pangaliahan',
 	'hidesubpages' => 'Suruakan sublaman',
 	'limit' => 'Bateh',
 	'page' => 'Laman',
-	'redirect' => 'Pangaliahan?',
 	'output' => 'Hasil',
 	'update' => 'Pabarui',
-	'tools-delete' => 'Hapuih',
-	'tools-links' => 'pautan',
-	'tools-subject' => 'subyek',
-	'tools-hist' => 'versi',
-	'tools-curr' => 'kini',
-	'tools-globalusage' => 'panggunoan global',
-	'deletesummary' => 'Barasiahkan laman rundiang yatim malalui $1',
+	'tools-delete' => 'Hapuih', # Fuzzy
+	'tools-links' => 'pautan', # Fuzzy
+	'tools-subject' => 'subyek', # Fuzzy
+	'tools-hist' => 'versi', # Fuzzy
+	'tools-curr' => 'kini', # Fuzzy
+	'tools-globalusage' => 'panggunoan global', # Fuzzy
+	'deletesummary' => 'Barasiahkan laman rundiang yatim malalui $1', # Fuzzy
 	'noresults' => 'Indak ado laman rundiang yatim pado wiki ko dalam ruang namo nan sasuai pangaturan.',
 	'resultslimited' => 'Hasil babateh sampai $1 laman.',
 );
@@ -1447,12 +1419,12 @@ $messages['ml'] = array(
 	'page' => 'താൾ',
 	'output' => 'ഔട്ട്പുട്ട്',
 	'update' => 'പുതുക്കുക',
-	'tools-delete' => 'മായ്ക്കുക',
-	'tools-links' => 'കണ്ണികൾ',
-	'tools-subject' => 'വിഷയം',
-	'tools-hist' => 'നാൾവഴി',
-	'tools-curr' => 'നിലവിൽ',
-	'tools-globalusage' => 'ആഗോള ഉപയോഗം',
+	'tools-delete' => 'മായ്ക്കുക', # Fuzzy
+	'tools-links' => 'കണ്ണികൾ', # Fuzzy
+	'tools-subject' => 'വിഷയം', # Fuzzy
+	'tools-hist' => 'നാൾവഴി', # Fuzzy
+	'tools-curr' => 'നിലവിൽ', # Fuzzy
+	'tools-globalusage' => 'ആഗോള ഉപയോഗം', # Fuzzy
 );
 
 /** Marathi (मराठी)
@@ -1477,22 +1449,21 @@ $messages['mr'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(pilih wiki dahulu)',
 	'hideredirects' => 'Sorokkan lencongan',
 	'hidesubpages' => 'Sorokkan sublaman',
 	'limit' => 'Had',
 	'page' => 'Halaman',
-	'redirect' => 'Lencongan?',
 	'output' => 'Output',
 	'update' => 'Kemas kini',
-	'tools-delete' => 'hapuskan',
-	'tools-links' => 'pautan',
-	'tools-subject' => 'subjek',
-	'tools-hist' => 'sej',
-	'tools-curr' => 'kini',
-	'tools-globalusage' => 'kegunaan global',
-	'deletesummary' => 'Membersihkan laman perbincangan yatim melalui $1',
+	'tools-delete' => 'hapuskan', # Fuzzy
+	'tools-links' => 'pautan', # Fuzzy
+	'tools-subject' => 'subjek', # Fuzzy
+	'tools-hist' => 'sej', # Fuzzy
+	'tools-curr' => 'kini', # Fuzzy
+	'tools-globalusage' => 'kegunaan global', # Fuzzy
+	'deletesummary' => 'Membersihkan laman perbincangan yatim melalui $1', # Fuzzy
 	'noresults' => 'Tiada laman perbincangan yatim di wiki ini dalam ruang nama ini yang sepadan dengan tetapan anda.',
 	'resultslimited' => 'Hasil carian terhad kepada $1 laman.',
 );
@@ -1501,44 +1472,42 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
-	'title' => 'DiskussjoniOrfni2',
+	'title' => 'DiskussjoniOrfni2', # Fuzzy
 	'select-wiki-first' => '(l-ewwel agħżel wiki)',
 	'hideredirects' => 'Aħbi rindirizzi',
 	'hidesubpages' => 'Aħbi sottopaġni',
 	'limit' => 'Limitu',
 	'page' => 'Paġna',
-	'redirect' => 'Huwa rindirizz?',
 	'output' => 'Riżultat',
 	'update' => 'Aġġorna',
-	'tools-delete' => 'ħassar',
-	'tools-links' => 'ħoloq',
-	'tools-subject' => 'suġġett',
-	'tools-hist' => 'kron',
-	'tools-curr' => 'kurr',
-	'tools-globalusage' => 'użuglobali',
-	'deletesummary' => "Tindif ta' paġni ta' diskussjoni orfni permezz ta' $1",
+	'tools-delete' => 'ħassar', # Fuzzy
+	'tools-links' => 'ħoloq', # Fuzzy
+	'tools-subject' => 'suġġett', # Fuzzy
+	'tools-hist' => 'kron', # Fuzzy
+	'tools-curr' => 'kurr', # Fuzzy
+	'tools-globalusage' => 'użuglobali', # Fuzzy
+	'deletesummary' => "Tindif ta' paġni ta' diskussjoni orfni permezz ta' $1", # Fuzzy
 	'resultslimited' => 'Ir-riżultati ġew limitati għal $1 paġni.',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
-	'title' => 'Foreldreløse diskusjonssider 2',
+	'title' => 'Foreldreløse diskusjonssider 2', # Fuzzy
 	'select-wiki-first' => '(velg en wiki først)',
 	'hideredirects' => 'Skjul omdirigeringer',
 	'hidesubpages' => 'Skjul undersider',
 	'limit' => 'Grense',
 	'page' => 'Side',
-	'redirect' => 'Er omdirigering?',
 	'output' => 'Utdata',
 	'update' => 'Oppdater',
-	'tools-delete' => 'slett',
-	'tools-links' => 'lenker',
-	'tools-subject' => 'subjekt',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'nå',
-	'tools-globalusage' => 'global bruk',
-	'deletesummary' => 'Renser opp i foreldreløse diskusjonssider via $1',
+	'tools-delete' => 'slett', # Fuzzy
+	'tools-links' => 'lenker', # Fuzzy
+	'tools-subject' => 'subjekt', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'nå', # Fuzzy
+	'tools-globalusage' => 'global bruk', # Fuzzy
+	'deletesummary' => 'Renser opp i foreldreløse diskusjonssider via $1', # Fuzzy
 	'noresults' => 'Det var ingen foreldreløse diskusjonssider på denne wikien som passet med de valgte innstillingene.',
 	'resultslimited' => 'Resultatene ble begrenset til $1 sider.',
 );
@@ -1610,7 +1579,6 @@ $messages['no'] = array(
 	'hidesubpages' => 'Skjul undersider',
 	'limit' => 'Grense',
 	'page' => 'Side',
-	'redirect' => 'Er omdirigering?',
 	'output' => 'Utdata',
 	'update' => 'Oppdater',
 	'tools-delete' => 'slett',
@@ -1648,33 +1616,32 @@ $messages['oc'] = array(
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(ଆଗ ଏକ ଉଇକି ବାଛନ୍ତୁ)',
 	'hideredirects' => 'ପୁନଃପ୍ରେରଣସମୂହକୁ ଲୁଚାଇବେ',
 	'hidesubpages' => 'ଉପପୃଷ୍ଠାଗୁଡିକୁ ଲୁଚାଇବେ',
 	'limit' => 'ସୀମା',
 	'page' => 'ପୃଷ୍ଠା',
-	'redirect' => 'ଲେଉଟାଣି ଅଛି କି ?',
 	'output' => 'ଫଳାଫଳ',
 	'update' => 'ଅପଡେଟ କରିବେ',
-	'tools-delete' => 'ଲିଭାଇବେ',
-	'tools-links' => 'ଲିଙ୍କଗୁଡିକ',
-	'tools-subject' => 'ବିଷୟ',
-	'tools-hist' => 'ଶେଷ',
-	'tools-curr' => 'ବର୍ତମାନ',
-	'tools-globalusage' => 'ସମସ୍ତ ବ୍ୟବହାର',
+	'tools-delete' => 'ଲିଭାଇବେ', # Fuzzy
+	'tools-links' => 'ଲିଙ୍କଗୁଡିକ', # Fuzzy
+	'tools-subject' => 'ବିଷୟ', # Fuzzy
+	'tools-hist' => 'ଶେଷ', # Fuzzy
+	'tools-curr' => 'ବର୍ତମାନ', # Fuzzy
+	'tools-globalusage' => 'ସମସ୍ତ ବ୍ୟବହାର', # Fuzzy
 	'resultslimited' => 'ଫଳାଫଳ ଗୁଡିକ $1ପୃଷ୍ଠା ଭିତରେ ସୀମାତୀତ ହେଲା ।',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
 	'limit' => 'Limit',
 	'page' => 'Blatt',
 	'update' => 'Druffschridde',
-	'tools-delete' => 'verwische',
-	'tools-links' => 'Gleecher',
+	'tools-delete' => 'verwische', # Fuzzy
+	'tools-links' => 'Gleecher', # Fuzzy
 );
 
 /** Pälzisch (Pälzisch)
@@ -1719,22 +1686,21 @@ $messages['pl'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => '(selession-a na wiki prima)',
 	'hideredirects' => 'Stërma le ridiression',
 	'hidesubpages' => 'Stërmé le sot-pàgine',
 	'limit' => 'Lìmit',
 	'page' => 'Pàgina',
-	'redirect' => 'É-lo na ridiression?',
 	'output' => 'Surtìa',
 	'update' => 'Agiorna',
-	'tools-delete' => 'scancelé',
-	'tools-links' => 'anliure',
-	'tools-subject' => 'soget',
-	'tools-hist' => 'stòria',
-	'tools-curr' => 'cor',
-	'tools-globalusage' => 'globalusage',
-	'deletesummary' => 'Scancelassion ëd le pàgine ëd discussion orfanin-e via $1',
+	'tools-delete' => 'scancelé', # Fuzzy
+	'tools-links' => 'anliure', # Fuzzy
+	'tools-subject' => 'soget', # Fuzzy
+	'tools-hist' => 'stòria', # Fuzzy
+	'tools-curr' => 'cor', # Fuzzy
+	'tools-globalusage' => 'globalusage', # Fuzzy
+	'deletesummary' => 'Scancelassion ëd le pàgine ëd discussion orfanin-e via $1', # Fuzzy
 	'noresults' => 'Gnun-e pàgine ëd discussion orfanin-e dzora a sta wiki ant cost ëspassi nominal a corëspondo a soe ampostassion.',
 	'resultslimited' => "J'arzultà a son stàit limità a $1 pàgine.",
 );
@@ -1746,12 +1712,12 @@ $messages['ps'] = array(
 	'limit' => 'بريد',
 	'page' => 'مخ',
 	'update' => 'اوسمهالول',
-	'tools-delete' => 'ړنگول',
-	'tools-links' => 'تړنې',
-	'tools-subject' => 'موضوع',
-	'tools-hist' => 'پېښليک',
-	'tools-curr' => 'اوسنی',
-	'tools-globalusage' => 'نړېواله کارېدنه',
+	'tools-delete' => 'ړنگول', # Fuzzy
+	'tools-links' => 'تړنې', # Fuzzy
+	'tools-subject' => 'موضوع', # Fuzzy
+	'tools-hist' => 'پېښليک', # Fuzzy
+	'tools-curr' => 'اوسنی', # Fuzzy
+	'tools-globalusage' => 'نړېواله کارېدنه', # Fuzzy
 );
 
 /** Portuguese (português)
@@ -1791,22 +1757,21 @@ $messages['pt'] = array(
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
-	'title' => 'DiscussõesOrfãs2',
+	'title' => 'DiscussõesOrfãs2', # Fuzzy
 	'select-wiki-first' => '(primeiro selecione uma wiki)',
 	'hideredirects' => 'Excluir redirecionamentos',
 	'hidesubpages' => 'Ocultar subpáginas',
 	'limit' => 'Limite',
 	'page' => 'Página',
-	'redirect' => 'É redirecionamento?',
 	'output' => 'Saída',
 	'update' => 'Atualizar',
-	'tools-delete' => 'apagar',
-	'tools-links' => 'links',
-	'tools-subject' => 'assunto',
-	'tools-hist' => 'hist',
-	'tools-curr' => 'atu',
-	'tools-globalusage' => 'uso global',
-	'deletesummary' => 'Limpeza das páginas de discussão órfãs via $1',
+	'tools-delete' => 'apagar', # Fuzzy
+	'tools-links' => 'links', # Fuzzy
+	'tools-subject' => 'assunto', # Fuzzy
+	'tools-hist' => 'hist', # Fuzzy
+	'tools-curr' => 'atu', # Fuzzy
+	'tools-globalusage' => 'uso global', # Fuzzy
+	'deletesummary' => 'Limpeza das páginas de discussão órfãs via $1', # Fuzzy
 	'noresults' => 'Não há páginas de discussão órfãs nesta wiki, este namespace coincide com sua configuração.',
 	'resultslimited' => 'Os resultados se limitam a $1 páginas',
 );
@@ -1842,22 +1807,21 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => "(scacchie 'na uicchi apprime)",
 	'hideredirects' => 'Scunne le redirezionaminde',
 	'hidesubpages' => 'Scunne sottopàggene',
 	'limit' => 'Limite',
 	'page' => 'Pàgene',
-	'redirect' => "Jè 'nu redirezionamende?",
 	'output' => 'Resultate',
 	'update' => 'Aggiorne',
-	'tools-delete' => 'scangelle',
-	'tools-links' => 'colleghe',
-	'tools-subject' => 'suggette',
-	'tools-hist' => 'cunde',
-	'tools-curr' => 'corr',
-	'tools-globalusage' => 'globalusage',
-	'deletesummary' => "Pulizze le pàggene de le 'ngazzaminde senze attane cu $1",
+	'tools-delete' => 'scangelle', # Fuzzy
+	'tools-links' => 'colleghe', # Fuzzy
+	'tools-subject' => 'suggette', # Fuzzy
+	'tools-hist' => 'cunde', # Fuzzy
+	'tools-curr' => 'corr', # Fuzzy
+	'tools-globalusage' => 'globalusage', # Fuzzy
+	'deletesummary' => "Pulizze le pàggene de le 'ngazzaminde senze attane cu $1", # Fuzzy
 	'noresults' => "Nisciuna pàgene de le 'ngazzaminde orfane sus a sta uicchi jndr'à stu namespace soddisfe le 'mbostaziune tune.",
 	'resultslimited' => 'Resultate limitate a $1 pàggene.',
 );
@@ -1898,21 +1862,20 @@ $messages['ru'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
-	'title' => 'අනාථකතාබහ2',
+	'title' => 'අනාථකතාබහ2', # Fuzzy
 	'select-wiki-first' => '(පළමුව විකියක් තෝරාගන්න)',
 	'hideredirects' => 'යළියොමු සඟවන්න',
 	'hidesubpages' => 'උපපිටු සඟවන්න',
 	'limit' => 'සීමාව',
 	'page' => 'පිටුව',
-	'redirect' => 'යළි යොමුවක්ද?',
 	'output' => 'ප්‍රතිදානය',
 	'update' => 'යාවත්කාලීන කරන්න',
-	'tools-delete' => 'මකන්න',
-	'tools-links' => 'සබැඳි',
-	'tools-subject' => 'විෂයය',
-	'tools-hist' => 'ඉතිහාසය',
-	'tools-curr' => 'වත්මන්',
-	'tools-globalusage' => 'ගෝලීයභාවිතය',
+	'tools-delete' => 'මකන්න', # Fuzzy
+	'tools-links' => 'සබැඳි', # Fuzzy
+	'tools-subject' => 'විෂයය', # Fuzzy
+	'tools-hist' => 'ඉතිහාසය', # Fuzzy
+	'tools-curr' => 'වත්මන්', # Fuzzy
+	'tools-globalusage' => 'ගෝලීයභාවිතය', # Fuzzy
 	'resultslimited' => 'ප්‍රතිඑල $1 පිටු වෙත සීමා කර ඇත.',
 );
 
@@ -1947,22 +1910,21 @@ $messages['sl'] = array(
  * @author Abshirdheere
  */
 $messages['so'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'select-wiki-first' => 'ka dooro wiki marka hore)', # Fuzzy
 	'hideredirects' => 'Qari isbadalada',
 	'hidesubpages' => 'Qari Bogogga faracyada ah',
 	'limit' => 'Xad',
 	'page' => 'Bogga',
-	'redirect' => 'Ma dib u toosin baa?',
 	'output' => 'Soo saare',
 	'update' => 'Dib u howl galin',
-	'tools-delete' => 'tirtir',
-	'tools-links' => 'link',
-	'tools-subject' => 'Mowduuc',
-	'tools-hist' => 'taariikh',
-	'tools-curr' => 'hadda',
-	'tools-globalusage' => 'adeegsi guud',
-	'deletesummary' => 'Ku nadiifinta bogagga cidlada ah $1',
+	'tools-delete' => 'tirtir', # Fuzzy
+	'tools-links' => 'link', # Fuzzy
+	'tools-subject' => 'Mowduuc', # Fuzzy
+	'tools-hist' => 'taariikh', # Fuzzy
+	'tools-curr' => 'hadda', # Fuzzy
+	'tools-globalusage' => 'adeegsi guud', # Fuzzy
+	'deletesummary' => 'Ku nadiifinta bogagga cidlada ah $1', # Fuzzy
 	'noresults' => 'La ma helein wax u dhigma diyaarintaada bogga wada hadalka ee cidlada ah ee wiki iyo meel magacaan wadata.',
 	'resultslimited' => 'Waxaa lagu soo koobay natiijooyinka $1 Bogagga.',
 );
@@ -2003,22 +1965,21 @@ $messages['sr-ec'] = array(
  * @author Rancher
  */
 $messages['sr-el'] = array(
-	'title' => 'Orfantok2',
+	'title' => 'Orfantok2', # Fuzzy
 	'select-wiki-first' => '(prvo izaberite vikiju)',
 	'hideredirects' => 'Sakrij preusmerenja',
 	'hidesubpages' => 'Sakrij podstranice',
 	'limit' => 'Ograničenje',
 	'page' => 'Stranica',
-	'redirect' => 'Preusmerenje',
 	'output' => 'Odredište',
 	'update' => 'Ažuriraj',
-	'tools-delete' => 'obriši',
-	'tools-links' => 'veze',
-	'tools-subject' => 'naslov',
-	'tools-hist' => 'ist',
-	'tools-curr' => 'tren',
-	'tools-globalusage' => 'upotreba',
-	'deletesummary' => 'Čišćenje tajnih stranica za razgovor preko $1',
+	'tools-delete' => 'obriši', # Fuzzy
+	'tools-links' => 'veze', # Fuzzy
+	'tools-subject' => 'naslov', # Fuzzy
+	'tools-hist' => 'ist', # Fuzzy
+	'tools-curr' => 'tren', # Fuzzy
+	'tools-globalusage' => 'upotreba', # Fuzzy
+	'deletesummary' => 'Čišćenje tajnih stranica za razgovor preko $1', # Fuzzy
 	'noresults' => 'Nijedna tajna stranica za razgovor se ne poklapa s postavkama u ovom imenskom prostoru.',
 	'resultslimited' => 'Rezultati su ograničeni na $1 stranica.',
 );
@@ -2061,8 +2022,8 @@ $messages['sw'] = array(
 	'page' => 'Ukurasa',
 	'output' => 'Matokeo',
 	'update' => 'Sasisha',
-	'tools-delete' => 'futa',
-	'tools-links' => 'viungo',
+	'tools-delete' => 'futa', # Fuzzy
+	'tools-links' => 'viungo', # Fuzzy
 );
 
 /** Tamil (தமிழ்)
@@ -2099,14 +2060,13 @@ $messages['te'] = array(
 	'hidesubpages' => 'ఉపపుటలను దాచు',
 	'limit' => 'పరిమితి',
 	'page' => 'పుట',
-	'redirect' => 'దారిమార్పా?',
 	'update' => 'తాజాకరించు',
-	'tools-delete' => 'తొలగించండి',
-	'tools-links' => 'లంకెలు',
-	'tools-subject' => 'విషయం',
-	'tools-hist' => 'చరిత్ర',
-	'tools-curr' => 'ప్రస్తుత',
-	'tools-globalusage' => 'సార్వత్రికవాడుక',
+	'tools-delete' => 'తొలగించండి', # Fuzzy
+	'tools-links' => 'లంకెలు', # Fuzzy
+	'tools-subject' => 'విషయం', # Fuzzy
+	'tools-hist' => 'చరిత్ర', # Fuzzy
+	'tools-curr' => 'ప్రస్తుత', # Fuzzy
+	'tools-globalusage' => 'సార్వత్రికవాడుక', # Fuzzy
 	'resultslimited' => 'ఫలితాలు $1 పుటలకు పరిమితం చేయబడ్డాయి.',
 );
 
@@ -2121,38 +2081,37 @@ $messages['tet'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'title' => 'Usapang Ulila 2',
+	'title' => 'Usapang Ulila 2', # Fuzzy
 	'select-wiki-first' => '(pumili muna ng isang wiki)',
 	'hideredirects' => 'Itago ang mga pagpapapunta sa iba',
 	'hidesubpages' => 'Itago ang kabahaging mga pahina',
 	'limit' => 'Hanggahan',
 	'page' => 'Pahina',
-	'redirect' => 'Isang pagpapapunta sa iba?',
 	'output' => 'Kinalabasan',
 	'update' => 'Isapanahon',
-	'tools-delete' => 'burahin',
-	'tools-links' => 'mga kawing',
-	'tools-subject' => 'paksa',
-	'tools-hist' => 'kasaysayan',
-	'tools-curr' => 'kasalukuyan',
-	'tools-globalusage' => 'pandaigdigang paggamit',
-	'deletesummary' => 'Nililini ang naulilang mga pahina ng usapan sa pamamagitan ng $1',
+	'tools-delete' => 'burahin', # Fuzzy
+	'tools-links' => 'mga kawing', # Fuzzy
+	'tools-subject' => 'paksa', # Fuzzy
+	'tools-hist' => 'kasaysayan', # Fuzzy
+	'tools-curr' => 'kasalukuyan', # Fuzzy
+	'tools-globalusage' => 'pandaigdigang paggamit', # Fuzzy
+	'deletesummary' => 'Nililini ang naulilang mga pahina ng usapan sa pamamagitan ng $1', # Fuzzy
 	'noresults' => 'Walang naulilang mga pahina ng usapan na tumugma sa mga pagtatakda mo sa wiking ito na nasa loob ng puwang ng pangalan na ito.',
 	'resultslimited' => 'Ang mga kinalabasan ay nakahangga sa $1 mga pahina.',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
-	'title' => 'OrphanTalk2',
+	'title' => 'OrphanTalk2', # Fuzzy
 	'page' => 'Сәһифә',
 	'output' => 'Нәтиҹә',
-	'tools-delete' => 'рәдд кардеј',
-	'tools-links' => 'сәбонон',
-	'tools-subject' => 'мовзу',
-	'tools-hist' => 'тарых',
-	'tools-curr' => 'есәт.',
+	'tools-delete' => 'рәдд кардеј', # Fuzzy
+	'tools-links' => 'сәбонон', # Fuzzy
+	'tools-subject' => 'мовзу', # Fuzzy
+	'tools-hist' => 'тарых', # Fuzzy
+	'tools-curr' => 'есәт.', # Fuzzy
 );
 
 /** Turkish (Türkçe)
@@ -2185,30 +2144,29 @@ $messages['tr'] = array(
  */
 $messages['tzm'] = array(
 	'page' => 'ⵜⴰⵙⵏⴰ',
-	'tools-delete' => 'ⵓⴽⵓⵙ',
-	'tools-hist' => 'ⴰⵎⵣⵔⵓⵢ',
+	'tools-delete' => 'ⵓⴽⵓⵙ', # Fuzzy
+	'tools-hist' => 'ⴰⵎⵣⵔⵓⵢ', # Fuzzy
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */
 $messages['ug-arab'] = array(
-	'title' => 'يالغۇز سۆزلىشىش بېتى2',
+	'title' => 'يالغۇز سۆزلىشىش بېتى2', # Fuzzy
 	'select-wiki-first' => '(ئالدى بىلەن بىر ۋىكى تاللاڭ)',
 	'hideredirects' => 'قايتا نىشانلاشنى يوشۇر',
 	'hidesubpages' => 'تارماق بەتلەرنى يوشۇر',
 	'limit' => 'چەك',
 	'page' => 'بەت',
-	'redirect' => 'قايتا نىشانلاشمۇ؟',
 	'output' => 'چىقار',
 	'update' => 'يېڭىلا',
-	'tools-delete' => 'ئۆچۈر',
-	'tools-links' => 'ئۇلانمالار',
-	'tools-subject' => 'تېما',
-	'tools-hist' => 'تارىخ',
-	'tools-curr' => 'يېقىندا تۈزىتىلگەن نەشرى',
-	'tools-globalusage' => 'پۈتكۈل دائىرىدە قوللان',
-	'deletesummary' => '$1 ئارقىلىق يالغۇز سۆزلىشىش بېتىنى تازىلايدۇ',
+	'tools-delete' => 'ئۆچۈر', # Fuzzy
+	'tools-links' => 'ئۇلانمالار', # Fuzzy
+	'tools-subject' => 'تېما', # Fuzzy
+	'tools-hist' => 'تارىخ', # Fuzzy
+	'tools-curr' => 'يېقىندا تۈزىتىلگەن نەشرى', # Fuzzy
+	'tools-globalusage' => 'پۈتكۈل دائىرىدە قوللان', # Fuzzy
+	'deletesummary' => '$1 ئارقىلىق يالغۇز سۆزلىشىش بېتىنى تازىلايدۇ', # Fuzzy
 	'noresults' => 'بۇ ۋىكى بەتتە سىزنىڭ تەڭشىكىڭىزگە ماس كېلىدىغان ئات بوشلۇقىدا يالغۇز سۆزلىشىش بېتى يوق:',
 	'resultslimited' => 'نەتىجىلەر پەقەت $1 بەتلەرنىلا كۆرسىتىدۇ.',
 );
@@ -2299,7 +2257,7 @@ $messages['yi'] = array(
 $messages['zh-hans'] = array(
 	'title' => '孤立讨论',
 	'description' => '寻找孤立讨论页。',
-	'label-wiki' => 'wiki',
+	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '（先选择一个wiki）',
 	'hideredirects' => '隐藏重定向',
 	'hidesubpages' => '隐藏子页面',
@@ -2350,21 +2308,20 @@ $messages['zh-hant'] = array(
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(
-	'title' => '孤立對話頁2',
+	'title' => '孤立對話頁2', # Fuzzy
 	'select-wiki-first' => '（先選擇一個wiki）',
 	'hideredirects' => '隱藏重定向',
 	'hidesubpages' => '隱藏子頁面',
 	'limit' => '限制',
 	'page' => '頁面',
-	'redirect' => '是否重定向',
 	'output' => '輸出',
 	'update' => '更新',
-	'tools-delete' => '刪除',
-	'tools-links' => '連結',
-	'tools-hist' => '歷史',
-	'tools-curr' => '最近',
-	'tools-globalusage' => '全域使用',
-	'deletesummary' => '使用$1清理孤立對話頁',
+	'tools-delete' => '刪除', # Fuzzy
+	'tools-links' => '連結', # Fuzzy
+	'tools-hist' => '歷史', # Fuzzy
+	'tools-curr' => '最近', # Fuzzy
+	'tools-globalusage' => '全域使用', # Fuzzy
+	'deletesummary' => '使用$1清理孤立對話頁', # Fuzzy
 	'noresults' => '此wiki中此命名空間中沒有孤立談話頁匹配您的設定。',
 	'resultslimited' => '結果只顯示$1頁面。',
 );

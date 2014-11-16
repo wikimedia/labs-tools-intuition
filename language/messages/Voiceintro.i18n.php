@@ -235,6 +235,13 @@ $messages['fr'] = array(
 	'voiceintro-recording-notify' => 'Enregistrement en cours…',
 );
 
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'voiceintro-information-language-label' => 'Taal:',
+);
+
 /** Galician (galego)
  * @author Toliño
  */

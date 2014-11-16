@@ -184,7 +184,7 @@ $messages['ar'] = array(
  استخرج كل الملفات في نفس الدليل و شغِّل $5
  $6
 لينُكس و ماك أوإس:
- استخرج كل الملفات وافتح طرفية في الدليل ثم شغِّل "sh $5"',
+ استخرج كل الملفات وافتح طرفية في الدليل ثم شغِّل "sh $5"', # Fuzzy
 	'non-bundled-wget' => 'ملاحظة: هذه الإصدارة لا تضم برمجية wget لوندوز. ستحتاج لاستخراج الملفات من الأرشيف إلى دليل فيه wget.exe أو أن يكون wget في مسار التطبيقات المُعرَّف.',
 	'wget-info' => 'يضُمُّ هذا الملف نسخة من wget $1 (لنظام ويندوز). Wget برمجية حُرَّة
 منشورة برخصة GNU العمومية، الإصدارة 3.
@@ -329,7 +329,7 @@ $messages['azb'] = array(
  بوتون فایل‌لاری بیر فولدره چیخاردین و $5-ی چالیشدیرین
  $6
 لینوکس/مک او‌اِس
- بوتون فایل‌لاری چیخاردین و او فولدرده بیر تِرمینال آچیب، $5-ی چالیشدیرین',
+ بوتون فایل‌لاری چیخاردین و او فولدرده بیر تِرمینال آچیب، $5-ی چالیشدیرین', # Fuzzy
 	'non-bundled-wget' => 'دیقت: بو نوسخه‌ده، ویندوز اوچون wget یوخدور. سیز گرک wget.exe اولان بیر فولدره سیخیشدیرماقدان آچاسینیز یادا wget-ی PATH-ه آرتیراسینیز',
 	'wget-info' => 'بو فایلین ایچینده wget $1 (ویندوز اوچون) ده واردیر. Wget بیر پولسوز یازیلیم‌دیر، و جی‌اِن‌یو عمومی لیسانس نوسخه ۳ آلتیندادیر.
 آشاغیدا بو لیسانسین بیر کوپی‌سی واردیر و هم‌ده http://www.gnu.org/licenses/gpl-3.0.txt -دا واردیر.
@@ -376,7 +376,7 @@ Windows:
  Бөтә файлдарҙы бер папка эсенә тағатығыҙ һәм $5 эшләтеп ебәрегеҙ
  $6
 Linux/Mac OS
- Бөтә файлдарҙы тағатығыҙ һәм был папкалағы терминалды асығыҙ. sh $5 командаһын үтәгеҙ.',
+ Бөтә файлдарҙы тағатығыҙ һәм был папкалағы терминалды асығыҙ. sh $5 командаһын үтәгеҙ.', # Fuzzy
 	'non-bundled-wget' => 'Ихтибар итегеҙ: был юрамала Windows өсөн wget ҡаралмған. Һеҙгә wget.exe булған папкаға файлдарҙы күсерергә йәки PATH эсенә wget яҙып ҡуйырға кәрәк.',
 	'wget-info' => 'Был файлда  wget $1 (Windows платформаһы өсөн)күсермәһе бар. GNU GENERAL PUBLIC LICENSE версия 3 лицензяһы шарттары буйынса Wget ирекле программа тәьминәте булып тора.
 Түбәндә лицензия тексты бирелгән, уны шулай уҡ http://www.gnu.org/licenses/gpl-3.0.txt адресында уҡырға була.
@@ -471,7 +471,7 @@ Windows:
  Извличете всички файлове в същата папка и изпълнете  $5
  $6
 Linux/Mac OS
- Извлечете всички файлове, отворете терминала в тази папка и изпълнете Run sh $5',
+ Извлечете всички файлове, отворете терминала в тази папка и изпълнете Run sh $5', # Fuzzy
 );
 
 /** Banjar (Bahasa Banjar)
@@ -605,6 +605,13 @@ En cas que vostè està interessat en obtenir el codi font per a aquest programa
 	'scaling-both' => ', reduït a una mida màxima de  $1 x $2  píxels',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'download' => 'Чуяккха',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Muhammed taha
  */
@@ -614,7 +621,7 @@ $messages['ckb'] = array(
 	'download' => 'دایبگرە',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Jezevec
  * @author Jkjk
  * @author Mormegil
@@ -648,7 +655,7 @@ Windows:
  Rozbalte všechny soubory do stejného adresáře a spusťte $5
  $6
 Linux/Mac OS
- Rozbalte všechny soubory a ve stejném adresáři otevřete terminál. Spusťte sh $5',
+ Rozbalte všechny soubory a ve stejném adresáři otevřete terminál. Spusťte sh $5', # Fuzzy
 	'non-bundled-wget' => 'Poznámka: Tato verze neobsahuje wget pro Windows. Je nutné dekomprimovat do složky s wget.exe nebo mít wget v PATH',
 	'wget-info' => 'Tento soubor obsahuje kopii wget $1 (pro Windows). Wget je svobodný software, zveřejněný za podmínek GNU GENERAL PUBLIC LICENSE verze 3.
 Níže je uvedena kopie licence, která je také dostupná na http://www.gnu.org/licenses/gpl-3.0.txt
@@ -980,7 +987,7 @@ Windows:
  Paki kõik failid lahti samasse kausta ja käivita $5
  $6
 Linux/Mac OS
- Paki kõik failid ja ava selles kaustas terminal. Käivita sh $5',
+ Paki kõik failid ja ava selles kaustas terminal. Käivita sh $5', # Fuzzy
 	'scaling-width' => 'mastaabitud maksimaalse laiuseni $1 {{plural:$1|piksel|pikslit}}',
 	'scaling-height' => 'mastaabitud maksimaalse kõrguseni $1 {{plural:$1|piksel|pikslit}}',
 	'scaling-both' => 'mastaabitud maksimaalse suuruseni $1x$2 pikslit',
@@ -1671,7 +1678,7 @@ Windows:
  Tokaké kabèh berkas nèng polder sing padha lan lakokaké $5
  $6
 Linux/Mac OS
- Tokaké kabèh berkas lan bukak terminal nèng polder kuwi. Lakokaké sh $5',
+ Tokaké kabèh berkas lan bukak terminal nèng polder kuwi. Lakokaké sh $5', # Fuzzy
 	'non-bundled-wget' => 'Cathetan: Vérsi iki ora kalebu wget kanggo Windows. Sampéyan bakal kudu ndékomprès nèng polder mawa wget.exe utawa malah pasang waé wget nèng PATH',
 	'scaling-width' => ', digedhékaké tekan jembar maksimum $1 {{plural:$1|piksel|piksel}}',
 	'scaling-height' => ', digedhékaké tekan dhuwur maksimum $1 {{plural:$1|piksel|piksel}}',
@@ -1832,7 +1839,7 @@ Met <i lang="en">Windows</i>:
  $6
 Met <i lang="en">Linux</i> udder <i lang="en">Mac OS</i>:
  Alle Dateije ußpacke un e <i lang="en">Terminal</i>-Finster op maache.
- Dabb ußföhre lohße: <code>sh $5</code>', # Fuzzy
+ Dabb ußföhre lohße: <code>sh $5</code>',
 	'non-bundled-wget' => 'Opjepaß: En heh dä Version es <code lang="en">wget</code> fö <i lang="en">Windows</i> nit derbei. Do moß se met <code lang="en">wget.exe</code> en enem Verzischneß ußpacke udder <code lang="en">wget</code> moß övver der Paad zom Projramme Söhke jefonge wääde künne.',
 	'wget-info' => 'En dä Dattei es <code lang="en">wget</code> $1 för <i lang="en">Windows</i> met enjebonge. Wget es e frei Projramm un et es ze han onger dä Version 3 vun GNU General Public License (dä alljemeine öffentlesche Lizänz vun dä GNU)
 Wigger onge kütt die Lizänz ob heh dä Sigg, ävver mer kann se och beloore op: http://www.gnu.org/licenses/gpl-3.0.txt verfügbar.
@@ -2383,7 +2390,7 @@ $messages['pa'] = array(
 	'download' => 'ਡਾਊਨਲੋਡ',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
@@ -2392,7 +2399,7 @@ $messages['pdc'] = array(
 	'download' => 'Runnerdraage',
 );
 
-/** Pälzisch (Pälzisch)
+/** Palatine German (Pälzisch)
  * @author Manuae
  */
 $messages['pfl'] = array(
@@ -2495,7 +2502,7 @@ Windows:
  Tiré fòra tùit j'archivi ant ël midem dossié e fé marcé $5
  $6
 Linus/Mac OS
- Tiré fòra tùit j'archivi e duverté un terminal an col dossié. Fà marcé sh $5",
+ Tiré fòra tùit j'archivi e duverté un terminal an col dossié. Fà marcé sh $5", # Fuzzy
 	'non-bundled-wget' => 'Nòta: costa vërsion a anclud pa wget për Windows. A dev dëscomprime ant un dossié con wget.exe o dësnò avèj wget ant ël PATH',
 	'wget-info' => "Cost archivi a comprend na còpia ëd wget $1 (për piataforma Windows). wget a l'é un programa Lìber,
 sota le condission ëd la LICENSA GNU GENERAL PUBLIC version 3.
@@ -2851,7 +2858,7 @@ Windows:
  Ka soo dhaxsaar Garbadyada isla Fileka dhaxdiisa kadibna shid  $5
  $6
 Linux/Mac OS
-kasoo dhaxsaar dhamaan garbadyada kadibna fur daaqad kale . kadib shid sh $5',
+kasoo dhaxsaar dhamaan garbadyada kadibna fur daaqad kale . kadib shid sh $5', # Fuzzy
 	'non-bundled-wget' => 'Fiira gaar ah: Nuskhadaan kamid maaha wget ee Windows. Waxaad ubaahantahay inaad sii fur furto
 garbadka sida wget.exe ama hadi kale sidaan wget u rog PATH',
 	'wget-info' => 'Fileka waxa uu kulmiyaa wget $1 (ee Windows platform). Wget waa Software bilaash ah,
@@ -3173,7 +3180,7 @@ o ilang iba pang mga Salamin ng GNU, tingnan ang
 	'script-filename' => 'download.bat',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -3237,7 +3244,7 @@ Windows:
 $6
 Linux/Mac OS
 ھەممە ھۆججەتلەرنى يېشىپ تېرمىنالنى شۇ قىسقۇچتا ئېچىپ تۆۋەندىكى بۇيرۇقنى ئىجرا قىلىدۇ
-Run sh $5',
+Run sh $5', # Fuzzy
 	'non-bundled-wget' => 'دىققەت: بۇ نەشرى Windows نەشرىنىڭ wget نى ئۆز ئىچىگە ئالمايدۇ. سىز ئۇلارنى wget.exe بار بىر مۇندەرىجىگە يېشىڭ ياكى PATH تە wget نى ئۆز ئىچىگە ئالسۇن.',
 	'scaling-width' => '، ئەڭ چوڭ كەڭلىك $1 {{plural:$1|پىكسېل|پىكسېل}}غا چوڭايت',
 	'scaling-height' => '، ئەڭ چوڭ ئېگىزلىك $1 {{plural:$1|پىكسېل|پىكسېل}}غا چوڭايت',
@@ -3493,7 +3500,7 @@ Windows：
 將所有文件解壓縮至相同文件夾，並運行$5
 $6
 Linux/Mac OS：
-解壓所有文件，並在終端中運行sh $5',
+解壓所有文件，並在終端中運行sh $5', # Fuzzy
 	'non-bundled-wget' => '注：此版本不包括適用於Windows的wget。您將需要解壓縮到有wget.exe的文件夾',
 	'wget-info' => '該文件捆綁了wget的副本$1（Windows適用）。wget是一款免費軟件，其使用GNU通用公共許可證。下方有一個許可證副本，您也可以到http://www.gnu.org/licenses/gpl-3.0.txt 找到此許可證。
 

@@ -161,6 +161,54 @@ $messages['ar'] = array(
 	'pb-verified-since' => 'تمّ التحقّق منها منذ',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'pb-home' => 'বেটুপাত',
+);
+
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'pb-about-pb-navi' => 'Tocante a',
+	'pb-about-pb-tech' => 'Detalles téunicos',
+	'pb-about-pb-tech-text' => '<p>Usamos <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> y <a href="https://es.wikipedia.org/wiki/MySQL">MySQL</a> pa esta interfaz. El códigu fuente ta espublizáu baxo los términos de la llicencia <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Public License 3</a> (LGPL 3) y se pue ver <a href="https://github.com/tool-labs/pb">en GitHub</a>. Por favor, amieste informes de fallos, solicitúes de carauterístiques o otros comentarios <a href="https://github.com/tool-labs/pb/issues/new">nel siguimientu de problemes GitHub</a> o informe d\'ello na <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">páxina d\'alderique de Wikipedia</a>.</p>
+    <p>Los volcaos actuales de la base de datos de PB puen alcontrase <a href="/pb/sql-dumps">equí</a>.</p>
+    <p>Usamos dellos iconos creaos pol proyeutu <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>.</p>',
+	'pb-about-pb-text' => '<p>Esti proyeutu representa les conocencies personales ente Wikimedistes.</p>
+    <p>El primer desendolcu ficiéronlu Ulli Purwin (interfaz) y Euku (bot). A primeros de 2011, Wiegels y Ireas siguieron a Ulli faciendo la interfaz. Nesti momentu, el proyeutu yá nun ta agospiáu nun sirvidor priváu, sinón en Wikimedia Labs.</p>
+    <p>Pue alcontrase más información d\'esti proyeutu na Wikipedia alemana, na páxina <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a>.</p>',
+	'pb-about-pb-title' => 'Tocante al proyeutu',
+	'pb-change-language' => 'Camudar llingua',
+	'pb-comment' => 'Comentariu',
+	'pb-confirmations-given' => 'Confirmaciones dadas',
+	'pb-confirmations-taken' => 'Confirmaciones recibíes',
+	'pb-current-confirmations' => 'Hai $1 confirmaciones en total, esto son unes <abbr title="$2">$3</abbr> confirmaciones por día.',
+	'pb-current-figures' => 'Cifres actuales',
+	'pb-current-users' => 'De momentu, $1 usuarios participen nel proyeutu <em>Conocencies personales</em>.',
+	'pb-date' => 'Data',
+	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften na Wikipedia alemana">[[Wikipedia:Persönliche Bekanntschaften]]</a> en Tool Labs. <a href="$1" title="Tocante a Wikipedia:Persönliche Bekanntschaften">Más información.</a>',
+	'pb-home' => 'Entamu',
+	'pb-home-welcome' => '¡Bienveníu al proyeutu <em>Conocencies personales</em> (<em>Persönliche-Bekanntschaften</em> n\'alemán)! Pue alcontrar más información d\'esti proyeutu <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften na Wikipedia n\'alemán">na Wikipedia n\'alemán</a>.',
+	'pb-javascript-notice' => "Recomendamos qu'active JavaScript nesti sitiu web pa enantar la interfaz d'usuariu.",
+	'pb-labs-name' => 'Tool Labs de Wikimedia',
+	'pb-participates-since' => 'Participa dende',
+	'pb-name' => 'Wikipedia:Persönliche Bekanntschaften',
+	'pb-powered-by-labs' => 'Col encontu de Tool Labs de Wikimedia',
+	'pb-recent-confirmations' => 'Confirmaciones recientes',
+	'pb-reconfirmed' => '¿Reconfirmáu?',
+	'pb-user' => 'Usuariu',
+	'pb-user-link-title' => 'Detalles del usuariu $1',
+	'pb-user-heading' => 'Información de <a href="$2" title="Páxina d\'usuariu de $1">$1</a>',
+	'pb-user-title' => 'Información de $1',
+	'pb-users-navi' => 'Usuarios',
+	'pb-users-title' => 'Llista de participantes',
+	'pb-users-overview' => 'Estos $1 usuarios participen nel proyeutu <em>Conocencies personales</em>.',
+	'pb-verified-since' => 'Comprobáu dende',
+);
+
 /** Bengali (বাংলা)
  * @author Aftab1995
  */
@@ -375,6 +423,7 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  * @author Reza1615
  */
 $messages['fa'] = array(
@@ -412,7 +461,7 @@ $messages['fa'] = array(
 	'pb-users-navi' => 'کاربران',
 	'pb-users-title' => 'فهرست مشارکت کنندگان',
 	'pb-users-overview' => 'این  $1  کاربران در پروژه <em>آشنایی شخصی</em> شرکت می‌کنند :',
-	'pb-verified-since' => 'تایید شده از',
+	'pb-verified-since' => 'تأیید شده از',
 );
 
 /** French (français)
@@ -456,6 +505,13 @@ $messages['fr'] = array(
 	'pb-users-title' => 'Liste des participants',
 	'pb-users-overview' => '{{PLURAL:$1|Cet utilisateur participe|Ces $1 utilisateurs participent}} au projet <em>Connaissance Personnelle</em> :',
 	'pb-verified-since' => 'Vérifié depuis',
+);
+
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'pb-about-pb-navi' => 'Oer',
 );
 
 /** Hebrew (עברית)
@@ -663,6 +719,13 @@ $messages['kn'] = array(
 	'pb-users-title' => 'ಭಾಗವಹಿಸುವವರ ಪಟ್ಟಿ',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'pb-about-pb-navi' => '정보',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -809,12 +872,12 @@ $messages['ne'] = array(
 $messages['nl'] = array(
 	'pb-about-pb-navi' => 'Over',
 	'pb-about-pb-tech' => 'Technische details',
-	'pb-about-pb-tech-text' => '<p>We gebruiken <a href="https://nl.wikipedia.org/wiki/Python_%28programmeertaal%29">Python</a> en <a href="https://nl.wikipedia.org/wiki/MySQL">MySQL</a> voor deze interface. De broncode is gepubliceerd onder de voorwaarden van de <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Public License 3</a> (LGPL 3) en kan geraadpleegd worden <a href="https://github.com/tool-labs/pb">op GitHub</a>. Voeg probleemmeldingen, verzoeken voor nieuwe mogelijkheden of andere opmerkingen toe <a href="https://github.com/tool-labs/pb/issues/new">aan de GitHub issue tracker</a> of meld deze op de <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">overlegpagina op Wikipedia</a>.</p>
-    <p>Huidige dumps van de PB-database zijn <a href="/pb/sql-dumps">hier</a> te vinden.</p>
-    <p>Wij maken gebruik van verschillende pictogrammen gemaakt door het project <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>.</p>',
-	'pb-about-pb-text' => '<p>Dit project toont de persoonlijke ontmoetingen van Wikimedianen.</p>
-    <p>De eerste implementatie werd gedaan door Ulli Purwin (interface) en Euku (bot). In het begin van 2011 volgden Wiegels en Ireas Ulli op voor de interface. Ondertussen wordt het project niet langer gehost op een private server maar op Wikimedia Labs.</p>
-    <p>Meer informatie over dit project kan gevonden worden op de Duitstalige Wikipedia op de pagina <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a> en een verkorte versie daarvan op de Nederlandstalige Wikipedia op <a href="https://nl.wikipedia.org/wiki/Wikipedia:Ontmoete_Wikimedianen">Wikipedia:Ontmoete Wikimedianen</a>.</p>',
+	'pb-about-pb-tech-text' => '<p>We gebruiken <a href="https://nl.wikipedia.org/wiki/Python_%28programmeertaal%29">Python</a> en <a href="https://nl.wikipedia.org/wiki/MySQL">MySQL</a> voor deze interface. De broncode is gepubliceerd onder de voorwaarden van de <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Public License 3</a> (LGPL 3) en kan geraadpleegd worden <a href="https://github.com/tool-labs/pb">op GitHub</a>. Voeg probleemmeldingen, verzoeken voor nieuwe mogelijkheden of andere opmerkingen toe <a href="https://github.com/tool-labs/pb/issues/new">aan de issuetracker op GitHub</a> of meld deze op de <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">overlegpagina op Wikipedia</a>.</p>
+    <p>U kunt de huidige dumps van de PB-database <a href="/pb/sql-dumps">downloaden</a>.</p>
+    <p>Wij maken gebruik van verschillende pictogrammen van het project <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>.</p>',
+	'pb-about-pb-text' => '<p>In dit project worden persoonlijke ontmoetingen van Wikimedianen inzichtelijk gemaakt.</p>
+    <p>De eerste implementatie werd gedaan door Ulli Purwin (interface) en Euku (bot). In het begin van 2011 volgden Wiegels en Ireas Ulli op voor de interface. Het project wordt gehost op Wikimedia Labs.</p>
+    <p>Meer informatie over dit project kunt u vinden op de Duitstalige Wikipedia op de pagina <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a> en een verkorte versie daarvan op de Nederlandstalige Wikipedia op <a href="https://nl.wikipedia.org/wiki/Wikipedia:Ontmoete_Wikimedianen">Wikipedia:Ontmoete Wikimedianen</a>.</p>',
 	'pb-about-pb-title' => 'Over het project',
 	'pb-change-language' => 'Taal wijzigen',
 	'pb-comment' => 'Reageren',
@@ -827,7 +890,7 @@ $messages['nl'] = array(
 	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in de Duitstalige Wikipedia">[[Wikipedia:Persönliche Bekanntschaften]]</a> op Tool Labs. <a href="$1" title="Over Wikipedia:Ontmoete Wikimedianen">Meer informatie.</a>',
 	'pb-home' => 'Startpagina',
 	'pb-home-welcome' => 'Welkom bij het project <em>Ontmoete Wikimedianen</em> (<em>Persönliche Bekanntschaften</em> in het Duits)! Meer informatie over dit project is te vinden op <a href="https://nl.wikipedia.org/wiki/Wikipedia:Ontmoete_Wikimedianen" title="Wikipedia:Ontmoete Wikimedianen op de Nederlandstalige Wikipedia">op de Nederlandstalige Wikipedia</a> of op de <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften op de Duitstalige Wikipedia">op de Duitstalige Wikipedia</a>.',
-	'pb-javascript-notice' => 'Wij raden aan om JavaScript in te schakelen voor deze website om de gebruikersinterface te verbeteren.',
+	'pb-javascript-notice' => 'Voor een beter gebruikersinterface, raden wij aan om JavaScript in te schakelen.',
 	'pb-labs-name' => 'Wikimedia Tool Labs',
 	'pb-participates-since' => 'Neemt deel sinds',
 	'pb-name' => 'Wikipedia:Ontmoete Wikimedianen',
@@ -908,6 +971,47 @@ $messages['ps'] = array(
 	'pb-home' => 'کور',
 	'pb-user' => 'کارن',
 	'pb-users-navi' => 'کارنان',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Amgauna
+ */
+$messages['pt-br'] = array(
+	'pb-about-pb-navi' => 'Sobre',
+	'pb-about-pb-tech' => 'Detalhes técnicos',
+	'pb-about-pb-tech-text' => '<p>Nós Usamos <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> e <a href="https://es.wikipedia.org/wiki/MySQL">MySQL</a> para esta interface. O código fonte está publicado abaixo no términos da licença <a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Public License 3</a> (LGPL 3) e pode ser acessado <a href="https://github.com/tool-labs/pb">en GitHub</a>. Por favor, adicione novos relatórios de bugs, solicitações de características ou outros comentários <a href="https://github.com/tool-labs/pb/issues/new">para o seguimento dos relatórios de GitHub</a> o relatório está em <a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">página de discussão na Wikipedia</a>.</p>
+    <p>Os respaldos atuais da base de dados de PB pode encontrar-se em <a href="/pb/sql-dumps">aquí</a>.</p>
+    <p>Utilizamos vários icones criados pelo projeto <a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>.</p>',
+	'pb-about-pb-text' => '<p>Este projeto representa conhecimentos pessoais entre Wikimedians.</p>
+    <p>A primeira implementação foi feita por Ulli Purwin (interfaz) e Euku (bot). No início de 2011, Wiegels e Ireas seguiu o Ulli fazendo a interface. Por hora, o projeto não está alojado em um servidor privado, mas na Wikimedia Labs.</p>
+    <p>Pode encontrar-se mais informações deste projeto na Wikipedia Alemana em sua página <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a>.</p>',
+	'pb-about-pb-title' => 'Sobre o projeto',
+	'pb-change-language' => 'Alterar o idioma',
+	'pb-comment' => 'Comentário',
+	'pb-confirmations-given' => 'confirmação data',
+	'pb-confirmations-taken' => 'confirmação recebida',
+	'pb-current-confirmations' => 'Tem $1 confirmações no total, trata-se de <abbr title="$2">$3</abbr> confirmações diárias.',
+	'pb-current-figures' => 'Figuras atuais',
+	'pb-current-users' => 'No momento, $1 usuário participou do projeto de <em>Conhecimentos Pessoais</em>.',
+	'pb-date' => 'Data',
+	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften en la Wikipedia Alemana">[[Wikipedia:Persönliche Bekanntschaften]]</a> em Tool Labs. <a href="$1" title="Acerca de Wikipedia:Persönliche Bekanntschaften">Mais informações.</a>',
+	'pb-home' => 'Casa',
+	'pb-home-welcome' => 'Bem-vindo ao projeto <em>Conhecimentos Pessoais</em> ¡(<em>Persönliche-Bekanntschaften</em> en alemán)! Mais informações acerca deste projeto pode encontrar-se <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in the German language Wikipedia">no idioma Alemão na Wikipedia</a>.',
+	'pb-javascript-notice' => 'Nós recomendamos ativar o JavaScript para este website, para melhorar a interface de usuário.',
+	'pb-labs-name' => 'Wikimedia Tool Labs',
+	'pb-participates-since' => 'Participa desde',
+	'pb-name' => 'Wikipedia:Persönliche Bekanntschaften',
+	'pb-powered-by-labs' => 'Potencializado por Wikimedia Tool Labs',
+	'pb-recent-confirmations' => 'Confirmações recentes',
+	'pb-reconfirmed' => 'Reconfirmar?',
+	'pb-user' => 'Usuário',
+	'pb-user-link-title' => 'Detalhes para o usuário $1',
+	'pb-user-heading' => 'Informação para <a href="$2" title="Página de usuário de $1">$1</a>',
+	'pb-user-title' => 'Informação sobre "$1"',
+	'pb-users-navi' => 'Usuários',
+	'pb-users-title' => 'Lista de participantes',
+	'pb-users-overview' => 'Estes $1 de usuários participam do projeto <em>Conhecimentos Pessoais</em>.',
+	'pb-verified-since' => 'Verificado desde',
 );
 
 /** Romanian (română)
@@ -1194,4 +1298,12 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'pb-user' => '使用者',
 	'pb-users-navi' => '使用者',
+);
+
+/** Chinese (Hong Kong) (中文（香港）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hk'] = array(
+	'pb-user' => '用戶',
+	'pb-users-navi' => '用戶',
 );

@@ -1057,7 +1057,7 @@ $messages['ca'] = array(
 	'numPageWatchers' => 'Nombre de seguidors de la pàgina',
 	'linkStats' => 'Enllaç a estadístiques de la pàgina',
 	'linkArticle' => "Enllaç a l'article wiki",
-	'authorMostEdits' => 'Autor amb més edicions. En la Viquipèdia en alemany: autor amb més text',
+	'authorMostEdits' => 'Autor amb més edicions. En la Viquipèdia en alemany: autor amb més text', # Fuzzy
 	'statsEntry' => "$1 - Estadístiques de visites i popularitat de pàgines sobre les 100.000 principals de tots els wikis de Wikimedia (d'avui, per mes i períodes personalitzats). Funcionalitats addicionals: cerca amb comodins, estadístiques sobre 24 hores, favorits personals, totals globals per projecte, suport de pàgines de desambiguació i elements de Wikidata. Actualitzacions cada hora.",
 );
 
@@ -2524,6 +2524,7 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Hym411
+ * @author Revi
  * @author 아라
  */
 $messages['ko'] = array(

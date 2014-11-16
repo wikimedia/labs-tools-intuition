@@ -44,7 +44,7 @@ $messages['qqq'] = array(
  * @author أحمد
  */
 $messages['ar'] = array(
-	'moretools' => 'مزيد من الأدوات من نفس المؤلف',
+	'moretools' => 'مزيد من الأدوات من نفس المؤلف', # Fuzzy
 	'bugs' => 'تقارير الاخطاء والطلبات المميزة',
 	'comments' => 'تعليقات واستعلامات',
 	'error-form-empty' => 'أُغفِلَ حقل أو أكثر. ينبغي ملء كل الحقول للمواصلة.',
@@ -54,7 +54,7 @@ $messages['ar'] = array(
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
-	'moretools' => 'এই লেখকৰ দ্বাৰা নিৰ্মিত অন্যান্য সঁজুলি',
+	'moretools' => 'এই লেখকৰ দ্বাৰা নিৰ্মিত অন্যান্য সঁজুলি', # Fuzzy
 	'bugs' => 'বাগ ৰিপৰ্ট আৰু ফিচাৰ অনুৰোধ',
 	'comments' => 'মন্তব্য আৰু প্রশ্নসমূহ',
 	'error-form-empty' => 'এটা বা একাধিক বাধ্যতামূলক ফিল্ড খালি হৈ আছে। পৰৱর্তী ঢাপলৈ অগ্ৰসৰ হোৱা আগেয়ে এইবোৰ সম্পূৰ্ণ কৰক।',
@@ -75,7 +75,7 @@ $messages['ast'] = array(
  * @author Khan27
  */
 $messages['az'] = array(
-	'moretools' => 'bu müəllifin başqa alətləri',
+	'moretools' => 'bu müəllifin başqa alətləri', # Fuzzy
 	'bugs' => 'xəta hesabatları və özəl sorğular',
 	'comments' => 'şərhlər və sorğular',
 	'error-form-empty' => 'Bir və ya bir neçə məcburi sahə boş qoyulub. Siz onları davam etməzdən əvvəl doldurmalısınız.',
@@ -85,7 +85,7 @@ $messages['az'] = array(
  * @author Mousa
  */
 $messages['azb'] = array(
-	'moretools' => 'همن یارادیجی‌دان آرتیق آراجلار',
+	'moretools' => 'همن یارادیجی‌دان آرتیق آراجلار', # Fuzzy
 	'bugs' => 'خطا بیلدیریلری و اؤزل‌لیک ایستکلری',
 	'comments' => 'نظرلر و سوال‌لار',
 	'error-form-empty' => 'بیر یا چوخ گرکلی فیلدلر بوش بوراخیلیبلار. قاباغا گئتمک‌دن قاباق اونلاری گرک دولدوراسینیز.',
@@ -95,7 +95,7 @@ $messages['azb'] = array(
  * @author Sagan
  */
 $messages['ba'] = array(
-	'moretools' => 'был авторҙың башҡа ҡорамалдары',
+	'moretools' => 'был авторҙың башҡа ҡорамалдары', # Fuzzy
 	'bugs' => 'хата тураһында белдереү һәм теләктәр',
 	'comments' => 'һорауҙар һәм аңлатмалар',
 	'error-form-empty' => 'Бер йәки бер нисә тәҙрә тултырылмай ҡалды. Дауам итеү өсөн уларҙы тултырырға кәрәк.',
@@ -105,7 +105,7 @@ $messages['ba'] = array(
  * @author LexArt
  */
 $messages['be'] = array(
-	'moretools' => 'іншыя прылады ад гэтага аўтара',
+	'moretools' => 'іншыя прылады ад гэтага аўтара', # Fuzzy
 	'bugs' => 'паведамленні пра памылкі і пажаданні',
 	'comments' => 'каментары і запыты',
 	'error-form-empty' => 'Адно або некалькі абавязковых палёў пакінутыя пустымі. Вы мусіце запоўніць іх, перш чым працягваць',
@@ -116,7 +116,7 @@ $messages['be'] = array(
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'moretools' => 'іншыя інструмэнты ад гэтага аўтара',
+	'moretools' => 'іншыя інструмэнты ад гэтага аўтара', # Fuzzy
 	'bugs' => 'паведамленьні пра памылкі і запыты на паляпшэньне',
 	'comments' => 'камэнтары і запыты',
 	'error-form-empty' => 'Адно ці некалькі абавязковых палёў пакінутыя пустымі. Вам неабходна запоўніць іх, перад тым як працягваць.',
@@ -158,13 +158,13 @@ $messages['ca'] = array(
 	'error-form-empty' => 'Una o més caselles obligatòries han quedat en blanc. Heu de completar-les abans de continuar.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Jezevec
  * @author Vks
  */
 $messages['cs'] = array(
-	'moretools' => 'více nástrojů od stejného autora',
+	'moretools' => 'více nástrojů od stejného autora', # Fuzzy
 	'bugs' => 'hlášení chyb a požadavky na vylepšení',
 	'comments' => 'komentáře a dotazy',
 	'error-form-empty' => 'Jedna nebo více povinných položek byla ponechána nevplněná. Měli byste je vyplnit, aby se mohlo pokračovat.',
@@ -224,7 +224,7 @@ $messages['dsb'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'moretools' => 'pliaj iloj de la sama aŭtoro',
+	'moretools' => 'pliaj iloj de la sama aŭtoro', # Fuzzy
 	'comments' => 'komentoj kaj demandoj',
 );
 
@@ -264,7 +264,7 @@ $messages['fa'] = array(
  * @author Nike
  */
 $messages['fi'] = array(
-	'moretools' => 'lisää työkaluja samalta tekijältä',
+	'moretools' => 'lisää työkaluja samalta tekijältä', # Fuzzy
 	'bugs' => 'ilmoitukset virheistä ja parannusehdotukset',
 	'comments' => 'kommentit ja kyselyt',
 	'error-form-empty' => 'Yksi tai useampia pakollisia kenttiä on täyttämättä. Täytä ne ennen jatkamista.',
@@ -297,7 +297,7 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'moretools' => 'més d’outils du mémo ôtor',
+	'moretools' => 'més d’outils du mémo ôtor', # Fuzzy
 	'comments' => 'comentèros et requétes',
 );
 
@@ -329,7 +329,7 @@ $messages['he'] = array(
  * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'moretools' => 'इसी लेखक के बनाए अन्य उपकरण',
+	'moretools' => 'इसी लेखक के बनाए अन्य उपकरण', # Fuzzy
 	'bugs' => 'बग सूचनाएँ और फीचर अनुरोध',
 	'comments' => 'टिप्पणियाँ एवं प्रश्न',
 	'error-form-empty' => 'एक या अधिक आवश्यक खाने खाली छोड़े गए हैं। आगे बढ़ने से पहले आपको उन्हें पूरा करना चाहिये।',
@@ -339,7 +339,7 @@ $messages['hi'] = array(
  * @author Ex13
  */
 $messages['hr'] = array(
-	'moretools' => 'više alata od istog autora',
+	'moretools' => 'više alata od istog autora', # Fuzzy
 	'bugs' => 'prijava grešaka i zahtijevi za nove mogućnosti',
 	'comments' => 'primjedbe i upiti',
 	'error-form-empty' => 'Jedno ili više obaveznih polja su prazna. Trebali bi ih dovršiti prije nastavka.',
@@ -419,7 +419,7 @@ $messages['ja'] = array(
  * @author NoiX180
  */
 $messages['jv'] = array(
-	'moretools' => 'piranti luwih akèh saka panganggit sing padha',
+	'moretools' => 'piranti luwih akèh saka panganggit sing padha', # Fuzzy
 	'comments' => 'tanggepan lan pitakonan',
 );
 
@@ -483,7 +483,7 @@ $messages['lb'] = array(
  * @author Namik
  */
 $messages['lez'] = array(
-	'moretools' => 'маса jаракъ и уртахдин',
+	'moretools' => 'маса jаракъ и уртахдин', # Fuzzy
 	'comments' => 'суалар ни веревердар',
 );
 
@@ -525,7 +525,7 @@ $messages['mk'] = array(
  * @author Anoopan
  */
 $messages['ml'] = array(
-	'moretools' => 'ഈ ഉപയോക്താവിന്റെ തന്നെ മറ്റു ടൂളുകൾ',
+	'moretools' => 'ഈ ഉപയോക്താവിന്റെ തന്നെ മറ്റു ടൂളുകൾ', # Fuzzy
 	'bugs' => 'ബഗ് റിപ്പോർട്ടുകളും ഫീച്ചർ ആവശ്യപ്പെടലുകളും',
 	'comments' => 'അഭിപ്രായങ്ങളും സംശയങ്ങളും',
 );
@@ -545,7 +545,7 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
-	'moretools' => 'iktar għodda mill-istess awtur',
+	'moretools' => 'iktar għodda mill-istess awtur', # Fuzzy
 	'bugs' => "rapporti ta' żbalji u rikjesti għall-funzjonijiet ġodda",
 	'comments' => 'kummenti u rikjesti',
 	'error-form-empty' => 'Waħda jew iktar oqsma obbligatorji tħallew vojta. Trid timliehom qabel ma tkompli.',
@@ -573,7 +573,7 @@ $messages['ne'] = array(
  * @author Eukesh
  */
 $messages['new'] = array(
-	'moretools' => 'थ्व हे च्वमिया मेमेगु ज्याभः',
+	'moretools' => 'थ्व हे च्वमिया मेमेगु ज्याभः', # Fuzzy
 	'bugs' => 'बग विवरण व फिचर्स इनाप',
 	'comments' => 'विचाः व न्हेसः',
 	'error-form-empty' => 'छपू वा अप्व माःगु ख्यः खालि त्वतुगु दु। छिं न्ह्यने वने स्वया न्ह्यः थुंपिं ख्यःत जायेकेमा।',
@@ -615,7 +615,7 @@ $messages['oc'] = array(
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
-	'moretools' => 'ସେହି ପ୍ରବନ୍ଧକଙ୍କ ଦ୍ଵାରା ହୋଇଥିବା ଆହୁରି ଟୁଲଗୁଡିକ',
+	'moretools' => 'ସେହି ପ୍ରବନ୍ଧକଙ୍କ ଦ୍ଵାରା ହୋଇଥିବା ଆହୁରି ଟୁଲଗୁଡିକ', # Fuzzy
 	'bugs' => 'ଅସୁବିଧା ଏବଂ ପ୍ରସ୍ତାବଗୁଡିକ',
 	'comments' => 'କମେଣ୍ଟ ଏବଂ ଅନୁରୋଧଗୁଡିକ',
 	'error-form-empty' => 'ଗୋଟେ କିମ୍ବା ଅଧିକ ଖାଲିସ୍ଥାନ ଅଛି । ଅପଣ ଆଗକୁ ଯିବା ପୂର୍ବରୁ ସେଗୁଡିକୁ ପୂରଣ କରିବା ଉଚିତ ।',
@@ -638,7 +638,7 @@ $messages['pl'] = array(
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'moretools' => "pi d'utiss dal midem autor",
+	'moretools' => "pi d'utiss dal midem autor", # Fuzzy
 	'bugs' => "rapòrt d'eror e arceste ëd funsion",
 	'comments' => 'coment e arceste',
 	'error-form-empty' => 'Un o pi camp obligatòri a son stàit lassà veuid. A dev completeje prima ëd continué.',
@@ -704,7 +704,7 @@ $messages['ru'] = array(
  * @author Hemant wikikosh1
  */
 $messages['sa'] = array(
-	'moretools' => 'एतेनैव लेखकेन कृतानि अन्यानि उपकरणानि',
+	'moretools' => 'एतेनैव लेखकेन कृतानि अन्यानि उपकरणानि', # Fuzzy
 	'comments' => 'टिप्पण्यः प्रश्नाश्च',
 );
 
@@ -712,7 +712,7 @@ $messages['sa'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
-	'moretools' => 'එකම කතෘගෙන් තවත් මෙවලම්',
+	'moretools' => 'එකම කතෘගෙන් තවත් මෙවලම්', # Fuzzy
 	'bugs' => 'ද්‍යෝෂ වාර්තා සහ විශේෂාංග අයදුම්',
 	'comments' => 'පරිකථන සහ ප්‍රශ්න',
 );
@@ -732,7 +732,7 @@ $messages['sl'] = array(
  * @author Abshirdheere
  */
 $messages['so'] = array(
-	'moretools' => 'Qalab dheeraad ah isla qoraaga',
+	'moretools' => 'Qalab dheeraad ah isla qoraaga', # Fuzzy
 	'bugs' => 'Xog waran qaladaadka iyo dalabaadka la xulay',
 	'comments' => 'Faallooyin iyo codsiyo',
 	'error-form-empty' => 'Hal ama in kabadan ee meelaha banaan ee qasabka ah la dhaafay. Waxaa qasab ah in la buuxbuuxiyo.',
@@ -753,7 +753,7 @@ $messages['sr-ec'] = array(
  * @author Rancher
  */
 $messages['sr-el'] = array(
-	'moretools' => 'više alatki od istog autora',
+	'moretools' => 'više alatki od istog autora', # Fuzzy
 	'bugs' => 'prijava grešaka i zahtevi za nove mogućnosti',
 	'comments' => 'komentari i upiti',
 	'error-form-empty' => 'Niste popunili sva obavezna polja. Uradite to pre nego što nastavite.',
@@ -796,7 +796,7 @@ $messages['te'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'moretools' => 'marami pang mga kasangkapan mula sa may-akda ring iyon',
+	'moretools' => 'marami pang mga kasangkapan mula sa may-akda ring iyon', # Fuzzy
 	'bugs' => 'mga ulat ng sira at mga paghiling ng tampok',
 	'comments' => 'mga puna at mga pagtatanong',
 	'error-form-empty' => 'Isa o mahigit pang kinakailangang mga kahanayan ang naiwanang walang laman. Dapat mong punuin ang mga ito bago magpatuloy.',
@@ -807,7 +807,7 @@ $messages['tl'] = array(
  * @author Khutuck
  */
 $messages['tr'] = array(
-	'moretools' => 'aynı yazardan daha fazla araçlar',
+	'moretools' => 'aynı yazardan daha fazla araçlar', # Fuzzy
 	'bugs' => 'hata raporları ve özellik istekleri',
 	'comments' => 'yorum ve sorgular',
 	'error-form-empty' => 'Bir veya daha fazla gerekli alan boş bırakılmıştır. Devam etmeden önce bunları doldurmanız gerekir.',
@@ -817,7 +817,7 @@ $messages['tr'] = array(
  * @author Sahran
  */
 $messages['ug-arab'] = array(
-	'moretools' => 'ئوخشاش بىر يازغۇچىنىڭ تېخىمۇ كۆپ قوراللىرى',
+	'moretools' => 'ئوخشاش بىر يازغۇچىنىڭ تېخىمۇ كۆپ قوراللىرى', # Fuzzy
 	'bugs' => 'خاتالىق دوكلاتى ۋە ئىقتىدار ئىلتىماسى',
 	'comments' => 'پىكىر ۋە سۈرۈشتۈرۈش',
 	'error-form-empty' => 'تولدۇرۇش زۆرۈر بولغان بىر ياكى بىر قانچە سۆز بۆلىكى بوش قالدۇرۇلغان. داۋاملاشتۇرۇشتىن ئىلگىرى ئۇلارنى تاماملاڭ.',
@@ -840,7 +840,7 @@ $messages['uk'] = array(
  * @author CoderSI
  */
 $messages['uz'] = array(
-	'moretools' => 'ushbu muallifning boshqa asboblari',
+	'moretools' => 'ushbu muallifning boshqa asboblari', # Fuzzy
 	'bugs' => 'xatolar haqida xabarlar, shuningdek takliflar',
 	'comments' => 'savollar va izohlar',
 );
@@ -866,6 +866,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Liuxinyu970226
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
@@ -873,14 +874,14 @@ $messages['zh-hans'] = array(
 	'homepage-title' => '介绍',
 	'bugs' => '问题报告和功能请求',
 	'comments' => '意见及查询',
-	'error-form-empty' => '有了一个或多个必填的字段留空。在继续之前，您应该完成它们。',
+	'error-form-empty' => '一个或多个必填的字段被留空。您应该在继续之前填写完整。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
-	'moretools' => '同一作者的其他工具',
+	'moretools' => '同一作者的其他工具', # Fuzzy
 	'bugs' => '問題報告和功能請求',
 	'comments' => '意見和查詢',
 	'error-form-empty' => '有必填項目留空。請填上後繼續。',
@@ -890,7 +891,7 @@ $messages['zh-hant'] = array(
  * @author Justincheng12345
  */
 $messages['zh-hk'] = array(
-	'moretools' => '同一作者的更多工具',
+	'moretools' => '同一作者的更多工具', # Fuzzy
 	'bugs' => '錯誤報告及功能請求',
 	'comments' => '意見及查詢',
 	'error-form-empty' => '一個或多個必填的欄位尚未填入。在繼續之前，您應該完成它們。',

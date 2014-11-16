@@ -373,6 +373,7 @@ $messages['az'] = array(
 
 /** South Azerbaijani (تورکجه)
  * @author E THP
+ * @author Koroğlu
  * @author Mousa
  */
 $messages['azb'] = array(
@@ -412,7 +413,7 @@ $messages['azb'] = array(
 	'toolbox-main-title' => 'WLM آراج‌قوتوسو',
 	'toolbox-main-description' => 'بونا ایلگیلی اولان آراجلار:',
 	'toolbox-wikilovesmonuments' => 'ویکی سئویم عابیده‌لری',
-	'toolbox-nav-homepage' => 'آنا صحیفه',
+	'toolbox-nav-homepage' => 'ائو',
 	'toolbox-nav-statistics' => 'آمار',
 	'toolbox-nav-search' => 'آختار',
 	'toolbox-title-searchmonuments' => 'عابیده‌لری آختار',
@@ -732,7 +733,7 @@ $messages['ce'] = array(
 	'db-field-st_image_pct' => 'Сурт %',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Jezevec
  * @author PSJG-Tyler
@@ -2983,7 +2984,7 @@ $messages['or'] = array(
 	'source-monuments-list-on-wikipedia' => 'ଉଇଇକିପେଡିଆରେ ଆଧାରର କୀର୍ତିରାଜି ତାଲିକା',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
@@ -2993,7 +2994,7 @@ $messages['pdc'] = array(
 	'db-field-country' => 'Land',
 );
 
-/** Pälzisch (Pälzisch)
+/** Palatine German (Pälzisch)
  * @author Manuae
  */
 $messages['pfl'] = array(
@@ -3898,7 +3899,7 @@ $messages['tl'] = array(
 	'source-monuments-list-on-wikipedia' => 'Listahan ng mga bantayog na pinagmulan na nasa Wikipedia',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Erdemaslancan
  * @author Гусейн
  */

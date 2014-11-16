@@ -196,7 +196,7 @@ $messages['ca'] = array(
 	'form-legend-settings' => 'Paràmetres',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Jezevec
  * @author PSJG-Tyler
@@ -717,7 +717,7 @@ $messages['or'] = array(
 	'form-legend-settings' => 'ସଜାଣି',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
@@ -928,7 +928,7 @@ $messages['tl'] = array(
 	'form-legend-settings' => 'Mga katakdaan',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(

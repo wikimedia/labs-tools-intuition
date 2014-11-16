@@ -103,7 +103,7 @@ $messages['ca'] = array(
 	'title' => 'Activitat anònima recent',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(

@@ -497,7 +497,7 @@ $messages['ckb'] = array(
 	'view-source' => 'سەرچاوەکەی ببینە',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  * @author Platonides
  */
@@ -894,6 +894,21 @@ $messages['frp'] = array(
 	'last-modified-date' => 'Dèrriér changement : $1',
 	'view-source' => 'Vêre lo tèxto sôrsa',
 	'and' => '&#32;et',
+);
+
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'toolversion' => 'Ferzje $1',
+	'toolversionstamp' => 'Ferzje $1 ($2)',
+	'years' => '{{PLURAL: $1|jier|jierren}}',
+	'months' => '{{PLURAL: $1|moanne|moannen}}',
+	'weeks' => '{{PLURAL: $1|wike|wiken}}',
+	'days' => '{{PLURAL: $1|dei|dagen}}',
+	'hours' => '{{PLURAL: $1|oere|oeren}}',
+	'minutes' => '{{PLURAL: $1|minút|minuten}}',
+	'seconds' => '{{PLURAL: $1|sekonde|sekonden}}',
 );
 
 /** Irish (Gaeilge)
@@ -1827,7 +1842,7 @@ $messages['or'] = array(
 	'and' => '&#32;ଏବଂ',
 );
 
-/** Deitsch (Deitsch)
+/** Pennsylvania German (Deitsch)
  * @author Xqt
  */
 $messages['pdc'] = array(
@@ -1840,7 +1855,7 @@ $messages['pdc'] = array(
 	'hours' => '{{PLURAL:$1|Schtund|Schtund}}',
 );
 
-/** Pälzisch (Pälzisch)
+/** Palatine German (Pälzisch)
  * @author Manuae
  */
 $messages['pfl'] = array(
@@ -2386,7 +2401,7 @@ $messages['tl'] = array(
 	'and' => ',&#32;at',
 );
 
-/** толышә зывон (толышә зывон)
+/** Talysh (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -2426,7 +2441,7 @@ $messages['tr'] = array(
 	'view-source' => 'Kaynağı gör',
 );
 
-/** Tati (Tati)
+/** Muslim Tat (Tati)
  * @author Erdemaslancan
  */
 $messages['ttt'] = array(
