@@ -13,7 +13,7 @@ $messages['en'] = array(
 	'base_jiralink' =>  '<a href="https://jira.toolserver.org/browse/REPORTS">Report a bug or request a feature</a>',
 	'base_wikilink' => '<a href="https://wiki.toolserver.org/view/Report_tool">Wiki</a>',
 	'base_links' => '%(prefslink)s | %(jiralink)s | %(wikilink)s',
-	
+
 	# Categories.  You *must* define a category for at least English before
 	# using it.
 	'category_users' => 'Users',
@@ -111,7 +111,6 @@ $messages['qqq'] = array(
 	'report_change_wiki' => 'Button/link to change wiki to view reports for',
 );
 
-
 $messages['de'] = array(
 	'base_prefslink' => '<a href="prefs.fcgi">Sprache/Einstellungen ändern</a>',
 	'base_jiralink' => '<a href="https://jira.toolserver.org/browse/REPORTS">Fehler melden oder Funktion beantragen</a>',
@@ -167,3 +166,4 @@ $messages['es'] = array(
 	'report_wascached' => 'El presente Informe ha sido caché %(age)s antes.',
 	'report_nocache' => 'Este informe está programado para ser regenerada cada noche, pero no ha sido aún correr, por lo que no hay datos disponibles.',
 );
+
