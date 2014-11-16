@@ -31,7 +31,7 @@ $messages['en'] = array(
 	'select_report_title' => 'Select a report to run on %(wiki)s',
 	'select_report' => 'Please select a report:',
 	'select_report_disabled' => 'This report is unavailable.',
-	'select_report_disabled_blurb' => 'Note: reports <span class="disabled-report">like this</span> are nightly queries which have never been run; therefore, there are no results available for these reports.  Once the next nightly report run is finished, these reports will become available.',
+	'select_report_disabled_blurb' => 'Note: Reports <span class="disabled-report">like this</span> are nightly queries which have never been run; therefore, there are no results available for these reports.  Once the next nightly report run is finished, these reports will become available.',
 	'select_report_not_cached' => 'There is no cached version of this report. Click the link to start the first run.',
 	'select_report_first' => 'This report is prepared for the first time, and should be available soon.',
 	'select_report_hot' => 'A cached version of this report, %(age)s old, is available.',
