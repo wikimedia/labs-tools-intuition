@@ -1694,6 +1694,14 @@ $messages['fa'] = array(
 	'statsEntry' => '$1-صفحه نمایش و صفحه محبوبیت آماری با آمار بالای 100.000 لیست موفق برای همه ویکی های مدیا ویکی است (امروز، در هر ماه و مدت زمان دلخواه). ویژگی های اضافی: جستجوی کلمات،آمار 24 ساعته، favorites شخصی، مجموع پروژه جهانی پشتیبانی از صفحه های ابهام زدایی و موارد ویکی داده. به روز رسانی ساعتی.',
 );
 
+/** Finnish (suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'closedWikis' => 'suljetut wikit',
+	'noJavaScript' => 'JavaScript ei ole käytössä',
+);
+
 /** French (français)
  * @author Gomoko
  * @author Hedonil
@@ -3352,6 +3360,7 @@ $messages['pl'] = array(
 
 /** Portuguese (português)
  * @author Imperadeiro98
+ * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
 	'list' => 'Lista',
@@ -3387,6 +3396,7 @@ $messages['pt'] = array(
 	'providedBy' => 'fornecido por',
 	'helpDiscuss' => 'ajuda / discussão / melhorias',
 	'dbUpdateInProgress' => 'atualização do banco de dados em andamento',
+	'noJavaScript' => 'O JavaScript está desativado',
 	'noData' => 'não há dados disponíveis',
 	'onlyOwnCreatedPages' => 'mostrar apenas as páginas que eu criei',
 	'furtherInformation' => 'Mais informações',
@@ -4178,7 +4188,7 @@ $messages['zh-hans'] = array(
 	'projectPages' => '计划页面',
 	'backToTop' => '返回页首',
 	'rankLocal' => '本地排名',
-	'rankWorld' => '全维基媒体网站排名',
+	'rankWorld' => '全维基媒体网站排名（世界）',
 	'pageViewCount' => '页面访问量数值（非唯一）',
 	'winningArticles' => '获奖文章',
 	'numPageWatchers' => '页面监视者数',
@@ -4296,6 +4306,7 @@ $messages['zh-hant'] = array(
 	'removeFromWorklist' => '從作品清單中刪除',
 	'projectPages' => '計畫頁面',
 	'backToTop' => '返回頁首',
+	'rankWorld' => '維基媒體 Wiki 網站排名（世界）',
 	'pageViewCount' => '頁面瀏覽量數目（非惟一）',
 	'winningArticles' => '獲獎條目',
 	'numPageWatchers' => '頁面監視者數',

@@ -66,9 +66,11 @@ $messages['en'] = array(
 	'report_change_wiki' => '<a href="%(url)s">Change wiki</a>',
 );
 
+/** Message documentation (Message documentation)
+ */
 $messages['qqq'] = array(
 	'base_prefslink' => 'Link to preferences screen',
-	'base_jiralink' =>  'Link to bug tracker',
+	'base_jiralink' => 'Link to bug tracker',
 	'base_wikilink' => 'Link to wiki page describing the tool',
 	'base_links' => 'Does not need translation',
 	'category_users' => 'Category for user-related queries (short name)',
@@ -100,7 +102,7 @@ $messages['qqq'] = array(
 	'report_wascached' => 'Note shown on report page inticating its age',
 	'report_cold_cache_running' => 'Note shown on report page inticating the system is preparing a new version, and started some time ago',
 	'report_cold_cache_started' => 'Note shown on report page inticating the system is preparing a new version, and just started',
-	'report_nocache' => 'Note shown on reports that are run every night that it hasn\'t been run yet.',
+	'report_nocache' => "Note shown on reports that are run every night that it hasn't been run yet.",
 	'report_first_run' => 'Note shown the report is still under preparation.',
 	'report_last_run_duration' => 'Note showing the runtime of the report',
 	'report_variables_used' => 'Note above the list of variables used',
@@ -111,6 +113,8 @@ $messages['qqq'] = array(
 	'report_change_wiki' => 'Button/link to change wiki to view reports for',
 );
 
+/** German (Deutsch)
+ */
 $messages['de'] = array(
 	'base_prefslink' => '<a href="prefs.fcgi">Sprache/Einstellungen ändern</a>',
 	'base_jiralink' => '<a href="https://jira.toolserver.org/browse/REPORTS">Fehler melden oder Funktion beantragen</a>',
@@ -121,12 +125,12 @@ $messages['de'] = array(
 	'category_images' => 'Bilder',
 	'category_miscellaneous' => 'Sonstiges',
 	'select_wiki_title' => 'Wähle ein Wiki',
-	'select_wiki' => 'Bitte wähle ein Wiki für das du einen Bericht w&uuml;nscht (z.B. <em>de.wikipedia.org</em>):',
+	'select_wiki' => 'Bitte wähle ein Wiki für das du einen Bericht w&uuml;nscht (z.B. <em>de.wikipedia.org</em>):', # Fuzzy
 	'select_wiki_next' => 'Weiter →',
 	'select_report_title' => 'W&auml;hle einen Bericht für %(wiki)s',
 	'select_report' => 'Bitte w&auml;hle einen Bericht:',
 	'select_report_disabled' => '%(name)s *',
-	'select_report_disabled_blurb' => 'Beachte: Berichte <span class=\'disabled-report\'>die so aussehen</span> werden jede Nacht neu erstellt, der Prozess lief aber noch nicht. Sobald diese Berichte abgeschlossen sind, werden sie verf&uuml;gbar.',
+	'select_report_disabled_blurb' => "Beachte: Berichte <span class='disabled-report'>die so aussehen</span> werden jede Nacht neu erstellt, der Prozess lief aber noch nicht. Sobald diese Berichte abgeschlossen sind, werden sie verf&uuml;gbar.",
 	'select_report_no_reports' => 'Zur Zeit sind keine Berichte für %(wiki)s vorhanden.',
 	'select_report_go_back' => '← Wiki wechseln',
 	'qvar_title' => 'Gib die Einstellungen für diesen Bericht ein',
@@ -146,13 +150,15 @@ $messages['de'] = array(
 	'report_change_wiki' => '<a href="%(url)s">Wiki wechseln</a>',
 );
 
+/** Spanish (español)
+ */
 $messages['es'] = array(
 	'base_prefslink' => '<a href="prefs.fcgi">Cambie el Lenguaje / preferencias</a>',
 	'category_users' => 'Usuario',
 	'category_articles' => 'Artículos',
 	'category_miscellaneous' => 'Miscellaneous',
 	'select_wiki_title' => 'Seleccione un Wiki',
-	'select_wiki' => 'Por favor, el wiki te gustaría un informe para (por ejemplo, <em>es.wikipedia.org</ em>):',
+	'select_wiki' => 'Por favor, el wiki te gustaría un informe para (por ejemplo, <em>es.wikipedia.org</ em>):', # Fuzzy
 	'select_wiki_next' => 'Siguiente →',
 	'select_report_title' => 'Seleccione un informe para que se ejecute en %(wiki)s',
 	'select_report' => 'Por favor, seleccione un informe:',
@@ -167,3 +173,47 @@ $messages['es'] = array(
 	'report_nocache' => 'Este informe está programado para ser regenerada cada noche, pero no ha sido aún correr, por lo que no hay datos disponibles.',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'base_prefslink' => '<a href="prefs.fcgi">Taal wijzigen / voorkeuren</a>',
+	'base_jiralink' => '<a href="https://jira.toolserver.org/browse/REPORTS">Rapporteer een probleem of maak een suggestie voor een nieuwe functie</a>',
+	'base_wikilink' => '<a href="https://wiki.toolserver.org/view/Report_tool">Wiki</a>',
+	'category_users' => 'Gebruikers',
+	'category_articles' => "Pagina's",
+	'category_images' => 'Afbeeldingen',
+	'category_miscellaneous' => 'Overige',
+	'category_wikidata' => 'WikiData',
+	'select_wiki_title' => 'Selecteer een wiki',
+	'select_wiki' => 'Geef de wiki op waar u een rapportage voor wilt, bijvoorbeeld "<kbd>en.wikipedia.org</kbd>":',
+	'select_wiki_next' => 'Volgende →',
+	'select_report_title' => 'Selecteer een uit te voeren rapportage op %(wiki)s',
+	'select_report' => 'Selecteer een rapportage:',
+	'select_report_disabled' => 'Deze rapportage is niet beschikbaar.',
+	'select_report_disabled_blurb' => 'Let op: rapportages <span class="disabled-report">zoals deze</span> worden gemaakt via nachtelijke zoekopdrachten die nog nooit zijn uitgevoerd. Er zijn daarom nog geen resultaten voor deze rapportage. Als de volgende nachtelijke taken zijn uigevoerd, komen deze rapportages beschikbaar.',
+	'select_report_not_cached' => 'Er is geen versie van deze rapportage in de cache. Klik op de koppeling om deze voor de eerste keer uit te voeren.',
+	'select_report_first' => 'Deze rapportage wordt voor de eerste keer uitgevoerd en komt snel beschikbaar.',
+	'select_report_hot' => 'Er is een %(age)s oude rapportage beschikbaar in de cache.',
+	'select_report_cold_running' => 'Er is een %(age)s oude rapportage beschikbaar in de cache. Er wordt over %(eta)s een nieuwe versie verwacht.',
+	'select_report_cold_not_running' => 'Er is een %(age)s oude rapportage beschikbaar in de cache. Er wordt een nieuwe versie gemaakt als u de huidige rapportage bekijkt, en de verwachting is dat deze over %(eta)s klaar is.',
+	'select_report_no_reports' => 'Er zijn op het moment helaas geen rapportages beschikbaar voor %(wiki)s.',
+	'select_report_go_back' => '← Wiki wijzigen',
+	'qvar_title' => 'Geef de variabelen voor uw zoekopdracht op',
+	'qvar_blurb' => 'Voor uw zoekopdracht moeten een aantal variabelen worden ingevoerd',
+	'qvar_next' => 'Volgende →',
+	'prefs_title' => 'Rapportagevoorkeuren',
+	'prefs_submit' => 'OK',
+	'prefs_done' => 'Uw voorkeuren zijn gewijzigd.',
+	'prefs_langlabel' => 'Taal:',
+	'report_wascached' => 'Deze rapportage is %(age)s in de cache geplaatst.',
+	'report_cold_cache_running' => 'Vullen van de cache is %(runtime)s geleden begonnen.',
+	'report_cold_cache_started' => 'Vullen van de cache is net begonnen.',
+	'report_nocache' => 'Deze rapportage wordt iedere dag opnieuw uitgevoerd, maar is nog niet uitgevoerd. Daarom zijn er geen gegevens beschikbaar.',
+	'report_first_run' => 'Deze rapportage wordt voor de eerste keer uitgevoerd, dus er zijn nog geen gegevens beschikbaar.',
+	'report_last_run_duration' => 'Deze rapportage is gemaakt in %(duration)s.',
+	'report_variables_used' => 'Voor deze rapportage zijn de volgende instellingen gebruikt:',
+	'report_noresults' => 'Voor deze rapportage zijn helaas geen resultaten.',
+	'report_change_report' => '<a href="%(url)s">Andere rapportage</a>',
+	'report_change_wiki' => '<a href="%(url)s">Wiki wijzigen</a>',
+);

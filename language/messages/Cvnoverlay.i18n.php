@@ -44,3 +44,16 @@ See also:
 See also:
 * {{msg-intuition|cvnoverlay-reason}}',
 );
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'adder' => 'Toegevoegd door',
+	'adder-empty' => 'Onbekend',
+	'expiry' => 'Vervalt',
+	'globalwatched' => 'Globaal gevolgd',
+	'lastupdate-db' => 'Laatst bijgewerkt: $1',
+	'reason' => 'Reden',
+	'reason-empty' => 'Geen reden gevonden',
+);
