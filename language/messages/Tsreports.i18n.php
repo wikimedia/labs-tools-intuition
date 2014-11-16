@@ -48,7 +48,7 @@ $messages['en'] = array(
 	# PrefsForm messages
 	'prefs_title' => 'Reports preferences',
 	'prefs_submit' => 'OK',
-	'prefs_done' => 'Your preferences were successfully changed.',
+	'prefs_done' => 'Your preferences were changed.',
 	'prefs_langlabel' => 'Interface language:',
 
 	# DoReport messages
