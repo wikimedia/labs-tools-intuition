@@ -3,5 +3,8 @@
 		"jakub-onderka/php-parallel-lint": "0.*",
 		"squizlabs/php_codesniffer": "1.*",
 		"phpunit/phpunit": "3.7.*"
+	},
+	"scripts": {
+		"test": "parallel-lint --exclude vendor --exclude node_modules --exclude libs . && phpunit && phpcs . --standard=./tests/codesniffer --ignore=vendor/*,node_modules/*,libs/*,language/*"
 	}
 }

@@ -32,7 +32,9 @@ if ( !defined( 'INTUITION' ) ) {
  * @return string
  */
 if ( !function_exists( '_' ) ) {
+	// @codingStandardsIgnoreStart
 	function _( $key, $options = array() ) {
+		// @codingStandardsIgnoreEnd
 		global $I18N;
 		return $I18N->msg( $key, $options );
 	}

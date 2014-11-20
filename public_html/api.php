@@ -87,7 +87,11 @@ foreach ( $domains as $domain ) {
 	$keys = $I18N->listMsgs( $normalisedDomain );
 
 	foreach ( $keys as $msgKey ) {
-		$resp['messages'][$domain][$msgKey] = $rawMsg = $I18N->rawMsg( $normalisedDomain, $lang, $msgKey );
+		$resp['messages'][$domain][$msgKey] = $rawMsg = $I18N->rawMsg(
+			$normalisedDomain,
+			$lang,
+			$msgKey
+		);
 	}
 }
 

@@ -257,16 +257,20 @@ $dropdown .= '</select>';
 
 $toolSettings['tabs']['#tab-settingsform'] = $I18N->msg('tab-settings');
 $tabContent .= Html::openElement('div', array(
-	'class' => array(
-		'tab-pane',
-		'active' => $settingsIsFirst,
-	),
-	'id' => 'tab-settingsform'
-) ) . '<form action="' . $Tool->remoteBasePath . '" method="post" role="form" class="form-horizontal">
+		'class' => array(
+			'tab-pane',
+			'active' => $settingsIsFirst,
+		),
+		'id' => 'tab-settingsform'
+	) ) . '<form action="' . $Tool->remoteBasePath
+		. '" method="post" role="form" class="form-horizontal">
 	<fieldset>
 	<legend>' . $I18N->msg( 'settings-legend' ) . '</legend>
 	<div class="form-group">
-	<label class="col-sm-4 control-label">' . _html( 'choose-language' ) . _g( 'colon-separator' ) . '</label>
+	<label class="col-sm-4 control-label">'
+		. _html( 'choose-language' ) .
+		_g( 'colon-separator' )
+	. '</label>
 	<div class="col-sm-8">
 	' . $dropdown . '
 	</div>
@@ -279,7 +283,8 @@ $tabContent .= Html::openElement('div', array(
 		htmlspecialchars( $kgReq->getVal( 'returntoquery' ) )  . '">
 	<div class="form-group">
 		<div class="col-sm-offset-4 col-sm-8">
-			<input type="submit" class="btn btn-default btn-primary" value="' . _html( 'form-submit', 'general' ) . '">
+			<input type="submit" class="btn btn-default btn-primary" value="'
+				. _html( 'form-submit', 'general' ) . '">
 		</div>
 	</div>
 

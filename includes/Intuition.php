@@ -810,11 +810,11 @@ class Intuition {
 	 *
 	 * @param $name string Canonical name of the cookie.
 	 * @param $val string Value to be set.
-	 * @param $lifetime int Lifetime in seconds from now.
+	 * @param $lifetime int Lifetime in seconds from now (defaults to 30 days)
 	 *
 	 * @return boolean
 	 */
-	public function setCookie( $key, $val, $lifetime = 2592000 /* 30 days */, $track = TSINT_COOKIE_TRACK ) {
+	public function setCookie( $key, $val, $lifetime = 2592000, $track = TSINT_COOKIE_TRACK ) {
 			// Validate cookie name
 			$name = $this->getCookieName( $key );
 			if ( !$name ) {

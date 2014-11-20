@@ -46,9 +46,8 @@ foreach ( $result as $lang ) {
 }
 
 // Spit it out
-echo '// Update from https://tools.wmflabs.org/intuition/wpAvailableLanguages.js.php - Last update: '
-	. date( 'r' )
-	. "\n"
+echo '// Update from https://tools.wmflabs.org/intuition/wpAvailableLanguages.js.php'
+	. ' - Last update: ' . date( 'r' ) . "\n"
 	. 'window.wpAvailableLanguages='
 	. kfJsonEncode( $json_return )
 	. ';';

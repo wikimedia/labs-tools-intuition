@@ -2,14 +2,12 @@ language: php
 php:
   - "5.4"
   - "5.3"
-before_install:
-  - composer self-update
 install:
   - composer install
   - npm install -g grunt-cli
   - npm install
 script:
-  - ./tests/run
+  - composer test
   - npm test
 notifications:
   irc:
