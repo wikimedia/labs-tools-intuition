@@ -5,6 +5,10 @@
 		"phpunit/phpunit": "3.7.*"
 	},
 	"scripts": {
-		"test": "parallel-lint --exclude vendor --exclude node_modules --exclude libs . && phpunit && phpcs . --standard=./tests/codesniffer --ignore=vendor/*,node_modules/*,libs/*,language/*"
+		"test": [
+			"parallel-lint --exclude vendor --exclude node_modules --exclude libs .",
+			"phpunit",
+			"phpcs . --standard=./tests/codesniffer --ignore=vendor/*,node_modules/*,libs/*,language/*"
+		]
 	}
 }
