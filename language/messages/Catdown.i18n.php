@@ -485,6 +485,7 @@ $messages['bjn'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Bellayet
  * @author Nasir8891
  */
@@ -1394,6 +1395,7 @@ Su tež druhe špihelowe GNU-serwery, hlej
 
 /** Hungarian (magyar)
  * @author Dj
+ * @author Tacsipacsi
  */
 $messages['hu'] = array(
 	'title' => 'Kategória képeinek letöltése',
@@ -1413,7 +1415,7 @@ $messages['hu'] = array(
 	'image-area-too-big' => '$1 túl nagy a bélyegkép létrehozásához. A teljes kép lesz használva.',
 	'download-info' => '{{PLURAL:$1|Egy|$1}} kép, becsült összméret: $2',
 	'download' => 'Letöltés',
-	'readme-contents' => 'A mellékelt $4 fájl tartalmazz a
+	'readme-contents' => 'A mellékelt $4 fájl tartalmazza a
 $1 kategória ( $2 )$3 képeinek listáját.
 
 == Útmutató a listázott képek letöltéséhez ==
@@ -1422,8 +1424,8 @@ A letöltés ideje néhány perctől több óráig is tarthat.
 Windows:
  Csomagold ki az összes fájlt ugyanabba a könyvtárba és futtasd le a $5 parancsfájlt!
  $6
-Linux/Mac OS
- Csomagold ki az összes fájlt, nyissál egy terminált ablakot ebbe a könyvtárban. Futtasd le az sh $5 parancsot!', # Fuzzy
+Linux/Mac OS:
+ Csomagold ki az összes fájlt, nyissál egy terminálablakot ebben a könyvtárban. Futtasd le az sh $5 parancsot!',
 	'non-bundled-wget' => 'Megjegyzés: Ez a verzió nem tartalmazza a wget Windows-os verzióját. Csomagold ki a wget.exe programot az adott könyvtárba, vagy legyen wget elérhető a PATH-ben.',
 	'wget-info' => 'Egy a csomag tartalmazza a wget $1 (Windows-os verzió). Wget egy ingyenes program, a GNU GENERAL PUBLIC LICENSE version 3 alatt. Alább megtalálható a licenc egy másolata, valamint hozzáférhető a http://www.gnu.org/licenses/gpl-3.0.txt címen.
 

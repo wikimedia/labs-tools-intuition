@@ -175,14 +175,20 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftabuzzaman
  * @author Bellayet
  * @author Nasir8891
  */
 $messages['bn'] = array(
 	'enter-details' => 'বিস্তারিত লিখুন',
+	'introduction' => 'একটি টেমপ্লেটের (শুধুমাত্র মুহূর্তে উইকিপিডিয়া) নাম লিখুন এবং যাও-তে ক্লিক করুন। এটি তার থেকেও সহজ। এখানে কিছু ক্যাশে রয়েছে (ফলাফল মনে রাখা), কিন্তু এটি দুর্ভাগ্যবশত সরঞ্জাম ও তার মালিকের নিয়ন্ত্রণের বাইরে হয়।',
 	'language-label' => 'ভাষা',
 	'namespace-label' => 'নামস্থান',
 	'pagename-label' => 'পাতার নাম (নামস্থান বাদে)',
+	'transclusion-count-label' => 'অন্তর্ভুক্তির সংখ্যা',
+	'transclusion-count' => '$1টি অন্তর্ভুক্তি পাওয়া গেছে।',
+	'error-suggestion' => 'সম্ভবত আপনি পাতার নামের বানান ভুল করেছেন?',
+	'time-label' => 'ক্রিয়াকলাপটি সম্পাদনা করতে সময় নিয়েছে',
 );
 
 /** Breton (brezhoneg)
@@ -471,6 +477,7 @@ $messages['frp'] = array(
  */
 $messages['fy'] = array(
 	'language-label' => 'Taal',
+	'namespace-label' => 'Nammeromte',
 );
 
 /** Irish (Gaeilge)
@@ -741,7 +748,7 @@ $messages['ksh'] = array(
 	'title' => 'Enjebonge Schabloone-Zahl',
 	'enter-details' => 'Jiv de Ennzelheite en',
 	'introduction' => 'Jiv dä Name vun ene Schablohn aan — em Momang allein uß de Wikipedias — un scheck Ding Ennjaabe af. Et weed e beßje zweschejeschpeischert, wat heh dat Projramm fengk, ävver dat kann weeder heh dat Projramm noch singe Schriever ändere.',
-	'language-label' => 'Schprooch',
+	'language-label' => 'Schprohch',
 	'namespace-label' => 'Appachtemang',
 	'pagename-label' => 'Name för di Sigg, der ohne Appachtemang',
 	'transclusion-count-label' => 'De Aanzahl enjebonge Schablohne es',

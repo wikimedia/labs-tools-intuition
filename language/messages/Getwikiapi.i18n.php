@@ -149,6 +149,7 @@ $messages['be-tarask'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -524,6 +525,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'description' => 'Enformazjuhne övver de Wikis vun Wikimehdija',
 	'formats-heading' => 'De Fommaate för et Ußjävve',
 	'input' => 'Enjaabe',
 	'label-wikiids' => 'Kännonge för de Wikis',

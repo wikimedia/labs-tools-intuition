@@ -328,6 +328,7 @@ $messages['ast'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  */
 $messages['bn'] = array(
 	'close' => 'বন্ধ',
@@ -381,6 +382,7 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fohanno
+ * @author Gwenn-Ael
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -403,8 +405,11 @@ $messages['br'] = array(
 	'settings_minor_edits' => 'Kemmoù dister',
 	'settings_redirects' => 'Pajennoù adkas',
 	'settings_new_pages' => 'Pajennoù nevez',
+	'settings_editor_edits' => 'Kemmoù an embanner',
 	'settings_admin_edits' => 'Aozadennoù gant ar merour',
 	'settings_other_edits' => 'Kemmoù all',
+	'time_utc' => 'Eur, en UTC',
+	'stat_articles' => "Pajennoù endalc'had",
 	'stat_pages' => 'Pajennoù',
 	'stat_files' => 'Restroù ezporzhiet',
 	'stat_edits' => 'Aozadennoù pajennoù',
@@ -415,6 +420,7 @@ $messages['br'] = array(
 	'separator_thousands' => ',',
 	'separator_decimals' => '.',
 	'def_i' => 'v div',
+	'def_def' => 'Ensellet, eveshaat, ober ged-tro',
 	'main_time_utc' => 'Eur (UTC)',
 	'main_page' => 'Pajenn',
 	'main_user' => 'Implijer',
@@ -426,11 +432,18 @@ $messages['br'] = array(
 	'bot' => 'robot',
 	'editor' => 'aozer',
 	'admin' => 'merour',
+	'help_p1' => "Raun zo ur benveg evit ergerzhet kemmoù nevez ar wikioù  e Raktres an Diaezadur Wikimedia war amzer real.
+Kargañ a ray Raun ar c'hemmoù nevez en un doare  mareadek ha lakaat a ray anezho war wel en un doare emgefreek.",
+	'help_p2' => 'Gallout a reot lakaat ar benveg-mañ da ehanañ en ur glikañ war "ehan". Ha goude-se e c\'hallit adlañsañ anezhañ en ur glikañ war "Lañsañ !"',
+	'help_p3' => 'Gallout a reot silañ ar c\'hemmoù ho peus c\'hoant da welet dindan "Silañ", ha kemmañ ar raktres pe yezh ar wiki, pe lec\'hiadur ar benveg-mañ dindan "Arventennoù".',
+	'help_p4' => "Al linennoù gant un destenn arc'hris a dalvez ez eus kemmoù all nevesoc'h er bajenn-mañ.",
 	'help_legend' => "Alc'hwez :",
 	'color' => 'Liv',
 	'about' => 'Diwar-benn',
+	'about_cookie' => "Gant al lec'hienn e vez implijet toupinoù. Lamet e vo ar roadennoù stoket enno en un doare emgefreek ma ne weladennit ket ar benveg a-benn 30 deiz.",
 	'information' => 'Titouroù',
 	'credit' => 'Kred',
+	'about_github' => "Ar c'hod mammennoù a c'haller kaout e $1",
 	'send_feedback' => 'Kas un ali',
 );
 
@@ -773,7 +786,24 @@ $messages['fy'] = array(
 	'settings' => 'Ynstellings',
 	'language' => 'Taal',
 	'project' => 'Projekt',
+	'time_utc' => 'Tiid yn UTC',
+	'stat_pages' => 'Siden',
+	'stat_depth' => 'Djipgong',
+	'separator_thousands' => '.',
+	'separator_decimals' => ',',
+	'def_i' => 'tw konv',
+	'main_time_utc' => 'Tiid (UTC)',
+	'main_page' => 'Side',
+	'main_info' => 'Ynformaasje',
+	'new' => 'nij',
+	'minor' => 'lyts',
+	'anon' => 'anonym',
+	'editor' => 'redakteur',
+	'admin' => 'behearder',
+	'help_legend' => 'Leginda:',
+	'color' => 'Kleur',
 	'about' => 'Oer',
+	'information' => 'Ynformaasje',
 );
 
 /** Hebrew (עברית)
@@ -1997,10 +2027,13 @@ $messages['zh-hant'] = array(
 	'filter' => '篩選器',
 	'settings_tool' => '工具',
 	'settings_wiki' => 'Wiki',
+	'settings_new_pages' => '新頁面',
 	'main_time_utc' => '時間 (UTC)',
 	'main_user' => '使用者',
 	'redirect' => '重新導向',
 	'bot' => '機械人',
+	'editor' => '編輯',
+	'help_legend' => '說明：',
 	'credit' => '信用',
 );
 

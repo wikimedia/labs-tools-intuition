@@ -1074,7 +1074,7 @@ $messages['ce'] = array(
 	'pagetitle' => 'АгӀона корта',
 	'page' => 'АгӀо',
 	'ranklist' => 'Рейтинг',
-	'searchResults' => 'Лахарна хилам',
+	'searchResults' => 'Карийнарш',
 	'rank' => 'Дарж',
 	'settings' => 'Параметраш',
 	'help' => 'ГӀо',
@@ -1695,9 +1695,11 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Macofe
  * @author Nike
  */
 $messages['fi'] = array(
+	'sample' => 'Esimerkki',
 	'closedWikis' => 'suljetut wikit',
 	'noJavaScript' => 'JavaScript ei ole käytössä',
 );
@@ -1842,14 +1844,33 @@ $messages['fr'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'sample' => 'Foarbyld',
+	'page' => 'Side',
 	'settings' => 'Ynstellings',
 	'help' => 'help',
 	'today' => 'hjoed',
+	'all' => 'alle',
+	'popular' => 'populêr',
 	'language' => 'taal',
 	'project' => 'Projekt',
 	'category' => 'Kategory',
 	'files' => '{{PLURAL: $1|triem|triemmen}}',
+	'size' => 'grutte',
+	'first' => 'earste',
+	'last' => 'lêste',
+	'total' => 'totaal',
+	'complete' => 'kompleet',
+	'active' => 'aktyf',
+	'bureaucrats' => 'rjochtenútfurders',
+	'sysops' => 'behearders',
+	'bots' => 'bots',
+	'pages' => 'siden',
+	'by' => 'troch',
+	'namespaces' => 'nammeromten',
+	'on' => 'oan',
+	'off' => 'út',
 	'cancel' => 'annulearje',
+	'barchart' => 'stêfdiagram',
 );
 
 /** Hebrew (עברית)
@@ -2905,9 +2926,12 @@ $messages['mk'] = array(
  */
 $messages['ms'] = array(
 	'today' => 'hari ini',
+	'closedWikis' => 'wiki ditutup',
 	'files' => '{{PLURAL:$1|fail}}',
 	'helpPage' => 'Halaman bantuan',
 	'bureaucrats' => 'birokrat',
+	'tooltipSearch' => 'tajuk halaman (cth. Hollywood). Anda juga boleh menggunakan wildcard "*", cth. Hollywood* atau User:Tom* . Rujuk bantun untuk maklumat lanjut.',
+	'noJavaScript' => 'JavaScript dimatikan',
 	'hideHints' => 'sembunyikan petua',
 	'optinMsg2' => 'Sebagai alternatif, anda boleh mencipta $1 di Meta-Wiki untuk memasuki semua wiki naungan Wikimedia sekali gus.',
 	'addToWorkList' => 'tambahkan kepada senarai kerja',
@@ -4106,7 +4130,7 @@ $messages['zh-hans'] = array(
 	'portal' => 'Portal',
 	'project' => '项目',
 	'category' => '分类',
-	'template' => '模版',
+	'template' => '模板',
 	'files' => '{{PLURAL: $1|文件}}',
 	'specialPage' => '特殊页面',
 	'helpPage' => '帮助页面',
@@ -4240,8 +4264,8 @@ $messages['zh-hant'] = array(
 	'portal' => 'Portal',
 	'project' => '計畫',
 	'category' => '分類',
-	'template' => '樣板',
-	'files' => '{{PLURAL: $1|file|檔案}}',
+	'template' => '模板',
+	'files' => '{{PLURAL: $1|檔案}}',
 	'specialPage' => '特殊頁面',
 	'helpPage' => '幫助頁面',
 	'projectTotals' => '計畫總計',
@@ -4269,7 +4293,7 @@ $messages['zh-hant'] = array(
 	'good_articles' => '優良條目',
 	'pages' => '頁面',
 	'watchers' => '監視者',
-	'redirects' => '重定向',
+	'redirects' => '重新導向',
 	'testmode' => '測試模式',
 	'chartBasedOn' => '基於圖表圖形',
 	'by' => '由',
@@ -4299,9 +4323,9 @@ $messages['zh-hant'] = array(
 	'cancel' => '取消',
 	'resetAndDelete' => '重設並刪除cookie',
 	'autofilter' => '自動過濾器',
-	'isRedirect' => '此頁面是重定向',
+	'isRedirect' => '此頁面是重新導向',
 	'disambPage' => '消歧義頁',
-	'showRedir' => '顯示重定向',
+	'showRedir' => '顯示重新導向',
 	'searchVariants' => '搜尋變體',
 	'addToWorkList' => '添加至作品清單',
 	'removeFromWorklist' => '從作品清單中刪除',

@@ -296,6 +296,7 @@ $messages['be'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Nasir8891
  */
 $messages['bn'] = array(
@@ -309,13 +310,13 @@ $messages['bn'] = array(
 	'err-snapshotindex' => 'স্ন্যাপশট ইনডেক্সটি সাময়িকভাবে পাওয়া যাচ্ছে না। অনুগ্রহ করে পুনরায় চেষ্টা করুন।',
 	'err-invalid-repo' => 'অপরিচিত রিপোজিটরী: "$1".',
 	'err-invalid-branch' => '"$2" রিপোজিটরীতে অপরিচিত ব্রাঞ্চ: "$1"।',
-	'err-noupdatelog' => 'কোনো আপডেট লগ পাওয়া যায়নি।',
+	'err-noupdatelog' => 'কোনো হালনাগাদ লগ পাওয়া যায়নি।',
 	'repo-site-link' => 'ওয়েবসাইট',
 	'repo-browse-link' => 'রিপোজিটরী ব্রাউজ',
 	'repo-branches-label' => 'ব্রাঞ্চসমূহ:',
 	'repo-lastmoddate-label' => 'তারিখ:',
 	'branches-submit-button' => 'পাওয়া গেছে!',
-	'updatelog-link' => 'আপডেট লগ',
+	'updatelog-link' => 'হালনাগাদ লগ',
 	'tablehead-repo' => 'রিপোজিটরি',
 	'tablehead-snapshots' => 'স্ন্যপশট',
 	'tablehead-branch' => 'ব্রাঞ্চ',
@@ -325,6 +326,7 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Gwenn-Ael
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -333,7 +335,7 @@ $messages['br'] = array(
 	'title-updatelog' => 'Hizivaat ar marilh',
 	'updatelog-intro' => "Programmet eo ar skript hizivaat evit treiñ bep eurvezh. Dindan emañ ezvont ar penell war-lerc'h an erounezadur diwezhañ.",
 	'updatelog-active' => "Emañ ar skript hizivaat o treiñ. Deuit en-dro diwezhatoc'hik evit gwelet ar marilh klok.",
-	'download-button' => 'Pellgargañ $1', # Fuzzy
+	'download-button' => 'Pellgargañ ar skeudenn brim',
 	'download-directlink' => 'Liamm eeun',
 	'title-downloadpage' => 'Pellgargañ',
 	'title-downloadpage-repo' => 'Pellgargañ $1',
@@ -399,7 +401,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'download-button' => 'Чудаккха сурт',
-	'download-directlink' => 'дуьхьала хьажораг',
+	'download-directlink' => 'дуьхьала хьажорг',
 	'title-downloadpage' => 'Чуяккха',
 	'title-downloadpage-repo' => 'Чуяккха $1',
 );
@@ -814,7 +816,12 @@ $messages['frp'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'title-overview' => 'Snapshots',
 	'title-error' => 'Flater',
+	'repo-site-link' => 'Webside',
+	'repo-lastmoddate-label' => 'Datum:',
+	'tablehead-snapshots' => 'Snapshots',
+	'tablehead-filesize' => 'Triemgrutte',
 );
 
 /** Irish (Gaeilge)
@@ -1353,7 +1360,7 @@ $messages['mk'] = array(
 	'updatelog-intro' => 'Скриптата врши поднова на секој час. Подолу е прикажан конзолниот извод од последната поднова.',
 	'updatelog-active' => 'Скриптата моментално врши поднова. Навратете се подоцна за целосниот дневник.',
 	'download-button' => 'Преземи снимка',
-	'download-directlink' => 'директна врска:',
+	'download-directlink' => 'непосредна врска:',
 	'title-downloadpage' => 'Преземање',
 	'title-downloadpage-repo' => 'Преземање на $1',
 	'err-snapshotindex' => 'Индексот на снимки е привремено недостапен. Обидете се подоцна.',
@@ -2187,7 +2194,7 @@ $messages['uz'] = array(
 	'title-error' => 'Xato',
 	'title-updatelog' => 'Yangilash qaydlari',
 	'download-button' => '$1ni yuklash', # Fuzzy
-	'download-directlink' => 'toʻgʻridan-toʻgʻri havola',
+	'download-directlink' => 'bevosita havola',
 	'title-downloadpage' => 'Yuklash: $1', # Fuzzy
 	'err-snapshotindex' => 'Surat indeksiga vaqtincha ruxsat yoʻq. Iltimos, keyinroq urinib koʻring.',
 	'err-invalid-repo' => 'Nomaʼlum repozitoriy: "$1".',

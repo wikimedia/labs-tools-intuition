@@ -267,6 +267,7 @@ $messages['az'] = array(
 );
 
 /** South Azerbaijani (تورکجه)
+ * @author Koroğlu
  * @author Mousa
  */
 $messages['azb'] = array(
@@ -280,7 +281,7 @@ $messages['azb'] = array(
 	'th-original' => 'ایلکین',
 	'th-translation' => 'چئویرمک',
 	'th-language' => 'دیل',
-	'th-username' => 'ایستیفاده‌چی آدی',
+	'th-username' => 'ایشلدن آدی',
 	'th-password' => 'رمز',
 	'th-method' => 'یول',
 	'option-oauth' => 'TUSC (اوتوماتیک یوکله‌مک)', # Fuzzy
@@ -436,6 +437,7 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Bellayet
  * @author Nasir8891
  * @author Wikitanvir
@@ -476,6 +478,7 @@ $messages['bn'] = array(
 
 /** Breton (brezhoneg)
  * @author Fulup
+ * @author Gwenn-Ael
  */
 $messages['br'] = array(
 	'title' => 'Troidigezh SVG',
@@ -492,7 +495,7 @@ $messages['br'] = array(
 	'th-username' => 'Anv implijer',
 	'th-password' => 'Ger-tremen',
 	'th-method' => 'Hentenn',
-	'option-oauth' => 'TUSC (enporzh emgefre)', # Fuzzy
+	'option-oauth' => 'TUSC (pellgargañ emgefre)',
 	'option-manual' => 'Enporzh dre zorn',
 	'preview' => 'Rakwelet',
 	'translate' => 'Treiñ',
@@ -502,7 +505,7 @@ $messages['br'] = array(
 	'uploading' => "Oc'h enporzhiañ",
 	'upload-complete' => "Enporzhiet eo bet ar skeudenn ervat. Bez' e tlefe bezañ war $1 bremañ",
 	'editdescriptionpage' => 'Embann deskrivadur nevez ar bajenn',
-	'disclaimer' => "Roadennoù dianv zo a vo dastumet evit sevel stadegoù a chomo prevez. Ma vez resisaet an anvioù implijer evit OAuth e vint notennet ivez gant ar pal stourm a-enep d'ar vandalerezh. Ne vez ket enrollet ar gerioù-tremen gwezh ebet.", # Fuzzy
+	'disclaimer' => "Roadennoù dianav zo a vo dastumet evit sevel stadegoù a chomo prevez. Ma vez resisaet an anvioù implijer evit OAuth e vint notennet ivez gant ar pal stourm a-enep d'ar vandalerezh. Ne vez ket enrollet ar gerioù-tremen gwezh ebet.",
 	'author-complete' => 'Klokaat an titouroù diwar-benn an aozer !',
 	'preview-hide' => 'Kuzhat ar rakweled',
 	'preview-refresh' => 'Freskaat ar rakweled',
@@ -1156,9 +1159,12 @@ $messages['frp'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'th-original' => 'Orizjineel',
+	'th-translation' => 'Oersetting',
 	'th-language' => 'Taal',
 	'th-username' => 'Brûkersnamme',
 	'th-password' => 'Wachtwurd',
+	'th-method' => 'Metoade',
 );
 
 /** Irish (Gaeilge)
@@ -1370,6 +1376,7 @@ $messages['hsb'] = array(
 /** Hungarian (magyar)
  * @author Csega
  * @author Dani
+ * @author Tacsipacsi
  */
 $messages['hu'] = array(
 	'title' => 'SVG-fordítás',
@@ -1396,7 +1403,7 @@ $messages['hu'] = array(
 	'uploading' => 'Feltöltés',
 	'upload-complete' => 'A feltöltés sikeresen befejeződött. A kép a következő címen érhető el: $1',
 	'editdescriptionpage' => 'Az új leírólap szerkesztése',
-	'disclaimer' => 'Néhány névtelen adat rögzítve lesz statisztikai célok miatt. Ha meg van adva, a OAuth felhasználónév is el lesz tárolva, arra az esetre, ha később vandalizmus merülne fel. A jelszavakat viszont soha nem mentjük el.', # Fuzzy
+	'disclaimer' => 'Néhány névtelen adat rögzítve lesz statisztikai célok miatt. Ha meg van adva, a OAuth felhasználónév is el lesz tárolva, arra az esetre, ha később vandalizmus merülne fel. A jelszavakat viszont soha nem mentjük el.',
 	'author-complete' => 'Kérlek, add meg a szerzővel kapcsolatos információkat!',
 	'preview-hide' => 'Előnézet elrejtése',
 	'preview-refresh' => 'Előnézet frissítése',
@@ -1766,7 +1773,7 @@ $messages['ksh'] = array(
 	'begin-translation' => 'Mem Övversäze aanfange',
 	'th-original' => 'Ojinahl',
 	'th-translation' => 'Övversäzong',
-	'th-language' => 'Schprooch',
+	'th-language' => 'Schprohch',
 	'th-username' => 'Metmaacher Name',
 	'th-password' => 'Paßwoot',
 	'th-method' => 'Metood',
@@ -3318,7 +3325,7 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'title' => 'SVG翻譯',
 	'error-tryagain' => '$1點選瀏覽器中的返回按鈕重試',
-	'error-nothing' => '目前沒有可翻譯的內容',
+	'error-nothing' => '目前沒有可翻譯的內容。',
 	'error-notsvg' => '不是SVG檔案。',
 	'error-unexpected' => '發生意外錯誤。',
 	'error-notfound' => '不能從提供的URL中獲取SVG檔案。',

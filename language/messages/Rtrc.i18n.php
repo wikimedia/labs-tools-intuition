@@ -223,6 +223,7 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  */
 $messages['bn'] = array(
 	'apply' => 'প্রয়োগ',
@@ -264,6 +265,7 @@ $messages['br'] = array(
 	'lastupdate-cvn' => 'Hizivadenn ziwezhañ : $1',
 	'lastupdate-rc' => 'Hizivadenn ziwezhañ : $1',
 	'limit' => 'Bevenn',
+	'masspatrol-requires-userfilter' => "Diweredekaet eo bet MassPatrol rak ur sil implijer zo ezhommm anezhañ ha n'eus bet termenet hini ebet.",
 	'months' => "Genver, C'hwevrer, Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu",
 	'mypatrollog' => 'Ma renabl gwiriañ',
 	'namespace' => 'Esaouenn anv',
@@ -658,7 +660,13 @@ $messages['fr'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'cvn-adder-empty' => 'Ûnbekend',
+	'cvn-reason' => 'Reden',
+	'documentation' => 'Dokumintaasje',
+	'limit' => 'Limyt',
+	'namespace' => 'Nammeromte',
 	'order' => 'Folchoarder',
+	'select-placeholder-none' => '(gjin)',
 );
 
 /** Galician (galego)
@@ -1901,7 +1909,11 @@ $messages['zh-hans'] = array(
  * @author Liuxinyu970226
  */
 $messages['zh-hant'] = array(
+	'apply' => '套用',
+	'cvn-adder-empty' => '不明',
 	'cvn-reason' => '原因',
 	'documentation' => '說明文件',
 	'filter' => '篩選器',
+	'limit' => '限制',
+	'typeNew' => '新頁面',
 );

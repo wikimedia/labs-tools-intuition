@@ -302,6 +302,7 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -331,10 +332,12 @@ $messages['bn'] = array(
 /** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
+ * @author Gwenn-Ael
  * @author Y-M D
  */
 $messages['br'] = array(
 	'title' => 'OrphanTalk',
+	'description' => 'Kavout ar pajennoù kaozeal emzivat',
 	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(diuzit ur wiki da gentañ)',
 	'hideredirects' => 'Kuzhat an adkasoù',
@@ -351,7 +354,7 @@ $messages['br'] = array(
 	'tools-hist' => 'Gwelet an istor',
 	'tools-curr' => 'Kemm diwezhañ',
 	'tools-globalusage' => 'Implij ar restr',
-	'deletesummary' => 'O naetaat ar pajennoù kaozeal dre $1', # Fuzzy
+	'deletesummary' => '$1 : Pajennoù kaozeal',
 	'noresults' => "N'eus bet kavet pajenn gaozeal dall ebet er wiki, en esaouenn anv a glot gant ho kefluniadur.",
 	'resultslimited' => "Krennet eo bet an disoc'hoù da $1 pajenn.",
 );
@@ -382,6 +385,7 @@ $messages['ca'] = array(
 	'tooltip-redirect' => 'Aquesta pàgina és una redirecció',
 	'output' => 'Resultats',
 	'update' => 'Actualitza',
+	'tools-view' => 'Visualitza',
 	'tools-delete' => 'Suprimeix',
 	'tools-links' => 'Què hi enllaça',
 	'tools-subject' => 'pàgina', # Fuzzy
@@ -678,8 +682,8 @@ $messages['fa'] = array(
 	'description' => 'یافتن صفحات بحث یتیم',
 	'label-wiki' => 'ویکی',
 	'select-wiki-first' => '(ابتدا یک ویکی را انتخاب کنید)',
-	'hideredirects' => 'پنهان‌کردن تغییر مسیرها',
-	'hidesubpages' => 'پنهان‌کردن زیرصفحه‌ها',
+	'hideredirects' => 'پنهان کردن تغییر مسیرها',
+	'hidesubpages' => 'پنهان کردن زیرصفحه‌ها',
 	'limit' => 'تعداد',
 	'page' => 'صفحه',
 	'tooltip-redirect' => 'این صفحه تغییر مسیر است',
@@ -792,6 +796,15 @@ $messages['frp'] = array(
 	'tools-hist' => 'hist', # Fuzzy
 	'tools-curr' => 'ora', # Fuzzy
 	'tools-globalusage' => 'usâjo globâl', # Fuzzy
+);
+
+/** Western Frisian (Frysk)
+ * @author Robin0van0der0vliet
+ */
+$messages['fy'] = array(
+	'label-wiki' => 'Wiki',
+	'limit' => 'Limyt',
+	'page' => 'Side',
 );
 
 /** Irish (Gaeilge)
@@ -2279,6 +2292,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author LNDDYL
  * @author Liuxinyu970226
  * @author Shirayuki
  * @author Simon Shek
@@ -2287,7 +2301,7 @@ $messages['zh-hant'] = array(
 	'title' => '孤立對話頁2', # Fuzzy
 	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '（先選擇一個wiki）',
-	'hideredirects' => '隱藏重定向頁',
+	'hideredirects' => '隱藏重新導向頁面',
 	'hidesubpages' => '隱藏子頁面',
 	'limit' => '限制',
 	'page' => '頁面',

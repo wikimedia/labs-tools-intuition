@@ -134,6 +134,7 @@ $messages['be'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  */
 $messages['bn'] = array(
 	'label-page' => 'পাতা',
@@ -290,6 +291,9 @@ $messages['fr'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'label-page' => 'Side',
+	'label-namespace' => 'Nammeromte',
+	'label-limit' => 'Limyt',
 	'section-categories' => 'Kategoryen',
 );
 
@@ -659,6 +663,7 @@ $messages['zh-hans'] = array(
  * @author Liuxinyu970226
  */
 $messages['zh-hant'] = array(
+	'label-limit' => '限制',
 	'istemplate' => '引用',
 	'section-links' => '連結',
 	'section-categories' => '分類',

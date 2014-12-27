@@ -239,6 +239,7 @@ $messages['fr'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'voiceintro-information-label' => 'Ynformaasje',
 	'voiceintro-information-language-label' => 'Taal:',
 );
 
@@ -361,8 +362,12 @@ $messages['ksh'] = array(
 	'voiceintro-toolbar-clear-label' => 'Läddesch maache',
 	'voiceintro-toolbar-upload-label' => 'Huhlaade',
 	'voiceintro-webaudio-not-supported' => 'Heh dä Brauser kann de <i lang="en" xml:lang="en">WebAudio API</i> nit.',
+	'voiceintro-upload-publish-succeeded' => 'Di Opzeischnong es huhjelahde:',
+	'voiceintro-upload-publish-failed' => 'Di Opzeischnong kunnt nit huhjelahde wääde.',
 	'voiceintro-information-label' => 'Enfommazjuhn',
-	'voiceintro-information-language-label' => 'Schprooch:',
+	'voiceintro-information-speaker-label' => 'Däm Schpräscher singe Nahme:',
+	'voiceintro-information-language-label' => 'Schprohch:',
+	'voiceintro-mic-access-notify' => 'Do moß noch med enem Kleck zohlohße, dat Dinge Brauser Ding Mikrofohn affhühre darref.',
 	'voiceintro-recording-notify' => 'Aam opzeischne&nbsp;..',
 );
 
@@ -398,7 +403,7 @@ $messages['mk'] = array(
 	'voiceintro-toolbar-stop-label' => 'Запри',
 	'voiceintro-toolbar-clear-label' => 'Отфрли',
 	'voiceintro-toolbar-upload-label' => 'Подигни',
-	'voiceintro-webaudio-not-supported' => 'Прилогот WebAudio не е поддржан на овој прелистувач',
+	'voiceintro-webaudio-not-supported' => 'Извршникот WebAudio не е поддржан на овој прелистувач',
 	'voiceintro-upload-publish-succeeded' => 'Снимката е успешно подигната:',
 	'voiceintro-upload-publish-failed' => 'Снимката не е подигната',
 	'voiceintro-information-label' => 'Информации',

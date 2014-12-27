@@ -358,6 +358,7 @@ $messages['bjn'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Bellayet
  * @author Wikitanvir
  */
@@ -953,8 +954,10 @@ $messages['frp'] = array(
  */
 $messages['fy'] = array(
 	'settings-legend' => 'Ynstellings',
+	'tab-overview' => 'Oersjoch',
 	'tab-settings' => 'Ynstellings',
 	'tab-about' => 'Oer',
+	'tab-demo' => 'Demo',
 );
 
 /** Irish (Gaeilge)
@@ -1125,11 +1128,12 @@ $messages['hsb'] = array(
 
 /** Hungarian (magyar)
  * @author Dani
+ * @author Tacsipacsi
  */
 $messages['hu'] = array(
-	'fullname' => 'A Toolserver felhasználói felületének internacionalizációja', # Fuzzy
+	'fullname' => 'Többnyelvűsítés eszközöknek',
 	'current-settings' => 'Jelenlegi beállítások',
-	'current-language' => 'Jelenleg kiválasztott nyelv', # Fuzzy
+	'current-language' => 'Kiválasztott nyelv',
 	'settings-legend' => 'Beállítások',
 	'choose-language' => 'Válassz nyelvet',
 	'clear-cookies' => 'sütik törlése',
@@ -1144,7 +1148,7 @@ $messages['hu'] = array(
 	'bl-mysettings' => 'Nyelvi beállítások',
 	'bl-mysettings-new' => 'Nyelv módosítása',
 	'bl-promo' => 'A lokalizációt a $1 és a $2 teszi lehetővé.',
-	'bl-changelanguage' => 'Kattints ide az eszköz felhasználói felülete nyelvének módosításához.', # Fuzzy
+	'bl-changelanguage' => 'Az eszköz felületnyelvének módosítása',
 	'usage' => 'Az eszköz fordítása a Toolserver Intuitionnel készült.',
 	'help-translate-tool' => 'Segíts az eszköz fordításában!',
 	'help-translate-all' => 'Segíts a Toolserver fordításában!',
@@ -1405,9 +1409,9 @@ $messages['ko'] = array(
 $messages['ksh'] = array(
 	'fullname' => 'De Bedeenovverfläsh vun Wärkzüsch en alle Shprooche',
 	'current-settings' => 'De aktoälle Enshtällonge',
-	'current-language' => 'De ußjesöhk Shprooch', # Fuzzy
+	'current-language' => 'De ußjesöhk Schprohch',
 	'settings-legend' => 'Enschtällonge',
-	'choose-language' => 'Donn en Schprooch ußwähle',
+	'choose-language' => 'Donn en Schprohch ußwähle',
 	'clear-cookies' => 'Donn de <i lang="en">Cookies</i> fottschmiiße',
 	'renew-cookies' => 'Donn de <i lang="en">Cookies</i> neu säze',
 	'cookie-expiration' => 'Dä <i lang="en">Cookies</i> iehr Lävenszigg.',
@@ -1417,10 +1421,10 @@ $messages['ksh'] = array(
 	'tab-settings' => 'Enschtällonge',
 	'tab-about' => 'Övver dat Projramm heh',
 	'tab-demo' => 'Vörföhrung',
-	'bl-mysettings' => 'Ming Schproochenschtällonge',
+	'bl-mysettings' => 'Ming Schprohchenschtällonge',
 	'bl-mysettings-new' => 'De Schprohch wääßele',
 	'bl-promo' => 'De Övversäzonge kumme vum $1 un övver $2 noh heh.',
-	'bl-changelanguage' => 'Donn di Shprooch ändere, di heh dat Projramm met Der kallt.', # Fuzzy
+	'bl-changelanguage' => 'Donn di Schprohch ändere, di heh dat Projramm met Der kallt.',
 	'usage' => 'Projramme, di övver dat Süßteem „<i lang="en">Intuition</i>“
 övversaz woode sin.',
 	'help-translate-tool' => 'Donn beim Övversäze för heh dat Projramm hellfe!',

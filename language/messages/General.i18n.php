@@ -363,6 +363,7 @@ $messages['bjn'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Bellayet
  * @author Wikitanvir
  */
@@ -900,8 +901,11 @@ $messages['frp'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'hello' => 'Hallo',
+	'welcome' => 'Wolkom',
 	'toolversion' => 'Ferzje $1',
 	'toolversionstamp' => 'Ferzje $1 ($2)',
+	'namespace' => 'Nammeromte',
 	'years' => '{{PLURAL: $1|jier|jierren}}',
 	'months' => '{{PLURAL: $1|moanne|moannen}}',
 	'weeks' => '{{PLURAL: $1|wike|wiken}}',
@@ -909,6 +913,7 @@ $messages['fy'] = array(
 	'hours' => '{{PLURAL: $1|oere|oeren}}',
 	'minutes' => '{{PLURAL: $1|minút|minuten}}',
 	'seconds' => '{{PLURAL: $1|sekonde|sekonden}}',
+	'and' => '&#32;en',
 );
 
 /** Irish (Gaeilge)
@@ -1056,6 +1061,7 @@ $messages['hsb'] = array(
 /** Hungarian (magyar)
  * @author Dani
  * @author Dj
+ * @author Tacsipacsi
  */
 $messages['hu'] = array(
 	'hello' => 'Szia',
@@ -1067,6 +1073,7 @@ $messages['hu'] = array(
 	'form-submit' => 'Gyerünk',
 	'form-reset' => 'Alaphelyzet',
 	'years' => '{{PLURAL: $1|év|év}}',
+	'months' => '{{PLURAL:$1|hónap}}',
 	'weeks' => '{{PLURAL: $1|hét|hét}}',
 	'days' => '{{PLURAL: $1|nap|nap}}',
 	'hours' => '{{PLURAL: $1|óra|óra}}',
@@ -1357,12 +1364,13 @@ $messages['ksh'] = array(
 	'form-submit' => 'Lohß Jonn!',
 	'form-reset' => 'Et Enjävve neu Aanfange!',
 	'years' => '{{PLURAL: $1|Johr|Johre|Johre}}',
+	'months' => '{{PLURAL:$1|0=Keine&nbsp;Monhnd|1=Eine&nbsp;Monhnd|$1&nbsp;Mohnde}}',
 	'weeks' => '{{PLURAL: $1|Woch|Woche|Woche}}',
 	'days' => '{{PLURAL:$1|Daach|Dääsch|Daach}}',
 	'hours' => '({{PLURAL:$1|Shtund|Shtunde|Shtunde}})',
 	'minutes' => '{{PLURAL:$1|Menutt|Menutte|Menutte}}',
 	'seconds' => '{{PLURAL:$1|Sekund|Sekunde|Sekund}}',
-	'last-modified-date' => 'zerläz jeändert aam $2 öm $3', # Fuzzy
+	'last-modified-date' => 'zerläz verändert aam $2 öm $3', # Fuzzy
 	'view-source' => 'Der Quelltäx vum Projramm',
 	'and' => ',&#32;un',
 );
@@ -2658,10 +2666,10 @@ $messages['zh-hant'] = array(
 	'form-reset' => '重置',
 	'years' => '{{PLURAL: $1|年}}',
 	'months' => '{{PLURAL: $1|個月}}',
-	'weeks' => '$1週',
-	'days' => '$1天',
-	'hours' => '$1小時',
-	'minutes' => '{{PLURAL: $1|分鐘|分鐘}}',
+	'weeks' => '$1 週',
+	'days' => '$1 天',
+	'hours' => '$1 小時',
+	'minutes' => '{{PLURAL: $1|分鐘}}',
 	'seconds' => '{{PLURAL: $1|秒}}',
 	'last-modified-date' => '最近修改於: $1',
 	'view-source' => '檢視原始碼',

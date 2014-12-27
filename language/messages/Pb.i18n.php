@@ -211,6 +211,7 @@ $messages['ast'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  */
 $messages['bn'] = array(
 	'pb-about-pb-navi' => 'সম্পর্কে',
@@ -512,6 +513,7 @@ $messages['fr'] = array(
  */
 $messages['fy'] = array(
 	'pb-about-pb-navi' => 'Oer',
+	'pb-date' => 'Datum',
 );
 
 /** Hebrew (עברית)
@@ -732,6 +734,8 @@ $messages['ko'] = array(
 $messages['ksh'] = array(
 	'pb-about-pb-navi' => 'Övver',
 	'pb-about-pb-tech' => 'Täschnesche Einzelheite',
+	'pb-about-pb-tech-text' => '<p>Mer nämme <a href="https://de.wikipedia.org/wiki/Python_%28Programmiersprache%29">Python</a> un <a href="https://de.wikipedia.org/wiki/MySQL">MySQL</a> för dat Projramm heh. Der Kood schteihd onger dä lezänz <i lang="en" xml:lang="en"><a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU Lesser General Public License 3</a> (LGPL 3)</i> un es <a href="https://github.com/tool-labs/pb">op <i lang="en" xml:lang="en">GitHub</i></a> ze belohre. Fähler, Verbäßeronge, Wönsch un Klaaf kam_mer op <i lang="en" xml:lang="en"><a href="https://github.com/tool-labs/pb/issues/new">GitHub</a> afflohße udder op di Klaafsigg <i lang="de" xml:lang="de"><a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a></i> övver de päsöhnlesche Bekanntschafte en de Wikkipehdija op deutsch schriive.</p><p><a href="/pb/sql-dumps">De neuste Sescheronge vun dä Dahtenbangk</a> kam_mer sesch eronger lahde.</p><p>Mer han e paa Minnibelldscher us däm <i lang="en" xml:lang="en"><a href="http://glyphicons.com/" title="de Houpsigg vun de Glyphicons">Glyphicons</a></i>-Projäk jenumme.</p>',
+	'pb-about-pb-text' => '<p>Dat Projäk sull de Minsche henger de Wikkipehdija em reschtejje Levve zeije.</p><p>De eezde täschnesche Ömsäzong han der Ulli Purwin (Bedeenong) un der Euku (Automaht) jemaat. Aanfang 2011 han der Wiegels un der Ireas däm Ulli singe Paat övvernumme. Enzwischen litt dat janze och nit mieh obb enem prevahte ẞööver, sönders op <i lang="en" xml:lang="en">Wikimedia Labs</i>.</p><p>Mieh övver dat Projäk fengk mer op dä Sigg <i lang="de" xml:lang="de"><a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a></i> övver de päsöhnlesche Bekanntschafte en de Wikkipehdija op deutsch.</p>',
 	'pb-about-pb-title' => 'Övver dat Projäk',
 	'pb-change-language' => 'De Schprohch wääßele',
 	'pb-comment' => 'Aanmärkong',
@@ -741,7 +745,7 @@ $messages['ksh'] = array(
 	'pb-current-figures' => 'Aktoälle Zahle',
 	'pb-current-users' => 'Em Momang {{PLURL:$1|es eine|sinn_er $1|es keine}} Metmaacher bei de „Päsöhnlesche Beschtähtejonge“ derbei.',
 	'pb-date' => 'Dattum',
-	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in der deutschsprachigen Wikipedia">[[„Päsöhnlesche Beschtähtejonge“]]</a> op <i lang="en" xml:lang="en">Tool Labs</i>. <a href="$1" title="Über Wikipedia:Persönliche Bekanntschaften">Mieh lässe!</a>', # Fuzzy
+	'pb-footer' => '<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Päsöhnlesche Bekanntschafte in de Wikkipehdija op deutsch">[[„Päsöhnlesche Beschtähtejonge“]]</a> op <i lang="en" xml:lang="en">Tool Labs</i>. <a href="$1" title="Övver de päsöhnlesche Bekanntschafte en de Wikkipehdija">Mieh lässe!</a>', # Fuzzy
 	'pb-home' => 'Houpsigg',
 	'pb-home-welcome' => 'Wellkumme op de „Päsöhnlesche Beschtähtejonge“ ier Dahtenbangksigg. Mieh övver dat Projäk kammer op dä <a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften" title="Wikipedia:Persönliche Bekanntschaften in der deutschsprachigen Wikipedia">Projäksigg</a> en de Wikipehdija op Deutsch lässe.',
 	'pb-javascript-notice' => 'Mer ämfähle JavaSkrep aanzeschallde, öm för heh di Sigge de Bedeenong aanjenämmer ze maache.',
@@ -1257,9 +1261,9 @@ $messages['yi'] = array(
 $messages['zh-hans'] = array(
 	'pb-about-pb-navi' => '关于',
 	'pb-about-pb-tech' => '技术信息',
-	'pb-about-pb-tech-text' => '<p>我们使用 <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a> 和 <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a> 开发此界面。源代码依据<a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU 轻量通用公共许可证 3</a>（LGPL 3）发布，这也可在<a href="https://github.com/tool-labs/pb">GitHub</a>找到。请通过<a href="https://github.com/tool-labs/pb/issues/new">GitHub 问题跟踪器</a>或者<a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">维基百科讨论页</a>提交错误报告、功能请求或其他评论。</p>
+	'pb-about-pb-tech-text' => '<p>我们使用 <a href="https://zh.wikipedia.org/wiki/Python">Python</a> 和 <a href="https://zh.wikipedia.org/wiki/MySQL">MySQL</a> 开发此界面。源代码依据<a href="http://www.gnu.org/licenses/lgpl.html" class="ext">GNU 轻量通用公共许可证 3</a>（LGPL 3）发布，这也可在<a href="https://github.com/tool-labs/pb">GitHub</a>找到。请通过<a href="https://github.com/tool-labs/pb/issues/new">GitHub 问题追踪器</a>或者<a href="https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften">维基百科讨论页</a>提交错误报告、功能请求或其他评论。</p>
     <p>当前的PB数据库转储可在<a href="/pb/sql-dumps">此处</a>找到。</p>
-    <p>我们使用<a href="http://glyphicons.com/" title="Glyphicons homepage">Glyphicons</a>计划制作的一些图标。</p>',
+    <p>我们使用<a href="http://glyphicons.com/" title="Glyphicons 首页">Glyphicons</a>计划制作的一些图标。</p>',
 	'pb-about-pb-text' => '<p>本项目代表维基人直接的个人相识。</p>
     <p>The first implementation was done by Ulli Purwin (interface) and Euku (bot). In the beginning of 2011, Wiegels and Ireas followed Ulli doing the interface. By now, the project is not longer hosted on a private server but on Wikimedia Labs.</p>
     <p>更多有关此项目的信息请参见德语维基百科的<a href="https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften">Wikipedia:Persönliche Bekanntschaften</a>。</p>',

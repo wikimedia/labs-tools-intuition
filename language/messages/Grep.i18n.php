@@ -85,6 +85,7 @@ $messages['ast'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  */
 $messages['bn'] = array(
 	'enter-details' => 'বিস্তারিত লিখুন',
@@ -162,6 +163,13 @@ $messages['diq'] = array(
 	'namespace-label' => 'Heruna namey',
 );
 
+/** Greek (Ελληνικά)
+ * @author Geraki
+ */
+$messages['el'] = array(
+	'regex' => 'Regular expression',
+);
+
 /** Spanish (español)
  * @author Kingpowl
  * @author Macofe
@@ -228,8 +236,11 @@ $messages['fr'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'explanation' => 'útlis',
 	'language-label' => 'Taal',
+	'namespace-label' => 'Nammeromte',
 	'project-label' => 'Projekt',
+	'pattern-label' => 'Patroan',
 );
 
 /** Hebrew (עברית)
@@ -344,7 +355,7 @@ $messages['ksh'] = array(
 	'introduction' => 'Heh dat Wärkzüsch zeisch Siggetetelle, di obb en $1 paße donn. Esuh söhke es düür. Wann müjjelesch, donn de Zeische ^ un $ benöze.',
 	'enter-details' => 'Jiff Einzelheite enn',
 	'results' => 'Erus es jekume:',
-	'language-label' => 'De Schprooch',
+	'language-label' => 'Et Schprohcheköözel',
 	'namespace-label' => 'Et Appachtemang',
 	'project-label' => 'Dat Projäk',
 	'pattern-label' => 'Et Moster',
@@ -621,4 +632,18 @@ $messages['zh-hans'] = array(
 	'limit-label' => '限制显示为前100个结果',
 	'error-zeroresults' => '此名字空间下没有匹配您的正则表达式的标题。',
 	'match-count' => '{{PLURAL:$1|$1个页面}}匹配您的正则表达式。',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'regex' => '正規表示法',
+);
+
+/** Chinese (Taiwan) (中文（台灣）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-tw'] = array(
+	'regex' => '正規表示式',
 );

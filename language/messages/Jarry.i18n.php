@@ -124,6 +124,7 @@ $messages['be-tarask'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Nasir8891
  */
 $messages['bn'] = array(
@@ -204,9 +205,10 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
-	'comments' => 'Vatış u perseney',
+	'comments' => 'mışewreyi û persi',
 );
 
 /** Lower Sorbian (dolnoserbski)

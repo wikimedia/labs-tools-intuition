@@ -532,7 +532,11 @@ $messages['fr'] = array(
  */
 $messages['fy'] = array(
 	'toolserver-status-short-ok' => '$1: OK',
+	'toolserver-status-short-info' => '$1: ynfo',
+	'toolserver-status-short-warn' => '$1: warskôging',
 	'toolserver-status-short-erro' => '$1: Flater',
+	'toolserver-status-short-unknown' => '$1: ûnbekend',
+	'toolserver-status-short-missing' => '$1: ûntbrekst',
 );
 
 /** Galician (galego)
@@ -1470,6 +1474,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
@@ -1485,7 +1490,7 @@ $messages['zh-hant'] = array(
 	'toolserver-status-short-warn' => '$1：警告',
 	'toolserver-status-short-down' => '$1：暫停工作',
 	'toolserver-status-short-erro' => '$1：錯誤',
-	'toolserver-status-short-unknown' => '$1：未知',
+	'toolserver-status-short-unknown' => '$1：不明',
 	'toolserver-status-short-missing' => '$1：丟失',
 );
 

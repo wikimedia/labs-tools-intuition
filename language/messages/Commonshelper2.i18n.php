@@ -357,6 +357,7 @@ $messages['az'] = array(
 
 /** South Azerbaijani (تورکجه)
  * @author E THP
+ * @author Koroğlu
  * @author Mousa
  */
 $messages['azb'] = array(
@@ -375,7 +376,7 @@ $messages['azb'] = array(
 	'remove_cats' => 'اولان بؤلمه‌لری سیل',
 	'use_checkusage' => 'یئنی بؤلمه‌لر اؤنریله‌مک اوچون $1CommonSense$2 ایشلت',
 	'use_tusc' => 'دوغرولاماق و فایلی موستقیم داشیماق اوچون $1TUSC$2-ی ایشلدین',
-	'tusc_user' => 'TUSC ایستیفاده‌چی آدی',
+	'tusc_user' => 'TUSC ایشلدن آدی',
 	'tusc_pass' => 'TUSC رمزی',
 	'do_it' => 'بونو ائت',
 	'error_transfer_usr' => 'سیز بو ویکی‌مئدیا اورتاقلار ایستیفاده‌چی آدی قویمامیسینیز',
@@ -599,6 +600,7 @@ $messages['bjn'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Aftabuzzaman
  * @author Bellayet
  * @author Nasir8891
  */
@@ -2249,7 +2251,7 @@ $messages['ksh'] = array(
 	'description' => 'E Projramm, wat hellef, Datteije vun Wikis vun de Wikimedija Shtefftong noh <i lang="en">Wikimedia Commons</i> ze övverdraare.',
 	'change_meta' => 'Donn de $1Saachjroppe un Schabloone$2 för $3 aanpaße.',
 	'jira_link' => 'Donn ene Fähler mälde udder ene Vörschlaach zom Verbäßere maache',
-	'language' => 'Schprooch',
+	'language' => 'Schprohch',
 	'project' => 'Projäk',
 	'source_file' => 'De Dattei zom Övverdraare',
 	'target_file' => 'De Ziel_Dattei',
@@ -4449,9 +4451,9 @@ $messages['zh-hant'] = array(
 	'error_on_commons' => '原始檔案已在 $1 ！',
 	'error_file_exists' => '檔案已經在$3上存在，檔案名為「$1$4$2」！',
 	'error_diff_exists' => '根據同名的目標維基上存在不同的目標檔案！',
-	'error_no_meta' => '未找到關於該來源維基的元數據！ $1請為該項目添加/更新元數據$2',
-	'error_meta_no_good' => '元數據：找不到合適模板！$1請添加或更新改項目的元數據$2',
-	'error_meta_bad' => '元數據：找到不合適模板！$1請添加或更新改項目的元數據$2',
+	'error_no_meta' => '未找到關於該來源 wiki 的後設資料！ $1請為該項目添加/更新後設資料$2',
+	'error_meta_no_good' => '元資料：找不到合適模板！ $1 請添加或更新改專案的元資料 $2',
+	'error_meta_bad' => '後設資料：找到不合適模板！$1請添加或更新改項目的後設資料$2',
 	'original_wikitext' => '原始維基文本',
 	'new_wikitext' => '新的維基文字',
 	'new_filename' => '新檔案名稱：',

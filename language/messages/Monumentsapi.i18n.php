@@ -957,8 +957,8 @@ $messages['diq'] = array(
 	'db-field-st_address_pct' => 'Adresê %',
 	'db-field-st_coordinates' => 'Koordinati',
 	'db-field-st_coordinates_pct' => 'Koordinati %',
-	'db-field-st_image' => 'Resim',
-	'db-field-st_image_pct' => 'Resim %',
+	'db-field-st_image' => 'Resım',
+	'db-field-st_image_pct' => 'Resım %',
 	'db-field-st_municipality' => 'Belediya',
 	'db-field-st_municipality_pct' => 'Belediya %',
 	'db-field-st_name' => 'Namey',
@@ -1489,16 +1489,32 @@ $messages['frp'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
+	'search-table-th-field' => 'Fjild',
 	'search-table-th-search' => 'Sykje',
+	'filter-all-countries' => 'Alle lannen',
+	'filter-all-languages' => 'Alle talen',
 	'db-field-country' => 'Lân',
 	'db-field-lang' => 'Taal',
+	'db-field-id' => 'ID',
 	'db-field-name' => 'Namme',
+	'db-field-address' => 'Adres',
+	'db-field-municipality' => 'Gemeente',
 	'db-field-lat' => 'Breedtegraad',
+	'db-field-lon' => 'Lingtegraad',
 	'db-field-image' => 'Ôfbylding',
+	'db-field-source' => 'Boarne',
+	'db-field-monument_article' => 'Monumintartikel',
+	'db-field-st_address' => 'Adressen',
+	'db-field-st_address_pct' => 'Adressen %',
 	'db-field-st_coordinates' => 'Koördinaten',
 	'db-field-st_coordinates_pct' => 'Koördinaten %',
 	'db-field-st_image' => 'Ôfbylding',
 	'db-field-st_image_pct' => 'Ôfbylding %',
+	'db-field-st_municipality' => 'Gemeente',
+	'db-field-st_municipality_pct' => 'Gemeente %',
+	'db-field-st_name' => 'Nammen',
+	'db-field-st_name_pct' => 'Nammen %',
+	'toolbox-nav-statistics' => 'Statistiken',
 	'toolbox-nav-search' => 'Sykje',
 	'location' => 'Lokaasje',
 );
@@ -2243,9 +2259,9 @@ $messages['ksh'] = array(
 	'search-table-th-filter' => 'Ußwähle',
 	'search-table-th-search' => 'Söhke',
 	'filter-all-countries' => 'All de Länder',
-	'filter-all-languages' => 'All Schprooche',
+	'filter-all-languages' => 'Alle Schprohche',
 	'db-field-country' => 'Schtaat',
-	'db-field-lang' => 'Schprooch',
+	'db-field-lang' => 'Schprohch',
 	'db-field-id' => 'Kännong',
 	'db-field-name' => 'Naame',
 	'db-field-address' => 'Aanschreff',
@@ -3016,6 +3032,7 @@ $messages['pfl'] = array(
 );
 
 /** Polish (polski)
+ * @author Alan ffm
  * @author BeginaFelicysym
  * @author Matma Rex
  * @author Odder
@@ -3065,7 +3082,7 @@ $messages['pl'] = array(
 	'toolbox-nav-search' => 'Szukaj',
 	'toolbox-title-searchmonuments' => 'Szukaj zabytków',
 	'location' => 'Lokalizacja',
-	'source-monuments-list-on-wikipedia' => 'Lista zabytków na Wikipedii',
+	'source-monuments-list-on-wikipedia' => 'Lista zabytków w Wikipedii',
 );
 
 /** Piedmontese (Piemontèis)
@@ -4271,6 +4288,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Cwlin0416
+ * @author Liuxinyu970226
  * @author Shirayuki
  * @author Simon Shek
  */
