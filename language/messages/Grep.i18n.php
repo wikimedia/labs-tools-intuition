@@ -639,6 +639,7 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'regex' => '正規表示法',
+	'namespace-label' => '命名空間',
 );
 
 /** Chinese (Taiwan) (中文（台灣）‎)

@@ -663,6 +663,7 @@ $messages['zh-hans'] = array(
  * @author Liuxinyu970226
  */
 $messages['zh-hant'] = array(
+	'label-namespace' => '命名空間',
 	'label-limit' => '限制',
 	'istemplate' => '引用',
 	'section-links' => '連結',

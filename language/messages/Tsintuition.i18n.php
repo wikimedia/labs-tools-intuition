@@ -2630,6 +2630,7 @@ $messages['vi'] = array(
 );
 
 /** Yiddish (ייִדיש)
+ * @author Har-wradim
  * @author פוילישער
  */
 $messages['yi'] = array(
@@ -2646,7 +2647,7 @@ $messages['yi'] = array(
 	'tab-settings' => 'איינשטעלונגען',
 	'tab-about' => 'וועגן',
 	'tab-demo' => 'דעמא',
-	'bl-mysettings' => 'מײַנע שפראך איינשטעלונגען',
+	'bl-mysettings' => 'מיינע שפּראַך איינשטעלונגען',
 	'bl-mysettings-new' => 'ענדערן שפראך!',
 	'bl-promo' => 'איבערזעצונגען דערמעגלעכט דורך $1 און $2.',
 	'usage' => 'געצייג איבערגעזעצט דורך Intuition.',

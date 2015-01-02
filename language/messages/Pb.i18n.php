@@ -1300,6 +1300,7 @@ $messages['zh-hans'] = array(
  * @author Liuxinyu970226
  */
 $messages['zh-hant'] = array(
+	'pb-about-pb-navi' => '關於',
 	'pb-user' => '使用者',
 	'pb-users-navi' => '使用者',
 );

@@ -1915,5 +1915,6 @@ $messages['zh-hant'] = array(
 	'documentation' => '說明文件',
 	'filter' => '篩選器',
 	'limit' => '限制',
+	'namespace' => '命名空間',
 	'typeNew' => '新頁面',
 );
