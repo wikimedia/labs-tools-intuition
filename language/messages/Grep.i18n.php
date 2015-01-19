@@ -63,6 +63,21 @@ See also:
 	'match-count' => 'Appears above a list of results. $1 is a whole number (integer) greater than or equal to 1',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'explanation' => 'تفسير',
+	'regex' => 'تعبير منتظم',
+	'enter-details' => 'أدخل التفاصيل',
+	'results' => 'النتائج',
+	'language-label' => 'اللغة',
+	'namespace-label' => 'النطاق',
+	'project-label' => 'المشروع',
+	'pattern-label' => 'النمط',
+	'redirects-label' => 'تضمين التحويلات',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -577,6 +592,18 @@ $messages['uk'] = array(
 	'limit-label' => 'Обмежувати відображення першими 100 результатами',
 	'error-zeroresults' => 'Немає сторінок в просторі імен з назвами відповідних вашому регулярному виразу.',
 	'match-count' => '{{PLURAL:$1|$1 сторінка відповідає|$1 сторінок відповідають|$1 сторінки відповідають}} вашому регулярному виразу.',
+);
+
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'results' => 'نتائج',
+	'language-label' => 'زبان',
+	'namespace-label' => 'فضائے نام',
+	'project-label' => 'منصوبہ',
+	'pattern-label' => 'طرز',
+	'redirects-label' => 'رجوع مکررات شامل',
 );
 
 /** Vietnamese (Tiếng Việt)

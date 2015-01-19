@@ -4097,6 +4097,36 @@ $messages['uk'] = array(
 	'source-monuments-list-on-wikipedia' => "Список пам'яток у Вікіпедії",
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'search-table-th-field' => 'شعبہ',
+	'search-table-th-filter' => 'فلٹر کریں',
+	'search-table-th-search' => 'تلاش',
+	'filter-all-countries' => 'تمام ممالک',
+	'filter-all-languages' => 'تمام زبانیں',
+	'db-field-country' => 'ملک',
+	'db-field-lang' => 'زبان',
+	'db-field-id' => 'شناخت دار',
+	'db-field-name' => 'نام',
+	'db-field-address' => 'پتہ',
+	'db-field-lat' => 'عرض البلد',
+	'db-field-lon' => 'طول البلد',
+	'db-field-image' => 'تصویر',
+	'db-field-changed' => 'تبدیل کیا گیا',
+	'db-field-source' => 'ماخذ',
+	'db-field-st_coordinates' => 'محددات',
+	'db-field-st_image' => 'تصویر',
+	'db-field-st_image_pct' => 'تصویر %',
+	'db-field-st_name' => 'ناموں',
+	'db-field-st_total' => 'کل نمبر',
+	'toolbox-nav-homepage' => 'مرکزی صفحہ',
+	'toolbox-nav-statistics' => 'اعداد و شمار',
+	'toolbox-nav-search' => 'تلاش',
+	'location' => 'محل وقوع',
+);
+
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
  */

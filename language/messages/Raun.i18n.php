@@ -258,6 +258,26 @@ It is for crediting things (e.g. jQuery) that are used in the tools.',
 {{Identical|Send feedback}}',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'close' => 'إغلاق',
+	'help' => 'مساعدة',
+	'filter' => 'المرشح',
+	'settings' => 'الإعدادات',
+	'fork' => 'الكود المصدري',
+	'stat' => 'الإحصائيات',
+	'settings_tool' => 'الأداة',
+	'language' => 'اللغة',
+	'project' => 'المشروع',
+	'save' => 'حفظ',
+	'settings_pause' => 'إيقاف مؤقت',
+	'settings_run' => 'تشغيل!',
+	'settings_show' => 'أظهر',
+	'settings_wiki' => 'ويكي',
+);
+
 /** Asturian (asturianu)
  * @author Taxandru
  * @author Xuacu
@@ -1943,6 +1963,54 @@ $messages['uk'] = array(
 	'information' => 'Інформація',
 	'credit' => 'Кредит',
 	'send_feedback' => 'Надіслати відгук',
+);
+
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'close' => 'منسوخ',
+	'help' => 'مدد',
+	'filter' => 'فلٹر کریں',
+	'settings' => 'ترتیبات',
+	'fork' => 'مسودہ',
+	'stat' => 'اعداد و شمار',
+	'settings_tool' => 'آلات',
+	'language' => 'زبان',
+	'project' => 'منصوبہ',
+	'save' => 'محفوظ',
+	'settings_pause' => 'روک دیں',
+	'settings_run' => 'چلائے!',
+	'settings_show' => 'دکھائیں',
+	'settings_wiki' => 'ویکی',
+	'settings_bot_edits' => 'بوٹ ترمیم',
+	'settings_minor_edits' => 'معمولی ترمیم',
+	'settings_redirects' => 'رجوع مکررہ صفحہ',
+	'settings_new_pages' => 'جدید صفحات',
+	'settings_editor_edits' => 'ترمیمدار ترمیم',
+	'settings_admin_edits' => 'منتظم ترامیم',
+	'settings_other_edits' => 'دیگر ترامیم',
+	'stat_articles' => 'مندرج صفحات',
+	'stat_pages' => 'صفحات',
+	'stat_files' => 'زبراثقال شدہ ملفات',
+	'stat_edits' => 'صفحہ ترامیم',
+	'stat_depth' => 'گہرائی',
+	'stat_users' => 'رجسٹرڈ صارفین',
+	'stat_active_users' => 'متحرک صارفین',
+	'stat_admins' => 'منتظمین',
+	'separator_thousands' => '،',
+	'separator_decimals' => '۔',
+	'main_page' => 'صفحہ',
+	'main_user' => 'صارف',
+	'main_info' => 'معلومات',
+	'new' => 'نئے',
+	'minor' => 'معمولی',
+	'redirect' => 'رجوع مکرر',
+	'editor' => 'منتظم',
+	'admin' => 'منتظم',
+	'help_legend' => 'علامات',
+	'color' => 'رنگ',
+	'about' => 'تعارف',
 );
 
 /** Vietnamese (Tiếng Việt)

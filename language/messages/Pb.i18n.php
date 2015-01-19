@@ -1224,6 +1224,24 @@ $messages['uk'] = array(
 	'pb-verified-since' => 'Перевірено з',
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'pb-about-pb-navi' => 'تعارف',
+	'pb-change-language' => 'زبان تبدیل کریں',
+	'pb-comment' => 'تبصرہ',
+	'pb-confirmations-given' => 'دئے گئے مصدقات',
+	'pb-confirmations-taken' => 'موصول مصدقات',
+	'pb-current-figures' => 'موجودہ فیگر',
+	'pb-date' => 'تاریخ',
+	'pb-home' => 'گھر',
+	'pb-labs-name' => 'ویکیمیڈیا ہتیار لیبیں',
+	'pb-participates-since' => 'سے مشترک ہے',
+	'pb-user' => 'صارف',
+	'pb-users-navi' => 'صارفین',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */

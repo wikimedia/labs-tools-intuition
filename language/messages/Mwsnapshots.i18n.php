@@ -128,6 +128,7 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author DRIHEM
+ * @author Meno25
  * @author أحمد
  */
 $messages['ar'] = array(
@@ -136,9 +137,10 @@ $messages['ar'] = array(
 	'title-updatelog' => 'سجل التحديث',
 	'updatelog-intro' => 'سكربت التحديث مُجدوَل ليشتغل كل ساعة. المسرود أدناه مخرجات آخر تشغيلة.',
 	'updatelog-active' => 'سكربت التحديث قيد التشغيل حاليا. عد لاحقا لمطالعة سِجِلِّ الشغل كاملا.',
-	'download-button' => 'نزِّل $1', # Fuzzy
+	'download-button' => 'تحميل نسخة',
 	'download-directlink' => 'رابط مباشر',
-	'title-downloadpage' => 'تنزيل: $1', # Fuzzy
+	'title-downloadpage' => 'تحميل',
+	'title-downloadpage-repo' => 'تحميل $1',
 	'err-snapshotindex' => 'فهرس اللقطات غير متاح مؤقتا. حاول لاحقا.',
 	'err-invalid-repo' => 'مستودع غير معروف: "$1".',
 	'err-invalid-branch' => 'فرع غير معروف: "$1" في مستودع "$2".',
@@ -466,6 +468,7 @@ $messages['cv'] = array(
 
 /** Danish (dansk)
  * @author Christian List
+ * @author Macofe
  * @author Sarrus
  * @author Tjernobyl
  */
@@ -478,6 +481,7 @@ $messages['da'] = array(
 	'download-button' => 'Download $1', # Fuzzy
 	'download-directlink' => 'direkte link',
 	'title-downloadpage' => 'Download: $1', # Fuzzy
+	'title-downloadpage-repo' => 'Hent $1',
 	'err-noupdatelog' => 'Ingen opdateringslog blev fundet.',
 	'repo-site-link' => 'Hjemmeside',
 	'repo-lastmoddate-label' => 'Dato:',
@@ -1777,9 +1781,10 @@ $messages['roa-tara'] = array(
 	'title-updatelog' => 'Archivije de le carecaminde',
 	'updatelog-intro' => "'U script de aggiornamende jè schedulate pe essere eseguite ogne ore. Sotte ste 'u resultate de l'urtema esecuzione.",
 	'updatelog-active' => "'U script de aggiornamende jndr'à stu mumende jè in esecuzione. Tuèrne cchiù tarde pe l'archivije comblete.",
-	'download-button' => 'Scareche $1', # Fuzzy
+	'download-button' => "Scareche 'u snapshot",
 	'download-directlink' => 'collegamende dirette',
-	'title-downloadpage' => 'Scareche: $1', # Fuzzy
+	'title-downloadpage' => 'Scareche',
+	'title-downloadpage-repo' => 'Scareche $1',
 	'err-snapshotindex' => "Indice de l'istandanèe non gè disponibbele temboraneamende. Pe piacere pruève arrete cchiù tarde.",
 	'err-invalid-repo' => 'Archivije scanusciute: "$1".',
 	'err-invalid-branch' => 'Rame scanusciute; "$1" jndr\'à l\'archivije "$2".',
@@ -2183,6 +2188,19 @@ $messages['uk'] = array(
 	'tablehead-branch' => 'Гілка',
 	'tablehead-filesize' => 'Розмір файлу',
 	'tablehead-hash' => 'Контрольні суми',
+);
+
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'repo-site-link' => 'ویب سائٹ',
+	'repo-branches-label' => 'شاخیں:',
+	'repo-lastmoddate-label' => 'تاریخ:',
+	'branches-submit-button' => 'حاصل کریں!',
+	'updatelog-link' => 'لاگ کا پڑتال',
+	'tablehead-branch' => 'شاخ',
+	'tablehead-filesize' => 'حجم ملف',
 );
 
 /** Uzbek (oʻzbekcha)

@@ -48,6 +48,19 @@ See also:
 * {{msg-intuition|cvnoverlay-reason}}',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'adder' => 'الجامع',
+	'adder-empty' => 'غير معروف',
+	'expiry' => 'انتهاء',
+	'globalwatched' => 'مشاهدة عامة',
+	'lastupdate-db' => 'آخر تحديث: $1',
+	'reason' => 'السبب',
+	'reason-empty' => 'لم يتم العثور على سبب',
+);
+
 /** Breton (brezhoneg)
  * @author Gwenn-Ael
  */
@@ -93,10 +106,13 @@ $messages['de'] = array(
 
 /** Spanish (español)
  * @author Macofe
+ * @author VegaDark
  */
 $messages['es'] = array(
+	'adder' => 'Agregador',
 	'adder-empty' => 'Desconocido',
 	'expiry' => 'Caducidad',
+	'globalwatched' => 'Visto globalmente',
 	'lastupdate-db' => 'Última actualización: $1',
 	'reason' => 'Motivo',
 	'reason-empty' => 'No se encontraron motivos',
@@ -241,21 +257,37 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'adder' => 'Tilläggare',
+	'adder-empty' => 'Okänd',
+	'expiry' => 'Utgången',
 	'globalwatched' => 'Globalt bevakad',
 	'lastupdate-db' => 'Senaste uppdatering: $1',
 	'reason' => 'Orsak',
 	'reason-empty' => 'Ingen orsak hittades',
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'adder-empty' => 'نامعلوم',
+	'expiry' => 'ختم:',
+	'reason' => 'وجہ',
+	'reason-empty' => 'کوئی وجہ نہیں',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'adder' => 'צולייגער',
 	'adder-empty' => 'אומבאַוואוסט',
 	'expiry' => 'אויסגיין:',
+	'globalwatched' => 'גלאבאל אויפגעפאסט',
 	'lastupdate-db' => 'לעצט דערהײַנטיקט: $1',
 	'reason' => 'אורזאַך',
 	'reason-empty' => 'קיין אורזאך נישט געטראפן',

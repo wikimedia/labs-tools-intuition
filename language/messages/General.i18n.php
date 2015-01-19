@@ -139,12 +139,14 @@ $messages['am'] = array(
 $messages['ar'] = array(
 	'hello' => 'أهلاّ بك',
 	'welcome' => 'مرحبا',
+	'toolversion' => 'النسخة $1',
 	'toolversionstamp' => 'الإصدار $1 ($2)',
 	'etc' => 'إلخ.',
 	'namespace' => 'فضاء التسمية',
 	'form-submit' => 'اذهب',
 	'form-reset' => 'صفِّر',
 	'years' => '{{PLURAL: $1||سنة|سنتان|$1 سنين|$1 سنة}}',
+	'months' => '{{PLURAL: $1|شهر|شهور}}',
 	'weeks' => '{{PLURAL:$1||أسبوع|أسبوعان|$1 أسابيع|$1 أسبوعًا|$1 أسبوع}}',
 	'days' => '{{PLURAL: $1|يوم|يوم}}',
 	'hours' => '{{PLURAL: $1|ساعة|ساعة}}',
@@ -384,7 +386,7 @@ $messages['bn'] = array(
 	'minutes' => '{{PLURAL: $1|মিনিট|মিনিট}}',
 	'seconds' => '{{PLURAL: $1|সেকেন্ড|সেকেন্ড}}',
 	'last-modified-date' => 'সর্বশেষ পরিবর্তন: $1',
-	'view-source' => 'সোর্স দেখাও',
+	'view-source' => 'উৎস দেখুন',
 	'and' => '&#32;এবং',
 );
 
@@ -2059,6 +2061,7 @@ $messages['roa-tara'] = array(
 	'form-submit' => 'Veje',
 	'form-reset' => 'Azzere',
 	'years' => '{{PLURAL: $1|anne|anne}}',
+	'months' => '{{PLURAL: $1|mese|mise}}',
 	'weeks' => '{{PLURAL: $1|sumàne|sumàne}}',
 	'days' => '{{PLURAL: $1|sciurne|sciurne}}',
 	'hours' => '{{PLURAL: $1|ore|ore}}',
@@ -2545,6 +2548,20 @@ $messages['uk'] = array(
 	'and' => '&#32;і',
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'hello' => 'ہیلو',
+	'welcome' => 'خوش آمدید',
+	'toolversion' => 'ورژن $1',
+	'toolversionstamp' => 'ورژن $1 ($2)',
+	'etc' => 'وغیرہ۔',
+	'form-submit' => 'چلو',
+	'form-reset' => 'دوبارہ مرتب کریں',
+	'view-source' => 'مسودہ دکھائے',
+);
+
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
  * @author Sociologist
@@ -2607,6 +2624,7 @@ $messages['yi'] = array(
 	'form-submit' => 'גיין',
 	'form-reset' => 'צוריקשטעלן',
 	'years' => '{{PLURAL:$1|יאר}}',
+	'months' => '{{PLURAL:$1|מאנאַט|מאנאַטן}}',
 	'weeks' => '{{PLURAL:$1|וואך|וואכן}}',
 	'days' => '{{PLURAL:$1|טאג|טעג}}',
 	'hours' => "{{PLURAL:$1|שעה|שעה'ן}}",

@@ -108,21 +108,25 @@ $messages['af'] = array(
  * @author أحمد
  */
 $messages['ar'] = array(
-	'title' => 'OrphanTalk2', # Fuzzy
+	'title' => 'نقاش يتيم',
+	'description' => 'اعثر على صفحات النقاش اليتيمة.',
+	'label-wiki' => 'ويكي',
 	'select-wiki-first' => '(اختر ويكي أولا)',
 	'hideredirects' => 'أخفِ التحويلات',
 	'hidesubpages' => 'أخفِ الصفحات الفرعية',
 	'limit' => 'حد',
 	'page' => 'الصفحة',
+	'tooltip-redirect' => 'هذه الصفحة تحويلة',
 	'output' => 'مخرج',
 	'update' => 'حدّث',
-	'tools-delete' => 'احذف', # Fuzzy
-	'tools-links' => 'روابط', # Fuzzy
-	'tools-subject' => 'موضوع', # Fuzzy
-	'tools-hist' => 'تاريخ', # Fuzzy
-	'tools-curr' => 'حالي', # Fuzzy
-	'tools-globalusage' => 'استخدام عام', # Fuzzy
-	'deletesummary' => 'تنظيف صفحات النقاش اليتيمة عن طريق $1', # Fuzzy
+	'tools-view' => 'عرض',
+	'tools-delete' => 'حذف',
+	'tools-links' => 'ماذا يصل هنا',
+	'tools-subject' => 'صفحة الموضوع',
+	'tools-hist' => 'عرض التاريخ',
+	'tools-curr' => 'آخر تغيير',
+	'tools-globalusage' => 'استخدام الملف',
+	'deletesummary' => '$1: صفحة نقاش يتيمة',
 	'noresults' => 'لا توجد صفحات نقاش يتيمة في هذا الويكي في فضاء التسمية هذا مما يطابق إعداداتك.',
 	'resultslimited' => 'حُدِّدَ عدد النتائج بما لا يزيد على $1 صفحات.',
 );
@@ -1820,21 +1824,25 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'title' => 'OrphanTalk2', # Fuzzy
+	'title' => 'OrphanTalk',
+	'description' => "Iacchie le pàggene de le 'ngazzaminde senze attane.",
+	'label-wiki' => 'Uicchi',
 	'select-wiki-first' => "(scacchie 'na uicchi apprime)",
 	'hideredirects' => 'Scunne le redirezionaminde',
 	'hidesubpages' => 'Scunne sottopàggene',
 	'limit' => 'Limite',
 	'page' => 'Pàgene',
+	'tooltip-redirect' => "Sta pàgene jè 'nu redirezionamende",
 	'output' => 'Resultate',
 	'update' => 'Aggiorne',
-	'tools-delete' => 'scangelle', # Fuzzy
-	'tools-links' => 'colleghe', # Fuzzy
-	'tools-subject' => 'suggette', # Fuzzy
-	'tools-hist' => 'cunde', # Fuzzy
-	'tools-curr' => 'corr', # Fuzzy
-	'tools-globalusage' => 'globalusage', # Fuzzy
-	'deletesummary' => "Pulizze le pàggene de le 'ngazzaminde senze attane cu $1", # Fuzzy
+	'tools-view' => "'Ndruche",
+	'tools-delete' => 'Scangìlle',
+	'tools-links' => 'Appondene aqquà',
+	'tools-subject' => "Pàgene d'u suggette",
+	'tools-hist' => 'Cunde',
+	'tools-curr' => 'Urteme cangiamende',
+	'tools-globalusage' => "Ause d'u file",
+	'deletesummary' => "$1: Pàgene de le 'ngazzaminde senze attane",
 	'noresults' => "Nisciuna pàgene de le 'ngazzaminde orfane sus a sta uicchi jndr'à stu namespace soddisfe le 'mbostaziune tune.",
 	'resultslimited' => 'Resultate limitate a $1 pàggene.',
 );
@@ -2212,6 +2220,26 @@ $messages['uk'] = array(
 	'deletesummary' => '$1: сторінка обговорення-сирота',
 	'noresults' => 'У цій вікі в заданих Вами просторах назв не знайдено сторінок обговорень-сиріт.',
 	'resultslimited' => 'Результати було обмежено $1 сторінками.',
+);
+
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'label-wiki' => 'ویکی',
+	'select-wiki-first' => '(پہلے ایک ویکی منتخب کریں)',
+	'hideredirects' => 'رجوع مکررات چھپائے',
+	'limit' => 'حد',
+	'page' => 'صفحہ',
+	'tooltip-redirect' => 'یہ صفہ ایک رجوع مکرر ہے',
+	'update' => 'پڑتال',
+	'tools-view' => 'دکھائے',
+	'tools-delete' => 'حذف',
+	'tools-links' => 'ادھر کونسا ربط ہے',
+	'tools-subject' => 'صفحۂ صُغرٰی',
+	'tools-hist' => 'تاریخچہ دکھائیے',
+	'tools-curr' => 'آکری تبدیلی',
+	'tools-globalusage' => 'ملف کا استعمال',
 );
 
 /** Uzbek (oʻzbekcha)

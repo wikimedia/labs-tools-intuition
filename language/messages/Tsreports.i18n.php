@@ -67,6 +67,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Liuxinyu970226
  * @author Robby
  */
 $messages['qqq'] = array(
@@ -84,7 +85,8 @@ $messages['qqq'] = array(
 	'category_wikidata' => 'Category for wikidata-related queries (short name)',
 	'select_wiki_title' => 'Select a wiki',
 	'select_wiki' => 'Help text for the wiki selection box',
-	'select_wiki_next' => 'Continue to next step button',
+	'select_wiki_next' => 'Continue to next step button
+{{Identical|Next}}',
 	'select_report_title' => 'Header on report selection page',
 	'select_report' => 'Instruction text on report selection page',
 	'select_report_disabled' => 'Text, shown next to a report, indicating it unavailable.',
@@ -395,6 +397,13 @@ $messages['he'] = array(
 	'report_change_wiki' => '<a href="%(url)s">שינוי ויקי</a>',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'category_wikidata' => 'ვიკიმონაცემები',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -600,6 +609,7 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -612,17 +622,32 @@ $messages['sv'] = array(
 	'category_miscellaneous' => 'Övrigt',
 	'category_wikidata' => 'WikiData',
 	'select_wiki_title' => 'Välj en wiki',
+	'select_wiki' => 'Vänligen ange wikin du vill ha en rapport för (t.ex. "<kbd>sv.på wikipedia.org</kbd>"):',
 	'select_wiki_next' => 'Nästa →',
+	'select_report_title' => 'Välj en rapport att köra på %(wiki)s',
 	'select_report' => 'Var god välj en rapport:',
 	'select_report_disabled' => 'Denna rapport är inte tillgänglig.',
+	'select_report_disabled_blurb' => 'Obs: Rapporter <span class="disabled-report">som denna</span> är nattliga frågor som aldrig blivit körda, därför finns det inte några resultat för dessa rapporter. När nästa nattliga rapportkörning är färdig kommer dessa rapporter att bli tillgängliga.',
+	'select_report_not_cached' => 'Det finns ingen cachad version av denna rapport. Klicka på länken för att starta den första körningen.',
+	'select_report_first' => 'Denna rapport har upprättats för första gången, och bör vara tillgänglig snart.',
 	'select_report_hot' => 'En cachelagrad version av denna rapport, %(age)s gammal, finns tillgänglig.',
 	'select_report_cold_running' => 'En cachelagrad version av denna rapport, %(age)s gammal, finns tillgänglig. En ny version förväntas om %(eta)s.',
 	'select_report_cold_not_running' => 'En cachelagrad version av denna rapport, %(age)s gammal, finns tillgänglig. En ny version kommer att förberedas om du granskar den aktuella rapporten, och kommer att vara redo om ungefär %(eta)s.',
+	'select_report_no_reports' => 'Tyvärr, det finns inga rapporter tillgängliga för %(wiki)s vid denna tid.',
 	'select_report_go_back' => '← Byt wiki',
+	'qvar_title' => 'Ange variabler för din fråga',
+	'qvar_blurb' => 'Din fråga kräver att en del variabler anges',
 	'qvar_next' => 'Nästa →',
+	'prefs_title' => 'Rapporterar inställningar',
 	'prefs_submit' => 'OK',
+	'prefs_done' => 'Dina inställningar har ändrats.',
 	'prefs_langlabel' => 'Gränssnittsspråk:',
 	'report_wascached' => 'Denna rapport cachelagrades %(age)s sedan.',
+	'report_nocache' => 'Denna rapport är schemalagd att omgenererad under natten, men har inte körts ännu, så det finns inga data tillgängliga.',
+	'report_first_run' => 'Denna rapport genereras för första gången, så ingen data finns tillgänglig ännu.',
+	'report_last_run_duration' => 'Denna rapport har genererats på %(duration)s.',
+	'report_variables_used' => 'Följande variabler användes för att generera denna rapport:',
+	'report_noresults' => 'Tyvärr, denna rapport gav inget resultat.',
 	'report_change_report' => '<a href="%(url)s">Byt rapport</a>',
 	'report_change_wiki' => '<a href="%(url)s">Byt wiki</a>',
 );

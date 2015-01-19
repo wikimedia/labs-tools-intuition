@@ -124,7 +124,7 @@ $messages['af'] = array(
 $messages['ar'] = array(
 	'fullname' => 'أقلمة واجهة مستخدم Toolserver', # Fuzzy
 	'current-settings' => 'الإعدادات الحالية',
-	'current-language' => 'اللغة المختارة حاليا', # Fuzzy
+	'current-language' => 'اللغة المختارة',
 	'settings-legend' => 'الإعدادات',
 	'choose-language' => 'اختر لغة',
 	'clear-cookies' => 'امسح الكوكيز',
@@ -139,10 +139,10 @@ $messages['ar'] = array(
 	'bl-mysettings' => 'إعدادات لغتي',
 	'bl-mysettings-new' => 'غير اللغة!',
 	'bl-promo' => 'يدعم هذه الترجمات كل من $1 و $2.',
-	'bl-changelanguage' => 'أضغط هنا لتغيير لغة الواجهة لهذه الأدات.', # Fuzzy
-	'usage' => 'تمت ترجمة الأدوات عن طريق Toolserver Intuition.', # Fuzzy
+	'bl-changelanguage' => 'غير لغة الواجهة لهذه الأداة.',
+	'usage' => 'الأدوات التي تمت ترجمتها بواسطة Intuition.',
 	'help-translate-tool' => 'ساعد في ترجمة هذه الأداة!',
-	'help-translate-all' => 'ساعد في ترجمة Toolserver.', # Fuzzy
+	'help-translate-all' => 'ساعد في ترجمة الأدوات!',
 	'help-translate-tooltip' => 'ساعد الآخرين بترجمة رسائل الواجهة إلى لغتك الأم.',
 );
 
@@ -2118,7 +2118,7 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'fullname' => "'Ndernazzionalizzazzione de le struminde",
 	'current-settings' => "'Mbostaziune corrende",
-	'current-language' => 'Lènga scacchiate de mò', # Fuzzy
+	'current-language' => 'Lènga scacchiate',
 	'settings-legend' => "'Mbostaziune",
 	'choose-language' => "Scacchie 'na lènghe",
 	'clear-cookies' => 'pulizze le cookie',
@@ -2133,7 +2133,7 @@ $messages['roa-tara'] = array(
 	'bl-mysettings' => "'Mbostaziune d'a lènga meje",
 	'bl-mysettings-new' => "Cange 'a lènghe!",
 	'bl-promo' => 'Le traduziune sonde sostenute da $1 e $2.',
-	'bl-changelanguage' => "Cazze aqquà pe cangià l'inderfacce d'a lènghe de stu strumende.", # Fuzzy
+	'bl-changelanguage' => "Cange l'inderfacce d'a lènghe de stu strumende.",
 	'usage' => 'Struminde tradotte da Intuition.',
 	'help-translate-tool' => "Danne 'na màne a traducere stu strumende!",
 	'help-translate-all' => "Danne 'na màne a traducere le struminde!",
@@ -2601,6 +2601,26 @@ $messages['uk'] = array(
 	'help-translate-tooltip' => 'Допоможіть іншим, перекладаючи повідомлення інтерфейсу на Вашу мову.',
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'current-settings' => 'حالیہ ترتیبات',
+	'current-language' => 'منتخب زبان',
+	'settings-legend' => 'ترتیبات',
+	'choose-language' => 'ایک زبان کا انتخاب کریں',
+	'clear-cookies' => 'کوکیاں صاف کریں',
+	'renew-cookies' => 'کوکیاں نئے کریں',
+	'cookie-expiration' => 'کوکیاں ایکسپائر ہونا',
+	'clearcookies-success' => 'کوکیاں صاف کئے گئے',
+	'tab-overview' => 'پس منظر',
+	'tab-settings' => 'ترتیبات',
+	'tab-about' => 'تعارف',
+	'tab-demo' => 'ڈیمو',
+	'bl-mysettings' => 'میرے زبان کی ترتیبات',
+	'bl-mysettings-new' => 'زبان تبدیل کریں!',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
@@ -2634,6 +2654,7 @@ $messages['vi'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'fullname' => 'אינטערנאציאנאלעזאציע פאר געצייג',
 	'current-settings' => 'אקטועלע אײַנשטעלונגען',
 	'current-language' => 'אויסגעקליבענע שפראַך',
 	'settings-legend' => 'איינשטעלונגען',
@@ -2650,9 +2671,11 @@ $messages['yi'] = array(
 	'bl-mysettings' => 'מיינע שפּראַך איינשטעלונגען',
 	'bl-mysettings-new' => 'ענדערן שפראך!',
 	'bl-promo' => 'איבערזעצונגען דערמעגלעכט דורך $1 און $2.',
+	'bl-changelanguage' => 'ענדערן די באניצער־אייבערפלאך שפראך פון דעם געצייג.',
 	'usage' => 'געצייג איבערגעזעצט דורך Intuition.',
 	'help-translate-tool' => 'העלפט איבערזעצן דעם מכשיר.',
 	'help-translate-all' => 'העלפט איבערזעצן די געצייג.',
+	'help-translate-tooltip' => 'העלפט אנדערע דורך איבערזעצן באניצער־אייבערפלאך מעלדונגען אויף אייער שפראך.',
 );
 
 /** Simplified Chinese (中文（简体）‎)
@@ -2682,7 +2705,7 @@ $messages['zh-hans'] = array(
 	'bl-mysettings-new' => '更改语言！',
 	'bl-promo' => '翻译采用 $1 和 $2。',
 	'bl-changelanguage' => '更改该工具的界面语言。',
-	'usage' => '工具翻译由 Intuition 提供。',
+	'usage' => '由 Intuition 提供翻译的工具。',
 	'help-translate-tool' => '帮助翻译此工具！',
 	'help-translate-all' => '帮助翻译工具！',
 	'help-translate-tooltip' => '帮助其他人把界面翻译成您的语言。',

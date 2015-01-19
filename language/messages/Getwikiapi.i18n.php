@@ -59,6 +59,7 @@ $messages['af'] = array(
  * @author أحمد
  */
 $messages['ar'] = array(
+	'description' => 'معلومات ميتا حول ويكيات ويكيميديا.',
 	'formats-heading' => 'صيغ المخرجات',
 	'input' => 'مدخل',
 	'label-wikiids' => 'مُعَرَِّفات الويكي',
@@ -766,6 +767,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'description' => "'Mbormaziune meta sus a le uicchi de Uicchimedia.",
 	'formats-heading' => 'Formate de le resultate',
 	'input' => 'Ingresse',
 	'label-wikiids' => 'Idendificature de Uicchi',

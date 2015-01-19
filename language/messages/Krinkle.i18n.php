@@ -977,6 +977,16 @@ $messages['uk'] = array(
 	'form-legend-settings' => 'Налаштування',
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'alws-selectwiki' => '(ویکی منتخب کریں)',
+	'alws-group-mustused' => 'زیادہ استمال شدہ ویکی',
+	'alws-group-allaz' => 'تمام ویکی حروف ترتیبوار',
+	'form-legend-settings' => 'ترتیبات',
+);
+
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
  */
@@ -1017,11 +1027,12 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author LNDDYL
  * @author Liuxinyu970226
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
-	'alws-label' => '維基',
+	'alws-label' => 'Wiki',
 	'alws-selectwiki' => '（選擇維基）',
 	'alws-group-mustused' => '最常用皫維基',
 	'alws-group-allaz' => '所有維基按字母順序',

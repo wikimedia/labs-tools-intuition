@@ -666,6 +666,7 @@ $messages['zh-hant'] = array(
 	'label-namespace' => '命名空間',
 	'label-limit' => '限制',
 	'istemplate' => '引用',
+	'isfile' => '檔案連結',
 	'section-links' => '連結',
 	'section-categories' => '分類',
 );

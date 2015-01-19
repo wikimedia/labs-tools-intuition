@@ -625,7 +625,7 @@ $messages['bn'] = array(
 	'do_it' => 'সম্পন্ন করো',
 	'error_transfer_usr' => 'আপনি উইকিমিডিয়া কমন্সের ব্যবহারকারী নাম প্রদান করেননি',
 	'error_not_exists' => 'উৎস ফাইল পাওয়া যায়নি!',
-	'error_on_commons' => 'সোর্স ফাইল পূর্বেই $1 এ রয়েছে',
+	'error_on_commons' => 'উৎস ফাইল পূর্বেই $1 এ রয়েছে!',
 	'error_file_exists' => 'ফাইল $3-এ ইতিমধ্যে "$1$4$2" হিসাবে বিদ্যমান!',
 	'error_diff_exists' => 'ভিন্ন লক্ষ্য ফাইল একই নামের অধীনে লক্ষ্য উইকিতে বিদ্যমান!',
 	'error_no_meta' => 'উৎস উইকি সম্পর্কে মেটাডেটা খুঁজে পাওয়া যায়নি! $1দয়া করে প্রকল্পের জন্য মেটাডাটা যোগ/হালনাগাদ করুন$2',
@@ -4235,6 +4235,30 @@ $messages['uk'] = array(
 	'help_commons' => '$1Додати повідомлення на Commons$2',
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'attention' => 'خبردار',
+	'language' => 'زبان',
+	'project' => 'منصوبہ',
+	'source_file' => 'مسودہ فائل',
+	'target_file' => 'ہدف فائل',
+	'commons_username' => 'ویکیمیڈیا العام صارف نام',
+	'categories' => 'زمرہ جات',
+	'remove_cats' => 'موجودہ زمروں کو حذف کریں',
+	'do_it' => 'اسے کریں',
+	'error_transfer_usr' => 'آپ نے ویکیمیڈیا العام نام نہیں چُنا ہے',
+	'error_not_exists' => 'ماخذ صفحہ موجود نہیں',
+	'error_on_commons' => 'ماخذ فائل پہلے سے $1 پر !',
+	'original_wikitext' => 'اصلی ویکی ٹکسٹ',
+	'new_wikitext' => 'نیا ویکی ٹکسٹ',
+	'new_filename' => 'نیا ملف نام',
+	'upload_submit' => 'اپ لوڈ کریں!',
+	'target_wiki' => 'ہدف ویکی',
+	'error_bot_blocked' => 'اپلوڈ بوٹ ویکیمیڈیا العام پر منع کیا گیا ہے',
+);
+
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
  * @author Sociologist
@@ -4340,8 +4364,11 @@ $messages['yi'] = array(
 	'target_file' => 'ציל טעקע',
 	'commons_username' => 'וויקיפעדיע קאמאנס באניצער נאמען',
 	'commons_to_project' => 'וויקיפעדיע קאמאנס פראיעקט',
+	'move_file_from_com' => 'באוועגן טעקע פון וויקימעדיע קאמאנס צום פראיעקט',
 	'categories' => 'קאַטעגאָריעס',
 	'remove_cats' => 'אראפנעמען עקזיסטירנדע קאטעגאריעס',
+	'use_checkusage' => 'ניצן $1CommonSense$2 פארשלאגן נייע קאטעגאריעס',
+	'use_tusc' => 'ניצן $1TUSC$2 כדי אויטענטיפיצירן און באוועגן די טעקע גלייך',
 	'tusc_user' => 'TUSC באניצער־נאמען',
 	'tusc_pass' => 'TUSC פאסווארט',
 	'do_it' => 'אויספירן',
@@ -4354,6 +4381,7 @@ $messages['yi'] = array(
 	'new_filename' => 'נײַער טעקע־נאמען:',
 	'upload_submit' => 'אַרויפֿלאָדן!',
 	'target_wiki' => 'ציל־וויקי',
+	'error_upload_file' => 'די אריגינעלע טעקע קען מען נישט אראפלאדן.',
 	'help_mail' => 'שיקן פאסט צו $1',
 );
 
@@ -4454,7 +4482,7 @@ $messages['zh-hant'] = array(
 	'error_no_meta' => '未找到關於該來源 wiki 的後設資料！ $1請為該項目添加/更新後設資料$2',
 	'error_meta_no_good' => '元資料：找不到合適模板！ $1 請添加或更新改專案的元資料 $2',
 	'error_meta_bad' => '後設資料：找到不合適模板！$1請添加或更新改項目的後設資料$2',
-	'original_wikitext' => '原始維基文本',
+	'original_wikitext' => '原始維基文字',
 	'new_wikitext' => '新的維基文字',
 	'new_filename' => '新檔案名稱：',
 	'output_information' => '對於手動上載，編輯上述文本（如果需要），儲存 $1檔案$2 到您的電腦，然後 $3將其上傳$4。',

@@ -3304,6 +3304,20 @@ Linux/Mac OS:
 	'scaling-both' => ', масштабований до максимального розміру $1x$2 пікселів',
 );
 
+/** Urdu (اردو)
+ * @author عثمان خان شاہ
+ */
+$messages['ur'] = array(
+	'project' => 'منصوبہ:',
+	'category' => 'زمرہ:',
+	'thumbnailing' => 'اظفورہ',
+	'invalid-width' => 'غیرمناسب چوڑائی',
+	'invalid-height' => 'غیرمناسب لمبائی',
+	'no-such-project' => 'ایسا کوئی منصوبہ موجود نہیں',
+	'no-images' => 'اس زمرے میں کوئی تصویر نہیں',
+	'download' => 'ڈاؤن لوڈ',
+);
+
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
  * @author Sociologist
