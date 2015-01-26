@@ -100,7 +100,8 @@ $messages['qqq'] = array(
 	'select_report_go_back' => 'Button to change the wiki to run reports on',
 	'qvar_title' => 'Header on variable selection page',
 	'qvar_blurb' => 'Variable selection page instruction',
-	'qvar_next' => 'Continue to next step button',
+	'qvar_next' => 'Continue to next step button
+{{Identical|Next}}',
 	'prefs_title' => 'Header on preferences page',
 	'prefs_submit' => 'Button to submit changes
 {{Identical|OK}}',
@@ -253,6 +254,9 @@ $messages['es'] = array(
 	'prefs_langlabel' => 'Idioma de la interfaz:',
 	'report_wascached' => 'Este informe fue "cacheado" hace %(age)s.',
 	'report_nocache' => 'Este informe está programado para ser regenerado cada noche, pero no se ha ejecutado aún, por lo que no hay datos disponibles.',
+	'report_first_run' => 'Este informe se está generando por primera vez, así que aún no hay datos disponibles.',
+	'report_last_run_duration' => 'Este informe se generó en %(duration)s.',
+	'report_variables_used' => 'Las siguientes variables se usaron para generar este informe:',
 	'report_noresults' => 'Este informe no produjo ningún resultado.',
 	'report_change_report' => '<a href="%(url)s">Cambiar informe</a>',
 	'report_change_wiki' => '<a href="%(url)s">Cambiar wiki</a>',
@@ -706,13 +710,13 @@ $messages['zh-hans'] = array(
 	'select_report_no_reports' => '对不起，此时没有%(wiki)s可用的报告',
 	'select_report_go_back' => '更改 wiki',
 	'qvar_title' => '为你的查询输入变量',
-	'qvar_blurb' => '你需要输入一些变量而并用于你的查询。',
+	'qvar_blurb' => '您的查询需要输入一些变量',
 	'qvar_next' => '下一步 →',
 	'prefs_title' => '报告设置',
 	'prefs_submit' => '确认',
-	'prefs_done' => '你的偏好已修改',
-	'prefs_langlabel' => '界面语言',
-	'report_wascached' => '这篇报告的缓存被生成于%(age)s前。',
+	'prefs_done' => '您的设置已更改。',
+	'prefs_langlabel' => '界面语言：',
+	'report_wascached' => '这篇报告的缓存生成于%(age)s前。',
 	'report_cold_cache_running' => '%(runtime)s前开始（重新）生成缓存。',
 	'report_cold_cache_started' => '缓存已开始（重新）生成。',
 	'report_nocache' => '此报告已安排每夜再生，但尚未运行，因此目前没有可用数据。',
@@ -729,6 +733,7 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'category_users' => '使用者',
+	'category_wikidata' => '維基數據',
 );
 
 /** Chinese (Hong Kong) (中文（香港）‎)

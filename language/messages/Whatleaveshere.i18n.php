@@ -180,7 +180,7 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'label-page' => 'АгӀо',
 	'label-limit' => 'Доза тохар',
-	'button-submit' => 'Лаха',
+	'button-submit' => 'Каро',
 	'section-links' => 'Хьажоргаш',
 	'section-categories' => 'Категореш',
 );
@@ -644,7 +644,7 @@ $messages['zh-hans'] = array(
 	'label-page' => '页面',
 	'label-namespace' => '名字空间',
 	'label-limit' => '限制',
-	'button-submit' => '前往',
+	'button-submit' => '提交',
 	'noleaveshere' => '没有链接自$1',
 	'link-whatleaveshere' => '链出页面',
 	'tooltip-whatleaveshere' => '自此链接的页面列表',

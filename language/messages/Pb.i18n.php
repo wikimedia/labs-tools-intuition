@@ -1048,6 +1048,16 @@ $messages['ro'] = array(
 	'pb-verified-since' => 'Verificat din',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'pb-about-pb-navi' => 'Sus a',
+	'pb-comment' => 'Commende',
+	'pb-confirmations-given' => 'Conferme date',
+	'pb-confirmations-taken' => 'Conferme ricevute',
+);
+
 /** Russian (русский)
  * @author Okras
  */

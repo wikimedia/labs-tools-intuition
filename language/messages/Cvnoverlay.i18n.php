@@ -236,6 +236,19 @@ $messages['pt'] = array(
 	'reason' => 'Motivo',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'adder' => 'Aggiunde',
+	'adder-empty' => 'Scanusciute',
+	'expiry' => 'Scadenze',
+	'globalwatched' => 'Viste globbale',
+	'lastupdate-db' => 'Urteme aggiornamende: $1',
+	'reason' => 'Mutive',
+	'reason-empty' => 'Nisciune mutive acchiate',
+);
+
 /** Russian (русский)
  * @author Okras
  */

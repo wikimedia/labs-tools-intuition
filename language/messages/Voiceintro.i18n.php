@@ -566,8 +566,13 @@ $messages['roa-tara'] = array(
 	'voiceintro-toolbar-clear-label' => 'Pulizze',
 	'voiceintro-toolbar-upload-label' => 'Careche',
 	'voiceintro-webaudio-not-supported' => "API WebAudio non g'è supportate pe stu browser",
+	'voiceintro-upload-publish-succeeded' => 'Reggistrazzione carecate:',
+	'voiceintro-upload-publish-failed' => "'A reggistrazzione non g'a state carecate.",
 	'voiceintro-information-label' => "'Mbormaziune",
+	'voiceintro-information-speaker-label' => 'Nome de quidde ca parle:',
 	'voiceintro-information-language-label' => 'Lènghe:',
+	'voiceintro-mic-access-notify' => 'Cazze "Permette" pe permettere a \'u browser de ausà \'u microfone tune.',
+	'voiceintro-recording-notify' => 'Stoche a reggistre...',
 );
 
 /** Russian (русский)

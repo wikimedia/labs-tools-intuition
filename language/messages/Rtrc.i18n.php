@@ -1884,7 +1884,7 @@ $messages['zh-hans'] = array(
 	'lastupdate-rc' => '最后更新：$1',
 	'limit' => '限制',
 	'masspatrol-requires-userfilter' => '由于需要用户筛选器但却全部失效MassPatrol已被禁用。',
-	'months' => '1月、2月、3月、4月、5月、6月、7月、8月、9月、10月、11月、12月',
+	'months' => '1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月',
 	'mypatrollog' => '我的巡查日志',
 	'namespace' => '名字空间',
 	'navtoggle-tooltip' => '切换侧栏',
@@ -1915,6 +1915,7 @@ $messages['zh-hant'] = array(
 	'documentation' => '說明文件',
 	'filter' => '篩選器',
 	'limit' => '限制',
+	'months' => '1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月',
 	'namespace' => '命名空間',
 	'typeNew' => '新頁面',
 );

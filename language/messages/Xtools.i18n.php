@@ -1383,6 +1383,13 @@ $messages['az'] = array(
 	'rfx_page' => 'RfX səhifəsi',
 );
 
+/** Western Balochi (بلوچی رخشانی)
+ * @author Baloch Afghanistan
+ */
+$messages['bgn'] = array(
+	'nowiki' => '$1 یک موتبرین ویکی ئی نه اینت',
+);
+
 /** Bengali (বাংলা)
  * @author Aftab1995
  * @author Aftabuzzaman
@@ -3916,6 +3923,7 @@ $messages['fy'] = array(
 
 /** Galician (galego)
  * @author Chairego apc
+ * @author Toliño
  */
 $messages['gl'] = array(
 	'title_xtools' => 'Ferramentas X!',
@@ -3956,7 +3964,7 @@ $messages['gl'] = array(
 	'toomanyrevisions' => 'Este artigo ten máis de 50.000 revisións. Os datos para as primeiras 50.000 amósanse embaixo.',
 	'interrupted' => 'Sentímolo, pero para aforrar en recursos, un bot interrompeu automaticamente esta consulta por demorar máis de $1 segundos.',
 	'invalid_type' => 'Tipo inválido seleccionado',
-	'invalid_date' => 'Data inválida',
+	'invalid_date' => 'Data non válida',
 	'nocontribs' => 'Non se atoparon contribucións',
 	'nowiki' => '$1 non é un wiki válido',
 	'executed' => 'Executado en $1 segundo(s).',

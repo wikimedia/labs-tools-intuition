@@ -215,10 +215,11 @@ $messages['bs'] = array(
 
 /** Catalan (català)
  * @author SMP
+ * @author Vriullop
  */
 $messages['ca'] = array(
 	'enter-details' => 'Introduïu les dades',
-	'introduction' => "Senzillament, escriviu el nom de la plantilla (de moment només funciona per viquipèdies) i premeu el botó. Existeix una memòria cau que repeteix la llista de resultats, però per desgràcia això està fora del control d'aquesta eina i del seu propietari.",
+	'introduction' => "Simplement, escriviu el nom de la plantilla (de moment només funciona per viquipèdies) i cliqueu el botó. Existeix una memòria cau que repeteix la llista de resultats, però per desgràcia això està fora del control d'aquesta eina i del seu propietari.",
 	'language-label' => 'Idioma',
 	'namespace-label' => 'Espai de noms',
 	'pagename-label' => "Nom de la pàgina (sense l'espai de noms)",

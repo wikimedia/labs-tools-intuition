@@ -803,7 +803,7 @@ $messages['fr'] = array(
  */
 $messages['fy'] = array(
 	'help' => 'Help',
-	'settings' => 'Ynstellings',
+	'settings' => 'Ynstellingen',
 	'language' => 'Taal',
 	'project' => 'Projekt',
 	'time_utc' => 'Tiid yn UTC',

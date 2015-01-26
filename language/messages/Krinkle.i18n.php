@@ -366,7 +366,7 @@ $messages['frp'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
-	'form-legend-settings' => 'Ynstellings',
+	'form-legend-settings' => 'Ynstellingen',
 );
 
 /** Galician (galego)

@@ -953,9 +953,9 @@ $messages['frp'] = array(
  * @author Robin0van0der0vliet
  */
 $messages['fy'] = array(
-	'settings-legend' => 'Ynstellings',
+	'settings-legend' => 'Ynstellingen',
 	'tab-overview' => 'Oersjoch',
-	'tab-settings' => 'Ynstellings',
+	'tab-settings' => 'Ynstellingen',
 	'tab-about' => 'Oer',
 	'tab-demo' => 'Demo',
 );
