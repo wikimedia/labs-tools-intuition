@@ -1,55 +1,75 @@
 (function ($) {
-	var intuition,
+	var intuition, userlang, queueTimeout, queueDeferred,
 		apiPath = 'api.php',
-		messages = {},
-		loaded = {},
-		hasOwn = loaded.hasOwnProperty;
+		queueList = [],
+		requested = {},
+		hasOwn = requested.hasOwnProperty,
+		push = queueList.push,
+		messages = {};
+
+	function handleQueue() {
+		var list = queueList.splice(0, queueList.length),
+			deferred = queueDeferred;
+
+		queueDeferred = queueTimeout = undefined;
+
+		$.ajax({
+			url: apiPath,
+			data: {
+				domains: list.join('|'),
+				userlang: userlang
+			},
+			dataType: $.support.cors ? 'json' : 'jsonp'
+		}).fail(deferred.reject).done(function (data) {
+			if (!data || !data.messages) {
+				return deferred.reject();
+			}
+			$.each(data.messages, intuition.put);
+			deferred.resolve();
+		});
+	}
 
 	intuition = {
-
 		/**
 		 * @param {string|Array} domains
-		 * @param {string} [lang=en]
+		 * @param {string} [lang=en] Only one language is supported. Last one wins.
 		 * @return {jQuery.Promise}
 		 */
 		load: function (domains, lang) {
-			var i, len, d,
-				queue = [];
+			var i,
+				list = [];
 
 			domains = typeof domains === 'string' ? [domains] : domains;
 
-			for (i = 0, len = domains.length; i < len; i++) {
-				if (!hasOwn.call(loaded, domains[i])) {
-					queue.push(domains[i]);
+			for (i = 0; i < domains.length; i++) {
+				if (!hasOwn.call(requested, domains[i])) {
+					requested[domains[i]] = true;
+					list.push(domains[i]);
 				}
 			}
 
-			if (!queue.length) {
-				d = $.Deferred();
-				setTimeout(d.resolve);
-				return d.promise();
+			if (!list.length) {
+				return $.Deferred().resolve();
 			}
 
-			return $.ajax({
-				url: apiPath,
-				data: {
-					domains: queue.join('|'),
-					userlang: lang || 'en'
-				},
-				dataType: 'jsonp'
-			}).then(function (data) {
-				if (!data || !data.messages) {
-					return $.Deferred().reject(data);
-				}
+			// Defer request so we can perform them in batches
+			userlang = lang || 'en';
+			push.apply(queueList, list);
 
-				$.each(data.messages, intuition.put);
-			});
+			if (!queueDeferred) {
+				queueDeferred = $.Deferred();
+			}
+
+			if (queueTimeout) {
+				clearTimeout(queueTimeout);
+			}
+			queueTimeout = setTimeout(handleQueue, 100);
+
+			return queueDeferred.promise();
 		},
 
 		put: function (domain, msgs) {
-			loaded[domain] = true;
-			// Message store might return false instead of an object if the domain was not
-			// found on the intuition server
+			requested[domain] = true;
 			if (msgs) {
 				$.each(msgs, function (key, val) {
 					messages[domain + '-' + key] = val;
