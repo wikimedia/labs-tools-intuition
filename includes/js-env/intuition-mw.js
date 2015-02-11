@@ -50,8 +50,6 @@
 
 		put: function (domain, msgs) {
 			loaded[domain] = true;
-			// Message store might return false instead of an object if the domain was not
-			// found on the intuition server
 			if (msgs) {
 				$.each(msgs, function (key, val) {
 					mw.messages.set(mwMsgPrefix + domain + '-' + key, val);

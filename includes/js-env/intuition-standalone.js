@@ -59,7 +59,7 @@
 
 		/** @return {string} */
 		msg: function (domain, key) {
-			return messages[domain + '-' + key] || ( '<' + key + '>');
+			return messages[domain + '-' + key] || ('<' + key + '>');
 		}
 	};
 

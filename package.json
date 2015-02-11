@@ -10,12 +10,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "grunt": "0.4.2",
+    "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
     "grunt-contrib-jshint": "0.10.0",
     "grunt-contrib-qunit": "0.4.0",
     "grunt-git-authors": "1.2.0",
-    "grunt-jscs-checker": "0.4.1",
+    "grunt-jscs": "1.5.0",
     "grunt-jsonlint": "1.0.4",
     "grunt-update-submodules": "0.3.0"
   }

@@ -10,7 +10,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-qunit');
 	grunt.loadNpmTasks('grunt-git-authors');
-	grunt.loadNpmTasks('grunt-jscs-checker');
+	grunt.loadNpmTasks('grunt-jscs');
 	grunt.loadNpmTasks('grunt-jsonlint');
 	grunt.loadNpmTasks('grunt-update-submodules');
 
@@ -19,10 +19,10 @@ module.exports = function (grunt) {
 			options: {
 				jshintrc: true
 			},
-			all: [ 'Gruntfile.js', 'includes/js-env/*.js' ]
+			all: ['Gruntfile.js', 'includes/js-env/*.js']
 		},
 		jscs: {
-			all: '<%= jshint.all %>',
+			all: '<%= jshint.all %>'
 		},
 		jsonlint: {
 			all: [
