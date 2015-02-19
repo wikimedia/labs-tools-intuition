@@ -445,8 +445,10 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Aldnonymous
+ * @author Kenrick95
  */
 $messages['id'] = array(
+	'description' => 'Informasi meta tentang wiki Wikimedia.',
 	'formats-heading' => 'Format keluaran:',
 	'input' => 'Masukan',
 	'label-wikiids' => 'Pengidentifikasi wiki',

@@ -548,7 +548,7 @@ $messages['diq'] = array(
 	'repo-lastmoddate-label' => 'Deme:',
 	'branches-submit-button' => 'Şo ri!',
 	'tablehead-branch' => 'Lızge',
-	'tablehead-filesize' => 'Ebata dosya',
+	'tablehead-filesize' => 'Ebadê dosya',
 );
 
 /** Lower Sorbian (dolnoserbski)

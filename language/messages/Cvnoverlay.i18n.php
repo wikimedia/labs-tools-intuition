@@ -236,6 +236,13 @@ $messages['pt'] = array(
 	'reason' => 'Motivo',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Fasouzafreitas
+ */
+$messages['pt-br'] = array(
+	'adder-empty' => 'Desconhecido',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */

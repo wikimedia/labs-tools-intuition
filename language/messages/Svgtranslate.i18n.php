@@ -1452,6 +1452,7 @@ $messages['ia'] = array(
 /** Indonesian (Bahasa Indonesia)
  * @author Ahdan
  * @author Iwan Novirion
+ * @author Kenrick95
  */
 $messages['id'] = array(
 	'error-tryagain' => '$1 Tekan tombol back browser Anda untuk mencoba lagi.',
@@ -1467,7 +1468,7 @@ $messages['id'] = array(
 	'th-username' => 'Nama pengguna',
 	'th-password' => 'Kata sandi',
 	'th-method' => 'Metode',
-	'option-oauth' => 'TUSC (unggah otomatis)', # Fuzzy
+	'option-oauth' => 'OAuth (unggah otomatis)',
 	'option-manual' => 'Mengunggah manual',
 	'preview' => 'Pratayang',
 	'translate' => 'Terjemahkan',

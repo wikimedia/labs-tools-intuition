@@ -1011,6 +1011,7 @@ $messages['ia'] = array(
  */
 $messages['id'] = array(
 	'title' => 'OrphanTalk',
+	'description' => 'Cari halaman pembicaraan yatim.',
 	'label-wiki' => 'Wiki',
 	'select-wiki-first' => '(pilih wiki dahulu)',
 	'hideredirects' => 'Sembunyikan pengalihan',

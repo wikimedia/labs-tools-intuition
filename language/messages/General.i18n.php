@@ -1124,6 +1124,7 @@ $messages['id'] = array(
 	'form-submit' => 'Kirim',
 	'form-reset' => 'Reset',
 	'years' => '{{PLURAL: $1|Tahun|Tahun}}',
+	'months' => '{{PLURAL: $1|bulan|bulan}}',
 	'weeks' => '{{PLURAL: $1|Minggu|minggu}}',
 	'days' => '{{PLURAL: $1|hari|hari}}',
 	'hours' => '{{PLURAL: $1|Jam|jam}}',

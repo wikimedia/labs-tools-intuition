@@ -214,6 +214,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Fitoschido
  * @author SMP
  * @author Vriullop
  */
@@ -222,7 +223,7 @@ $messages['ca'] = array(
 	'introduction' => "Simplement, escriviu el nom de la plantilla (de moment només funciona per viquipèdies) i cliqueu el botó. Existeix una memòria cau que repeteix la llista de resultats, però per desgràcia això està fora del control d'aquesta eina i del seu propietari.",
 	'language-label' => 'Idioma',
 	'namespace-label' => 'Espai de noms',
-	'pagename-label' => "Nom de la pàgina (sense l'espai de noms)",
+	'pagename-label' => 'Nom de la pàgina (sense l’espai de noms)',
 	'transclusion-count-label' => 'Nombre de transclusions',
 	'transclusion-count' => "S'han trobat $1 inclusions.",
 	'error-suggestion' => 'Potser heu escrit malament (o amb majúscules no coincidents) el nom de la pàgina.',
@@ -240,18 +241,20 @@ $messages['ce'] = array(
  * @author Chmee2
  * @author Gaj777
  * @author Jezevec
+ * @author Mormegil
  * @author Vks
  */
 $messages['cs'] = array(
-	'enter-details' => 'Vložit podrobnosti',
-	'introduction' => 'Zadejte název šablony (zatím pouze z Wikipedie) a pokračujte. Je to velmi jednoduché. Některé informace mohou být zapamatovány, je to ale bohužel mimo kontrolu tohoto nástroje a jeho autora.',
+	'title' => 'Počet vložení šablony',
+	'enter-details' => 'Zadejte podrobnosti',
+	'introduction' => 'Zadejte název šablony (zatím pouze z Wikipedie) a klikněte na tlačítko. Tak jednoduché to je. Některé informace mohou pocházet z mezipaměti, to ale bohužel tento nástroj a jeho autor nemůžou ovlivnit.',
 	'language-label' => 'Jazyk',
 	'namespace-label' => 'Jmenný prostor',
 	'pagename-label' => 'Jméno stránky (bez jmenného prostoru)',
 	'transclusion-count-label' => 'Počet transkluzí',
-	'transclusion-count' => '$1 transkluzí nalezeno',
+	'transclusion-count' => 'Nalezeno $1 transkluzí',
 	'error-suggestion' => 'Možná jste zadali chybný název stránky? Ověřte také velikost písmen.',
-	'time-label' => 'Čas vykonávání příkazu',
+	'time-label' => 'Doba provádění příkazu',
 );
 
 /** Chuvash (Чӑвашла)
@@ -1302,6 +1305,21 @@ $messages['uk'] = array(
 	'transclusion-count' => 'Знайдено включень: $1.',
 	'error-suggestion' => 'Можливо, Ви помилилися або використали неправильний регістр у назві сторінки?',
 	'time-label' => 'Час, витрачений на виконання команди',
+);
+
+/** Urdu (اردو)
+ * @author Obaid Raza
+ */
+$messages['ur'] = array(
+	'enter-details' => 'معلومات دیں',
+	'introduction' => 'سانچے کا نام لکھیں اور نتیجہ پر طق کریں۔یہ کافی آسان ہے۔یہاں پر آپ کے  پہلے درج کیے ہوئے سانچوں کے نام طق کرنے پر ظاہر ہوتے ہیں۔',
+	'language-label' => 'زبان',
+	'namespace-label' => 'فضائے نام',
+	'pagename-label' => 'صفحہ کا نام (فضائے نام کو چھوڑ کر)',
+	'transclusion-count-label' => 'یہ کتنے صفحات پر مستعمل ہے',
+	'transclusion-count' => '$1 تعداد صفحات جن پر یہ مستعمل ہے۔',
+	'error-suggestion' => 'شاید آپ مسسپیلٹ (یا غلط طریقے سے بڑا کر کے) صفحہ کا نام لکھ رئے ہیں۔',
+	'time-label' => 'جو وقت صرف ہوا',
 );
 
 /** Vietnamese (Tiếng Việt)
