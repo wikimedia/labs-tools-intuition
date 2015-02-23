@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abshirdheere"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "ka dooro wiki marka hore)",
+	"hideredirects": "Qari isbadalada",
+	"hidesubpages": "Qari Bogogga faracyada ah",
+	"limit": "Xad",
+	"page": "Bogga",
+	"output": "Soo saare",
+	"update": "Dib u howl galin",
+	"tools-delete": "tirtir",
+	"tools-links": "link",
+	"tools-subject": "Mowduuc",
+	"tools-hist": "taariikh",
+	"tools-curr": "hadda",
+	"tools-globalusage": "adeegsi guud",
+	"deletesummary": "Ku nadiifinta bogagga cidlada ah $1",
+	"noresults": "La ma helein wax u dhigma diyaarintaada bogga wada hadalka ee cidlada ah ee wiki iyo meel magacaan wadata.",
+	"resultslimited": "Waxaa lagu soo koobay natiijooyinka $1 Bogagga."
+}

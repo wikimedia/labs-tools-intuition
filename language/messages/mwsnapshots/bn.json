@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Nasir8891"
+		]
+	},
+	"title-overview": "ছবি",
+	"title-error": "ত্রুটি",
+	"title-updatelog": "হালনাগাদ লগ",
+	"download-button": "স্ন্যাপশট ডাউনলোড করুন",
+	"download-directlink": "সরাসরি লিংক",
+	"title-downloadpage": "ডাউনলোড",
+	"title-downloadpage-repo": "$1 ডাউনলোড",
+	"err-snapshotindex": "স্ন্যাপশট ইনডেক্সটি সাময়িকভাবে পাওয়া যাচ্ছে না। অনুগ্রহ করে পুনরায় চেষ্টা করুন।",
+	"err-invalid-repo": "অপরিচিত রিপোজিটরী: \"$1\".",
+	"err-invalid-branch": "\"$2\" রিপোজিটরীতে অপরিচিত ব্রাঞ্চ: \"$1\"।",
+	"err-noupdatelog": "কোনো হালনাগাদ লগ পাওয়া যায়নি।",
+	"repo-site-link": "ওয়েবসাইট",
+	"repo-browse-link": "রিপোজিটরী ব্রাউজ",
+	"repo-branches-label": "ব্রাঞ্চসমূহ:",
+	"repo-lastmoddate-label": "তারিখ:",
+	"branches-submit-button": "পাওয়া গেছে!",
+	"updatelog-link": "হালনাগাদ লগ",
+	"tablehead-repo": "রিপোজিটরি",
+	"tablehead-snapshots": "স্ন্যপশট",
+	"tablehead-branch": "ব্রাঞ্চ",
+	"tablehead-filesize": "ফাইলের আকার",
+	"tablehead-hash": "চেকসাম"
+}

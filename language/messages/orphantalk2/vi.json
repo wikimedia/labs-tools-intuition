@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"title": "OrphanTalk",
+	"description": "Tìm trang thảo luận mồ côi.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(trước tiên hãy chọn wiki)",
+	"hideredirects": "Ẩn trang đổi hướng",
+	"hidesubpages": "Ẩn trang con",
+	"limit": "Tối đa",
+	"page": "Trang",
+	"tooltip-redirect": "Trang này là một trang định hướng",
+	"output": "Kết quả",
+	"update": "Cập nhật",
+	"tools-view": "Xem",
+	"tools-delete": "Xóa",
+	"tools-links": "Các liên kết đến đây",
+	"tools-subject": "Trang nội dung",
+	"tools-hist": "Xem lịch sử",
+	"tools-curr": "Thay đổi cuối cùng",
+	"tools-globalusage": "Các trang sử dụng tập tin",
+	"deletesummary": "$1: Trang thảo luận mồ côi",
+	"noresults": "Không có trang thảo luận mồ côi nằm trong không gian tên này mà trùng với truy vấn của bạn.",
+	"resultslimited": "Chỉ hiển thị $1 kết quả."
+}

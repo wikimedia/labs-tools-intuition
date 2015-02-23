@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"select-wiki-first": "(ჯერ აირჩიეთ ვიკი)",
+	"limit": "ლიმიტი",
+	"update": "განახლება",
+	"tools-delete": "წაშლა",
+	"tools-links": "ბმულები",
+	"tools-subject": "თემა",
+	"tools-hist": "ისტორია",
+	"tools-curr": "მიმდინარე",
+	"tools-globalusage": "გლობალური გამოყენება"
+}

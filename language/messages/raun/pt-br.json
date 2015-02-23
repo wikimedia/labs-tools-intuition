@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luckas"
+		]
+	},
+	"close": "Fechar",
+	"help": "Ajuda",
+	"settings": "Configurações",
+	"stat": "Estatísticas",
+	"settings_tool": "Ferramenta",
+	"language": "Língua",
+	"project": "Projeto",
+	"save": "Salvar",
+	"settings_pause": "Pausar",
+	"settings_show": "Exibir",
+	"settings_wiki": "Wiki",
+	"settings_minor_edits": "Edições menores",
+	"settings_redirects": "Páginas de redirecionamento",
+	"settings_new_pages": "Páginas novas",
+	"settings_admin_edits": "Edições de administradores",
+	"settings_other_edits": "Outras edições",
+	"stat_pages": "Páginas",
+	"stat_users": "Usuários registrados",
+	"stat_active_users": "Usuários ativos",
+	"stat_admins": "Administradores",
+	"main_page": "Página",
+	"main_user": "Usuário",
+	"main_info": "Informação",
+	"new": "novo",
+	"minor": "menor",
+	"redirect": "redirecionamento",
+	"editor": "editor",
+	"admin": "administrador",
+	"color": "Cor",
+	"about": "Sobre",
+	"information": "Informação",
+	"credit": "Crédito"
+}

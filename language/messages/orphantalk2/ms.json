@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(pilih wiki dahulu)",
+	"hideredirects": "Sorokkan lencongan",
+	"hidesubpages": "Sorokkan sublaman",
+	"limit": "Had",
+	"page": "Halaman",
+	"output": "Output",
+	"update": "Kemas kini",
+	"tools-delete": "hapuskan",
+	"tools-links": "pautan",
+	"tools-subject": "subjek",
+	"tools-hist": "sej",
+	"tools-curr": "kini",
+	"tools-globalusage": "kegunaan global",
+	"deletesummary": "Membersihkan laman perbincangan yatim melalui $1",
+	"noresults": "Tiada laman perbincangan yatim di wiki ini dalam ruang nama ini yang sepadan dengan tetapan anda.",
+	"resultslimited": "Hasil carian terhad kepada $1 laman."
+}

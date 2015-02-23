@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Gianfranco",
+			"Valepert"
+		]
+	},
+	"title": "OrphanTalk",
+	"description": "Trova pagine di discussione orfane.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(prima scegli un wiki)",
+	"hideredirects": "Nascondi redirect",
+	"hidesubpages": "Nascondi le sottopagine",
+	"limit": "Limite",
+	"page": "Pagina",
+	"tooltip-redirect": "Questa pagina è un redirect",
+	"output": "Risultato",
+	"update": "Aggiorna",
+	"tools-view": "Visualizza",
+	"tools-delete": "Cancella",
+	"tools-links": "Puntano qui",
+	"tools-subject": "Oggetto della pagina",
+	"tools-hist": "Visualizza cronologia",
+	"tools-curr": "Ultima modifica",
+	"tools-globalusage": "Utilizzo del file",
+	"deletesummary": "$1: pagina di discussione orfana",
+	"noresults": "Nessuna corrispondenza di pagine orfane in questo wiki, e per questo namespace, con i criteri indicati.",
+	"resultslimited": "I risultati sono stati limitati a $1 pagine."
+}

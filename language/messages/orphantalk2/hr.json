@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(prvo izaberite wiki)",
+	"hideredirects": "Sakrij preusmjeravanja",
+	"hidesubpages": "Sakrij podstranice",
+	"limit": "Ograničenje",
+	"page": "Stranica",
+	"output": "Odredište",
+	"update": "Osvježi",
+	"tools-delete": "izbriši",
+	"tools-links": "poveznice",
+	"tools-subject": "naslov",
+	"tools-hist": "pov",
+	"tools-curr": "sad",
+	"tools-globalusage": "globalna uporaba",
+	"deletesummary": "Čišćenje stranica za razgovor siročad preko $1",
+	"noresults": "Niti jedna stranica za razgovor siročad na ovom wikiju u ovom imenskom prostoru ne odgovara vašim postavkama.",
+	"resultslimited": "Rezultati su ograničeni na $1 stranica."
+}

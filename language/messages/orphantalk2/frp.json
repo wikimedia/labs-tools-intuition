@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(chouèsésséd d’abôrd un vouiqui)",
+	"hideredirects": "Cachiér les redirèccions",
+	"hidesubpages": "Cachiér les sot-pâges",
+	"limit": "Limita",
+	"page": "Pâge",
+	"output": "Sortia",
+	"update": "Betar a jorn",
+	"tools-delete": "suprimar",
+	"tools-links": "lims",
+	"tools-subject": "sujèt",
+	"tools-hist": "hist",
+	"tools-curr": "ora",
+	"tools-globalusage": "usâjo globâl"
+}

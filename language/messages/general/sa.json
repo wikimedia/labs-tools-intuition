@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hemant wikikosh1"
+		]
+	},
+	"hello": "नमस्कारः",
+	"welcome": "स्वागतम्",
+	"toolversionstamp": "आवृत्तिः $1 ($2)",
+	"etc": "इत्यादि",
+	"namespace": "नामाकाशः",
+	"form-submit": "गम्यताम्",
+	"view-source": "स्रोतः दृश्यताम्"
+}

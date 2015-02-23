@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"category_users": "Usuaris",
+	"category_articles": "Pàgines",
+	"category_images": "Imatges",
+	"category_miscellaneous": "Miscel·lània",
+	"category_wikidata": "Wikidata",
+	"select_wiki_title": "Trieu un viqui",
+	"select_wiki_next": "Endavant →",
+	"qvar_next": "Endavant →",
+	"prefs_submit": "D’acord",
+	"prefs_done": "S’han modificat les vostres preferències.",
+	"prefs_langlabel": "Idioma de la interfície:"
+}

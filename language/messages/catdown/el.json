@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evropi",
+			"Glavkos"
+		]
+	},
+	"title": "Λήψη εικόνων ανά κατηγορία",
+	"project": "Εγχείρημα:",
+	"category": "Κατηγορία:",
+	"thumbnailing": "Μικρογραφίες",
+	"max-width": "Μέγιστο πλάτος:",
+	"max-height": "Μέγιστο ύψος:",
+	"invalid-width": "Μη έγκυρο πλάτος",
+	"invalid-height": "Μη έγκυρο ύψος",
+	"no-such-project": "Δεν υπάρχει τέτοιο εγχείρημα",
+	"no-images": "Δεν υπάρχουν εικόνες σε αυτή την κατηγορία",
+	"zip-failed": "Η δημιουργία ZIP απέτυχε",
+	"download": "Λήψη"
+}

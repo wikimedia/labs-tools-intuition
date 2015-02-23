@@ -1,0 +1,8 @@
+{
+	"@metadata": [],
+	"voiceintro-toolbar-record-label": "Enregistrar",
+	"voiceintro-toolbar-stop-label": "Arrestar",
+	"voiceintro-toolbar-clear-label": "Escafar",
+	"voiceintro-toolbar-upload-label": "Telecargar",
+	"voiceintro-webaudio-not-supported": "L’API WebAudio es pas suportada per aqueste navigador"
+}

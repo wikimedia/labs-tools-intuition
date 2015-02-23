@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"project": "პროექტი:",
+	"category": "კატეგორია:",
+	"max-width": "მაქსიმალური სიგანე:",
+	"max-height": "მაქსიმალური სიმაღლე:",
+	"invalid-width": "არასწორი სიგანე",
+	"invalid-height": "არასწორი სიმაღლე",
+	"download": "ჩამოტვირთვა"
+}

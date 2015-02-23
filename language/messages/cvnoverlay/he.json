@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"adder": "מוסיף",
+	"adder-empty": "אינו ידוע",
+	"expiry": "תפוגה",
+	"globalwatched": "במעקב גלובלי",
+	"lastupdate-db": "עדכון אחרון: $1",
+	"reason": "סיבה",
+	"reason-empty": "הסיבה לא נמצאה"
+}

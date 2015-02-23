@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Sprooch/Astellungen änneren</a>",
+	"category_users": "Benotzer",
+	"category_articles": "Säiten",
+	"category_images": "Biller",
+	"category_miscellaneous": "Verschiddenes",
+	"category_wikidata": "WikiData",
+	"select_wiki_title": "Sicht eng Wiki eraus",
+	"select_wiki_next": "Virun →",
+	"select_report_disabled": "Dëse Rapport ass net disponibel.",
+	"select_report_go_back": "← Wiki wiesselen",
+	"qvar_next": "Virun →",
+	"prefs_submit": "OK",
+	"prefs_done": "Är Astellunge goufe geännert.",
+	"report_wascached": "Dëse Rapport gouf virun %(age)s opgestallt."
+}

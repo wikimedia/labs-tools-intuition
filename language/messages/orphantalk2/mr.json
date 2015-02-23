@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"title": "पोरकी चर्चा",
+	"description": "पोरकी चर्चापाने शोधा",
+	"label-wiki": "विकि",
+	"tooltip-redirect": "हे पान पुनर्निर्देशित आहे",
+	"tools-view": "बघा",
+	"tools-delete": "वगळा",
+	"tools-links": "येथे काय जोडले आहे",
+	"tools-subject": "विषय पृष्ठ",
+	"tools-hist": "इतिहास बघा",
+	"tools-curr": "अलीकडील बदल",
+	"tools-globalusage": "संचिका वापर",
+	"deletesummary": "$1: पोरके चर्चा पान"
+}

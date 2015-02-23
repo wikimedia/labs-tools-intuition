@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evropi",
+			"Geraki",
+			"Glavkos"
+		]
+	},
+	"select-wiki-first": "(επιλέξτε πρώτα ένα wiki)",
+	"hideredirects": "Απόκρυψη ανακατευθύνσεων",
+	"hidesubpages": "Απόκρυψη υποσελιδών",
+	"limit": "Όριο",
+	"page": "Άρθρο",
+	"update": "Ενημέρωση",
+	"tools-delete": "διαγραφή",
+	"tools-links": "σύνδεσμοι",
+	"tools-subject": "θέμα",
+	"tools-hist": "ιστορικό",
+	"tools-curr": "τρέχουσα",
+	"tools-globalusage": "καθολική χρήση"
+}

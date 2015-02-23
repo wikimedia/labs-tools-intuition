@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"welcome": "Dobro došli u X!'s tools!",
+	"tool_ec": "Brojač izmena",
+	"tool_articleinfo": "Istorija",
+	"tool_pages": "Napravljene stranice",
+	"tool_autoedits": "Automatske izmene",
+	"select_language": "Izaberite jezik",
+	"translatelink": "Prevedi",
+	"login": "Prijavi me",
+	"logout": "Odjavi me",
+	"monthcounts": "Po mesecima",
+	"yearcounts": "Po godinama",
+	"alledits": "Sve izmene"
+}

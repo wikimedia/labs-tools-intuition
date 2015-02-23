@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"title": "OrphanTalk",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(sicht d'éischt eng Wiki eraus)",
+	"hideredirects": "Viruleedunge verstoppen",
+	"hidesubpages": "Ënnersäite verstoppen",
+	"limit": "Limit",
+	"page": "Säit",
+	"tooltip-redirect": "Dës Säit ass eng Viruleedung",
+	"output": "Resultat",
+	"update": "Aktualiséieren",
+	"tools-view": "Weisen",
+	"tools-delete": "Läschen",
+	"tools-links": "Linken op dës Säit",
+	"tools-subject": "Säit vum Sujet",
+	"tools-hist": "Versioune weisen",
+	"tools-curr": "Lescht Ännerung",
+	"tools-globalusage": "Benotze vu Fichieren",
+	"deletesummary": "$1: verweest Diskussiouns-Säit",
+	"noresults": "Keng Diskussiouns-Weese-Säit op dëser Wiki an dësem Nummraum entsprécht Ären Astellungen.",
+	"resultslimited": "D'Resultater goufen op $1 Säite limitéiert."
+}

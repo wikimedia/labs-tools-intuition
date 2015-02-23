@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"project": "Projektas:",
+	"category": "Kategorija:",
+	"max-width": "Maksimalus plotis",
+	"max-height": "Maksimalus aukštis:",
+	"invalid-width": "Neleistinas plotis",
+	"invalid-height": "Neleistinas aukštis",
+	"no-such-project": "Nėra tokio projekto",
+	"zip-failed": "Zip sukurti nepavyko",
+	"download": "Atsisiųsti"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"adder-empty": "Ismeretlen",
+	"expiry": "Lejárat",
+	"globalwatched": "Globálisan figyelt",
+	"lastupdate-db": "Utolsó frissítés: $1"
+}

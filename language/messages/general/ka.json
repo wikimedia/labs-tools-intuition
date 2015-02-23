@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"hello": "გამარჯობა",
+	"welcome": "კეთილი იყოს თქვენი მობრძანება",
+	"etc": "და ა.შ.",
+	"namespace": "სახელთა სივრცე",
+	"form-submit": "მიდი",
+	"years": "{{PLURAL:$1|წელი|წელი}}",
+	"weeks": "{{PLURAL:$1|კვირა|კვირა}}",
+	"days": "{{PLURAL:$1|დღე|დღე}}",
+	"hours": "{{PLURAL:$1|საათი|საათი}}",
+	"minutes": "{{PLURAL:$1|წუთი|წუთი}}",
+	"seconds": "{{PLURAL:$1|წამი|წამი}}"
+}

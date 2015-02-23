@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"attention": "ყურადღება",
+	"language": "ენა",
+	"project": "პროექტი",
+	"commons_username": "მომხმარებლის სახელი ვიკისაწყობში",
+	"categories": "კატეგორიები",
+	"tusc_user": "TUSC-ის მომხმარებლის სახელი",
+	"tusc_pass": "TUSC-ის პაროლი",
+	"do_it": "გააკეთე",
+	"upload_submit": "ატვირთვა!"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"title": "OsiroteliPogovori",
+	"description": "Najdite osirotele pogovorne strani.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(najprej izberite wiki)",
+	"hideredirects": "Skrij preusmeritve",
+	"hidesubpages": "Skrij podstrani",
+	"limit": "Omejitev",
+	"page": "Stran",
+	"tooltip-redirect": "Stran je preusmeritev",
+	"output": "Izhod",
+	"update": "Posodobi",
+	"tools-view": "Ogled",
+	"tools-delete": "Izbriši",
+	"tools-links": "Kaj se povezuje sem",
+	"tools-subject": "Zadevna stran",
+	"tools-hist": "Ogled zgodovine",
+	"tools-curr": "Zadnja sprememba",
+	"tools-globalusage": "Uporaba datoteke",
+	"deletesummary": "$1: Osirotela pogovorna stran",
+	"noresults": "Nobena osirotela pogovorna stran na tem wikiju v tem imenskem prostoru ne ustreza vašim nastavitvam.",
+	"resultslimited": "Rezultati so bili omejeni na $1 stran."
+}

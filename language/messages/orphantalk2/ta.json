@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aswn",
+			"Balajijagadesh",
+			"ElangoRamanujam",
+			"Sodabottle",
+			"மதனாஹரன்"
+		]
+	},
+	"select-wiki-first": "(முதலில் ஒரு விக்கியைத் தெரியவும்)",
+	"hideredirects": "வழிமாற்றுகளை மறை",
+	"hidesubpages": "துனை பக்கங்களை மறை",
+	"limit": "வரம்பு",
+	"page": "பக்கம்",
+	"output": "வெளியீடு",
+	"update": "புதுப்பி",
+	"tools-delete": "நீக்குக",
+	"tools-links": "இப்பக்கத்தை இணைத்தவை",
+	"tools-subject": "பொருள் பக்கம்",
+	"tools-hist": "வரலாறு காணவும்",
+	"tools-curr": "தற்போதைய மாற்றம்",
+	"tools-globalusage": "கோப்புப் பயன்பாடு",
+	"resultslimited": "$1 பக்கங்களுக்கு முடிவுகள் வரையறுக்கப்பட்டுள்ளன."
+}

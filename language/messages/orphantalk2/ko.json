@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tyey",
+			"아라"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(먼저 위키 선택)",
+	"hideredirects": "넘겨주기 숨기기",
+	"hidesubpages": "하위 문서 숨기기",
+	"limit": "제한",
+	"page": "문서",
+	"output": "출력",
+	"update": "업데이트",
+	"tools-view": "보기",
+	"tools-delete": "삭제",
+	"tools-links": "링크",
+	"tools-subject": "주제 문서",
+	"tools-hist": "역사",
+	"tools-curr": "차이",
+	"tools-globalusage": "공통사용",
+	"deletesummary": "$1(을)를 통해 외톨이 토론 문서 정리",
+	"noresults": "이 위키에 설정에서 일치하는 이 이름공간에서 외톨이 토론 문서가 없습니다.",
+	"resultslimited": "결과는 문서 $1개로 제한했습니다."
+}

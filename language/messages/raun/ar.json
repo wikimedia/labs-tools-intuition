@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"close": "إغلاق",
+	"help": "مساعدة",
+	"filter": "المرشح",
+	"settings": "الإعدادات",
+	"fork": "الكود المصدري",
+	"stat": "الإحصائيات",
+	"settings_tool": "الأداة",
+	"language": "اللغة",
+	"project": "المشروع",
+	"save": "حفظ",
+	"settings_pause": "إيقاف مؤقت",
+	"settings_run": "تشغيل!",
+	"settings_show": "أظهر",
+	"settings_wiki": "ويكي"
+}

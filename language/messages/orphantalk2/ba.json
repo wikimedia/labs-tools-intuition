@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Haqmar",
+			"Sagan"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(тәүҙә вики һайлағыҙ)",
+	"hideredirects": "Йүнәлтеүҙәрҙе йәшерергә",
+	"hidesubpages": "Эске биттәрҙе йәшерергә",
+	"limit": "Сикләү",
+	"page": "Бит",
+	"output": "Һөҙөмтә",
+	"update": "Яңыртырға",
+	"tools-delete": "юйырға",
+	"tools-links": "һылтанмалар",
+	"tools-subject": "тема",
+	"tools-hist": "тарих",
+	"tools-curr": "ағым.",
+	"tools-globalusage": "дөйөм ҡулланыу",
+	"deletesummary": "Йәтим-биттәрҙең фекер алышыу битен  $1 аша таҙартырға",
+	"noresults": "Был викила һеҙ һораған исемдәр арауығында йәтим-биттәрҙең фекер алышыу биттәре табылманы.",
+	"resultslimited": "Йомғаҡлау $1 бит менән сикләнде."
+}

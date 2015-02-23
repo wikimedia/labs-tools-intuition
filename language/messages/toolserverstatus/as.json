@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gitartha.bordoloi",
+			"Simbu123"
+		]
+	},
+	"toolserver-status-short-ok": "$1: শুদ্ধ",
+	"toolserver-status-short-info": "$1: তথ্য",
+	"toolserver-status-short-warn": "$1: সতৰ্কবাণী",
+	"toolserver-status-short-down": "$1: তললৈ",
+	"toolserver-status-short-erro": "$1: ভুল",
+	"toolserver-status-short-unknown": "$1: অজ্ঞাত"
+}

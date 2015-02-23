@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"title": "Alleinjeblevve Klaafsigge 2",
+	"select-wiki-first": "(donn et eez e Wiki ußsöhke)",
+	"hideredirects": "Ömleidonge fott lohße",
+	"hidesubpages": "Ongersigge fott lohße",
+	"limit": "Donn de Aanzahl en dä Leß bejränze op",
+	"page": "Klaafsigg",
+	"output": "Dat kohm eruß:",
+	"update": "Op der neuste Shtand bränge",
+	"tools-delete": "schmiiß fott!",
+	"tools-links": "Lengks",
+	"tools-subject": "Sigg",
+	"tools-hist": "Versione",
+	"tools-curr": "läz Änderong",
+	"tools-globalusage": "En alle Wikis",
+	"deletesummary": "Alleinjeblevve Klaafsigg fott jeschmeße met „$1“.",
+	"noresults": "Kein alleinjeblevve Klaafsigge en däm Wiki en däm Appachtemang paße zoh Dinge Enshtällonge.",
+	"resultslimited": "Heh di Leß es bejränz op {{PLURAL:$1|ein Sigg|$1 Sigg|kein Sigge}}"
+}

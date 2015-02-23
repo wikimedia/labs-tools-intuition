@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"title": "DiskussjoniOrfni2",
+	"select-wiki-first": "(l-ewwel agħżel wiki)",
+	"hideredirects": "Aħbi rindirizzi",
+	"hidesubpages": "Aħbi sottopaġni",
+	"limit": "Limitu",
+	"page": "Paġna",
+	"output": "Riżultat",
+	"update": "Aġġorna",
+	"tools-delete": "ħassar",
+	"tools-links": "ħoloq",
+	"tools-subject": "suġġett",
+	"tools-hist": "kron",
+	"tools-curr": "kurr",
+	"tools-globalusage": "użuglobali",
+	"deletesummary": "Tindif ta' paġni ta' diskussjoni orfni permezz ta' $1",
+	"resultslimited": "Ir-riżultati ġew limitati għal $1 paġni."
+}

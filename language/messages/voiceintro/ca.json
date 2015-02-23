@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Enregistra",
+	"voiceintro-toolbar-stop-label": "Atura",
+	"voiceintro-toolbar-clear-label": "Neteja",
+	"voiceintro-toolbar-upload-label": "Puja",
+	"voiceintro-webaudio-not-supported": "Aquest navegador no és compatible amb l’API WebAudio",
+	"voiceintro-information-label": "Informació",
+	"voiceintro-information-language-label": "Idioma:",
+	"voiceintro-mic-access-notify": "Feu clic a «Permet» per permetre que el navegador utilitzi el micròfon.",
+	"voiceintro-recording-notify": "S’està enregistrant…"
+}

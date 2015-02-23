@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artificial123",
+			"LexArt"
+		]
+	},
+	"title": "OrphanTalk2",
+	"label-wiki": "Вікі",
+	"select-wiki-first": "(спачатку выберыце вікі)",
+	"hideredirects": "Схаваць перанакіраванні",
+	"hidesubpages": "Схаваць падстаронкі",
+	"limit": "Ліміт",
+	"page": "Старонка",
+	"tooltip-redirect": "Гэта старонка-перасылка",
+	"output": "Вывад",
+	"update": "Абнавіць",
+	"tools-view": "Прагляд",
+	"tools-delete": "Выдаліць",
+	"tools-links": "спасылкі",
+	"tools-subject": "Старонка праекту",
+	"tools-hist": "Паказаць гісторыю",
+	"tools-curr": "Апошняя змена",
+	"tools-globalusage": "Выкарыстанне файла",
+	"deletesummary": "Выдаленне абмеркаванняў-сірот праз $1",
+	"noresults": "У гэтай вікі і ў гэтай прасторы назваў абмеркаванняў-сірот няма.",
+	"resultslimited": "Вынік абмежаваны да $1 старонак."
+}

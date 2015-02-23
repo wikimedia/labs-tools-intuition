@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa"
+		]
+	},
+	"project": "Proiektua:",
+	"category": "Kategoria:",
+	"max-width": "Zabalera maximoa:",
+	"max-height": "Altuera maximoa:",
+	"zip-failed": "Ezin izan da Zip-a sortu",
+	"download": "Jaitsi"
+}

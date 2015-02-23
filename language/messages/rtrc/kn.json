@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nayan",
+			"Nayvik"
+		]
+	},
+	"apply": "ಅನ್ವಯಿಸುತ್ತವೆ",
+	"asc": "ಆರೋಹಣ",
+	"changelog": "ಹೊಸತೇನಿದೆ",
+	"clear": "ಅಳಿಸಿ",
+	"cvn-adder": "ಸೇರಿಸು",
+	"cvn-adder-empty": "ತಿಳಿದಿಲ್ಲ",
+	"cvn-reason": "ಕಾರಣ",
+	"cvn-reason-empty": "ಯಾವುದೇ ಕಾರಣ ಕಂಡುಬಂದಿಲ್ಲ",
+	"desc": "ಅವರೋಹಣ",
+	"documentation": "ದಾಖಲೀಕರಣ",
+	"filter": "ಶೋಧಕ",
+	"limit": "ಮಿತಿ"
+}

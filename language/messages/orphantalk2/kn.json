@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akoppad",
+			"M G Harish"
+		]
+	},
+	"title": "ಆರ್ಫನ್‌ಟಾಕ್೨",
+	"select-wiki-first": "(ಮೊದಲು ಒಂದು ವಿಕಿಯನ್ನು ಆಯ್ದುಕೊಳ್ಳಿ)",
+	"hideredirects": "ಪುನರ್ನಿದೇಶನಗಳನ್ನು ಅಡಗಿಸಿ",
+	"hidesubpages": "ಉಪಪುಟಗಳನ್ನು ಅಡಗಿಸಿ",
+	"limit": "ಮಿತಿ",
+	"page": "ಪುಟ",
+	"output": "ಉತ್ಪಾದನೆ",
+	"update": "ಬದಲಿಸಬೇಕೆ?",
+	"tools-delete": "ಅಳಿಸು",
+	"tools-links": "ಕೊಂಡಿ",
+	"tools-subject": "ವಿಷಯ",
+	"tools-hist": "ಇತಿಹಾಸ",
+	"tools-curr": "ಈಗಿನ",
+	"tools-globalusage": "ಸಮಗ್ರ ಬಳಕೆ",
+	"deletesummary": "$1 ಮೂಲಕ ಅನಾಥವಾದ ಚರ್ಚಾಪುಟಗಳನ್ನು ಶುದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ",
+	"noresults": "ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಗೆ ಹೋಲುವಂಥ ಅನಾಥ ಚರ್ಚಾ ಪುಟಗಳು ಈ ವಿಕಿಯಲ್ಲಿ ಈ ನಾಮವರ್ಗದಲ್ಲಿ ಸಿಗಲಿಲ್ಲ.",
+	"resultslimited": "ಫಲಿತಾಂಶಗಳು $1 ಪುಟಕ್ಕೆ ಸೀಮಿತಗೊಂಡಿದ್ದವು."
+}
