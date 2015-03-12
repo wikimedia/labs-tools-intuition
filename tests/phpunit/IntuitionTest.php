@@ -181,4 +181,36 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->rawMsg( 'test-domain', 'gan', 'test-value' )
 		);
 	}
+
+	/**
+	 * @covers Intuition::loadTextdomainFromFile
+	 * @covers Intuition::parseTextdomain
+	 */
+	public function testLoadTextdomainFromFile() {
+		$this->i18n->loadTextdomainFromFile( __DIR__ . '/data/Example.i18n.php', 'test-load' );
+
+		$this->assertEquals(
+			'Foo bar',
+			$this->i18n->rawMsg( 'test-load', 'en', 'foo' )
+		);
+
+		$this->assertEquals(
+			'Hallo wereld',
+			$this->i18n->rawMsg( 'test-load', 'nl', 'hello' )
+		);
+	}
+
+	/**
+	 * @covers Intuition::loadTextdomainFromFile
+	 * @covers Intuition::parseTextdomain
+	 * @covers Intuition::getDomainInfo
+	 */
+	public function testGetDomainInfo() {
+		$this->i18n->loadTextdomainFromFile( __DIR__ . '/data/Example.i18n.php', 'test-info' );
+
+		$this->assertEquals(
+			array( 'url' => 'https://example.org' ),
+			$this->i18n->getDomainInfo( 'test-info' )
+		);
+	}
 }
