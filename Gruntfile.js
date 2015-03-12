@@ -28,7 +28,7 @@ module.exports = function (grunt) {
 			all: [
 				'.jscsrc',
 				'*.json',
-				'{includes,languages,tests}/**/*.json'
+				'{includes,language,tests}/**/*.json'
 			]
 		},
 		qunit: {

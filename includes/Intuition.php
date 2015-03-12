@@ -57,14 +57,12 @@ class Intuition {
 	protected $paramNames = array( 'userlang' => 'userlang' );
 
 	// Here everything will be stored as arrays in arrays
-	// Such as: $messageBlob['Textdomain']['langcode']['messagename'] = 'Message string';
+	// Such as: $messageBlob['domain']['lang']['message-key'] = 'Raw message value';
 	protected $messageBlob = array();
 
-	protected $registeredTextdomains;
-
-	// All loaded text domains and (if available) their information (such as url) in an array
-	// $loadedTextdomains['general'] = array( ... );
-	protected $loadedTextdomains = array();
+	// Which domains and languages have been loaded
+	// $loadedDomains['general']['en'] = true;
+	protected $loadedDomains = array();
 
 	// Fallbacks are stored as an array of language codes
 	// with their fallback as value
@@ -76,9 +74,9 @@ class Intuition {
 	// Such as as for Spanish: langNames['es'] = 'Español';
 	protected $langNames = null;
 
-	// This array keeps track of which languages are available in atleast one textdomain
-	// $languages['en'] = true;
-	protected $availableLanguages = array();
+	protected $availableLanguages = null;
+
+	protected $domainInfo = null;
 
 	// These variable names will be extracted from the message files
 	protected $includeVariables = array( 'messages', 'url' );
@@ -130,9 +128,7 @@ class Intuition {
 
 		$this->mode = $options['mode'];
 
-		$this->loadDomainRegistry();
-
-		// The textdomain of your tool can be set here.
+		// The domain of your tool can be set here.
 		// Otherwise defaults to 'general'. See also documentation of msg()
 		// First character is case-insensitive
 		if ( isset( $options['domain'] ) ) {
@@ -163,15 +159,6 @@ class Intuition {
 		// for something else you can disable this system here. To avoid inconsistencies between
 		// tools a custom parameter name will not be supported. It's either on or off.
 		$this->setUseRequestParam( $options['param'] );
-
-		// Load the initial text domain
-		$this->loadTextdomain( $this->getDomain() );
-
-		// Load fallbacks
-		$this->loadFallbacks();
-
-		// Load names
-		$this->loadNames();
 
 		// A tool may override the automatic initiation with cookies and paramters
 		// (ie. during development). Note you can also override it for individual msg calls,
@@ -210,7 +197,7 @@ class Intuition {
 	/**
 	 * Set the current language which will be used when requesting messages etc.
 	 *
-	 * @param $lang String of language code (lowercase). If not a valid string
+	 * @param string $lang Language code (lowercase). If not a valid string
 	 *  setting will stay the same and false is returned.
 	 * @return boolean
 	 */
@@ -226,7 +213,7 @@ class Intuition {
 	 * Get an array of common locale values for setlocale() for
 	 * the current language.
 	 *
-	 * @param $lang string (optional) Pass a language code. Defaults to current language.
+	 * @param string $lang [optional] Pass a language code. Defaults to current language.
 	 * @return array
 	 */
 	public function getLocale( $lang = null, $utf8 = true ) {
@@ -266,14 +253,6 @@ class Intuition {
 	 */
 	public function getDomain() {
 		return $this->currentTextdomain;
-	}
-
-	/**
-	 * Get a list of registered text domains.
-	 * @return array
-	 */
-	public function getAllRegisteredDomains() {
-		return $this->registeredTextdomains;
 	}
 
 	/**
@@ -332,7 +311,7 @@ class Intuition {
 	 * been ran. Call refreshLang() if you want it to re-check the cookies,
 	 * parameters, overwrites etc.
 	 *
-	 * @param $bool boolean True if you want it to use the parameter, false otherwise.
+	 * @param boolean $bool True if you want it to use the parameter, false otherwise.
 	 * @return boolean False if the passed argument wasn't a boolean, true otherwise.
 	 */
 	public function setUseRequestParam( $bool ) {
@@ -362,8 +341,8 @@ class Intuition {
 	/**
 	 * Get a message from the message blob
 	 *
-	 * @param $key string Message key to retrieve a message for.
-	 * @param $options mixed (optional) A textdomain-name or an array with one or more
+	 * @param strin $key Message key to retrieve a message for.
+	 * @param mixed $options [optional] A textdomain-name or an array with one or more
 	 *  of the following options:
 	 *  - domain: overrides the currently selected textdomain, and if needed loads it from disk
 	 *  - lang: overrides the currently selected language
@@ -379,7 +358,7 @@ class Intuition {
 	 *  - * 'htmlspecialchars' (alias of 'html')
 	 *  - * 'htmlentities' (foreign/UTF-8 chars converted as well)
 	 *
-	 * @param $fail string Alternate value to return in case the message doesn't exist
+	 * @param string $fail Alternate value to return in case the message doesn't exist
 	 */
 	public function msg( $key = 0, $options = array(), $fail = null ) {
 
@@ -416,23 +395,17 @@ class Intuition {
 		$key = lcfirst( $key );
 
 		// Load if not already loaded
-		$domain = $this->loadTextdomain( $options['domain'] );
 		$lang = $options['lang'];
+		$domain = strtolower( $options['domain'] );
 
-		// In case the domain name was invalid or inexistant
-		if ( !isset( $this->messageBlob[$domain] ) ) {
-			return $this->bracketMsg( $key, $fail );
-		}
-
-		// Just in case, one last check:
 		$rawMsg = $this->rawMsg( $domain, $lang, $key );
-		if ( is_null( $rawMsg ) ) {
-			$this->errTrigger( "Message \"$key\" in domain \"$domain\" not found", __METHOD__, E_NOTICE );
+		if ( $rawMsg === null ) {
+			$this->errTrigger( "Message \"$key\" for lang \"$lang\" in domain \"$domain\" not found", __METHOD__, E_NOTICE );
 			// Fall back to a simple [keyname]
 			return $this->bracketMsg( $key, $fail );
 		}
 
-		/* Now that we've got the message, do post-processing. */
+		// Now that we've got the message, apply any post processing
 		$msg = $rawMsg;
 
 		$escapeDone = false;
@@ -476,24 +449,23 @@ class Intuition {
 	/**
 	 * Get a raw message (handles fallback).
 	 *
-	 * @param $domain
-	 * @param $lang
-	 * @param $key
+	 * @param string $domain
+	 * @param string $lang
+	 * @param string $key
 	 * @return string value or null.
 	 */
 	public function rawMsg( $domain, $lang, $key ) {
-		// Uses fallback if this message doesn't exist in the current language
-		$lang = $this->getLangForTextdomain( $lang, $domain, $key );
+		$lang = $this->getLangForMsg( $domain, $lang, $key );
 
 		return $this->accessBlob( $domain, $lang, $key );
 	}
 
 	/**
-	 * Access MessageBlob.
+	 * Access message blob.
 	 *
-	 * @param $domain
-	 * @param $lang
-	 * @param $key
+	 * @param string $domain
+	 * @param string $lang
+	 * @param string $key
 	 * @return string value or null.
 	 */
 	protected function accessBlob( $domain, $lang, $key ) {
@@ -510,11 +482,11 @@ class Intuition {
 	 * We use square brackets for simplicity sake, using inequality brackets (< >) may cause
 	 * conflicts with HTML when used wrong.
 	 *
-	 * @param $key Name of the key to be used
-	 * @param $fail (optional) Custom failure return
+	 * @param string $key Name of the key to be used
+	 * @param mixed $fail [optional] Custom failure return
 	 */
 	public function bracketMsg( $key, $fail = null ) {
-		if ( !is_null( $fail ) ) {
+		if ( $fail !== null ) {
 			return $fail;
 		}
 		if ( $this->suppressbrackets ) {
@@ -580,40 +552,10 @@ class Intuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * Calculate which language can be used for the message
-	 * in the given domain. If possible, returns the $lang
-	 * passed right away, otherwise it looks for a suitable falback
-	 *
-	 * @param $lang string Preferred language
-	 * @param $domain string Domain to search within (the existence of this domain should be checked
-	 *  before calling this function). Note that the domainname should've been sanatized by now.
-	 * @param $key string Key of the wanted message
-	 * @return string Language code
-	 */
-	protected function getLangForTextdomain( $lang, $domain, $key ) {
-		$msgDomain = $this->messageBlob[$domain];
-
-		// If it's available, just use it
-		if ( isset( $msgDomain[$lang] ) && isset( $msgDomain[$lang][$key] ) ) {
-			return $lang;
-		}
-
-		// Otherwise use the fallback
-		$langs = $this->getLangFallbacks( $lang );
-		foreach ( $langs as $lang ) {
-			if ( isset( $msgDomain[$lang] ) && isset( $msgDomain[$lang][$key] ) ) {
-				return $lang;
-			}
-		}
-
-		return 'en';
-	}
-
-	/**
 	 * Return the fallback language for a given language.
 	 *
 	 * @deprecated Use #getLangFallbacks instead
-	 * @param $lang string Language code
+	 * @param string $lang Language code
 	 * @return string Language code
 	 */
 	public function getLangFallback( $lang ) {
@@ -624,21 +566,46 @@ class Intuition {
 	/**
 	 * Return the fallback chain for a given language.
 	 *
-	 * @param $lang string Language code
+	 * @param string $lang Language code
 	 * @return string[] List of one or more language codes
 	 */
 	public function getLangFallbacks( $lang ) {
+		// Lazy-load and cache
+		if ( $this->langFallbacks === null ) {
+
+			$path = $this->localBaseDir . '/language/Fallbacks.php';
+
+			if ( !is_file( $path ) || !is_readable( $path )  ) {
+				$this->errTrigger( 'Fallbacks.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+				$this->langFallbacks = array();
+				return array( 'en' );
+			}
+
+			$fallbacks = array();
+			include $path;
+
+			// Expand single-fallback strings into arrays for a consistent interface
+			foreach ( $fallbacks as $lang => $list ) {
+				if ( !is_array( $list ) ) {
+					$fallbacks[ $lang ] = array( $list );
+				}
+			}
+
+			$this->langFallbacks = $fallbacks;
+		}
+
 		return isset( $this->langFallbacks[$lang] ) ? $this->langFallbacks[$lang] : array( 'en' );
 	}
 
 	/**
 	 * Return the language name in the native language.
-	 * @param $lang string Language code
+	 * @param string $lang Language code
 	 * @return string
 	 */
 	public function getLangName( $lang = false ) {
-		$lang = $lang ? $lang : $this->getLang();
-		return isset( $this->langNames[$lang] ) ? $this->langNames[$lang] : '';
+		$lang = $lang ?: $this->getLang();
+		$langNames = $this->getLangNames();
+		return isset( $langNames[$lang] ) ? $langNames[$lang] : '';
 	}
 
 	/**
@@ -646,162 +613,197 @@ class Intuition {
 	 * @return array
 	 */
 	public function getLangNames() {
-		return is_array( $this->langNames ) ? $this->langNames : array();
+		// Lazy-load and cache
+		if ( $this->langNames === null ) {
+			$path = $this->localBaseDir . '/language/mw-classes/Names.php';
+			if ( !is_file( $path ) || !is_readable( $path ) ) {
+				$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+				$this->langNames = array();
+				return array();
+			}
+
+			// Load it
+			$coreLanguageNames = array();
+			include $path;
+			$this->langNames = $coreLanguageNames;
+		}
+
+		return $this->langNames;
 	}
 
 	/**
-	 * Return all languages loaded in at least one domain
-	 * @param $domain
-	 *  false - Show languages for which there is a translation in the current domain
-	 *  'any' - Show languages for which there is a translation in at least one domain
-	 *  domain name - Show languages for which there is a translation in the given domain
+	 * Return all languages available in at least one domain.
+	 *
+	 * @return array
 	 */
-	public function getAvailableLangs($domain = 'any') {
-		if ( $domain == 'any' ) {
-			$from = $this->availableLanguages;
-		} else {
-			if ( $domain === false ) {
-				$domain = $this->getDomain();
+	public function getAvailableLangs() {
+		// Lazy-load and cache
+		if ( $this->availableLanguages === null ) {
+			$messageFiles = glob( $this->localBaseDir . '/language/messages/*/*.json' );
+
+			$languages = array_values( array_unique( array_map(
+				function ( $filename ) {
+					return basename( $filename, '.json' );
+				},
+				$messageFiles
+			) ) );
+
+			$availableLanguages = array();
+			foreach ( $languages as $lang ) {
+				$availableLanguages[$lang] = $this->getLangName( $lang );
 			}
+			ksort( $availableLanguages );
 
-			$from = isset( $this->messageBlob[$domain] ) ? $this->messageBlob[$domain] : array();
+			$this->availableLanguages = $availableLanguages;
 		}
 
-		$return = array();
-		foreach ( array_keys( $from ) as $lang ) {
-			$return[$lang] = $this->getLangName( $lang );
-		}
-		ksort( $return );
-		return $return;
+		return $this->availableLanguages;
 	}
 
 
-	/* Textdomain functions
+	/* Domain functions
 	 * ------------------------------------------------- */
 
 	/**
-	 * Load a textdomain (if not loaded already).
+	 * Get the language that can be used for a message in a domain.
 	 *
-	 * @param $domain string Name of the textdomain (case-insensitive)
-	 * @return False on error, (normalized) domainname if success.
+	 * If possible, returns the preferred lang right away, otherwise it looks
+	 * for a suitable falback
+	 *
+	 * @param string $domain Name (lowercase)
+	 * @param string $lang Preferred language
+	 * @param string $key Key of message
+	 * @return string
 	 */
-	public function loadTextdomain( $domain ) {
-
-		// Generally validate input and protect against path traversal
-		if ( !IntuitionUtil::nonEmptyStr( $domain ) ||
-			strcspn( $domain, ":/\\\000" ) !== strlen( $domain )
-		) {
-			$this->errTrigger( "Invalid textdomain \"$domain\"", __METHOD__, E_NOTICE );
-			return false;
+	protected function getLangForMsg( $domain, $lang, $key ) {
+		$this->ensureLoaded( $domain, $lang );
+		if ( isset( $this->messageBlob[$domain][$lang][$key] ) ) {
+			return $lang;
 		}
 
-		// Normalise domain name (case-insensitive)
+		// Check fallbacks
+		$fallbacks = $this->getLangFallbacks( $lang );
+		foreach ( $fallbacks as $fallbackLang ) {
+			$this->ensureLoaded( $domain, $fallbackLang );
+			if ( isset( $this->messageBlob[$domain][$fallbackLang][$key] ) ) {
+				return $fallbackLang;
+			}
+		}
+
+		return 'en';
+	}
+
+	/**
+	 * Ensure a domain's language is loaded.
+	 *
+	 * @param string $domain Name of the domain
+	 * @param string $lang Language code
+	 * @return bool
+	 */
+	public function ensureLoaded( $domain, $lang ) {
+		// Normalise domain name
 		$domain = strtolower( $domain );
 
-		// Don't load if already loaded
-		if ( isset( $this->loadedTextdomains[$domain] ) ) {
-			return $domain;
+		# FIXME: Verify lang is always lowercase
+		if ( isset( $this->loadedDomains[ $domain ][ $lang ] ) ) {
+			// Already tried
+			return $this->loadedDomains[ $domain ][ $lang ];
 		}
 
-		// Error out if unregistered
-		if ( !in_array( $domain, $this->registeredTextdomains ) ) {
+		// Validate input and protect against path traversal
+		if ( !IntuitionUtil::nonEmptyStrs( $domain, $lang ) ||
+			strcspn( $domain, ":/\\\000" ) !== strlen( $domain ) ||
+			strcspn( $lang, ":/\\\000" ) !== strlen( $lang )
+		) {
+			$this->errTrigger( 'Illegal domain or lang', __METHOD__, E_NOTICE );
 			return false;
 		}
 
-		// File exists ?
-		$path = $this->localBaseDir . '/language/messages/' . ucfirst( $domain ) . '.i18n.php';
-		if ( !file_exists( $path ) ) {
-			$this->errTrigger( "Textdomain file not found for \"$domain\" at $path. Ignoring",
+		$this->loadedDomains[ $domain ][ $lang ] = false;
+
+		$dir = $this->localBaseDir . '/language/messages/' . $domain;
+		if ( !is_dir( $dir ) ) {
+			// Domain does not exist
+			return false;
+		}
+
+		if ( !is_readable( $dir ) ) {
+			// Directory is unreadable
+			$this->errTrigger( "Unable to open messages directory for \"$domain\".",
 				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
 		}
 
-		// Load it
-		$load = $this->loadTextdomainFromFile( $path, $domain );
+		$file = "$dir/$lang.json";
+		$loaded = $this->loadMessageFile( $domain, $lang, $file );
+		if ( !$loaded ) {
+			return false;
+		}
+		$this->loadedDomains[ $domain ][ $lang ] = true;
+		return true;
 
-		// Return (normalized) domainname or false
-		return !!$load ? $domain : false;
-
+		// foreach ( $this->getLangFallbacks( $lang ) as $fallbackLang ) {
+		// 	$this->loadedDomains[ $domain ][ $fallbackLang ] = false;
+		// 	$file = "$dir/$fallbackLang.json";
+		// 	$loaded = $this->loadMessageFile( $domain, $fallbackLang, $file );
+		// 	if ( $loaded ) {
+		// 		return $domain;
+		// 	}
+		// }
 	}
 
 	/**
-	 * @param string $filePath
 	 * @param string $domain
+	 * @param string $lang
+	 * @param string $filePath
+	 * @return bool
 	 */
-	public function loadTextdomainFromFile( $filePath, $domain ) {
-		if ( !IntuitionUtil::nonEmptyStrs( $filePath, $domain ) ) {
-			$this->errTrigger( 'One or more arguments are missing', __METHOD__, E_NOTICE,
-				__FILE__, __LINE__
-			);
+	public function loadMessageFile( $domain, $lang, $file ) {
+		if ( !is_file( $file ) || !is_readable( $file ) ) {
+			$this->errTrigger( "Unable to open message file \"$file\"",
+				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return false;
 		}
 
-		// Load it
-		$included = include $filePath;
-
-		if ( $included === false ) {
-			$this->errTrigger( "File $filePath could not be loaded ", __METHOD__, E_NOTICE,
-				__FILE__, __LINE__
-			);
+		$messages = json_decode( file_get_contents( $file ), /* assoc = */ true );
+		if ( !is_array( $messages ) ) {
 			return false;
 		}
 
-		// Parse it
-		$compact = compact( $this->includeVariables );
-		$this->parseTextdomain( $compact, $domain, $filePath );
+		$this->setMsgs( $messages, $domain, $lang );
 		return true;
 	}
 
 	/**
-	 * @DOCME:
-	 */
-	protected function parseTextdomain( $data, $domain, $filePath ) {
-		if ( !is_array( $data ) ) {
-			$this->errTrigger( 'Invalid $data passed to ' . __FUNCTION__, __METHOD__, E_ERROR,
-				__FILE__, __LINE__
-			);
-		}
-
-		// Were there any message defined in the textdomain file ?
-		if ( !isset( $data['messages'] ) || !is_array( $data['messages'] ) ) {
-			$this->errTrigger( 'No $messages array found', __METHOD__, E_ERROR, $filePath );
-		}
-		unset( $data['messages']['qqq'] ); // Workaround
-
-		// Load the message into the blob
-		// overwrites the existing array of messages if it already existed
-		// If you need to add or overwrite some messages temporarily,
-		// use Itui::setMsg() or Itui::setMsgs() instead
-		foreach ( $data['messages'] as $langcode => $messages ) {
-			$this->availableLanguages[$langcode] = true;
-			$this->setMsgs( (array) $messages, $domain, $langcode );
-		}
-
-		// Was there a url defined in the textdomain file ?
-		$url = isset( $data['url'] ) ? $data['url'] : null;
-
-		$this->loadedTextdomains[$domain] = array( 'url' => $url );
-
-		return true;
-	}
-
-	/**
-	 * Get information about a text domain.
+	 * Get information about a domain (if any).
 	 *
-	 * @param $domain string
+	 * @param string $domain Name
 	 * @return array
 	 */
 	public function getDomainInfo( $domain ) {
-		// Load if registered but not already loaded
-		$normalised = $this->loadTextdomain( $domain );
-
-		if ( isset( $this->loadedTextdomains[$normalised] ) &&
-			is_array( $this->loadedTextdomains[$normalised] )
-		) {
-			return $this->loadedTextdomains[$normalised];
-		} else {
+		$domainInfo = $this->getDomainInfos();
+		if ( !isset( $domainInfo[ $domain ] ) ) {
 			return array();
 		}
+		return $domainInfo[ $domain ];
+	}
+
+	/**
+	 * Get all domain information blobs.
+	 *
+	 * @return bool|array
+	 */
+	public function getDomainInfos() {
+		if ( $this->domainInfo === null ) {
+			$path = $this->localBaseDir . '/language/domainInfo.json';
+
+			if ( !is_file( $path ) || !is_readable( $path ) ) {
+				$this->errTrigger( 'Unable to open domainInfo.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+				return false;
+			}
+			$this->domainInfo = json_decode( file_get_contents( $path ), /* assoc = */ true );
+		}
+		return $this->domainInfo;
 	}
 
 
@@ -928,93 +930,6 @@ class Intuition {
 		);
 	}
 
-
-	/* Load functions
-	 * ------------------------------------------------- */
-
-
-	/**
-	 * Load domains
-	 *
-	 * @return bool
-	 */
-	protected function loadDomainRegistry() {
-		// Skip if already loaded
-		if ( $this->registeredTextdomains !== null ) {
-			return false;
-		}
-
-		$path = $this->localBaseDir . '/language/domains.json';
-		if ( !file_exists( $path ) ) {
-			$this->errTrigger( 'domains.json is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-		$this->registeredTextdomains = json_decode( file_get_contents( $path ) );
-
-		return true;
-	}
-
-
-	/**
-	 * Load fallbacks
-	 *
-	 * @return bool
-	 */
-	protected function loadFallbacks() {
-
-		// Don't load twice
-		if ( is_array( $this->langFallbacks ) ) {
-			return false;
-		}
-
-		$path = $this->localBaseDir . '/language/Fallbacks.php';
-		if ( !file_exists( $path ) ) {
-			$this->errTrigger( 'Fallbacks.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-
-		$fallbacks = array();
-		include $path;
-
-		// Expand single-fallback strings into arrays for a consistent interface
-		foreach ( $fallbacks as $lang => $list ) {
-			if ( !is_array( $list ) ) {
-				$fallbacks[ $lang ] = array( $list );
-			}
-		}
-
-		$this->langFallbacks = $fallbacks;
-
-		return true;
-	}
-
-	/**
-	 * Load names
-	 *
-	 * @return true
-	 */
-	protected function loadNames() {
-
-		// Don't load twice
-		if ( is_array( $this->langNames ) ) {
-			return false;
-		}
-
-		$path = $this->localBaseDir . '/language/mw-classes/Names.php';
-		if ( !file_exists( $path ) ) {
-			$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-
-		// Load it
-		$coreLanguageNames = array();
-		include $path;
-		$this->langNames = $coreLanguageNames;
-
-		return true;
-	}
-
-
 	/* Output promo and dashboard backlinks
 	 * ------------------------------------------------- */
 
@@ -1024,7 +939,6 @@ class Intuition {
 	 * Or (if they've done so already) that they can manage their settings there
 	 */
 	public function dashboardBacklink() {
-
 		if ( $this->hasCookies() ) {
 			$text = $this->msg( 'bl-mysettings', 'tsintuition' );
 		} else {
@@ -1166,7 +1080,7 @@ class Intuition {
 	 * @return false on failure.
 	 */
 	public function redirectTo( $url = 0, $code = 302 ) {
-		if ( is_null( $url ) ) {
+		if ( $url === null ) {
 			$this->redirectTo = null;
 			return true;
 		}
@@ -1221,19 +1135,19 @@ class Intuition {
 	 * Get a localized date. Pass a format, time or both.
 	 * Defaults to the current timestamp in the language's default date format.
 	 *
-	 * @param $format string Date format compatible with strftime()
-	 * @param $timestamp mixed Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
-	 * @param $lang string Language code. Defaults to current langauge (through getLocale() )
+	 * @param string $format Date format compatible with strftime()
+	 * @param mixed $timestamp Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
+	 * @param string $lang Language code. Defaults to current langauge (through getLocale() )
 	 *
 	 * @return string
 	 */
 	public function dateFormatted( $first = null, $second = null, $lang = null ) {
 
 		// One argument or less
-		if ( is_null( $second ) ) {
+		if ( $second === null ) {
 
 			// No arguments
-			if ( is_null( $first ) ) {
+			if ( $first === null ) {
 				$format = $this->msg( 'dateformat', 'general' );
 				$timestamp = time();
 
@@ -1315,7 +1229,7 @@ class Intuition {
 					 * or be missing from availableLanguages.
 					 * The order will be the one in the i18n file: en, af, ar...
 					 */
-					foreach ( $this->availableLanguages as $availableLang => $true ) {
+					foreach ( $this->getAcceptableLanguages() as $availableLang => $true ) {
 						if ( !isset( $acceptableLanguages[$availableLang] ) ) {
 							$n = strstr( $availableLang, '-' );
 							// Assumption: We won't have translations for languages with more than
@@ -1336,6 +1250,7 @@ class Intuition {
 						break;
 					}
 
+					// FIXME: availableLanguages -> getavailableLanguages
 				} elseif ( isset( $this->availableLanguages[$acceptLang] ) ) {
 					$set = $this->setLang( $acceptLang );
 					break;
@@ -1362,6 +1277,7 @@ class Intuition {
 				while ( ( $n = strstr( $acceptLang, '-' ) ) !== false ) {
 					$acceptLang = substr( $acceptLang, 0, $n - 1 );
 
+					#FIXME
 					if ( isset( $this->availableLanguages[$acceptLang] ) ) {
 						$set = $this->setLang( $acceptLang );
 						break 2;
@@ -1487,9 +1403,10 @@ class Intuition {
 	}
 
 	/**
-	 * Returns true if a language is Right-to-left
-	 * @param $code String Language code to get the property from,
-	 * current language if missing
+	 * Whether the language is right-to-left
+	 *
+	 * @param string $code Language code to get the property from,
+	 *  current language if missing
 	 * @return Boolean
 	 */
 	public function isRtl( $code = null ) {
@@ -1503,9 +1420,39 @@ class Intuition {
 
 	/**
 	 * Return the correct HTML 'dir' attribute value for this language.
-	 * @return String
+	 * @return string
 	 */
 	public function getDir( $code = null ) {
 		return $this->isRtl( $code ) ? 'rtl' : 'ltr';
+	}
+
+	/**
+	 * Get a list of registered text domains.
+	 *
+	 * @deprecated No longer needed. To get available languages, use getAvailableLangs()
+	 * @return array
+	 */
+	public function getAllRegisteredDomains() {
+		return array();
+	}
+
+	/**
+	 * @deprecated Use #ensureLoaded instead.
+	 * @param string $domain
+	 */
+	public function loadTextdomain( $domain ) {
+		if ( !$this->ensureLoaded( $domain, $this->getLang() ) ) {
+			return false;
+		}
+		return strtolower( $domain );
+	}
+
+	/**
+	 * @deprecated Use #loadMessageFile instead.
+	 * @param string $filePath
+	 * @param string $domain
+	 */
+	public function loadTextdomainFromFile( $filePath, $domain ) {
+		return false;
 	}
 }
