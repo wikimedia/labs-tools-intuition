@@ -1,5 +1,11 @@
-= 0.1.3 =
+= v0.2.0 =
 : In development
+
+== Changes ==
+* dashboard: Use "1 month" indication instead of "4 weeks".
+
+= v0.1.3 =
+: 22 May 2014
 
 == Changes ==
 * Rename TsIntuitionUtil::return_dump to TsIntuitionUtil::returnDump.
@@ -10,9 +16,8 @@
 * Rename TsIntuition to Intuition.
   Repository to https://github.com/Krinkle/intuition.
 
-
-= 0.1.2 =
-: April 1, 2013
+= v0.1.2 =
+: 1 April 2013
 
 == New features ==
 * Textdomains may now also define the $url in the definition file. (r85286)
@@ -33,9 +38,8 @@
 * Introduced new 'suppressbrackets' option (r85471)
 * Dashboard moved to http://toolserver.org/~intuition/
 
-
-= 0.1.1 =
-: April 3, 2011
+= v0.1.1 =
+: 3 April 2011
 
 == New features ==
 * Added a clear-cookies and renew-cookies action (r84981, r85246)
@@ -50,10 +54,10 @@
 * PremadeToolserverTextdomains moved to /exensions/Translate per convention (r85117)
 * Requesting an undefined message triggers a TsIntution error on E_NOTICE level (r85052)
 
-= 0.1.0 =
-: March 28, 2011
+= v0.1.0 =
+: 28 March 2011
 First version in Wikimedia SVN.
 
-= 0.0.1 =
-: March 23, 2011
+= v0.0.1 =
+: 23 March 2011
 Initial version on toolserver only.
