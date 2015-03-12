@@ -240,15 +240,20 @@ class Intuition {
 		$shortUC = strtoupper( $short );
 
 		$versions = array(
-			$normal,				// foo-br	or en
-			$normalUC,				// FOO-BR	or EN
-			$short.'_'.$shortUC,	// foo_FOO	or en_EN
-			$short,					// foo		or en
-			$shortUC,				// FOO		or EN
+			// foo-br or en
+			$normal,
+			// FOO-BR or EN
+			$normalUC,
+			// foo_FOO or en_EN
+			$short . '_' . $shortUC,
+			// foo or en
+			$short,
+			// FOO or EN
+			$shortUC,
 		);
 		$return = array();
 		foreach ( $versions as $version ) {
-			foreach( $suffixes as $suffix ) {
+			foreach ( $suffixes as $suffix ) {
 				$return[] = $version.$suffix;
 			}
 		}
@@ -347,10 +352,8 @@ class Intuition {
 		if ( $this->messagesFunctions == null ) {
 			require_once $this->localBaseDir . '/language/MessagesFunctions.php';
 			$this->messagesFunctions = MessagesFunctions::getInstance( $this->localBaseDir, $this );
-			return $this->messagesFunctions;
-		} else {
-			return $this->messagesFunctions;
 		}
+		return $this->messagesFunctions;
 	}
 
 	/* Message functions
@@ -494,11 +497,10 @@ class Intuition {
 	 * @return string value or null.
 	 */
 	protected function accessBlob( $domain, $lang, $key ) {
-		if ( isset( $this->messageBlob[$domain][$lang][$key] ) ) {
-			return $this->messageBlob[$domain][$lang][$key];
-		} else {
+		if ( !isset( $this->messageBlob[$domain][$lang][$key] ) ) {
 			return null;
 		}
+		return $this->messageBlob[$domain][$lang][$key];
 	}
 
 	/**
@@ -658,14 +660,15 @@ class Intuition {
 		if ( $domain == 'any' ) {
 			$from = $this->availableLanguages;
 		} else {
-			if ( $domain === false )
+			if ( $domain === false ) {
 				$domain = $this->getDomain();
+			}
 
 			$from = isset( $this->messageBlob[$domain] ) ? $this->messageBlob[$domain] : array();
 		}
 
 		$return = array();
-		foreach( array_keys( $from ) as $lang ) {
+		foreach ( array_keys( $from ) as $lang ) {
 			$return[$lang] = $this->getLangName( $lang );
 		}
 		ksort( $return );
