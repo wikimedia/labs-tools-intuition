@@ -23,11 +23,6 @@ $I18N = new Intuition( array(
 	'mode' => 'dashboard',
 ) );
 
-// Load all domains so we can get some statistics later on and
-// make sure "getAvailableLangs" is complete
-foreach ( $I18N->getAllRegisteredDomains() as $domainKey ) {
-	$I18N->loadTextdomain( $domainKey );
-}
 
 // Initialize BaseTool
 $Tool = BaseTool::newFromArray( array(
@@ -247,7 +242,7 @@ if ( $I18N->hasCookies() ) {
 // Settings form
 $dropdown = '<select name="fpLang" class="form-control">';
 $selected = ' selected';
-foreach ( $I18N->getAvailableLangs( 'any' ) as $langCode => $langName ) {
+foreach ( $I18N->getAvailableLangs() as $langCode => $langName ) {
 	$attr = $langCode == $I18N->getLang() ? $selected : '';
 	$dropdown .= '<option value="' . $langCode . '"' . $attr . '>'
 		. "$langCode - $langName"
@@ -307,8 +302,7 @@ $about .= '<a href="https://translatewiki.net/wiki/Translating:Intuition">'
 	.	'</a>';
 $about .= ''
 	. '<div class="lead">' . $I18N->msg( 'usage' ) . '</div><ul>';
-foreach ( $I18N->getAllRegisteredDomains() as $domain) {
-	$domainInfo = $I18N->getDomainInfo( $domain );
+foreach ( $I18N->getDomainInfos() as $domain => $domainInfo ) {
 	$title = $I18N->msg( 'title', $domain, /* fallback = */ $domain );
 	if ( isset( $domainInfo['url'] ) ) {
 		$about .= '<li><a href="'

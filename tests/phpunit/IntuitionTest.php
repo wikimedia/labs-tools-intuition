@@ -131,7 +131,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'Unknown key falls back to bracket-wrapped key'
 		);
 		$this->expectOutputString(
-			'Notice: [Intuition::msg] Message "r4nd0mstr1n9" in domain "general" not found.'
+			'Notice: [Intuition::msg] Message "r4nd0mstr1n9" for lang "en" in domain "general" not found.'
 		);
 	}
 
@@ -163,54 +163,33 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'Default for language without fallback'
 		);
 
-		// Language with 1 fallback
 		$this->assertEquals(
 			'de value',
-			$this->i18n->rawMsg( 'test-domain', 'de_formal', 'test-value' )
+			$this->i18n->rawMsg( 'test-domain', 'de_formal', 'test-value' ),
+			'Language with 1 fallback'
 		);
 
-		// Language with 2 fallbacks (first)
 		$this->assertEquals(
 			'nan value',
-			$this->i18n->rawMsg( 'test-domain', 'cdo', 'test-value' )
+			$this->i18n->rawMsg( 'test-domain', 'cdo', 'test-value' ),
+			'Language with 2 fallbacks (first)'
 		);
 
-		// Language with 3 fallbacks (third)
 		$this->assertEquals(
 			'zh-hans value',
-			$this->i18n->rawMsg( 'test-domain', 'gan', 'test-value' )
+			$this->i18n->rawMsg( 'test-domain', 'gan', 'test-value' ),
+			'Language with 3 fallbacks (third)'
 		);
 	}
 
 	/**
-	 * @covers Intuition::loadTextdomainFromFile
-	 * @covers Intuition::parseTextdomain
-	 */
-	public function testLoadTextdomainFromFile() {
-		$this->i18n->loadTextdomainFromFile( __DIR__ . '/data/Example.i18n.php', 'test-load' );
-
-		$this->assertEquals(
-			'Foo bar',
-			$this->i18n->rawMsg( 'test-load', 'en', 'foo' )
-		);
-
-		$this->assertEquals(
-			'Hallo wereld',
-			$this->i18n->rawMsg( 'test-load', 'nl', 'hello' )
-		);
-	}
-
-	/**
-	 * @covers Intuition::loadTextdomainFromFile
-	 * @covers Intuition::parseTextdomain
 	 * @covers Intuition::getDomainInfo
+	 * @covers Intuition::getDomainInfos
 	 */
 	public function testGetDomainInfo() {
-		$this->i18n->loadTextdomainFromFile( __DIR__ . '/data/Example.i18n.php', 'test-info' );
-
 		$this->assertEquals(
-			array( 'url' => 'https://example.org' ),
-			$this->i18n->getDomainInfo( 'test-info' )
+			array( 'url' => '//tools.wmflabs.org/intuition/' ),
+			$this->i18n->getDomainInfo( 'tsintuition' )
 		);
 	}
 }

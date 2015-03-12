@@ -16,6 +16,7 @@ $demoRegistry = array(
 	'demo6' => 'Utility examples',
 	'demo7' => 'Language names',
 	'demo8' => 'Rendering examples',
+	'demo9' => 'Domain info',
 );
 
 $thisFile = basename( $_SERVER['SCRIPT_NAME'], '.php' );
