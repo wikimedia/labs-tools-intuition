@@ -544,6 +544,7 @@ class Intuition {
 	}
 
 	public function listMsgs( $domain ) {
+		$this->ensureLoaded( $domain, "en" );
 		return array_keys( $this->messageBlob[$domain]['en'] );
 	}
 
