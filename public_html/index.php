@@ -295,10 +295,10 @@ $tabContent .= Html::openElement('div', array(
 // About tab
 
 $about = '<div class="tab-pane" id="tab-about">';
-$about .= '<a href="//translatewiki.net/wiki/Translating:Intuition">'
+$about .= '<a href="https://translatewiki.net/wiki/Translating:Intuition">'
 	.	Html::element( 'img', array(
-		'src' => '//translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&preview=&'
-			. 'count=edits&scale=weeks&days=30&width=520&height=400&group=tsint-0-all',
+		'src' => 'https://translatewiki.net/w/i.php?title=Special:TranslationStats&graphit=1&'
+			. 'count=edits&scale=months&days=250&width=520&height=400&group=tsint-0-all',
 		'width' => 520,
 		'height' => 400,
 		'alt' => '',
