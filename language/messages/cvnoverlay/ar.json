@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"adder": "الجامع",
+	"adder-empty": "غير معروف",
+	"expiry": "انتهاء",
+	"globalwatched": "مشاهدة عامة",
+	"lastupdate-db": "آخر تحديث: $1",
+	"reason": "السبب",
+	"reason-empty": "لم يتم العثور على سبب"
+}

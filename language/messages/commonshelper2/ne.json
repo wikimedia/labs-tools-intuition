@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krish Dulal",
+			"सरोज कुमार ढकाल"
+		]
+	},
+	"attention": "ध्यान दिनुहोस्",
+	"language": "भाषा",
+	"project": "परियोजना",
+	"source_file": "स्रोत फाइल",
+	"target_file": "लक्ष्य फाइल",
+	"categories": "श्रेणीहरू",
+	"do_it": "गर्नुहोस्",
+	"upload_submit": "अपलोड गर्ने"
+}

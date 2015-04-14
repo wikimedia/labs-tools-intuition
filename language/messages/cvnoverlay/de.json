@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"adder": "Hinzufügender Benutzer",
+	"adder-empty": "Unbekannt",
+	"expiry": "Ablauf",
+	"globalwatched": "Global beobachtet",
+	"lastupdate-db": "Letzte Aktualisierung: $1",
+	"reason": "Grund",
+	"reason-empty": "Keine Begründung gefunden"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ebraminio",
+			"Reza1615",
+			"Wayiran"
+		]
+	},
+	"title": "بحث‌یتیم",
+	"description": "یافتن صفحات بحث یتیم",
+	"label-wiki": "ویکی",
+	"select-wiki-first": "(ابتدا یک ویکی را انتخاب کنید)",
+	"hideredirects": "پنهان کردن تغییر مسیرها",
+	"hidesubpages": "پنهان کردن زیرصفحه‌ها",
+	"limit": "تعداد",
+	"page": "صفحه",
+	"tooltip-redirect": "این صفحه تغییر مسیر است",
+	"output": "خروجی",
+	"update": "به روز رسانی",
+	"tools-view": "نمایش",
+	"tools-delete": "حذف",
+	"tools-links": "پیوند به اینجا",
+	"tools-subject": "عنوان صفحه",
+	"tools-hist": "نمایش تاریخچه",
+	"tools-curr": "تغییرات اخیر",
+	"tools-globalusage": "استفادهٔ پرونده",
+	"deletesummary": "$1: صفحات بحث یتیم",
+	"noresults": "هیچ صفحهٔ بحث یتیمی در این ویکی و در این فضای نام، مطابق با تنظیمات شما وجود ندارد.",
+	"resultslimited": "نتایج به $1 صفحه محدود بود."
+}

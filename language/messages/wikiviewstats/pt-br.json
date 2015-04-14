@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jefersonmoraes",
+			"Luckas"
+		]
+	},
+	"list": "Lista",
+	"sample": "Exemplo",
+	"pagetitle": "título da página",
+	"page": "Página",
+	"settings": "Configurações",
+	"help": "ajuda",
+	"today": "hoje",
+	"all": "todos",
+	"popular": "popular",
+	"language": "língua",
+	"myarea": "Minha área",
+	"myfavs": "Favoritos",
+	"mycontribs": "Contribuições",
+	"myworklist": "Lista de trabalho",
+	"portal": "Portal",
+	"project": "Projeto",
+	"category": "Categoria",
+	"files": "{{PLURAL:$1|arquivo|arquivos}}",
+	"specialPage": "Página especial",
+	"helpPage": "Página de ajuda",
+	"size": "tamanho",
+	"revisions": "Revisões",
+	"first": "primeiro",
+	"total": "total",
+	"links": "Links",
+	"protection": "proteção",
+	"bureaucrats": "burocratas",
+	"sysops": "administradores",
+	"articles": "artigos",
+	"good_articles": "artigos bons",
+	"pages": "páginas",
+	"optinMsg2": "Alternativamente, você pode criar $1 no Meta-Wiki de opt-in em todos as wikis da Wikimedia.",
+	"submit": "Enviar",
+	"save": "salvar",
+	"cancel": "cancelar"
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"search-table-th-field": "Laukas",
+	"search-table-th-filter": "Filtras",
+	"search-table-th-search": "Paieška",
+	"filter-all-countries": "Visos šalys",
+	"filter-all-languages": "Visos kalbos",
+	"db-field-country": "Šalis",
+	"db-field-lang": "Kalba",
+	"db-field-id": "Identifikatorius",
+	"db-field-name": "Vardas",
+	"db-field-address": "Adresas",
+	"db-field-lat": "Platuma",
+	"db-field-lon": "Ilguma",
+	"db-field-image": "Paveikslėlis",
+	"db-field-changed": "Pakeistas",
+	"db-field-source": "Šaltinis",
+	"db-field-st_address": "Adresai",
+	"db-field-st_address_pct": "Adresai %",
+	"db-field-st_coordinates": "Koordinatės",
+	"db-field-st_coordinates_pct": "Koordinatės %",
+	"db-field-st_image": "Paveikslėlis",
+	"db-field-st_image_pct": "Paveikslėlis %",
+	"db-field-st_name": "Pavadinimai",
+	"db-field-st_name_pct": "Pavadinimai %",
+	"db-field-st_total": "Bendras skaičius",
+	"toolbox-nav-homepage": "Pagrindinis puslapis",
+	"toolbox-nav-statistics": "Statistika",
+	"toolbox-nav-search": "Ieškoti",
+	"location": "Vietovė"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13"
+		]
+	},
+	"fullname": "Prijevod za suradničko sučelje Toolservera",
+	"current-settings": "Trenutne postavke",
+	"current-language": "Trenutačno odabrani jezik",
+	"settings-legend": "Postavke",
+	"choose-language": "Odaberite jezik",
+	"clear-cookies": "obrišite kolačiće",
+	"renew-cookies": "obnovite kolačiće",
+	"cookie-expiration": "Istjecanje kolačića",
+	"clearcookies-success": "Uspješno očišćeni kolačići.",
+	"renewcookies-success": "Kolačići su obnovljeni. Svi su postavljeni za sljedećih $1.",
+	"tab-overview": "Pregled",
+	"tab-settings": "Postavke",
+	"tab-about": "O",
+	"tab-demo": "Demo",
+	"bl-mysettings": "Moje postavke jezika",
+	"bl-mysettings-new": "Promjena jezika!",
+	"bl-promo": "Za prijevode su zaslužni $1 i $2.",
+	"bl-changelanguage": "Kliknite ovdje za promjenu jezika sučelja za ovaj alat.",
+	"usage": "Alati koje je preveo Toolserver Intuition.",
+	"help-translate-tool": "Pomozite nam prevesti ovaj alat!",
+	"help-translate-all": "Pomozite nam da prevedemo Toolserver!",
+	"help-translate-tooltip": "Pomozite drugima prijevodom poruka sučelja na svoj jezik."
+}

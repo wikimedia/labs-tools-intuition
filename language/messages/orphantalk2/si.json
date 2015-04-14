@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Singhalawap",
+			"පසිඳු කාවින්ද",
+			"බිඟුවා"
+		]
+	},
+	"title": "අනාථකතාබහ2",
+	"select-wiki-first": "(පළමුව විකියක් තෝරාගන්න)",
+	"hideredirects": "යළියොමු සඟවන්න",
+	"hidesubpages": "උපපිටු සඟවන්න",
+	"limit": "සීමාව",
+	"page": "පිටුව",
+	"output": "ප්‍රතිදානය",
+	"update": "යාවත්කාලීන කරන්න",
+	"tools-delete": "මකන්න",
+	"tools-links": "සබැඳි",
+	"tools-subject": "විෂයය",
+	"tools-hist": "ඉතිහාසය",
+	"tools-curr": "වත්මන්",
+	"tools-globalusage": "ගෝලීයභාවිතය",
+	"resultslimited": "ප්‍රතිඑල $1 පිටු වෙත සීමා කර ඇත."
+}

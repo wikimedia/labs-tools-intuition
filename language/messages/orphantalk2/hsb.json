@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(wubjer najprjedy wiki)",
+	"hideredirects": "Daleposrědkowanja schować",
+	"hidesubpages": "Podstrony schować",
+	"limit": "Limit",
+	"page": "Strona",
+	"output": "Wudaće",
+	"update": "Aktualizować",
+	"tools-delete": "zhašeć",
+	"tools-links": "wotkazy",
+	"tools-subject": "tema",
+	"tools-hist": "wersije",
+	"tools-curr": "aktualna wersija",
+	"tools-globalusage": "globalne wužiwanje",
+	"deletesummary": "Wuprózdnjenje wosyroćenych diskusijnych stronow přez $1",
+	"noresults": "Žane wosyroćene diskusijne strony na tutym wikiju w tutym mjenowym rumje njejsu wašim nastajenjam wotpowědowali.",
+	"resultslimited": "Wuslědki buchu na $1 stronow wobmjezowane."
+}

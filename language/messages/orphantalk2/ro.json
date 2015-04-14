@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm"
+		]
+	},
+	"title": "OrphanTalk",
+	"description": "Caută pagini de discuție orfane.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(alegeți un wiki mai întâi)",
+	"hideredirects": "Ascunde redirecționările",
+	"hidesubpages": "Ascunde subpaginile",
+	"limit": "Limită",
+	"page": "Pagină",
+	"tooltip-redirect": "Această pagină este o redirecționare",
+	"output": "Date de ieșire",
+	"update": "Actualizează",
+	"tools-view": "Vizualizează",
+	"tools-delete": "Șterge",
+	"tools-links": "Ce trimite aici",
+	"tools-subject": "Pagina subiectului",
+	"tools-hist": "Vezi istoricul",
+	"tools-curr": "Ultima modificare",
+	"tools-globalusage": "Utilizarea fișierului",
+	"deletesummary": "$1: Pagină de discuție orfană",
+	"noresults": "Nicio pagină de discuții orfană aflată în acest spațiu de nume, pe acest wiki, nu se potrivește criteriilor dumneavoastră.",
+	"resultslimited": "Rezultatele au fost limitate la $1 pagini."
+}

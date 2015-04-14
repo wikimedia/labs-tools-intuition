@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Tlustulimu"
+		]
+	},
+	"fullname": "Internaciigo por Uzanto-Interfaco  de Toolserver",
+	"current-settings": "Nuntempaj agordoj",
+	"current-language": "Elektita lingvo",
+	"settings-legend": "Agordoj",
+	"choose-language": "Elektu lingvon",
+	"tab-overview": "Superrigardo",
+	"tab-settings": "Agordoj",
+	"tab-about": "Pri",
+	"bl-mysettings": "Mia lingvo-agordoj",
+	"bl-mysettings-new": "Ŝanĝu lingvon!",
+	"bl-promo": "Tradukoj estas de $1 kaj $2.",
+	"usage": "Iloj tradukitaj de Toolserver Intuition."
+}

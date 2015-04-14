@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akhilan",
+			"Praveenp"
+		]
+	},
+	"limit": "പരിധി",
+	"page": "താൾ",
+	"output": "ഔട്ട്പുട്ട്",
+	"update": "പുതുക്കുക",
+	"tools-delete": "മായ്ക്കുക",
+	"tools-links": "കണ്ണികൾ",
+	"tools-subject": "വിഷയം",
+	"tools-hist": "നാൾവഴി",
+	"tools-curr": "നിലവിൽ",
+	"tools-globalusage": "ആഗോള ഉപയോഗം"
+}

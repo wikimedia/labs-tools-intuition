@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Luckas",
+			"Vitorvicentevalente"
+		]
+	},
+	"title": "DiscussõesÓrfãs",
+	"description": "Encontra páginas de discussão órfãs.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(primeiro selecione uma wiki)",
+	"hideredirects": "Ocultar redirecionamentos",
+	"hidesubpages": "Ocultar subpáginas",
+	"limit": "Limite",
+	"page": "Página",
+	"tooltip-redirect": "Esta página é um redirecionamento",
+	"output": "Resultados",
+	"update": "Atualizar",
+	"tools-view": "Ver",
+	"tools-delete": "Eliminar",
+	"tools-links": "Páginas afluentes",
+	"tools-subject": "Assunto da página",
+	"tools-hist": "Ver histórico",
+	"tools-curr": "Última alteração",
+	"tools-globalusage": "Uso do ficheiro",
+	"deletesummary": "$1: Página de discussão órfã",
+	"noresults": "Não foram encontradas páginas de discussão órfãs neste domínio desta wiki que correspondam às suas especificações.",
+	"resultslimited": "Os resultados foram limitados a $1 páginas."
+}

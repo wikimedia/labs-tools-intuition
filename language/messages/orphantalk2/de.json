@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"title": "OrphanTalk",
+	"description": "Verwaiste Diskussionsseiten finden.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(wähle zuerst ein Wiki)",
+	"hideredirects": "Weiterleitungen ausblenden",
+	"hidesubpages": "Unterseiten ausblenden",
+	"limit": "Limit",
+	"page": "Seite",
+	"tooltip-redirect": "Diese Seite ist eine Weiterleitung",
+	"output": "Ausgabe",
+	"update": "Aktualisieren",
+	"tools-view": "Ansehen",
+	"tools-delete": "Löschen",
+	"tools-links": "Links auf diese Seite",
+	"tools-subject": "Betroffene Seite",
+	"tools-hist": "Versionsgeschichte ansehen",
+	"tools-curr": "Letzte Änderung",
+	"tools-globalusage": "Dateiverwendung",
+	"deletesummary": "$1: Verwaiste Diskussionsseite",
+	"noresults": "Es konnten auf diesem Wiki keine den Einstellungen entsprechenden verwaisten Diskussionsseiten in diesem Namensraum ermittelt werden.",
+	"resultslimited": "Die Ergebnisse wurden auf $1 Seiten beschränkt."
+}

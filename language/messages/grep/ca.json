@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"explanation": "explicació",
+	"regex": "Expressió regular",
+	"enter-details": "Introduïu els detalls",
+	"results": "Resultats",
+	"language-label": "Idioma",
+	"namespace-label": "Espai de noms",
+	"project-label": "Projecte",
+	"pattern-label": "Patró"
+}

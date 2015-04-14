@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chameleon222"
+		]
+	},
+	"title": "Foreldreløse diskusjonssider",
+	"description": "Finn foreldreløse diskusjonssider.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(velg en wiki først)",
+	"hideredirects": "Skjul omdirigeringer",
+	"hidesubpages": "Skjul undersider",
+	"limit": "Grense",
+	"page": "Side",
+	"tooltip-redirect": "Denne siden er en omdirigering",
+	"output": "Utdata",
+	"update": "Oppdater",
+	"tools-view": "Vis",
+	"tools-delete": "Slett",
+	"tools-links": "Lenker hit",
+	"tools-subject": "Subjektside",
+	"tools-hist": "Vis historikk",
+	"tools-curr": "Siste endring",
+	"tools-globalusage": "Filbruk",
+	"deletesummary": "$1: Foreldreløs diskusjonsside",
+	"noresults": "Det var ingen foreldreløse diskusjonssider på denne wikien som passet med de valgte innstillingene.",
+	"resultslimited": "Resultatene ble begrenset til $1 sider."
+}

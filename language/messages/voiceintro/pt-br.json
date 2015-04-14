@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luckas"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Gravar",
+	"voiceintro-toolbar-stop-label": "Parar",
+	"voiceintro-toolbar-clear-label": "Limpar",
+	"voiceintro-toolbar-upload-label": "Enviar",
+	"voiceintro-webaudio-not-supported": "A API do WebAudio não é suportada por este navegador.",
+	"voiceintro-information-label": "Informação",
+	"voiceintro-information-language-label": "Língua:",
+	"voiceintro-recording-notify": "Gravando..."
+}

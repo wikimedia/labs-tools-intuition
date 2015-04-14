@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega"
+		]
+	},
+	"close": "Bezárás",
+	"help": "Súgó",
+	"filter": "Szűrő",
+	"settings": "Beállítások",
+	"fork": "Forráskód",
+	"stat": "Statisztika",
+	"language": "Nyelv",
+	"project": "Projekt",
+	"save": "Mentés",
+	"settings_show": "Megjelenítés",
+	"settings_wiki": "Wiki",
+	"stat_pages": "Lapok"
+}

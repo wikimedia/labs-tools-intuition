@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salam"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(малтанах викие суйлӑр)",
+	"hidesubpages": "Кӗҫӗн страницӑсене пытар",
+	"limit": "Хӗсев",
+	"page": "Страница",
+	"tools-delete": "тӗпле",
+	"tools-links": "каҫӑсем",
+	"tools-subject": "тема",
+	"tools-hist": "истори",
+	"tools-curr": "халь.",
+	"tools-globalusage": "глобаллӑ усӑ курни"
+}

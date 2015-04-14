@@ -1,0 +1,10 @@
+{
+	"@metadata": [],
+	"adder": "Adder",
+	"adder-empty": "Unknown",
+	"expiry": "Expiry",
+	"globalwatched": "Global watched",
+	"lastupdate-db": "Last update: $1",
+	"reason": "Reason",
+	"reason-empty": "No reason found"
+}

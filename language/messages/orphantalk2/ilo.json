@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"select-wiki-first": "(umuna nga agpili ti wiki)",
+	"hideredirects": "Ilemmeng dagiti baw-ing",
+	"hidesubpages": "Ilemmeng dagiti subpanid",
+	"limit": "Patingga",
+	"page": "Panid",
+	"output": "Maiparuar",
+	"update": "Pabaruen",
+	"tools-delete": "ikkaten",
+	"tools-links": "dagiti silpo",
+	"tools-subject": "suheto",
+	"tools-hist": "saritaan",
+	"tools-curr": "agdama",
+	"tools-globalusage": "sangalubongan a panag-usar",
+	"deletesummary": "Agdaldalus kadagiti naulila a pampanid babaen ti $1",
+	"noresults": "Awan dagiti naulila a pampanid ti tungtungan iti daytoy a wiki iti daytoy a nagan ti espasio a maipada kadagiti inyasentarmo",
+	"resultslimited": "Dagiti resulta ket naipatingga iti $1 a pampanid."
+}

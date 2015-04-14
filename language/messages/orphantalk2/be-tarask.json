@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Wizardist"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(сьпярша выберыце вікі)",
+	"hideredirects": "Схаваць перанакіраваньні",
+	"hidesubpages": "Схаваць падстаронкі",
+	"limit": "Абмежаваньне",
+	"page": "Старонка",
+	"output": "Вывад",
+	"update": "Абнавіць",
+	"tools-delete": "выдаліць",
+	"tools-links": "спасылкі",
+	"tools-subject": "прадмет",
+	"tools-hist": "гіст",
+	"tools-curr": "цяп",
+	"tools-globalusage": "глябальнае выкарыстаньне",
+	"deletesummary": "Выдаленьне абмеркаваньняў-сірацін праз $1",
+	"noresults": "У гэтай вікі і ў гэтай прасторы назваў абмеркаваньняў-сірацін няма.",
+	"resultslimited": "Вынік абмежаваны да $1 старонак."
+}

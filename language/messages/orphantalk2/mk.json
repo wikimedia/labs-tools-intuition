@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"title": "OrphanTalk",
+	"description": "Најди осамени страници.",
+	"label-wiki": "Вики",
+	"select-wiki-first": "(најпрвин изберете вики)",
+	"hideredirects": "Скриј пренасочувања",
+	"hidesubpages": "Скриј потстраници",
+	"limit": "Највеќе до",
+	"page": "Страница",
+	"tooltip-redirect": "Страницава е пренасочување",
+	"output": "Извод",
+	"update": "Поднови",
+	"tools-view": "Преглед",
+	"tools-delete": "Избриши",
+	"tools-links": "Што води овде",
+	"tools-subject": "Засегната страница",
+	"tools-hist": "Историја",
+	"tools-curr": "Последна промена",
+	"tools-globalusage": "Употреба на податотеката",
+	"deletesummary": "$1: Осамена страница за разговор",
+	"noresults": "На ова вики нема осамени страници за разговор во овој именски простор што соодветствуваат на вашите поставки.",
+	"resultslimited": "Резултатите беа ограничени на $1 страници"
+}

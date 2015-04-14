@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"label-wiki": "ويکي",
+	"select-wiki-first": "(لومړی يو ويکي وټاکئ)",
+	"hideredirects": "مخ گرځونې پټول",
+	"limit": "بريد",
+	"page": "مخ",
+	"update": "اوسمهالول",
+	"tools-view": "کتل",
+	"tools-delete": "ړنگول",
+	"tools-links": "د دې مخ تړنې",
+	"tools-subject": "د سکالو مخ",
+	"tools-hist": "پېښليک کتل",
+	"tools-curr": "وروستنی بدلون",
+	"tools-globalusage": "د دوتنې کارېدنه"
+}

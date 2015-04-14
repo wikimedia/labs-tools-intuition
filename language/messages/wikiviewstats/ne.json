@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"सरोज कुमार ढकाल"
+		]
+	},
+	"list": "सूची",
+	"sample": "उदाहरण",
+	"pagetitle": "पृष्ठ शीर्षक",
+	"page": "पृष्ठ",
+	"searchResults": "खोज नतिजाहरु",
+	"settings": "सेटिङ्हरू",
+	"help": "सहायता",
+	"today": "आज",
+	"all": "सबै",
+	"popular": "लोकप्रिय",
+	"closedWikis": "बन्द गरिएका विकिहरू",
+	"language": "भाषा",
+	"discussion": "वार्ता",
+	"portal": "पोर्टल",
+	"project": "परियोजना",
+	"category": "श्रेणी",
+	"template": "ढाँचा (टेम्प्लेट)",
+	"files": "{{PLURAL: $1|फाइल|फाइलहरू}}",
+	"specialPage": "विशेष पृष्ठ",
+	"helpPage": "सहायता पृष्ठ",
+	"wikiThanks": "धन्यबाद",
+	"log": "लग",
+	"size": "आकार",
+	"revisions": "पुनरावलोकनहरू",
+	"first": "पहिलो",
+	"last": "अन्तिम",
+	"total": "जम्मा",
+	"deleted": "मेटिएको",
+	"links": "लिङ्कहरू",
+	"out": "बाहिर",
+	"in": "मा",
+	"protection": "सुरक्षा",
+	"sysops": "प्रबन्धकहरू",
+	"linechart": "रेखा चित्र",
+	"projectPages": "आयोजना पृष्ठहरू"
+}

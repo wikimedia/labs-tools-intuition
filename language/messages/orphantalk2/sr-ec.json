@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Rancher"
+		]
+	},
+	"title": "OrphanTalk",
+	"select-wiki-first": "(прво изаберите вики)",
+	"hideredirects": "Сакриј преусмерења",
+	"hidesubpages": "Сакриј подстранице",
+	"limit": "Ограничење",
+	"page": "Страница",
+	"output": "Излаз",
+	"update": "Ажурирај",
+	"tools-delete": "Обриши",
+	"tools-links": "Шта води овде",
+	"tools-subject": "наслов",
+	"tools-hist": "Историја",
+	"tools-curr": "Последња измена",
+	"tools-globalusage": "Употреба датотеке",
+	"deletesummary": "Чишћење неповезаних страница за разговор преко $1",
+	"noresults": "На овом викију нема неповезаних страница за разговор у овом именском простору које одговарају вашим поставкама.",
+	"resultslimited": "Резултати су ограничени на $1 страница."
+}

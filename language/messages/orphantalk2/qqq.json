@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Krinkle",
+			"Shirayuki"
+		]
+	},
+	"title": "The title of the tool.",
+	"description": "Short caption that describes the tool, used in the primary heading on every page as tag line.",
+	"label-wiki": "Label in the input form for the dropdown menu with different Wikimedia wikis, of which one must be chosen.\n\n{{Identical|Wiki}}",
+	"select-wiki-first": "This message is displayed in the dropdown menu for the namespace selector if the user didn't choose a wiki yet. Include the parenthesis.",
+	"hideredirects": "Label for a checkbox in the input form indicating whether redirect pages should be included in the results.\n{{Identical|Hide redirect}}",
+	"hidesubpages": "Label for a checkbox in the input form indicating whether subpages should be included in the results.",
+	"limit": "Label in front of a dropdown menu. Affects the maximum number of results to display. {{Identical|Limit}}",
+	"page": "Table heading for the \"Page\"-column in the results.\n{{Identical|Page}}",
+	"tooltip-redirect": "Tooltip for link to a redirect page.",
+	"output": "Heading above the results output of the search query.\n{{Identical|Output}}",
+	"update": "Clicking this button will update the form to adapt to the new settings. {{Identical|Update}}",
+	"tools-view": "Link to the regular page view on the wiki.\n{{Identical|Read}}",
+	"tools-delete": "Link to action=delete to delete this orphaned talk page.\n{{Identical|Delete}}",
+	"tools-links": "Link to [[Special:WhatLinksHere]] for the orphaned talk page.\n{{Identical|Whatlinkshere}}",
+	"tools-subject": "Link to the subject page of the orphaned talk page.",
+	"tools-hist": "Link to action=history of the orphaned talk page.\n{{Identical|View history}}",
+	"tools-curr": "Link the diff of the last edit to this orphaned talk page.\n{{Identical|Last change}}",
+	"tools-globalusage": "Link to [[Special:GlobalUsage]] for the associated File page (only if the talk page is a File talk page on Commons).\n{{Identical|File usage}}",
+	"deletesummary": "Deletion summary for the \"delete\"-toollink.\n\nParameters:\n* $1: An interwiki link to documentation of OrphanTalk (labeled with {{msg-intuition|orphantalk2-title}}).",
+	"noresults": "Message displayed if there are no orphaned talk pages found with the current settings.",
+	"resultslimited": "If results were limited by the set' limit, this message is displayed at the bottom of the search results."
+}

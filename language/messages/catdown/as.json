@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia",
+			"Simbu123"
+		]
+	},
+	"title": "শ্রেণীভিত্তিক চিত্ৰ ডাউনল’ড",
+	"subtitle": "কোনো শ্রেণীৰ চিত্ৰ ডাউনল’ডৰ সহজ উপায়",
+	"project": "প্ৰকল্প:",
+	"category": "শ্ৰেণী:",
+	"thumbnailing": "ক্ষুদ্ৰ প্ৰতিকৃতি তৈয়াৰ হৈছে",
+	"max-width": "সর্বোচ্চ প্ৰস্থ:",
+	"max-height": "সর্বোচ্চ উচ্চতা:",
+	"invalid-width": "অবৈধ প্রস্থ্",
+	"invalid-height": "অবৈধ উচ্চতা",
+	"no-such-project": "এনে কোনো প্রকল্প নাই",
+	"no-images": "এই শ্রেণীত কোনো চিত্ৰ নাই",
+	"download": "ডাউনল’ড"
+}

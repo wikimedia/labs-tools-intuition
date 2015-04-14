@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reza1615"
+		]
+	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">تغییر زبان/ترجیحات</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">گزارش خطا یا ارائه پیشنهاد</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">ویکی</a>",
+	"category_users": "کاربران",
+	"category_articles": "صفحات",
+	"category_images": "تصویرها",
+	"category_miscellaneous": "متفرقه",
+	"category_wikidata": "ویکی‌داده",
+	"select_wiki_title": "انتخاب یک ویکی",
+	"select_wiki": "لطفا نام ویکی‌ای که می‌خولهید گزارش دهید را ذکر کنید (مثلا \"<kbd>en.wikipedia.org</kbd>\")",
+	"select_wiki_next": "بعدی ←",
+	"select_report_title": "انتخاب یک گزارش برای اجرا در %(ویکی)",
+	"select_report": "انتخاب یک گزارش:",
+	"select_report_disabled": "این گزارش در دسترس نیست.",
+	"select_report_go_back": " → تغییر ویکی",
+	"qvar_title": "وارد کردن متغییر برای کوئریتان",
+	"qvar_blurb": "کوئری شما نیازمند تعدادی متغییر است",
+	"qvar_next": "بعدی ←",
+	"prefs_title": "ترجیحات گزارش‌ها",
+	"prefs_submit": "تأیید",
+	"prefs_done": "ترجیحات شما تغییر کرده است.",
+	"prefs_langlabel": "زبان رابط کاربری:",
+	"report_wascached": "گزارش در %(age)s پیش تغییرکرده‌است.",
+	"report_cold_cache_running": "بازسازی کاشه  %(runtime) شروع شده است.",
+	"report_cold_cache_started": "بازسازی کاشه فقط شروع شده‌است.",
+	"report_noresults": "شرمنده این گزارش نتیجه‌ای ایجاد نکرد.",
+	"report_change_report": "<a href=\"%(url)s\">تغییر گزارش</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">تغییر ویکی</a>"
+}

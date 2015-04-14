@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"title": "OrphanTalk2",
+	"select-wiki-first": "(selession-a na wiki prima)",
+	"hideredirects": "Stërma le ridiression",
+	"hidesubpages": "Stërmé le sot-pàgine",
+	"limit": "Lìmit",
+	"page": "Pàgina",
+	"output": "Surtìa",
+	"update": "Agiorna",
+	"tools-delete": "scancelé",
+	"tools-links": "anliure",
+	"tools-subject": "soget",
+	"tools-hist": "stòria",
+	"tools-curr": "cor",
+	"tools-globalusage": "globalusage",
+	"deletesummary": "Scancelassion ëd le pàgine ëd discussion orfanin-e via $1",
+	"noresults": "Gnun-e pàgine ëd discussion orfanin-e dzora a sta wiki ant cost ëspassi nominal a corëspondo a soe ampostassion.",
+	"resultslimited": "J'arzultà a son stàit limità a $1 pàgine."
+}

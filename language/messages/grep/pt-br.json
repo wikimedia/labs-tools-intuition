@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luckas",
+			"Fasouzafreitas"
+		]
+	},
+	"enter-details": "Inserir detalhes",
+	"results": "Resultados",
+	"language-label": "Língua",
+	"namespace-label": "Espaço nominal",
+	"project-label": "Projeto",
+	"pattern-label": "Padrão",
+	"redirects-label": "Incluir redirecionamentos",
+	"limit-label": "Limitar a visualização aos primeiros 100 resultados"
+}

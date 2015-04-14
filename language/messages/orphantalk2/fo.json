@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"select-wiki-first": "(vel eina wikii fyrst)",
+	"hideredirects": "Fjal snarvegir",
+	"hidesubpages": "Fjal undirsíður",
+	"limit": "Mark",
+	"page": "Síða",
+	"output": "Útdáta",
+	"update": "Dagfør",
+	"tools-delete": "strika",
+	"tools-links": "leinkjur",
+	"tools-subject": "evni",
+	"tools-hist": "søga",
+	"tools-curr": "nú",
+	"tools-globalusage": "global nýtsla",
+	"deletesummary": "Ruddar upp í foreldraleysum kjaksíðum via $1",
+	"noresults": "Ongar foreldraleyar kjaksíður á hesi wiki í hesum navnarúminum samsvaraðu tínum innstillingum.",
+	"resultslimited": "Úrslitini vóru avmarkaði til $1 síður."
+}

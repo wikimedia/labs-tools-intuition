@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizardist"
+		]
+	},
+	"formats-heading": "Фарматы вываду",
+	"input": "Увод",
+	"label-wikiids": "Ідэнтыфікатары вікі",
+	"no-matches": "Па запыце «$1» нічога ня знойдзена",
+	"output": "Вывад для «$1»"
+}

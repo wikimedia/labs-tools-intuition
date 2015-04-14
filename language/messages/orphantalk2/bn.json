@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Wikitanvir"
+		]
+	},
+	"title": "পিতৃহীন আলোচনা",
+	"description": "পিতৃহীন আলোচনার পাতা খুঁজুন",
+	"label-wiki": "উইকি",
+	"select-wiki-first": "(প্রথমে একটি উইকি নির্বাচন করুন)",
+	"hideredirects": "পুনর্নির্দেশনাগুলো লুকাও",
+	"hidesubpages": "উপপাতাগুলো লুকাও",
+	"limit": "সীমা",
+	"page": "পাতা",
+	"tooltip-redirect": "এই পাতাটি একটি পুনঃনির্দেশ",
+	"output": "আউটপুট",
+	"update": "হালনাগাদ",
+	"tools-view": "দেখাও",
+	"tools-delete": "অপসারণ",
+	"tools-links": "সংযোগকারী পাতাসমূহ",
+	"tools-subject": "বিষয়য়ের পাতা",
+	"tools-hist": "ইতিহাস দেখুন",
+	"tools-curr": "সর্বশেষ পরিবর্তন",
+	"tools-globalusage": "ফাইলের ব্যবহার",
+	"deletesummary": "$1: পিতৃহীন আলাপ পাতা",
+	"noresults": "এই উইকির এই নামস্থানের কোনো পিতৃহীন আলাপ পাতার সাথে আপনার সেটিং মেলেনি।",
+	"resultslimited": "ফলাফলগুলো $1টি পাতার মধ্যে সীমাবদ্ধ ছিলো।"
+}

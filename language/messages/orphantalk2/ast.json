@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"title": "OrphanTalk",
+	"description": "Alcontrar páxines d'alderique güérfanes.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(primero seleiciona una wiki)",
+	"hideredirects": "Anubrir redireiciones",
+	"hidesubpages": "Anubrir subpáxines",
+	"limit": "Llímite",
+	"page": "Páxina",
+	"tooltip-redirect": "Esta páxina ye una redireición",
+	"output": "Salida",
+	"update": "Anovar",
+	"tools-view": "Ver",
+	"tools-delete": "Desaniciar",
+	"tools-links": "Lo qu'enllaza equí",
+	"tools-subject": "Páxina d'asuntu",
+	"tools-hist": "Ver historial",
+	"tools-curr": "Cambéu postreru",
+	"tools-globalusage": "Usu del ficheru",
+	"deletesummary": "$1: Páxina d'alderique güérfana",
+	"noresults": "Denguna páxina d'alderique d'esta wiki nesti espaciu de nomes concasa coles tos preferencies.",
+	"resultslimited": "Los resultaos tan llendaos a $1 páxines."
+}

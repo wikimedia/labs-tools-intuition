@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"pb-about-pb-navi": "Quant a",
+	"pb-about-pb-tech": "Detalls tècnics",
+	"pb-about-pb-title": "Quant al projecte",
+	"pb-change-language": "Canvia l’idioma",
+	"pb-comment": "Comentari",
+	"pb-date": "Data",
+	"pb-labs-name": "Wikimedia Tool Labs",
+	"pb-powered-by-labs": "Funciona amb Wikimedia Tool Labs",
+	"pb-recent-confirmations": "Confirmacions recents",
+	"pb-user": "Usuari",
+	"pb-users-navi": "Usuaris",
+	"pb-users-title": "Llista de participants"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega"
+		]
+	},
+	"pb-about-pb-navi": "Névjegy",
+	"pb-about-pb-tech": "Technikai részletek",
+	"pb-change-language": "Nyelv módosítása",
+	"pb-comment": "Megjegyzés",
+	"pb-date": "Dátum",
+	"pb-home": "Kezdőlap",
+	"pb-user": "Felhasználó",
+	"pb-users-navi": "Felhasználók"
+}

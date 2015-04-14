@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Giro720",
+			"Luckas"
+		]
+	},
+	"title": "DiscussõesOrfãs2",
+	"select-wiki-first": "(primeiro selecione uma wiki)",
+	"hideredirects": "Excluir redirecionamentos",
+	"hidesubpages": "Ocultar subpáginas",
+	"limit": "Limite",
+	"page": "Página",
+	"output": "Saída",
+	"update": "Atualizar",
+	"tools-delete": "apagar",
+	"tools-links": "links",
+	"tools-subject": "assunto",
+	"tools-hist": "hist",
+	"tools-curr": "atu",
+	"tools-globalusage": "uso global",
+	"deletesummary": "Limpeza das páginas de discussão órfãs via $1",
+	"noresults": "Não há páginas de discussão órfãs nesta wiki, este namespace coincide com sua configuração.",
+	"resultslimited": "Os resultados se limitam a $1 páginas"
+}

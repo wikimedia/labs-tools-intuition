@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chameleon222"
+		]
+	},
+	"adder": "Bruker",
+	"adder-empty": "Ukjent",
+	"expiry": "Utløper",
+	"globalwatched": "Globalt overvåket",
+	"lastupdate-db": "Sist oppdatert: $1",
+	"reason": "Årsak",
+	"reason-empty": "Ingen årsak funnet"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Simbu123"
+		]
+	},
+	"begin-translation": "অনুবাদ আৰম্ভ কৰক",
+	"th-original": "মূল",
+	"th-translation": "অনুবাদ",
+	"th-language": "ভাষা",
+	"th-username": "সদস্যনাম",
+	"th-password": "গুপ্তশব্দ",
+	"th-method": "পদ্ধতি",
+	"option-manual": "মেনুৱেল আপল’ড",
+	"preview": "খচৰা",
+	"translate": "অনুবাদ কৰক",
+	"svginput-label": "SVG ফাইল",
+	"uploading": "আপল’ড কৰি থকা হৈছে"
+}

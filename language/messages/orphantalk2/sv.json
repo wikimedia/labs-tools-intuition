@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Liftarn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"title": "OrphanTalk",
+	"description": "Hitta föräldralösa diskussionssidor.",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(välj en wiki först)",
+	"hideredirects": "Göm omdirigeringar",
+	"hidesubpages": "Dölj undersidor",
+	"limit": "Begränsning",
+	"page": "Sida",
+	"tooltip-redirect": "Denna sida är en omdirigering",
+	"output": "Utdata",
+	"update": "Uppdatera",
+	"tools-view": "Visa",
+	"tools-delete": "Radera",
+	"tools-links": "Vad som länkar hit",
+	"tools-subject": "Ämnessida",
+	"tools-hist": "Visa historik",
+	"tools-curr": "Senaste ändring",
+	"tools-globalusage": "Filanvändning",
+	"deletesummary": "$1: Föräldralösa diskussionssidor",
+	"noresults": "Inga föräldralösa diskussionssidor på den här wikin, i den här namnrymden, matchade dina inställningar.",
+	"resultslimited": "Resultaten var begränsade till $1 sidor."
+}

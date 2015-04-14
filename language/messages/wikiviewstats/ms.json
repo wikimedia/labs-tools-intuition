@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"today": "hari ini",
+	"closedWikis": "wiki ditutup",
+	"files": "{{PLURAL:$1|fail}}",
+	"helpPage": "Halaman bantuan",
+	"bureaucrats": "birokrat",
+	"tooltipSearch": "tajuk halaman (cth. Hollywood). Anda juga boleh menggunakan wildcard \"*\", cth. Hollywood* atau User:Tom* . Rujuk bantun untuk maklumat lanjut.",
+	"noJavaScript": "JavaScript dimatikan",
+	"hideHints": "sembunyikan petua",
+	"optinMsg2": "Sebagai alternatif, anda boleh mencipta $1 di Meta-Wiki untuk memasuki semua wiki naungan Wikimedia sekali gus.",
+	"addToWorkList": "tambahkan kepada senarai kerja"
+}

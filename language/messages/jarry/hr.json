@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13"
+		]
+	},
+	"moretools": "više alata od istog autora",
+	"bugs": "prijava grešaka i zahtijevi za nove mogućnosti",
+	"comments": "primjedbe i upiti",
+	"error-form-empty": "Jedno ili više obaveznih polja su prazna. Trebali bi ih dovršiti prije nastavka."
+}

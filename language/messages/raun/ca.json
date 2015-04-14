@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"close": "Tanca",
+	"help": "Ajuda",
+	"filter": "Filtra",
+	"settings": "Paràmetres",
+	"fork": "Codi font",
+	"stat": "Estadístiques",
+	"settings_tool": "Eina",
+	"language": "Idioma",
+	"project": "Projecte",
+	"save": "Desa",
+	"settings_pause": "Pausa",
+	"separator_thousands": ".",
+	"separator_decimals": ",",
+	"main_time_utc": "Hora (UTC)",
+	"main_page": "Pàgina",
+	"main_user": "Usuari",
+	"main_info": "Informació",
+	"new": "nou",
+	"minor": "menor",
+	"redirect": "redirecció",
+	"bot": "robot",
+	"editor": "editor",
+	"color": "Color",
+	"about": "Quant a",
+	"information": "Informació",
+	"credit": "Crèdit",
+	"about_github": "El codi font és disponible a $1"
+}

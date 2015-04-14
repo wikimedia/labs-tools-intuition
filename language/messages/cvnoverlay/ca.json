@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"adder-empty": "Desconegut",
+	"expiry": "Caducitat",
+	"reason": "Motiu",
+	"reason-empty": "No s’ha trobat cap motiu"
+}

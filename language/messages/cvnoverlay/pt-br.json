@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fasouzafreitas"
+		]
+	},
+	"adder-empty": "Desconhecido",
+	"reason": "Razão",
+	"reason-empty": "Nenhum motivo encontrado"
+}

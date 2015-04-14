@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet"
+		]
+	},
+	"tool_articleinfo": "Sideskiednis",
+	"optional": "opsjoneel",
+	"username": "Brûkersnamme",
+	"wiki": "Wiki",
+	"date": "Datum",
+	"pages": "Siden",
+	"bytes": "bytes",
+	"time_ago": "$1 $2 lyn",
+	"seconds": "{{PLURAL: $1|sekonde|sekonden}}",
+	"minutes": "{{PLURAL: $1|minút|minuten}}",
+	"days": "{{PLURAL: $1|dei|dagen}}",
+	"hours": "{{PLURAL: $1|oere|oeren}}",
+	"weeks": "{{PLURAL: $1|wike|wiken}}",
+	"months": "{{PLURAL: $1|moanne|moannen}}",
+	"years": "{{PLURAL: $1|jier|jierren}}",
+	"text": "Tekst",
+	"namespace": "Nammeromte",
+	"more": "Mear",
+	"file": "Triem",
+	"graph": "Grafyk",
+	"monthly": "Moanliks",
+	"cumulative": "Kumulatyf",
+	"events": "Eveneminten",
+	"summary": "Omskriuwing",
+	"limit": "Limyt",
+	"support": "Foar",
+	"oppose": "Tsjin",
+	"neutral": "Neutraal",
+	"unknown": "Ûnbekend",
+	"rfx_page": "RfX-side"
+}

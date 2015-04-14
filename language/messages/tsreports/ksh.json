@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"category_users": "Metmaacher",
+	"category_articles": "Sigge",
+	"category_images": "Belder",
+	"category_miscellaneous": "Söns jet",
+	"category_wikidata": "Wikkidahta",
+	"select_wiki_title": "Söhg e Wikki uß",
+	"select_wiki_next": "Näx →",
+	"select_report": "Söhk ene Bereesch us:",
+	"select_report_disabled": "Heh dä Bereesch es nit ze han.",
+	"select_report_go_back": "← et Wikki ändere",
+	"qvar_next": "Näx →",
+	"prefs_submit": "Lohß Jonn!",
+	"report_noresults": "Dä Bereesch hät nix jelivvert.",
+	"report_change_report": "<a href=\"%(url)s\">Der Bereesch wähßelle</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Et Wikki wähßelle</a>"
+}

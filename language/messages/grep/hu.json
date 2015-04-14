@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega"
+		]
+	},
+	"explanation": "magyarázat",
+	"regex": "Reguláris kifejezés",
+	"enter-details": "Részletek megadása",
+	"results": "Eredmények",
+	"language-label": "Nyelv",
+	"namespace-label": "Névtér",
+	"project-label": "Projekt",
+	"pattern-label": "Minta"
+}

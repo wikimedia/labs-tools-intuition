@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"list": "Leß",
+	"sample": "Beischpell",
+	"hits": "Träffer",
+	"page": "Sigg",
+	"settings": "Enschtällonge",
+	"help": "Hölp",
+	"today": "hück",
+	"all": "all",
+	"allLang": "Alle Schprohche",
+	"other_lang": "En ander Schprohche",
+	"language": "Schprohch",
+	"category": "Saachjropp",
+	"template": "Schablohn",
+	"files": "{{PLURAL:$1|Dattei|Datteieje|Dateije}}",
+	"specialPage": "Extrasigg",
+	"helpPage": "Hölpsigg",
+	"revisions": "Väsjohne",
+	"first": "Aanfang",
+	"last": "Ängk",
+	"total": "jesamp",
+	"deleted": "fottjeschmeße",
+	"bots": "Bots",
+	"articles": "Atikele",
+	"good_articles": "Joode Atikelle",
+	"pages": "Sigge",
+	"watchers": "Oppeßer",
+	"redirects": "Ömleidonge",
+	"namespaces": "Appachtemangs",
+	"on": "Aan",
+	"off": "uß",
+	"submit": "Lohß Jonn!"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"hello": "Kumusta",
+	"welcome": "Kablaaw!",
+	"toolversion": "Bersion $1",
+	"toolversionstamp": "Bersion $1 ($2)",
+	"etc": "kdpy.",
+	"namespace": "Nagan ti lugar",
+	"form-submit": "Inkan",
+	"form-reset": "Isubli",
+	"years": "{{PLURAL: $1|tawen|taw-tawen}}",
+	"weeks": "{{PLURAL: $1|lawas|law-lawas}}",
+	"days": "{{PLURAL: $1|aldaw|al-aldaw}}",
+	"hours": "{{PLURAL: $1|oras|or-oras}}",
+	"minutes": "{{PLURAL: $1|minuto|minutos}}",
+	"seconds": "{{PLURAL: $1|segundo|seg-segundo}}",
+	"last-modified-date": "Kinaudi a binaliwan: $1",
+	"view-source": "Kitaen ti taudan",
+	"and": "&#32;ken"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"title-error": "Klaida",
+	"title-updatelog": "Atnaujinimų įrašai",
+	"download-button": "Atsisiųsti $1",
+	"download-directlink": "tiesioginė nuoroda",
+	"title-downloadpage": "Atsisiųsti: $1",
+	"repo-site-link": "Tinklalapis",
+	"repo-lastmoddate-label": "Data:",
+	"tablehead-filesize": "Failo dydis"
+}

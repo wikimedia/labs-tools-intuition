@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"title": "OrphanTalk",
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(seleccionatz d’en primièr un wiki)",
+	"hideredirects": "Amagar las redireccions",
+	"hidesubpages": "Amagar las sospaginas",
+	"limit": "Limit",
+	"page": "Pagina",
+	"tooltip-redirect": "Aquesta pagina es una redireccion",
+	"output": "Sortida",
+	"update": "Metre a jorn",
+	"tools-view": "Afichar",
+	"tools-delete": "Suprimir",
+	"tools-links": "Ligams que puntan cap a aicí",
+	"tools-subject": "Pagina de subjècte",
+	"tools-hist": "Afichar l'istoric",
+	"tools-curr": "Darrièr cambiament",
+	"tools-globalusage": "Utilizacion del fichièr"
+}

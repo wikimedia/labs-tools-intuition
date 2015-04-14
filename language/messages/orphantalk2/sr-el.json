@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rancher",
+			"Milicevic01"
+		]
+	},
+	"title": "Orfantok2",
+	"select-wiki-first": "(prvo izaberite vikiju)",
+	"hideredirects": "Sakrij preusmerenja",
+	"hidesubpages": "Sakrij podstranice",
+	"limit": "Ograničenje",
+	"page": "Stranica",
+	"output": "Odredište",
+	"update": "Ažuriraj",
+	"tools-delete": "Obriši",
+	"tools-links": "Šta vodi ovde",
+	"tools-subject": "naslov",
+	"tools-hist": "Istorija",
+	"tools-curr": "Poslednja izmena",
+	"tools-globalusage": "Upotreba datoteke",
+	"deletesummary": "Čišćenje tajnih stranica za razgovor preko $1",
+	"noresults": "Nijedna tajna stranica za razgovor se ne poklapa s postavkama u ovom imenskom prostoru.",
+	"resultslimited": "Rezultati su ograničeni na $1 stranica."
+}

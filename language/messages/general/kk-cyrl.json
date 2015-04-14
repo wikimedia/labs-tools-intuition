@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Batyrbek.kz"
+		]
+	},
+	"seconds": "{{PLURAL: $1|секунд|секунд}}"
+}

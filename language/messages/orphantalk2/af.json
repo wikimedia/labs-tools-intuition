@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naudefj"
+		]
+	},
+	"select-wiki-first": "(kies eers 'n wiki)",
+	"hideredirects": "Versteek aansture",
+	"hidesubpages": "Versteek subbladsye",
+	"limit": "Limiet",
+	"page": "Bladsy",
+	"output": "Afvoer",
+	"update": "Opdateer",
+	"tools-delete": "skrap",
+	"tools-links": "skakels",
+	"tools-subject": "onderwerp",
+	"tools-hist": "gesk.",
+	"tools-curr": "huidige",
+	"resultslimited": "Resultate is beperk tot $1 bladsye."
+}
