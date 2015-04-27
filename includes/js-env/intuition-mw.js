@@ -38,7 +38,7 @@
 					domains: queue.join('|'),
 					userlang: lang || mw.config.get('wgUserLanguage')
 				},
-				dataType: 'jsonp'
+				dataType: $.support.cors ? 'json' : 'jsonp'
 			}).then(function (data) {
 				if (!data || !data.messages) {
 					return $.Deferred().reject(data);

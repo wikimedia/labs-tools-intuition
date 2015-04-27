@@ -35,12 +35,26 @@ function i18nApiResp( $data ) {
 
 	$callback = $kgReq->getVal( 'callback' );
 
+	// Allow CORS (to avoid having to use JSON-P with cache busting callback)
+	$kgReq->setHeader( 'Access-Control-Allow-Origin', '*' );
+
+	// We don't yet support retrieval of when the localisation was last updated,
+	// so default to unconditionally caching for 5 minutes.
+	$maxAge = 5 * 60;
+	$kgReq->setHeader( 'Last-Modified', gmdate( 'D, d M Y H:i:s', time() ) . ' GMT' );
+	$kgReq->setHeader( 'Cache-Control', 'public, max-age=' . intval( $maxAge ) );
+	$kgReq->setHeader( 'Expires', gmdate( 'D, d M Y H:i:s', time() + $maxAge ) . ' GMT' );
+
+	if ( $kgReq->tryLastModified( time() - $maxAge ) ) {
+		exit;
+	}
+
 	// Serve as JSON or JSON-P
 	if ( $callback === null ) {
-		header( 'content-type: application/json; charset=utf-8', /* replace = */ true );
+		$kgReq->setHeader( 'Content-Type', 'application/json; charset=utf-8' );
 		echo json_encode( $data );
 	} else {
-		header( 'content-type: text/javascript; charset=utf-8', /* replace = */ true );
+		$kgReq->setHeader( 'Content-Type', 'text/javascript; charset=utf-8' );
 
 		// Sanatize callback
 		$callback = kfSanatizeJsCallback( $callback );

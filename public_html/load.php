@@ -25,6 +25,9 @@ $I18N = new Intuition( array(
 	'mode' => 'dashboard',
 ) );
 
+// Cache for 30 minutes (in seconds)
+$maxAge = 30 * 60;
+
 /**
  * Request
  * -------------------------------------------------
@@ -36,7 +39,8 @@ $env = $kgReq->getVal( 'env' );
  * Response
  * -------------------------------------------------
  */
-header( 'content-type: text/javascript; charset=utf-8', /* replace = */ true );
+$kgReq->setHeader( 'Access-Control-Allow-Origin', '*' );
+$kgReq->setHeader( 'Content-Type', 'text/javascript; charset=utf-8' );
 
 if ( !$env ) {
 	// HTTP 400 Bad Request
@@ -59,6 +63,21 @@ if ( !is_readable( $jsEnvFile ) ) {
 	http_response_code( 500 );
 	echo '/* Failed to read javascript file from disk. */';
 	exit;
+}
+
+$mtime = max(
+	filemtime( $jsEnvFile ),
+	filemtime( __FILE__ )
+);
+
+if ( $mtime > 0 ) {
+	$kgReq->setHeader( 'Last-Modified', gmdate( 'D, d M Y H:i:s', $mtime ) . ' GMT' );
+	$kgReq->setHeader( 'Cache-Control', 'public, max-age=' . intval( $maxAge ) );
+	$kgReq->setHeader( 'Expires', gmdate( 'D, d M Y H:i:s', time() + $maxAge ) . ' GMT' );
+
+	if ( $kgReq->tryLastModified( $mtime ) ) {
+		exit;
+	}
 }
 
 echo str_replace(
