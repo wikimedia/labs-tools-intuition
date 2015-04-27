@@ -12,11 +12,10 @@
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
-    "grunt-contrib-jshint": "0.10.0",
-    "grunt-contrib-qunit": "0.4.0",
-    "grunt-git-authors": "1.2.0",
-    "grunt-jscs": "1.5.0",
-    "grunt-jsonlint": "1.0.4",
-    "grunt-update-submodules": "0.3.0"
+    "grunt-contrib-jshint": "0.11.2",
+    "grunt-contrib-qunit": "0.7.0",
+    "grunt-git-authors": "3.0.0",
+    "grunt-jscs": "1.6.0",
+    "grunt-jsonlint": "1.0.4"
   }
 }

@@ -12,7 +12,6 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-git-authors');
 	grunt.loadNpmTasks('grunt-jscs');
 	grunt.loadNpmTasks('grunt-jsonlint');
-	grunt.loadNpmTasks('grunt-update-submodules');
 
 	grunt.initConfig({
 		jshint: {
@@ -36,5 +35,5 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.registerTask('default', ['update_submodules', 'jshint', 'jscs', 'jsonlint', 'qunit']);
+	grunt.registerTask('default', ['jshint', 'jscs', 'jsonlint', 'qunit']);
 };
