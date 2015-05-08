@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chameleon"
+		]
+	},
+	"title": "Title for the tool.",
+	"description": "Description of the tool.",
+	"form-label-language": "Form label for an input field requesting a wiki language id.",
+	"form-label-template": "Form label for an input field for a template name.",
+	"form-label-template2": "Additional information for the input field for the template name. The template name must include the namespace.",
+	"form-label-complete": "Label for an checkbox. If checked then a complete/full report will be generated.",
+	"feedback-template-missing": "A non-existing template name has been entered. $1 is the template name.",
+	"feedback-template-noaccess": "The script can't access information about the template from the database. $1 is the template name, and $2 is information about the database.",
+	"feedback-result": "$1 is the template name.",
+	"feedback-header-mismatch": "Main header for the mismatch section.",
+	"feedback-header-no-link": "Header for the list of pages that transcludes the template, but which are not linked from the template.",
+	"feedback-header-no-transclusion": "Header for the list of pages that are linked from the template, but do not transclude it.",
+	"feedback-header-redirects": "Header for the list of links from the template which are redirects.",
+	"feedback-total-count": "Displays the total number of links/transclusions in a list. $1 is the total count.",
+	"feedback-header-complete": "Main heaer for the complete/full report section.",
+	"feedback-header-transclusions": "Header for the list of pages that transcludes the template.",
+	"feedback-header-links": "Header for the list of pages that are linked from the template.",
+	"link-edit": "Name for a link for editing a wiki page.",
+	"link-create": "Name for a link for creating a wiki page.",
+	"link-complete": "Name for a link to the complete/full report.",
+	"footer-stats": "A statistics line at the bottom of the report. $1 is the current date/time and $2 is the number of seconds for the request.",
+	"error-language": "An error message displayed if the user has entered an unknown/invalid code for the language.\n{{Optional}}"
+}
