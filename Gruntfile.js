@@ -5,15 +5,27 @@
  */
 /*jshint node:true */
 module.exports = function (grunt) {
-	'use strict';
-
+	grunt.loadNpmTasks('grunt-banana-checker');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-qunit');
 	grunt.loadNpmTasks('grunt-git-authors');
 	grunt.loadNpmTasks('grunt-jscs');
 	grunt.loadNpmTasks('grunt-jsonlint');
 
+
+	var fs = require('fs'),
+		path = require('path'),
+		msgDir = path.join(__dirname, 'language', 'messages'),
+		domainDirs = {};
+	fs.readdirSync(msgDir).forEach(function (file) {
+		var stats = fs.statSync(path.join(msgDir, file));
+		if (stats.isDirectory()) {
+			domainDirs[file] = 'language/messages/' + file + '/';
+		}
+	});
+
 	grunt.initConfig({
+		banana: domainDirs,
 		jshint: {
 			options: {
 				jshintrc: true
