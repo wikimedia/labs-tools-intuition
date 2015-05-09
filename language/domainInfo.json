@@ -50,6 +50,9 @@
 	"templatecount": {
 		"url": "//toolserver.org/~jarry/templatecount/"
 	},
+	"templatetransclusioncheck": {
+		"url": "//tools.wmflabs.org/templatetransclusioncheck/"
+	},
 	"tsintuition": {
 		"url": "//tools.wmflabs.org/intuition/"
 	},
