@@ -9,7 +9,7 @@
 		"test": [
 			"parallel-lint --exclude vendor --exclude node_modules --exclude libs .",
 			"phpunit",
-			"phpcs . --standard=tests/codesniffer --ignore=vendor/*,node_modules/*,libs/*,language/*"
+			"phpcs . --extensions=php --standard=tests/codesniffer --ignore=vendor/*,node_modules/*,libs/*,language/*"
 		]
 	}
 }
