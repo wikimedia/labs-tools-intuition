@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"form-label-language": "Langue :",
+	"form-label-template": "Nom du modèle :",
+	"feedback-template-missing": "Le modèle $1 n'existe pas.",
+	"feedback-result": "Résultats de $1",
+	"feedback-total-count": "Total: $1",
+	"link-edit": "modifier",
+	"link-create": "créer",
+	"error-language": "Code de langue inconnu."
+}

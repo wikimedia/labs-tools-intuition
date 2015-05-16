@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chameleon"
+			"Chameleon",
+			"Chameleon222"
 		]
 	},
 	"title": "Sjekk av mallenking og transklusjon",
@@ -24,6 +25,6 @@
 	"link-edit": "endre",
 	"link-create": "opprett",
 	"link-complete": "Komplett rapport...",
-	"footer-stats": "Generert: $1. Varighet: $2 {{PLURAL:$2|sekund|sekund}}.",
+	"footer-stats": "Generert: $1. Varighet: $2 {{PLURAL:$2|sekund}}.",
 	"error-language": "Ukjend språkkode."
 }

@@ -3,12 +3,13 @@
 		"authors": [
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Simon Shek"
+			"Simon Shek",
+			"Wehwei"
 		]
 	},
 	"title-error": "錯誤",
 	"title-updatelog": "更新日誌",
-	"download-button": "下載$1",
+	"download-button": "下載快照",
 	"download-directlink": "直接連結",
 	"title-downloadpage": "下載",
 	"title-downloadpage-repo": "下載：$1",
@@ -21,5 +22,6 @@
 	"updatelog-link": "更新日誌",
 	"tablehead-repo": "儲存庫",
 	"tablehead-branch": "分支",
-	"tablehead-filesize": "檔案大小"
+	"tablehead-filesize": "檔案大小",
+	"tablehead-hash": "校驗和"
 }

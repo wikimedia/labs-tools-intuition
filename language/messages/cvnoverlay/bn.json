@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"adder-empty": "অজানা",
+	"expiry": "মেয়াদোত্তীর্ণ",
+	"lastupdate-db": "সর্বশেষ হালনাগাদ: $1",
+	"reason": "কারণ",
+	"reason-empty": "কোন কারণ পাওয়া যায়নি"
+}

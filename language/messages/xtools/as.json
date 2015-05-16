@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dibya Dutta"
+			"Dibya Dutta",
+			"Gitartha.bordoloi"
 		]
 	},
 	"title_xtools": "X!ৰ সজূলিসমূহ",
@@ -167,7 +168,7 @@
 	"toptencount": "উচ্চতৰ ১০% সম্পাদকে কৰা সম্পাদনা",
 	"ips": "IP",
 	"minor": "লঘু সম্পাদনা",
-	"major": "মূখ্য সম্পাদনা",
+	"major": "মুখ্য সম্পাদনা",
 	"topten": "উচ্চতৰ ১০%",
 	"bottomninety": "ন্ম্নতম ৯০%",
 	"yearcounts": "বছৰ",

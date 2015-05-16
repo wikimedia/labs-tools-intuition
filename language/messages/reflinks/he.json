@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"appname": "קישורי הערות – Reflinks",
+	"tagline": "הרחבת קישורים ערומים בקלות",
+	"heading-fetchfromwiki": "אחזור תוכן מוויקי",
+	"heading-rawwikitext": "נא לרשום קוד ויקי",
+	"heading-options": "אפשרויות",
+	"heading-citegen": "יצירת הערה",
+	"heading-result": "תוצאה",
+	"heading-newwikitext": "סימון ויקי חדש",
+	"heading-error": "שגיאה",
+	"heading-manual": "מדריך למשתמש",
+	"heading-acknowledgements": "תודות",
+	"heading-reportbugs": "דיווח באגים",
+	"placeholder-pagename": "שם הדף",
+	"placeholder-url": "URL",
+	"label-fixpage": "תיקון דף",
+	"label-fixwikitext": "תיקון קוד ויקי",
+	"label-toggleadv": "הפעלת קלט מתקדם",
+	"label-generate": "יצירה",
+	"label-manual": "מדריך למשתמש",
+	"label-sourcecode": "מקור",
+	"label-acknowledgements": "תודות",
+	"label-reportbugs": "דיווח באגים",
+	"label-switchlang": "שפות",
+	"label-save": "תצוגה מקדימה / שמירה בוויקי",
+	"label-gadgetoptions": "(אפשרויות)",
+	"label-homepage": "דף הבית של הכלי",
+	"fixed": "תוקנו $1 הערות!",
+	"nofixed": "לא תוקנה שום הערה.",
+	"skipped": "לא היה אפשר למלא את ההערות הבאות:",
+	"responsibility": "האחריות לכל עריכה חלה עליך.",
+	"pleasedoublecheck": "נא לבדוק כל עריכה לפני שמירה!"
+}

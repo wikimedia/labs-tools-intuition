@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Simon Shek"
+			"Simon Shek",
+			"Wehwei"
 		]
 	},
-	"fullname": "國際化Toolserver使用者介面",
+	"fullname": "工具國際化",
 	"current-settings": "當前的設定",
-	"current-language": "當前所選的語言",
+	"current-language": "所選的語言",
 	"settings-legend": "設定",
 	"choose-language": "選擇語言",
 	"clear-cookies": "清除 cookie",
@@ -21,9 +22,9 @@
 	"bl-mysettings": "我的語言設定",
 	"bl-mysettings-new": "更改語言！",
 	"bl-promo": "翻譯來自 $1 和 $2 。",
-	"bl-changelanguage": "按此更改此工具的界面語言。",
-	"usage": "由Toolserver Intuition翻譯的工具。",
+	"bl-changelanguage": "更改此工具的界面語言。",
+	"usage": "由 Intuition 翻譯的工具。",
 	"help-translate-tool": "協助翻譯此工具！",
-	"help-translate-all": "協助翻譯Toolserver！",
+	"help-translate-all": "協助翻譯工具！",
 	"help-translate-tooltip": "幫助其他人把界面翻譯成您的語言。"
 }

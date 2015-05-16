@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
-	"language-label": "Ziman"
+	"language-label": "Ziman",
+	"namespace-label": "Valahiya nav"
 }

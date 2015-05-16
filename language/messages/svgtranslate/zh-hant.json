@@ -3,7 +3,8 @@
 		"authors": [
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Waihorace"
+			"Waihorace",
+			"Wehwei"
 		]
 	},
 	"title": "SVG翻譯",
@@ -30,7 +31,7 @@
 	"uploading": "上傳中",
 	"upload-complete": "上傳成功，該圖片現在應該位於$1",
 	"editdescriptionpage": "編輯新的描述頁",
-	"disclaimer": "某些匿名數據會被私人收集以用於統計。如果使用OAuth上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。",
+	"disclaimer": "某些匿名數據會被私人收集以用於統計。如果使用 OAuth 上傳，用戶名會被記錄以防止破壞，唯密碼永遠都不會被記錄。",
 	"author-complete": "請填寫作者信息。",
 	"preview-hide": "隱藏預覽",
 	"preview-refresh": "重新整理預覽",

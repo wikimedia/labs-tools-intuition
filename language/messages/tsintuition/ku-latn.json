@@ -1,10 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
+	"settings-legend": "Eyar",
 	"choose-language": "Zimanekî hilbijêre",
+	"tab-settings": "Eyar",
 	"tab-about": "Der barê",
-	"bl-mysettings-new": "Zimanê biguherîne!"
+	"tab-demo": "Demo",
+	"bl-mysettings": "Eyarên zimanê min",
+	"bl-mysettings-new": "Zimanê biguherîne!",
+	"help-translate-tool": "Ji bo wergereandina vê amûrê alîkarî bikin!"
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Simon Shek"
+			"Simon Shek",
+			"Wehwei"
 		]
 	},
 	"enter-details": "輸入詳細資訊",
@@ -13,6 +14,6 @@
 	"pagename-label": "頁面名稱 （不包括命名空間）",
 	"transclusion-count-label": "使用數目",
 	"transclusion-count": "找到在$1頁上使用。",
-	"error-suggestion": "可能你打錯頁面的標題？",
+	"error-suggestion": "可能你錯打了頁面的標題（或大小寫、繁簡體）？",
 	"time-label": "執行命令所需的時間"
 }

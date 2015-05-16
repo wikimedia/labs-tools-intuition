@@ -47,6 +47,7 @@
 	"uhoh": "Hoppla!",
 	"developedby": "von $1",
 	"summary": "$1 nackte(n) Einzelnachweis(e) mit $3 ausgefüllt",
+	"toollink": "[[User:Zhaofeng Li/Reflinks]]",
 	"option-plainlink": "Verwende einfache Formatierung anstatt von {{cite web}}",
 	"option-plainlink-description": "Falls ausgewählt, werden nackte Einzelnachweise ohne Verwendung von {{cite web}} erweitert. Dies ist entmutigend, seit Cite-Vorlagen einen konsistenten Zitierungsstil bereitstellen und leichtes Parsen von Programmen aktivieren.",
 	"option-noremovetag": "Entferne keine Linkverwaisungsmarkierungen",

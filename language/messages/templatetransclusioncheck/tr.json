@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sadrettin"
+		]
+	},
+	"form-label-template": "Şablon adı:",
+	"feedback-total-count": "Toplam: $1",
+	"link-edit": "düzenle",
+	"link-create": "oluştur",
+	"footer-stats": "Oluşturuldu: $1. Süre: $2 {{PLURAL:$2|saniye|saniye}}."
+}

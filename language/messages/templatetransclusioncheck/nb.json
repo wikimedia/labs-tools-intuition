@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chameleon"
+			"Chameleon",
+			"Chameleon222"
 		]
 	},
-	"title": "Template linking and transclusion check",
+	"title": "Sjekk av mallenking og transklusjon",
 	"description": "Kontrollerer og rapporterer hvilke artikler som transkluderer en mal, men som ikke er lenket fra malen; og hvilke artikler som er lenket fra malen, men som ikke transkluderer den.",
 	"form-label-language": "Språk:",
 	"form-label-template": "Malnavn:",

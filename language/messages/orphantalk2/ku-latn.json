@@ -2,14 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"George Animal",
-			"Ghybu"
+			"Ghybu",
+			"Bikarhêner"
 		]
 	},
+	"label-wiki": "Wîkî",
 	"hideredirects": "Beralîkirinan veşêre",
 	"hidesubpages": "Binrûpelan veşêre",
 	"limit": "Sînor",
 	"page": "Rûpel",
-	"tools-delete": "jê bibe",
-	"tools-links": "girêdan",
-	"tools-hist": "dîro"
+	"tooltip-redirect": "Ev rûpel beralîkirinek e",
+	"output": "Encam",
+	"tools-view": "Bibîne",
+	"tools-delete": "Jê bibe",
+	"tools-links": "Girêdanên li ser vê rûpelê",
+	"tools-hist": "Dîrokê bibîne",
+	"tools-curr": "Guherandinê dawî",
+	"tools-globalusage": "Bikaranîna pelê"
 }

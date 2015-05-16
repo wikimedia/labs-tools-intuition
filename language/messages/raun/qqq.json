@@ -5,7 +5,8 @@
 			"Kenrick95",
 			"Krinkle",
 			"Liuxinyu970226",
-			"Shirayuki"
+			"Shirayuki",
+			"Nemo bis"
 		]
 	},
 	"close": "Used as label for the Close button.\n{{Identical|Close}}",
@@ -41,7 +42,7 @@
 	"stat_admins": "Number of Administrators.\n{{Identical|Administrator}}",
 	"separator_thousands": "Separator for thousands",
 	"separator_decimals": "Separator for decimals",
-	"def_i": " v: verb, conv: conversation\n\nThis message was supposed to be an abbreviation of \"verb\" and \"conversation\" respectively.",
+	"def_i": "\"v\" means \"verb\", \"conv\" means conversation.\nTranslate this message with a similarly short abbreviation of \"verb\" and \"conversation\" in your language.",
 	"def_def": "If possible, please put three synonyms of \"patrol\" separated by semicolon.",
 	"main_time_utc": "Displayed for the header of the main table.\n{{Identical|Time}}",
 	"main_page": "Displayed for the header of the main table.\n{{Identical|Page}}",

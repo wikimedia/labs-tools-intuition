@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
 	"title_xtools": "Amûrên X!",
@@ -18,7 +19,9 @@
 	"all": "hemû",
 	"wiki": "Wîkî",
 	"or": "an",
+	"deleted": "Hate jêbirin",
 	"comment": "Şîrove",
+	"date": "Dîrok",
 	"pages": "Rûpel",
 	"edits": "guherandin",
 	"actions": "Çalakî",
@@ -26,7 +29,14 @@
 	"translatelink": "Wergerîne",
 	"login": "Têkeve",
 	"logout": "Derkeve",
+	"seconds": "{{PLURAL: $1|çirke|çirkeyan}}",
+	"minutes": "{{PLURAL: $1|deqe|deqeyan}}",
+	"days": "{{PLURAL: $1|roj|rojan}}",
+	"hours": "{{PLURAL: $1|seet|seetan}}",
+	"weeks": "{{PLURAL: $1|heftî|heftîyan}}",
 	"months": "{{PLURAL: $1|meh}}",
+	"years": "{{PLURAL: $1|sal|salan}}",
+	"revisions": "{{PLURAL: $1|Guherandin|Guherandinan}}",
 	"text": "Nivîs",
 	"mainspace": "Gotar",
 	"firstedit": "Guherandina yekem",
@@ -38,8 +48,10 @@
 	"deleted_edits": "Guherandinên jêbirî",
 	"edits_summary": "Guherandinên bi kurte",
 	"with_summary": "bi kurte",
+	"thank": "Spas",
 	"protect": "Biparêze",
 	"delete": "Jê bibe",
+	"file": "Dosye",
 	"redirects": "Beralîkirin",
 	"page": "Sernavê rûpelê",
 	"count": "Hejmara guherandinan",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Danmichaelo",
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Chameleon222"
 		]
 	},
 	"fullname": "Internasjonalisering for verktøy",
@@ -22,7 +23,7 @@
 	"bl-mysettings": "Mine språkinnstillinger",
 	"bl-mysettings-new": "Endre språk",
 	"bl-promo": "Oversettelser drives av $1 og $2.",
-	"bl-changelanguage": "Klikk her for å endre grensesnittspråket for dette verktøyet.",
+	"bl-changelanguage": "Endre grensesnittspråket for dette verktøyet.",
 	"usage": "Verktøy oversatt med Intuition.",
 	"help-translate-tool": "Hjelp med oversettelsen av dette verktøyet!",
 	"help-translate-all": "Hjelp til med å oversette verktøy!",

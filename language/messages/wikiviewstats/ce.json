@@ -40,7 +40,7 @@
 	"project": "Проект",
 	"category": "Категори",
 	"template": "Кеп",
-	"files": "{{PLURAL: $1|Файл|файлаш}}",
+	"files": "{{PLURAL: $1|Файл}}",
 	"specialPage": "Леррина агӀо",
 	"helpPage": "ГӀоьна агӀо",
 	"projectTotals": "Проектан юкъара хаамаш",

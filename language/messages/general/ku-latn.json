@@ -1,12 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
 	"hello": "Silav",
 	"welcome": "Bi xêr hatî",
 	"etc": "hwd.",
 	"namespace": "Boşahîya nav",
+	"form-submit": "Biçe",
+	"form-reset": "Reset",
+	"years": "{{PLURAL: $1|sal}}",
+	"months": "{{PLURAL: $1|meh|mehan}}",
+	"weeks": "{{PLURAL: $1|heftî|heftîyan}}",
+	"days": "{{PLURAL: $1|roj|rojan}}",
+	"hours": "{{PLURAL: $1|seet|seetan}}",
+	"minutes": "{{PLURAL: $1|deqe|deqeyan}}",
+	"seconds": "{{PLURAL: $1|saniye|saniyeyan}}",
 	"view-source": "Çavkanîyê bibîne"
 }

@@ -96,7 +96,7 @@
 	"total": "Дерриг нисдарш",
 	"pages_created": "Кхолийна агӀонаш",
 	"pages_deleted": "ДӀаяьхна агӀонаш",
-	"pages_moved": "ЦӀераш хийцина агӀонаш",
+	"pages_moved": "ЦӀерш хийцина агӀонаш",
 	"files_uploaded": "Чуяьхна файлаш",
 	"deleted_edits": "ДӀадаьхна нисдарш",
 	"edits_summary": "Хийцамах лаьцна долуш нисдарш",
@@ -202,7 +202,7 @@
 	"neutral": "ХӀума цадина",
 	"unknown": "Хууш дац",
 	"dupes": "Терниш",
-	"considered_usernames": "Декъашхойн цӀераш",
+	"considered_usernames": "Декъашхойн цӀерш",
 	"vote_msg": "$1 тайина $2 $3 агӀонаш!",
 	"rfx_page": "Кхаж тасаран агӀо"
 }

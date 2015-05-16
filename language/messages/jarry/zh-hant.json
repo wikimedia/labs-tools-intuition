@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Simon Shek"
+			"Simon Shek",
+			"Wehwei"
 		]
 	},
-	"moretools": "同一作者的其他工具",
+	"moretools": "更多工具",
 	"bugs": "問題報告和功能請求",
 	"comments": "意見和查詢",
 	"error-form-empty": "有必填項目留空。請填上後繼續。"
