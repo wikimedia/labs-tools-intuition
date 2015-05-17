@@ -720,7 +720,7 @@ class Intuition {
 		if ( $this->langNames === null ) {
 			$path = $this->localBaseDir . '/language/mw-classes/Names.php';
 			// @codeCoverageIgnoreStart
-			if ( !is_file( $path ) || !is_readable( $path ) ) {
+			if ( !is_readable( $path ) ) {
 				$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE );
 				$this->langNames = array();
 				return array();
@@ -728,9 +728,8 @@ class Intuition {
 			// @codeCoverageIgnoreEnd
 
 			// Load it
-			$coreLanguageNames = array();
-			include $path;
-			$this->langNames = $coreLanguageNames;
+			require_once $path;
+			$this->langNames = \MediaWiki\Languages\Data\Names::$names;
 		}
 
 		return $this->langNames;

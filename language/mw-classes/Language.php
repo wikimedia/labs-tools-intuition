@@ -492,59 +492,6 @@ class Language {
 	}
 
 	/**
-	 * Get language names, indexed by code.
-	 * If $customisedOnly is true, only returns codes with a messages file
-	 *
-	 * @param $customisedOnly bool
-	 *
-	 * @return array
-	 */
-	public static function getLanguageNames( $customisedOnly = false ) {
-		global $wgExtraLanguageNames;
-		static $coreLanguageNames;
-
-		if ( $coreLanguageNames === null ) {
-			include( MWInit::compiledPath( 'languages/Names.php' ) );
-		}
-
-		$allNames = $wgExtraLanguageNames + $coreLanguageNames;
-		if ( !$customisedOnly ) {
-			return $allNames;
-		}
-
-		global $IP;
-		$names = array();
-		$dir = opendir( "$IP/languages/messages" );
-		while ( false !== ( $file = readdir( $dir ) ) ) {
-			$code = self::getCodeFromFileName( $file, 'Messages' );
-			if ( $code && isset( $allNames[$code] ) ) {
-				$names[$code] = $allNames[$code];
-			}
-		}
-		closedir( $dir );
-		return $names;
-	}
-
-	/**
-	 * Get translated language names. This is done on best effort and
-	 * by default this is exactly the same as Language::getLanguageNames.
-	 * The CLDR extension provides translated names.
-	 * @param $code String Language code.
-	 * @return Array language code => language name
-	 * @since 1.18.0
-	 */
-	public static function getTranslatedLanguageNames( $code ) {
-		$names = array();
-		wfRunHooks( 'LanguageGetTranslatedLanguageNames', array( &$names, $code ) );
-
-		foreach ( self::getLanguageNames() as $code => $name ) {
-			if ( !isset( $names[$code] ) ) $names[$code] = $name;
-		}
-
-		return $names;
-	}
-
-	/**
 	 * Get a message from the MediaWiki namespace.
 	 *
 	 * @param $msg String: message name
@@ -552,18 +499,6 @@ class Language {
 	 */
 	function getMessageFromDB( $msg ) {
 		return wfMsgExt( $msg, array( 'parsemag', 'language' => $this ) );
-	}
-
-	/**
-	 * @param $code string
-	 * @return string
-	 */
-	function getLanguageName( $code ) {
-		$names = self::getLanguageNames();
-		if ( !array_key_exists( $code, $names ) ) {
-			return '';
-		}
-		return $names[$code];
 	}
 
 	/**
