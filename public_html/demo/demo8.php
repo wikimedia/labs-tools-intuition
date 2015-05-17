@@ -17,7 +17,7 @@ $I18N->setMsgs( array(
 // 2) Use rendering and formatting
 
 // - Raw echo
-echo $I18N->msg( 'apple-stats' );
+echo $I18N->msg( 'basket', array( 'parsemag' => false ) );
 
 echo '<br/>';
 
