@@ -980,13 +980,14 @@ class Intuition {
 	/**
 	 * Show a promobox on the bottom of your tool.
 	 *
-	 * @param $imgSize integer (optional) Defaults to 28px.
-	 *  If 0 or a non-integer the image will be hidden.
-	 * @param $helpTranslateDomain mixed (optional)
-	 * - null (or nothing, default): Current domain
-	 * - true: All domains
-	 * - string: Custom domain
-	 * - false: Disable this message all together.
+	 * @param int $imgSize [optional] Defaults to 28px.
+	 *  Set to 0 to omit the image from the promobox.
+	 * @param bool|string|null $helpTranslateDomain [optional] Provide a link to translatewiki.net
+	 *  where this tool can be translated.
+	 * - TSINT_HELP_CURRENT (null): Link to translations for the current domain.
+	 * - TSINT_HELP_ALL (true): Link to translations for all domains.
+	 * - TSINT_HELP_NONE (false): Disable this link.
+	 * - string value: Link to translations for the specified domain.
 	 * @return string The HTML for the promo box.
 	 */
 	public function getPromoBox( $imgSize = 28, $helpTranslateDomain = TSINT_HELP_CURRENT ) {
@@ -1019,8 +1020,7 @@ class Intuition {
 				'<a href="' . $this->dashboardHome . '">Intuition</a>'
 			),
 		);
-		$powered = $this->msg( 'bl-promo', $promoMsgOpts );
-		$change = $this->msg( 'bl-changelanguage', 'tsintuition' );
+		$poweredHtml = $this->msg( 'bl-promo', $promoMsgOpts );
 
 		// Help translation
 		if ( $helpTranslateDomain === TSINT_HELP_ALL ) {
@@ -1058,7 +1058,7 @@ class Intuition {
 			'<div class="int-promobox"><p><a href="' .
 			htmlspecialchars( $this->getDashboardReturnToUrl() )
 			. "\">$img</a> "
-			. "$powered {$this->dashboardBacklink()} $helpTranslateLink</p></div>";
+			. "$poweredHtml {$this->dashboardBacklink()} $helpTranslateLink</p></div>";
 	}
 
 	/**
