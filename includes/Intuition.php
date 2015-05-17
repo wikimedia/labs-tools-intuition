@@ -1396,10 +1396,14 @@ class Intuition {
 	 * @return bool
 	 */
 	public function isRtl( $lang = null ) {
+		static $rtlLanguages = null;
+
 		$lang = $lang ? $this->normalizeLang( $lang ) : $this->getLang();
 
-		$rtlLanguages = array();
-		require $this->localBaseDir . '/language/Rtl.php';
+		if ( $rtlLanguages === null ) {
+			$file = $this->localBaseDir . '/language/rtl.json';
+			$rtlLanguages = json_decode( file_get_contents( $file ), true );
+		}
 
 		return in_array( $lang, $rtlLanguages );
 	}

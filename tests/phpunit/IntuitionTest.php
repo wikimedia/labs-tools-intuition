@@ -183,6 +183,22 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	}
 
 	/**
+	 * @covers Intuition::isRtl
+	 */
+	public function testIsRtl() {
+		$this->assertTrue( $this->i18n->isRtl( 'he' ) );
+		$this->assertFalse( $this->i18n->isRtl( 'en' ) );
+	}
+
+	/**
+	 * @covers Intuition::getDir
+	 */
+	public function testGetDir() {
+		$this->assertEquals( $this->i18n->getDir( 'he' ), 'rtl' );
+		$this->assertEquals( $this->i18n->getDir( 'en' ), 'ltr' );
+	}
+
+	/**
 	 * @covers Intuition::getDomainInfo
 	 * @covers Intuition::getDomainInfos
 	 */
