@@ -12,6 +12,8 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		$intuition->setMsg( 'test-value', 'de value', 'test-domain', 'de' );
 		$intuition->setMsg( 'test-value', 'nan value', 'test-domain', 'nan' );
 		$intuition->setMsg( 'test-value', 'zh-hans value', 'test-domain', 'zh-hans' );
+		$intuition->setMsg( 'test-value', 'no value', 'test-domain', 'no' );
+		$intuition->setMsg( 'test-value', 'nb value', 'test-domain', 'nb' );
 
 		$this->i18n = $intuition;
 	}
@@ -179,6 +181,12 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'zh-hans value',
 			$this->i18n->rawMsg( 'test-domain', 'gan', 'test-value' ),
 			'Language with 3 fallbacks (third)'
+		);
+
+		$this->assertEquals(
+			'nb value',
+			$this->i18n->rawMsg( 'test-domain', 'no', 'test-value' ),
+			'Ignore value of deprecated language code'
 		);
 	}
 

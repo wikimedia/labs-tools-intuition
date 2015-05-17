@@ -69,6 +69,25 @@ class Intuition {
 	// Such as Low German falling back to German: langFallbacks['nds'] = array( 'de' );
 	protected $langFallbacks = null;
 
+	// Based on MediaWiki 1.26alpha ()
+	// These codes are mapped to their replacements before loading.
+	// Associated language files may still exist, but will not be used.
+	protected $deprecatedLangCodes = array(
+		'als' => 'gsw',
+		'bat-smg' => 'sgs',
+		'be-x-old' => 'be-tarask',
+		'bh' => 'bho',
+		'fiu-vro' => 'vro',
+		'no' => 'nb',
+		'qqq' => 'en',
+		'qqx' => 'en',
+		'roa-rup' => 'rup',
+		'simple' => 'en',
+		'zh-classical' => 'lzh',
+		'zh-min-nan' => 'nan',
+		'zh-yue' => 'yue',
+	);
+
 	// Language names are stored as an array of language codes
 	// with their native name as value
 	// Such as as for Spanish: langNames['es'] = 'Español';
@@ -334,7 +353,11 @@ class Intuition {
 	}
 
 	protected function normalizeLang( $lang ) {
-		return strtolower( str_replace( '_', '-', $lang ) );
+		$lang = strtolower( str_replace( '_', '-', $lang ) );
+		if ( isset( $this->deprecatedLangCodes[$lang] ) ) {
+			return $this->deprecatedLangCodes[$lang];
+		}
+		return $lang;
 	}
 
 	/**
