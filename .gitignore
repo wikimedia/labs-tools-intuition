@@ -4,6 +4,7 @@ scripts/*.out
 LocalConfig.php
 
 # Dev
+/coverage
 node_modules
 npm-debug.log
 vendor

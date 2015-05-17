@@ -18,9 +18,11 @@ if ( !defined( 'INTUITION' ) ) {
  * creating an instance of to use and configure their i18n.
  */
 class Intuition {
+	// Message file cache. Does not contain local overrides. See $messageBlob.
+	protected static $messageCache = array();
 
-	/* Variables
-	 * ------------------------------------------------- */
+	// Fallback cache. Stored as an array of language codes with their fallback as value.
+	protected static $fallbackCache = null;
 
 	public $localBaseDir;
 
@@ -56,18 +58,13 @@ class Intuition {
 	// Changing this will break existing permalinks
 	protected $paramNames = array( 'userlang' => 'userlang' );
 
-	// Here everything will be stored as arrays in arrays
-	// Such as: $messageBlob['domain']['lang']['message-key'] = 'Raw message value';
+	// In-class message storage.
+	// Format: $store['domain']['lang']['message-key'] = 'Raw message value';
 	protected $messageBlob = array();
 
-	// Which domains and languages have been loaded
+	// Which domains and languages have been loaded.
 	// $loadedDomains['general']['en'] = true;
 	protected $loadedDomains = array();
-
-	// Fallbacks are stored as an array of language codes
-	// with their fallback as value
-	// Such as Low German falling back to German: langFallbacks['nds'] = array( 'de' );
-	protected $langFallbacks = null;
 
 	// Based on MediaWiki 1.26alpha ()
 	// These codes are mapped to their replacements before loading.
@@ -106,8 +103,10 @@ class Intuition {
 	// Instance of MessagesFunctions
 	protected $messagesFunctions = null;
 
-	/* Init
-	 * ------------------------------------------------- */
+	public static function clearCache() {
+		self::$messageCache = array();
+		self::$fallbackCache = null;
+	}
 
 	/**
 	 * Initialize class
@@ -383,8 +382,8 @@ class Intuition {
 	 * @param mixed $fail [optional] Value if the message doesn't exist. Defaults to null.
 	 */
 	public function msg( $key = 0, $options = array(), $fail = null ) {
-		// Make sure a proper key was passed.
 		if ( !IntuitionUtil::nonEmptyStr( $key ) ) {
+			// Invalid message key
 			return $this->bracketMsg( $key, $fail );
 		}
 
@@ -413,7 +412,7 @@ class Intuition {
 			$options = array_merge( $defaultOptions, $options );
 		}
 
-		// First character of the message-key is case-insensitive.
+		// Normalise key. First character is case-insensitive.
 		$key = lcfirst( $key );
 
 		$msg = $this->rawMsg( $options['domain'], $options['lang'], $key );
@@ -423,31 +422,29 @@ class Intuition {
 				__METHOD__,
 				E_NOTICE
 			);
-			// Fall back to a simple [keyname]
 			return $this->bracketMsg( $key, $fail );
 		}
 
 		// Now that we've got the message, apply any post processing
 		$escapeDone = false;
 
-		// Escape now or do it after variable replacement ?
+		// If using raw variables, escape message before replacement
 		if ( $options['raw-variables'] === true ) {
 			$msg = IntuitionUtil::strEscape( $msg, $options['escape'] );
 			$escapeDone = true;
 		}
 
-		// Variable replacements
+		// Replace variables
 		foreach ( $options['variables'] as $i => $val ) {
 			$n = $i + 1;
 			$msg = str_replace( "\$$n", $val, $msg );
 		}
 
-		// Some parsing work
 		if ( $options['parsemag'] === true ) {
 			$msg = $this->getMessagesFunctions()->parse( $msg, $options['lang'] );
 		}
 
-		// If not already escaped, do it now
+		// If not using raw vars, escape the message now (after variable replacement).
 		if ( !$escapeDone ) {
 			$escapeDone = true;
 			$msg = IntuitionUtil::strEscape( $msg, $options['escape'] );
@@ -579,7 +576,10 @@ class Intuition {
 	 */
 	public function listMsgs( $domain ) {
 		$domain = $this->normalizeDomain( $domain );
-		if ( !$this->ensureLoaded( $domain, 'en' ) ) {
+		$this->ensureLoaded( $domain, 'en' );
+		// Ignore load failure to allow listing of messages that
+		// were manually registered (in case there are any).
+		if ( !isset( $this->messageBlob[$domain]['en'] ) ) {
 			return array();
 		}
 		return array_keys( $this->messageBlob[$domain]['en'] );
@@ -595,13 +595,13 @@ class Intuition {
 	 * @return string[] List of one or more language codes
 	 */
 	public function getLangFallbacks( $lang ) {
-		if ( $this->langFallbacks === null ) {
+		if ( self::$fallbackCache === null ) {
 			// Lazy-initialize
-			$this->langFallbacks = $this->fetchLangFallbacks();
+			self::$fallbackCache = $this->fetchLangFallbacks();
 		}
 
 		$lang = $this->normalizeLang( $lang );
-		return isset( $this->langFallbacks[$lang] ) ? $this->langFallbacks[$lang] : array( 'en' );
+		return isset( self::$fallbackCache[$lang] ) ? self::$fallbackCache[$lang] : array( 'en' );
 	}
 
 	/**
@@ -699,8 +699,8 @@ class Intuition {
 	 * If possible, returns the preferred lang right away, otherwise it looks
 	 * for a suitable falback
 	 *
-	 * @param string $domain Name of the domain (lowercase)
-	 * @param string $lang Preferred language
+	 * @param string $domain Normalised domain
+	 * @param string $lang Normalised language code of preferred language
 	 * @param string $key Key of message
 	 * @return string
 	 */
@@ -746,31 +746,36 @@ class Intuition {
 
 		$this->loadedDomains[ $domain ][ $lang ] = false;
 
-		$dir = $this->localBaseDir . '/language/messages/' . $domain;
-		if ( !is_dir( $dir ) ) {
-			// Domain does not exist
-			return false;
+		if ( !isset( self::$messageCache[ $domain ][ $lang ] ) ) {
+			$dir = $this->localBaseDir . '/language/messages/' . $domain;
+			if ( !is_dir( $dir ) ) {
+				// Domain does not exist
+				return false;
+			}
+
+			if ( !is_readable( $dir ) ) {
+				// Directory is unreadable
+				$this->errTrigger( "Unable to open messages directory for \"$domain\".",
+					__METHOD__, E_NOTICE, __FILE__, __LINE__ );
+				return false;
+			}
+
+			$file = "$dir/$lang.json";
+			$loaded = $this->loadMessageFile( $domain, $lang, $file );
+			if ( !$loaded ) {
+				return false;
+			}
+		} else {
+			$this->setMsgs( self::$messageCache[ $domain ][ $lang ], $domain, $lang );
 		}
 
-		if ( !is_readable( $dir ) ) {
-			// Directory is unreadable
-			$this->errTrigger( "Unable to open messages directory for \"$domain\".",
-				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-
-		$file = "$dir/$lang.json";
-		$loaded = $this->loadMessageFile( $domain, $lang, $file );
-		if ( !$loaded ) {
-			return false;
-		}
 		$this->loadedDomains[ $domain ][ $lang ] = true;
 		return true;
 	}
 
 	/**
-	 * @param string $domain
-	 * @param string $lang
+	 * @param string $domain Normalised domain
+	 * @param string $lang Normalised language code
 	 * @param string $filePath
 	 * @return bool
 	 */
@@ -786,7 +791,7 @@ class Intuition {
 			return false;
 		}
 
-		// Note: Domain and lang are normalised by setMsg()
+		self::$messageCache[ $domain ][ $lang ] = $messages;
 		$this->setMsgs( $messages, $domain, $lang );
 		return true;
 	}
@@ -925,9 +930,8 @@ class Intuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * FIXME: Implement in language/MessagesFunctions.php.
-	 *
-	 * @todo
+	 * @todo FIXME: Implement in language/MessagesFunctions.php.
+	 * @codeCoverageIgnore
 	 */
 	public function gender( $male, $female, $neutral ) {
 		// Depends on getGender() which doesn't exist yet
@@ -940,6 +944,7 @@ class Intuition {
 	 * @see MessagesFunctions::parse
 	 * @see MessagesFunctions::plural
 	 * @deprecated
+	 * @codeCoverageIgnore
 	 */
 	public function plural( $count, $forms ) {
 		throw new BadMethodCallException(
@@ -1091,7 +1096,6 @@ class Intuition {
 	 *
 	 * @param string $url
 	 * @param int $code [optional] Defaults to 302
-	 *
 	 * @return bool false on failure.
 	 */
 	public function redirectTo( $url = 0, $code = 302 ) {
@@ -1445,6 +1449,7 @@ class Intuition {
 	 * @deprecated since 0.2.0: Use #getLangFallbacks instead
 	 * @param string $lang Language code
 	 * @return string Language code
+	 * @codeCoverageIgnore
 	 */
 	public function getLangFallback( $lang ) {
 		$fallbacks = $this->getLangFallbacks( $lang );
@@ -1456,6 +1461,7 @@ class Intuition {
 	 *
 	 * @deprecated since 0.2.0: Obsolete. To get available languages, use getAvailableLangs()
 	 * @return array
+	 * @codeCoverageIgnore
 	 */
 	public function getAllRegisteredDomains() {
 		return array();
@@ -1465,6 +1471,7 @@ class Intuition {
 	 * @deprecated since 0.2.0: Use #ensureLoaded instead.
 	 * @param string $domain
 	 * @return bool|string Normalised domain name or boolean false
+	 * @codeCoverageIgnore
 	 */
 	public function loadTextdomain( $domain ) {
 		$domain = $this->normalizeDomain( $domain );
@@ -1479,6 +1486,7 @@ class Intuition {
 	 * @param string $filePath
 	 * @param string $domain
 	 * @return bool
+	 * @codeCoverageIgnore
 	 */
 	public function loadTextdomainFromFile( $filePath, $domain ) {
 		return false;

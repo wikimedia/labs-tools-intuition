@@ -7,15 +7,9 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	protected function setUp() {
 		parent::setUp();
 
-		$intuition = new TestIntuition( 'general' );
-		$intuition->setMsg( 'test-value', 'en value', 'test-domain', 'en' );
-		$intuition->setMsg( 'test-value', 'de value', 'test-domain', 'de' );
-		$intuition->setMsg( 'test-value', 'nan value', 'test-domain', 'nan' );
-		$intuition->setMsg( 'test-value', 'zh-hans value', 'test-domain', 'zh-hans' );
-		$intuition->setMsg( 'test-value', 'no value', 'test-domain', 'no' );
-		$intuition->setMsg( 'test-value', 'nb value', 'test-domain', 'nb' );
-
-		$this->i18n = $intuition;
+		$i18n = new Intuition( 'general' );
+		$this->sampleMsgs( $i18n );
+		$this->i18n = $i18n;
 	}
 
 	protected function tearDown() {
@@ -24,6 +18,19 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		unset( $this->i18n );
 	}
 
+	protected function sampleMsgs( Intuition $i18n ) {
+		$i18n->setMsg( 'test-value', 'en value', 'test-domain', 'en' );
+		$i18n->setMsg( 'test-value', 'de value', 'test-domain', 'de' );
+		$i18n->setMsg( 'test-value', 'nan value', 'test-domain', 'nan' );
+		$i18n->setMsg( 'test-value', 'zh-hans value', 'test-domain', 'zh-hans' );
+		$i18n->setMsg( 'test-value', 'no value', 'test-domain', 'no' );
+		$i18n->setMsg( 'test-value', 'nb value', 'test-domain', 'nb' );
+	}
+
+	/**
+	 * @covers Intuition::__construct
+	 * @covers Intuition::msg
+	 */
 	public function testConstructor() {
 		$i18n = new Intuition();
 
@@ -44,14 +51,56 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		$i18n = new Intuition( array(
 			'domain' => 'tsintuition'
 		) );
-
+		$this->sampleMsgs( $i18n );
 		$this->assertEquals(
 			'Demo',
 			$i18n->msg( 'tab-demo' ),
-			'Settings array with "domain" key'
+			'Constructor "domain" option'
+		);
+
+		$i18n = new Intuition( array(
+			'lang' => 'de'
+		) );
+		$this->sampleMsgs( $i18n );
+		$this->assertEquals(
+			'de value',
+			$i18n->msg( 'test-value', 'test-domain' ),
+			'Constructor "lang" option'
 		);
 	}
 
+	/**
+	 * @covers Intuition::setLang
+	 * @covers Intuition::getLang
+	 */
+	public function testSetLang() {
+		$this->assertTrue( $this->i18n->setLang( 'nan' ) );
+		$this->assertEquals(
+			'nan value',
+			$this->i18n->msg( 'test-value', 'test-domain' ),
+			'Change default lang'
+		);
+		$this->assertFalse( $this->i18n->setLang( 42 ), 'Bad value' );
+	}
+
+	/**
+	 * @covers Intuition::setDomain
+	 * @covers Intuition::normalizeDomain
+	 * @covers Intuition::getDomain
+	 */
+	public function testSetDomain() {
+		$this->i18n->setDomain( 'Test-Domain' );
+		$this->assertEquals(
+			'en value',
+			$this->i18n->msg( 'test-value' ),
+			'Change default domain'
+		);
+	}
+
+	/**
+	 * @covers Intuition::dateFormatted
+	 * @covers Intuition::getLocale
+	 */
 	public function testDateFormatted() {
 		$this->assertEquals(
 			'January 15 2001',
@@ -59,6 +108,12 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 	}
 
+	/**
+	 * @covers Intuition::msg
+	 * @covers Intuition::rawMsg
+	 * @covers Intuition::accessBlob
+	 * @covers Intuition::getMessagesFunctions
+	 */
 	public function testMsg() {
 		$this->i18n->setMsgs( array(
 			'welcomeback' => 'Welcome back, $1! Would you like some $2?',
@@ -72,9 +127,27 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 
 		$this->assertEquals(
+			'[]',
+			$this->i18n->msg( null ),
+			'Invalid key'
+		);
+
+		$this->assertEquals(
 			'[r4nd0mstr1n9]',
 			$this->i18n->msg( 'r4nd0mstr1n9' ),
-			'Unknown key falls back to bracket-wrapped key'
+			'Unknown key'
+		);
+
+		$this->assertEquals(
+			'en value',
+			$this->i18n->msg( 'test-value', 'test-domain' ),
+			'Domain option (string)'
+		);
+
+		$this->assertEquals(
+			'en value',
+			$this->i18n->msg( 'test-value', array( 'domain' => 'test-domain' ) ),
+			'Domain option (array)'
 		);
 
 		$this->assertEquals(
@@ -104,6 +177,23 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 	}
 
+	/**
+	 * @covers Intuition::bracketMsg
+	 */
+	public function testBracketMsg() {
+		$this->assertEquals(
+			'[example]',
+			$this->i18n->bracketMsg( 'example' )
+		);
+		$this->assertEquals(
+			'nope',
+			$this->i18n->bracketMsg( 'example', 'nope' )
+		);
+	}
+
+	/**
+	 * @covers Intuition::msgExists
+	 */
 	public function testMsgExist() {
 		$this->assertTrue(
 			$this->i18n->msgExists( 'welcome' )
@@ -113,6 +203,10 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 	}
 
+	/**
+	 * @covers Intuition::parentheses
+	 * @covers Intuition::parensWrap
+	 */
 	public function testParentheses() {
 		$this->assertEquals(
 			'(Hello)',
@@ -120,8 +214,11 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 	}
 
-	public function testOptionShowNotices() {
-
+	/**
+	 * @covers Intuition::errTrigger
+	 * @covers Intuition::errMsg
+	 */
+	public function testOptionShownotice() {
 		$i18n = new Intuition( array(
 			// Show notices
 			'suppressnotice' => false,
@@ -137,6 +234,26 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 	}
 
+	/**
+	 * @covers Intuition::msg
+	 * @covers Intuition::bracketMsg
+	 */
+	public function testOptionSuppressbrackets() {
+		$i18n = new Intuition( array(
+			'suppressnotice' => true,
+			'suppressbrackets' => true,
+		) );
+
+		$this->assertEquals(
+			'R4nd0mstr1n9',
+			$i18n->msg( 'r4nd0mstr1n9' ),
+			'Unknown key falls back to ucfirst key'
+		);
+	}
+
+	/**
+	 * @covers Intuition::getLangName
+	 */
 	public function testGetLangName() {
 		$this->assertEquals(
 			'English',
@@ -150,9 +267,42 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'English',
 			$this->i18n->getLangName( 'en' )
 		);
+
 	}
 
-	public function testFallback() {
+	/**
+	 * @covers Intuition::listMsgs
+	 */
+	public function testListMsgs() {
+		$this->assertEquals(
+			$this->i18n->listMsgs( 'test-domain' ),
+			array( 'test-value' )
+		);
+	}
+
+	/**
+	 * @covers Intuition::getLangFallbacks
+	 * @covers Intuition::fetchLangFallbacks
+	 */
+	public function testLangFallback() {
+		// Ensure fetchLangFallbacks is tested
+		Intuition::clearCache();
+
+		$fallbacks = $this->i18n->getLangFallbacks( 'de-formal' );
+		$this->assertEquals(
+			$fallbacks,
+			array( 'de' )
+		);
+	}
+
+	/**
+	 * @covers Intuition::rawMsg
+	 * @covers Intuition::getLangForMsg
+	 * @covers Intuition::normalizeLang
+	 */
+	public function testMsgFallback() {
+		// Normal fallbacks (chain)
+
 		$this->assertEquals(
 			'en value',
 			$this->i18n->rawMsg( 'test-domain', 'en', 'test-value' ),
@@ -183,6 +333,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'Language with 3 fallbacks (third)'
 		);
 
+		// Deprecated/dummy fallback (replacement)
 		$this->assertEquals(
 			'nb value',
 			$this->i18n->rawMsg( 'test-domain', 'no', 'test-value' ),
@@ -214,6 +365,10 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(
 			array( 'url' => '//tools.wmflabs.org/intuition/' ),
 			$this->i18n->getDomainInfo( 'tsintuition' )
+		);
+		$this->assertEquals(
+			array(),
+			$this->i18n->getDomainInfo( '-x-unknown' )
 		);
 	}
 }
