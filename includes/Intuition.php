@@ -1055,7 +1055,7 @@ class Intuition {
 
 		// Build output
 		return
-			"<div class=\"int-promobox\"><p><a href=\"{$this->getDashboardReturnToUrl()}\">$img</a> "
+			"<div class=\"int-promobox\"><p><a href=\"" . htmlspecialchars( $this->getDashboardReturnToUrl() ) . "\">$img</a> "
 			. "$powered {$this->dashboardBacklink()} $helpTranslateLink</p></div>";
 	}
 
