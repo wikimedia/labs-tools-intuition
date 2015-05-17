@@ -141,7 +141,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->getLangName()
 		);
 		$this->assertEquals(
-			'Français',
+			'français',
 			$this->i18n->getLangName( 'fr' )
 		);
 		$this->assertEquals(
