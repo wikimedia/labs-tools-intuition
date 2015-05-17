@@ -566,38 +566,43 @@ class Intuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * Return the fallback chain for a given language.
+	 * Get fallback chain for a given language.
 	 *
 	 * @param string $lang Language code
 	 * @return string[] List of one or more language codes
 	 */
 	public function getLangFallbacks( $lang ) {
-		$lang = $this->normalizeLang( $lang );
-
-		// Lazy-load and cache
 		if ( $this->langFallbacks === null ) {
-			$path = $this->localBaseDir . '/language/Fallbacks.php';
-
-			if ( !is_file( $path ) || !is_readable( $path )  ) {
-				$this->errTrigger( 'Fallbacks.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-				$this->langFallbacks = array();
-				return array( 'en' );
-			}
-
-			$fallbacks = array();
-			include $path;
-
-			// Expand single-fallback strings into arrays for a consistent interface
-			foreach ( $fallbacks as $key => $val ) {
-				if ( !is_array( $val ) ) {
-					$fallbacks[ $key ] = array( $val );
-				}
-			}
-
-			$this->langFallbacks = $fallbacks;
+			// Lazy-initialize
+			$this->langFallbacks = $this->fetchLangFallbacks();
 		}
 
+		$lang = $this->normalizeLang( $lang );
 		return isset( $this->langFallbacks[$lang] ) ? $this->langFallbacks[$lang] : array( 'en' );
+	}
+
+	/**
+	 * @return array
+	 */
+	protected function fetchLangFallbacks() {
+		$file = $this->localBaseDir . '/language/fallbacks.json';
+		if ( !is_file( $file ) || !is_readable( $file )  ) {
+			$this->errTrigger( 'Unable to open fallbacks.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			return array();
+		}
+
+		$fallbacks = json_decode( file_get_contents( $file ), true );
+		if ( !$fallbacks ) {
+			$this->errTrigger( 'Unable to parse fallbacks.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			return array();
+		}
+
+		foreach ( $fallbacks as &$fallback ) {
+			// Expand string values to arrays
+			$fallback = (array)$fallback;
+		}
+
+		return $fallbacks;
 	}
 
 	/**

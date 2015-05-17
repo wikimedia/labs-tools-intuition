@@ -7,22 +7,23 @@
  * @package intuition
  */
 
-$dir = '/path/to/mediawiki-core/languages/messages/';
-
-// $ getFallbacks.php /path/to/messages
-if ( isset( $argv[0] ) && strpos( $argv[0], '/messages' ) ) {
-	$dir = $argv[0];
-// $ php getFallbacks.php /path/to/messages
-} elseif ( isset( $argv[1] ) && strpos( $argv[1], '/messages' ) ) {
-	$dir = $argv[1];
+if ( !isset( $argv[1] ) || strpos( $argv[1], '/messages' ) === false ) {
+	$scriptName = basename( __FILE__ );
+	echo "usage: php $scriptName <dir>\n\n  <dir>  The path to mediawiki/languages/messages\n";
+	exit(1);
 }
+$dir = $argv[1];
 if ( !is_readable( $dir ) ) {
-	echo "Path to languages/messages not found.\n";
+	echo "error: Path to languages/messages not found\n";
+	exit(1);
+}
+
+$dest = dirname( __DIR__ ) . '/language/fallbacks.json';
+if ( !is_writable( dirname( $dest ) ) ) {
+	echo "error: Unable to create $dest\n";
 	exit(1);
 }
 $files = scandir( $dir );
-
-$fhOutput = fopen( __DIR__ . '/getFallbacks.out', 'w' );
 
 $data = array();
 
@@ -52,16 +53,8 @@ foreach ( $files as $file ) {
 	}
 }
 
-$output = var_export( $data, true );
-// var_export adds trailing whitespace (https://bugs.php.net/60050)
-$output = preg_replace( '/\s+$/m', '', $output );
-// var_export adds numbered keys even for straight numberical arrays
-$output = preg_replace( '/\d+ => /m', '', $output );
-// Clean up whitespacing
-$output = str_replace(
-	array( 'array (', "\n  array(", '  ' ),
-	array( 'array(', ' array(', "\t" ),
-	$output
-);
-
-fwrite( $fhOutput, '$fallbacks = ' . $output . ';' . "\n" );
+$written = file_put_contents( $dest, json_encode( $data, JSON_PRETTY_PRINT ) );
+if ( !$written ) {
+	echo "error: Failed to write to $dest\n";
+	exit(1);
+}
