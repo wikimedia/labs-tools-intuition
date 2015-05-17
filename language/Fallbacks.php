@@ -141,6 +141,7 @@ $fallbacks = array(
 	'nds' => 'de',
 	'nds-nl' => 'nl',
 	'nl-informal' => 'nl',
+	'no' => 'nb',
 	'os' => 'ru',
 	'pcd' => 'fr',
 	'pdc' => 'de',
