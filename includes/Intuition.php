@@ -747,16 +747,8 @@ class Intuition {
 		$this->loadedDomains[ $domain ][ $lang ] = false;
 
 		if ( !isset( self::$messageCache[ $domain ][ $lang ] ) ) {
-			$dir = $this->localBaseDir . '/language/messages/' . $domain;
-			if ( !is_dir( $dir ) ) {
-				// Domain does not exist
-				return false;
-			}
-
-			if ( !is_readable( $dir ) ) {
-				// Directory is unreadable
-				$this->errTrigger( "Unable to open messages directory for \"$domain\".",
-					__METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			$dir = $this->getDomainDir( $domain );
+			if ( !$dir ) {
 				return false;
 			}
 
@@ -809,6 +801,33 @@ class Intuition {
 			return array();
 		}
 		return $domainInfo[ $domain ];
+	}
+
+	/**
+	 * Get the directory for domain's messages.
+	 *
+	 * Note: This does not take into account custom registered domains.
+	 * Use the "dir" property provided by "getDomainInfo()" instead.
+	 *
+	 * @param string $domain Name of the domain
+	 * @return string|bool File path to a directory containing message files,
+	 *  or false if no readable directory could be found.
+	 */
+	protected function getDomainDir( $domain ) {
+		$dir = $this->localBaseDir . '/language/messages/' . $domain;
+		if ( !is_dir( $dir ) ) {
+			// Domain does not exist
+			return false;
+		}
+
+		if ( !is_readable( $dir ) ) {
+			// Directory is unreadable
+			$this->errTrigger( "Unable to open messages directory for \"$domain\".",
+				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			return false;
+		}
+
+		return $dir;
 	}
 
 	/**
