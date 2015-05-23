@@ -2,7 +2,7 @@
 	"@metadata": [],
 	"close": "Close",
 	"help": "Help",
-	"filter": "Filter",
+	"filter": "Filter",st
 	"settings": "Settings",
 	"fork": "Source code",
 	"stat": "Statistics",
@@ -77,7 +77,7 @@
 	"about_cookie": "This site uses cookies. Data stored by the cookie will be deleted automatically if you don't visit this tool in 30 days.",
 	"information": "Information",
 	"credit": "Credit",
-	"about_license": "Otherwise stated, this project source code is licensed under MIT License.",
+	"about_license": "Unless otherwise stated, this project source code is licensed under MIT License.",
 	"about_github": "Source code is available on $1",
 	"send_feedback": "Send feedback"
 }
