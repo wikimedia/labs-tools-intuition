@@ -178,6 +178,38 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	}
 
 	/**
+	 * @covers Intuition::registerDomain
+	 */
+	public function testRegisterDomain() {
+		$this->i18n->registerDomain( 'test-register', __DIR__ . '/data/i18n' );
+
+		$this->assertEquals(
+			'Foo bar',
+			$this->i18n->rawMsg( 'test-register', 'en', 'foo' ),
+			'Message in custom domain (default lang)'
+		);
+
+		$this->assertEquals(
+			'Voerbak',
+			$this->i18n->rawMsg( 'test-register', 'nl', 'foo' ),
+			'Message in custom domain (custom lang)'
+		);
+	}
+
+	/**
+	 * @covers Intuition::registerDomain
+	 */
+	public function testRegisterDomainDefault() {
+		$i18n = new Intuition( array( 'domain' => 'test-register' ) );
+		$i18n->registerDomain( 'test-register', __DIR__ . '/data/i18n' );
+		$this->assertEquals(
+			'Foo bar',
+			$i18n->msg( 'foo' ),
+			'Message in custom domain as default domain (default lang)'
+		);
+	}
+
+	/**
 	 * @covers Intuition::bracketMsg
 	 */
 	public function testBracketMsg() {
@@ -360,14 +392,24 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @covers Intuition::getDomainInfo
 	 * @covers Intuition::getDomainInfos
+	 * @covers Intuition::getDomainDir
 	 */
 	public function testGetDomainInfo() {
 		$this->assertEquals(
-			array( 'url' => '//tools.wmflabs.org/intuition/' ),
+			array(
+				'url' => '//tools.wmflabs.org/intuition/',
+				'dir' => dirname( dirname( __DIR__ ) ) . '/language/messages/tsintuition',
+			),
 			$this->i18n->getDomainInfo( 'tsintuition' )
 		);
 		$this->assertEquals(
-			array(),
+			array(
+				'dir' => dirname( dirname( __DIR__ ) ) . '/language/messages/general',
+			),
+			$this->i18n->getDomainInfo( 'general' )
+		);
+		$this->assertEquals(
+			false,
 			$this->i18n->getDomainInfo( '-x-unknown' )
 		);
 	}

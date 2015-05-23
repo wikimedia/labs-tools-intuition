@@ -92,7 +92,7 @@ class Intuition {
 
 	protected $availableLanguages = null;
 
-	protected $domainInfo = null;
+	protected $domainInfos = array();
 
 	// These variable names will be extracted from the message files
 	protected $includeVariables = array( 'messages', 'url' );
@@ -566,6 +566,19 @@ class Intuition {
 	}
 
 	/**
+	 * Register a custom domain.
+	 *
+	 * @param string $domain Name of domain
+	 * @param array $dir Path to messages directory
+	 * @param array $info [optional] Domain info
+	 * @return array
+	 */
+	public function registerDomain( $domain, $dir, $info = array() ) {
+		$info['dir'] = $dir;
+		$this->domainInfos[ $domain ] = $info;
+	}
+
+	/**
 	 * Get all known message keys for a domain.
 	 *
 	 * If the domain is not loaded, this returns an empty list.
@@ -747,12 +760,12 @@ class Intuition {
 		$this->loadedDomains[ $domain ][ $lang ] = false;
 
 		if ( !isset( self::$messageCache[ $domain ][ $lang ] ) ) {
-			$dir = $this->getDomainDir( $domain );
-			if ( !$dir ) {
+			$domainInfo = $this->getDomainInfo( $domain );
+			if ( !isset( $domainInfo['dir'] ) ) {
 				return false;
 			}
 
-			$file = "$dir/$lang.json";
+			$file = $domainInfo['dir'] . "/$lang.json";
 			$loaded = $this->loadMessageFile( $domain, $lang, $file );
 			if ( !$loaded ) {
 				return false;
@@ -796,11 +809,20 @@ class Intuition {
 	 */
 	public function getDomainInfo( $domain ) {
 		$domain = $this->normalizeDomain( $domain );
-		$domainInfo = $this->getDomainInfos();
-		if ( !isset( $domainInfo[ $domain ] ) ) {
-			return array();
+		// Check cache and custom-registered domains
+		if ( !isset( $this->domainInfos[ $domain ] ) ) {
+			$dir = $this->getDomainDir( $domain );
+			if ( !$dir ) {
+				return false;
+			}
+			// Fetch extra info for domains that have it
+			$domainInfos = $this->getDomainInfos();
+			$domainInfo = isset( $domainInfos[ $domain ] ) ? $domainInfos[ $domain ] : array();
+
+			$domainInfo['dir'] = $dir;
+			$this->domainInfos[ $domain ] = $domainInfo;
 		}
-		return $domainInfo[ $domain ];
+		return $this->domainInfos[ $domain ];
 	}
 
 	/**
@@ -836,16 +858,17 @@ class Intuition {
 	 * @return bool|array
 	 */
 	public function getDomainInfos() {
-		if ( $this->domainInfo === null ) {
+		static $domainInfos = null;
+		if ( $domainInfos === null ) {
 			$path = $this->localBaseDir . '/language/domainInfo.json';
 
 			if ( !is_file( $path ) || !is_readable( $path ) ) {
 				$this->errTrigger( 'Unable to open domainInfo.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 				return false;
 			}
-			$this->domainInfo = json_decode( file_get_contents( $path ), /* assoc = */ true );
+			$domainInfos = json_decode( file_get_contents( $path ), /* assoc = */ true );
 		}
-		return $this->domainInfo;
+		return $domainInfos;
 	}
 
 	/* Cookie functions
