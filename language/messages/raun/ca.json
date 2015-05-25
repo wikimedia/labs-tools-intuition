@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
 	"close": "Tanca",
@@ -15,6 +16,18 @@
 	"project": "Projecte",
 	"save": "Desa",
 	"settings_pause": "Pausa",
+	"settings_show": "Mostra",
+	"settings_wiki": "Wiki",
+	"settings_minor_edits": "Edicions menors",
+	"settings_redirects": "Pàgines de redirecció",
+	"settings_new_pages": "Pàgines noves",
+	"stat_articles": "Pàgines de contingut",
+	"stat_pages": "Pàgines",
+	"stat_files": "Fitxers carregats",
+	"stat_depth": "Profunditat",
+	"stat_users": "Usuaris registrats",
+	"stat_active_users": "Usuaris actius",
+	"stat_admins": "Administradors",
 	"separator_thousands": ".",
 	"separator_decimals": ",",
 	"main_time_utc": "Hora (UTC)",
@@ -26,9 +39,11 @@
 	"redirect": "redirecció",
 	"bot": "robot",
 	"editor": "editor",
+	"help_legend": "Llegenda:",
 	"color": "Color",
 	"about": "Quant a",
 	"information": "Informació",
 	"credit": "Crèdit",
-	"about_github": "El codi font és disponible a $1"
+	"about_github": "El codi font és disponible a $1",
+	"send_feedback": "Envia comentaris"
 }

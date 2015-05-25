@@ -26,5 +26,6 @@
 	"wget-info": "En dä Dattei es <code lang=\"en\">wget</code> $1 för <i lang=\"en\">Windows</i> met enjebonge. Wget es e frei Projramm un et es ze han onger dä Version 3 vun GNU General Public License (dä alljemeine öffentlesche Lizänz vun dä GNU)\nWigger onge kütt die Lizänz ob heh dä Sigg, ävver mer kann se och beloore op: http://www.gnu.org/licenses/gpl-3.0.txt verfügbar.\n\nWä däm Projramm singe Quällkood krijje well, kann dä eronger laade vun ongerscheidlijje Schtälle:\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nudder och vun ander Schpeejel-ẞööver. Luuer op:\n http://www.gnu.org/prep/ftp.htmlt",
 	"scaling-width": ", obb ene jrüüßte Breide vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet",
 	"scaling-height": ", obb ene jrüüßte Hühde vun {{PLURAL:$1|einem Pixel|$1 Pixelle|keinem Pixel}} ömjeräschnet",
-	"scaling-both": ", obb ene jrüüßte Ömfang vun $1x$2 Pixelle ömjeräschnet"
+	"scaling-both": ", obb ene jrüüßte Ömfang vun $1x$2 Pixelle ömjeräschnet",
+	"readme-filename": "README.txt"
 }

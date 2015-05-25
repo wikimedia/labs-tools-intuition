@@ -5,6 +5,7 @@
 		]
 	},
 	"title": "OrphanTalk",
+	"description": "Verweist Diskussiounssäite fannen",
 	"label-wiki": "Wiki",
 	"select-wiki-first": "(sicht d'éischt eng Wiki eraus)",
 	"hideredirects": "Viruleedunge verstoppen",

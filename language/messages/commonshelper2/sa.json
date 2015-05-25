@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hemant wikikosh1"
+			"Hemant wikikosh1",
+			"NehalDaveND"
 		]
 	},
 	"attention": "अवधानम्",
@@ -25,6 +26,6 @@
 	"original_wikitext": "मौलिकः विकिपाठः",
 	"new_wikitext": "नूतनः विकिपाठः",
 	"new_filename": "नूतनं सञ्चिकानाम :",
-	"upload_submit": "उद्भार्यताम् !",
+	"upload_submit": "आरोप्यताम् !",
 	"target_wiki": "लक्ष्यविकि"
 }

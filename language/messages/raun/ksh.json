@@ -31,6 +31,7 @@
 	"stat_pages": "Sigge",
 	"stat_files": "Huhjelaade Datteije",
 	"stat_edits": "Änderonge aan Sigge",
+	"stat_depth": "Deefde",
 	"stat_users": "Metmaacher aanjemälldt",
 	"stat_active_users": "Aktieve Metmaacher",
 	"stat_admins": "Wiki_Kööbeße",
@@ -60,6 +61,7 @@
 	"about_cookie": "Heh di ẞait bruch <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„Pläzje“\">Cookies</i>. Di fleeje automattesch us Dingem Brauser eruß, wann De 30 Dääsch heh nix mieh deihs.",
 	"information": "Enfomazjuhn",
 	"credit": "Aanerkennong för Beidrääsch",
+	"about_license": "Esu lang wi nix söns jesssad es, es der Quällkohd vun heh däm Projäk onger däm <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Massachusetts Institute of Technology\">MIT</i> singe Lezänz ze han.",
 	"about_github": "Der Quälltäx es ze han op $1",
 	"send_feedback": "En Rökmäldong jävve"
 }

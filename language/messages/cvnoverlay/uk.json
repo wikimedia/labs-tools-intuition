@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"adder": "Додавач",
+	"adder-empty": "Невідомий",
+	"expiry": "Закінчення",
+	"globalwatched": "Глобально спостерігається",
+	"lastupdate-db": "Останнє оновлення: $1",
+	"reason": "Причина",
+	"reason-empty": "Не знайдено причин"
+}

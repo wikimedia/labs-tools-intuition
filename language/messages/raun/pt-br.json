@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Luckas",
-			"Fasouzafreitas"
+			"Fasouzafreitas",
+			"Araceletorres"
 		]
 	},
 	"close": "Fechar",
@@ -36,6 +37,10 @@
 	"stat_users": "Usuários registrados",
 	"stat_active_users": "Usuários ativos",
 	"stat_admins": "Administradores",
+	"separator_thousands": ".",
+	"separator_decimals": ",",
+	"def_i": "verb conv",
+	"def_def": "inspecionar; guardar; patrulhar;",
 	"main_time_utc": "Hora (UTC)",
 	"main_page": "Página",
 	"main_user": "Usuário",
@@ -43,12 +48,16 @@
 	"combined_entries": "Entradas combinadas",
 	"new": "novo",
 	"minor": "menor",
+	"anon": "anônimo",
 	"redirect": "redirecionamento",
 	"bot": "bot",
 	"editor": "editor",
 	"admin": "administrador",
+	"help_legend": "Legenda:",
 	"color": "Cor",
 	"about": "Sobre",
 	"information": "Informação",
-	"credit": "Crédito"
+	"credit": "Crédito",
+	"about_github": "O código-fonte está disponível em $1",
+	"send_feedback": "Envie seu comentário"
 }

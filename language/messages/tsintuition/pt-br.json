@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Fúlvio",
-			"He7d3r"
+			"He7d3r",
+			"Araceletorres"
 		]
 	},
 	"fullname": "Internacionalização para ferramentas",
 	"current-settings": "Configurações atuais",
-	"current-language": "Idioma selecionado atualmente",
+	"current-language": "Idioma selecionado",
 	"settings-legend": "Configurações",
 	"choose-language": "Escolha um idioma",
 	"clear-cookies": "limpar cookies",
@@ -22,7 +23,7 @@
 	"bl-mysettings": "Minhas configurações de idioma",
 	"bl-mysettings-new": "Alterar o idioma!",
 	"bl-promo": "Traduções possíveis graças à $1 e ao $2.",
-	"bl-changelanguage": "Clique aqui para alterar o idioma da interface desta ferramenta.",
+	"bl-changelanguage": "Alterar o idioma da interface desta ferramenta.",
 	"usage": "Ferramentas traduzidas pelo Intuition.",
 	"help-translate-tool": "Ajude a traduzir esta ferramenta!",
 	"help-translate-all": "Ajude a traduzir as ferramentas!",

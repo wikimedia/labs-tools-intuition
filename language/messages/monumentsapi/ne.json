@@ -5,7 +5,13 @@
 			"सरोज कुमार ढकाल"
 		]
 	},
+	"search-title": "धरोहर खोज",
+	"search-table-th-field": "फिल्ड",
+	"search-table-th-filter": "फिल्टर",
 	"search-table-th-search": "खोज",
+	"filter-all-countries": "सबै देशहरू",
+	"filter-all-languages": "सबै भाषाहरू",
+	"db-field-country": "देश",
 	"db-field-lang": "भाषा",
 	"db-field-id": "जनक",
 	"db-field-name": "नाम",
@@ -27,5 +33,10 @@
 	"db-field-st_municipality_pct": "नगरपालिका %",
 	"db-field-st_name": "नाम",
 	"db-field-st_name_pct": "नामहरू %",
-	"db-field-st_total": "कुल संख्या"
+	"db-field-st_total": "कुल संख्या",
+	"toolbox-main-title": "WLM औजारबट्टा",
+	"toolbox-wikilovesmonuments": "विकी लभ्स मोनुमेन्टस्",
+	"toolbox-nav-homepage": "गृहपृष्ठ",
+	"toolbox-nav-statistics": "तथ्याङ्क",
+	"toolbox-nav-search": "खोज"
 }

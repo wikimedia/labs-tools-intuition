@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"F. Cosoleto"
+		]
+	},
+	"adder-empty": "Sconosciuto",
+	"expiry": "Scadenza",
+	"lastupdate-db": "Ultimo aggiornamento: $1",
+	"reason": "Motivo",
+	"reason-empty": "Nessun motivo trovato"
+}

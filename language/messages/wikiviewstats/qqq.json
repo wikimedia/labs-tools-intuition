@@ -4,7 +4,8 @@
 			"Liuxinyu970226",
 			"Lokal Profil",
 			"Robby",
-			"Shirayuki"
+			"Shirayuki",
+			"Siebrand"
 		]
 	},
 	"records": "data records\n{{Identical|Record}}",
@@ -115,7 +116,7 @@
 	"autofilter": "short word for an automatic filtering of results",
 	"barchart": "tooltip message chart switcher - bar chart  [[toollabs:wikiviewstats/?page=Wikipedia]]\n{{Identical|Bar chart}}",
 	"linechart": "tooltip message chart switcher - line chart",
-	"linechart_filled": "tooltip message chart switcher - line chart filled",
+	"linechart_filled": "tooltip message chart switcher - line chart filled. Example: http://www.jqplot.com/deploy/dist/examples/area.html",
 	"isRedirect": "This page is a redirect",
 	"disambPage": "{{Identical|Disambiguation page}}",
 	"showRedir": "Show redirects",

@@ -1,10 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fasouzafreitas"
+			"Fasouzafreitas",
+			"Araceletorres"
 		]
 	},
+	"adder": "Agregador",
 	"adder-empty": "Desconhecido",
+	"expiry": "Expiração",
+	"globalwatched": "Vigiada globalmente",
+	"lastupdate-db": "Última atualização: $1",
 	"reason": "Razão",
 	"reason-empty": "Nenhum motivo encontrado"
 }

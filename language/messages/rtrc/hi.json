@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND"
+		]
+	},
+	"apply": "लागू करें",
+	"asc": "आरोह",
+	"changelog": "क्या नया",
+	"clear": "स्पष्ट",
+	"cvn-adder": "जोड़ा",
+	"cvn-adder-empty": "अज्ञात",
+	"cvn-reason": "कारण",
+	"cvn-reason-empty": "कोई कारण नहीं मिला",
+	"desc": "अवरोह",
+	"documentation": "प्रलेखन",
+	"filter": "छननी",
+	"helpicon-tooltip": "इस सुविधा के बारे में अधिक शिखे",
+	"lastupdate-cvn": "$1 अन्तिम अद्यतन हुआ।",
+	"lastupdate-rc": "$1 अन्तिम अद्यतन हुआ।",
+	"limit": "सीमा",
+	"namespace": "नामस्थान",
+	"order": "क्रम",
+	"select-placeholder-none": "(कोई नहीं)",
+	"showAnonOnly": "सिर्फ-अनामक",
+	"tag": "टैग",
+	"time-from": "प्रेषक",
+	"type": "प्रकार",
+	"typeEdit": "संपादन",
+	"typeNew": "नए पृष्ठ",
+	"userfilter": "सदस्यछननी"
+}

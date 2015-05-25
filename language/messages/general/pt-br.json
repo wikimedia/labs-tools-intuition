@@ -5,7 +5,8 @@
 			"Fúlvio",
 			"Giro720",
 			"Gusta",
-			"TheGabrielZaum"
+			"TheGabrielZaum",
+			"Araceletorres"
 		]
 	},
 	"hello": "Olá",
@@ -17,6 +18,7 @@
 	"form-submit": "Ir",
 	"form-reset": "Restaurar",
 	"years": "{{PLURAL: $1|ano|anos}}",
+	"months": "{{PLURAL: $1|mês|meses}}",
 	"weeks": "{{PLURAL: $1|semana|semanas}}",
 	"days": "{{PLURAL: $1|dia|dias}}",
 	"hours": "{{PLURAL: $1|hora|horas}}",

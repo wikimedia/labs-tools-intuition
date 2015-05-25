@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Ansumang",
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"NehalDaveND"
 		]
 	},
 	"project": "प्रकल्प:",
 	"category": "श्रेणी:",
+	"thumbnailing": "अंगूठाकार",
 	"max-width": "अधिकतम चौड़ाई:",
 	"max-height": "अधिकतम ऊँचाई:",
 	"invalid-width": "अमान्य चौड़ाई",

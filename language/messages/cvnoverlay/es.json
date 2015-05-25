@@ -8,7 +8,7 @@
 	"adder": "Agregador",
 	"adder-empty": "Desconocido",
 	"expiry": "Caducidad",
-	"globalwatched": "Visto globalmente",
+	"globalwatched": "Vigilada globalmente",
 	"lastupdate-db": "Última actualización: $1",
 	"reason": "Motivo",
 	"reason-empty": "No se encontraron motivos"

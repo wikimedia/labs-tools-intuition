@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"form-label-language": "Llengua:",
+	"form-label-template": "Nom de la plantilla:",
+	"feedback-result": "Resultats de $1",
+	"feedback-total-count": "Total: $1",
+	"link-edit": "modifica",
+	"link-create": "crea",
+	"link-complete": "Informe complet..."
+}

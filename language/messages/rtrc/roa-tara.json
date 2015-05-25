@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"title": "Urteme cangiaminde in tiembe reale",
+	"apply": "Appleche",
+	"asc": "Asc",
+	"changelog": "Ce ste de nuéve",
+	"clear": "pulizze",
+	"currentedit": "Cangiamende scacchiate de mò",
+	"cvn-adder": "Aggiungitore",
+	"cvn-adder-empty": "Scanusciute",
+	"cvn-reason": "Mutive",
+	"cvn-reason-empty": "Nisciune mutive acchiate",
+	"desc": "Desc",
+	"documentation": "Documendazione",
+	"filter": "Filtre",
+	"helpicon-tooltip": "'Mbare de cchiù sus a sta funzionalità",
+	"lastupdate-cvn": "Urteme aggiornamende: $1",
+	"lastupdate-rc": "Urteme aggiornamende: $1",
+	"limit": "Limite",
+	"months": "Scennare, Febbrare, Màrze, Abbrile, Masce, Sciugne, Luglie, Aguste, Settemmre, Ottommre, Novemmre, Decemmre",
+	"mypatrollog": "l'archivije de condrolle mije",
+	"namespace": "Namespace",
+	"navtoggle-tooltip": "Live e mitte 'a barre laterale",
+	"nomatches": "Nisciune cangiamende 'mbortande pe le 'mbostaziune tune",
+	"order": "Ordine",
+	"select-placeholder-none": "(ninde)",
+	"showAnonOnly": "Sulamende anonime",
+	"skippededit": "Cangiamende zumbate",
+	"tag": "Tag",
+	"time-from": "Da",
+	"time-untill": "'Mbonde a",
+	"type": "Tipe",
+	"typeEdit": "Cangiaminde",
+	"typeNew": "Pàggene nuève",
+	"userfilter": "Filtre de l'utende"
+}

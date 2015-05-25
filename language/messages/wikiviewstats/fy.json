@@ -12,6 +12,7 @@
 	"all": "alle",
 	"popular": "populêr",
 	"language": "taal",
+	"users": "{{PLURAL: $1|brûker|brûkers}}",
 	"project": "Projekt",
 	"category": "Kategory",
 	"files": "{{PLURAL: $1|triem|triemmen}}",
@@ -29,6 +30,8 @@
 	"namespaces": "nammeromten",
 	"on": "oan",
 	"off": "út",
+	"submit": "Ferstjoere",
+	"save": "bewarje",
 	"cancel": "annulearje",
 	"barchart": "stêfdiagram"
 }

@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
 	"label-page": "Pàgina",
 	"label-namespace": "Espai de noms",
 	"label-limit": "Límit",
 	"button-submit": "Vés-hi",
+	"whatlinkshere": "Què hi enllaça",
 	"isfile": "enllaç a fitxer",
 	"section-links": "Enllaços",
 	"section-extlinks": "Enllaços externs",

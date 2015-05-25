@@ -4,7 +4,8 @@
 			"Csega",
 			"Csigabi",
 			"Samat",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Dj"
 		]
 	},
 	"million": "Hihetetlen, teljesen hihetetlen! Ez a szerkesztésszámláló 2008 decemberében jött létre, és alig 1,5 év alatt több mint egymilliószor keresték fel. Ez elképesztő. Köszönöm mindenkinek az elmúlt években nyújtott a folyamatos támogatást. Az Önök támogatása nélkül ez az eszköz nem létezhetne. Bízzunk a következő egymillióban! -- X! 2010. május 14.",
@@ -99,7 +100,15 @@
 	"alledits": "Minden szerkesztés",
 	"pageviews": "Megtekintések",
 	"pagewatchers": "Lapfigyelők",
+	"summary": "Összefoglaló",
 	"ip_range": "IP-tartomány",
 	"ip_list": "IP lista",
-	"limit": "Limit"
+	"ip_start": "Kezdő IP",
+	"ip_end": "Vég IP",
+	"ip_number": "Lehetséges IP-k",
+	"ip_found": "Megtalált IP-k",
+	"limit": "Limit",
+	"result": "Eredmény",
+	"resultbyname": "Eredmény név / IP alapján",
+	"resultbytime": "Eredmény idő szerint"
 }

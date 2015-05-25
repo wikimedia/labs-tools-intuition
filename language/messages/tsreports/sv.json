@@ -35,6 +35,8 @@
 	"prefs_done": "Dina inställningar har ändrats.",
 	"prefs_langlabel": "Gränssnittsspråk:",
 	"report_wascached": "Denna rapport cachelagrades %(age)s sedan.",
+	"report_cold_cache_running": "(Om)generering av cachen startades för %(runtime)s sedan.",
+	"report_cold_cache_started": "(Om)generering av cachen har precis startats.",
 	"report_nocache": "Denna rapport är schemalagd att omgenererad under natten, men har inte körts ännu, så det finns inga data tillgängliga.",
 	"report_first_run": "Denna rapport genereras för första gången, så ingen data finns tillgänglig ännu.",
 	"report_last_run_duration": "Denna rapport har genererats på %(duration)s.",

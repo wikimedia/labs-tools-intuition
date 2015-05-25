@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hemant wikikosh1"
+			"Hemant wikikosh1",
+			"NehalDaveND"
 		]
 	},
 	"hello": "नमस्कारः",
 	"welcome": "स्वागतम्",
+	"toolversion": "संस्करणम् $1",
 	"toolversionstamp": "आवृत्तिः $1 ($2)",
 	"etc": "इत्यादि",
 	"namespace": "नामाकाशः",
