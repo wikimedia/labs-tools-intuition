@@ -4,7 +4,6 @@
 	"adder-empty": "Unknown",
 	"expiry": "Expiry",
 	"globalwatched": "Globally watched",
-	"lastupdate-db": "Last update: $1",
 	"reason": "Reason",
 	"reason-empty": "No reason found"
 }
