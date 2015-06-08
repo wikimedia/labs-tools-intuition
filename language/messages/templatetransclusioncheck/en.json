@@ -5,7 +5,7 @@
 		]
 	},
 	"title": "Template linking and transclusion check",
-	"description": "Checks and reports which articles that transcludes a template that are not linked from the template, and which articles that are linked from a template but do not transclude it.",
+	"description": "Checks and reports which articles that transclude a template are not linked from the template, and which articles that are linked from a template do not transclude it.",
 	"form-label-language": "Language:",
 	"form-label-template": "Template name:",
 	"form-label-template2": "(including namespace)",
