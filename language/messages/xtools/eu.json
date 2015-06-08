@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sator"
+			"Sator",
+			"Xabier Armendaritz"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -66,9 +67,9 @@
 	"time_ago": "$1 $2 ago",
 	"past_time": "past $1 $2",
 	"seconds": "{{PLURAL: $1|second|seconds}}",
-	"minutes": "{{PLURAL: $1|minute|minutes}}",
-	"days": "{{PLURAL: $1|day|days}}",
-	"hours": "{{PLURAL: $1|hour|hours}}",
+	"minutes": "{{PLURAL: $1|minutu}}",
+	"days": "{{PLURAL: $1|egun}}",
+	"hours": "{{PLURAL: $1|ordu}}",
 	"weeks": "{{PLURAL: $1|week|weeks}}",
 	"months": "{{PLURAL: $1|month|months}}",
 	"years": "{{PLURAL: $1|year|years}}",
@@ -82,7 +83,7 @@
 	"approximate": "approximate",
 	"see_full_page_stats": "Ikusi estatistikak orrialde osoan",
 	"see_full_edit_counts": "Ikusi balio osoak Edizio Kontagailuan",
-	"editcounter": "ediziokontagailu",
+	"editcounter": "edizio-kontagailua",
 	"userid": "Erabiltzailearen identifikazioa (ID):",
 	"mainspace": "Artikulu",
 	"groups": "Erabiltzaile taldeak",
@@ -150,10 +151,10 @@
 	"editsperuser": "Aldaketa bataz besteko kopurua lankideko",
 	"avg_edits_per_user_sign": "Ø aldaketa kopuru lankideko",
 	"avg_edits_per_time_sign": "Ø number of edits per $1",
-	"lastday": "Aldaketak azken 24 ordutan",
-	"lastweek": "Aldaketak azken 7 egunetan",
-	"lastmonth": "Aldaketak azken 30 egunetan",
-	"lastyear": "Aldaketak azken 365 egunetan",
+	"lastday": "Azken 24 orduko aldaketak",
+	"lastweek": "Azken 7 eguneko aldaketak",
+	"lastmonth": "Azken 30 eguneko aldaketak",
+	"lastyear": "Azken 365 eguneko aldaketak",
 	"editorcount": "Editore kopurua",
 	"toptencount": "Editoreen top %10ak egindako aldaketak",
 	"ips": "IPak",

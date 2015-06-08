@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikulas1"
+		]
+	},
+	"label-wiki": "Wiki",
+	"select-wiki-first": "(vyberte najprv wiki)",
+	"hidesubpages": "Skryť podstránky",
+	"limit": "Limit",
+	"page": "Stránka",
+	"tooltip-redirect": "Táto stránka je presmerovanie",
+	"output": "Výstup",
+	"update": "Aktualizovať",
+	"tools-view": "Zobraziť",
+	"tools-delete": "Zmazať",
+	"tools-links": "Odkazy na túto stránku",
+	"tools-hist": "Zobraziť históriu",
+	"tools-curr": "Posledná zmena",
+	"tools-globalusage": "Použitie súboru",
+	"resultslimited": "Výsledky boli obmedzené na $1 stránok."
+}

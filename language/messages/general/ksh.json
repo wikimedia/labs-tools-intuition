@@ -20,7 +20,7 @@
 	"hours": "({{PLURAL:$1|Shtund|Shtunde|Shtunde}})",
 	"minutes": "{{PLURAL:$1|Menutt|Menutte|Menutte}}",
 	"seconds": "{{PLURAL:$1|Sekund|Sekunde|Sekund}}",
-	"last-modified-date": "zerläz verändert aam $2 öm $3",
+	"last-modified-date": "Zerläz verändert aam $2 öm $3 <!-- https://translatewiki.net/wiki/Thread:Support/About_Intuition:General-last-modified-date/ksh_(4) -->",
 	"view-source": "Der Quelltäx vum Projramm",
 	"and": ",&#32;un"
 }
