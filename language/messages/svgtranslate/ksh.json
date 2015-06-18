@@ -15,7 +15,7 @@
 	"th-original": "Ojinahl",
 	"th-translation": "Övversäzong",
 	"th-language": "Schprohch",
-	"th-username": "Metmaacher Name",
+	"th-username": "Metmaacher_Nahme",
 	"th-password": "Paßwoot",
 	"th-method": "Metood",
 	"option-oauth": "<i lang=\"en\" xml:lang=\"en\" title=\"OAuth\">OAuth</i> (automattesch Huhlaade)",
@@ -33,6 +33,6 @@
 	"preview-hide": "Vör-Aansesch verschteische",
 	"preview-refresh": "Donn de Vör-Aansesch op der neue Shtand bränge!",
 	"error-must-accept": "Öm med em tiräk Huhlaade wiggger ze maache. moß De dä Bedengonge för der Jebruch zohshtemme.",
-	"description-license": "Donn die Dattei koot beschrieve un en Lizänz ußwähle",
+	"description-license": "Donn di Dattei koot beschrihve un en Lezännz ußwähle",
 	"finalise": "Donn de Einzelheite kumplätt maache"
 }

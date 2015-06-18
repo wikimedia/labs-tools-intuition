@@ -22,7 +22,7 @@
 	"error_on_commons": "Berkas sumber anu wis ana nang $1!",
 	"error_file_exists": "Berkas wis ana nang $3 nganggo jeneng \"$1$4$2\"!",
 	"error_diff_exists": "Wis ana berkas target sejen nang wiki target sing nganggo jeneng sing padha!",
-	"original_wikitext": "Teks wiki aslihttp://translatewiki.net/wiki/Special:Translate/tsint-0-all#",
+	"original_wikitext": "Teks wiki asli",
 	"new_wikitext": "Teks wiki anyar",
 	"new_filename": "Jeneng berkas anyar:",
 	"upload_submit": "Unggah!",

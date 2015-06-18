@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nirmal Dulal"
+			"Nirmal Dulal",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"welcome": "X!'s tools! मा स्वागत छ।",
@@ -47,7 +48,7 @@
 	"date": "मिति",
 	"pages": "पृष्ठहरू",
 	"bytes": "बाइटहरु",
-	"edits": "सम्पादनहरु",
+	"edits": "सम्पादनहरू",
 	"actions": "कार्यहरु",
 	"actions_admin": "प्रवान्धकको कार्यहरू",
 	"others": "अन्य",

@@ -6,6 +6,7 @@
 		]
 	},
 	"title": "Kontrollera mallänkar och mallinkluderingar",
+	"description": "Kontrollerar och rapporterar vilka artiklar som transkluderar en mall som inte är länkade från mallen, och vilka artiklar som är länkade från en mall inte transkluderar den.",
 	"form-label-language": "Språk:",
 	"form-label-template": "Mallnamn:",
 	"form-label-template2": "(inklusive namnrymd)",
@@ -13,6 +14,7 @@
 	"feedback-template-missing": "Mallen $1 finns inte.",
 	"feedback-template-noaccess": "Mallen $1 verkar existera, men den finns inte tillgänglig från databasen. Detta kan bero på ett tillfälligt databasfel. Databasen som användes: $2.",
 	"feedback-result": "Resultat för $1",
+	"feedback-header-mismatch": "Missanpassning mellan transklusion och länkar",
 	"feedback-header-no-link": "Mallinkludering men ingen länk",
 	"feedback-header-no-transclusion": "Länk men ingen mallinkludering",
 	"feedback-header-redirects": "Länkar till omdirigeringar",

@@ -5,5 +5,7 @@
 		]
 	},
 	"form-label-language": "Ziman:",
-	"feedback-header-redirects": "Girêdanên ber bi beralîkirinan ve"
+	"feedback-header-redirects": "Girêdanên ber bi beralîkirinan ve",
+	"feedback-total-count": "Hemû : $1",
+	"link-edit": "biguherîne"
 }
