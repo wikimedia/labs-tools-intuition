@@ -8,5 +8,5 @@
 	"toolserver-status-short-info": "$1: مالومات",
 	"toolserver-status-short-warn": "$1: گواښنه",
 	"toolserver-status-short-erro": "$1: تېروتنه",
-	"toolserver-status-short-unknown": "$1: ناڅرګند"
+	"toolserver-status-short-unknown": "$1: ناڅرگند"
 }

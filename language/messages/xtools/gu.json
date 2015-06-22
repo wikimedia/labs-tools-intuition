@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"KartikMistry"
+			"KartikMistry",
+			"Dsvyas"
 		]
 	},
 	"title_xtools": "X!ના સાધનો",
@@ -28,7 +29,7 @@
 	"authors": "{{PLURAL: $1|લેખક|લેખકો}}",
 	"start": "આરંભ તારીખ",
 	"end": "અંત તારીખ",
-	"text": "લખાણ",
+	"text": "પાઠ",
 	"namespace": "નામસ્થળ",
 	"more": "વધુ",
 	"approximate": "લગભગ",
