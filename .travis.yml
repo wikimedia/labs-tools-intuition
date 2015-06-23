@@ -5,10 +5,8 @@ php:
   - "5.3"
 install:
   - composer install
-  - npm install
 script:
   - composer test
-  - npm test
 notifications:
   irc:
     channels:
