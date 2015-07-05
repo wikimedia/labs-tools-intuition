@@ -1,14 +1,8 @@
 {
-  "name": "intuition",
-  "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Krinkle/intuition.git"
-  },
+  "private": true,
   "scripts": {
     "test": "grunt"
   },
-  "dependencies": {},
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
