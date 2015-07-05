@@ -86,26 +86,17 @@ $domains = explode( '|', $domains );
 $resp['messages'] = array();
 
 foreach ( $domains as $domain ) {
-	$normalisedDomain = $I18N->loadTextdomain( $domain );
+	$exists = $I18N->getDomainInfo( $domain );
 
-	if ( !$normalisedDomain ) {
-		// Doesn't exist
+	if ( !$exists ) {
 		$resp['messages'][$domain] = false;
 		continue;
 	}
 
-	if ( $normalisedDomain !== $domain ) {
-		$resp['normalised']['domains'][$domain] = $normalisedDomain;
-	}
+	$keys = $I18N->listMsgs( $domain );
 
-	$keys = $I18N->listMsgs( $normalisedDomain );
-
-	foreach ( $keys as $msgKey ) {
-		$resp['messages'][$domain][$msgKey] = $rawMsg = $I18N->rawMsg(
-			$normalisedDomain,
-			$lang,
-			$msgKey
-		);
+	foreach ( $keys as $key ) {
+		$resp['messages'][$domain][$key] = $I18N->rawMsg( $domain, $lang, $key );
 	}
 }
 

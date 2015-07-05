@@ -795,6 +795,7 @@ class Intuition {
 		if ( !is_array( $messages ) ) {
 			return false;
 		}
+		unset( $messages['@metadata'] );
 
 		self::$messageCache[ $domain ][ $lang ] = $messages;
 		$this->setMsgs( $messages, $domain, $lang );
@@ -805,7 +806,7 @@ class Intuition {
 	 * Get information about a domain (if any).
 	 *
 	 * @param string $domain Name of the domain
-	 * @return array
+	 * @return array|bool
 	 */
 	public function getDomainInfo( $domain ) {
 		$domain = $this->normalizeDomain( $domain );
