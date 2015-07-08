@@ -31,6 +31,7 @@
 	"nomatches": "Placeholder text in place of the changes list when the query returned no results",
 	"order": "Section label for the sort order radio buttons.\n{{Identical|Order}}",
 	"permalink": "Label of the permalink that will start RTRC with the current settings",
+	"reload-interval": "Label of the number input field that controls how often the application reloads the changes feed (in seconds).",
 	"select-placeholder-none": "Placeholder in a dropdown menu representing the blank option.\n{{Identical|None}}",
 	"showAnonOnly": "Label of the checkbox to only show changes by anonymous users.\n{{Identical|Anon only}}",
 	"showUnpatrolledOnly": "Label of the checkbox to only show unpatrolled changes",
