@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sujiniku"
+		]
+	},
+	"adder-empty": "不明",
+	"expiry": "期限",
+	"reason": "理由",
+	"reason-empty": "理由が見つかりません"
+}

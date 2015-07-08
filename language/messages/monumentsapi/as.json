@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Bishnu Saikia",
-			"Simbu123"
+			"Simbu123",
+			"Gitartha.bordoloi"
 		]
 	},
-	"search-title": "কীৰ্তিচিহ্ন অনুসন্ধান কৰক",
+	"search-title": "কীৰ্তিচিহ্ন সন্ধান কৰক",
 	"search-monuments-database": "কীৰ্তিচিহ্ন তথ্যকোষত অনুসন্ধান কৰক",
 	"search-table-th-field": "ফিল্ড",
 	"search-table-th-filter": "ছেকনী",
-	"search-table-th-search": "অনুসন্ধান",
+	"search-table-th-search": "সন্ধান কৰক",
 	"filter-all-countries": "সকলো দেশ",
 	"filter-all-languages": "সকলো ভাষা",
 	"db-field-country": "দেশ",
@@ -41,6 +42,6 @@
 	"toolbox-nav-homepage": "বেটুপাত",
 	"toolbox-nav-statistics": "পৰিসংখ্যা",
 	"toolbox-nav-search": "সন্ধান কৰক",
-	"toolbox-title-searchmonuments": "স্মৃতিস্তম্ভ অনুসন্ধান কৰক",
+	"toolbox-title-searchmonuments": "স্মৃতিস্তম্ভ সন্ধান কৰক",
 	"location": "অৱস্থান"
 }

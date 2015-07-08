@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Sujiniku"
 		]
 	},
 	"records": "データレコード",
@@ -68,6 +69,7 @@
 	"good_articles": "良い記事",
 	"pages": "ページ",
 	"watchers": "ウォッチリスト",
+	"redirects": "リダイレクト",
 	"testmode": "テストモード",
 	"chartBasedOn": "グラフのグラフィックに基づい",
 	"by": "バイ",
@@ -96,6 +98,8 @@
 	"urlParameter": "URLパラメータ",
 	"hideHints": "ヒントを隠す",
 	"colorScheme": "配色",
+	"on": "オン",
+	"off": "オフ",
 	"submit": "送信",
 	"save": "保存",
 	"cancel": "中止",
@@ -107,5 +111,9 @@
 	"isRedirect": "このページはリダイレクトです",
 	"disambPage": "曖昧さ回避ページ",
 	"showRedir": "リダイレクトを　表示する",
+	"addToWorkList": "ワークリストに追加",
+	"removeFromWorklist": "ワークリストから除去",
+	"projectPages": "プロジェクトページ",
+	"backToTop": "トップに戻る",
 	"numPageWatchers": "ページのウォッチ者数"
 }

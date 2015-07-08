@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ex13"
+			"Ex13",
+			"Teoo3"
 		]
 	},
-	"fullname": "Prijevod za suradničko sučelje Toolservera",
+	"fullname": "Internacionalizacija alata",
 	"current-settings": "Trenutne postavke",
-	"current-language": "Trenutačno odabrani jezik",
+	"current-language": "Odabrani jezik",
 	"settings-legend": "Postavke",
 	"choose-language": "Odaberite jezik",
 	"clear-cookies": "obrišite kolačiće",
@@ -21,9 +22,9 @@
 	"bl-mysettings": "Moje postavke jezika",
 	"bl-mysettings-new": "Promjena jezika!",
 	"bl-promo": "Za prijevode su zaslužni $1 i $2.",
-	"bl-changelanguage": "Kliknite ovdje za promjenu jezika sučelja za ovaj alat.",
-	"usage": "Alati koje je preveo Toolserver Intuition.",
+	"bl-changelanguage": "Promijenite jezik sučelja ovog alata.",
+	"usage": "Alate preveo Intuition.",
 	"help-translate-tool": "Pomozite nam prevesti ovaj alat!",
-	"help-translate-all": "Pomozite nam da prevedemo Toolserver!",
+	"help-translate-all": "Pomozite u prevođenju alata!",
 	"help-translate-tooltip": "Pomozite drugima prijevodom poruka sučelja na svoj jezik."
 }

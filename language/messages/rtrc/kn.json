@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nayan",
-			"Nayvik"
+			"Nayvik",
+			"Ananth subray"
 		]
 	},
 	"apply": "ಅನ್ವಯಿಸುತ್ತವೆ",
@@ -16,5 +17,11 @@
 	"desc": "ಅವರೋಹಣ",
 	"documentation": "ದಾಖಲೀಕರಣ",
 	"filter": "ಶೋಧಕ",
-	"limit": "ಮಿತಿ"
+	"limit": "ಮಿತಿ",
+	"time-from": "ಇಂದ",
+	"time-untill": "ರವರೆಗೆ",
+	"timeframe": "ಕಾಲಾವಧಿ",
+	"type": "ಮಾದರಿ",
+	"typeEdit": "ಸಂಪಾದನೆಗಳು",
+	"typeNew": "ಹೊಸ ಪುಟಗಳು"
 }

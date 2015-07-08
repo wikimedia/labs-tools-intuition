@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Sujiniku"
 		]
 	},
 	"tool_ec": "編集カウンター",
@@ -20,6 +21,7 @@
 	"tool_autoedits_desc": "既知のツールによる自動編集",
 	"tool_rangecontribs_desc": "IP 範囲、複数の IP、利用者の投稿記録を取得",
 	"tool_rfa_desc": "Requests for Adminship / Bureaucratship ページの分析",
+	"tool_rfap_desc": "どうやって利用者が投票したのか?",
 	"tool_autoblock_desc": "自動ブロックされた利用者を確認",
 	"tool_adminstats_desc": "管理者の操作の統計を表示",
 	"highreplag": "警告: 複製の遅延が大きいため、$1前以降の変更内容が表示されていないおそれがあります。",
@@ -159,6 +161,7 @@
 	"rc_usage_2": "ボックスに IP アドレスの一覧を、改行または | で区切って入力します",
 	"rc_usage_3": "ボックスに利用者の一覧を、改行または | で区切って入力します",
 	"no_valid_cidr_range": "有効な CIDR 範囲ではありません",
+	"ip_list": "IPリスト",
 	"ip_start": "開始 IP アドレス",
 	"ip_end": "終了 IP アドレス",
 	"ip_number": "IP アドレス数",

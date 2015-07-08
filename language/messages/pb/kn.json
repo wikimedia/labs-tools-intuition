@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nayvik"
+			"Nayvik",
+			"Ananth subray"
 		]
 	},
 	"pb-about-pb-navi": "ನಮ್ಮ ಬಗ್ಗೆ",
@@ -19,6 +20,8 @@
 	"pb-reconfirmed": "ಮರುದೃಡಪಡಿಸಲಾಗಿದೆಯೆ?",
 	"pb-user": "ಬಳಕೆದಾರ",
 	"pb-user-link-title": "$1 ಬಳಕೆದಾರರ ವಿವರಗಳು",
+	"pb-user-heading": "ಮಾಹಿತಿಯನ್ನು<a href=\"$2\" title=\"User page of $1\">$1</a>",
+	"pb-user-title": "ಮಹಿತಿಯನ್ನು  $1",
 	"pb-users-navi": "ಬಳಕೆದಾರರು",
 	"pb-users-title": "ಭಾಗವಹಿಸುವವರ ಪಟ್ಟಿ"
 }

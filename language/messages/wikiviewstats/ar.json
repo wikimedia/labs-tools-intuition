@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Test Create account"
+			"Test Create account",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
-	"help": "المساعدة"
+	"help": "المساعدة",
+	"all": "الكل",
+	"discussion": "نقاش",
+	"numPageWatchers": "عدد مراقبي الصفحة",
+	"linkStats": "وصلة لإحصاءات الصفحة"
 }

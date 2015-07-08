@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ex13"
+			"Ex13",
+			"Teoo3"
 		]
 	},
 	"title": "SVG Prevoditelj",
@@ -18,7 +19,7 @@
 	"th-username": "Suradničko ime",
 	"th-password": "Lozinka",
 	"th-method": "Način",
-	"option-oauth": "TUSC (automatsko postavljanje)",
+	"option-oauth": "OAuth (automatski prijenos)",
 	"option-manual": "Ručno postavljanje",
 	"preview": "Pregled",
 	"translate": "Prevedi",

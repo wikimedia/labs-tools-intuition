@@ -3,7 +3,8 @@
 		"authors": [
 			"Fatemi127",
 			"Pouyana",
-			"Reza1615"
+			"Reza1615",
+			"Leyth"
 		]
 	},
 	"title": "تغییرات اخیر در زمان واقعی",
@@ -34,7 +35,7 @@
 	"select-placeholder-none": "(هیچ)",
 	"showAnonOnly": "فقط کاربران گمنام",
 	"showUnpatrolledOnly": "فقط گشت‌نخورده‌ها",
-	"skippededit": "ویرایش‌های رد شده",
+	"skippededit": "ویرایش‌های از قلم انداخته شده",
 	"tag": "برچسب",
 	"time-from": "از",
 	"time-untill": "تا",

@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Claw eg"
+			"Claw eg",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"select-placeholder-none": "(لا شيء)",
-	"tag": "وسم"
+	"showAnonOnly": "المجهولون فقط",
+	"tag": "وسم",
+	"typeEdit": "التعديلات",
+	"typeNew": "الصفحات الجديدة"
 }

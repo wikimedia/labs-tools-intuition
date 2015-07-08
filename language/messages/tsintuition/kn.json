@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"M G Harish",
-			"Nayvik"
+			"Nayvik",
+			"Ananth subray"
 		]
 	},
 	"fullname": "ಉಪಕರಣಗಳ  ಅಂತರ್ರಾಷ್ಟ್ರೀಕರಣ",
 	"current-settings": "ಈಗಿನ ವ್ಯವಸ್ಥೆಗಳು",
-	"current-language": "ಈಗ ಆಯ್ದುಕೊಂಡಿರುವ ಭಾಷೆ",
+	"current-language": "ಭಾಷೆಯ ಆಯ್ಕೆ",
 	"settings-legend": "ವ್ಯವಸ್ಥೆಗಳು",
 	"choose-language": "ಭಾಷೆ ಆಯ್ದುಕೊಳ್ಳಿ",
 	"clear-cookies": "ಕುಕೀಗಳನ್ನು ಅಳಿಸಿ",

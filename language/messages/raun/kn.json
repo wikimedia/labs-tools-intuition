@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Nayvik",
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Ananth subray"
 		]
 	},
 	"close": "ಮುಚ್ಚಿ",
 	"help": "ಸಹಾಯ",
 	"filter": "ಶೋಧಕ",
 	"settings": "ವ್ಯವಸ್ಥೆಗಳು",
+	"fork": "ಮೂಲ ಕೋಡ್",
 	"stat": "ಅಂಕಿ ಅಂಶಗಳು",
 	"settings_tool": "ಉಪಕರಣ",
 	"language": "ಭಾಷೆ",
@@ -23,11 +25,14 @@
 	"settings_redirects": "ಪುನರ್ನಿರ್ದೇಶನ ಪುಟಗಳು",
 	"settings_new_pages": "ಹೊಸ ಪುಟಗಳು",
 	"settings_editor_edits": "ಚಿಕ್ಕ ಸಂಪಾದನೆ",
+	"settings_admin_edits": "ನಿರ್ವಾಹಕರ ಸಂಪಾದನೆಗಳು",
 	"settings_other_edits": "ಇತರ ಸಂಪಾದನೆಗಳು",
 	"stat_articles": "ಲೇಖನ ಪುಟ",
 	"stat_pages": "ಪುಟಗಳು",
 	"stat_files": "ಅಪ್ಲೋಡ್ ಆಗಿರುವ ಫೈಲುಗಳು",
 	"stat_edits": "ಪುಟದ ಸಂಪಾದನೆಗಳು",
+	"stat_depth": "ಆಳ",
+	"stat_users": "ನೊಂದಾಯಿತ ಬಳಕೆದಾರರು",
 	"stat_active_users": "ಸಕ್ರಿಯ ಬಳಕೆದಾರರು",
 	"stat_admins": "ನಿರ್ವಾಹಕರು",
 	"separator_thousands": ",",
@@ -41,6 +46,8 @@
 	"redirect": "ಪುನರ್ನಿರ್ದೇಶನಗಳು",
 	"bot": "ಬಾಟ್‍",
 	"editor": "ಸಂಪಾದಕ",
+	"admin": "ನಿವಾ೯ಹಕ",
+	"help_legend": "ದಂತಕಥೆ",
 	"color": "ಬಣ್ಣ",
 	"about": "ಕುರಿತು",
 	"information": "ಮಾಹಿತಿ",

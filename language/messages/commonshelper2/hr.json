@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ex13"
+			"Ex13",
+			"Teoo3"
 		]
 	},
 	"attention": "Pažnja",
@@ -18,7 +19,7 @@
 	"categories": "Kategorije",
 	"remove_cats": "Ukloni postojeće kategorije",
 	"use_checkusage": "rabite $1CommonSense$2 za prijedlog novih kategorija",
-	"use_tusc": "Rabite $1TUSC$2 za izravan prijenos datoteka",
+	"use_tusc": "Koristite $1TUSC$2 za provjeru i izravan prijenos datoteke",
 	"tusc_user": "TUSC suradničko ime",
 	"tusc_pass": "Lozinka za TUSC",
 	"do_it": "Učini",
@@ -27,13 +28,13 @@
 	"error_on_commons": "Izvorna datoteka je već na $1.",
 	"error_file_exists": "Datoteka već postoji na $3 kao \"$1$4$2\"!",
 	"error_diff_exists": "Drugačija odredišna datoteka postoji na navedenom wikiju pod istim imenom!",
-	"error_no_meta": "Metapodaci nisu pronađeni na izvornom wikiju. $1Poveznica$2",
-	"error_meta_no_good": "Metapodaci: nisu pronađeni dobri predlošci! $1Poveznica$2",
-	"error_meta_bad": "Metapodaci: pronađen loš predložak! $1Poveznica$2",
+	"error_no_meta": "Metapodaci nisu pronađeni na izvornom wikiju. $1Molimo dodajte/ažurirajte metapodatke projekta$2",
+	"error_meta_no_good": "Metapodaci: Nisu pronađeni dobri predlošci! $1Molimo dodajte/ažurirajte metapodatke projekta$2",
+	"error_meta_bad": "Metapodaci: Pronađen loš predložak! $1Molimo dodajte/ažurirajte metapodatke projekta$2",
 	"original_wikitext": "Izvorni wiki tekst",
 	"new_wikitext": "Novi wiki tekst",
 	"new_filename": "Novi naziv datoteke:",
-	"output_information": "Za ručno postavljanje, uredite gornji tekst (ukoliko je potrebno), spremite $1datoteka$2 na svoje računalo, zatim",
+	"output_information": "Za ručno postavljanje, uredite gornji tekst (ukoliko je potrebno), spremite $1datoteku$2 na svoje računalo, zatim ju $3prenosite$4.",
 	"upload_submit": "Postavi!",
 	"target_wiki": "odredišni wiki",
 	"error_bot_blocked": "Bot za postavljanje je blokiran na Zajedničkom poslužitelju.",
