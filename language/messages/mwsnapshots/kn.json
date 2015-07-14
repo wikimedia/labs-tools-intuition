@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Akoppad",
-			"M G Harish"
+			"M G Harish",
+			"Ananth subray"
 		]
 	},
 	"title-overview": "ಮುನ್ನೋಟಗಳು",
@@ -10,9 +11,10 @@
 	"title-updatelog": "ದಿನಚರಿ ನವೀಕರಿಸಿ",
 	"updatelog-intro": "ನವೀಕರಣವು ಪ್ರತಿ ಘಂಟೆ ಜಾರಿಗೊಳ್ಳುವಂತೆ ವ್ಯವಸ್ಥೆ ಮಾಡಲಾಗಿದೆ. ಕೆಳಗಿರುವುದು ಕೊನೆಯ ಬಾರಿ ಜಾರಿಗೊಂಡಾಗಿನ ಫಲಿತಾಂಶ.",
 	"updatelog-active": "ನವೀಕರಣವು ನಡೆಯುತ್ತಿದೆ. ಸಂಪೂರ್ಣ ದಿನಚರಿಗಾಗಿ ನಂತರ ಬನ್ನಿ.",
-	"download-button": "$1 ನಕಲಿಳಿಸಿ",
+	"download-button": "ಡೌನ್ಲೋಡ್ ಸ್ನ್ಯಾಪ್ಶಾಟ್",
 	"download-directlink": "ನೇರ ಕೊಂಡಿ",
-	"title-downloadpage": "ನಕಲಿಳಿಸಿ: $1",
+	"title-downloadpage": "ಡೌನ್ಲೋಡ್",
+	"title-downloadpage-repo": "ಡೌನ್ಲೋಡ್ $1",
 	"err-snapshotindex": "ಮುನ್ನೋಟಗಳ ಪರಿವಿಡಿ ತಾತ್ಕಾಲಿಕವಾಗಿ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಪ್ರಯತ್ನಿಸಿ.",
 	"err-invalid-repo": "ಅಪರಿಚಿತ ಸಂಪುಟ: \"$1\".",
 	"err-invalid-branch": "\"$2\" ಸಂಪುಟದಲ್ಲಿ ಅಪರಿಚಿತ ಶಾಖೆ: \"$1\"",

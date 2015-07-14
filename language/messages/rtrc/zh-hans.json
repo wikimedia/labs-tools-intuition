@@ -33,6 +33,7 @@
 	"nomatches": "找不到与您设置相关的结果",
 	"order": "顺序",
 	"permalink": "当前设置的固定链接",
+	"reload-interval": "间隔",
 	"select-placeholder-none": "（无）",
 	"showAnonOnly": "仅匿名用户",
 	"showUnpatrolledOnly": "仅未巡查编辑",

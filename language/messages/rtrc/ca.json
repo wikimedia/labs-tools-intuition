@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alvaro Vidal-Abarca"
+			"Alvaro Vidal-Abarca",
+			"Annamerida"
 		]
 	},
 	"title": "Canvis recents en temps real",
@@ -29,6 +30,7 @@
 	"nomatches": "No hi ha canvis rellevants per a la vostra configuració",
 	"order": "Ordenar",
 	"permalink": "Enllaç permanent a la configuració actual",
+	"reload-interval": "Interval",
 	"select-placeholder-none": "(cap)",
 	"showAnonOnly": "només anònims",
 	"showUnpatrolledOnly": "només sense patrullar",

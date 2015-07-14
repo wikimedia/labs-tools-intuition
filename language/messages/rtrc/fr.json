@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Linedwell"
 		]
 	},
 	"title": "Modifications récentes en temps réel",
@@ -29,6 +30,7 @@
 	"nomatches": "Aucune modification pertinente de vos paramètres",
 	"order": "Ordre",
 	"permalink": "Lien permanent vers les paramètres actuels",
+	"reload-interval": "Intervalle",
 	"select-placeholder-none": "(aucun)",
 	"showAnonOnly": "Anonymes uniquement",
 	"showUnpatrolledOnly": "Non patrouillés uniquement",

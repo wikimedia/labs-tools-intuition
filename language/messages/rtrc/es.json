@@ -32,6 +32,7 @@
 	"nomatches": "No hay cambios relevantes para tu configuración",
 	"order": "Orden",
 	"permalink": "Enlace permanente a la configuración actual",
+	"reload-interval": "Intervalo",
 	"select-placeholder-none": "(ninguno)",
 	"showAnonOnly": "Solo anónimos",
 	"showUnpatrolledOnly": "Solo sin patrullar",

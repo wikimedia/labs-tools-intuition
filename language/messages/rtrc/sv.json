@@ -31,6 +31,7 @@
 	"nomatches": "Inga relevanta ändringar för dina inställningar",
 	"order": "Sortera",
 	"permalink": "Permanent länk till nuvarande inställningar",
+	"reload-interval": "Intervall",
 	"select-placeholder-none": "(ingen)",
 	"showAnonOnly": "Bara anonyma",
 	"showUnpatrolledOnly": "Bara opatrullerade",

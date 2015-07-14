@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"Sayma Jahan"
 		]
 	},
+	"title": "বাস্তব সময়ের সাম্প্রতিক পরিবর্তনসমূহ",
 	"apply": "প্রয়োগ",
 	"changelog": "নতুন কি",
-	"clear": "পরিস্কার",
+	"clear": "পরিষ্কার",
 	"currentedit": "বর্তমানে নির্বাচিত সম্পাদনা",
 	"cvn-adder": "যোগকারী",
 	"cvn-adder-empty": "অজানা",
@@ -22,11 +24,13 @@
 	"mypatrollog": "আমার টহল লগ",
 	"namespace": "নামস্থান",
 	"order": "ক্রম",
+	"reload-interval": "বিরতি",
 	"select-placeholder-none": "(কিছু না)",
 	"showAnonOnly": "শুধুমাত্র নামহীন",
+	"showUnpatrolledOnly": "শুধুমাত্র অ-টহলকৃত",
 	"skippededit": "এড়ানো সম্পাদনা",
 	"tag": "ট্যাগ",
-	"time-from": "থেকে:",
+	"time-from": "থেকে",
 	"time-untill": "পর্যন্ত",
 	"type": "ধরন",
 	"typeEdit": "সম্পাদনা",

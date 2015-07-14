@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Yona b",
-			"תומר ט"
+			"תומר ט",
+			"Amire80"
 		]
 	},
 	"title": "שינויים אחרונים בזמן אמת",
@@ -30,6 +31,7 @@
 	"nomatches": "אין שינויים רלוונטיים להגדרות שלך",
 	"order": "סדר",
 	"permalink": "קישור קבוע להגדרות הנוכחיות",
+	"reload-interval": "מרווח",
 	"select-placeholder-none": "(כלום)",
 	"showAnonOnly": "משתמשים אנונימיים בלבד",
 	"showUnpatrolledOnly": "לא במעקב בלבד",

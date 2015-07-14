@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"limit": "Ograničenje",
 	"page": "Stranica",
 	"update": "Ažuriraj",
 	"tools-delete": "obriši",
-	"tools-subject": "tema"
+	"tools-subject": "tema",
+	"tools-hist": "Historija"
 }

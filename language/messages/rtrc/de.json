@@ -29,6 +29,7 @@
 	"nomatches": "Es sind keine relevanten Änderungen für deine Einstellungen vorhanden",
 	"order": "Reihenfolge",
 	"permalink": "Permanentlink auf die aktuellen Einstellungen",
+	"reload-interval": "Intervall",
 	"select-placeholder-none": "(keine)",
 	"showAnonOnly": "Nur anonyme",
 	"showUnpatrolledOnly": "Nur unkontrollierte",

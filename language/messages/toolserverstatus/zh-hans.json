@@ -19,5 +19,5 @@
 	"toolserver-status-short-down": "$1: 停止工作",
 	"toolserver-status-short-erro": "$1：错误",
 	"toolserver-status-short-unknown": "$1: 未知",
-	"toolserver-status-short-missing": "$1: 丢失"
+	"toolserver-status-short-missing": "$1：丢失"
 }
