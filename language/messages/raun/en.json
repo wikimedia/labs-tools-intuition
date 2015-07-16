@@ -22,6 +22,7 @@
 	"settings_editor_edits": "Editor edits",
 	"settings_admin_edits": "Admin edits",
 	"settings_other_edits": "Other edits",
+	"settings_more_entries": "Don't automatically show new entries",
 	"time_utc": "Time, in UTC",
 	"stat_articles": "Content pages",
 	"stat_pages": "Pages",
@@ -50,8 +51,9 @@
 	"help_p1": "Raun is a tool to patrol the recent changes of Wikimedia Foundation Project wikis in real time. Raun will load the recent changes periodically and show it in front of you automatically.",
 	"help_p2": "You can pause this tool by clicking \"Pause\". And after that, you can run it again by clicking \"Run!\".",
 	"help_p3": "You can filter the edits you want to see under \"Filter\", and change the wiki project or language, or the locale of this tool under \"Settings\".",
-	"help_p4": "Rows with grey text colour means there are other newer edit(s) on that page.",
+	"help_p4": "Edits on same page are combined into one entry. If the project is supported by ORES, it will display ORES score for detecting vandalism and has pink background for entries of high condifence.",
 	"help_legend": "Legend:",
+	"ores_score": "ORES score",
 	"color": "Colour",
 	"ns": "Namespace",
 	"ns0": "Article",
@@ -77,7 +79,8 @@
 	"about_cookie": "This site uses cookies. Data stored by the cookie will be deleted automatically if you don't visit this tool in 30 days.",
 	"information": "Information",
 	"credit": "Credit",
-	"about_license": "Otherwise stated, this project source code is licensed under MIT License.",
+	"about_license": "Unless otherwise stated, this project source code is licensed under MIT License.",
 	"about_github": "Source code is available on $1",
-	"send_feedback": "Send feedback"
+	"send_feedback": "Send feedback",
+	"more_entries": "View $1 new entries"
 }
