@@ -80,5 +80,6 @@
 	"credit": "Kredit",
 	"about_license": "Di luar lisensi kode dan ide yang telah disebutkan, kode proyek ini dilisensikan dengan lisensi MIT",
 	"about_github": "Kode tersedia di $1",
-	"send_feedback": "Kirim umpan balik"
+	"send_feedback": "Kirim umpan balik",
+	"more_entries": "Lihat $1 entri baru"
 }

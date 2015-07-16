@@ -71,5 +71,6 @@
 	"credit": "{{Identical|Credit}}\n\nIt is for giving attribution for things (e.g. jQuery) that are used inside the tools.",
 	"about_license": "License of the project; \"MIT License\" is the name of the license",
 	"about_github": "Availability of source code. Parameters:\n* $1 - a link pointing to [http://github.com/kenrick95/Raun github.com/kenrick95/Raun]",
-	"send_feedback": "Text displayed at the link for sending feedback.\n{{Identical|Send feedback}}"
+	"send_feedback": "Text displayed at the link for sending feedback.\n{{Identical|Send feedback}}",
+	"more_entries": "$1 - arbitary number of new entry/entries."
 }
