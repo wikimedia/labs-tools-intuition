@@ -37,7 +37,7 @@
 	"overall": "종합",
 	"users": "{{PLURAL: $1|사용자}}",
 	"discussion": "토론",
-	"portal": "들머리",
+	"portal": "포털",
 	"project": "프로젝트",
 	"category": "분류",
 	"template": "틀",

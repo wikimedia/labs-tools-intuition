@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"title": "Liaison des modèles et vérification d’inclusion",
-	"description": "Vérifie et signale quels articles qui incluent un modèle ne sont pas liés depuis le modèle, et quels articles qui sont liés depuis un modèle ne l’incluent pas.",
+	"description": "Vérifie et signale parmis les articles qui transcluent un modèle ceux qui ne sont pas liés à ce modèle, et quels articles sont liés à un modèle mais ne le transcluent pas.",
 	"form-label-language": "Langue :",
 	"form-label-template": "Nom du modèle :",
 	"form-label-template2": "(espace de noms compris)",

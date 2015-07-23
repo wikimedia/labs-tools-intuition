@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Bultro"
+			"Bultro",
+			"Beta16"
 		]
 	},
 	"title": "Controllo collegamenti e inclusione dei template",
-	"description": "Controlla ed elenca quali voci che includono un certo template di navigazione non sono puntate da collegamenti nel template stesso, e quali voci sono puntate da collegamenti nel template ma non lo includono.",
+	"description": "Controlla ed elenca quali voci che includono un certo template non sono puntate da collegamenti nel template stesso, e quali voci che sono puntate da collegamenti nel template non lo includono.",
 	"form-label-language": "Lingua:",
 	"form-label-template": "Nome template:",
 	"form-label-template2": "(namespace compreso)",

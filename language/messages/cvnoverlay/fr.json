@@ -8,7 +8,6 @@
 	"adder-empty": "Inconnu",
 	"expiry": "Expiration",
 	"globalwatched": "Surveillé globalement",
-	"lastupdate-db": "Dernière mise à jour : $1",
 	"reason": "Motif",
 	"reason-empty": "Aucun motif trouvé"
 }

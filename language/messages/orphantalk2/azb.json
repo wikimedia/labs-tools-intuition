@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mousa"
+			"Mousa",
+			"Koroğlu"
 		]
 	},
 	"title": "یئتیم‌دانیشیق۲",
@@ -9,7 +10,7 @@
 	"hideredirects": "یول‌لاندیرمالاری گیزلت",
 	"hidesubpages": "آلت‌صحیفه‌لری گیزلت",
 	"limit": "سینیر",
-	"page": "صحیفه",
+	"page": "صفحه",
 	"output": "چیختی",
 	"update": "گونجل‌له",
 	"tools-delete": "سیل",

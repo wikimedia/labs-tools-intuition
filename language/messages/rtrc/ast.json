@@ -29,6 +29,7 @@
 	"nomatches": "Nun hai cambios cola so configuración",
 	"order": "Orde",
 	"permalink": "Enllaz permanente a la configuración actual",
+	"reload-interval": "Intervalu",
 	"select-placeholder-none": "(nengún)",
 	"showAnonOnly": "Namái anónimos",
 	"showUnpatrolledOnly": "Namái ensin supervisar",

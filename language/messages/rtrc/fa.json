@@ -32,6 +32,7 @@
 	"nomatches": "هیچ تغییر مربوطه برای تنظیماتتان وجود ندارد",
 	"order": "مرتب‌سازی",
 	"permalink": "پیوند ثابت به تنظیمات کنونی",
+	"reload-interval": "فاصله زمانی",
 	"select-placeholder-none": "(هیچ)",
 	"showAnonOnly": "فقط کاربران گمنام",
 	"showUnpatrolledOnly": "فقط گشت‌نخورده‌ها",

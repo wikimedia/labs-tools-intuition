@@ -30,6 +30,7 @@
 	"nomatches": "Nessuna modifica rilevante per le tue impostazioni",
 	"order": "Ordina",
 	"permalink": "Link permanente alle impostazioni attuali",
+	"reload-interval": "Intervallo",
 	"select-placeholder-none": "(nessuno)",
 	"showAnonOnly": "Solo anonimi",
 	"showUnpatrolledOnly": "Solo non verificate",

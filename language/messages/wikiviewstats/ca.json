@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vriullop"
+			"Vriullop",
+			"F3RaN"
 		]
 	},
 	"records": "registres",
@@ -128,6 +129,7 @@
 	"numPageWatchers": "Nombre de seguidors de la pàgina",
 	"linkStats": "Enllaç a estadístiques de la pàgina",
 	"linkArticle": "Enllaç a l'article wiki",
-	"authorMostEdits": "Autor amb més edicions. En la Viquipèdia en alemany: autor amb més text",
+	"authorMostEdits": "Autor amb més edicions. A la Viquipèdia en alemany: autor amb major quota de text",
+	"totalShare": "Quota total",
 	"statsEntry": "$1 - Estadístiques de visites i popularitat de pàgines sobre les 100.000 principals de tots els wikis de Wikimedia (d'avui, per mes i períodes personalitzats). Funcionalitats addicionals: cerca amb comodins, estadístiques sobre 24 hores, favorits personals, totals globals per projecte, suport de pàgines de desambiguació i elements de Wikidata. Actualitzacions cada hora."
 }

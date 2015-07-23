@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"SMP"
+			"SMP",
+			"F3RaN"
 		]
 	},
-	"title": "OrphanTalk2",
+	"title": "OrphanTalk",
+	"description": "Trobar pàgines de discussió orfes.",
 	"label-wiki": "Viqui",
 	"select-wiki-first": "(primer seleccioneu un wiki)",
 	"hideredirects": "Amaga redireccions",
@@ -22,7 +24,7 @@
 	"tools-hist": "Mostra l’historial",
 	"tools-curr": "Últim canvi",
 	"tools-globalusage": "Ús del fitxer",
-	"deletesummary": "Neteja de pàgines de discussió òrfenes via $1",
+	"deletesummary": "$1: Pàgina de discussió orfe",
 	"noresults": "No s'ha trobat en aquest wiki cap pàgina de discussió òrfena en aquest espai de noms que correspongui amb la vostra configuració.",
 	"resultslimited": "Els resultats es limiten a $1 pàgines."
 }

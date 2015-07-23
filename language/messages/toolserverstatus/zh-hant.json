@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Simon Shek"
+			"Simon Shek",
+			"LNDDYL"
 		]
 	},
 	"toolserver-status-ok": "數據庫集群沒有任何問題$1 $2",
-	"toolserver-status-info": "集群$1用戶通知：$2",
-	"toolserver-status-warn": "集群$1用戶警告：$2",
+	"toolserver-status-info": "集群 $1 使用者通知：$2",
+	"toolserver-status-warn": "叢集 $1 使用者警告：$2",
 	"toolserver-status-down": "數據庫集群$1已被暫時關閉。$2",
 	"toolserver-status-erro": "數據庫集群$1已關閉。$2",
 	"toolserver-status-unknown": "集群$1狀態未知",

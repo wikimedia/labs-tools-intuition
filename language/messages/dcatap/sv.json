@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": ["Lokal_Profil"]
+		"authors": [
+			"Lokal_Profil"
+		]
 	},
 	"dataset-live-title": "Direkt åtkomst",
 	"dataset-live-description": "The aktuella versionen av datan, inkluderande objekt och egenskaper. Endast icke-utfasade format listas för distributionerna.",

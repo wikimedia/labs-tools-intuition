@@ -31,6 +31,7 @@
 	"nomatches": "Er zijn geen relevante wijzigingen voor uw instellingen",
 	"order": "Volgorde",
 	"permalink": "Permalink naar huidige instellingen",
+	"reload-interval": "Interval",
 	"select-placeholder-none": "(geen)",
 	"showAnonOnly": "Alleen anoniemen",
 	"showUnpatrolledOnly": "Alleen ongecontroleerd",

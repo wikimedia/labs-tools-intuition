@@ -6,7 +6,8 @@
 			"LNDDYL",
 			"Liuxinyu970226",
 			"TianyinLee",
-			"はなよめ"
+			"はなよめ",
+			"Zhxy 519"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -125,8 +126,8 @@
 	"approve": "核准",
 	"unapprove": "未核准",
 	"patrol": "巡查",
-	"block": "封鎖",
-	"unblock": "解除封鎖",
+	"block": "封禁",
+	"unblock": "解除封禁",
 	"protect": "保護",
 	"unprotect": "解除保護",
 	"delete": "刪除",

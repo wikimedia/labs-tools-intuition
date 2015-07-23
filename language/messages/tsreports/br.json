@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Y-M D"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Cheñch yezh / dibaboù</a>",
@@ -11,7 +12,7 @@
 	"category_articles": "Pajennoù",
 	"category_images": "Skeudennoù",
 	"category_miscellaneous": "A bep seurt",
-	"category_wikidata": "WikiData",
+	"category_wikidata": "Wikiroadennoù",
 	"select_wiki_title": "Dibab ur wiki",
 	"select_wiki_next": "War-lerc'h →",
 	"select_report_title": "Dibabit un danevell da seveniñ e %(wiki)s",

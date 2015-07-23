@@ -9,7 +9,6 @@
 	"adder-empty": "未知",
 	"expiry": "时满",
 	"globalwatched": "全域监视",
-	"lastupdate-db": "最后更新：$1",
 	"reason": "原因",
 	"reason-empty": "没有找到任何理由"
 }

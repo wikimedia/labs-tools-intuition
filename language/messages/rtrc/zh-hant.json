@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Cwlin0416"
 		]
 	},
 	"apply": "套用",
@@ -12,5 +13,7 @@
 	"limit": "限制",
 	"months": "1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月",
 	"namespace": "命名空間",
+	"reload-interval": "時間間隔",
+	"type": "類型",
 	"typeNew": "新頁面"
 }

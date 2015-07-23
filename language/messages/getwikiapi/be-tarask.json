@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
+	"description": "Мэтазьвесткі пра вікіпраекты Вікімэдыя.",
 	"formats-heading": "Фарматы вываду",
 	"input": "Увод",
 	"label-wikiids": "Ідэнтыфікатары вікі",
