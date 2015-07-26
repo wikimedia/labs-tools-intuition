@@ -31,6 +31,7 @@
 	"settings_editor_edits": "Edits made by users with Editor rights",
 	"settings_admin_edits": "Edits made by users with Administrator or Sysop rights",
 	"settings_other_edits": "Other edits not in above filters",
+    "settings_more_entries": "At Settings > Tool. If option is checked, tool will not automatically show new entries",
 	"time_utc": "Used as tooltip for the Clock icon.\n\nThe icon is followed by time and date.",
 	"stat_articles": "Number of Content pages.\n{{Identical|Content page}}",
 	"stat_pages": "Number of Pages.\n{{Identical|Page}}",
