@@ -22,7 +22,7 @@
 	"settings_editor_edits": "Editor edits",
 	"settings_admin_edits": "Admin edits",
 	"settings_other_edits": "Other edits",
-    "settings_more_entries": "Don't automatically show new entries",
+	"settings_more_entries": "Don't automatically show new entries",
 	"time_utc": "Time, in UTC",
 	"stat_articles": "Content pages",
 	"stat_pages": "Pages",
