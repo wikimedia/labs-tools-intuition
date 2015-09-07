@@ -6,7 +6,7 @@ require_once 'demoBase.php';
 /* Demonstration */
 
 // 1) Init
-$I18N = new Intuition( 'general' /* name of textdomain here */ );
+$I18N = new Intuition( 'general' );
 
 // 2) Do it
 
@@ -53,12 +53,13 @@ var_dump(
 );
 
 // GetAcceptableLanguages
+$acceptLang = isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : '';
 echo "<br/>getAcceptableLanguages: (default: \$_SERVER['HTTP_ACCEPT_LANGUAGE']: " .
-	htmlspecialchars( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) .
+	htmlspecialchars( $acceptLang ) .
 	"):<br/>";
 var_dump(
 
-	IntuitionUtil::getAcceptableLanguages( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )
+	IntuitionUtil::getAcceptableLanguages( $acceptLang )
 
 );
 

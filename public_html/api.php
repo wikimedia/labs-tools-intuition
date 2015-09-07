@@ -12,18 +12,13 @@
  * -------------------------------------------------
  */
 
-// Load BaseTool
-$initPath = dirname( __DIR__ ) . '/libs/basetool';
-require_once $initPath . '/InitTool.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-// Load Intuition
-require_once dirname( __DIR__ ) . '/ToolStart.php';
-
-// Initialize Intuition
 $I18N = new Intuition( array(
-	'domain' => 'TsIntuition',
+	'domain' => 'tsintuition',
 	'mode' => 'dashboard',
 ) );
+require_once __DIR__ . '/config.php';
 
 /**
  * Request

@@ -14,14 +14,13 @@
  * -------------------------------------------------
  */
 
-// BaseTool & Localization
-require_once __DIR__ . '/../libs/basetool/InitTool.php';
-require_once __DIR__ . '/../ToolStart.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 $I18N = new Intuition( array(
 	'domain' => 'tsintuition',
 	'mode' => 'dashboard',
 ) );
+require_once __DIR__ . '/config.php';
 
 
 // Initialize BaseTool

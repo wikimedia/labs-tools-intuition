@@ -1,7 +1,7 @@
 # Intuition
 public_html/logs
 scripts/*.out
-LocalConfig.php
+public_html/config.php
 
 # Dev
 /coverage

@@ -7,7 +7,7 @@ require_once 'demoBase.php';
 
 // 1) Init
 $options = array(
-	'domain' => 'tsintuition',
+	'domain' => 'demo',
 
 	// Hide any sign of an undefined message to the end-user
 	'suppressbrackets' => true,
