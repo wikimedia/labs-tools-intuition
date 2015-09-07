@@ -1,7 +1,7 @@
 <?php
 /* Config */
 require_once 'demoBase.php';
-$I18N = new Intuition( 'general' );
+$I18N = new Intuition( 'demo' );
 
 /* Demonstration */
 

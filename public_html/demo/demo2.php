@@ -7,7 +7,7 @@ require_once 'demoBase.php';
 
 // 1) Init
 $options = array(
-	'domain' => 'tsintuition',
+	'domain' => 'demo',
 );
 $I18N = new Intuition( $options );
 

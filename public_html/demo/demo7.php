@@ -6,7 +6,7 @@ require_once 'demoBase.php';
 /* Demonstration */
 
 // 1) Init
-$I18N = new Intuition( 'general' /* name of textdomain here */ );
+$I18N = new Intuition( 'demo' );
 
 // 2) Use language names
 

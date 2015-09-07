@@ -1,16 +1,28 @@
-[![Build Status](https://travis-ci.org/Krinkle/intuition.svg?branch=master)](https://travis-ci.org/Krinkle/intuition)
+[![Packagist](https://img.shields.io/packagist/v/Krinkle/intuition.svg?style=flat)](https://packagist.org/packages/Krinkle/intuition) [![Build Status](https://travis-ci.org/Krinkle/intuition.svg?branch=master)](https://travis-ci.org/Krinkle/intuition)
 
 # Intuition
 
+## Install
+
+It's recommended you use [Composer](https://getcomposer.org).
+
+* Run `composer require Krinkle/intuition`.
+* Include `vendor/autoload.php` in your program.
+
 ## Usage
 
-To use it in a tool, read the  [Usage documentation](https://github.com/Krinkle/intuition/wiki/Documentation#usage).
+To use it in a tool, read the [Usage documentation](https://github.com/Krinkle/intuition/wiki/Documentation#usage).
 
-## Quick start
+Example:
 
-```bash
-git clone --recursive https://github.com/Krinkle/intuition.git
-```
+<pre lang="php">
+require_once __DIR__ . '/vendor/autoload.php';
+
+$I18N = new Intuition( 'mytool' );
+$I18N->registerDomain( 'mytool', __DIR__ . '/messages' );
+
+echo $I18N->msg( 'example' );
+</pre>
 
 ## Getting involved
 

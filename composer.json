@@ -1,9 +1,21 @@
 {
+	"name": "krinkle/intuition",
+	"description": "Framework for localisation in PHP.",
+	"license": "CC-BY-3.0",
+	"require": {
+		"php": ">=5.5"
+	},
+	"autoload": {
+		"files": [
+			"ToolStart.php"
+		]
+	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.*",
 		"squizlabs/php_codesniffer": "2.1.*",
 		"phpunit/phpunit": "3.7.*",
-		"mediawiki/mediawiki-codesniffer": "0.1.0"
+		"mediawiki/mediawiki-codesniffer": "0.1.0",
+		"krinkle/toollabs-base": "0.7.0"
 	},
 	"scripts": {
 		"test": [
