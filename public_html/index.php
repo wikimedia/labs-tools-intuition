@@ -301,7 +301,8 @@ $about .= '<a href="https://translatewiki.net/wiki/Translating:Intuition">'
 	.	'</a>';
 $about .= ''
 	. '<div class="lead">' . $I18N->msg( 'usage' ) . '</div><ul>';
-foreach ( $I18N->getDomainInfos() as $domain => $domainInfo ) {
+$tools = json_decode( file_get_contents( __DIR__ . '/tools.json' ), /* assoc = */ true );
+foreach ( $tools as $domain => $domainInfo ) {
 	$title = $I18N->msg( 'title', $domain, /* fallback = */ $domain );
 	if ( isset( $domainInfo['url'] ) ) {
 		$about .= '<li><a href="'

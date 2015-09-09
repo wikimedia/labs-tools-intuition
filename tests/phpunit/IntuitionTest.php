@@ -194,6 +194,14 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->rawMsg( 'test-register', 'nl', 'foo' ),
 			'Message in custom domain (custom lang)'
 		);
+
+		$this->i18n->registerDomain( 'test-CASE-SENSE', __DIR__ . '/data/i18n' );
+
+		$this->assertEquals(
+			'Lorem ipsum',
+			$this->i18n->rawMsg( 'test-case-sense', 'en', 'lorem' ),
+			'Domain names are registered case-insensitive'
+		);
 	}
 
 	/**
@@ -391,13 +399,11 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::getDomainInfo
-	 * @covers Intuition::getDomainInfos
 	 * @covers Intuition::getDomainDir
 	 */
 	public function testGetDomainInfo() {
 		$this->assertEquals(
 			array(
-				'url' => '//tools.wmflabs.org/intuition/',
 				'dir' => dirname( dirname( __DIR__ ) ) . '/language/messages/tsintuition',
 			),
 			$this->i18n->getDomainInfo( 'tsintuition' )

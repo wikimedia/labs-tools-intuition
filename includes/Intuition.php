@@ -575,7 +575,7 @@ class Intuition {
 	 */
 	public function registerDomain( $domain, $dir, $info = array() ) {
 		$info['dir'] = $dir;
-		$this->domainInfos[ $domain ] = $info;
+		$this->domainInfos[ $this->normalizeDomain( $domain ) ] = $info;
 	}
 
 	/**
@@ -764,7 +764,6 @@ class Intuition {
 			if ( !isset( $domainInfo['dir'] ) ) {
 				return false;
 			}
-
 			$file = $domainInfo['dir'] . "/$lang.json";
 			$loaded = $this->loadMessageFile( $domain, $lang, $file );
 			if ( !$loaded ) {
@@ -812,64 +811,17 @@ class Intuition {
 		$domain = $this->normalizeDomain( $domain );
 		// Check cache and custom-registered domains
 		if ( !isset( $this->domainInfos[ $domain ] ) ) {
-			$dir = $this->getDomainDir( $domain );
-			if ( !$dir ) {
+			// Default to local domain
+			$dir = $this->localBaseDir . '/language/messages/' . $domain;
+			if ( !is_dir( $dir ) ) {
+				// Domain does not exist
 				return false;
 			}
-			// Fetch extra info for domains that have it
-			$domainInfos = $this->getDomainInfos();
-			$domainInfo = isset( $domainInfos[ $domain ] ) ? $domainInfos[ $domain ] : array();
-
-			$domainInfo['dir'] = $dir;
-			$this->domainInfos[ $domain ] = $domainInfo;
+			$this->domainInfos[ $domain ] = array(
+				'dir' => $dir,
+			);
 		}
 		return $this->domainInfos[ $domain ];
-	}
-
-	/**
-	 * Get the directory for domain's messages.
-	 *
-	 * Note: This does not take into account custom registered domains.
-	 * Use the "dir" property provided by "getDomainInfo()" instead.
-	 *
-	 * @param string $domain Name of the domain
-	 * @return string|bool File path to a directory containing message files,
-	 *  or false if no readable directory could be found.
-	 */
-	protected function getDomainDir( $domain ) {
-		$dir = $this->localBaseDir . '/language/messages/' . $domain;
-		if ( !is_dir( $dir ) ) {
-			// Domain does not exist
-			return false;
-		}
-
-		if ( !is_readable( $dir ) ) {
-			// Directory is unreadable
-			$this->errTrigger( "Unable to open messages directory for \"$domain\".",
-				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-
-		return $dir;
-	}
-
-	/**
-	 * Get all domain information blobs.
-	 *
-	 * @return bool|array
-	 */
-	public function getDomainInfos() {
-		static $domainInfos = null;
-		if ( $domainInfos === null ) {
-			$path = $this->localBaseDir . '/language/domainInfo.json';
-
-			if ( !is_file( $path ) || !is_readable( $path ) ) {
-				$this->errTrigger( 'Unable to open domainInfo.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-				return false;
-			}
-			$domainInfos = json_decode( file_get_contents( $path ), /* assoc = */ true );
-		}
-		return $domainInfos;
 	}
 
 	/* Cookie functions
