@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Fohanno",
-			"Y-M D"
+			"Y-M D",
+			"Gwenn-Ael"
 		]
 	},
 	"records": "enrolladennoù",
 	"list": "Roll",
 	"sample": "Skouer",
+	"pageviews": "pajennoù gwelet",
 	"24hstat": "Stadegoù 24 eur",
 	"pagetitle": "titl ar bajenn",
 	"page": "Pajenn",
@@ -38,9 +40,11 @@
 	"files": "{{PLURAL: $1|restr}}",
 	"specialPage": "Pajenn dibar",
 	"helpPage": "Pajenn skoazell",
+	"projectTotals": "holladoù ar raktres",
 	"wikiThanks": "Trugarez",
 	"log": "marilh",
 	"size": "ment",
+	"revisions": "Adweladennoù",
 	"first": "kentañ",
 	"last": "diwezhañ",
 	"total": "hollad",
@@ -53,6 +57,7 @@
 	"protection": "gwarez",
 	"complete": "echu",
 	"active": "oberiant",
+	"bureaucrats": "burevourien",
 	"sysops": "merourien",
 	"bots": "robotoù",
 	"articles": "pennadoù",
@@ -79,16 +84,23 @@
 	"furtherInformation": "Titouroù ouzhpenn",
 	"urlParameter": "Arventenn URL",
 	"hideHints": "kuzhat an titouroùigoù",
+	"colorScheme": "Brastres livioù",
 	"customBarColors": "livioù ar barrennoù personelaet",
+	"on": "gweredekaet",
+	"off": "Diweredekaet",
 	"submit": "Kas",
 	"save": "enrollañ",
 	"cancel": "nullañ",
+	"resetAndDelete": "adderaouekaat & dilemel toupinoù",
 	"autofilter": "sil emgefre",
 	"barchart": "grafik barrennek",
+	"linechart": "grafik enlinenn",
+	"linechart_filled": "grafik enlinenn leuniet",
 	"showRedir": "Diskouez an adkasoù",
 	"addToWorkList": "ouzhpennañ d'ar roll labour",
 	"removeFromWorklist": "Lemel eus ar roll labour",
 	"projectPages": "Pajennoù ar raktres",
 	"backToTop": "distreiñ da grec'h ar bajenn",
-	"winningArticles": "Pennadoù gounit"
+	"winningArticles": "Pennadoù gounit",
+	"linkArticle": "Liamm war-zu pennad ar wiki"
 }

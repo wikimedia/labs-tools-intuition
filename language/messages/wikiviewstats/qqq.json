@@ -5,7 +5,8 @@
 			"Lokal Profil",
 			"Robby",
 			"Shirayuki",
-			"Siebrand"
+			"Siebrand",
+			"Purodha"
 		]
 	},
 	"records": "data records\n{{Identical|Record}}",
@@ -129,7 +130,7 @@
 	"rankWorld": "Rank (world) across all Wikimedia wikis",
 	"pageViewCount": "Number of pageviews (non-unique)",
 	"winningArticles": "Winning articles",
-	"numPageWatchers": "Number of page watchers",
+	"numPageWatchers": "Number of page watchers of this single page.",
 	"linkStats": "Link to page statistics",
 	"linkArticle": "Link to wiki article",
 	"authorMostEdits": "Author with most edits. In German Wikpedia: Author with largest text share",
