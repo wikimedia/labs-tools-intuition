@@ -7,7 +7,7 @@ $I18N = new Intuition( 'demo' );
 
 echo $I18N->dashboardBacklink();
 echo $I18N->getFooterLine(); // defaults to TSINT_HELP_CURRENT
-echo $I18N->getFooterLine( 'orphantalk2' );
+echo $I18N->getFooterLine( 'orphantalk' );
 echo $I18N->getFooterLine( TSINT_HELP_NONE );
 echo $I18N->getFooterLine( TSINT_HELP_ALL );
 echo $I18N->getPromoBox( 32, TSINT_HELP_ALL );
