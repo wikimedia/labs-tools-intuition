@@ -824,6 +824,15 @@ class Intuition {
 		return $this->domainInfos[ $domain ];
 	}
 
+	/**
+	 * @param string $domain
+	 * @return bool
+	 */
+	protected function isLocalDomain( $domain ) {
+		$domain = $this->normalizeDomain( $domain );
+		return is_dir( $this->localBaseDir . '/language/messages/' . $domain );
+	}
+
 	/* Cookie functions
 	 * ------------------------------------------------- */
 
@@ -1017,33 +1026,36 @@ class Intuition {
 		);
 		$poweredHtml = $this->msg( 'bl-promo', $promoMsgOpts );
 
-		// Help translation
+		// "Help translation" link
+		$translateGroup = null;
 		if ( $helpTranslateDomain === TSINT_HELP_ALL ) {
-			$helpTranslateDomain = '0-all';
+			$translateGroup = 'tsint-0-all';
 			$twLinkText = $this->msg( 'help-translate-all', 'tsintuition' );
 
 		} elseif ( $helpTranslateDomain === TSINT_HELP_CURRENT ) {
-			$helpTranslateDomain = $this->getDomain();
+			$domain = $this->getDomain();
+			$translateGroup = $this->isLocalDomain( $domain ) ? "tsint-{$domain}" : "int-{$domain}";
 			$twLinkText = $this->msg( 'help-translate-tool', 'tsintuition' );
 
-		} else { // TSINT_HELP_NONE
+		} elseif ( $helpTranslateDomain !== TSINT_HELP_NONE ) {
+			// Custom domain
+			$domain = $this->normalizeDomain( $helpTranslateDomain );
+			$translateGroup = $this->isLocalDomain( $domain ) ? "tsint-{$domain}" : "int-{$domain}";
 			$twLinkText = $this->msg( 'help-translate-tool', 'tsintuition' );
 		}
 
 		$helpTranslateLink = '';
 
-		if ( is_string( $helpTranslateDomain ) ) {
-			$helpTranslateDomain = strtolower( $helpTranslateDomain );
-
-			// translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
+		if ( $translateGroup ) {
+			// https://translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
 			$twParams = array(
 				'title' => 'Special:Translate',
 				'language' => $this->getLang(),
-				'group' => "tsint-$helpTranslateDomain",
+				'group' => $translateGroup,
 			);
 			$twParams = http_build_query( $twParams );
 			$helpTranslateLink = '<small>(' . IntuitionUtil::tag( $twLinkText, 'a', array(
-				'href' => "//translatewiki.net/w/i.php?$twParams",
+				'href' => "https://translatewiki.net/w/i.php?$twParams",
 				'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' )
 			) ) . ')</small>';
 		}

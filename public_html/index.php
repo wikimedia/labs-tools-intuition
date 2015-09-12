@@ -20,7 +20,10 @@ $I18N = new Intuition( array(
 	'domain' => 'tsintuition',
 	'mode' => 'dashboard',
 ) );
-require_once __DIR__ . '/config.php';
+
+if ( file_exists( __DIR__ . '/config.php' ) ) {
+	require_once __DIR__ . '/config.php';
+};
 
 
 // Initialize BaseTool
