@@ -26,7 +26,7 @@ class Intuition {
 
 	public $localBaseDir;
 
-	public $version = '0.2.0';
+	public $version = '0.2.2';
 
 	// One of 'in-tool' or 'dashboard'
 	public $mode = null;
