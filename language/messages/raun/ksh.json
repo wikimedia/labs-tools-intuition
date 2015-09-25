@@ -20,12 +20,13 @@
 	"settings_wiki": "Wikki",
 	"settings_bot_edits": "Änderonge vun Bots",
 	"settings_anon_edits": "Änderonge vun Nahmeloose",
-	"settings_minor_edits": "Kein Minni-Änderonge",
+	"settings_minor_edits": "Klein Minni-Änderonge",
 	"settings_redirects": "Ömleidondssigge",
 	"settings_new_pages": "Neue Sigge",
 	"settings_editor_edits": "Änderonge vun nommaale Metmaacher",
 	"settings_admin_edits": "Änderonge vun Wiki_Kööbeße",
 	"settings_other_edits": "Alle andere Änderonge",
+	"settings_more_entries": "Donn neuje Enndrähsch nit automattesch aanzeije",
 	"time_utc": "De <i lang=\"en\" xml:lang=\"en\" title=\"Universal Time Controlled\">UTC</i> Zigg",
 	"stat_articles": "Sigge vum Enhalt",
 	"stat_pages": "Sigge",
@@ -58,10 +59,11 @@
 	"color": "Färv",
 	"about": "Övver",
 	"about_tool": "Raun es e Projramm, öm de neuste Änderonge en de Wikkimehdija Schtefftong iehr Wikkis en (beinah) dersällbe Zigg ze bewaache, woh se jemaat wähde. Et wood aanjerehsch vum $1, jemaat vum $2 un wood vum $3 en et Lävve jerohfe.",
-	"about_cookie": "Heh di ẞait bruch <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„Pläzje“\">Cookies</i>. Di fleeje automattesch us Dingem Brauser eruß, wann De 30 Dääsch heh nix mieh deihs.",
+	"about_cookie": "Heh di ẞait bruch <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„Pläzje“\">Cookies</i>. Di fleeje automattesch us Dingem Brauser eruß, wann De 30 Dääsch heh nix mih deihs.",
 	"information": "Enfomazjuhn",
 	"credit": "Aanerkennong för Beidrääsch",
 	"about_license": "Esu lang wi nix söns jesssad es, es der Quällkohd vun heh däm Projäk onger däm <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Massachusetts Institute of Technology\">MIT</i> singe Lezänz ze han.",
 	"about_github": "Der Quälltäx es ze han op $1",
-	"send_feedback": "En Rökmäldong jävve"
+	"send_feedback": "En Rökmäldong jävve",
+	"more_entries": "Belohr $1 neu Enndrähsch <!-- !!FUZY!! https://phabricator.wikimedia.org/T112467?workflow=create -->"
 }

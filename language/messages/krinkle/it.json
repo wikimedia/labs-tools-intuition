@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rippitippi"
+			"Rippitippi",
+			"Beta16"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(selezionare la wiki)",
 	"alws-group-mustused": "Le wiki più usate",
 	"alws-group-allaz": "Tutte le wiki in ordine alfabetico",

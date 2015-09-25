@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Otokoume"
 		]
 	},
 	"title": "Real-Time Recent Changes",
@@ -29,6 +30,7 @@
 	"nomatches": "設定内容に一致する変更はありません",
 	"order": "並び順",
 	"permalink": "現在の設定への固定リンク",
+	"reload-interval": "間隔",
 	"select-placeholder-none": "(なし)",
 	"showAnonOnly": "匿名利用者のみ",
 	"showUnpatrolledOnly": "未巡回のみ",

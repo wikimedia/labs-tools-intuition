@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Imperadeiro98"
+			"Imperadeiro98",
+			"Jkb8"
 		]
 	},
 	"close": "Fechar",
@@ -27,5 +28,6 @@
 	"help_p2": "Pode parar esta ferramenta clicando em \"Parar\". E depois disso, pode executá-la outra vez clicando em \"Executar!\".",
 	"color": "Cor",
 	"about": "Sobre",
+	"about_license": "A não ser que indique-se o contrário, o código fonte deste projeto está disponível conforme a licença MIT.",
 	"about_github": "O código-fonte está disponível em $1"
 }

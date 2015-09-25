@@ -27,6 +27,7 @@
 	"settings_editor_edits": "Modifiche di editori",
 	"settings_admin_edits": "Modifiche di amministratori",
 	"settings_other_edits": "Altre modifiche",
+	"settings_more_entries": "Non mostrare automaticamente le nuove voci",
 	"time_utc": "Ora, in UTC",
 	"stat_articles": "Pagine di contenuti",
 	"stat_pages": "Pagine",
@@ -63,7 +64,8 @@
 	"about_cookie": "Questo sito utilizza i cookie. I dati memorizzati dai cookie verranno eliminati automaticamente se non visitare questo strumento per 30 giorni.",
 	"information": "Informazioni",
 	"credit": "Crediti",
-	"about_license": "Eccetto dove diversamente indicato, il codice di questo progetto è rilasciato sotto licenza MIT.",
+	"about_license": "Se non diversamente indicato, il codice di questo progetto è rilasciato sotto licenza MIT.",
 	"about_github": "Il codice sorgente è disponibile su $1",
-	"send_feedback": "Invia commenti"
+	"send_feedback": "Invia commenti",
+	"more_entries": "Vedi $1 nuove voci"
 }
