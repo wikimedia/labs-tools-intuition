@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Silvonen"
+			"Silvonen",
+			"Pyscowicz"
 		]
 	},
 	"close": "Sulje",
@@ -11,7 +12,9 @@
 	"stat": "Tilastot",
 	"settings_tool": "Työkalu",
 	"language": "Kieli",
+	"project": "Projekti",
 	"save": "Tallenna",
+	"settings_show": "Näytä",
 	"settings_wiki": "Wiki",
 	"settings_redirects": "Ohjaussivut",
 	"settings_new_pages": "Uudet sivut",
@@ -21,6 +24,7 @@
 	"main_time_utc": "Aika (UTC)",
 	"main_page": "Sivu",
 	"main_user": "Käyttäjä",
+	"new": "uusi",
 	"color": "Väri",
 	"send_feedback": "Lähetä palautetta"
 }

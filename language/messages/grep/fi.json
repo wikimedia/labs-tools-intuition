@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Silvonen"
+			"Silvonen",
+			"Pyscowicz"
 		]
 	},
 	"results": "Tulokset",
 	"language-label": "Kieli",
-	"namespace-label": "Nimiavaruus"
+	"namespace-label": "Nimiavaruus",
+	"project-label": "Projekti"
 }

@@ -6,7 +6,15 @@
 	},
 	"pagetitle": "tlaīxtōcāitl",
 	"page": "Tlaīxtli",
+	"help": "tēpalēhuiliztli",
+	"today": "āxcān",
 	"language": "tlahtōlli",
+	"discussion": "Zānīlli",
 	"project": "Tlatequipanōlli",
+	"template": "Neīxcuītīlli",
+	"files": "{{PLURAL: $1|ihcuilōlli}}",
+	"helpPage": "Tēpalēhuiliztlaīxtli",
+	"pages": "tlaīxtli",
+	"namespaces": "tōcātlacāuhtli",
 	"projectPages": "Tlatequipanōllaīxtli"
 }

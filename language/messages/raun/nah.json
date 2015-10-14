@@ -4,9 +4,18 @@
 			"Taresi"
 		]
 	},
+	"help": "Tēpalēhuiliztli",
+	"filter": "Tlatzetzelōni",
+	"settings_tool": "Tequitīhuani",
+	"language": "Tlahtōlli",
+	"project": "Tlatequipanōlli",
 	"settings_wiki": "Huiqui",
 	"stat_pages": "Tlaīxtli",
 	"main_page": "Tlaīxtli",
+	"main_user": "Tequihuihqui",
+	"main_info": "Tlahtōlmelāhualiztli",
 	"new": "yancuic",
-	"minor": "tepitōn"
+	"minor": "tepitōn",
+	"about": "Ītechcopa",
+	"information": "Tlahtōlmelāhualiztli"
 }

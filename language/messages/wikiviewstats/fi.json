@@ -2,10 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Nike"
+			"Nike",
+			"Pyscowicz"
 		]
 	},
 	"sample": "Esimerkki",
+	"settings": "Asetukset",
+	"other_lang": "muut kielet",
 	"closedWikis": "suljetut wikit",
+	"language": "kieli",
+	"project": "Projekti",
+	"category": "Kategoria",
+	"template": "Malline",
+	"size": "koko",
+	"pages": "sivut",
 	"noJavaScript": "JavaScript ei ole käytössä"
 }
