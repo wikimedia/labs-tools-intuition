@@ -58,6 +58,7 @@
 	"help_p3": "Du kan filtrera de redigeringar du vill se under \"Filter\". Där kan du ändra vilket wiki-projekt eller språk av den här redskap under \"Inställningar\".",
 	"help_p4": "Rader med grå textfärg innebär att det finns en eller flera andra nyare redigeringar på den sidan.",
 	"help_legend": "Teckenförklaring:",
+	"ores_score": "ORES-poäng",
 	"color": "Färg",
 	"about": "Om",
 	"about_tool": "Raun är ett verktyg för att titta på de senaste ändringarna på Wikimedia Foundations projekt i (nära) realtid. Detta verktyg är inspirerad av $1, skapat av $2. Detta projekt har startats av $3.",

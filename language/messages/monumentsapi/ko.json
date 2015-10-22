@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Hwangjy9"
 		]
 	},
 	"search-title": "기념물 검색",
@@ -34,7 +35,7 @@
 	"db-field-st_municipality_pct": "시정촌 %",
 	"db-field-st_name": "이름",
 	"db-field-st_name_pct": "이름 %",
-	"db-field-st_total": "총 수",
+	"db-field-st_total": "총계",
 	"toolbox-label-searchtipps": "퍼지 검색은 %term 또는 term% 또는 %term% 사용",
 	"toolbox-meta-title": "위키 기념물을 사랑하다 도구모음",
 	"toolbox-main-title": "WLM 도구모음",
