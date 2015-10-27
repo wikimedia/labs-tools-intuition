@@ -24,6 +24,7 @@
 	"navtoggle-tooltip": "Toggle the sidebar",
 	"nomatches": "No relevant changes for your settings",
 	"order": "Order",
+	"ores-damaging-probability": "Damage probability: $1",
 	"permalink": "Permalink to current settings",
 	"reload-interval": "Interval",
 	"select-placeholder-none": "(none)",

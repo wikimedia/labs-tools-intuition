@@ -30,6 +30,7 @@
 	"navtoggle-tooltip": "Tooltip for the icon that toggles the MediaWiki sidebar",
 	"nomatches": "Placeholder text in place of the changes list when the query returned no results",
 	"order": "Section label for the sort order radio buttons.\n{{Identical|Order}}",
+	"ores-damaging-probability": "Tooltip displayed to indicate the chances this edit damaged the page (based on robot assessment from [https://meta.wikimedia.org/wiki/ORES ORES]).\n* $1 - Percentage",
 	"permalink": "Label of the permalink that will start RTRC with the current settings",
 	"reload-interval": "Label of the number input field that controls how often the application reloads the changes feed (in seconds).",
 	"select-placeholder-none": "Placeholder in a dropdown menu representing the blank option.\n{{Identical|None}}",
