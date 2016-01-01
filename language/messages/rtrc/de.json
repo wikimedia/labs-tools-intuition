@@ -28,6 +28,7 @@
 	"navtoggle-tooltip": "Seitenleiste feststellen",
 	"nomatches": "Es sind keine relevanten Änderungen für deine Einstellungen vorhanden",
 	"order": "Reihenfolge",
+	"ores-damaging-probability": "Beschädigungswahrscheinlichkeit: $1",
 	"permalink": "Permanentlink auf die aktuellen Einstellungen",
 	"reload-interval": "Intervall",
 	"select-placeholder-none": "(keine)",

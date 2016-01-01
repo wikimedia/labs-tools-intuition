@@ -30,6 +30,7 @@
 	"nomatches": "변경된 설정이 없습니다",
 	"order": "순서",
 	"permalink": "현재 설정에 대한 정적 링크",
+	"reload-interval": "간격",
 	"select-placeholder-none": "(없음)",
 	"showAnonOnly": "익명 편집만 보기",
 	"showUnpatrolledOnly": "검토되지 않은 편집만 보기",

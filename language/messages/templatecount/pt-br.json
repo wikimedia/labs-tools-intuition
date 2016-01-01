@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fúlvio"
+			"Fúlvio",
+			"Cainamarques"
 		]
 	},
 	"enter-details": "Inserir detalhes",
-	"introduction": "Digite o nome de uma predefinição (somente as Wikipédia, no momento) e clique em Ir. É tão simples como isso. Há algo da cache (recorde os resultados), mas está infelizmente fora do controle desta ferramenta e de seu proprietário.",
+	"introduction": "Digite o nome de uma predefinição (somente de Wikipédias no momento) e clique em Ir. Simples assim. Há o uso de cache (armazenamento prévio dos resultados), mas isto está infelizmente fora do controle desta ferramenta e de seu proprietário.",
 	"language-label": "Idioma",
-	"namespace-label": "Namespace",
-	"pagename-label": "Nome da página (sem o namespace)",
+	"namespace-label": "Domínio",
+	"pagename-label": "Nome da página (sem o domínio)",
 	"transclusion-count-label": "Número de transclusões",
 	"transclusion-count": "$1 transclusão(ões) encontrada(s).",
-	"error-suggestion": "Será que você escreveu mal o nome da página?",
+	"error-suggestion": "Talvez você enganou-se (ou utilizou maiúsculas incorretamente) na escrita da página?",
 	"time-label": "Tempo necessário para executar o comando"
 }

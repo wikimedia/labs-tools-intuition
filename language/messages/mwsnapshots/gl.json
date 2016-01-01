@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"title-overview": "Instantáneas",
@@ -9,9 +10,10 @@
 	"title-updatelog": "Rexistro de actualizacións",
 	"updatelog-intro": "A escritura de actualización está programada para executarse cada hora. A continuación está o resultado que mostrou a consola na última execución.",
 	"updatelog-active": "A escritura de actualización está executándose nestes intres. Volva máis tarde para ollar o rexistro completo.",
-	"download-button": "Descargar \"$1\"",
+	"download-button": "Descargar instantánea",
 	"download-directlink": "ligazón directa",
-	"title-downloadpage": "Descargar: $1",
+	"title-downloadpage": "Descargar",
+	"title-downloadpage-repo": "Descargar $1",
 	"err-snapshotindex": "O índice de instantáneas non está dispoñible temporalmente. Inténteo de novo máis tarde.",
 	"err-invalid-repo": "Repositorio descoñecido: \"$1\".",
 	"err-invalid-branch": "Ramificación descoñecida: \"$1\" no repositorio \"$2\".",

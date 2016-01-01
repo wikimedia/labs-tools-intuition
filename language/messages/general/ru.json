@@ -4,7 +4,8 @@
 			"Lvova",
 			"Okras",
 			"Platonides",
-			"Rave"
+			"Rave",
+			"Kaganer"
 		]
 	},
 	"hello": "Привет",
@@ -16,7 +17,7 @@
 	"form-submit": "Перейти",
 	"form-reset": "Очистить",
 	"years": "{{PLURAL: $1|год|года|лет}}",
-	"months": "{{PLURAL:$1|месяц|месяцев|месяца}}",
+	"months": "{{PLURAL:$1|месяц|месяца|месяцев}}",
 	"weeks": "{{PLURAL: $1|неделя|недели|недель}}",
 	"days": "{{PLURAL: $1|день|дня|дней}}",
 	"hours": "{{PLURAL: $1|час|часа|часов}}",

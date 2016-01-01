@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Basharh"
+			"Basharh",
+			"Mahir78"
 		]
 	},
+	"error-nothing": "மொழிபெயர்க்க ஒன்றுமில்லை.",
+	"error-notsvg": "SVG கோப்பில்லை.",
 	"begin-translation": "ܫܪܝ ܬܘܪܓܡܐ",
 	"th-original": "ܫܪܫܝܐ",
 	"th-translation": "ܬܘܪܓܡܐ",
@@ -13,6 +16,7 @@
 	"th-method": "ܫܒܝܠܐ",
 	"preview": "ܚܝܪܐ ܩܕܡܝܐ",
 	"translate": "ܬܪܓܡ",
+	"uploading": "ஏற்றுகிறது",
 	"preview-hide": "ܛܫܝ ܚܝܪܐ ܩܕܡܝܐ",
 	"preview-refresh": "ܦܪܓܝ ܚܝܪܐ ܩܕܡܝܐ"
 }

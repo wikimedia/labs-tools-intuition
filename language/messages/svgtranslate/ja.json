@@ -4,7 +4,8 @@
 			"Fryed-peach",
 			"Hmiyazaki",
 			"Schu",
-			"Shirayuki"
+			"Shirayuki",
+			"Otokoume"
 		]
 	},
 	"error-tryagain": "$1 再試行するにはブラウザーの戻るボタンを押してください。",
@@ -30,10 +31,11 @@
 	"uploading": "アップロード中",
 	"upload-complete": "アップロードが完了しました。画像は $1 にあります。",
 	"editdescriptionpage": "新しい説明ページを編集",
-	"disclaimer": "統計上の目的で、匿名のデータを非公開で収集します。If supplied, OAuth usernames will also be recorded to assist in the event of vandalism. パスワードを記録することは決してありません。",
+	"disclaimer": "統計上の目的で、匿名のデータを非公開で収集します。指定された場合、AOuth の利用者名も役立つように荒らし行為に記録されます。パスワードを記録することは決してありません。",
 	"author-complete": "著者の情報を記入してください",
 	"preview-hide": "プレビューを隠す",
 	"preview-refresh": "プレビューを更新",
 	"error-must-accept": "直接アップロードを続行するには、利用規約に同意する必要があります。",
-	"description-license": "説明とライセンスの選択"
+	"description-license": "説明とライセンスの選択",
+	"finalise": "最終的な詳細を策定"
 }

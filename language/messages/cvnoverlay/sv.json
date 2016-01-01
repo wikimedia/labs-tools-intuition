@@ -9,7 +9,6 @@
 	"adder-empty": "Okänd",
 	"expiry": "Utgången",
 	"globalwatched": "Globalt bevakad",
-	"lastupdate-db": "Senaste uppdatering: $1",
 	"reason": "Orsak",
 	"reason-empty": "Ingen orsak hittades"
 }

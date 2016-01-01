@@ -6,13 +6,15 @@
 			"Gloria sah",
 			"Luigipiccoli",
 			"Mario",
-			"FRacco"
+			"FRacco",
+			"Gianfranco"
 		]
 	},
 	"title_xtools": "Strumenti di X!",
 	"welcome": "Benvenuto agli strumenti di X!",
 	"million": "Incredibile. Assolutamente incredibile. Questo contatore delle modifiche è stato creato nel dicembre del 2008, e in meno di un anno e mezzo, ha accumulato oltre un milione di visite. Questo è stupefacente. Ringrazio tutti per il loro continuo supporto di questo strumento nel corso degli anni. Senza il vostro supporto, questo strumento non esisterebbe. Speriamo in un altro milione! --X! 14 maggio 2010",
 	"tool_ec": "Contatore di modifiche",
+	"tool_blame": "Segnalatore della voce",
 	"tool_articleinfo": "Cronologia della pagina",
 	"tool_pages": "Pagine create",
 	"tool_topedits": "Maggiori modifiche",

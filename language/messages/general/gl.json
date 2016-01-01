@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"dateformat": "%e de %B de %Y",
@@ -14,6 +15,7 @@
 	"form-submit": "Ir",
 	"form-reset": "Restablecer",
 	"years": "{{PLURAL: $1|ano|anos}}",
+	"months": "{{PLURAL: $1|mes|meses}}",
 	"weeks": "{{PLURAL: $1|semana|semanas}}",
 	"days": "{{PLURAL: $1|día|días}}",
 	"hours": "{{PLURAL: $1|hora|horas}}",

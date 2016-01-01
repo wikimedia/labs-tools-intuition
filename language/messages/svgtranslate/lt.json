@@ -1,24 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matasg"
+			"Matasg",
+			"Zygimantus"
 		]
 	},
 	"title": "SVG vertimas",
-	"error-tryagain": "$1 Paspauskite naršyklės perkrovimo mygtuką ir bandykite dar kartą.",
+	"error-tryagain": "$1 Paspauskite naršyklės perkrovimo mygtuką pabandyti iš naujo.",
 	"error-nothing": "Nėra, ko versti.",
 	"error-notsvg": "Tai nėra SVG failas.",
 	"error-unexpected": "Įvyko netikėta klaida.",
-	"error-notfound": "SVG failas negali būti gautas iš nurodyto adreso.",
+	"error-notfound": "SVG failas negali būti gautas iš nurodyto URL.",
 	"error-upload": "Įvyko klaida įkeliant.",
-	"begin-translation": "Pradėti vertimą",
+	"begin-translation": "Pradėti versti",
 	"th-original": "Originalas",
 	"th-translation": "Vertimas",
 	"th-language": "Kalba",
 	"th-username": "Vartotojo vardas",
 	"th-password": "Slaptažodis",
 	"th-method": "Metodas",
-	"option-oauth": "TUSC (automatinis įkėlimas)",
+	"option-oauth": "OAuth (automatinis įkėlimas)",
 	"option-manual": "Rankinis įkėlimas",
 	"preview": "Peržiūra",
 	"translate": "Versti",
@@ -31,5 +32,7 @@
 	"disclaimer": "Kai kurie anoniminiai duomenys bus privačiai renkami statistikos tikslais. Jei pateikėte, OAuth vardai taip pat bus registruojami dėl galimo vandalizmo. Slaptažodžiai niekada nebus įrašyti.",
 	"author-complete": "Prašome užpildyti autoriaus informaciją!",
 	"preview-hide": "Slėpti peržiūrą",
-	"preview-refresh": "Atnaujinti peržiūrą"
+	"preview-refresh": "Atnaujinti peržiūrą",
+	"description-license": "Pasirinkite aprašymą ir licenciją",
+	"finalise": "Užbaigti informaciją"
 }

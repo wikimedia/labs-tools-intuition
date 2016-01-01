@@ -8,6 +8,9 @@
 	"category": "Kategoria:",
 	"max-width": "Zabalera maximoa:",
 	"max-height": "Altuera maximoa:",
+	"invalid-width": "Zabalera okerra",
+	"invalid-height": "Altuera okerra",
+	"no-such-project": "Proiektu hori ez da existitzen",
 	"zip-failed": "Ezin izan da Zip-a sortu",
 	"download": "Jaitsi"
 }

@@ -4,8 +4,8 @@
 			"Purodha"
 		]
 	},
-	"title": "De Lengks un Oprohve vun ene Schablohn pröhve\n<!--\nhttps://translatewiki.net/wiki/Thread:Support/About_Intuition:Templatetransclusioncheck-title/ksh\n-->",
-	"description": "Pröhf wat för en Sigge di en Schablohn oprohfe en dä Schblohn nit verlengk sin, un wat för en Sigge, di vun ener Schablohn verlengk sin, di Schblohn ävver nit oprohfe, un bereesch doh drövver.",
+	"title": "Lengks un Oprohve vun ene Schablohn udder Schablohne pröhve",
+	"description": "Pröhf wat för en Sigge, di en Schablohn oprohfe, en dä Schblohn nit verlengk sin, un wat för en Sigge, di vun ener Schablohn verlengk sin, di Schblohn ävver nit oprohfe, un bereesch doh drövver.",
 	"form-label-language": "Schprohch:",
 	"form-label-template": "Dä Schablohn iere Nahme:",
 	"form-label-template2": "(mem Appachtemang)",
@@ -23,7 +23,7 @@
 	"feedback-header-links": "Lenks vun dä Schablohn",
 	"link-edit": "ändere",
 	"link-create": "aanlähje",
-	"link-complete": "Der kumplätte Bereesch&nbsp;&hellip;",
+	"link-complete": "Der kumplätte Bereesch&nbsp;…",
 	"footer-stats": "Generated: $1. Duration: $2 {{PLURAL:$2|Sekond|Sekonde|Sekonde}}.<!--\nhttps://translatewiki.net/wiki/Thread:Support/About_Intuition:Templatetransclusioncheck-footer-stats/ksh\n-->",
 	"error-language": "Dat Schprohche-Köözel es onbikannt."
 }

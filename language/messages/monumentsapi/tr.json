@@ -4,7 +4,8 @@
 			"Emperyan",
 			"Erdemaslancan",
 			"Incelemeelemani",
-			"Khutuck"
+			"Khutuck",
+			"Uğurkent"
 		]
 	},
 	"search-title": "Anıt arama",
@@ -35,5 +36,7 @@
 	"db-field-st_name": "İsimler",
 	"db-field-st_name_pct": "İsimler %",
 	"db-field-st_total": "Toplam sayı",
+	"toolbox-nav-homepage": "Ana sayfa",
+	"toolbox-nav-statistics": "İstatistikler",
 	"location": "Konum"
 }

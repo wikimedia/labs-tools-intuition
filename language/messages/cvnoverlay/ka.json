@@ -8,7 +8,6 @@
 	"adder-empty": "უცნობი",
 	"expiry": "ვადა",
 	"globalwatched": "გლობალურად კონტროლდება",
-	"lastupdate-db": "ბოლო განახლება: $1",
 	"reason": "მიზეზი",
 	"reason-empty": "მიზეზი ვერ მოიძებნა"
 }

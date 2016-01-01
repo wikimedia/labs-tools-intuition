@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Purodha"
+			"Purodha",
+			"Hoo"
 		]
 	},
 	"dataset-live-title": "Tiräkte Zohjang",
-	"distribution-api-description": "Dem MehdijaWikki singe <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Application Programming Interface\">API</i> Ändpongk. Et Fommahd weed mem Parramehter \n„<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">format</code>“ aanjejovve.",
-	"distribution-dump-description": "En Dattei em Fommaht $1 met \n<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"GNU ZIP - „a frei un offe Projramm för Dahte ze kompremmehre“ - GNU's Not Unix! - ZIP es „Riißverschloß“\">gzip</i> kompremmehrt."
+	"dataset-dump-description": "Ene schtattesche Ußworf vun all dä entites  för e förjejovve Dattom.",
+	"distribution-api-description": "Dem MehdijaWikki singe API Ändpongk. Et Fommahd weed mem Parramehter „format“ aanjejovve.",
+	"distribution-dump-description": "En Dattei em Fommaht $1 met gzip kompremmehrt."
 }

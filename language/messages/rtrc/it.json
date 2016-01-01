@@ -29,6 +29,7 @@
 	"navtoggle-tooltip": "Attiva o disattiva la barra laterale",
 	"nomatches": "Nessuna modifica rilevante per le tue impostazioni",
 	"order": "Ordina",
+	"ores-damaging-probability": "Probabilità danno: $1",
 	"permalink": "Link permanente alle impostazioni attuali",
 	"reload-interval": "Intervallo",
 	"select-placeholder-none": "(nessuno)",

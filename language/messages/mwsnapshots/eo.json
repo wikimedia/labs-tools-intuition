@@ -2,15 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Yekrats"
+			"Yekrats",
+			"KuboF"
 		]
 	},
 	"title-overview": "Arkivoj",
 	"title-error": "Eraro",
 	"title-updatelog": "Ĝisdatigi protokolon",
-	"download-button": "Elŝuti $1",
+	"download-button": "Elŝuti ekrankopion",
 	"download-directlink": "rekta ligilo",
-	"title-downloadpage": "Elŝuti: $1",
+	"title-downloadpage": "Elŝuti",
+	"title-downloadpage-repo": "Elŝuti $1",
 	"err-invalid-repo": "Nekonata dosierujon: \"$1\".",
 	"err-noupdatelog": "Neniu protokolo de ĝisdatigoj estis trovita.",
 	"repo-site-link": "Retejo",

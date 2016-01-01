@@ -20,6 +20,7 @@
 	"db-field-lat": "Latitudea",
 	"db-field-lon": "Longitudea",
 	"db-field-image": "Irudia",
+	"db-field-source": "Iturria",
 	"db-field-st_address": "Helbideak",
 	"db-field-st_address_pct": "Helbideak %",
 	"db-field-st_coordinates": "Koordenatuak",
@@ -32,5 +33,6 @@
 	"db-field-st_name_pct": "Izenak %",
 	"toolbox-nav-homepage": "Hasiera orria",
 	"toolbox-nav-statistics": "Estatistikak",
-	"toolbox-nav-search": "Bilatu"
+	"toolbox-nav-search": "Bilatu",
+	"location": "Kokapena"
 }

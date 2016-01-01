@@ -5,7 +5,8 @@
 			"Solde",
 			"Jordi Roqué",
 			"Vriullop",
-			"F3RaN"
+			"F3RaN",
+			"Jaumeortola"
 		]
 	},
 	"title_xtools": "Eines d’X!",
@@ -44,7 +45,7 @@
 	"nograph": "L'usuari encara no ha triat cap opció. Si es volen veure gràfics, cal crear $1 amb algun contingut, o crear $2 per triar entre totes les viquis de Wikimedia.",
 	"nograph2": "Alternativament, podeu connectar-vos amb Wikimedia OAuth (vegeu també $1). D'aquesta manera, els resultats detallats seran només per als vostres ulls.",
 	"toomanyrevisions": "Aquest article té més de 50.000 edicions. La informació de les primeres 50.000 es mostra a continuació.",
-	"interrupted": "Ho sentim però, per tal d'estalviar recursos, un bot ha interromput automàticament aquesta cerca perquè trigava més de $1 segons.",
+	"interrupted": "Ho sentim, però per a estalviar recursos un bot ha interromput automàticament aquesta cerca perquè trigava més de $1 segons.",
 	"invalid_type": "Tipus invàlid seleccionat",
 	"invalid_date": "La data no és vàlida",
 	"nocontribs": "No s’ha trobat cap contribució",

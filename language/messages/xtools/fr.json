@@ -50,7 +50,7 @@
 	"nocontribs": "Aucune contribution trouvée",
 	"nowiki": "$1 n'est pas un wiki valide",
 	"executed": "Exécuté en $1 seconde(s).",
-	"memory": "$1 megaoctets de mémoire utilisés pour l'exécution.",
+	"memory": "$1 mégaoctets de mémoire utilisés pour l'exécution.",
 	"optional": "optionnel",
 	"username": "Nom d'utilisateur",
 	"users": "{{PLURAL: $1|Utilisateur|Utilisateurs}}",

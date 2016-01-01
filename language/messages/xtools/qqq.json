@@ -5,7 +5,9 @@
 			"Bertaz",
 			"Liuxinyu970226",
 			"Robby",
-			"Shirayuki"
+			"Shirayuki",
+			"Nemo bis",
+			"Nike"
 		]
 	},
 	"title_xtools": "the tool's title",
@@ -216,12 +218,12 @@
 	"quote_number": "menu option modul: bash",
 	"support": "exact term for support on vote pages, aka the [[File:Symbol support vote.svg|15px|link=]] '''Support'''.\n\nSee also:\n* {{msg-intuition|X'stools-neutral}}\n* {{msg-intuition|X'stools-oppose}}\n{{Identical|Support}}",
 	"oppose": "exact term for oppose on vote pages, aka the [[File:Symbol oppose vote.svg|15px|link=]] '''Oppose'''.\n\nSee also:\n* {{msg-intuition|X'stools-neutral}}\n* {{msg-intuition|X'stools-support}}\n{{Identical|Oppose}}",
-	"neutral": "exact term for neutral on vote pages, aka the [[File:Symbol neutral vote.svg|15px|link=]] '''Neutral'''.\n\nSee also:\n* {{msg-intuition|X'stools-oppose}}\n* {{msg-intuition|X'stools-support}}\n{{Identical|Neutral}}",
+	"neutral": "exact term for neutral on vote pages, aka the [[File:Symbol neutral vote.svg|15px|link=]] '''Neutral'''.\n\nSee also:\n* {{msg-intuition|X'stools-oppose}}\n* {{msg-intuition|X'stools-support}}\n{{Identical|Neutral}}\n\nLive [https://tools.wmflabs.org/xtools/rfap/?project=en.wikipedia.org&user=Jimbo+Wales example]",
 	"unknown": "neither support nor oppose nor neutral.\n{{Identical|Unknown}}",
 	"dupes": "duplicates",
 	"considered_usernames": "detected usernames and known socks",
 	"vote_msg": "Parameters:\n* $1 - username\n* $2 - number of vote pages\n* $3 - name of vote page. e.g. \"Requests for adminship\"",
 	"rfx_intro": "This sentence is followed by a list of configured sites",
 	"rfx_bureaucrat": "further intro message in modul: RfX",
-	"rfx_page": "label for voting page"
+	"rfx_page": "Label for the link to a discussion page of the kind \"request for something\", for instance a discussion of a \"request for adminship\"."
 }

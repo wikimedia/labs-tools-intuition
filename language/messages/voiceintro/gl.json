@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Gravar",
@@ -12,6 +13,7 @@
 	"voiceintro-upload-publish-succeeded": "A gravación cargouse correctamente:",
 	"voiceintro-upload-publish-failed": "Non se cargou a gravación.",
 	"voiceintro-information-label": "Información",
+	"voiceintro-information-speaker-label": "Nome do falante:",
 	"voiceintro-information-language-label": "Lingua:",
 	"voiceintro-mic-access-notify": "Prema en \"Permitir\" para que o navegador poida acceder ao seu micrófono.",
 	"voiceintro-recording-notify": "Gravando..."

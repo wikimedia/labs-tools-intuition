@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"KWiki"
+			"KWiki",
+			"Palapa"
 		]
 	},
 	"hello": "Pozdrav",
@@ -12,7 +13,7 @@
 	"namespace": "Imenski prostor",
 	"form-submit": "Idi",
 	"form-reset": "Poništi",
-	"years": "godine",
+	"years": "{{PLURAL: $1|godina|godine|godina}}",
 	"weeks": "sedmice",
 	"days": "dani",
 	"hours": "sati",

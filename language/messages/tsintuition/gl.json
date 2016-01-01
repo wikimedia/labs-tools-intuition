@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"fullname": "Internacionalización das ferramentas",
 	"current-settings": "Configuración actual",
-	"current-language": "Lingua actual",
+	"current-language": "Lingua escollida",
 	"settings-legend": "Configuracións",
 	"choose-language": "Escolla unha lingua",
 	"clear-cookies": "borrar as cookies",
@@ -21,7 +22,7 @@
 	"bl-mysettings": "As miñas opcións de lingua",
 	"bl-mysettings-new": "Cambiar a lingua!",
 	"bl-promo": "As traducións son posibles grazas a $1 e $2.",
-	"bl-changelanguage": "Prema aquí para cambiar a lingua da interface da ferramenta.",
+	"bl-changelanguage": "Cambiar a lingua da interface desta ferramenta.",
 	"usage": "Ferramentas traducidas por Intuition.",
 	"help-translate-tool": "Axude a traducir esta ferramenta!",
 	"help-translate-all": "Axude a traducir as ferramentas!",

@@ -7,7 +7,6 @@
 	},
 	"adder-empty": "Desconegut",
 	"expiry": "Caducitat",
-	"lastupdate-db": "Última actualització: $1",
 	"reason": "Motiu",
 	"reason-empty": "No s’ha trobat cap motiu"
 }

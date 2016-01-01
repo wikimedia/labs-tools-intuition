@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"An13sa"
+			"An13sa",
+			"Sator"
 		]
 	},
 	"title": "SVG Itzulpena",
@@ -18,7 +19,7 @@
 	"th-username": "Erabiltzaile izena",
 	"th-password": "Pasahitza",
 	"th-method": "Metodoa",
-	"option-oauth": "TUSC (igoera automatikoa)",
+	"option-oauth": "OAuth (igoera automatikoa)",
 	"option-manual": "Eskuz igo",
 	"preview": "Aurrebista",
 	"translate": "Itzuli",

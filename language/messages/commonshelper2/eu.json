@@ -22,5 +22,6 @@
 	"new_wikitext": "Wiki testu berria",
 	"new_filename": "Fitxategiaren izen berria:",
 	"upload_submit": "Igo!",
-	"error_tusc_failed": "TUSC baieztapenak huts egin du!"
+	"error_tusc_failed": "TUSC baieztapenak huts egin du!",
+	"help_mail": "Bidali mezu bat $1-(r)i"
 }

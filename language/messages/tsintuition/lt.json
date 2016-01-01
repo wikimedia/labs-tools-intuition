@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matasg"
+			"Matasg",
+			"Zygimantus"
 		]
 	},
-	"fullname": "Toolserver vartotojo sąsajos internacionalizacija",
+	"fullname": "Internacionalizacija įrankiams",
 	"current-settings": "Esami nustatymai",
-	"current-language": "Šiuo metu pasirinkta kalba",
+	"current-language": "Pasirinkta kalba",
 	"settings-legend": "Nustatymai",
 	"choose-language": "Pasirinkite kalbą",
 	"clear-cookies": "valyti slapukus",
@@ -21,9 +22,9 @@
 	"bl-mysettings": "Mano kalbos nustatymai",
 	"bl-mysettings-new": "Keisti kalbą!",
 	"bl-promo": "Vertimus teikia $1 bei $2.",
-	"bl-changelanguage": "Spauskite čia, norėdami pakeisti šios priemonės kalbą.",
-	"usage": "Įrankis išverstas Toolserver Intuition.",
+	"bl-changelanguage": "Pakeisti įrankio interfeiso kalbą.",
+	"usage": "Įrankiai, išversti naudojant „Intuition“.",
 	"help-translate-tool": "Padėkite išversti šį įrankį!",
-	"help-translate-all": "Padėkite išversti Toolserver!",
+	"help-translate-all": "Padėkite išversti įrankius!",
 	"help-translate-tooltip": "Padėkite kitiems versti sąsajos pranešimus į jūsų kalbą."
 }

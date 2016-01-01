@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Simon Shek",
-			"Wehwei"
+			"Wehwei",
+			"LNDDYL"
 		]
 	},
 	"fullname": "工具國際化",
@@ -20,7 +21,7 @@
 	"tab-about": "關於",
 	"tab-demo": "示範",
 	"bl-mysettings": "我的語言設定",
-	"bl-mysettings-new": "更改語言！",
+	"bl-mysettings-new": "變更語言！",
 	"bl-promo": "翻譯來自 $1 和 $2 。",
 	"bl-changelanguage": "更改此工具的界面語言。",
 	"usage": "由 Intuition 翻譯的工具。",

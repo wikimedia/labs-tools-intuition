@@ -4,7 +4,8 @@
 			"Geraki",
 			"Nikosguard",
 			"Protnet",
-			"Themi97"
+			"Themi97",
+			"Glavkos"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -164,7 +165,7 @@
 	"edits_per_page": "Επεξεργασίες ανά σελίδα",
 	"summary": "Σύνοψη",
 	"ip_range": "Εύρος διευθύνσεων IP",
-	"ip_list": "Λίστα IP",
+	"ip_list": "Κατάλογος διευθύνσεων IP",
 	"ip_start": "IP έναρξης",
 	"ip_end": "IP τερματισμού",
 	"ip_number": "Πιθανές διευθύνσεις IP",

@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"KuboF"
 		]
 	},
-	"moretools": "pliaj iloj de la sama aŭtoro",
-	"comments": "komentoj kaj demandoj"
+	"moretools": "pliaj iloj",
+	"homepage-title": "Enkonduko",
+	"bugs": "raportoj pri cimoj kaj petoj pri funkcioj",
+	"comments": "komentoj kaj demandoj",
+	"error-form-empty": "Unu aŭ pluraj nepraj kampoj restis malplenaj. Bonvolu plenigi ilin antaŭ daŭrigo."
 }

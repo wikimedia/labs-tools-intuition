@@ -39,7 +39,7 @@
 	"target_wiki": "올릴 위키",
 	"standard_project": "wikipedia",
 	"error_bot_blocked": "올리기 봇이 위키미디어 공용에서 차단되어 있습니다.",
-	"error_upload_meta": "메타데이터에 문제가 있어 파일을 즉시 올릴 수 없습니다! (위를 참고하세요)",
+	"error_upload_meta": "메타데이터에 문제가 있어 파일을 즉시 올릴 수 없습니다! (위를 참조하세요)",
 	"error_tusc_failed": "TUSC 인증 실패!",
 	"error_only_commons": "즉시 파일 올리기는 위키미디어 공용에서만 가능합니다!",
 	"upload_control_text": "새 위키텍스트를 확인한 후 이상이 없다면 \"$1\"을 클릭하세요!",

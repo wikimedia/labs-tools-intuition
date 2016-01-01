@@ -31,7 +31,7 @@
 	"pb-reconfirmed": "Підтверджено?",
 	"pb-user": "Користувач",
 	"pb-user-link-title": "Деталі для користувача $1",
-	"pb-user-heading": "ІнформацІя для <a href=\"$2\" title=\"Сторінка учасника $1\">$1</a>",
+	"pb-user-heading": "ІнформацІя для <a href=\"$2\" title=\"Сторінка користувача $1\">$1</a>",
 	"pb-user-title": "Інформація для $1",
 	"pb-users-navi": "Користувачі",
 	"pb-users-title": "Список учасників",

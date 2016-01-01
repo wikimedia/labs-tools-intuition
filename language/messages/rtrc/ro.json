@@ -29,6 +29,7 @@
 	"nomatches": "Nicio modificare relevantă parametrilor dumneavoastră",
 	"order": "Ordonare",
 	"permalink": "Legătură permanentă către parametrii actuali",
+	"reload-interval": "Interval",
 	"select-placeholder-none": "(niciuna)",
 	"showAnonOnly": "Doar anonimi",
 	"showUnpatrolledOnly": "Doar nepatrulate",

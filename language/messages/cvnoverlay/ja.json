@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sujiniku"
+			"Sujiniku",
+			"Otokoume"
 		]
 	},
+	"adder": "追加者",
 	"adder-empty": "不明",
 	"expiry": "期限",
 	"reason": "理由",

@@ -32,7 +32,7 @@
 	"editdescriptionpage": "Redigera den nya beskrivningssidan",
 	"disclaimer": "Viss anonym data kommer att privat samlas in för statistiska ändamål. Om angivet, kommer OAuth-användarnamn också registreras för att hjälpa vid händelse av vandalism. Lösenord kommer aldrig registreras.",
 	"author-complete": "Vänligen fyll i författarinformationen!",
-	"preview-hide": "Göm förhandsgranskning",
+	"preview-hide": "Dölj förhandsgranskning",
 	"preview-refresh": "Uppdatera förhandsvisningen",
 	"error-must-accept": "För att fortsätta med en direkt uppladdning måste du acceptera användningsvilkoren.",
 	"description-license": "Välj beskrivning och licens",

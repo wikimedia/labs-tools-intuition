@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Teoo3"
+			"Teoo3",
+			"MaGa"
 		]
 	},
 	"million": "Nevjerojatno. Jednostavno nevjerojatno. Ovaj brojač izmjena stvoren je u prosincu 2008. godine, a unutar godine i pola skupio je više od milijun posjeta. To je zapanjujuće. Zahvaljujem se svima za kontinuiranu podršku ovom alatu kroz godine rada. Bez Vaše podrške, ovaj alat ne bi postojao. Nadajmo se sljedećem milijunu! --X! 14. svibnja 2010.",
@@ -47,6 +48,14 @@
 	"logout": "Odjavi se",
 	"time_ago": "prije $1 $2",
 	"past_time": "posljednjih $1 $2",
+	"seconds": "{{PLURAL: $1|sekunda|sekunde|sekundi}}",
+	"minutes": "{{PLURAL: $1|minuta|minute|minuta}}",
+	"days": "{{PLURAL: $1|dan|dana}}",
+	"hours": "{{PLURAL:$1|sat|sata|sati}}",
+	"weeks": "{{PLURAL: $1|tjedan|tjedna|tjedana}}",
+	"months": "{{PLURAL: $1|mjesec|mjeseca|mjeseci}}",
+	"years": "{{PLURAL: $1|godina|godine|godina}}",
+	"revisions": "{{PLURAL: $1|izmjena|izmjene|izmjena}}",
 	"authors": "{{PLURAL: $1|Autor|Autori}}",
 	"start": "Početni datum",
 	"end": "Završni datum",
@@ -137,7 +146,11 @@
 	"links_ext": "Vanjske poveznice",
 	"edits_per_page": "Izmjene po stranici",
 	"summary": "Sažetak",
+	"ip_range": "Raspon IP adresa",
 	"ip_list": "Popis IP-a",
+	"ip_start": "Početni IP",
+	"ip_end": "Završni IP",
+	"ip_number": "Mogući IP-ovi",
 	"limit": "Ograničenje",
 	"result": "Rezultat",
 	"support": "Podrška",

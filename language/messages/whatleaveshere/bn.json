@@ -5,7 +5,10 @@
 		]
 	},
 	"label-page": "পাতা",
+	"label-limit": "সীমা",
 	"button-submit": "চলো",
 	"whatlinkshere": "সংযোগকারী পাতাসমূহ",
-	"section-iwlinks": "আন্তঃউইকি সংযোগ"
+	"istemplate": "অন্তর্ভুক্তি",
+	"section-iwlinks": "আন্তঃউইকি সংযোগ",
+	"section-categories": "বিষয়শ্রেণী"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"An13sa",
-			"Subi"
+			"Subi",
+			"Sator"
 		]
 	},
 	"hello": "Kaixo",
@@ -14,6 +15,7 @@
 	"form-submit": "Joan",
 	"form-reset": "Hasieratu",
 	"years": "{{PLURAL: $1|urte|urte}}",
+	"months": "{{PLURAL: $1|month|months}}",
 	"weeks": "{{PLURAL: $1|aste|aste}}",
 	"days": "{{PLURAL: $1|egun|egun}}",
 	"hours": "{{PLURAL: $1|ordu|ordu}}",

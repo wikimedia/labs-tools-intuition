@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Banjo"
 		]
 	},
 	"title": "Tradución SVG",
@@ -19,7 +20,7 @@
 	"th-username": "Nome de usuario",
 	"th-password": "Contrasinal",
 	"th-method": "Método",
-	"option-oauth": "TUSC (carga automática)",
+	"option-oauth": "OAuth (carga automática)",
 	"option-manual": "Carga manual",
 	"preview": "Vista previa",
 	"translate": "Traducir",

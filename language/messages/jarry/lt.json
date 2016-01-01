@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Robotukas11"
+			"Robotukas11",
+			"Zygimantus"
 		]
 	},
-	"moretools": "daugiau įrankių iš to paties autoriaus",
-	"homepage-title": "Įvadas"
+	"moretools": "daugiau įrankių",
+	"homepage-title": "Įvadas",
+	"bugs": "klaidų ataskaitos ir funkcijų prašymai",
+	"comments": "komentarai ir užklausos"
 }

@@ -8,7 +8,6 @@
 	"adder-empty": "Ismeretlen",
 	"expiry": "Lejárat",
 	"globalwatched": "Globálisan figyelt",
-	"lastupdate-db": "Utolsó frissítés: $1",
 	"reason": "Ok",
 	"reason-empty": "Nem található ok"
 }

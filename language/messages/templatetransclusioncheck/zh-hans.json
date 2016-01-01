@@ -5,7 +5,7 @@
 		]
 	},
 	"title": "模板链接和嵌入检查",
-	"description": "检查并报告未链接自模板而嵌入模板的条目，以及链接自模板但未嵌入模板的条目。",
+	"description": "检查并报告那些条目嵌入一个模板但未链接自模板，以及那些条目链接自一个模板但未嵌入它。",
 	"form-label-language": "语言：",
 	"form-label-template": "模板名称：",
 	"form-label-template2": "（包含名字空间）",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Marat-avgust"
+			"Marat-avgust",
+			"Ильнар"
 		]
 	},
 	"welcome": "X!'s toolsларга рәхим итегез!",
@@ -36,5 +37,6 @@
 	"weeks": "{{PLURAL: $1|атна}}",
 	"months": "{{PLURAL:$1|ай}}",
 	"years": "{{PLURAL: $1|ел}}",
-	"revisions": "$1 {{PLURAL:$1|юрама}}"
+	"revisions": "$1 {{PLURAL:$1|юрама}}",
+	"article": "Мәкалә"
 }

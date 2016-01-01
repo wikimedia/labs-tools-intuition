@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
-	"enter-details": "ДӀаязде мадарра",
+	"enter-details": "Мадарра дӀаязде",
 	"results": "Хиламаш",
 	"language-label": "Мотт",
 	"pattern-label": "Кеп"

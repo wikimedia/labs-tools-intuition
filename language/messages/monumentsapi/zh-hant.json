@@ -4,7 +4,8 @@
 			"Cwlin0416",
 			"Liuxinyu970226",
 			"Shirayuki",
-			"Simon Shek"
+			"Simon Shek",
+			"LNDDYL"
 		]
 	},
 	"search-title": "搜尋古蹟",
@@ -23,7 +24,7 @@
 	"db-field-lat": "緯度",
 	"db-field-lon": "經度",
 	"db-field-image": "圖片",
-	"db-field-changed": "已更改",
+	"db-field-changed": "已變更",
 	"db-field-source": "來源",
 	"db-field-monument_article": "古蹟的條目",
 	"db-field-registrant_url": "註冊者的url",

@@ -1,20 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Obaid Raza"
+			"Obaid Raza",
+			"Muhammad Shuaib"
 		]
 	},
 	"title_xtools": "X! آلہ",
 	"welcome": "X! آلہ میں خوش آمدید",
-	"tool_ec": "ترامیم کا حسابی",
+	"tool_ec": "ترامیم شمار کنندہ",
 	"tool_blame": "مضامین پر تنقید",
 	"tool_articleinfo": "تاریخچہ",
 	"tool_pages": "تخلیق کردہ صفحات",
-	"tool_topedits": "سب سے ترامیم والے",
-	"tool_autoedits": "خود کار ترامیم",
-	"tool_rangecontribs": "مجموعی شراکت",
+	"tool_topedits": "بلند پایہ ترامیم",
+	"tool_autoedits": "خودکار ترامیم",
+	"tool_rangecontribs": "مجموعی شراکتیں",
 	"tool_bash": "بے ترتیب اقتباس",
-	"tool_sc": "فوری، کمزور ترامیم حسابی",
+	"tool_sc": "فوری، کمزور ترامیم شمار کنندہ",
 	"tool_rfa": "RfX تجزیہ",
 	"tool_rfap": "RfX رائے شماری کا حساب",
 	"tool_autoblock": "خود کار پابندی",

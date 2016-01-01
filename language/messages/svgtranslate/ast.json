@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Enolp"
 		]
 	},
 	"title": "SVG Translate",
 	"error-tryagain": "$1 Calca nel botón atrás del restolador pa volver a tentalo.",
-	"error-nothing": "Nun hai ren que traducir.",
+	"error-nothing": "Nun hai res que traducir.",
 	"error-notsvg": "Nun ye un ficheru SVG.",
 	"error-unexpected": "Hebo un fallu inesperáu.",
 	"error-notfound": "El ficheru SVG nun se pudo baxar de la URL conseñada.",

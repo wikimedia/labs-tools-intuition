@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"KuboF"
 		]
 	},
+	"description": "Metainformoj pri Vikimediaj vikioj.",
 	"formats-heading": "Eligaj formatoj",
 	"input": "Enigo",
 	"label-wikiids": "Vikiaj identigoj",

@@ -11,7 +11,7 @@
 	"toolversionstamp": "Верзија $1 ($2)",
 	"etc": "и тн.",
 	"namespace": "Именски простор",
-	"form-submit": "Оди",
+	"form-submit": "Дај",
 	"form-reset": "Одново",
 	"years": "{{PLURAL: $1|година|години}}",
 	"months": "{{PLURAL: $1|месец|месеци}}",

@@ -7,7 +7,7 @@
 	"attention": "Chú ý",
 	"description": "Công cụ chuyển tập tin từ các dự án Wikimedia đến Wikimedia Commons",
 	"change_meta": "Thay đổi $1cấu hình thể loại và bản mẫu$2 của $3",
-	"jira_link": "Báo cáo lỗi hoặc đề nghị một tính năng",
+	"jira_link": "Báo lỗi hoặc đề nghị một tính năng",
 	"language": "Ngôn ngữ",
 	"project": "Dự án",
 	"source_file": "Tập tin gốc",
@@ -46,7 +46,7 @@
 	"error_commons_user": "Miêu tả cần phải có tên người dùng Wikimedia Commons của bạn để xác định được người chuyển!",
 	"error_upload_users": "Chức năng tải lên chỉ có sẵn cho một số người trong thời gian thử nghiệm!",
 	"error_upload_file": "Không thể tải về tập tin gốc.",
-	"help_intro": "Để báo cáo lỗi, gợi ý tính năng, hoặc đặt câu hỏi, liên lạc với chúng tôi dùng một trong những cách ở dưới:",
+	"help_intro": "Để báo lỗi, gợi ý tính năng, hoặc đặt câu hỏi, liên lạc với chúng tôi dùng một trong những cách ở dưới:",
 	"help_jira": "$1JIRA (cần tài khoản)$2 (Dự án: Commonshelper2)",
 	"help_mail": "Gửi thư điện tử cho $1",
 	"help_commons": "$1Thảo luận tại Commons$2"

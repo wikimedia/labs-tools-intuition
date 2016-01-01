@@ -3,7 +3,8 @@
 		"authors": [
 			"Chrumps",
 			"Rezonansowy",
-			"Woytecr"
+			"Woytecr",
+			"The Polish"
 		]
 	},
 	"title": "Ostatnie zmiany w czasie rzeczywistym",
@@ -31,6 +32,7 @@
 	"nomatches": "Brak istotnych zmian w ustawieniach",
 	"order": "Kolejność",
 	"permalink": "Link do bieżących ustawień",
+	"reload-interval": "Interwał",
 	"select-placeholder-none": "(brak)",
 	"showAnonOnly": "Tylko anonimowy",
 	"showUnpatrolledOnly": "Tylko niezatwierdzeni",

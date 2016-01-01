@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Benojan"
+			"Benojan",
+			"飞舞回堂前"
 		]
 	},
 	"cvn-adder-empty": "弗識",
-	"helpicon-tooltip": "捺箇裏望還多信息",
+	"helpicon-tooltip": "进一步了解该功能",
 	"time-from": "從"
 }

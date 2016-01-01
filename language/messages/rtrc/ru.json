@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras"
+			"Okras",
+			"Nzeemin"
 		]
 	},
 	"title": "Последние изменения в режиме реального времени",
@@ -29,6 +30,7 @@
 	"nomatches": "Нет изменений, соответствующих вашим параметрам",
 	"order": "Порядок",
 	"permalink": "Постоянная ссылка на текущие параметры",
+	"reload-interval": "Интервал",
 	"select-placeholder-none": "(нет)",
 	"showAnonOnly": "только анонимов",
 	"showUnpatrolledOnly": "Только неотпатрулированные",

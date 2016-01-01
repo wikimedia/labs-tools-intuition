@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"LexArt"
+			"LexArt",
+			"Дзяніс Тутэйшы"
 		]
 	},
 	"title": "Перакласці SVG",
@@ -9,7 +10,7 @@
 	"error-nothing": "Няма чаго перакладаць.",
 	"error-notsvg": "Не SVG-файл",
 	"error-unexpected": "Адбылася нечаканая памылка.",
-	"error-notfound": "Немагчыма атрымаць SVG-файл з пададзенага URL-адрасу.",
+	"error-notfound": "Немагчыма атрымаць SVG-файл з указанага URL-адраса.",
 	"error-upload": "Немагчыма загрузіць.",
 	"begin-translation": "Распачаць пераклад",
 	"th-original": "Арыгінал",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tauhid16"
+			"Tauhid16",
+			"Aftabuzzaman"
 		]
 	},
 	"records": "রেকর্ড",
@@ -102,7 +103,7 @@
 	"rankWorld": "সকল উইকিমিডিয়া উইকিতে পদবী (বিশ্বব্যাপি)",
 	"pageViewCount": "পাতা প্রদর্শনের সংখ্যা",
 	"winningArticles": "বিজয়ী নিবন্ধসমূহ",
-	"numPageWatchers": "পর্যবেক্ষকের সঙ্খান",
+	"numPageWatchers": "পাতা পর্যবেক্ষকের সংখ্যা",
 	"linkStats": "পাতা পরিসংখ্যানের সাথে সংযুক্ত কর",
 	"linkArticle": "উইকি নিবন্ধের সাথে সংযুক্ত কর",
 	"totalShare": "মোট ভাগ"

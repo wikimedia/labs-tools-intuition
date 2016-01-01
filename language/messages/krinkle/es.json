@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(seleccionar wiki)",
 	"alws-group-mustused": "Wikis más usados",
 	"alws-group-allaz": "Todos los wikis alfabéticamente",

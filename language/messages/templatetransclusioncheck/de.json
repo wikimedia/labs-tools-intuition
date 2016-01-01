@@ -5,7 +5,7 @@
 		]
 	},
 	"title": "Überprüfung der Vorlagenlinks und -einbindungen",
-	"description": "Überprüfungen und Berichte, welche Artikel eine Vorlage einbinden, die nicht von der Vorlage verlinkt sind und welche Artikel von einer Vorlage verlinkt sind, aber nicht eingebunden werden.",
+	"description": "Überprüft und berichtet, welche Artikel eine Vorlage einbinden, die nicht von der Vorlage verlinkt sind und welche Artikel von einer Vorlage verlinkt sind, die sie nicht einbinden.",
 	"form-label-language": "Sprache:",
 	"form-label-template": "Name der Vorlage:",
 	"form-label-template2": "(einschließlich Namensraum)",

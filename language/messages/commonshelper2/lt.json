@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Hugo.arg"
+			"Hugo.arg",
+			"Zygimantus"
 		]
 	},
 	"attention": "Dėmesio",
@@ -31,7 +32,7 @@
 	"error_no_meta": "Nerasta jokios metadatos apie pradinę wiki! $1Prašome pridėti/atnaujinti projekto metadatą$2",
 	"error_meta_no_good": "Metadata: nerasta tinkamų šablonų! $1Prašome pridėti/atnaujinti projekto metadatą$2",
 	"error_meta_bad": "Metadata: rastas netinkamas šablonas! $1Prašome pridėti/atnaujinti projekto metadatą$2",
-	"original_wikitext": "Originalus Wiki tekstas",
+	"original_wikitext": "Originalusis viki tekstas",
 	"new_wikitext": "Naujas wiki tekstas",
 	"new_filename": "Naujas pavadinimas:",
 	"output_information": "Rankiniam įkėlimui pakoreguokite aukščiau esantį tekstą (jei reikia), išsaugokite $1failą$2 savo kompiuteryje ir $3jį įkelkite$4.",

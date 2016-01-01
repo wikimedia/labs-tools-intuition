@@ -3,7 +3,8 @@
 		"authors": [
 			"Fryed-peach",
 			"Shirayuki",
-			"Whym"
+			"Whym",
+			"Sujiniku"
 		]
 	},
 	"fullname": "ツールの国際化",
@@ -23,7 +24,7 @@
 	"bl-mysettings": "自分の言語設定",
 	"bl-mysettings-new": "言語を変更",
 	"bl-promo": "翻訳したのは $1 と $2 です。",
-	"bl-changelanguage": "このツールのインターフェイス言語を変更するにはここをクリックしてください。",
+	"bl-changelanguage": "このツールのインターフェイス言語を変更する",
 	"usage": "Intuition が翻訳したツールです。",
 	"help-translate-tool": "このツールの翻訳を手伝う",
 	"help-translate-all": "ツールの翻訳を手伝う",

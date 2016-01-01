@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras"
+			"Okras",
+			"Kaganer"
 		]
 	},
 	"form-label-language": "Язык:",
@@ -22,6 +23,6 @@
 	"link-edit": "править",
 	"link-create": "создать",
 	"link-complete": "Полный отчёт…",
-	"footer-stats": "Сгенерировано: $1. Продолжительность: $2 {{PLURAL:$2|секунда|секунд|секунды}}.",
+	"footer-stats": "Сгенерировано: $1. Продолжительность: $2 {{PLURAL:$2|секунда|секунды|секунд}}.",
 	"error-language": "Неизвестный код языка."
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Robby",
-			"Nemo bis"
+			"Nemo bis",
+			"Purodha"
 		]
 	},
 	"base_prefslink": "Link to preferences screen",
@@ -37,7 +38,7 @@
 	"prefs_done": "Note shown after preferences were submitted",
 	"prefs_langlabel": "Text next to language selection box",
 	"report_wascached": "Note shown on report page inticating its age",
-	"report_cold_cache_running": "Note shown on report page inticating the system is preparing a new version, and started some time ago. <code>%(runtime)s</code> is replaced by a time interval like \"19 seconds\" which is not translated as part of this message.",
+	"report_cold_cache_running": "This is a note shown on report page inticating the system is preparing a new version, and started some time ago. <code>%(runtime)s</code> is replaced by a time interval like \"19 seconds\" which is not translated as part of this message.",
 	"report_cold_cache_started": "Note shown on report page inticating the system is preparing a new version, and just started",
 	"report_nocache": "Note shown on reports that are run every night that it hasn't been run yet.",
 	"report_first_run": "Note shown the report is still under preparation.",

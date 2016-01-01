@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"F. Cosoleto"
+			"F. Cosoleto",
+			"Gianfranco"
 		]
 	},
+	"adder": "Autore dell'aggiunta",
 	"adder-empty": "Sconosciuto",
 	"expiry": "Scadenza",
-	"lastupdate-db": "Ultimo aggiornamento: $1",
+	"globalwatched": "Seguito a livello globale",
 	"reason": "Motivo",
 	"reason-empty": "Nessun motivo trovato"
 }
