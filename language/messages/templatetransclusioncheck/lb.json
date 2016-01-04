@@ -7,6 +7,7 @@
 	"form-label-language": "Sprooch:",
 	"form-label-template": "Numm vun der Schabloun:",
 	"form-label-template2": "(inklusiv Nummraum)",
+	"form-label-complete": "Komplette Rapport generéieren:",
 	"feedback-template-missing": "Schabloun $1 gëtt et net.",
 	"feedback-result": "Resultater fir $1",
 	"feedback-header-redirects": "Linken op Viruleedungen",

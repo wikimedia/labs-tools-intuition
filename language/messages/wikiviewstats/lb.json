@@ -43,6 +43,7 @@
 	"files": "{{PLURAL: $1|Fichier|Fichieren}}",
 	"specialPage": "Spezialsäit",
 	"helpPage": "Hëllef-Säit",
+	"projectTotals": "Totaler vum Projet",
 	"wikiThanks": "Merci",
 	"log": "Log",
 	"size": "Gréisst",
@@ -69,7 +70,10 @@
 	"watchers": "Iwwerwaacher",
 	"redirects": "Viruleedungen",
 	"testmode": "Testmodus",
+	"chartBasedOn": "Grafike vun der Tabell baséieren op",
 	"by": "vum",
+	"publishedAsOS": "als Open-Source publizéiert ënner",
+	"providedBy": "geliwwert vu(n)",
 	"icons": "Iconen",
 	"thisSoftwareIs": "dës Software ass",
 	"helpDiscuss": "Hëllef / Diskussioun / Verbesserungen",
@@ -95,6 +99,7 @@
 	"disambPage": "Homonymie-Säit",
 	"showRedir": "Viruleedunge weisen",
 	"searchVariants": "Variante sichen",
+	"addToWorkList": "op d'Aarbechtslëscht derbäisetzen",
 	"removeFromWorklist": "Vun der Aarbechtslëscht erofhuelen",
 	"projectPages": "Projetssäiten",
 	"backToTop": "zréck uewen op d'Säit",
@@ -105,5 +110,6 @@
 	"numPageWatchers": "Zuel vun de Benotzer déi d'Säit iwwerwaachen",
 	"linkStats": "Link op d'Statistike vun de Säiten",
 	"linkArticle": "Link op de Wiki-Artikel",
-	"authorMostEdits": "Auteur mat de meeschten Ännerungen. An der Däitscher Wikipedia: Auteur deen am meeschten Text geschriwwen huet"
+	"authorMostEdits": "Auteur mat de meeschten Ännerungen. An der Däitscher Wikipedia: Auteur deen am meeschten Text geschriwwen huet",
+	"totalShare": "Gesamtundeel"
 }
