@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Base",
-			"SteveR"
+			"SteveR",
+			"Andriykopanytsia"
 		]
 	},
+	"alws-label": "Вікі",
 	"alws-selectwiki": "(виберіть вікі)",
 	"alws-group-mustused": "Найуживаніші вікі",
 	"alws-group-allaz": "Усі вікі за алфавітом",

@@ -19,7 +19,7 @@
 	"hours": "{{PLURAL:$1|ساعت ها|ساعت}}",
 	"minutes": "{{PLURAL:$1|دیقه|دیقةلئ}} دماتر",
 	"seconds": "{{PLURAL:$1|ثانیه|ثانیه ها}}",
-	"last-modified-date": "آخرین تغییر: $1",
+	"last-modified-date": "آخرین گؤەڕانن/تغییر: $1",
 	"view-source": "سئرکردن بِنچۀک/مۀنبۀع",
 	"and": "&#32;و"
 }

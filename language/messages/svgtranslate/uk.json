@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dim Grits",
-			"Тест"
+			"Тест",
+			"Andriykopanytsia"
 		]
 	},
 	"error-tryagain": "$1 Натисніть у вашому браузері «Назад» для повтору.",
@@ -18,7 +19,7 @@
 	"th-username": "Ім'я користувача",
 	"th-password": "Пароль",
 	"th-method": "Метод",
-	"option-oauth": "TUSC (автоматичне завантаження)",
+	"option-oauth": "OAuth (автоматичне завантаження)",
 	"option-manual": "Самостійне завантаження",
 	"preview": "Попередній перегляд",
 	"translate": "Перекласти",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Lakzon"
 		]
 	},
 	"search-title": "جستجو در آثار تاریخی",
@@ -14,13 +15,13 @@
 	"db-field-country": "کشور/ؤڵات",
 	"db-field-lang": "زوون",
 	"db-field-id": "شناسه/دیارکةر",
-	"db-field-name": "نؤم",
+	"db-field-name": "نۆم",
 	"db-field-address": "نشانی",
 	"db-field-municipality": "شةرداری",
 	"db-field-lat": "عرض جغرافیایی",
 	"db-field-lon": "طول جغرافیایی",
 	"db-field-image": "عۀسگ/تۀصویر",
-	"db-field-changed": "تغییر یافته",
+	"db-field-changed": "گؤەڕیائە/تغییریافته",
 	"db-field-source": "بِنچۀک/مۀنبۀع",
 	"db-field-monument_article": "وةڵگة آثار تاریخی",
 	"db-field-registrant_url": "آدرس ثبت نام",

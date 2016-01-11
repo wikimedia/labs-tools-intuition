@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"Vodnokon4e"
 		]
 	},
 	"error-nothing": "Няма нищо за превеждане.",
@@ -16,5 +17,5 @@
 	"translate": "Превеждане",
 	"svginput-label": "SVG файл",
 	"uploading": "Качване",
-	"description-license": "Изберане на описание и лиценз"
+	"description-license": "Избиране на описание и лиценз"
 }

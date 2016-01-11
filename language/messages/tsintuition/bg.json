@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"StanProg"
+			"StanProg",
+			"Vodnokon4e"
 		]
 	},
 	"current-settings": "Текущи настройки",
-	"current-language": "Текущо избран език",
+	"current-language": "Избран език",
 	"settings-legend": "Настройки",
 	"choose-language": "Избиране на език",
 	"tab-settings": "Настройки",
