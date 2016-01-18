@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"संजीव कुमार"
+			"संजीव कुमार",
+			"YmKavishwar"
 		]
 	},
 	"title_xtools": "X! के औजार",
@@ -71,7 +72,7 @@
 	"others": "अन्य",
 	"select_language": "भाषा चुनें",
 	"translatelink": "अनुवाद",
-	"login": "लॉग इन",
+	"login": "प्रवेश",
 	"logout": "सत्रान्त",
 	"time_ago": "$1 $2 पहले",
 	"past_time": "$1 $2 पूर्व",

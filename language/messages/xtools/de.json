@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Inkowik",
-			"Metalhead64"
+			"Metalhead64",
+			"Daswaldhorn"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -111,7 +112,7 @@
 	"pages_moved": "Verschobene Seiten",
 	"files_uploaded": "Hochgeladene Dateien",
 	"deleted_edits": "Gelöschte Bearbeitungen",
-	"edits_summary": "Zusammenfassúng verwendet",
+	"edits_summary": "Zusammenfassung verwendet",
 	"reverted": "Revertierte Bearbeitungen",
 	"timecard": "Zeitkarte",
 	"tagged": "markiert",
