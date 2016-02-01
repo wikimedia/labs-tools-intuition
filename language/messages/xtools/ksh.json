@@ -73,7 +73,7 @@
 	"translatelink": "Övversäze",
 	"login": "Enlogge",
 	"logout": "Ußlogge",
-	"time_ago": "$1 $2 retuhr ",
+	"time_ago": "vör $1 $2 ",
 	"past_time": "läzde $1 $2",
 	"seconds": "{{PLURAL:$1|Sekund|Sekunde|Sekund}}",
 	"minutes": "{{PLURAL:$1|Menutt|Menutte|Menutte }}",

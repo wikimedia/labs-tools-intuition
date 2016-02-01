@@ -10,6 +10,7 @@
 	"form-label-template2": "(নামস্থানসহ)",
 	"form-label-complete": "সম্পূর্ণ প্রতিবেদন উৎপন্ন করুন:",
 	"feedback-template-missing": "টেমপ্লেট $1 বিদ্যমান নয়।",
+	"feedback-result": "$1-এর ফলাফল",
 	"feedback-header-no-transclusion": "সংযুক্ত কিন্তু অন্তর্ভুক্ত নয়",
 	"feedback-total-count": "মোট: $1",
 	"feedback-header-complete": "সম্পূর্ণ অন্তর্ভুক্তি এবং সংযোগের সংক্ষিপ্ত বিবরণ",

@@ -18,5 +18,6 @@
 	"select_report_go_back": "← উইকি পরিবর্তন",
 	"qvar_next": "পরবর্তী →",
 	"prefs_submit": "ঠিক আছে",
+	"prefs_langlabel": "ইন্টারফেসের ভাষা:",
 	"report_change_wiki": "<a href=\"%(url)s\">উইকি পরিবর্তন</a>"
 }
