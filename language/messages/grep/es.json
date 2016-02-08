@@ -3,7 +3,8 @@
 		"authors": [
 			"Kingpowl",
 			"Macofe",
-			"VegaDark"
+			"VegaDark",
+			"Steef"
 		]
 	},
 	"title": "Grep del título del artículo (beta)",
@@ -17,7 +18,7 @@
 	"project-label": "Proyecto",
 	"pattern-label": "Patrón",
 	"redirects-label": "Incluir redirecciones",
-	"limit-label": "Limitar la visualización de los primeros 100 resultados",
+	"limit-label": "Limitar la visualización a los primeros 100 resultados",
 	"error-zeroresults": "No hay páginas en ese espacio de nombres con títulos que coincidan con tu expresión regular.",
 	"match-count": "{{PLURAL:$1|$1 página coincide|$1 páginas coinciden}} con tu expresión regular."
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Macofe",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Steef"
 		]
 	},
 	"title": "Descarga de imágenes por categoría",
@@ -19,7 +20,7 @@
 	"no-images": "No hay imágenes en esta categoría",
 	"category-is-url": "El nombre de la categoría dada se parece a una URL. Es necesario especificar el nombre de la categoría, no su URL.",
 	"category-contains-namespace": "Al parecer has incluido el espacio de nombres junto al nombre de la categoría. Con el nombre dado, la página estaría disponible como [[Category:$1]].",
-	"zip-failed": "Error en la creación del ZIP",
+	"zip-failed": "Falló creación del ZIP",
 	"image-area-too-big": "«$1» es demasiado grande para crear una miniatura. Usando el tamaño completo.",
 	"download-info": "Hay {{plural: $1|una imagen|$1 imágenes}}, con un tamaño estimado de $2",
 	"download": "Descargar",

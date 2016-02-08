@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danmichaelo"
+			"Danmichaelo",
+			"SuperPotato"
 		]
 	},
 	"title": "Siste endringer i sanntid",
@@ -29,6 +30,7 @@
 	"nomatches": "Ingen relevante endringer for innstillingene dine",
 	"order": "Rekkefølge",
 	"permalink": "Permalenke til de nåværende innstillingene",
+	"reload-interval": "Intervall",
 	"select-placeholder-none": "(ingen)",
 	"showAnonOnly": "Kun uregistrerte",
 	"showUnpatrolledOnly": "Kun upatruljerte",
