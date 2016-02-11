@@ -29,6 +29,7 @@
 	"navtoggle-tooltip": "Veksle sidefeltet",
 	"nomatches": "Ingen relevante endringer for innstillingene dine",
 	"order": "Rekkefølge",
+	"ores-damaging-probability": "Skade sannsynlighet: $1",
 	"permalink": "Permalenke til de nåværende innstillingene",
 	"reload-interval": "Intervall",
 	"select-placeholder-none": "(ingen)",
