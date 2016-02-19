@@ -12,7 +12,7 @@
 		]
 	},
 	"dateformat": "%Y年%B%d日",
-	"hello": "你好",
+	"hello": "您好",
 	"welcome": "欢迎",
 	"toolversion": "版本 $1",
 	"toolversionstamp": "版本 $1 ($2)",

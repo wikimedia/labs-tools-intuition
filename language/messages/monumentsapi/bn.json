@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"Nasir8891"
+			"Nasir8891",
+			"Aftabuzzaman"
 		]
 	},
 	"search-title": "মনুমেন্ট অনুসন্ধান",
@@ -39,7 +40,7 @@
 	"toolbox-label-searchtipps": "ফাজি অনুসন্ধানের জন্য ব্যবহার করুন %term অথবা term% অথবা %term%",
 	"toolbox-meta-title": "উইকি লাভ মনুমেন্টস টুলবক্স",
 	"toolbox-main-title": "ডব্লিউএলএম টুলবক্স",
-	"toolbox-main-description": "একগুচ্ছ টুল",
+	"toolbox-main-description": "একগুচ্ছ সরঞ্জাম",
 	"toolbox-wikilovesmonuments": "উইকি লাভস্‌ মনুমেন্টস্‌",
 	"toolbox-nav-homepage": "প্রধান পাতা",
 	"toolbox-nav-statistics": "পরিসংখ্যান",
