@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Csega",
-			"Dj"
+			"Dj",
+			"Tacsipacsi"
 		]
 	},
 	"title": "Cikk cím grep keresés (béta)",
@@ -15,5 +16,7 @@
 	"project-label": "Projekt",
 	"pattern-label": "Minta",
 	"redirects-label": "Átirányításokat is",
-	"limit-label": "Csak az első 100 eredmény megjelenítése"
+	"limit-label": "Csak az első 100 eredmény megjelenítése",
+	"error-zeroresults": "Nincs lap az adott névtérben, aminek a címe illeszkedne a reguláris kifejezésedre.",
+	"match-count": "$1 lap illeszkedik a reguláris kifejezésedre."
 }

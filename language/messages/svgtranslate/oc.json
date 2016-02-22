@@ -4,7 +4,7 @@
 			"Cedric31"
 		]
 	},
-	"error-nothing": "Pas res a tradusir.",
+	"error-nothing": "Pas res a traduire.",
 	"error-notsvg": "Pas un fichièr SVG.",
 	"error-unexpected": "Una error imprevista s'es producha.",
 	"begin-translation": "Començar la traduccion",
@@ -16,7 +16,7 @@
 	"th-method": "Metòde",
 	"option-manual": "Telecargament manual",
 	"preview": "Previsualizar",
-	"translate": "Tradusir",
+	"translate": "Traduire",
 	"svginput-label": "Fichièr SVG",
 	"uploading": "Telecargament",
 	"preview-hide": "Amagar l'apercebut",

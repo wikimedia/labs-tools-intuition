@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"Jfblanc"
 		]
 	},
 	"current-settings": "Paramètres actuals",
@@ -17,6 +18,6 @@
 	"tab-demo": "Demo",
 	"bl-mysettings": "Mos paramètres de lenga",
 	"bl-mysettings-new": "Cambiar de lenga !",
-	"help-translate-tool": "Ajudatz a tradusir aquesta aisina !",
-	"help-translate-all": "Ajudatz a tradusir las aisinas !"
+	"help-translate-tool": "Ajudatz a traduire aquesta aisina!",
+	"help-translate-all": "Ajudatz a traduire las aisinas!"
 }
