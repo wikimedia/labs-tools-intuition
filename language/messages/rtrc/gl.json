@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"title": "Cambios recentes en tempo real",
@@ -28,7 +29,9 @@
 	"navtoggle-tooltip": "Activar ou desactivar a barra lateral",
 	"nomatches": "Non se produciron cambios relevantes segundo a súa configuración",
 	"order": "Orde",
+	"ores-damaging-probability": "Probabilidade de dano: $1",
 	"permalink": "Ligazón permanente á configuración actual",
+	"reload-interval": "Intervalo",
 	"select-placeholder-none": "(ningún)",
 	"showAnonOnly": "Anónimos unicamente",
 	"showUnpatrolledOnly": "Sen patrullar unicamente",
