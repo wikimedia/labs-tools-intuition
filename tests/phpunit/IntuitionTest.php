@@ -331,7 +331,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		$fallbacks = $this->i18n->getLangFallbacks( 'de-formal' );
 		$this->assertEquals(
 			$fallbacks,
-			array( 'de' )
+			array( 'de', 'en' )
 		);
 	}
 
