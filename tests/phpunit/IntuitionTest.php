@@ -331,7 +331,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		$fallbacks = $this->i18n->getLangFallbacks( 'de-formal' );
 		$this->assertEquals(
 			$fallbacks,
-			array( 'de' )
+			array( 'de', 'en' )
 		);
 	}
 
@@ -353,6 +353,12 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'en value',
 			$this->i18n->rawMsg( 'test-domain', 'nl', 'test-value' ),
 			'Default for language without fallback'
+		);
+
+		$this->assertEquals(
+			'en value',
+			$this->i18n->rawMsg( 'test-domain', 'bgn', 'test-value' ),
+			'Default for language with 1 fallback that is not set'
 		);
 
 		$this->assertEquals(
