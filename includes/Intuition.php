@@ -636,6 +636,8 @@ class Intuition {
 		foreach ( $fallbacks as &$fallback ) {
 			// Expand string values to arrays
 			$fallback = (array)$fallback;
+			// Add English to the end of the fallback chain
+			$fallback[] = 'en';
 		}
 
 		return $fallbacks;
