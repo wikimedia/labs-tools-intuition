@@ -356,6 +356,12 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 
 		$this->assertEquals(
+			'en value',
+			$this->i18n->rawMsg( 'test-domain', 'bgn', 'test-value' ),
+			'Default for language with 1 fallback that is not set'
+		);
+
+		$this->assertEquals(
 			'de value',
 			$this->i18n->rawMsg( 'test-domain', 'de_formal', 'test-value' ),
 			'Language with 1 fallback'
