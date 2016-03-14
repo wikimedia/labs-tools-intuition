@@ -9,9 +9,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 // Known demos
 $demoRegistry = array(
 	'demo1' => 'Basic setup to load a message',
-	'demo2' => 'Undefined message (default)',
-	'demo3' => 'Undefined message (notice)',
-	'demo4' => 'Undefined message (no brackets)',
+	'demo2' => 'Undefined message',
 	'demo5' => 'Dashboard backlink and footer line',
 	'demo6' => 'Utility examples',
 	'demo7' => 'Language names',
