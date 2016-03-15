@@ -656,7 +656,7 @@ class Intuition {
 	 * Return all known languages.
 	 * @return array
 	 */
-	public function getLangNames() {
+	protected function getLangNames() {
 		// Lazy-load and cache
 		if ( $this->langNames === null ) {
 			$path = $this->localBaseDir . '/language/mw-classes/Names.php';
@@ -680,27 +680,34 @@ class Intuition {
 	 * @return array Language names keyed by language code
 	 */
 	public function getAvailableLangs() {
-		// Lazy-load and cache
-		if ( $this->availableLanguages === null ) {
-			$messageFiles = glob( $this->localBaseDir . '/language/messages/*/*.json' );
-
-			$languages = array_values( array_unique( array_map(
-				function ( $filename ) {
-					return basename( $filename, '.json' );
-				},
-				$messageFiles
-			) ) );
-
-			$availableLanguages = array();
-			foreach ( $languages as $lang ) {
-				$availableLanguages[$lang] = $this->getLangName( $lang );
-			}
-			ksort( $availableLanguages );
-
-			$this->availableLanguages = $availableLanguages;
+		if ( !$this->availableLanguages ) {
+			$this->availableLanguages = require $this->localBaseDir . '/language/langlist.php';
 		}
-
 		return $this->availableLanguages;
+	}
+
+	/**
+	 * Generate a list of all languages available in at least one domain.
+	 * @return array Language names keyed by language code
+	 */
+	public function generateLanguageList() {
+		$messageFiles = glob( $this->localBaseDir . '/language/messages/*/*.json' );
+
+		$languages = array_map(
+			function ( $filename ) {
+				return basename( $filename, '.json' );
+			},
+			$messageFiles
+		);
+		$languages = array_values( array_unique( $languages ) );
+
+		$availableLanguages = array();
+		foreach ( $languages as $lang ) {
+			$availableLanguages[$lang] = $this->getLangName( $lang );
+		}
+		ksort( $availableLanguages );
+
+		return $availableLanguages;
 	}
 
 	/* Domain functions

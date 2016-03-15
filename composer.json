@@ -2,15 +2,13 @@
 	"name": "krinkle/intuition",
 	"description": "Framework for localisation in PHP.",
 	"license": "CC-BY-3.0",
-	"require": {
-		"php": ">=5.5"
-	},
 	"autoload": {
 		"files": [
 			"ToolStart.php"
 		]
 	},
 	"require": {
+		"php": ">=5.5",
 		"krinkle/toollabs-base": "~0.7.0"
 	},
 	"require-dev": {

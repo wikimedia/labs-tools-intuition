@@ -419,4 +419,23 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->getDomainInfo( '-x-unknown' )
 		);
 	}
+
+	/**
+	 * @covers Intuition::getAvailableLangs
+	 */
+	public function testGetAvailableLangs() {
+		$langs = $this->i18n->getAvailableLangs();
+		$this->assertEquals( 'array', gettype( $langs ) );
+		$this->assertTrue( count( $langs ) > 3 );
+		$this->assertEquals( 'English', $langs['en'] );
+	}
+
+	/**
+	 * @covers Intuition::generateLanguageList
+	 */
+	public function testAvailableLangs() {
+		$precompiled = $this->i18n->getAvailableLangs();
+		$langlist = $this->i18n->generateLanguageList();
+		$this->assertEquals( $langlist, $precompiled, 'Precompiled language list is up-to-date' );
+	}
 }
