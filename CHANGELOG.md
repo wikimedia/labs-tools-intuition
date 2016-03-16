@@ -1,12 +1,50 @@
-## v0.2.0 (In development)
+## v0.2.3 (In development)
+
+### Enhancements
+
+* core: Precompile language list for performance.
 
 ### Bug fixes
 
+* core: Add English to fallback chains. (issue [#53](https://github.com/Krinkle/intuition/issues/53))
+
+## v0.2.2 (2015-11-12)
+
+Domains:
+
+* Removed orphantalk2 <https://github.com/Krinkle/mw-tool-orphantalk>
+
+## v0.2.0 (2015-11-07)
+
+Core framework now available as Composer package. See
+<https://packagist.org/packages/krinkle/intuition>. Details at
+<https://github.com/Krinkle/intuition/wiki/Migrate>.
+
+Domains:
+
+* Added whatleaveshere <https://github.com/Krinkle/mw-gadget-whatleaveshere>
+* Added tsreports <https://tools.wmflabs.org/tsreports/>
+* Added reflinks <https://tools.wmflabs.org/fengtools/reflinks/>
+* Added templatetransclusioncheck <https://tools.wmflabs.org/templatetransclusioncheck/>
+* Added dcatap <https://github.com/lokal-profil/DCAT>
+
+### Enhancements
+
+* api: Implement HTTP 304 caching for load.php and api.php.
+* core: Implement registerDomain() method for custom domains.
+* core: Rewrite using new BaseTool and Bootstrap skin.
+* js-env: Implement batching for API requests (100ms debounce).
+
+### Bug fixes
+
+* core: Generate valid html in Intuition::getPromoBox().
 * dashboard: Use "1 month" indication instead of "4 weeks".
+* demo: Fix undefined message "apple-stats" in demo8.
 
 ### Maintenance
 
-* Localisation data is now stored in JSON files instead of PHP.
+* language: Localisation data is now stored in JSON files instead of PHP.
+* language: Update Names, Rtl, and Fallbacks from latest upstream MediaWiki.
 
 ## v0.1.3 (2014-05-22)
 
