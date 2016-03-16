@@ -1,4 +1,4 @@
-## v0.2.3 (In development)
+## v0.2.3 (2016-03-16)
 
 ### Enhancements
 
