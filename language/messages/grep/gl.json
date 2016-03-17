@@ -4,6 +4,8 @@
 			"Banjo"
 		]
 	},
+	"title": "Article title grep (beta)",
+	"introduction": "Esta ferramenta amosa tódolos títulos de artigos que coinciden cun padrón de expresión regular ($1). A procura empregando unha expresión regular fai uso intensivo dos recursos. De ser posible intente usar os indicadores de prefixo (^) e de sufixo ($).",
 	"explanation": "explicación",
 	"regex": "Expresión regular",
 	"enter-details": "Insira os detalles",
@@ -13,5 +15,7 @@
 	"project-label": "Proxecto",
 	"pattern-label": "Padrón",
 	"redirects-label": "Incluír redireccións",
+	"limit-label": "Limitar a visualización ós primeiros 100 resultados",
+	"error-zeroresults": "Non existen páxinas nese espazo de nomes con títulos que coincidan coa súa expresión regular.",
 	"match-count": "{{PLURAL:$1|$1 páxina coincide|$1 páxinas coinciden}} coa súa expresión regular."
 }

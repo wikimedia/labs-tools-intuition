@@ -8,6 +8,8 @@
 	"records": "rexistros",
 	"list": "Lista",
 	"sample": "Exemplo",
+	"24hstat": "estatísticas das últimas 24 horas",
+	"pagetitle": "título da páxina",
 	"page": "Páxina",
 	"searchResults": "Resultados da procura",
 	"rank": "clasificación",
@@ -64,5 +66,6 @@
 	"save": "gardar",
 	"cancel": "cancelar",
 	"disambPage": "Páxina de homónimos",
-	"backToTop": "volver ao inicio"
+	"backToTop": "volver ao inicio",
+	"linkArticle": "Ligazón ó artigo wiki"
 }
