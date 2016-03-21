@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Amankel'dy",
-			"Arystanbek"
+			"Arystanbek",
+			"Batyrbek.kz"
 		]
 	},
 	"title_xtools": "X! құралдары",
@@ -69,7 +70,7 @@
 	"logout": "Шығу",
 	"time_ago": "$1 $2 бұрын",
 	"past_time": "өткен $1 $2",
-	"seconds": "{{PLURAL:$1|секунт|секунт}}",
+	"seconds": "{{PLURAL:$1|секунд|секунд}}",
 	"minutes": "{{PLURAL:$1|минут|минут}}",
 	"days": "соңғы {{PLURAL:$1|күнде|күнде}}",
 	"hours": "{{PLURAL:$1|сағат|сағат}}",
