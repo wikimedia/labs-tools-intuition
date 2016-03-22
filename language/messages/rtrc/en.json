@@ -1,7 +1,12 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Krinkle"
+		]
+	},
 	"title": "Real-Time Recent Changes",
 	"apply": "Apply",
+	"autodiff": "AutoDiff",
 	"asc": "Asc",
 	"changelog": "What's New",
 	"clear": "clear",
@@ -13,10 +18,12 @@
 	"desc": "Desc",
 	"documentation": "Documentation",
 	"filter": "Filter",
+	"help": "Help",
 	"helpicon-tooltip": "Learn more about this feature",
 	"lastupdate-cvn": "Last update: $1",
 	"lastupdate-rc": "Last update: $1",
 	"limit": "Limit",
+	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "MassPatrol has been disabled as it requires a user filter and none was set.",
 	"months": "January, February, March, April, May, June, July, August, September, October, November, December",
 	"mypatrollog": "my patrol log",
@@ -25,6 +32,7 @@
 	"nomatches": "No relevant changes for your settings",
 	"order": "Order",
 	"ores-damaging-probability": "Damage probability: $1",
+	"pause": "Pause",
 	"permalink": "Permalink to current settings",
 	"reload-interval": "Interval",
 	"select-placeholder-none": "(none)",
