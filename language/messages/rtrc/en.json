@@ -23,6 +23,7 @@
 	"helpicon-tooltip": "Learn more about this feature",
 	"lastupdate-cvn": "Last update: $1",
 	"lastupdate-rc": "Last update: $1",
+	"legend": "Legend",
 	"limit": "Limit",
 	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "MassPatrol has been disabled as it requires a user filter and none was set.",

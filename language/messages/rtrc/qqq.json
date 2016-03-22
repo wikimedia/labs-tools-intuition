@@ -26,6 +26,7 @@
 	"helpicon-tooltip": "Tooltip for the Help questionmark icon.",
 	"lastupdate-cvn": "Foot note showing when the CVN database was last updated. Parameters:\n* $1 - timestamp\n{{Identical|Last update}}",
 	"lastupdate-rc": "Foot note showing when the list of changes was last refreshed from the server. Parameters:\n* $1 - timestamp\n{{Identical|Last update}}",
+	"legend": "Label of the legend at the bottom of the list of changes.\n{{Identical|Legend}}",
 	"limit": "Label of dropdown menu for changing how many results to show (maximum).\n{{Identical|Limit}}",
 	"masspatrol": "Label for button to enable or disable [https://meta.wikimedia.org/wiki/User:Krinkle/Tools/Real-Time_Recent_Changes#MassPatrol MassPatrol]. This feature blindly marks all edits in the feed as patrolled (e.g. to patrolled edits by a specific user).",
 	"masspatrol-requires-userfilter": "Informing the user that MassPatrol has been disabled when the user clears the user filter (or when there was no user filter to begin with)",
