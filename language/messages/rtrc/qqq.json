@@ -13,6 +13,7 @@
 	"asc": "Label of the radio button that sets sort order to ascending.\n\nSee also:\n* {{msg-intuition|Rtrc-desc}}",
 	"changelog": "Label of link to the page about RTRC software updates.",
 	"clear": "Button to clear (or reset) a particular input field.\n{{Identical|Clear}}",
+	"close": "Button to close the change preview.\n{{Identical|Close}}",
 	"currentedit": "Example text in the legend to show what a currently selected edit looks like",
 	"cvn-adder": "Label of the user that added this item to the CVN database\n{{Identical|Adder}}",
 	"cvn-adder-empty": "Placeholder text for when the author is unknown.\n\nSee also:\n* {{msg-intuition|rtrc-cvn-adder}}\n{{Identical|Unknown}}",
@@ -41,6 +42,7 @@
 	"select-placeholder-none": "Placeholder in a dropdown menu representing the blank option.\n{{Identical|None}}",
 	"showAnonOnly": "Label of the checkbox to only show changes by anonymous users.\n{{Identical|Anon only}}",
 	"showUnpatrolledOnly": "Label of the checkbox to only show unpatrolled changes",
+	"skip": "Label of button that will skip an item in the list of changes.\n\nSee also:\n* {{msg-intuition|rtrc-skippededit}}",
 	"skippededit": "Example text in the legend to show what a skipped edit looks like",
 	"tag": "Label of the dropdown menu for filtering by change tag.\n{{Identical|Tag}}",
 	"time-from": "Label of input field containing the start date of the time range filter.\n{{Identical|From}}",
@@ -49,5 +51,6 @@
 	"type": "Section label for the change type checkboxes.\n{{Identical|Type}}",
 	"typeEdit": "Label of the checkbox to include changes that edit existing pages.\n\nSee also:\n* {{msg-intuition|Rtrc-typeNew}}\n{{Identical|Edit}}",
 	"typeNew": "Label of the checkbox to include changes that create new pages.\n\nSee also:\n* {{msg-intuition|Rtrc-typeEdit}}\n{{Identical|New page}}",
+	"unskip": "Label of the button that removes a change from the list of changes to skip and adds it back to the regular list of changes.\n\nSee also:\n* {{msg-intuition|rtrc-skip}}\n* {{msg-intuition|rtrc-skippededit}}",
 	"userfilter": "Label of username filter"
 }

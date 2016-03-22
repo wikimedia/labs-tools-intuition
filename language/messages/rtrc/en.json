@@ -10,6 +10,7 @@
 	"asc": "Asc",
 	"changelog": "What's New",
 	"clear": "clear",
+	"close": "Close",
 	"currentedit": "Currently selected edit",
 	"cvn-adder": "Adder",
 	"cvn-adder-empty": "Unknown",
@@ -38,6 +39,7 @@
 	"select-placeholder-none": "(none)",
 	"showAnonOnly": "Anonymous only",
 	"showUnpatrolledOnly": "Unpatrolled only",
+	"skip": "Skip",
 	"skippededit": "Skipped edit",
 	"tag": "Tag",
 	"time-from": "From",
@@ -46,5 +48,6 @@
 	"type": "Type",
 	"typeEdit": "Edits",
 	"typeNew": "New pages",
+	"unskip": "Unskip",
 	"userfilter": "User filter"
 }
