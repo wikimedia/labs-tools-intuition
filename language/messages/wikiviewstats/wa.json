@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srtxg"
+		]
+	},
+	"sample": "Egzimpe",
+	"pagetitle": "tite del pådje",
+	"page": "Pådje",
+	"help": "aidance",
+	"today": "ouy",
+	"all": "totafwait",
+	"allLang": "Tos les lingaedjes",
+	"other_lang": "ôtes lingaedjes",
+	"closedWikis": "cloyous wikis",
+	"language": "lingaedje",
+	"users": "{{PLURAL: $1|uzeu|uzeus}}",
+	"project": "Pordjet",
+	"template": "Modele",
+	"files": "{{PLURAL: $1|fitchî|fitchîs}}",
+	"specialPage": "Pådje sipeciåle",
+	"helpPage": "Pådje d' aidance",
+	"first": "prumî",
+	"last": "dierin",
+	"total": "totå",
+	"bots": "robots",
+	"pages": "pådjes",
+	"icons": "imådjetes",
+	"save": "schaper",
+	"cancel": "rinoncî",
+	"disambPage": "Pådje d' omonimeye"
+}
