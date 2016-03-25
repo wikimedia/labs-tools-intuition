@@ -166,6 +166,7 @@
   'uz' => 'oʻzbekcha/ўзбекча',
   'vep' => 'vepsän kel’',
   'vi' => 'Tiếng Việt',
+  'wa' => 'walon',
   'wuu' => '吴语',
   'yi' => 'ייִדיש',
   'zea' => 'Zeêuws',
