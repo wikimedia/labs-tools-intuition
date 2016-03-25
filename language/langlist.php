@@ -70,6 +70,7 @@
   'is' => 'íslenska',
   'it' => 'italiano',
   'ja' => '日本語',
+  'jbo' => 'Lojban',
   'jv' => 'Basa Jawa',
   'ka' => 'ქართული',
   'kk-cyrl' => 'қазақша (кирил)‎',
