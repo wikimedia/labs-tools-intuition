@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Linedwell"
+			"Linedwell",
+			"Wladek92"
 		]
 	},
 	"title": "Modifications récentes en temps réel",
@@ -20,6 +21,8 @@
 	"desc": "Décroissant",
 	"documentation": "Documentation",
 	"filter": "Filtre",
+	"filter-hideliu": "Masquer les utilisateurs enregistrés",
+	"filter-hidebots": "Masquer les robots",
 	"help": "Aide",
 	"helpicon-tooltip": "En savoir plus sur cette fonctionnalité",
 	"lastupdate-cvn": "Dernière mise à jour : $1",

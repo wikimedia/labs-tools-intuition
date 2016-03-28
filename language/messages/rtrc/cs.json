@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aktron"
+			"Aktron",
+			"Urbanecm"
 		]
 	},
 	"changelog": "Co je nového",
@@ -20,7 +21,9 @@
 	"namespace": "Jmenný prostor",
 	"navtoggle-tooltip": "Zobrazit postranní panel",
 	"nomatches": "Nejsou relevantní změny pro vaše nastavení.",
+	"pause": "Pozastavit",
 	"showAnonOnly": "Pouze anonymní",
+	"skip": "Přeskočit",
 	"tag": "Tag",
 	"typeNew": "Nové stránky"
 }

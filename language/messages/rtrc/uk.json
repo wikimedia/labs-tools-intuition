@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"Jbuket",
+			"Visem"
 		]
 	},
 	"title": "Останні зміни в режимі реального часу",
@@ -9,6 +11,7 @@
 	"asc": "Зрост",
 	"changelog": "Що нового",
 	"clear": "очистити",
+	"close": "Закрити",
 	"currentedit": "Поточно вибране редагування",
 	"cvn-adder": "Доповнення",
 	"cvn-adder-empty": "Невідомий",
@@ -17,6 +20,10 @@
 	"desc": "Спад",
 	"documentation": "Документація",
 	"filter": "Фільтр",
+	"filter-hideliu": "Приховати зареєстрованих користувачів",
+	"filter-hidebots": "Приховати ботів",
+	"filter-unpatrolled": "Приховати відпатрульовані редагування",
+	"help": "Допомога",
 	"helpicon-tooltip": "Дізнайтеся більше про цю функцію",
 	"lastupdate-cvn": "Останнє оновлення: $1",
 	"lastupdate-rc": "Останнє оновлення: $1",
@@ -34,6 +41,7 @@
 	"select-placeholder-none": "(нема)",
 	"showAnonOnly": "Анонім тільки",
 	"showUnpatrolledOnly": "Непатрульований тільки",
+	"skip": "Пропустити",
 	"skippededit": "Пропущені редагування",
 	"tag": "Мітка",
 	"time-from": "Від",
