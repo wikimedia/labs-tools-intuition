@@ -3,7 +3,8 @@
 		"authors": [
 			"Haqmar",
 			"Sagan",
-			"ҒатаУлла"
+			"ҒатаУлла",
+			"Азат Хәлилов"
 		]
 	},
 	"hello": "Сәләм",
@@ -13,7 +14,7 @@
 	"namespace": "Исемдәр арауығы",
 	"form-submit": "Күсеү",
 	"form-reset": "таҙартырға",
-	"years": "$1 {{PLURAL:$1|йыл|йылдар}}",
+	"years": "$1 {{PLURAL:$1|йыл}}",
 	"weeks": "$1 {{PLURAL:$1|аҙна}}",
 	"days": "$1 {{PLURAL:$1|көн}}",
 	"hours": "{{PLURAL:$1|$1 сәғәт}}",

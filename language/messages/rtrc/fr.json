@@ -23,6 +23,7 @@
 	"filter": "Filtre",
 	"filter-hideliu": "Masquer les utilisateurs enregistrés",
 	"filter-hidebots": "Masquer les robots",
+	"filter-unpatrolled": "Masquer les modifications patrouillées",
 	"help": "Aide",
 	"helpicon-tooltip": "En savoir plus sur cette fonctionnalité",
 	"lastupdate-cvn": "Dernière mise à jour : $1",
