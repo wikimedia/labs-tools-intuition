@@ -2,10 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"He7d3r",
-			"Krinkle"
+			"Krinkle",
+			"Vitorvicentevalente"
 		]
 	},
 	"apply": "Aplicar",
+	"filter-hideliu": "Ocultar utilizadores registados",
+	"filter-hidebots": "Ocultar robôs",
+	"filter-unpatrolled": "Ocultar edições patrulhadas",
 	"limit": "Limite",
 	"order": "Ordem",
 	"type": "Tipo",

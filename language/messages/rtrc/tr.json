@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent"
+			"Uğurkent",
+			"Hbseren",
+			"Sayginer"
 		]
 	},
-	"cvn-reason": "Gerekçe"
+	"cvn-reason": "Gerekçe",
+	"filter-hideliu": "Kayıtlı kullanıcıları gizle",
+	"filter-hidebots": "Botları gizle",
+	"filter-unpatrolled": "Devriye düzenlemelerini gizle",
+	"skip": "Atla"
 }
