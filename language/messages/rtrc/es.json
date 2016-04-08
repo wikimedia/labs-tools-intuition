@@ -4,11 +4,13 @@
 			"Fitoschido",
 			"Krinkle",
 			"Macofe",
-			"VegaDark"
+			"VegaDark",
+			"AlvaroMolina"
 		]
 	},
 	"title": "Cambios recientes en tiempo real",
 	"apply": "Aplicar",
+	"autodiff": "AutoDiff",
 	"asc": "Asc",
 	"changelog": "Novedades",
 	"clear": "vaciar",
@@ -30,6 +32,7 @@
 	"lastupdate-rc": "Última actualización: $1",
 	"legend": "Leyenda",
 	"limit": "Límite",
+	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "MassPatrol se ha desactivado porque requiere un filtro de usuario y no se creó ninguno.",
 	"months": "Enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre",
 	"mypatrollog": "mi registro de verificación",
@@ -53,5 +56,6 @@
 	"type": "Tipo",
 	"typeEdit": "Ediciones",
 	"typeNew": "Páginas nuevas",
+	"unskip": "Unskip",
 	"userfilter": "Filtro de usuario"
 }

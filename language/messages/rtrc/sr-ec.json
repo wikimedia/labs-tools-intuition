@@ -18,6 +18,8 @@
 	"desc": "Опис",
 	"documentation": "Документација",
 	"filter": "Филтер",
+	"filter-hideliu": "Сакриј регистроване кориснике",
+	"filter-hidebots": "Сакриј ботове",
 	"helpicon-tooltip": "Више о функцији",
 	"lastupdate-cvn": "Последње ажурирање: $1",
 	"lastupdate-rc": "Последње ажурирање: $1",
