@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"KuboF"
+			"KuboF",
+			"Robin van der Vliet"
 		]
 	},
 	"title": "Realtempaj lastaj ŝanĝoj",
-	"apply": "Apliki"
+	"apply": "Apliki",
+	"close": "Fermi"
 }

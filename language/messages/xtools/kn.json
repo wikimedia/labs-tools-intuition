@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Omshivaprakash"
+			"Omshivaprakash",
+			"రహ్మానుద్దీన్"
 		]
 	},
 	"title_xtools": "X!'ನ ಸಲಕರಣೆಗಳು",
@@ -14,7 +15,7 @@
 	"tool_rangecontribs": "ಸಂಪಾದನೆಗಳ ಶ್ರೇಣಿ",
 	"tool_adminstats": "ಮೇಲ್ವಿಚಾರಕಅಂಕಿಅಂಶಗಳು",
 	"optional": "ಐಚ್ಛಿಕ",
-	"username": "ಬಳಕೆದಾರ ಹೆಸರು",
+	"username": "ಬಳಕೆದಾರರ ಹೆಸರು",
 	"users": "{{PLURAL: $1|ಬಳಕೆದಾರ|ಬಳಕೆದಾರರು}}",
 	"searchresult": "ಶೋಧನೆಯ ಫಲಿತಾಂಶಗಳು",
 	"submit": "ಸಲ್ಲಿಸಿ",

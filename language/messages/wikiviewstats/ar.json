@@ -8,6 +8,9 @@
 	"help": "المساعدة",
 	"all": "الكل",
 	"discussion": "نقاش",
+	"isRedirect": "هذه الصفحة تحويلة",
+	"disambPage": "صفحة توضيح",
+	"showRedir": "أظهر التحويلات",
 	"numPageWatchers": "عدد مراقبي الصفحة",
 	"linkStats": "وصلة لإحصاءات الصفحة"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Akoppad",
-			"M G Harish"
+			"M G Harish",
+			"రహ్మానుద్దీన్"
 		]
 	},
 	"error-tryagain": "$1 ನಿಮ್ಮ ಜಾಲವೀಕ್ಷಕದ ಹಿಂದೆ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
@@ -15,7 +16,7 @@
 	"th-original": "ಅಸಲು",
 	"th-translation": "ಅನುವಾದಗಳು",
 	"th-language": "ಭಾಷೆಗಳು",
-	"th-username": "ಬಳಕೆದಾರ ಹೆಸರು",
+	"th-username": "ಬಳಕೆದಾರರ ಹೆಸರು",
 	"th-password": "ಪ್ರವೇಶಪದ",
 	"th-method": "ವಿಧಾನ",
 	"option-oauth": "TUSC (ಸ್ವಯಂಚಾಲಿತ ನಕಲೇರಿಸುವಿಕೆ)",
