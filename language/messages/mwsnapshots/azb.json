@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mousa"
+			"Mousa",
+			"Alp Er Tunqa"
 		]
 	},
-	"title-overview": "شکیل‌لر",
+	"title-overview": "فوری عکسلر",
 	"title-error": "خطا",
 	"title-updatelog": "گونجل‌لمک قئیدلری",
 	"updatelog-intro": "گونجل‌لمک اسکریپتی هر ساعات‌دا بیر دفعه چالیشماغا پلانلانیب‌دیر. آشاغیدا اونون سون چالیشماسینین کونسول چیختیسینی گؤرونور.",
@@ -24,7 +25,7 @@
 	"branches-submit-button": "اونو گؤتور!",
 	"updatelog-link": "گونجل‌لمک قئیدلری",
 	"tablehead-repo": "آنبار",
-	"tablehead-snapshots": "شکیل‌لر",
+	"tablehead-snapshots": "فوری عکسلر",
 	"tablehead-branch": "بوداق",
 	"tablehead-filesize": "فایل اؤلچو",
 	"tablehead-hash": "ساغلاما توپلاملاری"
