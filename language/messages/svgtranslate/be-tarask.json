@@ -3,7 +3,8 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"title": "Пераклад SVG-файлаў",
@@ -20,7 +21,7 @@
 	"th-username": "Імя карыстальніка",
 	"th-password": "Пароль",
 	"th-method": "Мэтад",
-	"option-oauth": "TUSC (аўтаматычная загрузка)",
+	"option-oauth": "OAuth (аўтаматычная загрузка)",
 	"option-manual": "Ручная загрузка",
 	"preview": "Папярэдні прагляд",
 	"translate": "Перакласьці",
