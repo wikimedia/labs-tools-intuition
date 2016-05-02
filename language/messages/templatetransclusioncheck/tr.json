@@ -5,9 +5,24 @@
 			"Rapsar"
 		]
 	},
+	"title": "Şablon bağlantı ve görüntüleme kontrolü",
+	"form-label-language": "Dil:",
 	"form-label-template": "Şablon adı:",
+	"form-label-template2": "(isim alanı dahil)",
+	"form-label-complete": "Tam bir rapor oluştur:",
+	"feedback-template-missing": "Şablon $1 henüz mevcut değil.",
+	"feedback-result": "Sonuçlar: $1",
+	"feedback-header-mismatch": "Görüntüleme ve bağlantılar arasındaki uyumsuzluklar",
+	"feedback-header-no-link": "Şablon görüntüleniyor ancak şablonda bağlantı yok",
+	"feedback-header-no-transclusion": "Şablonda bağlantı var ancak şablon görüntülenmiyor",
+	"feedback-header-redirects": "Yönlendirme bağlantıları",
 	"feedback-total-count": "Toplam: $1",
+	"feedback-header-complete": "Tüm görüntüleme ve bağlantılara genel bakış",
+	"feedback-header-transclusions": "Şablonun görüntülendiği sayfalar",
+	"feedback-header-links": "Şablondaki bağlantılar",
 	"link-edit": "değiştir",
 	"link-create": "oluştur",
-	"footer-stats": "Oluşturuldu: $1. Süre: $2 {{PLURAL:$2|saniye|saniye}}."
+	"link-complete": "Tam bir rapor...",
+	"footer-stats": "Oluşturuldu: $1. Süre: $2 {{PLURAL:$2|saniye|saniye}}.",
+	"error-language": "Bilinmeyen dil kodu."
 }

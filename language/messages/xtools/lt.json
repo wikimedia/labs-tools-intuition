@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Pofka",
-			"Tomasdd"
+			"Tomasdd",
+			"Zygimantus"
 		]
 	},
 	"title_xtools": "X! įrankiai",
@@ -41,6 +42,7 @@
 	"nocontribs": "Indėlis nerastas",
 	"executed": "Įvykdyta per $1 sekundes",
 	"username": "Naudotojo vardas",
+	"users": "{{PLURAL: $1|Naudotojas|Naudotojai}}",
 	"searchresult": "Paieškos rezultatai",
 	"submit": "Pateikti",
 	"source": "Peržiūros šaltinis",
@@ -66,9 +68,18 @@
 	"logout": "Atsijungti",
 	"time_ago": "$1 $2 prieš",
 	"past_time": "paskutiniai $1 $2",
+	"seconds": "{{PLURAL:$1|1 sekundė|$1 sekundės}}",
+	"minutes": "{{PLURAL: $1|minutė|minučių}}",
+	"days": "{{PLURAL: $1|diena|dienos}}",
+	"hours": "{{PLURAL: $1|valanda|valandos}}",
+	"weeks": "{{PLURAL: $1|savaitė|savaitės}}",
+	"months": "{{PLURAL: $1|mėnuo|mėnesiai}}",
+	"years": "$1 {{PLURAL:$1|metai|metai|metų}}",
+	"authors": "{{PLURAL: $1|Autorius|Autoriai}}",
 	"start": "Pradžios data",
 	"end": "Pabaigos data",
 	"text": "Tekstas",
+	"namespace": "Vardų sritis",
 	"more": "Daugiau",
 	"approximate": "apytikslis",
 	"see_full_page_stats": "Peržiūrėti visų puslapių statistiką",

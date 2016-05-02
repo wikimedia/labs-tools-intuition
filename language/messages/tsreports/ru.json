@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras"
+			"Okras",
+			"Putnik"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Изменить язык / настройки</a>",

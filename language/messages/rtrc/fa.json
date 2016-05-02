@@ -4,7 +4,8 @@
 			"Fatemi127",
 			"Pouyana",
 			"Reza1615",
-			"Leyth"
+			"Leyth",
+			"AzorAhai"
 		]
 	},
 	"title": "تغییرات اخیر در زمان واقعی",
@@ -12,6 +13,7 @@
 	"asc": "صعودی",
 	"changelog": "تازه‌ها",
 	"clear": "پاک‌کردن",
+	"close": "بستن",
 	"currentedit": "ویرایش انتخاب‌شده فعلی",
 	"cvn-adder": "اضافه‌کننده",
 	"cvn-adder-empty": "ناشناس",
@@ -20,6 +22,9 @@
 	"desc": "نزولی",
 	"documentation": "مستندات",
 	"filter": "پالایه",
+	"filter-hidebots": "نهفتن ربات‌ها",
+	"filter-unpatrolled": "پنهان کردن ویرایش‌های گشت‌خورده",
+	"help": "راهنما",
 	"helpicon-tooltip": "دربارهٔ این ویژگی بیشتر مطالعه کنید",
 	"lastupdate-cvn": "آخرین به روز رسانی:$1",
 	"lastupdate-rc": "آخرین به روز رسانی:$1",
