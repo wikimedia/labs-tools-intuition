@@ -3,6 +3,7 @@
 		"authors": [
 			"Krinkle",
 			"Liuxinyu970226",
+			"Lokal_Profil",
 			"McDutchie",
 			"Multichill",
 			"Shirayuki",
@@ -27,7 +28,7 @@
 	"db-field-lon": "Translation of the field \"longitude\" in the monuments database.",
 	"db-field-image": "Translation of the field \"image\" in the monuments database.\n{{Identical|Image}}",
 	"db-field-changed": "Translation of the field \"changed\" in the monuments database. This field contains the time when the record was last imported in the database.",
-	"db-field-source": "Translation of the field \"source\" in the monuments database. The source field contains a link to the Wikipedia list from which the data was imported.\n{{Identical|Source}}",
+	"db-field-source": "Translation of the field \"source\" in the monuments database. The source field contains a link to the list on a Wikimedia project from which the data was imported.\n{{Identical|Source}}",
 	"db-field-monument_article": "Translation of the field \"monument_article\" in the monuments database. This is the title of a wiki page about the monument.",
 	"db-field-registrant_url": "Translation of the field \"registrant_url\" in the monuments database.\n\nExamples of registrant URLs:\n* http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=PA00088517\n* http://register.muinas.ee/?menuID=monument&action=view&id=20875",
 	"db-field-st_address": "{{Identical|Address}}",
@@ -41,8 +42,10 @@
 	"db-field-st_name": "{{Identical|Name}}",
 	"db-field-st_name_pct": "{{Identical|Name}}",
 	"db-field-st_total": "{{Identical|Total number}}",
+	"db-field-commonscat": "Translation of the field \"commonscat\" in the monuments database. This is the title of a category on Wikimedia Commons with images of the monument.",
 	"toolbox-nav-homepage": "{{Identical|Homepage}}",
 	"toolbox-nav-statistics": "{{Identical|Statistics}}",
 	"toolbox-nav-search": "{{Identical|Search}}",
-	"location": "{{Identical|Location}}"
+	"location": "{{Identical|Location}}",
+	"source-monuments-list": "Link text for the \"source\" link. The link goes to the list on a Wikimedia project from which the data was imported."
 }
