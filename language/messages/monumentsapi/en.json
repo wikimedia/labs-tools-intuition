@@ -32,6 +32,7 @@
 	"db-field-st_name": "Names",
 	"db-field-st_name_pct": "Names %",
 	"db-field-st_total": "Total number",
+	"db-field-commonscat": "Commons Category",
 	"toolbox-label-searchtipps": "use %term or term% or %term% for fuzzy search",
 	"toolbox-meta-title": "Wiki Loves Monuments Toolbox",
 	"toolbox-main-title": "WLM Toolbox",
@@ -42,5 +43,6 @@
 	"toolbox-nav-search": "Search",
 	"toolbox-title-searchmonuments": "Search monuments",
 	"location": "Location",
-	"source-monuments-list-on-wikipedia": "Source monuments list on Wikipedia"
+	"source-monuments-list-on-wikipedia": "Source monuments list on Wikipedia",
+	"source-monuments-list": "Source monuments list on a Wikimedia project"
 }
