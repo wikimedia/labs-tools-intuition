@@ -3,7 +3,8 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"search-title": "Пошук славутасьцяў",
@@ -37,6 +38,7 @@
 	"db-field-st_name": "Назвы",
 	"db-field-st_name_pct": "% назваў",
 	"db-field-st_total": "Агульная колькасьць",
+	"db-field-commonscat": "Катэгорыя Вікісховішча",
 	"toolbox-label-searchtipps": "выкарыстоўвайце %запыт or запыт% ці %запыт% для недакладнага пошуку",
 	"toolbox-meta-title": "Прылады «Вікі любіць славутасьці»",
 	"toolbox-main-title": "WLM Toolbox",

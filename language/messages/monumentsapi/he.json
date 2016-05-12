@@ -37,6 +37,7 @@
 	"db-field-st_name": "שמות",
 	"db-field-st_name_pct": "שמות %",
 	"db-field-st_total": "מספר כולל",
+	"db-field-commonscat": "קטגוריה בוויקישיתוף",
 	"toolbox-label-searchtipps": "יש להשתמש במחרוזת %term or term% or %term% לחיפוש מטושטש",
 	"toolbox-meta-title": "ארגז כלים של ויקי־מורשת",
 	"toolbox-main-title": "ארגז כלים של ויקי־מורשת",
@@ -47,5 +48,6 @@
 	"toolbox-nav-search": "חיפוש",
 	"toolbox-title-searchmonuments": "חיפוש אתרי מורשת",
 	"location": "מיקום",
-	"source-monuments-list-on-wikipedia": "רשימת האנדרטאות המקורית בוויקיפדיה"
+	"source-monuments-list-on-wikipedia": "רשימת האנדרטאות המקורית בוויקיפדיה",
+	"source-monuments-list": "רשימת האתרים המקורית במיזם ויקימדיה"
 }

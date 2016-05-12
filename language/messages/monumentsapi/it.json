@@ -40,6 +40,7 @@
 	"db-field-st_name": "Nomi",
 	"db-field-st_name_pct": "Nomi %",
 	"db-field-st_total": "Numero totale",
+	"db-field-commonscat": "Categoria Commons",
 	"toolbox-label-searchtipps": "utilizzare il % termine o termine% o  %termine%  per la ricerca fuzzy",
 	"toolbox-meta-title": "Strumento Wiki Ama i Monumenti",
 	"toolbox-main-title": "Strumenti WAM",
@@ -50,5 +51,6 @@
 	"toolbox-nav-search": "Cerca",
 	"toolbox-title-searchmonuments": "Ricerca monumenti",
 	"location": "Ubicazione",
-	"source-monuments-list-on-wikipedia": "Procurarsi una lista di monumenti su Wikipedia"
+	"source-monuments-list-on-wikipedia": "Procurarsi una lista di monumenti su Wikipedia",
+	"source-monuments-list": "Elenco monumenti di origine su un progetto di Wikimedia"
 }

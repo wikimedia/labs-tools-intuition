@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Elya",
-			"Kghbln"
+			"Kghbln",
+			"Metalhead64"
 		]
 	},
 	"search-title": "Denkmalsuche",
@@ -36,6 +37,7 @@
 	"db-field-st_name": "Namen",
 	"db-field-st_name_pct": "Namen %",
 	"db-field-st_total": "Gesamtzahl",
+	"db-field-commonscat": "Commons-Kategorie",
 	"toolbox-label-searchtipps": "%wort oder wort% oder %wort% für eine tolerante Suche verwenden",
 	"toolbox-meta-title": "„Wiki Loves Monuments“-Werkzeugkasten",
 	"toolbox-main-title": "WLM-Werkzeugkasten",
@@ -46,5 +48,6 @@
 	"toolbox-nav-search": "Suche",
 	"toolbox-title-searchmonuments": "Denkmalsuche",
 	"location": "Standort",
-	"source-monuments-list-on-wikipedia": "Liste der Denkmäler in der Wikipedia mit Quellen versehen"
+	"source-monuments-list-on-wikipedia": "Liste der Denkmäler in der Wikipedia mit Quellen versehen",
+	"source-monuments-list": "Quelldenkmalliste auf einem Wikimedia-Projekt"
 }

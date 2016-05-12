@@ -5,7 +5,8 @@
 			"Hashar",
 			"Otourly",
 			"Peter17",
-			"VIGNERON"
+			"VIGNERON",
+			"Wladek92"
 		]
 	},
 	"search-title": "Recherche de monuments",
@@ -39,6 +40,7 @@
 	"db-field-st_name": "Noms",
 	"db-field-st_name_pct": "Noms %",
 	"db-field-st_total": "Nombre total",
+	"db-field-commonscat": "Categorie Commons",
 	"toolbox-label-searchtipps": "utilisez %term or term% ou %term% pour une recherche floue",
 	"toolbox-meta-title": "Boîte à outils Monuments aimés de Wiki",
 	"toolbox-main-title": "Boîte à outils WLM",
@@ -49,5 +51,6 @@
 	"toolbox-nav-search": "Rechercher",
 	"toolbox-title-searchmonuments": "Rechercher des monuments",
 	"location": "Emplacement",
-	"source-monuments-list-on-wikipedia": "Liste des monuments d'origine sur Wikipédia"
+	"source-monuments-list-on-wikipedia": "Liste des monuments d'origine sur Wikipédia",
+	"source-monuments-list": "Liste des monuments source sur un projet Wikimédia"
 }

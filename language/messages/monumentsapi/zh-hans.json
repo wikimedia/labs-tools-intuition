@@ -5,7 +5,8 @@
 			"Hzy980512",
 			"Qiyue2001",
 			"Shirayuki",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Liuxinyu970226"
 		]
 	},
 	"search-title": "搜寻古迹",
@@ -39,6 +40,7 @@
 	"db-field-st_name": "名称",
 	"db-field-st_name_pct": "名称 %",
 	"db-field-st_total": "总数",
+	"db-field-commonscat": "共享资源分类",
 	"toolbox-label-searchtipps": "使用 %term 或 term% 或 %term% 来模糊搜索",
 	"toolbox-meta-title": "维基爱古迹工具箱",
 	"toolbox-main-title": "WLM工具箱",
@@ -49,5 +51,6 @@
 	"toolbox-nav-search": "搜索",
 	"toolbox-title-searchmonuments": "寻找古迹",
 	"location": "位置",
-	"source-monuments-list-on-wikipedia": "维基百科上古迹列表的来源"
+	"source-monuments-list-on-wikipedia": "维基百科上古迹列表的来源",
+	"source-monuments-list": "维基百科项目上的古迹列表来源"
 }

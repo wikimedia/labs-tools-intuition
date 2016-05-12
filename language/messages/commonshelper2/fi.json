@@ -3,10 +3,11 @@
 		"authors": [
 			"Avjoska",
 			"Nike",
-			"Olli"
+			"Olli",
+			"Alluk."
 		]
 	},
-	"attention": "Huomio",
+	"attention": "Huomautus",
 	"description": "Työkalu tiedostojen siirtoon Wikimedian projekteista Wikimedia Commonsiin",
 	"change_meta": "Vaihda wikin $3 $1luokka- ja mallineasetuksia$2",
 	"jira_link": "Ilmoita virheestä tai ehdota uutta ominaisuutta",
@@ -14,7 +15,7 @@
 	"project": "Projekti",
 	"source_file": "Lähdetiedosto",
 	"target_file": "Kohdetiedosto",
-	"commons_username": "Kasutajanimi Wikimedia Commonsis",
+	"commons_username": "Wikimedia Commons -käyttäjänimi",
 	"commons_to_project": "Wikimedia Commonsista projektiin",
 	"move_file_from_com": "Siirrä tiedosto Wikimedia Commonsista toiseen projektiin",
 	"categories": "Luokat",
@@ -39,10 +40,10 @@
 	"upload_submit": "Tallenna!",
 	"target_wiki": "kohdewiki",
 	"error_bot_blocked": "Latausbotti on estetty Wikimedia Commonsissa.",
-	"error_upload_meta": "Suora lataus epäonnistui, koska metatietojen kanssa oli ongelmia (katso yllä)!",
+	"error_upload_meta": "Suora lataus epäonnistui, koska metatietojen kanssa oli ongelmia (lisätietoja yläpuolella)!",
 	"error_tusc_failed": "TUSC-vahvistus epäonnistui!",
 	"error_only_commons": "Suora lataus toimii vain Wikimedia Commonsissa!",
-	"upload_control_text": "Tarkista uusi wikiteksti ja napsauta \"$1\" jos kaikki on ok!",
+	"upload_control_text": "Tarkista uusi wikiteksti ja napsauta \"$1\", jos kaikki on kunnossa!",
 	"error_commons_user": "Jotta siirtänyt käyttäjä voidaan tunnistaa, Wikimedia Commons -käyttäjätunnuksesi täytyy olla kuvauksessa!",
 	"error_upload_users": "Lataustoiminto on saatavilla vain joillekin käyttäjille testijakson aikana!",
 	"error_upload_file": "Alkuperäistä tiedostoa ei voida ladata.",

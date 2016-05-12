@@ -39,6 +39,7 @@
 	"db-field-st_name": "Nombres",
 	"db-field-st_name_pct": "% de nombres",
 	"db-field-st_total": "Número total",
+	"db-field-commonscat": "Categoría de Commons",
 	"toolbox-label-searchtipps": "usa %term o term% o %term% para búsquedas por aproximación",
 	"toolbox-meta-title": "Herramientas de Wiki Loves Monuments",
 	"toolbox-main-title": "Caja de herramientas WLM",

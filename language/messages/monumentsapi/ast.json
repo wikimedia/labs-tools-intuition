@@ -35,6 +35,7 @@
 	"db-field-st_name": "Nomes",
 	"db-field-st_name_pct": "Nomes %",
 	"db-field-st_total": "Númberu total",
+	"db-field-commonscat": "Categoría de Commons",
 	"toolbox-label-searchtipps": "usa %term o term% o %term% pa una gueta aproximada",
 	"toolbox-meta-title": "Caxa de ferramientes  de Wiki Loves Monuments",
 	"toolbox-main-title": "Caxa de ferramientes de WLM",
@@ -45,5 +46,6 @@
 	"toolbox-nav-search": "Guetar",
 	"toolbox-title-searchmonuments": "Guetar monumentos",
 	"location": "Allugamientu",
-	"source-monuments-list-on-wikipedia": "Llista de monumentos d'orixe na Wikipedia"
+	"source-monuments-list-on-wikipedia": "Llista de monumentos d'orixe na Wikipedia",
+	"source-monuments-list": "Llista de monumentos d'orixe nun proyeutu de Wikimedia"
 }

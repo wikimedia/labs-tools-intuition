@@ -17,7 +17,7 @@
 	"select_wiki": "Escribe el wiki del que te gustaría un informe (por ejemplo, \"<kbd>es.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "Siguiente →",
 	"select_report_title": "Seleccione un informe para que se ejecute en %(wiki)s",
-	"select_report": "Por favor, seleccione un informe:",
+	"select_report": "Selecciona un informe:",
 	"select_report_disabled": "Este informe no está disponible.",
 	"select_report_disabled_blurb": "Nota: los reportes <span class=\"disabled-report\">como este</span> son consultas nocturnas que nunca se ejecutaron. Por lo tanto, n ohay resultados disponibles para estos reportes. Una vez que termine el próximo reporte nocturno, estos reportes estarán disponibles.",
 	"select_report_not_cached": "No hay ninguna versión en caché de este reporte. Sigue el enlace para iniciar la primera ejecución.",
