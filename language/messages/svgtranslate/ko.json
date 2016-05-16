@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"title": "SVG 번역",
@@ -18,7 +19,7 @@
 	"th-username": "사용자 이름",
 	"th-password": "비밀번호",
 	"th-method": "방식",
-	"option-oauth": "TUSC (자동 올리기)",
+	"option-oauth": "OAuth (자동 업로드)",
 	"option-manual": "수동 올리기",
 	"preview": "미리 보기",
 	"translate": "번역",

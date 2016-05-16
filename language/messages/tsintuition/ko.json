@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Kwj2772",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
-	"fullname": "도구에 대한 국제화",
+	"fullname": "도구의 국제화",
 	"current-settings": "현재 설정",
 	"current-language": "현재 선택한 언어",
 	"settings-legend": "설정",
