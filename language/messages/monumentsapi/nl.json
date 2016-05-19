@@ -4,7 +4,8 @@
 			"Multichill",
 			"SPQRobin",
 			"Siebrand",
-			"Wiki13"
+			"Wiki13",
+			"Jeleniccz"
 		]
 	},
 	"search-title": "Monumenten zoeken",
@@ -38,6 +39,7 @@
 	"db-field-st_name": "Namen",
 	"db-field-st_name_pct": "Namen %",
 	"db-field-st_total": "Totaal aantal",
+	"db-field-commonscat": "Commons categorie",
 	"toolbox-label-searchtipps": "gebruik %trefwoord, trefwoord% of %trefwoord% voor fuzzyzoeken",
 	"toolbox-meta-title": "Werkbalk voor Wiki Loves Monuments",
 	"toolbox-main-title": "Werkbalk WLM",
@@ -48,5 +50,6 @@
 	"toolbox-nav-search": "Zoeken",
 	"toolbox-title-searchmonuments": "Monumenten zoeken",
 	"location": "Locatie",
-	"source-monuments-list-on-wikipedia": "Monumentenbronlijst op Wikipedia"
+	"source-monuments-list-on-wikipedia": "Monumentenbronlijst op Wikipedia",
+	"source-monuments-list": "Bron monumenten lijst op een Wikimedia-project"
 }

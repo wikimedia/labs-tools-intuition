@@ -4,13 +4,22 @@
 			"Papuass"
 		]
 	},
+	"records": "ieraksti",
 	"list": "Saraksts",
 	"sample": "Piemērs",
+	"pageviews": "skatījumi",
+	"24hstat": "24 stundu statistika",
+	"pagetitle": "lapas nosaukums",
 	"page": "Lapa",
+	"settings": "Iestatījumi",
 	"help": "palīdzība",
 	"today": "šodien",
 	"allLang": "Visas valodas",
 	"other_lang": "citas valodas",
+	"closedWikis": "slēgtās vikivietnes",
+	"misc": "dažādi",
+	"language": "valoda",
+	"users": "{{PLURAL:$1|dalībnieki|dalībnieks|dalībnieki}}",
 	"project": "Projekts",
 	"category": "Kategorija",
 	"helpPage": "Palīdzības lapa",
@@ -19,7 +28,10 @@
 	"bureaucrats": "birokrāti",
 	"articles": "raksti",
 	"pages": "lapas",
+	"testmode": "Testa režīms",
 	"urlParameter": "URL parametrs",
+	"isRedirect": "Šī lapa ir pāradresācija",
+	"disambPage": "Nozīmju atdalīšanas lapa",
 	"addToWorkList": "pievienot darbu sarakstam",
 	"projectPages": "Projekta lapas"
 }

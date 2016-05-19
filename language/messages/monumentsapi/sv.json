@@ -39,6 +39,7 @@
 	"db-field-st_name": "Namn",
 	"db-field-st_name_pct": "Namn %",
 	"db-field-st_total": "Totalt antal",
+	"db-field-commonscat": "Commons-kategori",
 	"toolbox-label-searchtipps": "använd %term eller term% eller %term% för oskarp sökning",
 	"toolbox-meta-title": "Wiki Loves Monuments verktygslåda",
 	"toolbox-main-title": "WLM-verktygslåda",
@@ -49,5 +50,6 @@
 	"toolbox-nav-search": "Sök",
 	"toolbox-title-searchmonuments": "Sök monument",
 	"location": "Plats",
-	"source-monuments-list-on-wikipedia": "Källmonumentslista på Wikipedia"
+	"source-monuments-list-on-wikipedia": "Källmonumentslista på Wikipedia",
+	"source-monuments-list": "Källmonumentslista på ett Wikimedia-projekt"
 }

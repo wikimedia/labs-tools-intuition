@@ -13,7 +13,7 @@
 	"pb-change-language": "Canvia l’idioma",
 	"pb-comment": "Comentari",
 	"pb-confirmations-taken": "Confirmacions rebudes",
-	"pb-current-confirmations": "Hi ha $1 confirmacions en total, això significa aproximadament <abbr title=\"<span class=\" notranslate\"=\"\" translate=\"no\">$2</span>\">$3</abbr> confirmacions per dia.",
+	"pb-current-confirmations": "Hi ha $1 confirmacions en total, això significa aproximadament <abbr title=\"$2\">$3</abbr> confirmacions per dia.",
 	"pb-current-figures": "Dades actuals",
 	"pb-current-users": "De moment, $1 usuaris participen en el projecte <em>Personal Acquaintances</em>.",
 	"pb-date": "Data",

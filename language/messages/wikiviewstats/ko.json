@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Revi",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"records": "기록",
@@ -49,7 +50,7 @@
 	"log": "기록",
 	"size": "크기",
 	"revisions": "판",
-	"first": "첫번째",
+	"first": "첫 번째",
 	"last": "마지막",
 	"total": "총계",
 	"deleted": "삭제된 항목",

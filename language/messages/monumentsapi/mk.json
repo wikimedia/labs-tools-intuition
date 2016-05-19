@@ -35,6 +35,7 @@
 	"db-field-st_name": "Имиња",
 	"db-field-st_name_pct": "Имиња %",
 	"db-field-st_total": "Вкупно",
+	"db-field-commonscat": "Категорија на Ризницата",
 	"toolbox-label-searchtipps": "употребете %term или term% или %term% за попустливо пребарување",
 	"toolbox-meta-title": "Алатник на „Вики ги сака спомениците“",
 	"toolbox-main-title": "Алатник на ВСС",
@@ -45,5 +46,6 @@
 	"toolbox-nav-search": "Пребарај",
 	"toolbox-title-searchmonuments": "Пребарување на споменици",
 	"location": "Место",
-	"source-monuments-list-on-wikipedia": "Изворен список на споменици на Википедија"
+	"source-monuments-list-on-wikipedia": "Изворен список на споменици на Википедија",
+	"source-monuments-list": "Изворен список на споменици на Викимедиин проект"
 }
