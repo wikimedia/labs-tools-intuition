@@ -11,7 +11,7 @@
 	"pb-comment": "تعليق",
 	"pb-confirmations-given": "التأكيدات المعطاة",
 	"pb-confirmations-taken": "التأكيدات المتوصّل بها",
-	"pb-current-confirmations": "هناك  $1  تأكيدات في المجموع، حوالي <abbr title=\"<span class=\" notranslate\"=\"\" translate=\"no\">$2 \"> $3  </abbr> تأكيد لليوم الواحد.",
+	"pb-current-confirmations": "هناك  $1  تأكيدات في المجموع، حوالي <abbr title=\"$2\">$3</abbr> تأكيد لليوم الواحد.",
 	"pb-current-figures": "الأوجه الحاليّة",
 	"pb-current-users": "هؤلاء  المستخدمون $1 شاركوا في مشروع <em>المعارف الشخصية</em> :",
 	"pb-date": "التاريخ",

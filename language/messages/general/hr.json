@@ -2,22 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"Ex13",
-			"Teoo3"
+			"Teoo3",
+			"MaGa"
 		]
 	},
 	"hello": "Pozdrav",
 	"welcome": "Dobrodošli",
+	"toolversion": "Inačica $1",
 	"toolversionstamp": "Inačica $1 ($2)",
 	"etc": "itd.",
 	"namespace": "Imenski prostor",
 	"form-submit": "Idi",
 	"form-reset": "Poništi",
 	"years": "{{PLURAL: $1|godina|godine|godina}}",
+	"months": "{{PLURAL: $1|mjesec|mjeseca|mjeseci}}",
 	"weeks": "{{PLURAL: $1|tjedan|tjedna|tjedana}}",
 	"days": "{{PLURAL: $1|dan|dana}}",
 	"hours": "{{PLURAL: $1|sat|sati}}",
 	"minutes": "{{PLURAL: $1|minuta|minute|minuta}}",
 	"seconds": "{{PLURAL: $1|sekunda|sekunde|sekundi}}",
 	"last-modified-date": "Zadnja izmjena: $1",
-	"view-source": "Prikaži izvor"
+	"view-source": "Prikaži izvor",
+	"and": "&#32;i"
 }

@@ -17,7 +17,7 @@
 	"pb-current-figures": "Aktoälle Zahle",
 	"pb-current-users": "Em Momang {{PLURL:$1|es eine|sinn_er $1|es keine}} Metmaacher bei de „Päsöhnlesche Beschtähtejonge“ derbei.",
 	"pb-date": "Dattum",
-	"pb-footer": "<a href=\"https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften\" title=\"Päsöhnlesche Bekanntschafte en de Wikkipehdija op deutsch\">[[„Päsöhnlesche Beschtähtejonge“]]</a> op <i lang=\"en\" xml:lang=\"en\">Tool Labs</i>. <a href=\"$1\" title=\"Övver de päsöhnlesche Bekanntschafte en de Wikkipehdija\">Mieh lässe!</a>",
+	"pb-footer": "<a href=\"https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften\" title=\"Päsöhnlesche Bekanntschafte en de Wikkipehdija op deutsch\">[[„Päsöhnlesche Beschtähtejonge“]]<!-- [[Wikipedia:Persönliche Bekanntschaften]] --></a> op <i lang=\"en\" xml:lang=\"en\">Tool Labs</i>. <a href=\"$1\" title=\"Övver de päsöhnlesche Bekanntschafte en de Wikkipehdija\">Mieh lässe!</a>",
 	"pb-home": "Houpsigg",
 	"pb-home-welcome": "Wellkumme op de „Päsöhnlesche Beschtähtejonge“ ier Dahtenbangksigg. Mieh övver dat Projäk kammer op dä <a href=\"https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften\" title=\"Wikipedia:Persönliche Bekanntschaften in der deutschsprachigen Wikipedia\">Projäksigg</a> en de Wikipehdija op Deutsch lässe.",
 	"pb-javascript-notice": "Mer ämfähle JavaSkrep aanzeschallde, öm för heh di Sigge de Bedeenong aanjenämmer ze maache.",
