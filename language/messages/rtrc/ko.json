@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Revi",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"title": "실시간 최근 바뀜",
@@ -18,9 +19,14 @@
 	"desc": "내림차순",
 	"documentation": "설명",
 	"filter": "필터",
+	"filter-hideliu": "등록된 사용자를 숨기기",
+	"filter-hidebots": "봇 숨기기",
+	"filter-unpatrolled": "점검한 편집을 숨기기",
+	"help": "도움말",
 	"helpicon-tooltip": "이 기능에 대해 더 알아보기",
 	"lastupdate-cvn": "마지막 업데이트: $1",
 	"lastupdate-rc": "마지막 업데이트: $1",
+	"legend": "범례",
 	"limit": "제한",
 	"masspatrol-requires-userfilter": "MassPatrol은 사용자 필터가 필요하지만 제공되지 않아 해제되었습니다.",
 	"months": "1월,2월,3월,4월,5월,6월,7월,8월,9월,10월,11월,12월",
