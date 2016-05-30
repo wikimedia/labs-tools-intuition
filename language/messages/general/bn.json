@@ -6,6 +6,7 @@
 			"Wikitanvir"
 		]
 	},
+	"dateformat": "%d %B %Y",
 	"hello": "হ্যালো",
 	"welcome": "স্বাগতম",
 	"toolversion": "সংস্করণ $1",

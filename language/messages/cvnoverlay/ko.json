@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"adder": "추가한 사람",
+	"adder-empty": "알 수 없음",
+	"expiry": "기한",
+	"globalwatched": "통합 주시",
+	"reason": "이유",
+	"reason-empty": "이유를 찾을 수 없음"
+}

@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
-	"pb-about-pb-navi": "정보"
+	"pb-about-pb-navi": "정보",
+	"pb-about-pb-title": "프로젝트 정보",
+	"pb-change-language": "언어 변경",
+	"pb-date": "날짜",
+	"pb-home": "홈",
+	"pb-user": "사용자",
+	"pb-user-link-title": "$1 사용자 상세 정보",
+	"pb-user-heading": "<a href=\"$2\" title=\"$1 사용자 문서\">$1</a>의 정보",
+	"pb-user-title": "$1의 정보",
+	"pb-users-navi": "사용자",
+	"pb-users-title": "참여자 목록"
 }
