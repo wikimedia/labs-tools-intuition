@@ -1,77 +1,94 @@
 {
 	"catdown": {
+		"title-msg": [ "catdown", "title" ],
 		"url": "//toolserver.org/~platonides/catdown/"
 	},
 	"commonshelper2": {
+		"title-msg": [ "commonshelper2", "title" ],
 		"url": "//toolserver.org/~commonshelper2/"
 	},
-	"cvnoverlay": {
+	"CVN Overlay": {
 		"url": "https://github.com/countervandalism/mw-gadget-cvnoverlay"
 	},
 	"getwikiapi": {
+		"title-msg": [ "getwikiapi", "title" ],
 		"url": "//tools.wmflabs.org/wikiinfo/"
 	},
 	"grep": {
+		"title-msg": [ "grep", "title" ],
 		"url": "//tools.wmflabs.org/grep/"
 	},
 	"jarry": {
+		"title-msg": [ "jarry", "title" ],
 		"url": "//tools.wmflabs.org/jarry-common/"
 	},
-	"krinkle": {
-		"url": "//meta.wikimedia.org/wiki/User:Krinkle"
+	"krinkle/toollabs-base": {
+		"url": "https://github.com/krinkle/toollabs-base"
 	},
 	"monumentsapi": {
+		"title-msg": [ "monumentsapi", "title" ],
 		"url": "//toolserver.org/~erfgoed/api/"
 	},
-	"mwsnapshots": {
+	"Snapshots": {
 		"url": "//tools.wmflabs.org/snapshots/"
 	},
-	"orphantalk2": {
+	"OrphanTalk": {
 		"url": "//tools.wmflabs.org/orphantalk/"
 	},
-	"pb": {
+	"Persönliche Bekanntschaften": {
 		"url": "https://tools.wmflabs.org/pb/"
 	},
-	"raun": {
+	"ra·un": {
 		"url": "https://tools.wmflabs.org/raun/"
 	},
 	"recentanonymousactivity": {
+		"title-msg": [ "recentanonymousactivity", "title" ],
 		"url": "//toolserver.org/~krinkle/recentAnonymousActivity/"
 	},
 	"rtrc": {
+		"title-msg": [ "rtrc", "title" ],
 		"url": "https://github.com/Krinkle/mw-gadget-rtrc"
 	},
 	"svgtranslate": {
+		"title-msg": [ "svgtranslate", "title" ],
 		"url": "//toolserver.org/~jarry/svgtranslate/"
 	},
 	"templatecount": {
+		"title-msg": [ "templatecount", "title" ],
 		"url": "//toolserver.org/~jarry/templatecount/"
 	},
 	"templatetransclusioncheck": {
+		"title-msg": [ "templatetransclusioncheck", "title" ],
 		"url": "//tools.wmflabs.org/templatetransclusioncheck/"
 	},
 	"tsintuition": {
+		"title-msg": [ "tsintuition", "title" ],
 		"url": "//tools.wmflabs.org/intuition/"
 	},
 	"tsreports": {
 		"url": "//tools.wmflabs.org/tsreports/"
 	},
 	"voiceintro": {
+		"title-msg": [ "voiceintro", "voiceintro-title" ],
 		"url": "//tools.wmflabs.org/voiceintro/"
 	},
 	"wlm": {
+		"title-msg": [ "wlm", "title" ],
 		"url": "//toolserver.org/~platonides/wlm/"
 	},
 	"wlmsurvey": {
+		"title-msg": [ "wlmsurvey", "title" ],
 		"url": "//toolserver.org/~platonides/wlmsurvey/"
 	},
 	"whatleaveshere": {
+		"title-msg": [ "whatleaveshere", "title" ],
 		"url": "https://github.com/Krinkle/mw-gadget-whatleaveshere"
 	},
 	"wikiviewstats": {
 		"url": "//tools.wmflabs.org/wikiviewstats/"
 	},
 	"xtools": {
+		"title-msg": [ "xtools", "title_xtools" ],
 		"url": "//tools.wmflabs.org/xtools/"
 	}
 }

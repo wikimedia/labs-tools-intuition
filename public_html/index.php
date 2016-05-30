@@ -305,11 +305,15 @@ $about .= '<a href="https://translatewiki.net/wiki/Translating:Intuition">'
 $about .= ''
 	. '<div class="lead">' . $I18N->msg( 'usage' ) . '</div><ul>';
 $tools = json_decode( file_get_contents( __DIR__ . '/tools.json' ), /* assoc = */ true );
-foreach ( $tools as $domain => $domainInfo ) {
-	$title = $I18N->msg( 'title', $domain, /* fallback = */ $domain );
-	if ( isset( $domainInfo['url'] ) ) {
+foreach ( $tools as $domain => $info ) {
+	if ( isset( $info['title-msg'] ) ) {
+		$title = $I18N->msg( $info['title-msg'][1], $info['title-msg'][0] );
+	} else {
+		$title = $domain;
+	}
+	if ( isset( $info['url'] ) ) {
 		$about .= '<li><a href="'
-			. htmlspecialchars( $domainInfo['url'] )
+			. htmlspecialchars( $info['url'] )
 			. '">' . htmlspecialchars( $title )
 			. '</a></li>';
 	}
