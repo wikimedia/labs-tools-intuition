@@ -35,6 +35,9 @@
 	"OrphanTalk": {
 		"url": "//tools.wmflabs.org/orphantalk/"
 	},
+	"Pageviews Analysis": {
+		"url": "https://tools.wmflabs.org/pageviews/"
+	},
 	"Persönliche Bekanntschaften": {
 		"url": "https://tools.wmflabs.org/pb/"
 	},
