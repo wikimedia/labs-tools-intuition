@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"AzorAhai"
 		]
 	},
 	"title": "Perubahan Terkini Masa Nyata",
@@ -9,6 +10,7 @@
 	"asc": "Menaik",
 	"changelog": "Terbaru",
 	"clear": "padamkan",
+	"close": "بستن",
 	"currentedit": "Suntingan terpilih semasa",
 	"cvn-adder": "Penambah",
 	"cvn-adder-empty": "Tidak dikenali",
