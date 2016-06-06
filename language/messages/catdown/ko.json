@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"title": "분류의 그림 다운로드",
-	"subtitle": "분류에 있는 그림를 다운로드하는 쉬운 방법",
+	"subtitle": "분류에 있는 그림을 다운로드하는 쉬운 방법",
 	"project": "프로젝트:",
 	"category": "분류:",
 	"thumbnailing": "섬네일 기능",

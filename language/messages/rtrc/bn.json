@@ -39,7 +39,7 @@
 	"order": "ক্রম",
 	"ores-damaging-probability": "ক্ষতির সম্ভাবনা: $1",
 	"pause": "বিরতি",
-	"permalink": "বর্তমান সেটিংসে পার্মালিঙ্ক",
+	"permalink": "বর্তমান সেটিংসের স্থায়ীলিঙ্ক",
 	"reload-interval": "বিরতি",
 	"select-placeholder-none": "(কিছু না)",
 	"showAnonOnly": "শুধুমাত্র নামহীন",
@@ -54,5 +54,5 @@
 	"typeEdit": "সম্পাদনা",
 	"typeNew": "নতুন পাতা",
 	"unskip": "এড়ানো বাতিল",
-	"userfilter": "ব্যবহারকারী ফিল্টার"
+	"userfilter": "ব্যবহারকারী ছাঁকনি"
 }
