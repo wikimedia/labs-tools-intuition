@@ -27,7 +27,7 @@
 	},
 	"monumentsapi": {
 		"title-msg": [ "monumentsapi", "title" ],
-		"url": "//tools.wmflabs.org/orphantalk/api/"
+		"url": "//tools.wmflabs.org/heritage/api/"
 	},
 	"Snapshots": {
 		"url": "//tools.wmflabs.org/snapshots/"
