@@ -27,7 +27,7 @@
 	},
 	"monumentsapi": {
 		"title-msg": [ "monumentsapi", "title" ],
-		"url": "//toolserver.org/~erfgoed/api/"
+		"url": "//tools.wmflabs.org/heritage/api/"
 	},
 	"Snapshots": {
 		"url": "//tools.wmflabs.org/snapshots/"
