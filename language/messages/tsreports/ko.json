@@ -1,8 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
-	"category_miscellaneous": "기타"
+	"base_prefslink": "<a href=\"prefs.fcgi\">언어 / 환경 설정 변경</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">버그 보고 및 기능 요청</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">위키</a>",
+	"category_users": "사용자",
+	"category_articles": "페이지",
+	"category_images": "그림",
+	"category_miscellaneous": "기타",
+	"category_wikidata": "위키데이터",
+	"select_wiki_title": "위키를 선택하세요",
+	"select_wiki_next": "다음 →",
+	"select_report": "보고서를 선택해 주십시오:",
+	"select_report_disabled": "이 보고서는 사용할 수 없습니다.",
+	"select_report_first": "이 보고서는 최초 준비 상태이며, 가까운 시간 안에 이용할 수 있습니다.",
+	"select_report_no_reports": "죄송합니다. 현재 %(wiki)에 이용 가능한 보고서가 없습니다.",
+	"select_report_go_back": "← 위키 변경",
+	"qvar_next": "다음 →",
+	"prefs_title": "보고서 환경 설정",
+	"prefs_submit": "확인",
+	"prefs_done": "사용자의 환경 설정이 변경되었습니다.",
+	"prefs_langlabel": "인터페이스 언어:",
+	"report_variables_used": "이 보고서를 생성하기 위해 다음의 변수들이 사용되었습니다:",
+	"report_noresults": "죄송합니다. 이 보고서에 출력된 결과가 없습니다.",
+	"report_change_report": "<a href=\"%(url)s\">보고서 변경</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">위키 변경</a>"
 }
