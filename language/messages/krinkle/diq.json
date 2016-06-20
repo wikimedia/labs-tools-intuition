@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(wiki weçinê)",
 	"form-legend-settings": "Eyari"
 }

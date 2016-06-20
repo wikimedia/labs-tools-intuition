@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kumkumuk"
+		]
+	},
+	"category_users": "Karberi",
+	"category_articles": "Pelay",
+	"category_images": "Resimi",
+	"category_miscellaneous": "Binan",
+	"category_wikidata": "Wikidata",
+	"select_wiki_title": "Yu wikiy weçine",
+	"select_wiki_next": "Bahdoyen →",
+	"select_report_go_back": "← Wikiyer bıvurnê",
+	"qvar_next": "Bahdoyen→",
+	"prefs_title": "Referansa rapor ke",
+	"prefs_submit": "TEMAM",
+	"prefs_done": "Tercihi vuriyay",
+	"prefs_langlabel": "Zıwana rıy:",
+	"report_change_report": "<a href=\"%(url)s\">rapor bıvurnê </a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Wikiy bıvurnê </a>"
+}

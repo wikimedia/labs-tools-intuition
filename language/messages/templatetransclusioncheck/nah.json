@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Taresi"
+			"Taresi",
+			"Teòtlalili"
 		]
 	},
-	"form-label-language": "Tlahtōlli:",
+	"form-label-language": "Tlâtòlli:",
 	"form-label-template": "Neīxcuītīltōcāitl:",
-	"link-edit": "ticpatlaz",
+	"link-edit": "Mà moyèktlàli",
 	"link-create": "ticchīhuaz"
 }

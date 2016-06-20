@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Taresi"
+			"Taresi",
+			"Teòtlalili"
 		]
 	},
-	"toolversion": "Cuepaliztli $1",
+	"toolversion": "$1 Tlamantli",
 	"toolversionstamp": "Cuepaliztli $1 ($2)",
 	"etc": "q.n.",
 	"namespace": "Tōcātlacāuhtli",

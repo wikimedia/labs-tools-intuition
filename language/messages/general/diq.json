@@ -3,18 +3,22 @@
 		"authors": [
 			"Erdemaslancan",
 			"Marmase",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
+	"dateformat": "%B %d %Y",
 	"hello": "Merheba",
 	"welcome": "Xeyr amey",
 	"toolversion": "Versiyon $1",
 	"toolversionstamp": "Versiyon $1 ($2)",
 	"etc": "ws.",
+	"colon-separator": ":",
 	"namespace": "Heruna nami",
 	"form-submit": "Şo",
 	"form-reset": "Reset kerê",
 	"years": "{{PLURAL: $1|serre|serri}}",
+	"months": "{{PLURAL:$1|aşme|aşmi}}",
 	"weeks": "{{PLURAL: $1|hefte|heftey}}",
 	"days": "{{PLURAL: $1|roc|roci}}",
 	"hours": "($1 {{PLURAL:$1|seate|seati}})",
@@ -22,5 +26,8 @@
 	"seconds": "{{PLURAL:$1|saniye|saniyeyan}}",
 	"last-modified-date": "Vurnayışo peên: $1",
 	"view-source": "Çımey bıvêne",
+	"parentheses": "($1)",
+	"comma-separator": ",&#32;",
+	"word-separator": "&#32;",
 	"and": "&#32;u"
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Taresi"
+			"Taresi",
+			"Teòtlalili"
 		]
 	},
 	"pagetitle": "tlaīxtōcāitl",
@@ -10,11 +11,13 @@
 	"today": "āxcān",
 	"language": "tlahtōlli",
 	"discussion": "Zānīlli",
-	"project": "Tlatequipanōlli",
+	"project": "Tlekàniltekitl",
+	"category": "Tlaìxmatkàyòtlàlilòtl",
 	"template": "Neīxcuītīlli",
 	"files": "{{PLURAL: $1|ihcuilōlli}}",
 	"helpPage": "Tēpalēhuiliztlaīxtli",
 	"pages": "tlaīxtli",
 	"namespaces": "tōcātlacāuhtli",
+	"selectCategory": "Xiktlapêpeni in tlaìxmatkàyòtlàlilòtl tlèn ka ìpan in òpòchkàtlapêpenkàtekpànalli",
 	"projectPages": "Tlatequipanōllaīxtli"
 }

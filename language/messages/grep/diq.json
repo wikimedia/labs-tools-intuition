@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
-	"namespace-label": "Heruna nameyi"
+	"enter-details": "Detay dek",
+	"results": "Neticey",
+	"language-label": "Zıwan",
+	"namespace-label": "Heruna nameyi",
+	"project-label": "Proce",
+	"pattern-label": "Numune"
 }
