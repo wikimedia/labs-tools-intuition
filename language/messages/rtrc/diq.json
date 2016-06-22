@@ -3,7 +3,8 @@
 		"authors": [
 			"Gorizon",
 			"Marmase",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
 	"apply": "Dezge",
@@ -17,6 +18,7 @@
 	"documentation": "Dokumentasyon",
 	"filter": "Avréc",
 	"limit": "Limit",
+	"months": "Çele, Şıbat, Adar, Lisan, Gulan, Heziran, Temuz, Tebaxe, Keşkelun, Cetan, Kelverdan, Gaxand",
 	"namespace": "Heruna nami",
 	"order": "Pepeyin",
 	"tag": "Etiket",

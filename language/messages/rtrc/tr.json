@@ -3,12 +3,14 @@
 		"authors": [
 			"Uğurkent",
 			"Hbseren",
-			"Sayginer"
+			"Sayginer",
+			"Kumkumuk"
 		]
 	},
 	"cvn-reason": "Gerekçe",
 	"filter-hideliu": "Kayıtlı kullanıcıları gizle",
 	"filter-hidebots": "Botları gizle",
 	"filter-unpatrolled": "Devriye düzenlemelerini gizle",
+	"months": "Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık",
 	"skip": "Atla"
 }
