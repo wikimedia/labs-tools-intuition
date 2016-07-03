@@ -25,8 +25,7 @@
 	"krinkle/toollabs-base": {
 		"url": "https://github.com/krinkle/toollabs-base"
 	},
-	"monumentsapi": {
-		"title-msg": [ "monumentsapi", "title" ],
+	"heritage": {
 		"url": "//tools.wmflabs.org/heritage/api/"
 	},
 	"Snapshots": {
