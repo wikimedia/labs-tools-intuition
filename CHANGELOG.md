@@ -1,3 +1,17 @@
+## v0.3.0 (2016-07-04)
+
+Domains:
+
+* Removed monumentsapi (<https://github.com/wikimedia/labs-tools-heritage>)
+* Removed dcatap (<https://github.com/wikimedia/operations-dumps-dcat>)
+
+### Maintenance
+
+* Localisation updates from https://translatewiki.net.
+* langlist: Recompile.
+* dashboard: List pageviews tool.
+* dashboard: Tool info updates.
+
 ## v0.2.3 (2016-03-16)
 
 ### Enhancements
