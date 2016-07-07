@@ -1,8 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minh Nguyen",
-			"Nguyên Lê"
+			"Minh Nguyen"
 		]
 	},
 	"title_xtools": "Các công cụ của X!",
@@ -129,7 +128,7 @@
 	"restore": "Phục hồi",
 	"import": "Nhập",
 	"live": "Số sửa đổi hiện hành",
-	"namespacetotals": "Thống kê theo không gian tên",
+	"namespacetotals": "Tổng số theo tùy gian tên",
 	"monthcounts": "Thống kê hàng tháng",
 	"topeditedpages": "Trang sửa đổi nhiều nhất",
 	"file": "Tập tin",
@@ -172,7 +171,7 @@
 	"major": "Số sửa đổi lớn",
 	"topten": "10% hạng nhất",
 	"bottomninety": "90% kia",
-	"yearcounts": "Thống kê theo năm",
+	"yearcounts": "Số trong năm",
 	"count": "Số sửa đổi",
 	"alledits": "Tất cả các sửa đổi",
 	"graph": "Biểu đồ",

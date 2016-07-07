@@ -3,8 +3,7 @@
 		"authors": [
 			"Jezevec",
 			"Jkjk",
-			"Vks",
-			"Dvorapa"
+			"Vks"
 		]
 	},
 	"attention": "Upozornění",
@@ -39,7 +38,7 @@
 	"output_information": "Pro ruční nahrávání upravte výše uvedený text (pokud je to potřeba), uložte $1soubor$2 do počítač a pak ho $3nahrajte$4 .",
 	"upload_submit": "Nahrát!",
 	"target_wiki": "cílová wiki",
-	"error_bot_blocked": "Nahrávací robot je zablokován na Wikimedia Commons.",
+	"error_bot_blocked": "Nahrávací bot je zablokován na Wikimedia Commons.",
 	"error_upload_meta": "Není možné nahrát soubor přímo, protože je probém s metadaty (viz výše)!",
 	"error_tusc_failed": "TUSC ověření se nezdařilo.",
 	"error_only_commons": "Přímé nahrávaní funguje jen na Wikimedia Commons.",

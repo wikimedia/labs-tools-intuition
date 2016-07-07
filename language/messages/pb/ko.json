@@ -7,7 +7,6 @@
 	},
 	"pb-about-pb-navi": "정보",
 	"pb-about-pb-tech": "기술 세부 사항",
-	"pb-about-pb-tech-text": "<p>우리는 이 인터페이스에 <a href=\"https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC\">Python</a>과 <a href=\"https://ko.wikipedia.org/wiki/MySQL\">MySQL</a>을 사용합니다. 소스 코드는 <a href=\"http://www.gnu.org/licenses/lgpl.html\" class=\"ext\">GNU 약소 일반 공중 사용 허가서 3</a> (LGPL 3)의 조건에 따라 배포되며 <a href=\"https://github.com/tool-labs/pb\">GitHub에서</a> 접근할 수 있습니다. <a href=\"https://github.com/tool-labs/pb/issues/new\">GitHub 이슈 트래커에</a> 버그 보고, 기능 요청이나 다른 의견을 추가해주시거나 <a href=\"https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften\">위키백과 토론 문서</a>에 보고해주시기 바랍니다.</p>\n    <p>PB 데이터베이스의 현재 덤프는 <a href=\"/pb/sql-dumps\">여기</a>에서 찾을 수 있습니다.</p>\n    <p>우리는 <a href=\"http://glyphicons.com/\" title=\"Glyphicons 홈페이지\">Glyphicons</a> 프로젝트가 만든 여러 아이콘을 사용합니다.</p>",
 	"pb-about-pb-title": "프로젝트 정보",
 	"pb-change-language": "언어 변경",
 	"pb-date": "날짜",

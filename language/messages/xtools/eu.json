@@ -2,8 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Sator",
-			"Xabier Armendaritz",
-			"An13sa"
+			"Xabier Armendaritz"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -25,17 +24,7 @@
 	"tool_ec_desc": "Lankide ekarpen analisia",
 	"tool_blame_desc": "Find addition of text in a page history",
 	"tool_articleinfo_desc": "Get various statistics about the history of a page",
-	"tool_pages_desc": "Erabiltzaileak sortutako orrialdeak",
-	"tool_topedits_desc": "Erabiltzaile baten edizioak ikusi, Top edizioak edo orrialdeko edizioak ikusiz",
-	"tool_autoedits_desc": "Tresna ezagunekin egindako edizio automatikoak",
-	"tool_rangecontribs_desc": "IP tarte edo IP multzoen ekarpenak ikusi",
-	"tool_bash_desc": "IRC Quote Databasetik aipuak eskuratu",
-	"tool_sc_desc": "Erabiltzaile ekarpenen analisi azkarra",
-	"tool_rfa_desc": "Administratzaile / burokrata baimenak eskuratzeko eskaerak analizatu",
-	"tool_rfap_desc": "Nola bozkatzen du erabiltzaile batek?",
-	"tool_autoblock_desc": "Autoblokeatutako erabiltzaileak berrikusi",
 	"tool_adminstats_desc": "Erakutsi admin ekintzen estatistikak",
-	"highreplag": "Adi: errepikapen denbora altua da. $1 baino berriagoak diren aldaketak beharbada ez daude oraindik ikusgai.",
 	"noexist": "$1 ez da existitzen",
 	"noresult": "«$1» bilaketak ez du bat datorren emaitzarik",
 	"norevisions": "Ez da berrikuspenik aurkitu",
