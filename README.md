@@ -28,34 +28,24 @@ echo $I18N->msg( 'example' );
 
 ### Testing
 
-Use [Composer](https://getcomposer.org) for managing dependenices (such as [PHPUnit](http://www.phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/).
+Use [Composer](https://getcomposer.org) for managing dependenices (such as [PHPUnit](https://phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/). Some tests also require [Node.js](https://nodejs.org/).
 
-Prior to runnig tests, ensure presence of local dev dependencies:
-```
+Prior to running tests, ensure presence of development dependencies:
+
+<pre lang="sh">
 composer install
-```
+</pre>
 
 Run the tests:
-```
-./tests/run
-```
 
-A small amount of frontend code is integrated via [Grunt](http://gruntjs.com/) on [node.js](http://nodejs.org/). Install the Grunt command-line utility:
-`npm install -g grunt-cli`
-
-Prior to runnig tests, ensure presence of local dev dependencies:
-```
-npm install
-```
-
-Run the tests:
-```
-npm test
-```
+<pre lang="sh">
+composer test
+</pre>
 
 ### Misc
 
 To regenerate the `AUTHORS.txt`:
-```
-npm install && grunt authors
-```
+
+<pre lang="sh">
+npm run authors
+</pre>

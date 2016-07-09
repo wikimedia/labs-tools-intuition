@@ -5,6 +5,11 @@
  */
 /*jshint node:true */
 module.exports = function (grunt) {
+	var fs = require('fs'),
+		path = require('path'),
+		msgDir = path.join(__dirname, 'language', 'messages'),
+		domainDirs = {};
+
 	grunt.loadNpmTasks('grunt-banana-checker');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-qunit');
@@ -12,10 +17,6 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-jscs');
 	grunt.loadNpmTasks('grunt-jsonlint');
 
-	var fs = require('fs'),
-		path = require('path'),
-		msgDir = path.join(__dirname, 'language', 'messages'),
-		domainDirs = {};
 	fs.readdirSync(msgDir).forEach(function (file) {
 		var stats = fs.statSync(path.join(msgDir, file));
 		if (stats.isDirectory()) {
