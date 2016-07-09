@@ -12,7 +12,6 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-jscs');
 	grunt.loadNpmTasks('grunt-jsonlint');
 
-
 	var fs = require('fs'),
 		path = require('path'),
 		msgDir = path.join(__dirname, 'language', 'messages'),
