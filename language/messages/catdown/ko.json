@@ -24,7 +24,7 @@
 	"download": "다운로드",
 	"readme-contents": "인근 $4 파일 목록 $1 분류 ( $2 ) $3에서\n그림을 표시합니다.\n\n== 나열된 모든 이미지를 다운로드하기 위한 지침 ==\n다운로드하는 데에는 몇 분에서 몇 시간까지 다를 수 있습니다.\n\n윈도:\n같은 폴더에 있는 모든 파일의 압축을 풀고 $5(을)를 실행하세요.\n$6\n리눅스/맥 OS:\n모든 파일의 압축을 풀고 해당 폴더에서 터미널을 여세요. sh $5(을)를 실행하세요",
 	"non-bundled-wget": "참고: 이 버전에서는 wget이 포함되지 않습니다. wget.exe를 폴더에 압축을 풀거나 경로에서 wget을 지정해야 합니다",
-	"wget-info": "wget $1 (Windows 플랫폼용) 의 복사본 파일이 들어있습니다. wget은 GNU 일반 공중 사용 허가서 버전 3의\n조건에 따라 자유 소프트웨어입니다.\n아래에는 라이선스 복사본이며 또한 http://www.gnu.org/licenses/gpl-3.0.txt 에서도 찾아볼 수 있습니다\n\n이 프로그램에 대한 소스 코드를 받는 데 관심있을 경우 당신은\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n또는 일부 다른 GNU 미러에서 다운로드할 수 있습니다\n http://www.gnu.org/prep/ftp.html\n을 참고하세요",
+	"wget-info": "wget $1 (Windows 플랫폼용)의 복사본 파일이 들어있습니다. wget은 GNU 일반 공중 사용 허가서 버전 3의\n조건에 따라 자유 소프트웨어입니다.\n아래에는 라이선스 복사본이며 또한 http://www.gnu.org/licenses/gpl-3.0.txt 에서도 찾아볼 수 있습니다\n\n이 프로그램에 대한 소스 코드를 받는 데 관심있을 경우 당신은\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n또는 일부 다른 GNU 미러에서 다운로드할 수 있습니다\n http://www.gnu.org/prep/ftp.html\n을 참고하세요",
 	"scaling-width": ", $1 픽셀의 최대 너비로 조정함",
 	"scaling-height": ", $1 픽셀의 최대 높이로 조정함",
 	"scaling-both": ", $1x$2의 최대 크기로 조정함"

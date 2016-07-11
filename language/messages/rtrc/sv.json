@@ -29,6 +29,7 @@
 	"lastupdate-rc": "Senaste uppdatering: $1",
 	"legend": "Teckenförklaring",
 	"limit": "Gräns",
+	"masspatrol": "Masspatrullering",
 	"masspatrol-requires-userfilter": "MassPatrol har inaktiverats, eftersom den kräver ett användarfilter och ingen var satt.",
 	"months": "januari, februari, mars, april, maj, juni, juli, augusti, september, oktober, november, december",
 	"mypatrollog": "min patrullogg",

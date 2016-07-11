@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Сербијана"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -95,7 +96,7 @@
 	"thank": "Zahvaljivanje",
 	"approve": "Odobreno",
 	"unapprove": "Nije odobreno",
-	"patrol": "Patroliranje",
+	"patrol": "Patroleri",
 	"block": "Blokiranje",
 	"unblock": "Deblokiranje",
 	"protect": "Zaštita",
