@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"VASANTH S.N."
+		]
+	},
+	"clear": "ಮಾಜಲೇ",
+	"close": "ಮುಚ್ಚಿಲೆ",
+	"cvn-adder-empty": "ಗೊತ್ತಿಜ್ಜಾಂದಿನ",
+	"cvn-reason": "ಕಾರಣೊ",
+	"documentation": "ದಾಖಲೀಕರನೊ",
+	"filter": "ಅರಿಪೆ",
+	"help": "ಸಹಾಯೊ",
+	"limit": "ಮಿತಿ",
+	"order": "ಕ್ರಮ"
+}
