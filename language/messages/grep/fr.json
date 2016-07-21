@@ -6,7 +6,7 @@
 		]
 	},
 	"title": "Filtrage sur les titres d’articles (bêta)",
-	"introduction": "Cet outil affiche tous les titres d’article qui correspondent à un motif d’expression régulière ($1). Rechercher en utilisant une expression régulière consomme des ressources. Si possible, rappelez-vous d’utiliser les indicateurs de préfixe (^) et de suffixe ($).",
+	"introduction": "Cet outil affiche tous les titres d’article qui correspondent à un motif d’expression régulière ($1). Rechercher en utilisant une expression régulière consomme intensivement des ressources. Dans la mesure du possible, utilisez les indicateurs de préfixe (^) et de suffixe ($).",
 	"explanation": "explication",
 	"regex": "Expression régulière",
 	"enter-details": "Saisir les détails",

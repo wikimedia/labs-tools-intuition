@@ -5,7 +5,8 @@
 			"Draceane",
 			"Matěj Suchánek",
 			"Tchoř",
-			"Walter Klosse"
+			"Walter Klosse",
+			"Dvorapa"
 		]
 	},
 	"title_xtools": "Nástroje X!",
@@ -39,7 +40,7 @@
 	"noresult": "Nenalezeny žádné výsledky pro: $1",
 	"norevisions": "Žádné revize nalezeny",
 	"toomanyrevisions": "Tento článek má více než 50 000 revizí. Níže se zobrazují data pro prvních 50 000.",
-	"invalid_type": "Neplatný vybraný typ",
+	"invalid_type": "Vybraný typ neplatný",
 	"invalid_date": "Neplatné datum",
 	"nocontribs": "Nebyly nalezeny žádné příspěvky.",
 	"nowiki": "$1 není platná wiki",
@@ -110,7 +111,7 @@
 	"edits_summary": "Editací se shrnutím",
 	"reverted": "Revertovaných editací",
 	"timecard": "Hodinový přehled",
-	"tagged": "tagováno",
+	"tagged": "označeno",
 	"no_summary": "se shrnutím",
 	"with_summary": "bez shrnutí",
 	"thank": "Poděkování",

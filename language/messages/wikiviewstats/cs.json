@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Aktron",
-			"Walter Klosse"
+			"Walter Klosse",
+			"Dvorapa"
 		]
 	},
 	"records": "záznamy",
 	"list": "Seznam",
 	"sample": "Příklad",
-	"hits": "zásahy:",
+	"hits": "zobrazení",
 	"pageviews": "zobrazení stránky",
 	"24hstat": "statistiky za 24 hodin",
 	"pagetitle": "název stránky",
