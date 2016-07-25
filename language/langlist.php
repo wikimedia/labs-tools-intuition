@@ -149,6 +149,7 @@
   'sv' => 'svenska',
   'sw' => 'Kiswahili',
   'ta' => 'தமிழ்',
+  'tcy' => 'ತುಳು',
   'te' => 'తెలుగు',
   'tet' => 'tetun',
   'th' => 'ไทย',
