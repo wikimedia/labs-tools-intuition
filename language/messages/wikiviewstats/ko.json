@@ -79,8 +79,11 @@
 	"rawDataSource": "원본 데이터 소스",
 	"helpDiscuss": "도움말 / 토론 / 개선",
 	"dbUpdateInProgress": "데이터베이스 업데이트 중입니다",
+	"namespaces": "이름공간",
 	"selectCategory": "왼쪽 메뉴에서 분류를 선택하십시오",
 	"furtherInformation": "추가 정보",
 	"urlParameter": "URL 변수",
-	"submit": "제출"
+	"submit": "제출",
+	"save": "저장",
+	"cancel": "취소"
 }

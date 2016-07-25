@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana"
 		]
 	},
 	"category_users": "ಬಳಕೆದಾರೆರ್",
-	"category_articles": "ಪುಟಕುಲು",
+	"category_articles": "ಪುಟೊಕುಲು",
 	"category_images": "ಚಿತ್ರೊಲು",
-	"category_miscellaneous": "ಇತರೆ"
+	"category_miscellaneous": "ಇತರೊ"
 }

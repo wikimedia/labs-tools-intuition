@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana"
 		]
 	},
-	"clear": "ಮಾಜಲೇ",
+	"clear": "ಮಾಜಲೆ",
 	"close": "ಮುಚ್ಚಿಲೆ",
 	"cvn-adder-empty": "ಗೊತ್ತಿಜ್ಜಾಂದಿನ",
-	"cvn-reason": "ಕಾರಣೊ",
-	"documentation": "ದಾಖಲೀಕರನೊ",
+	"cvn-reason": "ಕಾರನೊ",
+	"documentation": "ದಾಕಲೀಕರನೊ",
 	"filter": "ಅರಿಪೆ",
-	"help": "ಸಹಾಯೊ",
+	"help": "ಸಕಾಯೊ",
 	"limit": "ಮಿತಿ",
-	"order": "ಕ್ರಮ"
+	"order": "ಆದೇಸೊ"
 }

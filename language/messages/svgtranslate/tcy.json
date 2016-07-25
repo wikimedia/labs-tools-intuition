@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana"
 		]
 	},
-	"th-language": "ಭಾಸೆ",
+	"th-language": "ಬಾಸೆ",
 	"th-username": "ಸದಸ್ಯೆರ್ನ ಪುದರ್",
 	"th-password": "ಪ್ರವೇಸೊಪದೊ",
-	"th-method": "ವಿಧಾನ",
+	"th-method": "ಇದಾನೊ",
 	"preview": "ಮುನ್ನೋಟೊ",
-	"translate": "ಭಾಷಾಂತರ ಮಲ್ಪುಲೆ",
+	"translate": "ಬಾಸಾಂತರ ಮಲ್ಪುಲೆ",
 	"uploading": "ದಿಂಜೊಂತುಂಡು..."
 }

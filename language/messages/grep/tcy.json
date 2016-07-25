@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana"
 		]
 	},
-	"explanation": "ವಿವರಣೆ",
-	"language-label": "ಭಾಸೆ",
+	"explanation": "ವಿವರನೆ",
+	"language-label": "ಬಾಸೆ",
 	"project-label": "ಯೋಜನೆ",
 	"pattern-label": "ವಿನ್ಯಾಸ"
 }

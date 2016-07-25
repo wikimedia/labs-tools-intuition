@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Mahali syarifuddin"
 		]
 	},
 	"fullname": "Pengantarabangsaan untuk peralatan",
@@ -20,7 +21,7 @@
 	"tab-demo": "Demo",
 	"bl-mysettings": "Tetapan bahasa saya",
 	"bl-mysettings-new": "Tukar bahasa!",
-	"bl-promo": "Penterjemahahn dijana oleh $1 dan $2.",
+	"bl-promo": "Penterjemahan dijana oleh $1 dan $2.",
 	"bl-changelanguage": "Tukar bahasa antaramuka alat ini.",
 	"usage": "Peralatan yang diterjemahkan oleh Intuition.",
 	"help-translate-tool": "Bantu kami menterjemah alat ini!",

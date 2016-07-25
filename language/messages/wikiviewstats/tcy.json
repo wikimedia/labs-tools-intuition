@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana"
 		]
 	},
 	"list": "ಪಟ್ಟಿ",
@@ -10,23 +11,23 @@
 	"page": "ಪುಟೊ",
 	"searchResults": "ನಾಡಾಟದ ಪಲಿತಾಂಶೊಲು",
 	"settings": "ಸಂಯೋಜನೆಲು",
-	"help": "ಸಹಾಯೊ",
+	"help": "ಸಕಾಯೊ",
 	"today": "ಇನಿ",
 	"all": "ಮಾತ",
-	"allLang": "ಮಾತ ಬಾಸೆಳು",
-	"popular": "ಜನಪ್ರಿಯ",
+	"allLang": "ಮಾತ ಬಾಸೆಲು",
+	"popular": "ಜನಪ್ರಿಯೊ",
 	"other_lang": "ಬೇತೆ ಬಾಸೆಲ್",
-	"misc": "ಇತರೆ",
-	"language": "ಭಾಸೆ",
+	"misc": "ಇತರೊ",
+	"language": "ಬಾಸೆ",
 	"mycontribs": "ಕಾನಿಕೆಲು",
 	"mywatchlists": "ವೀಕ್ಷಣಾಪಟ್ಟಿಲು",
 	"top": "ಮಿತ್ತ್",
 	"discussion": "ಪಾತೆರ",
 	"project": "ಯೋಜನೆ",
 	"category": "ವರ್ಗೊ",
-	"template": "ಟೆಂಪ್ಲೆಟ್",
+	"template": "ಟೆಂಪ್ಲೇಟ್",
 	"specialPage": "ವಿಸೇಸೊ ಪುಟೊ",
-	"helpPage": "ಸಹಾಯ ಪುಟ",
+	"helpPage": "ಸಕಾಯೊ ಪುಟ",
 	"size": "ಗಾತ್ರೊ",
 	"first": "ಸುರುತ",
 	"last": "ಕಡೆತ",

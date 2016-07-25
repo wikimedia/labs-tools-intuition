@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana"
 		]
 	},
-	"title-error": "ದೋಷ",
+	"title-error": "ದೋಸೊ",
 	"title-downloadpage": "ಡೌನ್‍ಲೋಡ್",
 	"title-downloadpage-repo": "$1ದ ಲೆಕ್ಕ ಡೌನ್‍ಲೋಡ್ ಮಲ್ಪುಲೆ",
-	"repo-site-link": "ಜಾಲತಾಣ",
+	"repo-site-link": "ಜಾಲತಾನೊ",
 	"repo-lastmoddate-label": "ದಿನೊ:",
-	"tablehead-branch": "ಶಾಖೆ"
+	"tablehead-branch": "ಸಾಕೆ"
 }

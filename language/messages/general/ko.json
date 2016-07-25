@@ -3,7 +3,8 @@
 		"authors": [
 			"Kwj2772",
 			"아라",
-			"Revi"
+			"Revi",
+			"Ykhwong"
 		]
 	},
 	"dateformat": "%Y년 %B %d일",
@@ -24,5 +25,5 @@
 	"seconds": "{{PLURAL: $1|초}}",
 	"last-modified-date": "최근 수정일: $1",
 	"view-source": "원본 보기",
-	"and": "&#32;(와)과"
+	"and": "&#32;와(과)"
 }

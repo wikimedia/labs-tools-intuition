@@ -88,8 +88,8 @@
 	"namespaces": "jmenné prostory",
 	"comparisonOfPages": "porovnání několika stránek",
 	"selectCategory": "Vyberte si svoji kategorii z levé nabídky",
-	"homeMain": "Doma je hlavní tabulka dat, která obsahuje veškeré údaje",
-	"filerResults": "Filtrování výsledků podle měnících se parametrů v pravém menu, tak jak se vám to líbí",
+	"homeMain": "Domů je hlavní tabulka dat, která obsahuje veškeré údaje",
+	"filerResults": "Filtrovat výsledky změněním parametrů v horním menu, jak budete chtít",
 	"furtherInformation": "Další informace",
 	"urlParameter": "URL parametr",
 	"hideHints": "schovat tipy",
@@ -116,7 +116,7 @@
 	"projectPages": "Projektové stránky",
 	"backToTop": "zpět na začátek",
 	"rankLocal": "Rank (místní) v",
-	"rankWorld": "Rank (světový) přes všechny wiki nadace Wikimedia",
+	"rankWorld": "Rank (světový) napříč všemi wiki nadace Wikimedia",
 	"pageViewCount": "Počet zobrazení stránky (neunikátní)",
 	"winningArticles": "Vítězné články",
 	"numPageWatchers": "Počet lidí, kteří stránky sledují",
@@ -124,5 +124,5 @@
 	"linkArticle": "Odkaz na wiki článek",
 	"authorMostEdits": "Autor s nejvyšším množství editací. Na německé Wikipedii: Autor s největším podílem textu",
 	"totalShare": "Celkový podíl",
-	"statsEntry": "$1 - zobrazení Stránky a stránky popularity statistiku s Top 100,000 hit seznamy pro všechny wiki nadace Wikimedia (dnes, za měsíc a vlastní časové období). Další funkce: hledání pomocí Zástupných znaků, 24-hodinové statistiky, osobní oblíbené, globální projekt součty, podpora pro rozlišení stránky a položky Wikidat. Hodinové aktualizace."
+	"statsEntry": "$1 – statistiky zobrazení stránky a popularity stránky obsahující seznamy nejlepších 100 000 pro všechny wiki nadace Wikimedia (dnes, za měsíc i za vlastní časové období). Další funkce: hledání pomocí zástupných znaků, 24-hodinové statistiky, vlastní oblíbené, globální součty projektů, podpora pro rozcestníky a položky Wikidat. Aktualizováno každou hodinu."
 }
