@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Kumkumuk"
 		]
 	},
+	"description": "Heqdê Wiki Wikimedia meta malumat.",
 	"formats-heading": "Terza vıcyayen",
 	"input": "Cıkewten",
 	"label-wikiids": "Viki şınaskar",

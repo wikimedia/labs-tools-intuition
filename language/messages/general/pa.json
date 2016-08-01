@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tow"
+		]
+	},
+	"welcome": "ਜੀ ਆਇਆਂ ਨੂੰ",
+	"toolversion": "ਵਰਜਨ $1",
+	"toolversionstamp": "ਵਰਜਨ $1 ($2)",
+	"namespace": "ਨਾਮਸਥਾਨ",
+	"form-submit": "ਜਾਓ",
+	"form-reset": "ਰੀ-ਸੈੱਟ",
+	"years": "{{PLURAL: $1|ਸਾਲ|ਵਰ੍ਹੇ}}",
+	"months": "{{PLURAL: $1|ਮਹੀਨਾ|ਮਹੀਨ}}",
+	"weeks": "{{PLURAL: $1|ਹਫ਼ਤਾ|ਹਫ਼ਤੇ}}",
+	"days": "{{PLURAL: $1|ਦਿਨ}}",
+	"hours": "{{PLURAL: $1|ਘੰਟਾ|ਘੰਟੇ}}",
+	"minutes": "{{PLURAL: $1|ਮਿੰਟ}}",
+	"seconds": "{{PLURAL: $1|ਸਕਿੰਟ}}",
+	"view-source": "ਸਰੋਤ ਵੇਖੋ",
+	"and": "&#32;ਅਤੇ"
+}

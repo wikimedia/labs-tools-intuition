@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tow"
+		]
+	},
+	"toolserver-status-short-ok": "$1: ਠੀਕ",
+	"toolserver-status-short-info": "$1: ਜਾਣਕਾਰੀ",
+	"toolserver-status-short-warn": "$1: ਖ਼ਬਰਦਾਰ"
+}

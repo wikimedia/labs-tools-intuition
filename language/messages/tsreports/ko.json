@@ -23,7 +23,7 @@
 	"qvar_next": "다음 →",
 	"prefs_title": "보고서 환경 설정",
 	"prefs_submit": "확인",
-	"prefs_done": "사용자의 환경 설정이 변경되었습니다.",
+	"prefs_done": "환경 설정이 바뀌었습니다.",
 	"prefs_langlabel": "인터페이스 언어:",
 	"report_variables_used": "이 보고서를 생성하기 위해 다음의 변수들이 사용되었습니다:",
 	"report_noresults": "죄송합니다. 이 보고서에 출력된 결과가 없습니다.",

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tow"
+		]
+	},
+	"apply": "ਲਾਗੂ ਕਰੋ",
+	"changelog": "ਨਵਾੰ ਕੀ ਹੈ",
+	"clear": "ਸਾਫ਼ ਕਰੋ",
+	"close": "ਬੰਦ ਕਰੋ",
+	"cvn-reason": "ਕਾਰਨ",
+	"documentation": "ਦਸਤਾਵੇਜ਼",
+	"filter": "ਛਾਨਣੀ",
+	"filter-hidebots": "ਬੌਟਾਂ ਨੂੰ ਲੁਕਾਓ",
+	"filter-unpatrolled": "ਜਾਂਚੀਆਂ ਹੋਈਆਂ ਸੋਧਾੰ ਲੁਕਾਓ",
+	"help": "ਮਦਦ",
+	"limit": "ਹੱਦ",
+	"months": "ਜਨਵਰੀ, ਫਰਵਰੀ, ਮਾਰਚ, ਅਪ੍ਰੈਲ, ਮਈ, ਜੂਨ, ਜੁਲਾਈ, ਅਗਸਤ, ਸਤੰਬਰ, ਅਕਤੂਬਰ, ਨਵੰਬਰ, ਦਸੰਬਰ",
+	"namespace": "ਨਾਮਸਥਾਨ",
+	"order": "ਕ੍ਰਮ",
+	"select-placeholder-none": "(ਕੋਈ ਨਹੀਂ)",
+	"time-from": "ਤੋਂ",
+	"time-untill": "ਤੱਕ",
+	"typeEdit": "ਸੋਧਾਂ",
+	"typeNew": "ਨਵੇਂ ਸਫ਼ੇ"
+}

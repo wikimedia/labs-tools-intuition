@@ -17,6 +17,7 @@
 	"desc": "Descreissent",
 	"documentation": "Documentacion",
 	"filter": "Filtre",
+	"filter-unpatrolled": "Amagar los cambiaments patrolhats",
 	"helpicon-tooltip": "Ne saber mai sus aquesta foncionalitat",
 	"lastupdate-cvn": "Darrièra mesa a jorn : $1",
 	"lastupdate-rc": "Darrièra mesa a jorn : $1",
