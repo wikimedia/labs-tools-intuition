@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Palapa"
+		]
+	},
+	"form-label-language": "Jezik:",
+	"form-label-template": "Ime šablona:",
+	"form-label-template2": "(uključujući imenski prostor)",
+	"form-label-complete": "Napravite cjelokupan izvještaj:",
+	"feedback-template-missing": "Šablon $1 ne postoji.",
+	"feedback-result": "Rezultati za $1",
+	"feedback-header-redirects": "Linkuje na redirekcije",
+	"feedback-total-count": "Ukupno: $1",
+	"feedback-header-transclusions": "Transkluzija šablona",
+	"feedback-header-links": "Linkuje iz šablona",
+	"link-edit": "uredi",
+	"link-create": "napravi",
+	"link-complete": "Cjelokupan izvještaj...",
+	"error-language": "Nepoznat kod jezika."
+}
