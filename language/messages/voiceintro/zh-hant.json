@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
+	"voiceintro-toolbar-record-label": "紀錄",
+	"voiceintro-toolbar-stop-label": "停止",
+	"voiceintro-toolbar-clear-label": "清除",
 	"voiceintro-toolbar-upload-label": "上傳",
+	"voiceintro-webaudio-not-supported": "網頁音效API不支援此瀏覽器",
+	"voiceintro-information-speaker-label": "發言人名稱：",
 	"voiceintro-information-language-label": "語言："
 }

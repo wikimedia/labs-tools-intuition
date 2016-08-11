@@ -1,13 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
+	"label-page": "頁面",
 	"label-namespace": "命名空間",
 	"label-limit": "限制",
+	"button-submit": "送出",
 	"istemplate": "引用",
 	"isfile": "檔案連結",
+	"linksearch": "連結搜尋",
 	"section-links": "連結",
+	"section-iwlinks": "跨維基連結",
+	"section-extlinks": "外部連結",
 	"section-categories": "分類"
 }

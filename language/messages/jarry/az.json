@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Khan27"
+			"Khan27",
+			"Wertuose"
 		]
 	},
-	"moretools": "bu müəllifin başqa alətləri",
+	"moretools": "digər alətlər",
+	"homepage-title": "Giriş",
 	"bugs": "xəta hesabatları və özəl sorğular",
 	"comments": "şərhlər və sorğular",
 	"error-form-empty": "Bir və ya bir neçə məcburi sahə boş qoyulub. Siz onları davam etməzdən əvvəl doldurmalısınız."

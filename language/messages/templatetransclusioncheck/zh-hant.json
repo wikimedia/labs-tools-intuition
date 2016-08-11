@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
 	"form-label-language": "語言：",
 	"form-label-template": "模板名稱：",
-	"feedback-total-count": "總計：$1"
+	"form-label-template2": "（包含命名空間）",
+	"feedback-result": "用於$1結果",
+	"feedback-header-redirects": "連結至重定向",
+	"feedback-total-count": "總計：$1",
+	"link-edit": "編輯",
+	"link-create": "創建",
+	"link-complete": "完整報告..."
 }

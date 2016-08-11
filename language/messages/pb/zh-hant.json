@@ -1,10 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
 	"pb-about-pb-navi": "關於",
+	"pb-about-pb-tech": "技術細節",
+	"pb-change-language": "變更語言",
+	"pb-comment": "評論",
+	"pb-date": "日期",
+	"pb-home": "首頁",
+	"pb-labs-name": "維基媒體工具實驗室",
+	"pb-reconfirmed": "重新確認？",
 	"pb-user": "使用者",
+	"pb-user-link-title": "有關使用者$1詳細訊息",
+	"pb-user-title": "有關$1資訊",
 	"pb-users-navi": "使用者"
 }

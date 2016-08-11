@@ -13,6 +13,7 @@
 	"select_wiki_next": "Seguinte →",
 	"select_report": "Por favor, selecciona un informe:",
 	"select_report_disabled": "Este informe non está dispoñible.",
+	"select_report_go_back": "← Cambiar wiki",
 	"qvar_title": "Introduce as variables para a túa consulta",
 	"qvar_next": "Seguinte →",
 	"prefs_submit": "Aceptar",

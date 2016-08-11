@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Base"
+			"Base",
+			"Piramidion"
 		]
 	},
+	"title": "Посилання звідси",
+	"title-leaveshere": "Посилання, що ведуть із «$1»",
+	"sub-leaveshere": "Такі посилання ведуть із $1",
 	"label-page": "Сторінка",
 	"label-namespace": "Простір назв",
 	"label-limit": "Обмеження",
@@ -15,6 +19,7 @@
 	"whatlinkshere-whatleaveshere": "Що звідси виходить?",
 	"istemplate": "включення",
 	"isfile": "посилання на файл",
+	"linksearch": "Пошук посилань",
 	"section-links": "Посилання",
 	"section-iwlinks": "Інтервікі-посилання",
 	"section-extlinks": "Зовнішні посилання",

@@ -3,12 +3,14 @@
 		"authors": [
 			"Cwlin0416",
 			"LNDDYL",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
 	"records": "資料記錄",
 	"list": "清單",
 	"sample": "範例",
+	"hits": "查看",
 	"pageviews": "頁面瀏覽量",
 	"24hstat": "24小時統計",
 	"pagetitle": "頁面標題",
@@ -92,6 +94,7 @@
 	"selectCategory": "從左側的功能表中選擇您的分類",
 	"furtherInformation": "更多資訊",
 	"urlParameter": "URL參數",
+	"hideHints": "隱藏提示",
 	"customBarColors": "自訂列顏色",
 	"on": "開",
 	"off": "關",
@@ -100,6 +103,9 @@
 	"cancel": "取消",
 	"resetAndDelete": "重設並刪除cookie",
 	"autofilter": "自動過濾器",
+	"barchart": "條狀圖",
+	"linechart": "線狀圖",
+	"linechart_filled": "填充線狀圖",
 	"isRedirect": "此頁面是重新導向",
 	"disambPage": "消歧義頁",
 	"showRedir": "顯示重新導向",
@@ -108,6 +114,7 @@
 	"removeFromWorklist": "從作品清單中刪除",
 	"projectPages": "計畫頁面",
 	"backToTop": "返回頁首",
+	"rankLocal": "本地排名",
 	"rankWorld": "維基媒體 Wiki 網站排名（世界）",
 	"pageViewCount": "頁面瀏覽量數目（非惟一）",
 	"winningArticles": "獲獎條目",

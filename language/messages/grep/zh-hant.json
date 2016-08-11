@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
+	"explanation": "解釋",
 	"regex": "正規表示法",
+	"enter-details": "輸入詳細訊息",
+	"results": "結果",
 	"language-label": "語言",
-	"namespace-label": "命名空間"
+	"namespace-label": "命名空間",
+	"redirects-label": "包含重定向",
+	"limit-label": "限制顯示前100項結果",
+	"match-count": "{{PLURAL:$1|$1個頁面|$1個頁面}}匹配您的正規表示法。"
 }

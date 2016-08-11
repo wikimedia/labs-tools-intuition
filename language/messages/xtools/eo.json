@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"KuboF",
-			"Lucas"
+			"Lucas",
+			"Robin van der Vliet"
 		]
 	},
 	"title_xtools": "Iloj de X!",
@@ -36,7 +37,7 @@
 	"executed": "Plenumita en $1 sekundo(j).",
 	"memory": "Prenis $1 magabitokojn de memoro por plenumi.",
 	"optional": "opcia",
-	"username": "Uzantonomo",
+	"username": "Uzantnomo",
 	"users": "{{PLURAL: $1|Uzanto|Uzantoj}}",
 	"searchresult": "Serĉrezulto",
 	"submit": "Sendi",

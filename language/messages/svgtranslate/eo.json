@@ -3,7 +3,8 @@
 		"authors": [
 			"Anakmalaysia",
 			"ThomasPusch",
-			"Yekrats"
+			"Yekrats",
+			"Robin van der Vliet"
 		]
 	},
 	"error-tryagain": "$1 Klaku la butonon \"reiro\" de via foliumilo por reprovi.",
@@ -16,7 +17,7 @@
 	"th-original": "Originalo",
 	"th-translation": "Traduko",
 	"th-language": "Lingvo",
-	"th-username": "Salutnomo",
+	"th-username": "Uzantnomo",
 	"th-password": "Pasvorto",
 	"th-method": "Metodo",
 	"option-oauth": "OAuth (aŭtomata alŝuto)",

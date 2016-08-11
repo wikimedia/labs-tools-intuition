@@ -2,10 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Cekli829",
-			"Vago"
+			"Vago",
+			"Wertuose"
 		]
 	},
+	"current-language": "Seçdiyiniz dil",
+	"settings-legend": "Nizamlamalar",
+	"choose-language": "Dil seçin",
 	"clear-cookies": "kökələri təmizlə",
 	"cookie-expiration": "kökənin bitmə vaxtı",
-	"tab-about": "Haqqında"
+	"tab-overview": "Xülasə",
+	"tab-settings": "Nizamlamalar",
+	"tab-about": "Haqqında",
+	"tab-demo": "Demo",
+	"bl-mysettings": "Mənim dil parametrlərim",
+	"bl-mysettings-new": "Dili dəyiş!",
+	"bl-promo": "Tərcümə $1 və $2 vasitəsilə yerinə yetirilmişdir.",
+	"bl-changelanguage": "Bu alətin interfeys dilini dəyişmək",
+	"usage": "Intuition vasitəsilə tərcümə edilmiş alətlər.",
+	"help-translate-tool": "Bu aləti tərcümə etməyə kömək edin!",
+	"help-translate-all": "Alətləri tərcümə etməyə kömək edin!",
+	"help-translate-tooltip": "İnterfeys yazılarını öz dilinizə tərcümə etməklə başqalarına yardımçı olun."
 }

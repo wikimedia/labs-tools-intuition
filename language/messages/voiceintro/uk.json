@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
 	"voiceintro-toolbar-record-label": "Запис",
 	"voiceintro-toolbar-stop-label": "Стоп",
 	"voiceintro-toolbar-clear-label": "Очистити",
@@ -8,6 +12,7 @@
 	"voiceintro-upload-publish-succeeded": "Запис успішно завантажено:",
 	"voiceintro-upload-publish-failed": "Запис не було завантажено",
 	"voiceintro-information-label": "Інформація",
+	"voiceintro-information-speaker-label": "Ім'я промовця:",
 	"voiceintro-information-language-label": "Мова:",
 	"voiceintro-mic-access-notify": "Натисніть кнопку \"Дозволити\" аби дозволити браузер для доступу до вашого мікрофона.",
 	"voiceintro-recording-notify": "Запис..."

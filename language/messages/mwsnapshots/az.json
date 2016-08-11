@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"AZISS"
+			"AZISS",
+			"Wertuose"
 		]
 	},
+	"title-overview": "Şəkillər",
 	"title-error": "Xəta",
+	"title-updatelog": "Yeniliklər jurnalı",
+	"download-button": "Şəkil yüklə",
 	"download-directlink": "Birbaşa link",
+	"title-downloadpage": "Endir",
 	"repo-site-link": "Vebsayt",
 	"repo-lastmoddate-label": "Tarix:",
 	"tablehead-filesize": "Faylın ölçüsü"

@@ -4,6 +4,5 @@
 			"Robin van der Vliet"
 		]
 	},
-	"users": "{{PLURAL: $1|uzanto|uzantoj}}",
-	"cancel": "nuligi"
+	"category_users": "Uzantoj"
 }

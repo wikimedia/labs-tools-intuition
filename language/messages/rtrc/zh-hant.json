@@ -2,22 +2,42 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Kly"
 		]
 	},
 	"apply": "套用",
+	"asc": "升冪",
+	"changelog": "最新消息",
+	"clear": "清除",
+	"close": "關閉",
 	"cvn-adder-empty": "不明",
 	"cvn-reason": "原因",
+	"desc": "降冪",
 	"documentation": "說明文件",
 	"filter": "篩選器",
+	"filter-hidebots": "隱藏機器人",
 	"help": "說明",
 	"lastupdate-cvn": "最後更新：$1",
 	"lastupdate-rc": "最後更新：$1",
+	"legend": "圖例",
 	"limit": "限制",
 	"months": "1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月",
+	"mypatrollog": "我的巡查記錄",
 	"namespace": "命名空間",
+	"order": "排序",
+	"pause": "暫停",
 	"reload-interval": "時間間隔",
 	"select-placeholder-none": "(無)",
+	"skip": "忽略",
+	"skippededit": "忽略的編輯",
+	"tag": "標籤",
+	"time-from": "由",
+	"time-untill": "到",
+	"timeframe": "時間範圍",
 	"type": "類型",
-	"typeNew": "新頁面"
+	"typeEdit": "編輯",
+	"typeNew": "新頁面",
+	"unskip": "取消忽略",
+	"userfilter": "使用搜尋條件"
 }

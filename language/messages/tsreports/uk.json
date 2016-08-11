@@ -1,8 +1,47 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"Piramidion"
 		]
 	},
-	"base_prefslink": "<a href=\"prefs.fcgi\">Змінити мову / налаштування</a>"
+	"base_prefslink": "<a href=\"prefs.fcgi\">Змінити мову / налаштування</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Повідомити про баг або подати запит на функцію</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Вікі</a>",
+	"category_users": "Користувачі",
+	"category_articles": "Сторінки",
+	"category_images": "Зображення",
+	"category_miscellaneous": "Різне",
+	"category_wikidata": "Вікідані",
+	"select_wiki_title": "Виберіть вікі",
+	"select_wiki": "Будь ласка, введіть вікі, доповідь стосовно якої Ви хотіли б отримати (напр., «<kbd>uk.wikipedia.org</kbd>»):",
+	"select_wiki_next": "Далі →",
+	"select_report_title": "Виберіть доповідь для запуску на %(wiki)",
+	"select_report": "Будь ласка, виберіть доповідь:",
+	"select_report_disabled": "Ця доповідь недоступна.",
+	"select_report_disabled_blurb": "Примітка: Доповіді, <span class=\"disabled-report\"> такі як ця</span>, є нічними запитами, що так і не були запущені; тому для цих доповідей немає результатів. Як тільки процес виконання наступної нічної доповіді завершиться, ці доповіді стануть доступними.",
+	"select_report_not_cached": "Немає кешованої версії цієї доповіді. Клацніть посилання, щоб здійснити перший її запуск.",
+	"select_report_first": "Ця доповідь підготовлена вперше, і невдовзі має стати доступною.",
+	"select_report_hot": "Доступна кешована версія цієї доповіді, створена %(age)s тому.",
+	"select_report_cold_running": "Доступна кешована версія цієї доповіді, створена %(age)s тому. Нова версія очікується через %(eta)s.",
+	"select_report_cold_not_running": "Доступна кешована версія цієї доповіді, створена %(age)s тому. Нову версію буде підготовлено, якщо Ви переглянете поточну доповідь, і стане доступною приблизно через %(eta)s.",
+	"select_report_no_reports": "На жаль, зараз немає доступних доповідей для %(wiki)s.",
+	"select_report_go_back": "← Змінити вікі",
+	"qvar_title": "Введіть змінні для свого запиту",
+	"qvar_blurb": "Ваш запит вимагає введення деяких змінних",
+	"qvar_next": "Далі →",
+	"prefs_title": "Налаштування доповідей",
+	"prefs_submit": "Готово",
+	"prefs_done": "Ваші налаштування змінено.",
+	"prefs_langlabel": "Мова інтерфейсу:",
+	"report_wascached": "Цю доповідь було кешовано %(age)s тому.",
+	"report_cold_cache_running": "(Ре)генерація кешу розпочалася %(runtime)s тому.",
+	"report_cold_cache_started": "(Ре)генерація кешу щойно розпочалася.",
+	"report_nocache": "Регенерація цієї доповіді запланована на нічний час, але ще не виконувалась, тож даних немає.",
+	"report_first_run": "Ця доповідь генерується вперше, тож наразі ще немає даних.",
+	"report_last_run_duration": "Цю доповідь було згенеровано за %(duration)s.",
+	"report_variables_used": "Для генерування цієї доповіді було використано такі змінні:",
+	"report_noresults": "На жаль, ця доповідь не вивела жодних результатів.",
+	"report_change_report": "<a href=\"%(url)s\">Змінити доповідь</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Змінити вікі</a>"
 }

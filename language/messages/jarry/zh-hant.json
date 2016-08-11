@@ -3,10 +3,12 @@
 		"authors": [
 			"Simon Shek",
 			"Wehwei",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Kly"
 		]
 	},
 	"moretools": "更多工具",
+	"homepage-title": "介紹",
 	"bugs": "問題報告與功能請求",
 	"comments": "意見和查詢",
 	"error-form-empty": "有必填項目留空。請填上後繼續。"

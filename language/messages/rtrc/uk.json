@@ -3,11 +3,13 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Jbuket",
-			"Visem"
+			"Visem",
+			"Piramidion"
 		]
 	},
 	"title": "Останні зміни в режимі реального часу",
 	"apply": "Застосовувати",
+	"autodiff": "AutoDiff",
 	"asc": "Зрост",
 	"changelog": "Що нового",
 	"clear": "очистити",
@@ -27,7 +29,9 @@
 	"helpicon-tooltip": "Дізнайтеся більше про цю функцію",
 	"lastupdate-cvn": "Останнє оновлення: $1",
 	"lastupdate-rc": "Останнє оновлення: $1",
+	"legend": "Легенда",
 	"limit": "Обмеження",
+	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "MassPatrol був відключений, бо він вимагає користувацького фільтру і жодний не був встановлений.",
 	"months": "Січень, Лютий, Березень, Квітень, Травень, Червень, Липень, Серпень, Вересень, Жовтень, Листопад, Грудень",
 	"mypatrollog": "журнал патрулювання",
@@ -36,6 +40,7 @@
 	"nomatches": "Немає відповідних змін для ваших налаштувань",
 	"order": "Порядок",
 	"ores-damaging-probability": "Ймовірність пошкодження: $1",
+	"pause": "Пауза",
 	"permalink": "Постійне посилання на поточні параметри",
 	"reload-interval": "Інтервал",
 	"select-placeholder-none": "(нема)",
@@ -50,5 +55,6 @@
 	"type": "Тип",
 	"typeEdit": "Редагування",
 	"typeNew": "Нові сторінки",
+	"unskip": "Скасувати пропущення",
 	"userfilter": "Користувацький фільтр"
 }
