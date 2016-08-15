@@ -12,9 +12,12 @@
 	"pb-date": "日期",
 	"pb-home": "首頁",
 	"pb-labs-name": "維基媒體工具實驗室",
+	"pb-recent-confirmations": "最近確認",
 	"pb-reconfirmed": "重新確認？",
 	"pb-user": "使用者",
 	"pb-user-link-title": "有關使用者$1詳細訊息",
+	"pb-user-heading": "用於 <a href=\"$2\" title=\"關於$1用戶頁面\">$1</a>訊息",
 	"pb-user-title": "有關$1資訊",
-	"pb-users-navi": "使用者"
+	"pb-users-navi": "使用者",
+	"pb-users-title": "參與者清單"
 }

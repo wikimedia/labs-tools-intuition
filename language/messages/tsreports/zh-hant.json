@@ -5,6 +5,9 @@
 			"Kly"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">變更語言/設置</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">報告錯誤或功能請求</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">維基</a>",
 	"category_users": "使用者",
 	"category_articles": "頁面",
 	"category_images": "圖像",
@@ -16,6 +19,7 @@
 	"prefs_submit": "確認",
 	"prefs_done": "您的設置已更改",
 	"prefs_langlabel": "介面語言：",
+	"report_noresults": "抱歉，這個報告沒有產生任何結果。",
 	"report_change_report": "<a href=\"%(url)s\">變更報告</a>",
 	"report_change_wiki": "<a href=\"%(url)s\">更改維基</a>"
 }

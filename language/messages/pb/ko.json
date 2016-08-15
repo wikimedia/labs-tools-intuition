@@ -13,8 +13,8 @@
 	"pb-date": "날짜",
 	"pb-home": "홈",
 	"pb-user": "사용자",
-	"pb-user-link-title": "$1 사용자 상세 정보",
-	"pb-user-heading": "<a href=\"$2\" title=\"$1 사용자 문서\">$1</a>의 정보",
+	"pb-user-link-title": "$1 사용자의 자세한 사항",
+	"pb-user-heading": "<a href=\"$2\" title=\"$1의 사용자 문서\">$1</a>의 정보",
 	"pb-user-title": "$1의 정보",
 	"pb-users-navi": "사용자",
 	"pb-users-title": "참여자 목록"

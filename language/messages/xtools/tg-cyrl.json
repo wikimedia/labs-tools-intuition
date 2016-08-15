@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"AryanSogd"
+		]
+	},
+	"title_xtools": "X!'s олотҳо",
+	"welcome": "Хуш омадед ба X!'s олотҳо",
+	"tool_ec": "Вироиши ҳисобкунак",
+	"tool_blame": "Мақолаи офарида",
+	"tool_articleinfo": "Таърихи саҳифа",
+	"tool_pages": "Саҳифаҳои офарида",
+	"tool_topedits": "Вироишҳои баргузида",
+	"tool_autoedits": "Вироишҳои автоматӣ",
+	"tool_rangecontribs": "Доираи ҳисса",
+	"tool_bash": "Иқтибоси тасодуфӣ",
+	"tool_sc": "Тез, тира, ҳисобкунаки оддии вироишҳо",
+	"tool_rfa": "RfX Таҳлил",
+	"tool_rfap": "RfX Калкулятори овоздиҳӣ",
+	"tool_autoblock": "Автобаста",
+	"tool_adminstats": "Омори мудирон",
+	"tool_ec_desc": "Таҳлили ҳисаи корбар"
+}

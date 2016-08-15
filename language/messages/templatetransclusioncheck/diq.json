@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
+	"form-label-language": "Zıwan:",
 	"feedback-template-missing": "Şablon $1 çıniyo.",
 	"error-language": "Kodê zıwaniyo nêzaniyaye."
 }

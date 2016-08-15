@@ -8,10 +8,14 @@
 	"form-label-language": "語言：",
 	"form-label-template": "模板名稱：",
 	"form-label-template2": "（包含命名空間）",
+	"form-label-complete": "產生完整報告：",
+	"feedback-template-missing": "模板$1不存在。",
 	"feedback-result": "用於$1結果",
 	"feedback-header-redirects": "連結至重定向",
 	"feedback-total-count": "總計：$1",
+	"feedback-header-links": "來自此模板的連結",
 	"link-edit": "編輯",
 	"link-create": "創建",
-	"link-complete": "完整報告..."
+	"link-complete": "完整報告...",
+	"error-language": "不明語言代碼。"
 }
