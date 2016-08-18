@@ -11,5 +11,6 @@
 	"voiceintro-toolbar-upload-label": "上傳",
 	"voiceintro-webaudio-not-supported": "網頁音效API不支援此瀏覽器",
 	"voiceintro-information-speaker-label": "發言人名稱：",
-	"voiceintro-information-language-label": "語言："
+	"voiceintro-information-language-label": "語言：",
+	"voiceintro-mic-access-notify": "點擊「同意」讓瀏覽器能使用您的麥克風。"
 }
