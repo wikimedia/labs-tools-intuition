@@ -12,6 +12,7 @@
 	"label-page": "Label of input field for page name.\n{{Identical|Page}}",
 	"label-namespace": "Label of dropdown menu for namespace.\n{{Identical|Namespace}}",
 	"label-limit": "Label of dropdown menu for number of results.\n{{Identical|Limit}}",
+	"namespacesall": "Used in dropdown menu for namespaces as option for all namespaces.\n\n{{Identical|All}}",
 	"button-submit": "Submit button of form.\n{{Identical|Go}}",
 	"noleaveshere": "Used on [[Special:WhatLeavesHere]] when there are no outgoing links found.\n\nParameters:\n* $1 - page title (with link)",
 	"link-whatleaveshere": "Text of link to [[Special:WhatLeavesHere]] in the sidebar.\n{{Identical|Whatleaveshere}}",

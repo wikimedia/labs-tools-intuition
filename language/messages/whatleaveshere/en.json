@@ -6,6 +6,7 @@
 	"label-page": "Page",
 	"label-namespace": "Namespace",
 	"label-limit": "Limit",
+	"namespacesall": "all",
 	"button-submit": "Go",
 	"noleaveshere": "Nothing links from $1",
 	"link-whatleaveshere": "What leaves here",
