@@ -76,6 +76,7 @@
 	"chartBasedOn": "基於圖表圖形",
 	"by": "由",
 	"publishedAsOS": "以開放原始碼發佈",
+	"providedBy": "提供由",
 	"icons": "圖示",
 	"thisSoftwareIs": "這個軟件是",
 	"rawDataSource": "原始資料來源",
@@ -100,6 +101,7 @@
 	"furtherInformation": "更多資訊",
 	"urlParameter": "URL參數",
 	"hideHints": "隱藏提示",
+	"optinMsg2": "另外，您在元維基上可創建$1來跨全部維基媒體wikis選擇加入。",
 	"colorScheme": "色彩模式",
 	"customBarColors": "自訂列顏色",
 	"on": "開",
@@ -127,5 +129,6 @@
 	"numPageWatchers": "頁面監視者數",
 	"linkStats": "連結到頁面統計",
 	"linkArticle": "連結至 wiki 條目",
+	"authorMostEdits": "大量編輯作者。在德語維基百科指：有分享最多文本的作者",
 	"totalShare": "總分享次數"
 }

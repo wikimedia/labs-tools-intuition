@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Simon Shek"
+			"Simon Shek",
+			"Kly"
 		]
 	},
 	"title": "按分類下載圖片",
@@ -20,5 +21,9 @@
 	"zip-failed": "Zip建立失敗",
 	"image-area-too-big": "$1太大而無法建立其縮圖。使用其完整大小。",
 	"download-info": "這裡有{{plural: $1|一張|$1張}}大小為$2的圖片",
-	"download": "下載"
+	"download": "下載",
+	"non-bundled-wget": "註：此版本不包含適用於Windows的wget。您需要解壓縮至一個帶有wget.exe的目錄下，或者是在PATH裡指名wget的位置。",
+	"scaling-width": "，縮放到最大寬度{{plural:$1|像素|像素}}",
+	"scaling-height": "，縮放到最大高度{{plural:$1|像素|像素}}",
+	"scaling-both": "，縮放到最大尺寸$1x$2像素"
 }

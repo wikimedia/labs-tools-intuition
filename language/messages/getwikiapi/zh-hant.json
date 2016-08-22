@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Lauhenry",
-			"Simon Shek"
+			"Simon Shek",
+			"Kly"
 		]
 	},
+	"description": "有關維基媒體wikis元訊息",
 	"formats-heading": "輸出格式",
 	"input": "輸入",
 	"label-wikiids": "Wiki標識符",

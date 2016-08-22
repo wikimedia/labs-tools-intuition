@@ -10,6 +10,7 @@
 	"label-page": "Page",
 	"label-namespace": "Espace de noms",
 	"label-limit": "Limite",
+	"namespacesall": "tous",
 	"button-submit": "Aller",
 	"noleaveshere": "Rien n’est pointé par $1",
 	"link-whatleaveshere": "Ce qui part d’ici",
