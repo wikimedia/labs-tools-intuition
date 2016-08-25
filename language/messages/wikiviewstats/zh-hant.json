@@ -90,6 +90,7 @@
 	"noData": "無可用資料",
 	"searchOnlyTOP": "此搜尋僅執行在熱門清單中。",
 	"tryAgain": "在主資料庫重試一次",
+	"mycontribsOptin": "此功能用於讓X!的編輯計數器選擇加入模組。如果不加入，讀出內容會被限制成0個命名空間(條目)以及$1個最低編輯次數。",
 	"optInOAuth": "或者您可以透過維基媒體的 OAuth 登入",
 	"onlyOwnCreatedPages": "只顯示我建立的頁面",
 	"namespaces": "命名空間",
@@ -101,6 +102,7 @@
 	"furtherInformation": "更多資訊",
 	"urlParameter": "URL參數",
 	"hideHints": "隱藏提示",
+	"optinMsg1": "用戶尚未選擇加入。如果您想要查看圖表，請先以隨意內容來建立$1",
 	"optinMsg2": "另外，您在元維基上可創建$1來跨全部維基媒體wikis選擇加入。",
 	"colorScheme": "色彩模式",
 	"customBarColors": "自訂列顏色",
@@ -120,7 +122,7 @@
 	"searchVariants": "搜尋變體",
 	"addToWorkList": "添加至作品清單",
 	"removeFromWorklist": "從作品清單中刪除",
-	"projectPages": "計畫頁面",
+	"projectPages": "計劃頁面",
 	"backToTop": "返回頁首",
 	"rankLocal": "本地排名",
 	"rankWorld": "維基媒體 Wiki 網站排名（世界）",
@@ -130,5 +132,6 @@
 	"linkStats": "連結到頁面統計",
 	"linkArticle": "連結至 wiki 條目",
 	"authorMostEdits": "大量編輯作者。在德語維基百科指：有分享最多文本的作者",
-	"totalShare": "總分享次數"
+	"totalShare": "總分享次數",
+	"statsEntry": "$1：為以來自全維基媒體wiki前10萬筆最多瀏覽次數頁面的清單；所做出的瀏覽頁面及熱門頁面統計資料(可選今日、每月和自訂時間範圍)。具備額外功能有: 萬用字元搜尋、24小時統計內容、個人最愛、全域計劃總計、支援消歧義頁面和維基數據項目。另外會以每小時做一次更新。"
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"AwesomeOrange89",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"Dgstranz"
 		]
 	},
 	"title": "Lo que sale de aquí",
@@ -12,6 +13,7 @@
 	"label-page": "Página",
 	"label-namespace": "Espacio de nombres",
 	"label-limit": "Límite",
+	"namespacesall": "todos",
 	"button-submit": "Ir",
 	"noleaveshere": "Nada vincula desde $1",
 	"link-whatleaveshere": "Lo que sale de aquí",

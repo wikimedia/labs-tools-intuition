@@ -6,5 +6,8 @@
 	},
 	"form-label-language": "Nyelv:",
 	"form-label-template": "A sablon neve:",
-	"form-label-template2": "(beleértve a névteret)"
+	"form-label-template2": "(beleértve a névteret)",
+	"link-complete": "Teljes jelentés...",
+	"footer-stats": "Legenerálva: $1. Időtartam: $2 másodperc",
+	"error-language": "Ismeretlen nyelvkód"
 }

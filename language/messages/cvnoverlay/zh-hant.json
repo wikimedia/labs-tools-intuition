@@ -5,8 +5,10 @@
 			"Kly"
 		]
 	},
+	"adder": "添加者",
 	"adder-empty": "不明",
 	"expiry": "期限",
 	"globalwatched": "全域查看",
-	"reason": "原因"
+	"reason": "原因",
+	"reason-empty": "找不到原因"
 }

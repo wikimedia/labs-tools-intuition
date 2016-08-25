@@ -6,6 +6,7 @@
 		]
 	},
 	"title": "模板連結與嵌入檢查",
+	"description": "檢查並回報當嵌入到模板、但沒有與該模板作連結的條目，以及有與模板連結、但未嵌入該模板的條目。",
 	"form-label-language": "語言：",
 	"form-label-template": "模板名稱：",
 	"form-label-template2": "（包含命名空間）",

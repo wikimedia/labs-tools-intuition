@@ -6,12 +6,15 @@
 			"Kly"
 		]
 	},
+	"title": "Real-Time Recent Changes",
 	"apply": "套用",
+	"autodiff": "自動差異",
 	"asc": "升冪",
 	"changelog": "最新消息",
 	"clear": "清除",
 	"close": "關閉",
 	"currentedit": "目前選擇的編輯",
+	"cvn-adder": "添加者",
 	"cvn-adder-empty": "不明",
 	"cvn-reason": "原因",
 	"cvn-reason-empty": "找不到原因",
@@ -28,6 +31,7 @@
 	"legend": "圖例",
 	"limit": "限制",
 	"masspatrol": "大量巡查",
+	"masspatrol-requires-userfilter": "用戶篩選沒有設置；導致大量巡查功能停用。",
 	"months": "1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月",
 	"mypatrollog": "我的巡查記錄",
 	"namespace": "命名空間",

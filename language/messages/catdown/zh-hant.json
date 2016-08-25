@@ -7,7 +7,7 @@
 	},
 	"title": "按分類下載圖片",
 	"subtitle": "一個簡單方法從分類中下載圖片",
-	"project": "計畫：",
+	"project": "計劃：",
 	"category": "分類:",
 	"thumbnailing": "縮圖",
 	"max-width": "最大寛度：",
@@ -22,7 +22,9 @@
 	"image-area-too-big": "$1太大而無法建立其縮圖。使用其完整大小。",
 	"download-info": "這裡有{{plural: $1|一張|$1張}}大小為$2的圖片",
 	"download": "下載",
+	"readme-contents": "內附檔案 $4 包含：\n位於 $1 分類 ( $2 )$3的圖片。\n\n== 用於下載所有列出圖片的指南 ==\n下載檔案時間也需會花費數分鐘至數小時不等。\n\nWindows：\n 解開所有檔案在同一目錄下並執行： $5\n $6\nLinux/Mac OS：\n 解開所有檔案，並在該目錄下開啟終端介面後，執行指令： sh $5",
 	"non-bundled-wget": "註：此版本不包含適用於Windows的wget。您需要解壓縮至一個帶有wget.exe的目錄下，或者是在PATH裡指名wget的位置。",
+	"wget-info": "此檔案綑綁了wget副本$1(適用於Windows平台)。Wget為根據GNU通用公共授權條款第3版授權的自由軟體。許可證副本在 http://www.gnu.org/licenses/gpl-3.0.txt 裡查看。\n\n如果您有興趣獲取此軟體的原始碼，您可在此下載：\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n\n或從其它GNU鏡像站台下載，參見：\n http://www.gnu.org/prep/ftp.html",
 	"scaling-width": "，縮放到最大寬度{{plural:$1|像素|像素}}",
 	"scaling-height": "，縮放到最大高度{{plural:$1|像素|像素}}",
 	"scaling-both": "，縮放到最大尺寸$1x$2像素"
