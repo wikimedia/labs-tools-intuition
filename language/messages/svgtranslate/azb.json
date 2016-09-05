@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Koroğlu",
-			"Mousa"
+			"Mousa",
+			"Ilğım"
 		]
 	},
 	"error-tryagain": "$1 یئنی‌دن چالیشماق اوچون براوزِرینیزین «قاییت» دویمه‌سینی وورون.",
@@ -16,7 +17,7 @@
 	"th-translation": "چئویرمک",
 	"th-language": "دیل",
 	"th-username": "ایشلدن آدی",
-	"th-password": "رمز",
+	"th-password": "پسووْرد",
 	"th-method": "یول",
 	"option-oauth": "TUSC (اوتوماتیک یوکله‌مک)",
 	"option-manual": "ال ایله یوکله‌مک",

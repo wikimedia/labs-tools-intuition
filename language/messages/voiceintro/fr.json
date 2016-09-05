@@ -9,7 +9,7 @@
 	"voiceintro-toolbar-stop-label": "Arrêter",
 	"voiceintro-toolbar-clear-label": "Effacer",
 	"voiceintro-toolbar-upload-label": "Téléverser",
-	"voiceintro-webaudio-not-supported": "L’API WebAudio n’est pas supportée par ce navigateur",
+	"voiceintro-webaudio-not-supported": "L’API WebAudio n’est pas prise en charge par ce navigateur",
 	"voiceintro-upload-publish-succeeded": "Enregistrement bien importé :",
 	"voiceintro-upload-publish-failed": "L’enregistrement n’a pas été importé",
 	"voiceintro-information-label": "Information",

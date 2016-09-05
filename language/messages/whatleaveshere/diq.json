@@ -1,22 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
 	"title": "Pele rê gıreyi",
 	"title-leaveshere": "Perer rê $1 ra gırey",
 	"label-page": "Pele",
-	"label-namespace": "Heruna nami",
+	"label-namespace": "Heruna nameyi",
 	"label-limit": "بريد",
 	"button-submit": "Şo",
 	"whatlinkshere": "Pele rê gıreyi",
 	"whatlinkshere-whatleaveshere": "Pele rê gırey?",
 	"istemplate": "Açarnayene",
-	"isfile": "Linka dosya",
+	"isfile": "gıreyê dosya",
 	"linksearch": "GreaVinayış",
-	"section-links": "Linki",
+	"section-links": "Gıreyi",
 	"section-iwlinks": "Interwiki linki",
-	"section-extlinks": "Gırêy teberi",
-	"section-categories": "Kategoriy"
+	"section-extlinks": "Gıreyê teberi",
+	"section-categories": "Kategoriyi"
 }

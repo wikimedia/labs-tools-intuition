@@ -1,11 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Mr. Ibrahem"
 		]
 	},
 	"form-label-language": "اللغة:",
 	"form-label-template": "اسم القالب:",
+	"form-label-template2": "(بما في ذلك نطاق الاسم)",
+	"form-label-complete": "توليد التقرير بالكامل:",
+	"feedback-template-missing": "القالب $1 غير موجود.",
+	"feedback-template-noaccess": "القالب $1 يبدو موجوداً، ولكن لم يكن متوفراً من قاعدة البيانات. قد تكون مشكلة قاعدة بيانات مؤقتة. قاعدة بيانات المستخدمة: $2.",
+	"feedback-result": "نتائح من $1",
+	"feedback-header-mismatch": "عدم تطابق بين التضمينات والروابط",
+	"feedback-header-no-link": "مضمن ولكن لا ارتباط",
+	"feedback-header-no-transclusion": "ارتباط ولكن غير مضمن",
+	"feedback-header-redirects": "وصلات إلى تحويلات",
+	"feedback-total-count": "إجمالي: $1",
+	"feedback-header-transclusions": "تضمينات القالب",
+	"feedback-header-links": "وصلات من القالب",
 	"link-edit": "عدل",
-	"link-create": "أنشأ"
+	"link-create": "أنشأ",
+	"link-complete": "التقرير الكامل ...",
+	"footer-stats": "توليد: $1. لمدة: $2 {{PLURAL:$2|ثانية|ثواني}}.",
+	"error-language": "كود لغة غير معروف."
 }

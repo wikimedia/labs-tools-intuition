@@ -7,7 +7,8 @@
 			"Orikrin1998",
 			"SnowedEarth",
 			"Nnemo",
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"title_xtools": "Outils de X!",
@@ -216,8 +217,8 @@
 	"quote_random": "Obtenir une citation aléatoire",
 	"quote_showall": "Afficher toutes les citations",
 	"quote_number": "Citation numéro #",
-	"support": "Soutien",
-	"oppose": "S’opposer",
+	"support": "Pour",
+	"oppose": "Contre",
 	"neutral": "Neutre",
 	"unknown": "Inconnu",
 	"dupes": "Doublons",
