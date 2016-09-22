@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"আজিজ"
 		]
 	},
 	"pb-about-pb-navi": "সম্পর্কে",
@@ -9,11 +10,16 @@
 	"pb-about-pb-title": "প্রকল্প সম্পর্কে",
 	"pb-change-language": "ভাষা পরিবর্তন করুন",
 	"pb-comment": "মন্তব্য",
+	"pb-confirmations-given": "প্রদত্ত অনুমোদন",
+	"pb-confirmations-taken": "প্রাপ্ত অনুমোদন",
+	"pb-current-figures": "বর্তমান পরিসংখ্যান",
 	"pb-current-users": "এই মুহুর্তে, $1 জন ব্যবহারকারী <em>ব্যক্তিগত পরিচয়</em> প্রকল্পে অংশগ্রহণ করেছে।",
 	"pb-date": "তারিখ",
 	"pb-home": "প্রধান পাতা",
+	"pb-javascript-notice": "এই ওয়েবসাইটে উন্নত ব্যবহারকারী ইন্টারফেস প্রদান করার জন্য, আমরা আপনাকে জাভাস্ক্রিপ্ট সক্রিয় করার সুপারিশ করছি।",
 	"pb-labs-name": "উইকিমিডিয়া টুলস ল্যাবস",
 	"pb-participates-since": "থেকে অংশগ্রহণকারী",
+	"pb-name": "উইকিপিডিয়া:ব্যক্তিগত পরিচিতগণ",
 	"pb-powered-by-labs": "উইকিমিডিয়া টুল ল্যাবস দ্বারা চালিত",
 	"pb-recent-confirmations": "সাম্প্রতিক নিশ্চিতকরণ",
 	"pb-reconfirmed": "পুনঃনিশ্চিতকৃত?",
