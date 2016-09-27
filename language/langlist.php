@@ -108,6 +108,7 @@
   'my' => 'မြန်မာဘာသာ',
   'mzn' => 'مازِرونی',
   'nah' => 'Nāhuatl',
+  'nan' => 'Bân-lâm-gú',
   'nap' => 'Napulitano',
   'nb' => 'norsk bokmål',
   'nds' => 'Plattdüütsch',
