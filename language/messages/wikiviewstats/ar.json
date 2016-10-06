@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Test Create account",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"ديفيد"
 		]
 	},
 	"help": "المساعدة",
 	"all": "الكل",
 	"discussion": "نقاش",
+	"namespaces": "نطاقات",
 	"isRedirect": "هذه الصفحة تحويلة",
 	"disambPage": "صفحة توضيح",
 	"showRedir": "أظهر التحويلات",

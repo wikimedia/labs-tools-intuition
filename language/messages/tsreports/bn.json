@@ -23,6 +23,7 @@
 	"prefs_submit": "ঠিক আছে",
 	"prefs_done": "আপনার পছন্দগুলি পরিবর্তন করা হয়েছে।",
 	"prefs_langlabel": "ইন্টারফেসের ভাষা:",
+	"report_last_run_duration": "এই প্রতিবেদনটি উৎপন্ন হতে সময় লেগেছে %(duration)s।",
 	"report_noresults": "দুঃখিত, এই প্রতিবেদনটি কোনও ফলাফল উৎপন্ন করেনি।",
 	"report_change_report": "<a href=\"%(url)s\">প্রতিবেদন পরিবর্তন</a>",
 	"report_change_wiki": "<a href=\"%(url)s\">উইকি পরিবর্তন</a>"

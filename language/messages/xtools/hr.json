@@ -5,6 +5,7 @@
 			"MaGa"
 		]
 	},
+	"title_xtools": "X!ovi alati",
 	"welcome": "Dobrodošli!",
 	"million": "Nevjerojatno. Jednostavno nevjerojatno. Ovaj brojač izmjena stvoren je u prosincu 2008. godine, a unutar godine i pola skupio je više od milijun posjeta. To je zapanjujuće. Zahvaljujem se svima za kontinuiranu podršku ovom alatu kroz godine rada. Bez Vaše podrške, ovaj alat ne bi postojao. Nadajmo se sljedećem milijunu! --X! 14. svibnja 2010.",
 	"tool_ec": "Brojač izmjena",
@@ -30,6 +31,8 @@
 	"tool_autoblock_desc": "Traži autoblokirane suradnike",
 	"tool_adminstats_desc": "Prikaz statistika administratora",
 	"noexist": "$1 ne postoji",
+	"noresult": "Nema pronađenih rezultata za: $1",
+	"norevisions": "Nisu pronađene izmjene",
 	"invalid_date": "Nevaljali datum",
 	"nocontribs": "Nisu pronađeni doprinosi",
 	"nowiki": "$1 nije valjan wiki projekt",
@@ -88,6 +91,7 @@
 	"unique": "Izmijenjeno jedinstvenih stranica",
 	"average_per_page": "Prosječan broj izmjena po stranici",
 	"average_per_page_sign": "Ø izmjena po stranici",
+	"average_change_per_page_sign": "Ø izmjena po stranici",
 	"total": "Ukupno izmjena",
 	"pages_created": "Stvoreno stranica",
 	"pages_deleted": "Izbrisano stranica",
@@ -157,6 +161,8 @@
 	"alledits": "Sve izmjene",
 	"graph": "Graf",
 	"monthly": "Mjesečno",
+	"cumulative": "Ukupno",
+	"sizegraph": "Veličina članka tijekom vremena",
 	"usertable": "Najaktivniji uređivači",
 	"atbe": "Prosječno vrijeme između uređivanja",
 	"avgsize": "Prosječna veličina stranice",
@@ -183,6 +189,8 @@
 	"resultbyname": "Rezultati prema suradničkom imenu / IP adresi",
 	"resultbytime": "Rezultati prema vremenu",
 	"support": "Podrška",
+	"oppose": "Protiv",
+	"neutral": "Neutralan",
 	"unknown": "Nepoznato",
 	"rfx_page": "RfX stranica"
 }

@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"محمد أحمد عبد الفتاح",
-			"Moud hosny"
+			"Moud hosny",
+			"ديفيد"
 		]
 	},
+	"label-namespace": "نطاق",
 	"namespacesall": "الكل",
 	"section-links": "وصلات",
 	"section-extlinks": "وصلات خارجية"

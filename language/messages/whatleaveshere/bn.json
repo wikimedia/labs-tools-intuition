@@ -10,6 +10,7 @@
 	"label-limit": "সীমা",
 	"namespacesall": "সব",
 	"button-submit": "চলো",
+	"noleaveshere": "$1 থেকে কোনকিছুর সংযোগ নেই",
 	"tooltip-whatleaveshere": "এখান থেকে সংযুক্ত সবকিছুর তালিকা",
 	"whatlinkshere": "সংযোগকারী পাতাসমূহ",
 	"istemplate": "অন্তর্ভুক্তি",

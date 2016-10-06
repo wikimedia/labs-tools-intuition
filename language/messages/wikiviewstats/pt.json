@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Imperadeiro98",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
 	"list": "Lista",
@@ -22,7 +23,7 @@
 	"portal": "Portal",
 	"project": "Projeto",
 	"category": "Categoria",
-	"files": "{{PLURAL: $1|arquivo|arquivos}}",
+	"files": "{{PLURAL: $1|ficheiro|ficheiros}}",
 	"specialPage": "Página especial",
 	"helpPage": "Página de ajuda",
 	"wikiThanks": "Obrigado",
