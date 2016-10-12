@@ -43,7 +43,7 @@
 	"navtoggle-tooltip": "Tooltip for the icon that toggles the MediaWiki sidebar",
 	"new-short": "Label of new link to show a diff of a new page",
 	"nomatches": "Placeholder text in place of the changes list when the query returned no results",
-	"open-in-wiki": "Label of the link for openning a link in a new window",
+	"open-in-wiki": "Label of the link for opening a link in a new window",
 	"order": "Section label for the sort order radio buttons.\n{{Identical|Order}}",
 	"ores-scores": "Label of the checkbox to hide or show ORES scores.",
 	"ores-damaging-probability": "Tooltip displayed to indicate the chances that this edit damaged the page (based on robot assessment from [https://meta.wikimedia.org/wiki/ORES ORES]).\n* $1 - Percentage",
