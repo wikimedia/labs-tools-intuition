@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nasir8891"
+			"Nasir8891",
+			"আজিজ"
 		]
 	},
+	"toolserver-status-ok": "তথ্যভাণ্ডারের $1 $2 গুচ্ছে কোনও সমস্যা নেই",
 	"toolserver-status-short-ok": "$1: ঠিকআছে",
 	"toolserver-status-short-info": "$1: ইনফো",
 	"toolserver-status-short-warn": "$1: সতর্কতা",

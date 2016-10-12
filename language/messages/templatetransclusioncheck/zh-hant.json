@@ -5,13 +5,26 @@
 			"Kly"
 		]
 	},
+	"title": "模板連結與嵌入檢查",
+	"description": "檢查並回報當嵌入到模板、但沒有與該模板作連結的條目，以及有與模板連結、但未嵌入該模板的條目。",
 	"form-label-language": "語言：",
 	"form-label-template": "模板名稱：",
 	"form-label-template2": "（包含命名空間）",
+	"form-label-complete": "產生完整報告：",
+	"feedback-template-missing": "模板$1不存在。",
+	"feedback-template-noaccess": "模板$1似乎存在，但在此資料庫下為不可用。這也許是在臨時資料庫下產生的狀況。使用的資料庫為：$2",
 	"feedback-result": "用於$1結果",
+	"feedback-header-mismatch": "嵌入與連結之間不匹配",
+	"feedback-header-no-link": "嵌入但沒有連結",
+	"feedback-header-no-transclusion": "連結但沒有嵌入",
 	"feedback-header-redirects": "連結至重定向",
 	"feedback-total-count": "總計：$1",
+	"feedback-header-complete": "完整嵌入與連結預覽",
+	"feedback-header-transclusions": "模板的嵌入",
+	"feedback-header-links": "來自此模板的連結",
 	"link-edit": "編輯",
 	"link-create": "創建",
-	"link-complete": "完整報告..."
+	"link-complete": "完整報告...",
+	"footer-stats": "產生於： $1。 期間： $2 {{PLURAL:$2|秒|秒}}.",
+	"error-language": "不明語言代碼。"
 }

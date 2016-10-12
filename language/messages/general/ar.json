@@ -6,7 +6,8 @@
 			"Mutarjem horr",
 			"OsamaK",
 			"أحمد",
-			"زكريا"
+			"زكريا",
+			"ديفيد"
 		]
 	},
 	"hello": "أهلاّ بك",
@@ -14,7 +15,7 @@
 	"toolversion": "النسخة $1",
 	"toolversionstamp": "الإصدار $1 ($2)",
 	"etc": "إلخ.",
-	"namespace": "فضاء التسمية",
+	"namespace": "نطاق",
 	"form-submit": "اذهب",
 	"form-reset": "صفِّر",
 	"years": "{{PLURAL: $1||سنة|سنتان|$1 سنين|$1 سنة}}",

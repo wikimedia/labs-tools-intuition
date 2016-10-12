@@ -1,10 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dj"
+			"Dj",
+			"Tacsipacsi"
 		]
 	},
+	"title": "Sablonhivatkozások és -beillesztések ellenőrzése",
+	"description": "Ellenőrzi és jelenti azokat a szócikkeket, amikbe be van illesztve a sablon, de nincsenek hivatkozva a sablonból, és amik hivatkozva vannak a sablonból, de nem szerepel bennük.",
 	"form-label-language": "Nyelv:",
 	"form-label-template": "A sablon neve:",
-	"form-label-template2": "(beleértve a névteret)"
+	"form-label-template2": "(beleértve a névteret)",
+	"form-label-complete": "Teljes jelentés generálása:",
+	"feedback-template-missing": "A(z) $1 sablon nem létezik.",
+	"feedback-template-noaccess": "A(z) $1 sablon létezni tűnik, de nem érhető el az adatbázisból. Ez lehet egy ideiglenes adatbázis-probléma. Használt adatbázis: $2.",
+	"feedback-header-mismatch": "Eltérés a beillesztések és hivatkozások között",
+	"feedback-header-no-link": "Van beillesztés, nincs link",
+	"feedback-header-no-transclusion": "Van link, nincs beillesztés",
+	"feedback-header-redirects": "Linkek átirányításokra",
+	"feedback-total-count": "Összesen: $1",
+	"feedback-header-complete": "Összes beillesztés és link áttekintése",
+	"feedback-header-transclusions": "A sablon beillesztései",
+	"feedback-header-links": "Hivatkozások a sablonból",
+	"link-edit": "szerkesztés",
+	"link-create": "létrehozás",
+	"link-complete": "Teljes jelentés...",
+	"footer-stats": "Legenerálva: $1. Időtartam: $2 másodperc",
+	"error-language": "Ismeretlen nyelvkód"
 }

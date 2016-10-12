@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aktron"
+			"Aktron",
+			"Marek Pavlica"
 		]
 	},
 	"label-namespace": "Jmenný prostor",
+	"namespacesall": "vše",
 	"section-extlinks": "Externí odkazy",
 	"section-categories": "Kategorie"
 }

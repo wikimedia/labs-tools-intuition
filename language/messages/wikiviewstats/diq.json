@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kumkumuk",
-			"Mirzali"
+			"Mirzali",
+			"Asmen"
 		]
 	},
 	"records": "Qeydi",
@@ -12,7 +13,7 @@
 	"pageviews": "Asayışê pela",
 	"24hstat": "İstatistikê 24 sehatan",
 	"pagetitle": "Sernamey pela",
-	"page": "Pela",
+	"page": "Pele",
 	"ranklist": "Listay rêzi",
 	"searchResults": "Neticeyê geyrayışi",
 	"rank": "rêze",
@@ -36,13 +37,13 @@
 	"top": "Ser",
 	"overall": "Pêro",
 	"users": "{{PLURAL: $1|karber|karberi}}",
-	"discussion": "werênayış",
+	"discussion": "Werênayış",
 	"portal": "Portal",
 	"project": "Proce",
 	"category": "Kategori",
 	"template": "Şablon",
 	"files": "{{PLURAL: $1|dosya|dosyay}}",
-	"specialPage": "Pela xase",
+	"specialPage": "Pela xısusiye",
 	"helpPage": "Pela peşti",
 	"projectTotals": "Procey pêro",
 	"wikiThanks": "Teşekur kena",
@@ -56,5 +57,6 @@
 	"inPeriod": "Wahdey miyand",
 	"links": "Linki",
 	"out": "Teberd",
-	"in": "miyand"
+	"in": "miyand",
+	"pages": "peli"
 }

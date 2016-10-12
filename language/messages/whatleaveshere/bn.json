@@ -1,15 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"আজিজ"
 		]
 	},
 	"label-page": "পাতা",
 	"label-namespace": "নামস্থান",
 	"label-limit": "সীমা",
+	"namespacesall": "সব",
 	"button-submit": "চলো",
+	"noleaveshere": "$1 থেকে কোনকিছুর সংযোগ নেই",
+	"tooltip-whatleaveshere": "এখান থেকে সংযুক্ত সবকিছুর তালিকা",
 	"whatlinkshere": "সংযোগকারী পাতাসমূহ",
 	"istemplate": "অন্তর্ভুক্তি",
+	"isfile": "ফাইল সংযোগ",
+	"linksearch": "লিংক অনুসন্ধান",
+	"section-links": "লিংকসমূহ",
 	"section-iwlinks": "আন্তঃউইকি সংযোগ",
 	"section-extlinks": "বহিঃসংযোগ",
 	"section-categories": "বিষয়শ্রেণী"

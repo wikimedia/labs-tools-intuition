@@ -5,13 +5,18 @@
 			"Kly"
 		]
 	},
+	"title": "條目標題grep(測試)",
+	"introduction": "此工具顯示所有符合一個正規表達式比對條件($1)的條目標題。在搜尋時使用正規表達式會耗用大量資源，如果可以的話請記得使用開頭字元「^」和結尾字元「$」來指示。",
 	"explanation": "解釋",
 	"regex": "正規表示法",
 	"enter-details": "輸入詳細訊息",
 	"results": "結果",
 	"language-label": "語言",
 	"namespace-label": "命名空間",
+	"project-label": "計劃",
+	"pattern-label": "比對模式",
 	"redirects-label": "包含重定向",
 	"limit-label": "限制顯示前100項結果",
+	"error-zeroresults": "此名稱空間下沒有頁面標題符合您的正規表達式",
 	"match-count": "{{PLURAL:$1|$1個頁面|$1個頁面}}匹配您的正規表示法。"
 }

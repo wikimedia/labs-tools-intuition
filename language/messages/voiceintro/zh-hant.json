@@ -10,6 +10,11 @@
 	"voiceintro-toolbar-clear-label": "清除",
 	"voiceintro-toolbar-upload-label": "上傳",
 	"voiceintro-webaudio-not-supported": "網頁音效API不支援此瀏覽器",
+	"voiceintro-upload-publish-succeeded": "錄音上傳成功：",
+	"voiceintro-upload-publish-failed": "錄音未能上傳。",
+	"voiceintro-information-label": "訊息",
 	"voiceintro-information-speaker-label": "發言人名稱：",
-	"voiceintro-information-language-label": "語言："
+	"voiceintro-information-language-label": "語言：",
+	"voiceintro-mic-access-notify": "點擊「同意」讓瀏覽器能使用您的麥克風。",
+	"voiceintro-recording-notify": "錄音中..."
 }

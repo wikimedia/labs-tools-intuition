@@ -4,6 +4,9 @@
 			"Dj"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Nyelv/beállítások módosítása</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Hiba bejelentés vagy szolgáltatás igénylés</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Wiki</a>",
 	"category_users": "Felhasználók",
 	"category_articles": "Lapok",
 	"category_images": "Képek",

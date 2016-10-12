@@ -20,6 +20,6 @@
 	"minutes": "{{PLURAL:$1|minuta|minuti|minute|minut}}",
 	"seconds": "{{PLURAL:$1|sekunda|sekundi|sekunde|sekund}}",
 	"last-modified-date": "Zadnja sprememba: $1",
-	"view-source": "Izvorna koda",
+	"view-source": "Izvorno besedilo",
 	"and": "&#32;in"
 }

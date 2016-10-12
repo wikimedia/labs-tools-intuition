@@ -12,9 +12,13 @@
 	"pb-comment": "Megjegyzés",
 	"pb-confirmations-given": "Adott jóváhagyások",
 	"pb-confirmations-taken": "Kapott jóváhagyások",
+	"pb-current-confirmations": "Összesen $1 jóváhagyás, ez körülbelül <abbr title=\"$2\">$3</abbr> jóváhagyás naponta.",
 	"pb-current-figures": "Jelenlegi számok",
 	"pb-date": "Dátum",
 	"pb-home": "Kezdőlap",
+	"pb-recent-confirmations": "Friss jóváhagyások",
+	"pb-reconfirmed": "Újra jóváhagyva?",
 	"pb-user": "Felhasználó",
+	"pb-user-link-title": "Részlehet $1 felhasználóról",
 	"pb-users-navi": "Felhasználók"
 }

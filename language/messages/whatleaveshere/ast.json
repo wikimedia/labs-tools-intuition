@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Crucifunked"
 		]
 	},
 	"title": "Qué sal d'equí",
@@ -10,6 +11,7 @@
 	"label-page": "Páxina",
 	"label-namespace": "Espaciu de nomes",
 	"label-limit": "Llímite",
+	"namespacesall": "toos",
 	"button-submit": "Dir",
 	"noleaveshere": "Nun hai nada qu'enllace dende $1",
 	"link-whatleaveshere": "Qué sal d'equí",

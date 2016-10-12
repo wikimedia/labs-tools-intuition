@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"আজিজ"
 		]
 	},
 	"title": "নিবন্ধের শিরোনাম গ্রেপ (বেটা)",
@@ -13,5 +14,7 @@
 	"namespace-label": "নামস্থান",
 	"project-label": "প্রকল্প",
 	"pattern-label": "বিন্যাস",
-	"redirects-label": "পুনঃনির্দেশসহ"
+	"redirects-label": "পুনঃনির্দেশসহ",
+	"limit-label": "প্রথম ১০০টি ফলাফল প্রদর্শনের জন্য সীমিতকরণ",
+	"match-count": "আপনার রেগুলার এক্সপ্রেশনের সাথে {{PLURAL:$1|$1টি পাতা}} মিলেছে।"
 }

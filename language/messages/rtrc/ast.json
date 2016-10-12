@@ -1,14 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Crucifunked"
 		]
 	},
 	"title": "Cambios recientes en tiempu real",
 	"apply": "Aplicar",
+	"autodiff": "AutoDiff",
 	"asc": "Asc",
 	"changelog": "Novedaes",
 	"clear": "llimpiar",
+	"close": "Zarrar",
 	"currentedit": "Edición seleicionada anguaño",
 	"cvn-adder": "Amestáu por",
 	"cvn-adder-empty": "Desconocíu",
@@ -17,10 +20,16 @@
 	"desc": "Desc",
 	"documentation": "Documentación",
 	"filter": "Peñera",
+	"filter-hideliu": "Anubrir usuarios rexistraos",
+	"filter-hidebots": "Anubrir bots",
+	"filter-unpatrolled": "Anubrir ediciones supervisaes",
+	"help": "Ayuda",
 	"helpicon-tooltip": "Más información sobro esta carauterística",
 	"lastupdate-cvn": "Caberu anovamientu: $1",
 	"lastupdate-rc": "Caberu anovamientu: $1",
+	"legend": "Lleenda",
 	"limit": "Llímite",
+	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "Desactivóse MassPatrol porque necesita una peñera d'usuariu y nun se configuró denguna.",
 	"months": "xineru, febreru, marzu, abril, mayu, xunu, xunetu, agostu, setiembre, ochobre, payares, avientu",
 	"mypatrollog": "el mio rexistru de supervisión",
@@ -29,11 +38,13 @@
 	"nomatches": "Nun hai cambios cola so configuración",
 	"order": "Orde",
 	"ores-damaging-probability": "Probabilidá de dañu: $1",
+	"pause": "Pausa",
 	"permalink": "Enllaz permanente a la configuración actual",
 	"reload-interval": "Intervalu",
 	"select-placeholder-none": "(nengún)",
 	"showAnonOnly": "Namái anónimos",
 	"showUnpatrolledOnly": "Namái ensin supervisar",
+	"skip": "Omitir",
 	"skippededit": "Edición saltada",
 	"tag": "Etiqueta",
 	"time-from": "Dende",
@@ -42,5 +53,6 @@
 	"type": "Triba",
 	"typeEdit": "Ediciones",
 	"typeNew": "Páxines nueves",
+	"unskip": "Nun omitir",
 	"userfilter": "Peñera d'usuariu"
 }

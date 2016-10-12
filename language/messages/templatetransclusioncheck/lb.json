@@ -15,6 +15,7 @@
 	"feedback-header-links": "Linke vun der Schabloun",
 	"link-edit": "änneren",
 	"link-create": "uleeën",
+	"link-complete": "Komplette Rapport...",
 	"footer-stats": "Generéiert: $1. Dauer: $2 {{PLURAL:$2|Sekonn|Sekonnen}}.",
 	"error-language": "Onbekannte Sprooch-Code."
 }

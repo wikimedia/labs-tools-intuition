@@ -16,7 +16,7 @@
 		$.ajax({
 			url: apiPath,
 			data: {
-				domains: list.join('|'),
+				domains: list.sort().join('|'),
 				userlang: userlang
 			},
 			dataType: $.support.cors ? 'json' : 'jsonp'

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Subi"
+			"Subi",
+			"Sator"
 		]
 	},
 	"list": "Zerrenda",
@@ -16,9 +17,15 @@
 	"language": "hizkuntza",
 	"myfavs": "Gogokoenak",
 	"mycontribs": "Ekarpenak",
+	"mywatchlists": "Jarraipen zerrendak",
+	"portal": "Atari",
+	"project": "Proiektu",
 	"category": "Kategoria",
 	"template": "Txantiloia",
+	"files": "{{PLURAL: $1|fitxategi}}",
+	"specialPage": "Orri berezia",
 	"helpPage": "Laguntza orrialdea",
+	"wikiThanks": "Eskerrak",
 	"bureaucrats": "burokratak",
 	"sysops": "administratzaileak",
 	"articles": "artikuluak",
@@ -26,6 +33,7 @@
 	"pages": "orrialdeak",
 	"noJavaScript": "JavaScript desgaituta dago",
 	"onlyOwnCreatedPages": "erakutsi bakarrik nik sortutako orrialdeak",
+	"namespaces": "izen-tarteak",
 	"furtherInformation": "Informazio gehiago",
 	"urlParameter": "URL parametroa",
 	"submit": "Bidali",

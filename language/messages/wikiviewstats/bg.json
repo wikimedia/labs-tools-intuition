@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Termininja"
+			"Termininja",
+			"StanProg"
 		]
 	},
+	"other_lang": "други езици",
 	"portal": "Портал"
 }

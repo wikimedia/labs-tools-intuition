@@ -8,14 +8,18 @@
 	"category_users": "Usuarios",
 	"category_articles": "Páxinas",
 	"category_images": "Imaxes",
+	"category_miscellaneous": "Varios",
 	"category_wikidata": "WikiData",
 	"select_wiki_title": "Seleccionar unha wiki",
 	"select_wiki_next": "Seguinte →",
+	"select_report_title": "Seleccionar un informe a executar en %(wiki)s",
 	"select_report": "Por favor, selecciona un informe:",
 	"select_report_disabled": "Este informe non está dispoñible.",
 	"select_report_go_back": "← Cambiar wiki",
 	"qvar_title": "Introduce as variables para a túa consulta",
 	"qvar_next": "Seguinte →",
 	"prefs_submit": "Aceptar",
-	"prefs_langlabel": "Lingua da interface:"
+	"prefs_done": "Gardáronse as túas preferencias.",
+	"prefs_langlabel": "Lingua da interface:",
+	"report_noresults": "Sentímolo, este informe non produciu ningún resultado."
 }

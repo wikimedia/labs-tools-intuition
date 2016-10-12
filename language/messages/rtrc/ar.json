@@ -3,13 +3,15 @@
 		"authors": [
 			"Claw eg",
 			"محمد أحمد عبد الفتاح",
-			"Maroen1990"
+			"Maroen1990",
+			"ديفيد"
 		]
 	},
 	"close": "أغلق",
 	"documentation": "توثيق",
 	"filter-hidebots": "أخف البوتات",
 	"help": "مساعدة",
+	"namespace": "نطاق",
 	"pause": "إيقاف مؤقت",
 	"select-placeholder-none": "(لا شيء)",
 	"showAnonOnly": "المجهولون فقط",
