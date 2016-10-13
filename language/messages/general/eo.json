@@ -3,7 +3,8 @@
 		"authors": [
 			"Objectivesea",
 			"Yekrats",
-			"KuboF"
+			"KuboF",
+			"Kastanoto"
 		]
 	},
 	"hello": "Saluton",
@@ -16,7 +17,7 @@
 	"form-reset": "Restarigi",
 	"years": "{{PLURAL:$1|jaro|jaroj}}",
 	"months": "{{PLURAL: $1|monato|monatoj}}",
-	"weeks": "{{PLURAL:$1|semajno|$1 semajnoj}}",
+	"weeks": "{{PLURAL:$1|semajno|semajnoj}}",
 	"days": "{{PLURAL:$1|tago|tagoj}}",
 	"hours": "{{PLURAL:$1|horo|horoj}}",
 	"minutes": "{{PLURAL:$1|minuto|minutoj}}",

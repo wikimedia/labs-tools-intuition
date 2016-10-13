@@ -30,7 +30,7 @@
 	"portal": "पोर्टल",
 	"project": "परियोजना",
 	"category": "श्रेणी",
-	"template": "ढाँचा (टेम्प्लेट)",
+	"template": "ढाँचा",
 	"files": "{{PLURAL: $1|फाइल|फाइलहरू}}",
 	"specialPage": "विशेष पृष्ठ",
 	"helpPage": "सहायता पृष्ठ",

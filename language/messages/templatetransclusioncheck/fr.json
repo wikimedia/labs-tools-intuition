@@ -3,11 +3,12 @@
 		"authors": [
 			"Macofe",
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Zetud"
 		]
 	},
 	"title": "Liaison des modèles et vérification d’inclusion",
-	"description": "Vérifie et signale parmis les articles qui transcluent un modèle ceux qui ne sont pas liés à ce modèle, et quels articles sont liés à un modèle mais ne le transcluent pas.",
+	"description": "Vérifie et signale parmi les articles qui transcluent un modèle ceux qui ne sont pas liés à ce modèle, et quels articles sont liés à un modèle mais ne le transcluent pas.",
 	"form-label-language": "Langue :",
 	"form-label-template": "Nom du modèle :",
 	"form-label-template2": "(espace de noms compris)",

@@ -6,11 +6,13 @@
 	},
 	"title": "Artikeltitel-Grep (Beta)",
 	"explanation": "Erklärung",
+	"regex": "Regulären Ausdrock",
 	"enter-details": "Detailer aginn",
 	"results": "Resultater",
 	"language-label": "Sprooch",
 	"namespace-label": "Nummraum",
 	"project-label": "Projet",
+	"pattern-label": "Modell",
 	"redirects-label": "Inklusiv Viruleedungen",
 	"limit-label": "Nëmmen déi éischt 100 Resultater weisen"
 }
