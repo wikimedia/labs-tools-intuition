@@ -2,14 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Danmichaelo",
-			"SuperPotato"
+			"SuperPotato",
+			"Jon Harald Søby (WMNO)"
 		]
 	},
 	"title": "Siste endringer i sanntid",
 	"apply": "Bruk",
+	"autodiff": "AutoDiff",
 	"asc": "Stigende",
 	"changelog": "Hva er nytt",
 	"clear": "tøm",
+	"close": "Lukk",
 	"currentedit": "Valgt redigering",
 	"cvn-adder": "Bruker",
 	"cvn-adder-empty": "Ukjent",
@@ -18,10 +21,16 @@
 	"desc": "Synkende",
 	"documentation": "Dokumentasjon",
 	"filter": "Filter",
+	"filter-hideliu": "Skjul registrerte brukere",
+	"filter-hidebots": "Skjul botter",
+	"filter-unpatrolled": "Skjul patruljerte redigeringer",
+	"help": "Hjelp",
 	"helpicon-tooltip": "Lær mer om denne funksjonen",
 	"lastupdate-cvn": "Siste oppdatering: $1",
 	"lastupdate-rc": "Sist oppdatert: $1",
+	"legend": "Tegnforklaring",
 	"limit": "Grense",
+	"masspatrol": "Massepatruljer",
 	"masspatrol-requires-userfilter": "MassPatrol har blitt deaktivert, fordi den krever et brukerfilter, noe som ikke ble funnet.",
 	"months": "januar, februar, mars, april, mai, juni, juli, august, september, oktober, november, desember",
 	"mypatrollog": "min patruljeringslogg",
@@ -30,11 +39,13 @@
 	"nomatches": "Ingen relevante endringer for innstillingene dine",
 	"order": "Rekkefølge",
 	"ores-damaging-probability": "Skade sannsynlighet: $1",
+	"pause": "Pause",
 	"permalink": "Permalenke til de nåværende innstillingene",
 	"reload-interval": "Intervall",
 	"select-placeholder-none": "(ingen)",
 	"showAnonOnly": "Kun uregistrerte",
 	"showUnpatrolledOnly": "Kun upatruljerte",
+	"skip": "Hopp over",
 	"skippededit": "Hoppet over redigering",
 	"tag": "Tagg",
 	"time-from": "Fra",
@@ -43,5 +54,6 @@
 	"type": "Type",
 	"typeEdit": "Redigeringer",
 	"typeNew": "Nye sider",
+	"unskip": "Ikke hopp over",
 	"userfilter": "Brukerfilter"
 }
