@@ -656,9 +656,14 @@ class Intuition {
 
 	/**
 	 * Return all known languages.
+	 *
+	 * NOTE: This method includes languages that have no translations.
+	 * If you create a "Language selector" that relates to the interface
+	 * where Intuition messages are used, use getAvailableLangs() instead.
+	 *
 	 * @return array
 	 */
-	protected function getLangNames() {
+	public function getLangNames() {
 		// Lazy-load and cache
 		if ( $this->langNames === null ) {
 			$path = $this->localBaseDir . '/language/mw-classes/Names.php';
