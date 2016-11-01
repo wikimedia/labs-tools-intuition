@@ -23,6 +23,7 @@
 	"select_report_no_reports": "Pardon, den Ament si keng Rapporte fir  %(wiki)s disponibel.",
 	"select_report_go_back": "← Wiki wiesselen",
 	"qvar_title": "Gitt d'Variabele fir Är Ufro an",
+	"qvar_blurb": "Fir Är Ufro brauche mir verschidde Variabelen déi Dir musst aginn",
 	"qvar_next": "Virun →",
 	"prefs_title": "Astellunge vun de Rapporten",
 	"prefs_submit": "OK",

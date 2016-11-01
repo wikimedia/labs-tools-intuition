@@ -6,8 +6,13 @@
 			"ديفيد"
 		]
 	},
+	"title-leaveshere": "الوصلات التي تُركَت من \"$1\"",
+	"sub-leaveshere": "الصفحات التالية موصولة من $1",
 	"label-namespace": "نطاق",
 	"namespacesall": "الكل",
+	"noleaveshere": "لا شيء موصول من $1",
+	"tooltip-whatleaveshere": "قائمة كل ما يصل إلى هنا",
+	"linksearch": "بحث الوصلات",
 	"section-links": "وصلات",
 	"section-extlinks": "وصلات خارجية"
 }

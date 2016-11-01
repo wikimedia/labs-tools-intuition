@@ -1,14 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras"
+			"Okras",
+			"Irus"
 		]
 	},
+	"title": "Что оставляет здесь",
+	"title-leaveshere": "Ссылки, которые оставляют от \"$1\"",
+	"sub-leaveshere": "Следующие страницы ссылаются от $1",
 	"label-page": "Страница",
 	"label-namespace": "Пространство имён",
 	"label-limit": "Ограничение",
+	"namespacesall": "все",
 	"button-submit": "Выполнить",
+	"noleaveshere": "Ничего ссылка от $1",
+	"link-whatleaveshere": "Что оставляет здесь",
+	"tooltip-whatleaveshere": "Список всего того, что ссылки отсюда",
 	"whatlinkshere": "Ссылки сюда",
+	"whatlinkshere-whatleaveshere": "Что оставляет здесь?",
 	"istemplate": "включение",
 	"isfile": "файловая ссылка",
 	"linksearch": "LinkSearch",

@@ -1,11 +1,35 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"ديفيد"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">تغيير تفضيلات اللغة</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">أبلغ عن طلب ميزة أو خلل</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">ويكي</a>",
+	"category_miscellaneous": "متفرقات",
 	"category_wikidata": "ويكي بيانات",
 	"select_wiki_title": "اختر ويكي",
+	"select_wiki": "الرجاء إدخال الويكي الذي  كنت ترغب في الإبلاغ عنع (على سبيل المثال: \"<kbd>en.wikipedia.org</kbd>\")",
+	"select_report_title": "حدد تقريرا لتشغيله على %(wiki)s",
+	"select_report": "يرجى تحديد التقرير:",
+	"select_report_disabled": "هذا التقرير غير متوفر.",
+	"select_report_not_cached": "لا توجد نسخة مخبأة من هذا التقرير. اضغط على الرابط لتبدأ الجولة الأولى.",
+	"select_report_first": "هذا التقرير يتم إعداده للمرة الأولى، وينبغي أن يكون متاحا قريبا.",
+	"select_report_no_reports": "معذرة، لا توجد تقارير متاحة ل %(wiki)s في هذا الوقت.",
+	"select_report_go_back": "→ تغيير الويكي",
+	"qvar_title": "أدخل المتغيرات لاستعلامك",
+	"qvar_blurb": "يتطلب استعلامك إدخال بعض المتغيرات",
+	"prefs_title": "تفضيلات التقارير",
 	"prefs_submit": "أوافق",
-	"prefs_langlabel": "لغة الواجهة:"
+	"prefs_done": "تم تغيير تفضيلاتك.",
+	"prefs_langlabel": "لغة الواجهة:",
+	"report_wascached": "هذا التقرير تم تخزينه مؤقتا %(age)s",
+	"report_first_run": "يتم إنشاء هذا التقرير للمرة الأولى; لذلك لا تتوفر بيانات حتى الآن.",
+	"report_last_run_duration": "تم إنشاء هذا التقرير في %(duration)s.",
+	"report_variables_used": "تم استخدام المتغيرات التالية لإنشاء هذا التقرير:",
+	"report_noresults": "عذراً، لم تنتج نتائج عن هذا التقرير.",
+	"report_change_report": "<a href=\"%(url)s\">تغيير التقرير</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">تغيير الويكي</a>"
 }

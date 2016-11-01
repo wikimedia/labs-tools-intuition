@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
+	"title": "عنوان مقال grep (بيتا)",
 	"explanation": "تفسير",
 	"regex": "تعبير منتظم",
 	"enter-details": "أدخل التفاصيل",
@@ -12,5 +14,8 @@
 	"namespace-label": "النطاق",
 	"project-label": "المشروع",
 	"pattern-label": "النمط",
-	"redirects-label": "تضمين التحويلات"
+	"redirects-label": "تضمين التحويلات",
+	"limit-label": "حدد عرض أول 100 نتيجة",
+	"error-zeroresults": "لا توجد صفحات في هذا النطاق بعناوين مطابقة لتعبيرك النمطي.",
+	"match-count": "{{PLURAL:$1|$1 صفحة|$1 صفحات}} تطابق تعبيرك النمطي."
 }
