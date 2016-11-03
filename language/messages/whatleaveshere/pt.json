@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
 	"label-page": "Página",
@@ -11,5 +12,5 @@
 	"whatlinkshere": "Páginas afluentes",
 	"istemplate": "transclusão",
 	"isfile": "ligação para ficheiro",
-	"section-iwlinks": "Ligações interlínguas"
+	"section-iwlinks": "Ligações interwikis"
 }
