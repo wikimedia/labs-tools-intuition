@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"LexArt",
-			"Дзяніс Тутэйшы"
+			"Дзяніс Тутэйшы",
+			"Mechanizatar"
 		]
 	},
 	"title": "Перакласці SVG",
@@ -19,7 +20,7 @@
 	"th-username": "Імя ўдзельніка",
 	"th-password": "Пароль",
 	"th-method": "Метад",
-	"option-oauth": "TUSC (аўтаматычная загрузка)",
+	"option-oauth": "OAuth (аўтаматычная загрузка)",
 	"option-manual": "Загрузка ўручную",
 	"preview": "Папярэдні прагляд",
 	"translate": "Перакласці",
