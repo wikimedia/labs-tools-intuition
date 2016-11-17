@@ -2,20 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"LexArt",
-			"Platonides"
+			"Platonides",
+			"Mechanizatar"
 		]
 	},
 	"hello": "Прывітанне",
 	"welcome": "Сардэчна запрашаем",
+	"toolversion": "Версія $1",
 	"toolversionstamp": "Версія $1 ( $2 )",
 	"etc": "і г.д.",
 	"namespace": "Прастора назваў",
 	"form-submit": "Перайсці",
 	"form-reset": "Скінуць",
-	"years": "гадоў",
-	"weeks": "тыдняў",
-	"days": "дзён",
-	"hours": "гадзін",
+	"years": "{{PLURAL: $1|год|гады|гадоў}}",
+	"months": "{{PLURAL: $1|месяц|месяцы|месяцаў}}",
+	"weeks": "{{PLURAL: $1|тыдзень|тыдні|тыдняў}}",
+	"days": "{{PLURAL: $1|дзень|дні|дзён}}",
+	"hours": "{{PLURAL: $1|гадзіна|гадзіны|гадзін}}",
+	"minutes": "{{PLURAL: $1|хвіліна|хвіліны|хвілін}}",
+	"seconds": "{{PLURAL: $1|секунда|секунды|секунд}}",
 	"last-modified-date": "Апошнія змены: $1",
 	"view-source": "Паказаць крынічны тэкст",
 	"and": "&#32;і"

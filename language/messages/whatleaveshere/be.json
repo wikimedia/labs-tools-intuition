@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Artificial123"
+			"Artificial123",
+			"Mechanizatar"
 		]
 	},
 	"title-leaveshere": "Спасылкі, якія сыходзяць ад \"$1\"",
@@ -16,5 +17,6 @@
 	"whatlinkshere": "Спасылкі сюды",
 	"istemplate": "уключэнне",
 	"isfile": "спасылка на файл",
-	"linksearch": "ПошукСпасылак"
+	"linksearch": "ПошукСпасылак",
+	"section-categories": "Катэгорыі"
 }

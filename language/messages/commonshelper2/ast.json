@@ -21,7 +21,7 @@
 	"use_checkusage": "Usa $1CommonSense$2 pa suxerir categoríes nueves",
 	"use_tusc": "Usa $1TUSC$2 p'autenticate y tresferir el ficheru direutamente",
 	"tusc_user": "Nome d'usuariu TUSC",
-	"tusc_pass": "Conseña TUSC",
+	"tusc_pass": "Contraseña TUSC",
 	"do_it": "Facelo",
 	"error_transfer_usr": "Nun conseñasti un nome d'usuariu de Wikimedia Commons",
 	"error_not_exists": "¡El ficheru d'orixe nun esiste!",
