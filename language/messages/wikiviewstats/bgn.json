@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahim khashrowdi"
+		]
+	},
+	"users": "{{PLURAL: $1|کار زوروک|کار زوروکان}}",
+	"discussion": "حبر/گپ"
+}
