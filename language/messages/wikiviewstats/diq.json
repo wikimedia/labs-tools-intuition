@@ -3,7 +3,8 @@
 		"authors": [
 			"Kumkumuk",
 			"Mirzali",
-			"Asmen"
+			"Asmen",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"records": "Qeydi",
@@ -43,7 +44,7 @@
 	"category": "Kategori",
 	"template": "Şablon",
 	"files": "{{PLURAL: $1|dosya|dosyay}}",
-	"specialPage": "Pela xısusiye",
+	"specialPage": "Pella xısusi",
 	"helpPage": "Pela peşti",
 	"projectTotals": "Procey pêro",
 	"wikiThanks": "Teşekur kena",

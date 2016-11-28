@@ -7,7 +7,13 @@
 		]
 	},
 	"title-error": "Памылка",
+	"title-updatelog": "Журнал абнаўленняў",
 	"download-button": "Загрузіць здымак",
 	"title-downloadpage": "Загрузіць",
-	"title-downloadpage-repo": "Сцягнуць $1"
+	"title-downloadpage-repo": "Сцягнуць $1",
+	"repo-lastmoddate-label": "Дата:",
+	"branches-submit-button": "Атрымаць!",
+	"updatelog-link": "журнал абнаўленняў",
+	"tablehead-filesize": "Памер файла",
+	"tablehead-hash": "Кантрольныя сумы"
 }

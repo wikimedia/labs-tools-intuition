@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mashoi7"
+			"Mashoi7",
+			"Likopiän tyttö"
 		]
 	},
+	"close": "Pane kiini",
 	"typeEdit": "Kohennukšet"
 }

@@ -6,7 +6,8 @@
 			"Matěj Suchánek",
 			"Tchoř",
 			"Walter Klosse",
-			"Dvorapa"
+			"Dvorapa",
+			"MusikAnimal"
 		]
 	},
 	"title_xtools": "Nástroje X!",
@@ -112,8 +113,8 @@
 	"reverted": "Revertovaných editací",
 	"timecard": "Hodinový přehled",
 	"tagged": "označeno",
-	"no_summary": "se shrnutím",
-	"with_summary": "bez shrnutí",
+	"no_summary": "baz shrnutím",
+	"with_summary": "se shrnutím",
 	"thank": "Poděkování",
 	"approve": "Schválení",
 	"unapprove": "Neschválení",

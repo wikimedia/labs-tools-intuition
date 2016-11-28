@@ -28,6 +28,7 @@
 	"tool_rfap_desc": "Wéi huet e Benotzer ofgestëmmt?",
 	"tool_autoblock_desc": "Iwwerpréiwe vun automatesch gespaarte Benotzer",
 	"tool_adminstats_desc": "Statistik vun den Admin-Aktiounen",
+	"highreplag": "Opgepasst: Serverbelaaschtung ass grouss, Ännerungen méi rezent wéi $1 ginn eventuell net gewisen.",
 	"noexist": "$1 gëtt et net",
 	"noresult": "Näischt fonnt fir: $1",
 	"norevisions": "Keng Versioune fonnt",

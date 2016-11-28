@@ -10,6 +10,7 @@
 	"label-page": "Старонка",
 	"label-namespace": "Прастора імёнаў",
 	"label-limit": "Абмежаванне",
+	"namespacesall": "усе",
 	"button-submit": "Перайсці",
 	"noleaveshere": "Нічога не звязвае з $1",
 	"link-whatleaveshere": "Сюды спасылаюцца",
@@ -18,5 +19,8 @@
 	"istemplate": "уключэнне",
 	"isfile": "спасылка на файл",
 	"linksearch": "ПошукСпасылак",
+	"section-links": "Спасылкі",
+	"section-iwlinks": "Інтервікі-спасылкі",
+	"section-extlinks": "Знешнія спасылкі",
 	"section-categories": "Катэгорыі"
 }

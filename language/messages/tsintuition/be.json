@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"LexArt",
-			"Дзяніс Тутэйшы"
+			"Дзяніс Тутэйшы",
+			"Mechanizatar"
 		]
 	},
-	"fullname": "Інтэрналіцыяналізацыя інтэрфейсу карыстальніка Toolserver",
+	"fullname": "Інтэрнацыяналізацыя для інструментаў",
 	"current-settings": "Цяперашнія наладкі",
-	"current-language": "Цяперашняя выбраная мова",
+	"current-language": "Выбраная мова",
 	"settings-legend": "Наладкі",
 	"choose-language": "Абярыце мову",
 	"clear-cookies": "Ачысціць квіткі (кукі)",
@@ -22,9 +23,9 @@
 	"bl-mysettings": "Мае моўныя наладкі",
 	"bl-mysettings-new": "Змяніце мову!",
 	"bl-promo": "Пераклады зробленыя на сайтах $1 і $2",
-	"bl-changelanguage": "Націсніце тут для змены мовы для гэтай прылады",
-	"usage": "Прылады перакладзеныя на Toolserver Intuition.",
+	"bl-changelanguage": "Змяняе мову інтэрфейса для гэтай прылады",
+	"usage": "Прылады перакладзеныя з дапамогай Intuition.",
 	"help-translate-tool": "Дапамажыце з перакладамі для гэтай прылады",
-	"help-translate-all": "Дапамажыце перакласці Toolserver!",
+	"help-translate-all": "Дапамажыце перакласці прылады!",
 	"help-translate-tooltip": "Дапамажыце іншым, перакладаючы паведамленні інтэрфейсу на вашу мову."
 }
