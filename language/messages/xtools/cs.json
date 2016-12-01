@@ -7,7 +7,8 @@
 			"Tchoř",
 			"Walter Klosse",
 			"Dvorapa",
-			"MusikAnimal"
+			"MusikAnimal",
+			"Mormegil"
 		]
 	},
 	"title_xtools": "Nástroje X!",
@@ -113,7 +114,7 @@
 	"reverted": "Revertovaných editací",
 	"timecard": "Hodinový přehled",
 	"tagged": "označeno",
-	"no_summary": "baz shrnutím",
+	"no_summary": "bez shrnutí",
 	"with_summary": "se shrnutím",
 	"thank": "Poděkování",
 	"approve": "Schválení",

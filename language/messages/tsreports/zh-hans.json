@@ -27,7 +27,7 @@
 	"select_report_cold_not_running": "本片报告的缓存版本，已生成时长：%(age)s，可用。如果你重新浏览就会生成新的版本，生成时长约%(eta)s。",
 	"select_report_no_reports": "对不起，此时没有%(wiki)s可用的报告",
 	"select_report_go_back": "更改 wiki",
-	"qvar_title": "为你的查询输入变量",
+	"qvar_title": "为您的查询输入变量",
 	"qvar_blurb": "您的查询需要输入一些变量",
 	"qvar_next": "下一步 →",
 	"prefs_title": "报告设置",

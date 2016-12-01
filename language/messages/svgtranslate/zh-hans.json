@@ -9,7 +9,7 @@
 		]
 	},
 	"title": "SVG 翻译",
-	"error-tryagain": "$1点击你的浏览器的返回按钮重试。",
+	"error-tryagain": "$1点击您的浏览器的返回按钮重试。",
 	"error-nothing": "没有要翻译的内容。",
 	"error-notsvg": "非SVG文件。",
 	"error-unexpected": "发生意外错误。",
