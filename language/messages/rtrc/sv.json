@@ -8,6 +8,7 @@
 	},
 	"title": "Senaste ändringer i realtid",
 	"apply": "Verkställ",
+	"autodiff": "AutoDiff",
 	"asc": "Stigande",
 	"changelog": "Vad är nytt",
 	"clear": "rensa",
@@ -53,5 +54,6 @@
 	"type": "Typ",
 	"typeEdit": "Redigeringar",
 	"typeNew": "Nya sidor",
+	"unskip": "Hoppa inte över",
 	"userfilter": "Användarfilter"
 }

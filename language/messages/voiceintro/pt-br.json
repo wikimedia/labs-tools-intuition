@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Luckas",
-			"Araceletorres"
+			"Araceletorres",
+			"!Silent"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Gravar",
@@ -13,6 +14,7 @@
 	"voiceintro-upload-publish-succeeded": "Gravação enviada com sucesso:",
 	"voiceintro-upload-publish-failed": "A gravação não foi enviada.",
 	"voiceintro-information-label": "Informação",
+	"voiceintro-information-speaker-label": "Nome do falante:",
 	"voiceintro-information-language-label": "Língua:",
 	"voiceintro-mic-access-notify": "Clique em \"Permitir\" para permitir que o navegador acesse ao seu microfone.",
 	"voiceintro-recording-notify": "Gravando..."

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Sujiniku"
+			"Sujiniku",
+			"おはぐろ蜻蛉"
 		]
 	},
 	"tool_ec": "編集カウンター",
@@ -50,7 +51,7 @@
 	"pages": "ページ",
 	"bytes": "バイト",
 	"edits": "編集",
-	"actions": "操作",
+	"actions": "拡張機能的な操作",
 	"actions_admin": "管理者の操作",
 	"others": "その他",
 	"select_language": "言語の選択",

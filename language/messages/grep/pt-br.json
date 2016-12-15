@@ -3,10 +3,12 @@
 		"authors": [
 			"Luckas",
 			"Fasouzafreitas",
-			"Araceletorres"
+			"Araceletorres",
+			"!Silent"
 		]
 	},
 	"title": "Grep do título do artigo (beta)",
+	"introduction": "Esta ferramenta exibe todos os títulos de artigos que coincidem com o padrão de combinação da expressão regular ($1). Buscar usando uma expressão regular é um recurso intensivo. Se possível, lembre-se de usar os indicadores de prefixo (^) e de sufixo ($).",
 	"explanation": "explicação",
 	"regex": "Expressão regular",
 	"enter-details": "Inserir detalhes",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"NickK"
 		]
 	},
 	"title": "Grep для назв статей (бета)",
@@ -13,7 +14,7 @@
 	"language-label": "Мова",
 	"namespace-label": "Простір назв",
 	"project-label": "Проект",
-	"pattern-label": "Візерунок",
+	"pattern-label": "Шаблон",
 	"redirects-label": "Включати перенаправлення",
 	"limit-label": "Обмежувати відображення першими 100 результатами",
 	"error-zeroresults": "Немає сторінок в просторі імен з назвами відповідних вашому регулярному виразу.",

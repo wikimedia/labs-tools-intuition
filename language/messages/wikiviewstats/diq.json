@@ -4,7 +4,8 @@
 			"Kumkumuk",
 			"Mirzali",
 			"Asmen",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Gırd"
 		]
 	},
 	"records": "Qeydi",
@@ -38,13 +39,13 @@
 	"top": "Ser",
 	"overall": "Pêro",
 	"users": "{{PLURAL: $1|karber|karberi}}",
-	"discussion": "Behs",
+	"discussion": "Vatış",
 	"portal": "Portal",
 	"project": "Proce",
 	"category": "Kategori",
 	"template": "Şablon",
 	"files": "{{PLURAL: $1|dosya|dosyay}}",
-	"specialPage": "Pella xısusi",
+	"specialPage": "Pelê hısusiy",
 	"helpPage": "Pela peşti",
 	"projectTotals": "Procey pêro",
 	"wikiThanks": "Teşekur kena",

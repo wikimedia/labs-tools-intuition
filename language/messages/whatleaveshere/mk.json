@@ -4,7 +4,7 @@
 			"Bjankuloski06"
 		]
 	},
-	"title": "Што одведува оттука",
+	"title": "Што напушта одовде",
 	"title-leaveshere": "Врски што одведуваат од „$1“",
 	"sub-leaveshere": "Следниве страници одведуваат од $1",
 	"label-page": "Страница",
@@ -13,10 +13,10 @@
 	"namespacesall": "сите",
 	"button-submit": "Дај",
 	"noleaveshere": "Ништо не одведува од $1",
-	"link-whatleaveshere": "Што одведува оттука",
-	"tooltip-whatleaveshere": "Список на сè што одведува оттука",
+	"link-whatleaveshere": "Што напушта одовде",
+	"tooltip-whatleaveshere": "Список на сè што води одовде",
 	"whatlinkshere": "Што води овде",
-	"whatlinkshere-whatleaveshere": "Што одведува оттука?",
+	"whatlinkshere-whatleaveshere": "Што напушта одовде?",
 	"istemplate": "превметнување",
 	"isfile": "врска до податотеката",
 	"linksearch": "ПребарувањеВрски",
