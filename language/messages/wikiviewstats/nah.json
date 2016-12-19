@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Taresi",
-			"Teòtlalili"
+			"Teòtlalili",
+			"Akapochtli"
 		]
 	},
 	"pagetitle": "tlaīxtōcāitl",
@@ -11,8 +12,8 @@
 	"today": "āxcān",
 	"language": "tlahtōlli",
 	"discussion": "Zānīlli",
-	"project": "Tlekàniltekitl",
-	"category": "Tlaìxmatkàyòtlàlilòtl",
+	"project": "Tlecaniltequitl",
+	"category": "Neneuhcayotl",
 	"template": "Neīxcuītīlli",
 	"files": "{{PLURAL: $1|ihcuilōlli}}",
 	"helpPage": "Tēpalēhuiliztlaīxtli",
