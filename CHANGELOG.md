@@ -1,3 +1,19 @@
+## v0.4.0 (2016-12-22)
+
+### Enhancements
+
+* js-env: Sort domain list to increase cache opportunities.
+
+### Bug fixes
+
+* core: Make getLangNames() public (again).
+
+### Maintenance
+
+* Localisation updates from https://translatewiki.net.
+* langlist: Recompile.
+* Upgrade toollabs-base to v0.8.0.
+
 ## v0.3.0 (2016-07-04)
 
 Domains:
