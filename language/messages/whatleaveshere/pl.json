@@ -3,13 +3,15 @@
 		"authors": [
 			"Alan ffm",
 			"Matik7",
-			"Matma Rex"
+			"Matma Rex",
+			"Woytecr"
 		]
 	},
 	"sub-leaveshere": "Te strony są linkowane z $1",
 	"label-page": "Strona",
 	"label-namespace": "Przestrzeń nazw",
 	"label-limit": "Ograniczenie",
+	"namespacesall": "wszystkie",
 	"button-submit": "Dalej",
 	"noleaveshere": "Nic nie jest linkowane z $1",
 	"tooltip-whatleaveshere": "Lista wszystkich stron, które są stąd linkowane",

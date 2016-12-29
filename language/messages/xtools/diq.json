@@ -3,9 +3,12 @@
 		"authors": [
 			"Mirzali",
 			"Kumkumuk",
-			"Asmen"
+			"Asmen",
+			"1917 Ekim Devrimi"
 		]
 	},
+	"title_xtools": "Hacetê X!'i",
+	"welcome": "Şıma xeyr ameyê Hacetanê X!'i",
 	"tool_ec": "Amarê vurnayışi",
 	"tool_topedits": "Tewr zaf vuryayeni",
 	"tool_autoedits": "Vurnayışê otomatiki",
@@ -16,7 +19,7 @@
 	"submit": "deqew",
 	"source": "Çımey bıvêne",
 	"bugs": "Xeta rışten",
-	"show": "bımocne",
+	"show": "bımotne",
 	"hide": "bınımne",
 	"all": "pêro",
 	"wiki": "Wiki",

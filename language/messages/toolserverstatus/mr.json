@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"toolserver-status-ok": "विदागार समूहात(डाटाबेस क्लस्टर) काहीच समस्या नाहीत $1$2",
+	"toolserver-status-info": "समूह $1 वापरणाऱ्या सदस्यांसाठी सूचना:$2",
+	"toolserver-status-warn": "समूह $1 वापरणाऱ्या सदस्यांसाठी इशारा:$2",
+	"toolserver-status-down": "विदागार समूह(डाटाबेस क्लस्टर) $1 हा तात्पुरता बंद करण्यात आला आहे.$2",
+	"toolserver-status-erro": "विदागार समूह(डाटाबेस क्लस्टर)$1 हा बंद आहे.$2",
+	"toolserver-status-unknown": "समूह $1 ची स्थिती माहित नाही",
+	"toolserver-status-missing": "समूह $1 अस्तित्वात नाही",
+	"toolserver-status-short-ok": "$1: ठिक आहे",
+	"toolserver-status-short-info": "$1:माहिती",
+	"toolserver-status-short-warn": "$1:इशारा",
+	"toolserver-status-short-down": "$1:बंद",
+	"toolserver-status-short-erro": "$1:त्रुटी",
+	"toolserver-status-short-unknown": "$1:अनोळखी",
+	"toolserver-status-short-missing": "$1: अदृश्य"
+}

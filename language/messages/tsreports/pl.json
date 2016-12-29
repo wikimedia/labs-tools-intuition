@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Darellur",
-			"The Polish"
+			"The Polish",
+			"Woytecr"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Zmień język / ustawienia</a>",
@@ -14,6 +15,7 @@
 	"category_miscellaneous": "Inne",
 	"category_wikidata": "Wikidane",
 	"select_wiki_title": "Wybierz Wiki",
+	"select_wiki": "Wpisz wiki, dla której chcesz raport (np. \"<kbd>en.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "Dalej →",
 	"select_report_title": "Wybierz raport do uruchomienia na %(wiki)",
 	"select_report": "Proszę, wybierz raport:",
@@ -34,5 +36,7 @@
 	"prefs_langlabel": "Język interfejsu:",
 	"report_wascached": "Raport ten został zapisany w pamięci podręcznej %(age) temu.",
 	"report_cold_cache_running": "Regeneracja pamięci podręcznej rozpoczęła się %(runtime) temu.",
-	"report_cold_cache_started": "Regeneracja pamięci podręcznej właśnie się rozpoczęła."
+	"report_cold_cache_started": "Regeneracja pamięci podręcznej właśnie się rozpoczęła.",
+	"report_change_report": "<a href=\"%(url)s\">Zmień raport</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Zmień wiki</a>"
 }

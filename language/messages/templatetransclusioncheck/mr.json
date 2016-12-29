@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"title": "साचा जोडणे व आंतरविन्यास तपासणी",
+	"description": "याचा तपास करते कि कोणता लेख, ज्याने एखादा साचा आंतरविन्यासित केला आहे,पण त्यास साच्याचा दुवा नाही व ते लेख, जे एखाद्या साच्याशी जोडलेले आहेत, पण त्यांनी त्या साच्यास आंतरविन्यासित केले नाही.",
+	"form-label-language": "भाषा:",
+	"form-label-template": "साच्याचे नाव:",
+	"form-label-template2": "(नामविश्वासह)",
+	"form-label-complete": "संपूर्ण अहवाल उत्पादित करा:",
+	"feedback-template-missing": "साचा $1 अस्तित्वात नाही.",
+	"feedback-template-noaccess": "साचा $1 अस्तित्वात आहे असे दिसते पण तो डाटाबेसमधून उपलब्ध होऊ शकत नाही. ही डाटाबेसची तात्पुरती समस्या असू शकते. वापरलेली डाटाबेस:$2",
+	"feedback-result": "$1चे निकाल",
+	"feedback-header-mismatch": "दुवे व आंतरविन्यास यांचे अनुरुपन नाही",
+	"feedback-header-no-link": "आंतरविन्यास पण दुवे नाहीत",
+	"feedback-header-no-transclusion": "दुवा पण आंतरविन्यास नाही",
+	"feedback-header-redirects": "पुनिर्देशनास दुवा जोडला आहे",
+	"feedback-total-count": "एकूण:$1",
+	"feedback-header-complete": "आंतरविन्यास व दुव्याचे संपूर्ण अवलोकन",
+	"feedback-header-transclusions": "साच्याचा आंतरविन्यास",
+	"feedback-header-links": "साच्यापासून असणारे दुवे",
+	"link-edit": "संपादन करा",
+	"link-create": "तयार करा",
+	"link-complete": "संपूर्ण अहवाल...",
+	"footer-stats": "उत्पादित:$1. कालावधी:$2 {{PLURAL:$2|सेकंद}}.",
+	"error-language": "अनोळखी भाषा संकेत."
+}
