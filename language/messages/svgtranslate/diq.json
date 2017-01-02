@@ -3,14 +3,15 @@
 		"authors": [
 			"Erdemaslancan",
 			"Mirzali",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Gırd"
 		]
 	},
 	"error-nothing": "Theba çıniyo kê açerneyo.",
 	"th-original": "Oricinal",
 	"th-translation": "Çarnayış",
 	"th-language": "Zıwan",
-	"th-username": "Nameyê karberi",
+	"th-username": "Namey karberi",
 	"th-password": "Parola",
 	"th-method": "Metod",
 	"option-oauth": "OAuth (otomatik barkerdış)",
