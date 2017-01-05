@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fohanno",
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Fulup"
 		]
 	},
 	"title_xtools": "Ostilhoù X!",
@@ -25,6 +26,7 @@
 	"noexist": "N'eus ket eus $1",
 	"invalid_date": "Deiziad direizh",
 	"nowiki": "$1 n'eo ket ur wiki reizh",
+	"optional": "diret",
 	"username": "Anv implijer",
 	"users": "{{PLURAL: $1|Implijer}}",
 	"searchresult": "Disoc'h an enklask",

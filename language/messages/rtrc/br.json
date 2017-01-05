@@ -3,7 +3,8 @@
 		"authors": [
 			"Fohanno",
 			"Gwenn-Ael",
-			"Y-M D"
+			"Y-M D",
+			"Fulup"
 		]
 	},
 	"title": "Kemmoù nevez war amzer real",
@@ -11,6 +12,7 @@
 	"asc": "War gresk",
 	"changelog": "Petra nevez",
 	"clear": "riñsañ",
+	"close": "Serriñ",
 	"currentedit": "Kemm dibabet er mare-mañ",
 	"cvn-adder": "Ouzhpenner",
 	"cvn-adder-empty": "Dianav",
@@ -19,10 +21,16 @@
 	"desc": "War zigresk",
 	"documentation": "Teuliadur",
 	"filter": "Sil",
+	"filter-hideliu": "Kuzhat an implijerien enrollet",
+	"filter-hidebots": "Kuzhat ar botoù",
+	"filter-unpatrolled": "Kuzhat ar c'hemmoù gwiriet",
+	"help": "Skoazell",
 	"helpicon-tooltip": "Gouzout hiroc'h diwar-benn ar perzh-mañ",
 	"lastupdate-cvn": "Hizivadenn ziwezhañ : $1",
 	"lastupdate-rc": "Hizivadenn ziwezhañ : $1",
+	"legend": "Alc'hwez",
 	"limit": "Bevenn",
+	"masspatrol": "Gwiriadenn a-vras",
 	"masspatrol-requires-userfilter": "Diweredekaet eo bet MassPatrol rak ur sil implijer zo ezhommm anezhañ ha n'eus bet termenet hini ebet.",
 	"months": "Genver, C'hwevrer, Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu",
 	"mypatrollog": "Ma renabl gwiriañ",
@@ -30,10 +38,12 @@
 	"navtoggle-tooltip": "Gwintañ war-zu ar varrenn gostez",
 	"nomatches": "Kemm dereat ebet evit hoc'h arventennoù",
 	"order": "Urzh",
+	"pause": "Ehanañ",
 	"permalink": "Liamm pad war-zu an arventennoù bremañ",
 	"select-placeholder-none": "(hini ebet)",
 	"showAnonOnly": "Dizanv hepken",
 	"showUnpatrolledOnly": "Nann gwiriet hepken",
+	"skip": "Lezel a-gostez",
 	"skippededit": "Kemmadur lammet",
 	"tag": "Balizenn",
 	"time-from": "Eus",
@@ -42,5 +52,6 @@
 	"type": "Seurt",
 	"typeEdit": "Kemmoù",
 	"typeNew": "Pajennoù nevez",
+	"unskip": "Nullañ al lammadenn",
 	"userfilter": "Sil implijer"
 }

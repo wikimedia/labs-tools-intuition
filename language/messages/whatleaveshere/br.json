@@ -2,15 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Fohanno",
-			"Y-M D"
+			"Y-M D",
+			"Fulup"
 		]
 	},
 	"label-page": "Pajenn",
 	"label-namespace": "Esaouenn anv",
 	"label-limit": "Bevenn",
+	"namespacesall": "An holl",
 	"button-submit": "Mont",
 	"whatlinkshere": "Pajennoù liammet",
+	"istemplate": "treuzklozadur",
 	"isfile": "Liamm war-zu ar restr",
+	"linksearch": "LinkSearch",
 	"section-links": "Liammoù",
 	"section-iwlinks": "Liammoù etrewiki",
 	"section-extlinks": "Liammoù diavaez",

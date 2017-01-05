@@ -1,12 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Fulup"
 		]
 	},
 	"form-label-language": "Yezh :",
 	"form-label-template": "Anv ar patrom",
 	"form-label-template2": "(egorenn anvioù e-barzh)",
+	"feedback-result": "Disoc'hoù evit $1",
+	"feedback-total-count": "Hollad : $1",
+	"feedback-header-links": "Liammoù adalek ar patrom",
 	"link-edit": "kemmañ",
 	"link-create": "krouiñ",
 	"link-complete": "Danevell glok...",
