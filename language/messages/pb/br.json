@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fohanno",
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Fulup"
 		]
 	},
 	"pb-about-pb-navi": "Diwar-benn",
@@ -32,6 +33,6 @@
 	"pb-user-title": "Titouroù evit $1",
 	"pb-users-navi": "Implijerien",
 	"pb-users-title": "Roll ar berzhidi",
-	"pb-users-overview": "{{PLURAL:$1|An implijer-mañ a gemer perzh|An $1 implijerien-mañ a gemer perzh}} er raktres <em>Anaoudegezh personel</em> :",
+	"pb-users-overview": "{{PLURAL:$1|An implijer-mañ a gemer perzh|An $1 implijer-mañ a gemer perzh}} er raktres <em>Anaoudegezh personel</em> :",
 	"pb-verified-since": "Gwiriet abaoe"
 }
