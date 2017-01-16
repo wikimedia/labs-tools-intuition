@@ -12,7 +12,7 @@
 	"form-label-complete": "Направи целосен извештај:",
 	"feedback-template-missing": "Шаблонот $1 не постои.",
 	"feedback-template-noaccess": "Шаблонот $1 постои, но не е достапен преку базата. Ова може да е привремен проблем во базата. Употребена база: $2.",
-	"feedback-result": "Резултати за $1",
+	"feedback-result": "Исход од $1",
 	"feedback-header-mismatch": "Несовпаѓање помеѓу превметнувањата и врските",
 	"feedback-header-no-link": "Превеметнување, но нема врска",
 	"feedback-header-no-transclusion": "Врска, но нема превметнување",
