@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar"
+		]
+	},
+	"introduction": "Þetta tól sýnir alla greinartitla sem passa við reglulega segð ($1). Leit eftir reglulegri segð reynir mikið á vélbúnað. Ef það er mögulegt, mundu eftir því að nota merki forskeytis (^) og ($) viðskeytis.",
+	"explanation": "skýring",
+	"regex": "Regluleg segð",
+	"enter-details": "Slá inn smáatriði",
+	"results": "Niðurstöður",
+	"language-label": "Tungumál",
+	"namespace-label": "Nafnrými",
+	"project-label": "Verkefni",
+	"pattern-label": "Mynstur",
+	"redirects-label": "Innifela tilvísanir",
+	"limit-label": "Sýna aðeins fyrstu 100 niðurstöðurnar",
+	"error-zeroresults": "Það eru engar síður í þessu nafnrými með titla sem passa við reglulegu segðina þína.",
+	"match-count": "{{PLURAL:$1|$1 síða|$1 síður}} pössuðu við reglulegu segðina þína."
+}

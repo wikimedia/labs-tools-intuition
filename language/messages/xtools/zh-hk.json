@@ -1,13 +1,37 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Iodine"
 		]
 	},
+	"welcome": "歡迎來到X!'s tools！",
+	"tool_ec": "編輯統計",
+	"tool_blame": "條目歷史搜尋",
+	"tool_articleinfo": "頁面歷史",
+	"tool_pages": "建立頁面統計",
+	"tool_autoedits": "自動編輯統計",
+	"tool_rangecontribs": "區段貢獻統計",
+	"tool_ec_desc": "使用者貢獻分析",
 	"tool_rfap_desc": "用戶是如何投票的？",
+	"tool_adminstats_desc": "顯示管理員操作統計",
 	"nograph": "用戶未選擇公開資訊。如欲檢視圖表，請用任意內容建立 $1，或建立 $2 以允許跨維基媒體 wiki 項目啟用。",
+	"invalid_date": "無效日期",
 	"username": "用戶名稱",
 	"users": "{{PLURAL: $1|用戶}}",
+	"searchresult": "搜尋結果",
+	"show": "顯示",
+	"hide": "隱藏",
+	"login": "登入",
+	"logout": "登出",
 	"userid": "用戶 ID",
-	"groups": "用戶群組"
+	"groups": "用戶群組",
+	"numedits": "編輯次數",
+	"files_uploaded": "檔案上傳數",
+	"deleted_edits": "被刪除編輯數",
+	"edits_summary": "有摘要的編輯數",
+	"thank": "感謝",
+	"approve": "核准",
+	"patrol": "巡查",
+	"article": "條目"
 }
