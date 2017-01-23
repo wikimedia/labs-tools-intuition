@@ -65,7 +65,7 @@
 	"weeks": "{{PLURAL: $1|week|weeks}}",
 	"months": "{{PLURAL: $1|month|months}}",
 	"years": "{{PLURAL: $1|year|years}}",
-	"revisions": "$1 {{PLURAL:$1|पुनरावलोकन|पुनरावलोकनहरु}}",
+	"revisions": "$1 {{PLURAL:$1|पुनरावलोकन|पुनरावलोकनहरू}}",
 	"authors": "{{PLURAL: $1|Author|Authors}}",
 	"start": "सुरु गरेको मिति",
 	"end": "समापन मिति",

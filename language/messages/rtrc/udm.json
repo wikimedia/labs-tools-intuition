@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Irus"
+			"Irus",
+			"Wadorgurt"
 		]
 	},
-	"showAnonOnly": "аноним гинэ"
+	"showAnonOnly": "Анонимъёс гинэ"
 }

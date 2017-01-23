@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Robin van der Vliet"
 		]
 	},
 	"language-label": "Lingvo",
 	"namespace-label": "Nomspaco",
 	"pagename-label": "Paĝnomo (escepti nomspaco)",
+	"transclusion-count": "$1 transkludo(j) trovita(j).",
 	"time-label": "Tempo bezonata por ekzekuti komando"
 }

@@ -128,7 +128,7 @@
 	"block": "封禁",
 	"unblock": "解封",
 	"protect": "保护",
-	"unprotect": "解除保护",
+	"unprotect": "取消保护",
 	"delete": "删除",
 	"restore": "恢复",
 	"import": "导入",
