@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bikarhêner",
-			"George Animal"
+			"George Animal",
+			"Ghybu"
 		]
 	},
 	"list": "Lîste",
@@ -24,6 +25,7 @@
 	"mycontribs": "Beşdarî",
 	"mywatchlists": "Lîsteyên şopandinê",
 	"users": "{{PLURAL: $1|bikarhêner}}",
+	"discussion": "Gotûbêj",
 	"portal": "Portal",
 	"project": "Proje",
 	"category": "Kategorî",

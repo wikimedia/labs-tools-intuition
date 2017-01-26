@@ -3,15 +3,23 @@
 		"authors": [
 			"Fohanno",
 			"Y-M D",
-			"Fulup"
+			"Fulup",
+			"Gwenn-Ael"
 		]
 	},
+	"title": "Ar pezh a ya kuit ac'hann",
+	"title-leaveshere": "Liammoù o vont kuit eus \"$1\"",
+	"sub-leaveshere": "Ar pajennoù-mañ zo liammet adalek $1",
 	"label-page": "Pajenn",
 	"label-namespace": "Esaouenn anv",
 	"label-limit": "Bevenn",
 	"namespacesall": "An holl",
 	"button-submit": "Mont",
+	"noleaveshere": "Ne gas $1 da neblec'h",
+	"link-whatleaveshere": "Ar pezh a ya kuit ac'hann",
+	"tooltip-whatleaveshere": "Roll kement tra a zo liammet ac'hann",
 	"whatlinkshere": "Pajennoù liammet",
+	"whatlinkshere-whatleaveshere": "Petra a ya kuit ac'hann ?",
 	"istemplate": "treuzklozadur",
 	"isfile": "Liamm war-zu ar restr",
 	"linksearch": "LinkSearch",

@@ -1,15 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fohanno"
+			"Fohanno",
+			"Gwenn-Ael"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Enrollañ",
 	"voiceintro-toolbar-stop-label": "Paouez",
 	"voiceintro-toolbar-clear-label": "Riñsañ",
 	"voiceintro-toolbar-upload-label": "Enporzhiañ",
+	"voiceintro-webaudio-not-supported": "N'eo ket embreget an API WebAudio gant ar merdeer",
+	"voiceintro-upload-publish-succeeded": "Enrolladenn enporzhiet-mat :",
+	"voiceintro-upload-publish-failed": "N'eo ket bet enporzhiet an enrolladenn",
 	"voiceintro-information-label": "Titouroù",
 	"voiceintro-information-speaker-label": "Anv ar prezeger :",
 	"voiceintro-information-language-label": "Yezh :",
+	"voiceintro-mic-access-notify": "Klikit war \"Aotren\" evit ma c'hallo ar merdeer diraez ho mikrofon.",
 	"voiceintro-recording-notify": "Oc'h enrollañ..."
 }
