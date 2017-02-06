@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jnanaranjan Sahu",
-			"Psubhashish"
+			"Psubhashish",
+			"Susant purohit"
 		]
 	},
 	"error-tryagain": "$1 ଆଉଥରେ ଚେଷ୍ଟା କରିବା ପାଇଁ ଆପଣଙ୍କ ବ୍ରାଉଜରରେ ପଛ ବଟନ କ୍ଲିକ କରନ୍ତୁ ।",
@@ -18,7 +19,7 @@
 	"th-username": "ବ୍ୟବହାରକାରୀ ନାମ",
 	"th-password": "ପାସୱାର୍ଡ଼",
 	"th-method": "ଧାରା",
-	"option-oauth": "TUSC (ଆପେ ଆପେ ଅପଲୋଡ)",
+	"option-oauth": "OAuth(ଆପେ ଆପେ ଅପଲୋଡ)",
 	"option-manual": "ଆପଣ ନିଜଦ୍ଵାରା ଅପଲୋଡ କରିବେ",
 	"preview": "ଦେଖଣା",
 	"translate": "ଅନୁବାଦ",

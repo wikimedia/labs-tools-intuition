@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jnanaranjan Sahu"
+			"Jnanaranjan Sahu",
+			"Susant purohit"
 		]
 	},
-	"moretools": "ସେହି ପ୍ରବନ୍ଧକଙ୍କ ଦ୍ଵାରା ହୋଇଥିବା ଆହୁରି ଟୁଲଗୁଡିକ",
+	"moretools": "ଅଧିକ ଟୁଲ",
+	"homepage-title": "ଉପକ୍ରମ",
 	"bugs": "ଅସୁବିଧା ଏବଂ ପ୍ରସ୍ତାବଗୁଡିକ",
 	"comments": "କମେଣ୍ଟ ଏବଂ ଅନୁରୋଧଗୁଡିକ",
 	"error-form-empty": "ଗୋଟେ କିମ୍ବା ଅଧିକ ଖାଲିସ୍ଥାନ ଅଛି । ଅପଣ ଆଗକୁ ଯିବା ପୂର୍ବରୁ ସେଗୁଡିକୁ ପୂରଣ କରିବା ଉଚିତ ।"

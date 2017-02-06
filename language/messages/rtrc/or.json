@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Susant purohit"
+		]
+	},
+	"apply": "ଆବେଦନ",
+	"changelog": "ନୂଆଁ କଣ",
+	"clear": "ଲିଭାନ୍ତୁ",
+	"close": "ବନ୍ଦ କରନ୍ତୁ",
+	"cvn-adder-empty": "ଅଜଣା",
+	"cvn-reason": "କାରଣ",
+	"cvn-reason-empty": "କୌଣସି କାରଣ ମିଳିଲା ନାହିଁ",
+	"desc": "ଅବତରଣ",
+	"documentation": "ନଥିକରଣ",
+	"filter": "ଛାଣିବା",
+	"filter-hideliu": "ପଞ୍ଜୀକୃତ ସଭ୍ୟ ଙ୍କୁ ଲୁଚାନ୍ତୁ",
+	"filter-hidebots": "ଆପେଆପେ ଚାଳିତ ସଭ୍ୟମାନଙ୍କୁ ଲୁଚାନ୍ତୁ",
+	"help": "ସାହାଯ୍ୟ",
+	"helpicon-tooltip": "ଏହି ବିସେଶତ୍ଵ ବିଷୟରେ ଅଧିକ ଜାଣନ୍ତୁ",
+	"lastupdate-cvn": "%1$s ରେ ଶେଷଥର ଅପଡେଟ ହୋଇଥିଲା",
+	"lastupdate-rc": "\"$1\" ରେ ଶେଷଥର ଅପଡେଟ ହୋଇଥିଲା",
+	"legend": "ଲିଜେଣ୍ଡ",
+	"limit": "ସୀମା",
+	"mypatrollog": "ମୋ ଜଗିବା ଇତିହାସ",
+	"namespace": "ନାମସ୍ଥାନ",
+	"order": "ଆଦେଶ କରିବେ",
+	"pause": "ଅଟକିବେ",
+	"reload-interval": "ମଧ୍ୟାନ୍ତର",
+	"select-placeholder-none": "(କିଛି ନାହିଁ)",
+	"showAnonOnly": "କେବଳ ବେନାମି",
+	"skip": "ଡେଇଁ ଯାଅନ୍ତୁ",
+	"tag": "ଟାଗ",
+	"time-from": "କାହାଠାରୁ",
+	"type": "ପ୍ରକାର",
+	"typeEdit": "ବଦଳସବୁ",
+	"typeNew": "ନୂଆ ପୃଷ୍ଠା",
+	"userfilter": "ବ୍ୟବହାରକାରୀ ଙ୍କ ଛଣା"
+}

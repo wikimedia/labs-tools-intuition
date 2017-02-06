@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Susant purohit"
+		]
+	},
+	"pb-about-pb-navi": "ବିଷୟରେ",
+	"pb-about-pb-tech": "ବୈଶେୟିକ ବିବରଣୀସବୁ",
+	"pb-change-language": "ଭାଷା ବଦଳାଇବେ",
+	"pb-comment": "ମତାମତ",
+	"pb-confirmations-taken": "ନିଶ୍ଚିତତା ମିଳିଲା",
+	"pb-date": "ତାରିଖ",
+	"pb-home": "ପ୍ରଧାନ ପୃଷ୍ଠା",
+	"pb-recent-confirmations": "ଏବକାର ନିଶ୍ଚିତତା",
+	"pb-reconfirmed": "ପୁନର ନିଶ୍ଚିତ?",
+	"pb-user": "ବ୍ୟବହାରକାରୀ",
+	"pb-user-title": "\"$1\" ଙ୍କ ବିବରଣୀ",
+	"pb-users-navi": "ବ୍ୟବହାରକାରୀଗଣ"
+}

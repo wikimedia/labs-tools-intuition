@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erikoo"
+			"Erikoo",
+			"Ninjastrikers"
 		]
 	},
 	"welcome": "ကြိုဆိုပါသည်",
 	"namespace": "အမည်ညွှန်းများ",
-	"form-submit": "သွား​ပါ​",
+	"form-submit": "သွားပါ",
 	"form-reset": "Reset ချရန်",
 	"view-source": "ရင်းမြစ်ကို ကြည့်ရန်"
 }

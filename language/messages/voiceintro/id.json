@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hidayatsrf"
+		]
+	},
+	"voiceintro-toolbar-stop-label": "Berhenti",
+	"voiceintro-toolbar-clear-label": "Hapus",
+	"voiceintro-toolbar-upload-label": "Unggah",
+	"voiceintro-information-label": "Informasi"
+}

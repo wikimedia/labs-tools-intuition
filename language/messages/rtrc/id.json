@@ -3,7 +3,8 @@
 		"authors": [
 			"C5st4wr6ch",
 			"Kenrick95",
-			"Iwan Novirion"
+			"Iwan Novirion",
+			"Hidayatsrf"
 		]
 	},
 	"apply": "Terapkan",
@@ -18,6 +19,9 @@
 	"desc": "Terbaru",
 	"documentation": "Dokumentasi",
 	"filter": "Saringan",
+	"filter-hidebots": "Sembunyikan bot",
+	"filter-unpatrolled": "Sembunyikan suntingan terpatroli",
+	"help": "Bantuan",
 	"helpicon-tooltip": "Pelajari lebih lanjut tentang fitur ini",
 	"lastupdate-cvn": "Terakhir diperbarui: $1",
 	"lastupdate-rc": "Terakhir diperbarui: $1",
@@ -29,10 +33,13 @@
 	"navtoggle-tooltip": "Buka bar samping",
 	"nomatches": "Tidak ada suntingan relevan untuk pengaturan Anda",
 	"order": "Urutan",
+	"pause": "Jeda",
 	"permalink": "Pranala ke suntingan sekarang",
+	"reload-interval": "Rentang waktu",
 	"select-placeholder-none": "(tidak ada)",
 	"showAnonOnly": "Hanya pengguna anonim",
 	"showUnpatrolledOnly": "Hanya yang belum terpatroli",
+	"skip": "Lewati",
 	"skippededit": "Suntingan terlompati",
 	"tag": "Tag",
 	"time-from": "Dari",

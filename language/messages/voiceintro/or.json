@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Susant purohit"
+		]
+	},
+	"voiceintro-toolbar-stop-label": "ଅଟକାନ୍ତୁ",
+	"voiceintro-toolbar-clear-label": "ଲିଭାନ୍ତୁ",
+	"voiceintro-toolbar-upload-label": "ଅପଲୋଡ଼ କରନ୍ତୁ",
+	"voiceintro-information-label": "ସୂଚନା",
+	"voiceintro-information-language-label": "ଭାଷା:"
+}

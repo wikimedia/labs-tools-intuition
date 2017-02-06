@@ -42,7 +42,7 @@
 	"nograph": "User has not yet opted in. If you want to see graphs, please create $1 with any content or create $2 to opt-in across all Wikimedia wikis.",
 	"nograph2": "Ordezko aukera gisa, Wikimedia OAuth erabiliz sar zaitezke (ikus, gainera, $1). Horrela, xehetasun handieneko emaitzak zuk beste inork ez ditu ikusiko.",
 	"toomanyrevisions": "This article has over 50,000 revisions. Data for the first 50,000 are shown below.",
-	"interrupted": "Sorry, but in order to save resources, a bot has automatically killed this query for being longer than $1 seconds.",
+	"interrupted": "Sentitzen dugu, baina baliabideak aurreztearren bot batek automatikoki geldiarazi du bilaketa hau, $1 segundo baino gehiago iraun duelako.",
 	"invalid_type": "Invalid type selected",
 	"invalid_date": "Balio gabeko data",
 	"nocontribs": "Ez da ekarpenik aurkitu",

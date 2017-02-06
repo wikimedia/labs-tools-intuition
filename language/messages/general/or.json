@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jnanaranjan Sahu"
+			"Jnanaranjan Sahu",
+			"Susant purohit"
 		]
 	},
 	"hello": "ନମସ୍କାର",
@@ -12,6 +13,7 @@
 	"form-submit": "ଯିବେ",
 	"form-reset": "ପୁନସ୍ଥାପନ",
 	"years": "{{PLURAL: $1|ବର୍ଷ|ବର୍ଷଗୁଡିକ}}",
+	"months": "{{PLURAL:$1|$1 month|$1 months}}",
 	"weeks": "{{PLURAL: $1|ସପ୍ତାହ|ସପ୍ତାହଗୁଡିକ}}",
 	"days": "($1 {{PLURAL:$1|ଦିନ|ଦିନଗୁଡିକ}})",
 	"hours": "($1 {{PLURAL:$1|ଘଣ୍ଟା|ଘଣ୍ଟା}})",

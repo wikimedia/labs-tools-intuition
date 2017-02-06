@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hidayatsrf"
+		]
+	},
+	"form-label-language": "Bahasa:",
+	"form-label-template": "Nama templat:",
+	"form-label-template2": "(termasuk ruangnama)",
+	"feedback-result": "Hasil untuk $1",
+	"link-edit": "sunting",
+	"link-create": "buat",
+	"link-complete": "Laporan lengkap..."
+}

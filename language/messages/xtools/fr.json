@@ -8,7 +8,8 @@
 			"SnowedEarth",
 			"Nnemo",
 			"Wladek92",
-			"Urhixidur"
+			"Urhixidur",
+			"The RedBurn"
 		]
 	},
 	"title_xtools": "Outils de X!",
@@ -150,7 +151,7 @@
 	"article": "Article",
 	"generalstats": "Statistiques générales",
 	"page": "Titre de la page",
-	"totaledits": "Total des révisions",
+	"totaledits": "Total des versions",
 	"minoredits": "Nombre de modifications mineures",
 	"anonedits": "Nombre de modifications par adresse IP",
 	"botedits": "Nombre de modifications par robot",

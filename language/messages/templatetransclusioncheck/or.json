@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Susant purohit"
+		]
+	},
+	"form-label-language": "ଭାଷା:",
+	"form-label-template": "ଛାଞ୍ଚ ନାମ",
+	"feedback-template-missing": "$1 ଛାଞ୍ଚଟି ନାହିଁ ।",
+	"feedback-result": "$1 ର ଫଳାଫଳ:",
+	"feedback-total-count": "ସମୁଦାୟ:$1",
+	"link-edit": "ସମ୍ପାଦନା",
+	"link-create": "ତିଆରି କରନ୍ତୁ"
+}
