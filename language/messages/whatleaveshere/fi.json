@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Silvonen"
+			"Silvonen",
+			"Pyscowicz"
 		]
 	},
 	"label-page": "Sivu",
-	"label-namespace": "Nimiavaruus"
+	"label-namespace": "Nimiavaruus",
+	"section-links": "Linkit"
 }

@@ -4,5 +4,7 @@
 			"Cedric31"
 		]
 	},
-	"searchResults": "Resultats de la recèrca"
+	"searchResults": "Resultats de la recèrca",
+	"files": "{{PLURAL: $1|Fichièr|Fichièrs}}",
+	"by": "de"
 }

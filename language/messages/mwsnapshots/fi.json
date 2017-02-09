@@ -4,7 +4,8 @@
 			"Nike",
 			"Olli",
 			"Silvonen",
-			"Stryn"
+			"Stryn",
+			"Pyscowicz"
 		]
 	},
 	"title-overview": "Tilannekuvat",
@@ -12,7 +13,7 @@
 	"title-updatelog": "Päivitysloki",
 	"updatelog-intro": "Päivitysohjelma ajetaan joka tunti. Alla on viimeisimmän kerran konsolin tiedot.",
 	"updatelog-active": "Päivitysohjelma on käynnissä. Palaa myöhemmin saadaksesi tietää koko lokin.",
-	"download-button": "Lataa $1",
+	"download-button": "Lataa tilannekatsaus",
 	"download-directlink": "suora linkki",
 	"title-downloadpage": "Lataa",
 	"title-downloadpage-repo": "Lataa $1",

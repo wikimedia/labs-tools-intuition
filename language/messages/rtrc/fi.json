@@ -2,16 +2,27 @@
 	"@metadata": {
 		"authors": [
 			"Silvonen",
-			"Mikahama"
+			"Mikahama",
+			"Pyscowicz"
 		]
 	},
 	"close": "Sulje",
 	"cvn-adder": "Lisääjä",
 	"cvn-adder-empty": "Tuntematon",
 	"cvn-reason": "Syy",
+	"filter": "Suodatin",
+	"filter-hideliu": "Piilota rekisteröityneet käyttäjät",
+	"filter-hidebots": "Piilota botit",
+	"filter-unpatrolled": "Piilota tarkastetut muutokset",
 	"help": "Ohje",
+	"helpicon-tooltip": "Lue lisää tästä ominaisuudesta",
+	"lastupdate-cvn": "Viimeisin päivitys: $1",
+	"lastupdate-rc": "Viimeisin päivitys: $1",
+	"limit": "Raja",
 	"namespace": "Nimiavaruus",
 	"pause": "Tauko",
 	"skip": "Ohita",
-	"unskip": "Peruuta ohitus"
+	"typeNew": "Uudet sivut",
+	"unskip": "Peruuta ohitus",
+	"userfilter": "Käytä suodinta"
 }
