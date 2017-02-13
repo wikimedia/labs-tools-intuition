@@ -6,5 +6,7 @@
 	},
 	"searchResults": "Resultats de la recèrca",
 	"files": "{{PLURAL: $1|Fichièr|Fichièrs}}",
-	"by": "de"
+	"by": "de",
+	"tooltipSearch": "títol de la pagina (per exemple Hollywood) - tanben podètz utilizar lo signe de caractèr generic \"*\" per exemple Hollywood* o Utilizaire:Tom*. Vejatz l&#39;ajuda per mai de detalhs.",
+	"furtherInformation": "Mai d'informacions"
 }
