@@ -2,16 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Schu",
-			"Shirayuki"
+			"Shirayuki",
+			"Takot"
 		]
 	},
 	"title": "テンプレートの参照読み込み回数計算",
 	"enter-details": "詳細を入力",
+	"introduction": "テンプレート名を入力して、「実行」を押してください(現在のところウィキペディアのみ有効です)。それだけです。キャッシュ(保存された結果)が存在する場合もありますが、残念ながらこのツールとその所有者が制御できるものではありません。",
 	"language-label": "言語",
 	"namespace-label": "名前空間",
 	"pagename-label": "ページ名 (名前空間を除く)",
-	"transclusion-count-label": "参照読み込みの回数",
+	"transclusion-count-label": "使用回数",
 	"transclusion-count": "$1 件の参照読み込みが見つかりました。",
 	"error-suggestion": "ページ名の綴りが正しいか、誤って大文字にしていないか、確認してください。",
-	"time-label": "コマンドの実行に要した時間"
+	"time-label": "コマンド実行時間"
 }

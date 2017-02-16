@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pikne"
+			"Pikne",
+			"Cumbril"
 		]
 	},
 	"title_xtools": "X!-i tööriistad",
 	"tool_ec": "Muudatusloendur",
-	"tool_blame": "Artikli laitja",
+	"tool_blame": "Artikli autorsus",
 	"tool_articleinfo": "Lehekülje ajalugu",
 	"tool_pages": "Alustatud leheküljed",
 	"tool_topedits": "Enim muudatusi",

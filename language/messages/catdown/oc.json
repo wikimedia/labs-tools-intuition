@@ -15,6 +15,7 @@
 	"no-such-project": "Aqueste projècte existís pas",
 	"no-images": "I a pas d’imatges dins aquesta categoria",
 	"zip-failed": "Fracàs de la creacion del zip",
+	"download-info": "I a {{plural: $1|un imatge|$1 imatges}}, amb una talha estimada de $2",
 	"download": "Telecargar",
 	"scaling-width": ", mes a l’escala amb una largor maximala de $1 pixèl{{plural:$1||s}}",
 	"scaling-height": ", mes a l’escala amb una nautor maximala de $1 pixèl{{plural:$1||s}}",
