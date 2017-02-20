@@ -4,5 +4,6 @@
 			"StanProg"
 		]
 	},
-	"voiceintro-information-label": "Информация"
+	"voiceintro-information-label": "Информация",
+	"voiceintro-information-language-label": "Език:"
 }

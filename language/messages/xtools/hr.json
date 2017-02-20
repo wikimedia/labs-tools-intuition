@@ -35,7 +35,7 @@
 	"noresult": "Nema pronađenih rezultata za: $1",
 	"norevisions": "Nisu pronađene izmjene",
 	"nograph": "Suradnik se nije odlučio za ovu mogućnost. Ako želite vidjeti statistiku, stvorite stranicu $1 s bilo kakvim sadržajem ili stvorite stranicu $2 za povezivanje i prijavu na svim Wikimedijinim wikijima.",
-	"nograph2": "Osim ovoga, možete se prijaviti i preko Wikimedia OAuth (vidi $1). Na taj način, detaljni podatci će biti vidljivi samo Vama..",
+	"nograph2": "Osim ovoga, možete se prijaviti i preko Wikimedia OAuth (vidi $1). Na taj način, detaljni podatci će biti vidljivi samo Vama.",
 	"toomanyrevisions": "Ovaj članak ima više od 50.000 izmjena. Prikazani su podatci za prvih 50.000.",
 	"invalid_date": "Nevaljali datum",
 	"nocontribs": "Nisu pronađeni doprinosi",
