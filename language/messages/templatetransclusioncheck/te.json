@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven"
+		]
+	},
+	"form-label-language": "భాష:",
+	"form-label-template": "మూస పేరు:",
+	"feedback-total-count": "మొత్తం: $1"
+}

@@ -24,7 +24,7 @@
 	"select_report_first": "这篇报告才第一次被生成，并且需要等一会儿才能被使用。",
 	"select_report_hot": "此篇报告的缓存版本，已生成时长%(age)s，可用。",
 	"select_report_cold_running": "此篇报告的缓存版本，已生成时长%(age)s，可用，预计的新版本出炉日期%(eta)s。",
-	"select_report_cold_not_running": "本片报告的缓存版本，已生成时长：%(age)s，可用。如果你重新浏览就会生成新的版本，生成时长约%(eta)s。",
+	"select_report_cold_not_running": "本片报告的缓存版本，已生成时长：%(age)s，可用。如果您重新浏览就会生成新的版本，生成时长约%(eta)s。",
 	"select_report_no_reports": "对不起，此时没有%(wiki)s可用的报告",
 	"select_report_go_back": "更改 wiki",
 	"qvar_title": "为您的查询输入变量",

@@ -85,7 +85,7 @@
 	"filtersOut": "过滤掉一些技术的条目 - 详细信息请参考帮助",
 	"lastUpdate": "最后更新",
 	"urlToUserpage": "到您用户页章节或子章节（#）的URL。",
-	"tooltipSearch": "页面标题（如Hollywood） - 你也可以使用通配符 “*”，例如Hollywood*或UserːTom*。进一步详情请参阅帮助。",
+	"tooltipSearch": "页面标题（如Hollywood）。您也可以使用通配符“*”，例如Hollywood*或UserːTom*。进一步详情请参阅帮助。",
 	"noJavaScript": "Javascript已禁用",
 	"noData": "无可用数据",
 	"searchOnlyTOP": "此搜索仅运行在热门列表中。",

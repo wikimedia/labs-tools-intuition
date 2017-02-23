@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven"
+		]
+	},
+	"category_users": "వాడుకరులు",
+	"category_articles": "పేజీలు",
+	"category_images": "బొమ్మలు",
+	"category_wikidata": "వికీడేటా",
+	"select_wiki_next": "తదుపరి →",
+	"qvar_next": "తదుపరి →",
+	"prefs_title": "నివేదికల అభిరుచులు",
+	"prefs_submit": "సరే"
+}
