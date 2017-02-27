@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
-	"error-suggestion": "Možda ste pogrešno napisali (ili koristili velika ili mala slova) u nazivu stranice?"
+	"enter-details": "Upišite podatke",
+	"introduction": "Upišite ime šablona (zasad radi samo s Wikipedijama) i pritisnite dugme \"Idi\". Ne može biti lakše! Postoji malo međuskladištenja (ili keširanja, odnosno pamćenja rezultata), ali je to, nažalost, van kontrole ovog alata i njegovog vlasnika.",
+	"language-label": "Jezik",
+	"namespace-label": "Imenski prostor",
+	"pagename-label": "Ime stranice (bez imenskog prostora)",
+	"transclusion-count-label": "Broj transkluzija",
+	"transclusion-count": "Pronađeno transkluzija: $1.",
+	"error-suggestion": "Možda ste pogrešno napisali (ili koristili velika ili mala slova) u nazivu stranice?",
+	"time-label": "Naredba je izvršena za"
 }

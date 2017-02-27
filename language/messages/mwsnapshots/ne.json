@@ -4,13 +4,16 @@
 			"सरोज कुमार ढकाल"
 		]
 	},
-	"title-error": "त्रुटी",
+	"title-error": "त्रुटि",
 	"title-downloadpage": "डाउनलोड",
+	"err-snapshotindex": "Snapshot index temporarily unavailable. कृपया केही समय पछि पुनः प्रयास गर्नुहोस् ।",
+	"err-nosnapshot": "The snapshots are generated every few hours. While generating the snapshot for \"$1\", an error occurred. कृपया केही समय पछि पुनः प्रयास गर्नुहोस् ।",
 	"repo-site-link": "वेबसाइट",
 	"repo-browse-link": "भण्डार अन्वेषण गर्नुहोस्",
 	"repo-lastmoddate-label": "मिति:",
 	"branches-submit-button": "प्राप्त गर्नुहोस् !",
 	"updatelog-link": "अद्यावधिक लग",
 	"tablehead-repo": "भण्डार",
+	"tablehead-branch": "शाखा",
 	"tablehead-filesize": "फाइल आकार"
 }

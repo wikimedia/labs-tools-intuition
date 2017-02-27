@@ -4,14 +4,15 @@
 			"Mirzali",
 			"Kumkumuk",
 			"Asmen",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Gırd"
 		]
 	},
 	"title_xtools": "Hacetê X!'i",
 	"welcome": "Şıma xeyr ameyê Hacetanê X!'i",
 	"tool_ec": "Amarê vurnayışi",
 	"tool_topedits": "Tewr zaf vuryayeni",
-	"tool_autoedits": "Vurnayışê otomatiki",
+	"tool_autoedits": "Vırnayışê otomatiki",
 	"optional": "opsiyonel",
 	"username": "Nameyê karberi",
 	"users": "{{PLURAL: $1|karber|karberi}}",
@@ -64,7 +65,7 @@
 	"delete": "Bestere",
 	"restore": "Peyser biya",
 	"import": "Zerre ke",
-	"live": "Vurnayışê newen",
+	"live": "Vırnayışê ganiy",
 	"namespacetotals": "Canamey heme",
 	"monthcounts": "Mengek hesab",
 	"topeditedpages": "Tewr zaf vurnaye peri",
