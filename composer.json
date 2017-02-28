@@ -15,8 +15,7 @@
 		}
 	},
 	"require": {
-		"php": ">=5.5",
-		"krinkle/toollabs-base": "~0.8.0"
+		"php": ">=5.5"
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.*",
@@ -26,9 +25,9 @@
 	},
 	"scripts": {
 		"test": [
-			"parallel-lint . --exclude libs --exclude vendor --exclude node_modules",
+			"parallel-lint . --exclude vendor --exclude node_modules",
 			"phpunit",
-			"phpcs . --extensions=php --standard=tests/codesniffer --ignore=vendor/*,node_modules/*,libs/*,language/*",
+			"phpcs . --extensions=php --standard=tests/codesniffer --ignore=vendor/*,node_modules/*,language/*",
 			"npm install && npm test"
 		]
 	}

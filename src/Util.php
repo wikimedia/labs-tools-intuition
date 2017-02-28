@@ -91,7 +91,7 @@ class Util {
 	}
 
 	/* Primitive html building */
-	/* Based on kfTag from the BaseTool class */
+	/* Based on Html::element from MediaWiki and krinkle/toollabs-base */
 	public static function tag( $str, $wrapTag = 0, $attributes = array() ) {
 		$selfclose = array( 'link', 'input', 'br', 'img' );
 

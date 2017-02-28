@@ -1,13 +1,5 @@
-# Intuition
-scripts/*.out
-public_html/config.php
-
-# Dev
 /coverage
-node_modules
-npm-debug.log
-vendor
+/node_modules
+/vendor
 composer.lock
-
-# OSX
-.DS_Store
+npm-debug.log

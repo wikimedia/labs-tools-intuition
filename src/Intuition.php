@@ -33,10 +33,7 @@ class Intuition {
 
 	public $version = '0.4.0';
 
-	// One of 'in-tool' or 'dashboard'
-	public $mode = null;
-
-	// Address to the public html, must end in a slash.
+	// URL to where intuition-web is installed (must end in a slash)
 	public $dashboardHome = '//tools.wmflabs.org/intuition/';
 
 	// Constructor options
@@ -145,11 +142,8 @@ class Intuition {
 			'suppressbrackets' => false,
 			'stayalive' => false,
 			'param' => true,
-			'mode' => 'in-tool',
 		);
 		$options = array_merge( $defaultOptions, $options );
-
-		$this->mode = $options['mode'];
 
 		// The domain of your tool can be set here.
 		// Otherwise defaults to 'general'. See also documentation of msg()

@@ -12,7 +12,6 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-banana-checker');
   grunt.loadNpmTasks('grunt-eslint');
-  grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-git-authors');
   grunt.loadNpmTasks('grunt-jsonlint');
 
@@ -26,19 +25,15 @@ module.exports = function (grunt) {
   grunt.initConfig({
     banana: domainDirs,
     eslint: {
-      all: ['*.js', '{js-env,public_html}/*.js']
+      all: '*.js'
     },
     jsonlint: {
       all: [
-        '.jscsrc',
         '*.json',
         '{language,tests}/**/*.json'
       ]
-    },
-    qunit: {
-      all: ['tests/qunit/index.html']
     }
   });
 
-  grunt.registerTask('default', ['eslint', 'jsonlint', 'qunit']);
+  grunt.registerTask('default', ['eslint', 'jsonlint']);
 };
