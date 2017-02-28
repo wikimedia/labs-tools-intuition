@@ -40,22 +40,23 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'Defaults to "general"'
 		);
 
-		$i18n = new Intuition( 'tsintuition' );
+		$i18n = new Intuition( 'test-domain' );
+		$this->sampleMsgs( $i18n );
 
 		$this->assertEquals(
-			'Demo',
-			$i18n->msg( 'tab-demo' ),
+			'en value',
+			$i18n->msg( 'test-value' ),
 			'Domain key as string'
 		);
 
 		$i18n = new Intuition( array(
-			'domain' => 'tsintuition'
+			'domain' => 'test-domain'
 		) );
 		$this->sampleMsgs( $i18n );
 		$this->assertEquals(
-			'Demo',
-			$i18n->msg( 'tab-demo' ),
-			'Constructor "domain" option'
+			'en value',
+			$i18n->msg( 'test-value' ),
+			'Constructor "domain" array option'
 		);
 
 		$i18n = new Intuition( array(
@@ -409,12 +410,6 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	 * @covers Intuition::getDomainDir
 	 */
 	public function testGetDomainInfo() {
-		$this->assertEquals(
-			array(
-				'dir' => dirname( dirname( __DIR__ ) ) . '/language/messages/tsintuition',
-			),
-			$this->i18n->getDomainInfo( 'tsintuition' )
-		);
 		$this->assertEquals(
 			array(
 				'dir' => dirname( dirname( __DIR__ ) ) . '/language/messages/general',
