@@ -30,7 +30,7 @@ module.exports = function (grunt) {
 			options: {
 				jshintrc: true
 			},
-			all: ['Gruntfile.js', 'includes/js-env/*.js']
+			all: ['*.js', 'includes/js-env/*.js', 'public_html/*.js']
 		},
 		jscs: {
 			all: '<%= jshint.all %>'
@@ -39,7 +39,7 @@ module.exports = function (grunt) {
 			all: [
 				'.jscsrc',
 				'*.json',
-				'{includes,language,tests}/**/*.json'
+				'{language,tests}/**/*.json'
 			]
 		},
 		qunit: {

@@ -7,7 +7,7 @@ jQuery(function ($) {
 
 		$(this).tab('show');
 		if (history.replaceState) {
-			history.replaceState( null, document.title, this.href );
+			history.replaceState(null, document.title, this.href);
 		}
 	});
 
