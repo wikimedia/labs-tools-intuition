@@ -4,7 +4,7 @@ ini_set( 'display_errors', 1 );
 date_default_timezone_set( 'UTC' );
 
 // Load Intuition from the main directory
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../ToolStart.php';
 
 // Known demos
 $demoRegistry = array(

@@ -4,7 +4,8 @@
 	"license": "CC-BY-3.0",
 	"autoload": {
 		"files": [
-			"ToolStart.php"
+			"src/defines.php",
+			"src/compat.php"
 		],
 		"psr-4": {
 			"Krinkle\\Intuition\\": "src/"
