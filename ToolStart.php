@@ -1,11 +1,13 @@
 <?php
+// Re-ensure autoload.php for backwards-compatibility with older tools on
+// Wikimedia Tool Labs that include ToolStart.php directly.
+require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/src/defines.php';
 
 use Krinkle\Intuition\Intuition;
 use Krinkle\Intuition\Util;
 
-// Kept for backwards-compatibility with older tools on
-// Wikimedia Tool Labs not yet using Composer.
+// Kept for backwards-compatibility with older tools not yet using Composer.
 // .. rename from TsIntuition to Intuition in v0.1.3.
 class_alias( Intuition::class, 'TsIntuition' );
 class_alias( Util::class, 'TsIntuitionUtil' );
