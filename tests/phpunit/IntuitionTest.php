@@ -270,7 +270,8 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'Unknown key falls back to bracket-wrapped key'
 		);
 		$this->expectOutputString(
-			'Notice: [Intuition::msg] Message "r4nd0mstr1n9" for lang "en" in domain "general" not found.'
+			'Notice: [Krinkle\Intuition\Intuition::msg] ' .
+				'Message "r4nd0mstr1n9" for lang "en" in domain "general" not found.'
 		);
 	}
 

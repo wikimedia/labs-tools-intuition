@@ -7,6 +7,11 @@
  * @package intuition
  */
 
+namespace Krinkle\Intuition;
+
+use Krinkle\Intuition\Util as IntuitionUtil;
+use MessagesFunctions;
+
 // Protect against invalid entry
 if ( !defined( 'INTUITION' ) ) {
 	echo "This file is not a valid entry point\n";
@@ -156,7 +161,7 @@ class Intuition {
 		// Allow a tool to disable the loading of global functions,
 		// in case they have a _() and/or _e() already.
 		if ( $options['globalfunctions'] === true ) {
-			require_once $this->localBaseDir . '/includes/Functions.php';
+			require_once $this->localBaseDir . '/src/Functions.php';
 		}
 
 		// Allow a tool to suppress fatals, which hide php fatal errors.
@@ -338,7 +343,6 @@ class Intuition {
 	 */
 	protected function getMessagesFunctions() {
 		if ( $this->messagesFunctions == null ) {
-			require_once $this->localBaseDir . '/language/MessagesFunctions.php';
 			$this->messagesFunctions = MessagesFunctions::getInstance( $this->localBaseDir, $this );
 		}
 		return $this->messagesFunctions;

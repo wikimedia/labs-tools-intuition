@@ -52,7 +52,7 @@ if ( !in_array( $env, array( 'mw', 'standalone' ) ) ) {
 }
 
 
-$jsEnvFile = dirname( __DIR__ ) . '/includes/js-env/intuition-' . $env . '.js';
+$jsEnvFile = dirname( __DIR__ ) . '/js-env/intuition-' . $env . '.js';
 if ( !is_readable( $jsEnvFile ) ) {
 	// HTTP 500 Internal Server Error
 	http_response_code( 500 );

@@ -1,24 +1,14 @@
 <?php
-/**
- * Primary entry point for the back-end.
- *
- * @copyright 2011-2014 See AUTHORS.txt
- * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package intuition
- */
+require_once __DIR__ . '/src/defines.php';
 
-/**
- * This file loads everything the individual tools need.
- */
+use Krinkle\Intuition\Intuition;
+use Krinkle\Intuition\Util;
 
-// This is a valid entry, define
-define( 'INTUITION', __DIR__ );
-
-// Files
-require_once __DIR__ . '/includes/Defines.php';
-require_once __DIR__ . '/includes/IntuitionUtil.php';
-require_once __DIR__ . '/includes/Intuition.php';
-
-// Backwards compatibility
-class_alias( 'IntuitionUtil', 'TsIntuitionUtil' );
-class_alias( 'Intuition', 'TsIntuition' );
+// Kept for backwards-compatibility with older tools on
+// Wikimedia Tool Labs not yet using Composer.
+// .. rename from TsIntuition to Intuition in v0.1.3.
+class_alias( Intuition::class, 'TsIntuition' );
+class_alias( Util::class, 'TsIntuitionUtil' );
+// .. rename from Intuition to Krinkle\Intuition\Intuition in v1.0.0.
+class_alias( Intuition::class, 'Intuition' );
+class_alias( Util::class, 'IntuitionUtil' );

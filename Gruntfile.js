@@ -30,7 +30,7 @@ module.exports = function (grunt) {
 			options: {
 				jshintrc: true
 			},
-			all: ['*.js', 'includes/js-env/*.js', 'public_html/*.js']
+			all: ['*.js', '{js-env,public_html}/*.js']
 		},
 		jscs: {
 			all: '<%= jshint.all %>'
