@@ -76,6 +76,8 @@ class Util {
 	 * A return version of var_dump().
 	 * Optionally html-escaped and wrapped in a <pre>-tag.
 	 *
+	 * @codeCoverageIgnore
+	 * @deprecated
 	 * @return string
 	 */
 	public static function returnDump( $var, $html = true ) {
@@ -131,11 +133,13 @@ class Util {
 		// Implementation based on MediaWiki 1.21's WebRequest::getAcceptLang
 		// Which is based on http://www.thefutureoftheweb.com/blog/use-accept-language-header
 
+		// @codeCoverageIgnoreStart
 		if ( $rawList === false ) {
 			$rawList = isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) ?
 				$_SERVER['HTTP_ACCEPT_LANGUAGE'] :
 				'';
 		}
+		// @codeCoverageIgnoreEnd
 
 		// Return the language codes in lower case
 		$rawList = strtolower( $rawList );
@@ -189,9 +193,11 @@ class Util {
 		static $urlProtocols = false;
 		if ( !$urlProtocols ) {
 			// Allow custom protocols
+			// @codeCoverageIgnoreStart
 			if ( function_exists( 'wfUrlProtocols' ) ) {
 				$urlProtocols = wfUrlProtocols();
 			} else {
+				// @codeCoverageIgnoreEnd
 				$urlProtocols = 'https?:\/\/|ftp:\/\/';
 			}
 		}
@@ -217,9 +223,11 @@ class Util {
 	private static function parseExternalLinkArray( $bits ) {
 		static $counter = 0;
 
+		// @codeCoverageIgnoreStart
 		if ( $bits[1] != '' ) {
 			return $bits[1];
 		}
+		// @codeCoverageIgnoreEnd
 
 		if ( isset( $bits[4] ) && $bits[4] != '' ) {
 			return '<a href="' . $bits[2] . '">' . $bits[4] . '</a>';
