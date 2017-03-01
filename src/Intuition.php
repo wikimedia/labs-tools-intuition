@@ -33,8 +33,8 @@ class Intuition {
 
 	public $version = '0.4.0';
 
-	// URL to where intuition-web is installed (must end in a slash)
-	public $dashboardHome = '//tools.wmflabs.org/intuition/';
+	// URL to where intuition-web is installed
+	public $dashboardHome = '//tools.wmflabs.org/intuition';
 
 	// Constructor options
 	protected $currentDomain;
@@ -1105,8 +1105,10 @@ class Intuition {
 			'returnto' => $_SERVER['SCRIPT_NAME'],
 			'returntoquery' => http_build_query( $_GET ),
 		);
-		$p = http_build_query( $p );
-		return "{$this->dashboardHome}?$p#tab-settingsform";
+		return rtrim( $this->dashboardHome, '/' )
+			. '/'
+			. http_build_query( $p )
+			. '#tab-settingsform';
 	}
 
 	/* Redirect functions
