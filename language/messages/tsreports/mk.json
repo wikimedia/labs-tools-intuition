@@ -40,7 +40,7 @@
 	"report_first_run": "Пријавава се создава за првпат, па затоа нема податоци на располагање.",
 	"report_last_run_duration": "Пријавава е создадена за %(duration)s.",
 	"report_variables_used": "За создавањаето на пријавава се искористени следниве променливи.",
-	"report_noresults": "За жал, пријавава не даде никакви резултати.",
+	"report_noresults": "За жал, пријавава не даде никаков исход.",
 	"report_change_report": "<a href=\"%(url)s\">Смени пријава</a>",
 	"report_change_wiki": "<a href=\"%(url)s\">Смени вики</a>"
 }
