@@ -18,10 +18,10 @@
 		"php": ">=5.5"
 	},
 	"require-dev": {
-		"jakub-onderka/php-parallel-lint": "0.*",
-		"squizlabs/php_codesniffer": "2.1.*",
-		"phpunit/phpunit": "3.7.*",
-		"mediawiki/mediawiki-codesniffer": "0.1.0"
+		"jakub-onderka/php-parallel-lint": "0.9.*",
+		"squizlabs/php_codesniffer": "2.3.*",
+		"phpunit/phpunit": "5.7.*",
+		"mediawiki/mediawiki-codesniffer": "0.5.0"
 	},
 	"scripts": {
 		"test": [
@@ -29,6 +29,9 @@
 			"phpunit",
 			"phpcs . --extensions=php --standard=tests/codesniffer --ignore=vendor/*,node_modules/*,language/*",
 			"npm install && npm test"
+		],
+		"cover": [
+			"phpunit --coverage-html coverage/"
 		]
 	}
 }

@@ -407,7 +407,6 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::getDomainInfo
-	 * @covers Intuition::getDomainDir
 	 */
 	public function testGetDomainInfo() {
 		$this->assertEquals(
@@ -439,5 +438,26 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		$precompiled = $this->i18n->getAvailableLangs();
 		$langlist = $this->i18n->generateLanguageList();
 		$this->assertEquals( $langlist, $precompiled, 'Precompiled language list is up-to-date' );
+	}
+
+	/**
+	 * @covers Intuition::getDashboardReturnToUrl
+	 */
+	public function testDashboardReturnToUrl() {
+		$_SERVER['SCRIPT_NAME'] = '/example/index.php';
+		$_GET = [];
+		$this->assertEquals(
+			'//tools.wmflabs.org/intuition/?returnto=' .
+				'%2Fexample%2Findex.php&returntoquery=#tab-settingsform',
+			$this->i18n->getDashboardReturnToUrl()
+		);
+
+		$_SERVER['SCRIPT_NAME'] = '/example/index.php';
+		$_GET = [ 'foo' => 'bar' ];
+		$this->assertEquals(
+			'//tools.wmflabs.org/intuition/?returnto=' .
+				'%2Fexample%2Findex.php&returntoquery=foo%3Dbar#tab-settingsform',
+			$this->i18n->getDashboardReturnToUrl()
+		);
 	}
 }

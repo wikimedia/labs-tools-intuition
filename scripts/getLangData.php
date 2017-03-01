@@ -10,18 +10,18 @@
 if ( !isset( $argv[1] ) || strpos( $argv[1], '/messages' ) === false ) {
 	$scriptName = basename( __FILE__ );
 	echo "usage: php $scriptName <dir>\n\n  <dir>  The path to mediawiki/languages/messages\n";
-	exit(1);
+	exit( 1 );
 }
 $msgDir = $argv[1];
 if ( !is_readable( $msgDir ) ) {
 	echo "error: Path to languages/messages not found\n";
-	exit(1);
+	exit( 1 );
 }
 
 $dest = dirname( __DIR__ ) . '/language';
 if ( !is_writable( $dest ) ) {
 	echo "error: Unable to write to $dest\n";
-	exit(1);
+	exit( 1 );
 }
 
 $data = array(
@@ -60,12 +60,12 @@ $destFile = "$dest/fallbacks.json";
 $written = file_put_contents( $destFile, json_encode( $data['fallbacks'], JSON_PRETTY_PRINT ) );
 if ( !$written ) {
 	echo "error: Failed to write $destFile\n";
-	exit(1);
+	exit( 1 );
 }
 
 $destFile = "$dest/rtl.json";
 $written = file_put_contents( $destFile, json_encode( $data['rtl'], JSON_PRETTY_PRINT ) );
 if ( !$written ) {
 	echo "error: Failed to write $destFile\n";
-	exit(1);
+	exit( 1 );
 }

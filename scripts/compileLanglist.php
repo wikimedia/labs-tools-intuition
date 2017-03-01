@@ -10,7 +10,7 @@
 $dest = dirname( __DIR__ ) . '/language';
 if ( !is_writable( $dest ) ) {
 	echo "error: Unable to write to $dest\n";
-	exit(1);
+	exit( 1 );
 }
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -24,5 +24,5 @@ $destFile = "$dest/langlist.php";
 $written = file_put_contents( $destFile, $code );
 if ( !$written ) {
 	echo "error: Failed to write $destFile\n";
-	exit(1);
+	exit( 1 );
 }

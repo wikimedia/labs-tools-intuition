@@ -620,7 +620,7 @@ class Intuition {
 	 */
 	protected function fetchLangFallbacks() {
 		$file = $this->localBaseDir . '/language/fallbacks.json';
-		if ( !is_file( $file ) || !is_readable( $file )  ) {
+		if ( !is_file( $file ) || !is_readable( $file ) ) {
 			$this->errTrigger( 'Unable to open fallbacks.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return array();
 		}
@@ -1106,7 +1106,7 @@ class Intuition {
 			'returntoquery' => http_build_query( $_GET ),
 		);
 		return rtrim( $this->dashboardHome, '/' )
-			. '/'
+			. '/?'
 			. http_build_query( $p )
 			. '#tab-settingsform';
 	}

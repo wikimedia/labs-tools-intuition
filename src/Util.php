@@ -62,7 +62,7 @@ class Util {
 		if ( !isset( $args[0] ) ) {
 			return false;
 		}
-		foreach ( $args as $arg) {
+		foreach ( $args as $arg ) {
 			if ( !self::nonEmptyStr( $arg ) ) {
 				return false;
 			}
@@ -78,7 +78,7 @@ class Util {
 	 *
 	 * @return string
 	 */
-	public static function returnDump( $var, $html = true) {
+	public static function returnDump( $var, $html = true ) {
 		$dump = null;
 		ob_start();
 		var_dump( $var );
@@ -99,10 +99,10 @@ class Util {
 			if ( is_string( $wrapTag ) ) {
 				$wrapTag = trim( strtolower( $wrapTag ) );
 				$attrString = '';
-				if ( is_array ( $attributes ) ) {
+				if ( is_array( $attributes ) ) {
 					foreach ( $attributes as $attrKey => $attrVal ) {
-						$attrKey = htmlspecialchars( trim( strtolower( $attrKey ) ), ENT_QUOTES);
-						$attrVal = htmlspecialchars( trim( $attrVal ), ENT_QUOTES);
+						$attrKey = htmlspecialchars( trim( strtolower( $attrKey ) ), ENT_QUOTES );
+						$attrVal = htmlspecialchars( trim( $attrVal ), ENT_QUOTES );
 						$attrString .= " $attrKey=\"$attrVal\"";
 					}
 				}
@@ -217,8 +217,9 @@ class Util {
 	private static function parseExternalLinkArray( $bits ) {
 		static $counter = 0;
 
-		if ( $bits[1] != '' )
+		if ( $bits[1] != '' ) {
 			return $bits[1];
+		}
 
 		if ( isset( $bits[4] ) && $bits[4] != '' ) {
 			return '<a href="' . $bits[2] . '">' . $bits[4] . '</a>';
