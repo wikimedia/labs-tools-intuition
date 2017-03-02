@@ -1,3 +1,25 @@
+## v0.5.0 (2017-03-01)
+
+The web service (Tool Labs dashboard) has been moved to a new repository. See <https://github.com/Krinkle/intuition-web>.
+
+The Intuition classes are now namespaced under `Krinkle\Intuition`. The old names have been aliased for backwards-compatibility.
+
+### Enhancements
+* Intuition is now dependency-free!
+* Move Intuition classes to `Krinkle\Intuition` namespace (PSR-4). (issue [#76](https://github.com/Krinkle/intuition/issues/76))
+
+### Bug fixes
+* core: Support 'dashboardHome' without trailing slash.
+
+### Maintenance
+
+* Localisation updates from https://translatewiki.net.
+* build: Remove toollabs-base dependency.
+* build: Switch from jscs/jshint to eslint.
+* build: Update PHPUnit from 3.7 to 4.8.
+* langlist: Recompile.
+* test: Make Util.php code coverage 100%.
+
 ## v0.4.0 (2016-12-22)
 
 ### Enhancements
