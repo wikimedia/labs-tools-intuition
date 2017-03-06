@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"C5st4wr6ch",
-			"Kenrick95"
+			"Kenrick95",
+			"Hidayatsrf"
 		]
 	},
 	"explanation": "penjelasan",
@@ -13,5 +14,6 @@
 	"namespace-label": "Ruang nama",
 	"project-label": "Proyek",
 	"pattern-label": "Pola",
+	"redirects-label": "Kuatkan juga pengalihan",
 	"limit-label": "Batasi tampilan menjadi 100 hasil pertama"
 }

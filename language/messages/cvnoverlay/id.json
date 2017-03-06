@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hidayatsrf"
+		]
+	},
+	"adder-empty": "Tidak diketahui",
+	"expiry": "Kadaluarsa",
+	"globalwatched": "Dipantau secara global",
+	"reason": "Alasan",
+	"reason-empty": "Tidak ada alasan ditemukan"
+}
