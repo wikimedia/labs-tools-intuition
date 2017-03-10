@@ -2970,9 +2970,18 @@ class Language {
 		if ( !count( $forms ) ) {
 			return '';
 		}
+
 		$forms = $this->preConvertPlural( $forms, 2 );
 
-		return ( $count == 1 ) ? $forms[0] : $forms[1];
+		if ( $count == 1 ) {
+			return $forms[0];
+		}
+
+		if ( array_key_exists( $count, $forms ) ) {
+			return $forms[$count];
+		}
+
+		return $forms[1];
 	}
 
 	/**
@@ -2984,10 +2993,17 @@ class Language {
 	 * @return array Padded array of forms or an exception if not an array
 	 */
 	protected function preConvertPlural( /* Array */ $forms, $count ) {
-		while ( count( $forms ) < $count ) {
-			$forms[] = $forms[count( $forms ) - 1];
+		$output[0] = $forms[0];
+		$output[1] = $forms[1];
+
+		foreach ( $forms as $form ) {
+			if ( preg_match( "/\d+=/", $form, $matches ) ) {
+				$number = str_replace( '=', '', $matches[0] );
+				$output[$number] = str_replace( $matches[0], '', $form );
+			}
 		}
-		return $forms;
+
+		return $output;
 	}
 
 	/**

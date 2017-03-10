@@ -118,7 +118,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	public function testMsg() {
 		$this->i18n->setMsgs( array(
 			'welcomeback' => 'Welcome back, $1! Would you like some $2?',
-			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples}}.',
+			'basket' => 'The basket contains {{PLURAL:$1|$1 apple|$1 apples|12=a dozen apples}}.',
 		) );
 
 		$this->assertEquals(
@@ -175,6 +175,12 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'The basket contains 7 apples.',
 			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ), 'parsemag' => true ) ),
 			'Plural with 7'
+		);
+
+		$this->assertEquals(
+			'The basket contains a dozen apples.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '12' ), 'parsemag' => true ) ),
+			'Plural with 12'
 		);
 	}
 
