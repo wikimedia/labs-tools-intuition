@@ -1,3 +1,13 @@
+## v0.5.1 (2017-03-10)
+
+### Enhancements
+
+* core: New dummy language 'qqx' for showing raw message keys. (issue [#79](https://github.com/Krinkle/intuition/issues/79))
+
+### Maintenance
+
+* Localisation updates from https://translatewiki.net.
+
 ## v0.5.0 (2017-03-01)
 
 The web service (Tool Labs dashboard) has been moved to a new repository. See <https://github.com/Krinkle/intuition-web>.
@@ -5,10 +15,12 @@ The web service (Tool Labs dashboard) has been moved to a new repository. See <
 The Intuition classes are now namespaced under `Krinkle\Intuition`. The old names have been aliased for backwards-compatibility.
 
 ### Enhancements
+
 * Intuition is now dependency-free!
 * Move Intuition classes to `Krinkle\Intuition` namespace (PSR-4). (issue [#76](https://github.com/Krinkle/intuition/issues/76))
 
 ### Bug fixes
+
 * core: Support 'dashboardHome' without trailing slash.
 
 ### Maintenance
