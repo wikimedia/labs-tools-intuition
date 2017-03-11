@@ -1,3 +1,9 @@
+## v0.5.2 (2017-03-10)
+
+### Enhancements
+
+* core: Allow setting userlang via POST.
+
 ## v0.5.1 (2017-03-10)
 
 ### Enhancements
