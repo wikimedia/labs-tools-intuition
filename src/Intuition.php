@@ -1248,10 +1248,13 @@ class Intuition {
 			$set = $this->setLang( $option );
 		}
 
-		if ( !$set && $this->getUseRequestParam() === true &&
-			isset( $_GET[ $this->paramNames['userlang'] ] )
-		) {
-			$set = $this->setLang( $_GET[ $this->paramNames['userlang'] ] );
+		if ( !$set && $this->getUseRequestParam() === true ) {
+			$key = $this->paramNames['userlang'];
+			if ( isset( $_GET[ $key ] ) ) {
+				$set = $this->setLang( $_GET[ $key ] );
+			} elseif ( isset( $_POST[ $key ] ) ) {
+				$set = $this->setLang( $_POST[ $key ] );
+			}
 		}
 
 		if ( !$set && isset( $_COOKIE[ $this->cookieNames['userlang'] ] ) ) {
