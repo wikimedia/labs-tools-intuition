@@ -179,6 +179,18 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	}
 
 	/**
+	 * @covers Intuition::msg
+	 * @covers Intuition::rawMsg
+	 */
+	public function testMsgQqx() {
+		$this->assertEquals(
+			'(test-register/foo)',
+			$this->i18n->msg( 'foo', array( 'domain' => 'test-register', 'lang' => 'qqx' ) ),
+			'Qqx message'
+		);
+	}
+
+	/**
 	 * @covers Intuition::registerDomain
 	 */
 	public function testRegisterDomain() {

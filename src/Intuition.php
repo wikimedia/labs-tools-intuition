@@ -79,7 +79,7 @@ class Intuition {
 		'fiu-vro' => 'vro',
 		'no' => 'nb',
 		'qqq' => 'en',
-		'qqx' => 'en',
+		'qqx' => 'qqx', // Hardcoded in rawMsg()
 		'roa-rup' => 'rup',
 		'simple' => 'en',
 		'zh-classical' => 'lzh',
@@ -470,6 +470,10 @@ class Intuition {
 	public function rawMsg( $domain, $lang, $key ) {
 		$domain = $this->normalizeDomain( $domain );
 		$lang = $this->normalizeLang( $lang );
+
+		if ( $lang === 'qqx' ) {
+			return "($domain/$key)";
+		}
 
 		$lang = $this->getLangForMsg( $domain, $lang, $key );
 		return $this->accessBlob( $domain, $lang, $key );
