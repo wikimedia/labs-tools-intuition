@@ -1,6 +1,5 @@
 <?php
 
-require_once( dirname( __FILE__ ) . '/../LanguageConverter.php' );
 require_once( dirname( __FILE__ ) . '/LanguageKk_cyrl.php' );
 
 define( 'KK_C_UC', 'АӘБВГҒДЕЁЖЗИЙКҚЛМНҢОӨПРСТУҰҮФХҺЦЧШЩЪЫІЬЭЮЯ' ); # Kazakh Cyrillic uppercase
@@ -22,7 +21,7 @@ define( 'H_HAMZA', 'ٴ' ); # U+0674 ARABIC LETTER HIGH HAMZA
 class LanguageKk extends LanguageKk_cyrl {
 
 	function __construct() {
-		
+
 		parent::__construct();
 
 		$variants = array( 'kk', 'kk-cyrl', 'kk-latn', 'kk-arab', 'kk-kz', 'kk-tr', 'kk-cn' );

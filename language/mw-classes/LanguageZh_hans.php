@@ -28,20 +28,4 @@ class LanguageZh_hans extends Language {
 		$s = self::insertSpace( $string, $reg );
 		return $s;
 	}
-
-	/**
-	 * @param $s
-	 * @return string
-	 */
-	function normalizeForSearch( $s ) {
-		wfProfileIn( __METHOD__ );
-
-		// Double-width roman characters
-		$s = parent::normalizeForSearch( $s );
-		$s = trim( $s );
-		$s = $this->segmentByWord( $s );
-
-		wfProfileOut( __METHOD__ );
-		return $s;
-	}
 }

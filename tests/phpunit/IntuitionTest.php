@@ -168,10 +168,11 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @covers Intuition::msg
 	 * @covers Intuition::getMessagesFunctions
+	 * @covers MessagesFunctions
 	 */
 	public function testMessagesFunctions() {
 		$this->i18n->setMsgs( array(
-			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples}}.',
+			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples|applex}}.',
 		) );
 
 		$this->assertEquals(
@@ -184,6 +185,36 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'The basket contains 7 apples.',
 			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ) ) ),
 			'Plural (en) with 7'
+		);
+
+		$this->assertEquals(
+			'The basket contains 0 apples.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '0' ) ) ),
+			'Plural (en) with 0 uses plural form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 0 apple.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '0' ), 'lang' => 'fr' ) ),
+			'Plural (fr) with 0 uses singular form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 21 apple.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '21' ), 'lang' => 'ru' ) ),
+			'Plural (ru) with 21 uses singular form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 22 apples.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '22' ), 'lang' => 'ru' ) ),
+			'Plural (ru) with 22 uses paucal@2 form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 7 applex.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ), 'lang' => 'ru' ) ),
+			'Plural (ru) with 7 uses plural@3 form'
 		);
 	}
 
@@ -227,7 +258,6 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	 * See also IntuitionUtilTest for in-depth testing of parseExternalLinks()
 	 *
 	 * @covers Intuition::msg
-	 * @covers Intuition::getMessagesFunctions
 	 */
 	public function testMsgExternalLinks() {
 		$this->i18n->setMsgs( array(
@@ -251,7 +281,6 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	 * See also IntuitionUtilTest for in-depth testing of parseWikiLinks().
 	 *
 	 * @covers Intuition::msg
-	 * @covers Intuition::getMessagesFunctions
 	 */
 	public function testMsgWikiLinks() {
 		$this->i18n->setMsgs( array(

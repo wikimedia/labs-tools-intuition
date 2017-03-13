@@ -48,31 +48,6 @@ class LanguageBe_tarask extends Language {
 	}
 
 	/**
-	 * The Belarusian language uses apostrophe sign,
-	 * but the characters used for this could be both U+0027 and U+2019.
-	 * This function unifies apostrophe sign in search index values
-	 * to enable seach using both apostrophe signs.
-	 *
-	 * @param $string string
-	 *
-	 * @return string
-	 */
-	function normalizeForSearch( $string ) {
-		wfProfileIn( __METHOD__ );
-
-		# MySQL fulltext index doesn't grok utf-8, so we
-		# need to fold cases and convert to hex
-
-		# Replacing apostrophe sign U+2019 with U+0027
-		$s = preg_replace( '/\xe2\x80\x99/', '\'', $string );
-
-		$s = parent::normalizeForSearch( $s );
-
-		wfProfileOut( __METHOD__ );
-		return $s;
-	}
-
-	/**
 	 * Four-digit number should be without group commas (spaces)
 	 * So "1 234 567", "12 345" but "1234"
 	 *

@@ -1,5 +1,4 @@
 <?php
-require_once( dirname( __FILE__ ) . '/../LanguageConverter.php' );
 require_once( dirname( __FILE__ ) . '/LanguageKu_ku.php' );
 
 
@@ -11,7 +10,7 @@ require_once( dirname( __FILE__ ) . '/LanguageKu_ku.php' );
 class LanguageKu extends LanguageKu_ku {
 
 	function __construct() {
-		
+
 		parent::__construct();
 
 		$variants = array( 'ku', 'ku-arab', 'ku-latn' );

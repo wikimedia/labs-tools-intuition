@@ -1,6 +1,5 @@
 <?php
 
-require_once( dirname( __FILE__ ) . '/../LanguageConverter.php' );
 require_once( dirname( __FILE__ ) . '/LanguageSr_ec.php' );
 require_once( dirname( __FILE__ ) . '/LanguageSr_el.php' );
 
@@ -11,7 +10,6 @@ require_once( dirname( __FILE__ ) . '/LanguageSr_el.php' );
  */
 class LanguageSr extends LanguageSr_ec {
 	function __construct() {
-		
 
 		parent::__construct();
 
