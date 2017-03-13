@@ -11,6 +11,10 @@
 	<filter>
 		<whitelist addUncoveredFilesFromWhitelist="true">
 			<directory suffix=".php">./src</directory>
+			<exclude>
+				<file>./src/compat.php</file>
+				<file>./src/defines.php</file>
+			</exclude>
 			<file>./language/MessagesFunctions.php</file>
 		</whitelist>
 	</filter>

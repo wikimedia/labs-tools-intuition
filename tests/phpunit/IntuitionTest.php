@@ -314,6 +314,10 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::registerDomain
+	 * @covers Intuition::ensureLoaded
+	 * @covers Intuition::loadMessageFile
+	 * @covers Intuition::setMsgs
+	 * @covers Intuition::setMsg
 	 */
 	public function testRegisterDomain() {
 		$this->i18n->registerDomain( 'test-register', __DIR__ . '/data/i18n' );
@@ -330,12 +334,58 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'Message in custom domain (custom lang)'
 		);
 
+		$this->assertEquals(
+			'Voerbak',
+			$this->i18n->rawMsg( 'test-register', 'nl', 'foo' ),
+			// Cover when ensureLoaded() returns early
+			'Message in custom domain (custom lang) - cache hit'
+		);
+
 		$this->i18n->registerDomain( 'test-CASE-SENSE', __DIR__ . '/data/i18n' );
 
 		$this->assertEquals(
 			'Lorem ipsum',
 			$this->i18n->rawMsg( 'test-case-sense', 'en', 'lorem' ),
 			'Domain names are registered case-insensitive'
+		);
+	}
+
+	/**
+	 * @covers Intuition::ensureLoaded
+	 */
+	public function testMessageCache() {
+		// When a class loads a domain/language pair
+		// into static messageCache, and another instance
+		// leverages that instead of re-reading from disk.
+		Intuition::clearCache();
+		$int1 = new Intuition( 'general' );
+		$int2 = new Intuition( 'general' );
+
+		$int1->msg( 'hello' );
+		$int2->msg( 'hello' );
+		// No assertions
+	}
+
+	public static function provideEnsureLoaded() {
+		return array(
+			array( '', '', 'empty' ),
+			array( '', 'en', 'empty domain' ),
+			array( 'example', '', 'empty lang' ),
+			array( 'http://', 'en', 'dangerous domain' ),
+			array( 'example', '/etc', 'dangerous lang' ),
+		);
+	}
+	/**
+	 * @dataProvider provideEnsureLoaded
+	 * @covers Intuition::ensureLoaded
+	 */
+	public function testEnsureLoaded( $domain, $lang, $message = null ) {
+		Intuition::clearCache();
+
+		$this->assertEquals(
+			$this->i18n->rawMsg( $domain, $lang, 'msgkey' ),
+			null,
+			$message
 		);
 	}
 
@@ -455,11 +505,16 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->listMsgs( 'test-domain' ),
 			array( 'test-value' )
 		);
+		$this->assertEquals(
+			$this->i18n->listMsgs( 'unknown' ),
+			array()
+		);
 	}
 
 	/**
 	 * @covers Intuition::getLangFallbacks
 	 * @covers Intuition::fetchLangFallbacks
+	 * @covers Intuition::clearCache
 	 */
 	public function testLangFallback() {
 		// Ensure fetchLangFallbacks is tested
@@ -474,7 +529,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::rawMsg
-	 * @covers Intuition::getLangForMsg
+	 * @covers Intuition::accessBlobWithFallback
 	 * @covers Intuition::normalizeLang
 	 */
 	public function testMsgFallback() {

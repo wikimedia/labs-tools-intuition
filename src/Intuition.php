@@ -189,10 +189,11 @@ class Intuition {
 		$this->initHook( $this );
 	}
 
+	/**
+	 * @codeCoverageIgnore
+	 * @param Intuition $intuition
+	 */
 	public function initHook( Intuition $intuition ) {
-		// Version date (default to this file modification time)
-		// Can be overwritten in LocalConfig (ie. from svn info)
-
 		if ( function_exists( 'intuitionHookInit' ) ) {
 			intuitionHookInit( $intuition );
 		} elseif ( function_exists( 'TsIntuition_inithook' ) ) {
@@ -477,8 +478,7 @@ class Intuition {
 			return "($domain/$key)";
 		}
 
-		$lang = $this->getLangForMsg( $domain, $lang, $key );
-		return $this->accessBlob( $domain, $lang, $key );
+		return $this->accessBlobWithFallback( $domain, $lang, $key );
 	}
 
 	/**
@@ -494,6 +494,43 @@ class Intuition {
 			return null;
 		}
 		return $this->messageBlob[$domain][$lang][$key];
+	}
+
+	/**
+	 * Internal method for rawMsg() that handles fallbacks.
+	 *
+	 * If possible, returns the preferred lang right away, otherwise it looks
+	 * for a suitable falback
+	 *
+	 * @param string $domain Normalised domain
+	 * @param string $lang Normalised language code of preferred language
+	 * @param string $key Key of message
+	 * @return string|null
+	 */
+	protected function accessBlobWithFallback( $domain, $lang, $key ) {
+		$this->ensureLoaded( $domain, $lang );
+		$msg = $this->accessBlob( $domain, $lang, $key );
+		if ( $msg === null ) {
+			// Check fallbacks
+			$fallbacks = $this->getLangFallbacks( $lang );
+
+			// @codeCoverageIgnoreStart
+			if ( !in_array( 'en', $fallbacks ) ) {
+				// Ensure 'en' is in the fallback list
+				// (normally added by getLangFallbacks/fetchLangFallbacks)
+				$fallbacks[] = 'en';
+			}
+
+			// @codeCoverageIgnoreEnd
+			foreach ( $fallbacks as $fallbackLang ) {
+				$this->ensureLoaded( $domain, $fallbackLang );
+				$msg = $this->accessBlob( $domain, $fallbackLang, $key );
+				if ( $msg !== null ) {
+					break;
+				}
+			}
+		}
+		return $msg;
 	}
 
 	/**
@@ -725,35 +762,6 @@ class Intuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * Get the language that can be used for a message in a domain.
-	 *
-	 * If possible, returns the preferred lang right away, otherwise it looks
-	 * for a suitable falback
-	 *
-	 * @param string $domain Normalised domain
-	 * @param string $lang Normalised language code of preferred language
-	 * @param string $key Key of message
-	 * @return string
-	 */
-	protected function getLangForMsg( $domain, $lang, $key ) {
-		$this->ensureLoaded( $domain, $lang );
-		if ( isset( $this->messageBlob[$domain][$lang][$key] ) ) {
-			return $lang;
-		}
-
-		// Check fallbacks
-		$fallbacks = $this->getLangFallbacks( $lang );
-		foreach ( $fallbacks as $fallbackLang ) {
-			$this->ensureLoaded( $domain, $fallbackLang );
-			if ( isset( $this->messageBlob[$domain][$fallbackLang][$key] ) ) {
-				return $fallbackLang;
-			}
-		}
-
-		return 'en';
-	}
-
-	/**
 	 * Ensure a domain's language is loaded.
 	 *
 	 * @param string $domain Name of the domain
@@ -778,16 +786,17 @@ class Intuition {
 		$this->loadedDomains[ $domain ][ $lang ] = false;
 
 		if ( !isset( self::$messageCache[ $domain ][ $lang ] ) ) {
+			// Load from disk
 			$domainInfo = $this->getDomainInfo( $domain );
-			if ( !isset( $domainInfo['dir'] ) ) {
+			if ( !$domainInfo ) {
+				// Unknown domain. Perhaps dev-mode only with
+				// messages provided via setMsgs()?
 				return false;
 			}
 			$file = $domainInfo['dir'] . "/$lang.json";
-			$loaded = $this->loadMessageFile( $domain, $lang, $file );
-			if ( !$loaded ) {
-				return false;
-			}
+			$this->loadMessageFile( $domain, $lang, $file );
 		} else {
+			// Load from static cache, e.g. from a previous instance of this class
 			$this->setMsgs( self::$messageCache[ $domain ][ $lang ], $domain, $lang );
 		}
 
@@ -802,16 +811,12 @@ class Intuition {
 	 * @return bool
 	 */
 	public function loadMessageFile( $domain, $lang, $file ) {
-		if ( !is_file( $file ) || !is_readable( $file ) ) {
-			$this->errTrigger( "Unable to open message file \"$file\"",
-				__METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return false;
-		}
-
 		$messages = json_decode( file_get_contents( $file ), /* assoc = */ true );
 		if ( !is_array( $messages ) ) {
+			// @codeCoverageIgnoreStart
 			return false;
 		}
+		// @codeCoverageIgnoreEnd
 		unset( $messages['@metadata'] );
 
 		self::$messageCache[ $domain ][ $lang ] = $messages;
@@ -823,7 +828,7 @@ class Intuition {
 	 * Get information about a domain (if any).
 	 *
 	 * @param string $domain Name of the domain
-	 * @return array|bool
+	 * @return array|bool Array with 'dir' property or false if not found
 	 */
 	public function getDomainInfo( $domain ) {
 		$domain = $this->normalizeDomain( $domain );
