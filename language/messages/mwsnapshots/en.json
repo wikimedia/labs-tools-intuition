@@ -7,7 +7,6 @@
 	"updatelog-active": "The update script is currently running. Come back later for the complete log.",
 	"title-download": "$1",
 	"download-button": "Download snapshot",
-	"download-directlink": "direct link",
 	"title-downloadpage": "Download",
 	"title-downloadpage-repo": "Download $1",
 	"err-snapshotindex": "Snapshot index temporarily unavailable. Please try again later.",
