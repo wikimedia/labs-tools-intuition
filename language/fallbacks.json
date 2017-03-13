@@ -11,6 +11,7 @@
     "arq": "ar",
     "arz": "ar",
     "ast": "es",
+    "atj": "fr",
     "av": "ru",
     "ay": "es",
     "azb": "fa",
@@ -100,6 +101,7 @@
     ],
     "kbd": "kbd-cyrl",
     "kbd-cyrl": "ru",
+    "kbp": "fr",
     "khw": "ur",
     "kiu": "tr",
     "kk": "kk-cyrl",
@@ -211,12 +213,18 @@
         "hr"
     ],
     "sk": "cs",
+    "skr": "skr-arab",
+    "skr-arab": [
+        "ur",
+        "pnb"
+    ],
     "sli": "de",
     "sr": "sr-ec",
     "srn": "nl",
     "stq": "de",
     "su": "id",
     "szl": "pl",
+    "tay": "zh-hant",
     "tcy": "kn",
     "tg": "tg-cyrl",
     "tt": [
