@@ -31,7 +31,7 @@ class Intuition {
 
 	public $localBaseDir;
 
-	public $version = '0.5.2';
+	public $version = '0.5.3';
 
 	// URL to where intuition-web is installed
 	public $dashboardHome = '//tools.wmflabs.org/intuition';

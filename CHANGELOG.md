@@ -1,3 +1,9 @@
+## v0.5.3 (2017-03-13)
+
+### Maintenance
+
+* Update `rtl` and `fallback` language data from 2015-03-17 to 2017-03-13.
+
 ## v0.5.2 (2017-03-10)
 
 ### Enhancements
