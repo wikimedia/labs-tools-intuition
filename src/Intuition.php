@@ -405,8 +405,10 @@ class Intuition {
 		// If $options is still not an array, ignore it and use default
 		// Otherwise merge the options with the defaults.
 		if ( !is_array( $options ) ) {
+			// @codeCoverageIgnoreStart
 			$options = $defaultOptions;
 		} else {
+			// @codeCoverageIgnoreEnd
 			$options = array_merge( $defaultOptions, $options );
 		}
 
@@ -624,16 +626,14 @@ class Intuition {
 	 */
 	protected function fetchLangFallbacks() {
 		$file = $this->localBaseDir . '/language/fallbacks.json';
+		// @codeCoverageIgnoreStart
 		if ( !is_file( $file ) || !is_readable( $file ) ) {
 			$this->errTrigger( 'Unable to open fallbacks.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 			return array();
 		}
+		// @codeCoverageIgnoreEnd
 
-		$fallbacks = json_decode( file_get_contents( $file ), true );
-		if ( !$fallbacks ) {
-			$this->errTrigger( 'Unable to parse fallbacks.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
-			return array();
-		}
+		$fallbacks = json_decode( file_get_contents( $file ), true ) ?: array();
 
 		foreach ( $fallbacks as &$fallback ) {
 			// Expand string values to arrays
@@ -669,11 +669,13 @@ class Intuition {
 		// Lazy-load and cache
 		if ( $this->langNames === null ) {
 			$path = $this->localBaseDir . '/language/mw-classes/Names.php';
+			// @codeCoverageIgnoreStart
 			if ( !is_file( $path ) || !is_readable( $path ) ) {
 				$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
 				$this->langNames = array();
 				return array();
 			}
+			// @codeCoverageIgnoreEnd
 
 			// Load it
 			$coreLanguageNames = array();

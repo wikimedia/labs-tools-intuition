@@ -118,7 +118,6 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	public function testMsg() {
 		$this->i18n->setMsgs( array(
 			'welcomeback' => 'Welcome back, $1! Would you like some $2?',
-			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples}}.',
 		) );
 
 		$this->assertEquals(
@@ -164,17 +163,111 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->msg( 'welcomeback', array( 'variables' => array( 'John', 'coffee' ) ) ),
 			'Replacing 2 veriables'
 		);
+	}
+
+	/**
+	 * @covers Intuition::msg
+	 * @covers Intuition::getMessagesFunctions
+	 */
+	public function testMessagesFunctions() {
+		$this->i18n->setMsgs( array(
+			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples}}.',
+		) );
 
 		$this->assertEquals(
 			'The basket contains 1 apple.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '1' ), 'parsemag' => true ) ),
-			'Plural with 1'
+			$this->i18n->msg( 'basket', array( 'variables' => array( '1' ) ) ),
+			'Plural (en) with 1'
 		);
 
 		$this->assertEquals(
 			'The basket contains 7 apples.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ), 'parsemag' => true ) ),
-			'Plural with 7'
+			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ) ) ),
+			'Plural (en) with 7'
+		);
+	}
+
+	/**
+	 * See also IntuitionUtilTest for more testing of strEscape()
+	 *
+	 * @covers Intuition::msg
+	 */
+	public function testMsgEscape() {
+		$this->i18n->setMsgs( array(
+			'example' => 'l&<€ and $1',
+		) );
+
+		$this->assertEquals(
+			'l&<€ and &',
+			$this->i18n->msg( 'example', array( 'variables' => array( '&' ) ) ),
+			'Default (no escaping)'
+		);
+
+		$this->assertEquals(
+			'l&amp;&lt;€ and &amp;',
+			$this->i18n->msg( 'example', array(
+				'variables' => array( '&' ),
+				'escape' => 'html',
+			) ),
+			'HTML escaped'
+		);
+
+		$this->assertEquals(
+			'l&amp;&lt;€ and &',
+			$this->i18n->msg( 'example', array(
+				'variables' => array( '&' ),
+				'raw-variables' => true,
+				'escape' => 'html',
+			) ),
+			'HTML escaped (raw variables)'
+		);
+	}
+
+	/**
+	 * See also IntuitionUtilTest for in-depth testing of parseExternalLinks()
+	 *
+	 * @covers Intuition::msg
+	 * @covers Intuition::getMessagesFunctions
+	 */
+	public function testMsgExternalLinks() {
+		$this->i18n->setMsgs( array(
+			'example' => 'The message with an [https://example.org link].',
+		) );
+
+		$this->assertEquals(
+			'The message with an [https://example.org link].',
+			$this->i18n->msg( 'example' ),
+			'Default (no link expansion)'
+		);
+
+		$this->assertEquals(
+			'The message with an <a href="https://example.org">link</a>.',
+			$this->i18n->msg( 'example', array( 'externallinks' => true ) ),
+			'Expanded with externallinks=true'
+		);
+	}
+
+	/**
+	 * See also IntuitionUtilTest for in-depth testing of parseWikiLinks().
+	 *
+	 * @covers Intuition::msg
+	 * @covers Intuition::getMessagesFunctions
+	 */
+	public function testMsgWikiLinks() {
+		$this->i18n->setMsgs( array(
+			'example' => 'The message with an [[Example|link]].',
+		) );
+
+		$this->assertEquals(
+			'The message with an [[Example|link]].',
+			$this->i18n->msg( 'example' ),
+			'Default (no link expansion)'
+		);
+
+		$this->assertEquals(
+			'The message with an <a href="/wiki/Example">link</a>.',
+			$this->i18n->msg( 'example', array( 'wikilinks' => '/wiki/$1' ) ),
+			'Expanded with wikilinks="/wiki/$1"'
 		);
 	}
 
@@ -307,6 +400,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::getLangName
+	 * @covers Intuition::getLangNames
 	 */
 	public function testGetLangName() {
 		$this->assertEquals(
