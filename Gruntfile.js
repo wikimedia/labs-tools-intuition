@@ -18,7 +18,17 @@ module.exports = function (grunt) {
   fs.readdirSync(msgDir).forEach(function (file) {
     var stats = fs.statSync(path.join(msgDir, file));
     if (stats.isDirectory()) {
-      domainDirs[file] = 'language/messages/' + file + '/';
+      if (['commonshelper2', 'mwsnapshots', 'raun', 'voiceintro'].indexOf(file) === -1) {
+        domainDirs[file] = 'language/messages/' + file + '/';
+      } else {
+        // Allow incomplete documentation for now (issue #41)
+        domainDirs[file] = {
+          src: 'language/messages/' + file + '/',
+          options: {
+            requireCompleteMessageDocumentation: false
+          }
+        };
+      }
     }
   });
 
@@ -35,5 +45,5 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('default', ['eslint', 'jsonlint']);
+  grunt.registerTask('default', ['eslint', 'jsonlint', 'banana']);
 };
