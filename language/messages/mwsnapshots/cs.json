@@ -13,7 +13,6 @@
 	"updatelog-intro": "Aktualizační skript je vykonáván každou hodinu. Níže je vypsán výstup z posledního spuštění.",
 	"updatelog-active": "Aktualizační skript běží. Pro kompletní protokol si zobrazte stránku později.",
 	"download-button": "Stáhnout snímek",
-	"download-directlink": "Přímý odkaz",
 	"title-downloadpage": "Stáhnout",
 	"title-downloadpage-repo": "Stáhnout $1",
 	"err-snapshotindex": "Index snapshotu je dočasně nedostupný. Zkuste to prosím později.",

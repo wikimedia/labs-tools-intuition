@@ -9,7 +9,6 @@
 	"title-error": "Xato",
 	"title-updatelog": "Yangilash qaydlari",
 	"download-button": "$1ni yuklash",
-	"download-directlink": "bevosita havola",
 	"title-downloadpage": "Yuklash: $1",
 	"err-snapshotindex": "Surat indeksiga vaqtincha ruxsat yoʻq. Iltimos, keyinroq urinib koʻring.",
 	"err-invalid-repo": "Nomaʼlum repozitoriy: \"$1\".",

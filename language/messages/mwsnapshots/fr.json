@@ -11,7 +11,6 @@
 	"updatelog-intro": "Le script de mise à jour est programmé pour s'exécuter toutes les heures. Voici ci-dessous la sortie de la console de la dernière exécution.",
 	"updatelog-active": "Le script de mise à jour est en cours d'exécution. Revenez plus tard pour le journal complet.",
 	"download-button": "Télécharger l’image instantanée",
-	"download-directlink": "lien direct",
 	"title-downloadpage": "Télécharger",
 	"title-downloadpage-repo": "Télécharger $1",
 	"err-snapshotindex": "Index d'instantané temporairement indisponible. Veuillez réessayer ultérieurement.",

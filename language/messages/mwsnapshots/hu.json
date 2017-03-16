@@ -11,7 +11,6 @@
 	"updatelog-intro": "A frissítést végző parancsfájl óránként fut le. Alább megtalálod a legutóbbi futtatás konzol outputját.",
 	"updatelog-active": "A frissítést végző parancsfájl jelenleg fut. Gyere vissza később a teljes naplóért.",
 	"download-button": "Pillanatfelvétel letöltése",
-	"download-directlink": "közvetlen hivatkozás",
 	"title-downloadpage": "Letöltés",
 	"title-downloadpage-repo": "$1 letöltése",
 	"err-snapshotindex": "A pillantfelvétel index iőlegesen nem áll rendelkezésre. Kérjük próbáld meg később!",

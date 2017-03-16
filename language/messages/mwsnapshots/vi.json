@@ -10,7 +10,6 @@
 	"updatelog-intro": "Kịch bản cập nhật được dự định để chạy mỗi giờ một lần. Dưới đây là kết quả trên bảng kiểm soát từ lần chạy vừa rồi.",
 	"updatelog-active": "Kịch bản hiện đang chạy. Hãy trở lại sau để xem nhật trình đầy đủ.",
 	"download-button": "Tải về ảnh chụp nhanh",
-	"download-directlink": "liên kết trục tiếp",
 	"title-downloadpage": "Tải về",
 	"title-downloadpage-repo": "Tải về $1",
 	"err-snapshotindex": "Chỉ mục ảnh chụp nhanh tạm không hoạt động. Xin vui lòng thử lại sau.",

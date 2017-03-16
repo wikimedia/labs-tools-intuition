@@ -12,7 +12,6 @@
 	"updatelog-intro": "O script de atualização está programado para ser executado a cada hora. A seguir, o resultado do console após a última execução.",
 	"updatelog-active": "O script de atualização está sendo executado. Volte mais tarde para ver o registro completo.",
 	"download-button": "Baixar snapshot",
-	"download-directlink": "link direto",
 	"title-downloadpage": "Baixar",
 	"title-downloadpage-repo": "Baixar $1",
 	"err-snapshotindex": "O índice de instantâneas está temporariamente indisponível. Tente novamente mais tarde.",

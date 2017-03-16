@@ -14,7 +14,6 @@
 	"updatelog-intro": "更新腳本安排為每小時執行。下方為最後一次執行的控制台輸出結果。",
 	"updatelog-active": "更新腳本目前執行中。要查看完整記錄請稍後。",
 	"download-button": "下載快照",
-	"download-directlink": "直接連結",
 	"title-downloadpage": "下載",
 	"title-downloadpage-repo": "下載：$1",
 	"err-snapshotindex": "快照索引暫時無法使用。請稍後再試。",

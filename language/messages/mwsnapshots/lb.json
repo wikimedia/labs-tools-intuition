@@ -11,7 +11,6 @@
 	"updatelog-intro": "Den Aktualisatiounsscript ass fir all Stonn programméiert. Hei drënner stinn d'Informatiounen iwwer déi lescht Kéier wou dat funktionéiert huet,",
 	"updatelog-active": "Den Aktualisatiouns-Script leeft elo. Kommt méi spéit zréck fir de komplette Log ze gesinn.",
 	"download-button": "Snapshot eroflueden",
-	"download-directlink": "direkte Link",
 	"title-downloadpage": "Eroflueden",
 	"title-downloadpage-repo": "$1 eroflueden",
 	"err-nosnapshot": "Snapshots ginn all puer Stonne generéiert. Wéi de Snapshot fir \"$1\" generéiert gouf ass e Feeler geschitt. Probéiert méi w.e.g. nach eng Kéier.",

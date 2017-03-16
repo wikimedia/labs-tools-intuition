@@ -12,7 +12,6 @@
 	"updatelog-intro": "更新脚本每小时运行一次。下面是最后一次运行的控制台输出。",
 	"updatelog-active": "更新脚本正在运行。稍后回来查看完整日志。",
 	"download-button": "下载快照",
-	"download-directlink": "直接链接",
 	"title-downloadpage": "下载",
 	"title-downloadpage-repo": "下载$1",
 	"err-snapshotindex": "快照索引暂时不可用。请稍后再试。",

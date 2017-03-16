@@ -12,7 +12,6 @@
 	"updatelog-intro": "Ël copion d'agiornament a l'é programà për marcé tute j'ore. Sì-sota a-i é la surtìa dla plancia dl'ùltima esecussion.",
 	"updatelog-active": "Ël copion d'agiornament a l'é an camin ch'a marcia. Ch'a torna pi tard për ël registr complet.",
 	"download-button": "Dëscaria $1",
-	"download-directlink": "liura direta",
 	"title-downloadpage": "Dëscaria: $1",
 	"err-snapshotindex": "Tàula dle fòto al moment nen disponìbij. Për piasì, ch'a preuva torna pi tard.",
 	"err-invalid-repo": "Depòsit pa conossù: \"$1\".",

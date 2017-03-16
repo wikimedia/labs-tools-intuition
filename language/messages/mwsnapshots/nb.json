@@ -12,7 +12,6 @@
 	"updatelog-intro": "Oppdateringsskriptet kjøres hver time. Nedenfor er konsollresultatet fra forrige kjøring.",
 	"updatelog-active": "Oppdateringsskriptet kjører akkurat nå. Kom tilbake senere for en komplett logg.",
 	"download-button": "Last ned øyeblikksbilde",
-	"download-directlink": "direktelenke",
 	"title-downloadpage": "Last ned",
 	"title-downloadpage-repo": "Last ned $1",
 	"err-snapshotindex": "Indeksen over øyeblikksbilder er midlertidig utilgjengelig. Prøv igjen senere.",

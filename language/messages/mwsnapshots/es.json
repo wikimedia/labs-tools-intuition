@@ -13,7 +13,6 @@
 	"updatelog-intro": "La secuencia de comandos (script) de actualización está programada para ejecutarse cada hora. A continuación está el resultado de la consola tras la última ejecución.",
 	"updatelog-active": "La secuencia de comandos (script) de actualización se está ejecutando actualmente. Vuelve más tarde para ver el registro completo.",
 	"download-button": "Descargar instantánea",
-	"download-directlink": "enlace directo",
 	"title-downloadpage": "Descargar",
 	"title-downloadpage-repo": "Descargar $1",
 	"err-snapshotindex": "Índice de instantáneas no disponible temporalmente. Inténtalo de nuevo más tarde.",

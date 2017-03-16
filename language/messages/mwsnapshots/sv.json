@@ -11,7 +11,6 @@
 	"updatelog-intro": "Uppdateringsskriptet har schemalagts att köra varje timme. Nedan är konsolproduktionen från den senaste körningen.",
 	"updatelog-active": "Uppdateringsskriptet körs för närvarande. Kom tillbaka senare för den kompletta loggen.",
 	"download-button": "Ladda ned ögonblicksbild",
-	"download-directlink": "direktlänk",
 	"title-downloadpage": "Ladda ned",
 	"title-downloadpage-repo": "Ladda ned $1",
 	"err-snapshotindex": "Indexet över ögonblicksbilder är tillfälligt otillgänligt. Vänligen försök igen senare.",

@@ -10,7 +10,6 @@
 	"updatelog-intro": "更新スクリプトを毎時間実行するようスケジュールされています。下記は前回の実行でのコンソール出力です。",
 	"updatelog-active": "更新スクリプトを現在実行中です。あとで完了記録を確認してください。",
 	"download-button": "スナップショットをダウンロード",
-	"download-directlink": "直接リンク",
 	"title-downloadpage": "ダウンロード",
 	"title-downloadpage-repo": "$1 のダウンロード",
 	"err-snapshotindex": "スナップショットのインデックスは一時的に利用できません。あとでもう一度やり直してください。",

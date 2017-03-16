@@ -4,11 +4,22 @@
 			"Hidayatsrf"
 		]
 	},
+	"title": "Pengecekan transklusi dan pranala templat",
 	"form-label-language": "Bahasa:",
 	"form-label-template": "Nama templat:",
 	"form-label-template2": "(termasuk ruangnama)",
+	"form-label-complete": "Dapatkan laporan lengkap",
+	"feedback-template-missing": "Templat $1 tidak ada.",
 	"feedback-result": "Hasil untuk $1",
+	"feedback-header-mismatch": "Ketidakcocokanan antara transklusi dan pranala",
+	"feedback-header-no-link": "Transklusi tetapi tanpa pranala",
+	"feedback-header-no-transclusion": "Pranala tetapi tanpa transklusi",
+	"feedback-header-redirects": "Pranala ke pengalihan",
+	"feedback-total-count": "Tota: $1",
+	"feedback-header-transclusions": "Transklusi templat",
+	"feedback-header-links": "Pranala dari templat",
 	"link-edit": "sunting",
 	"link-create": "buat",
-	"link-complete": "Laporan lengkap..."
+	"link-complete": "Laporan lengkap...",
+	"error-language": "Kode bahasa tidak dikenali"
 }

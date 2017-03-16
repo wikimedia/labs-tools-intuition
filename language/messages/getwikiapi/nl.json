@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Krinkle"
 		]
 	},
 	"description": "Metainformatie over wiki's van Wikimedia.",
@@ -9,5 +10,5 @@
 	"input": "Invoer",
 	"label-wikiids": "Wiki-ID's",
 	"no-matches": "Geen resultaten voor \"$1\"",
-	"output": "Uitvoer voor \"$1\""
+	"output": "Resultaten voor \"$1\""
 }

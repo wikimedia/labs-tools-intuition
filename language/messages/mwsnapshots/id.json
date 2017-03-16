@@ -11,7 +11,6 @@
 	"updatelog-intro": "Skrip pemutakhiran dijadwalkan beroperasi setiap jam. Berikut adalah keluaran konsol operasi terakhir.",
 	"updatelog-active": "Skrip pemutakhiran sedang berjalan. Silakan kembali lagi nanti untuk log lengkapnya.",
 	"download-button": "Unduh $1",
-	"download-directlink": "tautan langsung",
 	"title-downloadpage": "Unduh",
 	"title-downloadpage-repo": "Unduh $1",
 	"err-snapshotindex": "Indeks cuplikan sementara  tidak tersedia. Silakan coba lagi nanti.",

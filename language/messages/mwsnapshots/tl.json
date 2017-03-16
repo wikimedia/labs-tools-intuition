@@ -10,7 +10,6 @@
 	"updatelog-intro": "Ang panitik ng pagsasapanahon ay nakatakdang umandor tuwing isang oras. Nasa ibaba ang lumabas sa entrepanyo mula sa huling pag-andar.",
 	"updatelog-active": "Kasalukuyang umaandar ang panitik na pangpagsasapanahon. Bumalik mamaya para sa buong pagtatala.",
 	"download-button": "Ikargang paibaba ang $1",
-	"download-directlink": "tuwirang kawing",
 	"title-downloadpage": "Ikargang paibaba: $1",
 	"err-snapshotindex": "Pansamantalang hindi makuha ang talatuntunan ng kuha ng kamera. Subukan na lang ulit mamaya.",
 	"err-invalid-repo": "Hindi nakikilalang taguan: \"$1\".",
