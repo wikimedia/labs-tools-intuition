@@ -1,3 +1,12 @@
+## v0.5.4 (2017-03-16)
+
+### Maintenance
+
+* build: Enforce banana checker.
+* Localisation updates from https://translatewiki.net.
+* rtrc: Add new messages.
+* test: Improve overall code coverage.
+
 ## v0.5.3 (2017-03-13)
 
 ### Maintenance
