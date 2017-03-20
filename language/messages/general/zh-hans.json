@@ -17,6 +17,7 @@
 	"toolversion": "版本 $1",
 	"toolversionstamp": "版本 $1 ($2)",
 	"etc": "等。",
+	"colon-separator": "：",
 	"namespace": "名字空间",
 	"form-submit": "提交",
 	"form-reset": "重置",

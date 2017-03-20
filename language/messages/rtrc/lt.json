@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zygimantus"
+			"Zygimantus",
+			"Nersip"
 		]
 	},
 	"apply": "Taikyti",
@@ -13,14 +14,18 @@
 	"cvn-reason-empty": "Nerasta priežastis",
 	"desc": "Mažėjančiai",
 	"documentation": "Dokumentacija",
+	"feedback": "Atsiliepimas",
 	"filter": "Filtras",
 	"help": "Pagalba",
 	"helpicon-tooltip": "Sužinokite daugiau apie šią funkciją",
 	"lastupdate-cvn": "Paskutinis atnaujinimas: $1",
 	"lastupdate-rc": "Paskutinis atnaujinimas: $1",
 	"legend": "Paaiškinimai",
+	"license": "Licencija",
 	"limit": "Riba",
+	"mark": "pažymėti",
 	"namespace": "Vardų sritis",
+	"new-short": "naujas",
 	"order": "Tvarka",
 	"pause": "Pauzė",
 	"reload-interval": "Intervalas",
