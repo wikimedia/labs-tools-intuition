@@ -4,7 +4,8 @@
 			"Bluemersen",
 			"Revi",
 			"아라",
-			"Ykhwong"
+			"Ykhwong",
+			"Idh0854"
 		]
 	},
 	"title_xtools": "X!의 도구",
@@ -24,7 +25,7 @@
 	"tool_autoblock": "자동차단",
 	"tool_adminstats": "관리자 통계",
 	"tool_ec_desc": "사용자 기여 분석",
-	"tool_blame_desc": "문서 역사에서 특정 문구가 추가된 시점을 추적",
+	"tool_blame_desc": "문자의 추가 시점을 문서 역사에서 찾기",
 	"tool_articleinfo_desc": "문서 역사에 대한 다양한 통계 보기",
 	"tool_pages_desc": "사용자에 의해 만들어진 문서 얻기",
 	"tool_topedits_desc": "사용자가 가장 자주 편집한 문서를 이름공간별 또는 문서별로 얻기",

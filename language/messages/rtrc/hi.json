@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"NehalDaveND",
-			"SatyamMishra"
+			"SatyamMishra",
+			"Sfic"
 		]
 	},
 	"apply": "लागू करें",
@@ -24,6 +25,7 @@
 	"mypatrollog": "मेरा पुनरीक्षण लॉग",
 	"namespace": "नामस्थान",
 	"navtoggle-tooltip": "साइडबार टॉगल",
+	"new-short": "नया",
 	"nomatches": "प्रदत्त सेटिंग के लिए कोई प्रासंगिक परिवर्तन उपलब्ध नहीं",
 	"order": "क्रम",
 	"permalink": "वर्तमान सेटिंग के लिए पर्मालिंक",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dj"
+			"Dj",
+			"Notramo"
 		]
 	},
 	"apply": "Alkalmaz",
@@ -24,6 +25,7 @@
 	"lastupdate-cvn": "Utolsó frissítés:$1",
 	"lastupdate-rc": "Utolsó frissítés:$1",
 	"legend": "Jelmagyarázat",
+	"license": "Licenc",
 	"limit": "Korlát",
 	"masspatrol": "Tömeges ellenőrzés",
 	"months": "január, február, március, április, május, június, július, augusztus, szeptember, október, november, december",
