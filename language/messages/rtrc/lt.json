@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Zygimantus",
-			"Nersip"
+			"Nersip",
+			"Eitvys200"
 		]
 	},
 	"apply": "Taikyti",
@@ -26,6 +27,7 @@
 	"mark": "pažymėti",
 	"namespace": "Vardų sritis",
 	"new-short": "naujas",
+	"open-in-wiki": "Atidaryti Viki",
 	"order": "Tvarka",
 	"pause": "Pauzė",
 	"reload-interval": "Intervalas",
