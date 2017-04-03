@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Revi"
+			"Revi",
+			"아라"
 		]
 	},
 	"title": "문서 제목 grep (베타)",
@@ -15,7 +16,7 @@
 	"project-label": "프로젝트",
 	"pattern-label": "패턴",
 	"redirects-label": "넘겨주기 포함",
-	"limit-label": "첫 100 결과로 검색결과 제한",
+	"limit-label": "첫 결과 100개로 표시 제한",
 	"error-zeroresults": "이름공간 내에 입력된 정규 표현식과 일치하는 문서가 없습니다.",
 	"match-count": "{{PLURAL:$1|$1 개}} 문서가 정규 표현식과 일치합니다."
 }

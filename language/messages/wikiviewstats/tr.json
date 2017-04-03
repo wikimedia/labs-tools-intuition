@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Incelemeelemani",
-			"Violetanka"
+			"Violetanka",
+			"Vito Genovese"
 		]
 	},
 	"records": "kayıtlar",
@@ -46,7 +47,7 @@
 	"helpPage": "Yardım sayfası",
 	"projectTotals": "proje toplamları",
 	"wikiThanks": "Teşekkürler",
-	"log": "kayıt",
+	"log": "günlük",
 	"size": "boyut",
 	"revisions": "Revizyon",
 	"first": "ilk",

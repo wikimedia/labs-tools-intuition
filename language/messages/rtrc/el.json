@@ -2,9 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Astralnet",
-			"Evropi"
+			"Evropi",
+			"GR"
 		]
 	},
 	"apply": "Εφαρμογή",
+	"feedback": "Ανατροφοδότηση",
+	"license": "Άδεια",
+	"mark": "σήμανση",
+	"new-short": "νέο",
 	"tag": "Ετικέτα"
 }
