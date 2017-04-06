@@ -6,7 +6,7 @@
 	},
 	"voiceintro-toolbar-record-label": "রেকর্ড",
 	"voiceintro-toolbar-stop-label": "বন্ধ",
-	"voiceintro-toolbar-clear-label": "পরিস্কার",
+	"voiceintro-toolbar-clear-label": "পরিষ্কার",
 	"voiceintro-toolbar-upload-label": "আপলোড",
 	"voiceintro-webaudio-not-supported": "ওয়েবঅডিও এপিআই এই ব্রাউজারে সমর্থিত নয়।",
 	"voiceintro-upload-publish-succeeded": "রেকর্ডিং সফলভাবে আপলোড হয়েছে:",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Emperyan",
-			"Suelnur"
+			"Suelnur",
+			"Vito Genovese"
 		]
 	},
 	"attention": "Dikkat",
@@ -14,7 +15,7 @@
 	"commons_username": "Wikimedia Commons kullanıcı adı",
 	"categories": "Kategoriler",
 	"tusc_user": "TUSC kullanıcı adı",
-	"tusc_pass": "TUSC şifresi",
+	"tusc_pass": "TUSC parolası",
 	"original_wikitext": "Özgün viki metni",
 	"new_wikitext": "Yeni wiki metni",
 	"new_filename": "Yeni dosya adı:",
