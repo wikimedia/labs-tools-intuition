@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sadrettin",
-			"Rapsar"
+			"Rapsar",
+			"Vito Genovese"
 		]
 	},
 	"title": "Şablon bağlantı ve görüntüleme kontrolü",
@@ -20,7 +21,7 @@
 	"feedback-header-complete": "Tüm görüntüleme ve bağlantılara genel bakış",
 	"feedback-header-transclusions": "Şablonun görüntülendiği sayfalar",
 	"feedback-header-links": "Şablondaki bağlantılar",
-	"link-edit": "değiştir",
+	"link-edit": "düzenle",
 	"link-create": "oluştur",
 	"link-complete": "Tam bir rapor...",
 	"footer-stats": "Oluşturuldu: $1. Süre: $2 {{PLURAL:$2|saniye|saniye}}.",

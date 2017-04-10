@@ -4,7 +4,8 @@
 			"Uğurkent",
 			"Hbseren",
 			"Sayginer",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Vito Genovese"
 		]
 	},
 	"cvn-reason": "Gerekçe",
@@ -12,5 +13,6 @@
 	"filter-hidebots": "Botları gizle",
 	"filter-unpatrolled": "Devriye düzenlemelerini gizle",
 	"months": "Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık",
-	"skip": "Atla"
+	"skip": "Atla",
+	"typeEdit": "Düzenlemeler"
 }

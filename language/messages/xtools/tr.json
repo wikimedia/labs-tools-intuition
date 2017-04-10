@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mavrikant",
-			"Sayginer"
+			"Sayginer",
+			"Vito Genovese"
 		]
 	},
 	"title_xtools": "X!'in araçları",
@@ -43,7 +44,7 @@
 	"date": "Tarih",
 	"pages": "Sayfalar",
 	"bytes": "bayt",
-	"edits": "değişiklikler",
+	"edits": "düzenlemeler",
 	"actions": "Eylemler",
 	"actions_admin": "Admin eylemleri",
 	"others": "diğerleri",
