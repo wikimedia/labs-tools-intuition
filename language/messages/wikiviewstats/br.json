@@ -3,7 +3,8 @@
 		"authors": [
 			"Fohanno",
 			"Y-M D",
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Fulup"
 		]
 	},
 	"records": "enrolladennoù",
@@ -106,12 +107,17 @@
 	"barchart": "grafik barrennek",
 	"linechart": "grafik enlinenn",
 	"linechart_filled": "grafik enlinenn leuniet",
+	"isRedirect": "Un adkas eo ar bajenn-mañ",
+	"disambPage": "Pajenn zisheñvelaat",
 	"showRedir": "Diskouez an adkasoù",
 	"searchVariants": "Klask adstummoù",
 	"addToWorkList": "ouzhpennañ d'ar roll labour",
 	"removeFromWorklist": "Lemel eus ar roll labour",
 	"projectPages": "Pajennoù ar raktres",
 	"backToTop": "distreiñ da grec'h ar bajenn",
+	"rankLocal": "Renk (lec'hel) e",
 	"winningArticles": "Pennadoù gounit",
+	"numPageWatchers": "Niver a dud oc'h evezhiañ ar bajenn",
+	"linkStats": "Liamm war-zu stadegoù ar bajenn",
 	"linkArticle": "Liamm war-zu pennad ar wiki"
 }

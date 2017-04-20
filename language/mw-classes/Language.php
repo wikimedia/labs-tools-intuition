@@ -27,36 +27,11 @@ if ( function_exists( 'mb_strtoupper' ) ) {
 }
 
 /**
- * a fake language converter
- *
- * @ingroup Language
- */
-class FakeConverter {
-	var $mLang;
-	function __construct( $langobj ) { $this->mLang = $langobj; }
-	function autoConvertToAllVariants( $text ) { return array( $this->mLang->getCode() => $text ); }
-	function convert( $t ) { return $t; }
-	function convertTitle( $t ) { return $t->getPrefixedText(); }
-	function getVariants() { return array( $this->mLang->getCode() ); }
-	function getPreferredVariant() { return $this->mLang->getCode(); }
-	function getDefaultVariant() { return $this->mLang->getCode(); }
-	function getURLVariant() { return ''; }
-	function getConvRuleTitle() { return false; }
-	function findVariantLink( &$l, &$n, $ignoreOtherCond = false ) { }
-	function getExtraHashOptions() { return ''; }
-	function getParsedTitle() { return ''; }
-	function markNoConversion( $text, $noParse = false ) { return $text; }
-	function convertCategoryKey( $key ) { return $key; }
-	function convertLinkToAllVariants( $text ) { return $this->autoConvertToAllVariants( $text ); }
-	function armourMath( $text ) { return $text; }
-}
-
-/**
  * Internationalisation code
  * @ingroup Language
  */
 class Language {
-	var $mConverter, $mVariants, $mCode, $mLoaded = false;
+	var $mVariants, $mCode, $mLoaded = false;
 	var $mMagicExtensions = array(), $mMagicHookDone = false;
 
 	var $mNamespaceIds, $namespaceNames, $namespaceAliases;
@@ -130,74 +105,17 @@ class Language {
 	);
 
 	/**
-	 * Get a cached language object for a given language code
-	 * @param $code String
-	 * @return Language
+	 * @param $code string
 	 */
 	static function factory( $code ) {
-		if ( !isset( self::$mLangObjCache[$code] ) ) {
-			if ( count( self::$mLangObjCache ) > 10 ) {
-				// Don't keep a billion objects around, that's stupid.
-				self::$mLangObjCache = array();
-			}
-			self::$mLangObjCache[$code] = self::newFromCode( $code );
-		}
-		return self::$mLangObjCache[$code];
+		throw new Exception( 'Method not supported in Intuition' );
 	}
 
 	/**
-	 * Create a language object for a given language code
-	 * @param $code String
-	 * @return Language
+	 * @param $code string
 	 */
 	protected static function newFromCode( $code ) {
-		global $IP;
-		static $recursionLevel = 0;
-
-		// Protect against path traversal below
-		if ( !Language::isValidCode( $code )
-			|| strcspn( $code, ":/\\\000" ) !== strlen( $code ) )
-		{
-			throw new MWException( "Invalid language code \"$code\"" );
-		}
-
-		if ( !Language::isValidBuiltInCode( $code ) ) {
-			// It's not possible to customise this code with class files, so
-			// just return a Language object. This is to support uselang= hacks.
-			$lang = new Language;
-			$lang->setCode( $code );
-			return $lang;
-		}
-
-		if ( $code == 'en' ) {
-			$class = 'Language';
-		} else {
-			$class = 'Language' . str_replace( '-', '_', ucfirst( $code ) );
-			if ( !defined( 'MW_COMPILED' ) ) {
-				// Preload base classes to work around APC/PHP5 bug
-				if ( file_exists( "$IP/languages/classes/$class.deps.php" ) ) {
-					include_once( "$IP/languages/classes/$class.deps.php" );
-				}
-				if ( file_exists( "$IP/languages/classes/$class.php" ) ) {
-					include_once( "$IP/languages/classes/$class.php" );
-				}
-			}
-		}
-
-		if ( $recursionLevel > 5 ) {
-			throw new MWException( "Language fallback loop detected when creating class $class\n" );
-		}
-
-		if ( !MWInit::classExists( $class ) ) {
-			$fallback = Language::getFallbackFor( $code );
-			++$recursionLevel;
-			$lang = Language::newFromCode( $fallback );
-			--$recursionLevel;
-			$lang->setCode( $code );
-		} else {
-			$lang = new $class;
-		}
-		return $lang;
+		throw new Exception( 'Method not supported in Intuition' );
 	}
 
 	/**
@@ -2114,17 +2032,6 @@ class Language {
 	}
 
 	/**
-	 * Some languages have special punctuation need to be normalized.
-	 * Make such changes here.
-	 *
-	 * @param $string String
-	 * @return String
-	 */
-	function normalizeForSearch( $string ) {
-		return self::convertDoubleWidth( $string );
-	}
-
-	/**
 	 * convert double-width roman characters to single-width.
 	 * range: ff00-ff5f ~= 0020-007f
 	 *
@@ -2156,16 +2063,6 @@ class Language {
 		$string = preg_replace( $pattern, " $1 ", $string );
 		$string = preg_replace( '/ +/', ' ', $string );
 		return $string;
-	}
-
-	/**
-	 * @param $termsArray array
-	 * @return array
-	 */
-	function convertForSearchResult( $termsArray ) {
-		# some languages, e.g. Chinese, need to do a conversion
-		# in order for search results to be displayed correctly
-		return $termsArray;
 	}
 
 	/**

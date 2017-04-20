@@ -12,7 +12,6 @@
 	"updatelog-intro": "سكربت التحديث مُجدوَل ليشتغل كل ساعة. المسرود أدناه مخرجات آخر تشغيلة.",
 	"updatelog-active": "سكربت التحديث قيد التشغيل حاليا. عد لاحقا لمطالعة سِجِلِّ الشغل كاملا.",
 	"download-button": "تحميل نسخة",
-	"download-directlink": "رابط مباشر",
 	"title-downloadpage": "تحميل",
 	"title-downloadpage-repo": "تحميل $1",
 	"err-snapshotindex": "فهرس اللقطات غير متاح مؤقتا. حاول لاحقا.",

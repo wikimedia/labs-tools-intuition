@@ -11,7 +11,6 @@
 	"updatelog-intro": "Das Aktualisierungsskript wird einmal pro Stunde ausgeführt. Hier kann man Informationen zur letzten Ausführung des Skripts einsehen.",
 	"updatelog-active": "Das Aktualisierungsskript wird derzeit ausgeführt. Besuche diese Seite später noch einmal, um das vollständige Protokoll einsehen zu können.",
 	"download-button": "Schnappschuss herunterladen",
-	"download-directlink": "direkter Link",
 	"title-downloadpage": "Herunterladen",
 	"title-downloadpage-repo": "$1 herunterladen",
 	"err-snapshotindex": "Der Schnappschussindex ist vorübergehend nicht verfügbar. Bitte versuche es später erneut.",

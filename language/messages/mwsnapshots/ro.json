@@ -10,7 +10,6 @@
 	"updatelog-intro": "Scriptul de actualizare este programat să ruleze în fiecare oră. Mai jos se află consola de ieșire a ultimei rulări.",
 	"updatelog-active": "Scriptul de actualizare se află în execuție. Reveniți mai târziu pentru jurnalul complet.",
 	"download-button": "Descarcă instantaneul",
-	"download-directlink": "legătură directă",
 	"title-downloadpage": "Descărcare",
 	"title-downloadpage-repo": "Descărcare $1",
 	"err-snapshotindex": "Indexul instantaneilor este temporar indisponibil. Vă rugăm să reîncercați mai târziu.",

@@ -1,1 +1,3 @@
-mw-classes/LanguageConverter.php
+<?php
+
+// Empty file for back-compat

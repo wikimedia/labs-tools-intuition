@@ -10,7 +10,6 @@
 	"updatelog-intro": "Aktualizěrowański skript wuwjeźo se kuždu góźinu. Dołojce jo wudaśe konsole za slědny běg.",
 	"updatelog-active": "Aktualizěrowański skript tuchylu běžy. Wroś se pšosym pózdźej, aby se dopołny protokol woglědał.",
 	"download-button": "$1 ześěgnuś",
-	"download-directlink": "direktny wótkaz",
 	"title-downloadpage": "Ześěgnjenje: $1",
 	"err-snapshotindex": "Indeks njezjapkich bildkow njestoj k dispoziciji. Pšosym wopytaj pózdźej hyšći raz.",
 	"err-invalid-repo": "Njeznaty repozitorium: \"$1\".",

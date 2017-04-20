@@ -8,7 +8,6 @@
 	"title-error": "දෝෂය",
 	"title-updatelog": "යාවත්කාලීන ලඝු සටහන",
 	"download-button": "$1 බාගන්න",
-	"download-directlink": "සෘජු සබැඳිය",
 	"title-downloadpage": "බාගන්න: $1",
 	"err-snapshotindex": "Snapshot සුචිය තාවකාලිකව ලබා ගත නොහැක. කරුණාකර පසුව උත්සහ කරන්න.",
 	"err-invalid-repo": "නොදන්නා කෝෂ්ඨාගාරය: \"$1\".",

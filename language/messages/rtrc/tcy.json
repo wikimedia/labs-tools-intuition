@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"VASANTH S.N.",
-			"Vishwanatha Badikana"
+			"Vishwanatha Badikana",
+			"BHARATHESHA ALASANDEMAJALU"
 		]
 	},
 	"clear": "ಮಾಜಲೆ",
@@ -13,5 +14,6 @@
 	"filter": "ಅರಿಪೆ",
 	"help": "ಸಕಾಯೊ",
 	"limit": "ಮಿತಿ",
+	"new-short": "ಪೊಸ",
 	"order": "ಆದೇಸೊ"
 }

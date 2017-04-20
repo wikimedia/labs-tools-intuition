@@ -118,7 +118,6 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	public function testMsg() {
 		$this->i18n->setMsgs( array(
 			'welcomeback' => 'Welcome back, $1! Would you like some $2?',
-			'basket' => 'The basket contains {{PLURAL:$1|$1 apple|$1 apples|12=a dozen apples}}.',
 		) );
 
 		$this->assertEquals(
@@ -164,17 +163,152 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->msg( 'welcomeback', array( 'variables' => array( 'John', 'coffee' ) ) ),
 			'Replacing 2 veriables'
 		);
+	}
+
+	/**
+	 * @covers Intuition::msg
+	 * @covers Intuition::getMessagesFunctions
+	 * @covers MessagesFunctions
+	 */
+	public function testMessagesFunctions() {
+		$this->i18n->setMsgs( array(
+			'basket' => 'The basket contains {{PLURAL:$1|$1 apple|$1 apples|12=a dozen apples}}.',
+		) );
 
 		$this->assertEquals(
 			'The basket contains 1 apple.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '1' ), 'parsemag' => true ) ),
-			'Plural with 1'
+			$this->i18n->msg( 'basket', array( 'variables' => array( '1' ) ) ),
+			'Plural (en) with 1'
 		);
 
 		$this->assertEquals(
 			'The basket contains 7 apples.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ), 'parsemag' => true ) ),
-			'Plural with 7'
+			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ) ) ),
+			'Plural (en) with 7'
+		);
+
+		$this->assertEquals(
+			'The basket contains 0 apples.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '0' ) ) ),
+			'Plural (en) with 0 uses plural form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 0 apple.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '0' ), 'lang' => 'fr' ) ),
+			'Plural (fr) with 0 uses singular form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 21 apple.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '21' ), 'lang' => 'ru' ) ),
+			'Plural (ru) with 21 uses singular form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 22 apples.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '22' ), 'lang' => 'ru' ) ),
+			'Plural (ru) with 22 uses paucal@2 form'
+		);
+
+		$this->assertEquals(
+			'The basket contains 7 applex.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ), 'lang' => 'ru' ) ),
+			'Plural (ru) with 7 uses plural@3 form'
+		);
+	}
+
+	/**
+	 * See also IntuitionUtilTest for more testing of strEscape()
+	 *
+	 * @covers Intuition::msg
+	 */
+	public function testMsgEscape() {
+		$this->i18n->setMsgs( array(
+			'example' => 'l&<€ and $1',
+		) );
+
+		$this->assertEquals(
+			'l&<€ and &',
+			$this->i18n->msg( 'example', array( 'variables' => array( '&' ) ) ),
+			'Default (no escaping)'
+		);
+
+		$this->assertEquals(
+			'l&amp;&lt;€ and &amp;',
+			$this->i18n->msg( 'example', array(
+				'variables' => array( '&' ),
+				'escape' => 'html',
+			) ),
+			'HTML escaped'
+		);
+
+		$this->assertEquals(
+			'l&amp;&lt;€ and &',
+			$this->i18n->msg( 'example', array(
+				'variables' => array( '&' ),
+				'raw-variables' => true,
+				'escape' => 'html',
+			) ),
+			'HTML escaped (raw variables)'
+		);
+	}
+
+	/**
+	 * See also IntuitionUtilTest for in-depth testing of parseExternalLinks()
+	 *
+	 * @covers Intuition::msg
+	 */
+	public function testMsgExternalLinks() {
+		$this->i18n->setMsgs( array(
+			'example' => 'The message with an [https://example.org link].',
+		) );
+
+		$this->assertEquals(
+			'The message with an [https://example.org link].',
+			$this->i18n->msg( 'example' ),
+			'Default (no link expansion)'
+		);
+
+		$this->assertEquals(
+			'The message with an <a href="https://example.org">link</a>.',
+			$this->i18n->msg( 'example', array( 'externallinks' => true ) ),
+			'Expanded with externallinks=true'
+		);
+	}
+
+	/**
+	 * See also IntuitionUtilTest for in-depth testing of parseWikiLinks().
+	 *
+	 * @covers Intuition::msg
+	 */
+	public function testMsgWikiLinks() {
+		$this->i18n->setMsgs( array(
+			'example' => 'The message with an [[Example|link]].',
+		) );
+
+		$this->assertEquals(
+			'The message with an [[Example|link]].',
+			$this->i18n->msg( 'example' ),
+			'Default (no link expansion)'
+		);
+
+		$this->assertEquals(
+			'The message with an <a href="/wiki/Example">link</a>.',
+			$this->i18n->msg( 'example', array( 'wikilinks' => '/wiki/$1' ) ),
+			'Expanded with wikilinks="/wiki/$1"'
+		);
+	}
+
+	/**
+	 * @covers Intuition::msg
+	 * @covers Intuition::rawMsg
+	 */
+	public function testMsgQqx() {
+		$this->assertEquals(
+			'(test-register/foo)',
+			$this->i18n->msg( 'foo', array( 'domain' => 'test-register', 'lang' => 'qqx' ) ),
+			'Qqx message'
 		);
 
 		$this->assertEquals(
@@ -186,6 +320,10 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::registerDomain
+	 * @covers Intuition::ensureLoaded
+	 * @covers Intuition::loadMessageFile
+	 * @covers Intuition::setMsgs
+	 * @covers Intuition::setMsg
 	 */
 	public function testRegisterDomain() {
 		$this->i18n->registerDomain( 'test-register', __DIR__ . '/data/i18n' );
@@ -202,12 +340,58 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'Message in custom domain (custom lang)'
 		);
 
+		$this->assertEquals(
+			'Voerbak',
+			$this->i18n->rawMsg( 'test-register', 'nl', 'foo' ),
+			// Cover when ensureLoaded() returns early
+			'Message in custom domain (custom lang) - cache hit'
+		);
+
 		$this->i18n->registerDomain( 'test-CASE-SENSE', __DIR__ . '/data/i18n' );
 
 		$this->assertEquals(
 			'Lorem ipsum',
 			$this->i18n->rawMsg( 'test-case-sense', 'en', 'lorem' ),
 			'Domain names are registered case-insensitive'
+		);
+	}
+
+	/**
+	 * @covers Intuition::ensureLoaded
+	 */
+	public function testMessageCache() {
+		// When a class loads a domain/language pair
+		// into static messageCache, and another instance
+		// leverages that instead of re-reading from disk.
+		Intuition::clearCache();
+		$int1 = new Intuition( 'general' );
+		$int2 = new Intuition( 'general' );
+
+		$int1->msg( 'hello' );
+		$int2->msg( 'hello' );
+		// No assertions
+	}
+
+	public static function provideEnsureLoaded() {
+		return array(
+			array( '', '', 'empty' ),
+			array( '', 'en', 'empty domain' ),
+			array( 'example', '', 'empty lang' ),
+			array( 'http://', 'en', 'dangerous domain' ),
+			array( 'example', '/etc', 'dangerous lang' ),
+		);
+	}
+	/**
+	 * @dataProvider provideEnsureLoaded
+	 * @covers Intuition::ensureLoaded
+	 */
+	public function testEnsureLoaded( $domain, $lang, $message = null ) {
+		Intuition::clearCache();
+
+		$this->assertEquals(
+			$this->i18n->rawMsg( $domain, $lang, 'msgkey' ),
+			null,
+			$message
 		);
 	}
 
@@ -301,6 +485,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::getLangName
+	 * @covers Intuition::getLangNames
 	 */
 	public function testGetLangName() {
 		$this->assertEquals(
@@ -326,11 +511,16 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->listMsgs( 'test-domain' ),
 			array( 'test-value' )
 		);
+		$this->assertEquals(
+			$this->i18n->listMsgs( 'unknown' ),
+			array()
+		);
 	}
 
 	/**
 	 * @covers Intuition::getLangFallbacks
 	 * @covers Intuition::fetchLangFallbacks
+	 * @covers Intuition::clearCache
 	 */
 	public function testLangFallback() {
 		// Ensure fetchLangFallbacks is tested
@@ -345,7 +535,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @covers Intuition::rawMsg
-	 * @covers Intuition::getLangForMsg
+	 * @covers Intuition::accessBlobWithFallback
 	 * @covers Intuition::normalizeLang
 	 */
 	public function testMsgFallback() {

@@ -10,7 +10,6 @@
 	"updatelog-intro": "Skript ažurira svakog sata. Ispod je prikazan izvod konzole od poslednjeg ažuriranja.",
 	"updatelog-active": "Skript je trenutno pokrenut. Navratite kasnije za celokupan dnevnik.",
 	"download-button": "Preuzmi $1",
-	"download-directlink": "direktna veza",
 	"title-downloadpage": "Preuzimanje: $1",
 	"err-snapshotindex": "Popis snimaka je privremeno nedostupan. Pokušajte kasnije.",
 	"err-invalid-repo": "Nepoznata riznica: „$1“.",

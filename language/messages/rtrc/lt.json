@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zygimantus"
+			"Zygimantus",
+			"Nersip",
+			"Eitvys200"
 		]
 	},
 	"apply": "Taikyti",
@@ -11,17 +13,24 @@
 	"cvn-adder-empty": "Nežinomas",
 	"cvn-reason": "Priežastis",
 	"cvn-reason-empty": "Nerasta priežastis",
+	"cvn-scores": "CVN Taškai",
 	"desc": "Mažėjančiai",
 	"documentation": "Dokumentacija",
+	"feedback": "Atsiliepimas",
 	"filter": "Filtras",
 	"help": "Pagalba",
 	"helpicon-tooltip": "Sužinokite daugiau apie šią funkciją",
 	"lastupdate-cvn": "Paskutinis atnaujinimas: $1",
 	"lastupdate-rc": "Paskutinis atnaujinimas: $1",
 	"legend": "Paaiškinimai",
+	"license": "Licencija",
 	"limit": "Riba",
+	"mark": "pažymėti",
 	"namespace": "Vardų sritis",
+	"new-short": "naujas",
+	"open-in-wiki": "Atidaryti Viki",
 	"order": "Tvarka",
+	"ores-scores": "ORES Taškai",
 	"pause": "Pauzė",
 	"reload-interval": "Intervalas",
 	"select-placeholder-none": "(nėra)",

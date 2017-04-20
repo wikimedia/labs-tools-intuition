@@ -10,7 +10,6 @@
 	"updatelog-intro": "תסריט עדכון מתוזמן לרוץ מדי שעה. להלן הפלט של הריצה האחרונה.",
 	"updatelog-active": "תסריט העדכון רץ עכשיו. בואו בהמשך לראות את היומן המלא.",
 	"download-button": "הורדת היטל־בזק",
-	"download-directlink": "קישור ישיר",
 	"title-downloadpage": "הורדה",
 	"title-downloadpage-repo": "הורדת $1",
 	"err-snapshotindex": "מפתח קובצי המאגרים אינו זמין כעת. נא לנסות מאוחר יותר.",

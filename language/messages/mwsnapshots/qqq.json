@@ -10,7 +10,6 @@
 	"title-error": "Heading of page if action failed.\n{{Identical|Error}}",
 	"title-updatelog": "Used as section heading.\n{{Identical|Update log}}",
 	"download-button": "Label of the download button. Text is outputted below a down-arrow.",
-	"download-directlink": "Link displayed in parentheses below the download button.",
 	"title-downloadpage": "Heading of download page if the file or repo is not found. Otherwise {{msg-intuition|Mwsnapshots-title-downloadpage-repo}} is used.\n{{Identical|Download}}",
 	"title-downloadpage-repo": "Heading of download page where the file is ready to be downloaded by the user.\n\nParameters:\n* $1 - filename\n{{Identical|Download}}",
 	"err-snapshotindex": "If the information manifest (Index) can not be found on the server, this error is shown.",

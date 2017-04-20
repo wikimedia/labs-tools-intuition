@@ -10,7 +10,6 @@
 	"updatelog-intro": "Le script de actualisation es programmate pro esser executate cata hora. Ecce le resultato de consola del ultime execution.",
 	"updatelog-active": "Le script de actualisation es actualmente in execution. Reveni plus tarde pro le registro complete.",
 	"download-button": "Discargar $1",
-	"download-directlink": "ligamine directe",
 	"title-downloadpage": "Discargar: $1",
 	"err-snapshotindex": "Indice de instantaneos temporarimente indisponibile. Per favor reproba plus tarde.",
 	"err-invalid-repo": "Repositorio incognite: \"$1\".",

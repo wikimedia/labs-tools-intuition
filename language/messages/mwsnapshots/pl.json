@@ -12,7 +12,6 @@
 	"updatelog-intro": "Ten skrypt aktualizacji został zaplanowany tak, aby uruchamiał się co godzinę. Poniżej znajduje się wyjście konsoli podczas ostatniego uruchomienia.",
 	"updatelog-active": "Skrypt aktualizacyjny jest aktualnie uruchomiony. Zobacz później aby zobaczyć gotowy rejestr.",
 	"download-button": "Pobierz migawkę",
-	"download-directlink": "link bezpośredni",
 	"title-downloadpage": "Pobierz",
 	"title-downloadpage-repo": "Pobierz $1",
 	"err-snapshotindex": "Indeks migawek tymczasowo niedostępny. Spróbuj ponownie później.",

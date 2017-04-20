@@ -18,10 +18,10 @@ Example:
 <pre lang="php">
 require_once __DIR__ . '/vendor/autoload.php';
 
-$I18N = new Intuition( 'mytool' );
-$I18N->registerDomain( 'mytool', __DIR__ . '/messages' );
+$int = new Intuition( 'mytool' );
+$int->registerDomain( 'mytool', __DIR__ . '/i18n' );
 
-echo $I18N->msg( 'example' );
+echo $int->msg( 'example' );
 </pre>
 
 ## Getting involved

@@ -155,6 +155,7 @@
   'sq' => 'shqip',
   'sr-ec' => 'српски (ћирилица)‎',
   'sr-el' => 'srpski (latinica)‎',
+  'su' => 'Basa Sunda',
   'sv' => 'svenska',
   'sw' => 'Kiswahili',
   'ta' => 'தமிழ்',

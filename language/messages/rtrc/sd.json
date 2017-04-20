@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Indus Asia"
 		]
 	},
 	"apply": "درخواست ڏيو",
@@ -12,7 +13,12 @@
 	"cvn-reason": "سبب",
 	"cvn-reason-empty": "ڪو به سبب نه لڌو",
 	"documentation": "دستاويزسازي",
+	"feedback": "اوهان جي راءِ (فيڊ بيڪ)",
+	"license": "لائسنس (اجازت نامو)",
 	"limit": "حد",
+	"mark": "نشان هڻو",
+	"new-short": "نئون",
+	"open-in-wiki": "وڪي ۾ کوليو",
 	"select-placeholder-none": "(ڪو به نه)",
 	"showAnonOnly": "صرف گمنام",
 	"skippededit": "ڇڏيل ترميم",

@@ -11,7 +11,6 @@
 	"updatelog-intro": "L'aggiornamento avviene ogni ora. Di seguito è presente l'output della console della ultima corsa.",
 	"updatelog-active": "L'aggiornamento è attualmente in esecuzione. Torna più tardi per il registro completo.",
 	"download-button": "Scarica snapshot",
-	"download-directlink": "link diretto",
 	"title-downloadpage": "Scarica",
 	"title-downloadpage-repo": "Scarica $1",
 	"err-snapshotindex": "Indice delle istantanee temporaneamente non disponibile. Si prega di riprovare più tardi.",

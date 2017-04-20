@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
 	"voiceintro-toolbar-record-label": "Ophuelen",
 	"voiceintro-toolbar-stop-label": "Stopp",
 	"voiceintro-toolbar-clear-label": "Eidel maachen",
@@ -8,6 +12,8 @@
 	"voiceintro-upload-publish-succeeded": "Den Enregistrement gouf eropgelueden",
 	"voiceintro-upload-publish-failed": "Den Enregistrement gouf net eropgelueden",
 	"voiceintro-information-label": "Informatioun",
+	"voiceintro-information-speaker-label": "Numm vum Conferencier:",
 	"voiceintro-information-language-label": "Sprooch:",
+	"voiceintro-mic-access-notify": "Klickt \"Erlaben$\" fir dem Browser z'eralben Äre Mikro ze benotzen",
 	"voiceintro-recording-notify": "Ophuelen..."
 }

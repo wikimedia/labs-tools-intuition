@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Incelemeelemani",
-			"Violetanka"
+			"Violetanka",
+			"Vito Genovese"
 		]
 	},
 	"records": "kayıtlar",
@@ -46,7 +47,7 @@
 	"helpPage": "Yardım sayfası",
 	"projectTotals": "proje toplamları",
 	"wikiThanks": "Teşekkürler",
-	"log": "kayıt",
+	"log": "günlük",
 	"size": "boyut",
 	"revisions": "Revizyon",
 	"first": "ilk",
@@ -101,7 +102,7 @@
 	"urlParameter": "URL parametresi",
 	"hideHints": "ipuçlarını gizle",
 	"optinMsg1": "Henüz kullanıcı tercih edilmiş değil. Eğer grafikleri görmek istiyorsanız, herhangi bir içeriğin bağlantısını $1 oluşturmalısınız",
-	"optinMsg2": "Alternatif olarak $1 üzerinde tüm Vikimedya Meta-viki genelinde kullnmak için bir kullanıcı adı oluşturabilirsiniz.",
+	"optinMsg2": "Alternatif olarak tüm Wikimedia vikilerinde kabul etmek için Meta Viki üzerinde $1 oluşturabilirsiniz.",
 	"colorScheme": "renk şeması",
 	"customBarColors": "özel çubuk renkleri",
 	"on": "açık",

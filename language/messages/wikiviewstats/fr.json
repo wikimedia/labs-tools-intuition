@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"JackPotte",
-			"Kvardek du"
+			"Kvardek du",
+			"Urhixidur"
 		]
 	},
 	"records": "enregistrements",
@@ -110,7 +111,7 @@
 	"submit": "Envoyer",
 	"save": "enregistrer",
 	"cancel": "annuler",
-	"resetAndDelete": "reset & supprimer cookie",
+	"resetAndDelete": "réinitialiser & supprimer les témoins (cookies)",
 	"autofilter": "filtre automatique",
 	"barchart": "graphique à barres",
 	"linechart": "graphique en ligne",

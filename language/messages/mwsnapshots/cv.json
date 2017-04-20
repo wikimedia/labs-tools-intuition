@@ -8,7 +8,6 @@
 	"title-error": "Йӑнӑш",
 	"title-updatelog": "Ҫӗнетни журналӗ",
 	"download-button": "$1 тиесе ил",
-	"download-directlink": "тӳрӗ каҫӑ",
 	"title-downloadpage": "Тиесе ил: $1",
 	"err-invalid-repo": "Паллӑ мар репозитори: \"$1\".",
 	"err-invalid-branch": "\"$2\" репозиторире \"$1\" тӗрӗс мар турат.",

@@ -10,7 +10,6 @@
 	"updatelog-intro": "El script d'anovamientu ta programáu pa executase cada hora. Más abaxo ta la salida de terminal de la cabera execución.",
 	"updatelog-active": "El script d'anovamientu ta executandose anguaño. Torna más sero pa ver el rexistru completu.",
 	"download-button": "Descargar instantánea",
-	"download-directlink": "enllaz direutu",
 	"title-downloadpage": "Descargar",
 	"title-downloadpage-repo": "Descargar $1",
 	"err-snapshotindex": "L'índiz de instantánees nun ta disponible temporalmente. Intentalo otra vuelta más sero.",

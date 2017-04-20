@@ -8,7 +8,6 @@
 	"title-error": "Gabim",
 	"title-updatelog": "Përditëso shënimin",
 	"download-button": "Shkarko $1",
-	"download-directlink": "Lidhja e drejtpërdrejtë",
 	"title-downloadpage": "Shkarko: $1",
 	"err-invalid-repo": "Depo e panjohur: \"$1\".",
 	"err-invalid-branch": "Degë e panjohur: \"$1\" në depon \"$2\".",
