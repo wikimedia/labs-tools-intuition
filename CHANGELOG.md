@@ -1,3 +1,19 @@
+## v0.6.0 (2017-04-20)
+
+Domains:
+
+* Removed recentanonymousactivity (decommissioned).
+
+### Enhancements
+
+* core: Use native trigger_error() for notices and errors.
+
+### Maintenance
+
+* build: Add https://coveralls.io integration
+* Localisation updates from https://translatewiki.net.
+* langlist: Recompile.
+
 ## v0.5.4 (2017-03-16)
 
 ### Maintenance
