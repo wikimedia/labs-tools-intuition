@@ -1,4 +1,4 @@
-[![Packagist](https://img.shields.io/packagist/v/Krinkle/intuition.svg?style=flat)](https://packagist.org/packages/Krinkle/intuition) [![Build Status](https://travis-ci.org/Krinkle/intuition.svg?branch=master)](https://travis-ci.org/Krinkle/intuition)
+[![Packagist](https://img.shields.io/packagist/v/Krinkle/intuition.svg?style=flat)](https://packagist.org/packages/Krinkle/intuition) [![Build Status](https://travis-ci.org/Krinkle/intuition.svg?branch=master)](https://travis-ci.org/Krinkle/intuition) [![Coverage Status](https://coveralls.io/repos/github/Krinkle/intuition/badge.svg?branch=master)](https://coveralls.io/github/Krinkle/intuition?branch=master)
 
 # Intuition
 
