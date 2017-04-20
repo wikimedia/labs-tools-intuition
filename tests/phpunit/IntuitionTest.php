@@ -133,8 +133,8 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		);
 
 		$this->assertEquals(
-			'[r4nd0mstr1n9]',
-			$this->i18n->msg( 'r4nd0mstr1n9' ),
+			'[randomkey]',
+			$this->i18n->msg( 'randomkey' ),
 			'Unknown key'
 		);
 
@@ -451,8 +451,8 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 
 		$this->setExpectedException( 'PHPUnit_Framework_Error_Notice' );
 		$this->assertEquals(
-			'[r4nd0mstr1n9]',
-			$i18n->msg( 'r4nd0mstr1n9' ),
+			'[randomkey]',
+			$i18n->msg( 'randomkey' ),
 			'Unknown key falls back to bracket-wrapped key'
 		);
 	}
@@ -468,8 +468,8 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 		) );
 
 		$this->assertEquals(
-			'R4nd0mstr1n9',
-			$i18n->msg( 'r4nd0mstr1n9' ),
+			'Randomkey',
+			$i18n->msg( 'randomkey' ),
 			'Unknown key falls back to ucfirst key'
 		);
 	}

@@ -31,8 +31,6 @@
 			"phpcs . --extensions=php --standard=tests/codesniffer --ignore=vendor/*,node_modules/*,language/*",
 			"npm install && npm test"
 		],
-		"cover": [
-			"phpunit --coverage-html coverage/"
-		]
+		"cover": "phpunit"
 	}
 }

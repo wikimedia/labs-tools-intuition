@@ -191,16 +191,16 @@ class Util {
 	 */
 	public static function parseExternalLinks( $text ) {
 		static $urlProtocols = false;
+		// @codeCoverageIgnoreStart
 		if ( !$urlProtocols ) {
-			// Allow custom protocols
-			// @codeCoverageIgnoreStart
 			if ( function_exists( 'wfUrlProtocols' ) ) {
+				// Allow custom protocols
 				$urlProtocols = wfUrlProtocols();
 			} else {
-				// @codeCoverageIgnoreEnd
 				$urlProtocols = 'https?:\/\/|ftp:\/\/';
 			}
 		}
+		// @codeCoverageIgnoreEnd
 
 		$extLinkBracketedRegex = '/(?:(<[^>]*)|' .
 			'\[(((?i)' . $urlProtocols . ')' .
