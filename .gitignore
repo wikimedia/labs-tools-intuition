@@ -1,4 +1,6 @@
 /coverage
+/tests/clover.xml
+/tests/coveralls-upload.json
 /node_modules
 /vendor
 composer.lock
