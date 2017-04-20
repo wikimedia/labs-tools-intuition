@@ -216,6 +216,12 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ), 'lang' => 'ru' ) ),
 			'Plural (ru) with 7 uses plural@3 form'
 		);
+
+		$this->assertEquals(
+			'The basket contains a dozen apples.',
+			$this->i18n->msg( 'basket', array( 'variables' => array( '12' ), 'parsemag' => true ) ),
+			'Plural with 12'
+		);
 	}
 
 	/**
@@ -309,12 +315,6 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'(test-register/foo)',
 			$this->i18n->msg( 'foo', array( 'domain' => 'test-register', 'lang' => 'qqx' ) ),
 			'Qqx message'
-		);
-
-		$this->assertEquals(
-			'The basket contains a dozen apples.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '12' ), 'parsemag' => true ) ),
-			'Plural with 12'
 		);
 	}
 
