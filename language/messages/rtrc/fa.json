@@ -7,7 +7,8 @@
 			"Leyth",
 			"AzorAhai",
 			"Ebraminio",
-			"Dejavu"
+			"Dejavu",
+			"Huji"
 		]
 	},
 	"title": "تغییرات اخیر در زمان واقعی",
@@ -39,6 +40,7 @@
 	"navtoggle-tooltip": "ثابت کردن نوار کناری",
 	"nomatches": "هیچ تغییر مربوطه برای تنظیماتتان وجود ندارد",
 	"order": "مرتب‌سازی",
+	"ores-scores": "امتیازهای ساعن",
 	"pause": "مکث",
 	"permalink": "پیوند ثابت به تنظیمات کنونی",
 	"reload-interval": "فاصله زمانی",
