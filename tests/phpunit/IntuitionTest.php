@@ -449,14 +449,11 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			'suppressnotice' => false,
 		) );
 
+		$this->setExpectedException( 'PHPUnit_Framework_Error_Notice' );
 		$this->assertEquals(
 			'[r4nd0mstr1n9]',
 			$i18n->msg( 'r4nd0mstr1n9' ),
 			'Unknown key falls back to bracket-wrapped key'
-		);
-		$this->expectOutputString(
-			'Notice: [Krinkle\Intuition\Intuition::msg] ' .
-				'Message "r4nd0mstr1n9" for lang "en" in domain "general" not found.'
 		);
 	}
 

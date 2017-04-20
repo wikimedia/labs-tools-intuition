@@ -110,7 +110,7 @@ class MessagesFunctions {
 			$this->msgFunctionRegex,
 			array( $this, 'msgFunctionMatches' ), $msg
 		);
-		$this->sendParseErrors( __METHOD__ );
+		$this->sendParseErrors();
 
 		return $msg;
 	}
@@ -120,7 +120,7 @@ class MessagesFunctions {
 
 		if ( $number == null || !is_numeric( $number ) ) {
 			$this->addParseError( "Invalid number argument to {{PLURAL: ...}}",
-				__METHOD__, E_ERROR, __FILE__, __LINE__ );
+				__METHOD__, E_ERROR );
 			return $msg;
 		}
 
@@ -138,7 +138,7 @@ class MessagesFunctions {
 	private function gender( $user, $parameters, $msg ) {
 		switch ( count( $parameters ) ) {
 			case 0:
-				$this->addParseError( "{{GENDER:}} with no variants" );
+				$this->addParseError( "{{GENDER:}} with no variants", __METHOD__ );
 				return '';
 			case 1:
 				return $parameters[0];
@@ -150,7 +150,7 @@ class MessagesFunctions {
 						'class' => 'gender-female'
 					) );
 			default:
-				$this->addParseError( "{{GENDER:}} given too many variants" );
+				$this->addParseError( "{{GENDER:}} given too many variants", __METHOD__ );
 			case 3:
 				return IntuitionUtil::tag( $parameters[2], 'span', array(
 						'class' => 'gender-neutral'
@@ -164,21 +164,20 @@ class MessagesFunctions {
 		}
 	}
 
-	private function addParseError( $errMsg, $context, $errType = E_WARNING, $file = '', $line = '' ) {
-		$this->error[] = array( 'msg' => $errMsg, 'context' => $context,
-			'type' => $errType, 'file' => $file, 'line' => $line
+	private function addParseError( $msg, $context, $errType = E_WARNING ) {
+		$this->error[] = array(
+			'msg' => $msg,
+			'context' => $context,
+			'type' => $errType
 		);
 	}
 
-	private function sendParseErrors( $parseContext ) {
-		if ( count( $this->error ) < 1 ) return;
-
-		$this->I18N->errTrigger( 'Problems when parsing the message. For Information see below!',
-			$parseContext, E_WARNING );
-
-		foreach( $this->error as $error ) {
-			$this->I18N->errTrigger( $error['msg'], $error['context'],
-				$error['type'], $error['file'], $error['line']
+	private function sendParseErrors() {
+		foreach ( $this->error as $error ) {
+			$this->I18N->errTrigger(
+				$error['msg'],
+				$error['context'],
+				$error['type']
 			);
 		}
 	}

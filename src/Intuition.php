@@ -665,7 +665,7 @@ class Intuition {
 		$file = $this->localBaseDir . '/language/fallbacks.json';
 		// @codeCoverageIgnoreStart
 		if ( !is_file( $file ) || !is_readable( $file ) ) {
-			$this->errTrigger( 'Unable to open fallbacks.json', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+			$this->errTrigger( 'Unable to open fallbacks.json', __METHOD__, E_NOTICE );
 			return array();
 		}
 		// @codeCoverageIgnoreEnd
@@ -708,7 +708,7 @@ class Intuition {
 			$path = $this->localBaseDir . '/language/mw-classes/Names.php';
 			// @codeCoverageIgnoreStart
 			if ( !is_file( $path ) || !is_readable( $path ) ) {
-				$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE, __FILE__, __LINE__ );
+				$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE );
 				$this->langNames = array();
 				return array();
 			}
@@ -1392,17 +1392,17 @@ class Intuition {
 	}
 
 	// Custom version of trigger_error() that can be passed a custom filename and line number
-	public function errTrigger( $msg, $context, $level = E_WARNING, $file = '', $line = '' ) {
+	public function errTrigger( $msg, $context, $level = E_WARNING ) {
 		$die = false;
 		$error = false;
 		$notice = false;
+		// Create $code string, decide error/die behaviour
+		// and cast to USER constant as required by trigger_error().
 		switch ( $level ) {
 			// Fatal
 			case E_ERROR:
-			case E_CORE_ERROR:
-			case E_COMPILE_ERROR:
 			case E_USER_ERROR:
-			case E_RECOVERABLE_ERROR:
+				$level = E_USER_ERROR;
 				$code = 'Fatal error';
 				$error = true;
 				$die = true;
@@ -1410,15 +1410,16 @@ class Intuition {
 
 			// Warning
 			case E_WARNING:
-			case E_CORE_WARNING:
-			case E_COMPILE_WARNING:
 			case E_USER_WARNING:
+				$level = E_USER_WARNING;
 				$code = 'Warning';
 				$error = true;
 				break;
 
 			// Notice
 			case E_NOTICE:
+			case E_USER_NOTICE:
+				$level = E_USER_NOTICE;
 				$code = 'Notice';
 				$notice = true;
 				break;
@@ -1435,17 +1436,9 @@ class Intuition {
 			return;
 		}
 
-		if ( PHP_SAPI === 'cli' ) {
-			echo "$code: " . $this->errMsg( $msg, $context ) .
-				( $file ? " in $file" : '' ) .
-				( $line ? " on line $line" : '' ) .
-				'.';
-		} else {
-			echo "<b>$code: </b>" . htmlspecialchars( $this->errMsg( $msg, $context ) ) .
-				( $file ? " in <b>$file</b>" : '' ) .
-				( $line ? " on line <b>$line</b>" : '' ) .
-				'.<br/>';
-		}
+		$errorMsg = "$code: [$context] $msg";
+
+		trigger_error( $errorMsg, $level );
 
 		if ( $die && !$this->stayalive ) {
 			die;
