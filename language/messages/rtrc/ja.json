@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Otokoume"
+			"Otokoume",
+			"Omotecho"
 		]
 	},
 	"title": "Real-Time Recent Changes",
@@ -17,6 +18,7 @@
 	"cvn-reason-empty": "理由がありません",
 	"desc": "降順",
 	"documentation": "説明書",
+	"feedback": "フィードバック",
 	"filter": "絞り込み",
 	"helpicon-tooltip": "この機能の詳細情報",
 	"lastupdate-cvn": "最終更新: $1",

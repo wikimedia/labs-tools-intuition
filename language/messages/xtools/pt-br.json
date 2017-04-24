@@ -4,7 +4,8 @@
 			"Fasouzafreitas",
 			"Araceletorres",
 			"Cainamarques",
-			"TheEduGobi"
+			"TheEduGobi",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"title_xtools": "Ferramentas X!",
@@ -37,6 +38,7 @@
 	"tool_autoblock_desc": "Verifique usuários autobloqueados",
 	"tool_adminstats_desc": "Mostrar estatísticas de ações administrativas",
 	"noexist": "$1 não existe",
+	"norevisions": "Não foram encontradas revisões",
 	"invalid_type": "Tipo inválido selecionado",
 	"invalid_date": "Data inválida",
 	"nocontribs": "Não foram encontradas contribuições",

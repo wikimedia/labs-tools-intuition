@@ -24,5 +24,6 @@
 	"prefs_title": "Daveennoù an danevelloù",
 	"prefs_submit": "Mat eo",
 	"prefs_done": "Kemmet eo bet ho tibaboù gwellañ",
-	"prefs_langlabel": "Yezh an etrefas :"
+	"prefs_langlabel": "Yezh an etrefas :",
+	"report_wascached": "Krubuilhet e oa bet an danevell-mañ %(age)zo."
 }
