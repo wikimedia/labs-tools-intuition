@@ -1,21 +1,11 @@
 <?php
 
-class IntuitionTest extends PHPUnit_Framework_TestCase {
-
-	private $i18n;
+class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 	protected function setUp() {
 		parent::setUp();
 
-		$i18n = new Intuition( 'general' );
-		$this->sampleMsgs( $i18n );
-		$this->i18n = $i18n;
-	}
-
-	protected function tearDown() {
-		parent::tearDown();
-
-		unset( $this->i18n );
+		$this->sampleMsgs( $this->i18n );
 	}
 
 	protected function sampleMsgs( Intuition $i18n ) {
@@ -651,6 +641,7 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @covers Intuition::setCookie
 	 * @covers Intuition::getCookieName
+	 * @covers Intuition::setExpiryTrackerCookie
 	 */
 	public function testSetCookie() {
 		$this->assertFalse( $this->i18n->setCookie( 'invalid', 'val' ) );
@@ -662,6 +653,55 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testGetCookieNames() {
 		$this->assertInternalType( 'array', $this->i18n->getCookieNames() );
+	}
+
+	/**
+	 * @covers Intuition::renewCookies
+	 */
+	public function testRenewCookies() {
+		$this->assertTrue( $this->i18n->renewCookies() );
+	}
+
+	/**
+	 * @covers Intuition::wipeCookies
+	 */
+	public function testWipeCookies() {
+		$this->assertTrue( $this->i18n->wipeCookies() );
+	}
+
+	/**
+	 * @covers Intuition::getCookieLifetime
+	 * @covers Intuition::getCookieExpiration
+	 */
+	public function testGetCookieLifetime() {
+		$this->assertSame(
+			0,
+			$this->i18n->getCookieExpiration(),
+			'default expiry'
+		);
+		$this->assertSame(
+			0,
+			$this->i18n->getCookieLifetime(),
+			'default lifetime'
+		);
+
+		$expectedLifetime = 200;
+		$now = 1490000000;
+		$expires = $now + $expectedLifetime;
+		$this->setTime( $now );
+
+		$_COOKIE[ $this->i18n->getCookieName( 'track-expire' ) ] = $expires;
+
+		$this->assertSame(
+			$expires,
+			$this->i18n->getCookieExpiration(),
+			'read expiry'
+		);
+		$this->assertSame(
+			$expectedLifetime,
+			$this->i18n->getCookieLifetime(),
+			'read lifetime'
+		);
 	}
 
 	/**
@@ -677,5 +717,25 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testGetParamNames() {
 		$this->assertInternalType( 'array', $this->i18n->getParamNames() );
+	}
+
+	/**
+	 * @covers Intuition::getUseRequestParam
+	 */
+	public function testGetUseRequestParam() {
+		$this->assertSame( true, $this->i18n->getUseRequestParam(), 'default' );
+		$this->i18n->setUseRequestParam( true );
+		$this->assertSame( true, $this->i18n->getUseRequestParam(), 'set true' );
+		$this->i18n->setUseRequestParam( false );
+		$this->assertSame( false, $this->i18n->getUseRequestParam(), 'set false' );
+	}
+
+	/**
+	 * @covers Intuition::setUseRequestParam
+	 */
+	public function testSetUseRequestParam() {
+		$this->assertSame( false, $this->i18n->setUseRequestParam( 'invalid' ), 'invalid' );
+		$this->assertSame( true, $this->i18n->setUseRequestParam( true ), 'set true' );
+		$this->assertSame( true, $this->i18n->setUseRequestParam( false ), 'set true' );
 	}
 }

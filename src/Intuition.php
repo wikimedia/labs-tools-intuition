@@ -872,20 +872,6 @@ class Intuition {
 	/* Cookie functions
 	 * ------------------------------------------------- */
 
-
-	/**
-	 * @codeCoverageIgnore
-	 * @param string $name
-	 * @param string $value
-	 * @param int $expire
-	 * @param string $path
-	 */
-	private function setRawCookie( $name, $value, $expire, $path = '/' ) {
-		if ( PHP_SAPI !== 'cli' ) {
-			setcookie( $name, $val, $expire, '/' );
-		}
-	}
-
 	/**
 	 * Set a cookie.
 	 *
@@ -907,7 +893,7 @@ class Intuition {
 			$expire = time() + $lifetime;
 
 			// Set a 30-day domain-wide cookie
-			$this->setRawCookie( $name, $val, $expire, '/' );
+			setcookie( $name, $val, $expire, '/' );
 
 			// In order to keep track of the expiration date, we set another cookie
 			if ( $track === TSINT_COOKIE_TRACK ) {
@@ -935,7 +921,9 @@ class Intuition {
 			if ( $key === 'track-expire' ) {
 				continue;
 			}
-			$this->setCookie( $key, $_COOKIE[$name], $lifetime, TSINT_COOKIE_NOTRACK );
+			if ( isset( $_COOKIE[$name] ) ) {
+				$this->setCookie( $key, $_COOKIE[$name], $lifetime, TSINT_COOKIE_NOTRACK );
+			}
 		}
 		$this->setExpiryTrackerCookie( $lifetime );
 		return true;
@@ -956,24 +944,24 @@ class Intuition {
 
 	/**
 	 * Get expiration timestamp.
+	 *
 	 * @return int Unix timestamp of expiration date or 0 if not available.
 	 */
 	public function getCookieExpiration() {
 		$name = $this->getCookieName( 'track-expire' );
-		$expire = isset( $_COOKIE[$name] ) ? intval( $_COOKIE[$name] ) : 0;
-		return $expire;
+		return isset( $_COOKIE[$name] ) ? intval( $_COOKIE[$name] ) : 0;
 	}
 
 	/**
-	 * Get expected lifetime left in seconds.
-	 * Returns 0 if expired or unavailable.
-	 * @return int
+	 * Get remaining lifetime in seconds.
+	 *
+	 * @return int Lifetime, or 0 if expired or unavailable.
 	 */
 	public function getCookieLifetime() {
 		$expire = $this->getCookieExpiration();
 		$lifetime = $expire - time();
 		// If already expired (-xxx), return 0
-		return $lifetime < 0 ? 0 : $lifetime;
+		return $lifetime > 0 ? $lifetime : 0;
 	}
 
 	public function hasCookies() {
