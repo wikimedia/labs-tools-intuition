@@ -598,6 +598,28 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		);
 	}
 
+	public static function provideIsLocalDomain() {
+		return array(
+			'general' => array( true, 'general' ),
+			'-x-unknown' => array( false, '-x-unknown' ),
+			'rtrc' => array( true, 'rtrc' ),
+		);
+	}
+
+	/**
+	 * @dataProvider provideIsLocalDomain
+	 * @covers Intuition::isLocalDomain
+	 */
+	public function testIsLocalDomain( $expected, $domain ) {
+		$obj = new ReflectionClass( $this->i18n );
+		$method = $obj->getMethod( 'isLocalDomain' );
+		$method->setAccessible( true );
+		$this->assertSame(
+			$expected,
+			$method->invokeArgs( $this->i18n, array( $domain ) )
+		);
+	}
+
 	/**
 	 * @covers Intuition::getAvailableLangs
 	 */
@@ -639,6 +661,13 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
+	 * @covers Intuition::getCookieNames
+	 */
+	public function testGetCookieNames() {
+		$this->assertInternalType( 'array', $this->i18n->getCookieNames() );
+	}
+
+	/**
 	 * @covers Intuition::setCookie
 	 * @covers Intuition::getCookieName
 	 * @covers Intuition::setExpiryTrackerCookie
@@ -649,10 +678,12 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getCookieNames
+	 * @covers Intuition::hasCookies
 	 */
-	public function testGetCookieNames() {
-		$this->assertInternalType( 'array', $this->i18n->getCookieNames() );
+	public function testHasCookies() {
+		$this->assertFalse( $this->i18n->hasCookies(), 'none' );
+		$_COOKIE[ $this->i18n->getCookieName( 'userlang' ) ] = 'en';
+		$this->assertTrue( $this->i18n->hasCookies(), 'some' );
 	}
 
 	/**
@@ -707,18 +738,18 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
+	 * @covers Intuition::getParamNames
+	 */
+	public function testGetParamNames() {
+		$this->assertInternalType( 'array', $this->i18n->getParamNames() );
+	}
+
+	/**
 	 * @covers Intuition::getParamName
 	 */
 	public function testGetParamName() {
 		$this->assertSame( null, $this->i18n->getParamName( 'invalid' ) );
 		$this->assertInternalType( 'string', $this->i18n->getParamName( 'userlang' ) );
-	}
-
-	/**
-	 * @covers Intuition::getParamNames
-	 */
-	public function testGetParamNames() {
-		$this->assertInternalType( 'array', $this->i18n->getParamNames() );
 	}
 
 	/**
