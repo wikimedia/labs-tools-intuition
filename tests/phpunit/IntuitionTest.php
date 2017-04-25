@@ -659,7 +659,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::renewCookies
 	 */
 	public function testRenewCookies() {
-		$this->assertTrue( $this->i18n->renewCookies() );
+		$this->assertTrue( $this->i18n->renewCookies(), 'empty' );
+		$_COOKIE[ $this->i18n->getCookieName( 'userlang' ) ] = 'en';
+		$this->assertTrue( $this->i18n->renewCookies(), 'non-empty' );
 	}
 
 	/**

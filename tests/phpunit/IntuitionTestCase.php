@@ -1,6 +1,7 @@
 <?php
 
 namespace Krinkle\Intuition;
+
 use PHPUnit_Framework_TestCase;
 
 function setcookie() {
