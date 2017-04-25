@@ -647,4 +647,35 @@ class IntuitionTest extends PHPUnit_Framework_TestCase {
 			$this->i18n->getDashboardReturnToUrl()
 		);
 	}
+
+	/**
+	 * @covers Intuition::setCookie
+	 * @covers Intuition::getCookieName
+	 */
+	public function testSetCookie() {
+		$this->assertFalse( $this->i18n->setCookie( 'invalid', 'val' ) );
+		$this->assertTrue( $this->i18n->setCookie( 'userlang', 'val' ) );
+	}
+
+	/**
+	 * @covers Intuition::getCookieNames
+	 */
+	public function testGetCookieNames() {
+		$this->assertInternalType( 'array', $this->i18n->getCookieNames() );
+	}
+
+	/**
+	 * @covers Intuition::getParamName
+	 */
+	public function testGetParamName() {
+		$this->assertSame( null, $this->i18n->getParamName( 'invalid' ) );
+		$this->assertInternalType( 'string', $this->i18n->getParamName( 'userlang' ) );
+	}
+
+	/**
+	 * @covers Intuition::getParamNames
+	 */
+	public function testGetParamNames() {
+		$this->assertInternalType( 'array', $this->i18n->getParamNames() );
+	}
 }

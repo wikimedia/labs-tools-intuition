@@ -286,8 +286,14 @@ class Intuition {
 		return $this->cookieNames;
 	}
 
+	/**
+	 * @param string $name
+	 * @return string|null
+	 */
 	public function getCookieName( $name ) {
-		return $this->cookieNames[$name];
+		return isset( $this->cookieNames[$name] )
+			? $this->cookieNames[$name]
+			: null;
 	}
 
 	/**
@@ -301,8 +307,15 @@ class Intuition {
 		return $this->paramNames;
 	}
 
+
+	/**
+	 * @param string $name
+	 * @return string|null
+	 */
 	public function getParamName( $name ) {
-		return $this->paramNames[$name];
+		return isset( $this->paramNames[$name] )
+			? $this->paramNames[$name]
+			: null;
 	}
 
 	/**
@@ -859,6 +872,20 @@ class Intuition {
 	/* Cookie functions
 	 * ------------------------------------------------- */
 
+
+	/**
+	 * @codeCoverageIgnore
+	 * @param string $name
+	 * @param string $value
+	 * @param int $expire
+	 * @param string $path
+	 */
+	private function setRawCookie( $name, $value, $expire, $path = '/' ) {
+		if ( PHP_SAPI !== 'cli' ) {
+			setcookie( $name, $val, $expire, '/' );
+		}
+	}
+
 	/**
 	 * Set a cookie.
 	 *
@@ -880,7 +907,7 @@ class Intuition {
 			$expire = time() + $lifetime;
 
 			// Set a 30-day domain-wide cookie
-			setcookie( $name, $val, $expire, '/' );
+			$this->setRawCookie( $name, $val, $expire, '/' );
 
 			// In order to keep track of the expiration date, we set another cookie
 			if ( $track === TSINT_COOKIE_TRACK ) {
