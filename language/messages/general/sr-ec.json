@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Platonides",
-			"Rancher"
+			"Rancher",
+			"Obsuser"
 		]
 	},
 	"dateformat": "%d %B %Y",
@@ -16,6 +17,7 @@
 	"form-submit": "Иди",
 	"form-reset": "Поништи",
 	"years": "{{PLURAL: $1|година|године|година}}",
+	"months": "{{PLURAL: $1|месец|месеца|месеци}}",
 	"weeks": "{{PLURAL: $1|недеља|недеље|недеља}}",
 	"days": "{{PLURAL: $1|дан|дана}}",
 	"hours": "{{PLURAL: $1|сат|сата|сати}}",

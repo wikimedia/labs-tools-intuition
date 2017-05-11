@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"SMP"
+			"SMP",
+			"Fitoschido"
 		]
 	},
-	"toolserver-status-ok": "No hi ha cap problema amb el clúster de base de dades $1 $2",
-	"toolserver-status-info": "Nota pels usuaris del clúster $1: $2",
-	"toolserver-status-warn": "Advertiment pels usuari del clúster $1: $2",
+	"toolserver-status-ok": "No hi ha cap problema amb l’agrupament de base de dades $1 $2",
+	"toolserver-status-info": "Nota pels usuaris de l’agrupament $1: $2",
+	"toolserver-status-warn": "Advertiment pels usuaris de l’agrupament $1: $2",
 	"toolserver-status-down": "El clúster de base de dades $1 està tancat temporalment. $2",
-	"toolserver-status-erro": "El clúster de base de dades $1 ha caigut. $2",
-	"toolserver-status-unknown": "Estat desconegut del clúster $1",
-	"toolserver-status-missing": "El clúster $1 no existeix",
+	"toolserver-status-erro": "L’agrupament de base de dades $1 no està disponible. $2",
+	"toolserver-status-unknown": "Estat desconegut de l’agrupament $1",
+	"toolserver-status-missing": "L’agrupament $1 no existeix",
 	"toolserver-status-short-ok": "$1: Correcte",
 	"toolserver-status-short-info": "$1: Info",
 	"toolserver-status-short-warn": "$1: Avís",

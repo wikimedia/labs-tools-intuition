@@ -1,22 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Asoxor"
+			"Asoxor",
+			"Lost Whispers"
 		]
 	},
 	"hello": "سڵاو",
 	"welcome": "بەخێربێی",
+	"toolversion": "وەشانی $1",
 	"toolversionstamp": "وەشانی $1 ($2)",
 	"etc": "ھتد",
 	"namespace": "بۆشاییی ناو",
 	"form-submit": "بڕۆ",
 	"form-reset": "دووبارە ڕێکخستنەوە",
 	"years": "{{PLURAL: $1|ساڵ|ساڵ}}",
+	"months": "{{PLURAL: $1|مانگ|مانگ}}",
 	"weeks": "{{PLURAL:$1|ھەفتە|ھەفتە}}",
 	"days": "{{PLURAL: $1|ڕۆژ|ڕۆژ}}",
 	"hours": "{{PLURAL: $1|کاتژمێر|کاتژمێر}}",
 	"minutes": "{{PLURAL: $1|خولەک|خولەک}}",
 	"seconds": "{{PLURAL: $1|چرکە|چرکە}}",
 	"last-modified-date": "دوایین گۆڕانکاری: $1",
-	"view-source": "سەرچاوەکەی ببینە"
+	"view-source": "سەرچاوەکەی ببینە",
+	"and": "&#32;و"
 }

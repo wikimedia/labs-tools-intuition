@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"Obsuser"
 		]
 	},
+	"description": "Мета информације о Викимедијиним викијима.",
 	"formats-heading": "Излазни формати",
 	"input": "Унос",
 	"label-wikiids": "Вики идентификатори",

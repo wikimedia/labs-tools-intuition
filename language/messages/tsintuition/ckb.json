@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Muhammed taha"
+			"Muhammed taha",
+			"Lost Whispers"
 		]
 	},
-	"tab-about": "سه‌باره‌ت"
+	"bl-mysettings": "ڕێکخستنەکانی زمانەکانم",
+	"bl-mysettings-new": "گۆڕینی زمان!",
+	"bl-promo": "وەرگێڕانەکان کراون لەڕێی $1 و $2.",
+	"bl-changelanguage": "زمانی ئەم ئامرازە بگۆڕە",
+	"help-translate-tool": "یارمەتی وەرگێڕانی ئەم ئامرازە بدە!",
+	"help-translate-all": "یارمەتی وەرگێڕانی ئامرازەکان بدە!"
 }
