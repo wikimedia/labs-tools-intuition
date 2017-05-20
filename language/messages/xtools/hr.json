@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Teoo3",
-			"MaGa"
+			"MaGa",
+			"Bugoslav"
 		]
 	},
 	"title_xtools": "X!ovi alati",
@@ -112,7 +113,7 @@
 	"with_summary": "sa sažetkom",
 	"thank": "Zahvale",
 	"approve": "Potvrde",
-	"patrol": "Patroliranja",
+	"patrol": "Ophodnji",
 	"block": "Blokiranja",
 	"unblock": "Odblokiranja",
 	"protect": "Zaštite",

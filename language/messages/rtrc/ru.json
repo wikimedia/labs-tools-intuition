@@ -5,7 +5,8 @@
 			"Nzeemin",
 			"Irus",
 			"Nitch",
-			"Redredsonia"
+			"Redredsonia",
+			"Facenapalm"
 		]
 	},
 	"title": "Последние изменения в режиме реального времени",
@@ -20,6 +21,7 @@
 	"cvn-adder-empty": "Неизвестен",
 	"cvn-reason": "Причина",
 	"cvn-reason-empty": "Причина не найдена",
+	"cvn-scores": "Записи CVN",
 	"desc": "По убыванию",
 	"documentation": "Документация",
 	"feedback": "Обратная связь",
@@ -46,6 +48,7 @@
 	"open-in-wiki": "Открыть в Вики",
 	"order": "Порядок",
 	"ores-damaging-probability": "Повреждения вероятность: $1",
+	"ores-scores": "Записи ORES",
 	"pause": "Пауза",
 	"permalink": "Постоянная ссылка на текущие параметры",
 	"reload-interval": "Интервал",
