@@ -7,7 +7,8 @@
 			"IAlex",
 			"Od1n",
 			"Sherbrooke",
-			"Wyz"
+			"Wyz",
+			"Urhixidur"
 		]
 	},
 	"attention": "Attention",
@@ -39,7 +40,7 @@
 	"original_wikitext": "Wikitexte original",
 	"new_wikitext": "Nouveau wikitexte",
 	"new_filename": "Nouveau nom de fichier :",
-	"output_information": "Pour le téléversement manuel, modifier le texte ci-dessus (si nécessaire), enregistrez $1le fichier$2 sur votre ordinateur, puis $3le télécharger$4.",
+	"output_information": "Pour le téléversement manuel, modifier le texte ci-dessus (si nécessaire), enregistrez $1le fichier$2 sur votre ordinateur, puis $3le téléverser$4.",
 	"upload_submit": "Téléverser",
 	"target_wiki": "le wiki cible",
 	"standard_project": "Wikipédia",

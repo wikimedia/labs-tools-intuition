@@ -5,7 +5,9 @@
 			"StanProg"
 		]
 	},
+	"settings": "Настройки",
 	"other_lang": "други езици",
 	"language": "език",
-	"portal": "Портал"
+	"portal": "Портал",
+	"namespaces": "именни пространства"
 }

@@ -18,5 +18,5 @@
 	"minutes": "{{PLURAL: $1|menit|menit}}",
 	"seconds": "{{PLURAL: $1|detik|detik}}",
 	"last-modified-date": "Pungkasan diowah: $1",
-	"view-source": "Delok sumber"
+	"view-source": "Deleng sumber"
 }

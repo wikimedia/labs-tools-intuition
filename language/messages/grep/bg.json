@@ -4,5 +4,7 @@
 			"StanProg"
 		]
 	},
-	"language-label": "Език"
+	"results": "Резултати",
+	"language-label": "Език",
+	"namespace-label": "Именно пространство"
 }

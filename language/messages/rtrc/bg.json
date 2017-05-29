@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
 	"cvn-reason": "Причина",
 	"documentation": "Документация",
+	"license": "Лиценз",
 	"namespace": "Именно пространство",
 	"time-from": "От",
 	"typeEdit": "Редакции",
