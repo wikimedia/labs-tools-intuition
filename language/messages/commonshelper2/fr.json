@@ -14,7 +14,7 @@
 	"attention": "Attention",
 	"description": "Un outil pour transférer des fichiers des projets Wikimedia vers Wikimedia Commons",
 	"change_meta": "Modifie la $1catégorie et les paramètres du modèle$2 pour $3",
-	"jira_link": "Signaler un bug ou suggérer une fonctionnalité",
+	"jira_link": "Signaler un bogue ou suggérer une fonctionnalité",
 	"language": "Langue",
 	"project": "Projet",
 	"source_file": "Fichier source",
