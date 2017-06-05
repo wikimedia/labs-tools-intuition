@@ -7,7 +7,8 @@
 			"Robby",
 			"Shirayuki",
 			"Nemo bis",
-			"Nike"
+			"Nike",
+			"Srdjan m"
 		]
 	},
 	"title_xtools": "the tool's title",
@@ -170,7 +171,7 @@
 	"lastweek": "phrase as short as possible",
 	"lastmonth": "phrase as short as possible",
 	"lastyear": "phrase as short as possible",
-	"editorcount": "Number of editors per page, phrase as short as possible.\n{Identical|Number of editors}}",
+	"editorcount": "Number of editors per page, phrase as short as possible.\n{{Identical|Number of editors}}",
 	"toptencount": "Number of edits made by the top 10% of active users\n\nphrase as short as possible",
 	"ips": "label for non-logged in users, plural\n{{Identical|IP}}",
 	"minor": "edits marked as minor.\n\nSee also:\n* {{msg-intuition|X'stools-major}}\n{{Identical|Minor edit}}",
