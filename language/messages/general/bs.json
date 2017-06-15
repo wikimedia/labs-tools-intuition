@@ -3,7 +3,8 @@
 		"authors": [
 			"CERminator",
 			"KWiki",
-			"Palapa"
+			"Palapa",
+			"Srdjan m"
 		]
 	},
 	"hello": "Pozdrav",
@@ -14,9 +15,9 @@
 	"form-submit": "Idi",
 	"form-reset": "Poništi",
 	"years": "{{PLURAL: $1|godina|godine|godina}}",
-	"weeks": "sedmice",
-	"days": "dani",
-	"hours": "sati",
+	"weeks": "{{PLURAL: $1|sedmica|sedmice|sedmica}}",
+	"days": "{{PLURAL:$1|dan|dana}}",
+	"hours": "{{PLURAL: $1|sat|sata|sati}}",
 	"last-modified-date": "Posljednji put izmijenjeno: $1",
 	"view-source": "Pogledaj izvor"
 }

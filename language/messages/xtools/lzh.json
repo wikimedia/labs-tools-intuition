@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"StephDC"
+			"StephDC",
+			"Itsmine"
 		]
 	},
 	"noexist": "$1 無存",
 	"show": "示",
 	"translatelink": "譯",
-	"login": "登簿",
+	"login": "籍名",
 	"approximate": "約",
 	"editcounter": "計纂數器",
 	"thank": "謝",

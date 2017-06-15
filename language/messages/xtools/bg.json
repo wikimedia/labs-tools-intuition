@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"Vodnokon4e"
 		]
 	},
-	"tool_autoblock": "Автоматичноo блокиране",
+	"tool_autoblock": "Автоматично блокиране",
 	"edits": "редакции",
 	"select_language": "Избор на език",
 	"namespace": "Именно пространство"
