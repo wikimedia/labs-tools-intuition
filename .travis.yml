@@ -1,4 +1,8 @@
 sudo: false
+# Trusty is required for HHVM
+# Note: Trusty with 'sudo: false' (containers) are still in Beta
+# https://blog.travis-ci.com/2016-11-08-trusty-container-public-beta/
+dist: trusty
 language: php
 php:
   - "5.6"
