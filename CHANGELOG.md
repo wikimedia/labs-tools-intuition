@@ -1,3 +1,15 @@
+## v0.6.1 (2017-06-20)
+
+### Bug fixes
+
+* core: Fix PHP warning when preference is set to a language without
+  translations in the current domain. (issue [#81](https://github.com/Krinkle/intuition/issues/81))
+
+### Maintenance
+
+* Localisation updates from https://translatewiki.net.
+* test: Improve overall code coverage.
+
 ## v0.6.0 (2017-04-20)
 
 Domains:
