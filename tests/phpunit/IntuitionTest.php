@@ -456,6 +456,65 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		);
 	}
 
+
+	public static function provideRedirectTo() {
+		return array(
+			'valid url' => array( true, 'https://example.org/', true ),
+			'null clears redirect' => array( true, null, false ),
+			'array is invalid' => array( false, [ 'invalid' ], false )
+		);
+	}
+
+	/**
+	 * @dataProvider provideRedirectTo
+	 * @covers Intuition::redirectTo
+	 * @covers Intuition::isRedirecting
+	 */
+	public function testRedirectTo( $ret, $url, $isRedirect = null ) {
+		$this->assertSame( $ret, $this->i18n->redirectTo( $url ) );
+		$this->assertSame( $isRedirect, $this->i18n->isRedirecting() );
+	}
+
+	/**
+	 * @dataProvider provideRedirectTo
+	 * @covers Intuition::redirectTo
+	 * @covers Intuition::isRedirecting
+	 */
+	public function testRedirectMultiple() {
+		// Verify behaviour of calling redirectTo() multiple times
+		$this->assertFalse(
+			$this->i18n->isRedirecting(),
+			'default'
+		);
+
+		$this->assertTrue(
+			$this->i18n->redirectTo( 'https://example.org/' ),
+			'url 1 is set'
+		);
+		$this->assertTrue(
+			$this->i18n->isRedirecting(),
+			'url 1 is active'
+		);
+
+		$this->assertFalse(
+			$this->i18n->redirectTo( [ 'invalid' ], 'value' ),
+			'invalid value rejected'
+		);
+		$this->assertTrue(
+			$this->i18n->isRedirecting(),
+			'url 1 is (still) active'
+		);
+
+		$this->assertTrue(
+			$this->i18n->redirectTo( null ),
+			'null is accepted'
+		);
+		$this->assertFalse(
+			$this->i18n->isRedirecting(),
+			'url was cleared'
+		);
+	}
+
 	/**
 	 * @covers Intuition::parentheses
 	 * @covers Intuition::parensWrap
