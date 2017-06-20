@@ -342,6 +342,44 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 	/**
 	 * @covers Intuition::ensureLoaded
+	 * @covers Intuition::loadMessageFile
+	 * @covers Intuition::rawMsg
+	 */
+	public function testMsgFallbackForDomains() {
+		// Fallbacks that trigger message file loading
+		// (the previous examples use a faux domain defined lazily
+		// via setMsgs, 'test-domain' has no directory so there is no
+		// interaction with the i18n/ directory when resolving fallbacks
+		// which can also cause issues (issue #81)
+		$i18n = new Intuition();
+		$i18n->registerDomain( 'test', __DIR__ . '/data/i18n' );
+		$this->assertEquals(
+			'Foo bar',
+			$i18n->rawMsg( 'test', 'en', 'foo' ),
+			'Message from domain directory (en)'
+		);
+
+		$this->assertEquals(
+			null,
+			$i18n->rawMsg( 'test', 'nl', 'unknown' ),
+			'Message from domain directory (lang: nl, unknown message)'
+		);
+
+		$this->assertEquals(
+			'Foo bar',
+			$i18n->rawMsg( 'test', 'en-gb', 'foo' ),
+			'Message from domain directory (lang: en-gb, fallback to en)'
+		);
+
+		$this->assertEquals(
+			'Foo bar',
+			$i18n->rawMsg( 'test', 'x-unknown', 'foo' ),
+			'Message from domain directory (lang: x-unknown, fallback to en)'
+		);
+	}
+
+	/**
+	 * @covers Intuition::ensureLoaded
 	 */
 	public function testMessageCache() {
 		// When a class loads a domain/language pair
@@ -543,7 +581,19 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$this->assertEquals(
 			'de value',
 			$this->i18n->rawMsg( 'test-domain', 'de_formal', 'test-value' ),
-			'Language with 1 fallback'
+			'Language with 1 fallback (normalised en-gb)'
+		);
+
+		$this->assertEquals(
+			'de value',
+			$this->i18n->rawMsg( 'test-domain', 'de-formal', 'test-value' ),
+			'Language with 1 fallback (de-formal)'
+		);
+
+		$this->assertEquals(
+			'de value',
+			$this->i18n->rawMsg( 'test-domain', 'de_formal', 'test-value' ),
+			'Language with 1 fallback (normalised de_formal)'
 		);
 
 		$this->assertEquals(

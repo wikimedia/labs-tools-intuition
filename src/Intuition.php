@@ -824,6 +824,11 @@ class Intuition {
 	 * @return bool
 	 */
 	public function loadMessageFile( $domain, $lang, $file ) {
+		if ( !is_file( $file ) ) {
+			// Most domains don't have translations in every single language.
+			return false;
+		}
+
 		$messages = json_decode( file_get_contents( $file ), /* assoc = */ true );
 		if ( !is_array( $messages ) ) {
 			// @codeCoverageIgnoreStart
