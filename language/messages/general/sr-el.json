@@ -3,7 +3,8 @@
 		"authors": [
 			"Milicevic01",
 			"Platonides",
-			"Rancher"
+			"Rancher",
+			"Obsuser"
 		]
 	},
 	"dateformat": "%d %B %Y",
@@ -20,7 +21,7 @@
 	"days": "{{PLURAL: $1|dan|dana|dana}}",
 	"hours": "{{PLURAL: $1|sat|sata|sati}}",
 	"minutes": "{{PLURAL: $1|minut|minuta|minuta}}",
-	"seconds": "{{PLURAL: $1|sekund|sekunde|sekundi}}",
+	"seconds": "{{PLURAL: $1|sekund|sekunda|sekundi}}",
 	"last-modified-date": "Poslednja izmena: $1",
 	"view-source": "Izvorni kod",
 	"parentheses": "($1)",

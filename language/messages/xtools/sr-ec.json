@@ -4,7 +4,8 @@
 			"Milicevic01",
 			"Dicto23456",
 			"Сербијана",
-			"Srdjan m"
+			"Srdjan m",
+			"Obsuser"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -56,7 +57,7 @@
 	"logout": "Одјави ме",
 	"time_ago": "пре $1 $2",
 	"past_time": "прошли $1 $2",
-	"seconds": "{{PLURAL:$1|секунда|секунде|секунди}}",
+	"seconds": "{{PLURAL:$1|секунд|секунда|секунди}}",
 	"minutes": "{{PLURAL:$1|минут|минута}}",
 	"days": "{{PLURAL: $1|дан|дана}}",
 	"hours": "{{PLURAL: $1|сат|сата|сати}}",

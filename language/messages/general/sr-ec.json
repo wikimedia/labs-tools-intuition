@@ -22,7 +22,7 @@
 	"days": "{{PLURAL: $1|дан|дана}}",
 	"hours": "{{PLURAL: $1|сат|сата|сати}}",
 	"minutes": "{{PLURAL: $1|минут|минута}}",
-	"seconds": "{{PLURAL: $1|секунд|секунде|секунди}}",
+	"seconds": "{{PLURAL: $1|секунд|секунда|секунди}}",
 	"last-modified-date": "Последња измена: $1",
 	"view-source": "Изворни кôд",
 	"parentheses": "($1)",

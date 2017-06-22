@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Сербијана"
+			"Сербијана",
+			"Obsuser"
 		]
 	},
 	"title_xtools": "X!'s tools",
@@ -52,7 +53,7 @@
 	"logout": "Odjavi me",
 	"time_ago": "pre $1 $2",
 	"past_time": "prošli $1 $2",
-	"seconds": "{{PLURAL:$1|sekunda|sekunde|sekundi}}",
+	"seconds": "{{PLURAL:$1|sekund|sekunda|sekundi}}",
 	"minutes": "{{PLURAL:$1|minut|minuta}}",
 	"days": "{{PLURAL:$1|dan|dana}}",
 	"hours": "{{PLURAL:$1|sat|sata|sati}}",
