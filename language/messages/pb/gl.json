@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
 	"pb-about-pb-navi": "Acerca de",
@@ -9,6 +10,9 @@
 	"pb-about-pb-title": "Acerca deste proxecto",
 	"pb-change-language": "Cambiar a lingua",
 	"pb-comment": "Comentario",
+	"pb-confirmations-given": "Confirmacións dadas",
+	"pb-confirmations-taken": "Confirmacións recibidas",
+	"pb-current-confirmations": "Hai $1 confirmacións en total, ó redor de <abbr title=\"$2\">$3</abbr> confirmacións por día.",
 	"pb-current-figures": "Números actuais",
 	"pb-date": "Data",
 	"pb-home": "Inicio",
