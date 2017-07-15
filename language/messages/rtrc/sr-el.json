@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Obsuser"
 		]
 	},
-	"tag": "Oznaka"
+	"title": "Skorašnje izmene u realnom vremenu",
+	"tag": "Oznaka",
+	"typeEdit": "Izmene"
 }

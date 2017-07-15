@@ -1,9 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Obsuser"
 		]
 	},
+	"title": "Шаблонско повезивање и провера укључивања",
+	"description": "Провера и извештај који чланци који укључују шаблон нису повезани из шаблона, те који чланци који су повезани из шаблона не укључују исти.",
 	"form-label-language": "Језик:",
-	"form-label-template": "Име шаблона:"
+	"form-label-template": "Име шаблона:",
+	"form-label-template2": "(укључујући именски простор)",
+	"form-label-complete": "Генерисање комплетног извештаја:",
+	"feedback-result": "Резултати за $1",
+	"feedback-header-mismatch": "Непоклапање између укључивања и веза",
+	"feedback-header-no-link": "Укључивање али нема везе",
+	"feedback-header-no-transclusion": "Веза али нема укључивања",
+	"feedback-total-count": "Укупно: $1",
+	"feedback-header-complete": "Комплетан преглед укључивања и повезивања",
+	"feedback-header-transclusions": "Укључивања шаблона",
+	"feedback-header-links": "Везе из шаблона",
+	"link-edit": "уреди",
+	"link-create": "направи",
+	"link-complete": "Комплетан извештај...",
+	"footer-stats": "Генерисано: $1. Трајање: $2 {{PLURAL:$2|секунд|секунда|секунди}}."
 }

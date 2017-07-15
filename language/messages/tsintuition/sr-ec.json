@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Rancher"
+			"Rancher",
+			"Obsuser"
 		]
 	},
 	"bl-mysettings": "Језичке поставке",
 	"bl-mysettings-new": "Промените језик.",
 	"bl-promo": "За преводе су заслужни $1 и $2.",
 	"bl-changelanguage": "Кликните овде да промените језик алатке",
-	"help-translate-tool": "Помозите нам да преведемо ову алатку",
+	"help-translate-tool": "Помозите у превођењу ове алатке!",
 	"help-translate-all": "Помозите нам да преведемо алатке!",
 	"help-translate-tooltip": "Помозите другима преводивши поруке сучеља на свој језик"
 }
