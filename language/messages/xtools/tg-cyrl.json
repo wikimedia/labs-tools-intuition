@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"AryanSogd"
+			"AryanSogd",
+			"ToJack",
+			"Vashgird"
 		]
 	},
 	"title_xtools": "X!'s олотҳо",
@@ -21,5 +23,8 @@
 	"tool_adminstats": "Омори мудирон",
 	"tool_ec_desc": "Таҳлили ҳисаи корбар",
 	"tool_rfa_desc": "Таҳлили дархостҳо дар саҳифаҳои ҳуқуқҳои мудир/девонсолор",
-	"tool_adminstats_desc": "Намоиши омори амалҳои мудир"
+	"tool_adminstats_desc": "Намоиши омори амалҳои мудир",
+	"username": "Номи корбар",
+	"bytes": "байт",
+	"thank": "Сипос"
 }
