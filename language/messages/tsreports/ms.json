@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Jeluang Terluang"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Tukar bahasa / keutamaan</a>",
@@ -18,7 +19,7 @@
 	"select_report_title": "Pilih laporan untuk dijalankan pada %(wiki)s",
 	"select_report": "Sila pilih laporan:",
 	"select_report_disabled": "Laporan ini tidak tersedia.",
-	"select_report_disabled_blurb": "Nota: Laporan <span class=\"disabled-report\">seperti ini</span> adalah pertanyaan saban malam yang tidak pernah dijalankan; oleh itu tiadanya hasil untuk laporan-laporan ini. Sebaik sahaja laporan saban malam yang seterusnya selesai, akan keluarlah laporan-laporan ini.",
+	"select_report_disabled_blurb": "Nota: Laporan <span class=\"disabled-report\">seperti ini</span> ialah pertanyaan saban malam yang tidak pernah dijalankan; oleh itu tiadanya hasil untuk laporan-laporan ini. Sebaik sahaja laporan saban malam yang seterusnya selesai, akan keluarlah laporan-laporan ini.",
 	"select_report_not_cached": "Laporan ini tiada versi cache. Klik pautan untuk mulakan jalanan pertama.",
 	"select_report_first": "Laporan ini sedang diproses buat kali pertama dan seharusnya siap sebentar sahaja lagi.",
 	"select_report_hot": "Laporan ini terdapat versi cache yang %(age)s lamanya.",

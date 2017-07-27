@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Kly"
+			"Kly",
+			"LNDDYL"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">變更語言/設置</a>",
@@ -32,7 +33,7 @@
 	"qvar_next": "下一步→",
 	"prefs_title": "報告設置",
 	"prefs_submit": "確認",
-	"prefs_done": "您的設置已更改",
+	"prefs_done": "您的偏好已變更。",
 	"prefs_langlabel": "介面語言：",
 	"report_wascached": "此篇報告的快取於%(age)s產生。",
 	"report_cold_cache_running": "快取(重新)產生在%(runtime)s前。",

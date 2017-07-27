@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Faren",
-			"Ty221"
+			"Ty221",
+			"Woytecr"
 		]
 	},
 	"title": "Grep tytułu artykułu (beta)",
+	"introduction": "To narzędzie pokazuje wszystkie tytuły artykułów pasujące do podanego wyrażenia regularnego ($1). Wyszukiwanie za pomocą wyrażeń regularnych obciąża zasoby. Jeżeli to możliwe, użyj wskaźników prefiksu (^) i suffiksu ($).",
 	"explanation": "wyjaśnienie",
 	"regex": "Wyrażenie regularne",
 	"enter-details": "Wprowadź szczegóły",

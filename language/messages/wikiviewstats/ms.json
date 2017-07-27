@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Jeluang Terluang"
 		]
 	},
 	"records": "rekod",
@@ -94,7 +95,7 @@
 	"comparisonOfPages": "perbandingan berbilang laman",
 	"historyDataCatchup": "Notis: data sejarah sedang dalam proses mengejar",
 	"selectCategory": "Pilih kategori dari menu kiri",
-	"homeMain": "Laman utama adalah jadual data utama yang mengandungi sebarang data",
+	"homeMain": "Laman utama ialah jadual data utama yang mengandungi sebarang data",
 	"filerResults": "Tapis hasil dengan menukar parameter di menu mengikut kehendak anda sendiri",
 	"furtherInformation": "Maklumat lanjut",
 	"urlParameter": "Parameter URL",
@@ -113,7 +114,7 @@
 	"barchart": "carta bar",
 	"linechart": "carta garis",
 	"linechart_filled": "carta garis berisi",
-	"isRedirect": "Laman ini adalah lencongan",
+	"isRedirect": "Laman ini ialah lencongan",
 	"disambPage": "Laman nyahkekaburan",
 	"showRedir": "Paparkan lencongan",
 	"searchVariants": "Varian carian",

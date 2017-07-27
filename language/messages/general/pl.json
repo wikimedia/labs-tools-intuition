@@ -5,7 +5,8 @@
 			"Odder",
 			"Platonides",
 			"Sp5uhe",
-			"Ty221"
+			"Ty221",
+			"Woytecr"
 		]
 	},
 	"hello": "Witaj",
@@ -17,7 +18,7 @@
 	"form-submit": "Dalej",
 	"form-reset": "Wyczyść",
 	"years": "{{PLURAL:$1|rok|lata|lat}}",
-	"months": "{{PLURAL: $1|miesiąc|miesięcy}}",
+	"months": "{{PLURAL: $1|miesiąc|miesiące|miesięcy}}",
 	"weeks": "{{PLURAL:$1|tydzień|tygodnie|tygodni}}",
 	"days": "{{PLURAL:$1|dzień|dni}}",
 	"hours": "{{PLURAL:$1|godzina|godziny|godzin}}",

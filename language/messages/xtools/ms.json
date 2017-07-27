@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"SNN95"
+			"SNN95",
+			"Jeluang Terluang"
 		]
 	},
 	"title_xtools": "Peralatan X!",
 	"welcome": "Selamat datang ke peralatan X!",
-	"million": "Sukar dipercayai. Memang sukar dipercayai. Pengiraan suntingan ini telah ditubuhkan pada bulan Disember 2008, dan dalam masa 1.5 tahun, telah mengumpulkan lebih 1 juta hit. Ini adalah sesuatu yang mengejutkan. Saya berterima kasih kepada semua atas sokongan yang berterusan daripada alat ini sepanjang tahun. Tanpa sokongan anda, alat ini tidak akan wujud. Mari kita berharap untuk berjuta lagi! --X! Mei 14, 2010",
+	"million": "Sukar dipercayai. Memang sukar dipercayai. Pengiraan suntingan ini telah ditubuhkan pada bulan Disember 2008, dan dalam masa 1.5 tahun, telah mengumpulkan lebih 1 juta hit. Ini ialah sesuatu yang mengejutkan. Saya berterima kasih kepada semua atas sokongan yang berterusan daripada alat ini sepanjang tahun. Tanpa sokongan anda, alat ini tidak akan wujud. Mari kita berharap untuk sejuta lagi! --X! Mei 14, 2010",
 	"tool_ec": "Pengira Suntingan",
 	"tool_blame": "Pesalah rencana",
 	"tool_articleinfo": "Laman sejarah",
