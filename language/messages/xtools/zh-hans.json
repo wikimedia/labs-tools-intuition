@@ -77,7 +77,7 @@
 	"select_language": "选择语言",
 	"translatelink": "翻译",
 	"login": "登录",
-	"logout": "注销",
+	"logout": "退出",
 	"time_ago": "$1$2以前",
 	"past_time": "过去$1$2",
 	"seconds": "{{PLURAL: $1|秒}}",
