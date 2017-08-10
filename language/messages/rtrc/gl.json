@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
 	"title": "Cambios recentes en tempo real",
@@ -17,8 +18,10 @@
 	"cvn-adder-empty": "Descoñecido",
 	"cvn-reason": "Motivo",
 	"cvn-reason-empty": "Non se atopou ningún motivo",
+	"cvn-scores": "Puntuacións CVN",
 	"desc": "Descendente",
 	"documentation": "Documentación",
+	"feedback": "Comentarios",
 	"filter": "Filtro",
 	"filter-hideliu": "Agochar usuarios rexistrados",
 	"filter-hidebots": "Agochar bots",
@@ -28,16 +31,21 @@
 	"lastupdate-cvn": "Última actualización: $1",
 	"lastupdate-rc": "Última actualización: $1",
 	"legend": "Lenda",
+	"license": "Licenza",
 	"limit": "Límite",
+	"mark": "marcar",
 	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "MassPatrol foi desactivado, dado que necesita un filtro de usuario e non hai ningún filtro definido.",
 	"months": "xaneiro, febreiro, marzo, abril, maio, xuño, xullo, agosto, setembro, outubro, novembro, decembro",
 	"mypatrollog": "o meu rexistro de patrullas",
 	"namespace": "Espazo de nomes",
 	"navtoggle-tooltip": "Activar ou desactivar a barra lateral",
+	"new-short": "nova",
 	"nomatches": "Non se produciron cambios relevantes segundo a súa configuración",
+	"open-in-wiki": "Abrir na wiki",
 	"order": "Orde",
 	"ores-damaging-probability": "Probabilidade de dano: $1",
+	"ores-scores": "Puntuacións ORES",
 	"pause": "Pausar",
 	"permalink": "Ligazón permanente á configuración actual",
 	"reload-interval": "Intervalo",

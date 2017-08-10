@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Macofe"
+			"Macofe",
+			"Elisardojm"
 		]
 	},
 	"category_users": "Usuarios",
@@ -18,6 +19,7 @@
 	"select_report_go_back": "← Cambiar wiki",
 	"qvar_title": "Introduce as variables para a túa consulta",
 	"qvar_next": "Seguinte →",
+	"prefs_title": "Preferencias de informes",
 	"prefs_submit": "Aceptar",
 	"prefs_done": "Gardáronse as túas preferencias.",
 	"prefs_langlabel": "Lingua da interface:",
