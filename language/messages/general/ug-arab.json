@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sahran"
+			"Sahran",
+			"Uzdil"
 		]
 	},
 	"dateformat": "%Y-يىلى %d-ئاينىڭ %B-كۈنى",
@@ -11,7 +12,7 @@
 	"etc": "قاتارلىق.",
 	"colon-separator": ":",
 	"namespace": "ئات بوشلۇقى",
-	"form-submit": "يۆتكەل",
+	"form-submit": "يوللاش",
 	"form-reset": "ئەسلىگە قايتۇر",
 	"years": "{{PLURAL: $1|يىل|يىل}}",
 	"weeks": "{{PLURAL: $1|ھەپتە|ھەپتە}}",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Raoli"
+			"Raoli",
+			"Greis"
 		]
 	},
 	"title": "Ultime modifiche in tempo reale",
@@ -41,7 +42,7 @@
 	"navtoggle-tooltip": "Attiva o disattiva la barra laterale",
 	"new-short": "nuovo",
 	"nomatches": "Nessuna modifica rilevante per le tue impostazioni",
-	"open-in-wiki": "Apri nel wiki",
+	"open-in-wiki": "Apri in Wiki",
 	"order": "Ordina",
 	"ores-damaging-probability": "Probabilità danno: $1",
 	"ores-scores": "Punteggi ORES",
