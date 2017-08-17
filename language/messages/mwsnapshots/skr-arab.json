@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"title-error": "نقص",
+	"title-downloadpage": "ڈاؤن لوڈ ، لہاوݨ",
+	"title-downloadpage-repo": "$1 ڈاؤنلوڈ کرو",
+	"repo-site-link": "ویب سائٹ",
+	"repo-branches-label": "شاخاں:",
+	"repo-lastmoddate-label": "تاریخ:",
+	"branches-submit-button": "گھنو!",
+	"tablehead-branch": "شاخ",
+	"tablehead-filesize": "فائل دا سائز"
+}

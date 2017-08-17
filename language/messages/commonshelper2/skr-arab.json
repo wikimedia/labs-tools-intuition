@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"language": "زبان",
+	"project": "منصوبہ",
+	"source_file": "اصل فائل",
+	"target_file": "ہدف فائل",
+	"categories": "قسماں",
+	"upload_submit": "اپلوڈ!"
+}

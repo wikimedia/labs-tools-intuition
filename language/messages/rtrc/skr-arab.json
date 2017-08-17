@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"clear": "صاف",
+	"close": "بند کرو",
+	"cvn-adder-empty": "اݨ سونہاں",
+	"cvn-reason": "سبب",
+	"cvn-reason-empty": "کوئی وجہ کائنی",
+	"filter": "نتارا",
+	"help": "مدد",
+	"limit": "حد",
+	"mark": "نشان",
+	"namespace": "ناں جاہ",
+	"new-short": "نواں",
+	"order": "ترتیب",
+	"pause": "جمبو، اجھکو",
+	"select-placeholder-none": "(کوئی وی کائنی)",
+	"showAnonOnly": "صرف گمنام",
+	"skip": "چھوڑو",
+	"tag": "ٹیگ",
+	"time-from": "توں",
+	"time-untill": "تائیں",
+	"type": "قسم",
+	"typeEdit": "تبدیلیاں",
+	"typeNew": "نویں ورقے"
+}

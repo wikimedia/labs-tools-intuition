@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"voiceintro-toolbar-stop-label": "اختتام",
+	"voiceintro-toolbar-clear-label": "صاف",
+	"voiceintro-toolbar-upload-label": "اپلوڈ",
+	"voiceintro-information-label": "معلومات",
+	"voiceintro-information-language-label": "زبان:"
+}

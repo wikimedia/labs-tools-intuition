@@ -2,14 +2,40 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"StanProg"
+			"StanProg",
+			"ShockD"
 		]
 	},
+	"apply": "Приложи",
+	"asc": "Възх.",
+	"close": "Затвори",
+	"currentedit": "Текуща избрана редакция",
 	"cvn-reason": "Причина",
+	"desc": "Низх.",
 	"documentation": "Документация",
+	"filter": "Филтър",
+	"filter-hideliu": "Скрий регистрирани потребители",
+	"filter-hidebots": "Скрий ботове",
+	"filter-unpatrolled": "Скрий проверени редакции",
+	"lastupdate-cvn": "Последно обновяване",
+	"legend": "Легенда",
 	"license": "Лиценз",
+	"limit": "Лимит",
+	"mark": "Отбележи",
+	"mypatrollog": "Моят дневник на патрула",
 	"namespace": "Именно пространство",
+	"open-in-wiki": "Отвори в Уики",
+	"order": "Ред",
+	"pause": "Пауза",
+	"reload-interval": "Интервал (сек.)",
+	"skip": "Пропусни",
+	"skippededit": "Пропусната редакция",
+	"tag": "Етикет",
 	"time-from": "От",
+	"time-untill": "До",
+	"timeframe": "Времеви интервал",
+	"type": "Тип",
 	"typeEdit": "Редакции",
-	"typeNew": "Нови страници"
+	"typeNew": "Нови страници",
+	"userfilter": "Потребителски филтър"
 }

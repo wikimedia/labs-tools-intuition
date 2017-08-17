@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"hello": "سلام",
+	"welcome": "ست بسم اللہ",
+	"toolversion": "ورژن $1",
+	"toolversionstamp": "ورژن $1 ($2)",
+	"etc": "وغیرہ۔",
+	"namespace": "ناں جاہ",
+	"form-submit": "ڄلو",
+	"form-reset": "ولدا ٹھیک کرو"
+}
