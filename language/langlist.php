@@ -77,6 +77,7 @@
   'jbo' => 'Lojban',
   'jv' => 'Basa Jawa',
   'ka' => 'ქართული',
+  'kab' => 'Taqbaylit',
   'kiu' => 'Kırmancki',
   'kk-cyrl' => 'қазақша (кирил)‎',
   'km' => 'ភាសាខ្មែរ',
