@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joedalton"
+		]
+	},
+	"enter-details": "Indtast detaljer",
+	"results": "Resultater",
+	"language-label": "Sprog",
+	"namespace-label": "Navnerum",
+	"project-label": "Projekt",
+	"pattern-label": "Mønster",
+	"redirects-label": "Inkluder omdirigeringer"
+}

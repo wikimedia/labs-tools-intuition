@@ -3,7 +3,8 @@
 		"authors": [
 			"DCLXVI",
 			"StanProg",
-			"ShockD"
+			"ShockD",
+			"Vodnokon4e"
 		]
 	},
 	"apply": "Прилагане",
@@ -17,7 +18,7 @@
 	"filter-hideliu": "Скриване на регистрирани потребители",
 	"filter-hidebots": "Скриване на ботовете",
 	"filter-unpatrolled": "Скриване на проверени редакции",
-	"lastupdate-cvn": "Последно обновяване",
+	"lastupdate-cvn": "Последно обновяване: $1",
 	"legend": "Легенда",
 	"license": "Лиценз",
 	"limit": "Лимит",
