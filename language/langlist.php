@@ -1,6 +1,7 @@
 <?php return array (
   'aeb-latn' => 'Tûnsî',
   'af' => 'Afrikaans',
+  'ais' => '',
   'ak' => 'Akan',
   'am' => 'አማርኛ',
   'ar' => 'العربية',
