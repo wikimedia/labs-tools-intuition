@@ -3,12 +3,13 @@
 		"authors": [
 			"Ex13",
 			"Teoo3",
-			"MaGa"
+			"MaGa",
+			"Bugoslav"
 		]
 	},
 	"moretools": "više alata",
 	"homepage-title": "Uvod",
-	"bugs": "prijava grešaka i zahtijevi za nove mogućnosti",
-	"comments": "primjedbe i upiti",
+	"bugs": "prijava pogrješaka i zahtjevi za nove mogućnosti",
+	"comments": "komentari i upiti",
 	"error-form-empty": "Jedno ili više obaveznih polja su prazna. Trebali bi ih dovršiti prije nastavka."
 }

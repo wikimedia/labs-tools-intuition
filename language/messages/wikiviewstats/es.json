@@ -88,7 +88,7 @@
 	"tooltipSearch": "título de la página (por ejemplo, Hollywood) - también puedes utilizar comodines \"*\" por ejemplo Hollywood* o Usuario:Tom*. Consulta la ayuda para obtener más detalles.",
 	"noJavaScript": "JavaScript está desactivado",
 	"noData": "no hay datos disponibles",
-	"searchOnlyTOP": "Esta búsqueda se realiza sólo en las listas TOP.",
+	"searchOnlyTOP": "Esta búsqueda se realizó solo en las listas TOP.",
 	"tryAgain": "Buscar de nuevo en la base de datos principal",
 	"mycontribsOptin": "Esta característica hace uso del modelo de inclusión optativa del contador de ediciones de X!. Sin inclusión, la lectura se limita al espacio de nombres 0 (artículo) y el límite más bajo posible edición de $1.",
 	"optInOAuth": "O bien, puedes acceder con Wikimedia OAuth",

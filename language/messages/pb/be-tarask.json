@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Renessaince"
+		]
+	},
+	"pb-about-pb-navi": "Пра",
+	"pb-about-pb-tech": "Тэхнічныя дэталі",
+	"pb-about-pb-title": "Аб праекце",
+	"pb-change-language": "Зьмяніць мову",
+	"pb-comment": "Камэнтар",
+	"pb-confirmations-given": "Нададзеныя пацьверджаньні",
+	"pb-confirmations-taken": "Атрыманыя пацьверджаньні",
+	"pb-current-figures": "Актуальныя паказьнікі",
+	"pb-date": "Дата",
+	"pb-home": "Галоўная",
+	"pb-labs-name": "Вікімэдыя Tool Labs",
+	"pb-participates-since": "Удзельнічае з",
+	"pb-name": "Вікіпэдыя:Persönliche Bekanntschaften",
+	"pb-powered-by-labs": "На плятформе Вікімэдыі Tool Labs",
+	"pb-recent-confirmations": "Нядаўнія пацьверджаньні",
+	"pb-reconfirmed": "Перапацьверджана?",
+	"pb-user": "Удзельнік",
+	"pb-user-link-title": "Падрабязнасьці па $1",
+	"pb-user-heading": "Інфармацыя для <a href=\"$2\" title=\"Старонка ўдзельніка $1\">$1</a>",
+	"pb-user-title": "Інфармацыя пра $1",
+	"pb-users-navi": "Удзельнікі",
+	"pb-users-title": "Сьпіс удзельнікаў",
+	"pb-verified-since": "Правераны з"
+}

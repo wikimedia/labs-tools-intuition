@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Ex13",
-			"Teoo3"
+			"Teoo3",
+			"Bugoslav"
 		]
 	},
-	"bl-mysettings": "Moje postavke jezika",
+	"bl-mysettings": "Moje jezične postavke",
 	"bl-mysettings-new": "Promjena jezika!",
 	"bl-promo": "Za prijevode su zaslužni $1 i $2.",
 	"bl-changelanguage": "Promijenite jezik sučelja ovog alata.",

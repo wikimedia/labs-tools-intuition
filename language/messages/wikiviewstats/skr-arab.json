@@ -5,6 +5,7 @@
 		]
 	},
 	"list": "فہرست",
+	"sample": "مثال",
 	"page": "ورقہ",
 	"rank": "درجہ",
 	"settings": "ترتیباں",
@@ -30,11 +31,16 @@
 	"in": "اندر",
 	"complete": "پوری",
 	"active": "متحرک",
+	"bots": "بوٹ",
+	"articles": "مقالے",
+	"good_articles": "چنگے مضمون",
 	"pages": "ورقے",
 	"namespaces": "ناں جاہیں",
 	"on": "کھلا",
 	"off": "بند",
 	"submit": "جمع کرواؤ",
 	"save": "بچاؤ",
-	"cancel": "منسوخ"
+	"cancel": "منسوخ",
+	"barchart": "پٹی چارٹ",
+	"linechart": "لکیری چارٹ"
 }

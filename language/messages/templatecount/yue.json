@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hello903hello"
+		]
+	},
+	"enter-details": "入詳細資料",
+	"language-label": "文",
+	"namespace-label": "空間名",
+	"pagename-label": "版名（唔包空間名）",
+	"transclusion-count": "搵到$1次引用",
+	"time-label": "執行指令用咗嘅時間"
+}
