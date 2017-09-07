@@ -4,8 +4,14 @@
 			"Joedalton"
 		]
 	},
+	"pb-about-pb-navi": "Om",
+	"pb-about-pb-tech": "Tekniske detaljer",
 	"pb-about-pb-title": "Om projektet",
 	"pb-change-language": "Skift sprog",
 	"pb-comment": "Kommentar",
-	"pb-date": "Dato"
+	"pb-date": "Dato",
+	"pb-user": "Bruger",
+	"pb-user-link-title": "Detaljer for bruger $1",
+	"pb-users-navi": "Brugere",
+	"pb-users-title": "Deltagerliste"
 }

@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Belkacem77"
+			"Belkacem77",
+			"Sayem AtVkm"
 		]
 	},
-	"help-translate-tool": "Mudd afus di tsuqilt n ufecku-agi!"
+	"bl-mysettings": "Iɣewwaṛen-iw n tutlayt",
+	"bl-mysettings-new": "Beddel tutlayt!",
+	"help-translate-tool": "Mudd afus di tsuqilt n ufecku-agi!",
+	"help-translate-all": "All ɣer tsuqilt n yifecka!",
+	"help-translate-tooltip": "All wiyaḍ s usuqel ɣer tutlayt-ik(m) iznan n ugrudem."
 }

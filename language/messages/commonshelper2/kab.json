@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sayem AtVkm"
+		]
+	},
+	"language": "Tutlayt",
+	"project": "Asenfaṛ",
+	"source_file": "Afaylu aɣbalu",
+	"commons_username": "Isem useqdac Wikimedia Commons",
+	"commons_to_project": "Wikimedia Commons ɣer usenfaṛ",
+	"categories": "Tiggayin",
+	"remove_cats": "Kkes tiggayin yellan",
+	"tusc_user": "Isem useqdac TUSC",
+	"tusc_pass": "Awal uffir TUSC",
+	"do_it": "Eg-it",
+	"error_transfer_usr": "Ur ɛad d-tefkiḍ isem n useqdac Wikimedia Commons",
+	"error_not_exists": "Afaylu aɣbalu ulac-it!",
+	"new_filename": "Isem n ufaylu amaynut:",
+	"output_information": "I usali s ufus, snifel aḍris yellan s daw-agi (ma ilaq), sekles $1afaylu$2 ɣef uselkim inek(m), sakin $3sali-it$4.",
+	"error_only_commons": "Asali srid iteddu kan deg Wikimedia Commons!",
+	"help_jira": "$1JIRA (Issefk ad teldiḍ amiḍan)$2 (Asenfaṛ: Commonshelper2)",
+	"help_mail": "Azen imayl i $1",
+	"help_commons": "$1Rnu izen ɣef Commons$2"
+}

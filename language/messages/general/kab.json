@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sayem AtVkm"
+		]
+	},
+	"hello": "Azul",
+	"welcome": "Anṣuf",
+	"etc": "atg.",
+	"namespace": "Tallunt n isemawen",
+	"form-submit": "Ddu",
+	"form-reset": "Ales awennez",
+	"years": "{{PLURAL:$1|aseggwas|iseggwasen}}",
+	"months": "{{PLURAL:$1|n wayyur|n wayyuren}}",
+	"weeks": "{{PLURAL:$1|imalas|imulas}}",
+	"days": "{{PLURAL:$1|n wass|n wussan}}",
+	"hours": "{{PLURAL:$1|n usrag|n yisragen}}",
+	"minutes": "{{PLURAL:$1|n temrect|n tmercin}}",
+	"seconds": "{{PLURAL:$1|n tsint|n tsinin}}",
+	"last-modified-date": "Asnifel aneggaru: $1",
+	"view-source": "Ẓer aɣbalu",
+	"and": "&#32;akked"
+}

@@ -4,7 +4,8 @@
 			"Christian List",
 			"Macofe",
 			"Sarrus",
-			"Tjernobyl"
+			"Tjernobyl",
+			"Joedalton"
 		]
 	},
 	"title-overview": "Øjebliksbilleder",
@@ -17,9 +18,13 @@
 	"title-downloadpage-repo": "Hent $1",
 	"err-noupdatelog": "Ingen opdateringslog blev fundet.",
 	"repo-site-link": "Hjemmeside",
+	"repo-branches-label": "Grene:",
 	"repo-lastmoddate-label": "Dato:",
 	"branches-submit-button": "Skaf den!",
 	"updatelog-link": "opdateringslog",
+	"tablehead-repo": "Arkiv",
 	"tablehead-snapshots": "Øjebliksbilleder",
-	"tablehead-filesize": "Filstørrelse"
+	"tablehead-branch": "Gren",
+	"tablehead-filesize": "Filstørrelse",
+	"tablehead-hash": "Kontrolsummer"
 }
