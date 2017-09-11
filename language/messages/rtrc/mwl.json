@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"MokaAkashiyaPT"
+		]
+	},
+	"title": "Altaraçones Recientes an Tiempo Rial",
+	"apply": "Aplicar",
+	"autodiff": "Defréncia outomática",
+	"asc": "Ascendente",
+	"cvn-scores": "Pontuaçones CVN",
+	"desc": "Decendiente",
+	"filter-hideliu": "Scunder outelizadores registrados",
+	"filter-hidebots": "Scunder robós",
+	"filter-unpatrolled": "Scunder eidiçones patrulhadas",
+	"help": "Ajuda",
+	"helpicon-tooltip": "Coincer mais subre este recurso",
+	"limit": "Lhemite",
+	"masspatrol": "Patrulhamiento an massa",
+	"months": "janeiro, febreiro, márcio, abril, maio, júnio, júlio, agosto, setembre, outubre, nobembre, dezembre",
+	"mypatrollog": "registro de ls mius patrulhamientos",
+	"namespace": "Domínios",
+	"order": "Orde",
+	"ores-scores": "Pontuaçones ORES",
+	"pause": "Pausar",
+	"reload-interval": "Anterbalo",
+	"select-placeholder-none": "(nanhun)",
+	"tag": "Etiqueta",
+	"time-from": "De",
+	"time-untill": "Anté",
+	"timeframe": "Anterbalo de tiempo",
+	"type": "Tipo",
+	"typeEdit": "Eidiçones",
+	"typeNew": "Páiginas nuobas",
+	"userfilter": "Filtro de outelizadores"
+}
