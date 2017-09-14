@@ -103,6 +103,7 @@
   'mr' => 'मराठी',
   'ms' => 'Bahasa Melayu',
   'mt' => 'Malti',
+  'mwl' => 'Mirandés',
   'my' => 'မြန်မာဘာသာ',
   'mzn' => 'مازِرونی',
   'nah' => 'Nāhuatl',
