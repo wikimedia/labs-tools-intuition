@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baba Tabita"
+		]
+	},
+	"hello": "Alʉʉmbi",
+	"welcome": "Teenga",
+	"namespace": "Idaho ra wiki",
+	"form-submit": "Doma",
+	"years": "{{PLURAL:$1|mwaaka|myaaka}}",
+	"months": "{{PLURAL:$1|$1 mweeri|$1 myeeri}}",
+	"days": "{{PLURAL:$1|sikʉ}}",
+	"view-source": "Laangɨra nchoongo",
+	"and": "&#32;na"
+}
