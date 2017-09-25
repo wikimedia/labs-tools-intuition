@@ -763,7 +763,10 @@ class Intuition {
 
 		$availableLanguages = array();
 		foreach ( $languages as $lang ) {
-			$availableLanguages[$lang] = $this->getLangName( $lang );
+			$langName = $this->getLangName( $lang );
+			if ( $langName !== '' ) {
+				$availableLanguages[$lang] = $langName;
+			}
 		}
 		ksort( $availableLanguages );
 
