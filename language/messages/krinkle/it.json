@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Rippitippi",
-			"Beta16"
+			"Beta16",
+			"Nemo bis"
 		]
 	},
 	"alws-label": "Wiki",
 	"alws-selectwiki": "(selezionare la wiki)",
 	"alws-group-mustused": "Le wiki più usate",
-	"alws-group-allaz": "Tutte le wiki in ordine alfabetico",
+	"alws-group-allaz": "Tutti i wiki in ordine alfabetico",
 	"form-legend-settings": "Impostazioni"
 }
