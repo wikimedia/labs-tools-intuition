@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"MokaAkashiyaPT"
+		]
+	},
+	"welcome": "Bienbenido(a)",
+	"form-submit": "Ambiar",
+	"months": "{{PLURAL: $1|més|meses}}"
+}

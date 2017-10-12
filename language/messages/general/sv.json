@@ -9,6 +9,7 @@
 			"WikiPhoenix"
 		]
 	},
+	"dateformat": "%d %B %Y",
 	"hello": "Hej",
 	"welcome": "Välkommen",
 	"toolversion": "Version $1",
