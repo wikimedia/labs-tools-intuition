@@ -27,7 +27,7 @@
 	"select_report_cold_running": "此篇報告的一個可用快取版本於%(age)s前產生。而新快取版本估計於%(eta)s時刻完成。",
 	"select_report_cold_not_running": "此篇報告的一個可用快取版本於%(age)s前產生。另估計於%(eta)s時刻後可讓您查看新的快取版本。",
 	"select_report_no_reports": "很抱歉，本次沒有%(wiki)s的可用報告。",
-	"select_report_go_back": "←更改wiki",
+	"select_report_go_back": "←變更 wiki",
 	"qvar_title": "為您的查詢輸入變數",
 	"qvar_blurb": "您的查詢需要輸入一些變數",
 	"qvar_next": "下一步→",

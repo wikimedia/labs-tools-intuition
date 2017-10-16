@@ -3,7 +3,8 @@
 		"authors": [
 			"Christian List",
 			"Peter Alberti",
-			"Sarrus"
+			"Sarrus",
+			"Joedalton"
 		]
 	},
 	"title": "SVG-oversættelse",
@@ -20,7 +21,7 @@
 	"th-username": "Brugernavn",
 	"th-password": "Adgangskode",
 	"th-method": "Metode",
-	"option-oauth": "TUSC (automatisk upload)",
+	"option-oauth": "OAuth (automatisk overførsel)",
 	"option-manual": "Manuel upload",
 	"preview": "Forhåndsvisning",
 	"translate": "Oversæt",
@@ -30,7 +31,7 @@
 	"uploading": "Uploader",
 	"upload-complete": "Upload fuldendt. Billedet burde nu være at finde på $1",
 	"editdescriptionpage": "Rediger den nye beskrivelsesside",
-	"disclaimer": "Nogle anonyme data vil blive indsamlet privat for at kunne føre statistik. Hvis det oplyses, vil OAuth-brugernavne også blive registreret til hjælp i tilfælde af hærværk. Adgangskoder vil aldrig blive registreret.",
+	"disclaimer": "Nogle anonyme data vil blive indsamlet privat for at kunne føre statistik. Hvis det oplyses, vil OAuth-brugernavne også blive registreret for at hjælpe i tilfælde af hærværk. Adgangskoder vil aldrig blive registreret.",
 	"author-complete": "Udfyld venligst oplysninger om forfattere!",
 	"preview-hide": "Skjul forhåndsvisning",
 	"preview-refresh": "Genopfrisk forhåndsvisning",

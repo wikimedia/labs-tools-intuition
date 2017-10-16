@@ -4,7 +4,8 @@
 			"Christian List",
 			"Peter Alberti",
 			"Platonides",
-			"Sarrus"
+			"Sarrus",
+			"Joedalton"
 		]
 	},
 	"hello": "Hej",
@@ -16,6 +17,7 @@
 	"form-submit": "Udfør",
 	"form-reset": "Nulstil",
 	"years": "{{PLURAL: $1|år|år}}",
+	"months": "{{PLURAL: $1|måned|måneder}}",
 	"weeks": "{{PLURAL: $1|uge|uger}}",
 	"days": "{{PLURAL: $1|dag|dage}}",
 	"hours": "{{PLURAL: $1|time|timer}}",

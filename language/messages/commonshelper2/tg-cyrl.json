@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"ToJack"
+			"ToJack",
+			"Vashgird"
 		]
 	},
 	"description": "Асбоб барои интиқоли файлҳо аз лоиҳаҳои Викимедиа ба Викианбор",
 	"language": "Забон",
 	"categories": "Гурӯҳҳо",
-	"standard_project": "википедиа"
+	"standard_project": "википедия"
 }

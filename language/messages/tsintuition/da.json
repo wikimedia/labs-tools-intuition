@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Sarrus"
+			"Sarrus",
+			"Joedalton"
 		]
 	},
 	"bl-mysettings": "Mine sprogindstillinger",
 	"bl-mysettings-new": "Skift sprog!",
 	"bl-promo": "Oversættelser er drevet af $1 og $2.",
-	"bl-changelanguage": "Klik her for at ændre sproget i brugergrænsefladen for ​​dette værktøj.",
+	"bl-changelanguage": "Skift sproget for ​​dette værktøj.",
 	"help-translate-tool": "Hjælp med at oversætte dette værktøj!",
 	"help-translate-all": "Hjælp med at oversætte værktøjer!",
 	"help-translate-tooltip": "Hjælp andre ved at oversætte beskederne i brugergrænsefladen til dit sprog."

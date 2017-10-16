@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Tjernobyl"
+			"Tjernobyl",
+			"Joedalton"
 		]
 	},
 	"title": "Download af billeder efter kategori",
@@ -22,7 +23,9 @@
 	"image-area-too-big": "$1 er for stor til at oprette en miniature. Anvender fuld størrelse.",
 	"download-info": "{{plural: $1|Der er et billede|Der er $1 billeder}} med en anslået størrelse på $2",
 	"download": "Hent",
+	"readme-contents": "Den omsluttende fil $4 viser\nbilleder ved $1-kategorien ( $2 )$3.\n\n== Instruktioner for at hente alle de viste billeder ==\nOverførselstiden kan variere fra nogle få minutter til flere timer.\n\nWindows:\n Udtræk alle filerne i den samme mappe og kør $5\n $6\nLinux/Mac OS:\n Udtræk alle filerne og åbn en terminal i den mappe. Run sh $5",
 	"non-bundled-wget": "Bemærk: Denne version omfatter ikke wget til Windows. Du bliver nødt til at dekomprimere til en mappe med wget.exe eller på anden måde have wget i PATH",
+	"wget-info": "Denne fil inkluderer en kopi af wget $1 (for Windowsplatformen). Wget er Free Software, under betingelserne i GNU GENERAL PUBLIC LICENSE version 3.\nDer er en kopi af licensen nedenfor, og den er også tilgængelig på http://www.gnu.org/licenses/gpl-3.0.txt\n\nI tilfælde af, at du er interesseret i at hente kildekoden for dette program, så kan du hente den fra \n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\neller et andet GNU-spejl, se\n http://www.gnu.org/prep/ftp.html",
 	"scaling-width": ",skaleret til en maksimal bredde på $1 {{plural:$1|pixel|pixels}}",
 	"scaling-height": ",skaleret til en maksimal højde på $1 {{plural:$1|pixel|pixels}}",
 	"scaling-both": ",skaleret til en maksimal størrelse på $1x$2 pixels"
