@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Sarrus"
+			"Sarrus",
+			"Joedalton"
 		]
 	},
+	"description": "Metainformation om Wikimedia-wikier.",
 	"formats-heading": "Outputformater",
 	"input": "Input",
 	"label-wikiids": "Wiki-identifikatorer",
