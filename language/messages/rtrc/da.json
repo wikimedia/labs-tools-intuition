@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Overlaet"
+			"Overlaet",
+			"Joedalton"
 		]
 	},
 	"title": "Seneste ændringer i realtid",
@@ -28,17 +29,25 @@
 	"namespace": "Navnerum",
 	"navtoggle-tooltip": "Vis/gem venstremenuen",
 	"nomatches": "Ingen relevante ændringer for dine indstillinger",
+	"open-in-wiki": "Åbn i wiki",
 	"order": "Rækkefølge",
+	"ores-damaging-probability": "Skadesrisiko: $1",
+	"ores-scores": "ORES-bedømmelser",
+	"pause": "Pause",
 	"permalink": "Permanent link til de aktuelle indstillinger",
+	"reload-interval": "Interval",
 	"select-placeholder-none": "(ingen)",
 	"showAnonOnly": "Kun anonyme",
 	"showUnpatrolledOnly": "Kun upatruljeret",
+	"skip": "Udelad",
 	"skippededit": "Oversprunget redigering",
+	"tag": "Mærke",
 	"time-from": "Fra",
 	"time-untill": "Indtil",
 	"timeframe": "Tidsramme",
 	"type": "Type",
 	"typeEdit": "Redigeringer",
 	"typeNew": "Nye sider",
+	"unskip": "Udelad ikke",
 	"userfilter": "Brugerfilter"
 }

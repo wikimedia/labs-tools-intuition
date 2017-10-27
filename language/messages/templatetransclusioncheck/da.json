@@ -4,6 +4,13 @@
 			"Joedalton"
 		]
 	},
+	"form-label-language": "Sprog:",
+	"form-label-template": "Skabelonnavn:",
+	"form-label-template2": "(inklusive navnerum)",
+	"form-label-complete": "Opret fuldstændig rapport:",
+	"feedback-template-missing": "Skabelonen $1 findes ikke.",
+	"feedback-template-noaccess": "Skabelonen $1 ser ud til at findes, men den er ikke tilgængelig fra databasen. Dette kan være et midlertidigt databaseproblem. Anvendt database: $2.",
+	"feedback-result": "Resultater for $1",
 	"link-edit": "rediger",
 	"link-create": "opret"
 }

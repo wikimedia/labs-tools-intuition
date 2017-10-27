@@ -7,7 +7,7 @@
 	},
 	"title": "Broj uključivanja šablona",
 	"enter-details": "Unos podataka",
-	"introduction": "Unesite naziv šablona i kliknite na dugme „Idi“. Ima i malo privremenog memorisanja, ali to je van dosega ove alatke i njegovog vlasnika.",
+	"introduction": "Unesite ime šablona (samo Vikipedije trenutno) i kliknite na „Idi”. Tako je jednostavno. Biće keširanja (pamćenja rezultata), ali to je nažalost van kontrole ove alatke i njenog vlasnika.",
 	"language-label": "Jezik",
 	"namespace-label": "Imenski prostor",
 	"pagename-label": "Naziv stranice (bez imenskog prostora)",
