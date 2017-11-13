@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Lakzon"
 		]
 	},
 	"hello": "سڵام",
@@ -20,6 +21,6 @@
 	"minutes": "{{PLURAL:$1|دیقه|دیقةلئ}} دماتر",
 	"seconds": "{{PLURAL:$1|ثانیه|ثانیه ها}}",
 	"last-modified-date": "آخرین گؤەڕانن/تغییر: $1",
-	"view-source": "سئرکردن بِنچۀک/مۀنبۀع",
+	"view-source": "بنچەک(منبع) بۊن(سەیرکە)",
 	"and": "&#32;و"
 }
