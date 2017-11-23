@@ -3,11 +3,12 @@
 		"authors": [
 			"Okras",
 			"Kaganer",
-			"Irus"
+			"Irus",
+			"Jack who built the house"
 		]
 	},
-	"title": "Шаблон связывание и проверка передача",
-	"description": "Проверяет и сообщает, какие статьи, что включение в шаблон не связан с шаблоном, и какие статьи, на которые ведут ссылки из шаблона не включение его.",
+	"title": "Проверка связности и включений шаблонов",
+	"description": "Проверяет и сообщает, на какие статьи, влючающие шаблон, не стоит ссылки из шаблона, и какие статьи, на которые стоит ссылка из шаблона, не включают его.",
 	"form-label-language": "Язык:",
 	"form-label-template": "Имя шаблона:",
 	"form-label-template2": "(включая пространство имён)",
@@ -17,7 +18,7 @@
 	"feedback-result": "Результаты для $1",
 	"feedback-header-mismatch": "Несоответствие между включениями и ссылками",
 	"feedback-header-no-link": "Включение без ссылки",
-	"feedback-header-no-transclusion": "Ссылка без включения",
+	"feedback-header-no-transclusion": "Есть ссылка, но нет включения",
 	"feedback-header-redirects": "Ссылки на перенаправления",
 	"feedback-total-count": "Всего: $1",
 	"feedback-header-complete": "Полный обзор включений и ссылок",
