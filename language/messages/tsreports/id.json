@@ -6,5 +6,10 @@
 	},
 	"category_users": "Pengguna",
 	"category_articles": "Halaman",
-	"select_wiki_next": "Selanjutnya →"
+	"category_images": "Gambar/berkas",
+	"category_miscellaneous": "Lain-lain",
+	"category_wikidata": "WikiData",
+	"select_wiki_title": "Pilih wiki",
+	"select_wiki_next": "Selanjutnya →",
+	"prefs_langlabel": "Bahasa antarmuka:"
 }

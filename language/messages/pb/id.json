@@ -12,6 +12,8 @@
 	"pb-about-pb-title": "Tentang proyek",
 	"pb-change-language": "Ganti bahasa",
 	"pb-comment": "Komentar",
+	"pb-confirmations-given": "Berikan konfirmasi",
+	"pb-confirmations-taken": "Terima konfirmasi",
 	"pb-current-users": "Saat ini, ada $1 pengguna yang ikut serta dalam proyek <em>Perkenalan Pribadi</em>.",
 	"pb-date": "Tanggal",
 	"pb-home": "Utama",
@@ -23,5 +25,6 @@
 	"pb-user": "Pengguna",
 	"pb-user-link-title": "Rincian untuk pengguna $1",
 	"pb-users-navi": "Pengguna",
-	"pb-users-title": "Daftar peserta"
+	"pb-users-title": "Daftar peserta",
+	"pb-verified-since": "Terverifikasi sejak"
 }

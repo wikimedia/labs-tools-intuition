@@ -4,9 +4,11 @@
 			"Hidayatsrf"
 		]
 	},
+	"voiceintro-toolbar-record-label": "Catatan",
 	"voiceintro-toolbar-stop-label": "Berhenti",
 	"voiceintro-toolbar-clear-label": "Hapus",
 	"voiceintro-toolbar-upload-label": "Unggah",
 	"voiceintro-information-label": "Informasi",
+	"voiceintro-information-language-label": "Bahasa:",
 	"voiceintro-recording-notify": "Merekam..."
 }

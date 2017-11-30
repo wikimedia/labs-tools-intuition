@@ -8,7 +8,12 @@
 	"label-namespace": "Ruangnama",
 	"label-limit": "Batas",
 	"namespacesall": "Semua",
+	"button-submit": "Ke",
 	"istemplate": "transklusi",
+	"isfile": "Pranala berkas",
+	"linksearch": "PencarianPranala",
 	"section-links": "Pranala",
+	"section-iwlinks": "Prnala interwiki",
+	"section-extlinks": "Pranala luar",
 	"section-categories": "Kategori"
 }
