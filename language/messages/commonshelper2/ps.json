@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Baloch Khan"
 		]
 	},
 	"attention": "پاملرنه",
@@ -17,5 +18,6 @@
 	"new_filename": "د نوې دوتنې نوم:",
 	"upload_submit": "پورته کول:",
 	"target_wiki": "د موخې ويکي",
+	"standard_project": "ويکيپېډيا",
 	"help_mail": "$1 ته يو برېښليک لېږل"
 }

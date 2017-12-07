@@ -27,5 +27,6 @@
 	"seconds": "{{PLURAL: $1|ثانية|ثوان}}",
 	"last-modified-date": "آخر تغيير: $1",
 	"view-source": "اعرض المصدر",
+	"comma-separator": "،&#32;",
 	"and": "&#32; و"
 }
