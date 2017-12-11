@@ -4,11 +4,18 @@
 			"Joedalton"
 		]
 	},
+	"title": "Artikeltitel-greb (beta)",
+	"introduction": "Dette værktøj viser alle artikeltitler som passer med et regulært udtryk ($1). Søgning via regulære udtryk er ressourcekrævende. Dersom det overhovedet er muligt så brug indikatorerne for præfiks (^) og suffiks ($).",
+	"explanation": "forklaring",
+	"regex": "Regulært udtryk",
 	"enter-details": "Indtast detaljer",
 	"results": "Resultater",
 	"language-label": "Sprog",
 	"namespace-label": "Navnerum",
 	"project-label": "Projekt",
 	"pattern-label": "Mønster",
-	"redirects-label": "Inkluder omdirigeringer"
+	"redirects-label": "Inkluder omdirigeringer",
+	"limit-label": "Begræns visningen til de første 100 resultater",
+	"error-zeroresults": "Der er ingen sider i det navnerum med titler matchende dit regulære udtryk.",
+	"match-count": "{{PLURAL:$1|$1 side|$1 sider}} matcher dit regulære udtryk."
 }

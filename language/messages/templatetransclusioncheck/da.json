@@ -11,6 +11,7 @@
 	"feedback-template-missing": "Skabelonen $1 findes ikke.",
 	"feedback-template-noaccess": "Skabelonen $1 ser ud til at findes, men den er ikke tilgængelig fra databasen. Dette kan være et midlertidigt databaseproblem. Anvendt database: $2.",
 	"feedback-result": "Resultater for $1",
+	"feedback-total-count": "I alt: $1",
 	"link-edit": "rediger",
 	"link-create": "opret"
 }

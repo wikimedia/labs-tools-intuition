@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Peter Alberti"
+			"Peter Alberti",
+			"Joedalton"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(vælg wiki)",
 	"alws-group-mustused": "De mest brugte wikier",
 	"alws-group-allaz": "Alle wikier alfabetisk",

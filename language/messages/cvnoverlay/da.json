@@ -4,5 +4,7 @@
 			"Joedalton"
 		]
 	},
-	"adder-empty": "Ukendt"
+	"adder-empty": "Ukendt",
+	"reason": "Årsag",
+	"reason-empty": "Ingen årsag fundet"
 }
