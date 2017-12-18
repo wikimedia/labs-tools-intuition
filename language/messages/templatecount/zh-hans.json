@@ -6,17 +6,18 @@
 			"Shizhao",
 			"Yfdyh000",
 			"はなよめ",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Muhebbet"
 		]
 	},
 	"title": "模板嵌入包含计数",
 	"enter-details": "输入详细信息",
-	"introduction": "输入模板的名称（现时只限维基百科），然后按提交。就是这么简单。可能有些缓存问题（结果回忆），但这不是此工具和其主人可控制的范围。",
+	"introduction": "输入模板名称（暂只支持维基百科）并点击“提交”。就是这么简单。有时可能返回缓存（之前查询的结果），但很不幸，此工具及其主人对此无能为力。",
 	"language-label": "语言",
 	"namespace-label": "名字空间",
 	"pagename-label": "页面名称（不包括名字空间）",
 	"transclusion-count-label": "嵌入数目",
-	"transclusion-count": "发现于$1个页面嵌入。",
+	"transclusion-count": "找到$1个嵌入页面。",
 	"error-suggestion": "您的页面名称（或大小写/简繁体）输入错误？",
 	"time-label": "执行命令耗时"
 }
