@@ -2,15 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Vitorvicentevalente",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Athena in Wonderland"
 		]
 	},
 	"label-page": "Página",
 	"label-namespace": "Domínio",
 	"label-limit": "Limite",
+	"namespacesall": "todos",
 	"button-submit": "Ir",
 	"whatlinkshere": "Páginas afluentes",
 	"istemplate": "transclusão",
 	"isfile": "ligação para ficheiro",
-	"section-iwlinks": "Ligações interwikis"
+	"section-links": "Hiperligações",
+	"section-iwlinks": "Ligações interwikis",
+	"section-extlinks": "Ligações externas",
+	"section-categories": "Categorias"
 }

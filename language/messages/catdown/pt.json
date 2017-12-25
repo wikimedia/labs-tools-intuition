@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sarilho1"
+			"Sarilho1",
+			"Athena in Wonderland"
 		]
 	},
+	"title": "Transferência de imagens por categoria",
+	"subtitle": "Um jeito fácil de descarregar as imagens numa categoria",
 	"project": "Projeto:",
 	"category": "Categoria:",
+	"thumbnailing": "Miniatura",
 	"max-width": "Máxima largura:",
 	"max-height": "Máxima altura:",
 	"invalid-width": "Largura inválida",

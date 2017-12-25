@@ -5,7 +5,8 @@
 			"Hamilton Abreu",
 			"Malafaya",
 			"Polyethylen",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Athena in Wonderland"
 		]
 	},
 	"error-nothing": "Não há nada para traduzir.",
@@ -25,5 +26,11 @@
 	"translate": "Traduzir",
 	"svginput-label": "Ficheiro SVG",
 	"stats-footer": "Esta ferramenta foi usada para traduzir aproximadamente {{PLURAL:$1|um ficheiro|$1 ficheiros}} desde $2.",
+	"uploading": "A carregar",
+	"editdescriptionpage": "Edite a nova página de descrição",
+	"preview-hide": "Ocultar antevisão",
+	"preview-refresh": "Atualizar antevisão",
+	"error-must-accept": "Para continuar com o envio direto, deve aceitar as condições de uso fornecidas.",
+	"description-license": "Selecione a descrição e a licença",
 	"finalise": "Finalizar detalhes"
 }

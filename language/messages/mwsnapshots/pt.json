@@ -3,12 +3,20 @@
 		"authors": [
 			"Luckas",
 			"Sarilho1",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Athena in Wonderland"
 		]
 	},
+	"title-overview": "Instantâneas",
 	"title-error": "Erro",
+	"title-updatelog": "Registo de atualizações",
 	"title-downloadpage": "Descarregar",
 	"title-downloadpage-repo": "Descarregar $1",
+	"repo-site-link": "Sítio eletrónico",
+	"repo-browse-link": "Explorar repositório",
 	"repo-lastmoddate-label": "Data:",
-	"tablehead-filesize": "Tamanho do arquivo"
+	"updatelog-link": "registo de atualizações",
+	"tablehead-repo": "Repositório",
+	"tablehead-filesize": "Tamanho do arquivo",
+	"tablehead-hash": "Somas de verificação"
 }

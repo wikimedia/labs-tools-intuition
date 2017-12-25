@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Athena in Wonderland"
 		]
 	},
-	"reason": "Motivo"
+	"adder": "Incluído por",
+	"adder-empty": "Desconhecido",
+	"expiry": "Validade",
+	"globalwatched": "Vigiada globalmente",
+	"reason": "Motivo",
+	"reason-empty": "Nenhum motivo encontrado"
 }

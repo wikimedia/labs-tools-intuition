@@ -1,13 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Athena in Wonderland"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Alterar língua / preferências</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Relatar um erro ou solicitar uma funcionalidade</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Wiki</a>",
 	"category_users": "Utilizadores",
 	"category_articles": "Páginas",
 	"category_images": "Imagens",
+	"category_miscellaneous": "Város",
+	"category_wikidata": "WikiData",
+	"select_wiki_title": "Selecionar uma wiki",
+	"select_wiki": "Por favor, insira a wiki para a qual deseja relatar (por exemplo: \"<kbd>pt.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "Seguinte →",
+	"select_report_title": "Selecione um relatório para executar em %(wiki)s",
+	"select_report": "Por favor, selecione um relatório:",
+	"select_report_disabled": "Este relatório não está disponível.",
 	"qvar_next": "Seguinte →",
-	"prefs_done": "As suas preferências foram alteradas."
+	"prefs_submit": "Aceitar",
+	"prefs_done": "As suas preferências foram alteradas.",
+	"prefs_langlabel": "Língua da interface:",
+	"report_wascached": "Este relatório foi armazenado na cache há %(age)s."
 }

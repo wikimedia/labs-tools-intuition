@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland"
+		]
+	},
+	"pb-about-pb-navi": "Acerca",
+	"pb-about-pb-tech": "Detalhes técnicos",
+	"pb-about-pb-tech-text": "<p>Nós utilizamos o <a href=\"https://pt.wikipedia.org/wiki/Python\">Python</a> e <a href=\"https://pt.wikipedia.org/wiki/MySQL\">MySQL</a> para esta interface. O código-fonte foi publicado nos termos da <a href=\"http://www.gnu.org/licenses/lgpl.html\" class=\"ext\">Licença. Pública Geral Inferior GNU 3</a> (LGPL 3) e pode ser consultado <a href=\"https://github.com/tool-labs/pb\">no GitHub</a>. Por favor, comunique-nos caso haja quaisquer erros, faça solicitações de funcionalidades ou outros comentários <a href=\"https://github.com/tool-labs/pb/issues/new\">no sistema de registo de defeitos do GitHub</a> ou relate na <a href=\"https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Persönliche_Bekanntschaften\">página de discussão da Wikipédia</a>.</p>\n    <p>Os dumps atuais da base de dados de PB encontram-se disponíveis <a href=\"/pb/sql-dumps\">aqui</a>.</p>\n    <p>Utilizamos vários ícones criados pelo projeto <a href=\"http://glyphicons.com/\" title=\"Glyphicons homepage\">Glyphicons</a>.</p>",
+	"pb-change-language": "Alterar língua",
+	"pb-comment": "Comentário",
+	"pb-confirmations-given": "Confirmações dadas",
+	"pb-confirmations-taken": "Confirmações recebidas",
+	"pb-date": "Data",
+	"pb-footer": "<a href=\"https://de.wikipedia.org/wiki/Wikipedia:Persönliche_Bekanntschaften\" title=\"Wikipedia:Persönliche Bekanntschaften na Wikipédia em alemão\">[[Wikipedia:Persönliche Bekanntschaften]]</a> no Tool Labs. <a href=\"$1\" title=\"Acerca da Wikipedia:Persönliche Bekanntschaften\">Mais informações.</a>",
+	"pb-home": "Início",
+	"pb-labs-name": "Wikimedia Tool Labs",
+	"pb-participates-since": "Participa desde",
+	"pb-name": "Wikipedia:Persönliche Bekanntschaften",
+	"pb-powered-by-labs": "Distribuído por Wikimedia Tool Labs",
+	"pb-recent-confirmations": "Confirmações recentes",
+	"pb-user": "Utilizador(a)",
+	"pb-users-navi": "Utilizadores",
+	"pb-users-title": "Lista de participantes",
+	"pb-verified-since": "Verificado desde"
+}

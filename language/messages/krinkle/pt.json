@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sarilho1"
+			"Sarilho1",
+			"Athena in Wonderland"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(selecionar wiki)",
 	"alws-group-mustused": "Wikis mais usadas",
 	"alws-group-allaz": "Todas as wikis por ordem alfabética",

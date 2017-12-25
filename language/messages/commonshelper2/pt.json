@@ -2,15 +2,32 @@
 	"@metadata": {
 		"authors": [
 			"Analuisa",
-			"Luckas"
+			"Luckas",
+			"Athena in Wonderland"
 		]
 	},
 	"attention": "Atenção",
 	"language": "Língua",
 	"project": "Projeto",
+	"target_file": "Ficheiro de destino",
+	"commons_username": "Nome de utilizador no Wikimedia Commons",
+	"commons_to_project": "Wikimedia Commons ao projeto",
+	"move_file_from_com": "Mover o ficheiro do Wikimedia Commons para o projeto",
 	"categories": "Categorias",
 	"remove_cats": "Remover categorias existentes",
+	"tusc_user": "Nome de utilizador no TUSC",
+	"tusc_pass": "Palavra-passe no TUSC",
+	"do_it": "Faça isto",
+	"error_transfer_usr": "Não definiu um nome de utilizador para o Wikimedia Commons",
+	"error_not_exists": "O ficheiro de origem não existe!",
+	"error_on_commons": "O ficheiro de origem já se encontra em $1!",
+	"error_file_exists": "O ficheiro já existe na $3 como \"$1$4$2\"!",
+	"error_diff_exists": "Já existe um ficheiro de destino diferente com o mesmo nome na wiki de destino!",
+	"original_wikitext": "Notação wiki original",
+	"new_wikitext": "Nova notação wiki",
 	"new_filename": "Novo nome do arquivo:",
 	"upload_submit": "Upload!",
-	"target_wiki": "o wiki alvo"
+	"target_wiki": "o wiki alvo",
+	"help_mail": "Enviar um correio eletrónico a $1",
+	"help_commons": "$1Publicar um comentário no Commons$2"
 }

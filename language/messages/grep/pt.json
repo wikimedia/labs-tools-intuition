@@ -1,9 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Imperadeiro98"
+			"Imperadeiro98",
+			"Athena in Wonderland"
 		]
 	},
+	"explanation": "explicação",
+	"regex": "Expressão regular",
+	"enter-details": "Inserir detalhes",
 	"results": "Resultados",
-	"language-label": "Idioma"
+	"language-label": "Idioma",
+	"namespace-label": "Espaço nominal",
+	"project-label": "Projeto",
+	"pattern-label": "Padrão",
+	"redirects-label": "Incluir redirecionamentos",
+	"limit-label": "Limitar a vista aos primeiros 100 resultados"
 }

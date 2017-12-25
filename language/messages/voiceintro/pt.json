@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Imperadeiro98"
+			"Imperadeiro98",
+			"Athena in Wonderland"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Gravar",
@@ -9,6 +10,9 @@
 	"voiceintro-toolbar-clear-label": "Limpar",
 	"voiceintro-toolbar-upload-label": "Carregar",
 	"voiceintro-webaudio-not-supported": "A API do WebAudio não é suportada por este navegador.",
+	"voiceintro-information-label": "Informação",
+	"voiceintro-information-speaker-label": "Nome do falante:",
 	"voiceintro-information-language-label": "Idioma:",
-	"voiceintro-mic-access-notify": "Clique em \"Permitir\" para permitir que o navegador acesse ao seu microfone."
+	"voiceintro-mic-access-notify": "Clique em \"Permitir\" para permitir que o navegador acesse ao seu microfone.",
+	"voiceintro-recording-notify": "A gravar..."
 }

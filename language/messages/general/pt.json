@@ -6,11 +6,13 @@
 			"Imperadeiro98",
 			"Luckas",
 			"Sarilho1",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Athena in Wonderland"
 		]
 	},
 	"hello": "Olá",
 	"welcome": "Bem-vindo",
+	"toolversion": "Versão $1",
 	"toolversionstamp": "Versão $1 ($2)",
 	"etc": "etc.",
 	"namespace": "Espaço nominal",

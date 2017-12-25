@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"GoEThe",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Athena in Wonderland"
 		]
 	},
+	"description": "Metainformações sobre as wikis da Wikimedia.",
 	"formats-heading": "Formatos de saída",
 	"input": "Entrada",
 	"label-wikiids": "Identificadores wiki",

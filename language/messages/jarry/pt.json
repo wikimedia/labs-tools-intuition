@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Imperadeiro98"
+			"Imperadeiro98",
+			"Athena in Wonderland"
 		]
 	},
-	"moretools": "mais ferramentas"
+	"moretools": "mais ferramentas",
+	"homepage-title": "Introdução",
+	"bugs": "relatórios de erros e solicitações de funcionalidades"
 }
