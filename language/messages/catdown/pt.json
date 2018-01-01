@@ -15,5 +15,17 @@
 	"invalid-width": "Largura inválida",
 	"invalid-height": "Altura inválida",
 	"no-such-project": "Esse projeto não existe",
-	"no-images": "Não há imagens nesta categoria"
+	"no-images": "Não há imagens nesta categoria",
+	"category-is-url": "O nome da categoria especificado parece um URL. Precisa especificar o nome da categoria, não o seu URL.",
+	"category-contains-namespace": "Parece que incluiu o espaço nominal junto com o nome da categoria. Com o nome atribuído, a página estará disponível como [[Category:$1]].",
+	"zip-failed": "Falha na criação de ZIP",
+	"image-area-too-big": "$1 é muito grande para criar uma miniatura. Utiliza-se o tamanho original.",
+	"download-info": "{{plural: $1|Há uma imagem|Há $1 imagens}}, com um tamanho estimado de $2",
+	"download": "Descarregar",
+	"readme-contents": "O ficheiro $4 incluído lista\nas imagens na $1 categoria ( $2 )$3.\n\n== Instruções para descarregar todas as imagens listadas ==\nO tempo de transferência pode variar de alguns minutos à várias horas.\n\nWindows:\n Extraia todos os ficheiros na mesma pasta e execute $5\n $6\nLinux/Mac OS:\n Extraia todos os ficheiros e abra um terminal nessa pasta. Execute sh $5",
+	"non-bundled-wget": "Nota: Esta versão não inclui wget para Windows. Será necessário extrair numa pasta com wget.exe ou então ter wget no CAMINHO",
+	"wget-info": "Este ficheiro contém uma cópia do wget $1 (para a plataforma Windows). Wget é um software livre,\nlançado sob os termos da LICENÇA PÚBLICA GERAL GNU versão 3.\nUma cópia da licença está disponível abaixo, e também em http://www.gnu.org/licenses/gpl-3.0.txt\n\nCaso esteja interessado em obter o código-fonte deste programa, pode descarregá-lo em\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nou em qualquer outro Espelho GNU, veja\n http://www.gnu.org/prep/ftp.html",
+	"scaling-width": ", dimensionada para uma largura máxima de $1 {{plural:$1|píxel|píxeis}}",
+	"scaling-height": ", dimensionada para uma altura máxima de $1 {{plural:$1|píxel|píxeis}}",
+	"scaling-both": ", dimensionada para um tamanho máximo de $1x$2 píxeis"
 }

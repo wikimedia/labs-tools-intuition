@@ -5,10 +5,17 @@
 			"Athena in Wonderland"
 		]
 	},
+	"toolserver-status-ok": "Não há problemas no cluster da base de dados $1 $2",
+	"toolserver-status-info": "Informação para os utilizadores do ''cluster'' $1: $2",
+	"toolserver-status-warn": "Aviso aos utilizadores do cluster $1: $2",
+	"toolserver-status-down": "O cluster $1 da base de dados está temporariamente desligado. $2",
+	"toolserver-status-erro": "O ''cluster'' $1 da base de dados está desligado. $2",
+	"toolserver-status-unknown": "É desconhecido o estado do ''cluster'' $1",
 	"toolserver-status-missing": "O cluster $1 não existe",
 	"toolserver-status-short-ok": "$1: Ok",
 	"toolserver-status-short-info": "$1: Informação",
 	"toolserver-status-short-warn": "$1: Aviso",
+	"toolserver-status-short-down": "$1: Desligado",
 	"toolserver-status-short-erro": "$1: Erro",
 	"toolserver-status-short-unknown": "$1: Desconhecido",
 	"toolserver-status-short-missing": "$1: Inexistente"

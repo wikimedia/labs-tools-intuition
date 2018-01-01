@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Mar(c)"
 		]
 	},
 	"alws-label": "Wiki",
 	"alws-selectwiki": "(selecteer een wiki)",
 	"alws-group-mustused": "Meest gebruikte wiki's",
-	"alws-group-allaz": "Alle wikis op alfabetische volgorde",
+	"alws-group-allaz": "Alle wiki's op alfabetische volgorde",
 	"form-legend-settings": "Instellingen"
 }

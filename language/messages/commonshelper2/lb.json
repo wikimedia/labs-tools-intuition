@@ -30,7 +30,7 @@
 	"error_file_exists": "Et gëtt de Fichier schonn op $3 als \"$1$4$2\"!",
 	"error_diff_exists": "Et gëtt schonn en anere Fichier mat deem selwechten Numm op der Zilwiki",
 	"error_no_meta": "Keng Metadaten iwwer d'Quell-Wiki fonnt! $1D'Metadate fir de Projet w.e.g. aginn/aktualiséieren$2",
-	"error_meta_no_good": "Metadonnéeën: Et gouf keng gutt Schabloun fonnt! $1Setzt w.e.g. d'Metadonnéeë fir de Projet derbäi respektiv aktualiséiert se$2",
+	"error_meta_no_good": "Metadonnéeën: Et gouf keng gutt Schabloun fonnt! $1Setzt w.e.g. d'Metadonnéeë fir de Projet dobäi respektiv aktualiséiert se$2",
 	"error_meta_bad": "Metadonnéeën: Et gouf eng falsch Schabloun fonnt! $1Et musse Metadonnéeë fir de Projet derbäigesat respektiv aktualiséiert ginn$2",
 	"original_wikitext": "Originale Wiki-Text",
 	"new_wikitext": "Neie Wiki-Text",

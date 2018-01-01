@@ -6,15 +6,26 @@
 			"Athena in Wonderland"
 		]
 	},
+	"title": "Hiperligação de predefinições e verificação da transclusão",
+	"description": "Verifique e informe quais os artigos que estão a transcluir uma predefinição, mas que não contêm hiperligações da predefinição, e quais os artigos que contêm hiperligações da predefinição, mas que não estão a transcluir esta.",
 	"form-label-language": "Idioma:",
 	"form-label-template": "Nome da predefinição:",
 	"form-label-template2": "(incluindo o espaço nominal)",
 	"form-label-complete": "Gerar relatório completo:",
 	"feedback-template-missing": "A predefinição $1 não existe.",
+	"feedback-template-noaccess": "A predefinição $1 parece existir, mas não está disponível na base de dados. Isto pode ser um problema temporário da base de dados. A base de dados utilizada: $2.",
 	"feedback-result": "Resultados para $1",
+	"feedback-header-mismatch": "Discordância entre transclusões e hiperligações",
+	"feedback-header-no-link": "Transclusão, mas sem hiperligação",
+	"feedback-header-no-transclusion": "Hiperligação, mas sem transclusão",
+	"feedback-header-redirects": "Hiperligações aos redirecionamentos",
 	"feedback-total-count": "Total: $1",
+	"feedback-header-complete": "Transclusão completa e resumo da hiperligação",
+	"feedback-header-transclusions": "Transclusões da predefinição",
+	"feedback-header-links": "Hiperligações da predefinição",
 	"link-edit": "editar",
 	"link-create": "criar",
 	"link-complete": "Relatório completo...",
+	"footer-stats": "Gerou: $1. Duração: $2 {{PLURAL:$2|segundo|segundos}}.",
 	"error-language": "Código de língua desconhecido"
 }

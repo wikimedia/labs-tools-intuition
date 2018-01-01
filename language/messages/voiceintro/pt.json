@@ -10,6 +10,8 @@
 	"voiceintro-toolbar-clear-label": "Limpar",
 	"voiceintro-toolbar-upload-label": "Carregar",
 	"voiceintro-webaudio-not-supported": "A API do WebAudio não é suportada por este navegador.",
+	"voiceintro-upload-publish-succeeded": "A gravação foi enviada com sucesso:",
+	"voiceintro-upload-publish-failed": "A gravação não foi enviada.",
 	"voiceintro-information-label": "Informação",
 	"voiceintro-information-speaker-label": "Nome do falante:",
 	"voiceintro-information-language-label": "Idioma:",

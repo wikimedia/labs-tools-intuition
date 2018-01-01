@@ -5,6 +5,8 @@
 			"Athena in Wonderland"
 		]
 	},
+	"title": "Grep do título do artigo (beta)",
+	"introduction": "Esta ferramenta mostra todos os títulos de artigos que coincidem com o padrão da expressão regular ($1). A procura que emprega uma expressão regular é uma funcionalidade de utilização intensiva. Se possível, lembre-se de utilizar os indicadores de prefixo (^) e sufixo ($).",
 	"explanation": "explicação",
 	"regex": "Expressão regular",
 	"enter-details": "Inserir detalhes",
@@ -14,5 +16,7 @@
 	"project-label": "Projeto",
 	"pattern-label": "Padrão",
 	"redirects-label": "Incluir redirecionamentos",
-	"limit-label": "Limitar a vista aos primeiros 100 resultados"
+	"limit-label": "Limitar a vista aos primeiros 100 resultados",
+	"error-zeroresults": "Ainda não há páginas neste espaço nominal com os títulos que coincidem com a sua expressão regular.",
+	"match-count": "{{PLURAL:$1|$1 página coincide|$1 páginas coincidem}} com a sua expressão regular."
 }
