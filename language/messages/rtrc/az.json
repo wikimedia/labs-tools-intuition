@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Khan27"
+			"Khan27",
+			"Wertuose"
 		]
 	},
 	"apply": "Tətbiq et",
 	"clear": "təmizlə",
 	"cvn-adder-empty": "Naməlum",
+	"help": "Kömək",
 	"limit": "Limit",
 	"months": "Yanvar, Fevral, Mart, Aprel, May, İyun, İyul, Avqust, Sentyabr, Oktyabr, Noyabr, Dekabr",
 	"typeEdit": "Redaktələr",
