@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Silvonen"
+			"Silvonen",
+			"Pyscowicz"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(valitse wiki)",
 	"alws-group-mustused": "Käytetyimmät wikit",
 	"alws-group-allaz": "Kaikki wikit aakkosjärjestyksessä",
