@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Acamicamacaraca"
 		]
 	},
+	"regex": "Регуларни израз",
+	"enter-details": "Унесите податке",
+	"results": "Резултати",
 	"language-label": "Језик",
 	"namespace-label": "Именски простор",
 	"project-label": "Пројекат"

@@ -1,10 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Acamicamacaraca"
 		]
 	},
 	"pb-about-pb-navi": "О",
+	"pb-about-pb-tech": "Техничке информације",
+	"pb-about-pb-title": "О пројекту",
 	"pb-change-language": "Промени језик",
-	"pb-comment": "Коментар"
+	"pb-comment": "Коментар",
+	"pb-date": "Датум",
+	"pb-home": "Почетна",
+	"pb-labs-name": "Wikimedia Tool Labs",
+	"pb-powered-by-labs": "Покреће Wikimedia Tool Labs",
+	"pb-user": "Корисник",
+	"pb-user-title": "Подаци о „$1“",
+	"pb-users-navi": "Корисници"
 }

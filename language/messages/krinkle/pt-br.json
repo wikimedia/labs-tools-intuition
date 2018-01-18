@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pedroca cerebral"
+			"Pedroca cerebral",
+			"Eduardo Addad de Oliveira"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(selecionar wiki)",
 	"alws-group-mustused": "Wikis mais usadas",
 	"alws-group-allaz": "Todas as wikis em ordem alfabética",

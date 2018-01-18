@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Acamicamacaraca"
 		]
 	},
-	"reason": "Разлог"
+	"adder": "Додавач",
+	"adder-empty": "Непознато",
+	"expiry": "Истиче",
+	"reason": "Разлог",
+	"reason-empty": "Нема разлога"
 }

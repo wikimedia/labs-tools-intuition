@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Acamicamacaraca"
 		]
 	},
-	"voiceintro-information-language-label": "Језик:"
+	"voiceintro-toolbar-record-label": "Сними",
+	"voiceintro-toolbar-stop-label": "Заустави",
+	"voiceintro-toolbar-clear-label": "Очисти",
+	"voiceintro-toolbar-upload-label": "Отпреми",
+	"voiceintro-information-label": "Информације",
+	"voiceintro-information-language-label": "Језик:",
+	"voiceintro-recording-notify": "Снимам..."
 }

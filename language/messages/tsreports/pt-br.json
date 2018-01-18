@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fasouzafreitas",
-			"Araceletorres"
+			"Araceletorres",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Change language / preferences</a>",
@@ -19,6 +20,13 @@
 	"select_report_title": "Selecione um relatório para ser executado em %(wiki)s",
 	"select_report": "Por favor, selecione um relatório:",
 	"select_report_disabled": "O relatório está indisponível.",
+	"select_report_disabled_blurb": "Nota: Os relatórios <span class=\"disabled-report\">como este</span> são consultas noturnas que nunca foram executadas; portanto, não há resultados disponíveis para estes relatórios. Assim que o relatório noturno seguinte for concluído, estes relatórios vão estar disponíveis.",
+	"select_report_not_cached": "Não existe nenhuma versão na cache deste relatório. Clique na hiperligação para iniciar a primeira execução.",
+	"select_report_first": "Este relatório está a ser preparado pela primeira vez, e será disponibilizado brevemente.",
+	"select_report_hot": "Está disponível uma versão na cache deste relatório, há %(age)s.",
+	"select_report_cold_running": "Está disponível uma versão na cache deste relatório, há %(age)s. Espera-se uma nova versão em %(eta)s.",
+	"select_report_cold_not_running": "Está disponível uma versão na cache deste relatório, há %(age)s. Uma nova versão será preparada se consultar o relatório atual, e estará pronta em aproximadamente %(eta)s.",
+	"select_report_no_reports": "Sentimos muito, neste momento não há relatórios disponíveis para %(wiki)s.",
 	"select_report_go_back": "← Alterar wiki",
 	"qvar_title": "Digite as variáveis para sua consulta",
 	"qvar_blurb": "Sua consulta requer que algumas variáveis sejam inseridas",
@@ -28,6 +36,9 @@
 	"prefs_done": "As suas preferências foram alteradas.",
 	"prefs_langlabel": "Idioma da interface:",
 	"report_wascached": "Este relatório foi armazenado em cache há %(age)s",
+	"report_cold_cache_running": "A (re)geração da cache foi iniciada há %(runtime)s.",
+	"report_cold_cache_started": "A (re)geração da cache acaba de começar.",
+	"report_nocache": "Este relatório está programado para ser regerado a cada noite, mas ainda não foi executado, portanto, não há dados disponíveis.",
 	"report_first_run": "Este relatório está sendo gerado pela primeira vez, por isso não há dados disponíveis ainda.",
 	"report_last_run_duration": "Este relatório foi gerado em %(duration)s.",
 	"report_variables_used": "As seguintes variáveis foram utilizadas para gerar este relatório:",

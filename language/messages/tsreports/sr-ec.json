@@ -1,12 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Acamicamacaraca"
 		]
 	},
 	"category_users": "Корисници",
 	"category_images": "Слике",
 	"select_wiki_next": "Следеће →",
+	"select_report": "Одаберите извештај",
+	"select_report_disabled": "Овај извештај је недоступан.",
+	"select_report_go_back": "← Промени вики",
 	"qvar_next": "Следеће →",
-	"prefs_submit": "У реду"
+	"prefs_title": "Подешавања извештаја",
+	"prefs_submit": "У реду",
+	"prefs_done": "Ваша подешавања су промењена."
 }

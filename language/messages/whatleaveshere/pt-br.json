@@ -2,15 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Tooguether",
-			"Araceletorres"
+			"Araceletorres",
+			"Eduardo Addad de Oliveira"
 		]
 	},
+	"title": "Páginas afluentes",
+	"title-leaveshere": "Hiperligações afluentes de \"$1\"",
 	"sub-leaveshere": "Os seguintes links de páginas de $1",
 	"label-page": "Página",
 	"label-namespace": "Espaço de nome",
 	"label-limit": "Limite",
+	"namespacesall": "todos",
 	"button-submit": "Ir",
 	"noleaveshere": "Nenhum link de $1",
+	"link-whatleaveshere": "Páginas afluentes",
+	"tooltip-whatleaveshere": "Lista de tudo o que liga daqui",
+	"whatlinkshere": "Páginas afluentes",
+	"whatlinkshere-whatleaveshere": "Afluentes?",
 	"istemplate": "transclusão",
 	"isfile": "link para o arquivo",
 	"linksearch": "LinkSearch",

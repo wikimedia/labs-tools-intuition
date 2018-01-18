@@ -1,12 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Acamicamacaraca"
 		]
 	},
+	"title": "Шта одводи одавде",
 	"label-page": "Страница",
 	"label-namespace": "Именски простор",
+	"label-limit": "Ограничење",
+	"namespacesall": "све",
 	"button-submit": "Иди",
+	"link-whatleaveshere": "Шта одводи одавде",
+	"whatlinkshere": "Шта води овде",
+	"whatlinkshere-whatleaveshere": "Шта одводи одавде",
+	"istemplate": "укључивање",
+	"isfile": "веза до датотеке",
 	"section-links": "Везе",
+	"section-extlinks": "Спољашње везе",
 	"section-categories": "Категорије"
 }
