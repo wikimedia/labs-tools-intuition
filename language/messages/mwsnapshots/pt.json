@@ -29,6 +29,6 @@
 	"tablehead-repo": "Repositório",
 	"tablehead-snapshots": "Instantâneos",
 	"tablehead-branch": "Ramificação",
-	"tablehead-filesize": "Tamanho do arquivo",
+	"tablehead-filesize": "Tamanho do ficheiro",
 	"tablehead-hash": "Somas de verificação"
 }

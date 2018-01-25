@@ -34,7 +34,7 @@
 	"error_meta_bad": "Metadados: Foi encontrada uma predefinição ruim! $1Por favor, adicione/atualize os metadados para o projeto$2",
 	"original_wikitext": "Notação wiki original",
 	"new_wikitext": "Nova notação wiki",
-	"new_filename": "Novo nome do arquivo:",
+	"new_filename": "Novo nome do ficheiro:",
 	"output_information": "Para fazer o carregamento manual, edite o texto acima (se necessário), grave $1o ficheiro$2 no seu computador, e em seguida, $3carregue-o$4.",
 	"upload_submit": "Upload!",
 	"target_wiki": "o wiki alvo",

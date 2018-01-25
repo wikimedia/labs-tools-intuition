@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant"
+		]
+	},
+	"welcome": "स्वागतम्",
+	"toolversion": "संस्करण $1",
+	"toolversionstamp": "संस्करण $1 ($2)",
+	"form-submit": "जाऽ"
+}
