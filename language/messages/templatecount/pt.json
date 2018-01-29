@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Sarilho1",
-			"Cainamarques"
+			"Cainamarques",
+			"Athena in Wonderland"
 		]
 	},
 	"enter-details": "Inserir detalhes",
-	"introduction": "Digite o nome de uma predefinição (somente de Wikipédias no momento) e clique em Ir. Simples assim. Há o uso de cache (armazenamento prévio dos resultados), mas isto está infelizmente fora do controle desta ferramenta e de seu proprietário.",
+	"introduction": "Digite o nome de uma predefinição (somente de Wikipédias no momento) e clique em Ir. Simples assim. Há o uso da cache (armazenamento prévio dos resultados), mas isto está infelizmente fora do controlo desta ferramenta e do seu proprietário.",
 	"language-label": "Idioma",
 	"namespace-label": "Domínio",
 	"pagename-label": "Nome da página (sem o domínio)",

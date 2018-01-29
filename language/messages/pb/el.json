@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"pb-about-pb-navi": "Σχετικά",
+	"pb-about-pb-tech": "Τεχνικές λεπτομέρειες",
+	"pb-about-pb-title": "Σχετικά με το εγχείρημα",
+	"pb-change-language": "Αλλαγή γλώσσας",
+	"pb-comment": "Σχόλιο",
+	"pb-date": "Ημερομηνία",
+	"pb-home": "Αρχική",
+	"pb-participates-since": "Συμμετέχει από",
+	"pb-recent-confirmations": "Πρόσφατες συνεισφορές",
+	"pb-user": "Χρήστης",
+	"pb-user-link-title": "Λεπτομέρειες για τον χρήστη $1",
+	"pb-user-heading": "Πληροφορίες για τη <a href=\"$2\" title=\"Σελίδα χρήστη του $1\">$1</a>",
+	"pb-user-title": "Πληροφορίες για τον $1",
+	"pb-users-navi": "Χρήστες",
+	"pb-users-title": "Κατάλογος συμμετεχόντων",
+	"pb-verified-since": "Επαληθευμένος από"
+}

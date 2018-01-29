@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Evropi",
-			"Glavkos"
+			"Glavkos",
+			"Nikosgranturismogt"
 		]
 	},
 	"title": "Μετάφραση SVG",
@@ -19,7 +20,7 @@
 	"th-username": "Όνομα χρήστη",
 	"th-password": "Κωδικός",
 	"th-method": "Μέθοδος",
-	"option-oauth": "TUSC (αυτόματη μεταφόρτωση)",
+	"option-oauth": "OAuth (αυτόματη μεταφόρτωση)",
 	"option-manual": "Μη αυτόματη μεταφόρτωση",
 	"preview": "Προεπισκόπηση",
 	"translate": "Μετάφραση",

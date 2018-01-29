@@ -4,5 +4,10 @@
 			"Nikosgranturismogt"
 		]
 	},
-	"adder-empty": "Άγνωστο"
+	"adder": "Αθροιστής",
+	"adder-empty": "Άγνωστο",
+	"expiry": "Λήξη",
+	"globalwatched": "Παρακολουθείται καθολικά",
+	"reason": "Αιτιολογία",
+	"reason-empty": "Δεν βρέθηκε αιτία"
 }

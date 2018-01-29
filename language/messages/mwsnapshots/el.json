@@ -2,12 +2,27 @@
 	"@metadata": {
 		"authors": [
 			"Evropi",
-			"Glavkos"
+			"Glavkos",
+			"Nikosgranturismogt"
 		]
 	},
+	"title-overview": "Στιγμιότυπα",
 	"title-error": "Σφάλμα",
 	"title-updatelog": "Ενημέρωση αρχείου καταγραφής",
+	"download-button": "Λήψη στιγμιότυπου",
+	"title-downloadpage": "Λήψη",
+	"title-downloadpage-repo": "Λήψη του $1",
+	"err-invalid-repo": "Άγνωστο αποθηκευτήριο: \"$1\".",
+	"err-invalid-branch": "Άγνωστο παράρτημα: \"$1\" στο αποθηκευτήριο \"$2\".",
+	"err-noupdatelog": "Δεν βρέθηκε μητρώο ενημερώσεων.",
 	"repo-site-link": "Ιστότοπος",
+	"repo-browse-link": "Περιήγηση στο αποθηκευτήριο",
+	"repo-branches-label": "Παραρτήματα:",
 	"repo-lastmoddate-label": "Ημερομηνία:",
+	"branches-submit-button": "Πάρτε το!",
+	"updatelog-link": "μητρώο ενημερώσεων",
+	"tablehead-repo": "Αποθηκευτήριο",
+	"tablehead-snapshots": "Στιγμιότυπα",
+	"tablehead-branch": "Παράρτημα",
 	"tablehead-filesize": "Μέγεθος αρχείου"
 }

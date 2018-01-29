@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"BukhariSaeed"
 		]
 	},
 	"attention": "خبردار",
@@ -9,11 +10,11 @@
 	"project": "منصوبہ",
 	"source_file": "مسودہ فائل",
 	"target_file": "ہدف فائل",
-	"commons_username": "ویکیمیڈیا العام صارف نام",
+	"commons_username": "ویکیمیڈیا کامنز صارف نام",
 	"categories": "زمرہ جات",
 	"remove_cats": "موجودہ زمروں کو حذف کریں",
 	"do_it": "اسے کریں",
-	"error_transfer_usr": "آپ نے ویکیمیڈیا العام نام نہیں چُنا ہے",
+	"error_transfer_usr": "آپ نے ویکیمیڈیا کامنز نام نہیں چُنا ہے",
 	"error_not_exists": "ماخذ صفحہ موجود نہیں",
 	"error_on_commons": "ماخذ فائل پہلے سے $1 پر !",
 	"original_wikitext": "اصلی ویکی ٹکسٹ",

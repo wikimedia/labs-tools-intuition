@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Geraki"
+			"Geraki",
+			"Nikosgranturismogt"
 		]
 	},
+	"alws-label": "Βίκι",
 	"alws-selectwiki": "(επιλέξτε wiki)",
 	"alws-group-mustused": "Περισσότερο χρησιμοποιούμενα wiki",
 	"alws-group-allaz": "Όλα τα wiki αλφαβητικά",

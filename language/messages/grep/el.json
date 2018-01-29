@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Geraki"
+			"Geraki",
+			"Nikosgranturismogt"
 		]
 	},
-	"regex": "Regular expression"
+	"explanation": "εξήγηση",
+	"regex": "Regular expression",
+	"enter-details": "Καταχωρήστε λεπτομέρειες",
+	"results": "Αποτελέσματα",
+	"language-label": "Γλώσσα",
+	"namespace-label": "Ονοματοχώρος",
+	"project-label": "Εγχείρημα",
+	"pattern-label": "Μοτίβο",
+	"redirects-label": "Να συμπεριλαμβάνονται οι ανακατευθύνσεις",
+	"limit-label": "Μείωση των εμφανιζόμενων αποτελεσμάτων στα 100 πρώτα αποτελέσματα"
 }
