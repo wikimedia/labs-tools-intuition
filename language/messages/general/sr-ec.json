@@ -3,13 +3,14 @@
 		"authors": [
 			"Platonides",
 			"Rancher",
-			"Obsuser"
+			"Obsuser",
+			"Acamicamacaraca"
 		]
 	},
 	"dateformat": "%d %B %Y",
 	"hello": "Здраво",
 	"welcome": "Добро дошли",
-	"toolversion": "Верзија $1",
+	"toolversion": "Издање $1",
 	"toolversionstamp": "Верзија $1 ($2)",
 	"etc": "итд.",
 	"colon-separator": ":",
