@@ -36,6 +36,7 @@
   'de-formal' => 'Deutsch (Sie-Form)‎',
   'diq' => 'Zazaki',
   'dsb' => 'dolnoserbski',
+  'dty' => 'डोटेली',
   'el' => 'Ελληνικά',
   'en' => 'English',
   'en-ca' => 'Canadian English',
