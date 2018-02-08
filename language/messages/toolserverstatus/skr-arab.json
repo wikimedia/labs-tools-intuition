@@ -5,5 +5,8 @@
 		]
 	},
 	"toolserver-status-short-ok": "$1: ٹھیک ہے",
-	"toolserver-status-short-info": "$1: معلومات"
+	"toolserver-status-short-info": "$1: معلومات",
+	"toolserver-status-short-down": "$1: ہیٹھاں",
+	"toolserver-status-short-erro": "$1: خرابی",
+	"toolserver-status-short-unknown": "$1: نامعلوم"
 }

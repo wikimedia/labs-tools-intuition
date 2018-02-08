@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"title": "Τι αναχωρεί εδώ",
+	"label-page": "Σελίδα",
+	"label-namespace": "Ονοματοχώρος",
+	"label-limit": "Όριο",
+	"namespacesall": "όλα",
+	"button-submit": "Μετάβαση",
+	"noleaveshere": "Τίποτα δεν συνδέεται από το $1",
+	"link-whatleaveshere": "Τι αναχωρεί εδώ",
+	"istemplate": "ενσωμάτωση",
+	"isfile": "σύνδεσμος αρχείου",
+	"linksearch": "Αναζήτηση εξωτερικών συνδέσμων",
+	"section-links": "Σύνδεσμοι",
+	"section-iwlinks": "Σύνδεσμοι interwiki",
+	"section-extlinks": "Εξωτερικοί σύνδεσμοι",
+	"section-categories": "Κατηγορίες"
+}

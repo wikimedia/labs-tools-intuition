@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"category_users": "Χρήστες",
+	"category_articles": "Σελίδες",
+	"category_images": "Εικόνες",
+	"category_miscellaneous": "Λοιπά",
+	"category_wikidata": "Βικιδεδομένα",
+	"select_wiki_title": "Επιλέξτε ένα βίκι",
+	"select_wiki_next": "Επόμενο →",
+	"select_report": "Παρακαλώ επιλέξτε μια αναφορά:",
+	"select_report_disabled": "Αυτή η αναφορά δεν είναι διαθέσιμη.",
+	"qvar_next": "Επόμενο →",
+	"prefs_title": "Αναφέρει τις προτιμήσεις",
+	"prefs_submit": "Εντάξει",
+	"prefs_done": "Οι προτιμήσεις σας άλλαξαν",
+	"prefs_langlabel": "Γλώσσα διεπαφής:"
+}

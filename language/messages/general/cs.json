@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Mormegil",
-			"Platonides"
+			"Platonides",
+			"Ilimanaq29"
 		]
 	},
-	"hello": "Ahoj",
+	"hello": "Dobrý den",
 	"welcome": "Vítejte",
 	"toolversionstamp": "Verze $1 ($2)",
 	"etc": "atd.",
