@@ -90,6 +90,7 @@
   'la' => 'Latina',
   'lb' => 'Lëtzebuergesch',
   'lez' => 'лезги',
+  'lfn' => 'Lingua Franca Nova',
   'lki' => 'لەکی‎',
   'lrc' => 'لۊری شومالی',
   'lt' => 'lietuvių',
