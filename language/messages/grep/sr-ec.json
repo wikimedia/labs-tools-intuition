@@ -10,5 +10,6 @@
 	"results": "Резултати",
 	"language-label": "Језик",
 	"namespace-label": "Именски простор",
-	"project-label": "Пројекат"
+	"project-label": "Пројекат",
+	"pattern-label": "Узорак"
 }
