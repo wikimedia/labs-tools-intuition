@@ -15,6 +15,7 @@
 	"project": "Projekti",
 	"category": "Kategoria",
 	"template": "Malline",
+	"specialPage": "Toimintosivu",
 	"size": "koko",
 	"pages": "sivut",
 	"noJavaScript": "JavaScript ei ole käytössä"
