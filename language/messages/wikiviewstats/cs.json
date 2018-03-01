@@ -3,7 +3,8 @@
 		"authors": [
 			"Aktron",
 			"Walter Klosse",
-			"Dvorapa"
+			"Dvorapa",
+			"Ilimanaq29"
 		]
 	},
 	"records": "záznamy",
@@ -37,7 +38,7 @@
 	"top": "Nahoru",
 	"overall": "Celkem",
 	"users": "{{PLURAL:$1|uživatel|uživatelé|uživatelů}}",
-	"discussion": "Diskuzní stránka",
+	"discussion": "Diskusní stránka",
 	"portal": "Portál",
 	"project": "Projekt",
 	"category": "Kategorie",

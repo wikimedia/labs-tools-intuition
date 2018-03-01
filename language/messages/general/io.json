@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"years": "{{PLURAL: $1|yaro|yari}}",
+	"months": "{{PLURAL: $1|monato|monati}}",
+	"days": "{{PLURAL: $1|dio|dii}}"
+}

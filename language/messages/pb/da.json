@@ -10,8 +10,14 @@
 	"pb-change-language": "Skift sprog",
 	"pb-comment": "Kommentar",
 	"pb-date": "Dato",
+	"pb-recent-confirmations": "Seneste bekræftelser",
+	"pb-reconfirmed": "Bekræftet?",
 	"pb-user": "Bruger",
 	"pb-user-link-title": "Detaljer for bruger $1",
+	"pb-user-heading": "Information for <a href=\"$2\" title=\"Brugerside for $1\">$1</a>",
+	"pb-user-title": "Information for $1",
 	"pb-users-navi": "Brugere",
-	"pb-users-title": "Deltagerliste"
+	"pb-users-title": "Deltagerliste",
+	"pb-users-overview": "Disse $1 brugere deltager i projektet <em>Personlige bekendtskaber</em>:",
+	"pb-verified-since": "Bekræftet siden"
 }
