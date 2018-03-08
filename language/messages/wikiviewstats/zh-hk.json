@@ -6,5 +6,6 @@
 	},
 	"users": "{{PLURAL: $1|用戶}}",
 	"active": "活躍的用戶",
+	"bots": "機械人",
 	"thisSoftwareIs": "這個軟件是"
 }
