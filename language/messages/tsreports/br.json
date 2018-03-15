@@ -25,5 +25,7 @@
 	"prefs_submit": "Mat eo",
 	"prefs_done": "Kemmet eo bet ho tibaboù gwellañ",
 	"prefs_langlabel": "Yezh an etrefas :",
-	"report_wascached": "Krubuilhet e oa bet an danevell-mañ %(age)zo."
+	"report_wascached": "Krubuilhet e oa bet an danevell-mañ %(age)zo.",
+	"report_change_report": "<a href=\"%(url)s\">cheñch an danevell</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Cheñch ar wiki</a>"
 }
