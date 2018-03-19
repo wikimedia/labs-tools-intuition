@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bikarhêner"
+			"Bikarhêner",
+			"Ghybu"
 		]
 	},
+	"alws-label": "Wîkî",
 	"alws-selectwiki": "(wîkî'ye hilbijêre)",
 	"form-legend-settings": "Eyar"
 }

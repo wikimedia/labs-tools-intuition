@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Ghybu"
 		]
 	},
 	"toolserver-status-short-info": "$1: Agahî",
+	"toolserver-status-short-erro": "$1: Çewtî",
 	"toolserver-status-short-unknown": "$1: Nenas"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bikarhêner",
-			"George Animal"
+			"George Animal",
+			"Ghybu"
 		]
 	},
 	"category_users": "Bikarhêner",
@@ -10,6 +11,8 @@
 	"category_images": "Wêne",
 	"category_wikidata": "WîkîDane",
 	"select_wiki_title": "Wîkiyekê hilbijêre",
+	"select_wiki_next": "Pêşve →",
+	"qvar_next": "Pêşve →",
 	"prefs_submit": "Baş e",
 	"prefs_done": "Hevyazên te hate guhertin."
 }
