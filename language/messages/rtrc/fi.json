@@ -20,6 +20,7 @@
 	"lastupdate-cvn": "Viimeisin päivitys: $1",
 	"lastupdate-rc": "Viimeisin päivitys: $1",
 	"limit": "Raja",
+	"months": "Tammikuu, Helmikuu, Maaliskuu, Huhtikuu, Toukokuu, Kesäkuu, Heinäkuu, Elokuu, Syyskuu, Lokakuu, Marraskuu, Joulukuu",
 	"namespace": "Nimiavaruus",
 	"new-short": "uusi",
 	"open-in-wiki": "Avaa wikissä",
