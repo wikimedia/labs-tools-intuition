@@ -1,3 +1,21 @@
+## v0.7.0 (2018-04-09)
+
+Domains:
+
+* Removed xtools.
+
+### Bug fixes
+
+* language: Exclude entries from langlist without language name.
+
+### Maintenance
+
+* language: Localisation updates from https://translatewiki.net.
+* language: Update 'rtl' and 'fallbacks' data from latest MediaWiki.
+* language: Update 'Names' data from latest MediaWiki.
+* build: Add PHP 7.0 and 7.1 to test matrix.
+* test: Add tests for doRedirect and isRedirecting.
+
 ## v0.6.1 (2017-06-20)
 
 ### Bug fixes
@@ -22,16 +40,15 @@ Domains:
 
 ### Maintenance
 
-* build: Add https://coveralls.io integration
 * Localisation updates from https://translatewiki.net.
-* langlist: Recompile.
+* build: Add https://coveralls.io integration
 
 ## v0.5.4 (2017-03-16)
 
 ### Maintenance
 
-* build: Enforce banana checker.
 * Localisation updates from https://translatewiki.net.
+* build: Enforce banana checker.
 * rtrc: Add new messages.
 * test: Improve overall code coverage.
 
@@ -78,7 +95,6 @@ The Intuition classes are now namespaced under `Krinkle\Intuition`. The old name
 * build: Remove toollabs-base dependency.
 * build: Switch from jscs/jshint to eslint.
 * build: Update PHPUnit from 3.7 to 4.8.
-* langlist: Recompile.
 * test: Make Util.php code coverage 100%.
 
 ## v0.4.0 (2016-12-22)
@@ -94,7 +110,6 @@ The Intuition classes are now namespaced under `Krinkle\Intuition`. The old name
 ### Maintenance
 
 * Localisation updates from https://translatewiki.net.
-* langlist: Recompile.
 * Upgrade toollabs-base to v0.8.0.
 
 ## v0.3.0 (2016-07-04)
@@ -107,7 +122,6 @@ Domains:
 ### Maintenance
 
 * Localisation updates from https://translatewiki.net.
-* langlist: Recompile.
 * dashboard: List pageviews tool.
 * dashboard: Tool info updates.
 
