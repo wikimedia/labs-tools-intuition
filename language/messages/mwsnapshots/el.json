@@ -24,5 +24,6 @@
 	"tablehead-repo": "Αποθηκευτήριο",
 	"tablehead-snapshots": "Στιγμιότυπα",
 	"tablehead-branch": "Παράρτημα",
-	"tablehead-filesize": "Μέγεθος αρχείου"
+	"tablehead-filesize": "Μέγεθος αρχείου",
+	"tablehead-hash": "Σύνολα ελέγχου"
 }

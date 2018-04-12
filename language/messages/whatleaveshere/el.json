@@ -5,6 +5,8 @@
 		]
 	},
 	"title": "Τι αναχωρεί εδώ",
+	"title-leaveshere": "Σύνδεσμοι που φεύγουν από το \"$1\"",
+	"sub-leaveshere": "Οι ακόλουθες σελίδες συνδέονται από το $1",
 	"label-page": "Σελίδα",
 	"label-namespace": "Ονοματοχώρος",
 	"label-limit": "Όριο",
@@ -12,6 +14,9 @@
 	"button-submit": "Μετάβαση",
 	"noleaveshere": "Τίποτα δεν συνδέεται από το $1",
 	"link-whatleaveshere": "Τι αναχωρεί εδώ",
+	"tooltip-whatleaveshere": "Κατάλογος του καθετί που συνδέεται από εδώ",
+	"whatlinkshere": "Τι συνδέει εδώ",
+	"whatlinkshere-whatleaveshere": "Τι αναχωρεί εδώ;",
 	"istemplate": "ενσωμάτωση",
 	"isfile": "σύνδεσμος αρχείου",
 	"linksearch": "Αναζήτηση εξωτερικών συνδέσμων",

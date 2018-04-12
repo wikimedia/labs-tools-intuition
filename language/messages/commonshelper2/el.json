@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Geraki",
-			"Glavkos"
+			"Glavkos",
+			"Nikosgranturismogt"
 		]
 	},
 	"attention": "Προσοχή",
@@ -31,6 +32,7 @@
 	"new_filename": "Νέο όνομα αρχείου:",
 	"upload_submit": "Φόρτωση!",
 	"target_wiki": "το wiki προορισμού",
+	"error_tusc_failed": "Η επιβεβαίωση TUSC απέτυχε!",
 	"error_upload_file": "Το αρχικό αρχείο δεν μπορεί να ληφθεί.",
 	"help_mail": "Αποστείλατε email στο $1",
 	"help_commons": "$1Προσθέστε μια ανάρτηση στα Commons$2"
