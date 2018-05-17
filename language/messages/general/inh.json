@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Sapral Mikail",
-			"Умар"
+			"Умар",
+			"Adam-Yourist"
 		]
 	},
 	"hello": "Салам",
 	"welcome": "Маьрша доагIалда",
-	"namespace": "ЦIерий аренаш",
+	"namespace": "ЦIерий моттигаш",
 	"form-submit": "Кхоачашде",
 	"form-reset": "Юхаоттар",
 	"years": "{{PLURAL: $1|шу|шера|шераш}}",
