@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Emperyan",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Hedda"
 		]
 	},
 	"bl-mysettings": "Dil ayarlarım",
 	"bl-mysettings-new": "Dili değiştir!",
 	"bl-promo": "Çeviriler, $1 ve $2 tarafından sağlanmaktadır.",
-	"bl-changelanguage": "Bu aracın arayüz dilini değiştirmek için buraya tıklayın.",
+	"bl-changelanguage": "Bu aracın arayüz dilini değiştirin.",
 	"help-translate-tool": "Bu aracın çevrilmesine yardımcı olun!",
-	"help-translate-all": "Toolserver'ın çevrilmesine yardımcı olun!",
+	"help-translate-all": "Araçları çevirmeye yardım et!",
 	"help-translate-tooltip": "Arayüz iletilerini dilinize çevirerek başkalarına yardımcı olun."
 }

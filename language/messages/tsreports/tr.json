@@ -1,16 +1,45 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent"
+			"Uğurkent",
+			"Hedda"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Dili / tercihleri değiştir</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Bir hatayı bildirin veya bir özellik isteyin</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Viki</a>",
 	"category_users": "Kullanıcılar",
 	"category_articles": "Sayfalar",
 	"category_images": "Görüntüler",
+	"category_miscellaneous": "Çeşitli",
 	"category_wikidata": "Vikiveri",
 	"select_wiki_title": "Bir viki seçin",
+	"select_wiki": "Lütfen rapor almak istediğiniz vikiyi girin (ör. \"<kbd>tr.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "Sonraki →",
+	"select_report_title": "%(wiki)s üzerinde çalışacak bir rapor seçin",
+	"select_report": "Lütfen bir rapor seçin:",
+	"select_report_disabled": "Bu rapor mevcut değil.",
+	"select_report_disabled_blurb": "Not: <span class=\"disabled-report\">Bunun gibi</span> raporlar, hiç çalışmayan gece sorgularıdır; bu nedenle, bu raporlar için hiçbir sonuç mevcut değildir. Bir sonraki gece raporu çalışması bittiğinde, bu raporlar kullanıma sunulacak.",
+	"select_report_not_cached": "Bu raporun önbelleğe alınmış sürümü yok. İlk kez çalıştırmak için bağlantıya tıklayın.",
+	"select_report_first": "Bu rapor ilk kez hazırlanmıştır ve yakında hazır olacaktır.",
+	"select_report_hot": "Bu raporun önbelleğe alınmış bir sürümü mevcut.",
+	"select_report_cold_running": "Bu raporun önbelleğe alınmış bir sürümü mevcut. %(eta)s içinde yeni bir sürüm bekleniyor.",
+	"select_report_no_reports": "Üzgünüz, şu anda %(wiki)s için müsait rapor yok.",
+	"select_report_go_back": "← Vikiyi değiştir",
+	"qvar_title": "Sorgunuz için değişkenleri girin",
+	"qvar_blurb": "Sorgunuz için girilecek bazı değişkenler lazım",
 	"qvar_next": "Sonraki →",
+	"prefs_title": "Rapor tercihleri",
 	"prefs_submit": "Tamam",
-	"prefs_done": "Tercihleriniz değiştirildi."
+	"prefs_done": "Tercihleriniz değiştirildi.",
+	"prefs_langlabel": "Arayüz dili:",
+	"report_wascached": "Bu rapor %(age)s önce önbelleğe alındı.",
+	"report_cold_cache_started": "Önbellek (yeniden) oluşturma yeni başladı.",
+	"report_nocache": "Bu raporun her gece yeniden düzenlenmesi planlanıyor, ancak henüz çalıştırılmadı, bu nedenle veri yok.",
+	"report_first_run": "Bu rapor ilk kez oluşturuluyor, dolayısıyla henüz veri yok.",
+	"report_last_run_duration": "Bu rapor %(duration)s sürede oluşturuldu.",
+	"report_variables_used": "Bu raporu oluşturmak için aşağıdaki değişkenler kullanıldı:",
+	"report_noresults": "Üzgünüz, bu rapor herhangi bir sonuç üretemedi.",
+	"report_change_report": "<a href=\"%(url)s\">Raporu değiştir</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Vikiyi değiştir</a>"
 }

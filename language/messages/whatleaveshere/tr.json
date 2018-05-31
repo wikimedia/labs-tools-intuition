@@ -1,9 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent"
+			"Uğurkent",
+			"Hedda"
 		]
 	},
 	"label-page": "Sayfa",
+	"label-namespace": "Ad alanı",
+	"label-limit": "Sınır",
+	"namespacesall": "hepsi",
+	"button-submit": "Git",
+	"tooltip-whatleaveshere": "Buradan bağlantı veren her şeyin listesi",
+	"whatlinkshere": "Buraya bağlantı verenler",
+	"istemplate": "dönüştürülme",
+	"isfile": "dosya bağlantısı",
+	"linksearch": "BağlantıArama",
+	"section-links": "Bağlantılar",
+	"section-iwlinks": "Vikiler arası bağlantılar",
+	"section-extlinks": "Dış bağlantılar",
 	"section-categories": "Kategoriler"
 }

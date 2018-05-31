@@ -1,12 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent"
+			"Uğurkent",
+			"Hedda"
 		]
 	},
 	"pb-about-pb-navi": "Hakkında",
+	"pb-about-pb-tech": "Teknik ayrıntılar",
+	"pb-about-pb-title": "Proje hakkında",
 	"pb-change-language": "Dili değiştir",
+	"pb-comment": "Yorum",
+	"pb-confirmations-given": "Verilen onaylar",
+	"pb-confirmations-taken": "Alınan onaylar",
+	"pb-current-figures": "Mevcut figürler",
 	"pb-date": "Tarih",
+	"pb-home": "Anasayfa",
+	"pb-labs-name": "Wikimedia Tool Labs",
+	"pb-participates-since": "Katılım tarihi:",
+	"pb-name": "Wikipedia:Persönliche Bekanntschaften",
+	"pb-powered-by-labs": "Wikimedia Tool Labs tarafından desteklenmektedir",
+	"pb-recent-confirmations": "Son onaylar",
+	"pb-reconfirmed": "Teyit?",
 	"pb-user": "Kullanıcı",
-	"pb-users-navi": "Kullanıcılar"
+	"pb-user-link-title": "$1 kullanıcı hakkında detaylar",
+	"pb-user-heading": "<a href=\"$2\" title=\"User page of $1\">$1</a> hakkında bilgiler",
+	"pb-user-title": "$1 hakkında bilgiler",
+	"pb-users-navi": "Kullanıcılar",
+	"pb-users-title": "Katılımcı listesi",
+	"pb-verified-since": "Onaylanma tarihi:"
 }

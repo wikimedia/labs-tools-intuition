@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vito Genovese"
+			"Vito Genovese",
+			"Hedda"
 		]
 	},
+	"description": "Wikimedia vikileri hakkında meta bilgi.",
 	"formats-heading": "Çıkış biçimleri",
 	"input": "Giriş",
 	"label-wikiids": "Viki tanıtıcıları",

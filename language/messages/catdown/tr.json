@@ -1,12 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Emperyan"
+			"Emperyan",
+			"Hedda"
 		]
 	},
+	"title": "Resimleri kategoriye göre indir",
+	"subtitle": "Bir kategorideki resimleri indirmenin kolay yolu",
 	"project": "Proje:",
 	"category": "Kategori:",
+	"thumbnailing": "Thumbnailing",
 	"max-width": "En fazla genişlik:",
 	"max-height": "En fazla yükseklik:",
+	"invalid-width": "Geçersiz genişlik",
+	"invalid-height": "Geçersiz yükseklik",
+	"no-such-project": "Böyle bir proje yok",
+	"no-images": "Bu kategoride hiç resim yok",
+	"category-is-url": "Verilen kategori adı bir URL’ye benziyor. URL'sini değil, kategori adını belirtmeniz gerekir.",
+	"category-contains-namespace": "Kategori adı boyunca ad alanını dahil etmiş görünüyorsunuz. Verilen adla, sayfa [[Category:$1]] olarak kullanılabilir.",
+	"zip-failed": "Zip oluşturma başarısız oldu",
+	"image-area-too-big": "$1, küçük resim oluşturmak için çok büyük. Tam boy kullanıldı.",
+	"download-info": "Tahminen $2 büyüklüğünde {{plural: $1|bir resim var|$1 resim var}}",
 	"download": "İndir"
 }

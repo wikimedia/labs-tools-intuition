@@ -1,8 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent"
+			"Uğurkent",
+			"Hedda"
 		]
 	},
-	"voiceintro-information-language-label": "Dil:"
+	"voiceintro-toolbar-record-label": "Kayıt",
+	"voiceintro-toolbar-stop-label": "Dur",
+	"voiceintro-toolbar-clear-label": "Temizle",
+	"voiceintro-toolbar-upload-label": "Yükle",
+	"voiceintro-webaudio-not-supported": "WebAudio API bu tarayıcı için desteklenmiyor",
+	"voiceintro-upload-publish-succeeded": "Kayıt başarıyla yüklendi:",
+	"voiceintro-upload-publish-failed": "Kayıt yüklenmedi.",
+	"voiceintro-information-label": "Bilgi",
+	"voiceintro-information-speaker-label": "Konuşanın adı:",
+	"voiceintro-information-language-label": "Dil:",
+	"voiceintro-mic-access-notify": "Tarayıcının mikrofonunuza erişmesine izin vermek için \"İzin ver\"e tıklayın.",
+	"voiceintro-recording-notify": "Kaydediliyor..."
 }

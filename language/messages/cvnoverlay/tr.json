@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent"
+			"Uğurkent",
+			"Hedda"
 		]
 	},
+	"adder": "Ekleyen",
 	"adder-empty": "Bilinmeyen",
 	"expiry": "Bitiş",
+	"globalwatched": "Küresel olarak izlemeye alındı",
 	"reason": "Gerekçe",
 	"reason-empty": "Hiçbir sebep bulunamadı"
 }

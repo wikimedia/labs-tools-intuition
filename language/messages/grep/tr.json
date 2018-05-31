@@ -1,10 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent"
+			"Uğurkent",
+			"Hedda"
 		]
 	},
+	"title": "Madde başlığı grep (beta)",
+	"explanation": "açıklama",
+	"regex": "Düzgün İfade",
+	"enter-details": "Detayları girin",
 	"results": "Sonuçlar",
 	"language-label": "Dil",
-	"project-label": "Proje"
+	"namespace-label": "Ad alanı",
+	"project-label": "Proje",
+	"pattern-label": "Desen",
+	"redirects-label": "Yönlendirmeleri dahil et",
+	"limit-label": "Ekranı ilk 100 sonuçla sınırlayın",
+	"error-zeroresults": "Bu ad alanında normal ifadenize uyan başlıklara sahip sayfa yok."
 }
