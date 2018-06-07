@@ -1,8 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kosovastar"
+			"Kosovastar",
+			"Liridonshala"
 		]
 	},
-	"linkStats": "Lidhja për në faqen e statistikave"
+	"save": "Ruaje",
+	"cancel": "Anulo",
+	"showRedir": "Shfaq ridrejtimet",
+	"searchVariants": "variantet e kerkimit",
+	"addToWorkList": "shto ne listen e punes",
+	"removeFromWorklist": "hiqe nga lista e punes",
+	"projectPages": "Faqja e projektit",
+	"backToTop": "kthehy ne maje",
+	"rankLocal": "Renditja (vendore) ne",
+	"pageViewCount": "Numri i shikuesve te faqes (jo-unik)",
+	"winningArticles": "Artikujt fitues",
+	"numPageWatchers": "Numri i shikuesve te faqes",
+	"linkStats": "Lidhja për në faqen e statistikave",
+	"linkArticle": "Lidh me artikullin wiki",
+	"authorMostEdits": "Autori me me se shumti editime. Ne wikpedian gjermane: autori me me shumti tekste te shperndara",
+	"totalShare": "Gjithsejt shperndarje"
 }
