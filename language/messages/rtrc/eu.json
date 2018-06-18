@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Subi"
+			"Subi",
+			"Fitoschido"
 		]
 	},
 	"apply": "Ezarri",
+	"help": "Laguntza",
 	"lastupdate-cvn": "Azken eguneratzea: $1",
 	"lastupdate-rc": "Azken eguneratzea: $1",
 	"time-from": "Noiztik",
