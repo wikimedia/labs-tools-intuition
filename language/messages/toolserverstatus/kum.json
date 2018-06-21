@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArslanX"
+		]
+	},
+	"toolserver-status-short-ok": "$1: Ok",
+	"toolserver-status-short-info": "$1: Маълумат",
+	"toolserver-status-short-warn": "$1: Буварыв",
+	"toolserver-status-short-down": "$1: Гиришсиз",
+	"toolserver-status-short-erro": "$1: Хата",
+	"toolserver-status-short-unknown": "$1: Белгисиз"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArslanX"
+		]
+	},
+	"voiceintro-toolbar-clear-label": "Тазаламакъ",
+	"voiceintro-toolbar-upload-label": "Юклемек",
+	"voiceintro-information-label": "Маълумат",
+	"voiceintro-information-language-label": "Тил:"
+}
