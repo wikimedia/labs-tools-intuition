@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Obaid Raza"
+			"Obaid Raza",
+			"BukhariSaeed"
 		]
 	},
 	"error-tryagain": "$1 کو دوبارہ دیکھنے کے لئے اپنے براؤزر کا بیک بٹن دبائیں۔",
@@ -24,7 +25,7 @@
 	"translate-instructions": "Inputs are accepted as either file names (e.g. \"$1\") or full URL (e.g. \"$2\"). If the first option is used, Wikimedia Commons will be assumed as source. To translate an SVG from another site or wiki, you must use the full-URL format.",
 	"svginput-label": "ایس وی جی ملف (SVG file)",
 	"stats-footer": "یہ آلہ $2 کے بعد سے تقریبا $1 فائلوں کا ترجمہ کرنے کے لئے استعمال کیا گیا ہے۔",
-	"uploading": "اثقال جاری ہے۔",
+	"uploading": "اپلوڈ ہو رہا ہے",
 	"upload-complete": "ملف زبر اثقال (اپلوڈ) ہو کيا ہے۔تصویر اب $1 پر ہونی چاہیے۔",
 	"editdescriptionpage": "تصویر کی نئی تفصیل کے صفحہ میں ترمیم کریں۔",
 	"disclaimer": "کچھ گمنام اعداد و شمار نجی شماریاتی مقاصد کے لیے جمع کیا جائے گا۔ OAuth صارف نام بھی تخریب کاری کے واقعہ میں مدد کے لئے ریکارڈ رکھا جائے گا۔ کلمہ شناخت (پاسورڈ) کبھی بھی محفوظ نہیں کیا جاتا۔",
