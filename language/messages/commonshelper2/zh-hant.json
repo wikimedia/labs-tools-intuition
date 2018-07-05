@@ -6,7 +6,8 @@
 			"Lauhenry",
 			"Littletung",
 			"Liuxinyu970226",
-			"Simon Shek"
+			"Simon Shek",
+			"Kly"
 		]
 	},
 	"attention": "注意",
@@ -34,8 +35,8 @@
 	"error_on_commons": "原始檔案已在 $1 ！",
 	"error_file_exists": "檔案已經在$3上存在，檔案名為「$1$4$2」！",
 	"error_diff_exists": "根據同名的目標維基上存在不同的目標檔案！",
-	"error_no_meta": "未找到關於該來源 wiki 的後設資料！ $1請為該項目添加/更新後設資料$2",
-	"error_meta_no_good": "元資料：找不到合適模板！ $1 請添加或更新改專案的元資料 $2",
+	"error_no_meta": "未找到關於該來源 wiki 的詮釋資料！ $1 請為該項目添加/更新詮釋資料 $2",
+	"error_meta_no_good": "詮釋資料：找不到合適模板！$1 請添加或更新改專案的詮釋資料 $2",
 	"error_meta_bad": "後設資料：找到不合適模板！$1請添加或更新改項目的後設資料$2",
 	"original_wikitext": "原始維基文字",
 	"new_wikitext": "新的維基文字",
@@ -45,7 +46,7 @@
 	"target_wiki": "目標維基",
 	"standard_project": "維基百科",
 	"error_bot_blocked": "上載機器人在維基共享資源上被封禁。",
-	"error_upload_meta": "元資料出現錯誤（見上文），不能直接上載！",
+	"error_upload_meta": "詮釋資料出現錯誤（見上文），不能直接上載！",
 	"error_tusc_failed": "TUSC驗證失敗！",
 	"error_only_commons": "只能在維基共享資源直接上載！",
 	"upload_control_text": "請檢查新的維基文本，如一切妥當，按\" $1 \"",
