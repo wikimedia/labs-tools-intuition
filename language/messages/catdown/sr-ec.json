@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"Obsuser"
 		]
 	},
 	"title": "Преузимање слика по категорији",
@@ -23,7 +24,7 @@
 	"download": "Преузми",
 	"readme-contents": "У датотеци $4 наведене су слике из категорије $1 ($2) $3.\n\n== Упутства за преузимање свих наведених слика ==\nПреузимање може потрајати од неколико минута до неколико часова.\n\nWindows:\n Распакујте све датотеке у исту фасциклу и покрените $5\n $6\nLinux/Mac OS:\n Распакујте све датотеке и отворите терминал у тој фасцикли. Покрените sh $5",
 	"non-bundled-wget": "Напомена: Ова верзија не садржи wget за Windows. Распакивање треба да извршите у фасциклу са датотеком wget.exe или да већ имате wget у променљивој PATH",
-	"wget-info": "Датотека садржи примерак wget-а $1 (за Windows). Wget је слободан софтвер објављен под условима ГНУ-ОВЕ ОПШТЕ ЈАВНЕ ЛИЦЕНЦЕ верзије 3.\nИспод се налази примерак лиценце (доступан је и на http://www.gnu.org/licenses/gpl-3.0.txt)\n\nУколико желите да добијете изворни кôд програма, преузмите га са\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nили неког другог ГНУ-овог резервног сервера на\n http://www.gnu.org/prep/ftp.html",
+	"wget-info": "Датотека садржи примерак wget-а $1 (за Windows). Wget је слободан софтвер објављен под условима ГНУ-ОВЕ ОПШТЕ ЈАВНЕ ЛИЦЕНЦЕ верзије 3.\nИспод се налази примерак лиценце (доступан је и на http://www.gnu.org/licenses/gpl-3.0.txt)\n\nУколико желите да добијете изворни код програма, преузмите га са\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nили неког другог ГНУ-овог резервног сервера на\n http://www.gnu.org/prep/ftp.html",
 	"scaling-width": ", с изменом размере до максималне ширине од $1 {{plural:$1|пиксел|пиксела}}",
 	"scaling-height": ", с изменом размере до максималне висине од $1 {{plural:$1|пиксел|пиксела}}",
 	"scaling-both": ", с изменом размере до максималне величине од $1 × $2 пиксела"

@@ -25,7 +25,7 @@
 	"minutes": "{{PLURAL: $1|минут|минута}}",
 	"seconds": "{{PLURAL: $1|секунд|секунда|секунди}}",
 	"last-modified-date": "Последња измена: $1",
-	"view-source": "Изворни кôд",
+	"view-source": "Изворни код",
 	"parentheses": "($1)",
 	"comma-separator": ",&#32;",
 	"word-separator": "&#32;",
