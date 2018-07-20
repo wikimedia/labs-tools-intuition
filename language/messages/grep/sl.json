@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"regex": "Regularni izraz",
+	"enter-details": "Vnesi podrobnosti",
+	"results": "Rezultati",
+	"language-label": "Jezik",
+	"namespace-label": "Imenski prostor",
+	"project-label": "Projekt",
+	"pattern-label": "Vzorec",
+	"redirects-label": "Vključi preusmeritve"
+}

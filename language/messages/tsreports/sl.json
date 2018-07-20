@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"category_users": "Uporabniki",
+	"category_articles": "Strani",
+	"category_images": "Slike",
+	"category_miscellaneous": "Razno",
+	"category_wikidata": "Wikipodatki",
+	"select_wiki_title": "Izberi wiki",
+	"select_wiki_next": "Naslednji →",
+	"select_report_disabled": "To poročilo ni na voljo.",
+	"select_report_go_back": "← Spremeni wiki",
+	"qvar_next": "Naslednji →",
+	"prefs_submit": "V redu",
+	"prefs_done": "Tvoje nastavitve so bile spremenjene.",
+	"prefs_langlabel": "Jezik vmesnika:"
+}

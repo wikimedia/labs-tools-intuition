@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Janezdrilc"
 		]
 	},
 	"title-overview": "Posnetki",
@@ -9,11 +10,15 @@
 	"title-updatelog": "Dnevnik posodobitev",
 	"download-button": "Prenesi posnetek",
 	"title-downloadpage": "Prenesi",
+	"title-downloadpage-repo": "Prenesi $1",
 	"repo-site-link": "Spletna stran",
+	"repo-browse-link": "Brskaj po skladišču",
 	"repo-branches-label": "Podveje:",
 	"repo-lastmoddate-label": "Datum:",
 	"branches-submit-button": "Pridobi!",
 	"updatelog-link": "dnevnik posodobitev",
+	"tablehead-repo": "Skladišče",
+	"tablehead-snapshots": "Posnetki",
 	"tablehead-branch": "Podveja",
 	"tablehead-filesize": "Velikost datoteke"
 }

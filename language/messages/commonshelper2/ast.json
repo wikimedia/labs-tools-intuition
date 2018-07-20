@@ -44,7 +44,7 @@
 	"upload_control_text": "¡Comprueba'l nuevu testu wiki y calca «$1» si ta too bien!",
 	"error_commons_user": "Para identificar al usuariu de la tresferencia, el to nome d'usuariu de Wikimedia Commons tien de tar na descripción.",
 	"error_upload_users": "La función de xuba solo ta disponible para dellos usuarios mentanto'l periodu de pruebes.",
-	"error_upload_file": "El ficheru orixinal nun se pue descargar.",
+	"error_upload_file": "El ficheru orixinal nun puede descargase.",
 	"help_intro": "Cuando quieras informar d'un fallu, proponer una carauterística o tengas una entruga, puedes usar unu de los medios de contautu darréu:",
 	"help_jira": "$1JIRA (necesites tener una cuenta)$2 (Proyeutu: Commonshelper2)",
 	"help_mail": "Unvia un corréu a $1",

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"form-label-language": "Jezik:",
+	"form-label-template": "Ime predloge:",
+	"form-label-template2": "(vključuje imenski prostor)",
+	"feedback-template-missing": "Predloga $1 ne obstaja.",
+	"feedback-result": "Rezultati za $1",
+	"feedback-header-redirects": "Povezave do preusmeritev",
+	"feedback-total-count": "Skupno: $1",
+	"link-edit": "uredi",
+	"link-create": "ustvari",
+	"error-language": "Neznana koda jezika."
+}

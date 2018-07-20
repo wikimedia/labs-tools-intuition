@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"Vodnokon4e"
+			"Vodnokon4e",
+			"StanProg"
 		]
 	},
 	"error-nothing": "Няма нищо за превеждане.",
@@ -17,5 +18,6 @@
 	"translate": "Превеждане",
 	"svginput-label": "SVG файл",
 	"uploading": "Качване",
+	"preview-hide": "Скриване на прегледа",
 	"description-license": "Избиране на описание и лиценз"
 }

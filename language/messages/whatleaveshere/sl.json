@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"label-page": "Stran",
+	"label-namespace": "Imenski prostor",
+	"label-limit": "Omejitev",
+	"namespacesall": "vse",
+	"button-submit": "Pojdi",
+	"whatlinkshere": "Kaj se povezuje sem",
+	"isfile": "povezava na datoteko",
+	"section-links": "Povezave",
+	"section-iwlinks": "Interwiki povezave",
+	"section-extlinks": "Zunanje povezave",
+	"section-categories": "Kategorije"
+}
