@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"toolserver-status-short-ok": "$1: အိုကေ",
+	"toolserver-status-short-info": "$1: အချက်အလက်",
+	"toolserver-status-short-warn": "$1: သတိပေး",
+	"toolserver-status-short-down": "$1: ကျ",
+	"toolserver-status-short-erro": "$1: အမှား",
+	"toolserver-status-short-unknown": "$1: မသိရ",
+	"toolserver-status-short-missing": "$1: ပျောက်ဆုံး"
+}

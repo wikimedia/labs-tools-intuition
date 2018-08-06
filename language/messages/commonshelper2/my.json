@@ -2,12 +2,27 @@
 	"@metadata": {
 		"authors": [
 			"Erikoo",
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
+	"attention": "သတိပြုပါ",
 	"language": "ဘာသာစကား",
 	"project": "Project",
 	"source_file": "ရင်းမြစ်ဖိုင်",
+	"target_file": "ဦးတည်ဖိုင်",
+	"commons_username": "ဝီကီမီဒီယာ ကွန်မွန်းစ် အသုံးပြုသူအမည်",
+	"commons_to_project": "ဝီကီမီဒီယာ ကွန်မွန်းစ်မှ ပရောဂျက်သို့",
+	"move_file_from_com": "ဝီကီမီဒီယာ ကွန်မွန်းစ်မှ ပရောဂျက်သို့ ဖိုင်ရွေ့ရန်",
 	"categories": "အမျိုးအစားများ",
-	"error_not_exists": "ရင်းမြစ်စာမျက်နှာ မတည်ရှိပါ။"
+	"remove_cats": "ရှိပြီးသား ကဏ္ဍများကို ဖယ်ရှားရန်",
+	"do_it": "လုပ်လိုက်ပါ",
+	"error_transfer_usr": "ဝီကီမီဒီယာ ကွန်မွန်းစ် အသုံးပြုသူအမည် မသတ်မှတ်ရသေးပါ",
+	"error_not_exists": "ရင်းမြစ်စာမျက်နှာ မတည်ရှိပါ။",
+	"error_on_commons": "$1 ၌ ရင်းမြစ်ဖိုင် ရှိပြီးသားဖြစ်သည်",
+	"error_file_exists": "$3 ၌ \"$1$4$2\" အဖြစ် ဖိုင်ရှိပြီးသား ဖြစ်သည်",
+	"original_wikitext": "မူလ ဝီကီစာသား",
+	"new_wikitext": "ဝီကီ စားသားအသစ်",
+	"new_filename": "ဖိုင်နာမည်အသစ် :",
+	"error_upload_file": "မူရင်းဖိုင်အား ဒေါင်းလုတ်ဆွဲမရနိုင်ပါ။"
 }

@@ -2,12 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Erikoo",
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
+	"hello": "မင်္ဂလာပါ",
 	"welcome": "ကြိုဆိုပါသည်",
+	"toolversion": "ဗားရှင်း $1",
+	"etc": "စသည်ဖြင့်",
 	"namespace": "အမည်ညွှန်းများ",
 	"form-submit": "သွားပါ",
 	"form-reset": "Reset ချရန်",
-	"view-source": "ရင်းမြစ်ကို ကြည့်ရန်"
+	"last-modified-date": "နောက်ဆုံး ပြုပြင်မှု : $1",
+	"view-source": "ရင်းမြစ်ကို ကြည့်ရန်",
+	"and": "&#32;နှင့်"
 }
