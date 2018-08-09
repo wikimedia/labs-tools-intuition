@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"BukhariSaeed"
 		]
 	},
 	"hello": "ہیلو",
@@ -11,5 +12,6 @@
 	"etc": "وغیرہ۔",
 	"form-submit": "چلو",
 	"form-reset": "دوبارہ مرتب کریں",
-	"view-source": "مسودہ دکھائے"
+	"view-source": "مسودہ دکھائے",
+	"comma-separator": "،&#32;"
 }

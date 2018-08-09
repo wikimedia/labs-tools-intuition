@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"allLang": "ဘာသာစကားများ အားလုံး",
+	"other_lang": "အခြားဘာသာစကားများ",
+	"users": "{{PLURAL: $1|အသုံးပြုသူ|အသုံးပြုသူများ}}",
+	"discussion": "ဆွေးနွေး",
+	"project": "ပရောဂျက်",
+	"category": "ကဏ္ဍ",
+	"template": "တမ်းပလိတ်",
+	"files": "{{PLURAL: $1|ဖိုင်|ဖိုင်များ}}",
+	"specialPage": "အထူး စာမျက်နှာ",
+	"helpPage": "အကူအညီ စာမျက်နှာ",
+	"disambPage": "သံတူကြောင်းကွဲ စာမျက်နှာ"
+}

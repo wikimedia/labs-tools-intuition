@@ -37,7 +37,7 @@
 	"output_information": "Kézi feltöltés esetén szerkeszd a fenti szöveget (amennyiben szükséges), mentsd el $1a fájlt$2 a számítógépedre, majd $3töltsd fel$4.",
 	"upload_submit": "Feltöltés!",
 	"target_wiki": "a célwikire",
-	"error_bot_blocked": "A feltöltőbot blokkolva van a WIkimedia Commonson.",
+	"error_bot_blocked": "A feltöltőbot blokkolva van a Wikimedia Commonson.",
 	"error_upload_meta": "Nem lehet közvetlenül feltölteni, mert problémák vannak a metaadatokkal (lásd fentebb)!",
 	"error_tusc_failed": "A TUSC ellenőrzés nem sikerült!",
 	"error_only_commons": "A közvetlen feltöltés csak a Wikimedia Commons esetén működik!",
