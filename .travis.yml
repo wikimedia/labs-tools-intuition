@@ -1,7 +1,6 @@
+# Forfeit sudo to allow use of containers instead of (slower) VMs
 sudo: false
-# Trusty is required for HHVM
-# Note: Trusty with 'sudo: false' (containers) are still in Beta
-# https://blog.travis-ci.com/2016-11-08-trusty-container-public-beta/
+# Trusty (instead of Precise) is required for HHVM to work
 dist: trusty
 language: php
 php:
@@ -11,13 +10,13 @@ php:
   - "hhvm"
 install:
   - composer install
-  # Upgrade default Node.js version in Travis' PHP image from Node.js v0.10.x to v7.x
-  - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash;
-  - source ~/.nvm/nvm.sh; nvm install v7
+  # Upgrade default Node.js version in Travis' PHP image from Node.js v0.10.x to 8.x
+  - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash;
+  - source ~/.nvm/nvm.sh; nvm install 8
 script:
   - composer test
 after_success:
-  - php vendor/bin/coveralls -v
+  - php vendor/bin/php-coveralls -v
 notifications:
   irc:
     channels:
