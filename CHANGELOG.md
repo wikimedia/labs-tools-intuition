@@ -1,3 +1,18 @@
+## v1.0.0 (2018-08-15)
+
+### Changed
+
+Intuition is now available under the MIT License.
+
+* language: Localisation updates from https://translatewiki.net.
+* language: Update 'fallbacks' and 'Names' data from latest MediaWiki.
+* build: Add PHP 7.2 to test matrix.
+
+### Removed
+
+* Ended support for PHP 5.5, PHP 5.6, and HHVM.
+  Intuition now requires PHP 7.0+.
+
 ## v0.7.0 (2018-04-09)
 
 Domains:
