@@ -79,7 +79,8 @@ class Intuition {
 		'fiu-vro' => 'vro',
 		'no' => 'nb',
 		'qqq' => 'en',
-		'qqx' => 'qqx', // Hardcoded in rawMsg()
+		// Support for 'qqx' is hardcoded in rawMsg()
+		'qqx' => 'qqx',
 		'roa-rup' => 'rup',
 		'simple' => 'en',
 		'zh-classical' => 'lzh',
@@ -201,25 +202,26 @@ class Intuition {
 		}
 	}
 
-	/* Get/Set variables
-	 * ------------------------------------------------- */
-
+	/**
+	 * @return string Language code
+	 */
 	public function getLang() {
 		return $this->currentLanguage;
 	}
 
 	/**
 	 * Set the current language which will be used when requesting messages etc.
+	 *
 	 * @param string $lang Language code. If not a valid string, the setting
 	 *  will remain unchanged and false is returned.
 	 * @return bool
 	 */
 	public function setLang( $lang ) {
-		if ( IntuitionUtil::nonEmptyStr( $lang ) ) {
-			$this->currentLanguage = $this->normalizeLang( $lang );
-			return true;
+		if ( !IntuitionUtil::nonEmptyStr( $lang ) ) {
+			return false;
 		}
-		return false;
+		$this->currentLanguage = $this->normalizeLang( $lang );
+		return true;
 	}
 
 	/**
@@ -337,11 +339,11 @@ class Intuition {
 	 * @return bool False if the passed argument wasn't a boolean, true otherwise.
 	 */
 	public function setUseRequestParam( $bool ) {
-		if ( is_bool( $bool ) ) {
-			$this->useRequestParam = $bool;
-			return true;
+		if ( !is_bool( $bool ) ) {
+			return false;
 		}
-		return false;
+		$this->useRequestParam = $bool;
+		return true;
 	}
 
 	/**
@@ -355,13 +357,18 @@ class Intuition {
 		return $this->messagesFunctions;
 	}
 
-	/* Message functions
-	 * ------------------------------------------------- */
-
+	/**
+	 * @param string $domain
+	 * @return string
+	 */
 	protected function normalizeDomain( $domain ) {
 		return strtolower( $domain );
 	}
 
+	/**
+	 * @param string $lang
+	 * @return string
+	 */
 	protected function normalizeLang( $lang ) {
 		$lang = strtolower( str_replace( '_', '-', $lang ) );
 		if ( isset( $this->deprecatedLangCodes[$lang] ) ) {
@@ -575,11 +582,8 @@ class Intuition {
 	 * @return bool
 	 */
 	public function msgExists( $key = 0, $options = [] ) {
-		// Use the $fail option of msg()
-		if ( $this->msg( $key, $options, /* $fail = */ false ) === false ) {
-			return false;
-		}
-		return true;
+		// Use the `$fail = false` option of msg()
+		return $this->msg( $key, $options, false ) !== false;
 	}
 
 	/**
@@ -772,9 +776,6 @@ class Intuition {
 		return $availableLanguages;
 	}
 
-	/* Domain functions
-	 * ------------------------------------------------- */
-
 	/**
 	 * Ensure a domain's language is loaded.
 	 *
@@ -821,7 +822,7 @@ class Intuition {
 	/**
 	 * @param string $domain Normalised domain
 	 * @param string $lang Normalised language code
-	 * @param string $filePath
+	 * @param string $file
 	 * @return bool
 	 */
 	public function loadMessageFile( $domain, $lang, $file ) {
@@ -830,7 +831,7 @@ class Intuition {
 			return false;
 		}
 
-		$messages = json_decode( file_get_contents( $file ), /* assoc = */ true );
+		$messages = json_decode( file_get_contents( $file ), true );
 		if ( !is_array( $messages ) ) {
 			// @codeCoverageIgnoreStart
 			return false;
@@ -875,16 +876,12 @@ class Intuition {
 		return is_dir( $this->localBaseDir . '/language/messages/' . $domain );
 	}
 
-	/* Cookie functions
-	 * ------------------------------------------------- */
-
 	/**
 	 * Set a cookie.
 	 *
 	 * @param $name string Canonical name of the cookie.
 	 * @param $val string Value to be set.
 	 * @param $lifetime int Lifetime in seconds from now (defaults to 30 days)
-	 *
 	 * @return bool
 	 */
 	public function setCookie( $key, $val, $lifetime = 2592000, $track = TSINT_COOKIE_TRACK ) {
@@ -912,6 +909,9 @@ class Intuition {
 	/**
 	 * Browsers don't send the expiration date of cookies with the request
 	 * In order to keep track of the expiration date, we set an additional cookie.
+	 *
+	 * @param int $lifetime
+	 * @return bool
 	 */
 	protected function setExpiryTrackerCookie( $lifetime ) {
 		$val = time() + $lifetime;
@@ -921,8 +921,11 @@ class Intuition {
 
 	/**
 	 * Renew all cookies
+	 *
+	 * @param int $lifetime [optional] Defaults to 30 days
+	 * @return bool
 	 */
-	public function renewCookies( $lifetime = 2592000 /* 30 days */ ) {
+	public function renewCookies( $lifetime = 2592000 ) {
 		foreach ( $this->getCookieNames() as $key => $name ) {
 			if ( $key === 'track-expire' ) {
 				continue;
@@ -937,7 +940,9 @@ class Intuition {
 
 	/**
 	 * Delete all cookies.
+	 *
 	 * It's recommended to redirectTo() directly after this.
+	 *
 	 * @return bool
 	 */
 	public function wipeCookies() {
@@ -973,9 +978,6 @@ class Intuition {
 	public function hasCookies() {
 		return isset( $_COOKIE[ $this->getCookieName( 'userlang' ) ] );
 	}
-
-	/* Magic words
-	 * ------------------------------------------------- */
 
 	/**
 	 * @todo FIXME: Implement in language/MessagesFunctions.php.
@@ -1124,8 +1126,9 @@ class Intuition {
 	 * Build a permalink to the dashboard with a returnto query
 	 * to return to the current page. To be used in other tools.
 	 *
-	 * @example:
-	 *  Location: //tools.wmflabs.org/example/JohnDoe.php?wiki=loremwiki_p
+	 * Example:
+	 *
+	 *  Location: https://tools.wmflabs.org/example/foo.php?bar=baz
 	 *  HTML:
 	 *  '<p>Change the settings <a href="' . $I18N->getDashboardReturnToUrl() . '">here</a>';
 	 *
@@ -1141,9 +1144,6 @@ class Intuition {
 			. http_build_query( $p )
 			. '#tab-settingsform';
 	}
-
-	/* Redirect functions
-	 * ------------------------------------------------- */
 
 	/**
 	 * Redirect or refresh to url. Pass null to undo redirection.
@@ -1177,13 +1177,14 @@ class Intuition {
 		return is_array( $this->redirectTo );
 	}
 
-	/* Other functions
-	 * ------------------------------------------------- */
-
-	public function parentheses( /* $this->msg( [arguments] ) */ ) {
+	/**
+	 * @param string|string[] ...$args
+	 * @return string
+	 */
+	public function parentheses( ...$args ) {
 		$msg = call_user_func_array(
 			[ $this, 'msg' ],
-			func_get_args()
+			$args
 		);
 		return $this->parensWrap( $msg );
 	}
@@ -1191,6 +1192,7 @@ class Intuition {
 	/**
 	 * @param string $content Text or HTML to be wrapped in parentheses.
 	 * @param string $escape Any valid format for IntuitionUtil::strEscape.
+	 * @return string
 	 */
 	public function parensWrap( $content, $escape = 'plain' ) {
 		return $this->msg(
@@ -1207,8 +1209,8 @@ class Intuition {
 	 * Get a localized date. Pass a format, time or both.
 	 * Defaults to the current timestamp in the language's default date format.
 	 *
-	 * @param string|null $format Date format compatible with strftime()
-	 * @param mixed|null $timestamp Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
+	 * @param string|null $first Date format compatible with strftime()
+	 * @param mixed|null $second Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
 	 * @param string|null $lang Language code. Defaults to current langauge (through getLocale() )
 	 * @return string
 	 */
@@ -1256,21 +1258,24 @@ class Intuition {
 	}
 
 	/**
-	 * Check language choice tree in the following order:
+	 * Check language choice tree.
+	 *
+	 * In the following order:
 	 * - First: Construct override
 	 * - Second: Parameter override
 	 * - Third: Saved cookie
 	 * - Fourth: Preferences from Accept-Language header
 	 * - Fifth: A language which is a prefix for one of the
-	 * Accept-Language preferences.
+	 *   Accept-Language preferences.
 	 * - Sixth: English (default stays)
 	 *
+	 * @param string|null|false $option
 	 * @return true
 	 */
 	protected function initLangSelect( $option ) {
 		$set = false;
 
-		if ( isset( $option ) && !empty( $option ) ) {
+		if ( $option !== null && $option !== false && $option !== '' ) {
 			$set = $this->setLang( $option );
 		}
 
@@ -1326,7 +1331,7 @@ class Intuition {
 			}
 		}
 
-		/* From this point on, we are choosing amongst languages with a $qVal of 0 */
+		// From this point on, we are choosing amongst languages with a $qVal of 0
 
 		if ( !$set ) {
 			/**
@@ -1368,7 +1373,7 @@ class Intuition {
 	 * @param array $l
 	 * @return string
 	 */
-	function listToText( $l ) {
+	public function listToText( $l ) {
 		$s = '';
 		$m = count( $l ) - 1;
 		if ( $m == 1 ) {
@@ -1406,11 +1411,22 @@ class Intuition {
 		return true;
 	}
 
+	/**
+	 * @param string $msg
+	 * @param string $context
+	 * @return string
+	 */
 	protected function errMsg( $msg, $context ) {
 		return "[$context] $msg";
 	}
 
-	// Custom version of trigger_error() that can be passed a custom filename and line number
+	/**
+	 * Custom version of trigger_error() that can be passed a custom filename and line number
+	 *
+	 * @param string $msg
+	 * @param string $context
+	 * @param int $level [optional]
+	 */
 	public function errTrigger( $msg, $context, $level = E_WARNING ) {
 		$die = false;
 		$error = false;
