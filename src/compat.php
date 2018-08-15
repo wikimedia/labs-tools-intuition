@@ -1,4 +1,11 @@
 <?php
+/**
+ * This file defines compatibility aliases.
+ *
+ * @license MIT
+ * @package krinkle/intuition
+ */
+
 use Krinkle\Intuition\Intuition;
 use Krinkle\Intuition\Util;
 

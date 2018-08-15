@@ -1,7 +1,7 @@
 {
 	"name": "krinkle/intuition",
 	"description": "Framework for localisation in PHP.",
-	"license": "CC-BY-3.0",
+	"license": "MIT",
 	"autoload": {
 		"files": [
 			"src/defines.php",

@@ -2,8 +2,7 @@
 /**
  * Extract language data from MediaWiki core.
  *
- * @copyright 2011-2015 See AUTHORS.txt
- * @license CC-BY-3.0
+ * @license MIT
  * @package krinkle/intuition
  */
 

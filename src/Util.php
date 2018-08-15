@@ -2,8 +2,7 @@
 /**
  * Static utitlities class.
  *
- * @copyright 2011-2014 See AUTHORS.txt
- * @license CC-BY-3.0
+ * @license MIT
  * @package krinkle/intuition
  */
 
