@@ -1,5 +1,8 @@
 <?php
-class IntuitionUtilTest extends PHPUnit_Framework_TestCase {
+
+use PHPUnit\Framework\TestCase;
+
+class IntuitionUtilTest extends TestCase {
 
 	public static function provideStrEscape() {
 		return [
@@ -23,18 +26,18 @@ class IntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public static function provideNonEmptyStr() {
-		return array(
-			array( true, 'one' ),
-			array( true, ' ' ),
-			array( false, '' ),
-			array( false, null ),
-			array( false, 0 ),
-			array( false, 2 ),
-			array( true, '0' ),
-			array( true, '2' ),
-			array( false, array() ),
-			array( false, array( 'x' ) ),
-		);
+		return [
+			[ true, 'one' ],
+			[ true, ' ' ],
+			[ false, '' ],
+			[ false, null ],
+			[ false, 0 ],
+			[ false, 2 ],
+			[ true, '0' ],
+			[ true, '2' ],
+			[ false, [] ],
+			[ false, [ 'x' ] ],
+		];
 	}
 
 	/**
@@ -49,20 +52,20 @@ class IntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public static function provideNonEmptyStrs() {
-		return array(
-			array(
+		return [
+			[
 				false,
-				array( 'x', '', 'y' ),
-			),
-			array(
+				[ 'x', '', 'y' ],
+			],
+			[
 				true,
-				array( 'x', 'y' ),
-			),
-			array(
+				[ 'x', 'y' ],
+			],
+			[
 				false,
-				array(),
-			),
-		);
+				[],
+			],
+		];
 	}
 
 	/**
@@ -77,57 +80,57 @@ class IntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public static function provideAcceptLanguages() {
-		return array(
-			array( '',
-				array(),
+		return [
+			[ '',
+				[],
 				'Empty Accept-Language header',
-			),
-			array( 'en',
-				array( 'en' => 1 ),
+			],
+			[ 'en',
+				[ 'en' => 1 ],
 				'One language',
-			),
-			array( 'en, ar',
-				array( 'en' => 1, 'ar' => 1 ),
+			],
+			[ 'en, ar',
+				[ 'en' => 1, 'ar' => 1 ],
 				'Two languages listed in appearance order.',
-			),
-			array( 'zh-cn,zh-tw',
-				array( 'zh-cn' => 1, 'zh-tw' => 1 ),
+			],
+			[ 'zh-cn,zh-tw',
+				[ 'zh-cn' => 1, 'zh-tw' => 1 ],
 				'Two equally prefered languages, listed in appearance order per rfc3282. Checks c9119',
-			),
-			array( 'es, en; q=0.5',
-				array( 'es' => 1, 'en' => 0.5 ),
+			],
+			[ 'es, en; q=0.5',
+				[ 'es' => 1, 'en' => 0.5 ],
 				'Spanish as first language and English and second',
-			),
-			array( 'en; q=0.5, es',
-				array( 'es' => 1, 'en' => 0.5 ),
+			],
+			[ 'en; q=0.5, es',
+				[ 'es' => 1, 'en' => 0.5 ],
 				'Less prefered language first',
-			),
-			array( 'fr, en; q=0.5, es',
-				array( 'fr' => 1, 'es' => 1, 'en' => 0.5 ),
+			],
+			[ 'fr, en; q=0.5, es',
+				[ 'fr' => 1, 'es' => 1, 'en' => 0.5 ],
 				'Three languages',
-			),
-			array( 'en; q=0.5, es',
-				array( 'es' => 1, 'en' => 0.5 ),
+			],
+			[ 'en; q=0.5, es',
+				[ 'es' => 1, 'en' => 0.5 ],
 				'Two languages',
-			),
-			array( 'en, zh;q=0',
-				array( 'en' => 1 ),
+			],
+			[ 'en, zh;q=0',
+				[ 'en' => 1 ],
 				'Chinese to me',
-			),
-			array( 'es; q=1, pt;q=0.7, it; q=0.6, de; q=0.1, ru;q=0',
-				array( 'es' => 1, 'pt' => 0.7, 'it' => 0.6, 'de' => 0.1 ),
+			],
+			[ 'es; q=1, pt;q=0.7, it; q=0.6, de; q=0.1, ru;q=0',
+				[ 'es' => 1, 'pt' => 0.7, 'it' => 0.6, 'de' => 0.1 ],
 				'Preference for romance languages',
-			),
-			array( 'en-gb, en-us; q=1',
-				array( 'en-gb' => 1, 'en-us' => 1 ),
+			],
+			[ 'en-gb, en-us; q=1',
+				[ 'en-gb' => 1, 'en-us' => 1 ],
 				'Two equally prefered English variants',
-			),
-			array(
+			],
+			[
 				'da, en-gb;q=0.8, en;q=0.7',
-				array( 'da' => 1, 'en-gb' => 0.8, 'en' => 0.7 ),
+				[ 'da' => 1, 'en-gb' => 0.8, 'en' => 0.7 ],
 				'Example from http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4',
-			)
-		);
+			]
+		];
 	}
 
 	/**
@@ -233,7 +236,6 @@ class IntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @dataProvider provideParseExternalLinks
 	 * @covers IntuitionUtil::parseExternalLinks
-	 * @covers IntuitionUtil::parseExternalLinkArray
 	 */
 	public function testparseExternalLinks( $input, $expected = null ) {
 		$this->assertEquals(
@@ -266,7 +268,6 @@ class IntuitionUtilTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @dataProvider provideParseWikiLinks
 	 * @covers IntuitionUtil::parseWikiLinks
-	 * @covers IntuitionUtil::parseWikiLinkArray
 	 * @covers IntuitionUtil::prettyEncodedWikiUrl
 	 */
 	public function testParseWikiLinks( $articlePath, $input, $expected ) {

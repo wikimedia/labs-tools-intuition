@@ -3,8 +3,8 @@
  * Main class.
  *
  * @copyright 2011-2015 See AUTHORS.txt
- * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package intuition
+ * @license CC-BY-3.0
+ * @package krinkle/intuition
  */
 
 namespace Krinkle\Intuition;
@@ -24,7 +24,7 @@ if ( !defined( 'INTUITION' ) ) {
  */
 class Intuition {
 	// Message file cache. Does not contain local overrides. See $messageBlob.
-	protected static $messageCache = array();
+	protected static $messageCache = [];
 
 	// Fallback cache. Stored as an array of language codes with their fallback as value.
 	protected static $fallbackCache = null;
@@ -52,26 +52,26 @@ class Intuition {
 	protected $useRequestParam;
 
 	// Changing this will invalidate all cookies
-	protected $cookieNames = array(
+	protected $cookieNames = [
 		'userlang' => 'TsIntuition_userlang',
 		'track-expire' => 'TsIntuition_expiry'
-	);
+	];
 
 	// Changing this will break existing permalinks
-	protected $paramNames = array( 'userlang' => 'userlang' );
+	protected $paramNames = [ 'userlang' => 'userlang' ];
 
 	// In-class message storage.
 	// Format: $store['domain']['lang']['message-key'] = 'Raw message value';
-	protected $messageBlob = array();
+	protected $messageBlob = [];
 
 	// Which domains and languages have been loaded.
 	// $loadedDomains['general']['en'] = true;
-	protected $loadedDomains = array();
+	protected $loadedDomains = [];
 
 	// Based on MediaWiki 1.26alpha ()
 	// These codes are mapped to their replacements before loading.
 	// Associated language files may still exist, but will not be used.
-	protected $deprecatedLangCodes = array(
+	protected $deprecatedLangCodes = [
 		'als' => 'gsw',
 		'bat-smg' => 'sgs',
 		'be-x-old' => 'be-tarask',
@@ -85,7 +85,7 @@ class Intuition {
 		'zh-classical' => 'lzh',
 		'zh-min-nan' => 'nan',
 		'zh-yue' => 'yue',
-	);
+	];
 
 	// Language names are stored as an array of language codes
 	// with their native name as value
@@ -94,10 +94,10 @@ class Intuition {
 
 	protected $availableLanguages = null;
 
-	protected $domainInfos = array();
+	protected $domainInfos = [];
 
 	// These variable names will be extracted from the message files
-	protected $includeVariables = array( 'messages', 'url' );
+	protected $includeVariables = [ 'messages', 'url' ];
 
 	// Redirect address and status
 	protected $redirectTo = null;
@@ -106,7 +106,7 @@ class Intuition {
 	protected $messagesFunctions = null;
 
 	public static function clearCache() {
-		self::$messageCache = array();
+		self::$messageCache = [];
 		self::$fallbackCache = null;
 	}
 
@@ -126,14 +126,14 @@ class Intuition {
 	 * - stayalive
 	 * - param
 	 */
-	public function __construct( $options = array() ) {
+	public function __construct( $options = [] ) {
 		$this->localBaseDir = dirname( __DIR__ );
 
 		if ( is_string( $options ) ) {
-			$options = array( 'domain' => $options );
+			$options = [ 'domain' => $options ];
 		}
 
-		$defaultOptions = array(
+		$defaultOptions = [
 			'domain' => 'general',
 			'lang' => null,
 			'globalfunctions' => true,
@@ -142,7 +142,7 @@ class Intuition {
 			'suppressbrackets' => false,
 			'stayalive' => false,
 			'param' => true,
-		);
+		];
 		$options = array_merge( $defaultOptions, $options );
 
 		// The domain of your tool can be set here.
@@ -224,11 +224,11 @@ class Intuition {
 
 	/**
 	 * Get an array of common locale values for setlocale().
-	 * @param string $lang [optional] Pass a language code. Defaults to current language.
+	 * @param string|null $lang [optional] Pass a language code. Defaults to current language.
 	 * @return array
 	 */
 	public function getLocale( $lang = null, $utf8 = true ) {
-		$suffixes = $utf8 ? array( '.UTF-8', '.UTF-8', '.utf8' ) : array( '' );
+		$suffixes = $utf8 ? [ '.UTF-8', '.UTF-8', '.utf8' ] : [ '' ];
 		$normal = isset( $lang ) ? $lang : $this->getLang();
 		$normalUC = strtoupper( $normal );
 
@@ -237,7 +237,7 @@ class Intuition {
 		$short = $parts[0];
 		$shortUC = strtoupper( $short );
 
-		$versions = array(
+		$versions = [
 			// foo-br or en
 			$normal,
 			// FOO-BR or EN
@@ -248,8 +248,8 @@ class Intuition {
 			$short,
 			// FOO or EN
 			$shortUC,
-		);
-		$return = array();
+		];
+		$return = [];
 		foreach ( $versions as $version ) {
 			foreach ( $suffixes as $suffix ) {
 				$return[] = $version . $suffix;
@@ -306,7 +306,6 @@ class Intuition {
 	public function getParamNames() {
 		return $this->paramNames;
 	}
-
 
 	/**
 	 * @param string $name
@@ -391,29 +390,29 @@ class Intuition {
 	 *  - * 'htmlspecialchars' (alias of 'html')
 	 *  - * 'htmlentities' (foreign/UTF-8 chars converted as well)
 	 *
-	 * @param mixed $fail [optional] Value if the message doesn't exist. Defaults to null.
+	 * @param mixed|null $fail [optional] Value if the message doesn't exist. Defaults to null.
 	 */
-	public function msg( $key = 0, $options = array(), $fail = null ) {
+	public function msg( $key = 0, $options = [], $fail = null ) {
 		if ( !IntuitionUtil::nonEmptyStr( $key ) ) {
 			// Invalid message key
 			return $this->bracketMsg( $key, $fail );
 		}
 
-		$defaultOptions = array(
+		$defaultOptions = [
 			'domain' => $this->getDomain(),
 			'lang' => $this->getLang(),
-			'variables' => array(),
+			'variables' => [],
 			'raw-variables' => false,
 			'escape' => 'plain',
 			'parsemag' => true,
 			'externallinks' => false,
 			// Set to a wiki article path for converting
 			'wikilinks' => false,
-		);
+		];
 
 		// If $options was a domain string, convert it now.
 		if ( IntuitionUtil::nonEmptyStr( $options ) ) {
-			$options = array( 'domain' => $options );
+			$options = [ 'domain' => $options ];
 		}
 
 		// If $options is still not an array, ignore it and use default
@@ -554,7 +553,7 @@ class Intuition {
 	 * conflicts with HTML when used wrong.
 	 *
 	 * @param string $key Name of the key to be used
-	 * @param mixed $fail [optional] Custom failure return
+	 * @param mixed|null $fail [optional] Custom failure return
 	 */
 	public function bracketMsg( $key, $fail = null ) {
 		if ( $fail !== null ) {
@@ -575,7 +574,7 @@ class Intuition {
 	 *
 	 * @return bool
 	 */
-	public function msgExists( $key = 0, $options = array() ) {
+	public function msgExists( $key = 0, $options = [] ) {
 		// Use the $fail option of msg()
 		if ( $this->msg( $key, $options, /* $fail = */ false ) === false ) {
 			return false;
@@ -592,8 +591,8 @@ class Intuition {
 	 *
 	 * @param string $key
 	 * @param string $message
-	 * @param string $domain [optional] Defaults to current domain
-	 * @param string $lang [optional] Defaults to current language
+	 * @param string|null $domain [optional] Defaults to current domain
+	 * @param string|null $lang [optional] Defaults to current language
 	 */
 	public function setMsg( $key, $message, $domain = null, $lang = null ) {
 		$domain = IntuitionUtil::nonEmptyStr( $domain )
@@ -610,8 +609,8 @@ class Intuition {
 	 * Set multiple messages in the blob.
 	 *
 	 * @param string $messagesByKey
-	 * @param string $domain [optional] Defaults to current domain
-	 * @param string $lang [optional] Defaults to current language
+	 * @param string|null $domain [optional] Defaults to current domain
+	 * @param string|null $lang [optional] Defaults to current language
 	 */
 	public function setMsgs( $messagesByKey, $domain = null, $lang = null ) {
 		foreach ( $messagesByKey as $key => $message ) {
@@ -627,7 +626,7 @@ class Intuition {
 	 * @param array $info [optional] Domain info
 	 * @return array
 	 */
-	public function registerDomain( $domain, $dir, $info = array() ) {
+	public function registerDomain( $domain, $dir, $info = [] ) {
 		$info['dir'] = $dir;
 		$this->domainInfos[ $this->normalizeDomain( $domain ) ] = $info;
 	}
@@ -647,7 +646,7 @@ class Intuition {
 		// Ignore load failure to allow listing of messages that
 		// were manually registered (in case there are any).
 		if ( !isset( $this->messageBlob[$domain]['en'] ) ) {
-			return array();
+			return [];
 		}
 		return array_keys( $this->messageBlob[$domain]['en'] );
 	}
@@ -668,7 +667,7 @@ class Intuition {
 		}
 
 		$lang = $this->normalizeLang( $lang );
-		return isset( self::$fallbackCache[$lang] ) ? self::$fallbackCache[$lang] : array( 'en' );
+		return isset( self::$fallbackCache[$lang] ) ? self::$fallbackCache[$lang] : [ 'en' ];
 	}
 
 	/**
@@ -679,11 +678,11 @@ class Intuition {
 		// @codeCoverageIgnoreStart
 		if ( !is_file( $file ) || !is_readable( $file ) ) {
 			$this->errTrigger( 'Unable to open fallbacks.json', __METHOD__, E_NOTICE );
-			return array();
+			return [];
 		}
 		// @codeCoverageIgnoreEnd
 
-		$fallbacks = json_decode( file_get_contents( $file ), true ) ?: array();
+		$fallbacks = json_decode( file_get_contents( $file ), true ) ?: [];
 
 		foreach ( $fallbacks as &$fallback ) {
 			// Expand string values to arrays
@@ -722,8 +721,8 @@ class Intuition {
 			// @codeCoverageIgnoreStart
 			if ( !is_readable( $path ) ) {
 				$this->errTrigger( 'Names.php is missing', __METHOD__, E_NOTICE );
-				$this->langNames = array();
-				return array();
+				$this->langNames = [];
+				return [];
 			}
 			// @codeCoverageIgnoreEnd
 
@@ -761,7 +760,7 @@ class Intuition {
 		);
 		$languages = array_values( array_unique( $languages ) );
 
-		$availableLanguages = array();
+		$availableLanguages = [];
 		foreach ( $languages as $lang ) {
 			$langName = $this->getLangName( $lang );
 			if ( $langName !== '' ) {
@@ -860,9 +859,9 @@ class Intuition {
 				// Domain does not exist
 				return false;
 			}
-			$this->domainInfos[ $domain ] = array(
+			$this->domainInfos[ $domain ] = [
 				'dir' => $dir,
-			);
+			];
 		}
 		return $this->domainInfos[ $domain ];
 	}
@@ -1018,11 +1017,11 @@ class Intuition {
 		return IntuitionUtil::tag(
 			$text,
 			'a',
-			array(
+			[
 				'class' => 'int-dashboardbacklink',
 				'href' => $this->getDashboardReturnToUrl(),
 				'title' => $this->msg( 'bl-changelanguage', 'tsintuition' ),
-			)
+			]
 		);
 	}
 
@@ -1046,7 +1045,7 @@ class Intuition {
 				. '/' . $imgSize . 'px-Tool_labs_logo.svg.png';
 			$src_2x = '//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
 				. '/' . ( $imgSize * 2 ) . 'px-Tool_labs_logo.svg.png';
-			$img = IntuitionUtil::tag( '', 'img', array(
+			$img = IntuitionUtil::tag( '', 'img', [
 				'src' => $src,
 				'srcset' => "$src 1x, $src_2x 2x",
 				'width' => $imgSize,
@@ -1054,21 +1053,21 @@ class Intuition {
 				'alt' => '',
 				'title' => '',
 				'class' => 'int-logo',
-			) );
+			] );
 		} else {
 			$img = '';
 		}
 
 		// Promo message
-		$promoMsgOpts = array(
+		$promoMsgOpts = [
 			'domain' => 'tsintuition',
 			'escape' => 'html',
 			'raw-variables' => true,
-			'variables' => array(
+			'variables' => [
 				'<a href="//translatewiki.net/">translatewiki.net</a>',
 				'<a href="' . $this->dashboardHome . '">Intuition</a>'
-			),
-		);
+			],
+		];
 		$poweredHtml = $this->msg( 'bl-promo', $promoMsgOpts );
 
 		// "Help translation" link
@@ -1093,21 +1092,20 @@ class Intuition {
 
 		if ( $translateGroup ) {
 			// https://translatewiki.net/w/i.php?language=nl&title=Special:Translate&group=tsint-0-all
-			$twParams = array(
+			$twParams = [
 				'title' => 'Special:Translate',
 				'language' => $this->getLang(),
 				'group' => $translateGroup,
-			);
+			];
 			$twParams = http_build_query( $twParams );
-			$helpTranslateLink = '<small>(' . IntuitionUtil::tag( $twLinkText, 'a', array(
+			$helpTranslateLink = '<small>(' . IntuitionUtil::tag( $twLinkText, 'a', [
 				'href' => "https://translatewiki.net/w/i.php?$twParams",
 				'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' )
-			) ) . ')</small>';
+			] ) . ')</small>';
 		}
 
 		// Build output
-		return
-			'<div class="int-promobox"><p><a href="' .
+		return '<div class="int-promobox"><p><a href="' .
 			htmlspecialchars( $this->getDashboardReturnToUrl() )
 			. "\">$img</a> "
 			. "$poweredHtml {$this->dashboardBacklink()} $helpTranslateLink</p></div>";
@@ -1134,10 +1132,10 @@ class Intuition {
 	 * @return string URL
 	 */
 	public function getDashboardReturnToUrl() {
-		$p = array(
+		$p = [
 			'returnto' => $_SERVER['SCRIPT_NAME'],
 			'returntoquery' => http_build_query( $_GET ),
-		);
+		];
 		return rtrim( $this->dashboardHome, '/' )
 			. '/?'
 			. http_build_query( $p )
@@ -1162,7 +1160,7 @@ class Intuition {
 		if ( !is_string( $url ) || !is_int( $code ) ) {
 			return false;
 		}
-		$this->redirectTo = array( $url, $code );
+		$this->redirectTo = [ $url, $code ];
 		return true;
 	}
 
@@ -1184,7 +1182,7 @@ class Intuition {
 
 	public function parentheses( /* $this->msg( [arguments] ) */ ) {
 		$msg = call_user_func_array(
-			array( $this, 'msg' ),
+			[ $this, 'msg' ],
 			func_get_args()
 		);
 		return $this->parensWrap( $msg );
@@ -1197,11 +1195,11 @@ class Intuition {
 	public function parensWrap( $content, $escape = 'plain' ) {
 		return $this->msg(
 			'parentheses',
-			array(
+			[
 				'domain' => 'general',
 				'raw-variables' => true,
-				'variables' => array( IntuitionUtil::strEscape( $content, $escape ) ),
-			)
+				'variables' => [ IntuitionUtil::strEscape( $content, $escape ) ],
+			]
 		);
 	}
 
@@ -1209,9 +1207,9 @@ class Intuition {
 	 * Get a localized date. Pass a format, time or both.
 	 * Defaults to the current timestamp in the language's default date format.
 	 *
-	 * @param string $format Date format compatible with strftime()
-	 * @param mixed $timestamp Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
-	 * @param string $lang Language code. Defaults to current langauge (through getLocale() )
+	 * @param string|null $format Date format compatible with strftime()
+	 * @param mixed|null $timestamp Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
+	 * @param string|null $lang Language code. Defaults to current langauge (through getLocale() )
 	 * @return string
 	 */
 	public function dateFormatted( $first = null, $second = null, $lang = null ) {
@@ -1255,7 +1253,6 @@ class Intuition {
 		setlocale( LC_ALL, $saved );
 
 		return $return;
-
 	}
 
 	/**
@@ -1375,20 +1372,20 @@ class Intuition {
 		$s = '';
 		$m = count( $l ) - 1;
 		if ( $m == 1 ) {
-			$s = $l[0] . $this->msg( 'and', array( 'domain' => 'general' ) ) .
-				$this->msg( 'word-separator', array( 'domain' => 'general' ) ) .
+			$s = $l[0] . $this->msg( 'and', [ 'domain' => 'general' ] ) .
+				$this->msg( 'word-separator', [ 'domain' => 'general' ] ) .
 				$l[1];
 		} else {
 			for ( $i = $m; $i >= 0; $i-- ) {
 				if ( $i == $m ) {
 					$s = $l[$i];
 				} elseif ( $i == $m - 1 ) {
-					$s = $l[$i] . $this->msg( 'and', array( 'domain' => 'general' ) ) .
-						$this->msg( 'word-separator', array( 'domain' => 'general' ) ) .
+					$s = $l[$i] . $this->msg( 'and', [ 'domain' => 'general' ] ) .
+						$this->msg( 'word-separator', [ 'domain' => 'general' ] ) .
 						$s;
 				} else {
 					$s = $l[$i] .
-						$this->msg( 'comma-separator', array( 'domain' => 'general' ) ) .
+						$this->msg( 'comma-separator', [ 'domain' => 'general' ] ) .
 						$s;
 				}
 			}
@@ -1470,7 +1467,7 @@ class Intuition {
 	/**
 	 * Whether the language is right-to-left
 	 *
-	 * @param string $lang Language code to get the property from,
+	 * @param string|null $lang Language code to get the property from,
 	 *  current language if missing
 	 * @return bool
 	 */
@@ -1516,7 +1513,7 @@ class Intuition {
 	 * @codeCoverageIgnore
 	 */
 	public function getAllRegisteredDomains() {
-		return array();
+		return [];
 	}
 
 	/**

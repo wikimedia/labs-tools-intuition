@@ -1,11 +1,12 @@
 <?php
 /**
  * Functions for messages (PLURAL, etc.).
+ *
  * @see Intuition::msg()
  *
  * @copyright 2011-2014 See AUTHORS.txt
- * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package intuition
+ * @license CC-BY-3.0
+ * @package krinkle/intuition
  */
 
 class MessagesFunctions {

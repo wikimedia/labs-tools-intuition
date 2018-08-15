@@ -3,8 +3,8 @@
  * Extract language data from MediaWiki core.
  *
  * @copyright 2011-2015 See AUTHORS.txt
- * @license CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>
- * @package intuition
+ * @license CC-BY-3.0
+ * @package krinkle/intuition
  */
 
 if ( !isset( $argv[1] ) || strpos( $argv[1], '/messages' ) === false ) {
@@ -24,10 +24,10 @@ if ( !is_writable( $dest ) ) {
 	exit( 1 );
 }
 
-$data = array(
-	'fallbacks' => array(),
-	'rtl' => array(),
-);
+$data = [
+	'fallbacks' => [],
+	'rtl' => [],
+];
 $rFallback = "/fallback = \\'(.*?)\\';/i";
 $rIsRtl = '/rtl = true;/i';
 

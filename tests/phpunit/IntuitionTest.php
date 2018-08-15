@@ -39,9 +39,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			'Domain key as string'
 		);
 
-		$i18n = new Intuition( array(
+		$i18n = new Intuition( [
 			'domain' => 'test-domain'
-		) );
+		] );
 		$this->sampleMsgs( $i18n );
 		$this->assertEquals(
 			'en value',
@@ -49,9 +49,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			'Constructor "domain" array option'
 		);
 
-		$i18n = new Intuition( array(
+		$i18n = new Intuition( [
 			'lang' => 'de'
-		) );
+		] );
 		$this->sampleMsgs( $i18n );
 		$this->assertEquals(
 			'de value',
@@ -106,9 +106,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::getMessagesFunctions
 	 */
 	public function testMsg() {
-		$this->i18n->setMsgs( array(
+		$this->i18n->setMsgs( [
 			'welcomeback' => 'Welcome back, $1! Would you like some $2?',
-		) );
+		] );
 
 		$this->assertEquals(
 			'Welcome',
@@ -136,21 +136,21 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 		$this->assertEquals(
 			'en value',
-			$this->i18n->msg( 'test-value', array( 'domain' => 'test-domain' ) ),
+			$this->i18n->msg( 'test-value', [ 'domain' => 'test-domain' ] ),
 			'Domain option (array)'
 		);
 
 		$this->assertEquals(
 			'Version 1.0 (January 15 2001)',
-			$this->i18n->msg( 'toolversionstamp', array(
-				'variables' => array( '1.0', $this->i18n->dateFormatted( '2001-01-15' ) ),
-			) ),
+			$this->i18n->msg( 'toolversionstamp', [
+				'variables' => [ '1.0', $this->i18n->dateFormatted( '2001-01-15' ) ],
+			] ),
 			'Variable replacement with dateFormatted'
 		);
 
 		$this->assertEquals(
 			'Welcome back, John! Would you like some coffee?',
-			$this->i18n->msg( 'welcomeback', array( 'variables' => array( 'John', 'coffee' ) ) ),
+			$this->i18n->msg( 'welcomeback', [ 'variables' => [ 'John', 'coffee' ] ] ),
 			'Replacing 2 veriables'
 		);
 	}
@@ -161,49 +161,49 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers MessagesFunctions
 	 */
 	public function testMessagesFunctions() {
-		$this->i18n->setMsgs( array(
+		$this->i18n->setMsgs( [
 			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples|applex}}.',
-		) );
+		] );
 
 		$this->assertEquals(
 			'The basket contains 1 apple.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '1' ) ) ),
+			$this->i18n->msg( 'basket', [ 'variables' => [ '1' ] ] ),
 			'Plural (en) with 1'
 		);
 
 		$this->assertEquals(
 			'The basket contains 7 apples.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ) ) ),
+			$this->i18n->msg( 'basket', [ 'variables' => [ '7' ] ] ),
 			'Plural (en) with 7'
 		);
 
 		$this->assertEquals(
 			'The basket contains 0 apples.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '0' ) ) ),
+			$this->i18n->msg( 'basket', [ 'variables' => [ '0' ] ] ),
 			'Plural (en) with 0 uses plural form'
 		);
 
 		$this->assertEquals(
 			'The basket contains 0 apple.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '0' ), 'lang' => 'fr' ) ),
+			$this->i18n->msg( 'basket', [ 'variables' => [ '0' ], 'lang' => 'fr' ] ),
 			'Plural (fr) with 0 uses singular form'
 		);
 
 		$this->assertEquals(
 			'The basket contains 21 apple.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '21' ), 'lang' => 'ru' ) ),
+			$this->i18n->msg( 'basket', [ 'variables' => [ '21' ], 'lang' => 'ru' ] ),
 			'Plural (ru) with 21 uses singular form'
 		);
 
 		$this->assertEquals(
 			'The basket contains 22 apples.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '22' ), 'lang' => 'ru' ) ),
+			$this->i18n->msg( 'basket', [ 'variables' => [ '22' ], 'lang' => 'ru' ] ),
 			'Plural (ru) with 22 uses paucal@2 form'
 		);
 
 		$this->assertEquals(
 			'The basket contains 7 applex.',
-			$this->i18n->msg( 'basket', array( 'variables' => array( '7' ), 'lang' => 'ru' ) ),
+			$this->i18n->msg( 'basket', [ 'variables' => [ '7' ], 'lang' => 'ru' ] ),
 			'Plural (ru) with 7 uses plural@3 form'
 		);
 	}
@@ -214,32 +214,32 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::msg
 	 */
 	public function testMsgEscape() {
-		$this->i18n->setMsgs( array(
+		$this->i18n->setMsgs( [
 			'example' => 'l&<€ and $1',
-		) );
+		] );
 
 		$this->assertEquals(
 			'l&<€ and &',
-			$this->i18n->msg( 'example', array( 'variables' => array( '&' ) ) ),
+			$this->i18n->msg( 'example', [ 'variables' => [ '&' ] ] ),
 			'Default (no escaping)'
 		);
 
 		$this->assertEquals(
 			'l&amp;&lt;€ and &amp;',
-			$this->i18n->msg( 'example', array(
-				'variables' => array( '&' ),
+			$this->i18n->msg( 'example', [
+				'variables' => [ '&' ],
 				'escape' => 'html',
-			) ),
+			] ),
 			'HTML escaped'
 		);
 
 		$this->assertEquals(
 			'l&amp;&lt;€ and &',
-			$this->i18n->msg( 'example', array(
-				'variables' => array( '&' ),
+			$this->i18n->msg( 'example', [
+				'variables' => [ '&' ],
 				'raw-variables' => true,
 				'escape' => 'html',
-			) ),
+			] ),
 			'HTML escaped (raw variables)'
 		);
 	}
@@ -250,9 +250,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::msg
 	 */
 	public function testMsgExternalLinks() {
-		$this->i18n->setMsgs( array(
+		$this->i18n->setMsgs( [
 			'example' => 'The message with an [https://example.org link].',
-		) );
+		] );
 
 		$this->assertEquals(
 			'The message with an [https://example.org link].',
@@ -262,7 +262,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 		$this->assertEquals(
 			'The message with an <a href="https://example.org">link</a>.',
-			$this->i18n->msg( 'example', array( 'externallinks' => true ) ),
+			$this->i18n->msg( 'example', [ 'externallinks' => true ] ),
 			'Expanded with externallinks=true'
 		);
 	}
@@ -273,9 +273,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::msg
 	 */
 	public function testMsgWikiLinks() {
-		$this->i18n->setMsgs( array(
+		$this->i18n->setMsgs( [
 			'example' => 'The message with an [[Example|link]].',
-		) );
+		] );
 
 		$this->assertEquals(
 			'The message with an [[Example|link]].',
@@ -285,7 +285,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 		$this->assertEquals(
 			'The message with an <a href="/wiki/Example">link</a>.',
-			$this->i18n->msg( 'example', array( 'wikilinks' => '/wiki/$1' ) ),
+			$this->i18n->msg( 'example', [ 'wikilinks' => '/wiki/$1' ] ),
 			'Expanded with wikilinks="/wiki/$1"'
 		);
 	}
@@ -297,7 +297,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	public function testMsgQqx() {
 		$this->assertEquals(
 			'(test-register/foo)',
-			$this->i18n->msg( 'foo', array( 'domain' => 'test-register', 'lang' => 'qqx' ) ),
+			$this->i18n->msg( 'foo', [ 'domain' => 'test-register', 'lang' => 'qqx' ] ),
 			'Qqx message'
 		);
 	}
@@ -389,19 +389,18 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$int1 = new Intuition( 'general' );
 		$int2 = new Intuition( 'general' );
 
-		$int1->msg( 'hello' );
-		$int2->msg( 'hello' );
-		// No assertions
+		$this->assertInternalType( 'string', $int1->msg( 'hello' ) );
+		$this->assertInternalType( 'string', $int2->msg( 'hello' ) );
 	}
 
 	public static function provideEnsureLoaded() {
-		return array(
-			array( '', '', 'empty' ),
-			array( '', 'en', 'empty domain' ),
-			array( 'example', '', 'empty lang' ),
-			array( 'http://', 'en', 'dangerous domain' ),
-			array( 'example', '/etc', 'dangerous lang' ),
-		);
+		return [
+			[ '', '', 'empty' ],
+			[ '', 'en', 'empty domain' ],
+			[ 'example', '', 'empty lang' ],
+			[ 'http://', 'en', 'dangerous domain' ],
+			[ 'example', '/etc', 'dangerous lang' ],
+		];
 	}
 	/**
 	 * @dataProvider provideEnsureLoaded
@@ -421,7 +420,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::registerDomain
 	 */
 	public function testRegisterDomainDefault() {
-		$i18n = new Intuition( array( 'domain' => 'test-register' ) );
+		$i18n = new Intuition( [ 'domain' => 'test-register' ] );
 		$i18n->registerDomain( 'test-register', __DIR__ . '/data/i18n' );
 		$this->assertEquals(
 			'Foo bar',
@@ -456,13 +455,12 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		);
 	}
 
-
 	public static function provideRedirectTo() {
-		return array(
-			'valid url' => array( true, 'https://example.org/', true ),
-			'null clears redirect' => array( true, null, false ),
-			'array is invalid' => array( false, [ 'invalid' ], false )
-		);
+		return [
+			'valid url' => [ true, 'https://example.org/', true ],
+			'null clears redirect' => [ true, null, false ],
+			'array is invalid' => [ false, [ 'invalid' ], false ]
+		];
 	}
 
 	/**
@@ -531,12 +529,12 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::errMsg
 	 */
 	public function testOptionShownotice() {
-		$i18n = new Intuition( array(
+		$i18n = new Intuition( [
 			// Show notices
 			'suppressnotice' => false,
-		) );
+		] );
 
-		$this->setExpectedException( 'PHPUnit_Framework_Error_Notice' );
+		$this->expectException( \PHPUnit\Framework\Error\Notice::class );
 		$this->assertEquals(
 			'[randomkey]',
 			$i18n->msg( 'randomkey' ),
@@ -549,10 +547,10 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::bracketMsg
 	 */
 	public function testOptionSuppressbrackets() {
-		$i18n = new Intuition( array(
+		$i18n = new Intuition( [
 			'suppressnotice' => true,
 			'suppressbrackets' => true,
-		) );
+		] );
 
 		$this->assertEquals(
 			'Randomkey',
@@ -578,7 +576,6 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			'English',
 			$this->i18n->getLangName( 'en' )
 		);
-
 	}
 
 	/**
@@ -587,11 +584,11 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	public function testListMsgs() {
 		$this->assertEquals(
 			$this->i18n->listMsgs( 'test-domain' ),
-			array( 'test-value' )
+			[ 'test-value' ]
 		);
 		$this->assertEquals(
 			$this->i18n->listMsgs( 'unknown' ),
-			array()
+			[]
 		);
 	}
 
@@ -607,7 +604,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$fallbacks = $this->i18n->getLangFallbacks( 'de-formal' );
 		$this->assertEquals(
 			$fallbacks,
-			array( 'de', 'en' )
+			[ 'de', 'en' ]
 		);
 	}
 
@@ -696,9 +693,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 */
 	public function testGetDomainInfo() {
 		$this->assertEquals(
-			array(
+			[
 				'dir' => dirname( dirname( __DIR__ ) ) . '/language/messages/general',
-			),
+			],
 			$this->i18n->getDomainInfo( 'general' )
 		);
 		$this->assertEquals(
@@ -708,11 +705,11 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	public static function provideIsLocalDomain() {
-		return array(
-			'general' => array( true, 'general' ),
-			'-x-unknown' => array( false, '-x-unknown' ),
-			'rtrc' => array( true, 'rtrc' ),
-		);
+		return [
+			'general' => [ true, 'general' ],
+			'-x-unknown' => [ false, '-x-unknown' ],
+			'rtrc' => [ true, 'rtrc' ],
+		];
 	}
 
 	/**
@@ -725,7 +722,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$method->setAccessible( true );
 		$this->assertSame(
 			$expected,
-			$method->invokeArgs( $this->i18n, array( $domain ) )
+			$method->invokeArgs( $this->i18n, [ $domain ] )
 		);
 	}
 
@@ -752,6 +749,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Intuition::getDashboardReturnToUrl
 	 */
 	public function testDashboardReturnToUrl() {
+		// phpcs:disable MediaWiki.Usage.SuperGlobalsUsage.SuperGlobals
 		$_SERVER['SCRIPT_NAME'] = '/example/index.php';
 		$_GET = [];
 		$this->assertEquals(

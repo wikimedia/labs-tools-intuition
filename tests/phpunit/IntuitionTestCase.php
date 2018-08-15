@@ -2,23 +2,23 @@
 
 namespace Krinkle\Intuition;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
 function setcookie() {
 	return null;
 }
 
 function time() {
-	return (int) IntuitionTestCase::$time;
+	return (int)IntuitionTestCase::$time;
 }
 
-class IntuitionTestCase extends PHPUnit_Framework_TestCase {
+class IntuitionTestCase extends TestCase {
 
 	public static $time = 1;
 
 	protected $i18n;
 
-	protected $live = array();
+	protected $live = [];
 
 	protected function setUp() {
 		parent::setUp();
@@ -37,13 +37,16 @@ class IntuitionTestCase extends PHPUnit_Framework_TestCase {
 		// Restore super globals
 		$_SERVER = $this->live['SERVER'];
 		$_COOKIE = $this->live['COOKIE'];
-		$this->live = array();
+		$this->live = [];
 
 		unset( $this->i18n );
 
 		parent::tearDown();
 	}
 
+	/**
+	 * @param int $time Timestamp
+	 */
 	protected function setTime( $time ) {
 		self::$time = $time;
 	}
