@@ -4,10 +4,16 @@
 			"ديفيد"
 		]
 	},
+	"voiceintro-toolbar-record-label": "سجل",
+	"voiceintro-toolbar-stop-label": "إيقاف",
+	"voiceintro-toolbar-clear-label": "مسح",
+	"voiceintro-toolbar-upload-label": "رفع",
 	"voiceintro-webaudio-not-supported": "لا يتم اعتماد تطبيقات WebAudio API لهذا المتصفح",
 	"voiceintro-upload-publish-succeeded": "تم تحميل التسجيل بشكل صحيح:",
 	"voiceintro-upload-publish-failed": "لم يتم تحميل التسجيل.",
+	"voiceintro-information-label": "معلومات",
 	"voiceintro-information-speaker-label": "اسم المتكلم:",
+	"voiceintro-information-language-label": "اللغة:",
 	"voiceintro-mic-access-notify": "انقر فوق \"السماح\" للسماح للمتصفح باستخدام الميكروفون.",
 	"voiceintro-recording-notify": "جارٍ التسجيل..."
 }

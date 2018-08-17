@@ -6,13 +6,24 @@
 			"ديفيد"
 		]
 	},
+	"title": "ماذا يترك هنا",
 	"title-leaveshere": "الوصلات التي تُركَت من \"$1\"",
 	"sub-leaveshere": "الصفحات التالية موصولة من $1",
+	"label-page": "الصفحة",
 	"label-namespace": "نطاق",
+	"label-limit": "الحد",
 	"namespacesall": "الكل",
+	"button-submit": "اذهب",
 	"noleaveshere": "لا شيء موصول من $1",
+	"link-whatleaveshere": "ماذا يترك هنا",
 	"tooltip-whatleaveshere": "قائمة كل ما يصل إلى هنا",
+	"whatlinkshere": "ماذا يصل هنا",
+	"whatlinkshere-whatleaveshere": "ماذا يترك هنا؟",
+	"istemplate": "مضمن",
+	"isfile": "وصلة ملف",
 	"linksearch": "بحث الوصلات",
 	"section-links": "وصلات",
-	"section-extlinks": "وصلات خارجية"
+	"section-iwlinks": "روابط الإنترويكي",
+	"section-extlinks": "وصلات خارجية",
+	"section-categories": "التصنيفات"
 }

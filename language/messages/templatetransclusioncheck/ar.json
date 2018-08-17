@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"محمد أحمد عبد الفتاح",
-			"Mr. Ibrahem"
+			"Mr. Ibrahem",
+			"ديفيد"
 		]
 	},
+	"title": "فحص القالب وإلغاء التضمين",
+	"description": "يقوم بالتحقق والإبلاغ حول المقالات التي تتضمن قالبا غير مرتبط من القالب، وأي المقالات المرتبطة من قالب لا يقوم بتضمينها.",
 	"form-label-language": "اللغة:",
 	"form-label-template": "اسم القالب:",
 	"form-label-template2": "(بما في ذلك نطاق الاسم)",
@@ -17,6 +20,7 @@
 	"feedback-header-no-transclusion": "ارتباط ولكن غير مضمن",
 	"feedback-header-redirects": "وصلات إلى تحويلات",
 	"feedback-total-count": "إجمالي: $1",
+	"feedback-header-complete": "استكمال التضمين وربط نظرة عامة",
 	"feedback-header-transclusions": "تضمينات القالب",
 	"feedback-header-links": "وصلات من القالب",
 	"link-edit": "عدل",
