@@ -16,6 +16,7 @@ class IntuitionTestCase extends TestCase {
 
 	public static $time = 1;
 
+	/** @var Intuition */
 	protected $i18n;
 
 	protected $live = [];

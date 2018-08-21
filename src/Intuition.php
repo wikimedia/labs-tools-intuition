@@ -749,6 +749,17 @@ class Intuition {
 	}
 
 	/**
+	 * Add a language that isn't listed in Intuition's included language list.
+	 * @param string $code The language code (with hyphens, not underscores).
+	 * @param string $name The localized name of the language.
+	 */
+	public function addAvailableLang( $code, $name ) {
+		$this->getLangNames();
+		$this->langNames[$code] = $name;
+		$this->availableLanguages[$code] = $name;
+	}
+
+	/**
 	 * Generate a list of all languages available in at least one domain.
 	 * @return array Language names keyed by language code
 	 */
