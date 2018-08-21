@@ -30,7 +30,7 @@ class Intuition {
 
 	public $localBaseDir;
 
-	public $version = '1.0.0';
+	public $version = '1.1.0';
 
 	// URL to where intuition-web is installed
 	public $dashboardHome = '//tools.wmflabs.org/intuition';
@@ -750,6 +750,8 @@ class Intuition {
 
 	/**
 	 * Add a language that isn't listed in Intuition's included language list.
+	 *
+	 * @since 1.1.0
 	 * @param string $code The language code (with hyphens, not underscores).
 	 * @param string $name The localized name of the language.
 	 */

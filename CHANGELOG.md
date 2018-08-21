@@ -1,3 +1,9 @@
+## v1.1.0 (2018-08-21)
+
+### Added
+
+* core: New method `Intuition::addAvailableLanguage`. ([issue #88](https://github.com/Krinkle/intuition/issues/88))
+
 ## v1.0.0 (2018-08-15)
 
 ### Changed
