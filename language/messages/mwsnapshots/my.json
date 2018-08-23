@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"title-error": "အမှား",
+	"title-updatelog": "မွမ်းမံမှု မှတ်တမ်း",
+	"title-downloadpage": "ဒေါင်းလုဒ်",
+	"repo-site-link": "ဝဘ်ဆိုဒ်",
+	"repo-lastmoddate-label": "နေ့စွဲ:",
+	"branches-submit-button": "သဘောပေါက်ပြီ",
+	"updatelog-link": "မွမ်းမံမှု မှတ်တမ်း",
+	"tablehead-filesize": "ဖိုင် အရွယ်အစား"
+}
