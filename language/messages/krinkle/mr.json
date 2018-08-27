@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"V.narsikar"
+			"V.narsikar",
+			"Sureshkhole"
 		]
 	},
-	"alws-label": "विकी",
-	"alws-selectwiki": "(विकी निवडा)",
-	"alws-group-mustused": "सर्वात जास्त वापरल्या जाणारे विकी",
-	"alws-group-allaz": "अकारविल्हे सर्व विकी",
+	"alws-label": "विकि",
+	"alws-selectwiki": "(विकि निवडा)",
+	"alws-group-mustused": "सर्वात जास्त वापरल्या जाणाऱ्या विकि",
+	"alws-group-allaz": "नावानूसार क्रमाने सर्व विकि",
 	"form-legend-settings": "मांडण्या"
 }
