@@ -146,6 +146,7 @@ class Names {
 		'el' => 'Ελληνικά', # Greek
 		'eml' => 'emiliàn e rumagnòl', # Emiliano-Romagnolo / Sammarinese
 		'en' => 'English', # English
+		'en-au' => 'Australian English', # Australian English
 		'en-ca' => 'Canadian English', # Canadian English
 		'en-gb' => 'British English', # British English
 		'eo' => 'Esperanto', # Esperanto
