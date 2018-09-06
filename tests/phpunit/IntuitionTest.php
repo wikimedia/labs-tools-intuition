@@ -885,8 +885,11 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	public function testAddAvailableLang() {
 		// This is a valid locale http://demo.icu-project.org/icu-bin/locexp?d_=en&_=en_FI
 		// It is unlikely to be added to langlist.php (if it is, this test will need to be changed).
-		$this->assertArrayNotHasKey( 'en-FI', $this->i18n->getAvailableLangs() );
+		$this->assertArrayNotHasKey( 'en-fi', $this->i18n->getAvailableLangs() );
 		$this->i18n->addAvailableLang( 'en-FI', 'Finnish English' );
-		$this->assertArrayHasKey( 'en-FI', $this->i18n->getAvailableLangs() );
+		// Test for normalized language code.
+		$this->assertArrayHasKey( 'en-fi', $this->i18n->getAvailableLangs() );
+		// Test that un-normalized key returns the expected value.
+		$this->assertEquals( 'Finnish English', $this->i18n->getLangName( 'en-FI' ) );
 	}
 }
