@@ -757,8 +757,9 @@ class Intuition {
 	 */
 	public function addAvailableLang( $code, $name ) {
 		$this->getLangNames();
-		$this->langNames[$code] = $name;
-		$this->availableLanguages[$code] = $name;
+		$normalizedCode = $this->normalizeLang( $code );
+		$this->langNames[$normalizedCode] = $name;
+		$this->availableLanguages[$normalizedCode] = $name;
 	}
 
 	/**
