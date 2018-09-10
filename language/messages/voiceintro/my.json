@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"voiceintro-toolbar-record-label": "မှတ်တမ်းတင်ရန်",
+	"voiceintro-toolbar-stop-label": "ရပ်",
+	"voiceintro-toolbar-clear-label": "ရှင်းလင်း",
+	"voiceintro-toolbar-upload-label": "တင်ရန်",
+	"voiceintro-information-label": "သတင်းအချက်အလက်",
+	"voiceintro-information-speaker-label": "စကားပြောသူ၏ အမည်:",
+	"voiceintro-information-language-label": "ဘာသာစကား:",
+	"voiceintro-mic-access-notify": "ဘရောက်ဆာအား သင်၏မိုက်ခရိုဖုန်းကို အသုံးပြုခွင့်ပေးရန် \"Allow\" ကိုနှိပ်ပါ။",
+	"voiceintro-recording-notify": "မှတ်တမ်းတင်နေသည်..."
+}
