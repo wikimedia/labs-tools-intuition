@@ -397,6 +397,7 @@ class Intuition {
 	 *  - * 'htmlentities' (foreign/UTF-8 chars converted as well)
 	 *
 	 * @param mixed|null $fail [optional] Value if the message doesn't exist. Defaults to null.
+	 * @return string|null
 	 */
 	public function msg( $key = 0, $options = [], $fail = null ) {
 		if ( !IntuitionUtil::nonEmptyStr( $key ) ) {
@@ -560,6 +561,7 @@ class Intuition {
 	 *
 	 * @param string $key Name of the key to be used
 	 * @param mixed|null $fail [optional] Custom failure return
+	 * @return string|null
 	 */
 	public function bracketMsg( $key, $fail = null ) {
 		if ( $fail !== null ) {
@@ -892,9 +894,10 @@ class Intuition {
 	/**
 	 * Set a cookie.
 	 *
-	 * @param $name string Canonical name of the cookie.
-	 * @param $val string Value to be set.
-	 * @param $lifetime int Lifetime in seconds from now (defaults to 30 days)
+	 * @param string $key Canonical name of the cookie.
+	 * @param string $val Value to be set.
+	 * @param int $lifetime Lifetime in seconds from now (defaults to 30 days).
+	 * @param bool $track Whether to set a expiry-tracking cookie.
 	 * @return bool
 	 */
 	public function setCookie( $key, $val, $lifetime = 2592000, $track = TSINT_COOKIE_TRACK ) {
@@ -1022,6 +1025,7 @@ class Intuition {
 	 * Show a link that explains that this tool has been localized via Intuition and that they
 	 * can change the language by setting their preference in the dashboard.
 	 * Or (if they've done so already) that they can manage their settings there
+	 * @return string
 	 */
 	public function dashboardBacklink() {
 		if ( $this->hasCookies() ) {

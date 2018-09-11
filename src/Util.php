@@ -126,7 +126,7 @@ class Util {
 		if ( in_array( $wrapTag, $selfclose ) ) {
 			$return .= '/>';
 		} else {
-			$return .= ">" . htmlspecialchars( $str ) ."</$wrapTag>";
+			$return .= ">" . htmlspecialchars( $str ) . "</$wrapTag>";
 		}
 		return $return;
 	}
