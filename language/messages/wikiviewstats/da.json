@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"list": "Liste",
+	"sample": "Eksempel",
+	"page": "Side",
+	"allLang": "Alle sprog",
+	"misc": "diverse",
+	"language": "sprog",
+	"myarea": "Mit område",
+	"users": "{{PLURAL: $1|bruger|brugere}}",
+	"project": "Projekt",
+	"category": "Kategori",
+	"template": "Skabelon",
+	"files": "{{PLURAL: $1|fil|filer}}",
+	"wikiThanks": "Tak",
+	"size": "størrelse",
+	"first": "første",
+	"last": "sidste",
+	"articles": "artikler",
+	"good_articles": "gode artikler",
+	"pages": "sider",
+	"namespaces": "navnerum"
+}

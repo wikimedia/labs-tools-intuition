@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"BadDog"
 		]
 	},
 	"toolserver-status-ok": "Нема проблема у кластеру базе података $1 $2",
@@ -12,7 +13,7 @@
 	"toolserver-status-unknown": "Непознато стање кластера $1",
 	"toolserver-status-missing": "Кластер $1 не постоји",
 	"toolserver-status-short-ok": "$1: У реду",
-	"toolserver-status-short-info": "$1: Подаци",
+	"toolserver-status-short-info": "$1: Информације",
 	"toolserver-status-short-warn": "$1: Напомена",
 	"toolserver-status-short-down": "$1: Пад",
 	"toolserver-status-short-erro": "$1: Грешка",

@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
-	"list": "Списак",
+	"list": "Листа",
 	"sample": "Пример",
 	"pageviews": "прегледи странице",
 	"pagetitle": "наслов странице",
@@ -25,7 +26,7 @@
 	"myfavs": "Омиљени",
 	"mycontribs": "Доприноси",
 	"mywatchlists": "Списци надгледања",
-	"myworklist": "Радни списак",
+	"myworklist": "Радна листа",
 	"top": "Врх",
 	"overall": "Укупно",
 	"users": "{{PLURAL: $1|корисник|корисници}}",

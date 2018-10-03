@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joedalton"
+			"Joedalton",
+			"Saederup92"
 		]
 	},
-	"category_users": "Brugere"
+	"category_users": "Brugere",
+	"category_articles": "Sider",
+	"category_images": "Billeder",
+	"category_miscellaneous": "Diverse",
+	"category_wikidata": "Wikidata",
+	"select_wiki_title": "Vælg en Wiki",
+	"select_wiki_next": "Næste →",
+	"qvar_next": "Næste →"
 }

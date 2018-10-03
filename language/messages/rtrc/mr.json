@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"V.narsikar"
+			"V.narsikar",
+			"Sureshkhole"
 		]
 	},
 	"title": "तत्-कालीन अलीकडील बदल",
@@ -16,8 +17,10 @@
 	"cvn-adder-empty": "अज्ञात",
 	"cvn-reason": "कारण",
 	"cvn-reason-empty": "कोणतेही कारण सापडले नाही.",
+	"cvn-scores": "CVN मोजणी",
 	"desc": "अवरोह",
 	"documentation": "दस्तावेजीकरण",
+	"feedback": "प्रतिक्रिया",
 	"filter": "गाळणी",
 	"filter-hideliu": "नोंदणीकृत सदस्य लपवा",
 	"filter-hidebots": "सांगकामे लपवा",
@@ -27,16 +30,21 @@
 	"lastupdate-cvn": "शेवटले अद्यतन: $1",
 	"lastupdate-rc": "शेवटले अद्यतन: $1",
 	"legend": "विवरण",
+	"license": "परवाना",
 	"limit": "मर्यादा",
+	"mark": "खुण करा",
 	"masspatrol": "सामुहिकपहारा",
 	"masspatrol-requires-userfilter": "सामुहिकपहारा अक्षम केल्या गेला कारण त्यास सदस्य गाळणी आवश्यक आहे व कोणतीच स्थापिल्या गेली नाही.",
 	"months": "जानेवारी, फेब्रुवारी, मार्च, एप्रिल, मे, जून, जुलै, ऑगस्ट, सप्टेंबर, ऑक्टोबर, नोव्हेंबर, डिसेंबर",
 	"mypatrollog": "माझी पहाऱ्याची नोंद",
 	"namespace": "नामविश्व",
 	"navtoggle-tooltip": "कडपट्टी(साइडबार) टॉगल करा",
+	"new-short": "नवे",
 	"nomatches": "आपल्या मांडण्यांसाठी संबंधित बदल नाहीत",
+	"open-in-wiki": "विकिमध्ये उघडा",
 	"order": "क्रम",
 	"ores-damaging-probability": "हानीची शक्यता:$1",
+	"ores-scores": "ORES मोजणी",
 	"pause": "विराम",
 	"permalink": "सध्याच्या सेटिंग्जसाठी पर्मालिंक(Permalink)",
 	"reload-interval": "मध्यांतर",

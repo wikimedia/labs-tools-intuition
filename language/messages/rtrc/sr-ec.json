@@ -3,10 +3,11 @@
 		"authors": [
 			"Milicevic01",
 			"Rancher",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
-	"title": "Скорашње измене у реалном времену",
+	"title": "Недавне промене у реалном времену",
 	"apply": "Примени",
 	"asc": "Раст.",
 	"changelog": "Шта је ново",
@@ -19,7 +20,7 @@
 	"cvn-reason-empty": "Нема разлога",
 	"desc": "Опис",
 	"documentation": "Документација",
-	"feedback": "Повратна информација",
+	"feedback": "Повратне информације",
 	"filter": "Филтер",
 	"filter-hideliu": "Сакриј регистроване кориснике",
 	"filter-hidebots": "Сакриј ботове",
