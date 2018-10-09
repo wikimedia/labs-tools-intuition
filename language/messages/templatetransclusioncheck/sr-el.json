@@ -10,6 +10,7 @@
 	"form-label-template": "Ime šablona:",
 	"form-label-template2": "(uključujući imenski prostor)",
 	"form-label-complete": "Generisanje kompletnog izveštaja:",
+	"feedback-template-missing": "Šablon $1 ne postoji.",
 	"feedback-template-noaccess": "Šablon $1 izgleda postoji, ali nije dostupan iz baze podataka. Ovo bi mogao da bude privremeni problem s bazom podataka. Korišćena baza podataka: $2.",
 	"feedback-result": "Rezultati za $1",
 	"feedback-header-mismatch": "Nepoklapanje između uključivanja i veza",
@@ -23,5 +24,6 @@
 	"link-edit": "uredi",
 	"link-create": "napravi",
 	"link-complete": "Kompletan izveštaj...",
-	"footer-stats": "Generisano: $1. Trajanje: $2 {{PLURAL:$2|sekund|sekunda|sekundi}}."
+	"footer-stats": "Generisano: $1. Trajanje: $2 {{PLURAL:$2|sekund|sekunda|sekundi}}.",
+	"error-language": "Nepoznat jezički kod."
 }

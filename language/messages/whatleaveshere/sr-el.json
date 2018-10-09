@@ -1,0 +1,19 @@
+{
+	"@metadata": [],
+	"title": "Šta odvodi odavde",
+	"label-page": "Stranica",
+	"label-namespace": "Imenski prostor",
+	"label-limit": "Ograničenje",
+	"namespacesall": "sve",
+	"button-submit": "Idi",
+	"link-whatleaveshere": "Šta odvodi odavde",
+	"whatlinkshere": "Šta vodi ovde",
+	"whatlinkshere-whatleaveshere": "Šta odvodi odavde",
+	"istemplate": "uključivanje",
+	"isfile": "veza do datoteke",
+	"linksearch": "LinkSearch",
+	"section-links": "Veze",
+	"section-iwlinks": "Interviki linkovi",
+	"section-extlinks": "Spoljašnje veze",
+	"section-categories": "Kategorije"
+}

@@ -2,14 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Сними",
 	"voiceintro-toolbar-stop-label": "Заустави",
-	"voiceintro-toolbar-clear-label": "Очисти",
+	"voiceintro-toolbar-clear-label": "Обриши",
 	"voiceintro-toolbar-upload-label": "Отпреми",
+	"voiceintro-webaudio-not-supported": "WebAudio API није подржан у овом веб-прегледачу",
+	"voiceintro-upload-publish-succeeded": "Снимање је успешно отпремљено:",
+	"voiceintro-upload-publish-failed": "Снимање није отпремљено.",
 	"voiceintro-information-label": "Информације",
+	"voiceintro-information-speaker-label": "Име говорника:",
 	"voiceintro-information-language-label": "Језик:",
+	"voiceintro-mic-access-notify": "Кликните на „Дозволи” да бисте дозволили прегледачу да приступи вашем микрофону.",
 	"voiceintro-recording-notify": "Снимам..."
 }

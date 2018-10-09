@@ -1,0 +1,19 @@
+{
+	"@metadata": [],
+	"base_prefslink": "<a href=\"prefs.fcgi\">Promeni jezik / podešavanja</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Viki</a>",
+	"category_users": "Korisnici",
+	"category_articles": "Stranice",
+	"category_images": "Slike",
+	"category_wikidata": "Vikipodaci",
+	"select_wiki_title": "Odaberi viki",
+	"select_wiki_next": "Sledeće →",
+	"select_report": "Odaberite izveštaj",
+	"select_report_disabled": "Ovaj izveštaj je nedostupan.",
+	"select_report_go_back": "← Promeni viki",
+	"qvar_next": "Sledeće →",
+	"prefs_title": "Podešavanja izveštaja",
+	"prefs_submit": "U redu",
+	"prefs_done": "Vaša podešavanja su promenjena.",
+	"prefs_langlabel": "Jezik interfejsa:"
+}

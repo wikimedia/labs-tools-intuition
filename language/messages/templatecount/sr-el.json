@@ -6,13 +6,13 @@
 		]
 	},
 	"title": "Broj uključivanja šablona",
-	"enter-details": "Unos podataka",
+	"enter-details": "Unesite detalje",
 	"introduction": "Unesite ime šablona (samo Vikipedije trenutno) i kliknite na „Idi”. Tako je jednostavno. Biće keširanja (pamćenja rezultata), ali to je nažalost van kontrole ove alatke i njenog vlasnika.",
 	"language-label": "Jezik",
 	"namespace-label": "Imenski prostor",
-	"pagename-label": "Naziv stranice (bez imenskog prostora)",
-	"transclusion-count-label": "Broj transkluzija",
-	"transclusion-count": "Pronađeno transkluzija: $1.",
-	"error-suggestion": "Možda ste pogrešno uneli naziv stranice.",
-	"time-label": "Vreme za izvršavanje naredbe"
+	"pagename-label": "Ime stranice (bez imenskog prostora)",
+	"transclusion-count-label": "Broj uključivanja",
+	"transclusion-count": "Pronađeno je $1 uključivanja.",
+	"error-suggestion": "Možda ste pogrešno napisali (ili neispravno napisali velikim slovima) ime stranice.",
+	"time-label": "Vreme potrebno za izvršavanje komande"
 }

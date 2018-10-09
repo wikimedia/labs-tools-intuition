@@ -3,11 +3,12 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Metalhead64",
-			"Shirayuki"
+			"Shirayuki",
+			"Zoranzoki21"
 		]
 	},
 	"title": "Title heading of [[Special:WhatLeavesHere]] and link to it from [[Special:SpecialPages]].\n{{Identical|Whatleaveshere}}",
-	"title-leaveshere": "Title heading of [[Special:WhatLeavesHere]] when viewing results for a specific page.\n\nParameters:\n* $1 - the name of the associated page",
+	"title-leaveshere": "Title heading of Special:WhatLeavesHere when viewing results for a specific page.\n\nParameters:\n* $1 - the name of the associated page",
 	"sub-leaveshere": "Used below the heading on [[Special:WhatLeavesHere]]. Parameters:\n* $1 - the name of the associated page",
 	"label-page": "Label of input field for page name.\n{{Identical|Page}}",
 	"label-namespace": "Label of dropdown menu for namespace.\n{{Identical|Namespace}}",

@@ -1,0 +1,8 @@
+{
+	"@metadata": [],
+	"adder": "Dodavač",
+	"adder-empty": "Nepoznato",
+	"expiry": "Ističe",
+	"reason": "Razlog",
+	"reason-empty": "Nema razloga"
+}

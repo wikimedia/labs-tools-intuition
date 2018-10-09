@@ -1,0 +1,11 @@
+{
+	"@metadata": [],
+	"regex": "Regularni izraz",
+	"enter-details": "Unesite detalje",
+	"results": "Rezultati",
+	"language-label": "Jezik",
+	"namespace-label": "Imenski prostor",
+	"project-label": "Projekat",
+	"pattern-label": "Uzorak",
+	"limit-label": "Ograniči prikaz na prvih 100 rezultata"
+}

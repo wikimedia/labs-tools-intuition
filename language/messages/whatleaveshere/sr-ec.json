@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
 	"title": "Шта одводи одавде",
@@ -16,7 +18,9 @@
 	"whatlinkshere-whatleaveshere": "Шта одводи одавде",
 	"istemplate": "укључивање",
 	"isfile": "веза до датотеке",
+	"linksearch": "LinkSearch",
 	"section-links": "Везе",
+	"section-iwlinks": "Међувики везе",
 	"section-extlinks": "Спољашње везе",
 	"section-categories": "Категорије"
 }

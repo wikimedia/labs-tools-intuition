@@ -2,11 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Промени језик / подешавања</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Вики</a>",
 	"category_users": "Корисници",
+	"category_articles": "Странице",
 	"category_images": "Слике",
+	"category_wikidata": "Википодаци",
+	"select_wiki_title": "Изаберите вики",
 	"select_wiki_next": "Следеће →",
 	"select_report": "Одаберите извештај",
 	"select_report_disabled": "Овај извештај је недоступан.",
@@ -14,5 +21,10 @@
 	"qvar_next": "Следеће →",
 	"prefs_title": "Подешавања извештаја",
 	"prefs_submit": "У реду",
-	"prefs_done": "Ваша подешавања су промењена."
+	"prefs_done": "Ваша подешавања су промењена.",
+	"prefs_langlabel": "Језик интерфејса:",
+	"report_last_run_duration": "Овај извештај је генерисан за %(duration)s.",
+	"report_noresults": "Овај извештај није произвео резултате.",
+	"report_change_report": "<a href=\"%(url)s\">Промени извештај</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Промени вики</a>"
 }

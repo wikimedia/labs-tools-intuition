@@ -12,7 +12,7 @@
 	"toolserver-status-unknown": "Nepoznato stanje klastera $1",
 	"toolserver-status-missing": "Klaster $1 ne postoji",
 	"toolserver-status-short-ok": "$1: U redu",
-	"toolserver-status-short-info": "$1: Podaci",
+	"toolserver-status-short-info": "$1: Informacije",
 	"toolserver-status-short-warn": "$1: Napomena",
 	"toolserver-status-short-down": "$1: Pad",
 	"toolserver-status-short-erro": "$1: Greška",

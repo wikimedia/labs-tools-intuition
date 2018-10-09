@@ -4,9 +4,10 @@
 			"Rancher"
 		]
 	},
-	"formats-heading": "Odredišni formati",
+	"description": "Meta informacije o Vikimedijinim vikijima.",
+	"formats-heading": "Izlazni formati",
 	"input": "Unos",
-	"label-wikiids": "Naznake vikija",
+	"label-wikiids": "Viki identifikatori",
 	"no-matches": "Ništa se ne poklapa sa „$1“",
 	"output": "Izlaz za „$1“"
 }

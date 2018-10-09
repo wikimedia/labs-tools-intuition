@@ -3,7 +3,8 @@
 		"authors": [
 			"Milicevic01",
 			"Acamicamacaraca",
-			"BadDog"
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
 	"regex": "Регуларни израз",
@@ -12,5 +13,6 @@
 	"language-label": "Језик",
 	"namespace-label": "Именски простор",
 	"project-label": "Пројекат",
-	"pattern-label": "Узорак"
+	"pattern-label": "Узорак",
+	"limit-label": "Ограничи приказ на првих 100 резултата"
 }

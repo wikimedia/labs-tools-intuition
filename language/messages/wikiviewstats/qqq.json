@@ -6,7 +6,8 @@
 			"Robby",
 			"Shirayuki",
 			"Siebrand",
-			"Purodha"
+			"Purodha",
+			"Zoranzoki21"
 		]
 	},
 	"records": "data records\n{{Identical|Record}}",
@@ -17,7 +18,7 @@
 	"24hstat": "24 hour statistics",
 	"pagetitle": "page title\n{{Identical|Page title}}",
 	"page": "{{Identical|Page}}",
-	"ranklist": "list header ranking list  [[toollabs:wikiviewstats/?autofilter&type=world]]",
+	"ranklist": "list header ranking list  [[:toollabs:wikiviewstats/?autofilter&type=world]]",
 	"searchResults": "list header - search results  [[toollabs:wikiviewstats?page=Berlin*]]\n{{Identical|Search results}}",
 	"rank": "list header - position in ranklist (should be a short word or abbreviation to fit into the design)\n{{Identical|Rank}}",
 	"settings": "link to settings menu.\n{{Identical|Settings}}",

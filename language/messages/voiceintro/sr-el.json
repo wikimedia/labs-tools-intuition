@@ -1,0 +1,15 @@
+{
+	"@metadata": [],
+	"voiceintro-toolbar-record-label": "Snimi",
+	"voiceintro-toolbar-stop-label": "Zaustavi",
+	"voiceintro-toolbar-clear-label": "Očisti",
+	"voiceintro-toolbar-upload-label": "Otpremi",
+	"voiceintro-webaudio-not-supported": "WebAudio API nije podržan u ovom veb-pregledaču",
+	"voiceintro-upload-publish-succeeded": "Snimanje je uspešno otpremljeno:",
+	"voiceintro-upload-publish-failed": "Snimanje nije otpremljeno",
+	"voiceintro-information-label": "Informacije",
+	"voiceintro-information-speaker-label": "Ime govornika",
+	"voiceintro-information-language-label": "Jezik:",
+	"voiceintro-mic-access-notify": "Kliknite \"Dozvoli\" da dozvolite pristup mikrofonu od strane veb-pregledača.",
+	"voiceintro-recording-notify": "Snimam..."
+}
