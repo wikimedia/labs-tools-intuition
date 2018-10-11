@@ -1286,10 +1286,11 @@ class Intuition {
 	 *   Accept-Language preferences.
 	 * - Sixth: English (default stays)
 	 *
-	 * @param string|null|false $option
-	 * @return true
+	 * @param string|null|bool $option A language code, or null/false to traverse further down the
+	 * choice tree.
+	 * @return bool Whether a language was set or not.
 	 */
-	protected function initLangSelect( $option ) {
+	protected function initLangSelect( $option = null ) {
 		$set = false;
 
 		if ( $option !== null && $option !== false && $option !== '' ) {
@@ -1364,8 +1365,10 @@ class Intuition {
 					continue;
 				}
 
-				while ( ( $n = strstr( $acceptLang, '-' ) ) !== false ) {
-					$acceptLang = substr( $acceptLang, 0, $n - 1 );
+				// Progressively truncate $acceptLang (from the right) to each hyphen,
+				// checking each time to see if the remaining string is an available language.
+				while ( strpos( $acceptLang, '-' ) !== false ) {
+					$acceptLang = substr( $acceptLang, 0, strrpos( $acceptLang, '-' ) );
 
 					if ( isset( $availableLanguages[$acceptLang] ) ) {
 						$set = $this->setLang( $acceptLang );
@@ -1421,7 +1424,7 @@ class Intuition {
 	 * Use this when you've changed the cookies and don't want to refresh
 	 * for it to be applied.
 	 *
-	 * @return true
+	 * @return bool Always true.
 	 */
 	public function refreshLang() {
 		$this->initLangSelect();

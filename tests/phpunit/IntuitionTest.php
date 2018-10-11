@@ -892,4 +892,18 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		// Test that un-normalized key returns the expected value.
 		$this->assertEquals( 'Finnish English', $this->i18n->getLangName( 'en-FI' ) );
 	}
+
+	/**
+	 * @covers \Krinkle\Intuition\Intuition::refreshLang()
+	 */
+	public function testAcceptLanguageHeader() {
+		// Unknown last segment.
+		$_SERVER['HTTP_ACCEPT_LANGUAGE'] = 'en-gb-xx';
+		$this->i18n->refreshLang();
+		$this->assertEquals( 'en-gb', $this->i18n->getLang() );
+		// Unknown last two segments.
+		$_SERVER['HTTP_ACCEPT_LANGUAGE'] = 'en-gbx-xx';
+		$this->i18n->refreshLang();
+		$this->assertEquals( 'en', $this->i18n->getLang() );
+	}
 }
