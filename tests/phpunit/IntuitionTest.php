@@ -163,7 +163,14 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	public function testMessagesFunctions() {
 		$this->i18n->setMsgs( [
 			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples|applex}}.',
+			'bidirectional' => 'There are two usernames, {{BIDI:$1}} and {{BIDI:$2}}'
 		] );
+
+		$this->assertEquals(
+			'There are two usernames, \u{202A}Something in English\u{202C} and \u{202B}משהו בעברית\u{202C}',
+			$this->i18n->msg( 'bidirectional', [ 'variables' => [ 'Something in English', 'משהו בעברית' ] ] ),
+			'Bidirectional control characters depending on strong characters given in the the text.'
+		);
 
 		$this->assertEquals(
 			'The basket contains 1 apple.',
