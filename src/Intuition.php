@@ -627,7 +627,7 @@ class Intuition {
 	 * Register a custom domain.
 	 *
 	 * @param string $domain Name of domain
-	 * @param array $dir Path to messages directory
+	 * @param string $dir Path to messages directory
 	 * @param array $info [optional] Domain info
 	 * @return array
 	 */
