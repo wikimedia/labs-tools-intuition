@@ -1,3 +1,17 @@
+## v1.2.0 (2018-11-06)
+
+### Added
+
+### Changed
+
+* language: Localisation updates from https://translatewiki.net.
+* Intuition: Normalize lang codes in `addAvailableLang()`.
+
+### Bug fixes
+
+* Intuition: Fix "Accept-Language" parsing bug in `initLangSelect()`.
+* Intuition: Correct data type of `$dir` in `registerDomain()` documentation.
+
 ## v1.1.0 (2018-08-21)
 
 ### Added
