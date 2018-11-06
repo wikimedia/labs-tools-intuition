@@ -41,11 +41,3 @@ Run the tests:
 <pre lang="sh">
 composer test
 </pre>
-
-### Misc
-
-To regenerate the `AUTHORS.txt`:
-
-<pre lang="sh">
-npm run authors
-</pre>
