@@ -836,14 +836,17 @@ class Intuition {
 	 * @return bool
 	 */
 	public function loadMessageFile( $domain, $lang, $file ) {
-		if ( !is_file( $file ) ) {
+		// Prefer EAFP over LBYL,
+		// for performance and to avoid race bugs.
+		$json = @file_get_contents( $file );
+		if ( !$json ) {
 			// Most domains don't have translations in every single language.
 			return false;
 		}
 
-		$messages = json_decode( file_get_contents( $file ), true );
+		$messages = json_decode( $json, true );
+		// @codeCoverageIgnoreStart
 		if ( !is_array( $messages ) ) {
-			// @codeCoverageIgnoreStart
 			return false;
 		}
 		// @codeCoverageIgnoreEnd
