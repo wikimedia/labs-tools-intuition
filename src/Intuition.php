@@ -92,7 +92,7 @@ class Intuition {
 	// Such as as for Spanish: langNames['es'] = 'Español';
 	protected $langNames = null;
 
-	protected $availableLanguages = null;
+	protected $availableLanguages = [];
 
 	protected $domainInfos = [];
 
@@ -632,6 +632,42 @@ class Intuition {
 	}
 
 	/**
+	 * Store information related to a domain.
+	 *
+	 * @param string $domain Name of domain
+	 * @param array $info
+	 */
+	public function addDomainInfo( $domain, array $info ) {
+		$domain = $this->normalizeDomain( $domain );
+		if ( isset( $this->domainInfos[ $domain ] ) ) {
+			$this->domainInfos[ $domain ] += $info;
+		}
+	}
+
+	/**
+	 * Get information about a domain (if any).
+	 *
+	 * @param string $domain Name of the domain
+	 * @return array|bool Array with 'dir' property or false if not found
+	 */
+	public function getDomainInfo( $domain ) {
+		$domain = $this->normalizeDomain( $domain );
+		// Check cache and custom-registered domains
+		if ( !isset( $this->domainInfos[ $domain ] ) ) {
+			// Default to local domain
+			$dir = $this->localBaseDir . '/language/messages/' . $domain;
+			if ( !is_dir( $dir ) ) {
+				// Domain does not exist
+				return false;
+			}
+			$this->domainInfos[ $domain ] = [
+				'dir' => $dir,
+			];
+		}
+		return $this->domainInfos[ $domain ];
+	}
+
+	/**
 	 * Get all known message keys for a domain.
 	 *
 	 * If the domain is not loaded, this returns an empty list.
@@ -701,8 +737,7 @@ class Intuition {
 	 */
 	public function getLangName( $lang = false ) {
 		$lang = $lang ? $this->normalizeLang( $lang ) : $this->getLang();
-		$langNames = $this->getLangNames();
-		return isset( $langNames[$lang] ) ? $langNames[$lang] : '';
+		return $this->getLangNames()[$lang] ?? '';
 	}
 
 	/**
@@ -735,14 +770,37 @@ class Intuition {
 	}
 
 	/**
-	 * Return all languages available in at least one domain.
+	 * Get all available languages for the current (or given) domain.
+	 *
+	 * This will also return additional languages set via addAvailableLang().
+	 *
 	 * @return array Language names keyed by language code
 	 */
-	public function getAvailableLangs() {
-		if ( !$this->availableLanguages ) {
-			$this->availableLanguages = require $this->localBaseDir . '/language/langlist.php';
+	public function getAvailableLangs( $domain = null ) {
+		$domainInfo = $this->getDomainInfo( $domain ?? $this->getDomain() );
+		if ( !$domainInfo ) {
+			$languages = [];
+		} else {
+			if ( isset( $domainInfo['langs'] ) ) {
+				$languages = $domainInfo['langs'];
+			} else {
+				$files = @scandir( $domainInfo['dir'], SCANDIR_SORT_NONE ) ?: [];
+
+				$languages = [];
+				foreach ( $files as $filename ) {
+					$langCode = basename( $filename, '.json' );
+					$langName = $this->getLangName( $langCode );
+					if ( $langName !== '' ) {
+						$languages[$langCode] = $langName;
+					}
+				}
+				$this->addDomainInfo( $domain, [ 'langs' => $languages ] );
+			}
 		}
-		return $this->availableLanguages;
+
+		$languages = array_merge( $languages, $this->availableLanguages );
+		ksort( $languages );
+		return $languages;
 	}
 
 	/**
@@ -753,37 +811,13 @@ class Intuition {
 	 * @param string $name The localized name of the language.
 	 */
 	public function addAvailableLang( $code, $name ) {
+		// Initialise $this->langNames so that we can extend it
 		$this->getLangNames();
+
 		$normalizedCode = $this->normalizeLang( $code );
+
 		$this->langNames[$normalizedCode] = $name;
 		$this->availableLanguages[$normalizedCode] = $name;
-	}
-
-	/**
-	 * Generate a list of all languages available in at least one domain.
-	 * @return array Language names keyed by language code
-	 */
-	public function generateLanguageList() {
-		$messageFiles = glob( $this->localBaseDir . '/language/messages/*/*.json' );
-
-		$languages = array_map(
-			function ( $filename ) {
-				return basename( $filename, '.json' );
-			},
-			$messageFiles
-		);
-		$languages = array_values( array_unique( $languages ) );
-
-		$availableLanguages = [];
-		foreach ( $languages as $lang ) {
-			$langName = $this->getLangName( $lang );
-			if ( $langName !== '' ) {
-				$availableLanguages[$lang] = $langName;
-			}
-		}
-		ksort( $availableLanguages );
-
-		return $availableLanguages;
 	}
 
 	/**
@@ -855,29 +889,6 @@ class Intuition {
 		self::$messageCache[ $domain ][ $lang ] = $messages;
 		$this->setMsgs( $messages, $domain, $lang );
 		return true;
-	}
-
-	/**
-	 * Get information about a domain (if any).
-	 *
-	 * @param string $domain Name of the domain
-	 * @return array|bool Array with 'dir' property or false if not found
-	 */
-	public function getDomainInfo( $domain ) {
-		$domain = $this->normalizeDomain( $domain );
-		// Check cache and custom-registered domains
-		if ( !isset( $this->domainInfos[ $domain ] ) ) {
-			// Default to local domain
-			$dir = $this->localBaseDir . '/language/messages/' . $domain;
-			if ( !is_dir( $dir ) ) {
-				// Domain does not exist
-				return false;
-			}
-			$this->domainInfos[ $domain ] = [
-				'dir' => $dir,
-			];
-		}
-		return $this->domainInfos[ $domain ];
 	}
 
 	/**
@@ -1276,111 +1287,78 @@ class Intuition {
 	 * Check language choice tree.
 	 *
 	 * In the following order:
-	 * - First: Construct override
-	 * - Second: Parameter override
-	 * - Third: Saved cookie
-	 * - Fourth: Preferences from Accept-Language header
-	 * - Fifth: A language which is a prefix for one of the
-	 *   Accept-Language preferences.
-	 * - Sixth: English (default stays)
+	 *
+	 * 1. Constructor option.
+	 * 2. Request parameter.
+	 * 3. Request cookie.
+	 * 4. Request Accept-Language header (exactly).
+	 * 5. Request Accept-Language header (prefix match).
+	 * 6. Source fallback (English).
 	 *
 	 * @param string|null|bool $option A language code, or null/false to traverse further down the
 	 * choice tree.
 	 * @return bool Whether a language was set or not.
 	 */
 	protected function initLangSelect( $option = null ) {
-		$set = false;
-
-		if ( $option !== null && $option !== false && $option !== '' ) {
-			$set = $this->setLang( $option );
+		if ( $option !== null &&
+			$option !== false &&
+			$option !== '' &&
+			$this->setLang( $option )
+		) {
+			return true;
 		}
 
-		if ( !$set && $this->getUseRequestParam() === true ) {
+		if ( $this->getUseRequestParam() ) {
 			$key = $this->paramNames['userlang'];
-			if ( isset( $_GET[ $key ] ) ) {
-				$set = $this->setLang( $_GET[ $key ] );
-			} elseif ( isset( $_POST[ $key ] ) ) {
-				$set = $this->setLang( $_POST[ $key ] );
+			if ( isset( $_GET[ $key ] ) && $this->setLang( $_GET[ $key ] ) ) {
+				return true;
+			}
+			if ( isset( $_POST[ $key ] ) && $this->setLang( $_POST[ $key ] ) ) {
+				return true;
 			}
 		}
 
-		if ( !$set && isset( $_COOKIE[ $this->cookieNames['userlang'] ] ) ) {
+		if ( isset( $_COOKIE[ $this->cookieNames['userlang'] ] ) ) {
 			$set = $this->setLang( $_COOKIE[ $this->cookieNames['userlang'] ] );
+			if ( $set ) {
+				return true;
+			}
 		}
 
-		if ( !$set ) {
-			$acceptableLanguages = IntuitionUtil::getAcceptableLanguages();
-			$availableLanguages = $this->getAvailableLangs();
-			foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
-				if ( $acceptLang === '*' ) {
-					/**
-					 * We pick the first available language which is not in $acceptableLanguages.
-					 * The special * range matches every tag not matched by any other range.
-					 * Other language codes in $acceptableLanguages will either have a lower q-value,
-					 * or be missing from availableLanguages.
-					 * The order will be the one in the i18n file: en, af, ar...
-					 */
-					foreach ( $availableLanguages as $langCode => $langName ) {
-						if ( !isset( $acceptableLanguages[$langCode] ) ) {
-							$n = strstr( $langCode, '-' );
-							// Assumption: We won't have translations for languages with more than
-							// 1 dashe on the language tag
-							if ( $n !== false &&
-								!isset( $acceptableLanguages[ substr( $langCode, 0, $n - 1 ) ] )
-							) {
-								// if we have non-Chinese translations, zh-hans should not be
-								// picked for "fr,*;q=0.3,zh;q=0.1".
-								continue;
-							}
+		$acceptableLanguages = IntuitionUtil::getAcceptableLanguages();
+		foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
+			// If the lang code is known (we have a display name for it),
+			// and we were able to set it, end the search.
+			if ( $this->getLangName( $acceptLang ) && $this->setLang( $acceptLang ) ) {
+				return true;
+			}
+		}
 
-							$set = $this->setLang( $langCode );
-							break;
-						}
-					}
-					if ( $set ) {
-						break;
-					}
-				} elseif ( isset( $availableLanguages[$acceptLang] ) ) {
-					$set = $this->setLang( $acceptLang );
-					break;
+		// After this, we'll be choosing from
+		// user-specified languages with a $qVal of 0.
+
+		foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
+			// Some browsers show (apparently by default) only a tag,
+			// such as "ru-RU", "fr-FR" or "es-mx". The browser should
+			// provide a qval. Providing only a lang code is invalid.
+			// See RFC 2616 section 1.4 <https://tools.ietf.org/html/rfc2616#page-105>.
+			if ( !$qVal ) {
+				continue;
+			}
+
+			// Progressively truncate $acceptLang (from the right) to each hyphen,
+			// checking each time to see if the remaining string is an available language.
+			while ( strpos( $acceptLang, '-' ) !== false ) {
+				$acceptLang = substr( $acceptLang, 0, strrpos( $acceptLang, '-' ) );
+
+				if ( $this->getLangName( $acceptLang ) && $this->setLang( $acceptLang ) ) {
+					return true;
 				}
 			}
 		}
 
-		// From this point on, we are choosing amongst languages with a $qVal of 0
-
-		if ( !$set ) {
-			/**
-			 * Some browsers show (apparently by default) only a tag,
-			 * such as "ru-RU", "fr-FR" or "es-mx".
-			 * This is broken behavior! The browser should be providing
-			 * appropriate guidance.
-			 * Providing only a full tag is doing a disservice.
-			 * See RFC 2616 section 1.4 - http://tools.ietf.org/html/rfc2616#page-105
-			 */
-			foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
-				if ( !$qVal ) {
-					continue;
-				}
-
-				// Progressively truncate $acceptLang (from the right) to each hyphen,
-				// checking each time to see if the remaining string is an available language.
-				while ( strpos( $acceptLang, '-' ) !== false ) {
-					$acceptLang = substr( $acceptLang, 0, strrpos( $acceptLang, '-' ) );
-
-					if ( isset( $availableLanguages[$acceptLang] ) ) {
-						$set = $this->setLang( $acceptLang );
-						break 2;
-					}
-				}
-			}
-		}
-
-		if ( !$set ) {
-			$set = $this->setLang( 'en' );
-		}
-
-		return $set;
+		// Fallback
+		return !!$this->setLang( 'en' );
 	}
 
 	/**
@@ -1417,10 +1395,10 @@ class Intuition {
 	}
 
 	/**
-	 * Redo language init
+	 * Re-intiialise the language selection.
 	 *
-	 * Use this when you've changed the cookies and don't want to refresh
-	 * for it to be applied.
+	 * Call this if you've changed the default domain or added additional
+	 * available languages after constucting the object.
 	 *
 	 * @return bool Always true.
 	 */
