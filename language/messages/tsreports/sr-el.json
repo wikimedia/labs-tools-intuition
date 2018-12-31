@@ -6,7 +6,7 @@
 	"category_articles": "Stranice",
 	"category_images": "Slike",
 	"category_wikidata": "Vikipodaci",
-	"select_wiki_title": "Odaberi viki",
+	"select_wiki_title": "Izaberite viki",
 	"select_wiki_next": "Sledeće →",
 	"select_report": "Odaberite izveštaj",
 	"select_report_disabled": "Ovaj izveštaj je nedostupan.",
@@ -15,5 +15,9 @@
 	"prefs_title": "Podešavanja izveštaja",
 	"prefs_submit": "U redu",
 	"prefs_done": "Vaša podešavanja su promenjena.",
-	"prefs_langlabel": "Jezik interfejsa:"
+	"prefs_langlabel": "Jezik interfejsa:",
+	"report_last_run_duration": "Ovaj izveštaj je generisan za %(duration)s.",
+	"report_noresults": "Ovaj izveštaj nije proizveo rezultate.",
+	"report_change_report": "<a href=\"%(url)s\">Promeni izveštaj</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Promeni viki</a>"
 }

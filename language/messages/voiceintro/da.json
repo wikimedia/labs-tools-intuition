@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Optag",
+	"voiceintro-toolbar-stop-label": "Stop",
+	"voiceintro-toolbar-clear-label": "Ryd",
+	"voiceintro-information-label": "Information",
+	"voiceintro-information-language-label": "Sprog:"
+}

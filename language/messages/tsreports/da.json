@@ -12,5 +12,8 @@
 	"category_wikidata": "Wikidata",
 	"select_wiki_title": "Vælg en Wiki",
 	"select_wiki_next": "Næste →",
-	"qvar_next": "Næste →"
+	"select_report": "Venligst vælg en rapport:",
+	"select_report_disabled": "Denne rapport er ikke tilgængelig.",
+	"qvar_next": "Næste →",
+	"prefs_submit": "OK"
 }

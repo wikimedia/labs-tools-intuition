@@ -25,5 +25,5 @@
 	"link-create": "napravi",
 	"link-complete": "Kompletan izveštaj...",
 	"footer-stats": "Generisano: $1. Trajanje: $2 {{PLURAL:$2|sekund|sekunda|sekundi}}.",
-	"error-language": "Nepoznat jezički kod."
+	"error-language": "Nepoznat kôd jezika."
 }

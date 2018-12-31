@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mikulas1"
+			"Mikulas1",
+			"Patriccck"
 		]
 	},
 	"language": "Jazyk",
@@ -10,5 +11,6 @@
 	"target_file": "Cieľový súbor",
 	"original_wikitext": "Pôvodný wiki text",
 	"new_wikitext": "Nový wiki text",
-	"new_filename": "Nový názov súboru:"
+	"new_filename": "Nový názov súboru:",
+	"standard_project": "Wikipedia"
 }

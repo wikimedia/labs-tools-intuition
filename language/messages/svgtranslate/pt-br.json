@@ -4,7 +4,8 @@
 			"Fúlvio",
 			"Jefersonmoraes",
 			"Luckas",
-			"Pedroca cerebral"
+			"Pedroca cerebral",
+			"TheEduGobi"
 		]
 	},
 	"error-tryagain": "$1 Aperte o botão Voltar do seu navegador para tentar novamente.",
@@ -20,11 +21,11 @@
 	"th-username": "Nome de usuário",
 	"th-password": "Senha",
 	"th-method": "Método",
-	"option-oauth": "TUSC (envio automático)",
+	"option-oauth": "OAuth (envio automático)",
 	"option-manual": "Upload manual",
 	"preview": "Pré-visualização",
 	"translate": "Traduzir",
-	"translate-instructions": "São aceitas entradas tanto como um nome de arquivo (por exemplo, \"$1\") ou como uma URL completa (por exemplo, \"$2\"). Se o primeiro caso for utilizado, a fonte será o Wikimedia Commons. Para traduzir uma imagem SVG de outro site ou wiki, é preciso usar uma URL completa.",
+	"translate-instructions": "São aceitas entradas tanto como um nome de arquivo (por exemplo, “$1”) ou como uma URL completa (por exemplo, “$2”). Se o primeiro caso for utilizado, a fonte será o Wikimedia Commons. Para traduzir uma imagem SVG de outro site ou wiki, é preciso usar uma URL completa.",
 	"svginput-label": "Arquivo SVG",
 	"stats-footer": "Esta ferramenta foi utilizada para traduzir aproximadamente $1 arquivos desde $2.",
 	"uploading": "Enviando",
