@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joedalton"
+			"Joedalton",
+			"Saederup92"
 		]
 	},
 	"form-label-language": "Sprog:",
@@ -13,5 +14,6 @@
 	"feedback-result": "Resultater for $1",
 	"feedback-total-count": "I alt: $1",
 	"link-edit": "rediger",
-	"link-create": "opret"
+	"link-create": "opret",
+	"error-language": "Ukendt sprogkode."
 }

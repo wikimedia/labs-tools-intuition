@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Purodha"
+			"Purodha",
+			"Als-Holder"
 		]
 	},
 	"records": "Dahtesäz",
@@ -36,7 +37,7 @@
 	"overall": "Zersamme jenumme",
 	"users": "Metmaacher{{PLURAL: $1|}}",
 	"discussion": "Klaaf",
-	"portal": "Pooz_Sigg",
+	"portal": "Pooz-Sigg",
 	"project": "Projäk",
 	"category": "Saachjropp",
 	"template": "Schablohn",

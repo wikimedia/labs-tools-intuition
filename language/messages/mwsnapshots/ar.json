@@ -19,7 +19,7 @@
 	"err-invalid-branch": "فرع غير معروف: \"$1\" في مستودع \"$2\".",
 	"err-nosnapshot": "يتم إنشاء لقطات الصور كل بضع ساعات. حدث خطأ عند أنشاء لقطة \"$1\". الرجاء إعادة المحاولة لاحقا.",
 	"err-noupdatelog": "لم يتم العثور على سجل التحديث.",
-	"repo-site-link": "موقع الوب",
+	"repo-site-link": "موقع الويب",
 	"repo-browse-link": "تصفح المستودع",
 	"repo-branches-label": "الفروع:",
 	"repo-lastmoddate-label": "التاريخ:",

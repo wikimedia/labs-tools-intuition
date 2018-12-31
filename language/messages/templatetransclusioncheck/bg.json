@@ -4,5 +4,6 @@
 			"StanProg"
 		]
 	},
-	"form-label-language": "Език:"
+	"form-label-language": "Език:",
+	"link-edit": "редактиране"
 }
