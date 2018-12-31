@@ -861,22 +861,22 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 	/**
 	 * @covers Intuition::getUseRequestParam
+	 * @covers Intuition::setUseRequestParam
 	 */
 	public function testGetUseRequestParam() {
 		$this->assertSame( true, $this->i18n->getUseRequestParam(), 'default' );
+
 		$this->i18n->setUseRequestParam( true );
 		$this->assertSame( true, $this->i18n->getUseRequestParam(), 'set true' );
+
 		$this->i18n->setUseRequestParam( false );
 		$this->assertSame( false, $this->i18n->getUseRequestParam(), 'set false' );
-	}
 
-	/**
-	 * @covers Intuition::setUseRequestParam
-	 */
-	public function testSetUseRequestParam() {
-		$this->assertSame( false, $this->i18n->setUseRequestParam( 'invalid' ), 'invalid' );
-		$this->assertSame( true, $this->i18n->setUseRequestParam( true ), 'set true' );
-		$this->assertSame( true, $this->i18n->setUseRequestParam( false ), 'set true' );
+		$this->i18n->setUseRequestParam( 'invalid' );
+		$this->assertSame( false, $this->i18n->getUseRequestParam(), 'invalid to false' );
+
+		$this->i18n->setUseRequestParam( true );
+		$this->assertSame( true, $this->i18n->getUseRequestParam(), 'true after invalid' );
 	}
 
 	/**

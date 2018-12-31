@@ -334,15 +334,10 @@ class Intuition {
 	 * been ran. Call refreshLang() if you want it to re-check the cookies,
 	 * parameters, overwrites etc.
 	 *
-	 * @param bool $bool True if you want it to use the parameter, false otherwise.
-	 * @return bool False if the passed argument wasn't a boolean, true otherwise.
+	 * @param bool $bool True if you want it to use the parameter.
 	 */
 	public function setUseRequestParam( $bool ) {
-		if ( !is_bool( $bool ) ) {
-			return false;
-		}
-		$this->useRequestParam = $bool;
-		return true;
+		$this->useRequestParam = ( $bool === true );
 	}
 
 	/**
