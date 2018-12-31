@@ -910,25 +910,25 @@ class Intuition {
 	 * @return bool
 	 */
 	public function setCookie( $key, $val, $lifetime = 2592000, $track = TSINT_COOKIE_TRACK ) {
-			// Validate cookie name
-			$name = $this->getCookieName( $key );
-			if ( !$name ) {
-				return false;
-			}
+		// Validate cookie name
+		$name = $this->getCookieName( $key );
+		if ( !$name ) {
+			return false;
+		}
 
-			$val = strval( $val );
-			$lifetime = intval( $lifetime );
-			$expire = time() + $lifetime;
+		$val = strval( $val );
+		$lifetime = intval( $lifetime );
+		$expire = time() + $lifetime;
 
-			// Set a 30-day domain-wide cookie
-			setcookie( $name, $val, $expire, '/' );
+		// Set a 30-day domain-wide cookie
+		setcookie( $name, $val, $expire, '/' );
 
-			// In order to keep track of the expiration date, we set another cookie
-			if ( $track === TSINT_COOKIE_TRACK ) {
-				$this->setExpiryTrackerCookie( $lifetime );
-			}
+		// In order to keep track of the expiration date, we set another cookie
+		if ( $track === TSINT_COOKIE_TRACK ) {
+			$this->setExpiryTrackerCookie( $lifetime );
+		}
 
-			return true;
+		return true;
 	}
 
 	/**
