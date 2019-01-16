@@ -32,5 +32,10 @@
 		],
 		"fix": "phpcbf",
 		"cover": "phpunit"
+	},
+	"config": {
+		"platform": {
+			"php": "7.0"
+		}
 	}
 }

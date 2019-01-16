@@ -1,7 +1,3 @@
-# Forfeit sudo to allow use of containers instead of (slower) VMs
-sudo: false
-# Trusty (instead of Precise) is required for HHVM to work
-dist: trusty
 language: php
 php:
   - "7.2"
