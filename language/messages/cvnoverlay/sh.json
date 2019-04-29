@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"adder": "Dodavač",
+	"adder-empty": "Nepoznat",
+	"expiry": "Ističe",
+	"globalwatched": "Globalno se prati",
+	"reason": "Razlog",
+	"reason-empty": "Nema razloga"
+}

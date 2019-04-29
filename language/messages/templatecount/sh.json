@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"enter-details": "Upišite podatke",
+	"introduction": "Upišite ime šablona (nažalost, zasad samo za Wikipedije) i pritisnite dugme \"Idi\". Toliko. Određeno međuskladištenje će se izvršiti (odnosno pamćenja ishoda), ali je to, nažalost, van kontrole ovog alata i njegovog vlasnika.",
+	"language-label": "Jezik",
+	"namespace-label": "Imenski prostor",
+	"pagename-label": "Ime stranice (bez imenskog prostora)",
+	"transclusion-count-label": "Broj transkluzija",
+	"transclusion-count": "Pronađeno je $1 transkluzija.",
+	"error-suggestion": "Možda ste pogrešno napisali ime stranice?",
+	"time-label": "Naredba je izvršena za:"
+}

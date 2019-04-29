@@ -1,25 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
 	"hello": "سلام",
-	"welcome": "خوش اومايت",
-	"toolversion": "نسقه $1",
-	"toolversionstamp": "نسقه $1($2)",
-	"etc": "همچنو.",
+	"welcome": "خوش اومایئت",
+	"toolversion": "نۏسخٱ $1",
+	"toolversionstamp": "نۏسخٱ $1($2)",
+	"etc": "هٱمچنو.",
 	"namespace": "نوم جا",
-	"form-submit": "رو",
-	"form-reset": "د نو شرو كردن",
-	"years": "{{PLURAL: $1|سال|سالیا}}",
+	"form-submit": "رۉ",
+	"form-reset": "د نۊ شرۊ كردن",
+	"years": "{{PLURAL: $1|سال|سالؽا}}",
 	"months": "{{PLURAL: $1|ما|مایا}}",
-	"weeks": "{{PLURAL: $1|هفته|هفته یا}}",
-	"days": "{{PLURAL: $1|رو|روزیا}}",
-	"hours": "{{PLURAL: $1|ساعت|ساعتیا}}",
-	"minutes": "{{PLURAL: $1|دئیقە|دئقە یا}}",
-	"seconds": "{{PLURAL: $1|تیه وه یک زنون|تیه وه یک زنون یا}}",
-	"last-modified-date": "آخرین آلشت:$1",
-	"view-source": "سرچشمه نه بوينيت",
-	"and": "&#32;و"
+	"weeks": "{{PLURAL: $1|هٱفتٱ|هٱفتٱیا}}",
+	"days": "{{PLURAL: $1|رۊ|رۊزؽا}}",
+	"hours": "{{PLURAL: $1|ساعٱت|ساعٱتؽا}}",
+	"minutes": "{{PLURAL: $1|داٛیقٱ|داٛیڤٱیا}}",
+	"seconds": "{{PLURAL: $1|تیٱ ڤ یٱک زنوݩ|تیٱ ڤ یٱک زنونؽا}}",
+	"last-modified-date": "آخری آلشت:$1",
+	"view-source": "سرچشمٱ ناْ بونؽت",
+	"and": "&#32;ۉ"
 }

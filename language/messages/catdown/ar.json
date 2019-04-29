@@ -3,7 +3,8 @@
 		"authors": [
 			"DRIHEM",
 			"أحمد",
-			"Maroen1990"
+			"Maroen1990",
+			"Meno25"
 		]
 	},
 	"title": "تنزيل الصور حسب التصنيف",
@@ -25,7 +26,7 @@
 	"download": "تنزيل",
 	"readme-contents": "ملف الإرفاق $4 قوائم\nصور من التصنيف $1 ( $2 )$3.\n\n== تعليمات تنزيل كل الصور المدرجة ==\nقد يتراوح وقت التنزيل ما بين بضع دقائق إلى عدة ساعات، حسب حجم الملفات و سرعة الاتصال بالإنترنت.\n\nوِندوز:\n استخرج كل الملفات في نفس الدليل و شغِّل $5\n $6\nلينُكس / ماك أوإس:\n استخرج كل الملفات وافتح طرفية في الدليل ثم شغِّل \"sh $5\"",
 	"non-bundled-wget": "ملاحظة: هذه الإصدارة لا تضم برمجية wget لوندوز. ستحتاج لاستخراج الملفات من الأرشيف إلى دليل فيه wget.exe أو أن يكون wget في مسار التطبيقات المُعرَّف.",
-	"wget-info": "يضُمُّ هذا الملف نسخة من wget $1 (لنظام ويندوز). Wget برمجية حُرَّة\nمنشورة برخصة GNU العمومية، الإصدارة 3.\nتوجد نسخة من نصِّ الترخيص فيما يلي، كما أنها منشورة على الموقع http://www.gnu.org/licenses/gpl-3.0.txt\n\nإذا أردت الحصول على الكود المصدري لهذه البرمجية فيمكنك تنزيلها من أيِّ من المواقع التالية\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nأو مواقع مرآوات گنو غيرها، أنظر\n http://www.gnu.org/prep/ftp.html",
+	"wget-info": "يضُمُّ هذا الملف نسخة من wget $1 (لنظام ويندوز). Wget برمجية حُرَّة\nمنشورة برخصة GNU العمومية، الإصدارة 3.\nتوجد نسخة من نصِّ الترخيص فيما يلي، كما أنها منشورة على الموقع http://www.gnu.org/licenses/gpl-3.0.txt\n\nإذا أردت الحصول على الكود المصدري لهذه البرمجية فيمكنك تنزيلها من أيِّ من المواقع التالية\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nأو مواقع مرآوات جنو غيرها، انظر\n http://www.gnu.org/prep/ftp.html",
 	"scaling-width": "، مُحَجّمة ليكون العرض الأقصى لكلِّ منها $1 {{plural:$1|pixel|بيكسل}}",
 	"scaling-height": "، مُحَجّمة ليكون الطول الأقصى لكلِّ منها $1 {{plural:$1|pixel|بيكسل}}",
 	"scaling-both": "، مُحجَّمة إلى الأبعاد القصوى $1x$2 عنصورة"

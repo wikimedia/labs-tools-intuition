@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"title": "Šablonsko povezivanje i provjera transkluzija",
+	"description": "Provjera i izveštaj koji članci koji uključuju šablon nisu povezani iz šablona, te koji članci koji su povezani iz šablona ne uključuju isti.",
+	"form-label-language": "Jezik:",
+	"form-label-template": "Ime šablona:",
+	"form-label-template2": "(uključujući imenski prostor)",
+	"form-label-complete": "Napravi cjelokupan izvještaj:",
+	"feedback-template-missing": "Šablon $1 ne postoji.",
+	"feedback-template-noaccess": "Šablon $1 postoji, ali nije dostupan putem baze podataka. Ovo bi mogao da bude privremeni problem s bazom podataka. Korištena baza podataka: $2.",
+	"feedback-result": "Ishod iz $1",
+	"feedback-header-mismatch": "Nepoklapanje između transkluzija i veza",
+	"feedback-header-no-link": "Transkluzija ali nema veze",
+	"feedback-header-no-transclusion": "Veza ali nema transkluzije",
+	"feedback-header-redirects": "Veze do preusmjerenja",
+	"feedback-total-count": "Ukupno: $1",
+	"feedback-header-complete": "Kompletan pregled transkluzija i povezivanja",
+	"feedback-header-transclusions": "Transkluzija šablona",
+	"feedback-header-links": "Veze iz šablona",
+	"link-edit": "uredi",
+	"link-create": "napravi",
+	"link-complete": "Cjelokupan izvještaj...",
+	"footer-stats": "Napravljeno: $1. Trajanje: $2 {{PLURAL:$2|sekund|sekunda|sekundi}}.",
+	"error-language": "Nepoznat kôd jezika."
+}

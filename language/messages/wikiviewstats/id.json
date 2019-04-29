@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"C5st4wr6ch",
-			"Hidayatsrf"
+			"Hidayatsrf",
+			"William Surya Permana"
 		]
 	},
 	"records": "rekaman",
 	"list": "Daftar",
 	"sample": "Contoh",
 	"hits": "hits",
+	"pageviews": "kunjungan",
 	"24hstat": "statistik 24 jam",
 	"pagetitle": "judul halaman",
 	"page": "Halaman",
@@ -19,7 +21,7 @@
 	"help": "bantuan",
 	"today": "hari ini",
 	"all": "semua",
-	"enterSearchTerm": "masukan istilah pencarian",
+	"enterSearchTerm": "masukkan istilah pencarian",
 	"allLang": "Semua bahasa",
 	"popular": "pupuler",
 	"interlang_proj": "proyek internasional",

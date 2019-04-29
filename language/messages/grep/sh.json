@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"title": "„grep“ naslova članaka (beta)",
+	"introduction": "Alat prikazuje sve naslove članaka koji odgovaraju danom uzorku regularnih izraza ($1). Pretraživanje s regularnim izrazima opterećuje sustav. Ukoliko je moguće, svakako koristite indikator prijave(^) i indikator proširenja ($).",
+	"explanation": "objašnjenje",
+	"regex": "Regularni izraz",
+	"enter-details": "Unesite podatke",
+	"results": "Ishod",
+	"language-label": "Jezik",
+	"namespace-label": "Imenski prostor",
+	"project-label": "Projekat",
+	"pattern-label": "Uzorak",
+	"redirects-label": "Uključi i preusmjeravanja",
+	"limit-label": "Ograniči prikaz na prvih 100 ishodnih stavka",
+	"error-zeroresults": "Nema stranica u tom imenskom prostoru čije stranice odgovaraju regularnom izrazu.",
+	"match-count": "Regularni izraz je {{PLURAL:$1|odgovara jednoj stranici|odgovara $1 stranicama}}."
+}

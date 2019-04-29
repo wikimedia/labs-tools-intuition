@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Horus",
+			"Patsagorn Y."
+		]
+	},
+	"enter-details": "กรอกรายละเอียด",
+	"introduction": "พิมพ์ลื่อของแม่แบบ (ในตอนนี้ใช้ได้เฉพาะของวิกิพีเดีย)\nและกด \"go\"",
+	"language-label": "ภาษา",
+	"namespace-label": "เนมสเปซ",
+	"pagename-label": "ชื่อหน้า (ไม่รวมเนมสเปซ)",
+	"transclusion-count-label": "จำนวนการนำแม่แบบไปใช้",
+	"transclusion-count": "พบ $1 การใช้งาน",
+	"error-suggestion": "บางทีคุณอาจสะกดชื่อหน้าผิด (หรือใช้อักษรตัวใหญ่ไม่ถูกต้อง) หรือเปล่า",
+	"time-label": "เวลาที่ใช้ในการดำเนินการคำสั่ง"
+}

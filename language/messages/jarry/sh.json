@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"moretools": "više alata",
+	"homepage-title": "Uvod",
+	"bugs": "prijava pogrješaka i zahtjevi za funkcije",
+	"comments": "komentari i upiti",
+	"error-form-empty": "Propustili ste jedno ili više obaveznih polja. Trebali bi ih dovršiti prije nastavka."
+}

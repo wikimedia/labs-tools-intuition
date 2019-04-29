@@ -16,7 +16,7 @@
 	"namespace-label": "命名空間",
 	"project-label": "計劃",
 	"pattern-label": "比對模式",
-	"redirects-label": "包含重定向",
+	"redirects-label": "包含重新導向",
 	"limit-label": "限制顯示前100項結果",
 	"error-zeroresults": "此名稱空間下沒有頁面標題符合您的正規表達式",
 	"match-count": "{{PLURAL:$1|$1個頁面|$1個頁面}}匹配您的正規表示法。"

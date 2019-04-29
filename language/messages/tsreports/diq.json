@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Kumkumuk",
-			"Asmen"
+			"Asmen",
+			"Mirzali"
 		]
 	},
 	"category_users": "Karberi",
 	"category_articles": "Peli",
-	"category_images": "Resimi",
+	"category_images": "Resımi",
 	"category_miscellaneous": "Binan",
 	"category_wikidata": "Wikidata",
 	"select_wiki_title": "Yu wikiy weçine",

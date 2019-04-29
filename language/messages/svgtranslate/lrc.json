@@ -1,19 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
-	"begin-translation": "شرو د  لرسن",
-	"th-original": "اصل",
-	"th-translation": "لرسن",
-	"th-language": "زون",
-	"th-username": "نوم كاروری",
-	"th-password": "پاسورد",
-	"th-method": "روشت",
+	"begin-translation": "شرۊ ڤ لٛرنیئن",
+	"th-original": "ٱسل",
+	"th-translation": "لٛرنیئن",
+	"th-language": "زڤون",
+	"th-username": "نوم كاریاری",
+	"th-password": "پٱسڤورد",
+	"th-method": "رٱڤش",
 	"option-oauth": "تی یو اس سی",
-	"preview": "پيش سيل",
-	"translate": "والرن",
-	"svginput-label": "فایل اس وی جی",
-	"uploading": "د حالت سوارکرد"
+	"preview": "پيش ساٛلٛ",
+	"translate": "ڤلٛرنیئن",
+	"svginput-label": "فایلٛ اْس ڤی جی",
+	"uploading": "د هالٱت سڤار کرد"
 }

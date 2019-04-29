@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"hello": "Pozdrav",
+	"welcome": "Dobro došli",
+	"toolversion": "Verzija $1",
+	"toolversionstamp": "Verzija $1 ($2)",
+	"etc": "itd.",
+	"namespace": "Imenski prostor",
+	"form-submit": "Daj",
+	"form-reset": "Poništi",
+	"years": "{{PLURAL: $1|godina|godine|godina}}",
+	"months": "{{PLURAL: $1|mjesec|mjeseca|mjeseci}}",
+	"weeks": "{{PLURAL: $1|nedelja|nedelje|nedelja}}",
+	"days": "{{PLURAL: $1|dan|dana}}",
+	"hours": "{{PLURAL: $1|sat|sata|sati}}",
+	"minutes": "{{PLURAL: $1|minuta|minute|minuta}}",
+	"seconds": "{{PLURAL: $1|sekunda|sekunde|sekundi}}",
+	"last-modified-date": "Poslednja izmjena: $1",
+	"view-source": "Izvor",
+	"and": "&#32;i"
+}

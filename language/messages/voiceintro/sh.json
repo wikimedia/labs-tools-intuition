@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Snimi",
+	"voiceintro-toolbar-stop-label": "Zaustavi",
+	"voiceintro-toolbar-clear-label": "Obriši",
+	"voiceintro-toolbar-upload-label": "Postavi",
+	"voiceintro-webaudio-not-supported": "Izvršnik WebAudio nije podržan na ovom pregledaču",
+	"voiceintro-upload-publish-succeeded": "Snimanje je uspešno postavljeno:",
+	"voiceintro-upload-publish-failed": "Snimanje nije postavljeno",
+	"voiceintro-information-label": "Informacije",
+	"voiceintro-information-speaker-label": "Ime govornika:",
+	"voiceintro-information-language-label": "Jezik:",
+	"voiceintro-mic-access-notify": "Kliknite na \"Dozvoli\" da biste dozvolili pregledaču da pristupi vašem mikrofonu.",
+	"voiceintro-recording-notify": "Snimam..."
+}

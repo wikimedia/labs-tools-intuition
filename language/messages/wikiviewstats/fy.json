@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robin0van0der0vliet",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"PiefPafPier"
 		]
 	},
 	"sample": "Foarbyld",
@@ -16,7 +17,7 @@
 	"users": "{{PLURAL: $1|brûker|brûkers}}",
 	"project": "Projekt",
 	"category": "Kategory",
-	"files": "{{PLURAL: $1|triem|triemmen}}",
+	"files": "{{PLURAL: $1|bestân|bestannen}}",
 	"size": "grutte",
 	"first": "earste",
 	"last": "lêste",

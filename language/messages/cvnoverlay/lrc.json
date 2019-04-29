@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
-	"adder": "ئضاف کو",
-	"adder-empty": "نادیار",
-	"expiry": "تأموم بییئن",
-	"reason": "دألیل",
-	"reason-empty": "هیچ دألیلی دیاری نأکئرد"
+	"adder": "اْزاف کو",
+	"adder-empty": "نادؽار",
+	"expiry": "تموم بیئن",
+	"reason": "دلٛیلٛ",
+	"reason-empty": "هیچ دلٛیلٛی دؽاری نٱکرد"
 }

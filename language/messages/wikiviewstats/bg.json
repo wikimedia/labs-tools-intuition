@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Termininja",
-			"StanProg"
+			"StanProg",
+			"Vlad5250"
 		]
 	},
 	"settings": "Настройки",
@@ -12,5 +13,6 @@
 	"portal": "Портал",
 	"helpPage": "Помощна страница",
 	"namespaces": "именни пространства",
-	"cancel": "отказ"
+	"cancel": "отказ",
+	"isRedirect": "Страницата е пренасочване"
 }

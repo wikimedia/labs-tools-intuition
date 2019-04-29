@@ -3,7 +3,8 @@
 		"authors": [
 			"محمد أحمد عبد الفتاح",
 			"Moud hosny",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"title": "ماذا يترك هنا",
@@ -23,7 +24,7 @@
 	"isfile": "وصلة ملف",
 	"linksearch": "بحث الوصلات",
 	"section-links": "وصلات",
-	"section-iwlinks": "روابط الإنترويكي",
+	"section-iwlinks": "وصلات الإنترويكي",
 	"section-extlinks": "وصلات خارجية",
 	"section-categories": "التصنيفات"
 }

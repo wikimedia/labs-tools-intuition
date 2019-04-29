@@ -1,25 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
-	"apply": "وه کار بردن",
-	"asc": "ای اس سی",
-	"changelog": "تازه چنه",
-	"clear": "پاك كردن",
+	"apply": "ڤ کار بوردن",
+	"asc": "ای اْس سی",
+	"changelog": "تازٱ چنٱ",
+	"clear": "پاک کردن",
 	"cvn-adder-empty": "ناشناس",
-	"cvn-reason": "دليل",
-	"documentation": "سندمند كردن",
-	"filter": "فيلتر",
+	"cvn-reason": "دلٛیلٛ",
+	"documentation": "موستٱنٱدؽا",
+	"filter": "فیلٛتر",
 	"limit": "كران دار بيئن",
 	"namespace": "نوم جا",
-	"order": "دستور",
-	"select-placeholder-none": "(هيش كوم)",
+	"order": "دٱستۊر",
+	"select-placeholder-none": "(هيچ كوم)",
 	"time-from": "د",
 	"time-untill": "تا",
-	"type": "نيسنن كامپيتری",
-	"typeEdit": "ويرايشتيا",
-	"typeNew": "بلگيا نو",
-	"userfilter": "فیلتر کارور"
+	"type": "نيسٱنن كامپيتری",
+	"typeEdit": "ڤیرایشؽا",
+	"typeNew": "بٱلگٱیا نۊ",
+	"userfilter": "فیلٛتر کاریار"
 }

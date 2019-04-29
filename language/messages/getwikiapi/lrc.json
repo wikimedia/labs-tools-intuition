@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
-	"formats-heading": "قالویا درفرسن",
-	"input": "داده",
-	"label-wikiids": "ویکی شناساگر",
-	"no-matches": "هیچی تطاوق ناره$1",
-	"output": "درفرسن سی $1"
+	"formats-heading": "قالبؽا خورۊجی",
+	"input": "دادٱ",
+	"label-wikiids": "ڤیکی شناساگٱر",
+	"no-matches": "هیچی تٱتابوق نارٱ$1",
+	"output": "خورۊجی سی $1"
 }

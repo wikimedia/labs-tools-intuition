@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"title": "Šta odvodi odavde",
+	"title-leaveshere": "Veze koje izlaze iz \"$1\"",
+	"sub-leaveshere": "Sljedeće stranice izlaze iz $1",
+	"label-page": "Stranica",
+	"label-namespace": "Imenski prostor",
+	"label-limit": "Granica",
+	"namespacesall": "sve",
+	"button-submit": "Daj",
+	"noleaveshere": "Ništa ne izlaze iz $1",
+	"link-whatleaveshere": "Šta odvodi odavde",
+	"tooltip-whatleaveshere": "Popis svega što vodi odavde",
+	"whatlinkshere": "Šta vodi ovde",
+	"whatlinkshere-whatleaveshere": "Šta odvodi odavde?",
+	"istemplate": "transkluzija",
+	"isfile": "link na datoteku",
+	"linksearch": "TraženjeVeze",
+	"section-links": "Veze",
+	"section-iwlinks": "Međujezične veze",
+	"section-extlinks": "Spoljašnje veze",
+	"section-categories": "Kategorije"
+}

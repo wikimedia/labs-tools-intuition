@@ -6,7 +6,7 @@
 			"LNDDYL"
 		]
 	},
-	"base_prefslink": "<a href=\"prefs.fcgi\">變更語言/設置</a>",
+	"base_prefslink": "<a href=\"prefs.fcgi\">變更語言/偏好設定</a>",
 	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">報告錯誤或功能請求</a>",
 	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">維基</a>",
 	"category_users": "使用者",
@@ -31,9 +31,9 @@
 	"qvar_title": "為您的查詢輸入變數",
 	"qvar_blurb": "您的查詢需要輸入一些變數",
 	"qvar_next": "下一步→",
-	"prefs_title": "報告設置",
+	"prefs_title": "報告偏好設定",
 	"prefs_submit": "確認",
-	"prefs_done": "您的偏好已變更。",
+	"prefs_done": "您的偏好設定已變更。",
 	"prefs_langlabel": "介面語言：",
 	"report_wascached": "此篇報告的快取於%(age)s產生。",
 	"report_cold_cache_running": "快取(重新)產生在%(runtime)s前。",

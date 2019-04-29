@@ -5,7 +5,8 @@
 			"Olli",
 			"Pxos",
 			"Silvonen",
-			"Stryn"
+			"Stryn",
+			"Pyscowicz"
 		]
 	},
 	"hello": "Moikka",
@@ -17,6 +18,7 @@
 	"form-submit": "Mene",
 	"form-reset": "Tyhjennä",
 	"years": "{{PLURAL: $1|vuosi|vuotta}}",
+	"months": "{{PLURAL: $1|kuukausi|kuukautta}}",
 	"weeks": "{{PLURAL: $1|viikko|viikkoa}}",
 	"days": "{{PLURAL: $1|päivä|päivää}}",
 	"hours": "{{PLURAL: $1|tunti|tuntia}}",

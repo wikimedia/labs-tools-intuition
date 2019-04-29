@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
-	"title-error": "خطا",
+	"title-error": "خٱتا",
 	"download-button": "گرتن د عنوان $1",
 	"title-downloadpage": "گرتن د عنوان $1",
-	"repo-site-link": "مالگه:",
-	"repo-lastmoddate-label": "وخت:",
-	"branches-submit-button": "بئرش!",
-	"tablehead-branch": "لشک",
-	"tablehead-filesize": "انازه فایل"
+	"repo-site-link": "مالگٱ:",
+	"repo-lastmoddate-label": "ڤٱخت:",
+	"branches-submit-button": "باٛیرؽت!",
+	"tablehead-branch": "لٛشک",
+	"tablehead-filesize": "ٱندازٱ فایلٛ"
 }

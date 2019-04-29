@@ -17,7 +17,7 @@
 	"feedback-header-mismatch": "嵌入與連結之間不匹配",
 	"feedback-header-no-link": "嵌入但沒有連結",
 	"feedback-header-no-transclusion": "連結但沒有嵌入",
-	"feedback-header-redirects": "連結至重定向",
+	"feedback-header-redirects": "連結至重新導向",
 	"feedback-total-count": "總計：$1",
 	"feedback-header-complete": "完整嵌入與連結預覽",
 	"feedback-header-transclusions": "模板的嵌入",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vadgt"
+			"Vadgt",
+			"Kareyac"
 		]
 	},
 	"records": "գրառումներ",
@@ -85,7 +86,7 @@
 	"addToWorkList": "ավելացնել աշխատացանկում",
 	"removeFromWorklist": "ջնջել աշխատացանկից",
 	"projectPages": "Նախագծի էջեր",
-	"backToTop": "վերադարձ վեր",
+	"backToTop": "Ետ էջի վերև",
 	"winningArticles": "Հաղթող հոդվածները",
 	"numPageWatchers": "Էջը հսկողների քանակը",
 	"linkStats": "Էջի վիճակագրության հղումը",

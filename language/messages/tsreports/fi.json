@@ -4,9 +4,11 @@
 			"Pyscowicz"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Vaihda kieltä / asetuksia</a>",
 	"category_users": "Käyttäjät",
 	"category_articles": "Sivut",
 	"category_images": "Kuvat",
+	"category_wikidata": "Wikidata",
 	"select_wiki_title": "Valitse wiki",
 	"select_wiki_next": "Seuraava →",
 	"select_report": "Ole hyvä ja valitse raportti:",

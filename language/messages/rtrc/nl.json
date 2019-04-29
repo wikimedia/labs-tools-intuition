@@ -3,7 +3,8 @@
 		"authors": [
 			"Krinkle",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Marcelhospers"
 		]
 	},
 	"title": "Realtime recente wijzigingen",
@@ -21,6 +22,7 @@
 	"cvn-scores": "CVN-scores",
 	"desc": "Aflopend",
 	"documentation": "Documentatie",
+	"feedback": "Terugkoppeling",
 	"filter": "Filters",
 	"filter-hideliu": "Geregistreerde gebruikers verbergen",
 	"filter-hidebots": "Bots verbergen",
@@ -41,6 +43,7 @@
 	"navtoggle-tooltip": "Zijbalk in- of uitschakelen",
 	"new-short": "nieuw",
 	"nomatches": "Er zijn geen relevante wijzigingen voor uw instellingen",
+	"open-in-wiki": "Open in Wiki",
 	"order": "Volgorde",
 	"ores-damaging-probability": "Waarschijnlijke schade: $1",
 	"ores-scores": "ORES-scores",

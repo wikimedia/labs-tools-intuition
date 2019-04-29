@@ -1,14 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Csega"
+			"Csega",
+			"R-Joe"
 		]
 	},
 	"label-page": "Lap",
 	"label-namespace": "Névtér",
 	"label-limit": "Korlát",
+	"namespacesall": "összes",
 	"button-submit": "Menj",
+	"noleaveshere": "Nincs hivatkozás innen: $1",
+	"link-whatleaveshere": "Mi hivatkozik erre",
+	"tooltip-whatleaveshere": "Ide hivatkozások listája",
 	"whatlinkshere": "Mi hivatkozik erre",
 	"isfile": "fájlhivatkozás",
-	"linksearch": "LinkSearch"
+	"linksearch": "LinkSearch",
+	"section-links": "Hivatkozások",
+	"section-iwlinks": "Interwiki hivatkozások",
+	"section-extlinks": "Külső hivatkozások",
+	"section-categories": "Kategóriák"
 }

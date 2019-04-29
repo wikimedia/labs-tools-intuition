@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"title": "Preuzimanje slika po kategoriji",
+	"subtitle": "Lakši način za preuzimanje slika u nekoj kategoriji",
+	"project": "Projekat:",
+	"category": "Kategorija:",
+	"thumbnailing": "Minijaturizacija",
+	"max-width": "Najv. širina:",
+	"max-height": "Najv. visina:",
+	"invalid-width": "Neispravna širina",
+	"invalid-height": "Neispravna visina",
+	"no-such-project": "Nema takvog projekta",
+	"no-images": "U toj kategoriji nema slika",
+	"category-is-url": "Zadato ime liči na URL adresu. Treba da navedete ime kategorije, a ne adresu.",
+	"category-contains-namespace": "Izgleda da ste naveli imenski prostor zajedno s imenom kategorije. Sa zadatim imenom, stranica će biti dostupna na [[Category:$1]].",
+	"zip-failed": "Pravljenje ZIP-a nije uspelo",
+	"image-area-too-big": "Slika $1 je prevelika da bi mogla da se minijaturizira. Koristiću punu veličinu.",
+	"download-info": "{{plural: $1|Postoji jedna slika|Postoje $1 slike|Postoji $1 slika}}, s prosečnom veličinom od $2",
+	"download": "Preuzmi",
+	"readme-contents": "U datoteci $4 navedene su\nslike iz kategorije $1 ($2) $3.\n\n== Uputstva za preuzimanje svih navedenih slika ==\nPreuzimanje može potrajati od nekoliko minuta do nekoliko časova.\n\nWindows:\n Raspakujte sve datoteke u istu fasciklu i pokrenite $5\n $6\nLinux/Mac OS:\n Raspakujte sve datoteke i otvorite terminal u toj fascikli. Pokrenite sh $5",
+	"non-bundled-wget": "Napomena: Ova verzija ne sadrži wget za Windows. Raspakivanje treba da izvršite u fasciklu sa datotekom wget.exe ili da već imate wget u promenljivoj PATH",
+	"wget-info": "Datoteka sadrži primerak wget-a $1 (za Windows). Wget je slobodna programska oprema objavljena pod uslovima GNU-OVE OPŠTE JAVNE LICENCE (''GNU GENERAL PUBLIC LICENSE'') verzije 3.\nIspod se nalazi primerak licence (dostupan je i na http://www.gnu.org/licenses/gpl-3.0.txt)\n\nUkoliko želite da dobijete izvorni kod programa, preuzmite ga sa\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nili nekog drugog GNU-ovog rezervnog servera, v.\n http://www.gnu.org/prep/ftp.html",
+	"scaling-width": ", s izmenom razmere do najv. širine od $1 {{plural:$1|piksel|piksela}}",
+	"scaling-height": ", s izmenom razmere do najv. visine od $1 {{plural:$1|piksel|piksela}}",
+	"scaling-both": ", s izmenom razmere do dopuštene veličine od $1 × $2 piksela"
+}

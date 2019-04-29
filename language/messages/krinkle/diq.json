@@ -3,10 +3,13 @@
 		"authors": [
 			"Erdemaslancan",
 			"Mirzali",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Orbot707"
 		]
 	},
 	"alws-label": "Wiki",
 	"alws-selectwiki": "(wiki weçinê)",
+	"alws-group-mustused": "Wikiyê ke zeder karıyenê",
+	"alws-group-allaz": "Wikiya pêro gorey alfabey",
 	"form-legend-settings": "Eyari"
 }

@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
-	"bl-mysettings": "تنظيمات زون مه",
-	"bl-mysettings-new": "آلشت كردن زون",
-	"bl-promo": "لرسن قوی بیه وا $1 و $2",
+	"bl-mysettings": " میزوکاری زڤون ماْ",
+	"bl-mysettings-new": "آلشت كردن زڤون",
+	"bl-promo": "لٛرنیئن دۏرس بیٱ ڤا $1 ۉ $2",
 	"bl-changelanguage": "ایچه بپورنیت تا راوط زون ای اوزار آلشت بوئه",
-	"help-translate-tool": "سی والرسن ای اوزار هومیار بکید!",
-	"help-translate-all": "هومیاری والرسن اوزاریا",
-	"help-translate-tooltip": "دیه رونه وا لرسن پیغوم راوط د زون خوتو هومیاری بکید"
+	"help-translate-tool": "سی ڤلٛرسن اؽ ٱڤزار هومیاری بٱکؽت!",
+	"help-translate-all": "سی ڤلٛرسن اؽ ٱڤزارؽا هومیاری بٱکؽت!",
+	"help-translate-tooltip": "دؽگروناْ ڤا لٛرسن پاٛغوم رابت د زڤون خوتو هومیاری بٱکؽت."
 }

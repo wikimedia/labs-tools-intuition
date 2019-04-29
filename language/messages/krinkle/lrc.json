@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Lorestani"
 		]
 	},
-	"alws-selectwiki": "(ویکی نه انتخاو بکید)",
-	"alws-group-mustused": "ویکیا بیشتر استفاده بیه",
-	"alws-group-allaz": "همه ویکیا د لحاظ الفبانگاشت",
-	"form-legend-settings": "تنظيمات"
+	"alws-selectwiki": "(ڤیکی ناْ اْنتخاو بٱکؽت)",
+	"alws-group-mustused": "بؽشتری ڤیکیا اْستفادٱ بیٱ",
+	"alws-group-allaz": "هٱمٱ ڤیکیا ڤ ٱلفبانگاشت",
+	"form-legend-settings": "میزوکاری"
 }

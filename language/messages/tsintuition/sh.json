@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bl-mysettings": "Moje jezične postavke",
+	"bl-mysettings-new": "Promijenite jezik!",
+	"bl-promo": "Prijevod su vam omogućili $1 i $2.",
+	"bl-changelanguage": "Promijenite jezik sučelja ovog alata.",
+	"help-translate-tool": "Pomozite u prevođenju ovog alata!",
+	"help-translate-all": "Pomozite nam da prevedemo alatke!",
+	"help-translate-tooltip": "Pomozite drugima prijevodom sučeljskih poruka na svoj jezik."
+}

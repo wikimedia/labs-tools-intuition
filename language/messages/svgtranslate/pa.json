@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tow"
+			"Tow",
+			"ਗੁਰਪ੍ਰੀਤ ਹੁੰਦਲ"
 		]
 	},
 	"th-original": "ਮੂਲ",
 	"th-translation": "ਅਨੁਵਾਦ",
 	"th-language": "ਭਾਸ਼ਾ",
 	"th-username": "ਵਰਤੋਂਕਾਰ ਨਾਂ",
-	"th-password": "ਪਾਸਵਰਡ",
+	"th-password": "ਲੰਘ-ਸ਼ਬਦ",
 	"th-method": "ਤਰੀਕਾ",
 	"preview": "ਝਲਕ"
 }

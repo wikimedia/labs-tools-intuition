@@ -1,8 +1,38 @@
 {
 	"@metadata": {
 		"authors": [
-			"Conquistador"
+			"Conquistador",
+			"Vlad5250"
 		]
 	},
-	"preview": "Pregled"
+	"error-tryagain": "$1 Pokušajte ponovo klikom na dugme „Nazad“ u vašem pregledaču.",
+	"error-nothing": "Nema ništa za prevođenje.",
+	"error-notsvg": "Ovo nije SVG datoteka.",
+	"error-unexpected": "Pojavila se neočekivana greška.",
+	"error-notfound": "Nije moguće preuzeti SVG datoteku iz navedenog URL-a.",
+	"error-upload": "Došlo je do greške pri postavljanju.",
+	"begin-translation": "Počnite sa prevođenjem",
+	"th-original": "Izvorno",
+	"th-translation": "Prijevod",
+	"th-language": "Jezik",
+	"th-username": "Korisničko ime",
+	"th-password": "Lozinka",
+	"th-method": "Način",
+	"option-oauth": "OAuth (automatski prijenos)",
+	"option-manual": "Ručno postavljanje",
+	"preview": "Pregled",
+	"translate": "Prevođenje",
+	"translate-instructions": "Dopušteno je unošenje datotečnih imena (npr. \"$1\") ili pune URL adrese (npr. \"$2\"). Ako izaberete prvo, za izvor će se koristiti Zajednički poslužitelj. Ako želite da prevedete SVG sa drugog sajta ili wikija, morate navesti punu URL adresu.",
+	"svginput-label": "SVG datoteka",
+	"stats-footer": "Ovom alatkom dosad je prevedeno oko $1 datoteka od $2.",
+	"uploading": "Postavljam",
+	"upload-complete": "Postavljanje uspješno završeno. Slika bi trebala sada biti na $1",
+	"editdescriptionpage": "Uredite novu stranicu s opisom",
+	"disclaimer": "Pojedini anonimni podaci će se skupljati povjerljivo u statističke svrhe. Ako su navedena, korisnička imena OAuth-a će biti zabeležena za pomoć u slučaju vandalizma. Lozinke nikada neće biti evidentirane.",
+	"author-complete": "Popunite podatak o autoru!",
+	"preview-hide": "Sakrij pregled",
+	"preview-refresh": "Osvježi pregled",
+	"error-must-accept": "Da biste nastavili s izravnim postavljanjem, morate prihvatiti uvjete uporabe kako su navedeni.",
+	"description-license": "Izaberite opis i licencu",
+	"finalise": "Dovršite podatke"
 }
