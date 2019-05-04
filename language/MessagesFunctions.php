@@ -8,6 +8,8 @@
  * @package krinkle/intuition
  */
 
+use Krinkle\Intuition\Intuition;
+
 class MessagesFunctions {
 
 	private static $instance = null;
