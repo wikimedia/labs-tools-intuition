@@ -136,7 +136,7 @@ class Intuition {
 		$defaultOptions = [
 			'domain' => 'general',
 			'lang' => null,
-			'globalfunctions' => true,
+			'globalfunctions' => false,
 			'suppressfatal' => false,
 			'suppressnotice' => true,
 			'suppressbrackets' => false,
