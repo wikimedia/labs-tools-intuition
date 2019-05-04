@@ -1,5 +1,7 @@
 <?php
 
+use Krinkle\Intuition\Intuition;
+
 class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 	protected function setUp() {
@@ -18,8 +20,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::__construct
-	 * @covers Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::__construct
+	 * @covers Krinkle\Intuition\Intuition::msg
 	 */
 	public function testConstructor() {
 		$i18n = new Intuition();
@@ -61,8 +63,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::setLang
-	 * @covers Intuition::getLang
+	 * @covers Krinkle\Intuition\Intuition::setLang
+	 * @covers Krinkle\Intuition\Intuition::getLang
 	 */
 	public function testSetLang() {
 		$this->assertTrue( $this->i18n->setLang( 'nan' ) );
@@ -75,9 +77,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::setDomain
-	 * @covers Intuition::normalizeDomain
-	 * @covers Intuition::getDomain
+	 * @covers Krinkle\Intuition\Intuition::setDomain
+	 * @covers Krinkle\Intuition\Intuition::normalizeDomain
+	 * @covers Krinkle\Intuition\Intuition::getDomain
 	 */
 	public function testSetDomain() {
 		$this->i18n->setDomain( 'Test-Domain' );
@@ -89,8 +91,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::dateFormatted
-	 * @covers Intuition::getLocale
+	 * @covers Krinkle\Intuition\Intuition::dateFormatted
+	 * @covers Krinkle\Intuition\Intuition::getLocale
 	 */
 	public function testDateFormatted() {
 		$this->assertEquals(
@@ -100,10 +102,10 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::msg
-	 * @covers Intuition::rawMsg
-	 * @covers Intuition::accessBlob
-	 * @covers Intuition::getMessagesFunctions
+	 * @covers Krinkle\Intuition\Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::rawMsg
+	 * @covers Krinkle\Intuition\Intuition::accessBlob
+	 * @covers Krinkle\Intuition\Intuition::getMessagesFunctions
 	 */
 	public function testMsg() {
 		$this->i18n->setMsgs( [
@@ -156,8 +158,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::msg
-	 * @covers Intuition::getMessagesFunctions
+	 * @covers Krinkle\Intuition\Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::getMessagesFunctions
 	 * @covers MessagesFunctions
 	 */
 	public function testMessagesFunctions() {
@@ -209,9 +211,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * See also IntuitionUtilTest for more testing of strEscape()
+	 * See also UtilTest for more testing of strEscape()
 	 *
-	 * @covers Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::msg
 	 */
 	public function testMsgEscape() {
 		$this->i18n->setMsgs( [
@@ -245,9 +247,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * See also IntuitionUtilTest for in-depth testing of parseExternalLinks()
+	 * See also UtilTest for in-depth testing of parseExternalLinks()
 	 *
-	 * @covers Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::msg
 	 */
 	public function testMsgExternalLinks() {
 		$this->i18n->setMsgs( [
@@ -268,9 +270,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * See also IntuitionUtilTest for in-depth testing of parseWikiLinks().
+	 * See also UtilTest for in-depth testing of parseWikiLinks().
 	 *
-	 * @covers Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::msg
 	 */
 	public function testMsgWikiLinks() {
 		$this->i18n->setMsgs( [
@@ -291,8 +293,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::msg
-	 * @covers Intuition::rawMsg
+	 * @covers Krinkle\Intuition\Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::rawMsg
 	 */
 	public function testMsgQqx() {
 		$this->assertEquals(
@@ -303,11 +305,11 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::registerDomain
-	 * @covers Intuition::ensureLoaded
-	 * @covers Intuition::loadMessageFile
-	 * @covers Intuition::setMsgs
-	 * @covers Intuition::setMsg
+	 * @covers Krinkle\Intuition\Intuition::registerDomain
+	 * @covers Krinkle\Intuition\Intuition::ensureLoaded
+	 * @covers Krinkle\Intuition\Intuition::loadMessageFile
+	 * @covers Krinkle\Intuition\Intuition::setMsgs
+	 * @covers Krinkle\Intuition\Intuition::setMsg
 	 */
 	public function testRegisterDomain() {
 		$this->i18n->registerDomain( 'test-register', __DIR__ . '/data/i18n' );
@@ -341,9 +343,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::ensureLoaded
-	 * @covers Intuition::loadMessageFile
-	 * @covers Intuition::rawMsg
+	 * @covers Krinkle\Intuition\Intuition::ensureLoaded
+	 * @covers Krinkle\Intuition\Intuition::loadMessageFile
+	 * @covers Krinkle\Intuition\Intuition::rawMsg
 	 */
 	public function testMsgFallbackForDomains() {
 		// Fallbacks that trigger message file loading
@@ -379,7 +381,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::ensureLoaded
+	 * @covers Krinkle\Intuition\Intuition::ensureLoaded
 	 */
 	public function testMessageCache() {
 		// When a class loads a domain/language pair
@@ -404,7 +406,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 	/**
 	 * @dataProvider provideEnsureLoaded
-	 * @covers Intuition::ensureLoaded
+	 * @covers Krinkle\Intuition\Intuition::ensureLoaded
 	 */
 	public function testEnsureLoaded( $domain, $lang, $message = null ) {
 		Intuition::clearCache();
@@ -417,7 +419,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::registerDomain
+	 * @covers Krinkle\Intuition\Intuition::registerDomain
 	 */
 	public function testRegisterDomainDefault() {
 		$i18n = new Intuition( [ 'domain' => 'test-register' ] );
@@ -430,7 +432,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::bracketMsg
+	 * @covers Krinkle\Intuition\Intuition::bracketMsg
 	 */
 	public function testBracketMsg() {
 		$this->assertEquals(
@@ -444,7 +446,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::msgExists
+	 * @covers Krinkle\Intuition\Intuition::msgExists
 	 */
 	public function testMsgExist() {
 		$this->assertTrue(
@@ -465,8 +467,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 	/**
 	 * @dataProvider provideRedirectTo
-	 * @covers Intuition::redirectTo
-	 * @covers Intuition::isRedirecting
+	 * @covers Krinkle\Intuition\Intuition::redirectTo
+	 * @covers Krinkle\Intuition\Intuition::isRedirecting
 	 */
 	public function testRedirectTo( $ret, $url, $isRedirect = null ) {
 		$this->assertSame( $ret, $this->i18n->redirectTo( $url ) );
@@ -475,8 +477,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 	/**
 	 * @dataProvider provideRedirectTo
-	 * @covers Intuition::redirectTo
-	 * @covers Intuition::isRedirecting
+	 * @covers Krinkle\Intuition\Intuition::redirectTo
+	 * @covers Krinkle\Intuition\Intuition::isRedirecting
 	 */
 	public function testRedirectMultiple() {
 		// Verify behaviour of calling redirectTo() multiple times
@@ -514,8 +516,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::parentheses
-	 * @covers Intuition::parensWrap
+	 * @covers Krinkle\Intuition\Intuition::parentheses
+	 * @covers Krinkle\Intuition\Intuition::parensWrap
 	 */
 	public function testParentheses() {
 		$this->assertEquals(
@@ -525,8 +527,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::errTrigger
-	 * @covers Intuition::errMsg
+	 * @covers Krinkle\Intuition\Intuition::errTrigger
+	 * @covers Krinkle\Intuition\Intuition::errMsg
 	 */
 	public function testOptionShownotice() {
 		$i18n = new Intuition( [
@@ -543,8 +545,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::msg
-	 * @covers Intuition::bracketMsg
+	 * @covers Krinkle\Intuition\Intuition::msg
+	 * @covers Krinkle\Intuition\Intuition::bracketMsg
 	 */
 	public function testOptionSuppressbrackets() {
 		$i18n = new Intuition( [
@@ -560,8 +562,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getLangName
-	 * @covers Intuition::getLangNames
+	 * @covers Krinkle\Intuition\Intuition::getLangName
+	 * @covers Krinkle\Intuition\Intuition::getLangNames
 	 */
 	public function testGetLangName() {
 		$this->assertEquals(
@@ -579,7 +581,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::listMsgs
+	 * @covers Krinkle\Intuition\Intuition::listMsgs
 	 */
 	public function testListMsgs() {
 		$this->assertEquals(
@@ -593,9 +595,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getLangFallbacks
-	 * @covers Intuition::fetchLangFallbacks
-	 * @covers Intuition::clearCache
+	 * @covers Krinkle\Intuition\Intuition::getLangFallbacks
+	 * @covers Krinkle\Intuition\Intuition::fetchLangFallbacks
+	 * @covers Krinkle\Intuition\Intuition::clearCache
 	 */
 	public function testLangFallback() {
 		// Ensure fetchLangFallbacks is tested
@@ -609,9 +611,9 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::rawMsg
-	 * @covers Intuition::accessBlobWithFallback
-	 * @covers Intuition::normalizeLang
+	 * @covers Krinkle\Intuition\Intuition::rawMsg
+	 * @covers Krinkle\Intuition\Intuition::accessBlobWithFallback
+	 * @covers Krinkle\Intuition\Intuition::normalizeLang
 	 */
 	public function testMsgFallback() {
 		// Normal fallbacks (chain)
@@ -673,7 +675,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::isRtl
+	 * @covers Krinkle\Intuition\Intuition::isRtl
 	 */
 	public function testIsRtl() {
 		$this->assertTrue( $this->i18n->isRtl( 'he' ) );
@@ -681,7 +683,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getDir
+	 * @covers Krinkle\Intuition\Intuition::getDir
 	 */
 	public function testGetDir() {
 		$this->assertEquals( $this->i18n->getDir( 'he' ), 'rtl' );
@@ -689,7 +691,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getDomainInfo
+	 * @covers Krinkle\Intuition\Intuition::getDomainInfo
 	 */
 	public function testGetDomainInfo() {
 		$this->assertEquals(
@@ -714,7 +716,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 
 	/**
 	 * @dataProvider provideIsLocalDomain
-	 * @covers Intuition::isLocalDomain
+	 * @covers Krinkle\Intuition\Intuition::isLocalDomain
 	 */
 	public function testIsLocalDomain( $expected, $domain ) {
 		$obj = new ReflectionClass( $this->i18n );
@@ -727,7 +729,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getAvailableLangs
+	 * @covers Krinkle\Intuition\Intuition::getAvailableLangs
 	 */
 	public function testGetAvailableLangs() {
 		$langs = $this->i18n->getAvailableLangs( 'general' );
@@ -737,7 +739,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getDashboardReturnToUrl
+	 * @covers Krinkle\Intuition\Intuition::getDashboardReturnToUrl
 	 */
 	public function testDashboardReturnToUrl() {
 		// phpcs:disable MediaWiki.Usage.SuperGlobalsUsage.SuperGlobals
@@ -759,16 +761,16 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getCookieNames
+	 * @covers Krinkle\Intuition\Intuition::getCookieNames
 	 */
 	public function testGetCookieNames() {
 		$this->assertInternalType( 'array', $this->i18n->getCookieNames() );
 	}
 
 	/**
-	 * @covers Intuition::setCookie
-	 * @covers Intuition::getCookieName
-	 * @covers Intuition::setExpiryTrackerCookie
+	 * @covers Krinkle\Intuition\Intuition::setCookie
+	 * @covers Krinkle\Intuition\Intuition::getCookieName
+	 * @covers Krinkle\Intuition\Intuition::setExpiryTrackerCookie
 	 */
 	public function testSetCookie() {
 		$this->assertFalse( $this->i18n->setCookie( 'invalid', 'val' ) );
@@ -776,7 +778,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::hasCookies
+	 * @covers Krinkle\Intuition\Intuition::hasCookies
 	 */
 	public function testHasCookies() {
 		$this->assertFalse( $this->i18n->hasCookies(), 'none' );
@@ -785,7 +787,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::renewCookies
+	 * @covers Krinkle\Intuition\Intuition::renewCookies
 	 */
 	public function testRenewCookies() {
 		$this->assertTrue( $this->i18n->renewCookies(), 'empty' );
@@ -794,15 +796,15 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::wipeCookies
+	 * @covers Krinkle\Intuition\Intuition::wipeCookies
 	 */
 	public function testWipeCookies() {
 		$this->assertTrue( $this->i18n->wipeCookies() );
 	}
 
 	/**
-	 * @covers Intuition::getCookieLifetime
-	 * @covers Intuition::getCookieExpiration
+	 * @covers Krinkle\Intuition\Intuition::getCookieLifetime
+	 * @covers Krinkle\Intuition\Intuition::getCookieExpiration
 	 */
 	public function testGetCookieLifetime() {
 		$this->assertSame(
@@ -836,14 +838,14 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getParamNames
+	 * @covers Krinkle\Intuition\Intuition::getParamNames
 	 */
 	public function testGetParamNames() {
 		$this->assertInternalType( 'array', $this->i18n->getParamNames() );
 	}
 
 	/**
-	 * @covers Intuition::getParamName
+	 * @covers Krinkle\Intuition\Intuition::getParamName
 	 */
 	public function testGetParamName() {
 		$this->assertSame( null, $this->i18n->getParamName( 'invalid' ) );
@@ -851,8 +853,8 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	}
 
 	/**
-	 * @covers Intuition::getUseRequestParam
-	 * @covers Intuition::setUseRequestParam
+	 * @covers Krinkle\Intuition\Intuition::getUseRequestParam
+	 * @covers Krinkle\Intuition\Intuition::setUseRequestParam
 	 */
 	public function testGetUseRequestParam() {
 		$this->assertSame( true, $this->i18n->getUseRequestParam(), 'default' );

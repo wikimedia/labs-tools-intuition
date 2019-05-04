@@ -1,8 +1,9 @@
 <?php
 
+use Krinkle\Intuition\Util as Util;
 use PHPUnit\Framework\TestCase;
 
-class IntuitionUtilTest extends TestCase {
+class UtilTest extends TestCase {
 
 	public static function provideStrEscape() {
 		return [
@@ -16,12 +17,12 @@ class IntuitionUtilTest extends TestCase {
 
 	/**
 	 * @dataProvider provideStrEscape
-	 * @covers IntuitionUtil::strEscape
+	 * @covers Krinkle\Intuition\Util::strEscape
 	 */
 	public function testStrEscape( $expected, $str, $escape = 'plain' ) {
 		$this->assertEquals(
 			$expected,
-			IntuitionUtil::strEscape( $str, $escape )
+			Util::strEscape( $str, $escape )
 		);
 	}
 
@@ -42,11 +43,11 @@ class IntuitionUtilTest extends TestCase {
 
 	/**
 	 * @dataProvider provideNonEmptyStr
-	 * @covers IntuitionUtil::nonEmptyStr
+	 * @covers Krinkle\Intuition\Util::nonEmptyStr
 	 */
 	public function testNonEmptyStr( $bool, $input ) {
 		$this->assertSame(
-			IntuitionUtil::nonEmptyStr( $input ),
+			Util::nonEmptyStr( $input ),
 			$bool
 		);
 	}
@@ -70,11 +71,11 @@ class IntuitionUtilTest extends TestCase {
 
 	/**
 	 * @dataProvider provideNonEmptyStrs
-	 * @covers IntuitionUtil::nonEmptyStrs
+	 * @covers Krinkle\Intuition\Util::nonEmptyStrs
 	 */
 	public function testNonEmptyStrs( $bool, $inputArgs ) {
 		$this->assertSame(
-			call_user_func_array( 'IntuitionUtil::nonEmptyStrs', $inputArgs ),
+			Util::nonEmptyStrs( ...$inputArgs ),
 			$bool
 		);
 	}
@@ -135,11 +136,11 @@ class IntuitionUtilTest extends TestCase {
 
 	/**
 	 * @dataProvider provideAcceptLanguages
-	 * @covers IntuitionUtil::getAcceptableLanguages
+	 * @covers Krinkle\Intuition\Util::getAcceptableLanguages
 	 */
 	public function testGetAcceptableLanguages( $data, $result, $message ) {
 		$this->assertEquals(
-			IntuitionUtil::getAcceptableLanguages( $data ),
+			Util::getAcceptableLanguages( $data ),
 			$result,
 			$message
 		);
@@ -176,13 +177,13 @@ class IntuitionUtilTest extends TestCase {
 
 	/**
 	 * @dataProvider provideTag
-	 * @covers IntuitionUtil::tag
+	 * @covers Krinkle\Intuition\Util::tag
 	 */
 	public function testTag( $args, $expected, $message = null ) {
 		$args += [ null, null, null ];
 		$this->assertEquals(
 			$expected,
-			IntuitionUtil::tag( $args[0], $args[1], $args[2] ),
+			Util::tag( $args[0], $args[1], $args[2] ),
 			$message
 		);
 	}
@@ -235,12 +236,12 @@ class IntuitionUtilTest extends TestCase {
 
 	/**
 	 * @dataProvider provideParseExternalLinks
-	 * @covers IntuitionUtil::parseExternalLinks
+	 * @covers Krinkle\Intuition\Util::parseExternalLinks
 	 */
 	public function testparseExternalLinks( $input, $expected = null ) {
 		$this->assertEquals(
 			$expected ?: $input,
-			IntuitionUtil::parseExternalLinks( $input )
+			Util::parseExternalLinks( $input )
 		);
 	}
 
@@ -267,13 +268,13 @@ class IntuitionUtilTest extends TestCase {
 
 	/**
 	 * @dataProvider provideParseWikiLinks
-	 * @covers IntuitionUtil::parseWikiLinks
-	 * @covers IntuitionUtil::prettyEncodedWikiUrl
+	 * @covers Krinkle\Intuition\Util::parseWikiLinks
+	 * @covers Krinkle\Intuition\Util::prettyEncodedWikiUrl
 	 */
 	public function testParseWikiLinks( $articlePath, $input, $expected ) {
 		$this->assertEquals(
 			$expected,
-			IntuitionUtil::parseWikiLinks( $input, $articlePath )
+			Util::parseWikiLinks( $input, $articlePath )
 		);
 	}
 }
