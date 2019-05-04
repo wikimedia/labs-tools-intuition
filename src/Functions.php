@@ -15,11 +15,14 @@ if ( !defined( 'INTUITION' ) ) {
 }
 
 /**
- * This file contains global functions that will be made available
- * through ToolStart.php. These assume the instance of the Intuition class
- * is available in the global $I18N variable. These four function are shortcodes
- * for the most common usecases. You can disable them by setting the 'globalfunctions'
- * option to false when constructing the Intuition class.
+ * This file contains global functions that can be made available
+ * through Krinkle\Intuition::__construct. These assume an instance of the Intuition
+ * class was made available through a global $I18N variable.
+ *
+ * These four function are shortcodes for the most common usecases.
+ *
+ * To enable these, set the 'globalfunctions' option to true when constructing the
+ * Intuition object.
  */
 
 // phpcs:disable MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic
