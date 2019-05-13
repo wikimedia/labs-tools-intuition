@@ -2,10 +2,31 @@
 	"@metadata": {
 		"authors": [
 			"KuboF",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Mirin"
 		]
 	},
 	"title": "Realtempaj lastaj ŝanĝoj",
 	"apply": "Apliki",
-	"close": "Fermi"
+	"changelog": "Kio Estas Nova",
+	"close": "Fermi",
+	"cvn-adder": "Aldoninto",
+	"cvn-adder-empty": "Nekonata",
+	"cvn-reason": "Kialo",
+	"cvn-reason-empty": "Neniu kialo trovita",
+	"filter": "Filtri",
+	"help": "Helpo",
+	"mark": "marki",
+	"namespace": "Nomspaco",
+	"new-short": "nova",
+	"open-in-wiki": "Malfermi en Vikio",
+	"select-placeholder-none": "(neniu)",
+	"showAnonOnly": "Nur anonimuloj",
+	"tag": "Etikedo",
+	"time-from": "De",
+	"time-untill": "Ĝis",
+	"type": "Tipo",
+	"typeEdit": "Redaktoj",
+	"typeNew": "Novaj paĝoj",
+	"userfilter": "Filtro de uzantoj"
 }

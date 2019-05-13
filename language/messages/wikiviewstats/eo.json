@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Mirin"
 		]
 	},
+	"sample": "Ekzemplo",
+	"language": "lingvo",
 	"users": "{{PLURAL: $1|uzanto|uzantoj}}",
 	"cancel": "nuligi"
 }

@@ -2,12 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Mirin"
 		]
 	},
+	"enter-details": "Enmetu detalojn",
 	"language-label": "Lingvo",
 	"namespace-label": "Nomspaco",
 	"pagename-label": "Paĝnomo (escepti nomspaco)",
 	"transclusion-count": "$1 transkludo(j) trovita(j).",
+	"error-suggestion": "Eble vi mistajpis la nomon de la paĝo (aŭ uzis malĝustan usklon)?",
 	"time-label": "Tempo bezonata por ekzekuti komando"
 }

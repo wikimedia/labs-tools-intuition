@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"form-label-language": "Lingvo:",
+	"form-label-template": "Nomo de ŝablono:",
+	"form-label-template2": "(inkluzive de nomspaco)",
+	"feedback-template-missing": "Ŝablono $1 ne ekzistas.",
+	"feedback-result": "Rezultoj pri $1",
+	"link-edit": "redakti",
+	"link-create": "krei",
+	"link-complete": "Kompleta raporto...",
+	"error-language": "Nekonata lingvokodo."
+}

@@ -16,7 +16,7 @@
 	"no-such-project": "Ora ana proyèk kaya ngono",
 	"no-images": "Ora ana gambar nèng katègori kuwi",
 	"category-is-url": "Jeneng katègori sing diawèhaké kaya-kayané URL. Sampéyan kudu nglebokaké jeneng katègoriné, dudu URLé.",
-	"category-contains-namespace": "Kaya-kayané Sampéyan nyartakaké bilik jenengé nèng jeneng katégoriné. Mawa jeneng kaya kuwi, kacané kuwi bakal sumadhiya dadi [[Category:$1]].",
+	"category-contains-namespace": "Katoné kowé nglebokaké mandhala arané sinartan jeneng katégoriné. Kanthi jeneng mangkono, kacané bakal njedhul ing [[Category:$1]].",
 	"zip-failed": "Gawé zip ora dadi",
 	"image-area-too-big": "$1 kagedhèn kanggo didadèkaké gambar mini. Nganggoa ukuran kebak.",
 	"download-info": "{{plural: $1|Ana sak gambar|Ana $1 gambar}}, sing gedhéné kira-kira $2",
