@@ -1,3 +1,27 @@
+## v2.0.0 (2019-05-13)
+
+### Added
+
+* core: The `Intuition::getAvailableLangs` method now supports a `$domain` parameter (optional).
+
+### Changed
+
+* messages: Localisation updates from https://translatewiki.net.
+* core: The `Intuition::getAvailableLangs` method is now based on the current domain.
+  Previously, it only considered legacy domains that shipped with the library.
+* core: The `globalfunctions` option for `Krinkle\Intuition::__construct` is now disabled by default.
+
+### Removed
+
+* core: The `ToolStart.php` entry point has been removed. ([issue #101](https://github.com/Krinkle/intuition/issues/101))
+* core: Remove the un-namespaced `Intuition` and `TsIntuition` class aliases.
+  Deprecated since v0.5.0, use `Krinkle\Intuition` instead.
+
+### Fixed
+
+* core: The `Intuition::setUseRequestParam` method now always sets the given value.
+  Previously, it would silently ignored non-boolean values.
+
 ## v1.2.0 (2018-11-06)
 
 ### Changed
