@@ -3,7 +3,8 @@
 		"authors": [
 			"Anakmalaysia",
 			"Yekrats",
-			"KuboF"
+			"KuboF",
+			"Mirin"
 		]
 	},
 	"title-overview": "Arkivoj",
@@ -13,6 +14,7 @@
 	"title-downloadpage": "Elŝuti",
 	"title-downloadpage-repo": "Elŝuti $1",
 	"err-invalid-repo": "Nekonata dosierujon: \"$1\".",
+	"err-invalid-branch": "Nekonata branĉo: \"$1\" en deponejo \"$2\"",
 	"err-noupdatelog": "Neniu protokolo de ĝisdatigoj estis trovita.",
 	"repo-site-link": "Retejo",
 	"repo-browse-link": "Foliumi dosierujon",

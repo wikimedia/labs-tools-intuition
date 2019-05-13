@@ -3,12 +3,14 @@
 		"authors": [
 			"Anakmalaysia",
 			"Objectivesea",
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"attention": "Atentu",
 	"description": "Ilo por transloki dosierojn el vikimediajn projektojn al Vikimedia Komunejo",
 	"change_meta": "Ŝanĝu la $agordojn de kategorioj kaj ŝablonoj$2 por $3",
+	"jira_link": "Raporti cimon aŭ sugesti trajton",
 	"language": "Lingvo",
 	"project": "Projekto",
 	"source_file": "Fonta dosiero",
@@ -36,6 +38,7 @@
 	"error_bot_blocked": "Alŝutroboto estas malpermesita en Vikimedia Komunejo.",
 	"error_tusc_failed": "Kontrolo de TUSC nefaris!",
 	"error_only_commons": "Rekte alŝutu verkojn nur en Vikimedia Komunejo!",
+	"error_upload_file": "La originala dosiero ne povas alŝutiĝi.",
 	"help_mail": "Sendi retpoŝton al $1",
 	"help_commons": "$1Aldoni afiŝo en Komunejo$2"
 }

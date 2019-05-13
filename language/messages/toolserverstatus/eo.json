@@ -3,12 +3,22 @@
 		"authors": [
 			"Anakmalaysia",
 			"KuboF",
-			"Objectivesea"
+			"Objectivesea",
+			"Mirin"
 		]
 	},
+	"toolserver-status-ok": "Neniu problemo en datenbankaro $1 $2",
+	"toolserver-status-info": "Avizo por uzantoj de datenbankaro $1: $2",
+	"toolserver-status-warn": "Averto por uzantoj de datenbankaro $1: $2",
+	"toolserver-status-down": "Datenbankaro $1 estas portempe malstartinta. $2",
+	"toolserver-status-erro": "La datenbankaro $1 malstartis. $2",
 	"toolserver-status-unknown": "Nekonata stato de fasko $1",
 	"toolserver-status-missing": "La fasko $1 ne ekzistas.",
 	"toolserver-status-short-ok": "$1: Bone",
 	"toolserver-status-short-info": "$1: Informoj",
-	"toolserver-status-short-erro": "$1: Eraro"
+	"toolserver-status-short-warn": "$1: Averto",
+	"toolserver-status-short-down": "$1: Malstartinta",
+	"toolserver-status-short-erro": "$1: Eraro",
+	"toolserver-status-short-unknown": "$1: Nekonata",
+	"toolserver-status-short-missing": "$1: Mankas"
 }

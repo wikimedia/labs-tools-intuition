@@ -3,7 +3,8 @@
 		"authors": [
 			"محمد أحمد عبد الفتاح",
 			"Mr. Ibrahem",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"title": "فحص القالب وإلغاء التضمين",
@@ -24,7 +25,7 @@
 	"feedback-header-transclusions": "تضمينات القالب",
 	"feedback-header-links": "وصلات من القالب",
 	"link-edit": "عدل",
-	"link-create": "أنشأ",
+	"link-create": "إنشاء",
 	"link-complete": "التقرير الكامل ...",
 	"footer-stats": "توليد: $1. لمدة: $2 {{PLURAL:$2|ثانية|ثواني}}.",
 	"error-language": "كود لغة غير معروف."

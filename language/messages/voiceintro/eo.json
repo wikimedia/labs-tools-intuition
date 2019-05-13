@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Surbendigi",
+	"voiceintro-toolbar-stop-label": "Halti",
+	"voiceintro-toolbar-clear-label": "Forviŝi",
+	"voiceintro-toolbar-upload-label": "Alŝuti",
+	"voiceintro-webaudio-not-supported": "Via TTT-legilo ne subtenas la aplikprograminterfacon WebAudio",
+	"voiceintro-upload-publish-succeeded": "Surbendigitaĵo alŝutiĝis sukcese:",
+	"voiceintro-upload-publish-failed": "Surbendigitaĵo ne alŝutiĝis.",
+	"voiceintro-information-label": "Informo",
+	"voiceintro-information-speaker-label": "Nomo de parolanto:",
+	"voiceintro-information-language-label": "Lingvo:",
+	"voiceintro-mic-access-notify": "Alklaku \"Permesi\" por permesi la TTT-legilon uzi vian mikrofonon.",
+	"voiceintro-recording-notify": "Surbendiganta..."
+}

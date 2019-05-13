@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
+	"alws-label": "Vikio",
 	"alws-selectwiki": "(elektu vikion)",
 	"alws-group-mustused": "Plej uzataj vikioj",
 	"alws-group-allaz": "Ĉiuj vikioj laŭ alfabeta ordo",
