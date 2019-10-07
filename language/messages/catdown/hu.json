@@ -17,7 +17,7 @@
 	"no-such-project": "Nincs ilyen projekt",
 	"no-images": "Nincs kép a kategóriában",
 	"category-is-url": "A megadott kategória név úgy néz ki, mint egy URL. Egy kategória nevet kell megadni, nem az URL-ét.",
-	"category-contains-namespace": "Úgy tűnik, hogy a névteret is hozzávetted a kategória névhez. Az adott névvel a lap [[Category:$1]] módon lesz elérhető",
+	"category-contains-namespace": "Úgy tűnik, hogy a névteret is hozzávetted a kategória névhez. Az adott névvel a lap [[:Category:$1]] módon lesz elérhető",
 	"zip-failed": "Zip létrehozási hiba",
 	"image-area-too-big": "$1 túl nagy a bélyegkép létrehozásához. A teljes kép lesz használva.",
 	"download-info": "{{PLURAL:$1|Egy|$1}} kép, becsült összméret: $2",

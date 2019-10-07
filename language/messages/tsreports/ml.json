@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adithyak1997"
+		]
+	},
+	"category_users": "ഉപയോക്താക്കൾ",
+	"category_articles": "താളുകൾ",
+	"category_images": "ചിത്രങ്ങൾ",
+	"category_miscellaneous": "മറ്റുള്ളവ",
+	"category_wikidata": "വിക്കിഡേറ്റ",
+	"select_wiki_title": "ഒരു വിക്കി തിരഞ്ഞെടുക്കുക",
+	"select_wiki_next": "അടുത്തത് →",
+	"qvar_next": "അടുത്തത് →",
+	"prefs_submit": "ശരി",
+	"prefs_done": "താങ്കളുടെ സജ്ജീകരണങ്ങൾ മാറ്റിയിരിക്കുന്നു."
+}

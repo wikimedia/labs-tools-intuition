@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adithyak1997"
+		]
+	},
+	"apply": "ബാധകമാക്കുക",
+	"clear": "ശൂന്യമാക്കുക",
+	"close": "അടയ്ക്കുക",
+	"cvn-reason": "കാരണം",
+	"cvn-reason-empty": "കാരണങ്ങൾ കണ്ടെത്താനായില്ല",
+	"filter": "അരിപ്പ",
+	"filter-hideliu": "അംഗത്വമെടുത്തിട്ടുള്ളവരെ മറയ്ക്കുക",
+	"filter-hidebots": "യന്ത്രങ്ങളെ മറയ്ക്കുക",
+	"help": "സഹായം",
+	"helpicon-tooltip": "ഈ വിശേഷഗുണത്തെക്കുറിച്ച് കൂടുതൽ അറിയുക",
+	"lastupdate-cvn": "അവസാനം പുതുക്കിയത്: $1",
+	"lastupdate-rc": "അവസാനം പുതുക്കിയത്: $1",
+	"limit": "പരിധി",
+	"new-short": "പുതിയത്",
+	"open-in-wiki": "വിക്കിയിൽ തുറക്കുക",
+	"order": "ക്രമം",
+	"pause": "നിർത്തുക",
+	"reload-interval": "ഇടവേള",
+	"select-placeholder-none": "(ഒന്നുമില്ല)",
+	"showAnonOnly": "അജ്ഞാത ഉപയോക്താക്കൾ മാത്രം",
+	"skip": "മറികടക്കുക",
+	"skippededit": "മറികടന്ന തിരൂത്ത്",
+	"tag": "റ്റാഗ്",
+	"type": "തരം",
+	"typeEdit": "തിരുത്തുകൾ",
+	"typeNew": "പുതിയ താളുകൾ",
+	"userfilter": "ഉപയോക്ത അരിപ്പ"
+}

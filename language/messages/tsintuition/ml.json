@@ -1,11 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akhilan"
+			"Akhilan",
+			"Adithyak1997"
 		]
 	},
-	"settings-legend": "സജ്ജീകരണങ്ങൾ",
-	"tab-overview": "അവലോകനം",
-	"tab-settings": "സജ്ജീകരണങ്ങൾ",
-	"tab-about": "വിവരണം"
+	"bl-mysettings": "എന്റെ ഭാഷ സജ്ജീകരണങ്ങൾ",
+	"bl-mysettings-new": "ഭാഷ മാറ്റുക!"
 }

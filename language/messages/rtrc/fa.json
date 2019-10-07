@@ -8,7 +8,8 @@
 			"AzorAhai",
 			"Ebraminio",
 			"Dejavu",
-			"Huji"
+			"Huji",
+			"FarsiNevis"
 		]
 	},
 	"title": "تغییرات اخیر در زمان واقعی",
@@ -33,8 +34,8 @@
 	"filter-unpatrolled": "پنهان کردن ویرایش‌های گشت‌خورده",
 	"help": "راهنما",
 	"helpicon-tooltip": "دربارهٔ این ویژگی بیشتر مطالعه کنید",
-	"lastupdate-cvn": "آخرین به روز رسانی:$1",
-	"lastupdate-rc": "آخرین به روز رسانی:$1",
+	"lastupdate-cvn": "آخرین روزآمدسازی:$1",
+	"lastupdate-rc": "آخرین روزآمدسازی: $1",
 	"legend": "شرح علائم",
 	"license": "مجوز",
 	"limit": "محدودیت",

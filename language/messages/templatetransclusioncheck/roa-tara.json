@@ -4,7 +4,26 @@
 			"Joetaras"
 		]
 	},
+	"title": "Condrolle collegaminde e 'nglusione de le template",
+	"description": "Condrolle e elenghe ce vôsce ca 'ngludone 'n u certe template non ge sò pundate da le collegaminde jndr'à 'u template stesse, e ce vôsce ca sò pundate da le collegaminde jndr'à 'u template non g'u 'ngludone.",
+	"form-label-language": "Lènghe:",
+	"form-label-template": "Nome d'u template:",
+	"form-label-template2": "(namespace 'ngluse)",
+	"form-label-complete": "Genere 'nu resoconde comblete:",
+	"feedback-template-missing": "'U template $1 non g'esiste.",
+	"feedback-template-noaccess": "'U tempalte $1 pare ca esiste, ma non g'è disponibbele jndr'à 'u database. Pò essere 'nu probbleme temboranèe d'u database. Database ausate: $2.",
+	"feedback-result": "Resultate pe $1",
+	"feedback-header-mismatch": "No s'accocchiane 'nglusiune e collegaminde",
+	"feedback-header-no-link": "'Nglusiune senze collegamende",
+	"feedback-header-no-transclusion": "Collegaminde senze 'nglusione",
+	"feedback-header-redirects": "Collegaminde a redirezionaminde",
+	"feedback-total-count": "Totale: $1",
+	"feedback-header-complete": "Panorameche comblete de 'nglusiune e collegaminde",
+	"feedback-header-transclusions": "'Nglusiune d'u template",
+	"feedback-header-links": "Collegaminde d'u template",
 	"link-edit": "cange",
 	"link-create": "ccreje",
-	"link-complete": "Comblete 'u report..."
+	"link-complete": "Comblete 'u report...",
+	"footer-stats": "Generte: $1. Tiembe: $2 {{PLURAL:$2|seconde}}.",
+	"error-language": "Codece d'a lènghe scanosciute."
 }

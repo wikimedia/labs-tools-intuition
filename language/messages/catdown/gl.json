@@ -16,7 +16,7 @@
 	"no-such-project": "Ese proxecto non existe",
 	"no-images": "Non hai imaxes na categoría",
 	"category-is-url": "O nome da categoría especificado semella un enderezo URL. Cómpre especificar o nome da categoría, non o seu URL.",
-	"category-contains-namespace": "Semella que incluíu o espazo de nomes xunto ao nome da categoría. Co nome dado, a páxina estaría dispoñible en [[Category:$1]].",
+	"category-contains-namespace": "Semella que incluíu o espazo de nomes xunto ao nome da categoría. Co nome dado, a páxina estaría dispoñible en [[:Category:$1]].",
 	"zip-failed": "Erro na creación do ZIP",
 	"image-area-too-big": "\"$1\" é grande de máis para crear unha miniatura. Emprégase o tamaño completo.",
 	"download-info": "{{plural: $1|Hai unha imaxe|Hai $1 imaxes}}, cun tamaño estimado de $2",

@@ -7,10 +7,12 @@
 		]
 	},
 	"enter-details": "Enmetu detalojn",
+	"introduction": "Entajpu la nomon de ŝablono (nur por Vikipedioj aktuale), kaj alklaku Ek. Estas tiel simple. Estas iom da kaŝmemorigo (rememorado de rezultoj), sed tion, domaĝe, ne povas ŝanĝi ĉi tiu ilo kaj ĝia posedanto.",
 	"language-label": "Lingvo",
 	"namespace-label": "Nomspaco",
 	"pagename-label": "Paĝnomo (escepti nomspaco)",
-	"transclusion-count": "$1 transkludo(j) trovita(j).",
+	"transclusion-count-label": "Nombro de inkludoj",
+	"transclusion-count": "$1 inkludo(j) trovita(j).",
 	"error-suggestion": "Eble vi mistajpis la nomon de la paĝo (aŭ uzis malĝustan usklon)?",
 	"time-label": "Tempo bezonata por ekzekuti komando"
 }

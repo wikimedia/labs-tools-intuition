@@ -16,7 +16,7 @@
 	"no-such-project": "Iste projecto non existe",
 	"no-images": "Il non ha imagines in iste categoria",
 	"category-is-url": "Le nomine de categoria specificate resimila un adresse URL. Es necessari specificar le nomine del categoria, non su URL.",
-	"category-contains-namespace": "Il sembla que tu ha includite le spatio de nomines con le nomine del categoria. Con le nomine specificate, le pagina esserea disponibile a [[Category:$1]].",
+	"category-contains-namespace": "Il sembla que tu ha includite le spatio de nomines con le nomine del categoria. Con le nomine specificate, le pagina esserea disponibile a [[:Category:$1]].",
 	"zip-failed": "Creation del archivo ZIP fallite",
 	"image-area-too-big": "$1 es troppo grande pro crear un miniatura. Le dimension complete es usate.",
 	"download-info": "{{plural: $1|Il ha un imagine|Il ha $1 imagines}}, con un dimension estimate de $2",

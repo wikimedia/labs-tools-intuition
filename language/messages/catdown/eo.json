@@ -3,7 +3,8 @@
 		"authors": [
 			"Anakmalaysia",
 			"Objectivesea",
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"title": "Elŝuti de bildoj laŭ kategorio",
@@ -23,5 +24,10 @@
 	"image-area-too-big": "$1 estas tro granda por krei eta versio. Uzante plenan grandecon.",
 	"download-info": "{{plural: $1|Estas unu bildo|Estas $1 bildoj}}, kun proksima grandeco $2",
 	"download": "Elŝuti",
-	"non-bundled-wget": "Ĉi tiu versio ne inkludas wget por Windows.\nVi bezonas malkompaktigi ĝin al dosierujo kun wget.exe aŭ alie havas wget-on en la PATH."
+	"readme-contents": "La enfermanta dosiero $4 listas\nla bildojn ĉe la kategorio $1 ( $2 )$3.\n\n== Instrukcio por elŝuti ĉiujn bildojn en listo ==\nLa elŝuto daŭros eble kelkajn minutojn aŭ kelkajn horojn.\n\nWindows:\n Elpaku ĉiujn dosierojn en la saman dosierujon, kaj rulu: $5\n $6\nLinux/macOS:\n Elpaku ĉiujn dosierojn. Malfermu terminalon en la dosierujo. Rulu: sh $5",
+	"non-bundled-wget": "Ĉi tiu versio ne inkludas wget por Windows.\nVi bezonas malkompaktigi ĝin al dosierujo kun wget.exe aŭ alie havas wget-on en la PATH.",
+	"wget-info": "Ĉi tiu dosiero kunpakas kopion de wget $1 (por Windows). La programaro wget estas libera programaro, laŭ la Ĝenerala Publika Permesilo de GNU, versio 3.\nJen kopio de la permesilo ĉi-sube; ĝi estas ankaŭ havebla ĉe http://www.gnu.org/licenses/gpl-3.0.txt\n\nSe vi volas akiri la fontokodon de ĉi tiu programaro, vi povas elŝuti ĝin el\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\naŭ alia spegulretejo de GNU; vidu\n http://www.gnu.org/prep/ftp.html",
+	"scaling-width": ", malgrandigita al la maksimuma larĝo de $1 {{plural:$1|bildero|bilderoj}}",
+	"scaling-height": ", malgrandigita al la maksimuma alto de $1 {{plural:$1|bildero|bilderoj}}",
+	"scaling-both": ", malgrandigita al la maksimuma grando de $1×$2 bilderoj"
 }

@@ -18,7 +18,7 @@
 	"no-such-project": "Brak takiego projektu",
 	"no-images": "W wybranej kategorii nie ma grafik",
 	"category-is-url": "Wybrana nazwa kategorii wygląda jak adres internetowy. Musisz podać nazwę kategorii, a nie jej adres w Internecie.",
-	"category-contains-namespace": "Wygląda na to, że w nazwie kategorii jest nazwa przestrzeni nazw. Z zadaną nazwą strona byłaby dostępna jako [[Category:$1]].",
+	"category-contains-namespace": "Wygląda na to, że w nazwie kategorii jest nazwa przestrzeni nazw. Z zadaną nazwą strona byłaby dostępna jako [[:Category:$1]].",
 	"zip-failed": "Błąd utworzenia archiwum w formacie ZIP",
 	"image-area-too-big": "Grafika $1 jest zbyt duża, aby utworzyć miniaturkę. Zostanie użyta w pełnym rozmiarze.",
 	"download-info": "{{PLURAL:$1|Jest jedna grafika|Są $1 grafiki|Jest $1 grafik}} o szacowanej wielkości $2",

@@ -17,7 +17,7 @@
 	"no-such-project": "Takšen projekt ne obstaja",
 	"no-images": "V tej kategoriji ni slik",
 	"category-is-url": "Podano ime kategorije izgleda kot URL. Navesti morate ime kategorije, ne njen URL.",
-	"category-contains-namespace": "Zdi se, da ste poleg imena kategorije vključili tudi imenski prostor. Z navedenim imenom bo stran na razpolago kot [[Category:$1]].",
+	"category-contains-namespace": "Zdi se, da ste poleg imena kategorije vključili tudi imenski prostor. Z navedenim imenom bo stran na razpolago kot [[:Category:$1]].",
 	"zip-failed": "Ustvarjanje zipa je spodletelo",
 	"image-area-too-big": "$1 je prevelika za ustvarjanje sličice. Uporabljena bo polna velikost.",
 	"download-info": "{{PLURAL:$1|Obstaja $1 slika|Obstajata $1 sliki|Obstajajo $1 slike|Obstaja $1 slik}}, z velikostjo ocenjeno na $2",

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cblair91"
+		]
+	},
+	"alws-label": "Wiki",
+	"alws-selectwiki": "(select wiki)",
+	"alws-group-mustused": "Most used wikis",
+	"alws-group-allaz": "All wikis alphabetically",
+	"form-legend-settings": "Settings"
+}

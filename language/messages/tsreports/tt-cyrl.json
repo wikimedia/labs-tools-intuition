@@ -1,8 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ерней"
 		]
 	},
-	"category_wikidata": "Викимәгълүмат"
+	"base_prefslink": "<a href=\"prefs.fcgi\">Телне үзгәртү / көйләнмәләр</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Вики</a>",
+	"category_users": "Кулланучылар",
+	"category_articles": "Битләр",
+	"category_images": "Сурәтләр",
+	"category_miscellaneous": "Башка",
+	"category_wikidata": "Викимәгълүмат",
+	"select_wiki_title": "Викины сайлагыз",
+	"select_wiki_next": "Алга таба →",
+	"select_report_go_back": "← Викины үзгәртү",
+	"qvar_next": "Алга таба →",
+	"prefs_submit": "Ярар",
+	"prefs_langlabel": "Интерфейс теле:"
 }

@@ -17,7 +17,7 @@
 	"no-such-project": "そのようなプロジェクトはありません",
 	"no-images": "そのカテゴリには画像がありません",
 	"category-is-url": "指定されたカテゴリ名は URL のようです。URL ではなくカテゴリ名を指定してください。",
-	"category-contains-namespace": "カテゴリ名に名前空間が含まれているようです。指定の通りだと [[Category:$1]] というページになります。",
+	"category-contains-namespace": "カテゴリ名に名前空間が含まれているようです。指定の通りだと [[:Category:$1]] というページになります。",
 	"zip-failed": "ZIP の作成に失敗しました",
 	"image-area-too-big": "$1 は大きすぎるためサムネイルを作成できません。元の大きさを利用します。",
 	"download-info": "{{plural: $1|1個|$1個}}の画像があり、サイズの概算は$2です",

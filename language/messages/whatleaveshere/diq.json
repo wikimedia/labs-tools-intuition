@@ -3,16 +3,21 @@
 		"authors": [
 			"Kumkumuk",
 			"Mirzali",
-			"Asmen"
+			"Asmen",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"title": "Pele rê gıreyi",
 	"title-leaveshere": "Perer rê $1 ra gırey",
+	"sub-leaveshere": "$1 ra pelê ke teqib benê",
 	"label-page": "Pele",
 	"label-namespace": "Heruna nameyan",
 	"label-limit": "بريد",
 	"namespacesall": "pêro",
 	"button-submit": "Şo",
+	"noleaveshere": "$1 ra gıreyi çıniyê",
+	"link-whatleaveshere": "Pele rê gıreyi",
+	"tooltip-whatleaveshere": "Lista heme çiyana ke tiya ra gıre bena",
 	"whatlinkshere": "Pele rê gıreyi",
 	"whatlinkshere-whatleaveshere": "Pele rê gırey?",
 	"istemplate": "Açarnayene",

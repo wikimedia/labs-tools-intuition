@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Tititou36"
+			"Tititou36",
+			"Urhixidur"
 		]
 	},
 	"title-overview": "Instantanés",
@@ -17,7 +18,7 @@
 	"err-invalid-repo": "Dépôt inconnu: \"$1\".",
 	"err-invalid-branch": "Branche inconnue: \"$1\" dans le dépôt \"$2\".",
 	"err-nosnapshot": "Les instantanés sont générés toutes les quelques heures. Lors de la génération de l'instantané pour \"$1\", une erreur s'est produite. Veuillez réessayer ultérieurement.",
-	"err-noupdatelog": "Aucun journal de mise à jour n'a été trouvé.",
+	"err-noupdatelog": "Aucun journal de mise à jour n’a été trouvé.",
 	"repo-site-link": "Site web",
 	"repo-browse-link": "Naviguer dans le dépôt",
 	"repo-branches-label": "Branches:",

@@ -17,7 +17,7 @@
 	"no-such-project": "Tidak ada proyek seperti itu",
 	"no-images": "Tidak ada gambar di kategori tersebut",
 	"category-is-url": "Nama kategori yang dimasukkan tampak seperti URL. Anda perlu memasukkan nama kategorinya, bukan URL-nya.",
-	"category-contains-namespace": "Anda tampaknya memasukkan ruang sama beserta nama kategorinya. Dengan nama seperti itu, halaman ini akan tertampil sebagai [[Category:$1]].",
+	"category-contains-namespace": "Anda tampaknya memasukkan ruang sama beserta nama kategorinya. Dengan nama seperti itu, halaman ini akan tertampil sebagai [[:Category:$1]].",
 	"zip-failed": "Pembuatan zip gagal",
 	"image-area-too-big": "$1 terlalu besar untuk dijadikan gambar ini. Pakai ukuran penuh.",
 	"download-info": "{{plural: $1|Ada satu gambar|Ada $1 gambar}}, dengan ukuran kira-kira $2",

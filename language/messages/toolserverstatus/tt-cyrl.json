@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ерней"
+		]
+	},
+	"toolserver-status-short-ok": "$1: Ярар",
+	"toolserver-status-short-info": "$1: Мәгълүмат",
+	"toolserver-status-short-erro": "$1: Хата",
+	"toolserver-status-short-unknown": "$1: Билгесез"
+}

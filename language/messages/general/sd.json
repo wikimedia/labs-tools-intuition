@@ -19,5 +19,6 @@
 	"minutes": "{{PLURAL: $1|منٽ}}{{PLURAL: $1|}}",
 	"seconds": "{{PLURAL: $1|سيڪنڊ}}",
 	"last-modified-date": "آخري دفعو سنواريل: $1",
-	"view-source": "ذريعو ڏسو"
+	"view-source": "ذريعو ڏسو",
+	"and": "&#32;۽"
 }

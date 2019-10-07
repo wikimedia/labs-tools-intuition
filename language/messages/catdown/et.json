@@ -17,7 +17,7 @@
 	"no-such-project": "Sellist projekti ei ole",
 	"no-images": "Selles kategoorias ei ole pilte",
 	"category-is-url": "Toodud kategooria nimi meenutab internetiaadressi. Määrata tuleb kategooria nimi, mitte selle internetiaadress.",
-	"category-contains-namespace": "Paistab, et oled kategooria nime juurde lisanud nimeruumi. Sellise nimega asuks kategooria leheküljel [[Category:$1]].",
+	"category-contains-namespace": "Paistab, et oled kategooria nime juurde lisanud nimeruumi. Sellise nimega asuks kategooria leheküljel [[:Category:$1]].",
 	"zip-failed": "ZIP-faili loomine nurjus",
 	"image-area-too-big": "$1 on pisipildi loomiseks liiga suur. Kasutatakse täissuurust.",
 	"download-info": "{{plural:$1|Üks pilt|$1 pilti}} hinnangulise suurusega $2",

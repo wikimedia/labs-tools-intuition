@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cblair91"
+		]
+	},
+	"description": "Meta information about Wikimedia wikis.",
+	"formats-heading": "Output formats",
+	"input": "Input",
+	"label-wikiids": "Wiki identifiers",
+	"no-matches": "Nothing matched \"$1\"",
+	"output": "Output for \"$1\""
+}

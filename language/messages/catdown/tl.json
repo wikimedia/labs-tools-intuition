@@ -17,7 +17,7 @@
 	"no-such-project": "Walang ganyang proyekto",
 	"no-images": "Walang mga larawan sa loob ng kategoryang iyan",
 	"category-is-url": "Ang ibinigay na pangalan ng kategorya ay tila isang URL. Kailangan mong tukuyin ang pangalan ng kategorya, hindi ang URL nito.",
-	"category-contains-namespace": "Tila isinama mo ang puwang ng pangalan sa piling ng pangalan ng kategorya. Sa pamamagitan ng ibinigay na pangalan, ang pahina ay makukuha bilang [[Category:$1]].",
+	"category-contains-namespace": "Tila isinama mo ang puwang ng pangalan sa piling ng pangalan ng kategorya. Sa pamamagitan ng ibinigay na pangalan, ang pahina ay makukuha bilang [[:Category:$1]].",
 	"zip-failed": "Nabigo ang paglikha ng zip",
 	"image-area-too-big": "Napakalaki ng $1 upang makalikha ng isang kagyat. Ginagamit ang buong sukat.",
 	"download-info": "{{plural: $1|Mayroong isang larawan|Mayroong $1 mga larawan}}, na tinatayang may sukat na $2",

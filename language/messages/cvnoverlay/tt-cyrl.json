@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ерней"
+		]
+	},
+	"adder": "Өстәүче",
+	"adder-empty": "Билгесез",
+	"expiry": "Тәмамлана",
+	"globalwatched": "Барлык викиларда күзәтелә",
+	"reason": "Сәбәп",
+	"reason-empty": "Сәбәп табылмады"
+}

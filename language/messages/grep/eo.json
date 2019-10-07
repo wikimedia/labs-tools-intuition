@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"KuboF"
+			"KuboF",
+			"Mirin"
 		]
 	},
+	"title": "\"grep\" por artikola titolo (beta-versia)",
+	"introduction": "Ĉi tiu ilo montras ĉiujn artikolajn titolojn kongruajn kun regula esprimo ($1). Serĉado per regula esprimo postulas multe da rimedoj. Laŭble, uzu la markojn por prefiksoj (^) kaj sufiksoj ($).",
 	"explanation": "klarigo",
 	"regex": "Regula esprimo",
 	"enter-details": "Enmetu detalojn",
@@ -14,5 +17,6 @@
 	"pattern-label": "Modelo",
 	"redirects-label": "Inkluzivi alidirektilojn",
 	"limit-label": "Limigi montron al la unuaj 100 rezultoj",
-	"error-zeroresults": "En tiu ĉi nomspaco ne estas paĝoj, kies titolo kongruas kun via regula esprimo."
+	"error-zeroresults": "En tiu ĉi nomspaco ne estas paĝoj, kies titolo kongruas kun via regula esprimo.",
+	"match-count": "{{PLURAL:$1|$1 paĝo|$1 paĝoj}} kongruas kun via regula esprimo."
 }

@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jdforrester"
+			"Jdforrester",
+			"Cblair91"
 		]
 	},
-	"fullname": "Internationalisation for tools"
+	"bl-mysettings": "My language settings",
+	"bl-mysettings-new": "Change language!",
+	"bl-promo": "Translations are powered by $1 and $2.",
+	"bl-changelanguage": "Change the interface language of this tool.",
+	"help-translate-tool": "Help translate this tool!",
+	"help-translate-all": "Help translate tools!",
+	"help-translate-tooltip": "Help others by translating interface messages into your language."
 }

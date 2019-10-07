@@ -6,7 +6,8 @@
 			"Striking Blue",
 			"Seunei",
 			"Kaganer",
-			"Irus"
+			"Irus",
+			"Movses"
 		]
 	},
 	"records": "набор",
@@ -120,7 +121,7 @@
 	"linechart_filled": "Линейный график заполнен",
 	"isRedirect": "Это страница перенаправления",
 	"disambPage": "Неоднозначность",
-	"showRedir": "Скрыть перенаправления",
+	"showRedir": "Показать перенаправления",
 	"searchVariants": "Поиск вариантов",
 	"addToWorkList": "добавить в список работ",
 	"removeFromWorklist": "удалить из списка работ",

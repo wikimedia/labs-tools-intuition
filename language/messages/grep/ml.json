@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adithyak1997"
+		]
+	},
+	"explanation": "വിശദീകരണം",
+	"regex": "റെഗുലർ എക്സ്പ്രഷൻ",
+	"enter-details": "വിവരങ്ങൾ ചേർക്കുക",
+	"results": "ഫലങ്ങൾ",
+	"language-label": "ഭാഷ",
+	"namespace-label": "നാമമേഖല",
+	"project-label": "പദ്ധതി",
+	"pattern-label": "ശ്രേണി",
+	"redirects-label": "തിരിച്ചുവിടലുകൾ ഉൾപ്പെടുത്തുക"
+}
