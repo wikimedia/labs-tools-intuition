@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"title": "Malli linkide ja kasutuse kontroll",
+	"description": "Väljastab aruande selle kohta, millised artiklid, mis malli kasutavad, ei ole mallist lingitud ning millistes artiklites, millele mallist lingitakse, ei ole mall kasutuses.",
+	"form-label-language": "Keel:",
+	"form-label-template": "Malli nimi:",
+	"form-label-template2": "(ka nimeruum)",
+	"form-label-complete": "Väljasta täielik aruanne:",
+	"feedback-template-missing": "Lehekülge $1 pole olemas.",
+	"feedback-template-noaccess": "Paistab, et $1 on olemas, aga see ei ole andmebaasis saadaval. Tegu võib olla ajutise probleemiga andmebaasis. Kasutatud andmebaas: $2.",
+	"feedback-result": "Tulemused lehekülje $1 kohta",
+	"feedback-header-mismatch": "Kasutuse ja linkide mittevastavus",
+	"feedback-header-no-link": "Kasutusel, aga link puudub",
+	"feedback-header-no-transclusion": "Lingitud, aga kasutamata",
+	"feedback-header-redirects": "Link ümbersuunamisele",
+	"feedback-total-count": "Kokku: $1",
+	"feedback-header-complete": "Täielik kasutuse ja linkide ülevaade",
+	"feedback-header-transclusions": "Malli kasutused",
+	"feedback-header-links": "Lingid mallis",
+	"link-edit": "redigeeri",
+	"link-create": "alusta",
+	"link-complete": "Täielik aruanne...",
+	"footer-stats": "Väljastatud: $1. Ajakasutus: $2 {{PLURAL:$2|sekund|sekundit}}.",
+	"error-language": "Tundmatu keelekood."
+}

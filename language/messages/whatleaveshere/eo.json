@@ -4,7 +4,24 @@
 			"Mirin"
 		]
 	},
+	"title": "Kion ĉi tiu ligas",
+	"title-leaveshere": "Ligiloj en \"$1\"",
+	"sub-leaveshere": "La jenaj paĝoj ligiĝas el $1",
 	"label-page": "Paĝo",
 	"label-namespace": "Nomspaco",
-	"namespacesall": "ĉio"
+	"label-limit": "Limo",
+	"namespacesall": "ĉio",
+	"button-submit": "Ek",
+	"noleaveshere": "La paĝo $1 ne enhavas ligilojn",
+	"link-whatleaveshere": "Kion ĉi tiu ligas",
+	"tooltip-whatleaveshere": "Listo de ĉiuj ligataj de ĉi tiu paĝo",
+	"whatlinkshere": "Kio ligas ĉi tien",
+	"whatlinkshere-whatleaveshere": "Kion ĉi tiu ligas?",
+	"istemplate": "inkludo",
+	"isfile": "dosiera ligilo",
+	"linksearch": "LigiloSerĉo",
+	"section-links": "Ligiloj",
+	"section-iwlinks": "intervikiaj ligiloj",
+	"section-extlinks": "Eksteraj ligiloj",
+	"section-categories": "Kategorioj"
 }

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ерней"
+		]
+	},
+	"sub-leaveshere": "$1 дан түбәндәге битләр сылтаналар",
+	"label-page": "Бит",
+	"label-namespace": "Исемнәр киңлеге",
+	"label-limit": "Чикләмә",
+	"namespacesall": "барысы",
+	"button-submit": "Башкару",
+	"noleaveshere": "$1 дан бернәрсә дә сылтамый",
+	"tooltip-whatleaveshere": "Биредән нәрсә сылтый барлыгының исемлеге",
+	"whatlinkshere": "Бирегә нәрсә сылтый",
+	"isfile": "файл сылтамасы",
+	"linksearch": "LinkSearch",
+	"section-links": "Сылтамалар",
+	"section-iwlinks": "Интервики сылтамалары",
+	"section-extlinks": "Тышкы сылтамалар",
+	"section-categories": "Төркемнәр"
+}

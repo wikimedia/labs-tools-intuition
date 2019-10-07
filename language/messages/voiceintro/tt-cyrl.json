@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ерней"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Язып алу",
+	"voiceintro-toolbar-stop-label": "Туктату",
+	"voiceintro-toolbar-clear-label": "Бушату",
+	"voiceintro-toolbar-upload-label": "Төяү",
+	"voiceintro-upload-publish-succeeded": "Язма уңышлы төялде:",
+	"voiceintro-upload-publish-failed": "Язма төялмәде.",
+	"voiceintro-information-label": "Мәгълүмат",
+	"voiceintro-information-speaker-label": "Сөйләүченең исеме:",
+	"voiceintro-information-language-label": "Тел:",
+	"voiceintro-mic-access-notify": "Браузерга сезнең микрофоныгыздан файдаланырга рөхсәт алу өчен «Рөхсәт итү» төймәсегә чиртегез.",
+	"voiceintro-recording-notify": "Язып алу бара…"
+}

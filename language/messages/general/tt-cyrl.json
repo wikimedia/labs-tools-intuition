@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ерней"
+		]
+	},
+	"hello": "Сәлам",
+	"welcome": "Рәхим итегез",
+	"toolversion": "Чыгарылыш $1",
+	"toolversionstamp": "Чыгарылыш $1 ($2)",
+	"etc": "һ.б.",
+	"namespace": "Исемнәр киңлеге",
+	"form-submit": "Күчү",
+	"form-reset": "Кире кую",
+	"years": "{{PLURAL: $1|ел}}",
+	"months": "{{PLURAL: $1|ай}}",
+	"weeks": "{{PLURAL: $1|атна}}",
+	"days": "{{PLURAL: $1|көн}}",
+	"hours": "{{PLURAL: $1|сәгать}}",
+	"minutes": "{{PLURAL: $1|минут}}",
+	"seconds": "{{PLURAL: $1|секунд}}",
+	"last-modified-date": "Соңгы үзгәреш вакыты: $1",
+	"view-source": "Чыганакны карау",
+	"and": "&#32;һәм"
+}

@@ -16,7 +16,7 @@
 	"no-such-project": "Das angegebene Projekt ist nicht vorhanden.",
 	"no-images": "In dieser Kategorie sind keine Bilder enthalten.",
 	"category-is-url": "Der angegebenen Kategorienamen scheint eine URL zu sein. Bitte den Kategorienamen und nicht dessen URL angeben.",
-	"category-contains-namespace": "Du scheinst neben dem Kategorienamen auch die Namensraumbezeichnung angegeben zu haben. Mit dem angegebene Namen würde die Seite als [[Category:$1]] verfügbar sein.",
+	"category-contains-namespace": "Du scheinst neben dem Kategorienamen auch die Namensraumbezeichnung angegeben zu haben. Mit dem angegebene Namen würde die Seite als [[:Category:$1]] verfügbar sein.",
 	"zip-failed": "ZIP-Erstellung fehlgeschlagen",
 	"image-area-too-big": "$1 ist zu groß, um eine Miniaturansicht erstellen zu können. Daher wird die volle Bildgröße genutzt.",
 	"download-info": "{{PLURAL:$1|Es ist ein Bild|Es sind $1 Bilder}} mit eine geschätzten Gesamtgröße von $2 vorhanden.",

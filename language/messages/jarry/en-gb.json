@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cblair91"
+		]
+	},
+	"moretools": "more tools",
+	"homepage-title": "Introduction",
+	"bugs": "bug reports and feature requests",
+	"comments": "comments and queries",
+	"error-form-empty": "One or more required fields have been left blank. You should complete them before continuing."
+}

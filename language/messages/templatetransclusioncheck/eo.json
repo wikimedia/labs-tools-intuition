@@ -4,13 +4,26 @@
 			"Mirin"
 		]
 	},
+	"title": "Ŝablona ligada kaj inkluda kontrolo",
+	"description": "Kontrolas artikolojn aŭ inkludantajn ŝablonon sen ligado aŭ ligatajn el ŝablono sen inkludo, kaj raportas pri tiuj.",
 	"form-label-language": "Lingvo:",
 	"form-label-template": "Nomo de ŝablono:",
 	"form-label-template2": "(inkluzive de nomspaco)",
+	"form-label-complete": "Fari kompletan raporton:",
 	"feedback-template-missing": "Ŝablono $1 ne ekzistas.",
+	"feedback-template-noaccess": "Ŝablono $1 ŝajne ekzistas, sed ne estas havebla en la datenbanko. Tio eble estas portempa problemo pri la datenbanko. Datenbanko uzata: $2.",
 	"feedback-result": "Rezultoj pri $1",
+	"feedback-header-mismatch": "Malkongruo inter inkludoj kaj ligiloj",
+	"feedback-header-no-link": "Inkludo, sed sen ligilo",
+	"feedback-header-no-transclusion": "Ligilo, sed sen inkludo",
+	"feedback-header-redirects": "Ligillj al alidirektigiloj",
+	"feedback-total-count": "Sumo: $1",
+	"feedback-header-complete": "Kompleta superrigardo pri inkludoj kaj ligiloj",
+	"feedback-header-transclusions": "Inkludoj de la ŝablono",
+	"feedback-header-links": "Ligiloj el la ŝablono",
 	"link-edit": "redakti",
 	"link-create": "krei",
 	"link-complete": "Kompleta raporto...",
+	"footer-stats": "Farita: $1. Daŭro: $2 {{PLURAL:$2|sekundo|sekundoj}}.",
 	"error-language": "Nekonata lingvokodo."
 }

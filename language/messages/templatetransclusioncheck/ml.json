@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Santhosh.thottingal"
+			"Santhosh.thottingal",
+			"Adithyak1997"
 		]
 	},
-	"feedback-total-count": "മൊത്തം: $1"
+	"form-label-language": "ഭാഷ:",
+	"form-label-template": "ഫലകത്തിന്റെ പേര്‌:",
+	"form-label-template2": "(നാമമേഖല ഉൾപ്പെടെ)",
+	"feedback-result": "$1 നുള്ള ഫലങ്ങൾ",
+	"feedback-total-count": "മൊത്തം: $1",
+	"link-edit": "തിരുത്തുക",
+	"link-create": "സൃഷ്ടിക്കുക"
 }

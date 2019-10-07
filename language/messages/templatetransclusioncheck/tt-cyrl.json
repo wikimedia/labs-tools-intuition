@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ерней"
+		]
+	},
+	"form-label-language": "Тел:",
+	"form-label-template": "Калып исеме:",
+	"form-label-template2": "(исемнәр киңлегене кертеп)",
+	"feedback-template-missing": "$1 калыбы барлыкта юк.",
+	"feedback-total-count": "Барлыгы: $1",
+	"feedback-header-links": "Калыптан сылтамалар",
+	"link-edit": "үзгәртү",
+	"link-create": "төзү",
+	"error-language": "Билгесез тел коды."
+}

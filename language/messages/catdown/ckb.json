@@ -1,10 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Muhammed taha"
+			"Muhammed taha",
+			"ئارام بکر"
 		]
 	},
 	"project": "پرۆژە:",
 	"category": "پۆل:",
+	"max-width": "ئەوپەڕی پانی:",
+	"max-height": "ئەوپەڕی بەرزی:",
+	"invalid-width": "پانیی دروست",
+	"invalid-height": "بەرزیی دروست",
 	"download": "دایبگرە"
 }

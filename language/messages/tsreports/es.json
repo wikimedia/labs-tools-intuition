@@ -22,7 +22,7 @@
 	"select_report_disabled_blurb": "Nota: los reportes <span class=\"disabled-report\">como este</span> son consultas nocturnas que nunca se ejecutaron. Por lo tanto, n ohay resultados disponibles para estos reportes. Una vez que termine el próximo reporte nocturno, estos reportes estarán disponibles.",
 	"select_report_not_cached": "No hay ninguna versión en caché de este reporte. Sigue el enlace para iniciar la primera ejecución.",
 	"select_report_first": "Este reporte se preparó por primera vez, y pronto estará disponible.",
-	"select_report_hot": "Existe una versión en caché de este reporte, de hace %(edad)s.",
+	"select_report_hot": "Existe una versión en la antememoria de este informe, de hace %(age)s.",
 	"select_report_cold_running": "Existe una versión en caché de este reporte, de hace %(edad)s. Se espera una versión nueva en %(eta)s.",
 	"select_report_cold_not_running": "Existe una versión en caché de este reporte, de hace %(edad)s. Se preparará una versión nueva si ves el reporte actual, y estará listo en %(eta)s aproximadamente.",
 	"select_report_no_reports": "No hay reportes disponibles para %(wiki)s por el momento.",

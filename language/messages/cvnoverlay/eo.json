@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"KuboF"
+			"KuboF",
+			"Mirin"
 		]
 	},
 	"adder": "Aldonita",
 	"adder-empty": "Nekonata",
+	"expiry": "Eksvalidiĝo",
+	"globalwatched": "Malloke priatentata",
 	"reason": "Kialo",
 	"reason-empty": "Neniu kialo trovita"
 }

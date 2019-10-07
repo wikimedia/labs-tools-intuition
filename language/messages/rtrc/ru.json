@@ -6,7 +6,8 @@
 			"Irus",
 			"Nitch",
 			"Redredsonia",
-			"Facenapalm"
+			"Facenapalm",
+			"Movses"
 		]
 	},
 	"title": "Последние изменения в режиме реального времени",
@@ -26,9 +27,9 @@
 	"documentation": "Документация",
 	"feedback": "Обратная связь",
 	"filter": "Фильтр",
-	"filter-hideliu": "Скрывать зарегистрированные пользователи",
+	"filter-hideliu": "Скрывать зарегистрированных пользователей",
 	"filter-hidebots": "Скрыть ботов",
-	"filter-unpatrolled": "Скрыть патрулировал правки",
+	"filter-unpatrolled": "Скрыть патрулированные правки",
 	"help": "Справка",
 	"helpicon-tooltip": "Подробнее об этой функции",
 	"lastupdate-cvn": "Последнее обновление: $1",

@@ -16,7 +16,7 @@
 	"no-such-project": "Projekt njeeksistuje",
 	"no-images": "W tej kategoriji wobrazy njejsu",
 	"category-is-url": "Podata kategorija wupada kaž URL. Dyrbiš mjeno kategorije podać, nic jeje URL.",
-	"category-contains-namespace": "Zda so, zo mjenowy rum z mjenom kategorije zapřijał. Z podatym mjenom by strona jako [[Category:$1]] k dispoziciji stała.",
+	"category-contains-namespace": "Zda so, zo mjenowy rum z mjenom kategorije zapřijał. Z podatym mjenom by strona jako [[:Category:$1]] k dispoziciji stała.",
 	"zip-failed": "Zip-wutworjenje je so njeporadźiło",
 	"image-area-too-big": "$1 je přewulki, zo by minaturny wobraz wutworił. Tohodla so połna wulkosć wužiwa.",
 	"download-info": "{{plural: $1|Je jedyn wobraz|Stej $1 wobrazaj|Su $1 wobrazy|Je $1 wobrazow}}, z powobličenej wulkosću $2",

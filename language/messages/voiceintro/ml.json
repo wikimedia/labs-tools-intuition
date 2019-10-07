@@ -1,5 +1,13 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Adithyak1997"
+		]
+	},
+	"voiceintro-toolbar-record-label": "ശേഖരിക്കുക",
+	"voiceintro-toolbar-stop-label": "നിർത്തുക",
+	"voiceintro-toolbar-clear-label": "ശൂന്യമാക്കുക",
+	"voiceintro-toolbar-upload-label": "അപ്‌‌ലോഡ് ചെയ്യുക",
 	"voiceintro-information-language-label": "ഭാഷ:",
 	"voiceintro-recording-notify": "റെക്കോഡിങ്ങ്..."
 }

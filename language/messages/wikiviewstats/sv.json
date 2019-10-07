@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Jopparn",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Mjälten"
 		]
 	},
-	"records": "dataset",
+	"records": "dataregister",
 	"list": "Lista",
 	"sample": "Exempel",
 	"hits": "träffar",

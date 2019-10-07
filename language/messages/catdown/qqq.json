@@ -5,7 +5,8 @@
 			"Fryed-peach",
 			"Krinkle",
 			"Shirayuki",
-			"Siebrand"
+			"Siebrand",
+			"Verdy p"
 		]
 	},
 	"title": "Title for the tool",
@@ -20,7 +21,7 @@
 	"no-such-project": "Error given for wrong project (eg. 'qwerty.wikipedia')",
 	"no-images": "Shown when the category doesn't have any files",
 	"category-is-url": "Shown when a full URL is given as category name",
-	"category-contains-namespace": "Shown when a category with namespace is given as category. Paramters:\n* $1: Given category name.",
+	"category-contains-namespace": "Shown when a category with namespace is given as category. Parameters:\n* $1: Given category name.\n'''FIXME''': the link to the category should have a leading colon (:) after the double opening brackets; otherwise it categorizes the cuirrent page showing that message and leaves the sentence incomplete.",
 	"zip-failed": "Generic error for when the zip creation failed",
 	"image-area-too-big": "Shown when an image cannot be thumbnailed. See http://www.mediawiki.org/wiki/Manual:$wgMaxImageArea\nParameters: $1: Name of the image",
 	"download-info": "Information shown on the download page. Parameters:\n* $1: Number of images.\n* $2: Estimated size of all the files in the system (in which unit?)",

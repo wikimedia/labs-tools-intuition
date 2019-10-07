@@ -4,5 +4,7 @@
 			"StanProg"
 		]
 	},
+	"category_wikidata": "Уикиданни",
+	"select_wiki_next": "Следваща →",
 	"prefs_langlabel": "Език на интерфейса:"
 }

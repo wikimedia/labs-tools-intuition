@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
-			"MohandesWiki"
+			"MohandesWiki",
+			"Ahmad252",
+			"FarsiNevis"
 		]
 	},
 	"records": "سوابق",
@@ -21,7 +23,7 @@
 	"today": "امروز",
 	"all": "همه",
 	"enterSearchTerm": "عبارت جستجو را وارد کنید",
-	"allLang": "همۀ زبان‌ها",
+	"allLang": "همهٔ زبان‌ها",
 	"popular": "محبوب",
 	"interlang_proj": "پروژه های بین المللی",
 	"other_lang": "زبان‌های دیگر",
@@ -79,9 +81,9 @@
 	"thisSoftwareIs": "این نرم افزار است",
 	"rawDataSource": "منبع داده های خام",
 	"helpDiscuss": "کمک / بحث / بهبود",
-	"dbUpdateInProgress": "به روز رسانی پایگاه داده در حال اجرا",
+	"dbUpdateInProgress": "روزآمدسازی دادگان در حال اجرا است",
 	"filtersOut": "فیلتر کردن برخی از نوشته های فنی - جزئیات کمک را ببینید",
-	"lastUpdate": "آخرین به‌روزرسانی",
+	"lastUpdate": "آخرین روزآمدسازی",
 	"urlToUserpage": "آدرس بخش یا زیربخش (#) از صفحه کاربری شما.",
 	"tooltipSearch": "صفحه عنوان (به عنوان مثال هالیوود)--شما همچنین ممکن است نشانه عام استفاده از \"*\" عنوان مثال هالیوود * یا کاربر: تام *.مشاهده راهنما برای اطلاعات بیشتر.",
 	"noJavaScript": "جاوا اسکریپت غیر فعال است",
