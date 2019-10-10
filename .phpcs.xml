@@ -6,6 +6,7 @@
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamTag"/>
 		<exclude name="MediaWiki.NamingConventions.ValidGlobalName.allowedPrefix"/>
 		<exclude name="MediaWiki.Usage.SuperGlobalsUsage.SuperGlobals"/>
+		<exclude name="MediaWiki.PHP71Features.VoidReturnType.NotAllowed"/>
 	</rule>
 
 	<file>.</file>

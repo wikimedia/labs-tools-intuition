@@ -3,4 +3,5 @@
 /tests/coveralls-upload.json
 /node_modules
 /vendor
+/.phpunit.result.cache
 npm-debug.log

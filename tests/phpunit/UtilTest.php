@@ -20,7 +20,7 @@ class UtilTest extends TestCase {
 	 * @covers Krinkle\Intuition\Util::strEscape
 	 */
 	public function testStrEscape( $expected, $str, $escape = 'plain' ) {
-		$this->assertEquals(
+		$this->assertSame(
 			$expected,
 			Util::strEscape( $str, $escape )
 		);
@@ -119,11 +119,11 @@ class UtilTest extends TestCase {
 				'Chinese to me',
 			],
 			[ 'es; q=1, pt;q=0.7, it; q=0.6, de; q=0.1, ru;q=0',
-				[ 'es' => 1, 'pt' => 0.7, 'it' => 0.6, 'de' => 0.1 ],
+				[ 'es' => 1.0, 'pt' => 0.7, 'it' => 0.6, 'de' => 0.1 ],
 				'Preference for romance languages',
 			],
 			[ 'en-gb, en-us; q=1',
-				[ 'en-gb' => 1, 'en-us' => 1 ],
+				[ 'en-gb' => 1, 'en-us' => 1.0 ],
 				'Two equally prefered English variants',
 			],
 			[
@@ -139,9 +139,9 @@ class UtilTest extends TestCase {
 	 * @covers Krinkle\Intuition\Util::getAcceptableLanguages
 	 */
 	public function testGetAcceptableLanguages( $data, $result, $message ) {
-		$this->assertEquals(
-			Util::getAcceptableLanguages( $data ),
+		$this->assertSame(
 			$result,
+			Util::getAcceptableLanguages( $data ),
 			$message
 		);
 	}
@@ -179,12 +179,11 @@ class UtilTest extends TestCase {
 	 * @dataProvider provideTag
 	 * @covers Krinkle\Intuition\Util::tag
 	 */
-	public function testTag( $args, $expected, $message = null ) {
+	public function testTag( $args, $expected ) {
 		$args += [ null, null, null ];
-		$this->assertEquals(
+		$this->assertSame(
 			$expected,
-			Util::tag( $args[0], $args[1], $args[2] ),
-			$message
+			Util::tag( $args[0], $args[1], $args[2] )
 		);
 	}
 
@@ -238,9 +237,9 @@ class UtilTest extends TestCase {
 	 * @dataProvider provideParseExternalLinks
 	 * @covers Krinkle\Intuition\Util::parseExternalLinks
 	 */
-	public function testparseExternalLinks( $input, $expected = null ) {
-		$this->assertEquals(
-			$expected ?: $input,
+	public function testParseExternalLinks( $input, $expected = null ) {
+		$this->assertSame(
+			$expected ?? $input,
 			Util::parseExternalLinks( $input )
 		);
 	}
@@ -272,7 +271,7 @@ class UtilTest extends TestCase {
 	 * @covers Krinkle\Intuition\Util::prettyEncodedWikiUrl
 	 */
 	public function testParseWikiLinks( $articlePath, $input, $expected ) {
-		$this->assertEquals(
+		$this->assertSame(
 			$expected,
 			Util::parseWikiLinks( $input, $articlePath )
 		);

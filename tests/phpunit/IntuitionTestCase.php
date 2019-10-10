@@ -21,7 +21,7 @@ class IntuitionTestCase extends TestCase {
 
 	protected $live = [];
 
-	protected function setUp() {
+	protected function setUp() : void {
 		parent::setUp();
 
 		$this->i18n = new Intuition( 'general' );
@@ -34,7 +34,7 @@ class IntuitionTestCase extends TestCase {
 		self::$time = 1;
 	}
 
-	protected function tearDown() {
+	protected function tearDown() : void {
 		// Restore super globals
 		$_SERVER = $this->live['SERVER'];
 		$_COOKIE = $this->live['COOKIE'];

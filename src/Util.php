@@ -24,7 +24,7 @@ class Util {
 	/**
 	 * Escapes a string with one of the known method and returns it
 	 *
-	 * @param string $str The string to be escaped
+	 * @param string|null $str The string to be escaped
 	 * @param string $escape The name of the escape routine to be used
 	 *  if this is an unknown method name it will be ignored and 'plain'
 	 *  will be used instead.
@@ -39,7 +39,10 @@ class Util {
 			case 'htmlentities':
 				$str = htmlentities( $str, ENT_QUOTES, 'UTF-8' );
 				break;
-			// 'plain' or anything else: Do nothing
+			case 'plain':
+			default:
+				$str = (string)$str;
+				break;
 		}
 		return $str;
 	}
