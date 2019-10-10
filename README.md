@@ -41,3 +41,7 @@ Run the tests:
 <pre lang="sh">
 composer test
 </pre>
+
+## See also
+
+* [intuition-web](https://github.com/Krinkle/intuition-web): The web interface to Intuition.
