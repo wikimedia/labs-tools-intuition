@@ -404,6 +404,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			[ 'example', '/etc', 'dangerous lang' ],
 		];
 	}
+
 	/**
 	 * @dataProvider provideEnsureLoaded
 	 * @covers Krinkle\Intuition\Intuition::ensureLoaded

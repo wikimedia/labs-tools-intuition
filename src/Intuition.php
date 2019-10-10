@@ -1358,7 +1358,7 @@ class Intuition {
 		}
 
 		// Fallback
-		return !!$this->setLang( 'en' );
+		return (bool)$this->setLang( 'en' );
 	}
 
 	/**

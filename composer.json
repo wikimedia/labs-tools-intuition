@@ -14,12 +14,12 @@
 		}
 	},
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.2"
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
 		"phpunit/phpunit": "^6.5.11",
-		"mediawiki/mediawiki-codesniffer": "22.0.0",
+		"mediawiki/mediawiki-codesniffer": "27.0.0",
 		"php-coveralls/php-coveralls": "^2.1"
 	},
 	"scripts": {
@@ -34,7 +34,7 @@
 	},
 	"config": {
 		"platform": {
-			"php": "7.0"
+			"php": "7.2"
 		}
 	}
 }

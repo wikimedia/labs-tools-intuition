@@ -1,8 +1,7 @@
 language: php
 php:
   - "7.2"
-  - "7.1"
-  - "7.0"
+  - "7.3"
 install:
   - composer install
   # Upgrade default Node.js version in Travis' PHP image from Node.js v0.10.x to 8.x
