@@ -13,17 +13,15 @@ module.exports = function (grunt) {
   fs.readdirSync(msgDir).forEach(function (file) {
     var stats = fs.statSync(path.join(msgDir, file));
     if (stats.isDirectory()) {
-      if (['commonshelper2', 'mwsnapshots', 'raun', 'voiceintro'].indexOf(file) === -1) {
-        domainDirs[file] = 'language/messages/' + file + '/';
-      } else {
-        // Allow incomplete documentation for now (issue #41)
-        domainDirs[file] = {
-          src: 'language/messages/' + file + '/',
-          options: {
-            requireCompleteMessageDocumentation: false
-          }
-        };
-      }
+      const knownIncomplete = ['commonshelper2', 'mwsnapshots', 'raun', 'voiceintro'].includes(file);
+      domainDirs[file] = {
+        src: 'language/messages/' + file + '/',
+        options: {
+          // Allow incomplete documentation for now (issue #41)
+          requireCompleteMessageDocumentation: !knownIncomplete,
+          requireLowerCase: false
+        }
+      };
     }
   });
 
