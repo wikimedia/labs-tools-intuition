@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Uğurkent",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"title-overview": "Anlık resimler",
@@ -15,6 +16,7 @@
 	"title-downloadpage-repo": "$1 dosyasını indir",
 	"err-snapshotindex": "Anlık resim dizini geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyiniz.",
 	"err-invalid-repo": "Bilinmeyen depo: \"$1\".",
+	"err-invalid-branch": "Bilinmeyen şube: \"$2\" deposundaki \"$1\".",
 	"err-nosnapshot": "Anlık resimler birkaç saatte bir oluşturulur. \"$1\" için anlık resim oluşturulurken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
 	"err-noupdatelog": "Hiçbir güncelleme günlüğü bulunamadı.",
 	"repo-site-link": "Web sitesi",

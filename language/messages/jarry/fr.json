@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Peter17"
+			"Peter17",
+			"Verdy p"
 		]
 	},
 	"moretools": "plus d’outils",
 	"homepage-title": "Introduction",
-	"bugs": "rapports de bogues et de demandes de fonctionnalités",
+	"bugs": "rapports d’anomalies et de demandes de fonctionnalités",
 	"comments": "commentaires et requêtes",
 	"error-form-empty": "Un ou plusieurs champs obligatoires ont été laissés en blanc. Vous devez les remplir avant de continuer."
 }

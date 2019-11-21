@@ -3,12 +3,13 @@
 		"authors": [
 			"Emperyan",
 			"Khutuck",
-			"Incelemeelemani"
+			"Incelemeelemani",
+			"Grkn gll"
 		]
 	},
 	"moretools": "daha fazla araç",
 	"homepage-title": "Başlangıç",
 	"bugs": "hata raporları ve özellik istekleri",
-	"comments": "yorum ve sorgular",
+	"comments": "yorumlar ve sorgular",
 	"error-form-empty": "Bir veya daha fazla gerekli alan boş bırakılmıştır. Devam etmeden önce bunları doldurmanız gerekir."
 }

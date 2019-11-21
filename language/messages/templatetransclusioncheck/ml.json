@@ -8,6 +8,8 @@
 	"form-label-language": "ഭാഷ:",
 	"form-label-template": "ഫലകത്തിന്റെ പേര്‌:",
 	"form-label-template2": "(നാമമേഖല ഉൾപ്പെടെ)",
+	"form-label-complete": "പൂർണ്ണ റിപ്പോർട്ട് സൃഷ്ടിക്കുക:",
+	"feedback-template-missing": "\"$1\" എന്ന ഫലകം നിലവിലില്ല.",
 	"feedback-result": "$1 നുള്ള ഫലങ്ങൾ",
 	"feedback-total-count": "മൊത്തം: $1",
 	"link-edit": "തിരുത്തുക",

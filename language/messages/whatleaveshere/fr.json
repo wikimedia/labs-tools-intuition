@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
 	"title": "Ce qui part d’ici",
@@ -12,7 +13,7 @@
 	"label-limit": "Limite",
 	"namespacesall": "tous",
 	"button-submit": "Aller",
-	"noleaveshere": "Rien n’est pointé par $1",
+	"noleaveshere": "Aucun lien ne part de $1",
 	"link-whatleaveshere": "Ce qui part d’ici",
 	"tooltip-whatleaveshere": "Liste de tout ce qui est lié depuis ici",
 	"whatlinkshere": "Ce qui pointe ici",
@@ -21,7 +22,7 @@
 	"isfile": "lien de fichier",
 	"linksearch": "LinkSearch",
 	"section-links": "Liens",
-	"section-iwlinks": "Liens entre wikis",
+	"section-iwlinks": "Liens interwikis",
 	"section-extlinks": "Liens externes",
 	"section-categories": "Catégories"
 }

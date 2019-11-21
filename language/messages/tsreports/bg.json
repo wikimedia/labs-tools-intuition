@@ -4,7 +4,15 @@
 			"StanProg"
 		]
 	},
+	"category_users": "Потребители",
+	"category_articles": "Страници",
+	"category_images": "Изображения",
+	"category_miscellaneous": "Разни",
 	"category_wikidata": "Уикиданни",
+	"select_wiki_title": "Избор на уики",
 	"select_wiki_next": "Следваща →",
+	"qvar_next": "Следваща →",
+	"prefs_submit": "Добре",
+	"prefs_done": "Вашите настройки са променени.",
 	"prefs_langlabel": "Език на интерфейса:"
 }
