@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Xuacu",
-			"Crucifunked"
+			"Crucifunked",
+			"Fitoschido"
 		]
 	},
 	"title": "Cambios recientes en tiempu real",
@@ -52,7 +53,7 @@
 	"showAnonOnly": "Namái anónimos",
 	"showUnpatrolledOnly": "Namái ensin supervisar",
 	"skip": "Omitir",
-	"skippededit": "Edición saltada",
+	"skippededit": "Edición omitida",
 	"tag": "Etiqueta",
 	"time-from": "Dende",
 	"time-untill": "Fasta",

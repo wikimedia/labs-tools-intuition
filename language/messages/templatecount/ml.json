@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akhilan"
+			"Akhilan",
+			"Adithyak1997"
 		]
 	},
 	"enter-details": "വിവരങ്ങൾ ചേർക്കുക",
 	"language-label": "ഭാഷ",
-	"namespace-label": "നാമമേഖല"
+	"namespace-label": "നാമമേഖല",
+	"pagename-label": "താളിന്റെ പേര് (നാമമേഖല കൂട്ടാതെ)"
 }

@@ -12,5 +12,6 @@
 	"namespace-label": "നാമമേഖല",
 	"project-label": "പദ്ധതി",
 	"pattern-label": "ശ്രേണി",
-	"redirects-label": "തിരിച്ചുവിടലുകൾ ഉൾപ്പെടുത്തുക"
+	"redirects-label": "തിരിച്ചുവിടലുകൾ ഉൾപ്പെടുത്തുക",
+	"limit-label": "ആദ്യ 100 ഫലങ്ങളിലേക്ക്‌ പരിമിതപെടുത്തുക"
 }

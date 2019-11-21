@@ -2,16 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Uğurkent",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
+	"title": "Burada ne kalıyor",
+	"title-leaveshere": "\"$1\"'den ayrılan bağlantılar",
+	"sub-leaveshere": "$1 sayfasına bağlantısı olan sayfalar",
 	"label-page": "Sayfa",
 	"label-namespace": "Ad alanı",
 	"label-limit": "Sınır",
 	"namespacesall": "hepsi",
 	"button-submit": "Git",
+	"noleaveshere": "$1'den hiçbir şey bağlantı yok",
+	"link-whatleaveshere": "Burada ne kalıyor",
 	"tooltip-whatleaveshere": "Buradan bağlantı veren her şeyin listesi",
 	"whatlinkshere": "Buraya bağlantı verenler",
+	"whatlinkshere-whatleaveshere": "Burada ne kalıyor?",
 	"istemplate": "dönüştürülme",
 	"isfile": "dosya bağlantısı",
 	"linksearch": "BağlantıArama",

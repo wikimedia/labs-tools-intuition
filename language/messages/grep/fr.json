@@ -3,21 +3,22 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"Urhixidur"
+			"Urhixidur",
+			"Verdy p"
 		]
 	},
 	"title": "Filtrage sur les titres d’articles (bêta)",
 	"introduction": "Cet outil affiche tous les titres d’article qui correspondent à un motif d’expression rationnelle ($1). Rechercher en utilisant une expression rationnelle consomme intensivement des ressources. Dans la mesure du possible, utilisez les indicateurs de préfixe (^) et de suffixe ($).",
 	"explanation": "explication",
 	"regex": "Expression rationnelle",
-	"enter-details": "Saisir les détails",
+	"enter-details": "Saisissez les détails",
 	"results": "Résultats",
 	"language-label": "Langue",
 	"namespace-label": "Espace de noms",
 	"project-label": "Projet",
-	"pattern-label": "Motif",
+	"pattern-label": "Expression rationnelle",
 	"redirects-label": "Inclure les redirections",
 	"limit-label": "Limiter l’affichage aux 100 premiers résultats",
 	"error-zeroresults": "Il n’y a aucune page dans cet espace de noms dont les titres correspondent à votre expression rationnelle.",
-	"match-count": "{{PLURAL:$1|$1 page|$1 pages}} correspondent à votre expression rationnelle."
+	"match-count": "{{PLURAL:$1|Une seule page correspond|$1 pages correspondent}} à votre expression rationnelle."
 }

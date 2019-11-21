@@ -6,5 +6,6 @@
 	},
 	"results": "Резултати",
 	"language-label": "Език",
-	"namespace-label": "Именно пространство"
+	"namespace-label": "Именно пространство",
+	"project-label": "Проект"
 }

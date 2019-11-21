@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Uğurkent",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Dili / tercihleri değiştir</a>",
@@ -24,6 +25,7 @@
 	"select_report_first": "Bu rapor ilk kez hazırlanmıştır ve yakında hazır olacaktır.",
 	"select_report_hot": "Bu raporun önbelleğe alınmış bir sürümü mevcut.",
 	"select_report_cold_running": "Bu raporun önbelleğe alınmış bir sürümü mevcut. %(eta)s içinde yeni bir sürüm bekleniyor.",
+	"select_report_cold_not_running": "Bu raporun önbelleğe alınmış bir sürümü, %(age)s yaşında. Mevcut raporu görüntülüyorsanız yeni bir sürüm hazırlanacak ve yaklaşık %(eta)s'de hazır olacaktır.",
 	"select_report_no_reports": "Üzgünüz, şu anda %(wiki)s için müsait rapor yok.",
 	"select_report_go_back": "← Vikiyi değiştir",
 	"qvar_title": "Sorgunuz için değişkenleri girin",
@@ -34,6 +36,7 @@
 	"prefs_done": "Tercihleriniz değiştirildi.",
 	"prefs_langlabel": "Arayüz dili:",
 	"report_wascached": "Bu rapor %(age)s önce önbelleğe alındı.",
+	"report_cold_cache_running": "Önbellek (yeniden)üretimi %(runtime)s gün önce başladı.",
 	"report_cold_cache_started": "Önbellek (yeniden) oluşturma yeni başladı.",
 	"report_nocache": "Bu raporun her gece yeniden düzenlenmesi planlanıyor, ancak henüz çalıştırılmadı, bu nedenle veri yok.",
 	"report_first_run": "Bu rapor ilk kez oluşturuluyor, dolayısıyla henüz veri yok.",

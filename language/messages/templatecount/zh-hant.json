@@ -5,11 +5,12 @@
 			"Liuxinyu970226",
 			"Simon Shek",
 			"Wehwei",
-			"AF"
+			"AF",
+			"TongcyDai"
 		]
 	},
 	"enter-details": "輸入詳細資料",
-	"introduction": "輸入模板的名稱（現時只限維基百科），然後按提交。就是這麼簡單。可能有些緩存問題（結果回憶），但這不是此工具和其主人可控制的範圍。",
+	"introduction": "輸入模板的名稱（現時只限維基百科），然後按提交。就是這麼簡單。可能有些緩存問題（以前的查詢結果），但不幸的是，此工具和其主人對此無能為力。",
 	"language-label": "語言",
 	"namespace-label": "命名空間",
 	"pagename-label": "頁面名稱 （不包括命名空間）",

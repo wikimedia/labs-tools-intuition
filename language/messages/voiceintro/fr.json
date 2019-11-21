@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Urhixidur"
+			"Urhixidur",
+			"Verdy p"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Enregistrer",
@@ -10,11 +11,11 @@
 	"voiceintro-toolbar-clear-label": "Effacer",
 	"voiceintro-toolbar-upload-label": "Téléverser",
 	"voiceintro-webaudio-not-supported": "L’API WebAudio n’est pas prise en charge par ce navigateur",
-	"voiceintro-upload-publish-succeeded": "Enregistrement bien importé :",
-	"voiceintro-upload-publish-failed": "L’enregistrement n’a pas été importé",
-	"voiceintro-information-label": "Information",
-	"voiceintro-information-speaker-label": "Nom du conférencier :",
-	"voiceintro-information-language-label": "Langue :",
+	"voiceintro-upload-publish-succeeded": "Enregistrement téléversé avec succès :",
+	"voiceintro-upload-publish-failed": "L’enregistrement n’a pas été téléversé.",
+	"voiceintro-information-label": "Informations",
+	"voiceintro-information-speaker-label": "Nom du narrateur :",
+	"voiceintro-information-language-label": "Langue :",
 	"voiceintro-mic-access-notify": "Cliquez sur « Autoriser » pour permettre au navigateur d’accéder à votre microphone.",
-	"voiceintro-recording-notify": "Enregistrement en cours…"
+	"voiceintro-recording-notify": "Enregistrement en cours..."
 }

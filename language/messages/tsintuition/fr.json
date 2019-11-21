@@ -9,10 +9,10 @@
 		]
 	},
 	"bl-mysettings": "Mes paramètres de langue",
-	"bl-mysettings-new": "Changer la langue !",
-	"bl-promo": "Les traductions sont propulsées par $1 et $2 .",
+	"bl-mysettings-new": "Changer la langue !",
+	"bl-promo": "Les traductions sont propulsées par $1 et $2.",
 	"bl-changelanguage": "Changer la langue de l’interface de cet outil.",
-	"help-translate-tool": "Aidez à traduire cet outil !",
+	"help-translate-tool": "Aidez à traduire cet outil !",
 	"help-translate-all": "Aidez à traduire les outils !",
 	"help-translate-tooltip": "Aidez les autres en traduisant dans votre langue les messages de l’interface."
 }
