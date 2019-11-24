@@ -30,7 +30,7 @@ class Intuition {
 
 	public $localBaseDir;
 
-	public $version = '2.0.0';
+	public $version = '2.1.0';
 
 	// URL to where intuition-web is installed
 	public $dashboardHome = '//tools.wmflabs.org/intuition';
@@ -67,7 +67,7 @@ class Intuition {
 	// $loadedDomains['general']['en'] = true;
 	protected $loadedDomains = [];
 
-	// Based on MediaWiki 1.26alpha ()
+	// Based on MediaWiki 1.26alpha
 	// These codes are mapped to their replacements before loading.
 	// Associated language files may still exist, but will not be used.
 	protected $deprecatedLangCodes = [

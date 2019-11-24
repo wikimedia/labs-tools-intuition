@@ -1,3 +1,13 @@
+## v2.1.0 (2019-11-24)
+
+### Changed
+
+* messages: Localisation updates from https://translatewiki.net.
+
+### Removed
+
+* End support for PHP 7.0, and PHP 7.1. Intuition now requires PHP 7.2+.
+
 ## v2.0.0 (2019-05-13)
 
 ### Added
