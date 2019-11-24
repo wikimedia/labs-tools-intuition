@@ -30,12 +30,12 @@ class MessagesFunctions {
 	 *
 	 * Get a instance of MessagesFunctions.
 	 *
-	 * @static
-	 * @param String $baseDir The path of the root dir of TS-I18N
-	 * @param Intuition $intuition
 	 * @see Intuition::getMessagesFunctions()
+	 * @param string $baseDir The path of the root dir of TS-I18N
+	 * @param Intuition $intuition
+	 * @return MessagesFunctions
 	 */
-	public static function getInstance( $baseDir, Intuition $intuition ) {
+	public static function getInstance( string $baseDir, Intuition $intuition ) : MessagesFunctions {
 		if( self::$instance == null ) {
 			self::$instance = new MessagesFunctions( $baseDir, $intuition );
 			return self::$instance;
@@ -48,10 +48,10 @@ class MessagesFunctions {
 	 *
 	 * Construct a new object of MessageFunctions.
 	 *
-	 * @param String $baseDir The path of the root dir of TS-I18N
+	 * @param string $baseDir The path of the root dir of TS-I18N
 	 * @param Intuition $intuition
 	 */
-	function __construct( $baseDir, $intuition ) {
+	function __construct( string $baseDir, Intuition $intuition ) {
 		$this->baseDir = $baseDir;
 		$this->I18N = $intuition;
 
@@ -62,9 +62,9 @@ class MessagesFunctions {
 	 *
 	 * Load a language class file from its code.
 	 *
-	 * @param String $language Language-Code
+	 * @param string $language Language code
 	 */
-	private function loadLanguage( $language ) {
+	private function loadLanguage( string $language ) {
 		$language = ucfirst( strtolower( str_replace( '-', '_', $language ) ) );
 
 		if ( in_array( $language, $this->langIsLoaded ) ) {
@@ -81,14 +81,13 @@ class MessagesFunctions {
 	}
 
 	/**
-	 *
 	 * Executed as the callback from parse()
 	 * Runs the functions (PLURAL, etc.) for the message.
 	 *
 	 * @param array $matches the matches for the function
 	 * @return string replaced message
 	 */
-	private function msgFunctionMatches( $matches ) {
+	private function msgFunctionMatches( array $matches ) : string {
 		$functionName = strtolower( $matches[1] );
 		$firstParameter = $matches[2];
 		$parameters = explode( '|', $matches[3] );
@@ -97,14 +96,13 @@ class MessagesFunctions {
 	}
 
 	/**
-	 *
 	 * Parsing a message.
 	 *
-	 * @param String $msg Message
-	 * @param String $lang Language of the message
-	 * @return String Parsed message
+	 * @param string $msg Message
+	 * @param string $lang Language of the message
+	 * @return string Parsed message
 	 */
-	public function parse( $msg, $lang ) {
+	public function parse( string $msg, string $lang ) : string {
 		$this->langCode = $lang;
 		$this->loadLanguage( $lang );
 
@@ -117,7 +115,7 @@ class MessagesFunctions {
 		return $msg;
 	}
 
-	private function plural( $number, $parameters, $msg ) {
+	private function plural( $number, array $parameters, $msg ) {
 		$language = ucfirst( strtolower( str_replace( '-', '_', $this->langCode ) ) );
 
 		if ( $number == null || !is_numeric( $number ) ) {
@@ -137,7 +135,7 @@ class MessagesFunctions {
 		return $langObj->convertPlural( $number, $parameters );
 	}
 
-	private function gender( $user, $parameters, $msg ) {
+	private function gender( $user, array $parameters, $msg ) {
 		switch ( count( $parameters ) ) {
 			case 0:
 				$this->addParseError( "{{GENDER:}} with no variants", __METHOD__ );
@@ -166,7 +164,7 @@ class MessagesFunctions {
 		}
 	}
 
-	private function addParseError( $msg, $context, $errType = E_WARNING ) {
+	private function addParseError( $msg, $context, int $errType = E_WARNING ) {
 		$this->error[] = array(
 			'msg' => $msg,
 			'context' => $context,

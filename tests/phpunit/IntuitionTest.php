@@ -472,7 +472,10 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	 * @covers Krinkle\Intuition\Intuition::isRedirecting
 	 */
 	public function testRedirectTo( $ret, $url, $isRedirect = null ) {
+		$before = error_reporting( E_ALL & ~E_USER_DEPRECATED );
 		$this->assertSame( $ret, $this->i18n->redirectTo( $url ) );
+		error_reporting( $before );
+
 		$this->assertSame( $isRedirect, $this->i18n->isRedirecting() );
 	}
 
@@ -497,10 +500,13 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			'url 1 is active'
 		);
 
+		$before = error_reporting( E_ALL & ~E_USER_DEPRECATED );
 		$this->assertFalse(
 			$this->i18n->redirectTo( [ 'invalid' ], 'value' ),
 			'invalid value rejected'
 		);
+		error_reporting( $before );
+
 		$this->assertTrue(
 			$this->i18n->isRedirecting(),
 			'url 1 is (still) active'

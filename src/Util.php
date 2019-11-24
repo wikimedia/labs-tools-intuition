@@ -24,7 +24,7 @@ class Util {
 	 *  will be used instead.
 	 * @return string The escaped string.
 	 */
-	public static function strEscape( $str, $escape = 'plain' ) {
+	public static function strEscape( ?string $str, string $escape = 'plain' ) : string {
 		switch ( $escape ) {
 			case 'html' :
 			case 'htmlspecialchars' :
@@ -45,7 +45,7 @@ class Util {
 	 * @param mixed $var
 	 * @return bool
 	 */
-	public static function nonEmptyStr( $var ) {
+	public static function nonEmptyStr( $var ) : bool {
 		return is_string( $var ) && $var !== '';
 	}
 
@@ -57,7 +57,7 @@ class Util {
 	 * @param mixed|mixed[] ...$args
 	 * @return bool
 	 */
-	public static function nonEmptyStrs( ...$args ) {
+	public static function nonEmptyStrs( ...$args ) : bool {
 		if ( !isset( $args[0] ) ) {
 			return false;
 		}
@@ -96,12 +96,12 @@ class Util {
 	 * Based on similar methods in krinkle/toollabs-base,
 	 * and Html::element in MediaWiki.
 	 *
-	 * @param string $str Content (text or HTML)
+	 * @param string|null $str Content (text or HTML)
 	 * @param string|int $wrapTag Name of HTML Element (tagName)
 	 * @param array $attributes [optional]
 	 * @return string HTML
 	 */
-	public static function tag( $str, $wrapTag = 0, $attributes = [] ) {
+	public static function tag( ?string $str = null, $wrapTag = 0, $attributes = [] ) : string {
 		$selfclose = [ 'link', 'input', 'br', 'img' ];
 
 		if ( !is_string( $str ) ) {
@@ -129,22 +129,23 @@ class Util {
 	}
 
 	/**
-	 * Return a list of acceptable languages from an Accept-Language header.
-	 * @param string $rawList List of language tags, formatted like an
-	 *  HTTP Accept-Language header (optional; defaults to $_SERVER['HTTP_ACCEPT_LANGUAGE'])
+	 * Get a list of acceptable languages from an Accept-Language header.
+	 *
+	 * @param string|null $rawList List of language tags, formatted like an
+	 *  HTTP Accept-Language header. Default: Value of `$_SERVER['HTTP_ACCEPT_LANGUAGE']`.
 	 * @return array keyed by language codes with q-values as values.
 	 */
-	public static function getAcceptableLanguages( $rawList = false ) {
-		// Implementation based on MediaWiki 1.21's WebRequest::getAcceptLang
-		// Which is based on http://www.thefutureoftheweb.com/blog/use-accept-language-header
-
+	public static function getAcceptableLanguages( ?string $rawList = null ) : array {
 		// @codeCoverageIgnoreStart
-		if ( $rawList === false ) {
+		if ( $rawList === null ) {
 			$rawList = isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) ?
 				$_SERVER['HTTP_ACCEPT_LANGUAGE'] :
 				'';
 		}
 		// @codeCoverageIgnoreEnd
+
+		// Implementation based on MediaWiki 1.21's WebRequest::getAcceptLang
+		// Which itself was based on http://www.thefutureoftheweb.com/blog/use-accept-language-header
 
 		// Return the language codes in lower case
 		$rawList = strtolower( $rawList );
@@ -193,10 +194,10 @@ class Util {
 	 * Given a text already html-escaped which contains urls in wiki format,
 	 * convert it to html.
 	 *
-	 * @param string $text
+	 * @param string|null $text
 	 * @return string HTML
 	 */
-	public static function parseExternalLinks( $text ) {
+	public static function parseExternalLinks( ?string $text ) : string {
 		static $urlProtocols = false;
 		static $counter = 0;
 		// @codeCoverageIgnoreStart
@@ -244,9 +245,9 @@ class Util {
 	 *
 	 * @param string $text
 	 * @param string $articlePath
-	 * @return string
+	 * @return string HTML
 	 */
-	public static function parseWikiLinks( $text, $articlePath ) {
+	public static function parseWikiLinks( string $text, string $articlePath ) : string {
 		self::$articlePath = $articlePath;
 
 		return preg_replace_callback(
@@ -275,7 +276,7 @@ class Util {
 	 * @param string $article
 	 * @return string
 	 */
-	public static function prettyEncodedWikiUrl( $articlePath, $article ) {
+	public static function prettyEncodedWikiUrl( string $articlePath, string $article ) : string {
 		$s = strtr( $article, ' ', '_' );
 		$s = urlencode( $s );
 		$s = str_ireplace(

@@ -371,6 +371,10 @@ class Intuition {
 	 * Get a message from the message blob.
 	 *
 	 * @param string $key Message key to retrieve a message for.
+	 *  For backwards-compatibility, this can also be a non-string value,
+	 *  in which case it is casted to the empty string and rendered
+	 *  as non-existent message (e.g. the value of `$fail`, or `[]`).
+	 *  This is deprecated since v2.2.0.
 	 * @param string|array $options [optional] A domain name or an array with one or more
 	 *  of the following options:
 	 *  - domain: overrides the currently selected domain, and if needed loads it from disk
@@ -387,13 +391,13 @@ class Intuition {
 	 *  - * 'htmlspecialchars' (alias of 'html')
 	 *  - * 'htmlentities' (foreign/UTF-8 chars converted as well)
 	 *
-	 * @param mixed|null $fail [optional] Value if the message doesn't exist. Defaults to null.
-	 * @return string|null
+	 * @param string|false|null $fail [optional] Value if the message doesn't exist. Defaults to null.
+	 * @return string|false|null
 	 */
-	public function msg( $key = 0, $options = [], $fail = null ) {
+	public function msg( $key, $options = [], $fail = null ) {
 		if ( !IntuitionUtil::nonEmptyStr( $key ) ) {
 			// Invalid message key
-			return $this->bracketMsg( $key, $fail );
+			return $this->bracketMsg( '', $fail );
 		}
 
 		$defaultOptions = [
@@ -480,7 +484,7 @@ class Intuition {
 	 * @param string $key
 	 * @return string|null
 	 */
-	public function rawMsg( $domain, $lang, $key ) {
+	public function rawMsg( string $domain, string $lang, string $key ) : ?string {
 		$domain = $this->normalizeDomain( $domain );
 		$lang = $this->normalizeLang( $lang );
 
@@ -517,7 +521,7 @@ class Intuition {
 	 * @param string $key Key of message
 	 * @return string|null
 	 */
-	protected function accessBlobWithFallback( $domain, $lang, $key ) {
+	protected function accessBlobWithFallback( string $domain, string $lang, string $key ) : ?string {
 		$this->ensureLoaded( $domain, $lang );
 		$msg = $this->accessBlob( $domain, $lang, $key );
 		if ( $msg === null ) {
@@ -551,10 +555,10 @@ class Intuition {
 	 * conflicts with HTML when used wrong.
 	 *
 	 * @param string $key Name of the key to be used
-	 * @param mixed|null $fail [optional] Custom failure return
-	 * @return string|null
+	 * @param string|false|null $fail [optional] Custom failure return
+	 * @return string|false|null
 	 */
-	public function bracketMsg( $key, $fail = null ) {
+	public function bracketMsg( string $key, $fail = null ) {
 		if ( $fail !== null ) {
 			return $fail;
 		}
@@ -571,9 +575,11 @@ class Intuition {
 	 * If this returns false it means msg() would return "[message-key]"
 	 * Parameters the same as msg(), except $fail which is overwritten.
 	 *
+	 * @param string $key
+	 * @param array $options
 	 * @return bool
 	 */
-	public function msgExists( $key = 0, $options = [] ) {
+	public function msgExists( string $key, array $options = [] ) : bool {
 		// Use the `$fail = false` option of msg()
 		return $this->msg( $key, $options, false ) !== false;
 	}
@@ -590,7 +596,12 @@ class Intuition {
 	 * @param string|null $domain [optional] Defaults to current domain
 	 * @param string|null $lang [optional] Defaults to current language
 	 */
-	public function setMsg( $key, $message, $domain = null, $lang = null ) {
+	public function setMsg(
+		string $key,
+		string $message,
+		?string $domain = null,
+		?string $lang = null
+	) : void {
 		$domain = IntuitionUtil::nonEmptyStr( $domain )
 			? $this->normalizeDomain( $domain )
 			: $this->getDomain();
@@ -604,11 +615,15 @@ class Intuition {
 	/**
 	 * Set multiple messages in the blob.
 	 *
-	 * @param string $messagesByKey
+	 * @param string[] $messagesByKey
 	 * @param string|null $domain [optional] Defaults to current domain
 	 * @param string|null $lang [optional] Defaults to current language
 	 */
-	public function setMsgs( $messagesByKey, $domain = null, $lang = null ) {
+	public function setMsgs(
+		array $messagesByKey,
+		?string $domain = null,
+		?string $lang = null
+	) : void {
 		foreach ( $messagesByKey as $key => $message ) {
 			$this->setMsg( $key, $message, $domain, $lang );
 		}
@@ -620,9 +635,12 @@ class Intuition {
 	 * @param string $domain Name of domain
 	 * @param string $dir Path to messages directory
 	 * @param array $info [optional] Domain info
-	 * @return array
 	 */
-	public function registerDomain( $domain, $dir, $info = [] ) {
+	public function registerDomain(
+		string $domain,
+		string $dir,
+		array $info = []
+	) : void {
 		$info['dir'] = $dir;
 		$this->domainInfos[ $this->normalizeDomain( $domain ) ] = $info;
 	}
@@ -633,7 +651,7 @@ class Intuition {
 	 * @param string $domain Name of domain
 	 * @param array $info
 	 */
-	public function addDomainInfo( $domain, array $info ) {
+	public function addDomainInfo( string $domain, array $info ) : void {
 		$domain = $this->normalizeDomain( $domain );
 		if ( isset( $this->domainInfos[ $domain ] ) ) {
 			$this->domainInfos[ $domain ] += $info;
@@ -672,7 +690,7 @@ class Intuition {
 	 * @param string $domain
 	 * @return array
 	 */
-	public function listMsgs( $domain ) {
+	public function listMsgs( string $domain ) : array {
 		$domain = $this->normalizeDomain( $domain );
 		$this->ensureLoaded( $domain, 'en' );
 		// Ignore load failure to allow listing of messages that
@@ -692,7 +710,7 @@ class Intuition {
 	 * @param string $lang Language code
 	 * @return string[] List of one or more language codes
 	 */
-	public function getLangFallbacks( $lang ) {
+	public function getLangFallbacks( string $lang ) : array {
 		if ( self::$fallbackCache === null ) {
 			// Lazy-initialize
 			self::$fallbackCache = $this->fetchLangFallbacks();
@@ -703,9 +721,9 @@ class Intuition {
 	}
 
 	/**
-	 * @return array
+	 * @return string[]
 	 */
-	protected function fetchLangFallbacks() {
+	protected function fetchLangFallbacks() : array {
 		$file = $this->localBaseDir . '/language/fallbacks.json';
 		// @codeCoverageIgnoreStart
 		if ( !is_file( $file ) || !is_readable( $file ) ) {
@@ -727,25 +745,26 @@ class Intuition {
 	}
 
 	/**
-	 * Return the language name in the native language.
-	 * @param string $lang [optional] Language code
+	 * Get the language name in the native language.
+	 *
+	 * @param string|null $lang Language code. Default: Current language.
 	 * @return string
 	 */
-	public function getLangName( $lang = false ) {
+	public function getLangName( ?string $lang = null ) : string {
 		$lang = $lang ? $this->normalizeLang( $lang ) : $this->getLang();
 		return $this->getLangNames()[$lang] ?? '';
 	}
 
 	/**
-	 * Return all known languages.
+	 * Get all known languages.
 	 *
 	 * NOTE: This method includes languages that have no translations.
 	 * If you create a "Language selector" that relates to the interface
 	 * where Intuition messages are used, use getAvailableLangs() instead.
 	 *
-	 * @return array
+	 * @return string[]
 	 */
-	public function getLangNames() {
+	public function getLangNames() : array {
 		// Lazy-load and cache
 		if ( $this->langNames === null ) {
 			$path = $this->localBaseDir . '/language/mw-classes/Names.php';
@@ -770,8 +789,8 @@ class Intuition {
 	 *
 	 * This will also return additional languages set via addAvailableLang().
 	 *
-	 * @param string|null $domain
-	 * @return array Language names keyed by language code
+	 * @param string|null $domain Domain. Default: Current domain.
+	 * @return string[] Language names keyed by language code
 	 */
 	public function getAvailableLangs( ?string $domain = null ) : array {
 		$domain = $domain ?? $this->getDomain();
@@ -805,10 +824,10 @@ class Intuition {
 	 * Add a language that isn't listed in Intuition's included language list.
 	 *
 	 * @since 1.1.0
-	 * @param string $code The language code (with hyphens, not underscores).
-	 * @param string $name The localized name of the language.
+	 * @param string $code Language code
+	 * @param string $name Localized name of the language
 	 */
-	public function addAvailableLang( $code, $name ) {
+	public function addAvailableLang( string $code, string $name ) : void {
 		// Initialise $this->langNames so that we can extend it
 		$this->getLangNames();
 
@@ -825,7 +844,7 @@ class Intuition {
 	 * @param string $lang Language code
 	 * @return bool
 	 */
-	protected function ensureLoaded( $domain, $lang ) {
+	protected function ensureLoaded( string $domain, string $lang ) : bool {
 		if ( isset( $this->loadedDomains[ $domain ][ $lang ] ) ) {
 			// Already tried
 			return $this->loadedDomains[ $domain ][ $lang ];
@@ -867,7 +886,7 @@ class Intuition {
 	 * @param string $file
 	 * @return bool
 	 */
-	public function loadMessageFile( $domain, $lang, $file ) {
+	public function loadMessageFile( string $domain, string $lang, string $file ) : bool {
 		// Prefer EAFP over LBYL,
 		// for performance and to avoid race bugs.
 		$json = @file_get_contents( $file );
@@ -893,7 +912,7 @@ class Intuition {
 	 * @param string $domain
 	 * @return bool
 	 */
-	protected function isLocalDomain( $domain ) {
+	protected function isLocalDomain( string $domain ) : bool {
 		$domain = $this->normalizeDomain( $domain );
 		return is_dir( $this->localBaseDir . '/language/messages/' . $domain );
 	}
@@ -907,7 +926,12 @@ class Intuition {
 	 * @param bool $track Whether to set a expiry-tracking cookie.
 	 * @return bool
 	 */
-	public function setCookie( $key, $val, $lifetime = 2592000, $track = TSINT_COOKIE_TRACK ) {
+	public function setCookie(
+		string $key,
+		string $val,
+		int $lifetime = 2592000,
+		bool $track = TSINT_COOKIE_TRACK
+	) : bool {
 		// Validate cookie name
 		$name = $this->getCookieName( $key );
 		if ( !$name ) {
@@ -934,11 +958,11 @@ class Intuition {
 	 * In order to keep track of the expiration date, we set an additional cookie.
 	 *
 	 * @param int $lifetime
-	 * @return bool
+	 * @return bool Always true
 	 */
-	protected function setExpiryTrackerCookie( $lifetime ) {
+	protected function setExpiryTrackerCookie( int $lifetime ) : bool {
 		$val = time() + $lifetime;
-		$this->setCookie( 'track-expire', $val, $lifetime, TSINT_COOKIE_NOTRACK );
+		$this->setCookie( 'track-expire', (string)$val, $lifetime, TSINT_COOKIE_NOTRACK );
 		return true;
 	}
 
@@ -946,9 +970,9 @@ class Intuition {
 	 * Renew all cookies
 	 *
 	 * @param int $lifetime [optional] Defaults to 30 days
-	 * @return bool
+	 * @return bool Always true
 	 */
-	public function renewCookies( $lifetime = 2592000 ) {
+	public function renewCookies( int $lifetime = 2592000 ) : bool {
 		foreach ( $this->getCookieNames() as $key => $name ) {
 			if ( $key === 'track-expire' ) {
 				continue;
@@ -966,9 +990,9 @@ class Intuition {
 	 *
 	 * It's recommended to redirectTo() directly after this.
 	 *
-	 * @return bool
+	 * @return bool Always true
 	 */
-	public function wipeCookies() {
+	public function wipeCookies() : bool {
 		foreach ( $this->getCookieNames() as $key => $name ) {
 			$this->setCookie( $key, '', -3600, TSINT_COOKIE_NOTRACK );
 			unset( $_COOKIE[$name] );
@@ -981,7 +1005,7 @@ class Intuition {
 	 *
 	 * @return int Unix timestamp of expiration date or 0 if not available.
 	 */
-	public function getCookieExpiration() {
+	public function getCookieExpiration() : int {
 		$name = $this->getCookieName( 'track-expire' );
 		return isset( $_COOKIE[$name] ) ? intval( $_COOKIE[$name] ) : 0;
 	}
@@ -991,14 +1015,14 @@ class Intuition {
 	 *
 	 * @return int Lifetime, or 0 if expired or unavailable.
 	 */
-	public function getCookieLifetime() {
+	public function getCookieLifetime() : int {
 		$expire = $this->getCookieExpiration();
 		$lifetime = $expire - time();
 		// If already expired (-xxx), return 0
 		return $lifetime > 0 ? $lifetime : 0;
 	}
 
-	public function hasCookies() {
+	public function hasCookies() : bool {
 		return isset( $_COOKIE[ $this->getCookieName( 'userlang' ) ] );
 	}
 
@@ -1029,12 +1053,14 @@ class Intuition {
 	 * ------------------------------------------------- */
 
 	/**
-	 * Show a link that explains that this tool has been localized via Intuition and that they
-	 * can change the language by setting their preference in the dashboard.
-	 * Or (if they've done so already) that they can manage their settings there
-	 * @return string
+	 * Get HTML link to Intuition dashboard page.
+	 *
+	 * Use this to indicate that your tool has been localized via Intuition,
+	 * and that users can use this link to change the interface language.
+	 *
+	 * @return string HTML
 	 */
-	public function dashboardBacklink() {
+	public function dashboardBacklink() : string {
 		if ( $this->hasCookies() ) {
 			$text = $this->msg( 'bl-mysettings', 'tsintuition' );
 		} else {
@@ -1064,7 +1090,10 @@ class Intuition {
 	 * - string value: Link to translations for the specified domain.
 	 * @return string The HTML for the promo box.
 	 */
-	public function getPromoBox( $imgSize = 28, $helpTranslateDomain = TSINT_HELP_CURRENT ) {
+	public function getPromoBox(
+		int $imgSize = 28,
+		bool $helpTranslateDomain = TSINT_HELP_CURRENT
+	) : string {
 		// Logo
 		if ( is_int( $imgSize ) && $imgSize > 0 ) {
 			$src = '//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
@@ -1142,7 +1171,7 @@ class Intuition {
 	 * Same as getPromoBox() but without the image.
 	 * @return string HTML
 	 */
-	public function getFooterLine( $helpTranslateDomain = TSINT_HELP_CURRENT ) {
+	public function getFooterLine( $helpTranslateDomain = TSINT_HELP_CURRENT ) : string {
 		return $this->getPromoBox( 'no-image', $helpTranslateDomain );
 	}
 
@@ -1158,7 +1187,7 @@ class Intuition {
 	 *
 	 * @return string URL
 	 */
-	public function getDashboardReturnToUrl() {
+	public function getDashboardReturnToUrl() : string {
 		$p = [
 			'returnto' => $_SERVER['SCRIPT_NAME'],
 			'returntoquery' => http_build_query( $_GET ),
@@ -1172,16 +1201,23 @@ class Intuition {
 	/**
 	 * Redirect or refresh to url. Pass null to undo redirection.
 	 *
-	 * @param string $url
+	 * @param string|null $url URL or null to undo any prior redirection.
 	 * @param int $code [optional] Defaults to 302
-	 * @return bool false on failure.
+	 * @return bool
 	 */
-	public function redirectTo( $url = 0, $code = 302 ) {
+	public function redirectTo( $url = null, $code = 302 ) : bool {
 		if ( $url === null ) {
 			$this->redirectTo = null;
 			return true;
 		}
-		if ( !is_string( $url ) || !is_int( $code ) ) {
+		if ( !is_string( $url ) ) {
+			// Deprecated since v2.2.0
+			trigger_error( __METHOD__ . ' argument $url must be of type string', E_USER_DEPRECATED );
+			return false;
+		}
+		if ( !is_int( $code ) ) {
+			// Deprecated since v2.2.0
+			trigger_error( __METHOD__ . ' argument $url must be of type string', E_USER_DEPRECATED );
 			return false;
 		}
 		$this->redirectTo = [ $url, $code ];
@@ -1197,7 +1233,7 @@ class Intuition {
 		exit;
 	}
 
-	public function isRedirecting() {
+	public function isRedirecting() : bool {
 		return is_array( $this->redirectTo );
 	}
 
@@ -1205,7 +1241,7 @@ class Intuition {
 	 * @param string|string[] ...$args
 	 * @return string
 	 */
-	public function parentheses( ...$args ) {
+	public function parentheses( ...$args ) : string {
 		$msg = call_user_func_array(
 			[ $this, 'msg' ],
 			$args
@@ -1218,7 +1254,7 @@ class Intuition {
 	 * @param string $escape Any valid format for IntuitionUtil::strEscape.
 	 * @return string
 	 */
-	public function parensWrap( $content, $escape = 'plain' ) {
+	public function parensWrap( $content, $escape = 'plain' ) : string {
 		return $this->msg(
 			'parentheses',
 			[
@@ -1233,12 +1269,16 @@ class Intuition {
 	 * Get a localized date. Pass a format, time or both.
 	 * Defaults to the current timestamp in the language's default date format.
 	 *
-	 * @param string|null $first Date format compatible with strftime()
-	 * @param mixed|null $second Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
-	 * @param string|null $lang Language code. Defaults to current langauge (through getLocale() )
+	 * @param string|int|null $first Date format compatible with strftime()
+	 * @param string|int|null $second Timestamp (seconds since unix epoch) or string (ie. "2011-12-31")
+	 * @param string|null $lang Language code. Default: Current language.
 	 * @return string
 	 */
-	public function dateFormatted( $first = null, $second = null, $lang = null ) {
+	public function dateFormatted(
+		$first = null,
+		$second = null,
+		?string $lang = null
+	) : string {
 		// One argument or less
 		if ( $second === null ) {
 			// No arguments
@@ -1297,7 +1337,7 @@ class Intuition {
 	 * choice tree.
 	 * @return bool Whether a language was set or not.
 	 */
-	protected function initLangSelect( $option = null ) {
+	protected function initLangSelect( $option = null ) : bool {
 		if ( $option !== null &&
 			$option !== false &&
 			$option !== '' &&
@@ -1367,7 +1407,7 @@ class Intuition {
 	 * @param array $l
 	 * @return string
 	 */
-	public function listToText( $l ) {
+	public function listToText( array $l ) : string {
 		$s = '';
 		$m = count( $l ) - 1;
 		if ( $m == 1 ) {
@@ -1398,9 +1438,9 @@ class Intuition {
 	 * Call this if you've changed the default domain or added additional
 	 * available languages after constucting the object.
 	 *
-	 * @return bool Always true.
+	 * @return bool Always true
 	 */
-	public function refreshLang() {
+	public function refreshLang() : bool {
 		$this->initLangSelect();
 		return true;
 	}
@@ -1410,7 +1450,7 @@ class Intuition {
 	 * @param string $context
 	 * @return string
 	 */
-	protected function errMsg( $msg, $context ) {
+	protected function errMsg( string $msg, string $context ) : string {
 		return "[$context] $msg";
 	}
 
@@ -1421,7 +1461,7 @@ class Intuition {
 	 * @param string $context
 	 * @param int $level [optional]
 	 */
-	public function errTrigger( $msg, $context, $level = E_WARNING ) {
+	public function errTrigger( string $msg, string $context, int $level = E_WARNING ) : void {
 		$die = false;
 		$error = false;
 		$notice = false;
@@ -1481,7 +1521,7 @@ class Intuition {
 	 *  current language if missing
 	 * @return bool
 	 */
-	public function isRtl( $lang = null ) {
+	public function isRtl( ?string $lang = null ) : bool {
 		static $rtlLanguages = null;
 
 		$lang = $lang ? $this->normalizeLang( $lang ) : $this->getLang();
@@ -1496,9 +1536,11 @@ class Intuition {
 
 	/**
 	 * Return the correct HTML 'dir' attribute value for this language.
-	 * @return string
+	 *
+	 * @param string|null $lang
+	 * @return string One of "ltr" or "rtl".
 	 */
-	public function getDir( $lang = null ) {
+	public function getDir( ?string $lang = null ) : string {
 		return $this->isRtl( $lang ) ? 'rtl' : 'ltr';
 	}
 
