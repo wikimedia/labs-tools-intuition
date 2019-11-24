@@ -11,12 +11,6 @@ namespace Krinkle\Intuition;
 use Krinkle\Intuition\Util as IntuitionUtil;
 use MessagesFunctions;
 
-// Protect against invalid entry
-if ( !defined( 'INTUITION' ) ) {
-	echo "This file is not a valid entry point\n";
-	exit;
-}
-
 /**
  * This file contains the main class which the individual tools will
  * creating an instance of to use and configure their i18n.

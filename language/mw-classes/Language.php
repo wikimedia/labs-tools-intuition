@@ -10,14 +10,6 @@
  * @defgroup Language Language
  */
 
-# HACK: Intuition
-# @{
-if ( !defined( 'INTUITION' ) ) {
-	echo "This file is not a valid entry point\n";
-# @}
-	exit( 1 );
-}
-
 # Read language names
 global $wgLanguageNames;
 require_once( dirname( __FILE__ ) . '/Names.php' );

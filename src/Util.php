@@ -8,12 +8,6 @@
 
 namespace Krinkle\Intuition;
 
-// Protect against invalid entry
-if ( !defined( 'INTUITION' ) ) {
-	echo "This file is not a valid entry point\n";
-	exit;
-}
-
 /**
  * This class contains the static utility functions for the Intuition class.
  */

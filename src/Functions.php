@@ -8,12 +8,6 @@
  * @package krinkle/intuition
  */
 
-// Protect against invalid entry
-if ( !defined( 'INTUITION' ) ) {
-	echo "This file is not a valid entry point\n";
-	exit;
-}
-
 /**
  * This file contains global functions that can be made available
  * through Krinkle\Intuition::__construct. These assume an instance of the Intuition
