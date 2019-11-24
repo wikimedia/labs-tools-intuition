@@ -1,4 +1,4 @@
-<?php
+<?php declare( strict_types = 1 );
 /**
  * Main class.
  *
@@ -36,7 +36,7 @@ class Intuition {
 	public $dashboardHome = '//tools.wmflabs.org/intuition';
 
 	// Constructor options
-	protected $currentDomain;
+	protected $currentDomain = 'general';
 
 	protected $currentLanguage;
 
@@ -134,7 +134,7 @@ class Intuition {
 		}
 
 		$defaultOptions = [
-			'domain' => 'general',
+			'domain' => null,
 			'lang' => null,
 			'globalfunctions' => false,
 			'suppressfatal' => false,
@@ -148,7 +148,7 @@ class Intuition {
 		// The domain of your tool can be set here.
 		// Otherwise defaults to 'general'. See also documentation of msg()
 		// First character is case-insensitive
-		if ( isset( $options['domain'] ) ) {
+		if ( $options['domain'] !== null ) {
 			$this->setDomain( $options['domain'] );
 		}
 
@@ -263,15 +263,17 @@ class Intuition {
 	 * Return the currently selected text domain.
 	 * @return string
 	 */
-	public function getDomain() {
+	public function getDomain() : string {
 		return $this->currentDomain;
 	}
 
 	/**
 	 * Set the current domain which will be used when requesting messages etc.
-	 * @return true
+	 *
+	 * @param string $domain
+	 * @return bool Always true
 	 */
-	public function setDomain( $domain ) {
+	public function setDomain( string $domain ) : bool {
 		$this->currentDomain = $this->normalizeDomain( $domain );
 		return true;
 	}
@@ -355,7 +357,7 @@ class Intuition {
 	 * @param string $domain
 	 * @return string
 	 */
-	protected function normalizeDomain( $domain ) {
+	protected function normalizeDomain( string $domain ) : string {
 		return strtolower( $domain );
 	}
 
@@ -648,9 +650,9 @@ class Intuition {
 	 * Get information about a domain (if any).
 	 *
 	 * @param string $domain Name of the domain
-	 * @return array|bool Array with 'dir' property or false if not found
+	 * @return array|false Array with 'dir' property or false if not found
 	 */
-	public function getDomainInfo( $domain ) {
+	public function getDomainInfo( string $domain ) {
 		$domain = $this->normalizeDomain( $domain );
 		// Check cache and custom-registered domains
 		if ( !isset( $this->domainInfos[ $domain ] ) ) {
@@ -774,10 +776,12 @@ class Intuition {
 	 *
 	 * This will also return additional languages set via addAvailableLang().
 	 *
+	 * @param string|null $domain
 	 * @return array Language names keyed by language code
 	 */
-	public function getAvailableLangs( $domain = null ) {
-		$domainInfo = $this->getDomainInfo( $domain ?? $this->getDomain() );
+	public function getAvailableLangs( ?string $domain = null ) : array {
+		$domain = $domain ?? $this->getDomain();
+		$domainInfo = $this->getDomainInfo( $domain );
 		if ( !$domainInfo ) {
 			$languages = [];
 		} else {

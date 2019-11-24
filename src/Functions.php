@@ -1,4 +1,4 @@
-<?php
+<?php declare( strict_types = 1 );
 /**
  * Global functions optionally loaded with option 'globalfunctions'.
  *

@@ -1,4 +1,4 @@
-<?php
+<?php declare( strict_types = 1 );
 /**
  * Static utitlities class.
  *
@@ -193,7 +193,7 @@ class Util {
 	}
 
 	// Matches MediaWiki's Parser class
-	const EXT_LINK_URL_CLASS = '[^][<>"\\x00-\\x20\\x7F\p{Zs}]';
+	private const EXT_LINK_URL_CLASS = '[^][<>"\\x00-\\x20\\x7F\p{Zs}]';
 
 	/**
 	 * Given a text already html-escaped which contains urls in wiki format,

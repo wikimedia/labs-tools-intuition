@@ -1,4 +1,4 @@
-<?php
+<?php declare( strict_types = 1 );
 
 use Krinkle\Intuition\Util as Util;
 use PHPUnit\Framework\TestCase;
