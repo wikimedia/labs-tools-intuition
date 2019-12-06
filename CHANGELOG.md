@@ -1,3 +1,10 @@
+## [Unreleased]
+
+### Changed
+
+* `Intuition::setLang()` has more strict normalization
+  to ensure that invalid strings can't be used.
+
 ## v2.1.0 (2019-11-24)
 
 ### Changed

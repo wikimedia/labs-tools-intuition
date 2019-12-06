@@ -73,7 +73,16 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			$this->i18n->msg( 'test-value', 'test-domain' ),
 			'Change default lang'
 		);
+		// Language must be a non-empty string.
 		$this->assertFalse( $this->i18n->setLang( 42 ), 'Bad value' );
+		// Language is normalized to lowercase and hyphen-separated.
+		$this->i18n->setLang( 'en_AU' );
+		$this->assertEquals( 'en-au', $this->i18n->getLang() );
+		$this->i18n->setLang( '"bad" lang <string>' );
+		$this->assertEquals( 'bad-lang-string', $this->i18n->getLang(), 'Strip invalid characters.' );
+		$this->i18n->setLang( '*^-.' );
+		// Lang doesn't change from previous if new value is invalid.
+		$this->assertEquals( 'bad-lang-string', $this->i18n->getLang(), 'Only invalid characters.' );
 	}
 
 	/**
