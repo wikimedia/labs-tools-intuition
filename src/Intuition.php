@@ -213,6 +213,11 @@ class Intuition {
 		if ( !IntuitionUtil::nonEmptyStr( $lang ) ) {
 			return false;
 		}
+		// Pre-normalize the lang string to prevent invalid values.
+		$lang = trim( preg_replace( '/[^a-z0-9-]+/', '-', strtolower( (string)$lang ) ), '-' );
+		if ( !$lang ) {
+			return false;
+		}
 		$this->currentLanguage = $this->normalizeLang( $lang );
 		return true;
 	}
