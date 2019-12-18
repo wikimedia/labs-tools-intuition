@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"Janezdrilc"
+			"Janezdrilc",
+			"Eleassar"
 		]
 	},
 	"title-overview": "Posnetki",
@@ -12,7 +13,7 @@
 	"title-downloadpage": "Prenesi",
 	"title-downloadpage-repo": "Prenesi $1",
 	"repo-site-link": "Spletna stran",
-	"repo-browse-link": "Brskaj po skladišču",
+	"repo-browse-link": "Brskajte po skladišču",
 	"repo-branches-label": "Podveje:",
 	"repo-lastmoddate-label": "Datum:",
 	"branches-submit-button": "Pridobi!",
