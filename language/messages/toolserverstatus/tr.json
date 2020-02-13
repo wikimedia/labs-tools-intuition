@@ -12,7 +12,7 @@
 	"toolserver-status-warn": "$1 küme kullanıcıları için uyarı: $2",
 	"toolserver-status-down": "$1 veritabanı kümesi geçici olarak kapatıldı. $2",
 	"toolserver-status-erro": "$1 veritabanı kümesi kapalı. $2",
-	"toolserver-status-unknown": "Cluster $1'in durumu bilinmiyor",
+	"toolserver-status-unknown": "Cluster $1 durumu bilinmiyor",
 	"toolserver-status-missing": "Cluster $1 mevcut değil",
 	"toolserver-status-short-ok": "$1: Tamam",
 	"toolserver-status-short-info": "$1: Bilgi",

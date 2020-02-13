@@ -3,7 +3,8 @@
 		"authors": [
 			"Nayan",
 			"Nayvik",
-			"Ananth subray"
+			"Ananth subray",
+			"AKJ GOWDA"
 		]
 	},
 	"apply": "ಅನ್ವಯಿಸುತ್ತವೆ",
@@ -19,10 +20,17 @@
 	"filter": "ಶೋಧಕ",
 	"lastupdate-cvn": "ಕೊನೆಯ ಪರಿಷ್ಕರಣೆ:1$s",
 	"lastupdate-rc": "ಕೊನೆಯ ಪರಿಷ್ಕರಣೆ:1$s",
+	"license": "ಪರವಾನಿಗೆ",
 	"limit": "ಮಿತಿ",
+	"months": "ಜನವರಿ, ಫೆಬ್ರವರಿ, ಮಾರ್ಚ್, ಏಪ್ರಿಲ್, ಮೇ, ಜೂನ್, ಜುಲೈ, ಆಗಸ್ಟ್‌, ಸೆಪ್ಟೆಂಬರ್, ಅಕ್ಟೋಬರ್, ನವೆಂಬರ್, ಡಿಸೆಂಬರ್",
+	"new-short": "ಹೊಸತು",
+	"open-in-wiki": "ವಿಕ್ಕಿಯಲ್ಲಿ ತೆರೆಯಿರಿ",
 	"order": "ಕ್ರಮ",
 	"reload-interval": "ಮಧ್ಯಂತರ",
 	"select-placeholder-none": "(ಯಾವೂ ಇಲ್ಲ)",
+	"showAnonOnly": "ಅನಾಮಧೇಯರು ಮಾತ್ರ",
+	"skip": "ತಪ್ಪಿಸು",
+	"tag": "ಜೊತೆ",
 	"time-from": "ಇಂದ",
 	"time-untill": "ರವರೆಗೆ",
 	"timeframe": "ಕಾಲಾವಧಿ",

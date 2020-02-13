@@ -3,7 +3,8 @@
 		"authors": [
 			"Lauhenry",
 			"Simon Shek",
-			"Kly"
+			"Kly",
+			"Xiplus"
 		]
 	},
 	"description": "有關維基媒體wikis元訊息",
@@ -11,5 +12,5 @@
 	"input": "輸入",
 	"label-wikiids": "Wiki標識符",
 	"no-matches": "找不到 \"$1\"",
-	"output": "輸出為\" $1 \""
+	"output": "輸出「$1」"
 }

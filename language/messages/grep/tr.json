@@ -9,7 +9,7 @@
 	"title": "Madde başlığı grep (beta)",
 	"introduction": "Bu araç, normal ifade deseni ($1) ile eşleşen tüm makale başlıklarını gösterir. Düzenli bir ifade kullanarak arama yapmak kaynak yoğundur. Mümkünse, önek (^) ve ($) sonek göstergelerini kullanmayı unutmayın.",
 	"explanation": "açıklama",
-	"regex": "Düzgün İfade",
+	"regex": "Düzenli ifade",
 	"enter-details": "Detayları girin",
 	"results": "Sonuçlar",
 	"language-label": "Dil",
