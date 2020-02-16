@@ -6,7 +6,8 @@
 			"Simon Shek",
 			"Wehwei",
 			"AF",
-			"TongcyDai"
+			"TongcyDai",
+			"Sunny00217"
 		]
 	},
 	"enter-details": "輸入詳細資料",
@@ -16,6 +17,6 @@
 	"pagename-label": "頁面名稱 （不包括命名空間）",
 	"transclusion-count-label": "使用數目",
 	"transclusion-count": "找到$1個頁面使用此模板。",
-	"error-suggestion": "可能你錯打了頁面的標題（或大小寫、繁簡體）？",
+	"error-suggestion": "可能你打錯了頁面的標題（或大小寫、繁簡體）？",
 	"time-label": "執行命令所需的時間"
 }

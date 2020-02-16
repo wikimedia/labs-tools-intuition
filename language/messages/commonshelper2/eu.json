@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"An13sa"
+			"An13sa",
+			"Xabier Armendaritz"
 		]
 	},
 	"attention": "Erne",
@@ -23,5 +24,5 @@
 	"new_filename": "Fitxategiaren izen berria:",
 	"upload_submit": "Igo!",
 	"error_tusc_failed": "TUSC baieztapenak huts egin du!",
-	"help_mail": "Bidali mezu bat $1-(r)i"
+	"help_mail": "Bidali mezu bat $1 wikilariari"
 }

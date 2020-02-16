@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ananth subray"
+			"Ananth subray",
+			"AKJ GOWDA"
 		]
 	},
 	"form-label-language": "ಭಾಷೆ",
 	"form-label-complete": "ಸಾಮಾನ್ಯ ಸಂಪೂರ್ಣ ವರದಿ",
 	"feedback-total-count": "ಒಟ್ಟು: $1",
 	"link-edit": "ಬದಲಾಯಿಸಿ",
-	"link-create": "ಸೃಷ್ಟಿಸು"
+	"link-create": "ಸೃಷ್ಟಿಸು",
+	"link-complete": "ಪೂರ್ಣ ವರದಿ",
+	"error-language": "ಅಪರಿಚಿತ ಭಾಷಾ ಕೋಡ್"
 }

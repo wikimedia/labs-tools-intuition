@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Omotecho"
 		]
 	},
+	"title": "記事名の grep (beta)",
+	"introduction": "このツールを使うと正規表現で特定のパターン ($1) に一致する記事名をすべて表示します。正規表現を使った検索は資源を消耗します。可能な限り、接頭辞 (^) と接尾辞 ($) の指定をお願いします。",
 	"explanation": "説明",
 	"regex": "正規表現",
 	"enter-details": "詳細の入力",

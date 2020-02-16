@@ -3,7 +3,8 @@
 		"authors": [
 			"Hydra",
 			"Liuxinyu970226",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Xiplus"
 		]
 	},
 	"description": "关于维基媒体网站的元信息。",
@@ -11,5 +12,5 @@
 	"input": "输入",
 	"label-wikiids": "Wiki 标识符",
 	"no-matches": "没有网站匹配 \"$1\"",
-	"output": "输出 \"$1\""
+	"output": "输出“$1”"
 }

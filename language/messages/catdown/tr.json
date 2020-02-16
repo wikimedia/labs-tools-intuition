@@ -11,7 +11,7 @@
 	"subtitle": "Bir kategorideki resimleri indirmenin kolay yolu",
 	"project": "Proje:",
 	"category": "Kategori:",
-	"thumbnailing": "Thumbnailing",
+	"thumbnailing": "Küçük resimleşme",
 	"max-width": "Maksimum genişlik:",
 	"max-height": "Maksimum yükseklik:",
 	"invalid-width": "Geçersiz genişlik",
@@ -22,12 +22,12 @@
 	"category-contains-namespace": "Kategori adı boyunca ad alanını dahil etmiş görünüyorsunuz. Verilen adla, sayfa [[Category:$1]] olarak kullanılabilir.",
 	"zip-failed": "Zip oluşturma başarısız oldu",
 	"image-area-too-big": "$1, küçük resim oluşturmak için çok büyük. Tam boy kullanıldı.",
-	"download-info": "Tahminen $2 büyüklüğünde {{plural: $1|bir resim var|$1 resim var}}",
+	"download-info": "Tahminen $2 büyüklüğünde {{plural:$1|bir resim var|$1 resim var}}",
 	"download": "İndir",
 	"readme-contents": "$4 dosya listeleniyor\n$1 kategorisindeki görüntüler ($2) $3.\n\n== Listelenen tüm görüntüleri indirmek için talimatlar ==\nİndirme süresi birkaç dakika ila birkaç saat arasında değişebilir.\n\nPencereler:\n  Tüm dosyaları aynı klasöre çıkartın ve $5 komutunu çalıştırın\n  $6\nLinux / Mac OS:\n  Tüm dosyaları ayıkla ve bu klasörde bir terminal aç. $5 çalıştır",
 	"non-bundled-wget": "Not: Bu sürüm Windows için wget içermemektedir. Sıkıştırmasını açmanız gerekecek\nwget.exe olan bir klasöre veya PATH’te başka bir öğeye sahipseniz",
 	"wget-info": "Bu dosya wget $1 (Windows platformu için) bir kopyasını içerir. Wget Özgür Yazılımdır,\nGNU GENEL KAMU LİSANSI sürüm 3 şartları altında.\nAşağıdaki lisansın bir kopyası var http://www.gnu.org/licenses/gpl-3.0.txt\n\nBu programın kaynak kodunu almakla ilgileniyorsanız, buradan indirebilirsiniz\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nveya diğer bazı GNU Aynalarına bakınız\n http://www.gnu.org/prep/ftp.html",
 	"scaling-width": ", maksimum $1 genişliğe ölçeklendirildi {{plural:$1|piksel|piksel}}",
-	"scaling-height": ", maksimum $1 yüksekliğe ölçeklendirildi {{plural:$1|piksel|piksel}}",
+	"scaling-height": ", maksimum $1 {{plural:$1|piksel|piksel}} yüksekliğe ölçeklendirildi",
 	"scaling-both": ", maksimum $1x$2 piksel boyutunda ölçeklendirilebilir"
 }

@@ -3,12 +3,13 @@
 		"authors": [
 			"Emperyan",
 			"Vito Genovese",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"hello": "Merhaba",
 	"welcome": "Hoş geldiniz",
-	"toolversion": "$1 sürümü",
+	"toolversion": "Sürüm $1",
 	"toolversionstamp": "Sürüm $1 ($2)",
 	"etc": "vs.",
 	"namespace": "Ad alanı",

@@ -1,11 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ananth subray"
+			"Ananth subray",
+			"AKJ GOWDA"
 		]
 	},
 	"category_users": "ಬಳಕೆದಾರ",
 	"category_articles": "ಪುಟಗಳು",
 	"category_images": "ಚಿತ್ರಗಳು",
-	"prefs_submit": "ಸರಿ"
+	"category_wikidata": "ವಿಕ್ಕಿಡಾಟ",
+	"select_wiki_title": "ವಿಕ್ಕಿಯೊಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+	"select_wiki_next": "ಮುಂದಿನ →",
+	"select_report": "ವರದಿಯೊಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+	"select_report_disabled": "ಈ ವರದಿಯು ಲಭ್ಯವಿಲ್ಲ",
+	"select_report_first": "ಈ ವರದಿಯು ಇದೇ ಮೊದಲ ಬಾರಿಗೆ ರಚನೆಯಾಗಿದೆ, ಶೀಘ್ರವಾಗಿ ಲಭ್ಯವಾಗಲಿದೆ.",
+	"select_report_no_reports": "ಕ್ಷಮಿಸಿ, ಈ ಕ್ಷಣದಲ್ಲಿ %(ವಿಕ್ಕಿ)ಗೆ ವರದಿಗಳು ಲಭ್ಯವಿಲ್ಲ.",
+	"select_report_go_back": "← ವಿಕ್ಕಿಯನ್ನು ಬದಲಾಯಿಸಿ",
+	"qvar_next": "ಮುಂದೆ →",
+	"prefs_title": "ವರದಿಯ ಆಯ್ಕೆಗಳು",
+	"prefs_submit": "ಸರಿ",
+	"prefs_done": "ನಿಮ್ಮ ಆಯ್ಕೆಗಳು ಬದಲಾಗಿವೆ"
 }

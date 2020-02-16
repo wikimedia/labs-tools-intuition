@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Uğurkent",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Kayıt",
-	"voiceintro-toolbar-stop-label": "Dur",
+	"voiceintro-toolbar-stop-label": "Durdur",
 	"voiceintro-toolbar-clear-label": "Temizle",
 	"voiceintro-toolbar-upload-label": "Yükle",
 	"voiceintro-webaudio-not-supported": "WebAudio API bu tarayıcı için desteklenmiyor",
@@ -15,6 +16,6 @@
 	"voiceintro-information-label": "Bilgi",
 	"voiceintro-information-speaker-label": "Konuşanın adı:",
 	"voiceintro-information-language-label": "Dil:",
-	"voiceintro-mic-access-notify": "Tarayıcının mikrofonunuza erişmesine izin vermek için \"İzin ver\"e tıklayın.",
+	"voiceintro-mic-access-notify": "Tarayıcının mikrofonunuza erişmesine izin vermek için \"İzin ver\"'e tıklayın.",
 	"voiceintro-recording-notify": "Kaydediliyor..."
 }

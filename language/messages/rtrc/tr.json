@@ -6,7 +6,8 @@
 			"Sayginer",
 			"Kumkumuk",
 			"Vito Genovese",
-			"Incelemeelemani"
+			"Incelemeelemani",
+			"BaRaN6161 TURK"
 		]
 	},
 	"title": "Gerçek Zamanlı Son Değişiklikler",
@@ -18,7 +19,7 @@
 	"close": "Kapat",
 	"currentedit": "Şu anda seçili düzenleme",
 	"cvn-adder": "Eklendi",
-	"cvn-adder-empty": "Bilinmeyen",
+	"cvn-adder-empty": "Bilinmiyor",
 	"cvn-reason": "Gerekçe",
 	"cvn-reason-empty": "Hiçbir sebep bulunamadı",
 	"cvn-scores": "CVN Skorları",
@@ -35,8 +36,8 @@
 	"lastupdate-rc": "Son güncelleme: $1",
 	"legend": "Gösterge",
 	"license": "Lisans",
-	"limit": "Limit",
-	"mark": "işaret",
+	"limit": "Sınır",
+	"mark": "işaretle",
 	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "MassPatrol, kullanıcı filtresi gerektirdiğinden ve hiçbiri ayarlanmadığından devre dışı bırakıldı.",
 	"months": "Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık",
@@ -45,7 +46,7 @@
 	"navtoggle-tooltip": "Kenar çubuğu anahtarı",
 	"new-short": "yeni",
 	"nomatches": "Ayarlarınızda ilgili değişiklik yok",
-	"open-in-wiki": "Wiki'de aç",
+	"open-in-wiki": "Vikide Aç",
 	"order": "Sıra",
 	"ores-damaging-probability": "Hasar olasılığı: $1",
 	"ores-scores": "ORES Skorları",
@@ -65,5 +66,5 @@
 	"typeEdit": "Düzenlemeler",
 	"typeNew": "Yeni sayfalar",
 	"unskip": "Atlama",
-	"userfilter": "Filtre kullan"
+	"userfilter": "Kullanıcı filtresi"
 }

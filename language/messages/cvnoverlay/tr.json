@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Uğurkent",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"adder": "Ekleyen",
-	"adder-empty": "Bilinmeyen",
+	"adder-empty": "Bilinmiyor",
 	"expiry": "Bitiş",
 	"globalwatched": "Küresel olarak izlemeye alındı",
 	"reason": "Gerekçe",

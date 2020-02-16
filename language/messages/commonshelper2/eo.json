@@ -4,7 +4,8 @@
 			"Anakmalaysia",
 			"Objectivesea",
 			"Yekrats",
-			"Mirin"
+			"Mirin",
+			"Robin van der Vliet"
 		]
 	},
 	"attention": "Atentu",
@@ -22,7 +23,7 @@
 	"remove_cats": "Forigi ekzistantajn kategoriojn",
 	"use_checkusage": "Uzu $1CommonSense$2-on por proponi novajn kategoriojn",
 	"use_tusc": "Uzu $1TUSC$2-on por kontroli kaj transloki rekte la dosieron",
-	"tusc_user": "Salutnomo de TUSC",
+	"tusc_user": "TUSC-uzantnomo",
 	"tusc_pass": "Pasvorto de TUSC",
 	"do_it": "Faru",
 	"error_transfer_usr": "Vi ne elektis uzantnomon pri la Vikimedia Komunumo",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tigrigna1"
+			"Tigrigna1",
+			"Joanmp17"
 		]
 	},
 	"max-width": "ዝሰፍሐ ጎኒ",
@@ -10,5 +11,5 @@
 	"invalid-height": "ጌጋ ቁመት",
 	"no-such-project": "ዝመሳሰል ዕዮ ኣይተረኽበን",
 	"no-images": "ኣብዚ ክፍሊ ዝኾነ ስእሊ ኣይተረኽበን",
-	"download": "ጽዓን"
+	"download": "አውርድ"
 }
