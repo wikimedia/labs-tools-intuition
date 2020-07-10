@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"asc": "Павелічэньне",
+	"changelog": "Што новага",
+	"clear": "ачысьціць",
+	"close": "Закрыць",
+	"currentedit": "Актуальна выбранае рэдагаваньне",
+	"cvn-adder": "Дадавач",
+	"cvn-adder-empty": "Невядомы",
+	"cvn-reason": "Прычына",
+	"cvn-reason-empty": "Ня знойдзена прычынаў",
+	"order": "Парадак",
+	"ores-damaging-probability": "Імавернасьць пашкоджаньня: $1",
+	"timeframe": "Часавыя рамкі",
+	"type": "Тып",
+	"typeEdit": "Рэдагаваньні",
+	"typeNew": "Новыя старонкі"
+}

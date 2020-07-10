@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ricordisamoa",
 			"F. Cosoleto",
-			"Gianfranco"
+			"Gianfranco",
+			"Ricordisamoa"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Modifica lingua / preferenze</a>",

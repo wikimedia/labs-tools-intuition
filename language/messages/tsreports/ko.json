@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라",
-			"Ykhwong"
+			"Ykhwong",
+			"아라"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">언어 / 환경 설정 변경</a>",

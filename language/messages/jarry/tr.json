@@ -1,14 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ahmetlii",
+			"BaRaN6161 TURK",
 			"Emperyan",
-			"Khutuck",
+			"Grkn gll",
 			"Incelemeelemani",
-			"Grkn gll"
+			"Khutuck"
 		]
 	},
-	"moretools": "daha fazla araç",
-	"homepage-title": "Başlangıç",
+	"moretools": "Daha fazla araç",
+	"homepage-title": "Giriş",
 	"bugs": "hata raporları ve özellik istekleri",
 	"comments": "yorumlar ve sorgular",
 	"error-form-empty": "Bir veya daha fazla gerekli alan boş bırakılmıştır. Devam etmeden önce bunları doldurmanız gerekir."

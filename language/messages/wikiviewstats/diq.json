@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
+			"Asmen",
+			"Gırd",
 			"Kumkumuk",
 			"Mirzali",
-			"Asmen",
-			"1917 Ekim Devrimi",
-			"Gırd",
 			"Orbot707"
 		]
 	},
@@ -66,12 +66,36 @@
 	"semi": "nêm",
 	"complete": "temam",
 	"active": "aktif",
+	"bureaucrats": "buroqrati",
 	"sysops": "idarekari",
 	"bots": "boti",
 	"articles": "meqaley",
+	"good_articles": "Meqaleya hewl",
 	"pages": "peli",
+	"watchers": "Temaştoğ",
+	"redirects": "serşıkıtış",
+	"testmode": "Modê testi",
+	"by": "Ra",
+	"icons": "ikoni",
+	"thisSoftwareIs": "No software",
+	"rawDataSource": "Cem çımey data",
+	"lastUpdate": "rocanekerdışo peyên",
 	"namespaces": "heruna nameyan",
+	"colorScheme": "Şemay renge",
+	"customBarColors": "Xısusi barê rengi",
 	"on": "akerde",
+	"off": "Racnaye",
+	"submit": "Bırışê",
 	"save": "qeyd ke",
-	"cancel": "bıtexelne"
+	"cancel": "bıtexelne",
+	"resetAndDelete": "Reset & Cookie esterıtış",
+	"autofilter": "Parzûnê otomatiki",
+	"barchart": "Grafikê çuweyi",
+	"linechart": "Grafik xete",
+	"disambPage": "Pela maney bini",
+	"showRedir": "Serşıkıtışa bımocne",
+	"searchVariants": "Varyanta cıgeyrayış",
+	"addToWorkList": "Lisa gurenayışi kerê",
+	"removeFromWorklist": "Lista gurenayışi ra wedarıtış",
+	"projectPages": "Pela proceyi"
 }

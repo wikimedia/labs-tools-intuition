@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226",
 			"Kly",
-			"LNDDYL"
+			"LNDDYL",
+			"Liuxinyu970226"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">變更語言/偏好設定</a>",

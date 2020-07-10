@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"voiceintro-toolbar-record-label": "רעקארדירן",
 	"voiceintro-toolbar-stop-label": "אויפהערן",
 	"voiceintro-toolbar-clear-label": "רייניקן",

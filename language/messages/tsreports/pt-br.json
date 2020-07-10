@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fasouzafreitas",
 			"Araceletorres",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Fasouzafreitas"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Change language / preferences</a>",

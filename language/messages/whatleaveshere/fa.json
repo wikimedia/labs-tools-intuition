@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Huji",
 			"Reza1615"
 		]
 	},
@@ -16,7 +17,7 @@
 	"tooltip-whatleaveshere": "فهرستی از همه چیز که پیوند از اینجا دارند",
 	"whatlinkshere": "پیوندها به این صفحه",
 	"whatlinkshere-whatleaveshere": "چه پیوندی به اینجا؟",
-	"istemplate": "تراگنجانش‌ها",
+	"istemplate": "تراگنجانش",
 	"isfile": "پیوند به پرونده",
 	"linksearch": "جستجوی‌پیوند",
 	"section-links": "پیوندها",

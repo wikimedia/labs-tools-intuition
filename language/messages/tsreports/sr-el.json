@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Promeni jezik / podešavanja</a>",
 	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Viki</a>",
 	"category_users": "Korisnici",

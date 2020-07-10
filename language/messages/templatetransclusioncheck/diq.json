@@ -1,13 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirzali",
-			"Kumkumuk"
+			"1917 Ekim Devrimi",
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
 	"form-label-language": "Zıwan:",
+	"form-label-template": "Namey Şabloni:",
+	"form-label-template2": "(caynamey daxil)",
+	"form-label-complete": "Yû tam rapor vırazê:",
 	"feedback-template-missing": "Şablon $1 çıniyo.",
+	"feedback-result": "$1 ra neticey :",
+	"feedback-header-redirects": "Gırey serşıkıtışi",
+	"feedback-total-count": "Pêro :$1",
 	"link-edit": "bıvurne",
 	"link-create": "vıraze",
+	"link-complete": "Rapora tam...",
+	"footer-stats": "Vıraziyê : $1. ramayış: $2 {{PLURAL:$2|saniye|saniyey}}.",
 	"error-language": "Kodê zıwaniyo nêzaniyaye."
 }

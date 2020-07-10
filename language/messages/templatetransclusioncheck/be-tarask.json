@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"form-label-language": "Мова:",
+	"form-label-template": "Назва шаблёну:",
+	"form-label-template2": "(уключна з прасторай назваў)",
+	"form-label-complete": "Згенэраваць поўную справаздачу:",
+	"feedback-template-missing": "Шаблён $1 не існуе."
+}

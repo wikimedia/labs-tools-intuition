@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alirezaaa",
-			"MohandesWiki",
 			"Ahmad252",
-			"FarsiNevis"
+			"Alirezaaa",
+			"FarsiNevis",
+			"MohandesWiki"
 		]
 	},
 	"records": "سوابق",
@@ -33,7 +33,7 @@
 	"myarea": "منطقه من",
 	"myfavs": "علاقه مندی ها",
 	"mycontribs": "مشارکت‌ها",
-	"mywatchlists": "فهرست پی‌گیری‌ها",
+	"mywatchlists": "فهرست‌های پی‌گیری",
 	"myworklist": "فهرست کار",
 	"top": "بالا",
 	"overall": "به طور کلی",
@@ -113,7 +113,7 @@
 	"cancel": "لغو",
 	"resetAndDelete": "تنظیم مجدد و حذف کوکی ها",
 	"autofilter": "فیلتر خودکار",
-	"barchart": "نمودار میله ای",
+	"barchart": "نمودار میله‌ای",
 	"linechart": "نمودار خطی",
 	"linechart_filled": "نمودار خطی توپر",
 	"isRedirect": "این صفحه تغییر مسیر است",

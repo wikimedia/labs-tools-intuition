@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"voiceintro-toolbar-record-label": "பதிவிடுக",
 	"voiceintro-toolbar-stop-label": "நிறுத்துக",
 	"voiceintro-toolbar-clear-label": "நீக்கு",

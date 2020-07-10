@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Krinkle",
+			"Marcelhospers",
 			"Siebrand",
-			"Sjoerddebruin",
-			"Marcelhospers"
+			"Sjoerddebruin"
 		]
 	},
 	"title": "Realtime recente wijzigingen",

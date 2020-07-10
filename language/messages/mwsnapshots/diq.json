@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Erdemaslancan",
-			"Mirzali",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
 	"title-overview": "Snapshots",
@@ -12,11 +13,14 @@
 	"download-button": "Enstantane Fotrafi Ron",
 	"title-downloadpage": "Biya war",
 	"title-downloadpage-repo": "$1 biya war",
-	"repo-site-link": "Websita",
+	"repo-site-link": "Keyepele",
 	"repo-branches-label": "Lızgey:",
 	"repo-lastmoddate-label": "Tarix:",
 	"branches-submit-button": "Şo ri!",
 	"updatelog-link": "qeydi newe ke",
+	"tablehead-repo": "Embar",
+	"tablehead-snapshots": "Fotrafo enstantane",
 	"tablehead-branch": "Lızge",
-	"tablehead-filesize": "Ebadê dosya"
+	"tablehead-filesize": "Ebadê dosya",
+	"tablehead-hash": "Checksums"
 }

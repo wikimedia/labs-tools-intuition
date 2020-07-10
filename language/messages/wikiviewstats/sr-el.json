@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"records": "snimci",
 	"list": "Lista",
 	"sample": "Primer",

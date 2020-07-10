@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"voiceintro-toolbar-record-label": "録音",
 	"voiceintro-toolbar-stop-label": "停止",
 	"voiceintro-toolbar-clear-label": "消去",

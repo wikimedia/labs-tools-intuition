@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Chameleon",
+			"Chameleon222",
 			"KhangND",
 			"Liuxinyu970226",
-			"Chameleon222",
+			"Nintendofan885",
 			"Purodha"
 		]
 	},
-	"title": "Title for the tool.\nIt checks any template, but one at a time. It's typically used to check the use of navboxes (like team squads etc).\nExamples of use:\n* [//tools.wmflabs.org/templatetransclusioncheck?lang=en&complete=1&name=Template:Real_Madrid_C.F._squad Check of enWP Template:Real Madrid C.F. squad]\n* [//tools.wmflabs.org/templatetransclusioncheck/index.php?lang=de&name=Vorlage%3ANavigationsleiste_Olympiasieger_%C3%BCber_100_m_Freistil&complete=1 Check of deWP Vorlage:Navigationsleiste Olympiasieger über 100 m Freistil]\n<!-- thanks to \n\n[[User:Chameleon222|Chameleon222]] ([[User talk:Chameleon222|talk]]) -->",
+	"title": "Title for the tool.\nIt checks any template, but one at a time. It's typically used to check the use of navboxes (like team squads etc).\nExamples of use:\n* [//templatetransclusioncheck.toolforge.org/?lang=en&complete=1&name=Template:Real_Madrid_C.F._squad Check of enWP Template:Real Madrid C.F. squad]\n* [//templatetransclusioncheck.toolforge.org/index.php?lang=de&name=Vorlage%3ANavigationsleiste_Olympiasieger_%C3%BCber_100_m_Freistil&complete=1 Check of deWP Vorlage:Navigationsleiste Olympiasieger über 100 m Freistil]\n<!-- thanks to \n\n[[User:Chameleon222|Chameleon222]] ([[User talk:Chameleon222|talk]]) -->",
 	"description": "Description of the tool.",
 	"form-label-language": "Form label for an input field requesting a wiki language id.\n{{Identical|Language}}",
 	"form-label-template": "Form label for an input field for a template name.\n{{Identical|Template name}}",

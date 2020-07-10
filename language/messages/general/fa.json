@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Ebraminio",
+			"FarsiNevis",
 			"Mjbmr",
 			"Reza1615"
 		]
 	},
 	"hello": "سلام",
-	"welcome": "خوش‌آمدید",
+	"welcome": "خوش آمدید",
 	"toolversion": "نسخهٔ $1",
 	"toolversionstamp": "نسخهٔ $1 ($2)",
 	"etc": "غیره.",

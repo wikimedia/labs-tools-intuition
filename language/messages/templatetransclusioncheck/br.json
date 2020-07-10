@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gwenn-Ael",
-			"Fulup"
+			"Fulup",
+			"Gwenn-Ael"
 		]
 	},
 	"title": "Liamm ar patromoù ha gwiriañ enklozadurioù",
@@ -15,7 +15,7 @@
 	"feedback-header-mismatch": "Klotadur fall etre enklozadurioù ha liammoù",
 	"feedback-header-no-link": "Enklozadur hep liamm",
 	"feedback-header-no-transclusion": "Liamm hep enklozadur",
-	"feedback-header-redirects": "Liammoù war-zu adkasadennoù",
+	"feedback-header-redirects": "Liammoù war-zu adkasoù",
 	"feedback-total-count": "Hollad : $1",
 	"feedback-header-complete": "Enklozadur klok ha gwelet al liamm",
 	"feedback-header-transclusions": "Enklozadurioù ar patrom",

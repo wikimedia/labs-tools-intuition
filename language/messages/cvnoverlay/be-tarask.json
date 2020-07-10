@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"adder": "Дадавач",
+	"adder-empty": "Невядомы",
+	"expiry": "Сканчэньне",
+	"globalwatched": "Глябальна адсочваецца",
+	"reason": "Прычына",
+	"reason-empty": "Ня знойдзена прычынаў"
+}

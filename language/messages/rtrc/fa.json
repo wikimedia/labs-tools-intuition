@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"AzorAhai",
+			"Dejavu",
+			"Ebraminio",
+			"FarsiNevis",
 			"Fatemi127",
+			"Huji",
+			"Leyth",
 			"Pouyana",
 			"Reza1615",
-			"Leyth",
-			"AzorAhai",
-			"Ebraminio",
-			"Dejavu",
-			"Huji",
-			"FarsiNevis"
+			"Sunfyre"
 		]
 	},
-	"title": "تغییرات اخیر در زمان واقعی",
+	"title": "تغییرات اخیر بی‌درنگ",
 	"apply": "اعمال",
 	"autodiff": "تفاوت خودکار",
 	"asc": "صعودی",
@@ -34,8 +35,8 @@
 	"filter-unpatrolled": "پنهان کردن ویرایش‌های گشت‌خورده",
 	"help": "راهنما",
 	"helpicon-tooltip": "دربارهٔ این ویژگی بیشتر مطالعه کنید",
-	"lastupdate-cvn": "آخرین روزآمدسازی:$1",
-	"lastupdate-rc": "آخرین روزآمدسازی: $1",
+	"lastupdate-cvn": "آخرین به‌روزرسانی:$1",
+	"lastupdate-rc": "آخرین به‌روزرسانی: $1",
 	"legend": "شرح علائم",
 	"license": "مجوز",
 	"limit": "محدودیت",
@@ -56,7 +57,7 @@
 	"permalink": "پیوند ثابت به تنظیمات کنونی",
 	"reload-interval": "فاصله زمانی",
 	"select-placeholder-none": "(هیچ)",
-	"showAnonOnly": "فقط کاربران گمنام",
+	"showAnonOnly": "فقط کاربران ناشناس",
 	"showUnpatrolledOnly": "فقط گشت‌نخورده‌ها",
 	"skip": "پرش",
 	"skippededit": "ویرایش‌های از قلم انداخته شده",

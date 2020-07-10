@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Luckas",
-			"Athena in Wonderland"
+			"Athena in Wonderland",
+			"Luckas"
 		]
 	},
 	"toolserver-status-ok": "Não há problemas no cluster da base de dados $1 $2",

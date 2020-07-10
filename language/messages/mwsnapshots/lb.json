@@ -13,7 +13,7 @@
 	"download-button": "Snapshot eroflueden",
 	"title-downloadpage": "Eroflueden",
 	"title-downloadpage-repo": "$1 eroflueden",
-	"err-nosnapshot": "Snapshots ginn all puer Stonne generéiert. Wéi de Snapshot fir \"$1\" generéiert gouf ass e Feeler geschitt. Probéiert méi w.e.g. nach eng Kéier.",
+	"err-nosnapshot": "Snapshots ginn all puer Stonne generéiert. Wéi de Snapshot fir \"$1\" generéiert gouf ass e Feeler geschitt. Probéiert méi wgl. nach eng Kéier.",
 	"err-noupdatelog": "D'Logbuch vun den Aktualisatioune gouf net fonnt",
 	"repo-site-link": "Internetsite",
 	"repo-branches-label": "Famillje vu Versiounen:",

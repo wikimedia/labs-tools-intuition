@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent",
+			"BaRaN6161 TURK",
 			"Hedda",
-			"BaRaN6161 TURK"
+			"Uğurkent"
 		]
 	},
 	"title-overview": "Anlık resimler",
 	"title-error": "Hata",
 	"title-updatelog": "Günlüğü güncelle",
-	"updatelog-intro": "Güncelleme komut dosyasının her saat başı çalışması planlanıyor. Son çalışmanın konsol çıkışı aşağıdadır.",
-	"updatelog-active": "Güncelleme komut dosyası şu anda çalışıyor. Tüm günlük için daha sonra tekrar gelin.",
+	"updatelog-intro": "Güncelleme betiği her saat başı çalışması planlanıyor. Son çalışmanın konsol çıkışı aşağıdadır.",
+	"updatelog-active": "Güncelleme betiği şu anda çalışıyor. Tüm günlük için daha sonra tekrar gelin.",
 	"download-button": "Anlık resim indirin",
 	"title-downloadpage": "İndir",
 	"title-downloadpage-repo": "$1 dosyasını indir",
@@ -27,7 +27,7 @@
 	"updatelog-link": "günlüğü güncelle",
 	"tablehead-repo": "Depo",
 	"tablehead-snapshots": "Anlık resimler",
-	"tablehead-branch": "Branş",
+	"tablehead-branch": "Dal",
 	"tablehead-filesize": "Dosya boyutu",
 	"tablehead-hash": "Sağlama"
 }

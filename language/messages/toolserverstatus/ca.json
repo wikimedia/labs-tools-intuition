@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"SMP",
-			"Fitoschido"
+			"Fitoschido",
+			"SMP"
 		]
 	},
 	"toolserver-status-ok": "No hi ha cap problema amb l’agrupament de base de dades $1 $2",

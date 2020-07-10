@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki",
 			"Amire80",
-			"Pierpao"
+			"Pierpao",
+			"Shirayuki"
 		]
 	},
 	"alws-label": "Label in the input form for the dropdown menu with all wikis, of which one must be chosen.\n\n{{Identical|Wiki}}",

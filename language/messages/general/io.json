@@ -4,6 +4,7 @@
 			"Joao Xavier"
 		]
 	},
+	"namespace": "Nomaro",
 	"years": "{{PLURAL: $1|yaro|yari}}",
 	"months": "{{PLURAL: $1|monato|monati}}",
 	"weeks": "{{PLURAL: $1|semano|semani}}",

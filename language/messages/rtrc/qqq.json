@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Krinkle",
 			"Liuxinyu970226",
-			"Shirayuki",
-			"Purodha"
+			"Purodha",
+			"Shirayuki"
 		]
 	},
 	"title": "The title of the tool.\n{{Optional}}",
@@ -15,7 +16,7 @@
 	"clear": "Button to clear (or reset) a particular input field.\n{{Identical|Clear}}",
 	"close": "Button to close the change preview.\n{{Identical|Close}}",
 	"currentedit": "Example text in the legend to show what a currently selected edit looks like",
-	"cvn-adder": "Label of the user that added this item to the CVN database\n{{Identical|Adder}}",
+	"cvn-adder": "Label of the user that added this item to the CVN database.",
 	"cvn-adder-empty": "Placeholder text for when the author is unknown.\n\nSee also:\n* {{msg-intuition|rtrc-cvn-adder}}\n{{Identical|Unknown}}",
 	"cvn-reason": "Label of the comment left by the user who added this item to the CVN database.\n{{Identical|Reason}}",
 	"cvn-reason-empty": "Placeholder text when no reason was found\n\nSee also:\n* {{msg-intuition|rtrc-cvn-reason}}",

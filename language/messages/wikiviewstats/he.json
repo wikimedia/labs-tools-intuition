@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"דגש חזק"
 		]
 	},
 	"records": "רשומות",
@@ -61,7 +62,7 @@
 	"semi": "חלקית",
 	"complete": "מלאה",
 	"active": "פעיל",
-	"bureaucrats": "ביורוקרטים",
+	"bureaucrats": "בירוקרטים",
 	"sysops": "מפעילים",
 	"bots": "בוטים",
 	"articles": "ערכים",

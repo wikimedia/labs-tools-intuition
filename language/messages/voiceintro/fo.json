@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"voiceintro-toolbar-record-label": "Ger upptøku",
 	"voiceintro-toolbar-stop-label": "Støðga",
 	"voiceintro-toolbar-clear-label": "Reinsa",

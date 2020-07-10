@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح",
-			"ديفيد"
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">تغيير تفضيلات اللغة</a>",
 	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">أبلغ عن طلب ميزة أو خلل</a>",
 	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">ويكي</a>",
+	"base_links": "%(prefslink)s | %(jiralink)s | %(wikilink)s",
 	"category_users": "المستخدمون",
 	"category_articles": "الصفحات",
 	"category_images": "الصور",
@@ -41,7 +43,9 @@
 	"report_first_run": "يتم إنشاء هذا التقرير للمرة الأولى; لذلك لا تتوفر بيانات حتى الآن.",
 	"report_last_run_duration": "تم إنشاء هذا التقرير في %(duration)s.",
 	"report_variables_used": "تم استخدام المتغيرات التالية لإنشاء هذا التقرير:",
+	"report_variable": "%(name)s: %(value)s",
 	"report_noresults": "عذراً، لم تنتج نتائج عن هذا التقرير.",
+	"report_changelinks": "← %(changereport)s | %(changewiki)s",
 	"report_change_report": "<a href=\"%(url)s\">تغيير التقرير</a>",
 	"report_change_wiki": "<a href=\"%(url)s\">تغيير الويكي</a>"
 }

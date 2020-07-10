@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Erdemaslancan",
-			"Mirzali",
-			"Gırd"
+			"Gırd",
+			"Mirzali"
 		]
 	},
+	"enter-details": "Detay dekerdış",
 	"language-label": "Zıwan",
 	"namespace-label": "Heruna nameyan"
 }

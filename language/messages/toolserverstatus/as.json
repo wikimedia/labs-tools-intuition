@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dibya Dutta",
 			"Gitartha.bordoloi",
-			"Simbu123",
-			"Dibya Dutta"
+			"Simbu123"
 		]
 	},
 	"toolserver-status-ok": "আধাৰতথ্য গোট $1 $2ত কোনো সমস্যা নাই",

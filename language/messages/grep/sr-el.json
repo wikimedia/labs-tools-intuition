@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"regex": "Regularni izraz",
 	"enter-details": "Unesite detalje",
 	"results": "Rezultati",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"title": "Šta odvodi odavde",
 	"label-page": "Stranica",
 	"label-namespace": "Imenski prostor",

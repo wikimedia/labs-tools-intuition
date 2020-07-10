@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"voiceintro-title": "The name of the tool{{notranslate}}",
 	"voiceintro-toolbar-record-label": "Label text for the button to start recording.\n{{Identical|Record}}",
 	"voiceintro-toolbar-stop-label": "Label text for the button to stop recording.\n{{Identical|Stop}}",

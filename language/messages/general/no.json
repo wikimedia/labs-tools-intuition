@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"hello": "Hallo",
 	"welcome": "Velkommen",
 	"toolversionstamp": "Versjon $1 ($2)",
