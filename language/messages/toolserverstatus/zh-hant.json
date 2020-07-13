@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"LNDDYL",
 			"Liuxinyu970226",
-			"Simon Shek",
-			"LNDDYL"
+			"Simon Shek"
 		]
 	},
 	"toolserver-status-ok": "數據庫集群沒有任何問題$1 $2",

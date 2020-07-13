@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"सरोज कुमार ढकाल"
+			"पर्वत सुबेदी",
+			"सरोज कुमार ढकाल",
+			"हिमाल सुबेदी"
 		]
 	},
 	"apply": "लागू गर्नुहोस्",
@@ -13,19 +15,19 @@
 	"cvn-reason-empty": "कारण भेटिएन",
 	"desc": "घट्दोक्रममा",
 	"documentation": "मिसिलिकरण",
-	"filter": "फिल्टर",
+	"filter": "छनाेट",
 	"help": "सहायता",
 	"lastupdate-cvn": "अन्तिम अद्यावधिक :$1",
 	"lastupdate-rc": "अन्तिम अद्यावधिक :$1",
 	"legend": "लेजेन्ड",
 	"limit": "सीमा",
-	"namespace": "नेमस्पेस",
+	"namespace": "नामपद",
 	"order": "क्रम",
 	"pause": "पज गर्नुहोस्",
 	"reload-interval": "अन्तराल",
 	"select-placeholder-none": "(कुनै पनि होइन)",
 	"skip": "छोड्नुहोस्",
-	"tag": "ट्याग",
+	"tag": "चिनो",
 	"time-from": "बाट",
 	"time-untill": "सम्म",
 	"timeframe": "समयावधी",

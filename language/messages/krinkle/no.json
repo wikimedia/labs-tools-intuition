@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"alws-label": "Wiki",
 	"alws-selectwiki": "(velg wiki)",
 	"alws-group-mustused": "Mest brukte wikier",

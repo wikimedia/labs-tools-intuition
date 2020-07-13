@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joanmp17",
 			"Tigrigna1"
 		]
 	},
@@ -11,6 +12,7 @@
 	"source_file": "ምንጪ ፋይል",
 	"target_file": "ዕላማ፣ፋይል",
 	"move_file_from_com": "ፋይል ካብ ዊኪመድያ ኮሞንስ ናብ ወፍሪ/ዕዮ/ፕሮጀክት የሕላፍ",
-	"categories": "ክፋላት/ምቃላት",
-	"remove_cats": "ዝጸንሑ ክፍልታት/ክፋላት ኣልግሶም"
+	"categories": "መደባት",
+	"remove_cats": "ዝጸንሑ ክፍልታት/ክፋላት ኣልግሶም",
+	"standard_project": "ዊኪፔዲያ"
 }

@@ -5,6 +5,7 @@
 		]
 	},
 	"description": "Utensilo por transferar arkivi de la projeti di Wikimedia a Wikimedia Commons",
+	"language": "Linguo",
 	"commons_username": "Uzero-nomo en Wikimedia Commons",
 	"move_file_from_com": "Translojar arkivo de Wikimedia Commons a la projeto",
 	"error_bot_blocked": "Sendar arkivi 'bot' blokusesas en Wikimedia Commons."

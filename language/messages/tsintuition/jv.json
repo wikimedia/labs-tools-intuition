@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"NoiX180"
+			"NoiX180",
+			"Sumbukompor"
 		]
 	},
 	"bl-mysettings": "Aturan basa kula",
@@ -10,5 +11,5 @@
 	"bl-changelanguage": "Klik kéné kanggo ngganti basané antarmuka saka piranti iki.",
 	"help-translate-tool": "Éwangi nerjemahaké piranti iki!",
 	"help-translate-all": "Éwangi nerjemahaké Toolserver!",
-	"help-translate-tooltip": "Éwangi liyané mawa cara nerjemahaké pesen antarmuka nèng basané Sampéyan."
+	"help-translate-tooltip": "Éwangi liyané mawa cara nerjemahaké pesen mukantara nèng basané sampéyan."
 }

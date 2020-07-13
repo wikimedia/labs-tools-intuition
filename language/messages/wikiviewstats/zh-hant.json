@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
+			"Kly",
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Kly"
+			"Winston Sung"
 		]
 	},
 	"records": "資料記錄",
@@ -48,7 +49,7 @@
 	"helpPage": "幫助頁面",
 	"projectTotals": "計畫總計",
 	"wikiThanks": "感謝",
-	"log": "日誌",
+	"log": "紀錄",
 	"size": "大小",
 	"revisions": "修訂",
 	"first": "最早",

@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher",
-			"BadDog"
+			"BadDog",
+			"Rancher"
 		]
 	},
 	"toolserver-status-ok": "Нема проблема у кластеру базе података $1 $2",

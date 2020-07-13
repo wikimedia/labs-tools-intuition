@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Krish Dulal",
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"हिमाल सुबेदी"
 		]
 	},
 	"attention": "ध्यान दिनुहोस्",
@@ -18,5 +19,6 @@
 	"new_wikitext": "नयाँ विकी पाठ",
 	"new_filename": "नयाँ फाइलनाम :",
 	"upload_submit": "अपलोड गर्ने",
-	"target_wiki": "लक्षित विकी"
+	"target_wiki": "लक्षित विकी",
+	"standard_project": "विकिपिडिया"
 }

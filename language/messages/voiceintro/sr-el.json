@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"voiceintro-toolbar-record-label": "Snimi",
 	"voiceintro-toolbar-stop-label": "Zaustavi",
 	"voiceintro-toolbar-clear-label": "Obriši",

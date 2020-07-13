@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"formats-heading": "utdataformater",
 	"input": "Inndata",
 	"label-wikiids": "Wiki-identifikatorer",

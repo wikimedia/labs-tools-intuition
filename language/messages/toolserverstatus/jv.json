@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"NoiX180"
+			"NoiX180",
+			"Sumbukompor"
 		]
 	},
 	"toolserver-status-ok": "Ora ana masalah nèng klompok basis data $1 $2",
-	"toolserver-status-info": "Wara-wara kanggo panganggo saka klompok $1: $2",
-	"toolserver-status-warn": "Pèngetan kanggo panganggo saka klompok $1: $2",
+	"toolserver-status-info": "Wara-wara kanggo naraguna saka klompok $1: $2",
+	"toolserver-status-warn": "Pèngetan kanggo naraguna saka klompok $1: $2",
 	"toolserver-status-down": "Klompok basis data $1 mati sawetara wektu. $2",
 	"toolserver-status-erro": "Klompok basis data $1 rendhet. $2",
 	"toolserver-status-unknown": "Status klompok $1 ora dikenal",

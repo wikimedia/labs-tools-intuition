@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Sprooch/Astellungen änneren</a>",
@@ -13,9 +14,9 @@
 	"category_miscellaneous": "Verschiddenes",
 	"category_wikidata": "WikiData",
 	"select_wiki_title": "Sicht eng Wiki eraus",
-	"select_wiki": "Gitt w.e.g. d'Wiki an fir déi Dir e Rapport wëllt (z. Bsp. \"<kbd>lb.wikipedia.org</kbd>\"):",
+	"select_wiki": "Gitt wgl. d'Wiki an fir déi Dir e Rapport wëllt (z. Bsp. \"<kbd>lb.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "Virun →",
-	"select_report": "Sicht w.e.g. e Rapport eraus:",
+	"select_report": "Sicht wgl. e Rapport eraus:",
 	"select_report_disabled": "Dëse Rapport ass net disponibel.",
 	"select_report_first": "Dëse Rapport gëtt eng éischte Kéier generéiert a misst geschwënn disponibel sinn.",
 	"select_report_hot": "Eng gespäichert Versioun vun dësem Rapport, %(age)s al, ass disponibel.",

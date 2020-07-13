@@ -1,27 +1,38 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Erdemaslancan",
 			"Mirzali"
 		]
 	},
 	"attention": "Diqet",
+	"jira_link": "Yew xeteyê rapor kerê ya na çiyê wesıbne",
 	"language": "Zıwan",
 	"project": "Proce",
 	"source_file": "Çıme dosya",
 	"target_file": "Hedef dosya",
 	"commons_username": "Namey karber dê Wikimedia Commonsi",
 	"commons_to_project": "Proceyê Wikimedia Commonsi",
+	"move_file_from_com": "Dosyay Wikimedia Commons ra bıkırêşê procey miyan",
 	"categories": "Kategoriyi",
+	"remove_cats": "Kategoriyanê mewcudan wedarne",
+	"use_checkusage": "Kategoriyê newey wesıbnayışi rê $1CommonSense$2 bıkarnê",
+	"use_tusc": "Dosyay direkt araşt kerdışi u transfer kerdışi rê $1TUSC$2 bıkarnê",
 	"tusc_user": "TUSC namey qarwani",
 	"tusc_pass": "Parolay TUSC",
 	"do_it": "Bıke",
+	"error_transfer_usr": "Yew namey karberiyê Wikimedia Commons nêgıroto şıma",
 	"error_not_exists": "Dosyaya çımey çıniya!",
 	"error_on_commons": "Çıme dosyay wanayışê  $1!",
+	"error_file_exists": "Dosya xora \"$1$4$2\" asena u  $3 sero esta!",
+	"error_diff_exists": "Eyni nameya hedef wiki de ferqın yû dosya xora esta",
 	"original_wikitext": "Metnê wikiyo oricinal",
 	"new_wikitext": "wiki metino newe",
 	"new_filename": "Newe namey dosya:",
 	"upload_submit": "Bar ke!",
 	"target_wiki": "Menzil wiki",
+	"error_tusc_failed": "Araşt kerdışê TUSC nêbiyo !",
+	"error_only_commons": "Direkt bar kerdış Wikimedia Commonsi ra guriyeno",
 	"help_mail": "$1 rê e-poste bırışe"
 }

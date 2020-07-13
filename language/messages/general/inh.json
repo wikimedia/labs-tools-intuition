@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adam-Yourist",
 			"Sapral Mikail",
-			"Умар",
-			"Adam-Yourist"
+			"Умар"
 		]
 	},
-	"hello": "Салам",
+	"hello": "Моаршал да хьога!",
 	"welcome": "Маьрша доагIалда",
 	"namespace": "ЦIерий моттигаш",
 	"form-submit": "Кхоачашде",

@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Emperyan",
-			"Suelnur",
-			"Vito Genovese",
-			"Hedda",
 			"BaRaN6161 TURK",
-			"Grkn gll"
+			"Emperyan",
+			"Grkn gll",
+			"Hedda",
+			"Suelnur",
+			"Vito Genovese"
 		]
 	},
 	"attention": "Dikkat",
@@ -44,7 +44,7 @@
 	"error_bot_blocked": "Yükleme botu Wikimedia Commons'ta engellendi.",
 	"error_upload_meta": "Meta verilerle ilgili bir sorun olduğu için doğrudan yüklenemiyor (yukarıya bakın)!",
 	"error_tusc_failed": "TUSC doğrulaması başarısız!",
-	"error_only_commons": "Doğrudan yükleme sadece Wikimedia Commons'ta çalışır!",
+	"error_only_commons": "Doğrudan yükleme yalnızca Wikimedia Commons'ta çalışır!",
 	"upload_control_text": "Lütfen yeni viki metnini kontrol edin ve her şey yolunda ise \"$1\" tuşuna tıklayın!",
 	"error_commons_user": "Aktarım kullanıcısını tanımlamak için Wikimedia Commons kullanıcı adınız açıklamanın içinde olmalıdır!",
 	"error_upload_users": "Yükleme işlevi, yalnızca test süresi boyunca bazı kullanıcılar tarafından kullanılabilir!",

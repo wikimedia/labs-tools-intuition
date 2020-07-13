@@ -6,15 +6,17 @@
 			"Mutarjem horr",
 			"OsamaK",
 			"أحمد",
-			"زكريا",
-			"ديفيد"
+			"ديفيد",
+			"زكريا"
 		]
 	},
+	"dateformat": "%B %d %Y",
 	"hello": "أهلاّ بك",
 	"welcome": "مرحبا",
 	"toolversion": "النسخة $1",
 	"toolversionstamp": "الإصدار $1 ($2)",
 	"etc": "إلخ.",
+	"colon-separator": ":",
 	"namespace": "نطاق",
 	"form-submit": "اذهب",
 	"form-reset": "صفِّر",
@@ -27,6 +29,8 @@
 	"seconds": "{{PLURAL: $1|ثانية|ثوان}}",
 	"last-modified-date": "آخر تغيير: $1",
 	"view-source": "عرض المصدر",
+	"parentheses": "($1)",
 	"comma-separator": "،&#32;",
+	"word-separator": "&#32;",
 	"and": "&#32; و"
 }

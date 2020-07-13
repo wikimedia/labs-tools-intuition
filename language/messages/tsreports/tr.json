@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent",
+			"BaRaN6161 TURK",
 			"Hedda",
-			"BaRaN6161 TURK"
+			"Uğurkent"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Dili / tercihleri değiştir</a>",
@@ -11,7 +11,7 @@
 	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Viki</a>",
 	"category_users": "Kullanıcılar",
 	"category_articles": "Sayfalar",
-	"category_images": "Görüntüler",
+	"category_images": "Resimler",
 	"category_miscellaneous": "Çeşitli",
 	"category_wikidata": "Vikiveri",
 	"select_wiki_title": "Bir viki seçin",

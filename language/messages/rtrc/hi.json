@@ -3,7 +3,8 @@
 		"authors": [
 			"NehalDaveND",
 			"SatyamMishra",
-			"Sfic"
+			"Sfic",
+			"Suyash.dwivedi"
 		]
 	},
 	"apply": "लागू करें",
@@ -22,6 +23,7 @@
 	"lastupdate-cvn": "$1 अन्तिम अद्यतन हुआ।",
 	"lastupdate-rc": "$1 अन्तिम अद्यतन हुआ।",
 	"limit": "सीमा",
+	"months": "जनवरी, फरवरी, मार्च, अप्रैल, मई, जून, जुलाई, अगस्त, सितंबर, अक्टूबर, नवंबर, दिसंबर",
 	"mypatrollog": "मेरा पुनरीक्षण लॉग",
 	"namespace": "नामस्थान",
 	"navtoggle-tooltip": "साइडबार टॉगल",

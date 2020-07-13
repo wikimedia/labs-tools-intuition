@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirzali",
+			"1917 Ekim Devrimi",
+			"Gırd",
 			"Kumkumuk",
-			"Gırd"
+			"Mirzali"
 		]
 	},
+	"title": "Serekê meqaleyi grep (beta)",
 	"explanation": "rawekerdış",
 	"regex": "İfadeyo nizami",
 	"enter-details": "Detay dek",
@@ -13,5 +15,7 @@
 	"language-label": "Zıwan",
 	"namespace-label": "Heruna nameyan",
 	"project-label": "Proce",
-	"pattern-label": "Qalıb"
+	"pattern-label": "Qalıb",
+	"redirects-label": "Serşıkıtışa daxiş kereu",
+	"limit-label": "Ekrani sıfte 100 neticeya bıbırnê"
 }

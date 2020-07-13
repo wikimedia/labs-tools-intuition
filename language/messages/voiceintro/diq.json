@@ -2,16 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Kumkumuk",
-			"Mirzali"
+			"Mirzali",
+			"Orbot707"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Qeyd",
 	"voiceintro-toolbar-stop-label": "Bıvındarne",
 	"voiceintro-toolbar-clear-label": "Pak ke",
 	"voiceintro-toolbar-upload-label": "Bar ke",
+	"voiceintro-webaudio-not-supported": "WebAudio API seba na browser de desteg nêdeyêno",
+	"voiceintro-upload-publish-succeeded": "Qeyd hewl bar biyo :",
 	"voiceintro-upload-publish-failed": "Qeyd bar nêbı.",
 	"voiceintro-information-label": "Melumat",
 	"voiceintro-information-speaker-label": "Namey qısekerdoği:",
 	"voiceintro-information-language-label": "Zıwan:",
+	"voiceintro-mic-access-notify": "Hetê browseri ra be mikrofonê şıma resayışi rê \"mısade bıdê\" bıploğnê",
 	"voiceintro-recording-notify": "Beno qeyd..."
 }

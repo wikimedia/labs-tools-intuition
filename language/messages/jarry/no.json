@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"moretools": "flere verktøy fra den samme forfatteren",
 	"bugs": "feilrapporter og funksjonsforespørsler",
 	"comments": "kommentarer og spørringer",

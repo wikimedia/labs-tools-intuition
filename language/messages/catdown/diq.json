@@ -1,13 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Erdemaslancan",
-			"Mirzali",
+			"Gırd",
 			"Kumkumuk",
-			"Gırd"
+			"Mirzali",
+			"Orbot707"
 		]
 	},
 	"title": "Kategoriya ra resiman ronê",
+	"subtitle": "Zaf raya rehata ke yew kategoriye ra Resım ronayış",
 	"project": "Proce:",
 	"category": "Kategoriye:",
 	"thumbnailing": "Resımo qıckek",
@@ -17,6 +20,8 @@
 	"invalid-height": "Dergey ravêrdi niya",
 	"no-such-project": "Proceyo wınasiyên çıniyo.",
 	"no-images": "Ena kategoriye dı asayışi çıniyê.",
+	"category-is-url": "Deyaye namey kategoriy maneno URL. URL wa nêbo, namey kategori nışan kerê",
+	"zip-failed": "Vıraştena Zipi nêşayo",
 	"download": "Biya war",
 	"scaling-width": ", maksimum herayiye rê $1 {{plural:$1|piksel|pikseli}} sencıto",
 	"scaling-height": ", maksimum dergey rê sencen $1 {{plural:$1|piksel|pikseli}}",

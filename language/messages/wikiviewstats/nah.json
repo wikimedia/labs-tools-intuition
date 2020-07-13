@@ -1,24 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akapochtli",
 			"Taresi",
-			"Teòtlalili",
-			"Akapochtli"
+			"Teòtlalili"
 		]
 	},
 	"pagetitle": "tlaīxtōcāitl",
-	"page": "Tlaīxtli",
+	"page": "Tlahcuilolamatl",
 	"help": "tēpalēhuiliztli",
 	"today": "āxcān",
-	"language": "tlahtōlli",
+	"language": "tlahtolli",
+	"users": "{{PLURAL: $1|tequitiuhqui|tequitiuhqueh}}",
 	"discussion": "Zānīlli",
 	"project": "Tlecaniltequitl",
 	"category": "Neneuhcayotl",
 	"template": "Neīxcuītīlli",
 	"files": "{{PLURAL: $1|ihcuilōlli}}",
 	"helpPage": "Tēpalēhuiliztlaīxtli",
-	"pages": "tlaīxtli",
+	"pages": "tlahcuilolamameh",
 	"namespaces": "tōcātlacāuhtli",
 	"selectCategory": "Xicpehpena in neneuhcayotl tlen cah ipan in opochcatlapehpencatecpanalli",
-	"projectPages": "Tlatequipanōllaīxtli"
+	"projectPages": "Amatlahcuilolli itech tlayecantequitl"
 }

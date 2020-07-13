@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"adder": "Dodavač",
 	"adder-empty": "Nepoznato",
 	"expiry": "Ističe",

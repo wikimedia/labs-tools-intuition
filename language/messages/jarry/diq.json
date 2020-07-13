@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kumkumuk",
 			"Mirzali",
-			"Kumkumuk"
+			"Orbot707"
 		]
 	},
 	"moretools": "tayêne haceti",
 	"homepage-title": "Cıkewtış",
-	"comments": "mışewreyi û persi"
+	"bugs": "Raporê xetayi u waştışê xısusiyeti",
+	"comments": "mışewreyi û persi",
+	"error-form-empty": "Yew ya zi yew ra zêde cay veng vıradayê. Verê dewam kerdışi ninan pır kerê"
 }

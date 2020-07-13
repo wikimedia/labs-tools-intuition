@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uğurkent",
+			"BaRaN6161 TURK",
 			"Hedda",
-			"BaRaN6161 TURK"
+			"Uğurkent"
 		]
 	},
 	"title": "Madde başlığı grep (beta)",
-	"introduction": "Bu araç, normal ifade deseni ($1) ile eşleşen tüm makale başlıklarını gösterir. Düzenli bir ifade kullanarak arama yapmak kaynak yoğundur. Mümkünse, önek (^) ve ($) sonek göstergelerini kullanmayı unutmayın.",
+	"introduction": "Bu araç, normal ifade deseni ($1) ile eşleşen tüm madde başlıklarını gösterir. Düzenli bir ifade kullanarak arama yapmak kaynak yoğundur. Mümkünse, önek (^) ve ($) sonek göstergelerini kullanmayı unutmayın.",
 	"explanation": "açıklama",
 	"regex": "Düzenli ifade",
 	"enter-details": "Detayları girin",

@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kumkumuk",
+			"1917 Ekim Devrimi",
 			"Asmen",
+			"Kumkumuk",
 			"Mirzali"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Zıwani/ Terciha bıvurnê </a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Xetay rapor kerê ya zi xısusê bıwazê</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Wiki</a>",
 	"category_users": "Karberi",
 	"category_articles": "Peli",
 	"category_images": "Resımi",
@@ -13,6 +17,8 @@
 	"category_wikidata": "Wikidata",
 	"select_wiki_title": "Yu wikiy weçine",
 	"select_wiki_next": "Bahdoyen →",
+	"select_report": "Yew rapor weçinê :",
+	"select_report_disabled": "Ena rapor çıniya",
 	"select_report_go_back": "← Wikiyer bıvurnê",
 	"qvar_next": "Bahdoyen→",
 	"prefs_title": "Referansa rapor ke",

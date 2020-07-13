@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bl-mysettings": "Mine språkinnstillinger",
 	"bl-mysettings-new": "Endre språk",
 	"bl-promo": "Oversettelser drives av $1 og $2.",

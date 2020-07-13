@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"DRIHEM",
-			"أحمد",
 			"Maroen1990",
-			"Meno25"
+			"Meno25",
+			"أحمد"
 		]
 	},
 	"title": "تنزيل الصور حسب التصنيف",
@@ -29,5 +29,7 @@
 	"wget-info": "يضُمُّ هذا الملف نسخة من wget $1 (لنظام ويندوز). Wget برمجية حُرَّة\nمنشورة برخصة GNU العمومية، الإصدارة 3.\nتوجد نسخة من نصِّ الترخيص فيما يلي، كما أنها منشورة على الموقع http://www.gnu.org/licenses/gpl-3.0.txt\n\nإذا أردت الحصول على الكود المصدري لهذه البرمجية فيمكنك تنزيلها من أيِّ من المواقع التالية\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nأو مواقع مرآوات جنو غيرها، انظر\n http://www.gnu.org/prep/ftp.html",
 	"scaling-width": "، مُحَجّمة ليكون العرض الأقصى لكلِّ منها $1 {{plural:$1|pixel|بيكسل}}",
 	"scaling-height": "، مُحَجّمة ليكون الطول الأقصى لكلِّ منها $1 {{plural:$1|pixel|بيكسل}}",
-	"scaling-both": "، مُحجَّمة إلى الأبعاد القصوى $1x$2 عنصورة"
+	"scaling-both": "، مُحجَّمة إلى الأبعاد القصوى $1x$2 عنصورة",
+	"script-filename": "download.bat",
+	"readme-filename": "README.txt"
 }

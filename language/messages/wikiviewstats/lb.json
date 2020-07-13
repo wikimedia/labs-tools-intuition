@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"records": "Enregistrementer",
@@ -91,7 +92,7 @@
 	"furtherInformation": "Méi Informatiounen",
 	"urlParameter": "URL-Parameter",
 	"hideHints": "Tuyaue verstoppen",
-	"optinMsg1": "Benotzer huet sech nach net dofir ugemellt (optin). Wann Dir Grafike gesi wëllt da leet w.e.g. $1 mat iergendengem Inhalt un",
+	"optinMsg1": "Benotzer huet sech nach net dofir ugemellt (optin). Wann Dir Grafike gesi wëllt da leet wgl. $1 mat iergendengem Inhalt un",
 	"optinMsg2": "Alternativ kënnt Dir och $1 op Meta-Wiki uleeën fir dëst fir all Wikimedia-Wikien z'applizéieren.",
 	"colorScheme": "Faarfschema",
 	"customBarColors": "benotzerdefinéiert Faarwen am Graphik",

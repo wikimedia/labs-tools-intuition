@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Erdemaslancan",
 			"Mirzali"
 		]
 	},
+	"toolserver-status-missing": "Cluster $1 mevcud niyo",
 	"toolserver-status-short-ok": "$1: Temam",
 	"toolserver-status-short-info": "$1: Melumat",
 	"toolserver-status-short-warn": "$1: Şık berz cı",
