@@ -1,21 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "test": "grunt",
-    "authors": "grunt authors"
+    "test": "node tests/banana-checker.js",
+    "authors": "node tests/authors.js"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-semistandard": "^15.0.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "grunt": "^1.0.4",
-    "grunt-banana-checker": "0.8.1",
-    "grunt-eslint": "^22.0.0",
-    "grunt-git-authors": "3.2.0",
-    "grunt-jsonlint": "2.0.0"
+    "grunt-banana-checker": "0.9.0",
+    "grunt-git-authors": "3.2.0"
   }
 }
