@@ -1,9 +1,11 @@
-## [Unreleased]
+## v2.2.0 (2020-07-13)
 
 ### Changed
 
-* `Intuition::setLang()` has more strict normalization
-  to ensure that invalid strings can't be used.
+* messages: Localisation updates from https://translatewiki.net.
+* core: `Intuition::setLang()` does stricter normalization now to avoid invalid strings.
+  This means `setLang('en_AU')` will now cause `en-au` to be selected.
+* core: Public `Intuition` class methods now have strict PHP argument type declarations.
 
 ## v2.1.0 (2019-11-24)
 
