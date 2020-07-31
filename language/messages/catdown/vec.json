@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fierodelveneto"
+		]
+	},
+	"title": "Descarga łe imàjini par categoria",
+	"subtitle": "Ma manjiera pì sénplega par descargar łe imàjini in na categoria",
+	"project": "Projeto:",
+	"category": "Categoria:",
+	"thumbnailing": "Manjiaturixasion",
+	"max-width": "Laghesa màsema:",
+	"max-height": "Altesa màsema:",
+	"invalid-width": "Larghesa mija bona",
+	"invalid-height": "Altesa mija bona",
+	"no-such-project": "Projeto inexistente",
+	"no-images": "No ghe xe nisuna imàjine inte ła categoria",
+	"category-is-url": "El nome proponesto par ła categoria el someja a on URL. Te ghè da spesifegar el nome de ła categoria e no el so URL.",
+	"category-contains-namespace": "Pare che ti te gàpia includesto el spasio-nome inte el nome de ła categoria. Co el nome daxesto ła pàjina ła saria disponìbiłe cofà [[Category:$1]].",
+	"zip-failed": "Creasion Zip fałia",
+	"image-area-too-big": "$1 el xe masa grando par crearghene na minjiadura. Vegnarà doparada ła so grandesa orixenałe.",
+	"download-info": "{{plural: $1|Ghe xe na imàjine|Ghe xe $1 imajini}}, par na grandesa stimada de $2",
+	"download": "Descarga"
+}

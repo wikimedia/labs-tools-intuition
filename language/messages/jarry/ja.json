@@ -3,12 +3,13 @@
 		"authors": [
 			"Omotecho",
 			"Shirayuki",
-			"Sujiniku"
+			"Sujiniku",
+			"TKsdik8900"
 		]
 	},
 	"moretools": "その他のツール",
 	"homepage-title": "はじめに",
 	"bugs": "バグ報告と機能リクエスト",
-	"comments": "コメントとクエリ",
+	"comments": "コメントと質問",
 	"error-form-empty": "空欄のままの必須項目があります。次へ進むには、すべて記入を済ませる必要があります。"
 }

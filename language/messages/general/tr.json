@@ -13,7 +13,7 @@
 	"toolversionstamp": "Sürüm $1 ($2)",
 	"etc": "vs.",
 	"namespace": "Ad alanı",
-	"form-submit": "Gönder",
+	"form-submit": "Git",
 	"form-reset": "Sıfırla",
 	"years": "{{PLURAL: $1|yıl|yıl}}",
 	"months": "{{PLURAL: $1|ay|ay}}",
