@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Arnaugir",
-			"Fitoschido"
+			"Fitoschido",
+			"Mguix"
 		]
 	},
 	"title-overview": "Instantànies",
@@ -10,7 +11,7 @@
 	"title-updatelog": "Actualitza el registre",
 	"updatelog-intro": "L'escriptura d'actualització es planifica per executar cada hora. A continuació es mostra la sortida de la consola de l'última execució.",
 	"updatelog-active": "L'escriptura d'actualització s'està executant. Torna més tard pel registre complet.",
-	"download-button": "Descarrega $1",
+	"download-button": "Descarregar la instantània",
 	"title-downloadpage": "Baixa",
 	"title-downloadpage-repo": "Baixa $1",
 	"err-snapshotindex": "Índex d'instantània no disponible temporalment. Si us plau prova-ho més tard.",

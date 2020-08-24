@@ -3,6 +3,7 @@
 		"authors": [
 			"Alvaro Vidal-Abarca",
 			"Gemmaa",
+			"Mguix",
 			"Vriullop"
 		]
 	},
@@ -18,7 +19,7 @@
 	"no-such-project": "No hi ha cap tal projecte",
 	"no-images": "No hi ha cap imatge en aquella Categoria",
 	"category-is-url": "El nom de la categoria determinada s'assembla a un URL. Heu d'especificar el nom de categoria, no l'URL.",
-	"category-contains-namespace": "Sembla que han d'incloure l'espai de nom en el nom de la categoria. Amb el nom, la pàgina estaria disponible com [[:Category:$1]].",
+	"category-contains-namespace": "Sembla que heu inclòs l'espai de nom al nom de la categoria. Amb el nom proporcionat, la pàgina estaria disponible a la [[Category:$1]].",
 	"zip-failed": "Creació de cremalleres ha fallat",
 	"image-area-too-big": "$1 és massa gran per crear una miniatura. Utilitzant la mida completa.",
 	"download-info": "{{plural:  $1 |Hi ha un image|Hi ha  $1  imatges}}, amb una mida aproximada de$2",

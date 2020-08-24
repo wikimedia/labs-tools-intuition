@@ -3,12 +3,13 @@
 		"authors": [
 			"Jopparn",
 			"Liftarn",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Sabelöga"
 		]
 	},
 	"alws-label": "Wiki",
 	"alws-selectwiki": "(välj wiki)",
-	"alws-group-mustused": "Mest använda wikis",
-	"alws-group-allaz": "Alla wikis i alfabetisk ordning",
+	"alws-group-mustused": "Mest använda wikier",
+	"alws-group-allaz": "Alla wikier i alfabetisk ordning",
 	"form-legend-settings": "Inställningar"
 }

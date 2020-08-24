@@ -3,6 +3,7 @@
 		"authors": [
 			"Jopparn",
 			"Mjälten",
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
@@ -26,7 +27,7 @@
 	"popular": "populär",
 	"interlang_proj": "internationella projekt",
 	"other_lang": "andra språk",
-	"closedWikis": "slutna Wikis",
+	"closedWikis": "slutna wikier",
 	"misc": "diverse",
 	"language": "språk",
 	"myarea": "Mitt område",
@@ -102,7 +103,7 @@
 	"urlParameter": "URL-parameter",
 	"hideHints": "dölj tips",
 	"optinMsg1": "Användaren har ännu inte valt att delta (opt-in). Om du vill se grafer, skapa $1 med innehåll",
-	"optinMsg2": "Alternativt kan du skapa $1 på Metawiki för opt-in på alla Wikimedias wikis.",
+	"optinMsg2": "Alternativt kan du skapa $1 på Meta-Wiki för opt-in på alla Wikimedias wikier.",
 	"colorScheme": "färgschema",
 	"customBarColors": "anpassade fältfärger",
 	"on": "på",
@@ -124,7 +125,7 @@
 	"projectPages": "Projektsidor",
 	"backToTop": "tillbaka till början",
 	"rankLocal": "Rank (lokalt) i",
-	"rankWorld": "Rank (världen) över alla Wikimedias Wikis",
+	"rankWorld": "Rank (världen) över alla Wikimedias wikier",
 	"pageViewCount": "Antal sidvisningar (ej unika)",
 	"winningArticles": "Vinnande artiklar",
 	"numPageWatchers": "Antal användare som bevakar sidan",
