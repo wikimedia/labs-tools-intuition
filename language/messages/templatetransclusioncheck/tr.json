@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Cobija",
 			"Grkn gll",
 			"Rapsar",
 			"Sadrettin",
 			"Vito Genovese"
 		]
 	},
-	"title": "Şablon bağlantı ve görüntüleme kontrolü",
+	"title": "Şablon bağlantı ve yansıtma kontrolü",
 	"description": "Bir kalıbı dönüştüren hangi makalelerin kalıba bağlı olmadığını ve kalıba bağlı olan hangi makaleleri kaleme aldığını denetler ve raporlar.",
 	"form-label-language": "Dil:",
 	"form-label-template": "Şablon adı:",
@@ -17,12 +18,12 @@
 	"feedback-template-missing": "Şablon $1 henüz mevcut değil.",
 	"feedback-template-noaccess": "$1 şablonu var gibi gözüküyor, fakat veri tabanında mevcut değil. Bu geçici bir veritabanı sorunu olabilir. Kullanılan veritabanı: $2.",
 	"feedback-result": "$1 için sonuçlar",
-	"feedback-header-mismatch": "Görüntüleme ve bağlantılar arasındaki uyumsuzluklar",
+	"feedback-header-mismatch": "Yansımalar ve bağlantılar arasındaki uyumsuzluklar",
 	"feedback-header-no-link": "Şablon görüntüleniyor ancak şablonda bağlantı yok",
 	"feedback-header-no-transclusion": "Şablonda bağlantı var ancak şablon görüntülenmiyor",
 	"feedback-header-redirects": "Yönlendirme bağlantıları",
 	"feedback-total-count": "Toplam: $1",
-	"feedback-header-complete": "Tüm görüntüleme ve bağlantılara genel bakış",
+	"feedback-header-complete": "Tüm görüntüleme ve yansıtmalara genel bakış",
 	"feedback-header-transclusions": "Şablonun görüntülendiği sayfalar",
 	"feedback-header-links": "Şablondaki bağlantılar",
 	"link-edit": "düzenle",

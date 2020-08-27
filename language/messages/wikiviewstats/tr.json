@@ -4,6 +4,7 @@
 			"BaRaN6161 TURK",
 			"Grkn gll",
 			"Incelemeelemani",
+			"ToprakM",
 			"Violetanka",
 			"Vito Genovese"
 		]
@@ -69,7 +70,7 @@
 	"sysops": "hizmetliler",
 	"bots": "botlar",
 	"articles": "maddeler",
-	"good_articles": "kaliteli makaleler",
+	"good_articles": "kaliteli maddeler",
 	"pages": "sayfalar",
 	"watchers": "izleyenler",
 	"redirects": "yönlendirmeler",
@@ -128,7 +129,7 @@
 	"rankLocal": "Sıra (Yerel)",
 	"rankWorld": "Sıra (dünya) tüm Wikimedia vikileri genelinde",
 	"pageViewCount": "Sayfa görüntüleme sayısı (benzersiz)",
-	"winningArticles": "Kazanan makaleler",
+	"winningArticles": "Kazanan maddeler",
 	"numPageWatchers": "Sayfanın izleyici sayısı",
 	"linkStats": "Sayfa istatistiklerine bağlantı",
 	"linkArticle": "Viki makalesine bağlantı",

@@ -3,6 +3,7 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
@@ -24,7 +25,7 @@
 	"feedback": "Återkoppling",
 	"filter": "Filter",
 	"filter-hideliu": "Dölj registrerade användare",
-	"filter-hidebots": "Dölj botar",
+	"filter-hidebots": "Dölj robotar",
 	"filter-unpatrolled": "Dölj patrullerade redigeringar",
 	"help": "Hjälp",
 	"helpicon-tooltip": "Läs mer om denna funktion",

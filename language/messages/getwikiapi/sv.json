@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Liftarn",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Sabelöga"
 		]
 	},
-	"description": "Metainformation om Wikimedias wikis.",
+	"description": "Metainformation om Wikimedias wikier.",
 	"formats-heading": "Utdataformat",
 	"input": "Indata",
 	"label-wikiids": "Wiki-identifierare",

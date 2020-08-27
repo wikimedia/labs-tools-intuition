@@ -3,6 +3,7 @@
 		"authors": [
 			"Krinkle",
 			"Liuxinyu970226",
+			"Nintendofan885",
 			"Shirayuki"
 		]
 	},
@@ -13,7 +14,7 @@
 	"title-downloadpage": "Heading of download page if the file or repo is not found. Otherwise {{msg-intuition|Mwsnapshots-title-downloadpage-repo}} is used.\n{{Identical|Download}}",
 	"title-downloadpage-repo": "Heading of download page where the file is ready to be downloaded by the user.\n\nParameters:\n* $1 - filename\n{{Identical|Download}}",
 	"err-snapshotindex": "If the information manifest (Index) can not be found on the server, this error is shown.",
-	"err-invalid-repo": "Used as error message. Parameters:\n* $1 - repository name\nSee example: https://tools.wmflabs.org/snapshots/index.php#!/mediawiki-core/master",
+	"err-invalid-repo": "Used as error message. Parameters:\n* $1 - repository name\nSee example: https://snapshots.toolforge.org/index.php#!/mediawiki-core/master",
 	"err-invalid-branch": "Used as error message. Parameters:\n* $1 - branch name\n* $2 - repository name\nSee example: https://toolserver.org/~krinkle/mwSnapshots/index.php#!/mediawiki-core/test",
 	"err-nosnapshot": "The snapshots are generated every few hours. If during the generation the selected branch had a problem. Then trying to download it will show this error.\n\nParameters:\n* $1 - branch name",
 	"repo-site-link": "Used as text for the link which points to the repository website.\n{{Identical|Website}}",

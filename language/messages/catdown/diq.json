@@ -22,6 +22,8 @@
 	"no-images": "Ena kategoriye dı asayışi çıniyê.",
 	"category-is-url": "Deyaye namey kategoriy maneno URL. URL wa nêbo, namey kategori nışan kerê",
 	"zip-failed": "Vıraştena Zipi nêşayo",
+	"image-area-too-big": "$1, seba resmo qıckek vıraştışi rê zaf fırsa. Tem ebat gureyneyaya.",
+	"download-info": "Tahminen $2 gırsiyeyi de {{plural:$1|yew resım esto |$1 resımi estê }}",
 	"download": "Biya war",
 	"scaling-width": ", maksimum herayiye rê $1 {{plural:$1|piksel|pikseli}} sencıto",
 	"scaling-height": ", maksimum dergey rê sencen $1 {{plural:$1|piksel|pikseli}}",

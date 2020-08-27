@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cobija",
 			"Emperyan",
 			"Khutuck",
 			"Vito Genovese"
@@ -11,8 +12,8 @@
 	"language-label": "Dil",
 	"namespace-label": "Alan adı",
 	"pagename-label": "Sayfa adı (alan adı hariç)",
-	"transclusion-count-label": "Görüntüleme sayısı",
-	"transclusion-count": "$1 görüntüleme bulundu.",
+	"transclusion-count-label": "Yansıtma sayısı",
+	"transclusion-count": "$1 yansıtma bulundu.",
 	"error-suggestion": "Belki de sayfanın adını yanlış yazdınız (ya da büyük-küçük harf kullanımında hata var)?",
 	"time-label": "Komutu yürütmek için geçen süre"
 }

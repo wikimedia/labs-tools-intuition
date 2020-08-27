@@ -3,6 +3,7 @@
 		"authors": [
 			"Cybjit",
 			"Jopparn",
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
@@ -18,7 +19,7 @@
 	"no-such-project": "Det finns inget sådant projekt",
 	"no-images": "Det finns inga bilder i den kategorin",
 	"category-is-url": "Den angivna kategorinamnet ser ut som en URL. Du måste ange kategorinamnet, inte dess URL.",
-	"category-contains-namespace": "Du verkar har inkluderat namnrymden tillsammans med kategorinamnet. Med det angivna namnet skulle sidan vara tillgänglig som [[:Category:$1]].",
+	"category-contains-namespace": "Du verkar ha inkluderat namnrymden tillsammans med kategorinamnet. Med det angivna namnet skulle sidan vara tillgänglig som [[Category:$1]].",
 	"zip-failed": "Skapande av ZIP misslyckades",
 	"image-area-too-big": "$1 är för stor för att skapa en miniatyr. Använder full storlek.",
 	"download-info": "{{plural: $1|Det finns en bild|Det finns $1 bilder}} med en uppskattad storlek på $2",
