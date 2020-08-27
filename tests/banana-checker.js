@@ -10,7 +10,7 @@ fs.readdirSync(msgDir).forEach(function (name) {
   const dir = path.join(msgDir, name);
   const stats = fs.statSync(dir);
   if (stats.isDirectory()) {
-    const knownIncomplete = ['commonshelper2', 'mwsnapshots', 'raun', 'voiceintro'].includes(name);
+    const knownIncomplete = ['commonshelper2', 'raun', 'voiceintro'].includes(name);
     domainDirs[name] = {
       dir: dir,
       options: {
