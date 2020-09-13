@@ -28,7 +28,7 @@ echo $int->msg( 'example' );
 
 ### Testing
 
-Use [Composer](https://getcomposer.org) for managing dependenices (such as [PHPUnit](https://phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/). Some tests also require [Node.js](https://nodejs.org/).
+Use [Composer](https://getcomposer.org) for managing dependencies (such as [PHPUnit](https://phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/). Some tests also require [Node.js](https://nodejs.org/).
 
 Prior to running tests, ensure presence of development dependencies:
 
