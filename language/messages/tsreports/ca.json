@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"F3RaN",
-			"Fitoschido"
+			"Fitoschido",
+			"Mguix"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Canviar l'idioma / preferències</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Informa d'un error o sol·licita una funció</a>",
 	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Wiki</a>",
 	"category_users": "Usuaris",
 	"category_articles": "Pàgines",

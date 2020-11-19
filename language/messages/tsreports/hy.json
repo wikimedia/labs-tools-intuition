@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"category_users": "Մասնակիցներ",
+	"category_articles": "Էջեր",
+	"category_images": "Պատկերներ",
+	"category_miscellaneous": "Այլ",
+	"category_wikidata": "Վիքիտվյալներ",
+	"select_wiki_title": "Ընտեք վիքի",
+	"prefs_submit": "Լավ"
+}

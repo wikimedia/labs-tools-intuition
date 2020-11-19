@@ -2,15 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Khan27",
-			"Wertuose"
+			"Wertuose",
+			"Şeyx Şamil"
 		]
 	},
 	"apply": "Tətbiq et",
 	"clear": "təmizlə",
 	"cvn-adder-empty": "Naməlum",
 	"help": "Kömək",
+	"license": "Lisenziya",
 	"limit": "Limit",
+	"mark": "işarələ",
 	"months": "Yanvar, Fevral, Mart, Aprel, May, İyun, İyul, Avqust, Sentyabr, Oktyabr, Noyabr, Dekabr",
+	"namespace": "Adlar fəzası",
+	"new-short": "yeni",
+	"open-in-wiki": "Vikidə aç",
+	"order": "Ardıcıllıq",
 	"typeEdit": "Redaktələr",
 	"typeNew": "Yeni səhifələr"
 }

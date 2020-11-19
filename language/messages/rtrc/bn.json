@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Al Riaz Uddin Ripon",
 			"Sayma Jahan",
 			"আফতাবুজ্জামান"
 		]
@@ -20,9 +21,9 @@
 	"cvn-reason-empty": "কোন কারণ পাওয়া যায়নি",
 	"cvn-scores": "CVN স্কোর",
 	"desc": "নিম্ন",
-	"documentation": "নথিপত্র",
+	"documentation": "নথি",
 	"feedback": "প্রতিক্রিয়া",
-	"filter": "ছাকনী",
+	"filter": "ছাঁকনি",
 	"filter-hideliu": "নিবন্ধিত ব্যবহারকারীদের লুকান",
 	"filter-hidebots": "বট লুকান",
 	"filter-unpatrolled": "পরীক্ষিত সম্পাদনা লুকান",
@@ -33,8 +34,9 @@
 	"legend": "ব্যাখ্যা",
 	"license": "লাইসেন্স",
 	"limit": "সীমা",
+	"mark": "চিহ্নিত",
 	"masspatrol": "গণটহল",
-	"masspatrol-requires-userfilter": "গণটহল নিষ্ক্রিয় করা হয়েছে কেননা এটির একটি ব্যবহারকারী ফিল্টার প্রয়োজন এবং কোনটি নির্ধারণ করা ছিল না।",
+	"masspatrol-requires-userfilter": "গণটহল নিষ্ক্রিয় করা হয়েছে কেননা এটির একটি ব্যবহারকারী ছাঁকনি  প্রয়োজন এবং কোনটি নির্ধারণ করা ছিল না।",
 	"months": "জানুয়ারি, ফেব্রুয়ারি, মার্চ, এপ্রিল, মে, জুন, জুলাই, আগস্ট, সেপ্টেম্বর, অক্টোবর, নভেম্বর, ডিসেম্বর",
 	"mypatrollog": "আমার টহল লগ",
 	"namespace": "নামস্থান",

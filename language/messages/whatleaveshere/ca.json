@@ -3,7 +3,8 @@
 		"authors": [
 			"F3RaN",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"Mguix"
 		]
 	},
 	"title": "El que surt d'aquí",
@@ -12,6 +13,7 @@
 	"label-page": "Pàgina",
 	"label-namespace": "Espai de noms",
 	"label-limit": "Límit",
+	"namespacesall": "tot",
 	"button-submit": "Vés-hi",
 	"noleaveshere": "Cap enllaç a partir de $1",
 	"link-whatleaveshere": "El que surt d'aquí",

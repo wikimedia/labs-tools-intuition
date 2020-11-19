@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Աշոտ1997"
 		]
 	},
+	"explanation": "բացատրություն",
+	"regex": "Կանոնավոր արտահայտություն",
 	"results": "Արդյունք",
 	"language-label": "Լեզու",
 	"namespace-label": "Անվանատարածք",

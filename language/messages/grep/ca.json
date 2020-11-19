@@ -3,9 +3,12 @@
 		"authors": [
 			"F3RaN",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"Mguix"
 		]
 	},
+	"title": "Filtració de títols d'articles (beta)",
+	"introduction": "Aquesta eina mostra tots els títols dels articles que coincideixen amb un patró d'expressió regular ($1).  La cerca usant una expressió regular és intensiva en recursos.  Si és possible, recordeu utilitzar els indicadors de prefix (^) i sufix ($).",
 	"explanation": "explicació",
 	"regex": "Expressió regular",
 	"enter-details": "Introduïu els detalls",

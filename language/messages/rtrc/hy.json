@@ -4,6 +4,22 @@
 			"Kareyac"
 		]
 	},
+	"apply": "Կիրառել",
+	"clear": "մաքրել",
+	"close": "Փակել",
+	"cvn-adder-empty": "Անհայտ",
+	"cvn-reason": "Պատճառ",
+	"cvn-reason-empty": "Պատճառը չի գտնվել",
+	"documentation": "Ձեռնարկ",
+	"feedback": "Հետադարձ կապ",
+	"filter": "Զտիչ",
+	"help": "Օգնություն",
 	"license": "Արտոնագիր",
-	"new-short": "նոր"
+	"mark": "նշել",
+	"namespace": "Անվանատարածք",
+	"new-short": "նոր",
+	"pause": "Դադար",
+	"skip": "Բաց թողնել",
+	"typeEdit": "Խմբագրումներ",
+	"typeNew": "Նոր էջեր"
 }

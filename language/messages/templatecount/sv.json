@@ -3,17 +3,18 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
+			"ProletariatetsBefrielseOrkester",
 			"WikiPhoenix"
 		]
 	},
 	"title": "Antal mallinkluderingar",
 	"enter-details": "Skriv in detaljer",
-	"introduction": "Skriv in namnet på en mall (just nu endast för Wikipedior) och tryck på start. Det är så enkelt som det. Det finns viss cachelagring (minne av resultat), men det är tyvärr utanför verktygets och dess ägares kontroll.",
+	"introduction": "Skriv in namnet på en mall (just nu endast för Wikipedior) och tryck på start. Så enkelt är det. Det finns viss cachelagring (ihågkommande av resultat), men det är tyvärr utanför verktygets och dess ägares kontroll.",
 	"language-label": "Språk",
 	"namespace-label": "Namnrymd",
 	"pagename-label": "Sidans namn (exklusive namnrymd)",
 	"transclusion-count-label": "Antal mallinkluderingar",
 	"transclusion-count": "$1 mallinkludering(ar) hittades.",
-	"error-suggestion": "Kanske du stavade du fel (eller felaktigt versaliserade) namnet på sidan?",
+	"error-suggestion": "Kanske har du stavat fel namnet på sidan (eller använt stora och små bokstäver fel)?",
 	"time-label": "Tid det tog att utföra kommandot"
 }

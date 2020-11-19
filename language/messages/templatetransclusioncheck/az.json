@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Şeyx Şamil"
+		]
+	},
+	"form-label-language": "Dil:",
+	"form-label-template": "Şablon adı",
+	"feedback-result": "$1 üçün nəticələr",
+	"link-edit": "redaktə et",
+	"link-create": "yarat",
+	"error-language": "Naməlum dil kodu."
+}

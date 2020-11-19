@@ -9,5 +9,7 @@
 	},
 	"enter-details": "Detay dekerdış",
 	"language-label": "Zıwan",
-	"namespace-label": "Heruna nameyan"
+	"namespace-label": "Heruna nameyan",
+	"transclusion-count-label": "Amardışê cısanayışi",
+	"transclusion-count": "$1 cısanayış vineya."
 }

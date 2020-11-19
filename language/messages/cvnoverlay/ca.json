@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"Mguix"
 		]
 	},
+	"adder": "Afegidor",
 	"adder-empty": "Desconegut",
 	"expiry": "Caducitat",
+	"globalwatched": "Vist globalment",
 	"reason": "Motiu",
 	"reason-empty": "No s’ha trobat cap motiu"
 }

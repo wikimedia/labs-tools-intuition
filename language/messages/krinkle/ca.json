@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mguix",
 			"SMP"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(Seleccioneu wiki)",
 	"alws-group-mustused": "Wikis més utilitzats",
 	"alws-group-allaz": "Tots els wikis en ordre alfabètic",

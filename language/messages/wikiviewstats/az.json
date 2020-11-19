@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wertuose",
+			"Şeyx Şamil"
+		]
+	},
+	"sample": "Nümunə",
+	"page": "Səhifə",
+	"searchResults": "Axtarış nəticələri",
+	"help": "kömək",
+	"today": "bu gün",
+	"all": "hamısı",
+	"allLang": "Bütün dillər",
+	"interlang_proj": "beynəlxalq layihələr",
+	"other_lang": "başqa dillərdə",
+	"language": "dil",
+	"mycontribs": "Töhfələr",
+	"mywatchlists": "İzləmə siyahıları",
+	"discussion": "Müzakirə",
+	"portal": "Portal",
+	"project": "Layihə",
+	"category": "Kateqoriya",
+	"template": "Şablon",
+	"specialPage": "Xüsusi səhifə",
+	"helpPage": "Kömək səhifəsi",
+	"wikiThanks": "Təşəkkürlər",
+	"external": "xarici",
+	"protection": "mühafizə",
+	"active": "aktiv",
+	"bureaucrats": "bürokratlar",
+	"sysops": "idarəçilər",
+	"bots": "botlar",
+	"articles": "məqalələr",
+	"good_articles": "yaxşı məqalələr",
+	"pages": "səhifələr",
+	"redirects": "yönləndirmələr"
+}

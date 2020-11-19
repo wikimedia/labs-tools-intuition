@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"voiceintro-toolbar-stop-label": "Դադարեցնել",
+	"voiceintro-toolbar-clear-label": "Մաքրել",
+	"voiceintro-toolbar-upload-label": "Վերբեռնել",
+	"voiceintro-information-label": "Տեղեկատվություն"
+}

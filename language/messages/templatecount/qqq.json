@@ -3,10 +3,11 @@
 		"authors": [
 			"Jarry1250",
 			"Liuxinyu970226",
+			"MuratTheTurkish",
 			"Shirayuki"
 		]
 	},
-	"title": "The title of the tool.\n{{Optional}}",
+	"title": "The title of the tool.",
 	"enter-details": "A heading inviting users to complete a form directly below.\n{{Identical|Enter details}}",
 	"introduction": "A basic introduction to the tool, illustrating its key facets.",
 	"language-label": "The label for a textbox where users enter the language they wish to work with.\n{{Identical|Language}}",

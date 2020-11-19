@@ -3,7 +3,8 @@
 		"authors": [
 			"Macofe",
 			"Nike",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Yupik"
 		]
 	},
 	"sample": "Esimerkki",
@@ -15,7 +16,7 @@
 	"language": "kieli",
 	"myfavs": "Suosikit",
 	"project": "Projekti",
-	"category": "Kategoria",
+	"category": "Luokka",
 	"template": "Malline",
 	"specialPage": "Toimintosivu",
 	"size": "koko",
