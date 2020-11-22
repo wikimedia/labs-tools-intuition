@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Platonides"
+			"Platonides",
+			"Yosari101"
 		]
 	},
 	"title": "Tải về hình ảnh theo thể loại",
-	"subtitle": "Cách dễ dàng để tải về tất cả các hình ảnh trong một thể loại",
+	"subtitle": "Cách dễ dàng để tải về tất cả hình ảnh trong một thể loại",
 	"project": "Dự án:",
 	"category": "Thể loại:",
-	"thumbnailing": "Hình nhỏ",
+	"thumbnailing": "Hình thu nhỏ",
 	"max-width": "Chiều rộng tối đa:",
 	"max-height": "Chiều cao tối đa:",
 	"invalid-width": "Chiều rộng không hợp lệ",

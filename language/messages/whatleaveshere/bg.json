@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"StanProg"
 		]
 	},
 	"label-page": "Страница",
-	"label-namespace": "Именно пространство"
+	"label-namespace": "Именно пространство",
+	"namespacesall": "всички",
+	"whatlinkshere": "Какво сочи насам",
+	"section-categories": "Категории"
 }

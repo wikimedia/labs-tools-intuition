@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joanmp17"
+		]
+	},
+	"list": "ዝርዝር",
+	"sample": "ኣብነት",
+	"page": "ገጽ",
+	"help": "ሓገዝ",
+	"today": "ሎሚ",
+	"all": "ኩሎም",
+	"allLang": "ኩሎም ቋንቋታት",
+	"other_lang": "ካልኦት ቋንቋታት",
+	"language": "ቋንቋ",
+	"users": "{{PLURAL: $1|ተጠቃሚ|ተጠቀምቲ}}",
+	"discussion": "ምይይጥ",
+	"portal": "ማዕጾ",
+	"project": "ፕሮጀክት",
+	"category": "መደብ",
+	"template": "ሞደል",
+	"files": "{{PLURAL:$1|ፋይል|ፋይላት}}",
+	"specialPage": "ፍሉይ ገጽ",
+	"size": "መጠን",
+	"links": "መጋጠሚታት",
+	"articles": "ጽሑፋት",
+	"pages": "ገጻት"
+}

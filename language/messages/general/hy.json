@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"hello": "Ողջո՜ւյն",
+	"welcome": "Բարի գալուստ",
+	"toolversion": "Տարբերակ $1",
+	"toolversionstamp": "Տարբերակ $1 ($2)",
+	"namespace": "Անվանատարածք",
+	"form-submit": "Անցնել",
+	"and": "&#32;և"
+}

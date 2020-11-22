@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Համլետ"
 		]
 	},
+	"attention": "Ուշադրություն",
 	"language": "Լեզու",
 	"project": "Նախագիծ",
 	"source_file": "Ելատեքստային ֆայլ",

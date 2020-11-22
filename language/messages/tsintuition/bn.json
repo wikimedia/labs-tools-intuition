@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Al Riaz Uddin Ripon",
 			"Bellayet",
 			"Wikitanvir",
 			"আফতাবুজ্জামান"
@@ -9,7 +10,7 @@
 	},
 	"bl-mysettings": "আমার ভাষা সেটিং",
 	"bl-mysettings-new": "ভাষা পরিবর্তন!",
-	"bl-promo": "অনুবাদসমূহ $1 ও $2-এর সহায়তায় অনূদিত হয়েছে।",
+	"bl-promo": "অনুবাদসমূহ $1 ও $2-এর সহায়তায় পরিবেশিত হচ্ছে।",
 	"bl-changelanguage": "এই সরঞ্জামটির ইন্টারফেস ভাষা পরিবর্তন করুন।",
 	"help-translate-tool": "এই সরঞ্জামটি অনুবাদে সাহায্য করুন!",
 	"help-translate-all": "সরঞ্জাম অনুবাদে সাহায্য করুন!",

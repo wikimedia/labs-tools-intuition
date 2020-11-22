@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"StanProg",
 			"Termininja",
 			"Vlad5250"
@@ -9,11 +10,15 @@
 	"page": "Страница",
 	"settings": "Настройки",
 	"help": "помощ",
+	"all": "всички",
 	"other_lang": "други езици",
 	"language": "език",
+	"myfavs": "Любими",
 	"portal": "Портал",
 	"project": "Проект",
+	"category": "Категория",
 	"helpPage": "Помощна страница",
+	"pages": "страници",
 	"namespaces": "именни пространства",
 	"submit": "Изпращане",
 	"save": "съхраняване",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dibya Dutta"
+			"Dibya Dutta",
+			"Gitartha.bordoloi"
 		]
 	},
 	"records": "তথ্যসংগ্ৰহ",
@@ -13,7 +14,7 @@
 	"pagetitle": "পৃষ্ঠাৰ শিৰোনাম",
 	"page": "পৃষ্ঠা",
 	"ranklist": "পদবী তালিকা",
-	"searchResults": "অনুসন্ধানৰ ফলাফল",
+	"searchResults": "সন্ধানৰ ফলাফল",
 	"rank": "পদবী",
 	"settings": "ছেটিংছ",
 	"help": "সহায়",
