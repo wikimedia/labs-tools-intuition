@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Artsiom91"
+			"Artsiom91",
+			"Kareyac"
 		]
 	},
+	"all": "усе",
+	"allLang": "Усе мовы",
 	"other_lang": "іншыя мовы",
-	"mycontribs": "Уклад"
+	"mycontribs": "Уклад",
+	"sysops": "адміністратары"
 }

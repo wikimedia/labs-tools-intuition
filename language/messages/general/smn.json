@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"hello": "Tiervâ",
+	"welcome": "Tiervâpuáttim",
+	"toolversion": "Versio $1",
+	"etc": "jna.",
+	"namespace": "Nommâkomovuotâ",
+	"form-submit": "Moonâ",
+	"years": "{{PLURAL: $1|ihe|ive}}",
 	"last-modified-date": "Majemustáá nubástittum: $1"
 }

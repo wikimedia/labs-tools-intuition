@@ -17,5 +17,7 @@
 	"project-label": "Proce",
 	"pattern-label": "Qalıb",
 	"redirects-label": "Serşıkıtışa daxiş kereu",
-	"limit-label": "Ekrani sıfte 100 neticeya bıbırnê"
+	"limit-label": "Ekrani sıfte 100 neticeya bıbırnê",
+	"error-zeroresults": "No caynamey de zey normal ifadey şımaya pêamyaye serey pela çıniyo.",
+	"match-count": "Normal ifadey şımaya {{PLURAL:$1|$1 pele |$1 peli }} zey peyê."
 }
