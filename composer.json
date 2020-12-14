@@ -17,10 +17,10 @@
 		"php": ">=7.2"
 	},
 	"require-dev": {
-		"jakub-onderka/php-parallel-lint": "1.0.0",
-		"phpunit/phpunit": "^8.4.1",
+		"php-parallel-lint/php-parallel-lint": "^1.0.0",
+		"phpunit/phpunit": "^8.5.13",
 		"mediawiki/mediawiki-codesniffer": "28.0.0",
-		"php-coveralls/php-coveralls": "^2.1"
+		"php-coveralls/php-coveralls": "^2.4"
 	},
 	"scripts": {
 		"test": [
