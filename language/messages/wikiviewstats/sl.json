@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"Janezdrilc"
 		]
 	},
@@ -26,6 +27,7 @@
 	"myfavs": "najljubše",
 	"mycontribs": "Prispevki",
 	"mywatchlists": "Spisek nadzorov",
+	"top": "Vrh",
 	"overall": "Celotno",
 	"users": "{{PLURAL: $1|uporabnik|uporabnika|uporabniki|uporabnikov}}",
 	"discussion": "Pogovor",
@@ -65,11 +67,11 @@
 	"publishedAsOS": "objavljeno kot odprta koda pod",
 	"icons": "ikone",
 	"thisSoftwareIs": "ta program je",
-	"helpDiscuss": "pomoč / razprava / izboljšave",
+	"helpDiscuss": "pomoč / pogovor / izboljšave",
 	"dbUpdateInProgress": "posodobitev podatkovne zbirke je v teku",
 	"lastUpdate": "zadnja posodobitev",
 	"noJavaScript": "JavaScript je onemogočen",
-	"noData": "ni podatkov na voljo",
+	"noData": "na voljo ni nobenih podatkov",
 	"onlyOwnCreatedPages": "prikaži samo strani, ki sem jih sam ustvaril",
 	"namespaces": "imenski prostori",
 	"comparisonOfPages": "primerjava več strani",

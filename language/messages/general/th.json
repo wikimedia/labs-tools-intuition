@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"hello": "สวัสดี",
+	"welcome": "ยินดีต้อนรับ",
+	"toolversion": "รุ่น $1",
+	"toolversionstamp": "รุ่น $1 ($2)",
+	"etc": "ฯลฯ",
+	"namespace": "เนมสเปซ",
+	"form-submit": "ไป",
+	"form-reset": "ตั้งค่าใหม่",
+	"years": "{{PLURAL: $1|ปี}}",
+	"months": "{{PLURAL: $1|เดือน}}",
+	"weeks": "{{PLURAL: $1|สัปดาห์}}",
+	"days": "{{PLURAL: $1|วัน}}",
+	"hours": "{{PLURAL: $1|ชั่วโมง}}",
+	"minutes": "{{PLURAL: $1|นาที}}",
+	"seconds": "{{PLURAL: $1|วินาที}}",
+	"last-modified-date": "ปรับเปลี่ยนล่าสุด: $1",
+	"view-source": "ดูต้นฉบับ",
+	"and": "&#32;และ"
+}

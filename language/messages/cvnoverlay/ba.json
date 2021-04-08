@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"MR973"
+		]
+	},
+	"adder": "Өҫтәүсе",
+	"adder-empty": "Билдәһеҙ",
+	"expiry": "Ғәмәлдә булыу ваҡыты",
+	"globalwatched": "Глобаль күҙәтелә",
+	"reason": "Сәбәп",
+	"reason-empty": "Сәбәп табылманы"
+}

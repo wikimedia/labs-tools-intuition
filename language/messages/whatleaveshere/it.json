@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"FRacco"
+			"FRacco",
+			"Sofia Stecchi"
 		]
 	},
 	"title": "Partono da qui",
@@ -14,7 +15,7 @@
 	"namespacesall": "tutti",
 	"button-submit": "Vai",
 	"noleaveshere": "Nessun collegamento da $1",
-	"link-whatleaveshere": "Partono da qui",
+	"link-whatleaveshere": "Cosa parte da qui",
 	"tooltip-whatleaveshere": "Elenco di tutto ciò che è collegato da qui",
 	"whatlinkshere": "Puntano qui",
 	"whatlinkshere-whatleaveshere": "Cosa parte da qui?",

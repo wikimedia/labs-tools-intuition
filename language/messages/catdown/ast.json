@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tokvo",
 			"Xuacu"
 		]
 	},
@@ -16,7 +17,7 @@
 	"no-such-project": "Esi proyeutu nun esiste",
 	"no-images": "Nun hai imaxes nesa categoría",
 	"category-is-url": "El nome de categoría conseñáu paez una URL. Tienes de dar el nome de la categoría, non la so URL.",
-	"category-contains-namespace": "Paez qu'incluísti l'espaciu de nomes xunto col nome de la categoría. Col nome dau, la páxina taría disponible como [[:Category:$1]].",
+	"category-contains-namespace": "Paez qu'incluísti l'espaciu de nomes xunto col nome de la categoría. Col nome dau, la páxina taría disponible como [[Category:$1]].",
 	"zip-failed": "Falló la creación del Zip",
 	"image-area-too-big": "\"$1\" ye demasiao grande pa crear una miniatura. Usando'l tamañu completu.",
 	"download-info": "{{plural: $1|Hai una imaxe|Hai $1 imaxes}}, con un tamañu estimáu de $2",

@@ -5,8 +5,10 @@
 		]
 	},
 	"namespace": "Nomaro",
+	"form-submit": "Irez",
 	"years": "{{PLURAL: $1|yaro|yari}}",
 	"months": "{{PLURAL: $1|monato|monati}}",
 	"weeks": "{{PLURAL: $1|semano|semani}}",
-	"days": "{{PLURAL: $1|dio|dii}}"
+	"days": "{{PLURAL: $1|dio|dii}}",
+	"seconds": "{{PLURAL: $1|sekundo|sekundi}}"
 }

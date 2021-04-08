@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Patriot Kur",
 			"Гусейн"
 		]
@@ -15,7 +16,7 @@
 	"namespace": "Nomonməkon",
 	"form-submit": "Bışi",
 	"form-reset": "Тәмиз кардеј",
-	"years": "{{PLURAL: $1|сор|сор}}",
+	"years": "{{PLURAL:$1|sor}}",
 	"months": "{{PLURAL: $1|manq|manqon}}",
 	"weeks": "{{PLURAL: $1|haftə|hafton}}",
 	"days": "{{PLURAL: $1|rüj|rüjon}}",

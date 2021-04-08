@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"voiceintro-toolbar-record-label": "บันทึก",
+	"voiceintro-toolbar-stop-label": "หยุด",
+	"voiceintro-toolbar-clear-label": "ล้าง",
+	"voiceintro-toolbar-upload-label": "อัปโหลด",
+	"voiceintro-webaudio-not-supported": "เบราว์เซอร์นี้ไม่รองรับ WebAudio API",
+	"voiceintro-upload-publish-succeeded": "อัปโหลดเสียงบันทึกสำเร็จแล้ว:",
+	"voiceintro-upload-publish-failed": "ไม่ได้อัปโหลดเสียงบันทึก",
+	"voiceintro-information-label": "ข้อมูล",
+	"voiceintro-information-speaker-label": "ชื่อของผู้พูด:",
+	"voiceintro-information-language-label": "ภาษา:",
+	"voiceintro-mic-access-notify": "คลิก \"อนุญาต\" เพื่อให้เบราว์เซอร์สามารถเข้าถึงไมโครโฟนของคุณได้",
+	"voiceintro-recording-notify": "กำลังบันทึก..."
+}

@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Haqmar",
+			"MR973",
 			"Sagan"
 		]
 	},
+	"description": "Викимедианың вики-проекттары тураһында мета-мәғлүмәт.",
 	"formats-heading": "Сығарыу форматтары",
 	"input": "Инеү",
 	"label-wikiids": "Вики идентификаторҙар",

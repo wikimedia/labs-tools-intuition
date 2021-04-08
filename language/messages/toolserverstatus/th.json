@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"toolserver-status-short-ok": "$1: ใช้ได้",
+	"toolserver-status-short-info": "$1: ข้อมูล",
+	"toolserver-status-short-warn": "$1: เตือน",
+	"toolserver-status-short-down": "$1: หยุดทำงาน",
+	"toolserver-status-short-erro": "$1: ข้อผิดพลาด",
+	"toolserver-status-short-unknown": "$1: ไม่รู้จัก",
+	"toolserver-status-short-missing": "$1: หายไป"
+}

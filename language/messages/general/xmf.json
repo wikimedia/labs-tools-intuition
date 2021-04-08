@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"hello": "გომორძგუა",
+	"welcome": "მოზოჯით",
+	"toolversion": "ვერსია $1",
+	"toolversionstamp": "ვერსია $1 ($2)",
+	"etc": "თ.უ.",
+	"namespace": "ჯოხოეფიშ ოფირჩა",
+	"form-submit": "გინულა",
+	"years": "{{PLURAL: $1|წანა|წანა}}",
+	"months": "{{PLURAL: $1|თუთა|თუთა}}",
+	"weeks": "{{PLURAL: $1|მარა|მარა}}",
+	"days": "{{PLURAL: $1|დღა|დღა}}",
+	"hours": "{{PLURAL: $1|სათი|სათი}}",
+	"minutes": "{{PLURAL: $1|წუთი|წუთი}}",
+	"seconds": "{{PLURAL: $1|წამი|წამი}}",
+	"last-modified-date": "ბოლო თირუა: $1",
+	"view-source": "წყუშ ძირაფა",
+	"and": "&#32;დო"
+}
