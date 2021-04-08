@@ -8,7 +8,6 @@
 
 namespace Krinkle\Intuition;
 
-use Krinkle\Intuition\Util as IntuitionUtil;
 use MessagesFunctions;
 
 /**
@@ -210,7 +209,7 @@ class Intuition {
 	 * @return bool
 	 */
 	public function setLang( $lang ) {
-		if ( !IntuitionUtil::nonEmptyStr( $lang ) ) {
+		if ( !Util::nonEmptyStr( $lang ) ) {
 			return false;
 		}
 		// Pre-normalize the lang string to prevent invalid values.
@@ -400,7 +399,7 @@ class Intuition {
 	 * @return string|false|null
 	 */
 	public function msg( $key, $options = [], $fail = null ) {
-		if ( !IntuitionUtil::nonEmptyStr( $key ) ) {
+		if ( !Util::nonEmptyStr( $key ) ) {
 			// Invalid message key
 			return $this->bracketMsg( '', $fail );
 		}
@@ -418,7 +417,7 @@ class Intuition {
 		];
 
 		// If $options was a domain string, convert it now.
-		if ( IntuitionUtil::nonEmptyStr( $options ) ) {
+		if ( Util::nonEmptyStr( $options ) ) {
 			$options = [ 'domain' => $options ];
 		}
 
@@ -450,7 +449,7 @@ class Intuition {
 
 		// If using raw variables, escape message before replacement
 		if ( $options['raw-variables'] === true ) {
-			$msg = IntuitionUtil::strEscape( $msg, $options['escape'] );
+			$msg = Util::strEscape( $msg, $options['escape'] );
 			$escapeDone = true;
 		}
 
@@ -467,15 +466,15 @@ class Intuition {
 		// If not using raw vars, escape the message now (after variable replacement).
 		if ( !$escapeDone ) {
 			$escapeDone = true;
-			$msg = IntuitionUtil::strEscape( $msg, $options['escape'] );
+			$msg = Util::strEscape( $msg, $options['escape'] );
 		}
 
 		if ( is_string( $options['wikilinks'] ) ) {
-			$msg = IntuitionUtil::parseWikiLinks( $msg, $options['wikilinks'] );
+			$msg = Util::parseWikiLinks( $msg, $options['wikilinks'] );
 		}
 
 		if ( $options['externallinks'] ) {
-			$msg = IntuitionUtil::parseExternalLinks( $msg );
+			$msg = Util::parseExternalLinks( $msg );
 		}
 
 		return $msg;
@@ -607,10 +606,10 @@ class Intuition {
 		?string $domain = null,
 		?string $lang = null
 	) : void {
-		$domain = IntuitionUtil::nonEmptyStr( $domain )
+		$domain = Util::nonEmptyStr( $domain )
 			? $this->normalizeDomain( $domain )
 			: $this->getDomain();
-		$lang = IntuitionUtil::nonEmptyStr( $lang )
+		$lang = Util::nonEmptyStr( $lang )
 			? $this->normalizeLang( $lang )
 			: $this->getLang();
 
@@ -856,7 +855,7 @@ class Intuition {
 		}
 
 		// Validate input and protect against path traversal
-		if ( !IntuitionUtil::nonEmptyStrs( $domain, $lang ) ||
+		if ( !Util::nonEmptyStrs( $domain, $lang ) ||
 			strcspn( $domain, ":/\\\000" ) !== strlen( $domain ) ||
 			strcspn( $lang, ":/\\\000" ) !== strlen( $lang )
 		) {
@@ -1071,7 +1070,7 @@ class Intuition {
 		} else {
 			$text = $this->msg( 'bl-mysettings-new', 'tsintuition' );
 		}
-		return IntuitionUtil::tag(
+		return Util::tag(
 			$text,
 			'a',
 			[
@@ -1105,7 +1104,7 @@ class Intuition {
 				. '/' . $imgSize . 'px-Tool_labs_logo.svg.png';
 			$src_2x = '//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
 				. '/' . ( $imgSize * 2 ) . 'px-Tool_labs_logo.svg.png';
-			$img = IntuitionUtil::tag( '', 'img', [
+			$img = Util::tag( '', 'img', [
 				'src' => $src,
 				'srcset' => "$src 1x, $src_2x 2x",
 				'width' => $imgSize,
@@ -1158,7 +1157,7 @@ class Intuition {
 				'group' => $translateGroup,
 			];
 			$twParams = http_build_query( $twParams );
-			$helpTranslateLink = '<small>(' . IntuitionUtil::tag( $twLinkText, 'a', [
+			$helpTranslateLink = '<small>(' . Util::tag( $twLinkText, 'a', [
 				'href' => "https://translatewiki.net/w/i.php?$twParams",
 				'title' => $this->msg( 'help-translate-tooltip', 'tsintuition' )
 			] ) . ')</small>';
@@ -1256,7 +1255,7 @@ class Intuition {
 
 	/**
 	 * @param string $content Text or HTML to be wrapped in parentheses.
-	 * @param string $escape Any valid format for IntuitionUtil::strEscape.
+	 * @param string $escape Any valid format for Util::strEscape.
 	 * @return string
 	 */
 	public function parensWrap( $content, $escape = 'plain' ) : string {
@@ -1265,7 +1264,7 @@ class Intuition {
 			[
 				'domain' => 'general',
 				'raw-variables' => true,
-				'variables' => [ IntuitionUtil::strEscape( $content, $escape ) ],
+				'variables' => [ Util::strEscape( $content, $escape ) ],
 			]
 		);
 	}
@@ -1368,7 +1367,7 @@ class Intuition {
 			}
 		}
 
-		$acceptableLanguages = IntuitionUtil::getAcceptableLanguages();
+		$acceptableLanguages = Util::getAcceptableLanguages();
 		foreach ( $acceptableLanguages as $acceptLang => $qVal ) {
 			// If the lang code is known (we have a display name for it),
 			// and we were able to set it, end the search.
