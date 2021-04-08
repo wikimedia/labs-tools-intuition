@@ -5,12 +5,11 @@
 Before making a release, make sure that:
 
 1. You have a local clone of the intuition.git repository.
-2. You are on a clean and up-to-date checkout of the `master` branch.
+2. You are on a clean and up-to-date checkout of the `main` branch.
    This state can be accomplished by running the following commands:
    <pre lang="sh">
    git fetch origin
-   git checkout master
-   git reset --hard origin/master
+   git checkout -B release -t origin/main
    </pre>
 
 ## Draft
@@ -24,8 +23,8 @@ The following steps should be applied:
 3. Update `Intuition->version` string.
 4. Make the commit.
 
-The drafting steps do not require commit access, and may also
-be performed by other contributors via a pull request.
+The drafting steps do not require push access, and may also
+be performed by contributors via a pull request.
 
 ### Update authors
 
@@ -114,16 +113,12 @@ For more information about that, see:
 
 ## Release your own commit:
 
-Check <https://travis-ci.org/Krinkle/intuition> and wait until the build for
-the `release` branch has completed and passes. Then, the commit can be pushed
-to the master branch together with a brand new tag, as follows:
+Check [CI Status](https://github.com/Krinkle/intuition/actions/workflows/CI.yaml) and wait until the build for the `release` branch has completed and passes. Then, the commit can be pushed to the main branch together with a brand new tag, as follows:
 
-1. Confirm you are on the local master branch at the "Tag" commit
-   (e.g. run `git show` or `git log -n1`).
-2. Run `git push origin HEAD:master`, which will push the commit
-   to the remote master branch. This automatically verifies that
-   the commit was previously pushed to a different branch with
-   passing tests. If it is a different commit, or fails the tests,
+1. Confirm you are at your "Tag" commit (e.g. run `git show` or `git log -n1`).
+2. Run `git push origin HEAD:main`, to push the commit to the remote. This
+   automatically verifies that the commit was previously pushed to a different
+   branch with passing tests. If it is a different commit, or fails the tests,
    it will automatically be refused by GitHub.
 3. If the commit was succesfully pushed, create the tag by running
    the `git tag -s vX.Y.X` command (where X.Y.Z is the version we
