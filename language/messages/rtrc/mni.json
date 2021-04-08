@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luwangcha"
+		]
+	},
+	"apply": "ꯊꯥꯖꯤꯟꯕ",
+	"clear": "ꯃꯨꯊꯠꯄ",
+	"close": "ꯈꯨꯝꯖꯤꯟꯂꯨ",
+	"feedback": "ꯑꯄꯥꯝ ꯄꯥꯝꯗ ꯐꯣꯡꯗꯣꯛꯄ",
+	"filter": "ꯆꯨꯝꯊꯣꯛꯄꯥ",
+	"filter-hideliu": "ꯃꯃꯤꯡ ꯆꯟꯂꯕꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯁꯤꯡ ꯂꯣꯠꯂꯨ",
+	"filter-hidebots": "ꯕꯣꯠꯁꯤꯡ ꯂꯣꯠꯂꯨ",
+	"filter-unpatrolled": "ꯌꯦꯡꯁꯤꯟꯈ꯭ꯔꯕ ꯁꯦꯝꯗꯣꯛꯄꯁꯤꯡ ꯂꯣꯠꯂꯨ",
+	"help": "ꯃꯇꯦꯡ",
+	"helpicon-tooltip": "ꯃꯁꯤꯒꯤ ꯃꯑꯣꯡ ꯃꯇꯧꯁꯤꯒꯤ ꯃꯔꯝꯗ ꯍꯦꯟꯅ ꯇꯝꯁꯤꯟꯂꯨ",
+	"lastupdate-cvn": "ꯑꯔꯣꯏꯕ ꯁꯦꯝꯗꯣꯛꯈꯤꯕ:$1",
+	"lastupdate-rc": "ꯑꯔꯣꯏꯕ ꯁꯦꯝꯗꯣꯛꯈꯤꯕ:$1",
+	"legend": "ꯁꯛꯅꯥꯢꯔꯕ",
+	"license": "ꯑꯌꯥꯕꯥ",
+	"limit": "ꯁꯤꯗꯒꯤ ꯍꯦꯟꯕ ꯌꯥꯗꯕ",
+	"mark": "ꯈꯣꯠꯄ",
+	"new-short": "ꯑꯅꯧꯕ",
+	"type": "ꯃꯈꯜ"
+}

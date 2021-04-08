@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aefgh39622",
 			"Ans"
 		]
 	},
+	"label-page": "หน้า",
+	"label-namespace": "เนมสเปซ",
+	"label-limit": "ขีดจำกัด",
+	"button-submit": "ไป",
 	"istemplate": "ใช้แม่แบบ"
 }

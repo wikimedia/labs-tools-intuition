@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aefgh39622",
 			"Ans"
 		]
 	},
-	"alws-label": "วิกิ"
+	"alws-label": "วิกิ",
+	"alws-selectwiki": "(เลือกวิกิ)",
+	"alws-group-mustused": "วิกิที่ใช้มากที่สุด",
+	"alws-group-allaz": "ทุกวิกิตามลำดับตัวอักษร",
+	"form-legend-settings": "การตั้งค่า"
 }

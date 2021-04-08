@@ -1,9 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joanmp17",
 			"Tigrigna1"
 		]
 	},
-	"years": "ዓመት| ዓመታት",
-	"days": "መዓልቲ|መዓልታት"
+	"hello": "ሰላም",
+	"colon-separator": "፦",
+	"years": "{{PLURAL: $1|ዓመት|ዓመታት}}",
+	"months": "{{PLURAL: $1|ወርሒ|ኣዋርሕ}}",
+	"weeks": "{{PLURAL: $1|ሰሙን|ሰሙናት}}",
+	"days": "{{PLURAL: $1|መዓልቲ|መዓልታት}}",
+	"hours": "{{PLURAL: $1|ሰዓት|ሰዓታት}}",
+	"minutes": "{{PLURAL: $1|ደቒቓ|ደቓይቕ}}",
+	"seconds": "{{PLURAL: $1|ሰከንድ|ሰከንድታት}}",
+	"last-modified-date": "መጨረሻ ምምሕያሽ፦ $1",
+	"view-source": "ኮድ ርኣይ"
 }

@@ -31,7 +31,7 @@
 	"error_no_meta": "Za izvorni wiki ni bilo najdenih metapodatkov! $1Dodajte/posodobite metapodatke projekta$2",
 	"error_meta_no_good": "Metapodatki: Najdena ni bila nobena dobra predloga! $1Povezava do metapodatkov$2",
 	"error_meta_bad": "Metapodatki: Najdena je bila slaba predloga! $1Dodajte/posodobite metapodatke projekta$2",
-	"original_wikitext": "Izvirno wikibesedilo",
+	"original_wikitext": "Izvorno vikibesedilo",
 	"new_wikitext": "Novo wikibesedilo",
 	"new_filename": "Novo ime datoteke:",
 	"output_information": "Za ročno nalaganje uredite zgornje besedilo (če je potrebno), shranite $1datoteko$2 na vaš računalnik in jo nato $3naložite$4.",

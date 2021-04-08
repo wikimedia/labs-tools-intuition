@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"Janezdrilc"
 		]
 	},
@@ -10,11 +11,11 @@
 	"category_miscellaneous": "Razno",
 	"category_wikidata": "Wikipodatki",
 	"select_wiki_title": "Izberi wiki",
-	"select_wiki_next": "Naslednji →",
+	"select_wiki_next": "Naprej →",
 	"select_report_disabled": "To poročilo ni na voljo.",
 	"select_report_go_back": "← Spremeni wiki",
-	"qvar_next": "Naslednji →",
+	"qvar_next": "Naprej →",
 	"prefs_submit": "V redu",
-	"prefs_done": "Tvoje nastavitve so bile spremenjene.",
+	"prefs_done": "Vaše nastavitve so spremenjene.",
 	"prefs_langlabel": "Jezik vmesnika:"
 }

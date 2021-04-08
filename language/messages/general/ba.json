@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Haqmar",
+			"MR973",
 			"Sagan",
 			"Азат Хәлилов",
 			"ҒатаУлла"
@@ -9,12 +10,14 @@
 	},
 	"hello": "Сәләм",
 	"welcome": "Рәхим итегеҙ!",
+	"toolversion": "Версия $1",
 	"toolversionstamp": " $1 ($2) юрамаһы",
 	"etc": "һ.б.",
 	"namespace": "Исемдәр арауығы",
 	"form-submit": "Күсеү",
 	"form-reset": "таҙартырға",
 	"years": "$1 {{PLURAL:$1|йыл}}",
+	"months": "{{PLURAL: $1|ай|айҙар}}",
 	"weeks": "$1 {{PLURAL:$1|аҙна}}",
 	"days": "$1 {{PLURAL:$1|көн}}",
 	"hours": "{{PLURAL:$1|$1 сәғәт}}",

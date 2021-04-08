@@ -4,10 +4,11 @@
 			"BaRaN6161 TURK",
 			"Emperyan",
 			"Mavrikant",
+			"MuratTheTurkish",
 			"Prq"
 		]
 	},
-	"toolserver-status-ok": "Veritabanı kümesinde $1 $2 problem yok",
+	"toolserver-status-ok": "Veritabanı kümesinde $1 $2 sorun yok",
 	"toolserver-status-info": "$1 kümesinin kullanıcıları için bildirim: $2",
 	"toolserver-status-warn": "$1 küme kullanıcıları için uyarı: $2",
 	"toolserver-status-down": "$1 veritabanı kümesi geçici olarak kapatıldı. $2",
