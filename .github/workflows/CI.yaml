@@ -14,26 +14,17 @@ jobs:
           # https://github.com/actions/virtual-environments/blob/ubuntu18/20210318.0/images/linux/Ubuntu1804-README.md#php
           - os: ubuntu-18.04
             php: "7.2"
-            # Counter to what GitHub announced, it is not possible
-            # for a field like this to be optional because continue-on-error requires
-            # a bool true/false, it doesn't accept undefined or empty string.
-            # https://github.blog/changelog/2020-04-15-github-actions-new-workflow-features/
-            experimental: false
           - os: ubuntu-18.04
             php: "7.3"
-            experimental: false
           # Has php7.4-8.0 and composer 2 pre-installed
           # https://github.com/actions/virtual-environments/blob/ubuntu20/20210318.0/images/linux/Ubuntu2004-README.md#php
           - os: ubuntu-20.04
             php: "7.4"
-            experimental: false
           - os: ubuntu-20.04
             php: "8.0"
-            experimental: true
     # Use "PHP 0.0" as job name instead of "php (ubuntu-, 0.0)"
     name: PHP ${{ matrix.php }}
     runs-on: ${{ matrix.os }}
-    continue-on-error: ${{ matrix.experimental }}
     steps:
       - uses: actions/checkout@v2
 
