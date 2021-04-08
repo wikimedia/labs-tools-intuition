@@ -26,8 +26,8 @@ class Util {
 	 */
 	public static function strEscape( ?string $str, string $escape = 'plain' ) : string {
 		switch ( $escape ) {
-			case 'html' :
-			case 'htmlspecialchars' :
+			case 'html':
+			case 'htmlspecialchars':
 				$str = htmlspecialchars( $str );
 				break;
 			case 'htmlentities':

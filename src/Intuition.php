@@ -15,54 +15,54 @@ use MessagesFunctions;
  * creating an instance of to use and configure their i18n.
  */
 class Intuition {
-	// Message file cache. Does not contain local overrides. See $messageBlob.
+	/** Message file cache. Does not contain local overrides. See $messageBlob. */
 	protected static $messageCache = [];
 
-	// Fallback cache. Stored as an array of language codes with their fallback as value.
+	/** Fallback cache. Stored as an array of language codes with their fallback as value. */
 	protected static $fallbackCache = null;
 
 	public $localBaseDir;
 
 	public $version = '2.1.0';
 
-	// URL to where intuition-web is installed
+	/** URL to where intuition-web is installed */
 	public $dashboardHome = '//tools.wmflabs.org/intuition';
 
-	// Constructor options
 	protected $currentDomain = 'general';
-
 	protected $currentLanguage;
-
 	protected $suppressfatal;
-
 	protected $suppressnotice;
-
 	protected $suppressbrackets;
-
 	protected $stayalive;
-
 	protected $useRequestParam;
 
-	// Changing this will invalidate all cookies
+	/** Changing this will invalidate all cookies. */
 	protected $cookieNames = [
 		'userlang' => 'TsIntuition_userlang',
 		'track-expire' => 'TsIntuition_expiry'
 	];
 
-	// Changing this will break existing permalinks
+	/** Changing this will break existing permalinks. */
 	protected $paramNames = [ 'userlang' => 'userlang' ];
 
-	// In-class message storage.
-	// Format: $store['domain']['lang']['message-key'] = 'Raw message value';
+	/**
+	 * In-class message storage.
+	 * Format: `$messageBlob['domain']['lang']['message-key'] = 'Raw message value';`
+	 */
 	protected $messageBlob = [];
 
-	// Which domains and languages have been loaded.
-	// $loadedDomains['general']['en'] = true;
+	/**
+	 * Which domains and languages have been loaded.
+	 *
+	 * Format: `$loadedDomains['general']['en'] = true;`
+	 */
 	protected $loadedDomains = [];
 
-	// Based on MediaWiki 1.26alpha
-	// These codes are mapped to their replacements before loading.
-	// Associated language files may still exist, but will not be used.
+	/**
+	 * These codes are mapped to their replacements before loading.
+	 * Associated language files may still exist, but will not be used.
+	 * Based on MediaWiki 1.26alpha
+	 */
 	protected $deprecatedLangCodes = [
 		'als' => 'gsw',
 		'bat-smg' => 'sgs',
@@ -80,22 +80,24 @@ class Intuition {
 		'zh-yue' => 'yue',
 	];
 
-	// Language names are stored as an array of language codes
-	// with their native name as value
-	// Such as as for Spanish: langNames['es'] = 'Español';
+	/**
+	 * Language names are stored as an array of language codes
+	 * with their native name as value
+	 * Such as as for Spanish: `$langNames['es'] = 'Español';`
+	 */
 	protected $langNames = null;
 
 	protected $availableLanguages = [];
 
 	protected $domainInfos = [];
 
-	// These variable names will be extracted from the message files
+	/** These variable names will be extracted from the message files. */
 	protected $includeVariables = [ 'messages', 'url' ];
 
-	// Redirect address and status
+	/** Redirect address and status. */
 	protected $redirectTo = null;
 
-	// Instance of MessagesFunctions
+	/** Instance of MessagesFunctions. */
 	protected $messagesFunctions = null;
 
 	public static function clearCache() {
@@ -342,7 +344,7 @@ class Intuition {
 
 	/**
 	 * Get an instance of MessagesFunctions.
-	 * @return object Instance of MessagesFunction
+	 * @return MessagesFunction
 	 */
 	protected function getMessagesFunctions() {
 		if ( $this->messagesFunctions == null ) {
