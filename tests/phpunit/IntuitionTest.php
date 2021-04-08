@@ -174,6 +174,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 	public function testMessagesFunctions() {
 		$this->i18n->setMsgs( [
 			'basket' => 'The basket contains $1 {{PLURAL:$1|apple|apples|applex}}.',
+			'logged-in' => "Vous êtes connecté{{GENDER:$1||e}} en tant que $1",
 		] );
 
 		$this->assertSame(
@@ -216,6 +217,13 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			'The basket contains 7 applex.',
 			$this->i18n->msg( 'basket', [ 'variables' => [ '7' ], 'lang' => 'ru' ] ),
 			'Plural (ru) with 7 uses plural@3 form'
+		);
+
+		$this->assertSame(
+			'Vous êtes connecté<span class="gender-male gender-neutral"></span>'
+			. '<span class="gender-female">e</span> en tant que Foo',
+			$this->i18n->msg( 'logged-in', [ 'variables' => [ 'Foo' ] ] ),
+			'Gender (fr)'
 		);
 	}
 
