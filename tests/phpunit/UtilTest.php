@@ -189,10 +189,6 @@ class UtilTest extends TestCase {
 
 	public static function provideParseExternalLinks() {
 		return [
-			[
-				null,
-				'',
-			],
 			// No-ops
 			[
 				''
