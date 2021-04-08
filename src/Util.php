@@ -194,10 +194,10 @@ class Util {
 	 * Given a text already html-escaped which contains urls in wiki format,
 	 * convert it to html.
 	 *
-	 * @param string|null $text
+	 * @param string $text
 	 * @return string HTML
 	 */
-	public static function parseExternalLinks( ?string $text ) : string {
+	public static function parseExternalLinks( string $text ) : string {
 		static $urlProtocols = false;
 		static $counter = 0;
 		// @codeCoverageIgnoreStart
