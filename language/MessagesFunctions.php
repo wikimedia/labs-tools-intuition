@@ -9,6 +9,7 @@
  */
 
 use Krinkle\Intuition\Intuition;
+use Krinkle\Intuition\Util as IntuitionUtil;
 
 class MessagesFunctions {
 
