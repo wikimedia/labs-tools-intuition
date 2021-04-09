@@ -23,7 +23,7 @@ class Intuition {
 
 	public $localBaseDir;
 
-	public $version = '2.1.0';
+	public $version = '2.3.0';
 
 	/** URL to where intuition-web is installed */
 	public $dashboardHome = '//tools.wmflabs.org/intuition';

@@ -20,7 +20,7 @@ The following steps should be applied:
 
 1. Update `AUTHORS.txt` file.
 2. Update `CHANGELOG.md` file.
-3. Update `Intuition->version` string.
+3. Update `Intuition->version`.
 4. Make the commit.
 
 The drafting steps do not require push access, and may also
@@ -85,7 +85,7 @@ if it differs, be sure to correct it for the changelog.
 
 ### Update version string
 
-Edit the `$version` assignment in `src/Intuition.php` to match
+Edit the `$version` assignment in [Intuition.php](../src/Intuition.php) to match
 the version string that will be used for the next release.
 
 ### Make the commit

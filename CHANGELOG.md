@@ -1,3 +1,22 @@
+## v2.3.0 (2021-04-09)
+
+### Added
+
+* This is the first release to officially support PHP 8.0.
+
+### Changed
+
+* messages: Localisation updates from https://translatewiki.net.
+* Util: The `parseExternalLinks()` no longer tolerates null, it requires a string.
+
+### Fixed
+
+* core: Add missing `use` statement to MessagesFunctions class. (Sam Wilson) [#127](https://github.com/Krinkle/intuition/pull/127)
+
+### Removed
+
+* messages: Remove mwsnapshots domain, the tool was retired.
+
 ## v2.2.0 (2020-07-13)
 
 ### Changed
@@ -32,7 +51,7 @@
 
 ### Removed
 
-* core: The `ToolStart.php` entry point has been removed. ([issue #101](https://github.com/Krinkle/intuition/issues/101))
+* core: The `ToolStart.php` entry point has been removed. [#101](https://github.com/Krinkle/intuition/issues/101)
 * core: Remove the un-namespaced `Intuition` and `TsIntuition` class aliases.
   Deprecated since v0.5.0, use `Krinkle\Intuition` instead.
 
@@ -57,7 +76,7 @@
 
 ### Added
 
-* core: New method `Intuition::addAvailableLanguage`. ([issue #88](https://github.com/Krinkle/intuition/issues/88))
+* core: New method `Intuition::addAvailableLanguage`. [#88](https://github.com/Krinkle/intuition/issues/88)
 
 ## v1.0.0 (2018-08-15)
 
@@ -94,7 +113,7 @@ Intuition is now available under the MIT License.
 ### Fixed
 
 * core: Fix PHP warning when preference is set to a language without
-  translations in the current domain. (issue [#81](https://github.com/Krinkle/intuition/issues/81))
+  translations in the current domain. [#81](https://github.com/Krinkle/intuition/issues/81)
 
 ### Changed
 
@@ -140,7 +159,7 @@ Intuition is now available under the MIT License.
 
 ### Added
 
-* core: New dummy language 'qqx' for showing raw message keys. (issue [#79](https://github.com/Krinkle/intuition/issues/79))
+* core: New dummy language 'qqx' for showing raw message keys. [#79](https://github.com/Krinkle/intuition/issues/79)
 
 ### Changed
 
@@ -157,7 +176,7 @@ The Intuition library is now dependency-free!
 ### Changed
 
 * build: Remove toollabs-base dependency.  Intuition is now dependency-free!
-* Move Intuition classes to `Krinkle\Intuition` namespace (PSR-4). (issue [#76](https://github.com/Krinkle/intuition/issues/76))
+* Move Intuition classes to `Krinkle\Intuition` namespace (PSR-4). [#76](https://github.com/Krinkle/intuition/issues/76)
 * messages: Localisation updates from https://translatewiki.net.
 
 ### Fixed
@@ -196,7 +215,7 @@ The Intuition library is now dependency-free!
 
 ### Fixed
 
-* core: Add English to fallback chains. (issue [#53](https://github.com/Krinkle/intuition/issues/53))
+* core: Add English to fallback chains. [#53](https://github.com/Krinkle/intuition/issues/53)
 
 ## v0.2.2 (2015-11-12)
 
