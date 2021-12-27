@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Palapa"
+		]
+	},
+	"title": "„grep“ naslova članaka (beta)",
+	"explanation": "Objašnjenje",
+	"regex": "Regularni izraz",
+	"enter-details": "Unesite podatke",
+	"results": "Rezultati",
+	"language-label": "Jezik",
+	"namespace-label": "Imenski prostor",
+	"project-label": "Projekt",
+	"pattern-label": "Uzorak"
+}

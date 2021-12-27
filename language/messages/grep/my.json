@@ -4,6 +4,11 @@
 			"Dr Lotus Black"
 		]
 	},
+	"enter-details": "အသေးစိတ်များ ထည့်သွင်းပါ",
+	"results": "ရလဒ်များ",
+	"language-label": "ဘာသာစကား",
 	"namespace-label": "အမည်ညွှန်း",
-	"project-label": "ပရောဂျက်"
+	"project-label": "ပရောဂျက်",
+	"pattern-label": "ပုံစံ",
+	"redirects-label": "ပြန်ညွှန်းများ အပါအဝင်"
 }

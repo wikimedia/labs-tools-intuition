@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinamoonroll"
+		]
+	},
+	"dateformat": "%d %B %Y",
+	"hello": "Halo",
+	"welcome": "Rahajeng rauh",
+	"toolversion": "Vérsi $1",
+	"toolversionstamp": "Vérsi $1 ($2)",
+	"etc": "msl.",
+	"colon-separator": ":",
+	"namespace": "Genah aran",
+	"form-submit": "Kirim",
+	"form-reset": "Jumu",
+	"years": "{{PLURAL: $1|warsa}}",
+	"months": "{{PLURAL: $1|sasih}}",
+	"weeks": "{{PLURAL: $1|wuku}}",
+	"days": "{{PLURAL: $1|rahina}}",
+	"hours": "{{PLURAL: $1|jam}}",
+	"minutes": "{{PLURAL: $1|menit}}",
+	"seconds": "{{PLURAL: $1|detik}}",
+	"last-modified-date": "Kapungkur kauahin: $1",
+	"view-source": "Cingak wit",
+	"parentheses": "($1)",
+	"comma-separator": ",&#32;",
+	"word-separator": "&#32;",
+	"and": "&#32;miwah"
+}

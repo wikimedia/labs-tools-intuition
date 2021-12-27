@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Beta16",
 			"Nemo bis",
 			"Rippitippi"
@@ -8,7 +9,7 @@
 	},
 	"alws-label": "Wiki",
 	"alws-selectwiki": "(selezionare la wiki)",
-	"alws-group-mustused": "Le wiki più usate",
+	"alws-group-mustused": "I wiki più usati",
 	"alws-group-allaz": "Tutti i wiki in ordine alfabetico",
 	"form-legend-settings": "Impostazioni"
 }

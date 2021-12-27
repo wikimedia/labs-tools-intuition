@@ -12,5 +12,6 @@
 	"namespace": "Nommâkomovuotâ",
 	"form-submit": "Moonâ",
 	"years": "{{PLURAL: $1|ihe|ive}}",
-	"last-modified-date": "Majemustáá nubástittum: $1"
+	"last-modified-date": "Majemustáá nubástittum: $1",
+	"view-source": "Čääiti käldeekoodi"
 }

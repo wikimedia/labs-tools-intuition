@@ -28,7 +28,7 @@
 	"error_on_commons": "Le file de origine es ja presente in $1!",
 	"error_file_exists": "Le file jam existe in $3 como \"$1$4$2\"!",
 	"error_diff_exists": "Un altere file de destination existe in le wiki de destination sub le mesme nomine!",
-	"error_no_meta": "Nulle metadatos trovate super le wiki de origine! $1Per favor adde/actualisa le metadatos pro le projecto$2",
+	"error_no_meta": "Nulle metadatos trovate sur le wiki de origine! $1Per favor adde/actualisa le metadatos pro le projecto$2",
 	"error_meta_no_good": "Metadatos: Nulle bon patronos trovate! $1Per favor adde/actualisa le metadatos pro le projecto$2",
 	"error_meta_bad": "Metadatos: Mal patrono trovate! $1Per favor adde/actualisa le metadatos pro le projecto$2",
 	"original_wikitext": "Texto wiki original",

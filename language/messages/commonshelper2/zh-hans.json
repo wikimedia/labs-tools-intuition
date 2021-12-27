@@ -7,6 +7,7 @@
 			"Liuxinyu970226",
 			"Mys 721tx",
 			"Qiyue2001",
+			"Tranve",
 			"Xiaomingyan",
 			"Zhuyifei1999"
 		]
@@ -37,8 +38,8 @@
 	"error_no_meta": "未找到关于该来源维基的元数据！$1请为该项目添加/更新元数据$2",
 	"error_meta_no_good": "元数据： 找不到合适模板 ！ $1请添加或更新改项目的元数据$2",
 	"error_meta_bad": "元数据：找到不适当的模板！$1 请添加或更新用于项目$2的元数据",
-	"original_wikitext": "原始维基文本",
-	"new_wikitext": "新的维基文本",
+	"original_wikitext": "原始wikitext",
+	"new_wikitext": "新的wikitext",
 	"new_filename": "新的文件名：",
 	"output_information": "对于手动上载，编辑上述文本 （如果需要），保存 $1 文件 $2 到您的计算机，然后 $3 将其上传 $4 。",
 	"upload_submit": "上传！",

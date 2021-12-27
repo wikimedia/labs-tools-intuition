@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aktron"
+			"Aktron",
+			"Mormegil"
 		]
 	},
 	"category_users": "Uživatelé",
@@ -11,5 +12,6 @@
 	"category_wikidata": "WikiData",
 	"select_wiki_title": "Vyberte wiki",
 	"select_wiki_next": "Následující →",
+	"prefs_submit": "OK",
 	"prefs_langlabel": "Jazyk rozhraní:"
 }

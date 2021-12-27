@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"language": "Giella",
+	"project": "Prosjäkkta",
+	"source_file": "Gálldofijjla",
+	"commons_username": "Adnejnamma Wikimedia Commons'a lunne",
+	"categories": "Kategorija",
+	"tusc_user": "Adnejnamma TUSC sinne",
+	"tusc_pass": "Biessambáhko TUSC sinne",
+	"do_it": "Daga dav",
+	"error_file_exists": "Fijjla gävdnu juo $3 sinne gu \"$1$4$2\"!",
+	"upload_submit": "Lässti bajás!"
+}

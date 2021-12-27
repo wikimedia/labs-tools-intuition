@@ -4,6 +4,7 @@
 			"A1",
 			"Andriykopanytsia",
 			"Base",
+			"DDPAT",
 			"Тест"
 		]
 	},
@@ -11,7 +12,7 @@
 	"welcome": "Ласкаво просимо!",
 	"toolversion": "Версія $1",
 	"toolversionstamp": "Версія $1 ($2)",
-	"etc": "і т. д.",
+	"etc": "тощо",
 	"namespace": "Простір назв",
 	"form-submit": "Перейти",
 	"form-reset": "Очистити",

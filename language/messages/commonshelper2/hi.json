@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"C1K98V",
 			"Siddhartha Ghai"
 		]
 	},
@@ -27,7 +28,7 @@
 	"error_no_meta": "स्रोत विकि के बारे में कोई मेटाडाटा नहीं मिला! $1कृपया परियोजना के लिये मेटाडाटा जोड़ें/अद्यतित करें$2",
 	"original_wikitext": "मूल विकि पाठ",
 	"new_wikitext": "नया विकि पाठ",
-	"new_filename": "फ़ाइल का नया नाम:",
+	"new_filename": "नया फ़ाइल नाम:",
 	"upload_submit": "अपलोड!",
 	"target_wiki": "लक्ष्य विकि",
 	"error_bot_blocked": "अपलोड बॉट विकिमीडिया कॉमन्स पर अवरोधित है।",

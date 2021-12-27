@@ -6,12 +6,13 @@
 			"Grkn gll",
 			"Rapsar",
 			"Sadrettin",
+			"SaldırganSincap",
 			"Stonecy",
 			"Vito Genovese"
 		]
 	},
 	"title": "Şablon bağlantı ve yansıtma kontrolü",
-	"description": "Bir kalıbı dönüştüren hangi makalelerin kalıba bağlı olmadığını ve kalıba bağlı olan hangi makaleleri kaleme aldığını denetler ve raporlar.",
+	"description": "Bir şablonu yansıtan maddelerin şablondan bağlantılı olmadığını ve bir şablondan bağlanan hangi maddelerine onu yansıtmadığını kontrol eder ve raporlar.",
 	"form-label-language": "Dil:",
 	"form-label-template": "Şablon adı:",
 	"form-label-template2": "(isim alanı dahil)",

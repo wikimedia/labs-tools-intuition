@@ -8,5 +8,6 @@
 	"language": "Linguo",
 	"commons_username": "Uzero-nomo en Wikimedia Commons",
 	"move_file_from_com": "Translojar arkivo de Wikimedia Commons a la projeto",
+	"error_no_meta": "Nula ''metadata'' trovesis pri la fonto-wiki! $1Voluntez adjuntar ''metadata'' pri ca projeto$2",
 	"error_bot_blocked": "Sendar arkivi 'bot' blokusesas en Wikimedia Commons."
 }

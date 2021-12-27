@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Huji",
 			"Reza1615"
 		]
 	},
 	"title": "کنترل کردن پیوند به و ترانگنجایش الگو",
-	"description": "چک کردن و گزارش دادن مقالاتی که یک الگو به آن پیوند داده نشده است ولی الگو در آن تراگنجایش شده‌است و مقالاتی که پیوند به یک الگو دارند ولی در آنها تراگنجایش نشده‌است.",
+	"description": "چک کردن و گزارش دادن مقالاتی که یک الگو به آن پیوند داده نشده است ولی الگو در آن تراگنجانش شده‌است و مقالاتی که پیوند به یک الگو دارند ولی در آنها تراگنجانش نشده‌است.",
 	"form-label-language": "زبان:",
 	"form-label-template": "نام الگو:",
 	"form-label-template2": "(شامل فضای نام)",
@@ -14,12 +15,12 @@
 	"feedback-template-noaccess": "به نظر می‌رسد الگوی  $1 وجود دارد ولی در پایگاه داده موجود نیست. ممکن است یک خطای موقت پایگاه داده باشد. پایگاه داده استفاده شده:$2",
 	"feedback-result": "نتایج برای $1",
 	"feedback-header-mismatch": "عدم تطابق بین تراگنجایش‌ها و پیوندها",
-	"feedback-header-no-link": "تراگنجایش بدون پیوند دادن",
-	"feedback-header-no-transclusion": "پیوند دادن بدون تراگنجایش",
+	"feedback-header-no-link": "تراگنجانش بدون پیوند دادن",
+	"feedback-header-no-transclusion": "پیوند دادن بدون تراگنجانش",
 	"feedback-header-redirects": "پیوند به تغییرمسیرها",
 	"feedback-total-count": "کل:$1",
-	"feedback-header-complete": "تکمیل بازبینی پیوند و تراگنجایش",
-	"feedback-header-transclusions": "تراگنجایش الگو",
+	"feedback-header-complete": "تکمیل بازبینی پیوند و تراگنجانش",
+	"feedback-header-transclusions": "تراگنجانش الگو",
 	"feedback-header-links": "پیوند از الگو",
 	"link-edit": "ویرایش",
 	"link-create": "ایجاد",

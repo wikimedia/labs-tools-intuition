@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"A1",
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"DDPAT"
 		]
 	},
-	"description": "Мета-інформація про вікі-проекти Вікімедіа.",
+	"description": "Мета-інформація про вікі-проєкти Вікімедіа.",
 	"formats-heading": "Вихідні формати",
 	"input": "Вхід",
-	"label-wikiids": "Ідентифікатори Wiki",
+	"label-wikiids": "Ідентифікатори вікі",
 	"no-matches": "Немає відповідностей «$1»",
-	"output": "Вихід для \" $1 \""
+	"output": "Вихід для «$1»"
 }

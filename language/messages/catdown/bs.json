@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Palapa"
+		]
+	},
+	"title": "Preuzimanje slika po kategoriji",
+	"subtitle": "Jednostavan način preuzimanja slika iz kategorije",
+	"project": "Projekt:",
+	"category": "Kategorija:",
+	"thumbnailing": "Minijaturizacija",
+	"max-width": "Maksimalna širina:",
+	"max-height": "Maksimalna visina:",
+	"invalid-width": "Neispravna širina",
+	"invalid-height": "Neispravna visina",
+	"no-such-project": "Nema takvog projekta",
+	"no-images": "Nema slika u toj kategoriji",
+	"category-is-url": "Navedeni naziv kategorije izgleda kao URL. Potrebno je navesti naziv kategorije, a ne njen URL.",
+	"zip-failed": "Pravljenje ZIP-a nije uspjelo",
+	"download": "Preuzimanje"
+}

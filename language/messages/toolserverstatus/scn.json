@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"toolserver-status-short-ok": "$1: Ok",
+	"toolserver-status-short-info": "$1: Nfurmazzioni",
+	"toolserver-status-short-erro": "$1: Erruri",
+	"toolserver-status-short-unknown": "$1: Scanusciutu"
+}

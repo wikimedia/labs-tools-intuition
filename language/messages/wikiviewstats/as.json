@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dibya Dutta",
-			"Gitartha.bordoloi"
+			"Gitartha.bordoloi",
+			"Simbu123"
 		]
 	},
 	"records": "তথ্যসংগ্ৰহ",
@@ -36,7 +37,7 @@
 	"top": "শীৰ্ষ",
 	"overall": "সামগ্ৰিক",
 	"users": "{{PLURAL: $1|সদস্য|সদস্যসকল}}",
-	"discussion": "বাৰ্তালাপ",
+	"discussion": "আলোচনা",
 	"portal": "পৰ্টেল",
 	"project": "প্ৰকল্প",
 	"category": "শ্ৰেণী",

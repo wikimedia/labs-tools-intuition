@@ -10,6 +10,7 @@
 	},
 	"hello": "Pozdrav",
 	"welcome": "Dobrodošli",
+	"toolversion": "Verzija $1",
 	"toolversionstamp": "Verzija $1 ($2)",
 	"etc": "itd.",
 	"namespace": "Imenski prostor",

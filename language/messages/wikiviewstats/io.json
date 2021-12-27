@@ -1,14 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
+			"JSantos",
 			"Joao Xavier"
 		]
 	},
+	"sample": "Exemplo",
+	"pagetitle": "titulo di pagino",
 	"page": "Pagino",
+	"settings": "Preferaji",
 	"today": "hodie",
+	"all": "omna",
 	"other_lang": "altra lingui",
+	"mycontribs": "Kontributadi",
+	"discussion": "Temi diskutita",
+	"template": "Shablono",
 	"wikiThanks": "Dankar",
+	"revisions": "Revizuri",
+	"deleted": "efacita",
 	"pages": "pagini",
 	"namespaces": "nomaro",
-	"filerResults": "Filtrez la rezulti tra modifiko di la parametri en la menuo adsupere."
+	"filerResults": "Filtrez la rezulti tra modifiko di la parametri en la menuo adsupere.",
+	"submit": "Sendez",
+	"cancel": "nuligar"
 }

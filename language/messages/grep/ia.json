@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"title": "Grep sur titulo de articulo (beta)",
+	"introduction": "Iste instrumento monstra tote le titulos de articulo que corresponde a un patrono de expression regular ($1). Le recerca con un expression regular consume multe ressources. Si possibile, usa le indicatores de prefixo (^) e suffixo ($).",
+	"explanation": "explication",
+	"regex": "Expression regular",
+	"enter-details": "Entra detalios",
+	"results": "Resultatos",
+	"language-label": "Lingua",
+	"namespace-label": "Spatio de nomines",
+	"project-label": "Projecto",
+	"pattern-label": "Patrono",
+	"redirects-label": "Includer redirectiones",
+	"limit-label": "Monstrar solmente le prime 100 resultatos",
+	"error-zeroresults": "Il non ha paginas in ille spatio de nomines con titulos que corresponde a tu expression regular.",
+	"match-count": "{{PLURAL:$1|$1 pagina|$1 paginas}} corresponde a tu expression regular."
+}

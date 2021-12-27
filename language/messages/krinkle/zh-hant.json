@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"LNDDYL",
-			"Simon Shek"
+			"Simon Shek",
+			"Winston Sung"
 		]
 	},
 	"alws-label": "Wiki",
-	"alws-selectwiki": "（選擇維基）",
+	"alws-selectwiki": "（選擇wiki）",
 	"alws-group-mustused": "最常用皫維基",
 	"alws-group-allaz": "所有維基按字母順序",
 	"form-legend-settings": "設定"

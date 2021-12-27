@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"form-label-language": "Giella:",
+	"form-label-template": "Skåvvenamma:",
+	"feedback-template-missing": "Ij gävdnu skåvve \"$1\".",
+	"feedback-result": "Tjuvvusa $1 rájest:",
+	"link-edit": "rävvdada",
+	"link-create": "álge",
+	"error-language": "Amas giellakuvvda."
+}

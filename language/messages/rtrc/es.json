@@ -3,6 +3,7 @@
 		"authors": [
 			"AlvaroMolina",
 			"Fitoschido",
+			"Jakeukalane",
 			"Krinkle",
 			"Macofe",
 			"VegaDark"
@@ -44,7 +45,7 @@
 	"navtoggle-tooltip": "Mostrar u ocultar la barra lateral",
 	"new-short": "nueva",
 	"nomatches": "No hay cambios relevantes para tu configuración",
-	"open-in-wiki": "Abrir en el wiki",
+	"open-in-wiki": "Abrir en la wiki",
 	"order": "Orden",
 	"ores-damaging-probability": "Probabilidad de daño: $1",
 	"ores-scores": "Puntuaciones ORES",

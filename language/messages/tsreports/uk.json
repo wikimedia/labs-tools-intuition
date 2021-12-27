@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
+			"DDPAT",
 			"Piramidion"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Змінити мову / налаштування</a>",
-	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Повідомити про баг або подати запит на функцію</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Повідомити про помилку або подати запит на функцію</a>",
 	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Вікі</a>",
 	"category_users": "Користувачі",
 	"category_articles": "Сторінки",

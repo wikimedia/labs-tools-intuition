@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Piramidion"
 		]
 	},
@@ -14,6 +15,6 @@
 	"voiceintro-information-label": "Інформація",
 	"voiceintro-information-speaker-label": "Ім'я промовця:",
 	"voiceintro-information-language-label": "Мова:",
-	"voiceintro-mic-access-notify": "Натисніть кнопку \"Дозволити\" аби дозволити браузер для доступу до вашого мікрофона.",
-	"voiceintro-recording-notify": "Запис..."
+	"voiceintro-mic-access-notify": "Натисніть кнопку «Дозволити» аби дозволити браузер для доступу до вашого мікрофона.",
+	"voiceintro-recording-notify": "Запис…"
 }

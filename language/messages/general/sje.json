@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"hello": "Burist",
+	"welcome": "Burist båhtem",
+	"toolversion": "Versjuvdna $1",
+	"toolversionstamp": "Versjuvdna $1 ($2)",
+	"etc": "jnv.",
+	"namespace": "Nammarumma",
+	"form-submit": "Mana",
+	"years": "{{PLURAL: $1|jahke|jage}}",
+	"months": "{{PLURAL: $1|mánno|máno}}",
+	"weeks": "{{PLURAL: $1|vahkko|vahko}}",
+	"days": "{{PLURAL: $1|bäjjve|biejve}}",
+	"hours": "{{PLURAL: $1|tijbma|tijma}}",
+	"minutes": "{{PLURAL: $1|minuhtta|minuhta}}",
+	"seconds": "{{PLURAL: $1|sekunnda|sekunda}}",
+	"view-source": "Vuoseda wikitiekstav",
+	"and": "&#32;ja"
+}

@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Samoasambia"
+			"Samoasambia",
+			"Veikk0.ma"
 		]
 	},
 	"bl-mysettings": "Oma kieliasetus",
 	"bl-mysettings-new": "Vaihda kieltä!",
 	"bl-promo": "Käännökset mahdollistaa $1 ja $2.",
-	"bl-changelanguage": "Vaihda käyttöliittymän kieltä napsauttamalla tästä.",
+	"bl-changelanguage": "Vaihda tämän työkalun käyttöliittymän kieli.",
 	"help-translate-tool": "Auta tämän työkalun kääntämisessä!",
 	"help-translate-all": "Auta työkalujen kääntämisessä!",
 	"help-translate-tooltip": "Auta toisia kääntämällä käyttöliittymäviestejä kielellesi."

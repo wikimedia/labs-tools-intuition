@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Jakeukalane"
 		]
 	},
-	"description": "Metainformación acerca de los wikis de Wikimedia.",
+	"description": "Metainformación acerca de las wikis de Wikimedia.",
 	"formats-heading": "Formatos de salida",
 	"input": "Entrada",
 	"label-wikiids": "Identificadores de wiki",

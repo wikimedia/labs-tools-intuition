@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
+			"DDPAT",
 			"NickK"
 		]
 	},
@@ -13,7 +14,7 @@
 	"results": "Результати",
 	"language-label": "Мова",
 	"namespace-label": "Простір назв",
-	"project-label": "Проект",
+	"project-label": "Проєкт",
 	"pattern-label": "Шаблон",
 	"redirects-label": "Включати перенаправлення",
 	"limit-label": "Обмежувати відображення першими 100 результатами",

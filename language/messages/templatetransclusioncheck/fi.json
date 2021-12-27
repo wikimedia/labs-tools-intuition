@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Yupik"
 		]
 	},
 	"form-label-language": "Kieli:",
+	"form-label-template": "Mallineen nimi:",
 	"link-edit": "muokkaa",
 	"error-language": "Tuntematon kielikoodi."
 }

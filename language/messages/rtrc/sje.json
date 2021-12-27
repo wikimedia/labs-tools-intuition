@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"changelog": "Mij lä åđđås?",
+	"clear": "dubbmi",
+	"filter": "Filltir",
+	"filter-hideliu": "Tjiega registreriduvvum adnejijt",
+	"help": "Vähkke",
+	"license": "Lisännsa",
+	"mark": "merrki",
+	"months": "åđđåjakmánno, gåvvåmánno, snjukktjamánno, vuoratjismánno, mårbmesmánno, biehtsemánno, sjnjilltjamánno, bårrgemánno, ragatmánno, gålgådismánno, bassemánno, jåvvlåmánno",
+	"namespace": "Nammarumma",
+	"new-short": "åđđå",
+	"order": "Urdni",
+	"pause": "Båddå",
+	"select-placeholder-none": "(ij akktak)",
+	"tag": "Märrka",
+	"time-from": "Rájest",
+	"typeEdit": "Rävvdadime",
+	"typeNew": "Åđđå biele",
+	"userfilter": "Adnejfilltir"
+}

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
+			"Jakeukalane",
 			"Macofe"
 		]
 	},
@@ -13,8 +14,8 @@
 	"category_images": "Imágenes",
 	"category_miscellaneous": "Diverso",
 	"category_wikidata": "WikiData",
-	"select_wiki_title": "Seleccione un wiki",
-	"select_wiki": "Escribe el wiki del que te gustaría un informe (por ejemplo, \"<kbd>es.wikipedia.org</kbd>\"):",
+	"select_wiki_title": "Seleccione una wiki",
+	"select_wiki": "Escribe la wiki del que te gustaría un informe (por ejemplo, \"<kbd>es.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "Siguiente →",
 	"select_report_title": "Seleccione un informe para que se ejecute en %(wiki)s",
 	"select_report": "Selecciona un informe:",

@@ -3,7 +3,8 @@
 		"authors": [
 			"M G Harish",
 			"Nayvik",
-			"Platonides"
+			"Platonides",
+			"ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ"
 		]
 	},
 	"hello": "ನಮಸ್ಕಾರ",
@@ -17,7 +18,7 @@
 	"years": "$1 {{PLURAL:$1|ವರ್ಷ|ವರ್ಷಗಳು}}",
 	"weeks": "$1 {{PLURAL:$1|ವಾರ|ವಾರಗಳು}}",
 	"days": "$1 {{PLURAL:$1|ದಿನ|ದಿನಗಳು}}",
-	"hours": "$1 {{PLURAL:$1|ಘಂಟೆ|ಘಂಟೆಗಳು}}",
+	"hours": "{{PLURAL: $1|ಗಂಟೆ|ಗಂಟೆಗಳು}}",
 	"minutes": "$1 {{PLURAL:$1|ನಿಮಿಷ|ನಿಮಿಷಗಳು}}",
 	"seconds": "$1 {{PLURAL:$1|ಕ್ಷಣ|ಕ್ಷಣಗಳು}}",
 	"last-modified-date": "ಕೊನೆಯ ಬದಲಾವಣೆ: $1",
