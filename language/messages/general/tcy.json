@@ -1,11 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chidananda Kampa",
 			"VASANTH S.N."
 		]
 	},
 	"welcome": "ಸುಸ್ವಾಗತ",
+	"namespace": "ಪುದರ್‍ದ ವರ್ಗೊಲು",
 	"form-submit": "ಪೋಲೆ",
 	"form-reset": "ಪಿರ ಸರಿಮಾನ್ಪಿ",
-	"view-source": "ಮೂಲೊನು ತೂಲೆ"
+	"years": "{{PLURAL:$1|ವರ್ಷೊ|ವರ್ಷೊಲು}}",
+	"days": "{{PLURAL:$1|ದಿನೊ|ದಿನೊಕುಲು}}",
+	"hours": "{{PLURAL:$1|ಗಂಟೆ|ಗಂಟೆಲು}}",
+	"seconds": "{{PLURAL:$1|ನಿಮಿಷ|ನಿಮಿಷೊಲು}}",
+	"view-source": "ಮೂಲೊನು ತೂಲೆ",
+	"and": "&#32;ಬೊಕ್ಕ"
 }

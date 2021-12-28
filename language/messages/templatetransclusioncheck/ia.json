@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"title": "Verification de patronos pro ligamines e transclusion",
+	"description": "Verifica e reporta qual articulos que transclude un patrono non es ligate ab le patrono, e qual articulos que es ligate ab un patrono non lo transclude.",
+	"form-label-language": "Lingua:",
+	"form-label-template": "Nomine del patrono:",
+	"form-label-template2": "(spatio de nomines includite)",
+	"form-label-complete": "Generar reporto complete:",
+	"feedback-template-missing": "Le patrono $1 non existe.",
+	"feedback-template-noaccess": "Le patrono $1 pare exister, ma non es disponibile in le base de datos. Isto pote esser un problema temporari con le base de datos. Le base de datos usate es: $2.",
+	"feedback-result": "Resultatos pro $1",
+	"feedback-header-mismatch": "Discrepantia inter tranclusiones e ligamines",
+	"feedback-header-no-link": "Transclusion sin ligamine",
+	"feedback-header-no-transclusion": "Ligamine sin transclusion",
+	"feedback-header-redirects": "Ligamines a redirectiones",
+	"feedback-total-count": "Total: $1",
+	"feedback-header-complete": "Summario complete de transclusiones e ligamines",
+	"feedback-header-transclusions": "Transclusiones del patrono",
+	"feedback-header-links": "Ligamines ab le patrono",
+	"link-edit": "modificar",
+	"link-create": "crear",
+	"link-complete": "Reporto complete...",
+	"footer-stats": "Generate: $1. Durata: $2 {{PLURAL:$2|secunda|secundas}}.",
+	"error-language": "Codice de lingua incognite."
+}

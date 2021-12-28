@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Ansumang",
+			"C1K98V",
 			"NehalDaveND",
 			"Siddhartha Ghai"
 		]
 	},
+	"title": "श्रेणी के अनुसार चित्र का डाउनलोड",
+	"subtitle": "किसी श्रेणी में चित्र को डाउनलोड करने का आसान तरीका",
 	"project": "प्रकल्प:",
 	"category": "श्रेणी:",
 	"thumbnailing": "अंगूठाकार",
@@ -16,5 +19,5 @@
 	"no-such-project": "ऐसा कोई प्रकल्प नहीं है",
 	"no-images": "उस श्रेणी में कोई चित्र नहीं हैं",
 	"zip-failed": "ज़िप नहीं बनाई जा सकी",
-	"download": "डाउनलोड करें"
+	"download": "डाउनलोड"
 }

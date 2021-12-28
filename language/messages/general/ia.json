@@ -13,6 +13,7 @@
 	"form-submit": "Va",
 	"form-reset": "Reinitialisar",
 	"years": "{{PLURAL: $1|anno|annos}}",
+	"months": "{{PLURAL:$1|mense|menses}}",
 	"weeks": "{{PLURAL: $1|septimana|septimanas}}",
 	"days": "{{PLURAL: $1|die|dies}}",
 	"hours": "{{PLURAL: $1|hora|horas}}",

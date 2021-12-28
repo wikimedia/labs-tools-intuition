@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Palapa"
+		]
+	},
+	"tusc_user": "Korisničko ime TUSC-a",
+	"do_it": "Izvrši",
+	"error_transfer_usr": "Niste postavili korisničko ime na Wikimedia Commons",
+	"error_not_exists": "Izvorna datoteka ne postoji!",
+	"error_on_commons": "Izvorna datoteka je već na $1!",
+	"error_file_exists": "Datoteka već postoji na $3 pod imenom „$1$4$2“!",
+	"original_wikitext": "Originalni wiki tekst",
+	"new_filename": "Novo ime datoteke:",
+	"upload_submit": "Upload!",
+	"target_wiki": "odredišni wiki",
+	"error_bot_blocked": "Bot za postavljanje je blokiran na Wikimedia Commons."
+}

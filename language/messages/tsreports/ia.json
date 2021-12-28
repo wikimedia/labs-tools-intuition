@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Cambiar lingua / preferentias</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Reportar un defecto o suggerer un function</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Wiki</a>",
+	"category_users": "Usatores",
+	"category_articles": "Paginas",
+	"category_images": "Imagines",
+	"category_miscellaneous": "Miscellanea",
+	"category_wikidata": "WikiData",
+	"select_wiki_title": "Selige un wiki",
+	"select_wiki": "Indica le wiki pro le qual tu vole un reporto (p.ex. \"<kbd>ia.wikipedia.org</kbd>\"):",
+	"select_wiki_next": "Sequente →"
+}

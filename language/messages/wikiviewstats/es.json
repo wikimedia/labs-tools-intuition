@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
+			"Jakeukalane",
 			"Kingpowl",
 			"Macofe",
 			"VegaDark"
@@ -103,7 +104,7 @@
 	"urlParameter": "parámetro URL",
 	"hideHints": "ocultar pistas",
 	"optinMsg1": "El usuario aún no ha optado por incluirse. Si quieres ver los gráficos, crea $1 con cualquier contenido",
-	"optinMsg2": "Alternativamente, puedes crear $1 en metawiki para optar por la inclusión a través de todos los wikis de Wikimedia.",
+	"optinMsg2": "Alternativamente, puedes crear $1 en metawiki para optar por la inclusión a través de todas las wikis de Wikimedia.",
 	"colorScheme": "combinación de colores",
 	"customBarColors": "colores de barras personalizados",
 	"on": "activar",
@@ -133,5 +134,5 @@
 	"linkArticle": "Enlace a artículo wiki",
 	"authorMostEdits": "Autor con más ediciones. En la Wikipedia en alemán: autor con la mayor cuota de texto",
 	"totalShare": "Cuota Total",
-	"statsEntry": "$1 - Estadísticas de vista y popularidad de páginas con listas de las primeras 100.000 para todos los wikis de Wikimedia (hoy, por mes y períodos de tiempo personalizado). Características adicionales: búsqueda por comodín, estadísticas de 24 horas, favoritos, totales globales de proyectos, soporte para páginas de desambiguación y elementos de Wikidata. Actualizaciones cada hora."
+	"statsEntry": "$1 - Estadísticas de vista y popularidad de páginas con listas de las primeras 100.000 para todos las wikis de Wikimedia (hoy, por mes y períodos de tiempo personalizado). Características adicionales: búsqueda por comodín, estadísticas de 24 horas, favoritos, totales globales de proyectos, soporte para páginas de desambiguación y elementos de Wikidata. Actualizaciones cada hora."
 }

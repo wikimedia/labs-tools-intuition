@@ -7,7 +7,8 @@
 			"Lauhenry",
 			"Littletung",
 			"Liuxinyu970226",
-			"Simon Shek"
+			"Simon Shek",
+			"Winston Sung"
 		]
 	},
 	"attention": "注意",
@@ -38,12 +39,12 @@
 	"error_no_meta": "未找到關於該來源 wiki 的詮釋資料！ $1 請為該項目添加/更新詮釋資料 $2",
 	"error_meta_no_good": "詮釋資料：找不到合適模板！$1 請添加或更新改專案的詮釋資料 $2",
 	"error_meta_bad": "後設資料：找到不合適模板！$1請添加或更新改項目的後設資料$2",
-	"original_wikitext": "原始維基文字",
-	"new_wikitext": "新的維基文字",
+	"original_wikitext": "原始wiki文字",
+	"new_wikitext": "新的wiki文字",
 	"new_filename": "新檔案名稱：",
 	"output_information": "對於手動上載，編輯上述文本（如果需要），儲存 $1檔案$2 到您的電腦，然後 $3將其上傳$4。",
 	"upload_submit": "上傳！",
-	"target_wiki": "目標維基",
+	"target_wiki": "目標wiki",
 	"standard_project": "維基百科",
 	"error_bot_blocked": "上載機器人在維基共享資源上被封禁。",
 	"error_upload_meta": "詮釋資料出現錯誤（見上文），不能直接上載！",

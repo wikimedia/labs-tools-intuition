@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Artificial123",
-			"Mechanizatar"
+			"Mechanizatar",
+			"ZlyiLev"
 		]
 	},
-	"title-leaveshere": "Спасылкі, якія сыходзяць ад \"$1\"",
+	"title-leaveshere": "Спасылкі, якія сыходзяць ад «$1»",
 	"sub-leaveshere": "Наступныя старонкі спасылаюцца ад $1",
 	"label-page": "Старонка",
-	"label-namespace": "Прастора імёнаў",
+	"label-namespace": "Прастора імён",
 	"label-limit": "Абмежаванне",
 	"namespacesall": "усе",
 	"button-submit": "Перайсці",

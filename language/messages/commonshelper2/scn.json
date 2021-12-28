@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"attention": "Accura",
+	"language": "Lingua",
+	"project": "Pruggettu",
+	"source_file": "File di orìggini",
+	"commons_username": "Nomu utenti di Wikimedia Commons",
+	"commons_to_project": "Da Wikimedia Commons ô pruggettu",
+	"categories": "Catigurìi",
+	"tusc_user": "Nomu utenti TUSC",
+	"tusc_pass": "Password TUSC",
+	"error_not_exists": "Lu file d'orìggini nun esisti!",
+	"error_on_commons": "File d'orìggini già n $1!",
+	"error_file_exists": "Lu file $3 già esisti cû nomu \"$1$4$2\"!",
+	"original_wikitext": "Wikitestu orìgginali",
+	"new_wikitext": "Wikitestu novu",
+	"new_filename": "Novu nomu dû file:",
+	"upload_submit": "Càrrica!",
+	"help_commons": "$1Agghiunci nu missaggiu supra Commons$2"
+}

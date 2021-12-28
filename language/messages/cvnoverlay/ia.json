@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"adder": "Additor",
+	"adder-empty": "Incognite",
+	"expiry": "Expiration",
+	"globalwatched": "Observate globalmente",
+	"reason": "Motivo",
+	"reason-empty": "Nulle motivo trovate"
+}

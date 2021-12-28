@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Winston Sung"
 		]
 	},
 	"title": "模板連結與嵌入檢查",
@@ -23,7 +24,7 @@
 	"feedback-header-transclusions": "模板的嵌入",
 	"feedback-header-links": "來自此模板的連結",
 	"link-edit": "編輯",
-	"link-create": "創建",
+	"link-create": "建立",
 	"link-complete": "完整報告...",
 	"footer-stats": "產生於： $1。 期間： $2 {{PLURAL:$2|秒|秒}}.",
 	"error-language": "不明語言代碼。"

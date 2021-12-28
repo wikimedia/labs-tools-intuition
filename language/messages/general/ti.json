@@ -13,7 +13,7 @@
 	"days": "{{PLURAL: $1|መዓልቲ|መዓልታት}}",
 	"hours": "{{PLURAL: $1|ሰዓት|ሰዓታት}}",
 	"minutes": "{{PLURAL: $1|ደቒቓ|ደቓይቕ}}",
-	"seconds": "{{PLURAL: $1|ሰከንድ|ሰከንድታት}}",
+	"seconds": "{{PLURAL: $1|ካልኢት|ካልኢታት}}",
 	"last-modified-date": "መጨረሻ ምምሕያሽ፦ $1",
 	"view-source": "ኮድ ርኣይ"
 }

@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Artsiom91",
-			"Kareyac"
+			"Kareyac",
+			"ZlyiLev"
 		]
 	},
 	"all": "усе",
 	"allLang": "Усе мовы",
 	"other_lang": "іншыя мовы",
 	"mycontribs": "Уклад",
-	"sysops": "адміністратары"
+	"sysops": "адміністратары",
+	"disambPage": "Старонка-неадназначнасць"
 }

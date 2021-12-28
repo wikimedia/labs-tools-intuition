@@ -1,14 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"JSantos",
 			"Joao Xavier"
 		]
 	},
+	"toolversion": "Versiono $1",
+	"toolversionstamp": "Versiono $1 ($2)",
 	"namespace": "Nomaro",
 	"form-submit": "Irez",
 	"years": "{{PLURAL: $1|yaro|yari}}",
 	"months": "{{PLURAL: $1|monato|monati}}",
 	"weeks": "{{PLURAL: $1|semano|semani}}",
 	"days": "{{PLURAL: $1|dio|dii}}",
-	"seconds": "{{PLURAL: $1|sekundo|sekundi}}"
+	"hours": "{{PLURAL: $1|horo|hori}}",
+	"minutes": "$1 {{PLURAL:$1|minuto|minuti}}",
+	"seconds": "{{PLURAL: $1|sekundo|sekundi}}",
+	"and": "&#32;e"
 }

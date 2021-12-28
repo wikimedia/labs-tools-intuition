@@ -1,8 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Sarvaturi"
 		]
 	},
-	"welcome": "Bimminutu/a"
+	"hello": "Ciau",
+	"welcome": "Bimminutu/a",
+	"toolversion": "Virsioni $1",
+	"toolversionstamp": "Virsioni $1 ($2)",
+	"etc": "ecc.",
+	"namespace": "Namespace",
+	"years": "$1 {{PLURAL:$1|annu|anni}}",
+	"months": "{{PLURAL: $1|misi}}",
+	"weeks": "{{PLURAL: $1|simana|simani}}",
+	"days": "{{PLURAL: $1|jornu|jorna}}",
+	"hours": "{{PLURAL: $1|ura|uri}}",
+	"minutes": "{{PLURAL: $1|minutu|minuti}}",
+	"seconds": "{{PLURAL: $1|sicunnu|sicunni}}",
+	"last-modified-date": "Ùrtimu canciamentu: $1",
+	"view-source": "Talìa la surgenti",
+	"and": "&#32;e"
 }

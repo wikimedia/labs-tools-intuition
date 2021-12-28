@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"form-label-language": "Lingua:",
+	"form-label-template": "Nomu dû template:",
+	"feedback-template-missing": "Lu template $1 nun esisti.",
+	"feedback-header-redirects": "Culligamenti ê rimanni",
+	"feedback-total-count": "Tutali: $1",
+	"link-edit": "cancia",
+	"link-create": "crea",
+	"error-language": "Còdici dâ lingua scanusciutu."
+}

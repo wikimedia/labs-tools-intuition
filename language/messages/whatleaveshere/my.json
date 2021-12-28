@@ -4,9 +4,16 @@
 			"Dr Lotus Black"
 		]
 	},
+	"sub-leaveshere": "အောက်ပါစာမျက်နှာများသည် $1 မှ လင့်ခ်ချိတ်ထားသည်",
 	"label-page": "စာမျက်နှာ",
 	"label-namespace": "အမည်ညွှန်း",
+	"label-limit": "ကန့်သတ်ချက်",
 	"namespacesall": "အားလုံး",
+	"button-submit": "သွားပါ",
+	"noleaveshere": "$1 မှ မည်သည့်လင့်ခ်မျှ မချိတ်ဆက်ထားပါ",
+	"whatlinkshere": "ဘယ်ကလင့်ခ်ထားလဲ",
+	"section-links": "လင့်ခ်များ",
+	"section-iwlinks": "အပြန်အလှန်ချိတ်ထားသောလင့်ခ်များ",
 	"section-extlinks": "ပြင်ပ လင့်ခ်များ",
 	"section-categories": "ကဏ္ဍများ"
 }

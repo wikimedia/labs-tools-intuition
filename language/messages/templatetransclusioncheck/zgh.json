@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brahim-essaidi",
 			"Hakim1bal"
 		]
 	},
+	"form-label-language": "ⵜⵓⵜⵍⴰⵢⵜ:",
 	"link-edit": "ⵙⵏⴼⵍ",
 	"link-create": "ⵙⵏⴼⵍⵓⵍ"
 }

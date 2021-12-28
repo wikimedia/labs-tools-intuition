@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
+			"Jakeukalane",
 			"Macofe"
 		]
 	},
 	"alws-label": "Wiki",
 	"alws-selectwiki": "(seleccionar wiki)",
 	"alws-group-mustused": "Wikis más usados",
-	"alws-group-allaz": "Todos los wikis alfabéticamente",
+	"alws-group-allaz": "Todas las wikis alfabéticamente",
 	"form-legend-settings": "Configuración"
 }

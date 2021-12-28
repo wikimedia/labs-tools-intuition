@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"asc": "Cri",
+	"close": "Chiudi",
+	"cvn-adder-empty": "Scanusciutu",
+	"cvn-reason": "Mutivu",
+	"cvn-reason-empty": "Nuddu mutivu attruvatu",
+	"desc": "Disc",
+	"documentation": "Ducumintazzioni",
+	"filter": "Filtru",
+	"filter-hideliu": "Ammuccia l'utenti riggistrati",
+	"filter-hidebots": "Ammuccia li bot",
+	"filter-unpatrolled": "Ammuccia li canciamenti virificati",
+	"help": "Aiutu",
+	"lastupdate-cvn": "Ùrtimu aggiurnamentu: $1",
+	"lastupdate-rc": "Ùrtimu aggiurnamentu: $1",
+	"legend": "Liggenna",
+	"license": "Licenza",
+	"limit": "Lìmiti",
+	"months": "jinnaru, frivaru, marzu, aprili, maiu, giugnu, giugnettu, austu, sittèmmiru, uttùviru, nuvèmmiru, dicèmmiru",
+	"namespace": "Namespace",
+	"new-short": "novu",
+	"open-in-wiki": "Apri n wiki",
+	"pause": "Pàusa",
+	"reload-interval": "Ntirvallu",
+	"select-placeholder-none": "(nuddu)",
+	"showAnonOnly": "Sulu anònimi",
+	"tag": "Etichetta",
+	"type": "Tipu",
+	"typeEdit": "Canciamenti",
+	"typeNew": "Pàggini novi"
+}
