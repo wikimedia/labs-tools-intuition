@@ -1174,11 +1174,13 @@ class Intuition {
 
 	/**
 	 * Show a typical "powered by .." footer line.
+	 *
 	 * Same as getPromoBox() but without the image.
+	 *
 	 * @return string HTML
 	 */
 	public function getFooterLine( $helpTranslateDomain = TSINT_HELP_CURRENT ) : string {
-		return $this->getPromoBox( 'no-image', $helpTranslateDomain );
+		return $this->getPromoBox( 0, $helpTranslateDomain );
 	}
 
 	/**
