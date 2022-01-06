@@ -13,8 +13,11 @@ Refer to the [README](https://github.com/Krinkle/intuition#readme) for how to ge
 **Demo:** Check a live working sandbox demo of the above script: [demo1](https://intuition.toolforge.org/demo/demo1.php).
 
 ### Initialization
+
 #### construct
+
 **Arguments**:
+
 * `$options` (array or string): An array of options or if you just need to set the text-domain (basic usage) pass a string. <br />Options:
  * `domain` (string): This will set the default domain for messages. Defaults to 'general' (first character is case-insensitive, the rest should be lowercase).
  * `lang` (string): This will override the smart detection method (which uses cookies, parameter overrides etc.). Handy for debugging in a certain language.
@@ -43,6 +46,7 @@ $I18N = new Intuition( $opts );
 ### Message functions
 
 #### msg
+
 `msg()` gets a message from the message blob. If passed a custom text-domain name it will load the domain on demand if not loaded already.
 
 **Arguments**
@@ -109,6 +113,7 @@ When debugging, it may be useful to sometimes simulate a message definition duri
 * `$lang` (string; _optional_): Defaults to the currently selected language
 
 **Example:**
+
 ```php
 <?php
 _e( 'start-foobar' ); // Echoes [start-foobar] if that message doesn't exist
@@ -225,7 +230,7 @@ This function checks wether the current visitor has cookies set already or if it
 
 
 ### Backlinks
-> See https://tools.wmflabs.org/intuition/demo/demo5.php for a live demo of these
+> See https://intuition.toolforge.org/demo/demo5.php for a live demo of these
 
 #### getPromoBox
 #### getFooterLine
@@ -267,7 +272,7 @@ Calling `refreshLang` will drop the currently selected language, and re-do initi
 ## Functions
 By default four functions are declared. None of these are required, but they are provided as handy shortcuts for commonly used settings. If you don't need them or if they conflict with function names you have, you can disable them by setting `'globalfunctions'` to `false` when initiating the `$I18N` object.
 
-#### function _()
+#### function `_()`
 Return a message.
 
 **Arguments**
@@ -281,7 +286,7 @@ $I18N->msg( $key, $options );
 ```
 
 
-#### function _g()
+#### function `_g()`
 Return a message from the "general" domain.
 
 **Arguments**
@@ -309,7 +314,7 @@ echo $I18N->msg( $key, array( 'escape' => 'html' ) );
 ```
 
 
-#### function _e()
+#### function `_e()`
 Echo a message.
 
 **Arguments**
@@ -349,27 +354,30 @@ $I18N->setMsgs( $tmpMsgs  );
 ```
 
 ### Demos
+
 There are a few demonstration pages to show you how this tool works.
 [Check them out](https://tools.wmflabs.org/intuition/demo/demo1.php)!
 
 ### Register custom domain
+
 * Create a messages directory with a file `en.json`.
 * Define the messages object, like the following:
-```json
-{
-	"foo": "Foo bar",
-	"lorem": "Lorem ipsum",
-	"hello": "Hello world"
-}
-```
+  ```json
+  {
+    "foo": "Foo bar",
+    "lorem": "Lorem ipsum",
+    "hello": "Hello world"
+  }
+  ```
 * After instantiating Intuition, register the domain and its message directory.
-```php
-<?php
-$I18N = new Intuition( 'example' );
-$I18N->registerDomain( 'example', __DIR__ . '/i18n' );
+  ```php
+  <?php
+  $I18N = new Intuition( 'example' );
+  $I18N->registerDomain( 'example', __DIR__ . '/i18n' );
 
-$I18N->msg( 'foo' ); // "Foo bar"
-```
+  $I18N->msg( 'foo' ); // "Foo bar"
+  ```
 
 ## Set up
-If you're interested in joining the project as framework collaborator or have questions on how the framework is centrally installed at Tool Labs, contact [Krinkle](https://github.com/Krinkle) or [file an issue](https://github.com/Krinkle/intuition/issues).
+
+If you're interested in joining the project as framework collaborator or have questions on how the framework is centrally installed at Toolforge, contact [Krinkle](https://github.com/Krinkle) or [file an issue](https://github.com/Krinkle/intuition/issues).

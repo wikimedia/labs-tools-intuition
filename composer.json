@@ -26,8 +26,7 @@
 		"test": [
 			"parallel-lint . --exclude vendor --exclude node_modules",
 			"phpunit",
-			"phpcs -p -s",
-			"npm ci && npm test"
+			"phpcs -p -s"
 		],
 		"fix": "phpcbf",
 		"cover": "phpunit"

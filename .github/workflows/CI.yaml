@@ -44,3 +44,12 @@ jobs:
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         continue-on-error: true
+
+  npm:
+    # Uses Node.js 14 by default
+    # https://github.com/actions/virtual-environments/blob/ubuntu20/20210318.0/images/linux/Ubuntu2004-README.md#nodejs
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci
+      - run: npm test

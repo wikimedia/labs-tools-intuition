@@ -13,7 +13,7 @@ It's recommended you use [Composer](https://getcomposer.org).
 
 ## Usage
 
-To use it in a tool, read the [Usage documentation](https://github.com/Krinkle/intuition/wiki/Documentation#usage).
+To use it in a tool, read the [Usage documentation](./docs/API.md).
 
 Example:
 
