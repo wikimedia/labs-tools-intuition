@@ -1,3 +1,13 @@
+## v2.3.1 (2022-01-06)
+
+Changed:
+
+* messages: Localisation updates from https://translatewiki.net.
+
+Fixed:
+
+* core: Fix fatal TypeError in `Intuition::getFooterLine()` method. [`01735b5`](https://github.com/Krinkle/intuition/commit/01735b591df71294aa6875544f0833e60b9a0c86)
+
 ## v2.3.0 (2021-04-09)
 
 Added:
