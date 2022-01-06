@@ -783,4 +783,13 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$this->i18n->refreshLang();
 		$this->assertSame( 'en', $this->i18n->getLang() );
 	}
+
+	public function testGetPromoBox() {
+		$this->assertTrue( is_string( $this->i18n->getPromoBox() ) );
+	}
+
+	public function testGetFooterLine() {
+		$this->assertTrue( is_string( $this->i18n->getFooterLine() ) );
+		$this->assertTrue( is_string( $this->i18n->getFooterLine( 'general' ) ) );
+	}
 }

@@ -1098,7 +1098,7 @@ class Intuition {
 	 */
 	public function getPromoBox(
 		int $imgSize = 28,
-		bool $helpTranslateDomain = TSINT_HELP_CURRENT
+		$helpTranslateDomain = TSINT_HELP_CURRENT
 	) : string {
 		// Logo
 		if ( is_int( $imgSize ) && $imgSize > 0 ) {

@@ -98,10 +98,10 @@ class Util {
 	 *
 	 * @param string|null $str Content (text or HTML)
 	 * @param string|int $wrapTag Name of HTML Element (tagName)
-	 * @param array $attributes [optional]
+	 * @param array<string,string|int>|null $attributes [optional]
 	 * @return string HTML
 	 */
-	public static function tag( ?string $str = null, $wrapTag = 0, $attributes = [] ) : string {
+	public static function tag( ?string $str = null, $wrapTag = 0, ?array $attributes = null ) : string {
 		$selfclose = [ 'link', 'input', 'br', 'img' ];
 
 		if ( !is_string( $str ) ) {
@@ -112,10 +112,10 @@ class Util {
 		}
 		$wrapTag = trim( strtolower( $wrapTag ) );
 		$attrString = '';
-		if ( is_array( $attributes ) ) {
+		if ( $attributes !== null ) {
 			foreach ( $attributes as $attrKey => $attrVal ) {
 				$attrKey = htmlspecialchars( trim( strtolower( $attrKey ) ), ENT_QUOTES );
-				$attrVal = htmlspecialchars( trim( $attrVal ), ENT_QUOTES );
+				$attrVal = htmlspecialchars( trim( (string)$attrVal ), ENT_QUOTES );
 				$attrString .= " $attrKey=\"$attrVal\"";
 			}
 		}
