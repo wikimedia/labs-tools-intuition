@@ -1,3 +1,10 @@
+## v2.3.2 (2022-01-06)
+
+Fixed:
+
+* core: Fix fatal TypeError in calling `Intuition::getPromoBox()` with a domain string.
+* core: Fix fatal TypeError in calling `trim()` from `Util::tag()`.
+
 ## v2.3.1 (2022-01-06)
 
 Changed:
