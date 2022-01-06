@@ -1,25 +1,25 @@
 ## v2.3.0 (2021-04-09)
 
-### Added
+Added:
 
 * This is the first release to officially support PHP 8.0.
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 * Util: The `parseExternalLinks()` no longer tolerates null, it requires a string.
 
-### Fixed
+Fixed:
 
 * core: Add missing `use` statement to MessagesFunctions class. (Sam Wilson) [#127](https://github.com/Krinkle/intuition/pull/127)
 
-### Removed
+Removed:
 
 * messages: Remove mwsnapshots domain, the tool was retired.
 
 ## v2.2.0 (2020-07-13)
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 * core: `Intuition::setLang()` does stricter normalization now to avoid invalid strings.
@@ -28,53 +28,53 @@
 
 ## v2.1.0 (2019-11-24)
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 
-### Removed
+Removed:
 
 * End support for PHP 7.0, and PHP 7.1. Intuition now requires PHP 7.2+.
 
 ## v2.0.0 (2019-05-13)
 
-### Added
+Added:
 
 * core: The `Intuition::getAvailableLangs` method now supports a `$domain` parameter (optional).
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 * core: The `Intuition::getAvailableLangs` method is now based on the current domain.
   Previously, it only considered legacy domains that shipped with the library.
 * core: The `globalfunctions` option for `Krinkle\Intuition::__construct` is now disabled by default.
 
-### Removed
+Removed:
 
 * core: The `ToolStart.php` entry point has been removed. [#101](https://github.com/Krinkle/intuition/issues/101)
 * core: Remove the un-namespaced `Intuition` and `TsIntuition` class aliases.
   Deprecated since v0.5.0, use `Krinkle\Intuition` instead.
 
-### Fixed
+Fixed:
 
 * core: The `Intuition::setUseRequestParam` method now always sets the given value.
   Previously, it would silently ignored non-boolean values.
 
 ## v1.2.0 (2018-11-06)
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 * core: Normalize lang codes in `addAvailableLang()`.
 
-### Fixed
+Fixed:
 
 * core: Fix "Accept-Language" parsing bug in `initLangSelect()`.
 * docs: Correct data type of `$dir` in `registerDomain()`.
 
 ## v1.1.0 (2018-08-21)
 
-### Added
+Added:
 
 * core: New method `Intuition::addAvailableLanguage`. [#88](https://github.com/Krinkle/intuition/issues/88)
 
@@ -87,81 +87,81 @@ Intuition is now available under the MIT License.
 * messages: Localisation updates from https://translatewiki.net.
 * language: Update 'fallbacks' and 'Names' data from latest MediaWiki.
 
-### Removed
+Removed:
 
 * End support for PHP 5.5, PHP 5.6, and HHVM.
   Intuition now requires PHP 7.0+.
 
 ## v0.7.0 (2018-04-09)
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 * language: Update 'rtl' and 'fallbacks' data from latest MediaWiki.
 * language: Update 'Names' data from latest MediaWiki.
 
-### Removed
+Removed:
 
 * messages: Remove xtools domain.
 
-### Fixed
+Fixed:
 
 * language: Exclude entries from langlist without language name.
 
 ## v0.6.1 (2017-06-20)
 
-### Fixed
+Fixed:
 
 * core: Fix PHP warning when preference is set to a language without
   translations in the current domain. [#81](https://github.com/Krinkle/intuition/issues/81)
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 
 ## v0.6.0 (2017-04-20)
 
-### Added
+Added:
 
 * core: Add use of native `trigger_error()` for notices and errors.
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 
-### Removed
+Removed:
 
 * messages: Remove recentanonymousactivity domain (decommissioned).
 
 ## v0.5.4 (2017-03-16)
 
-### Added
+Added:
 
 * messages: Add new messages to rtrc domain.
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 
 ## v0.5.3 (2017-03-13)
 
-### Changed
+Changed:
 
 * Update `rtl` and `fallback` language data from 2015-03-17 to 2017-03-13.
 
 ## v0.5.2 (2017-03-10)
 
-### Added
+Added:
 
 * core: Allow setting userlang via POST.
 
 ## v0.5.1 (2017-03-10)
 
-### Added
+Added:
 
 * core: New dummy language 'qqx' for showing raw message keys. [#79](https://github.com/Krinkle/intuition/issues/79)
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 
@@ -173,53 +173,53 @@ The Intuition classes are now namespaced under `Krinkle\Intuition`. The old name
 
 The Intuition library is now dependency-free!
 
-### Changed
+Changed:
 
 * build: Remove toollabs-base dependency.  Intuition is now dependency-free!
 * Move Intuition classes to `Krinkle\Intuition` namespace (PSR-4). [#76](https://github.com/Krinkle/intuition/issues/76)
 * messages: Localisation updates from https://translatewiki.net.
 
-### Fixed
+Fixed:
 
 * core: Add support for `dashboardHome` values that do not have a trailing slash.
 
 ## v0.4.0 (2016-12-22)
 
-### Changed
+Changed:
 
 * js-env: Sort domain list to increase cache opportunities.
 * messages: Localisation updates from https://translatewiki.net.
 * Upgrade toollabs-base dependency to v0.8.0.
 
-### Fixed
+Fixed:
 
 * core: Make getLangNames() public (again).
 
 ## v0.3.0 (2016-07-04)
 
-### Removed
+Removed:
 
 * messages: Remove monumentsapi domain (see <https://github.com/wikimedia/labs-tools-heritage>)
 * messages: Remove dcatap domain (see <https://github.com/wikimedia/operations-dumps-dcat>)
 
-### Changed
+Changed:
 
 * messages: Localisation updates from https://translatewiki.net.
 * dashboard: Add pageviews tool to the list.
 
 ## v0.2.3 (2016-03-16)
 
-### Added
+Added:
 
 * core: Precompile language list for improved performance.
 
-### Fixed
+Fixed:
 
 * core: Add English to fallback chains. [#53](https://github.com/Krinkle/intuition/issues/53)
 
 ## v0.2.2 (2015-11-12)
 
-### Removed
+Removed:
 
 * messages: Remove orphantalk2 domain (see <https://github.com/Krinkle/mw-tool-orphantalk>).
 
@@ -237,19 +237,19 @@ New domains:
 * Add templatetransclusioncheck <https://tools.wmflabs.org/templatetransclusioncheck/>
 * Add dcatap <https://github.com/lokal-profil/DCAT>
 
-### Added
+Added:
 
 * api: Implement HTTP 304 caching for load.php and api.php.
 * core: Implement registerDomain() method for custom domains.
 * js-env: Implement batching for API requests (100ms debounce).
 
-### Changed
+Changed:
 
 * core: Rewrite using new BaseTool and Bootstrap skin.
 * language: Localisation data is now stored in JSON files instead of PHP.
 * language: Update Names, Rtl, and Fallbacks from latest upstream MediaWiki.
 
-### Fixed
+Fixed:
 
 * core: Generate valid html in Intuition::getPromoBox().
 * dashboard: Use "1 month" indication instead of "4 weeks".
@@ -259,7 +259,7 @@ New domains:
 
 Repository moved to <https://github.com/Krinkle/intuition>.
 
-### Changed
+Changed:
 
 * Rename `TsIntuitionUtil::return_dump` to `TsIntuitionUtil::returnDump`.
 * Rename hook `TsIntuition_inithook` to `intuitionHookInit`.
@@ -267,7 +267,7 @@ Repository moved to <https://github.com/Krinkle/intuition>.
   defined, the new one is used).
 * Rename TsIntuition to Intuition.
 
-### Deprecated
+Deprecated:
 
 * Deprecate global function `_()`.
 
@@ -280,7 +280,7 @@ New domains:
 * MonumentsAPI (<https://toolserver.org/~erfgoed/api/>)
 * Recent Anonymous Activity (<https://toolserver.org/~krinkle/recentAnonymousActivity/>)
 
-### Added
+Added:
 
 * dashboard: Add an "About" area on the index page of the tool which shows all textdomains and
   (where possible) linked to the tool's url.
@@ -290,7 +290,7 @@ New domains:
 * core: Introduce new 'suppressfatal' option.
 * core: Introduce new 'suppressbrackets' option.
 
-### Changed
+Changed:
 
 * dashboard: Sections converted to tabs with jQuery UI styling.
 
@@ -300,13 +300,13 @@ New domains:
 
 * OrphanTalk2 (<https://toolserver.org/~krinkle/OrphanTalk2/>)
 
-### Added
+Added:
 
 * core: Add a clear-cookies and renew-cookies action.
 * dashboard: Add confirmation messages after clearing or renewing cookies.
 * PremadeToolserverTextdomains class has been written for transatewiki.net.
 
-### Changed
+Changed:
 
 * dashboard: SVN revision id is now visible in the header.
 * core: Requesting an undefined message now triggers a TsIntution error on E_NOTICE level.
