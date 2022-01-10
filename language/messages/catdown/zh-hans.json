@@ -5,6 +5,7 @@
 			"Liuxinyu970226",
 			"Mys 721tx",
 			"Simon Shek",
+			"SolidBlock",
 			"VulpesVulpes825",
 			"Xiaomingyan",
 			"Yfdyh000"
@@ -22,7 +23,7 @@
 	"no-such-project": "此项目不存在",
 	"no-images": "该分类中没有图片",
 	"category-is-url": "所填写分类名称似乎是一个URL，您需要指明分类名称而不是其URL",
-	"category-contains-namespace": "您似乎在分类名称中包含了名字空间。使用此名称时页面将会显示为[[Category:$1]]",
+	"category-contains-namespace": "您似乎在分类名称中包含了命名空间。使用此名称时页面将会显示为[[:Category:$1]]",
 	"zip-failed": "Zip创建失败",
 	"image-area-too-big": "$1 对于缩略图过大，使用其实际大小。",
 	"download-info": "{{plural: $1|有$1个图像}}，估计大小为$2",
