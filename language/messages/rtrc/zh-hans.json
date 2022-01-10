@@ -5,6 +5,7 @@
 			"Impersonator 1",
 			"Liuxinyu970226",
 			"Qiyue2001",
+			"SolidBlock",
 			"Yfdyh000"
 		]
 	},
@@ -40,7 +41,7 @@
 	"masspatrol-requires-userfilter": "由于需要用户筛选器但却全部失效MassPatrol已被禁用。",
 	"months": "1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月",
 	"mypatrollog": "我的巡查日志",
-	"namespace": "名字空间",
+	"namespace": "命名空间",
 	"navtoggle-tooltip": "切换侧栏",
 	"new-short": "新",
 	"nomatches": "找不到与您设置相关的结果",

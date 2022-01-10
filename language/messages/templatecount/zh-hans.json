@@ -6,6 +6,7 @@
 			"Muhebbet",
 			"Qiyue2001",
 			"Shizhao",
+			"SolidBlock",
 			"Yfdyh000",
 			"はなよめ"
 		]
@@ -14,7 +15,7 @@
 	"enter-details": "输入详细信息",
 	"introduction": "输入模板名（暂只支持维基百科）并点击“提交”，就是这么简单。有时会返回缓存（以前的查询结果），但不幸的是，此工具及其主人对此无能为力。",
 	"language-label": "语言",
-	"namespace-label": "名字空间",
+	"namespace-label": "命名空间",
 	"pagename-label": "页面名称（不含名字空间）",
 	"transclusion-count-label": "嵌入数目",
 	"transclusion-count": "找到$1个嵌入页面。",
