@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Akapochtli",
+			"Languaeditor",
 			"Taresi",
 			"Teòtlalili"
 		]
@@ -12,7 +13,7 @@
 	"today": "āxcān",
 	"language": "tlahtolli",
 	"users": "{{PLURAL: $1|tequitiuhqui|tequitiuhqueh}}",
-	"discussion": "Zānīlli",
+	"discussion": "Teixnamikilistli",
 	"project": "Tlecaniltequitl",
 	"category": "Neneuhcayotl",
 	"template": "Neīxcuītīlli",
