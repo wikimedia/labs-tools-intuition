@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Emperyan",
 			"Hedda",
 			"Vito Genovese"
@@ -22,7 +23,7 @@
 	"hours": "{{PLURAL: $1|saat|saat}}",
 	"minutes": "{{PLURAL: $1|dakika|dakika}}",
 	"seconds": "{{PLURAL: $1|saniye|saniye}}",
-	"last-modified-date": "Son değiştirme: $1",
+	"last-modified-date": "Son düzenleme: $1",
 	"view-source": "Kaynağı gör",
 	"and": "&#32;ve"
 }
