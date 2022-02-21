@@ -1,10 +1,33 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"apply": "Keevti",
+	"autodiff": "AutoDiff",
+	"asc": "Asc",
+	"clear": "kuorrii",
+	"close": "Toopâ",
+	"cvn-adder": "Lasetteijee",
 	"cvn-adder-empty": "Tubdâmettum",
+	"cvn-reason": "Suijâ",
+	"feedback": "Macâttâs",
+	"filter": "Sillee",
+	"filter-hideliu": "Čievâ registeristum kevtteid",
+	"filter-hidebots": "Čievâ bottijd",
+	"filter-unpatrolled": "Čievâ tärhistum nubástusâid",
+	"help": "Iše",
 	"license": "Liiseens",
-	"namespace": "Nommâkomovuotâ"
+	"mark": "merkkâ",
+	"masspatrol": "MassPatrol",
+	"months": "Uđđâivemáánu, Kuovâmáánu, Njuhčâmáánu, Cuáŋuimáánu, Vyesimáánu, Kesimáánu, Syeinimáánu, Porgemáánu, Čohčâmáánu, Roovvâdmáánu, Skammâmáánu, Juovlâmáánu",
+	"namespace": "Nommâkomovuotâ",
+	"new-short": "uđđâ",
+	"open-in-wiki": "Leehâst wikist",
+	"order": "Oornig",
+	"pause": "Puddâ",
+	"typeEdit": "Hammiimeh",
+	"typeNew": "Uđđâ siijđoh"
 }

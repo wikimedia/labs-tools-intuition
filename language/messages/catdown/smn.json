@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"title": "Vuorkkii kuuvijd luoka mield",
+	"subtitle": "Älkkees vyehi vuorkkiđ kuuvijd luokan",
+	"project": "Proojeekt:",
 	"category": "Luokka:",
+	"no-such-project": "Tággáár proojeekt ij lah",
+	"no-images": "Luokast iä lah koveh",
 	"download": "Luođii"
 }

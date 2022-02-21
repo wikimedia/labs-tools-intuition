@@ -8,10 +8,18 @@
 	"hello": "Tiervâ",
 	"welcome": "Tiervâpuáttim",
 	"toolversion": "Versio $1",
+	"toolversionstamp": "Versio $1 ($2)",
 	"etc": "jna.",
 	"namespace": "Nommâkomovuotâ",
 	"form-submit": "Moonâ",
 	"years": "{{PLURAL: $1|ihe|ive}}",
+	"months": "{{PLURAL:$1|mánuppaje|mánuppaijeed}}",
+	"weeks": "{{PLURAL:$1|okko|okkod}}",
+	"days": "{{PLURAL:$1|peivi|peivid}}",
+	"hours": "{{PLURAL:$1|tijme|tijmed}}",
+	"minutes": "{{PLURAL:$1|miinut|minuttid}}",
+	"seconds": "{{PLURAL:$1|seekunt|sekuntid}}",
 	"last-modified-date": "Majemustáá nubástittum: $1",
-	"view-source": "Čääiti käldeekoodi"
+	"view-source": "Čääiti käldeekoodi",
+	"and": "&#32;já"
 }

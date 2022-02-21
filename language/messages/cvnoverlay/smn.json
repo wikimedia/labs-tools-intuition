@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
-	"adder-empty": "Tubdâmettum"
+	"adder": "Lasetteijee",
+	"adder-empty": "Tubdâmettum",
+	"reason": "Suijâ"
 }

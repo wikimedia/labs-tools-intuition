@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"toolserver-status-short-ok": "$1: Ok",
+	"toolserver-status-short-info": "$1: Tiäđuh",
+	"toolserver-status-short-down": "$1: Vuálus",
+	"toolserver-status-short-erro": "$1: Feilâ",
 	"toolserver-status-short-unknown": "$1: Tubdâmettum"
 }
