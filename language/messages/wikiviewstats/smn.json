@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
@@ -8,10 +9,15 @@
 	"searchResults": "Uccâmpuátuseh",
 	"all": "puoh",
 	"other_lang": "eres kielah",
+	"language": "kielâ",
+	"project": "Proojeekt",
 	"category": "Luokka",
 	"template": "Myenster",
 	"specialPage": "Toimâsijđo",
+	"size": "stuárudâh",
 	"links": "Liiŋkah",
+	"pages": "siijđoh",
 	"namespaces": "nommâkomovuođah",
-	"save": "vuorkkii"
+	"save": "vuorkkii",
+	"cancel": "jooskâ"
 }

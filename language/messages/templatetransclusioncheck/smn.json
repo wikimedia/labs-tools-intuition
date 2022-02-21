@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
-	"form-label-template": "Myenster nommâ:"
+	"form-label-language": "Kielâ:",
+	"form-label-template": "Myenster nommâ:",
+	"link-edit": "mute"
 }

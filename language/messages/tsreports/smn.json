@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"category_users": "Kevtteeh",
+	"category_articles": "Siijđoh",
+	"category_images": "Koveh",
+	"select_wiki_title": "Valjii wiki",
 	"select_wiki_next": "Čuávuvâš →",
-	"qvar_next": "Čuávuvâš →"
+	"qvar_next": "Čuávuvâš →",
+	"prefs_submit": "OK"
 }

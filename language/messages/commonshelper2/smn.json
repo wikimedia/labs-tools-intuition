@@ -1,9 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"attention": "Huámmáš",
+	"language": "Kielâ",
+	"project": "Proojeekt",
+	"source_file": "Käldeetiätuvuárkká",
+	"commons_username": "Wikimedia Commons -kevtteenommâ",
+	"commons_to_project": "Wikimedia Commonsist projektân",
+	"move_file_from_com": "Sirde tiätuvuárhá Wikimedia Commonsist nube projektân",
 	"categories": "Luokah",
-	"error_upload_file": "Algâalgâlâš tiätuvuárhá ij pyevti luođiđ."
+	"remove_cats": "Siho tááláš luokaid",
+	"tusc_user": "TUSC-kevtteenommâ",
+	"tusc_pass": "TUSC-syelisääni",
+	"new_wikitext": "Uđđâ wikitekstâ",
+	"new_filename": "Uđđâ tiätuvuárkkánommâ:",
+	"upload_submit": "Vuorkkii!",
+	"error_upload_file": "Algâalgâlâš tiätuvuárhá ij pyevti luođiđ.",
+	"help_mail": "Vuolgât šleđgâpoostâ čujottâsân $1",
+	"help_commons": "$1Lasseet viestâ Commonsin$2"
 }
