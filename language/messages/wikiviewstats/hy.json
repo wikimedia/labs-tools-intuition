@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kareyac",
-			"Vadgt"
+			"Vadgt",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
 	"records": "գրառումներ",
@@ -80,7 +81,7 @@
 	"submit": "Հաշվել",
 	"save": "պահպանել",
 	"cancel": "չեղյալ",
-	"autofilter": "ավտոմատ ֆիլտր",
+	"autofilter": "ավտոմատ զտիչ",
 	"showRedir": "Ցուցադրել վերահղումները",
 	"searchVariants": "Տարբերակների որոնում",
 	"addToWorkList": "ավելացնել աշխատացանկում",
