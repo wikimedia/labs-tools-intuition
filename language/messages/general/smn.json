@@ -12,6 +12,7 @@
 	"etc": "jna.",
 	"namespace": "Nommâkomovuotâ",
 	"form-submit": "Moonâ",
+	"form-reset": "Kuorrii",
 	"years": "{{PLURAL: $1|ihe|ive}}",
 	"months": "{{PLURAL:$1|mánuppaje|mánuppaijeed}}",
 	"weeks": "{{PLURAL:$1|okko|okkod}}",
