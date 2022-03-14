@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ansumang",
+			"AnupamM",
 			"C1K98V",
 			"NehalDaveND",
 			"Siddhartha Ghai"
@@ -18,6 +19,7 @@
 	"invalid-height": "अमान्य ऊँचाई",
 	"no-such-project": "ऐसा कोई प्रकल्प नहीं है",
 	"no-images": "उस श्रेणी में कोई चित्र नहीं हैं",
+	"category-is-url": "दिया गया श्रेणी नाम URL जैसा दिखता है। आपको श्रेणी का नाम निर्दिष्ट करने की आवश्यकता है, न कि उसका URL।",
 	"zip-failed": "ज़िप नहीं बनाई जा सकी",
 	"download": "डाउनलोड"
 }
