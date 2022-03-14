@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"NehalDaveND"
 		]
 	},
@@ -47,13 +48,13 @@
 	"out": "बाहर",
 	"in": "अन्दर",
 	"external": "बाह्य",
-	"protection": "सुरक्षित",
+	"protection": "सुरक्षा",
 	"semi": "अर्ध",
 	"complete": "पूर्ण",
 	"active": "सक्रिय",
 	"bots": "बॉट्स्",
 	"articles": "लेख",
-	"good_articles": "अच्छा लेख",
+	"good_articles": "अच्छे लेख",
 	"pages": "पृष्ठ",
 	"redirects": "पुनर्निर्देशन",
 	"testmode": "परीक्षण की पद्धति",

@@ -5,6 +5,7 @@
 			"Can",
 			"Emperyan",
 			"Hedda",
+			"SaldırganSincap",
 			"Vito Genovese"
 		]
 	},
@@ -22,7 +23,7 @@
 	"days": "{{PLURAL: $1|gün|gün}}",
 	"hours": "{{PLURAL: $1|saat|saat}}",
 	"minutes": "{{PLURAL: $1|dakika|dakika}}",
-	"seconds": "{{PLURAL: $1|saniye|saniye}}",
+	"seconds": "{{PLURAL: $1|saniye}}",
 	"last-modified-date": "Son düzenleme: $1",
 	"view-source": "Kaynağı gör",
 	"and": "&#32;ve"

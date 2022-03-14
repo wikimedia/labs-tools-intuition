@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"Siddhartha Ghai"
 		]
 	},
@@ -8,7 +9,7 @@
 	"bl-mysettings-new": "भाषा बदलें!",
 	"bl-promo": "अनुवाद $1 और $2 द्वारा किये गए हैं।",
 	"bl-changelanguage": "इस टूल की अंतरफल भाषा बदलें।",
-	"help-translate-tool": "इस टूल का अनुवाद करने में मदद करें!",
+	"help-translate-tool": "इस उपकरण का अनुवाद करने में मदद करें!",
 	"help-translate-all": "उपकरणों का अनुवाद करने में मदद करें!",
 	"help-translate-tooltip": "अपनी भाषा में अंतरफल संदेशों का अनुवाद कर के औरों की मदद करें।"
 }

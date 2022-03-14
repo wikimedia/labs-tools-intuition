@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"NehalDaveND"
 		]
 	},
 	"adder": "जोड़ा",
 	"adder-empty": "अज्ञात",
 	"expiry": "समाप्ति",
+	"globalwatched": "विश्व स्तर पर देखा गया",
 	"reason": "कारण",
 	"reason-empty": "कोई कारण नहीं मिला"
 }

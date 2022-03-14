@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"C1K98V",
 			"Siddhartha Ghai"
 		]
 	},
-	"attention": "सूचना",
+	"attention": "ध्यान दें",
 	"description": "विकिमीडिया परियोजनाओं से विकिमीडिया कॉमन्स पर फ़ाइलें भेजने के लिये एक टूल",
 	"jira_link": "बग जानकारी दें या फ़ीचर सुझाएँ",
 	"language": "भाषा",
