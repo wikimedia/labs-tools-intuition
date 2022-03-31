@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"Tow"
 		]
 	},
@@ -36,7 +37,7 @@
 	"by": "ਵੱਲੋਂ",
 	"namespaces": "ਨਾਮਸਥਾਨ",
 	"furtherInformation": "ਹੋਰ ਜਾਣਕਾਰੀ",
-	"submit": "ਭੇਜੋ",
+	"submit": "ਹਵਾਲੇ ਕਰੋ",
 	"save": "ਸਾਂਭੋ",
 	"cancel": "ਰੱਦ ਕਰੋ",
 	"backToTop": "ਸਿਖਰ ਵੱਲ ਵਾਪਸ"

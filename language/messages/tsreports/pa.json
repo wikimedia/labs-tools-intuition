@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"Tow"
 		]
 	},
@@ -10,7 +11,7 @@
 	"category_miscellaneous": "ਫੁਟਕਲ",
 	"category_wikidata": "ਵਿਕੀਡਾਟਾ",
 	"select_wiki_title": "ਵਿਕੀ ਚੁਣੋ",
-	"select_wiki_next": "ਅਗਲਾ »",
+	"select_wiki_next": "ਅਗਲਾ →",
 	"select_report_go_back": "← ਵਿਕੀ ਬਦਲੋ",
 	"qvar_next": "ਅਗਲਾ »",
 	"prefs_submit": "ਠੀਕ ਹੈ"
