@@ -3,6 +3,7 @@
 		"authors": [
 			"Ahmad252",
 			"Alirezaaa",
+			"Beginneruser",
 			"FarsiNevis",
 			"MohandesWiki"
 		]
@@ -44,7 +45,7 @@
 	"category": "رده",
 	"template": "الگو",
 	"files": "{{PLURAL: $1|پرونده|پرونده ها}}",
-	"specialPage": "صفحه ویژه",
+	"specialPage": "صفحهٔ ویژه",
 	"helpPage": "صفحهٔ راهنما",
 	"projectTotals": "مجموع پروژه",
 	"wikiThanks": "تشکرها",
@@ -128,7 +129,7 @@
 	"rankWorld": "رتبه (جهانی) در سراسر همه ویکی های ویکی مدیا",
 	"pageViewCount": "تعداد بازدید (غیر منحصر به فرد)",
 	"winningArticles": "مقالات برنده",
-	"numPageWatchers": "شمار پی‌گیری‌کنندگان صفحه",
+	"numPageWatchers": "شمار پیگیری‌کنندگان صفحه",
 	"linkStats": "لینک به صفحه آمار",
 	"linkArticle": "لینک به مقاله ویکی",
 	"authorMostEdits": "نویسنده با بیشترین ویرایش. در ویکی‌پدیای آلمانی: نویسنده با بیشترین سهم متن",
