@@ -413,6 +413,18 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$this->assertFalse(
 			$this->i18n->msgExists( 'idontexist' )
 		);
+
+		// Message has a parameter, which is provided.
+		$this->i18n->setMsg( 'with-param', 'Lorem $1' );
+		$this->assertTrue( $this->i18n->msgExists( 'with-param', [ 'variables' => [ 'Ipsum' ] ] ) );
+
+		// Message has a parameter, but it's not provided.
+		$this->assertTrue( $this->i18n->msgExists( 'with-param' ) );
+
+		// Message has a parameter used within `{{PLURAL:}}`, both with and without providing the param value.
+		$this->i18n->setMsg( 'with-param-plural', 'Lorem {{PLURAL:$1|ipsum|ipsums}}.' );
+		$this->assertTrue( $this->i18n->msgExists( 'with-param-plural', [ 'variables' => [ '10' ] ] ) );
+		$this->assertTrue( $this->i18n->msgExists( 'with-param-plural' ) );
 	}
 
 	public static function provideRedirectTo() {

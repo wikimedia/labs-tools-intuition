@@ -433,9 +433,6 @@ class Intuition {
 			$options = array_merge( $defaultOptions, $options );
 		}
 
-		// Normalise key. First character is case-insensitive.
-		$key = lcfirst( $key );
-
 		$msg = $this->rawMsg( $options['domain'], $options['lang'], $key );
 		if ( $msg === null ) {
 			$this->errTrigger(
@@ -493,6 +490,8 @@ class Intuition {
 	public function rawMsg( string $domain, string $lang, string $key ) : ?string {
 		$domain = $this->normalizeDomain( $domain );
 		$lang = $this->normalizeLang( $lang );
+		// Normalise key. First character is case-insensitive.
+		$key = lcfirst( $key );
 
 		if ( $lang === 'qqx' ) {
 			return "($domain/$key)";
@@ -577,17 +576,17 @@ class Intuition {
 	}
 
 	/**
-	 * Check is a message exists at all.
+	 * Check if a message exists at all, optionally for a given domain and language.
 	 * If this returns false it means msg() would return "[message-key]"
-	 * Parameters the same as msg(), except $fail which is overwritten.
 	 *
-	 * @param string $key
-	 * @param array $options
+	 * @param string $key The message key.
+	 * @param string[] $options Only 'domain' and 'lang' keys are used.
 	 * @return bool
 	 */
 	public function msgExists( string $key, array $options = [] ) : bool {
-		// Use the `$fail = false` option of msg()
-		return $this->msg( $key, $options, false ) !== false;
+		$domain = $options['domain'] ?? $this->getDomain();
+		$lang = $options['lang'] ?? $this->getLang();
+		return $this->rawMsg( $domain, $lang, $key ) !== null;
 	}
 
 	/**
