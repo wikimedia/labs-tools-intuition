@@ -1,3 +1,13 @@
+## v2.3.3 (2022-04-13)
+
+Fixed:
+
+* core: Fix `Intuition::msgExists()`s to not throw when message contains PLURAL. (Sam Wilson)
+
+Changed:
+
+* messages: Localisation updates from https://translatewiki.net.
+
 ## v2.3.2 (2022-01-06)
 
 Fixed:

@@ -10,5 +10,6 @@ gitAuthors.getAuthors({
     return;
   }
 
-  console.log(authors.join('\n') + '\n');
+  console.log('Authors ordered by first contribution.\n');
+  console.log(authors.join('\n'));
 });

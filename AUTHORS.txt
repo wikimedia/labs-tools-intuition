@@ -1,6 +1,6 @@
 Authors ordered by first contribution.
 
-Timo Tijhof <krinklemail@gmail.com>
+Timo Tijhof <krinkle@fastmail.com>
 Siebrand Mazeland <s.mazeland@xs4all.nl>
 Raimond Spekking <raimond.spekking@gmail.com>
 Jan Luca Naumann <jan@jans-seite.de>

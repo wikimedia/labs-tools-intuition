@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "test": "node tests/banana-checker.js",
-    "authors": "node tests/authors.js"
+    "authors": "node tests/authors.js | tee AUTHORS.txt"
   },
   "devDependencies": {
     "grunt-banana-checker": "0.9.0",

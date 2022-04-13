@@ -35,10 +35,10 @@ command:
 npm run authors
 </pre>
 
-Copy the output between *Running "authors" task* and *Done.* to
-the AUTHORS.txt file and run `git diff` to review the changes.
+Run `git add -p` to review and stage the changes as you go.
 
-If one of the added entries looks like a bot, please remove it.
+If one of the added entries looks like a bot, please exclude it
+by attributing it to yourself in the `.mailmap` file.
 
 If one of the added entries looks like a duplicate of an existing
 entry, update the `.mailmap` file as needed, then re-run the
@@ -46,11 +46,11 @@ entry, update the `.mailmap` file as needed, then re-run the
 
 ### Update changelog
 
-To extract the commit log from Git, run the following command
-(replace `v1.1.0` with the tag of the most recent release):
+To get you started, extract the Git commit subjects since the
+most recent release:
 
 <pre lang="sh">
-git log --oneline --reverse v1.1.0...
+git log --pretty=format:'* %s. (%an)' $(git describe --tags --abbrev=0)...HEAD | grep -vE '(build: |docs: |Localisation updates)' | sort
 </pre>
 
 See <https://keepachangelog.com/en/1.0.0/> for the conventions
@@ -71,7 +71,7 @@ be included in the changelog.
 The final entries in the changelog should one of the following
 component prefixes:
 
-* `build` – The meta information about the package, such as dependencies
+* `build` – The meta information about the package, such as dependencies
   and the supported PHP versions.
 * `core` – The PHP classes, methods and functions publicly exposed.
 * `docs` – The documentation (README, docs files, PHP docs etc.)
@@ -115,7 +115,7 @@ For more information about that, see:
 
 Check [CI Status](https://github.com/Krinkle/intuition/actions/workflows/CI.yaml) and wait until the build for the `release` branch has completed and passes. Then, the commit can be pushed to the main branch together with a brand new tag, as follows:
 
-1. Confirm you are at your "Tag" commit (e.g. run `git show` or `git log -n1`).
+1. Confirm you are at your "Tag" commit (e.g. run `git show` or `git log -1`).
 2. Run `git push origin HEAD:main`, to push the commit to the remote. This
    automatically verifies that the commit was previously pushed to a different
    branch with passing tests. If it is a different commit, or fails the tests,
