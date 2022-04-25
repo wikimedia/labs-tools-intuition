@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"Huji",
 			"Reza1615"
 		]
@@ -9,7 +10,7 @@
 	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">گزارش خطا یا ارائه پیشنهاد</a>",
 	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">ویکی</a>",
 	"category_users": "کاربران",
-	"category_articles": "صفحات",
+	"category_articles": "صفحه‌ها",
 	"category_images": "تصویرها",
 	"category_miscellaneous": "متفرقه",
 	"category_wikidata": "ویکی‌داده",

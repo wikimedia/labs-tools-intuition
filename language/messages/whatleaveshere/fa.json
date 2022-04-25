@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"Huji",
 			"Reza1615",
 			"محک"
@@ -8,7 +9,7 @@
 	},
 	"title": "پیوند به اینجا",
 	"title-leaveshere": "پیوندهای گذاشته شده از \"$1\"",
-	"sub-leaveshere": "صفحات زیر پیوند شده از $1",
+	"sub-leaveshere": "صفحه‌های زیر پیوند شده از $1",
 	"label-page": "صفحه",
 	"label-namespace": "فضای نام",
 	"label-limit": "محدودیت",
