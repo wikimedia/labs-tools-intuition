@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
+			"Beginneruser",
 			"Ebraminio",
 			"FarsiNevis",
 			"Mjbmr",
+			"Mohammad ebz",
 			"Reza1615"
 		]
 	},
@@ -24,7 +26,7 @@
 	"use_checkusage": "استفاده از $1CommonSense$2 برای پیشنهاد رده‌های تازه",
 	"use_tusc": "استفاده از $1TUSC$2 برای تأیید و انتقال مستقیم پرونده",
 	"tusc_user": "نام کاربری TUSC",
-	"tusc_pass": "گذرواژهٔ TUSC",
+	"tusc_pass": "رمز عبور TUSC",
 	"do_it": "انجامش بده",
 	"error_transfer_usr": "شما نام کاربری ویکی‌انبار را تنظیم نکرده‌اید",
 	"error_not_exists": "پرونده منبع وجود ندارد!",
@@ -40,6 +42,7 @@
 	"output_information": "برای بارگذاری دستی، متن بالا را ویرایش کنید (اگر نیاز است)، $1پرونده$2 را در رایانه‌یتان ذخیره کنید، سپس $3بارگذاری‌اش کنید$4.",
 	"upload_submit": "بارگذاری!",
 	"target_wiki": "ویکی مقصد",
+	"standard_project": "ویکی‌پدیا",
 	"error_bot_blocked": "ربات بارگذاری در ویکی‌انبار بسته شده‌است.",
 	"error_upload_meta": "نمی‌تواند مستقیم بارگذاری کنید کند به این دلیل که مشکلاتی با فراداده موجود است (زیر را ببینید)!",
 	"error_tusc_failed": "بازبینی TUSC شکست خورد!",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ex13",
+			"Ponor",
 			"Teoo3"
 		]
 	},
@@ -34,7 +35,7 @@
 	"original_wikitext": "Izvorni wiki tekst",
 	"new_wikitext": "Novi wiki tekst",
 	"new_filename": "Novi naziv datoteke:",
-	"output_information": "Za ručno postavljanje, uredite gornji tekst (ukoliko je potrebno), spremite $1datoteku$2 na svoje računalo, zatim ju $3prenosite$4.",
+	"output_information": "Za ručno postavljanje: uredite gornji tekst (ako je potrebno), spremite $1datoteku$2 na svoje računalo, a onda je $3postavite$4.",
 	"upload_submit": "Postavi!",
 	"target_wiki": "odredišni wiki",
 	"error_bot_blocked": "Bot za postavljanje je blokiran na Zajedničkom poslužitelju.",

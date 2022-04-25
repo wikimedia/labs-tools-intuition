@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hello903hello"
+			"Hello903hello",
+			"ZiqiLiang"
 		]
 	},
-	"enter-details": "入詳細資料",
-	"language-label": "文",
+	"enter-details": "填入詳細資料",
+	"language-label": "話",
 	"namespace-label": "空間名",
 	"pagename-label": "版名（唔包空間名）",
 	"transclusion-count": "搵到$1次引用",

@@ -3,6 +3,7 @@
 		"authors": [
 			"Abanima",
 			"DRIHEM",
+			"FiberAhmed",
 			"Meno25",
 			"OsamaK",
 			"Tarawneh",
@@ -12,7 +13,7 @@
 	"attention": "تنبيه",
 	"commonshelper2": "مساعد كومنز 2",
 	"description": "أداة لنقل الملفات من مشروعات ويكيميديا إلى ويكيميديا كومونز",
-	"change_meta": "غيّر $1إعدادات التصنيفات و القوالب$2 لأجل $3",
+	"change_meta": "غيّر $1إعدادات التصنيفات والقوالب$2 لأجل $3",
 	"jira_link": "بلغ عن علة أو اقترح وظيفة",
 	"language": "اللغة",
 	"project": "المشروع",
