@@ -455,7 +455,7 @@ class Intuition {
 		// Replace variables
 		foreach ( $options['variables'] as $i => $val ) {
 			$n = $i + 1;
-			$msg = str_replace( "\$$n", $val, $msg );
+			$msg = str_replace( "\$$n", strval( $val ), $msg );
 		}
 
 		if ( $options['parsemag'] === true ) {
