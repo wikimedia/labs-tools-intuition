@@ -4,7 +4,24 @@
 			"Joao Xavier"
 		]
 	},
+	"title": "Quo ligesas adhike",
+	"title-leaveshere": "Ligili ad altra pagini en \"$1\"",
+	"sub-leaveshere": "La sequanta pagini ligesas a $1",
 	"label-page": "Pagino",
 	"label-namespace": "Nomaro",
-	"namespacesall": "omna"
+	"label-limit": "Limito",
+	"namespacesall": "omna",
+	"button-submit": "Irez",
+	"noleaveshere": "Nulu ligesas a $1",
+	"link-whatleaveshere": "Quo ligesas adhike",
+	"tooltip-whatleaveshere": "Listo pri pagini qui ligesas adhike",
+	"whatlinkshere": "Quo ligesas adhike",
+	"whatlinkshere-whatleaveshere": "Quo ligesas adhike?",
+	"istemplate": "inkluzo",
+	"isfile": "arkivo-ligilo",
+	"linksearch": "Sercho di extera ligilo (LinkSearch)",
+	"section-links": "Ligili",
+	"section-iwlinks": "Ligili interwiki",
+	"section-extlinks": "Extera ligili",
+	"section-categories": "Kategorii"
 }

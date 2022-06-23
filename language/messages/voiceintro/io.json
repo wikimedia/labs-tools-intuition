@@ -4,5 +4,16 @@
 			"Joao Xavier"
 		]
 	},
-	"voiceintro-toolbar-upload-label": "Sendar"
+	"voiceintro-toolbar-record-label": "Enrejistrar",
+	"voiceintro-toolbar-stop-label": "Interuptar",
+	"voiceintro-toolbar-clear-label": "Vakuigar",
+	"voiceintro-toolbar-upload-label": "Sendar",
+	"voiceintro-webaudio-not-supported": "WebAudio API ne funcionas en ca retnavigilo",
+	"voiceintro-upload-publish-succeeded": "Suceso en la sendo dil enrejistruro:",
+	"voiceintro-upload-publish-failed": "L'enrejustruro ne sendesis.",
+	"voiceintro-information-label": "Informo",
+	"voiceintro-information-speaker-label": "Nomo dil naracero:",
+	"voiceintro-information-language-label": "Linguo:",
+	"voiceintro-mic-access-notify": "Kliktez \"Permisez\" por permisar vua retonavigilo uzar vua mikrofono.",
+	"voiceintro-recording-notify": "Enrejistranta..."
 }

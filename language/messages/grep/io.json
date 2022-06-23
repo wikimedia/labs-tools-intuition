@@ -4,6 +4,16 @@
 			"Joao Xavier"
 		]
 	},
+	"title": "''grep'' por titulo dil artiklo (''beta''-versiono)",
+	"explanation": "expliko",
+	"regex": "Frazo konstanta (''regular expression'')",
+	"enter-details": "Informez detali",
+	"results": "Rezulti",
 	"language-label": "Linguo",
-	"namespace-label": "Nomaro"
+	"namespace-label": "Nomaro",
+	"project-label": "Projeto",
+	"pattern-label": "Shablono",
+	"redirects-label": "Inkluzez ridirekti",
+	"limit-label": "Limitez la quanto di rezulti montrita a 100, maxime",
+	"error-zeroresults": "Nula pagino existas en ta ''namespace'' kun tituli equivalanta a vua frazo konstanta (''regular expression'')."
 }

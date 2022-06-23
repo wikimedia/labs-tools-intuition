@@ -4,5 +4,11 @@
 			"Joao Xavier"
 		]
 	},
-	"toolserver-status-short-unknown": "$1: Nekonocata"
+	"toolserver-status-short-ok": "$1: O.K.",
+	"toolserver-status-short-info": "$1: Informo",
+	"toolserver-status-short-warn": "$1: Avizo",
+	"toolserver-status-short-down": "$1: Nefuncionanta",
+	"toolserver-status-short-erro": "$1: Eroro",
+	"toolserver-status-short-unknown": "$1: Nekonocata",
+	"toolserver-status-short-missing": "$1: Mankanta"
 }

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"F Samaritani"
+		]
+	},
+	"etc": "etc.",
+	"form-submit": "Bai",
+	"years": "{{PLURAL: $1|annu|annus}}",
+	"days": "{{PLURAL:$1|dii|diis}}"
+}

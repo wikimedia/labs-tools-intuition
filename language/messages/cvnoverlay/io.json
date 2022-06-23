@@ -5,5 +5,8 @@
 		]
 	},
 	"adder-empty": "Nekonocata",
-	"reason": "Motivo"
+	"expiry": "Fino",
+	"globalwatched": "Patroliata globale",
+	"reason": "Motivo",
+	"reason-empty": "Nula motivo trovita"
 }

@@ -4,5 +4,12 @@
 			"Joao Xavier"
 		]
 	},
-	"namespace-label": "Nomaro"
+	"enter-details": "Informez detali",
+	"language-label": "Idiomo",
+	"namespace-label": "Nomaro",
+	"pagename-label": "Nomo di la pagino (ecepte ''namespace'')",
+	"transclusion-count-label": "Quanto di shabloni",
+	"transclusion-count": "$1 shablono/shabloni trovita.",
+	"error-suggestion": "Posible vu skribis nekorekte (o nekorekte mayuskuligis) la nomo di la pagino, ka ne?",
+	"time-label": "Quanto di tempo por exekutar komando"
 }
