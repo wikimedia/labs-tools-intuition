@@ -4,5 +4,24 @@
 			"Joao Xavier"
 		]
 	},
-	"download": "Descharjez"
+	"title": "Descharjar imaji segun kategorio",
+	"subtitle": "Facila maniero pri descharjar imaji en ula kategorio",
+	"project": "Projeto:",
+	"category": "Kategorio:",
+	"thumbnailing": "Miniaturigo",
+	"max-width": "Maxima larjeso:",
+	"max-height": "Maxima alteso:",
+	"invalid-width": "Nevalida larjeso",
+	"invalid-height": "Nevalida alteso",
+	"no-such-project": "Ne existas ca projeto",
+	"no-images": "Ne existas imaji en ca kategorio",
+	"zip-failed": "faliis kreo di arkivo Zip",
+	"image-area-too-big": "$1 esas multe granda por krear miniaturo (''thumbnail''). Uzanta tota grandeso.",
+	"download-info": "Existas {{plural: $1|1 imajo|$1 imaji}}, kun grandeso di cirkume $2",
+	"download": "Descharjez",
+	"readme-contents": "L'arkivo $4 adjuntita montras\nimaji che kategorio $1 ( $2 )$3.\n\n== Instrukti pri quale descharjar omna imaji mencionita  ==\nLa kompleta descharjo povas durar de kelka minuti til multa hori.\n\nWindows:\n Extraktez omna arkivi en la sama kontenilo, ed exekutez $5\n $6\nLinux/Mac OS:\n Extraktez omna arkivi ed apertez ''terminal'' en la kontenilo. Exekutez komando sh $5",
+	"non-bundled-wget": "Noto: Ca versiono ne inkluzas wget por Windows. Vu mustos deskompresar l'arkivo en kontenilo uzanta wget.exe, o havar wget che PATH",
+	"scaling-width": ", ajustita a maxima larjeso di $1 {{plural:$1|''pixel''|''pixels''}}",
+	"scaling-height": ", ajustita a maxima alteso di $1 {{plural:$1|''pixel''|''pixels''}}",
+	"scaling-both": ", ajustita a maxima grandeso di $1x$2 ''pixels''"
 }

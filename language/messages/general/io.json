@@ -5,10 +5,14 @@
 			"Joao Xavier"
 		]
 	},
+	"hello": "Saluto",
+	"welcome": "Bonveno",
 	"toolversion": "Versiono $1",
 	"toolversionstamp": "Versiono $1 ($2)",
+	"etc": "edc.",
 	"namespace": "Nomaro",
 	"form-submit": "Irez",
+	"form-reset": "Restaurez",
 	"years": "{{PLURAL: $1|yaro|yari}}",
 	"months": "{{PLURAL: $1|monato|monati}}",
 	"weeks": "{{PLURAL: $1|semano|semani}}",
@@ -16,5 +20,7 @@
 	"hours": "{{PLURAL: $1|horo|hori}}",
 	"minutes": "$1 {{PLURAL:$1|minuto|minuti}}",
 	"seconds": "{{PLURAL: $1|sekundo|sekundi}}",
+	"last-modified-date": "Lastafoye chanjita: $1",
+	"view-source": "Vidar origino",
 	"and": "&#32;e"
 }

@@ -4,6 +4,9 @@
 			"Joao Xavier"
 		]
 	},
+	"alws-label": "Wiki",
+	"alws-selectwiki": "(selektez wiki)",
+	"alws-group-mustused": "Maxim uzata wiki",
 	"alws-group-allaz": "Omna Wiki, segun ordeno alfabetala",
 	"form-legend-settings": "Preferaji"
 }

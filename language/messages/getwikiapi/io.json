@@ -4,5 +4,6 @@
 			"Joao Xavier"
 		]
 	},
-	"input": "Eniro di dati"
+	"input": "Eniro di dati",
+	"output": "Produkturo por \"$1\""
 }

@@ -4,5 +4,25 @@
 			"Joao Xavier"
 		]
 	},
-	"category_articles": "Pagini"
+	"base_prefslink": "<a href=\"prefs.fcgi\">Chanjez idiomo / preferaji</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Informez pri falio, o demandez traito</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Wiki</a>",
+	"category_users": "Uzeri",
+	"category_articles": "Pagini",
+	"category_images": "Imaji",
+	"category_miscellaneous": "Diversi",
+	"category_wikidata": "Wikidata",
+	"select_wiki_title": "Selektez wiki",
+	"select_wiki_next": "Sequanta →",
+	"select_report_title": "Selektez raporto por exekutar che %(wiki)s",
+	"select_report": "Voluntez selektar raporto:",
+	"select_report_disabled": "Ca reporto ne esas disponebla.",
+	"select_report_go_back": "← Chanjez wiki",
+	"qvar_title": "Informez varianti por vua inquesto",
+	"qvar_next": "Sequanta →",
+	"prefs_submit": "O.K.",
+	"prefs_done": "Vua preferaji modifikesis.",
+	"prefs_langlabel": "Idiomo dil interkonekto:",
+	"report_change_report": "<a href=\"%(url)s\">Modifikez raporto</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Chanjez wiki</a>"
 }

@@ -4,5 +4,14 @@
 			"Joao Xavier"
 		]
 	},
-	"link-create": "krear"
+	"feedback-template-missing": "Shablono $1 ne existas.",
+	"feedback-template-noaccess": "Semblas ke shablono $1 existas, tamen ol ne esas disponebla che datumaro. Posible esas tempala problemo en la datumaro. Datumaro uzita: $2.",
+	"feedback-result": "Rezulti por $1",
+	"feedback-header-mismatch": "Shabloni e ligili ne esas la sama",
+	"feedback-total-count": "Entote: $1",
+	"link-edit": "redaktar",
+	"link-create": "krear",
+	"link-complete": "Kompleta raporto...",
+	"footer-stats": "Kreita: $1. Durado: $2 {{PLURAL:$2|sekundo|sekundi}}.",
+	"error-language": "Linguo-kodexo nekonocata."
 }

@@ -4,11 +4,27 @@
 			"Joao Xavier"
 		]
 	},
+	"attention": "Atencez",
 	"description": "Utensilo por transferar arkivi de la projeti di Wikimedia a Wikimedia Commons",
 	"language": "Linguo",
+	"project": "Projeto",
+	"source_file": "Fonto-arkivo",
+	"target_file": "Destin-arkivo",
 	"commons_username": "Uzero-nomo en Wikimedia Commons",
+	"commons_to_project": "''Wikimedia Commons'' a projeto",
 	"move_file_from_com": "Translojar arkivo de Wikimedia Commons a la projeto",
+	"categories": "Kategorii",
+	"remove_cats": "Removar existanta kategorii",
+	"tusc_pass": "Pasovorto di TUSC",
+	"do_it": "Facez ol",
+	"error_transfer_usr": "Vu ne kreis uzeronomo che ''Wikimedia Commons''",
+	"error_not_exists": "Fonto-arkivo ne existas!",
+	"error_on_commons": "Fonto-arkivo ja en $1!",
+	"error_file_exists": "L'arkivo ja existas che $3 quale \"$1$4$2\"!",
 	"error_no_meta": "Nula ''metadata'' trovesis pri la fonto-wiki! $1Voluntez adjuntar ''metadata'' pri ca projeto$2",
+	"original_wikitext": "Originala wikitexto",
+	"new_wikitext": "Nova wikitexto",
+	"new_filename": "Nova nomo di arkivo:",
 	"upload_submit": "Sendez!",
 	"error_bot_blocked": "Sendar arkivi 'bot' blokusesas en Wikimedia Commons."
 }
