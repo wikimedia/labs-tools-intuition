@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"AnupamM",
+			"Saurmandal",
 			"Siddhartha Ghai"
 		]
 	},
 	"bl-mysettings": "मेरी भाषा सेटिंग्स",
 	"bl-mysettings-new": "भाषा बदलें!",
-	"bl-promo": "अनुवाद $1 और $2 द्वारा किये गए हैं।",
-	"bl-changelanguage": "इस टूल की अंतरफल भाषा बदलें।",
-	"help-translate-tool": "इस उपकरण का अनुवाद करने में मदद करें!",
-	"help-translate-all": "उपकरणों का अनुवाद करने में मदद करें!",
-	"help-translate-tooltip": "अपनी भाषा में अंतरफल संदेशों का अनुवाद कर के औरों की मदद करें।"
+	"bl-promo": "अनुवाद $1 और $2 द्वारा संचालित।",
+	"bl-changelanguage": "इस उपकरण के इंटरफ़ेस की भाषा बदलें।",
+	"help-translate-tool": "इस उपकरण के अनुवाद में मदद करें!",
+	"help-translate-all": "उपकरणों के अनुवाद में मदद करें!",
+	"help-translate-tooltip": "अपनी भाषा में इंटरफ़ेस को अनुवादित करके दूसरों की मदद करें।"
 }

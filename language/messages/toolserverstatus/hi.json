@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Saurmandal",
 			"Siddhartha Ghai"
 		]
 	},
-	"toolserver-status-ok": "डाटाबेस क्लस्टर $1 में कोई समस्या नहीं हैं $2",
-	"toolserver-status-info": "क्लस्टर $1 के प्रयोक्ताओं के लिये सूचना: $2",
-	"toolserver-status-warn": "क्लस्टर $1 के प्रयोक्ताओं के लिये चेतावनी: $2",
-	"toolserver-status-down": "डाटाबेस क्लस्टर $1 को अस्थायी रूप से बंद कर दिया गया है। $2",
-	"toolserver-status-erro": "डाटाबेस क्लस्टर $1 बंद है। $2",
+	"toolserver-status-ok": "डेटाबेस क्लस्टर $1 में कोई समस्या नहीं हैं $2",
+	"toolserver-status-info": "क्लस्टर $1 के उपयोगकर्ताओं के लिए सूचना: $2",
+	"toolserver-status-warn": "क्लस्टर $1 के उपयोगकर्ताओं के लिए चेतावनी: $2",
+	"toolserver-status-down": "डेटाबेस क्लस्टर $1 को अस्थायी रूप से बंद कर दिया गया है। $2",
+	"toolserver-status-erro": "डेटाबेस क्लस्टर $1 बंद है। $2",
 	"toolserver-status-unknown": "क्लस्टर $1 की स्थिति अज्ञात है",
 	"toolserver-status-missing": "क्लस्टर $1 मौजूद नहीं है",
 	"toolserver-status-short-ok": "$1: ठीक है",

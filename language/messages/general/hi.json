@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Platonides",
+			"Saurmandal",
 			"Siddhartha Ghai"
 		]
 	},
 	"hello": "नमस्कार",
-	"welcome": "सुस्वागतम्‌!",
+	"welcome": "सुस्वागतम्‌",
 	"toolversion": "संस्करण $1",
-	"toolversionstamp": "वर्ज़न $1 ($2)",
+	"toolversionstamp": "संस्करण $1 ($2)",
 	"etc": "आदि",
 	"namespace": "नामस्थान",
-	"form-submit": "जायें",
+	"form-submit": "जाएँ",
 	"form-reset": "रीसेट करें",
 	"years": "{{PLURAL: $1|वर्ष}}",
 	"months": "{{PLURAL: $1|महीना|महीने}}",
@@ -19,8 +20,8 @@
 	"days": "{{PLURAL: $1|दिन}}",
 	"hours": "{{PLURAL:$1|घंटा|घंटे}}",
 	"minutes": "{{PLURAL: $1|मिनट}}",
-	"seconds": "{{PLURAL: $1|सॅकेंड}}",
-	"last-modified-date": "अंतिम परिवर्तन: $1",
+	"seconds": "{{PLURAL: $1|सेकंड}}",
+	"last-modified-date": "अंतिम बदलाव: $1",
 	"view-source": "स्रोत देखें",
 	"and": "&#32;और"
 }

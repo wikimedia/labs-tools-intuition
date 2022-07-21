@@ -1,18 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"NehalDaveND"
+			"NehalDaveND",
+			"Saurmandal"
 		]
 	},
+	"title": "जावक कड़ियाँ",
+	"title-leaveshere": "कड़ियाँ जो \"$1\" से निकलती हैं",
+	"sub-leaveshere": "$1 पर इन पृष्ठों की कड़ियाँ हैं",
 	"label-page": "पृष्ठ",
 	"label-namespace": "नामस्थान",
 	"label-limit": "सीमा",
+	"namespacesall": "सभी",
 	"button-submit": "जाएँ",
-	"istemplate": "मिलाईयें",
+	"noleaveshere": "$1 पर किसी भी पृष्ठ की कड़ी नहीं है",
+	"link-whatleaveshere": "जावक कड़ियाँ",
+	"tooltip-whatleaveshere": "यहाँ पर मौजूद सभी कड़ियों के लक्ष्यों की सूची",
+	"whatlinkshere": "कड़ियाँ",
+	"whatlinkshere-whatleaveshere": "जावक कड़ियाँ",
+	"istemplate": "ट्रांसक्लूशन",
 	"isfile": "फ़ाइल की कड़ी",
-	"linksearch": "कड़ी ढूँढे",
+	"linksearch": "LinkSearch",
 	"section-links": "कड़ियाँ",
-	"section-iwlinks": "आन्तरविकि कड़ियाँ",
+	"section-iwlinks": "इंटरविकि कड़ियाँ",
 	"section-extlinks": "बाहरी कड़ियाँ",
 	"section-categories": "श्रेणियाँ"
 }
