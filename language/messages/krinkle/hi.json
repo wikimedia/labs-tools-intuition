@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Phoenix303",
+			"Saurmandal",
 			"Siddhartha Ghai"
 		]
 	},
-	"alws-label": "विकी",
-	"alws-selectwiki": "(विकी चुनें)",
-	"alws-group-mustused": "सर्वाधिक प्रयुक्त विकी",
-	"alws-group-allaz": "सभी विकी वर्णक्रम-अनुसार",
+	"alws-label": "विकि",
+	"alws-selectwiki": "(विकि चुनें)",
+	"alws-group-mustused": "सर्वाधिक प्रयुक्त विकियाँ",
+	"alws-group-allaz": "वर्णानुक्रमानुसार सभी विकियाँ",
 	"form-legend-settings": "सेटिंग्स"
 }

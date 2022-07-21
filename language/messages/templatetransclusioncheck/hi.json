@@ -2,13 +2,30 @@
 	"@metadata": {
 		"authors": [
 			"AnupamM",
-			"NehalDaveND"
+			"NehalDaveND",
+			"Saurmandal"
 		]
 	},
+	"title": "साँचा जुड़ाव और ट्रांसक्लूशन की जाँच",
+	"description": "जाँचकर बताता है कि किसी साँचे को ट्रांसक्लूड करने वाले कौन-से लेख साँचे से जुड़े नहीं हुए हैं, और कौन-से लेख साँचे को ट्रांसक्लूड नहीं करते मगर साँचे से जुड़े हुए हैं।",
 	"form-label-language": "भाषा:",
 	"form-label-template": "साँचे का नाम:",
+	"form-label-template2": "(नामस्थान सहित)",
+	"form-label-complete": "पूरी रिपोर्ट तैयार करें:",
+	"feedback-template-missing": "साँचा $1 मौजूद नहीं है।",
+	"feedback-template-noaccess": "साँचा $1 मौजूद है, मगर यह डेटाबेस से उपलब्ध नहीं है। यह डेटाबेस पर एक अस्थायी समस्या हो सकती है। उपयुक्त डेटाबेस: $2।",
 	"feedback-result": "$1 के लिए परिणाम",
-	"feedback-total-count": "योग : $1",
+	"feedback-header-mismatch": "ट्रांसक्लूशन्स और जुड़ाव के बीच बेमेल",
+	"feedback-header-no-link": "ट्रांसक्लूशन है मगर जुड़ाव नहीं",
+	"feedback-header-no-transclusion": "जुड़ाव है मगर ट्रांसक्लूशन नहीं",
+	"feedback-header-redirects": "अनुप्रेषणों की कड़ियाँ",
+	"feedback-total-count": "कुल: $1",
+	"feedback-header-complete": "ट्रांसक्लूशन्स  और कड़ियों की पूर्ण अवलोकन",
+	"feedback-header-transclusions": "साँचे के ट्रांसक्लूशन्स",
+	"feedback-header-links": "साँचे से कड़ियाँ",
 	"link-edit": "संपादित करें",
-	"link-create": "बनाएँ"
+	"link-create": "बनाएँ",
+	"link-complete": "पूरी रिपोर्ट...",
+	"footer-stats": "बनाया गया: $1। अवधि: $2 {{PLURAL:$2|सेकंड}}।",
+	"error-language": "अज्ञात भाषा कोड।"
 }

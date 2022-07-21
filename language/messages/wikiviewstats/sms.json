@@ -6,6 +6,7 @@
 	},
 	"list": "Listt",
 	"sample": "Ouddmiârkk",
+	"pagetitle": "seiddnõmm",
 	"page": "Seidd",
 	"searchResults": "Ooccâmpuättmõõžž",
 	"settings": "Asetõõzz",
@@ -21,10 +22,14 @@
 	"template": "Mall",
 	"specialPage": "Tuåimmseidd",
 	"wikiThanks": "Späʹsseb",
+	"first": "vuõssmõs",
 	"deleted": "jaukkuum",
 	"links": "Liiŋk",
+	"bots": "boott",
+	"articles": "artikkeeʹl",
 	"pages": "seeid",
 	"urlParameter": "URL-paramettar",
+	"submit": "Vuõlttâd",
 	"save": "ruõkk",
 	"projectPages": "Projeʹkttseeid"
 }

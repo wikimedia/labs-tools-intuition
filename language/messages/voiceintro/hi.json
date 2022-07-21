@@ -2,13 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"AnupamM",
-			"NehalDaveND"
+			"NehalDaveND",
+			"Saurmandal"
 		]
 	},
+	"voiceintro-toolbar-record-label": "रिकॉर्ड करें",
 	"voiceintro-toolbar-stop-label": "रोकें",
 	"voiceintro-toolbar-clear-label": "खाली करें",
 	"voiceintro-toolbar-upload-label": "अपलोड करें",
+	"voiceintro-webaudio-not-supported": "WebAudio API इस ब्राउज़र के लिए समर्थित नहीं है",
+	"voiceintro-upload-publish-succeeded": "रिकॉर्डिंग सफलतापूर्वक अपलोड की गई:",
+	"voiceintro-upload-publish-failed": "रिकॉर्डिंग अपलोड न की जा सकी।",
 	"voiceintro-information-label": "जानकारी",
 	"voiceintro-information-speaker-label": "वक्ता का नाम:",
-	"voiceintro-information-language-label": "भाषा:"
+	"voiceintro-information-language-label": "भाषा:",
+	"voiceintro-mic-access-notify": "अपने ब्राउज़र को आपके माइक्रोफ़ोन तक पहुँच देने के लिए \"Allow\" पर क्लिक करें।",
+	"voiceintro-recording-notify": "रिकॉर्ड की जा रही है..."
 }

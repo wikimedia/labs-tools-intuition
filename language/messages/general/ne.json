@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bada Kaji",
 			"Krish Dulal",
 			"पर्वत सुबेदी",
 			"सरोज कुमार ढकाल"
@@ -21,6 +22,6 @@
 	"minutes": "{{PLURAL:$1| मिनेट|मिनेटहरु}}",
 	"seconds": "{{PLURAL:$1| सेकेन्ड|सेकेन्डहरू}}",
 	"last-modified-date": "पछिल्लो संशोधन : $1",
-	"view-source": "स्रोत हेर्नुहोस",
+	"view-source": "स्रोत हेर्नुहोस्",
 	"and": "&#32;र"
 }
