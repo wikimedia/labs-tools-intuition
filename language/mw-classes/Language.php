@@ -3065,12 +3065,12 @@ class Language {
 
 	/**
 	 * Get the name of a file for a certain language code
-	 * @param $prefix string Prepend this to the filename
-	 * @param $code string Language code
-	 * @param $suffix string Append this to the filename
+	 * @param string $prefix Prepend this to the filename
+	 * @param string $code Language code
+	 * @param string $suffix Append this to the filename
 	 * @return string $prefix . $mangledCode . $suffix
 	 */
-	static function getFileName( $prefix = 'Language', $code, $suffix = '.php' ) {
+	static function getFileName( $prefix = 'Language', $code = '', $suffix = '.php' ) {
 		// Protect against path traversal
 		if ( !Language::isValidCode( $code )
 			|| strcspn( $code, ":/\\\000" ) !== strlen( $code ) )
