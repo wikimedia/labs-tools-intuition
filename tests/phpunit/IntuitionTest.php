@@ -234,6 +234,18 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 			] ),
 			'HTML escaped (raw variables)'
 		);
+
+		$this->assertSame(
+			'l&<€ and 7',
+			$this->i18n->msg( 'example', [ 'variables' => [ 7 ] ] ),
+			'Integer variable is cast to string.'
+		);
+
+		$this->assertSame(
+			'l&<€ and bar',
+			$this->i18n->msg( 'example', [ 'variables' => [ new SimpleXMLElement( '<foo>bar</foo>' ) ] ] ),
+			'Object variable is cast to string.'
+		);
 	}
 
 	/**
