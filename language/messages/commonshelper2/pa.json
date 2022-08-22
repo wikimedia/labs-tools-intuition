@@ -2,15 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Aalam",
+			"AnupamM",
 			"Babanwalia"
 		]
 	},
 	"attention": "ਧਿਆਨ ਦਿਓ",
+	"jira_link": "ਇੱਕ ਚੁੱਕ ਦੀ ਰਿਪੋਰਟ ਕਰੋ ਜਾਂ ਇੱਕ ਵਿਸ਼ੇਸ਼ਤਾ ਦਾ ਸੁਝਾਅ ਦਿਓ",
 	"language": "ਭਾਸ਼ਾ",
 	"project": "ਪਰੋਜੈਕਟ",
 	"source_file": "ਸਰੋਤ ਫਾਇਲ",
 	"target_file": "ਟਾਰਗੇਟ ਫਾਇਲ",
 	"commons_username": "ਵਿਕੀਮੀਡੀਆ ਕਾਮਨਜ਼ ਵਰਤੋਂਕਾਰ ਨਾਂ",
+	"move_file_from_com": "ਵਿਕੀਮੀਡੀਆ ਕਾਮਨਜ਼ ਤੋਂ ਫਾਈਲ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਭੇਜੋ",
 	"categories": "ਕੈਟਾਗਰੀਆਂ",
 	"remove_cats": "ਮੌਜੂਦਾ ਕੈਟਾਗਰੀਆਂ ਹਟਾਓ"
 }

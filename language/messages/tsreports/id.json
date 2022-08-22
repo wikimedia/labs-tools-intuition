@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hidayatsrf"
+			"Hidayatsrf",
+			"Veracious"
 		]
 	},
 	"category_users": "Pengguna",
@@ -11,5 +12,6 @@
 	"category_wikidata": "WikiData",
 	"select_wiki_title": "Pilih wiki",
 	"select_wiki_next": "Selanjutnya →",
+	"prefs_submit": "OK",
 	"prefs_langlabel": "Bahasa antarmuka:"
 }

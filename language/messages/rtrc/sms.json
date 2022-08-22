@@ -5,12 +5,16 @@
 		]
 	},
 	"clear": "kuârad",
+	"cvn-reason": "Mäinn",
 	"documentation": "Vuäʹpstõõzz",
 	"feedback": "Maacctõs",
 	"filter": "Siʹllʼjeei",
+	"filter-hideliu": "Čiõǥǥ rekisterõsttum õõʹnnʼjid",
 	"filter-hidebots": "Čiõǥǥ boottid",
 	"filter-unpatrolled": "Čiõǥǥ taʹrǩǩuum muttsid",
 	"license": "Liseʹnss",
+	"new-short": "ođđ",
 	"tag": "Ǩeâlǥal",
+	"typeEdit": "Muttâz",
 	"typeNew": "Ođđ seeid"
 }

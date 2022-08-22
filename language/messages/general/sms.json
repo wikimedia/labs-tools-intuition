@@ -4,5 +4,14 @@
 			"Yupik"
 		]
 	},
+	"toolversion": "Versio $1",
+	"toolversionstamp": "Versio $1 ($2)",
+	"years": "{{PLURAL:$1|eeʹǩǩ|eeʹjj|eeʹǩǩed}}",
+	"months": "{{PLURAL: $1|määnpââʹjj|määnpââʹj|määnpââʹjjed}}",
+	"weeks": "{{PLURAL:$1|neäʹttel|neäʹttel|neäʹttled}}",
+	"days": "{{PLURAL: $1|peiʹvv|peeiʹv|peiʹvved}}",
+	"hours": "{{PLURAL: $1|čiâss|čiâss|čiâssâd}}",
+	"minutes": "{{PLURAL:$1|minutt|minuutt|minuttâd}}",
+	"seconds": "{{PLURAL: $1|sekuntt|sekuunt|sekunttâd}}",
 	"view-source": "Čuäʹjet käivvkood"
 }
