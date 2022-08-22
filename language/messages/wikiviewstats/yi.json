@@ -1,13 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
+	"page": "בלאַט",
 	"help": "הילף",
 	"allLang": "אַלע שפראַכן",
+	"category": "קאַטעגאָריע",
 	"specialPage": "ספעציעלער בלאט",
 	"links": "לינקען",
 	"sysops": "סיסאפן",
+	"pages": "בלעטער",
+	"cancel": "אַנולירן",
 	"projectPages": "פראיעקט בלעטער"
 }

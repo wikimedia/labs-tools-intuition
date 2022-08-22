@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Tisave"
 		]
 	},
-	"form-label-language": "Lang:",
+	"form-label-language": "Lang :",
 	"form-label-template": "Non modèl la:",
 	"feedback-result": "Rezilta $1",
 	"feedback-total-count": "Total: $1",

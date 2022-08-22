@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
@@ -10,5 +11,6 @@
 	"whatlinkshere": "װאָס פֿאַרבינדט אַהער",
 	"istemplate": "אריבערשליסן",
 	"isfile": "טעקע לינק",
-	"section-iwlinks": "אינטערוויקי לינקען"
+	"section-iwlinks": "אינטערוויקי לינקען",
+	"section-categories": "קאַטעגאָריעס"
 }

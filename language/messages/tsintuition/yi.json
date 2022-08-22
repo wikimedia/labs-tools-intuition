@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Har-wradim",
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
 	"bl-mysettings": "מיינע שפּראַך איינשטעלונגען",
-	"bl-mysettings-new": "ענדערן שפראך!",
+	"bl-mysettings-new": "ענדערן שפּראַך!",
 	"bl-promo": "איבערזעצונגען דערמעגלעכט דורך $1 און $2.",
 	"bl-changelanguage": "ענדערן די באניצער־אייבערפלאך שפראך פון דעם געצייג.",
 	"help-translate-tool": "העלפט איבערזעצן דעם מכשיר.",
