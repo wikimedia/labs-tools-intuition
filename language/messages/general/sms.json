@@ -4,8 +4,13 @@
 			"Yupik"
 		]
 	},
+	"hello": "Tiõrv!",
+	"welcome": "Tiõrvpueʹttem",
 	"toolversion": "Versio $1",
 	"toolversionstamp": "Versio $1 ($2)",
+	"etc": "dno.",
+	"form-submit": "Mõõn",
+	"form-reset": "Kuârad lomaakk",
 	"years": "{{PLURAL:$1|eeʹǩǩ|eeʹjj|eeʹǩǩed}}",
 	"months": "{{PLURAL: $1|määnpââʹjj|määnpââʹj|määnpââʹjjed}}",
 	"weeks": "{{PLURAL:$1|neäʹttel|neäʹttel|neäʹttled}}",
@@ -13,5 +18,7 @@
 	"hours": "{{PLURAL: $1|čiâss|čiâss|čiâssâd}}",
 	"minutes": "{{PLURAL:$1|minutt|minuutt|minuttâd}}",
 	"seconds": "{{PLURAL: $1|sekuntt|sekuunt|sekunttâd}}",
-	"view-source": "Čuäʹjet käivvkood"
+	"last-modified-date": "Mââimõssân muttum: $1",
+	"view-source": "Čuäʹjet käivvkood",
+	"and": "&#32;da"
 }
