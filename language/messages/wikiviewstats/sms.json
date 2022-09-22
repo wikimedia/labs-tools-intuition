@@ -27,8 +27,11 @@
 	"wikiThanks": "Späʹsseb",
 	"size": "šorradvuõtt",
 	"first": "vuõssmõs",
+	"total": "õhttsa",
 	"deleted": "jaukkuum",
 	"links": "Liiŋk",
+	"bureaucrats": "byrokraatt",
+	"sysops": "âʹlnnõõʹnni",
 	"bots": "boott",
 	"articles": "artikkeeʹl",
 	"pages": "seeid",
@@ -36,6 +39,7 @@
 	"urlParameter": "URL-paramettar",
 	"submit": "Vuõlttâd",
 	"save": "ruõkk",
+	"cancel": "jõõsk",
 	"projectPages": "Projeʹkttseeid",
 	"backToTop": "mååust seeid aʹlǧǧe"
 }

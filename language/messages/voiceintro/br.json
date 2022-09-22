@@ -3,7 +3,8 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Huñvreüs"
 		]
 	},
 	"voiceintro-toolbar-record-label": "Enrollañ",
@@ -11,8 +12,8 @@
 	"voiceintro-toolbar-clear-label": "Riñsañ",
 	"voiceintro-toolbar-upload-label": "Enporzhiañ",
 	"voiceintro-webaudio-not-supported": "N'eo ket skoret an API WebAudio gant ar merdeer",
-	"voiceintro-upload-publish-succeeded": "Enporzhiet eo bet an enrolladenn ervat :",
-	"voiceintro-upload-publish-failed": "N'eo ket bet enporzhiet an enrolladenn.",
+	"voiceintro-upload-publish-succeeded": "Pellgaset eo bet an enrolladenn ervat :",
+	"voiceintro-upload-publish-failed": "N'eo ket bet pellgaset an enrolladenn.",
 	"voiceintro-information-label": "Titouroù",
 	"voiceintro-information-speaker-label": "Anv ar prezeger :",
 	"voiceintro-information-language-label": "Yezh :",

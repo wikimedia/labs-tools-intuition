@@ -4,6 +4,7 @@
 			"Fohanno",
 			"Fulup",
 			"Gwenn-Ael",
+			"Huñvreüs",
 			"Kadwallan",
 			"Y-M D"
 		]
@@ -38,7 +39,7 @@
 	"mark": "merkañ",
 	"masspatrol": "Gwiriadenn a-vras",
 	"masspatrol-requires-userfilter": "Diweredekaet eo bet MassPatrol rak ur sil implijer zo ezhommm anezhañ ha n'eus bet termenet hini ebet.",
-	"months": "miz Genver, miz C'hwevrer, miz Meurzh, miz Ebrel, miz Mae, miz Mezheven, miz Gouere, miz Eost, miz Gwengolo, miz Here, miz Du, miz Kerzu",
+	"months": "Genver, C'hwevrer, Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu",
 	"mypatrollog": "Ma renabl gwiriañ",
 	"namespace": "Esaouenn anv",
 	"navtoggle-tooltip": "Gwintañ war-zu ar varrenn gostez",
