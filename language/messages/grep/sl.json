@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"Janezdrilc"
 		]
 	},
 	"regex": "Regularni izraz",
 	"enter-details": "Vnesi podrobnosti",
-	"results": "Rezultati",
+	"results": "Zadetki",
 	"language-label": "Jezik",
 	"namespace-label": "Imenski prostor",
 	"project-label": "Projekt",
