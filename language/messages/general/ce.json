@@ -6,5 +6,6 @@
 	},
 	"form-submit": "Дехьа гӀо",
 	"days": "{{PLURAL: $1|де}}",
-	"minutes": "$1 {{PLURAL:$1|минот}} хьалха"
+	"minutes": "$1 {{PLURAL:$1|минот}} хьалха",
+	"view-source": "Йуьхьанцара коде хьажар"
 }

@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"alws-label": "Wiki",
+	"alws-label": "Viki",
 	"alws-selectwiki": "(izberite wiki)",
-	"alws-group-mustused": "Najpogosteje uporabljani wikiji",
-	"alws-group-allaz": "Vsi wikiji po abecedi",
+	"alws-group-mustused": "Najpogosteje uporabljani vikiji",
+	"alws-group-allaz": "Vsi vikiji po abecedi",
 	"form-legend-settings": "Nastavitve"
 }
