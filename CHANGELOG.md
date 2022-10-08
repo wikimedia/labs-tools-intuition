@@ -1,3 +1,14 @@
+## v2.3.4 (2022-10-07)
+
+Fixed:
+
+* Intuition: Cast variables in `msg()` to string. (Sam Wilson)
+* language: Fix PHP 8 warning for optional parameter in `Language:getFileName()`. (Sam Wilson)
+
+Changed:
+
+* messages: Localisation updates from https://translatewiki.net.
+
 ## v2.3.3 (2022-04-13)
 
 Fixed:
