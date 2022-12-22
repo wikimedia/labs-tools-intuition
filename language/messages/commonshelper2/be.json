@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"LexArt",
-			"Mechanizatar"
+			"Mechanizatar",
+			"Plaga med"
 		]
 	},
 	"attention": "Увага",
-	"description": "Прылада для перадачы файлаў з праектаў Wikimedia ў Wikimedia Commons",
+	"description": "Інструмент для перадачы файлаў з праектаў Wikimedia у Wikimedia Commons",
 	"change_meta": "Змяніць $1 катэгорыю і наладкі шаблону $2 для $3",
 	"jira_link": "Паведаміць пра памылку ці прапанаваць новую функцыю",
 	"language": "Мова",

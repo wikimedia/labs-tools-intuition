@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"moretools": "več orodij",
 	"homepage-title": "Uvod",
-	"bugs": "poročila o hroščih in predlogi funkcij",
+	"bugs": "sporočila o hroščih in predlogi funkcij",
 	"comments": "pripombe in poizvedbe",
 	"error-form-empty": "Eno ali več obveznih polj ni bilo izpolnjenih. Pred nadaljevanjem jih morate izpolniti."
 }

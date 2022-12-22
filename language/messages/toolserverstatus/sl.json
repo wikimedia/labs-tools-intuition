@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"toolserver-status-ok": "V gruči zbirke podatkov $1 ni težav $2",
+	"toolserver-status-ok": "V gruči podatkovne zbirke $1 ni težav. $2",
 	"toolserver-status-info": "Obvestilo za uporabnike gruče $1: $2",
 	"toolserver-status-warn": "Opozorilo za uporabnike gruče $1: $2",
-	"toolserver-status-down": "Gruča zbirke podatkov $1 je bila začasno zaustavljena. $2",
-	"toolserver-status-erro": "Gruča zbirke podatkov $1 ne deluje. $2",
+	"toolserver-status-down": "Gruča podatkovne zbirke $1 je začasno zaustavljena. $2",
+	"toolserver-status-erro": "Gruča podatkovne zbirke $1 trenutno ne deluje. $2",
 	"toolserver-status-unknown": "Neznano stanje gruče $1",
 	"toolserver-status-missing": "Gruča $1 ne obstaja",
 	"toolserver-status-short-ok": "$1: V redu",

@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"LexArt"
+			"LexArt",
+			"Plaga med"
 		]
 	},
 	"alws-label": "Вікі",
 	"alws-selectwiki": "(выбраць вікі)",
 	"alws-group-mustused": "Найбольш часта выкарыстоўваюцца",
 	"alws-group-allaz": "Усе вікі па алфавіце",
-	"form-legend-settings": "Наладкі"
+	"form-legend-settings": "Налады"
 }

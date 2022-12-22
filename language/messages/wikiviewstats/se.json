@@ -10,8 +10,11 @@
 	"allLang": "Buot gielat",
 	"other_lang": "eará gielat",
 	"mywatchlists": "Čuovvunlisttut",
+	"users": "{{PLURAL: $1|geavaheaddji}}",
 	"category": "Kategoriija",
 	"template": "Málle",
 	"specialPage": "Erenomáš siidu",
-	"namespaces": "nammagomuvuođat"
+	"deleted": "sihkkojuvvon",
+	"namespaces": "nammagomuvuođat",
+	"save": "vurke"
 }

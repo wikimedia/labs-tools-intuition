@@ -5,12 +5,18 @@
 			"Janezdrilc"
 		]
 	},
+	"title": "Filtrirane po naslovih člankov (beta)",
+	"introduction": "To orodje prikazuje vse naslove člankov, ki se ujemajo z vzorcem regularnega izraza ($1). Iskanje z uporabo regularnega izraza zahteva veliko virov. Če je le mogoče, ne pozabite uporabiti indikatorjev pripone (^) in predpone ($).",
+	"explanation": "razlaga",
 	"regex": "Regularni izraz",
-	"enter-details": "Vnesi podrobnosti",
+	"enter-details": "Vnesite podrobnosti",
 	"results": "Zadetki",
 	"language-label": "Jezik",
 	"namespace-label": "Imenski prostor",
 	"project-label": "Projekt",
 	"pattern-label": "Vzorec",
-	"redirects-label": "Vključi preusmeritve"
+	"redirects-label": "Vključi preusmeritve",
+	"limit-label": "Omejite prikaz na prvih 100 zadetkov",
+	"error-zeroresults": "V tem imenskem prostoru ni strani z naslovi, ki bi ustrezali vašemu regularnemu izrazu.",
+	"match-count": "Z vašim regularnim izrazom {{PLURAL:$1|se ujema $1|se ujemata $1 strani|se ujemajo $1|se ujema $1 strani}}."
 }

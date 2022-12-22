@@ -5,14 +5,26 @@
 			"Janezdrilc"
 		]
 	},
+	"title": "Preverjanje povezovanja in vključitve predlog",
+	"description": "Preveri in poroča, kateri članki, ki vključujejo predlogo, niso povezani iz predloge in kateri članki, ki so povezani iz predloge, je ne vključujejo.",
 	"form-label-language": "Jezik:",
 	"form-label-template": "Ime predloge:",
 	"form-label-template2": "(vključuje imenski prostor)",
+	"form-label-complete": "Ustvari celotno poročilo:",
 	"feedback-template-missing": "Predloga $1 ne obstaja.",
+	"feedback-template-noaccess": "Predloga $1 obstaja, vendar ni na voljo v zbirki podatkov. To je morda začasna težava z zbirko podatkov. Uporabljena zbirka podatkov: $2",
 	"feedback-result": "Zadetki za $1",
+	"feedback-header-mismatch": "Neujemanje med vključitvami in povezavami",
+	"feedback-header-no-link": "Vključitev, vendar brez povezave",
+	"feedback-header-no-transclusion": "Povezava, vendar brez vklučitve",
 	"feedback-header-redirects": "Povezave do preusmeritev",
 	"feedback-total-count": "Skupno: $1",
+	"feedback-header-complete": "Popoln pregled vključitev in povezav",
+	"feedback-header-transclusions": "Vključitve predloge",
+	"feedback-header-links": "Povezave s predloge",
 	"link-edit": "uredi",
 	"link-create": "ustvari",
+	"link-complete": "Popolno poročilo ...",
+	"footer-stats": "Ustvarjeno: $1. Trajanje: $2 {{PLURAL:$2|sekundo|sekundi|sekunde|sekund}}.",
 	"error-language": "Neznana oznaka jezika."
 }

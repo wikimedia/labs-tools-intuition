@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arystanbek"
+			"Arystanbek",
+			"Batyrbek.kz"
 		]
 	},
 	"records": "рекордтар",
@@ -80,7 +81,7 @@
 	"searchOnlyTOP": "Бұл іздеу тек алдыңғылар тізімінде ғана орындалады.",
 	"optInOAuth": "Басқа бір тәсілі Wikimedia OAuth арқылы кіре аласыз",
 	"onlyOwnCreatedPages": "тек мен бастаған беттерді көрсету",
-	"namespaces": "есім кеңістіктері",
+	"namespaces": "ат кеңістіктері",
 	"selectCategory": "Сол жақтаңы мәзірден санатыңызды таңдаңыз",
 	"furtherInformation": "Қосымша ақпарат",
 	"urlParameter": "URL параметрі",

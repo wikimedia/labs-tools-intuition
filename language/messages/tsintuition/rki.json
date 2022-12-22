@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ReyLon Mrat",
+			"YaThaWinTha"
+		]
+	},
+	"bl-mysettings": "ဘာသာစကား ဆက်တင်တိ",
+	"bl-mysettings-new": "ဘာသာစကားပြောင်းပါ!",
+	"bl-promo": "ဘာသာပြန်စွာကို$1နှင့်$2က ပံ့ပိုးထားရေ။",
+	"bl-changelanguage": "ဒေToolအတွက် အသုံးပြုဘာသာစကားပြောင်း။",
+	"help-translate-tool": "ဒေအသုံးချပုံစံကိုဘာသာပြန်ဖို့ကူညီ!"
+}

@@ -5,7 +5,8 @@
 			"Kly",
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Winston Sung"
+			"Winston Sung",
+			"捍粵者"
 		]
 	},
 	"records": "資料記錄",
@@ -82,7 +83,7 @@
 	"thisSoftwareIs": "這個軟體是",
 	"rawDataSource": "原始資料來源",
 	"helpDiscuss": "幫助/討論/改善",
-	"dbUpdateInProgress": "資料庫正在進行更新",
+	"dbUpdateInProgress": "資料庫更新中",
 	"filtersOut": "篩選出一些技術的條目 - 詳細資料請參閱幫助",
 	"lastUpdate": "最後更新",
 	"urlToUserpage": "連至您用戶頁段落或子頁面的網址。",

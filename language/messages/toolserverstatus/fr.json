@@ -19,5 +19,5 @@
 	"toolserver-status-short-down": "$1 : en panne",
 	"toolserver-status-short-erro": "$1 : erreur",
 	"toolserver-status-short-unknown": "$1 : inconnu",
-	"toolserver-status-short-missing": "$1 : absent"
+	"toolserver-status-short-missing": "$1 : inexistant"
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Justincheng12345"
+			"Justincheng12345",
+			"捍粵者"
 		]
 	},
 	"attention": "注意",
@@ -22,7 +23,7 @@
 	"tusc_user": "TUSC用戶名",
 	"tusc_pass": "TUSC密碼",
 	"do_it": "做吧",
-	"error_transfer_usr": "您還沒有設置一個維基共享資源的用戶名",
+	"error_transfer_usr": "您還未設置維基共享資源用戶名",
 	"error_not_exists": "原始檔案不存在！",
 	"error_on_commons": "原始檔案已經在$1！",
 	"error_file_exists": "檔案已於$3以\"$1$4$2\"存在！",

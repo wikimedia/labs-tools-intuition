@@ -3,7 +3,8 @@
 		"authors": [
 			"Omotecho",
 			"Otokoume",
-			"Shirayuki"
+			"Shirayuki",
+			"春春眠眠"
 		]
 	},
 	"title": "Real-Time Recent Changes",
@@ -33,6 +34,7 @@
 	"legend": "凡例",
 	"license": "ライセンス",
 	"limit": "表示数",
+	"mark": "マーク",
 	"masspatrol-requires-userfilter": "MassPatrol に必要な利用者フィルターを設定していないため、無効にしました。",
 	"months": "1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月",
 	"mypatrollog": "自分の巡回記録",
@@ -40,6 +42,7 @@
 	"navtoggle-tooltip": "サイドバーを表示/非表示",
 	"new-short": "新規",
 	"nomatches": "設定内容に一致する変更はありません",
+	"open-in-wiki": "ウィキで開く",
 	"order": "並び順",
 	"ores-scores": "ORESのスコア",
 	"pause": "一時停止",

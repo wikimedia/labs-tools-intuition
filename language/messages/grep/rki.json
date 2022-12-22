@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cakkaparla",
+			"ReyLon Mrat"
+		]
+	},
+	"explanation": "ဖွင့်ဆိုချက်",
+	"regex": "နိစိုင် အသုံး",
+	"enter-details": "တခုမကျန်ထည့်",
+	"results": "ရလဒ်တိ",
+	"language-label": "ဘာသာစကား",
+	"namespace-label": "ညွန်းရေနာမီ",
+	"project-label": "စီမန်ကိန်း",
+	"pattern-label": "တသားတေးကျရေပုံစံ",
+	"redirects-label": "ပြန်ညွန်း‌စွာတိ ပါဝင်ပတ်စီ",
+	"limit-label": "ပထမဆုံး၁၀၀ရလဒ်တိမှာပြဖို့ ကန့်သတ်"
+}

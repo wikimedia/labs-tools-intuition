@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kareyac",
-			"Համլետ"
+			"Համլետ",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
 	"attention": "Ուշադրություն",
@@ -10,5 +11,6 @@
 	"project": "Նախագիծ",
 	"source_file": "Ելատեքստային ֆայլ",
 	"target_file": "Նպատակային ֆայլի",
-	"categories": "Կատեգորիաներ"
+	"categories": "Կատեգորիաներ",
+	"upload_submit": "Վերբեռնել"
 }

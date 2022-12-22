@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Justincheng12345"
+			"Justincheng12345",
+			"捍粵者"
 		]
 	},
 	"moretools": "同一作者的更多工具",
 	"bugs": "錯誤報告及功能請求",
 	"comments": "意見及查詢",
-	"error-form-empty": "一個或多個必填的欄位尚未填入。在繼續之前，您應該完成它們。"
+	"error-form-empty": "一欄或以上的必填欄位尚未填入，您應在繼續前完成它們。"
 }

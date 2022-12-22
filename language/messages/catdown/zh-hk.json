@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Justincheng12345"
+			"Justincheng12345",
+			"捍粵者"
 		]
 	},
 	"title": "按分類下載圖片",
@@ -14,8 +15,8 @@
 	"invalid-width": "無效寬度",
 	"invalid-height": "無效高度",
 	"no-such-project": "此項目不存在",
-	"no-images": "該分類中沒有圖片",
-	"category-is-url": "您所填寫分類名稱似乎是一個URL，您需要指明分類名稱而不是其URL",
+	"no-images": "該分類沒有圖片",
+	"category-is-url": "您填寫的分類名似乎是URL，您須指明分類名而不是其URL",
 	"category-contains-namespace": "您似乎在分類名稱中包含了名字空間。使用此名稱時頁面將會顯示為[[:Category:$1]]",
 	"zip-failed": "Zip創建失敗",
 	"image-area-too-big": "$1對於縮略圖過大，使用其實際大小。",

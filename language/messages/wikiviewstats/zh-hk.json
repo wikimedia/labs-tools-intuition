@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"捍粵者"
 		]
 	},
 	"users": "{{PLURAL: $1|用戶}}",
 	"active": "活躍的用戶",
 	"bots": "機械人",
-	"thisSoftwareIs": "這個軟件是"
+	"thisSoftwareIs": "此軟件是"
 }

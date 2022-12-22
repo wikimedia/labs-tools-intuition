@@ -4,5 +4,6 @@
 			"Yupik"
 		]
 	},
+	"toolserver-status-short-erro": "$1: Meattáhus",
 	"toolserver-status-short-unknown": "$1: Dovdameahttun"
 }

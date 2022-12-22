@@ -8,6 +8,7 @@
 			"Robby",
 			"Shirayuki",
 			"Siebrand",
+			"Verdy p",
 			"Zoranzoki21"
 		]
 	},
@@ -72,7 +73,7 @@
 	"sysops": "name for wikipedia sysops.\n{{Identical|Administrator}}",
 	"bots": "name for bots.\n{{Identical|Bot}}",
 	"articles": "name for wikipedia articles.\n{{Identical|Article}}",
-	"good_articles": "good articles",
+	"good_articles": "good articles\n{{Identical|Good}}",
 	"pages": "{{Identical|Page}}",
 	"watchers": "wikipedia name for page watchers/observers",
 	"redirects": "wikipedia name for redirecting links.\n{{Identical|Redirect}}",
