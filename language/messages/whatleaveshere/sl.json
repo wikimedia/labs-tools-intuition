@@ -1,16 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"Janezdrilc"
 		]
 	},
+	"title": "Kaj vodi od tukaj",
+	"title-leaveshere": "Povezave, ki vodijo iz »$1«",
+	"sub-leaveshere": "Z $1 se povezujejo naslednje strani",
 	"label-page": "Stran",
 	"label-namespace": "Imenski prostor",
 	"label-limit": "Omejitev",
 	"namespacesall": "vse",
 	"button-submit": "Pojdi",
+	"noleaveshere": "Z $1 se ne povezuje nič",
+	"link-whatleaveshere": "Kaj vodi od tukaj",
+	"tooltip-whatleaveshere": "Navedite vse, kar vodi od tukaj",
 	"whatlinkshere": "Kaj se povezuje sem",
+	"whatlinkshere-whatleaveshere": "Kaj vodi od tukaj?",
+	"istemplate": "vključitev",
 	"isfile": "povezava na datoteko",
+	"linksearch": "Iskanje zunanjih povezav",
 	"section-links": "Povezave",
 	"section-iwlinks": "Interwiki povezave",
 	"section-extlinks": "Zunanje povezave",

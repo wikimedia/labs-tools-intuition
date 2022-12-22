@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Omotecho",
-			"Sujiniku"
+			"Sujiniku",
+			"春春眠眠"
 		]
 	},
 	"title": "テンプレートのリンク元と参照読み込みをチェック",
 	"description": "テンプレートを参照読み込みするのにテンプレートのリンク元ではない記事、テンプレートのリンク元なのにテンプレートを参照読み込みしていない記事をチェックして報告します。",
 	"form-label-language": "言語:",
 	"form-label-template": "テンプレート名:",
+	"feedback-template-missing": "テンプレート $1 は存在しません。",
 	"feedback-total-count": "合計: $1",
 	"link-edit": "編集",
 	"link-create": "作成",

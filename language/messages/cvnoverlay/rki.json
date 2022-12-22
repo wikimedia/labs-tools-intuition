@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cakkaparla",
+			"ReyLon Mrat"
+		]
+	},
+	"adder": "ပေါင်းထည့်ရေလူ",
+	"adder-empty": "မသိ",
+	"expiry": "ရက်ကုန်ဆုံးရေနိ",
+	"globalwatched": "နိုင်ငံတိုင်းကကြေ့ရေ",
+	"reason": "အကြောင်းပြချက်",
+	"reason-empty": "အကြောင်းပြချက်ရှာမတွိ"
+}

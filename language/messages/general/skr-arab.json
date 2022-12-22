@@ -11,5 +11,14 @@
 	"etc": "وغیرہ۔",
 	"namespace": "ناں جاہ",
 	"form-submit": "ڄلو",
-	"form-reset": "ولدا ٹھیک کرو"
+	"form-reset": "ولدا ٹھیک کرو",
+	"years": "{{PLURAL:$1|سال}}",
+	"months": "{{PLURAL:$1|مہینہ|مہینے}}",
+	"weeks": "{{PLURAL:$1|ہفتہ|ہفتے}}",
+	"days": "{{PLURAL:$1|ݙینہ}}",
+	"hours": "{{PLURAL:$1|گھنٹہ|گھنٹے}}",
+	"minutes": "{{PLURAL:$1|منٹ}}",
+	"seconds": "{{PLURAL:$1|سیکنڈ}}",
+	"view-source": "ماخذ ݙیکھو",
+	"and": "&#32;تے"
 }

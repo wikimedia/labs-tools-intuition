@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Justincheng12345"
+			"Justincheng12345",
+			"捍粵者"
 		]
 	},
 	"toolserver-status-ok": "資料庫群集$1中沒有任何問題$2",
-	"toolserver-status-down": "資料庫群集$1已被暫時關閉。$2",
+	"toolserver-status-down": "資料庫群集$1已暫時關閉。$2",
 	"toolserver-status-erro": "資料庫群集$1已關閉。$2",
 	"toolserver-status-unknown": "群集$1的狀態未知",
 	"toolserver-status-missing": "群集$1不存在",

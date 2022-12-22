@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"An13sa"
+			"An13sa",
+			"Xabier Armendaritz"
 		]
 	},
 	"project": "Proiektua:",
@@ -12,5 +13,5 @@
 	"invalid-height": "Altuera okerra",
 	"no-such-project": "Proiektu hori ez da existitzen",
 	"zip-failed": "Ezin izan da Zip-a sortu",
-	"download": "Jaitsi"
+	"download": "Deskargatu"
 }

@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"description": "Metapodatki o wikijih Wikimedie.",
+	"description": "Metapodatki o vikijih Wikimedie.",
 	"formats-heading": "Izhodne oblike",
 	"input": "Vhod",
-	"label-wikiids": "Wikiidentifikatorji",
+	"label-wikiids": "Viki identifikatorji",
 	"no-matches": "Nič se ne ujema z »$1«",
 	"output": "Izhod za »$1«"
 }

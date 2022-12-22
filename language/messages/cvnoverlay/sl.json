@@ -5,8 +5,10 @@
 			"Janezdrilc"
 		]
 	},
+	"adder": "Dodajalec",
 	"adder-empty": "Neznano",
 	"expiry": "Pretek",
+	"globalwatched": "Globalno nadzorovano",
 	"reason": "Razlog",
 	"reason-empty": "Razlog ni bil najden"
 }

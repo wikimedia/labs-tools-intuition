@@ -15,6 +15,7 @@
 	"other_lang": "eres kielah",
 	"language": "kielâ",
 	"mywatchlists": "Tarkkumlistoh",
+	"users": "{{PLURAL: $1|kevttee|kevttee|kevtted}}",
 	"project": "Proojeekt",
 	"category": "Luokka",
 	"template": "Myenster",

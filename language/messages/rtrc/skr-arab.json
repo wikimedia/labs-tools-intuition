@@ -4,6 +4,8 @@
 			"Saraiki"
 		]
 	},
+	"apply": "اطلاق",
+	"asc": "صعودی",
 	"clear": "صاف",
 	"close": "بند کرو",
 	"cvn-adder-empty": "اݨ سونہاں",
@@ -14,6 +16,7 @@
 	"feedback": "تہاڈی رائے",
 	"filter": "چھاݨاں",
 	"help": "مدد",
+	"legend": "مہاندرا",
 	"license": "لائیسنس",
 	"limit": "حد",
 	"mark": "نشان",
