@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"title": "Lo que parti de hic",
+	"title-leaveshere": "Ligamines que parti de \"$1\"",
+	"sub-leaveshere": "Le sequente paginas liga ab $1",
+	"label-page": "Pagina",
+	"label-namespace": "Spatio de nomines",
+	"label-limit": "Limite",
+	"namespacesall": "totes",
+	"button-submit": "Va",
+	"noleaveshere": "Nihil liga ab $1",
+	"link-whatleaveshere": "Lo que parti de hic",
+	"tooltip-whatleaveshere": "Lista de tote lo que liga ab hic",
+	"whatlinkshere": "Paginas ligate a iste",
+	"whatlinkshere-whatleaveshere": "Lo que parti de hic?",
+	"istemplate": "transclusion",
+	"isfile": "ligamine a file",
+	"linksearch": "Recerca de ligamines",
+	"section-links": "Ligamines",
+	"section-iwlinks": "Ligamines interwiki",
+	"section-extlinks": "Ligamines externe",
+	"section-categories": "Categorias"
+}

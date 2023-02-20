@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"আজিজ",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -14,13 +15,13 @@
 	"feedback-template-missing": "টেমপ্লেট $1 বিদ্যমান নয়।",
 	"feedback-template-noaccess": "টেমপ্লেট $1 বিদ্যমান আছে, কিন্তু উপাত্ত ভাণ্ডার থেকে এটি উপলব্ধ নয়। এটি উপাত্ত ভাণ্ডারের একটি সাময়িক সমস্যা হতে পারে। উপাত্ত ভাণ্ডারে ব্যবহৃত হয়েছে: $2।",
 	"feedback-result": "$1-এর ফলাফল",
-	"feedback-header-mismatch": "অন্তর্ভুক্তি এবং সংযোগগুলি মধ্যে অমিল",
-	"feedback-header-no-link": "অন্তর্ভুক্ত কিন্তু সংযুক্ত নয়",
-	"feedback-header-no-transclusion": "সংযুক্ত কিন্তু অন্তর্ভুক্ত নয়",
-	"feedback-header-redirects": "পুননির্দেশনায় সংযোগ",
+	"feedback-header-mismatch": "প্রতিভুক্তি ও সংযোগগুলোর মধ্যে অমিল",
+	"feedback-header-no-link": "প্রতিভুক্ত কিন্তু সংযুক্ত নয়",
+	"feedback-header-no-transclusion": "সংযুক্ত কিন্তু প্রতিভুক্ত নয়",
+	"feedback-header-redirects": "পুনর্নির্দেশের সংযোগ",
 	"feedback-total-count": "মোট: $1",
-	"feedback-header-complete": "সম্পূর্ণ অন্তর্ভুক্তি এবং সংযোগের সংক্ষিপ্ত বিবরণ",
-	"feedback-header-transclusions": "টেমপ্লেটের অন্তর্ভুক্তি",
+	"feedback-header-complete": "সম্পূর্ণ প্রতিভুক্তি ও সংযোগের সংক্ষিপ্ত বিবরণ",
+	"feedback-header-transclusions": "টেমপ্লেটের প্রতিভুক্তি",
 	"feedback-header-links": "টেমপ্লেট থেকে সংযোগ",
 	"link-edit": "সম্পাদনা",
 	"link-create": "তৈরি করো",

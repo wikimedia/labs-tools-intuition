@@ -7,5 +7,6 @@
 	},
 	"form-label-language": "Kielâ:",
 	"form-label-template": "Myenster nommâ:",
-	"link-edit": "mute"
+	"link-edit": "mute",
+	"error-language": "Tubdâmettum kielâkoodi."
 }

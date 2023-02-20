@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Registrar",
+	"voiceintro-toolbar-stop-label": "Stoppar",
+	"voiceintro-toolbar-clear-label": "Rader",
+	"voiceintro-toolbar-upload-label": "Incargar",
+	"voiceintro-webaudio-not-supported": "Le API WebAudio non es supportate pro iste navigator",
+	"voiceintro-upload-publish-succeeded": "Registration incargate correctemente:",
+	"voiceintro-upload-publish-failed": "Le registration non ha essite incargate.",
+	"voiceintro-information-label": "Information",
+	"voiceintro-information-speaker-label": "Nomine del locutor:",
+	"voiceintro-information-language-label": "Lingua:",
+	"voiceintro-mic-access-notify": "Clicca sur \"Permitter\" pro permitter que le navigator accede a tu microphono.",
+	"voiceintro-recording-notify": "Registration in curso…"
+}

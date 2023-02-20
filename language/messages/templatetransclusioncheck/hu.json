@@ -13,6 +13,7 @@
 	"form-label-complete": "Teljes jelentés generálása:",
 	"feedback-template-missing": "A(z) $1 sablon nem létezik.",
 	"feedback-template-noaccess": "A(z) $1 sablon létezni tűnik, de nem érhető el az adatbázisból. Ez lehet egy ideiglenes adatbázis-probléma. Használt adatbázis: $2.",
+	"feedback-result": "Eredmények: $1",
 	"feedback-header-mismatch": "Eltérés a beillesztések és hivatkozások között",
 	"feedback-header-no-link": "Van beillesztés, nincs link",
 	"feedback-header-no-transclusion": "Van link, nincs beillesztés",

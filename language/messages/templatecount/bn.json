@@ -4,6 +4,7 @@
 			"Aftabuzzaman",
 			"Bellayet",
 			"Nasir8891",
+			"আজিজ",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -13,8 +14,8 @@
 	"language-label": "ভাষা",
 	"namespace-label": "নামস্থান",
 	"pagename-label": "পাতার নাম (নামস্থান বাদে)",
-	"transclusion-count-label": "অন্তর্ভুক্তির সংখ্যা",
-	"transclusion-count": "$1টি অন্তর্ভুক্তি পাওয়া গেছে।",
+	"transclusion-count-label": "প্রতিভুক্তির সংখ্যা",
+	"transclusion-count": "$1টি প্রতিভুক্তি পাওয়া গেছে।",
 	"error-suggestion": "সম্ভবত আপনি পাতার নামের বানান ভুল করেছেন?",
 	"time-label": "ক্রিয়াকলাপটি সম্পাদনা করতে সময় নিয়েছে"
 }
