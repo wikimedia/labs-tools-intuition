@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
 	"sample": "Ovdamearka",
 	"searchResults": "Ohcanbohtosat",
+	"today": "odne",
 	"all": "buot",
 	"allLang": "Buot gielat",
 	"other_lang": "eará gielat",
@@ -13,7 +15,8 @@
 	"users": "{{PLURAL: $1|geavaheaddji}}",
 	"category": "Kategoriija",
 	"template": "Málle",
-	"specialPage": "Erenomáš siidu",
+	"specialPage": "Doaibmasiidu",
+	"wikiThanks": "Giitu",
 	"deleted": "sihkkojuvvon",
 	"namespaces": "nammagomuvuođat",
 	"save": "vurke"

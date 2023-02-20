@@ -6,11 +6,11 @@
 		]
 	},
 	"toolserver-status-ok": "তথ্যভাণ্ডারের $1 $2 গুচ্ছে কোনও সমস্যা নেই",
-	"toolserver-status-short-ok": "$1: ঠিকআছে",
-	"toolserver-status-short-info": "$1: ইনফো",
+	"toolserver-status-short-ok": "$1: ঠিক আছে",
+	"toolserver-status-short-info": "$1 : তথ্য",
 	"toolserver-status-short-warn": "$1: সতর্কতা",
 	"toolserver-status-short-down": "$1: ডাউন",
 	"toolserver-status-short-erro": "$1: ত্রুটি",
 	"toolserver-status-short-unknown": "$1: অজানা",
-	"toolserver-status-short-missing": "$1: হারানো গেছে"
+	"toolserver-status-short-missing": "$1 : অনুপস্থিত"
 }

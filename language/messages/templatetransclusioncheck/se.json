@@ -4,5 +4,6 @@
 			"Yupik"
 		]
 	},
-	"form-label-template": "Málle namma:"
+	"form-label-template": "Málle namma:",
+	"error-language": "Dovdameahttun giellakoda."
 }

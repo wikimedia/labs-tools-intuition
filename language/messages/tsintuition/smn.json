@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Seipinne"
+			"Seipinne",
+			"Yupik"
 		]
 	},
-	"bl-mysettings-new": "Molso kielâ!"
+	"bl-mysettings-new": "Molso kielâ!",
+	"bl-promo": "Jurgâlusâid taheh máhđulâžžân $1 já $2."
 }

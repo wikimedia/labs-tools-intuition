@@ -34,11 +34,11 @@
 	"limit": "Omejitev",
 	"mark": "označi",
 	"masspatrol": "MassPatrol",
-	"masspatrol-requires-userfilter": "MassPatrol je bil onemogočen, saaj zahteva uporabniški filter, nastavljen pa ni bil noben.",
-	"months": "januar, februar, marec, april, maa, junij, julij, avgust, september, oktober, november, december",
-	"mypatrollog": "Moj dnevnik nadzora",
+	"masspatrol-requires-userfilter": "MassPatrol je bil onemogočen, saj zahteva uporabniški filter, nastavljen pa ni bil noben.",
+	"months": "januar, februar, marec, april, maj, junij, julij, avgust, september, oktober, november, december",
+	"mypatrollog": "Moj dnevnik pregledovanja",
 	"namespace": "Imenski prostor",
-	"navtoggle-tooltip": "Preklopi stransko vrstico",
+	"navtoggle-tooltip": "Preklopite stransko letvico",
 	"new-short": "novo",
 	"nomatches": "Ni ustreznih sprememb za vaše nastavitve",
 	"open-in-wiki": "Odpri v vikiju",
@@ -60,6 +60,6 @@
 	"type": "Vrsta",
 	"typeEdit": "Urejanja",
 	"typeNew": "Nove strani",
-	"unskip": "Prenehaj preskakovanje",
+	"unskip": "Odpreskoči",
 	"userfilter": "Uporabniški filter"
 }

@@ -6,7 +6,10 @@
 			"Zygimantus"
 		]
 	},
+	"title": "Naujausi pakeitimai realiuoju laiku",
 	"apply": "Taikyti",
+	"autodiff": "AutoDiff",
+	"changelog": "Kas naujo",
 	"clear": "išvalyti",
 	"close": "Uždaryti",
 	"currentedit": "Šiuo metu pasirinktas keitimas",
@@ -18,6 +21,7 @@
 	"documentation": "Dokumentacija",
 	"feedback": "Atsiliepimas",
 	"filter": "Filtras",
+	"filter-hidebots": "Slėpti robotus",
 	"help": "Pagalba",
 	"helpicon-tooltip": "Sužinokite daugiau apie šią funkciją",
 	"lastupdate-cvn": "Paskutinis atnaujinimas: $1",

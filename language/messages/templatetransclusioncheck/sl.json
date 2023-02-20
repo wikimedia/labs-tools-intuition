@@ -12,7 +12,7 @@
 	"form-label-template2": "(vključuje imenski prostor)",
 	"form-label-complete": "Ustvari celotno poročilo:",
 	"feedback-template-missing": "Predloga $1 ne obstaja.",
-	"feedback-template-noaccess": "Predloga $1 obstaja, vendar ni na voljo v zbirki podatkov. To je morda začasna težava z zbirko podatkov. Uporabljena zbirka podatkov: $2",
+	"feedback-template-noaccess": "Predloga $1 obstaja, vendar ni na voljo v podatkovni zbirki. To je morda začasna težava s podatkovno zbirko. Uporabljena podatkovna zbirka: $2",
 	"feedback-result": "Zadetki za $1",
 	"feedback-header-mismatch": "Neujemanje med vključitvami in povezavami",
 	"feedback-header-no-link": "Vključitev, vendar brez povezave",

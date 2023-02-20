@@ -6,7 +6,7 @@
 	},
 	"attention": "Attention",
 	"description": "Un instrumento pro transferer files ex projectos de Wikimedia a Wikimedia Commons",
-	"change_meta": "Modificar le $1configurationes de categoria e de patrono$2 pro $3",
+	"change_meta": "Modificar le $1parametros de categoria e de patrono$2 pro $3",
 	"jira_link": "Reportar un defecto o suggerer un function",
 	"language": "Lingua",
 	"project": "Projecto",

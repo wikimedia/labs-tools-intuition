@@ -15,7 +15,10 @@
 	"invalid-height": "Neleistinas aukštis",
 	"no-such-project": "Nėra tokio projekto",
 	"no-images": "Nėra vaizdų šioje kategorijoje",
+	"category-is-url": "Pateiktas kategorijos pavadinimas panašus į URL. Turite nurodyti kategorijos pavadinimą, o ne jos URL.",
+	"category-contains-namespace": "Atrodo, kad įtraukėte vardų erdvę kartu su kategorijos pavadinimu. Su nurodytu pavadinimu puslapis būtų pasiekiamas kaip [[Kategorija: $1]].",
 	"zip-failed": "Zip sukurti nepavyko",
 	"image-area-too-big": "$1 yra per didelis, kad sukurti miniatiūrą. Naudojamas pilnas dydis.",
+	"download-info": "{{plural: $1|Yra vienas vaizdas|Yra $1 vaizdų}}, kurių numatomas dydis yra $2",
 	"download": "Atsisiųsti"
 }

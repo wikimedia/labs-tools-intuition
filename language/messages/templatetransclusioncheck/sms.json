@@ -8,5 +8,6 @@
 	"form-label-template": "Maall nõmm:",
 	"feedback-total-count": "Õhttsa: $1",
 	"link-edit": "muuʹtt",
-	"link-create": "raaj"
+	"link-create": "raaj",
+	"error-language": "Toobdteʹmes ǩiõllkoodd."
 }

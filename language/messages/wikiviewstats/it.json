@@ -3,6 +3,7 @@
 		"authors": [
 			"Beta16",
 			"Greis",
+			"McDutchie",
 			"Ontsed"
 		]
 	},
@@ -88,7 +89,7 @@
 	"noJavaScript": "Javascript è disabilitato",
 	"noData": "dati non disponibili",
 	"searchOnlyTOP": "Questa ricerca è stata effettuata solo nelle liste TOP.",
-	"tryAgain": "Cerca di nuovo nel database principale di",
+	"tryAgain": "Cerca di nuovo nel database principale",
 	"mycontribsOptin": "Questa funzione fa uso del modello opt-in X!'s editcounter. Senza approvazione, la lettura è limitata al namespace principale (voci) e una più bassa possibilità di modificare il limite di $1.",
 	"optInOAuth": "In alternativa puoi effettuare il login con Wikimedia OAuth",
 	"onlyOwnCreatedPages": "visualizza solo le pagine che ho creato",
