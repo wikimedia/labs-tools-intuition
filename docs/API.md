@@ -4,7 +4,7 @@
 
 Intuition supports the _Banana Milkshake_ message file format (as popularised by [Wikimedia](https://github.com/wikimedia/jquery.i18n)). We recommended [translatewiki.net](https://translatewiki.net) for managing translations, which can periodically export translations in the Banana JSON format to your Git repository.
 
-Refer to the [README](https://github.com/Krinkle/intuition#readme) for how to get started with Intuition.
+Refer to the [README](./READMD.md) for how to get started with Intuition.
 
 ## Intuition Class
 
@@ -377,7 +377,3 @@ There are a few demonstration pages to show you how this tool works.
 
   $I18N->msg( 'foo' ); // "Foo bar"
   ```
-
-## Set up
-
-If you're interested in joining the project as framework collaborator or have questions on how the framework is centrally installed at Toolforge, contact [Krinkle](https://github.com/Krinkle) or [file an issue](https://github.com/Krinkle/intuition/issues).

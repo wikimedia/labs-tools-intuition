@@ -1,6 +1,4 @@
-[![Packagist](https://img.shields.io/packagist/v/krinkle/intuition.svg?style=flat)](https://packagist.org/packages/Krinkle/intuition)
-[![CI Status](https://github.com/Krinkle/intuition/actions/workflows/CI.yaml/badge.svg)](https://github.com/Krinkle/intuition/actions/workflows/CI.yaml)
-[![Coverage Status](https://coveralls.io/repos/github/Krinkle/intuition/badge.svg?branch=main)](https://coveralls.io/github/Krinkle/intuition?branch=main)
+[![Packagist](https://img.shields.io/packagist/v/krinkle/intuition.svg?style=flat)](https://packagist.org/packages/krinkle/intuition)
 
 # Intuition
 
@@ -8,7 +6,7 @@
 
 It's recommended you use [Composer](https://getcomposer.org).
 
-* Run `composer require Krinkle/intuition`.
+* Run `composer require krinkle/intuition`.
 * Include `vendor/autoload.php` in your program.
 
 ## Usage
@@ -28,6 +26,8 @@ echo $int->msg( 'example' );
 
 ## Getting involved
 
+Report issues by [creating a Phabricator task](https://phabricator.wikimedia.org/tag/intuition/).
+
 ### Testing
 
 Use [Composer](https://getcomposer.org) for managing dependencies (such as [PHPUnit](https://phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/). Some tests also require [Node.js](https://nodejs.org/).
@@ -46,4 +46,4 @@ composer test
 
 ## See also
 
-* [intuition-web](https://github.com/Krinkle/intuition-web): The web interface to Intuition.
+* [intuition-web](https://gerrit.wikimedia.org/g/labs/tools/intuition-web): The web interface to Intuition.

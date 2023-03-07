@@ -34,7 +34,7 @@ Changed:
 
 Fixed:
 
-* core: Fix fatal TypeError in `Intuition::getFooterLine()` method. [`01735b5`](https://github.com/Krinkle/intuition/commit/01735b591df71294aa6875544f0833e60b9a0c86)
+* core: Fix fatal TypeError in `Intuition::getFooterLine()` method. [`01735b5`](https://gerrit.wikimedia.org/g/labs/tools/intuition/+/01735b591df71294aa6875544f0833e60b9a0c86)
 
 ## v2.3.0 (2021-04-09)
 
@@ -49,7 +49,7 @@ Changed:
 
 Fixed:
 
-* core: Add missing `use` statement to MessagesFunctions class. (Sam Wilson) [#127](https://github.com/Krinkle/intuition/pull/127)
+* core: Add missing `use` statement to MessagesFunctions class. (Sam Wilson) [`c261473`](https://gerrit.wikimedia.org/g/labs/tools/intuition/+/c2614732755b9bd68395d949dca82ac28c09865e)
 
 Removed:
 
@@ -89,7 +89,7 @@ Changed:
 
 Removed:
 
-* core: The `ToolStart.php` entry point has been removed. [#101](https://github.com/Krinkle/intuition/issues/101)
+* core: The `ToolStart.php` entry point has been removed.
 * core: Remove the un-namespaced `Intuition` and `TsIntuition` class aliases.
   Deprecated since v0.5.0, use `Krinkle\Intuition` instead.
 
@@ -114,7 +114,7 @@ Fixed:
 
 Added:
 
-* core: New method `Intuition::addAvailableLanguage`. [#88](https://github.com/Krinkle/intuition/issues/88)
+* core: New method `Intuition::addAvailableLanguage`.
 
 ## v1.0.0 (2018-08-15)
 
@@ -151,7 +151,7 @@ Fixed:
 Fixed:
 
 * core: Fix PHP warning when preference is set to a language without
-  translations in the current domain. [#81](https://github.com/Krinkle/intuition/issues/81)
+  translations in the current domain.
 
 Changed:
 
@@ -197,7 +197,7 @@ Added:
 
 Added:
 
-* core: New dummy language 'qqx' for showing raw message keys. [#79](https://github.com/Krinkle/intuition/issues/79)
+* core: New dummy language 'qqx' for showing raw message keys.
 
 Changed:
 
@@ -205,7 +205,7 @@ Changed:
 
 ## v0.5.0 (2017-03-01)
 
-The web service (Toolforge dashboard) has been moved to a new repository. See <https://github.com/Krinkle/intuition-web>.
+The web service (Toolforge dashboard) has been moved to a new repository. See <https://gerrit.wikimedia.org/g/labs/tools/intuition-web>.
 
 The Intuition classes are now namespaced under `Krinkle\Intuition`. The old names have been aliased for backwards-compatibility.
 
@@ -214,7 +214,7 @@ The Intuition library is now dependency-free!
 Changed:
 
 * build: Remove toollabs-base dependency.  Intuition is now dependency-free!
-* Move Intuition classes to `Krinkle\Intuition` namespace (PSR-4). [#76](https://github.com/Krinkle/intuition/issues/76)
+* Move Intuition classes to `Krinkle\Intuition` namespace (PSR-4).
 * messages: Localisation updates from https://translatewiki.net.
 
 Fixed:
@@ -237,8 +237,8 @@ Fixed:
 
 Removed:
 
-* messages: Remove monumentsapi domain (see <https://github.com/wikimedia/labs-tools-heritage>)
-* messages: Remove dcatap domain (see <https://github.com/wikimedia/operations-dumps-dcat>)
+* messages: Remove monumentsapi domain (see <https://gerrit.wikimedia.org/g/labs/tools/heritage>)
+* messages: Remove dcatap domain (see <https://gerrit.wikimedia.org/g/operations/dumps/dcat>)
 
 Changed:
 
@@ -253,7 +253,7 @@ Added:
 
 Fixed:
 
-* core: Add English to fallback chains. [#53](https://github.com/Krinkle/intuition/issues/53)
+* core: Add English to fallback chains.
 
 ## v0.2.2 (2015-11-12)
 
@@ -264,8 +264,7 @@ Removed:
 ## v0.2.0 (2015-11-07)
 
 Core framework now available as Composer package. See
-<https://packagist.org/packages/krinkle/intuition>. Details at
-<https://github.com/Krinkle/intuition/wiki/Migrate>.
+<https://packagist.org/packages/krinkle/intuition>. Details at [Migrate](./docs/migrate.md).
 
 New domains:
 
@@ -273,7 +272,7 @@ New domains:
 * Add tsreports <https://tools.wmflabs.org/tsreports/>
 * Add reflinks <https://tools.wmflabs.org/fengtools/reflinks/>
 * Add templatetransclusioncheck <https://tools.wmflabs.org/templatetransclusioncheck/>
-* Add dcatap <https://github.com/lokal-profil/DCAT>
+* Add dcatap <https://gerrit.wikimedia.org/g/operations/dumps/dcat>
 
 Added:
 
@@ -294,8 +293,6 @@ Fixed:
 * demo: Fix undefined message "apple-stats" in demo8.
 
 ## v0.1.3 (2014-05-22)
-
-Repository moved to <https://github.com/Krinkle/intuition>.
 
 Changed:
 

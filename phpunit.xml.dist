@@ -4,7 +4,7 @@
 	colors="true"
 	forceCoversAnnotation="true">
 	<testsuites>
-		<testsuite name="Intuition Test Suite">
+		<testsuite name="Test Suite">
 			<directory>./tests/phpunit/</directory>
 		</testsuite>
 	</testsuites>
