@@ -28,6 +28,8 @@ echo $int->msg( 'example' );
 
 Report issues by [creating a Phabricator task](https://phabricator.wikimedia.org/tag/intuition/).
 
+Code coverage can be found at <https://doc.wikimedia.org/cover/labs-tools-intuition/>.
+
 ### Testing
 
 Use [Composer](https://getcomposer.org) for managing dependencies (such as [PHPUnit](https://phpunit.de)). Install Composer via your preferred package manager, or from [source](https://getcomposer.org/download/). Some tests also require [Node.js](https://nodejs.org/).
