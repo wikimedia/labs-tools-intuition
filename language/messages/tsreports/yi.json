@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
@@ -12,6 +13,6 @@
 	"select_wiki_title": "קלויבט א וויקי",
 	"select_report_disabled": "דער באריכט איז נישט פאראן",
 	"select_report_no_reports": "ליידע, עס זינען נישט פאראן קיין באריכטן פאר %(wiki)ס דערווײַל.",
-	"prefs_submit": "ריכטיק",
+	"prefs_submit": "יאָ",
 	"prefs_done": "מ׳האט געענדערט אײַערע פרעפערענצן"
 }

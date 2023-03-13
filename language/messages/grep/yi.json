@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
@@ -8,7 +9,7 @@
 	"regex": "רגעולערער אויסדרוק",
 	"enter-details": "אײַנגעבן פרטים",
 	"results": "רעזולטאטן",
-	"language-label": "שפראַך",
+	"language-label": "שפּראַך",
 	"namespace-label": "נאָמענטייל",
 	"project-label": "פראיעקט",
 	"pattern-label": "מוסטער",

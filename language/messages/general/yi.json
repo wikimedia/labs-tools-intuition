@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
-	"hello": "האלא",
+	"hello": "העלאָ",
 	"welcome": "ברוך הבא!",
 	"toolversion": "ווערסיע $1",
 	"toolversionstamp": "ווערסיע $1 ($2)",
@@ -12,11 +13,11 @@
 	"namespace": "נאָמענטייל",
 	"form-submit": "גיין",
 	"form-reset": "צוריקשטעלן",
-	"years": "{{PLURAL:$1|יאר}}",
-	"months": "{{PLURAL:$1|מאנאַט|מאנאַטן}}",
-	"weeks": "{{PLURAL:$1|וואך|וואכן}}",
+	"years": "{{PLURAL:$1|יאָר|יאָרן}}",
+	"months": "{{PLURAL:$1|מאָנאַט|מאָנאַטן}}",
+	"weeks": "{{PLURAL:$1|וואָך|וואָכן‎}}",
 	"days": "{{PLURAL:$1|טאג|טעג}}",
-	"hours": "{{PLURAL:$1|שעה|שעה'ן}}",
+	"hours": "{{PLURAL:$1|שעה|שעהן}}",
 	"minutes": "{{PLURAL:$1|מינוט}}",
 	"seconds": "{{PLURAL:$1|סעקונדע|סעקונדעס}}",
 	"last-modified-date": "לעצט געענדערט: $1",

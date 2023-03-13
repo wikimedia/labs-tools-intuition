@@ -1,9 +1,12 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Pacha Tchernof"
+		]
 	},
 	"voiceintro-toolbar-record-label": "רעקארדירן",
 	"voiceintro-toolbar-stop-label": "אויפהערן",
 	"voiceintro-toolbar-clear-label": "רייניקן",
-	"voiceintro-toolbar-upload-label": "אַרויפֿלאָדן"
+	"voiceintro-toolbar-upload-label": "אַרויפֿלאָדן",
+	"voiceintro-information-language-label": "שפּראַך:"
 }

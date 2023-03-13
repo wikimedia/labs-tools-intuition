@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pacha Tchernof"
+		]
+	},
+	"toolserver-status-short-ok": "יאָ: $1",
+	"toolserver-status-short-erro": "$1: פֿעלער"
+}
