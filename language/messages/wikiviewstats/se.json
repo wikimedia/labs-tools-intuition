@@ -15,6 +15,7 @@
 	"users": "{{PLURAL: $1|geavaheaddji}}",
 	"category": "Kategoriija",
 	"template": "Málle",
+	"files": "{{PLURAL: $1|fiila|fiilla}}",
 	"specialPage": "Doaibmasiidu",
 	"wikiThanks": "Giitu",
 	"deleted": "sihkkojuvvon",
