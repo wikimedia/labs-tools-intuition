@@ -24,5 +24,8 @@
 	"wikiThanks": "Kiitos",
 	"size": "koko",
 	"pages": "sivut",
-	"noJavaScript": "JavaScript ei ole käytössä"
+	"noJavaScript": "JavaScript ei ole käytössä",
+	"namespaces": "nimiavaruudet",
+	"isRedirect": "Tämä sivu on uudelleenohjaus",
+	"linkArticle": "Linkki wikiartikkeliin"
 }
