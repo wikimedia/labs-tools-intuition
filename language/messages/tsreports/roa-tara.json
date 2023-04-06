@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joetaras"
+			"Joetaras",
+			"S4b1nuz E.656"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Cange lènghe / preferenze</a>",
@@ -11,7 +12,7 @@
 	"category_articles": "Pàggene",
 	"category_images": "Immaggine",
 	"category_miscellaneous": "Misckate",
-	"category_wikidata": "Uicchidata",
+	"category_wikidata": "UicchiDate",
 	"select_wiki_title": "Scacchie 'na uicchi",
 	"select_wiki": "Pe piacere mitte 'a uicche addò vuè 'u rapporte (pe esembie \"<kbd>roa-tara.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "Prossime →",

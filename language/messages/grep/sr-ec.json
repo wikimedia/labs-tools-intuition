@@ -16,5 +16,6 @@
 	"namespace-label": "Именски простор",
 	"project-label": "Пројекат",
 	"pattern-label": "Узорак",
+	"redirects-label": "Укључи преусмерења",
 	"limit-label": "Ограничи приказ на првих 100 резултата"
 }
