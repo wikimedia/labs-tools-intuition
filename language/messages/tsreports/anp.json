@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">भाषा / वरीयता बदलौ</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">बग रिपोर्ट करौ या कोय सुविधा सुझाबौ</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">विकि</a>",
+	"category_users": "सदस्य",
+	"category_articles": "पन्ना",
+	"category_images": "छवि",
+	"category_miscellaneous": "विविध",
+	"category_wikidata": "विकिडाटा",
+	"select_wiki_title": "एगो विकि चुनौ",
+	"select_wiki_next": "अगलका →",
+	"select_report_title": "%(wiki)s प चलै लेली एगो रिपोर्ट चुनौ",
+	"select_report": "कृपया एगो रिपोर्ट चुनौ:",
+	"select_report_disabled": "हैय रिपोर्ट अनुपलब्ध छै।",
+	"select_report_go_back": "← विकि बदलौ",
+	"qvar_title": "तोरौ क्वेरी लेली वेरिएबल दर्ज करौ",
+	"qvar_next": "अगलका →",
+	"prefs_title": "रिपोर्ट्स क वरीयता सिनी",
+	"prefs_submit": "ठीक छै",
+	"prefs_done": "तोरौ वरीयताएँ बदललौ गेलौं।",
+	"prefs_langlabel": "इंटरफ़ेस केरौ भाषा:",
+	"report_wascached": "हैय रिपोर्ट %(age)s पहलअ कैश करलौ गेलौ छेलै।",
+	"report_cold_cache_running": "कैश क दोबारा बनाबै केरौ काम %(runtime)s पहिले आरम्भ होलौ छेलौं।",
+	"report_cold_cache_started": "कैश क दोबारा बनाबै केरौ काम बस एखनिये आरम्भ होलौ छौं।",
+	"report_change_report": "<a href=\"%(url)s\">रिपोर्ट बदलौ</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">विकि बदलौ</a>"
+}

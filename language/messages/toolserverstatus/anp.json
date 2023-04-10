@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"toolserver-status-ok": "डेटाबेस क्लस्टर $1 मँ कोय समस्या नाय छौं $2",
+	"toolserver-status-info": "क्लस्टर $1 केरौ उपयोगकर्ता लेली सूचना: $2",
+	"toolserver-status-warn": "क्लस्टर $1 केरौ उपयोगकर्ता लेली चेतावनी: $2",
+	"toolserver-status-down": "डेटाबेस क्लस्टर $1 क अस्थायी रूप सँ बंद करी देलौ छै। $2",
+	"toolserver-status-erro": "डेटाबेस क्लस्टर $1 बंद छै। $2",
+	"toolserver-status-unknown": "क्लस्टर $1 क स्थिति अज्ञात छै",
+	"toolserver-status-missing": "क्लस्टर $1 उपस्थित नाय छै",
+	"toolserver-status-short-ok": "$1: ठीक छौं",
+	"toolserver-status-short-info": "$1: सूचना",
+	"toolserver-status-short-warn": "$1: चेतावनी",
+	"toolserver-status-short-down": "$1: बंद",
+	"toolserver-status-short-erro": "$1: त्रुटि",
+	"toolserver-status-short-unknown": "$1: अज्ञात",
+	"toolserver-status-short-missing": "$1: गायब"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"voiceintro-toolbar-record-label": "रिकॉर्ड करौ",
+	"voiceintro-toolbar-stop-label": "रुकौ",
+	"voiceintro-toolbar-clear-label": "खाली करौ",
+	"voiceintro-toolbar-upload-label": "अपलोड करौ",
+	"voiceintro-webaudio-not-supported": "WebAudio API हैय ब्राउज़र लेली समर्थित नाय छै",
+	"voiceintro-upload-publish-succeeded": "रिकॉर्डिंग सफलतापूर्वक अपलोड करलौ गेलै:",
+	"voiceintro-upload-publish-failed": "रिकॉर्डिंग अपलोड नाय करलौ जाबै सकलै।",
+	"voiceintro-information-label": "जानकारी",
+	"voiceintro-information-speaker-label": "वक्ता क नाँव:",
+	"voiceintro-information-language-label": "भाषा",
+	"voiceintro-mic-access-notify": "अपनौ ब्राउज़र क तोरौ माइक्रोफ़ोन तक पहुँच दै लेली \"Allow\" प क्लिक करौ।",
+	"voiceintro-recording-notify": "रिकॉर्ड होय रहलौ छौं..."
+}

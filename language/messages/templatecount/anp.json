@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"enter-details": "विस्तार दर्ज करौ",
+	"language-label": "भाषा",
+	"namespace-label": "नामस्थान",
+	"pagename-label": "पृष्ठ क नाँव (बिन नामस्थान के)",
+	"transclusion-count-label": "ट्रांसक्लूशन क संख्या",
+	"transclusion-count": "$1 ट्रांसक्लूशन {{PLURAL:$1|मिललै}}।",
+	"error-suggestion": "भरसक पृष्ठ केरौ नाँव क वर्तनी (या केस) गलत छौं?",
+	"time-label": "कमांड एक्सेक्यूट करै मँ लगलौ समय"
+}

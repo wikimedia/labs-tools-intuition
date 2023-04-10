@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"IND-ANP",
+			"Proabscorp!"
+		]
+	},
+	"bl-mysettings": "हमरौ भाषा सेटिंग्स",
+	"bl-mysettings-new": "भाषा बदलौ",
+	"bl-promo": "अनुवाद $1 आरो $2 द्वारा प्रस्तुत छै।",
+	"bl-changelanguage": "हाय उपकरण केरौ इंटरफ़ेस क भाषा बदलौ।",
+	"help-translate-tool": "हैय उपकरण केरौ अनुवाद मँ मदद करौ!",
+	"help-translate-all": "उपकरण केरौ अनुवाद मँ मदद करौ!",
+	"help-translate-tooltip": "अपनौ भाषा मँ इंटरफ़ेस क अनुवादित करी क दोसरौ क मदद करौ।"
+}

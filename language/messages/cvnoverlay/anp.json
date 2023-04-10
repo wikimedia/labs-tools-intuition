@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"adder": "कर्ता",
+	"adder-empty": "अज्ञात",
+	"expiry": "समाप्ति",
+	"globalwatched": "ग्लोबल रूप सँ ध्यान रखलौ जाय रहलौ छै",
+	"reason": "कारण",
+	"reason-empty": "कोय कारण नाय मिललहौं"
+}

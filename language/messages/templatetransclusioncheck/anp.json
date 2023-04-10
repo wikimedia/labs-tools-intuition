@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"form-label-language": "भाषा:",
+	"form-label-template": "साँचा केरौ नाँव:",
+	"form-label-template2": "(नामस्थान सहित)",
+	"feedback-result": "$1 लेली परिणाम",
+	"feedback-header-no-link": "ट्रांसक्लूशन छै किंतु जुड़ाव नाय",
+	"feedback-header-no-transclusion": "जुड़ाव छै किंतु ट्रांसक्लूशन नाय",
+	"feedback-header-redirects": "अनुप्रेषणों केरौ कड़ि",
+	"feedback-total-count": "कुल: $1",
+	"feedback-header-links": "साँचा सँ कड़ि",
+	"link-edit": "संपादन करौ",
+	"link-create": "बनाबौ",
+	"link-complete": "सौंसे रिपोर्ट...",
+	"error-language": "अज्ञात भाषा कोड।"
+}
