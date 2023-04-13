@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nokeoo",
 			"Zygimantus"
 		]
 	},
@@ -8,5 +9,15 @@
 	"form-label-template": "Šablono pavadinimas:",
 	"form-label-template2": "(įskaitant vardų sritis)",
 	"form-label-complete": "Sukurti išsamią ataskaitą:",
+	"feedback-template-missing": "$1 šablonas neegzistuoja.",
+	"feedback-template-noaccess": "Atrodo, kad šablonas $1 egzistuoja, bet jo negalima gauti iš duomenų bazės. Tai gali būti laikina duomenų bazės problema. Naudojama duomenų bazė: $2.",
+	"feedback-result": "$1 rezultatai",
+	"feedback-header-redirects": "Nuorodos į peradresavimus",
+	"feedback-total-count": "Viso: $1",
+	"feedback-header-links": "Nuorodos iš šablono",
+	"link-edit": "keisti",
+	"link-create": "sukurti",
+	"link-complete": "Užbaigti ataskaitą...",
+	"footer-stats": "Sugeneruota: $1. Trukmė: $2 {{PLURAL:$2|sekundė|sekundės}}.",
 	"error-language": "Nežinomas kalbos kodas."
 }

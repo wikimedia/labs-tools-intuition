@@ -1,12 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nokeoo",
 			"Zygimantus"
 		]
 	},
+	"title": "Nuorodos, vedančios iš čia",
+	"title-leaveshere": "Nuorodos iš „$1“",
+	"sub-leaveshere": "Šie puslapiai nurodomi iš $1",
 	"label-page": "Puslapis",
 	"label-namespace": "Vardų sritis",
 	"label-limit": "Riba",
 	"namespacesall": "visi",
-	"button-submit": "Pirmyn"
+	"button-submit": "Pirmyn",
+	"noleaveshere": "Niekas nenurodo iš $1",
+	"link-whatleaveshere": "Nuorodos, vedančios iš čia",
+	"tooltip-whatleaveshere": "Visų nuorodų iš čia sąrašas",
+	"whatlinkshere": "Nuorodos, vedančios į čia",
+	"whatlinkshere-whatleaveshere": "Kokios nuorodos veda į čia?",
+	"isfile": "failo nuoroda",
+	"section-links": "Nuorodos",
+	"section-iwlinks": "Nuorodos tarp viki",
+	"section-extlinks": "Išorinės nuorodos",
+	"section-categories": "Kategorijos"
 }

@@ -5,6 +5,13 @@
 			"Nokeoo"
 		]
 	},
+	"toolserver-status-ok": "Duomenų bazės klasteryje $1 $2 problemų nėra",
+	"toolserver-status-info": "Pranešimas klasterio $1 naudotojams : $2",
+	"toolserver-status-warn": "Įspėjimas klasterio $1 naudotojams: $2",
+	"toolserver-status-down": "Duomenų bazės klasteris $1 buvo laikinai išjungtas. $2",
+	"toolserver-status-erro": "Duomenų bazės klasteris $1 neveikia. $2",
+	"toolserver-status-unknown": "Nežinoma $1 klasterio būsena",
+	"toolserver-status-missing": "$1 klasteris neegzistuoja",
 	"toolserver-status-short-ok": "$1: Gerai",
 	"toolserver-status-short-info": "$1: Informacija",
 	"toolserver-status-short-warn": "$1: Įspėti",

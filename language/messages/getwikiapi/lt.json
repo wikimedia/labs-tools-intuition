@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matasg"
+			"Matasg",
+			"Nokeoo"
 		]
 	},
+	"description": "Meta informacija apie Vikimedijos viki.",
 	"formats-heading": "Išvesties formatai",
 	"input": "Įvestis",
 	"label-wikiids": "Wiki identifikatorius",

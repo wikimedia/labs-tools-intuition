@@ -10,6 +10,7 @@
 	"subtitle": "Paprastas būdas atsisiųsti vaizdus iš kategorijos",
 	"project": "Projektas:",
 	"category": "Kategorija:",
+	"thumbnailing": "Miniatiūros",
 	"max-width": "Maksimalus plotis",
 	"max-height": "Maksimalus aukštis:",
 	"invalid-width": "Neleistinas plotis",
@@ -21,5 +22,8 @@
 	"zip-failed": "Zip sukurti nepavyko",
 	"image-area-too-big": "$1 yra per didelis, kad sukurti miniatiūrą. Naudojamas pilnas dydis.",
 	"download-info": "{{plural: $1|Yra vienas vaizdas|Yra $1 vaizdų}}, kurių numatomas dydis yra $2",
-	"download": "Atsisiųsti"
+	"download": "Atsisiųsti",
+	"scaling-width": ", padidintas iki maksimalaus pločio $1 {{plural:$1|pikselis|pikseliai}}",
+	"scaling-height": ", padidintas iki maksimalaus aukščio $1 {{plural:$1|pikselis|pikseliai}}",
+	"scaling-both": ", padidintas iki maksimalaus $1x$2 pikselių dydžio"
 }

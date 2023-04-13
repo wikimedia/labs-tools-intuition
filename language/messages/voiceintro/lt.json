@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nokeoo",
 			"Zygimantus"
 		]
 	},
@@ -8,8 +9,12 @@
 	"voiceintro-toolbar-stop-label": "Sustabdyti",
 	"voiceintro-toolbar-clear-label": "Išvalyti",
 	"voiceintro-toolbar-upload-label": "Įkelti",
+	"voiceintro-webaudio-not-supported": "„WebAudio“ API nepalaikoma šioje naršyklėje",
+	"voiceintro-upload-publish-succeeded": "Įrašas sėkmingai įkeltas:",
+	"voiceintro-upload-publish-failed": "Įrašas nebuvo įkeltas.",
 	"voiceintro-information-label": "Informacija",
 	"voiceintro-information-speaker-label": "Kalbėtojo pavadinimas:",
 	"voiceintro-information-language-label": "Kalba:",
+	"voiceintro-mic-access-notify": "Spustelėkite „Leisti“, kad naršyklė galėtų pasiekti mikrofoną.",
 	"voiceintro-recording-notify": "Įrašoma..."
 }

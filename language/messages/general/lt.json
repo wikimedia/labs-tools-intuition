@@ -15,7 +15,7 @@
 	"namespace": "Vardų sritis",
 	"form-submit": "Eiti",
 	"form-reset": "Atstatyti",
-	"years": "{{PLURAL: $1|metai|metai}}",
+	"years": "{{PLURAL: $1|metai}}",
 	"months": "{{PLURAL: $1|mėnuo|mėnesiai}}",
 	"weeks": "{{PLURAL: $1|savaitė|savaitės}}",
 	"days": "{{PLURAL: $1|diena|dienos}}",

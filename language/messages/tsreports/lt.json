@@ -1,12 +1,44 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nokeoo",
 			"Zygimantus"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">Keisti kalbą / nuostatas</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">Praneškite apie klaidą arba paprašykite funkcijos</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">Viki</a>",
+	"category_users": "Naudotojai",
+	"category_articles": "Puslapiai",
+	"category_images": "Paveikslėliai",
+	"category_miscellaneous": "Įvairūs",
+	"category_wikidata": "Vikiduomenys",
+	"select_wiki_title": "Pasirinkti vikį",
+	"select_wiki": "Įveskite vikį, apie kurį norite gauti ataskaitą (pvz., „<kbd>en.wikipedia.org</kbd>“):",
+	"select_wiki_next": "Kitas →",
+	"select_report_title": "Pasirinkite ataskaitą, kurią norite paleisti %(wiki)s",
+	"select_report": "Pasirinkite ataskaitą:",
+	"select_report_disabled": "Ši ataskaita nepasiekiama.",
+	"select_report_not_cached": "Talpykloje nėra šios ataskaitos versijos. Spustelėkite nuorodą, kad pradėtumėte pirmąjį paleidimą.",
+	"select_report_first": "Ši ataskaita rengiama pirmą kartą ir netrukus turėtų būti prieinama.",
+	"select_report_hot": "Yra talpykloje saugoma šios ataskaitos %(age)s senumo versija.",
+	"select_report_cold_running": "Yra talpykloje saugoma šios ataskaitos %(age)s senumo versija. Naujos versijos tikimasi %(eta)s.",
+	"select_report_cold_not_running": "Yra talpykloje saugoma šios ataskaitos %(age)s senumo versija. Nauja versija bus parengta, jei peržiūrėsite dabartinę ataskaitą ir bus paruošta apytiksliai %(eta)s.",
+	"select_report_no_reports": "Atsiprašome, šiuo metu nėra jokių prieinamų %(wiki)s ataskaitų.",
 	"select_report_go_back": "← Pakeisti viki",
+	"qvar_title": "Įveskite užklausos kintamuosius",
+	"qvar_blurb": "Jūsų užklausai reikia įvesti kai kuriuos kintamuosius",
 	"qvar_next": "Kitas →",
+	"prefs_title": "Ataskaitų nuostatos",
 	"prefs_submit": "Gerai",
 	"prefs_done": "Jūsų nustatymai buvo pakeisti.",
-	"prefs_langlabel": "Sąsajos kalba:"
+	"prefs_langlabel": "Sąsajos kalba:",
+	"report_wascached": "Ši ataskaita buvo patalpinta į talpyklą prieš %(age)s.",
+	"report_nocache": "Šią ataskaitą planuojama iš naujo generuoti kas naktį, tačiau ji dar nebuvo paleista, todėl duomenų nėra.",
+	"report_first_run": "Ši ataskaita generuojama pirmą kartą, todėl duomenų kol kas nėra.",
+	"report_last_run_duration": "Ši ataskaita buvo sugeneruota per %(duration)s.",
+	"report_variables_used": "Šiai ataskaitai sugeneruoti buvo naudojami šie kintamieji:",
+	"report_noresults": "Atsiprašome, ši ataskaita nedavė jokių rezultatų.",
+	"report_change_report": "<a href=\"%(url)s\">Keisti ataskaitą</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">Keisti vikį</a>"
 }
