@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Olli",
+			"Pyscowicz",
 			"Samoasambia",
 			"Silvonen"
 		]
@@ -18,7 +19,7 @@
 	"no-such-project": "Projektia ei ole olemassa",
 	"no-images": "Luokassa ei ole kuvia",
 	"category-is-url": "Annettu luokan nimi vaikuttaa osoitteelta. Sinun tulee antaa luokan nimi, ei osoitetta.",
-	"category-contains-namespace": "Näyttää siltä, että olet sisällyttänyt nimiavaruuden luokan nimen lisäksi. Annetulla nimellä, sivu olisi saatavilla [[Luokka:$1]].",
+	"category-contains-namespace": "Näyttää siltä, että olet sisällyttänyt nimiavaruuden luokan nimen lisäksi. Annetulla nimellä, sivu olisi saatavilla [[Category:$1]].",
 	"zip-failed": "Zip-tiedoston luonti epäonnistui",
 	"image-area-too-big": "$1 on liian iso esikatselukuvan luomiseksi. Käytetään suurinta kokoa.",
 	"download-info": "On {{plural: $1|yksi kuva, jonka arvioitu koko|$1 kuvaa, joiden arvioitu yhteiskoko}} on $2",
