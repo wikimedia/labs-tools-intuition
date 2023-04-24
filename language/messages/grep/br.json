@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Fohanno",
 			"Gwenn-Ael",
 			"Y-M D"
@@ -17,5 +18,5 @@
 	"pattern-label": "Patrom",
 	"limit-label": "Diskwel ar 100 disoc'h kentañ hepken",
 	"error-zeroresults": "N'eus pajenn ebet en egorenn anvioù-se a glot an titloù anezho gant ho jedad reoliek.",
-	"match-count": "{{PLURAL:$1|$1 pajenn|$1 pajenn}} a glot gant ho jedad reoliek."
+	"match-count": "{{PLURAL:$1|$1 pajenn}} a glot gant ho jedad reoliek."
 }
