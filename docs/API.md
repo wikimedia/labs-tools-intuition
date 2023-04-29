@@ -4,7 +4,7 @@
 
 Intuition supports the _Banana Milkshake_ message file format (as popularised by [Wikimedia](https://github.com/wikimedia/jquery.i18n)). We recommended [translatewiki.net](https://translatewiki.net) for managing translations, which can periodically export translations in the Banana JSON format to your Git repository.
 
-Refer to the [README](./READMD.md) for how to get started with Intuition.
+Refer to the [README](/README.md) for how to get started with Intuition.
 
 ## Intuition Class
 
