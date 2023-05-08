@@ -9,6 +9,7 @@
 	"toolversion": "ورزن $1",
 	"toolversionstamp": "ورزن $1 ($2)",
 	"etc": "وغيره",
+	"namespace": "نانءُپولار",
 	"form-submit": "وڃو",
 	"form-reset": "ٻيهر ترتيب ڪريو",
 	"years": "{{PLURAL: $1|سال}}",
