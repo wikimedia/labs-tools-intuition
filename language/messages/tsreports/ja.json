@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Shirayuki",
 			"Sujiniku"
 		]
 	},
-	"category_users": "ユーザー",
+	"category_users": "利用者",
 	"category_articles": "ページ",
 	"category_images": "イメージ",
 	"category_miscellaneous": "雑多",
