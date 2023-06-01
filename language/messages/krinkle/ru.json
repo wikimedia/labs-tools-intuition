@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gazimagomedov",
+			"Kaganer",
 			"Nzeemin",
 			"Rave",
 			"Seunei"
@@ -10,6 +11,6 @@
 	"alws-label": "Вики",
 	"alws-selectwiki": "(выберите вики-проект)",
 	"alws-group-mustused": "Наиболее используемые вики-проекты",
-	"alws-group-allaz": "Все вики-проекты по алфавиту",
+	"alws-group-allaz": "Все вики по алфавиту",
 	"form-legend-settings": "Настройки"
 }

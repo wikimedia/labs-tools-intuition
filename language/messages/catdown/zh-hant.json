@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"Simon Shek"
+			"Simon Shek",
+			"Winston Sung"
 		]
 	},
 	"title": "按分類下載圖片",
 	"subtitle": "一個簡單方法從分類中下載圖片",
-	"project": "計劃：",
+	"project": "專案：",
 	"category": "分類:",
 	"thumbnailing": "縮圖",
 	"max-width": "最大寛度：",

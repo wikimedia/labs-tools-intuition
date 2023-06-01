@@ -3,7 +3,8 @@
 		"authors": [
 			"Kly",
 			"LNDDYL",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Winston Sung"
 		]
 	},
 	"title": "條目標題grep(測試)",
@@ -14,7 +15,7 @@
 	"results": "結果",
 	"language-label": "語言",
 	"namespace-label": "命名空間",
-	"project-label": "計劃",
+	"project-label": "專案",
 	"pattern-label": "比對模式",
 	"redirects-label": "包含重新導向",
 	"limit-label": "限制顯示前100項結果",
