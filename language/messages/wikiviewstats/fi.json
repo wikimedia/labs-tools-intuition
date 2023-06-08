@@ -29,6 +29,7 @@
 	"testmode": "Testitila",
 	"noJavaScript": "JavaScript ei ole käytössä",
 	"namespaces": "nimiavaruudet",
+	"cancel": "peruuta",
 	"isRedirect": "Tämä sivu on uudelleenohjaus",
 	"linkArticle": "Linkki wikiartikkeliin"
 }
