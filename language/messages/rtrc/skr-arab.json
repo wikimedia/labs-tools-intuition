@@ -6,6 +6,7 @@
 	},
 	"apply": "اطلاق",
 	"asc": "صعودی",
+	"changelog": "نواں کیا ہے؟",
 	"clear": "صاف",
 	"close": "بند کرو",
 	"cvn-adder-empty": "اݨ سونہاں",
@@ -31,6 +32,7 @@
 	"tag": "ٹیگ",
 	"time-from": "توں",
 	"time-untill": "تائیں",
+	"timeframe": "ٹائم فریم",
 	"type": "قسم",
 	"typeEdit": "تبدیلیاں",
 	"typeNew": "نویں ورقے"

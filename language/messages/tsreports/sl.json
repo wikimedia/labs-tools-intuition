@@ -14,7 +14,7 @@
 	"category_miscellaneous": "Razno",
 	"category_wikidata": "Wikipodatki",
 	"select_wiki_title": "Izberi viki",
-	"select_wiki": "Vnesite viki, za katerega želite poročilo (npr. »<kbd>en.wikipedia.org</kbd>«):",
+	"select_wiki": "Vnesite viki, za katerega želite poročilo (npr. »<kbd>sl.wikipedia.org</kbd>«):",
 	"select_wiki_next": "Naprej →",
 	"select_report_title": "Izberite poročilo za zagon v %(wiki)s",
 	"select_report": "Izberite poročilo:",
