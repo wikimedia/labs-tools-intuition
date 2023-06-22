@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Karim185.3",
 			"Meno25",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
@@ -34,7 +35,7 @@
 	"qvar_next": "التالي ←",
 	"prefs_title": "تفضيلات التقارير",
 	"prefs_submit": "أوافق",
-	"prefs_done": "تم تغيير تفضيلاتك.",
+	"prefs_done": "غُيَّرت تفضيلاتك.",
 	"prefs_langlabel": "لغة الواجهة:",
 	"report_wascached": "هذا التقرير تم تخزينه مؤقتا %(age)s",
 	"report_cold_cache_running": "بدأ (إعادة)إنشاء ذاكرة التخزين المؤقت منذ %(runtime)s.",
