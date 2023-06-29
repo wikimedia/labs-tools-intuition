@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Janatkg"
 		]
 	},
+	"apply": "Колдонуу",
 	"reload-interval": "Аралык"
 }
