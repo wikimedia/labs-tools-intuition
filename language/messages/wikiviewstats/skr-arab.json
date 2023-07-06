@@ -4,8 +4,10 @@
 			"Saraiki"
 		]
 	},
+	"records": "ریکارڈ",
 	"list": "فہرست",
 	"sample": "مثال",
+	"hits": "ہِٹاں",
 	"pagetitle": "ورقہ عنوان",
 	"page": "ورقہ",
 	"rank": "درجہ",
@@ -52,12 +54,16 @@
 	"good_articles": "چنگے مضمون",
 	"pages": "ورقے",
 	"icons": "آئیکان",
+	"lastUpdate": "چھیکڑی اپ ڈیٹ",
+	"noData": "کوئی ڈیٹا دستیاب کائنی",
 	"namespaces": "ناں جاہیں",
+	"furtherInformation": "ٻیاں معلومات",
 	"on": "کھلا",
 	"off": "بند",
 	"submit": "جمع کرواؤ",
 	"save": "بچاؤ",
 	"cancel": "منسوخ",
 	"barchart": "پٹی چارٹ",
-	"linechart": "لکیری چارٹ"
+	"linechart": "لکیری چارٹ",
+	"showRedir": "ریڈائرکٹ ݙکھاؤ"
 }
