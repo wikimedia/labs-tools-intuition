@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bosogo"
+		]
+	},
+	"toolserver-status-short-info": "$1: маалымат",
+	"toolserver-status-short-unknown": "$1: белгисиз"
+}

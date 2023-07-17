@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Growingup",
 			"Викиней"
 		]
@@ -13,5 +14,5 @@
 	"categories": "Категориялар",
 	"do_it": "Муну аткаруу",
 	"new_filename": "Файлдын жаңы аты:",
-	"upload_submit": "Жүктөө!"
+	"upload_submit": "Жүктөө !"
 }
