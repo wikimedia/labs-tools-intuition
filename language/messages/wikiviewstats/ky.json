@@ -4,9 +4,11 @@
 			"Bosogo"
 		]
 	},
+	"discussion": "Талкуу",
 	"project": "Долбоор",
 	"template": "Калып",
 	"files": "{{PLURAL:$1|файл}}",
+	"total": "бардыгы",
 	"links": "Шилтемелер",
 	"bots": "боттор",
 	"save": "сактоо",

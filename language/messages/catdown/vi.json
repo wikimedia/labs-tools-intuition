@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Caden99",
 			"Minh Nguyen",
 			"Platonides",
 			"Yosari101"
@@ -18,7 +19,7 @@
 	"no-such-project": "Không tìm thấy dự án này.",
 	"no-images": "Không tìm thấy hình ảnh trong thể loại này.",
 	"category-is-url": "Hình như địa chỉ URL được cho vào thay vì tên thể loại. Xin cho vào tên thể loại.",
-	"category-contains-namespace": "Hình như bạn đã bao gồm không gian tên cùng với tên thể loại. Với tên này, trang sẽ là [[:Category:$1]].",
+	"category-contains-namespace": "Bạn dường như đã bao gồm không gian tên dọc theo tên danh mục. Với tên đã cho, trang sẽ có sẵn dưới dạng [[Thể loại:$1]].",
 	"zip-failed": "Thất bại khi tạo ZIP",
 	"image-area-too-big": "$1 quá lớn để tạo ra hình thu nhỏ. Đang sử dụng kích cỡ gốc thay thế.",
 	"download-info": "Có {{PLURAL:$1|hình ảnh|$1 hình ảnh}} với kích thước ước lượng là $2",

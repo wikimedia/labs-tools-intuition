@@ -6,6 +6,7 @@
 		]
 	},
 	"apply": "Колдонуу",
+	"close": "Жабуу",
 	"cvn-adder-empty": "Белгисиз",
 	"reload-interval": "Аралык"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Caden99",
 			"Minh Nguyen"
 		]
 	},
@@ -79,16 +80,23 @@
 	"rawDataSource": "nguồn dữ liệu thô",
 	"helpDiscuss": "trợ giúp / thảo luận / gợi ý",
 	"dbUpdateInProgress": "đang cập nhật cơ sở dữ liệu",
+	"filtersOut": "lọc ra một số mục kỹ thuật - chi tiết xem trợ giúp",
 	"lastUpdate": "lần cập nhật cuối",
+	"urlToUserpage": "URL tới phần hoặc tiểu mục (#) của trang người dùng của bạn.",
+	"tooltipSearch": "tiêu đề trang (ví dụ: Hollywood). Bạn cũng có thể sử dụng ký tự đại diện \"*\", ví dụ: Hollywood* hoặc Người dùng:Tom* . Xem trợ giúp để biết thêm chi tiết.",
 	"noJavaScript": "JavaScript bị tắt",
 	"noData": "không có sẵn dữ liệu",
+	"searchOnlyTOP": "Tìm kiếm này chỉ được thực hiện trong danh sách HÀNG ĐẦU.",
 	"tryAgain": "Thử lại trong cơ sở dữ liệu chính",
+	"mycontribsOptin": "Tính năng này sử dụng mô hình chọn tham gia bộ đếm chỉnh sửa của X!. Nếu không chọn tham gia, nội dung đọc bị giới hạn ở không gian tên 0 (bài viết) và giới hạn chỉnh sửa thấp nhất có thể là $1.",
 	"optInOAuth": "Thay thế, bạn có thể đăng nhập qua Wikimedia OAuth.",
 	"onlyOwnCreatedPages": "chỉ xem các trang do tôi tạo",
 	"namespaces": "không gian tên",
 	"comparisonOfPages": "so sánh vài trang",
 	"historyDataCatchup": "Thông báo: Đang cập nhật dữ liệu lịch sử",
 	"selectCategory": "Chọn thể loại ở trình đơn bên trái",
+	"homeMain": "Trang chủ là bảng dữ liệu chính chứa bất kỳ dữ liệu nào",
+	"filerResults": "Lọc kết quả bằng cách thay đổi các thông số trong menu trên cùng theo ý muốn",
 	"furtherInformation": "Thông tin khác",
 	"urlParameter": "tham số URL",
 	"hideHints": "ẩn gợi ý",
@@ -122,5 +130,6 @@
 	"linkStats": "Liên kết đến thống kê trang",
 	"linkArticle": "Liên kết đến bài wiki",
 	"authorMostEdits": "Người thực hiện nhiều sửa đổi nhất. Tại Wikipedia tiếng Đức: người bổ sung nhiều văn bản nhất.",
-	"totalShare": "Phần tổng cộng"
+	"totalShare": "Phần tổng cộng",
+	"statsEntry": "$1 - Số liệu thống kê về lượt xem trang và mức độ phổ biến của trang với danh sách 100.000 lượt truy cập hàng đầu cho tất cả wiki của Wikimedia (hôm nay, mỗi tháng và các khoảng thời gian tùy chỉnh). Các tính năng bổ sung: Tìm kiếm theo ký tự đại diện, thống kê 24 giờ, mục yêu thích cá nhân, tổng số dự án toàn cầu, hỗ trợ cho các trang định hướng và các mục Wikidata. Cập nhật hàng giờ."
 }

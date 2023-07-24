@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Caden99",
 			"Minh Nguyen"
 		]
 	},
@@ -13,15 +14,34 @@
 	"category_miscellaneous": "Khác",
 	"category_wikidata": "Wikidata",
 	"select_wiki_title": "Chọn wiki",
+	"select_wiki": "Vui lòng nhập wiki mà bạn muốn báo cáo (ví dụ: \" <kbd>en.wikipedia.org</kbd> \"):",
 	"select_wiki_next": "Sau →",
 	"select_report_title": "Chọn bản báo cáo để chạy trên %(wiki)s",
 	"select_report": "Xin hãy chọn bản báo cáo:",
 	"select_report_disabled": "Bản báo cáo này không có sẵn.",
+	"select_report_disabled_blurb": "Lưu ý: Các báo cáo <span class=\"disabled-report\">như thế này</span> là các truy vấn hàng đêm chưa bao giờ được chạy; do đó, không có kết quả có sẵn cho các báo cáo này. Khi quá trình chạy báo cáo hàng đêm tiếp theo kết thúc, các báo cáo này sẽ có sẵn.",
+	"select_report_not_cached": "Không có phiên bản lưu trữ của báo cáo này. Nhấp vào liên kết để bắt đầu lần chạy đầu tiên.",
+	"select_report_first": "Báo cáo này được chuẩn bị lần đầu tiên và sẽ sớm được cung cấp.",
+	"select_report_hot": "Đã có phiên bản được lưu trong bộ nhớ cache của báo cáo này, %(age)s cũ.",
+	"select_report_cold_running": "Đã có phiên bản được lưu trong bộ nhớ cache của báo cáo này, %(age)s cũ. Dự kiến sẽ có phiên bản mới sau %(eta)s.",
+	"select_report_cold_not_running": "Đã có phiên bản được lưu trong bộ nhớ cache của báo cáo này, %(age)s cũ. Một phiên bản mới sẽ được chuẩn bị nếu bạn xem báo cáo hiện tại và sẽ sẵn sàng sau khoảng %(eta)s.",
+	"select_report_no_reports": "Rất tiếc, không có báo cáo nào cho %(wiki)s vào lúc này.",
 	"select_report_go_back": "← Thay đổi wiki",
+	"qvar_title": "Nhập các biến cho truy vấn của bạn",
+	"qvar_blurb": "Truy vấn của bạn yêu cầu nhập một số biến",
 	"qvar_next": "Sau →",
 	"prefs_title": "Tùy chọn bản báo cáo",
 	"prefs_submit": "OK",
+	"prefs_done": "Tùy chọn của bạn đã được thay đổi.",
 	"prefs_langlabel": "Ngôn ngữ giao diện:",
+	"report_wascached": "Báo cáo này đã được lưu vào bộ nhớ cache %(age)s trước.",
+	"report_cold_cache_running": "Quá trình tạo (tái) bộ đệm đã bắt đầu %(thời gian chạy)s trước.",
+	"report_cold_cache_started": "Quá trình tạo (tái) bộ đệm vừa mới bắt đầu.",
+	"report_nocache": "Báo cáo này được lên lịch để tạo lại hàng đêm nhưng chưa được chạy nên không có sẵn dữ liệu.",
+	"report_first_run": "Báo cáo này được tạo lần đầu tiên nên chưa có dữ liệu.",
+	"report_last_run_duration": "Báo cáo này được tạo trong %(khoảng thời gian)s.",
+	"report_variables_used": "Các biến sau đã được sử dụng để tạo báo cáo này:",
+	"report_noresults": "Rất tiếc, báo cáo này không tạo ra kết quả nào.",
 	"report_change_report": "<a href=\"%(url)s\">Thay đổi bản báo cáo</a>",
 	"report_change_wiki": "<a href=\"%(url)s\">Thay đổi wiki</a>"
 }
