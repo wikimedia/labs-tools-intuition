@@ -24,7 +24,7 @@
 	"filter": "Bộ lọc",
 	"filter-hideliu": "Số người dùng mới mở tài khoản",
 	"filter-hidebots": "Ẩn bot",
-	"filter-unpatrolled": "$1 sửa đổi đã được tuần tra",
+	"filter-unpatrolled": "$1 sửa đổi đã tuần tra",
 	"help": "Trợ giúp",
 	"helpicon-tooltip": "Tìm hiểu thêm về tính năng này",
 	"lastupdate-cvn": "Cập nhật lần cuối: $1",
