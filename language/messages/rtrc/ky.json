@@ -6,8 +6,11 @@
 		]
 	},
 	"apply": "Колдонуу",
+	"clear": "алып салуу",
 	"close": "Жабуу",
 	"cvn-adder-empty": "Белгисиз",
 	"cvn-reason": "Себеп",
+	"filter": "Чыпка",
+	"help": "Жардам",
 	"reload-interval": "Аралык"
 }
