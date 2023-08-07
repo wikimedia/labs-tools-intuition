@@ -12,5 +12,7 @@
 	"cvn-reason": "Себеп",
 	"filter": "Чыпка",
 	"help": "Жардам",
-	"reload-interval": "Аралык"
+	"reload-interval": "Аралык",
+	"time-untill": "Чейин",
+	"typeNew": "Жаңы барактар"
 }

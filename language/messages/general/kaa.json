@@ -4,5 +4,6 @@
 			"Ajiniyaz Nurniyazov"
 		]
 	},
-	"welcome": "Xosh keldińiz"
+	"welcome": "Xosh keldińiz",
+	"days": "{{PLURAL:$1|kún|$1 kún}}"
 }
