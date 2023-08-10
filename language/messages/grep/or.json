@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Psubhashish",
 			"Susant purohit"
 		]
 	},
 	"regex": "ରେଗୁଲାର ଏକ୍ସପ୍ରେସନ",
 	"enter-details": "ବିବରଣୀ ଦିଅନ୍ତୁ",
-	"results": "ପରିଣାମ",
+	"results": "ଫଳାଫଳ",
 	"language-label": "ଭାଷା",
 	"namespace-label": "ନାମସ୍ଥାନ",
 	"project-label": "ପ୍ରକଳ୍ପ",
