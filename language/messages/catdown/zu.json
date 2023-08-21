@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"INgobemnyama"
+		]
+	},
+	"title": "landa izithombe ngobunonina bazo",
+	"subtitle": "indlela elula yokulanda izithombe ngobunonina bazo",
+	"project": "imfutho",
+	"category": "unonina",
+	"thumbnailing": "ukugcugca",
+	"max-width": "ububanzi obugcinile",
+	"max-height": "ubude obugcinile",
+	"invalid-width": "Ububanzi obungavumelekile",
+	"invalid-height": "Ubude obungavumelekile",
+	"no-images": "azikho izithombe kulobubunonina",
+	"category-is-url": "leli igama lobunonina elinikezelwe libukeka sasixhumanisi. Kumele ucacise igama lobunonina, hhayi isixhumanisi"
+}
