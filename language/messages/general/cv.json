@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Astahar",
 			"Chuvash2014",
 			"Salam",
 			"Блокнот"
@@ -8,9 +9,9 @@
 	},
 	"hello": "Салам",
 	"welcome": "Килӗрех",
-	"toolversionstamp": "Верси $1 ($2)",
+	"toolversionstamp": "$1 ($2) верси",
 	"etc": "т. ыт. те",
-	"namespace": "Ят хушши",
+	"namespace": "Ятсен уҫлӑхӗ",
 	"form-submit": "Куҫ",
 	"form-reset": "Тасат",
 	"years": "{{PLURAL: $1|çул}}",

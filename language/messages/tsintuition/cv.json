@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Astahar",
 			"Salam"
 		]
 	},
 	"bl-mysettings": "Ман чӗлхе ӗнерленӗвӗсем",
 	"bl-mysettings-new": "Чӗлхене улӑштар!",
 	"bl-promo": "Куҫару $1 тата $2 пулӑшӑвӗпе тунӑ.",
-	"bl-changelanguage": "Ку хатӗрӗн интерфейс чӗлхине улӑштарасшӑн кунта пусӑр.",
+	"bl-changelanguage": "Ку хатӗрӗн интерфейс чӗлхине улӑштарать.",
 	"help-translate-tool": "Ку хатӗре куҫарма пулӑшӑр-ха!",
-	"help-translate-all": "Toolserver-а куҫарма пулӑшӑр-ха!",
+	"help-translate-all": "Хатӗрсене куҫарма, тархасшӑн, пулӑшӑр!",
 	"help-translate-tooltip": "Сирӗн пӗлтерӳсен интерфейсне куҫарасси урӑххисене пулӑшать."
 }

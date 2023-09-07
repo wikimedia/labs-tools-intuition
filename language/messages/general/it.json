@@ -15,7 +15,7 @@
 	"namespace": "Namespace",
 	"form-submit": "Vai",
 	"form-reset": "Reimposta",
-	"years": "{{PLURAL: $1|anno|anni}}",
+	"years": "{{PLURAL:$1|anno|anni}}",
 	"months": "{{PLURAL: $1|mese|mesi}}",
 	"weeks": "{{PLURAL: $1|settimana|settimane}}",
 	"days": "{{PLURAL:$1|giorno|giorni}}",
