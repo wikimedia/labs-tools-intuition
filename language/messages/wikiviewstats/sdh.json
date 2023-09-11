@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"TerranBoy"
+		]
+	},
+	"list": "پێرست",
+	"sample": "نموونە",
+	"24hstat": "ئامار ۲۴ ساعەتە",
+	"pagetitle": "سەرناو پەڕە",
+	"page": "پەڕە",
+	"searchResults": "ئاکامەیل مینە",
+	"settings": "ڕیکخستنەگان",
+	"help": "دەسمیەت",
+	"today": "ئمڕوو",
+	"all": "گشت",
+	"allLang": "گشت زوانەیل",
+	"popular": "وەناوبانگ",
+	"other_lang": "زوانەیل تر",
+	"closedWikis": "ویکیەیل بەسیاێ",
+	"language": "زوان",
+	"myarea": "ناوچەێ من",
+	"myfavs": "دڵخوازەیل",
+	"mycontribs": "بەشداریەیل",
+	"project": "پرۆژە",
+	"files": "{{PLURAL: $1|پەڕگە|پەڕگەیل}}",
+	"wikiThanks": "سپاس",
+	"log": "لۆگ",
+	"size": "ئەنازە",
+	"first": "یەکم",
+	"last": "دۊایین",
+	"total": "سەرجەم",
+	"active": "چالاک",
+	"sysops": "وەڕێەوبەرەیل",
+	"bots": "بۆتەیل",
+	"articles": "وتارەیل",
+	"good_articles": "وتارەیل خاس",
+	"pages": "پەڕەیل",
+	"lastUpdate": "دۊایین وەڕووژکردن",
+	"namespaces": "فەزاناوەیل",
+	"submit": "ناردن",
+	"cancel": "هەڵوەشاننەوە"
+}
