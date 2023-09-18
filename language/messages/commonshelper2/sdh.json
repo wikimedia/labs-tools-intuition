@@ -4,5 +4,11 @@
 			"TerranBoy"
 		]
 	},
-	"language": "زوان"
+	"attention": "سیەرێنج",
+	"language": "زوان",
+	"project": "پرۆژە",
+	"source_file": "پەڕگەێ سەرچاوە",
+	"new_filename": "ناو پەڕگەێ نوو:",
+	"upload_submit": "بار بکە!",
+	"standard_project": "ویکیپیدیا"
 }

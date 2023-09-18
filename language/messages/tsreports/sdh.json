@@ -6,5 +6,7 @@
 	},
 	"category_users": "وەکاربەرەیل",
 	"category_articles": "پەڕەیل",
-	"category_images": "وێنەیل"
+	"category_images": "وێنەیل",
+	"select_report_go_back": " → ئاڵشتکردن ویکی",
+	"prefs_submit": "باشە"
 }
