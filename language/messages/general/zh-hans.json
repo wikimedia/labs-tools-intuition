@@ -3,6 +3,7 @@
 		"authors": [
 			"Hydra",
 			"Hzy980512",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"Shirayuki",
 			"Shizhao",
@@ -18,7 +19,7 @@
 	"toolversionstamp": "版本 $1 ($2)",
 	"etc": "等。",
 	"colon-separator": "：",
-	"namespace": "名字空间",
+	"namespace": "命名空间",
 	"form-submit": "提交",
 	"form-reset": "重置",
 	"years": "{{PLURAL: $1|年}}",

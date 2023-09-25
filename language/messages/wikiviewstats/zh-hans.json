@@ -3,6 +3,7 @@
 		"authors": [
 			"Impersonator 1",
 			"LNDDYL",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"はなよめ"
 		]
@@ -93,7 +94,7 @@
 	"mycontribsOptin": "此功能用于X!的编辑计数器选择加入模块。如果不选择，读出会限制为0名字空间（条目）以及$1的最低编辑限制。",
 	"optInOAuth": "或者您可以通过维基媒体网站的OAuth登录",
 	"onlyOwnCreatedPages": "只显示我创建的页面",
-	"namespaces": "名字空间",
+	"namespaces": "命名空间",
 	"comparisonOfPages": "多页比较",
 	"historyDataCatchup": "注意：历史数据正在补充",
 	"selectCategory": "从左侧菜单中选择您的分类",
@@ -126,7 +127,7 @@
 	"backToTop": "返回页首",
 	"rankLocal": "本地排名",
 	"rankWorld": "全维基媒体网站排名（世界）",
-	"pageViewCount": "页面访问量数值（非唯一）",
+	"pageViewCount": "页面访问数（非唯一）",
 	"winningArticles": "获奖文章",
 	"numPageWatchers": "页面监视者数",
 	"linkStats": "链接到页面统计",
