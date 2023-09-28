@@ -4,5 +4,16 @@
 			"TerranBoy"
 		]
 	},
-	"welcome": "خوەش هاتی"
+	"hello": "سڵام",
+	"welcome": "خوەش هاتی",
+	"toolversion": "وەشان $1",
+	"form-submit": "بچوو",
+	"years": "{{PLURAL: $1|ساڵ}}",
+	"months": "{{PLURAL: $1|مانگ}}",
+	"weeks": "{{PLURAL:$1|ھەفتە}}",
+	"days": "{{PLURAL: $1|ڕووژ}}",
+	"hours": "{{PLURAL: $1|ساعەت}}",
+	"minutes": "{{PLURAL: $1|دەقیقە}}",
+	"seconds": "{{PLURAL: $1|سانیە}}",
+	"view-source": "سەرچاوەگەی بۊن"
 }
