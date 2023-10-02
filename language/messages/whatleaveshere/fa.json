@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arian Ar",
 			"Beginneruser",
 			"Huji",
 			"Reza1615",
@@ -13,6 +14,7 @@
 	"label-page": "صفحه",
 	"label-namespace": "فضای نام",
 	"label-limit": "محدودیت",
+	"namespacesall": "همه",
 	"button-submit": "برو",
 	"noleaveshere": "هیچ  پیوندی از $1 موجود نیست",
 	"link-whatleaveshere": "پیوند به اینجا",
