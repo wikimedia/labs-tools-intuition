@@ -3,6 +3,7 @@
 		"authors": [
 			"C5st4wr6ch",
 			"Hidayatsrf",
+			"Veracious",
 			"William Surya Permana"
 		]
 	},
@@ -85,9 +86,11 @@
 	"noJavaScript": "JavaScript dinonaktifkan",
 	"noData": "tidak ada data tersedia",
 	"tryAgain": "Coba lagi di basis data utama",
+	"optInOAuth": "Alternatifnya, Anda dapat masuk dengan OAuth Wikimedia",
 	"onlyOwnCreatedPages": "tampilkan hanya halaman yang telah saya buat",
 	"namespaces": "ruangnama",
 	"comparisonOfPages": "perbandingan beberapa halaman",
+	"historyDataCatchup": "Pemberitahuan: data riwayat sedang dalam proses pemuatan",
 	"selectCategory": "Pilih kategori Anda dari menu kiri",
 	"furtherInformation": "Informasi lain",
 	"urlParameter": "Parameter URL",
@@ -101,6 +104,7 @@
 	"cancel": "batalkan",
 	"resetAndDelete": "atur ulang & hapus kuki",
 	"autofilter": "penyaring otomatis",
+	"isRedirect": "Halaman ini merupakan sebuah pengalihan",
 	"disambPage": "Halaman disambiguasi",
 	"showRedir": "Tampilkan pengalihan",
 	"searchVariants": "Varian pencarian",
