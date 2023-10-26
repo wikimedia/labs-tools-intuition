@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"records": "rexistros",
@@ -94,7 +95,7 @@
 	"comparisonOfPages": "Comparancia de diverses páxines",
 	"historyDataCatchup": "Avisu: los datos históricos tán en procesu de recuperación",
 	"selectCategory": "Seleiciona una categoría del menú de la izquierda",
-	"homeMain": "Home ye la tabla de datos principal que contien tolos datos",
+	"homeMain": "Home ye la tabla de datos principal que contién tolos datos",
 	"filerResults": "Filtria los resultaos cambiando los parámetros nel menú superior como quieras",
 	"furtherInformation": "Más información",
 	"urlParameter": "Parámetru URL",
@@ -107,7 +108,7 @@
 	"off": "inactivu",
 	"submit": "Unviar",
 	"save": "guardar",
-	"cancel": "encaboxar",
+	"cancel": "zarrar",
 	"resetAndDelete": "reaniciar y desaniciar cookies",
 	"autofilter": "filtru automáticu",
 	"barchart": "gráfica de barres",
