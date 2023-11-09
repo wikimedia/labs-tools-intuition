@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gwenn-Ael",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
@@ -12,7 +13,7 @@
 	"category_articles": "Pajennoù",
 	"category_images": "Skeudennoù",
 	"category_miscellaneous": "A bep seurt",
-	"category_wikidata": "Wikiroadennoù",
+	"category_wikidata": "WikiData",
 	"select_wiki_title": "Dibab ur wiki",
 	"select_wiki_next": "War-lerc'h →",
 	"select_report_title": "Dibabit un danevell da seveniñ e %(wiki)s",
