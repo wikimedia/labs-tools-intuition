@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kly",
 			"LNDDYL",
 			"Lauhenry",
+			"Lionpancake",
 			"Liuxinyu970226",
 			"Simon Shek",
 			"아라"
@@ -12,7 +14,7 @@
 	"hello": "您好",
 	"welcome": "歡迎",
 	"toolversion": "版本 $1",
-	"toolversionstamp": "版本$1 ($2)",
+	"toolversionstamp": "版本 $1（$2）",
 	"etc": "等。",
 	"colon-separator": "：",
 	"namespace": "命名空間",

@@ -3,6 +3,7 @@
 		"authors": [
 			"Kly",
 			"Lauhenry",
+			"Lionpancake",
 			"Simon Shek",
 			"Xiplus"
 		]
@@ -11,6 +12,6 @@
 	"formats-heading": "輸出格式",
 	"input": "輸入",
 	"label-wikiids": "Wiki標識符",
-	"no-matches": "找不到 \"$1\"",
+	"no-matches": "找不到「$1」",
 	"output": "輸出「$1」"
 }

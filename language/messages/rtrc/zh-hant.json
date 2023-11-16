@@ -3,6 +3,7 @@
 		"authors": [
 			"Cwlin0416",
 			"Kly",
+			"Lionpancake",
 			"Liuxinyu970226"
 		]
 	},
@@ -52,8 +53,8 @@
 	"select-placeholder-none": "(無)",
 	"showAnonOnly": "僅限匿名用戶",
 	"showUnpatrolledOnly": "僅未經查詢編輯",
-	"skip": "忽略",
-	"skippededit": "忽略的編輯",
+	"skip": "跳過",
+	"skippededit": "跳過的編輯",
 	"tag": "標籤",
 	"time-from": "由",
 	"time-untill": "到",
@@ -61,6 +62,6 @@
 	"type": "類型",
 	"typeEdit": "編輯",
 	"typeNew": "新頁面",
-	"unskip": "取消忽略",
-	"userfilter": "使用搜尋條件"
+	"unskip": "取消跳過",
+	"userfilter": "用戶過濾器"
 }
