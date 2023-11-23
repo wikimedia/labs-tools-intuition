@@ -7,10 +7,11 @@
 			"Lionpancake",
 			"Liuxinyu970226",
 			"Simon Shek",
+			"SunAfterRain",
 			"아라"
 		]
 	},
-	"dateformat": "%Y年%B%d日",
+	"dateformat": "%Y年%-m月%d日",
 	"hello": "您好",
 	"welcome": "歡迎",
 	"toolversion": "版本 $1",
