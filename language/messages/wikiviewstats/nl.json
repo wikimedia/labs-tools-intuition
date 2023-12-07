@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"JurgenNL",
+			"McDutchie",
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin"
@@ -61,7 +62,7 @@
 	"in": "in",
 	"external": "extern",
 	"protection": "beveiliging",
-	"semi": "half",
+	"semi": "semi",
 	"complete": "compleet",
 	"active": "actief",
 	"bureaucrats": "bureaucraten",

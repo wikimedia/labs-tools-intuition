@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Arystanbek",
-			"Batyrbek.kz"
+			"Batyrbek.kz",
+			"Casserium"
 		]
 	},
 	"records": "рекордтар",
@@ -77,7 +78,7 @@
 	"dbUpdateInProgress": "дерекқорын жаңарту үрдістерте",
 	"lastUpdate": "соңғы жаңартылуы",
 	"noJavaScript": "Javascript сөндірілген",
-	"noData": "жетімді дерек жоқ",
+	"noData": "қолжетімді дерек жоқ",
 	"searchOnlyTOP": "Бұл іздеу тек алдыңғылар тізімінде ғана орындалады.",
 	"optInOAuth": "Басқа бір тәсілі Wikimedia OAuth арқылы кіре аласыз",
 	"onlyOwnCreatedPages": "тек мен бастаған беттерді көрсету",
