@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Thakurji"
+		]
+	},
+	"project": "Project:",
+	"category": "Vibhag:",
+	"max-width": "Jaada se jaada chaurrai:",
+	"max-height": "Jaada se jaada uunchai:",
+	"no-such-project": "Ii rakam ke koi project nai hai",
+	"no-images": "Ii vibhag me koi chaapa nai hai",
+	"download": "Download karo"
+}
