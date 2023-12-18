@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"M G Harish"
+			"M G Harish",
+			"~aanzx"
 		]
 	},
+	"description": "ವಿಕಿಮೀಡಿಯಾ ವಿಕಿಗಳ ಬಗ್ಗೆ ಮಾಹಿತಿ.",
 	"formats-heading": "ಹೊರಹೋಗುವ ಶೈಲಿಗಳು",
 	"input": "ಒಳಬರುವಿಕೆ",
 	"label-wikiids": "ವಿಕಿ ಗುರುತುಗಳು",

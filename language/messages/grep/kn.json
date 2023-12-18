@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Nayvik",
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"~aanzx"
 		]
 	},
+	"title": "ಲೇಖನದ ಶೀರ್ಷಿಕೆ grep (ಬೀಟಾ)",
 	"explanation": "ವಿವರಣೆ",
+	"regex": "ರೆಗ್ಯುಲರ್ ಎಕ್ಸ್‌ಪ್ರೆಶನ್",
 	"enter-details": "ವಿವರಣೆಗಳನ್ನು ತುಂಬಿ",
 	"results": "ಫಲಿತಾಂಶಗಳು",
 	"language-label": "ಭಾಷೆ",

@@ -4,6 +4,7 @@
 			"M G Harish",
 			"Nayvik",
 			"Platonides",
+			"~aanzx",
 			"ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ"
 		]
 	},
@@ -16,6 +17,7 @@
 	"form-submit": "ಹೋಗು",
 	"form-reset": "ಮರುಹೊಂದಿಸು",
 	"years": "$1 {{PLURAL:$1|ವರ್ಷ|ವರ್ಷಗಳು}}",
+	"months": "{{PLURAL: $1|ತಿಂಗಳು|ತಿಂಗಳುಗಳು}}",
 	"weeks": "$1 {{PLURAL:$1|ವಾರ|ವಾರಗಳು}}",
 	"days": "$1 {{PLURAL:$1|ದಿನ|ದಿನಗಳು}}",
 	"hours": "{{PLURAL: $1|ಗಂಟೆ|ಗಂಟೆಗಳು}}",
