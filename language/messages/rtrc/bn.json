@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Aishik Rehman",
 			"Al Riaz Uddin Ripon",
 			"Sayma Jahan",
 			"আফতাবুজ্জামান"
@@ -18,7 +19,7 @@
 	"cvn-adder": "যোগকারী",
 	"cvn-adder-empty": "অজানা",
 	"cvn-reason": "কারণ",
-	"cvn-reason-empty": "কোন কারণ পাওয়া যায়নি",
+	"cvn-reason-empty": "কোনো কারণ পাওয়া যায়নি",
 	"cvn-scores": "CVN স্কোর",
 	"desc": "নিম্ন",
 	"documentation": "নথি",
@@ -42,7 +43,7 @@
 	"namespace": "নামস্থান",
 	"navtoggle-tooltip": "পার্শ্বদণ্ড টগল করুন",
 	"new-short": "নতুন",
-	"nomatches": "আপনার সেটিংস জন্য কোন প্রাসঙ্গিক পরিবর্তন হয়নি",
+	"nomatches": "আপনার সেটিংস জন্য কোনো প্রাসঙ্গিক পরিবর্তন হয়নি",
 	"open-in-wiki": "উইকিতে খুলুন",
 	"order": "ক্রম",
 	"ores-damaging-probability": "ক্ষতির সম্ভাবনা: $1",

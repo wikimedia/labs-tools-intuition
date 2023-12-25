@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Aishik Rehman",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -10,5 +11,5 @@
 	"expiry": "মেয়াদোত্তীর্ণ",
 	"globalwatched": "বৈশ্বিক দেখা",
 	"reason": "কারণ",
-	"reason-empty": "কোন কারণ পাওয়া যায়নি"
+	"reason-empty": "কোনো কারণ পাওয়া যায়নি"
 }

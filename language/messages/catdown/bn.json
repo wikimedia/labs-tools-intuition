@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Aishik Rehman",
 			"Al Riaz Uddin Ripon",
 			"Bellayet",
 			"Nasir8891",
@@ -10,7 +11,7 @@
 		]
 	},
 	"title": "বিষয়শ্রেণী অনুযায়ী চিত্র ডাউনলোড",
-	"subtitle": "কোন বিষয়শ্রেণীর চিত্র ডাউনলোডের সহজ উপায়",
+	"subtitle": "কোনো বিষয়শ্রেণীর চিত্র ডাউনলোডের সহজ উপায়",
 	"project": "প্রকল্প:",
 	"category": "বিষয়শ্রেণী:",
 	"thumbnailing": "সংক্ষেপচিত্র তৈরি হচ্ছে",

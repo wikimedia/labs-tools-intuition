@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ElangoRamanujam"
+			"ElangoRamanujam",
+			"Fahimrazick"
 		]
 	},
 	"pageviews": "பக்கப்பார்வைகள்",
@@ -30,5 +31,5 @@
 	"in": "உள்",
 	"cancel": "இரத்து செய்",
 	"projectPages": "திட்டத்தின் பக்கங்கள்",
-	"backToTop": "மேலே செல்லவும்"
+	"backToTop": "மீண்டும் மேலே"
 }

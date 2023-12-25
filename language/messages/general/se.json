@@ -5,6 +5,8 @@
 		]
 	},
 	"welcome": "Bures boahtin",
+	"toolversion": "Veršuvdna $1",
+	"toolversionstamp": "Veršuvdna $1 ($2)",
 	"namespace": "Nammagomuvuohta",
 	"view-source": "Geahča gáldokoda"
 }
