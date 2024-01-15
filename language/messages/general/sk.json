@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Iketsi",
 			"Mikulas1",
 			"Platonides"
 		]
 	},
+	"hello": "Dobrý deň",
 	"welcome": "Vitajte",
 	"toolversionstamp": "Verzia $1 ($2)",
 	"etc": "atď.",
