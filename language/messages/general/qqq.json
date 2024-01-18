@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
+			"Iketsi",
 			"Krinkle",
 			"Liuxinyu970226",
 			"Shirayuki",
@@ -9,7 +10,7 @@
 		]
 	},
 	"dateformat": "{{DataFormatRuby/en}}\n{{Optional}} Dateformat in this language. See documentation about [http://php.net/strftime strftime() at php.net] for the syntax.",
-	"hello": "A friendly greet.\n{{Identical|Hello}}",
+	"hello": "A friendly greet without punctuation.\n{{Identical|Hello}}",
 	"welcome": "A friendly welcome.\n{{Identical|Welcome}}",
 	"toolversion": "Short label stating the current version of a tool. Parameters:\n* $1 - the version. e.g. \"1.2.3-alpha\"\n{{Identical|Version}}",
 	"toolversionstamp": "Short label stating the current version of a tool and when the last update was. <code>$1</code> is the version (eg. \"1.2.3-alpha\") and <code>$2</code> is the date (without time).\n{{Identical|Version}}",
