@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"Lhanars"
 		]
 	},
 	"title": "Modificacions recentas en temps real",
@@ -41,5 +42,5 @@
 	"type": "Tipe",
 	"typeEdit": "Modificacions",
 	"typeNew": "Paginas novèlas",
-	"userfilter": "Filtre utilizaire"
+	"userfilter": "Filtre utilizator"
 }
