@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
@@ -8,5 +9,5 @@
 	"toolversion": "Veršuvdna $1",
 	"toolversionstamp": "Veršuvdna $1 ($2)",
 	"namespace": "Nammagomuvuohta",
-	"view-source": "Geahča gáldokoda"
+	"view-source": "Čájet gáldokoda"
 }
