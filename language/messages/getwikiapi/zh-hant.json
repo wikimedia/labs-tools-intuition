@@ -5,13 +5,14 @@
 			"Lauhenry",
 			"Lionpancake",
 			"Simon Shek",
+			"Winston Sung",
 			"Xiplus"
 		]
 	},
 	"description": "有關維基媒體wikis元訊息",
 	"formats-heading": "輸出格式",
 	"input": "輸入",
-	"label-wikiids": "Wiki標識符",
+	"label-wikiids": "wiki識別碼",
 	"no-matches": "找不到「$1」",
 	"output": "輸出「$1」"
 }
