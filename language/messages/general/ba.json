@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bashkorttan",
 			"Haqmar",
 			"MR973",
 			"Sagan",
@@ -24,6 +25,6 @@
 	"minutes": "$1 {{PLURAL:$1|минут}}",
 	"seconds": "{{PLURAL:$1|$1 секунд}}",
 	"last-modified-date": "Һуңғы үҙгәртеү: $1",
-	"view-source": "Сығанаҡты ҡарарға",
+	"view-source": "Сығанаҡты ҡарау",
 	"and": "&#32;һәм"
 }
