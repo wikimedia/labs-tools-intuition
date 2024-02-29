@@ -19,6 +19,7 @@
 	"closedWikis": "suljetut wikit",
 	"language": "kieli",
 	"myfavs": "Suosikit",
+	"mywatchlists": "Tarkkailulistat",
 	"project": "Projekti",
 	"category": "Luokka",
 	"template": "Malline",
@@ -29,6 +30,7 @@
 	"testmode": "Testitila",
 	"noJavaScript": "JavaScript ei ole käytössä",
 	"namespaces": "nimiavaruudet",
+	"save": "tallenna",
 	"cancel": "peruuta",
 	"isRedirect": "Tämä sivu on uudelleenohjaus",
 	"linkArticle": "Linkki wikiartikkeliin"
