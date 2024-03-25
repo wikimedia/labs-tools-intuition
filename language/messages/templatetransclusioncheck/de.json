@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"Metalhead64"
 		]
 	},
 	"title": "Überprüfung der Vorlagenlinks und -einbindungen",
-	"description": "Überprüft und berichtet, welche Artikel eine Vorlage einbinden, die nicht von der Vorlage verlinkt sind und welche Artikel von einer Vorlage verlinkt sind, die sie nicht einbinden.",
+	"description": "Überprüft und berichtet, welche Artikel eine Vorlage einbinden, die nicht von der Vorlage verlinkt sind, und welche Artikel von einer Vorlage verlinkt sind, die sie nicht einbinden.",
 	"form-label-language": "Sprache:",
 	"form-label-template": "Name der Vorlage:",
 	"form-label-template2": "(einschließlich Namensraum)",
