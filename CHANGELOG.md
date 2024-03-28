@@ -2,6 +2,17 @@
 
 # Changelog
 
+## v2.3.6 (2024-03-28)
+
+Fixed:
+
+* core: Set `Intuition->dashboardHome` to full HTTPS url to avoid CORS errors
+  during local development with an HTTP server, e.g. when testing RTRC.
+
+Removed:
+
+* core: Remove unused `Intuition->version` property. (Timo Tijhof)
+
 ## v2.3.5 (2024-03-28)
 
 Changed:
