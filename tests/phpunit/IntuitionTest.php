@@ -685,7 +685,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$_SERVER['SCRIPT_NAME'] = '/example/index.php';
 		$_GET = [];
 		$this->assertSame(
-			'//tools.wmflabs.org/intuition/?returnto=' .
+			'https://intuition.toolforge.org/?returnto=' .
 				'%2Fexample%2Findex.php&returntoquery=#tab-settingsform',
 			$this->i18n->getDashboardReturnToUrl()
 		);
@@ -693,7 +693,7 @@ class IntuitionTest extends Krinkle\Intuition\IntuitionTestCase {
 		$_SERVER['SCRIPT_NAME'] = '/example/index.php';
 		$_GET = [ 'foo' => 'bar' ];
 		$this->assertSame(
-			'//tools.wmflabs.org/intuition/?returnto=' .
+			'https://intuition.toolforge.org/?returnto=' .
 				'%2Fexample%2Findex.php&returntoquery=foo%3Dbar#tab-settingsform',
 			$this->i18n->getDashboardReturnToUrl()
 		);

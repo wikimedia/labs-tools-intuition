@@ -23,10 +23,8 @@ class Intuition {
 
 	public $localBaseDir;
 
-	public $version = '2.3.4';
-
 	/** URL to where intuition-web is installed */
-	public $dashboardHome = '//tools.wmflabs.org/intuition';
+	public $dashboardHome = 'https://intuition.toolforge.org';
 
 	protected $currentDomain = 'general';
 	protected $currentLanguage;
@@ -1101,9 +1099,9 @@ class Intuition {
 	) : string {
 		// Logo
 		if ( is_int( $imgSize ) && $imgSize > 0 ) {
-			$src = '//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
+			$src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
 				. '/' . $imgSize . 'px-Tool_labs_logo.svg.png';
-			$src_2x = '//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
+			$src_2x = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tool_labs_logo.svg/'
 				. '/' . ( $imgSize * 2 ) . 'px-Tool_labs_logo.svg.png';
 			$img = Util::tag( '', 'img', [
 				'src' => $src,
@@ -1124,7 +1122,7 @@ class Intuition {
 			'escape' => 'html',
 			'raw-variables' => true,
 			'variables' => [
-				'<a href="//translatewiki.net/">translatewiki.net</a>',
+				'<a href="https://translatewiki.net/">translatewiki.net</a>',
 				'<a href="' . $this->dashboardHome . '">Intuition</a>'
 			],
 		];

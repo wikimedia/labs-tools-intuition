@@ -20,7 +20,6 @@ The following steps should be applied:
 
 1. Update `AUTHORS.txt` file.
 2. Update `CHANGELOG.md` file.
-3. Update `Intuition->version`.
 4. Make the commit.
 
 The drafting steps do not require repo ownership, and may also
@@ -32,7 +31,7 @@ To regenerate the `AUTHORS.txt` file contents, run the following
 command:
 
 <pre lang="sh">
-npm run authors
+composer authors
 </pre>
 
 Run `git add -p` to review and stage the changes as you go.
@@ -42,7 +41,7 @@ by attributing it to yourself in the `.mailmap` file.
 
 If one of the added entries looks like a duplicate of an existing
 entry, update the `.mailmap` file as needed, then re-run the
-`npm run authors` command and review the changes again.
+`composer authors` command and review the changes again.
 
 ### Update changelog
 
@@ -50,7 +49,7 @@ To get you started, extract the Git commit subjects since the
 most recent release:
 
 <pre lang="sh">
-git log --pretty=format:'* %s. (%an)' $(git describe --tags --abbrev=0)...HEAD | grep -vE '(build: |docs: |Localisation updates)' | sort
+composer changelog
 </pre>
 
 See <https://keepachangelog.com/en/1.0.0/> for the conventions
@@ -82,11 +81,6 @@ The subject line should written in the English imperative mood.
 Usually, the commits will have this style already as it tends to
 be normalised during code review and pull request merging. However,
 if it differs, be sure to correct it for the changelog.
-
-### Update version string
-
-Edit the `$version` assignment in [Intuition.php](../src/Intuition.php) to match
-the version string that will be used for the next release.
 
 ### Make the commit
 
