@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ebraminio",
 			"Reza1615"
 		]
 	},
@@ -8,7 +9,7 @@
 	"voiceintro-toolbar-stop-label": "توقف",
 	"voiceintro-toolbar-clear-label": "پاک‌کردن",
 	"voiceintro-toolbar-upload-label": "بارگذاری",
-	"voiceintro-webaudio-not-supported": "وب‌آدیو ای‌پیآی برای این مرورگر پشتیبانی نشده‌است.",
+	"voiceintro-webaudio-not-supported": "وب‌آدیو ای‌پیآی برای این مرورگر پشتیبانی نشده است.",
 	"voiceintro-upload-publish-succeeded": "ضبط انتقال داده شده با موفقیت انجام شد:",
 	"voiceintro-upload-publish-failed": "ضبط منتقل نشد.",
 	"voiceintro-information-label": "اطلاعات",
