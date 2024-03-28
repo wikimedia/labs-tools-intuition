@@ -1,3 +1,13 @@
+[← Browse repository](https://gerrit.wikimedia.org/g/labs/tools/intuition/)
+
+# Changelog
+
+## v2.3.5 (2024-03-28)
+
+Changed:
+
+* messages: Localisation updates from https://translatewiki.net.
+
 ## v2.3.4 (2022-10-07)
 
 Fixed:
