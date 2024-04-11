@@ -5,7 +5,8 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Jefersonmoraes",
-			"Luckas"
+			"Luckas",
+			"Vinickw"
 		]
 	},
 	"records": "registros",
@@ -43,7 +44,7 @@
 	"portal": "Portal",
 	"project": "Projeto",
 	"category": "Categoria",
-	"template": "Modelo",
+	"template": "Predefinição",
 	"files": "{{PLURAL:$1|arquivo|arquivos}}",
 	"specialPage": "Página especial",
 	"helpPage": "Página de ajuda",
