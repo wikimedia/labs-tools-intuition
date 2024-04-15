@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BrennodAloisi",
 			"Cedric31",
 			"Lhanars"
 		]
@@ -24,7 +25,7 @@
 	"lastupdate-rc": "Darrièra mesa a jorn : $1",
 	"limit": "Limit",
 	"masspatrol-requires-userfilter": "MassPatrol es estat desactivat perque necessita un filtre utilizaire e que n'i a pas cap de definit.",
-	"months": "Genièr, Febrièr, Març, Abril, Mai, Junh, Julhet, Agost, Setembre, Octobre, Novembre, Decembre",
+	"months": "genièr, febrièr, març, abril, mai, junh, julhet, agost, setembre, octòbre, novembre, decembre",
 	"mypatrollog": "mon jornal de patrolha",
 	"namespace": "Espaci de nom",
 	"navtoggle-tooltip": "Bascuolar l’afichatge de la barra laterala",
