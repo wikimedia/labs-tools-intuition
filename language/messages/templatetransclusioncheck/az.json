@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Toghrul Rahimli",
 			"Şeyx Şamil"
 		]
 	},
 	"form-label-language": "Dil:",
 	"form-label-template": "Şablon adı",
+	"feedback-template-missing": "$1 şablonu mövcud deyil.",
 	"feedback-result": "$1 üçün nəticələr",
 	"link-edit": "redaktə et",
 	"link-create": "yarat",
