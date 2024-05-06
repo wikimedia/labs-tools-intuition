@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Psubhashish",
 			"Susant purohit"
 		]
 	},
@@ -30,7 +31,7 @@
 	"select-placeholder-none": "(କିଛି ନାହିଁ)",
 	"showAnonOnly": "କେବଳ ବେନାମି",
 	"skip": "ଡେଇଁ ଯାଅନ୍ତୁ",
-	"tag": "ଟାଗ",
+	"tag": "ଟ୍ୟାଗ",
 	"time-from": "କାହାଠାରୁ",
 	"type": "ପ୍ରକାର",
 	"typeEdit": "ବଦଳସବୁ",
