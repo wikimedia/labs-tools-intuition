@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
+	"regex": "Virolaš cealkka",
 	"namespace-label": "Nammagomuvuohta"
 }

@@ -3,6 +3,7 @@
 		"authors": [
 			"Krinkle",
 			"Marcelhospers",
+			"McDutchie",
 			"Siebrand",
 			"Sjoerddebruin"
 		]
@@ -40,7 +41,7 @@
 	"months": "januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december",
 	"mypatrollog": "markeerlogboek",
 	"namespace": "Naamruimte",
-	"navtoggle-tooltip": "Zijbalk in- of uitschakelen",
+	"navtoggle-tooltip": "Zijbalk omschakelen",
 	"new-short": "nieuw",
 	"nomatches": "Er zijn geen relevante wijzigingen voor uw instellingen",
 	"open-in-wiki": "Open in Wiki",
