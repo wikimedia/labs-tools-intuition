@@ -4,6 +4,7 @@
 			"Ansumang",
 			"AnupamM",
 			"C1K98V",
+			"Cabal",
 			"NehalDaveND",
 			"Saurmandal",
 			"Siddhartha Ghai"
@@ -18,7 +19,7 @@
 	"max-height": "अधिकतम ऊँचाई:",
 	"invalid-width": "अमान्य चौड़ाई",
 	"invalid-height": "अमान्य ऊँचाई",
-	"no-such-project": "ऐसी कोई परियोजना है",
+	"no-such-project": "ऐसी कोई परियोजना नहीं है",
 	"no-images": "उस श्रेणी में कोई चित्र नहीं हैं",
 	"category-is-url": "निर्धारित श्रेणी नाम URL जैसा दिखता है। आपको श्रेणी का नाम निर्दिष्ट करना है, न कि उसका URL।",
 	"category-contains-namespace": "ऐसा लगता है कि आपने श्रेणी के नाम से नामस्थान भी दर्ज कर दिया है। इस नाम से पृष्ठ [[Category:$1]] पर उपलब्ध होगा।",

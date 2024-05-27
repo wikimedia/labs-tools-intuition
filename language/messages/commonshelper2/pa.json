@@ -4,7 +4,8 @@
 			"Aalam",
 			"AnupamM",
 			"Babanwalia",
-			"Bgo eiu"
+			"Bgo eiu",
+			"Cabal"
 		]
 	},
 	"attention": "ਧਿਆਨ ਦਿਓ",
@@ -16,5 +17,7 @@
 	"commons_username": "ਵਿਕੀਮੀਡੀਆ ਕਾਮਨਜ਼ ਵਰਤੋਂਕਾਰ ਨਾਂ",
 	"move_file_from_com": "ਵਿਕੀਮੀਡੀਆ ਕਾਮਨਜ਼ ਤੋਂ ਫਾਈਲ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਭੇਜੋ",
 	"categories": "ਸ਼੍ਰੇਣੀਆਂ",
-	"remove_cats": "ਮੌਜੂਦਾ ਸ਼੍ਰੈਣੀਆਂ ਹਟਾਓ"
+	"remove_cats": "ਮੌਜੂਦਾ ਸ਼੍ਰੈਣੀਆਂ ਹਟਾਓ",
+	"original_wikitext": "ਅਸਲੀ ਵਿਕੀ ਲਿਖਤ",
+	"new_wikitext": "ਨਵੀਂ ਵਿਕੀ ਲਿਖਤ"
 }

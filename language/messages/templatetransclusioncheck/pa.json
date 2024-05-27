@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
 	"form-label-language": "ਭਾਸ਼ਾ:",
+	"form-label-template": "ਫ਼ਰਮੇ ਦਾ ਨਾਂ",
+	"feedback-template-missing": "ਫ਼ਰਮਾ $1 ਹੋਂਦ ਵਿੱਚ ਨਹੀਂ ਹੈ।",
 	"feedback-total-count": "ਕੁਲ: $1",
 	"link-edit": "ਸੋਧੋ",
 	"link-create": "ਬਣਾਓ"

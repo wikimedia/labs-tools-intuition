@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
+	"hello": "ਹੈਲੋ।",
 	"welcome": "ਜੀ ਆਇਆਂ ਨੂੰ",
 	"toolversion": "ਵਰਜਨ $1",
 	"toolversionstamp": "ਵਰਜਨ $1 ($2)",
@@ -17,6 +19,7 @@
 	"hours": "{{PLURAL: $1|ਘੰਟਾ|ਘੰਟੇ}}",
 	"minutes": "{{PLURAL: $1|ਮਿੰਟ}}",
 	"seconds": "{{PLURAL: $1|ਸਕਿੰਟ}}",
+	"last-modified-date": "ਪਿਛਲੀ ਵਾਰ ਸੋਧਿਆ ਗਿਆ: $1",
 	"view-source": "ਸਰੋਤ ਵੇਖੋ",
 	"and": "&#32;ਅਤੇ"
 }

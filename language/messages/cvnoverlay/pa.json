@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
 	"adder-empty": "ਅਣਜਾਣ",
-	"reason": "ਕਾਰਨ"
+	"expiry": "ਮਿਆਦ-ਪੁੱਗਣੀ",
+	"globalwatched": "ਵਿਸ਼ਵਪੱਧਰ ਤੇ ਦੇਖਿਆ ਗਿਆ",
+	"reason": "ਕਾਰਨ",
+	"reason-empty": "ਕੋਈ ਕਾਰਨ ਨਹੀਂ ਮਿਲਿਆ"
 }

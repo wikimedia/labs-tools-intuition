@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
+	"enter-details": "ਵੇਰਵੇ ਦਾਖਲ ਕਰੋ",
 	"language-label": "ਭਾਸ਼ਾ",
 	"namespace-label": "ਨਾਮਸਥਾਨ"
 }

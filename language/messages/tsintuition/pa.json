@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
 	"bl-mysettings": "ਮੇਰੀਆਂ ਭਾਸ਼ਾ ਪਸੰਦਾਂ",
 	"bl-mysettings-new": "ਭਾਸ਼ਾ ਬਦਲੋ!",
-	"help-translate-tool": "ਇਸ ਸੰਦ ਦੇ ਅਨੁਵਾਦ ਵਿਚ ਮਦਦ ਕਰੋ!",
-	"help-translate-all": "ਸੰਦਾੰ ਦੇ ਅਨੁਵਾਦ ਵਿਚ ਮਦਦ ਕਰੋ!"
+	"help-translate-tool": "ਇਸ ਸੰਦ ਦੇ ਤਰਜਮੇ ਵਿਚ ਮਦਦ ਕਰੋ!",
+	"help-translate-all": "ਸੰਦਾਂ ਦੇ ਤਰਜਮੇ ਵਿਚ ਮਦਦ ਕਰੋ!"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
@@ -8,19 +9,32 @@
 	"changelog": "ਨਵਾੰ ਕੀ ਹੈ",
 	"clear": "ਸਾਫ਼ ਕਰੋ",
 	"close": "ਬੰਦ ਕਰੋ",
+	"currentedit": "ਵਰਤਮਾਨ ਵਿੱਚ ਚੁਣੀ ਸੋਧ",
+	"cvn-adder": "ਜੋੜਨ ਵਾਲਾ/ਵਾਲੀ",
+	"cvn-adder-empty": "ਅਣਜਾਣ",
 	"cvn-reason": "ਕਾਰਨ",
+	"cvn-reason-empty": "ਕੋਈ ਕਾਰਨ ਨਹੀਂ ਮਿਲਿਆ",
 	"documentation": "ਦਸਤਾਵੇਜ਼",
+	"feedback": "ਸੁਝਾਅ",
 	"filter": "ਛਾਨਣੀ",
 	"filter-hidebots": "ਬੌਟਾਂ ਨੂੰ ਲੁਕਾਓ",
 	"filter-unpatrolled": "ਜਾਂਚੀਆਂ ਹੋਈਆਂ ਸੋਧਾੰ ਲੁਕਾਓ",
 	"help": "ਮਦਦ",
+	"license": "ਲਸੰਸ",
 	"limit": "ਹੱਦ",
+	"mark": "ਨਿਸ਼ਾਨ ਲਾਓ",
 	"months": "ਜਨਵਰੀ, ਫਰਵਰੀ, ਮਾਰਚ, ਅਪ੍ਰੈਲ, ਮਈ, ਜੂਨ, ਜੁਲਾਈ, ਅਗਸਤ, ਸਤੰਬਰ, ਅਕਤੂਬਰ, ਨਵੰਬਰ, ਦਸੰਬਰ",
 	"namespace": "ਨਾਮਸਥਾਨ",
+	"new-short": "ਨਵਾਂ",
+	"open-in-wiki": "ਵਿਕੀ ਵਿੱਚ ਖੋਲ੍ਹੋ",
 	"order": "ਕ੍ਰਮ",
+	"ores-damaging-probability": "ਨੁਕਸਾਨ ਦੀ ਸੰਭਾਵਨਾ: $1",
 	"select-placeholder-none": "(ਕੋਈ ਨਹੀਂ)",
+	"skip": "ਛੱਡੋ",
+	"tag": "ਨਿਸ਼ਾਨ",
 	"time-from": "ਤੋਂ",
 	"time-untill": "ਤੱਕ",
+	"type": "ਕਿਸਮ",
 	"typeEdit": "ਸੋਧਾਂ",
 	"typeNew": "ਨਵੇਂ ਸਫ਼ੇ"
 }

@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
 	"explanation": "ਵਿਆਖਿਆ",
 	"regex": "ਆਮ ਸ਼ਬਦਾਵਲੀ",
+	"enter-details": "ਵੇਰਵੇ ਦਾਖਲ ਕਰੋ",
 	"results": "ਨਤੀਜੇ",
-	"language-label": "ਭਾਸ਼ਾ"
+	"language-label": "ਭਾਸ਼ਾ",
+	"namespace-label": "ਨਾਂ-ਥਾਂ",
+	"project-label": "ਪ੍ਰੋਜੈਕਟ"
 }

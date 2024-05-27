@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
 	"toolserver-status-short-ok": "$1: ਠੀਕ",
 	"toolserver-status-short-info": "$1: ਜਾਣਕਾਰੀ",
-	"toolserver-status-short-warn": "$1: ਖ਼ਬਰਦਾਰ"
+	"toolserver-status-short-warn": "$1: ਖ਼ਬਰਦਾਰ",
+	"toolserver-status-short-erro": "$1 : ਗਲਤੀ",
+	"toolserver-status-short-missing": "$1 : ਗੁੰਮ ਹੈ"
 }

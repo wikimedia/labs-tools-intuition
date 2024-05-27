@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"NehalDaveND",
 			"SatyamMishra",
 			"Saurmandal",
@@ -8,6 +9,7 @@
 			"Suyash.dwivedi"
 		]
 	},
+	"title": "वास्तविक समय में वर्तमान परिवर्तन",
 	"apply": "लागू करें",
 	"autodiff": "AutoDiff",
 	"asc": "आरोह",
