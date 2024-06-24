@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Исмаил Садуев",
 			"Умар"
 		]
 	},
 	"label-page": "АгӀо",
 	"label-limit": "Доза тохар",
-	"button-submit": "Каро",
+	"button-submit": "Лаха",
 	"section-links": "Хьажоргаш",
 	"section-categories": "Категореш"
 }
