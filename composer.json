@@ -1,6 +1,6 @@
 {
 	"name": "krinkle/intuition",
-	"description": "Framework for localisation in PHP.",
+	"description": "Localisation library for PHP applications.",
 	"license": "MIT",
 	"autoload": {
 		"files": [

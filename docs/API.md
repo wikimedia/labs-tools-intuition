@@ -1,9 +1,3 @@
-**Intuition** is a localisation library written in PHP. It was originally developed in 2011 for use on [Wikimedia Toolserver](https://meta.wikimedia.org/wiki/Toolserver) (since then replaced by [Toolforge](https://wikitech.wikimedia.org/wiki/Portal:Toolforge)), and is now a standalone library that can be used as Composer package by any web application.
-
-> Intuition (INTUI-tion) originally stood for "<u>In</u>ternationalization for <u>T</u>oolserver's <u>U</u>ser <u>I</u>nterface".
-
-Intuition supports the _Banana Milkshake_ message file format (as popularised by [Wikimedia](https://github.com/wikimedia/jquery.i18n)). We recommended [translatewiki.net](https://translatewiki.net) for managing translations, which can periodically export translations in the Banana JSON format to your Git repository.
-
 Refer to the [README](/README.md) for how to get started with Intuition.
 
 ## Intuition Class
