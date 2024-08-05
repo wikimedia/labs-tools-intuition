@@ -4,7 +4,8 @@
 			"Amire80",
 			"Dr1t jg",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"이강철"
 		]
 	},
 	"title": "분류의 그림 다운로드",
@@ -19,7 +20,7 @@
 	"no-such-project": "비슷한 프로젝트가 없습니다",
 	"no-images": "이 분류에 속하는 그림이 없습니다",
 	"category-is-url": "주어진 분류 이름이 URL처럼 보입니다. 해당 URL이 아닌 특정한 분류 이름을 지정해야 합니다.",
-	"category-contains-namespace": "분류 이름에 이름공간을 포함한 것 같아. 주어진 이름으로 그 페이지는 [[Category:$1]]으로 사용 할수 있어.",
+	"category-contains-namespace": "분류 이름에 이름공간 명칭을 포함한 것 같습니다. 주어진 이름에 따라 [[Category:$1]]로 사용할 수 있습니다.",
 	"zip-failed": "Zip 만들기 실패",
 	"image-area-too-big": "$1은(는) 섬네일을 만드는 데 너무 큽니다. 최대 크기를 사용합니다.",
 	"download-info": "$2의 예상 크기인 {{plural: $1|그림 한 개가 있습니다|그림 $1개가 있습니다}}",
