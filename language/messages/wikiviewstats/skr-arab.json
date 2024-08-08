@@ -21,11 +21,13 @@
 	"other_lang": "ٻیاں زباناں",
 	"language": "زبان",
 	"myarea": "میݙا علاقہ",
+	"myfavs": "پسنداں",
 	"mycontribs": "ونگاراں",
 	"mywatchlists": "پارھا تندیراں",
 	"myworklist": "کم تندیر",
 	"top": "چوٹی",
 	"overall": "مجموعی",
+	"users": "{{PLURAL: $1|ورتݨ آلا|ورتݨ آلے}}",
 	"discussion": "ڳالھ مہاڑ",
 	"portal": "دیرہ",
 	"project": "منصوبہ",
@@ -53,6 +55,7 @@
 	"articles": "مقالے",
 	"good_articles": "چنگے مضمون",
 	"pages": "ورقے",
+	"by": "کنوں",
 	"icons": "آئیکان",
 	"lastUpdate": "چھیکڑی اپ ڈیٹ",
 	"noData": "کوئی ڈیٹا دستیاب کائنی",
@@ -65,5 +68,6 @@
 	"cancel": "منسوخ",
 	"barchart": "پٹی چارٹ",
 	"linechart": "لکیری چارٹ",
-	"showRedir": "ریڈائرکٹ ݙکھاؤ"
+	"showRedir": "ریڈائرکٹ ݙکھاؤ",
+	"totalShare": "کل شیئر"
 }
