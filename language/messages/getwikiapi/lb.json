@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"description": "Meta Informatioun iwwer Wikimedia Wikien.",
+	"description": "Meta-Informatiounen iwwer Wikimedia-Wikien.",
 	"formats-heading": "Formater vum Resultat",
 	"input": "Donnéeën",
 	"label-wikiids": "Wiki-Identifikatioun",

@@ -17,6 +17,7 @@
 	"select_report_title": "Selektez raporto por exekutar che %(wiki)s",
 	"select_report": "Voluntez selektar raporto:",
 	"select_report_disabled": "Ca reporto ne esas disponebla.",
+	"select_report_cold_running": "Versiono enmagazinigita de ca raporto, evanta %(age), esas disponebla. Nova versiono expektesas en %(eta).",
 	"select_report_go_back": "← Chanjez wiki",
 	"qvar_title": "Informez varianti por vua inquesto",
 	"qvar_next": "Sequanta →",
