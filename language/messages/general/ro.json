@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Firilacroco",
 			"Minisarm",
 			"Platonides"
 		]
 	},
 	"hello": "Bună",
-	"welcome": "Bun venit",
+	"welcome": "Bun-venit",
 	"toolversion": "Versiunea $1",
 	"toolversionstamp": "Versiunea $1 ($2)",
 	"etc": "etc.",
