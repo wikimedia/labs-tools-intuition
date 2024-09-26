@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Psubhashish",
 			"Susant purohit"
 		]
 	},
 	"category_users": "ବ୍ୟବହାରକାରୀଗଣ",
 	"category_articles": "ପୃଷ୍ଠାଗୁଡିକ",
-	"category_images": "ଛବିଗୁଡିକ",
+	"category_images": "ଛବିସବୁ",
 	"category_miscellaneous": "ବିବିଧ",
 	"category_wikidata": "ଉଇକିଡାଟା",
 	"select_wiki_title": "ଏକ ଉଇକି ବାଛନ୍ତୁ",

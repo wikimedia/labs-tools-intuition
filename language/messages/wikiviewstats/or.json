@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Psubhashish",
 			"Susant purohit"
 		]
 	},
 	"list": "ତାଲିକା",
 	"sample": "ଉଦାହରଣ",
-	"pagetitle": "ପୃଷ୍ଠା ଶିରୋନାମା",
+	"pagetitle": "ପୃଷ୍ଠା ନାମ",
 	"page": "ପୃଷ୍ଠା",
 	"rank": "ପାହ୍ୟା",
 	"settings": "ସଜାଣିଗୁଡ଼ିକ",
@@ -36,7 +37,7 @@
 	"last": "ଶେଷ",
 	"total": "ସର୍ବମୋଟ",
 	"deleted": "ଲିଭିଗଲା",
-	"links": "ଲିଙ୍କମାନ",
+	"links": "ଲିଙ୍କସବୁ",
 	"external": "ବାହାର",
 	"complete": "ଶେଷ",
 	"active": "ସଚଳ",

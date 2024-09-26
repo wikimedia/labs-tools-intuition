@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Psubhashish",
 			"Susant purohit"
 		]
 	},
@@ -12,7 +13,7 @@
 	"link-whatleaveshere": "ଏଠାରେ ଥିବା ଲିଙ୍କ",
 	"whatlinkshere": "ଏଠାରେ ଥିବା ଲିଙ୍କ",
 	"isfile": "ଫାଇଲର ଲିଙ୍କ",
-	"section-links": "ଲିଙ୍କମାନ",
+	"section-links": "ଲିଙ୍କସବୁ",
 	"section-extlinks": "ବାହାର ଲିଙ୍କ",
 	"section-categories": "ଶ୍ରେଣୀସମୂହ"
 }
