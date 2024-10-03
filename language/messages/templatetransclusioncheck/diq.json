@@ -2,18 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"1917 Ekim Devrimi",
+			"GolyatGeri",
 			"Kumkumuk",
 			"Mirzali"
 		]
 	},
+	"title": "Kontrolê gırey u acıkerdena şabloni",
+	"description": "Wesiqe de acıkerdena yo şabloni,şablon ra azade gıre niyo u yo şabloni ra gıre bıyaye kamci wesiqe ey kena acı inan rapor keno.",
 	"form-label-language": "Zıwan:",
 	"form-label-template": "Namey Şabloni:",
 	"form-label-template2": "(caynamey daxil)",
 	"form-label-complete": "Yû tam rapor vırazê:",
 	"feedback-template-missing": "Şablon $1 çıniyo.",
+	"feedback-template-noaccess": "Şablonê $1 este aseno, feqet database de mewcud miyo. Lakin no daimi database niyo. Defiyaye database: $2.",
 	"feedback-result": "$1 ra neticeyi",
+	"feedback-header-mismatch": "Ekseya mabênê gıreyan u acıkerdeyan",
+	"feedback-header-no-link": "Biya acı lakin gıre çıni yo",
+	"feedback-header-no-transclusion": "Gıre est o lakin acı kerden çıni yo.",
 	"feedback-header-redirects": "Gırey serşıkıtışi",
 	"feedback-total-count": "Pêro :$1",
+	"feedback-header-complete": "Weynayışê mocnayış u acıkerden pêroy",
+	"feedback-header-transclusions": "Acıkerdena şabloni",
+	"feedback-header-links": "Şabloni ra gırey",
 	"link-edit": "bıvurne",
 	"link-create": "vıraze",
 	"link-complete": "Rapora tam...",
