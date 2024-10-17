@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
 	"moretools": "ਹੋਰ ਸੰਦ",
-	"homepage-title": "ਜਾਣ-ਪਛਾਣ"
+	"homepage-title": "ਜਾਣ-ਪਛਾਣ",
+	"comments": "ਟਿੱਪਣੀਆਂ ਅਤੇ ਪੁੱਛਗਿੱਛਾਂ"
 }
