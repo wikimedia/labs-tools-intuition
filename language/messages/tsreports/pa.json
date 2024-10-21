@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"AnupamM",
+			"Cabal",
 			"Tow"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">ਭਾਸ਼ਾ / ਤਰਜੀਹਾਂ ਬਦਲੋ</a>",
 	"category_users": "ਵਰਤੋਂਕਾਰ",
 	"category_articles": "ਸਫ਼ੇ",
 	"category_images": "ਤਸਵੀਰਾਂ",
