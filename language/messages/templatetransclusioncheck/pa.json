@@ -7,8 +7,11 @@
 	},
 	"form-label-language": "ਭਾਸ਼ਾ:",
 	"form-label-template": "ਫ਼ਰਮੇ ਦਾ ਨਾਂ",
+	"form-label-template2": "(ਨਾਂ-ਥਾਂ ਸਮੇਤ)",
 	"feedback-template-missing": "ਫ਼ਰਮਾ $1 ਹੋਂਦ ਵਿੱਚ ਨਹੀਂ ਹੈ।",
 	"feedback-total-count": "ਕੁਲ: $1",
+	"feedback-header-links": "ਫਰਮੇ ਤੋਂ ਕੜੀਆਂ",
 	"link-edit": "ਸੋਧੋ",
-	"link-create": "ਬਣਾਓ"
+	"link-create": "ਬਣਾਓ",
+	"error-language": "ਅਣਜਾਣ ਭਾਸ਼ਾ ਕੋਡ"
 }

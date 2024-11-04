@@ -9,5 +9,6 @@
 	"toolserver-status-short-info": "$1: ਜਾਣਕਾਰੀ",
 	"toolserver-status-short-warn": "$1: ਖ਼ਬਰਦਾਰ",
 	"toolserver-status-short-erro": "$1 : ਗਲਤੀ",
+	"toolserver-status-short-unknown": "$1: ਅਣਜਾਣ",
 	"toolserver-status-short-missing": "$1 : ਗੁੰਮ ਹੈ"
 }

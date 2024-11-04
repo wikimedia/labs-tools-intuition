@@ -19,6 +19,14 @@
 	"categories": "ਸ਼੍ਰੇਣੀਆਂ",
 	"remove_cats": "ਮੌਜੂਦਾ ਸ਼੍ਰੈਣੀਆਂ ਹਟਾਓ",
 	"tusc_pass": "TUSC ਪਾਰਸ਼ਬਦ",
+	"do_it": "ਕਰੋ",
+	"error_not_exists": "ਸਰੋਤ ਫਾਇਲ ਮੌਜੂਦ ਨਹੀਂ ਏ!",
+	"error_on_commons": "ਸਰੋਤ ਫਾਇਲ ਪਹਿਲਾਂ ਹੀ $1 ਉੱਤੇ ਹੈ!",
+	"error_file_exists": "ਫਾਇਲ ਪਹਿਲਾਂ ਹੀ $3 ਉੱਤੇ \"$1 $4 $2\" ਵਜੋਂ ਮੌਜੂਦ ਏ!",
 	"original_wikitext": "ਅਸਲੀ ਵਿਕੀ ਲਿਖਤ",
-	"new_wikitext": "ਨਵੀਂ ਵਿਕੀ ਲਿਖਤ"
+	"new_wikitext": "ਨਵੀਂ ਵਿਕੀ ਲਿਖਤ",
+	"new_filename": "ਨਵਾਂ ਫਾਇਲ ਨਾਂ:",
+	"upload_submit": "ਚੜ੍ਹਾਉ!",
+	"target_wiki": "ਟੀਚਾ ਵਿਕੀ",
+	"help_mail": "$1 ਨੂੰ ਇੱਕ ਡਾਕ ਭੇਜੋ"
 }
