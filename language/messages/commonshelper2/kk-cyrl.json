@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arystanbek"
+			"Arystanbek",
+			"Casserium"
 		]
 	},
 	"attention": "Ескерту",
@@ -28,7 +29,7 @@
 	"target_wiki": "нысана уики",
 	"error_bot_blocked": "Wikimedia Commons жобасында бот жүктеуі бұғатталған.",
 	"error_tusc_failed": "TUSC құптауы сәтсіз болды!",
-	"error_only_commons": "Тура жүктеутек Wikimedia Commons жобасында жұмыстайды!",
+	"error_only_commons": "Тура жүктеу тек Wikimedia Commons жобасында жұмыс істейді!",
 	"upload_control_text": "Бәрі дұрыс болса «$1» дегенді басыңыз және жаңа уикимәтінін тексеріңіз!",
 	"error_upload_file": "Түпнұсқа файл түсірілмеді.",
 	"help_jira": "$1JIRA (сізге аккаунт қажет етеді)$2 (Project: Commonshelper2)",
