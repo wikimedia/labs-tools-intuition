@@ -64,6 +64,7 @@
 	"good_articles": "ਚੰਗੇ ਲੇਖ",
 	"pages": "ਸਫ਼ੇ",
 	"by": "ਵੱਲੋਂ",
+	"lastUpdate": "ਆਖਰੀ ਵਾਰ ਨਵਿਆਈਆਂ",
 	"namespaces": "ਨਾਂ-ਥਾਂ",
 	"furtherInformation": "ਹੋਰ ਜਾਣਕਾਰੀ",
 	"on": "ਤੇ",
@@ -71,9 +72,11 @@
 	"submit": "ਹਵਾਲੇ ਕਰੋ",
 	"save": "ਸਾਂਭੋ",
 	"cancel": "ਰੱਦ ਕਰੋ",
+	"projectPages": "ਪ੍ਰੋਜੈਕਟ ਸਫ਼ੇ",
 	"backToTop": "ਸਿਖਰ ਵੱਲ ਵਾਪਸ",
 	"winningArticles": "ਜਿੱਤਣ ਵਾਲੇ ਲੇਖ",
 	"numPageWatchers": "ਸਫ਼ੇ ’ਤੇ ਨਜ਼ਰ ਰੱਖਣ ਵਾਲਿਆਂ ਦੀ ਗਿਣਤੀ",
 	"linkStats": "ਸਫ਼ੇ ਦੇ ਅੰਕਡ਼ਿਆਂ ਲਈ ਕੜੀ",
-	"linkArticle": "ਵਿਕੀ ਲੇਖ ਦੀ ਕੜੀ"
+	"linkArticle": "ਵਿਕੀ ਲੇਖ ਦੀ ਕੜੀ",
+	"totalShare": "ਕੁੱਲ ਸਾਂਝੇ ਕੀਤੇ"
 }
