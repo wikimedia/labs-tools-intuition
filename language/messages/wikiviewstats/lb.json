@@ -44,7 +44,7 @@
 	"template": "Schabloun",
 	"files": "{{PLURAL: $1|Fichier|Fichieren}}",
 	"specialPage": "Spezialsäit",
-	"helpPage": "Hëllefsäit",
+	"helpPage": "Hëllefssäit",
 	"projectTotals": "Totaler vum Projet",
 	"wikiThanks": "Merci",
 	"log": "Log",
