@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chinmayee Mishra",
 			"Jnanaranjan Sahu",
 			"Shisir 1945"
 		]
 	},
-	"formats-heading": "ଆଉଟ୍‌ପୁଟ୍‌ ବିନ୍ୟାସ",
+	"formats-heading": "ଆଉଟପୁଟ୍ ଫର୍ମାଟ୍",
 	"input": "ଇନ୍‌ପୁଟ୍‌",
 	"label-wikiids": "ଉଇକି ଚିହ୍ନଟକାରୀ",
 	"no-matches": "କିଛି ମିଶିଲା ନାହିଁ \"$1\"",

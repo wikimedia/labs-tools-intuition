@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chinmayee Mishra",
 			"Jnanaranjan Sahu",
 			"Susant purohit"
 		]
@@ -13,8 +14,8 @@
 	"form-submit": "ଯିବେ",
 	"form-reset": "ପୁନସ୍ଥାପନ",
 	"years": "{{PLURAL: $1|ବର୍ଷ|ବର୍ଷଗୁଡିକ}}",
-	"months": "{{PLURAL:$1|$1 month|$1 months}}",
-	"weeks": "{{PLURAL: $1|ସପ୍ତାହ|ସପ୍ତାହଗୁଡିକ}}",
+	"months": "{{PLURAL:$1|$1 month|$1 ମାସ}}",
+	"weeks": "{{PLURAL: $1|week|ସପ୍ତାହଗୁଡିକ}}",
 	"days": "($1 {{PLURAL:$1|ଦିନ|ଦିନଗୁଡିକ}})",
 	"hours": "($1 {{PLURAL:$1|ଘଣ୍ଟା|ଘଣ୍ଟା}})",
 	"minutes": "$1 {{PLURAL:$1|ମିନିଟ|ମିନିଟ}}",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chinmayee Mishra",
 			"Jnanaranjan Sahu",
 			"MKar"
 		]
@@ -22,7 +23,7 @@
 	"use_tusc": "ଅନୁମତି ପାଇଁ ଓ ଫାଇଲଗୁଡିକୁ ସିଧା ସ୍ଥାନାନ୍ତର କରିବା ପାଇଁ $1TUSC$2 ବ୍ୟବହାର କରନ୍ତୁ",
 	"tusc_user": "TUSC ବ୍ୟବହାରକାରୀନାମ",
 	"tusc_pass": "TUSC ପାସୱାର୍ଡ",
-	"do_it": "ଏହାକୁ କରନ୍ତୁ",
+	"do_it": "ଏହାକୁ ଆଗକୁ ନିଅନ୍ତୁ",
 	"error_transfer_usr": "ଆପଣ ଉଇକିମିଡ଼ିଆ କମନ୍ସରେ କୌଣସି ବ୍ୟବହାରକାରୀନାମ ଦେଇ ନାହାନ୍ତି",
 	"error_not_exists": "ମୂଳ ପୃଷ୍ଠାଟି ନାହିଁ !",
 	"error_on_commons": "ମୂଳ ଫାଇଲଟି $1ରେ ଆଗରୁ ଅଛି !",

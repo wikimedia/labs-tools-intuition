@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chinmayee Mishra",
 			"Psubhashish",
 			"Susant purohit"
 		]
@@ -9,8 +10,8 @@
 	"enter-details": "ବିବରଣୀ ଦିଅନ୍ତୁ",
 	"results": "ଫଳାଫଳ",
 	"language-label": "ଭାଷା",
-	"namespace-label": "ନାମସ୍ଥାନ",
+	"namespace-label": "ନେମସ୍ପେସ",
 	"project-label": "ପ୍ରକଳ୍ପ",
 	"pattern-label": "ନମୁନା",
-	"redirects-label": "ଫେରିଆସିଥିବା ଗୁଡିକୁ ମିଶେଇ ଦିଅନ୍ତୁ"
+	"redirects-label": "ରିଡାଇରେକ୍ଟ ଗୁଡିକୁ ମିଶେଇ ଦିଅନ୍ତୁ"
 }

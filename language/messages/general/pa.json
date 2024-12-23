@@ -14,7 +14,7 @@
 	"form-submit": "ਜਾਓ",
 	"form-reset": "ਰੀ-ਸੈੱਟ",
 	"years": "{{PLURAL: $1|ਸਾਲ|ਵਰ੍ਹੇ}}",
-	"months": "{{PLURAL: $1|ਮਹੀਨਾ|ਮਹੀਨ}}",
+	"months": "{{PLURAL: $1|ਮਹੀਨਾ|ਮਹੀਨੇ}}",
 	"weeks": "{{PLURAL: $1|ਹਫ਼ਤਾ|ਹਫ਼ਤੇ}}",
 	"days": "{{PLURAL: $1|ਦਿਨ}}",
 	"hours": "{{PLURAL: $1|ਘੰਟਾ|ਘੰਟੇ}}",
