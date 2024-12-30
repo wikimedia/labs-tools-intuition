@@ -5,6 +5,7 @@
 			"Jopparn",
 			"Liftarn",
 			"Lokal Profil",
+			"Skalman",
 			"WikiPhoenix"
 		]
 	},
@@ -40,7 +41,7 @@
 	"output_information": "För att ladda upp filen manuellt, redigera texten ovan (om nödvändigt), spara $1filen$2 på din dator, och $3ladda sedan upp den$4.",
 	"upload_submit": "Ladda upp!",
 	"target_wiki": "målwikin",
-	"error_bot_blocked": "Upload-botten är blokerad på Wikimedia Commons.",
+	"error_bot_blocked": "Uppladdningsbotten är blockerad på Wikimedia Commons.",
 	"error_upload_meta": "Kan inte ladda upp direkt eftersom det finns problem med metadata (se ovan)!",
 	"error_tusc_failed": "TUSC-verifiering misslyckades!",
 	"error_only_commons": "Direktuppladdning fungerar bara på Wikimedia Commons!",
