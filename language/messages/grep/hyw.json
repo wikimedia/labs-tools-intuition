@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Azniv Stepanian"
+			"Azniv Stepanian",
+			"Kareyac"
 		]
 	},
+	"language-label": "Լեզու",
 	"namespace-label": "Անուանատարածք"
 }
