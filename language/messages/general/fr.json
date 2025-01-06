@@ -23,7 +23,7 @@
 	"days": "jour{{PLURAL: $1||s}}",
 	"hours": "heure{{PLURAL: $1||s}}",
 	"minutes": "minute{{PLURAL: $1||s}}",
-	"seconds": "seconde{{PLURAL: $1||s}}",
+	"seconds": "{{PLURAL: $1|seconde|secondes}}",
 	"last-modified-date": "Dernière modification : $1",
 	"view-source": "Voir la source",
 	"and": "&#32;et"
