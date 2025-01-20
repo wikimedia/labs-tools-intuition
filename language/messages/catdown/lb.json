@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"title": "Biller vun enger Kategorie eroflueden",
@@ -12,8 +13,8 @@
 	"thumbnailing": "Miniaturbild gëtt gemaach",
 	"max-width": "Maximal Breet:",
 	"max-height": "Maximal Héicht:",
-	"invalid-width": "D'Breet ass net valabel",
-	"invalid-height": "D'Héicht ass net valabel",
+	"invalid-width": "Ongülteg Breet",
+	"invalid-height": "Ongülteg Héicht",
 	"no-such-project": "Sou e Projet gëtt et net",
 	"no-images": "Et gëtt keng Biller an där Kategorie",
 	"category-is-url": "D'Kategorie déi ugi gouf gesäit wéi eng komplett URL aus. Dir musst den Numm vun der Kategorie uginn, an net hir URL.",
