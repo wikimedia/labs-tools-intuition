@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Chorobek",
 			"Growingup",
 			"Викиней"
@@ -17,7 +18,7 @@
 	"weeks": "{{PLURAL: $1|апта|апталар}}",
 	"days": "{{PLURAL: $1|күн|күндөр}}",
 	"hours": "{{PLURAL: $1|саат|сааттар}}",
-	"minutes": "{{PLURAL: $1|мүнөт|мүнөттөр}}",
+	"minutes": "{{PLURAL: $1|мүнөт}}",
 	"seconds": "{{PLURAL: $1|секунд|секундалар}}",
 	"last-modified-date": "$1 акыркы жолу өзгөртүлгөн",
 	"view-source": "Кайнарды кара",
