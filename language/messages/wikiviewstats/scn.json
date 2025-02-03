@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"list": "Elencu",
@@ -11,7 +12,7 @@
 	"page": "Pàggina",
 	"settings": "Mpustazzioni",
 	"help": "aiutu",
-	"today": "oi",
+	"today": "oji",
 	"all": "tutti",
 	"allLang": "Tutti li lingui",
 	"popular": "populari",
