@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chaduvari",
 			"Veeven"
 		]
 	},
@@ -8,6 +9,7 @@
 	"close": "మూసివేయి",
 	"cvn-reason": "కారణం",
 	"help": "సహాయం",
+	"helpicon-tooltip": "ఈ విశేషం గురించి మరింత తెలుసుకోండి",
 	"license": "లైసెన్సు",
 	"limit": "పరిమితి",
 	"namespace": "పేరుబరి",
