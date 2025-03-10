@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"apply": "Applica",
@@ -32,6 +33,6 @@
 	"showAnonOnly": "Sulu anònimi",
 	"tag": "Etichetta",
 	"type": "Tipu",
-	"typeEdit": "Canciamenti",
+	"typeEdit": "Canci",
 	"typeNew": "Pàggini novi"
 }
