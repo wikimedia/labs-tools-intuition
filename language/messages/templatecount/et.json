@@ -5,8 +5,9 @@
 			"Pikne"
 		]
 	},
+	"title": "Malli kasutamiste arv",
 	"enter-details": "Üksikasjade sisestamine",
-	"introduction": "Sisesta malli nimi (praegu ainult Vikipeediatele) ja klõpsa \"Mine\". Nii lihtne ongi. Mõned tulemused võivad jääda vahemällu, aga sellest hoidumine pole paraku selle tööriista abil võimalik ega tööriista arendaja võimuses.",
+	"introduction": "Sisesta malli nimi (praegu ainult Vikipeediatele) ja klõpsa nuppu \"Mine\". Nii lihtne ongi. Mõned tulemused võivad jääda vahemällu, aga sellest hoidumine pole paraku selle tööriista abil võimalik ega tööriista arendaja võimuses.",
 	"language-label": "Keel",
 	"namespace-label": "Nimeruum",
 	"pagename-label": "Lehekülje nimi (nimeruumita)",
