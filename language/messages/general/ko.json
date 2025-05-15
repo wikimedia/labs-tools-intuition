@@ -24,7 +24,7 @@
 	"hours": "{{PLURAL: $1|시}}",
 	"minutes": "{{PLURAL: $1|분}}",
 	"seconds": "{{PLURAL: $1|초}}",
-	"last-modified-date": "최근 수정일: $1",
+	"last-modified-date": "마지막 수정: $1",
 	"view-source": "원본 보기",
 	"and": "&#32;및&#32;"
 }
