@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wheelygay"
+		]
+	},
+	"error_upload_meta": "Cannot upload directly because there is a problem with the metadata (see above)!"
+}
