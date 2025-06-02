@@ -4,7 +4,8 @@
 			"Beta16",
 			"Greis",
 			"McDutchie",
-			"Ontsed"
+			"Ontsed",
+			"Wheelygay"
 		]
 	},
 	"records": "records",
@@ -82,7 +83,7 @@
 	"rawDataSource": "fonte di dati grezzi",
 	"helpDiscuss": "Aiuto / Discussione / Miglioramenti",
 	"dbUpdateInProgress": "aggiornamento del database in corso",
-	"filtersOut": "filtra alcune voci tecniche - per i dettagli consultare la uida",
+	"filtersOut": "filtra alcune voci tecniche - per i dettagli consulta l'aiuto",
 	"lastUpdate": "ultimo aggiornamento",
 	"urlToUserpage": "URL di sezione o sottosezione (#) della tua pagina utente.",
 	"tooltipSearch": "titolo della pagina (es. Hollywood) - si può anche utilizzare il carattere \"*\" ad esempio Hollywood* o Utente:Tom*. Consultare la guida per maggiori informazioni.",

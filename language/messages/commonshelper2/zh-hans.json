@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Diskdance",
+			"GuoPC",
 			"Hydra",
 			"Hzy980512",
 			"Linforest",
@@ -47,7 +48,7 @@
 	"target_wiki": "目标维基",
 	"standard_project": "维基百科",
 	"error_bot_blocked": "上传机器维基共享资源上被阻止。",
-	"error_upload_meta": "不能直接上载，因为有的元数据的问题（见上文）！",
+	"error_upload_meta": "无法直接上传，元数据存在问题（见上文）！",
 	"error_tusc_failed": "TUSC 验证失败！",
 	"error_only_commons": "只能在维基共享资源直接上传作品！",
 	"upload_control_text": "请检查新的wiki代码，如无问题请点击 $1。",
