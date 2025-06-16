@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Crochet.david",
+			"Derugon",
 			"Gomoko",
 			"Jean-Frédéric",
 			"Od1n",
@@ -9,11 +10,13 @@
 			"Verdy p"
 		]
 	},
+	"dateformat": "%d %B %Y",
 	"hello": "Bonjour",
 	"welcome": "Bienvenue",
 	"toolversion": "Version $1",
 	"toolversionstamp": "Version $1 ($2)",
 	"etc": "etc.",
+	"colon-separator": "&#32;:",
 	"namespace": "Espace de noms",
 	"form-submit": "Valider",
 	"form-reset": "Réinitialiser",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Derugon",
 			"Gomoko",
 			"Verdy p"
 		]
@@ -41,6 +42,7 @@
 	"report_first_run": "Ce rapport est en cours de génération pour la première fois, aucune donnée n’est donc encore disponible.",
 	"report_last_run_duration": "Ce rapport a été généré en %(duration)s.",
 	"report_variables_used": "Les variables suivantes ont été utilisées pour générer ce rapport :",
+	"report_variable": "%(name)s : %(value)s",
 	"report_noresults": "Désolé, ce rapport n’a produit aucun résultat.",
 	"report_change_report": "<a href=\"%(url)s\">Modifier le rapport</a>",
 	"report_change_wiki": "<a href=\"%(url)s\">Modifier le wiki</a>"
