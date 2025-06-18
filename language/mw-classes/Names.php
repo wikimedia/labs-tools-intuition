@@ -386,7 +386,7 @@ class Names {
 		'ses' => 'Koyraboro Senni', # Koyraboro Senni
 		'sg' => 'Sängö', # Sango/Sangho
 		'sgs' => 'žemaitėška', # Samogitian
-		'sh' => 'srpskohrvatski / српскохрватски', # Serbocroatian
+		'sh' => 'srpskohrvatski / српскохрватски', # Serbo-Croatian
 		'shi' => 'Tašlḥiyt/ⵜⴰⵛⵍⵃⵉⵜ', # Tachelhit (multiple scripts - defaults to Latin)
 		'shi-tfng' => 'ⵜⴰⵛⵍⵃⵉⵜ', # Tachelhit (Tifinagh script)
 		'shi-latn' => 'Tašlḥiyt', # Tachelhit (Latin script)
