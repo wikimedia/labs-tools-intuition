@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
-	"bl-mysettings": "زما د ژبې امستنې",
+	"bl-mysettings": "زما ژب‌اوڼنې",
 	"bl-mysettings-new": "ژبه ټاکل!",
 	"bl-promo": "ژباړې د $1 او $2 لخوا برابرې شوي."
 }

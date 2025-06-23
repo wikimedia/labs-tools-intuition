@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kusavica",
 			"Mikulas1",
 			"Patriccck",
 			"Patrik L."
@@ -10,8 +11,11 @@
 	"project": "Projekt",
 	"source_file": "Zdrojový súbor",
 	"target_file": "Cieľový súbor",
+	"categories": "Kategórie",
+	"remove_cats": "Odstrániť existujúce kategórie",
 	"original_wikitext": "Pôvodný wiki text",
 	"new_wikitext": "Nový wiki text",
 	"new_filename": "Nový názov súboru:",
-	"standard_project": "Wikipedia"
+	"standard_project": "Wikipédia",
+	"error_upload_file": "Pôvodný súbor sa nedá stiahnuť."
 }

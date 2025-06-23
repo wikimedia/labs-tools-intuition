@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"list": "لړليک",
@@ -10,7 +11,7 @@
 	"page": "مخ",
 	"searchResults": "د پلټنې پايلې",
 	"rank": "پوړ",
-	"settings": "امستنې",
+	"settings": "اوڼنې",
 	"help": "لارښود",
 	"today": "نن",
 	"all": "ټول",
