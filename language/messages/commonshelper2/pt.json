@@ -4,7 +4,8 @@
 			"Analuisa",
 			"Athena in Wonderland",
 			"Hamilton Abreu",
-			"Luckas"
+			"Luckas",
+			"O andras"
 		]
 	},
 	"attention": "Atenção",
@@ -40,7 +41,7 @@
 	"upload_submit": "Upload!",
 	"target_wiki": "o wiki alvo",
 	"error_bot_blocked": "O robô de carregamento está bloqueado na wiki Wikimedia Commons.",
-	"error_upload_meta": "Não é possível enviar diretamente, pois houve um problema com os metadados (veja acima)!",
+	"error_upload_meta": "Não é possível enviar diretamente, pois houve um problema com os metadados (ver acima)!",
 	"error_tusc_failed": "Falha na verificação do TUSC!",
 	"error_only_commons": "O carregamento direto só funciona na wiki Wikimedia Commons!",
 	"upload_control_text": "Por favor, verifique a nova notação wiki e clique em \"$1\", se estiver tudo certo!",
