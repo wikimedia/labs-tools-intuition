@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"hello": "سلامونه",
@@ -12,7 +13,7 @@
 	"form-submit": "ورځه",
 	"form-reset": "بياايښودل",
 	"years": "{{PLURAL: $1|کال|کالونه}}",
-	"weeks": "{{PLURAL: $1|اونۍ|اونۍ}}",
+	"weeks": "{{PLURAL: $1|اوونۍ|اوونۍ}}",
 	"days": "{{PLURAL: $1|ورځ|ورځې}}",
 	"hours": "{{PLURAL:$1|ساعت|ساعتونه}}",
 	"minutes": "{{PLURAL:$1|دقيقه|دقيقې}}",

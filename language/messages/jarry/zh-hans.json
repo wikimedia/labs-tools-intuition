@@ -3,6 +3,7 @@
 		"authors": [
 			"Hydra",
 			"Liuxinyu970226",
+			"WiiUf",
 			"Yfdyh000"
 		]
 	},
@@ -10,5 +11,5 @@
 	"homepage-title": "介绍",
 	"bugs": "问题报告和功能请求",
 	"comments": "意见及查询",
-	"error-form-empty": "一个或多个必填的字段被留空。您应该在继续之前填写完整。"
+	"error-form-empty": "一个或多个必填的字段留空。请填写完整后继续。"
 }
