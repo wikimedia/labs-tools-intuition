@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sahran"
+		]
+	},
+	"title": "يېقىنقى شۇئان ئۆزگىرىش",
+	"apply": "قوللان",
+	"autodiff": "ئاپتوماتىك پەرق",
+	"asc": "ئۆسكۈچى",
+	"changelog": "يېڭىلىق",
+	"clear": "تازىلا",
+	"close": "ياپ",
+	"currentedit": "نۆۋەتتە تاللانغان تەھرىر",
+	"cvn-adder": "قوشقۇچى",
+	"cvn-adder-empty": "نامەلۇم",
+	"cvn-reason": "سەۋەب",
+	"cvn-reason-empty": "سەۋەبى تېپىلمىدى",
+	"cvn-scores": "CVN نومۇرى"
+}

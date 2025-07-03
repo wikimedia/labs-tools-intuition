@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sahran"
+		]
+	},
+	"adder": "قوشقۇچى",
+	"adder-empty": "نامەلۇم",
+	"expiry": "مۇددىتى",
+	"globalwatched": "ئومۇمىيەتتە كۆزەتتە",
+	"reason": "سەۋەب",
+	"reason-empty": "سەۋەبى تېپىلمىدى"
+}

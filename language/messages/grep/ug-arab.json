@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sahran"
+		]
+	},
+	"title": "ماقالە ماۋزۇسى grep (سىناق)",
+	"explanation": "ئىزاھات",
+	"regex": "مۇنتىزىم ئىپادە",
+	"enter-details": "تەپسىلاتى كىرگۈزۈلىدۇ",
+	"results": "نەتىجە",
+	"language-label": "تىل",
+	"namespace-label": "ئات بوشلۇقى",
+	"project-label": "قۇرۇلۇش",
+	"pattern-label": "ئەندىزە",
+	"redirects-label": "قايتا نىشانلاشنى ئۆز ئىچىگە ئالىدۇ",
+	"limit-label": "ئالدىنقى 100 نەتىجىنى كۆرسىتىش بىلەن چەكلەيدۇ",
+	"match-count": "مۇنتىزىم ئىپادىڭىزگە {{PLURAL:$1|$1 بەت}} ماس كەلدى."
+}

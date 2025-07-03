@@ -8,6 +8,7 @@
 	"dateformat": "%Y-يىلى %d-ئاينىڭ %B-كۈنى",
 	"hello": "ئەسسالامۇئەلەيكۇم",
 	"welcome": "مەرھابا",
+	"toolversion": "نەشرى $1",
 	"toolversionstamp": "نەشرى $1 ($2)",
 	"etc": "قاتارلىق.",
 	"colon-separator": ":",
@@ -15,6 +16,7 @@
 	"form-submit": "يوللاش",
 	"form-reset": "ئەسلىگە قايتۇر",
 	"years": "{{PLURAL: $1|يىل|يىل}}",
+	"months": "{{PLURAL: $1|ئاي}}",
 	"weeks": "{{PLURAL: $1|ھەپتە|ھەپتە}}",
 	"days": "{{PLURAL: $1|كۈن|كۈن}}",
 	"hours": "{{PLURAL: $1|سائەت|سائەت}}",
@@ -22,5 +24,6 @@
 	"seconds": "{{PLURAL: $1|سېكۇنت|سېكۇنت}}",
 	"last-modified-date": "ئاخىرقى ئۆزگەرتىش: $1",
 	"view-source": "مەنبەنى كۆرسەت",
-	"parentheses": "($1)"
+	"parentheses": "($1)",
+	"and": "ۋە"
 }
