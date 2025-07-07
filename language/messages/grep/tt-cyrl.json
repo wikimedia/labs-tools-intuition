@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ерней"
+			"Ерней",
+			"Ильгиз"
 		]
 	},
 	"enter-details": "Тәфсилләрне кертегез",
 	"results": "Нәтиҗәләр",
 	"language-label": "Тел",
-	"namespace-label": "Исемнәр киңлеге",
+	"namespace-label": "Исемара",
 	"project-label": "Проект"
 }

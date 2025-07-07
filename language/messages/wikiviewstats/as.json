@@ -3,6 +3,7 @@
 		"authors": [
 			"Dibya Dutta",
 			"Gitartha.bordoloi",
+			"Psneog",
 			"Simbu123"
 		]
 	},
@@ -102,7 +103,7 @@
 	"submit": "দাখিল কৰক",
 	"save": "সাঁচি থওক",
 	"cancel": "বাতিল কৰক",
-	"resetAndDelete": "কুকিজ ৰিছেট আৰু বিলোপ কৰক",
+	"resetAndDelete": "কুকিসমূহ ৰিছেট আৰু বিলোপ কৰক",
 	"autofilter": "সয়ংক্ৰিয় পৰিস্ৰাৱক",
 	"barchart": "বাৰ তালিকা",
 	"linechart": "ৰেখা তালিকা",

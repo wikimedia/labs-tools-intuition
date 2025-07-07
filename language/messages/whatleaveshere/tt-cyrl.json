@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ерней"
+			"Ерней",
+			"Ильгиз"
 		]
 	},
 	"sub-leaveshere": "$1 дан түбәндәге битләр сылтаналар",
 	"label-page": "Бит",
-	"label-namespace": "Исемнәр киңлеге",
+	"label-namespace": "Исемара",
 	"label-limit": "Чикләмә",
 	"namespacesall": "барысы",
 	"button-submit": "Башкару",

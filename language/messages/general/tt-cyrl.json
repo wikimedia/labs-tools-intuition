@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ерней"
+			"Ерней",
+			"Ильгиз"
 		]
 	},
 	"hello": "Сәлам",
@@ -9,7 +10,7 @@
 	"toolversion": "Чыгарылыш $1",
 	"toolversionstamp": "Чыгарылыш $1 ($2)",
 	"etc": "һ.б.",
-	"namespace": "Исемнәр киңлеге",
+	"namespace": "Исемара",
 	"form-submit": "Күчү",
 	"form-reset": "Кире кую",
 	"years": "{{PLURAL: $1|ел}}",
