@@ -1,13 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"JeffreyKim",
 			"Winston Sung"
 		]
 	},
 	"enter-details": "填入詳細資料",
+	"introduction": "輸入個範本嘅名（暫時只係維基百科），然後撳去就咁簡單。就係咁簡單。有啲快取（記住結果），但係好可惜呢個工具同佢嘅擁有者唔可以控制。",
 	"language-label": "話",
 	"namespace-label": "空間名",
 	"pagename-label": "版名（唔包空間名）",
+	"transclusion-count-label": "轉錄嘅數量",
 	"transclusion-count": "搵到$1次引用",
+	"error-suggestion": "可能你拼錯咗頁名（或者大寫錯誤）？",
 	"time-label": "執行指令用咗嘅時間"
 }
