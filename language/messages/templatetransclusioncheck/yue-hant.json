@@ -4,5 +4,16 @@
 			"JeffreyKim"
 		]
 	},
+	"title": "範本條拎同轉錄檢查",
+	"description": "檢查同埋報告邊啲包含範本同冇範本條拎嘅文章，同埋邊啲喺範本條拎嘅文章唔會包含呢個範本。",
+	"form-label-language": "語言",
+	"form-label-template": "範本名稱：",
+	"form-label-template2": "（包括命名空間）",
+	"form-label-complete": "生成完整報告：",
+	"feedback-template-missing": "範本 $1 唔存在。",
+	"feedback-template-noaccess": "範本$1似乎存在，但係喺資料庫入面係唔可以用到。呢個可能係一個臨時嘅資料庫問題。用咗嘅資料庫：$2。",
+	"feedback-result": "結果係 $1",
+	"feedback-header-mismatch": "轉錄同啲拎之間唔啱",
+	"feedback-header-no-link": "轉錄，但係冇咗條拎",
 	"error-language": "未知嘅語言代碼。"
 }
