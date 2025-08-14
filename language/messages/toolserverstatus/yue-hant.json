@@ -1,21 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"JeffreyKim"
+			"JeffreyKim",
+			"Ktchankt",
+			"Yueman"
 		]
 	},
 	"toolserver-status-ok": "資料庫叢集冇問題$1 $2",
-	"toolserver-status-info": "叢集$1嘅使用者嘅通知：$2",
-	"toolserver-status-warn": "叢集$1嘅使用者嘅警告：$2",
+	"toolserver-status-info": "叢集$1嘅用戶嘅通知：$2",
+	"toolserver-status-warn": "叢集$1嘅用戶嘅警告：$2",
 	"toolserver-status-down": "資料庫叢集$1已經暫時閂咗。$2",
 	"toolserver-status-erro": "資料庫叢集$1跌咗。$2",
 	"toolserver-status-unknown": "叢集$1嘅未知狀態",
 	"toolserver-status-missing": "叢集$1唔存在。",
 	"toolserver-status-short-ok": "$1：好",
 	"toolserver-status-short-info": "$1：資訊",
-	"toolserver-status-short-warn": "$1:警告",
-	"toolserver-status-short-down": "$1:落",
-	"toolserver-status-short-erro": "$1:錯誤",
+	"toolserver-status-short-warn": "$1：警告",
+	"toolserver-status-short-down": "$1：死咗機",
+	"toolserver-status-short-erro": "$1：錯誤",
 	"toolserver-status-short-unknown": "$1：未知",
 	"toolserver-status-short-missing": "$1: 唔見咗"
 }
