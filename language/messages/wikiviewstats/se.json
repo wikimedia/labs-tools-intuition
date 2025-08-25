@@ -19,6 +19,7 @@
 	"files": "{{PLURAL: $1|fiila|fiilla}}",
 	"specialPage": "Doaibmasiidu",
 	"wikiThanks": "Giitu",
+	"size": "sturrodat",
 	"deleted": "sihkkojuvvon",
 	"namespaces": "nammagomuvuođat",
 	"save": "vurke",
