@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Revi",
+			"YeBoy371",
 			"Ykhwong",
 			"아라"
 		]
@@ -83,7 +84,21 @@
 	"selectCategory": "왼쪽 메뉴에서 분류를 선택하십시오",
 	"furtherInformation": "추가 정보",
 	"urlParameter": "URL 변수",
+	"on": "켜기",
+	"off": "끄기",
 	"submit": "제출",
 	"save": "저장",
-	"cancel": "취소"
+	"cancel": "취소",
+	"resetAndDelete": "쿠키 초기화 또는 삭제",
+	"autofilter": "자동 필터",
+	"barchart": "막대도표",
+	"linechart": "선도표",
+	"linechart_filled": "채워진 선도표",
+	"isRedirect": "이 문서는 넘겨주기입니다",
+	"disambPage": "동음이의 문서",
+	"showRedir": "넘겨주기 표시",
+	"addToWorkList": "작업 목록에 추가",
+	"removeFromWorklist": "작업 목록에서 삭제",
+	"projectPages": "프로젝트 문서",
+	"numPageWatchers": "문서를 주시하는 사용자 수"
 }
