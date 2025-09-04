@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"title": "د کينډۍ تړنې او لېږدونې سم‌کتنه",
+	"description": "د هغه ليکنو سم‌کتنه کول چې د يوې کينډۍ څخه لېږدول کېږي؛ خو کينډۍ سره تړل شوې نه دي، او کومې ليکنې چې د يوې ليکنې سره تړل شوې دي، هغه نه لېږدوي.",
+	"form-label-language": "ژبه:",
+	"form-label-template": "کينډۍ نوم:",
+	"form-label-template2": "(د نوم‌تشيال په شمول)",
+	"form-label-complete": "بشپړ راپور جوړول:",
+	"feedback-template-missing": "$1 کينډۍ شتون نه لري.",
+	"feedback-template-noaccess": "داسې ښکاري چې $1 کينډۍ شتون لري؛ خو په اومتوک‌اډانه کې د لاسرسي وړ نه ده. دا ښايي د اومتوک‌اډانې لنډمهاله ستونزه وي. کارول‌شوې اومتوک‌اډانه: $2.",
+	"feedback-result": "د $1 لپاره پايلې",
+	"feedback-header-mismatch": "د لېږدونو او تړنو ترمنځ ناانډولي",
+	"feedback-header-no-link": "لېږد؛ خو هېڅ تړونی نشته",
+	"feedback-header-no-transclusion": "لېږد؛ خو هېڅ تړونی نشته",
+	"feedback-header-redirects": "مخگرځو ته تړوني",
+	"feedback-total-count": "ټولټال: $1",
+	"feedback-header-complete": "بشپړ لېږد او د تړوني ټول‌کتنه",
+	"feedback-header-transclusions": "د کينډۍ لېږدونې",
+	"feedback-header-links": "له کينډۍ څخه تړوني",
+	"link-edit": "سمول",
+	"link-create": "جوړول",
+	"link-complete": "بشپړ راپور...",
+	"footer-stats": "پنځول‌شوی: $1. موده: $2 {{PLURAL:$2|ثانيه|ثانيې}}.",
+	"error-language": "ناجوت ژبکوډ"
+}
