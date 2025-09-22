@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"label-page": "مخ",
@@ -10,6 +11,8 @@
 	"namespacesall": "ټول",
 	"button-submit": "ورځه",
 	"whatlinkshere": "د دې مخ تړنې",
+	"isfile": "دوتنې تړونی",
+	"linksearch": "تړوني‌پلټل",
 	"section-links": "تړنې",
 	"section-iwlinks": "ويکي خپلمنځي تړنې",
 	"section-extlinks": "باندنۍ تړنه",

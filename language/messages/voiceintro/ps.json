@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"voiceintro-toolbar-stop-label": "درول",
+	"voiceintro-toolbar-clear-label": "سپينول",
 	"voiceintro-toolbar-upload-label": "پورته کول",
 	"voiceintro-information-label": "مالومات",
+	"voiceintro-information-speaker-label": "ويناوال نوم:",
 	"voiceintro-information-language-label": "ژبه:"
 }

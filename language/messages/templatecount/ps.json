@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"enter-details": "سپيناوي دننه‌کول",
 	"language-label": "ژبه",
 	"namespace-label": "نوم‌تشيال"
 }
