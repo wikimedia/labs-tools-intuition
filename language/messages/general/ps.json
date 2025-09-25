@@ -7,17 +7,20 @@
 	},
 	"hello": "سلامونه",
 	"welcome": "ښه راغلۍ",
+	"toolversion": "$1 بل‌بڼه",
 	"toolversionstamp": "نسخه $1 ($2)",
 	"etc": "او داسې نور",
 	"namespace": "نوم‌تشيال",
 	"form-submit": "ورځه",
 	"form-reset": "بياايښودل",
 	"years": "{{PLURAL: $1|کال|کالونه}}",
+	"months": "{{PLURAL: $1|مياشت|مياشتې}}",
 	"weeks": "{{{{PLURAL: $1|اوونۍ}}}}",
 	"days": "{{PLURAL: $1|ورځ|ورځې}}",
 	"hours": "{{PLURAL:$1|ساعت|ساعتونه}}",
 	"minutes": "{{PLURAL:$1|دقيقه|دقيقې}}",
 	"seconds": "{{PLURAL:$1|ثانيه|ثانيې}}",
 	"last-modified-date": "وروستی بدلون: $1",
-	"view-source": "سرچينه کتل"
+	"view-source": "سرچينه کتل",
+	"and": "&#32;او"
 }

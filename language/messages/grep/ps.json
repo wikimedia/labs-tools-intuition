@@ -1,12 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"enter-details": "سپيناوي دننه کړئ",
 	"results": "پايلې",
 	"language-label": "ژبه",
 	"namespace-label": "نوم‌تشيال",
 	"project-label": "پروژه",
-	"pattern-label": "مخبېلگه"
+	"pattern-label": "مخبېلگه",
+	"redirects-label": "مخگرځو په شمول",
+	"limit-label": "ښودنه لومړیو ۱۰۰ پایلو ته محدودول"
 }

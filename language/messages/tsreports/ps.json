@@ -12,6 +12,11 @@
 	"category_wikidata": "ويکي‌اومتوک",
 	"select_wiki_title": "يو ويکي وټاکئ",
 	"select_wiki_next": "بل →",
+	"select_report": "مهرباني وکړئ يو راپور غوره کړئ:",
+	"select_report_go_back": "← ويکي بدلول",
+	"qvar_next": "بل →",
+	"prefs_title": "راپورونو غوره‌توبونه",
 	"prefs_submit": "ښه",
+	"prefs_done": "ستاسو غوره‌توبونه بدل شول.",
 	"prefs_langlabel": "د ليدنمخ ژبه:"
 }

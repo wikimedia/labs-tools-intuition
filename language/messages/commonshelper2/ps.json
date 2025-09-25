@@ -4,7 +4,8 @@
 			"Af420",
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
 			"Amjad Khan",
-			"Baloch Khan"
+			"Baloch Khan",
+			"شاه زمان پټان"
 		]
 	},
 	"attention": "پاملرنه",
@@ -12,10 +13,18 @@
 	"project": "پروژه",
 	"source_file": "سرچينيزه دوتنه",
 	"target_file": "د موخې دوتنه",
+	"commons_username": "ويکي‌رسنۍ خونديځ کارن‌نوم",
+	"commons_to_project": "ويکي‌رسنۍ خونديځ پروژې ته",
+	"move_file_from_com": "له ويکي‌رسنۍ خونديځ نه پروژې ته دوتنه لېږدول",
 	"categories": "وېشنيزې",
+	"remove_cats": "شته وېشنيزې لرې‌کول",
 	"tusc_user": "TUSC کارن نوم",
 	"tusc_pass": "TUSC پټنوم",
 	"do_it": "ترسره يې کړه",
+	"error_not_exists": "سرچينې دوتنه شتون نه لري!",
+	"error_on_commons": "سرچينې دوتنه لادمخه په $1 کې ده",
+	"error_file_exists": "دوتنه لادمخه په $3 کې د \"$1$4$2\" په توگه شتون لري!",
+	"original_wikitext": "آر ويکي ليک",
 	"new_wikitext": "نوی ويکي متن",
 	"new_filename": "د نوې دوتنې نوم:",
 	"upload_submit": "پورته کول:",

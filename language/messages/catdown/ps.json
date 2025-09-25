@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"project": "پروژه:",
 	"category": "وېشنيزه:",
+	"thumbnailing": "بټنوکول",
+	"max-width": "ډېر پراخوالی:",
+	"max-height": "ډېر لوړوالی:",
+	"invalid-width": "ناباوره پراخوالی",
+	"invalid-height": "ناسم لوړوالی",
+	"no-such-project": "هېڅ داسې پروژه نشته",
+	"no-images": "په دې وېشنيزه کې هېڅ انځور نشته",
 	"download": "ښکته کول"
 }

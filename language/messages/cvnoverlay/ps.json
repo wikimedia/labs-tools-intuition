@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"adder": "ورگډوونکی",
+	"adder-empty": "ناجوت",
+	"expiry": "پای‌‌",
+	"globalwatched": "په نړۍ‌واله کچه خارل‌شوی",
 	"reason": "سبب",
 	"reason-empty": "سبب يې و نه موندل شو"
 }
