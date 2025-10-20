@@ -4,6 +4,7 @@
 			"Beginneruser",
 			"Ebrahim",
 			"Ebraminio",
+			"LordProfo",
 			"Reza1615"
 		]
 	},
@@ -18,7 +19,7 @@
 	"project-label": "پروژه",
 	"pattern-label": "طرح‌دار",
 	"redirects-label": "شامل تغییرمسیر",
-	"limit-label": "محدود کردن نمایش نتایج به 100 مورد اول",
+	"limit-label": "محدود کردن نمایش نتایج به ۱۰۰ مورد نخست",
 	"error-zeroresults": "هیچ صفحه‌ای در فضای نام که با عناوین عبارت باقاعده مشخص کردید یافت نشد.",
 	"match-count": "{{PLURAL:$1|$1صفحه| $1  صفحه}} همسان با عبارت باقاعده شما"
 }
