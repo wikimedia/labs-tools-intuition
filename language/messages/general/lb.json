@@ -14,7 +14,7 @@
 	"etc": "asw.",
 	"namespace": "Nummraum",
 	"form-submit": "Lass",
-	"form-reset": "Zrécksetzen",
+	"form-reset": "Zerécksetzen",
 	"years": "{{PLURAL: $1|Joer|Joer}}",
 	"months": "{{PLURAL: $1|Mount|Méint}}",
 	"weeks": "{{PLURAL: $1|Woch|Wochen}}",
