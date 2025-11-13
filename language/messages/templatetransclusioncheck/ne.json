@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Nirjal stha",
+			"बडा काजी",
 			"सरोज कुमार ढकाल"
 		]
 	},
@@ -13,7 +14,7 @@
 	"feedback-total-count": "जम्माः $1",
 	"feedback-header-links": "ढाँचाबाट आएका जोडिएकाहरू",
 	"link-edit": "सम्पादन",
-	"link-create": "सिर्जना गर्नुहोस्",
+	"link-create": "सृजना गर्नुहोस्",
 	"link-complete": "सम्पूर्ण प्रतिवेदन",
 	"footer-stats": "उत्पन्नः $1. अवधिः $2 {{PLURAL:$2|सेकेण्ड|सेकेण्ड्स}}.",
 	"error-language": "अज्ञात भाषा कोड"
