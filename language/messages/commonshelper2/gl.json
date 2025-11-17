@@ -35,7 +35,7 @@
 	"new_wikitext": "Novo texto wiki",
 	"new_filename": "Novo nome de ficheiro:",
 	"output_information": "Se quere facer unha carga manual, edite o texto superior (se fose necesario), garde $1o ficheiro$2 no seu ordenador e logo $3cárgueo$4.",
-	"upload_submit": "Cargar!",
+	"upload_submit": "Subir!",
 	"target_wiki": "o wiki de destino",
 	"error_bot_blocked": "O bot de cargas está bloqueado na Wikimedia Commons.",
 	"error_upload_meta": "Non se pode cargar directamente porque hai un problema cos metadatos (véxase enriba)!",
