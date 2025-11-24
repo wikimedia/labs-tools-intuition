@@ -4,6 +4,8 @@
 			"ElangoRamanujam"
 		]
 	},
+	"help": "உதவி",
 	"select-placeholder-none": "(ஏதுமில்லை)",
-	"showAnonOnly": "அடையாளம் காட்டாத பயனர்கள் மட்டும்"
+	"showAnonOnly": "அடையாளம் காட்டாத பயனர்கள் மட்டும்",
+	"type": "வகை"
 }
