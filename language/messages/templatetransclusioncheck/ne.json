@@ -10,12 +10,12 @@
 	"form-label-template": "टेम्प्लेट नाम:",
 	"form-label-complete": "सम्पूर्ण प्रतिवेदन तयार गर्नुहोस्",
 	"feedback-template-missing": "ढाँचा $1 उपलब्ध छैन",
-	"feedback-result": "$1 को परिणाम",
+	"feedback-result": "$1को लागि परिणामहरू",
 	"feedback-total-count": "जम्माः $1",
 	"feedback-header-links": "ढाँचाबाट आएका जोडिएकाहरू",
 	"link-edit": "सम्पादन",
 	"link-create": "सृजना गर्नुहोस्",
-	"link-complete": "सम्पूर्ण प्रतिवेदन",
+	"link-complete": "पूरा प्रतिवेदन...",
 	"footer-stats": "उत्पन्नः $1. अवधिः $2 {{PLURAL:$2|सेकेण्ड|सेकेण्ड्स}}.",
 	"error-language": "अज्ञात भाषा कोड"
 }
