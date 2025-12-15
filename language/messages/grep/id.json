@@ -3,12 +3,13 @@
 		"authors": [
 			"C5st4wr6ch",
 			"Hidayatsrf",
-			"Kenrick95"
+			"Kenrick95",
+			"Penyuwangi"
 		]
 	},
 	"explanation": "penjelasan",
 	"regex": "Ekspresi reguler",
-	"enter-details": "Masukan detail",
+	"enter-details": "Masukkan rincian",
 	"results": "Hasil",
 	"language-label": "Bahasa",
 	"namespace-label": "Ruang nama",

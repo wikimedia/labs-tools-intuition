@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Aldnonymous",
-			"Farras"
+			"Farras",
+			"Penyuwangi"
 		]
 	},
-	"enter-details": "Masukan detail",
+	"enter-details": "Masukkan rincian",
 	"introduction": "Ketikkan nama templat (Wikipedia saja untuk saat ini) dan tekan cari. Simpel sekali. Terjadi penyinggahan (pengingatan hasil), namun hal ini berada di luar kontrol alat ini dan pemiliknya.",
 	"language-label": "Bahasa",
 	"namespace-label": "Ruang nama",
