@@ -4,11 +4,12 @@
 			"Garam",
 			"Kwj2772",
 			"Revi",
+			"YeBoy371",
 			"Ykhwong",
 			"아라"
 		]
 	},
-	"dateformat": "%Y년 %B %d일",
+	"dateformat": "%Y년 %B월 %d일",
 	"hello": "안녕하세요",
 	"welcome": "환영합니다",
 	"toolversion": "버전 $1",

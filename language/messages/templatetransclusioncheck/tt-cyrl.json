@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ерней"
+			"Ерней",
+			"Ильгиз"
 		]
 	},
 	"form-label-language": "Тел:",
 	"form-label-template": "Калып исеме:",
-	"form-label-template2": "(исемнәр киңлегене кертеп)",
+	"form-label-template2": "(исемараны кертеп)",
 	"feedback-template-missing": "$1 калыбы барлыкта юк.",
 	"feedback-total-count": "Барлыгы: $1",
 	"feedback-header-links": "Калыптан сылтамалар",
