@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Albertus Aditya",
+			"Bennylin",
 			"Hidayatsrf"
 		]
 	},
@@ -9,7 +10,7 @@
 	"description": "Memeriksa dan melaporkan artikel mana yang mentransklusikan templat yang tidak ditautkan dari templat, dan artikel mana yang terhubung dari templat yang tidak mentransklusikannya.",
 	"form-label-language": "Bahasa:",
 	"form-label-template": "Nama templat:",
-	"form-label-template2": "(termasuk ruangnama)",
+	"form-label-template2": "(termasuk ruang nama)",
 	"form-label-complete": "Dapatkan laporan lengkap",
 	"feedback-template-missing": "Templat $1 tidak ada.",
 	"feedback-template-noaccess": "Templat $1 mungkin memang ada, namun tidak tersedia pada basis data. Hal ini mungkin karena masalah sementara pada basis data. Basis data yang digunakan adalah $2.",

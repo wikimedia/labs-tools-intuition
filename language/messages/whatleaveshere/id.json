@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"Hidayatsrf"
 		]
 	},
 	"label-page": "Halaman",
-	"label-namespace": "Ruangnama",
+	"label-namespace": "Ruang nama",
 	"label-limit": "Batas",
 	"namespacesall": "Semua",
 	"button-submit": "Ke",

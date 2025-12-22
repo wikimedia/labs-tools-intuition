@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"C5st4wr6ch",
 			"Hidayatsrf",
 			"Penyuwangi",
@@ -89,7 +90,7 @@
 	"tryAgain": "Coba lagi di basis data utama",
 	"optInOAuth": "Alternatifnya, Anda dapat masuk dengan OAuth Wikimedia",
 	"onlyOwnCreatedPages": "tampilkan hanya halaman yang telah saya buat",
-	"namespaces": "ruangnama",
+	"namespaces": "ruang nama",
 	"comparisonOfPages": "perbandingan beberapa halaman",
 	"historyDataCatchup": "Pemberitahuan: data riwayat sedang dalam proses pemuatan",
 	"selectCategory": "Pilih kategori Anda dari menu kiri",
