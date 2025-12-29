@@ -29,6 +29,7 @@
 	"lastupdate-cvn": "Ostatnia aktualizacja: $1",
 	"lastupdate-rc": "Ostatnia aktualizacja: $1",
 	"legend": "Legenda",
+	"license": "Licencja",
 	"limit": "Limit",
 	"masspatrol": "MassPatrol",
 	"masspatrol-requires-userfilter": "MassPatrol został zablokowany, ponieważ wymaga filtru użytkownika, a żaden nie został określony.",

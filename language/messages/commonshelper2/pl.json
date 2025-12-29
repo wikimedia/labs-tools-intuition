@@ -38,7 +38,7 @@
 	"upload_submit": "Prześlij!",
 	"target_wiki": "docelowa wiki",
 	"error_bot_blocked": "Robot przesyłający pliki został zablokowany na Wikimedia Commons.",
-	"error_upload_meta": "Nie można przesłać bezpośrednio ponieważ wystąpił problem z danymi meta (sprawdź powyżej)!",
+	"error_upload_meta": "Nie można przesłać bezpośrednio, ponieważ wystąpił problem z metadanymi (sprawdź powyżej)!",
 	"error_tusc_failed": "Weryfikacja TUSC nie powiodła się!",
 	"error_only_commons": "Bezpośrednie przesyłanie działa tylko na Wikimedia Commons!",
 	"upload_control_text": "Sprawdź nowy tekst w formacie wiki, a następnie jeżeli wszystko jest w porządku kliknij „$1“!",
