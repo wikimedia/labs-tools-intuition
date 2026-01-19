@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jimkats",
 			"NikosLikomitros",
 			"Nikosgranturismogt"
 		]
@@ -80,6 +81,7 @@
 	"helpDiscuss": "βοήθεια / συζήτηση / βελτιώσεις",
 	"dbUpdateInProgress": "ενημέρωση βάσης δεδομένων σε εξέλιξη...",
 	"lastUpdate": "Τελευταία ενημέρωση",
+	"urlToUserpage": "URL προς ενότητα ή υποενότητα (#) της σελίδας χρήστη σας.",
 	"noJavaScript": "Το JavaScript είναι απενεργοποιημένο",
 	"noData": "Δεν υπάρχουν διαθέσιμα δεδομένα.",
 	"tryAgain": "Προσπαθήστε ξανά στην κύρια βάση δεδομένων",
@@ -87,15 +89,21 @@
 	"onlyOwnCreatedPages": "δείξε μόνο τις σελίδες που έχω δημιουργήσει",
 	"namespaces": "ονοματοχώροι",
 	"comparisonOfPages": "σύγκριση διάφορων σελίδων",
+	"furtherInformation": "Περισσότερες πληροφορίες",
 	"urlParameter": "παράμετρος URL",
+	"hideHints": "απόκρυψη υποδείξεων",
+	"colorScheme": "χρωματικός συνδυασμός",
+	"customBarColors": "προσαρμοσμένα χρώματα γραμμών",
 	"on": "εντός",
 	"off": "εκτός",
 	"submit": "Υποβολή",
 	"save": "Αποθήκευση",
 	"cancel": "Ακύρωση",
 	"resetAndDelete": "επαναφορά και διαγραφή των cookies",
+	"autofilter": "αυτόματο φίλτρο",
 	"barchart": "Ραβδόγραμμα",
 	"linechart": "Γράφημα γραμμών",
+	"linechart_filled": "γραμμικό γράφημα γεμάτο",
 	"isRedirect": "Αυτή η σελίδα είναι μια ανακατεύθυνση",
 	"disambPage": "Σελίδα αποσαφήνισης",
 	"showRedir": "Εμφάνιση ανακατευθύνσεων",
@@ -107,6 +115,7 @@
 	"rankLocal": "Κατάταξη (τοπική) σε",
 	"rankWorld": "Κατάταξη (κόσμος) σε όλα τα βίκι του Wikimedia",
 	"pageViewCount": "Αριθμός προβολών σελίδας (μη μοναδικές)",
+	"winningArticles": "Άρθρα που κέρδισαν",
 	"numPageWatchers": "Αριθμός παρατηρητών σελίδας",
 	"linkStats": "Σύνδεσμος στα στατιστικά σελίδας",
 	"linkArticle": "Σύνδεσμος σε λήμμα βίκι",

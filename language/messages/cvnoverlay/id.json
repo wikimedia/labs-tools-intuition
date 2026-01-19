@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"Hidayatsrf"
 		]
 	},
 	"adder-empty": "Tidak diketahui",
-	"expiry": "Kadaluarsa",
+	"expiry": "Kedaluwarsa",
 	"globalwatched": "Dipantau secara global",
 	"reason": "Alasan",
 	"reason-empty": "Tidak ada alasan ditemukan"
