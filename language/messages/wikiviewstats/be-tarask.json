@@ -3,7 +3,8 @@
 		"authors": [
 			"Liashko",
 			"Red Winged Duck",
-			"Renessaince"
+			"Renessaince",
+			"Ucukor"
 		]
 	},
 	"records": "запісы",
@@ -93,8 +94,8 @@
 	"optInOAuth": "Вы можаце ўвайсьці таксама праз Wikimedia OAuth",
 	"onlyOwnCreatedPages": "паказаць толькі створаныя мною старонкі",
 	"namespaces": "прасторы назваў",
-	"comparisonOfPages": "параўнаньне некалькіх старонак",
-	"historyDataCatchup": "Заўвага: гісторыя ў дадзены момант абнаўляецца",
+	"comparisonOfPages": "параўнаньне колькіх старонак",
+	"historyDataCatchup": "Заўвага: зьвесткі гісторыі ў працэсе абнаўленьня",
 	"selectCategory": "Абярыце катэгорыю зь левага мэню",
 	"homeMain": "Home — асноўная табліца зьвестак, якая месьціць усе зьвесткі",
 	"filerResults": "Фільтруйце вынікі як пажадаеце, зьмяняючы парамэтры ў верхнім мэню",
