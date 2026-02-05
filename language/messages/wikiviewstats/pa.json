@@ -6,6 +6,7 @@
 			"Tow"
 		]
 	},
+	"records": "ਫ਼ਰਦ",
 	"list": "ਸੂਚੀ",
 	"sample": "ਮਿਸਾਲ",
 	"pageviews": "ਸਫ਼ੇ ਦੀਆਂ ਝਾਤਾਂ",
@@ -45,10 +46,11 @@
 	"helpPage": "ਮਦਦ ਸਫ਼ਾ",
 	"projectTotals": "ਕੁੱਲ ਪ੍ਰੋਜੈਕਟ",
 	"wikiThanks": "ਮਿਹਰਬਾਨੀ",
+	"log": "ਚਿੱਠਾ",
 	"size": "ਅਕਾਰ",
 	"revisions": "ਸੋਧਾਂ",
 	"first": "ਪਹਿਲਾ",
-	"last": "ਆਖ਼ਰੀ",
+	"last": "ਅਖ਼ੀਰਲਾ",
 	"total": "ਕੁੱਲ",
 	"deleted": "ਮਿਟਾਇਆ ਹੋਇਆ",
 	"inPeriod": "ਮਿਆਦ ਵਿੱਚ",
