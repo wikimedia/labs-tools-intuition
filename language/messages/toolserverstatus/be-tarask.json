@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Ucukor"
 		]
 	},
 	"toolserver-status-ok": "Няма ніякіх праблемаў у клястэры базы зьвестак $1 $2",
@@ -18,5 +19,5 @@
 	"toolserver-status-short-down": "$1: Ня дзейнічае",
 	"toolserver-status-short-erro": "$1: Памылка",
 	"toolserver-status-short-unknown": "$1: Невядомая",
-	"toolserver-status-short-missing": "$1: Адсутнічае"
+	"toolserver-status-short-missing": "$1: Бракуе"
 }
