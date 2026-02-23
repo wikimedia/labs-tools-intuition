@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"title": "Rezent Ännerungen (an Echtzäit)",
@@ -25,7 +26,7 @@
 	"filter-hidebots": "Botte verstoppen",
 	"filter-unpatrolled": "Kontrolléiert Ännerunge verstoppen",
 	"help": "Hëllef",
-	"helpicon-tooltip": "Fir méi ze wëssen iwwer dës Funktioun",
+	"helpicon-tooltip": "Méi iwwer dës Funktioun gewuer ginn",
 	"lastupdate-cvn": "Lescht Aktualiséierung: $1",
 	"lastupdate-rc": "Lescht Aktualiséierung: $1",
 	"legend": "Erklärung",
