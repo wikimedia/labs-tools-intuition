@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tuwewanzi"
+		]
+	},
+	"welcome": "Taƞyáƞ yahi",
+	"form-submit": "Ektá yá {{GENDER:|yo|ye|yo/ye}}",
+	"years": "{{PLURAL:$1|ómakȟa}}",
+	"months": "{{PLURAL:$1|wi}}",
+	"weeks": "{{PLURAL:$1|okó}}",
+	"days": "{{PLURAL:$1|aƞpétu}}",
+	"and": "&#32;na"
+}
