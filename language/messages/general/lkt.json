@@ -4,11 +4,16 @@
 			"Tuwewanzi"
 		]
 	},
+	"hello": "{{GENDER:|Hau|Haƞ|Hau/Haƞ}}",
 	"welcome": "Taƞyáƞ yahi",
 	"form-submit": "Ektá yá {{GENDER:|yo|ye|yo/ye}}",
 	"years": "{{PLURAL:$1|ómakȟa}}",
 	"months": "{{PLURAL:$1|wi}}",
 	"weeks": "{{PLURAL:$1|okó}}",
 	"days": "{{PLURAL:$1|aƞpétu}}",
+	"hours": "{{PLURAL:$1|oápȟe}}",
+	"minutes": "{{PLURAL:$1|oápȟe-čik'ála}}",
+	"seconds": "{{PLURAL:$1|oápȟe-sáƞpȟa-čik'ála}}",
+	"view-source": "Óhiyu kiŋ waŋyáŋka {{GENDER:|yo|ye|yo/ye}}",
 	"and": "&#32;na"
 }

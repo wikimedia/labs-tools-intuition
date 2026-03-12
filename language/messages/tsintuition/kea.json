@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"GrogeXaKaba"
+			"GrogeXaKaba",
+			"Letra.berdi"
 		]
 	},
-	"bl-mysettings": "Difinisons di linga",
+	"bl-mysettings": "Nhas kunfigurason di linga",
 	"bl-mysettings-new": "Altera linga!",
 	"bl-promo": "Traduson pusívi pamodi $1 ku $2.",
 	"bl-changelanguage": "Altera linga di interfasi di es faraménta.",

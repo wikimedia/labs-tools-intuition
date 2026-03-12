@@ -3,7 +3,8 @@
 		"authors": [
 			"Fryed-peach",
 			"Schu",
-			"Shirayuki"
+			"Shirayuki",
+			"YeBoy371"
 		]
 	},
 	"attention": "注意",
@@ -41,7 +42,7 @@
 	"target_wiki": "転送先ウィキ",
 	"standard_project": "wikipedia",
 	"error_bot_blocked": "ウィキメディア コモンズでアップロード用ボットがブロックされています。",
-	"error_upload_meta": "メタデータに問題点がある (上記参照) ため、直接アップロードすることができません。",
+	"error_upload_meta": "メタデータに問題があり、直接アップロードできません！(上記参照)",
 	"error_tusc_failed": "TUSC の検証が失敗しました。",
 	"error_only_commons": "直接アップロードはウィキメディア コモンズでのみ実行できます。",
 	"upload_control_text": "新しいウィキテキストを確認して、何も問題がなければ「$1」をクリックしてください。",

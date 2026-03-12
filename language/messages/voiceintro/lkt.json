@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tuwewanzi"
+		]
+	},
+	"voiceintro-toolbar-clear-label": "Yukȟáƞ {{GENDER:|yo|ye|yo/ye}}",
+	"voiceintro-toolbar-upload-label": "Waŋkál okšú {{GENDER:|wo|we|wo/we}}",
+	"voiceintro-information-label": "Wónaȟ’uŋ",
+	"voiceintro-information-language-label": "Iyápi:"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tuwewanzi"
+		]
+	},
+	"cvn-adder-empty": "Oslólyapi šni",
+	"cvn-reason": "Tákuwe",
+	"cvn-reason-empty": "Tákuwe waníča",
+	"filter": "Wínazeye",
+	"filter-hideliu": "Tuwá uŋ kiŋ čhažé-oígwapi naȟmá {{GENDER:|yo|ye|yo/ye}}",
+	"help": "Wóokiye",
+	"license": "Wóopȟe Wóiyowiƞkhiye",
+	"new-short": "théča",
+	"select-placeholder-none": "(waníča)",
+	"type": "Owéčhaže",
+	"typeEdit": "Wóyutȟokča",
+	"typeNew": "Oyúblaye tȟéča"
+}

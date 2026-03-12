@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tuwewanzi"
+		]
+	},
+	"list": "eháŋni",
+	"sample": "Wóiwaƞyaƞke",
+	"page": "Oyúblaye",
+	"settings": "Wóigluštaŋ",
+	"help": "wóokiye",
+	"today": "aƞpétu kiƞ le",
+	"all": "iyúha",
+	"allLang": "Iyápi iyúha",
+	"language": "iyápi",
+	"mycontribs": "Táku kíč'uŋ",
+	"mywatchlists": "Wóawaƞyaƞke čhašówapi",
+	"users": "{{PLURAL: $1|tuwá uŋ kiŋ}}",
+	"discussion": "Wóakhiye",
+	"project": "Wičhóȟ'aƞ",
+	"category": "Očháže",
+	"files": "{{PLURAL: $1|wópȟaȟta}}",
+	"specialPage": "Waíŋyaŋkhiyápi oyúblaye",
+	"helpPage": "Wóokiye oyúblaye",
+	"wikiThanks": "Philáya",
+	"size": "lehaƞkeča",
+	"revisions": "Wóyutȟokča",
+	"first": "tȟokáheya",
+	"last": "ehákela",
+	"total": "iyúpȟaȟ wóiyawa",
+	"deleted": "iháŋgyapi",
+	"links": "Wóičhikȟoyake",
+	"protection": "nakíčižiƞpi",
+	"sysops": "oítȟaƞčhaƞ",
+	"bots": "mas’wíčhaša",
+	"pages": "oyúblaye",
+	"namespaces": "očháže",
+	"submit": "Iyéya {{GENDER:|yo|ye|yo/ye}}",
+	"save": "égnaka {{GENDER:|yo|ye|yo/ye}}",
+	"cancel": "yužúžu {{GENDER:|wo|we|wo/we}}",
+	"projectPages": "Wičhóȟ'aƞ oyúblaye"
+}
