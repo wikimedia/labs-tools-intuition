@@ -8,6 +8,7 @@
 	"adder": "Додавач",
 	"adder-empty": "Непознато",
 	"expiry": "Истиче",
+	"globalwatched": "Глобално надгледано",
 	"reason": "Разлог",
 	"reason-empty": "Нема разлога"
 }

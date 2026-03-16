@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Joedalton",
-			"Saederup92"
+			"Saederup92",
+			"Steenth"
 		]
 	},
+	"title": "Skabelonlinkning og transklusionskontrol",
+	"description": "Kontrollerer og rapporterer, hvilke artikler der transkluderer en skabelon, der ikke er linket fra skabelonen, og hvilke artikler der er linket fra en skabelon, der ikke transkluderer den.",
 	"form-label-language": "Sprog:",
 	"form-label-template": "Skabelonnavn:",
 	"form-label-template2": "(inklusive navnerum)",
@@ -12,8 +15,17 @@
 	"feedback-template-missing": "Skabelonen $1 findes ikke.",
 	"feedback-template-noaccess": "Skabelonen $1 ser ud til at findes, men den er ikke tilgængelig fra databasen. Dette kan være et midlertidigt databaseproblem. Anvendt database: $2.",
 	"feedback-result": "Resultater for $1",
+	"feedback-header-mismatch": "Uoverenskommelser mellem transkluderinger og links",
+	"feedback-header-no-link": "Transklusion, men intet link",
+	"feedback-header-no-transclusion": "Link, men ingen transklusion",
+	"feedback-header-redirects": "Links til omdirigeringer",
 	"feedback-total-count": "I alt: $1",
+	"feedback-header-complete": "Komplet oversigt over transklusion og links",
+	"feedback-header-transclusions": "Transklusioner af skabelonen",
+	"feedback-header-links": "Links fra skabelonen",
 	"link-edit": "rediger",
 	"link-create": "opret",
+	"link-complete": "Fuld rapport...",
+	"footer-stats": "Genereret: $1. Varighed: $2 {{PLURAL:$2|sekund|sekunder}}.",
 	"error-language": "Ukendt sprogkode."
 }
