@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"adder": "Cuir leis",
+	"adder-empty": "Anaithnid",
+	"expiry": "Dáta éaga",
+	"globalwatched": "Faireachán domhanda",
+	"reason": "Cúis",
+	"reason-empty": "Níor aimsíodh aon chúis"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"bl-mysettings": "Mo shocruithe teanga",
+	"bl-mysettings-new": "Athraigh teanga!",
+	"bl-promo": "Tá na haistriúcháin faoi thiomáint ag $1 agus $2.",
+	"bl-changelanguage": "Athraigh teanga chomhéadain an uirlis seo.",
+	"help-translate-tool": "Cabhraigh leis an uirlis seo a aistriú!",
+	"help-translate-all": "Cabhraigh leis an uirlis seo a aistriú!",
+	"help-translate-tooltip": "Cabhraigh le daoine eile trí theachtaireachtaí comhéadain a aistriú go do theanga féin."
+}

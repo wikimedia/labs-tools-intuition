@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"title": "Cad a fhágann anseo",
+	"title-leaveshere": "Naisc a fhágann ó \"$1\"",
+	"sub-leaveshere": "Na leathanaigh seo a leanas nasctha ó $1",
+	"label-page": "Leathanach",
+	"label-namespace": "Ainmspás",
+	"label-limit": "Teorainn",
+	"namespacesall": "uile",
+	"button-submit": "Téigh",
+	"noleaveshere": "Níl aon nasc ó $1",
+	"link-whatleaveshere": "Cad a fhágann anseo",
+	"tooltip-whatleaveshere": "Liosta de gach rud a nascann ó anseo",
+	"whatlinkshere": "Cad a nascann anseo",
+	"whatlinkshere-whatleaveshere": "Cad a fhágann anseo?",
+	"istemplate": "tras-chlúdach",
+	"isfile": "nasc comhaid",
+	"linksearch": "Cuardaigh Nasc",
+	"section-links": "Naisc",
+	"section-iwlinks": "Naisc idir-vicí",
+	"section-extlinks": "Naisc sheachtracha",
+	"section-categories": "Catagóirí"
+}

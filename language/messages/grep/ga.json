@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"title": "Teideal an ailt grep (béite)",
+	"introduction": "Taispeánann an uirlis seo gach teideal alt a mheaitseálann patrún rialta ($1). Tá cuardach ag baint úsáide as rialtacht thar a bheith acmhainní. Más féidir ar chor ar bith, cuimhnigh na táscairí réimír (^) agus iarmhír ($) a úsáid.",
+	"explanation": "míniú",
+	"regex": "Slonn rialta",
+	"enter-details": "Cuir isteach sonraí",
+	"results": "Torthaí",
+	"language-label": "Teanga",
+	"namespace-label": "Ainmspás",
+	"project-label": "Tionscadal",
+	"pattern-label": "Patrún",
+	"redirects-label": "Cuir atreoruithe san áireamh",
+	"limit-label": "Teorainn a chur leis an taispeántas do na chéad 100 toradh",
+	"error-zeroresults": "Níl aon leathanaigh san ainmspás sin a bhfuil teidil acu a mheaitseálann do ghnáthléiriú.",
+	"match-count": "Chomhlíon {{PLURAL:$1|$1 leathanach}} do ghnáthléiriú."
+}

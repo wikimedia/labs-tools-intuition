@@ -1,11 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aindriu80",
 			"පසිඳු කාවින්ද"
 		]
 	},
+	"hello": "Haigh",
 	"welcome": "Fáilte",
+	"toolversion": "Leagan $1",
+	"toolversionstamp": "Leagan $1 ($2)",
+	"etc": "srl.",
 	"namespace": "Ainmspás",
 	"form-submit": "Gabh",
-	"form-reset": "Athshocraigh"
+	"form-reset": "Athshocraigh",
+	"years": "{{PLURAL: $1|bliain|blianta}}",
+	"months": "{{PLURAL: $1|mí|míonna}}",
+	"weeks": "{{PLURAL: $1|seachtain|seachtainí}}",
+	"days": "{{PLURAL: $1|lá|laethanta}}",
+	"hours": "{{PLURAL: $1|uair an chloig}}",
+	"minutes": "{{PLURAL: $1|nóiméad|nóiméid}}",
+	"seconds": "{{PLURAL: $1|soicind|soicindí}}",
+	"last-modified-date": "Athraithe go deireanach: $1",
+	"view-source": "Féach ar an bhfoinse",
+	"and": "&#32;agus"
 }

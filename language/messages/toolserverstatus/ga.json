@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"toolserver-status-ok": "Níl aon fhadhbanna sa bhraisle bunachar sonraí $1 $2",
+	"toolserver-status-info": "Fógra d'úsáideoirí braisle $1: $2",
+	"toolserver-status-warn": "Rabhadh d'úsáideoirí braisle $1: $2",
+	"toolserver-status-down": "Tá an braisle bunachar sonraí $1 múchta go sealadach. $2",
+	"toolserver-status-erro": "Tá an braisle bunachar sonraí $1 síos. $2",
+	"toolserver-status-unknown": "Stádas anaithnid an chnuasaigh $1",
+	"toolserver-status-missing": "Níl an braisle $1 ann",
+	"toolserver-status-short-ok": "$1: Ceart go leor",
+	"toolserver-status-short-info": "$1: Eolas",
+	"toolserver-status-short-warn": "$1: Rabhadh",
+	"toolserver-status-short-down": "$1: Síos",
+	"toolserver-status-short-erro": "$1: Earráid",
+	"toolserver-status-short-unknown": "$1: Anaithnid",
+	"toolserver-status-short-missing": "$1: Ar iarraidh"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"title": "Seiceáil nascadh agus tras-chlúdaithe teimpléid",
+	"description": "Seiceálann agus tuairiscíonn sé cé na hairteagail a thraschuimsíonn teimpléad nach bhfuil nasctha ón teimpléad, agus cé na hairteagail atá nasctha ó theimpléad nach dtraschuimsíonn é.",
+	"form-label-language": "Teanga:",
+	"form-label-template": "Ainm an teimpléid:",
+	"form-label-template2": "(lena n-áirítear ainmspás)",
+	"form-label-complete": "Ginigh tuarascáil iomlán:",
+	"feedback-template-missing": "Níl an teimpléad $1 ann.",
+	"feedback-template-noaccess": "Is cosúil go bhfuil teimpléad $1 ann, ach níl sé ar fáil ón mbunachar sonraí. B’fhéidir gur fadhb shealadach leis an mbunachar sonraí atá ann. Bunachar sonraí a úsáideadh: $2.",
+	"feedback-result": "Torthaí le haghaidh $1",
+	"feedback-header-mismatch": "Mí-oiriúnacht idir tras-chlúdaigh agus naisc",
+	"feedback-header-no-link": "Tras-chur ach gan nasc",
+	"feedback-header-no-transclusion": "Nasc ach gan tras-chur",
+	"feedback-header-redirects": "Naisc chuig atreoruithe",
+	"feedback-total-count": "Iomlán: $1",
+	"feedback-header-complete": "Traschlú iomlán agus forbhreathnú nasc",
+	"feedback-header-transclusions": "Tras-chuimsithe an teimpléid",
+	"feedback-header-links": "Naisc ón teimpléad",
+	"link-edit": "eagarthóireacht",
+	"link-create": "cruthaigh",
+	"link-complete": "Tuarascáil iomlán...",
+	"footer-stats": "Gineadh: $1. Fad: $2 {{PLURAL:$2|soicind|soicindí}}.",
+	"error-language": "Cód teanga anaithnid."
+}

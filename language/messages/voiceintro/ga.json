@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Taifead",
+	"voiceintro-toolbar-stop-label": "Stop",
+	"voiceintro-toolbar-clear-label": "Glan",
+	"voiceintro-toolbar-upload-label": "Uaslódáil",
+	"voiceintro-webaudio-not-supported": "Ní thacaítear le API WebAudio don bhrabhsálaí seo",
+	"voiceintro-upload-publish-succeeded": "Uaslódáilte go rathúil an taifeadadh:",
+	"voiceintro-upload-publish-failed": "Níor uaslódáladh an taifeadadh.",
+	"voiceintro-information-label": "Eolas",
+	"voiceintro-information-speaker-label": "Ainm an chainteora:",
+	"voiceintro-information-language-label": "Teanga:",
+	"voiceintro-mic-access-notify": "Cliceáil \"Ceadaigh\" chun ligean don bhrabhsálaí rochtain a fháil ar do mhicreafón.",
+	"voiceintro-recording-notify": "Taifeadadh..."
+}

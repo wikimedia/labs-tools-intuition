@@ -1,9 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aindriu80",
 			"පසිඳු කාවින්ද"
 		]
 	},
+	"title": "Íomhánna a íoslódáil de réir catagóire",
+	"subtitle": "Bealach éasca chun íomhánna a íoslódáil i gcatagóir",
+	"project": "Tionscadal:",
 	"category": "Catagóir:",
-	"download": "Íosluchtaigh"
+	"thumbnailing": "Mionsamhail",
+	"max-width": "Leithead uasta:",
+	"max-height": "Airde uasta:",
+	"invalid-width": "Leithead neamhbhailí",
+	"invalid-height": "Airde neamhbhailí",
+	"no-such-project": "Níl aon tionscadal den sórt sin ann",
+	"no-images": "Níl aon íomhánna sa chatagóir sin",
+	"category-is-url": "Tá cuma URL ar ainm na catagóire a thugtar. Ní mór duit ainm na catagóire a shonrú, ní a URL.",
+	"category-contains-namespace": "Is cosúil gur chuir tú an ainmspás san áireamh in aice le hainm na catagóire. Leis an ainm tugtha, bheadh ​​an leathanach ar fáil mar [[Category:$1]].",
+	"zip-failed": "Theip ar chruthú zip",
+	"image-area-too-big": "Tá $1 rómhór le mionsamhail a chruthú. Ag baint úsáide as an méid iomlán.",
+	"download-info": "{{plural: $1|Tá íomhá amháin ann|Tá $1 íomhá ann}}, le méid measta de $2",
+	"download": "Íosluchtaigh",
+	"readme-contents": "Liostaíonn an comhad $4 atá leis seo na híomhánna sa chatagóir $1 ($2)$3.\n\n== Treoracha chun na híomhánna uile atá liostaithe a íoslódáil ==\nFéadfaidh an t-am íoslódála a bheith éagsúil ó chúpla nóiméad go roinnt uaireanta an chloig.\n\nWindows:\nBain na comhaid uile san fhillteán céanna agus rith $5\n$6\nLinux/Mac OS:\nBain na comhaid uile agus oscail críochfort san fhillteán sin. Rith sh $5",
+	"non-bundled-wget": "Nóta: Níl wget do Windows san áireamh sa leagan seo. Beidh ort dí-chomhbhrú go fillteán le wget.exe nó wget a bheith sa PATH ar shlí eile.",
+	"wget-info": "Tá cóip de wget $1 (don ardán Windows) sa chomhad seo. Is Bogearraí Saor in Aisce é Wget,\nfaoi théarmaí an GNU GENERAL PUBLIC LICENSE leagan 3.\nTá cóip den cheadúnas thíos, agus tá sé ar fáil freisin ag http://www.gnu.org/licenses/gpl-3.0.txt\n\nMás spéis leat an cód foinse don chlár seo a fháil, is féidir leat é a íoslódáil ó http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\nhttp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nnó ó GNU Mirror éigin eile, féach http://www.gnu.org/prep/ftp.html",
+	"scaling-width": ", scálaithe go leithead uasta de $1 {{plural:$1|picteilín|picteilíní}}",
+	"scaling-height": ", scálaithe go huasairde $1 {{plural:$1|picteilín|picteilíní}}",
+	"scaling-both": ", scálaithe go dtí uasmhéid $1x$2 picteilín"
 }

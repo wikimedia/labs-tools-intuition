@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aindriu80",
 			"පසිඳු කාවින්ද"
 		]
 	},
+	"enter-details": "Cuir isteach sonraí",
+	"introduction": "Clóscríobh ainm teimpléid (Vicipéid amháin faoi láthair) agus brúigh téigh. Tá sé chomh simplí leis sin. Tá roinnt taisceadh (cuimhneachán ar thorthaí) ann, ach ar an drochuair níl smacht ag an uirlis seo ná ag a úinéir air sin.",
 	"language-label": "Teanga",
-	"namespace-label": "Ainmspás:"
+	"namespace-label": "Ainmspás:",
+	"pagename-label": "Ainm leathanaigh (gan ainmspás san áireamh)",
+	"transclusion-count-label": "Líon na n-idirghabhálacha",
+	"transclusion-count": "Fuarthas $1 tras-chlúdach.",
+	"error-suggestion": "B’fhéidir gur litrigh tú ainm an leathanaigh go mícheart (nó gur scríobh tú litir mhór i gceart)?",
+	"time-label": "Am a thógann sé chun an t-ordú a fhorghníomhú"
 }
