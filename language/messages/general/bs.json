@@ -14,7 +14,7 @@
 	"toolversionstamp": "Verzija $1 ($2)",
 	"etc": "itd.",
 	"namespace": "Imenski prostor",
-	"form-submit": "Idi",
+	"form-submit": "Pokreni",
 	"form-reset": "Poništi",
 	"years": "{{PLURAL: $1|godina|godine|godina}}",
 	"weeks": "{{PLURAL: $1|sedmica|sedmice|sedmica}}",
