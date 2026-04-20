@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"Test Create account",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
@@ -18,7 +19,7 @@
 	"searchResults": "نتائج البحث",
 	"rank": "الرتبة",
 	"settings": "إعدادات",
-	"help": "المساعدة",
+	"help": "مساعدة",
 	"today": "اليوم",
 	"all": "الكل",
 	"enterSearchTerm": "أدخل مصطلح البحث",
