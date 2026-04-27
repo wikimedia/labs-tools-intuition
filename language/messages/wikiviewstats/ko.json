@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Revi",
+			"Tensama0415",
 			"YeBoy371",
 			"Ykhwong",
 			"아라"
@@ -83,7 +84,7 @@
 	"namespaces": "이름공간",
 	"selectCategory": "왼쪽 메뉴에서 분류를 선택하십시오",
 	"furtherInformation": "추가 정보",
-	"urlParameter": "URL 변수",
+	"urlParameter": "URL 매개변수",
 	"on": "켜기",
 	"off": "끄기",
 	"submit": "제출",
