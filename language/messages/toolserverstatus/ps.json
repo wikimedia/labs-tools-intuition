@@ -5,6 +5,13 @@
 			"شاه زمان پټان"
 		]
 	},
+	"toolserver-status-ok": "د اومتوک‌اډانې $1 $2 گيډۍ کې هېڅ ستونزه نشته",
+	"toolserver-status-info": "د $1 گېډۍ کارنانو لپاره خبرتيا: $2",
+	"toolserver-status-warn": "د $1 گېډۍ کارنانو لپاره گواښنه: $2",
+	"toolserver-status-down": "د اومتوک‌اډانې $1 گېډۍ په لنډمهاله ډول تړل شوې ده. $2",
+	"toolserver-status-erro": "د اومتوک‌اډانې $1 گېډۍ کښته ده. $2",
+	"toolserver-status-unknown": "د $1 گېډۍ ناڅرگند دريځ",
+	"toolserver-status-missing": "$1 گېډۍ شتون نه‌لري",
 	"toolserver-status-short-ok": "$1: ښه",
 	"toolserver-status-short-info": "$1: مالومات",
 	"toolserver-status-short-warn": "$1: گواښنه",
