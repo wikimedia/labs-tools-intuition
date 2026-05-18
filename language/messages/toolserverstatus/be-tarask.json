@@ -10,7 +10,7 @@
 	"toolserver-status-info": "Паведамленьне для карыстальнікаў клястэра $1: $2",
 	"toolserver-status-warn": "Папярэджаньне для карыстальнікаў клястэра $1: $2",
 	"toolserver-status-down": "Клястэр базы зьвестак $1 быў часовы адключаны. $2",
-	"toolserver-status-erro": "Клястэр базы зьвестак $1 ня дзейнічае. $2",
+	"toolserver-status-erro": "Клястэр базы зьвестак $1 ня робіць. $2",
 	"toolserver-status-unknown": "Невядомы статус клястэру $1",
 	"toolserver-status-missing": "Клястэр $1 не існуе",
 	"toolserver-status-short-ok": "$1: Добра",
