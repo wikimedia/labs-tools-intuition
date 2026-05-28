@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bayahiu",
 			"Bennylin",
 			"Hidayatsrf"
 		]
@@ -14,7 +15,7 @@
 	"isfile": "Pranala berkas",
 	"linksearch": "PencarianPranala",
 	"section-links": "Pranala",
-	"section-iwlinks": "Pranala interwiki",
+	"section-iwlinks": "Pranala antarwiki",
 	"section-extlinks": "Pranala luar",
 	"section-categories": "Kategori"
 }
