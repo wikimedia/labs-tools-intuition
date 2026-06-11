@@ -16,7 +16,7 @@
 	"toolserver-status-short-ok": "$1: Добра",
 	"toolserver-status-short-info": "$1: Інфармацыя",
 	"toolserver-status-short-warn": "$1: Папярэджаньне",
-	"toolserver-status-short-down": "$1: Ня дзейнічае",
+	"toolserver-status-short-down": "$1: Ня дзейны",
 	"toolserver-status-short-erro": "$1: Памылка",
 	"toolserver-status-short-unknown": "$1: Невядомая",
 	"toolserver-status-short-missing": "$1: Бракуе"

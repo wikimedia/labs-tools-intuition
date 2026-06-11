@@ -45,7 +45,7 @@
 	"error_commons_user": "Om de gebruiker die het bestand overdraagt te kunnen identificeren, moet uw gebruikersnaam bij Wikimedia Commons in de beschrijving voorkomen.",
 	"error_upload_users": "Tijdens de testperiode is de uploadfunctionaliteit is alleen beschikbaar voor een selecte groep gebruikers.",
 	"error_upload_file": "Het oorspronkelijke bestand kan niet gedownload worden.",
-	"help_intro": "Als u een probleem wilt rapporteren, een nieuwe functie wilt aanvragen of een vraag hebt, dan kunt u de onderstaande contacttypen gebruiken:",
+	"help_intro": "Als u een probleem wilt melden, een nieuwe functie wilt aanvragen of een vraag hebt, dan kunt u de onderstaande contacttypen gebruiken:",
 	"help_jira": "$1JIRA (u hebt een gebruiker nodig)$2 (Project: Commonshelper2)",
 	"help_mail": "Mail sturen aan $1",
 	"help_commons": "$1Bericht toevoegen op Wikimedia Commons$2"
