@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mikulas1"
+			"Mikulas1",
+			"Wizzard"
 		]
 	},
+	"alws-label": "Wiki",
 	"alws-selectwiki": "(vyberte wiki)",
 	"alws-group-mustused": "Najviac používané wiki",
 	"alws-group-allaz": "Všetky wiki podľa abecedy",
