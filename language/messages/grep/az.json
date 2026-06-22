@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Şeyx Şamil"
+			"Şeyx Şamil",
+			"Əkrəm"
 		]
 	},
 	"results": "Nəticələr",
 	"language-label": "Dil",
-	"namespace-label": "Adlar fəzası",
+	"namespace-label": "Ad fəzası",
 	"project-label": "Layihə"
 }

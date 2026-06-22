@@ -3,7 +3,8 @@
 		"authors": [
 			"Cekli829",
 			"Khan27",
-			"Wertuose"
+			"Wertuose",
+			"Əkrəm"
 		]
 	},
 	"hello": "Salam",
@@ -11,7 +12,7 @@
 	"toolversion": "Versiya: $1",
 	"toolversionstamp": "Versiya $1 ($2)",
 	"etc": "və s.",
-	"namespace": "Adlar fəzası",
+	"namespace": "Ad fəzası",
 	"form-submit": "Seç",
 	"form-reset": "Sıfırla",
 	"years": "{{PLURAL: $1|il|il}}",

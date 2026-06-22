@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Şeyx Şamil"
+			"Şeyx Şamil",
+			"Əkrəm"
 		]
 	},
 	"label-page": "Səhifə",
-	"label-namespace": "Adlar fəzası",
+	"label-namespace": "Ad fəzası",
 	"section-extlinks": "Xarici keçidlər",
 	"section-categories": "Kateqoriyalar"
 }
