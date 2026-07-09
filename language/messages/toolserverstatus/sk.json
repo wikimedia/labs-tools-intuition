@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"toolserver-status-ok": "V databázovom klastri $1 nie sú žiadne problémy $2",
+	"toolserver-status-info": "Oznámenie pre používateľov klastra $1: $2",
+	"toolserver-status-warn": "Upozornenie pre používateľov klastra $1: $2",
+	"toolserver-status-down": "Databázový klaster $1 bol dočasne vypnutý. $2",
+	"toolserver-status-erro": "Databázový klaster $1 je nedostupný. $2",
+	"toolserver-status-unknown": "Neznámy stav klastra $1",
+	"toolserver-status-missing": "Klaster $1 neexistuje",
+	"toolserver-status-short-ok": "$1: V poriadku",
+	"toolserver-status-short-info": "$1: Informácia",
+	"toolserver-status-short-warn": "$1: Upozornenie",
+	"toolserver-status-short-down": "$1: Vypnuté",
+	"toolserver-status-short-erro": "$1: Chyba",
+	"toolserver-status-short-unknown": "$1: Neznáme",
+	"toolserver-status-short-missing": "$1: Chýba"
+}

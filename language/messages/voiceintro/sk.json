@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"voiceintro-toolbar-record-label": "Nahrávať",
+	"voiceintro-toolbar-stop-label": "Zastaviť",
+	"voiceintro-toolbar-clear-label": "Vyčistiť",
+	"voiceintro-toolbar-upload-label": "Nahrať",
+	"voiceintro-webaudio-not-supported": "WebAudio API nie je v tomto prehliadači podporované",
+	"voiceintro-upload-publish-succeeded": "Nahrávka bola úspešne nahraná:",
+	"voiceintro-upload-publish-failed": "Nahrávka nebola nahraná.",
+	"voiceintro-information-label": "Informácie",
+	"voiceintro-information-speaker-label": "Meno rečníka:",
+	"voiceintro-information-language-label": "Jazyk:",
+	"voiceintro-mic-access-notify": "Kliknutím na „Povoliť“ umožníte prehliadaču prístup k vášmu mikrofónu.",
+	"voiceintro-recording-notify": "Nahráva sa…"
+}

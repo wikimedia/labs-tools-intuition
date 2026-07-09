@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"title": "Počet vložení šablóny",
+	"enter-details": "Zadajte podrobnosti",
+	"introduction": "Zadajte názov šablóny (momentálne iba Wikipédie) a stlačte „Prejsť“. Je to také jednoduché. Výsledky sa do istej miery ukladajú do vyrovnávacej pamäte (zapamätanie výsledkov), no to je, žiaľ, mimo kontroly tohto nástroja a jeho vlastníka.",
+	"language-label": "Jazyk",
+	"namespace-label": "Menný priestor",
+	"pagename-label": "Názov stránky (bez menného priestoru)",
+	"transclusion-count-label": "Počet vložení",
+	"transclusion-count": "{{PLURAL:$1|Našlo sa $1 vloženie|Našli sa $1 vloženia|Našlo sa $1 vložení}}.",
+	"error-suggestion": "Možno ste zadali nesprávny názov stránky (alebo nesprávne veľké/malé písmená)?",
+	"time-label": "Čas potrebný na vykonanie príkazu"
+}

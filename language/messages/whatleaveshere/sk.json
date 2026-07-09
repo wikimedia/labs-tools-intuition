@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"title": "Čo odtiaľto odkazuje",
+	"title-leaveshere": "Odkazy vychádzajúce z „$1“",
+	"sub-leaveshere": "Nasledujúce stránky odkazujú z $1",
+	"label-page": "Stránka",
+	"label-namespace": "Menný priestor",
+	"label-limit": "Limit",
+	"namespacesall": "všetky",
+	"button-submit": "Prejsť",
+	"noleaveshere": "Z $1 nič neodkazuje",
+	"link-whatleaveshere": "Čo odtiaľto odkazuje",
+	"tooltip-whatleaveshere": "Zoznam všetkého, čo odtiaľto odkazuje",
+	"whatlinkshere": "Čo sem odkazuje",
+	"whatlinkshere-whatleaveshere": "Čo odtiaľto odkazuje?",
+	"istemplate": "vloženie",
+	"isfile": "odkaz na súbor",
+	"linksearch": "LinkSearch",
+	"section-links": "Odkazy",
+	"section-iwlinks": "Interwiki odkazy",
+	"section-extlinks": "Externé odkazy",
+	"section-categories": "Kategórie"
+}

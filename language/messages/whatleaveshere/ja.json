@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Tensama0415"
 		]
 	},
 	"title": "リンク先",
@@ -10,6 +11,7 @@
 	"label-page": "ページ",
 	"label-namespace": "名前空間",
 	"label-limit": "表示数",
+	"namespacesall": "すべて",
 	"button-submit": "表示",
 	"noleaveshere": "$1 からはどこにもリンクしていません",
 	"link-whatleaveshere": "リンク先",

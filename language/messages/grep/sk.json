@@ -1,11 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mikulas1"
+			"Mikulas1",
+			"Wizzard"
 		]
 	},
+	"title": "Grep názvov článkov (beta)",
+	"introduction": "Tento nástroj zobrazuje všetky názvy článkov, ktoré zodpovedajú vzoru regulárneho výrazu ($1). Vyhľadávanie pomocou regulárneho výrazu je náročné na zdroje. Ak je to možné, nezabudnite použiť indikátory predpony (^) a prípony ($).",
+	"explanation": "vysvetlenie",
+	"regex": "Regulárny výraz",
+	"enter-details": "Zadajte podrobnosti",
+	"results": "Výsledky",
 	"language-label": "Jazyk",
+	"namespace-label": "Menný priestor",
 	"project-label": "Projekt",
 	"pattern-label": "Vzor",
-	"redirects-label": "Zahrnúť presmerovania"
+	"redirects-label": "Zahrnúť presmerovania",
+	"limit-label": "Obmedziť zobrazenie na prvých 100 výsledkov",
+	"error-zeroresults": "V tomto mennom priestore nie sú žiadne stránky s názvami zodpovedajúcimi vášmu regulárnemu výrazu.",
+	"match-count": "Vášmu regulárnemu výrazu {{PLURAL:$1|zodpovedala $1 stránka|zodpovedali $1 stránky|zodpovedalo $1 stránok}}."
 }

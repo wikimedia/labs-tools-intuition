@@ -3,12 +3,31 @@
 		"authors": [
 			"Iketsi",
 			"Mikulas1",
-			"Platonides"
+			"Platonides",
+			"Wizzard"
 		]
 	},
+	"dateformat": "%d. %B %Y",
 	"hello": "Dobrý deň",
 	"welcome": "Vitajte",
+	"toolversion": "Verzia $1",
 	"toolversionstamp": "Verzia $1 ($2)",
 	"etc": "atď.",
+	"colon-separator": ":",
+	"namespace": "Menný priestor",
+	"form-submit": "Prejsť",
+	"form-reset": "Vynulovať",
+	"years": "{{PLURAL:$1|rok|roky|rokov}}",
+	"months": "{{PLURAL:$1|mesiac|mesiace|mesiacov}}",
+	"weeks": "{{PLURAL:$1|týždeň|týždne|týždňov}}",
+	"days": "{{PLURAL:$1|deň|dni|dní}}",
+	"hours": "{{PLURAL:$1|hodina|hodiny|hodín}}",
+	"minutes": "{{PLURAL:$1|minúta|minúty|minút}}",
+	"seconds": "{{PLURAL:$1|sekunda|sekundy|sekúnd}}",
+	"last-modified-date": "Naposledy upravené: $1",
+	"view-source": "Zobraziť zdroj",
+	"parentheses": "($1)",
+	"comma-separator": ",&#32;",
+	"word-separator": "&#32;",
 	"and": "&#32;a"
 }

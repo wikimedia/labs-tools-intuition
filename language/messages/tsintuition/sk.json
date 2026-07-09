@@ -2,11 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Mikulas1",
-			"Sudo77(new)"
+			"Sudo77(new)",
+			"Wizzard"
 		]
 	},
 	"bl-mysettings": "Moje jazykové nastavenia",
 	"bl-mysettings-new": "Zmeniť jazyk!",
+	"bl-promo": "Preklady zabezpečujú $1 a $2.",
+	"bl-changelanguage": "Zmeniť jazyk rozhrania tohto nástroja.",
 	"help-translate-tool": "Pomôcť preložiť tento nástroj!",
-	"help-translate-all": "Pomôcť preložiť nástroje!"
+	"help-translate-all": "Pomôcť preložiť nástroje!",
+	"help-translate-tooltip": "Pomôžte ostatným prekladaním správ rozhrania do vášho jazyka."
 }

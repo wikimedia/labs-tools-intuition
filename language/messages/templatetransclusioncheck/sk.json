@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"title": "Kontrola prepojení a vložení šablóny",
+	"description": "Kontroluje a hlási, ktoré články vkladajúce šablónu nie sú zo šablóny prepojené a ktoré články prepojené zo šablóny ju nevkladajú.",
+	"form-label-language": "Jazyk:",
+	"form-label-template": "Názov šablóny:",
+	"form-label-template2": "(vrátane menného priestoru)",
+	"form-label-complete": "Vytvoriť úplnú správu:",
+	"feedback-template-missing": "Šablóna $1 neexistuje.",
+	"feedback-template-noaccess": "Zdá sa, že šablóna $1 existuje, ale nie je dostupná z databázy. Môže ísť o dočasný problém s databázou. Použitá databáza: $2.",
+	"feedback-result": "Výsledky pre $1",
+	"feedback-header-mismatch": "Nezhoda medzi vloženiami a prepojeniami",
+	"feedback-header-no-link": "Vloženie, ale bez prepojenia",
+	"feedback-header-no-transclusion": "Prepojenie, ale bez vloženia",
+	"feedback-header-redirects": "Prepojenia na presmerovania",
+	"feedback-total-count": "Spolu: $1",
+	"feedback-header-complete": "Úplný prehľad vložení a prepojení",
+	"feedback-header-transclusions": "Vloženia šablóny",
+	"feedback-header-links": "Prepojenia zo šablóny",
+	"link-edit": "upraviť",
+	"link-create": "vytvoriť",
+	"link-complete": "Úplná správa…",
+	"footer-stats": "Vygenerované: $1. Trvanie: $2 {{PLURAL:$2|sekunda|sekundy|sekúnd}}.",
+	"error-language": "Neznámy kód jazyka."
+}

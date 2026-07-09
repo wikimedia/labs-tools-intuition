@@ -5,13 +5,29 @@
 			"Wizzard"
 		]
 	},
+	"title": "Sťahovanie obrázkov podľa kategórie",
+	"subtitle": "Jednoduchý spôsob sťahovania obrázkov v kategórii",
 	"project": "Projekt:",
 	"category": "Kategória:",
+	"thumbnailing": "Vytváranie náhľadov",
 	"max-width": "Maximálna šírka:",
 	"max-height": "Maximálna výška:",
 	"invalid-width": "Neplatná šírka",
 	"invalid-height": "Neplatná výška",
 	"no-such-project": "Neexistuje žiadny takýto projekt",
 	"no-images": "V tejto kategórii nie sú žiadne obrázky",
-	"download": "Stiahnuť"
+	"category-is-url": "Zadaný názov kategórie vyzerá ako URL. Musíte zadať názov kategórie, nie jej URL.",
+	"category-contains-namespace": "Zdá sa, že ste do názvu kategórie zahrnuli aj menný priestor. So zadaným názvom by stránka bola dostupná ako [[Category:$1]].",
+	"zip-failed": "Vytvorenie ZIP súboru zlyhalo",
+	"image-area-too-big": "$1 je príliš veľký na vytvorenie náhľadu. Použije sa plná veľkosť.",
+	"download-info": "{{PLURAL:$1|Je tu jeden obrázok|Sú tu $1 obrázky|Je tu $1 obrázkov}} s odhadovanou veľkosťou $2",
+	"download": "Stiahnuť",
+	"readme-contents": "Priložený súbor $4 obsahuje zoznam obrázkov v kategórii $1 ( $2 )$3.\n\n== Pokyny na stiahnutie všetkých uvedených obrázkov ==\nČas sťahovania sa môže pohybovať od niekoľkých minút po niekoľko hodín.\n\nWindows:\n Rozbaľte všetky súbory do rovnakého priečinka a spustite $5\n $6\nLinux/Mac OS:\n Rozbaľte všetky súbory a otvorte terminál v tomto priečinku. Spustite sh $5",
+	"non-bundled-wget": "Poznámka: Táto verzia neobsahuje wget pre Windows. Súbory budete musieť rozbaliť do priečinka s wget.exe alebo mať wget v premennej PATH.",
+	"wget-info": "Tento súbor obsahuje kópiu programu wget $1 (pre platformu Windows). Wget je slobodný softvér podľa podmienok licencie GNU GENERAL PUBLIC LICENSE verzia 3.\nKópia licencie sa nachádza nižšie a je dostupná aj na http://www.gnu.org/licenses/gpl-3.0.txt\n\nAk máte záujem o zdrojový kód tohto programu, môžete si ho stiahnuť z\n http://toolserver.org/~platonides/catdown/wget-sources.php?version=$1\n http://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\n ftp://ftp.gnu.org/gnu/wget/wget-$1.tar.xz\nalebo z niektorého iného zrkadla GNU, pozri\n http://www.gnu.org/prep/ftp.html",
+	"scaling-width": ", zmenšené na maximálnu šírku $1 {{PLURAL:$1|pixel|pixely|pixelov}}",
+	"scaling-height": ", zmenšené na maximálnu výšku $1 {{PLURAL:$1|pixel|pixely|pixelov}}",
+	"scaling-both": ", zmenšené na maximálnu veľkosť $1 × $2 pixelov",
+	"script-filename": "download.bat",
+	"readme-filename": "README.txt"
 }

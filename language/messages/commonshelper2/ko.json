@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kwj2772",
+			"Tensama0415",
 			"YeBoy371",
 			"아라"
 		]
@@ -38,7 +39,7 @@
 	"output_information": "수동 올리기의 경우, (필요하다면) 위의 글을 편집하고, 당신의 컴퓨터에 $1파일을 저장$2해 두었다가 $3파일을 올리십시오$4.",
 	"upload_submit": "올리기!",
 	"target_wiki": "올릴 위키",
-	"standard_project": "wikipedia",
+	"standard_project": "위키백과",
 	"error_bot_blocked": "올리기 봇이 위키미디어 공용에서 차단되어 있습니다.",
 	"error_upload_meta": "메타데이터에 문제가 있어 직접 올릴 수 없습니다! (위 내용 참고)",
 	"error_tusc_failed": "TUSC 인증 실패!",

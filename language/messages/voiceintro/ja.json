@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Tensama0415"
+		]
 	},
 	"voiceintro-toolbar-record-label": "録音",
 	"voiceintro-toolbar-stop-label": "停止",
@@ -10,6 +12,7 @@
 	"voiceintro-upload-publish-succeeded": "録音したものをアップロードしました:",
 	"voiceintro-upload-publish-failed": "録音したものをアップロードできませんでした。",
 	"voiceintro-information-label": "情報",
+	"voiceintro-information-speaker-label": "話者の名前：",
 	"voiceintro-information-language-label": "言語:",
 	"voiceintro-mic-access-notify": "ブラウザーがマイクにアクセスできるように「許可」をクリックしてください",
 	"voiceintro-recording-notify": "録音中..."
