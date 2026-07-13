@@ -7,20 +7,20 @@
 			"Teòtlalili"
 		]
 	},
-	"pagetitle": "tlaīxtōcāitl",
+	"pagetitle": "Tlahcuiloltocaitl",
 	"page": "Tlahkwilolamatl",
 	"help": "tlapalewilistli",
-	"today": "āxcān",
+	"today": "axcan",
 	"language": "tlahtolli",
 	"users": "{{PLURAL: $1|tequitiuhqui|tequitiuhqueh}}",
 	"discussion": "Teixnamiquiliztli",
 	"project": "Tlecaniltequitl",
 	"category": "Neneuhcayotl",
-	"template": "Neīxcuītīlli",
-	"files": "{{PLURAL: $1|ihcuilōlli}}",
-	"helpPage": "Tēpalēhuiliztlaīxtli",
+	"template": "Neixcuitilli",
+	"files": "{{PLURAL: $1|tlahtolpetlacalli|tlahtolpetlacalli}}",
+	"helpPage": "Tepalehuiliztlahcuilolamatl",
 	"pages": "tlahcuilolamameh",
-	"namespaces": "tōcātlacāuhtli",
+	"namespaces": "tocatlacauhtli",
 	"selectCategory": "Xicpehpena in neneuhcayotl tlen cah ipan in opochcatlapehpencatecpanalli",
 	"projectPages": "Amatlahcuilolli itech tlayecantequitl"
 }
