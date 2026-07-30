@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"base_prefslink": "<a href=\"prefs.fcgi\">Sprooch/Astellungen änneren</a>",
@@ -32,6 +33,7 @@
 	"prefs_langlabel": "Sprooch vum Interface:",
 	"report_wascached": "Dëse Rapport gouf virun %(age)s opgestallt.",
 	"report_last_run_duration": "Dëse Rapport gouf generéiert bannen %(duration)s.",
+	"report_variable": "%(name)s: %(value)s",
 	"report_noresults": "Pardon, dëse Rapport gëtt keng Resultater.",
 	"report_change_report": "<a href=\"%(url)s\">Rapport änneren</a>",
 	"report_change_wiki": "<a href=\"%(url)s\">Wiki wiesselen</a>"
