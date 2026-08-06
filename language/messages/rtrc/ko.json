@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Revi",
+			"Tensama0415",
 			"Ykhwong",
 			"아라"
 		]
@@ -51,7 +52,7 @@
 	"reload-interval": "간격",
 	"select-placeholder-none": "(없음)",
 	"showAnonOnly": "익명 편집만 보기",
-	"showUnpatrolledOnly": "검토되지 않은 편집만 보기",
+	"showUnpatrolledOnly": "점검되지 않은 편집만 보기",
 	"skip": "건너뛰기",
 	"skippededit": "건너뛴 편집",
 	"tag": "태그",
