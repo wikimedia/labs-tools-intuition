@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"PanWor",
 			"Sp5uhe",
 			"Woytecr"
 		]
@@ -23,7 +24,7 @@
 	"tusc_user": "Nazwa użytkownika TUSC",
 	"tusc_pass": "Hasło TUSC",
 	"do_it": "Zrób to",
-	"error_transfer_usr": "Nie podałeś nazwy użytkownika na Wikimedia Commons",
+	"error_transfer_usr": "Nie podano nazwy użytkownika na Wikimedia Commons",
 	"error_not_exists": "Brak pliku źródłowego!",
 	"error_on_commons": "Plik źródłowy już jest na $1!",
 	"error_file_exists": "Plik już istnieje na $3 pod nazwą „$1$4$2“!",

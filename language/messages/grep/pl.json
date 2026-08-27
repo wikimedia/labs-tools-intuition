@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Faren",
+			"PanWor",
 			"Ty221",
 			"Woytecr"
 		]
@@ -18,6 +19,6 @@
 	"pattern-label": "Wzór",
 	"redirects-label": "Zawiera przekierowania",
 	"limit-label": "Ogranicz wyświetlanie do pierwszych 100 wyników",
-	"error-zeroresults": "Nie ma stron w tej przestrzeni nazw, które pasują do twojego wyrażenia regularnego.",
-	"match-count": "{{PLURAL:$1|$1 strona|$1 stron}} pasuje do twojego wyrażenia regularnego."
+	"error-zeroresults": "Nie ma stron w tej przestrzeni nazw, które pasują do Twojego wyrażenia regularnego.",
+	"match-count": "{{PLURAL:$1|$1 strona|$1 strony|$1 stron}} pasuje do Twojego wyrażenia regularnego."
 }

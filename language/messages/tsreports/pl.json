@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Darellur",
+			"PanWor",
 			"The Polish",
 			"Woytecr"
 		]
@@ -27,7 +28,7 @@
 	"select_report_cold_not_running": "Dostępna jest wersja z pamięci podręcznej tego raportu, stworzona %(age) temu. Nowa wersja zostanie przygotowana, jeśli zobacz bieżący raport, i będzie gotowa za %(eta).",
 	"select_report_no_reports": "Niestety, obecnie nie ma dostępnych raportów dla %(wiki).",
 	"select_report_go_back": "← Zmień wiki",
-	"qvar_title": "Wprowadź zmienne dla twojego zapytania",
+	"qvar_title": "Wprowadź zmienne dla Twojego zapytania",
 	"qvar_blurb": "Twoje zapytanie wymaga podania kilku zmiennych",
 	"qvar_next": "Dalej →",
 	"prefs_title": "Ustawienia raportów",
