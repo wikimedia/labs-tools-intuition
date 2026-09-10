@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"PanWor",
 			"The Polish"
 		]
 	},
@@ -14,8 +15,8 @@
 	"feedback-template-noaccess": "Wydaje się że szablon $1 istnieje, lecz nie jest on dostępny w bazie danych. Może to być chwilowy problem z bazą danych. Używana baza danych: $2.",
 	"feedback-result": "Wyniki dla $1",
 	"feedback-header-mismatch": "Niezgodność pomiędzy dołączeniami i linkami",
-	"feedback-header-no-link": "Dołączenia ale bez linków",
-	"feedback-header-no-transclusion": "Linki ale bez dołączeń",
+	"feedback-header-no-link": "Dołączenia, ale bez linków",
+	"feedback-header-no-transclusion": "Linki, ale bez dołączeń",
 	"feedback-header-redirects": "Linki do przekierowań",
 	"feedback-total-count": "Suma: $1",
 	"feedback-header-complete": "Pełny przegląd dołączeń i linków",
