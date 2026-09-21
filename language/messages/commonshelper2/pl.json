@@ -47,7 +47,7 @@
 	"error_upload_users": "W okresie testowania przesyłanie jest dostępne tylko dla niektórych użytkowników!",
 	"error_upload_file": "Oryginalny plik nie może zostać pobrany.",
 	"help_intro": "Jeśli chcesz zgłosić błąd, zaproponować coś nowego lub masz pytanie, możesz użyć jednego z poniższych sposobów kontaktu:",
-	"help_jira": "$1JIRA (musisz posiadać konto)$2 (Projekt Commonshelper2)",
+	"help_jira": "$1JIRA (musisz mieć konto)$2 (projekt Commonshelper2)",
 	"help_mail": "Wyślij e‐mail do $1",
 	"help_commons": "$1Dodaj wiadomość na Commons$2"
 }
