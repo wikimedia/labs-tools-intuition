@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minisarm"
+			"Minisarm",
+			"Strainu"
 		]
 	},
 	"enter-details": "Introduceți detalii",
@@ -10,7 +11,7 @@
 	"namespace-label": "Spațiu de nume",
 	"pagename-label": "Numele paginii (fără spațiul de nume)",
 	"transclusion-count-label": "Număr de transcluderi",
-	"transclusion-count": "$1 transcluderi(e) găsite(ă).",
+	"transclusion-count": "$1 {{PLURAL:$1|includere|includeri|de includeri}} {{PLURAL:$1|găsită|găsite}}.",
 	"error-suggestion": "Poate că ați ortografiat greșit numele paginii (sau ați folosit în mod eronat majuscula/minuscula inițială)?",
 	"time-label": "Timpul necesar executării comenzii"
 }
