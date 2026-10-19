@@ -1,15 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
+	"title": "ایتھوں نکلݨ آلے لنک",
+	"title-leaveshere": "لنک جیڑھے \"$1\" توں نکلدے ہن",
+	"sub-leaveshere": "ہیٹھلے ورقے $1 توں لنک کریندے ہن",
 	"label-page": "ورقہ",
 	"label-namespace": "ناں جاہ",
 	"label-limit": "حد",
 	"namespacesall": "یکے",
 	"button-submit": "ڄلو",
+	"noleaveshere": "کجھ وی $1 توں لنک نئیں کریندا",
+	"link-whatleaveshere": "ایتھوں نکلݨ آلے لنک",
+	"tooltip-whatleaveshere": "ہر شئے دی فہرست جیڑھی ایتھوں لنک کریندی ہے",
+	"whatlinkshere": "کینتھوں لنک اے",
+	"whatlinkshere-whatleaveshere": "ایتھوں نکلݨ آلے لنک؟",
+	"istemplate": "شامل شدہ",
 	"isfile": "فائل دا لنک",
+	"linksearch": "LinkSearch",
 	"section-links": "لنک",
+	"section-iwlinks": "انٹروکی لنکس",
+	"section-extlinks": "بابلي لنکس",
 	"section-categories": "ونکیاں"
 }

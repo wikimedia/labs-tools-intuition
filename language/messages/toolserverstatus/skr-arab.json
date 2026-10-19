@@ -1,12 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
+	"toolserver-status-ok": "ڈیٹا بیس کلسٹر $1 وچ کوئی مسئلہ کائنی۔ $2",
+	"toolserver-status-info": "کلسٹر $1 دے صارفاں کیتے اطلاع: $2",
+	"toolserver-status-warn": "کلسٹر $1 دے صارفاں کیتے وارننگ: $2",
+	"toolserver-status-down": "ڈیٹا بیس کلسٹر $1 عارضی طور تے بند کر ݙتا ڳیا ہے۔ $2",
+	"toolserver-status-erro": "ڈیٹا بیس کلسٹر $1 ڈاؤن ہے۔ $2",
+	"toolserver-status-unknown": "کلسٹر $1 دا نامعلوم اسٹیٹس",
+	"toolserver-status-missing": "کلسٹر $1 موجود کائنی",
 	"toolserver-status-short-ok": "$1: ٹھیک ہے",
 	"toolserver-status-short-info": "$1: معلومات",
+	"toolserver-status-short-warn": "$1: وارننگ",
 	"toolserver-status-short-down": "$1: ہیٹھاں",
 	"toolserver-status-short-erro": "$1: خرابی",
-	"toolserver-status-short-unknown": "$1: نامعلوم"
+	"toolserver-status-short-unknown": "$1: نامعلوم",
+	"toolserver-status-short-missing": "$1: غائب"
 }

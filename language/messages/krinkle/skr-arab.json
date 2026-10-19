@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
 	"alws-label": "وکی",
 	"alws-selectwiki": "(وکی چݨو)",
+	"alws-group-mustused": "سب توں ودھ ورتیاں ڳئیاں وکیاں",
+	"alws-group-allaz": "ساریاں وکیاں حروفِ تہجی دے حساب نال",
 	"form-legend-settings": "ترتیباں"
 }

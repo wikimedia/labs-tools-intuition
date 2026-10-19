@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
 	"moretools": "ٻئے اوزار",
-	"homepage-title": "تعارف"
+	"homepage-title": "تعارف",
+	"bugs": "بگ رپورٹاں تے خصوصیات دیاں تجویزاں",
+	"comments": "تبصرے تے سوالاں",
+	"error-form-empty": "اک یا ودھک لازمی کھانے خالی رہ ڳئے ہن۔ جاری رکھݨ توں پہلے اوناں کوں مکمل کرو۔"
 }

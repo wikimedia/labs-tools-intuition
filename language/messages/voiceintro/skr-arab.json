@@ -1,13 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
 	"voiceintro-toolbar-record-label": "ریکارڈ",
 	"voiceintro-toolbar-stop-label": "اختتام",
 	"voiceintro-toolbar-clear-label": "صاف",
 	"voiceintro-toolbar-upload-label": "اپلوڈ",
+	"voiceintro-webaudio-not-supported": "ایس براؤزر کیتے WebAudio API دی سپورٹ کائنی۔",
+	"voiceintro-upload-publish-succeeded": "ریکارڈنگ کامیابی نال اپلوڈ تھئی ہے:",
+	"voiceintro-upload-publish-failed": "ریکارڈنگ اپلوڈ نئیں تھئی۔",
 	"voiceintro-information-label": "معلومات",
-	"voiceintro-information-language-label": "زبان:"
+	"voiceintro-information-speaker-label": "ٻلاوݨ آلی دا ناں:",
+	"voiceintro-information-language-label": "زبان:",
+	"voiceintro-mic-access-notify": "\"Allow\" تے کلک کرو تاں جو براؤزر تہاݙے مائیکروفون تک رسائی حاصل کر سگے۔",
+	"voiceintro-recording-notify": "ریکارڈنگ…"
 }

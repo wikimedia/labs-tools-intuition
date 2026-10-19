@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
 	"bl-mysettings": "میݙی زبان ترتیباں",
-	"bl-mysettings-new": "زبان وٹاؤ!"
+	"bl-mysettings-new": "زبان وٹاؤ!",
+	"bl-promo": "$1 تے $2 ترجمے مہیا کریندے ہن۔",
+	"bl-changelanguage": "ایس ٹول دی انٹرفیس زبان تبدیل کرو۔",
+	"help-translate-tool": "ایندا اوزار دا ترجمہ کرݨ وچ مدد کرو!",
+	"help-translate-all": "اوزاراں دا ترجمہ کرݨ وچ مدد کرو!",
+	"help-translate-tooltip": "اپݨی زبان وچ انٹرفیس پیغامات دا ترجمہ کر کے ٻیاں دی مدد کرو۔"
 }

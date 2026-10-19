@@ -1,17 +1,47 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
+	"base_prefslink": "<a href=\"prefs.fcgi\">زبان / ترجیحات تبدیل کرو</a>",
+	"base_jiralink": "<a href=\"https://jira.toolserver.org/browse/REPORTS\">بگ دی اطلاع ݙیو یا فیچر دی درخواست کرو</a>",
+	"base_wikilink": "<a href=\"https://wiki.toolserver.org/view/Report_tool\">وکی</a>",
 	"category_users": "ورتݨ آلے",
 	"category_articles": "ورقے",
 	"category_images": "تصویراں",
 	"category_miscellaneous": "متفرق",
 	"category_wikidata": "وکی ڈیٹا",
 	"select_wiki_title": "فائل چݨو",
+	"select_wiki": "رپورٹ کیتے مہربانی کرکے اوہ وکی درج کرو جیڑھی تساں چاہو (مثلاً \"<kbd>en.wikipedia.org</kbd>\"):",
 	"select_wiki_next": "اڳلا←",
+	"select_report_title": "%(wiki)s تے چلاوݨ کیتے رپورٹ منتخب کرو",
+	"select_report": "مہربانی کرکے اک رپورٹ منتخب کرو:",
+	"select_report_disabled": "ایہ رپورٹ دستیاب کائنی۔",
+	"select_report_disabled_blurb": "نوٹ: <span class=\"disabled-report\">ایسیاں</span> رپورٹاں راتاں دے سوال ہن جیڑھے کݙاہیں چلائے نئیں ڳئے؛ ایں کیتے ایں رپورٹاں کیتے کوئی نتیجے دستیاب کائنی۔ جڈاں اڳلی رات دی رپورٹ دا سلسلہ مکمل تھی ویسی، ایہ رپورٹاں دستیاب تھی ویسن۔",
+	"select_report_not_cached": "ایس رپورٹ دا کوئی کیش شدہ ورژن کائنی۔ پہلا سلسلہ شروع کرݨ کیتے لنک تے کلک کرو۔",
+	"select_report_first": "ایہ رپورٹ پہلی واری تیار کیتی ویندی پئی ہے، تے جلدی دستیاب تھیوݨی چاہیدی ہے۔",
+	"select_report_hot": "ایس رپورٹ دا %(age)s پُراݨا کیش شدہ ورژن دستیاب ہے۔",
+	"select_report_cold_running": "ایس رپورٹ دا %(age)s پُراݨا کیش شدہ ورژن دستیاب ہے۔ نواں ورژن %(eta)s وچ متوقع ہے۔",
+	"select_report_cold_not_running": "ایس رپورٹ دا %(age)s پُراݨا کیش شدہ ورژن دستیاب ہے۔ نواں ورژن تیار کیتا ویسی جے تساں موجودہ رپورٹ ݙیکھو، تے تقریباً %(eta)s وچ تیار ہوسی۔",
+	"select_report_no_reports": "معذرت، ایس وقت %(wiki)s کیتے کوئی رپورٹاں دستیاب کائنی۔",
+	"select_report_go_back": "وکی تبدیل کرو ←",
+	"qvar_title": "تہاݙے سوال کیتے متغیر درج کرو",
+	"qvar_blurb": "تہاݙے سوال کیتے کجھ متغیر درج کرݨ ضروری ہن۔",
 	"qvar_next": "اڳلا←",
+	"prefs_title": "رپورٹاں دیاں ترجیحات",
 	"prefs_submit": "ٹھیک ہے",
-	"prefs_langlabel": "انٹر فیس زبان"
+	"prefs_done": "تہاݙیاں ترجیحات تبدیل کر ݙتیاں ڳئیاں۔",
+	"prefs_langlabel": "انٹر فیس زبان",
+	"report_wascached": "ایہ رپورٹ %(age)s پہلے کیش کیتی ڳئی ہئی۔",
+	"report_cold_cache_running": "کیش دی (مڑ) تخلیق %(runtime)s پہلے شروع تھئی ہئی۔",
+	"report_cold_cache_started": "کیش دی (مڑ) تخلیق ہݨے شروع تھئی ہے۔",
+	"report_nocache": "ایہ رپورٹ رات کوں مڑ تخلیق کرݨ دی منصوبہ بندی کیتی ڳئی ہے، لیکن اڄے چلائی نئیں ڳئی، ایس کیتے کوئی ڈیٹا دستیاب کائنی۔",
+	"report_first_run": "ایہ رپورٹ پہلی واری تیار کیتی ویندی پئی ہے، ایس کیتے اڄے کوئی ڈیٹا دستیاب کائنی۔",
+	"report_last_run_duration": "ایہ رپورٹ %(duration)s وچ تیار کیتی ڳئی ہئی۔",
+	"report_variables_used": "ایس رپورٹ کوں تیار کرݨ کیتے مندرجہ ذیل متغیر ورتے ڳئے ہن:",
+	"report_noresults": "معذرت، ایس رپورٹ توں کوئی نتیجہ نئیں ملیا۔",
+	"report_change_report": "<a href=\"%(url)s\">رپورٹ تبدیل کرو</a>",
+	"report_change_wiki": "<a href=\"%(url)s\">وکی تبدیل کرو</a>"
 }

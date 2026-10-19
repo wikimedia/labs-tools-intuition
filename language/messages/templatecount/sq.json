@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"INNERLMNT"
+		]
+	},
+	"enter-details": "Fut detajet",
+	"introduction": "Shkruani në emër të një stampe (vetëm për projektet Wikipedia për momentin) dhe shtype \"Shko\". Është po aq e thjeshtë sa kaq. Mund të ketë vonesa në rezultate aktuale pasi ruhen për një kohë në memorie (caching), por kjo është për fat të keq jashtë kontrollit të këtij mjeti dhe pronarit të saj.",
+	"language-label": "Gjuha",
+	"namespace-label": "Emërhapësira",
+	"pagename-label": "Emri i faqes (duke përjashtuar hapësirën e emrave)",
+	"transclusion-count-label": "Numri i tejfutjeve",
+	"transclusion-count": "$1 tejfutje u gjet(ën).",
+	"error-suggestion": "Ndoshta e ke shkruar gabimisht emrin e faqes (ose ke gabuar shkronjat e mëdha e të vogla)?",
+	"time-label": "Koha e nevojitur për të ekzekutuar komandën"
+}

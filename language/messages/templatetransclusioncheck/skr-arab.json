@@ -1,13 +1,30 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
+	"title": "ٹیمپلیٹ لنکنگ تے ٹرانسکلوژن چیک",
+	"description": "چیک کریندا ہے تے رپورٹ ݙیندا ہے کہ کہڑے مضمون ٹیمپلیٹ ٹرانسکلوڈ کریندن پر ٹیمپلیٹ توں لنک نئیں تھئے، تے کہڑے مضمون ٹیمپلیٹ توں لنک تھئے ہن پر ٹرانسکلوڈ نئیں کریندے۔",
 	"form-label-language": "زبان:",
 	"form-label-template": "سان٘چے دا ناں:",
+	"form-label-template2": "(نیم سپیس سمیت)",
+	"form-label-complete": "مکمل رپورٹ تیار کرو:",
+	"feedback-template-missing": "ٹیمپلیٹ $1 موجود کائنی۔",
+	"feedback-template-noaccess": "ٹیمپلیٹ $1 لڳدا ہے موجود ہے، پر ڈیٹا بیس توں دستیاب کائنی۔ ایہہ شاید عارضی ڈیٹا بیس مسئلہ ہے۔ ورتیا ڳیا ڈیٹا بیس: $2۔",
+	"feedback-result": "$1 کیتے نتیجے",
+	"feedback-header-mismatch": "ٹرانسکلوژن تے لنکاں وچ عدم مطابقت",
+	"feedback-header-no-link": "ٹرانسکلوژن پر لنک کائنی",
+	"feedback-header-no-transclusion": "لنک پر ٹرانسکلوژن کائنی",
+	"feedback-header-redirects": "ری ڈائریکٹس آلے لنک",
 	"feedback-total-count": "کل:  $1",
+	"feedback-header-complete": "ٹرانسکلوژن تے لنک دا مکمل جائزہ",
+	"feedback-header-transclusions": "ٹیمپلیٹ دیاں ٹرانسکلوژنز",
+	"feedback-header-links": "ٹیمپلیٹ توں لنک",
 	"link-edit": "لکھو",
 	"link-create": "بݨاؤ",
-	"link-complete": "مکمل رپورٹ۔ ۔ ۔"
+	"link-complete": "مکمل رپورٹ۔ ۔ ۔",
+	"footer-stats": "تیار کردہ: $1۔ مدت: $2 {{PLURAL:$2|سیکنڈ|سیکنڈ}}۔",
+	"error-language": "زبان دا نامعلوم کوڈ۔"
 }

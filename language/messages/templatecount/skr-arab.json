@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
+	"enter-details": "تفصیل درج کرو",
+	"introduction": "اک ٹیمپلیٹ دا ناں لکھو (اس وقت صرف وکیپیڈیا) تے گو دباؤ۔ ایہ صرف ایݨا ہے۔ کجھ کیشنگ (نتائج یاد رکھݨ) ہے، پر ایہ بدقسمتی نال ایس ٹول تے اوندے مالک دے کنٹرول توں باہر ہے۔",
 	"language-label": "زبان",
-	"namespace-label": "ناں جاہ"
+	"namespace-label": "ناں جاہ",
+	"pagename-label": "ورقے دا ناں (نیم سپیس توں بغیر)",
+	"transclusion-count-label": "ٹرانسکلوژن دی ڳݨتی",
+	"transclusion-count": "$1 ٹرانسکلوژن ملی۔",
+	"error-suggestion": "شاید تساں ورقے دا ناں غلط لکھیا ہووے (یا غلط وݙے اکھراں نال)؟",
+	"time-label": "کمانڈ تے لاڳا وقت"
 }

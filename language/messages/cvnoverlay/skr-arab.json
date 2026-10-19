@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
+	"adder": "شامل کرݨ آلا",
 	"adder-empty": "اݨ سونہاں",
 	"expiry": "مُکسی",
+	"globalwatched": "عالمی طور تے نگرانی شدہ",
 	"reason": "سبب",
 	"reason-empty": "کوئی وجہ کائنی"
 }
