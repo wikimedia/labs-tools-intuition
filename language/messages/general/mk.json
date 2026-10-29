@@ -21,6 +21,6 @@
 	"minutes": "{{PLURAL: $1|минута|минути}}",
 	"seconds": "{{PLURAL: $1|секунда|секунди}}",
 	"last-modified-date": "Последена измена: $1",
-	"view-source": "Извор",
+	"view-source": "Погл. извор",
 	"and": "&#32;и"
 }
